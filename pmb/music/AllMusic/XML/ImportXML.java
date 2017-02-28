@@ -14,11 +14,9 @@ import javax.xml.parsers.SAXParserFactory;
 
 import org.xml.sax.SAXException;
 
-import pmb.music.AllMusic.App;
-import pmb.music.AllMusic.file.ImportFile;
 import pmb.music.AllMusic.model.Composition;
-import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.CompositionUtils;
+import pmb.music.AllMusic.utils.Constant;
 
 /**
  * @author i2113mj
@@ -31,7 +29,7 @@ public final class ImportXML {
     private static List<Composition> compoList = new ArrayList<Composition>();
 
     public static List<Composition> importXML(String uri) {
-        System.out.println("Start importXML");
+//        System.out.println("Start importXML");
         SAXParserFactory fabrique = SAXParserFactory.newInstance();
         SAXParser parseur = null;
         try {
@@ -57,7 +55,7 @@ public final class ImportXML {
 //                compoList.add(handler.compoList.get(i));
 //            }
         }
-        System.out.println("End importXML");
+//        System.out.println("End importXML");
         return handler.getCompoList();
     }
 
@@ -93,30 +91,25 @@ public final class ImportXML {
         return compoList;
     }
     
-    public static void convertTxtToXml(String fileName, String exportName) {
-        String path = System.getProperty("user.dir") + App.RESOURCES_DIRECTORY + "Music\\" + fileName;
-        File file = new File(path);
-        Fichier convertFile = ImportFile.convertOneFile(file);
-        String line = ImportFile.randomLineAndLastLines(file).get(0);
-        convertFile.setSorted(ImportFile.isSorted(line));
-        try {
-            List<Composition> compoList = ImportFile.getCompositionsFromFile(file, convertFile, ImportFile.determineType(file.getName()), ImportFile.getSeparator(line), false);
-            ExportXML.exportXML(compoList, exportName);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    
-    public static List<Composition> fusionFiles(String fileName, boolean getFinal) throws Exception {
+    /**
+     * Fusionne tous les fichiers à l'endroit indiqué dans {@code final.xml}. 
+     * Export le fichier final (et crée une sauvegarde de ce fichier dans history) et renvoie la liste de Composition.
+     * 
+     * @param dirName le dossier où se situe les fichiers
+     * @param getFinal si on fusionne aussi le fichier {@code final.xml} avec les autres fichiers
+     * @return la liste des {@link Composition} des fichiers
+     * @throws IOException 
+     */
+    public static List<Composition> fusionFiles(String dirName, boolean getFinal) throws IOException  {
         System.out.println("Start fusionFiles");
-        File dir = new File(fileName);
+        File dir = new File(dirName);
         List<File> files = new ArrayList<File>();
         CompositionUtils.listFilesForFolder(dir, files, ".xml", false);
         List<Composition> compoFusion = new ArrayList<Composition>();
         for (File fileXML : files) {
             boolean isFinal = fileXML.getName().equals("final.xml");
             if (!isFinal || (getFinal && isFinal)) {
-                System.out.println(fileXML.getName());
+//                System.out.println(fileXML.getName());
                 compoFusion.addAll(ImportXML.importXML(fileXML.getAbsolutePath()));
             }
         }
@@ -128,12 +121,44 @@ public final class ImportXML {
             } else {
                 Composition composition = compoFusion.get(compoFusion.indexOf(compoExist));
                 composition.getFiles().addAll(compo.getFiles());
-                compoFinal.add(composition);
+//                compoFinal.add(composition);
             }
         }
 //        CompositionUtils.printCompoList(compoFinal);
         ExportXML.exportXML(compoFinal, "final");
         System.out.println("End fusionFiles");
+        return compoFinal;
+    }
+    
+    /**
+     * Fusionne le fichier donné avec {@code final.xml}. 
+     * Export le fichier final (et crée une sauvegarde de ce fichier dans history) et renvoie la liste de Composition.
+     * 
+     * @param filePath le chemin du fichier
+     * @return la liste des {@link Composition} des fichiers
+     * @throws IOException 
+     */
+    public static List<Composition> fusionOneFile(String filePath) throws IOException  {
+        System.out.println("Start fusionOneFile");
+        File file = new File(filePath);
+        File finalFile = new File(Constant.FINAL_FILE_PATH);
+        List<Composition> compoFusion = new ArrayList<Composition>();
+        compoFusion.addAll(ImportXML.importXML(file.getAbsolutePath()));
+        compoFusion.addAll(ImportXML.importXML(finalFile.getAbsolutePath()));
+        
+        List<Composition> compoFinal = new ArrayList<Composition>();
+        for (Composition compo : compoFusion) {
+            Composition compoExist = CompositionUtils.compoExist(compoFinal, compo);
+            if (compoExist == null) {
+                compoFinal.add(compo);
+            } else {
+                Composition composition = compoFusion.get(compoFusion.indexOf(compoExist));
+                composition.getFiles().addAll(compo.getFiles());
+//                compoFinal.add(composition);
+            }
+        }
+        ExportXML.exportXML(compoFinal, "final");
+        System.out.println("End fusionOneFile");
         return compoFinal;
     }
     
