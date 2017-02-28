@@ -111,7 +111,6 @@ public class MenuPanel extends JPanel {
 //                try {
 //                    ExportXML.exportXML(WorkoutArray.getAllWorkout(), "workout");
 //                } catch (Exception e) {
-//                    // TODO Auto-generated catch block
 //                    e.printStackTrace();
 //                }
 //            }
