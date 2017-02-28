@@ -16,6 +16,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.utils.Constant;
 
 /**
  * @author i2113mj
@@ -42,7 +43,7 @@ public class CompoHandler extends DefaultHandler {
                 files = new ArrayList<>();
                 try {
                     compo.setArtist(attributes.getValue("artist"));
-                    compo.setOeuvre(attributes.getValue("oeuvre"));
+                    compo.setTitre(attributes.getValue("titre"));
                     compo.setRecordType(RecordType.valueOf(attributes.getValue("type")));
                 } catch (Exception e) {
                     throw new SAXException(e);
@@ -59,7 +60,7 @@ public class CompoHandler extends DefaultHandler {
                 file.setFileName(attributes.getValue("fileName"));
                 file.setCategorie(Cat.valueOf(attributes.getValue("categorie")));
                 try {
-                    file.setCreationDate(ExportXML.SDF_DTTM.parse(attributes.getValue("creationDate")));
+                    file.setCreationDate(Constant.SDF_DTTM.parse(attributes.getValue("creationDate")));
                 } catch (ParseException e) {
                     file.setCreationDate(new Date());
                 }
