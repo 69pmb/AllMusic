@@ -29,10 +29,13 @@ public class CompoModel extends DefaultTableModel {
     @SuppressWarnings({ "unchecked", "rawtypes" })
     @Override
     public Class getColumnClass(int col) {
-        if (col == 4) {
-            return Boolean.class;
-        } else {
-            return String.class;
+        switch (col) {
+            case 3:
+                return Integer.class;
+            case 4:
+                return Boolean.class;
+            default:
+                return String.class;
         }
     }
 
@@ -50,6 +53,7 @@ public class CompoModel extends DefaultTableModel {
         return this.columnIdentifiers.size();
     }
 
+    @SuppressWarnings("rawtypes")
     public List<Object> getSelected() {
         List<Object> toReturn = new ArrayList<Object>();
         for (int i = 0; i < dataVector.size(); i++) {
