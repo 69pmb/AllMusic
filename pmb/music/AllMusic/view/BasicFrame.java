@@ -4,15 +4,16 @@ import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
 
+import pmb.music.AllMusic.utils.Constant;
+
 public class BasicFrame extends JFrame{
     private static final long serialVersionUID = 3539279683629505967L;
-    public static final String DEFAULT_TITLE="Ma Fenetre";
 //    private TableTool tableau;
     private Onglet tab;
     private MenuPanel menuPanel;
     
     public BasicFrame(){
-        super(DEFAULT_TITLE);
+        super(Constant.DEFAULT_TITLE);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTab(new Onglet(this));
         this.getContentPane().add(tab,BorderLayout.EAST);
