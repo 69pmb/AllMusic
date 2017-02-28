@@ -5,7 +5,6 @@ package pmb.music.AllMusic.utils;
 
 import java.util.List;
 
-import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.model.Fichier;
 
 /**
@@ -16,6 +15,7 @@ public class FichierUtils {
 
     
     public static Object[][] convertListForJTable(List<Fichier> fList) {
+        System.out.println("Start convertListForJTable");
         if(fList == null) {
             return new String[0][9];
         }
@@ -27,11 +27,12 @@ public class FichierUtils {
             result[i][2] = String.valueOf(f.getPublishYear());
             result[i][3] = f.getCategorie().toString();
             result[i][4] = f.getRangeDateBegin() + " - " + f.getRangeDateEnd();
-            result[i][5] = ExportXML.SDF_DTTM.format(f.getCreationDate());
+            result[i][5] = Constant.SDF_DTTM.format(f.getCreationDate());
             result[i][6] = String.valueOf(f.getSize());
             result[i][7] = String.valueOf(f.getClassement());
             result[i][8] = f.getSorted().toString().toUpperCase();
         }
+        System.out.println("End convertListForJTable");
         return result;
     }
 }
