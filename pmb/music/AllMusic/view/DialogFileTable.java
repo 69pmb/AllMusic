@@ -4,8 +4,13 @@
 package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
+import java.awt.event.InputEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
@@ -17,6 +22,7 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 
 import pmb.music.AllMusic.model.Fichier;
+import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 
 /**
@@ -70,6 +76,25 @@ public class DialogFileTable extends JDialog {
             }
             modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
         }
+        
+        fichiers.addMouseListener(new MouseAdapter() {
+            @SuppressWarnings("unchecked")
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK)!=0) {
+                    System.out.println("Start fichier mouse");
+                    JTable target = (JTable)e.getSource();
+                    Vector<String> v = (Vector<String>) ((FichierModel)target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+                    String absFile = Constant.RESOURCES_ABS_DIRECTORY + v.get(1) + ".xml";
+                    try {
+                        Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absFile);
+                    } catch (IOException e1) {
+                        e1.printStackTrace();
+                    }
+                    System.out.println("End fichier mouse");
+                }
+            }
+        });
         
         DefaultTableCellRenderer renderer = new EvenOddRenderer();
         for (int i = 0; i < fichiers.getColumnCount(); i++) {
