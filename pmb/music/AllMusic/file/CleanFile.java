@@ -1,39 +1,37 @@
 package pmb.music.AllMusic.file;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 
-import pmb.music.AllMusic.App;
+import pmb.music.AllMusic.utils.Constant;
 
 public class CleanFile {
 
-    public static final String REGULAR_DASH = "-";
-    public static final String DOT = ". ";
-    public static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – "," — ", " - " };
-
     public static File clearFile(File file, boolean isSorted, String sep, String characterToRemove) throws IOException {
         System.out.println("Start clearFile");
-        List<String> sepAsList = new LinkedList<String>(Arrays.asList(SEPARATORS));
+        List<String> sepAsList = new LinkedList<String>(Arrays.asList(Constant.SEPARATORS));
         if(StringUtils.isNotBlank(sep)){
             sepAsList.add(sep);
         }
         BufferedReader br = null;
         String line = "";
-        FileWriter writer = null;
+        BufferedWriter writer = null;
         String exitFile = file.getParentFile().getAbsolutePath()+"\\"+"Cleaned - " + file.getName();
 
         try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(file), App.ANSI_ENCODING));
-            writer = new FileWriter(exitFile);
+            br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
+            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));
             while ((line = br.readLine()) != null) {
                 boolean isDigit = true;
                 if (isSorted) {
