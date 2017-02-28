@@ -16,16 +16,6 @@ import pmb.music.AllMusic.view.BasicFrame;
  */
 public class App {
 
-    public static final String RESOURCES_DIRECTORY = "\\src\\main\\resources\\";
-    
-    public static final String RESOURCES_ABS_DIRECTORY = System.getProperty("user.dir") + RESOURCES_DIRECTORY;
-    
-    public static final String FINAL_FILE_PATH = System.getProperty("user.dir") + App.RESOURCES_DIRECTORY + "final.xml";
-    
-    public static final String MUSIC_DIRECTORY = System.getProperty("user.dir") + App.RESOURCES_DIRECTORY + "Music\\";
-    
-    public static final String ANSI_ENCODING = "Cp1252";
-
     public static void main(String[] args) {
 
         Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
@@ -65,7 +55,5 @@ public class App {
         } catch (NullPointerException e) {}
         f.pack();
         f.setVisible(true);
-
-        // ImportXML.convertTxtToXml("Rolling Stone\\The 100 Best Singles Of 65-90 songs - 1989.txt","exemple6");
     }
 }
