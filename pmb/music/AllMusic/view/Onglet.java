@@ -34,8 +34,8 @@ public class Onglet extends JPanel {
 //        final JScrollPane scrollPane = new JScrollPane(Table.getTable());
         // scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
         
-        JPanel importFile = new ImportPanel();
-        JPanel search = new SearchPanel();
+        ImportPanel importFile = new ImportPanel();
+        SearchPanel search = new SearchPanel();
         
 //        scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         onglets.addTab("Import", importFile);
@@ -43,12 +43,6 @@ public class Onglet extends JPanel {
         onglets.addTab("Rechercher", search);
         onglets.setMnemonicAt(1, KeyEvent.VK_2);
 
-//        OngletVitesse.buildOngletVitesse(onglets,dim);
-//        OngletWeeks.buildOngletWeeks(onglets,dim);
-//        OngletMonths.buildOngletMonths(onglets, dim);           
-//        OngletYears.buildOngletYears(onglets, dim);         
-//        OngletGroup.buildOngletGroup(onglets, dim);
-//        
         onglets.setOpaque(true);
         pannel.add(onglets);
         pannel.validate();
@@ -83,14 +77,6 @@ public class Onglet extends JPanel {
         return isTabExists;
     }
     
-//    public TableTool getTable() {
-//        return Table;
-//    }
-//
-//    public void setTable(TableTool table) {
-//        Table = table;
-//    }
-
     public JTabbedPane getOnglets() {
         return onglets;
     }
