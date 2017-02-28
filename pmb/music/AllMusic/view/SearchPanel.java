@@ -5,17 +5,24 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
+import java.awt.Point;
+import java.awt.Toolkit;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
+import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -24,6 +31,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
@@ -32,22 +40,24 @@ import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.collections.CollectionUtils;
 
-import pmb.music.AllMusic.App;
+import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
+import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 
 public class SearchPanel extends JPanel {
 
     private static final long serialVersionUID = 2593372709628283573L;
 
-    private JLabel catLabel, authorLabel, publiLabel, rangeLabel, typeLabel, oeuvreLabel, fileNameLabel, artistLabel, countLabel;
+    private JLabel catLabel, authorLabel, publiLabel, rangeLabel, typeLabel, titreLabel, fileNameLabel, artistLabel, countLabel;
 
-    private JTextField author, publi, rangeB, rangeE, oeuvre, fileName, artist;
+    private JTextField author, publi, rangeB, rangeE, titre, fileName, artist;
 
     private JTable result;
 
@@ -57,32 +67,25 @@ public class SearchPanel extends JPanel {
     
     private List<Composition> compoResult = new ArrayList<Composition>();
     
-    private static final String  title[] = {"Artiste", "Oeuvre", "Type", "Nombre de fichiers", ""};
+    private static final String  title[] = {"Artiste", "Titre", "Type", "Nombre de fichiers", ""};
     
     private CompoModel model;
     
-    private List<Composition> allCompo;
-
     public SearchPanel() {
         super();
+        System.out.println("Start SearchPanel");
 
-        JPanel top = new JPanel();
-        JPanel center = new JPanel(new BorderLayout());
-        JPanel bottom = new JPanel(new GridLayout());
-        
-        allCompo = ImportXML.importXML(App.FINAL_FILE_PATH);
-
-        JButton search = new JButton("Chercher");
-        search.setBackground(Color.white);
-        search.setPreferredSize(new Dimension(220, 60));
-        search.addActionListener(new ActionListener() {
-
+        AbstractAction searchAction = new AbstractAction() {
+            private static final long serialVersionUID = 1L;
             @Override
             public void actionPerformed(ActionEvent arg0) {
+
+                System.out.println("Start search");
+                List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
                 if (CollectionUtils.isNotEmpty(allCompo)) {
                     Map<String, String> criteria = new HashMap<>();
                     criteria.put("artist", artist.getText());
-                    criteria.put("oeuvre", oeuvre.getText());
+                    criteria.put("titre", titre.getText());
                     if (type.getSelectedItem() != null) {
                         criteria.put("type", type.getSelectedItem().toString());
                     }
@@ -95,23 +98,82 @@ public class SearchPanel extends JPanel {
                     criteria.put("dateB", rangeB.getText());
                     criteria.put("dateE", rangeE.getText());
 
-                    compoResult = SearchUtils.search(allCompo, criteria);
-//                    CompositionUtils.printCompoList(compoResult);
-                    
-                    model.setRowCount(0);
-                    Object[][] convertListForJTable = CompositionUtils.convertListForJTable(compoResult);
-                    for (int i = 0; i < convertListForJTable.length; i++) {
-                        model.addRow(convertListForJTable[i]);
-                        model.setValueAt(Boolean.valueOf((String) model.getValueAt(i, 4)),i, 4);
-                    }
-                    colRenderer();
-                    countLabel.setText(compoResult.size() + " résultats");
-                    model.fireTableDataChanged();
-                    result.repaint();
+                    compoResult = new ArrayList<Composition>();
+                    compoResult.addAll(SearchUtils.searchContains(allCompo, criteria));
+                    updateTable();
                 }
+                System.out.println("End search");
+            }
+        };
+        
+        JPanel top = new JPanel();
+        JPanel center = new JPanel(new BorderLayout());
+        JPanel bottom = new JPanel(new GridLayout());
+
+        JButton search = new JButton("Chercher");
+        search.setBackground(Color.white);
+        search.setPreferredSize(new Dimension(220, 60));
+        search.addActionListener(searchAction);
+        search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW).
+                put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER,0), "Enter_pressed");
+        search.getActionMap().put("Enter_pressed", searchAction);
+        
+        top.add(search);
+        
+        // Clear Btn
+        JButton clear = new JButton("Réinitialiser recherche");
+        clear.setBackground(Color.white);
+        clear.setPreferredSize(new Dimension(200, 60));
+        AbstractAction cleanAction = new AbstractAction() {
+            private static final long serialVersionUID = 1L;
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                artist.setText("");
+                titre.setText("");
+                type.setSelectedItem(null);
+                publi.setText("");
+                fileName.setText("");
+                author.setText("");
+                cat.setSelectedItem(null);
+                rangeB.setText("");
+                rangeE.setText("");
+            }
+        };
+        clear.addActionListener(cleanAction);
+        top.add(clear);
+        
+        // Delete Btn
+        JButton delete = new JButton("Supprimer les compositions sélectionnées");
+        delete.setBackground(Color.white);
+        delete.setPreferredSize(new Dimension(400, 60));
+        delete.addActionListener(new ActionListener(){
+            @SuppressWarnings("unchecked")
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("Start delete");
+                List<Object> selected = model.getSelected();
+                List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+                for (Object o : selected) {
+                    Vector<String> v = (Vector<String>) o;
+                    try {
+                        Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0),v.get(1),v.get(2));
+                        compoResult.remove(compoResult.indexOf(toRemove));
+                        importXML.remove(importXML.indexOf(toRemove));
+                        CompositionUtils.removeCompositionsInFiles(toRemove);
+                    } catch (MyException e1) {
+                        e1.printStackTrace();
+                    }
+                }
+                try {
+                    ExportXML.exportXML(importXML, "final");
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+                updateTable();
+                System.out.println("End delete");
             }
         });
-        top.add(search);
+        top.add(delete);
 
         JPanel firstLine = new JPanel();
 
@@ -125,15 +187,16 @@ public class SearchPanel extends JPanel {
         artistPanel.add(artist);
         firstLine.add(artistPanel);
 
-        // Oeuvre
-        JPanel oeuvrePanel = new JPanel();
-        oeuvrePanel.setPreferredSize(new Dimension(200, 60));
-        oeuvreLabel = new JLabel("Oeuvre : ");
-        oeuvre = new JTextField();
-        oeuvre.setPreferredSize(new Dimension(150, 25));
-        oeuvrePanel.add(oeuvreLabel);
-        oeuvrePanel.add(oeuvre);
-        firstLine.add(oeuvrePanel);
+
+        // Titre
+        JPanel titrePanel = new JPanel();
+        titrePanel.setPreferredSize(new Dimension(180, 60));
+        titreLabel = new JLabel("Titre : ");
+        titre = new JTextField();
+        titre.setPreferredSize(new Dimension(150, 25));
+        titrePanel.add(titreLabel);
+        titrePanel.add(titre);
+        firstLine.add(titrePanel);
 
         // Nom du fichier
         JPanel fileNamePanel = new JPanel();
@@ -220,21 +283,6 @@ public class SearchPanel extends JPanel {
         countLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 30));
         countPanel.add(countLabel);
         secondLine.add(countPanel);
-        
-        JButton delete = new JButton("Supprimer les compositions sélectionnées");
-        delete.setBackground(Color.white);
-        delete.setPreferredSize(new Dimension(220, 60));
-        delete.addActionListener(new ActionListener(){
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                List<Object> selected = model.getSelected();
-                for (Object o : selected) {
-                    System.out.println(o);
-                    // TODO Remove from final those composition
-                }
-            }
-        });
-        secondLine.add(delete);
 
         center.add(secondLine, BorderLayout.CENTER);
 
@@ -254,13 +302,30 @@ public class SearchPanel extends JPanel {
             @Override
             public void mouseClicked(MouseEvent e) {
                 if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK)!=0) {
+                    System.out.println("Start result mouse");
                     JTable target = (JTable)e.getSource();
                     Vector<String> v = (Vector<String>) ((CompoModel)target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-                    System.out.println(v);
-                    List<Fichier> files = CompositionUtils.findByArtistOeuvreAndType(compoResult, v.get(0), v.get(1), v.get(2)).getFiles();
-                    System.out.println(files);
-                    DialogFileTable pop = new DialogFileTable(null,"Fichier", true,files);
-                    pop.showDialogFileTable();
+                    List<Fichier> files;
+                    try {
+                        files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(0), v.get(1), v.get(2)).getFiles();
+                        DialogFileTable pop = new DialogFileTable(null,"Fichier", true,files);
+                        pop.showDialogFileTable();
+                    } catch (MyException e1) {
+                        e1.printStackTrace();
+                    }
+                    System.out.println("End result mouse");
+                 } else if(SwingUtilities.isRightMouseButton(e)) {
+                     System.out.println("Start right mouse");
+                     JTable target = (JTable)e.getSource();
+                     int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+                     if (rowAtPoint > -1) {
+                         target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+                     }
+                    Vector<String> v = (Vector<String>) ((CompoModel)target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+                     StringSelection selection = new StringSelection(v.get(0) + " " + v.get(1));
+                     Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+                     clipboard.setContents(selection, selection);
+                     System.out.println("End right mouse");
                  }
             }
         });
@@ -272,6 +337,7 @@ public class SearchPanel extends JPanel {
         center.setBorder(BorderFactory.createTitledBorder(""));
         this.add(center, BorderLayout.CENTER);
         this.add(bottom, BorderLayout.SOUTH);
+        System.out.println("End SearchPanel");
     }
     
     private void colRenderer(){
@@ -303,4 +369,14 @@ public class SearchPanel extends JPanel {
 //        boolRenderer.setHorizontalAlignment(JLabel.CENTER);
 //        result.getColumnModel().getColumn(4).setCellRenderer(boolRenderer);
     }
+
+    public void updateTable() {
+        model.setRowCount(0);
+        model.setDataVector(CompositionUtils.convertListForJTable(compoResult) , new Vector<>(Arrays.asList(title)));
+        colRenderer();
+        countLabel.setText(compoResult.size() + " résultats");
+        model.fireTableDataChanged();
+        result.repaint();
+    }
+
 }
