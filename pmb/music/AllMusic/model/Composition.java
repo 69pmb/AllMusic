@@ -5,6 +5,8 @@ package pmb.music.AllMusic.model;
 
 import java.util.List;
 
+import org.apache.commons.collections.CollectionUtils;
+
 /**
  * @author i2113mj
  *
@@ -12,14 +14,14 @@ import java.util.List;
 public class Composition {
     private String artist;
     private List<Fichier> files;
-    private String oeuvre;
+    private String titre;
     private RecordType recordType;
     
-    public Composition(String artist, List<Fichier> files, String oeuvre, RecordType recordType) {
+    public Composition(String artist, List<Fichier> files, String titre, RecordType recordType) {
         super();
         this.artist = artist;
         this.files = files;
-        this.oeuvre = oeuvre;
+        this.titre = titre;
         this.recordType = recordType;
     }
 
@@ -55,17 +57,17 @@ public class Composition {
     }
     
     /**
-     * @return the oeuvre
+     * @return the titre
      */
-    public String getOeuvre() {
-        return this.oeuvre;
+    public String getTitre() {
+        return this.titre;
     }
     
     /**
-     * @param oeuvre the oeuvre to set
+     * @param titre the titre to set
      */
-    public void setOeuvre(String oeuvre) {
-        this.oeuvre = oeuvre;
+    public void setTitre(String titre) {
+        this.titre = titre;
     }
     
     /**
@@ -87,6 +89,47 @@ public class Composition {
      */
     @Override
     public String toString() {
-        return "Composition [artist=" + this.artist + ", oeuvre=" + this.oeuvre + ", recordType=" + this.recordType + ", files=" + this.files + "]";
+        return "Composition [artist=" + this.artist + ", titre=" + this.titre + ", recordType=" + this.recordType + ", files=" + this.files + "]";
+    }
+
+    /* (non-Javadoc)
+     * @see java.lang.Object#hashCode()
+     */
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((this.artist == null) ? 0 : this.artist.hashCode());
+        result = prime * result + ((this.files == null) ? 0 : this.files.hashCode());
+        result = prime * result + ((this.titre == null) ? 0 : this.titre.hashCode());
+        result = prime * result + ((this.recordType == null) ? 0 : this.recordType.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null) return false;
+        if (getClass() != obj.getClass()) return false;
+        Composition other = (Composition) obj;
+        if (this.artist == null) {
+            if (other.artist != null) return false;
+        } else if (!this.artist.equals(other.artist)) return false;
+        if (CollectionUtils.isEmpty(this.files)) {
+            if (CollectionUtils.isEmpty(other.files)) return false;
+        } else if (this.files.size() != other.files.size()) {
+            return false;
+        } else {
+            for (int i = 0; i < this.files.size(); i++) {
+                if (!this.files.get(i).equals(other.files.get(i))) {
+                    return false;
+                }
+            }
+        }
+        if (this.titre == null) {
+            if (other.titre != null) return false;
+        } else if (!this.titre.equals(other.titre)) return false;
+        if (this.recordType != other.recordType) return false;
+        return true;
     }
 }
