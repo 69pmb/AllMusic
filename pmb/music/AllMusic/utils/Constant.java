@@ -18,7 +18,7 @@ public class Constant {
 
     public static final String FINAL_FILE_PATH = System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY + "final.xml";
 
-    public static final String MUSIC_DIRECTORY = System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY + "Music\\";
+    public static final String MUSIC_ABS_DIRECTORY = System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY + "Music\\";
     
     public static final String NOTEPAD_EXE = "C:\\Program Files (x86)\\Notepad++\\notepad++.exe ";
 
