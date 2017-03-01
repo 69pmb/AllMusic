@@ -14,6 +14,7 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -81,7 +82,7 @@ public class ImportPanel extends JPanel {
     public ImportPanel() {
         super();
         System.out.println("Start ImportPanel");
-        explorePath = Constant.MUSIC_DIRECTORY;
+        explorePath = Constant.MUSIC_ABS_DIRECTORY;
         this.setLayout(new GridLayout(6,1));
 
         JPanel top = new JPanel();
@@ -92,41 +93,42 @@ public class ImportPanel extends JPanel {
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start browse");
-                miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList("")));
                 file = addBrowsingFile("txt",explorePath);
                 if (file != null) {
-                    explorePath = StringUtils.substring(file.getAbsolutePath(),0,file.getAbsolutePath().lastIndexOf(File.separator));
-                    absolutePathFileTxt = file.getAbsolutePath();
-                    fichier = ImportFile.convertOneFile(file);
-                    List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
-                    fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(0)));
-                    absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + fichier.getFileName() + ".xml";
-                    if(FileUtils.fileExists(absolutePathFileXml)){
-                        miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
-                    }
-                    determineType = ImportFile.determineType(file.getName());
-                    name.setText(fichier.getFileName());
-                    author.setText(fichier.getAuthor());
-                    date.setText(Constant.SDF_DTTM.format(fichier.getCreationDate()));
-                    cat.setSelectedItem(fichier.getCategorie());
-                    publi.setText(String.valueOf(fichier.getPublishYear()));
-                    type.setSelectedItem(determineType);
-                    rangeB.setText(String.valueOf(fichier.getRangeDateBegin()));
-                    rangeE.setText(String.valueOf(fichier.getRangeDateEnd()));
-                    sorted.setSelected(fichier.getSorted());
-                    size.setText(String.valueOf(fichier.getSize()));
-                    firstL1.setText(randomLineAndLastLines.get(0));
-                    firstL2.setText(randomLineAndLastLines.get(1));
-                    firstL3.setText(randomLineAndLastLines.get(2));
-                    line.setText(randomLineAndLastLines.get(3));
-                    lastL1.setText(randomLineAndLastLines.get(4));
-                    lastL2.setText(randomLineAndLastLines.get(5));
-                    separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(0)));
+                    loadFile();
                 }
                 System.out.println("End browse");
             }
         });
         top.add(browse);
+
+        // Reset
+        JButton cleanBtn = new JButton("Reset");
+        cleanBtn.setBackground(Color.white);
+        cleanBtn.setPreferredSize(new Dimension(220, 60));
+        cleanBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent arg0) {
+                System.out.println("Start cleanBtn");
+                resetAll();
+                System.out.println("End cleanBtn");
+            }
+        });
+        top.add(cleanBtn);
+
+        // Reload
+        JButton reloadBtn = new JButton("Reload");
+        reloadBtn.setBackground(Color.white);
+        reloadBtn.setPreferredSize(new Dimension(220, 60));
+        reloadBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent arg0) {
+                System.out.println("Start reloadBtn");
+                loadFile();
+                System.out.println("End reloadBtn");
+            }
+        });
+        top.add(reloadBtn);
 
         JButton open = new JButton("Charger un fichier XML");
         open.setBackground(Color.white);
@@ -143,6 +145,7 @@ public class ImportPanel extends JPanel {
             }
         });
         top.add(open);
+        
         top.setBorder(BorderFactory.createTitledBorder(""));
         this.add(top);
 
@@ -499,15 +502,17 @@ public class ImportPanel extends JPanel {
         });
         bottom.add(fusionOneFile);
 
+        // Ouvre le fichier d'entrée dans notepad++
         JButton openFile = new JButton("Éditer le fichier source");
         openFile.addActionListener(new ActionListener() {
-
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start openFile");
                 if (StringUtils.isNotBlank(absolutePathFileTxt)) {
                     try {
-                        Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileTxt);
+                        if(FileUtils.fileExists(absolutePathFileTxt)){
+                            Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileTxt);
+                        }
                     } catch (IOException e) {
                         result = new LinkedList<String>(Arrays.asList(e.toString()));
                     }
@@ -518,16 +523,18 @@ public class ImportPanel extends JPanel {
         });
         bottom.add(openFile);
 
+        // Ouvre le fichier xml dans notepad++
         JButton openXml = new JButton("Éditer le fichier xml");
         openXml.addActionListener(new ActionListener() {
-
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start openXml");
                 if (StringUtils.isNotBlank(absolutePathFileXml)) {
                     try {
                         System.out.println(absolutePathFileXml);
-                        Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileXml);
+                        if(FileUtils.fileExists(absolutePathFileXml)){
+                            Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileXml);
+                        }
                     } catch (IOException e) {
                         result = new LinkedList<String>(Arrays.asList(e.toString()));
                     }
@@ -537,6 +544,7 @@ public class ImportPanel extends JPanel {
             }
         });
         bottom.add(openXml);
+        
         bottom.setBorder(BorderFactory.createTitledBorder(""));
         this.add(bottom);
 
@@ -555,15 +563,83 @@ public class ImportPanel extends JPanel {
     }
 
     private File addBrowsingFile(String extension, String dir) {
+        System.out.println("Start addBrowsingFile");
+        System.out.println(dir);
         JFileChooser jfile = new JFileChooser(dir);
         jfile.setApproveButtonText("Ouvrir");
         FileNameExtensionFilter filter = new FileNameExtensionFilter(extension,extension);
         jfile.setFileFilter(filter);
         if (jfile.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+            resetAll();
+            System.out.println("End addBrowsingFile");
             return jfile.getSelectedFile();
         } else {
+            System.out.println("End addBrowsingFile, no file choose");
             return null;
         }
+    }
+
+    private void resetAll() {
+        explorePath = Constant.MUSIC_ABS_DIRECTORY;
+        absolutePathFileTxt = "";
+        fichier = null;
+        absolutePathFileXml = "";
+        file = null;
+        name.setText("");
+        author.setText("");
+        date.setText("");
+        type.setSelectedItem(null);
+        cat.setSelectedItem(null);
+        rangeB.setText("");
+        rangeE.setText("");
+        sorted.setSelected(false);
+        order.setSelected(true);
+        publi.setText("");
+        size.setText("");
+        line.setText("");
+        firstL1.setText("");
+        firstL2.setText("");
+        firstL3.setText("");
+        lastL1.setText("");
+        lastL2.setText("");
+        separator.setText("");
+        characterToRemove.setText("");
+        reverseArtist.setSelected(false);
+        removeParenthese.setSelected(false);
+        getFinal.setSelected(false);
+        upper.setSelected(false);
+        removeAfter.setSelected(false);
+        miseEnFormeResultLabel(new ArrayList<String>());
+    }
+
+    private void loadFile() {
+        explorePath = StringUtils.substring(file.getAbsolutePath(),0,file.getAbsolutePath().lastIndexOf(File.separator));
+        absolutePathFileTxt = file.getAbsolutePath();
+        fichier = ImportFile.convertOneFile(file);
+        List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
+        fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(0)));
+        absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + fichier.getFileName() + ".xml";
+        if(FileUtils.fileExists(absolutePathFileXml)){
+            miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
+        }
+        determineType = ImportFile.determineType(file.getName());
+        name.setText(fichier.getFileName());
+        author.setText(fichier.getAuthor());
+        date.setText(Constant.SDF_DTTM.format(fichier.getCreationDate()));
+        cat.setSelectedItem(fichier.getCategorie());
+        publi.setText(String.valueOf(fichier.getPublishYear()));
+        type.setSelectedItem(determineType);
+        rangeB.setText(String.valueOf(fichier.getRangeDateBegin()));
+        rangeE.setText(String.valueOf(fichier.getRangeDateEnd()));
+        sorted.setSelected(fichier.getSorted());
+        size.setText(String.valueOf(fichier.getSize()));
+        firstL1.setText(randomLineAndLastLines.get(0));
+        firstL2.setText(randomLineAndLastLines.get(1));
+        firstL3.setText(randomLineAndLastLines.get(2));
+        line.setText(randomLineAndLastLines.get(3));
+        lastL1.setText(randomLineAndLastLines.get(4));
+        lastL2.setText(randomLineAndLastLines.get(5));
+        separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(3)));
     }
 
 }
