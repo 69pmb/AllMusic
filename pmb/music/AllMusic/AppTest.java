@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
 import pmb.music.AllMusic.file.ImportFile;
@@ -15,6 +16,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
+import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.SearchUtils;
 
 /**
@@ -24,7 +26,7 @@ public class AppTest {
 
     public static void main(String[] args) {
         List<File> files = new ArrayList<>();
-        String pathname = App.MUSIC_DIRECTORY + "NME";
+        String pathname = Constant.MUSIC_ABS_DIRECTORY + "NME";
         CompositionUtils.listFilesForFolder(new File(pathname), files, ".txt", true);
         for (File file : files) {
             System.out.println(file.getName());
@@ -43,7 +45,7 @@ public class AppTest {
         }
     }
 
-    @Test
+//    @Test
     public void testSearch() {
         List<Fichier> files = new ArrayList<Fichier>();
         Fichier file1 = new Fichier("NME", "Best albums of the 60's", 2000, Cat.DECADE, 1960, 1969, false, 0, new Date(),50);
@@ -68,7 +70,86 @@ public class AppTest {
         
         Map<String, String> criteria = new HashMap<>();
         criteria.put("auteur", "nme");
-        List<Composition> search = SearchUtils.search(compList, criteria);
+        List<Composition> search = SearchUtils.searchStrictly(compList, criteria);
         CompositionUtils.printCompoList(search);
+    }
+    
+    @Test
+    public void searchArtist(){
+        System.out.println(StringUtils.containsIgnoreCase("Beatles", "beat"));
+    }
+    
+    @Test
+    public void detectUpper() {
+        String test = "05. GERRY & THE PACEMAKERS Ferry Cross the Mersey";
+        boolean sorted = true;
+        char [] array = test.toCharArray();
+        int cut = 0;
+        for(int i =0; i<array.length;i++){
+            if(Character.isUpperCase(array[i]) || !Character.isAlphabetic(array[i])){
+                System.out.println("upper: " + array[i]);
+            } else {
+                cut = i-1;
+                System.out.println("else: " + array[i]);
+                break;
+            }
+        }
+        String artist = StringUtils.substring(test, 0, cut);
+        String titre = StringUtils.substring(test, cut);
+        System.out.println("cut: " + cut);
+        System.out.println("artist: " + artist);
+        System.out.println("titre: " + titre);
+        int rank = 0;
+        if (sorted) {
+            String res = StringUtils.substringBefore(artist, ".");
+            if (StringUtils.isNumeric(res)) {
+                rank = Integer.parseInt(res);
+                artist = StringUtils.substringAfter(artist, ".");
+            } else {
+                res = artist.split(" ")[0];
+                rank = Integer.parseInt(res);
+                artist = StringUtils.substringAfterLast(artist, res);
+            }
+        } else {
+            rank = 1;
+        }
+        System.out.println("rank: " + rank);
+    }
+    
+    @Test
+    public void detectQuote() {
+        String test = "05. GERRY & THE PACEMAKERS Ferry Cross the Mersey";
+        boolean sorted = true;
+        char [] array = test.toCharArray();
+        int cut = 0;
+        for(int i =0; i<array.length;i++){
+            if(Character.isUpperCase(array[i]) || !Character.isAlphabetic(array[i])){
+                System.out.println("upper: " + array[i]);
+            } else {
+                cut = i-1;
+                System.out.println("else: " + array[i]);
+                break;
+            }
+        }
+        String artist = StringUtils.substring(test, 0, cut);
+        String titre = StringUtils.substring(test, cut);
+        System.out.println("cut: " + cut);
+        System.out.println("artist: " + artist);
+        System.out.println("titre: " + titre);
+        int rank = 0;
+        if (sorted) {
+            String res = StringUtils.substringBefore(artist, ".");
+            if (StringUtils.isNumeric(res)) {
+                rank = Integer.parseInt(res);
+                artist = StringUtils.substringAfter(artist, ".");
+            } else {
+                res = artist.split(" ")[0];
+                rank = Integer.parseInt(res);
+                artist = StringUtils.substringAfterLast(artist, res);
+            }
+        } else {
+            rank = 1;
+        }
+        System.out.println("rank: " + rank);
     }
 }
