@@ -62,10 +62,11 @@ public class ImportFile {
         List<Composition> compoList = new ArrayList<Composition>();
         String line = "";
         BufferedReader br = null;
-        int i = 1;
+        int i = 1, lineNb = 1;
         try {
             br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
             while ((line = br.readLine()) != null) {
+                lineNb++;
                 if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, "#")) {
                     continue;
                 }
@@ -82,7 +83,7 @@ public class ImportFile {
                         split = line.split("-");
                     }
                     if (split.length < 2) {
-                        throw new MyException("Separator " + separator + " is not suitable for line " + i + " : " + line);
+                        throw new MyException("Separator " + separator + " is not suitable for line " + lineNb + " : " + line);
                     }
                     if (split.length > 2) {
                         String newSep = " "+separator+" ";
@@ -90,7 +91,7 @@ public class ImportFile {
                         split[0] = StringUtils.replace(StringUtils.substringBeforeLast(line, newSep), newSep, ", ");
                         split[1] = StringUtils.substringAfterLast(line, newSep);
                         if(StringUtils.countMatches(line, newSep)>1) {
-                            result.add("### Error Size ("+split.length+") for: " + line + " number: " + i);
+                            result.add("### Error Size ("+split.length+") for: " + line + " number: " + lineNb);
                             result.add("### split: " + Arrays.toString(split));
                         }
                     }
@@ -154,8 +155,8 @@ public class ImportFile {
                 composition.setArtist(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(),"\""),"\""));
                 composition.setTitre(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(),"\""),"\""));
                 if(parenthese) {
-                    composition.setTitre(removeParenthese(result, line, i, composition.getTitre()));
-                    composition.setArtist(removeParenthese(result, line, i, composition.getArtist()));
+                    composition.setTitre(removeParenthese(result, line, lineNb, composition.getTitre()));
+                    composition.setArtist(removeParenthese(result, line, lineNb, composition.getArtist()));
                 }
 
                 compoList.add(composition);
@@ -177,15 +178,15 @@ public class ImportFile {
         return compoList;
     }
 
-    private static String removeParenthese(List<String> result, String line, int i, String chaine) {
+    private static String removeParenthese(List<String> result, String line, int lineNumber, String chaine) {
         int countMatches = StringUtils.countMatches(chaine, "(");
         String res = chaine;
         if(countMatches == 1) {
             res = StringUtils.trim(StringUtils.substringBefore(chaine,"("));
         } else if(countMatches == 0) {
-            result.add("Pas de parenthèse, line: " + line + " number: " + i);
+            result.add("Pas de parenthèse, line: " + line + " number: " + lineNumber);
         } else {
-            result.add("###Trop de parenthèses, line: " + line + " number: " + i);
+            result.add("###Trop de parenthèses, line: " + line + " number: " + lineNumber);
         }
         return res;
     }
