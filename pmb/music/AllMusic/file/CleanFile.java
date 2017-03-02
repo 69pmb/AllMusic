@@ -21,13 +21,13 @@ public class CleanFile {
     public static File clearFile(File file, boolean isSorted, String sep, String characterToRemove) throws IOException {
         System.out.println("Start clearFile");
         List<String> sepAsList = new LinkedList<String>(Arrays.asList(Constant.SEPARATORS));
-        if(StringUtils.isNotBlank(sep)){
+        if (StringUtils.isNotBlank(sep)) {
             sepAsList.add(sep);
         }
         BufferedReader br = null;
         String line = "";
         BufferedWriter writer = null;
-        String exitFile = file.getParentFile().getAbsolutePath()+"\\"+"Cleaned - " + file.getName();
+        String exitFile = file.getParentFile().getAbsolutePath() + "\\" + "Cleaned - " + file.getName();
 
         try {
             br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
