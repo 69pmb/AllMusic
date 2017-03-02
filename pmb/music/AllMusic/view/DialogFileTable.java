@@ -4,6 +4,10 @@
 package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
+import java.awt.Point;
+import java.awt.Toolkit;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -17,6 +21,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
@@ -35,8 +40,8 @@ public class DialogFileTable extends JDialog {
 
     private List<Fichier> files = new ArrayList<Fichier>();
 
-    private static final String title[] = { "Auteur", "Nom du fichier", "Date de publication", "Categorie", "Dates", "Date de création", "Taille", "Classement" , "Classé"};
-    
+    private static final String title[] = { "Auteur", "Nom du fichier", "Date de publication", "Categorie", "Dates", "Date de création", "Taille", "Classement", "Classé" };
+
     private JTable fichiers;
 
     public DialogFileTable(JFrame parent, String title, boolean modal, List<Fichier> files) {
@@ -69,22 +74,23 @@ public class DialogFileTable extends JDialog {
             int taille = 0;
             int total2 = fichiers.getRowCount();
             for (int j = 0; j < total2; j++) {
-                int taille2 = fichiers.getValueAt(j, i).toString().length() * 7; 
+                int taille2 = fichiers.getValueAt(j, i).toString().length() * 7;
                 if (taille2 > taille) {
                     taille = taille2;
                 }
             }
             modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
         }
-        
+
         fichiers.addMouseListener(new MouseAdapter() {
             @SuppressWarnings("unchecked")
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK)!=0) {
+                if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
                     System.out.println("Start fichier mouse");
-                    JTable target = (JTable)e.getSource();
-                    Vector<String> v = (Vector<String>) ((FichierModel)target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+                    JTable target = (JTable) e.getSource();
+                    Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+                            .get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
                     String absFile = Constant.RESOURCES_ABS_DIRECTORY + v.get(1) + ".xml";
                     try {
                         Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absFile);
@@ -92,10 +98,22 @@ public class DialogFileTable extends JDialog {
                         e1.printStackTrace();
                     }
                     System.out.println("End fichier mouse");
+                } else if (SwingUtilities.isRightMouseButton(e)) {
+                    System.out.println("Start right mouse");
+                    JTable target = (JTable) e.getSource();
+                    int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+                    if (rowAtPoint > -1) {
+                        target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+                    }
+                    Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+                    StringSelection selection = new StringSelection(v.get(1));
+                    Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+                    clipboard.setContents(selection, selection);
+                    System.out.println("End right mouse");
                 }
             }
         });
-        
+
         DefaultTableCellRenderer renderer = new EvenOddRenderer();
         for (int i = 0; i < fichiers.getColumnCount(); i++) {
             renderer.setHorizontalAlignment(JLabel.CENTER);
