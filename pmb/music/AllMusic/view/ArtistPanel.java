@@ -4,6 +4,7 @@
 package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
@@ -64,6 +65,8 @@ public class ArtistPanel extends JPanel {
         model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
         table.setModel(model);
         table.setRowSorter(new TableRowSorter<TableModel>(model));
+        table.getRowSorter().toggleSortOrder(1);
+        table.getRowSorter().toggleSortOrder(1);
         colRenderer();
         table.addMouseListener(new MouseAdapter() {
             @SuppressWarnings("unchecked")
@@ -81,7 +84,7 @@ public class ArtistPanel extends JPanel {
                         for (Composition composition : findByArtist) {
                             files.addAll(composition.getFiles());
                         }
-                        DialogFileTable pop = new DialogFileTable(null,"Fichier", true,files);
+                        DialogFileTable pop = new DialogFileTable(null,"Fichier", true,files, new Dimension(1500, 600));
                         pop.showDialogFileTable();
                     } catch (MyException e1) {
                         e1.printStackTrace();
