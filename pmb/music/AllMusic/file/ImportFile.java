@@ -159,6 +159,8 @@ public class ImportFile {
                     composition.setArtist(removeParenthese(result, line, lineNb, composition.getArtist()));
                 }
 
+//                composition.setArtist(StringUtils.stripAccents(composition.getArtist()));
+//                composition.setTitre(StringUtils.stripAccents(composition.getTitre()));
                 compoList.add(composition);
                 i++;
             }
