@@ -57,12 +57,12 @@ public class ImportPanel extends JPanel {
     private JLabel catLabel, authorLabel, publiLabel, rangeLabel, sizeLabel, sortedLabel, typeLabel, dateLabel, nameLabel, lineLabel, separatorLabel, orderLabel, getFinalLabel,
             lastLinesLabel, firstLinesLabel, characterToRemoveLabel, reverseArtistLabel, removeParentheseLabel, upperLabel, removeAfterLabel;
 
-    private JTextField author, publi, rangeB, rangeE, size, name, date, line, separator, firstL1, firstL2, firstL3,lastL1, lastL2, characterToRemove;
+    private JTextField author, publi, rangeB, rangeE, size, name, date, line, separator, firstL1, firstL2, firstL3, lastL1, lastL2, characterToRemove;
 
     private JTextArea resultLabel;
-    
+
     private File file, xmlFile;
-    
+
     private JComboBox<Cat> cat;
 
     private JComboBox<RecordType> type;
@@ -74,16 +74,16 @@ public class ImportPanel extends JPanel {
     private JCheckBox sorted, order, getFinal, reverseArtist, removeParenthese, upper, removeAfter;
 
     private RecordType determineType;
-    
+
     private String explorePath;
 
-    List<String> result;
+    List<String> result = new LinkedList<String>();
 
     public ImportPanel() {
         super();
         System.out.println("Start ImportPanel");
         explorePath = Constant.MUSIC_ABS_DIRECTORY;
-        this.setLayout(new GridLayout(6,1));
+        this.setLayout(new GridLayout(6, 1));
 
         JPanel top = new JPanel();
         JButton browse = new JButton("Parcourir");
@@ -93,7 +93,7 @@ public class ImportPanel extends JPanel {
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start browse");
-                file = addBrowsingFile("txt",explorePath);
+                file = addBrowsingFile("txt", explorePath);
                 if (file != null) {
                     loadFile();
                 }
@@ -145,7 +145,7 @@ public class ImportPanel extends JPanel {
             }
         });
         top.add(open);
-        
+
         top.setBorder(BorderFactory.createTitledBorder(""));
         this.add(top);
 
@@ -160,12 +160,12 @@ public class ImportPanel extends JPanel {
         namePanel.add(nameLabel);
         namePanel.add(name);
         firstLine.add(namePanel);
-        
+
         name.addFocusListener(new FocusListener() {
             @Override
             public void focusLost(FocusEvent e) {
                 absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText() + ".xml";
-                if(FileUtils.fileExists(absolutePathFileXml)){
+                if (FileUtils.fileExists(absolutePathFileXml)) {
                     miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(name.getText() + " existe déjà")));
                 }
             }
@@ -269,7 +269,7 @@ public class ImportPanel extends JPanel {
         publiPanel.add(publiLabel);
         publiPanel.add(publi);
         secondLine.add(publiPanel);
-        
+
         // Taille
         JPanel sizePanel = new JPanel();
         sizePanel.setPreferredSize(new Dimension(200, 60));
@@ -352,7 +352,7 @@ public class ImportPanel extends JPanel {
         characterToRemovePanel.add(characterToRemoveLabel);
         characterToRemovePanel.add(characterToRemove);
         thirdLine.add(characterToRemovePanel);
-        
+
         // reverseArtist
         JPanel reverseArtistPanel = new JPanel();
         reverseArtistPanel.setPreferredSize(new Dimension(100, 60));
@@ -362,7 +362,7 @@ public class ImportPanel extends JPanel {
         reverseArtistPanel.add(reverseArtistLabel);
         reverseArtistPanel.add(reverseArtist);
         thirdLine.add(reverseArtistPanel);
-        
+
         // removeParenthese
         JPanel removeParenthesePanel = new JPanel();
         removeParenthesePanel.setPreferredSize(new Dimension(260, 60));
@@ -372,7 +372,7 @@ public class ImportPanel extends JPanel {
         removeParenthesePanel.add(removeParentheseLabel);
         removeParenthesePanel.add(removeParenthese);
         thirdLine.add(removeParenthesePanel);
-        
+
         // upper
         JPanel upperPanel = new JPanel();
         upperPanel.setPreferredSize(new Dimension(240, 60));
@@ -382,7 +382,7 @@ public class ImportPanel extends JPanel {
         upperPanel.add(upperLabel);
         upperPanel.add(upper);
         thirdLine.add(upperPanel);
-        
+
         // removeAfter
         JPanel removeAfterPanel = new JPanel();
         removeAfterPanel.setPreferredSize(new Dimension(240, 60));
@@ -392,13 +392,13 @@ public class ImportPanel extends JPanel {
         removeAfterPanel.add(removeAfterLabel);
         removeAfterPanel.add(removeAfter);
         thirdLine.add(removeAfterPanel);
-        
+
         this.add(thirdLine);
         JPanel fourthLine = new JPanel(new GridLayout(0, 1));
-        
+
         // result
         JPanel resultPanel = new JPanel(new BorderLayout());
-//        resultPanel.setPreferredSize(new Dimension(1000, 300));
+        // resultPanel.setPreferredSize(new Dimension(1000, 300));
         resultLabel = new JTextArea();
         resultLabel.setWrapStyleWord(true);
         resultLabel.setLineWrap(true);
@@ -411,7 +411,6 @@ public class ImportPanel extends JPanel {
         fourthLine.add(resultPanel);
 
         this.add(fourthLine);
-        
 
         JPanel bottom = new JPanel();
         JButton importFile = new JButton("Importer le fichier");
@@ -419,7 +418,7 @@ public class ImportPanel extends JPanel {
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start importFile");
-                result=new LinkedList<String>(Arrays.asList("Sélectionnez un fichier"));
+                result = new LinkedList<String>(Arrays.asList("Sélectionnez un fichier"));
                 if (fichier != null) {
                     fichier.setSorted(sorted.isSelected());
                     fichier.setFileName(name.getText());
@@ -432,7 +431,8 @@ public class ImportPanel extends JPanel {
 
                     try {
                         List<Composition> compoList = ImportFile.getCompositionsFromFile(new File(absolutePathFileTxt), fichier, (RecordType) type.getSelectedItem(),
-                                separator.getText(),result, order.isSelected(), reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(), removeAfter.isSelected());
+                                separator.getText(), result, order.isSelected(), reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
+                                removeAfter.isSelected());
                         ExportXML.exportXML(compoList, name.getText());
                         absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText() + ".xml";
                     } catch (IOException | MyException e) {
@@ -444,7 +444,7 @@ public class ImportPanel extends JPanel {
             }
         });
         bottom.add(importFile);
-        
+
         JButton cleanFile = new JButton("Nettoyer le fichier");
         cleanFile.addActionListener(new ActionListener() {
             @Override
@@ -455,7 +455,7 @@ public class ImportPanel extends JPanel {
                     result = new LinkedList<String>(Arrays.asList(file.getName() + " nettoyé !"));
 
                     try {
-                        CleanFile.clearFile(file, fichier.getSorted(), separator.getText(),characterToRemove.getText());
+                        CleanFile.clearFile(file, fichier.getSorted(), separator.getText(), characterToRemove.getText());
                     } catch (IOException e) {
                         result = new LinkedList<String>(Arrays.asList(e.toString()));
                     }
@@ -465,7 +465,7 @@ public class ImportPanel extends JPanel {
             }
         });
         bottom.add(cleanFile);
-        
+
         JButton fusionFile = new JButton("Fusionner tous les fichiers");
         fusionFile.addActionListener(new ActionListener() {
             @Override
@@ -510,7 +510,7 @@ public class ImportPanel extends JPanel {
                 System.out.println("Start openFile");
                 if (StringUtils.isNotBlank(absolutePathFileTxt)) {
                     try {
-                        if(FileUtils.fileExists(absolutePathFileTxt)){
+                        if (FileUtils.fileExists(absolutePathFileTxt)) {
                             Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileTxt);
                         }
                     } catch (IOException e) {
@@ -532,7 +532,7 @@ public class ImportPanel extends JPanel {
                 if (StringUtils.isNotBlank(absolutePathFileXml)) {
                     try {
                         System.out.println(absolutePathFileXml);
-                        if(FileUtils.fileExists(absolutePathFileXml)){
+                        if (FileUtils.fileExists(absolutePathFileXml)) {
                             Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileXml);
                         }
                     } catch (IOException e) {
@@ -544,7 +544,7 @@ public class ImportPanel extends JPanel {
             }
         });
         bottom.add(openXml);
-        
+
         bottom.setBorder(BorderFactory.createTitledBorder(""));
         this.add(bottom);
 
@@ -557,7 +557,7 @@ public class ImportPanel extends JPanel {
             s.append(string).append('\n');
         }
         resultLabel.setText(s.toString());
-        resultLabel.setForeground(new Color(243,16,16));
+        resultLabel.setForeground(new Color(243, 16, 16));
         Font labelFont = resultLabel.getFont();
         resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
     }
@@ -567,7 +567,7 @@ public class ImportPanel extends JPanel {
         System.out.println(dir);
         JFileChooser jfile = new JFileChooser(dir);
         jfile.setApproveButtonText("Ouvrir");
-        FileNameExtensionFilter filter = new FileNameExtensionFilter(extension,extension);
+        FileNameExtensionFilter filter = new FileNameExtensionFilter(extension, extension);
         jfile.setFileFilter(filter);
         if (jfile.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
             resetAll();
@@ -613,13 +613,13 @@ public class ImportPanel extends JPanel {
     }
 
     private void loadFile() {
-        explorePath = StringUtils.substring(file.getAbsolutePath(),0,file.getAbsolutePath().lastIndexOf(File.separator));
+        explorePath = StringUtils.substring(file.getAbsolutePath(), 0, file.getAbsolutePath().lastIndexOf(File.separator));
         absolutePathFileTxt = file.getAbsolutePath();
         fichier = ImportFile.convertOneFile(file);
         List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
         fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(0)));
         absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + fichier.getFileName() + ".xml";
-        if(FileUtils.fileExists(absolutePathFileXml)){
+        if (FileUtils.fileExists(absolutePathFileXml)) {
             miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
         }
         determineType = ImportFile.determineType(file.getName());
