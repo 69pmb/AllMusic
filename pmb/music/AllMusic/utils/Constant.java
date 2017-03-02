@@ -23,6 +23,8 @@ public class Constant {
     public static final String NOTEPAD_EXE = "C:\\Program Files (x86)\\Notepad++\\notepad++.exe ";
 
     public static final String ANSI_ENCODING = "Cp1252";
+    
+    public static final String UTF8_ENCODING = "UTF-8";
 
     public static final String REGULAR_DASH = "-";
 
