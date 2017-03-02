@@ -23,7 +23,6 @@ import java.util.Map;
 import java.util.Vector;
 
 import javax.swing.AbstractAction;
-import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
@@ -74,7 +73,11 @@ public class SearchPanel extends JPanel {
     public SearchPanel() {
         super();
         System.out.println("Start SearchPanel");
+        this.setLayout(new GridLayout(2, 1));
 
+        JPanel header = new JPanel();
+        header.setLayout(new GridLayout(2, 1));
+        JPanel top = new JPanel();
         AbstractAction searchAction = new AbstractAction() {
             private static final long serialVersionUID = 1L;
             @Override
@@ -105,10 +108,6 @@ public class SearchPanel extends JPanel {
                 System.out.println("End search");
             }
         };
-        
-        JPanel top = new JPanel();
-        JPanel center = new JPanel(new BorderLayout());
-        JPanel bottom = new JPanel(new GridLayout());
 
         JButton search = new JButton("Chercher");
         search.setBackground(Color.white);
@@ -117,7 +116,6 @@ public class SearchPanel extends JPanel {
         search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW).
                 put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER,0), "Enter_pressed");
         search.getActionMap().put("Enter_pressed", searchAction);
-        
         top.add(search);
         
         // Clear Btn
@@ -174,6 +172,7 @@ public class SearchPanel extends JPanel {
             }
         });
         top.add(delete);
+        header.add(top);
 
         JPanel firstLine = new JPanel();
 
@@ -246,9 +245,6 @@ public class SearchPanel extends JPanel {
         rangePanel.add(rangeE);
         firstLine.add(rangePanel);
 
-        center.add(firstLine, BorderLayout.NORTH);
-        JPanel secondLine = new JPanel();
-
         // Categorie
         JPanel catPanel = new JPanel();
         catPanel.setPreferredSize(new Dimension(200, 60));
@@ -262,7 +258,7 @@ public class SearchPanel extends JPanel {
         cat.setPreferredSize(new Dimension(150, 25));
         catPanel.add(catLabel);
         catPanel.add(cat);
-        secondLine.add(catPanel);
+        firstLine.add(catPanel);
 
         // Publi
         JPanel publiPanel = new JPanel();
@@ -272,7 +268,7 @@ public class SearchPanel extends JPanel {
         publi.setPreferredSize(new Dimension(150, 25));
         publiPanel.add(publiLabel);
         publiPanel.add(publi);
-        secondLine.add(publiPanel);
+        firstLine.add(publiPanel);
         
         // Nombre de résultat
         JPanel countPanel = new JPanel();
@@ -282,9 +278,13 @@ public class SearchPanel extends JPanel {
         Font labelFont = countLabel.getFont();
         countLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 30));
         countPanel.add(countLabel);
-        secondLine.add(countPanel);
+        firstLine.add(countPanel);
 
-        center.add(secondLine, BorderLayout.CENTER);
+        header.add(firstLine);
+        this.add(header);
+        
+        JPanel bottom = new JPanel();
+        bottom.setLayout(new BorderLayout());
 
         // result
         result = new JTable();
@@ -308,7 +308,7 @@ public class SearchPanel extends JPanel {
                     List<Fichier> files;
                     try {
                         files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(0), v.get(1), v.get(2)).getFiles();
-                        DialogFileTable pop = new DialogFileTable(null,"Fichier", true,files);
+                        DialogFileTable pop = new DialogFileTable(null,"Fichier", true,files, new Dimension(1500, 400));
                         pop.showDialogFileTable();
                     } catch (MyException e1) {
                         e1.printStackTrace();
@@ -329,14 +329,9 @@ public class SearchPanel extends JPanel {
                  }
             }
         });
+        bottom.add(new JScrollPane(result), BorderLayout.CENTER);
 
-        bottom.add(new JScrollPane(result), BorderLayout.SOUTH);
-
-        this.setLayout(new BorderLayout());
-        this.add(top, BorderLayout.NORTH);
-        center.setBorder(BorderFactory.createTitledBorder(""));
-        this.add(center, BorderLayout.CENTER);
-        this.add(bottom, BorderLayout.SOUTH);
+        this.add(bottom);
         System.out.println("End SearchPanel");
     }
     
@@ -369,6 +364,8 @@ public class SearchPanel extends JPanel {
         colRenderer();
         countLabel.setText(compoResult.size() + " résultats");
         model.fireTableDataChanged();
+        result.getRowSorter().toggleSortOrder(3);
+        result.getRowSorter().toggleSortOrder(3);
         result.repaint();
     }
 
