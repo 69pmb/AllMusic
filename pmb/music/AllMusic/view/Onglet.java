@@ -43,7 +43,7 @@ public class Onglet extends JPanel {
         onglets.setMnemonicAt(0, KeyEvent.VK_1);
         onglets.addTab("Rechercher", search);
         onglets.setMnemonicAt(1, KeyEvent.VK_2);
-        onglets.addTab("Artist", artist);
+        onglets.addTab("Artiste", artist);
         onglets.setMnemonicAt(2, KeyEvent.VK_3);
 
         onglets.setOpaque(true);
