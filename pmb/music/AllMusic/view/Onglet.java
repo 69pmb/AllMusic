@@ -36,12 +36,15 @@ public class Onglet extends JPanel {
         
         ImportPanel importFile = new ImportPanel();
         SearchPanel search = new SearchPanel();
+        ArtistPanel artist = new ArtistPanel();
         
 //        scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         onglets.addTab("Import", importFile);
         onglets.setMnemonicAt(0, KeyEvent.VK_1);
         onglets.addTab("Rechercher", search);
         onglets.setMnemonicAt(1, KeyEvent.VK_2);
+        onglets.addTab("Artist", artist);
+        onglets.setMnemonicAt(2, KeyEvent.VK_3);
 
         onglets.setOpaque(true);
         pannel.add(onglets);
