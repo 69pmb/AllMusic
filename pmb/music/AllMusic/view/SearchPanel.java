@@ -347,8 +347,6 @@ public class SearchPanel extends JPanel {
             int taille = 0;
             int total2 = result.getRowCount();
             for (int j = 0; j < total2; j++) {
-                // Partie determinant la taille de la cellule de ligne j et de
-                // colonne i
                 int taille2 = result.getValueAt(j, i).toString().length() * 7; // determination
                                                                                 // arbitraire
                 if (taille2 > taille) {
@@ -363,16 +361,11 @@ public class SearchPanel extends JPanel {
             renderer.setHorizontalAlignment(JLabel.CENTER);
             result.getColumnModel().getColumn(i).setCellRenderer(renderer);
         }
-//        result.removeColumn(result.getColumnModel().getColumn(5));
-//        result.getColumnModel().getColumn(4).getCellRenderer(); 
-//        MyBooleanRenderer boolRenderer = new MyBooleanRenderer();
-//        boolRenderer.setHorizontalAlignment(JLabel.CENTER);
-//        result.getColumnModel().getColumn(4).setCellRenderer(boolRenderer);
     }
 
     public void updateTable() {
         model.setRowCount(0);
-        model.setDataVector(CompositionUtils.convertListForJTable(compoResult) , new Vector<>(Arrays.asList(title)));
+        model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult), new Vector<>(Arrays.asList(title)));
         colRenderer();
         countLabel.setText(compoResult.size() + " résultats");
         model.fireTableDataChanged();
