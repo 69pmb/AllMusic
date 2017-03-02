@@ -396,6 +396,23 @@ public class ImportPanel extends JPanel {
         this.add(thirdLine);
         JPanel fourthLine = new JPanel(new GridLayout(0, 1));
 
+        
+        FocusListener selectAll = new FocusListener() {
+            @Override
+            public void focusLost(FocusEvent e) {
+            }
+            @Override
+            public void focusGained(FocusEvent e) {
+                JTextField source = (JTextField) e.getSource();
+                source.selectAll();
+            }
+        };
+        rangeB.addFocusListener(selectAll);
+        rangeE.addFocusListener(selectAll);
+        publi.addFocusListener(selectAll);
+        size.addFocusListener(selectAll);
+        separator.addFocusListener(selectAll);
+        
         // result
         JPanel resultPanel = new JPanel(new BorderLayout());
         // resultPanel.setPreferredSize(new Dimension(1000, 300));
