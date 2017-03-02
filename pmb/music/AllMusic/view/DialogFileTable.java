@@ -4,6 +4,7 @@
 package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
@@ -44,9 +45,9 @@ public class DialogFileTable extends JDialog {
 
     private JTable fichiers;
 
-    public DialogFileTable(JFrame parent, String title, boolean modal, List<Fichier> files) {
+    public DialogFileTable(JFrame parent, String title, boolean modal, List<Fichier> files, Dimension dim) {
         super(parent, title, modal);
-        this.setSize(1500, 300);
+        this.setSize(dim);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         this.files = files;
@@ -67,6 +68,7 @@ public class DialogFileTable extends JDialog {
         fichiers.setFont(UIManager.getFont("Label.font"));
         fichiers.setBorder(UIManager.getBorder("Label.border"));
         fichiers.setModel(new FichierModel(FichierUtils.convertListForJTable(files), title));
+        fichiers.getRowSorter().toggleSortOrder(0);
 
         TableColumnModel modelecolonne = fichiers.getColumnModel();
         int total = modelecolonne.getColumnCount();
