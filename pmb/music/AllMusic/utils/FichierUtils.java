@@ -3,8 +3,12 @@
  */
 package pmb.music.AllMusic.utils;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
+import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 
 /**
@@ -13,10 +17,9 @@ import pmb.music.AllMusic.model.Fichier;
  */
 public class FichierUtils {
 
-    
     public static Object[][] convertListForJTable(List<Fichier> fList) {
         System.out.println("Start convertListForJTable");
-        if(fList == null) {
+        if (fList == null) {
             return new String[0][9];
         }
         Object[][] result = new String[fList.size()][9];
@@ -34,5 +37,20 @@ public class FichierUtils {
         }
         System.out.println("End convertListForJTable");
         return result;
+    }
+
+    public static void findDuplicateFichierInCompo(List<Composition> allCompo) {
+        for (Composition composition : allCompo) {
+            List<Fichier> files = composition.getFiles();
+            List<String> names = new ArrayList<>();
+            for (Fichier fichier : files) {
+                names.add(fichier.getFileName());
+            }
+            Set<String> set = new HashSet<String>(names);
+            if (set.size() < names.size()) {
+                System.out.println("Duplicates for: " + composition);
+                System.out.println("");
+            }
+        }
     }
 }
