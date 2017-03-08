@@ -29,7 +29,6 @@ public final class ImportXML {
     private static List<Composition> compoList = new ArrayList<Composition>();
 
     public static List<Composition> importXML(String uri) {
-//        System.out.println("Start importXML");
         SAXParserFactory fabrique = SAXParserFactory.newInstance();
         SAXParser parseur = null;
         try {
@@ -50,12 +49,7 @@ public final class ImportXML {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-//            int taille = handler.compoList.size();
-//            for (int i = 0; i < taille; i++) {
-//                compoList.add(handler.compoList.get(i));
-//            }
         }
-//        System.out.println("End importXML");
         return handler.getCompoList();
     }
 
@@ -109,7 +103,6 @@ public final class ImportXML {
         for (File fileXML : files) {
             boolean isFinal = fileXML.getName().equals("final.xml");
             if (!isFinal || (getFinal && isFinal)) {
-//                System.out.println(fileXML.getName());
                 compoFusion.addAll(ImportXML.importXML(fileXML.getAbsolutePath()));
             }
         }
@@ -121,10 +114,8 @@ public final class ImportXML {
             } else {
                 Composition composition = compoFusion.get(compoFusion.indexOf(compoExist));
                 composition.getFiles().addAll(compo.getFiles());
-//                compoFinal.add(composition);
             }
         }
-//        CompositionUtils.printCompoList(compoFinal);
         ExportXML.exportXML(compoFinal, "final");
         System.out.println("End fusionFiles");
         return compoFinal;
@@ -154,7 +145,6 @@ public final class ImportXML {
             } else {
                 Composition composition = compoFusion.get(compoFusion.indexOf(compoExist));
                 composition.getFiles().addAll(compo.getFiles());
-//                compoFinal.add(composition);
             }
         }
         ExportXML.exportXML(compoFinal, "final");
