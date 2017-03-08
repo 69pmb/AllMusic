@@ -51,6 +51,7 @@ public class ExportXML {
                 file.addAttribute("sorted", String.valueOf(compList.get(i).getFiles().get(j).getSorted()));
                 file.addAttribute("classement", String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
                 file.addAttribute("creationDate", Constant.SDF_DTTM.format(compList.get(i).getFiles().get(j).getCreationDate()));
+                file.addAttribute("size", String.valueOf(compList.get(i).getFiles().get(j).getSize()));
             }
         }
         String nomDir = "src\\main\\resources\\";
