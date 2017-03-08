@@ -63,13 +63,13 @@ public class SearchPanel extends JPanel {
     private JComboBox<Cat> cat;
 
     private JComboBox<RecordType> type;
-    
+
     private List<Composition> compoResult = new ArrayList<Composition>();
-    
-    private static final String  title[] = {"Artiste", "Titre", "Type", "Nombre de fichiers", ""};
-    
+
+    private static final String title[] = { "Artiste", "Titre", "Type", "Nombre de fichiers", "" };
+
     private CompoModel model;
-    
+
     public SearchPanel() {
         super();
         System.out.println("Start SearchPanel");
@@ -79,7 +79,9 @@ public class SearchPanel extends JPanel {
         header.setLayout(new GridLayout(2, 1));
         JPanel top = new JPanel();
         AbstractAction searchAction = new AbstractAction() {
+
             private static final long serialVersionUID = 1L;
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
 
@@ -113,17 +115,17 @@ public class SearchPanel extends JPanel {
         search.setBackground(Color.white);
         search.setPreferredSize(new Dimension(220, 60));
         search.addActionListener(searchAction);
-        search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW).
-                put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER,0), "Enter_pressed");
+        search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0), "Enter_pressed");
         search.getActionMap().put("Enter_pressed", searchAction);
         top.add(search);
-        
+
         // Clear Btn
         JButton clear = new JButton("Réinitialiser recherche");
         clear.setBackground(Color.white);
         clear.setPreferredSize(new Dimension(200, 60));
         AbstractAction cleanAction = new AbstractAction() {
             private static final long serialVersionUID = 1L;
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 artist.setText("");
@@ -139,12 +141,13 @@ public class SearchPanel extends JPanel {
         };
         clear.addActionListener(cleanAction);
         top.add(clear);
-        
+
         // Delete Btn
         JButton delete = new JButton("Supprimer les compositions sélectionnées");
         delete.setBackground(Color.white);
         delete.setPreferredSize(new Dimension(400, 60));
-        delete.addActionListener(new ActionListener(){
+        delete.addActionListener(new ActionListener() {
+
             @SuppressWarnings("unchecked")
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -154,7 +157,7 @@ public class SearchPanel extends JPanel {
                 for (Object o : selected) {
                     Vector<String> v = (Vector<String>) o;
                     try {
-                        Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0),v.get(1),v.get(2));
+                        Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
                         compoResult.remove(compoResult.indexOf(toRemove));
                         importXML.remove(importXML.indexOf(toRemove));
                         CompositionUtils.removeCompositionsInFiles(toRemove);
@@ -185,7 +188,6 @@ public class SearchPanel extends JPanel {
         artistPanel.add(artistLabel);
         artistPanel.add(artist);
         firstLine.add(artistPanel);
-
 
         // Titre
         JPanel titrePanel = new JPanel();
@@ -269,7 +271,7 @@ public class SearchPanel extends JPanel {
         publiPanel.add(publiLabel);
         publiPanel.add(publi);
         firstLine.add(publiPanel);
-        
+
         // Nombre de résultat
         JPanel countPanel = new JPanel();
         countPanel.setPreferredSize(new Dimension(200, 60));
@@ -282,7 +284,7 @@ public class SearchPanel extends JPanel {
 
         header.add(firstLine);
         this.add(header);
-        
+
         JPanel bottom = new JPanel();
         bottom.setLayout(new BorderLayout());
 
@@ -294,39 +296,40 @@ public class SearchPanel extends JPanel {
         result.setBackground(UIManager.getColor("Label.background"));
         result.setFont(UIManager.getFont("Label.font"));
         result.setBorder(UIManager.getBorder("Label.border"));
-        model = new CompoModel(new Object[0][5],title);
+        model = new CompoModel(new Object[0][5], title);
         result.setModel(model);
         result.setRowSorter(new TableRowSorter<TableModel>(model));
         result.addMouseListener(new MouseAdapter() {
+
             @SuppressWarnings("unchecked")
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK)!=0) {
+                if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
                     System.out.println("Start result mouse");
-                    JTable target = (JTable)e.getSource();
-                    Vector<String> v = (Vector<String>) ((CompoModel)target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+                    JTable target = (JTable) e.getSource();
+                    Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
                     List<Fichier> files;
                     try {
                         files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(0), v.get(1), v.get(2)).getFiles();
-                        DialogFileTable pop = new DialogFileTable(null,"Fichier", true,files, new Dimension(1500, 400));
+                        DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 400));
                         pop.showDialogFileTable();
                     } catch (MyException e1) {
                         e1.printStackTrace();
                     }
                     System.out.println("End result mouse");
-                 } else if(SwingUtilities.isRightMouseButton(e)) {
-                     System.out.println("Start right mouse");
-                     JTable target = (JTable)e.getSource();
-                     int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
-                     if (rowAtPoint > -1) {
-                         target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
-                     }
-                    Vector<String> v = (Vector<String>) ((CompoModel)target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-                     StringSelection selection = new StringSelection(v.get(0) + " " + v.get(1));
-                     Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-                     clipboard.setContents(selection, selection);
-                     System.out.println("End right mouse");
-                 }
+                } else if (SwingUtilities.isRightMouseButton(e)) {
+                    System.out.println("Start right mouse");
+                    JTable target = (JTable) e.getSource();
+                    int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+                    if (rowAtPoint > -1) {
+                        target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+                    }
+                    Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+                    StringSelection selection = new StringSelection(v.get(0) + " " + v.get(1));
+                    Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+                    clipboard.setContents(selection, selection);
+                    System.out.println("End right mouse");
+                }
             }
         });
         bottom.add(new JScrollPane(result), BorderLayout.CENTER);
@@ -334,8 +337,8 @@ public class SearchPanel extends JPanel {
         this.add(bottom);
         System.out.println("End SearchPanel");
     }
-    
-    private void colRenderer(){
+
+    private void colRenderer() {
         TableColumnModel modelecolonne = result.getColumnModel();
         int total = modelecolonne.getColumnCount();
         for (int i = 0; i < total; i++) {
@@ -343,14 +346,14 @@ public class SearchPanel extends JPanel {
             int total2 = result.getRowCount();
             for (int j = 0; j < total2; j++) {
                 int taille2 = result.getValueAt(j, i).toString().length() * 7; // determination
-                                                                                // arbitraire
+ // arbitraire
                 if (taille2 > taille) {
                     taille = taille2;
                 }
             }
             modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
         }
-        
+
         DefaultTableCellRenderer renderer = new EvenOddRenderer();
         for (int i = 0; i < result.getColumnCount() - 1; i++) {
             renderer.setHorizontalAlignment(JLabel.CENTER);
