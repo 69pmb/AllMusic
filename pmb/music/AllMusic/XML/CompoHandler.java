@@ -59,6 +59,12 @@ public class CompoHandler extends DefaultHandler {
                 file.setAuthor(attributes.getValue("author"));
                 file.setFileName(attributes.getValue("fileName"));
                 file.setCategorie(Cat.valueOf(attributes.getValue("categorie")));
+                try{
+                    file.setSize(Integer.parseInt(attributes.getValue("size")));
+                } catch (NumberFormatException e) {
+                    file.setSize(0);
+                    System.out.println(file);
+                }
                 try {
                     file.setCreationDate(Constant.SDF_DTTM.parse(attributes.getValue("creationDate")));
                 } catch (ParseException e) {
