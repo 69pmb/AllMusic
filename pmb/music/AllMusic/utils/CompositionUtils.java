@@ -28,6 +28,10 @@ public class CompositionUtils {
      * @param recursive si la recherche doit etre récursive ou non
      */
     public static void listFilesForFolder(final File folder, List<File> files, String extension, boolean recursive) {
+        if (!folder.isDirectory()) {
+            files.add(folder);
+            return;
+        }
         for (final File fileEntry : folder.listFiles()) {
             if (recursive && fileEntry.isDirectory()) {
                 listFilesForFolder(fileEntry, files, extension, recursive);
