@@ -42,16 +42,12 @@ public class ImportFile {
         fichier.setCreationDate(getCreationDate(file));
         fichier.setFileName(StringUtils.substringBeforeLast(name, "."));
         fichier.setCategorie(determineCategory(name));
-        fichier.setAuthor(file.getParentFile().getName());
-        determineYears(name, fichier);
-        fichier.setSize(determineSize(name));
-        if (fichier.getSize() == 0) {
-            try {
-                fichier.setSize(countLines(file.getAbsolutePath()));
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        String auteur = file.getParentFile().getName();
+        if("album".equalsIgnoreCase(auteur) || "song".equalsIgnoreCase(auteur)) {
+            auteur = file.getParentFile().getParentFile().getName();
         }
+        fichier.setAuthor(auteur);
+        determineYears(name, fichier);
         System.out.println("End convertOneFile");
         return fichier;
     }
@@ -196,27 +192,67 @@ public class ImportFile {
     /**
      * @param name
      * @param fichier
+     * @param file 
      */
-    private static int determineSize(String name) {
+    public static int determineSize(Fichier fichier, List<String> randomLines, File file) {
         int res = 0;
-        Matcher mSize = Constant.PATTERN_SIZE.matcher(name);
-        Matcher mDeca = Constant.PATTERN_DECADE.matcher(name);
-        Matcher yDeca = Constant.PATTERN_YEAR.matcher(name);
-        String deca = "";
-        if (mDeca.find()) {
-            deca = mDeca.group();
+        if (fichier.getSorted()) {
+            String first = randomLines.get(0);
+            String last = randomLines.get(randomLines.size() - 1);
+            if(StringUtils.isBlank(last)) {
+                last = randomLines.get(randomLines.size() - 2);
+            }
+            int sizeFirst = extractRankFromString(first);
+            int sizeLast = extractRankFromString(last);
+            if (sizeFirst > sizeLast) {
+                res = sizeFirst;
+            } else {
+                res = sizeLast;
+            }
+        } 
+        if(!fichier.getSorted() || res%10 !=0) {
+            Matcher mSize = Constant.PATTERN_SIZE.matcher(fichier.getFileName());
+            Matcher mDeca = Constant.PATTERN_DECADE.matcher(fichier.getFileName());
+            Matcher yDeca = Constant.PATTERN_YEAR.matcher(fichier.getFileName());
+            String deca = "";
+            if (mDeca.find()) {
+                deca = mDeca.group();
+            }
+            String y = "";
+            if (yDeca.find()) {
+                y = yDeca.group();
+            }
+            if (mSize.find()) {
+                String size = mSize.group();
+                if (!deca.contains(size) && !y.contains(size)) {
+                    res = Integer.parseInt(size.trim());
+                }
+            }
         }
-        String y = "";
-        if (yDeca.find()) {
-            y = yDeca.group();
-        }
-        if (mSize.find()) {
-            String size = mSize.group();
-            if (!deca.contains(size) && !y.contains(size)) {
-                res = Integer.parseInt(size.trim());
+        if (res == 0) {
+            try {
+                fichier.setSize(countLines(file.getAbsolutePath()));
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
         return res;
+    }
+
+    private static int extractRankFromString(String line) {
+        int sizeInt;
+        String size = StringUtils.trim(StringUtils.substringBefore(line, "."));
+        if (StringUtils.isNumeric(size)) {
+            sizeInt = Integer.parseInt(size);
+        } else {
+            size = line.split(" ")[0];
+            try {
+                sizeInt = Integer.parseInt(size);
+            } catch (NumberFormatException e) {
+                sizeInt = 0;
+            }
+        }
+        return sizeInt;
     }
 
     public static RecordType determineType(String name) {
@@ -375,6 +411,12 @@ public class ImportFile {
         return res;
     }
 
+    /**
+     * Retourne dans l'ordre les 3 premières lignes, une ligne au hasard et les 2 dernières lignes du fichier donné. 
+     * 
+     * @param file le fichier
+     * @return une liste de 6 String 
+     */
     public static List<String> randomLineAndLastLines(File file) {
         System.out.println("Start randomLineAndLastLines");
         List<String> lines = new ArrayList<>();
@@ -384,15 +426,15 @@ public class ImportFile {
             int countLines = countLines(file.getAbsolutePath());
             int rand = ThreadLocalRandom.current().nextInt(4, countLines);
             br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
-            lines.add(br.readLine());
-            lines.add(br.readLine());
-            lines.add(br.readLine());
+            lines.add(StringUtils.trim(br.readLine()));
+            lines.add(StringUtils.trim(br.readLine()));
+            lines.add(StringUtils.trim(br.readLine()));
             for (int i = 3; i < rand; i++) {
-                line = br.readLine();
+                line = StringUtils.trim(br.readLine());
             }
             int count = rand;
             while (StringUtils.startsWith(line, "#") || StringUtils.isBlank(line) && line.length() < 5) {
-                line = br.readLine();
+                line = StringUtils.trim(br.readLine());
                 count++;
             }
             lines.add(line);
@@ -400,8 +442,8 @@ public class ImportFile {
                 br.readLine();
                 count++;
             }
-            lines.add(br.readLine());
-            lines.add(br.readLine());
+            lines.add(StringUtils.trim(br.readLine()));
+            lines.add(StringUtils.trim(br.readLine()));
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
