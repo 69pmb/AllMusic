@@ -46,7 +46,7 @@ public class ArtistPanel extends JPanel {
     private JTable table;
 
     private ArtistModel model;
-    
+
     List<Composition> list;
 
     private static final String title[] = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
@@ -69,6 +69,7 @@ public class ArtistPanel extends JPanel {
         table.getRowSorter().toggleSortOrder(1);
         colRenderer();
         table.addMouseListener(new MouseAdapter() {
+
             @SuppressWarnings("unchecked")
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -84,7 +85,7 @@ public class ArtistPanel extends JPanel {
                         for (Composition composition : findByArtist) {
                             files.addAll(composition.getFiles());
                         }
-                        DialogFileTable pop = new DialogFileTable(null,"Fichier", true,files, new Dimension(1500, 600));
+                        DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600));
                         pop.showDialogFileTable();
                     } catch (MyException e1) {
                         e1.printStackTrace();
