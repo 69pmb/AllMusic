@@ -90,6 +90,7 @@ public class ImportPanel extends JPanel {
         browse.setBackground(Color.white);
         browse.setPreferredSize(new Dimension(220, 60));
         browse.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start browse");
@@ -107,6 +108,7 @@ public class ImportPanel extends JPanel {
         cleanBtn.setBackground(Color.white);
         cleanBtn.setPreferredSize(new Dimension(220, 60));
         cleanBtn.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start cleanBtn");
@@ -121,6 +123,7 @@ public class ImportPanel extends JPanel {
         reloadBtn.setBackground(Color.white);
         reloadBtn.setPreferredSize(new Dimension(220, 60));
         reloadBtn.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start reloadBtn");
@@ -134,6 +137,7 @@ public class ImportPanel extends JPanel {
         open.setBackground(Color.white);
         open.setPreferredSize(new Dimension(220, 60));
         open.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start open");
@@ -162,6 +166,7 @@ public class ImportPanel extends JPanel {
         firstLine.add(namePanel);
 
         name.addFocusListener(new FocusListener() {
+
             @Override
             public void focusLost(FocusEvent e) {
                 absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText() + ".xml";
@@ -169,6 +174,7 @@ public class ImportPanel extends JPanel {
                     miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(name.getText() + " existe déjà")));
                 }
             }
+
             @Override
             public void focusGained(FocusEvent e) {
             }
@@ -396,11 +402,12 @@ public class ImportPanel extends JPanel {
         this.add(thirdLine);
         JPanel fourthLine = new JPanel(new GridLayout(0, 1));
 
-        
         FocusListener selectAll = new FocusListener() {
+
             @Override
             public void focusLost(FocusEvent e) {
             }
+
             @Override
             public void focusGained(FocusEvent e) {
                 JTextField source = (JTextField) e.getSource();
@@ -412,7 +419,7 @@ public class ImportPanel extends JPanel {
         publi.addFocusListener(selectAll);
         size.addFocusListener(selectAll);
         separator.addFocusListener(selectAll);
-        
+
         // result
         JPanel resultPanel = new JPanel(new BorderLayout());
         // resultPanel.setPreferredSize(new Dimension(1000, 300));
@@ -432,6 +439,7 @@ public class ImportPanel extends JPanel {
         JPanel bottom = new JPanel();
         JButton importFile = new JButton("Importer le fichier");
         importFile.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start importFile");
@@ -464,6 +472,7 @@ public class ImportPanel extends JPanel {
 
         JButton cleanFile = new JButton("Nettoyer le fichier");
         cleanFile.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start cleanFile");
@@ -485,6 +494,7 @@ public class ImportPanel extends JPanel {
 
         JButton fusionFile = new JButton("Fusionner tous les fichiers");
         fusionFile.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start fusionFile");
@@ -502,6 +512,7 @@ public class ImportPanel extends JPanel {
 
         JButton fusionOneFile = new JButton("Ajouter le fichier aux autres");
         fusionOneFile.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start fusionOneFile");
@@ -522,6 +533,7 @@ public class ImportPanel extends JPanel {
         // Ouvre le fichier d'entrée dans notepad++
         JButton openFile = new JButton("Éditer le fichier source");
         openFile.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start openFile");
@@ -543,6 +555,7 @@ public class ImportPanel extends JPanel {
         // Ouvre le fichier xml dans notepad++
         JButton openXml = new JButton("Éditer le fichier xml");
         openXml.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start openXml");
@@ -634,12 +647,18 @@ public class ImportPanel extends JPanel {
         absolutePathFileTxt = file.getAbsolutePath();
         fichier = ImportFile.convertOneFile(file);
         List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
-        fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(0)));
+        fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
+        fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file));
         absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + fichier.getFileName() + ".xml";
         if (FileUtils.fileExists(absolutePathFileXml)) {
             miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
         }
         determineType = ImportFile.determineType(file.getName());
+        if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType) && fichier.getPublishYear() != 0) {
+            fichier.setCategorie(Cat.YEAR);
+            fichier.setRangeDateBegin(fichier.getPublishYear());
+            fichier.setRangeDateEnd(fichier.getPublishYear());
+        }
         name.setText(fichier.getFileName());
         author.setText(fichier.getAuthor());
         date.setText(Constant.SDF_DTTM.format(fichier.getCreationDate()));
