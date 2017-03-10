@@ -654,7 +654,8 @@ public class ImportPanel extends JPanel {
             miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
         }
         determineType = ImportFile.determineType(file.getName());
-        if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType) && fichier.getPublishYear() != 0) {
+        if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType) && fichier.getPublishYear() != 0 && fichier.getRangeDateBegin() == 0
+                && fichier.getRangeDateEnd() == 0) {
             fichier.setCategorie(Cat.YEAR);
             fichier.setRangeDateBegin(fichier.getPublishYear());
             fichier.setRangeDateEnd(fichier.getPublishYear());
