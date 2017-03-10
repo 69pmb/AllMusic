@@ -12,6 +12,8 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
@@ -54,7 +56,7 @@ public class SearchPanel extends JPanel {
 
     private static final long serialVersionUID = 2593372709628283573L;
 
-    private JLabel catLabel, authorLabel, publiLabel, rangeLabel, typeLabel, titreLabel, fileNameLabel, artistLabel, countLabel;
+    private JLabel catLabel, authorLabel, publiLabel, rangeLabel, typeLabel, titreLabel, fileNameLabel, artistLabel, countLabel, deleteLabel;
 
     private JTextField author, publi, rangeB, rangeE, titre, fileName, artist;
 
@@ -86,6 +88,7 @@ public class SearchPanel extends JPanel {
             public void actionPerformed(ActionEvent arg0) {
 
                 System.out.println("Start search");
+                deleteLabel.setText("");
                 List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
                 if (CollectionUtils.isNotEmpty(allCompo)) {
                     Map<String, String> criteria = new HashMap<>();
@@ -124,6 +127,7 @@ public class SearchPanel extends JPanel {
         clear.setBackground(Color.white);
         clear.setPreferredSize(new Dimension(200, 60));
         AbstractAction cleanAction = new AbstractAction() {
+
             private static final long serialVersionUID = 1L;
 
             @Override
@@ -137,6 +141,8 @@ public class SearchPanel extends JPanel {
                 cat.setSelectedItem(null);
                 rangeB.setText("");
                 rangeE.setText("");
+                deleteLabel.setText("");
+                countLabel.setText("");
             }
         };
         clear.addActionListener(cleanAction);
@@ -171,6 +177,7 @@ public class SearchPanel extends JPanel {
                     e1.printStackTrace();
                 }
                 updateTable();
+                deleteLabel.setText(selected.size() + " élément(s) supprimée(s)");
                 System.out.println("End delete");
             }
         });
@@ -281,6 +288,16 @@ public class SearchPanel extends JPanel {
         countLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 30));
         countPanel.add(countLabel);
         firstLine.add(countPanel);
+        
+        // Nombre de suppression
+        JPanel deletePanel = new JPanel();
+        deletePanel.setPreferredSize(new Dimension(400, 60));
+        deleteLabel = new JLabel("");
+        deleteLabel.setForeground(new Color(8, 187, 81));
+        Font labelFont2 = deleteLabel.getFont();
+        deleteLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 30));
+        deletePanel.add(deleteLabel);
+        firstLine.add(deletePanel);
 
         header.add(firstLine);
         this.add(header);
@@ -299,6 +316,43 @@ public class SearchPanel extends JPanel {
         model = new CompoModel(new Object[0][5], title);
         result.setModel(model);
         result.setRowSorter(new TableRowSorter<TableModel>(model));
+        result.addKeyListener(new KeyListener() {
+
+            private int selectedRow = -1;// before start
+
+            @Override
+            public void keyTyped(KeyEvent e) {
+            }
+
+            @SuppressWarnings("unchecked")
+            @Override
+            public void keyReleased(KeyEvent e) {
+                JTable target = (JTable) e.getSource();
+                String keyChar = String.valueOf(e.getKeyChar());
+                TableModel model = target.getModel();
+                int startRow = selectedRow;
+                if (selectedRow == model.getRowCount() - 1) {
+                    startRow = -1;// Go before start
+                }
+                // Check each cell to see if it starts with typed char.
+                // if so set corresponding row selected and return.
+                for (int row = startRow + 1; row < model.getRowCount(); row++) {
+                    String value = ((Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row))).get(0);
+                    if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
+                        target.getSelectionModel().clearSelection();
+                        target.getColumnModel().getSelectionModel().clearSelection();
+                        target.changeSelection(row,0,true,false);
+                        target.setRowSelectionInterval(row, row);
+                        selectedRow = row;
+                        return;
+                    }
+                }
+            }
+            
+            @Override
+            public void keyPressed(KeyEvent e) {
+            }
+        });
         result.addMouseListener(new MouseAdapter() {
 
             @SuppressWarnings("unchecked")
@@ -306,6 +360,7 @@ public class SearchPanel extends JPanel {
             public void mouseClicked(MouseEvent e) {
                 if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
                     System.out.println("Start result mouse");
+                    // Ouvre une popup pour afficher les fichiers de la composition séléectionnée
                     JTable target = (JTable) e.getSource();
                     Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
                     List<Fichier> files;
@@ -319,6 +374,7 @@ public class SearchPanel extends JPanel {
                     System.out.println("End result mouse");
                 } else if (SwingUtilities.isRightMouseButton(e)) {
                     System.out.println("Start right mouse");
+                    // Copie dans le clipboard l'artist et l'oeuvre
                     JTable target = (JTable) e.getSource();
                     int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
                     if (rowAtPoint > -1) {
@@ -346,7 +402,7 @@ public class SearchPanel extends JPanel {
             int total2 = result.getRowCount();
             for (int j = 0; j < total2; j++) {
                 int taille2 = result.getValueAt(j, i).toString().length() * 7; // determination
- // arbitraire
+                // arbitraire
                 if (taille2 > taille) {
                     taille = taille2;
                 }
