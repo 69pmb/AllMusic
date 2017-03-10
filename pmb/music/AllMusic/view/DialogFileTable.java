@@ -14,6 +14,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
 
@@ -59,6 +60,7 @@ public class DialogFileTable extends JDialog {
         this.setVisible(true);
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     private void initComponent() {
         fichiers = new JTable();
         fichiers.setAutoCreateRowSorter(true);
@@ -67,7 +69,7 @@ public class DialogFileTable extends JDialog {
         fichiers.setBackground(UIManager.getColor("Label.background"));
         fichiers.setFont(UIManager.getFont("Label.font"));
         fichiers.setBorder(UIManager.getBorder("Label.border"));
-        fichiers.setModel(new FichierModel(FichierUtils.convertListForJTable(files), title));
+        fichiers.setModel(new FichierModel(FichierUtils.convertListForJTable(files),new Vector(Arrays.asList(title))));
         fichiers.getRowSorter().toggleSortOrder(0);
 
         TableColumnModel modelecolonne = fichiers.getColumnModel();
@@ -84,8 +86,8 @@ public class DialogFileTable extends JDialog {
             modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
         }
 
+        
         fichiers.addMouseListener(new MouseAdapter() {
-            @SuppressWarnings("unchecked")
             @Override
             public void mouseClicked(MouseEvent e) {
                 if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
