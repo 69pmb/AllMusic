@@ -18,6 +18,11 @@ public class FichierModel extends DefaultTableModel {
     public FichierModel(Object[][] data, String[] title) {
         super(data, title);
     }
+    
+    @SuppressWarnings("rawtypes")
+    public FichierModel(Vector data, Vector title) {
+        super(data, title);
+    }
 
     @Override
     public boolean isCellEditable(int i, int i1) {
@@ -27,7 +32,13 @@ public class FichierModel extends DefaultTableModel {
     @SuppressWarnings({ "unchecked", "rawtypes" })
     @Override
     public Class getColumnClass(int col) {
-        return String.class;
+        if (col < 2 || col == 8 || col == 3 || col == 4) {
+            return String.class;
+        } else if (col == 2 || col == 6 || col == 7) {
+            return Integer.class;
+        } else {
+            return String.class;
+        }
     }
 
     @Override
@@ -43,16 +54,6 @@ public class FichierModel extends DefaultTableModel {
     public int getColumnCount() {
         return this.columnIdentifiers.size();
     }
-
-//    public List<Object> getSelected() {
-//        List<Object> toReturn = new ArrayList<Object>();
-//        for (int i = 0; i < dataVector.size(); i++) {
-//            if ((boolean) ((Vector) dataVector.elementAt(i)).elementAt(4)) {
-//                toReturn.add(dataVector.elementAt(i));
-//            }
-//        }
-//        return toReturn;
-//    }
 
     @SuppressWarnings("rawtypes")
     @Override
