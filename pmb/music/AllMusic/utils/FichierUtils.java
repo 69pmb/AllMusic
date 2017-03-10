@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.Vector;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -17,28 +18,28 @@ import pmb.music.AllMusic.model.Fichier;
  */
 public class FichierUtils {
 
-    public static Object[][] convertListForJTable(List<Fichier> fList) {
+    @SuppressWarnings("rawtypes")
+    public static Vector convertListForJTable(List<Fichier> fList) {
         System.out.println("Start convertListForJTable");
-        if (fList == null) {
-            return new String[0][9];
-        }
-        Object[][] result = new String[fList.size()][9];
+        Vector<Vector<Object>> result = new Vector<Vector<Object>>();
         for (int i = 0; i < fList.size(); i++) {
             Fichier f = fList.get(i);
-            result[i][0] = f.getAuthor();
-            result[i][1] = f.getFileName();
-            result[i][2] = String.valueOf(f.getPublishYear());
-            result[i][3] = f.getCategorie().toString();
-            result[i][4] = f.getRangeDateBegin() + " - " + f.getRangeDateEnd();
-            result[i][5] = Constant.SDF_DTTM.format(f.getCreationDate());
-            result[i][6] = String.valueOf(f.getSize());
-            result[i][7] = String.valueOf(f.getClassement());
-            result[i][8] = f.getSorted().toString().toUpperCase();
+            Vector<Object> v = new Vector<>();
+            v.addElement(f.getAuthor());
+            v.addElement(f.getFileName());
+            v.addElement(f.getPublishYear());
+            v.addElement(f.getCategorie().toString());
+            v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
+            v.addElement(Constant.SDF_DTTM.format(f.getCreationDate()));
+            v.addElement(f.getSize());
+            v.addElement(f.getClassement());
+            v.addElement(f.getSorted().toString().toUpperCase());
+            result.add(v);
         }
         System.out.println("End convertListForJTable");
         return result;
     }
-
+    
     public static void findDuplicateFichierInCompo(List<Composition> allCompo) {
         for (Composition composition : allCompo) {
             List<Fichier> files = composition.getFiles();
