@@ -43,7 +43,7 @@ public class ImportFile {
         fichier.setFileName(StringUtils.substringBeforeLast(name, "."));
         fichier.setCategorie(determineCategory(name));
         String auteur = file.getParentFile().getName();
-        if("album".equalsIgnoreCase(auteur) || "song".equalsIgnoreCase(auteur)) {
+        if ("album".equalsIgnoreCase(auteur) || "song".equalsIgnoreCase(auteur)) {
             auteur = file.getParentFile().getParentFile().getName();
         }
         fichier.setAuthor(auteur);
@@ -155,8 +155,8 @@ public class ImportFile {
                     composition.setArtist(removeParenthese(result, line, lineNb, composition.getArtist()));
                 }
 
-//                composition.setArtist(StringUtils.stripAccents(composition.getArtist()));
-//                composition.setTitre(StringUtils.stripAccents(composition.getTitre()));
+                // composition.setArtist(StringUtils.stripAccents(composition.getArtist()));
+                // composition.setTitre(StringUtils.stripAccents(composition.getTitre()));
                 compoList.add(composition);
                 i++;
             }
@@ -192,14 +192,14 @@ public class ImportFile {
     /**
      * @param name
      * @param fichier
-     * @param file 
+     * @param file
      */
     public static int determineSize(Fichier fichier, List<String> randomLines, File file) {
         int res = 0;
         if (fichier.getSorted()) {
             String first = randomLines.get(0);
             String last = randomLines.get(randomLines.size() - 1);
-            if(StringUtils.isBlank(last)) {
+            if (StringUtils.isBlank(last)) {
                 last = randomLines.get(randomLines.size() - 2);
             }
             int sizeFirst = extractRankFromString(first);
@@ -209,8 +209,8 @@ public class ImportFile {
             } else {
                 res = sizeLast;
             }
-        } 
-        if(!fichier.getSorted() || res%10 !=0) {
+        }
+        if (!fichier.getSorted() || res % 10 != 0) {
             Matcher mSize = Constant.PATTERN_SIZE.matcher(fichier.getFileName());
             Matcher mDeca = Constant.PATTERN_DECADE.matcher(fichier.getFileName());
             Matcher yDeca = Constant.PATTERN_YEAR.matcher(fichier.getFileName());
@@ -326,6 +326,9 @@ public class ImportFile {
                 file.setRangeDateBegin(0);
                 file.setRangeDateEnd(file.getPublishYear());
             }
+        } else if (date.size() == 2) {
+            file.setRangeDateBegin(Integer.parseInt(date.get(0)));
+            file.setRangeDateEnd(Integer.parseInt(date.get(1)));
         } else {
             // Calendar cal = new GregorianCalendar();
             // file.setRangeDateBegin(cal.get(Calendar.Constant.YEAR));
@@ -412,10 +415,10 @@ public class ImportFile {
     }
 
     /**
-     * Retourne dans l'ordre les 3 premières lignes, une ligne au hasard et les 2 dernières lignes du fichier donné. 
+     * Retourne dans l'ordre les 3 premières lignes, une ligne au hasard et les 2 dernières lignes du fichier donné.
      * 
      * @param file le fichier
-     * @return une liste de 6 String 
+     * @return une liste de 6 String
      */
     public static List<String> randomLineAndLastLines(File file) {
         System.out.println("Start randomLineAndLastLines");
