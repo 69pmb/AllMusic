@@ -14,7 +14,7 @@ import pmb.music.AllMusic.view.BasicFrame;
  * Hello world!
  *
  */
-public class App {
+public class AllMusic {
 
     public static void main(String[] args) {
 
