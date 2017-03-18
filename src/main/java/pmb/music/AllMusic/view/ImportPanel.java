@@ -333,6 +333,9 @@ public class ImportPanel extends JPanel {
         firstLinesPanel.add(firstL3);
         secondLine.add(firstLinesPanel);
 
+        this.add(secondLine);
+        JPanel thirdLine = new JPanel();
+
         // lastLines
         JPanel lastLinesPanel = new JPanel();
         lastLinesPanel.setPreferredSize(new Dimension(340, 80));
@@ -344,10 +347,7 @@ public class ImportPanel extends JPanel {
         lastLinesPanel.add(lastLinesLabel);
         lastLinesPanel.add(lastL1);
         lastLinesPanel.add(lastL2);
-        secondLine.add(lastLinesPanel);
-
-        this.add(secondLine);
-        JPanel thirdLine = new JPanel();
+        thirdLine.add(lastLinesPanel);
 
         // characterToRemove
         JPanel characterToRemovePanel = new JPanel();
