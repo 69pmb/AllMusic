@@ -10,6 +10,8 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
@@ -104,6 +106,44 @@ public class ArtistPanel extends JPanel {
                     clipboard.setContents(selection, selection);
                     System.out.println("End artist right mouse");
                 }
+            }
+        });
+        
+        table.addKeyListener(new KeyListener() {
+
+            private int selectedRow = -1;// before start
+
+            @Override
+            public void keyTyped(KeyEvent e) {
+            }
+
+            @SuppressWarnings("unchecked")
+            @Override
+            public void keyReleased(KeyEvent e) {
+                JTable target = (JTable) e.getSource();
+                String keyChar = String.valueOf(e.getKeyChar());
+                TableModel model = target.getModel();
+                int startRow = selectedRow;
+                if (selectedRow == model.getRowCount() - 1) {
+                    startRow = -1;// Go before start
+                }
+                // Check each cell to see if it starts with typed char.
+                // if so set corresponding row selected and return.
+                for (int row = startRow + 1; row < model.getRowCount(); row++) {
+                    String value = ((Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row))).get(0);
+                    if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
+                        target.getSelectionModel().clearSelection();
+                        target.getColumnModel().getSelectionModel().clearSelection();
+                        target.changeSelection(row,0,true,false);
+                        target.setRowSelectionInterval(row, row);
+                        selectedRow = row;
+                        return;
+                    }
+                }
+            }
+            
+            @Override
+            public void keyPressed(KeyEvent e) {
             }
         });
 
