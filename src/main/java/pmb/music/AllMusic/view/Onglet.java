@@ -33,10 +33,10 @@ public class Onglet extends JPanel {
 //        Table.drawTable();  
 //        final JScrollPane scrollPane = new JScrollPane(Table.getTable());
         // scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
-        
-        ImportPanel importFile = new ImportPanel();
-        SearchPanel search = new SearchPanel();
+
         ArtistPanel artist = new ArtistPanel();
+        ImportPanel importFile = new ImportPanel(artist);
+        SearchPanel search = new SearchPanel(artist);
         
 //        scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         onglets.addTab("Import", importFile);
