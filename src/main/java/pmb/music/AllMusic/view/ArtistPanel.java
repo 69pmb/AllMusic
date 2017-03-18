@@ -47,7 +47,7 @@ public class ArtistPanel extends JPanel {
 
     private ArtistModel model;
 
-    List<Composition> list;
+    private List<Composition> list;
 
     private static final String title[] = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
 
@@ -61,13 +61,12 @@ public class ArtistPanel extends JPanel {
         table.setFont(UIManager.getFont("Label.font"));
         table.setBorder(UIManager.getBorder("Label.border"));
         model = new ArtistModel(new Object[0][2], title);
-        list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-        model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
         table.setModel(model);
         table.setRowSorter(new TableRowSorter<TableModel>(model));
         table.getRowSorter().toggleSortOrder(1);
         table.getRowSorter().toggleSortOrder(1);
         colRenderer();
+        updateArtistPanel();
         table.addMouseListener(new MouseAdapter() {
 
             @SuppressWarnings("unchecked")
@@ -76,6 +75,7 @@ public class ArtistPanel extends JPanel {
                 JTable target = (JTable) e.getSource();
                 if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
                     System.out.println("Start artist mouse");
+                    // Affiche tous les fichiers de l'artiste double cliqué
                     Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector()
                             .get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
                     System.out.println(v);
@@ -93,6 +93,7 @@ public class ArtistPanel extends JPanel {
                     System.out.println("End artist mouse");
                 } else if (SwingUtilities.isRightMouseButton(e)) {
                     System.out.println("Start artist right mouse");
+                    // Copie dans le presse papier le nom de l'artiste
                     int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
                     if (rowAtPoint > -1) {
                         target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
@@ -108,6 +109,19 @@ public class ArtistPanel extends JPanel {
 
         this.setLayout(new BorderLayout());
         this.add(new JScrollPane(table), BorderLayout.CENTER);
+    }
+
+	public void updateArtistPanel() {
+		System.out.println("Start updateArtistPanel");
+        model.setRowCount(0);
+		list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+        model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
+        colRenderer();
+        model.fireTableDataChanged();
+        table.getRowSorter().toggleSortOrder(1);
+        table.getRowSorter().toggleSortOrder(1);
+        table.repaint();
+		System.out.println("End updateArtistPanel");
     }
 
     private void colRenderer() {

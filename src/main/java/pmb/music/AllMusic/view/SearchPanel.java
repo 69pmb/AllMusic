@@ -72,7 +72,7 @@ public class SearchPanel extends JPanel {
 
     private CompoModel model;
 
-    public SearchPanel() {
+    public SearchPanel(final ArtistPanel artist2) {
         super();
         System.out.println("Start SearchPanel");
         this.setLayout(new GridLayout(2, 1));
@@ -173,6 +173,7 @@ public class SearchPanel extends JPanel {
                 }
                 try {
                     ExportXML.exportXML(importXML, "final");
+                    artist2.updateArtistPanel();
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
