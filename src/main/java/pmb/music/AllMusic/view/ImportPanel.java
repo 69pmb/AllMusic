@@ -79,7 +79,7 @@ public class ImportPanel extends JPanel {
 
     List<String> result = new LinkedList<String>();
 
-    public ImportPanel() {
+    public ImportPanel(final ArtistPanel artist) {
         super();
         System.out.println("Start ImportPanel");
         explorePath = Constant.MUSIC_ABS_DIRECTORY;
@@ -504,6 +504,7 @@ public class ImportPanel extends JPanel {
                 } catch (IOException e) {
                     result = new LinkedList<String>(Arrays.asList(e.toString()));
                 }
+                artist.updateArtistPanel();
                 miseEnFormeResultLabel(result);
                 System.out.println("End fusionFile");
             }
@@ -523,6 +524,7 @@ public class ImportPanel extends JPanel {
                     } catch (IOException e) {
                         result = new LinkedList<String>(Arrays.asList(e.toString()));
                     }
+                    artist.updateArtistPanel();
                     miseEnFormeResultLabel(result);
                 }
                 System.out.println("End fusionOneFile");
