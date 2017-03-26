@@ -13,8 +13,10 @@ import java.util.regex.Pattern;
 public class Constant {
 
     public static final String RESOURCES_DIRECTORY = "\\src\\main\\resources\\";
-
+    
     public static final String RESOURCES_ABS_DIRECTORY = System.getProperty("user.dir") + RESOURCES_DIRECTORY;
+
+    public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + "history";
 
     public static final String FINAL_FILE_PATH = System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY + "final.xml";
 
