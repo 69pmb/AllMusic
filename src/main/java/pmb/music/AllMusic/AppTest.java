@@ -33,7 +33,7 @@ public class AppTest {
             Fichier fichier = ImportFile.convertOneFile(file);
             List<String> randomLine = ImportFile.randomLineAndLastLines(file);
             fichier.setSorted(ImportFile.isSorted(randomLine.get(3)));
-            fichier.setSize(ImportFile.determineSize(fichier, randomLine, file));
+            fichier.setSize(ImportFile.determineSize(fichier, randomLine, file.getAbsolutePath()));
             RecordType determineType = ImportFile.determineType(file.getName());
             if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType) && fichier.getPublishYear() != 0 && fichier.getRangeDateBegin() == 0
                     && fichier.getRangeDateEnd() == 0) {
