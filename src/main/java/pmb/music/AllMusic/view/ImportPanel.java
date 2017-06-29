@@ -668,7 +668,7 @@ public class ImportPanel extends JPanel {
         fichier = ImportFile.convertOneFile(file);
         List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
         fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
-        fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file));
+        fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
         absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + fichier.getFileName() + ".xml";
         if (FileUtils.fileExists(absolutePathFileXml)) {
             miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
