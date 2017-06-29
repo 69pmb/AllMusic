@@ -34,7 +34,11 @@ import pmb.music.AllMusic.utils.MyException;
  *
  */
 public class ImportFile {
+	
+    private static final String LOG_NUMBER = " number: ";
 
+	private ImportFile(){};
+	
     public static Fichier convertOneFile(File file) {
         System.out.println("Start convertOneFile");
         Fichier fichier = new Fichier();
@@ -55,12 +59,11 @@ public class ImportFile {
     public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type, String separator, List<String> result, boolean artistFirst,
             boolean reverseArtist, boolean parenthese, boolean upper, boolean removeAfter) throws MyException {
         System.out.println("Start getCompositionsFromFile");
-        List<Composition> compoList = new ArrayList<Composition>();
+        List<Composition> compoList = new ArrayList<>();
         String line = "";
-        BufferedReader br = null;
-        int i = 1, lineNb = 1;
-        try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
+        int i = 1;
+        int lineNb = 1;
+        try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
             while ((line = br.readLine()) != null) {
                 lineNb++;
                 if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, "#")) {
@@ -72,25 +75,10 @@ public class ImportFile {
                 }
 
                 // Reconnaissance du titre et de l'artiste
-                String artist, titre = "";
+                String artist;
+                String titre = "";
                 if (!upper) {
-                    String[] split = line.split(separator);
-                    if (split.length < 2) {
-                        split = line.split("-");
-                    }
-                    if (split.length < 2) {
-                        throw new MyException("Separator " + separator + " is not suitable for line " + lineNb + " : " + line);
-                    }
-                    if (split.length > 2) {
-                        String newSep = " " + separator + " ";
-                        split = new String[2];
-                        split[0] = StringUtils.replace(StringUtils.substringBeforeLast(line, newSep), newSep, ", ");
-                        split[1] = StringUtils.substringAfterLast(line, newSep);
-                        if (StringUtils.countMatches(line, newSep) > 1) {
-                            result.add("### Error Size (" + split.length + ") for: " + line + " number: " + lineNb);
-                            result.add("### split: " + Arrays.toString(split));
-                        }
-                    }
+                    String[] split = splitLineWithSeparator(separator, result, line, lineNb);
                     titre = StringUtils.trim(split[1]);
                     artist = StringUtils.trim(split[0]);
                 } else {
@@ -118,12 +106,8 @@ public class ImportFile {
                         artist = StringUtils.substringAfter(artist, ".");
                     } else {
                         res = artist.split(" ")[0];
-                        try {
-                            rank = Integer.parseInt(res);
-                            artist = StringUtils.substringAfterLast(artist, res);
-                        } catch (NumberFormatException e) {
-                            rank = 0;
-                        }
+                        rank = parseStringToInt(res);
+                        artist = StringUtils.substringAfterLast(artist, res);
                     }
                 } else {
                     rank = i;
@@ -162,19 +146,40 @@ public class ImportFile {
             }
         } catch (NumberFormatException | IOException e1) {
             throw new MyException(e1.toString());
-        } finally {
-            if (br != null) {
-                try {
-                    br.close();
-                } catch (IOException e) {
-                    throw new MyException(e.toString());
-                }
-            }
         }
         System.out.println(result);
         System.out.println("End getCompositionsFromFile");
         return compoList;
     }
+
+	/**
+	 * @param separator
+	 * @param result
+	 * @param line
+	 * @param lineNb
+	 * @return
+	 * @throws MyException 
+	 */
+	private static String[] splitLineWithSeparator(String separator, List<String> result, String line, int lineNb) throws MyException {
+		String[] split = line.split(separator);
+		if (split.length < 2) {
+		    split = line.split("-");
+		}
+		if (split.length < 2) {
+		    throw new MyException("Separator " + separator + " is not suitable for line " + lineNb + " : " + line);
+		}
+		if (split.length > 2) {
+		    String newSep = " " + separator + " ";
+		    split = new String[2];
+		    split[0] = StringUtils.replace(StringUtils.substringBeforeLast(line, newSep), newSep, ", ");
+		    split[1] = StringUtils.substringAfterLast(line, newSep);
+		    if (StringUtils.countMatches(line, newSep) > 1) {
+				result.add("### Error Size (" + split.length + ") for: " + line + LOG_NUMBER + lineNb);
+		        result.add("### split: " + Arrays.toString(split));
+		    }
+		}
+		return split;
+	}
 
     private static String removeParenthese(List<String> result, String line, int lineNumber, String chaine) {
         int countMatches = StringUtils.countMatches(chaine, "(");
@@ -182,19 +187,21 @@ public class ImportFile {
         if (countMatches == 1) {
             res = StringUtils.trim(StringUtils.substringBefore(chaine, "("));
         } else if (countMatches == 0) {
-            result.add("Pas de parenthèse, line: " + line + " number: " + lineNumber);
+            result.add("Pas de parenthèse, line: " + line + LOG_NUMBER + lineNumber);
         } else {
-            result.add("###Trop de parenthèses, line: " + line + " number: " + lineNumber);
+            result.add("###Trop de parenthèses, line: " + line + LOG_NUMBER + lineNumber);
         }
         return res;
     }
 
     /**
-     * @param name
-     * @param fichier
-     * @param file
+     * Cherche le nombre d'enregistrement dans le fichier. 
+     * @param fichier le fichier
+     * @param randomLines une ligne tirée aléatoirement 
+     * @param absolutePath le chemin du fichier
+     * @return 
      */
-    public static int determineSize(Fichier fichier, List<String> randomLines, File file) {
+    public static int determineSize(Fichier fichier, List<String> randomLines, String absolutePath) {
         int res = 0;
         if (fichier.getSorted()) {
             String first = randomLines.get(0);
@@ -231,7 +238,7 @@ public class ImportFile {
         }
         if (res == 0) {
             try {
-                fichier.setSize(countLines(file.getAbsolutePath()));
+                fichier.setSize(countLines(absolutePath));
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -246,17 +253,28 @@ public class ImportFile {
             sizeInt = Integer.parseInt(size);
         } else {
             size = line.split(" ")[0];
-            try {
-                sizeInt = Integer.parseInt(size);
-            } catch (NumberFormatException e) {
-                sizeInt = 0;
-            }
+            sizeInt = parseStringToInt(size);
         }
         return sizeInt;
     }
 
+	private static int parseStringToInt(String string) {
+		int number;
+		try {
+		    number = Integer.parseInt(string);
+		} catch (NumberFormatException e) {
+		    number = 0;
+		}
+		return number;
+	}
+
+    /**
+     * Détermine le type du fichier.
+     * @param name le nom du fichier
+     * @return {@link RecordType} album, chanson ou inconnu.
+     */
     public static RecordType determineType(String name) {
-        RecordType res = null;
+        RecordType res;
         if (Constant.PATTERN_SONG.matcher(name).find()) {
             res = RecordType.SONG;
         } else if (Constant.PATTERN_ALBUM.matcher(name).find()) {
@@ -268,7 +286,7 @@ public class ImportFile {
     }
 
     private static Cat determineCategory(String name) {
-        Cat res = null;
+        Cat res;
         if (Constant.PATTERN_DECADE.matcher(name).find()) {
             res = Cat.DECADE;
         } else if (name.matches(Constant.YEAR)) {
@@ -344,8 +362,7 @@ public class ImportFile {
     }
 
     private static String[] strip(String name) {
-        String[] split = name.split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)");
-        return split;
+        return name.split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)");
     }
 
     private static int convertTwoDigitsToYear(List<String> decadeMatch) {
@@ -355,8 +372,7 @@ public class ImportFile {
         } else {
             substring = "19" + substring;
         }
-        int begin = Integer.parseInt(substring);
-        return begin;
+        return Integer.parseInt(substring);
     }
 
     private static List<String> matchPart(String[] split, String regex) {
@@ -386,6 +402,9 @@ public class ImportFile {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        if(attr==null) {
+        	return new Date();
+        }
         Date creationDate = null;
         long milliseconds = attr.creationTime().to(TimeUnit.MILLISECONDS);
         if ((milliseconds > Long.MIN_VALUE) && (milliseconds < Long.MAX_VALUE)) {
@@ -394,6 +413,11 @@ public class ImportFile {
         return creationDate;
     }
 
+    /**
+     * Détermine si les enregistrements sont triés (ou numérotés) ou non dans le fichier.
+     * @param line une ligne au hasard.
+     * @return {@code true} si oui, {@code false} sinon
+     */
     public static boolean isSorted(String line) {
         if (Constant.PATTERN_CHART.matcher(line).find()) {
             return true;
@@ -402,6 +426,11 @@ public class ImportFile {
         }
     }
 
+    /**
+     * Détermine le séparateur entre l'artiste et le titre utilisé dans le fichier.
+     * @param line une ligne du fichier
+     * @return {@link String} le séparateur
+     */
     public static String getSeparator(String line) {
         String[] split = line.split(" ");
         String res = "-";
@@ -424,11 +453,9 @@ public class ImportFile {
         System.out.println("Start randomLineAndLastLines");
         List<String> lines = new ArrayList<>();
         String line = "";
-        BufferedReader br = null;
-        try {
+        try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
             int countLines = countLines(file.getAbsolutePath());
             int rand = ThreadLocalRandom.current().nextInt(4, countLines);
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
             lines.add(StringUtils.trim(br.readLine()));
             lines.add(StringUtils.trim(br.readLine()));
             lines.add(StringUtils.trim(br.readLine()));
@@ -442,26 +469,24 @@ public class ImportFile {
             }
             lines.add(line);
             while (count < countLines - 1) {
-                br.readLine();
+            	br.readLine();
                 count++;
             }
             lines.add(StringUtils.trim(br.readLine()));
             lines.add(StringUtils.trim(br.readLine()));
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            if (br != null) {
-                try {
-                    br.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
         }
         System.out.println("End randomLineAndLastLines");
         return lines;
     }
 
+    /**
+     * Compte le nombre de ligne dans le fichier.
+     * @param filename le nom du fichier
+     * @return un nombre
+     * @throws IOException 
+     */
     public static int countLines(String filename) throws IOException {
         System.out.println("Start countLines");
         InputStream is = new BufferedInputStream(new FileInputStream(filename));
