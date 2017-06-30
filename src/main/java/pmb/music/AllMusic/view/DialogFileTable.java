@@ -40,7 +40,7 @@ public class DialogFileTable extends JDialog {
 
     private static final long serialVersionUID = 1304786661370052913L;
 
-    private List<Fichier> files = new ArrayList<Fichier>();
+    private List<Fichier> files = new ArrayList<>();
 
     private static final String title[] = { "Auteur", "Nom du fichier", "Date de publication", "Categorie", "Dates", "Date de création", "Taille", "Classement", "Classé" };
 
