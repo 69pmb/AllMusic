@@ -26,27 +26,23 @@ public final class ImportXML {
 
     private static volatile ImportXML importXML = null;
 
-    private static List<Composition> compoList = new ArrayList<Composition>();
+    private static List<Composition> compoList = new ArrayList<>();
 
     public static List<Composition> importXML(String uri) {
         SAXParserFactory fabrique = SAXParserFactory.newInstance();
         SAXParser parseur = null;
         try {
             parseur = fabrique.newSAXParser();
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        } catch (SAXException e) {
+        } catch (ParserConfigurationException | SAXException e) {
             e.printStackTrace();
         }
 
         File fichier = new File(uri);
         CompoHandler handler = new CompoHandler();
-        if (fichier.length() > 0) {
+        if (fichier.length() > 0 && parseur!= null) {
             try {
                 parseur.parse(fichier, handler);
-            } catch (SAXException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
+            } catch (SAXException | IOException e) {
                 e.printStackTrace();
             }
         }
@@ -97,16 +93,16 @@ public final class ImportXML {
     public static List<Composition> fusionFiles(String dirName, boolean getFinal) throws IOException  {
         System.out.println("Start fusionFiles");
         File dir = new File(dirName);
-        List<File> files = new ArrayList<File>();
+        List<File> files = new ArrayList<>();
         CompositionUtils.listFilesForFolder(dir, files, ".xml", false);
-        List<Composition> compoFusion = new ArrayList<Composition>();
+        List<Composition> compoFusion = new ArrayList<>();
         for (File fileXML : files) {
             boolean isFinal = fileXML.getName().equals("final.xml");
             if (!isFinal || (getFinal && isFinal)) {
                 compoFusion.addAll(ImportXML.importXML(fileXML.getAbsolutePath()));
             }
         }
-        List<Composition> compoFinal = new ArrayList<Composition>();
+        List<Composition> compoFinal = new ArrayList<>();
         for (Composition compo : compoFusion) {
             Composition compoExist = CompositionUtils.compoExist(compoFinal, compo);
             if (compoExist == null) {
@@ -133,11 +129,11 @@ public final class ImportXML {
         System.out.println("Start fusionOneFile");
         File file = new File(filePath);
         File finalFile = new File(Constant.FINAL_FILE_PATH);
-        List<Composition> compoFusion = new ArrayList<Composition>();
+        List<Composition> compoFusion = new ArrayList<>();
         compoFusion.addAll(ImportXML.importXML(file.getAbsolutePath()));
         compoFusion.addAll(ImportXML.importXML(finalFile.getAbsolutePath()));
         
-        List<Composition> compoFinal = new ArrayList<Composition>();
+        List<Composition> compoFinal = new ArrayList<>();
         for (Composition compo : compoFusion) {
             Composition compoExist = CompositionUtils.compoExist(compoFinal, compo);
             if (compoExist == null) {
