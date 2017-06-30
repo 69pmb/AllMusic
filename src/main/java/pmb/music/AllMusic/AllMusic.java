@@ -32,14 +32,8 @@ public class AllMusic {
         }));
         try {
             UIManager.setLookAndFeel("com.jtattoo.plaf.aluminium.AluminiumLookAndFeel");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (UnsupportedLookAndFeelException e) {
-            e.printStackTrace();
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
+        	e.printStackTrace();
         }
 //        ImportXML.getInstance(FINAL_FILE_PATH);
         // List<Composition> fusionFiles = ImportXML.fusionFiles(System.getProperty("user.dir") + RESOURCES_DIRECTORY);
