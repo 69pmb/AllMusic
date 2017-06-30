@@ -32,6 +32,11 @@ public class CompoHandler extends DefaultHandler {
 
     private Fichier file;
 
+    public CompoHandler() {
+        super();
+        compoList = new ArrayList<>();
+    }
+
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
         switch (qName) {
@@ -39,47 +44,54 @@ public class CompoHandler extends DefaultHandler {
                 compoList = new ArrayList<>();
                 break;
             case "Composition":
-                compo = new Composition();
-                files = new ArrayList<>();
-                try {
-                    compo.setArtist(attributes.getValue("artist"));
-                    compo.setTitre(attributes.getValue("titre"));
-                    compo.setRecordType(RecordType.valueOf(attributes.getValue("type")));
-                } catch (Exception e) {
-                    throw new SAXException(e);
-                }
+            	getCompositionElem(attributes);
                 break;
             case "File":
-                file = new Fichier();
-                file.setPublishYear(Integer.parseInt(attributes.getValue("publishYear")));
-                file.setRangeDateBegin(Integer.parseInt(attributes.getValue("rangeDateBegin")));
-                file.setRangeDateEnd(Integer.parseInt(attributes.getValue("rangeDateEnd")));
-                file.setClassement(Integer.parseInt(attributes.getValue("classement")));
-                file.setSorted(Boolean.parseBoolean(attributes.getValue("sorted")));
-                file.setAuthor(attributes.getValue("author"));
-                file.setFileName(attributes.getValue("fileName"));
-                file.setCategorie(Cat.valueOf(attributes.getValue("categorie")));
-                try{
-                    file.setSize(Integer.parseInt(attributes.getValue("size")));
-                } catch (NumberFormatException e) {
-                    file.setSize(0);
-                    System.out.println(file);
-                }
-                try {
-                    file.setCreationDate(Constant.SDF_DTTM.parse(attributes.getValue("creationDate")));
-                } catch (ParseException e) {
-                    file.setCreationDate(new Date());
-                }
+			getFileElem(attributes);
                 break;
+            default:
+            	break;
         }
-
     }
+
+	private void getFileElem(Attributes attributes) {
+		file = new Fichier();
+		file.setPublishYear(Integer.parseInt(attributes.getValue("publishYear")));
+		file.setRangeDateBegin(Integer.parseInt(attributes.getValue("rangeDateBegin")));
+		file.setRangeDateEnd(Integer.parseInt(attributes.getValue("rangeDateEnd")));
+		file.setClassement(Integer.parseInt(attributes.getValue("classement")));
+		file.setSorted(Boolean.parseBoolean(attributes.getValue("sorted")));
+		file.setAuthor(attributes.getValue("author"));
+		file.setFileName(attributes.getValue("fileName"));
+		file.setCategorie(Cat.valueOf(attributes.getValue("categorie")));
+		try{
+		    file.setSize(Integer.parseInt(attributes.getValue("size")));
+		} catch (NumberFormatException e) {
+		    file.setSize(0);
+		    System.out.println(file);
+		}
+		try {
+		    file.setCreationDate(Constant.SDF_DTTM.parse(attributes.getValue("creationDate")));
+		} catch (ParseException e) {
+		    file.setCreationDate(new Date());
+		}
+	}
+
+	private void getCompositionElem(Attributes attributes) throws SAXException {
+		compo = new Composition();
+		files = new ArrayList<>();
+		try {
+		    compo.setArtist(attributes.getValue("artist"));
+		    compo.setTitre(attributes.getValue("titre"));
+		    compo.setRecordType(RecordType.valueOf(attributes.getValue("type")));
+		} catch (Exception e) {
+		    throw new SAXException(e);
+		}
+	}
 
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
         switch (qName) {
-            case "ListCompositions":
-                break;
             case "Composition":
                 compo.setFiles(files);
                 compoList.add(compo);
@@ -90,17 +102,9 @@ public class CompoHandler extends DefaultHandler {
                 files.add(file);
                 file = null;
                 break;
+            default:
+            	break;
         }
-    }
-
-    public CompoHandler() {
-        super();
-        compoList = new ArrayList<>();
-    }
-
-    @Override
-    public void endDocument() throws SAXException {
-        super.endDocument();
     }
 
     public List<Composition> getCompoList() {
