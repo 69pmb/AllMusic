@@ -56,9 +56,24 @@ public class SearchPanel extends JPanel {
 
     private static final long serialVersionUID = 2593372709628283573L;
 
-    private JLabel catLabel, authorLabel, publiLabel, rangeLabel, typeLabel, titreLabel, fileNameLabel, artistLabel, countLabel, deleteLabel;
+    private JLabel catLabel;
+    private JLabel authorLabel;
+    private JLabel publiLabel;
+    private JLabel rangeLabel;
+    private JLabel typeLabel;
+    private JLabel titreLabel;
+    private JLabel fileNameLabel;
+    private JLabel artistLabel;
+    private JLabel countLabel;
+    private JLabel deleteLabel;
 
-    private JTextField author, publi, rangeB, rangeE, titre, fileName, artist;
+    private JTextField author;
+    private JTextField publi;
+    private JTextField rangeB;
+    private JTextField rangeE;
+    private JTextField titre;
+    private JTextField fileName;
+    private JTextField artist;
 
     private JTable result;
 
