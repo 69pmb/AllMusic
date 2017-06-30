@@ -51,7 +51,7 @@ public class ArtistPanel extends JPanel {
 
     private List<Composition> list;
 
-    private static final String title[] = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
+    private static final String[] title = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
 
     public ArtistPanel() {
         super();
@@ -81,7 +81,7 @@ public class ArtistPanel extends JPanel {
                     Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector()
                             .get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
                     System.out.println(v);
-                    List<Fichier> files = new ArrayList<Fichier>();
+                    List<Fichier> files = new ArrayList<>();
                     try {
                         List<Composition> findByArtist = CompositionUtils.findByArtist(list, v.get(0));
                         for (Composition composition : findByArtist) {
@@ -122,14 +122,14 @@ public class ArtistPanel extends JPanel {
             public void keyReleased(KeyEvent e) {
                 JTable target = (JTable) e.getSource();
                 String keyChar = String.valueOf(e.getKeyChar());
-                TableModel model = target.getModel();
+                TableModel tableModel = target.getModel();
                 int startRow = selectedRow;
-                if (selectedRow == model.getRowCount() - 1) {
+                if (selectedRow == tableModel.getRowCount() - 1) {
                     startRow = -1;// Go before start
                 }
                 // Check each cell to see if it starts with typed char.
                 // if so set corresponding row selected and return.
-                for (int row = startRow + 1; row < model.getRowCount(); row++) {
+                for (int row = startRow + 1; row < tableModel.getRowCount(); row++) {
                     String value = ((Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row))).get(0);
                     if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
                         target.getSelectionModel().clearSelection();
