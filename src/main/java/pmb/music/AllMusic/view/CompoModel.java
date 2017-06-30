@@ -55,7 +55,7 @@ public class CompoModel extends DefaultTableModel {
 
     @SuppressWarnings("rawtypes")
     public List<Object> getSelected() {
-        List<Object> toReturn = new ArrayList<Object>();
+        List<Object> toReturn = new ArrayList<>();
         for (int i = 0; i < dataVector.size(); i++) {
             if ((boolean) ((Vector) dataVector.elementAt(i)).elementAt(4)) {
                 toReturn.add(dataVector.elementAt(i));
