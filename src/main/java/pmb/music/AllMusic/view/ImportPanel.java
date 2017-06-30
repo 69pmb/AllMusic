@@ -55,10 +55,42 @@ public class ImportPanel extends JPanel {
 
     private static final long serialVersionUID = 5796304304079887263L;
 
-    private JLabel catLabel, authorLabel, publiLabel, rangeLabel, sizeLabel, sortedLabel, typeLabel, dateLabel, nameLabel, lineLabel, separatorLabel, orderLabel, getFinalLabel,
-            lastLinesLabel, firstLinesLabel, characterToRemoveLabel, reverseArtistLabel, removeParentheseLabel, upperLabel, removeAfterLabel;
+    private JLabel catLabel;
+    private JLabel authorLabel;
+    private JLabel publiLabel;
+    private JLabel rangeLabel;
+    private JLabel sizeLabel;
+    private JLabel sortedLabel;
+    private JLabel typeLabel;
+    private JLabel dateLabel;
+    private JLabel nameLabel;
+    private JLabel lineLabel;
+    private JLabel separatorLabel;
+    private JLabel orderLabel;
+    private JLabel getFinalLabel;
+    private JLabel lastLinesLabel;
+    private JLabel firstLinesLabel;
+    private JLabel characterToRemoveLabel;
+    private JLabel reverseArtistLabel;
+    private JLabel removeParentheseLabel;
+    private JLabel upperLabel;
+    private JLabel removeAfterLabel;
 
-    private JTextField author, publi, rangeB, rangeE, size, name, date, line, separator, firstL1, firstL2, firstL3, lastL1, lastL2, characterToRemove;
+    private JTextField author;
+    private JTextField publi;
+    private JTextField rangeB;
+    private JTextField rangeE;
+    private JTextField size;
+    private JTextField name;
+    private JTextField date;
+    private JTextField line;
+    private JTextField separator;
+    private JTextField firstL1;
+    private JTextField firstL2;
+    private JTextField firstL3;
+    private JTextField lastL1;
+    private JTextField lastL2;
+    private JTextField characterToRemove;
 
     private JTextArea resultLabel;
 
@@ -72,13 +104,19 @@ public class ImportPanel extends JPanel {
 
     private String absolutePathFileTxt, absolutePathFileXml;
 
-    private JCheckBox sorted, order, getFinal, reverseArtist, removeParenthese, upper, removeAfter;
+    private JCheckBox sorted;
+    private JCheckBox order;
+    private JCheckBox getFinal;
+    private JCheckBox reverseArtist;
+    private JCheckBox removeParenthese;
+    private JCheckBox upper;
+    private JCheckBox removeAfter;
 
     private RecordType determineType;
 
     private String explorePath;
 
-    List<String> result = new LinkedList<String>();
+    private List<String> result = new LinkedList<>();
 
     public ImportPanel(final ArtistPanel artist) {
         super();
@@ -172,7 +210,7 @@ public class ImportPanel extends JPanel {
             public void focusLost(FocusEvent e) {
                 absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText() + ".xml";
                 if (FileUtils.fileExists(absolutePathFileXml)) {
-                    miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(name.getText() + " existe déjà")));
+                    miseEnFormeResultLabel(new LinkedList<>(Arrays.asList(name.getText() + " existe déjà")));
                 }
             }
 
@@ -444,7 +482,7 @@ public class ImportPanel extends JPanel {
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start importFile");
-                result = new LinkedList<String>(Arrays.asList("Sélectionnez un fichier"));
+                result = new LinkedList<>(Arrays.asList("Sélectionnez un fichier"));
                 if (fichier != null) {
                     fichier.setSorted(sorted.isSelected());
                     fichier.setFileName(name.getText());
@@ -453,7 +491,7 @@ public class ImportPanel extends JPanel {
                     fichier.setPublishYear(Integer.parseInt(publi.getText()));
                     fichier.setRangeDateBegin(Integer.parseInt(rangeB.getText()));
                     fichier.setRangeDateEnd(Integer.parseInt(rangeE.getText()));
-                    result = new LinkedList<String>(Arrays.asList(name.getText() + " OK !"));
+                    result = new LinkedList<>(Arrays.asList(name.getText() + " OK !"));
 
                     try {
                         List<Composition> compoList = ImportFile.getCompositionsFromFile(new File(absolutePathFileTxt), fichier, (RecordType) type.getSelectedItem(),
@@ -462,7 +500,7 @@ public class ImportPanel extends JPanel {
                         ExportXML.exportXML(compoList, name.getText());
                         absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText() + ".xml";
                     } catch (IOException | MyException e) {
-                        result = new LinkedList<String>(Arrays.asList(e.toString()));
+                        result = new LinkedList<>(Arrays.asList(e.toString()));
                     }
                 }
                 miseEnFormeResultLabel(result);
@@ -477,14 +515,14 @@ public class ImportPanel extends JPanel {
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start cleanFile");
-                result = new LinkedList<String>(Arrays.asList("Sélectionnez un fichier"));
+                result = new LinkedList<>(Arrays.asList("Sélectionnez un fichier"));
                 if (file != null) {
-                    result = new LinkedList<String>(Arrays.asList(file.getName() + " nettoyé !"));
+                    result = new LinkedList<>(Arrays.asList(file.getName() + " nettoyé !"));
 
                     try {
                         CleanFile.clearFile(file, fichier.getSorted(), separator.getText(), characterToRemove.getText());
                     } catch (IOException e) {
-                        result = new LinkedList<String>(Arrays.asList(e.toString()));
+                        result = new LinkedList<>(Arrays.asList(e.toString()));
                     }
                 }
                 miseEnFormeResultLabel(result);
@@ -499,11 +537,11 @@ public class ImportPanel extends JPanel {
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start fusionFile");
-                result = new LinkedList<String>(Arrays.asList("Fichiers fusionnés"));
+                result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
                 try {
                     ImportXML.fusionFiles(System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY, getFinal.isSelected());
                 } catch (IOException e) {
-                    result = new LinkedList<String>(Arrays.asList(e.toString()));
+                    result = new LinkedList<>(Arrays.asList(e.toString()));
                 }
                 artist.updateArtistPanel();
                 miseEnFormeResultLabel(result);
@@ -519,11 +557,11 @@ public class ImportPanel extends JPanel {
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("Start fusionOneFile");
                 if (StringUtils.isNotBlank(absolutePathFileXml)) {
-                    result = new LinkedList<String>(Arrays.asList("Fichier ajouté"));
+                    result = new LinkedList<>(Arrays.asList("Fichier ajouté"));
                     try {
                         ImportXML.fusionOneFile(absolutePathFileXml);
                     } catch (IOException e) {
-                        result = new LinkedList<String>(Arrays.asList(e.toString()));
+                        result = new LinkedList<>(Arrays.asList(e.toString()));
                     }
                     artist.updateArtistPanel();
                     miseEnFormeResultLabel(result);
@@ -546,7 +584,7 @@ public class ImportPanel extends JPanel {
                             Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileTxt);
                         }
                     } catch (IOException e) {
-                        result = new LinkedList<String>(Arrays.asList(e.toString()));
+                        result = new LinkedList<>(Arrays.asList(e.toString()));
                     }
                     miseEnFormeResultLabel(result);
                 }
@@ -569,7 +607,7 @@ public class ImportPanel extends JPanel {
                             Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileXml);
                         }
                     } catch (IOException e) {
-                        result = new LinkedList<String>(Arrays.asList(e.toString()));
+                        result = new LinkedList<>(Arrays.asList(e.toString()));
                     }
                     miseEnFormeResultLabel(result);
                 }
@@ -671,7 +709,7 @@ public class ImportPanel extends JPanel {
         fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
         absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + fichier.getFileName() + ".xml";
         if (FileUtils.fileExists(absolutePathFileXml)) {
-            miseEnFormeResultLabel(new LinkedList<String>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
+            miseEnFormeResultLabel(new LinkedList<>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
         }
         determineType = ImportFile.determineType(file.getName());
         if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType) && fichier.getPublishYear() != 0 && fichier.getRangeDateBegin() == 0
