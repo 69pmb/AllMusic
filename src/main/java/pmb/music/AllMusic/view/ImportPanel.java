@@ -628,7 +628,7 @@ public class ImportPanel extends JPanel {
 			public void actionPerformed(ActionEvent arg0) {
 				try {
 					FichierUtils.cleanHistory();
-				} catch (ParseException e) {
+				} catch (ParseException | IOException e) {
 					e.printStackTrace();
 				}
 			}
