@@ -8,7 +8,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -88,12 +87,12 @@ public class ExportXML {
 		FichierUtils.createFolderIfNotExists(history);
 
 		// Historisation du fichier précédent dans le dossier history
-		File source = new File(nomDir + fileName + ".xml");
-		File destination = new File(history + fileName + dateNow() + ".xml");
+		File source = new File(nomDir + fileName + Constant.XML_EXTENSION);
+		File destination = new File(history + fileName + Constant.SEPARATOR_DATE_HISTORY + dateNow() + Constant.XML_EXTENSION);
 		source.renameTo(destination);
 
 		// Sauvegarde du document dans le fichier
-		FileOutputStream fos = new FileOutputStream(nomDir + fileName + ".xml");
+		FileOutputStream fos = new FileOutputStream(nomDir + fileName + Constant.XML_EXTENSION);
 		OutputFormat format = OutputFormat.createPrettyPrint();
 		format.setIndent(true);
 		format.setNewlines(true);
@@ -109,7 +108,6 @@ public class ExportXML {
 	private static String dateNow() {
 		Calendar greg = new GregorianCalendar();
 		Date date = greg.getTime();
-		SimpleDateFormat sdf = new SimpleDateFormat(" dd-MM-yyyy HH-mm");
-		return sdf.format(date);
+		return Constant.SDF_HISTORY.format(date);
 	}
 }

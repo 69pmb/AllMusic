@@ -94,7 +94,7 @@ public final class ImportXML {
         System.out.println("Start fusionFiles");
         File dir = new File(dirName);
         List<File> files = new ArrayList<>();
-        CompositionUtils.listFilesForFolder(dir, files, ".xml", false);
+        CompositionUtils.listFilesForFolder(dir, files, Constant.XML_EXTENSION, false);
         List<Composition> compoFusion = new ArrayList<>();
         for (File fileXML : files) {
             boolean isFinal = fileXML.getName().equals("final.xml");
