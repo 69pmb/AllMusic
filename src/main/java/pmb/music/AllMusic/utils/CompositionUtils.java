@@ -158,7 +158,7 @@ public class CompositionUtils {
     public static void removeCompositionsInFiles(Composition toRemove) {
         System.out.println("Start removeCompositionsInFiles");
         for (Fichier file : toRemove.getFiles()) {
-            List<Composition> importXML = ImportXML.importXML(Constant.RESOURCES_ABS_DIRECTORY + file.getFileName() + ".xml");
+            List<Composition> importXML = ImportXML.importXML(Constant.RESOURCES_ABS_DIRECTORY + file.getFileName() + Constant.XML_EXTENSION);
             importXML.remove(importXML.indexOf(new Composition(toRemove.getArtist(), Arrays.asList(file), toRemove.getTitre(), toRemove.getRecordType())));
             try {
                 ExportXML.exportXML(importXML, file.getFileName());
