@@ -75,6 +75,11 @@ public class FichierUtils {
 		}
 	}
 
+	/**
+	 * Supprime tous les fichiers historisés sauf le plus récent.
+	 * @throws ParseException
+	 * @throws IOException
+	 */
 	public static void cleanHistory() throws ParseException, IOException {
 		System.out.println("Start cleanHistory");
 		// Création d'une map avec:
