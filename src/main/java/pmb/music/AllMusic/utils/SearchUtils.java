@@ -18,20 +18,24 @@ import pmb.music.AllMusic.model.RecordType;
 
 /**
  * @author i2113mj
- *
+ * 
  */
 public class SearchUtils {
 
 	/**
 	 * @param compoList
 	 * @param criteria
+	 * @param searchInFiles
 	 * @return
 	 */
-	public static List<Composition> searchContains(List<Composition> compoList, Map<String, String> criteria) {
+	public static List<Composition> searchContains(List<Composition> compoList, Map<String, String> criteria,
+			boolean searchInFiles) {
 		List<Composition> arrayList = new ArrayList<>(compoList);
+		// Critères compositions
 		final String artist = criteria.get("artist");
 		final String titre = criteria.get("titre");
 		final String type = criteria.get("type");
+		// Critères fichiers
 		final String publish = criteria.get("publish");
 		final String fileName = criteria.get("fileName");
 		final String auteur = criteria.get("auteur");
@@ -39,10 +43,12 @@ public class SearchUtils {
 		final String dateB = criteria.get("dateB");
 		final String dateE = criteria.get("dateE");
 
-		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre) || StringUtils.isNotBlank(type);
+		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre)
+				|| StringUtils.isNotBlank(type);
 
-		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName) || StringUtils.isNotBlank(auteur)
-				|| StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB) || StringUtils.isNotBlank(dateE);
+		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName)
+				|| StringUtils.isNotBlank(auteur) || StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB)
+				|| StringUtils.isNotBlank(dateE);
 
 		if (searchCompo || searchFile) {
 			CollectionUtils.filter(arrayList, new Predicate() {
@@ -53,8 +59,7 @@ public class SearchUtils {
 
 					boolean result = true;
 					if (StringUtils.isNotBlank(artist)) {
-						boolean containsIgnoreCase = StringUtils.containsIgnoreCase(co.getArtist(), artist);
-						result = result && containsIgnoreCase;
+						result = result && StringUtils.containsIgnoreCase(co.getArtist(), artist);
 					}
 					if (StringUtils.isNotBlank(titre)) {
 						result = result && StringUtils.containsIgnoreCase(co.getTitre(), titre);
@@ -63,37 +68,35 @@ public class SearchUtils {
 						result = result && co.getRecordType() == RecordType.valueOf(type);
 					}
 					List<Fichier> files = new ArrayList<>(co.getFiles());
-					if (searchFile) {
-						if (CollectionUtils.isNotEmpty(files)) {
-							CollectionUtils.filter(files, new Predicate() {
+					if (searchFile && CollectionUtils.isNotEmpty(files)) {
+						CollectionUtils.filter(files, new Predicate() {
 
-								@Override
-								public boolean evaluate(Object f) {
-									Fichier fi = (Fichier) f;
-									boolean result = true;
+							@Override
+							public boolean evaluate(Object f) {
+								Fichier fi = (Fichier) f;
+								boolean result = true;
 
-									if (StringUtils.isNotBlank(publish)) {
-										result = result && fi.getPublishYear() == Integer.parseInt(publish);
-									}
-									if (StringUtils.isNotBlank(fileName)) {
-										result = result && StringUtils.containsIgnoreCase(fi.getFileName(), fileName);
-									}
-									if (StringUtils.isNotBlank(auteur)) {
-										result = result && StringUtils.containsIgnoreCase(fi.getAuthor(), auteur);
-									}
-									if (StringUtils.isNotBlank(cat)) {
-										result = result && fi.getCategorie() == Cat.valueOf(cat);
-									}
-									if (StringUtils.isNotBlank(dateB)) {
-										result = result && fi.getRangeDateBegin() == Integer.parseInt(dateB);
-									}
-									if (StringUtils.isNotBlank(dateE)) {
-										result = result && fi.getRangeDateEnd() == Integer.parseInt(dateE);
-									}
-									return result;
+								if (StringUtils.isNotBlank(publish)) {
+									result = result && fi.getPublishYear() == Integer.parseInt(publish);
 								}
-							});
-						}
+								if (StringUtils.isNotBlank(fileName)) {
+									result = result && StringUtils.containsIgnoreCase(fi.getFileName(), fileName);
+								}
+								if (StringUtils.isNotBlank(auteur)) {
+									result = result && StringUtils.containsIgnoreCase(fi.getAuthor(), auteur);
+								}
+								if (StringUtils.isNotBlank(cat)) {
+									result = result && fi.getCategorie() == Cat.valueOf(cat);
+								}
+								if (StringUtils.isNotBlank(dateB)) {
+									result = result && fi.getRangeDateBegin() == Integer.parseInt(dateB);
+								}
+								if (StringUtils.isNotBlank(dateE)) {
+									result = result && fi.getRangeDateEnd() == Integer.parseInt(dateE);
+								}
+								return result;
+							}
+						});
 					}
 					result = result && CollectionUtils.isNotEmpty(files);
 					return result;
@@ -121,10 +124,12 @@ public class SearchUtils {
 		final String dateB = criteria.get("dateB");
 		final String dateE = criteria.get("dateE");
 
-		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre) || StringUtils.isNotBlank(type);
+		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre)
+				|| StringUtils.isNotBlank(type);
 
-		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName) || StringUtils.isNotBlank(auteur)
-				|| StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB) || StringUtils.isNotBlank(dateE);
+		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName)
+				|| StringUtils.isNotBlank(auteur) || StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB)
+				|| StringUtils.isNotBlank(dateE);
 
 		if (searchCompo || searchFile) {
 			CollectionUtils.filter(arrayList, new Predicate() {
