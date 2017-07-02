@@ -249,7 +249,7 @@ public class ImportFile {
 			try {
 				fichier.setSize(countLines(absolutePath));
 			} catch (IOException e) {
-				e.printStackTrace();
+				LOG.error("", e);
 			}
 		}
 		return res;
@@ -410,7 +410,7 @@ public class ImportFile {
 		try {
 			attr = Files.readAttributes(file.toPath(), BasicFileAttributes.class);
 		} catch (IOException e) {
-			e.printStackTrace();
+			LOG.error("", e);
 		}
 		if (attr == null) {
 			return new Date();
@@ -489,7 +489,7 @@ public class ImportFile {
 			lines.add(StringUtils.trim(br.readLine()));
 			lines.add(StringUtils.trim(br.readLine()));
 		} catch (IOException e) {
-			e.printStackTrace();
+			LOG.error("", e);
 		}
 		LOG.debug("End randomLineAndLastLines");
 		return lines;

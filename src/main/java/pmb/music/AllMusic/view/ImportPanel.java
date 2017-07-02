@@ -512,6 +512,7 @@ public class ImportPanel extends JPanel {
 						absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText()
 								+ Constant.XML_EXTENSION;
 					} catch (IOException | MyException e) {
+						LOG.error("", e);
 						result = new LinkedList<>(Arrays.asList(e.toString()));
 					}
 				}
@@ -643,7 +644,7 @@ public class ImportPanel extends JPanel {
 				try {
 					FichierUtils.cleanHistory();
 				} catch (ParseException | IOException e) {
-					e.printStackTrace();
+					LOG.error("", e);
 				}
 			}
 		});
