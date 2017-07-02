@@ -57,6 +57,8 @@ public class ImportPanel extends JPanel {
 
 	private static final long serialVersionUID = 5796304304079887263L;
 
+	private static final Logger LOG = Logger.getLogger(ImportPanel.class);
+
 	private final JLabel catLabel;
 	private final JLabel authorLabel;
 	private final JLabel publiLabel;
@@ -120,12 +122,9 @@ public class ImportPanel extends JPanel {
 
 	private List<String> result = new LinkedList<>();
 
-	private static Logger logger = Logger.getLogger(ImportPanel.class);
-
 	public ImportPanel(final ArtistPanel artist) {
 		super();
-		System.out.println("Start ImportPanel");
-		logger.debug("Start ImportPanel");
+		LOG.debug("Start ImportPanel");
 		explorePath = Constant.MUSIC_ABS_DIRECTORY;
 		this.setLayout(new GridLayout(6, 1));
 
@@ -138,12 +137,12 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start browse");
+				LOG.debug("Start browse");
 				file = addBrowsingFile("txt", explorePath);
 				if (file != null) {
 					loadFile();
 				}
-				System.out.println("End browse");
+				LOG.debug("End browse");
 			}
 		});
 		top.add(browse);
@@ -157,9 +156,9 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start cleanBtn");
+				LOG.debug("Start cleanBtn");
 				resetAll();
-				System.out.println("End cleanBtn");
+				LOG.debug("End cleanBtn");
 			}
 		});
 		top.add(cleanBtn);
@@ -174,9 +173,9 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start reloadBtn");
+				LOG.debug("Start reloadBtn");
 				loadFile();
-				System.out.println("End reloadBtn");
+				LOG.debug("End reloadBtn");
 			}
 		});
 		top.add(reloadBtn);
@@ -189,12 +188,12 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start open");
+				LOG.debug("Start open");
 				xmlFile = addBrowsingFile("xml", Constant.RESOURCES_ABS_DIRECTORY);
 				if (xmlFile != null) {
 					absolutePathFileXml = xmlFile.getAbsolutePath();
 				}
-				System.out.println("End open");
+				LOG.debug("End open");
 			}
 		});
 		top.add(open);
@@ -492,7 +491,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start importFile");
+				LOG.debug("Start importFile");
 				result = new LinkedList<>(Arrays.asList("Sélectionnez un fichier"));
 				if (fichier != null) {
 					fichier.setSorted(sorted.isSelected());
@@ -517,7 +516,7 @@ public class ImportPanel extends JPanel {
 					}
 				}
 				miseEnFormeResultLabel(result);
-				System.out.println("End importFile");
+				LOG.debug("End importFile");
 			}
 		});
 		bottom.add(importFile);
@@ -529,7 +528,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start cleanFile");
+				LOG.debug("Start cleanFile");
 				result = new LinkedList<>(Arrays.asList("Sélectionnez un fichier"));
 				if (file != null) {
 					result = new LinkedList<>(Arrays.asList(file.getName() + " nettoyé !"));
@@ -541,7 +540,7 @@ public class ImportPanel extends JPanel {
 					}
 				}
 				miseEnFormeResultLabel(result);
-				System.out.println("End cleanFile");
+				LOG.debug("End cleanFile");
 			}
 		});
 		bottom.add(cleanFile);
@@ -551,7 +550,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start fusionFile");
+				LOG.debug("Start fusionFile");
 				result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
 				try {
 					ImportXML.fusionFiles(System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY,
@@ -561,7 +560,7 @@ public class ImportPanel extends JPanel {
 				}
 				artist.updateArtistPanel();
 				miseEnFormeResultLabel(result);
-				System.out.println("End fusionFile");
+				LOG.debug("End fusionFile");
 			}
 		});
 		bottom.add(fusionFile);
@@ -571,7 +570,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start fusionOneFile");
+				LOG.debug("Start fusionOneFile");
 				if (StringUtils.isNotBlank(absolutePathFileXml)) {
 					result = new LinkedList<>(Arrays.asList("Fichier ajouté"));
 					try {
@@ -582,7 +581,7 @@ public class ImportPanel extends JPanel {
 					artist.updateArtistPanel();
 					miseEnFormeResultLabel(result);
 				}
-				System.out.println("End fusionOneFile");
+				LOG.debug("End fusionOneFile");
 			}
 		});
 		bottom.add(fusionOneFile);
@@ -594,7 +593,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start openFile");
+				LOG.debug("Start openFile");
 				if (StringUtils.isNotBlank(absolutePathFileTxt)) {
 					try {
 						if (FileUtils.fileExists(absolutePathFileTxt)) {
@@ -605,7 +604,7 @@ public class ImportPanel extends JPanel {
 					}
 					miseEnFormeResultLabel(result);
 				}
-				System.out.println("End openFile");
+				LOG.debug("End openFile");
 			}
 		});
 		bottom.add(openFile);
@@ -617,10 +616,10 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Start openXml");
+				LOG.debug("Start openXml");
 				if (StringUtils.isNotBlank(absolutePathFileXml)) {
 					try {
-						System.out.println(absolutePathFileXml);
+						LOG.info(absolutePathFileXml);
 						if (FileUtils.fileExists(absolutePathFileXml)) {
 							Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileXml);
 						}
@@ -629,7 +628,7 @@ public class ImportPanel extends JPanel {
 					}
 					miseEnFormeResultLabel(result);
 				}
-				System.out.println("End openXml");
+				LOG.debug("End openXml");
 			}
 		});
 		bottom.add(openXml);
@@ -653,7 +652,7 @@ public class ImportPanel extends JPanel {
 		bottom.setBorder(BorderFactory.createTitledBorder(""));
 		this.add(bottom);
 
-		System.out.println("End ImportPanel");
+		LOG.debug("End ImportPanel");
 	}
 
 	private void miseEnFormeResultLabel(List<String> result2) {
@@ -668,18 +667,18 @@ public class ImportPanel extends JPanel {
 	}
 
 	private File addBrowsingFile(String extension, String dir) {
-		System.out.println("Start addBrowsingFile");
-		System.out.println(dir);
+		LOG.debug("Start addBrowsingFile");
+		LOG.debug(dir);
 		JFileChooser jfile = new JFileChooser(dir);
 		jfile.setApproveButtonText("Ouvrir");
 		FileNameExtensionFilter filter = new FileNameExtensionFilter(extension, extension);
 		jfile.setFileFilter(filter);
 		if (jfile.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
 			resetAll();
-			System.out.println("End addBrowsingFile");
+			LOG.debug("End addBrowsingFile");
 			return jfile.getSelectedFile();
 		} else {
-			System.out.println("End addBrowsingFile, no file choose");
+			LOG.debug("End addBrowsingFile, no file choose");
 			return null;
 		}
 	}

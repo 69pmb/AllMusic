@@ -13,6 +13,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
@@ -29,6 +30,8 @@ import pmb.music.AllMusic.utils.FichierUtils;
  */
 public class ExportXML {
 
+	private static final Logger LOG = Logger.getLogger(ExportXML.class);
+
 	/**
 	 * COnverti en XML la liste de composition puis sauvegarde dans un fichier.
 	 * @param compList List<{@link Composition}> les compositions à sauvegarder
@@ -36,7 +39,7 @@ public class ExportXML {
 	 * @throws IOException
 	 */
 	public static void exportXML(List<Composition> compList, String fileName) throws IOException {
-		System.out.println("Start exportXML");
+		LOG.debug("Start exportXML");
 		Document doc = DocumentHelper.createDocument();
 		Element listComp = doc.addElement("ListCompositions");
 
@@ -64,7 +67,7 @@ public class ExportXML {
 			}
 		}
 		saveFile(fileName, doc);
-		System.out.println("End exportXML");
+		LOG.debug("End exportXML");
 	}
 
 	/**
@@ -88,7 +91,8 @@ public class ExportXML {
 
 		// Historisation du fichier précédent dans le dossier history
 		File source = new File(nomDir + fileName + Constant.XML_EXTENSION);
-		File destination = new File(history + fileName + Constant.SEPARATOR_DATE_HISTORY + dateNow() + Constant.XML_EXTENSION);
+		File destination = new File(history + fileName + Constant.SEPARATOR_DATE_HISTORY + dateNow()
+				+ Constant.XML_EXTENSION);
 		source.renameTo(destination);
 
 		// Sauvegarde du document dans le fichier

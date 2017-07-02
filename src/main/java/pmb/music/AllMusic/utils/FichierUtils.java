@@ -17,6 +17,7 @@ import java.util.Set;
 import java.util.Vector;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.model.Composition;
@@ -28,9 +29,11 @@ import pmb.music.AllMusic.model.Fichier;
  */
 public class FichierUtils {
 
+	private static final Logger LOG = Logger.getLogger(FichierUtils.class);
+
 	@SuppressWarnings("rawtypes")
 	public static Vector convertListForJTable(List<Fichier> fList) {
-		System.out.println("Start convertListForJTable");
+		LOG.debug("Start convertListForJTable");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < fList.size(); i++) {
 			Fichier f = fList.get(i);
@@ -46,7 +49,7 @@ public class FichierUtils {
 			v.addElement(f.getSorted().toString().toUpperCase());
 			result.add(v);
 		}
-		System.out.println("End convertListForJTable");
+		LOG.debug("End convertListForJTable");
 		return result;
 	}
 
@@ -59,8 +62,8 @@ public class FichierUtils {
 			}
 			Set<String> set = new HashSet<String>(names);
 			if (set.size() < names.size()) {
-				System.out.println("Duplicates for: " + composition);
-				System.out.println("");
+				LOG.debug("Duplicates for: " + composition);
+				LOG.debug("");
 			}
 		}
 	}
@@ -81,7 +84,7 @@ public class FichierUtils {
 	 * @throws IOException
 	 */
 	public static void cleanHistory() throws ParseException, IOException {
-		System.out.println("Start cleanHistory");
+		LOG.debug("Start cleanHistory");
 		// Création d'une map avec:
 		// key nom du fichier sans date
 		// value liste des dates du fichier
@@ -107,11 +110,11 @@ public class FichierUtils {
 			for (int i = 1; i < list.get(key).size(); i++) {
 				String toDelete = path + Constant.SDF_HISTORY.format(list.get(key).get(i)) + Constant.XML_EXTENSION;
 				if (!new File(toDelete).delete()) {
-					System.out.println(toDelete + " n'a pas pu etre supprimé");
+					LOG.debug(toDelete + " n'a pas pu etre supprimé");
 				}
 			}
 		}
 
-		System.out.println("End cleanHistory");
+		LOG.debug("End cleanHistory");
 	}
 }
