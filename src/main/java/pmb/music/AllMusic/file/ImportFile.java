@@ -21,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
@@ -37,11 +38,13 @@ public class ImportFile {
 
 	private static final String LOG_NUMBER = " number: ";
 
+	private static final Logger LOG = Logger.getLogger(ImportFile.class);
+
 	private ImportFile() {
 	};
 
 	public static Fichier convertOneFile(File file) {
-		System.out.println("Start convertOneFile");
+		LOG.debug("Start convertOneFile");
 		Fichier fichier = new Fichier();
 		String name = file.getName();
 		fichier.setCreationDate(getCreationDate(file));
@@ -53,14 +56,14 @@ public class ImportFile {
 		}
 		fichier.setAuthor(auteur);
 		determineYears(name, fichier);
-		System.out.println("End convertOneFile");
+		LOG.debug("End convertOneFile");
 		return fichier;
 	}
 
 	public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type,
 			String separator, List<String> result, boolean artistFirst, boolean reverseArtist, boolean parenthese,
 			boolean upper, boolean removeAfter) throws MyException {
-		System.out.println("Start getCompositionsFromFile");
+		LOG.debug("Start getCompositionsFromFile");
 		List<Composition> compoList = new ArrayList<>();
 		String line = "";
 		int i = 1;
@@ -152,8 +155,8 @@ public class ImportFile {
 		} catch (NumberFormatException | IOException e1) {
 			throw new MyException(e1.toString());
 		}
-		System.out.println(result);
-		System.out.println("End getCompositionsFromFile");
+		LOG.debug(result);
+		LOG.debug("End getCompositionsFromFile");
 		return compoList;
 	}
 
@@ -310,7 +313,7 @@ public class ImportFile {
 	}
 
 	private static void determineYears(String name, Fichier file) {
-		System.out.println("Start determineYears");
+		LOG.debug("Start determineYears");
 		String[] split = strip(name);
 
 		if (Constant.PATTERN_YEAR_AT_THE_END.matcher(name).find()) {
@@ -365,7 +368,7 @@ public class ImportFile {
 						.getRangeDateEnd() != 0))) {
 			file.setPublishYear(file.getRangeDateEnd());
 		}
-		System.out.println("End determineYears");
+		LOG.debug("End determineYears");
 	}
 
 	private static String[] strip(String name) {
@@ -460,7 +463,7 @@ public class ImportFile {
 	 * @return une liste de 6 String
 	 */
 	public static List<String> randomLineAndLastLines(File file) {
-		System.out.println("Start randomLineAndLastLines");
+		LOG.debug("Start randomLineAndLastLines");
 		List<String> lines = new ArrayList<>();
 		String line = "";
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file),
@@ -488,7 +491,7 @@ public class ImportFile {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("End randomLineAndLastLines");
+		LOG.debug("End randomLineAndLastLines");
 		return lines;
 	}
 
@@ -499,7 +502,7 @@ public class ImportFile {
 	 * @throws IOException
 	 */
 	public static int countLines(String filename) throws IOException {
-		System.out.println("Start countLines");
+		LOG.debug("Start countLines");
 		InputStream is = new BufferedInputStream(new FileInputStream(filename));
 		try {
 			byte[] c = new byte[1024];
@@ -514,7 +517,7 @@ public class ImportFile {
 					}
 				}
 			}
-			System.out.println("End countLines");
+			LOG.debug("End countLines");
 			return (count == 0 && !empty) ? 1 : count;
 		} finally {
 			is.close();

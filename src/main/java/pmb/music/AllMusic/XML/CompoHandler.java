@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -20,39 +21,41 @@ import pmb.music.AllMusic.utils.Constant;
 
 /**
  * @author i2113mj
- *
+ * 
  */
 public class CompoHandler extends DefaultHandler {
 
-    private List<Composition> compoList;
+	private static final Logger LOG = Logger.getLogger(CompoHandler.class);
 
-    private Composition compo;
+	private List<Composition> compoList;
 
-    private List<Fichier> files;
+	private Composition compo;
 
-    private Fichier file;
+	private List<Fichier> files;
 
-    public CompoHandler() {
-        super();
-        compoList = new ArrayList<>();
-    }
+	private Fichier file;
 
-    @Override
-    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-        switch (qName) {
-            case "ListCompositions":
-                compoList = new ArrayList<>();
-                break;
-            case "Composition":
-            	getCompositionElem(attributes);
-                break;
-            case "File":
+	public CompoHandler() {
+		super();
+		compoList = new ArrayList<>();
+	}
+
+	@Override
+	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+		switch (qName) {
+		case "ListCompositions":
+			compoList = new ArrayList<>();
+			break;
+		case "Composition":
+			getCompositionElem(attributes);
+			break;
+		case "File":
 			getFileElem(attributes);
-                break;
-            default:
-            	break;
-        }
-    }
+			break;
+		default:
+			break;
+		}
+	}
 
 	private void getFileElem(Attributes attributes) {
 		file = new Fichier();
@@ -64,16 +67,16 @@ public class CompoHandler extends DefaultHandler {
 		file.setAuthor(attributes.getValue("author"));
 		file.setFileName(attributes.getValue("fileName"));
 		file.setCategorie(Cat.valueOf(attributes.getValue("categorie")));
-		try{
-		    file.setSize(Integer.parseInt(attributes.getValue("size")));
+		try {
+			file.setSize(Integer.parseInt(attributes.getValue("size")));
 		} catch (NumberFormatException e) {
-		    file.setSize(0);
-		    System.out.println(file);
+			file.setSize(0);
+			LOG.error(file);
 		}
 		try {
-		    file.setCreationDate(Constant.SDF_DTTM.parse(attributes.getValue("creationDate")));
+			file.setCreationDate(Constant.SDF_DTTM.parse(attributes.getValue("creationDate")));
 		} catch (ParseException e) {
-		    file.setCreationDate(new Date());
+			file.setCreationDate(new Date());
 		}
 	}
 
@@ -81,38 +84,38 @@ public class CompoHandler extends DefaultHandler {
 		compo = new Composition();
 		files = new ArrayList<>();
 		try {
-		    compo.setArtist(attributes.getValue("artist"));
-		    compo.setTitre(attributes.getValue("titre"));
-		    compo.setRecordType(RecordType.valueOf(attributes.getValue("type")));
+			compo.setArtist(attributes.getValue("artist"));
+			compo.setTitre(attributes.getValue("titre"));
+			compo.setRecordType(RecordType.valueOf(attributes.getValue("type")));
 		} catch (Exception e) {
-		    throw new SAXException(e);
+			throw new SAXException(e);
 		}
 	}
 
-    @Override
-    public void endElement(String uri, String localName, String qName) throws SAXException {
-        switch (qName) {
-            case "Composition":
-                compo.setFiles(files);
-                compoList.add(compo);
-                compo = null;
-                files = null;
-                break;
-            case "File":
-                files.add(file);
-                file = null;
-                break;
-            default:
-            	break;
-        }
-    }
+	@Override
+	public void endElement(String uri, String localName, String qName) throws SAXException {
+		switch (qName) {
+		case "Composition":
+			compo.setFiles(files);
+			compoList.add(compo);
+			compo = null;
+			files = null;
+			break;
+		case "File":
+			files.add(file);
+			file = null;
+			break;
+		default:
+			break;
+		}
+	}
 
-    public List<Composition> getCompoList() {
-        return compoList;
-    }
+	public List<Composition> getCompoList() {
+		return compoList;
+	}
 
-    public void setCompoList(List<Composition> compoList) {
-        this.compoList = compoList;
-    }
+	public void setCompoList(List<Composition> compoList) {
+		this.compoList = compoList;
+	}
 
 }

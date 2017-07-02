@@ -15,16 +15,19 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.Constant;
 
 public class CleanFile {
 
+	private static final Logger LOG = Logger.getLogger(CleanFile.class);
+
 	private CleanFile() {
 	};
 
 	public static File clearFile(File file, boolean isSorted, String sep, String characterToRemove) throws IOException {
-		System.out.println("Start clearFile");
+		LOG.debug("Start clearFile");
 		List<String> sepAsList = new LinkedList<>(Arrays.asList(Constant.SEPARATORS));
 		if (StringUtils.isNotBlank(sep)) {
 			sepAsList.add(sep);
@@ -57,7 +60,7 @@ public class CleanFile {
 			}
 			writer.flush();
 		}
-		System.out.println("End clearFile");
+		LOG.debug("End clearFile");
 		return new File(exitFile);
 	}
 
@@ -73,7 +76,7 @@ public class CleanFile {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Start clearFile");
+		LOG.debug("Start clearFile");
 		File file = new File(Constant.FINAL_FILE_PATH);
 		// List<String> sepAsList = new
 		// LinkedList<>(Arrays.asList(Constant.SEPARATORS));
@@ -96,7 +99,7 @@ public class CleanFile {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("End clearFile");
+		LOG.debug("End clearFile");
 	}
 
 }

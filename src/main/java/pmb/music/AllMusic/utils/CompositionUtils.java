@@ -10,6 +10,7 @@ import java.util.Map;
 import java.util.Vector;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -18,6 +19,8 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 
 public class CompositionUtils {
+
+	private static final Logger LOG = Logger.getLogger(CompositionUtils.class);
 
 	/**
 	 * Récupère la liste des fichiers d'un dossier
@@ -41,16 +44,16 @@ public class CompositionUtils {
 	}
 
 	public static void printCompoList(List<Composition> allCompo) {
-		System.out.println("Start printCompoList");
-		System.out.println("Compo: " + allCompo.size());
+		LOG.debug("Start printCompoList");
+		LOG.debug("Compo: " + allCompo.size());
 		for (Composition composition : allCompo) {
-			System.out.println(composition);
+			LOG.debug(composition);
 			// List<Fichier> files3 = composition.getFiles();
 			// for (Fichier fichier : files3) {
-			// System.out.println(fichier);
+			// LOG.debug(fichier);
 			// }
 		}
-		System.out.println("End printCompoList");
+		LOG.debug("End printCompoList");
 	}
 
 	public static Composition compoExist(List<Composition> compos, Composition c) {
@@ -121,7 +124,7 @@ public class CompositionUtils {
 
 	public static Composition findByArtistTitreAndType(List<Composition> compoList, String artist, String titre,
 			String type) throws MyException {
-		System.out.println("Start findByArtistTitreAndType");
+		LOG.debug("Start findByArtistTitreAndType");
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("artist", artist);
 		criteria.put("titre", titre);
@@ -134,31 +137,31 @@ public class CompositionUtils {
 					+ type);
 		}
 		if (!search.isEmpty()) {
-			System.out.println("End findByArtistTitreAndType");
+			LOG.debug("End findByArtistTitreAndType");
 			return search.get(0);
 		} else {
-			System.out.println("End findByArtistTitreAndType, no result");
+			LOG.debug("End findByArtistTitreAndType, no result");
 			return new Composition();
 		}
 	}
 
 	public static List<Composition> findByArtist(List<Composition> compoList, String artist) throws MyException {
-		System.out.println("Start findByArtistTitreAndType");
+		LOG.debug("Start findByArtistTitreAndType");
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("artist", artist);
 
 		List<Composition> search = SearchUtils.searchStrictly(compoList, criteria);
 		if (!search.isEmpty()) {
-			System.out.println("End findByArtistTitreAndType");
+			LOG.debug("End findByArtistTitreAndType");
 			return search;
 		} else {
-			System.out.println("End findByArtistTitreAndType, no result");
+			LOG.debug("End findByArtistTitreAndType, no result");
 			return new ArrayList<Composition>();
 		}
 	}
 
 	public static void removeCompositionsInFiles(Composition toRemove) {
-		System.out.println("Start removeCompositionsInFiles");
+		LOG.debug("Start removeCompositionsInFiles");
 		for (Fichier file : toRemove.getFiles()) {
 			List<Composition> importXML = ImportXML.importXML(Constant.RESOURCES_ABS_DIRECTORY + file.getFileName()
 					+ Constant.XML_EXTENSION);
@@ -170,6 +173,6 @@ public class CompositionUtils {
 				e.printStackTrace();
 			}
 		}
-		System.out.println("End removeCompositionsInFiles");
+		LOG.debug("End removeCompositionsInFiles");
 	}
 }
