@@ -37,7 +37,7 @@ public final class ImportXML {
 		try {
 			parseur = fabrique.newSAXParser();
 		} catch (ParserConfigurationException | SAXException e) {
-			e.printStackTrace();
+			LOG.error("", e);
 		}
 
 		File fichier = new File(uri);
@@ -46,7 +46,7 @@ public final class ImportXML {
 			try {
 				parseur.parse(fichier, handler);
 			} catch (SAXException | IOException e) {
-				e.printStackTrace();
+				LOG.error("", e);
 			}
 		}
 		return handler.getCompoList();

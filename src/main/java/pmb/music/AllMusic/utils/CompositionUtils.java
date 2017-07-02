@@ -170,7 +170,7 @@ public class CompositionUtils {
 			try {
 				ExportXML.exportXML(importXML, file.getFileName());
 			} catch (IOException e) {
-				e.printStackTrace();
+				LOG.error("", e);
 			}
 		}
 		LOG.debug("End removeCompositionsInFiles");
