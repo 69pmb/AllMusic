@@ -129,6 +129,7 @@ public class ImportPanel extends JPanel {
 		JButton browse = new JButton("Parcourir");
 		browse.setBackground(Color.white);
 		browse.setPreferredSize(new Dimension(220, 60));
+		browse.setToolTipText("Charge un fichier texte contenant des musiques.");
 		browse.addActionListener(new ActionListener() {
 
 			@Override
@@ -147,6 +148,7 @@ public class ImportPanel extends JPanel {
 		JButton cleanBtn = new JButton("Reset");
 		cleanBtn.setBackground(Color.white);
 		cleanBtn.setPreferredSize(new Dimension(220, 60));
+		cleanBtn.setToolTipText("Remet à zéro tous les champs.");
 		cleanBtn.addActionListener(new ActionListener() {
 
 			@Override
@@ -162,6 +164,8 @@ public class ImportPanel extends JPanel {
 		JButton reloadBtn = new JButton("Reload");
 		reloadBtn.setBackground(Color.white);
 		reloadBtn.setPreferredSize(new Dimension(220, 60));
+		reloadBtn
+				.setToolTipText("Relance le chargement du fichier chargé précédemment. Utile si il a été modifié entre temps.");
 		reloadBtn.addActionListener(new ActionListener() {
 
 			@Override
@@ -176,6 +180,7 @@ public class ImportPanel extends JPanel {
 		JButton open = new JButton("Charger un fichier XML");
 		open.setBackground(Color.white);
 		open.setPreferredSize(new Dimension(220, 60));
+		open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
 		open.addActionListener(new ActionListener() {
 
 			@Override
@@ -478,6 +483,7 @@ public class ImportPanel extends JPanel {
 
 		JPanel bottom = new JPanel();
 		JButton importFile = new JButton("Importer le fichier");
+		importFile.setToolTipText("Importe le fichier chargé précédemment avec les infos renseignées.");
 		importFile.addActionListener(new ActionListener() {
 
 			@Override
@@ -513,6 +519,8 @@ public class ImportPanel extends JPanel {
 		bottom.add(importFile);
 
 		JButton cleanFile = new JButton("Nettoyer le fichier");
+		cleanFile
+				.setToolTipText("Supprime les lignes qui ne contiennent pas le séparateur. Supprime également les charactères à supprimer.");
 		cleanFile.addActionListener(new ActionListener() {
 
 			@Override
@@ -577,6 +585,7 @@ public class ImportPanel extends JPanel {
 
 		// Ouvre le fichier d'entrée dans notepad++
 		JButton openFile = new JButton("Éditer le fichier source");
+		openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
 		openFile.addActionListener(new ActionListener() {
 
 			@Override
@@ -599,6 +608,7 @@ public class ImportPanel extends JPanel {
 
 		// Ouvre le fichier xml dans notepad++
 		JButton openXml = new JButton("Éditer le fichier xml");
+		openXml.setToolTipText("Ouvre le fichier XML généré dans Notepad++");
 		openXml.addActionListener(new ActionListener() {
 
 			@Override
@@ -622,6 +632,7 @@ public class ImportPanel extends JPanel {
 
 		// Clean history
 		JButton cleanHistory = new JButton("Nettoyer le dossier d'historique");
+		cleanHistory.setToolTipText("Supprime tous les fichiers du dossier d'historique sauf le plus récent.");
 		cleanHistory.addActionListener(new ActionListener() {
 
 			@Override
