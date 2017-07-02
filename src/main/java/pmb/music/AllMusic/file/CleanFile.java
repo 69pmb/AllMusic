@@ -97,7 +97,7 @@ public class CleanFile {
 				}
 			}
 		} catch (IOException e) {
-			e.printStackTrace();
+			LOG.error("", e);
 		}
 		LOG.debug("End clearFile");
 	}

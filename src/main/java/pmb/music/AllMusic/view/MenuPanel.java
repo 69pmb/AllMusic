@@ -97,7 +97,7 @@ public class MenuPanel extends JPanel {
 //                    pmb.Toolkit.ImportExcel.importation(Excel.getFichier()
 //                            .toString(), myFrame);
 //                } catch (final IOException e) {
-//                    e.printStackTrace();
+//                    LOG.error("", e);
 //                }
 //                if (myFrame.getTableau() != null)
 //                    myFrame.redrawTable();
@@ -111,7 +111,7 @@ public class MenuPanel extends JPanel {
 //                try {
 //                    ExportXML.exportXML(WorkoutArray.getAllWorkout(), "workout");
 //                } catch (Exception e) {
-//                    e.printStackTrace();
+//                    LOG.error("", e);
 //                }
 //            }
 //        });
