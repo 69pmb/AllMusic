@@ -537,6 +537,7 @@ public class ImportPanel extends JPanel {
 					try {
 						CleanFile.clearFile(file, fichier.getSorted(), separator.getText(), characterToRemove.getText());
 					} catch (IOException e) {
+						LOG.error("", e);
 						result = new LinkedList<>(Arrays.asList(e.toString()));
 					}
 				}
@@ -557,6 +558,7 @@ public class ImportPanel extends JPanel {
 					ImportXML.fusionFiles(System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY,
 							getFinal.isSelected());
 				} catch (IOException e) {
+					LOG.error("", e);
 					result = new LinkedList<>(Arrays.asList(e.toString()));
 				}
 				artist.updateArtistPanel();
@@ -577,6 +579,7 @@ public class ImportPanel extends JPanel {
 					try {
 						ImportXML.fusionOneFile(absolutePathFileXml);
 					} catch (IOException e) {
+						LOG.error("", e);
 						result = new LinkedList<>(Arrays.asList(e.toString()));
 					}
 					artist.updateArtistPanel();
@@ -601,6 +604,7 @@ public class ImportPanel extends JPanel {
 							Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileTxt);
 						}
 					} catch (IOException e) {
+						LOG.error("", e);
 						result = new LinkedList<>(Arrays.asList(e.toString()));
 					}
 					miseEnFormeResultLabel(result);
@@ -625,6 +629,7 @@ public class ImportPanel extends JPanel {
 							Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileXml);
 						}
 					} catch (IOException e) {
+						LOG.error("", e);
 						result = new LinkedList<>(Arrays.asList(e.toString()));
 					}
 					miseEnFormeResultLabel(result);

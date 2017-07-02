@@ -203,14 +203,14 @@ public class SearchPanel extends JPanel {
 						importXML.remove(importXML.indexOf(toRemove));
 						CompositionUtils.removeCompositionsInFiles(toRemove);
 					} catch (MyException e1) {
-						e1.printStackTrace();
+						LOG.error("", e1);
 					}
 				}
 				try {
 					ExportXML.exportXML(importXML, "final");
 					artist2.updateArtistPanel();
 				} catch (IOException e1) {
-					e1.printStackTrace();
+					LOG.error("", e1);
 				}
 				updateTable();
 				deleteLabel.setText(selected.size() + " élément(s) supprimée(s)");
@@ -410,7 +410,7 @@ public class SearchPanel extends JPanel {
 								new Dimension(1500, 400));
 						pop.showDialogFileTable();
 					} catch (MyException e1) {
-						e1.printStackTrace();
+						LOG.error("", e1);
 					}
 					LOG.debug("End result mouse");
 				} else if (SwingUtilities.isRightMouseButton(e)) {
