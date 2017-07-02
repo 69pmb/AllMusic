@@ -103,7 +103,7 @@ public class DialogFileTable extends JDialog {
 					try {
 						Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absFile);
 					} catch (IOException e1) {
-						e1.printStackTrace();
+						LOG.error("", e1);
 					}
 					LOG.debug("End fichier mouse");
 				} else if (SwingUtilities.isRightMouseButton(e)) {

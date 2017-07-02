@@ -95,7 +95,7 @@ public class ArtistPanel extends JPanel {
 								new Dimension(1500, 600));
 						pop.showDialogFileTable();
 					} catch (MyException e1) {
-						e1.printStackTrace();
+						LOG.error("", e1);
 					}
 					LOG.debug("End artist mouse");
 				} else if (SwingUtilities.isRightMouseButton(e)) {

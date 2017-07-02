@@ -71,7 +71,7 @@ public class CompoHandler extends DefaultHandler {
 			file.setSize(Integer.parseInt(attributes.getValue("size")));
 		} catch (NumberFormatException e) {
 			file.setSize(0);
-			LOG.error(file);
+			LOG.error(file, e);
 		}
 		try {
 			file.setCreationDate(Constant.SDF_DTTM.parse(attributes.getValue("creationDate")));
