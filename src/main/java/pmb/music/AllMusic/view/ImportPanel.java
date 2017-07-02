@@ -483,7 +483,7 @@ public class ImportPanel extends JPanel {
 
 		JPanel bottom = new JPanel();
 		JButton importFile = new JButton("Importer le fichier");
-		importFile.setToolTipText("Importe le fichier chargé précédemment avec les infos renseignées.");
+		importFile.setToolTipText("Importe au format XML le fichier chargé précédemment avec les critères renseignés.");
 		importFile.addActionListener(new ActionListener() {
 
 			@Override
