@@ -29,7 +29,7 @@ public class SearchUtils {
 	 * @return
 	 */
 	public static List<Composition> searchContains(List<Composition> compoList, Map<String, String> criteria,
-			boolean searchInFiles) {
+			final boolean searchInFiles) {
 		List<Composition> arrayList = new ArrayList<>(compoList);
 		// Critères compositions
 		final String artist = criteria.get("artist");
@@ -68,7 +68,7 @@ public class SearchUtils {
 						result = result && co.getRecordType() == RecordType.valueOf(type);
 					}
 					List<Fichier> files = new ArrayList<>(co.getFiles());
-					if (searchFile && CollectionUtils.isNotEmpty(files)) {
+					if (searchFile && CollectionUtils.isNotEmpty(files) && result) {
 						CollectionUtils.filter(files, new Predicate() {
 
 							@Override
@@ -98,8 +98,10 @@ public class SearchUtils {
 							}
 						});
 					}
-					result = result && CollectionUtils.isNotEmpty(files);
-					return result;
+					if (searchInFiles) {
+						co.setFiles(files);
+					}
+					return result && CollectionUtils.isNotEmpty(files);
 				}
 			});
 		}
