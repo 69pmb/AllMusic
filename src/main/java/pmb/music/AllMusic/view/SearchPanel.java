@@ -41,6 +41,7 @@ import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.collections.CollectionUtils;
+import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -54,6 +55,8 @@ import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 
 public class SearchPanel extends JPanel {
+
+	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
 
 	private static final long serialVersionUID = 2593372709628283573L;
 
@@ -93,7 +96,7 @@ public class SearchPanel extends JPanel {
 
 	public SearchPanel(final ArtistPanel artist2) {
 		super();
-		System.out.println("Start SearchPanel");
+		LOG.debug("Start SearchPanel");
 		this.setLayout(new GridLayout(2, 1));
 
 		JPanel header = new JPanel();
@@ -106,7 +109,7 @@ public class SearchPanel extends JPanel {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 
-				System.out.println("Start search");
+				LOG.debug("Start search");
 				deleteLabel.setText("");
 				List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 				if (CollectionUtils.isNotEmpty(allCompo)) {
@@ -129,7 +132,7 @@ public class SearchPanel extends JPanel {
 					compoResult.addAll(SearchUtils.searchContains(allCompo, criteria, inFiles.isSelected()));
 					updateTable();
 				}
-				System.out.println("End search");
+				LOG.debug("End search");
 			}
 		};
 
@@ -188,7 +191,7 @@ public class SearchPanel extends JPanel {
 			@SuppressWarnings("unchecked")
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("Start delete");
+				LOG.debug("Start delete");
 				List<Object> selected = model.getSelected();
 				List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 				for (Object o : selected) {
@@ -211,7 +214,7 @@ public class SearchPanel extends JPanel {
 				}
 				updateTable();
 				deleteLabel.setText(selected.size() + " élément(s) supprimée(s)");
-				System.out.println("End delete");
+				LOG.debug("End delete");
 			}
 		});
 		top.add(delete);
@@ -393,7 +396,7 @@ public class SearchPanel extends JPanel {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-					System.out.println("Start result mouse");
+					LOG.debug("Start result mouse");
 					// Ouvre une popup pour afficher les fichiers de la
 					// composition sélectionnée
 					JTable target = (JTable) e.getSource();
@@ -409,9 +412,9 @@ public class SearchPanel extends JPanel {
 					} catch (MyException e1) {
 						e1.printStackTrace();
 					}
-					System.out.println("End result mouse");
+					LOG.debug("End result mouse");
 				} else if (SwingUtilities.isRightMouseButton(e)) {
-					System.out.println("Start right mouse");
+					LOG.debug("Start right mouse");
 					// Copie dans le clipboard l'artist et l'oeuvre
 					JTable target = (JTable) e.getSource();
 					int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target,
@@ -424,14 +427,14 @@ public class SearchPanel extends JPanel {
 					StringSelection selection = new StringSelection(v.get(0) + " " + v.get(1));
 					Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 					clipboard.setContents(selection, selection);
-					System.out.println("End right mouse");
+					LOG.debug("End right mouse");
 				}
 			}
 		});
 		bottom.add(new JScrollPane(result), BorderLayout.CENTER);
 
 		this.add(bottom);
-		System.out.println("End SearchPanel");
+		LOG.debug("End SearchPanel");
 	}
 
 	private void colRenderer() {
