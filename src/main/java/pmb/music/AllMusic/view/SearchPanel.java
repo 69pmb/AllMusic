@@ -88,7 +88,7 @@ public class SearchPanel extends JPanel {
 
 	private JComboBox<RecordType> type;
 
-	private List<Composition> compoResult = new ArrayList<Composition>();
+	private List<Composition> compoResult = new ArrayList<>();
 
 	private static final String title[] = { "Artiste", "Titre", "Type", "Nombre de fichiers", "" };
 
@@ -128,7 +128,7 @@ public class SearchPanel extends JPanel {
 					criteria.put("dateB", rangeB.getText());
 					criteria.put("dateE", rangeE.getText());
 
-					compoResult = new ArrayList<Composition>();
+					compoResult = new ArrayList<>();
 					compoResult.addAll(SearchUtils.searchContains(allCompo, criteria, inFiles.isSelected()));
 					updateTable();
 				}
@@ -266,7 +266,7 @@ public class SearchPanel extends JPanel {
 		JPanel typePanel = new JPanel();
 		typePanel.setPreferredSize(new Dimension(180, 60));
 		typeLabel = new JLabel("Type : ");
-		type = new JComboBox<RecordType>();
+		type = new JComboBox<>();
 		type.addItem(null);
 		RecordType[] valuesType = RecordType.values();
 		for (int i = 0; i < valuesType.length; i++) {
@@ -294,7 +294,7 @@ public class SearchPanel extends JPanel {
 		JPanel catPanel = new JPanel();
 		catPanel.setPreferredSize(new Dimension(200, 60));
 		catLabel = new JLabel("Catégorie : ");
-		cat = new JComboBox<Cat>();
+		cat = new JComboBox<>();
 		cat.addItem(null);
 		Cat[] values = Cat.values();
 		for (int i = 0; i < values.length; i++) {
@@ -352,44 +352,7 @@ public class SearchPanel extends JPanel {
 		model = new CompoModel(new Object[0][5], title);
 		result.setModel(model);
 		result.setRowSorter(new TableRowSorter<TableModel>(model));
-		result.addKeyListener(new KeyListener() {
-
-			private int selectedRow = -1;// before start
-
-			@Override
-			public void keyTyped(KeyEvent e) {
-			}
-
-			@SuppressWarnings("unchecked")
-			@Override
-			public void keyReleased(KeyEvent e) {
-				JTable target = (JTable) e.getSource();
-				String keyChar = String.valueOf(e.getKeyChar());
-				TableModel model = target.getModel();
-				int startRow = selectedRow;
-				if (selectedRow == model.getRowCount() - 1) {
-					startRow = -1;// Go before start
-				}
-				// Check each cell to see if it starts with typed char.
-				// if so set corresponding row selected and return.
-				for (int row = startRow + 1; row < model.getRowCount(); row++) {
-					String value = ((Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
-							target.getRowSorter().convertRowIndexToModel(row))).get(0);
-					if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
-						target.getSelectionModel().clearSelection();
-						target.getColumnModel().getSelectionModel().clearSelection();
-						target.changeSelection(row, 0, true, false);
-						target.setRowSelectionInterval(row, row);
-						selectedRow = row;
-						return;
-					}
-				}
-			}
-
-			@Override
-			public void keyPressed(KeyEvent e) {
-			}
-		});
+		result.addKeyListener(shortcutKeyListener());
 		result.addMouseListener(new MouseAdapter() {
 
 			@SuppressWarnings("unchecked")
@@ -435,6 +398,47 @@ public class SearchPanel extends JPanel {
 
 		this.add(bottom);
 		LOG.debug("End SearchPanel");
+	}
+
+	private KeyListener shortcutKeyListener() {
+		return new KeyListener() {
+
+			private int selectedRow = -1;// before start
+
+			@Override
+			public void keyTyped(KeyEvent e) {
+			}
+
+			@SuppressWarnings("unchecked")
+			@Override
+			public void keyReleased(KeyEvent e) {
+				JTable target = (JTable) e.getSource();
+				String keyChar = String.valueOf(e.getKeyChar());
+				TableModel model = target.getModel();
+				int startRow = selectedRow;
+				if (selectedRow == model.getRowCount() - 1) {
+					startRow = -1;// Go before start
+				}
+				// Check each cell to see if it starts with typed char.
+				// if so set corresponding row selected and return.
+				for (int row = startRow + 1; row < model.getRowCount(); row++) {
+					String value = ((Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
+							target.getRowSorter().convertRowIndexToModel(row))).get(0);
+					if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
+						target.getSelectionModel().clearSelection();
+						target.getColumnModel().getSelectionModel().clearSelection();
+						target.changeSelection(row, 0, true, false);
+						target.setRowSelectionInterval(row, row);
+						selectedRow = row;
+						return;
+					}
+				}
+			}
+
+			@Override
+			public void keyPressed(KeyEvent e) {
+			}
+		};
 	}
 
 	private void colRenderer() {
