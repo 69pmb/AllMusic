@@ -65,6 +65,7 @@ public class CleanFile {
 	}
 
 	private static boolean isBeginByDigit(String line) {
+		LOG.debug("Start isBeginByDigit");
 		boolean isDigit = true;
 		String digitToTest = StringUtils.substring(line, 0, 1);
 		try {
@@ -72,6 +73,7 @@ public class CleanFile {
 		} catch (NumberFormatException e) {
 			isDigit = false;
 		}
+		LOG.debug("End isBeginByDigit");
 		return isDigit;
 	}
 
