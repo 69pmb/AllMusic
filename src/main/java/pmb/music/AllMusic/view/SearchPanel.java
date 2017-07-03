@@ -45,6 +45,7 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -102,39 +103,7 @@ public class SearchPanel extends JPanel {
 		JPanel header = new JPanel();
 		header.setLayout(new GridLayout(2, 1));
 		JPanel top = new JPanel();
-		AbstractAction searchAction = new AbstractAction() {
-
-			private static final long serialVersionUID = 1L;
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-
-				LOG.debug("Start search");
-				deleteLabel.setText("");
-				List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-				if (CollectionUtils.isNotEmpty(allCompo)) {
-					Map<String, String> criteria = new HashMap<>();
-					criteria.put("artist", artist.getText());
-					criteria.put("titre", titre.getText());
-					if (type.getSelectedItem() != null) {
-						criteria.put("type", type.getSelectedItem().toString());
-					}
-					criteria.put("publish", publi.getText());
-					criteria.put("fileName", fileName.getText());
-					criteria.put("auteur", author.getText());
-					if (cat.getSelectedItem() != null) {
-						criteria.put("cat", cat.getSelectedItem().toString());
-					}
-					criteria.put("dateB", rangeB.getText());
-					criteria.put("dateE", rangeE.getText());
-
-					compoResult = new ArrayList<>();
-					compoResult.addAll(SearchUtils.searchContains(allCompo, criteria, inFiles.isSelected()));
-					updateTable();
-				}
-				LOG.debug("End search");
-			}
-		};
+		AbstractAction searchAction = searchAction();
 
 		JButton search = new JButton("Chercher");
 		search.setBackground(Color.white);
@@ -218,6 +187,25 @@ public class SearchPanel extends JPanel {
 			}
 		});
 		top.add(delete);
+		
+		// CSV
+		JButton csv = new JButton("Télécharger le résultat de la recherche en CSV");
+		csv.setBackground(Color.white);
+		csv.setPreferredSize(new Dimension(400, 60));
+		csv.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				String name = CsvFile.writeCsv(model.getDataVector(), "search");
+				try {
+					Runtime.getRuntime().exec(Constant.EXCEL_EXE + name);
+				} catch (IOException e1) {
+					LOG.error("", e1);
+				}
+			}
+
+		});
+		top.add(csv);
 		header.add(top);
 
 		JPanel firstLine = new JPanel();
@@ -398,6 +386,42 @@ public class SearchPanel extends JPanel {
 
 		this.add(bottom);
 		LOG.debug("End SearchPanel");
+	}
+
+	private AbstractAction searchAction() {
+		return new AbstractAction() {
+
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+
+				LOG.debug("Start search");
+				deleteLabel.setText("");
+				List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+				if (CollectionUtils.isNotEmpty(allCompo)) {
+					Map<String, String> criteria = new HashMap<>();
+					criteria.put("artist", artist.getText());
+					criteria.put("titre", titre.getText());
+					if (type.getSelectedItem() != null) {
+						criteria.put("type", type.getSelectedItem().toString());
+					}
+					criteria.put("publish", publi.getText());
+					criteria.put("fileName", fileName.getText());
+					criteria.put("auteur", author.getText());
+					if (cat.getSelectedItem() != null) {
+						criteria.put("cat", cat.getSelectedItem().toString());
+					}
+					criteria.put("dateB", rangeB.getText());
+					criteria.put("dateE", rangeE.getText());
+
+					compoResult = new ArrayList<>();
+					compoResult.addAll(SearchUtils.searchContains(allCompo, criteria, inFiles.isSelected()));
+					updateTable();
+				}
+				LOG.debug("End search");
+			}
+		};
 	}
 
 	private KeyListener shortcutKeyListener() {
