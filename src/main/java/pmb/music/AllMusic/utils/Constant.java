@@ -25,6 +25,8 @@ public class Constant {
 			+ "Music\\";
 
 	public static final String NOTEPAD_EXE = "C:\\Program Files (x86)\\Notepad++\\notepad++.exe ";
+	
+	public static final String EXCEL_EXE = "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE ";
 
 	public static final String ANSI_ENCODING = "Cp1252";
 
@@ -37,6 +39,8 @@ public class Constant {
 	public static final String DOT = ". ";
 
 	public static final String XML_EXTENSION = ".xml";
+	
+	public static final String CSV_EXTENSION = ".csv";
 
 	public static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
 
