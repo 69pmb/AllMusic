@@ -91,7 +91,20 @@ public class DialogFileTable extends JDialog {
 			modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
 		}
 
-		fichiers.addMouseListener(new MouseAdapter() {
+		fichiers.addMouseListener(pasteFichierListener());
+
+		DefaultTableCellRenderer renderer = new EvenOddRenderer();
+		for (int i = 0; i < fichiers.getColumnCount(); i++) {
+			renderer.setHorizontalAlignment(JLabel.CENTER);
+			fichiers.getColumnModel().getColumn(i).setCellRenderer(renderer);
+		}
+
+		this.setLayout(new BorderLayout());
+		this.add(new JScrollPane(fichiers), BorderLayout.CENTER);
+	}
+
+	private MouseAdapter pasteFichierListener() {
+		return new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
@@ -122,15 +135,6 @@ public class DialogFileTable extends JDialog {
 					LOG.debug("End right mouse");
 				}
 			}
-		});
-
-		DefaultTableCellRenderer renderer = new EvenOddRenderer();
-		for (int i = 0; i < fichiers.getColumnCount(); i++) {
-			renderer.setHorizontalAlignment(JLabel.CENTER);
-			fichiers.getColumnModel().getColumn(i).setCellRenderer(renderer);
-		}
-
-		this.setLayout(new BorderLayout());
-		this.add(new JScrollPane(fichiers), BorderLayout.CENTER);
+		};
 	}
 }
