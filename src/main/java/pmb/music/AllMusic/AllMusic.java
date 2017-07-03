@@ -20,6 +20,10 @@ public class AllMusic {
 
 	private static final Logger LOG = Logger.getLogger(AllMusic.class);
 
+	/**
+	 * La méthode d'entrée du programme.
+	 * @param args 
+	 */
 	public static void main(String[] args) {
 
 		Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
@@ -55,6 +59,7 @@ public class AllMusic {
 		try {
 			f.setLocation(null);
 		} catch (NullPointerException e) {
+			LOG.debug("",e);
 		}
 		f.pack();
 		f.setVisible(true);
