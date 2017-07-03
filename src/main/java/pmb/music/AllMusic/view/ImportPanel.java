@@ -98,7 +98,8 @@ public class ImportPanel extends JPanel {
 
 	private final JTextArea resultLabel;
 
-	private File file, xmlFile;
+	private File file;
+	private File xmlFile;
 
 	private final JComboBox<Cat> cat;
 
@@ -106,7 +107,8 @@ public class ImportPanel extends JPanel {
 
 	private Fichier fichier;
 
-	private String absolutePathFileTxt, absolutePathFileXml;
+	private String absolutePathFileTxt;
+	private String absolutePathFileXml;
 
 	private final JCheckBox sorted;
 	private final JCheckBox order;
@@ -253,7 +255,7 @@ public class ImportPanel extends JPanel {
 		JPanel typePanel = new JPanel();
 		typePanel.setPreferredSize(new Dimension(180, 60));
 		typeLabel = new JLabel("Type : ");
-		type = new JComboBox<RecordType>();
+		type = new JComboBox<>();
 		RecordType[] valuesType = RecordType.values();
 		for (int i = 0; i < valuesType.length; i++) {
 			type.addItem(valuesType[i]);
@@ -267,7 +269,7 @@ public class ImportPanel extends JPanel {
 		JPanel catPanel = new JPanel();
 		catPanel.setPreferredSize(new Dimension(200, 60));
 		catLabel = new JLabel("Catégorie : ");
-		cat = new JComboBox<Cat>();
+		cat = new JComboBox<>();
 		Cat[] values = Cat.values();
 		for (int i = 0; i < values.length; i++) {
 			cat.addItem(values[i]);
@@ -487,39 +489,7 @@ public class ImportPanel extends JPanel {
 		JPanel bottom = new JPanel();
 		JButton importFile = new JButton("Importer le fichier");
 		importFile.setToolTipText("Importe au format XML le fichier chargé précédemment avec les critères renseignés.");
-		importFile.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				LOG.debug("Start importFile");
-				result = new LinkedList<>(Arrays.asList("Sélectionnez un fichier"));
-				if (fichier != null) {
-					fichier.setSorted(sorted.isSelected());
-					fichier.setFileName(name.getText());
-					fichier.setAuthor(author.getText());
-					fichier.setCategorie((Cat) cat.getSelectedItem());
-					fichier.setPublishYear(Integer.parseInt(publi.getText()));
-					fichier.setRangeDateBegin(Integer.parseInt(rangeB.getText()));
-					fichier.setRangeDateEnd(Integer.parseInt(rangeE.getText()));
-					result = new LinkedList<>(Arrays.asList(name.getText() + " OK !"));
-
-					try {
-						List<Composition> compoList = ImportFile.getCompositionsFromFile(new File(absolutePathFileTxt),
-								fichier, (RecordType) type.getSelectedItem(), separator.getText(), result,
-								order.isSelected(), reverseArtist.isSelected(), removeParenthese.isSelected(),
-								upper.isSelected(), removeAfter.isSelected());
-						ExportXML.exportXML(compoList, name.getText());
-						absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText()
-								+ Constant.XML_EXTENSION;
-					} catch (IOException | MyException e) {
-						LOG.error("", e);
-						result = new LinkedList<>(Arrays.asList(e.toString()));
-					}
-				}
-				miseEnFormeResultLabel(result);
-				LOG.debug("End importFile");
-			}
-		});
+		importFile.addActionListener(importFileAction());
 		bottom.add(importFile);
 
 		JButton cleanFile = new JButton("Nettoyer le fichier");
@@ -659,6 +629,42 @@ public class ImportPanel extends JPanel {
 		this.add(bottom);
 
 		LOG.debug("End ImportPanel");
+	}
+
+	private ActionListener importFileAction() {
+		return new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				LOG.debug("Start importFile");
+				result = new LinkedList<>(Arrays.asList("Sélectionnez un fichier"));
+				if (fichier != null) {
+					fichier.setSorted(sorted.isSelected());
+					fichier.setFileName(name.getText());
+					fichier.setAuthor(author.getText());
+					fichier.setCategorie((Cat) cat.getSelectedItem());
+					fichier.setPublishYear(Integer.parseInt(publi.getText()));
+					fichier.setRangeDateBegin(Integer.parseInt(rangeB.getText()));
+					fichier.setRangeDateEnd(Integer.parseInt(rangeE.getText()));
+					result = new LinkedList<>(Arrays.asList(name.getText() + " OK !"));
+
+					try {
+						List<Composition> compoList = ImportFile.getCompositionsFromFile(new File(absolutePathFileTxt),
+								fichier, (RecordType) type.getSelectedItem(), separator.getText(), result,
+								order.isSelected(), reverseArtist.isSelected(), removeParenthese.isSelected(),
+								upper.isSelected(), removeAfter.isSelected());
+						ExportXML.exportXML(compoList, name.getText());
+						absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText()
+								+ Constant.XML_EXTENSION;
+					} catch (IOException | MyException e) {
+						LOG.error("", e);
+						result = new LinkedList<>(Arrays.asList(e.toString()));
+					}
+				}
+				miseEnFormeResultLabel(result);
+				LOG.debug("End importFile");
+			}
+		};
 	}
 
 	private void miseEnFormeResultLabel(List<String> result2) {
