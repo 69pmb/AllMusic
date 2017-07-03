@@ -153,7 +153,7 @@ public class ImportFile {
 				i++;
 			}
 		} catch (NumberFormatException | IOException e1) {
-			throw new MyException(e1.toString());
+			throw new MyException(e1.toString(), e1);
 		}
 		LOG.debug(result);
 		LOG.debug("End getCompositionsFromFile");
