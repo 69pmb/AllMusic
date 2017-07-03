@@ -17,16 +17,17 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 
 /**
+ * Contient les méthodes de recherche dans une liste de {@link Composition} avec des critères de recherche.
  * @author i2113mj
- * 
  */
 public class SearchUtils {
 
 	/**
-	 * @param compoList
-	 * @param criteria
-	 * @param searchInFiles
-	 * @return
+	 * Les critères de recherche sont utilisés comme des {@code '%like'}. 
+	 * @param compoList la liste de compo dans laquelle rechercher
+	 * @param criteria les critères
+	 * @param searchInFiles si on doit filtrer ou non les fichiers des compos
+	 * @return la liste de compo filtrée selon les critères
 	 */
 	public static List<Composition> searchContains(List<Composition> compoList, Map<String, String> criteria,
 			final boolean searchInFiles) {
@@ -110,9 +111,10 @@ public class SearchUtils {
 	}
 
 	/**
-	 * @param compoList
-	 * @param criteria
-	 * @return
+	 * Les critères de recherche sont strict, le champ doit être exactement égal au critère. 
+	 * @param compoList la liste de compo dans laquelle rechercher
+	 * @param criteria les critères
+	 * @return la liste de compo filtrée selon les critères
 	 */
 	public static List<Composition> searchStrictly(List<Composition> compoList, Map<String, String> criteria) {
 		List<Composition> arrayList = new ArrayList<>(compoList);
@@ -126,9 +128,10 @@ public class SearchUtils {
 		final String dateB = criteria.get("dateB");
 		final String dateE = criteria.get("dateE");
 
+		// Si on doit chercher dans les compos
 		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre)
 				|| StringUtils.isNotBlank(type);
-
+		// Si on doit chercher dans les fichiers
 		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName)
 				|| StringUtils.isNotBlank(auteur) || StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB)
 				|| StringUtils.isNotBlank(dateE);
