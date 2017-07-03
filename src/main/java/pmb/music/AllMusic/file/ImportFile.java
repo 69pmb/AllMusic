@@ -43,6 +43,11 @@ public class ImportFile {
 	private ImportFile() {
 	};
 
+	/**
+	 * Convertit un fichier {@link File} en {@link Fichier}. 
+	 * @param file le fichier à convertir
+	 * @return le fichier convertit
+	 */
 	public static Fichier convertOneFile(File file) {
 		LOG.debug("Start convertOneFile");
 		Fichier fichier = new Fichier();
@@ -52,6 +57,7 @@ public class ImportFile {
 		fichier.setCategorie(determineCategory(name));
 		String auteur = file.getParentFile().getName();
 		if ("album".equalsIgnoreCase(auteur) || "song".equalsIgnoreCase(auteur)) {
+			LOG.debug("Pas d'auteur, on prend le nom du dossier");
 			auteur = file.getParentFile().getParentFile().getName();
 		}
 		fichier.setAuthor(auteur);
@@ -211,8 +217,10 @@ public class ImportFile {
 	 * @return
 	 */
 	public static int determineSize(Fichier fichier, List<String> randomLines, String absolutePath) {
+		LOG.debug("Start determineSize");
 		int res = 0;
 		if (fichier.getSorted()) {
+			LOG.debug("Fichier trié");
 			String first = randomLines.get(0);
 			String last = randomLines.get(randomLines.size() - 1);
 			if (StringUtils.isBlank(last)) {
@@ -227,6 +235,7 @@ public class ImportFile {
 			}
 		}
 		if (!fichier.getSorted() || res % 10 != 0) {
+			LOG.debug("Fichier pas trié ou taille trouvée précedemment incorrecte");
 			Matcher mSize = Constant.PATTERN_SIZE.matcher(fichier.getFileName());
 			Matcher mDeca = Constant.PATTERN_DECADE.matcher(fichier.getFileName());
 			Matcher yDeca = Constant.PATTERN_YEAR.matcher(fichier.getFileName());
@@ -246,16 +255,24 @@ public class ImportFile {
 			}
 		}
 		if (res == 0) {
+			LOG.debug("Taille égale à zéro");
 			try {
 				fichier.setSize(countLines(absolutePath));
 			} catch (IOException e) {
 				LOG.error("", e);
 			}
 		}
+		LOG.debug("End determineSize");
 		return res;
 	}
 
+	/**
+	 * Extrait le classement d'une string.
+	 * @param line la string contenant le classement
+	 * @return le classement
+	 */
 	private static int extractRankFromString(String line) {
+		LOG.debug("Start extractRankFromString");
 		int sizeInt;
 		String size = StringUtils.trim(StringUtils.substringBefore(line, "."));
 		if (StringUtils.isNumeric(size)) {
@@ -264,6 +281,7 @@ public class ImportFile {
 			size = line.split(" ")[0];
 			sizeInt = parseStringToInt(size);
 		}
+		LOG.debug("End extractRankFromString");
 		return sizeInt;
 	}
 
@@ -283,6 +301,7 @@ public class ImportFile {
 	 * @return {@link RecordType} album, chanson ou inconnu.
 	 */
 	public static RecordType determineType(String name) {
+		LOG.debug("Start determineType");
 		RecordType res;
 		if (Constant.PATTERN_SONG.matcher(name).find()) {
 			res = RecordType.SONG;
@@ -291,10 +310,12 @@ public class ImportFile {
 		} else {
 			res = RecordType.UNKNOWN;
 		}
+		LOG.debug("End determineType");
 		return res;
 	}
 
 	private static Cat determineCategory(String name) {
+		LOG.debug("Start determineCategory");
 		Cat res;
 		if (Constant.PATTERN_DECADE.matcher(name).find()) {
 			res = Cat.DECADE;
@@ -309,6 +330,7 @@ public class ImportFile {
 		} else {
 			res = Cat.MISCELLANEOUS;
 		}
+		LOG.debug("End determineCategory");
 		return res;
 	}
 
@@ -406,6 +428,7 @@ public class ImportFile {
 	}
 
 	private static Date getCreationDate(File file) {
+		LOG.debug("Start getCreationDate");
 		BasicFileAttributes attr = null;
 		try {
 			attr = Files.readAttributes(file.toPath(), BasicFileAttributes.class);
@@ -420,6 +443,7 @@ public class ImportFile {
 		if ((milliseconds > Long.MIN_VALUE) && (milliseconds < Long.MAX_VALUE)) {
 			creationDate = new Date(milliseconds);
 		}
+		LOG.debug("End getCreationDate");
 		return creationDate;
 	}
 
@@ -430,11 +454,7 @@ public class ImportFile {
 	 * @return {@code true} si oui, {@code false} sinon
 	 */
 	public static boolean isSorted(String line) {
-		if (Constant.PATTERN_CHART.matcher(line).find()) {
-			return true;
-		} else {
-			return false;
-		}
+		return Constant.PATTERN_CHART.matcher(line).find();
 	}
 
 	/**
@@ -444,6 +464,7 @@ public class ImportFile {
 	 * @return {@link String} le séparateur
 	 */
 	public static String getSeparator(String line) {
+		LOG.debug("Start getSeparator");
 		String[] split = line.split(" ");
 		String res = "-";
 		for (int i = 0; i < split.length; i++) {
@@ -452,6 +473,7 @@ public class ImportFile {
 				res = string;
 			}
 		}
+		LOG.debug("End getSeparator");
 		return res;
 	}
 
