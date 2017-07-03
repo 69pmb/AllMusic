@@ -18,6 +18,9 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 
+/**
+ * Classe utilitaire pour {@link Composition}.
+ */
 public class CompositionUtils {
 
 	private static final Logger LOG = Logger.getLogger(CompositionUtils.class);
@@ -43,6 +46,10 @@ public class CompositionUtils {
 		}
 	}
 
+	/**
+	 * Print la liste de compo.
+	 * @param allCompo la liste à afficher
+	 */
 	public static void printCompoList(List<Composition> allCompo) {
 		LOG.debug("Start printCompoList");
 		LOG.debug("Compo: " + allCompo.size());
@@ -56,6 +63,12 @@ public class CompositionUtils {
 		LOG.debug("End printCompoList");
 	}
 
+	/**
+	 * Détermine si la compo existe dans la liste donnée.
+	 * @param compos la liste
+	 * @param c la compo à chercher
+	 * @return {@code null} rien trouvé, la 1ère {@link Composition} trouvée sinon 
+	 */
 	public static Composition compoExist(List<Composition> compos, Composition c) {
 		Composition res = null;
 		for (Composition composition : compos) {
