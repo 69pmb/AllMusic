@@ -571,7 +571,7 @@ public class ImportPanel extends JPanel {
 				if (StringUtils.isNotBlank(absolutePathFileTxt)) {
 					try {
 						if (FileUtils.fileExists(absolutePathFileTxt)) {
-							Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileTxt);
+							Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absolutePathFileTxt);
 						}
 					} catch (IOException e) {
 						LOG.error("", e);
@@ -596,7 +596,7 @@ public class ImportPanel extends JPanel {
 					try {
 						LOG.info(absolutePathFileXml);
 						if (FileUtils.fileExists(absolutePathFileXml)) {
-							Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absolutePathFileXml);
+							Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absolutePathFileXml);
 						}
 					} catch (IOException e) {
 						LOG.error("", e);
