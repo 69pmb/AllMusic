@@ -31,21 +31,10 @@ public class Fichier {
 
 	private int size;
 
-	public Fichier(String author, String fileName, int publishYear, Cat categorie, int rangeDateBegin, int rangeDateEnd, Boolean sorted, int classement,
-			Date creationDate, int size) {
-		super();
-		this.author = author;
-		this.fileName = fileName;
-		this.publishYear = publishYear;
-		this.categorie = categorie;
-		this.rangeDateBegin = rangeDateBegin;
-		this.rangeDateEnd = rangeDateEnd;
-		this.sorted = sorted;
-		this.classement = classement;
-		this.creationDate = creationDate;
-		this.size = size;
-	}
-
+	/**
+	 * Clone un Fichier.
+	 * @param fichier le fichier à cloner
+	 */
 	public Fichier(Fichier fichier) {
 		super();
 		this.author = fichier.getAuthor();
