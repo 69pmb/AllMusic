@@ -19,7 +19,7 @@ import pmb.music.AllMusic.view.BasicFrame;
 public class AllMusic {
 
 	private static final Logger LOG = Logger.getLogger(AllMusic.class);
-
+	
 	/**
 	 * La méthode d'entrée du programme.
 	 * @param args 
@@ -45,10 +45,7 @@ public class AllMusic {
 				| UnsupportedLookAndFeelException e) {
 			LOG.error("", e);
 		}
-		// ImportXML.getInstance(FINAL_FILE_PATH);
-		// List<Composition> fusionFiles =
-		// ImportXML.fusionFiles(System.getProperty("user.dir") +
-		// RESOURCES_DIRECTORY);
+		
 		final BasicFrame f = new BasicFrame();
 		JFrame.setDefaultLookAndFeelDecorated(true);
 		JDialog.setDefaultLookAndFeelDecorated(true);
