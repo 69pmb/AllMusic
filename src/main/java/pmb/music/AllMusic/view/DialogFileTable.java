@@ -114,7 +114,7 @@ public class DialogFileTable extends JDialog {
 							target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 					String absFile = Constant.RESOURCES_ABS_DIRECTORY + v.get(1) + Constant.XML_EXTENSION;
 					try {
-						Runtime.getRuntime().exec(Constant.NOTEPAD_EXE + absFile);
+						Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absFile);
 					} catch (IOException e1) {
 						LOG.error("", e1);
 					}
