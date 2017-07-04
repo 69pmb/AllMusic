@@ -102,7 +102,7 @@ public final class ImportXML {
 		CompositionUtils.listFilesForFolder(dir, files, Constant.XML_EXTENSION, false);
 		List<Composition> compoFusion = new ArrayList<>();
 		for (File fileXML : files) {
-			boolean isFinal = fileXML.getName().equals("final.xml");
+			boolean isFinal = "final.xml".equalsIgnoreCase(fileXML.getName());
 			if (!isFinal || (getFinal && isFinal)) {
 				compoFusion.addAll(ImportXML.importXML(fileXML.getAbsolutePath()));
 			}
