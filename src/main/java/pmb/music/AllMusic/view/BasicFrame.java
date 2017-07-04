@@ -8,7 +8,6 @@ import pmb.music.AllMusic.utils.Constant;
 
 public class BasicFrame extends JFrame{
     private static final long serialVersionUID = 3539279683629505967L;
-//    private TableTool tableau;
     private Onglet tab;
     private MenuPanel menuPanel;
     
@@ -19,11 +18,7 @@ public class BasicFrame extends JFrame{
         this.getContentPane().add(tab,BorderLayout.EAST);
         associateMenuPanel();
     }
-//    public void redrawTable(){
-//        //getTab().remove(tableau.getTable());
-//        tableau=new TableTool();
-//        tableau.drawTable();
-//    }
+    
     public void associateMenuPanel(){
         this.setMenuPanel(new MenuPanel(this));
         this.getContentPane().add(getMenuPanel(),BorderLayout.WEST);
@@ -46,11 +41,4 @@ public class BasicFrame extends JFrame{
     public void setMenuPanel(final MenuPanel myMenuPanel){
         menuPanel=myMenuPanel;
     }
-    
-//    public TableTool getTableau() {
-//        return tableau;
-//    }
-//    public void setTableau(TableTool tableau) {
-//        this.tableau = tableau;
-//    }
 }
