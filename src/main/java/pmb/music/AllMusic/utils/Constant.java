@@ -7,26 +7,44 @@ import java.text.SimpleDateFormat;
 import java.util.regex.Pattern;
 
 /**
+ * Classe de constances.
  * @author i2113mj
- * 
  */
 public class Constant {
 
+	/**
+	 * Chemin du dossier ressources.
+	 */
 	public static final String RESOURCES_DIRECTORY = "\\src\\main\\resources\\";
 
-	public static final String RESOURCES_ABS_DIRECTORY = System.getProperty("user.dir") + RESOURCES_DIRECTORY;
-
-	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + "history";
-
-	public static final String FINAL_FILE_PATH = System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY
-			+ "final.xml";
-
-	public static final String MUSIC_ABS_DIRECTORY = System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY
-			+ "Music\\";
-
-	public static final String NOTEPAD_EXE = "C:\\Program Files (x86)\\Notepad++\\notepad++.exe ";
+	/**
+	 * Chemin du pgm.
+	 */
+	public static final String USER_DIR = System.getProperty("user.dir");
 	
-	public static final String EXCEL_EXE = "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE ";
+	/**
+	 * Chemin absolu du dossier ressources.
+	 */
+	public static final String RESOURCES_ABS_DIRECTORY = USER_DIR + RESOURCES_DIRECTORY;
+
+	/**
+	 * Chemin abs du dossier d'historique.
+	 */
+	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history");
+
+	/**
+	 * Chemin abs du fichier aggrégeant tous les fichiers.
+	 */
+	public static final String FINAL_FILE_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("final");
+
+	/**
+	 * Chemin abs du dossier contenant les fichiers txt des classements.
+	 */
+	public static final String MUSIC_ABS_DIRECTORY = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music")+ "\\";
+	
+	public static final String EXCEL_PATH = GetProperties.getProperty("excel") + " ";
+	
+	public static final String NOTEPAD_PATH = GetProperties.getProperty("notepad") + " ";
 
 	public static final String ANSI_ENCODING = "Cp1252";
 
@@ -39,12 +57,12 @@ public class Constant {
 	public static final String DOT = ". ";
 
 	public static final String XML_EXTENSION = ".xml";
-	
+
 	public static final String CSV_EXTENSION = ".csv";
 
 	public static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
 
-	public static final String DEFAULT_TITLE = "Ma Fenetre";
+	public static final String DEFAULT_TITLE = "AllMusic";
 
 	public static final SimpleDateFormat SDF_DTTM = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
@@ -95,4 +113,7 @@ public class Constant {
 	public static final Pattern PATTERN_ALPHA_NUM = Pattern.compile(ALPHA_NUM);
 
 	public static final Pattern PATTERN_SIZE = Pattern.compile(SIZE);
+
+	private Constant() {
+	}
 }
