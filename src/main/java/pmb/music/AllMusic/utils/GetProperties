@@ -1,0 +1,31 @@
+package pmb.music.AllMusic.utils;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+
+public class GetProperties {
+
+	private static final Logger LOG = Logger.getLogger(GetProperties.class);
+	
+	public static Properties prop = null;
+
+	private GetProperties() {
+		try(InputStream input = new FileInputStream(Constant.RESOURCES_ABS_DIRECTORY + "//config.properties");) {
+			prop = new Properties();
+			prop.load(input);
+		} catch (IOException e) {
+			LOG.error("Erreur lors de l'import des properties: ", e);
+		}
+	}
+	
+	public static String getProperty(String key) {
+		if(prop == null) {
+			new GetProperties();
+		}
+		return prop.getProperty(key);
+	}
+}
