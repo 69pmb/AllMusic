@@ -198,7 +198,7 @@ public class SearchPanel extends JPanel {
 			public void actionPerformed(ActionEvent e) {
 				String name = CsvFile.writeCsv(model.getDataVector(), "search");
 				try {
-					Runtime.getRuntime().exec(Constant.EXCEL_EXE + name);
+					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
 				} catch (IOException e1) {
 					LOG.error("", e1);
 				}
