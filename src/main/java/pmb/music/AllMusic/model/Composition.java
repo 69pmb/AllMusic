@@ -3,6 +3,7 @@
  */
 package pmb.music.AllMusic.model;
 
+import java.io.Serializable;
 import java.util.List;
 
 import org.apache.commons.collections.CollectionUtils;
@@ -11,12 +12,20 @@ import org.apache.commons.collections.CollectionUtils;
  * @author i2113mj
  *
  */
-public class Composition {
+public class Composition implements Serializable {
+	private static final long serialVersionUID = 1L;
 	private String artist;
 	private List<Fichier> files;
 	private String titre;
 	private RecordType recordType;
 
+	/**
+	 * Constructeur.
+	 * @param artist un artiste (ou un groupe de musique)
+	 * @param files les fichier contenant la composition
+	 * @param titre le titre
+	 * @param recordType si chanson ou album
+	 */
 	public Composition(String artist, List<Fichier> files, String titre, RecordType recordType) {
 		super();
 		this.artist = artist;
