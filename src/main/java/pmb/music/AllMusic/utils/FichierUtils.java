@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -20,17 +19,26 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
-import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 
 /**
- * @author i2113mj
+ * Classe utilitaire pour la gestion des {@link Fichier}.
  * 
+ * @author i2113mj
  */
 public class FichierUtils {
 
 	private static final Logger LOG = Logger.getLogger(FichierUtils.class);
 
+	private FichierUtils() {
+	}
+
+	/**
+	 * Convertit une liste de {@link Fichier} en {@link Vector}.
+	 * 
+	 * @param fList {@code List<Fichier>} la liste à convertir
+	 * @return Vector<Vector<Object>> la liste convertie
+	 */
 	@SuppressWarnings("rawtypes")
 	public static Vector convertListForJTable(List<Fichier> fList) {
 		LOG.debug("Start convertListForJTable");
@@ -53,23 +61,9 @@ public class FichierUtils {
 		return result;
 	}
 
-	public static void findDuplicateFichierInCompo(List<Composition> allCompo) {
-		for (Composition composition : allCompo) {
-			List<Fichier> files = composition.getFiles();
-			List<String> names = new ArrayList<>();
-			for (Fichier fichier : files) {
-				names.add(fichier.getFileName());
-			}
-			Set<String> set = new HashSet<String>(names);
-			if (set.size() < names.size()) {
-				LOG.debug("Duplicates for: " + composition);
-				LOG.debug("");
-			}
-		}
-	}
-
 	/**
 	 * Crée le dossier si il n'existe pas.
+	 * 
 	 * @param nomDir le chemin du dossier
 	 */
 	public static void createFolderIfNotExists(String nomDir) {
@@ -80,25 +74,29 @@ public class FichierUtils {
 
 	/**
 	 * Supprime tous les fichiers historisés sauf le plus récent.
+	 * 
 	 * @throws ParseException
 	 * @throws IOException
 	 */
-	public static void cleanHistory() throws ParseException, IOException {
+	public static void cleanHistory() throws IOException {
 		LOG.debug("Start cleanHistory");
 		// Création d'une map avec:
 		// key nom du fichier sans date
 		// value liste des dates du fichier
-		List<File> files = new ArrayList<File>();
+		List<File> files = new ArrayList<>();
 		CompositionUtils.listFilesForFolder(new File(Constant.HISTORY_PATH), files, Constant.XML_EXTENSION, false);
 		Map<String, List<Date>> list = new HashMap<String, List<Date>>();
 		for (File file : files) {
 			String nomFichier = StringUtils.substringBefore(file.getName(), Constant.SEPARATOR_DATE_HISTORY);
-			String date = StringUtils.substringBetween(file.getName(), Constant.SEPARATOR_DATE_HISTORY,
-					Constant.XML_EXTENSION);
+			String date = StringUtils.substringBetween(file.getName(), Constant.SEPARATOR_DATE_HISTORY, Constant.XML_EXTENSION);
 			if (list.get(nomFichier) == null) {
 				list.put(nomFichier, new ArrayList<Date>());
 			}
-			list.get(nomFichier).add(Constant.SDF_HISTORY.parse(date));
+			try {
+				list.get(nomFichier).add(Constant.SDF_HISTORY.parse(date));
+			} catch (ParseException e) {
+				LOG.error("Erreur lors du parsing d'une date", e);
+			}
 		}
 
 		Set<String> keySet = list.keySet();
