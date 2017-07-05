@@ -7,12 +7,22 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Gère le fichier properties.
+ * @author pmbroca
+ */
 public class GetProperties {
 
 	private static final Logger LOG = Logger.getLogger(GetProperties.class);
 	
-	public static Properties prop = null;
+	/**
+	 * {@link Properties} contient les properties.
+	 */
+	private static Properties prop = null;
 
+	/**
+	 * Récupère le fichier properties.
+	 */
 	private GetProperties() {
 		try(InputStream input = new FileInputStream(Constant.RESOURCES_ABS_DIRECTORY + "//config.properties");) {
 			prop = new Properties();
@@ -22,9 +32,17 @@ public class GetProperties {
 		}
 	}
 	
+	/**
+	 * Récupère une donnée du fichier properties.
+	 * @param key la clé de la donnée
+	 * @return la donnée
+	 */
 	public static String getProperty(String key) {
 		if(prop == null) {
 			new GetProperties();
+		}
+		if(prop == null) {
+			return "";
 		}
 		return prop.getProperty(key);
 	}
