@@ -37,11 +37,10 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
-import pmb.music.AllMusic.utils.MyException;
 
 /**
+ * L'onglet Artiste, classement des artistes les plus cités.
  * @author i2113mj
- * 
  */
 public class ArtistPanel extends JPanel {
 
@@ -78,41 +77,7 @@ public class ArtistPanel extends JPanel {
 			@SuppressWarnings("unchecked")
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				JTable target = (JTable) e.getSource();
-				if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-					LOG.debug("Start artist mouse");
-					// Affiche tous les fichiers de l'artiste double cliqué
-					Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(
-							target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-					LOG.debug(v);
-					List<Fichier> files = new ArrayList<>();
-					try {
-						List<Composition> findByArtist = CompositionUtils.findByArtist(list, v.get(0));
-						for (Composition composition : findByArtist) {
-							files.addAll(composition.getFiles());
-						}
-						DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files,
-								new Dimension(1500, 600));
-						pop.showDialogFileTable();
-					} catch (MyException e1) {
-						LOG.error("", e1);
-					}
-					LOG.debug("End artist mouse");
-				} else if (SwingUtilities.isRightMouseButton(e)) {
-					LOG.debug("Start artist right mouse");
-					// Copie dans le presse papier le nom de l'artiste
-					int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target,
-							new Point(e.getX(), e.getY()), target));
-					if (rowAtPoint > -1) {
-						target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
-					}
-					Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(
-							target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-					StringSelection selection = new StringSelection(v.get(0));
-					Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-					clipboard.setContents(selection, selection);
-					LOG.debug("End artist right mouse");
-				}
+				mouseClickAction(e);
 			}
 		});
 
@@ -127,27 +92,7 @@ public class ArtistPanel extends JPanel {
 			@SuppressWarnings("unchecked")
 			@Override
 			public void keyReleased(KeyEvent e) {
-				JTable target = (JTable) e.getSource();
-				String keyChar = String.valueOf(e.getKeyChar());
-				TableModel tableModel = target.getModel();
-				int startRow = selectedRow;
-				if (selectedRow == tableModel.getRowCount() - 1) {
-					startRow = -1;// Go before start
-				}
-				// Check each cell to see if it starts with typed char.
-				// if so set corresponding row selected and return.
-				for (int row = startRow + 1; row < tableModel.getRowCount(); row++) {
-					String value = ((Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(
-							target.getRowSorter().convertRowIndexToModel(row))).get(0);
-					if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
-						target.getSelectionModel().clearSelection();
-						target.getColumnModel().getSelectionModel().clearSelection();
-						target.changeSelection(row, 0, true, false);
-						target.setRowSelectionInterval(row, row);
-						selectedRow = row;
-						return;
-					}
-				}
+				selectedRow = keyShortcutAction(e, selectedRow);
 			}
 
 			@Override
@@ -163,8 +108,7 @@ public class ArtistPanel extends JPanel {
 		LOG.debug("Start updateArtistPanel");
 		model.setRowCount(0);
 		list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-		model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list),
-				new Vector<>(Arrays.asList(title)));
+		model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
 		colRenderer();
 		model.fireTableDataChanged();
 		table.getRowSorter().toggleSortOrder(1);
@@ -194,6 +138,65 @@ public class ArtistPanel extends JPanel {
 			renderer.setHorizontalAlignment(JLabel.CENTER);
 			table.getColumnModel().getColumn(i).setCellRenderer(renderer);
 		}
+	}
+
+	private void mouseClickAction(MouseEvent e) {
+		JTable target = (JTable) e.getSource();
+		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+			LOG.debug("Start artist mouse");
+			// Affiche tous les fichiers de l'artiste double cliqué
+			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+			LOG.debug(v);
+			List<Fichier> files = new ArrayList<>();
+			List<Composition> findByArtist = CompositionUtils.findByArtist(list, v.get(0));
+			for (Composition composition : findByArtist) {
+				files.addAll(composition.getFiles());
+			}
+			DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600));
+			pop.showDialogFileTable();
+			LOG.debug("End artist mouse");
+		} else if (SwingUtilities.isRightMouseButton(e)) {
+			LOG.debug("Start artist right mouse");
+			// Copie dans le presse papier le nom de l'artiste
+			int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+			if (rowAtPoint > -1) {
+				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+			}
+			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+			StringSelection selection = new StringSelection(v.get(0));
+			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+			clipboard.setContents(selection, selection);
+			LOG.debug("End artist right mouse");
+		}
+	}
+
+	private int keyShortcutAction(KeyEvent e, int selectedRow) {
+		LOG.debug("Start keyShortcutAction");
+		JTable target = (JTable) e.getSource();
+		String keyChar = String.valueOf(e.getKeyChar());
+		TableModel tableModel = target.getModel();
+		int startRow = selectedRow;
+		if (selectedRow == tableModel.getRowCount() - 1) {
+			startRow = -1;// Go before start
+		}
+		// Check each cell to see if it starts with typed char.
+		// if so set corresponding row selected and return.
+		for (int row = startRow + 1; row < tableModel.getRowCount(); row++) {
+			String value = ((Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row)))
+					.get(0);
+			if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
+				target.getSelectionModel().clearSelection();
+				target.getColumnModel().getSelectionModel().clearSelection();
+				target.changeSelection(row, 0, true, false);
+				target.setRowSelectionInterval(row, row);
+				LOG.debug("End keyShortcutAction");
+				return row;
+			}
+		}
+		LOG.debug("End keyShortcutAction, no result");
+		return -1;
 	}
 
 }
