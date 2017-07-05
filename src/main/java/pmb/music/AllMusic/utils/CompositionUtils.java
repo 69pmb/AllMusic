@@ -20,11 +20,15 @@ import pmb.music.AllMusic.model.RecordType;
 
 /**
  * Classe utilitaire pour {@link Composition}.
+ * 
  * @author pmbroca
  */
 public class CompositionUtils {
 
 	private static final Logger LOG = Logger.getLogger(CompositionUtils.class);
+
+	private CompositionUtils() {
+	}
 
 	/**
 	 * Récupère la liste des fichiers d'un dossier
@@ -56,25 +60,22 @@ public class CompositionUtils {
 		LOG.debug("Compo: " + allCompo.size());
 		for (Composition composition : allCompo) {
 			LOG.debug(composition);
-			// List<Fichier> files3 = composition.getFiles();
-			// for (Fichier fichier : files3) {
-			// LOG.debug(fichier);
-			// }
 		}
 		LOG.debug("End printCompoList");
 	}
 
 	/**
 	 * Détermine si la compo existe dans la liste donnée.
+	 * 
 	 * @param compos la liste
 	 * @param c la compo à chercher
-	 * @return {@code null} rien trouvé, la 1ère {@link Composition} trouvée sinon 
+	 * @return {@code null} rien trouvé, la 1ère {@link Composition} trouvée
+	 *         sinon
 	 */
 	public static Composition compoExist(List<Composition> compos, Composition c) {
 		Composition res = null;
 		for (Composition composition : compos) {
-			if (c.getRecordType().equals(composition.getRecordType())
-					&& c.getArtist().equalsIgnoreCase(composition.getArtist())
+			if (c.getRecordType().equals(composition.getRecordType()) && c.getArtist().equalsIgnoreCase(composition.getArtist())
 					&& c.getTitre().equalsIgnoreCase(composition.getTitre())) {
 				res = composition;
 				break;
@@ -83,6 +84,11 @@ public class CompositionUtils {
 		return res;
 	}
 
+	/**
+	 * Convertit une liste de {@link Composition} en {@link Vector}. 
+	 * @param compoList {@code List<Composition>} la liste de compo
+	 * @return {@code Vector<Vector<Object>>} la liste de vecteur
+	 */
 	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList) {
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < compoList.size(); i++) {
@@ -136,8 +142,17 @@ public class CompositionUtils {
 		return result;
 	}
 
-	public static Composition findByArtistTitreAndType(List<Composition> compoList, String artist, String titre,
-			String type) throws MyException {
+	/**
+	 * Cherche une {@link Composition} dans une liste donnée en fonction de l'artiste, du titre et de son type.
+	 * Recherche stricte. 
+	 * @param compoList {@link List<Composition>} une liste de compo
+	 * @param artist {@link String} un artiste
+	 * @param titre {@link String} un titre de chanson ou d'album
+	 * @param type {@link String} album ou chanson
+	 * @return une seule {@link Composition}
+	 * @throws MyException si plusieurs résultat
+	 */
+	public static Composition findByArtistTitreAndType(List<Composition> compoList, String artist, String titre, String type) throws MyException {
 		LOG.debug("Start findByArtistTitreAndType");
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("artist", artist);
@@ -147,8 +162,7 @@ public class CompositionUtils {
 		List<Composition> search = SearchUtils.searchStrictly(compoList, criteria);
 		if (search.size() > 1) {
 			CompositionUtils.printCompoList(search);
-			throw new MyException("Trop de résultat dans findByArtistTitreAndType: " + artist + " " + titre + " "
-					+ type);
+			throw new MyException("Trop de résultat dans findByArtistTitreAndType: " + artist + " " + titre + " " + type);
 		}
 		if (!search.isEmpty()) {
 			LOG.debug("End findByArtistTitreAndType");
@@ -159,7 +173,14 @@ public class CompositionUtils {
 		}
 	}
 
-	public static List<Composition> findByArtist(List<Composition> compoList, String artist) throws MyException {
+	/**
+	 * Cherche une {@link Composition} dans une liste donnée en fonction de l'artiste.	 
+	 * Recherche stricte. 
+	 * @param compoList {@link List<Composition>} une liste de compo
+	 * @param artist {@link String} un artiste
+	 * @return la composition trouvée
+	 */
+	public static List<Composition> findByArtist(List<Composition> compoList, String artist) {
 		LOG.debug("Start findByArtistTitreAndType");
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("artist", artist);
@@ -170,21 +191,26 @@ public class CompositionUtils {
 			return search;
 		} else {
 			LOG.debug("End findByArtistTitreAndType, no result");
-			return new ArrayList<Composition>();
+			return new ArrayList<>();
 		}
 	}
 
+	/**
+	 * Supprime dans les fichiers XML, la composition donnée.
+	 * @param toRemove la {@link Composition} à supprimer des fichiers
+	 */
 	public static void removeCompositionsInFiles(Composition toRemove) {
 		LOG.debug("Start removeCompositionsInFiles");
 		for (Fichier file : toRemove.getFiles()) {
-			List<Composition> importXML = ImportXML.importXML(Constant.RESOURCES_ABS_DIRECTORY + file.getFileName()
-					+ Constant.XML_EXTENSION);
-			importXML.remove(importXML.indexOf(new Composition(toRemove.getArtist(), Arrays.asList(file), toRemove
-					.getTitre(), toRemove.getRecordType())));
+			// Récupération des compositions du fichier XML
+			List<Composition> importXML = ImportXML.importXML(Constant.RESOURCES_ABS_DIRECTORY + file.getFileName() + Constant.XML_EXTENSION);
+			// Suppresion de la liste de la composition à enlever
+			importXML.remove(importXML.indexOf(new Composition(toRemove.getArtist(), Arrays.asList(file), toRemove.getTitre(), toRemove.getRecordType())));
 			try {
+				// Sauvegarde des modifications
 				ExportXML.exportXML(importXML, file.getFileName());
 			} catch (IOException e) {
-				LOG.error("", e);
+				LOG.error("Erreur lors de la suppresion d'une composition dans le fichier: " + file.getFileName(), e);
 			}
 		}
 		LOG.debug("End removeCompositionsInFiles");
