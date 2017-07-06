@@ -19,7 +19,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 
 /**
- * Classe utilitaire pour {@link Composition}.
+ * Classe utilitaire pour les {@link Composition}.
  * 
  */
 public class CompositionUtils {
@@ -68,8 +68,7 @@ public class CompositionUtils {
 	 * 
 	 * @param compos la liste
 	 * @param c la compo à chercher
-	 * @return {@code null} rien trouvé, la 1ère {@link Composition} trouvée
-	 *         sinon
+	 * @return {@code null} rien trouvé, la 1ère {@link Composition} trouvée sinon
 	 */
 	public static Composition compoExist(List<Composition> compos, Composition c) {
 		Composition res = null;
