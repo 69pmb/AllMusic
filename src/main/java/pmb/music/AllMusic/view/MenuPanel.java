@@ -13,9 +13,14 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButtonMenuItem;
 import javax.swing.KeyStroke;
 
+import org.apache.log4j.Logger;
+
+import pmb.music.AllMusic.utils.Constant;
+
 public class MenuPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 	private BasicFrame myFrame;
+	private static final Logger LOG = Logger.getLogger(MenuPanel.class);
 
 	public MenuPanel(final BasicFrame myFrame) {
 		this.myFrame = myFrame;
@@ -26,87 +31,100 @@ public class MenuPanel extends JPanel {
 		return myFrame;
 	}
 
-	public void setBasicFrame(final BasicFrame BasicFrame) {
-		myFrame = BasicFrame;
+	public void setBasicFrame(final BasicFrame basicFrame) {
+		myFrame = basicFrame;
 	}
 
 	private void initComponents() {
 		setLayout(new BorderLayout());
-		final JMenuBar menu = MenuBar();
+		final JMenuBar menu = menuBar();
 		myFrame.getContentPane().add(menu, BorderLayout.NORTH);
 	}
 
-	public JMenuBar MenuBar() {
+	public JMenuBar menuBar() {
 		final JMenuBar menuBar = new JMenuBar();
+		
+		// Fichier
 		final JMenu fichier = new JMenu("Fichier");
-		final JMenu edition = new JMenu("Edition");
-		final JMenu aff = new JMenu("Affichage");
-		final JMenu aide = new JMenu("Aide");
 		fichier.setMnemonic(KeyEvent.VK_F);
-		edition.setMnemonic(KeyEvent.VK_E);
-		aff.setMnemonic(KeyEvent.VK_A);
-		aide.setMnemonic(KeyEvent.VK_H);
-
-		final JMenuItem help = new JMenuItem("?");
+		
 		final JMenuItem excel = new JMenuItem("Ouvrir Fichier Excel");
-		final JMenuItem exportXml = new JMenuItem("Exporter en XML");
-		final JMenuItem close = new JMenuItem("Fermer");
-		final JMenuItem calculStats = new JMenuItem("Calculer Statistique");
-		final JMenuItem triDate = new JMenuItem("Trier par date");
-		final JMenuItem add = new JMenuItem("Ajouter une ligne");
-		final JMenuItem search = new JMenuItem("Rechercher");
-		final JMenuItem remove = new JMenuItem("Supprimer les lignes sélectionnées");
-		final JMenuItem addItem = new JMenuItem("Ajouter une sortie");
-		final JMenuItem addGroupe = new JMenuItem("Ajouter un groupe à des sorties");
-		final JMenuItem removeGroupe = new JMenuItem("Supprimer tous les groupes des sorties sélectionnées");
-
-		final JRadioButtonMenuItem tout = new JRadioButtonMenuItem("Afficher tout les groupes");
-
-		excel.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
-		help.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_H, ActionEvent.CTRL_MASK));
-		add.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		addItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK));
-		exportXml.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, ActionEvent.CTRL_MASK));
-		addGroupe.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_A, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		remove.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		calculStats.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, ActionEvent.CTRL_MASK));
-		search.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F, ActionEvent.CTRL_MASK));
-		removeGroupe.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_W, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-
 		fichier.add(excel);
-
+		excel.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
+		
+		final JMenuItem exportXml = new JMenuItem("Exporter en XML");
 		fichier.add(exportXml);
-
+		exportXml.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, ActionEvent.CTRL_MASK));
+		
+		final JMenuItem calculStats = new JMenuItem("Calculer Statistique");
 		fichier.add(calculStats);
-
+		calculStats.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, ActionEvent.CTRL_MASK));
+		
+		final JMenuItem search = new JMenuItem("Rechercher");
 		fichier.add(search);
-
+		search.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F, ActionEvent.CTRL_MASK));
+		search.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(final ActionEvent ae) {
+				getSelectedTab();
+			}
+		});
+		
+		final JMenuItem triDate = new JMenuItem("Trier par date");
+		fichier.add(triDate);
+		
+		final JMenuItem close = new JMenuItem("Fermer");
+		fichier.add(close);
 		close.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.CTRL_MASK));
 		close.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(final ActionEvent ae) {
+				getMyFrame().getTab().getOnglets().getSelectedIndex();
 				final int option = JOptionPane.showConfirmDialog(null, "Voulez-vous VRAIMENT quitter ?", "Demande confirmation ",
 						JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
 				if (option == 0) {
 					System.exit(0);
 				} else {
+					// Nothing to do
 				}
 			}
 		});
-
-		fichier.add(triDate);
-		fichier.add(close);
-
+		
+		//Edition
+		final JMenu edition = new JMenu("Edition");
+		edition.setMnemonic(KeyEvent.VK_E);
+		
+		final JMenuItem add = new JMenuItem("Ajouter une ligne");
+		add.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
 		edition.add(add);
-
-		edition.add(addItem);
-
+		
+		final JMenuItem remove = new JMenuItem("Supprimer les lignes sélectionnées");
+		remove.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
 		edition.add(remove);
-
+		
+		final JMenuItem addItem = new JMenuItem("Ajouter une sortie");
+		addItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK));
+		edition.add(addItem);
+		
+		final JMenuItem addGroupe = new JMenuItem("Ajouter un groupe à des sorties");
+		addGroupe.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_A, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
 		edition.add(addGroupe);
-
+		
+		final JMenuItem removeGroupe = new JMenuItem("Supprimer tous les groupes des sorties sélectionnées");
+		removeGroupe.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_W, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
 		edition.add(removeGroupe);
-
+		
+		// Affichage
+		final JMenu aff = new JMenu("Affichage");
+		aff.setMnemonic(KeyEvent.VK_A);
+		final JRadioButtonMenuItem tout = new JRadioButtonMenuItem("Afficher tout les groupes");
+		aff.add(tout);
+		
+		// Aide
+		final JMenu aide = new JMenu("Aide");
+		aide.setMnemonic(KeyEvent.VK_H);
+		final JMenuItem help = new JMenuItem("?");
+		help.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_H, ActionEvent.CTRL_MASK));
 		help.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(final ActionEvent ae) {
@@ -120,7 +138,6 @@ public class MenuPanel extends JPanel {
 		menuBar.add(edition);
 		menuBar.add(aff);
 		menuBar.add(aide);
-		aff.add(tout);
 
 		return menuBar;
 	}
@@ -131,6 +148,26 @@ public class MenuPanel extends JPanel {
 
 	public void setMyFrame(BasicFrame myFrame) {
 		this.myFrame = myFrame;
+	}
+
+	private String getSelectedTab() {
+		int index = getMyFrame().getTab().getOnglets().getSelectedIndex();
+		String tab = "";
+		switch (index) {
+		case 0:
+			tab = Constant.ONGLET_IMPORT;
+			break;
+		case 1:
+			tab = Constant.ONGLET_SEARCH;
+			break;
+		case 2:
+			tab = Constant.ONGLET_ARTIST;
+			break;
+		default:
+			break;
+		}
+		LOG.debug(tab);
+		return tab;
 	}
 
 }
