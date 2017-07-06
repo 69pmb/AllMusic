@@ -12,6 +12,8 @@ import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 
+import pmb.music.AllMusic.utils.Constant;
+
 /**
  * Classe gérant les onglet de l'appli.
  * @author pmbroca
@@ -37,11 +39,12 @@ public class Onglet extends JPanel {
         ImportPanel importFile = new ImportPanel(artist);
         SearchPanel search = new SearchPanel(artist);
         
-        onglets.addTab("Import", importFile);
+        
+		onglets.addTab(Constant.ONGLET_IMPORT, importFile);
         onglets.setMnemonicAt(0, KeyEvent.VK_1);
-        onglets.addTab("Rechercher", search);
+		onglets.addTab(Constant.ONGLET_SEARCH, search);
         onglets.setMnemonicAt(1, KeyEvent.VK_2);
-        onglets.addTab("Artiste", artist);
+		onglets.addTab(Constant.ONGLET_ARTIST, artist);
         onglets.setMnemonicAt(2, KeyEvent.VK_3);
 
         onglets.setOpaque(true);
