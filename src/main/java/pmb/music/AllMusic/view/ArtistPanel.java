@@ -40,7 +40,7 @@ import pmb.music.AllMusic.utils.Constant;
 
 /**
  * L'onglet Artiste, classement des artistes les plus cités.
- * @author i2113mj
+ * @author pmbroca
  */
 public class ArtistPanel extends JPanel {
 
@@ -110,7 +110,7 @@ public class ArtistPanel extends JPanel {
 	}
 
 	/**
-	 *  Met à jour le panel artiste à l'aide du fichier final.
+	 * Met à jour le panel artiste à l'aide du fichier final.
 	 */
 	public void updateArtistPanel() {
 		LOG.debug("Start updateArtistPanel");
