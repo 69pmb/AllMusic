@@ -19,10 +19,6 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 
-/**
- * @author i2113mj
- * 
- */
 public final class ImportXML {
 
 	private static final Logger LOG = Logger.getLogger(ImportXML.class);
@@ -62,8 +58,7 @@ public final class ImportXML {
 	 * history) et renvoie la liste de Composition.
 	 * 
 	 * @param dirName le dossier où se situe les fichiers
-	 * @param getFinal si on fusionne aussi le fichier {@code final.xml} avec
-	 *            les autres fichiers
+	 * @param getFinal si on fusionne aussi le fichier {@code final.xml} avec les autres fichiers
 	 * @return la liste des {@link Composition} des fichiers
 	 * @throws IOException
 	 */
