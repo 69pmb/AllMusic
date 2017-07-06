@@ -31,8 +31,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 
 /**
- * @author i2113mj
- * 
+ * Classe permettant l'import de fichiers.
  */
 public class ImportFile {
 
@@ -40,8 +39,7 @@ public class ImportFile {
 
 	private static final Logger LOG = Logger.getLogger(ImportFile.class);
 
-	private ImportFile() {
-	};
+	private ImportFile() {}
 
 	/**
 	 * Convertit un fichier {@link File} en {@link Fichier}. 
@@ -66,6 +64,21 @@ public class ImportFile {
 		return fichier;
 	}
 
+	/**
+	 * Récupère les compositions d'un fichier txt.
+	 * @param file {@link File} contenant les compos
+	 * @param fichier {@link Fichier} contenant des infos récupérées précédemment
+	 * @param type {@link RecordType} chanson ou album
+	 * @param separator {@link String} le séparateur entre l'artiste et le titre
+	 * @param result {@code List<String>} le message qui sera affiché à la fin du traitement
+	 * @param artistFirst si l'artiste est en 1er
+	 * @param reverseArtist si l'artiste est par exemple: {@literal Beatles, The} et doit etre retourné 
+	 * @param parenthese si des parenthèse sont à supprimer à la fin de chaque ligne
+	 * @param upper si il n'y a pas de séparateur mais que l'artiste est en majuscule et pas le titre
+	 * @param removeAfter si plusieurs séparateurs, supprimer après le dernier
+	 * @return {@code List<Composition>} la liste de compos extraite du fichier
+	 * @throws MyException 
+	 */
 	public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type,
 			String separator, List<String> result, boolean artistFirst, boolean reverseArtist, boolean parenthese,
 			boolean upper, boolean removeAfter) throws MyException {
@@ -90,7 +103,7 @@ public class ImportFile {
 				String artist;
 				String titre = "";
 				if (!upper) {
-					String[] split = splitLineWithSeparator(separator, result, line, lineNb);
+					String[] split = splitLineWithSeparator(line, separator, result, lineNb);
 					titre = StringUtils.trim(split[1]);
 					artist = StringUtils.trim(split[0]);
 				} else {
@@ -167,23 +180,27 @@ public class ImportFile {
 	}
 
 	/**
-	 * @param separator
-	 * @param result
-	 * @param line
-	 * @param lineNb
-	 * @return
-	 * @throws MyException
+	 * Fragmente en 2 normalement une ligne d'un fichier avec le séparateur donné.
+	 * @param line {@link String} laligne à couper
+	 * @param separator {@link String} le séparateur
+	 * @param result {@code List<String>} la liste des messages à afficher à l'utilisateur
+	 * @param lineNb le numéro de la ligne dans le fichier
+	 * @return {@code String[]} la ligne coupée
+	 * @throws MyException si la ligne est coupée en plus de 2 morceaux 
 	 */
-	private static String[] splitLineWithSeparator(String separator, List<String> result, String line, int lineNb)
+	private static String[] splitLineWithSeparator(String line, String separator, List<String> result, int lineNb)
 			throws MyException {
 		String[] split = line.split(separator);
 		if (split.length < 2) {
+			// Le séparateur ne convient pas, on essaye avec un tiret classique
 			split = line.split("-");
 		}
 		if (split.length < 2) {
+			// ça ne marche toujours pas, on arrete tout
 			throw new MyException("Separator " + separator + " is not suitable for line " + lineNb + " : " + line);
 		}
 		if (split.length > 2) {
+			// Il y a plusieurs séparateur dans la ligne
 			String newSep = " " + separator + " ";
 			split = new String[2];
 			split[0] = StringUtils.replace(StringUtils.substringBeforeLast(line, newSep), newSep, ", ");
