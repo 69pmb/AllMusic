@@ -102,6 +102,10 @@ public class ImportPanel extends JPanel {
 
 	private List<String> result = new LinkedList<>();
 
+	/**
+	 * Construit l'onglet import.
+	 * @param artist l'onglet artiste
+	 */
 	public ImportPanel(final ArtistPanel artist) {
 		super();
 		LOG.debug("Start ImportPanel");
