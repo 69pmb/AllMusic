@@ -48,10 +48,6 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 
-/**
- * @author i2113mj
- * 
- */
 public class ImportPanel extends JPanel {
 
 	private static final long serialVersionUID = 5796304304079887263L;
@@ -139,6 +135,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void focusGained(FocusEvent e) {
+				// Nothing to do
 			}
 		});
 
@@ -368,6 +365,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void focusLost(FocusEvent e) {
+				// Nothing to do
 			}
 
 			@Override
@@ -575,7 +573,7 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 *  Le traitement lorsqu'on importe un fichier txt.
+	 * Le traitement lorsqu'on importe un fichier txt.
 	 */
 	private void importFileAction() {
 		LOG.debug("Start importFile");
@@ -644,7 +642,7 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 *  Remet à zéro tous les champs de l'écran.
+	 * Remet à zéro tous les champs de l'écran.
 	 */
 	private void resetAll() {
 		explorePath = Constant.MUSIC_ABS_DIRECTORY;
@@ -680,8 +678,8 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 *  Traitement lorsqu'on séléctionne un fichier.
-	 *  Les paramètres d'import sont déduit du nom du fichier et du contenu.
+	 * Traitement lorsqu'on séléctionne un fichier.
+	 * Les paramètres d'import sont déduit du nom du fichier et du contenu.
 	 */
 	private void loadFile() {
 		explorePath = StringUtils.substring(file.getAbsolutePath(), 0, file.getAbsolutePath().lastIndexOf(File.separator));
@@ -757,7 +755,7 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 *  Pour ouvrir le fichier txt séléctionné dans notepad. 
+	 * Pour ouvrir le fichier txt séléctionné dans notepad. 
 	 */
 	private void openFileNotepadAction() {
 		LOG.debug("Start openFile");
@@ -776,7 +774,7 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 *  Pour ouvrir le fichier xml nouvellement crée dans notepad. 
+	 * Pour ouvrir le fichier xml nouvellement crée dans notepad. 
 	 */
 	private void openXmlNotepadAction() {
 		LOG.debug("Start openXml");
@@ -796,7 +794,7 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 *  Traitment lorsqu'on veut nettoyer un fichier txt.
+	 * Traitment lorsqu'on veut nettoyer un fichier txt.
 	 */
 	private void cleanFileAction() {
 		LOG.debug("Start cleanFile");
