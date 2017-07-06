@@ -26,7 +26,6 @@ import pmb.music.AllMusic.utils.FichierUtils;
 
 /**
  * Classe pour exporter des fichiers au format XML.
- * @author i2113mj
  */
 public class ExportXML {
 
