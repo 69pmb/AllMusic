@@ -55,23 +55,17 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 
+/**
+ * Gère le panel search.
+ */
 public class SearchPanel extends JPanel {
 
 	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
 
 	private static final long serialVersionUID = 2593372709628283573L;
 
-	private JLabel catLabel;
-	private JLabel authorLabel;
-	private JLabel publiLabel;
-	private JLabel rangeLabel;
-	private JLabel typeLabel;
-	private JLabel titreLabel;
-	private JLabel fileNameLabel;
-	private JLabel artistLabel;
 	private JLabel countLabel;
 	private JLabel deleteLabel;
-	private JLabel inFilesLabel;
 
 	private JCheckBox inFiles;
 
@@ -91,10 +85,16 @@ public class SearchPanel extends JPanel {
 
 	private List<Composition> compoResult = new ArrayList<>();
 
-	private static final String title[] = { "Artiste", "Titre", "Type", "Nombre de fichiers", "" };
+	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "" };
+	
+	private int selectedRow = -1;
 
 	private CompoModel model;
 
+	/**
+	 * Génère le panel search 
+	 * @param artist2 le panel artiste
+	 */
 	public SearchPanel(final ArtistPanel artist2) {
 		super();
 		LOG.debug("Start SearchPanel");
@@ -102,118 +102,15 @@ public class SearchPanel extends JPanel {
 
 		JPanel header = new JPanel();
 		header.setLayout(new GridLayout(2, 1));
-		JPanel top = new JPanel();
-		AbstractAction searchAction = searchAction();
-
-		JButton search = new JButton("Chercher");
-		search.setBackground(Color.white);
-		search.setPreferredSize(new Dimension(220, 60));
-		search.addActionListener(searchAction);
-		search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW).put(
-				javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0), "Enter_pressed");
-		search.getActionMap().put("Enter_pressed", searchAction);
-		top.add(search);
-
-		// inFiles
-		JPanel inFilesPanel = new JPanel();
-		inFilesPanel.setPreferredSize(new Dimension(180, 60));
-		inFilesLabel = new JLabel("Rechercher dans les fichiers : ");
-		inFiles = new JCheckBox();
-		inFiles.setPreferredSize(new Dimension(25, 25));
-		inFiles.setSelected(true);
-		inFilesPanel.add(inFilesLabel);
-		inFilesPanel.add(inFiles);
-		top.add(inFilesPanel);
-
-		// Clear Btn
-		JButton clear = new JButton("Réinitialiser recherche");
-		clear.setBackground(Color.white);
-		clear.setPreferredSize(new Dimension(200, 60));
-		AbstractAction cleanAction = new AbstractAction() {
-
-			private static final long serialVersionUID = 1L;
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				artist.setText("");
-				titre.setText("");
-				type.setSelectedItem(null);
-				publi.setText("");
-				fileName.setText("");
-				author.setText("");
-				cat.setSelectedItem(null);
-				rangeB.setText("");
-				rangeE.setText("");
-				deleteLabel.setText("");
-				countLabel.setText("");
-			}
-		};
-		clear.addActionListener(cleanAction);
-		top.add(clear);
-
-		// Delete Btn
-		JButton delete = new JButton("Supprimer les compositions sélectionnées");
-		delete.setBackground(Color.white);
-		delete.setPreferredSize(new Dimension(400, 60));
-		delete.addActionListener(new ActionListener() {
-
-			@SuppressWarnings("unchecked")
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				LOG.debug("Start delete");
-				List<Object> selected = model.getSelected();
-				List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-				for (Object o : selected) {
-					Vector<String> v = (Vector<String>) o;
-					try {
-						Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1),
-								v.get(2));
-						compoResult.remove(compoResult.indexOf(toRemove));
-						importXML.remove(importXML.indexOf(toRemove));
-						CompositionUtils.removeCompositionsInFiles(toRemove);
-					} catch (MyException e1) {
-						LOG.error("", e1);
-					}
-				}
-				try {
-					ExportXML.exportXML(importXML, "final");
-					artist2.updateArtistPanel();
-				} catch (IOException e1) {
-					LOG.error("", e1);
-				}
-				updateTable();
-				deleteLabel.setText(selected.size() + " élément(s) supprimée(s)");
-				LOG.debug("End delete");
-			}
-		});
-		top.add(delete);
 		
-		// CSV
-		JButton csv = new JButton("Télécharger le résultat de la recherche en CSV");
-		csv.setBackground(Color.white);
-		csv.setPreferredSize(new Dimension(400, 60));
-		csv.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				String name = CsvFile.writeCsv(model.getDataVector(), "search");
-				try {
-					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
-				} catch (IOException e1) {
-					LOG.error("", e1);
-				}
-			}
-
-		});
-		top.add(csv);
-		header.add(top);
+		insertTopPanel(artist2, header);
 
 		JPanel firstLine = new JPanel();
 
 		// Artiste
 		JPanel artistPanel = new JPanel();
 		artistPanel.setPreferredSize(new Dimension(200, 60));
-		artistLabel = new JLabel("Artiste : ");
+		JLabel artistLabel = new JLabel("Artiste : ");
 		artist = new JTextField();
 		artist.setPreferredSize(new Dimension(150, 25));
 		artistPanel.add(artistLabel);
@@ -223,7 +120,7 @@ public class SearchPanel extends JPanel {
 		// Titre
 		JPanel titrePanel = new JPanel();
 		titrePanel.setPreferredSize(new Dimension(180, 60));
-		titreLabel = new JLabel("Titre : ");
+		JLabel titreLabel = new JLabel("Titre : ");
 		titre = new JTextField();
 		titre.setPreferredSize(new Dimension(150, 25));
 		titrePanel.add(titreLabel);
@@ -233,7 +130,7 @@ public class SearchPanel extends JPanel {
 		// Nom du fichier
 		JPanel fileNamePanel = new JPanel();
 		fileNamePanel.setPreferredSize(new Dimension(400, 60));
-		fileNameLabel = new JLabel("Nom du fichier : ");
+		JLabel fileNameLabel = new JLabel("Nom du fichier : ");
 		fileName = new JTextField();
 		fileName.setPreferredSize(new Dimension(350, 25));
 		fileNamePanel.add(fileNameLabel);
@@ -243,7 +140,7 @@ public class SearchPanel extends JPanel {
 		// Auteur
 		JPanel authorPanel = new JPanel();
 		authorPanel.setPreferredSize(new Dimension(200, 60));
-		authorLabel = new JLabel("Auteur : ");
+		JLabel authorLabel = new JLabel("Auteur : ");
 		author = new JTextField();
 		author.setPreferredSize(new Dimension(150, 25));
 		authorPanel.add(authorLabel);
@@ -253,7 +150,7 @@ public class SearchPanel extends JPanel {
 		// Type
 		JPanel typePanel = new JPanel();
 		typePanel.setPreferredSize(new Dimension(180, 60));
-		typeLabel = new JLabel("Type : ");
+		JLabel typeLabel = new JLabel("Type : ");
 		type = new JComboBox<>();
 		type.addItem(null);
 		RecordType[] valuesType = RecordType.values();
@@ -268,7 +165,7 @@ public class SearchPanel extends JPanel {
 		// Range
 		JPanel rangePanel = new JPanel();
 		rangePanel.setPreferredSize(new Dimension(310, 60));
-		rangeLabel = new JLabel("Année(s) du classement :                ");
+		JLabel rangeLabel = new JLabel("Année(s) du classement :                ");
 		rangeB = new JTextField();
 		rangeE = new JTextField();
 		rangeB.setPreferredSize(new Dimension(150, 25));
@@ -281,7 +178,7 @@ public class SearchPanel extends JPanel {
 		// Categorie
 		JPanel catPanel = new JPanel();
 		catPanel.setPreferredSize(new Dimension(200, 60));
-		catLabel = new JLabel("Catégorie : ");
+		JLabel catLabel = new JLabel("Catégorie : ");
 		cat = new JComboBox<>();
 		cat.addItem(null);
 		Cat[] values = Cat.values();
@@ -296,7 +193,7 @@ public class SearchPanel extends JPanel {
 		// Publi
 		JPanel publiPanel = new JPanel();
 		publiPanel.setPreferredSize(new Dimension(200, 60));
-		publiLabel = new JLabel("Année de publication : ");
+		JLabel publiLabel = new JLabel("Année de publication : ");
 		publi = new JTextField();
 		publi.setPreferredSize(new Dimension(150, 25));
 		publiPanel.add(publiLabel);
@@ -340,46 +237,31 @@ public class SearchPanel extends JPanel {
 		model = new CompoModel(new Object[0][5], title);
 		result.setModel(model);
 		result.setRowSorter(new TableRowSorter<TableModel>(model));
-		result.addKeyListener(shortcutKeyListener());
+		result.addKeyListener(new KeyListener() {
+
+			@Override
+			public void keyTyped(KeyEvent e) {
+				// Nothing to do
+			}
+
+			@SuppressWarnings("unchecked")
+			@Override
+			public void keyReleased(KeyEvent e) {
+				selectedRow = shortcutKeyAction(e);
+			}
+
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// Nothing to do
+			}
+			
+		});
 		result.addMouseListener(new MouseAdapter() {
 
 			@SuppressWarnings("unchecked")
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-					LOG.debug("Start result mouse");
-					// Ouvre une popup pour afficher les fichiers de la
-					// composition sélectionnée
-					JTable target = (JTable) e.getSource();
-					Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
-							target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-					List<Fichier> files;
-					try {
-						files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(0), v.get(1), v.get(2))
-								.getFiles();
-						DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files,
-								new Dimension(1500, 400));
-						pop.showDialogFileTable();
-					} catch (MyException e1) {
-						LOG.error("", e1);
-					}
-					LOG.debug("End result mouse");
-				} else if (SwingUtilities.isRightMouseButton(e)) {
-					LOG.debug("Start right mouse");
-					// Copie dans le clipboard l'artist et l'oeuvre
-					JTable target = (JTable) e.getSource();
-					int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target,
-							new Point(e.getX(), e.getY()), target));
-					if (rowAtPoint > -1) {
-						target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
-					}
-					Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
-							target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-					StringSelection selection = new StringSelection(v.get(0) + " " + v.get(1));
-					Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-					clipboard.setContents(selection, selection);
-					LOG.debug("End right mouse");
-				}
+				mouseAction(e);
 			}
 		});
 		bottom.add(new JScrollPane(result), BorderLayout.CENTER);
@@ -388,81 +270,119 @@ public class SearchPanel extends JPanel {
 		LOG.debug("End SearchPanel");
 	}
 
-	private AbstractAction searchAction() {
-		return new AbstractAction() {
+	/**
+	 * Insert les boutons du panel search en haut.
+	 * @param artist2 le panel artist
+	 * @param header le header de l'onglet
+	 */
+	private void insertTopPanel(final ArtistPanel artist2, JPanel header) {
+		JPanel top = new JPanel();
+		AbstractAction searchAction = new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
 
 			@Override
-			public void actionPerformed(ActionEvent arg0) {
-
-				LOG.debug("Start search");
-				deleteLabel.setText("");
-				List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-				if (CollectionUtils.isNotEmpty(allCompo)) {
-					Map<String, String> criteria = new HashMap<>();
-					criteria.put("artist", artist.getText());
-					criteria.put("titre", titre.getText());
-					if (type.getSelectedItem() != null) {
-						criteria.put("type", type.getSelectedItem().toString());
-					}
-					criteria.put("publish", publi.getText());
-					criteria.put("fileName", fileName.getText());
-					criteria.put("auteur", author.getText());
-					if (cat.getSelectedItem() != null) {
-						criteria.put("cat", cat.getSelectedItem().toString());
-					}
-					criteria.put("dateB", rangeB.getText());
-					criteria.put("dateE", rangeE.getText());
-
-					compoResult = new ArrayList<>();
-					compoResult.addAll(SearchUtils.searchContains(allCompo, criteria, inFiles.isSelected()));
-					updateTable();
-				}
-				LOG.debug("End search");
+			public void actionPerformed(ActionEvent e) {
+				searchAction();
 			}
 		};
-	}
 
-	private KeyListener shortcutKeyListener() {
-		return new KeyListener() {
+		JButton search = new JButton("Chercher");
+		search.setBackground(Color.white);
+		search.setPreferredSize(new Dimension(220, 60));
+		search.addActionListener(searchAction);
+		search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW).put(
+				javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0), "Enter_pressed");
+		search.getActionMap().put("Enter_pressed", searchAction);
+		top.add(search);
 
-			private int selectedRow = -1;// before start
+		// inFiles
+		JPanel inFilesPanel = new JPanel();
+		inFilesPanel.setPreferredSize(new Dimension(180, 60));
+		JLabel inFilesLabel = new JLabel("Rechercher dans les fichiers : ");
+		inFiles = new JCheckBox();
+		inFiles.setPreferredSize(new Dimension(25, 25));
+		inFiles.setSelected(true);
+		inFilesPanel.add(inFilesLabel);
+		inFilesPanel.add(inFiles);
+		top.add(inFilesPanel);
+
+		// Clear Btn
+		JButton clear = new JButton("Réinitialiser recherche");
+		clear.setBackground(Color.white);
+		clear.setPreferredSize(new Dimension(200, 60));
+		AbstractAction cleanAction = new AbstractAction() {
+
+			private static final long serialVersionUID = 1L;
 
 			@Override
-			public void keyTyped(KeyEvent e) {
+			public void actionPerformed(ActionEvent e) {
+				cleanAction();
 			}
+		};
+		clear.addActionListener(cleanAction);
+		top.add(clear);
+
+		// Delete Btn
+		JButton delete = new JButton("Supprimer les compositions sélectionnées");
+		delete.setBackground(Color.white);
+		delete.setPreferredSize(new Dimension(400, 60));
+		delete.addActionListener(new ActionListener() {
 
 			@SuppressWarnings("unchecked")
 			@Override
-			public void keyReleased(KeyEvent e) {
-				JTable target = (JTable) e.getSource();
-				String keyChar = String.valueOf(e.getKeyChar());
-				TableModel model = target.getModel();
-				int startRow = selectedRow;
-				if (selectedRow == model.getRowCount() - 1) {
-					startRow = -1;// Go before start
-				}
-				// Check each cell to see if it starts with typed char.
-				// if so set corresponding row selected and return.
-				for (int row = startRow + 1; row < model.getRowCount(); row++) {
-					String value = ((Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
-							target.getRowSorter().convertRowIndexToModel(row))).get(0);
-					if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
-						target.getSelectionModel().clearSelection();
-						target.getColumnModel().getSelectionModel().clearSelection();
-						target.changeSelection(row, 0, true, false);
-						target.setRowSelectionInterval(row, row);
-						selectedRow = row;
-						return;
-					}
+			public void actionPerformed(ActionEvent e) {
+				deleteAction(artist2);
+			}
+		});
+		top.add(delete);
+		
+		// CSV
+		JButton csv = new JButton("Télécharger le résultat de la recherche en CSV");
+		csv.setBackground(Color.white);
+		csv.setPreferredSize(new Dimension(400, 60));
+		csv.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search");
+				try {
+					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
+				} catch (IOException e1) {
+					LOG.error("", e1);
 				}
 			}
 
-			@Override
-			public void keyPressed(KeyEvent e) {
+		});
+		top.add(csv);
+		header.add(top);
+	}
+	
+	private void searchAction() {
+		LOG.debug("Start search");
+		deleteLabel.setText("");
+		List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		if (CollectionUtils.isNotEmpty(allCompo)) {
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put("artist", artist.getText());
+			criteria.put("titre", titre.getText());
+			if (type.getSelectedItem() != null) {
+				criteria.put("type", type.getSelectedItem().toString());
 			}
-		};
+			criteria.put("publish", publi.getText());
+			criteria.put("fileName", fileName.getText());
+			criteria.put("auteur", author.getText());
+			if (cat.getSelectedItem() != null) {
+				criteria.put("cat", cat.getSelectedItem().toString());
+			}
+			criteria.put("dateB", rangeB.getText());
+			criteria.put("dateE", rangeE.getText());
+
+			compoResult = new ArrayList<>();
+			compoResult.addAll(SearchUtils.searchContains(allCompo, criteria, inFiles.isSelected()));
+			updateTable();
+		}
+		LOG.debug("End search");
 	}
 
 	private void colRenderer() {
@@ -488,7 +408,8 @@ public class SearchPanel extends JPanel {
 		}
 	}
 
-	public void updateTable() {
+	private void updateTable() {
+		LOG.debug("Start updateTable");
 		model.setRowCount(0);
 		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult),
 				new Vector<>(Arrays.asList(title)));
@@ -498,6 +419,116 @@ public class SearchPanel extends JPanel {
 		result.getRowSorter().toggleSortOrder(3);
 		result.getRowSorter().toggleSortOrder(3);
 		result.repaint();
+		selectedRow = -1;
+		LOG.debug("Start updateTable");
+	}
+
+	private void cleanAction() {
+		LOG.debug("Start cleanAction");
+		artist.setText("");
+		titre.setText("");
+		type.setSelectedItem(null);
+		publi.setText("");
+		fileName.setText("");
+		author.setText("");
+		cat.setSelectedItem(null);
+		rangeB.setText("");
+		rangeE.setText("");
+		deleteLabel.setText("");
+		countLabel.setText("");
+		LOG.debug("End cleanAction");
+	}
+
+	private void deleteAction(final ArtistPanel artist2) {
+		LOG.debug("Start delete");
+		List<Object> selected = model.getSelected();
+		deleteLabel.setText(selected.size() + " élément(s) supprimée(s)");
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		for (Object o : selected) {
+			Vector<String> v = (Vector<String>) o;
+			try {
+				Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1),
+						v.get(2));
+				compoResult.remove(compoResult.indexOf(toRemove));
+				importXML.remove(importXML.indexOf(toRemove));
+				CompositionUtils.removeCompositionsInFiles(toRemove);
+			} catch (MyException e1) {
+				LOG.error("Erreur lors de la suppression d'une composition", e1);
+			}
+		}
+		try {
+			ExportXML.exportXML(importXML, "final");
+			artist2.updateArtistPanel();
+		} catch (IOException e1) {
+			LOG.error("Erreur lors de l'export du fichier final", e1);
+			deleteLabel.setText("Erreur lors de l'export du fichier final !!");
+		}
+		updateTable();
+		LOG.debug("End delete");
+	}
+
+	private int shortcutKeyAction(KeyEvent e) {
+		LOG.debug("Start shortcutKeyAction");
+		JTable target = (JTable) e.getSource();
+		String keyChar = String.valueOf(e.getKeyChar());
+		TableModel modelTable = target.getModel();
+		int startRow = selectedRow;
+		if (selectedRow == modelTable.getRowCount() - 1) {
+			startRow = -1;// Go before start
+		}
+		// Check each cell to see if it starts with typed char.
+		// if so set corresponding row selected and return.
+		for (int row = startRow + 1; row < modelTable.getRowCount(); row++) {
+			String value = ((Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
+					target.getRowSorter().convertRowIndexToModel(row))).get(0);
+			if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
+				target.getSelectionModel().clearSelection();
+				target.getColumnModel().getSelectionModel().clearSelection();
+				target.changeSelection(row, 0, true, false);
+				target.setRowSelectionInterval(row, row);
+				LOG.debug("End shortcutKeyAction");
+				return row;
+			}
+		}
+		LOG.debug("End shortcutKeyAction, no result");
+		return -1;
+	}
+
+	private void mouseAction(MouseEvent e) {
+		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+			LOG.debug("Start result mouse");
+			// Ouvre une popup pour afficher les fichiers de la
+			// composition sélectionnée
+			JTable target = (JTable) e.getSource();
+			Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
+					target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+			List<Fichier> files;
+			try {
+				files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(0), v.get(1), v.get(2))
+						.getFiles();
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files,
+						new Dimension(1500, 400));
+				pop.showDialogFileTable();
+			} catch (MyException e1) {
+				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
+			}
+			LOG.debug("End result mouse");
+		} else if (SwingUtilities.isRightMouseButton(e)) {
+			LOG.debug("Start right mouse");
+			// Copie dans le clipboard l'artist et l'oeuvre
+			JTable target = (JTable) e.getSource();
+			int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target,
+					new Point(e.getX(), e.getY()), target));
+			if (rowAtPoint > -1) {
+				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+			}
+			Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
+					target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+			StringSelection selection = new StringSelection(v.get(0) + " " + v.get(1));
+			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+			clipboard.setContents(selection, selection);
+			LOG.debug("End right mouse");
+		}
 	}
 
 }
