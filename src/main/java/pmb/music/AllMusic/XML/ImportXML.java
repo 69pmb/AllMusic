@@ -26,18 +26,21 @@ import pmb.music.AllMusic.utils.Constant;
 public final class ImportXML {
 
 	private static final Logger LOG = Logger.getLogger(ImportXML.class);
+	
+	private ImportXML() {}
 
-	private static volatile ImportXML importXML = null;
-
-	private static List<Composition> compoList = new ArrayList<>();
-
+	/**
+	 * Import le fichier donné et extrait les {@link Composition}.
+	 * @param uri {@link String} le chemin absolu du fichier
+	 * @return les compos extraites
+	 */
 	public static List<Composition> importXML(String uri) {
 		SAXParserFactory fabrique = SAXParserFactory.newInstance();
 		SAXParser parseur = null;
 		try {
 			parseur = fabrique.newSAXParser();
 		} catch (ParserConfigurationException | SAXException e) {
-			LOG.error("", e);
+			LOG.error("Erreur lors de la création du parseur", e);
 		}
 
 		File fichier = new File(uri);
@@ -46,42 +49,11 @@ public final class ImportXML {
 			try {
 				parseur.parse(fichier, handler);
 			} catch (SAXException | IOException e) {
-				LOG.error("", e);
+				LOG.error("Erreur lors de la lecture du fichier", e);
+				LOG.error(uri);
 			}
 		}
 		return handler.getCompoList();
-	}
-
-	public final static ImportXML getInstance(String fileName) {
-		LOG.debug("Start getInstance");
-		// Le "Double-Checked Singleton"/"Singleton doublement vérifié" permet
-		// d'éviter un appel coûteux à synchronized,
-		// une fois que l'instanciation est faite.
-		if (ImportXML.importXML == null) {
-			// Le mot-clé synchronized sur ce bloc empêche toute instanciation
-			// multiple même par différents "threads".
-			// Il est TRES important.
-			synchronized (ImportXML.class) {
-				if (ImportXML.importXML == null) {
-					ImportXML.importXML = new ImportXML(fileName);
-				}
-			}
-		}
-		// CompositionUtils.printCompoList(ImportXML.importXML.compoList);
-		LOG.debug("End getInstance");
-		return ImportXML.importXML;
-	}
-
-	private ImportXML(String file) {
-		super();
-		ImportXML.importXML(file);
-	}
-
-	public static List<Composition> getAllCompo(String fileName) {
-		if (compoList.isEmpty()) {
-			getInstance(fileName);
-		}
-		return compoList;
 	}
 
 	/**
