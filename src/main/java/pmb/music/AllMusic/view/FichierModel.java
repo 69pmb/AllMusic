@@ -7,10 +7,6 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
-/**
- * @author i2113mj
- *
- */
 public class FichierModel extends DefaultTableModel {
 
     private static final long serialVersionUID = 1L;
@@ -32,9 +28,7 @@ public class FichierModel extends DefaultTableModel {
     @SuppressWarnings({ "unchecked", "rawtypes" })
     @Override
     public Class getColumnClass(int col) {
-        if (col < 2 || col == 8 || col == 3 || col == 4) {
-            return String.class;
-        } else if (col == 2 || col == 6 || col == 7) {
+        if (col == 2 || col == 6 || col == 7) {
             return Integer.class;
         } else {
             return String.class;
@@ -59,10 +53,5 @@ public class FichierModel extends DefaultTableModel {
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
         return ((Vector) this.getDataVector().elementAt(rowIndex)).elementAt(columnIndex);
-    }
-
-    @Override
-    public void setValueAt(Object aValue, int row, int column) {
-        super.setValueAt(aValue, row, column);
     }
 }
