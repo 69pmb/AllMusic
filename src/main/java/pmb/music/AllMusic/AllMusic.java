@@ -1,8 +1,5 @@
 package pmb.music.AllMusic;
 
-import java.awt.Dimension;
-import java.awt.Toolkit;
-
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.UIManager;
@@ -19,6 +16,8 @@ import pmb.music.AllMusic.view.BasicFrame;
 public class AllMusic {
 
 	private static final Logger LOG = Logger.getLogger(AllMusic.class);
+	
+	private AllMusic(){}
 	
 	/**
 	 * La méthode d'entrée du programme.
@@ -43,9 +42,6 @@ public class AllMusic {
 		final BasicFrame f = new BasicFrame();
 		JFrame.setDefaultLookAndFeelDecorated(true);
 		JDialog.setDefaultLookAndFeelDecorated(true);
-		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-		dim.height = 19 * dim.height / 20;
-		// f.setPreferredSize(dim);
 		f.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		try {
 			f.setLocation(null);
