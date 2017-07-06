@@ -30,13 +30,7 @@ public class AllMusic {
 
 			@Override
 			public void run() {
-				// try {
-				// ExportXML.exportXML(ImportXML.getAllCompo(FINAL_FILE_PATH),
-				// "final");
-				// } catch (NullPointerException e) {
-				// } catch (Exception e) {
-				// LOG.error("", e);
-				// }
+				// Si je veux ajouter un traitement qui se lance quand l'appli se ferme
 			}
 		}));
 		try {
