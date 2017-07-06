@@ -55,7 +55,12 @@ public class ArtistPanel extends JPanel {
 	private List<Composition> list;
 
 	private static final String[] title = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
+	
+	private int selectedRow = -1;
 
+	/**
+	 * Génère le panel artiste.
+	 */
 	public ArtistPanel() {
 		super();
 		table = new JTable();
@@ -83,10 +88,9 @@ public class ArtistPanel extends JPanel {
 
 		table.addKeyListener(new KeyListener() {
 
-			private int selectedRow = -1;// before start
-
 			@Override
 			public void keyTyped(KeyEvent e) {
+				// Nothing to do
 			}
 
 			@SuppressWarnings("unchecked")
@@ -97,6 +101,7 @@ public class ArtistPanel extends JPanel {
 
 			@Override
 			public void keyPressed(KeyEvent e) {
+				// Nothing to do
 			}
 		});
 
@@ -104,6 +109,9 @@ public class ArtistPanel extends JPanel {
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
 	}
 
+	/**
+	 *  Met à jour le panel artiste à l'aide du fichier final.
+	 */
 	public void updateArtistPanel() {
 		LOG.debug("Start updateArtistPanel");
 		model.setRowCount(0);
@@ -114,6 +122,7 @@ public class ArtistPanel extends JPanel {
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
 		table.repaint();
+		selectedRow = -1;
 		LOG.debug("End updateArtistPanel");
 	}
 
