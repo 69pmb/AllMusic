@@ -19,10 +19,6 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 
-/**
- * @author i2113mj
- * 
- */
 public class CompoHandler extends DefaultHandler {
 
 	private static final Logger LOG = Logger.getLogger(CompoHandler.class);
