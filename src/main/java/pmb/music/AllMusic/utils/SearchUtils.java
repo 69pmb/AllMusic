@@ -19,8 +19,6 @@ import pmb.music.AllMusic.model.RecordType;
 /**
  * Contient les méthodes de recherche dans une liste de {@link Composition} avec
  * des critères de recherche.
- * 
- * @author i2113mj
  */
 public class SearchUtils {
 
