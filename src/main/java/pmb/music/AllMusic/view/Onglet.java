@@ -13,14 +13,17 @@ import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 
 /**
- * @author i2113mj
- *
+ * Classe gérant les onglet de l'appli.
  */
 public class Onglet extends JPanel {
     private static final long serialVersionUID = -7235352581168930316L;
     private JTabbedPane onglets;
     private static int index;
 
+    /**
+     * Génère les onglets
+     * @param myFrame la fenetre principale
+     */
     public Onglet(final BasicFrame myFrame) {
         onglets = new JTabbedPane(SwingConstants.TOP);
         final JPanel pannel = new JPanel();
@@ -29,16 +32,10 @@ public class Onglet extends JPanel {
         dim.width = 98 * dim.width / 100;
         onglets.setPreferredSize(dim);
 
-//        Table=new TableTool();
-//        Table.drawTable();  
-//        final JScrollPane scrollPane = new JScrollPane(Table.getTable());
-        // scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
-
         ArtistPanel artist = new ArtistPanel();
         ImportPanel importFile = new ImportPanel(artist);
         SearchPanel search = new SearchPanel(artist);
         
-//        scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         onglets.addTab("Import", importFile);
         onglets.setMnemonicAt(0, KeyEvent.VK_1);
         onglets.addTab("Rechercher", search);
@@ -54,10 +51,10 @@ public class Onglet extends JPanel {
     }
     
     /**
-     * Raffraichi un onglet
-     * @param title le titre de l'onglet à raffraichier
+     * Rafraichi un onglet.
+     * @param title le titre de l'onglet à rafraichir
      * @param onglets le conteneur de tous les onglets
-     * @param ongletToRedraw l'onglet à raffraichir
+     * @param ongletToRedraw l'onglet à rafraichir
      */
     public static void redrawTab(String title, JTabbedPane onglets, JPanel ongletToRedraw) {
         if (!isTabAlreadyExists(onglets, title)) {
@@ -68,7 +65,7 @@ public class Onglet extends JPanel {
         }
     }
     
-    public static boolean isTabAlreadyExists(JTabbedPane onglets, String title) {
+    private static boolean isTabAlreadyExists(JTabbedPane onglets, String title) {
         boolean isTabExists = false;
         for (int i = 0; i < onglets.getTabCount(); i++) {
             if (title.equals(onglets.getTitleAt(i))) {
