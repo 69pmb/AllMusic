@@ -6,10 +6,6 @@ package pmb.music.AllMusic.model;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * @author i2113mj
- *
- */
 public class Fichier implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
@@ -53,6 +49,7 @@ public class Fichier implements Serializable {
 	}
 
 	public Fichier() {
+		// Nothing to do
 	}
 
 	/**
