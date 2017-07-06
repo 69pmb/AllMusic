@@ -8,10 +8,6 @@ import java.util.List;
 
 import org.apache.commons.collections.CollectionUtils;
 
-/**
- * @author i2113mj
- *
- */
 public class Composition implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String artist;
@@ -35,6 +31,7 @@ public class Composition implements Serializable {
 	}
 
 	public Composition() {
+		// Nothing to do
 	}
 
 	/**
