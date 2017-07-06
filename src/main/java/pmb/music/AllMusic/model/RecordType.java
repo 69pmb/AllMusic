@@ -3,10 +3,6 @@
  */
 package pmb.music.AllMusic.model;
 
-/**
- * @author i2113mj
- *
- */
 public enum RecordType {
     SONG("SONG"),
     ALBUM("ALBUM"),
