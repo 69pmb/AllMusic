@@ -9,10 +9,6 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
-/**
- * @author i2113mj
- *
- */
 public class CompoModel extends DefaultTableModel {
 
     private static final long serialVersionUID = 1L;
@@ -68,10 +64,5 @@ public class CompoModel extends DefaultTableModel {
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
         return ((Vector) this.getDataVector().elementAt(rowIndex)).elementAt(columnIndex);
-    }
-
-    @Override
-    public void setValueAt(Object aValue, int row, int column) {
-        super.setValueAt(aValue, row, column);
     }
 }
