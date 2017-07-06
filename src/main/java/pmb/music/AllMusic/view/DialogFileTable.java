@@ -34,10 +34,6 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 
-/**
- * @author i2113mj
- * 
- */
 public class DialogFileTable extends JDialog {
 
 	private static final long serialVersionUID = 1304786661370052913L;
@@ -46,7 +42,7 @@ public class DialogFileTable extends JDialog {
 
 	private List<Fichier> files = new ArrayList<>();
 
-	private static final String title[] = { "Auteur", "Nom du fichier", "Date de publication", "Categorie", "Dates",
+	private static final String[] title = { "Auteur", "Nom du fichier", "Date de publication", "Categorie", "Dates",
 			"Date de création", "Taille", "Classement", "Classé" };
 
 	private JTable fichiers;
