@@ -23,8 +23,6 @@ import pmb.music.AllMusic.model.Fichier;
 
 /**
  * Classe utilitaire pour la gestion des {@link Fichier}.
- * 
- * @author i2113mj
  */
 public class FichierUtils {
 
