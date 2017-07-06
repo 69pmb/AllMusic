@@ -11,11 +11,23 @@ import com.opencsv.CSVWriter;
 
 import pmb.music.AllMusic.utils.Constant;
 
+/**
+ * Classe pour les fichiers csv.
+ * @author pmbroca
+ */
 public class CsvFile {
 
 	private static final Logger LOG = Logger.getLogger(CsvFile.class);
+	
+	private CsvFile() {}
 
-	public static String writeCsv(Vector<Vector<Object>> dataVector, String filename) {
+	/**
+	 * Crée un fichier {@code CSV} à partir des résultats de recherche.
+	 * @param dataVector les données issues d'une recherche
+	 * @param filename le nom du fichier csv
+	 * @return  le nom du fichier
+	 */
+	public static String writeCsvFromSearchResult(Vector<Vector<Object>> dataVector, String filename) {
 		LOG.debug("Start writeCsv");
 		String name = filename + Constant.CSV_EXTENSION;
 		try (CSVWriter csvWriter = new CSVWriter(new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING),
