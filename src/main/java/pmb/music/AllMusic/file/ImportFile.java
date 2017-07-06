@@ -166,8 +166,6 @@ public class ImportFile {
 					composition.setArtist(removeParenthese(result, line, lineNb, composition.getArtist()));
 				}
 
-				// composition.setArtist(StringUtils.stripAccents(composition.getArtist()));
-				// composition.setTitre(StringUtils.stripAccents(composition.getTitre()));
 				compoList.add(composition);
 				i++;
 			}
@@ -396,9 +394,6 @@ public class ImportFile {
 			file.setRangeDateBegin(Integer.parseInt(date.get(0)));
 			file.setRangeDateEnd(Integer.parseInt(date.get(1)));
 		} else {
-			// Calendar cal = new GregorianCalendar();
-			// file.setRangeDateBegin(cal.get(Calendar.Constant.YEAR));
-			// file.setRangeDateEnd(cal.get(Calendar.Constant.YEAR));
 			file.setRangeDateBegin(0);
 			file.setRangeDateEnd(0);
 		}
