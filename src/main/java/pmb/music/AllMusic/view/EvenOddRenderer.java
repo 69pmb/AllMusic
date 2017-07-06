@@ -11,10 +11,6 @@ import javax.swing.border.MatteBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableCellRenderer;
 
-/**
- * @author i2113mj
- *
- */
 public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCellRenderer {
 
     private static final long serialVersionUID = 7366600520755781512L;
