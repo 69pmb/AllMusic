@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 /**
  * Classe de constances.
- * @author i2113mj
+ * @author pmbroca
  */
 public class Constant {
 
@@ -21,7 +21,7 @@ public class Constant {
 	 * Chemin du pgm.
 	 */
 	public static final String USER_DIR = System.getProperty("user.dir");
-	
+
 	/**
 	 * Chemin absolu du dossier ressources.
 	 */
@@ -40,10 +40,10 @@ public class Constant {
 	/**
 	 * Chemin abs du dossier contenant les fichiers txt des classements.
 	 */
-	public static final String MUSIC_ABS_DIRECTORY = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music")+ "\\";
-	
+	public static final String MUSIC_ABS_DIRECTORY = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music") + "\\";
+
 	public static final String EXCEL_PATH = GetProperties.getProperty("excel") + " ";
-	
+
 	public static final String NOTEPAD_PATH = GetProperties.getProperty("notepad") + " ";
 
 	public static final String ANSI_ENCODING = "Cp1252";
@@ -67,6 +67,12 @@ public class Constant {
 	public static final SimpleDateFormat SDF_DTTM = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
 	public static final SimpleDateFormat SDF_HISTORY = new SimpleDateFormat("dd-MM-yyyy HH-mm");
+
+	public static final String ONGLET_IMPORT = "Import";
+	
+	public static final String ONGLET_ARTIST = "Artiste";
+	
+	public static final String ONGLET_SEARCH = "Rechercher";
 
 	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
 
