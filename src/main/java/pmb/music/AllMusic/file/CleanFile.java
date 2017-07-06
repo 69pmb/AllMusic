@@ -19,13 +19,25 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.Constant;
 
+/**
+ * Classe pour nettoyer des fichiers.
+ * @author pmbroca
+ */
 public class CleanFile {
 
 	private static final Logger LOG = Logger.getLogger(CleanFile.class);
 
-	private CleanFile() {
-	};
+	private CleanFile() {}
 
+	/**
+	 * Supprime toutes les lignes du fichier ne contenant pas des séparateurs, possibilité de supprimer dans ces lignes des caractères particuliers.
+	 * @param file le fichier à nettoyer
+	 * @param isSorted si le fichier est trié
+	 * @param sep le séparateur du fichier
+	 * @param characterToRemove les caractères à supprimer
+	 * @return un nouveau fichier nettoyé
+	 * @throws IOException 
+	 */
 	public static File clearFile(File file, boolean isSorted, String sep, String characterToRemove) throws IOException {
 		LOG.debug("Start clearFile");
 		List<String> sepAsList = new LinkedList<>(Arrays.asList(Constant.SEPARATORS));
@@ -77,26 +89,21 @@ public class CleanFile {
 		return isDigit;
 	}
 
+	/**
+	 * Nettoyage à lancer à la main.
+	 * @param args 
+	 */
 	public static void main(String[] args) {
 		LOG.debug("Start clearFile");
 		File file = new File(Constant.FINAL_FILE_PATH);
-		// List<String> sepAsList = new
-		// LinkedList<>(Arrays.asList(Constant.SEPARATORS));
 		String line = "";
-		String exitFile = file.getParentFile().getAbsolutePath() + "\\"
-				+ StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
+		String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
 				+ StringUtils.substringAfterLast(file.getName(), ".");
 
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file),
-				Constant.UTF8_ENCODING));
-				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile),
-						Constant.UTF8_ENCODING));) {
-			if (writer != null) {
-				while ((line = br.readLine()) != null) {
-					writer.append(
-							Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", ""))
-							.append("\n");
-				}
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.UTF8_ENCODING));
+				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.UTF8_ENCODING));) {
+			while ((line = br.readLine()) != null) {
+				writer.append(Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "")).append("\n");
 			}
 		} catch (IOException e) {
 			LOG.error("", e);
