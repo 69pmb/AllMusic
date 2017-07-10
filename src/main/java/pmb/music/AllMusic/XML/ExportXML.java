@@ -30,6 +30,8 @@ import pmb.music.AllMusic.utils.FichierUtils;
 public class ExportXML {
 
 	private static final Logger LOG = Logger.getLogger(ExportXML.class);
+	
+	private ExportXML(){}
 
 	/**
 	 * COnverti en XML la liste de composition puis sauvegarde dans un fichier.
@@ -61,7 +63,7 @@ public class ExportXML {
 				file.addAttribute("sorted", String.valueOf(compList.get(i).getFiles().get(j).getSorted()));
 				file.addAttribute("classement", String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
 				file.addAttribute("creationDate",
-						Constant.SDF_DTTM.format(compList.get(i).getFiles().get(j).getCreationDate()));
+						new Constant().getSdfDttm().format(compList.get(i).getFiles().get(j).getCreationDate()));
 				file.addAttribute("size", String.valueOf(compList.get(i).getFiles().get(j).getSize()));
 			}
 		}
@@ -78,8 +80,8 @@ public class ExportXML {
 	 * @throws UnsupportedEncodingException
 	 * @throws IOException
 	 */
-	private static void saveFile(String fileName, Document doc) throws FileNotFoundException,
-			UnsupportedEncodingException, IOException {
+	private static void saveFile(String fileName, Document doc) throws IOException {
+		LOG.debug("Start saveFile");
 		// Création du dossier resources
 		String nomDir = "src\\main\\resources\\";
 		FichierUtils.createFolderIfNotExists(nomDir);
@@ -102,6 +104,7 @@ public class ExportXML {
 		XMLWriter xmlOut = new XMLWriter(fos, format);
 		xmlOut.write(doc);
 		xmlOut.close();
+		LOG.debug("End saveFile");
 	}
 
 	/**
@@ -111,6 +114,6 @@ public class ExportXML {
 	private static String dateNow() {
 		Calendar greg = new GregorianCalendar();
 		Date date = greg.getTime();
-		return Constant.SDF_HISTORY.format(date);
+		return new Constant().getSdfHistory().format(date);
 	}
 }
