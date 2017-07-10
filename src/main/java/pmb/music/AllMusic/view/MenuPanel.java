@@ -17,11 +17,19 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.Constant;
 
+/**
+ * Classe pour le menu de l'application.
+ * @author pmbroca
+ */
 public class MenuPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 	private BasicFrame myFrame;
 	private static final Logger LOG = Logger.getLogger(MenuPanel.class);
 
+	/**
+	 * Instentiation du menu.
+	 * @param myFrame
+	 */
 	public MenuPanel(final BasicFrame myFrame) {
 		this.myFrame = myFrame;
 		initComponents();
@@ -41,6 +49,10 @@ public class MenuPanel extends JPanel {
 		myFrame.getContentPane().add(menu, BorderLayout.NORTH);
 	}
 
+	/**
+	 * Création de la barre de menu. 
+	 * @return le {@link JMenuBar} crée
+	 */
 	public JMenuBar menuBar() {
 		final JMenuBar menuBar = new JMenuBar();
 		
