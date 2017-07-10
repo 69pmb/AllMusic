@@ -50,7 +50,7 @@ public class FichierUtils {
 			v.addElement(f.getPublishYear());
 			v.addElement(f.getCategorie().toString());
 			v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
-			v.addElement(Constant.SDF_DTTM.format(f.getCreationDate()));
+			v.addElement(new Constant().getSdfDttm().format(f.getCreationDate()));
 			v.addElement(f.getSize());
 			v.addElement(f.getClassement());
 			v.addElement(f.getSorted().toString().toUpperCase());
@@ -92,7 +92,7 @@ public class FichierUtils {
 				list.put(nomFichier, new ArrayList<Date>());
 			}
 			try {
-				list.get(nomFichier).add(Constant.SDF_HISTORY.parse(date));
+				list.get(nomFichier).add(new Constant().getSdfHistory().parse(date));
 			} catch (ParseException e) {
 				LOG.error("Erreur lors du parsing d'une date", e);
 			}
@@ -105,7 +105,7 @@ public class FichierUtils {
 			String path = Constant.HISTORY_PATH + "//" + key + Constant.SEPARATOR_DATE_HISTORY;
 			// Suppression des fichiers sauf du 1er
 			for (int i = 1; i < list.get(key).size(); i++) {
-				String toDelete = path + Constant.SDF_HISTORY.format(list.get(key).get(i)) + Constant.XML_EXTENSION;
+				String toDelete = path + new Constant().getSdfHistory().format(list.get(key).get(i)) + Constant.XML_EXTENSION;
 				if (!new File(toDelete).delete()) {
 					LOG.debug(toDelete + " n'a pas pu etre supprimé");
 				}
