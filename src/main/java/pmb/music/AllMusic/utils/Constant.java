@@ -8,6 +8,7 @@ import java.util.regex.Pattern;
 
 /**
  * Classe de constances.
+ * 
  */
 public class Constant {
 
@@ -59,18 +60,18 @@ public class Constant {
 
 	public static final String CSV_EXTENSION = ".csv";
 
-	public static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
+	private static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
 
 	public static final String DEFAULT_TITLE = "AllMusic";
 
-	public static final SimpleDateFormat SDF_DTTM = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+	private SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
-	public static final SimpleDateFormat SDF_HISTORY = new SimpleDateFormat("dd-MM-yyyy HH-mm");
+	private SimpleDateFormat sdfHistory = new SimpleDateFormat("dd-MM-yyyy HH-mm");
 
 	public static final String ONGLET_IMPORT = "Import";
-	
+
 	public static final String ONGLET_ARTIST = "Artiste";
-	
+
 	public static final String ONGLET_SEARCH = "Rechercher";
 
 	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
@@ -119,6 +120,19 @@ public class Constant {
 
 	public static final Pattern PATTERN_SIZE = Pattern.compile(SIZE);
 
-	private Constant() {
+	public Constant() {
+		// Nothing to do
+	}
+
+	public SimpleDateFormat getSdfDttm() {
+		return sdfDttm;
+	}
+
+	public SimpleDateFormat getSdfHistory() {
+		return sdfHistory;
+	}
+
+	public static String[] getSeparators() {
+		return SEPARATORS;
 	}
 }
