@@ -102,7 +102,7 @@ public class FichierUtils {
 		for (String key : keySet) {
 			// Tri des dates, la plus récente en 1er
 			Collections.sort(list.get(key), Collections.reverseOrder());
-			String path = Constant.HISTORY_PATH + "//" + key + Constant.SEPARATOR_DATE_HISTORY;
+			String path = Constant.HISTORY_PATH + key + Constant.SEPARATOR_DATE_HISTORY;
 			// Suppression des fichiers sauf du 1er
 			for (int i = 1; i < list.get(key).size(); i++) {
 				String toDelete = path + new Constant().getSdfHistory().format(list.get(key).get(i)) + Constant.XML_EXTENSION;
