@@ -4122,6 +4122,18 @@
   <Composition artist="James Brown" titre="Live at the Apollo (1963)" type="ALBUM">
     <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="24" creationDate="25/01/2017 10:01:41" size="500"/>
   </Composition>
+  <Composition artist="Fleetwood Mac" titre="Rumours" type="ALBUM">
+    <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="25" creationDate="25/01/2017 10:01:41" size="500"/>
+    <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="41" creationDate="25/01/2017 10:01:38" size="100"/>
+    <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="303" creationDate="25/01/2017 10:01:31" size="1000"/>
+    <File author="Q" fileName="Q Magazines 50 Best Albums Of The 70s - 1998" publishYear="1998" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="50"/>
+    <File author="Q" fileName="Q readers 100 Greatest Albums Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="48" creationDate="25/01/2017 10:01:40" size="100"/>
+    <File author="Q" fileName="Q Readers All Time Top 100 Albums - 1998" publishYear="1998" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1998" sorted="true" classement="25" creationDate="25/01/2017 10:01:40" size="100"/>
+    <File author="Q" fileName="Q Readers Best Albums Ever 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="68" creationDate="25/01/2017 10:01:40" size="100"/>
+    <File author="Rolling Stone" fileName="Rolling Stone Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="43" creationDate="25/01/2017 10:01:41" size="100"/>
+    <File author="Rolling Stone" fileName="Rolling Stone Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="72" creationDate="02/07/2017 07:08:56" size="100"/>
+    <File author="Uncut" fileName="Uncut 200 Greatest Albums Of All Time" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="63" creationDate="25/01/2017 10:01:42" size="200"/>
+  </Composition>
   <Composition artist="Robert Johnson" titre="King of the Delta Blues Singers, Vol. 1" type="ALBUM">
     <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="27" creationDate="25/01/2017 10:01:41" size="500"/>
   </Composition>
