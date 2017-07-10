@@ -26,53 +26,58 @@ public class CleanFile {
 
 	private static final Logger LOG = Logger.getLogger(CleanFile.class);
 
-	private CleanFile() {}
+	private CleanFile() {
+	}
 
 	/**
-	 * Supprime toutes les lignes du fichier ne contenant pas des séparateurs, possibilité de supprimer dans ces lignes des caractères particuliers.
+	 * Supprime toutes les lignes du fichier ne contenant pas des séparateurs,
+	 * possibilité de supprimer dans ces lignes des caractères particuliers.
 	 * @param file le fichier à nettoyer
 	 * @param isSorted si le fichier est trié
 	 * @param sep le séparateur du fichier
 	 * @param characterToRemove les caractères à supprimer
 	 * @return un nouveau fichier nettoyé
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	public static File clearFile(File file, boolean isSorted, String sep, String characterToRemove) throws IOException {
 		LOG.debug("Start clearFile");
-		List<String> sepAsList = new LinkedList<>(Arrays.asList(Constant.SEPARATORS));
+		List<String> sepAsList = new LinkedList<>(Arrays.asList(Constant.getSeparators()));
 		if (StringUtils.isNotBlank(sep)) {
 			sepAsList.add(sep);
 		}
 		String line = "";
-		String exitFile = file.getParentFile().getAbsolutePath() + "\\"
-				+ StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
+		String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
 				+ StringUtils.substringAfterLast(file.getName(), ".");
 
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file),
-				Constant.ANSI_ENCODING));
-				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile),
-						Constant.ANSI_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
+				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
 			while ((line = br.readLine()) != null) {
 				boolean isDigit = true;
 				if (isSorted) {
 					isDigit = isBeginByDigit(line);
 				}
 				if (isDigit) {
-					for (String separator : sepAsList) {
-						if (StringUtils.containsIgnoreCase(line, separator)) {
-							if (StringUtils.isNotBlank(characterToRemove)) {
-								line = StringUtils.substringAfter(line, characterToRemove);
-							}
-							writer.append(line).append("\n");
-							break;
-						}
-					}
+					writesLineIfContainsSepAndRemovesChar(characterToRemove, sepAsList, line, writer);
 				}
 			}
 			writer.flush();
 		}
 		LOG.debug("End clearFile");
 		return new File(exitFile);
+	}
+
+	private static void writesLineIfContainsSepAndRemovesChar(String characterToRemove, List<String> sepAsList, String line, BufferedWriter writer)
+			throws IOException {
+		String newLine = line;
+		for (String separator : sepAsList) {
+			if (StringUtils.containsIgnoreCase(line, separator)) {
+				if (StringUtils.isNotBlank(characterToRemove)) {
+					newLine = StringUtils.substringAfter(newLine, characterToRemove);
+				}
+				writer.append(newLine).append("\n");
+				break;
+			}
+		}
 	}
 
 	private static boolean isBeginByDigit(String line) {
@@ -90,7 +95,7 @@ public class CleanFile {
 
 	/**
 	 * Nettoyage à lancer à la main.
-	 * @param args 
+	 * @param args
 	 */
 	public static void main(String[] args) {
 		LOG.debug("Start clearFile");
