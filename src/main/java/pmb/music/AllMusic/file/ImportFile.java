@@ -32,6 +32,7 @@ import pmb.music.AllMusic.utils.MyException;
 
 /**
  * Classe permettant l'import de fichiers.
+ * 
  */
 public class ImportFile {
 
@@ -39,10 +40,12 @@ public class ImportFile {
 
 	private static final Logger LOG = Logger.getLogger(ImportFile.class);
 
-	private ImportFile() {}
+	private ImportFile() {
+	}
 
 	/**
-	 * Convertit un fichier {@link File} en {@link Fichier}. 
+	 * Convertit un fichier {@link File} en {@link Fichier}.
+	 * 
 	 * @param file le fichier à convertir
 	 * @return le fichier convertit
 	 */
@@ -66,107 +69,32 @@ public class ImportFile {
 
 	/**
 	 * Récupère les compositions d'un fichier txt.
+	 * 
 	 * @param file {@link File} contenant les compos
 	 * @param fichier {@link Fichier} contenant des infos récupérées précédemment
 	 * @param type {@link RecordType} chanson ou album
 	 * @param separator {@link String} le séparateur entre l'artiste et le titre
 	 * @param result {@code List<String>} le message qui sera affiché à la fin du traitement
 	 * @param artistFirst si l'artiste est en 1er
-	 * @param reverseArtist si l'artiste est par exemple: {@literal Beatles, The} et doit etre retourné 
+	 * @param reverseArtist si l'artiste est par exemple: {@literal Beatles, The} et doit etre retourné
 	 * @param parenthese si des parenthèse sont à supprimer à la fin de chaque ligne
 	 * @param upper si il n'y a pas de séparateur mais que l'artiste est en majuscule et pas le titre
 	 * @param removeAfter si plusieurs séparateurs, supprimer après le dernier
 	 * @return {@code List<Composition>} la liste de compos extraite du fichier
-	 * @throws MyException 
+	 * @throws MyException
 	 */
-	public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type,
-			String separator, List<String> result, boolean artistFirst, boolean reverseArtist, boolean parenthese,
-			boolean upper, boolean removeAfter) throws MyException {
+	public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type, String separator, List<String> result,
+			boolean artistFirst, boolean reverseArtist, boolean parenthese, boolean upper, boolean removeAfter) throws MyException {
 		LOG.debug("Start getCompositionsFromFile");
 		List<Composition> compoList = new ArrayList<>();
 		String line = "";
 		int i = 1;
 		int lineNb = 1;
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file),
-				Constant.ANSI_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			while ((line = br.readLine()) != null) {
 				lineNb++;
-				if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, "#")) {
-					continue;
-				}
-
-				if (removeAfter) {
-					line = StringUtils.substringBeforeLast(line, separator);
-				}
-
-				// Reconnaissance du titre et de l'artiste
-				String artist;
-				String titre = "";
-				if (!upper) {
-					String[] split = splitLineWithSeparator(line, separator, result, lineNb);
-					titre = StringUtils.trim(split[1]);
-					artist = StringUtils.trim(split[0]);
-				} else {
-					char[] array = line.toCharArray();
-					int cut = 0;
-					for (int k = 0; k < array.length; k++) {
-						if (!Character.isUpperCase(array[k]) && Character.isAlphabetic(array[k])) {
-							cut = k - 1;
-							break;
-						}
-					}
-					artist = StringUtils.trim(StringUtils.substring(line, 0, cut));
-					titre = StringUtils.trim(StringUtils.substring(line, cut));
-				}
-
-				Composition composition = new Composition();
-				List<Fichier> files = new ArrayList<>();
-				composition.setFiles(files);
-				composition.setTitre(titre);
-				int rank = 0;
-				if (fichier.getSorted()) {
-					String res = StringUtils.trim(StringUtils.substringBefore(artist, "."));
-					if (StringUtils.isNumeric(res)) {
-						rank = Integer.parseInt(res);
-						artist = StringUtils.substringAfter(artist, ".");
-					} else {
-						res = artist.split(" ")[0];
-						rank = parseStringToInt(res);
-						artist = StringUtils.substringAfterLast(artist, res);
-					}
-				} else {
-					rank = i;
-				}
-				Fichier fich = new Fichier(fichier);
-				fich.setClassement(rank);
-				files.add(fich);
-
-				composition.setArtist(StringUtils.trim(artist));
-				composition.setRecordType(type);
-
-				if (!artistFirst) {
-					String artist2 = composition.getArtist();
-					composition.setArtist(composition.getTitre());
-					composition.setTitre(artist2);
-				}
-
-				if (reverseArtist) {
-					String[] arrayArtist = composition.getArtist().split(",");
-					if (arrayArtist.length == 2) {
-						artist = StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0]);
-						composition.setArtist(StringUtils.trim(artist));
-					}
-				}
-				composition.setArtist(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""),
-						"\""));
-				composition
-						.setTitre(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(), "\""), "\""));
-				if (parenthese) {
-					composition.setTitre(removeParenthese(result, line, lineNb, composition.getTitre()));
-					composition.setArtist(removeParenthese(result, line, lineNb, composition.getArtist()));
-				}
-
-				compoList.add(composition);
+				getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter, upper, reverseArtist, parenthese, lineNb,
+						i);
 				i++;
 			}
 		} catch (NumberFormatException | IOException e1) {
@@ -177,17 +105,98 @@ public class ImportFile {
 		return compoList;
 	}
 
+	private static void getCompositionFromOneLine(List<Composition> compoList, Fichier fichier, String entryLine, String separator, List<String> result,
+			RecordType type, boolean artistFirst, boolean removeAfter, boolean upper, boolean reverseArtist, boolean parenthese, int lineNb, int i)
+			throws MyException {
+		String line = entryLine;
+		if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, "#")) {
+			return;
+		}
+
+		if (removeAfter) {
+			line = StringUtils.substringBeforeLast(line, separator);
+		}
+
+		// Reconnaissance du titre et de l'artiste
+		String artist;
+		String titre;
+		if (!upper) {
+			String[] split = splitLineWithSeparator(line, separator, result, lineNb);
+			titre = StringUtils.trim(split[1]);
+			artist = StringUtils.trim(split[0]);
+		} else {
+			char[] array = line.toCharArray();
+			int cut = 0;
+			for (int k = 0; k < array.length; k++) {
+				if (!Character.isUpperCase(array[k]) && Character.isAlphabetic(array[k])) {
+					cut = k - 1;
+					break;
+				}
+			}
+			artist = StringUtils.trim(StringUtils.substring(line, 0, cut));
+			titre = StringUtils.trim(StringUtils.substring(line, cut));
+		}
+
+		Composition composition = new Composition();
+		List<Fichier> files = new ArrayList<>();
+		composition.setFiles(files);
+		composition.setTitre(titre);
+		int rank;
+		if (fichier.getSorted()) {
+			String res = StringUtils.trim(StringUtils.substringBefore(artist, "."));
+			if (StringUtils.isNumeric(res)) {
+				rank = Integer.parseInt(res);
+				artist = StringUtils.substringAfter(artist, ".");
+			} else {
+				res = artist.split(" ")[0];
+				rank = parseStringToInt(res);
+				artist = StringUtils.substringAfterLast(artist, res);
+			}
+		} else {
+			rank = i;
+		}
+		Fichier fich = new Fichier(fichier);
+		fich.setClassement(rank);
+		files.add(fich);
+
+		composition.setArtist(StringUtils.trim(artist));
+		composition.setRecordType(type);
+
+		if (!artistFirst) {
+			String artist2 = composition.getArtist();
+			composition.setArtist(composition.getTitre());
+			composition.setTitre(artist2);
+		}
+
+		if (reverseArtist) {
+			String[] arrayArtist = composition.getArtist().split(",");
+			if (arrayArtist.length == 2) {
+				artist = StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0]);
+				composition.setArtist(StringUtils.trim(artist));
+			}
+		}
+		composition.setArtist(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""), "\""));
+		composition.setTitre(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(), "\""), "\""));
+		if (parenthese) {
+			composition.setTitre(removeParenthese(result, line, lineNb, composition.getTitre()));
+			composition.setArtist(removeParenthese(result, line, lineNb, composition.getArtist()));
+		}
+
+		compoList.add(composition);
+	}
+
 	/**
-	 * Fragmente en 2 normalement une ligne d'un fichier avec le séparateur donné.
+	 * Fragmente en 2 normalement une ligne d'un fichier avec le séparateur
+	 * donné.
+	 * 
 	 * @param line {@link String} laligne à couper
 	 * @param separator {@link String} le séparateur
 	 * @param result {@code List<String>} la liste des messages à afficher à l'utilisateur
 	 * @param lineNb le numéro de la ligne dans le fichier
 	 * @return {@code String[]} la ligne coupée
-	 * @throws MyException si la ligne est coupée en plus de 2 morceaux 
+	 * @throws MyException si la ligne est coupée en plus de 2 morceaux
 	 */
-	private static String[] splitLineWithSeparator(String line, String separator, List<String> result, int lineNb)
-			throws MyException {
+	private static String[] splitLineWithSeparator(String line, String separator, List<String> result, int lineNb) throws MyException {
 		String[] split = line.split(separator);
 		if (split.length < 2) {
 			// Le séparateur ne convient pas, on essaye avec un tiret classique
@@ -226,6 +235,7 @@ public class ImportFile {
 
 	/**
 	 * Cherche le nombre d'enregistrement dans le fichier.
+	 * 
 	 * @param fichier le fichier
 	 * @param randomLines une ligne tirée aléatoirement
 	 * @param absolutePath le chemin du fichier
@@ -234,6 +244,22 @@ public class ImportFile {
 	public static int determineSize(Fichier fichier, List<String> randomLines, String absolutePath) {
 		LOG.debug("Start determineSize");
 		int res = 0;
+		res = determineSizeSorted(fichier, randomLines, res);
+		res = determineSizeNotSorted(fichier, res);
+		if (res == 0) {
+			LOG.debug("Taille égale à zéro, on compte le nombre de ligne du fichier");
+			try {
+				fichier.setSize(countLines(absolutePath));
+			} catch (IOException e) {
+				LOG.error("Erreur dans countLines", e);
+			}
+		}
+		LOG.debug("End determineSize");
+		return res;
+	}
+
+	private static int determineSizeSorted(Fichier fichier, List<String> randomLines, int res) {
+		int result = res;
 		if (fichier.getSorted()) {
 			LOG.debug("Fichier trié");
 			String first = randomLines.get(0);
@@ -244,12 +270,17 @@ public class ImportFile {
 			int sizeFirst = extractRankFromString(first);
 			int sizeLast = extractRankFromString(last);
 			if (sizeFirst > sizeLast) {
-				res = sizeFirst;
+				result = sizeFirst;
 			} else {
-				res = sizeLast;
+				result = sizeLast;
 			}
 		}
-		if (!fichier.getSorted() || res % 10 != 0) {
+		return result;
+	}
+
+	private static int determineSizeNotSorted(Fichier fichier, int res) {
+		int result = res;
+		if (!fichier.getSorted() || result % 10 != 0) {
 			LOG.debug("Fichier pas trié ou taille trouvée précedemment incorrecte");
 			Matcher mSize = Constant.PATTERN_SIZE.matcher(fichier.getFileName());
 			Matcher mDeca = Constant.PATTERN_DECADE.matcher(fichier.getFileName());
@@ -265,24 +296,16 @@ public class ImportFile {
 			if (mSize.find()) {
 				String size = mSize.group();
 				if (!deca.contains(size) && !y.contains(size)) {
-					res = Integer.parseInt(size.trim());
+					result = Integer.parseInt(size.trim());
 				}
 			}
 		}
-		if (res == 0) {
-			LOG.debug("Taille égale à zéro");
-			try {
-				fichier.setSize(countLines(absolutePath));
-			} catch (IOException e) {
-				LOG.error("", e);
-			}
-		}
-		LOG.debug("End determineSize");
-		return res;
+		return result;
 	}
 
 	/**
 	 * Extrait le classement d'une string.
+	 * 
 	 * @param line la string contenant le classement
 	 * @return le classement
 	 */
@@ -312,6 +335,7 @@ public class ImportFile {
 
 	/**
 	 * Détermine le type du fichier.
+	 * 
 	 * @param name le nom du fichier
 	 * @return {@link RecordType} album, chanson ou inconnu.
 	 */
@@ -359,26 +383,7 @@ public class ImportFile {
 
 		List<String> date = matchPart(split, Constant.YEAR);
 		if (file.getCategorie() == Cat.DECADE) {
-			List<String> decadeMatch = matchPart(split, Constant.TWO_DIGITS);
-			if (decadeMatch.size() == 1) {
-				int begin = convertTwoDigitsToYear(decadeMatch);
-				file.setRangeDateBegin(begin);
-				file.setRangeDateEnd(begin + 9);
-			} else {
-				String res = "";
-				if (date.size() > 1) {
-					for (String str : date) {
-						if (!str.matches(Constant.YEAR_AT_THE_END)) {
-							res = str;
-							break;
-						}
-					}
-				} else if (date.size() == 1) {
-					res = date.get(0);
-				}
-				file.setRangeDateBegin(Integer.parseInt(res));
-				file.setRangeDateEnd(Integer.parseInt(res) + 9);
-			}
+			determineYearsDecade(file, split, date);
 		} else if (file.getCategorie() == Cat.YEAR) {
 			file.setRangeDateBegin(Integer.parseInt(split[0]));
 			file.setRangeDateEnd(Integer.parseInt(split[0]));
@@ -397,12 +402,34 @@ public class ImportFile {
 			file.setRangeDateBegin(0);
 			file.setRangeDateEnd(0);
 		}
-		if (file.getPublishYear() == 0
-				&& (file.getCategorie() == Cat.YEAR || file.getCategorie() == Cat.DECADE || (file.getCategorie() == Cat.ALL_TIME && file
-						.getRangeDateEnd() != 0))) {
+		if (file.getPublishYear() == 0 && (file.getCategorie() == Cat.YEAR || file.getCategorie() == Cat.DECADE
+				|| (file.getCategorie() == Cat.ALL_TIME && file.getRangeDateEnd() != 0))) {
 			file.setPublishYear(file.getRangeDateEnd());
 		}
 		LOG.debug("End determineYears");
+	}
+
+	private static void determineYearsDecade(Fichier file, String[] split, List<String> date) {
+		List<String> decadeMatch = matchPart(split, Constant.TWO_DIGITS);
+		if (decadeMatch.size() == 1) {
+			int begin = convertTwoDigitsToYear(decadeMatch);
+			file.setRangeDateBegin(begin);
+			file.setRangeDateEnd(begin + 9);
+		} else {
+			String res = "";
+			if (date.size() > 1) {
+				for (String str : date) {
+					if (!str.matches(Constant.YEAR_AT_THE_END)) {
+						res = str;
+						break;
+					}
+				}
+			} else if (date.size() == 1) {
+				res = date.get(0);
+			}
+			file.setRangeDateBegin(Integer.parseInt(res));
+			file.setRangeDateEnd(Integer.parseInt(res) + 9);
+		}
 	}
 
 	private static String[] strip(String name) {
@@ -462,6 +489,7 @@ public class ImportFile {
 	/**
 	 * Détermine si les enregistrements sont triés (ou numérotés) ou non dans le
 	 * fichier.
+	 * 
 	 * @param line une ligne au hasard.
 	 * @return {@code true} si oui, {@code false} sinon
 	 */
@@ -472,6 +500,7 @@ public class ImportFile {
 	/**
 	 * Détermine le séparateur entre l'artiste et le titre utilisé dans le
 	 * fichier.
+	 * 
 	 * @param line une ligne du fichier
 	 * @return {@link String} le séparateur
 	 */
@@ -500,8 +529,7 @@ public class ImportFile {
 		LOG.debug("Start randomLineAndLastLines");
 		List<String> lines = new ArrayList<>();
 		String line = "";
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file),
-				Constant.ANSI_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			int countLines = countLines(file.getAbsolutePath());
 			int rand = ThreadLocalRandom.current().nextInt(4, countLines);
 			lines.add(StringUtils.trim(br.readLine()));
@@ -531,6 +559,7 @@ public class ImportFile {
 
 	/**
 	 * Compte le nombre de ligne dans le fichier.
+	 * 
 	 * @param filename le nom du fichier
 	 * @return un nombre
 	 * @throws IOException
