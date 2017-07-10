@@ -8,7 +8,7 @@ public enum RecordType {
     ALBUM("ALBUM"),
     UNKNOWN("UNKNOWN");
 
-    final private String value;
+	private final String value;
 
     RecordType(String value) {
         this.value = value;
