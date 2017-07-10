@@ -127,7 +127,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void focusLost(FocusEvent e) {
-				absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText() + Constant.XML_EXTENSION;
+				absolutePathFileXml = Constant.XML_PATH + name.getText() + Constant.XML_EXTENSION;
 				if (FileUtils.fileExists(absolutePathFileXml)) {
 					miseEnFormeResultLabel(new LinkedList<>(Arrays.asList(name.getText() + " existe déjà")));
 				}
@@ -559,7 +559,7 @@ public class ImportPanel extends JPanel {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				LOG.debug("Start open");
-				xmlFile = addBrowsingFile("xml", Constant.RESOURCES_ABS_DIRECTORY);
+				xmlFile = addBrowsingFile("xml", Constant.XML_PATH);
 				if (xmlFile != null) {
 					absolutePathFileXml = xmlFile.getAbsolutePath();
 				}
@@ -593,7 +593,7 @@ public class ImportPanel extends JPanel {
 						separator.getText(), result, order.isSelected(), reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
 						removeAfter.isSelected());
 				ExportXML.exportXML(compoList, name.getText());
-				absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + name.getText() + Constant.XML_EXTENSION;
+				absolutePathFileXml = Constant.XML_PATH + name.getText() + Constant.XML_EXTENSION;
 			} catch (IOException | MyException e) {
 				LOG.error("", e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
@@ -688,7 +688,7 @@ public class ImportPanel extends JPanel {
 		List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
 		fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
 		fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
-		absolutePathFileXml = Constant.RESOURCES_ABS_DIRECTORY + fichier.getFileName() + Constant.XML_EXTENSION;
+		absolutePathFileXml = Constant.XML_PATH + fichier.getFileName() + Constant.XML_EXTENSION;
 		if (FileUtils.fileExists(absolutePathFileXml)) {
 			miseEnFormeResultLabel(new LinkedList<>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
 		}
@@ -725,7 +725,7 @@ public class ImportPanel extends JPanel {
 	private void fusionFilesAction(final ArtistPanel artist) {
 		result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
 		try {
-			ImportXML.fusionFiles(System.getProperty("user.dir") + Constant.RESOURCES_DIRECTORY, getFinal.isSelected());
+			ImportXML.fusionFiles(Constant.XML_PATH, getFinal.isSelected());
 		} catch (IOException e) {
 			LOG.error("", e);
 			result = new LinkedList<>(Arrays.asList(e.toString()));
