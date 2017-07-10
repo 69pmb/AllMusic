@@ -31,12 +31,17 @@ public class Constant {
 	/**
 	 * Chemin abs du dossier d'historique.
 	 */
-	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history");
+	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history") + "\\";
+	
+	/**
+	 * Chemin abs du dossier contenant tous les fichiers xml importés.
+	 */
+	public static final String XML_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml") + "\\";
 
 	/**
 	 * Chemin abs du fichier aggrégeant tous les fichiers.
 	 */
-	public static final String FINAL_FILE_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("final");
+	public static final String FINAL_FILE_PATH = XML_PATH + GetProperties.getProperty("final");
 
 	/**
 	 * Chemin abs du dossier contenant les fichiers txt des classements.
