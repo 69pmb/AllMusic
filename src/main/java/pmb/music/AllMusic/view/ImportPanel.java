@@ -701,7 +701,7 @@ public class ImportPanel extends JPanel {
 		}
 		name.setText(fichier.getFileName());
 		author.setText(fichier.getAuthor());
-		date.setText(Constant.SDF_DTTM.format(fichier.getCreationDate()));
+		date.setText(new Constant().getSdfDttm().format(fichier.getCreationDate()));
 		cat.setSelectedItem(fichier.getCategorie());
 		publi.setText(String.valueOf(fichier.getPublishYear()));
 		type.setSelectedItem(determineType);
