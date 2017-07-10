@@ -83,21 +83,21 @@ public class ExportXML {
 	private static void saveFile(String fileName, Document doc) throws IOException {
 		LOG.debug("Start saveFile");
 		// Création du dossier resources
-		String nomDir = "src\\main\\resources\\";
-		FichierUtils.createFolderIfNotExists(nomDir);
+		FichierUtils.createFolderIfNotExists(Constant.RESOURCES_ABS_DIRECTORY);
 
 		// Création du dossier history dans le dossier resources
-		String history = nomDir + "history\\";
-		FichierUtils.createFolderIfNotExists(history);
+		FichierUtils.createFolderIfNotExists(Constant.HISTORY_PATH);
+		
+		// Création du dossier xml dans le dossier resources
+		FichierUtils.createFolderIfNotExists(Constant.XML_PATH);
 
 		// Historisation du fichier précédent dans le dossier history
-		File source = new File(nomDir + fileName + Constant.XML_EXTENSION);
-		File destination = new File(history + fileName + Constant.SEPARATOR_DATE_HISTORY + dateNow()
-				+ Constant.XML_EXTENSION);
+		File source = new File(Constant.XML_PATH + fileName + Constant.XML_EXTENSION);
+		File destination = new File(Constant.HISTORY_PATH + fileName + Constant.SEPARATOR_DATE_HISTORY + dateNow() + Constant.XML_EXTENSION);
 		source.renameTo(destination);
 
 		// Sauvegarde du document dans le fichier
-		FileOutputStream fos = new FileOutputStream(nomDir + fileName + Constant.XML_EXTENSION);
+		FileOutputStream fos = new FileOutputStream(Constant.XML_PATH + fileName + Constant.XML_EXTENSION);
 		OutputFormat format = OutputFormat.createPrettyPrint();
 		format.setIndent(true);
 		format.setNewlines(true);
