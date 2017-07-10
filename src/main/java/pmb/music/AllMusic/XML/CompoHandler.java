@@ -70,7 +70,7 @@ public class CompoHandler extends DefaultHandler {
 			LOG.error(file, e);
 		}
 		try {
-			file.setCreationDate(Constant.SDF_DTTM.parse(attributes.getValue("creationDate")));
+			file.setCreationDate(new Constant().getSdfDttm().parse(attributes.getValue("creationDate")));
 		} catch (ParseException e) {
 			file.setCreationDate(new Date());
 		}
