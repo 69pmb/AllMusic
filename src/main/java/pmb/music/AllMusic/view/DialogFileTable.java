@@ -61,12 +61,14 @@ public class DialogFileTable extends JDialog {
 	 */
 	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim) {
 		super(parent, header, modal);
+		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		this.files = files;
 		this.setResizable(true);
 		this.initComponent();
+		LOG.debug("End DialogFileTable");
 	}
 
 	/**
@@ -78,6 +80,7 @@ public class DialogFileTable extends JDialog {
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	private void initComponent() {
+		LOG.debug("Start initComponent");
 		fichiers = new JTable();
 		fichiers.setAutoCreateRowSorter(true);
 		fichiers.setRowHeight(30);
@@ -112,6 +115,7 @@ public class DialogFileTable extends JDialog {
 
 		this.setLayout(new BorderLayout());
 		this.add(new JScrollPane(fichiers), BorderLayout.CENTER);
+		LOG.debug("End initComponent");
 	}
 
 	private MouseAdapter pasteFichierListener() {
@@ -133,7 +137,7 @@ public class DialogFileTable extends JDialog {
 			try {
 				Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absFile);
 			} catch (IOException e1) {
-				LOG.error("", e1);
+				LOG.error("Erreur lors de l'ouverture de Notepad++ " + Constant.NOTEPAD_PATH, e1);
 			}
 			LOG.debug("End fichier mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
