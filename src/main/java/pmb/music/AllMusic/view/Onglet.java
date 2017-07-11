@@ -12,6 +12,8 @@ import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 
+import org.apache.log4j.Logger;
+
 import pmb.music.AllMusic.utils.Constant;
 
 /**
@@ -20,14 +22,16 @@ import pmb.music.AllMusic.utils.Constant;
  */
 public class Onglet extends JPanel {
     private static final long serialVersionUID = -7235352581168930316L;
+	private static final Logger LOG = Logger.getLogger(Onglet.class);
     private JTabbedPane onglets;
     private static int index;
 
     /**
-     * Génère les onglets
+     * Génère les onglets.
      * @param myFrame la fenetre principale
      */
     public Onglet(final BasicFrame myFrame) {
+    	LOG.debug("Start Onglet");
         onglets = new JTabbedPane(SwingConstants.TOP);
         final JPanel pannel = new JPanel();
         final Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
@@ -38,7 +42,6 @@ public class Onglet extends JPanel {
         ArtistPanel artist = new ArtistPanel();
         ImportPanel importFile = new ImportPanel(artist);
         SearchPanel search = new SearchPanel(artist);
-        
         
 		onglets.addTab(Constant.ONGLET_IMPORT, importFile);
         onglets.setMnemonicAt(0, KeyEvent.VK_1);
@@ -52,6 +55,7 @@ public class Onglet extends JPanel {
         pannel.validate();
         myFrame.getContentPane().add(pannel, BorderLayout.CENTER);
         myFrame.pack();
+    	LOG.debug("End Onglet");
     }
     
     /**
