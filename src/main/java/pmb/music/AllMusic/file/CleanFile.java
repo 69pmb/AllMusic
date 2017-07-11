@@ -21,6 +21,7 @@ import pmb.music.AllMusic.utils.Constant;
 
 /**
  * Classe pour nettoyer des fichiers.
+ * @see CleanFile#clearFile(File, boolean, String, String)
  * @author pmbroca
  */
 public class CleanFile {
