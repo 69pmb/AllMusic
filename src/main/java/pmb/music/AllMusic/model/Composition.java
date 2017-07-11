@@ -8,6 +8,11 @@ import java.util.List;
 
 import org.apache.commons.collections.CollectionUtils;
 
+/**
+ * Une composition est ensemble composé d'un artiste et d'une oeuvre musicale
+ * qui est listé dans au moins un {@link Fichier}.
+ * @author pmbroca
+ */
 public class Composition implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String artist;
