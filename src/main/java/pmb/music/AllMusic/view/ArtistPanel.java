@@ -62,6 +62,7 @@ public class ArtistPanel extends JPanel {
 	 */
 	public ArtistPanel() {
 		super();
+		LOG.debug("Start ArtistPanel");
 		table = new JTable();
 		table.setAutoCreateRowSorter(true);
 		table.setRowHeight(30);
@@ -106,6 +107,7 @@ public class ArtistPanel extends JPanel {
 
 		this.setLayout(new BorderLayout());
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
+		LOG.debug("End ArtistPanel");
 	}
 
 	/**
