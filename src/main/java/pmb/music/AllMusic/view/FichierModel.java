@@ -7,14 +7,19 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
+/**
+ * Décrit la façon dont les tableaux contenant des {@code Fichier} seront affichées.
+ * @see {@link DefaultTableModel}
+ */
 public class FichierModel extends DefaultTableModel {
 
     private static final long serialVersionUID = 1L;
-
-    public FichierModel(Object[][] data, String[] title) {
-        super(data, title);
-    }
     
+    /**
+     * Constructeur.
+     * @param data {@link Vector} les données
+     * @param title {@link Vector} les entetes du tableau
+     */
     @SuppressWarnings("rawtypes")
     public FichierModel(Vector data, Vector title) {
         super(data, title);
