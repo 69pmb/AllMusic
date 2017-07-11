@@ -23,12 +23,14 @@ public class GetProperties {
 	 * Récupère le fichier properties.
 	 */
 	private GetProperties() {
+		LOG.debug("Start GetProperties");
 		try(InputStream input = new FileInputStream(Constant.RESOURCES_ABS_DIRECTORY + "//config.properties");) {
 			prop = new Properties();
 			prop.load(input);
 		} catch (IOException e) {
 			LOG.error("Erreur lors de l'import des properties: ", e);
 		}
+		LOG.debug("End GetProperties");
 	}
 	
 	/**
@@ -41,6 +43,7 @@ public class GetProperties {
 			new GetProperties();
 		}
 		if(prop == null) {
+			LOG.error("GetProperties returns null");
 			return "";
 		}
 		return prop.getProperty(key);
