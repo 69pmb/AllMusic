@@ -20,7 +20,6 @@ import pmb.music.AllMusic.model.RecordType;
 
 /**
  * Classe utilitaire pour les {@link Composition}.
- * 
  */
 public class CompositionUtils {
 
@@ -102,6 +101,12 @@ public class CompositionUtils {
 		return result;
 	}
 
+	/**
+	 * Convertit une liste de compositions en vecteur pour l'onglet artist.
+	 * On compte pour chaque artiste le nombre de chanson et d'album enregistrés
+	 * @param compoList {@code List<Composition>} la liste de compo
+	 * @return {@code Vector<Vector<Object>>} le resultat
+	 */
 	public static Vector<Vector<Object>> convertCompositionListToArtistVector(List<Composition> compoList) {
 		Vector<Vector<Object>> temp = new Vector<Vector<Object>>();
 		for (int i = 0; i < compoList.size(); i++) {
