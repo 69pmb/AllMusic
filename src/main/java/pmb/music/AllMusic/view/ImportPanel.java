@@ -488,7 +488,7 @@ public class ImportPanel extends JPanel {
 				try {
 					FichierUtils.cleanHistory();
 				} catch (IOException e) {
-					LOG.error("", e);
+					LOG.error("Erreur lors de cleanHistory", e);
 				}
 			}
 		});
@@ -598,7 +598,7 @@ public class ImportPanel extends JPanel {
 				ExportXML.exportXML(compoList, name.getText());
 				absolutePathFileXml = Constant.XML_PATH + name.getText() + Constant.XML_EXTENSION;
 			} catch (IOException | MyException e) {
-				LOG.error("", e);
+				LOG.error("Erreur lors de l'import du fichier: " + absolutePathFileTxt, e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
 		}
@@ -611,6 +611,7 @@ public class ImportPanel extends JPanel {
 	 * @param result2 liste de texte à afficher
 	 */
 	private void miseEnFormeResultLabel(List<String> result2) {
+		LOG.debug("Start miseEnFormeResultLabel");
 		StringBuilder s = new StringBuilder();
 		for (String string : result2) {
 			s.append(string).append('\n');
@@ -619,6 +620,7 @@ public class ImportPanel extends JPanel {
 		resultLabel.setForeground(new Color(243, 16, 16));
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
+		LOG.debug("End miseEnFormeResultLabel");
 	}
 
 	/**
@@ -648,6 +650,7 @@ public class ImportPanel extends JPanel {
 	 * Remet à zéro tous les champs de l'écran.
 	 */
 	private void resetAll() {
+		LOG.debug("Start resetAll");
 		explorePath = Constant.MUSIC_ABS_DIRECTORY;
 		absolutePathFileTxt = "";
 		fichier = null;
@@ -678,6 +681,7 @@ public class ImportPanel extends JPanel {
 		upper.setSelected(false);
 		removeAfter.setSelected(false);
 		miseEnFormeResultLabel(new ArrayList<String>());
+		LOG.debug("End resetAll");
 	}
 
 	/**
@@ -685,6 +689,7 @@ public class ImportPanel extends JPanel {
 	 * Les paramètres d'import sont déduit du nom du fichier et du contenu.
 	 */
 	private void loadFile() {
+		LOG.debug("Start loadFile");
 		explorePath = StringUtils.substring(file.getAbsolutePath(), 0, file.getAbsolutePath().lastIndexOf(File.separator));
 		absolutePathFileTxt = file.getAbsolutePath();
 		fichier = ImportFile.convertOneFile(file);
@@ -719,6 +724,7 @@ public class ImportPanel extends JPanel {
 		lastL1.setText(randomLineAndLastLines.get(4));
 		lastL2.setText(randomLineAndLastLines.get(5));
 		separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(3)));
+		LOG.debug("End loadFile");
 	}
 
 	/**
@@ -726,15 +732,17 @@ public class ImportPanel extends JPanel {
 	 * @param artist l'onglet artist
 	 */
 	private void fusionFilesAction(final ArtistPanel artist) {
+		LOG.debug("Start fusionFilesAction");
 		result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
 		try {
 			ImportXML.fusionFiles(Constant.XML_PATH, getFinal.isSelected());
 		} catch (IOException e) {
-			LOG.error("", e);
+			LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
 			result = new LinkedList<>(Arrays.asList(e.toString()));
 		}
 		artist.updateArtistPanel();
 		miseEnFormeResultLabel(result);
+		LOG.debug("End fusionFilesAction");
 	}
 
 	/**
@@ -748,7 +756,7 @@ public class ImportPanel extends JPanel {
 			try {
 				ImportXML.fusionOneFile(absolutePathFileXml);
 			} catch (IOException e) {
-				LOG.error("", e);
+				LOG.error("Erreur lors de la fusion du fichier " + absolutePathFileXml + " avec le fichier final", e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
 			artist.updateArtistPanel();
@@ -768,7 +776,7 @@ public class ImportPanel extends JPanel {
 					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absolutePathFileTxt);
 				}
 			} catch (IOException e) {
-				LOG.error("", e);
+				LOG.error("Erreur lors de l'ouverture du fichier txt: " + absolutePathFileTxt, e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
 			miseEnFormeResultLabel(result);
@@ -788,7 +796,7 @@ public class ImportPanel extends JPanel {
 					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absolutePathFileXml);
 				}
 			} catch (IOException e) {
-				LOG.error("", e);
+				LOG.error("Erreur lors de l'ouverture du fichier xml: " + absolutePathFileXml, e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
 			miseEnFormeResultLabel(result);
@@ -808,7 +816,7 @@ public class ImportPanel extends JPanel {
 			try {
 				CleanFile.clearFile(file, fichier.getSorted(), separator.getText(), characterToRemove.getText());
 			} catch (IOException e) {
-				LOG.error("", e);
+				LOG.error("Erreur lors du nettoyage du fichier: " + file.getAbsolutePath(), e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
 		}
