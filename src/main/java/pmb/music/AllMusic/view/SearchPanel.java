@@ -349,7 +349,7 @@ public class SearchPanel extends JPanel {
 				try {
 					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
 				} catch (IOException e1) {
-					LOG.error("", e1);
+					LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
 				}
 			}
 
