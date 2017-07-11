@@ -19,6 +19,12 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 
+/**
+ * Classe pour manipuler les fichiers XML.
+ * @see #importXML(String)
+ * @see #fusionFiles(String, boolean)
+ * @author pmbroca
+ */
 public final class ImportXML {
 
 	private static final Logger LOG = Logger.getLogger(ImportXML.class);
