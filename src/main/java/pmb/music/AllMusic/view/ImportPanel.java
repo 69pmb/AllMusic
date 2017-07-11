@@ -48,6 +48,9 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 
+/**
+ * Onglet d'import de fichiers txt.
+ */
 public class ImportPanel extends JPanel {
 
 	private static final long serialVersionUID = 5796304304079887263L;
@@ -693,8 +696,8 @@ public class ImportPanel extends JPanel {
 			miseEnFormeResultLabel(new LinkedList<>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
 		}
 		determineType = ImportFile.determineType(file.getName());
-		if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType) && fichier.getPublishYear() != 0
-				&& fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0) {
+		boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
+		if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType) && fichier.getPublishYear() != 0 && rangeDatesZero) {
 			fichier.setCategorie(Cat.YEAR);
 			fichier.setRangeDateBegin(fichier.getPublishYear());
 			fichier.setRangeDateEnd(fichier.getPublishYear());
