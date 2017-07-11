@@ -19,6 +19,10 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 
+/**
+ * Classe décrivant comment parser un fichier XML contenant des {@link Composition}.
+ * @see {@link DefaultHandler}
+ */
 public class CompoHandler extends DefaultHandler {
 
 	private static final Logger LOG = Logger.getLogger(CompoHandler.class);
@@ -31,6 +35,9 @@ public class CompoHandler extends DefaultHandler {
 
 	private Fichier file;
 
+	/**
+	 * Constructeur.
+	 */
 	public CompoHandler() {
 		super();
 		compoList = new ArrayList<>();
