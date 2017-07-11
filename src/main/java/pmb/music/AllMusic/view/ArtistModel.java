@@ -8,13 +8,19 @@ import java.util.Vector;
 import javax.swing.table.DefaultTableModel;
 
 /**
- * @author i2113mj
- *
+ * Décrit la façon dont les données de l'onglet artiste seront affichées.
+ * @see {@link DefaultTableModel}
+ * @author pmbroca
  */
 public class ArtistModel extends DefaultTableModel {
 
     private static final long serialVersionUID = 1L;
 
+    /**
+     * Constructeur.
+     * @param data {@code Object[][]} les données
+     * @param title {@code String[]} les entetes du tableau
+     */
     public ArtistModel(Object[][] data, String[] title) {
         super(data, title);
     }
@@ -26,14 +32,13 @@ public class ArtistModel extends DefaultTableModel {
 
     @SuppressWarnings({ "unchecked", "rawtypes" })
     @Override
-    public Class getColumnClass(int col) {
-        switch (col) {
-            case 0:
-                return String.class;
-            default:
-                return Integer.class;
-        }
-    }
+	public Class getColumnClass(int col) {
+		if (col == 0) {
+			return String.class;
+		} else {
+			return Integer.class;
+		}
+	}
 
     @Override
     public int getRowCount() {
@@ -53,10 +58,5 @@ public class ArtistModel extends DefaultTableModel {
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
         return ((Vector) this.getDataVector().elementAt(rowIndex)).elementAt(columnIndex);
-    }
-
-    @Override
-    public void setValueAt(Object aValue, int row, int column) {
-        super.setValueAt(aValue, row, column);
     }
 }
