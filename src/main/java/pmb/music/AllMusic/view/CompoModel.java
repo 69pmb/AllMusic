@@ -9,10 +9,20 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
+/**
+ * Décrit la façon dont les tableaux contenant des {@code Composition} seront affichées.
+ * @see {@link DefaultTableModel}
+ * @author pmbroca
+ */
 public class CompoModel extends DefaultTableModel {
 
     private static final long serialVersionUID = 1L;
 
+    /**
+     * Constructeur.
+     * @param data {@code Object[][]} les données
+     * @param title {@code String[]} les entetes du tableau
+     */
     public CompoModel(Object[][] data, String[] title) {
         super(data, title);
     }
