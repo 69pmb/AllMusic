@@ -472,7 +472,7 @@ public class ImportFile {
 		try {
 			attr = Files.readAttributes(file.toPath(), BasicFileAttributes.class);
 		} catch (IOException e) {
-			LOG.error("", e);
+			LOG.error("Impossible de récupérer la date de création de " + file.getAbsolutePath(), e);
 		}
 		if (attr == null) {
 			return new Date();
@@ -551,7 +551,7 @@ public class ImportFile {
 			lines.add(StringUtils.trim(br.readLine()));
 			lines.add(StringUtils.trim(br.readLine()));
 		} catch (IOException e) {
-			LOG.error("", e);
+			LOG.error("Erreur lors de la lecture du fichier " + file.getAbsolutePath(), e);
 		}
 		LOG.debug("End randomLineAndLastLines");
 		return lines;
