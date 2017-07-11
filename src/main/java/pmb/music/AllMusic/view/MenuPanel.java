@@ -54,6 +54,7 @@ public class MenuPanel extends JPanel {
 	 * @return le {@link JMenuBar} crée
 	 */
 	public JMenuBar menuBar() {
+		LOG.debug("Start menuBar");
 		final JMenuBar menuBar = new JMenuBar();
 		
 		// Fichier
@@ -95,6 +96,7 @@ public class MenuPanel extends JPanel {
 				final int option = JOptionPane.showConfirmDialog(null, "Voulez-vous VRAIMENT quitter ?", "Demande confirmation ",
 						JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
 				if (option == 0) {
+					LOG.debug("Exit");
 					System.exit(0);
 				} else {
 					// Nothing to do
@@ -151,6 +153,7 @@ public class MenuPanel extends JPanel {
 		menuBar.add(aff);
 		menuBar.add(aide);
 
+		LOG.debug("End menuBar");
 		return menuBar;
 	}
 
