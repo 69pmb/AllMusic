@@ -3,6 +3,9 @@
  */
 package pmb.music.AllMusic.model;
 
+/**
+ * Enumeration pour le type d'une composition: chanson ou album.
+ */
 public enum RecordType {
     SONG("SONG"),
     ALBUM("ALBUM"),
