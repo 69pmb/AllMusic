@@ -87,6 +87,7 @@ public class CompositionUtils {
 	 * @return {@code Vector<Vector<Object>>} la liste de vecteur
 	 */
 	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList) {
+		LOG.debug("Start convertCompositionListToVector");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < compoList.size(); i++) {
 			Composition composition = compoList.get(i);
@@ -98,6 +99,7 @@ public class CompositionUtils {
 			v.addElement(new Boolean(false));
 			result.addElement(v);
 		}
+		LOG.debug("End convertCompositionListToVector");
 		return result;
 	}
 
@@ -108,6 +110,7 @@ public class CompositionUtils {
 	 * @return {@code Vector<Vector<Object>>} le resultat
 	 */
 	public static Vector<Vector<Object>> convertCompositionListToArtistVector(List<Composition> compoList) {
+		LOG.debug("Start convertCompositionListToArtistVector");
 		Vector<Vector<Object>> temp = new Vector<Vector<Object>>();
 		for (int i = 0; i < compoList.size(); i++) {
 			Composition composition = compoList.get(i);
@@ -142,6 +145,7 @@ public class CompositionUtils {
 				result.add(v);
 			}
 		}
+		LOG.debug("End convertCompositionListToArtistVector");
 		return result;
 	}
 
