@@ -779,8 +779,8 @@ public class ImportPanel extends JPanel {
 			} catch (IOException e) {
 				LOG.error("Erreur lors de l'ouverture du fichier txt: " + absolutePathFileTxt, e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
+				miseEnFormeResultLabel(result);
 			}
-			miseEnFormeResultLabel(result);
 		}
 		LOG.debug("End openFile");
 	}
@@ -799,8 +799,8 @@ public class ImportPanel extends JPanel {
 			} catch (IOException e) {
 				LOG.error("Erreur lors de l'ouverture du fichier xml: " + absolutePathFileXml, e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
+				miseEnFormeResultLabel(result);
 			}
-			miseEnFormeResultLabel(result);
 		}
 		LOG.debug("End openXml");
 	}
