@@ -111,7 +111,7 @@ public class CleanFile {
 				writer.append(Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "")).append("\n");
 			}
 		} catch (IOException e) {
-			LOG.error("", e);
+			LOG.error("Erreur lors du netoyage de " + file.getAbsolutePath(), e);
 		}
 		LOG.debug("End clearFile");
 	}
