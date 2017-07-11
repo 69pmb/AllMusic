@@ -24,11 +24,13 @@ public class AllMusic {
 	 * @param args 
 	 */
 	public static void main(String[] args) {
+		LOG.debug("Lancement de AllMusic");
 
 		Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
 
 			@Override
 			public void run() {
+				LOG.debug("Fin de AllMusic");
 				// Si je veux ajouter un traitement qui se lance quand l'appli se ferme
 			}
 		}));
@@ -36,7 +38,7 @@ public class AllMusic {
 			UIManager.setLookAndFeel("com.jtattoo.plaf.aluminium.AluminiumLookAndFeel");
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException
 				| UnsupportedLookAndFeelException e) {
-			LOG.error("", e);
+			LOG.error("Impossible d'appliquer le style demandé", e);
 		}
 		
 		final BasicFrame f = new BasicFrame();
