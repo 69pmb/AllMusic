@@ -3,6 +3,10 @@
  */
 package pmb.music.AllMusic.model;
 
+/**
+ * Enumération des différentes catégories de liste d'oeuvres musicales:
+ * bilan annuel, décennale, par thème, par genre, "all time" ou divers.
+ */
 public enum Cat {
     YEAR("YEAR"),
     DECADE("DECADE"),
