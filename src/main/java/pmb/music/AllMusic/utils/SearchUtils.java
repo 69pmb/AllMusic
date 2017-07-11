@@ -10,6 +10,7 @@ import java.util.Map;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Predicate;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
@@ -22,6 +23,8 @@ import pmb.music.AllMusic.model.RecordType;
  */
 public class SearchUtils {
 
+	private static final Logger LOG = Logger.getLogger(SearchUtils.class);
+
 	private SearchUtils() {
 	}
 
@@ -33,6 +36,7 @@ public class SearchUtils {
 	 * @return la liste de compo filtrée selon les critères
 	 */
 	public static List<Composition> searchContains(List<Composition> compoList, Map<String, String> criteria, final boolean searchInFiles) {
+		LOG.debug("Start searchContains");
 		List<Composition> arrayList = new ArrayList<>(compoList);
 		// Critères compositions
 		final String artist = criteria.get("artist");
@@ -52,6 +56,7 @@ public class SearchUtils {
 				|| StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB) || StringUtils.isNotBlank(dateE);
 
 		if (searchCompo || searchFile) {
+			LOG.debug("Il y a des critères de recherche");
 			CollectionUtils.filter(arrayList, new Predicate() {
 
 				@Override
@@ -86,7 +91,7 @@ public class SearchUtils {
 				}
 			});
 		}
-
+		LOG.debug("End searchContains");
 		return arrayList;
 	}
 
@@ -99,6 +104,7 @@ public class SearchUtils {
 	 * @return la liste de compo filtrée selon les critères
 	 */
 	public static List<Composition> searchStrictly(List<Composition> compoList, Map<String, String> criteria) {
+		LOG.debug("Start searchStrictly");
 		List<Composition> arrayList = new ArrayList<>(compoList);
 		final String artist = criteria.get("artist");
 		final String titre = criteria.get("titre");
@@ -117,6 +123,7 @@ public class SearchUtils {
 				|| StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB) || StringUtils.isNotBlank(dateE);
 
 		if (searchCompo || searchFile) {
+			LOG.debug("Il y a des critères de recherche");
 			CollectionUtils.filter(arrayList, new Predicate() {
 
 				@Override
@@ -150,7 +157,7 @@ public class SearchUtils {
 				}
 			});
 		}
-
+		LOG.debug("End searchStrictly");
 		return arrayList;
 	}
 
