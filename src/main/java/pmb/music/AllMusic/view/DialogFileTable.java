@@ -34,6 +34,11 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 
+/**
+ * Une "pop-up" permettant d'afficher une liste de {@link Fichier}.
+ * @see {@link JDialog}
+ * @author pmbroca
+ */
 public class DialogFileTable extends JDialog {
 
 	private static final long serialVersionUID = 1304786661370052913L;
@@ -47,6 +52,14 @@ public class DialogFileTable extends JDialog {
 
 	private JTable fichiers;
 
+	/**
+	 * Constructeur.
+	 * @param parent {@link JFrame} la fenetre parente
+	 * @param header {@link String} les entetes de la popup
+	 * @param modal {@code boolean} si la popup bloque l'utilisateur
+	 * @param files {@code List<Fichier>} la liste des fichier à afficher
+	 * @param dim {@link Dimension} les dimension de la popup
+	 */
 	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim) {
 		super(parent, header, modal);
 		this.setSize(dim);
@@ -57,6 +70,9 @@ public class DialogFileTable extends JDialog {
 		this.initComponent();
 	}
 
+	/**
+	 * Affiche une {@link DialogFileTable}.
+	 */
 	public void showDialogFileTable() {
 		this.setVisible(true);
 	}
