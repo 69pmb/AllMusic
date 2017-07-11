@@ -6,8 +6,13 @@ package pmb.music.AllMusic.model;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * Représentation des listes contenant des compositions. Décrit ayant un auteur,
+ * une année de parution, un nom, une catégorie, des dates d'application, un
+ * classment et une taille.
+ */
 public class Fichier implements Serializable {
-	
+
 	private static final long serialVersionUID = 1L;
 
 	private String author;
@@ -32,6 +37,7 @@ public class Fichier implements Serializable {
 
 	/**
 	 * Clone un Fichier.
+	 * 
 	 * @param fichier le fichier à cloner
 	 */
 	public Fichier(Fichier fichier) {
