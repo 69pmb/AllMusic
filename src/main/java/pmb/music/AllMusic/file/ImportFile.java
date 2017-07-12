@@ -93,6 +93,9 @@ public class ImportFile {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			while ((line = br.readLine()) != null) {
 				lineNb++;
+				if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, "#")) {
+					continue;
+				}
 				getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter, upper, reverseArtist, parenthese, lineNb,
 						i);
 				i++;
@@ -109,19 +112,50 @@ public class ImportFile {
 			RecordType type, boolean artistFirst, boolean removeAfter, boolean upper, boolean reverseArtist, boolean parenthese, int lineNb, int i)
 			throws MyException {
 		String line = entryLine;
-		if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, "#")) {
-			return;
-		}
-
 		if (removeAfter) {
 			line = StringUtils.substringBeforeLast(line, separator);
 		}
+		String[] split = null;
+		if (!upper) {
+			split = splitLineWithSeparator(line, separator, result, lineNb);
+		} 
+		
+		Composition composition = new Composition();
+		int rank = setArtistAndTitreGetRank(composition, line, upper, split,fichier.getSorted(), i);
+		List<Fichier> files = new ArrayList<>();
+		Fichier fich = new Fichier(fichier);
+		fich.setClassement(rank);
+		files.add(fich);
+		composition.setFiles(files);
+		composition.setRecordType(type);
 
+		if (!artistFirst) {
+			String artist2 = composition.getArtist();
+			composition.setArtist(composition.getTitre());
+			composition.setTitre(artist2);
+		}
+
+		if (reverseArtist) {
+			String[] arrayArtist = composition.getArtist().split(",");
+			if (arrayArtist.length == 2) {
+				composition.setArtist(StringUtils.trim(StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0])));
+			}
+		}
+		composition.setArtist(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""), "\""));
+		composition.setTitre(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(), "\""), "\""));
+		if (parenthese) {
+			composition.setTitre(removeParenthese(result, line, lineNb, composition.getTitre()));
+			composition.setArtist(removeParenthese(result, line, lineNb, composition.getArtist()));
+		}
+
+		compoList.add(composition);
+	}
+
+	private static int setArtistAndTitreGetRank(Composition composition, String line, boolean upper, String[] split, Boolean sorted, int i) throws MyException {
 		// Reconnaissance du titre et de l'artiste
 		String artist;
 		String titre;
 		if (!upper) {
-			String[] split = splitLineWithSeparator(line, separator, result, lineNb);
 			titre = StringUtils.trim(split[1]);
 			artist = StringUtils.trim(split[0]);
 		} else {
@@ -137,12 +171,8 @@ public class ImportFile {
 			titre = StringUtils.trim(StringUtils.substring(line, cut));
 		}
 
-		Composition composition = new Composition();
-		List<Fichier> files = new ArrayList<>();
-		composition.setFiles(files);
-		composition.setTitre(titre);
 		int rank;
-		if (fichier.getSorted()) {
+		if (sorted) {
 			String res = StringUtils.trim(StringUtils.substringBefore(artist, "."));
 			if (StringUtils.isNumeric(res)) {
 				rank = Integer.parseInt(res);
@@ -155,34 +185,9 @@ public class ImportFile {
 		} else {
 			rank = i;
 		}
-		Fichier fich = new Fichier(fichier);
-		fich.setClassement(rank);
-		files.add(fich);
-
 		composition.setArtist(StringUtils.trim(artist));
-		composition.setRecordType(type);
-
-		if (!artistFirst) {
-			String artist2 = composition.getArtist();
-			composition.setArtist(composition.getTitre());
-			composition.setTitre(artist2);
-		}
-
-		if (reverseArtist) {
-			String[] arrayArtist = composition.getArtist().split(",");
-			if (arrayArtist.length == 2) {
-				artist = StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0]);
-				composition.setArtist(StringUtils.trim(artist));
-			}
-		}
-		composition.setArtist(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""), "\""));
-		composition.setTitre(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(), "\""), "\""));
-		if (parenthese) {
-			composition.setTitre(removeParenthese(result, line, lineNb, composition.getTitre()));
-			composition.setArtist(removeParenthese(result, line, lineNb, composition.getArtist()));
-		}
-
-		compoList.add(composition);
+		composition.setTitre(titre);
+		return rank;
 	}
 
 	/**
@@ -387,23 +392,18 @@ public class ImportFile {
 		} else if (file.getCategorie() == Cat.YEAR) {
 			file.setRangeDateBegin(Integer.parseInt(split[0]));
 			file.setRangeDateEnd(Integer.parseInt(split[0]));
-		} else if (file.getCategorie() == Cat.ALL_TIME) {
-			if (date.size() == 2) {
-				file.setRangeDateBegin(Integer.parseInt(date.get(0)));
-				file.setRangeDateEnd(Integer.parseInt(date.get(1)));
-			} else {
-				file.setRangeDateBegin(0);
-				file.setRangeDateEnd(file.getPublishYear());
-			}
 		} else if (date.size() == 2) {
 			file.setRangeDateBegin(Integer.parseInt(date.get(0)));
 			file.setRangeDateEnd(Integer.parseInt(date.get(1)));
+		} else if(file.getCategorie() == Cat.ALL_TIME){
+			file.setRangeDateBegin(0);
+			file.setRangeDateEnd(file.getPublishYear());
 		} else {
 			file.setRangeDateBegin(0);
 			file.setRangeDateEnd(0);
 		}
-		if (file.getPublishYear() == 0 && (file.getCategorie() == Cat.YEAR || file.getCategorie() == Cat.DECADE
-				|| (file.getCategorie() == Cat.ALL_TIME && file.getRangeDateEnd() != 0))) {
+		boolean isYearOrDecade = file.getCategorie() == Cat.YEAR || file.getCategorie() == Cat.DECADE;
+		if (file.getPublishYear() == 0 && (isYearOrDecade || (file.getCategorie() == Cat.ALL_TIME && file.getRangeDateEnd() != 0))) {
 			file.setPublishYear(file.getRangeDateEnd());
 		}
 		LOG.debug("End determineYears");
