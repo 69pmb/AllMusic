@@ -589,6 +589,7 @@ public class ImportPanel extends JPanel {
 			fichier.setPublishYear(Integer.parseInt(publi.getText()));
 			fichier.setRangeDateBegin(Integer.parseInt(rangeB.getText()));
 			fichier.setRangeDateEnd(Integer.parseInt(rangeE.getText()));
+			fichier.setSize(Integer.parseInt(size.getText()));
 			result = new LinkedList<>(Arrays.asList(name.getText() + " OK !"));
 
 			try {
