@@ -55,7 +55,8 @@ public class CleanFile {
 			while ((line = br.readLine()) != null) {
 				boolean isDigit = true;
 				if (isSorted) {
-					isDigit = isBeginByDigit(line);
+					// Si le fichier est trié, on ne garde que les lignes commencant par un chiffre
+					isDigit = StringUtils.isNumeric(StringUtils.substring(line, 0, 1));
 				}
 				if (isDigit) {
 					writesLineIfContainsSepAndRemovesChar(characterToRemove, sepAsList, line, writer);
@@ -79,19 +80,6 @@ public class CleanFile {
 				break;
 			}
 		}
-	}
-
-	private static boolean isBeginByDigit(String line) {
-		LOG.debug("Start isBeginByDigit");
-		boolean isDigit = true;
-		String digitToTest = StringUtils.substring(line, 0, 1);
-		try {
-			Integer.parseInt(digitToTest);
-		} catch (NumberFormatException e) {
-			isDigit = false;
-		}
-		LOG.debug("End isBeginByDigit");
-		return isDigit;
 	}
 
 	/**
