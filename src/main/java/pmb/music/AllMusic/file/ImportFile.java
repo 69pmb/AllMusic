@@ -145,8 +145,7 @@ public class ImportFile {
 		composition.setArtist(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""), "\""));
 		composition.setTitre(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(), "\""), "\""));
 		if (parenthese) {
-			composition.setTitre(removeParenthese(result, line, lineNb, composition.getTitre()));
-			composition.setArtist(removeParenthese(result, line, lineNb, composition.getArtist()));
+			removeParentheseFromTitreAndArtist(result, line, lineNb, composition);
 		}
 
 		compoList.add(composition);
@@ -226,17 +225,24 @@ public class ImportFile {
 		return split;
 	}
 
-	private static String removeParenthese(List<String> result, String line, int lineNumber, String chaine) {
-		int countMatches = StringUtils.countMatches(chaine, "(");
-		String res = chaine;
-		if (countMatches == 1) {
-			res = StringUtils.trim(StringUtils.substringBefore(chaine, "("));
-		} else if (countMatches == 0) {
+	private static void removeParentheseFromTitreAndArtist(List<String> result, String line, int lineNumber, Composition compo) {
+		String titre = compo.getTitre();
+		String artist = compo.getArtist();
+		int countMatchesTitre = StringUtils.countMatches(titre, "(");
+		int countMatchesArtist = StringUtils.countMatches(artist, "(");
+		if (countMatchesTitre == 1) {
+			titre = StringUtils.trim(StringUtils.substringBefore(titre, "("));
+		}
+		if (countMatchesArtist == 1) {
+			artist = StringUtils.trim(StringUtils.substringBefore(artist, "("));
+		}
+		if (countMatchesTitre == 0 && countMatchesArtist == 0) {
 			result.add("Pas de parenthèse, line: " + line + LOG_NUMBER + lineNumber);
-		} else {
+		} else if (countMatchesTitre > 1 || countMatchesArtist > 1) {
 			result.add("###Trop de parenthèses, line: " + line + LOG_NUMBER + lineNumber);
 		}
-		return res;
+		compo.setTitre(titre);
+		compo.setArtist(artist);
 	}
 
 	/**
