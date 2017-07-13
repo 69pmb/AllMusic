@@ -396,11 +396,6 @@
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="120" creationDate="02/07/2017 07:08:56" size="500"/>
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="7" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Let It Bleed" type="ALBUM">
-    <File author="NME" fileName="100 Best Albums" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="85" creationDate="02/07/2017 07:08:56" size="100"/>
-    <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="7" creationDate="25/01/2017 10:01:33" size="100"/>
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="52" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="David Bowie" titre="Heroes" type="ALBUM">
     <File author="NME" fileName="100 Best Albums" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="86" creationDate="02/07/2017 07:08:56" size="100"/>
     <File author="Uncut" fileName="Uncut 200 Greatest Albums Of All Time" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="114" creationDate="25/01/2017 10:01:42" size="200"/>
@@ -2489,10 +2484,6 @@
   </Composition>
   <Composition artist="Julie London" titre="Cry Me A River" type="SONG">
     <File author="Music" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="255" creationDate="25/01/2017 10:01:31" size="1001"/>
-  </Composition>
-  <Composition artist="The Rolling Stones" titre="Happy" type="SONG">
-    <File author="Music" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="257" creationDate="25/01/2017 10:01:31" size="1001"/>
-    <File author="Mojo" fileName="Mojo The 50 Greatest Rolling Stones Tracks" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="14" creationDate="02/07/2017 07:08:56" size="50"/>
   </Composition>
   <Composition artist="Jackie Brenston" titre="Rocket 88" type="SONG">
     <File author="Music" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="258" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -18161,9 +18152,6 @@
   <Composition artist="The Beatles" titre="Revolver" type="ALBUM">
     <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="3" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Exile On Main Street" type="ALBUM">
-    <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="4" creationDate="25/01/2017 10:01:33" size="100"/>
-  </Composition>
   <Composition artist="Bob Dylan" titre="Highway 61 Revisited" type="ALBUM">
     <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="5" creationDate="25/01/2017 10:01:33" size="100"/>
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="64" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -18230,9 +18218,6 @@
   </Composition>
   <Composition artist="The Beatles" titre="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM">
     <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="51" creationDate="25/01/2017 10:01:33" size="100"/>
-  </Composition>
-  <Composition artist="The Rolling Stones" titre="Sticky Fingers" type="ALBUM">
-    <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="52" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Bringing It All Back Home" type="ALBUM">
     <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="57" creationDate="25/01/2017 10:01:33" size="100"/>
@@ -18319,9 +18304,6 @@
   <Composition artist="The Rolling Stones" titre="Midnight Rambler" type="SONG">
     <File author="Mojo" fileName="Mojo The 50 Greatest Rolling Stones Tracks" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="20" creationDate="02/07/2017 07:08:56" size="50"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="All Down The Line" type="SONG">
-    <File author="Mojo" fileName="Mojo The 50 Greatest Rolling Stones Tracks" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="21" creationDate="02/07/2017 07:08:56" size="50"/>
-  </Composition>
   <Composition artist="The Rolling Stones" titre="Loving Cup" type="SONG">
     <File author="Mojo" fileName="Mojo The 50 Greatest Rolling Stones Tracks" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="27" creationDate="02/07/2017 07:08:56" size="50"/>
   </Composition>
@@ -18337,9 +18319,6 @@
   </Composition>
   <Composition artist="The Rolling Stones" titre="Citadel" type="SONG">
     <File author="Mojo" fileName="Mojo The 50 Greatest Rolling Stones Tracks" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="33" creationDate="02/07/2017 07:08:56" size="50"/>
-  </Composition>
-  <Composition artist="The Rolling Stones" titre="Bitch" type="SONG">
-    <File author="Mojo" fileName="Mojo The 50 Greatest Rolling Stones Tracks" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="34" creationDate="02/07/2017 07:08:56" size="50"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="19th Nervous Breakdown" type="SONG">
     <File author="Mojo" fileName="Mojo The 50 Greatest Rolling Stones Tracks" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="35" creationDate="02/07/2017 07:08:56" size="50"/>
@@ -19714,9 +19693,6 @@
   <Composition artist="PJ Harvey" titre="The Words That Maketh Murder" type="SONG">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="296" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="You Can't Always Get What You Want" type="SONG">
-    <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="297" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="House Of Pain" titre="Jump Around" type="SONG">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="298" creationDate="02/07/2017 07:08:56" size="500"/>
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="580" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -20314,9 +20290,6 @@
   </Composition>
   <Composition artist="LCD Sound System" titre="Sounds Of Silver" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="49" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="Rolling Stones" titre="Sticky Fingers" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="55" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Kraftwerk" titre="The Man Machine" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="57" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -24258,9 +24231,6 @@
   <Composition artist="The Beatles" titre="Yesterday" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="(I Can't Get No) Satisfaction" type="SONG">
-    <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="100"/>
-  </Composition>
   <Composition artist="Aretha Franklin" titre="Respect" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="7" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
@@ -24281,9 +24251,6 @@
   </Composition>
   <Composition artist="Guns N Roses" titre="Sweet Child O Mine" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="13" creationDate="02/07/2017 07:08:56" size="100"/>
-  </Composition>
-  <Composition artist="The Rolling Stones" titre="Brown Sugar" type="SONG">
-    <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="14" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="John Lennon" titre="Imagine" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="15" creationDate="02/07/2017 07:08:56" size="100"/>
@@ -25278,9 +25245,6 @@
   </Composition>
   <Composition artist="Elvis Costello And The Attractions" titre="This Year's Model" type="ALBUM">
     <File author="Spin" fileName="Spin,The 25 Greatest Albums Of All Time - 1989" publishYear="1989" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1989" sorted="true" classement="8" creationDate="25/01/2017 10:01:42" size="25"/>
-  </Composition>
-  <Composition artist="Rolling Stones" titre="Exile On Main St." type="ALBUM">
-    <File author="Spin" fileName="Spin,The 25 Greatest Albums Of All Time - 1989" publishYear="1989" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1989" sorted="true" classement="9" creationDate="25/01/2017 10:01:42" size="25"/>
   </Composition>
   <Composition artist="Run-D.M.C." titre="Run-D.M.C." type="ALBUM">
     <File author="Spin" fileName="Spin,The 25 Greatest Albums Of All Time - 1989" publishYear="1989" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1989" sorted="true" classement="11" creationDate="25/01/2017 10:01:42" size="25"/>
