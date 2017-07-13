@@ -10,9 +10,6 @@
   <Composition artist="Diana Ross" titre="Diana" type="ALBUM">
     <File author="Mojo" fileName="Mojo - 80 From The 80s - Albums - 2007" publishYear="2007" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="5" creationDate="02/07/2017 07:08:56" size="0"/>
   </Composition>
-  <Composition artist="Joy Division" titre="Closer" type="ALBUM">
-    <File author="Mojo" fileName="Mojo - 80 From The 80s - Albums - 2007" publishYear="2007" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="6" creationDate="02/07/2017 07:08:56" size="0"/>
-  </Composition>
   <Composition artist="Linton Kwesi Johnson" titre="Bass Culture" type="ALBUM">
     <File author="Mojo" fileName="Mojo - 80 From The 80s - Albums - 2007" publishYear="2007" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="7" creationDate="02/07/2017 07:08:56" size="0"/>
   </Composition>
@@ -228,8 +225,5 @@
   </Composition>
   <Composition artist="The Stone Roses" titre="The Stone Roses" type="ALBUM">
     <File author="Mojo" fileName="Mojo - 80 From The 80s - Albums - 2007" publishYear="2007" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="108" creationDate="02/07/2017 07:08:56" size="0"/>
-  </Composition>
-  <Composition artist="Pixies" titre="Doolittle" type="ALBUM">
-    <File author="Mojo" fileName="Mojo - 80 From The 80s - Albums - 2007" publishYear="2007" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="109" creationDate="02/07/2017 07:08:56" size="0"/>
   </Composition>
 </ListCompositions>
