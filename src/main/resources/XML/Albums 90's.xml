@@ -22,7 +22,7 @@
   <Composition artist="Slint" titre="Spiderland" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="12" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Belle And Sebastian" titre="If You’re Feeling Sinister" type="ALBUM">
+  <Composition artist="Belle And Sebastian" titre="If You're Feeling Sinister" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="14" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="The Dismemberment Plan" titre="Emergency &amp; I" type="ALBUM">
@@ -49,7 +49,7 @@
   <Composition artist="The Beta Band" titre="The Three EPs" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="23" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Built To Spill" titre="There’s Nothing Wrong With Love" type="ALBUM">
+  <Composition artist="Built To Spill" titre="There's Nothing Wrong With Love" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="24" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Yo La Tengo" titre="I Can Hear the Heart Beating As One" type="ALBUM">
@@ -151,9 +151,6 @@
   <Composition artist="Palace Music" titre="Viva Last Blues" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="60" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Pulp" titre="Different Class" type="ALBUM">
-    <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="61" creationDate="25/01/2017 10:01:38" size="100"/>
-  </Composition>
   <Composition artist="Aphex Twin" titre="Selected Ambient Works, Vol.II" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="62" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
@@ -193,7 +190,7 @@
   <Composition artist="A Tribe Called Quest" titre="Midnight Marauders" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="75" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Mercury Rev" titre="Deserter’s Songs" type="ALBUM">
+  <Composition artist="Mercury Rev" titre="Deserter's Songs" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="76" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Primal Scream" titre="Screamadelica" type="ALBUM">
@@ -219,9 +216,6 @@
   </Composition>
   <Composition artist="Company Flow" titre="Funcrusher Plus" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="84" creationDate="25/01/2017 10:01:38" size="100"/>
-  </Composition>
-  <Composition artist="Massive Attack" titre="Blue Lines" type="ALBUM">
-    <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="85" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Destroy" titre="City of Daughters" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="86" creationDate="25/01/2017 10:01:38" size="100"/>
@@ -265,7 +259,7 @@
   <Composition artist="Raekwon" titre="Only Built 4 Cuban Linx" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="99" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="The Orb" titre="The Orb’s Adventures Beyond the Ultraworld" type="ALBUM">
+  <Composition artist="The Orb" titre="The Orb's Adventures Beyond the Ultraworld" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="100" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
 </ListCompositions>
