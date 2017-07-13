@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Sly &amp; The Family Stone" titre="There’s a Riot Goin’ On" type="ALBUM">
+  <Composition artist="Sly &amp; The Family Stone" titre="There's a Riot Goin' On" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="4" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Kraftwerk" titre="Trans-Europe Express" type="ALBUM">
@@ -25,7 +25,7 @@
   <Composition artist="The Velvet Underground" titre="Loaded" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="14" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="The Who" titre="Who’s Next" type="ALBUM">
+  <Composition artist="The Who" titre="Who's Next" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="15" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Buzzcocks" titre="Singles Going Steady" type="ALBUM">
@@ -60,9 +60,6 @@
   </Composition>
   <Composition artist="Stevie Wonder" titre="Innervisions" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="26" creationDate="25/01/2017 10:01:38" size="100"/>
-  </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin III" type="ALBUM">
-    <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="27" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Let It Be" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="28" creationDate="25/01/2017 10:01:38" size="100"/>
@@ -106,9 +103,6 @@
   <Composition artist="Michael Jackson" titre="Off the Wall" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="43" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="The Clash" titre="The Clash" type="ALBUM">
-    <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="44" creationDate="25/01/2017 10:01:38" size="100"/>
-  </Composition>
   <Composition artist="Talking Heads" titre="More Songs About Buildings and Food" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="45" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
@@ -121,7 +115,7 @@
   <Composition artist="Miles Davis" titre="Live-Evil" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="48" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What’s Going On" type="ALBUM">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="49" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Tim Buckley" titre="Starsailor" type="ALBUM">
@@ -130,13 +124,13 @@
   <Composition artist="Sex Pistols" titre="Never Mind the Bollocks" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="51" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Elvis Costello" titre="This Year’s Model" type="ALBUM">
+  <Composition artist="Elvis Costello" titre="This Year's Model" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="52" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Steve Reich" titre="Music for 18 Musicians" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="53" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Creedence Clearwater Revival" titre="Cosmo’s Factory" type="ALBUM">
+  <Composition artist="Creedence Clearwater Revival" titre="Cosmo's Factory" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="54" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Nick Drake" titre="Bryter Layter" type="ALBUM">
@@ -157,7 +151,7 @@
   <Composition artist="John Lennon" titre="Plastic Ono Band" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="60" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Beach Boys" titre="Surf’s Up" type="ALBUM">
+  <Composition artist="Beach Boys" titre="Surf's Up" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="61" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="The Cars" titre="The Cars" type="ALBUM">
@@ -208,14 +202,11 @@
   <Composition artist="David Bowie" titre="Aladdin Sane" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="77" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Fela Anikulapo Futi &amp; Africa ’70" titre="Expensive Shit" type="ALBUM">
+  <Composition artist="Fela Anikulapo Futi &amp; Africa '70" titre="Expensive Shit" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="78" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Randy Newman" titre="Sail Away" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="79" creationDate="25/01/2017 10:01:38" size="100"/>
-  </Composition>
-  <Composition artist="David Bowie" titre="Hunky Dory" type="ALBUM">
-    <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="80" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="The Rise and Fall of Ziggy Stardust &amp; The Spiders From Mars" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="81" creationDate="25/01/2017 10:01:38" size="100"/>
@@ -244,7 +235,7 @@
   <Composition artist="Devo" titre="Q: Are We Not Men? A: We Are Devo!" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="89" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Fela Anikulapo Kuti &amp; Africa ’70" titre="Zombie" type="ALBUM">
+  <Composition artist="Fela Anikulapo Kuti &amp; Africa '70" titre="Zombie" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="90" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Throbbing Gristle" titre="20 Jazz Funk Greats" type="ALBUM">
@@ -253,7 +244,7 @@
   <Composition artist="Kraftwerk" titre="The Man-Machine" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="92" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Jimi Hendrix" titre="Band of Gypsys" type="ALBUM">
+  <Composition artist="The Jimi Hendrix Experience" titre="Band of Gypsys" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="93" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="King Crimson" titre="Starless and Bible Black" type="ALBUM">
