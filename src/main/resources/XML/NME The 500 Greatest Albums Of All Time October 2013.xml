@@ -19,9 +19,6 @@
   <Composition artist="Suede" titre="Dog Man Star" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="31" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Blur" titre="Modern Life Is Rubbish" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="33" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="Love" titre="Forever Changes" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="37" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
@@ -37,9 +34,6 @@
   <Composition artist="Blondie" titre="Parallel Lines" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="45" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Smiths" titre="Strangeways Here We Come" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="47" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="Kate Bush" titre="Hounds Of Love" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="48" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
@@ -49,17 +43,11 @@
   <Composition artist="Dusty Springfield" titre="Dusty In Memphis" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="50" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Fleetwood Mac" titre="Rumours" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="51" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="The Rolling Stones" titre="Let It Bleed" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="52" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="David Bowie" titre="Station To Station" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="53" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="Talking Heads" titre="Remain In Light" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="54" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Rolling Stones" titre="Sticky Fingers" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="55" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -90,12 +78,6 @@
   </Composition>
   <Composition artist="Radiohead" titre="The Bends" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="66" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="R.E.M." titre="Murmur" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="69" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="Lou Reed" titre="Transformer" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="72" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Bringing It All Back Home" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="73" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -130,9 +112,6 @@
   <Composition artist="The Band" titre="The Band" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="83" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Hole" titre="Live Through This" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="84" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="Bruce Springsteen" titre="Born To Run" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="85" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
@@ -144,9 +123,6 @@
   </Composition>
   <Composition artist="The Streets" titre="A Grand Don't Come For Free" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="90" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="Prince" titre="Purple Rain" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="91" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Super Furry Animals" titre="Radiator" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="92" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -165,9 +141,6 @@
   </Composition>
   <Composition artist="Kraftwerk" titre="Computer World" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="101" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="The Flaming Lips" titre="The Soft Bulletin" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="102" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Jimi Hendrix Experience" titre="Electric Ladyland" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="103" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -214,7 +187,7 @@
   <Composition artist="Dexys Midnight Runners" titre="Searching For He Young Soul Rebels" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="118" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Pulp" titre="His ‘N' Hers" type="ALBUM">
+  <Composition artist="Pulp" titre="His 'N' Hers" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="119" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="De La Soul" titre="3 Feet High And Rising" type="ALBUM">
@@ -364,9 +337,6 @@
   <Composition artist="Dexys Midnight Runners" titre="Don't Stand Me Down" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="169" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Smashing Pumpkins" titre="Siamese Dream" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="170" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="Talking Heads" titre="Fear Of Music" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="171" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
@@ -466,9 +436,6 @@
   <Composition artist="Nwa" titre="Straight Outta' Compton" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="205" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Pavement" titre="Slanted And Enchanted" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="206" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="Janis Joplin" titre="Pearl" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="207" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
@@ -540,9 +507,6 @@
   </Composition>
   <Composition artist="Dr Dre" titre="The Chronic" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="231" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="Leonard Cohen" titre="Songs Of Leonard Cohen" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="232" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Babyshambles" titre="Down In Albion" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="233" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -688,9 +652,6 @@
   <Composition artist="Aphex Twin" titre="Drukqs" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="280" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Elvis Costello" titre="My Aim Is True" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="281" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="Teenage Fanclub" titre="Grand Prix" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="282" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
@@ -832,7 +793,7 @@
   <Composition artist="The Flaming Lips" titre="Yoshimi Battles The Pink Robots" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="328" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="David Bowie" titre="“Heroes”" type="ALBUM">
+  <Composition artist="David Bowie" titre="'Heroes'" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="329" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Portishead" titre="Third" type="ALBUM">
@@ -861,9 +822,6 @@
   </Composition>
   <Composition artist="Notorious Big" titre="Ready To Die" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="338" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="Pearl Jam" titre="Ten" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="339" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Sister Sledge" titre="We Are Family" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="340" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -957,9 +915,6 @@
   </Composition>
   <Composition artist="The Cribs" titre="Men's Needs, Woman's Needs, Whatever" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="370" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="Beck" titre="Odelay" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="371" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Big Black" titre="Atomizer" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="372" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -1084,7 +1039,7 @@
   <Composition artist="DJ Shadow" titre="Endtroducing" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="412" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Happy Mondays" titre="Pills ‘N' Thrills And Bellyaches" type="ALBUM">
+  <Composition artist="Happy Mondays" titre="Pills 'N' Thrills And Bellyaches" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="413" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Chemical Brothers" titre="Dig Your Own Hole" type="ALBUM">
@@ -1216,9 +1171,6 @@
   <Composition artist="Goldfrapp" titre="Black Cherry" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="457" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Wilco" titre="Yankee Hotel Foxtrot" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="458" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="Jay-Z" titre="The Black Album" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="459" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
@@ -1227,9 +1179,6 @@
   </Composition>
   <Composition artist="Manic Street Preachers" titre="Generation Terrorists" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="461" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="Metallica" titre="Master Of Puppets" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="462" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Breeders" titre="Pod" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="463" creationDate="02/07/2017 07:08:56" size="500"/>
