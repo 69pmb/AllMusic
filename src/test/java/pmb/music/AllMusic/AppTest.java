@@ -33,9 +33,8 @@ public class AppTest {
 			fichier.setSorted(ImportFile.isSorted(randomLine.get(3)));
 			fichier.setSize(ImportFile.determineSize(fichier, randomLine, file.getAbsolutePath()));
 			RecordType determineType = ImportFile.determineType(file.getName());
-			if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType)
-					&& fichier.getPublishYear() != 0 && fichier.getRangeDateBegin() == 0
-					&& fichier.getRangeDateEnd() == 0) {
+			if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType) && fichier.getPublishYear() != 0
+					&& fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0) {
 				fichier.setCategorie(Cat.YEAR);
 				fichier.setRangeDateBegin(fichier.getPublishYear());
 				fichier.setRangeDateEnd(fichier.getPublishYear());
