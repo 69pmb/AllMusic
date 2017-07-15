@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beatles" titre="Yesterday" type="SONG">
-    <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="100"/>
-  </Composition>
   <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
@@ -12,9 +9,6 @@
   </Composition>
   <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="5" creationDate="02/07/2017 07:08:56" size="100"/>
-  </Composition>
-  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG">
-    <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="6" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Aretha Franklin" titre="Respect" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="7" creationDate="02/07/2017 07:08:56" size="100"/>
@@ -181,9 +175,6 @@
   <Composition artist="Madonna" titre="Papa Don-t Preach" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="62" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="In My Life" type="SONG">
-    <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="63" creationDate="02/07/2017 07:08:56" size="100"/>
-  </Composition>
   <Composition artist="Elton John" titre="Bennie And The Jets" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="64" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
@@ -225,9 +216,6 @@
   </Composition>
   <Composition artist="Al Green" titre="Let's Stay Together" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="77" creationDate="02/07/2017 07:08:56" size="100"/>
-  </Composition>
-  <Composition artist="Green Day" titre="Longview" type="SONG">
-    <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="78" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Janet Jackson" titre="Nasty" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="79" creationDate="02/07/2017 07:08:56" size="100"/>
