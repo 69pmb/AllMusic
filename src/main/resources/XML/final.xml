@@ -2683,6 +2683,7 @@
     <File author="Music" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="325" creationDate="25/01/2017 10:01:31" size="1001"/>
     <File author="Rolling Stone" fileName="500 best songs (2005)" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2005" sorted="true" classement="299" creationDate="25/01/2017 10:01:41" size="500"/>
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="192" creationDate="02/07/2017 07:08:56" size="500"/>
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="120" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Steve Earle" titre="John Walker's Blues" type="SONG">
     <File author="Music" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="326" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -8740,6 +8741,10 @@
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="253" creationDate="02/07/2017 07:08:56" size="500"/>
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="2" creationDate="25/01/2017 10:01:40" size="1001"/>
     <File author="Mojo" fileName="Readers All Time To 100 Singles" publishYear="0" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="63" creationDate="02/07/2017 07:08:56" size="100"/>
+  </Composition>
+  <Composition artist="The Streets" titre="Dry Your Eyes" type="SONG">
+    <File author="Q" fileName="50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="2100" sorted="true" classement="25" creationDate="25/01/2017 10:01:39" size="50"/>
+    <File author="Mojo" fileName="The 50 Greatest British Tracks Ever" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="48" creationDate="25/01/2017 10:01:33" size="50"/>
   </Composition>
   <Composition artist="Pet Shop Boys" titre="West End Girls" type="SONG">
     <File author="Q" fileName="50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="2100" sorted="true" classement="28" creationDate="25/01/2017 10:01:39" size="50"/>
@@ -14977,9 +14982,6 @@
   </Composition>
   <Composition artist="Johnny Kidd And the Pirates" titre="25 Greatest Hits" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="459" creationDate="25/01/2017 10:01:31" size="1000"/>
-  </Composition>
-  <Composition artist="Killers" titre="Hot Fuss" type="ALBUM">
-    <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="460" creationDate="25/01/2017 10:01:31" size="1000"/>
   </Composition>
   <Composition artist="Killing Joke" titre="Killing Joke (1980)" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="461" creationDate="25/01/2017 10:01:31" size="1000"/>
@@ -21926,9 +21928,6 @@
   <Composition artist="D'angelo" titre="Brown Sugar" type="SONG">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="113" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign Of The Times" type="SONG">
-    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="120" creationDate="25/01/2017 10:01:40" size="1001"/>
-  </Composition>
   <Composition artist="The Beastie Boys" titre="Fight For Your Right (To Party)" type="SONG">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="121" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -27874,9 +27873,6 @@
   </Composition>
   <Composition artist="Queens of the Stone Age" titre="The Lost Art of Keeping a Secret" type="SONG">
     <File author="Pitchfork" fileName="Top 500 Tracks of the 2000s" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="397" creationDate="25/01/2017 10:01:39" size="500"/>
-  </Composition>
-  <Composition artist="Amy Winehouse" titre="Tears Dry on Their Own" type="SONG">
-    <File author="Pitchfork" fileName="Top 500 Tracks of the 2000s" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="399" creationDate="25/01/2017 10:01:39" size="500"/>
   </Composition>
   <Composition artist="My Morning Jacket" titre="Off the Record" type="SONG">
     <File author="Pitchfork" fileName="Top 500 Tracks of the 2000s" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="402" creationDate="25/01/2017 10:01:39" size="500"/>
