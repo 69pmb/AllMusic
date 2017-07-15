@@ -438,6 +438,7 @@
     <File author="NME" fileName="100 Best Albums" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="92" creationDate="02/07/2017 07:08:56" size="100"/>
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="27" creationDate="25/01/2017 10:01:31" size="1000"/>
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="121" creationDate="02/07/2017 07:08:56" size="500"/>
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="10" creationDate="25/01/2017 10:01:42" size="100"/>
     <File author="Uncut" fileName="Uncut 200 Greatest Albums Of All Time" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="167" creationDate="25/01/2017 10:01:42" size="200"/>
   </Composition>
   <Composition artist="Joni Mitchell" titre="Hejira" type="ALBUM">
@@ -4922,7 +4923,6 @@
   </Composition>
   <Composition artist="Beck" titre="Sea Change" type="ALBUM">
     <File author="Music" fileName="2000 - 2009 Albums" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="17" creationDate="25/01/2017 10:01:31" size="100"/>
-    <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="440" creationDate="25/01/2017 10:01:41" size="500"/>
     <File author="Pitchfork" fileName="Top 200 Albums of the 2000s" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="82" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="D'Angelo" titre="Voodoo" type="ALBUM">
@@ -10322,6 +10322,11 @@
   <Composition artist="Big Star" titre="#1 Record" type="ALBUM">
     <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="438" creationDate="25/01/2017 10:01:41" size="500"/>
   </Composition>
+  <Composition artist="Beck" titre="Sea Changes" type="ALBUM">
+    <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="440" creationDate="25/01/2017 10:01:41" size="500"/>
+    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="325" creationDate="02/07/2017 07:08:56" size="500"/>
+    <File author="Uncut" fileName="Uncut The 150 Greatest Albums Of The 21st Century So Far" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="76" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="No Doubt" titre="Tragic Kingdom" type="ALBUM">
     <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="441" creationDate="25/01/2017 10:01:41" size="500"/>
     <File author="Rolling Stone" fileName="Rolling Stone Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="77" creationDate="25/01/2017 10:01:41" size="100"/>
@@ -12130,6 +12135,8 @@
   </Composition>
   <Composition artist="Belle And Sebastian" titre="If You're Feeling Sinister" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="14" creationDate="25/01/2017 10:01:38" size="100"/>
+    <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="63" creationDate="25/01/2017 10:01:31" size="1000"/>
+    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="113" creationDate="02/07/2017 07:08:56" size="500"/>
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="76" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="The Dismemberment Plan" titre="Emergency &amp; I" type="ALBUM">
@@ -13584,9 +13591,12 @@
   <Composition artist="ABBA" titre="Visitors" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="3" creationDate="25/01/2017 10:01:31" size="1000"/>
   </Composition>
-  <Composition artist="ABC" titre="Lexicon of Love" type="ALBUM">
+  <Composition artist="ABC" titre="The Lexicon OF Love" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="4" creationDate="25/01/2017 10:01:31" size="1000"/>
+    <File author="Mojo" fileName="Mojo - 80 From The 80s - Albums - 2007" publishYear="2007" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="33" creationDate="02/07/2017 07:08:56" size="0"/>
+    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="117" creationDate="02/07/2017 07:08:56" size="500"/>
     <File author="Q" fileName="Q Readers All Time Top 100 Albums - 1998" publishYear="1998" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1998" sorted="true" classement="92" creationDate="25/01/2017 10:01:40" size="100"/>
+    <File author="Q" fileName="The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="40" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Rabih Abou-Khalil" titre="Cactus of Knowledge" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="5" creationDate="25/01/2017 10:01:31" size="1000"/>
@@ -13695,8 +13705,9 @@
   <Composition artist="Albert Ayler Tri" titre="Spiritual Unity" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="41" creationDate="25/01/2017 10:01:31" size="1000"/>
   </Composition>
-  <Composition artist="Aztec Camera" titre="High Land, Hard Rain" type="ALBUM">
+  <Composition artist="Aztec Camera" titre="HighLand, Hard Rain" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="42" creationDate="25/01/2017 10:01:31" size="1000"/>
+    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="293" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Babyface" titre="Tender Lover" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="43" creationDate="25/01/2017 10:01:31" size="1000"/>
@@ -13755,9 +13766,6 @@
   </Composition>
   <Composition artist="Bee Gees &amp; Various Artists" titre="Saturday Night Fever: Soundtrack" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="62" creationDate="25/01/2017 10:01:31" size="1000"/>
-  </Composition>
-  <Composition artist="Belle &amp; Sebastian" titre="If You're Feeling Sinister" type="ALBUM">
-    <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="63" creationDate="25/01/2017 10:01:31" size="1000"/>
   </Composition>
   <Composition artist="Bellowhead" titre="Burlesque" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="64" creationDate="25/01/2017 10:01:31" size="1000"/>
@@ -16119,9 +16127,6 @@
   <Composition artist="Cassandra Wilson" titre="Travelin' Miles" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="929" creationDate="25/01/2017 10:01:31" size="1000"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back tBlack" type="ALBUM">
-    <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="930" creationDate="25/01/2017 10:01:31" size="1000"/>
-  </Composition>
   <Composition artist="Bill Withers" titre="Still Bill" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="932" creationDate="25/01/2017 10:01:31" size="1000"/>
   </Composition>
@@ -16393,8 +16398,9 @@
   <Composition artist="Dick Gaughan" titre="Handful of Earth" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="1029" creationDate="25/01/2017 10:01:31" size="1000"/>
   </Composition>
-  <Composition artist="Beth Gibbons &amp; Rustin Man" titre="Out of Season" type="ALBUM">
+  <Composition artist="Beth Gibbons And Rustin Man" titre="Out of Season" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="1030" creationDate="25/01/2017 10:01:31" size="1000"/>
+    <File author="Uncut" fileName="Uncut The 150 Greatest Albums Of The 21st Century So Far" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="23" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Gun Club" titre="Fire of Love" type="ALBUM">
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="1031" creationDate="25/01/2017 10:01:31" size="1000"/>
@@ -17596,11 +17602,6 @@
   </Composition>
   <Composition artist="Iron Maiden" titre="The Number Of The Beast" type="ALBUM">
     <File author="Mojo" fileName="Mojo - 80 From The 80s - Albums - 2007" publishYear="2007" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="32" creationDate="02/07/2017 07:08:56" size="0"/>
-  </Composition>
-  <Composition artist="Abc" titre="The Lexicon Of Love" type="ALBUM">
-    <File author="Mojo" fileName="Mojo - 80 From The 80s - Albums - 2007" publishYear="2007" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="33" creationDate="02/07/2017 07:08:56" size="0"/>
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="117" creationDate="02/07/2017 07:08:56" size="500"/>
-    <File author="Q" fileName="The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="40" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Donald Fagen" titre="The Nightfly" type="ALBUM">
     <File author="Mojo" fileName="Mojo - 80 From The 80s - Albums - 2007" publishYear="2007" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="34" creationDate="02/07/2017 07:08:56" size="0"/>
@@ -20446,9 +20447,6 @@
   <Composition artist="GZA" titre="Liquid Swards" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="112" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Bell And Sebastian" titre="If Your Feeling Sinister" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="113" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="White Stripes" titre="Elephant" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="116" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
@@ -20702,9 +20700,6 @@
   <Composition artist="The Cribs" titre="The New Fellas" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="292" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Aztec Camera" titre="Highland, Hard Rain" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="293" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
   <Composition artist="Snoop Doggy Dogg" titre="Doggystyle" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="295" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
@@ -20761,9 +20756,6 @@
   </Composition>
   <Composition artist="R.E.M." titre="Lifes Rich Pageant" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="324" creationDate="02/07/2017 07:08:56" size="500"/>
-  </Composition>
-  <Composition artist="Beck" titre="Sea Changes" type="ALBUM">
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="325" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Beck" titre="Mutations" type="ALBUM">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="327" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -22025,7 +22017,7 @@
     <File author="Q" fileName="Q Readers Best Albums Ever 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="70" creationDate="25/01/2017 10:01:40" size="100"/>
     <File author="Q" fileName="The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="54" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
-  <Composition artist="Alanis Morrisette" titre="Jagged Little Pillock" type="ALBUM">
+  <Composition artist="Alanis Morrisette" titre="Jagged Little Pill" type="ALBUM">
     <File author="Q" fileName="Q Readers Best Albums Ever 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="73" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
   <Composition artist="Muse" titre="Origin Of Symmetry" type="ALBUM">
@@ -25554,9 +25546,6 @@
   </Composition>
   <Composition artist="Various Artists" titre="The Perfect Beats, Vols. 1-4" type="ALBUM">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="9" creationDate="25/01/2017 10:01:42" size="100"/>
-  </Composition>
-  <Composition artist="Aphex Twin" titre="Selected Ambient Works 85-92 9r&amp;S/Pias, 1993)" type="ALBUM">
-    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="10" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="Bijou Philips" titre="I'd Rather Eat Glass" type="ALBUM">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="1" creationDate="25/01/2017 10:01:42" size="100"/>
@@ -29125,9 +29114,6 @@
   <Composition artist="Kate Bush" titre="Aerial" type="ALBUM">
     <File author="Uncut" fileName="Uncut The 150 Greatest Albums Of The 21st Century So Far" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="18" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
-  <Composition artist="Beth Gibbons And Rustin Man" titre="Out Of Season" type="ALBUM">
-    <File author="Uncut" fileName="Uncut The 150 Greatest Albums Of The 21st Century So Far" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="23" creationDate="25/01/2017 10:01:42" size="150"/>
-  </Composition>
   <Composition artist="Lambchop" titre="Nixon" type="ALBUM">
     <File author="Uncut" fileName="Uncut The 150 Greatest Albums Of The 21st Century So Far" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="26" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
@@ -29193,9 +29179,6 @@
   </Composition>
   <Composition artist="Elbow" titre="Asleep At The Back" type="ALBUM">
     <File author="Uncut" fileName="Uncut The 150 Greatest Albums Of The 21st Century So Far" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="74" creationDate="25/01/2017 10:01:42" size="150"/>
-  </Composition>
-  <Composition artist="Beck" titre="Seachange" type="ALBUM">
-    <File author="Uncut" fileName="Uncut The 150 Greatest Albums Of The 21st Century So Far" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="76" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Levon Helm" titre="Electric Dirt" type="ALBUM">
     <File author="Uncut" fileName="Uncut The 150 Greatest Albums Of The 21st Century So Far" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="80" creationDate="25/01/2017 10:01:42" size="150"/>
