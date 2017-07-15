@@ -405,7 +405,7 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 * Ajoute les boutons du bas de l'écran. 
+	 * Ajoute les boutons du bas de l'écran.
 	 * @param artist l'onglet artist
 	 */
 	private void insertBottomPanel(final ArtistPanel artist) {
@@ -625,7 +625,8 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 * Crée un file chooser pour sélectionner un fichier selon l'extension donnée et à l'endroit donnée.
+	 * Crée un file chooser pour sélectionner un fichier selon l'extension
+	 * donnée et à l'endroit donnée.
 	 * @param extension le filtre sur les extensions
 	 * @param dir à quel endroit le file chooser s'ouvre
 	 * @return le fichier choisit
@@ -686,8 +687,8 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 * Traitement lorsqu'on séléctionne un fichier.
-	 * Les paramètres d'import sont déduit du nom du fichier et du contenu.
+	 * Traitement lorsqu'on séléctionne un fichier. Les paramètres d'import sont
+	 * déduit du nom du fichier et du contenu.
 	 */
 	private void loadFile() {
 		LOG.debug("Start loadFile");
@@ -767,7 +768,7 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 * Pour ouvrir le fichier txt séléctionné dans notepad. 
+	 * Pour ouvrir le fichier txt séléctionné dans notepad.
 	 */
 	private void openFileNotepadAction() {
 		LOG.debug("Start openFile");
@@ -786,7 +787,7 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 * Pour ouvrir le fichier xml nouvellement crée dans notepad. 
+	 * Pour ouvrir le fichier xml nouvellement crée dans notepad.
 	 */
 	private void openXmlNotepadAction() {
 		LOG.debug("Start openXml");
@@ -813,9 +814,8 @@ public class ImportPanel extends JPanel {
 		result = new LinkedList<>(Arrays.asList("Sélectionnez un fichier"));
 		if (file != null) {
 			result = new LinkedList<>(Arrays.asList(file.getName() + " nettoyé !"));
-
 			try {
-				CleanFile.clearFile(file, fichier.getSorted(), separator.getText(), characterToRemove.getText());
+				CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText());
 			} catch (IOException e) {
 				LOG.error("Erreur lors du nettoyage du fichier: " + file.getAbsolutePath(), e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
