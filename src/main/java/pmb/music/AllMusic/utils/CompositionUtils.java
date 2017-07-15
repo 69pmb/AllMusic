@@ -73,17 +73,24 @@ public class CompositionUtils {
 	public static Composition compoExist(List<Composition> compos, Composition c) {
 		Composition res = null;
 		for (Composition composition : compos) {
-			if (c.getRecordType().equals(composition.getRecordType()) && c.getArtist().equalsIgnoreCase(composition.getArtist())
-					&& c.getTitre().equalsIgnoreCase(composition.getTitre())) {
-				res = composition;
-				break;
+			if (c.getRecordType().equals(composition.getRecordType())) {
+				String compoTitre = Constant.PATTERN_PUNCTUATION.matcher(composition.getTitre()).replaceAll("");
+				String cTitre = Constant.PATTERN_PUNCTUATION.matcher(c.getTitre()).replaceAll("");
+				if (cTitre.equalsIgnoreCase(compoTitre)) {
+					String compoArtist = Constant.PATTERN_PUNCTUATION.matcher(composition.getArtist()).replaceAll("");
+					String cArtist = Constant.PATTERN_PUNCTUATION.matcher(c.getArtist()).replaceAll("");
+					if (cArtist.equalsIgnoreCase(compoArtist)) {
+						res = composition;
+						break;
+					}
+				}
 			}
 		}
 		return res;
 	}
 
 	/**
-	 * Convertit une liste de {@link Composition} en {@link Vector}. 
+	 * Convertit une liste de {@link Composition} en {@link Vector}.
 	 * @param compoList {@code List<Composition>} la liste de compo
 	 * @return {@code Vector<Vector<Object>>} la liste de vecteur
 	 */
@@ -105,8 +112,8 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Convertit une liste de compositions en vecteur pour l'onglet artist.
-	 * On compte pour chaque artiste le nombre de chanson et d'album enregistrés
+	 * Convertit une liste de compositions en vecteur pour l'onglet artist. On
+	 * compte pour chaque artiste le nombre de chanson et d'album enregistrés
 	 * @param compoList {@code List<Composition>} la liste de compo
 	 * @return {@code Vector<Vector<Object>>} le resultat
 	 */
@@ -151,8 +158,8 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Cherche une {@link Composition} dans une liste donnée en fonction de l'artiste, du titre et de son type.
-	 * Recherche stricte. 
+	 * Cherche une {@link Composition} dans une liste donnée en fonction de
+	 * l'artiste, du titre et de son type. Recherche stricte.
 	 * @param compoList {@link List<Composition>} une liste de compo
 	 * @param artist {@link String} un artiste
 	 * @param titre {@link String} un titre de chanson ou d'album
@@ -182,8 +189,8 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Cherche une {@link Composition} dans une liste donnée en fonction de l'artiste.	 
-	 * Recherche stricte. 
+	 * Cherche une {@link Composition} dans une liste donnée en fonction de
+	 * l'artiste. Recherche stricte.
 	 * @param compoList {@link List<Composition>} une liste de compo
 	 * @param artist {@link String} un artiste
 	 * @return la composition trouvée
@@ -213,7 +220,12 @@ public class CompositionUtils {
 			// Récupération des compositions du fichier XML
 			List<Composition> importXML = ImportXML.importXML(Constant.XML_PATH + file.getFileName() + Constant.XML_EXTENSION);
 			// Suppresion de la liste de la composition à enlever
-			importXML.remove(importXML.indexOf(new Composition(toRemove.getArtist(), Arrays.asList(file), toRemove.getTitre(), toRemove.getRecordType())));
+			int indexOf = importXML.indexOf(new Composition(toRemove.getArtist(), Arrays.asList(file), toRemove.getTitre(), toRemove.getRecordType()));
+			if (indexOf != -1) {
+				importXML.remove(indexOf);
+			} else {
+				LOG.error("indexOf -1: " + toRemove.getArtist() + " " + toRemove.getFiles() + " " + toRemove.getTitre() + " " + toRemove.getRecordType());
+			}
 			try {
 				// Sauvegarde des modifications
 				ExportXML.exportXML(importXML, file.getFileName());
