@@ -470,8 +470,9 @@
     <File author="NME" fileName="100 Best Albums" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="99" creationDate="02/07/2017 07:08:56" size="100"/>
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="46" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Surfs Up" type="ALBUM">
+  <Composition artist="The Beach Boys" titre="Surf's Up" type="ALBUM">
     <File author="NME" fileName="100 Best Albums" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="100" creationDate="02/07/2017 07:08:56" size="100"/>
+    <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="61" creationDate="25/01/2017 10:01:38" size="100"/>
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="251" creationDate="02/07/2017 07:08:56" size="500"/>
     <File author="Uncut" fileName="Uncut 200 Greatest Albums Of All Time" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="135" creationDate="25/01/2017 10:01:42" size="200"/>
   </Composition>
@@ -5163,12 +5164,6 @@
   <Composition artist="The Hives" titre="Veni Vidi Vicious" type="ALBUM">
     <File author="Music" fileName="2000 - 2009 Albums" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="91" creationDate="25/01/2017 10:01:31" size="100"/>
   </Composition>
-  <Composition artist="Bon Iver" titre="For Emma, Forever Ago" type="ALBUM">
-    <File author="Music" fileName="2000 - 2009 Albums" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="92" creationDate="25/01/2017 10:01:31" size="100"/>
-    <File author="NME" fileName="Album - Top 100 - 2000's-2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="87" creationDate="02/07/2017 07:08:56" size="100"/>
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="364" creationDate="02/07/2017 07:08:56" size="500"/>
-    <File author="Pitchfork" fileName="Top 200 Albums of the 2000s" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="29" creationDate="25/01/2017 10:01:39" size="200"/>
-  </Composition>
   <Composition artist="Johnny Cash" titre="Unearthed" type="ALBUM">
     <File author="Music" fileName="2000 - 2009 Albums" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="93" creationDate="25/01/2017 10:01:31" size="100"/>
   </Composition>
@@ -9287,14 +9282,6 @@
   <Composition artist="The Mamas and the Papas" titre="If You Can Believe Your Eyes and Ears" type="ALBUM">
     <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="127" creationDate="25/01/2017 10:01:41" size="500"/>
   </Composition>
-  <Composition artist="Television" titre="Marquee Moon" type="ALBUM">
-    <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="128" creationDate="25/01/2017 10:01:41" size="500"/>
-    <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="847" creationDate="25/01/2017 10:01:31" size="1000"/>
-    <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="17" creationDate="25/01/2017 10:01:33" size="100"/>
-    <File author="Q" fileName="Q Magazines 50 Best Albums Of The 70s - 1998" publishYear="1998" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="44" creationDate="25/01/2017 10:01:40" size="50"/>
-    <File author="Spin" fileName="Spin,The 25 Greatest Albums Of All Time - 1989" publishYear="1989" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1989" sorted="true" classement="6" creationDate="25/01/2017 10:01:42" size="25"/>
-    <File author="Uncut" fileName="Uncut - The 50 Greatest American Punk LPs - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="6" creationDate="15/03/2017 10:40:05" size="50"/>
-  </Composition>
   <Composition artist="Hank Williams" titre="40 Greatest Hits" type="ALBUM">
     <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="129" creationDate="25/01/2017 10:01:41" size="500"/>
     <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="924" creationDate="25/01/2017 10:01:31" size="1000"/>
@@ -10272,20 +10259,6 @@
   <Composition artist="Wings" titre="Band on the Run" type="ALBUM">
     <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="418" creationDate="25/01/2017 10:01:41" size="500"/>
     <File author="Q" fileName="The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="75" creationDate="15/07/2017 10:45:54" size="100"/>
-  </Composition>
-  <Composition artist="Portishead" titre="Dummy" type="ALBUM">
-    <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="419" creationDate="25/01/2017 10:01:41" size="500"/>
-    <File author="Pitchfork" fileName="Albums 90's" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="48" creationDate="25/01/2017 10:01:38" size="100"/>
-    <File author="Guardian" fileName="Guardian - 1000 Albums to Hear Before You Die" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="680" creationDate="25/01/2017 10:01:31" size="1000"/>
-    <File author="Inrock" fileName="Les Inrockuptibles Best 100 Albums From The Last Decade (1986 - 1996)" publishYear="1995" categorie="DECADE" rangeDateBegin="1986" rangeDateEnd="1995" sorted="true" classement="5" creationDate="25/01/2017 10:01:33" size="100"/>
-    <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="168" creationDate="02/07/2017 07:08:56" size="500"/>
-    <File author="Q" fileName="Q Magazine 100 Best Albums Of The 90s - 2015" publishYear="2015" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="13" creationDate="25/01/2017 10:01:40" size="100"/>
-    <File author="Q" fileName="Q readers 100 Greatest Albums Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="95" creationDate="25/01/2017 10:01:40" size="100"/>
-    <File author="Q" fileName="Q Readers All Time Top 100 Albums - 1998" publishYear="1998" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1998" sorted="true" classement="16" creationDate="25/01/2017 10:01:40" size="100"/>
-    <File author="Q" fileName="Q Readers Best Albums Ever 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="55" creationDate="25/01/2017 10:01:40" size="100"/>
-    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="74" creationDate="25/01/2017 10:01:42" size="100"/>
-    <File author="Q" fileName="The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="61" creationDate="15/07/2017 10:45:54" size="100"/>
-    <File author="Uncut" fileName="Uncut 200 Greatest Albums Of All Time" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="141" creationDate="25/01/2017 10:01:42" size="200"/>
   </Composition>
   <Composition artist="Buddy Holly and the Crickets" titre="The &quot;Chirping&quot; Crickets" type="ALBUM">
     <File author="Rolling Stone" fileName="500 Albums" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="421" creationDate="25/01/2017 10:01:41" size="500"/>
@@ -11452,10 +11425,6 @@
     <File author="Mojo" fileName="Mojo - Album 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="41" creationDate="02/07/2017 07:08:56" size="50"/>
     <File author="Pitchfork" fileName="Top 100 albums of 2010-2014" publishYear="2014" categorie="MISCELLANEOUS" rangeDateBegin="2010" rangeDateEnd="2014" sorted="true" classement="16" creationDate="25/01/2017 10:01:39" size="100"/>
   </Composition>
-  <Composition artist="Bon Iver" titre="Bon Iver" type="ALBUM">
-    <File author="Pitchfork" fileName="Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="1" creationDate="02/07/2017 14:31:04" size="50"/>
-    <File author="Mojo" fileName="Mojo - Album 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="16" creationDate="02/07/2017 07:08:56" size="50"/>
-  </Composition>
   <Composition artist="Primal Scream" titre="Xtrmnatr" type="ALBUM">
     <File author="NME" fileName="Album - Top 100 - 2000's-2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="100"/>
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="160" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -11791,9 +11760,6 @@
   </Composition>
   <Composition artist="Miles Davis" titre="A Tribute to Jack Johnson" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="58" creationDate="25/01/2017 10:01:38" size="100"/>
-  </Composition>
-  <Composition artist="Beach Boys" titre="Surf's Up" type="ALBUM">
-    <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="61" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Cluster" titre="Zuckerzeit" type="ALBUM">
     <File author="Pitchfork" fileName="Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="63" creationDate="25/01/2017 10:01:38" size="100"/>
@@ -18335,9 +18301,6 @@
   <Composition artist="David Bowie" titre="John, I'm Only Dancing" type="SONG">
     <File author="Mojo" fileName="Mojo Special Edition - Bowie" publishYear="0" categorie="MISCELLANEOUS" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="30" creationDate="02/07/2017 07:08:56" size="30"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM">
-    <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="1" creationDate="25/01/2017 10:01:33" size="100"/>
-  </Composition>
   <Composition artist="Bob Dylan" titre="Highway 61 Revisited" type="ALBUM">
     <File author="Mojo" fileName="MOJO THE 100 GREATEST ALBUMS EVER MADE - 1995" publishYear="1995" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="5" creationDate="25/01/2017 10:01:33" size="100"/>
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="64" creationDate="02/07/2017 07:08:56" size="500"/>
@@ -24505,9 +24468,6 @@
   </Composition>
   <Composition artist="Depeche Mode" titre="Just Can't Get Enough" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="69" creationDate="02/07/2017 07:08:56" size="100"/>
-  </Composition>
-  <Composition artist="Beach Boys" titre="Good Vibrations" type="SONG">
-    <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="70" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Ramones" titre="I Wanna Be Sedated" type="SONG">
     <File author="Rolling Stone" fileName="Rolling Stones 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="71" creationDate="02/07/2017 07:08:56" size="100"/>
