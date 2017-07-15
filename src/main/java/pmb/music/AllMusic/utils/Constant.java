@@ -31,7 +31,7 @@ public class Constant {
 	 * Chemin abs du dossier d'historique.
 	 */
 	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history") + "\\";
-	
+
 	/**
 	 * Chemin abs du dossier contenant tous les fichiers xml importés.
 	 */
@@ -69,9 +69,9 @@ public class Constant {
 
 	public static final String DEFAULT_TITLE = "AllMusic";
 
-	private SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+	private final SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
-	private SimpleDateFormat sdfHistory = new SimpleDateFormat("dd-MM-yyyy HH-mm");
+	private final SimpleDateFormat sdfHistory = new SimpleDateFormat("dd-MM-yyyy HH-mm");
 
 	public static final String ONGLET_IMPORT = "Import";
 
@@ -124,6 +124,8 @@ public class Constant {
 	public static final Pattern PATTERN_ALPHA_NUM = Pattern.compile(ALPHA_NUM);
 
 	public static final Pattern PATTERN_SIZE = Pattern.compile(SIZE);
+
+	public static final Pattern PATTERN_PUNCTUATION = Pattern.compile("\\p{Punct}");
 
 	public Constant() {
 		// Nothing to do
