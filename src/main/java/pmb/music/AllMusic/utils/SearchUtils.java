@@ -3,6 +3,7 @@
  */
 package pmb.music.AllMusic.utils;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -10,6 +11,7 @@ import java.util.Map;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.Predicate;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Cat;
@@ -36,8 +38,9 @@ public class SearchUtils {
 	 * @param searchInFiles si on doit filtrer ou non les fichiers des compos
 	 * @return la liste de compo filtrée selon les critères
 	 */
-	public static List<Composition> searchContains(List<Composition> compoList, Map<String, String> criteria, final boolean searchInFiles) {
-		LOG.debug("Start searchContains");
+	public static List<Composition> searchJaro(List<Composition> compoList, Map<String, String> criteria, final boolean searchInFiles) {
+		LOG.debug("Start searchJaro");
+		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> arrayList = new ArrayList<>(compoList);
 		// Critères compositions
 		final String artist = criteria.get("artist");
@@ -66,15 +69,21 @@ public class SearchUtils {
 
 					boolean result = true;
 					if (StringUtils.isNotBlank(artist)) {
-						result = result && StringUtils.containsIgnoreCase(co.getArtist(), artist);
+						String newArtist = Constant.PATTERN_PUNCTUATION.matcher(co.getArtist()).replaceAll("").toLowerCase();
+						result = result
+								&& (new BigDecimal(jaro.apply(newArtist, artist)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0 || StringUtils.containsIgnoreCase(
+										co.getArtist(), artist));
 					}
 					if (StringUtils.isNotBlank(titre)) {
-						result = result && StringUtils.containsIgnoreCase(co.getTitre(), titre);
+						String newTitre = Constant.PATTERN_PUNCTUATION.matcher(co.getTitre()).replaceAll("").toLowerCase();
+						result = result
+								&& (new BigDecimal(jaro.apply(newTitre, titre)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0 || StringUtils.containsIgnoreCase(
+										co.getTitre(), titre));
 					}
 					if (type != null) {
 						result = result && co.getRecordType() == RecordType.valueOf(type);
 					}
-					
+
 					List<Fichier> files = new ArrayList<>(co.getFiles());
 					if (searchFile && CollectionUtils.isNotEmpty(files) && result) {
 						CollectionUtils.filter(files, new Predicate() {
@@ -92,7 +101,7 @@ public class SearchUtils {
 				}
 			});
 		}
-		LOG.debug("End searchContains");
+		LOG.debug("End searchJaro");
 		return arrayList;
 	}
 
@@ -142,7 +151,7 @@ public class SearchUtils {
 					if (type != null) {
 						result = result && co.getRecordType() == RecordType.valueOf(type);
 					}
-					
+
 					List<Fichier> files = new ArrayList<>(co.getFiles());
 					if (searchFile && CollectionUtils.isNotEmpty(files)) {
 						CollectionUtils.filter(files, new Predicate() {

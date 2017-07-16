@@ -3,6 +3,7 @@
  */
 package pmb.music.AllMusic.utils;
 
+import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.regex.Pattern;
 
@@ -126,7 +127,13 @@ public class Constant {
 
 	public static final Pattern PATTERN_SIZE = Pattern.compile(SIZE);
 
-	public static final Pattern PATTERN_PUNCTUATION = Pattern.compile("\\p{Punct}");
+	public static final Pattern PATTERN_PUNCTUATION = Pattern.compile("\\p{Punct}|\\s");
+
+	public static final BigDecimal SCORE_LIMIT_TITLE_FUSION = new BigDecimal(0.94D);
+
+	public static final BigDecimal SCORE_LIMIT_ARTIST_FUSION = new BigDecimal(0.95D);
+
+	public static final BigDecimal SCORE_LIMIT_SEARCH = new BigDecimal(0.92D);
 
 	public Constant() {
 		// Nothing to do
