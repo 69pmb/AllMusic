@@ -380,7 +380,7 @@ public class SearchPanel extends JPanel {
 			criteria.put("dateE", rangeE.getText());
 
 			compoResult = new ArrayList<>();
-			compoResult.addAll(SearchUtils.searchContains(allCompo, criteria, inFiles.isSelected()));
+			compoResult.addAll(SearchUtils.searchJaro(allCompo, criteria, inFiles.isSelected()));
 			updateTable();
 		}
 		LOG.debug("End search");
