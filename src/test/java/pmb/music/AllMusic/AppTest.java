@@ -3,13 +3,19 @@ package pmb.music.AllMusic;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.TreeMap;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
+import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.ImportFile;
 import pmb.music.AllMusic.model.Cat;
+import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
@@ -124,5 +130,21 @@ public class AppTest {
 			rank = 1;
 		}
 		LOG.debug("rank: " + rank);
+	}
+
+	@Test
+	public void distanceJaro() {
+		List<Composition> guardian = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		String test = "surf up";
+		Map<Double, String> jaroRes = new TreeMap<>();
+		JaroWinklerDistance jaro = new JaroWinklerDistance();
+		for (Composition composition : guardian) {
+			String titre = composition.getTitre().toLowerCase();
+			Double apply = jaro.apply(titre, test);
+			jaroRes.put(apply, titre);
+		}
+		for (Entry<Double, String> entry : jaroRes.entrySet()) {
+			LOG.debug("Key : " + entry.getKey() + " Value : " + entry.getValue());
+		}
 	}
 }
