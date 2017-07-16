@@ -2,6 +2,7 @@ package pmb.music.AllMusic.utils;
 
 import java.io.File;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -10,6 +11,7 @@ import java.util.Map;
 import java.util.Vector;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
@@ -62,23 +64,19 @@ public class CompositionUtils {
 		LOG.debug("End printCompoList");
 	}
 
-	/**
-	 * Détermine si la compo existe dans la liste donnée.
-	 * 
-	 * @param compos la liste
-	 * @param c la compo à chercher
-	 * @return {@code null} rien trouvé, la 1ère {@link Composition} trouvée sinon
-	 */
 	public static Composition compoExist(List<Composition> compos, Composition c) {
 		Composition res = null;
+		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		for (Composition composition : compos) {
 			if (c.getRecordType().equals(composition.getRecordType())) {
-				String compoTitre = Constant.PATTERN_PUNCTUATION.matcher(composition.getTitre()).replaceAll("");
-				String cTitre = Constant.PATTERN_PUNCTUATION.matcher(c.getTitre()).replaceAll("");
-				if (cTitre.equalsIgnoreCase(compoTitre)) {
-					String compoArtist = Constant.PATTERN_PUNCTUATION.matcher(composition.getArtist()).replaceAll("");
-					String cArtist = Constant.PATTERN_PUNCTUATION.matcher(c.getArtist()).replaceAll("");
-					if (cArtist.equalsIgnoreCase(compoArtist)) {
+
+				String compoTitre = Constant.PATTERN_PUNCTUATION.matcher(composition.getTitre()).replaceAll("").toLowerCase();
+				String cTitre = Constant.PATTERN_PUNCTUATION.matcher(c.getTitre()).replaceAll("").toLowerCase();
+				if (new BigDecimal(jaro.apply(compoTitre, cTitre)).compareTo(Constant.SCORE_LIMIT_TITLE_FUSION) > 0) {
+
+					String compoArtist = Constant.PATTERN_PUNCTUATION.matcher(composition.getArtist()).replaceAll("").toLowerCase();
+					String cArtist = Constant.PATTERN_PUNCTUATION.matcher(c.getArtist()).replaceAll("").toLowerCase();
+					if (new BigDecimal(jaro.apply(compoArtist, cArtist)).compareTo(Constant.SCORE_LIMIT_ARTIST_FUSION) > 0) {
 						res = composition;
 						break;
 					}
