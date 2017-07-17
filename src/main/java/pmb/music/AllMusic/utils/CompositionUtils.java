@@ -64,6 +64,13 @@ public class CompositionUtils {
 		LOG.debug("End printCompoList");
 	}
 
+	/**
+	 * Détermine si la compo existe dans la liste donnée.
+	 * 
+	 * @param compos la liste
+	 * @param c la compo à chercher
+	 * @return {@code null} rien trouvé, la 1ère {@link Composition} trouvée sinon
+	 */
 	public static Composition compoExist(List<Composition> compos, Composition c) {
 		Composition res = null;
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
