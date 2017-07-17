@@ -33,6 +33,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.table.DefaultTableCellRenderer;
@@ -63,7 +64,7 @@ public class SearchPanel extends JPanel {
 	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
 
 	private static final long serialVersionUID = 2593372709628283573L;
-
+	private static final String COMMIT_ACTION = "commit";
 	private JLabel countLabel;
 	private JLabel deleteLabel;
 
@@ -94,8 +95,9 @@ public class SearchPanel extends JPanel {
 	/**
 	 * Génère le panel search 
 	 * @param artist2 le panel artiste
+	 * @param keywords2 
 	 */
-	public SearchPanel(final ArtistPanel artist2) {
+	public SearchPanel(final ArtistPanel artist2, List<String> keywords2) {
 		super();
 		LOG.debug("Start SearchPanel");
 		this.setLayout(new GridLayout(2, 1));
@@ -112,6 +114,11 @@ public class SearchPanel extends JPanel {
 		artistPanel.setPreferredSize(new Dimension(200, 60));
 		JLabel artistLabel = new JLabel("Artiste : ");
 		artist = new JTextField();
+		artist.setFocusTraversalKeysEnabled(false);
+		Autocomplete autocomplete = new Autocomplete(artist, keywords2);
+		artist.getDocument().addDocumentListener(autocomplete);
+		artist.getInputMap().put(KeyStroke.getKeyStroke("TAB"), COMMIT_ACTION);
+		artist.getActionMap().put(COMMIT_ACTION, autocomplete.new CommitAction());
 		artist.setPreferredSize(new Dimension(150, 25));
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
