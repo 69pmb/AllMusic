@@ -7,6 +7,8 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
@@ -14,6 +16,8 @@ import javax.swing.SwingConstants;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.Constant;
 
 /**
@@ -40,7 +44,7 @@ public class Onglet extends JPanel {
 
         ArtistPanel artist = new ArtistPanel();
         ImportPanel importFile = new ImportPanel(artist);
-        SearchPanel search = new SearchPanel(artist);
+		SearchPanel search = new SearchPanel(artist, getKeyWords());
         
 		onglets.addTab(Constant.ONGLET_IMPORT, importFile);
         onglets.setMnemonicAt(0, KeyEvent.VK_1);
@@ -57,7 +61,11 @@ public class Onglet extends JPanel {
     	LOG.debug("End Onglet");
     }
     
-    /**
+    private List<String> getKeyWords() {
+		return ImportXML.importXML(Constant.FINAL_FILE_PATH).stream().map(Composition::getArtist).map(String::toLowerCase).distinct().sorted().collect(Collectors.toList());
+	}
+
+	/**
      * Rafraichi un onglet.
      * @param title le titre de l'onglet à rafraichir
      * @param onglets le conteneur de tous les onglets
