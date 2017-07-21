@@ -485,11 +485,14 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
+				result = new LinkedList<>(Arrays.asList("Dossier historique nettoyé"));
 				try {
 					FichierUtils.cleanHistory();
 				} catch (IOException e) {
 					LOG.error("Erreur lors de cleanHistory", e);
+					result = new LinkedList<>(Arrays.asList(e.toString()));
 				}
+				miseEnFormeResultLabel(result);
 			}
 		});
 		bottom.add(cleanHistory);
