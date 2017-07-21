@@ -128,11 +128,11 @@ public class Constant {
 
 	public static final Pattern PATTERN_PUNCTUATION = Pattern.compile("\\p{Punct}|\\s");
 
-	public static final BigDecimal SCORE_LIMIT_TITLE_FUSION = new BigDecimal(0.94D);
+	public static final BigDecimal SCORE_LIMIT_TITLE_FUSION = BigDecimal.valueOf(0.94D);
 
-	public static final BigDecimal SCORE_LIMIT_ARTIST_FUSION = new BigDecimal(0.95D);
+	public static final BigDecimal SCORE_LIMIT_ARTIST_FUSION = BigDecimal.valueOf(0.95D);
 
-	public static final BigDecimal SCORE_LIMIT_SEARCH = new BigDecimal(0.92D);
+	public static final BigDecimal SCORE_LIMIT_SEARCH = BigDecimal.valueOf(0.92D);
 
 	public Constant() {
 		// Nothing to do
