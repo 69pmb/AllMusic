@@ -223,7 +223,11 @@ public class CompositionUtils {
 		LOG.debug("Start removeCompositionsInFiles");
 		for (Fichier file : toRemove.getFiles()) {
 			// Récupération des compositions du fichier XML
-			List<Composition> importXML = ImportXML.importXML(Constant.XML_PATH + file.getFileName() + Constant.XML_EXTENSION);
+			String filename = Constant.XML_PATH + file.getFileName() + Constant.XML_EXTENSION;
+			List<Composition> importXML = ImportXML.importXML(filename);
+			if(importXML.isEmpty()) {
+				LOG.error("Fichier vide ! " + filename);
+			}
 			// Suppresion de la liste de la composition à enlever
 			int indexOf = importXML.indexOf(new Composition(toRemove.getArtist(), Arrays.asList(file), toRemove.getTitre(), toRemove.getRecordType()));
 			if (indexOf != -1) {
