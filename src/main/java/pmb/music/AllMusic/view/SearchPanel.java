@@ -33,7 +33,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
-import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.table.DefaultTableCellRenderer;
@@ -44,6 +43,8 @@ import javax.swing.table.TableRowSorter;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.log4j.Logger;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -65,47 +66,49 @@ public class SearchPanel extends JPanel {
 	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
 
 	private static final long serialVersionUID = 2593372709628283573L;
-	private static final String COMMIT_ACTION = "commit";
 	private JLabel countLabel;
 	private JLabel deleteLabel;
 
 	private JCheckBox inFiles;
 
-	private JTextField author;
+	private JButton search;
+
 	private JTextField publi;
 	private JTextField rangeB;
 	private JTextField rangeE;
-	private JTextField titre;
 	private JTextField fileName;
-	private JTextField artist;
 
 	private JTable result;
 
 	private JComboBox<Cat> cat;
-
 	private JComboBox<RecordType> type;
+	private JComboBox<String> titre;
+	private JComboBox<String> artist;
+	private JComboBox<String> author;
 
 	private List<Composition> compoResult = new ArrayList<>();
 
 	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "" };
-	
+
 	private int selectedRow = -1;
 
 	private CompoModel model;
 
 	/**
-	 * Génère le panel search 
+	 * Génère le panel search
 	 * @param artist2 le panel artiste
-	 * @param keywords2 
+	 * @param artistList
+	 * @param titleList
+	 * @param authorList
 	 */
-	public SearchPanel(final ArtistPanel artist2, List<String> keywords2) {
+	public SearchPanel(final ArtistPanel artist2, List<String> artistList, List<String> titleList, List<String> authorList) {
 		super();
 		LOG.debug("Start SearchPanel");
 		this.setLayout(new GridLayout(2, 1));
 
 		JPanel header = new JPanel();
 		header.setLayout(new GridLayout(2, 1));
-		
+
 		insertTopPanel(artist2, header);
 
 		JPanel firstLine = new JPanel();
@@ -114,13 +117,9 @@ public class SearchPanel extends JPanel {
 		JPanel artistPanel = new JPanel();
 		artistPanel.setPreferredSize(new Dimension(200, 60));
 		JLabel artistLabel = new JLabel("Artiste : ");
-		artist = new JTextField();
-		artist.setFocusTraversalKeysEnabled(false);
-		Autocomplete autocomplete = new Autocomplete(artist, keywords2);
-		artist.getDocument().addDocumentListener(autocomplete);
-		artist.getInputMap().put(KeyStroke.getKeyStroke("TAB"), COMMIT_ACTION);
-		artist.getActionMap().put(COMMIT_ACTION, autocomplete.new CommitAction());
-		artist.setPreferredSize(new Dimension(150, 25));
+		artist = new JComboBox<>();
+		AutoCompleteSupport.install(artist, GlazedLists.eventListOf(artistList.toArray()));
+		artist.setPreferredSize(new Dimension(150, 30));
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
 		firstLine.add(artistPanel);
@@ -129,8 +128,9 @@ public class SearchPanel extends JPanel {
 		JPanel titrePanel = new JPanel();
 		titrePanel.setPreferredSize(new Dimension(180, 60));
 		JLabel titreLabel = new JLabel("Titre : ");
-		titre = new JTextField();
-		titre.setPreferredSize(new Dimension(150, 25));
+		titre = new JComboBox<>();
+		AutoCompleteSupport.install(titre, GlazedLists.eventListOf(titleList.toArray()));
+		titre.setPreferredSize(new Dimension(150, 30));
 		titrePanel.add(titreLabel);
 		titrePanel.add(titre);
 		firstLine.add(titrePanel);
@@ -149,7 +149,8 @@ public class SearchPanel extends JPanel {
 		JPanel authorPanel = new JPanel();
 		authorPanel.setPreferredSize(new Dimension(200, 60));
 		JLabel authorLabel = new JLabel("Auteur : ");
-		author = new JTextField();
+		author = new JComboBox<>();
+		AutoCompleteSupport.install(author, GlazedLists.eventListOf(authorList.toArray()));
 		author.setPreferredSize(new Dimension(150, 25));
 		authorPanel.add(authorLabel);
 		authorPanel.add(author);
@@ -262,7 +263,7 @@ public class SearchPanel extends JPanel {
 			public void keyPressed(KeyEvent e) {
 				// Nothing to do
 			}
-			
+
 		});
 		result.addMouseListener(new MouseAdapter() {
 
@@ -295,12 +296,12 @@ public class SearchPanel extends JPanel {
 			}
 		};
 
-		JButton search = new JButton("Chercher");
+		search = new JButton("Chercher");
 		search.setBackground(Color.white);
 		search.setPreferredSize(new Dimension(220, 60));
 		search.addActionListener(searchAction);
-		search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW).put(
-				javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0), "Enter_pressed");
+		search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0),
+				"Enter_pressed");
 		search.getActionMap().put("Enter_pressed", searchAction);
 		top.add(search);
 
@@ -344,7 +345,7 @@ public class SearchPanel extends JPanel {
 			}
 		});
 		top.add(delete);
-		
+
 		// CSV
 		JButton csv = new JButton("Télécharger le résultat de la recherche en CSV");
 		csv.setBackground(Color.white);
@@ -365,21 +366,27 @@ public class SearchPanel extends JPanel {
 		top.add(csv);
 		header.add(top);
 	}
-	
+
 	private void searchAction() {
 		LOG.debug("Start search");
 		deleteLabel.setText("");
 		List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		if (CollectionUtils.isNotEmpty(allCompo)) {
 			Map<String, String> criteria = new HashMap<>();
-			criteria.put("artist", artist.getText());
-			criteria.put("titre", titre.getText());
+			if (artist.getSelectedItem() != null) {
+				criteria.put("artist", artist.getSelectedItem().toString());
+			}
+			if (titre.getSelectedItem() != null) {
+				criteria.put("titre", titre.getSelectedItem().toString());
+			}
 			if (type.getSelectedItem() != null) {
 				criteria.put("type", type.getSelectedItem().toString());
 			}
 			criteria.put("publish", publi.getText());
 			criteria.put("fileName", fileName.getText());
-			criteria.put("auteur", author.getText());
+			if (author.getSelectedItem() != null) {
+				criteria.put("auteur", author.getSelectedItem().toString());
+			}
 			if (cat.getSelectedItem() != null) {
 				criteria.put("cat", cat.getSelectedItem().toString());
 			}
@@ -419,8 +426,7 @@ public class SearchPanel extends JPanel {
 	private void updateTable() {
 		LOG.debug("Start updateTable");
 		model.setRowCount(0);
-		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult),
-				new Vector<>(Arrays.asList(title)));
+		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult), new Vector<>(Arrays.asList(title)));
 		colRenderer();
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
@@ -433,12 +439,12 @@ public class SearchPanel extends JPanel {
 
 	private void cleanAction() {
 		LOG.debug("Start cleanAction");
-		artist.setText("");
-		titre.setText("");
+		artist.setSelectedItem(null);
+		titre.setSelectedItem(null);
 		type.setSelectedItem(null);
 		publi.setText("");
 		fileName.setText("");
-		author.setText("");
+		author.setSelectedItem(null);
 		cat.setSelectedItem(null);
 		rangeB.setText("");
 		rangeE.setText("");
@@ -455,8 +461,7 @@ public class SearchPanel extends JPanel {
 		for (Object o : selected) {
 			Vector<String> v = (Vector<String>) o;
 			try {
-				Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1),
-						v.get(2));
+				Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
 				compoResult.remove(compoResult.indexOf(toRemove));
 				importXML.remove(importXML.indexOf(toRemove));
 				CompositionUtils.removeCompositionsInFiles(toRemove);
@@ -487,8 +492,7 @@ public class SearchPanel extends JPanel {
 		// Check each cell to see if it starts with typed char.
 		// if so set corresponding row selected and return.
 		for (int row = startRow + 1; row < modelTable.getRowCount(); row++) {
-			String value = ((Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
-					target.getRowSorter().convertRowIndexToModel(row))).get(0);
+			String value = ((Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row))).get(0);
 			if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
 				target.getSelectionModel().clearSelection();
 				target.getColumnModel().getSelectionModel().clearSelection();
@@ -508,14 +512,12 @@ public class SearchPanel extends JPanel {
 			// Ouvre une popup pour afficher les fichiers de la
 			// composition sélectionnée
 			JTable target = (JTable) e.getSource();
-			Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
-					target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+			Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			List<Fichier> files;
 			try {
-				files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(0), v.get(1), v.get(2))
-						.getFiles();
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files,
-						new Dimension(1500, 400));
+				files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(0), v.get(1), v.get(2)).getFiles();
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 400));
 				pop.showDialogFileTable();
 			} catch (MyException e1) {
 				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
@@ -525,13 +527,11 @@ public class SearchPanel extends JPanel {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
 			JTable target = (JTable) e.getSource();
-			int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target,
-					new Point(e.getX(), e.getY()), target));
+			int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
 			if (rowAtPoint > -1) {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
-			Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(
-					target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+			Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			StringSelection selection = new StringSelection(v.get(0) + " " + v.get(1));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
@@ -539,4 +539,11 @@ public class SearchPanel extends JPanel {
 		}
 	}
 
+	public JButton getSearch() {
+		return search;
+	}
+
+	public void setSearch(JButton search) {
+		this.search = search;
+	}
 }
