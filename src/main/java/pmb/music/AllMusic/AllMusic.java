@@ -52,7 +52,7 @@ public class AllMusic {
 				try {
 					f.setLocation(null);
 				} catch (NullPointerException e) {
-					LOG.debug("", e);
+					LOG.debug(e.getMessage());
 				}
 				f.pack();
 				f.setVisible(true);

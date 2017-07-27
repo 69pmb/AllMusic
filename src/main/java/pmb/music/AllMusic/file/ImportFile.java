@@ -3,12 +3,10 @@
  */
 package pmb.music.AllMusic.file;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
@@ -97,8 +95,8 @@ public class ImportFile {
 				if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, "#")) {
 					continue;
 				}
-				getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter, upper, reverseArtist, parenthese, lineNb,
-						i);
+				getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter, upper, reverseArtist, parenthese,
+						lineNb, i);
 				i++;
 			}
 		} catch (NumberFormatException | IOException e1) {
@@ -119,10 +117,10 @@ public class ImportFile {
 		String[] split = null;
 		if (!upper) {
 			split = splitLineWithSeparator(line, separator, result, lineNb);
-		} 
-		
+		}
+
 		Composition composition = new Composition();
-		int rank = setArtistAndTitreGetRank(composition, line, upper, split,fichier.getSorted(), i);
+		int rank = setArtistAndTitreGetRank(composition, line, upper, split, fichier.getSorted(), i);
 		List<Fichier> files = new ArrayList<>();
 		Fichier fich = new Fichier(fichier);
 		fich.setClassement(rank);
@@ -209,7 +207,7 @@ public class ImportFile {
 		}
 		if (split.length < 2) {
 			// ça ne marche toujours pas, on arrete tout
-			throw new MyException("Separator " + separator + " is not suitable for line " + lineNb + " : " + line);
+			throw new MyException("Separator " + separator + " is not suitable for line " + String.valueOf(lineNb - 1) + " : " + line);
 		}
 		if (split.length > 2) {
 			// Il y a plusieurs séparateur dans la ligne
@@ -276,9 +274,6 @@ public class ImportFile {
 			LOG.debug("Fichier trié");
 			String first = randomLines.get(0);
 			String last = randomLines.get(randomLines.size() - 1);
-			if (StringUtils.isBlank(last)) {
-				last = randomLines.get(randomLines.size() - 2);
-			}
 			int sizeFirst = extractRankFromString(first);
 			int sizeLast = extractRankFromString(last);
 			if (sizeFirst > sizeLast) {
@@ -402,7 +397,7 @@ public class ImportFile {
 		} else if (date.size() == 2) {
 			file.setRangeDateBegin(Integer.parseInt(date.get(0)));
 			file.setRangeDateEnd(Integer.parseInt(date.get(1)));
-		} else if(file.getCategorie() == Cat.ALL_TIME){
+		} else if (file.getCategorie() == Cat.ALL_TIME) {
 			file.setRangeDateBegin(0);
 			file.setRangeDateEnd(file.getPublishYear());
 		} else {
@@ -517,17 +512,35 @@ public class ImportFile {
 		String res = "-";
 		for (int i = 0; i < split.length; i++) {
 			String string = split[i].trim();
-			if (!StringUtils.isAlphanumeric(string)) {
+			if (isSuitableSeparator(string)) {
 				res = string;
+				break;
+			} else {
+				String first = StringUtils.substring(string, 0, 1);
+				if (isSuitableSeparator(first)) {
+					res = first;
+					break;
+				} else {
+					String last = StringUtils.substring(string, string.length() - 1, string.length());
+					if (isSuitableSeparator(last)) {
+						res = last;
+						break;
+					}
+				}
+				
 			}
 		}
 		LOG.debug("End getSeparator");
 		return res;
 	}
+	
+	private static boolean isSuitableSeparator(String sep) {
+		return !StringUtils.isAlphanumeric(sep) && !StringUtils.contains(sep, "(") && !StringUtils.contains(sep, ")") && sep.length()==1 && !StringUtils.contains(sep, ".");
+	}
 
 	/**
 	 * Retourne dans l'ordre les 3 premières lignes, une ligne au hasard et les
-	 * 2 dernières lignes du fichier donné.
+	 * 2 dernières lignes du fichier donné et la derniere ligne non vide.
 	 * 
 	 * @param file le fichier
 	 * @return une liste de 6 String
@@ -551,12 +564,25 @@ public class ImportFile {
 				count++;
 			}
 			lines.add(line);
+			String lastLine = null;
 			while (count < countLines - 1) {
-				br.readLine();
+				String read = br.readLine();
+				if (StringUtils.isNotBlank(read)) {
+					lastLine = read;
+				}
 				count++;
 			}
-			lines.add(StringUtils.trim(br.readLine()));
-			lines.add(StringUtils.trim(br.readLine()));
+			String avantDerniere = StringUtils.trim(br.readLine());
+			lines.add(avantDerniere);
+			if (StringUtils.isNotBlank(avantDerniere)) {
+				lastLine = avantDerniere;
+			}
+			String derniere = StringUtils.trim(br.readLine());
+			lines.add(derniere);
+			if (StringUtils.isNotBlank(derniere)) {
+				lastLine = derniere;
+			}
+			lines.add(StringUtils.trim(lastLine));
 		} catch (IOException e) {
 			LOG.error("Erreur lors de la lecture du fichier " + file.getAbsolutePath(), e);
 		}
@@ -573,25 +599,14 @@ public class ImportFile {
 	 */
 	public static int countLines(String filename) throws IOException {
 		LOG.debug("Start countLines");
-		InputStream is = new BufferedInputStream(new FileInputStream(filename));
-		try {
-			byte[] c = new byte[1024];
-			int count = 0;
-			int readChars = 0;
-			boolean empty = true;
-			while ((readChars = is.read(c)) != -1) {
-				empty = false;
-				for (int i = 0; i < readChars; ++i) {
-					if (c[i] == '\n') {
-						++count;
-					}
-				}
+		int count = 0;
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
+			while (StringUtils.isNotBlank(br.readLine())) {
+				count++;
 			}
 			LOG.debug("End countLines");
-			return (count == 0 && !empty) ? 1 : count;
-		} finally {
-			is.close();
 		}
+		return count;
 	}
 
 }
