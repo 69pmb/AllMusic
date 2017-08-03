@@ -1,6 +1,3 @@
-/**
- * 
- */
 package pmb.music.AllMusic.file;
 
 import java.io.BufferedReader;
@@ -11,7 +8,6 @@ import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
@@ -207,7 +203,7 @@ public class ImportFile {
 		}
 		if (split.length < 2) {
 			// ça ne marche toujours pas, on arrete tout
-			throw new MyException("Separator " + separator + " is not suitable for line " + String.valueOf(lineNb - 1) + " : " + line);
+			throw new MyException("Separator " + separator + " is not suitable for line " + (lineNb - 1) + " : " + line);
 		}
 		if (split.length > 2) {
 			// Il y a plusieurs séparateur dans la ligne
@@ -216,8 +212,7 @@ public class ImportFile {
 			split[0] = StringUtils.replace(StringUtils.substringBeforeLast(line, newSep), newSep, ", ");
 			split[1] = StringUtils.substringAfterLast(line, newSep);
 			if (StringUtils.countMatches(line, newSep) > 1) {
-				result.add("### Error Size (" + split.length + ") for: " + line + LOG_NUMBER + lineNb);
-				result.add("### split: " + Arrays.toString(split));
+				result.add("### Error Size (" + split.length + ") for: " + line + LOG_NUMBER + (lineNb - 1));
 			}
 		}
 		return split;
