@@ -8,15 +8,19 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.text.Normalizer;
-import java.text.Normalizer.Form;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 
 /**
@@ -82,24 +86,62 @@ public class CleanFile {
 		}
 	}
 
-	/**
-	 * Nettoyage à lancer à la main.
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		LOG.debug("Start clearFile");
-		File file = new File(Constant.FINAL_FILE_PATH);
-		String line = "";
-		String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
-				+ StringUtils.substringAfterLast(file.getName(), ".");
-
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.UTF8_ENCODING));
-				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.UTF8_ENCODING));) {
+		List<File> files = new ArrayList<>();
+		File modifFile = new File(Constant.RESOURCES_ABS_DIRECTORY + "modif.txt");
+		Map<String, String> modif = new HashMap<>();
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(modifFile), Constant.UTF8_ENCODING));) {
+			String line;
 			while ((line = br.readLine()) != null) {
-				writer.append(Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "")).append("\n");
+				String[] split = StringUtils.split(line, ":");
+				if(split.length>1) {
+					modif.put(split[0], split[1]);
+				} else {
+					modif.put(split[0], "");
+				}
 			}
 		} catch (IOException e) {
-			LOG.error("Erreur lors du netoyage de " + file.getAbsolutePath(), e);
+			LOG.error("Erreur lors du parsing " + modifFile.getAbsolutePath(), e);
+		}
+		Set<Entry<String, String>> entrySet = modif.entrySet();
+		 CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY),
+		 files, "*.txt", true);
+//		CompositionUtils.listFilesForFolder(
+//				new File(Constant.XML_PATH), files, Constant.XML_EXTENSION, true);
+		for (File file : files) {
+			boolean modify = false;
+			String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
+					+ StringUtils.substringAfterLast(file.getName(), ".");
+			String name = file.getName();
+			if (!"final.xml".equals(name)) {
+				try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.UTF8_ENCODING));
+						BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.UTF8_ENCODING));) {
+					String line;
+					while ((line = br.readLine()) != null) {
+						for (Entry<String, String> entry : entrySet) {
+							if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
+								line = StringUtils.replaceAll(line, entry.getKey(), entry.getValue());
+								modify = true;
+							}
+						}
+						writer.append(line).append("\r\n");
+					}
+				} catch (IOException e) {
+					LOG.error("Erreur lors du netoyage de " + file.getAbsolutePath(), e);
+				}
+			}
+			if (modify) {
+				LOG.debug(file + " modifié");
+				if (!file.delete()) {
+					LOG.debug(file + " n'a pas pu etre supprimé");
+				}
+				new File(exitFile).renameTo(file);
+			} else {
+				if(!new File(exitFile).delete()) {
+					LOG.debug(exitFile + " n'a pas pu etre supprimé");
+				}
+			}
 		}
 		LOG.debug("End clearFile");
 	}
