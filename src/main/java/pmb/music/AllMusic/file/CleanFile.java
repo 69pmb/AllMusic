@@ -8,6 +8,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.text.Normalizer;
+import java.text.Normalizer.Form;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -95,7 +97,7 @@ public class CleanFile {
 			String line;
 			while ((line = br.readLine()) != null) {
 				String[] split = StringUtils.split(line, ":");
-				if(split.length>1) {
+				if (split.length > 1) {
 					modif.put(split[0], split[1]);
 				} else {
 					modif.put(split[0], "");
@@ -105,10 +107,9 @@ public class CleanFile {
 			LOG.error("Erreur lors du parsing " + modifFile.getAbsolutePath(), e);
 		}
 		Set<Entry<String, String>> entrySet = modif.entrySet();
-		 CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY),
-		 files, "*.txt", true);
-//		CompositionUtils.listFilesForFolder(
-//				new File(Constant.XML_PATH), files, Constant.XML_EXTENSION, true);
+		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), files, ".txt", true);
+//		 CompositionUtils.listFilesForFolder(
+//		 new File(Constant.XML_PATH), files, Constant.XML_EXTENSION, true);
 		for (File file : files) {
 			boolean modify = false;
 			String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
@@ -121,11 +122,19 @@ public class CleanFile {
 					while ((line = br.readLine()) != null) {
 						for (Entry<String, String> entry : entrySet) {
 							if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
-								line = StringUtils.replaceAll(line, entry.getKey(), entry.getValue());
+								line = StringUtils.replaceIgnoreCase(line, entry.getKey(), entry.getValue());
 								modify = true;
 							}
 						}
-						writer.append(line).append("\r\n");
+						if (StringUtils.endsWithIgnoreCase(name, ".txt")) {
+							String replaceAll = Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+							if (!StringUtils.endsWithIgnoreCase(line, replaceAll)) {
+								modify = true;
+							}
+							writer.append(replaceAll).append("\r\n");
+						} else {
+							writer.append(line).append("\r\n");
+						}
 					}
 				} catch (IOException e) {
 					LOG.error("Erreur lors du netoyage de " + file.getAbsolutePath(), e);
@@ -138,7 +147,7 @@ public class CleanFile {
 				}
 				new File(exitFile).renameTo(file);
 			} else {
-				if(!new File(exitFile).delete()) {
+				if (!new File(exitFile).delete()) {
 					LOG.debug(exitFile + " n'a pas pu etre supprimé");
 				}
 			}
