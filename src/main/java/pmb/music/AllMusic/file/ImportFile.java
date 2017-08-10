@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 package pmb.music.AllMusic.file;
 
 import java.io.BufferedReader;
@@ -51,7 +54,7 @@ public class ImportFile {
 		fichier.setFileName(StringUtils.substringBeforeLast(name, "."));
 		fichier.setCategorie(determineCategory(name));
 		String auteur = file.getParentFile().getName();
-		if ("album".equalsIgnoreCase(auteur) || "song".equalsIgnoreCase(auteur)) {
+		if ("album".equalsIgnoreCase(auteur) || "song".equalsIgnoreCase(auteur) || "year".equalsIgnoreCase(auteur)) {
 			LOG.debug("Pas d'auteur, on prend le nom du dossier");
 			auteur = file.getParentFile().getParentFile().getName();
 		}
@@ -595,7 +598,7 @@ public class ImportFile {
 		LOG.debug("Start countLines");
 		int count = 0;
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
-			while (StringUtils.isNotBlank(br.readLine())) {
+			while (br.readLine() != null) {
 				count++;
 			}
 			LOG.debug("End countLines");
