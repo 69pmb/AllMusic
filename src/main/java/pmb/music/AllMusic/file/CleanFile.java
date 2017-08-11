@@ -11,7 +11,6 @@ import java.io.OutputStreamWriter;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -49,7 +48,8 @@ public class CleanFile {
 	 */
 	public static File clearFile(File file, boolean isSorted, String sep, String characterToRemove) throws IOException {
 		LOG.debug("Start clearFile");
-		List<String> sepAsList = new LinkedList<>(Arrays.asList(Constant.getSeparators()));
+//		List<String> sepAsList = new LinkedList<>(Arrays.asList(Constant.getSeparators()));
+		List<String> sepAsList = new LinkedList<>();
 		if (StringUtils.isNotBlank(sep)) {
 			sepAsList.add(sep);
 		}
@@ -65,7 +65,7 @@ public class CleanFile {
 					// Si le fichier est trié, on ne garde que les lignes commencant par un chiffre
 					isDigit = StringUtils.isNumeric(StringUtils.substring(line, 0, 1));
 				}
-				if (isDigit) {
+				if (isDigit && line.length()<90) {
 					writesLineIfContainsSepAndRemovesChar(characterToRemove, sepAsList, line, writer);
 				}
 			}
@@ -81,7 +81,7 @@ public class CleanFile {
 		for (String separator : sepAsList) {
 			if (StringUtils.containsIgnoreCase(line, separator)) {
 				if (StringUtils.isNotBlank(characterToRemove)) {
-					newLine = StringUtils.substringAfter(newLine, characterToRemove);
+					newLine = StringUtils.substringBeforeLast(newLine, characterToRemove);
 				}
 				writer.append(newLine).append("\n");
 				break;
@@ -94,7 +94,7 @@ public class CleanFile {
 		List<File> files = new ArrayList<>();
 		File modifFile = new File(Constant.RESOURCES_ABS_DIRECTORY + "modif.txt");
 		Map<String, String> modif = new HashMap<>();
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(modifFile), Constant.UTF8_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(modifFile), Constant.ANSI_ENCODING));) {
 			String line;
 			while ((line = br.readLine()) != null) {
 				String[] split = StringUtils.split(line, ":");
@@ -117,8 +117,8 @@ public class CleanFile {
 					+ StringUtils.substringAfterLast(file.getName(), ".");
 			String name = file.getName();
 			if (!"final.xml".equals(name)) {
-				try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.UTF8_ENCODING));
-						BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.UTF8_ENCODING));) {
+				try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
+						BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
 					String line;
 					while ((line = br.readLine()) != null) {
 						for (Entry<String, String> entry : entrySet) {
