@@ -5,8 +5,13 @@ package pmb.music.AllMusic.XML;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
+import java.util.stream.Collectors;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -27,6 +32,10 @@ import pmb.music.AllMusic.utils.Constant;
 public final class ImportXML {
 
 	private static final Logger LOG = Logger.getLogger(ImportXML.class);
+	private static final DecimalFormat DECIMAL_FORMAT = new DecimalFormat("#0.00", new DecimalFormatSymbols(Locale.US));
+	private static Comparator<Composition> byRecord = (c1, c2) -> c1.getRecordType().toString().compareToIgnoreCase(c2.getRecordType().toString());
+	private static Comparator<Composition> byTitre = (c1, c2) -> c1.getTitre().compareToIgnoreCase(c2.getTitre());
+	private static Comparator<Composition> byArtist = (c1, c2) -> c1.getArtist().compareToIgnoreCase(c2.getArtist());
 	
 	private ImportXML() {}
 
@@ -79,7 +88,10 @@ public final class ImportXML {
 				compoFusion.addAll(ImportXML.importXML(fileXML.getAbsolutePath()));
 			}
 		}
+		// compoFusion = compoFusion.stream().sorted(byRecord.thenComparing(byTitre).thenComparing(byArtist)).collect(Collectors.toList());
 		List<Composition> compoFinal = new ArrayList<>();
+		int size = compoFusion.size();
+		Double i = 0D;
 		for (Composition compo : compoFusion) {
 			Composition compoExist = CompositionUtils.compoExist(compoFinal, compo);
 			if (compoExist == null) {
@@ -88,6 +100,10 @@ public final class ImportXML {
 				Composition composition = compoFusion.get(compoFusion.indexOf(compoExist));
 				composition.getFiles().addAll(compo.getFiles());
 			}
+			if(i%800==0) {
+				LOG.debug("Fusion à " + DECIMAL_FORMAT.format(100*i/size) + "%");
+			}
+			i++;
 		}
 		ExportXML.exportXML(compoFinal, "final");
 		LOG.debug("End fusionFiles");
