@@ -598,8 +598,12 @@ public class ImportFile {
 		LOG.debug("Start countLines");
 		int count = 0;
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
-			while (br.readLine() != null) {
-				count++;
+			String readLine = "";
+			while (readLine != null) {
+				if(StringUtils.isNotBlank(readLine)) {
+					count++;
+				}
+				readLine = br.readLine();
 			}
 			LOG.debug("End countLines");
 		}
