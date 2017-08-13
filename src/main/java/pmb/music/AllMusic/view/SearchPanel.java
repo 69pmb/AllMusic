@@ -43,8 +43,6 @@ import javax.swing.table.TableRowSorter;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -56,6 +54,8 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -66,25 +66,25 @@ public class SearchPanel extends JPanel {
 	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
 
 	private static final long serialVersionUID = 2593372709628283573L;
-	private JLabel countLabel;
-	private JLabel deleteLabel;
+	private final JLabel countLabel;
+	private final JLabel deleteLabel;
 
 	private JCheckBox inFiles;
 
 	private JButton search;
 
-	private JTextField publi;
-	private JTextField rangeB;
-	private JTextField rangeE;
-	private JTextField fileName;
+	private final JTextField publi;
+	private final JTextField rangeB;
+	private final JTextField rangeE;
+	private final JTextField fileName;
 
-	private JTable result;
+	private final JTable result;
 
-	private JComboBox<Cat> cat;
-	private JComboBox<RecordType> type;
-	private JComboBox<String> titre;
-	private JComboBox<String> artist;
-	private JComboBox<String> author;
+	private final JComboBox<Cat> cat;
+	private final JComboBox<RecordType> type;
+	private final JComboBox<String> titre;
+	private final JComboBox<String> artist;
+	private final JComboBox<String> author;
 
 	private List<Composition> compoResult = new ArrayList<>();
 
@@ -92,7 +92,7 @@ public class SearchPanel extends JPanel {
 
 	private int selectedRow = -1;
 
-	private CompoModel model;
+	private final CompoModel model;
 
 	/**
 	 * Génère le panel search
@@ -253,7 +253,6 @@ public class SearchPanel extends JPanel {
 				// Nothing to do
 			}
 
-			@SuppressWarnings("unchecked")
 			@Override
 			public void keyReleased(KeyEvent e) {
 				selectedRow = shortcutKeyAction(e);
@@ -267,7 +266,6 @@ public class SearchPanel extends JPanel {
 		});
 		result.addMouseListener(new MouseAdapter() {
 
-			@SuppressWarnings("unchecked")
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				mouseAction(e);
@@ -335,23 +333,40 @@ public class SearchPanel extends JPanel {
 		// Delete Btn
 		JButton delete = new JButton("Supprimer les compositions sélectionnées");
 		delete.setBackground(Color.white);
-		delete.setPreferredSize(new Dimension(400, 60));
+		delete.setPreferredSize(new Dimension(300, 60));
 		delete.addActionListener(new ActionListener() {
 
-			@SuppressWarnings("unchecked")
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				deleteAction(artist2);
 			}
 		});
 		top.add(delete);
+		
+		// Modif Btn
+		JButton modif = new JButton("Modifier la composition sélectionnée");
+		modif.setBackground(Color.white);
+		modif.setPreferredSize(new Dimension(300, 60));
+		modif.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				try {
+					modifAction(artist2);
+				} catch (MyException e1) {
+					LOG.error("Erreur lors de la modifiatio d'une composition", e1);
+				}
+			}
+		});
+		top.add(modif);
 
 		// CSV
 		JButton csv = new JButton("Télécharger le résultat de la recherche en CSV");
 		csv.setBackground(Color.white);
-		csv.setPreferredSize(new Dimension(400, 60));
+		csv.setPreferredSize(new Dimension(300, 60));
 		csv.addActionListener(new ActionListener() {
 
+			@SuppressWarnings("unchecked")
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search");
@@ -453,6 +468,7 @@ public class SearchPanel extends JPanel {
 		LOG.debug("End cleanAction");
 	}
 
+	@SuppressWarnings("unchecked")
 	private void deleteAction(final ArtistPanel artist2) {
 		LOG.debug("Start delete");
 		List<Object> selected = model.getSelected();
@@ -479,7 +495,55 @@ public class SearchPanel extends JPanel {
 		updateTable();
 		LOG.debug("End delete");
 	}
+	
+	@SuppressWarnings("unchecked")
+	private void modifAction(final ArtistPanel artist2) throws MyException {
+		LOG.debug("Start modif");
+		Object selected = null;
+		Composition toModif = null;
+		Vector<String> v = null;
+		List<Composition> importXML;
+		if(model.getSelected().size()>1) {
+			return;
+		} else {
+			selected = model.getSelected().get(0);
+			v = (Vector<String>) selected;
+			importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+			toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
+		}
+		deleteLabel.setText("Élément modifié");
+		ModifyDialog md = new ModifyDialog(null, "Modifier une composition", true, new Dimension(600, 150), v);
+		md.showDialogFileTable();
+		if(md.isSendData()) {
+			v = md.getCompo();
+		} else {
+			return;
+		}
+			//		try {
+//			Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
+//			compoResult.remove(compoResult.indexOf(toRemove));
+			int indexOfXml = importXML.indexOf(toModif);
+			int indexOfResult = compoResult.indexOf(toModif);
+			CompositionUtils.modifyCompositionsInFiles(toModif, v);
+			toModif.setArtist(v.get(0));
+			toModif.setTitre(v.get(1));
+			importXML.set(indexOfXml, toModif);
+			compoResult.set(indexOfResult, toModif);
+//		} catch (MyException e1) {
+//			LOG.error("Erreur lors de la suppression d'une composition", e1);
+//		}
+		try {
+			ExportXML.exportXML(importXML, "final");
+			artist2.updateArtistPanel();
+		} catch (IOException e1) {
+			LOG.error("Erreur lors de l'export du fichier final", e1);
+			deleteLabel.setText("Erreur lors de l'export du fichier final !!");
+		}
+		updateTable();
+		LOG.debug("End modif");
+	}
 
+	@SuppressWarnings("unchecked")
 	private int shortcutKeyAction(KeyEvent e) {
 		LOG.debug("Start shortcutKeyAction");
 		JTable target = (JTable) e.getSource();
@@ -506,6 +570,7 @@ public class SearchPanel extends JPanel {
 		return -1;
 	}
 
+	@SuppressWarnings("unchecked")
 	private void mouseAction(MouseEvent e) {
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start result mouse");
