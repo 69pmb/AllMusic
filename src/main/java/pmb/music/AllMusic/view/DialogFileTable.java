@@ -127,6 +127,7 @@ public class DialogFileTable extends JDialog {
 		};
 	}
 
+	@SuppressWarnings("unchecked")
 	private void mouseAction(MouseEvent e) {
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start fichier mouse");

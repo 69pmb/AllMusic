@@ -47,9 +47,9 @@ public class ArtistPanel extends JPanel {
 
 	private static final Logger LOG = Logger.getLogger(ArtistPanel.class);
 
-	private JTable table;
+	private final JTable table;
 
-	private ArtistModel model;
+	private final ArtistModel model;
 
 	private List<Composition> list;
 
@@ -79,7 +79,6 @@ public class ArtistPanel extends JPanel {
 		updateArtistPanel();
 		table.addMouseListener(new MouseAdapter() {
 
-			@SuppressWarnings("unchecked")
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				mouseClickAction(e);
@@ -93,7 +92,6 @@ public class ArtistPanel extends JPanel {
 				// Nothing to do
 			}
 
-			@SuppressWarnings("unchecked")
 			@Override
 			public void keyReleased(KeyEvent e) {
 				selectedRow = keyShortcutAction(e, selectedRow);
@@ -150,6 +148,7 @@ public class ArtistPanel extends JPanel {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	private void mouseClickAction(MouseEvent e) {
 		JTable target = (JTable) e.getSource();
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
@@ -182,6 +181,7 @@ public class ArtistPanel extends JPanel {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	private int keyShortcutAction(KeyEvent e, int selectedRow) {
 		LOG.debug("Start keyShortcutAction");
 		JTable target = (JTable) e.getSource();
