@@ -244,4 +244,38 @@ public class CompositionUtils {
 		}
 		LOG.debug("End removeCompositionsInFiles");
 	}
+	
+	/**
+	 * Modifie dans les fichiers XML, la composition donnée.
+	 * @param toModif la {@link Composition} à modifier des fichiers
+	 * @param v 
+	 */
+	public static void modifyCompositionsInFiles(Composition toModif, Vector<String> v) {
+		LOG.debug("Start modifyCompositionsInFiles");
+		for (Fichier file : toModif.getFiles()) {
+			// Récupération des compositions du fichier XML
+			String filename = Constant.XML_PATH + file.getFileName() + Constant.XML_EXTENSION;
+			List<Composition> importXML = ImportXML.importXML(filename);
+			if(importXML.isEmpty()) {
+				LOG.error("Fichier vide ! " + filename);
+			}
+			// Modificaton de la liste de la composition à enlever
+			int indexOf = importXML.indexOf(new Composition(toModif.getArtist(), Arrays.asList(file), toModif.getTitre(), toModif.getRecordType()));
+			if (indexOf != -1) {
+				Composition composition = importXML.get(indexOf);
+				composition.setArtist(v.get(0));
+				composition.setTitre(v.get(1));
+				importXML.set(indexOf, composition);
+			} else {
+				LOG.error("indexOf -1: " + toModif.getArtist() + " " + toModif.getFiles() + " " + toModif.getTitre() + " " + toModif.getRecordType());
+			}
+			try {
+				// Sauvegarde des modifications
+				ExportXML.exportXML(importXML, file.getFileName());
+			} catch (IOException e) {
+				LOG.error("Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(), e);
+			}
+		}
+		LOG.debug("End modifyCompositionsInFiles");
+	}
 }
