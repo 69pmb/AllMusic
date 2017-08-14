@@ -43,6 +43,8 @@ import javax.swing.table.TableRowSorter;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.log4j.Logger;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -54,8 +56,6 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -351,11 +351,7 @@ public class SearchPanel extends JPanel {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				try {
-					modifAction(artist2);
-				} catch (MyException e1) {
-					LOG.error("Erreur lors de la modifiatio d'une composition", e1);
-				}
+				modifAction(artist2);
 			}
 		});
 		top.add(modif);
@@ -490,48 +486,60 @@ public class SearchPanel extends JPanel {
 			artist2.updateArtistPanel();
 		} catch (IOException e1) {
 			LOG.error("Erreur lors de l'export du fichier final", e1);
-			deleteLabel.setText("Erreur lors de l'export du fichier final !!");
+			deleteLabel.setText("Erreur lors de l'export du fichier final !!" + e1);
 		}
 		updateTable();
 		LOG.debug("End delete");
 	}
 	
 	@SuppressWarnings("unchecked")
-	private void modifAction(final ArtistPanel artist2) throws MyException {
+	private void modifAction(final ArtistPanel artist2) {
 		LOG.debug("Start modif");
+		deleteLabel.setText("Élément modifié");
 		Object selected = null;
 		Composition toModif = null;
 		Vector<String> v = null;
 		List<Composition> importXML;
-		if(model.getSelected().size()>1) {
+		if (model.getSelected().size() > 1) {
 			return;
 		} else {
 			selected = model.getSelected().get(0);
 			v = (Vector<String>) selected;
 			importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-			toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
+			try {
+				toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
+			} catch (MyException e1) {
+				String log = "Erreur lors de la modifiation d'une composition";
+				LOG.error(log, e1);
+				deleteLabel.setText(log + e1);
+				return;
+			}
 		}
-		deleteLabel.setText("Élément modifié");
 		ModifyDialog md = new ModifyDialog(null, "Modifier une composition", true, new Dimension(600, 150), v);
 		md.showDialogFileTable();
-		if(md.isSendData()) {
+		if (md.isSendData()) {
 			v = md.getCompo();
 		} else {
 			return;
 		}
-			//		try {
-//			Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
-//			compoResult.remove(compoResult.indexOf(toRemove));
-			int indexOfXml = importXML.indexOf(toModif);
-			int indexOfResult = compoResult.indexOf(toModif);
-			CompositionUtils.modifyCompositionsInFiles(toModif, v);
-			toModif.setArtist(v.get(0));
-			toModif.setTitre(v.get(1));
-			importXML.set(indexOfXml, toModif);
-			compoResult.set(indexOfResult, toModif);
-//		} catch (MyException e1) {
-//			LOG.error("Erreur lors de la suppression d'une composition", e1);
-//		}
+		int indexOfXml = importXML.indexOf(toModif);
+		int indexOfResult = compoResult.indexOf(toModif);
+		CompositionUtils.modifyCompositionsInFiles(toModif, v);
+		toModif.setArtist(v.get(0));
+		toModif.setTitre(v.get(1));
+		
+		importXML.remove(indexOfXml);
+		compoResult.remove(indexOfResult);
+		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);
+		if (compoExist == null) {
+			importXML.add(toModif);
+			compoResult.add(toModif);
+		} else {
+			compoExist.getFiles().addAll(toModif.getFiles());
+			
+			Composition compoExistResult = CompositionUtils.compoExist(compoResult, toModif);
+			compoExistResult.getFiles().addAll(toModif.getFiles());
+		}
 		try {
 			ExportXML.exportXML(importXML, "final");
 			artist2.updateArtistPanel();
