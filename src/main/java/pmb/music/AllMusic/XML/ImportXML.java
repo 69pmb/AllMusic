@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
-import java.util.stream.Collectors;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -97,8 +96,7 @@ public final class ImportXML {
 			if (compoExist == null) {
 				compoFinal.add(compo);
 			} else {
-				Composition composition = compoFusion.get(compoFusion.indexOf(compoExist));
-				composition.getFiles().addAll(compo.getFiles());
+				compoExist.getFiles().addAll(compo.getFiles());
 			}
 			if(i%800==0) {
 				LOG.debug("Fusion à " + DECIMAL_FORMAT.format(100*i/size) + "%");
