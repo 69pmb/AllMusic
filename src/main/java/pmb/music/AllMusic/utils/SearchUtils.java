@@ -214,10 +214,10 @@ public class SearchUtils {
 			result = result && fi.getCategorie() == Cat.valueOf(cat);
 		}
 		if (StringUtils.isNotBlank(dateB)) {
-			result = result && fi.getRangeDateBegin() == Integer.parseInt(dateB);
+			result = result && fi.getRangeDateBegin() >= Integer.parseInt(dateB);
 		}
 		if (StringUtils.isNotBlank(dateE)) {
-			result = result && fi.getRangeDateEnd() == Integer.parseInt(dateE);
+			result = result && fi.getRangeDateEnd() <= Integer.parseInt(dateE);
 		}
 		return result;
 	}
