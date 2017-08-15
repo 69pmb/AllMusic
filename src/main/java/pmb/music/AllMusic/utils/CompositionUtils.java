@@ -272,20 +272,21 @@ public class CompositionUtils {
 				LOG.error("Fichier vide ! " + filename);
 			}
 			// Modificaton de la liste de la composition à enlever
-			int indexOf = importXML.indexOf(new Composition(toModif.getArtist(), Arrays.asList(file), toModif.getTitre(), toModif.getRecordType()));
+			int indexOf = SearchUtils.indexOf(importXML, toModif);
 			if (indexOf != -1) {
 				Composition composition = importXML.get(indexOf);
 				composition.setArtist(v.get(0));
 				composition.setTitre(v.get(1));
 				importXML.set(indexOf, composition);
+				try {
+					// Sauvegarde des modifications
+					ExportXML.exportXML(importXML, file.getFileName());
+				} catch (IOException e) {
+					LOG.error("Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(), e);
+				}
 			} else {
 				LOG.error("indexOf -1: " + toModif.getArtist() + " " + toModif.getFiles() + " " + toModif.getTitre() + " " + toModif.getRecordType());
-			}
-			try {
-				// Sauvegarde des modifications
-				ExportXML.exportXML(importXML, file.getFileName());
-			} catch (IOException e) {
-				LOG.error("Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(), e);
+				LOG.error(filename + "\n");
 			}
 		}
 		LOG.debug("End modifyCompositionsInFiles");
