@@ -108,8 +108,9 @@ public class CleanFile {
 		}
 		Set<Entry<String, String>> entrySet = modif.entrySet();
 		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), files, ".txt", true);
-//		 CompositionUtils.listFilesForFolder(
-//		 new File(Constant.XML_PATH), files, Constant.XML_EXTENSION, true);
+//		CompositionUtils.listFilesForFolder(
+//		new File(Constant.XML_PATH), files, Constant.XML_EXTENSION, true);
+//		files = Arrays.asList(new File("C:\\Users\\workspace\\git\\AllMusic\\src\\main\\resources\\XML\\GorillaVsBear Song - 2014.xml"));
 		for (File file : files) {
 			boolean modify = false;
 			String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
