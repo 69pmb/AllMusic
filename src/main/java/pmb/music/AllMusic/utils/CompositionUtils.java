@@ -79,11 +79,23 @@ public class CompositionUtils {
 			if (c.getRecordType().equals(composition.getRecordType())) {
 
 				String compoTitre = Constant.PATTERN_PUNCTUATION.matcher(composition.getTitre()).replaceAll("").toLowerCase();
+				if (StringUtils.isBlank(compoTitre)) {
+					compoTitre = composition.getTitre().toLowerCase();
+				}
 				String cTitre = Constant.PATTERN_PUNCTUATION.matcher(c.getTitre()).replaceAll("").toLowerCase();
+				if (StringUtils.isBlank(cTitre)) {
+					cTitre = c.getTitre().toLowerCase();
+				}
 				if (new BigDecimal(jaro.apply(compoTitre, cTitre)).compareTo(Constant.SCORE_LIMIT_TITLE_FUSION) > 0) {
 
 					String compoArtist = Constant.PATTERN_PUNCTUATION.matcher(composition.getArtist()).replaceAll("").toLowerCase();
+					if (StringUtils.isBlank(compoArtist)) {
+						compoArtist = composition.getArtist().toLowerCase();
+					}
 					String cArtist = Constant.PATTERN_PUNCTUATION.matcher(c.getArtist()).replaceAll("").toLowerCase();
+					if (StringUtils.isBlank(cArtist)) {
+						cArtist = c.getArtist().toLowerCase();
+					}
 					if (new BigDecimal(jaro.apply(compoArtist, cArtist)).compareTo(Constant.SCORE_LIMIT_ARTIST_FUSION) > 0) {
 						res = composition;
 						break;
