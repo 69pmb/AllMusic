@@ -4,25 +4,36 @@
 package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Vector;
+import java.util.stream.Collectors;
 
+import javax.swing.AbstractAction;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.table.DefaultTableCellRenderer;
@@ -30,22 +41,36 @@ import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
+import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.file.CsvFile;
+import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.SearchUtils;
 
 /**
  * L'onglet Artiste, classement des artistes les plus cités.
+ * 
  */
 public class ArtistPanel extends JPanel {
 
 	private static final long serialVersionUID = 2593372709628283573L;
 
 	private static final Logger LOG = Logger.getLogger(ArtistPanel.class);
+
+	private final JTextField publi;
+	private final JTextField rangeB;
+	private final JTextField rangeE;
+	private final JTextField auteur;
+	private final JComboBox<Cat> cat;
+	private JButton search;
+	private JButton reset;
 
 	private final JTable table;
 
@@ -54,7 +79,7 @@ public class ArtistPanel extends JPanel {
 	private List<Composition> list;
 
 	private static final String[] title = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
-	
+
 	private int selectedRow = -1;
 
 	/**
@@ -63,6 +88,106 @@ public class ArtistPanel extends JPanel {
 	public ArtistPanel() {
 		super();
 		LOG.debug("Start ArtistPanel");
+		this.setLayout(new BorderLayout());
+
+		JPanel header = new JPanel();
+		// Publi
+		JPanel publiPanel = new JPanel();
+		publiPanel.setPreferredSize(new Dimension(200, 60));
+		JLabel publiLabel = new JLabel("Année de publication : ");
+		publi = new JTextField();
+		publi.setPreferredSize(new Dimension(150, 25));
+		publiPanel.add(publiLabel);
+		publiPanel.add(publi);
+		header.add(publiPanel);
+		// Range
+		JPanel rangePanel = new JPanel();
+		rangePanel.setPreferredSize(new Dimension(310, 60));
+		JLabel rangeLabel = new JLabel("Année(s) du classement :                ");
+		rangeB = new JTextField();
+		rangeE = new JTextField();
+		rangeB.setPreferredSize(new Dimension(150, 25));
+		rangeE.setPreferredSize(new Dimension(150, 25));
+		rangePanel.add(rangeLabel);
+		rangePanel.add(rangeB);
+		rangePanel.add(rangeE);
+		header.add(rangePanel);
+		// Auteur
+		JPanel fileNamePanel = new JPanel();
+		fileNamePanel.setPreferredSize(new Dimension(200, 60));
+		JLabel fileNameLabel = new JLabel("Auteur : ");
+		auteur = new JTextField();
+		auteur.setPreferredSize(new Dimension(150, 25));
+		fileNamePanel.add(fileNameLabel);
+		fileNamePanel.add(auteur);
+		header.add(fileNamePanel);
+		// Categorie
+		JPanel catPanel = new JPanel();
+		catPanel.setPreferredSize(new Dimension(200, 60));
+		JLabel catLabel = new JLabel("Catégorie : ");
+		cat = new JComboBox<>();
+		cat.addItem(null);
+		Cat[] values = Cat.values();
+		for (int i = 0; i < values.length; i++) {
+			cat.addItem(values[i]);
+		}
+		cat.setPreferredSize(new Dimension(150, 25));
+		catPanel.add(catLabel);
+		catPanel.add(cat);
+		header.add(catPanel);
+		// SEARCH
+		search = new JButton("Chercher");
+		search.setBackground(Color.white);
+		search.setPreferredSize(new Dimension(200, 60));
+		search.addActionListener(new AbstractAction() {
+
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				searchAction();
+			}
+		});
+		header.add(search);
+		// RESET
+		reset = new JButton("Réinitialiser");
+		reset.setBackground(Color.white);
+		reset.setPreferredSize(new Dimension(200, 60));
+		reset.addActionListener(new AbstractAction() {
+
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				resetAction();
+			}
+		});
+		header.add(reset);
+		// CSV
+		JButton csv = new JButton("Télécharger la recherche en CSV");
+		csv.setBackground(Color.white);
+		csv.setPreferredSize(new Dimension(300, 60));
+		csv.addActionListener(new ActionListener() {
+
+			@SuppressWarnings("unchecked")
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				List<String> c = Arrays.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
+						cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString()).stream().filter(s->!"".equals(s)).collect(Collectors.toList());
+				String criteres = StringUtils.join(c, " ");
+				String name = CsvFile.writeCsvFromArtistPanel(model.getDataVector(), "search", criteres);
+				try {
+					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
+				} catch (IOException e1) {
+					LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
+				}
+			}
+
+		});
+		header.add(csv);
+		this.add(header, BorderLayout.PAGE_START);
+
+		// ----- DEBUT TABLE ----------
 		table = new JTable();
 		table.setAutoCreateRowSorter(true);
 		table.setRowHeight(30);
@@ -103,8 +228,8 @@ public class ArtistPanel extends JPanel {
 			}
 		});
 
-		this.setLayout(new BorderLayout());
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
+		// ----- FIN TABLE ----------
 		LOG.debug("End ArtistPanel");
 	}
 
@@ -113,16 +238,21 @@ public class ArtistPanel extends JPanel {
 	 */
 	public void updateArtistPanel() {
 		LOG.debug("Start updateArtistPanel");
+		resetAction();
 		model.setRowCount(0);
 		list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
+		updateTable();
+		LOG.debug("End updateArtistPanel");
+	}
+
+	private void updateTable() {
 		colRenderer();
 		model.fireTableDataChanged();
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
 		table.repaint();
 		selectedRow = -1;
-		LOG.debug("End updateArtistPanel");
 	}
 
 	private void colRenderer() {
@@ -172,8 +302,7 @@ public class ArtistPanel extends JPanel {
 			if (rowAtPoint > -1) {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
-			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			StringSelection selection = new StringSelection(v.get(0));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
@@ -194,8 +323,7 @@ public class ArtistPanel extends JPanel {
 		// Check each cell to see if it starts with typed char.
 		// if so set corresponding row selected and return.
 		for (int row = startRow + 1; row < tableModel.getRowCount(); row++) {
-			String value = ((Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row)))
-					.get(0);
+			String value = ((Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row))).get(0);
 			if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
 				target.getSelectionModel().clearSelection();
 				target.getColumnModel().getSelectionModel().clearSelection();
@@ -207,6 +335,34 @@ public class ArtistPanel extends JPanel {
 		}
 		LOG.debug("End keyShortcutAction, no result");
 		return -1;
+	}
+
+	private void searchAction() {
+		LOG.debug("Start search");
+		if (CollectionUtils.isNotEmpty(list)) {
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put("auteur", auteur.getText());
+			if (cat.getSelectedItem() != null) {
+				criteria.put("cat", cat.getSelectedItem().toString());
+			}
+			criteria.put("dateB", rangeB.getText());
+			criteria.put("dateE", rangeE.getText());
+			criteria.put("publish", publi.getText());
+
+			List<Composition> compoResult = new ArrayList<>();
+			compoResult.addAll(SearchUtils.searchJaro(list, criteria, true));
+			model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(compoResult), new Vector<>(Arrays.asList(title)));
+			updateTable();
+		}
+		LOG.debug("End search");
+	}
+
+	private void resetAction() {
+		rangeB.setText("");
+		rangeE.setText("");
+		auteur.setText("");
+		publi.setText("");
+		cat.setSelectedItem(null);
 	}
 
 }
