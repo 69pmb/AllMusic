@@ -39,6 +39,7 @@ public class ModifyDialog extends JDialog {
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
 	 * @param files {@code List<Fichier>} la liste des fichier à afficher
 	 * @param dim {@link Dimension} les dimension de la popup
+	 * @param compo {@link Vector} la compo à modifier
 	 */
 	public ModifyDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector compo) {
 		super(parent, header, modal);
