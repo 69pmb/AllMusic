@@ -495,9 +495,9 @@ public class SearchPanel extends JPanel {
 	private void modifAction(final ArtistPanel artist2) {
 		LOG.debug("Start modif");
 		deleteLabel.setText("Élément modifié");
-		Object selected = null;
-		Composition toModif = null;
-		Vector<String> v = null;
+		Object selected;
+		Composition toModif;
+		Vector<String> v;
 		List<Composition> importXML;
 		if (model.getSelected().size() > 1) {
 			return;
