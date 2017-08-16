@@ -88,6 +88,12 @@ public class CleanFile {
 		}
 	}
 
+	/**
+	 * Mofifie les fichiers spécifiés:
+	 * Remplace suivant le fichier modif.txt des caractères par d'autres. 
+	 * Supprime tous les diacritiques.
+	 * @param args 
+	 */
 	public static void main(String[] args) {
 		LOG.debug("Start clearFile");
 		List<File> files = new ArrayList<>();
