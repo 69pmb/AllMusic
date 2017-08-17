@@ -100,7 +100,7 @@ public final class ImportXML {
 				compoExist.getFiles().addAll(compo.getFiles());
 			}
 			if(i%800==0) {
-				LOG.debug("Fusion à " + DECIMAL_FORMAT.format(100*i/size) + "%");
+				LOG.info("Fusion à " + DECIMAL_FORMAT.format(100*i/size) + "%");
 			}
 			i++;
 		}
