@@ -434,18 +434,18 @@ public class ImportPanel extends JPanel {
 		bottom.add(cleanFile);
 
 		JButton fusionFile = new JButton("Fusionner tous les fichiers");
+		importFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
 		fusionFile.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				LOG.debug("Start fusionFile");
 				fusionFilesAction(artist);
-				LOG.debug("End fusionFile");
 			}
 		});
 		bottom.add(fusionFile);
 
 		JButton fusionOneFile = new JButton("Ajouter le fichier aux autres");
+		importFile.setToolTipText("Ajoute le fichiers importé dans le fichier final.");
 		fusionOneFile.addActionListener(new ActionListener() {
 
 			@Override
@@ -534,9 +534,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				LOG.debug("Start cleanBtn");
 				resetAll();
-				LOG.debug("End cleanBtn");
 			}
 		});
 		top.add(cleanBtn);
@@ -797,7 +795,7 @@ public class ImportPanel extends JPanel {
 		LOG.debug("Start openXml");
 		if (StringUtils.isNotBlank(absolutePathFileXml)) {
 			try {
-				LOG.info(absolutePathFileXml);
+				LOG.debug(absolutePathFileXml);
 				if (FileUtils.fileExists(absolutePathFileXml)) {
 					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absolutePathFileXml);
 				}
