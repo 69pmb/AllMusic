@@ -433,7 +433,7 @@ public class ImportPanel extends JPanel {
 		bottom.add(cleanFile);
 
 		JButton fusionFile = new JButton("Fusionner tous les fichiers");
-		importFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
+		fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
 		fusionFile.addActionListener(new ActionListener() {
 
 			@Override
@@ -444,7 +444,7 @@ public class ImportPanel extends JPanel {
 		bottom.add(fusionFile);
 
 		JButton fusionOneFile = new JButton("Ajouter le fichier aux autres");
-		importFile.setToolTipText("Ajoute le fichiers importé dans le fichier final.");
+		fusionOneFile.setToolTipText("Ajoute le fichiers importé dans le fichier final.");
 		fusionOneFile.addActionListener(new ActionListener() {
 
 			@Override
