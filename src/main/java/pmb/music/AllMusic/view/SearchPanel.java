@@ -375,7 +375,7 @@ public class SearchPanel extends JPanel {
 								author.getSelectedItem() == null ? "" : author.getSelectedItem().toString())
 						.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 				String criteres = StringUtils.join(c, " ");
-				String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search", criteres);
+				String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search", criteres, result.getRowSorter().getSortKeys().get(0));
 				try {
 					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
 				} catch (IOException e1) {
