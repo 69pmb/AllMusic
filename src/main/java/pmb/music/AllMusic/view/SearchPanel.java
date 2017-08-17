@@ -23,6 +23,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Vector;
+import java.util.stream.Collectors;
 
 import javax.swing.AbstractAction;
 import javax.swing.JButton;
@@ -41,6 +42,7 @@ import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import ca.odell.glazedlists.GlazedLists;
@@ -365,7 +367,16 @@ public class SearchPanel extends JPanel {
 			@SuppressWarnings("unchecked")
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search");
+				List<String> c = Arrays
+						.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
+								cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString(),
+								type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(),
+								titre.getSelectedItem() == null ? "" : titre.getSelectedItem().toString(),
+								artist.getSelectedItem() == null ? "" : artist.getSelectedItem().toString(),
+								author.getSelectedItem() == null ? "" : author.getSelectedItem().toString())
+						.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
+				String criteres = StringUtils.join(c, " ");
+				String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search", criteres);
 				try {
 					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
 				} catch (IOException e1) {
