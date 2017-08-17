@@ -175,7 +175,7 @@ public class ArtistPanel extends JPanel {
 				List<String> c = Arrays.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
 						cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString()).stream().filter(s->!"".equals(s)).collect(Collectors.toList());
 				String criteres = StringUtils.join(c, " ");
-				String name = CsvFile.writeCsvFromArtistPanel(model.getDataVector(), "search", criteres);
+				String name = CsvFile.writeCsvFromArtistPanel(model.getDataVector(), "artist", criteres);
 				try {
 					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
 				} catch (IOException e1) {
