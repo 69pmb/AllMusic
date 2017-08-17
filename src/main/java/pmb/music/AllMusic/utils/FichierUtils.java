@@ -107,7 +107,7 @@ public class FichierUtils {
 			for (int i = 1; i < list.get(key).size(); i++) {
 				String toDelete = path + new Constant().getSdfHistory().format(list.get(key).get(i)) + Constant.XML_EXTENSION;
 				if (!new File(toDelete).delete()) {
-					LOG.debug(toDelete + " n'a pas pu etre supprimé");
+					LOG.error(toDelete + " n'a pas pu etre supprimé");
 				}
 			}
 		}
