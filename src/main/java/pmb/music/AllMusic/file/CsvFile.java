@@ -24,14 +24,15 @@ public class CsvFile {
 	 * Crée un fichier {@code CSV} à partir des résultats de recherche.
 	 * @param dataVector les données issues d'une recherche
 	 * @param filename le nom du fichier csv
+	 * @param criteres 
 	 * @return  le nom du fichier
 	 */
-	public static String writeCsvFromSearchResult(Vector<Vector<Object>> dataVector, String filename) {
+	public static String writeCsvFromSearchResult(Vector<Vector<Object>> dataVector, String filename, String criteres) {
 		LOG.debug("Start writeCsv");
 		String name = filename + Constant.CSV_EXTENSION;
 		try (CSVWriter csvWriter = new CSVWriter(new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING),
 				';');) {
-			String[] header = {"Artiste","Titre", "Type", "Nombre de fichiers"};
+			String[] header = {"Artiste","Titre", "Type", "Nombre de fichiers", "Critères: " + criteres};
 			csvWriter.writeNext(header);
 			for (int i = 0; i < dataVector.size(); i++) {
 				Vector<Object> vector = dataVector.get(i);
