@@ -32,6 +32,11 @@ public class Constant {
 	 * Chemin abs du dossier d'historique.
 	 */
 	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history") + "\\";
+	
+	/**
+	 * Chemin abs du fichier de log.
+	 */
+	public static final String FILE_LOG_PATH = Constant.USER_DIR + "\\file.log";
 
 	/**
 	 * Chemin abs du dossier contenant tous les fichiers xml importés.
