@@ -25,6 +25,7 @@ import org.apache.log4j.Logger;
  */
 @SuppressWarnings("rawtypes")
 public class ModifyDialog extends JDialog {
+	
 	private static final long serialVersionUID = 1304786661370052913L;
 	private static final Logger LOG = Logger.getLogger(ModifyDialog.class);
 	private final Vector compo;
@@ -54,6 +55,7 @@ public class ModifyDialog extends JDialog {
 	}
 
 	private void initComposant() {
+		LOG.debug("Start initComposant");
 		// Artiste
 		JPanel artistPanel = new JPanel();
 		artistPanel.setPreferredSize(new Dimension(250, 60));
@@ -104,14 +106,17 @@ public class ModifyDialog extends JDialog {
 	    
 	    this.getContentPane().add(content, BorderLayout.CENTER);
 	    this.getContentPane().add(control, BorderLayout.SOUTH);
+		LOG.debug("End initComposant");
 	}
 
 	/**
 	 * Affiche une {@link ModifyDialog}.
 	 */
 	public void showDialogFileTable() {
+		LOG.debug("Start showDialogFileTable");
 	    this.sendData = false;
-	    this.setVisible(true);      
+	    this.setVisible(true);  
+		LOG.debug("End showDialogFileTable");    
 	}
 
 	public Vector getCompo() {
