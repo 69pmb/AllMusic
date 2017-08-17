@@ -1,14 +1,19 @@
 package pmb.music.AllMusic;
 
 import java.awt.EventQueue;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.view.BasicFrame;
 
 /**
@@ -33,8 +38,14 @@ public class AllMusic {
 			@Override
 			public void run() {
 				LOG.debug("Fin de AllMusic");
-				// Si je veux ajouter un traitement qui se lance quand l'appli
-				// se ferme
+				try (BufferedReader br = new BufferedReader(new FileReader(Constant.FILE_LOG_PATH));) {
+					String line = br.readLine();
+					if (line != null && StringUtils.isNotBlank(line)) {
+						Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + Constant.FILE_LOG_PATH);
+					}
+				} catch (IOException e) {
+					LOG.error("Erreur lors de l'ouverture du fichier de log: " + Constant.FILE_LOG_PATH, e);
+				}
 			}
 		}));
 		try {
@@ -43,6 +54,7 @@ public class AllMusic {
 			LOG.error("Impossible d'appliquer le style demandé", e);
 		}
 		EventQueue.invokeLater(new Runnable() {
+
 			@Override
 			public void run() {
 				final BasicFrame f = new BasicFrame();
@@ -52,7 +64,7 @@ public class AllMusic {
 				try {
 					f.setLocation(null);
 				} catch (NullPointerException e) {
-					LOG.debug(e.getMessage());
+					LOG.debug("", e);
 				}
 				f.pack();
 				f.setVisible(true);
