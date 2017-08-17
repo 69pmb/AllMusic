@@ -342,6 +342,7 @@ public class ArtistPanel extends JPanel {
 
 	private void searchAction() {
 		LOG.debug("Start search");
+		list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		if (CollectionUtils.isNotEmpty(list)) {
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put("auteur", auteur.getText());
@@ -352,9 +353,8 @@ public class ArtistPanel extends JPanel {
 			criteria.put("dateE", rangeE.getText());
 			criteria.put("publish", publi.getText());
 
-			List<Composition> compoResult = new ArrayList<>();
-			compoResult.addAll(SearchUtils.searchJaro(list, criteria, true));
-			model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(compoResult), new Vector<>(Arrays.asList(title)));
+			list = SearchUtils.searchJaro(list, criteria, true);
+			model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
 			updateTable();
 		}
 		LOG.debug("End search");
