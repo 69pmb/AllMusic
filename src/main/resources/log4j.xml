@@ -15,7 +15,7 @@
 		<param name="threshold" value="warn" />
 		<param name="append" value="false" />
 		<layout class="org.apache.log4j.PatternLayout">
-			<param name="ConversionPattern" value="%d{HH:mm:ss} %-5p: %c - %m%n" />
+			<param name="ConversionPattern" value="%d{HH:mm:ss} %-5p: %c - line %L - %m%n" />
 		</layout>
 	</appender>
 	<root>
