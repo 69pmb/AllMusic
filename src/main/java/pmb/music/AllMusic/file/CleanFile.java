@@ -122,7 +122,7 @@ public class CleanFile {
 			String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
 					+ StringUtils.substringAfterLast(file.getName(), ".");
 			String name = file.getName();
-			if (!"final.xml".equals(name)) {
+			if (!Constant.FINAL_FILE.equals(name)) {
 				try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
 						BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
 					String line;
