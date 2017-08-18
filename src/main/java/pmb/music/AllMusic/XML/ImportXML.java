@@ -83,7 +83,7 @@ public final class ImportXML {
 		CompositionUtils.listFilesForFolder(dir, files, Constant.XML_EXTENSION, false);
 		List<Composition> compoFusion = new ArrayList<>();
 		for (File fileXML : files) {
-			boolean isFinal = "final.xml".equalsIgnoreCase(fileXML.getName());
+			boolean isFinal = Constant.FINAL_FILE.equalsIgnoreCase(fileXML.getName());
 			if (!isFinal || (getFinal && isFinal)) {
 				compoFusion.addAll(ImportXML.importXML(fileXML.getAbsolutePath()));
 			}
@@ -104,7 +104,7 @@ public final class ImportXML {
 			}
 			i++;
 		}
-		ExportXML.exportXML(compoFinal, "final");
+		ExportXML.exportXML(compoFinal, Constant.FINAL_FILE);
 		LOG.debug("End fusionFiles");
 		return compoFinal;
 	}
@@ -136,7 +136,7 @@ public final class ImportXML {
 				composition.getFiles().addAll(compo.getFiles());
 			}
 		}
-		ExportXML.exportXML(compoFinal, "final");
+		ExportXML.exportXML(compoFinal, Constant.FINAL_FILE);
 		LOG.debug("End fusionOneFile");
 		return compoFinal;
 	}
