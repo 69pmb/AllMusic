@@ -13,6 +13,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
@@ -92,13 +93,21 @@ public class ExportXML {
 		// Création du dossier xml dans le dossier resources
 		FichierUtils.createFolderIfNotExists(Constant.XML_PATH);
 
+		// Nom des fichiers
+		String fullFileName = fileName;
+		if(!StringUtils.endsWith(fileName, Constant.XML_EXTENSION)) {
+			fullFileName+=Constant.XML_EXTENSION;
+		} else {
+			fileName = StringUtils.substringBeforeLast(fileName, Constant.XML_EXTENSION);
+		}
+		
 		// Historisation du fichier précédent dans le dossier history
-		File source = new File(Constant.XML_PATH + fileName + Constant.XML_EXTENSION);
+		File source = new File(Constant.XML_PATH + fullFileName);
 		File destination = new File(Constant.HISTORY_PATH + fileName + Constant.SEPARATOR_DATE_HISTORY + dateNow() + Constant.XML_EXTENSION);
 		source.renameTo(destination);
 
 		// Sauvegarde du document dans le fichier
-		FileOutputStream fos = new FileOutputStream(Constant.XML_PATH + fileName + Constant.XML_EXTENSION);
+		FileOutputStream fos = new FileOutputStream(Constant.XML_PATH + fullFileName);
 		OutputFormat format = OutputFormat.createPrettyPrint();
 		format.setIndent(true);
 		format.setNewlines(true);
