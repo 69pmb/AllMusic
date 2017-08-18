@@ -44,9 +44,14 @@ public class Constant {
 	public static final String XML_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml") + "\\";
 
 	/**
+	 * Nom du fichier final.
+	 */
+	public static final String FINAL_FILE = GetProperties.getProperty("final");
+	
+	/**
 	 * Chemin abs du fichier aggrégeant tous les fichiers.
 	 */
-	public static final String FINAL_FILE_PATH = XML_PATH + GetProperties.getProperty("final");
+	public static final String FINAL_FILE_PATH = XML_PATH + FINAL_FILE;
 
 	/**
 	 * Chemin abs du dossier contenant les fichiers txt des classements.
