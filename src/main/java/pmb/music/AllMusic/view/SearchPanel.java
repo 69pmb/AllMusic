@@ -492,7 +492,7 @@ public class SearchPanel extends JPanel {
 			}
 		}
 		try {
-			ExportXML.exportXML(importXML, "final");
+			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
 			artist2.updateArtistPanel();
 		} catch (IOException e1) {
 			LOG.error("Erreur lors de l'export du fichier final", e1);
@@ -551,7 +551,7 @@ public class SearchPanel extends JPanel {
 			compoExistResult.getFiles().addAll(toModif.getFiles());
 		}
 		try {
-			ExportXML.exportXML(importXML, "final");
+			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
 			artist2.updateArtistPanel();
 		} catch (IOException e1) {
 			LOG.error("Erreur lors de l'export du fichier final", e1);
