@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -241,11 +240,12 @@ public class CompositionUtils {
 				LOG.error("Fichier vide ! " + filename);
 			}
 			// Suppresion de la liste de la composition à enlever
-			int indexOf = importXML.indexOf(new Composition(toRemove.getArtist(), Arrays.asList(file), toRemove.getTitre(), toRemove.getRecordType()));
+			int indexOf = SearchUtils.indexOf(importXML, toRemove);
 			if (indexOf != -1) {
 				importXML.remove(indexOf);
 			} else {
-				LOG.error("indexOf -1: " + toRemove.getArtist() + " " + toRemove.getFiles() + " " + toRemove.getTitre() + " " + toRemove.getRecordType());
+				LOG.error("indexOf -1: " + toRemove.getArtist() + " " + toRemove.getTitre() + " " + toRemove.getRecordType());
+				LOG.error(filename + "\n");
 			}
 			try {
 				// Sauvegarde des modifications
