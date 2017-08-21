@@ -87,10 +87,16 @@ public class CompositionUtils {
 				if (new BigDecimal(jaro.apply(compoTitre, cTitre)).compareTo(Constant.SCORE_LIMIT_TITLE_FUSION) > 0) {
 
 					String compoArtist = Constant.PATTERN_PUNCTUATION.matcher(composition.getArtist()).replaceAll("").toLowerCase();
+					if(StringUtils.startsWith(compoArtist, "the")) {
+						compoArtist = StringUtils.substringAfter(compoArtist, "the");
+					}
 					if (StringUtils.isBlank(compoArtist)) {
 						compoArtist = composition.getArtist().toLowerCase();
 					}
 					String cArtist = Constant.PATTERN_PUNCTUATION.matcher(c.getArtist()).replaceAll("").toLowerCase();
+					if(StringUtils.startsWith(cArtist, "the")) {
+						cArtist = StringUtils.substringAfter(cArtist, "the");
+					}
 					if (StringUtils.isBlank(cArtist)) {
 						cArtist = c.getArtist().toLowerCase();
 					}
