@@ -514,10 +514,12 @@ public class SearchPanel extends JPanel {
 		if (model.getSelected().size() > 1) {
 			return;
 		} else {
+			// On récupère la ligne selectionnée
 			selected = model.getSelected().get(0);
 			v = (Vector<String>) selected;
 			importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 			try {
+				// On récupère la composition à modifier
 				toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
 			} catch (MyException e1) {
 				String log = "Erreur lors de la modifiation d'une composition";
@@ -526,15 +528,18 @@ public class SearchPanel extends JPanel {
 				return;
 			}
 		}
+		// Lancement de la popup de modification
 		ModifyDialog md = new ModifyDialog(null, "Modifier une composition", true, new Dimension(600, 150), v);
 		md.showDialogFileTable();
 		if (md.isSendData()) {
+			// On recupère la compo si elle a bien été modifiée
 			v = md.getCompo();
 		} else {
 			return;
 		}
 		int indexOfXml = importXML.indexOf(toModif);
 		int indexOfResult = compoResult.indexOf(toModif);
+		// On modifier les fichiers xml en conséquence
 		CompositionUtils.modifyCompositionsInFiles(toModif, v);
 		toModif.setArtist(v.get(0));
 		toModif.setTitre(v.get(1));
@@ -547,7 +552,6 @@ public class SearchPanel extends JPanel {
 			compoResult.add(toModif);
 		} else {
 			compoExist.getFiles().addAll(toModif.getFiles());
-			
 			Composition compoExistResult = CompositionUtils.compoExist(compoResult, toModif);
 			compoExistResult.getFiles().addAll(toModif.getFiles());
 		}
