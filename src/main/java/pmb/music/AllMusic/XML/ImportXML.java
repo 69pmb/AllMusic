@@ -3,15 +3,19 @@
  */
 package pmb.music.AllMusic.XML;
 
+import java.awt.Color;
+import java.awt.Font;
 import java.io.File;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
 
+import javax.swing.JTextArea;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -73,10 +77,15 @@ public final class ImportXML {
 	 * 
 	 * @param dirName le dossier où se situe les fichiers
 	 * @param getFinal si on fusionne aussi le fichier {@code final.xml} avec les autres fichiers
+	 * @param resultLabel 
+	 * @param value 
+	 * @param latch 
+	 * @param importPanel 
+	 * @param resultLabel 
 	 * @return la liste des {@link Composition} des fichiers
 	 * @throws IOException
 	 */
-	public static List<Composition> fusionFiles(String dirName, boolean getFinal) throws IOException {
+	public static List<Composition> fusionFiles(String dirName, boolean getFinal, final JTextArea resultLabel) throws IOException {
 		LOG.debug("Start fusionFiles");
 		File dir = new File(dirName);
 		List<File> files = new ArrayList<>();
@@ -100,13 +109,28 @@ public final class ImportXML {
 				compoExist.getFiles().addAll(compo.getFiles());
 			}
 			if(i%800==0) {
-				LOG.info("Fusion à " + DECIMAL_FORMAT.format(100*i/size) + "%");
+				String msg = "Fusion à " + DECIMAL_FORMAT.format(100*i/size) + "%";
+				LOG.info(msg);
+				updateResultLabel(Arrays.asList(msg), resultLabel);
 			}
 			i++;
 		}
 		ExportXML.exportXML(compoFinal, Constant.FINAL_FILE);
 		LOG.debug("End fusionFiles");
 		return compoFinal;
+	}
+	
+	public static void updateResultLabel(List<String> result2, final JTextArea resultLabel ) {
+		LOG.debug("Start updateResultLabel");
+		StringBuilder s = new StringBuilder();
+		for (String string : result2) {
+			s.append(string).append('\n');
+		}
+		resultLabel.setText(s.toString());
+		resultLabel.setForeground(new Color(243, 16, 16));
+		Font labelFont = resultLabel.getFont();
+		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
+		LOG.debug("End updateResultLabel");
 	}
 
 	/**
