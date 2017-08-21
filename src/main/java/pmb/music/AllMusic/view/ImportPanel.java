@@ -29,6 +29,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
@@ -439,7 +440,11 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				fusionFilesAction(artist);
+				try {
+					fusionFilesAction(artist);
+				} catch (InterruptedException e) {
+					LOG.error("Erreur lors de la fusion des fichiers XML", e);
+				}
 			}
 		});
 		bottom.add(fusionFile);
@@ -734,19 +739,31 @@ public class ImportPanel extends JPanel {
 	/**
 	 * Traitement lorsqu'on fusionne tous les fichiers xml.
 	 * @param artist l'onglet artist
+	 * @throws InterruptedException 
 	 */
-	private void fusionFilesAction(final ArtistPanel artist) {
-		LOG.debug("Start fusionFilesAction");
-		result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
-		try {
-			ImportXML.fusionFiles(Constant.XML_PATH, getFinal.isSelected());
-		} catch (IOException e) {
-			LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
-			result = new LinkedList<>(Arrays.asList(e.toString()));
-		}
-		artist.updateArtistPanel();
-		miseEnFormeResultLabel(result);
-		LOG.debug("End fusionFilesAction");
+	private void fusionFilesAction(final ArtistPanel artist) throws InterruptedException {
+		new Thread(new Runnable() {
+			@Override
+			public void run() {
+				LOG.debug("Start fusionFilesAction");
+				result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
+				try {
+					ImportXML.fusionFiles(Constant.XML_PATH, getFinal.isSelected(), resultLabel);
+				} catch (IOException e) {
+					LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
+					result = new LinkedList<>(Arrays.asList(e.toString()));
+				}
+
+				SwingUtilities.invokeLater(new Runnable() {
+					@Override
+					public void run() {
+						artist.updateArtistPanel();
+						miseEnFormeResultLabel(result);
+					}
+				});
+				LOG.debug("End fusionFilesAction");
+			}
+		}).start();
 	}
 
 	/**
