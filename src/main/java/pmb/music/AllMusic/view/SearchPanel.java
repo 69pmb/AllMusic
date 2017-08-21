@@ -541,7 +541,6 @@ public class SearchPanel extends JPanel {
 		importXML.remove(indexOfXml);
 		compoResult.remove(indexOfResult);
 		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);
-		// TODO ne pas utiliser compoExists
 		if (compoExist == null) {
 			importXML.add(toModif);
 			compoResult.add(toModif);
