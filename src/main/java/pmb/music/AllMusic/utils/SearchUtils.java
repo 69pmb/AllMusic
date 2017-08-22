@@ -233,18 +233,20 @@ public class SearchUtils {
 			return -1;
 		}
 		int indexOf = list.indexOf(new Composition(o.getArtist(), o.getFiles(), o.getTitre(), o.getRecordType()));
-		if (indexOf != -1) {
+		if (indexOf == -1) {
 			int i = 0;
 			for (Composition composition : list) {
 				if (StringUtils.equals(composition.getArtist(), o.getArtist()) && StringUtils.equals(composition.getTitre(), o.getTitre())
 						&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
 						&& composition.getFiles().size() == o.getFiles().size()) {
+					LOG.warn("indexOf: " + o);
 					return i;
 				}
 				i++;
 			}
+			return -1;
 		}
-		return -1;
+		return indexOf;
 	}
 
 }
