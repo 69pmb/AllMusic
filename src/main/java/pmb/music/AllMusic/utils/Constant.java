@@ -36,7 +36,7 @@ public class Constant {
 	/**
 	 * Chemin abs du fichier de log.
 	 */
-	public static final String FILE_LOG_PATH = Constant.USER_DIR + "\\file.log";
+	public static final String FILE_LOG_PATH = Constant.USER_DIR + "\\error.log";
 
 	/**
 	 * Chemin abs du dossier contenant tous les fichiers xml importés.
