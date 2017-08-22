@@ -49,7 +49,7 @@ public class AllMusic {
 			}
 		}));
 		try {
-			UIManager.setLookAndFeel("com.jtattoo.plaf.aluminium.AluminiumLookAndFeel");
+			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
 			LOG.error("Impossible d'appliquer le style demandé", e);
 		}
