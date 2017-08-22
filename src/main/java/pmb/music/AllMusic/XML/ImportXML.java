@@ -75,16 +75,11 @@ public final class ImportXML {
 	 * history) et renvoie la liste de Composition.
 	 * 
 	 * @param dirName le dossier où se situe les fichiers
-	 * @param getFinal si on fusionne aussi le fichier {@code final.xml} avec les autres fichiers
-	 * @param resultLabel 
-	 * @param value 
-	 * @param latch 
-	 * @param importPanel 
-	 * @param resultLabel 
+	 * @param resultLabel {@link JTextArea} la zone de texte pour afficher 
 	 * @return la liste des {@link Composition} des fichiers
 	 * @throws IOException
 	 */
-	public static List<Composition> fusionFiles(String dirName, boolean getFinal, final JTextArea resultLabel) throws IOException {
+	public static List<Composition> fusionFiles(String dirName, final JTextArea resultLabel) throws IOException {
 		LOG.debug("Start fusionFiles");
 		File dir = new File(dirName);
 		List<File> files = new ArrayList<>();
@@ -92,7 +87,7 @@ public final class ImportXML {
 		List<Composition> compoFusion = new ArrayList<>();
 		for (File fileXML : files) {
 			boolean isFinal = Constant.FINAL_FILE.equalsIgnoreCase(fileXML.getName());
-			if (!isFinal || (getFinal && isFinal)) {
+			if (!isFinal) {
 				compoFusion.addAll(ImportXML.importXML(fileXML.getAbsolutePath()));
 			}
 		}
@@ -119,7 +114,7 @@ public final class ImportXML {
 		return compoFinal;
 	}
 	
-	public static void updateResultLabel(List<String> result2, final JTextArea resultLabel ) {
+	private static void updateResultLabel(List<String> result2, final JTextArea resultLabel ) {
 		LOG.debug("Start updateResultLabel");
 		StringBuilder s = new StringBuilder();
 		for (String string : result2) {
