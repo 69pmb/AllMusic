@@ -90,7 +90,6 @@ public class ImportPanel extends JPanel {
 
 	private final JCheckBox sorted;
 	private final JCheckBox order;
-	private final JCheckBox getFinal;
 	private final JCheckBox reverseArtist;
 	private final JCheckBox removeParenthese;
 	private final JCheckBox upper;
@@ -270,16 +269,6 @@ public class ImportPanel extends JPanel {
 		separatorPanel.add(separator);
 		secondLine.add(separatorPanel);
 
-		// Final
-		JPanel getFinalPanel = new JPanel();
-		getFinalPanel.setPreferredSize(new Dimension(170, 60));
-		JLabel getFinalLabel = new JLabel("Fusionner avec le fichier final : ");
-		getFinal = new JCheckBox();
-		getFinal.setPreferredSize(new Dimension(25, 25));
-		getFinalPanel.add(getFinalLabel);
-		getFinalPanel.add(getFinal);
-		secondLine.add(getFinalPanel);
-
 		// firstLines
 		JPanel firstLinesPanel = new JPanel();
 		firstLinesPanel.setPreferredSize(new Dimension(340, 100));
@@ -447,17 +436,6 @@ public class ImportPanel extends JPanel {
 			}
 		});
 		bottom.add(fusionFile);
-
-		JButton fusionOneFile = new JButton("Ajouter le fichier aux autres");
-		fusionOneFile.setToolTipText("Ajoute le fichiers importé dans le fichier final.");
-		fusionOneFile.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				fusionOneFileAction(artist);
-			}
-		});
-		bottom.add(fusionOneFile);
 
 		// Ouvre le fichier d'entrée dans notepad
 		JButton openFile = new JButton("Éditer le fichier source");
@@ -685,7 +663,6 @@ public class ImportPanel extends JPanel {
 		characterToRemove.setText("");
 		reverseArtist.setSelected(false);
 		removeParenthese.setSelected(false);
-		getFinal.setSelected(false);
 		upper.setSelected(false);
 		removeAfter.setSelected(false);
 		miseEnFormeResultLabel(new ArrayList<String>());
@@ -747,7 +724,7 @@ public class ImportPanel extends JPanel {
 				LOG.debug("Start fusionFilesAction");
 				result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
 				try {
-					ImportXML.fusionFiles(Constant.XML_PATH, getFinal.isSelected(), resultLabel);
+					ImportXML.fusionFiles(Constant.XML_PATH, resultLabel);
 				} catch (IOException e) {
 					LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
 					result = new LinkedList<>(Arrays.asList(e.toString()));
@@ -763,26 +740,6 @@ public class ImportPanel extends JPanel {
 				LOG.debug("End fusionFilesAction");
 			}
 		}).start();
-	}
-
-	/**
-	 * Traitement lorsqu'on fusionne le fichier xml crée avec le fichier final.
-	 * @param artist l'onglet artist
-	 */
-	private void fusionOneFileAction(final ArtistPanel artist) {
-		LOG.debug("Start fusionOneFile");
-		if (StringUtils.isNotBlank(absolutePathFileXml)) {
-			result = new LinkedList<>(Arrays.asList("Fichier ajouté"));
-			try {
-				ImportXML.fusionOneFile(absolutePathFileXml);
-			} catch (IOException e) {
-				LOG.error("Erreur lors de la fusion du fichier " + absolutePathFileXml + " avec le fichier final", e);
-				result = new LinkedList<>(Arrays.asList(e.toString()));
-			}
-			artist.updateArtistPanel();
-			miseEnFormeResultLabel(result);
-		}
-		LOG.debug("End fusionOneFile");
 	}
 
 	/**
