@@ -257,7 +257,7 @@ public class ImportFile {
 		if (res == 0) {
 			LOG.debug("Taille égale à zéro, on compte le nombre de ligne du fichier");
 			try {
-				fichier.setSize(countLines(absolutePath));
+				res = countLines(absolutePath);
 			} catch (IOException e) {
 				LOG.error("Erreur dans countLines", e);
 			}
@@ -270,8 +270,18 @@ public class ImportFile {
 		int result = res;
 		if (fichier.getSorted()) {
 			LOG.debug("Fichier trié");
-			String first = randomLines.get(0);
-			String last = randomLines.get(randomLines.size() - 1);
+			String first = "";
+			int i = 0;
+			while(StringUtils.isBlank(first)) {
+				first = randomLines.get(i);
+				i++;
+			}
+			String last = "";
+			i = 1;
+			while(StringUtils.isBlank(last)) {
+				last = randomLines.get(randomLines.size() - i);
+				i++;
+			}
 			int sizeFirst = extractRankFromString(first);
 			int sizeLast = extractRankFromString(last);
 			if (sizeFirst > sizeLast) {
@@ -285,7 +295,7 @@ public class ImportFile {
 
 	private static int determineSizeNotSorted(Fichier fichier, int res) {
 		int result = res;
-		if (!fichier.getSorted() || result % 10 != 0) {
+		if (!fichier.getSorted() || result % 5 != 0) {
 			LOG.debug("Fichier pas trié ou taille trouvée précedemment incorrecte");
 			Matcher mSize = Constant.PATTERN_SIZE.matcher(fichier.getFileName());
 			Matcher mDeca = Constant.PATTERN_DECADE.matcher(fichier.getFileName());
@@ -549,6 +559,10 @@ public class ImportFile {
 		String line = "";
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			int countLines = countLines(file.getAbsolutePath());
+			if(countLines<4) {
+				LOG.error("File " + file.getName() + " trop trop petit");
+				return lines;
+			}
 			int rand = ThreadLocalRandom.current().nextInt(4, countLines);
 			lines.add(StringUtils.trim(br.readLine()));
 			lines.add(StringUtils.trim(br.readLine()));
