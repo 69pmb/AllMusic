@@ -210,6 +210,7 @@ public class CompositionUtils {
 			return search.get(0);
 		} else {
 			LOG.debug("End findByArtistTitreAndType, no result");
+			LOG.debug("Critères: " + artist + " " + titre + " " + type);
 			return new Composition();
 		}
 	}
@@ -239,8 +240,9 @@ public class CompositionUtils {
 	/**
 	 * Supprime dans les fichiers XML, la composition donnée.
 	 * @param toRemove la {@link Composition} à supprimer des fichiers
+	 * @throws MyException 
 	 */
-	public static void removeCompositionsInFiles(Composition toRemove) {
+	public static void removeCompositionsInFiles(Composition toRemove) throws MyException {
 		LOG.debug("Start removeCompositionsInFiles");
 		for (Fichier file : toRemove.getFiles()) {
 			// Récupération des compositions du fichier XML
@@ -250,18 +252,18 @@ public class CompositionUtils {
 				LOG.error("Fichier vide ! " + filename);
 			}
 			// Suppresion de la liste de la composition à enlever
-			int indexOf = SearchUtils.indexOf(importXML, toRemove);
-			if (indexOf != -1) {
-				importXML.remove(indexOf);
+			Composition toRemoveFromFile = CompositionUtils.compoExist(importXML, toRemove);
+			if (toRemoveFromFile != null) {
+				importXML.remove(toRemoveFromFile);
 			} else {
-				LOG.error("indexOf -1: " + toRemove.getArtist() + " " + toRemove.getTitre() + " " + toRemove.getRecordType());
 				LOG.error(filename + "\n");
+				new MyException("compoExist null: " + toRemove.getArtist() + " " + toRemove.getTitre() + " " + toRemove.getRecordType());
 			}
 			try {
 				// Sauvegarde des modifications
 				ExportXML.exportXML(importXML, file.getFileName());
 			} catch (IOException e) {
-				LOG.error("Erreur lors de la suppresion d'une composition dans le fichier: " + file.getFileName(), e);
+				new MyException("Erreur lors de la suppresion d'une composition dans le fichier: " + file.getFileName(), e);
 			}
 		}
 		LOG.debug("End removeCompositionsInFiles");
@@ -271,8 +273,9 @@ public class CompositionUtils {
 	 * Modifie dans les fichiers XML, la composition donnée.
 	 * @param toModif la {@link Composition} à modifier des fichiers
 	 * @param v 
+	 * @throws MyException 
 	 */
-	public static void modifyCompositionsInFiles(Composition toModif, Vector<String> v) {
+	public static void modifyCompositionsInFiles(Composition toModif, Vector<String> v) throws MyException {
 		LOG.debug("Start modifyCompositionsInFiles");
 		for (Fichier file : toModif.getFiles()) {
 			// Récupération des compositions du fichier XML
@@ -282,8 +285,9 @@ public class CompositionUtils {
 				LOG.error("Fichier vide ! " + filename);
 			}
 			// Modificaton de la liste de la composition à enlever
-			int indexOf = SearchUtils.indexOf(importXML, toModif);
-			if (indexOf != -1) {
+			Composition toModifFromFile = CompositionUtils.compoExist(importXML, toModif);
+			if (toModifFromFile != null) {
+				int indexOf = SearchUtils.indexOf(importXML, toModifFromFile);
 				Composition composition = importXML.get(indexOf);
 				composition.setArtist(v.get(0));
 				composition.setTitre(v.get(1));
@@ -292,11 +296,11 @@ public class CompositionUtils {
 					// Sauvegarde des modifications
 					ExportXML.exportXML(importXML, file.getFileName());
 				} catch (IOException e) {
-					LOG.error("Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(), e);
+					new MyException("Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(), e);
 				}
 			} else {
-				LOG.error("indexOf -1: " + toModif.getArtist() + " " + toModif.getFiles() + " " + toModif.getTitre() + " " + toModif.getRecordType());
 				LOG.error(filename + "\n");
+				new MyException("compoExist null: " + toModif.getArtist() + " " + toModif.getFiles() + " " + toModif.getTitre() + " " + toModif.getRecordType());
 			}
 		}
 		LOG.debug("End modifyCompositionsInFiles");
