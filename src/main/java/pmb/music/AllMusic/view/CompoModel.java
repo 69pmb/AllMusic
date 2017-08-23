@@ -25,6 +25,16 @@ public class CompoModel extends DefaultTableModel {
     public CompoModel(Object[][] data, String[] title) {
         super(data, title);
     }
+    
+    /**
+     * Constructeur.
+     * @param data {@link Vector} les données
+     * @param title {@link Vector} les entetes du tableau
+     */
+    @SuppressWarnings("rawtypes")
+    public CompoModel(Vector data, Vector title) {
+        super(data, title);
+    }
 
     @Override
     public boolean isCellEditable(int i, int i1) {
