@@ -507,7 +507,7 @@ public class SearchPanel extends JPanel {
 	@SuppressWarnings("unchecked")
 	private void modifAction(final ArtistPanel artist2) {
 		LOG.debug("Start modif");
-		deleteLabel.setText("Élément modifié");
+		String label = "Élément modifié";
 		Object selected;
 		Composition toModif;
 		Vector<String> v;
@@ -576,8 +576,9 @@ public class SearchPanel extends JPanel {
 		} catch (IOException e1) {
 			String log = "Erreur lors de l'export du fichier final !!";
 			LOG.error(log, e1);
-			deleteLabel.setText(log);
+			label = log;
 		}
+		deleteLabel.setText(label);
 		updateTable();
 		LOG.debug("End modif");
 	}
