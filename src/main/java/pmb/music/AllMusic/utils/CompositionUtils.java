@@ -236,6 +236,29 @@ public class CompositionUtils {
 			return new ArrayList<>();
 		}
 	}
+	
+	/**
+	 * Convertit une liste de {@link Composition} en {@link Vector}.
+	 * 
+	 * @param cList {@code List<Composition>} la liste à convertir
+	 * @return Vector<Vector<Object>> la liste convertie
+	 */
+	@SuppressWarnings("rawtypes")
+	public static Vector convertCompoListForJTable(List<Composition> cList) {
+		LOG.debug("Start convertCompoListForJTable");
+		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
+		for (int i = 0; i < cList.size(); i++) {
+			Composition f = cList.get(i);
+			Vector<Object> v = new Vector<>();
+			v.addElement(f.getArtist());
+			v.addElement(f.getTitre());
+			v.addElement(f.getFiles().get(0).getClassement());
+			v.addElement(f.getRecordType().toString());
+			result.add(v);
+		}
+		LOG.debug("End convertCompoListForJTable");
+		return result;
+	}
 
 	/**
 	 * Supprime dans les fichiers XML, la composition donnée.
