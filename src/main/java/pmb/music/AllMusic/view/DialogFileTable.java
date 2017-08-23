@@ -28,8 +28,11 @@ import javax.swing.UIManager;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -130,7 +133,7 @@ public class DialogFileTable extends JDialog {
 
 	@SuppressWarnings("unchecked")
 	private void mouseAction(MouseEvent e) {
-		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+		if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 2) {
 			LOG.debug("Start fichier mouse");
 			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector().get(
@@ -142,7 +145,7 @@ public class DialogFileTable extends JDialog {
 				LOG.error("Erreur lors de l'ouverture de Notepad++ " + Constant.NOTEPAD_PATH, e1);
 			}
 			LOG.debug("End fichier mouse");
-		} else if (SwingUtilities.isRightMouseButton(e)) {
+		} else if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 1) {
 			LOG.debug("Start right mouse");
 			JTable target = (JTable) e.getSource();
 			int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target,
@@ -156,6 +159,26 @@ public class DialogFileTable extends JDialog {
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
+		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+			LOG.debug("Start double right mouse");
+			// Ouvre une popup pour afficher les compositions du fichier
+			// sélectionné
+			JTable target = (JTable) e.getSource();
+			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+			List<Composition> compo = ImportXML.importXML(Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION);
+			List<String> title = new ArrayList<>();
+			if (!compo.isEmpty()) {
+				Fichier file = compo.get(0).getFiles().get(0);
+				title = Arrays.asList("FileName:", file.getFileName(), "PublishYear:", String.valueOf(file.getPublishYear()), "Categorie:",
+						file.getCategorie().toString(), "RangeDateBegin:", String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
+						String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:", String.valueOf(file.getSize()));
+			} else {
+				LOG.warn(v.get(1) + " empty !");
+			}
+			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " "), true, compo, new Dimension(1500, 400));
+			pop.showDialogFileTable();
+			LOG.debug("End double right mouse");
 		}
 	}
 }
