@@ -287,7 +287,7 @@ public class CompositionUtils {
 			if (toRemoveFromFile != null) {
 				importXML.remove(toRemoveFromFile);
 			} else {
-				LOG.error(filename + "\n");
+				LOG.error(filename + Constant.NEW_LINE);
 				new MyException("compoExist null: " + toRemove.getArtist() + " " + toRemove.getTitre() + " " + toRemove.getRecordType());
 			}
 			try {
@@ -330,7 +330,7 @@ public class CompositionUtils {
 					new MyException("Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(), e);
 				}
 			} else {
-				LOG.error(filename + "\n");
+				LOG.error(filename + Constant.NEW_LINE);
 				new MyException("compoExist null: " + toModif.getArtist() + " " + toModif.getFiles() + " " + toModif.getTitre() + " " + toModif.getRecordType());
 			}
 		}
