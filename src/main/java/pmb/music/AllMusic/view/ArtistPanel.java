@@ -81,13 +81,15 @@ public class ArtistPanel extends JPanel {
 	private static final String[] title = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
 
 	private int selectedRow = -1;
+	
+	private Thread updateArtistThread;
 
 	/**
 	 * Génère le panel artiste.
 	 */
 	public ArtistPanel() {
 		super();
-		LOG.debug("Start ArtistPanel");
+		LOG.debug("Start ArtistPanel");		
 		this.setLayout(new BorderLayout());
 
 		JPanel header = new JPanel();
@@ -203,7 +205,9 @@ public class ArtistPanel extends JPanel {
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
 		colRenderer();
+		
 		updateArtistPanel();
+		
 		table.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -240,12 +244,37 @@ public class ArtistPanel extends JPanel {
 	 */
 	public void updateArtistPanel() {
 		LOG.debug("Start updateArtistPanel");
-		resetAction();
-		model.setRowCount(0);
-		list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-		model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
-		updateTable();
+		if (updateArtistThread == null || !updateArtistThread.isAlive()) {
+			startUpdateArtistThread();
+		} else {
+			updateArtistThread.interrupt();
+			try {
+				updateArtistThread.join();
+			} catch (InterruptedException e) {
+				LOG.error("",e);
+			}
+			startUpdateArtistThread();
+		}
 		LOG.debug("End updateArtistPanel");
+	}
+
+	private void startUpdateArtistThread() {
+		updateArtistThread = new Thread(() -> {
+			LOG.debug("Start ThreadUpdateArtist");
+			list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+			Vector<Vector<Object>> convertCompositionListToArtistVector = CompositionUtils.convertCompositionListToArtistVector(list);
+
+			SwingUtilities.invokeLater(() -> {
+				resetAction();
+				model.setRowCount(0);
+				model.setDataVector(convertCompositionListToArtistVector, new Vector<>(Arrays.asList(title)));
+				updateTable();
+			});
+			LOG.debug("End ThreadUpdateArtist");
+		});
+		updateArtistThread.setDaemon(true);
+		updateArtistThread.setPriority(Thread.MIN_PRIORITY);
+		updateArtistThread.start();
 	}
 
 	private void updateTable() {
