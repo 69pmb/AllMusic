@@ -119,6 +119,10 @@ public class ImportPanel extends JPanel {
 	 * Si le characterToRemove est à supprimer au debut ou à la fin de la ligne.
 	 */
 	private final JCheckBox isBefore;
+	/**
+	 * Utilise-t-on le dossier du fichier à mettre en forme.
+	 */
+	private final JCheckBox isCompleteDirectory;
 
 	private RecordType determineType;
 
@@ -387,6 +391,16 @@ public class ImportPanel extends JPanel {
 		removeAfterPanel.add(removeAfterLabel);
 		removeAfterPanel.add(removeAfter);
 		thirdLine.add(removeAfterPanel);
+		
+		// isCompleteDirectory
+		JPanel isCompleteDirectoryPanel = new JPanel();
+		isCompleteDirectoryPanel.setPreferredSize(new Dimension(260, 60));
+		JLabel isCompleteDirectoryLabel = new JLabel("Utiliser le dossier du fichier pour la mise en forme: ");
+		isCompleteDirectory = new JCheckBox();
+		isCompleteDirectory.setPreferredSize(new Dimension(20, 20));
+		isCompleteDirectoryPanel.add(isCompleteDirectoryLabel);
+		isCompleteDirectoryPanel.add(isCompleteDirectory);
+		thirdLine.add(isCompleteDirectoryPanel);
 
 		this.add(thirdLine);
 		JPanel fourthLine = new JPanel(new GridLayout(0, 1));
@@ -486,6 +500,12 @@ public class ImportPanel extends JPanel {
 			miseEnFormeResultLabel(result);
 		});
 		bottom.add(cleanHistory);
+		
+		// Mise en forme
+		JButton mef = new JButton("Mettre en forme un fichier ou dossier");
+		mef.setToolTipText("Pour supprimer les diacritiques et remplacer des charactères spéciaux.");
+		mef.addActionListener((ActionEvent arg0) -> CleanFile.miseEnForme(file, isCompleteDirectory.isSelected()));
+		bottom.add(mef);
 
 		bottom.setBorder(BorderFactory.createTitledBorder(""));
 		this.add(bottom);
@@ -653,6 +673,7 @@ public class ImportPanel extends JPanel {
 		removeParenthese.setSelected(false);
 		upper.setSelected(false);
 		removeAfter.setSelected(false);
+		isCompleteDirectory.setSelected(false);
 		miseEnFormeResultLabel(new ArrayList<String>());
 		LOG.debug("End resetAll");
 	}
