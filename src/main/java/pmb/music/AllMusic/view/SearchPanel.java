@@ -10,7 +10,6 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -336,54 +335,36 @@ public class SearchPanel extends JPanel {
 		JButton delete = new JButton("Supprimer les compositions sélectionnées");
 		delete.setBackground(Color.white);
 		delete.setPreferredSize(new Dimension(300, 60));
-		delete.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				deleteAction(artist2);
-			}
-		});
+		delete.addActionListener((ActionEvent e) -> deleteAction(artist2));
 		top.add(delete);
 		
 		// Modif Btn
 		JButton modif = new JButton("Modifier la composition sélectionnée");
 		modif.setBackground(Color.white);
 		modif.setPreferredSize(new Dimension(300, 60));
-		modif.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				modifAction(artist2);
-			}
-		});
+		modif.addActionListener((ActionEvent e) -> modifAction(artist2));
 		top.add(modif);
 
 		// CSV
 		JButton csv = new JButton("Télécharger le résultat de la recherche en CSV");
 		csv.setBackground(Color.white);
 		csv.setPreferredSize(new Dimension(300, 60));
-		csv.addActionListener(new ActionListener() {
-
-			@SuppressWarnings("unchecked")
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				List<String> c = Arrays
-						.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
-								cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString(),
-								type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(),
-								titre.getSelectedItem() == null ? "" : titre.getSelectedItem().toString(),
-								artist.getSelectedItem() == null ? "" : artist.getSelectedItem().toString(),
-								author.getSelectedItem() == null ? "" : author.getSelectedItem().toString())
-						.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
-				String criteres = StringUtils.join(c, " ");
-				String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search", criteres, result.getRowSorter().getSortKeys().get(0));
-				try {
-					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
-				} catch (IOException e1) {
-					LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
-				}
+		csv.addActionListener((ActionEvent e) -> {
+			List<String> c = Arrays
+					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
+							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString(),
+							type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(),
+							titre.getSelectedItem() == null ? "" : titre.getSelectedItem().toString(),
+							artist.getSelectedItem() == null ? "" : artist.getSelectedItem().toString(),
+							author.getSelectedItem() == null ? "" : author.getSelectedItem().toString())
+					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
+			String criteres = StringUtils.join(c, " ");
+			String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search", criteres, result.getRowSorter().getSortKeys().get(0));
+			try {
+				Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
+			} catch (IOException e1) {
+				LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
 			}
-
 		});
 		top.add(csv);
 		header.add(top);
