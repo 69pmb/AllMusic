@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.collections.CollectionUtils;
-import org.apache.commons.collections.Predicate;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
@@ -22,6 +21,7 @@ import pmb.music.AllMusic.model.RecordType;
 /**
  * Contient les méthodes de recherche dans une liste de {@link Composition} avec
  * des critères de recherche.
+ * 
  * @author pmbroca
  */
 public class SearchUtils {
@@ -33,6 +33,7 @@ public class SearchUtils {
 
 	/**
 	 * Les critères de recherche sont utilisés comme des {@code '%like'}.
+	 * 
 	 * @param compoList la liste de compo dans laquelle rechercher
 	 * @param criteria les critères
 	 * @param searchInFiles si on doit filtrer ou non les fichiers des compos
@@ -61,48 +62,41 @@ public class SearchUtils {
 
 		if (searchCompo || searchFile) {
 			LOG.debug("Il y a des critères de recherche");
-			CollectionUtils.filter(arrayList, new Predicate() {
-
-				@Override
-				public boolean evaluate(Object c) {
-					Composition co = (Composition) c;
-
-					boolean result = true;
-					if (StringUtils.isNotBlank(artist)) {
-						String newArtist = Constant.PATTERN_PUNCTUATION.matcher(co.getArtist()).replaceAll("").toLowerCase();
-						result = result
-								&& (new BigDecimal(jaro.apply(newArtist, artist)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0 || StringUtils.containsIgnoreCase(
-										co.getArtist(), artist));
-					}
-					if (StringUtils.isNotBlank(titre)) {
-						String newTitre = Constant.PATTERN_PUNCTUATION.matcher(co.getTitre()).replaceAll("").toLowerCase();
-						result = result
-								&& (new BigDecimal(jaro.apply(newTitre, titre)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0 || StringUtils.containsIgnoreCase(
-										co.getTitre(), titre));
-					}
-					if (type != null) {
-						result = result && co.getRecordType() == RecordType.valueOf(type);
-					}
-
-					List<Fichier> files = new ArrayList<>(co.getFiles());
-					if (searchFile && CollectionUtils.isNotEmpty(files) && result) {
-						CollectionUtils.filter(files, new Predicate() {
-
-							@Override
-							public boolean evaluate(Object f) {
-								return evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, f);
-							}
-						});
-					}
-					if (searchInFiles) {
-						co.setFiles(files);
-					}
-					return result && CollectionUtils.isNotEmpty(files);
-				}
-			});
+			CollectionUtils.filter(arrayList,
+					(Object c) -> filterJaro(searchInFiles, jaro, artist, titre, type, publish, fileName, auteur, cat, dateB, dateE, searchFile, c));
 		}
 		LOG.debug("End searchJaro");
 		return arrayList;
+	}
+
+	private static boolean filterJaro(final boolean searchInFiles, final JaroWinklerDistance jaro, final String artist, final String titre, final String type,
+			final String publish, final String fileName, final String auteur, final String cat, final String dateB, final String dateE,
+			final boolean searchFile, Object c) {
+		Composition co = (Composition) c;
+
+		boolean result = true;
+		if (StringUtils.isNotBlank(artist)) {
+			String newArtist = Constant.PATTERN_PUNCTUATION.matcher(co.getArtist()).replaceAll("").toLowerCase();
+			result = result && (new BigDecimal(jaro.apply(newArtist, artist)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
+					|| StringUtils.containsIgnoreCase(co.getArtist(), artist));
+		}
+		if (StringUtils.isNotBlank(titre)) {
+			String newTitre = Constant.PATTERN_PUNCTUATION.matcher(co.getTitre()).replaceAll("").toLowerCase();
+			result = result && (new BigDecimal(jaro.apply(newTitre, titre)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
+					|| StringUtils.containsIgnoreCase(co.getTitre(), titre));
+		}
+		if (type != null) {
+			result = result && co.getRecordType() == RecordType.valueOf(type);
+		}
+
+		List<Fichier> files = new ArrayList<>(co.getFiles());
+		if (searchFile && CollectionUtils.isNotEmpty(files) && result) {
+			CollectionUtils.filter(files, (Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, f));
+		}
+		if (searchInFiles) {
+			co.setFiles(files);
+		}
+		return result && CollectionUtils.isNotEmpty(files);
 	}
 
 	/**
@@ -134,41 +128,34 @@ public class SearchUtils {
 
 		if (searchCompo || searchFile) {
 			LOG.debug("Il y a des critères de recherche");
-			CollectionUtils.filter(arrayList, new Predicate() {
-
-				@Override
-				public boolean evaluate(Object c) {
-					Composition co = (Composition) c;
-
-					boolean result = true;
-					if (StringUtils.isNotBlank(artist)) {
-						boolean equalsIgnoreCase = StringUtils.equalsIgnoreCase(co.getArtist(), artist);
-						result = result && equalsIgnoreCase;
-					}
-					if (StringUtils.isNotBlank(titre)) {
-						result = result && StringUtils.equalsIgnoreCase(co.getTitre(), titre);
-					}
-					if (type != null) {
-						result = result && co.getRecordType() == RecordType.valueOf(type);
-					}
-
-					List<Fichier> files = new ArrayList<>(co.getFiles());
-					if (searchFile && CollectionUtils.isNotEmpty(files)) {
-						CollectionUtils.filter(files, new Predicate() {
-
-							@Override
-							public boolean evaluate(Object f) {
-								return evaluateFichierContains(publish, fileName, auteur, cat, dateB, dateE, f);
-							}
-						});
-					}
-					result = result && CollectionUtils.isNotEmpty(files);
-					return result;
-				}
-			});
+			CollectionUtils.filter(arrayList, (Object c) -> filterStrictly(artist, titre, type, publish, fileName, auteur, cat, dateB, dateE, searchFile, c));
 		}
 		LOG.debug("End searchStrictly");
 		return arrayList;
+	}
+
+	private static boolean filterStrictly(final String artist, final String titre, final String type, final String publish, final String fileName,
+			final String auteur, final String cat, final String dateB, final String dateE, final boolean searchFile, Object c) {
+		Composition co = (Composition) c;
+
+		boolean result = true;
+		if (StringUtils.isNotBlank(artist)) {
+			boolean equalsIgnoreCase = StringUtils.equalsIgnoreCase(co.getArtist(), artist);
+			result = result && equalsIgnoreCase;
+		}
+		if (StringUtils.isNotBlank(titre)) {
+			result = result && StringUtils.equalsIgnoreCase(co.getTitre(), titre);
+		}
+		if (type != null) {
+			result = result && co.getRecordType() == RecordType.valueOf(type);
+		}
+
+		List<Fichier> files = new ArrayList<>(co.getFiles());
+		if (searchFile && CollectionUtils.isNotEmpty(files)) {
+			CollectionUtils.filter(files, (Object f) -> evaluateFichierContains(publish, fileName, auteur, cat, dateB, dateE, f));
+		}
+		result = result && CollectionUtils.isNotEmpty(files);
+		return result;
 	}
 
 	private static boolean evaluateFichierContains(final String publish, final String fileName, final String auteur, final String cat, final String dateB,
@@ -224,7 +211,9 @@ public class SearchUtils {
 	}
 
 	/**
-	 * Returne l'index de la 1ère occurence de l'élement donné dans la liste ou -1 si la liste ne le contient pas. 
+	 * Returne l'index de la 1ère occurence de l'élement donné dans la liste ou
+	 * -1 si la liste ne le contient pas.
+	 * 
 	 * @param list {@code List<Composition>} la liste
 	 * @param o {@link Composition} l'élement à rechercher
 	 * @return le numéro d'index dans la liste ou -1 si non trouvé
