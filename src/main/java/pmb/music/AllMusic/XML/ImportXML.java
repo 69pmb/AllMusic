@@ -118,7 +118,7 @@ public final class ImportXML {
 		LOG.debug("Start updateResultLabel");
 		StringBuilder s = new StringBuilder();
 		for (String string : result2) {
-			s.append(string).append('\n');
+			s.append(string).append(Constant.NEW_LINE);
 		}
 		resultLabel.setText(s.toString());
 		resultLabel.setForeground(new Color(243, 16, 16));
