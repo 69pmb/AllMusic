@@ -6,7 +6,6 @@ package pmb.music.AllMusic.view;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.Vector;
 
 import javax.swing.JButton;
@@ -81,24 +80,17 @@ public class ModifyDialog extends JDialog {
 	    JPanel control = new JPanel();
 	    JButton okBouton = new JButton("OK");
 	    
-	    okBouton.addActionListener(new ActionListener(){
-	      @SuppressWarnings("unchecked")
-		@Override
-		public void actionPerformed(ActionEvent arg0) {        
-	        setVisible(false);
-	        sendData = true;
-	        compo.set(0, artist.getText());
-	        compo.set(1, titre.getText());
-	      }
-	    });
+		okBouton.addActionListener((ActionEvent arg0) -> {
+			setVisible(false);
+			sendData = true;
+			compo.set(0, artist.getText());
+			compo.set(1, titre.getText());
+		});
 
 	    JButton cancelBouton = new JButton("Annuler");
-	    cancelBouton.addActionListener(new ActionListener(){
-	      @Override
-		public void actionPerformed(ActionEvent arg0) {
-	        setVisible(false);
-	        sendData = false;
-	      }      
+	    cancelBouton.addActionListener((ActionEvent arg0) -> {
+	    	setVisible(false);
+	    	sendData = false;
 	    });
 
 	    control.add(okBouton);
