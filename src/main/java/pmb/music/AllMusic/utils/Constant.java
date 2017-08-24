@@ -53,6 +53,8 @@ public class Constant {
 	 * Chemin abs du fichier aggrégeant tous les fichiers.
 	 */
 	public static final String FINAL_FILE_PATH = XML_PATH + FINAL_FILE;
+	
+	public static final String NEW_LINE = "\r\n";
 
 	/**
 	 * Chemin abs du dossier contenant les fichiers txt des classements.
