@@ -233,7 +233,7 @@ public class ImportPanel extends JPanel {
 
 		// Sort
 		JPanel sortedPanel = new JPanel();
-		sortedPanel.setPreferredSize(new Dimension(80, 60));
+		sortedPanel.setPreferredSize(new Dimension(60, 60));
 		JLabel sortedLabel = new JLabel("Classé : ");
 		sorted = new JCheckBox();
 		sorted.setPreferredSize(new Dimension(25, 25));
@@ -243,7 +243,7 @@ public class ImportPanel extends JPanel {
 
 		// Order/Artist
 		JPanel orderPanel = new JPanel();
-		orderPanel.setPreferredSize(new Dimension(130, 60));
+		orderPanel.setPreferredSize(new Dimension(100, 60));
 		JLabel orderLabel = new JLabel("Artiste en premier: ");
 		order = new JCheckBox();
 		order.setSelected(true);
@@ -330,10 +330,10 @@ public class ImportPanel extends JPanel {
 
 		// characterToRemove
 		JPanel characterToRemovePanel = new JPanel();
-		characterToRemovePanel.setPreferredSize(new Dimension(150, 60));
+		characterToRemovePanel.setPreferredSize(new Dimension(120, 60));
 		JLabel characterToRemoveLabel = new JLabel("Caractères à supprimer: ");
 		characterToRemove = new JTextField();
-		characterToRemove.setPreferredSize(new Dimension(20, 20));
+		characterToRemove.setPreferredSize(new Dimension(40, 20));
 		characterToRemovePanel.add(characterToRemoveLabel);
 		characterToRemovePanel.add(characterToRemove);
 		thirdLine.add(characterToRemovePanel);
@@ -361,7 +361,7 @@ public class ImportPanel extends JPanel {
 
 		// removeParenthese
 		JPanel removeParenthesePanel = new JPanel();
-		removeParenthesePanel.setPreferredSize(new Dimension(260, 60));
+		removeParenthesePanel.setPreferredSize(new Dimension(220, 60));
 		JLabel removeParentheseLabel = new JLabel("Supprimer le texte entre parenthèse du titre: ");
 		removeParenthese = new JCheckBox();
 		removeParenthese.setPreferredSize(new Dimension(20, 20));
@@ -371,7 +371,7 @@ public class ImportPanel extends JPanel {
 
 		// upper
 		JPanel upperPanel = new JPanel();
-		upperPanel.setPreferredSize(new Dimension(240, 60));
+		upperPanel.setPreferredSize(new Dimension(200, 60));
 		JLabel upperLabel = new JLabel("Pas de séparateur, artiste en capitale: ");
 		upper = new JCheckBox();
 		upper.setPreferredSize(new Dimension(20, 20));
@@ -381,7 +381,7 @@ public class ImportPanel extends JPanel {
 
 		// removeAfter
 		JPanel removeAfterPanel = new JPanel();
-		removeAfterPanel.setPreferredSize(new Dimension(240, 60));
+		removeAfterPanel.setPreferredSize(new Dimension(200, 60));
 		JLabel removeAfterLabel = new JLabel("Supprime après le dernier séparateur: ");
 		removeAfter = new JCheckBox();
 		removeAfter.setPreferredSize(new Dimension(20, 20));
