@@ -145,7 +145,12 @@ public class CompositionUtils {
 	public static Vector<Vector<Object>> convertCompositionListToArtistVector(List<Composition> compoList) {
 		LOG.debug("Start convertCompositionListToArtistVector");
 		Vector<Vector<Object>> temp = new Vector<Vector<Object>>();
+		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < compoList.size(); i++) {
+			if(Thread.currentThread().isInterrupted()) {
+				LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
+				return result;
+			}
 			Composition composition = compoList.get(i);
 			Vector<Object> v = new Vector<>();
 			v.addElement(composition.getArtist());
@@ -162,11 +167,15 @@ public class CompositionUtils {
 			}
 			temp.addElement(v);
 		}
-		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
+		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		for (Vector<Object> v : temp) {
 			boolean res = false;
 			for (int i = 0; i < result.size(); i++) {
-				if (((String) v.get(0)).equalsIgnoreCase((String) result.get(i).get(0))) {
+				if(Thread.currentThread().isInterrupted()) {
+					LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
+					return result;
+				}
+				if (artistJaroEquals((String) v.get(0),(String) result.get(i).get(0), jaro) != null) {
 					result.get(i).set(1, (int) result.get(i).get(1) + (int) v.get(1));
 					result.get(i).set(2, (int) result.get(i).get(2) + (int) v.get(2));
 					result.get(i).set(3, (int) result.get(i).get(3) + (int) v.get(3));
