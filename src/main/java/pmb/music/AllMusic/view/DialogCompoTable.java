@@ -52,7 +52,7 @@ public class DialogCompoTable extends JDialog {
 	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
-	 * @param files {@code List<Fichier>} la liste des fichier à afficher
+	 * @param files {@code List<Composition>} la liste des fichier à afficher
 	 * @param dim {@link Dimension} les dimension de la popup
 	 */
 	public DialogCompoTable(JFrame parent, String header, boolean modal, List<Composition> compo, Dimension dim) {
