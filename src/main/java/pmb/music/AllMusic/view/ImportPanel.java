@@ -51,6 +51,7 @@ import pmb.music.AllMusic.utils.MyException;
 
 /**
  * Onglet d'import de fichiers txt.
+ * 
  * @author pmbroca
  */
 public class ImportPanel extends JPanel {
@@ -66,6 +67,9 @@ public class ImportPanel extends JPanel {
 	private final JTextField size;
 	private final JTextField name;
 	private final JTextField date;
+	/**
+	 * Random line.
+	 */
 	private final JTextField line;
 	private final JTextField separator;
 	private final JTextField firstL1;
@@ -73,6 +77,9 @@ public class ImportPanel extends JPanel {
 	private final JTextField firstL3;
 	private final JTextField lastL1;
 	private final JTextField lastL2;
+	/**
+	 * String to remove from import file.
+	 */
 	private final JTextField characterToRemove;
 
 	private final JTextArea resultLabel;
@@ -90,11 +97,30 @@ public class ImportPanel extends JPanel {
 	private String absolutePathFileXml;
 
 	private final JCheckBox sorted;
+	/**
+	 * Si l'artist est en 1er, puis le titre.
+	 */
 	private final JCheckBox order;
+	/**
+	 * Si le nom et prénom de l'artist sont inversés. Ex: Young, Neil.
+	 */
 	private final JCheckBox reverseArtist;
+	/**
+	 * Doit on supprimer lors de l'import des parenthèses.
+	 */
 	private final JCheckBox removeParenthese;
+	/**
+	 * Pas de séparateur mais artist en majuscule ?
+	 */
 	private final JCheckBox upper;
+	/**
+	 * 2 séparateurs, suppression du dernier.
+	 */
 	private final JCheckBox removeAfter;
+	/**
+	 * Si le characterToRemove est à supprimer au debut ou à la fin de la ligne.
+	 */
+	private final JCheckBox isBefore;
 
 	private RecordType determineType;
 
@@ -104,6 +130,7 @@ public class ImportPanel extends JPanel {
 
 	/**
 	 * Construit l'onglet import.
+	 * 
 	 * @param artist l'onglet artiste
 	 */
 	public ImportPanel(final ArtistPanel artist) {
@@ -311,6 +338,17 @@ public class ImportPanel extends JPanel {
 		characterToRemovePanel.add(characterToRemoveLabel);
 		characterToRemovePanel.add(characterToRemove);
 		thirdLine.add(characterToRemovePanel);
+		
+		// isBeforePanel
+		JPanel isBeforePanel = new JPanel();
+		isBeforePanel.setPreferredSize(new Dimension(100, 60));
+		JLabel isBeforeLabel = new JLabel("Supprimer au début: ");
+		isBefore = new JCheckBox();
+		isBefore.setSelected(true);
+		isBefore.setPreferredSize(new Dimension(20, 20));
+		isBeforePanel.add(isBeforeLabel);
+		isBeforePanel.add(isBefore);
+		thirdLine.add(isBeforePanel);
 
 		// reverseArtist
 		JPanel reverseArtistPanel = new JPanel();
@@ -397,6 +435,7 @@ public class ImportPanel extends JPanel {
 
 	/**
 	 * Ajoute les boutons du bas de l'écran.
+	 * 
 	 * @param artist l'onglet artist
 	 */
 	private void insertBottomPanel(final ArtistPanel artist) {
@@ -594,13 +633,14 @@ public class ImportPanel extends JPanel {
 
 	/**
 	 * Mise en forme des messages pour l'afficher dans la zone texte result.
+	 * 
 	 * @param result2 liste de texte à afficher
 	 */
 	private void miseEnFormeResultLabel(List<String> result2) {
 		LOG.debug("Start miseEnFormeResultLabel");
 		StringBuilder s = new StringBuilder();
 		for (String string : result2) {
-			s.append(string).append('\n');
+			s.append(string).append(Constant.NEW_LINE);
 		}
 		resultLabel.setText(s.toString());
 		resultLabel.setForeground(new Color(243, 16, 16));
@@ -612,6 +652,7 @@ public class ImportPanel extends JPanel {
 	/**
 	 * Crée un file chooser pour sélectionner un fichier selon l'extension
 	 * donnée et à l'endroit donnée.
+	 * 
 	 * @param extension le filtre sur les extensions
 	 * @param dir à quel endroit le file chooser s'ouvre
 	 * @return le fichier choisit
@@ -662,6 +703,7 @@ public class ImportPanel extends JPanel {
 		lastL2.setText("");
 		separator.setText("");
 		characterToRemove.setText("");
+		isBefore.setSelected(true);
 		reverseArtist.setSelected(false);
 		removeParenthese.setSelected(false);
 		upper.setSelected(false);
@@ -715,31 +757,26 @@ public class ImportPanel extends JPanel {
 
 	/**
 	 * Traitement lorsqu'on fusionne tous les fichiers xml.
+	 * 
 	 * @param artist l'onglet artist
-	 * @throws InterruptedException 
+	 * @throws InterruptedException
 	 */
 	private void fusionFilesAction(final ArtistPanel artist) throws InterruptedException {
-		new Thread(new Runnable() {
-			@Override
-			public void run() {
-				LOG.debug("Start fusionFilesAction");
-				result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
-				try {
-					ImportXML.fusionFiles(Constant.XML_PATH, resultLabel);
-				} catch (IOException e) {
-					LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
-					result = new LinkedList<>(Arrays.asList(e.toString()));
-				}
-
-				SwingUtilities.invokeLater(new Runnable() {
-					@Override
-					public void run() {
-						artist.updateArtistPanel();
-						miseEnFormeResultLabel(result);
-					}
-				});
-				LOG.debug("End fusionFilesAction");
+		new Thread(() -> {
+			LOG.debug("Start fusionFilesAction");
+			result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
+			try {
+				ImportXML.fusionFiles(Constant.XML_PATH, resultLabel);
+			} catch (IOException e) {
+				LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
+				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
+
+			SwingUtilities.invokeLater(() -> {
+				artist.updateArtistPanel();
+				miseEnFormeResultLabel(result);
+			});
+			LOG.debug("End fusionFilesAction");
 		}).start();
 	}
 
@@ -791,7 +828,7 @@ public class ImportPanel extends JPanel {
 		if (file != null) {
 			result = new LinkedList<>(Arrays.asList(file.getName() + " nettoyé !"));
 			try {
-				CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText());
+				CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText(), isBefore.isSelected());
 			} catch (IOException e) {
 				LOG.error("Erreur lors du nettoyage du fichier: " + file.getAbsolutePath(), e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
