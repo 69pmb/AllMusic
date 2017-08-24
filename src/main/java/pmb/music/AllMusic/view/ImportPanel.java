@@ -9,7 +9,6 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.io.File;
@@ -441,37 +440,22 @@ public class ImportPanel extends JPanel {
 		JPanel bottom = new JPanel();
 		JButton importFile = new JButton("Importer le fichier");
 		importFile.setToolTipText("Importe au format XML le fichier chargé précédemment avec les critères renseignés.");
-		importFile.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				importFileAction();
-			}
-		});
+		importFile.addActionListener((ActionEvent arg0) -> importFileAction());
 		bottom.add(importFile);
 
 		JButton cleanFile = new JButton("Nettoyer le fichier");
 		cleanFile.setToolTipText("Supprime les lignes qui ne contiennent pas le séparateur. Supprime également les charactères à supprimer.");
-		cleanFile.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				cleanFileAction();
-			}
-		});
+		cleanFile.addActionListener((ActionEvent arg0) -> cleanFileAction());
 		bottom.add(cleanFile);
 
 		JButton fusionFile = new JButton("Fusionner tous les fichiers");
 		fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
-		fusionFile.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				try {
-					fusionFilesAction(artist);
-				} catch (InterruptedException e) {
-					LOG.error("Erreur lors de la fusion des fichiers XML", e);
-				}
+		fusionFile.addActionListener((ActionEvent arg0) -> {
+			try {
+				fusionFilesAction(artist);
+			} catch (InterruptedException e) {
+				LOG.error("Erreur lors de la fusion des fichiers XML", e);
+				Thread.currentThread().interrupt();
 			}
 		});
 		bottom.add(fusionFile);
@@ -479,43 +463,27 @@ public class ImportPanel extends JPanel {
 		// Ouvre le fichier d'entrée dans notepad
 		JButton openFile = new JButton("Éditer le fichier source");
 		openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
-		openFile.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				openFileNotepadAction();
-			}
-		});
+		openFile.addActionListener((ActionEvent arg0) -> openFileNotepadAction());
 		bottom.add(openFile);
 
 		// Ouvre le fichier xml dans notepad
 		JButton openXml = new JButton("Éditer le fichier xml");
 		openXml.setToolTipText("Ouvre le fichier XML généré dans Notepad++");
-		openXml.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				openXmlNotepadAction();
-			}
-		});
+		openXml.addActionListener((ActionEvent arg0) -> openXmlNotepadAction());
 		bottom.add(openXml);
 
 		// Clean history
 		JButton cleanHistory = new JButton("Nettoyer le dossier d'historique");
 		cleanHistory.setToolTipText("Supprime tous les fichiers du dossier d'historique sauf le plus récent.");
-		cleanHistory.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				result = new LinkedList<>(Arrays.asList("Dossier historique nettoyé"));
-				try {
-					FichierUtils.cleanHistory();
-				} catch (IOException e) {
-					LOG.error("Erreur lors de cleanHistory", e);
-					result = new LinkedList<>(Arrays.asList(e.toString()));
-				}
-				miseEnFormeResultLabel(result);
+		cleanHistory.addActionListener((ActionEvent arg0) -> {
+			result = new LinkedList<>(Arrays.asList("Dossier historique nettoyé"));
+			try {
+				FichierUtils.cleanHistory();
+			} catch (IOException e) {
+				LOG.error("Erreur lors de cleanHistory", e);
+				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
+			miseEnFormeResultLabel(result);
 		});
 		bottom.add(cleanHistory);
 
@@ -532,17 +500,13 @@ public class ImportPanel extends JPanel {
 		browse.setBackground(Color.white);
 		browse.setPreferredSize(new Dimension(220, 60));
 		browse.setToolTipText("Charge un fichier texte contenant des musiques.");
-		browse.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				LOG.debug("Start browse");
-				file = addBrowsingFile("txt", explorePath);
-				if (file != null) {
-					loadFile();
-				}
-				LOG.debug("End browse");
+		browse.addActionListener((ActionEvent arg0) -> {
+			LOG.debug("Start browse");
+			file = addBrowsingFile("txt", explorePath);
+			if (file != null) {
+				loadFile();
 			}
+			LOG.debug("End browse");
 		});
 		top.add(browse);
 
@@ -551,13 +515,7 @@ public class ImportPanel extends JPanel {
 		cleanBtn.setBackground(Color.white);
 		cleanBtn.setPreferredSize(new Dimension(220, 60));
 		cleanBtn.setToolTipText("Remet à zéro tous les champs.");
-		cleanBtn.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				resetAll();
-			}
-		});
+		cleanBtn.addActionListener((ActionEvent arg0) -> resetAll());
 		top.add(cleanBtn);
 
 		// Reload
@@ -565,32 +523,20 @@ public class ImportPanel extends JPanel {
 		reloadBtn.setBackground(Color.white);
 		reloadBtn.setPreferredSize(new Dimension(220, 60));
 		reloadBtn.setToolTipText("Relance le chargement du fichier chargé précédemment. Utile si il a été modifié entre temps.");
-		reloadBtn.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				LOG.debug("Start reloadBtn");
-				loadFile();
-				LOG.debug("End reloadBtn");
-			}
-		});
+		reloadBtn.addActionListener((ActionEvent arg0) -> loadFile());
 		top.add(reloadBtn);
 
 		JButton open = new JButton("Charger un fichier XML");
 		open.setBackground(Color.white);
 		open.setPreferredSize(new Dimension(220, 60));
 		open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
-		open.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				LOG.debug("Start open");
-				xmlFile = addBrowsingFile("xml", Constant.XML_PATH);
-				if (xmlFile != null) {
-					absolutePathFileXml = xmlFile.getAbsolutePath();
-				}
-				LOG.debug("End open");
+		open.addActionListener((ActionEvent arg0) -> {
+			LOG.debug("Start open");
+			xmlFile = addBrowsingFile("xml", Constant.XML_PATH);
+			if (xmlFile != null) {
+				absolutePathFileXml = xmlFile.getAbsolutePath();
 			}
+			LOG.debug("End open");
 		});
 		top.add(open);
 
