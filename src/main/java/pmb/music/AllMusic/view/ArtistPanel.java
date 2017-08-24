@@ -11,7 +11,6 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -81,15 +80,15 @@ public class ArtistPanel extends JPanel {
 	private static final String[] title = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
 
 	private int selectedRow = -1;
-	
-	private Thread updateArtistThread;
+
+	private transient Thread updateArtistThread;
 
 	/**
 	 * Génère le panel artiste.
 	 */
 	public ArtistPanel() {
 		super();
-		LOG.debug("Start ArtistPanel");		
+		LOG.debug("Start ArtistPanel");
 		this.setLayout(new BorderLayout());
 
 		JPanel header = new JPanel();
@@ -165,31 +164,6 @@ public class ArtistPanel extends JPanel {
 			}
 		});
 		header.add(reset);
-		// CSV
-		JButton csv = new JButton("Télécharger la recherche en CSV");
-		csv.setBackground(Color.white);
-		csv.setPreferredSize(new Dimension(300, 60));
-		csv.addActionListener(new ActionListener() {
-
-			@SuppressWarnings("unchecked")
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				LOG.debug("Start Csv");
-				List<String> c = Arrays.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
-						cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString()).stream().filter(s->!"".equals(s)).collect(Collectors.toList());
-				String criteres = StringUtils.join(c, " ");
-				String name = CsvFile.writeCsvFromArtistPanel(model.getDataVector(), "artist", criteres, table.getRowSorter().getSortKeys().get(0));
-				try {
-					Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
-				} catch (IOException e1) {
-					LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
-				}
-				LOG.debug("End Csv");
-			}
-
-		});
-		header.add(csv);
-		this.add(header, BorderLayout.PAGE_START);
 
 		// ----- DEBUT TABLE ----------
 		table = new JTable();
@@ -205,9 +179,9 @@ public class ArtistPanel extends JPanel {
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
 		colRenderer();
-		
+
 		updateArtistPanel();
-		
+
 		table.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -236,6 +210,29 @@ public class ArtistPanel extends JPanel {
 
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
 		// ----- FIN TABLE ----------
+
+		// CSV
+		JButton csv = new JButton("Télécharger la recherche en CSV");
+		csv.setBackground(Color.white);
+		csv.setPreferredSize(new Dimension(300, 60));
+		csv.addActionListener((ActionEvent e) -> {
+			LOG.debug("Start Csv");
+			List<String> c = Arrays
+					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
+							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString())
+					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
+			String criteres = StringUtils.join(c, " ");
+			String name = CsvFile.writeCsvFromArtistPanel(model.getDataVector(), "artist", criteres, table.getRowSorter().getSortKeys().get(0));
+			try {
+				Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
+			} catch (IOException e1) {
+				LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
+			}
+			LOG.debug("End Csv");
+		});
+		header.add(csv);
+		this.add(header, BorderLayout.PAGE_START);
+
 		LOG.debug("End ArtistPanel");
 	}
 
@@ -251,7 +248,8 @@ public class ArtistPanel extends JPanel {
 			try {
 				updateArtistThread.join();
 			} catch (InterruptedException e) {
-				LOG.error("",e);
+				LOG.error("", e);
+				Thread.currentThread().interrupt();
 			}
 			startUpdateArtistThread();
 		}
