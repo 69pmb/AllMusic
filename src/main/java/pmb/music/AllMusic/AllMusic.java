@@ -34,18 +34,15 @@ public class AllMusic {
 	 */
 	public static void main(String[] args) {
 		LOG.debug("Lancement de AllMusic");
-		Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
-			@Override
-			public void run() {
-				LOG.debug("Fin de AllMusic");
-				try (BufferedReader br = new BufferedReader(new FileReader(Constant.FILE_LOG_PATH));) {
-					String line = br.readLine();
-					if (line != null && StringUtils.isNotBlank(line)) {
-						Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + Constant.FILE_LOG_PATH);
-					}
-				} catch (IOException e) {
-					LOG.error("Erreur lors de l'ouverture du fichier de log: " + Constant.FILE_LOG_PATH, e);
+		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+			LOG.debug("Fin de AllMusic");
+			try (BufferedReader br = new BufferedReader(new FileReader(Constant.FILE_LOG_PATH));) {
+				String line = br.readLine();
+				if (line != null && StringUtils.isNotBlank(line)) {
+					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + Constant.FILE_LOG_PATH);
 				}
+			} catch (IOException e) {
+				LOG.error("Erreur lors de l'ouverture du fichier de log: " + Constant.FILE_LOG_PATH, e);
 			}
 		}));
 		try {
@@ -53,22 +50,18 @@ public class AllMusic {
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
 			LOG.error("Impossible d'appliquer le style demandé", e);
 		}
-		EventQueue.invokeLater(new Runnable() {
-
-			@Override
-			public void run() {
-				final BasicFrame f = new BasicFrame();
-				JFrame.setDefaultLookAndFeelDecorated(true);
-				JDialog.setDefaultLookAndFeelDecorated(true);
-				f.setExtendedState(JFrame.MAXIMIZED_BOTH);
-				try {
-					f.setLocation(null);
-				} catch (NullPointerException e) {
-					LOG.debug("NPE");
-				}
-				f.pack();
-				f.setVisible(true);
+		EventQueue.invokeLater(() -> {
+			final BasicFrame f = new BasicFrame();
+			JFrame.setDefaultLookAndFeelDecorated(true);
+			JDialog.setDefaultLookAndFeelDecorated(true);
+			f.setExtendedState(JFrame.MAXIMIZED_BOTH);
+			try {
+				f.setLocation(null);
+			} catch (NullPointerException e) {
+				LOG.debug("NPE");
 			}
+			f.pack();
+			f.setVisible(true);
 		});
 	}
 }
