@@ -11,7 +11,9 @@ import java.io.OutputStreamWriter;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -97,35 +99,29 @@ public class CleanFile {
 	 * Supprime tous les diacritiques.
 	 * @param args 
 	 */
-	public static void main(String[] args) {
+	public static void miseEnForme(File folder, boolean isCompleteDirectory) {
 		LOG.debug("Start clearFile");
-		List<File> files = new ArrayList<>();
-		File modifFile = new File(Constant.RESOURCES_ABS_DIRECTORY + "modif.txt");
-		Map<String, String> modif = new HashMap<>();
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(modifFile), Constant.ANSI_ENCODING));) {
-			String line;
-			while ((line = br.readLine()) != null) {
-				String[] split = StringUtils.split(line, ":");
-				if (split.length > 1) {
-					modif.put(split[0], split[1]);
-				} else {
-					modif.put(split[0], "");
-				}
-			}
-		} catch (IOException e) {
-			LOG.error("Erreur lors du parsing " + modifFile.getAbsolutePath(), e);
+		Set<Entry<String, String>> entrySet = getModifSet();
+		if(entrySet == null) {
+			return;
 		}
-		Set<Entry<String, String>> entrySet = modif.entrySet();
-		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), files, ".txt", true);
-//		CompositionUtils.listFilesForFolder(
-//		new File(Constant.XML_PATH), files, Constant.XML_EXTENSION, true);
-//		files = Arrays.asList(new File("C:\\Users\\workspace\\git\\AllMusic\\src\\main\\resources\\XML\\GorillaVsBear Song - 2014.xml"));
+		
+		List<File> files;
+		if(!isCompleteDirectory) {
+			files = Arrays.asList(folder);
+		} else {
+			files = new ArrayList<>();
+			String extention = StringUtils.substringAfterLast(folder.getName(), ".");
+			CompositionUtils.listFilesForFolder(folder.getParentFile(), files, extention, false);
+		}
+		
 		for (File file : files) {
 			boolean modify = false;
 			String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
 					+ StringUtils.substringAfterLast(file.getName(), ".");
 			String name = file.getName();
 			if (!Constant.FINAL_FILE.equals(name)) {
+				LOG.debug(name);
 				try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
 						BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
 					String line;
@@ -148,21 +144,42 @@ public class CleanFile {
 					}
 				} catch (IOException e) {
 					LOG.error("Erreur lors du netoyage de " + file.getAbsolutePath(), e);
+					return;
 				}
 			}
 			if (modify) {
 				LOG.debug(file + " modifié");
 				if (!file.delete()) {
-					LOG.debug(file + " n'a pas pu etre supprimé");
+					LOG.warn(file + " n'a pas pu etre supprimé");
 				}
 				new File(exitFile).renameTo(file);
 			} else {
 				if (!new File(exitFile).delete()) {
-					LOG.debug(exitFile + " n'a pas pu etre supprimé");
+					LOG.warn(exitFile + " n'a pas pu etre supprimé");
 				}
 			}
 		}
 		LOG.debug("End clearFile");
+	}
+
+	private static Set<Entry<String, String>> getModifSet() {
+		File modifFile = new File(Constant.RESOURCES_ABS_DIRECTORY + "modif.txt");
+		Map<String, String> modif = new HashMap<>();
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(modifFile), Constant.ANSI_ENCODING));) {
+			String line;
+			while ((line = br.readLine()) != null) {
+				String[] split = StringUtils.split(line, ":");
+				if (split.length > 1) {
+					modif.put(split[0], split[1]);
+				} else {
+					modif.put(split[0], "");
+				}
+			}
+		} catch (IOException e) {
+			LOG.error("Erreur lors du parsing " + modifFile.getAbsolutePath(), e);
+			return new HashSet();
+		}
+		return modif.entrySet();
 	}
 
 }
