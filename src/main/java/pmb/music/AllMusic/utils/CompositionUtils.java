@@ -93,23 +93,31 @@ public class CompositionUtils {
 		return res;
 	}
 	
-	public static String artistJaroEquals(String composition, String c, JaroWinklerDistance jaro) {
-		String compoArtist = Constant.PATTERN_PUNCTUATION.matcher(composition).replaceAll("").toLowerCase();
+	/**
+	 * Détermine si 2 artistes sont égaux en utilisant la distance de JaroWinkler.
+	 * 
+	 * @param artist un artist
+	 * @param a un autre artist
+	 * @param jaro une instance de {@link JaroWinklerDistance} 
+	 * @return {@code null} rien trouvé, le 1er artiste sinon
+	 */
+	public static String artistJaroEquals(String artist, String a, JaroWinklerDistance jaro) {
+		String compoArtist = Constant.PATTERN_PUNCTUATION.matcher(artist).replaceAll("").toLowerCase();
 		if (StringUtils.startsWith(compoArtist, "the")) {
 			compoArtist = StringUtils.substringAfter(compoArtist, "the");
 		}
 		if (StringUtils.isBlank(compoArtist)) {
-			compoArtist = composition.toLowerCase();
+			compoArtist = artist.toLowerCase();
 		}
-		String cArtist = Constant.PATTERN_PUNCTUATION.matcher(c).replaceAll("").toLowerCase();
+		String cArtist = Constant.PATTERN_PUNCTUATION.matcher(a).replaceAll("").toLowerCase();
 		if (StringUtils.startsWith(cArtist, "the")) {
 			cArtist = StringUtils.substringAfter(cArtist, "the");
 		}
 		if (StringUtils.isBlank(cArtist)) {
-			cArtist = c.toLowerCase();
+			cArtist = a.toLowerCase();
 		}
 		if (new BigDecimal(jaro.apply(compoArtist, cArtist)).compareTo(Constant.SCORE_LIMIT_ARTIST_FUSION) > 0) {
-			return composition;
+			return artist;
 		}
 		return null;
 	}
