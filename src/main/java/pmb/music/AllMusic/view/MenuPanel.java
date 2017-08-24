@@ -2,7 +2,6 @@ package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
 import javax.swing.JMenu;
@@ -76,12 +75,7 @@ public class MenuPanel extends JPanel {
 		final JMenuItem search = new JMenuItem("Rechercher");
 		fichier.add(search);
 		search.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F, ActionEvent.CTRL_MASK));
-		search.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(final ActionEvent ae) {
-				getSelectedTab();
-			}
-		});
+		search.addActionListener((ActionEvent ae) -> getSelectedTab());
 		
 		final JMenuItem triDate = new JMenuItem("Trier par date");
 		fichier.add(triDate);
@@ -89,18 +83,15 @@ public class MenuPanel extends JPanel {
 		final JMenuItem close = new JMenuItem("Fermer");
 		fichier.add(close);
 		close.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.CTRL_MASK));
-		close.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(final ActionEvent ae) {
-				getMyFrame().getTab().getOnglets().getSelectedIndex();
-				final int option = JOptionPane.showConfirmDialog(null, "Voulez-vous VRAIMENT quitter ?", "Demande confirmation ",
-						JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
-				if (option == 0) {
-					LOG.debug("Exit");
-					System.exit(0);
-				} else {
-					// Nothing to do
-				}
+		close.addActionListener((ActionEvent ae) -> {
+			getMyFrame().getTab().getOnglets().getSelectedIndex();
+			final int option = JOptionPane.showConfirmDialog(null, "Voulez-vous VRAIMENT quitter ?", "Demande confirmation ", JOptionPane.YES_NO_CANCEL_OPTION,
+					JOptionPane.QUESTION_MESSAGE);
+			if (option == 0) {
+				LOG.debug("Exit");
+				System.exit(0);
+			} else {
+				// Nothing to do
 			}
 		});
 		
@@ -139,13 +130,9 @@ public class MenuPanel extends JPanel {
 		aide.setMnemonic(KeyEvent.VK_H);
 		final JMenuItem help = new JMenuItem("?");
 		help.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_H, ActionEvent.CTRL_MASK));
-		help.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(final ActionEvent ae) {
-				JOptionPane.showMessageDialog(null, "Ce logiciel permet de gérer les classements et palmarès de chansons et d'albums.\n"
-						+ "Il a été developpé par M. Pierre-Marie Broca de janvier 2017 à XXX.", "HELP", JOptionPane.INFORMATION_MESSAGE);
-			}
-		});
+		help.addActionListener(
+				(ActionEvent ae) -> JOptionPane.showMessageDialog(null, "Ce logiciel permet de gérer les classements et palmarès de chansons et d'albums.\n"
+						+ "Il a été developpé par M. Pierre-Marie Broca de janvier 2017 à XXX.", "HELP", JOptionPane.INFORMATION_MESSAGE));
 		aide.add(help);
 
 		menuBar.add(fichier);
