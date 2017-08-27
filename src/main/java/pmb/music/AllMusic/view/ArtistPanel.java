@@ -69,8 +69,8 @@ public class ArtistPanel extends JPanel {
 	private final JTextField rangeE;
 	private final JTextField auteur;
 	private final JComboBox<Cat> cat;
-	private JButton search;
-	private JButton reset;
+	private final JButton search;
+	private final JButton reset;
 
 	private final JTable table;
 
@@ -245,7 +245,7 @@ public class ArtistPanel extends JPanel {
 		if (updateArtistThread == null || !updateArtistThread.isAlive()) {
 			startUpdateArtistThread();
 		} else {
-			updateArtistThread.interrupt();
+			interruptUpdateArtist();
 			try {
 				updateArtistThread.join();
 			} catch (InterruptedException e) {
@@ -255,6 +255,10 @@ public class ArtistPanel extends JPanel {
 			startUpdateArtistThread();
 		}
 		LOG.debug("End updateArtistPanel");
+	}
+
+	public void interruptUpdateArtist() {
+		updateArtistThread.interrupt();
 	}
 
 	private void startUpdateArtistThread() {
