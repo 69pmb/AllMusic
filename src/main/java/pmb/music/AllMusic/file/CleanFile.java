@@ -178,7 +178,7 @@ public class CleanFile {
 			}
 		} catch (IOException e) {
 			LOG.error("Erreur lors du parsing " + modifFile.getAbsolutePath(), e);
-			return new HashSet();
+			return new HashSet<Entry<String, String>>();
 		}
 		return modif.entrySet();
 	}
