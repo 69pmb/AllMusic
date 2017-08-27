@@ -11,7 +11,6 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 import javax.swing.JTextArea;
@@ -37,9 +36,6 @@ import pmb.music.AllMusic.utils.Constant;
 public final class ImportXML {
 
 	private static final Logger LOG = Logger.getLogger(ImportXML.class);
-	private static Comparator<Composition> byRecord = (c1, c2) -> c1.getRecordType().toString().compareToIgnoreCase(c2.getRecordType().toString());
-	private static Comparator<Composition> byTitre = (c1, c2) -> c1.getTitre().compareToIgnoreCase(c2.getTitre());
-	private static Comparator<Composition> byArtist = (c1, c2) -> c1.getArtist().compareToIgnoreCase(c2.getArtist());
 
 	private ImportXML() {
 	}
@@ -143,38 +139,6 @@ public final class ImportXML {
 		resultLabel.setForeground(new Color(243, 16, 16));
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
-	}
-
-	/**
-	 * Fusionne le fichier donné avec {@code final.xml}. Export le fichier final
-	 * (et crée une sauvegarde de ce fichier dans history) et renvoie la liste
-	 * de Composition.
-	 * 
-	 * @param filePath le chemin du fichier
-	 * @return la liste des {@link Composition} des fichiers
-	 * @throws IOException
-	 */
-	public static List<Composition> fusionOneFile(String filePath) throws IOException {
-		LOG.debug("Start fusionOneFile");
-		File file = new File(filePath);
-		File finalFile = new File(Constant.FINAL_FILE_PATH);
-		List<Composition> compoFusion = new ArrayList<>();
-		compoFusion.addAll(ImportXML.importXML(file.getAbsolutePath()));
-		compoFusion.addAll(ImportXML.importXML(finalFile.getAbsolutePath()));
-
-		List<Composition> compoFinal = new ArrayList<>();
-		for (Composition compo : compoFusion) {
-			Composition compoExist = CompositionUtils.compoExist(compoFinal, compo);
-			if (compoExist == null) {
-				compoFinal.add(compo);
-			} else {
-				Composition composition = compoFusion.get(compoFusion.indexOf(compoExist));
-				composition.getFiles().addAll(compo.getFiles());
-			}
-		}
-		ExportXML.exportXML(compoFinal, Constant.FINAL_FILE);
-		LOG.debug("End fusionOneFile");
-		return compoFinal;
 	}
 
 }
