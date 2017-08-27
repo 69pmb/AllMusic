@@ -44,8 +44,6 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -57,6 +55,8 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -458,6 +458,7 @@ public class SearchPanel extends JPanel {
 	@SuppressWarnings("unchecked")
 	private void deleteAction(final ArtistPanel artist2) {
 		LOG.debug("Start delete");
+		artist2.interruptUpdateArtist();
 		List<Object> selected = model.getSelected();
 		deleteLabel.setText(selected.size() + " élément(s) supprimée(s)");
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
@@ -487,6 +488,7 @@ public class SearchPanel extends JPanel {
 	@SuppressWarnings("unchecked")
 	private void modifAction(final ArtistPanel artist2) {
 		LOG.debug("Start modif");
+		artist2.interruptUpdateArtist();
 		String label = "Élément modifié";
 		Object selected;
 		Composition toModif;
