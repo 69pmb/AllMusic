@@ -731,6 +731,7 @@ public class ImportPanel extends JPanel {
 	private void fusionFilesAction(final ArtistPanel artist) throws InterruptedException {
 		new Thread(() -> {
 			LOG.debug("Start fusionFilesAction");
+			artist.interruptUpdateArtist();
 			result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
 			try {
 				ImportXML.fusionFiles(Constant.XML_PATH, resultLabel);
