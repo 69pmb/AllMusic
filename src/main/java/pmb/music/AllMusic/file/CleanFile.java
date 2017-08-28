@@ -98,9 +98,10 @@ public class CleanFile {
 	 * Mofifie les fichiers spécifiés:
 	 * Remplace suivant le fichier modif.txt des caractères par d'autres. 
 	 * Supprime tous les diacritiques.
+	 * @param result 
 	 * @param args 
 	 */
-	public static void miseEnForme(File folder, boolean isCompleteDirectory) {
+	public static void miseEnForme(File folder, boolean isCompleteDirectory, List<String> result) {
 		LOG.debug("Start clearFile");
 		Set<Entry<String, String>> entrySet = getModifSet();
 		if(entrySet == null) {
@@ -150,6 +151,7 @@ public class CleanFile {
 			}
 			if (modify) {
 				LOG.debug(file + " modifié");
+				result.add(file.getName());
 				if (!file.delete()) {
 					LOG.warn(file + " n'a pas pu etre supprimé");
 				}
