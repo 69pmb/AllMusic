@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -604,10 +605,7 @@ public class ImportPanel extends JPanel {
 	private void miseEnFormeResultLabel(List<String> result2) {
 		LOG.debug("Start miseEnFormeResultLabel");
 		StringBuilder s = new StringBuilder();
-		for (String string : result2) {
-			s.append(string).append(Constant.NEW_LINE);
-		}
-		resultLabel.setText(s.toString());
+		resultLabel.setText(result2.stream().map(str -> s.append(str).append(Constant.NEW_LINE)).collect(Collectors.toList()).toString());
 		resultLabel.setForeground(new Color(243, 16, 16));
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
