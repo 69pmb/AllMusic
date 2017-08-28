@@ -322,9 +322,7 @@ public class ArtistPanel extends JPanel {
 			LOG.debug(v);
 			List<Fichier> files = new ArrayList<>();
 			List<Composition> findByArtist = CompositionUtils.findByArtist(list, v.get(0));
-			for (Composition composition : findByArtist) {
-				files.addAll(composition.getFiles());
-			}
+			files.addAll(findByArtist.stream().map(Composition::getFiles).flatMap(l -> l.stream()).collect(Collectors.toList()));
 			DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600));
 			pop.showDialogFileTable();
 			LOG.debug("End artist mouse");
