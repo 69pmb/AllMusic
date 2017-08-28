@@ -427,12 +427,7 @@ public class ImportFile {
 		} else {
 			String res = "";
 			if (date.size() > 1) {
-				for (String str : date) {
-					if (!str.matches(Constant.YEAR_AT_THE_END)) {
-						res = str;
-						break;
-					}
-				}
+				res = date.stream().filter(s -> !s.matches(Constant.YEAR_AT_THE_END)).findFirst().orElse("");
 			} else if (date.size() == 1) {
 				res = date.get(0);
 			}
