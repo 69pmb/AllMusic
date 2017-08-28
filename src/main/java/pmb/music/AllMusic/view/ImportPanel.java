@@ -17,7 +17,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -506,7 +505,15 @@ public class ImportPanel extends JPanel {
 		// Mise en forme
 		JButton mef = new JButton("Mettre en forme un fichier ou dossier");
 		mef.setToolTipText("Pour supprimer les diacritiques et remplacer des charactères spéciaux.");
-		mef.addActionListener((ActionEvent arg0) -> CleanFile.miseEnForme(file, isCompleteDirectory.isSelected()));
+		mef.addActionListener((ActionEvent arg0) -> {
+			result = new LinkedList<>(Arrays.asList((isCompleteDirectory.isSelected() ? "Dossier" : "Fichier") + " mis en forme:"));
+			CleanFile.miseEnForme(file, isCompleteDirectory.isSelected(), result);
+			if (result.size() > 1) {
+				miseEnFormeResultLabel(result);
+			} else {
+				miseEnFormeResultLabel(new LinkedList<>(Arrays.asList("Rien à mettre en forme")));
+			}
+		});
 		bottom.add(mef);
 
 		bottom.setBorder(BorderFactory.createTitledBorder(""));
@@ -606,7 +613,10 @@ public class ImportPanel extends JPanel {
 	private void miseEnFormeResultLabel(List<String> result2) {
 		LOG.debug("Start miseEnFormeResultLabel");
 		StringBuilder s = new StringBuilder();
-		resultLabel.setText(result2.stream().map(str -> s.append(str).append(Constant.NEW_LINE)).collect(Collectors.toList()).toString());
+		for (String string : result2) {
+			s.append(string).append(Constant.NEW_LINE);
+		}
+		resultLabel.setText(s.toString());
 		resultLabel.setForeground(new Color(243, 16, 16));
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
