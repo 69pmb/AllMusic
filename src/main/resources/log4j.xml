@@ -13,7 +13,7 @@
 		<param name="file" value="error.log" />
 		<param name="immediateFlush" value="true" />
 		<param name="threshold" value="warn" />
-		<param name="append" value="false" />
+		<param name="append" value="true" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern" value="%d{HH:mm:ss} %-5p: %c - line %L - %m%n" />
 		</layout>
