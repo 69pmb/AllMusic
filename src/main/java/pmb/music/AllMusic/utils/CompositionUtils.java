@@ -58,9 +58,7 @@ public class CompositionUtils {
 	public static void printCompoList(List<Composition> allCompo) {
 		LOG.debug("Start printCompoList");
 		LOG.debug("Compo: " + allCompo.size());
-		for (Composition composition : allCompo) {
-			LOG.debug(composition);
-		}
+		allCompo.stream().forEach(LOG::debug);
 		LOG.debug("End printCompoList");
 	}
 
@@ -234,7 +232,7 @@ public class CompositionUtils {
 
 	/**
 	 * Cherche une {@link Composition} dans une liste donnée en fonction de
-	 * l'artiste. Recherche stricte.
+	 * l'artiste. Recherche jaro.
 	 * @param compoList {@link List<Composition>} une liste de compo
 	 * @param artist {@link String} un artiste
 	 * @return la composition trouvée
@@ -244,7 +242,7 @@ public class CompositionUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("artist", artist);
 
-		List<Composition> search = SearchUtils.searchStrictly(compoList, criteria);
+		List<Composition> search = SearchUtils.searchJaro(compoList, criteria, false);
 		if (!search.isEmpty()) {
 			LOG.debug("End findByArtistTitreAndType");
 			return search;
