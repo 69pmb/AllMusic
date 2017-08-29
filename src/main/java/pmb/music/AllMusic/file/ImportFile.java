@@ -610,7 +610,7 @@ public class ImportFile {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
 			String readLine = "";
 			while (readLine != null) {
-				if(StringUtils.isNotBlank(readLine)) {
+				if (StringUtils.isNotBlank(readLine) && readLine.length() >= 5 && !StringUtils.startsWith(readLine, "#")) {
 					count++;
 				}
 				readLine = br.readLine();
