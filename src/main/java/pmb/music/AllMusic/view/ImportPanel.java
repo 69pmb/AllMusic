@@ -462,6 +462,20 @@ public class ImportPanel extends JPanel {
 		cleanFile.setToolTipText("Supprime les lignes qui ne contiennent pas le séparateur. Supprime également les charactères à supprimer.");
 		cleanFile.addActionListener((ActionEvent arg0) -> cleanFileAction());
 		bottom.add(cleanFile);
+		
+		// Mise en forme
+		JButton mef = new JButton("Mettre en forme un fichier ou dossier");
+		mef.setToolTipText("Pour supprimer les diacritiques et remplacer des charactères spéciaux.");
+		mef.addActionListener((ActionEvent arg0) -> {
+			result = new LinkedList<>(Arrays.asList((isCompleteDirectory.isSelected() ? "Dossier" : "Fichier") + " mis en forme:"));
+			CleanFile.miseEnForme(file, isCompleteDirectory.isSelected(), result);
+			if (result.size() > 1) {
+				miseEnFormeResultLabel(result);
+			} else {
+				miseEnFormeResultLabel(new LinkedList<>(Arrays.asList("Rien à mettre en forme")));
+			}
+		});
+		bottom.add(mef);
 
 		JButton fusionFile = new JButton("Fusionner tous les fichiers");
 		fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
@@ -478,14 +492,20 @@ public class ImportPanel extends JPanel {
 		// Ouvre le fichier d'entrée dans notepad
 		JButton openFile = new JButton("Éditer le fichier source");
 		openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
-		openFile.addActionListener((ActionEvent arg0) -> openFileNotepadAction());
+		openFile.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileTxt));
 		bottom.add(openFile);
 
 		// Ouvre le fichier xml dans notepad
 		JButton openXml = new JButton("Éditer le fichier xml");
 		openXml.setToolTipText("Ouvre le fichier XML généré dans Notepad++");
-		openXml.addActionListener((ActionEvent arg0) -> openXmlNotepadAction());
+		openXml.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileXml));
 		bottom.add(openXml);
+		
+		// Ouvre le fichier de log
+		JButton log = new JButton("Logs");
+		log.setToolTipText("Ouvre le fichier de logs dans Notepad++");
+		log.addActionListener((ActionEvent arg0) -> openFileNotepad(Constant.FILE_LOG_PATH));
+		bottom.add(log);
 
 		// Clean history
 		JButton cleanHistory = new JButton("Nettoyer le dossier d'historique");
@@ -501,20 +521,6 @@ public class ImportPanel extends JPanel {
 			miseEnFormeResultLabel(result);
 		});
 		bottom.add(cleanHistory);
-		
-		// Mise en forme
-		JButton mef = new JButton("Mettre en forme un fichier ou dossier");
-		mef.setToolTipText("Pour supprimer les diacritiques et remplacer des charactères spéciaux.");
-		mef.addActionListener((ActionEvent arg0) -> {
-			result = new LinkedList<>(Arrays.asList((isCompleteDirectory.isSelected() ? "Dossier" : "Fichier") + " mis en forme:"));
-			CleanFile.miseEnForme(file, isCompleteDirectory.isSelected(), result);
-			if (result.size() > 1) {
-				miseEnFormeResultLabel(result);
-			} else {
-				miseEnFormeResultLabel(new LinkedList<>(Arrays.asList("Rien à mettre en forme")));
-			}
-		});
-		bottom.add(mef);
 
 		bottom.setBorder(BorderFactory.createTitledBorder(""));
 		this.add(bottom);
@@ -757,42 +763,22 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 * Pour ouvrir le fichier txt séléctionné dans notepad.
+	 * Pour ouvrir un fichier dans notepad.
 	 */
-	private void openFileNotepadAction() {
-		LOG.debug("Start openFile");
-		if (StringUtils.isNotBlank(absolutePathFileTxt)) {
+	private void openFileNotepad(String path) {
+		LOG.debug("Start openFileNotepad");
+		if (StringUtils.isNotBlank(path)) {
 			try {
-				if (FileUtils.fileExists(absolutePathFileTxt)) {
-					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absolutePathFileTxt);
+				if (FileUtils.fileExists(path)) {
+					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + path);
 				}
 			} catch (IOException e) {
-				LOG.error("Erreur lors de l'ouverture du fichier txt: " + absolutePathFileTxt, e);
+				LOG.error("Erreur lors de l'ouverture du fichier: " + path, e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
 				miseEnFormeResultLabel(result);
 			}
 		}
-		LOG.debug("End openFile");
-	}
-
-	/**
-	 * Pour ouvrir le fichier xml nouvellement crée dans notepad.
-	 */
-	private void openXmlNotepadAction() {
-		LOG.debug("Start openXml");
-		if (StringUtils.isNotBlank(absolutePathFileXml)) {
-			try {
-				LOG.debug(absolutePathFileXml);
-				if (FileUtils.fileExists(absolutePathFileXml)) {
-					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absolutePathFileXml);
-				}
-			} catch (IOException e) {
-				LOG.error("Erreur lors de l'ouverture du fichier xml: " + absolutePathFileXml, e);
-				result = new LinkedList<>(Arrays.asList(e.toString()));
-				miseEnFormeResultLabel(result);
-			}
-		}
-		LOG.debug("End openXml");
+		LOG.debug("End openFileNotepad");
 	}
 
 	/**
