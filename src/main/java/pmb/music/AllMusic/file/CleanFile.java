@@ -62,15 +62,17 @@ public class CleanFile {
 
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
 				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
+//			int i =0;
 			while ((line = br.readLine()) != null) {
 				boolean isDigit = true;
 				if (isSorted) {
 					// Si le fichier est trié, on ne garde que les lignes commencant par un chiffre
 					isDigit = StringUtils.isNumeric(StringUtils.substring(line, 0, 1));
 				}
-				if (isDigit && line.length()<90) {
+				if (isDigit && line.length()<120) {
 					writesLineIfContainsSepAndRemovesChar(characterToRemove, sepAsList, line, writer, isBefore);
 				}
+//				i++;
 			}
 			writer.flush();
 		}
