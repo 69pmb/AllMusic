@@ -28,6 +28,10 @@ public class AppTest {
 	private static final Logger LOG = Logger.getLogger(AppTest.class);
 
 	public static void main(String[] args) {
+		missingXML();
+	}
+	
+	public static void randomLineTest() {
 		List<File> files = new ArrayList<>();
 		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), files, ".txt", true);
 		for (File file : files) {
@@ -39,17 +43,17 @@ public class AppTest {
 			LOG.error(fichier.getSize());
 		}
 	}
-	
-	public static void main3(String[] args) {
+
+	public static void missingXML() {
 		LOG.debug("Debut");
 		List<File> music = new ArrayList<>();
 		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), music, ".txt", true);
 		List<String> collectMusic = music.stream().map(File::getName).map(s -> StringUtils.substringBeforeLast(s, ".txt")).collect(Collectors.toList());
-		
+
 		List<File> xml = new ArrayList<>();
 		CompositionUtils.listFilesForFolder(new File(Constant.XML_PATH), xml, Constant.XML_EXTENSION, true);
 		List<String> collectXml = xml.stream().map(File::getName).map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
-		
+
 		LOG.debug("TXT: ");
 		for (String txt : collectMusic) {
 			if(!collectXml.stream().anyMatch(s -> StringUtils.equalsAnyIgnoreCase(s, txt))) {
@@ -63,11 +67,6 @@ public class AppTest {
 			}
 		}
 		LOG.debug("Fin");
-	}
-
-	@Test
-	public void searchArtist() {
-		LOG.debug(StringUtils.containsIgnoreCase("Beatles", "beat"));
 	}
 
 	@Test
