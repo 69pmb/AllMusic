@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM">
-    <File author="Rolling Stone" fileName="Rolling Stone Top 100 Albums Compiled 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="10" creationDate="19/07/2017 07:11:54" size="100"/>
-  </Composition>
   <Composition artist="Patti Smith" titre="Horses" type="ALBUM">
     <File author="Rolling Stone" fileName="Rolling Stone Top 100 Albums Compiled 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="11" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
