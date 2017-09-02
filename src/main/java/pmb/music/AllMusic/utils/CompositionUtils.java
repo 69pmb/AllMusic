@@ -83,7 +83,7 @@ public class CompositionUtils {
 					cTitre = c.getTitre().toLowerCase();
 				}
 				if (new BigDecimal(jaro.apply(compoTitre, cTitre)).compareTo(Constant.SCORE_LIMIT_TITLE_FUSION) > 0
-						&& artistJaroEquals(composition.getArtist(), c.getArtist(), jaro) != null) {
+						&& artistJaroEquals(composition.getArtist(), c.getArtist(), jaro, Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
 					res = composition;
 					break;
 				}
@@ -100,7 +100,7 @@ public class CompositionUtils {
 	 * @param jaro une instance de {@link JaroWinklerDistance} 
 	 * @return {@code null} rien trouvé, le 1er artiste sinon
 	 */
-	public static String artistJaroEquals(String artist, String a, JaroWinklerDistance jaro) {
+	public static String artistJaroEquals(String artist, String a, JaroWinklerDistance jaro, BigDecimal scoreLimit) {
 		String compoArtist = Constant.PATTERN_PUNCTUATION.matcher(artist).replaceAll("").toLowerCase();
 		if (StringUtils.startsWith(compoArtist, "the")) {
 			compoArtist = StringUtils.substringAfter(compoArtist, "the");
@@ -115,7 +115,7 @@ public class CompositionUtils {
 		if (StringUtils.isBlank(cArtist)) {
 			cArtist = a.toLowerCase();
 		}
-		if (new BigDecimal(jaro.apply(compoArtist, cArtist)).compareTo(Constant.SCORE_LIMIT_ARTIST_FUSION) > 0) {
+		if (new BigDecimal(jaro.apply(compoArtist, cArtist)).compareTo(scoreLimit) > 0) {
 			return artist;
 		}
 		return null;
@@ -182,7 +182,7 @@ public class CompositionUtils {
 					LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
 					return result;
 				}
-				if (artistJaroEquals((String) v.get(0),(String) result.get(i).get(0), jaro) != null) {
+				if (artistJaroEquals((String) v.get(0),(String) result.get(i).get(0), jaro, Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
 					result.get(i).set(1, (int) result.get(i).get(1) + (int) v.get(1));
 					result.get(i).set(2, (int) result.get(i).get(2) + (int) v.get(2));
 					result.get(i).set(3, (int) result.get(i).get(3) + (int) v.get(3));
