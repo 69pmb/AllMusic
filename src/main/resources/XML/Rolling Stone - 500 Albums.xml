@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM">
-    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="6" creationDate="28/08/2017 14:29:58" size="500"/>
-  </Composition>
   <Composition artist="Elvis Presley" titre="The Sun Sessions" type="ALBUM">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="11" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
@@ -105,9 +102,6 @@
   </Composition>
   <Composition artist="Sly and the Family Stone" titre="Greatest Hits" type="ALBUM">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="60" creationDate="28/08/2017 14:29:58" size="500"/>
-  </Composition>
-  <Composition artist="Guns n' Roses" titre="Appetite for Destruction" type="ALBUM">
-    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="61" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="U2" titre="Achtung Baby" type="ALBUM">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="62" creationDate="28/08/2017 14:29:58" size="500"/>
