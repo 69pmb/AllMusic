@@ -120,7 +120,7 @@ public class CleanFile {
 		
 		for (File file : files) {
 			boolean modify = false;
-			String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
+			String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - MEF."
 					+ StringUtils.substringAfterLast(file.getName(), ".");
 			String name = file.getName();
 			if (!Constant.FINAL_FILE.equals(name)) {
@@ -153,10 +153,10 @@ public class CleanFile {
 			if (modify) {
 				LOG.debug(file + " modifié");
 				result.add(file.getName());
-				if (!file.delete()) {
-					LOG.warn(file + " n'a pas pu etre supprimé");
-				}
-				new File(exitFile).renameTo(file);
+//				if (!file.delete()) {
+//					LOG.warn(file + " n'a pas pu etre supprimé");
+//				}
+//				new File(exitFile).renameTo(file);
 			} else {
 				if (!new File(exitFile).delete()) {
 					LOG.warn(exitFile + " n'a pas pu etre supprimé");
