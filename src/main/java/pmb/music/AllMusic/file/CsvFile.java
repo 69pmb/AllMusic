@@ -13,9 +13,9 @@ import javax.swing.SortOrder;
 
 import org.apache.log4j.Logger;
 
-import com.opencsv.CSVWriter;
-
 import pmb.music.AllMusic.utils.Constant;
+
+import com.opencsv.CSVWriter;
 
 /**
  * Classe pour les fichiers csv.
@@ -55,7 +55,7 @@ public class CsvFile {
 			row[SEARCH_INDEX_ARTIST] = (String) vector.get(SEARCH_INDEX_ARTIST);
 			row[SEARCH_INDEX_TITRE] = (String) vector.get(SEARCH_INDEX_TITRE);
 			row[SEARCH_INDEX_TYPE] = (String) vector.get(SEARCH_INDEX_TYPE);
-			row[SEARCH_INDEX_NB_FILE] = String.valueOf((Integer) vector.get(SEARCH_INDEX_NB_FILE));
+			row[SEARCH_INDEX_NB_FILE] = String.valueOf(vector.get(SEARCH_INDEX_NB_FILE));
 			csv.add(row);
 		}
 		
@@ -96,9 +96,9 @@ public class CsvFile {
 			Vector<Object> vector = dataVector.get(i);
 			String[] row = new String[4];
 			row[ARTIST_INDEX_ARTIST] = (String) vector.get(ARTIST_INDEX_ARTIST);
-			row[ARTIST_INDEX_NB_TOTAL] = String.valueOf((Integer) vector.get(ARTIST_INDEX_NB_TOTAL));
-			row[ARTIST_INDEX_NB_ALBUM] = String.valueOf((Integer) vector.get(ARTIST_INDEX_NB_ALBUM));
-			row[ARTIST_INDEX_NB_SONG] = String.valueOf((Integer) vector.get(ARTIST_INDEX_NB_SONG));
+			row[ARTIST_INDEX_NB_TOTAL] = String.valueOf(vector.get(ARTIST_INDEX_NB_TOTAL));
+			row[ARTIST_INDEX_NB_ALBUM] = String.valueOf(vector.get(ARTIST_INDEX_NB_ALBUM));
+			row[ARTIST_INDEX_NB_SONG] = String.valueOf(vector.get(ARTIST_INDEX_NB_SONG));
 			csv.add(row);
 		}
 		
@@ -123,7 +123,7 @@ public class CsvFile {
 		return exportCsv(filename, csv, header);
 	}
 
-	private static String exportCsv(String filename, List<String[]> csv, String[] header) {
+	public static String exportCsv(String filename, List<String[]> csv, String[] header) {
 		LOG.debug("Start exportCsv");
 		String name = filename + Constant.CSV_EXTENSION;
 		try (CSVWriter csvWriter = new CSVWriter(new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING),
