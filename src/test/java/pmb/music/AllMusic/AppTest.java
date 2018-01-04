@@ -214,11 +214,10 @@ public class AppTest {
 			criteria.put("auteur", author);
 			List<Composition> yearList = SearchUtils.searchJaro(arrayList, criteria, true);
 			List<String[]> temp = new ArrayList<String[]>();
-			String[] v = new String[3];
-			v[0] = author;
-			v[1] = "";
-			v[2] = String.valueOf(-1);
+			String[] v = initArray(author, "-1");
+			String[] w = initArray("", "-2");
 			temp.add(v);
+			temp.add(w);
 			for (int i = 0; i < yearList.size(); i++) {
 				Composition composition = yearList.get(i);
 				if(composition.getFiles().get(0).getSorted() && composition.getFiles().get(0).getClassement()<=10) {
@@ -229,13 +228,26 @@ public class AppTest {
 					temp.add(v);
 				}
 			}
-			if(temp.size() > 1) {
+			if(temp.size() > 2) {
 				List<String[]> hello = temp.stream().sorted((e1, e2) -> Integer.valueOf(e1[2]).compareTo(Integer.valueOf(e2[2]))).collect(Collectors.toList());
 				result.addAll(hello);
 			}
 		}
+		for (String[] strings : result) {
+			if(StringUtils.isBlank(strings[1])) {
+				strings[2] = "";
+			}
+		}
 		String[] header = {"Artiste","Titre", "Classement"};
 		CsvFile.exportCsv("Top Songs Par Publication - " + year, result, header);
+	}
+
+	private static String[] initArray(String author, String value) {
+		String[] v = new String[3];
+		v[0] = author;
+		v[1] = "";
+		v[2] = value;
+		return v;
 	}
 
 	/**
