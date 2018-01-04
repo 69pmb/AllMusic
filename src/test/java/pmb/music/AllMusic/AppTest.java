@@ -8,6 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -49,8 +50,12 @@ public class AppTest {
 	public static void main(String[] args) {
 //		missingXML();
 		topYear();
+//		detectsDuplicate(RecordType.SONG.toString());
 	}
 	
+	/**
+	 * Tests the recover of information from txt files. 
+	 */
 	public static void randomLineTest() {
 		List<File> files = new ArrayList<>();
 		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), files, ".txt", true);
@@ -64,6 +69,10 @@ public class AppTest {
 		}
 	}
 	
+	/**
+	 * Merge similar txt files.
+	 * @param args
+	 */
 	public static void mergeFile(String[] args) {
 		LOG.debug("Debut");
 		File first = new File(Constant.MUSIC_ABS_DIRECTORY + "Rolling Stone\\Rolling Stone - 500 Albums.txt");
@@ -103,6 +112,9 @@ public class AppTest {
 		LOG.debug("Fin");
 	}
 	
+	/**
+	 * Search if there are txt files which are not convert to xml files.
+	 */
 	public static void missingXML() {
 		LOG.debug("Debut");
 		List<File> music = new ArrayList<>();
@@ -128,6 +140,51 @@ public class AppTest {
 		LOG.debug("Fin");
 	}
 	
+	/**
+	 * Show all the duplicates for a year and a type regardless of the artist, only based on the song or album.
+	 */
+	public static void detectsDuplicate(String type) {
+		System.out.println("Debut detectsDuplicate");
+		final JaroWinklerDistance jaro = new JaroWinklerDistance();
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		if (CollectionUtils.isNotEmpty(importXML)) {
+			String year = String.valueOf(YEAR_TOP);
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put("cat", Cat.YEAR.toString());
+			criteria.put("dateB", year);
+			criteria.put("dateE", year);
+			criteria.put("publish", year);
+			criteria.put("type", type);
+			List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+			List<Integer[]> duplicate = new ArrayList<Integer[]>();
+			for (int i = 0; i < yearList.size(); i++) {
+				for (int j = 0; j < yearList.size(); j++) {
+					if (i < j) {
+						String titre1 = yearList.get(i).getTitre();
+						String titre2 = yearList.get(j).getTitre();
+						String newTitre1 = Constant.PATTERN_PUNCTUATION.matcher(titre1).replaceAll("").toLowerCase();
+						String newTitre2 = Constant.PATTERN_PUNCTUATION.matcher(titre2).replaceAll("").toLowerCase();
+						boolean result = new BigDecimal(jaro.apply(newTitre1, newTitre2)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
+								|| StringUtils.startsWithIgnoreCase(titre1, titre2) || StringUtils.startsWithIgnoreCase(titre2, titre1);
+						if (result) {
+							duplicate.add(new Integer[] { i, j });
+						}
+					}
+				}
+			}
+			System.out.println("Size: " + duplicate.size());
+			for (Integer[] integers : duplicate) {
+				System.out.println("###########################################");
+				System.out.println(yearList.get(integers[0]));
+				System.out.println(yearList.get(integers[1]));
+			}
+		}
+		System.out.println("Fin detectsDuplicate");
+	}
+	
+	/**
+	 * Generates the top excel files of a year.
+	 */
 	public static void topYear() {
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		if (CollectionUtils.isNotEmpty(importXML)) {
@@ -139,6 +196,10 @@ public class AppTest {
 		}
 	}
 
+	/**
+	 * Generates csv file with each top 10 songs of every publication. 
+	 * @param year
+	 */
 	private static void topSongsParPublication(String year) {
 		List<String> authors = Onglet.getAuthorList();		
 		List<String []> result = new ArrayList<String[]>();
@@ -177,6 +238,14 @@ public class AppTest {
 		CsvFile.exportCsv("Top Songs Par Publication - " + year, result, header);
 	}
 
+	/**
+	 * Top songs or top albums.
+	 * @param importXML
+	 * @param type
+	 * @param fileName
+	 * @param limit
+	 * @param year
+	 */
 	private static void topRecords(List<Composition> importXML, RecordType type, String fileName, int limit, String year) {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("cat", Cat.YEAR.toString());
@@ -195,6 +264,11 @@ public class AppTest {
 		CsvFile.writeCsvFromSearchResult(occurenceList, fileName + " - " + YEAR_TOP, year, sortKey);
 	}
 
+	/**
+	 * Generates csv file with the most occurence of an artist, songs and albums combine. 
+	 * @param importXML
+	 * @param year
+	 */
 	private static void topOccurence(List<Composition> importXML, String year) {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("cat", Cat.YEAR.toString());
@@ -212,6 +286,10 @@ public class AppTest {
 		CsvFile.writeCsvFromArtistPanel(occurenceList, "Top Occurence - " + YEAR_TOP, year, sortKey);
 	}
 	
+	/**
+	 * Generates statistics of xml files.
+	 * @param args
+	 */
 	public static void stat(String[] args) {
 		LOG.debug("Debut");
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
