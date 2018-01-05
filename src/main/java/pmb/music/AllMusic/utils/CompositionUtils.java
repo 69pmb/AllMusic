@@ -73,15 +73,15 @@ public class CompositionUtils {
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		for (Composition composition : compos) {
 			if (c.getRecordType().equals(composition.getRecordType())) {
-				String compoTitre = Constant.PATTERN_PUNCTUATION.matcher(composition.getTitre()).replaceAll("").toLowerCase();
+				String compoTitre = SearchUtils.removePunctuation(composition.getTitre());
 				if (StringUtils.isBlank(compoTitre)) {
 					compoTitre = composition.getTitre().toLowerCase();
 				}
-				String cTitre = Constant.PATTERN_PUNCTUATION.matcher(c.getTitre()).replaceAll("").toLowerCase();
+				String cTitre = SearchUtils.removePunctuation(c.getTitre());
 				if (StringUtils.isBlank(cTitre)) {
 					cTitre = c.getTitre().toLowerCase();
 				}
-				if (new BigDecimal(jaro.apply(compoTitre, cTitre)).compareTo(Constant.SCORE_LIMIT_TITLE_FUSION) > 0
+				if (SearchUtils.isEqualsJaro(jaro, compoTitre, cTitre, Constant.SCORE_LIMIT_TITLE_FUSION)
 						&& artistJaroEquals(composition.getArtist(), c.getArtist(), jaro, Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
 					res = composition;
 					break;
@@ -100,21 +100,21 @@ public class CompositionUtils {
 	 * @return {@code null} rien trouvé, le 1er artiste sinon
 	 */
 	public static String artistJaroEquals(String artist, String a, JaroWinklerDistance jaro, BigDecimal scoreLimit) {
-		String compoArtist = Constant.PATTERN_PUNCTUATION.matcher(artist).replaceAll("").toLowerCase();
+		String compoArtist = SearchUtils.removePunctuation(artist);
 		if (StringUtils.startsWith(compoArtist, "the")) {
 			compoArtist = StringUtils.substringAfter(compoArtist, "the");
 		}
 		if (StringUtils.isBlank(compoArtist)) {
 			compoArtist = artist.toLowerCase();
 		}
-		String cArtist = Constant.PATTERN_PUNCTUATION.matcher(a).replaceAll("").toLowerCase();
+		String cArtist = SearchUtils.removePunctuation(a);
 		if (StringUtils.startsWith(cArtist, "the")) {
 			cArtist = StringUtils.substringAfter(cArtist, "the");
 		}
 		if (StringUtils.isBlank(cArtist)) {
 			cArtist = a.toLowerCase();
 		}
-		if (new BigDecimal(jaro.apply(compoArtist, cArtist)).compareTo(scoreLimit) > 0) {
+		if (SearchUtils.isEqualsJaro(jaro, compoArtist, cArtist, scoreLimit)) {
 			return artist;
 		}
 		return null;

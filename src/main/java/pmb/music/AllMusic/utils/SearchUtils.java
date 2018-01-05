@@ -97,18 +97,32 @@ public class SearchUtils {
 
 	private static boolean isEqualsByJaroCriteria(final JaroWinklerDistance jaro, final String text, String newText) {
 		String noPunctuation = removePunctuation(newText);
-		return new BigDecimal(jaro.apply(noPunctuation, text)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
+		return isEqualsJaro(jaro, noPunctuation, text, Constant.SCORE_LIMIT_SEARCH)
 				|| StringUtils.containsIgnoreCase(newText, text);
 	}
 
 	/**
-	 * Remove all punctuation and lower the case of the given text.
-	 * 
-	 * @param text
-	 *            The String to compress
-	 * @return
+	 * Return if the two given text are equals if their {@link JaroWinklerDistance}
+	 * score is greater than the given limit.
+	 * @param jaro a {@link JaroWinklerDistance} instance
+	 * @param text1 a string
+	 * @param text2 another string
+	 * @param limit the jaro score limit
+	 * @return true if the score is equal or greater than the limit
 	 */
-	private static String removePunctuation(String text) {
+	public static boolean isEqualsJaro(JaroWinklerDistance jaro, String text1, String text2, BigDecimal limit) {
+		return new BigDecimal(jaro.apply(text1, text2)).compareTo(limit) > 0;
+	}
+
+	/**
+	 * Remove all punctuation and lower the case of the given text.
+	 * @param text The String to compress
+	 * @return a string with no punctuation
+	 */
+	public static String removePunctuation(String text) {
+		if (StringUtils.isBlank(text)) {
+			return "";
+		}
 		return Constant.PATTERN_PUNCTUATION.matcher(text).replaceAll("").toLowerCase();
 	}
 
