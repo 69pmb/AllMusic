@@ -63,7 +63,9 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Détermine si la compo existe dans la liste donnée.
+	 * Détermine si la compo existe dans la liste donnée. 
+	 * C'est à dire, si le {@link RecordType} est le même et 
+	 * si le titre et l'artiste sont similaires en utilisant leur score de JaroWinkler.
 	 * 
 	 * @param compos la liste
 	 * @param c la compo à chercher
@@ -74,14 +76,19 @@ public class CompositionUtils {
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		for (Composition composition : compos) {
 			if (c.getRecordType().equals(composition.getRecordType())) {
+				// Suppression de la ponctuation
 				String compoTitre = SearchUtils.removePunctuation(composition.getTitre());
 				if (StringUtils.isBlank(compoTitre)) {
+					// Si le titre n'est constitué que de ponctuation
 					compoTitre = composition.getTitre().toLowerCase();
 				}
+				// Suppression de la ponctuation
 				String cTitre = SearchUtils.removePunctuation(c.getTitre());
 				if (StringUtils.isBlank(cTitre)) {
+					// Si le titre n'est constitué que de ponctuation
 					cTitre = c.getTitre().toLowerCase();
 				}
+				// Si le titre et l'artist sont similaires, on sort
 				if (SearchUtils.isEqualsJaro(jaro, compoTitre, cTitre, Constant.SCORE_LIMIT_TITLE_FUSION)
 						&& artistJaroEquals(composition.getArtist(), c.getArtist(), jaro, Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
 					res = composition;
@@ -101,21 +108,28 @@ public class CompositionUtils {
 	 * @return {@code null} rien trouvé, le 1er artiste sinon
 	 */
 	public static String artistJaroEquals(String artist, String a, JaroWinklerDistance jaro, BigDecimal scoreLimit) {
+		// Suppression de la ponctuation
 		String compoArtist = SearchUtils.removePunctuation(artist);
 		if (StringUtils.startsWith(compoArtist, "the")) {
+			// Si l'artist commence par The, on supprime le The
 			compoArtist = StringUtils.substringAfter(compoArtist, "the");
 		}
 		if (StringUtils.isBlank(compoArtist)) {
+			// Si l'artiste est constitué que de ponctuation ou de The
 			compoArtist = artist.toLowerCase();
 		}
+		// Suppression de la ponctuation
 		String cArtist = SearchUtils.removePunctuation(a);
 		if (StringUtils.startsWith(cArtist, "the")) {
+			// Si l'artist commence par The, on supprime le The
 			cArtist = StringUtils.substringAfter(cArtist, "the");
 		}
 		if (StringUtils.isBlank(cArtist)) {
+			// Si l'artiste est constitué que de ponctuation ou de The
 			cArtist = a.toLowerCase();
 		}
 		if (SearchUtils.isEqualsJaro(jaro, compoArtist, cArtist, scoreLimit)) {
+			// Si les artistes sont similaires on le retourne
 			return artist;
 		}
 		return null;

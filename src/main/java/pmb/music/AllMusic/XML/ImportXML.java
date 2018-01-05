@@ -82,12 +82,13 @@ public final class ImportXML {
 		LOG.debug("Start fusionFiles");
 		File dir = new File(dirName);
 		List<File> files = new ArrayList<>();
+		// On récupère tous les fichiers xml du dossier XML
 		CompositionUtils.listFilesForFolder(dir, files, Constant.XML_EXTENSION, false);
-		List<Composition> compoFusionSong = new ArrayList<>();
-		List<Composition> compoFusionAlbum = new ArrayList<>();
+		List<Composition> compoFusionSong = new ArrayList<>(); // Contiendra toutes les compositions de chanson
+		List<Composition> compoFusionAlbum = new ArrayList<>(); // Contiendra toutes les compositions d'album
 		for (File fileXML : files) {
-			boolean isFinal = Constant.FINAL_FILE.equalsIgnoreCase(fileXML.getName());
-			if (!isFinal) {
+			// On récupère les compositions de chaque fichier xml, excepté le fichier final.xml
+			if (Constant.FINAL_FILE.equalsIgnoreCase(fileXML.getName())) {
 				List<Composition> importXML = ImportXML.importXML(fileXML.getAbsolutePath());
 				if (RecordType.ALBUM.equals(importXML.get(0).getRecordType())) {
 					compoFusionAlbum.addAll(importXML);
@@ -105,7 +106,7 @@ public final class ImportXML {
 		LOG.debug(sizeBG.intValue());
 		compoFinal = fusion(resultLabel, compoFusionAlbum, compoFinal, 0, modulo, sizeBG);
 		compoFinal = fusion(resultLabel, compoFusionSong, compoFinal, compoFusionAlbum.size(), modulo, sizeBG);
-		ExportXML.exportXML(compoFinal, Constant.FINAL_FILE);
+		ExportXML.exportXML(compoFinal, Constant.FINAL_FILE); // On exporte le resultat dans le fichier final.xml
 		LOG.debug("End fusionFiles");
 		return compoFinal;
 	}
@@ -120,6 +121,7 @@ public final class ImportXML {
 				compoExist.getFiles().addAll(compo.getFiles());
 			}
 			if (i % modulo == 0) {
+				// Affiche dans l'ihm le pourcentage du calcul de fusion
 				updateResultLabel(
 						Arrays.asList("Fusion à "
 								+ BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(i)).divide(sizeBG, RoundingMode.HALF_UP).doubleValue() + "%"),
