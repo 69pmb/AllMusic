@@ -75,14 +75,10 @@ public class SearchUtils {
 
 		boolean result = true;
 		if (StringUtils.isNotBlank(artist)) {
-			String newArtist = Constant.PATTERN_PUNCTUATION.matcher(co.getArtist()).replaceAll("").toLowerCase();
-			result = result && (new BigDecimal(jaro.apply(newArtist, artist)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
-					|| StringUtils.containsIgnoreCase(co.getArtist(), artist));
+			result = result && isEqualsByJaroCriteria(jaro, artist, co.getArtist());
 		}
 		if (StringUtils.isNotBlank(titre)) {
-			String newTitre = Constant.PATTERN_PUNCTUATION.matcher(co.getTitre()).replaceAll("").toLowerCase();
-			result = result && (new BigDecimal(jaro.apply(newTitre, titre)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
-					|| StringUtils.containsIgnoreCase(co.getTitre(), titre));
+			result = result && isEqualsByJaroCriteria(jaro, titre, co.getTitre());
 		}
 		if (type != null) {
 			result = result && co.getRecordType() == RecordType.valueOf(type);
@@ -90,12 +86,30 @@ public class SearchUtils {
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (searchFile && CollectionUtils.isNotEmpty(files) && result) {
-			CollectionUtils.filter(files, (Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, f));
+			CollectionUtils.filter(files,
+					(Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, f));
 		}
 		if (searchInFiles) {
 			co.setFiles(files);
 		}
 		return result && CollectionUtils.isNotEmpty(files);
+	}
+
+	private static boolean isEqualsByJaroCriteria(final JaroWinklerDistance jaro, final String text, String newText) {
+		String noPunctuation = removePunctuation(newText);
+		return new BigDecimal(jaro.apply(noPunctuation, text)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
+				|| StringUtils.containsIgnoreCase(newText, text);
+	}
+
+	/**
+	 * Remove all punctuation and lower the case of the given text.
+	 * 
+	 * @param text
+	 *            The String to compress
+	 * @return
+	 */
+	private static String removePunctuation(String text) {
+		return Constant.PATTERN_PUNCTUATION.matcher(text).replaceAll("").toLowerCase();
 	}
 
 	/**
