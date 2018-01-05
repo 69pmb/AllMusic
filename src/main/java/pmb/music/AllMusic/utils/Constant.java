@@ -32,7 +32,7 @@ public class Constant {
 	/**
 	 * Chemin abs du dossier d'historique.
 	 */
-	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history") + "\\";
+	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history") + Constant.JAVA_SLASH;
 	
 	/**
 	 * Chemin abs du fichier de log.
@@ -42,7 +42,7 @@ public class Constant {
 	/**
 	 * Chemin abs du dossier contenant tous les fichiers xml importés.
 	 */
-	public static final String XML_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml") + "\\";
+	public static final String XML_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml") + Constant.JAVA_SLASH;
 
 	/**
 	 * Nom du fichier final.
@@ -59,7 +59,7 @@ public class Constant {
 	/**
 	 * Chemin abs du dossier contenant les fichiers txt des classements.
 	 */
-	public static final String MUSIC_ABS_DIRECTORY = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music") + "\\";
+	public static final String MUSIC_ABS_DIRECTORY = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music") + Constant.JAVA_SLASH;
 
 	public static final String EXCEL_PATH = GetProperties.getProperty("excel") + " ";
 
@@ -73,7 +73,11 @@ public class Constant {
 
 	public static final String REGULAR_DASH = "-";
 
-	public static final String DOT = ". ";
+	public static final String DOT = ".";
+	
+	public static final String JAVA_SLASH = "\\";
+	
+	public static final String DIESE = "#";
 
 	public static final String XML_EXTENSION = ".xml";
 
