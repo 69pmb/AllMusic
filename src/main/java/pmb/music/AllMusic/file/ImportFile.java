@@ -51,7 +51,7 @@ public class ImportFile {
 		Fichier fichier = new Fichier();
 		String name = file.getName();
 		fichier.setCreationDate(getCreationDate(file));
-		fichier.setFileName(StringUtils.substringBeforeLast(name, "."));
+		fichier.setFileName(StringUtils.substringBeforeLast(name, Constant.DOT));
 		fichier.setCategorie(determineCategory(name));
 		String auteur = file.getParentFile().getName();
 		if ("album".equalsIgnoreCase(auteur) || "song".equalsIgnoreCase(auteur) || "year".equalsIgnoreCase(auteur)) {
@@ -90,7 +90,7 @@ public class ImportFile {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			while ((line = br.readLine()) != null) {
 				lineNb++;
-				if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, "#")) {
+				if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, Constant.DIESE)) {
 					continue;
 				}
 				getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter, upper, reverseArtist, parenthese,
@@ -169,10 +169,10 @@ public class ImportFile {
 
 		int rank;
 		if (sorted) {
-			String res = StringUtils.trim(StringUtils.substringBefore(artist, "."));
+			String res = StringUtils.trim(StringUtils.substringBefore(artist, Constant.DOT));
 			if (StringUtils.isNumeric(res)) {
 				rank = Integer.parseInt(res);
-				artist = StringUtils.substringAfter(artist, ".");
+				artist = StringUtils.substringAfter(artist, Constant.DOT);
 			} else {
 				res = artist.split(" ")[0];
 				rank = parseStringToInt(res);
@@ -326,7 +326,7 @@ public class ImportFile {
 	private static int extractRankFromString(String line) {
 		LOG.debug("Start extractRankFromString");
 		int sizeInt;
-		String size = StringUtils.trim(StringUtils.substringBefore(line, "."));
+		String size = StringUtils.trim(StringUtils.substringBefore(line, Constant.DOT));
 		if (StringUtils.isNumeric(size)) {
 			sizeInt = Integer.parseInt(size);
 		} else {
@@ -537,7 +537,7 @@ public class ImportFile {
 	}
 	
 	private static boolean isSuitableSeparator(String sep) {
-		return !StringUtils.isAlphanumeric(sep) && !StringUtils.contains(sep, "(") && !StringUtils.contains(sep, ")") && sep.length()==1 && !StringUtils.contains(sep, ".");
+		return !StringUtils.isAlphanumeric(sep) && !StringUtils.contains(sep, "(") && !StringUtils.contains(sep, ")") && sep.length()==1 && !StringUtils.contains(sep, Constant.DOT);
 	}
 
 	/**
@@ -565,7 +565,7 @@ public class ImportFile {
 				line = StringUtils.trim(br.readLine());
 			}
 			int count = rand;
-			while (StringUtils.startsWith(line, "#") || StringUtils.isBlank(line) && line.length() < 5) {
+			while (StringUtils.startsWith(line, Constant.DIESE) || StringUtils.isBlank(line) && line.length() < 5) {
 				line = StringUtils.trim(br.readLine());
 				count++;
 			}
@@ -609,7 +609,7 @@ public class ImportFile {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
 			String readLine = "";
 			while (readLine != null) {
-				if (StringUtils.isNotBlank(readLine) && readLine.length() >= 5 && !StringUtils.startsWith(readLine, "#")) {
+				if (StringUtils.isNotBlank(readLine) && readLine.length() >= 5 && !StringUtils.startsWith(readLine, Constant.DIESE)) {
 					count++;
 				}
 				readLine = br.readLine();

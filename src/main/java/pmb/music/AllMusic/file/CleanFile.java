@@ -56,8 +56,8 @@ public class CleanFile {
 			sepAsList.add(sep);
 		}
 		String line = "";
-		String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - Cleaned."
-				+ StringUtils.substringAfterLast(file.getName(), ".");
+		String exitFile = file.getParentFile().getAbsolutePath() + Constant.JAVA_SLASH + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - Cleaned."
+				+ StringUtils.substringAfterLast(file.getName(), Constant.DOT);
 
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
 				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
@@ -114,14 +114,14 @@ public class CleanFile {
 			files = Arrays.asList(folder);
 		} else {
 			files = new ArrayList<>();
-			String extention = StringUtils.substringAfterLast(folder.getName(), ".");
+			String extention = StringUtils.substringAfterLast(folder.getName(), Constant.DOT);
 			CompositionUtils.listFilesForFolder(folder.getParentFile(), files, extention, false);
 		}
 		
 		for (File file : files) {
 			boolean modify = false;
-			String exitFile = file.getParentFile().getAbsolutePath() + "\\" + StringUtils.substringBeforeLast(file.getName(), ".") + " - MEF."
-					+ StringUtils.substringAfterLast(file.getName(), ".");
+			String exitFile = file.getParentFile().getAbsolutePath() + Constant.JAVA_SLASH + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - MEF."
+					+ StringUtils.substringAfterLast(file.getName(), Constant.DOT);
 			String name = file.getName();
 			if (!Constant.FINAL_FILE.equals(name)) {
 				LOG.debug(name);
