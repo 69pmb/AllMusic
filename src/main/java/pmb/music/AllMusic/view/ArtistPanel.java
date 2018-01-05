@@ -166,27 +166,6 @@ public class ArtistPanel extends JPanel {
 			}
 		});
 		header.add(reset);
-		// CSV
-		JButton csv = new JButton("Télécharger la recherche en CSV");
-		csv.setBackground(Color.white);
-		csv.setPreferredSize(new Dimension(200, 60));
-		csv.addActionListener((ActionEvent e) -> {
-			LOG.debug("Start Csv");
-			List<String> c = Arrays
-					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
-							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString())
-					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
-			String criteres = StringUtils.join(c, " ");
-			String name = CsvFile.writeCsvFromArtistPanel(model.getDataVector(), "artist", criteres, table.getRowSorter().getSortKeys().get(0));
-			try {
-				Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
-			} catch (IOException e1) {
-				LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
-			}
-			LOG.debug("End Csv");
-		});
-		header.add(csv);
-		this.add(header, BorderLayout.PAGE_START);
 
 		// ----- DEBUT TABLE ----------
 		table = new JTable();
@@ -233,6 +212,28 @@ public class ArtistPanel extends JPanel {
 
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
 		// ----- FIN TABLE ----------
+		
+		// CSV
+		JButton csv = new JButton("Télécharger la recherche en CSV");
+		csv.setBackground(Color.white);
+		csv.setPreferredSize(new Dimension(200, 60));
+		csv.addActionListener((ActionEvent e) -> {
+			LOG.debug("Start Csv");
+			List<String> c = Arrays
+					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
+							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString())
+					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
+			String criteres = StringUtils.join(c, " ");
+			String name = CsvFile.writeCsvFromArtistPanel(model.getDataVector(), "artist", criteres, table.getRowSorter().getSortKeys().get(0));
+			try {
+				Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
+			} catch (IOException e1) {
+				LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
+			}
+			LOG.debug("End Csv");
+		});
+		header.add(csv);
+		this.add(header, BorderLayout.PAGE_START);
 
 		LOG.debug("End ArtistPanel");
 	}
