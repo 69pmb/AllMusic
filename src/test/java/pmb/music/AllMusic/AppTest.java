@@ -144,47 +144,51 @@ public class AppTest {
 	 * Show all the duplicates for a year and a type regardless of the artist, only based on the song or album.
 	 */
 	public static void detectsDuplicate(String type) {
-		System.out.println("Debut detectsDuplicate");
+		LOG.debug("Debut detectsDuplicate");
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		if (CollectionUtils.isNotEmpty(importXML)) {
 			String year = String.valueOf(YEAR_TOP);
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put("cat", Cat.YEAR.toString());
-			criteria.put("dateB", year);
-			criteria.put("dateE", year);
-			criteria.put("publish", year);
+//			criteria.put("dateB", year);
+//			criteria.put("dateE", year);
+//			criteria.put("publish", year);
 			criteria.put("type", type);
 			List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+			LOG.debug("Size: " + yearList.size());
 			List<Integer[]> duplicate = new ArrayList<Integer[]>();
 			for (int i = 0; i < yearList.size(); i++) {
 				for (int j = 0; j < yearList.size(); j++) {
 					if (i < j) {
-						String titre1 = yearList.get(i).getTitre();
-						String titre2 = yearList.get(j).getTitre();
+						Composition composition1 = yearList.get(i);
+						Composition composition2 = yearList.get(j);
+						String titre1 = composition1.getTitre();
+						String titre2 = composition2.getTitre();
 						String newTitre1 = SearchUtils.removePunctuation(titre1);
 						String newTitre2 = SearchUtils.removePunctuation(titre2);
-						String artist1 = yearList.get(i).getArtist();
-						String artist2 = yearList.get(j).getArtist();
-//						String newArtist1 = compressText(artist1);
-//						String newArtist2 = compressText(artist2);
-						boolean result = (new BigDecimal(jaro.apply(newTitre1, newTitre2)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
+						String artist1 = composition1.getArtist();
+						String artist2 = composition2.getArtist();
+						int publishYear1 = composition1.getFiles().get(0).getPublishYear();
+						int publishYear2 = composition2.getFiles().get(0).getPublishYear();
+						boolean result = (SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION)
 								|| StringUtils.startsWithIgnoreCase(titre1, titre2) || StringUtils.startsWithIgnoreCase(titre2, titre1))
-								&& (StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1));
+								&& (StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1))
+								&& publishYear1 == publishYear2;
 						if (result) {
 							duplicate.add(new Integer[] { i, j });
 						}
 					}
 				}
 			}
-			System.out.println("Size: " + duplicate.size());
+			LOG.debug("Size: " + duplicate.size());
 			for (Integer[] integers : duplicate) {
-				System.out.println("###########################################");
-				System.out.println(yearList.get(integers[0]));
-				System.out.println(yearList.get(integers[1]));
+				LOG.debug("###########################################");
+				LOG.debug(yearList.get(integers[0]));
+				LOG.debug(yearList.get(integers[1]));
 			}
 		}
-		System.out.println("Fin detectsDuplicate");
+		LOG.debug("Fin detectsDuplicate");
 	}
 
 	/**
