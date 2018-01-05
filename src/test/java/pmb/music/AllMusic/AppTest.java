@@ -45,12 +45,12 @@ import pmb.music.AllMusic.view.Onglet;
 public class AppTest {
 
 	private static final Logger LOG = Logger.getLogger(AppTest.class);
-	private static final int YEAR_TOP = 2017;
+	private static final int YEAR_TOP = 2016;
 
 	public static void main(String[] args) {
 //		missingXML();
-		topYear();
-//		detectsDuplicate(RecordType.SONG.toString());
+//		topYear();
+		detectsDuplicate(RecordType.SONG.toString());
 	}
 	
 	/**
@@ -162,10 +162,15 @@ public class AppTest {
 					if (i < j) {
 						String titre1 = yearList.get(i).getTitre();
 						String titre2 = yearList.get(j).getTitre();
-						String newTitre1 = Constant.PATTERN_PUNCTUATION.matcher(titre1).replaceAll("").toLowerCase();
-						String newTitre2 = Constant.PATTERN_PUNCTUATION.matcher(titre2).replaceAll("").toLowerCase();
-						boolean result = new BigDecimal(jaro.apply(newTitre1, newTitre2)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
-								|| StringUtils.startsWithIgnoreCase(titre1, titre2) || StringUtils.startsWithIgnoreCase(titre2, titre1);
+						String newTitre1 = SearchUtils.removePunctuation(titre1);
+						String newTitre2 = SearchUtils.removePunctuation(titre2);
+						String artist1 = yearList.get(i).getArtist();
+						String artist2 = yearList.get(j).getArtist();
+//						String newArtist1 = compressText(artist1);
+//						String newArtist2 = compressText(artist2);
+						boolean result = (new BigDecimal(jaro.apply(newTitre1, newTitre2)).compareTo(Constant.SCORE_LIMIT_SEARCH) > 0
+								|| StringUtils.startsWithIgnoreCase(titre1, titre2) || StringUtils.startsWithIgnoreCase(titre2, titre1))
+								&& (StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1));
 						if (result) {
 							duplicate.add(new Integer[] { i, j });
 						}
@@ -181,7 +186,7 @@ public class AppTest {
 		}
 		System.out.println("Fin detectsDuplicate");
 	}
-	
+
 	/**
 	 * Generates the top excel files of a year.
 	 */
@@ -340,10 +345,10 @@ public class AppTest {
 		LOG.debug("titre: " + titre);
 		int rank = 0;
 		if (sorted) {
-			String res = StringUtils.substringBefore(artist, ".");
+			String res = StringUtils.substringBefore(artist, Constant.DOT);
 			if (StringUtils.isNumeric(res)) {
 				rank = Integer.parseInt(res);
-				artist = StringUtils.substringAfter(artist, ".");
+				artist = StringUtils.substringAfter(artist, Constant.DOT);
 			} else {
 				res = artist.split(" ")[0];
 				rank = Integer.parseInt(res);
@@ -377,10 +382,10 @@ public class AppTest {
 		LOG.debug("titre: " + titre);
 		int rank = 0;
 		if (sorted) {
-			String res = StringUtils.substringBefore(artist, ".");
+			String res = StringUtils.substringBefore(artist, Constant.DOT);
 			if (StringUtils.isNumeric(res)) {
 				rank = Integer.parseInt(res);
-				artist = StringUtils.substringAfter(artist, ".");
+				artist = StringUtils.substringAfter(artist, Constant.DOT);
 			} else {
 				res = artist.split(" ")[0];
 				rank = Integer.parseInt(res);
@@ -399,7 +404,7 @@ public class AppTest {
 		Map<Double, String> jaroRes = new TreeMap<>();
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		for (Composition composition : guardian) {
-			String titre = Constant.PATTERN_PUNCTUATION.matcher(composition.getArtist()).replaceAll("").toLowerCase();
+			String titre = SearchUtils.removePunctuation(composition.getArtist());
 			Double apply = jaro.apply(titre, test);
 			jaroRes.put(apply, titre);
 		}
