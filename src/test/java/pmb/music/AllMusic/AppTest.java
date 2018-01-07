@@ -8,7 +8,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -27,6 +26,7 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
+import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.file.ImportFile;
@@ -50,7 +50,8 @@ public class AppTest {
 	public static void main(String[] args) {
 //		missingXML();
 //		topYear();
-		detectsDuplicate(RecordType.SONG.toString());
+//		detectsDuplicate(RecordType.SONG.toString());
+		detectsDuplicateFinal(RecordType.SONG.toString());
 	}
 	
 	/**
@@ -138,6 +139,77 @@ public class AppTest {
 			}
 		}
 		LOG.debug("Fin");
+	}
+	
+	/**
+	 * Show all the duplicates for a year and a type regardless of the artist, only based on the song or album.
+	 */
+	public static void detectsDuplicateFinal(String type) {
+		LOG.debug("Debut detectsDuplicateFinal");
+		final JaroWinklerDistance jaro = new JaroWinklerDistance();
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		if (CollectionUtils.isNotEmpty(importXML)) {
+			String year = String.valueOf(YEAR_TOP);
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put("cat", Cat.YEAR.toString());
+//			criteria.put("dateB", year);
+//			criteria.put("dateE", year);
+//			criteria.put("publish", year);
+			criteria.put("type", type);
+			LOG.debug("Size: " + importXML.size());
+			List<Composition[]> duplicate = new ArrayList<Composition[]>();
+			for (int i = 0; i < importXML.size(); i++) {
+				for (int j = 0; j < importXML.size(); j++) {
+					if(!importXML.get(i).getRecordType().toString().equals(type) || !importXML.get(j).getRecordType().toString().equals(type)) {
+						continue;
+					}
+					boolean isCriteria = importXML.get(i).getFiles().stream().anyMatch(
+							f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP && f.getRangeDateEnd() == YEAR_TOP									
+								&& f.getPublishYear() == YEAR_TOP)
+							&& importXML.get(j).getFiles().stream().anyMatch(
+								f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP && f.getRangeDateEnd() == YEAR_TOP
+								&& f.getPublishYear() == YEAR_TOP);
+					if (i < j && isCriteria) {
+						Composition composition1 = importXML.get(i);
+						Composition composition2 = importXML.get(j);
+						String titre1 = composition1.getTitre();
+						String titre2 = composition2.getTitre();
+						String newTitre1 = SearchUtils.removePunctuation(titre1);
+						String newTitre2 = SearchUtils.removePunctuation(titre2);
+						String artist1 = composition1.getArtist();
+						String artist2 = composition2.getArtist();
+						int publishYear1 = composition1.getFiles().get(0).getPublishYear();
+						int publishYear2 = composition2.getFiles().get(0).getPublishYear();
+						boolean result = (SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION)
+								|| StringUtils.startsWithIgnoreCase(titre1, titre2) || StringUtils.startsWithIgnoreCase(titre2, titre1))
+								&& (StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1))
+								&& publishYear1 == publishYear2;
+						if (result) {
+							duplicate.add(new Composition[] { importXML.get(i), importXML.get(j)});
+						}
+					}
+				}
+			}
+			LOG.debug("Size: " + duplicate.size());
+			for (Composition[] c : duplicate) {
+				LOG.debug("###########################################");
+//				LOG.debug(yearList.get(integers[0]));
+//				LOG.debug(yearList.get(integers[1]));
+				Composition c1 = importXML.get(SearchUtils.indexOf(importXML, c[0]));
+				LOG.debug(c1);
+				List<Fichier> files = c1.getFiles();
+				importXML.remove(c1);
+				Composition c2 = importXML.get(SearchUtils.indexOf(importXML, c[1]));
+				LOG.debug(c2);
+				c2.getFiles().addAll(files);
+			}
+			try {
+				ExportXML.exportXML(importXML, Constant.FINAL_FILE);
+			} catch (IOException e) {
+				LOG.error("Error !!", e);
+			}
+		}
+		LOG.debug("Fin detectsDuplicateFinal");
 	}
 	
 	/**
