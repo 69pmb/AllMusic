@@ -49,9 +49,9 @@ public class AppTest {
 
 	public static void main(String[] args) {
 //		missingXML();
-//		topYear();
 //		detectsDuplicate(RecordType.SONG.toString());
 		detectsDuplicateFinal(RecordType.SONG.toString());
+		topYear();
 	}
 	
 	/**
@@ -149,13 +149,6 @@ public class AppTest {
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		if (CollectionUtils.isNotEmpty(importXML)) {
-			String year = String.valueOf(YEAR_TOP);
-			Map<String, String> criteria = new HashMap<>();
-			criteria.put("cat", Cat.YEAR.toString());
-//			criteria.put("dateB", year);
-//			criteria.put("dateE", year);
-//			criteria.put("publish", year);
-			criteria.put("type", type);
 			LOG.debug("Size: " + importXML.size());
 			List<Composition[]> duplicate = new ArrayList<Composition[]>();
 			for (int i = 0; i < importXML.size(); i++) {
@@ -191,18 +184,24 @@ public class AppTest {
 				}
 			}
 			LOG.debug("Size: " + duplicate.size());
+			List<Composition> toRemove = new ArrayList<>();
 			for (Composition[] c : duplicate) {
-				LOG.debug("###########################################");
+//				LOG.debug("###########################################");
 //				LOG.debug(yearList.get(integers[0]));
 //				LOG.debug(yearList.get(integers[1]));
 				Composition c1 = importXML.get(SearchUtils.indexOf(importXML, c[0]));
-				LOG.debug(c1);
 				List<Fichier> files = c1.getFiles();
-				importXML.remove(c1);
+				toRemove.add(c1);
 				Composition c2 = importXML.get(SearchUtils.indexOf(importXML, c[1]));
-				LOG.debug(c2);
 				c2.getFiles().addAll(files);
+				if(c1.getArtist().length()<c2.getArtist().length()) {
+					c2.setArtist(c1.getArtist());
+				}
+				if(c1.getTitre().length()<c2.getTitre().length()) {
+					c2.setTitre(c1.getTitre());
+				}
 			}
+			importXML.removeAll(toRemove);
 			try {
 				ExportXML.exportXML(importXML, Constant.FINAL_FILE);
 			} catch (IOException e) {
