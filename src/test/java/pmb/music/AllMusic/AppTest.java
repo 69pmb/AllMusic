@@ -26,7 +26,6 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
-import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.file.ImportFile;
@@ -51,7 +50,7 @@ public class AppTest {
 //		missingXML();
 //		detectsDuplicate(RecordType.SONG.toString());
 		detectsDuplicateFinal(RecordType.SONG.toString());
-		topYear();
+//		topYear();
 	}
 	
 	/**
@@ -156,13 +155,13 @@ public class AppTest {
 					if(!importXML.get(i).getRecordType().toString().equals(type) || !importXML.get(j).getRecordType().toString().equals(type)) {
 						continue;
 					}
-					boolean isCriteria = importXML.get(i).getFiles().stream().anyMatch(
-							f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP && f.getRangeDateEnd() == YEAR_TOP									
-								&& f.getPublishYear() == YEAR_TOP)
-							&& importXML.get(j).getFiles().stream().anyMatch(
-								f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP && f.getRangeDateEnd() == YEAR_TOP
-								&& f.getPublishYear() == YEAR_TOP);
-					if (i < j && isCriteria) {
+//					boolean isCriteria = importXML.get(i).getFiles().stream().anyMatch(
+//							f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP && f.getRangeDateEnd() == YEAR_TOP									
+//								&& f.getPublishYear() == YEAR_TOP)
+//							&& importXML.get(j).getFiles().stream().anyMatch(
+//								f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP && f.getRangeDateEnd() == YEAR_TOP
+//								&& f.getPublishYear() == YEAR_TOP);
+					if (i < j) {
 						Composition composition1 = importXML.get(i);
 						Composition composition2 = importXML.get(j);
 						String titre1 = composition1.getTitre();
@@ -171,14 +170,26 @@ public class AppTest {
 						String newTitre2 = SearchUtils.removePunctuation(titre2);
 						String artist1 = composition1.getArtist();
 						String artist2 = composition2.getArtist();
-						int publishYear1 = composition1.getFiles().get(0).getPublishYear();
-						int publishYear2 = composition2.getFiles().get(0).getPublishYear();
-						boolean result = (SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION)
-								|| StringUtils.startsWithIgnoreCase(titre1, titre2) || StringUtils.startsWithIgnoreCase(titre2, titre1))
-								&& (StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1))
-								&& publishYear1 == publishYear2;
-						if (result) {
-							duplicate.add(new Composition[] { importXML.get(i), importXML.get(j)});
+//						String newArtist1 = SearchUtils.removePunctuation(artist1);
+//						String newArtist2 = SearchUtils.removePunctuation(artist2);
+//						boolean result = (SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION)
+//								|| StringUtils.startsWithIgnoreCase(titre1, titre2) || StringUtils.startsWithIgnoreCase(titre2, titre1))
+//								&& (StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1))
+//								&& publishYear1 == publishYear2;
+						boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1);
+						if (similarArtist) {
+							boolean isEqualsJaro = SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION);
+							boolean startNewTitre = StringUtils.startsWithIgnoreCase(newTitre1, newTitre2) || StringUtils.startsWithIgnoreCase(newTitre2, newTitre1);
+							if (isEqualsJaro || startNewTitre) {
+//								if(!startNewTitre) {
+//									LOG.debug("title");
+//									LOG.debug(artist1 + " - " + titre1);
+//									LOG.debug(artist2 + " - " + titre2);	
+//								}
+								// TODO remove parenthese aux titres
+									duplicate.add(new Composition[] { importXML.get(i), importXML.get(j) });
+//								}
+							}
 						}
 					}
 				}
@@ -186,27 +197,27 @@ public class AppTest {
 			LOG.debug("Size: " + duplicate.size());
 			List<Composition> toRemove = new ArrayList<>();
 			for (Composition[] c : duplicate) {
-//				LOG.debug("###########################################");
-//				LOG.debug(yearList.get(integers[0]));
-//				LOG.debug(yearList.get(integers[1]));
-				Composition c1 = importXML.get(SearchUtils.indexOf(importXML, c[0]));
-				List<Fichier> files = c1.getFiles();
-				toRemove.add(c1);
-				Composition c2 = importXML.get(SearchUtils.indexOf(importXML, c[1]));
-				c2.getFiles().addAll(files);
-				if(c1.getArtist().length()<c2.getArtist().length()) {
-					c2.setArtist(c1.getArtist());
-				}
-				if(c1.getTitre().length()<c2.getTitre().length()) {
-					c2.setTitre(c1.getTitre());
-				}
+				LOG.debug("###########################################");
+				LOG.debug(c[0]);
+				LOG.debug(c[1]);
+//				Composition c1 = importXML.get(SearchUtils.indexOf(importXML, c[0]));
+//				List<Fichier> files = c1.getFiles();
+//				toRemove.add(c1);
+//				Composition c2 = importXML.get(SearchUtils.indexOf(importXML, c[1]));
+//				c2.getFiles().addAll(files);
+//				if(c1.getArtist().length()<c2.getArtist().length()) {
+//					c2.setArtist(c1.getArtist());
+//				}
+//				if(c1.getTitre().length()<c2.getTitre().length()) {
+//					c2.setTitre(c1.getTitre());
+//				}
 			}
-			importXML.removeAll(toRemove);
-			try {
-				ExportXML.exportXML(importXML, Constant.FINAL_FILE);
-			} catch (IOException e) {
-				LOG.error("Error !!", e);
-			}
+//			importXML.removeAll(toRemove);
+//			try {
+//				ExportXML.exportXML(importXML, Constant.FINAL_FILE);
+//			} catch (IOException e) {
+//				LOG.error("Error !!", e);
+//			}
 		}
 		LOG.debug("Fin detectsDuplicateFinal");
 	}
