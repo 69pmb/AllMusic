@@ -88,7 +88,7 @@ public final class ImportXML {
 		List<Composition> compoFusionAlbum = new ArrayList<>(); // Contiendra toutes les compositions d'album
 		for (File fileXML : files) {
 			// On récupère les compositions de chaque fichier xml, excepté le fichier final.xml
-			if (Constant.FINAL_FILE.equalsIgnoreCase(fileXML.getName())) {
+			if (!Constant.FINAL_FILE.equalsIgnoreCase(fileXML.getName())) {
 				List<Composition> importXML = ImportXML.importXML(fileXML.getAbsolutePath());
 				if (RecordType.ALBUM.equals(importXML.get(0).getRecordType())) {
 					compoFusionAlbum.addAll(importXML);
