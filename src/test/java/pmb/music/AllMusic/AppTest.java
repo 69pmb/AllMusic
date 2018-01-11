@@ -24,6 +24,7 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Test;
 
 import pmb.music.AllMusic.XML.ImportXML;
@@ -50,6 +51,7 @@ public class AppTest {
 //		missingXML();
 //		detectsDuplicate(RecordType.SONG.toString());
 		detectsDuplicateFinal(RecordType.SONG.toString());
+//		titleSlash();
 //		topYear();
 	}
 	
@@ -150,50 +152,53 @@ public class AppTest {
 		if (CollectionUtils.isNotEmpty(importXML)) {
 			LOG.debug("Size: " + importXML.size());
 			List<Composition[]> duplicate = new ArrayList<Composition[]>();
+			double startTime = System.currentTimeMillis();
 			for (int i = 0; i < importXML.size(); i++) {
 				for (int j = 0; j < importXML.size(); j++) {
 					if(!importXML.get(i).getRecordType().toString().equals(type) || !importXML.get(j).getRecordType().toString().equals(type)) {
 						continue;
 					}
-//					boolean isCriteria = importXML.get(i).getFiles().stream().anyMatch(
+					boolean isCriteria = true;
+//							importXML.get(i).getFiles().stream().anyMatch(
 //							f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP && f.getRangeDateEnd() == YEAR_TOP									
 //								&& f.getPublishYear() == YEAR_TOP)
 //							&& importXML.get(j).getFiles().stream().anyMatch(
 //								f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP && f.getRangeDateEnd() == YEAR_TOP
 //								&& f.getPublishYear() == YEAR_TOP);
-					if (i < j) {
+					if (i < j && isCriteria) {
 						Composition composition1 = importXML.get(i);
 						Composition composition2 = importXML.get(j);
-						String titre1 = composition1.getTitre();
-						String titre2 = composition2.getTitre();
-						String newTitre1 = SearchUtils.removePunctuation(titre1);
-						String newTitre2 = SearchUtils.removePunctuation(titre2);
 						String artist1 = composition1.getArtist();
 						String artist2 = composition2.getArtist();
-//						String newArtist1 = SearchUtils.removePunctuation(artist1);
-//						String newArtist2 = SearchUtils.removePunctuation(artist2);
 //						boolean result = (SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION)
 //								|| StringUtils.startsWithIgnoreCase(titre1, titre2) || StringUtils.startsWithIgnoreCase(titre2, titre1))
 //								&& (StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1))
 //								&& publishYear1 == publishYear2;
 						boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1);
 						if (similarArtist) {
-							boolean isEqualsJaro = SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION);
-							boolean startNewTitre = StringUtils.startsWithIgnoreCase(newTitre1, newTitre2) || StringUtils.startsWithIgnoreCase(newTitre2, newTitre1);
-							if (isEqualsJaro || startNewTitre) {
-//								if(!startNewTitre) {
-//									LOG.debug("title");
-//									LOG.debug(artist1 + " - " + titre1);
-//									LOG.debug(artist2 + " - " + titre2);	
-//								}
-								// TODO remove parenthese aux titres
-									duplicate.add(new Composition[] { importXML.get(i), importXML.get(j) });
-//								}
+							String titre1 = composition1.getTitre().toLowerCase();
+							String titre2 = composition2.getTitre().toLowerCase();
+							String parTitre1 = SearchUtils.removePunctuation2(SearchUtils.removeParentheses(titre1));
+							String parTitre2 = SearchUtils.removePunctuation2(SearchUtils.removeParentheses(titre2));
+							boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2) || StringUtils.startsWithIgnoreCase(parTitre2, parTitre1);
+							if (parTitreEqu && ((parTitre1.length() <= 4 && parTitre2.length() > 4)
+									|| (parTitre1.length() > 4 && parTitre2.length() <= 4))) {
+								String andTitre1 = SearchUtils.removePunctuation2(StringUtils.substringBefore(SearchUtils.removeParentheses(titre1), " and "));
+								String andTitre2 = SearchUtils.removePunctuation2(StringUtils.substringBefore(SearchUtils.removeParentheses(titre2), " and "));
+								parTitre1 = andTitre1;
+								parTitre2 = andTitre2;
+								parTitreEqu = false;
+							}
+							boolean equalsJaroPar = SearchUtils.isEqualsJaro(jaro, parTitre1, parTitre2, Constant.SCORE_LIMIT_TITLE_FUSION);
+							if(equalsJaroPar) {
+								duplicate.add(new Composition[] { importXML.get(i), importXML.get(j) });
 							}
 						}
 					}
 				}
 			}
+			double endTime = System.currentTimeMillis();
+			LOG.debug("Time: " + (endTime-startTime)/1000 + " secondes");
 			LOG.debug("Size: " + duplicate.size());
 			List<Composition> toRemove = new ArrayList<>();
 			for (Composition[] c : duplicate) {
@@ -222,6 +227,48 @@ public class AppTest {
 		LOG.debug("Fin detectsDuplicateFinal");
 	}
 	
+	@Test
+	public void removeParenthese() {
+		String test1 = "hello (and truc)";
+		String test2 = "(and truc) hello";
+		String test3 = "hello, bonjour (and truc)";
+		String test4 = "(and truc) hello, bonjour";
+		String test5 = "hello, bonjour";
+		String test6 = "hello, bonjour";
+		String test7 = "hello, bonjour [and thed]";
+		String test8 = "[and thed] hello, bonjour";
+		
+		Assert.assertEquals("hello ", SearchUtils.removeParentheses(test1));
+		Assert.assertEquals(" hello", SearchUtils.removeParentheses(test2));
+		Assert.assertEquals("hello, bonjour ", SearchUtils.removeParentheses(test3));
+		Assert.assertEquals(" hello, bonjour", SearchUtils.removeParentheses(test4));
+		Assert.assertEquals("hello, bonjour", SearchUtils.removeParentheses(test5));
+		Assert.assertEquals("hello, bonjour", SearchUtils.removeParentheses(test6));
+		Assert.assertEquals("hello, bonjour ", SearchUtils.removeParentheses(test7));
+		Assert.assertEquals(" hello, bonjour", SearchUtils.removeParentheses(test8));
+	}
+	
+	@Test
+	public void removeParentheseAndPunctuation() {
+		String test1 = "hello (and truc)";
+		String test2 = "(and truc) hello";
+		String test3 = "hello, bonjour (and truc)";
+		String test4 = "(and truc) hello, bonjour";
+		String test5 = "hello, bonjour";
+		String test6 = "hello, bonjour";
+		String test7 = "hello, bonjour [and thed]";
+		String test8 = "[and thed] hello, bonjour";
+		
+		Assert.assertEquals("hello", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test1)));
+		Assert.assertEquals("hello", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test2)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test3)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test4)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test5)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test6)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test7)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test8)));
+	}
+	
 	/**
 	 * Show all the duplicates for a year and a type regardless of the artist, only based on the song or album.
 	 */
@@ -247,8 +294,8 @@ public class AppTest {
 						Composition composition2 = yearList.get(j);
 						String titre1 = composition1.getTitre();
 						String titre2 = composition2.getTitre();
-						String newTitre1 = SearchUtils.removePunctuation(titre1);
-						String newTitre2 = SearchUtils.removePunctuation(titre2);
+						String newTitre1 = SearchUtils.removePunctuation2(titre1);
+						String newTitre2 = SearchUtils.removePunctuation2(titre2);
 						String artist1 = composition1.getArtist();
 						String artist2 = composition2.getArtist();
 						int publishYear1 = composition1.getFiles().get(0).getPublishYear();
@@ -285,6 +332,14 @@ public class AppTest {
 			topRecords(importXML, RecordType.ALBUM, "Top Albums", 10, year);
 			topSongsParPublication(year);
 		}
+	}
+	
+	public static void titleSlash() {
+		ImportXML.importXML(Constant.FINAL_FILE_PATH).stream().forEach(c->{
+			if(StringUtils.contains(c.getTitre(), "/")) {
+				LOG.debug(c.getArtist() + " - " + c.getTitre());
+			}
+		});
 	}
 
 	/**
@@ -490,7 +545,7 @@ public class AppTest {
 		Map<Double, String> jaroRes = new TreeMap<>();
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		for (Composition composition : guardian) {
-			String titre = SearchUtils.removePunctuation(composition.getArtist());
+			String titre = SearchUtils.removePunctuation2(composition.getArtist());
 			Double apply = jaro.apply(titre, test);
 			jaroRes.put(apply, titre);
 		}
