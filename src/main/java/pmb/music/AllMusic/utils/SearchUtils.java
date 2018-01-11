@@ -125,6 +125,22 @@ public class SearchUtils {
 		}
 		return Constant.PATTERN_PUNCTUATION.matcher(text).replaceAll("").toLowerCase();
 	}
+	
+	public static String removePunctuation2(String text) {
+		if (StringUtils.isBlank(text)) {
+			return "";
+		}
+		String res = Constant.PATTERN_PUNCTUATION.matcher(text).replaceAll("").toLowerCase();
+		return StringUtils.isBlank(res) ? text : res;
+	}
+	
+	public static String removeParentheses(String text) {
+		if (StringUtils.isBlank(text)) {
+			return "";
+		}
+		String res = Constant.PATTERN_PARENTHESES.matcher(text).replaceAll("").toLowerCase();
+		return StringUtils.isBlank(res) ? text : res;
+	}
 
 	/**
 	 * Les critères de recherche sont strict, le champ doit être exactement égal

@@ -143,6 +143,8 @@ public class Constant {
 	public static final Pattern PATTERN_SIZE = Pattern.compile(SIZE);
 
 	public static final Pattern PATTERN_PUNCTUATION = Pattern.compile("\\p{Punct}|\\s");
+	
+	public static final Pattern PATTERN_PARENTHESES = Pattern.compile("\\(.*\\)|\\[.*\\]");
 
 	public static final BigDecimal SCORE_LIMIT_TITLE_FUSION = BigDecimal.valueOf(0.94D);
 
