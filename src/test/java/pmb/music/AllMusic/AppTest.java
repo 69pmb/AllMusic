@@ -178,13 +178,15 @@ public class AppTest {
 						if (similarArtist) {
 							String titre1 = composition1.getTitre().toLowerCase();
 							String titre2 = composition2.getTitre().toLowerCase();
-							String parTitre1 = SearchUtils.removePunctuation2(SearchUtils.removeParentheses(titre1));
-							String parTitre2 = SearchUtils.removePunctuation2(SearchUtils.removeParentheses(titre2));
+							String remParTitre1 = SearchUtils.removeParentheses(titre1);
+							String parTitre1 = SearchUtils.removePunctuation2(remParTitre1);
+							String remParTitre2 = SearchUtils.removeParentheses(titre2);
+							String parTitre2 = SearchUtils.removePunctuation2(remParTitre2);
 							boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2) || StringUtils.startsWithIgnoreCase(parTitre2, parTitre1);
-							if (parTitreEqu && ((parTitre1.length() <= 4 && parTitre2.length() > 4)
-									|| (parTitre1.length() > 4 && parTitre2.length() <= 4))) {
-								String andTitre1 = SearchUtils.removePunctuation2(StringUtils.substringBefore(SearchUtils.removeParentheses(titre1), " and "));
-								String andTitre2 = SearchUtils.removePunctuation2(StringUtils.substringBefore(SearchUtils.removeParentheses(titre2), " and "));
+							if (parTitreEqu && (StringUtils.containsIgnoreCase(remParTitre1, " and ") || StringUtils.containsIgnoreCase(remParTitre2, " and "))
+									&& !StringUtils.containsIgnoreCase(remParTitre1, "/") && !StringUtils.containsIgnoreCase(remParTitre2, "/")) {
+								String andTitre1 = SearchUtils.removePunctuation2(StringUtils.substringBefore(remParTitre1, " and "));
+								String andTitre2 = SearchUtils.removePunctuation2(StringUtils.substringBefore(remParTitre2, " and "));
 								parTitre1 = andTitre1;
 								parTitre2 = andTitre2;
 								parTitreEqu = false;
@@ -203,19 +205,25 @@ public class AppTest {
 			List<Composition> toRemove = new ArrayList<>();
 			for (Composition[] c : duplicate) {
 				LOG.debug("###########################################");
-				LOG.debug(c[0]);
-				LOG.debug(c[1]);
+				Composition c1 = c[0];
+				Composition c2 = c[1];
+				LOG.debug(c1.getArtist() + " - " + c1.getTitre());
+				LOG.debug(c2.getArtist() + " - " + c2.getTitre());
+				LOG.debug("1: " + c1.getFiles());
+				LOG.debug("2: " + c2.getFiles());
 //				Composition c1 = importXML.get(SearchUtils.indexOf(importXML, c[0]));
 //				List<Fichier> files = c1.getFiles();
 //				toRemove.add(c1);
 //				Composition c2 = importXML.get(SearchUtils.indexOf(importXML, c[1]));
 //				c2.getFiles().addAll(files);
+				// TODO celui qui a le plus de fichier puis le plus court
 //				if(c1.getArtist().length()<c2.getArtist().length()) {
 //					c2.setArtist(c1.getArtist());
 //				}
 //				if(c1.getTitre().length()<c2.getTitre().length()) {
 //					c2.setTitre(c1.getTitre());
 //				}
+				// TODO verifier fusion
 			}
 //			importXML.removeAll(toRemove);
 //			try {
