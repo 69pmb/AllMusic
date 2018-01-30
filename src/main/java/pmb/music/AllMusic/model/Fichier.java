@@ -207,7 +207,7 @@ public class Fichier implements Serializable {
 	public String toString() {
 		return "Fichier [author=" + this.author + ", fileName=" + this.fileName + ", publishYear=" + this.publishYear + ", categorie=" + this.categorie
 				+ ", rangeDateBegin=" + this.rangeDateBegin + ", rangeDateEnd=" + this.rangeDateEnd + ", sorted=" + this.sorted + ", classement="
-				+ this.classement + ", creationDate=" + this.creationDate + ", size=" + this.size + "]";
+				+ this.classement + ", creationDate=" + this.creationDate + ", size=" + this.size + "]\t\r\n";
 	}
 
 	/*
