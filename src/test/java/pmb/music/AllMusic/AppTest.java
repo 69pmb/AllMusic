@@ -49,14 +49,16 @@ public class AppTest {
 
 	private static final Logger LOG = Logger.getLogger(AppTest.class);
 	// private static final int YEAR_TOP = 2016;
+	private static final int ALBUM_LIMIT = 10;
+	private static final int SONG_LIMIT = 4;
 
 	public static void main(String[] args) {
 		// missingXML();
 		// detectsDuplicate(RecordType.SONG.toString(), year);
-		// detectsDuplicateFinal(RecordType.SONG.toString());
+//		 detectsDuplicateFinal(RecordType.ALBUM.toString());
 		// titleSlash();
 		for (int i = 2000; i < 2018; i++) {
-			topYear(i);
+			topYear(i, ALBUM_LIMIT, SONG_LIMIT);
 		}
 	}
 
@@ -222,11 +224,6 @@ public class AppTest {
 									Constant.SCORE_LIMIT_TITLE_FUSION);
 							if (equalsJaroPar) {
 								duplicate.add(new Composition[] { c1, c2 });
-								LOG.debug("###########################################");
-								LOG.debug(c1.getArtist() + " - " + c1.getTitre());
-								LOG.debug(c2.getArtist() + " - " + c2.getTitre());
-								LOG.debug("1: " + c1.getFiles());
-								LOG.debug("2: " + c2.getFiles());
 							}
 						}
 					}
@@ -236,7 +233,14 @@ public class AppTest {
 			LOG.debug("Time: " + (endTime - startTime) / 1000 + " secondes");
 			LOG.debug("Size: " + duplicate.size());
 			List<Composition> toRemove = new ArrayList<>();
-			// for (Composition[] c : duplicate) {
+			 for (Composition[] c : duplicate) {
+					Composition c1 = c[0];
+					Composition c2 = c[1];
+				LOG.debug("###########################################");
+				LOG.debug(c1.getArtist() + " - " + c1.getTitre());
+				LOG.debug(c2.getArtist() + " - " + c2.getTitre());
+				LOG.debug("1: " + c1.getFiles());
+				LOG.debug("2: " + c2.getFiles());
 			// Composition c1 = importXML.get(SearchUtils.indexOf(importXML, c[0]));
 			// List<Fichier> files1 = c1.getFiles();
 			// toRemove.add(c1);
@@ -261,7 +265,7 @@ public class AppTest {
 			// ExportXML.exportXML(importXML, Constant.FINAL_FILE);
 			// } catch (IOException e) {
 			// LOG.error("Error !!", e);
-			// }
+			 }
 		}
 		LOG.debug("Fin detectsDuplicateFinal");
 	}
@@ -365,14 +369,14 @@ public class AppTest {
 	/**
 	 * Generates the top excel files of a year.
 	 */
-	public static void topYear(int YEAR_TOP) {
+	public static void topYear(int YEAR_TOP, int albumLimit, int songLimit) {
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		List<String> files = new ArrayList<>();
 		String year = String.valueOf(YEAR_TOP);
 		if (CollectionUtils.isNotEmpty(importXML)) {
 			files.add(topOccurence(importXML, year));
-			files.add(topRecords(importXML, RecordType.SONG, "Top Songs", 4, year));
-			files.add(topRecords(importXML, RecordType.ALBUM, "Top Albums", 10, year));
+			files.add(topRecords(importXML, RecordType.SONG, "Top Songs", songLimit, year));
+			files.add(topRecords(importXML, RecordType.ALBUM, "Top Albums", albumLimit, year));
 			files.add(topSongsParPublication(year));
 		}
 		File folder = new File(Constant.USER_DIR + "\\Top by Year\\" + year);
