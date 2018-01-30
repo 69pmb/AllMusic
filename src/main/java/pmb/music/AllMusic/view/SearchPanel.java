@@ -44,6 +44,8 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -55,8 +57,6 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -466,7 +466,7 @@ public class SearchPanel extends JPanel {
 		for (Object o : selected) {
 			Vector<String> v = (Vector<String>) o;
 			try {
-				Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
+				Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2), true);
 				compoResult.remove(compoResult.indexOf(toRemove));
 				importXML.remove(importXML.indexOf(toRemove));
 				CompositionUtils.removeCompositionsInFiles(toRemove);
@@ -507,7 +507,7 @@ public class SearchPanel extends JPanel {
 			importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 			try {
 				// On récupère la composition à modifier
-				toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2));
+				toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2), true);
 			} catch (MyException e1) {
 				String log = "Erreur dans modifAction, impossible de trouver la compo à modifier";
 				LOG.error(log, e1);
@@ -604,8 +604,8 @@ public class SearchPanel extends JPanel {
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			List<Fichier> files;
 			try {
-				files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(0), v.get(1), v.get(2)).getFiles();
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 400));
+				files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(0), v.get(1), v.get(2), true).getFiles();
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 400), v);
 				pop.showDialogFileTable();
 			} catch (MyException e1) {
 				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
