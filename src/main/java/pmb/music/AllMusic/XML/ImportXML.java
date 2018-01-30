@@ -79,6 +79,7 @@ public final class ImportXML {
 	 */
 	public static List<Composition> fusionFiles(String dirName, final JTextArea resultLabel) throws IOException {
 		LOG.debug("Start fusionFiles");
+		double startTime = System.currentTimeMillis();
 		File dir = new File(dirName);
 		List<File> files = new ArrayList<>();
 		// On récupère tous les fichiers xml du dossier XML
@@ -106,6 +107,8 @@ public final class ImportXML {
 		compoFinal = fusion(resultLabel, compoFusionAlbum, compoFinal, 0, modulo, sizeBG);
 		compoFinal = fusion(resultLabel, compoFusionSong, compoFinal, compoFusionAlbum.size(), modulo, sizeBG);
 		ExportXML.exportXML(compoFinal, Constant.FINAL_FILE); // On exporte le resultat dans le fichier final.xml
+		double endTime = System.currentTimeMillis();
+		LOG.debug("Time: " + (endTime - startTime) / 1000 + " secondes");
 		LOG.debug("End fusionFiles");
 		return compoFinal;
 	}
