@@ -30,6 +30,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 
+import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.file.ImportFile;
@@ -55,11 +56,11 @@ public class AppTest {
 	public static void main(String[] args) {
 		// missingXML();
 		// detectsDuplicate(RecordType.SONG.toString(), year);
-//		 detectsDuplicateFinal(RecordType.ALBUM.toString());
+		detectsDuplicateFinal(RecordType.SONG.toString());
 		// titleSlash();
-		for (int i = 2000; i < 2018; i++) {
-			topYear(i, ALBUM_LIMIT, SONG_LIMIT);
-		}
+		// for (int i = 2000; i < 2018; i++) {
+		// }
+		topYear(2017, ALBUM_LIMIT, SONG_LIMIT);
 	}
 
 	/**
@@ -88,8 +89,7 @@ public class AppTest {
 		File first = new File(Constant.MUSIC_ABS_DIRECTORY + "Rolling Stone\\Rolling Stone - 500 Albums.txt");
 		File sec = new File(Constant.MUSIC_ABS_DIRECTORY + "Rolling Stone\\Rolling Stone - 500 Albums - 2012.txt");
 		List<String> list = new ArrayList<>();
-		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(first), Constant.ANSI_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(first), Constant.ANSI_ENCODING));) {
 			String line;
 			while ((line = br.readLine()) != null) {
 				list.add(line);
@@ -98,24 +98,26 @@ public class AppTest {
 			e1.printStackTrace();
 		}
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
-		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(sec), Constant.ANSI_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(sec), Constant.ANSI_ENCODING));) {
 			String line;
 			while ((line = br.readLine()) != null) {
 				final String str = StringUtils.substringAfter(line, ". ");
 				if (!list.stream().anyMatch(s -> StringUtils.equalsIgnoreCase(StringUtils.substringAfter(s, ". "), str))
-						&& !list.stream().anyMatch(
-								s -> CompositionUtils.artistJaroEquals(str, StringUtils.substringAfter(s, ". "), jaro,
-										Constant.SCORE_LIMIT_ARTIST_FUSION) != null)) {
+						&& !list.stream()
+								.anyMatch(
+										s -> CompositionUtils.artistJaroEquals(str, StringUtils.substringAfter(s, ". "), jaro,
+												Constant.SCORE_LIMIT_ARTIST_FUSION) != null)) {
 					list.add(line);
 				}
 			}
 		} catch (IOException e1) {
 		}
-		list = list.stream().sorted((s1, s2) -> Integer.compare(Integer.valueOf(StringUtils.substringBefore(s1, ". ")),
-				Integer.valueOf(StringUtils.substringBefore(s2, ". ")))).collect(Collectors.toList());
-		try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream(Constant.MUSIC_ABS_DIRECTORY + "RS.txt"), Constant.ANSI_ENCODING));) {
+		list = list
+				.stream()
+				.sorted((s1, s2) -> Integer.compare(Integer.valueOf(StringUtils.substringBefore(s1, ". ")),
+						Integer.valueOf(StringUtils.substringBefore(s2, ". ")))).collect(Collectors.toList());
+		try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(Constant.MUSIC_ABS_DIRECTORY + "RS.txt"),
+				Constant.ANSI_ENCODING));) {
 			for (String str : list) {
 				writer.append(str).append(Constant.NEW_LINE);
 			}
@@ -133,13 +135,12 @@ public class AppTest {
 		LOG.debug("Debut");
 		List<File> music = new ArrayList<>();
 		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), music, ".txt", true);
-		List<String> collectMusic = music.stream().map(File::getName)
-				.map(s -> StringUtils.substringBeforeLast(s, ".txt")).collect(Collectors.toList());
+		List<String> collectMusic = music.stream().map(File::getName).map(s -> StringUtils.substringBeforeLast(s, ".txt")).collect(Collectors.toList());
 
 		List<File> xml = new ArrayList<>();
 		CompositionUtils.listFilesForFolder(new File(Constant.XML_PATH), xml, Constant.XML_EXTENSION, true);
-		List<String> collectXml = xml.stream().map(File::getName)
-				.map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
+		List<String> collectXml = xml.stream().map(File::getName).map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION))
+				.collect(Collectors.toList());
 
 		LOG.debug("TXT: ");
 		for (String txt : collectMusic) {
@@ -157,8 +158,8 @@ public class AppTest {
 	}
 
 	/**
-	 * Show all the duplicates for a year and a type regardless of the artist, only
-	 * based on the song or album.
+	 * Show all the duplicates for a year and a type regardless of the artist,
+	 * only based on the song or album.
 	 */
 	public static void detectsDuplicateFinal(String type) {
 		LOG.debug("Debut detectsDuplicateFinal");
@@ -233,39 +234,38 @@ public class AppTest {
 			LOG.debug("Time: " + (endTime - startTime) / 1000 + " secondes");
 			LOG.debug("Size: " + duplicate.size());
 			List<Composition> toRemove = new ArrayList<>();
-			 for (Composition[] c : duplicate) {
-					Composition c1 = c[0];
-					Composition c2 = c[1];
-				LOG.debug("###########################################");
-				LOG.debug(c1.getArtist() + " - " + c1.getTitre());
-				LOG.debug(c2.getArtist() + " - " + c2.getTitre());
-				LOG.debug("1: " + c1.getFiles());
-				LOG.debug("2: " + c2.getFiles());
-			// Composition c1 = importXML.get(SearchUtils.indexOf(importXML, c[0]));
-			// List<Fichier> files1 = c1.getFiles();
-			// toRemove.add(c1);
-			// Composition c2 = importXML.get(SearchUtils.indexOf(importXML, c[1]));
-			// c2.getFiles().addAll(files1);
-			// if (c1.getFiles().size() < c2.getFiles().size()) {
-			// c2.setArtist(c1.getArtist());
-			// c2.setTitre(c1.getTitre());
-			// } if (c1.getFiles().size() < c2.getFiles().size()) {
-			// else {
-			// if (c1.getArtist().length() < c2.getArtist().length()) {
-			// c2.setArtist(c1.getArtist());
-			// }
-			// if (c1.getTitre().length() < c2.getTitre().length()) {
-			// c2.setTitre(c1.getTitre());
-			// }
-			// }
-			// }
-			// // TODO verifier fusion
-			// importXML.removeAll(toRemove);
-			// try {
-			// ExportXML.exportXML(importXML, Constant.FINAL_FILE);
-			// } catch (IOException e) {
-			// LOG.error("Error !!", e);
-			 }
+			for (Composition[] c : duplicate) {
+				// Composition c1 = c[0];
+				// Composition c2 = c[1];
+				// LOG.debug("###########################################");
+				// LOG.debug(c1.getArtist() + " - " + c1.getTitre());
+				// LOG.debug(c2.getArtist() + " - " + c2.getTitre());
+				// LOG.debug("1: " + c1.getFiles());
+				// LOG.debug("2: " + c2.getFiles());
+				Composition c1 = importXML.get(SearchUtils.indexOf(importXML, c[0]));
+				List<Fichier> files1 = c1.getFiles();
+				toRemove.add(c1);
+				Composition c2 = importXML.get(SearchUtils.indexOf(importXML, c[1]));
+				c2.getFiles().addAll(files1);
+				if (c1.getFiles().size() < c2.getFiles().size()) {
+					c2.setArtist(c1.getArtist());
+					c2.setTitre(c1.getTitre());
+				} else if (c1.getFiles().size() > c2.getFiles().size()) {
+					if (c1.getArtist().length() < c2.getArtist().length()) {
+						c2.setArtist(c1.getArtist());
+					}
+					if (c1.getTitre().length() < c2.getTitre().length()) {
+						c2.setTitre(c1.getTitre());
+					}
+				}
+			}
+			// TODO verifier fusion
+			importXML.removeAll(toRemove);
+			try {
+				ExportXML.exportXML(importXML, Constant.FINAL_FILE);
+			} catch (IOException e) {
+				LOG.error("Error !!", e);
+			}
 		}
 		LOG.debug("Fin detectsDuplicateFinal");
 	}
@@ -313,8 +313,8 @@ public class AppTest {
 	}
 
 	/**
-	 * Show all the duplicates for a year and a type regardless of the artist, only
-	 * based on the song or album.
+	 * Show all the duplicates for a year and a type regardless of the artist,
+	 * only based on the song or album.
 	 */
 	public static void detectsDuplicate(String type, int YEAR_TOP) {
 		LOG.debug("Debut detectsDuplicate");
@@ -344,11 +344,9 @@ public class AppTest {
 						String artist2 = composition2.getArtist();
 						int publishYear1 = composition1.getFiles().get(0).getPublishYear();
 						int publishYear2 = composition2.getFiles().get(0).getPublishYear();
-						boolean result = (SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2,
-								Constant.SCORE_LIMIT_TITLE_FUSION) || StringUtils.startsWithIgnoreCase(titre1, titre2)
-								|| StringUtils.startsWithIgnoreCase(titre2, titre1))
-								&& (StringUtils.startsWithIgnoreCase(artist1, artist2)
-										|| StringUtils.startsWithIgnoreCase(artist2, artist1))
+						boolean result = (SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION)
+								|| StringUtils.startsWithIgnoreCase(titre1, titre2) || StringUtils.startsWithIgnoreCase(titre2, titre1))
+								&& (StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1))
 								&& publishYear1 == publishYear2;
 						if (result) {
 							duplicate.add(new Integer[] { i, j });
@@ -450,9 +448,7 @@ public class AppTest {
 				}
 			}
 			if (temp.size() > 2) {
-				List<String[]> hello = temp.stream()
-						.sorted((e1, e2) -> Integer.valueOf(e1[2]).compareTo(Integer.valueOf(e2[2])))
-						.collect(Collectors.toList());
+				List<String[]> hello = temp.stream().sorted((e1, e2) -> Integer.valueOf(e1[2]).compareTo(Integer.valueOf(e2[2]))).collect(Collectors.toList());
 				result.addAll(hello);
 			}
 		}
@@ -482,8 +478,7 @@ public class AppTest {
 	 * @param limit
 	 * @param year
 	 */
-	private static String topRecords(List<Composition> importXML, RecordType type, String fileName, int limit,
-			String year) {
+	private static String topRecords(List<Composition> importXML, RecordType type, String fileName, int limit, String year) {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("cat", Cat.YEAR.toString());
 		criteria.put("dateB", year);
@@ -491,8 +486,8 @@ public class AppTest {
 		criteria.put("publish", year);
 		criteria.put("type", type.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
-		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToVector(yearList).stream()
-				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
+		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToVector(yearList).stream().filter(c -> (int) c.get(3) >= limit)
+				.collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
@@ -515,8 +510,8 @@ public class AppTest {
 		criteria.put("dateE", year);
 		criteria.put("publish", year);
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
-		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToArtistVector(yearList)
-				.stream().filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
+		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToArtistVector(yearList).stream().filter(c -> (int) c.get(1) > 9)
+				.collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
