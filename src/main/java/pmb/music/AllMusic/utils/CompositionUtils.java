@@ -304,7 +304,7 @@ public class CompositionUtils {
 		LOG.debug("Start findByRank");
 		List<Composition> filtered = compoList.stream().filter(f->f.getFiles().get(0).getClassement()==rank).collect(Collectors.toList());
 //		LOG.debug("End findByRank, no result");
-		return compoExist(filtered, compoParente);
+		return compoParente != null && !filtered.isEmpty() ? compoExist(filtered, compoParente) : filtered.get(0);
 	}
 
 	/**
