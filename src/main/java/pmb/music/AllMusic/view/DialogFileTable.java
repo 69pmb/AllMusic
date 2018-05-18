@@ -74,7 +74,9 @@ public class DialogFileTable extends JDialog {
 		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		this.files = files;
 		this.setResizable(true);
-		this.compParente = new Composition(compoParent.get(0), null, compoParent.get(1), RecordType.valueOf(compoParent.get(2)));
+		if(compoParent != null) {
+			this.compParente = new Composition(compoParent.get(0), null, compoParent.get(1), RecordType.valueOf(compoParent.get(2)));
+		}
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
 	}
