@@ -139,12 +139,8 @@ public class CompositionUtils {
 				parTitre2 = andTitre2;
 				parTitreEqu = false;
 			}
-			boolean equalsJaroPar = SearchUtils.isEqualsJaro(jaro, parTitre1, parTitre2,
+			return SearchUtils.isEqualsJaro(jaro, parTitre1, parTitre2,
 					Constant.SCORE_LIMIT_TITLE_FUSION);
-			if (equalsJaroPar) {
-				// duplicate.add(new Composition[] { c1, c2 });
-				return true;
-			}
 		}
 		return false;
 	}
