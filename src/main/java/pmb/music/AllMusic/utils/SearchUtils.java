@@ -264,6 +264,7 @@ public class SearchUtils {
 	 */
 	public static int indexOf(List<Composition> list, Composition o) {
 		if (list == null || list.isEmpty() || o == null) {
+			LOG.error("indexOf: " + o);
 			return -1;
 		}
 		int indexOf = list.indexOf(new Composition(o.getArtist(), o.getFiles(), o.getTitre(), o.getRecordType()));
@@ -278,6 +279,7 @@ public class SearchUtils {
 				}
 				i++;
 			}
+			LOG.error("indexOf: " + o);
 			return -1;
 		}
 		return indexOf;
