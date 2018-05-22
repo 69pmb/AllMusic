@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Vector;
+import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
@@ -90,13 +91,63 @@ public class CompositionUtils {
 				}
 				// Si le titre et l'artist sont similaires, on sort
 				if (SearchUtils.isEqualsJaro(jaro, compoTitre, cTitre, Constant.SCORE_LIMIT_TITLE_FUSION)
-						&& artistJaroEquals(composition.getArtist(), c.getArtist(), jaro, Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
+						&& artistJaroEquals(composition.getArtist(), c.getArtist(), jaro,
+								Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
+					res = composition;
+					break;
+				} else if (isCompositionEquals(composition, c, c.getRecordType().toString())) {
+					Composition c1 = c;
+					Composition c2 = composition;
+					LOG.debug("###########################################");
+					LOG.debug(c1.getArtist() + " - " + c1.getTitre());
+					LOG.debug(c2.getArtist() + " - " + c2.getTitre());
+					LOG.debug("1: " + c1.getFiles());
+					LOG.debug("2: " + c2.getFiles());
 					res = composition;
 					break;
 				}
 			}
 		}
 		return res;
+	}
+
+	public static boolean isCompositionEquals(Composition c1, Composition c2, String type) {
+		if (!c1.getRecordType().toString().equals(type) || !c2.getRecordType().toString().equals(type)) {
+			return false;
+		}
+		final JaroWinklerDistance jaro = new JaroWinklerDistance();
+		String artist1 = c1.getArtist();
+		String artist2 = c2.getArtist();
+		boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2)
+				|| StringUtils.startsWithIgnoreCase(artist2, artist1);
+		if (similarArtist) {
+			String titre1 = c1.getTitre().toLowerCase();
+			String titre2 = c2.getTitre().toLowerCase();
+			String remParTitre1 = SearchUtils.removeParentheses(titre1);
+			String parTitre1 = SearchUtils.removePunctuation2(remParTitre1);
+			String remParTitre2 = SearchUtils.removeParentheses(titre2);
+			String parTitre2 = SearchUtils.removePunctuation2(remParTitre2);
+			boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2)
+					|| StringUtils.startsWithIgnoreCase(parTitre2, parTitre1);
+			if (parTitreEqu
+					&& (StringUtils.containsIgnoreCase(remParTitre1, " and ")
+							|| StringUtils.containsIgnoreCase(remParTitre2, " and "))
+					&& !StringUtils.containsIgnoreCase(remParTitre1, "/")
+					&& !StringUtils.containsIgnoreCase(remParTitre2, "/")) {
+				String andTitre1 = SearchUtils.removePunctuation2(StringUtils.substringBefore(remParTitre1, " and "));
+				String andTitre2 = SearchUtils.removePunctuation2(StringUtils.substringBefore(remParTitre2, " and "));
+				parTitre1 = andTitre1;
+				parTitre2 = andTitre2;
+				parTitreEqu = false;
+			}
+			boolean equalsJaroPar = SearchUtils.isEqualsJaro(jaro, parTitre1, parTitre2,
+					Constant.SCORE_LIMIT_TITLE_FUSION);
+			if (equalsJaroPar) {
+				// duplicate.add(new Composition[] { c1, c2 });
+				return true;
+			}
+		}
+		return false;
 	}
 	
 	/**
@@ -222,14 +273,19 @@ public class CompositionUtils {
 	 * @return une seule {@link Composition}
 	 * @throws MyException si plusieurs résultat
 	 */
-	public static Composition findByArtistTitreAndType(List<Composition> compoList, String artist, String titre, String type) throws MyException {
+	public static Composition findByArtistTitreAndType(List<Composition> compoList, String artist, String titre, String type, boolean isStrictly) throws MyException {
 		LOG.debug("Start findByArtistTitreAndType");
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("artist", artist);
 		criteria.put("titre", titre);
 		criteria.put("type", type);
-
-		List<Composition> search = SearchUtils.searchStrictly(compoList, criteria);
+		
+		List<Composition> search = new ArrayList<>();
+		if(isStrictly) {
+			search = SearchUtils.searchStrictly(compoList, criteria);
+		} else {
+			search = SearchUtils.searchJaro(compoList, criteria, false);
+		}
 		if (search.size() > 1) {
 			CompositionUtils.printCompoList(search);
 			throw new MyException("Trop de résultat dans findByArtistTitreAndType: " + artist + " " + titre + " " + type);
@@ -242,6 +298,14 @@ public class CompositionUtils {
 			LOG.debug("Critères: " + artist + " " + titre + " " + type);
 			return new Composition();
 		}
+	}
+
+	public static Composition findByRank(List<Composition> compoList, int rank, Composition compoParente)
+			throws MyException {
+		LOG.debug("Start findByRank");
+		List<Composition> filtered = compoList.stream().filter(f->f.getFiles().get(0).getClassement()==rank).collect(Collectors.toList());
+//		LOG.debug("End findByRank, no result");
+		return compoParente != null && !filtered.isEmpty() ? compoExist(filtered, compoParente) : filtered.get(0);
 	}
 
 	/**

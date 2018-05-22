@@ -325,7 +325,7 @@ public class ArtistPanel extends JPanel {
 			List<Fichier> files = new ArrayList<>();
 			List<Composition> findByArtist = CompositionUtils.findByArtist(list, v.get(0));
 			files.addAll(findByArtist.stream().map(Composition::getFiles).flatMap(l -> l.stream()).collect(Collectors.toList()));
-			DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600));
+			DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600), null);
 			pop.showDialogFileTable();
 			LOG.debug("End artist mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
