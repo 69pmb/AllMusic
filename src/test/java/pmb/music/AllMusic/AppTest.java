@@ -315,13 +315,14 @@ public class AppTest {
 	/**
 	 * Show all the duplicates for a year and a type regardless of the artist,
 	 * only based on the song or album.
+	 * @deprecated replaced by {@link AppTest#detectsDuplicateFinal(String)}
 	 */
 	public static void detectsDuplicate(String type, int YEAR_TOP) {
 		LOG.debug("Debut detectsDuplicate");
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		if (CollectionUtils.isNotEmpty(importXML)) {
-			String year = String.valueOf(YEAR_TOP);
+//			String year = String.valueOf(YEAR_TOP);
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put("cat", Cat.YEAR.toString());
 			// criteria.put("dateB", year);
