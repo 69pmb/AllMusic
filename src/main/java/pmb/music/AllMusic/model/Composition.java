@@ -34,6 +34,14 @@ public class Composition implements Serializable {
 		this.titre = titre;
 		this.recordType = recordType;
 	}
+	
+	public Composition(Composition compo) {
+		super();
+		this.artist = compo.getArtist();
+		this.files = compo.getFiles();
+		this.titre = compo.getTitre();
+		this.recordType = compo.getRecordType();
+	}
 
 	public Composition() {
 		// Nothing to do
