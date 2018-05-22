@@ -94,17 +94,18 @@ public class CompositionUtils {
 								Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
 					res = composition;
 					break;
-				} else if (isCompositionEquals(composition, c, c.getRecordType().toString())) {
-					Composition c1 = c;
-					Composition c2 = composition;
-					LOG.debug("###########################################");
-					LOG.debug(c1.getArtist() + " - " + c1.getTitre());
-					LOG.debug(c2.getArtist() + " - " + c2.getTitre());
-					LOG.debug("1: " + c1.getFiles());
-					LOG.debug("2: " + c2.getFiles());
-					res = composition;
-					break;
-				}
+				} 
+//				else if (isCompositionEquals(composition, c, c.getRecordType().toString())) {
+//					Composition c1 = c;
+//					Composition c2 = composition;
+//					LOG.debug("###########################################");
+//					LOG.debug(c1.getArtist() + " - " + c1.getTitre());
+//					LOG.debug(c2.getArtist() + " - " + c2.getTitre());
+//					LOG.debug("1: " + c1.getFiles());
+//					LOG.debug("2: " + c2.getFiles());
+//					res = composition;
+//					break;
+//				}
 			}
 		}
 		return res;
@@ -383,10 +384,11 @@ public class CompositionUtils {
 	/**
 	 * Modifie dans les fichiers XML, la composition donnée.
 	 * @param toModif la {@link Composition} à modifier des fichiers
-	 * @param v 
+	 * @param newArtist {@link String} le nouvel artiste
+	 * @param newTitre {@link String} le nouveau titre
 	 * @throws MyException 
 	 */
-	public static void modifyCompositionsInFiles(Composition toModif, Vector<String> v) throws MyException {
+	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre) throws MyException {
 		LOG.debug("Start modifyCompositionsInFiles");
 		for (Fichier file : toModif.getFiles()) {
 			// Récupération des compositions du fichier XML
@@ -400,8 +402,8 @@ public class CompositionUtils {
 			if (toModifFromFile != null) {
 				int indexOf = SearchUtils.indexOf(importXML, toModifFromFile);
 				Composition composition = importXML.get(indexOf);
-				composition.setArtist(v.get(0));
-				composition.setTitre(v.get(1));
+				composition.setArtist(newArtist);
+				composition.setTitre(newTitre);
 				importXML.set(indexOf, composition);
 				try {
 					// Sauvegarde des modifications
@@ -411,7 +413,9 @@ public class CompositionUtils {
 				}
 			} else {
 				LOG.error(filename + Constant.NEW_LINE);
-				new MyException("compoExist null: " + toModif.getArtist() + " " + toModif.getFiles() + " " + toModif.getTitre() + " " + toModif.getRecordType());
+				String message = "Impossible de trouver la composition à modifier: " + toModif.getArtist() + " " + toModif.getFiles() + " " + toModif.getTitre() + " " + toModif.getRecordType();
+				LOG.error(message);
+				new MyException(message);
 			}
 		}
 		LOG.debug("End modifyCompositionsInFiles");

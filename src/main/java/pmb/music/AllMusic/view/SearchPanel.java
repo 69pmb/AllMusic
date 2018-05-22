@@ -529,7 +529,7 @@ public class SearchPanel extends JPanel {
 		int indexOfResult = compoResult.indexOf(toModif);
 		// On modifier les fichiers xml en conséquence
 		try {
-			CompositionUtils.modifyCompositionsInFiles(toModif, v);
+			CompositionUtils.modifyCompositionsInFiles(toModif, v.get(0), v.get(1));
 		} catch (MyException e1) {
 			String log = "Erreur lors de la modification d'une composition";
 			LOG.error(log, e1);
