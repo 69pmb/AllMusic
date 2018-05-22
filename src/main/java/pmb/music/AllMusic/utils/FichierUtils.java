@@ -19,6 +19,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
+import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 
 /**
@@ -38,12 +40,24 @@ public class FichierUtils {
 	 * @return Vector<Vector<Object>> la liste convertie
 	 */
 	@SuppressWarnings("rawtypes")
-	public static Vector convertListForJTable(List<Fichier> fList) {
+	public static Vector convertListForJTable(List<Fichier> fList, Composition compParente) {
 		LOG.debug("Start convertListForJTable");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < fList.size(); i++) {
 			Fichier f = fList.get(i);
 			Vector<Object> v = new Vector<>();
+			List<Composition> compo = ImportXML.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
+			Composition c = null;
+			try {
+				c = CompositionUtils.findByRank(compo, f.getClassement(), compParente);
+			} catch (MyException e) {
+				LOG.error("Error when search in convertListForJTable", e);
+			}
+			if(c!=null) {
+				v.addElement(c.getArtist() + " - " + c.getTitre());
+			} else {
+				v.addElement("");
+			}
 			v.addElement(f.getAuthor());
 			v.addElement(f.getFileName());
 			v.addElement(f.getPublishYear());

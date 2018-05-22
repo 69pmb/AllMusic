@@ -34,6 +34,7 @@ import org.apache.log4j.Logger;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
+import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 
@@ -48,8 +49,10 @@ public class DialogFileTable extends JDialog {
 	private static final Logger LOG = Logger.getLogger(DialogFileTable.class);
 
 	private List<Fichier> files = new ArrayList<>();
+	
+	private Composition compParente;
 
-	private static final String[] header = { "Auteur", "Nom du fichier", "Date de publication", "Categorie", "Dates",
+	private static final String[] header = { "Artist - Oeuvre", "Auteur", "Nom du fichier", "Date de publication", "Categorie", "Dates",
 			"Date de création", "Taille", "Classement", "Classé" };
 
 	private JTable fichiers;
@@ -62,7 +65,7 @@ public class DialogFileTable extends JDialog {
 	 * @param files {@code List<Fichier>} la liste des fichier à afficher
 	 * @param dim {@link Dimension} les dimension de la popup
 	 */
-	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim) {
+	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim, Vector<String> compoParent) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
@@ -70,6 +73,9 @@ public class DialogFileTable extends JDialog {
 		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		this.files = files;
 		this.setResizable(true);
+		if(compoParent != null) {
+			this.compParente = new Composition(compoParent.get(0), null, compoParent.get(1), RecordType.valueOf(compoParent.get(2)));
+		}
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
 	}
@@ -91,8 +97,8 @@ public class DialogFileTable extends JDialog {
 		fichiers.setBackground(UIManager.getColor("Label.background"));
 		fichiers.setFont(UIManager.getFont("Label.font"));
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
-		fichiers.setModel(new FichierModel(FichierUtils.convertListForJTable(files), new Vector(Arrays.asList(header))));
-		fichiers.getRowSorter().toggleSortOrder(0);
+		fichiers.setModel(new FichierModel(FichierUtils.convertListForJTable(files, compParente), new Vector(Arrays.asList(header))));
+		fichiers.getRowSorter().toggleSortOrder(1);
 
 		TableColumnModel modelecolonne = fichiers.getColumnModel();
 		int total = modelecolonne.getColumnCount();
@@ -137,7 +143,7 @@ public class DialogFileTable extends JDialog {
 			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector().get(
 					target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-			String absFile = Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION;
+			String absFile = Constant.XML_PATH + v.get(2) + Constant.XML_EXTENSION;
 			try {
 				Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absFile);
 			} catch (IOException e1) {
@@ -154,7 +160,7 @@ public class DialogFileTable extends JDialog {
 			}
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector().get(
 					target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(1));
+			StringSelection selection = new StringSelection(v.get(2));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
@@ -165,7 +171,7 @@ public class DialogFileTable extends JDialog {
 			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-			List<Composition> compo = ImportXML.importXML(Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION);
+			List<Composition> compo = ImportXML.importXML(Constant.XML_PATH + v.get(2) + Constant.XML_EXTENSION);
 			List<String> title = new ArrayList<>();
 			if (!compo.isEmpty()) {
 				Fichier file = compo.get(0).getFiles().get(0);
@@ -173,7 +179,7 @@ public class DialogFileTable extends JDialog {
 						file.getCategorie().toString(), "RangeDateBegin:", String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
 						String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:", String.valueOf(file.getSize()));
 			} else {
-				LOG.warn(v.get(1) + " empty !");
+				LOG.warn(v.get(2) + " empty !");
 			}
 			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " "), true, compo, new Dimension(1500, 400));
 			pop.showDialogFileTable();
