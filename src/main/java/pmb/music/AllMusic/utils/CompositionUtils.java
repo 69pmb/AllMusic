@@ -95,17 +95,6 @@ public class CompositionUtils {
 					res = composition;
 					break;
 				} 
-//				else if (isCompositionEquals(composition, c, c.getRecordType().toString())) {
-//					Composition c1 = c;
-//					Composition c2 = composition;
-//					LOG.debug("###########################################");
-//					LOG.debug(c1.getArtist() + " - " + c1.getTitre());
-//					LOG.debug(c2.getArtist() + " - " + c2.getTitre());
-//					LOG.debug("1: " + c1.getFiles());
-//					LOG.debug("2: " + c2.getFiles());
-//					res = composition;
-//					break;
-//				}
 			}
 		}
 		return res;
@@ -399,6 +388,9 @@ public class CompositionUtils {
 			}
 			// Modificaton de la liste de la composition à enlever
 			Composition toModifFromFile = CompositionUtils.compoExist(importXML, toModif);
+			if(toModifFromFile == null) {
+				toModifFromFile = CompositionUtils.findByRank(importXML, file.getClassement(), null);
+			}
 			if (toModifFromFile != null) {
 				int indexOf = SearchUtils.indexOf(importXML, toModifFromFile);
 				Composition composition = importXML.get(indexOf);
@@ -413,7 +405,7 @@ public class CompositionUtils {
 				}
 			} else {
 				LOG.error(filename + Constant.NEW_LINE);
-				String message = "Impossible de trouver la composition à modifier: " + toModif.getArtist() + " " + toModif.getFiles() + " " + toModif.getTitre() + " " + toModif.getRecordType();
+				String message = "Impossible de trouver la composition à modifier: " + toModif.getArtist() + " " + file + " " + toModif.getTitre() + " " + toModif.getRecordType();
 				LOG.error(message);
 				new MyException(message);
 			}
