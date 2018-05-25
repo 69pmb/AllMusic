@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Hole" titre="Live Through This" type="ALBUM">
+  <Composition artist="Hole" titre="Live Through This" type="ALBUM" canBeMerged="true">
     <File author="Rolling Stone" fileName="Rolling Stone Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="false" classement="1" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
-  <Composition artist="R.E.M." titre="Monster" type="ALBUM">
+  <Composition artist="R.E.M." titre="Monster" type="ALBUM" canBeMerged="true">
     <File author="Rolling Stone" fileName="Rolling Stone Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="false" classement="2" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
-  <Composition artist="Soundgarden" titre="Superunknown" type="ALBUM">
+  <Composition artist="Soundgarden" titre="Superunknown" type="ALBUM" canBeMerged="true">
     <File author="Rolling Stone" fileName="Rolling Stone Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="false" classement="3" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
-  <Composition artist="Nine Inch Nails" titre="The Downward Spiral" type="ALBUM">
+  <Composition artist="Nine Inch Nails" titre="The Downward Spiral" type="ALBUM" canBeMerged="true">
     <File author="Rolling Stone" fileName="Rolling Stone Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="false" classement="4" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
-  <Composition artist="Neil Young" titre="Sleeps With Angels" type="ALBUM">
+  <Composition artist="Neil Young" titre="Sleeps With Angels" type="ALBUM" canBeMerged="true">
     <File author="Rolling Stone" fileName="Rolling Stone Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="false" classement="5" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
-  <Composition artist="Green Day" titre="Dookie" type="ALBUM">
+  <Composition artist="Green Day" titre="Dookie" type="ALBUM" canBeMerged="true">
     <File author="Rolling Stone" fileName="Rolling Stone Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="false" classement="6" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
-  <Composition artist="Stone Temple Pilots" titre="Purple" type="ALBUM">
+  <Composition artist="Stone Temple Pilots" titre="Purple" type="ALBUM" canBeMerged="true">
     <File author="Rolling Stone" fileName="Rolling Stone Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="false" classement="7" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
 </ListCompositions>
