@@ -51,6 +51,7 @@ public class ExportXML {
 			comp.addAttribute("artist", String.valueOf(compList.get(i).getArtist()));
 			comp.addAttribute("titre", String.valueOf(compList.get(i).getTitre()));
 			comp.addAttribute("type", String.valueOf(compList.get(i).getRecordType()));
+			comp.addAttribute("canBeMerged", String.valueOf(compList.get(i).isCanBeMerged()));
 
 			for (int j = 0; j < compList.get(i).getFiles().size(); j++) {
 				Element file = comp.addElement("File");
