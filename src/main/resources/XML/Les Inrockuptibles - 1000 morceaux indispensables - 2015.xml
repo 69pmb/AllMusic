@@ -2779,7 +2779,7 @@
   <Composition artist="Television" titre="Marquee Moon" type="SONG" canBeMerged="true">
     <File author="Inrock" fileName="Les Inrockuptibles - 1000 morceaux indispensables - 2015" publishYear="2015" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2015" sorted="false" classement="928" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="true">
+  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="false">
     <File author="Inrock" fileName="Les Inrockuptibles - 1000 morceaux indispensables - 2015" publishYear="2015" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2015" sorted="false" classement="930" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Underground Resistance" titre="Jupiter Jazz" type="SONG" canBeMerged="true">

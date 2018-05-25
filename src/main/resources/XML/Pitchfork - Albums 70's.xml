@@ -52,7 +52,7 @@
   <Composition artist="Eno" titre="Here Come the Warm Jets" type="ALBUM" canBeMerged="true">
     <File author="Pitchfork" fileName="Pitchfork - Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="24" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="NEU!" titre="NEU!" type="ALBUM" canBeMerged="true">
+  <Composition artist="NEU!" titre="NEU!" type="ALBUM" canBeMerged="false">
     <File author="Pitchfork" fileName="Pitchfork - Albums 70's" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="25" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Stevie Wonder" titre="Innervisions" type="ALBUM" canBeMerged="true">
