@@ -109,7 +109,7 @@
   <Composition artist="Desire" titre="Bob Dylan" type="ALBUM" canBeMerged="true">
     <File author="NME" fileName="NME - Classic Albums" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="37" creationDate="02/07/2017 07:08:56" size="40"/>
   </Composition>
-  <Composition artist="NEU!" titre="NEU!" type="ALBUM" canBeMerged="true">
+  <Composition artist="NEU!" titre="NEU!" type="ALBUM" canBeMerged="false">
     <File author="NME" fileName="NME - Classic Albums" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="38" creationDate="02/07/2017 07:08:56" size="40"/>
   </Composition>
   <Composition artist="Sister" titre="Sonic Youth" type="ALBUM" canBeMerged="true">

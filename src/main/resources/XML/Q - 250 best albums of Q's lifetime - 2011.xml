@@ -571,7 +571,7 @@
   <Composition artist="Sugar" titre="Copper blue" type="ALBUM" canBeMerged="true">
     <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="248" creationDate="19/07/2017 07:11:54" size="250"/>
   </Composition>
-  <Composition artist="Orbital" titre="Orbital" type="ALBUM" canBeMerged="true">
+  <Composition artist="Orbital" titre="Orbital" type="ALBUM" canBeMerged="false">
     <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="249" creationDate="19/07/2017 07:11:54" size="250"/>
   </Composition>
   <Composition artist="Gomez" titre="Bring it on" type="ALBUM" canBeMerged="true">

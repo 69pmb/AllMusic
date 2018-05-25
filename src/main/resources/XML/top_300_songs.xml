@@ -121,7 +121,7 @@
   <Composition artist="Prince" titre="Sign 'O' the Times" type="SONG" canBeMerged="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="42" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="true">
+  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="43" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Roy Orbison" titre="Only the Lonely" type="SONG" canBeMerged="true">
@@ -862,7 +862,7 @@
   <Composition artist="Bobbie Gentry" titre="Ode to Billie Joe" type="SONG" canBeMerged="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="290" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Jimmie Rodgers" titre="Blue Yodel (T for Texas)" type="SONG" canBeMerged="true">
+  <Composition artist="Jimmie Rodgers" titre="Blue Yodel [aka 'T' for Texas]" type="SONG" canBeMerged="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="291" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="ABC" titre="The Look of Love" type="SONG" canBeMerged="true">
@@ -1390,7 +1390,7 @@
   <Composition artist="Weezer" titre="Buddy Holly" type="SONG" canBeMerged="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="466" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Run DMC" titre="It's Like That" type="SONG" canBeMerged="true">
+  <Composition artist="Run DMC" titre="It's Like That" type="SONG" canBeMerged="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="467" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Aretha Franklin" titre="Think" type="SONG" canBeMerged="true">
@@ -9151,7 +9151,7 @@
   <Composition artist="Boyz II Men And Mariah Carey" titre="One Sweet Day" type="SONG" canBeMerged="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="3053" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="DJ Shadow" titre="What Does Your Soul Look Like?" type="SONG" canBeMerged="true">
+  <Composition artist="DJ Shadow" titre="What Does Your Soul Look Like?" type="SONG" canBeMerged="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="3054" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Elastica" titre="Waking Up" type="SONG" canBeMerged="true">
