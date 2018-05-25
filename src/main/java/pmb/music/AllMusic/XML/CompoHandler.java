@@ -91,6 +91,7 @@ public class CompoHandler extends DefaultHandler {
 			compo.setArtist(attributes.getValue("artist"));
 			compo.setTitre(attributes.getValue("titre"));
 			compo.setRecordType(RecordType.valueOf(attributes.getValue("type")));
+			compo.setCanBeMerged(Boolean.parseBoolean(attributes.getValue("canBeMerged")));
 		} catch (Exception e) {
 			throw new SAXException(e);
 		}

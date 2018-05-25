@@ -19,6 +19,7 @@ public class Composition implements Serializable {
 	private List<Fichier> files;
 	private String titre;
 	private RecordType recordType;
+	private boolean canBeMerged;
 
 	/**
 	 * Constructeur.
@@ -101,6 +102,14 @@ public class Composition implements Serializable {
 	 */
 	public void setRecordType(RecordType recordType) {
 		this.recordType = recordType;
+	}
+
+	public boolean isCanBeMerged() {
+		return canBeMerged;
+	}
+
+	public void setCanBeMerged(boolean canBeMerged) {
+		this.canBeMerged = canBeMerged;
 	}
 
 	/*
