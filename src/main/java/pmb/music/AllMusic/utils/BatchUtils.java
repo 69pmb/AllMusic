@@ -66,7 +66,8 @@ public class BatchUtils {
 	public static void stat() {
 		LOG.debug("Start stat");
 		StringBuilder result = new StringBuilder();
-
+		addLine(result, "Statistiques: ");
+		
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		List<Integer> size = new ArrayList<>();
 		for (Composition composition : importXML) {
@@ -83,6 +84,38 @@ public class BatchUtils {
 		LOG.debug("End stat");
 	}
 
+	public static void findSuspiciousComposition() {
+		LOG.debug("Start findSuspiciousComposition");
+		StringBuilder result = new StringBuilder();
+		addLine(result, "Suspicious: ");
+
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		emptyTitleOrArtist(importXML, result);
+		titleSlash(importXML, result);
+
+		writeInFile(result);
+		LOG.debug("End findSuspiciousComposition");
+	}
+
+	public static void titleSlash(List<Composition> importXML, StringBuilder result) {
+		addLine(result, "Title Slash: ");
+		importXML.stream().forEach(c -> {
+			if (StringUtils.contains(c.getTitre(), "/")) {
+				addLine(result, c.getArtist() + " - " + c.getTitre());
+			}
+		});
+	}
+
+	public static void emptyTitleOrArtist(List<Composition> importXML, StringBuilder result) {
+		addLine(result, "Empty Title or Artist: ");
+		importXML.stream().forEach(c -> {
+			if (StringUtils.equalsIgnoreCase(StringUtils.trim(c.getTitre()), "")
+					|| StringUtils.equalsIgnoreCase(StringUtils.trim(c.getArtist()), "")) {
+				addLine(result, c.getArtist() + " - " + c.getTitre());
+			}
+		});
+	}
+	
 	/**
 	 * Search if a composition has similar files (same author and same rank).
 	 */
