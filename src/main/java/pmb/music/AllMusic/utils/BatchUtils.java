@@ -368,14 +368,14 @@ public class BatchUtils {
 			c2.setArtist(c1.getArtist());
 			c2.setTitre(c1.getTitre());
 			try {
-				CompositionUtils.modifyCompositionsInFiles(tempC2, c1.getArtist(), c1.getTitre());
+				CompositionUtils.modifyCompositionsInFiles(tempC2, c1.getArtist(), c1.getTitre(), c1.getRecordType().toString());
 			} catch (MyException e) {
 				addLine(result, "Erreur modif compo" + e.getMessage());
 				LOG.error("Erreur modif compo", e);
 			}
 		} else {
 			try {
-				CompositionUtils.modifyCompositionsInFiles(c1, tempC2.getArtist(), tempC2.getTitre());
+				CompositionUtils.modifyCompositionsInFiles(c1, tempC2.getArtist(), tempC2.getTitre(), c1.getRecordType().toString());
 			} catch (MyException e) {
 				addLine(result, "Erreur modif compo" + e.getMessage());
 				LOG.error("Erreur modif compo", e);

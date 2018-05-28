@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.util.Vector;
 
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -16,6 +17,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 import org.apache.log4j.Logger;
+
+import pmb.music.AllMusic.model.RecordType;
 
 /**
  * Une "pop-up" permettant de modifier une composition.
@@ -29,6 +32,7 @@ public class ModifyDialog extends JDialog {
 	private final Vector compo;
 	private JTextField artist;
 	private JTextField titre;
+	private JComboBox<RecordType> type;
 	private boolean sendData;
 
 	/**
@@ -71,10 +75,25 @@ public class ModifyDialog extends JDialog {
 		titre.setPreferredSize(new Dimension(270, 30));
 		titrePanel.add(titreLabel);
 		titrePanel.add(titre);
+
+		// Type
+		JPanel typePanel = new JPanel();
+		typePanel.setPreferredSize(new Dimension(180, 60));
+		JLabel typeLabel = new JLabel("Type : ");
+		type = new JComboBox<>();
+		type.addItem(null);
+		RecordType[] valuesType = RecordType.values();
+		for (int i = 0; i < valuesType.length; i++) {
+			type.addItem(valuesType[i]);
+		}
+		type.setPreferredSize(new Dimension(150, 25));
+		typePanel.add(typeLabel);
+		typePanel.add(type);
 		
 	    JPanel content = new JPanel();
 	    content.add(artistPanel);
 	    content.add(titrePanel);
+	    content.add(typePanel);
 	    
 	    JPanel control = new JPanel();
 	    JButton okBouton = new JButton("OK");
@@ -84,6 +103,7 @@ public class ModifyDialog extends JDialog {
 			sendData = true;
 			compo.set(0, artist.getText());
 			compo.set(1, titre.getText());
+			compo.set(2, type.getSelectedItem().toString());
 		});
 
 	    JButton cancelBouton = new JButton("Annuler");
