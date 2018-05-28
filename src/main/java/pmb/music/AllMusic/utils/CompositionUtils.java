@@ -376,9 +376,10 @@ public class CompositionUtils {
 	 * @param toModif la {@link Composition} à modifier des fichiers
 	 * @param newArtist {@link String} le nouvel artiste
 	 * @param newTitre {@link String} le nouveau titre
+	 * @param newType {@link String} le nouveau type
 	 * @throws MyException 
 	 */
-	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre) throws MyException {
+	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre, String newType) throws MyException {
 		LOG.debug("Start modifyCompositionsInFiles");
 		for (Fichier file : toModif.getFiles()) {
 			// Récupération des compositions du fichier XML
@@ -397,6 +398,7 @@ public class CompositionUtils {
 				Composition composition = importXML.get(indexOf);
 				composition.setArtist(newArtist);
 				composition.setTitre(newTitre);
+				composition.setRecordType(RecordType.valueOf(newType));
 				importXML.set(indexOf, composition);
 				try {
 					// Sauvegarde des modifications
