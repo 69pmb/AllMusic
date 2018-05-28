@@ -7,7 +7,9 @@ import java.io.OutputStreamWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -37,6 +39,43 @@ public class BatchUtils {
 		
 		writeInFile(result);
 		LOG.debug("End detectsDuplicateFinal");
+	}
+
+	/**
+	 * Search if a composition has similar files (same author and same rank).
+	 */
+	public static void findDuplicateFiles() {
+		LOG.debug("Start findDuplicateFiles");
+		StringBuilder text = new StringBuilder();
+		addLine(text, "FindDuplicateFiles: ");
+		Map<String, Integer> result = new HashMap<String, Integer>();
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		for (Composition composition : importXML) {
+			for (int i = 0; i < composition.getFiles().size(); i++) {
+				for (int j = 0; j < composition.getFiles().size(); j++) {
+					if (i > j) {
+						Fichier f1 = composition.getFiles().get(i);
+						Fichier f2 = composition.getFiles().get(j);
+						if (f1.getClassement() == f2.getClassement()
+								&& StringUtils.equalsIgnoreCase(f1.getAuthor(), f2.getAuthor())) {
+							String key = f1.getFileName() + ", " + f2.getFileName();
+							if (!result.containsKey(key)) {
+								result.put(key, 1);
+							} else {
+								result.put(key, result.get(key) + 1);
+							}
+						}
+					}
+				}
+			}
+		}
+		result.keySet().stream().sorted().forEach(key -> {
+			if (result.get(key) > 1) {
+				addLine(text, key + ": " + result.get(key));
+			}
+		});
+		writeInFile(text);
+		LOG.debug("End findDuplicateFiles");
 	}
 	
 	/**

@@ -83,38 +83,6 @@ public class AppTest {
 	}
 
 	/**
-	 * Search if a composition has similar files (same author and same rank).
-	 */
-	public static void findDuplicateFiles() {
-		Map<String, Integer> result = new HashMap<String, Integer>();
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-		for (Composition composition : importXML) {
-			for (int i = 0; i < composition.getFiles().size(); i++) {
-				for (int j = 0; j < composition.getFiles().size(); j++) {
-					if (i > j) {
-						Fichier f1 = composition.getFiles().get(i);
-						Fichier f2 = composition.getFiles().get(j);
-						if (f1.getClassement() == f2.getClassement()
-								&& StringUtils.equalsIgnoreCase(f1.getAuthor(), f2.getAuthor())) {
-							String key = f1.getFileName() + ", " + f2.getFileName();
-							if (!result.containsKey(key)) {
-								result.put(key, 1);
-							} else {
-								result.put(key, result.get(key) + 1);
-							}
-						}
-					}
-				}
-			}
-		}
-		result.keySet().stream().sorted().forEach(key -> {
-			if (result.get(key) > 1) {
-				LOG.debug(key + ": " + result.get(key));
-			}
-		});
-	}
-
-	/**
 	 * Merge similar txt files.
 	 * 
 	 * @param args
