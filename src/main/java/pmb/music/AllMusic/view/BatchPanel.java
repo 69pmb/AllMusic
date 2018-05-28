@@ -9,6 +9,7 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 import javax.swing.Box;
@@ -20,6 +21,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.JTextField;
 import javax.swing.UIManager;
 
 import org.apache.commons.lang3.StringUtils;
@@ -58,6 +60,7 @@ public class BatchPanel extends JPanel {
 		findDuplicateComposition();
 		findDuplicateFiles();
 		missingXmlFiles();
+		topYear();
 		lastLine();
 
 		LOG.debug("End BatchPanel");
@@ -159,6 +162,51 @@ public class BatchPanel extends JPanel {
 	}
 	
 	/**
+	 * Generates csv reports for a specific year.
+	 */
+	private void topYear() {
+		JPanel top = createBoxLayoutPanel();
+
+		// Label
+		JLabel topLabel = new JLabel("Générer les tops: ");
+		addComponent(top, topLabel, Component.LEFT_ALIGNMENT, 100);
+
+		// Year Begin
+		JTextField yearBeginTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
+		setSize(yearBeginTop, 100);
+		addComponent(top, yearBeginTop, Component.LEFT_ALIGNMENT, 80);
+
+		// Year End
+		JTextField yearEndTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
+		setSize(yearEndTop, 100);
+		addComponent(top, yearEndTop, Component.LEFT_ALIGNMENT, 80);
+
+		// Album limit
+		JTextField albumLimit = new JTextField("10");
+		setSize(albumLimit, 100);
+		addComponent(top, albumLimit, Component.LEFT_ALIGNMENT, 80);
+
+		// Song limit
+		JTextField songLimit = new JTextField("4");
+		setSize(songLimit, 100);
+		addComponent(top, songLimit, Component.LEFT_ALIGNMENT, 80);
+
+		// Bouton d'action
+		JButton topBtn = new JButton("Go");
+		topBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start topYear: " + BatchUtils.getCurrentTime());
+			new Thread(() -> {
+				BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()), Integer.parseInt(yearEndTop.getText()),
+						Integer.parseInt(albumLimit.getText()), Integer.parseInt(songLimit.getText()));
+				displayText("End topYear: " + BatchUtils.getCurrentTime());
+			}).start();
+		});
+		addComponent(top, topBtn, Component.RIGHT_ALIGNMENT, 100);
+
+		this.add(top);
+	}
+	
+	/**
 	 * Initialise la dernière ligne de composant.
 	 */
 	private void lastLine() {
@@ -244,6 +292,12 @@ public class BatchPanel extends JPanel {
 		panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
 		panel.add(Box.createRigidArea(new Dimension(100,0)));		
 		return panel;
+	}
+
+	private void setSize(JComponent comp, int width) {
+		comp.setMinimumSize(new Dimension(width, 20));
+		comp.setPreferredSize(new Dimension(width, 20));
+		comp.setMaximumSize(comp.getPreferredSize());
 	}
 
 	/**
