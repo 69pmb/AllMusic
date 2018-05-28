@@ -61,6 +61,7 @@ public class BatchPanel extends JPanel {
 		findDuplicateFiles();
 		missingXmlFiles();
 		topYear();
+		clearHistory();
 		lastLine();
 
 		LOG.debug("End BatchPanel");
@@ -205,7 +206,29 @@ public class BatchPanel extends JPanel {
 
 		this.add(top);
 	}
-	
+
+	private void clearHistory() {
+		JPanel clear = createBoxLayoutPanel();
+
+		// Label
+		JLabel clearLabel = new JLabel("Nettoyer le dossier d'historique: ");
+		addComponent(clear, clearLabel, Component.LEFT_ALIGNMENT, 700);
+
+		// Clean history
+		JButton cleanHistory = new JButton("Go");
+		cleanHistory.setToolTipText("Supprime tous les fichiers du dossier d'historique sauf le plus récent.");
+		cleanHistory.addActionListener((ActionEvent arg0) -> {
+			displayText("Start cleanHistory: " + BatchUtils.getCurrentTime());
+			new Thread(() -> {
+				BatchUtils.cleanHistory();
+				displayText("Start cleanHistory: " + BatchUtils.getCurrentTime());
+			}).start();
+		});
+		addComponent(clear, cleanHistory, Component.RIGHT_ALIGNMENT, 100);
+
+		this.add(clear);
+	}
+
 	/**
 	 * Initialise la dernière ligne de composant.
 	 */
