@@ -2,6 +2,7 @@ package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -10,8 +11,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.Box;
+import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -52,7 +56,7 @@ public class BatchPanel extends JPanel {
 		this.setLayout(new GridLayout(10, 1));
 
 		findDuplicateComposition();
-		
+		findDuplicateFiles();		
 		lastLine();
 		
 		LOG.debug("End BatchPanel");
@@ -62,42 +66,31 @@ public class BatchPanel extends JPanel {
 	 * Initialise les composants pour trouver les compositions en double (FDC).
 	 */
 	private void findDuplicateComposition() {
-		JPanel fdc = new JPanel();
+		JPanel fdc = createBoxLayoutPanel();
 
 		JLabel fdcLabel = new JLabel("Recherche les compositions en double: ");
-		fdc.add(fdcLabel);
+		addComponent(fdc, fdcLabel, Component.LEFT_ALIGNMENT, 100);
 
 		// Checkbox song
-		JPanel fdcSongPanel = new JPanel();
-		fdcSongPanel.setPreferredSize(new Dimension(200, 60));
 		JLabel fdcSongLabel = new JLabel("Chanson: ");
 		JCheckBox fdcSong = new JCheckBox();
-		fdcSong.setPreferredSize(new Dimension(130, 25));
 		fdcSong.setSelected(true);
-		fdcSongPanel.add(fdcSongLabel);
-		fdcSongPanel.add(fdcSong);
-		fdc.add(fdcSongPanel);
+		addComponent(fdc, fdcSongLabel, Component.LEFT_ALIGNMENT, 0);
+		addComponent(fdc, fdcSong, Component.LEFT_ALIGNMENT, 100);
 
 		// Checkbox album
-		JPanel fdcAlbumPanel = new JPanel();
-		fdcAlbumPanel.setPreferredSize(new Dimension(200, 60));
 		JLabel fdcAlbumLabel = new JLabel("Album: ");
 		JCheckBox fdcAlbum = new JCheckBox();
-		fdcAlbum.setPreferredSize(new Dimension(130, 25));
 		fdcAlbum.setSelected(true);
-		fdcAlbumPanel.add(fdcAlbumLabel);
-		fdcAlbumPanel.add(fdcAlbum);
-		fdc.add(fdcAlbumPanel);
+		addComponent(fdc, fdcAlbumLabel, Component.LEFT_ALIGNMENT, 0);
+		addComponent(fdc, fdcAlbum, Component.LEFT_ALIGNMENT, 100);
 
 		// Checkbox unmergeable
-		JPanel fdcUnmergeablePanel = new JPanel();
-		fdcUnmergeablePanel.setPreferredSize(new Dimension(300, 60));
 		JLabel fdcUnmergeableLabel = new JLabel("Ignorer les fichier non mergeables: ");
 		JCheckBox fdcUnmergeable = new JCheckBox();
 		fdcUnmergeable.setSelected(true);
-		fdcUnmergeablePanel.add(fdcUnmergeableLabel);
-		fdcUnmergeablePanel.add(fdcUnmergeable);
-		fdc.add(fdcUnmergeablePanel);
+		addComponent(fdc, fdcUnmergeableLabel, Component.LEFT_ALIGNMENT, 0);
+		addComponent(fdc, fdcUnmergeable, Component.LEFT_ALIGNMENT, 100);
 
 		JButton fdcBtn = new JButton("Go");
 		fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
@@ -109,16 +102,42 @@ public class BatchPanel extends JPanel {
 				displayText("End findDuplicateComposition: " + BatchUtils.getCurrentTime());
 			}).start();
 		});
-		fdc.add(fdcBtn);
+		addComponent(fdc, fdcBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(fdc);
 	}
 
 	/**
+	 * Initialise les composants pour trouver les fichiers en double (FDF).
+	 */
+	private void findDuplicateFiles() {
+		JPanel fdf = createBoxLayoutPanel();
+		
+		// Label
+		JLabel fdfLabel = new JLabel("Recherche les compositions en double: ");
+		addComponent(fdf, fdfLabel, Component.LEFT_ALIGNMENT, 700);
+
+		// Bouton d'action
+		JButton fdfBtn = new JButton("Go");
+		fdfBtn.setToolTipText("Cherche les fichiers en double.");
+		fdfBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start findDuplicateFiles: " + BatchUtils.getCurrentTime());
+			new Thread(() -> {
+				BatchUtils.findDuplicateFiles();
+				displayText("End findDuplicateFiles: " + BatchUtils.getCurrentTime());
+			}).start();
+		});
+		addComponent(fdf, fdfBtn, Component.RIGHT_ALIGNMENT, 100);
+
+		this.add(fdf);
+	}
+	
+	/**
 	 * Initialise la dernière ligne de composant.
 	 */
 	private void lastLine() {
 		JPanel lastLine = new JPanel(new GridLayout(0, 2));
+		
 		// result
 		JPanel resultPanel = new JPanel(new BorderLayout());
 		resultLabel = new JTextArea();
@@ -186,5 +205,29 @@ public class BatchPanel extends JPanel {
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
 		LOG.debug("End displayText");
+	}
+	
+	/**
+	 * Crée un {@link JPanel} avec un layout de type {@link BoxLayout} aligné sur l'abscisse.
+	 * @return le panel crée
+	 */
+	private JPanel createBoxLayoutPanel() {
+		JPanel panel = new JPanel();
+		panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
+		panel.add(Box.createRigidArea(new Dimension(100,0)));		
+		return panel;
+	}
+
+	/**
+	 * Ajoute un composant au panel.
+	 * @param panel
+	 * @param component
+	 * @param alignement
+	 */
+	private void addComponent(JPanel panel, JComponent component, float alignement, int rigidSize) {
+		component.setAlignmentX(alignement);
+		component.setAlignmentY(Component.CENTER_ALIGNMENT);
+		panel.add(component);
+		panel.add(Box.createRigidArea(new Dimension(rigidSize, 0)));
 	}
 }
