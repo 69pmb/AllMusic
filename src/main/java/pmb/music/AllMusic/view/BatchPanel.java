@@ -62,6 +62,7 @@ public class BatchPanel extends JPanel {
 		missingXmlFiles();
 		topYear();
 		clearHistory();
+		stats();
 		lastLine();
 
 		LOG.debug("End BatchPanel");
@@ -212,7 +213,7 @@ public class BatchPanel extends JPanel {
 
 		// Label
 		JLabel clearLabel = new JLabel("Nettoyer le dossier d'historique: ");
-		addComponent(clear, clearLabel, Component.LEFT_ALIGNMENT, 700);
+		addComponent(clear, clearLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// Clean history
 		JButton cleanHistory = new JButton("Go");
@@ -227,6 +228,28 @@ public class BatchPanel extends JPanel {
 		addComponent(clear, cleanHistory, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(clear);
+	}
+	
+	private void stats() {
+		JPanel stat = createBoxLayoutPanel();
+		
+		// Label
+		JLabel statLabel = new JLabel("Statistiques: ");
+		addComponent(stat, statLabel, Component.LEFT_ALIGNMENT, 900);
+		
+		// Stat btn
+		JButton statsBtn = new JButton("Go");
+		statsBtn.setToolTipText("Génère des statistiques.");
+		statsBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start statistic: " + BatchUtils.getCurrentTime());
+			new Thread(() -> {
+				BatchUtils.stat();
+				displayText("Start statistic: " + BatchUtils.getCurrentTime());
+			}).start();
+		});
+		addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);
+		
+		this.add(stat);
 	}
 
 	/**
