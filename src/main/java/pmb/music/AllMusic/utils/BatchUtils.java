@@ -1,15 +1,18 @@
 package pmb.music.AllMusic.utils;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -48,6 +51,7 @@ public class BatchUtils {
 		LOG.debug("Start findDuplicateFiles");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "FindDuplicateFiles: ");
+		
 		Map<String, Integer> result = new HashMap<String, Integer>();
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		for (Composition composition : importXML) {
@@ -74,8 +78,48 @@ public class BatchUtils {
 				addLine(text, key + ": " + result.get(key));
 			}
 		});
+		
 		writeInFile(text);
 		LOG.debug("End findDuplicateFiles");
+	}
+
+	/**
+	 * Search if there are txt files which are not convert to xml files.
+	 */
+	public static void missingXML() {
+		LOG.debug("Start missingXML");
+		StringBuilder text = new StringBuilder();
+		addLine(text, "MissingXML: ");
+
+		// Recupère tous les nom des fichiers txt
+		List<File> music = new ArrayList<>();
+		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), music, ".txt", true);
+		List<String> collectMusic = music.stream().map(File::getName)
+				.map(s -> StringUtils.substringBeforeLast(s, ".txt")).collect(Collectors.toList());
+
+		// Recupère tous les nom des fichiers xml
+		List<File> xml = new ArrayList<>();
+		CompositionUtils.listFilesForFolder(new File(Constant.XML_PATH), xml, Constant.XML_EXTENSION, true);
+		List<String> collectXml = xml.stream().map(File::getName)
+				.map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
+
+		addLine(text, "TXT: ");
+		for (String txt : collectMusic) {
+			if (!collectXml.stream().anyMatch(s -> StringUtils.equalsAnyIgnoreCase(s, txt))) {
+				addLine(text, "Missing: " + txt);
+				LOG.debug("Missing: " + txt);
+			}
+		}
+		addLine(text, "XML: ");
+		for (String xmlFile : collectXml) {
+			if (!collectMusic.stream().anyMatch(s -> StringUtils.equalsAnyIgnoreCase(s, xmlFile))) {
+				addLine(text, "Missing: " + xmlFile);
+				LOG.debug("Missing: " + xmlFile);
+			}
+		}
+
+		writeInFile(text);
+		LOG.debug("End missingXML");
 	}
 	
 	/**
