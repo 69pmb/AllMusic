@@ -62,6 +62,7 @@ public class BatchPanel extends JPanel {
 		missingXmlFiles();
 		topYear();
 		clearHistory();
+		suspicious();
 		stats();
 		lastLine();
 
@@ -228,6 +229,28 @@ public class BatchPanel extends JPanel {
 		addComponent(clear, cleanHistory, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(clear);
+	}
+	
+	private void suspicious() {
+		JPanel suspicious = createBoxLayoutPanel();
+		
+		// Label
+		JLabel suspiciousLabel = new JLabel("Trouver des compositions suspectes: ");
+		addComponent(suspicious, suspiciousLabel, Component.LEFT_ALIGNMENT, 800);
+		
+		// suspicious Btn
+		JButton suspiciousBtn = new JButton("Go");
+		suspiciousBtn.setToolTipText("Trouve des compositions bizarres");
+		suspiciousBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start findSuspiciousComposition: " + BatchUtils.getCurrentTime());
+			new Thread(() -> {
+				BatchUtils.findSuspiciousComposition();
+				displayText("Start findSuspiciousComposition: " + BatchUtils.getCurrentTime());
+			}).start();
+		});
+		addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
+		
+		this.add(suspicious);
 	}
 	
 	private void stats() {

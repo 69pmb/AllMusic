@@ -41,11 +41,7 @@ public class AppTest {
 	private static final Logger LOG = Logger.getLogger(AppTest.class);
 
 	public static void main(String[] args) {
-		// missingXML();
-		// detectsDuplicate(RecordType.SONG.toString(), year);
-//		 detectsDuplicateFinal(RecordType.SONG.toString(), IGNORE_UNMERGEABLE_FILES);
-//		 detectsDuplicateFinal(RecordType.ALBUM.toString(), IGNORE_UNMERGEABLE_FILES);
-		// titleSlash();
+		randomLineTest();
 	}
 
 	/**
@@ -208,14 +204,6 @@ public class AppTest {
 			}
 		}
 		LOG.debug("Fin detectsDuplicate");
-	}
-
-	public static void titleSlash() {
-		ImportXML.importXML(Constant.FINAL_FILE_PATH).stream().forEach(c -> {
-			if (StringUtils.contains(c.getTitre(), "/")) {
-				LOG.debug(c.getArtist() + " - " + c.getTitre());
-			}
-		});
 	}
 
 	public static void setCanBeMerged() {
