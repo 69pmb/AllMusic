@@ -9,12 +9,15 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
@@ -150,6 +153,53 @@ public class BatchUtils {
 
 		writeInFile(text);
 		LOG.debug("End topYear");
+	}
+
+	/**
+	 * Supprime tous les fichiers historisés sauf le plus récent.
+	 */
+	public static void cleanHistory() {
+		LOG.debug("Start cleanHistory");
+		StringBuilder text = new StringBuilder();
+		addLine(text, "Clean History: ");
+		
+		// Création d'une map avec:
+		// key nom du fichier sans date
+		// value liste des dates du fichier
+		List<File> files = new ArrayList<>();
+		CompositionUtils.listFilesForFolder(new File(Constant.HISTORY_PATH), files, Constant.XML_EXTENSION, false);
+		Map<String, List<Date>> list = new HashMap<String, List<Date>>();
+		for (File file : files) {
+			String nomFichier = StringUtils.substringBefore(file.getName(), Constant.SEPARATOR_DATE_HISTORY);
+			String date = StringUtils.substringBetween(file.getName(), Constant.SEPARATOR_DATE_HISTORY, Constant.XML_EXTENSION);
+			if (list.get(nomFichier) == null) {
+				list.put(nomFichier, new ArrayList<Date>());
+			}
+			try {
+				list.get(nomFichier).add(new Constant().getSdfHistory().parse(date));
+			} catch (ParseException e) {
+				addLine(text, "Erreur lors du parsing d'une date" + e.getMessage());
+				LOG.error("Erreur lors du parsing d'une date", e);
+			}
+		}
+
+		Set<String> keySet = list.keySet();
+		for (String key : keySet) {
+			// Tri des dates, la plus récente en 1er
+			Collections.sort(list.get(key), Collections.reverseOrder());
+			String path = Constant.HISTORY_PATH + key + Constant.SEPARATOR_DATE_HISTORY;
+			// Suppression des fichiers sauf du 1er
+			for (int i = 1; i < list.get(key).size(); i++) {
+				String toDelete = path + new Constant().getSdfHistory().format(list.get(key).get(i)) + Constant.XML_EXTENSION;
+				if (!new File(toDelete).delete()) {
+					addLine(text, toDelete + " n'a pas pu etre supprimé");
+					LOG.error(toDelete + " n'a pas pu etre supprimé");
+				}
+			}
+		}
+		
+		writeInFile(text);
+		LOG.debug("End cleanHistory");
 	}
 
 	/**

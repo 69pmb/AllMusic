@@ -45,7 +45,6 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
-import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 
 /**
@@ -506,21 +505,6 @@ public class ImportPanel extends JPanel {
 		log.setToolTipText("Ouvre le fichier de logs dans Notepad++");
 		log.addActionListener((ActionEvent arg0) -> openFileNotepad(Constant.FILE_LOG_PATH));
 		bottom.add(log);
-
-		// Clean history
-		JButton cleanHistory = new JButton("Nettoyer le dossier d'historique");
-		cleanHistory.setToolTipText("Supprime tous les fichiers du dossier d'historique sauf le plus récent.");
-		cleanHistory.addActionListener((ActionEvent arg0) -> {
-			result = new LinkedList<>(Arrays.asList("Dossier historique nettoyé"));
-			try {
-				FichierUtils.cleanHistory();
-			} catch (IOException e) {
-				LOG.error("Erreur lors de cleanHistory", e);
-				result = new LinkedList<>(Arrays.asList(e.toString()));
-			}
-			miseEnFormeResultLabel(result);
-		});
-		bottom.add(cleanHistory);
 
 		bottom.setBorder(BorderFactory.createTitledBorder(""));
 		this.add(bottom);
