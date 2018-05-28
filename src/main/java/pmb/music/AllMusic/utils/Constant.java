@@ -37,6 +37,11 @@ public class Constant {
 	 * Chemin abs du fichier de log.
 	 */
 	public static final String FILE_LOG_PATH = Constant.USER_DIR + "\\error.log";
+	
+	/**
+	 * Chemin abs du fichier de résultat des batchs.
+	 */
+	public static final String BATCH_FILE_PATH = Constant.USER_DIR + "\\batch.txt";
 
 	/**
 	 * Chemin abs du dossier contenant tous les fichiers xml importés.
@@ -95,6 +100,8 @@ public class Constant {
 	public static final String ONGLET_ARTIST = "Artiste";
 
 	public static final String ONGLET_SEARCH = "Rechercher";
+	
+	public static final String ONGLET_BATCH= "Batchs";
 
 	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
 
