@@ -218,27 +218,6 @@ public class AppTest {
 		});
 	}
 
-	/**
-	 * Generates statistics of xml files.
-	 * 
-	 * @param args
-	 */
-	public static void stat(String[] args) {
-		LOG.debug("Debut");
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-		List<Integer> size = new ArrayList<>();
-		for (Composition composition : importXML) {
-			String s = composition.getArtist() + composition.getTitre();
-			size.add(s.length());
-		}
-		LOG.debug("Min: " + size.stream().mapToInt(Integer::intValue).min());
-		LOG.debug("Max: " + size.stream().mapToInt(Integer::intValue).max());
-		LOG.debug("Moyenne: " + size.stream().mapToInt(Integer::intValue).average());
-		LOG.debug("Summary: " + size.stream().mapToInt(Integer::intValue).summaryStatistics());
-		LOG.debug(size);
-		LOG.debug("Fin");
-	}
-
 	public static void setCanBeMerged() {
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getFileName).distinct()

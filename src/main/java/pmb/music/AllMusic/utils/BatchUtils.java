@@ -61,6 +61,29 @@ public class BatchUtils {
 	}
 
 	/**
+	 * Generates statistics of xml files.
+	 */
+	public static void stat() {
+		LOG.debug("Start stat");
+		StringBuilder result = new StringBuilder();
+
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Integer> size = new ArrayList<>();
+		for (Composition composition : importXML) {
+			String s = composition.getArtist() + composition.getTitre();
+			size.add(s.length());
+		}
+		addLine(result, "Min: " + size.stream().mapToInt(Integer::intValue).min());
+		addLine(result, "Max: " + size.stream().mapToInt(Integer::intValue).max());
+		addLine(result, "Moyenne: " + size.stream().mapToInt(Integer::intValue).average());
+		addLine(result, "Summary: " + size.stream().mapToInt(Integer::intValue).summaryStatistics());
+		addLine(result, "Size: " + size);
+
+		writeInFile(result);
+		LOG.debug("End stat");
+	}
+
+	/**
 	 * Search if a composition has similar files (same author and same rank).
 	 */
 	public static void findDuplicateFiles() {
