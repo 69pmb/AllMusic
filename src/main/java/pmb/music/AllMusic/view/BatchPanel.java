@@ -49,16 +49,17 @@ public class BatchPanel extends JPanel {
 	 */
 	private JTextArea resultLabel;
 	private List<String> resultLabelData;
-	
+
 	public BatchPanel() {
 		super();
 		LOG.debug("Start BatchPanel");
 		this.setLayout(new GridLayout(10, 1));
 
 		findDuplicateComposition();
-		findDuplicateFiles();		
+		findDuplicateFiles();
+		missingXmlFiles();
 		lastLine();
-		
+
 		LOG.debug("End BatchPanel");
 	}
 
@@ -133,6 +134,31 @@ public class BatchPanel extends JPanel {
 	}
 	
 	/**
+	 * Initialise les composants pour trouver les fichiers txt non importés (MXF).
+	 */
+	private void missingXmlFiles() {
+		JPanel mxf = createBoxLayoutPanel();
+		
+		// Label
+		JLabel mxfLabel = new JLabel("Rechercher les fichiers XML manquant: ");
+		addComponent(mxf, mxfLabel, Component.LEFT_ALIGNMENT, 700);
+		
+		// Bouton d'action
+		JButton mxfBtn = new JButton("Go");
+		mxfBtn.setToolTipText("Cherche si des fichiers txt n'ont pas d'équivalent XML.");
+		mxfBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start missingXML: " + BatchUtils.getCurrentTime());
+			new Thread(() -> {
+				BatchUtils.missingXML();
+				displayText("End missingXML: " + BatchUtils.getCurrentTime());
+			}).start();
+		});
+		addComponent(mxf, mxfBtn, Component.RIGHT_ALIGNMENT, 100);
+		
+		this.add(mxf);
+	}
+	
+	/**
 	 * Initialise la dernière ligne de composant.
 	 */
 	private void lastLine() {
@@ -151,17 +177,19 @@ public class BatchPanel extends JPanel {
 		resultPanel.add(new JScrollPane(resultLabel), BorderLayout.CENTER);
 		lastLine.add(resultPanel);
 
+		// Boutons
 		JPanel btnPanel = new JPanel();
-		JButton batcFileBtn = new JButton("Ouvrir le fichier de résultat");
-		batcFileBtn.addActionListener((ActionEvent arg0) -> openResultFileInNotepad());
-		btnPanel.add(batcFileBtn);
-		
+		// Clear
 		JButton clearBtn = new JButton("Vider la zone de résultat");
 		clearBtn.addActionListener((ActionEvent arg0) -> {
 			resultLabelData = null;
 			displayText("");
 		});
 		btnPanel.add(clearBtn);
+		// Notepad
+		JButton batchFileBtn = new JButton("Ouvrir le fichier de résultat");
+		batchFileBtn.addActionListener((ActionEvent arg0) -> openResultFileInNotepad());
+		btnPanel.add(batchFileBtn);
 		
 		lastLine.add(btnPanel);
 		this.add(lastLine);
