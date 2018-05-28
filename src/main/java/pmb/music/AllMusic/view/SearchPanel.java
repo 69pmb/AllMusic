@@ -550,7 +550,10 @@ public class SearchPanel extends JPanel {
 			LOG.debug("La compo existe déjà, on regroupe");
 			compoExist.getFiles().addAll(toModif.getFiles());
 			Composition compoExistResult = CompositionUtils.compoExist(compoResult, toModif);
-			compoExistResult.getFiles().addAll(toModif.getFiles());
+			if (compoExistResult != null) {
+				// La compo apparait bien dans les resultats de recherche
+				compoExistResult.getFiles().addAll(toModif.getFiles());
+			}
 		}
 		try {
 			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
