@@ -5,6 +5,9 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -12,7 +15,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Vector;
 import java.util.stream.Collectors;
+
+import javax.swing.RowSorter.SortKey;
+import javax.swing.SortOrder;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -21,9 +28,12 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.file.CsvFile;
+import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.view.Onglet;
 
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
@@ -32,6 +42,9 @@ public class BatchUtils {
 		LOG.debug("Start detectsDuplicateFinal");
 		StringBuilder result = new StringBuilder();
 		addLine(result, "DetectsDuplicateFinal: ");
+		addLine(result, "Song: " + song);
+		addLine(result, "Album: " + album);
+		addLine(result, "Ignore Unmergeable Files: " + ignoreUnmergeableFiles);
 
 		if(song) {
 			detectsDuplicateFinal(RecordType.SONG.toString(), ignoreUnmergeableFiles, result);
@@ -121,7 +134,24 @@ public class BatchUtils {
 		writeInFile(text);
 		LOG.debug("End missingXML");
 	}
-	
+
+	public static void topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit) {
+		LOG.debug("Start topYear");
+		StringBuilder text = new StringBuilder();
+		addLine(text, "Top Year: ");
+		addLine(text, "Year Begin: " + yearBegin);
+		addLine(text, "Year End: " + yearEnd);
+		addLine(text, "Album Limit: " + albumLimit);
+		addLine(text, "Song Limit: " + songLimit);
+
+		for (int i = yearBegin; i <= yearEnd; i++) {
+			topYear(i, albumLimit, songLimit, text);
+		}
+
+		writeInFile(text);
+		LOG.debug("End topYear");
+	}
+
 	/**
 	 * Show all the duplicates for a year and a type regardless of the artist, only
 	 * based on the song or album.
@@ -253,6 +283,150 @@ public class BatchUtils {
 		}
 		addLine(result, "Final size: " + importXML.size());
 		LOG.debug("End mergeTwoCompositions");
+	}
+
+	/**
+	 * Generates the top excel files of a year.
+	 */
+	public static void topYear(int yearTop, int albumLimit, int songLimit, StringBuilder result) {
+		LOG.debug("Start topYear");
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<String> files = new ArrayList<>();
+		String year = String.valueOf(yearTop);
+		addLine(result, "Year: " + year);
+		if (CollectionUtils.isNotEmpty(importXML)) {
+			files.add(topOccurence(importXML, year));
+			files.add(topRecords(importXML, RecordType.SONG, "Top Songs", songLimit, year));
+			files.add(topRecords(importXML, RecordType.ALBUM, "Top Albums", albumLimit, year));
+			files.add(topSongsParPublication(year));
+		}
+		File folder = new File(Constant.USER_DIR + "\\Top by Year\\" + year);
+		folder.mkdir();
+		moveFilesInFolder(files, folder, result);
+		LOG.debug("End topYear");
+	}
+
+	public static void moveFilesInFolder(List<String> files, File folder, StringBuilder result) {
+		FichierUtils.createFolderIfNotExists(folder.getAbsolutePath());
+		Path pathFolder = folder.toPath();
+		files.stream().forEach(f -> {
+			Path pathFile = new File(f).toPath();
+			try {
+				Files.move(pathFile, pathFolder.resolve(f), StandardCopyOption.REPLACE_EXISTING);
+			} catch (IOException e) {
+				addLine(result, "Error while moving file: " + f + " " + e.getMessage());
+				LOG.error("Error while moving file: " + f, e);
+			}
+		});
+	}
+	
+	/**
+	 * Generates csv file with each top 10 songs of every publication.
+	 * 
+	 * @param year
+	 */
+	private static String topSongsParPublication(String year) {
+		List<String> authors = Onglet.getAuthorList();
+		List<String[]> result = new ArrayList<String[]>();
+		for (String author : authors) {
+			List<Composition> arrayList = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put("cat", Cat.YEAR.toString());
+			criteria.put("dateB", year);
+			criteria.put("dateE", year);
+			criteria.put("publish", year);
+			criteria.put("type", RecordType.SONG.toString());
+			criteria.put("auteur", author);
+			List<Composition> yearList = SearchUtils.searchJaro(arrayList, criteria, true);
+			List<String[]> temp = new ArrayList<String[]>();
+			String[] v = initArray(author, "-1");
+			String[] w = initArray("", "-2");
+			temp.add(v);
+			temp.add(w);
+			for (int i = 0; i < yearList.size(); i++) {
+				Composition composition = yearList.get(i);
+				if (composition.getFiles().get(0).getSorted() && composition.getFiles().get(0).getClassement() <= 10) {
+					v = new String[3];
+					v[0] = composition.getArtist();
+					v[1] = composition.getTitre();
+					v[2] = String.valueOf(composition.getFiles().get(0).getClassement());
+					temp.add(v);
+				}
+			}
+			if (temp.size() > 2) {
+				List<String[]> hello = temp.stream()
+						.sorted((e1, e2) -> Integer.valueOf(e1[2]).compareTo(Integer.valueOf(e2[2])))
+						.collect(Collectors.toList());
+				result.addAll(hello);
+			}
+		}
+		for (String[] strings : result) {
+			if (StringUtils.isBlank(strings[1])) {
+				strings[2] = "";
+			}
+		}
+		String[] header = { "Artiste", "Titre", "Classement" };
+		return CsvFile.exportCsv("Top Songs Par Publication - " + year, result, header);
+	}
+
+	private static String[] initArray(String author, String value) {
+		String[] v = new String[3];
+		v[0] = author;
+		v[1] = "";
+		v[2] = value;
+		return v;
+	}
+
+	/**
+	 * Top songs or top albums.
+	 * 
+	 * @param importXML
+	 * @param type
+	 * @param fileName
+	 * @param limit
+	 * @param year
+	 */
+	private static String topRecords(List<Composition> importXML, RecordType type, String fileName, int limit,
+			String year) {
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put("cat", Cat.YEAR.toString());
+		criteria.put("dateB", year);
+		criteria.put("dateE", year);
+		criteria.put("publish", year);
+		criteria.put("type", type.toString());
+		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToVector(yearList).stream()
+				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
+		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
+		for (Vector<Object> vector : occurenceListTemp) {
+			occurenceList.add(vector);
+		}
+		SortKey sortKey = new SortKey(3, SortOrder.DESCENDING);
+		return CsvFile.writeCsvFromSearchResult(occurenceList, fileName + " - " + year, year, sortKey);
+	}
+
+	/**
+	 * Generates csv file with the most occurence of an artist, songs and albums
+	 * combine.
+	 * 
+	 * @param importXML
+	 * @param year
+	 */
+	private static String topOccurence(List<Composition> importXML, String year) {
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put("cat", Cat.YEAR.toString());
+		criteria.put("dateB", year);
+		criteria.put("dateE", year);
+		criteria.put("publish", year);
+		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToArtistVector(yearList)
+				.stream().filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
+		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
+		for (Vector<Object> vector : occurenceListTemp) {
+			occurenceList.add(vector);
+		}
+		SortKey sortKey = new SortKey(1, SortOrder.DESCENDING);
+		return CsvFile.writeCsvFromArtistPanel(occurenceList, "Top Occurence - " + year, year, sortKey);
 	}
 
 	public static void writeInFile(StringBuilder sb) {
