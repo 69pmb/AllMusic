@@ -39,8 +39,9 @@ import pmb.music.AllMusic.utils.MiscUtils;
  * - Find duplicate files: FDF 
  * - Missing XML files: MXF
  * - Top year: top
+ * - Nettoyer dossier historique: clearHistory
  * - Find suspicious compositions: FSC
- * - Nettoyer dossier historique
+ * - Générer des statistiques: stats
  * @author PBR
  */
 public class BatchPanel extends JPanel {
@@ -122,7 +123,7 @@ public class BatchPanel extends JPanel {
 		JPanel fdf = createBoxLayoutPanel();
 		
 		// Label
-		JLabel fdfLabel = new JLabel("Recherche les compositions en double: ");
+		JLabel fdfLabel = new JLabel("Recherche les fichiers en double: ");
 		addComponent(fdf, fdfLabel, Component.LEFT_ALIGNMENT, 700);
 
 		// Bouton d'action
