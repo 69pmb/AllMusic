@@ -8,9 +8,7 @@ import java.io.OutputStreamWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
@@ -165,13 +163,13 @@ public class BatchUtils {
 
 		// Recupère tous les nom des fichiers txt
 		List<File> music = new ArrayList<>();
-		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), music, ".txt", true);
+		FichierUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), music, Constant.TXT_EXTENSION, true);
 		List<String> collectMusic = music.stream().map(File::getName)
-				.map(s -> StringUtils.substringBeforeLast(s, ".txt")).collect(Collectors.toList());
+				.map(s -> StringUtils.substringBeforeLast(s, Constant.TXT_EXTENSION)).collect(Collectors.toList());
 
 		// Recupère tous les nom des fichiers xml
 		List<File> xml = new ArrayList<>();
-		CompositionUtils.listFilesForFolder(new File(Constant.XML_PATH), xml, Constant.XML_EXTENSION, true);
+		FichierUtils.listFilesForFolder(new File(Constant.XML_PATH), xml, Constant.XML_EXTENSION, true);
 		List<String> collectXml = xml.stream().map(File::getName)
 				.map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
 
@@ -223,7 +221,7 @@ public class BatchUtils {
 		// key nom du fichier sans date
 		// value liste des dates du fichier
 		List<File> files = new ArrayList<>();
-		CompositionUtils.listFilesForFolder(new File(Constant.HISTORY_PATH), files, Constant.XML_EXTENSION, false);
+		FichierUtils.listFilesForFolder(new File(Constant.HISTORY_PATH), files, Constant.XML_EXTENSION, false);
 		Map<String, List<Date>> list = new HashMap<String, List<Date>>();
 		for (File file : files) {
 			String nomFichier = StringUtils.substringBefore(file.getName(), Constant.SEPARATOR_DATE_HISTORY);
@@ -546,12 +544,6 @@ public class BatchUtils {
 	}
 	
 	private static void addLine(StringBuilder sb, String text) {
-		sb.append(getCurrentTime()).append(": ").append(text).append(Constant.NEW_LINE);
-	}
-	
-	public static String getCurrentTime() {
-		DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-		Date date = new Date();
-		return dateFormat.format(date);
+		sb.append(MiscUtils.getCurrentTime()).append(": ").append(text).append(Constant.NEW_LINE);
 	}
 }

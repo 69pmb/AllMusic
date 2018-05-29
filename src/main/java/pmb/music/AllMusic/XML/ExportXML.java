@@ -8,9 +8,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
@@ -24,6 +21,7 @@ import org.dom4j.io.XMLWriter;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 
 /**
  * Classe pour exporter des fichiers au format XML.
@@ -104,7 +102,7 @@ public class ExportXML {
 		
 		// Historisation du fichier précédent dans le dossier history
 		File source = new File(Constant.XML_PATH + fullFileName);
-		File destination = new File(Constant.HISTORY_PATH + fileName + Constant.SEPARATOR_DATE_HISTORY + dateNow() + Constant.XML_EXTENSION);
+		File destination = new File(Constant.HISTORY_PATH + fileName + Constant.SEPARATOR_DATE_HISTORY + MiscUtils.dateNow() + Constant.XML_EXTENSION);
 		source.renameTo(destination);
 
 		// Sauvegarde du document dans le fichier
@@ -116,15 +114,5 @@ public class ExportXML {
 		xmlOut.write(doc);
 		xmlOut.close();
 		LOG.debug("End saveFile");
-	}
-
-	/**
-	 * Retourne la date à l'instant de l'appel.
-	 * @return la date au format dd-MM-yyyy HH-mm
-	 */
-	private static String dateNow() {
-		Calendar greg = new GregorianCalendar();
-		Date date = greg.getTime();
-		return new Constant().getSdfHistory().format(date);
 	}
 }

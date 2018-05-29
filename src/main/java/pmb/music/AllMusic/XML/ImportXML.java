@@ -25,6 +25,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 
 /**
  * Classe pour manipuler les fichiers XML.
@@ -84,7 +85,7 @@ public final class ImportXML {
 		File dir = new File(dirName);
 		List<File> files = new ArrayList<>();
 		// On récupère tous les fichiers xml du dossier XML
-		CompositionUtils.listFilesForFolder(dir, files, Constant.XML_EXTENSION, false);
+		FichierUtils.listFilesForFolder(dir, files, Constant.XML_EXTENSION, false);
 		List<Composition> compoFusionSong = new ArrayList<>(); // Contiendra toutes les compositions de chanson
 		List<Composition> compoFusionAlbum = new ArrayList<>(); // Contiendra toutes les compositions d'album
 		for (File fileXML : files) {
