@@ -30,6 +30,7 @@ import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.utils.BatchUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MiscUtils;
 
 /**
  * Onglet pour lancer des traitements.
@@ -102,11 +103,11 @@ public class BatchPanel extends JPanel {
 		JButton fdcBtn = new JButton("Go");
 		fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
 		fdcBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start findDuplicateComposition: " + BatchUtils.getCurrentTime());
+			displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				BatchUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
 						fdcUnmergeable.isSelected());
-				displayText("End findDuplicateComposition: " + BatchUtils.getCurrentTime());
+				displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		addComponent(fdc, fdcBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -128,10 +129,10 @@ public class BatchPanel extends JPanel {
 		JButton fdfBtn = new JButton("Go");
 		fdfBtn.setToolTipText("Cherche les fichiers en double.");
 		fdfBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start findDuplicateFiles: " + BatchUtils.getCurrentTime());
+			displayText("Start findDuplicateFiles: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				BatchUtils.findDuplicateFiles();
-				displayText("End findDuplicateFiles: " + BatchUtils.getCurrentTime());
+				displayText("End findDuplicateFiles: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		addComponent(fdf, fdfBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -153,10 +154,10 @@ public class BatchPanel extends JPanel {
 		JButton mxfBtn = new JButton("Go");
 		mxfBtn.setToolTipText("Cherche si des fichiers txt n'ont pas d'équivalent XML.");
 		mxfBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start missingXML: " + BatchUtils.getCurrentTime());
+			displayText("Start missingXML: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				BatchUtils.missingXML();
-				displayText("End missingXML: " + BatchUtils.getCurrentTime());
+				displayText("End missingXML: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		addComponent(mxf, mxfBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -197,11 +198,11 @@ public class BatchPanel extends JPanel {
 		// Bouton d'action
 		JButton topBtn = new JButton("Go");
 		topBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start topYear: " + BatchUtils.getCurrentTime());
+			displayText("Start topYear: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()), Integer.parseInt(yearEndTop.getText()),
 						Integer.parseInt(albumLimit.getText()), Integer.parseInt(songLimit.getText()));
-				displayText("End topYear: " + BatchUtils.getCurrentTime());
+				displayText("End topYear: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		addComponent(top, topBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -220,10 +221,10 @@ public class BatchPanel extends JPanel {
 		JButton cleanHistory = new JButton("Go");
 		cleanHistory.setToolTipText("Supprime tous les fichiers du dossier d'historique sauf le plus récent.");
 		cleanHistory.addActionListener((ActionEvent arg0) -> {
-			displayText("Start cleanHistory: " + BatchUtils.getCurrentTime());
+			displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				BatchUtils.cleanHistory();
-				displayText("Start cleanHistory: " + BatchUtils.getCurrentTime());
+				displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		addComponent(clear, cleanHistory, Component.RIGHT_ALIGNMENT, 100);
@@ -242,10 +243,10 @@ public class BatchPanel extends JPanel {
 		JButton suspiciousBtn = new JButton("Go");
 		suspiciousBtn.setToolTipText("Trouve des compositions bizarres");
 		suspiciousBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start findSuspiciousComposition: " + BatchUtils.getCurrentTime());
+			displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				BatchUtils.findSuspiciousComposition();
-				displayText("Start findSuspiciousComposition: " + BatchUtils.getCurrentTime());
+				displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -264,10 +265,10 @@ public class BatchPanel extends JPanel {
 		JButton statsBtn = new JButton("Go");
 		statsBtn.setToolTipText("Génère des statistiques.");
 		statsBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start statistic: " + BatchUtils.getCurrentTime());
+			displayText("Start statistic: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				BatchUtils.stat();
-				displayText("Start statistic: " + BatchUtils.getCurrentTime());
+				displayText("Start statistic: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);

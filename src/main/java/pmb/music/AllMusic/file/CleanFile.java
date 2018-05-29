@@ -23,8 +23,8 @@ import java.util.Set;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 
 /**
  * Classe pour nettoyer des fichiers.
@@ -115,7 +115,7 @@ public class CleanFile {
 		} else {
 			files = new ArrayList<>();
 			String extention = StringUtils.substringAfterLast(folder.getName(), Constant.DOT);
-			CompositionUtils.listFilesForFolder(folder.getParentFile(), files, extention, false);
+			FichierUtils.listFilesForFolder(folder.getParentFile(), files, extention, false);
 		}
 		
 		for (File file : files) {
@@ -135,7 +135,7 @@ public class CleanFile {
 								modify = true;
 							}
 						}
-						if (StringUtils.endsWithIgnoreCase(name, ".txt")) {
+						if (StringUtils.endsWithIgnoreCase(name, Constant.TXT_EXTENSION)) {
 							String replaceAll = Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
 							if (!StringUtils.endsWithIgnoreCase(line, replaceAll)) {
 								modify = true;

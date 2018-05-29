@@ -1,6 +1,5 @@
 package pmb.music.AllMusic.utils;
 
-import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -28,27 +27,6 @@ public class CompositionUtils {
 	private static final Logger LOG = Logger.getLogger(CompositionUtils.class);
 
 	private CompositionUtils() {
-	}
-
-	/**
-	 * Récupère la liste des fichiers d'un dossier
-	 * @param folder le dossier où chercher
-	 * @param files la liste qui contiendra les résultats
-	 * @param extension l'extension des fichiers à chercher
-	 * @param recursive si la recherche doit etre récursive ou non
-	 */
-	public static void listFilesForFolder(final File folder, List<File> files, String extension, boolean recursive) {
-		if (!folder.isDirectory()) {
-			files.add(folder);
-			return;
-		}
-		for (final File fileEntry : folder.listFiles()) {
-			if (recursive && fileEntry.isDirectory()) {
-				listFilesForFolder(fileEntry, files, extension, recursive);
-			} else if (StringUtils.endsWith(fileEntry.getName(), extension)) {
-				files.add(fileEntry);
-			}
-		}
 	}
 
 	/**

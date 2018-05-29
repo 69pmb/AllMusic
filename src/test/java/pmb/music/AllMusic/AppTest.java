@@ -31,6 +31,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 
 /**
@@ -49,7 +50,7 @@ public class AppTest {
 	 */
 	public static void randomLineTest() {
 		List<File> files = new ArrayList<>();
-		CompositionUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), files, ".txt", true);
+		FichierUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), files, Constant.TXT_EXTENSION, true);
 		for (File file : files) {
 			LOG.error(file.getName());
 			Fichier fichier = ImportFile.convertOneFile(file);
