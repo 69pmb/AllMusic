@@ -31,13 +31,14 @@ public class Constant {
 	/**
 	 * Chemin abs du dossier d'historique.
 	 */
-	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history") + Constant.JAVA_SLASH;
-	
+	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history")
+			+ Constant.JAVA_SLASH;
+
 	/**
 	 * Chemin abs du fichier de log.
 	 */
 	public static final String FILE_LOG_PATH = Constant.USER_DIR + "\\error.log";
-	
+
 	/**
 	 * Chemin abs du fichier de résultat des batchs.
 	 */
@@ -46,24 +47,26 @@ public class Constant {
 	/**
 	 * Chemin abs du dossier contenant tous les fichiers xml importés.
 	 */
-	public static final String XML_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml") + Constant.JAVA_SLASH;
+	public static final String XML_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml")
+			+ Constant.JAVA_SLASH;
 
 	/**
 	 * Nom du fichier final.
 	 */
 	public static final String FINAL_FILE = GetProperties.getProperty("final");
-	
+
 	/**
 	 * Chemin abs du fichier aggrégeant tous les fichiers.
 	 */
 	public static final String FINAL_FILE_PATH = XML_PATH + FINAL_FILE;
-	
+
 	public static final String NEW_LINE = "\r\n";
 
 	/**
 	 * Chemin abs du dossier contenant les fichiers txt des classements.
 	 */
-	public static final String MUSIC_ABS_DIRECTORY = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music") + Constant.JAVA_SLASH;
+	public static final String MUSIC_ABS_DIRECTORY = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music")
+			+ Constant.JAVA_SLASH;
 
 	public static final String EXCEL_PATH = GetProperties.getProperty("excel") + " ";
 
@@ -78,9 +81,9 @@ public class Constant {
 	public static final String REGULAR_DASH = "-";
 
 	public static final String DOT = ".";
-	
+
 	public static final String JAVA_SLASH = "\\";
-	
+
 	public static final String DIESE = "#";
 
 	public static final String XML_EXTENSION = ".xml";
@@ -102,8 +105,10 @@ public class Constant {
 	public static final String ONGLET_ARTIST = "Artiste";
 
 	public static final String ONGLET_SEARCH = "Rechercher";
-	
-	public static final String ONGLET_BATCH= "Batchs";
+
+	public static final String ONGLET_FICHIER = "Fichiers";
+
+	public static final String ONGLET_BATCH = "Batchs";
 
 	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
 
@@ -152,7 +157,7 @@ public class Constant {
 	public static final Pattern PATTERN_SIZE = Pattern.compile(SIZE);
 
 	public static final Pattern PATTERN_PUNCTUATION = Pattern.compile("\\p{Punct}|\\s");
-	
+
 	public static final Pattern PATTERN_PARENTHESES = Pattern.compile("\\(.*\\)|\\[.*\\]");
 
 	public static final BigDecimal SCORE_LIMIT_TITLE_FUSION = BigDecimal.valueOf(0.94D);

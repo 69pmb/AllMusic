@@ -227,7 +227,7 @@ public class SearchUtils {
 		return result;
 	}
 
-	private static boolean evaluateFichierStrictly(final String publish, final String fileName, final String auteur, final String cat, final String dateB,
+	public static boolean evaluateFichierStrictly(final String publish, final String fileName, final String auteur, final String cat, final String dateB,
 			final String dateE, Object f) {
 		Fichier fi = (Fichier) f;
 		boolean result = true;

@@ -14,6 +14,15 @@ import javax.swing.table.DefaultTableModel;
 public class FichierModel extends DefaultTableModel {
 
     private static final long serialVersionUID = 1L;
+
+    /**
+     * Constructeur.
+     * @param data {@code Object[][]} les données
+     * @param title {@code String[]} les entetes du tableau
+     */
+    public FichierModel(Object[][] data, String[] title) {
+        super(data, title);
+    }
     
     /**
      * Constructeur.
