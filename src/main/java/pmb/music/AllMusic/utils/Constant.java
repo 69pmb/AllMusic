@@ -88,6 +88,8 @@ public class Constant {
 
 	public static final String CSV_EXTENSION = ".csv";
 
+	public static final String TXT_EXTENSION = ".txt";
+
 	private static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
 
 	public static final String DEFAULT_TITLE = "AllMusic";
