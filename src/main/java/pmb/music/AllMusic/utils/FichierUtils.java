@@ -48,17 +48,20 @@ public class FichierUtils {
 		for (int i = 0; i < fList.size(); i++) {
 			Fichier f = fList.get(i);
 			Vector<Object> v = new Vector<>();
-			List<Composition> compo = ImportXML.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
-			Composition c = null;
-			try {
-				c = CompositionUtils.findByRank(compo, f.getClassement(), compParente);
-			} catch (MyException e) {
-				LOG.error("Error when search in convertListForJTable", e);
-			}
-			if(c!=null) {
-				v.addElement(c.getArtist() + " - " + c.getTitre());
-			} else {
-				v.addElement("");
+			if (compParente != null) {
+				List<Composition> compo = ImportXML
+						.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
+				Composition c = null;
+				try {
+					c = CompositionUtils.findByRank(compo, f.getClassement(), compParente);
+				} catch (MyException e) {
+					LOG.error("Error when search in convertListForJTable", e);
+				}
+				if (c != null) {
+					v.addElement(c.getArtist() + " - " + c.getTitre());
+				} else {
+					v.addElement("");
+				}
 			}
 			v.addElement(f.getAuthor());
 			v.addElement(f.getFileName());
