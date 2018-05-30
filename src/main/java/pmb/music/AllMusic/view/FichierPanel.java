@@ -3,6 +3,7 @@ package pmb.music.AllMusic.view;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
@@ -63,23 +64,28 @@ public class FichierPanel extends AbstractPanel {
 	private JCheckBox sorted;
 	private JButton search;
 	private JButton reset;
-	private boolean showFichierTable = true;
-	private boolean showCompoTable = true;
+	private JLabel resultLabel;
+	
 	private JPanel fichierPanel;
-	private JPanel compoPanel;
-
 	private JTable tableFiles;
-	private JTable tableCompo;
-	private List<Fichier> fichiers;
 	private FichierModel fichieModel;
-	private CompoModel compoModel;
+	private List<Fichier> fichiers;
 	private JButton hideFileList;
+	private boolean showFichierTable = true;
+	
+	private JPanel compoPanel;
+	private JTable tableCompo;
+	private CompoModel compoModel;
+	private List<Composition> compositionList;
 	private JButton hideCompoList;
+	private boolean showCompoTable = true;
+	
 	private Dimension parentSize;
+
 
 	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
 			"Dates", "Date de création", "Taille", "Classement", "Classé" };
-	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement" };
+	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "" };
 
 	public FichierPanel() {
 		super();
@@ -89,20 +95,20 @@ public class FichierPanel extends AbstractPanel {
 		LOG.debug("End FichierPanel");
 	}
 	
-	public void initPanel(List<String> authors) {
+	public void initPanel(ArtistPanel artistPanel, List<String> authors) {
 
 		parentSize = this.getParent().getPreferredSize();
-		initSearchBtn(authors);
+		initSearchBtn(artistPanel, authors);
 		initFichierTable();
-		initCompoTable();
+		initCompoTable(artistPanel);
 		
 	}
 
-	private void initSearchBtn(List<String> authors) {
+	private void initSearchBtn(ArtistPanel artistPanel, List<String> authors) {
 		JPanel header = new JPanel();
 		// Auteur
 		JPanel auteurPanel = new JPanel();
-		auteurPanel.setPreferredSize(new Dimension(200, 60));
+		auteurPanel.setPreferredSize(new Dimension(150, 60));
 		JLabel auteurLabel = new JLabel("Auteur : ");
 		auteur = new JComboBox<>();
 		auteur.addItem("");
@@ -170,7 +176,7 @@ public class FichierPanel extends AbstractPanel {
 		// SEARCH
 		search = new JButton("Chercher");
 		search.setBackground(Color.white);
-		search.setPreferredSize(new Dimension(150, 60));
+		search.setPreferredSize(new Dimension(120, 60));
 		search.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -184,7 +190,7 @@ public class FichierPanel extends AbstractPanel {
 		// RESET
 		reset = new JButton("Réinitialiser");
 		reset.setBackground(Color.white);
-		reset.setPreferredSize(new Dimension(150, 60));
+		reset.setPreferredSize(new Dimension(120, 60));
 		reset.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -198,7 +204,7 @@ public class FichierPanel extends AbstractPanel {
 		// hideFileList
 		hideFileList = new JButton("Cacher la liste des fichiers");
 		hideFileList.setBackground(Color.white);
-		hideFileList.setPreferredSize(new Dimension(200, 60));
+		hideFileList.setPreferredSize(new Dimension(180, 60));
 		hideFileList.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -239,6 +245,24 @@ public class FichierPanel extends AbstractPanel {
 			}
 		});
 		header.add(hideCompoList);
+		// Delete Btn
+		JButton delete = new JButton("Supprimer les compositions sélectionnées");
+		delete.setBackground(Color.white);
+		delete.setPreferredSize(new Dimension(250, 60));
+		delete.addActionListener((ActionEvent e) -> {
+			deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel);
+			updateCompoTable(compositionList);
+		});
+		header.add(delete);
+		// Label pour afficher les resultats
+		JPanel resultPanel = new JPanel();
+		resultPanel.setPreferredSize(new Dimension(400, 40));
+		resultLabel = new JLabel("");
+		resultLabel.setForeground(new Color(8, 187, 81));
+		Font labelFont2 = resultLabel.getFont();
+		resultLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 20));
+		resultPanel.add(resultLabel);
+		header.add(resultPanel);
 
 		setSize(header, (int) parentSize.getWidth(), Math.floorDiv(10 * (int) parentSize.getHeight(), 100));
 		this.add(header);
@@ -261,7 +285,7 @@ public class FichierPanel extends AbstractPanel {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				mouseAction(e);
+				mouseActionForFileTable(e);
 			}
 		});
 
@@ -269,10 +293,10 @@ public class FichierPanel extends AbstractPanel {
 		this.add(fichierPanel);
 		setTableSize(fichierPanel, MIN_HEIGHT_TABLE);
 	}
-	
-	private void initCompoTable() {
+
+	private void initCompoTable(ArtistPanel artistPanel) {
 		compoPanel = new JPanel(new BorderLayout());
-		
+
 		tableCompo = new JTable();
 		tableCompo.setAutoCreateRowSorter(true);
 		tableCompo.setRowHeight(30);
@@ -280,14 +304,14 @@ public class FichierPanel extends AbstractPanel {
 		tableCompo.setBackground(UIManager.getColor("Label.background"));
 		tableCompo.setFont(UIManager.getFont("Label.font"));
 		tableCompo.setBorder(UIManager.getBorder("Label.border"));
-		compoModel = new CompoModel(new Object[0][5], headerCompo);
+		compoModel = new CompoModel(new Object[0][6], headerCompo);
 		tableCompo.setModel(compoModel);
 		tableCompo.setRowSorter(new TableRowSorter<TableModel>(compoModel));
 		tableCompo.addMouseListener(new MouseAdapter() {
-			
+
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				mouseAction(e);
+				mouseActionForCompoTable(e);
 			}
 		});
 
@@ -297,15 +321,16 @@ public class FichierPanel extends AbstractPanel {
 	}
 
 	@SuppressWarnings("unchecked")
-	private void mouseAction(MouseEvent e) {
+	private void mouseActionForFileTable(MouseEvent e) {
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start result mouse");
+			// Double click avec le bouton gauche
 			// Ouvre une popup pour afficher les compositions du fichier sélectionné
 			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-			List<Composition> compo = ImportXML.importXML(Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION);
-			updateCompoTable(compo);
+			compositionList = ImportXML.importXML(Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION);
+			updateCompoTable(compositionList);
 			LOG.debug("End result mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
@@ -327,9 +352,14 @@ public class FichierPanel extends AbstractPanel {
 			LOG.debug("End right mouse");
 		}
 	}
+	
+	private void mouseActionForCompoTable(MouseEvent e) {
+		
+	}
 
 	private void searchAction() {
 		LOG.debug("Start searchAction");
+		resultLabel.setText("");
 		fichiers = new ArrayList<Fichier>(
 				ImportXML.importXML(Constant.FINAL_FILE_PATH).stream().map(Composition::getFiles).flatMap(List::stream)
 						.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
@@ -338,8 +368,13 @@ public class FichierPanel extends AbstractPanel {
 					(Object f) -> SearchUtils.evaluateFichierStrictly(publi.getText(), name.getText(),
 							auteur.getSelectedItem().toString(), cat.getSelectedItem().toString(), rangeB.getText(),
 							rangeE.getText(), f));
+			if (sorted.isSelected()) {
+				fichiers = fichiers.stream().filter(f -> Boolean.TRUE.equals(f.getSorted()))
+						.collect(Collectors.toList());
+			}
 			updateFileTable();
 		}
+		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");
 		LOG.debug("End searchAction");
 	}
 
@@ -348,19 +383,23 @@ public class FichierPanel extends AbstractPanel {
 		fichieModel.setRowCount(0);
 		fichieModel.setDataVector(FichierUtils.convertListForJTable(fichiers, null),
 				new Vector<>(Arrays.asList(headerFiles)));
-		colRenderer(tableFiles);
+		colRenderer(tableFiles, true);
 		fichieModel.fireTableDataChanged();
 		tableFiles.getRowSorter().toggleSortOrder(1);
 		tableFiles.repaint();
 		LOG.debug("Start updateFileTable");
 	}
 	
+	/**
+	 * Met à jour le tableau des compositions.
+	 * @param compo la liste des compositions à afficher
+	 */
 	private void updateCompoTable(List<Composition> compo) {
 		LOG.debug("Start updateCompoTable");
 		compoModel.setRowCount(0);
-		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, false),
+		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true),
 				new Vector<>(Arrays.asList(headerCompo)));
-		colRenderer(tableCompo);
+		colRenderer(tableCompo, false);
 		compoModel.fireTableDataChanged();
 		tableCompo.getRowSorter().toggleSortOrder(3);
 		tableCompo.repaint();
@@ -375,6 +414,7 @@ public class FichierPanel extends AbstractPanel {
 		rangeB.setText("");
 		rangeE.setText("");
 		cat.setSelectedItem("");
+		sorted.setSelected(false);
 		LOG.debug("End resetAction");
 	}
 

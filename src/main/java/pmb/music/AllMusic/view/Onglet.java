@@ -61,7 +61,7 @@ public class Onglet extends JPanel {
         onglets.addTab(Constant.ONGLET_BATCH, batch);
         onglets.setMnemonicAt(4, KeyEvent.VK_5);
         
-        fichier.initPanel(authorList);
+        fichier.initPanel(artist, authorList);
 
         onglets.setOpaque(true);
         pannel.add(onglets);

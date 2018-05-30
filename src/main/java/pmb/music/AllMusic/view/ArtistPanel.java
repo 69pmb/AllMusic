@@ -177,7 +177,7 @@ public class ArtistPanel extends AbstractPanel {
 		table.setRowSorter(new TableRowSorter<TableModel>(model));
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
-		colRenderer(table);
+		colRenderer(table, false);
 
 		updateArtistPanel();
 
@@ -279,7 +279,7 @@ public class ArtistPanel extends AbstractPanel {
 	}
 
 	private void updateTable() {
-		colRenderer(table);
+		colRenderer(table, false);
 		model.fireTableDataChanged();
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
