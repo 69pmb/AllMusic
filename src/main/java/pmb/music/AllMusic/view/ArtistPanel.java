@@ -35,8 +35,6 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
@@ -57,7 +55,7 @@ import pmb.music.AllMusic.utils.SearchUtils;
  * L'onglet Artiste, classement des artistes les plus cités.
  * 
  */
-public class ArtistPanel extends JPanel {
+public class ArtistPanel extends AbstractPanel {
 
 	private static final long serialVersionUID = 2593372709628283573L;
 
@@ -179,7 +177,7 @@ public class ArtistPanel extends JPanel {
 		table.setRowSorter(new TableRowSorter<TableModel>(model));
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
-		colRenderer();
+		colRenderer(table);
 
 		updateArtistPanel();
 
@@ -281,35 +279,12 @@ public class ArtistPanel extends JPanel {
 	}
 
 	private void updateTable() {
-		colRenderer();
+		colRenderer(table);
 		model.fireTableDataChanged();
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
 		table.repaint();
 		selectedRow = -1;
-	}
-
-	private void colRenderer() {
-		TableColumnModel modelecolonne = table.getColumnModel();
-		int total = modelecolonne.getColumnCount();
-		for (int i = 0; i < total; i++) {
-			int taille = 0;
-			int total2 = table.getRowCount();
-			for (int j = 0; j < total2; j++) {
-				int taille2 = table.getValueAt(j, i).toString().length() * 7; // determination
-				// arbitraire
-				if (taille2 > taille) {
-					taille = taille2;
-				}
-			}
-			modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
-		}
-
-		DefaultTableCellRenderer renderer = new EvenOddRenderer();
-		for (int i = 0; i < table.getColumnCount(); i++) {
-			renderer.setHorizontalAlignment(JLabel.CENTER);
-			table.getColumnModel().getColumn(i).setCellRenderer(renderer);
-		}
 	}
 
 	@SuppressWarnings("unchecked")
