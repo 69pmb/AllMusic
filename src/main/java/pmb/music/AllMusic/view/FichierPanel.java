@@ -484,6 +484,7 @@ public class FichierPanel extends AbstractPanel {
 		fichieModel.fireTableDataChanged();
 		tableFiles.getRowSorter().toggleSortOrder(1);
 		tableFiles.repaint();
+		updateCompoTable(new ArrayList<>());
 		LOG.debug("Start updateFileTable");
 	}
 	
