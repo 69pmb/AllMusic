@@ -3,7 +3,6 @@ package pmb.music.AllMusic.view;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
-import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -12,11 +11,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import javax.swing.Box;
-import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -44,7 +40,7 @@ import pmb.music.AllMusic.utils.MiscUtils;
  * - Générer des statistiques: stats
  * @author PBR
  */
-public class BatchPanel extends JPanel {
+public class BatchPanel extends AbstractPanel {
 	private static final long serialVersionUID = -7659089306956006760L;
 	private static final Logger LOG = Logger.getLogger(BatchPanel.class);
 	
@@ -178,22 +174,22 @@ public class BatchPanel extends JPanel {
 
 		// Year Begin
 		JTextField yearBeginTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
-		setSize(yearBeginTop, 100);
+		setSize(yearBeginTop, 100, 60);
 		addComponent(top, yearBeginTop, Component.LEFT_ALIGNMENT, 80);
 
 		// Year End
 		JTextField yearEndTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
-		setSize(yearEndTop, 100);
+		setSize(yearEndTop, 100, 60);
 		addComponent(top, yearEndTop, Component.LEFT_ALIGNMENT, 80);
 
 		// Album limit
 		JTextField albumLimit = new JTextField("10");
-		setSize(albumLimit, 100);
+		setSize(albumLimit, 100, 60);
 		addComponent(top, albumLimit, Component.LEFT_ALIGNMENT, 80);
 
 		// Song limit
 		JTextField songLimit = new JTextField("4");
-		setSize(songLimit, 100);
+		setSize(songLimit, 100, 60);
 		addComponent(top, songLimit, Component.LEFT_ALIGNMENT, 80);
 
 		// Bouton d'action
@@ -352,35 +348,5 @@ public class BatchPanel extends JPanel {
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
 		LOG.debug("End displayText");
-	}
-	
-	/**
-	 * Crée un {@link JPanel} avec un layout de type {@link BoxLayout} aligné sur l'abscisse.
-	 * @return le panel crée
-	 */
-	private JPanel createBoxLayoutPanel() {
-		JPanel panel = new JPanel();
-		panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
-		panel.add(Box.createRigidArea(new Dimension(100,0)));		
-		return panel;
-	}
-
-	private void setSize(JComponent comp, int width) {
-		comp.setMinimumSize(new Dimension(width, 20));
-		comp.setPreferredSize(new Dimension(width, 20));
-		comp.setMaximumSize(comp.getPreferredSize());
-	}
-
-	/**
-	 * Ajoute un composant au panel.
-	 * @param panel
-	 * @param component
-	 * @param alignement
-	 */
-	private void addComponent(JPanel panel, JComponent component, float alignement, int rigidSize) {
-		component.setAlignmentX(alignement);
-		component.setAlignmentY(Component.CENTER_ALIGNMENT);
-		panel.add(component);
-		panel.add(Box.createRigidArea(new Dimension(rigidSize, 0)));
 	}
 }
