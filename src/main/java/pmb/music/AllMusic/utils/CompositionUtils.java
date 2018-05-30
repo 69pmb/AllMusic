@@ -271,11 +271,20 @@ public class CompositionUtils {
 		}
 	}
 
+	/**
+	 * Cherche une composition dans une liste par son classement.
+	 * @param compoList la liste de composition
+	 * @param rank le classement de la composition recherchée
+	 * @param compoParente la composition à chercher
+	 * @return la composition trouvée
+	 * @throws MyException
+	 */
 	public static Composition findByRank(List<Composition> compoList, int rank, Composition compoParente)
 			throws MyException {
 		LOG.debug("Start findByRank");
-		List<Composition> filtered = compoList.stream().filter(f->f.getFiles().get(0).getClassement()==rank).collect(Collectors.toList());
-//		LOG.debug("End findByRank, no result");
+		List<Composition> filtered = compoList.stream().filter(f -> f.getFiles().get(0).getClassement() == rank)
+				.collect(Collectors.toList());
+		// LOG.debug("End findByRank, no result");
 		return compoParente != null && !filtered.isEmpty() ? compoExist(filtered, compoParente) : filtered.get(0);
 	}
 
