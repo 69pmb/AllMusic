@@ -499,7 +499,7 @@ public class BatchUtils {
 		criteria.put("publish", year);
 		criteria.put("type", type.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
-		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToVector(yearList).stream()
+		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToVector(yearList, true, false).stream()
 				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {

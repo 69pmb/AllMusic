@@ -283,6 +283,7 @@ public class SearchPanel extends JPanel {
 	 * @param artist2 le panel artist
 	 * @param header le header de l'onglet
 	 */
+	@SuppressWarnings("unchecked")
 	private void insertTopPanel(final ArtistPanel artist2, JPanel header) {
 		JPanel top = new JPanel();
 		AbstractAction searchAction = new AbstractAction() {
@@ -429,7 +430,7 @@ public class SearchPanel extends JPanel {
 	private void updateTable() {
 		LOG.debug("Start updateTable");
 		model.setRowCount(0);
-		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult), new Vector<>(Arrays.asList(title)));
+		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true), new Vector<>(Arrays.asList(title)));
 		colRenderer();
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
