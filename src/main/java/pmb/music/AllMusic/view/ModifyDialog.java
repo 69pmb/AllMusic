@@ -57,6 +57,7 @@ public class ModifyDialog extends JDialog {
 		LOG.debug("End DialogFileTable");
 	}
 
+	@SuppressWarnings("unchecked")
 	private void initComposant() {
 		LOG.debug("Start initComposant");
 		// Artiste
@@ -82,12 +83,12 @@ public class ModifyDialog extends JDialog {
 		typePanel.setPreferredSize(new Dimension(180, 60));
 		JLabel typeLabel = new JLabel("Type : ");
 		type = new JComboBox<>();
-		type.addItem(null);
 		RecordType[] valuesType = RecordType.values();
 		for (int i = 0; i < valuesType.length; i++) {
 			type.addItem(valuesType[i]);
 		}
 		type.setPreferredSize(new Dimension(150, 25));
+		type.setSelectedItem(RecordType.valueOf((String) compo.get(2)));
 		typePanel.add(typeLabel);
 		typePanel.add(type);
 		
