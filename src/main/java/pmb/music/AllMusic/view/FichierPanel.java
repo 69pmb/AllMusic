@@ -37,13 +37,16 @@ import javax.swing.table.TableRowSorter;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
+import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 
 /**
@@ -314,7 +317,7 @@ public class FichierPanel extends AbstractPanel {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				mouseActionForCompoTable(e);
+				mouseActionForCompoTable(e, artistPanel);
 			}
 		});
 
@@ -357,28 +360,100 @@ public class FichierPanel extends AbstractPanel {
 	}
 
 	@SuppressWarnings("unchecked")
-	private void mouseActionForCompoTable(MouseEvent e) {
+	private void mouseActionForCompoTable(MouseEvent e, ArtistPanel artistPanel) {
+		JTable target = (JTable) e.getSource();
+		int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+		if (rowAtPoint > -1) {
+			target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+		}
+		Vector<String> selectedRow = (Vector<String>) ((CompoModel) target.getModel()).getDataVector()
+				.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse");
+			modifyCompositionAction(artistPanel, selectedRow);
 			LOG.debug("End left mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
-			JTable target = (JTable) e.getSource();
-			int rowAtPoint = target
-					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
-			if (rowAtPoint > -1) {
-				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
-			}
-			Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(0) + " " + v.get(1));
+			StringSelection selection = new StringSelection(selectedRow.get(0) + " " + selectedRow.get(1));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
 		}
 	}
 
+	@SuppressWarnings("unchecked")
+	private void modifyCompositionAction(final ArtistPanel artistPanel, Object selected) {
+		LOG.debug("Start modif");
+		resultLabel.setText("");
+		artistPanel.interruptUpdateArtist();
+		String label = "Élément modifié";
+		Composition compoToModifInFinal;
+		Composition compoToModifInTable;
+		// On récupère la ligne selectionnée
+		Vector<String> v = (Vector<String>) selected;
+		List<Composition> importXML;
+		importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		try {
+			// On récupère la composition à modifier
+			compoToModifInFinal = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2), true);
+			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(0), v.get(1), v.get(2), true);
+		} catch (MyException e1) {
+			String log = "Erreur dans modifAction, impossible de trouver la compo à modifier";
+			LOG.error(log, e1);
+			resultLabel.setText(log + e1);
+			return;
+		}
+		int indexOfXml = importXML.indexOf(compoToModifInFinal);
+		int indexOfResult = compositionList.indexOf(compoToModifInTable);
+		// Lancement de la popup de modification
+		ModifyDialog md = new ModifyDialog(null, "Modifier une composition", true, new Dimension(800, 150), v);
+		md.showDialogFileTable();
+		if (md.isSendData()) {
+			// On recupère la compo si elle a bien été modifiée
+			LOG.debug("Compo modifiée");
+			v = md.getCompo();
+		} else {
+			LOG.debug("Aucune modification");
+			return;
+		}
+		// On modifier les fichiers xml en conséquence
+		try {
+			CompositionUtils.modifyCompositionsInFiles(compoToModifInFinal, v.get(0), v.get(1), v.get(2));
+		} catch (MyException e1) {
+			String log = "Erreur lors de la modification d'une composition";
+			LOG.error(log, e1);
+			resultLabel.setText(log + e1);
+			return;
+		}
+		compoToModifInFinal.setArtist(v.get(0));
+		compoToModifInFinal.setTitre(v.get(1));
+		compoToModifInFinal.setRecordType(RecordType.valueOf(v.get(2)));
+
+		importXML.remove(indexOfXml);
+		compositionList.remove(indexOfResult);
+		Composition compoExist = CompositionUtils.compoExist(importXML, compoToModifInFinal);
+		if (compoExist == null) {
+			LOG.debug("Pas de regroupement");
+			importXML.add(compoToModifInFinal);
+		} else {
+			LOG.debug("La compo existe déjà, on regroupe");
+			compoExist.getFiles().addAll(compoToModifInFinal.getFiles());
+		}
+		compositionList.add(compoToModifInFinal);
+		try {
+			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
+			artistPanel.updateArtistPanel();
+		} catch (IOException e1) {
+			String log = "Erreur lors de l'export du fichier final !!";
+			LOG.error(log, e1);
+			label = log;
+		}
+		resultLabel.setText(label);
+		updateCompoTable(compositionList);
+		LOG.debug("End modif");
+	}
+	
 	private void searchAction() {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
