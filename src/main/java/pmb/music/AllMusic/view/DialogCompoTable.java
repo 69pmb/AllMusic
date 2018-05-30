@@ -43,7 +43,7 @@ public class DialogCompoTable extends JDialog {
 
 	private List<Composition> compo = new ArrayList<>();
 
-	private static final String[] header = { "Artiste", "Titre", "Classement", "Type" };
+	private static final String[] header = { "Artiste", "Titre", "Type", "Classement" };
 
 	private JTable table;
 
@@ -84,8 +84,8 @@ public class DialogCompoTable extends JDialog {
 		table.setBackground(UIManager.getColor("Label.background"));
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));
-		table.setModel(new CompoDialogModel(CompositionUtils.convertCompoListForJTable(compo), new Vector(Arrays.asList(header))));
-		table.getRowSorter().toggleSortOrder(2);
+		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, true, false), new Vector(Arrays.asList(header))));
+		table.getRowSorter().toggleSortOrder(3);
 		table.addMouseListener(new MouseAdapter() {
 
 			@Override

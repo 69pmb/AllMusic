@@ -26,10 +26,10 @@ public class CompoDialogModel extends CompoModel {
 		super(data, title);
 	}
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@SuppressWarnings({"rawtypes" })
 	@Override
 	public Class getColumnClass(int col) {
-		if (col == 2) {
+		if (col == 3) {
 			return Integer.class;
 		} else {
 			return String.class;
