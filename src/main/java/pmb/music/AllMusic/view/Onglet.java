@@ -41,14 +41,14 @@ public class Onglet extends JPanel {
         onglets = new JTabbedPane(SwingConstants.TOP);
         final JPanel pannel = new JPanel();
         final Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-        dim.height = 35 * dim.height / 40;
-        dim.width = 98 * dim.width / 100;
+        dim.height = 92 * dim.height / 100;
         onglets.setPreferredSize(dim);
 
         ArtistPanel artist = new ArtistPanel();
         ImportPanel importFile = new ImportPanel(artist);
-		SearchPanel search = new SearchPanel(artist, getArtistList(), getTitleList(), getAuthorList());
-		FichierPanel fichier = new FichierPanel(getAuthorList());
+		List<String> authorList = getAuthorList();
+		SearchPanel search = new SearchPanel(artist, getArtistList(), getTitleList(), authorList);
+		FichierPanel fichier = new FichierPanel();
 		BatchPanel batch = new BatchPanel();
         
 		onglets.addTab(Constant.ONGLET_IMPORT, importFile);
@@ -61,6 +61,8 @@ public class Onglet extends JPanel {
         onglets.setMnemonicAt(3, KeyEvent.VK_4);
         onglets.addTab(Constant.ONGLET_BATCH, batch);
         onglets.setMnemonicAt(4, KeyEvent.VK_5);
+        
+        fichier.initPanel(authorList);
 
         onglets.setOpaque(true);
         pannel.add(onglets);
