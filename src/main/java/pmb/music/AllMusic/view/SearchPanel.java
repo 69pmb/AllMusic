@@ -11,8 +11,6 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
@@ -35,8 +33,6 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
@@ -62,7 +58,7 @@ import pmb.music.AllMusic.utils.SearchUtils;
  * Gère le panel search.
  * @author pmbroca
  */
-public class SearchPanel extends JPanel {
+public class SearchPanel extends AbstractPanel {
 
 	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
 
@@ -90,8 +86,6 @@ public class SearchPanel extends JPanel {
 	private List<Composition> compoResult = new ArrayList<>();
 
 	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "" };
-
-	private int selectedRow = -1;
 
 	private final CompoModel model;
 
@@ -247,24 +241,6 @@ public class SearchPanel extends JPanel {
 		model = new CompoModel(new Object[0][5], title);
 		result.setModel(model);
 		result.setRowSorter(new TableRowSorter<TableModel>(model));
-		result.addKeyListener(new KeyListener() {
-
-			@Override
-			public void keyTyped(KeyEvent e) {
-				// Nothing to do
-			}
-
-			@Override
-			public void keyReleased(KeyEvent e) {
-				selectedRow = shortcutKeyAction(e);
-			}
-
-			@Override
-			public void keyPressed(KeyEvent e) {
-				// Nothing to do
-			}
-
-		});
 		result.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -336,7 +312,10 @@ public class SearchPanel extends JPanel {
 		JButton delete = new JButton("Supprimer les compositions sélectionnées");
 		delete.setBackground(Color.white);
 		delete.setPreferredSize(new Dimension(300, 60));
-		delete.addActionListener((ActionEvent e) -> deleteAction(artist2));
+		delete.addActionListener((ActionEvent e) -> {
+			deleteCompositionAction(artist2, compoResult, model.getSelected(), deleteLabel);
+			updateTable();
+		});
 		top.add(delete);
 		
 		// Modif Btn
@@ -404,40 +383,16 @@ public class SearchPanel extends JPanel {
 		LOG.debug("End search");
 	}
 
-	private void colRenderer() {
-		TableColumnModel modelecolonne = result.getColumnModel();
-		int total = modelecolonne.getColumnCount();
-		for (int i = 0; i < total; i++) {
-			int taille = 0;
-			int total2 = result.getRowCount();
-			for (int j = 0; j < total2; j++) {
-				int taille2 = result.getValueAt(j, i).toString().length() * 7; // determination
-				// arbitraire
-				if (taille2 > taille) {
-					taille = taille2;
-				}
-			}
-			modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
-		}
-
-		DefaultTableCellRenderer renderer = new EvenOddRenderer();
-		for (int i = 0; i < result.getColumnCount() - 1; i++) {
-			renderer.setHorizontalAlignment(JLabel.CENTER);
-			result.getColumnModel().getColumn(i).setCellRenderer(renderer);
-		}
-	}
-
 	private void updateTable() {
 		LOG.debug("Start updateTable");
 		model.setRowCount(0);
 		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true), new Vector<>(Arrays.asList(title)));
-		colRenderer();
+		colRenderer(result, false);
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
 		result.getRowSorter().toggleSortOrder(3);
 		result.getRowSorter().toggleSortOrder(3);
 		result.repaint();
-		selectedRow = -1;
 		LOG.debug("Start updateTable");
 	}
 
@@ -455,36 +410,6 @@ public class SearchPanel extends JPanel {
 		deleteLabel.setText("");
 		countLabel.setText("");
 		LOG.debug("End cleanAction");
-	}
-
-	@SuppressWarnings("unchecked")
-	private void deleteAction(final ArtistPanel artist2) {
-		LOG.debug("Start delete");
-		artist2.interruptUpdateArtist();
-		List<Object> selected = model.getSelected();
-		deleteLabel.setText(selected.size() + " élément(s) supprimée(s)");
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-		for (Object o : selected) {
-			Vector<String> v = (Vector<String>) o;
-			try {
-				Composition toRemove = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2), true);
-				compoResult.remove(compoResult.indexOf(toRemove));
-				importXML.remove(importXML.indexOf(toRemove));
-				CompositionUtils.removeCompositionsInFiles(toRemove);
-			} catch (MyException e1) {
-				LOG.error("Erreur lors de la suppression d'une composition", e1);
-				return;
-			}
-		}
-		try {
-			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
-			artist2.updateArtistPanel();
-		} catch (IOException e1) {
-			LOG.error("Erreur lors de l'export du fichier final", e1);
-			deleteLabel.setText("Erreur lors de l'export du fichier final !!" + e1);
-		}
-		updateTable();
-		LOG.debug("End delete");
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -569,33 +494,6 @@ public class SearchPanel extends JPanel {
 		deleteLabel.setText(label);
 		updateTable();
 		LOG.debug("End modif");
-	}
-
-	@SuppressWarnings("unchecked")
-	private int shortcutKeyAction(KeyEvent e) {
-		LOG.debug("Start shortcutKeyAction");
-		JTable target = (JTable) e.getSource();
-		String keyChar = String.valueOf(e.getKeyChar());
-		TableModel modelTable = target.getModel();
-		int startRow = selectedRow;
-		if (selectedRow == modelTable.getRowCount() - 1) {
-			startRow = -1;// Go before start
-		}
-		// Check each cell to see if it starts with typed char.
-		// if so set corresponding row selected and return.
-		for (int row = startRow + 1; row < modelTable.getRowCount(); row++) {
-			String value = ((Vector<String>) ((CompoModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row))).get(0);
-			if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
-				target.getSelectionModel().clearSelection();
-				target.getColumnModel().getSelectionModel().clearSelection();
-				target.changeSelection(row, 0, true, false);
-				target.setRowSelectionInterval(row, row);
-				LOG.debug("End shortcutKeyAction");
-				return row;
-			}
-		}
-		LOG.debug("End shortcutKeyAction, no result");
-		return -1;
 	}
 
 	@SuppressWarnings("unchecked")
