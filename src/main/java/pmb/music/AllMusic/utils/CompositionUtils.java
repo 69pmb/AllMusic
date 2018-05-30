@@ -152,10 +152,12 @@ public class CompositionUtils {
 
 	/**
 	 * Convertit une liste de {@link Composition} en {@link Vector}.
-	 * @param compoList {@code List<Composition>} la liste de compo
-	 * @return {@code Vector<Vector<Object>>} la liste de vecteur
+	 * @param compoList {@code List<Composition>} la liste de composition à convertir
+	 * @param displayClassement si on affiche le classement de la composition ou son nombre de fichiers
+	 * @param addBoolean si on ajoute une colonne de boolean remplie à false
+	 * @return {@code Vector<Vector<Object>>} la liste de vecteur convertie
 	 */
-	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList) {
+	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList, boolean displayClassement, boolean addBoolean) {
 		LOG.debug("Start convertCompositionListToVector");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < compoList.size(); i++) {
@@ -164,8 +166,14 @@ public class CompositionUtils {
 			v.addElement(composition.getArtist());
 			v.addElement(composition.getTitre());
 			v.addElement(composition.getRecordType().toString());
-			v.addElement(composition.getFiles().size());
-			v.addElement(new Boolean(false));
+			if(displayClassement) {
+				v.addElement(composition.getFiles().get(0).getClassement());
+ 			} else {
+ 				v.addElement(composition.getFiles().size());
+ 			}
+			if(addBoolean) {
+				v.addElement(new Boolean(false));
+			}
 			result.addElement(v);
 		}
 		LOG.debug("End convertCompositionListToVector");
@@ -292,29 +300,6 @@ public class CompositionUtils {
 			LOG.debug("End findByArtistTitreAndType, no result");
 			return new ArrayList<>();
 		}
-	}
-	
-	/**
-	 * Convertit une liste de {@link Composition} en {@link Vector}.
-	 * 
-	 * @param cList {@code List<Composition>} la liste à convertir
-	 * @return Vector<Vector<Object>> la liste convertie
-	 */
-	@SuppressWarnings("rawtypes")
-	public static Vector convertCompoListForJTable(List<Composition> cList) {
-		LOG.debug("Start convertCompoListForJTable");
-		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
-		for (int i = 0; i < cList.size(); i++) {
-			Composition f = cList.get(i);
-			Vector<Object> v = new Vector<>();
-			v.addElement(f.getArtist());
-			v.addElement(f.getTitre());
-			v.addElement(f.getFiles().get(0).getClassement());
-			v.addElement(f.getRecordType().toString());
-			result.add(v);
-		}
-		LOG.debug("End convertCompoListForJTable");
-		return result;
 	}
 
 	/**
