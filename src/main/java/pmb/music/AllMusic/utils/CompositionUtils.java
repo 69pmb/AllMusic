@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
@@ -289,6 +290,21 @@ public class CompositionUtils {
 		return compoParente != null && !filtered.isEmpty() ? compoExist(filtered, compoParente) : filtered.get(0);
 	}
 
+	/**
+	 * Recherche dans une liste de composition la 1ère composition qui a le même fichier que celui donné.
+	 * (Même nom, même auteur et même classement par exemple)
+	 * @param compoList la liste de composition
+	 * @param fichier le fichier
+	 * @return un {@link Optional} de composition
+	 */
+	public static Optional<Composition> findByFile(List<Composition> compoList, Fichier fichier) {
+		LOG.debug("Start findByFileAndRank");
+		Optional<Composition> filtered = compoList.stream()
+				.filter(c -> c.getFiles().stream().anyMatch(f -> f.equals(fichier))).findFirst();
+		LOG.debug("End findByFileAndRank");
+		return filtered;
+	}
+	
 	/**
 	 * Cherche une {@link Composition} dans une liste donnée en fonction de
 	 * l'artiste. Recherche jaro.
