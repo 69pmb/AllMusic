@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
@@ -57,7 +58,7 @@ public class FichierPanel extends AbstractPanel {
 	private static final long serialVersionUID = 8581952935884211032L;
 
 	private static final Logger LOG = Logger.getLogger(FichierPanel.class);
-	
+
 	private static final int MIN_HEIGHT_TABLE = 42;
 	private static final int MAX_HEIGHT_TABLE = 84;
 
@@ -71,23 +72,22 @@ public class FichierPanel extends AbstractPanel {
 	private JButton search;
 	private JButton reset;
 	private JLabel resultLabel;
-	
+
 	private JPanel fichierPanel;
 	private JTable tableFiles;
 	private FichierModel fichieModel;
 	private List<Fichier> fichiers;
 	private JButton hideFileList;
 	private boolean showFichierTable = true;
-	
+
 	private JPanel compoPanel;
 	private JTable tableCompo;
 	private CompoModel compoModel;
 	private List<Composition> compositionList;
 	private JButton hideCompoList;
 	private boolean showCompoTable = true;
-	
-	private Dimension parentSize;
 
+	private Dimension parentSize;
 
 	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
 			"Dates", "Date de création", "Taille", "Classement", "Classé" };
@@ -100,14 +100,14 @@ public class FichierPanel extends AbstractPanel {
 
 		LOG.debug("End FichierPanel");
 	}
-	
+
 	public void initPanel(ArtistPanel artistPanel, List<String> authors) {
 
 		parentSize = this.getParent().getPreferredSize();
 		initSearchBtn(artistPanel, authors);
 		initFichierTable();
 		initCompoTable(artistPanel);
-		
+
 	}
 
 	private void initSearchBtn(ArtistPanel artistPanel, List<String> authors) {
@@ -234,9 +234,9 @@ public class FichierPanel extends AbstractPanel {
 		hideCompoList.setBackground(Color.white);
 		hideCompoList.setPreferredSize(new Dimension(200, 60));
 		hideCompoList.addActionListener(new AbstractAction() {
-			
+
 			private static final long serialVersionUID = 1L;
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				showCompoTable = !showCompoTable;
@@ -342,13 +342,13 @@ public class FichierPanel extends AbstractPanel {
 			LOG.debug("Start right mouse");
 			// Ouvre le fichier xml
 			JTable target = (JTable) e.getSource();
-			int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target,
-					new Point(e.getX(), e.getY()), target));
+			int rowAtPoint = target
+					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
 			if (rowAtPoint > -1) {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
-			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector().get(
-					target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			String absFile = Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION;
 			try {
 				Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absFile);
@@ -394,10 +394,18 @@ public class FichierPanel extends AbstractPanel {
 		Vector<String> v = (Vector<String>) selected;
 		List<Composition> importXML;
 		importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		Fichier currentFile = null;
 		try {
 			// On récupère la composition à modifier
-			compoToModifInFinal = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2), true);
-			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(0), v.get(1), v.get(2), true);
+			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(0), v.get(1),
+					v.get(2), true);
+			currentFile = compoToModifInTable.getFiles().get(0);
+			Optional<Composition> findByFileAndRank = CompositionUtils.findByFile(importXML, currentFile);
+			if(!findByFileAndRank.isPresent()) {
+				resultLabel.setText("Impossible de trouver la composition dans Final.xml");
+				return;
+			}
+			compoToModifInFinal = findByFileAndRank.get();
 		} catch (MyException e1) {
 			String log = "Erreur dans modifAction, impossible de trouver la compo à modifier";
 			LOG.error(log, e1);
@@ -417,30 +425,40 @@ public class FichierPanel extends AbstractPanel {
 			LOG.debug("Aucune modification");
 			return;
 		}
-		// On modifier les fichiers xml en conséquence
+		// On modifier le fichier xml en conséquence
 		try {
-			CompositionUtils.modifyCompositionsInFiles(compoToModifInFinal, v.get(0), v.get(1), v.get(2));
+			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(0), v.get(1), v.get(2));
 		} catch (MyException e1) {
 			String log = "Erreur lors de la modification d'une composition";
 			LOG.error(log, e1);
 			resultLabel.setText(log + e1);
 			return;
 		}
-		compoToModifInFinal.setArtist(v.get(0));
-		compoToModifInFinal.setTitre(v.get(1));
-		compoToModifInFinal.setRecordType(RecordType.valueOf(v.get(2)));
+		// On modifie la composition
+		compoToModifInTable.setArtist(v.get(0));
+		compoToModifInTable.setTitre(v.get(1));
+		compoToModifInTable.setRecordType(RecordType.valueOf(v.get(2)));
 
-		importXML.remove(indexOfXml);
+		// On remplace par la nouvelle composition dans le tableau
 		compositionList.remove(indexOfResult);
-		Composition compoExist = CompositionUtils.compoExist(importXML, compoToModifInFinal);
+		compositionList.add(compoToModifInTable);
+
+		// Gestion du fichier final.xml
+		if (importXML.get(indexOfXml).getFiles().size() > 1) {
+			LOG.debug("Plusieurs fichiers, suppression du fichier en cours");
+			importXML.get(indexOfXml).getFiles().remove(currentFile);
+		} else {
+			LOG.debug("Un seul fichier, suppression de la composition");
+			importXML.remove(indexOfXml);
+		}
+		Composition compoExist = CompositionUtils.compoExist(importXML, compoToModifInTable);
 		if (compoExist == null) {
 			LOG.debug("Pas de regroupement");
-			importXML.add(compoToModifInFinal);
+			importXML.add(compoToModifInTable);
 		} else {
 			LOG.debug("La compo existe déjà, on regroupe");
-			compoExist.getFiles().addAll(compoToModifInFinal.getFiles());
+			compoExist.getFiles().addAll(compoToModifInTable.getFiles());
 		}
-		compositionList.add(compoToModifInFinal);
 		try {
 			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
 			artistPanel.updateArtistPanel();
@@ -453,7 +471,7 @@ public class FichierPanel extends AbstractPanel {
 		updateCompoTable(compositionList);
 		LOG.debug("End modif");
 	}
-	
+
 	private void searchAction() {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
@@ -487,7 +505,7 @@ public class FichierPanel extends AbstractPanel {
 		updateCompoTable(new ArrayList<>());
 		LOG.debug("Start updateFileTable");
 	}
-	
+
 	/**
 	 * Met à jour le tableau des compositions.
 	 * @param compo la liste des compositions à afficher
