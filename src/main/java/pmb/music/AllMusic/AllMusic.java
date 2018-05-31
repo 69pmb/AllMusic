@@ -30,6 +30,11 @@ public class AllMusic {
 	 */
 	public static void main(String[] args) {
 		LOG.debug("Lancement de AllMusic");
+		Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+			public void uncaughtException(Thread t, Throwable e) {
+				LOG.error("An uncaught exception has been thrown: ", e);
+			};
+		});
 		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
 			LOG.debug("Fin de AllMusic");
 			FichierUtils.openFileInNotepad(FichierUtils.saveLogFileIfNotEmpty());
