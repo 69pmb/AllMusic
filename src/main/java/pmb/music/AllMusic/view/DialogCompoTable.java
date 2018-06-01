@@ -18,13 +18,10 @@ import java.util.Vector;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableColumnModel;
 
 import org.apache.log4j.Logger;
 
@@ -95,25 +92,7 @@ public class DialogCompoTable extends JDialog {
 			}
 		});
 
-		TableColumnModel modelecolonne = table.getColumnModel();
-		int total = modelecolonne.getColumnCount();
-		for (int i = 0; i < total; i++) {
-			int taille = 0;
-			int total2 = table.getRowCount();
-			for (int j = 0; j < total2; j++) {
-				int taille2 = table.getValueAt(j, i).toString().length() * 7;
-				if (taille2 > taille) {
-					taille = taille2;
-				}
-			}
-			modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
-		}
-
-		DefaultTableCellRenderer renderer = new EvenOddRenderer();
-		for (int i = 0; i < table.getColumnCount(); i++) {
-			renderer.setHorizontalAlignment(JLabel.CENTER);
-			table.getColumnModel().getColumn(i).setCellRenderer(renderer);
-		}
+		PanelUtils.colRenderer(table, true);
 
 		this.setLayout(new BorderLayout());
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
