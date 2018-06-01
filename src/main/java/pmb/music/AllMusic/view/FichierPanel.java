@@ -54,7 +54,7 @@ import pmb.music.AllMusic.utils.SearchUtils;
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
  * compositions. Created by PBR on 29 mai 2018.
  */
-public class FichierPanel extends AbstractPanel {
+public class FichierPanel extends JPanel {
 	private static final long serialVersionUID = 8581952935884211032L;
 
 	private static final Logger LOG = Logger.getLogger(FichierPanel.class);
@@ -256,7 +256,7 @@ public class FichierPanel extends AbstractPanel {
 		delete.setBackground(Color.white);
 		delete.setPreferredSize(new Dimension(250, 60));
 		delete.addActionListener((ActionEvent e) -> {
-			deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel);
+			PanelUtils.deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel);
 			updateCompoTable(compositionList);
 		});
 		header.add(delete);
@@ -270,7 +270,7 @@ public class FichierPanel extends AbstractPanel {
 		resultPanel.add(resultLabel);
 		header.add(resultPanel);
 
-		setSize(header, (int) parentSize.getWidth(), Math.floorDiv(10 * (int) parentSize.getHeight(), 100));
+		PanelUtils.setSize(header, (int) parentSize.getWidth(), Math.floorDiv(10 * (int) parentSize.getHeight(), 100));
 		this.add(header);
 	}
 
@@ -498,7 +498,7 @@ public class FichierPanel extends AbstractPanel {
 		fichieModel.setRowCount(0);
 		fichieModel.setDataVector(FichierUtils.convertListForJTable(fichiers, null),
 				new Vector<>(Arrays.asList(headerFiles)));
-		colRenderer(tableFiles, true);
+		PanelUtils.colRenderer(tableFiles, true);
 		fichieModel.fireTableDataChanged();
 		tableFiles.getRowSorter().toggleSortOrder(1);
 		tableFiles.repaint();
@@ -515,7 +515,7 @@ public class FichierPanel extends AbstractPanel {
 		compoModel.setRowCount(0);
 		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true),
 				new Vector<>(Arrays.asList(headerCompo)));
-		colRenderer(tableCompo, false);
+		PanelUtils.colRenderer(tableCompo, false);
 		compoModel.fireTableDataChanged();
 		tableCompo.getRowSorter().toggleSortOrder(3);
 		tableCompo.repaint();
@@ -535,6 +535,6 @@ public class FichierPanel extends AbstractPanel {
 	}
 
 	private void setTableSize(JPanel panel, int height) {
-		setSize(panel, (int) parentSize.getWidth(), Math.floorDiv(height * (int) parentSize.getHeight(), 100));
+		PanelUtils.setSize(panel, (int) parentSize.getWidth(), Math.floorDiv(height * (int) parentSize.getHeight(), 100));
 	}
 }
