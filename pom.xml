@@ -51,14 +51,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.jfree</groupId>
-			<artifactId>jfreechart</artifactId>
-			<version>1.0.18</version>
-		</dependency>
-		<!-- ****************************** -->
-		<!-- LOG4J -->
-		<!-- ****************************** -->
-		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
@@ -74,21 +66,6 @@
 					<groupId>xml-apis</groupId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.squirrel-sql.thirdparty-non-maven</groupId>
-			<artifactId>tinylaf</artifactId>
-			<version>1.4.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.jgoodies</groupId>
-			<artifactId>jgoodies-looks</artifactId>
-			<version>2.5.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.jtattoo</groupId>
-			<artifactId>JTattoo</artifactId>
-			<version>1.6.10</version>
 		</dependency>
 		<dependency>
 			<groupId>org.codehaus.plexus</groupId>
