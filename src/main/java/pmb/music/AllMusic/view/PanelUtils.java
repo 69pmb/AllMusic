@@ -24,10 +24,9 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 
-public abstract class AbstractPanel extends JPanel {
-	private static final long serialVersionUID = -734333930764953994L;
+public class PanelUtils {
 
-	private static final Logger LOG = Logger.getLogger(AbstractPanel.class);
+	private static final Logger LOG = Logger.getLogger(PanelUtils.class);
 
 	/**
 	 * Dimensionne les colonnes du tableau et ajoute des couleurs aux lignes.
@@ -35,21 +34,8 @@ public abstract class AbstractPanel extends JPanel {
 	 * @param table le tableau
 	 * @param lastColumn si la dernière colonne doit être colorisée ou non
 	 */
-	protected void colRenderer(JTable table, boolean lastColumn) {
-		TableColumnModel modelecolonne = table.getColumnModel();
-		int total = modelecolonne.getColumnCount();
-		for (int i = 0; i < total; i++) {
-			int taille = 0;
-			int total2 = table.getRowCount();
-			for (int j = 0; j < total2; j++) {
-				int taille2 = table.getValueAt(j, i).toString().length() * 7; // determination
-				// arbitraire
-				if (taille2 > taille) {
-					taille = taille2;
-				}
-			}
-			modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
-		}
+	public static void colRenderer(JTable table, boolean lastColumn) {
+		setColumnsPreferredWidth(table);
 
 		DefaultTableCellRenderer renderer = new EvenOddRenderer();
 		int columnCount = table.getColumnCount();
@@ -63,6 +49,28 @@ public abstract class AbstractPanel extends JPanel {
 	}
 
 	/**
+	 * Recherche la longueur maximum pour chaque colonne et la set pour la largeur de cette colonne. 
+	 * @param table le tableau
+	 */
+	public static void setColumnsPreferredWidth(JTable table) {
+		TableColumnModel columnModel = table.getColumnModel();
+		for (int i = 0; i < columnModel.getColumnCount(); i++) {
+			int maximum = 0;
+			for (int j = 0; j < table.getRowCount(); j++) {
+				Object currentValue = table.getValueAt(j, i);
+				if(currentValue == null) {
+					continue;
+				}
+				int longueurCourante = currentValue.toString().length();
+				if (longueurCourante > maximum) {
+					maximum = longueurCourante;
+				}
+			}
+			columnModel.getColumn(i).setPreferredWidth(maximum * 7 + 50); // valeur arbitraire
+		}
+	}
+
+	/**
 	 * Supprime les compositions sélectionnées du tableau et des fichiers XML.
 	 * @param artistPanel le panel artiste
 	 * @param compoList la liste de composition
@@ -70,7 +78,7 @@ public abstract class AbstractPanel extends JPanel {
 	 * @param label le label de résultat
 	 */
 	@SuppressWarnings("unchecked")
-	protected void deleteCompositionAction(final ArtistPanel artistPanel, List<Composition> compoList, List<Object> selected, JLabel label) {
+	public static void deleteCompositionAction(final ArtistPanel artistPanel, List<Composition> compoList, List<Object> selected, JLabel label) {
 		LOG.debug("Start deleteCompositionAction");
 		label.setText("");
 		artistPanel.interruptUpdateArtist();
@@ -104,7 +112,7 @@ public abstract class AbstractPanel extends JPanel {
 	 * l'abscisse.
 	 * @return le panel crée
 	 */
-	protected JPanel createBoxLayoutPanel() {
+	public static JPanel createBoxLayoutPanel() {
 		JPanel panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
 		panel.add(Box.createRigidArea(new Dimension(100, 0)));
@@ -117,7 +125,7 @@ public abstract class AbstractPanel extends JPanel {
 	 * @param width la nouvelle largeur
 	 * @param height la nouvelle hauteur
 	 */
-	protected void setSize(JComponent comp, int width, int height) {
+	public static void setSize(JComponent comp, int width, int height) {
 		comp.setMinimumSize(new Dimension(width, height));
 		comp.setPreferredSize(new Dimension(width, height));
 		comp.setMaximumSize(comp.getPreferredSize());
@@ -129,7 +137,7 @@ public abstract class AbstractPanel extends JPanel {
 	 * @param component
 	 * @param alignement
 	 */
-	protected void addComponent(JPanel panel, JComponent component, float alignement, int rigidSize) {
+	public static void addComponent(JPanel panel, JComponent component, float alignement, int rigidSize) {
 		component.setAlignmentX(alignement);
 		component.setAlignmentY(Component.CENTER_ALIGNMENT);
 		panel.add(component);
