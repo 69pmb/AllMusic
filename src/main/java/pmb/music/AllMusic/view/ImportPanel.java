@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Optional;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -45,6 +46,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 
 /**
@@ -751,16 +753,12 @@ public class ImportPanel extends JPanel {
 	 */
 	private void openFileNotepad(String path) {
 		LOG.debug("Start openFileNotepad");
-		if (StringUtils.isNotBlank(path)) {
-			try {
-				if (FileUtils.fileExists(path)) {
-					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + path);
-				}
-			} catch (IOException e) {
-				LOG.error("Erreur lors de l'ouverture du fichier: " + path, e);
-				result = new LinkedList<>(Arrays.asList(e.toString()));
-				miseEnFormeResultLabel(result);
-			}
+		try {
+			FichierUtils.openFileInNotepad(Optional.ofNullable(path));
+		} catch (MyException e) {
+			result = new LinkedList<>(Arrays.asList(e.toString()));
+			miseEnFormeResultLabel(result);
+			LOG.error("Erreur lors de l'ouverture du fichier: " + path, e);
 		}
 		LOG.debug("End openFileNotepad");
 	}
