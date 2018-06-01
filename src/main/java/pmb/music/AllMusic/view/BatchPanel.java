@@ -6,10 +6,10 @@ import java.awt.Component;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Optional;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -20,13 +20,13 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
 
-import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
-import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.utils.BatchUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
+import pmb.music.AllMusic.utils.MyException;
 
 /**
  * Onglet pour lancer des traitements.
@@ -315,15 +315,11 @@ public class BatchPanel extends AbstractPanel {
 	 */
 	private void openResultFileInNotepad() {
 		LOG.debug("Start openResultFileInNotepad");
-		if (StringUtils.isNotBlank(Constant.BATCH_FILE_PATH)) {
-			try {
-				if (FileUtils.fileExists(Constant.BATCH_FILE_PATH)) {
-					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + Constant.BATCH_FILE_PATH);
-				}
-			} catch (IOException e) {
-				LOG.error("Erreur lors de l'ouverture du fichier: " + Constant.BATCH_FILE_PATH, e);
-				displayText(e.toString());
-			}
+		try {
+			FichierUtils.openFileInNotepad(Optional.ofNullable(Constant.BATCH_FILE_PATH));
+		} catch (MyException e) {
+			displayText(e.toString());
+			LOG.error("Erreur lors de l'ouverture du fichier: " + Constant.BATCH_FILE_PATH, e);
 		}
 		LOG.debug("End openResultFileInNotepad");
 	}

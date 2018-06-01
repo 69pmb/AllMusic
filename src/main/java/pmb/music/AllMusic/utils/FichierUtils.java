@@ -12,6 +12,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
@@ -110,16 +111,27 @@ public class FichierUtils {
 	}
 
 	/**
-	 * Ouvre le fichier donnée si présent.
+	 * Ouvre le fichier donnée avec Notepad++ si existe.
+	 * @param filePath le chemin absolu du fichier
+	 * @throws MyException something went wrong
 	 */
-	public static void openFileInNotepad(Optional<String> filePath) {
+	public static void openFileInNotepad(Optional<String> filePath) throws MyException {
+		LOG.debug("Start openFileInNotepad");
 		if (filePath.isPresent()) {
-			try {
-				Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + filePath.get());
-			} catch (IOException e) {
-				LOG.error("Erreur lors de l'ouverture du fichier: " + filePath.get(), e);
+			String absPath = filePath.get();
+			if (FileUtils.fileExists(absPath)) {
+				try {
+					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absPath);
+				} catch (IOException e) {
+					throw new MyException("Le chemin de Notepad++ dans le fichier de config est incorrect.", e);
+				}
+			} else {
+				throw new MyException("Le fichier: " + absPath + " n'existe pas.");
 			}
+		} else {
+			throw new MyException("Aucun fichier donné.");
 		}
+		LOG.debug("End openFileInNotepad");
 	}
 
 	public static void copyFileInAnother(String source, String destination) throws IOException {
@@ -133,6 +145,31 @@ public class FichierUtils {
 			}
 			writer.flush();
 		}
+	}
+	
+	/**
+	 * Reconstruit le chemin absolu du fichier txt (du dossier Music) donnée.
+	 * @param fileName le nom du fichier
+	 * @param auteur l'auteur du fichier (pour connaitre le nom du dossier du fichier)
+	 * @return le chemin absolu du fichier
+	 */
+	public static Optional<String> buildTxtFilePath(String fileName, String auteur) {
+		LOG.debug("Start buildTxtFilePath");
+		String pathRoot = Constant.MUSIC_ABS_DIRECTORY + auteur + Constant.JAVA_SLASH;
+		String nameWithExtension = fileName + Constant.TXT_EXTENSION;
+
+		String pathShort = pathRoot + nameWithExtension;
+		String pathSong = pathRoot + Constant.SONG_FOLDER + Constant.JAVA_SLASH + nameWithExtension;
+		String pathAlbum = pathRoot + Constant.ALBUM_FOLDER + Constant.JAVA_SLASH + nameWithExtension;
+		String pathYear = pathRoot + Constant.YEAR_FOLDER + Constant.JAVA_SLASH + nameWithExtension;
+
+		Optional<String> result = Arrays.asList(pathShort, pathSong, pathAlbum, pathYear).stream()
+				.filter(path -> FileUtils.fileExists(path)).findFirst();
+		if (!result.isPresent()) {
+			LOG.warn("End buildTxtFilePath, no path built");
+		}
+		LOG.debug("End buildTxtFilePath");
+		return result;
 	}
 
 	/**

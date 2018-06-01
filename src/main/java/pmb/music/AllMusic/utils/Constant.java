@@ -109,6 +109,12 @@ public class Constant {
 	public static final String ONGLET_FICHIER = "Fichiers";
 
 	public static final String ONGLET_BATCH = "Batchs";
+	
+	public static final String ALBUM_FOLDER = "Album";
+	
+	public static final String YEAR_FOLDER = "Year";
+	
+	public static final String SONG_FOLDER = "Song";
 
 	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
 

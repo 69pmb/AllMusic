@@ -329,7 +329,7 @@ public class FichierPanel extends AbstractPanel {
 	@SuppressWarnings("unchecked")
 	private void mouseActionForFileTable(MouseEvent e) {
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-			LOG.debug("Start result mouse");
+			LOG.debug("Start left mouse");
 			// Double click avec le bouton gauche
 			// Ouvre une popup pour afficher les compositions du fichier sélectionné
 			JTable target = (JTable) e.getSource();
@@ -337,10 +337,10 @@ public class FichierPanel extends AbstractPanel {
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			compositionList = ImportXML.importXML(Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION);
 			updateCompoTable(compositionList);
-			LOG.debug("End result mouse");
+			LOG.debug("End left mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
-			// Ouvre le fichier xml
+			// Ouvre le fichier txt
 			JTable target = (JTable) e.getSource();
 			int rowAtPoint = target
 					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
@@ -349,11 +349,11 @@ public class FichierPanel extends AbstractPanel {
 			}
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			String absFile = Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION;
+			Optional<String> filePath = FichierUtils.buildTxtFilePath(v.get(1), v.get(0));
 			try {
-				Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absFile);
-			} catch (IOException e1) {
-				LOG.error("Erreur lors de l'ouverture de Notepad++ " + Constant.NOTEPAD_PATH, e1);
+				FichierUtils.openFileInNotepad(filePath);
+			} catch (MyException e1) {
+				LOG.error("Erreur lors de l'ouverture du fichier: " + filePath, e1);
 			}
 			LOG.debug("End right mouse");
 		}

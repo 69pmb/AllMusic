@@ -54,7 +54,9 @@ public class ImportFile {
 		fichier.setFileName(StringUtils.substringBeforeLast(name, Constant.DOT));
 		fichier.setCategorie(determineCategory(name));
 		String auteur = file.getParentFile().getName();
-		if ("album".equalsIgnoreCase(auteur) || "song".equalsIgnoreCase(auteur) || "year".equalsIgnoreCase(auteur)) {
+		if (StringUtils.equalsAnyIgnoreCase(Constant.ALBUM_FOLDER, auteur)
+				|| StringUtils.equalsAnyIgnoreCase(Constant.SONG_FOLDER, auteur)
+				|| StringUtils.equalsAnyIgnoreCase(Constant.YEAR, auteur)) {
 			LOG.debug("Pas d'auteur, on prend le nom du dossier");
 			auteur = file.getParentFile().getParentFile().getName();
 		}
