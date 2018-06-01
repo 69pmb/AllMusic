@@ -20,13 +20,10 @@ import java.util.Vector;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableColumnModel;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -34,7 +31,6 @@ import org.apache.log4j.Logger;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
-import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
@@ -51,11 +47,9 @@ public class DialogFileTable extends JDialog {
 	private static final Logger LOG = Logger.getLogger(DialogFileTable.class);
 
 	private List<Fichier> files = new ArrayList<>();
-	
-	private Composition compParente;
 
-	private static final String[] header = { "Artist - Oeuvre", "Auteur", "Nom du fichier", "Date de publication", "Categorie", "Dates",
-			"Date de création", "Taille", "Classement", "Classé" };
+	private static final String[] header = { "Artist - Oeuvre", "Auteur", "Nom du fichier", "Date de publication",
+			"Categorie", "Dates", "Date de création", "Taille", "Classement", "Classé" };
 
 	private JTable fichiers;
 
@@ -67,7 +61,7 @@ public class DialogFileTable extends JDialog {
 	 * @param files {@code List<Fichier>} la liste des fichier à afficher
 	 * @param dim {@link Dimension} les dimension de la popup
 	 */
-	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim, Vector<String> compoParent) {
+	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
@@ -75,9 +69,6 @@ public class DialogFileTable extends JDialog {
 		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		this.files = files;
 		this.setResizable(true);
-		if(compoParent != null) {
-			this.compParente = new Composition(compoParent.get(0), null, compoParent.get(1), RecordType.valueOf(compoParent.get(2)));
-		}
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
 	}
@@ -99,30 +90,13 @@ public class DialogFileTable extends JDialog {
 		fichiers.setBackground(UIManager.getColor("Label.background"));
 		fichiers.setFont(UIManager.getFont("Label.font"));
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
-		fichiers.setModel(new FichierModel(FichierUtils.convertListForJTable(files, compParente), new Vector(Arrays.asList(header))));
+		fichiers.setModel(
+				new FichierModel(FichierUtils.convertListForJTable(files), new Vector(Arrays.asList(header))));
 		fichiers.getRowSorter().toggleSortOrder(1);
-
-		TableColumnModel modelecolonne = fichiers.getColumnModel();
-		int total = modelecolonne.getColumnCount();
-		for (int i = 0; i < total; i++) {
-			int taille = 0;
-			int total2 = fichiers.getRowCount();
-			for (int j = 0; j < total2; j++) {
-				int taille2 = fichiers.getValueAt(j, i).toString().length() * 7;
-				if (taille2 > taille) {
-					taille = taille2;
-				}
-			}
-			modelecolonne.getColumn(i).setPreferredWidth(taille + 50);
-		}
 
 		fichiers.addMouseListener(pasteFichierListener());
 
-		DefaultTableCellRenderer renderer = new EvenOddRenderer();
-		for (int i = 0; i < fichiers.getColumnCount(); i++) {
-			renderer.setHorizontalAlignment(JLabel.CENTER);
-			fichiers.getColumnModel().getColumn(i).setCellRenderer(renderer);
-		}
+		PanelUtils.colRenderer(fichiers, true);
 
 		this.setLayout(new BorderLayout());
 		this.add(new JScrollPane(fichiers), BorderLayout.CENTER);
