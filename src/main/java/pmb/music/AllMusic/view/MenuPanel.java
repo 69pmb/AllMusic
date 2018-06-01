@@ -164,6 +164,12 @@ public class MenuPanel extends JPanel {
 		case 2:
 			tab = Constant.ONGLET_ARTIST;
 			break;
+		case 3:
+			tab = Constant.ONGLET_FICHIER;
+			break;
+		case 4:
+			tab = Constant.ONGLET_BATCH;
+			break;
 		default:
 			break;
 		}
