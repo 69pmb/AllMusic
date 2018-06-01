@@ -43,26 +43,18 @@ public class FichierUtils {
 	 * @return Vector<Vector<Object>> la liste convertie
 	 */
 	@SuppressWarnings("rawtypes")
-	public static Vector convertListForJTable(List<Fichier> fList, Composition compParente) {
+	public static Vector convertListForJTable(List<Fichier> fList) {
 		LOG.debug("Start convertListForJTable");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < fList.size(); i++) {
 			Fichier f = fList.get(i);
 			Vector<Object> v = new Vector<>();
-			if (compParente != null) {
-				List<Composition> compo = ImportXML
-						.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
-				Composition c = null;
-				try {
-					c = CompositionUtils.findByRank(compo, f.getClassement(), compParente);
-				} catch (MyException e) {
-					LOG.error("Error when search in convertListForJTable", e);
-				}
-				if (c != null) {
-					v.addElement(c.getArtist() + " - " + c.getTitre());
-				} else {
-					v.addElement("");
-				}
+			List<Composition> compo = ImportXML.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
+			Optional<Composition> c = CompositionUtils.findByFile(compo, f);
+			if (c.isPresent()) {
+				v.addElement(c.get().getArtist() + " - " + c.get().getTitre());
+			} else {
+				v.addElement("");
 			}
 			v.addElement(f.getAuthor());
 			v.addElement(f.getFileName());
@@ -174,7 +166,8 @@ public class FichierUtils {
 	}
 
 	/**
-	 * Renomme le fichier de log si rempli.
+	 * Renomme le fichier de log si il n'est pas vide.
+	 * @return le nouveau nom du fichier de log.
 	 */
 	public static Optional<String> saveLogFileIfNotEmpty() {
 		String newFileLog = null;

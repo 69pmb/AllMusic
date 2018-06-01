@@ -307,7 +307,8 @@ public class CompositionUtils {
 	
 	/**
 	 * Cherche une {@link Composition} dans une liste donnée en fonction de
-	 * l'artiste. Recherche jaro.
+	 * l'artiste.
+	 * @see SearchUtils#searchJaro(List, Map, boolean) 
 	 * @param compoList {@link List<Composition>} une liste de compo
 	 * @param artist {@link String} un artiste
 	 * @return la composition trouvée
@@ -378,8 +379,11 @@ public class CompositionUtils {
 			}
 			// Modificaton de la liste de la composition à enlever
 			Composition toModifFromFile = CompositionUtils.compoExist(importXML, toModif);
-			if(toModifFromFile == null) {
-				toModifFromFile = CompositionUtils.findByRank(importXML, file.getClassement(), null);
+			if (toModifFromFile == null) {
+				Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, file);
+				if (findByFile.isPresent()) {
+					toModifFromFile = findByFile.get();
+				}
 			}
 			if (toModifFromFile != null) {
 				int indexOf = SearchUtils.indexOf(importXML, toModifFromFile);

@@ -496,7 +496,7 @@ public class FichierPanel extends JPanel {
 	private void updateFileTable() {
 		LOG.debug("Start updateFileTable");
 		fichieModel.setRowCount(0);
-		fichieModel.setDataVector(FichierUtils.convertListForJTable(fichiers, null),
+		fichieModel.setDataVector(FichierUtils.convertListForJTable(fichiers),
 				new Vector<>(Arrays.asList(headerFiles)));
 		PanelUtils.colRenderer(tableFiles, true);
 		fichieModel.fireTableDataChanged();
