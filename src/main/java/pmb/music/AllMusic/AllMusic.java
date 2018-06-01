@@ -40,10 +40,12 @@ public class AllMusic {
 		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
 			LOG.debug("Fin de AllMusic");
 			Optional<String> savedLogFile = FichierUtils.saveLogFileIfNotEmpty();
-			try {
-				FichierUtils.openFileInNotepad(savedLogFile);
-			} catch (MyException e1) {
-				LOG.error("Erreur lors l'ouverture du fichier de log historisé: " + savedLogFile);
+			if (savedLogFile.isPresent()) {
+				try {
+					FichierUtils.openFileInNotepad(savedLogFile);
+				} catch (MyException e1) {
+					LOG.error("Erreur lors l'ouverture du fichier de log historisé: " + savedLogFile);
+				}
 			}
 		}));
 		try {
