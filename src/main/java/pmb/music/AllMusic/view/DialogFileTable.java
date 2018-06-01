@@ -12,10 +12,10 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.Vector;
 
 import javax.swing.JDialog;
@@ -37,6 +37,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MyException;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Fichier}.
@@ -142,25 +143,25 @@ public class DialogFileTable extends JDialog {
 		if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 2) {
 			LOG.debug("Start fichier mouse");
 			JTable target = (JTable) e.getSource();
-			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector().get(
-					target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			String absFile = Constant.XML_PATH + v.get(2) + Constant.XML_EXTENSION;
 			try {
-				Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absFile);
-			} catch (IOException e1) {
-				LOG.error("Erreur lors de l'ouverture de Notepad++ " + Constant.NOTEPAD_PATH, e1);
+				FichierUtils.openFileInNotepad(Optional.of(absFile));
+			} catch (MyException e1) {
+				LOG.error("Erreur lors de l'ouverture du fichier: " + absFile, e1);
 			}
 			LOG.debug("End fichier mouse");
 		} else if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 1) {
 			LOG.debug("Start right mouse");
 			JTable target = (JTable) e.getSource();
-			int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target,
-					new Point(e.getX(), e.getY()), target));
+			int rowAtPoint = target
+					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
 			if (rowAtPoint > -1) {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
-			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector().get(
-					target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			StringSelection selection = new StringSelection(v.get(2));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
@@ -176,13 +177,16 @@ public class DialogFileTable extends JDialog {
 			List<String> title = new ArrayList<>();
 			if (!compo.isEmpty()) {
 				Fichier file = compo.get(0).getFiles().get(0);
-				title = Arrays.asList("FileName:", file.getFileName(), "PublishYear:", String.valueOf(file.getPublishYear()), "Categorie:",
-						file.getCategorie().toString(), "RangeDateBegin:", String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
-						String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:", String.valueOf(file.getSize()));
+				title = Arrays.asList("FileName:", file.getFileName(), "PublishYear:",
+						String.valueOf(file.getPublishYear()), "Categorie:", file.getCategorie().toString(),
+						"RangeDateBegin:", String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
+						String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:",
+						String.valueOf(file.getSize()));
 			} else {
 				LOG.warn(v.get(2) + " empty !");
 			}
-			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " "), true, compo, new Dimension(1500, 400));
+			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " "), true, compo,
+					new Dimension(1500, 400));
 			pop.showDialogFileTable();
 			LOG.debug("End double right mouse");
 		}
