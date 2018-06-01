@@ -40,7 +40,7 @@ import pmb.music.AllMusic.utils.MyException;
  * - Générer des statistiques: stats
  * @author PBR
  */
-public class BatchPanel extends AbstractPanel {
+public class BatchPanel extends JPanel {
 	private static final long serialVersionUID = -7659089306956006760L;
 	private static final Logger LOG = Logger.getLogger(BatchPanel.class);
 	
@@ -71,31 +71,31 @@ public class BatchPanel extends AbstractPanel {
 	 * Initialise les composants pour trouver les compositions en double (FDC).
 	 */
 	private void findDuplicateComposition() {
-		JPanel fdc = createBoxLayoutPanel();
+		JPanel fdc = PanelUtils.createBoxLayoutPanel();
 
 		JLabel fdcLabel = new JLabel("Recherche les compositions en double: ");
-		addComponent(fdc, fdcLabel, Component.LEFT_ALIGNMENT, 100);
+		PanelUtils.addComponent(fdc, fdcLabel, Component.LEFT_ALIGNMENT, 100);
 
 		// Checkbox song
 		JLabel fdcSongLabel = new JLabel("Chanson: ");
 		JCheckBox fdcSong = new JCheckBox();
 		fdcSong.setSelected(true);
-		addComponent(fdc, fdcSongLabel, Component.LEFT_ALIGNMENT, 0);
-		addComponent(fdc, fdcSong, Component.LEFT_ALIGNMENT, 100);
+		PanelUtils.addComponent(fdc, fdcSongLabel, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(fdc, fdcSong, Component.LEFT_ALIGNMENT, 100);
 
 		// Checkbox album
 		JLabel fdcAlbumLabel = new JLabel("Album: ");
 		JCheckBox fdcAlbum = new JCheckBox();
 		fdcAlbum.setSelected(true);
-		addComponent(fdc, fdcAlbumLabel, Component.LEFT_ALIGNMENT, 0);
-		addComponent(fdc, fdcAlbum, Component.LEFT_ALIGNMENT, 100);
+		PanelUtils.addComponent(fdc, fdcAlbumLabel, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(fdc, fdcAlbum, Component.LEFT_ALIGNMENT, 100);
 
 		// Checkbox unmergeable
 		JLabel fdcUnmergeableLabel = new JLabel("Ignorer les fichier non mergeables: ");
 		JCheckBox fdcUnmergeable = new JCheckBox();
 		fdcUnmergeable.setSelected(true);
-		addComponent(fdc, fdcUnmergeableLabel, Component.LEFT_ALIGNMENT, 0);
-		addComponent(fdc, fdcUnmergeable, Component.LEFT_ALIGNMENT, 100);
+		PanelUtils.addComponent(fdc, fdcUnmergeableLabel, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(fdc, fdcUnmergeable, Component.LEFT_ALIGNMENT, 100);
 
 		JButton fdcBtn = new JButton("Go");
 		fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
@@ -107,7 +107,7 @@ public class BatchPanel extends AbstractPanel {
 				displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
-		addComponent(fdc, fdcBtn, Component.RIGHT_ALIGNMENT, 100);
+		PanelUtils.addComponent(fdc, fdcBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(fdc);
 	}
@@ -116,11 +116,11 @@ public class BatchPanel extends AbstractPanel {
 	 * Initialise les composants pour trouver les fichiers en double (FDF).
 	 */
 	private void findDuplicateFiles() {
-		JPanel fdf = createBoxLayoutPanel();
+		JPanel fdf = PanelUtils.createBoxLayoutPanel();
 		
 		// Label
 		JLabel fdfLabel = new JLabel("Recherche les fichiers en double: ");
-		addComponent(fdf, fdfLabel, Component.LEFT_ALIGNMENT, 700);
+		PanelUtils.addComponent(fdf, fdfLabel, Component.LEFT_ALIGNMENT, 700);
 
 		// Bouton d'action
 		JButton fdfBtn = new JButton("Go");
@@ -132,7 +132,7 @@ public class BatchPanel extends AbstractPanel {
 				displayText("End findDuplicateFiles: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
-		addComponent(fdf, fdfBtn, Component.RIGHT_ALIGNMENT, 100);
+		PanelUtils.addComponent(fdf, fdfBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(fdf);
 	}
@@ -141,11 +141,11 @@ public class BatchPanel extends AbstractPanel {
 	 * Initialise les composants pour trouver les fichiers txt non importés (MXF).
 	 */
 	private void missingXmlFiles() {
-		JPanel mxf = createBoxLayoutPanel();
+		JPanel mxf = PanelUtils.createBoxLayoutPanel();
 		
 		// Label
 		JLabel mxfLabel = new JLabel("Rechercher les fichiers XML manquant: ");
-		addComponent(mxf, mxfLabel, Component.LEFT_ALIGNMENT, 700);
+		PanelUtils.addComponent(mxf, mxfLabel, Component.LEFT_ALIGNMENT, 700);
 		
 		// Bouton d'action
 		JButton mxfBtn = new JButton("Go");
@@ -157,7 +157,7 @@ public class BatchPanel extends AbstractPanel {
 				displayText("End missingXML: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
-		addComponent(mxf, mxfBtn, Component.RIGHT_ALIGNMENT, 100);
+		PanelUtils.addComponent(mxf, mxfBtn, Component.RIGHT_ALIGNMENT, 100);
 		
 		this.add(mxf);
 	}
@@ -166,31 +166,31 @@ public class BatchPanel extends AbstractPanel {
 	 * Generates csv reports for a specific year.
 	 */
 	private void topYear() {
-		JPanel top = createBoxLayoutPanel();
+		JPanel top = PanelUtils.createBoxLayoutPanel();
 
 		// Label
 		JLabel topLabel = new JLabel("Générer les tops: ");
-		addComponent(top, topLabel, Component.LEFT_ALIGNMENT, 100);
+		PanelUtils.addComponent(top, topLabel, Component.LEFT_ALIGNMENT, 100);
 
 		// Year Begin
 		JTextField yearBeginTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
-		setSize(yearBeginTop, 100, 60);
-		addComponent(top, yearBeginTop, Component.LEFT_ALIGNMENT, 80);
+		PanelUtils.setSize(yearBeginTop, 100, 60);
+		PanelUtils.addComponent(top, yearBeginTop, Component.LEFT_ALIGNMENT, 80);
 
 		// Year End
 		JTextField yearEndTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
-		setSize(yearEndTop, 100, 60);
-		addComponent(top, yearEndTop, Component.LEFT_ALIGNMENT, 80);
+		PanelUtils.setSize(yearEndTop, 100, 60);
+		PanelUtils.addComponent(top, yearEndTop, Component.LEFT_ALIGNMENT, 80);
 
 		// Album limit
 		JTextField albumLimit = new JTextField("10");
-		setSize(albumLimit, 100, 60);
-		addComponent(top, albumLimit, Component.LEFT_ALIGNMENT, 80);
+		PanelUtils.setSize(albumLimit, 100, 60);
+		PanelUtils.addComponent(top, albumLimit, Component.LEFT_ALIGNMENT, 80);
 
 		// Song limit
 		JTextField songLimit = new JTextField("4");
-		setSize(songLimit, 100, 60);
-		addComponent(top, songLimit, Component.LEFT_ALIGNMENT, 80);
+		PanelUtils.setSize(songLimit, 100, 60);
+		PanelUtils.addComponent(top, songLimit, Component.LEFT_ALIGNMENT, 80);
 
 		// Bouton d'action
 		JButton topBtn = new JButton("Go");
@@ -202,17 +202,17 @@ public class BatchPanel extends AbstractPanel {
 				displayText("End topYear: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
-		addComponent(top, topBtn, Component.RIGHT_ALIGNMENT, 100);
+		PanelUtils.addComponent(top, topBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(top);
 	}
 
 	private void clearHistory() {
-		JPanel clear = createBoxLayoutPanel();
+		JPanel clear = PanelUtils.createBoxLayoutPanel();
 
 		// Label
 		JLabel clearLabel = new JLabel("Nettoyer le dossier d'historique: ");
-		addComponent(clear, clearLabel, Component.LEFT_ALIGNMENT, 800);
+		PanelUtils.addComponent(clear, clearLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// Clean history
 		JButton cleanHistory = new JButton("Go");
@@ -224,17 +224,17 @@ public class BatchPanel extends AbstractPanel {
 				displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
-		addComponent(clear, cleanHistory, Component.RIGHT_ALIGNMENT, 100);
+		PanelUtils.addComponent(clear, cleanHistory, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(clear);
 	}
 	
 	private void suspicious() {
-		JPanel suspicious = createBoxLayoutPanel();
+		JPanel suspicious = PanelUtils.createBoxLayoutPanel();
 		
 		// Label
 		JLabel suspiciousLabel = new JLabel("Trouver des compositions suspectes: ");
-		addComponent(suspicious, suspiciousLabel, Component.LEFT_ALIGNMENT, 800);
+		PanelUtils.addComponent(suspicious, suspiciousLabel, Component.LEFT_ALIGNMENT, 800);
 		
 		// suspicious Btn
 		JButton suspiciousBtn = new JButton("Go");
@@ -246,17 +246,17 @@ public class BatchPanel extends AbstractPanel {
 				displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
-		addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
+		PanelUtils.addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
 		
 		this.add(suspicious);
 	}
 	
 	private void stats() {
-		JPanel stat = createBoxLayoutPanel();
+		JPanel stat = PanelUtils.createBoxLayoutPanel();
 		
 		// Label
 		JLabel statLabel = new JLabel("Statistiques: ");
-		addComponent(stat, statLabel, Component.LEFT_ALIGNMENT, 900);
+		PanelUtils.addComponent(stat, statLabel, Component.LEFT_ALIGNMENT, 900);
 		
 		// Stat btn
 		JButton statsBtn = new JButton("Go");
@@ -268,7 +268,7 @@ public class BatchPanel extends AbstractPanel {
 				displayText("Start statistic: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
-		addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);
+		PanelUtils.addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);
 		
 		this.add(stat);
 	}

@@ -58,7 +58,7 @@ import pmb.music.AllMusic.utils.SearchUtils;
  * Gère le panel search.
  * @author pmbroca
  */
-public class SearchPanel extends AbstractPanel {
+public class SearchPanel extends JPanel {
 
 	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
 
@@ -313,7 +313,7 @@ public class SearchPanel extends AbstractPanel {
 		delete.setBackground(Color.white);
 		delete.setPreferredSize(new Dimension(300, 60));
 		delete.addActionListener((ActionEvent e) -> {
-			deleteCompositionAction(artist2, compoResult, model.getSelected(), deleteLabel);
+			PanelUtils.deleteCompositionAction(artist2, compoResult, model.getSelected(), deleteLabel);
 			updateTable();
 		});
 		top.add(delete);
@@ -387,7 +387,7 @@ public class SearchPanel extends AbstractPanel {
 		LOG.debug("Start updateTable");
 		model.setRowCount(0);
 		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true), new Vector<>(Arrays.asList(title)));
-		colRenderer(result, false);
+		PanelUtils.colRenderer(result, false);
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
 		result.getRowSorter().toggleSortOrder(3);

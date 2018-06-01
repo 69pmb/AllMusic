@@ -56,7 +56,7 @@ import pmb.music.AllMusic.utils.SearchUtils;
  * 
  * @author pmbroca
  */
-public class ArtistPanel extends AbstractPanel {
+public class ArtistPanel extends JPanel {
 
 	private static final long serialVersionUID = 2593372709628283573L;
 
@@ -178,7 +178,7 @@ public class ArtistPanel extends AbstractPanel {
 		table.setRowSorter(new TableRowSorter<TableModel>(model));
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
-		colRenderer(table, false);
+		PanelUtils.colRenderer(table, false);
 
 		updateArtistPanel();
 
@@ -280,7 +280,7 @@ public class ArtistPanel extends AbstractPanel {
 	}
 
 	private void updateTable() {
-		colRenderer(table, false);
+		PanelUtils.colRenderer(table, false);
 		model.fireTableDataChanged();
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
