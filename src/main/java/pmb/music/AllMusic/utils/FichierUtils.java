@@ -39,21 +39,25 @@ public class FichierUtils {
 	 * Convertit une liste de {@link Fichier} en {@link Vector}.
 	 * 
 	 * @param fList {@code List<Fichier>} la liste à convertir
+	 * @param getComposition si vrai récupère la composition associée pour chaque fichier
 	 * @return Vector<Vector<Object>> la liste convertie
 	 */
 	@SuppressWarnings("rawtypes")
-	public static Vector convertListForJTable(List<Fichier> fList) {
+	public static Vector convertListForJTable(List<Fichier> fList, boolean getComposition) {
 		LOG.debug("Start convertListForJTable");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < fList.size(); i++) {
 			Fichier f = fList.get(i);
 			Vector<Object> v = new Vector<>();
-			List<Composition> compo = ImportXML.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
-			Optional<Composition> c = CompositionUtils.findByFile(compo, f);
-			if (c.isPresent()) {
-				v.addElement(c.get().getArtist() + " - " + c.get().getTitre());
-			} else {
-				v.addElement("");
+			if (getComposition) {
+				List<Composition> compo = ImportXML
+						.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
+				Optional<Composition> c = CompositionUtils.findByFile(compo, f);
+				if (c.isPresent()) {
+					v.addElement(c.get().getArtist() + " - " + c.get().getTitre());
+				} else {
+					v.addElement("");
+				}
 			}
 			v.addElement(f.getAuthor());
 			v.addElement(f.getFileName());
@@ -82,7 +86,7 @@ public class FichierUtils {
 	}
 
 	/**
-	 * Récupère la liste des fichiers d'un dossier
+	 * Récupère la liste des fichiers d'un dossier.
 	 * @param folder le dossier où chercher
 	 * @param files la liste qui contiendra les résultats
 	 * @param extension l'extension des fichiers à chercher

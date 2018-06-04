@@ -93,6 +93,9 @@ public class FichierPanel extends JPanel {
 			"Dates", "Date de création", "Taille", "Classement", "Classé" };
 	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "" };
 
+	/**
+	 * Constructeur de {@link FichierPanel}.
+	 */
 	public FichierPanel() {
 		super();
 		LOG.debug("Start FichierPanel");
@@ -101,6 +104,11 @@ public class FichierPanel extends JPanel {
 		LOG.debug("End FichierPanel");
 	}
 
+	/**
+	 * Initialise tous les composants du {@link FichierPanel}.
+	 * @param artistPanel le panel artiste
+	 * @param authors la liste des auteurs
+	 */
 	public void initPanel(ArtistPanel artistPanel, List<String> authors) {
 
 		parentSize = this.getParent().getPreferredSize();
@@ -110,6 +118,11 @@ public class FichierPanel extends JPanel {
 
 	}
 
+	/**
+	 * Initialise les composants de recherche.
+	 * @param artistPanel le panel artiste
+	 * @param authors la liste des auteurs
+	 */
 	private void initSearchBtn(ArtistPanel artistPanel, List<String> authors) {
 		JPanel header = new JPanel();
 		// Auteur
@@ -496,7 +509,7 @@ public class FichierPanel extends JPanel {
 	private void updateFileTable() {
 		LOG.debug("Start updateFileTable");
 		fichieModel.setRowCount(0);
-		fichieModel.setDataVector(FichierUtils.convertListForJTable(fichiers),
+		fichieModel.setDataVector(FichierUtils.convertListForJTable(fichiers, false),
 				new Vector<>(Arrays.asList(headerFiles)));
 		PanelUtils.colRenderer(tableFiles, true);
 		fichieModel.fireTableDataChanged();

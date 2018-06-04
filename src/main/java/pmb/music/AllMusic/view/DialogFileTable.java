@@ -53,7 +53,7 @@ public class DialogFileTable extends JDialog {
 	private JTable fichiers;
 
 	/**
-	 * Constructeur.
+	 * Constructeur de {@link DialogFileTable}.
 	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
@@ -90,8 +90,8 @@ public class DialogFileTable extends JDialog {
 		fichiers.setFont(UIManager.getFont("Label.font"));
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
 		fichiers.setModel(
-				new FichierModel(FichierUtils.convertListForJTable(files), new Vector(Arrays.asList(header))));
-		fichiers.getRowSorter().toggleSortOrder(1);
+				new FichierModel(FichierUtils.convertListForJTable(files, true), new Vector(Arrays.asList(header))));
+		fichiers.getRowSorter().toggleSortOrder(0);
 
 		fichiers.addMouseListener(pasteFichierListener());
 
@@ -115,6 +115,7 @@ public class DialogFileTable extends JDialog {
 	private void mouseAction(MouseEvent e) {
 		if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 2) {
 			LOG.debug("Start fichier mouse");
+			// Double click droit -> ouvre le fichier XML
 			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
@@ -127,6 +128,7 @@ public class DialogFileTable extends JDialog {
 			LOG.debug("End fichier mouse");
 		} else if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 1) {
 			LOG.debug("Start right mouse");
+			// simple click droit -> copie le nom du fichier dans le presse papier
 			JTable target = (JTable) e.getSource();
 			int rowAtPoint = target
 					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
@@ -141,8 +143,7 @@ public class DialogFileTable extends JDialog {
 			LOG.debug("End right mouse");
 		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start double right mouse");
-			// Ouvre une popup pour afficher les compositions du fichier
-			// sélectionné
+			// Double click gauche -> Ouvre une popup pour afficher les compositions du fichier sélectionné
 			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
