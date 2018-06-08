@@ -55,7 +55,9 @@ public class FichierUtils {
 						.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
 				Optional<Composition> c = CompositionUtils.findByFile(compo, f);
 				if (c.isPresent()) {
-					v.addElement(c.get().getArtist() + " - " + c.get().getTitre());
+					v.addElement(c.get().getArtist());
+					v.addElement(c.get().getTitre());
+					v.addElement(c.get().getRecordType().toString());
 				} else {
 					v.addElement("");
 				}
@@ -65,7 +67,9 @@ public class FichierUtils {
 			v.addElement(f.getPublishYear());
 			v.addElement(f.getCategorie().toString());
 			v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
-			v.addElement(new Constant().getSdfDttm().format(f.getCreationDate()));
+			if (!getComposition) {
+				v.addElement(new Constant().getSdfDttm().format(f.getCreationDate()));
+			}
 			v.addElement(f.getSize());
 			v.addElement(f.getClassement());
 			v.addElement(f.getSorted().toString().toUpperCase());

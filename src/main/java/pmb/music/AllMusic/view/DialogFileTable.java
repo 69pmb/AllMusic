@@ -48,8 +48,11 @@ public class DialogFileTable extends JDialog {
 
 	private List<Fichier> files = new ArrayList<>();
 
-	private static final String[] header = { "Artist - Oeuvre", "Auteur", "Nom du fichier", "Date de publication",
-			"Categorie", "Dates", "Date de création", "Taille", "Classement", "Classé" };
+	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
+			"Date de publication", "Categorie", "Dates", "Taille", "Classement", "Classé" };
+
+	private static final int VECTOR_INDEX_OEUVRE = 1;
+	private static final int VECTOR_INDEX_FILE_NAME = 4;
 
 	private JTable fichiers;
 
@@ -92,7 +95,7 @@ public class DialogFileTable extends JDialog {
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
 		fichiers.setModel(
 				new FichierModel(FichierUtils.convertListForJTable(files, true), new Vector(Arrays.asList(header))));
-		fichiers.getRowSorter().toggleSortOrder(0);
+		fichiers.getRowSorter().toggleSortOrder(VECTOR_INDEX_OEUVRE);
 
 		fichiers.addMouseListener(pasteFichierListener());
 
@@ -120,7 +123,7 @@ public class DialogFileTable extends JDialog {
 			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-			String absFile = Constant.XML_PATH + v.get(2) + Constant.XML_EXTENSION;
+			String absFile = Constant.XML_PATH + v.get(VECTOR_INDEX_FILE_NAME) + Constant.XML_EXTENSION;
 			try {
 				FichierUtils.openFileInNotepad(Optional.of(absFile));
 			} catch (MyException e1) {
@@ -138,17 +141,19 @@ public class DialogFileTable extends JDialog {
 			}
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(2));
+			StringSelection selection = new StringSelection(v.get(VECTOR_INDEX_FILE_NAME));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
 		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start double right mouse");
-			// Double click gauche -> Ouvre une popup pour afficher les compositions du fichier sélectionné
+			// Double click gauche -> Ouvre une popup pour afficher les compositions du
+			// fichier sélectionné
 			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-			List<Composition> compo = ImportXML.importXML(Constant.XML_PATH + v.get(2) + Constant.XML_EXTENSION);
+			List<Composition> compo = ImportXML
+					.importXML(Constant.XML_PATH + v.get(VECTOR_INDEX_FILE_NAME) + Constant.XML_EXTENSION);
 			List<String> title = new ArrayList<>();
 			if (!compo.isEmpty()) {
 				Fichier file = compo.get(0).getFiles().get(0);
@@ -158,7 +163,7 @@ public class DialogFileTable extends JDialog {
 						String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:",
 						String.valueOf(file.getSize()));
 			} else {
-				LOG.warn(v.get(2) + " empty !");
+				LOG.warn(v.get(VECTOR_INDEX_FILE_NAME) + " empty !");
 			}
 			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " "), true, compo,
 					new Dimension(1500, 400));
