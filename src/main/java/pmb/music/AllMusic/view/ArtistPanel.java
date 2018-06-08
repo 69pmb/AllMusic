@@ -280,7 +280,7 @@ public class ArtistPanel extends JPanel {
 	}
 
 	private void updateTable() {
-		PanelUtils.colRenderer(table, false);
+		PanelUtils.colRenderer(table, true);
 		model.fireTableDataChanged();
 		table.getRowSorter().toggleSortOrder(1);
 		table.getRowSorter().toggleSortOrder(1);
