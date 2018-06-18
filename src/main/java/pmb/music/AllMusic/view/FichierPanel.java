@@ -495,11 +495,8 @@ public class FichierPanel extends JPanel {
 			CollectionUtils.filter(fichiers,
 					(Object f) -> SearchUtils.evaluateFichierStrictly(publi.getText(), name.getText(),
 							auteur.getSelectedItem().toString(), cat.getSelectedItem().toString(), rangeB.getText(),
-							rangeE.getText(), f));
-			if (sorted.isSelected()) {
-				fichiers = fichiers.stream().filter(f -> Boolean.TRUE.equals(f.getSorted()))
-						.collect(Collectors.toList());
-			}
+							rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "",
+							f));
 			updateFileTable();
 		}
 		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");
