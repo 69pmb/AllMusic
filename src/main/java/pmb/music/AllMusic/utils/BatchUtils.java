@@ -24,6 +24,7 @@ import javax.swing.SortOrder;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
@@ -402,6 +403,8 @@ public class BatchUtils {
 			files.add(topOccurence(importXML, year));
 			files.add(topRecords(importXML, RecordType.SONG, "Top Songs", songLimit, year));
 			files.add(topRecords(importXML, RecordType.ALBUM, "Top Albums", albumLimit, year));
+			files.add(topRecordsByPoints(importXML, RecordType.SONG, "Points Songs", year));
+			files.add(topRecordsByPoints(importXML, RecordType.ALBUM, "Points Albums", year));
 			files.add(topSongsParPublication(year));
 		}
 		File folder = new File(Constant.USER_DIR + "\\Top by Year\\" + year);
@@ -484,11 +487,11 @@ public class BatchUtils {
 	/**
 	 * Top songs or top albums.
 	 * 
-	 * @param importXML
-	 * @param type
-	 * @param fileName
-	 * @param limit
-	 * @param year
+	 * @param importXML list of composition
+	 * @param type Album or Song
+	 * @param fileName the name of the result csv file
+	 * @param limit the minimim of number of occurence a Composition to have to be in the result file  
+	 * @param year the year of the top
 	 */
 	private static String topRecords(List<Composition> importXML, RecordType type, String fileName, int limit,
 			String year) {
@@ -504,6 +507,43 @@ public class BatchUtils {
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
+		}
+		SortKey sortKey = new SortKey(3, SortOrder.DESCENDING);
+		return CsvFile.writeCsvFromSearchResult(occurenceList, fileName + " - " + year, year, sortKey);
+	}
+	
+	/**
+	 * Top songs or top albums with a sytem of points.
+	 * 
+	 * @param importXML list of composition
+	 * @param type Album or Song
+	 * @param fileName the name of the result csv file
+	 * @param year the year of the top
+	 */
+	private static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName, String year) {
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put("cat", Cat.YEAR.toString());
+		criteria.put("dateB", year);
+		criteria.put("dateE", year);
+		criteria.put("publish", year);
+		criteria.put("type", type.toString());
+		criteria.put("sorted", Boolean.TRUE.toString());
+		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
+		if (yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
+				.map(WordUtils::capitalize).distinct().count() > 2) {
+			for (Composition composition : yearList) {
+				Vector<Object> vector = new Vector<Object>();
+				vector.add(composition.getArtist());
+				vector.add(composition.getTitre());
+				vector.add(composition.getRecordType().toString());
+				Integer points = composition.getFiles().stream().map(Fichier::getClassement).filter(rank -> rank < 10)
+						.reduce(0, (a, b) -> a + 20 * (11 - b));
+				if (points > 0) {
+					vector.add(points);
+					occurenceList.add(vector);
+				}
+			}
 		}
 		SortKey sortKey = new SortKey(3, SortOrder.DESCENDING);
 		return CsvFile.writeCsvFromSearchResult(occurenceList, fileName + " - " + year, year, sortKey);
