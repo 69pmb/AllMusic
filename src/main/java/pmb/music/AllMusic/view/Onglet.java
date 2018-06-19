@@ -20,6 +20,9 @@ import org.apache.log4j.Logger;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
+import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.model.Score;
+import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 
 /**
@@ -42,11 +45,12 @@ public class Onglet extends JPanel {
         final Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         dim.height = 92 * dim.height / 100;
         onglets.setPreferredSize(dim);
+        Score score = initStats();
 
         ArtistPanel artist = new ArtistPanel();
         ImportPanel importFile = new ImportPanel(artist);
 		List<String> authorList = getAuthorList();
-		SearchPanel search = new SearchPanel(artist, getArtistList(), getTitleList(), authorList);
+		SearchPanel search = new SearchPanel(artist, getArtistList(), getTitleList(), authorList, score);
 		FichierPanel fichier = new FichierPanel();
 		BatchPanel batch = new BatchPanel();
         
@@ -71,6 +75,19 @@ public class Onglet extends JPanel {
         search.getRootPane().setDefaultButton(search.getSearch());
     	LOG.debug("End Onglet");
     }
+
+	/**
+	 * Calculates the constants of {@link Score}.
+	 * @return the score initialized
+	 */
+	private Score initStats() {
+		Score stats = new Score();
+		stats.setLogMaxAlbum(CompositionUtils.getLogMax(RecordType.ALBUM));
+		stats.setLogMaxSong(CompositionUtils.getLogMax(RecordType.SONG));
+		stats.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(RecordType.ALBUM));
+		stats.setDoubleMedianSong(CompositionUtils.getDoubleMedian(RecordType.SONG));
+		return stats;
+	}
 
 	public static List<String> getArtistList() {
 		return ImportXML.importXML(Constant.FINAL_FILE_PATH).stream().map(Composition::getArtist).map(WordUtils::capitalize)

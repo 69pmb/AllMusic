@@ -81,7 +81,7 @@ public class DialogCompoTable extends JDialog {
 		table.setBackground(UIManager.getColor("Label.background"));
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));
-		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, true, false), new Vector(Arrays.asList(header))));
+		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, true, false, null), new Vector(Arrays.asList(header))));
 		table.getRowSorter().toggleSortOrder(3);
 		table.addMouseListener(new MouseAdapter() {
 

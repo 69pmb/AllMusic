@@ -23,7 +23,7 @@ public class CompoDialogModel extends CompoModel {
 	 */
 	@SuppressWarnings("rawtypes")
 	public CompoDialogModel(Vector data, Vector title) {
-		super(data, title);
+		super(data, title, false);
 	}
 
 	@SuppressWarnings({"rawtypes" })
