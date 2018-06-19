@@ -37,10 +37,10 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
-import pmb.music.AllMusic.utils.BatchUtils;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 
 /**
@@ -54,9 +54,9 @@ public class AppTest {
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
 		topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
-//		stats(importXML, RecordType.ALBUM);
+		stats(importXML, RecordType.ALBUM);
 //		stats(importXML, RecordType.SONG);
-//		gauss(importXML, RecordType.ALBUM);
+		gauss(importXML, RecordType.ALBUM);
 	}
 	
 	private static void gauss(List<Composition> importXML, RecordType type) {
@@ -88,14 +88,14 @@ public class AppTest {
 				.flatMap(List::stream).map(Fichier::getClassement).collect(Collectors.toList());
 		LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
 		LOG.debug("Stats: " + yearList.stream().mapToInt(i -> i).summaryStatistics());
-		LOG.debug("Medianne: " + BatchUtils.median(yearList));
-		LOG.debug("SD: " + BatchUtils.calculateSD(yearList, yearList.stream().mapToInt(i -> i).average(),
+		LOG.debug("Medianne: " + MiscUtils.median(yearList));
+		LOG.debug("SD: " + MiscUtils.calculateSD(yearList, yearList.stream().mapToInt(i -> i).average(),
 				yearList.stream().mapToInt(i -> i).sum(), yearList.stream().mapToInt(i -> i).count()));
 	}
 
 	public static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName) {
-		BigDecimal doubleMedian = BatchUtils.getDoubleMedian(type);
-		BigDecimal logMax = BatchUtils.getLogMax(type);
+		BigDecimal doubleMedian = CompositionUtils.getDoubleMedian(type);
+		BigDecimal logMax = CompositionUtils.getLogMax(type);
 
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("type", type.toString());
@@ -108,7 +108,7 @@ public class AppTest {
 			vector.add(composition.getTitre());
 			vector.add(String.valueOf(composition.getFiles().stream().filter(f -> f.getCategorie() != Cat.YEAR)
 					.findFirst().orElse(composition.getFiles().get(0)).getPublishYear()));
-			long sumPts = BatchUtils.calculateCompositionScore(logMax, doubleMedian, composition);
+			long sumPts = CompositionUtils.calculateCompositionScore(logMax, doubleMedian, composition);
 			if (sumPts > 0) {
 				vector.add(sumPts);
 				result.add(vector);

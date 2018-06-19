@@ -323,7 +323,7 @@ public class FichierPanel extends JPanel {
 		tableCompo.setBackground(UIManager.getColor("Label.background"));
 		tableCompo.setFont(UIManager.getFont("Label.font"));
 		tableCompo.setBorder(UIManager.getBorder("Label.border"));
-		compoModel = new CompoModel(new Object[0][6], headerCompo);
+		compoModel = new CompoModel(new Object[0][6], headerCompo, false);
 		tableCompo.setModel(compoModel);
 		tableCompo.setRowSorter(new TableRowSorter<TableModel>(compoModel));
 		tableCompo.addMouseListener(new MouseAdapter() {
@@ -523,7 +523,7 @@ public class FichierPanel extends JPanel {
 	private void updateCompoTable(List<Composition> compo) {
 		LOG.debug("Start updateCompoTable");
 		compoModel.setRowCount(0);
-		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true),
+		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true, null),
 				new Vector<>(Arrays.asList(headerCompo)));
 		PanelUtils.colRenderer(tableCompo, false);
 		compoModel.fireTableDataChanged();

@@ -2,6 +2,7 @@ package pmb.music.AllMusic.utils;
 
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -16,9 +17,11 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.model.Score;
 
 /**
  * Classe utilitaire pour les {@link Composition}.
@@ -156,9 +159,11 @@ public class CompositionUtils {
 	 * @param compoList {@code List<Composition>} la liste de composition à convertir
 	 * @param displayClassement si on affiche le classement de la composition ou son nombre de fichiers
 	 * @param addBoolean si on ajoute une colonne de boolean remplie à false
+	 * @param score {@link Score} constants to calculate the composition score
 	 * @return {@code Vector<Vector<Object>>} la liste de vecteur convertie
 	 */
-	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList, boolean displayClassement, boolean addBoolean) {
+	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList,
+			boolean displayClassement, boolean addBoolean, Score score) {
 		LOG.debug("Start convertCompositionListToVector");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < compoList.size(); i++) {
@@ -167,12 +172,16 @@ public class CompositionUtils {
 			v.addElement(composition.getArtist());
 			v.addElement(composition.getTitre());
 			v.addElement(composition.getRecordType().toString());
-			if(displayClassement) {
+			if (displayClassement) {
 				v.addElement(composition.getFiles().get(0).getClassement());
- 			} else {
- 				v.addElement(composition.getFiles().size());
- 			}
-			if(addBoolean) {
+			} else {
+				v.addElement(composition.getFiles().size());
+			}
+			if (score != null) {
+				v.addElement(calculateCompositionScore(score.getLogMax(composition.getRecordType()),
+						score.getDoubleMedian(composition.getRecordType()), composition));
+			}
+			if (addBoolean) {
 				v.addElement(new Boolean(false));
 			}
 			result.addElement(v);
@@ -406,5 +415,107 @@ public class CompositionUtils {
 			}
 		}
 		LOG.debug("End modifyCompositionsInFiles");
+	}
+	
+	/**
+	 * Calculates the {@link Score} doubleMedian for the given type.
+	 * The median of all ranking multiply by 2. 
+	 * @param type {@link RecordType}
+	 * @return {@link BigDecimal}
+	 */
+	public static BigDecimal getDoubleMedian(RecordType type) {
+		BigDecimal median = getMedian(type);
+		BigDecimal doubleMedian = median.multiply(BigDecimal.valueOf(2));
+		return doubleMedian;
+	}
+
+	/**
+	 * Calculates the {@link Score} logMax for the given type.
+	 * Max is the biggest size of all files. LogMax is {@code Log10(max) * max}.
+	 * @param type {@link RecordType}
+	 * @return {@link BigDecimal}
+	 */
+	public static BigDecimal getLogMax(RecordType type) {
+		BigDecimal max = getMax(type);
+		BigDecimal logMax = BigDecimal.valueOf(Math.log10(max.doubleValue())).multiply(max);
+		return logMax;
+	}
+
+	/**
+	 * Calculates the score for a composition. 
+	 * It's the sum of the score of its files.
+	 * @param logMax @see {@link Score#getLogMax(RecordType)}
+	 * @param doubleMedian @see {@link Score#getDoubleMedian(RecordType)}
+	 * @param composition the composition
+	 * @return {@link BigDecimal} the score
+	 */
+	public static long calculateCompositionScore(BigDecimal logMax, BigDecimal doubleMedian,
+			Composition composition) {
+		BigDecimal sumPts = BigDecimal.ZERO;
+		for (Fichier fichier : composition.getFiles()) {
+			sumPts = sumPts.add(calculateFileScore(logMax, doubleMedian, fichier));
+		}
+		return Math.round(sumPts.doubleValue());
+	}
+
+	/**
+	 * Calculates the score for a file.
+	 * @param logMax @see {@link Score#getLogMax(RecordType)}
+	 * @param doubleMedian @see {@link Score#getDoubleMedian(RecordType)}
+	 * @param fichier the file
+	 * @return {@link BigDecimal} the score
+	 */
+	public static BigDecimal calculateFileScore(BigDecimal logMax, BigDecimal doubleMedian, Fichier fichier) {
+		BigDecimal points = BigDecimal.ZERO;
+		if (fichier.getSorted() && fichier.getClassement() != 0) {
+			// Log10(doubleMedian/rank + 3) * logMax
+			points = BigDecimal.valueOf(Math
+					.log10(doubleMedian.divide(BigDecimal.valueOf(fichier.getClassement()), 10, RoundingMode.HALF_UP)
+							.add(BigDecimal.valueOf(3)).doubleValue()))
+					.multiply(logMax);
+		} else {
+			// Log10(5) * logMax
+			points = BigDecimal.valueOf(Math.log10(5)).multiply(logMax);
+		}
+		if (fichier.getCategorie().equals(Cat.ALL_TIME)) {
+			points = points.multiply(BigDecimal.valueOf(1.5));
+		} else if (fichier.getCategorie().equals(Cat.DECADE)) {
+			points = points.multiply(BigDecimal.valueOf(1.3));
+		} else if (fichier.getCategorie().equals(Cat.YEAR)) {
+			points = points.divide(BigDecimal.valueOf(2));
+		}
+		return points;
+	}
+
+	/**
+	 * La medianne de tous les classements des fichiers du type donné. 
+	 * @param type {@link RecordType}
+	 * @return {@link BigDecimal}
+	 */
+	public static BigDecimal getMedian(RecordType type) {
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put("type", type.toString());
+		criteria.put("sorted", Boolean.TRUE.toString());
+		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
+				.map(Fichier::getClassement).collect(Collectors.toList());
+		return BigDecimal.valueOf(MiscUtils.median(rankList));
+	}
+	
+	/**
+	 * La taille maximum des fichiers du type donné.
+	 * @param type {@link RecordType}
+	 * @return {@link BigDecimal}
+	 */
+	public static BigDecimal getMax(RecordType type) {
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put("type", type.toString());
+		criteria.put("sorted", Boolean.TRUE.toString());
+		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
+				.map(Fichier::getClassement).collect(Collectors.toList());
+		return BigDecimal.valueOf(rankList.stream().mapToInt(Integer::intValue).max().getAsInt());
 	}
 }

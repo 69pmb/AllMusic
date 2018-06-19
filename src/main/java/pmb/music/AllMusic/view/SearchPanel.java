@@ -49,6 +49,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
@@ -85,7 +86,7 @@ public class SearchPanel extends JPanel {
 
 	private List<Composition> compoResult = new ArrayList<>();
 
-	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "" };
+	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "" };
 
 	private static final int VECTOR_INDEX_ARTIST = 0;
 	private static final int VECTOR_INDEX_TITRE = 1;
@@ -93,6 +94,7 @@ public class SearchPanel extends JPanel {
 	private static final int VECTOR_INDEX_FILE_SIZE = 3;
 
 	private final CompoModel model;
+	private Score score;
 
 	/**
 	 * Génère le panel search
@@ -100,10 +102,12 @@ public class SearchPanel extends JPanel {
 	 * @param artistList
 	 * @param titleList
 	 * @param authorList
+	 * @param score 
 	 */
-	public SearchPanel(final ArtistPanel artist2, List<String> artistList, List<String> titleList, List<String> authorList) {
+	public SearchPanel(final ArtistPanel artist2, List<String> artistList, List<String> titleList, List<String> authorList, Score score) {
 		super();
 		LOG.debug("Start SearchPanel");
+		this.score = score;
 		this.setLayout(new GridLayout(2, 1));
 
 		JPanel header = new JPanel();
@@ -243,7 +247,7 @@ public class SearchPanel extends JPanel {
 		result.setBackground(UIManager.getColor("Label.background"));
 		result.setFont(UIManager.getFont("Label.font"));
 		result.setBorder(UIManager.getBorder("Label.border"));
-		model = new CompoModel(new Object[0][5], title);
+		model = new CompoModel(new Object[0][6], title, true);
 		result.setModel(model);
 		result.setRowSorter(new TableRowSorter<TableModel>(model));
 		result.addMouseListener(new MouseAdapter() {
@@ -391,7 +395,7 @@ public class SearchPanel extends JPanel {
 	private void updateTable() {
 		LOG.debug("Start updateTable");
 		model.setRowCount(0);
-		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true), new Vector<>(Arrays.asList(title)));
+		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true, score), new Vector<>(Arrays.asList(title)));
 		PanelUtils.colRenderer(result, false);
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
