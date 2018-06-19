@@ -8,16 +8,22 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
+import java.util.Vector;
 import java.util.stream.Collectors;
+
+import javax.swing.RowSorter.SortKey;
+import javax.swing.SortOrder;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
@@ -25,10 +31,13 @@ import org.junit.Test;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.file.ImportFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
+import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.utils.BatchUtils;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -42,7 +51,89 @@ public class AppTest {
 	private static final Logger LOG = Logger.getLogger(AppTest.class);
 
 	public static void main(String[] args) {
-		randomLineTest();
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
+		topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
+//		stats(importXML, RecordType.ALBUM);
+//		stats(importXML, RecordType.SONG);
+//		gauss(importXML, RecordType.ALBUM);
+	}
+	
+	private static void gauss(List<Composition> importXML, RecordType type) {
+		Map<Integer, Integer> map = new TreeMap<>();
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put("sorted", Boolean.TRUE.toString());
+		criteria.put("type", type.toString());
+		List<Integer> yearList = SearchUtils.searchJaro(importXML, criteria, true).stream().map(Composition::getFiles)
+				.flatMap(List::stream).map(Fichier::getClassement).collect(Collectors.toList());
+		for (Integer rank : yearList) {
+			if (map.containsKey(rank)) {
+				map.replace(rank, map.get(rank) + 1);
+			} else {
+				map.put(rank, 1);
+			}
+		}
+		LOG.debug("Value;Count");
+		for (Entry<Integer, Integer> entry : map.entrySet()) {
+			LOG.debug(entry.getKey() + ";" + entry.getValue());
+		}
+	}
+
+	private static void stats(List<Composition> importXML, RecordType type) {
+		LOG.debug(type.toString());
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put("type", type.toString());
+		criteria.put("sorted", Boolean.TRUE.toString());
+		List<Integer> yearList = SearchUtils.searchJaro(importXML, criteria, true).stream().map(Composition::getFiles)
+				.flatMap(List::stream).map(Fichier::getClassement).collect(Collectors.toList());
+		LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
+		LOG.debug("Stats: " + yearList.stream().mapToInt(i -> i).summaryStatistics());
+		LOG.debug("Medianne: " + BatchUtils.median(yearList));
+		LOG.debug("SD: " + BatchUtils.calculateSD(yearList, yearList.stream().mapToInt(i -> i).average(),
+				yearList.stream().mapToInt(i -> i).sum(), yearList.stream().mapToInt(i -> i).count()));
+	}
+
+	public static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName) {
+		BigDecimal doubleMedian = BatchUtils.getDoubleMedian(type);
+		BigDecimal logMax = BatchUtils.getLogMax(type);
+
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put("type", type.toString());
+		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+
+		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
+		for (Composition composition : yearList) {
+			Vector<Object> vector = new Vector<Object>();
+			vector.add(composition.getArtist());
+			vector.add(composition.getTitre());
+			vector.add(String.valueOf(composition.getFiles().stream().filter(f -> f.getCategorie() != Cat.YEAR)
+					.findFirst().orElse(composition.getFiles().get(0)).getPublishYear()));
+			long sumPts = BatchUtils.calculateCompositionScore(logMax, doubleMedian, composition);
+			if (sumPts > 0) {
+				vector.add(sumPts);
+				result.add(vector);
+			}
+		}
+		SortKey sortKey = new SortKey(3, SortOrder.DESCENDING);
+		return CsvFile.writeCsvFromSearchResult(result, fileName, "", sortKey);
+	}
+
+	public static void sortedFilesByYear() {
+		for (int i = 1950; i <= 2017; i++) {
+			List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+			String year = String.valueOf(i);
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put("cat", Cat.YEAR.toString());
+			criteria.put("dateB", year);
+			criteria.put("dateE", year);
+			criteria.put("publish", year);
+			criteria.put("sorted", Boolean.TRUE.toString());
+			criteria.put("type", RecordType.SONG.toString());
+			List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);			
+//			LOG.debug("year: " + year + " size: " + yearList.size());
+			LOG.debug("year: " + year + " file size: " + yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
+					.map(WordUtils::capitalize).distinct().count());
+		}
 	}
 
 	/**
