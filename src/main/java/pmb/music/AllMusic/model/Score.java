@@ -3,7 +3,8 @@ package pmb.music.AllMusic.model;
 import java.math.BigDecimal;
 
 /**
- * Class to contains constants to calculate the score of Composition. 
+ * Class to contains constants to calculate the score of Composition.
+ * Score calculation: {@code max * Log10(max) * Log10((median*2)/currentRank + 3)}. 
  * Created by PBR on 19 juin 2018.
  */
 public class Score {
