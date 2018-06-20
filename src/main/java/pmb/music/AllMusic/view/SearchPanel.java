@@ -54,6 +54,7 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
 
 /**
  * Gère le panel search.
@@ -92,7 +93,7 @@ public class SearchPanel extends JPanel {
 	private static final int VECTOR_INDEX_TYPE = 2;
 	private static final int VECTOR_INDEX_FILE_SIZE = 3;
 
-	private final CompoModel model;
+	private final CompoSearchPanelModel model;
 	private Score score;
 
 	/**
@@ -246,7 +247,7 @@ public class SearchPanel extends JPanel {
 		result.setBackground(UIManager.getColor("Label.background"));
 		result.setFont(UIManager.getFont("Label.font"));
 		result.setBorder(UIManager.getBorder("Label.border"));
-		model = new CompoModel(new Object[0][6], title, true);
+		model = new CompoSearchPanelModel(new Object[0][6], title);
 		result.setModel(model);
 		result.setRowSorter(new TableRowSorter<TableModel>(model));
 		result.addMouseListener(new MouseAdapter() {
@@ -513,7 +514,7 @@ public class SearchPanel extends JPanel {
 			// Ouvre une popup pour afficher les fichiers de la
 			// composition sélectionnée
 			JTable target = (JTable) e.getSource();
-			Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector()
+			Vector<String> v = (Vector<String>) ((CompoSearchPanelModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			List<Fichier> files;
 			try {
@@ -534,7 +535,7 @@ public class SearchPanel extends JPanel {
 			if (rowAtPoint > -1) {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
-			Vector<String> v = (Vector<String>) ((CompoModel) target.getModel()).getDataVector()
+			Vector<String> v = (Vector<String>) ((CompoSearchPanelModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			StringSelection selection = new StringSelection(
 					v.get(VECTOR_INDEX_ARTIST) + " " + v.get(VECTOR_INDEX_TITRE));
