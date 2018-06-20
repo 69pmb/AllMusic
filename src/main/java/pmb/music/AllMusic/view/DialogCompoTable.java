@@ -27,6 +27,7 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
+import pmb.music.AllMusic.view.model.CompoDialogModel;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Composition}.

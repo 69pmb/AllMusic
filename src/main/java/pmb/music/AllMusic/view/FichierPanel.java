@@ -49,6 +49,8 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
+import pmb.music.AllMusic.view.model.FichierModel;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -82,7 +84,7 @@ public class FichierPanel extends JPanel {
 
 	private JPanel compoPanel;
 	private JTable tableCompo;
-	private CompoModel compoModel;
+	private CompoFichierPanelModel compoModel;
 	private List<Composition> compositionList;
 	private JButton hideCompoList;
 	private boolean showCompoTable = true;
@@ -323,7 +325,7 @@ public class FichierPanel extends JPanel {
 		tableCompo.setBackground(UIManager.getColor("Label.background"));
 		tableCompo.setFont(UIManager.getFont("Label.font"));
 		tableCompo.setBorder(UIManager.getBorder("Label.border"));
-		compoModel = new CompoModel(new Object[0][6], headerCompo, false);
+		compoModel = new CompoFichierPanelModel(new Object[0][6], headerCompo);
 		tableCompo.setModel(compoModel);
 		tableCompo.setRowSorter(new TableRowSorter<TableModel>(compoModel));
 		tableCompo.addMouseListener(new MouseAdapter() {
@@ -379,7 +381,7 @@ public class FichierPanel extends JPanel {
 		if (rowAtPoint > -1) {
 			target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 		}
-		Vector<String> selectedRow = (Vector<String>) ((CompoModel) target.getModel()).getDataVector()
+		Vector<String> selectedRow = (Vector<String>) ((CompoFichierPanelModel) target.getModel()).getDataVector()
 				.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse");
