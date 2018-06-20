@@ -34,6 +34,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.view.model.FichierModel;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Fichier}.

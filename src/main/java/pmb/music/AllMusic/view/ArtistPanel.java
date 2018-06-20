@@ -50,6 +50,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.model.ArtistModel;
 
 /**
  * L'onglet Artiste, classement des artistes les plus cités.

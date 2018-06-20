@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.model;
 
 import java.util.Vector;
 
