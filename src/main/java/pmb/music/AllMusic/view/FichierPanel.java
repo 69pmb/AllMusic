@@ -112,12 +112,14 @@ public class FichierPanel extends JPanel {
 	 * @param authors la liste des auteurs
 	 */
 	public void initPanel(ArtistPanel artistPanel, List<String> authors) {
+		LOG.debug("Start initPanel");
 
 		parentSize = this.getParent().getPreferredSize();
 		initSearchBtn(artistPanel, authors);
 		initFichierTable();
 		initCompoTable(artistPanel);
 
+		LOG.debug("End initPanel");
 	}
 
 	/**

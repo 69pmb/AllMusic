@@ -11,6 +11,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Optional;
 
+import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JLabel;
@@ -71,7 +72,7 @@ public class BatchPanel extends JPanel {
 	 * Initialise les composants pour trouver les compositions en double (FDC).
 	 */
 	private void findDuplicateComposition() {
-		JPanel fdc = PanelUtils.createBoxLayoutPanel();
+		JPanel fdc = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
 		JLabel fdcLabel = new JLabel("Recherche les compositions en double: ");
 		PanelUtils.addComponent(fdc, fdcLabel, Component.LEFT_ALIGNMENT, 100);
@@ -116,7 +117,7 @@ public class BatchPanel extends JPanel {
 	 * Initialise les composants pour trouver les fichiers en double (FDF).
 	 */
 	private void findDuplicateFiles() {
-		JPanel fdf = PanelUtils.createBoxLayoutPanel();
+		JPanel fdf = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 		
 		// Label
 		JLabel fdfLabel = new JLabel("Recherche les fichiers en double: ");
@@ -141,7 +142,7 @@ public class BatchPanel extends JPanel {
 	 * Initialise les composants pour trouver les fichiers txt non importés (MXF).
 	 */
 	private void missingXmlFiles() {
-		JPanel mxf = PanelUtils.createBoxLayoutPanel();
+		JPanel mxf = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 		
 		// Label
 		JLabel mxfLabel = new JLabel("Rechercher les fichiers XML manquant: ");
@@ -166,7 +167,7 @@ public class BatchPanel extends JPanel {
 	 * Generates csv reports for a specific year.
 	 */
 	private void topYear() {
-		JPanel top = PanelUtils.createBoxLayoutPanel();
+		JPanel top = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
 		// Label
 		JLabel topLabel = new JLabel("Générer les tops: ");
@@ -208,7 +209,7 @@ public class BatchPanel extends JPanel {
 	}
 
 	private void clearHistory() {
-		JPanel clear = PanelUtils.createBoxLayoutPanel();
+		JPanel clear = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
 		// Label
 		JLabel clearLabel = new JLabel("Nettoyer le dossier d'historique: ");
@@ -230,7 +231,7 @@ public class BatchPanel extends JPanel {
 	}
 	
 	private void suspicious() {
-		JPanel suspicious = PanelUtils.createBoxLayoutPanel();
+		JPanel suspicious = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 		
 		// Label
 		JLabel suspiciousLabel = new JLabel("Trouver des compositions suspectes: ");
@@ -252,7 +253,7 @@ public class BatchPanel extends JPanel {
 	}
 	
 	private void stats() {
-		JPanel stat = PanelUtils.createBoxLayoutPanel();
+		JPanel stat = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 		
 		// Label
 		JLabel statLabel = new JLabel("Statistiques: ");
