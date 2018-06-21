@@ -33,6 +33,7 @@ import pmb.music.AllMusic.utils.FichierUtils;
 public class CleanFile {
 
 	private static final Logger LOG = Logger.getLogger(CleanFile.class);
+	private static final int MAXIMUM_LENGTH_LINE = 120;
 
 	private CleanFile() {
 	}
@@ -68,7 +69,7 @@ public class CleanFile {
 					// Si le fichier est trié, on ne garde que les lignes commencant par un chiffre
 					isDigit = StringUtils.isNumeric(StringUtils.substring(line, 0, 1));
 				}
-				if (isDigit && line.length()<120) {
+				if (isDigit && line.length()<MAXIMUM_LENGTH_LINE) {
 					writesLineIfContainsSepAndRemovesChar(characterToRemove, sepAsList, line, writer, isBefore);
 				}
 //				i++;
