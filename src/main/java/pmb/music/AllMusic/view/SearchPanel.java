@@ -23,6 +23,7 @@ import java.util.Vector;
 import java.util.stream.Collectors;
 
 import javax.swing.AbstractAction;
+import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
@@ -65,25 +66,25 @@ public class SearchPanel extends JPanel {
 	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
 
 	private static final long serialVersionUID = 2593372709628283573L;
-	private final JLabel countLabel;
-	private final JLabel deleteLabel;
+	private JLabel countLabel;
+	private JLabel deleteLabel;
 
 	private JCheckBox inFiles;
 
 	private JButton search;
 
-	private final JTextField publi;
-	private final JTextField rangeB;
-	private final JTextField rangeE;
-	private final JTextField fileName;
+	private JTextField publi;
+	private JTextField rangeB;
+	private JTextField rangeE;
+	private JTextField fileName;
 
 	private final JTable result;
 
-	private final JComboBox<Cat> cat;
-	private final JComboBox<RecordType> type;
-	private final JComboBox<String> titre;
-	private final JComboBox<String> artist;
-	private final JComboBox<String> author;
+	private JComboBox<Cat> cat;
+	private JComboBox<RecordType> type;
+	private JComboBox<String> titre;
+	private JComboBox<String> artist;
+	private JComboBox<String> author;
 
 	private List<Composition> compoResult = new ArrayList<>();
 
@@ -98,7 +99,7 @@ public class SearchPanel extends JPanel {
 	private Score score;
 
 	/**
-	 * Génère le panel search
+	 * Génère le panel search.
 	 * @param artist2 le panel artiste
 	 * @param artistList
 	 * @param titleList
@@ -109,132 +110,12 @@ public class SearchPanel extends JPanel {
 		super();
 		LOG.debug("Start SearchPanel");
 		this.score = score;
-		this.setLayout(new GridLayout(2, 1));
+		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
 		JPanel header = new JPanel();
-		header.setLayout(new GridLayout(2, 1));
-
-		insertTopPanel(artist2, header);
-
-		JPanel firstLine = new JPanel();
-
-		// Artiste
-		JPanel artistPanel = new JPanel();
-		artistPanel.setPreferredSize(new Dimension(200, 60));
-		JLabel artistLabel = new JLabel("Artiste : ");
-		artist = new JComboBox<>();
-		AutoCompleteSupport.install(artist, GlazedLists.eventListOf(artistList.toArray()));
-		artist.setPreferredSize(new Dimension(150, 30));
-		artistPanel.add(artistLabel);
-		artistPanel.add(artist);
-		firstLine.add(artistPanel);
-
-		// Titre
-		JPanel titrePanel = new JPanel();
-		titrePanel.setPreferredSize(new Dimension(180, 60));
-		JLabel titreLabel = new JLabel("Titre : ");
-		titre = new JComboBox<>();
-		AutoCompleteSupport.install(titre, GlazedLists.eventListOf(titleList.toArray()));
-		titre.setPreferredSize(new Dimension(150, 30));
-		titrePanel.add(titreLabel);
-		titrePanel.add(titre);
-		firstLine.add(titrePanel);
-
-		// Nom du fichier
-		JPanel fileNamePanel = new JPanel();
-		fileNamePanel.setPreferredSize(new Dimension(400, 60));
-		JLabel fileNameLabel = new JLabel("Nom du fichier : ");
-		fileName = new JTextField();
-		fileName.setPreferredSize(new Dimension(350, 25));
-		fileNamePanel.add(fileNameLabel);
-		fileNamePanel.add(fileName);
-		firstLine.add(fileNamePanel);
-
-		// Auteur
-		JPanel authorPanel = new JPanel();
-		authorPanel.setPreferredSize(new Dimension(200, 60));
-		JLabel authorLabel = new JLabel("Auteur : ");
-		author = new JComboBox<>();
-		AutoCompleteSupport.install(author, GlazedLists.eventListOf(authorList.toArray()));
-		author.setPreferredSize(new Dimension(150, 25));
-		authorPanel.add(authorLabel);
-		authorPanel.add(author);
-		firstLine.add(authorPanel);
-
-		// Type
-		JPanel typePanel = new JPanel();
-		typePanel.setPreferredSize(new Dimension(180, 60));
-		JLabel typeLabel = new JLabel("Type : ");
-		type = new JComboBox<>();
-		type.addItem(null);
-		RecordType[] valuesType = RecordType.values();
-		for (int i = 0; i < valuesType.length; i++) {
-			type.addItem(valuesType[i]);
-		}
-		type.setPreferredSize(new Dimension(150, 25));
-		typePanel.add(typeLabel);
-		typePanel.add(type);
-		firstLine.add(typePanel);
-
-		// Range
-		JPanel rangePanel = new JPanel();
-		rangePanel.setPreferredSize(new Dimension(310, 60));
-		JLabel rangeLabel = new JLabel("Année(s) du classement :                ");
-		rangeB = new JTextField();
-		rangeE = new JTextField();
-		rangeB.setPreferredSize(new Dimension(150, 25));
-		rangeE.setPreferredSize(new Dimension(150, 25));
-		rangePanel.add(rangeLabel);
-		rangePanel.add(rangeB);
-		rangePanel.add(rangeE);
-		firstLine.add(rangePanel);
-
-		// Categorie
-		JPanel catPanel = new JPanel();
-		catPanel.setPreferredSize(new Dimension(200, 60));
-		JLabel catLabel = new JLabel("Catégorie : ");
-		cat = new JComboBox<>();
-		cat.addItem(null);
-		Cat[] values = Cat.values();
-		for (int i = 0; i < values.length; i++) {
-			cat.addItem(values[i]);
-		}
-		cat.setPreferredSize(new Dimension(150, 25));
-		catPanel.add(catLabel);
-		catPanel.add(cat);
-		firstLine.add(catPanel);
-
-		// Publi
-		JPanel publiPanel = new JPanel();
-		publiPanel.setPreferredSize(new Dimension(200, 60));
-		JLabel publiLabel = new JLabel("Année de publication : ");
-		publi = new JTextField();
-		publi.setPreferredSize(new Dimension(150, 25));
-		publiPanel.add(publiLabel);
-		publiPanel.add(publi);
-		firstLine.add(publiPanel);
-
-		// Nombre de résultat
-		JPanel countPanel = new JPanel();
-		countPanel.setPreferredSize(new Dimension(200, 60));
-		countLabel = new JLabel("");
-		countLabel.setForeground(new Color(8, 187, 81));
-		Font labelFont = countLabel.getFont();
-		countLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 30));
-		countPanel.add(countLabel);
-		firstLine.add(countPanel);
-
-		// Nombre de suppression
-		JPanel deletePanel = new JPanel();
-		deletePanel.setPreferredSize(new Dimension(400, 60));
-		deleteLabel = new JLabel("");
-		deleteLabel.setForeground(new Color(8, 187, 81));
-		Font labelFont2 = deleteLabel.getFont();
-		deleteLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 30));
-		deletePanel.add(deleteLabel);
-		firstLine.add(deletePanel);
-
-		header.add(firstLine);
+		header.setLayout(new BoxLayout(header, BoxLayout.Y_AXIS));
+		initButtons(artist2, header);
+		initSearchFields(artistList, titleList, authorList, header);
 		this.add(header);
 
 		JPanel bottom = new JPanel();
@@ -255,7 +136,7 @@ public class SearchPanel extends JPanel {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				mouseAction(e);
+				mouseClickAction(e);
 			}
 		});
 		bottom.add(new JScrollPane(result), BorderLayout.CENTER);
@@ -270,7 +151,7 @@ public class SearchPanel extends JPanel {
 	 * @param header le header de l'onglet
 	 */
 	@SuppressWarnings("unchecked")
-	private void insertTopPanel(final ArtistPanel artist2, JPanel header) {
+	private void initButtons(final ArtistPanel artist2, JPanel header) {
 		JPanel top = new JPanel();
 		AbstractAction searchAction = new AbstractAction() {
 
@@ -360,8 +241,140 @@ public class SearchPanel extends JPanel {
 		header.add(top);
 	}
 
+	/**
+	 * Initialise les champs de recherche.
+	 * @param artistList la liste des artistes
+	 * @param titleList la liste des titres
+	 * @param authorList la liste des auteurs
+	 * @param header le header de l'onglet
+	 */
+	private void initSearchFields(List<String> artistList, List<String> titleList, List<String> authorList, JPanel header) {
+		LOG.debug("Start initSearchFields");
+		JPanel searchFields = new JPanel();
+		searchFields.setLayout(new GridLayout(2, 5));
+
+		// Artiste
+		JPanel artistPanel = new JPanel();
+		artistPanel.setPreferredSize(new Dimension(200, 60));
+		JLabel artistLabel = new JLabel("Artiste : ");
+		artist = new JComboBox<>();
+		AutoCompleteSupport.install(artist, GlazedLists.eventListOf(artistList.toArray()));
+		artist.setPreferredSize(new Dimension(150, 30));
+		artistPanel.add(artistLabel);
+		artistPanel.add(artist);
+		searchFields.add(artistPanel);
+
+		// Titre
+		JPanel titrePanel = new JPanel();
+		titrePanel.setPreferredSize(new Dimension(180, 60));
+		JLabel titreLabel = new JLabel("Titre : ");
+		titre = new JComboBox<>();
+		AutoCompleteSupport.install(titre, GlazedLists.eventListOf(titleList.toArray()));
+		titre.setPreferredSize(new Dimension(150, 30));
+		titrePanel.add(titreLabel);
+		titrePanel.add(titre);
+		searchFields.add(titrePanel);
+
+		// Nom du fichier
+		JPanel fileNamePanel = new JPanel();
+		PanelUtils.setSize(fileNamePanel, 300, 25);
+		JLabel fileNameLabel = new JLabel("Nom du fichier : ");
+		fileName = new JTextField();
+		PanelUtils.setSize(fileName, 250, 25);
+		fileNamePanel.add(fileNameLabel);
+		fileNamePanel.add(fileName);
+		searchFields.add(fileNamePanel);
+
+		// Auteur
+		JPanel authorPanel = new JPanel();
+		authorPanel.setPreferredSize(new Dimension(200, 60));
+		JLabel authorLabel = new JLabel("Auteur : ");
+		author = new JComboBox<>();
+		AutoCompleteSupport.install(author, GlazedLists.eventListOf(authorList.toArray()));
+		author.setPreferredSize(new Dimension(150, 25));
+		authorPanel.add(authorLabel);
+		authorPanel.add(author);
+		searchFields.add(authorPanel);
+
+		// Type
+		JPanel typePanel = new JPanel();
+		typePanel.setPreferredSize(new Dimension(180, 60));
+		JLabel typeLabel = new JLabel("Type : ");
+		type = new JComboBox<>();
+		type.addItem(null);
+		RecordType[] valuesType = RecordType.values();
+		for (int i = 0; i < valuesType.length; i++) {
+			type.addItem(valuesType[i]);
+		}
+		type.setPreferredSize(new Dimension(150, 25));
+		typePanel.add(typeLabel);
+		typePanel.add(type);
+		searchFields.add(typePanel);
+
+		// Range
+		JPanel rangePanel = new JPanel();
+		PanelUtils.setSize(rangePanel, 300, 25);
+		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
+		rangeB = new JTextField();
+		rangeE = new JTextField();
+		PanelUtils.setSize(rangeB, 100, 25);
+		PanelUtils.setSize(rangeE, 100, 25);
+		rangePanel.add(rangeLabel);
+		rangePanel.add(rangeB);
+		rangePanel.add(rangeE);
+		searchFields.add(rangePanel);
+
+		// Categorie
+		JPanel catPanel = new JPanel();
+		catPanel.setPreferredSize(new Dimension(200, 60));
+		JLabel catLabel = new JLabel("Catégorie : ");
+		cat = new JComboBox<>();
+		cat.addItem(null);
+		Cat[] values = Cat.values();
+		for (int i = 0; i < values.length; i++) {
+			cat.addItem(values[i]);
+		}
+		cat.setPreferredSize(new Dimension(150, 25));
+		catPanel.add(catLabel);
+		catPanel.add(cat);
+		searchFields.add(catPanel);
+
+		// Publi
+		JPanel publiPanel = new JPanel();
+		publiPanel.setPreferredSize(new Dimension(200, 60));
+		JLabel publiLabel = new JLabel("Année de publication : ");
+		publi = new JTextField();
+		publi.setPreferredSize(new Dimension(150, 25));
+		publiPanel.add(publiLabel);
+		publiPanel.add(publi);
+		searchFields.add(publiPanel);
+
+		// Nombre de résultat
+		JPanel countPanel = new JPanel();
+		countPanel.setPreferredSize(new Dimension(200, 60));
+		countLabel = new JLabel("");
+		countLabel.setForeground(new Color(8, 187, 81));
+		Font labelFont = countLabel.getFont();
+		countLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 30));
+		countPanel.add(countLabel);
+		searchFields.add(countPanel);
+
+		// Nombre de suppression
+		JPanel deletePanel = new JPanel();
+		deletePanel.setPreferredSize(new Dimension(400, 60));
+		deleteLabel = new JLabel("");
+		deleteLabel.setForeground(new Color(8, 187, 81));
+		Font labelFont2 = deleteLabel.getFont();
+		deleteLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 30));
+		deletePanel.add(deleteLabel);
+		searchFields.add(deletePanel);
+
+		header.add(searchFields);
+		LOG.debug("End initSearchFields");
+	}
+
 	private void searchAction() {
-		LOG.debug("Start search");
+		LOG.debug("Start searchAction");
 		deleteLabel.setText("");
 		List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		if (CollectionUtils.isNotEmpty(allCompo)) {
@@ -390,7 +403,7 @@ public class SearchPanel extends JPanel {
 			compoResult.addAll(SearchUtils.searchJaro(allCompo, criteria, inFiles.isSelected()));
 			updateTable();
 		}
-		LOG.debug("End search");
+		LOG.debug("End searchAction");
 	}
 
 	private void updateTable() {
@@ -509,7 +522,7 @@ public class SearchPanel extends JPanel {
 	}
 
 	@SuppressWarnings("unchecked")
-	private void mouseAction(MouseEvent e) {
+	private void mouseClickAction(MouseEvent e) {
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start result mouse");
 			// Ouvre une popup pour afficher les fichiers de la
