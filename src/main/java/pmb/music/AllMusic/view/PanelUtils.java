@@ -108,13 +108,14 @@ public class PanelUtils {
 	}
 
 	/**
-	 * Crée un {@link JPanel} avec un layout de type {@link BoxLayout} aligné sur
-	 * l'abscisse.
+	 * Crée un {@link JPanel} avec un layout de type {@link BoxLayout}.
+	 * @param l'axe sur lequel les composants sont alignés.
+	 * @see {@link BoxLayout#X_AXIS} et {@link BoxLayout#Y_AXIS} 
 	 * @return le panel crée
 	 */
-	public static JPanel createBoxLayoutPanel() {
+	public static JPanel createBoxLayoutPanel(int axis) {
 		JPanel panel = new JPanel();
-		panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
+		panel.setLayout(new BoxLayout(panel, axis));
 		panel.add(Box.createRigidArea(new Dimension(100, 0)));
 		return panel;
 	}
