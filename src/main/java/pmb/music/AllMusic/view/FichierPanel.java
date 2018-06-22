@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.GridLayout;
 import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
@@ -128,7 +129,7 @@ public class FichierPanel extends JPanel {
 	 * @param authors la liste des auteurs
 	 */
 	private void initSearchBtn(ArtistPanel artistPanel, List<String> authors) {
-		JPanel header = new JPanel();
+		JPanel header = new JPanel(new GridLayout(2, 6));
 		// Auteur
 		JPanel auteurPanel = new JPanel();
 		auteurPanel.setPreferredSize(new Dimension(150, 60));
@@ -142,12 +143,12 @@ public class FichierPanel extends JPanel {
 		auteurPanel.add(auteurLabel);
 		auteurPanel.add(auteur);
 		header.add(auteurPanel);
-		// Name
+		// Nom du fichier
 		JPanel namePanel = new JPanel();
-		namePanel.setPreferredSize(new Dimension(250, 60));
+		PanelUtils.setSize(namePanel, 1000, 25);
 		JLabel nameLabel = new JLabel("Nom du fichier : ");
 		name = new JTextField();
-		name.setPreferredSize(new Dimension(250, 25));
+		PanelUtils.setSize(name, 200, 25);
 		namePanel.add(nameLabel);
 		namePanel.add(name);
 		header.add(namePanel);
@@ -162,12 +163,12 @@ public class FichierPanel extends JPanel {
 		header.add(publiPanel);
 		// Range
 		JPanel rangePanel = new JPanel();
-		rangePanel.setPreferredSize(new Dimension(200, 60));
-		JLabel rangeLabel = new JLabel("Année(s) du classement :                ");
+		PanelUtils.setSize(rangePanel, 1000, 25);
+		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
 		rangeB = new JTextField();
 		rangeE = new JTextField();
-		rangeB.setPreferredSize(new Dimension(90, 25));
-		rangeE.setPreferredSize(new Dimension(90, 25));
+		PanelUtils.setSize(rangeB, 85, 25);
+		PanelUtils.setSize(rangeE, 85, 25);
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeB);
 		rangePanel.add(rangeE);
