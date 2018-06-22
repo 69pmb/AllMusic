@@ -93,7 +93,7 @@ public class SearchPanel extends JPanel {
 	private static final int INDEX_ARTIST = 0;
 	private static final int INDEX_TITRE = 1;
 	private static final int INDEX_TYPE = 2;
-	private static final int INDEX_FILE_SIZE = 3;
+	private static final int INDEX_SCORE = 4;
 
 	private final CompoSearchPanelModel model;
 	private Score score;
@@ -413,8 +413,8 @@ public class SearchPanel extends JPanel {
 		PanelUtils.colRenderer(result, false); 
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
-		result.getRowSorter().toggleSortOrder(INDEX_FILE_SIZE);
-		result.getRowSorter().toggleSortOrder(INDEX_FILE_SIZE);
+		result.getRowSorter().toggleSortOrder(INDEX_SCORE);
+		result.getRowSorter().toggleSortOrder(INDEX_SCORE);
 		result.repaint();
 		LOG.debug("Start updateTable");
 	}
