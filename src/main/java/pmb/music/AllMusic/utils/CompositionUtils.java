@@ -165,6 +165,10 @@ public class CompositionUtils {
 			boolean displayClassement, boolean addBoolean, Score score) {
 		LOG.debug("Start convertCompositionListToVector");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
+		if (compoList == null || compoList.isEmpty()) {
+			LOG.debug("End convertCompositionListToVector, empty list");
+			return result;
+		}
 		for (int i = 0; i < compoList.size(); i++) {
 			Composition composition = compoList.get(i);
 			Vector<Object> v = new Vector<>();
