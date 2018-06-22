@@ -51,7 +51,7 @@ import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
-import pmb.music.AllMusic.view.model.FichierModel;
+import pmb.music.AllMusic.view.model.FichierPanelModel;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -78,7 +78,7 @@ public class FichierPanel extends JPanel {
 
 	private JPanel fichierPanel;
 	private JTable tableFiles;
-	private FichierModel fichieModel;
+	private FichierPanelModel fichieModel;
 	private List<Fichier> fichiers;
 	private JButton hideFileList;
 	private boolean showFichierTable = true;
@@ -302,7 +302,7 @@ public class FichierPanel extends JPanel {
 		tableFiles.setBackground(UIManager.getColor("Label.background"));
 		tableFiles.setFont(UIManager.getFont("Label.font"));
 		tableFiles.setBorder(UIManager.getBorder("Label.border"));
-		fichieModel = new FichierModel(new Object[0][9], headerFiles);
+		fichieModel = new FichierPanelModel(new Object[0][9], headerFiles);
 		tableFiles.setModel(fichieModel);
 		tableFiles.setRowSorter(new TableRowSorter<TableModel>(fichieModel));
 		tableFiles.addMouseListener(new MouseAdapter() {
@@ -349,9 +349,9 @@ public class FichierPanel extends JPanel {
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse");
 			// Double click avec le bouton gauche
-			// Ouvre une popup pour afficher les compositions du fichier sélectionné
+			// Affiche les compositions du fichier sélectionné
 			JTable target = (JTable) e.getSource();
-			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+			Vector<String> v = (Vector<String>) ((FichierPanelModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			compositionList = ImportXML.importXML(Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION);
 			updateCompoTable(compositionList);
@@ -365,7 +365,7 @@ public class FichierPanel extends JPanel {
 			if (rowAtPoint > -1) {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
-			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+			Vector<String> v = (Vector<String>) ((FichierPanelModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			Optional<String> filePath = FichierUtils.buildTxtFilePath(v.get(1), v.get(0));
 			try {
@@ -388,6 +388,7 @@ public class FichierPanel extends JPanel {
 				.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse");
+			// Popup pour modifier la composition
 			modifyCompositionAction(artistPanel, selectedRow);
 			LOG.debug("End left mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
