@@ -5,6 +5,7 @@ package pmb.music.AllMusic.view;
 
 import java.awt.Color;
 import java.awt.Component;
+import java.text.NumberFormat;
 
 import javax.swing.JTable;
 import javax.swing.border.MatteBorder;
@@ -24,6 +25,9 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
     @Override
 	public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus,
 			int row, int column) {
+		if (value instanceof Number) {
+			value = NumberFormat.getNumberInstance().format(value);
+		}
 		Component renderer = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
 		Color foreground;
 		Color background;
