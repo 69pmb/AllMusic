@@ -10,9 +10,9 @@ import java.util.Vector;
  * Décrit la façon dont les popup contenant des {@code Composition} seront
  * affichées.
  * 
- * @see {@link AbstractCompoModel}
+ * @see {@link AbstractModel}
  */
-public class CompoDialogModel extends AbstractCompoModel {
+public class CompoDialogModel extends AbstractModel {
 
 	private static final long serialVersionUID = 1L;
 

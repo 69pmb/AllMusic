@@ -34,7 +34,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
-import pmb.music.AllMusic.view.model.FichierModel;
+import pmb.music.AllMusic.view.model.FichierDialogModel;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Fichier}.
@@ -94,7 +94,7 @@ public class DialogFileTable extends JDialog {
 		fichiers.setFont(UIManager.getFont("Label.font"));
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
 		fichiers.setModel(
-				new FichierModel(FichierUtils.convertListForJTable(files, true), new Vector(Arrays.asList(header))));
+				new FichierDialogModel(FichierUtils.convertListForJTable(files, true), new Vector(Arrays.asList(header))));
 		fichiers.getRowSorter().toggleSortOrder(VECTOR_INDEX_OEUVRE);
 
 		fichiers.addMouseListener(pasteFichierListener());
@@ -121,7 +121,7 @@ public class DialogFileTable extends JDialog {
 			LOG.debug("Start fichier mouse");
 			// Double click droit -> ouvre le fichier XML
 			JTable target = (JTable) e.getSource();
-			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			String absFile = Constant.XML_PATH + v.get(VECTOR_INDEX_FILE_NAME) + Constant.XML_EXTENSION;
 			try {
@@ -139,7 +139,7 @@ public class DialogFileTable extends JDialog {
 			if (rowAtPoint > -1) {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
-			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			StringSelection selection = new StringSelection(v.get(VECTOR_INDEX_FILE_NAME));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
@@ -150,7 +150,7 @@ public class DialogFileTable extends JDialog {
 			// Double click gauche -> Ouvre une popup pour afficher les compositions du
 			// fichier sélectionné
 			JTable target = (JTable) e.getSource();
-			Vector<String> v = (Vector<String>) ((FichierModel) target.getModel()).getDataVector()
+			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			List<Composition> compo = ImportXML
 					.importXML(Constant.XML_PATH + v.get(VECTOR_INDEX_FILE_NAME) + Constant.XML_EXTENSION);

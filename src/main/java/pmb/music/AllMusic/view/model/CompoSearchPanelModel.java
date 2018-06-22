@@ -11,9 +11,9 @@ import java.util.Vector;
  * Décrit la façon dont les tableaux contenant des {@code Composition} seront
  * affichées pour l'onglet {@code SearchPanel}.
  * 
- * @see {@link AbstractCompoModel}
+ * @see {@link AbstractModel}
  */
-public class CompoSearchPanelModel extends AbstractCompoModel {
+public class CompoSearchPanelModel extends AbstractModel {
 
 	private static final long serialVersionUID = 1L;
 

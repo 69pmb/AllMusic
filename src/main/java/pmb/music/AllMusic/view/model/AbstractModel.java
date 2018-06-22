@@ -9,37 +9,38 @@ import java.util.Vector;
 import javax.swing.table.DefaultTableModel;
 
 /**
- * Décrit la façon dont les tableaux contenant des {@code Composition} seront
- * affichées.
+ * Décrit la façon dont les tableaux seront affichées.
  * 
  * @see {@link DefaultTableModel}
  */
-public abstract class AbstractCompoModel extends DefaultTableModel {
+public abstract class AbstractModel extends DefaultTableModel {
 
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * Constructeur de {@link AbstractCompoModel}.
+	 * Constructeur de {@link AbstractModel}.
 	 * 
 	 * @param data {@code Object[][]} les données
 	 * @param title {@code String[]} les entetes du tableau
 	 */
-	public AbstractCompoModel(Object[][] data, String[] title) {
+	public AbstractModel(Object[][] data, String[] title) {
 		super(data, title);
 	}
 
 	/**
-	 * Constructeur de {@link AbstractCompoModel}.
+	 * Constructeur de {@link AbstractModel}.
 	 * 
 	 * @param data {@link Vector} les données
 	 * @param title {@link Vector} les entetes du tableau
 	 */
-	public AbstractCompoModel(Vector<?> data, Vector<?> title) {
+	public AbstractModel(Vector<?> data, Vector<?> title) {
 		super(data, title);
 	}
 
 	@Override
-	public abstract boolean isCellEditable(int i, int i1);
+	public boolean isCellEditable(int i, int i1) {
+		return false;
+	}
 
 	@Override
 	public abstract Class<?> getColumnClass(int col);
