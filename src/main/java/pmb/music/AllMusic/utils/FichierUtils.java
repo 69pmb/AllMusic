@@ -71,7 +71,9 @@ public class FichierUtils {
 				v.addElement(new Constant().getSdfDttm().format(f.getCreationDate()));
 			}
 			v.addElement(f.getSize());
-			v.addElement(f.getClassement());
+			if (getComposition) {
+				v.addElement(f.getClassement());
+			}
 			v.addElement(f.getSorted().toString().toUpperCase());
 			result.add(v);
 		}
