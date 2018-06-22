@@ -21,7 +21,6 @@ public class FichierPanelModel extends AbstractModel {
 
 	private static final int INDEX_PUBLISH_YEAR = 2;
 	private static final int INDEX_FILE_SIZE = 6;
-	private static final int INDEX_RANK = 7;
 
 	/**
 	 * Constructeur de {@link FichierPanelModel}.
@@ -47,7 +46,7 @@ public class FichierPanelModel extends AbstractModel {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public Class getColumnClass(int col) {
-		if (col == INDEX_PUBLISH_YEAR || col == INDEX_FILE_SIZE || col == INDEX_RANK) {
+		if (col == INDEX_PUBLISH_YEAR || col == INDEX_FILE_SIZE) {
 			return Integer.class;
 		} else {
 			return String.class;
