@@ -13,9 +13,9 @@ import javax.swing.SortOrder;
 
 import org.apache.log4j.Logger;
 
-import pmb.music.AllMusic.utils.Constant;
-
 import com.opencsv.CSVWriter;
+
+import pmb.music.AllMusic.utils.Constant;
 
 /**
  * Classe pour les fichiers csv.
@@ -28,6 +28,7 @@ public class CsvFile {
 	private static final int SEARCH_INDEX_TITRE = 1;
 	private static final int SEARCH_INDEX_TYPE = 2;
 	private static final int SEARCH_INDEX_NB_FILE = 3;
+	private static final int SEARCH_INDEX_SCORE = 4;
 	
 	private static final int ARTIST_INDEX_ARTIST = 0;
 	private static final int ARTIST_INDEX_NB_TOTAL = 1;
@@ -44,41 +45,43 @@ public class CsvFile {
 	 * @param sortKey {@link SortKey} le tri du tableau
 	 * @return  le nom du fichier
 	 */
-	public static String writeCsvFromSearchResult(Vector<Vector<Object>> dataVector, String filename, String criteres, SortKey sortKey) {
+	public static String writeCsvFromSearchResult(Vector<Vector<Object>> dataVector, String filename, String criteres,
+			SortKey sortKey) {
 		LOG.debug("Start writeCsvFromSearchResult");
 		// Convertion en liste
-		List<String []> csv = new ArrayList<>();
+		List<String[]> csv = new ArrayList<>();
 		for (int i = 0; i < dataVector.size(); i++) {
 			Vector<Object> vector = dataVector.get(i);
-			String[] row = new String[4];
+			String[] row = new String[5];
 			row[SEARCH_INDEX_ARTIST] = (String) vector.get(SEARCH_INDEX_ARTIST);
 			row[SEARCH_INDEX_TITRE] = (String) vector.get(SEARCH_INDEX_TITRE);
 			row[SEARCH_INDEX_TYPE] = (String) vector.get(SEARCH_INDEX_TYPE);
 			row[SEARCH_INDEX_NB_FILE] = String.valueOf(vector.get(SEARCH_INDEX_NB_FILE));
+			row[SEARCH_INDEX_SCORE] = String.valueOf(vector.get(SEARCH_INDEX_SCORE));
 			csv.add(row);
 		}
-		
+
 		// Tri
 		int column = sortKey.getColumn();
-		Comparator<String []> sort = null;
-		if(column == SEARCH_INDEX_NB_FILE) {
-			sort = (c1, c2) -> Integer.valueOf(c1[SEARCH_INDEX_NB_FILE]).compareTo(Integer.valueOf(c2[SEARCH_INDEX_NB_FILE]));
-		} else if(column < SEARCH_INDEX_NB_FILE && column >= 0) {
+		Comparator<String[]> sort = null;
+		if (column == SEARCH_INDEX_NB_FILE || column == SEARCH_INDEX_SCORE) {
+			sort = (c1, c2) -> Integer.valueOf(c1[column]).compareTo(Integer.valueOf(c2[column]));
+		} else if (column < SEARCH_INDEX_NB_FILE && column >= 0) {
 			sort = (c1, c2) -> c1[column].compareToIgnoreCase(c2[column]);
 		}
-		if(sort!=null){
-			if(SortOrder.DESCENDING.equals(sortKey.getSortOrder())) {
+		if (sort != null) {
+			if (SortOrder.DESCENDING.equals(sortKey.getSortOrder())) {
 				csv.sort(sort.reversed());
 			} else {
 				csv.sort(sort);
 			}
 		}
 
-		String[] header = {"Artiste","Titre", "Type", "Nombre de fichiers", "Critères: " + criteres};
+		String[] header = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Critères: " + criteres };
 		LOG.debug("End writeCsvFromSearchResult");
 		return exportCsv(filename, csv, header);
 	}
-	
+
 	/**
 	 * Crée un fichier {@code CSV} à partir des résultats de recherche de l'écran artiste.
 	 * @param dataVector les données issues d'une recherche
