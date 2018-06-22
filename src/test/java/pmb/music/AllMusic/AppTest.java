@@ -106,6 +106,7 @@ public class AppTest {
 			Vector<Object> vector = new Vector<Object>();
 			vector.add(composition.getArtist());
 			vector.add(composition.getTitre());
+			vector.add(type.toString());
 			vector.add(String.valueOf(composition.getFiles().stream().filter(f -> f.getCategorie() != Cat.YEAR)
 					.findFirst().orElse(composition.getFiles().get(0)).getPublishYear()));
 			long sumPts = CompositionUtils.calculateCompositionScore(logMax, doubleMedian, composition);
