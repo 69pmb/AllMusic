@@ -365,7 +365,7 @@ public class SearchPanel extends JPanel {
 		deleteLabel = new JLabel("");
 		deleteLabel.setForeground(new Color(8, 187, 81));
 		Font labelFont2 = deleteLabel.getFont();
-		deleteLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 30));
+		deleteLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 20));
 		deletePanel.add(deleteLabel);
 		searchFields.add(deletePanel);
 
