@@ -80,6 +80,11 @@ public class PanelUtils {
 	@SuppressWarnings("unchecked")
 	public static void deleteCompositionAction(final ArtistPanel artistPanel, List<Composition> compoList, List<Object> selected, JLabel label) {
 		LOG.debug("Start deleteCompositionAction");
+		if(selected.isEmpty()) {
+			label.setText("Aucune composition sélectionnée !");
+			LOG.debug("End deleteCompositionAction, no selected composition");
+			return;
+		}
 		label.setText("");
 		artistPanel.interruptUpdateArtist();
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
