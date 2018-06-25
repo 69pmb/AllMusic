@@ -40,7 +40,7 @@ import pmb.music.AllMusic.view.Onglet;
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
 	
-	public static void detectsDuplicateFinal(boolean song, boolean album, boolean ignoreUnmergeableFiles) {
+	public static void detectsDuplicateFinal(boolean song, boolean album, boolean ignoreUnmergeableFiles, boolean byYear) {
 		LOG.debug("Start detectsDuplicateFinal");
 		StringBuilder result = new StringBuilder();
 		addLine(result, "DetectsDuplicateFinal: ");
@@ -49,10 +49,10 @@ public class BatchUtils {
 		addLine(result, "Ignore Unmergeable Files: " + ignoreUnmergeableFiles);
 
 		if(song) {
-			detectsDuplicateFinal(RecordType.SONG.toString(), ignoreUnmergeableFiles, result);
+			detectsDuplicateFinal(RecordType.SONG.toString(), ignoreUnmergeableFiles, byYear, result);
 		}
 		if(album) {
-			detectsDuplicateFinal(RecordType.ALBUM.toString(), ignoreUnmergeableFiles, result);
+			detectsDuplicateFinal(RecordType.ALBUM.toString(), ignoreUnmergeableFiles, byYear, result);
 		}
 		
 		writeInFile(result);
@@ -260,13 +260,16 @@ public class BatchUtils {
 	/**
 	 * Show all the duplicates for a year and a type regardless of the artist, only
 	 * based on the song or album.
+	 * @param byYear TODO
 	 */
-	public static void detectsDuplicateFinal(String type, boolean ignoreUnmergeableFiles, StringBuilder result) {
+	public static void detectsDuplicateFinal(String type, boolean ignoreUnmergeableFiles, boolean byYear,
+			StringBuilder result) {
 		LOG.debug("Start detectsDuplicateFinal");
 		double startTime = System.currentTimeMillis();
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		int i = 0;
-		while (findFirstDuplicate(type, jaro, ignoreUnmergeableFiles, result)) {
+		while ((!byYear && findFirstDuplicate(type, jaro, ignoreUnmergeableFiles, result))
+				|| (byYear && detectsDuplicate(type, jaro, result))) {
 			i++;
 		}
 		double endTime = System.currentTimeMillis();
@@ -275,7 +278,6 @@ public class BatchUtils {
 		LOG.debug("End detectsDuplicateFinal");
 	}
 	
-
 	private static boolean findFirstDuplicate(String type, final JaroWinklerDistance jaro,
 			boolean ignoreUnmergeableFiles, StringBuilder result) {
 		LOG.debug("Start findFirstDuplicate");
@@ -348,6 +350,57 @@ public class BatchUtils {
 			}
 		}
 		LOG.debug("End findFirstDuplicate, no result");
+		return false;
+	}
+
+	/**
+	 * Show all the duplicates for a year and a type regardless of the artist, only
+	 * based on the song or album.
+	 */
+	private static boolean detectsDuplicate(String type, final JaroWinklerDistance jaro, StringBuilder result) {
+		LOG.debug("Debut detectsDuplicate");
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		int maxYear = importXML.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getPublishYear)
+				.mapToInt(i -> i).max().getAsInt();
+		int minYear = importXML.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getPublishYear)
+				.mapToInt(i -> i).filter(y -> y != 0).min().getAsInt();
+		for (int year = minYear; year <= maxYear; year++) {
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put("cat", Cat.YEAR.toString());
+			criteria.put("publish", String.valueOf(year));
+			criteria.put("type", type);
+			List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+			addLine(result, "Year: " + year);
+			addLine(result, "Size: " + yearList.size());
+			for (int i = 0; i < yearList.size(); i++) {
+				for (int j = 0; j < yearList.size(); j++) {
+					if (i < j) {
+						Composition composition1 = yearList.get(i);
+						Composition composition2 = yearList.get(j);
+						String titre1 = composition1.getTitre();
+						String titre2 = composition2.getTitre();
+						String newTitre1 = SearchUtils.removePunctuation2(titre1);
+						String newTitre2 = SearchUtils.removePunctuation2(titre2);
+						String artist1 = composition1.getArtist();
+						String artist2 = composition2.getArtist();
+						int publishYear1 = composition1.getFiles().get(0).getPublishYear();
+						int publishYear2 = composition2.getFiles().get(0).getPublishYear();
+						boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2)
+								|| StringUtils.startsWithIgnoreCase(artist2, artist1);
+						boolean equalsJaroPar = publishYear1 == publishYear2 && (SearchUtils.isEqualsJaro(jaro,
+								newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION)
+								|| StringUtils.startsWithIgnoreCase(titre1, titre2)
+								|| StringUtils.startsWithIgnoreCase(newTitre1, newTitre2)) && similarArtist;
+						if (equalsJaroPar) {
+							mergeTwoCompositions(yearList, i, j, result);
+							LOG.debug("End detectsDuplicate, find duplicate");
+							return true;
+						}
+					}
+				}
+			}
+		}
+		LOG.debug("Fin detectsDuplicate");
 		return false;
 	}
 

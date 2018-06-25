@@ -21,7 +21,6 @@ import java.util.stream.Collectors;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
@@ -241,62 +240,6 @@ public class AppTest {
 		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test6)));
 		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test7)));
 		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test8)));
-	}
-
-	/**
-	 * Show all the duplicates for a year and a type regardless of the artist, only
-	 * based on the song or album.
-	 * 
-	 * @deprecated replaced by {@link AppTest#detectsDuplicateFinal(String)}
-	 */
-	public static void detectsDuplicate(String type, int YEAR_TOP) {
-		LOG.debug("Debut detectsDuplicate");
-		final JaroWinklerDistance jaro = new JaroWinklerDistance();
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-		if (CollectionUtils.isNotEmpty(importXML)) {
-			// String year = String.valueOf(YEAR_TOP);
-			Map<String, String> criteria = new HashMap<>();
-			criteria.put("cat", Cat.YEAR.toString());
-			// criteria.put("dateB", year);
-			// criteria.put("dateE", year);
-			// criteria.put("publish", year);
-			criteria.put("type", type);
-			List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
-			LOG.debug("Size: " + yearList.size());
-			List<Integer[]> duplicate = new ArrayList<Integer[]>();
-			for (int i = 0; i < yearList.size(); i++) {
-				for (int j = 0; j < yearList.size(); j++) {
-					if (i < j) {
-						Composition composition1 = yearList.get(i);
-						Composition composition2 = yearList.get(j);
-						String titre1 = composition1.getTitre();
-						String titre2 = composition2.getTitre();
-						String newTitre1 = SearchUtils.removePunctuation2(titre1);
-						String newTitre2 = SearchUtils.removePunctuation2(titre2);
-						String artist1 = composition1.getArtist();
-						String artist2 = composition2.getArtist();
-						int publishYear1 = composition1.getFiles().get(0).getPublishYear();
-						int publishYear2 = composition2.getFiles().get(0).getPublishYear();
-						boolean result = (SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2,
-								Constant.SCORE_LIMIT_TITLE_FUSION) || StringUtils.startsWithIgnoreCase(titre1, titre2)
-								|| StringUtils.startsWithIgnoreCase(titre2, titre1))
-								&& (StringUtils.startsWithIgnoreCase(artist1, artist2)
-										|| StringUtils.startsWithIgnoreCase(artist2, artist1))
-								&& publishYear1 == publishYear2;
-						if (result) {
-							duplicate.add(new Integer[] { i, j });
-						}
-					}
-				}
-			}
-			LOG.debug("Size: " + duplicate.size());
-			for (Integer[] integers : duplicate) {
-				LOG.debug("###########################################");
-				LOG.debug(yearList.get(integers[0]));
-				LOG.debug(yearList.get(integers[1]));
-			}
-		}
-		LOG.debug("Fin detectsDuplicate");
 	}
 
 	public static void setCanBeMerged() {
