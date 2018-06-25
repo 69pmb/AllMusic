@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.BooleanUtils;
@@ -63,7 +64,7 @@ public class SearchUtils {
 				|| StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB) || StringUtils.isNotBlank(dateE) || StringUtils.isNotBlank(sorted);
 
 		if (searchCompo || searchFile) {
-			LOG.debug("Il y a des critères de recherche");
+			LOG.debug("Critères de recherche: " + criteria.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
 			CollectionUtils.filter(arrayList,
 					(Object c) -> filterJaro(searchInFiles, jaro, artist, titre, type, publish, fileName, auteur, cat, dateB, dateE, sorted, searchFile, c));
 		}
