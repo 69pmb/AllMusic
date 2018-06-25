@@ -97,14 +97,21 @@ public class BatchPanel extends JPanel {
 		fdcUnmergeable.setSelected(true);
 		PanelUtils.addComponent(fdc, fdcUnmergeableLabel, Component.LEFT_ALIGNMENT, 0);
 		PanelUtils.addComponent(fdc, fdcUnmergeable, Component.LEFT_ALIGNMENT, 100);
+		
+		// Checkbox year
+		JLabel fdcYearLabel = new JLabel("Uniquement les fichiers YEAR: ");
+		JCheckBox fdcYear = new JCheckBox();
+		PanelUtils.addComponent(fdc, fdcYearLabel, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(fdc, fdcYear, Component.LEFT_ALIGNMENT, 100);
 
+		// Launch Button
 		JButton fdcBtn = new JButton("Go");
 		fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
 		fdcBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				BatchUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
-						fdcUnmergeable.isSelected());
+						fdcUnmergeable.isSelected(), fdcYear.isSelected());
 				displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
