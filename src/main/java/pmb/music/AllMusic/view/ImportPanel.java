@@ -18,6 +18,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -583,10 +584,15 @@ public class ImportPanel extends JPanel {
 			result = new LinkedList<>(Arrays.asList(name.getText() + " OK !"));
 
 			try {
-				List<Composition> compoList = ImportFile.getCompositionsFromFile(new File(absolutePathFileTxt), fichier, (RecordType) type.getSelectedItem(),
-						separator.getText(), result, order.isSelected(), reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
+				List<Composition> compoList = ImportFile.getCompositionsFromFile(new File(absolutePathFileTxt), fichier,
+						(RecordType) type.getSelectedItem(), separator.getText(), result, order.isSelected(),
+						reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
 						removeAfter.isSelected());
-				ExportXML.exportXML(compoList, name.getText());
+				List<Composition> newCompoList = compoList.stream().map(compo -> {
+					compo.setCanBeMerged(true);
+					return compo;
+				}).collect(Collectors.toList());
+				ExportXML.exportXML(newCompoList, name.getText());
 				absolutePathFileXml = Constant.XML_PATH + name.getText() + Constant.XML_EXTENSION;
 			} catch (IOException | MyException e) {
 				LOG.error("Erreur lors de l'import du fichier: " + absolutePathFileTxt, e);
