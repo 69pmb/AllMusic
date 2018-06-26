@@ -53,6 +53,7 @@ public class DialogFileTable extends JDialog {
 
 	private static final int VECTOR_INDEX_OEUVRE = 1;
 	private static final int VECTOR_INDEX_FILE_NAME = 4;
+	private static final int VECTOR_INDEX_AUTEUR = 3;
 
 	private JTable fichiers;
 
@@ -117,28 +118,26 @@ public class DialogFileTable extends JDialog {
 
 	@SuppressWarnings("unchecked")
 	private void mouseAction(MouseEvent e) {
+		JTable target = (JTable) e.getSource();
+		int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+		if (rowAtPoint > -1) {
+			target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+		}
 		if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 2) {
 			LOG.debug("Start fichier mouse");
-			// Double click droit -> ouvre le fichier XML
-			JTable target = (JTable) e.getSource();
+			// Double click droit -> ouvre le fichier txt
 			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-			String absFile = Constant.XML_PATH + v.get(VECTOR_INDEX_FILE_NAME) + Constant.XML_EXTENSION;
+					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+			Optional<String> filePath = FichierUtils.buildTxtFilePath(v.get(VECTOR_INDEX_FILE_NAME), v.get(VECTOR_INDEX_AUTEUR));
 			try {
-				FichierUtils.openFileInNotepad(Optional.of(absFile));
+				FichierUtils.openFileInNotepad(filePath);
 			} catch (MyException e1) {
-				LOG.error("Erreur lors de l'ouverture du fichier: " + absFile, e1);
+				LOG.error("Erreur lors de l'ouverture du fichier: " + filePath, e1);
 			}
 			LOG.debug("End fichier mouse");
 		} else if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 1) {
 			LOG.debug("Start right mouse");
 			// simple click droit -> copie le nom du fichier dans le presse papier
-			JTable target = (JTable) e.getSource();
-			int rowAtPoint = target
-					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
-			if (rowAtPoint > -1) {
-				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
-			}
 			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			StringSelection selection = new StringSelection(v.get(VECTOR_INDEX_FILE_NAME));
@@ -149,7 +148,6 @@ public class DialogFileTable extends JDialog {
 			LOG.debug("Start double right mouse");
 			// Double click gauche -> Ouvre une popup pour afficher les compositions du
 			// fichier sélectionné
-			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			List<Composition> compo = ImportXML
