@@ -76,6 +76,7 @@ public class SearchPanel extends JPanel {
 	private JTextField rangeB;
 	private JTextField rangeE;
 	private JTextField fileName;
+	private JCheckBox sorted;
 
 	private final JTable result;
 
@@ -226,7 +227,8 @@ public class SearchPanel extends JPanel {
 							type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(),
 							titre.getSelectedItem() == null ? "" : titre.getSelectedItem().toString(),
 							artist.getSelectedItem() == null ? "" : artist.getSelectedItem().toString(),
-							author.getSelectedItem() == null ? "" : author.getSelectedItem().toString())
+							author.getSelectedItem() == null ? "" : author.getSelectedItem().toString(),
+							Boolean.toString(sorted.isSelected()))
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
 			String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search", criteres, result.getRowSorter().getSortKeys().get(0));
@@ -347,6 +349,16 @@ public class SearchPanel extends JPanel {
 		publiPanel.add(publiLabel);
 		publiPanel.add(publi);
 		searchFields.add(publiPanel);
+		
+		// Sorted
+		JPanel sortedPanel = new JPanel();
+		sortedPanel.setPreferredSize(new Dimension(200, 25));
+		JLabel sortedLabel = new JLabel("Trié : ");
+		sorted = new JCheckBox();
+		sorted.setPreferredSize(new Dimension(150, 25));
+		sortedPanel.add(sortedLabel);
+		sortedPanel.add(sorted);
+		searchFields.add(sortedPanel);
 
 		// Nombre de résultat
 		JPanel countPanel = new JPanel();
@@ -397,6 +409,9 @@ public class SearchPanel extends JPanel {
 			}
 			criteria.put("dateB", rangeB.getText());
 			criteria.put("dateE", rangeE.getText());
+			if (sorted.isSelected()) {
+				criteria.put("sorted", Boolean.TRUE.toString());
+			}
 
 			compoResult = new ArrayList<>();
 			compoResult.addAll(SearchUtils.searchJaro(allCompo, criteria, inFiles.isSelected()));
@@ -427,6 +442,7 @@ public class SearchPanel extends JPanel {
 		fileName.setText("");
 		author.setSelectedItem(null);
 		cat.setSelectedItem(null);
+		sorted.setSelected(false);
 		rangeB.setText("");
 		rangeE.setText("");
 		deleteLabel.setText("");
