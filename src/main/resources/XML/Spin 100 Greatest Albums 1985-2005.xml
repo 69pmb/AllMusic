@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="1" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
   <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="2" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="3" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Pavement" titre="Slanted And Enchanted" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="4" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="5" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Pixies" titre="Surfer Rosa" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="6" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="De La Soul" titre="3 Feet High And Rising" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="7" creationDate="25/01/2017 10:01:42" size="100"/>
@@ -19,6 +31,12 @@
   <Composition artist="N.W.A." titre="Straight Outta Compton" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="10" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
+  <Composition artist="U2" titre="Achtung Baby" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="11" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Beastie Boys" titre="Paul's Boutique" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="12" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
   <Composition artist="Husker Du" titre="New Day Rising" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="13" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
@@ -28,8 +46,17 @@
   <Composition artist="Liz Phair" titre="Exile In Guyville" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="15" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
+  <Composition artist="Beck" titre="Odelay" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="16" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
   <Composition artist="Nas" titre="Illmatic" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="17" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="18" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Hole" titre="Live Through This" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="19" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="Wu-Tang Clan" titre="Enter The Wu-Tang" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="20" creationDate="25/01/2017 10:01:42" size="100"/>
@@ -79,6 +106,9 @@
   <Composition artist="Dr. Dre" titre="The Chronic" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="35" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
+  <Composition artist="Pixies" titre="Doolittle" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="36" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
   <Composition artist="Guided By Voices" titre="Bee Thousand" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="37" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
@@ -91,11 +121,17 @@
   <Composition artist="Run-D.M.C" titre="Raising Hell" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="40" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
+  <Composition artist="Smashing Pumpkins" titre="Siamese Dream" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="41" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
   <Composition artist="Jane's Addiction" titre="Nothing's Shocking" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="42" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="Boogie Down Productions" titre="Criminal Minded" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="43" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Green Day" titre="Dookie" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="44" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="Kanye West" titre="College Dropout" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="45" creationDate="25/01/2017 10:01:42" size="100"/>
@@ -172,17 +208,29 @@
   <Composition artist="DJ Shadow" titre="Entroducing Dj Shadow" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="69" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
+  <Composition artist="Jay-Z" titre="The Blueprint" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="70" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
   <Composition artist="The Jesus And Mary Chain" titre="Psychocandy" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="71" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="Raekwon" titre="Only Built 4 Cuban Linx" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="72" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
+  <Composition artist="Pulp" titre="Different Class" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="73" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Portishead" titre="Dummy" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="74" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
   <Composition artist="Le Tigre" titre="Le Tigre" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="75" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="Belle And Sebastian" titre="If You're Feeling Sinister" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="76" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Wilco" titre="Yankee Hotel Foxtrot" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="77" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="The Stone Roses" titre="The Stone Roses" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="78" creationDate="25/01/2017 10:01:42" size="100"/>
@@ -195,6 +243,9 @@
   </Composition>
   <Composition artist="Beck" titre="Mellow Gold" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="81" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Jeff Buckley" titre="Grace" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="82" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="At The Drive-In" titre="Relationship Of Command" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="83" creationDate="25/01/2017 10:01:42" size="100"/>
@@ -225,6 +276,9 @@
   </Composition>
   <Composition artist="Big Black" titre="Atomizer" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="92" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Pearl Jam" titre="Ten" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="93" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="Slint" titre="Spiderland" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="94" creationDate="25/01/2017 10:01:42" size="100"/>
@@ -291,6 +345,9 @@
   </Composition>
   <Composition artist="Various Artist" titre="Return Of The Dj, Volume 1" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="10" creationDate="25/01/2017 10:01:42" size="100"/>
+  </Composition>
+  <Composition artist="Prince" titre="Purple Rain" type="ALBUM" canBeMerged="true">
+    <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="1" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
   <Composition artist="Minuteman" titre="Double Nickels On The Dime" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="2" creationDate="25/01/2017 10:01:42" size="100"/>
@@ -439,34 +496,34 @@
   <Composition artist="Master P" titre="Only God Can Judge Me" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="10" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="Operation Ivy" titre="Energy, Ska Punk" type="ALBUM" canBeMerged="true">
+  <Composition artist="Operation Ivy" titre="Energy" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="1" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="The Chills" titre="Kaleidoscope, Kiwi Pop" type="ALBUM" canBeMerged="true">
+  <Composition artist="The Chills" titre="Kaleidoscope" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="2" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="Atari Teenage Riot" titre="Burn, Berlin, Burn, Hardcore Techno" type="ALBUM" canBeMerged="true">
+  <Composition artist="Atari Teenage Riot" titre="Burn, Berlin, Burn" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="3" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="The Orb" titre="Uforb, Ambient Techno" type="ALBUM" canBeMerged="true">
+  <Composition artist="The Orb" titre="Uforb" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="4" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="The Cramps" titre="Psychedelic Jungle/Gravest Hits, Psycobilly" type="ALBUM" canBeMerged="true">
+  <Composition artist="The Cramps" titre="Psychedelic Jungle/Gravest Hits" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="5" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="Tiger Trap" titre="Tiger Trap, Cuddlecore" type="ALBUM" canBeMerged="true">
+  <Composition artist="Tiger Trap" titre="Tiger Trap" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="6" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="Codeine" titre="Frigid Stars, Slowcore" type="ALBUM" canBeMerged="true">
+  <Composition artist="Codeine" titre="Frigid Stars" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="7" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="Kid 606" titre="P.S. You Love Me, Intellegint Dance Music" type="ALBUM" canBeMerged="true">
+  <Composition artist="Kid 606" titre="P.S. You Love Me" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="8" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="Gravediggaz" titre="6 Feet Deep, Horrorcore" type="ALBUM" canBeMerged="true">
+  <Composition artist="Gravediggaz" titre="6 Feet Deep" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="9" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
-  <Composition artist="Peaches" titre="The Teaches Of Peaches, Electroclash" type="ALBUM" canBeMerged="true">
+  <Composition artist="Peaches" titre="The Teaches Of Peaches" type="ALBUM" canBeMerged="true">
     <File author="Spin" fileName="Spin 100 Greatest Albums 1985-2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1985" rangeDateEnd="2005" sorted="true" classement="10" creationDate="25/01/2017 10:01:42" size="100"/>
   </Composition>
 </ListCompositions>
