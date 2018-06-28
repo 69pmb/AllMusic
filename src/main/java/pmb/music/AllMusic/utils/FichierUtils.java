@@ -16,12 +16,16 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
+import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 
@@ -82,6 +86,73 @@ public class FichierUtils {
 	}
 
 	/**
+	 * Modifie un fichier, dans le fichier final.xml, dans son fichier xml et renomme si besoin les fichiers XML et TXT.
+	 * @param fileName l'ancien nom du fichier
+	 * @param newFileName le nouveau nom du fichier
+	 * @param newPublish la nouvelle date de publication
+	 * @param newRange le nouveau range
+	 * @param newCat la nouvelle catégorie
+	 * @param newSize la nouvelle taille
+	 * @param newSorted le nouveau sort
+	 * @return le nouveau fichier
+	 * @throws MyException si une erreur surviens pendant les exports xml
+	 */
+	public static Fichier modifyFichier(String fileName, String newFileName, String newPublish, String newRange,
+			String newCat, String newSize, String newSorted) throws MyException {
+		// Modification du fichier xml
+		List<Composition> compoList = ImportXML.importXML(Constant.XML_PATH + fileName + Constant.XML_EXTENSION);
+		compoList.stream()
+				.forEach(modifyOneFile(fileName, newFileName, newPublish, newRange, newCat, newSize, newSorted));
+		Fichier result = compoList.get(0).getFiles().get(0);
+		try {
+			// Sauvegarde des modifications sous le nouveau nom de fichier
+			ExportXML.exportXML(compoList, newFileName);
+		} catch (IOException e) {
+			throw new MyException("Erreur lors de la modification d'une composition dans le fichier: " + fileName, e);
+		}
+		// Supprime l'ancien fichier
+		if (!StringUtils.equals(fileName, newFileName)) {
+			new File(Constant.XML_PATH + fileName + Constant.XML_EXTENSION).delete();
+		}
+		// Modification du fichier final.xml
+		List<Composition> finalList = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		finalList.stream()
+				.filter(c -> c.getFiles().stream().anyMatch(f -> StringUtils.equals(f.getFileName(), fileName)))
+				.forEach(modifyOneFile(fileName, newFileName, newPublish, newRange, newCat, newSize, newSorted));
+		try {
+			// Sauvegarde des modifications
+			ExportXML.exportXML(finalList, Constant.FINAL_FILE);
+		} catch (IOException e) {
+			throw new MyException("Erreur lors de la modification d'une composition dans le fichier final", e);
+		}
+		// Renomme le fichier txt
+		String txtPath = buildTxtFilePath(fileName, result.getAuthor()).get();
+		String newTxt = StringUtils.substringBeforeLast(
+				StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), Constant.JAVA_SLASH)
+				+ Constant.JAVA_SLASH + newFileName + Constant.TXT_EXTENSION;
+		renameFile(txtPath, newTxt);
+		return result;
+	}
+
+	private static Consumer<? super Composition> modifyOneFile(String fileName, String newFileName, String newPublish,
+			String newRange, String newCat, String newSize, String newSorted) {
+		return c -> {
+			List<Fichier> list = c.getFiles().stream().filter(f -> StringUtils.equals(f.getFileName(), fileName))
+					.collect(Collectors.toList());
+			list.forEach(fichier -> {
+				fichier.setFileName(newFileName);
+				fichier.setPublishYear(Integer.valueOf(newPublish));
+				String[] split = StringUtils.split(newRange, " - ");
+				fichier.setRangeDateBegin(Integer.valueOf(split[0]));
+				fichier.setRangeDateEnd(Integer.valueOf(split[1]));
+				fichier.setCategorie(Cat.valueOf(newCat));
+				fichier.setSize(Integer.valueOf(newSize));
+				fichier.setSorted(StringUtils.equalsIgnoreCase(newSorted, "oui") ? Boolean.TRUE : Boolean.FALSE);
+			});
+		};
+	}
+
+	/**
 	 * Crée le dossier si il n'existe pas.
 	 * 
 	 * @param nomDir le chemin du dossier
@@ -92,6 +163,10 @@ public class FichierUtils {
 		}
 	}
 
+	public static void renameFile(String source, String destination) {
+		new File(source).renameTo(new File(destination));
+	}
+	
 	/**
 	 * Récupère la liste des fichiers d'un dossier.
 	 * @param folder le dossier où chercher
