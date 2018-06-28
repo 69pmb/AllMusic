@@ -501,7 +501,7 @@ public class FichierPanel extends JPanel {
 			CollectionUtils.filter(fichiers,
 					(Object f) -> SearchUtils.evaluateFichierStrictly(publi.getText(), name.getText(),
 							auteur.getSelectedItem().toString(), cat.getSelectedItem().toString(), rangeB.getText(),
-							rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "",
+							rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "",null,
 							f));
 			updateFileTable();
 		}

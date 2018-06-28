@@ -57,16 +57,17 @@ public class SearchUtils {
 		final String dateB = criteria.get("dateB");
 		final String dateE = criteria.get("dateE");
 		final String sorted = criteria.get("sorted");
+		final String topTen = criteria.get("top");
 
 		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre) || StringUtils.isNotBlank(type);
 
 		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName) || StringUtils.isNotBlank(auteur)
-				|| StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB) || StringUtils.isNotBlank(dateE) || StringUtils.isNotBlank(sorted);
+				|| StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB) || StringUtils.isNotBlank(dateE) || StringUtils.isNotBlank(sorted) || StringUtils.isNotBlank(topTen);
 
 		if (searchCompo || searchFile) {
 			LOG.debug("Critères de recherche: " + criteria.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
 			CollectionUtils.filter(arrayList,
-					(Object c) -> filterJaro(searchInFiles, jaro, artist, titre, type, publish, fileName, auteur, cat, dateB, dateE, sorted, searchFile, c));
+					(Object c) -> filterJaro(searchInFiles, jaro, artist, titre, type, publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
 		}
 		LOG.debug("End searchJaro");
 		return arrayList;
@@ -74,7 +75,7 @@ public class SearchUtils {
 
 	private static boolean filterJaro(final boolean searchInFiles, final JaroWinklerDistance jaro, final String artist, final String titre, final String type,
 			final String publish, final String fileName, final String auteur, final String cat, final String dateB, final String dateE,
-			final String sorted, final boolean searchFile, Object c) {
+			final String sorted, final String topTen, final boolean searchFile, Object c) {
 		Composition co = (Composition) c;
 
 		boolean result = true;
@@ -91,7 +92,7 @@ public class SearchUtils {
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (searchFile && CollectionUtils.isNotEmpty(files) && result) {
 			CollectionUtils.filter(files,
-					(Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, sorted, f));
+					(Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, f));
 		}
 		if (searchInFiles) {
 			co.setFiles(files);
@@ -232,7 +233,7 @@ public class SearchUtils {
 	}
 
 	public static boolean evaluateFichierStrictly(final String publish, final String fileName, final String auteur, final String cat, final String dateB,
-			final String dateE, final String sorted, Object f) {
+			final String dateE, final String sorted, final String topTen, Object f) {
 		Fichier fi = (Fichier) f;
 		boolean result = true;
 
@@ -256,6 +257,9 @@ public class SearchUtils {
 		}
 		if (StringUtils.isNotBlank(sorted)) {
 			result = result && BooleanUtils.toBoolean(sorted) == fi.getSorted();
+		}
+		if (StringUtils.isNotBlank(topTen) && BooleanUtils.toBoolean(topTen)) {
+			result = result && fi.getClassement() <= 10 && fi.getSorted();
 		}
 		return result;
 	}
