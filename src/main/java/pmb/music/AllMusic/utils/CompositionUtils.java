@@ -361,13 +361,13 @@ public class CompositionUtils {
 				importXML.remove(toRemoveFromFile);
 			} else {
 				LOG.error(filename + Constant.NEW_LINE);
-				new MyException("compoExist null: " + toRemove.getArtist() + " " + toRemove.getTitre() + " " + toRemove.getRecordType());
+				throw new MyException("compoExist null: " + toRemove.getArtist() + " " + toRemove.getTitre() + " " + toRemove.getRecordType());
 			}
 			try {
 				// Sauvegarde des modifications
 				ExportXML.exportXML(importXML, file.getFileName());
 			} catch (IOException e) {
-				new MyException("Erreur lors de la suppresion d'une composition dans le fichier: " + file.getFileName(), e);
+				throw new MyException("Erreur lors de la suppresion d'une composition dans le fichier: " + file.getFileName(), e);
 			}
 		}
 		LOG.debug("End removeCompositionsInFiles");
@@ -409,13 +409,13 @@ public class CompositionUtils {
 					// Sauvegarde des modifications
 					ExportXML.exportXML(importXML, file.getFileName());
 				} catch (IOException e) {
-					new MyException("Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(), e);
+					throw new MyException("Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(), e);
 				}
 			} else {
 				LOG.error(filename + Constant.NEW_LINE);
 				String message = "Impossible de trouver la composition à modifier: " + toModif.getArtist() + " " + file + " " + toModif.getTitre() + " " + toModif.getRecordType();
 				LOG.error(message);
-				new MyException(message);
+				throw new MyException(message);
 			}
 		}
 		LOG.debug("End modifyCompositionsInFiles");
