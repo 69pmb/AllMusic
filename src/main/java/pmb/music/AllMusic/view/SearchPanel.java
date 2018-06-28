@@ -77,6 +77,7 @@ public class SearchPanel extends JPanel {
 	private JTextField rangeE;
 	private JTextField fileName;
 	private JCheckBox sorted;
+	private JCheckBox topTen;
 
 	private final JTable result;
 
@@ -228,7 +229,8 @@ public class SearchPanel extends JPanel {
 							titre.getSelectedItem() == null ? "" : titre.getSelectedItem().toString(),
 							artist.getSelectedItem() == null ? "" : artist.getSelectedItem().toString(),
 							author.getSelectedItem() == null ? "" : author.getSelectedItem().toString(),
-							Boolean.toString(sorted.isSelected()))
+							Boolean.toString(sorted.isSelected()),
+							Boolean.toString(topTen.isSelected()))
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
 			String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search", criteres, result.getRowSorter().getSortKeys().get(0));
@@ -359,6 +361,16 @@ public class SearchPanel extends JPanel {
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 		searchFields.add(sortedPanel);
+		
+		// TopTen
+		JPanel topPanel = new JPanel();
+		topPanel.setPreferredSize(new Dimension(200, 25));
+		JLabel topLabel = new JLabel("Top 10 : ");
+		topTen = new JCheckBox();
+		topTen.setPreferredSize(new Dimension(150, 25));
+		topPanel.add(topLabel);
+		topPanel.add(topTen);
+		searchFields.add(topPanel);
 
 		// Nombre de résultat
 		JPanel countPanel = new JPanel();
@@ -412,6 +424,9 @@ public class SearchPanel extends JPanel {
 			if (sorted.isSelected()) {
 				criteria.put("sorted", Boolean.TRUE.toString());
 			}
+			if (topTen.isSelected()) {
+				criteria.put("top", Boolean.TRUE.toString());
+			}
 
 			compoResult = new ArrayList<>();
 			compoResult.addAll(SearchUtils.searchJaro(allCompo, criteria, inFiles.isSelected()));
@@ -443,6 +458,7 @@ public class SearchPanel extends JPanel {
 		author.setSelectedItem(null);
 		cat.setSelectedItem(null);
 		sorted.setSelected(false);
+		topTen.setSelected(false);
 		rangeB.setText("");
 		rangeE.setText("");
 		deleteLabel.setText("");
