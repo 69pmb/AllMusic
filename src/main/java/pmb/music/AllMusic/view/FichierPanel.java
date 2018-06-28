@@ -434,7 +434,7 @@ public class FichierPanel extends JPanel {
 		int indexOfXml = importXML.indexOf(compoToModifInFinal);
 		int indexOfResult = compositionList.indexOf(compoToModifInTable);
 		// Lancement de la popup de modification
-		ModifyDialog md = new ModifyDialog(null, "Modifier une composition", true, new Dimension(800, 150), v);
+		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true, new Dimension(800, 150), v);
 		md.showDialogFileTable();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée

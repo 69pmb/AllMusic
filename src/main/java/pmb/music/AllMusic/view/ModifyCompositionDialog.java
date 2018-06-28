@@ -25,10 +25,10 @@ import pmb.music.AllMusic.model.RecordType;
  * @see {@link JDialog}
  */
 @SuppressWarnings("rawtypes")
-public class ModifyDialog extends JDialog {
+public class ModifyCompositionDialog extends JDialog {
 	
 	private static final long serialVersionUID = 1304786661370052913L;
-	private static final Logger LOG = Logger.getLogger(ModifyDialog.class);
+	private static final Logger LOG = Logger.getLogger(ModifyCompositionDialog.class);
 	private final Vector compo;
 	private JTextField artist;
 	private JTextField titre;
@@ -36,7 +36,7 @@ public class ModifyDialog extends JDialog {
 	private boolean sendData;
 
 	/**
-	 * Constructeur.
+	 * Constructeur de {@link ModifyCompositionDialog}.
 	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
@@ -44,7 +44,7 @@ public class ModifyDialog extends JDialog {
 	 * @param dim {@link Dimension} les dimension de la popup
 	 * @param compo {@link Vector} la compo à modifier
 	 */
-	public ModifyDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector compo) {
+	public ModifyCompositionDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector compo) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
@@ -122,7 +122,7 @@ public class ModifyDialog extends JDialog {
 	}
 
 	/**
-	 * Affiche une {@link ModifyDialog}.
+	 * Affiche une {@link ModifyCompositionDialog}.
 	 */
 	public void showDialogFileTable() {
 		LOG.debug("Start showDialogFileTable");
