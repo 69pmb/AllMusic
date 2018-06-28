@@ -37,6 +37,7 @@ import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
@@ -64,6 +65,13 @@ public class FichierPanel extends JPanel {
 
 	private static final int MIN_HEIGHT_TABLE = 42;
 	private static final int MAX_HEIGHT_TABLE = 84;
+	private static final int INDEX_FILE_AUTHOR = 0;
+	private static final int INDEX_FILE_FILE_NAME = 1;
+	private static final int INDEX_FILE_PUBLISH = 2;
+	private static final int INDEX_FILE_CAT = 3;
+	private static final int INDEX_FILE_RANGE = 4;
+	private static final int INDEX_FILE_SIZE = 6;
+	private static final int INDEX_FILE_SORTED = 7;
 
 	private JComboBox<String> auteur;
 	private JTextField name;
@@ -346,28 +354,27 @@ public class FichierPanel extends JPanel {
 
 	@SuppressWarnings("unchecked")
 	private void mouseActionForFileTable(MouseEvent e) {
-		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-			LOG.debug("Start left mouse");
+		JTable target = (JTable) e.getSource();
+		Vector<String> v = (Vector<String>) ((FichierPanelModel) target.getModel()).getDataVector()
+				.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+		if (e.getClickCount() == 1 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+			LOG.debug("Start left mouse, open");
 			// Double click avec le bouton gauche
 			// Affiche les compositions du fichier sélectionné
-			JTable target = (JTable) e.getSource();
-			Vector<String> v = (Vector<String>) ((FichierPanelModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-			compositionList = ImportXML.importXML(Constant.XML_PATH + v.get(1) + Constant.XML_EXTENSION);
+			compositionList = ImportXML
+					.importXML(Constant.XML_PATH + v.get(INDEX_FILE_FILE_NAME) + Constant.XML_EXTENSION);
 			updateCompoTable(compositionList);
-			LOG.debug("End left mouse");
+			LOG.debug("End left mouse, open");
+		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+			LOG.debug("End left mouse, modify");
+			// Popup pour modifier le fichier
+			modifyFichierAction(v);
+			LOG.debug("End left mouse, modify");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Ouvre le fichier txt
-			JTable target = (JTable) e.getSource();
-			int rowAtPoint = target
-					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
-			if (rowAtPoint > -1) {
-				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
-			}
-			Vector<String> v = (Vector<String>) ((FichierPanelModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			Optional<String> filePath = FichierUtils.buildTxtFilePath(v.get(1), v.get(0));
+			Optional<String> filePath = FichierUtils.buildTxtFilePath(v.get(INDEX_FILE_FILE_NAME),
+					v.get(INDEX_FILE_AUTHOR));
 			try {
 				FichierUtils.openFileInNotepad(filePath);
 			} catch (MyException e1) {
@@ -399,6 +406,44 @@ public class FichierPanel extends JPanel {
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
 		}
+	}
+
+	private void modifyFichierAction(Vector<String> selected) {
+		LOG.debug("Start modifyFichierAction");
+		resultLabel.setText("");
+		String fileName = selected.get(INDEX_FILE_FILE_NAME);
+		// Index du fichier dans le tableau
+		int indexOf = fichiers.indexOf(
+				fichiers.stream().filter(f -> StringUtils.equals(f.getFileName(), fileName)).findFirst().get());
+		// Lancement de la popup de modification
+		ModifyFichierDialog md = new ModifyFichierDialog(null, "Modifier un fichier", true, selected);
+		md.showDialogFileTable();
+		Vector<String> newFichier;
+		if (md.isSendData()) {
+			// On recupère le fichier si il a bien été modifié
+			LOG.debug("Fichier modifiée");
+			newFichier = md.getFichier();
+		} else {
+			LOG.debug("Aucune modification");
+			return;
+		}
+		Fichier modifiedFichier = null;
+		try {
+			// Modification du fichier
+			modifiedFichier = FichierUtils.modifyFichier(fileName, newFichier.get(INDEX_FILE_FILE_NAME),
+					newFichier.get(INDEX_FILE_PUBLISH), newFichier.get(INDEX_FILE_RANGE),
+					newFichier.get(INDEX_FILE_CAT), newFichier.get(INDEX_FILE_SIZE), newFichier.get(INDEX_FILE_SORTED));
+		} catch (MyException e) {
+			String log = "Erreur pendant FichierUtils.modifyFichier";
+			LOG.error(log, e);
+			resultLabel.setText(log + e);
+			return;
+		}
+		// Mise à jour du JTable
+		fichiers.set(indexOf, modifiedFichier);
+		updateFileTable();
+		resultLabel.setText("Fichier modifié");
+		LOG.debug("End modifyFichierAction");
 	}
 
 	@SuppressWarnings("unchecked")
@@ -516,7 +561,7 @@ public class FichierPanel extends JPanel {
 				new Vector<>(Arrays.asList(headerFiles)));
 		PanelUtils.colRenderer(tableFiles, true);
 		fichieModel.fireTableDataChanged();
-		tableFiles.getRowSorter().toggleSortOrder(1);
+		tableFiles.getRowSorter().toggleSortOrder(INDEX_FILE_FILE_NAME);
 		tableFiles.repaint();
 		updateCompoTable(new ArrayList<>());
 		LOG.debug("Start updateFileTable");
