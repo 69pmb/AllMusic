@@ -73,7 +73,7 @@ public class FichierUtils {
 			if (getComposition) {
 				v.addElement(f.getClassement());
 			}
-			v.addElement(f.getSorted().toString().toUpperCase());
+			v.addElement(f.getSorted() ? "Oui" : "Non");
 			result.add(v);
 		}
 		LOG.debug("End convertListForJTable");
