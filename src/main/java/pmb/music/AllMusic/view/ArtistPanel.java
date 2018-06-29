@@ -19,6 +19,7 @@ import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -33,8 +34,13 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.RowSorter;
+import javax.swing.RowSorter.SortKey;
+import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+import javax.swing.event.RowSorterEvent;
+import javax.swing.event.RowSorterListener;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
@@ -62,6 +68,8 @@ public class ArtistPanel extends JPanel {
 	private static final long serialVersionUID = 2593372709628283573L;
 
 	private static final Logger LOG = Logger.getLogger(ArtistPanel.class);
+	private static final int INDEX_ARTIST = 0;
+	private static final int INDEX_NB_TOTAL = 1;
 
 	private final JTextField publi;
 	private final JTextField rangeB;
@@ -70,6 +78,8 @@ public class ArtistPanel extends JPanel {
 	private final JComboBox<Cat> cat;
 	private final JButton search;
 	private final JButton reset;
+	private Integer sortedColumn;
+	private SortOrder sortOrder;
 
 	private final JTable table;
 
@@ -177,8 +187,18 @@ public class ArtistPanel extends JPanel {
 		model = new ArtistModel(new Object[0][2], title);
 		table.setModel(model);
 		table.setRowSorter(new TableRowSorter<TableModel>(model));
-		table.getRowSorter().toggleSortOrder(1);
-		table.getRowSorter().toggleSortOrder(1);
+		table.getRowSorter().addRowSorterListener(new RowSorterListener() {
+			@Override
+			public void sorterChanged(RowSorterEvent e) {
+				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+					List<SortKey> sortKeys = e.getSource().getSortKeys();
+					if (!sortKeys.isEmpty()) {
+						sortedColumn = ((SortKey) sortKeys.get(0)).getColumn();
+						sortOrder = ((SortKey) sortKeys.get(0)).getSortOrder();
+					}
+				}
+			}
+		});
 		PanelUtils.colRenderer(table, false);
 
 		updateArtistPanel();
@@ -283,8 +303,11 @@ public class ArtistPanel extends JPanel {
 	private void updateTable() {
 		PanelUtils.colRenderer(table, true);
 		model.fireTableDataChanged();
-		table.getRowSorter().toggleSortOrder(1);
-		table.getRowSorter().toggleSortOrder(1);
+		if (sortedColumn == null) {
+			sortedColumn = INDEX_NB_TOTAL;
+			sortOrder = SortOrder.DESCENDING;
+		}
+		table.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
 		table.repaint();
 		selectedRow = -1;
 	}
@@ -299,9 +322,9 @@ public class ArtistPanel extends JPanel {
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			LOG.debug(v);
 			List<Fichier> files = new ArrayList<>();
-			List<Composition> findByArtist = CompositionUtils.findByArtist(list, v.get(0));
+			List<Composition> findByArtist = CompositionUtils.findByArtist(list, v.get(INDEX_ARTIST));
 			files.addAll(findByArtist.stream().map(Composition::getFiles).flatMap(l -> l.stream()).collect(Collectors.toList()));
-			DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600));
+			DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600), DialogFileTable.INDEX_TITLE);
 			pop.showDialogFileTable();
 			LOG.debug("End artist mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
@@ -312,7 +335,7 @@ public class ArtistPanel extends JPanel {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
 			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(0));
+			StringSelection selection = new StringSelection(v.get(INDEX_ARTIST));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End artist right mouse");
@@ -332,7 +355,7 @@ public class ArtistPanel extends JPanel {
 		// Check each cell to see if it starts with typed char.
 		// if so set corresponding row selected and return.
 		for (int row = startRow + 1; row < tableModel.getRowCount(); row++) {
-			String value = ((Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row))).get(0);
+			String value = ((Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row))).get(INDEX_ARTIST);
 			if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
 				target.getSelectionModel().clearSelection();
 				target.getColumnModel().getSelectionModel().clearSelection();

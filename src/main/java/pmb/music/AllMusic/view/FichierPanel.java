@@ -16,6 +16,7 @@ import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
@@ -31,8 +32,13 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.RowSorter;
+import javax.swing.RowSorter.SortKey;
+import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+import javax.swing.event.RowSorterEvent;
+import javax.swing.event.RowSorterListener;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
@@ -65,6 +71,7 @@ public class FichierPanel extends JPanel {
 
 	private static final int MIN_HEIGHT_TABLE = 42;
 	private static final int MAX_HEIGHT_TABLE = 84;
+	
 	private static final int INDEX_FILE_AUTHOR = 0;
 	private static final int INDEX_FILE_FILE_NAME = 1;
 	private static final int INDEX_FILE_PUBLISH = 2;
@@ -72,6 +79,11 @@ public class FichierPanel extends JPanel {
 	private static final int INDEX_FILE_RANGE = 4;
 	private static final int INDEX_FILE_SIZE = 6;
 	private static final int INDEX_FILE_SORTED = 7;
+	
+	private static final int INDEX_COMPO_ARTIST = 0;
+	private static final int INDEX_COMPO_TITLE= 1;
+	private static final int INDEX_COMPO_TYPE = 2;
+	private static final int INDEX_COMPO_RANK = 3;
 
 	private JComboBox<String> auteur;
 	private JTextField name;
@@ -84,19 +96,25 @@ public class FichierPanel extends JPanel {
 	private JButton reset;
 	private JLabel resultLabel;
 
+	// Fichier componants
 	private JPanel fichierPanel;
 	private JTable tableFiles;
 	private FichierPanelModel fichieModel;
 	private List<Fichier> fichiers;
 	private JButton hideFileList;
 	private boolean showFichierTable = true;
+	private Integer sortedFichierColumn;
+	private SortOrder sortFichierOrder;
 
+	// Composition componants
 	private JPanel compoPanel;
 	private JTable tableCompo;
 	private CompoFichierPanelModel compoModel;
 	private List<Composition> compositionList;
 	private JButton hideCompoList;
 	private boolean showCompoTable = true;
+	private Integer sortedCompoColumn;
+	private SortOrder sortCompoOrder;
 
 	private Dimension parentSize;
 
@@ -320,6 +338,19 @@ public class FichierPanel extends JPanel {
 				mouseActionForFileTable(e);
 			}
 		});
+		tableFiles.getRowSorter().addRowSorterListener(new RowSorterListener() {
+			@Override
+			@SuppressWarnings("unchecked")
+			public void sorterChanged(RowSorterEvent e) {
+				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+					List<SortKey> sortKeys = e.getSource().getSortKeys();
+					if (!sortKeys.isEmpty()) {
+						sortedFichierColumn = ((SortKey) sortKeys.get(0)).getColumn();
+						sortFichierOrder = ((SortKey) sortKeys.get(0)).getSortOrder();
+					}
+				}
+			}
+		});
 
 		fichierPanel.add(new JScrollPane(tableFiles), BorderLayout.CENTER);
 		this.add(fichierPanel);
@@ -344,6 +375,19 @@ public class FichierPanel extends JPanel {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				mouseActionForCompoTable(e, artistPanel);
+			}
+		});
+		tableCompo.getRowSorter().addRowSorterListener(new RowSorterListener() {
+			@Override
+			@SuppressWarnings("unchecked")
+			public void sorterChanged(RowSorterEvent e) {
+				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+					List<SortKey> sortKeys = e.getSource().getSortKeys();
+					if (!sortKeys.isEmpty()) {
+						sortedCompoColumn = ((SortKey) sortKeys.get(0)).getColumn();
+						sortCompoOrder = ((SortKey) sortKeys.get(0)).getSortOrder();
+					}
+				}
 			}
 		});
 
@@ -401,7 +445,7 @@ public class FichierPanel extends JPanel {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
-			StringSelection selection = new StringSelection(selectedRow.get(0) + " " + selectedRow.get(1));
+			StringSelection selection = new StringSelection(selectedRow.get(INDEX_COMPO_ARTIST) + " " + selectedRow.get(INDEX_COMPO_TITLE));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
@@ -461,8 +505,8 @@ public class FichierPanel extends JPanel {
 		Fichier currentFile = null;
 		try {
 			// On récupère la composition à modifier
-			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(0), v.get(1),
-					v.get(2), true);
+			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(INDEX_COMPO_ARTIST), v.get(INDEX_COMPO_TITLE),
+					v.get(INDEX_COMPO_TYPE), true);
 			currentFile = compoToModifInTable.getFiles().get(0);
 			Optional<Composition> findByFileAndRank = CompositionUtils.findByFile(importXML, currentFile);
 			if(!findByFileAndRank.isPresent()) {
@@ -491,7 +535,8 @@ public class FichierPanel extends JPanel {
 		}
 		// On modifier le fichier xml en conséquence
 		try {
-			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(0), v.get(1), v.get(2));
+			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST), v.get(INDEX_COMPO_TITLE),
+					v.get(INDEX_COMPO_TYPE));
 		} catch (MyException e1) {
 			String log = "Erreur lors de la modification d'une composition";
 			LOG.error(log, e1);
@@ -499,9 +544,9 @@ public class FichierPanel extends JPanel {
 			return;
 		}
 		// On modifie la composition
-		compoToModifInTable.setArtist(v.get(0));
-		compoToModifInTable.setTitre(v.get(1));
-		compoToModifInTable.setRecordType(RecordType.valueOf(v.get(2)));
+		compoToModifInTable.setArtist(v.get(INDEX_COMPO_ARTIST));
+		compoToModifInTable.setTitre(v.get(INDEX_COMPO_TITLE));
+		compoToModifInTable.setRecordType(RecordType.valueOf(v.get(INDEX_COMPO_TYPE)));
 
 		// On remplace par la nouvelle composition dans le tableau
 		compositionList.remove(indexOfResult);
@@ -561,7 +606,12 @@ public class FichierPanel extends JPanel {
 				new Vector<>(Arrays.asList(headerFiles)));
 		PanelUtils.colRenderer(tableFiles, true);
 		fichieModel.fireTableDataChanged();
-		tableFiles.getRowSorter().toggleSortOrder(INDEX_FILE_FILE_NAME);
+		if (sortedFichierColumn == null) {
+			sortedFichierColumn = INDEX_FILE_FILE_NAME;
+			sortFichierOrder = SortOrder.ASCENDING;
+		}
+		tableFiles.getRowSorter()
+				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedFichierColumn, sortFichierOrder)));
 		tableFiles.repaint();
 		updateCompoTable(new ArrayList<>());
 		LOG.debug("Start updateFileTable");
@@ -578,7 +628,12 @@ public class FichierPanel extends JPanel {
 				new Vector<>(Arrays.asList(headerCompo)));
 		PanelUtils.colRenderer(tableCompo, false);
 		compoModel.fireTableDataChanged();
-		tableCompo.getRowSorter().toggleSortOrder(3);
+		if (sortedCompoColumn == null) {
+			sortedCompoColumn = INDEX_COMPO_RANK;
+			sortCompoOrder = SortOrder.ASCENDING;
+		}
+		tableCompo.getRowSorter()
+				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedCompoColumn, sortCompoOrder)));
 		tableCompo.repaint();
 		LOG.debug("Start updateCompoTable");
 	}
