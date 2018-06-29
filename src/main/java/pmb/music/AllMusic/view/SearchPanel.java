@@ -16,6 +16,7 @@ import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -32,8 +33,13 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.RowSorter;
+import javax.swing.RowSorter.SortKey;
+import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+import javax.swing.event.RowSorterEvent;
+import javax.swing.event.RowSorterListener;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
@@ -96,6 +102,8 @@ public class SearchPanel extends JPanel {
 	private static final int INDEX_TITRE = 1;
 	private static final int INDEX_TYPE = 2;
 	private static final int INDEX_SCORE = 4;
+	private Integer sortedColumn;
+	private SortOrder sortOrder;
 
 	private final CompoSearchPanelModel model;
 	private Score score;
@@ -139,6 +147,19 @@ public class SearchPanel extends JPanel {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				mouseClickAction(e);
+			}
+		});
+		result.getRowSorter().addRowSorterListener(new RowSorterListener() {
+			@Override
+			@SuppressWarnings("unchecked")
+			public void sorterChanged(RowSorterEvent e) {
+				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+					List<SortKey> sortKeys = e.getSource().getSortKeys();
+					if (!sortKeys.isEmpty()) {
+						sortedColumn = ((SortKey) sortKeys.get(0)).getColumn();
+						sortOrder = ((SortKey) sortKeys.get(0)).getSortOrder();
+					}
+				}
 			}
 		});
 		bottom.add(new JScrollPane(result), BorderLayout.CENTER);
@@ -443,8 +464,11 @@ public class SearchPanel extends JPanel {
 		PanelUtils.colRenderer(result, false); 
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
-		result.getRowSorter().toggleSortOrder(INDEX_SCORE);
-		result.getRowSorter().toggleSortOrder(INDEX_SCORE);
+		if (sortedColumn == null) {
+			sortedColumn = INDEX_SCORE;
+			sortOrder = SortOrder.DESCENDING;
+		}
+		result.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
 		result.repaint();
 		LOG.debug("Start updateTable");
 	}
