@@ -590,7 +590,7 @@ public class SearchPanel extends JPanel {
 			try {
 				files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(INDEX_ARTIST),
 						v.get(INDEX_TITRE), v.get(INDEX_TYPE), true).getFiles();
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 400));
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 400), DialogFileTable.INDEX_TITLE);
 				pop.showDialogFileTable();
 			} catch (MyException e1) {
 				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
