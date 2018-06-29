@@ -51,11 +51,14 @@ public class DialogFileTable extends JDialog {
 	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
 			"Date de publication", "Categorie", "Dates", "Taille", "Classement", "Classé" };
 
-	private static final int VECTOR_INDEX_OEUVRE = 1;
-	private static final int VECTOR_INDEX_FILE_NAME = 4;
-	private static final int VECTOR_INDEX_AUTEUR = 3;
+	public static final int INDEX_ARTIST = 0;
+	public static final int INDEX_TITLE = 1;
+	public static final int INDEX_AUTEUR = 3;
+	public static final int INDEX_FILE_NAME = 4;
+	public static final int INDEX_RANK = 9;
 
 	private JTable fichiers;
+	private int defaultSort;
 
 	/**
 	 * Constructeur de {@link DialogFileTable}.
@@ -64,14 +67,16 @@ public class DialogFileTable extends JDialog {
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
 	 * @param files {@code List<Fichier>} la liste des fichier à afficher
 	 * @param dim {@link Dimension} les dimension de la popup
+	 * @param defaultSort the index of the sorted column at start
 	 */
-	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim) {
+	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim, int defaultSort) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		this.files = files;
+		this.defaultSort = defaultSort;
 		this.setResizable(true);
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
@@ -96,7 +101,7 @@ public class DialogFileTable extends JDialog {
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
 		fichiers.setModel(
 				new FichierDialogModel(FichierUtils.convertListForJTable(files, true), new Vector(Arrays.asList(header))));
-		fichiers.getRowSorter().toggleSortOrder(VECTOR_INDEX_OEUVRE);
+		fichiers.getRowSorter().toggleSortOrder(defaultSort);
 
 		fichiers.addMouseListener(pasteFichierListener());
 
@@ -128,7 +133,7 @@ public class DialogFileTable extends JDialog {
 			// Double click droit -> ouvre le fichier txt
 			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			Optional<String> filePath = FichierUtils.buildTxtFilePath(v.get(VECTOR_INDEX_FILE_NAME), v.get(VECTOR_INDEX_AUTEUR));
+			Optional<String> filePath = FichierUtils.buildTxtFilePath(v.get(INDEX_FILE_NAME), v.get(INDEX_AUTEUR));
 			try {
 				FichierUtils.openFileInNotepad(filePath);
 			} catch (MyException e1) {
@@ -140,7 +145,7 @@ public class DialogFileTable extends JDialog {
 			// simple click droit -> copie le nom du fichier dans le presse papier
 			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(VECTOR_INDEX_FILE_NAME));
+			StringSelection selection = new StringSelection(v.get(INDEX_FILE_NAME));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
@@ -151,7 +156,7 @@ public class DialogFileTable extends JDialog {
 			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			List<Composition> compo = ImportXML
-					.importXML(Constant.XML_PATH + v.get(VECTOR_INDEX_FILE_NAME) + Constant.XML_EXTENSION);
+					.importXML(Constant.XML_PATH + v.get(INDEX_FILE_NAME) + Constant.XML_EXTENSION);
 			List<String> title = new ArrayList<>();
 			if (!compo.isEmpty()) {
 				Fichier file = compo.get(0).getFiles().get(0);
@@ -161,7 +166,7 @@ public class DialogFileTable extends JDialog {
 						String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:",
 						String.valueOf(file.getSize()));
 			} else {
-				LOG.warn(v.get(VECTOR_INDEX_FILE_NAME) + " empty !");
+				LOG.warn(v.get(INDEX_FILE_NAME) + " empty !");
 			}
 			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " "), true, compo,
 					new Dimension(1500, 400));

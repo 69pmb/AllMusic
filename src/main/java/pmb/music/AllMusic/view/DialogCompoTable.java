@@ -38,6 +38,9 @@ public class DialogCompoTable extends JDialog {
 	private static final long serialVersionUID = 1304786661370052913L;
 
 	private static final Logger LOG = Logger.getLogger(DialogCompoTable.class);
+	private static final int INDEX_ARTIST = 0;
+	private static final int INDEX_TITLE = 1;
+	private static final int INDEX_RANK = 3;
 
 	private List<Composition> compo = new ArrayList<>();
 
@@ -83,7 +86,7 @@ public class DialogCompoTable extends JDialog {
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));
 		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, true, false, null), new Vector(Arrays.asList(header))));
-		table.getRowSorter().toggleSortOrder(3);
+		table.getRowSorter().toggleSortOrder(INDEX_RANK);
 		table.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -110,7 +113,7 @@ public class DialogCompoTable extends JDialog {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
 			Vector<String> v = (Vector<String>) ((CompoDialogModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(0) + " " + v.get(1));
+			StringSelection selection = new StringSelection(v.get(INDEX_ARTIST) + " " + v.get(INDEX_TITLE));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
