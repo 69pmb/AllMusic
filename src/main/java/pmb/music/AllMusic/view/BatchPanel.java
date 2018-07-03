@@ -23,6 +23,7 @@ import javax.swing.UIManager;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.utils.BatchUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -51,7 +52,7 @@ public class BatchPanel extends JPanel {
 	private JTextArea resultLabel;
 	private List<String> resultLabelData;
 
-	public BatchPanel() {
+	public BatchPanel(Score score) {
 		super();
 		LOG.debug("Start BatchPanel");
 		this.setLayout(new GridLayout(10, 1));
@@ -59,7 +60,7 @@ public class BatchPanel extends JPanel {
 		findDuplicateComposition();
 		findDuplicateFiles();
 		missingXmlFiles();
-		topYear();
+		topYear(score);
 		clearHistory();
 		suspicious();
 		stats();
@@ -172,8 +173,9 @@ public class BatchPanel extends JPanel {
 	
 	/**
 	 * Generates csv reports for a specific year.
+	 * @param score 
 	 */
-	private void topYear() {
+	private void topYear(Score score) {
 		JPanel top = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
 		// Label
@@ -206,7 +208,7 @@ public class BatchPanel extends JPanel {
 			displayText("Start topYear: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()), Integer.parseInt(yearEndTop.getText()),
-						Integer.parseInt(albumLimit.getText()), Integer.parseInt(songLimit.getText()));
+						Integer.parseInt(albumLimit.getText()), Integer.parseInt(songLimit.getText()), score);
 				displayText("End topYear: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
