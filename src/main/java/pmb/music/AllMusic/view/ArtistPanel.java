@@ -55,6 +55,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.model.ArtistModel;
 
@@ -230,7 +231,7 @@ public class ArtistPanel extends JPanel {
 
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
 		// ----- FIN TABLE ----------
-		
+
 		// CSV
 		JButton csv = new JButton("Télécharger la recherche en CSV");
 		csv.setBackground(Color.white);
@@ -242,7 +243,9 @@ public class ArtistPanel extends JPanel {
 							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString())
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
-			String name = CsvFile.writeCsvFromArtistPanel(model.getDataVector(), "artist", criteres, table.getRowSorter().getSortKeys().get(0));
+			String[] csvHeader = {"Artiste","Nombre d'occurences totales", "Albums", "Chansons", "Critères: " + criteres};
+			String name = CsvFile.exportCsv("artist", MiscUtils.convertVectorToList(model.getDataVector()),
+					table.getRowSorter().getSortKeys().get(0), csvHeader);
 			try {
 				Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
 			} catch (IOException e1) {
