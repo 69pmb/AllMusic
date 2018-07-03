@@ -2,11 +2,13 @@ package pmb.music.AllMusic.utils;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.OptionalDouble;
+import java.util.Vector;
 
 /**
  * Created by PBR on 29 mai 2018.
@@ -31,6 +33,29 @@ public class MiscUtils {
 		DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 		Date date = new Date();
 		return dateFormat.format(date);
+	}
+
+	/**
+	 * Convert Vector<Vector<Object>> to List<String[]>.
+	 * @param vector the vector to convert
+	 * @return the list converted
+	 */
+	public static List<List<String>> convertVectorToList(Vector<Vector<Object>> vector) {
+		List<List<String>> result = new ArrayList<>();
+		for (int i = 0; i < vector.size(); i++) {
+			Vector<Object> rowVector = vector.get(i);
+			List<String> row = new ArrayList<>();
+			for (int j = 0; j < rowVector.size(); j++) {
+				Object obj = rowVector.get(j);
+				if (obj instanceof String) {
+					row.add((String) obj);
+				} else if (obj instanceof Integer || obj instanceof Long) {
+					row.add(String.valueOf(obj));
+				}
+			}
+			result.add(row);
+		}
+		return result;
 	}
 
 	/**

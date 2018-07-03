@@ -487,7 +487,7 @@ public class BatchUtils {
 	 */
 	private static String topSongsParPublication(String year) {
 		List<String> authors = Onglet.getAuthorList();
-		List<String[]> result = new ArrayList<String[]>();
+		List<List<String>> result = new ArrayList<List<String>>();
 		for (String author : authors) {
 			List<Composition> arrayList = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 			Map<String, String> criteria = new HashMap<>();
@@ -498,43 +498,45 @@ public class BatchUtils {
 			criteria.put("type", RecordType.SONG.toString());
 			criteria.put("auteur", author);
 			List<Composition> yearList = SearchUtils.searchJaro(arrayList, criteria, true);
-			List<String[]> temp = new ArrayList<String[]>();
-			String[] v = initArray(author, "-1");
-			String[] w = initArray("", "-2");
-			temp.add(v);
-			temp.add(w);
+			if(yearList.isEmpty() || !yearList.get(0).getFiles().get(0).getSorted()) {
+				// If no file for the given author and year or if the file is not sorted
+				continue;
+			}
+			List<List<String>> temp = new ArrayList<List<String>>();
 			for (int i = 0; i < yearList.size(); i++) {
+				List<String> row = new ArrayList<>();
 				Composition composition = yearList.get(i);
-				if (composition.getFiles().get(0).getSorted() && composition.getFiles().get(0).getClassement() <= 10) {
-					v = new String[3];
-					v[0] = composition.getArtist();
-					v[1] = composition.getTitre();
-					v[2] = String.valueOf(composition.getFiles().get(0).getClassement());
-					temp.add(v);
+				if (composition.getFiles().get(0).getClassement() <= 10) {
+					row.add(composition.getArtist());
+					row.add(composition.getTitre());
+					row.add(String.valueOf(composition.getFiles().get(0).getClassement()));
+					temp.add(row);
 				}
 			}
+			temp.add(0, initList(author, "-1"));
+			temp.add(0, initList("", "-2"));
 			if (temp.size() > 2) {
-				List<String[]> hello = temp.stream()
-						.sorted((e1, e2) -> Integer.valueOf(e1[2]).compareTo(Integer.valueOf(e2[2])))
+				List<List<String>> hello = temp.stream()
+						.sorted((e1, e2) -> Integer.valueOf(e1.get(2)).compareTo(Integer.valueOf(e2.get(2))))
 						.collect(Collectors.toList());
 				result.addAll(hello);
 			}
 		}
-		for (String[] strings : result) {
-			if (StringUtils.isBlank(strings[1])) {
-				strings[2] = "";
+		for (List<String> strings : result) {
+			if (StringUtils.isBlank(strings.get(1))) {
+				strings.set(2, "");
 			}
 		}
 		String[] header = { "Artiste", "Titre", "Classement" };
-		return CsvFile.exportCsv("Top Songs Par Publication - " + year, result, header);
+		return CsvFile.exportCsv("Top Songs Par Publication - " + year, result, null, header);
 	}
-
-	private static String[] initArray(String author, String value) {
-		String[] v = new String[3];
-		v[0] = author;
-		v[1] = "";
-		v[2] = value;
-		return v;
+	
+	private static List<String> initList(String author, String value) {
+		List<String> row = new ArrayList<>();
+		row.add(author);
+		row.add("");
+		row.add(value);
+		return row;
 	}
 
 	/**
@@ -555,14 +557,17 @@ public class BatchUtils {
 		criteria.put("publish", year);
 		criteria.put("type", type.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
-		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToVector(yearList, true, false, null).stream()
+		List<Vector<Object>> occurenceListTemp = CompositionUtils
+				.convertCompositionListToVector(yearList, false, false, null).stream()
 				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
-		SortKey sortKey = new SortKey(3, SortOrder.DESCENDING);
-		return CsvFile.writeCsvFromSearchResult(occurenceList, fileName + " - " + year, year, sortKey);
+		String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score",
+				"Year: " + year + " Type: " + type.toString() };
+		return CsvFile.exportCsv(fileName + " - " + year, MiscUtils.convertVectorToList(occurenceList),
+				new SortKey(3, SortOrder.DESCENDING), csvHeader);
 	}
 	
 	/**
@@ -573,7 +578,8 @@ public class BatchUtils {
 	 * @param fileName the name of the result csv file
 	 * @param year the year of the top
 	 */
-	private static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName, String year) {
+	private static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName,
+			String year) {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("cat", Cat.YEAR.toString());
 		criteria.put("dateB", year);
@@ -582,24 +588,25 @@ public class BatchUtils {
 		criteria.put("type", type.toString());
 		criteria.put("sorted", Boolean.TRUE.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
-		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
+		List<List<String>> occurenceList = new ArrayList<>();
 		if (yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
 				.map(WordUtils::capitalize).distinct().count() > 2) {
 			for (Composition composition : yearList) {
-				Vector<Object> vector = new Vector<Object>();
-				vector.add(composition.getArtist());
-				vector.add(composition.getTitre());
-				vector.add(composition.getRecordType().toString());
+				List<String> row = new ArrayList<>();
+				row.add(composition.getArtist());
+				row.add(composition.getTitre());
+				row.add(composition.getRecordType().toString());
 				Integer points = composition.getFiles().stream().map(Fichier::getClassement).filter(rank -> rank < 10)
 						.reduce(0, (a, b) -> a + 20 * (11 - b));
 				if (points > 0) {
-					vector.add(points);
-					occurenceList.add(vector);
+					row.add(String.valueOf(points));
+					occurenceList.add(row);
 				}
 			}
 		}
-		SortKey sortKey = new SortKey(3, SortOrder.DESCENDING);
-		return CsvFile.writeCsvFromSearchResult(occurenceList, fileName + " - " + year, year, sortKey);
+		String[] csvHeader = { "Artiste", "Titre", "Type", "Score", "Year: " + year + " Type: " + type.toString() };
+		return CsvFile.exportCsv(fileName + " - " + year, occurenceList, new SortKey(3, SortOrder.DESCENDING),
+				csvHeader);
 	}
 
 	/**
@@ -622,8 +629,9 @@ public class BatchUtils {
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
-		SortKey sortKey = new SortKey(1, SortOrder.DESCENDING);
-		return CsvFile.writeCsvFromArtistPanel(occurenceList, "Top Occurence - " + year, year, sortKey);
+		String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons", "Year: " + year };
+		return CsvFile.exportCsv("Top Occurence - " + year, MiscUtils.convertVectorToList(occurenceList),
+				new SortKey(1, SortOrder.DESCENDING), csvHeader);
 	}
 
 	public static void writeInFile(StringBuilder sb) {

@@ -51,11 +51,42 @@ public class AppTest {
 
 	public static void main(String[] args) {
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-		topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
-		topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
-		stats(importXML, RecordType.ALBUM);
+//		topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
+//		topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
+//		stats(importXML, RecordType.ALBUM);
 //		stats(importXML, RecordType.SONG);
-		gauss(importXML, RecordType.ALBUM);
+//		gauss(importXML, RecordType.ALBUM);
+		sizeFileSuspicious(importXML);
+	}
+	
+	private static void sizeFileSuspicious(List<Composition> importXML) {
+		// TODO tous les fichiers qui ont une taille non multiple de 10
+//		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getSize() % 10 != 0 && f.getSize() % 5 != 0)
+//				.map(f->f.getFileName() + " " + f.getSize()).distinct().sorted().forEach(LOG::debug);
+		// TODO tous les fichiers dont le classement de la derniere composition est
+		// different de la taille
+//		List<String> fileNames = importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f->!f.getSorted())
+//				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
+//		for (String name : fileNames) {
+//			List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name + Constant.XML_EXTENSION);
+//			xml.sort((a, b) -> Integer.valueOf(a.getFiles().get(0).getClassement())
+//					.compareTo(Integer.valueOf(b.getFiles().get(0).getClassement())));
+//			Composition lastCompo = xml.get(xml.size() - 1);
+//			if (xml.get(0).getFiles().get(0).getSize() != 0
+//					&& lastCompo.getFiles().get(0).getClassement() != xml.get(0).getFiles().get(0).getSize()) {
+//				LOG.debug(name + ": " + lastCompo.getFiles().get(0).getClassement() + " "
+//						+ xml.get(0).getFiles().get(0).getSize());
+//			}
+//		}
+		// TODO missing compositions
+		List<String> fileNames = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
+				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
+		for (String name : fileNames) {
+			List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name + Constant.XML_EXTENSION);
+			if (xml.get(0).getFiles().get(0).getSize() != 0 && xml.size() != xml.get(0).getFiles().get(0).getSize()) {
+				LOG.debug(name + ": " + xml.size() + " " + xml.get(0).getFiles().get(0).getSize());
+			}
+		}
 	}
 	
 	private static void gauss(List<Composition> importXML, RecordType type) {
@@ -114,8 +145,8 @@ public class AppTest {
 				result.add(vector);
 			}
 		}
-		SortKey sortKey = new SortKey(3, SortOrder.DESCENDING);
-		return CsvFile.writeCsvFromSearchResult(result, fileName, "", sortKey);
+		return CsvFile.exportCsv(fileName, MiscUtils.convertVectorToList(result), new SortKey(3, SortOrder.DESCENDING),
+				null);
 	}
 
 	public static void sortedFilesByYear() {
