@@ -52,7 +52,7 @@ public class Onglet extends JPanel {
 		List<String> authorList = getAuthorList();
 		SearchPanel search = new SearchPanel(artist, getArtistList(), getTitleList(), authorList, score);
 		FichierPanel fichier = new FichierPanel();
-		BatchPanel batch = new BatchPanel();
+		BatchPanel batch = new BatchPanel(score);
         
 		onglets.addTab(Constant.ONGLET_IMPORT, importFile);
         onglets.setMnemonicAt(0, KeyEvent.VK_1);

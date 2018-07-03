@@ -35,6 +35,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.view.Onglet;
 
 public class BatchUtils {
@@ -193,7 +194,7 @@ public class BatchUtils {
 		LOG.debug("End missingXML");
 	}
 
-	public static void topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit) {
+	public static void topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit, Score score) {
 		LOG.debug("Start topYear");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Top Year: ");
@@ -203,7 +204,7 @@ public class BatchUtils {
 		addLine(text, "Song Limit: " + songLimit);
 
 		for (int i = yearBegin; i <= yearEnd; i++) {
-			topYear(i, albumLimit, songLimit, text);
+			topYear(i, albumLimit, songLimit, text, score);
 		}
 
 		writeInFile(text);
@@ -260,7 +261,6 @@ public class BatchUtils {
 	/**
 	 * Show all the duplicates for a year and a type regardless of the artist, only
 	 * based on the song or album.
-	 * @param byYear TODO
 	 */
 	public static void detectsDuplicateFinal(String type, boolean ignoreUnmergeableFiles, boolean byYear,
 			StringBuilder result) {
@@ -446,7 +446,7 @@ public class BatchUtils {
 	/**
 	 * Generates the top excel files of a year.
 	 */
-	public static void topYear(int yearTop, int albumLimit, int songLimit, StringBuilder result) {
+	public static void topYear(int yearTop, int albumLimit, int songLimit, StringBuilder result, Score score) {
 		LOG.debug("Start topYear");
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		List<String> files = new ArrayList<>();
@@ -454,8 +454,8 @@ public class BatchUtils {
 		addLine(result, "Year: " + year);
 		if (CollectionUtils.isNotEmpty(importXML)) {
 			files.add(topOccurence(importXML, year));
-			files.add(topRecords(importXML, RecordType.SONG, "Top Songs", songLimit, year));
-			files.add(topRecords(importXML, RecordType.ALBUM, "Top Albums", albumLimit, year));
+			files.add(topRecords(importXML, RecordType.SONG, "Top Songs", songLimit, year, score));
+			files.add(topRecords(importXML, RecordType.ALBUM, "Top Albums", albumLimit, year, score));
 			files.add(topRecordsByPoints(importXML, RecordType.SONG, "Points Songs", year));
 			files.add(topRecordsByPoints(importXML, RecordType.ALBUM, "Points Albums", year));
 			files.add(topSongsParPublication(year));
@@ -547,9 +547,10 @@ public class BatchUtils {
 	 * @param fileName the name of the result csv file
 	 * @param limit the minimim of number of occurence a Composition to have to be in the result file  
 	 * @param year the year of the top
+	 * @param score 
 	 */
 	private static String topRecords(List<Composition> importXML, RecordType type, String fileName, int limit,
-			String year) {
+			String year, Score score) {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put("cat", Cat.YEAR.toString());
 		criteria.put("dateB", year);
@@ -558,7 +559,7 @@ public class BatchUtils {
 		criteria.put("type", type.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
-				.convertCompositionListToVector(yearList, false, false, null).stream()
+				.convertCompositionListToVector(yearList, false, false, score).stream()
 				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {
