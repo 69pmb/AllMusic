@@ -6,7 +6,6 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Vector;
 
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
@@ -24,116 +23,55 @@ import pmb.music.AllMusic.utils.Constant;
 public class CsvFile {
 
 	private static final Logger LOG = Logger.getLogger(CsvFile.class);
-	
-	private static final int SEARCH_INDEX_ARTIST = 0;
-	private static final int SEARCH_INDEX_TITRE = 1;
-	private static final int SEARCH_INDEX_TYPE = 2;
-	private static final int SEARCH_INDEX_NB_FILE = 3;
-	private static final int SEARCH_INDEX_SCORE = 4;
-	
-	private static final int ARTIST_INDEX_ARTIST = 0;
-	private static final int ARTIST_INDEX_NB_TOTAL = 1;
-	private static final int ARTIST_INDEX_NB_ALBUM = 2;
-	private static final int ARTIST_INDEX_NB_SONG = 3;
 
 	private CsvFile() {}
-	
-	/**
-	 * Crée un fichier {@code CSV} à partir des résultats de recherche.
-	 * @param dataVector les données issues d'une recherche
-	 * @param filename le nom du fichier csv
-	 * @param criteres les critères de recherche
-	 * @param sortKey {@link SortKey} le tri du tableau
-	 * @return  le nom du fichier
-	 */
-	public static String writeCsvFromSearchResult(Vector<Vector<Object>> dataVector, String filename, String criteres,
-			SortKey sortKey) {
-		LOG.debug("Start writeCsvFromSearchResult");
-		// Convertion en liste
-		List<String[]> csv = new ArrayList<>();
-		for (int i = 0; i < dataVector.size(); i++) {
-			Vector<Object> vector = dataVector.get(i);
-			String[] row = new String[5];
-			row[SEARCH_INDEX_ARTIST] = (String) vector.get(SEARCH_INDEX_ARTIST);
-			row[SEARCH_INDEX_TITRE] = (String) vector.get(SEARCH_INDEX_TITRE);
-			row[SEARCH_INDEX_TYPE] = (String) vector.get(SEARCH_INDEX_TYPE);
-			row[SEARCH_INDEX_NB_FILE] = String.valueOf(vector.get(SEARCH_INDEX_NB_FILE));
-			row[SEARCH_INDEX_SCORE] = String.valueOf(vector.get(SEARCH_INDEX_SCORE));
-			csv.add(row);
-		}
-
-		// Tri
-		int column = sortKey.getColumn();
-		Comparator<String[]> sort = null;
-		if (column == SEARCH_INDEX_NB_FILE || column == SEARCH_INDEX_SCORE) {
-			sort = (c1, c2) -> Integer.valueOf(c1[column]).compareTo(Integer.valueOf(c2[column]));
-		} else if (column < SEARCH_INDEX_NB_FILE && column >= 0) {
-			sort = (c1, c2) -> c1[column].compareToIgnoreCase(c2[column]);
-		}
-		if (sort != null) {
-			if (SortOrder.DESCENDING.equals(sortKey.getSortOrder())) {
-				csv.sort(sort.reversed());
-			} else {
-				csv.sort(sort);
-			}
-		}
-
-		String[] header = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Critères: " + criteres };
-		LOG.debug("End writeCsvFromSearchResult");
-		return exportCsv(filename, csv, header);
-	}
 
 	/**
-	 * Crée un fichier {@code CSV} à partir des résultats de recherche de l'écran artiste.
-	 * @param dataVector les données issues d'une recherche
-	 * @param filename le nom du fichier csv
-	 * @param criteres les critères de recherche
+	 * Save data into a csv file.
+	 * @param filename the name of the csv file
+	 * @param csv the data to save
 	 * @param sortKey {@link SortKey} le tri du tableau
-	 * @return  le nom du fichier
+	 * @param header the header of the file
+	 * @return le full name of the saved file
 	 */
-	public static String writeCsvFromArtistPanel(Vector<Vector<Object>> dataVector, String filename, String criteres, SortKey sortKey) {
-		LOG.debug("Start writeCsvFromArtistPanel");
-		// Convertion en liste
-		List<String []> csv = new ArrayList<>();
-		for (int i = 0; i < dataVector.size(); i++) {
-			Vector<Object> vector = dataVector.get(i);
-			String[] row = new String[4];
-			row[ARTIST_INDEX_ARTIST] = (String) vector.get(ARTIST_INDEX_ARTIST);
-			row[ARTIST_INDEX_NB_TOTAL] = String.valueOf(vector.get(ARTIST_INDEX_NB_TOTAL));
-			row[ARTIST_INDEX_NB_ALBUM] = String.valueOf(vector.get(ARTIST_INDEX_NB_ALBUM));
-			row[ARTIST_INDEX_NB_SONG] = String.valueOf(vector.get(ARTIST_INDEX_NB_SONG));
-			csv.add(row);
-		}
-		
-		// Tri
-		int column = sortKey.getColumn();
-		Comparator<String []> sort = null;
-		if(column == ARTIST_INDEX_ARTIST) {
-			sort = (c1, c2) -> c1[column].compareToIgnoreCase(c2[column]);
-		} else if(column <= ARTIST_INDEX_NB_SONG && column > ARTIST_INDEX_ARTIST) {
-			sort = (c1, c2) -> Integer.valueOf(c1[column]).compareTo(Integer.valueOf(c2[column]));
-		}
-		if(sort!=null){
-			if(SortOrder.DESCENDING.equals(sortKey.getSortOrder())) {
-				csv.sort(sort.reversed());
-			} else {
-				csv.sort(sort);
-			}
-		}
-		
-		String[] header = {"Artiste","Nombre d'occurences totales", "Albums", "Chansons", "Critères: " + criteres};
-		LOG.debug("End writeCsvFromArtistPanel");
-		return exportCsv(filename, csv, header);
-	}
-
-	public static String exportCsv(String filename, List<String[]> csv, String[] header) {
+	public static String exportCsv(String filename, List<List<String>> csv, SortKey sortKey, String[] header) {
 		LOG.debug("Start exportCsv");
+		if (sortKey != null) {
+			LOG.debug("Sorting");
+			// Sorting
+			List<String> list = csv.get(1);
+			List<Integer> intColumn = new ArrayList<>();
+			for (int i = 0; i < list.size(); i++) {
+				String item = list.get(i);
+				try {
+					Integer.valueOf(item);
+				} catch (NumberFormatException e) {
+					continue;
+				}
+				intColumn.add(i);
+			}
+			int column = sortKey.getColumn();
+			Comparator<List<String>> sort = null;
+			if (intColumn.contains(column)) {
+				sort = (c1, c2) -> Integer.valueOf(c1.get(column)).compareTo(Integer.valueOf(c2.get(column)));
+			} else if (column >= 0) {
+				sort = (c1, c2) -> c1.get(column).compareToIgnoreCase(c2.get(column));
+			}
+			if (sort != null) {
+				if (SortOrder.DESCENDING.equals(sortKey.getSortOrder())) {
+					csv.sort(sort.reversed());
+				} else {
+					csv.sort(sort);
+				}
+			}
+		}
 		String name = filename + Constant.CSV_EXTENSION;
-		try (CSVWriter csvWriter = new CSVWriter(new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING),
-				';');) {
+		// Writing
+		try (CSVWriter csvWriter = new CSVWriter(
+				new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), ';');) {
 			csvWriter.writeNext(header);
-			for (String[] row : csv) {
-				csvWriter.writeNext(row);	
+			for (List<String> row : csv) {
+				csvWriter.writeNext(row.toArray(new String[0]));
 			}
 		} catch (IOException e) {
 			LOG.error("Erreur lors de la génération du csv", e);

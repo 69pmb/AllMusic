@@ -59,6 +59,7 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
@@ -251,11 +252,13 @@ public class SearchPanel extends JPanel {
 							titre.getSelectedItem() == null ? "" : titre.getSelectedItem().toString(),
 							artist.getSelectedItem() == null ? "" : artist.getSelectedItem().toString(),
 							author.getSelectedItem() == null ? "" : author.getSelectedItem().toString(),
-							Boolean.toString(sorted.isSelected()),
-							Boolean.toString(topTen.isSelected()))
+							"Sorted:" + Boolean.toString(sorted.isSelected()),
+							"Top Ten:" + Boolean.toString(topTen.isSelected()))
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
-			String name = CsvFile.writeCsvFromSearchResult(model.getDataVector(), "search", criteres, result.getRowSorter().getSortKeys().get(0));
+			String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Critères: " + criteres };
+			String name = CsvFile.exportCsv("search", MiscUtils.convertVectorToList(model.getDataVector()),
+					result.getRowSorter().getSortKeys().get(0), csvHeader);
 			try {
 				Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
 			} catch (IOException e1) {
