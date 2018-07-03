@@ -11,6 +11,8 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
@@ -102,11 +104,13 @@ public class SearchPanel extends JPanel {
 	private static final int INDEX_TITRE = 1;
 	private static final int INDEX_TYPE = 2;
 	private static final int INDEX_SCORE = 4;
+	private static final int INDEX_SELECTED = 5;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
 
 	private final CompoSearchPanelModel model;
 	private Score score;
+	private int selectedRow = -1;
 
 	/**
 	 * Génère le panel search.
@@ -141,12 +145,35 @@ public class SearchPanel extends JPanel {
 		result.setBorder(UIManager.getBorder("Label.border"));
 		model = new CompoSearchPanelModel(new Object[0][6], title);
 		result.setModel(model);
-		result.setRowSorter(new TableRowSorter<TableModel>(model));
+		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
+			@Override
+			public boolean isSortable(int column) {
+				if (column != INDEX_SELECTED)
+					return true;
+				else
+					return false;
+			};
+		};
+		result.setRowSorter(sorter);
 		result.addMouseListener(new MouseAdapter() {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				mouseClickAction(e);
+			}
+		});
+		result.addKeyListener(new KeyListener() {
+			@Override
+			public void keyTyped(KeyEvent e) {
+				// Nothing to do
+			}
+			@Override
+			public void keyReleased(KeyEvent e) {
+				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
+			}
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// Nothing to do
 			}
 		});
 		result.getRowSorter().addRowSorterListener(new RowSorterListener() {
@@ -471,6 +498,7 @@ public class SearchPanel extends JPanel {
 			sortOrder = SortOrder.DESCENDING;
 		}
 		result.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
+		selectedRow = -1;
 		result.repaint();
 		LOG.debug("Start updateTable");
 	}
@@ -492,7 +520,7 @@ public class SearchPanel extends JPanel {
 		countLabel.setText("");
 		LOG.debug("End cleanAction");
 	}
-	
+
 	@SuppressWarnings("unchecked")
 	private void modifAction(final ArtistPanel artist2) {
 		LOG.debug("Start modif");

@@ -204,25 +204,20 @@ public class ArtistPanel extends JPanel {
 		updateArtistPanel();
 
 		table.addMouseListener(new MouseAdapter() {
-
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				mouseClickAction(e);
 			}
 		});
-
 		table.addKeyListener(new KeyListener() {
-
 			@Override
 			public void keyTyped(KeyEvent e) {
 				// Nothing to do
 			}
-
 			@Override
 			public void keyReleased(KeyEvent e) {
-				selectedRow = keyShortcutAction(e, selectedRow);
+				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
 			}
-
 			@Override
 			public void keyPressed(KeyEvent e) {
 				// Nothing to do
@@ -342,33 +337,6 @@ public class ArtistPanel extends JPanel {
 			clipboard.setContents(selection, selection);
 			LOG.debug("End artist right mouse");
 		}
-	}
-
-	@SuppressWarnings("unchecked")
-	private int keyShortcutAction(KeyEvent e, int selectedRow) {
-		LOG.debug("Start keyShortcutAction");
-		JTable target = (JTable) e.getSource();
-		String keyChar = String.valueOf(e.getKeyChar());
-		TableModel tableModel = target.getModel();
-		int startRow = selectedRow;
-		if (selectedRow == tableModel.getRowCount() - 1) {
-			startRow = -1;// Go before start
-		}
-		// Check each cell to see if it starts with typed char.
-		// if so set corresponding row selected and return.
-		for (int row = startRow + 1; row < tableModel.getRowCount(); row++) {
-			String value = ((Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(row))).get(INDEX_ARTIST);
-			if (value != null && value.toLowerCase().startsWith(keyChar.toLowerCase())) {
-				target.getSelectionModel().clearSelection();
-				target.getColumnModel().getSelectionModel().clearSelection();
-				target.changeSelection(row, 0, true, false);
-				target.setRowSelectionInterval(row, row);
-				LOG.debug("End keyShortcutAction");
-				return row;
-			}
-		}
-		LOG.debug("End keyShortcutAction, no result");
-		return -1;
 	}
 
 	private void searchAction() {

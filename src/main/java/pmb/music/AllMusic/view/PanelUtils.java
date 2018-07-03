@@ -2,6 +2,7 @@ package pmb.music.AllMusic.view;
 
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.util.List;
 import java.util.Vector;
@@ -14,6 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
+import javax.swing.table.TableModel;
 
 import org.apache.log4j.Logger;
 
@@ -23,6 +25,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.view.model.AbstractModel;
 
 public class PanelUtils {
 
@@ -68,6 +71,38 @@ public class PanelUtils {
 			}
 			columnModel.getColumn(i).setPreferredWidth(maximum * 7 + 50); // valeur arbitraire
 		}
+	}
+
+	@SuppressWarnings("unchecked")
+	public static int keyShortcutAction(KeyEvent e, int selectedRow, Integer sortedColumn) {
+		LOG.debug("Start keyShortcutAction");
+		JTable target = (JTable) e.getSource();
+		String keyChar = String.valueOf(e.getKeyChar());
+		TableModel tableModel = target.getModel();
+		int startRow = selectedRow;
+		if (selectedRow == tableModel.getRowCount() - 1) {
+			startRow = -1;// Go before start
+		}
+		// Check each cell to see if it starts with typed char.
+		// if so set corresponding row selected and return.
+		for (int row = startRow + 1; row < tableModel.getRowCount(); row++) {
+			Vector<String> vector = (Vector<String>) ((AbstractModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(row));
+			Object value = vector.get(sortedColumn != null ? sortedColumn : 0);
+			if (value != null
+					&& ((value instanceof String && ((String) value).toLowerCase().startsWith(keyChar.toLowerCase()))
+							|| ((value instanceof Integer || value instanceof Long)
+									&& String.valueOf(value).toLowerCase().startsWith(keyChar.toLowerCase())))) {
+				target.getSelectionModel().clearSelection();
+				target.getColumnModel().getSelectionModel().clearSelection();
+				target.changeSelection(row, 0, true, false);
+				target.setRowSelectionInterval(row, row);
+				LOG.debug("End keyShortcutAction");
+				return row;
+			}
+		}
+		LOG.debug("End keyShortcutAction, no result");
+		return -1;
 	}
 
 	/**

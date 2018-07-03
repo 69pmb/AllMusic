@@ -11,6 +11,8 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
@@ -84,6 +86,7 @@ public class FichierPanel extends JPanel {
 	private static final int INDEX_COMPO_TITLE= 1;
 	private static final int INDEX_COMPO_TYPE = 2;
 	private static final int INDEX_COMPO_RANK = 3;
+	private static final int INDEX_COMPO_SELECTED = 4;
 
 	private JComboBox<String> auteur;
 	private JTextField name;
@@ -105,6 +108,7 @@ public class FichierPanel extends JPanel {
 	private boolean showFichierTable = true;
 	private Integer sortedFichierColumn;
 	private SortOrder sortFichierOrder;
+	private int selectedFichierRow = -1;
 
 	// Composition componants
 	private JPanel compoPanel;
@@ -115,6 +119,7 @@ public class FichierPanel extends JPanel {
 	private boolean showCompoTable = true;
 	private Integer sortedCompoColumn;
 	private SortOrder sortCompoOrder;
+	private int selectedCompoRow = -1;
 
 	private Dimension parentSize;
 
@@ -338,6 +343,20 @@ public class FichierPanel extends JPanel {
 				mouseActionForFileTable(e);
 			}
 		});
+		tableFiles.addKeyListener(new KeyListener() {
+			@Override
+			public void keyTyped(KeyEvent e) {
+				// Nothing to do
+			}
+			@Override
+			public void keyReleased(KeyEvent e) {
+				selectedFichierRow = PanelUtils.keyShortcutAction(e, selectedFichierRow, sortedFichierColumn);
+			}
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// Nothing to do
+			}
+		});
 		tableFiles.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@Override
 			@SuppressWarnings("unchecked")
@@ -369,12 +388,35 @@ public class FichierPanel extends JPanel {
 		tableCompo.setBorder(UIManager.getBorder("Label.border"));
 		compoModel = new CompoFichierPanelModel(new Object[0][6], headerCompo);
 		tableCompo.setModel(compoModel);
-		tableCompo.setRowSorter(new TableRowSorter<TableModel>(compoModel));
+		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(compoModel) {
+			@Override
+			public boolean isSortable(int column) {
+				if (column != INDEX_COMPO_SELECTED)
+					return true;
+				else
+					return false;
+			};
+		};
+		tableCompo.setRowSorter(sorter);
 		tableCompo.addMouseListener(new MouseAdapter() {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				mouseActionForCompoTable(e, artistPanel);
+			}
+		});
+		tableCompo.addKeyListener(new KeyListener() {
+			@Override
+			public void keyTyped(KeyEvent e) {
+				// Nothing to do
+			}
+			@Override
+			public void keyReleased(KeyEvent e) {
+				selectedCompoRow = PanelUtils.keyShortcutAction(e, selectedCompoRow, sortedCompoColumn);
+			}
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// Nothing to do
 			}
 		});
 		tableCompo.getRowSorter().addRowSorterListener(new RowSorterListener() {
@@ -612,6 +654,7 @@ public class FichierPanel extends JPanel {
 		}
 		tableFiles.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedFichierColumn, sortFichierOrder)));
+		selectedFichierRow = -1;
 		tableFiles.repaint();
 		updateCompoTable(new ArrayList<>());
 		LOG.debug("Start updateFileTable");
@@ -634,6 +677,7 @@ public class FichierPanel extends JPanel {
 		}
 		tableCompo.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedCompoColumn, sortCompoOrder)));
+		selectedCompoRow = -1;
 		tableCompo.repaint();
 		LOG.debug("Start updateCompoTable");
 	}
