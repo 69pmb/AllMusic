@@ -218,16 +218,18 @@ public class BatchUtils {
 		LOG.debug("Start cleanHistory");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Clean History: ");
-		
+
 		// Création d'une map avec:
 		// key nom du fichier sans date
 		// value liste des dates du fichier
 		List<File> files = new ArrayList<>();
 		FichierUtils.listFilesForFolder(new File(Constant.HISTORY_PATH), files, Constant.XML_EXTENSION, false);
+		int size = files.size();
 		Map<String, List<Date>> list = new HashMap<String, List<Date>>();
 		for (File file : files) {
 			String nomFichier = StringUtils.substringBefore(file.getName(), Constant.SEPARATOR_DATE_HISTORY);
-			String date = StringUtils.substringBetween(file.getName(), Constant.SEPARATOR_DATE_HISTORY, Constant.XML_EXTENSION);
+			String date = StringUtils.substringBetween(file.getName(), Constant.SEPARATOR_DATE_HISTORY,
+					Constant.XML_EXTENSION);
 			if (list.get(nomFichier) == null) {
 				list.put(nomFichier, new ArrayList<Date>());
 			}
@@ -246,14 +248,21 @@ public class BatchUtils {
 			String path = Constant.HISTORY_PATH + key + Constant.SEPARATOR_DATE_HISTORY;
 			// Suppression des fichiers sauf du 1er
 			for (int i = 1; i < list.get(key).size(); i++) {
-				String toDelete = path + new Constant().getSdfHistory().format(list.get(key).get(i)) + Constant.XML_EXTENSION;
+				String toDelete = path + new Constant().getSdfHistory().format(list.get(key).get(i))
+						+ Constant.XML_EXTENSION;
 				if (!new File(toDelete).delete()) {
 					addLine(text, toDelete + " n'a pas pu etre supprimé");
 					LOG.error(toDelete + " n'a pas pu etre supprimé");
 				}
 			}
 		}
-		
+		files = new ArrayList<>();
+		FichierUtils.listFilesForFolder(new File(Constant.HISTORY_PATH), files, Constant.XML_EXTENSION, false);
+		int result = size - files.size();
+		addLine(text, "Nombres de fichiers avant: " + size);
+		addLine(text, "Nombres de fichiers après: " + files.size());
+		addLine(text, "Nombres de fichiers supprimés: " + result);
+
 		writeInFile(text);
 		LOG.debug("End cleanHistory");
 	}
