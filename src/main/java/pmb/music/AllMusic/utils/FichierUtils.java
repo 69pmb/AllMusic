@@ -128,8 +128,8 @@ public class FichierUtils {
 		// Renomme le fichier txt
 		String txtPath = buildTxtFilePath(fileName, result.getAuthor()).get();
 		String newTxt = StringUtils.substringBeforeLast(
-				StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), Constant.JAVA_SLASH)
-				+ Constant.JAVA_SLASH + newFileName + Constant.TXT_EXTENSION;
+				StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), FileUtils.FS)
+				+ FileUtils.FS + newFileName + Constant.TXT_EXTENSION;
 		renameFile(txtPath, newTxt);
 		return result;
 	}
@@ -233,13 +233,13 @@ public class FichierUtils {
 	 */
 	public static Optional<String> buildTxtFilePath(String fileName, String auteur) {
 		LOG.debug("Start buildTxtFilePath");
-		String pathRoot = Constant.MUSIC_ABS_DIRECTORY + auteur + Constant.JAVA_SLASH;
+		String pathRoot = Constant.MUSIC_ABS_DIRECTORY + auteur + FileUtils.FS;
 		String nameWithExtension = fileName + Constant.TXT_EXTENSION;
 
 		String pathShort = pathRoot + nameWithExtension;
-		String pathSong = pathRoot + Constant.SONG_FOLDER + Constant.JAVA_SLASH + nameWithExtension;
-		String pathAlbum = pathRoot + Constant.ALBUM_FOLDER + Constant.JAVA_SLASH + nameWithExtension;
-		String pathYear = pathRoot + Constant.YEAR_FOLDER + Constant.JAVA_SLASH + nameWithExtension;
+		String pathSong = pathRoot + Constant.SONG_FOLDER + FileUtils.FS + nameWithExtension;
+		String pathAlbum = pathRoot + Constant.ALBUM_FOLDER + FileUtils.FS + nameWithExtension;
+		String pathYear = pathRoot + Constant.YEAR_FOLDER + FileUtils.FS + nameWithExtension;
 
 		Optional<String> result = Arrays.asList(pathShort, pathSong, pathAlbum, pathYear).stream()
 				.filter(path -> FileUtils.fileExists(path)).findFirst();
