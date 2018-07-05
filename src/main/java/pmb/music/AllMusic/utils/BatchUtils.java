@@ -97,6 +97,34 @@ public class BatchUtils {
 		LOG.debug("End findSuspiciousComposition");
 	}
 
+	public static void findIncorectFileNames() {
+		LOG.debug("Start findIncorectFileNames");
+		StringBuilder result = new StringBuilder();
+		addLine(result, "IncorectFileNames: ");
+
+		List<String> authorList = Onglet.getAuthorList();
+		List<String> res = new ArrayList<>();
+		for (String author : authorList) {
+			if (StringUtils.equalsIgnoreCase(author, "Divers")) {
+				continue;
+			}
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put("auteur", author);
+			res.addAll(SearchUtils.searchJaro(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true).stream()
+					.map(Composition::getFiles).flatMap(List::stream)
+					.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
+							|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
+									" - " + String.valueOf(f.getPublishYear())))
+							&& f.getPublishYear() != 0)
+					.map(f -> f.getFileName() + " # " + String.valueOf(f.getPublishYear())).distinct().sorted()
+					.collect(Collectors.toList()));
+		}
+		res.stream().forEach(f -> addLine(result, f));
+
+		writeInFile(result);
+		LOG.debug("End findIncorectFileNames");
+	}
+
 	public static void titleSlash(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "Title Slash: ");
 		importXML.stream().forEach(c -> {
