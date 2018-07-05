@@ -7,6 +7,8 @@ import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.regex.Pattern;
 
+import org.codehaus.plexus.util.FileUtils;
+
 /**
  * Classe de constances.
  * 
@@ -17,7 +19,8 @@ public class Constant {
 	/**
 	 * Chemin du dossier ressources.
 	 */
-	public static final String RESOURCES_DIRECTORY = "\\src\\main\\resources\\";
+	public static final String RESOURCES_DIRECTORY = FileUtils.FS + "src" + FileUtils.FS + "main" + FileUtils.FS
+			+ "resources" + FileUtils.FS;
 
 	/**
 	 * Chemin du pgm.
@@ -30,26 +33,30 @@ public class Constant {
 	public static final String RESOURCES_ABS_DIRECTORY = USER_DIR + RESOURCES_DIRECTORY;
 
 	/**
+	 * Chemin abs du fichier de configuration.
+	 */
+	public static final String CONFIG_PATH = RESOURCES_ABS_DIRECTORY + FileUtils.FS + "config.properties";
+
+	/**
 	 * Chemin abs du dossier d'historique.
 	 */
 	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history")
-			+ Constant.JAVA_SLASH;
+			+ FileUtils.FS;
 
 	/**
 	 * Chemin abs du fichier de log.
 	 */
-	public static final String FILE_LOG_PATH = Constant.USER_DIR + "\\error.log";
+	public static final String FILE_LOG_PATH = Constant.USER_DIR + FileUtils.FS + "error.log";
 
 	/**
 	 * Chemin abs du fichier de résultat des batchs.
 	 */
-	public static final String BATCH_FILE_PATH = Constant.USER_DIR + "\\batch.txt";
+	public static final String BATCH_FILE_PATH = Constant.USER_DIR + FileUtils.FS + "batch.txt";
 
 	/**
 	 * Chemin abs du dossier contenant tous les fichiers xml importés.
 	 */
-	public static final String XML_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml")
-			+ Constant.JAVA_SLASH;
+	public static final String XML_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml") + FileUtils.FS;
 
 	/**
 	 * Nom du fichier final.
@@ -67,7 +74,7 @@ public class Constant {
 	 * Chemin abs du dossier contenant les fichiers txt des classements.
 	 */
 	public static final String MUSIC_ABS_DIRECTORY = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music")
-			+ Constant.JAVA_SLASH;
+			+ FileUtils.FS;
 
 	public static final String EXCEL_PATH = GetProperties.getProperty("excel") + " ";
 
@@ -82,8 +89,6 @@ public class Constant {
 	public static final String REGULAR_DASH = "-";
 
 	public static final String DOT = ".";
-
-	public static final String JAVA_SLASH = "\\";
 
 	public static final String DIESE = "#";
 
@@ -110,11 +115,11 @@ public class Constant {
 	public static final String ONGLET_FICHIER = "Fichiers";
 
 	public static final String ONGLET_BATCH = "Batchs";
-	
+
 	public static final String ALBUM_FOLDER = "Album";
-	
+
 	public static final String YEAR_FOLDER = "Year";
-	
+
 	public static final String SONG_FOLDER = "Song";
 
 	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
