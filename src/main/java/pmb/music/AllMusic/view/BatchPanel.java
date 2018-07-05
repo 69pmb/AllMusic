@@ -39,6 +39,7 @@ import pmb.music.AllMusic.utils.MyException;
  * - Top year: top
  * - Nettoyer dossier historique: clearHistory
  * - Find suspicious compositions: FSC
+ * - Checks filenames (Author + name + publishYear): validateFileName
  * - Générer des statistiques: stats
  * @author PBR
  */
@@ -55,7 +56,7 @@ public class BatchPanel extends JPanel {
 	public BatchPanel(Score score) {
 		super();
 		LOG.debug("Start BatchPanel");
-		this.setLayout(new GridLayout(10, 1));
+		this.setLayout(new GridLayout(11, 1));
 
 		findDuplicateComposition();
 		findDuplicateFiles();
@@ -63,6 +64,7 @@ public class BatchPanel extends JPanel {
 		topYear(score);
 		clearHistory();
 		suspicious();
+		validateFileName();
 		stats();
 		lastLine();
 
@@ -259,6 +261,28 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
 		
 		this.add(suspicious);
+	}
+
+	private void validateFileName() {
+		JPanel validate = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
+
+		// Label
+		JLabel validateLabel = new JLabel("Trouver les noms de fichier incorrect: ");
+		PanelUtils.addComponent(validate, validateLabel, Component.LEFT_ALIGNMENT, 800);
+
+		// validate Btn
+		JButton validateBtn = new JButton("Go");
+		validateBtn.setToolTipText("Trouve les noms de fichier incorrect");
+		validateBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime());
+			new Thread(() -> {
+				BatchUtils.findIncorectFileNames();
+				displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime());
+			}).start();
+		});
+		PanelUtils.addComponent(validate, validateBtn, Component.RIGHT_ALIGNMENT, 100);
+
+		this.add(validate);
 	}
 	
 	private void stats() {
