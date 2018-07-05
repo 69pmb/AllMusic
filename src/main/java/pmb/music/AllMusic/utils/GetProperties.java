@@ -24,7 +24,7 @@ public class GetProperties {
 	 */
 	private GetProperties() {
 		LOG.debug("Start GetProperties");
-		try(InputStream input = new FileInputStream(Constant.RESOURCES_ABS_DIRECTORY + "//config.properties");) {
+		try(InputStream input = new FileInputStream(Constant.CONFIG_PATH);) {
 			prop = new Properties();
 			prop.load(input);
 		} catch (IOException e) {

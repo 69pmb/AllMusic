@@ -22,6 +22,7 @@ import java.util.Set;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
+import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -57,7 +58,7 @@ public class CleanFile {
 			sepAsList.add(sep);
 		}
 		String line = "";
-		String exitFile = file.getParentFile().getAbsolutePath() + Constant.JAVA_SLASH + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - Cleaned."
+		String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - Cleaned."
 				+ StringUtils.substringAfterLast(file.getName(), Constant.DOT);
 
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
@@ -121,7 +122,7 @@ public class CleanFile {
 		
 		for (File file : files) {
 			boolean modify = false;
-			String exitFile = file.getParentFile().getAbsolutePath() + Constant.JAVA_SLASH + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - MEF."
+			String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - MEF."
 					+ StringUtils.substringAfterLast(file.getName(), Constant.DOT);
 			String name = file.getName();
 			if (!Constant.FINAL_FILE.equals(name)) {
