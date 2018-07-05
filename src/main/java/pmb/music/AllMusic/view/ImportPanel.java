@@ -32,6 +32,8 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+import javax.swing.border.EtchedBorder;
+import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import org.apache.commons.lang3.StringUtils;
@@ -334,27 +336,6 @@ public class ImportPanel extends JPanel {
 		lastLinesPanel.add(lastL2);
 		thirdLine.add(lastLinesPanel);
 
-		// characterToRemove
-		JPanel characterToRemovePanel = new JPanel();
-		characterToRemovePanel.setPreferredSize(new Dimension(120, 60));
-		JLabel characterToRemoveLabel = new JLabel("Caractères à supprimer: ");
-		characterToRemove = new JTextField();
-		characterToRemove.setPreferredSize(new Dimension(40, 20));
-		characterToRemovePanel.add(characterToRemoveLabel);
-		characterToRemovePanel.add(characterToRemove);
-		thirdLine.add(characterToRemovePanel);
-		
-		// isBeforePanel
-		JPanel isBeforePanel = new JPanel();
-		isBeforePanel.setPreferredSize(new Dimension(100, 60));
-		JLabel isBeforeLabel = new JLabel("Supprimer au début: ");
-		isBefore = new JCheckBox();
-		isBefore.setSelected(true);
-		isBefore.setPreferredSize(new Dimension(20, 20));
-		isBeforePanel.add(isBeforeLabel);
-		isBeforePanel.add(isBefore);
-		thirdLine.add(isBeforePanel);
-
 		// reverseArtist
 		JPanel reverseArtistPanel = new JPanel();
 		reverseArtistPanel.setPreferredSize(new Dimension(100, 60));
@@ -404,6 +385,30 @@ public class ImportPanel extends JPanel {
 		isCompleteDirectoryPanel.add(isCompleteDirectoryLabel);
 		isCompleteDirectoryPanel.add(isCompleteDirectory);
 		thirdLine.add(isCompleteDirectoryPanel);
+
+		JPanel cleanBtnPanel = new JPanel();
+		cleanBtnPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(EtchedBorder.LOWERED),
+				"Paramètres de nettoyage: ", TitledBorder.LEFT, TitledBorder.ABOVE_TOP));
+		// characterToRemove
+		JPanel characterToRemovePanel = new JPanel();
+		characterToRemovePanel.setPreferredSize(new Dimension(120, 60));
+		JLabel characterToRemoveLabel = new JLabel("Caractères à supprimer: ");
+		characterToRemove = new JTextField();
+		characterToRemove.setPreferredSize(new Dimension(40, 20));
+		characterToRemovePanel.add(characterToRemoveLabel);
+		characterToRemovePanel.add(characterToRemove);
+		cleanBtnPanel.add(characterToRemovePanel);
+		// isBefore
+		JPanel isBeforePanel = new JPanel();
+		isBeforePanel.setPreferredSize(new Dimension(100, 60));
+		JLabel isBeforeLabel = new JLabel("Supprimer au début: ");
+		isBefore = new JCheckBox();
+		isBefore.setSelected(true);
+		isBefore.setPreferredSize(new Dimension(20, 20));
+		isBeforePanel.add(isBeforeLabel);
+		isBeforePanel.add(isBefore);
+		cleanBtnPanel.add(isBeforePanel);
+		thirdLine.add(cleanBtnPanel);
 
 		this.add(thirdLine);
 		JPanel fourthLine = new JPanel(new GridLayout(0, 1));
