@@ -73,7 +73,7 @@ public class AppTest {
 			for (File file : files) {
 				String filename = StringUtils.substringBeforeLast(file.getName(), Constant.TXT_EXTENSION);
 				if (StringUtils.startsWith(
-						ImportFile.getFirstLine(new File(FichierUtils.buildTxtFilePath(filename, author).get())),
+						FichierUtils.getFirstLine(new File(FichierUtils.buildTxtFilePath(filename, author).get())),
 						Constant.IMPORT_PARAMS_PREFIX)) {
 					continue;
 				}
@@ -102,11 +102,9 @@ public class AppTest {
 							result.put("sorted", String.valueOf(fichier.getSorted()));
 							result.put("publish", String.valueOf(fichier.getPublishYear()));
 							result.put("size", String.valueOf(fichier.getSize()));
-							String map = MiscUtils.writeValueAsString(result);
-							LOG.info("Result: " + map);
-							FichierUtils.writeMapInFile(file, map);
+							FichierUtils.writeMapInFile(file, result);
 						}
-					} catch (MyException | IOException e) {
+					} catch (MyException e) {
 						LOG.error("Error file: " + filename, e);
 					}
 				}
