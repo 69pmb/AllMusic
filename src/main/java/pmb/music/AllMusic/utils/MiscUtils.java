@@ -1,14 +1,21 @@
 package pmb.music.AllMusic.utils;
 
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.OptionalDouble;
 import java.util.Vector;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * Created by PBR on 29 mai 2018.
@@ -18,6 +25,25 @@ public class MiscUtils {
 //	private static final Logger LOG = Logger.getLogger(MiscUtils.class);
 	
 	private MiscUtils(){}
+
+	private static ObjectMapper objectMapper;
+
+	public static synchronized ObjectMapper getObjectMapper(){
+			if (null == objectMapper){
+					objectMapper = new ObjectMapper();
+			}
+			return objectMapper;
+	}
+
+	public static String writeValueAsString(Object o) throws JsonProcessingException {
+			return getObjectMapper().writeValueAsString(o);
+	}
+
+	public static Map<String, String> readValueAsMap(String s) throws IOException {
+		TypeReference<HashMap<String, String>> typeRef = new TypeReference<HashMap<String, String>>() {
+		};
+		return getObjectMapper().readValue(s, typeRef);
+	}
 
 	/**
 	 * Retourne la date à l'instant de l'appel.
