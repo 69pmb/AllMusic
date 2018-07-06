@@ -10,6 +10,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -25,6 +26,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
+import org.codehaus.plexus.util.FileUtils;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -40,7 +42,9 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.Onglet;
 
 /**
  * Unit test for simple App.
@@ -50,21 +54,264 @@ public class AppTest {
 	private static final Logger LOG = Logger.getLogger(AppTest.class);
 
 	public static void main(String[] args) {
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-//		topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
-//		topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
-//		stats(importXML, RecordType.ALBUM);
-//		stats(importXML, RecordType.SONG);
-//		gauss(importXML, RecordType.ALBUM);
-		sizeFileSuspicious(importXML);
+		// List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		// topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
+		// topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
+		// stats(importXML, RecordType.ALBUM);
+		// stats(importXML, RecordType.SONG);
+		// gauss(importXML, RecordType.ALBUM);
+		// sizeFileSuspicious(importXML);
+		findImportParamsForAllFiles();
+	}
+
+	public static void findImportParamsForAllFiles() {
+		List<String> authorList = Onglet.getAuthorList();
+		for (String author : authorList) {
+			List<File> files = new ArrayList<>();
+			FichierUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY + FileUtils.FS + author), files,
+					Constant.TXT_EXTENSION, true);
+			for (File file : files) {
+				String filename = StringUtils.substringBeforeLast(file.getName(), Constant.TXT_EXTENSION);
+				if (StringUtils.startsWith(
+						ImportFile.getFirstLine(new File(FichierUtils.buildTxtFilePath(filename, author).get())),
+						Constant.IMPORT_PARAMS_PREFIX)) {
+					continue;
+				}
+				LOG.info("@");
+				List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + filename + Constant.XML_EXTENSION);
+				Map<String, String> result = findImportParamsForOneFile(filename, author, xml);
+				if (result.isEmpty()) {
+					LOG.warn("### No result for: " + filename);
+				} else {
+					Composition composition = xml.get(0);
+					try {
+						Fichier fichier = composition.getFiles().get(0);
+						List<Composition> txtList = ImportFile.getCompositionsFromFile(file, fichier,
+								composition.getRecordType(), result.get("separator"), new ArrayList<>(),
+								Boolean.valueOf(result.get("artistFirst")),
+								Boolean.valueOf(result.get("reverseArtist")), Boolean.valueOf(result.get("parenthese")),
+								Boolean.valueOf(result.get("upper")), Boolean.valueOf(result.get("removeAfter")));
+						if (compareCompositionList(xml, txtList)) {
+							result.put("name", fichier.getFileName());
+							result.put("auteur", fichier.getAuthor());
+							result.put("create", new Constant().getSdfDttm().format(fichier.getCreationDate()));
+							result.put("type", composition.getRecordType().toString());
+							result.put("cat", fichier.getCategorie().toString());
+							result.put("rangeB", String.valueOf(fichier.getRangeDateBegin()));
+							result.put("rangeE", String.valueOf(fichier.getRangeDateEnd()));
+							result.put("sorted", String.valueOf(fichier.getSorted()));
+							result.put("publish", String.valueOf(fichier.getPublishYear()));
+							result.put("size", String.valueOf(fichier.getSize()));
+							String map = MiscUtils.writeValueAsString(result);
+							LOG.info("Result: " + map);
+							FichierUtils.writeMapInFile(file, map);
+						}
+					} catch (MyException | IOException e) {
+						LOG.error("Error file: " + filename, e);
+					}
+				}
+			}
+		}
+	}
+
+	private static Map<String, String> findImportParamsForOneFile(String filename, String auteur, List<Composition> xml) {
+		Map<String, String> result = new HashMap<>();
+		List<String> randomLineAndLastLines = ImportFile
+				.randomLineAndLastLines(new File(FichierUtils.buildTxtFilePath(filename, auteur).get()));
+		if (randomLineAndLastLines.size() < 6) {
+			LOG.warn("Too small: " + filename);
+			return result;
+		}
+		String separator = ImportFile.getSeparator(randomLineAndLastLines.get(3));
+
+		int lineNumber = findLineNumber(randomLineAndLastLines);
+		int tryNb = 0;
+		while (lineNumber + tryNb < 3) {
+			result = findParams(filename, result, xml, randomLineAndLastLines, separator, lineNumber, tryNb);
+			if (result.isEmpty()) {
+				result = findParams(filename, result, xml, randomLineAndLastLines, separator, lineNumber + 1, tryNb);
+				if (!result.isEmpty()) {
+					break;
+				}
+			} else {
+				break;
+			}
+			tryNb++;
+		}
+		return result;
+	}
+
+	public static Map<String, String> findParams(String filename, Map<String, String> result, List<Composition> xml,
+			List<String> randomLineAndLastLines, String separator, int lineNumber, int tryNb) {
+		final JaroWinklerDistance jaro = new JaroWinklerDistance();
+		String[] split = StringUtils.split(randomLineAndLastLines.get(lineNumber + tryNb), separator);
+		LOG.info("File: " + filename);
+		LOG.info("split size: " + split.length);
+		if (split.length < 2) {
+			// LOG.warn("Unsplittable: " + StringUtils.join(split, ",") + ", from: " +
+			// filename + ", separator: " + separator);
+			return buildResultMap("", true, false, false, true, false);
+		}
+		String txtArtist;
+		if (xml.get(2).getFiles().get(0).getSorted()) {
+			txtArtist = StringUtils.trim(removeRank(StringUtils.trim(split[0])));
+		} else {
+			txtArtist = StringUtils.trim(split[0]);
+		}
+		String txtTitre = StringUtils.trim(split[1]);
+		String xmlArtist = xml.get(tryNb).getArtist();
+		String xmlTitre = xml.get(tryNb).getTitre();
+		String artistRevert = revertArtist(txtArtist);
+		LOG.info("xmlArtist: " + xmlArtist);
+		LOG.info("xmlTitre: " + xmlTitre);
+		LOG.info("txtArtist: " + txtArtist);
+		LOG.info("txtTitre: " + txtTitre);
+		boolean artistEquals = SearchUtils.isEqualsJaro(jaro, xmlArtist, txtArtist, Constant.SCORE_LIMIT_ARTIST_FUSION);
+		boolean titreEquals = SearchUtils.isEqualsJaro(jaro, xmlTitre, txtTitre, Constant.SCORE_LIMIT_TITLE_FUSION);
+		boolean artistRevertEquals = SearchUtils.isEqualsJaro(jaro, xmlArtist, artistRevert,
+				Constant.SCORE_LIMIT_ARTIST_FUSION);
+		if (artistEquals && titreEquals) {
+			LOG.info("# Artiste en 1er");
+			return buildResultMap(separator, true, false, false, false, false);
+		} else if (!artistEquals && !titreEquals) {
+			if (SearchUtils.isEqualsJaro(jaro, xmlArtist, txtTitre, Constant.SCORE_LIMIT_ARTIST_FUSION)
+					&& SearchUtils.isEqualsJaro(jaro, xmlTitre, txtArtist, Constant.SCORE_LIMIT_TITLE_FUSION)) {
+				LOG.info("# Titre en 1er");
+				return buildResultMap(separator, false, false, false, false, false);
+			}
+			String artistPar = removeParenthe(txtArtist);
+			String titrePar = removeParenthe(txtTitre);
+			if (SearchUtils.isEqualsJaro(jaro, xmlArtist, artistPar, Constant.SCORE_LIMIT_ARTIST_FUSION)
+					&& SearchUtils.isEqualsJaro(jaro, xmlTitre, titrePar, Constant.SCORE_LIMIT_TITLE_FUSION)) {
+				LOG.info("# Parenthèse");
+				return buildResultMap(separator, true, false, true, false, false);
+
+			} else if (SearchUtils.isEqualsJaro(jaro, xmlArtist, titrePar, Constant.SCORE_LIMIT_ARTIST_FUSION)
+					&& SearchUtils.isEqualsJaro(jaro, xmlTitre, artistPar, Constant.SCORE_LIMIT_TITLE_FUSION)) {
+				LOG.info("# Titre en 1er et Parenthèse");
+				return buildResultMap(separator, false, false, true, false, false);
+			}
+		} else if (titreEquals && !artistEquals && artistRevertEquals) {
+			LOG.info("# Artist reverse");
+			return buildResultMap(separator, true, true, false, false, false);
+		} else if (SearchUtils.isEqualsJaro(jaro, xmlArtist, revertArtist(txtTitre), Constant.SCORE_LIMIT_ARTIST_FUSION)
+				&& SearchUtils.isEqualsJaro(jaro, xmlTitre, txtArtist, Constant.SCORE_LIMIT_TITLE_FUSION)) {
+			LOG.info("# Titre en 1er et Artist reverse");
+			return buildResultMap(separator, false, true, false, false, false);
+		}
+		return result;
+	}
+
+	private static boolean compareCompositionList(List<Composition> xml, List<Composition> txt) {
+		Comparator<Composition> byRank = (c1, c2) -> Integer.valueOf(c1.getFiles().get(0).getClassement())
+				.compareTo(Integer.valueOf(c2.getFiles().get(0).getClassement()));
+		xml = xml.stream().sorted(byRank).collect(Collectors.toList());
+		txt = txt.stream().sorted(byRank).collect(Collectors.toList());
+		int size = xml.size();
+		if (size != txt.size()) {
+			LOG.warn("Not the same size: " + size + " " + txt.size());
+			return false;
+		}
+		final JaroWinklerDistance jaro = new JaroWinklerDistance();
+		int nbEquals = 0;
+		for (int i = 0; i < size; i++) {
+			Composition xmlComp = xml.get(i);
+			Composition txtComp = txt.get(i);
+			// if (new Double(i) / new Double(xml.size()) > 0.5) {
+			// LOG.info("Equals !!!");
+			// return true;
+			// }
+			boolean artistEquals = SearchUtils.isEqualsJaro(jaro, xmlComp.getArtist(), txtComp.getArtist(),
+					Constant.SCORE_LIMIT_ARTIST_FUSION);
+			boolean titreEquals = SearchUtils.isEqualsJaro(jaro, xmlComp.getTitre(), txtComp.getTitre(),
+					Constant.SCORE_LIMIT_TITLE_FUSION);
+			if (!artistEquals && !titreEquals) {
+				LOG.warn("Not Equals: " + i + " " + size);
+				LOG.warn("XML: " + xmlComp.getArtist() + " - " + xmlComp.getTitre());
+				LOG.warn("TXT: " + txtComp.getArtist() + " - " + txtComp.getTitre());
+			} else if (artistEquals && titreEquals) {
+				nbEquals++;
+			}
+		}
+		double ratio = new Double(nbEquals) / new Double(size);
+		if (ratio >= 0.9 || (size - nbEquals) < 3) {
+			LOG.warn("Equals !!! : " + ratio + " " + nbEquals + "/" + size);
+			return true;
+		} else {
+			LOG.warn("Not the same list: " + ratio + " " + nbEquals + "/" + size);
+			return false;
+		}
+	}
+
+	private static Map<String, String> buildResultMap(String separator, boolean artistFirst, boolean reverseArtist,
+			boolean parenthese, boolean upper, boolean removeAfter) {
+		Map<String, String> result = new HashMap<>();
+		result.put("separator", separator);
+		result.put("artistFirst", Boolean.toString(artistFirst));
+		result.put("reverseArtist", Boolean.toString(reverseArtist));
+		result.put("parenthese", Boolean.toString(parenthese));
+		result.put("upper", Boolean.toString(upper));
+		result.put("removeAfter", Boolean.toString(removeAfter));
+		return result;
+	}
+
+	public static String removeRank(String txt) {
+		String result = txt;
+		String res = StringUtils.trim(StringUtils.substringBefore(txt, Constant.DOT));
+		if (StringUtils.isNumeric(res)) {
+			result = StringUtils.substringAfter(txt, Constant.DOT);
+		} else {
+			result = StringUtils.substringAfterLast(txt, txt.split(" ")[0]);
+		}
+		return result;
 	}
 	
+	public static int findLineNumber(List<String> randomLineAndLastLines) {
+		int i = 0;
+		String line = "";
+		while (i < 6) {
+			if (i != 3) {
+				line = randomLineAndLastLines.get(i);
+				if (!StringUtils.startsWith(line, Constant.COMMENT_PREFIX) && !StringUtils.isBlank(line) && line.length() >= 5) {
+					break;
+				}
+			}
+			i++;
+		}
+		return i;
+	}
+	
+	public static String removeParenthe(String txt) {
+		String result = txt;
+		int countMatches = StringUtils.countMatches(txt, "(");
+		if (countMatches == 1) {
+			result = StringUtils.trim(StringUtils.substringBefore(txt, "("));
+		}
+		if (countMatches == 0) {
+//			LOG.info("Pas de parenthèse, line: " + txt);
+		} else if (countMatches > 1) {
+			LOG.info("###Trop de parenthèses, line: " + txt);
+		}
+		return result;
+	}
+
+	public static String revertArtist(String txtArtist) {
+		String artistRevert = "";
+		String[] arrayArtist = txtArtist.split(",");
+		if (arrayArtist.length == 2) {
+			artistRevert = StringUtils.trim(StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0]));
+		} else if(arrayArtist.length > 2) {
+			LOG.warn("Error when revert artist: " + txtArtist + ", size: " + arrayArtist.length);
+		}
+		return artistRevert;
+	}
+
 	private static void sizeFileSuspicious(List<Composition> importXML) {
-		// TODO tous les fichiers qui ont une taille non multiple de 10
+//		// TODO tous les fichiers qui ont une taille non multiple de 10
 //		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getSize() % 10 != 0 && f.getSize() % 5 != 0)
 //				.map(f->f.getFileName() + " " + f.getSize()).distinct().sorted().forEach(LOG::debug);
-		// TODO tous les fichiers dont le classement de la derniere composition est
-		// different de la taille
+//		// TODO tous les fichiers dont le classement de la derniere composition est
+//		// different de la taille
 //		List<String> fileNames = importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f->!f.getSorted())
 //				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
 //		for (String name : fileNames) {
