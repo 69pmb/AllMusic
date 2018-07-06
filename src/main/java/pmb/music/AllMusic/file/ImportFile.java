@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
@@ -82,21 +83,25 @@ public class ImportFile {
 	 * @return {@code List<Composition>} la liste de compos extraite du fichier
 	 * @throws MyException
 	 */
-	public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type, String separator, List<String> result,
-			boolean artistFirst, boolean reverseArtist, boolean parenthese, boolean upper, boolean removeAfter) throws MyException {
+	public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type,
+			String separator, List<String> result, boolean artistFirst, boolean reverseArtist, boolean parenthese,
+			boolean upper, boolean removeAfter) throws MyException {
 		LOG.debug("Start getCompositionsFromFile");
 		List<Composition> compoList = new ArrayList<>();
 		String line = "";
 		int i = 1;
 		int lineNb = 1;
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			while ((line = br.readLine()) != null) {
 				lineNb++;
-				if (StringUtils.isBlank(line) || line.length() < 5 || StringUtils.startsWith(line, Constant.DIESE)) {
+				if (StringUtils.isBlank(line) || line.length() < 5
+						|| StringUtils.startsWith(line, Constant.COMMENT_PREFIX)
+						|| (StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX) && lineNb == 2)) {
 					continue;
 				}
-				getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter, upper, reverseArtist, parenthese,
-						lineNb, i);
+				getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter,
+						upper, reverseArtist, parenthese, lineNb, i);
 				i++;
 			}
 		} catch (NumberFormatException | IOException e1) {
@@ -537,9 +542,10 @@ public class ImportFile {
 		LOG.debug("End getSeparator");
 		return res;
 	}
-	
+
 	private static boolean isSuitableSeparator(String sep) {
-		return !StringUtils.isAlphanumeric(sep) && !StringUtils.contains(sep, "(") && !StringUtils.contains(sep, ")") && sep.length()==1 && !StringUtils.contains(sep, Constant.DOT);
+		return !StringUtils.isAlphanumeric(sep) && sep.length() == 1
+				&& !Arrays.asList(Constant.NOT_SEPARATORS).contains(sep);
 	}
 
 	/**
@@ -553,21 +559,33 @@ public class ImportFile {
 		LOG.debug("Start randomLineAndLastLines");
 		List<String> lines = new ArrayList<>();
 		String line = "";
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			int countLines = countLines(file.getAbsolutePath());
-			if(countLines<4) {
+			if (countLines < 4) {
 				LOG.error("File " + file.getName() + " trop trop petit");
 				return lines;
 			}
-			int rand = ThreadLocalRandom.current().nextInt(4, countLines);
+			int startingRandom = 3;
+			String firstLine = StringUtils.trim(br.readLine());
+			if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
+				// Ignore first ligne if import params
+				lines.add(StringUtils.trim(br.readLine()));
+				startingRandom++;
+			} else {
+				lines.add(firstLine);
+			}
 			lines.add(StringUtils.trim(br.readLine()));
 			lines.add(StringUtils.trim(br.readLine()));
 			lines.add(StringUtils.trim(br.readLine()));
-			for (int i = 3; i < rand; i++) {
+			int rand = ThreadLocalRandom.current().nextInt(startingRandom + 1, countLines);
+			for (int i = startingRandom; i < rand; i++) {
 				line = StringUtils.trim(br.readLine());
 			}
 			int count = rand;
-			while (StringUtils.startsWith(line, Constant.DIESE) || StringUtils.isBlank(line) && line.length() < 5) {
+			while (StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX)
+					|| StringUtils.startsWith(line, Constant.COMMENT_PREFIX)
+					|| StringUtils.isBlank(line) && line.length() < 5) {
 				line = StringUtils.trim(br.readLine());
 				count++;
 			}
@@ -611,7 +629,7 @@ public class ImportFile {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
 			String readLine = "";
 			while (readLine != null) {
-				if (StringUtils.isNotBlank(readLine) && readLine.length() >= 5 && !StringUtils.startsWith(readLine, Constant.DIESE)) {
+				if (StringUtils.isNotBlank(readLine) && readLine.length() >= 5 && !StringUtils.startsWith(readLine, Constant.COMMENT_PREFIX)) {
 					count++;
 				}
 				readLine = br.readLine();

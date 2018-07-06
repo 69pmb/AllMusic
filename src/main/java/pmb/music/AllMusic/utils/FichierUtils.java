@@ -14,6 +14,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Vector;
 import java.util.function.Consumer;
@@ -22,6 +23,8 @@ import java.util.stream.Collectors;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -247,6 +250,70 @@ public class FichierUtils {
 		}
 		LOG.debug("End buildTxtFilePath");
 		return result;
+	}
+
+	/**
+	 * Retourne la première ligne du fichier donné.
+	 * @param file le fichier 
+	 * @return la 1ère ligne
+	 */
+	public static String getFirstLine(File file) {
+		LOG.debug("Start getFirstLine");
+		String result = "";
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+			result = br.readLine();
+		} catch (IOException e) {
+			LOG.error("Erreur lors de la lecture du fichier " + file.getAbsolutePath(), e);
+		}
+		LOG.debug("End getFirstLine");
+		return result;
+	}
+
+	/**
+	 * Write (or overwrite if already present) import parameters in txt file. 
+	 * @param file the file in which paramaters are written
+	 * @param map a map of paramaters
+	 */
+	public static void writeMapInFile(File file, Map<String, String> map) {
+		LOG.debug("Start writeMapInFile");
+		String s = "";
+		try {
+			s = MiscUtils.writeValueAsString(map);
+		} catch (JsonProcessingException e1) {
+			LOG.error("Error when convert map to string", e1);
+			return;
+		}
+		// Read all the lines of the file
+		StringBuilder lines = new StringBuilder();
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+			String line = "";
+			boolean isFirstLine = true;
+			while ((line = br.readLine()) != null) {
+				// Ignore the first line if old import params
+				if (!StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX) || !isFirstLine) {
+					lines.append(line + Constant.NEW_LINE);
+				}
+				isFirstLine = false;
+			}
+		} catch (IOException e) {
+			LOG.error("Error file: " + file.getName(), e);
+			return;
+		}
+		// Delete the file
+		file.delete();
+		// Rewrite the file
+		try (BufferedWriter writer = new BufferedWriter(
+				new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING));) {
+			// Appends imports params
+			writer.append(Constant.IMPORT_PARAMS_PREFIX + s + Constant.NEW_LINE);
+			// Then append all the read lines
+			writer.append(lines);
+		} catch (IOException e) {
+			LOG.error("Error file: " + file.getName(), e);
+		}
+		LOG.debug("End writeMapInFile");
 	}
 
 	/**

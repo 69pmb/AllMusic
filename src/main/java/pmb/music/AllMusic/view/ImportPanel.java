@@ -13,10 +13,13 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.io.File;
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -40,6 +43,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CleanFile;
@@ -50,6 +55,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 
 /**
@@ -598,6 +604,9 @@ public class ImportPanel extends JPanel {
 				}).collect(Collectors.toList());
 				ExportXML.exportXML(newCompoList, name.getText());
 				absolutePathFileXml = Constant.XML_PATH + name.getText() + Constant.XML_EXTENSION;
+				FichierUtils.writeMapInFile(new File(absolutePathFileTxt),
+						convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
+								removeParenthese.isSelected(), upper.isSelected(), removeAfter.isSelected()));
 			} catch (IOException | MyException e) {
 				LOG.error("Erreur lors de l'import du fichier: " + absolutePathFileTxt, e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
@@ -605,6 +614,28 @@ public class ImportPanel extends JPanel {
 		}
 		miseEnFormeResultLabel(result);
 		LOG.debug("End importFile");
+	}
+
+	private Map<String, String> convertParamsToMap(String separator, boolean artistFirst, boolean reverseArtist,
+			boolean parenthese, boolean upper, boolean removeAfter) throws JsonProcessingException {
+		Map<String, String> map = new HashMap<>();
+		map.put("separator", separator);
+		map.put("artistFirst", Boolean.toString(artistFirst));
+		map.put("reverseArtist", Boolean.toString(reverseArtist));
+		map.put("parenthese", Boolean.toString(parenthese));
+		map.put("upper", Boolean.toString(upper));
+		map.put("removeAfter", Boolean.toString(removeAfter));
+		map.put("name", fichier.getFileName());
+		map.put("auteur", fichier.getAuthor());
+		map.put("create", new Constant().getSdfDttm().format(fichier.getCreationDate()));
+		map.put("type", type.getSelectedItem().toString());
+		map.put("cat", fichier.getCategorie().toString());
+		map.put("rangeB", String.valueOf(fichier.getRangeDateBegin()));
+		map.put("rangeE", String.valueOf(fichier.getRangeDateEnd()));
+		map.put("sorted", String.valueOf(fichier.getSorted()));
+		map.put("publish", String.valueOf(fichier.getPublishYear()));
+		map.put("size", String.valueOf(fichier.getSize()));
+		return map;
 	}
 
 	/**
@@ -695,40 +726,83 @@ public class ImportPanel extends JPanel {
 	 */
 	private void loadFile() {
 		LOG.debug("Start loadFile");
-		explorePath = StringUtils.substring(file.getAbsolutePath(), 0, file.getAbsolutePath().lastIndexOf(File.separator));
+		List<String> label = new LinkedList<>();
+		explorePath = StringUtils.substring(file.getAbsolutePath(), 0,
+				file.getAbsolutePath().lastIndexOf(File.separator));
 		absolutePathFileTxt = file.getAbsolutePath();
-		fichier = ImportFile.convertOneFile(file);
 		List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
-		fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
-		fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
-		absolutePathFileXml = Constant.XML_PATH + fichier.getFileName() + Constant.XML_EXTENSION;
+		String firstLine = FichierUtils.getFirstLine(file);
+		if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
+			Map<String, String> value = new HashMap<>();
+			try {
+				value = MiscUtils.readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
+			} catch (IOException e) {
+				LOG.error("", e);
+			}
+			LOG.debug("value: " + value.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue())
+					.collect(Collectors.joining(", ")));
+			LOG.debug("Init with stored params");
+			name.setText(value.get("name"));
+			absolutePathFileXml = Constant.XML_PATH + value.get("name") + Constant.XML_EXTENSION;
+			author.setText(value.get("auteur"));
+			date.setText(value.get("create"));
+			cat.setSelectedItem(Cat.valueOf(value.get("cat")));
+			publi.setText(value.get("publish"));
+			type.setSelectedItem(RecordType.valueOf(value.get("type")));
+			rangeB.setText(value.get("rangeB"));
+			rangeE.setText(value.get("rangeE"));
+			sorted.setSelected(Boolean.parseBoolean(value.get("sorted")));
+			size.setText(value.get("size"));
+			separator.setText(value.get("separator"));
+			upper.setSelected(Boolean.parseBoolean(value.get("upper")));
+			removeParenthese.setSelected(Boolean.parseBoolean(value.get("parenthese")));
+			removeAfter.setSelected(Boolean.parseBoolean(value.get("removeAfter")));
+			reverseArtist.setSelected(Boolean.parseBoolean(value.get("reverseArtist")));
+			order.setSelected(Boolean.parseBoolean(value.get("artistFirst")));
+			fichier = new Fichier();
+			try {
+				fichier.setCreationDate(new Constant().getSdfDttm().parse(value.get("create")));
+			} catch (ParseException e) {
+				LOG.warn("Error when parsing creation date", e);
+			}
+			label.add("Paramètres importés");
+		} else {
+			LOG.debug("Guessing params");
+			fichier = ImportFile.convertOneFile(file);
+			fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
+			fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
+			absolutePathFileXml = Constant.XML_PATH + fichier.getFileName() + Constant.XML_EXTENSION;
+			determineType = ImportFile.determineType(file.getName());
+			boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
+			if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType)
+					&& fichier.getPublishYear() != 0 && rangeDatesZero) {
+				fichier.setCategorie(Cat.YEAR);
+				fichier.setRangeDateBegin(fichier.getPublishYear());
+				fichier.setRangeDateEnd(fichier.getPublishYear());
+			}
+			name.setText(fichier.getFileName());
+			author.setText(fichier.getAuthor());
+			date.setText(new Constant().getSdfDttm().format(fichier.getCreationDate()));
+			cat.setSelectedItem(fichier.getCategorie());
+			publi.setText(String.valueOf(fichier.getPublishYear()));
+			type.setSelectedItem(determineType);
+			rangeB.setText(String.valueOf(fichier.getRangeDateBegin()));
+			rangeE.setText(String.valueOf(fichier.getRangeDateEnd()));
+			sorted.setSelected(fichier.getSorted());
+			size.setText(String.valueOf(fichier.getSize()));
+			separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(3)));
+			label.add("Paramètres devinés");
+		}
 		if (FileUtils.fileExists(absolutePathFileXml)) {
-			miseEnFormeResultLabel(new LinkedList<>(Arrays.asList(fichier.getFileName() + " a déjà été importé")));
+			label.add(name.getText() + " a déjà été importé");
+			miseEnFormeResultLabel(label);
 		}
-		determineType = ImportFile.determineType(file.getName());
-		boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
-		if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType) && fichier.getPublishYear() != 0 && rangeDatesZero) {
-			fichier.setCategorie(Cat.YEAR);
-			fichier.setRangeDateBegin(fichier.getPublishYear());
-			fichier.setRangeDateEnd(fichier.getPublishYear());
-		}
-		name.setText(fichier.getFileName());
-		author.setText(fichier.getAuthor());
-		date.setText(new Constant().getSdfDttm().format(fichier.getCreationDate()));
-		cat.setSelectedItem(fichier.getCategorie());
-		publi.setText(String.valueOf(fichier.getPublishYear()));
-		type.setSelectedItem(determineType);
-		rangeB.setText(String.valueOf(fichier.getRangeDateBegin()));
-		rangeE.setText(String.valueOf(fichier.getRangeDateEnd()));
-		sorted.setSelected(fichier.getSorted());
-		size.setText(String.valueOf(fichier.getSize()));
 		firstL1.setText(randomLineAndLastLines.get(0));
 		firstL2.setText(randomLineAndLastLines.get(1));
 		firstL3.setText(randomLineAndLastLines.get(2));
 		line.setText(randomLineAndLastLines.get(3));
 		lastL1.setText(randomLineAndLastLines.get(4));
 		lastL2.setText(randomLineAndLastLines.get(5));
-		separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(3)));
 		LOG.debug("End loadFile");
 	}
 

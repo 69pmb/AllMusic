@@ -89,7 +89,9 @@ public class Constant {
 
 	public static final String DOT = ".";
 
-	public static final String DIESE = "#";
+	public static final String COMMENT_PREFIX = "#";
+	
+	public static final String IMPORT_PARAMS_PREFIX = "@";
 
 	public static final String XML_EXTENSION = ".xml";
 
@@ -98,7 +100,9 @@ public class Constant {
 	public static final String TXT_EXTENSION = ".txt";
 
 	private static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
-
+	
+	public static final String[] NOT_SEPARATORS = { "(", ")", DOT, ",", "#", "'", "!", "*", "?", "/" };
+	
 	public static final String DEFAULT_TITLE = "AllMusic";
 
 	private final SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
