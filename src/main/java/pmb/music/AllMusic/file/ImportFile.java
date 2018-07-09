@@ -264,7 +264,7 @@ public class ImportFile {
 		if (res == 0) {
 			LOG.debug("Taille égale à zéro, on compte le nombre de ligne du fichier");
 			try {
-				res = countLines(absolutePath);
+				res = countLines(absolutePath, true);
 			} catch (IOException e) {
 				LOG.error("Erreur dans countLines", e);
 			}
@@ -562,7 +562,7 @@ public class ImportFile {
 		String line = "";
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
-			int countLines = countLines(file.getAbsolutePath());
+			int countLines = countLines(file.getAbsolutePath(), false);
 			if (countLines < 4) {
 				LOG.error("File " + file.getName() + " trop trop petit");
 				return lines;
@@ -576,7 +576,6 @@ public class ImportFile {
 			} else {
 				lines.add(firstLine);
 			}
-			lines.add(StringUtils.trim(br.readLine()));
 			lines.add(StringUtils.trim(br.readLine()));
 			lines.add(StringUtils.trim(br.readLine()));
 			int rand = ThreadLocalRandom.current().nextInt(startingRandom + 1, countLines);
@@ -621,16 +620,20 @@ public class ImportFile {
 	 * Compte le nombre de ligne dans le fichier.
 	 * 
 	 * @param filename le nom du fichier
+	 * @param validLine true on compte seulement les lignes non vides, plus longue que 5 caractères et non commentées, 
+	 * false on compte toutes les lignes.
 	 * @return un nombre
 	 * @throws IOException
 	 */
-	public static int countLines(String filename) throws IOException {
+	public static int countLines(String filename, boolean validLine) throws IOException {
 		LOG.debug("Start countLines");
 		int count = 0;
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
 			String readLine = "";
 			while (readLine != null) {
-				if (StringUtils.isNotBlank(readLine) && readLine.length() >= 5 && !StringUtils.startsWith(readLine, Constant.COMMENT_PREFIX)) {
+				if (validLine && StringUtils.isNotBlank(readLine) && readLine.length() >= 5 && !StringUtils.startsWith(readLine, Constant.COMMENT_PREFIX)) {
+					count++;
+				} else if(!validLine) {
 					count++;
 				}
 				readLine = br.readLine();
