@@ -141,24 +141,32 @@ public class AppTest {
 	private static List<Map<String, String>> findImportParamsForOneFile(String filename, String auteur, List<Composition> xml,
 			StringBuilder log) {
 		log.append("File: " + filename + Constant.NEW_LINE);
-		boolean guessIfRevertArtist = guessIfRevertArtist(new File(FichierUtils.buildTxtFilePath(filename, auteur).get()));
+		File file = new File(FichierUtils.buildTxtFilePath(filename, auteur).get());
+		boolean guessIfRevertArtist = guessIfRevertArtist(file);
 		List<Map<String, String>> list = new ArrayList<>();
-		List<String> randomLineAndLastLines = ImportFile
-				.randomLineAndLastLines(new File(FichierUtils.buildTxtFilePath(filename, auteur).get()));
+		List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
 		if (randomLineAndLastLines.size() < 6) {
 			log.append("Too small: " + filename + Constant.NEW_LINE);
-			return new ArrayList<>();
+			String first = FichierUtils.getFirstLine(file);
+			Map<String, String> findParams = findParams(filename, xml, Arrays.asList(first),
+					ImportFile.getSeparator(first), 0, 0, log);
+			if (!findParams.isEmpty()) {
+				return Arrays.asList(findParams);
+			} else {
+				return new ArrayList<>();
+			}
 		}
 		String separator = ImportFile.getSeparator(randomLineAndLastLines.get(3));
-
-		for (int i = 0; i < randomLineAndLastLines.size(); i++) {
-			int offset = 0;
-			String line = randomLineAndLastLines.get(i);
+		int offset = 0;
+		for (String line : randomLineAndLastLines) {
 			if (StringUtils.startsWith(line, Constant.COMMENT_PREFIX) || StringUtils.isBlank(line)
 					|| line.length() < 5) {
 				offset++;
-				continue;
+			} else {
+				break;
 			}
+		}
+		for (int i = 0; i < randomLineAndLastLines.size(); i++) {
 			if (i + offset > 4) {
 				offset = 0;
 			}
@@ -202,6 +210,9 @@ public class AppTest {
 			List<String> randomLineAndLastLines, String separator, int lineNumber, int offset, StringBuilder log) {
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		String[] split = StringUtils.split(randomLineAndLastLines.get(lineNumber + offset), separator);
+		if (split == null) {
+			return new HashMap<>();
+		}
 		log.append("split size: " + split.length + Constant.NEW_LINE);
 		boolean removeAfter = false;
 		if (split.length < 2) {
@@ -211,12 +222,13 @@ public class AppTest {
 		}
 		String txtArtist;
 		int number = lineNumber;
-		if (xml.get(2).getFiles().get(0).getSorted()) {
+		if (xml.get(0).getFiles().get(0).getSorted()) {
 			String[] array = removeRank(StringUtils.trim(split[0]));
 			txtArtist = StringUtils.trim(array[1]);
 			try {
 				number = Integer.valueOf(array[0]);
 			} catch (NumberFormatException e) {
+				txtArtist = StringUtils.trim(split[0]);
 				LOG.error("split: " + StringUtils.join(Arrays.asList(split), ","));
 			}
 		} else {
@@ -241,7 +253,8 @@ public class AppTest {
 				xmlArtist = compo.get().getArtist();
 				xmlTitre = compo.get().getTitre();
 			} else {
-				return new HashMap<>();
+				xmlArtist = xml.get(tmp).getArtist();
+				xmlTitre = xml.get(tmp).getTitre();
 			}
 		}
 		String artistRevert = revertArtist(txtArtist);
