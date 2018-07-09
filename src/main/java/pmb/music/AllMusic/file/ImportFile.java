@@ -583,9 +583,10 @@ public class ImportFile {
 				line = StringUtils.trim(br.readLine());
 			}
 			int count = rand;
-			while (StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX)
-					|| StringUtils.startsWith(line, Constant.COMMENT_PREFIX)
-					|| StringUtils.isBlank(line) && line.length() < 5) {
+			while (StringUtils.isBlank(line) 
+					|| StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX)
+					|| StringUtils.startsWith(line, Constant.COMMENT_PREFIX) 
+					|| line.length() < 5) {
 				line = StringUtils.trim(br.readLine());
 				count++;
 			}
