@@ -15,6 +15,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import java.util.Vector;
 import java.util.stream.Collectors;
@@ -92,6 +93,9 @@ public class BatchUtils {
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		emptyTitleOrArtist(importXML, result);
 		titleSlash(importXML, result);
+		sizeZero(importXML, result);
+		rankZero(importXML, result);
+		rankGreaterThanSize(importXML, result);
 
 		writeInFile(result);
 		LOG.debug("End findSuspiciousComposition");
@@ -126,7 +130,7 @@ public class BatchUtils {
 	}
 
 	public static void titleSlash(List<Composition> importXML, StringBuilder result) {
-		addLine(result, "Title Slash: ");
+		addLine(result, "## Title Slash: ");
 		importXML.stream().forEach(c -> {
 			if (StringUtils.contains(c.getTitre(), "/")) {
 				addLine(result, c.getArtist() + " - " + c.getTitre());
@@ -134,8 +138,45 @@ public class BatchUtils {
 		});
 	}
 
+	public static void rankZero(List<Composition> importXML, StringBuilder result) {
+		addLine(result, "## Rank Zero: ");
+		importXML
+				.stream().filter(
+						c -> c.getFiles().stream().anyMatch(f -> f.getClassement() == 0))
+				.forEach(c -> addLine(result,
+						c.getArtist() + " - " + c.getTitre() + " / "
+								+ StringUtils.join(c.getFiles().stream().filter(f -> f.getClassement() == 0)
+										.map(Fichier::getFileName).collect(Collectors.toList()), ",")));
+	}
+
+	public static void rankGreaterThanSize(List<Composition> importXML, StringBuilder result) {
+		addLine(result, "## Rank Greater Than Size: ");
+		importXML
+				.stream().map(Composition::getFiles).flatMap(List::stream).filter(
+						f -> f.getClassement() > f.getSize() && f.getSize() != 0)
+				.collect(
+						Collectors
+								.groupingBy(Fichier::getFileName,
+										Collectors
+												.collectingAndThen(
+														Collectors
+																.reducing((Fichier d1,
+																		Fichier d2) -> d1.getClassement() > d2
+																				.getClassement() ? d1 : d2),
+														Optional::get)))
+				.entrySet().stream().sorted(Map.Entry.comparingByKey())
+				.forEach(f -> addLine(result, f.getValue().getFileName() + ", size: " + f.getValue().getSize()
+						+ ", classement max: " + f.getValue().getClassement()));
+	}
+
+	public static void sizeZero(List<Composition> importXML, StringBuilder result) {
+		addLine(result, "## File Size Zero: ");
+		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getSize() == 0)
+				.map(Fichier::getFileName).distinct().sorted().forEach(f -> addLine(result, f));
+	}
+
 	public static void emptyTitleOrArtist(List<Composition> importXML, StringBuilder result) {
-		addLine(result, "Empty Title or Artist: ");
+		addLine(result, "## Empty Title or Artist: ");
 		importXML.stream().forEach(c -> {
 			if (StringUtils.equalsIgnoreCase(StringUtils.trim(c.getTitre()), "")
 					|| StringUtils.equalsIgnoreCase(StringUtils.trim(c.getArtist()), "")) {
