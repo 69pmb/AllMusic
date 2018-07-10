@@ -94,6 +94,7 @@ public class BatchUtils {
 		emptyTitleOrArtist(importXML, result);
 		titleSlash(importXML, result);
 		sizeZero(importXML, result);
+		publishZero(importXML, result);
 		rankZero(importXML, result);
 		rankGreaterThanSize(importXML, result);
 
@@ -172,6 +173,12 @@ public class BatchUtils {
 	public static void sizeZero(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## File Size Zero: ");
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getSize() == 0)
+				.map(Fichier::getFileName).distinct().sorted().forEach(f -> addLine(result, f));
+	}
+
+	public static void publishZero(List<Composition> importXML, StringBuilder result) {
+		addLine(result, "## File Publish Year Zero: ");
+		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getPublishYear() == 0)
 				.map(Fichier::getFileName).distinct().sorted().forEach(f -> addLine(result, f));
 	}
 
