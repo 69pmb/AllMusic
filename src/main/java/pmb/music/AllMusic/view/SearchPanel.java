@@ -455,29 +455,29 @@ public class SearchPanel extends JPanel {
 		if (CollectionUtils.isNotEmpty(allCompo)) {
 			Map<String, String> criteria = new HashMap<>();
 			if (artist.getSelectedItem() != null) {
-				criteria.put("artist", artist.getSelectedItem().toString());
+				criteria.put(SearchUtils.CRITERIA_ARTIST, artist.getSelectedItem().toString());
 			}
 			if (titre.getSelectedItem() != null) {
-				criteria.put("titre", titre.getSelectedItem().toString());
+				criteria.put(SearchUtils.CRITERIA_TITRE, titre.getSelectedItem().toString());
 			}
 			if (type.getSelectedItem() != null) {
-				criteria.put("type", type.getSelectedItem().toString());
+				criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.getSelectedItem().toString());
 			}
-			criteria.put("publish", publi.getText());
-			criteria.put("fileName", fileName.getText());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
+			criteria.put(SearchUtils.CRITERIA_FILENAME, fileName.getText());
 			if (author.getSelectedItem() != null) {
-				criteria.put("auteur", author.getSelectedItem().toString());
+				criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getSelectedItem().toString());
 			}
 			if (cat.getSelectedItem() != null) {
-				criteria.put("cat", cat.getSelectedItem().toString());
+				criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItem().toString());
 			}
-			criteria.put("dateB", rangeB.getText());
-			criteria.put("dateE", rangeE.getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
 			if (sorted.isSelected()) {
-				criteria.put("sorted", Boolean.TRUE.toString());
+				criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 			}
 			if (topTen.isSelected()) {
-				criteria.put("top", Boolean.TRUE.toString());
+				criteria.put(SearchUtils.CRITERIA_TOP, Boolean.TRUE.toString());
 			}
 
 			compoResult = new ArrayList<>();
