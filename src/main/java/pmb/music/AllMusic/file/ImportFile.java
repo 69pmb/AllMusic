@@ -126,6 +126,7 @@ public class ImportFile {
 		}
 
 		Composition composition = new Composition();
+		composition.setCanBeMerged(true);
 		int rank = setArtistAndTitreGetRank(composition, line, upper, split, fichier.getSorted(), i);
 		List<Fichier> files = new ArrayList<>();
 		Fichier fich = new Fichier(fichier);
@@ -152,6 +153,14 @@ public class ImportFile {
 			removeParentheseFromTitreAndArtist(result, line, lineNb, composition);
 		}
 
+		// Checks if title or artist not empty
+		if (StringUtils.isBlank(composition.getArtist())) {
+			result.add("### Error Artist empty for: " + line + LOG_NUMBER + (lineNb - 1));
+		}
+		if (StringUtils.isBlank(composition.getTitre())) {
+			result.add("### Error Title empty for: " + line + LOG_NUMBER + (lineNb - 1));
+		}
+		
 		compoList.add(composition);
 	}
 

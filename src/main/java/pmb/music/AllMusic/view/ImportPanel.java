@@ -599,11 +599,7 @@ public class ImportPanel extends JPanel {
 						(RecordType) type.getSelectedItem(), separator.getText(), result, order.isSelected(),
 						reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
 						removeAfter.isSelected());
-				List<Composition> newCompoList = compoList.stream().map(compo -> {
-					compo.setCanBeMerged(true);
-					return compo;
-				}).collect(Collectors.toList());
-				ExportXML.exportXML(newCompoList, name.getText());
+				ExportXML.exportXML(compoList, name.getText());
 				absolutePathFileXml = Constant.XML_PATH + name.getText() + Constant.XML_EXTENSION;
 				FichierUtils.writeMapInFile(new File(absolutePathFileTxt),
 						convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
