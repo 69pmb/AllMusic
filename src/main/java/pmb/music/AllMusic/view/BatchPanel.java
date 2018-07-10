@@ -108,7 +108,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(fdc, fdcYear, Component.LEFT_ALIGNMENT, 100);
 
 		// Launch Button
-		JButton fdcBtn = new JButton("Go");
+		JButton fdcBtn = new JButton("Go Compositions En Double");
 		fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
 		fdcBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime());
@@ -134,7 +134,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(fdf, fdfLabel, Component.LEFT_ALIGNMENT, 700);
 
 		// Bouton d'action
-		JButton fdfBtn = new JButton("Go");
+		JButton fdfBtn = new JButton("Go Fichiers En Double");
 		fdfBtn.setToolTipText("Cherche les fichiers en double.");
 		fdfBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateFiles: " + MiscUtils.getCurrentTime());
@@ -159,7 +159,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(mxf, mxfLabel, Component.LEFT_ALIGNMENT, 700);
 		
 		// Bouton d'action
-		JButton mxfBtn = new JButton("Go");
+		JButton mxfBtn = new JButton("Go XML Manquant");
 		mxfBtn.setToolTipText("Cherche si des fichiers txt n'ont pas d'équivalent XML.");
 		mxfBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start missingXML: " + MiscUtils.getCurrentTime());
@@ -205,7 +205,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(top, songLimit, Component.LEFT_ALIGNMENT, 80);
 
 		// Bouton d'action
-		JButton topBtn = new JButton("Go");
+		JButton topBtn = new JButton("Go Tops");
 		topBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start topYear: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
@@ -223,11 +223,11 @@ public class BatchPanel extends JPanel {
 		JPanel clear = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
 		// Label
-		JLabel clearLabel = new JLabel("Nettoyer le dossier d'historique: ");
+		JLabel clearLabel = new JLabel("Nettoyer le dossier historique: ");
 		PanelUtils.addComponent(clear, clearLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// Clean history
-		JButton cleanHistory = new JButton("Go");
+		JButton cleanHistory = new JButton("Go Clean Historique");
 		cleanHistory.setToolTipText("Supprime tous les fichiers du dossier d'historique sauf le plus récent.");
 		cleanHistory.addActionListener((ActionEvent arg0) -> {
 			displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
@@ -249,7 +249,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(suspicious, suspiciousLabel, Component.LEFT_ALIGNMENT, 800);
 		
 		// suspicious Btn
-		JButton suspiciousBtn = new JButton("Go");
+		JButton suspiciousBtn = new JButton("Go Compositions Suspectes");
 		suspiciousBtn.setToolTipText("Trouve des compositions bizarres");
 		suspiciousBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
@@ -271,7 +271,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(validate, validateLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// validate Btn
-		JButton validateBtn = new JButton("Go");
+		JButton validateBtn = new JButton("Go Filename Incorrect");
 		validateBtn.setToolTipText("Trouve les noms de fichier incorrect");
 		validateBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime());
@@ -293,7 +293,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(stat, statLabel, Component.LEFT_ALIGNMENT, 900);
 		
 		// Stat btn
-		JButton statsBtn = new JButton("Go");
+		JButton statsBtn = new JButton("Go Statistiques");
 		statsBtn.setToolTipText("Génère des statistiques.");
 		statsBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start statistic: " + MiscUtils.getCurrentTime());
