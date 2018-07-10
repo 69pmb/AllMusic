@@ -262,9 +262,9 @@ public class CompositionUtils {
 	public static Composition findByArtistTitreAndType(List<Composition> compoList, String artist, String titre, String type, boolean isStrictly) throws MyException {
 		LOG.debug("Start findByArtistTitreAndType");
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("artist", artist);
-		criteria.put("titre", titre);
-		criteria.put("type", type);
+		criteria.put(SearchUtils.CRITERIA_ARTIST, artist);
+		criteria.put(SearchUtils.CRITERIA_TITRE, titre);
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
 		
 		List<Composition> search = new ArrayList<>();
 		if(isStrictly) {
@@ -329,7 +329,7 @@ public class CompositionUtils {
 	public static List<Composition> findByArtist(List<Composition> compoList, String artist) {
 		LOG.debug("Start findByArtistTitreAndType");
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("artist", artist);
+		criteria.put(SearchUtils.CRITERIA_ARTIST, artist);
 
 		List<Composition> search = SearchUtils.searchJaro(compoList, criteria, false);
 		if (!search.isEmpty()) {
@@ -499,8 +499,8 @@ public class CompositionUtils {
 	public static BigDecimal getMedian(RecordType type) {
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("type", type.toString());
-		criteria.put("sorted", Boolean.TRUE.toString());
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
+		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
 		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
@@ -515,8 +515,8 @@ public class CompositionUtils {
 	public static BigDecimal getMax(RecordType type) {
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("type", type.toString());
-		criteria.put("sorted", Boolean.TRUE.toString());
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
+		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
 		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
