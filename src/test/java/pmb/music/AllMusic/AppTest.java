@@ -159,8 +159,7 @@ public class AppTest {
 		String separator = ImportFile.getSeparator(randomLineAndLastLines.get(3));
 		int offset = 0;
 		for (String line : randomLineAndLastLines) {
-			if (StringUtils.startsWith(line, Constant.COMMENT_PREFIX) || StringUtils.isBlank(line)
-					|| line.length() < 5) {
+			if (!ImportFile.isValidLine(line)) {
 				offset++;
 			} else {
 				break;

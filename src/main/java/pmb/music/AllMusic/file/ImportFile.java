@@ -96,9 +96,7 @@ public class ImportFile {
 				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			while ((line = br.readLine()) != null) {
 				lineNb++;
-				if (StringUtils.isBlank(line) || line.length() < 5
-						|| StringUtils.startsWith(line, Constant.COMMENT_PREFIX)
-						|| (StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX) && lineNb == 2)) {
+				if (!isValidLine(line) && lineNb == 2) {
 					continue;
 				}
 				getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter,
@@ -592,10 +590,7 @@ public class ImportFile {
 				line = StringUtils.trim(br.readLine());
 			}
 			int count = rand;
-			while (StringUtils.isBlank(line) 
-					|| StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX)
-					|| StringUtils.startsWith(line, Constant.COMMENT_PREFIX) 
-					|| line.length() < 5) {
+			while (!isValidLine(line)) {
 				line = StringUtils.trim(br.readLine());
 				count++;
 			}
@@ -627,10 +622,22 @@ public class ImportFile {
 	}
 
 	/**
+	 * Checks if the given line is valid, ie might contains a composition.
+	 * @param line the line to check
+	 * @return false if the line is too short, a comment, import params or empty, true otherwise
+	 */
+	public static boolean isValidLine(String line) {
+		return StringUtils.isNotBlank(line) 
+				&& !StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX)
+				&& !StringUtils.startsWith(line, Constant.COMMENT_PREFIX) 
+				&& line.length() > 4;
+	}
+
+	/**
 	 * Compte le nombre de ligne dans le fichier.
 	 * 
 	 * @param filename le nom du fichier
-	 * @param validLine true on compte seulement les lignes non vides, plus longue que 5 caractères et non commentées, 
+	 * @param validLine true on compte seulement les lignes valides, plus longue que 5 caractères et non commentées, 
 	 * false on compte toutes les lignes.
 	 * @return un nombre
 	 * @throws IOException
@@ -641,7 +648,7 @@ public class ImportFile {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
 			String readLine = "";
 			while (readLine != null) {
-				if (validLine && StringUtils.isNotBlank(readLine) && readLine.length() >= 5 && !StringUtils.startsWith(readLine, Constant.COMMENT_PREFIX)) {
+				if (validLine && isValidLine(readLine)) {
 					count++;
 				} else if(!validLine) {
 					count++;
