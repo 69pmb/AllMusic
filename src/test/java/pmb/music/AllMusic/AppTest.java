@@ -442,8 +442,8 @@ public class AppTest {
 	private static void gauss(List<Composition> importXML, RecordType type) {
 		Map<Integer, Integer> map = new TreeMap<>();
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("sorted", Boolean.TRUE.toString());
-		criteria.put("type", type.toString());
+		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		List<Integer> yearList = SearchUtils.searchJaro(importXML, criteria, true).stream().map(Composition::getFiles)
 				.flatMap(List::stream).map(Fichier::getClassement).collect(Collectors.toList());
 		for (Integer rank : yearList) {
@@ -462,8 +462,8 @@ public class AppTest {
 	private static void stats(List<Composition> importXML, RecordType type) {
 		LOG.debug(type.toString());
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("type", type.toString());
-		criteria.put("sorted", Boolean.TRUE.toString());
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
+		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		List<Integer> yearList = SearchUtils.searchJaro(importXML, criteria, true).stream().map(Composition::getFiles)
 				.flatMap(List::stream).map(Fichier::getClassement).collect(Collectors.toList());
 		LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
@@ -478,7 +478,7 @@ public class AppTest {
 		BigDecimal logMax = CompositionUtils.getLogMax(type);
 
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("type", type.toString());
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
 
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
@@ -504,12 +504,12 @@ public class AppTest {
 			List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 			String year = String.valueOf(i);
 			Map<String, String> criteria = new HashMap<>();
-			criteria.put("cat", Cat.YEAR.toString());
-			criteria.put("dateB", year);
-			criteria.put("dateE", year);
-			criteria.put("publish", year);
-			criteria.put("sorted", Boolean.TRUE.toString());
-			criteria.put("type", RecordType.SONG.toString());
+			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
+			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+			criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
+			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 			List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);			
 //			LOG.debug("year: " + year + " size: " + yearList.size());
 			LOG.debug("year: " + year + " file size: " + yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)

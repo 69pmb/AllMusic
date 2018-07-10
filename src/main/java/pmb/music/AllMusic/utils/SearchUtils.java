@@ -28,6 +28,17 @@ import pmb.music.AllMusic.model.RecordType;
 public class SearchUtils {
 
 	private static final Logger LOG = Logger.getLogger(SearchUtils.class);
+	public static final String CRITERIA_ARTIST = "artist";
+	public static final String CRITERIA_TITRE = "titre";
+	public static final String CRITERIA_RECORD_TYPE = "type";
+	public static final String CRITERIA_PUBLISH_YEAR = "publish";
+	public static final String CRITERIA_FILENAME = "fileName";
+	public static final String CRITERIA_AUTHOR = "auteur";
+	public static final String CRITERIA_CAT = "cat";
+	public static final String CRITERIA_DATE_BEGIN = "dateB";
+	public static final String CRITERIA_DATE_END = "dateE";
+	public static final String CRITERIA_SORTED = "sorted";
+	public static final String CRITERIA_TOP = "top";
 
 	private SearchUtils() {
 	}
@@ -45,18 +56,18 @@ public class SearchUtils {
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> arrayList = new ArrayList<>(compoList);
 		// Critères compositions
-		final String artist = criteria.get("artist");
-		final String titre = criteria.get("titre");
-		final String type = criteria.get("type");
+		final String artist = criteria.get(CRITERIA_ARTIST);
+		final String titre = criteria.get(CRITERIA_TITRE);
+		final String type = criteria.get(CRITERIA_RECORD_TYPE);
 		// Critères fichiers
-		final String publish = criteria.get("publish");
-		final String fileName = criteria.get("fileName");
-		final String auteur = criteria.get("auteur");
-		final String cat = criteria.get("cat");
-		final String dateB = criteria.get("dateB");
-		final String dateE = criteria.get("dateE");
-		final String sorted = criteria.get("sorted");
-		final String topTen = criteria.get("top");
+		final String publish = criteria.get(CRITERIA_PUBLISH_YEAR);
+		final String fileName = criteria.get(CRITERIA_FILENAME);
+		final String auteur = criteria.get(CRITERIA_AUTHOR);
+		final String cat = criteria.get(CRITERIA_CAT);
+		final String dateB = criteria.get(CRITERIA_DATE_BEGIN);
+		final String dateE = criteria.get(CRITERIA_DATE_END);
+		final String sorted = criteria.get(CRITERIA_SORTED);
+		final String topTen = criteria.get(CRITERIA_TOP);
 
 		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre) || StringUtils.isNotBlank(type);
 
@@ -157,15 +168,17 @@ public class SearchUtils {
 	public static List<Composition> searchStrictly(List<Composition> compoList, Map<String, String> criteria) {
 		LOG.debug("Start searchStrictly");
 		List<Composition> arrayList = new ArrayList<>(compoList);
-		final String artist = criteria.get("artist");
-		final String titre = criteria.get("titre");
-		final String type = criteria.get("type");
-		final String publish = criteria.get("publish");
-		final String fileName = criteria.get("fileName");
-		final String auteur = criteria.get("auteur");
-		final String cat = criteria.get("cat");
-		final String dateB = criteria.get("dateB");
-		final String dateE = criteria.get("dateE");
+		// Critères compositions
+		final String artist = criteria.get(CRITERIA_ARTIST);
+		final String titre = criteria.get(CRITERIA_TITRE);
+		final String type = criteria.get(CRITERIA_RECORD_TYPE);
+		// Critères fichiers
+		final String publish = criteria.get(CRITERIA_PUBLISH_YEAR);
+		final String fileName = criteria.get(CRITERIA_FILENAME);
+		final String auteur = criteria.get(CRITERIA_AUTHOR);
+		final String cat = criteria.get(CRITERIA_CAT);
+		final String dateB = criteria.get(CRITERIA_DATE_BEGIN);
+		final String dateE = criteria.get(CRITERIA_DATE_END);
 
 		// Si on doit chercher dans les compos
 		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre) || StringUtils.isNotBlank(type);

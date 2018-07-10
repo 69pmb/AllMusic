@@ -113,7 +113,7 @@ public class BatchUtils {
 				continue;
 			}
 			Map<String, String> criteria = new HashMap<>();
-			criteria.put("auteur", author);
+			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
 			res.addAll(SearchUtils.searchJaro(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true).stream()
 					.map(Composition::getFiles).flatMap(List::stream)
 					.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
@@ -444,9 +444,9 @@ public class BatchUtils {
 				.mapToInt(i -> i).filter(y -> y != 0).min().getAsInt();
 		for (int year = minYear; year <= maxYear; year++) {
 			Map<String, String> criteria = new HashMap<>();
-			criteria.put("cat", Cat.YEAR.toString());
-			criteria.put("publish", String.valueOf(year));
-			criteria.put("type", type);
+			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, String.valueOf(year));
+			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
 			List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
 			addLine(result, "Year: " + year);
 			addLine(result, "Size: " + yearList.size());
@@ -569,12 +569,12 @@ public class BatchUtils {
 		for (String author : authors) {
 			List<Composition> arrayList = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 			Map<String, String> criteria = new HashMap<>();
-			criteria.put("cat", Cat.YEAR.toString());
-			criteria.put("dateB", year);
-			criteria.put("dateE", year);
-			criteria.put("publish", year);
-			criteria.put("type", RecordType.SONG.toString());
-			criteria.put("auteur", author);
+			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
+			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
+			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
 			List<Composition> yearList = SearchUtils.searchJaro(arrayList, criteria, true);
 			if(yearList.isEmpty() || !yearList.get(0).getFiles().get(0).getSorted()) {
 				// If no file for the given author and year or if the file is not sorted
@@ -630,11 +630,11 @@ public class BatchUtils {
 	private static String topRecords(List<Composition> importXML, RecordType type, String fileName, int limit,
 			String year, Score score) {
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("cat", Cat.YEAR.toString());
-		criteria.put("dateB", year);
-		criteria.put("dateE", year);
-		criteria.put("publish", year);
-		criteria.put("type", type.toString());
+		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
+		criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
+		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
+		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
 				.convertCompositionListToVector(yearList, false, false, score).stream()
@@ -660,12 +660,12 @@ public class BatchUtils {
 	private static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName,
 			String year) {
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("cat", Cat.YEAR.toString());
-		criteria.put("dateB", year);
-		criteria.put("dateE", year);
-		criteria.put("publish", year);
-		criteria.put("type", type.toString());
-		criteria.put("sorted", Boolean.TRUE.toString());
+		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
+		criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
+		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
+		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
+		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
 		List<List<String>> occurenceList = new ArrayList<>();
 		if (yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
@@ -697,10 +697,10 @@ public class BatchUtils {
 	 */
 	private static String topOccurence(List<Composition> importXML, String year) {
 		Map<String, String> criteria = new HashMap<>();
-		criteria.put("cat", Cat.YEAR.toString());
-		criteria.put("dateB", year);
-		criteria.put("dateE", year);
-		criteria.put("publish", year);
+		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
+		criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
+		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
+		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToArtistVector(yearList)
 				.stream().filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());

@@ -344,13 +344,13 @@ public class ArtistPanel extends JPanel {
 		list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		if (CollectionUtils.isNotEmpty(list)) {
 			Map<String, String> criteria = new HashMap<>();
-			criteria.put("auteur", auteur.getText());
+			criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
 			if (cat.getSelectedItem() != null) {
-				criteria.put("cat", cat.getSelectedItem().toString());
+				criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItem().toString());
 			}
-			criteria.put("dateB", rangeB.getText());
-			criteria.put("dateE", rangeE.getText());
-			criteria.put("publish", publi.getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
 
 			list = SearchUtils.searchJaro(list, criteria, true);
 			model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
