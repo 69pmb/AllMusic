@@ -64,6 +64,7 @@ public class BatchPanel extends JPanel {
 		topYear(score);
 		clearHistory();
 		suspicious();
+		duplicateTitle();
 		validateFileName();
 		stats();
 		lastLine();
@@ -261,6 +262,28 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
 		
 		this.add(suspicious);
+	}
+	
+	private void duplicateTitle() {
+		JPanel duplicateTitle = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
+		
+		// Label
+		JLabel duplicateTitleLabel = new JLabel("Trouver les chansons aux titres identiques: ");
+		PanelUtils.addComponent(duplicateTitle, duplicateTitleLabel, Component.LEFT_ALIGNMENT, 800);
+		
+		// duplicateTitle Btn
+		JButton duplicateTitleBtn = new JButton("Go Same Title");
+		duplicateTitleBtn.setToolTipText("Trouve les chansons avec le même titre mais avec l'artiste différent");
+		duplicateTitleBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
+			new Thread(() -> {
+				BatchUtils.findDuplicateTitleComposition();
+				displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
+			}).start();
+		});
+		PanelUtils.addComponent(duplicateTitle, duplicateTitleBtn, Component.RIGHT_ALIGNMENT, 100);
+		
+		this.add(duplicateTitle);
 	}
 
 	private void validateFileName() {
