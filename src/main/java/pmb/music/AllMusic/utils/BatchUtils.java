@@ -115,7 +115,7 @@ public class BatchUtils {
 			}
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			res.addAll(SearchUtils.searchJaro(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true).stream()
+			res.addAll(SearchUtils.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, false).stream()
 					.map(Composition::getFiles).flatMap(List::stream)
 					.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
 							|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
@@ -404,9 +404,9 @@ public class BatchUtils {
 							String titre1 = composition1.getTitre().toLowerCase();
 							String titre2 = composition2.getTitre().toLowerCase();
 							String remParTitre1 = SearchUtils.removeParentheses(titre1);
-							String parTitre1 = SearchUtils.removePunctuation2(remParTitre1);
+							String parTitre1 = SearchUtils.removePunctuation(remParTitre1);
 							String remParTitre2 = SearchUtils.removeParentheses(titre2);
-							String parTitre2 = SearchUtils.removePunctuation2(remParTitre2);
+							String parTitre2 = SearchUtils.removePunctuation(remParTitre2);
 							boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2)
 									|| StringUtils.startsWithIgnoreCase(parTitre2, parTitre1);
 							if (parTitreEqu
@@ -415,9 +415,9 @@ public class BatchUtils {
 									&& !StringUtils.containsIgnoreCase(remParTitre1, "/")
 									&& !StringUtils.containsIgnoreCase(remParTitre2, "/")) {
 								String andTitre1 = SearchUtils
-										.removePunctuation2(StringUtils.substringBefore(remParTitre1, " and "));
+										.removePunctuation(StringUtils.substringBefore(remParTitre1, " and "));
 								String andTitre2 = SearchUtils
-										.removePunctuation2(StringUtils.substringBefore(remParTitre2, " and "));
+										.removePunctuation(StringUtils.substringBefore(remParTitre2, " and "));
 								parTitre1 = andTitre1;
 								parTitre2 = andTitre2;
 								parTitreEqu = false;
@@ -454,7 +454,7 @@ public class BatchUtils {
 			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, String.valueOf(year));
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
-			List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
 			addLine(result, "Year: " + year);
 			addLine(result, "Size: " + yearList.size());
 			for (int i = 0; i < yearList.size(); i++) {
@@ -464,8 +464,8 @@ public class BatchUtils {
 						Composition composition2 = yearList.get(j);
 						String titre1 = composition1.getTitre();
 						String titre2 = composition2.getTitre();
-						String newTitre1 = SearchUtils.removePunctuation2(titre1);
-						String newTitre2 = SearchUtils.removePunctuation2(titre2);
+						String newTitre1 = SearchUtils.removePunctuation(titre1);
+						String newTitre2 = SearchUtils.removePunctuation(titre2);
 						String artist1 = composition1.getArtist();
 						String artist2 = composition2.getArtist();
 						int publishYear1 = composition1.getFiles().get(0).getPublishYear();
@@ -582,7 +582,7 @@ public class BatchUtils {
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			List<Composition> yearList = SearchUtils.searchJaro(arrayList, criteria, true);
+			List<Composition> yearList = SearchUtils.search(arrayList, criteria, true, false);
 			if(yearList.isEmpty() || !yearList.get(0).getFiles().get(0).getSorted()) {
 				// If no file for the given author and year or if the file is not sorted
 				continue;
@@ -642,7 +642,7 @@ public class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
 		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
 				.convertCompositionListToVector(yearList, false, false, score).stream()
 				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
@@ -673,7 +673,7 @@ public class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
 		List<List<String>> occurenceList = new ArrayList<>();
 		if (yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
 				.map(WordUtils::capitalize).distinct().count() > 2) {
@@ -708,7 +708,7 @@ public class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
 		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
 		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
-		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertCompositionListToArtistVector(yearList)
 				.stream().filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();

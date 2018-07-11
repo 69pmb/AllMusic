@@ -352,7 +352,7 @@ public class ArtistPanel extends JPanel {
 			criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
 
-			list = SearchUtils.searchJaro(list, criteria, true);
+			list = SearchUtils.search(list, criteria, true, false);
 			model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
 			updateTable();
 		}
