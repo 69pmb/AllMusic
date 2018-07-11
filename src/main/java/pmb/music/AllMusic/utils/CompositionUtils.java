@@ -35,17 +35,6 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Print la liste de compo.
-	 * @param allCompo la liste à afficher
-	 */
-	public static void printCompoList(List<Composition> allCompo) {
-		LOG.debug("Start printCompoList");
-		LOG.debug("Compo: " + allCompo.size());
-		allCompo.stream().forEach(LOG::debug);
-		LOG.debug("End printCompoList");
-	}
-
-	/**
 	 * Détermine si la compo existe dans la liste donnée. 
 	 * C'est à dire, si le {@link RecordType} est le même et 
 	 * si le titre et l'artiste sont similaires en utilisant leur score de JaroWinkler.
@@ -269,7 +258,8 @@ public class CompositionUtils {
 		List<Composition> search = new ArrayList<>();
 		search = SearchUtils.search(compoList, criteria, false, isStrictly);
 		if (search.size() > 1) {
-			CompositionUtils.printCompoList(search);
+			LOG.debug("Compo: " + search.size());
+			search.stream().forEach(LOG::debug);
 			throw new MyException("Trop de résultat dans findByArtistTitreAndType: " + artist + " " + titre + " " + type);
 		}
 		if (!search.isEmpty()) {
