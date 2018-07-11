@@ -49,9 +49,9 @@ public class Constant {
 	public static final String FILE_LOG_PATH = Constant.USER_DIR + FileUtils.FS + "error.log";
 
 	/**
-	 * Chemin abs du fichier de résultat des batchs.
+	 * Nom du fichier de résultat des batchs par défaut.
 	 */
-	public static final String BATCH_FILE_PATH = Constant.USER_DIR + FileUtils.FS + "batch.txt";
+	public static final String BATCH_FILE = "batch.txt";
 
 	/**
 	 * Chemin abs du dossier contenant tous les fichiers xml importés.
