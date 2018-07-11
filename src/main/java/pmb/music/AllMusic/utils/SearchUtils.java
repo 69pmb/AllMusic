@@ -45,15 +45,19 @@ public class SearchUtils {
 	}
 
 	/**
-	 * Les critères de recherche sont utilisés comme des {@code '%like'}.
+	 * Searchs in a list on compositions with the given criteria.
 	 * 
 	 * @param compoList la liste de compo dans laquelle rechercher
 	 * @param criteria les critères
 	 * @param searchInFiles si on doit filtrer ou non les fichiers des compos
+	 * @param strictly {@code true} recherche stricte: le champ doit être exactement
+	 *            égal au critère. {@code false}: Les critères de recherche sont
+	 *            utilisés comme des {@code '%like'}.
 	 * @return la liste de compo filtrée selon les critères
 	 */
-	public static List<Composition> searchJaro(List<Composition> compoList, Map<String, String> criteria, final boolean searchInFiles) {
-		LOG.debug("Start searchJaro");
+	public static List<Composition> search(List<Composition> compoList, Map<String, String> criteria,
+			final boolean searchInFiles, boolean strictly) {
+		LOG.debug("Start search");
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> arrayList = new ArrayList<>(compoList);
 		// Critères compositions
@@ -70,23 +74,33 @@ public class SearchUtils {
 		final String sorted = criteria.get(CRITERIA_SORTED);
 		final String topTen = criteria.get(CRITERIA_TOP);
 
-		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre) || StringUtils.isNotBlank(type);
-
-		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName) || StringUtils.isNotBlank(auteur)
-				|| StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB) || StringUtils.isNotBlank(dateE) || StringUtils.isNotBlank(sorted) || StringUtils.isNotBlank(topTen);
+		// Si on doit chercher dans les compos
+		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre)
+				|| StringUtils.isNotBlank(type);
+		// Si on doit chercher dans les fichiers
+		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName)
+				|| StringUtils.isNotBlank(auteur) || StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB)
+				|| StringUtils.isNotBlank(dateE) || StringUtils.isNotBlank(sorted) || StringUtils.isNotBlank(topTen);
 
 		if (searchCompo || searchFile) {
-			LOG.debug("Critères de recherche: " + criteria.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
-			CollectionUtils.filter(arrayList,
-					(Object c) -> filterJaro(searchInFiles, jaro, artist, titre, type, publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
+			LOG.debug("Critères de recherche: " + criteria.entrySet().stream()
+					.map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
+			if (strictly) {
+				CollectionUtils.filter(arrayList, (Object c) -> filterStrictly(artist, titre, type, publish, fileName,
+						auteur, cat, dateB, dateE, searchFile, c));
+			} else {
+				CollectionUtils.filter(arrayList, (Object c) -> filterJaro(searchInFiles, jaro, artist, titre, type,
+						publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
+			}
 		}
-		LOG.debug("End searchJaro");
+		LOG.debug("End search");
 		return arrayList;
 	}
 
-	private static boolean filterJaro(final boolean searchInFiles, final JaroWinklerDistance jaro, final String artist, final String titre, final String type,
-			final String publish, final String fileName, final String auteur, final String cat, final String dateB, final String dateE,
-			final String sorted, final String topTen, final boolean searchFile, Object c) {
+	private static boolean filterJaro(final boolean searchInFiles, final JaroWinklerDistance jaro, final String artist,
+			final String titre, final String type, final String publish, final String fileName, final String auteur,
+			final String cat, final String dateB, final String dateE, final String sorted, final String topTen,
+			final boolean searchFile, Object c) {
 		Composition co = (Composition) c;
 
 		boolean result = true;
@@ -102,8 +116,8 @@ public class SearchUtils {
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (searchFile && CollectionUtils.isNotEmpty(files) && result) {
-			CollectionUtils.filter(files,
-					(Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, f));
+			CollectionUtils.filter(files, (Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB,
+					dateE, sorted, topTen, f));
 		}
 		if (searchInFiles) {
 			co.setFiles(files);
@@ -120,6 +134,7 @@ public class SearchUtils {
 	/**
 	 * Return if the two given text are equals if their {@link JaroWinklerDistance}
 	 * score is greater than the given limit.
+	 * 
 	 * @param jaro a {@link JaroWinklerDistance} instance
 	 * @param text1 a string
 	 * @param text2 another string
@@ -131,7 +146,9 @@ public class SearchUtils {
 	}
 
 	/**
-	 * Remove all punctuation and lower the case of the given text.
+	 * Remove all punctuation and lower the case of the given text. The string is
+	 * return if it's only made of punctuation.
+	 * 
 	 * @param text The String to compress
 	 * @return a string with no punctuation
 	 */
@@ -139,17 +156,11 @@ public class SearchUtils {
 		if (StringUtils.isBlank(text)) {
 			return "";
 		}
-		return Constant.PATTERN_PUNCTUATION.matcher(text).replaceAll("").toLowerCase();
+		String trim = StringUtils.trim(text);
+		String res = Constant.PATTERN_PUNCTUATION.matcher(trim).replaceAll("").toLowerCase();
+		return StringUtils.isBlank(res) ? trim : res;
 	}
-	
-	public static String removePunctuation2(String text) {
-		if (StringUtils.isBlank(text)) {
-			return "";
-		}
-		String res = Constant.PATTERN_PUNCTUATION.matcher(text).replaceAll("").toLowerCase();
-		return StringUtils.isBlank(res) ? text : res;
-	}
-	
+
 	public static String removeParentheses(String text) {
 		if (StringUtils.isBlank(text)) {
 			return "";
@@ -158,45 +169,9 @@ public class SearchUtils {
 		return StringUtils.isBlank(res) ? text : res;
 	}
 
-	/**
-	 * Les critères de recherche sont strict, le champ doit être exactement égal
-	 * au critère.
-	 * 
-	 * @param compoList la liste de compo dans laquelle rechercher
-	 * @param criteria les critères
-	 * @return la liste de compo filtrée selon les critères
-	 */
-	public static List<Composition> searchStrictly(List<Composition> compoList, Map<String, String> criteria) {
-		LOG.debug("Start searchStrictly");
-		List<Composition> arrayList = new ArrayList<>(compoList);
-		// Critères compositions
-		final String artist = criteria.get(CRITERIA_ARTIST);
-		final String titre = criteria.get(CRITERIA_TITRE);
-		final String type = criteria.get(CRITERIA_RECORD_TYPE);
-		// Critères fichiers
-		final String publish = criteria.get(CRITERIA_PUBLISH_YEAR);
-		final String fileName = criteria.get(CRITERIA_FILENAME);
-		final String auteur = criteria.get(CRITERIA_AUTHOR);
-		final String cat = criteria.get(CRITERIA_CAT);
-		final String dateB = criteria.get(CRITERIA_DATE_BEGIN);
-		final String dateE = criteria.get(CRITERIA_DATE_END);
-
-		// Si on doit chercher dans les compos
-		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre) || StringUtils.isNotBlank(type);
-		// Si on doit chercher dans les fichiers
-		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName) || StringUtils.isNotBlank(auteur)
-				|| StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB) || StringUtils.isNotBlank(dateE);
-
-		if (searchCompo || searchFile) {
-			LOG.debug("Il y a des critères de recherche");
-			CollectionUtils.filter(arrayList, (Object c) -> filterStrictly(artist, titre, type, publish, fileName, auteur, cat, dateB, dateE, searchFile, c));
-		}
-		LOG.debug("End searchStrictly");
-		return arrayList;
-	}
-
-	private static boolean filterStrictly(final String artist, final String titre, final String type, final String publish, final String fileName,
-			final String auteur, final String cat, final String dateB, final String dateE, final boolean searchFile, Object c) {
+	private static boolean filterStrictly(final String artist, final String titre, final String type,
+			final String publish, final String fileName, final String auteur, final String cat, final String dateB,
+			final String dateE, final boolean searchFile, Object c) {
 		Composition co = (Composition) c;
 
 		boolean result = true;
@@ -213,14 +188,15 @@ public class SearchUtils {
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (searchFile && CollectionUtils.isNotEmpty(files)) {
-			CollectionUtils.filter(files, (Object f) -> evaluateFichierContains(publish, fileName, auteur, cat, dateB, dateE, f));
+			CollectionUtils.filter(files,
+					(Object f) -> evaluateFichierContains(publish, fileName, auteur, cat, dateB, dateE, f));
 		}
 		result = result && CollectionUtils.isNotEmpty(files);
 		return result;
 	}
 
-	private static boolean evaluateFichierContains(final String publish, final String fileName, final String auteur, final String cat, final String dateB,
-			final String dateE, Object f) {
+	private static boolean evaluateFichierContains(final String publish, final String fileName, final String auteur,
+			final String cat, final String dateB, final String dateE, Object f) {
 		Fichier fi = (Fichier) f;
 		boolean result = true;
 
@@ -245,8 +221,9 @@ public class SearchUtils {
 		return result;
 	}
 
-	public static boolean evaluateFichierStrictly(final String publish, final String fileName, final String auteur, final String cat, final String dateB,
-			final String dateE, final String sorted, final String topTen, Object f) {
+	public static boolean evaluateFichierStrictly(final String publish, final String fileName, final String auteur,
+			final String cat, final String dateB, final String dateE, final String sorted, final String topTen,
+			Object f) {
 		Fichier fi = (Fichier) f;
 		boolean result = true;
 
@@ -278,8 +255,8 @@ public class SearchUtils {
 	}
 
 	/**
-	 * Returne l'index de la 1ère occurence de l'élement donné dans la liste ou
-	 * -1 si la liste ne le contient pas.
+	 * Returne l'index de la 1ère occurence de l'élement donné dans la liste ou -1
+	 * si la liste ne le contient pas.
 	 * 
 	 * @param list {@code List<Composition>} la liste
 	 * @param o {@link Composition} l'élement à rechercher
@@ -294,7 +271,8 @@ public class SearchUtils {
 		if (indexOf == -1) {
 			int i = 0;
 			for (Composition composition : list) {
-				if (StringUtils.equals(composition.getArtist(), o.getArtist()) && StringUtils.equals(composition.getTitre(), o.getTitre())
+				if (StringUtils.equals(composition.getArtist(), o.getArtist())
+						&& StringUtils.equals(composition.getTitre(), o.getTitre())
 						&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
 						&& composition.getFiles().size() == o.getFiles().size()) {
 					LOG.warn("indexOf: " + o);
