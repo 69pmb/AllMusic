@@ -175,8 +175,7 @@ public class SearchUtils {
 
 		boolean result = true;
 		if (StringUtils.isNotBlank(artist)) {
-			boolean equalsIgnoreCase = StringUtils.equalsIgnoreCase(co.getArtist(), artist);
-			result = result && equalsIgnoreCase;
+			result = result && StringUtils.equalsIgnoreCase(co.getArtist(), artist);
 		}
 		if (StringUtils.isNotBlank(titre)) {
 			result = result && StringUtils.equalsIgnoreCase(co.getTitre(), titre);
@@ -190,8 +189,7 @@ public class SearchUtils {
 			CollectionUtils.filter(files,
 					(Object f) -> evaluateFichierContains(publish, fileName, auteur, cat, dateB, dateE, f));
 		}
-		result = result && CollectionUtils.isNotEmpty(files);
-		return result;
+		return result && CollectionUtils.isNotEmpty(files);
 	}
 
 	private static boolean evaluateFichierContains(final String publish, final String fileName, final String auteur,
