@@ -443,7 +443,7 @@ public class AppTest {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Integer> yearList = SearchUtils.searchJaro(importXML, criteria, true).stream().map(Composition::getFiles)
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false).stream().map(Composition::getFiles)
 				.flatMap(List::stream).map(Fichier::getClassement).collect(Collectors.toList());
 		for (Integer rank : yearList) {
 			if (map.containsKey(rank)) {
@@ -463,7 +463,7 @@ public class AppTest {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Integer> yearList = SearchUtils.searchJaro(importXML, criteria, true).stream().map(Composition::getFiles)
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false).stream().map(Composition::getFiles)
 				.flatMap(List::stream).map(Fichier::getClassement).collect(Collectors.toList());
 		LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
 		LOG.debug("Stats: " + yearList.stream().mapToInt(i -> i).summaryStatistics());
@@ -478,7 +478,7 @@ public class AppTest {
 
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
 
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (Composition composition : yearList) {
@@ -509,7 +509,7 @@ public class AppTest {
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 			criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
-			List<Composition> yearList = SearchUtils.searchJaro(importXML, criteria, true);			
+			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);			
 //			LOG.debug("year: " + year + " size: " + yearList.size());
 			LOG.debug("year: " + year + " file size: " + yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
 					.map(WordUtils::capitalize).distinct().count());
@@ -612,14 +612,14 @@ public class AppTest {
 		String test7 = "hello, bonjour [and thed]";
 		String test8 = "[and thed] hello, bonjour";
 
-		Assert.assertEquals("hello", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test1)));
-		Assert.assertEquals("hello", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test2)));
-		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test3)));
-		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test4)));
-		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test5)));
-		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test6)));
-		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test7)));
-		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation2(SearchUtils.removeParentheses(test8)));
+		Assert.assertEquals("hello", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test1)));
+		Assert.assertEquals("hello", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test2)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test3)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test4)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test5)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test6)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test7)));
+		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test8)));
 	}
 
 	public static void setCanBeMerged() {
@@ -730,7 +730,7 @@ public class AppTest {
 		Map<Double, String> jaroRes = new TreeMap<>();
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		for (Composition composition : guardian) {
-			String titre = SearchUtils.removePunctuation2(composition.getArtist());
+			String titre = SearchUtils.removePunctuation(composition.getArtist());
 			Double apply = jaro.apply(titre, test);
 			jaroRes.put(apply, titre);
 		}

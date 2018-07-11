@@ -481,7 +481,7 @@ public class SearchPanel extends JPanel {
 			}
 
 			compoResult = new ArrayList<>();
-			compoResult.addAll(SearchUtils.searchJaro(allCompo, criteria, inFiles.isSelected()));
+			compoResult.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(), false));
 			updateTable();
 		}
 		LOG.debug("End searchAction");
