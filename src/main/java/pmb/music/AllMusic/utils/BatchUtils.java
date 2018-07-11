@@ -29,6 +29,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
+import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -43,7 +44,7 @@ import pmb.music.AllMusic.view.Onglet;
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
 
-	public static void detectsDuplicateFinal(boolean song, boolean album, boolean ignoreUnmergeableFiles,
+	public static String detectsDuplicateFinal(boolean song, boolean album, boolean ignoreUnmergeableFiles,
 			boolean byYear) {
 		LOG.debug("Start detectsDuplicateFinal");
 		StringBuilder result = new StringBuilder();
@@ -59,14 +60,15 @@ public class BatchUtils {
 			detectsDuplicateFinal(RecordType.ALBUM.toString(), ignoreUnmergeableFiles, byYear, result);
 		}
 
-		writeInFile(result);
 		LOG.debug("End detectsDuplicateFinal");
+		return writeInFile(result, Constant.BATCH_FILE);
 	}
 
 	/**
 	 * Generates statistics of xml files.
+	 * @return 
 	 */
-	public static void stat() {
+	public static String stat() {
 		LOG.debug("Start stat");
 		StringBuilder result = new StringBuilder();
 		addLine(result, "Statistiques: ", true);
@@ -83,11 +85,11 @@ public class BatchUtils {
 		addLine(result, "Summary: " + size.stream().mapToInt(Integer::intValue).summaryStatistics(), true);
 		addLine(result, "Size: " + size, true);
 
-		writeInFile(result);
 		LOG.debug("End stat");
+		return writeInFile(result, Constant.BATCH_FILE);
 	}
 
-	public static void findSuspiciousComposition() {
+	public static String findSuspiciousComposition() {
 		LOG.debug("Start findSuspiciousComposition");
 		StringBuilder result = new StringBuilder();
 		addLine(result, "Suspicious: ", true);
@@ -100,25 +102,25 @@ public class BatchUtils {
 		rankZero(importXML, result);
 		rankGreaterThanSize(importXML, result);
 
-		writeInFile(result);
 		LOG.debug("End findSuspiciousComposition");
+		return writeInFile(result, "Suspicious.txt");
 	}
 
-	public static void findDuplicateTitleComposition() {
+	public static String findDuplicateTitleComposition() {
 		LOG.debug("Start findDuplicateTitleComposition");
 		StringBuilder result = new StringBuilder();
 		addLine(result, "Duplicate Title: ", true);
 
 		similarTitle(result);
 
-		writeInFile(result);
 		LOG.debug("End findDuplicateTitleComposition");
+		return writeInFile(result, "Duplicate Title.txt");
 	}
 
-	public static void findIncorectFileNames() {
-		LOG.debug("Start findIncorectFileNames");
+	public static String findIncorrectFileNames() {
+		LOG.debug("Start findIncorrectFileNames");
 		StringBuilder result = new StringBuilder();
-		addLine(result, "IncorectFileNames: ", true);
+		addLine(result, "IncorrectFileNames: ", true);
 
 		List<String> authorList = Onglet.getAuthorList();
 		List<String> res = new ArrayList<>();
@@ -139,11 +141,11 @@ public class BatchUtils {
 		}
 		res.stream().forEach(f -> addLine(result, f, true));
 
-		writeInFile(result);
-		LOG.debug("End findIncorectFileNames");
+		LOG.debug("End findIncorrectFileNames");
+		return writeInFile(result, "Incorrect Filenames.txt");
 	}
 
-	public static void titleSlash(List<Composition> importXML, StringBuilder result) {
+	private static void titleSlash(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## Title Slash: ", true);
 		importXML.stream().forEach(c -> {
 			if (StringUtils.contains(c.getTitre(), "/")) {
@@ -152,7 +154,7 @@ public class BatchUtils {
 		});
 	}
 
-	public static void similarTitle(StringBuilder result) {
+	private static void similarTitle(StringBuilder result) {
 		addLine(result, "## Same title but different artist: ", true);
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		Map<String, String> criteria = new HashMap<>();
@@ -179,7 +181,7 @@ public class BatchUtils {
 		}
 	}
 
-	public static void rankZero(List<Composition> importXML, StringBuilder result) {
+	private static void rankZero(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## Rank Zero: ", true);
 		importXML
 				.stream().filter(
@@ -191,7 +193,7 @@ public class BatchUtils {
 						true));
 	}
 
-	public static void rankGreaterThanSize(List<Composition> importXML, StringBuilder result) {
+	private static void rankGreaterThanSize(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## Rank Greater Than Size: ", true);
 		importXML
 				.stream().map(Composition::getFiles).flatMap(List::stream).filter(
@@ -211,19 +213,19 @@ public class BatchUtils {
 						+ ", classement max: " + f.getValue().getClassement(), true));
 	}
 
-	public static void sizeZero(List<Composition> importXML, StringBuilder result) {
+	private static void sizeZero(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## File Size Zero: ", true);
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getSize() == 0)
 				.map(Fichier::getFileName).distinct().sorted().forEach(f -> addLine(result, f, true));
 	}
 
-	public static void publishZero(List<Composition> importXML, StringBuilder result) {
+	private static void publishZero(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## File Publish Year Zero: ", true);
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getPublishYear() == 0)
 				.map(Fichier::getFileName).distinct().sorted().forEach(f -> addLine(result, f, true));
 	}
 
-	public static void emptyTitleOrArtist(List<Composition> importXML, StringBuilder result) {
+	private static void emptyTitleOrArtist(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## Empty Title or Artist: ", true);
 		importXML.stream().forEach(c -> {
 			if (StringUtils.equalsIgnoreCase(StringUtils.trim(c.getTitre()), "")
@@ -235,8 +237,9 @@ public class BatchUtils {
 
 	/**
 	 * Search if a composition has similar files (same author and same rank).
+	 * @return 
 	 */
-	public static void findDuplicateFiles() {
+	public static String findDuplicateFiles() {
 		LOG.debug("Start findDuplicateFiles");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "FindDuplicateFiles: ", true);
@@ -268,14 +271,15 @@ public class BatchUtils {
 			}
 		});
 
-		writeInFile(text);
 		LOG.debug("End findDuplicateFiles");
+		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
 	/**
 	 * Search if there are txt files which are not convert to xml files.
+	 * @return 
 	 */
-	public static void missingXML() {
+	public static String missingXML() {
 		LOG.debug("Start missingXML");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "MissingXML: ", true);
@@ -307,11 +311,11 @@ public class BatchUtils {
 			}
 		}
 
-		writeInFile(text);
 		LOG.debug("End missingXML");
+		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
-	public static void topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit, Score score) {
+	public static String topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit, Score score) {
 		LOG.debug("Start topYear");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Top Year: ", true);
@@ -324,14 +328,15 @@ public class BatchUtils {
 			topYear(i, albumLimit, songLimit, text, score);
 		}
 
-		writeInFile(text);
 		LOG.debug("End topYear");
+		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
 	/**
 	 * Supprime tous les fichiers historisés sauf le plus récent.
+	 * @return 
 	 */
-	public static void cleanHistory() {
+	public static String cleanHistory() {
 		LOG.debug("Start cleanHistory");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Clean History: ", true);
@@ -380,15 +385,15 @@ public class BatchUtils {
 		addLine(text, "Nombres de fichiers après: " + files.size(), true);
 		addLine(text, "Nombres de fichiers supprimés: " + result, true);
 
-		writeInFile(text);
 		LOG.debug("End cleanHistory");
+		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
 	/**
 	 * Show all the duplicates for a year and a type regardless of the artist, only
 	 * based on the song or album.
 	 */
-	public static void detectsDuplicateFinal(String type, boolean ignoreUnmergeableFiles, boolean byYear,
+	private static void detectsDuplicateFinal(String type, boolean ignoreUnmergeableFiles, boolean byYear,
 			StringBuilder result) {
 		LOG.debug("Start detectsDuplicateFinal");
 		double startTime = System.currentTimeMillis();
@@ -530,7 +535,7 @@ public class BatchUtils {
 		return false;
 	}
 
-	public static void mergeTwoCompositions(List<Composition> importXML, int index1, int index2, StringBuilder result) {
+	private static void mergeTwoCompositions(List<Composition> importXML, int index1, int index2, StringBuilder result) {
 		LOG.debug("Start mergeTwoCompositions");
 		Composition c1 = importXML.get(index1);
 		List<Fichier> files1 = c1.getFiles();
@@ -574,7 +579,7 @@ public class BatchUtils {
 	/**
 	 * Generates the top excel files of a year.
 	 */
-	public static void topYear(int yearTop, int albumLimit, int songLimit, StringBuilder result, Score score) {
+	private static void topYear(int yearTop, int albumLimit, int songLimit, StringBuilder result, Score score) {
 		LOG.debug("Start topYear");
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		List<String> files = new ArrayList<>();
@@ -594,7 +599,7 @@ public class BatchUtils {
 		LOG.debug("End topYear");
 	}
 
-	public static void moveFilesInFolder(List<String> files, File folder, StringBuilder result) {
+	private static void moveFilesInFolder(List<String> files, File folder, StringBuilder result) {
 		FichierUtils.createFolderIfNotExists(folder.getAbsolutePath());
 		Path pathFolder = folder.toPath();
 		files.stream().forEach(f -> {
@@ -764,14 +769,16 @@ public class BatchUtils {
 				new SortKey(1, SortOrder.DESCENDING), csvHeader);
 	}
 
-	public static void writeInFile(StringBuilder sb) {
+	private static String writeInFile(StringBuilder sb, String fileName) {
+		String filePath = Constant.USER_DIR + FileUtils.FS + fileName;
 		try (BufferedWriter writer = new BufferedWriter(
-				new OutputStreamWriter(new FileOutputStream(Constant.BATCH_FILE_PATH), Constant.ANSI_ENCODING));) {
+				new OutputStreamWriter(new FileOutputStream(filePath), Constant.ANSI_ENCODING));) {
 			writer.append(sb);
 			writer.flush();
 		} catch (IOException e) {
-			e.printStackTrace();
+			LOG.error("Error when write batch result in: " + filePath, e);
 		}
+		return filePath;
 	}
 
 	private static void addLine(StringBuilder sb, String text, boolean displayTime) {

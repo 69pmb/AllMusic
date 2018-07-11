@@ -52,6 +52,7 @@ public class BatchPanel extends JPanel {
 	 */
 	private JTextArea resultLabel;
 	private List<String> resultLabelData;
+	private String fileResult = Constant.BATCH_FILE;
 
 	public BatchPanel(Score score) {
 		super();
@@ -114,7 +115,7 @@ public class BatchPanel extends JPanel {
 		fdcBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				BatchUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
+				fileResult = BatchUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
 						fdcUnmergeable.isSelected(), fdcYear.isSelected());
 				displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime());
 			}).start();
@@ -140,7 +141,7 @@ public class BatchPanel extends JPanel {
 		fdfBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateFiles: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				BatchUtils.findDuplicateFiles();
+				fileResult = BatchUtils.findDuplicateFiles();
 				displayText("End findDuplicateFiles: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
@@ -165,7 +166,7 @@ public class BatchPanel extends JPanel {
 		mxfBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start missingXML: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				BatchUtils.missingXML();
+				fileResult = BatchUtils.missingXML();
 				displayText("End missingXML: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
@@ -210,7 +211,7 @@ public class BatchPanel extends JPanel {
 		topBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start topYear: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()), Integer.parseInt(yearEndTop.getText()),
+				fileResult = BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()), Integer.parseInt(yearEndTop.getText()),
 						Integer.parseInt(albumLimit.getText()), Integer.parseInt(songLimit.getText()), score);
 				displayText("End topYear: " + MiscUtils.getCurrentTime());
 			}).start();
@@ -233,7 +234,7 @@ public class BatchPanel extends JPanel {
 		cleanHistory.addActionListener((ActionEvent arg0) -> {
 			displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				BatchUtils.cleanHistory();
+				fileResult = BatchUtils.cleanHistory();
 				displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
@@ -255,7 +256,7 @@ public class BatchPanel extends JPanel {
 		suspiciousBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				BatchUtils.findSuspiciousComposition();
+				fileResult = BatchUtils.findSuspiciousComposition();
 				displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
@@ -277,7 +278,7 @@ public class BatchPanel extends JPanel {
 		duplicateTitleBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				BatchUtils.findDuplicateTitleComposition();
+				fileResult = BatchUtils.findDuplicateTitleComposition();
 				displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
@@ -299,7 +300,7 @@ public class BatchPanel extends JPanel {
 		validateBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				BatchUtils.findIncorectFileNames();
+				fileResult = BatchUtils.findIncorrectFileNames();
 				displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
@@ -321,7 +322,7 @@ public class BatchPanel extends JPanel {
 		statsBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start statistic: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				BatchUtils.stat();
+				fileResult = BatchUtils.stat();
 				displayText("Start statistic: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
@@ -373,10 +374,10 @@ public class BatchPanel extends JPanel {
 	private void openResultFileInNotepad() {
 		LOG.debug("Start openResultFileInNotepad");
 		try {
-			FichierUtils.openFileInNotepad(Optional.ofNullable(Constant.BATCH_FILE_PATH));
+			FichierUtils.openFileInNotepad(Optional.ofNullable(fileResult));
 		} catch (MyException e) {
 			displayText(e.toString());
-			LOG.error("Erreur lors de l'ouverture du fichier: " + Constant.BATCH_FILE_PATH, e);
+			LOG.error("Erreur lors de l'ouverture du fichier: " + fileResult, e);
 		}
 		LOG.debug("End openResultFileInNotepad");
 	}
