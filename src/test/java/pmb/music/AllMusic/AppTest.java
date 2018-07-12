@@ -46,6 +46,7 @@ import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ImportPanel;
 import pmb.music.AllMusic.view.Onglet;
 
 /**
@@ -93,22 +94,26 @@ public class AppTest {
 					try {
 						Fichier fichier = composition.getFiles().get(0);
 						List<Composition> txtList = ImportFile.getCompositionsFromFile(file, fichier,
-								composition.getRecordType(), result.get("separator"), new ArrayList<>(),
-								Boolean.valueOf(result.get("artistFirst")),
-								Boolean.valueOf(result.get("reverseArtist")), Boolean.valueOf(result.get("parenthese")),
-								Boolean.valueOf(result.get("upper")), Boolean.valueOf(result.get("removeAfter")));
+								composition.getRecordType(), result.get(ImportPanel.IMPORT_PARAM_SEPARATOR),
+								new ArrayList<>(), Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_ARTIST_FIRST)),
+								Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REVERSE_ARTIST)),
+								Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_PARENTHESE)),
+								Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_UPPER)),
+								Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REMOVE_AFTER)));
 						if (compareCompositionList(xml, txtList, log)) {
 							result.remove("type");
-							result.put("name", fichier.getFileName());
-							result.put("auteur", fichier.getAuthor());
-							result.put("create", new Constant().getSdfDttm().format(fichier.getCreationDate()));
-							result.put("type", composition.getRecordType().toString());
-							result.put("cat", fichier.getCategorie().toString());
-							result.put("rangeB", String.valueOf(fichier.getRangeDateBegin()));
-							result.put("rangeE", String.valueOf(fichier.getRangeDateEnd()));
-							result.put("sorted", String.valueOf(fichier.getSorted()));
-							result.put("publish", String.valueOf(fichier.getPublishYear()));
-							result.put("size", String.valueOf(fichier.getSize()));
+							result.put(ImportPanel.IMPORT_PARAM_NAME, fichier.getFileName());
+							result.put(ImportPanel.IMPORT_PARAM_AUTEUR, fichier.getAuthor());
+							result.put(ImportPanel.IMPORT_PARAM_CREATE,
+									new Constant().getSdfDttm().format(fichier.getCreationDate()));
+							result.put(ImportPanel.IMPORT_PARAM_RECORD_TYPE, composition.getRecordType().toString());
+							result.put(ImportPanel.IMPORT_PARAM_CATEGORIE, fichier.getCategorie().toString());
+							result.put(ImportPanel.IMPORT_PARAM_RANGE_BEGIN,
+									String.valueOf(fichier.getRangeDateBegin()));
+							result.put(ImportPanel.IMPORT_PARAM_RANGE_END, String.valueOf(fichier.getRangeDateEnd()));
+							result.put(ImportPanel.IMPORT_PARAM_SORTED, String.valueOf(fichier.getSorted()));
+							result.put(ImportPanel.IMPORT_PARAM_PUBLISH_YEAR, String.valueOf(fichier.getPublishYear()));
+							result.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(fichier.getSize()));
 							FichierUtils.writeMapInFile(file, result);
 						}
 					} catch (MyException e) {
@@ -138,8 +143,8 @@ public class AppTest {
 		return list.stream().filter(x -> StringUtils.equals(x.get("type"), cle)).findFirst().get();
 	}
 
-	private static List<Map<String, String>> findImportParamsForOneFile(String filename, String auteur, List<Composition> xml,
-			StringBuilder log) {
+	private static List<Map<String, String>> findImportParamsForOneFile(String filename, String auteur,
+			List<Composition> xml, StringBuilder log) {
 		log.append("File: " + filename + Constant.NEW_LINE);
 		File file = new File(FichierUtils.buildTxtFilePath(filename, auteur).get());
 		boolean guessIfRevertArtist = guessIfRevertArtist(file);
@@ -173,8 +178,8 @@ public class AppTest {
 			log.append("## result: " + result.entrySet().stream().map(entry -> entry.getKey() + ": " + entry.getValue())
 					.collect(Collectors.joining(", ")) + Constant.NEW_LINE);
 			if (!result.isEmpty()) {
-				if(guessIfRevertArtist) {
-					result.put("reverseArtist", Boolean.toString(guessIfRevertArtist));
+				if (guessIfRevertArtist) {
+					result.put(ImportPanel.IMPORT_PARAM_REVERSE_ARTIST, Boolean.toString(guessIfRevertArtist));
 				}
 				list.add(result);
 			}
@@ -271,10 +276,11 @@ public class AppTest {
 				Constant.SCORE_LIMIT_ARTIST_FUSION);
 		boolean titreRevertEquals = SearchUtils.isEqualsJaro(jaro, xmlArtist, titreRevert,
 				Constant.SCORE_LIMIT_ARTIST_FUSION);
-		if(artistEquals && titreEquals && titreParEqu && jaro.apply(xmlTitre, titrePar) > jaro.apply(xmlTitre, txtTitre)) {
+		if (artistEquals && titreEquals && titreParEqu
+				&& jaro.apply(xmlTitre, titrePar) > jaro.apply(xmlTitre, txtTitre)) {
 			log.append("# Parenthèse" + Constant.NEW_LINE);
 			return buildResultMap("3", separator, true, false, true, false, removeAfter);
-		} else if(SearchUtils.isEqualsJaro(jaro, xmlArtist, txtTitre, Constant.SCORE_LIMIT_ARTIST_FUSION)
+		} else if (SearchUtils.isEqualsJaro(jaro, xmlArtist, txtTitre, Constant.SCORE_LIMIT_ARTIST_FUSION)
 				&& SearchUtils.isEqualsJaro(jaro, xmlTitre, artistPar, Constant.SCORE_LIMIT_TITLE_FUSION)
 				&& jaro.apply(xmlArtist, artistPar) > jaro.apply(xmlArtist, txtArtist)) {
 			log.append("# Titre en 1er et Parenthèse" + Constant.NEW_LINE);
@@ -303,15 +309,15 @@ public class AppTest {
 				log.append("# Titre en 1er et Parenthèse" + Constant.NEW_LINE);
 				return buildResultMap("4", separator, false, false, true, false, removeAfter);
 			}
-		} else if(artistEquals && !titreEquals) {
-			if(SearchUtils.isEqualsJaro(jaro, xmlTitre, titrePar, Constant.SCORE_LIMIT_TITLE_FUSION)) {
+		} else if (artistEquals && !titreEquals) {
+			if (SearchUtils.isEqualsJaro(jaro, xmlTitre, titrePar, Constant.SCORE_LIMIT_TITLE_FUSION)) {
 				log.append("# Parenthèse" + Constant.NEW_LINE);
-				return buildResultMap("3", separator, true, false, true, false, removeAfter);				
+				return buildResultMap("3", separator, true, false, true, false, removeAfter);
 			}
 		} else if (titreEquals && !artistEquals && artistRevertEquals) {
 			log.append("# Artist reverse" + Constant.NEW_LINE);
 			return buildResultMap("5", separator, true, true, false, false, false);
-		} 
+		}
 		return new HashMap<>();
 	}
 
@@ -319,10 +325,11 @@ public class AppTest {
 		xml = xml.stream().sorted(byRank).collect(Collectors.toList());
 		txt = txt.stream().sorted(byRank).collect(Collectors.toList());
 		int size = xml.size();
-//		if (size != txt.size()) {
-//			log.append("Not the same size: " + size + " " + txt.size() + " diff: " + Math.abs(size - txt.size()) + Constant.NEW_LINE);
-//			return false;
-//		}
+		// if (size != txt.size()) {
+		// log.append("Not the same size: " + size + " " + txt.size() + " diff: " +
+		// Math.abs(size - txt.size()) + Constant.NEW_LINE);
+		// return false;
+		// }
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		int nbEquals = 0;
 		List<Integer> rankList = txt.stream().map(Composition::getFiles).flatMap(List::stream)
@@ -359,16 +366,16 @@ public class AppTest {
 		}
 	}
 
-	private static Map<String, String> buildResultMap(String type, String separator, boolean artistFirst, boolean reverseArtist,
-			boolean parenthese, boolean upper, boolean removeAfter) {
+	private static Map<String, String> buildResultMap(String type, String separator, boolean artistFirst,
+			boolean reverseArtist, boolean parenthese, boolean upper, boolean removeAfter) {
 		Map<String, String> result = new HashMap<>();
-		result.put("type", type);
-		result.put("separator", separator);
-		result.put("artistFirst", Boolean.toString(artistFirst));
-		result.put("reverseArtist", Boolean.toString(reverseArtist));
-		result.put("parenthese", Boolean.toString(parenthese));
-		result.put("upper", Boolean.toString(upper));
-		result.put("removeAfter", Boolean.toString(removeAfter));
+		result.put(ImportPanel.IMPORT_PARAM_RECORD_TYPE, type);
+		result.put(ImportPanel.IMPORT_PARAM_SEPARATOR, separator);
+		result.put(ImportPanel.IMPORT_PARAM_ARTIST_FIRST, Boolean.toString(artistFirst));
+		result.put(ImportPanel.IMPORT_PARAM_REVERSE_ARTIST, Boolean.toString(reverseArtist));
+		result.put(ImportPanel.IMPORT_PARAM_PARENTHESE, Boolean.toString(parenthese));
+		result.put(ImportPanel.IMPORT_PARAM_UPPER, Boolean.toString(upper));
+		result.put(ImportPanel.IMPORT_PARAM_REMOVE_AFTER, Boolean.toString(removeAfter));
 		return result;
 	}
 
@@ -384,7 +391,7 @@ public class AppTest {
 		String[] array = { res, result };
 		return array;
 	}
-	
+
 	public static String removeParenthe(String txt) {
 		String result = txt;
 		int countMatches = StringUtils.countMatches(txt, "(");
@@ -402,31 +409,36 @@ public class AppTest {
 		String[] arrayArtist = txtArtist.split(",");
 		if (arrayArtist.length == 2) {
 			artistRevert = StringUtils.trim(StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0]));
-		} else if(arrayArtist.length > 2) {
+		} else if (arrayArtist.length > 2) {
 			LOG.warn("Error when revert artist: " + txtArtist + ", size: " + arrayArtist.length);
 		}
 		return artistRevert;
 	}
 
 	private static void sizeFileSuspicious(List<Composition> importXML) {
-//		// TODO tous les fichiers qui ont une taille non multiple de 10
-//		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getSize() % 10 != 0 && f.getSize() % 5 != 0)
-//				.map(f->f.getFileName() + " " + f.getSize()).distinct().sorted().forEach(LOG::debug);
-//		// TODO tous les fichiers dont le classement de la derniere composition est
-//		// different de la taille
-//		List<String> fileNames = importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f->!f.getSorted())
-//				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
-//		for (String name : fileNames) {
-//			List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name + Constant.XML_EXTENSION);
-//			xml.sort((a, b) -> Integer.valueOf(a.getFiles().get(0).getClassement())
-//					.compareTo(Integer.valueOf(b.getFiles().get(0).getClassement())));
-//			Composition lastCompo = xml.get(xml.size() - 1);
-//			if (xml.get(0).getFiles().get(0).getSize() != 0
-//					&& lastCompo.getFiles().get(0).getClassement() != xml.get(0).getFiles().get(0).getSize()) {
-//				LOG.debug(name + ": " + lastCompo.getFiles().get(0).getClassement() + " "
-//						+ xml.get(0).getFiles().get(0).getSize());
-//			}
-//		}
+		// // TODO tous les fichiers qui ont une taille non multiple de 10
+		// importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f
+		// -> f.getSize() % 10 != 0 && f.getSize() % 5 != 0)
+		// .map(f->f.getFileName() + " " +
+		// f.getSize()).distinct().sorted().forEach(LOG::debug);
+		// // TODO tous les fichiers dont le classement de la derniere composition est
+		// // different de la taille
+		// List<String> fileNames =
+		// importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f->!f.getSorted())
+		// .map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
+		// for (String name : fileNames) {
+		// List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name +
+		// Constant.XML_EXTENSION);
+		// xml.sort((a, b) -> Integer.valueOf(a.getFiles().get(0).getClassement())
+		// .compareTo(Integer.valueOf(b.getFiles().get(0).getClassement())));
+		// Composition lastCompo = xml.get(xml.size() - 1);
+		// if (xml.get(0).getFiles().get(0).getSize() != 0
+		// && lastCompo.getFiles().get(0).getClassement() !=
+		// xml.get(0).getFiles().get(0).getSize()) {
+		// LOG.debug(name + ": " + lastCompo.getFiles().get(0).getClassement() + " "
+		// + xml.get(0).getFiles().get(0).getSize());
+		// }
+		// }
 		// TODO missing compositions
 		List<String> fileNames = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
@@ -437,14 +449,15 @@ public class AppTest {
 			}
 		}
 	}
-	
+
 	private static void gauss(List<Composition> importXML, RecordType type) {
 		Map<Integer, Integer> map = new TreeMap<>();
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false).stream().map(Composition::getFiles)
-				.flatMap(List::stream).map(Fichier::getClassement).collect(Collectors.toList());
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false).stream()
+				.map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
+				.collect(Collectors.toList());
 		for (Integer rank : yearList) {
 			if (map.containsKey(rank)) {
 				map.replace(rank, map.get(rank) + 1);
@@ -463,8 +476,9 @@ public class AppTest {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false).stream().map(Composition::getFiles)
-				.flatMap(List::stream).map(Fichier::getClassement).collect(Collectors.toList());
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false).stream()
+				.map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
+				.collect(Collectors.toList());
 		LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
 		LOG.debug("Stats: " + yearList.stream().mapToInt(i -> i).summaryStatistics());
 		LOG.debug("Medianne: " + MiscUtils.median(yearList));
@@ -509,10 +523,10 @@ public class AppTest {
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 			criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
-			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);			
-//			LOG.debug("year: " + year + " size: " + yearList.size());
-			LOG.debug("year: " + year + " file size: " + yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
-					.map(WordUtils::capitalize).distinct().count());
+			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
+			// LOG.debug("year: " + year + " size: " + yearList.size());
+			LOG.debug("year: " + year + " file size: " + yearList.stream().map(Composition::getFiles)
+					.flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().count());
 		}
 	}
 
