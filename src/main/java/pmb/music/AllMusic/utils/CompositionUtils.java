@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -217,6 +218,7 @@ public class CompositionUtils {
 			}
 			temp.addElement(v);
 		}
+		LOG.debug("Fin tmp");
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		for (Vector<Object> v : temp) {
 			boolean res = false;
@@ -236,6 +238,32 @@ public class CompositionUtils {
 			}
 			if (!res) {
 				result.add(v);
+			}
+		}
+		LOG.debug("End convertCompositionListToArtistVector");
+		return result;
+	}
+
+	public static Map<String, List<Composition>> groupCompositionByArtist(List<Composition> compoList) {
+		LOG.debug("Start convertCompositionListToArtistVector");
+		Map<String, List<Composition>> result = new HashMap<>();
+		JaroWinklerDistance jaro = new JaroWinklerDistance();
+		for (Composition c : compoList) {
+			if (Thread.currentThread().isInterrupted()) {
+				LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
+				return result;
+			}
+			Optional<String> foundArtist = result.keySet().stream().filter(
+					key -> artistJaroEquals(key, c.getArtist(), jaro, Constant.SCORE_LIMIT_ARTIST_FUSION) != null)
+					.findFirst();
+			if (foundArtist.isPresent()) {
+				// If the artist already exist in the map result
+				List<Composition> list = result.get(foundArtist.get());
+				list.add(c);
+				result.put(foundArtist.get(), list);
+			} else {
+				// New entry
+				result.put(c.getArtist(), new ArrayList<Composition>(Arrays.asList(c)));
 			}
 		}
 		LOG.debug("End convertCompositionListToArtistVector");
