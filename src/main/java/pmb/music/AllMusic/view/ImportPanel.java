@@ -137,9 +137,35 @@ public class ImportPanel extends JPanel {
 
 	private RecordType determineType;
 
+	/**
+	 * Path of the last opened file.
+	 */
 	private String explorePath;
 
+	/**
+	 * Content for the result area.
+	 */
 	private List<String> result = new LinkedList<>();
+
+	/**
+	 * Import params constants.
+	 */
+	public static final String IMPORT_PARAM_SEPARATOR = "separator";
+	public static final String IMPORT_PARAM_ARTIST_FIRST = "artistFirst";
+	public static final String IMPORT_PARAM_REVERSE_ARTIST = "reverseArtist";
+	public static final String IMPORT_PARAM_PARENTHESE = "parenthese";
+	public static final String IMPORT_PARAM_UPPER = "upper";
+	public static final String IMPORT_PARAM_REMOVE_AFTER = "removeAfter";
+	public static final String IMPORT_PARAM_NAME = "name";
+	public static final String IMPORT_PARAM_AUTEUR = "auteur";
+	public static final String IMPORT_PARAM_CREATE = "create";
+	public static final String IMPORT_PARAM_RECORD_TYPE = "type";
+	public static final String IMPORT_PARAM_CATEGORIE = "cat";
+	public static final String IMPORT_PARAM_RANGE_BEGIN = "rangeB";
+	public static final String IMPORT_PARAM_RANGE_END = "rangeE";
+	public static final String IMPORT_PARAM_SORTED = "sorted";
+	public static final String IMPORT_PARAM_PUBLISH_YEAR = "publish";
+	public static final String IMPORT_PARAM_SIZE = "size";
 
 	/**
 	 * Construit l'onglet import.
@@ -381,7 +407,7 @@ public class ImportPanel extends JPanel {
 		removeAfterPanel.add(removeAfterLabel);
 		removeAfterPanel.add(removeAfter);
 		thirdLine.add(removeAfterPanel);
-		
+
 		// isCompleteDirectory
 		JPanel isCompleteDirectoryPanel = new JPanel();
 		isCompleteDirectoryPanel.setPreferredSize(new Dimension(260, 60));
@@ -472,15 +498,17 @@ public class ImportPanel extends JPanel {
 		bottom.add(importFile);
 
 		JButton cleanFile = new JButton("Nettoyer le fichier");
-		cleanFile.setToolTipText("Supprime les lignes qui ne contiennent pas le séparateur. Supprime également les charactères à supprimer.");
+		cleanFile.setToolTipText(
+				"Supprime les lignes qui ne contiennent pas le séparateur. Supprime également les charactères à supprimer.");
 		cleanFile.addActionListener((ActionEvent arg0) -> cleanFileAction());
 		bottom.add(cleanFile);
-		
+
 		// Mise en forme
 		JButton mef = new JButton("Mettre en forme un fichier ou dossier");
 		mef.setToolTipText("Pour supprimer les diacritiques et remplacer des charactères spéciaux.");
 		mef.addActionListener((ActionEvent arg0) -> {
-			result = new LinkedList<>(Arrays.asList((isCompleteDirectory.isSelected() ? "Dossier" : "Fichier") + " mis en forme:"));
+			result = new LinkedList<>(
+					Arrays.asList((isCompleteDirectory.isSelected() ? "Dossier" : "Fichier") + " mis en forme:"));
 			CleanFile.miseEnForme(file, isCompleteDirectory.isSelected(), result);
 			if (result.size() > 1) {
 				miseEnFormeResultLabel(result);
@@ -513,7 +541,7 @@ public class ImportPanel extends JPanel {
 		openXml.setToolTipText("Ouvre le fichier XML généré dans Notepad++");
 		openXml.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileXml));
 		bottom.add(openXml);
-		
+
 		// Ouvre le fichier de log
 		JButton log = new JButton("Logs");
 		log.setToolTipText("Ouvre le fichier de logs dans Notepad++");
@@ -555,7 +583,8 @@ public class ImportPanel extends JPanel {
 		JButton reloadBtn = new JButton("Reload");
 		reloadBtn.setBackground(Color.white);
 		reloadBtn.setPreferredSize(new Dimension(220, 60));
-		reloadBtn.setToolTipText("Relance le chargement du fichier chargé précédemment. Utile si il a été modifié entre temps.");
+		reloadBtn.setToolTipText(
+				"Relance le chargement du fichier chargé précédemment. Utile si il a été modifié entre temps.");
 		reloadBtn.addActionListener((ActionEvent arg0) -> loadFile());
 		top.add(reloadBtn);
 
@@ -616,22 +645,22 @@ public class ImportPanel extends JPanel {
 	private Map<String, String> convertParamsToMap(String separator, boolean artistFirst, boolean reverseArtist,
 			boolean parenthese, boolean upper, boolean removeAfter) throws JsonProcessingException {
 		Map<String, String> map = new HashMap<>();
-		map.put("separator", separator);
-		map.put("artistFirst", Boolean.toString(artistFirst));
-		map.put("reverseArtist", Boolean.toString(reverseArtist));
-		map.put("parenthese", Boolean.toString(parenthese));
-		map.put("upper", Boolean.toString(upper));
-		map.put("removeAfter", Boolean.toString(removeAfter));
-		map.put("name", fichier.getFileName());
-		map.put("auteur", fichier.getAuthor());
-		map.put("create", new Constant().getSdfDttm().format(fichier.getCreationDate()));
-		map.put("type", type.getSelectedItem().toString());
-		map.put("cat", fichier.getCategorie().toString());
-		map.put("rangeB", String.valueOf(fichier.getRangeDateBegin()));
-		map.put("rangeE", String.valueOf(fichier.getRangeDateEnd()));
-		map.put("sorted", String.valueOf(fichier.getSorted()));
-		map.put("publish", String.valueOf(fichier.getPublishYear()));
-		map.put("size", String.valueOf(fichier.getSize()));
+		map.put(IMPORT_PARAM_SEPARATOR, separator);
+		map.put(IMPORT_PARAM_ARTIST_FIRST, Boolean.toString(artistFirst));
+		map.put(IMPORT_PARAM_REVERSE_ARTIST, Boolean.toString(reverseArtist));
+		map.put(IMPORT_PARAM_PARENTHESE, Boolean.toString(parenthese));
+		map.put(IMPORT_PARAM_UPPER, Boolean.toString(upper));
+		map.put(IMPORT_PARAM_REMOVE_AFTER, Boolean.toString(removeAfter));
+		map.put(IMPORT_PARAM_NAME, fichier.getFileName());
+		map.put(IMPORT_PARAM_AUTEUR, fichier.getAuthor());
+		map.put(IMPORT_PARAM_CREATE, new Constant().getSdfDttm().format(fichier.getCreationDate()));
+		map.put(IMPORT_PARAM_RECORD_TYPE, type.getSelectedItem().toString());
+		map.put(IMPORT_PARAM_CATEGORIE, fichier.getCategorie().toString());
+		map.put(IMPORT_PARAM_RANGE_BEGIN, String.valueOf(fichier.getRangeDateBegin()));
+		map.put(IMPORT_PARAM_RANGE_END, String.valueOf(fichier.getRangeDateEnd()));
+		map.put(IMPORT_PARAM_SORTED, String.valueOf(fichier.getSorted()));
+		map.put(IMPORT_PARAM_PUBLISH_YEAR, String.valueOf(fichier.getPublishYear()));
+		map.put(IMPORT_PARAM_SIZE, String.valueOf(fichier.getSize()));
 		return map;
 	}
 
@@ -654,8 +683,8 @@ public class ImportPanel extends JPanel {
 	}
 
 	/**
-	 * Crée un file chooser pour sélectionner un fichier selon l'extension
-	 * donnée et à l'endroit donnée.
+	 * Crée un file chooser pour sélectionner un fichier selon l'extension donnée et
+	 * à l'endroit donnée.
 	 * 
 	 * @param extension le filtre sur les extensions
 	 * @param dir à quel endroit le file chooser s'ouvre
@@ -739,26 +768,26 @@ public class ImportPanel extends JPanel {
 			LOG.debug("value: " + value.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue())
 					.collect(Collectors.joining(", ")));
 			LOG.debug("Init with stored params");
-			name.setText(value.get("name"));
-			absolutePathFileXml = Constant.XML_PATH + value.get("name") + Constant.XML_EXTENSION;
-			author.setText(value.get("auteur"));
-			date.setText(value.get("create"));
-			cat.setSelectedItem(Cat.valueOf(value.get("cat")));
-			publi.setText(value.get("publish"));
-			type.setSelectedItem(RecordType.valueOf(value.get("type")));
-			rangeB.setText(value.get("rangeB"));
-			rangeE.setText(value.get("rangeE"));
-			sorted.setSelected(Boolean.parseBoolean(value.get("sorted")));
-			size.setText(value.get("size"));
-			separator.setText(value.get("separator"));
-			upper.setSelected(Boolean.parseBoolean(value.get("upper")));
-			removeParenthese.setSelected(Boolean.parseBoolean(value.get("parenthese")));
-			removeAfter.setSelected(Boolean.parseBoolean(value.get("removeAfter")));
-			reverseArtist.setSelected(Boolean.parseBoolean(value.get("reverseArtist")));
-			order.setSelected(Boolean.parseBoolean(value.get("artistFirst")));
+			name.setText(value.get(IMPORT_PARAM_NAME));
+			absolutePathFileXml = Constant.XML_PATH + value.get(IMPORT_PARAM_NAME) + Constant.XML_EXTENSION;
+			author.setText(value.get(IMPORT_PARAM_AUTEUR));
+			date.setText(value.get(IMPORT_PARAM_CREATE));
+			cat.setSelectedItem(Cat.valueOf(value.get(IMPORT_PARAM_CATEGORIE)));
+			publi.setText(value.get(IMPORT_PARAM_PUBLISH_YEAR));
+			type.setSelectedItem(RecordType.valueOf(value.get(IMPORT_PARAM_RECORD_TYPE)));
+			rangeB.setText(value.get(IMPORT_PARAM_RANGE_BEGIN));
+			rangeE.setText(value.get(IMPORT_PARAM_RANGE_END));
+			sorted.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_SORTED)));
+			size.setText(value.get(IMPORT_PARAM_SIZE));
+			separator.setText(value.get(IMPORT_PARAM_SEPARATOR));
+			upper.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_UPPER)));
+			removeParenthese.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_PARENTHESE)));
+			removeAfter.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_REMOVE_AFTER)));
+			reverseArtist.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_REVERSE_ARTIST)));
+			order.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_ARTIST_FIRST)));
 			fichier = new Fichier();
 			try {
-				fichier.setCreationDate(new Constant().getSdfDttm().parse(value.get("create")));
+				fichier.setCreationDate(new Constant().getSdfDttm().parse(value.get(IMPORT_PARAM_CREATE)));
 			} catch (ParseException e) {
 				LOG.warn("Error when parsing creation date", e);
 			}
@@ -853,7 +882,8 @@ public class ImportPanel extends JPanel {
 		if (file != null) {
 			result = new LinkedList<>(Arrays.asList(file.getName() + " nettoyé !"));
 			try {
-				CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText(), isBefore.isSelected());
+				CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText(),
+						isBefore.isSelected());
 			} catch (IOException e) {
 				LOG.error("Erreur lors du nettoyage du fichier: " + file.getAbsolutePath(), e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
