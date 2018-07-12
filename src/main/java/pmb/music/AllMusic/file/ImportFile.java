@@ -74,11 +74,14 @@ public class ImportFile {
 	 * @param fichier {@link Fichier} contenant des infos récupérées précédemment
 	 * @param type {@link RecordType} chanson ou album
 	 * @param separator {@link String} le séparateur entre l'artiste et le titre
-	 * @param result {@code List<String>} le message qui sera affiché à la fin du traitement
+	 * @param result {@code List<String>} le message qui sera affiché à la fin du
+	 *            traitement
 	 * @param artistFirst si l'artiste est en 1er
-	 * @param reverseArtist si l'artiste est par exemple: {@literal Beatles, The} et doit etre retourné
+	 * @param reverseArtist si l'artiste est par exemple: {@literal Beatles, The} et
+	 *            doit etre retourné
 	 * @param parenthese si des parenthèse sont à supprimer à la fin de chaque ligne
-	 * @param upper si il n'y a pas de séparateur mais que l'artiste est en majuscule et pas le titre
+	 * @param upper si il n'y a pas de séparateur mais que l'artiste est en
+	 *            majuscule et pas le titre
 	 * @param removeAfter si plusieurs séparateurs, supprimer après le dernier
 	 * @return {@code List<Composition>} la liste de compos extraite du fichier
 	 * @throws MyException
@@ -110,9 +113,9 @@ public class ImportFile {
 		return compoList;
 	}
 
-	private static void getCompositionFromOneLine(List<Composition> compoList, Fichier fichier, String entryLine, String separator, List<String> result,
-			RecordType type, boolean artistFirst, boolean removeAfter, boolean upper, boolean reverseArtist, boolean parenthese, int lineNb, int i)
-			throws MyException {
+	private static void getCompositionFromOneLine(List<Composition> compoList, Fichier fichier, String entryLine,
+			String separator, List<String> result, RecordType type, boolean artistFirst, boolean removeAfter,
+			boolean upper, boolean reverseArtist, boolean parenthese, int lineNb, int i) throws MyException {
 		String line = entryLine;
 		if (removeAfter) {
 			line = StringUtils.substringBeforeLast(line, separator);
@@ -141,7 +144,8 @@ public class ImportFile {
 		if (reverseArtist) {
 			String[] arrayArtist = composition.getArtist().split(",");
 			if (arrayArtist.length == 2) {
-				composition.setArtist(StringUtils.trim(StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0])));
+				composition.setArtist(
+						StringUtils.trim(StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0])));
 			}
 		}
 		composition.setArtist(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""), "\""));
@@ -157,11 +161,12 @@ public class ImportFile {
 		if (StringUtils.isBlank(composition.getTitre())) {
 			result.add("### Error Title empty for: " + line + LOG_NUMBER + (lineNb - 1));
 		}
-		
+
 		compoList.add(composition);
 	}
 
-	private static int setArtistAndTitreGetRank(Composition composition, String line, boolean upper, String[] split, Boolean sorted, int i) throws MyException {
+	private static int setArtistAndTitreGetRank(Composition composition, String line, boolean upper, String[] split,
+			Boolean sorted, int i) throws MyException {
 		// Reconnaissance du titre et de l'artiste
 		String artist;
 		String titre;
@@ -201,17 +206,18 @@ public class ImportFile {
 	}
 
 	/**
-	 * Fragmente en 2 normalement une ligne d'un fichier avec le séparateur
-	 * donné.
+	 * Fragmente en 2 normalement une ligne d'un fichier avec le séparateur donné.
 	 * 
 	 * @param line {@link String} laligne à couper
 	 * @param separator {@link String} le séparateur
-	 * @param result {@code List<String>} la liste des messages à afficher à l'utilisateur
+	 * @param result {@code List<String>} la liste des messages à afficher à
+	 *            l'utilisateur
 	 * @param lineNb le numéro de la ligne dans le fichier
 	 * @return {@code String[]} la ligne coupée
 	 * @throws MyException si la ligne est coupée en plus de 2 morceaux
 	 */
-	private static String[] splitLineWithSeparator(String line, String separator, List<String> result, int lineNb) throws MyException {
+	private static String[] splitLineWithSeparator(String line, String separator, List<String> result, int lineNb)
+			throws MyException {
 		String[] split = line.split(separator);
 		if (split.length < 2) {
 			// Le séparateur ne convient pas, on essaye avec un tiret classique
@@ -219,7 +225,8 @@ public class ImportFile {
 		}
 		if (split.length < 2) {
 			// ça ne marche toujours pas, on arrete tout
-			throw new MyException("Separator " + separator + " is not suitable for line " + (lineNb - 1) + " : " + line);
+			throw new MyException(
+					"Separator " + separator + " is not suitable for line " + (lineNb - 1) + " : " + line);
 		}
 		if (split.length > 2) {
 			// Il y a plusieurs séparateur dans la ligne
@@ -234,7 +241,8 @@ public class ImportFile {
 		return split;
 	}
 
-	private static void removeParentheseFromTitreAndArtist(List<String> result, String line, int lineNumber, Composition compo) {
+	private static void removeParentheseFromTitreAndArtist(List<String> result, String line, int lineNumber,
+			Composition compo) {
 		String titre = compo.getTitre();
 		String artist = compo.getArtist();
 		int countMatchesTitre = StringUtils.countMatches(titre, "(");
@@ -285,13 +293,13 @@ public class ImportFile {
 			LOG.debug("Fichier trié");
 			String first = "";
 			int i = 0;
-			while(StringUtils.isBlank(first)) {
+			while (StringUtils.isBlank(first)) {
 				first = randomLines.get(i);
 				i++;
 			}
 			String last = "";
 			i = 1;
-			while(StringUtils.isBlank(last)) {
+			while (StringUtils.isBlank(last)) {
 				last = randomLines.get(randomLines.size() - i);
 				i++;
 			}
@@ -426,7 +434,8 @@ public class ImportFile {
 			file.setRangeDateEnd(0);
 		}
 		boolean isYearOrDecade = file.getCategorie() == Cat.YEAR || file.getCategorie() == Cat.DECADE;
-		if (file.getPublishYear() == 0 && (isYearOrDecade || (file.getCategorie() == Cat.ALL_TIME && file.getRangeDateEnd() != 0))) {
+		if (file.getPublishYear() == 0
+				&& (isYearOrDecade || (file.getCategorie() == Cat.ALL_TIME && file.getRangeDateEnd() != 0))) {
 			file.setPublishYear(file.getRangeDateEnd());
 		}
 		LOG.debug("End determineYears");
@@ -516,8 +525,7 @@ public class ImportFile {
 	}
 
 	/**
-	 * Détermine le séparateur entre l'artiste et le titre utilisé dans le
-	 * fichier.
+	 * Détermine le séparateur entre l'artiste et le titre utilisé dans le fichier.
 	 * 
 	 * @param line une ligne du fichier
 	 * @return {@link String} le séparateur
@@ -543,7 +551,7 @@ public class ImportFile {
 						break;
 					}
 				}
-				
+
 			}
 		}
 		LOG.debug("End getSeparator");
@@ -552,12 +560,12 @@ public class ImportFile {
 
 	private static boolean isSuitableSeparator(String sep) {
 		return !StringUtils.isAlphanumeric(sep) && sep.length() == 1
-				&& !Arrays.asList(Constant.NOT_SEPARATORS).contains(sep);
+				&& !Arrays.asList(Constant.getNotSeparators()).contains(sep);
 	}
 
 	/**
-	 * Retourne dans l'ordre les 3 premières lignes, une ligne au hasard et les
-	 * 2 dernières lignes du fichier donné et la derniere ligne non vide.
+	 * Retourne dans l'ordre les 3 premières lignes, une ligne au hasard et les 2
+	 * dernières lignes du fichier donné et la derniere ligne non vide.
 	 * 
 	 * @param file le fichier
 	 * @return une liste de 6 String
@@ -622,34 +630,35 @@ public class ImportFile {
 
 	/**
 	 * Checks if the given line is valid, ie might contains a composition.
+	 * 
 	 * @param line the line to check
-	 * @return false if the line is too short, a comment, import params or empty, true otherwise
+	 * @return false if the line is too short, a comment, import params or empty,
+	 *         true otherwise
 	 */
 	public static boolean isValidLine(String line) {
-		return StringUtils.isNotBlank(line) 
-				&& !StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX)
-				&& !StringUtils.startsWith(line, Constant.COMMENT_PREFIX) 
-				&& line.length() > 4;
+		return StringUtils.isNotBlank(line) && !StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX)
+				&& !StringUtils.startsWith(line, Constant.COMMENT_PREFIX) && line.length() > 4;
 	}
 
 	/**
 	 * Compte le nombre de ligne dans le fichier.
 	 * 
 	 * @param filename le nom du fichier
-	 * @param validLine true on compte seulement les lignes valides, plus longue que 5 caractères et non commentées, 
-	 * false on compte toutes les lignes.
+	 * @param validLine true on compte seulement les lignes valides, plus longue que
+	 *            5 caractères et non commentées, false on compte toutes les lignes.
 	 * @return un nombre
 	 * @throws IOException
 	 */
 	public static int countLines(String filename, boolean validLine) throws IOException {
 		LOG.debug("Start countLines");
 		int count = 0;
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
 			String readLine = "";
 			while (readLine != null) {
 				if (validLine && isValidLine(readLine)) {
 					count++;
-				} else if(!validLine) {
+				} else if (!validLine) {
 					count++;
 				}
 				readLine = br.readLine();

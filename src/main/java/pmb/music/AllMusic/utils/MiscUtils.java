@@ -39,6 +39,12 @@ public class MiscUtils {
 			return getObjectMapper().writeValueAsString(o);
 	}
 
+	/**
+	 * Parse a string representing a {@code Map<String, String}.
+	 * @param s the string to parse
+	 * @return the map parsed
+	 * @throws IOException
+	 */
 	public static Map<String, String> readValueAsMap(String s) throws IOException {
 		TypeReference<HashMap<String, String>> typeRef = new TypeReference<HashMap<String, String>>() {
 		};
@@ -55,6 +61,10 @@ public class MiscUtils {
 		return new Constant().getSdfHistory().format(date);
 	}
 	
+	/**
+	 * Returns the current time, only.
+	 * @return format: {@code hour:minute:second}
+	 */
 	public static String getCurrentTime() {
 		DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 		Date date = new Date();

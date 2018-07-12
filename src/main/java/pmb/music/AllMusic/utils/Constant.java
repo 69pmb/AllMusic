@@ -101,7 +101,7 @@ public class Constant {
 
 	private static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
 	
-	public static final String[] NOT_SEPARATORS = { "(", ")", DOT, ",", "#", "'", "!", "*", "?", "/" };
+	private static final String[] NOT_SEPARATORS = { "(", ")", DOT, ",", "#", "'", "!", "*", "?", "/" };
 	
 	public static final String DEFAULT_TITLE = "AllMusic";
 
@@ -195,5 +195,9 @@ public class Constant {
 
 	public static String[] getSeparators() {
 		return SEPARATORS;
+	}
+
+	public static String[] getNotSeparators() {
+		return NOT_SEPARATORS;
 	}
 }
