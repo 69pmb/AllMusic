@@ -514,8 +514,8 @@ public class BatchUtils {
 						String newTitre2 = SearchUtils.removePunctuation(titre2);
 						String artist1 = composition1.getArtist();
 						String artist2 = composition2.getArtist();
-						int publishYear1 = composition1.getFiles().get(0).getPublishYear();
-						int publishYear2 = composition2.getFiles().get(0).getPublishYear();
+						Integer publishYear1 = composition1.getFiles().get(0).getPublishYear();
+						Integer publishYear2 = composition2.getFiles().get(0).getPublishYear();
 						boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2)
 								|| StringUtils.startsWithIgnoreCase(artist2, artist1);
 						boolean equalsJaroPar = publishYear1 == publishYear2 && (SearchUtils.isEqualsJaro(jaro,

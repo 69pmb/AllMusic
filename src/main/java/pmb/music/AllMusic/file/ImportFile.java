@@ -92,8 +92,8 @@ public class ImportFile {
 		LOG.debug("Start getCompositionsFromFile");
 		List<Composition> compoList = new ArrayList<>();
 		String line = "";
-		int i = 1;
-		int lineNb = 1;
+		Integer i = 1;
+		Integer lineNb = 1;
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			while ((line = br.readLine()) != null) {
@@ -115,7 +115,7 @@ public class ImportFile {
 
 	private static void getCompositionFromOneLine(List<Composition> compoList, Fichier fichier, String entryLine,
 			String separator, List<String> result, RecordType type, boolean artistFirst, boolean removeAfter,
-			boolean upper, boolean reverseArtist, boolean parenthese, int lineNb, int i) throws MyException {
+			boolean upper, boolean reverseArtist, boolean parenthese, Integer lineNb, Integer i) throws MyException {
 		String line = entryLine;
 		if (removeAfter) {
 			line = StringUtils.substringBeforeLast(line, separator);
@@ -127,7 +127,7 @@ public class ImportFile {
 
 		Composition composition = new Composition();
 		composition.setCanBeMerged(true);
-		int rank = setArtistAndTitreGetRank(composition, line, upper, split, fichier.getSorted(), i);
+		Integer rank = setArtistAndTitreGetRank(composition, line, upper, split, fichier.getSorted(), i);
 		List<Fichier> files = new ArrayList<>();
 		Fichier fich = new Fichier(fichier);
 		fich.setClassement(rank);
@@ -165,8 +165,8 @@ public class ImportFile {
 		compoList.add(composition);
 	}
 
-	private static int setArtistAndTitreGetRank(Composition composition, String line, boolean upper, String[] split,
-			Boolean sorted, int i) throws MyException {
+	private static Integer setArtistAndTitreGetRank(Composition composition, String line, boolean upper, String[] split,
+			Boolean sorted, Integer i) throws MyException {
 		// Reconnaissance du titre et de l'artiste
 		String artist;
 		String titre;
@@ -186,7 +186,7 @@ public class ImportFile {
 			titre = StringUtils.trim(StringUtils.substring(line, cut));
 		}
 
-		int rank;
+		Integer rank;
 		if (sorted) {
 			String res = StringUtils.trim(StringUtils.substringBefore(artist, Constant.DOT));
 			if (StringUtils.isNumeric(res)) {
@@ -216,7 +216,7 @@ public class ImportFile {
 	 * @return {@code String[]} la ligne coupée
 	 * @throws MyException si la ligne est coupée en plus de 2 morceaux
 	 */
-	private static String[] splitLineWithSeparator(String line, String separator, List<String> result, int lineNb)
+	private static String[] splitLineWithSeparator(String line, String separator, List<String> result, Integer lineNb)
 			throws MyException {
 		String[] split = line.split(separator);
 		if (split.length < 2) {
@@ -241,7 +241,7 @@ public class ImportFile {
 		return split;
 	}
 
-	private static void removeParentheseFromTitreAndArtist(List<String> result, String line, int lineNumber,
+	private static void removeParentheseFromTitreAndArtist(List<String> result, String line, Integer lineNumber,
 			Composition compo) {
 		String titre = compo.getTitre();
 		String artist = compo.getArtist();
@@ -270,9 +270,9 @@ public class ImportFile {
 	 * @param absolutePath le chemin du fichier
 	 * @return
 	 */
-	public static int determineSize(Fichier fichier, List<String> randomLines, String absolutePath) {
+	public static Integer determineSize(Fichier fichier, List<String> randomLines, String absolutePath) {
 		LOG.debug("Start determineSize");
-		int res = 0;
+		Integer res = 0;
 		res = determineSizeSorted(fichier, randomLines, res);
 		res = determineSizeNotSorted(fichier, res);
 		if (res == 0) {
@@ -287,8 +287,8 @@ public class ImportFile {
 		return res;
 	}
 
-	private static int determineSizeSorted(Fichier fichier, List<String> randomLines, int res) {
-		int result = res;
+	private static Integer determineSizeSorted(Fichier fichier, List<String> randomLines, Integer res) {
+		Integer result = res;
 		if (fichier.getSorted()) {
 			LOG.debug("Fichier trié");
 			String first = "";
@@ -303,8 +303,8 @@ public class ImportFile {
 				last = randomLines.get(randomLines.size() - i);
 				i++;
 			}
-			int sizeFirst = extractRankFromString(first);
-			int sizeLast = extractRankFromString(last);
+			Integer sizeFirst = extractRankFromString(first);
+			Integer sizeLast = extractRankFromString(last);
 			if (sizeFirst > sizeLast) {
 				result = sizeFirst;
 			} else {
@@ -314,8 +314,8 @@ public class ImportFile {
 		return result;
 	}
 
-	private static int determineSizeNotSorted(Fichier fichier, int res) {
-		int result = res;
+	private static Integer determineSizeNotSorted(Fichier fichier, Integer res) {
+		Integer result = res;
 		if (!fichier.getSorted() || result % 5 != 0) {
 			LOG.debug("Fichier pas trié ou taille trouvée précedemment incorrecte");
 			Matcher mSize = Constant.PATTERN_SIZE.matcher(fichier.getFileName());
@@ -345,9 +345,9 @@ public class ImportFile {
 	 * @param line la string contenant le classement
 	 * @return le classement
 	 */
-	private static int extractRankFromString(String line) {
+	private static Integer extractRankFromString(String line) {
 		LOG.debug("Start extractRankFromString");
-		int sizeInt;
+		Integer sizeInt;
 		String size = StringUtils.trim(StringUtils.substringBefore(line, Constant.DOT));
 		if (StringUtils.isNumeric(size)) {
 			sizeInt = Integer.parseInt(size);
@@ -359,8 +359,8 @@ public class ImportFile {
 		return sizeInt;
 	}
 
-	private static int parseStringToInt(String string) {
-		int number;
+	private static Integer parseStringToInt(String string) {
+		Integer number;
 		try {
 			number = Integer.parseInt(string);
 		} catch (NumberFormatException e) {
@@ -444,7 +444,7 @@ public class ImportFile {
 	private static void determineYearsDecade(Fichier file, String[] split, List<String> date) {
 		List<String> decadeMatch = matchPart(split, Constant.TWO_DIGITS);
 		if (decadeMatch.size() == 1) {
-			int begin = convertTwoDigitsToYear(decadeMatch);
+			Integer begin = convertTwoDigitsToYear(decadeMatch);
 			file.setRangeDateBegin(begin);
 			file.setRangeDateEnd(begin + 9);
 		} else {
@@ -463,7 +463,7 @@ public class ImportFile {
 		return name.split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)");
 	}
 
-	private static int convertTwoDigitsToYear(List<String> decadeMatch) {
+	private static Integer convertTwoDigitsToYear(List<String> decadeMatch) {
 		String substring = decadeMatch.get(0).substring(0, 2);
 		if (substring.contains("00") || substring.contains("10") || substring.contains("20")) {
 			substring = "20" + substring;
@@ -576,7 +576,7 @@ public class ImportFile {
 		String line = "";
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
-			int countLines = countLines(file.getAbsolutePath(), false);
+			Integer countLines = countLines(file.getAbsolutePath(), false);
 			if (countLines < 4) {
 				LOG.error("File " + file.getName() + " trop trop petit");
 				return lines;
@@ -649,9 +649,9 @@ public class ImportFile {
 	 * @return un nombre
 	 * @throws IOException
 	 */
-	public static int countLines(String filename, boolean validLine) throws IOException {
+	public static Integer countLines(String filename, boolean validLine) throws IOException {
 		LOG.debug("Start countLines");
-		int count = 0;
+		Integer count = 0;
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
 			String readLine = "";

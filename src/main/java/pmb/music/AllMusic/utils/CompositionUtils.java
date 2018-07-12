@@ -279,7 +279,7 @@ public class CompositionUtils {
 	 * @return la composition trouvée
 	 * @throws MyException
 	 */
-	public static Composition findByRank(List<Composition> compoList, int rank, Composition compoParente)
+	public static Composition findByRank(List<Composition> compoList, Integer rank, Composition compoParente)
 			throws MyException {
 		LOG.debug("Start findByRank");
 		List<Composition> filtered = compoList.stream().filter(f -> f.getFiles().get(0).getClassement() == rank)
