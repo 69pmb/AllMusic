@@ -68,6 +68,7 @@ import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
 
 /**
  * Gère le panel search.
+ * 
  */
 public class SearchPanel extends JPanel {
 
@@ -114,13 +115,15 @@ public class SearchPanel extends JPanel {
 
 	/**
 	 * Génère le panel search.
+	 * 
 	 * @param artist2 le panel artiste
 	 * @param artistList
 	 * @param titleList
 	 * @param authorList
-	 * @param score 
+	 * @param score
 	 */
-	public SearchPanel(final ArtistPanel artist2, List<String> artistList, List<String> titleList, List<String> authorList, Score score) {
+	public SearchPanel(final ArtistPanel artist2, List<String> artistList, List<String> titleList,
+			List<String> authorList, Score score) {
 		super();
 		LOG.debug("Start SearchPanel");
 		this.score = score;
@@ -167,10 +170,12 @@ public class SearchPanel extends JPanel {
 			public void keyTyped(KeyEvent e) {
 				// Nothing to do
 			}
+
 			@Override
 			public void keyReleased(KeyEvent e) {
 				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
 			}
+
 			@Override
 			public void keyPressed(KeyEvent e) {
 				// Nothing to do
@@ -197,6 +202,7 @@ public class SearchPanel extends JPanel {
 
 	/**
 	 * Insert les boutons du panel search en haut.
+	 * 
 	 * @param artist2 le panel artist
 	 * @param header le header de l'onglet
 	 */
@@ -217,8 +223,8 @@ public class SearchPanel extends JPanel {
 		search.setBackground(Color.white);
 		search.setPreferredSize(new Dimension(220, 60));
 		search.addActionListener(searchAction);
-		search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0),
-				"Enter_pressed");
+		search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW)
+				.put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0), "Enter_pressed");
 		search.getActionMap().put("Enter_pressed", searchAction);
 		top.add(search);
 
@@ -258,7 +264,7 @@ public class SearchPanel extends JPanel {
 			updateTable();
 		});
 		top.add(delete);
-		
+
 		// Modif Btn
 		JButton modif = new JButton("Modifier la composition sélectionnée");
 		modif.setBackground(Color.white);
@@ -297,12 +303,14 @@ public class SearchPanel extends JPanel {
 
 	/**
 	 * Initialise les champs de recherche.
+	 * 
 	 * @param artistList la liste des artistes
 	 * @param titleList la liste des titres
 	 * @param authorList la liste des auteurs
 	 * @param header le header de l'onglet
 	 */
-	private void initSearchFields(List<String> artistList, List<String> titleList, List<String> authorList, JPanel header) {
+	private void initSearchFields(List<String> artistList, List<String> titleList, List<String> authorList,
+			JPanel header) {
 		LOG.debug("Start initSearchFields");
 		JPanel searchFields = new JPanel();
 		searchFields.setLayout(new GridLayout(2, 5));
@@ -402,7 +410,7 @@ public class SearchPanel extends JPanel {
 		publiPanel.add(publiLabel);
 		publiPanel.add(publi);
 		searchFields.add(publiPanel);
-		
+
 		// Sorted
 		JPanel sortedPanel = new JPanel();
 		sortedPanel.setPreferredSize(new Dimension(200, 25));
@@ -412,7 +420,7 @@ public class SearchPanel extends JPanel {
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 		searchFields.add(sortedPanel);
-		
+
 		// TopTen
 		JPanel topPanel = new JPanel();
 		topPanel.setPreferredSize(new Dimension(200, 25));
@@ -489,8 +497,9 @@ public class SearchPanel extends JPanel {
 	private void updateTable() {
 		LOG.debug("Start updateTable");
 		model.setRowCount(0);
-		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true, score), new Vector<>(Arrays.asList(title)));
-		PanelUtils.colRenderer(result, false); 
+		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true, score),
+				new Vector<>(Arrays.asList(title)));
+		PanelUtils.colRenderer(result, false);
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
 		if (sortedColumn == null) {
@@ -542,8 +551,8 @@ public class SearchPanel extends JPanel {
 			importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 			try {
 				// On récupère la composition à modifier
-				toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(INDEX_ARTIST),
-						v.get(INDEX_TITRE), v.get(INDEX_TYPE), true);
+				toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
+						v.get(INDEX_TYPE), true);
 			} catch (MyException e1) {
 				String log = "Erreur dans modifAction, impossible de trouver la compo à modifier";
 				LOG.error(log, e1);
@@ -552,7 +561,8 @@ public class SearchPanel extends JPanel {
 			}
 		}
 		// Lancement de la popup de modification
-		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true, new Dimension(800, 150), v);
+		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
+				new Dimension(800, 150), v);
 		md.showDialogFileTable();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée
@@ -563,7 +573,7 @@ public class SearchPanel extends JPanel {
 			return;
 		}
 		int indexOfXml = importXML.indexOf(toModif);
-		int indexOfResult = compoResult.indexOf(toModif);
+		int indexOfResult = SearchUtils.indexOf(compoResult, toModif);
 		// On modifier les fichiers xml en conséquence
 		try {
 			CompositionUtils.modifyCompositionsInFiles(toModif, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
@@ -577,7 +587,7 @@ public class SearchPanel extends JPanel {
 		toModif.setArtist(v.get(INDEX_ARTIST));
 		toModif.setTitre(v.get(INDEX_TITRE));
 		toModif.setRecordType(RecordType.valueOf(v.get(INDEX_TYPE)));
-		
+
 		importXML.remove(indexOfXml);
 		compoResult.remove(indexOfResult);
 		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);
@@ -618,9 +628,10 @@ public class SearchPanel extends JPanel {
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			List<Fichier> files;
 			try {
-				files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(INDEX_ARTIST),
-						v.get(INDEX_TITRE), v.get(INDEX_TYPE), true).getFiles();
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 400), DialogFileTable.INDEX_TITLE);
+				files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
+						v.get(INDEX_TYPE), true).getFiles();
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 400),
+						DialogFileTable.INDEX_TITLE, v.get(INDEX_ARTIST), v.get(INDEX_TITRE));
 				pop.showDialogFileTable();
 			} catch (MyException e1) {
 				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
@@ -637,8 +648,7 @@ public class SearchPanel extends JPanel {
 			}
 			Vector<String> v = (Vector<String>) ((CompoSearchPanelModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(
-					v.get(INDEX_ARTIST) + " " + v.get(INDEX_TITRE));
+			StringSelection selection = new StringSelection(v.get(INDEX_ARTIST) + " " + v.get(INDEX_TITRE));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");

@@ -11,6 +11,7 @@ import java.io.OutputStreamWriter;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
@@ -59,14 +60,27 @@ public class AppTest {
 			.compareTo(c2.getFiles().get(0).getClassement());
 
 	public static void main(String[] args) {
-		// List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		// topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
 		// topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
 		// stats(importXML, RecordType.ALBUM);
 		// stats(importXML, RecordType.SONG);
 		// gauss(importXML, RecordType.ALBUM);
 		// sizeFileSuspicious(importXML);
-		findImportParamsForAllFiles();
+		// findImportParamsForAllFiles();
+		duplicateRankInFiles(importXML);
+	}
+
+	public static void duplicateRankInFiles(List<Composition> importXML) {
+		List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
+				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
+		for (String name : nomFichier) {
+			List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name + Constant.XML_EXTENSION);
+			List<Integer> rankList = xml.stream().map(c -> c.getFiles().get(0).getClassement())
+					.collect(Collectors.toList());
+			rankList.stream().filter(i -> Collections.frequency(rankList, i) > 1)
+					.forEach(rank -> LOG.debug("name: " + name + ", rank: " + rank));
+		}
 	}
 
 	public static void findImportParamsForAllFiles() {
@@ -415,30 +429,26 @@ public class AppTest {
 		return artistRevert;
 	}
 
-	private static void sizeFileSuspicious(List<Composition> importXML) {
+	public static void sizeFileSuspicious(List<Composition> importXML) {
 		// // TODO tous les fichiers qui ont une taille non multiple de 10
-		// importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f
-		// -> f.getSize() % 10 != 0 && f.getSize() % 5 != 0)
-		// .map(f->f.getFileName() + " " +
-		// f.getSize()).distinct().sorted().forEach(LOG::debug);
+		importXML.stream().map(Composition::getFiles).flatMap(List::stream)
+				.filter(f -> f.getSize() % 10 != 0 && f.getSize() % 5 != 0)
+				.map(f -> f.getFileName() + " " + f.getSize()).distinct().sorted().forEach(LOG::debug);
 		// // TODO tous les fichiers dont le classement de la derniere composition est
 		// // different de la taille
-		// List<String> fileNames =
-		// importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f->!f.getSorted())
-		// .map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
-		// for (String name : fileNames) {
-		// List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name +
-		// Constant.XML_EXTENSION);
-		// xml.sort((a, b) -> Integer.valueOf(a.getFiles().get(0).getClassement())
-		// .compareTo(Integer.valueOf(b.getFiles().get(0).getClassement())));
-		// Composition lastCompo = xml.get(xml.size() - 1);
-		// if (xml.get(0).getFiles().get(0).getSize() != 0
-		// && lastCompo.getFiles().get(0).getClassement() !=
-		// xml.get(0).getFiles().get(0).getSize()) {
-		// LOG.debug(name + ": " + lastCompo.getFiles().get(0).getClassement() + " "
-		// + xml.get(0).getFiles().get(0).getSize());
-		// }
-		// }
+		List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
+				.filter(f -> !f.getSorted()).map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
+		for (String name : nomFichier) {
+			List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name + Constant.XML_EXTENSION);
+			xml.sort((a, b) -> Integer.valueOf(a.getFiles().get(0).getClassement())
+					.compareTo(Integer.valueOf(b.getFiles().get(0).getClassement())));
+			Composition lastCompo = xml.get(xml.size() - 1);
+			if (xml.get(0).getFiles().get(0).getSize() != 0
+					&& lastCompo.getFiles().get(0).getClassement() != xml.get(0).getFiles().get(0).getSize()) {
+				LOG.debug(name + ": " + lastCompo.getFiles().get(0).getClassement() + " "
+						+ xml.get(0).getFiles().get(0).getSize());
+			}
+		}
 		// TODO missing compositions
 		List<String> fileNames = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
@@ -450,7 +460,7 @@ public class AppTest {
 		}
 	}
 
-	private static void gauss(List<Composition> importXML, RecordType type) {
+	public static void gauss(List<Composition> importXML, RecordType type) {
 		Map<Integer, Integer> map = new TreeMap<>();
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
@@ -471,7 +481,7 @@ public class AppTest {
 		}
 	}
 
-	private static void stats(List<Composition> importXML, RecordType type) {
+	public static void stats(List<Composition> importXML, RecordType type) {
 		LOG.debug(type.toString());
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
