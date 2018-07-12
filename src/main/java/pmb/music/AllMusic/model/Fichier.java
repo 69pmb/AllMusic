@@ -10,6 +10,7 @@ import java.util.Date;
  * Représentation des listes contenant des compositions. Décrit ayant un auteur,
  * une année de parution, un nom, une catégorie, des dates d'application, un
  * classment et une taille.
+ * 
  */
 public class Fichier implements Serializable {
 
@@ -205,79 +206,9 @@ public class Fichier implements Serializable {
 	 */
 	@Override
 	public String toString() {
-		return "Fichier [author=" + this.author + ", fileName=" + this.fileName + ", publishYear=" + this.publishYear + ", categorie=" + this.categorie
-				+ ", rangeDateBegin=" + this.rangeDateBegin + ", rangeDateEnd=" + this.rangeDateEnd + ", sorted=" + this.sorted + ", classement="
-				+ this.classement + ", creationDate=" + this.creationDate + ", size=" + this.size + "]\t\r\n";
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#hashCode()
-	 */
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((this.author == null) ? 0 : this.author.hashCode());
-		result = prime * result + ((this.categorie == null) ? 0 : this.categorie.hashCode());
-		result = prime * result + this.classement;
-		result = prime * result + ((this.creationDate == null) ? 0 : this.creationDate.hashCode());
-		result = prime * result + ((this.fileName == null) ? 0 : this.fileName.hashCode());
-		result = prime * result + this.publishYear;
-		result = prime * result + this.rangeDateBegin;
-		result = prime * result + this.rangeDateEnd;
-		result = prime * result + this.size;
-		result = prime * result + ((this.sorted == null) ? 0 : this.sorted.hashCode());
-		return result;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#equals(java.lang.Object)
-	 */
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Fichier other = (Fichier) obj;
-		if (this.author == null) {
-			if (other.author != null)
-				return false;
-		} else if (!this.author.equals(other.author))
-			return false;
-		if (this.categorie != other.categorie)
-			return false;
-		if (this.classement != other.classement)
-			return false;
-		if (this.creationDate == null) {
-			if (other.creationDate != null)
-				return false;
-		} else if (!this.creationDate.equals(other.creationDate))
-			return false;
-		if (this.fileName == null) {
-			if (other.fileName != null)
-				return false;
-		} else if (!this.fileName.equals(other.fileName))
-			return false;
-		if (this.publishYear != other.publishYear)
-			return false;
-		if (this.rangeDateBegin != other.rangeDateBegin)
-			return false;
-		if (this.rangeDateEnd != other.rangeDateEnd)
-			return false;
-		if (this.size != other.size)
-			return false;
-		if (this.sorted == null) {
-			if (other.sorted != null)
-				return false;
-		} else if (!this.sorted.equals(other.sorted))
-			return false;
-		return true;
+		return "Fichier [author=" + this.author + ", fileName=" + this.fileName + ", publishYear=" + this.publishYear
+				+ ", categorie=" + this.categorie + ", rangeDateBegin=" + this.rangeDateBegin + ", rangeDateEnd="
+				+ this.rangeDateEnd + ", sorted=" + this.sorted + ", classement=" + this.classement + ", creationDate="
+				+ this.creationDate + ", size=" + this.size + "]\t\r\n";
 	}
 }
