@@ -51,7 +51,7 @@ public class FichierUtils {
 	 * @return Vector<Vector<Object>> la liste convertie
 	 */
 	@SuppressWarnings("rawtypes")
-	public static Vector convertListForJTable(List<Fichier> fList, boolean getComposition) {
+	public static Vector convertListForJTable(List<Fichier> fList, boolean getComposition, Optional<String> artist, Optional<String> titre) {
 		LOG.debug("Start convertListForJTable");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < fList.size(); i++) {
@@ -60,7 +60,7 @@ public class FichierUtils {
 			if (getComposition) {
 				List<Composition> compo = ImportXML
 						.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
-				Optional<Composition> c = CompositionUtils.findByFile(compo, f);
+				Optional<Composition> c = CompositionUtils.findByFile(compo, f, artist, titre);
 				if (c.isPresent()) {
 					v.addElement(c.get().getArtist());
 					v.addElement(c.get().getTitre());

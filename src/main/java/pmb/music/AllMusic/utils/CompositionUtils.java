@@ -25,6 +25,7 @@ import pmb.music.AllMusic.model.Score;
 
 /**
  * Classe utilitaire pour les {@link Composition}.
+ * 
  * @author pmbroca
  */
 public class CompositionUtils {
@@ -35,9 +36,9 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Détermine si la compo existe dans la liste donnée. 
-	 * C'est à dire, si le {@link RecordType} est le même et 
-	 * si le titre et l'artiste sont similaires en utilisant leur score de JaroWinkler.
+	 * Détermine si la compo existe dans la liste donnée. C'est à dire, si le
+	 * {@link RecordType} est le même et si le titre et l'artiste sont similaires en
+	 * utilisant leur score de JaroWinkler.
 	 * 
 	 * @param compos la liste
 	 * @param c la compo à chercher
@@ -66,7 +67,7 @@ public class CompositionUtils {
 								Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
 					res = composition;
 					break;
-				} 
+				}
 			}
 		}
 		return res;
@@ -101,18 +102,17 @@ public class CompositionUtils {
 				parTitre2 = andTitre2;
 				parTitreEqu = false;
 			}
-			return SearchUtils.isEqualsJaro(jaro, parTitre1, parTitre2,
-					Constant.SCORE_LIMIT_TITLE_FUSION);
+			return SearchUtils.isEqualsJaro(jaro, parTitre1, parTitre2, Constant.SCORE_LIMIT_TITLE_FUSION);
 		}
 		return false;
 	}
-	
+
 	/**
 	 * Détermine si 2 artistes sont égaux en utilisant la distance de JaroWinkler.
 	 * 
 	 * @param artist un artist
 	 * @param a un autre artist
-	 * @param jaro une instance de {@link JaroWinklerDistance} 
+	 * @param jaro une instance de {@link JaroWinklerDistance}
 	 * @return {@code null} rien trouvé, le 1er artiste sinon
 	 */
 	public static String artistJaroEquals(String artist, String a, JaroWinklerDistance jaro, BigDecimal scoreLimit) {
@@ -145,8 +145,11 @@ public class CompositionUtils {
 
 	/**
 	 * Convertit une liste de {@link Composition} en {@link Vector}.
-	 * @param compoList {@code List<Composition>} la liste de composition à convertir
-	 * @param displayClassement si on affiche le classement de la composition ou son nombre de fichiers
+	 * 
+	 * @param compoList {@code List<Composition>} la liste de composition à
+	 *            convertir
+	 * @param displayClassement si on affiche le classement de la composition ou son
+	 *            nombre de fichiers
 	 * @param addBoolean si on ajoute une colonne de boolean remplie à false
 	 * @param score {@link Score} constants to calculate the composition score
 	 * @return {@code Vector<Vector<Object>>} la liste de vecteur convertie
@@ -186,6 +189,7 @@ public class CompositionUtils {
 	/**
 	 * Convertit une liste de compositions en vecteur pour l'onglet artist. On
 	 * compte pour chaque artiste le nombre de chanson et d'album enregistrés
+	 * 
 	 * @param compoList {@code List<Composition>} la liste de compo
 	 * @return {@code Vector<Vector<Object>>} le resultat
 	 */
@@ -194,7 +198,7 @@ public class CompositionUtils {
 		Vector<Vector<Object>> temp = new Vector<Vector<Object>>();
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (int i = 0; i < compoList.size(); i++) {
-			if(Thread.currentThread().isInterrupted()) {
+			if (Thread.currentThread().isInterrupted()) {
 				LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
 				return result;
 			}
@@ -218,11 +222,12 @@ public class CompositionUtils {
 		for (Vector<Object> v : temp) {
 			boolean res = false;
 			for (int i = 0; i < result.size(); i++) {
-				if(Thread.currentThread().isInterrupted()) {
+				if (Thread.currentThread().isInterrupted()) {
 					LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
 					return result;
 				}
-				if (artistJaroEquals((String) v.get(0),(String) result.get(i).get(0), jaro, Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
+				if (artistJaroEquals((String) v.get(0), (String) result.get(i).get(0), jaro,
+						Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
 					result.get(i).set(1, (int) result.get(i).get(1) + (int) v.get(1));
 					result.get(i).set(2, (int) result.get(i).get(2) + (int) v.get(2));
 					result.get(i).set(3, (int) result.get(i).get(3) + (int) v.get(3));
@@ -241,6 +246,7 @@ public class CompositionUtils {
 	/**
 	 * Cherche une {@link Composition} dans une liste donnée en fonction de
 	 * l'artiste, du titre et de son type. Recherche stricte.
+	 * 
 	 * @param compoList {@link List<Composition>} une liste de compo
 	 * @param artist {@link String} un artiste
 	 * @param titre {@link String} un titre de chanson ou d'album
@@ -248,19 +254,21 @@ public class CompositionUtils {
 	 * @return une seule {@link Composition}
 	 * @throws MyException si plusieurs résultat
 	 */
-	public static Composition findByArtistTitreAndType(List<Composition> compoList, String artist, String titre, String type, boolean isStrictly) throws MyException {
+	public static Composition findByArtistTitreAndType(List<Composition> compoList, String artist, String titre,
+			String type, boolean isStrictly) throws MyException {
 		LOG.debug("Start findByArtistTitreAndType");
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_ARTIST, artist);
 		criteria.put(SearchUtils.CRITERIA_TITRE, titre);
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
-		
+
 		List<Composition> search = new ArrayList<>();
 		search = SearchUtils.search(compoList, criteria, false, isStrictly);
 		if (search.size() > 1) {
 			LOG.debug("Compo: " + search.size());
 			search.stream().forEach(LOG::debug);
-			throw new MyException("Trop de résultat dans findByArtistTitreAndType: " + artist + " " + titre + " " + type);
+			throw new MyException(
+					"Trop de résultat dans findByArtistTitreAndType: " + artist + " " + titre + " " + type);
 		}
 		if (!search.isEmpty()) {
 			LOG.debug("End findByArtistTitreAndType");
@@ -273,41 +281,60 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Cherche une composition dans une liste par son classement.
-	 * @param compoList la liste de composition
-	 * @param rank le classement de la composition recherchée
-	 * @param compoParente la composition à chercher
-	 * @return la composition trouvée
-	 * @throws MyException
-	 */
-	public static Composition findByRank(List<Composition> compoList, Integer rank, Composition compoParente)
-			throws MyException {
-		LOG.debug("Start findByRank");
-		List<Composition> filtered = compoList.stream().filter(f -> f.getFiles().get(0).getClassement() == rank)
-				.collect(Collectors.toList());
-		// LOG.debug("End findByRank, no result");
-		return compoParente != null && !filtered.isEmpty() ? compoExist(filtered, compoParente) : filtered.get(0);
-	}
-
-	/**
-	 * Recherche dans une liste de composition la 1ère composition qui a le même fichier que celui donné.
-	 * (Même nom, même auteur et même classement par exemple)
+	 * Recherche dans une liste de composition la 1ère composition qui a le même
+	 * fichier que celui donné. (Même nom, même auteur et même classement par
+	 * exemple)
+	 * 
 	 * @param compoList la liste de composition
 	 * @param fichier le fichier
 	 * @return un {@link Optional} de composition
 	 */
-	public static Optional<Composition> findByFile(List<Composition> compoList, Fichier fichier) {
-		LOG.debug("Start findByFileAndRank");
-		Optional<Composition> filtered = compoList.stream()
-				.filter(c -> c.getFiles().stream().anyMatch(f -> f.equals(fichier))).findFirst();
-		LOG.debug("End findByFileAndRank");
-		return filtered;
+	public static Optional<Composition> findByFile(List<Composition> compoList, Fichier fichier,
+			Optional<String> artist, Optional<String> titre) {
+		LOG.debug("Start findByFile");
+		List<Composition> filtered = compoList.stream().filter(c -> c.getFiles().stream()
+				.anyMatch(f -> StringUtils.equalsIgnoreCase(f.getAuthor(), fichier.getAuthor())
+						&& StringUtils.equalsIgnoreCase(f.getFileName(), fichier.getFileName())
+						&& f.getPublishYear().equals(fichier.getPublishYear()) && f.getSize().equals(fichier.getSize())
+						&& f.getRangeDateBegin().equals(fichier.getRangeDateBegin())
+						&& f.getRangeDateEnd().equals(fichier.getRangeDateEnd())
+						&& f.getClassement().equals(fichier.getClassement())
+						&& f.getCategorie().equals(fichier.getCategorie())
+						&& f.getSorted().equals(fichier.getSorted())))
+				.collect(Collectors.toList());
+		if (filtered.isEmpty()) {
+			LOG.debug("End findByFile, no result");
+			return Optional.empty();
+		} else if (filtered.size() == 1) {
+			LOG.debug("End findByFile, one result");
+			return Optional.of(filtered.get(0));
+		} else {
+			if (!artist.isPresent() && !titre.isPresent()) {
+				return Optional.of(filtered.get(0));
+			}
+			JaroWinklerDistance jaro = new JaroWinklerDistance();
+			Map<Double, Composition> map = new HashMap<>();
+			for (Composition composition : filtered) {
+				Double score = 0D;
+				if (artist.isPresent()) {
+					score += jaro.apply(composition.getArtist(), artist.get());
+				}
+				if (titre.isPresent()) {
+					score += jaro.apply(composition.getTitre(), titre.get());
+				}
+				map.put(score, composition);
+			}
+			LOG.debug("End findByFile, more than one result");
+			return Optional
+					.of(map.entrySet().stream().max((e1, e2) -> e1.getKey().compareTo(e2.getKey())).get().getValue());
+		}
 	}
-	
+
 	/**
 	 * Cherche une {@link Composition} dans une liste donnée en fonction de
 	 * l'artiste.
-	 * @see SearchUtils#searchJaro(List, Map, boolean) 
+	 * 
+	 * @see SearchUtils#searchJaro(List, Map, boolean)
 	 * @param compoList {@link List<Composition>} une liste de compo
 	 * @param artist {@link String} un artiste
 	 * @return la composition trouvée
@@ -329,8 +356,9 @@ public class CompositionUtils {
 
 	/**
 	 * Supprime dans les fichiers XML, la composition donnée.
+	 * 
 	 * @param toRemove la {@link Composition} à supprimer des fichiers
-	 * @throws MyException 
+	 * @throws MyException
 	 */
 	public static void removeCompositionsInFiles(Composition toRemove) throws MyException {
 		LOG.debug("Start removeCompositionsInFiles");
@@ -338,7 +366,7 @@ public class CompositionUtils {
 			// Récupération des compositions du fichier XML
 			String filename = Constant.XML_PATH + file.getFileName() + Constant.XML_EXTENSION;
 			List<Composition> importXML = ImportXML.importXML(filename);
-			if(importXML.isEmpty()) {
+			if (importXML.isEmpty()) {
 				LOG.error("Fichier vide ! " + filename);
 			}
 			// Suppresion de la liste de la composition à enlever
@@ -347,39 +375,44 @@ public class CompositionUtils {
 				importXML.remove(toRemoveFromFile);
 			} else {
 				LOG.error(filename + Constant.NEW_LINE);
-				throw new MyException("compoExist null: " + toRemove.getArtist() + " " + toRemove.getTitre() + " " + toRemove.getRecordType());
+				throw new MyException("compoExist null: " + toRemove.getArtist() + " " + toRemove.getTitre() + " "
+						+ toRemove.getRecordType());
 			}
 			try {
 				// Sauvegarde des modifications
 				ExportXML.exportXML(importXML, file.getFileName());
 			} catch (IOException e) {
-				throw new MyException("Erreur lors de la suppresion d'une composition dans le fichier: " + file.getFileName(), e);
+				throw new MyException(
+						"Erreur lors de la suppresion d'une composition dans le fichier: " + file.getFileName(), e);
 			}
 		}
 		LOG.debug("End removeCompositionsInFiles");
 	}
-	
+
 	/**
 	 * Modifie dans les fichiers XML, la composition donnée.
+	 * 
 	 * @param toModif la {@link Composition} à modifier des fichiers
 	 * @param newArtist {@link String} le nouvel artiste
 	 * @param newTitre {@link String} le nouveau titre
 	 * @param newType {@link String} le nouveau type
-	 * @throws MyException 
+	 * @throws MyException
 	 */
-	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre, String newType) throws MyException {
+	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre, String newType)
+			throws MyException {
 		LOG.debug("Start modifyCompositionsInFiles");
 		for (Fichier file : toModif.getFiles()) {
 			// Récupération des compositions du fichier XML
 			String filename = Constant.XML_PATH + file.getFileName() + Constant.XML_EXTENSION;
 			List<Composition> importXML = ImportXML.importXML(filename);
-			if(importXML.isEmpty()) {
+			if (importXML.isEmpty()) {
 				LOG.error("Fichier vide ! " + filename);
 			}
 			// Modificaton de la liste de la composition à enlever
 			Composition toModifFromFile = CompositionUtils.compoExist(importXML, toModif);
 			if (toModifFromFile == null) {
-				Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, file);
+				Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, file, Optional.of(newArtist),
+						Optional.of(newTitre));
 				if (findByFile.isPresent()) {
 					toModifFromFile = findByFile.get();
 				}
@@ -395,21 +428,25 @@ public class CompositionUtils {
 					// Sauvegarde des modifications
 					ExportXML.exportXML(importXML, file.getFileName());
 				} catch (IOException e) {
-					throw new MyException("Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(), e);
+					throw new MyException(
+							"Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(),
+							e);
 				}
 			} else {
 				LOG.error(filename + Constant.NEW_LINE);
-				String message = "Impossible de trouver la composition à modifier: " + toModif.getArtist() + " " + file + " " + toModif.getTitre() + " " + toModif.getRecordType();
+				String message = "Impossible de trouver la composition à modifier: " + toModif.getArtist() + " " + file
+						+ " " + toModif.getTitre() + " " + toModif.getRecordType();
 				LOG.error(message);
 				throw new MyException(message);
 			}
 		}
 		LOG.debug("End modifyCompositionsInFiles");
 	}
-	
+
 	/**
-	 * Calculates the {@link Score} doubleMedian for the given type.
-	 * The median of all ranking multiply by 2. 
+	 * Calculates the {@link Score} doubleMedian for the given type. The median of
+	 * all ranking multiply by 2.
+	 * 
 	 * @param type {@link RecordType}
 	 * @return {@link BigDecimal}
 	 */
@@ -420,8 +457,9 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Calculates the {@link Score} logMax for the given type.
-	 * Max is the biggest size of all files. LogMax is {@code Log10(max) * max}.
+	 * Calculates the {@link Score} logMax for the given type. Max is the biggest
+	 * size of all files. LogMax is {@code Log10(max) * max}.
+	 * 
 	 * @param type {@link RecordType}
 	 * @return {@link BigDecimal}
 	 */
@@ -432,15 +470,15 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Calculates the score for a composition. 
-	 * It's the sum of the score of its files.
+	 * Calculates the score for a composition. It's the sum of the score of its
+	 * files.
+	 * 
 	 * @param logMax @see {@link Score#getLogMax(RecordType)}
 	 * @param doubleMedian @see {@link Score#getDoubleMedian(RecordType)}
 	 * @param composition the composition
 	 * @return {@link BigDecimal} the score
 	 */
-	public static long calculateCompositionScore(BigDecimal logMax, BigDecimal doubleMedian,
-			Composition composition) {
+	public static long calculateCompositionScore(BigDecimal logMax, BigDecimal doubleMedian, Composition composition) {
 		BigDecimal sumPts = BigDecimal.ZERO;
 		for (Fichier fichier : composition.getFiles()) {
 			sumPts = sumPts.add(calculateFileScore(logMax, doubleMedian, fichier));
@@ -450,6 +488,7 @@ public class CompositionUtils {
 
 	/**
 	 * Calculates the score for a file.
+	 * 
 	 * @param logMax @see {@link Score#getLogMax(RecordType)}
 	 * @param doubleMedian @see {@link Score#getDoubleMedian(RecordType)}
 	 * @param fichier the file
@@ -478,7 +517,8 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * La medianne de tous les classements des fichiers du type donné. 
+	 * La medianne de tous les classements des fichiers du type donné.
+	 * 
 	 * @param type {@link RecordType}
 	 * @return {@link BigDecimal}
 	 */
@@ -492,9 +532,10 @@ public class CompositionUtils {
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(MiscUtils.median(rankList));
 	}
-	
+
 	/**
 	 * La taille maximum des fichiers du type donné.
+	 * 
 	 * @param type {@link RecordType}
 	 * @return {@link BigDecimal}
 	 */
