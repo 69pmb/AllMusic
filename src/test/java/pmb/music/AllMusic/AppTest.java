@@ -55,8 +55,8 @@ import pmb.music.AllMusic.view.Onglet;
 public class AppTest {
 
 	private static final Logger LOG = Logger.getLogger(AppTest.class);
-	static Comparator<Composition> byRank = (c1, c2) -> Integer.valueOf(c1.getFiles().get(0).getClassement())
-			.compareTo(Integer.valueOf(c2.getFiles().get(0).getClassement()));
+	static Comparator<Composition> byRank = (c1, c2) -> c1.getFiles().get(0).getClassement()
+			.compareTo(c2.getFiles().get(0).getClassement());
 
 	public static void main(String[] args) {
 		// List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
