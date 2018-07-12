@@ -3,35 +3,35 @@
  */
 package pmb.music.AllMusic.view.model;
 
-import java.util.Vector;
-
-import javax.swing.table.DefaultTableModel;
+import java.util.List;
 
 /**
  * Décrit la façon dont les données de l'onglet artiste seront affichées.
- * @see {@link DefaultTableModel}
+ * 
+ * @see {@link AbstractModel}
  * @author pmbroca
  */
-public class ArtistModel extends DefaultTableModel {
+public class ArtistModel extends AbstractModel {
 
-    private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
-    /**
-     * Constructeur.
-     * @param data {@code Object[][]} les données
-     * @param title {@code String[]} les entetes du tableau
-     */
-    public ArtistModel(Object[][] data, String[] title) {
-        super(data, title);
-    }
+	/**
+	 * Constructeur.
+	 * 
+	 * @param data {@code Object[][]} les données
+	 * @param title {@code String[]} les entetes du tableau
+	 */
+	public ArtistModel(Object[][] data, String[] title) {
+		super(data, title);
+	}
 
-    @Override
-    public boolean isCellEditable(int i, int i1) {
-        return false;
-    }
+	@Override
+	public boolean isCellEditable(int i, int i1) {
+		return false;
+	}
 
-    @SuppressWarnings({ "unchecked", "rawtypes" })
-    @Override
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@Override
 	public Class getColumnClass(int col) {
 		if (col == 0) {
 			return String.class;
@@ -40,23 +40,8 @@ public class ArtistModel extends DefaultTableModel {
 		}
 	}
 
-    @Override
-    public int getRowCount() {
-        if (this.getDataVector() != null) {
-            return this.getDataVector().size();
-        } else {
-            return 0;
-        }
-    }
-
-    @Override
-    public int getColumnCount() {
-        return this.columnIdentifiers.size();
-    }
-
-    @SuppressWarnings("rawtypes")
-    @Override
-    public Object getValueAt(int rowIndex, int columnIndex) {
-        return ((Vector) this.getDataVector().elementAt(rowIndex)).elementAt(columnIndex);
-    }
+	@Override
+	public List<Object> getSelected() {
+		return null;
+	}
 }
