@@ -20,21 +20,21 @@ public class Fichier implements Serializable {
 
 	private String fileName;
 
-	private int publishYear;
+	private Integer publishYear;
 
 	private Cat categorie;
 
-	private int rangeDateBegin;
+	private Integer rangeDateBegin;
 
-	private int rangeDateEnd;
+	private Integer rangeDateEnd;
 
 	private Boolean sorted;
 
-	private int classement;
+	private Integer classement;
 
 	private Date creationDate;
 
-	private int size;
+	private Integer size;
 
 	/**
 	 * Clone un Fichier.
@@ -62,14 +62,14 @@ public class Fichier implements Serializable {
 	/**
 	 * @return the publishYear
 	 */
-	public int getPublishYear() {
+	public Integer getPublishYear() {
 		return this.publishYear;
 	}
 
 	/**
 	 * @param publishYear the publishYear to set
 	 */
-	public void setPublishYear(int publishYear) {
+	public void setPublishYear(Integer publishYear) {
 		this.publishYear = publishYear;
 	}
 
@@ -90,28 +90,28 @@ public class Fichier implements Serializable {
 	/**
 	 * @return the rangeDateBegin
 	 */
-	public int getRangeDateBegin() {
+	public Integer getRangeDateBegin() {
 		return this.rangeDateBegin;
 	}
 
 	/**
 	 * @param rangeDateBegin the rangeDateBegin to set
 	 */
-	public void setRangeDateBegin(int rangeDateBegin) {
+	public void setRangeDateBegin(Integer rangeDateBegin) {
 		this.rangeDateBegin = rangeDateBegin;
 	}
 
 	/**
 	 * @return the rangeDateEnd
 	 */
-	public int getRangeDateEnd() {
+	public Integer getRangeDateEnd() {
 		return this.rangeDateEnd;
 	}
 
 	/**
 	 * @param rangeDateEnd the rangeDateEnd to set
 	 */
-	public void setRangeDateEnd(int rangeDateEnd) {
+	public void setRangeDateEnd(Integer rangeDateEnd) {
 		this.rangeDateEnd = rangeDateEnd;
 	}
 
@@ -132,14 +132,14 @@ public class Fichier implements Serializable {
 	/**
 	 * @return the classement
 	 */
-	public int getClassement() {
+	public Integer getClassement() {
 		return this.classement;
 	}
 
 	/**
 	 * @param classement the classement to set
 	 */
-	public void setClassement(int classement) {
+	public void setClassement(Integer classement) {
 		this.classement = classement;
 	}
 
@@ -188,14 +188,14 @@ public class Fichier implements Serializable {
 	/**
 	 * @return the size
 	 */
-	public int getSize() {
+	public Integer getSize() {
 		return this.size;
 	}
 
 	/**
 	 * @param size the size to set
 	 */
-	public void setSize(int size) {
+	public void setSize(Integer size) {
 		this.size = size;
 	}
 
