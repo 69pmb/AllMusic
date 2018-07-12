@@ -38,6 +38,7 @@ import pmb.music.AllMusic.view.model.FichierDialogModel;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Fichier}.
+ * 
  * @see {@link JDialog}
  * @author pmbroca
  */
@@ -60,9 +61,12 @@ public class DialogFileTable extends JDialog {
 
 	private JTable fichiers;
 	private int defaultSort;
+	private String artistCompo;
+	private String titreCompo;
 
 	/**
 	 * Constructeur de {@link DialogFileTable}.
+	 * 
 	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
@@ -70,7 +74,8 @@ public class DialogFileTable extends JDialog {
 	 * @param dim {@link Dimension} les dimension de la popup
 	 * @param defaultSort the index of the sorted column at start
 	 */
-	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim, int defaultSort) {
+	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim,
+			int defaultSort, String artistCompo, String titreCompo) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
@@ -78,6 +83,8 @@ public class DialogFileTable extends JDialog {
 		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		this.files = files;
 		this.defaultSort = defaultSort;
+		this.artistCompo = artistCompo;
+		this.titreCompo = titreCompo;
 		this.setResizable(true);
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
@@ -100,8 +107,8 @@ public class DialogFileTable extends JDialog {
 		fichiers.setBackground(UIManager.getColor("Label.background"));
 		fichiers.setFont(UIManager.getFont("Label.font"));
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
-		fichiers.setModel(
-				new FichierDialogModel(FichierUtils.convertListForJTable(files, true), new Vector(Arrays.asList(header))));
+		fichiers.setModel(new FichierDialogModel(FichierUtils.convertListForJTable(files, true,
+				Optional.ofNullable(artistCompo), Optional.ofNullable(titreCompo)), new Vector(Arrays.asList(header))));
 		fichiers.getRowSorter().toggleSortOrder(defaultSort);
 
 		fichiers.addMouseListener(pasteFichierListener());

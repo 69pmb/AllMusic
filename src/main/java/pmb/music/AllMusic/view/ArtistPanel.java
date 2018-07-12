@@ -215,10 +215,12 @@ public class ArtistPanel extends JPanel {
 			public void keyTyped(KeyEvent e) {
 				// Nothing to do
 			}
+
 			@Override
 			public void keyReleased(KeyEvent e) {
 				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
 			}
+
 			@Override
 			public void keyPressed(KeyEvent e) {
 				// Nothing to do
@@ -239,7 +241,8 @@ public class ArtistPanel extends JPanel {
 							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString())
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
-			String[] csvHeader = {"Artiste","Nombre d'occurences totales", "Albums", "Chansons", "Critères: " + criteres};
+			String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons",
+					"Critères: " + criteres };
 			String name = CsvFile.exportCsv("artist", MiscUtils.convertVectorToList(model.getDataVector()),
 					table.getRowSorter().getSortKeys().get(0), csvHeader);
 			try {
@@ -283,7 +286,8 @@ public class ArtistPanel extends JPanel {
 		updateArtistThread = new Thread(() -> {
 			LOG.debug("Start ThreadUpdateArtist");
 			list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-			Vector<Vector<Object>> convertCompositionListToArtistVector = CompositionUtils.convertCompositionListToArtistVector(list);
+			Vector<Vector<Object>> convertCompositionListToArtistVector = CompositionUtils
+					.convertCompositionListToArtistVector(list);
 
 			SwingUtilities.invokeLater(() -> {
 				resetAction();
@@ -321,18 +325,22 @@ public class ArtistPanel extends JPanel {
 			LOG.debug(v);
 			List<Fichier> files = new ArrayList<>();
 			List<Composition> findByArtist = CompositionUtils.findByArtist(list, v.get(INDEX_ARTIST));
-			files.addAll(findByArtist.stream().map(Composition::getFiles).flatMap(l -> l.stream()).collect(Collectors.toList()));
-			DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600), DialogFileTable.INDEX_TITLE);
+			files.addAll(findByArtist.stream().map(Composition::getFiles).flatMap(l -> l.stream())
+					.collect(Collectors.toList()));
+			DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600),
+					DialogFileTable.INDEX_TITLE, v.get(INDEX_ARTIST), null);
 			pop.showDialogFileTable();
 			LOG.debug("End artist mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start artist right mouse");
 			// Copie dans le presse papier le nom de l'artiste
-			int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+			int rowAtPoint = target
+					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
 			if (rowAtPoint > -1) {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
-			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			StringSelection selection = new StringSelection(v.get(INDEX_ARTIST));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
@@ -354,7 +362,8 @@ public class ArtistPanel extends JPanel {
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
 
 			list = SearchUtils.search(list, criteria, true, false);
-			model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list), new Vector<>(Arrays.asList(title)));
+			model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list),
+					new Vector<>(Arrays.asList(title)));
 			updateTable();
 		}
 		LOG.debug("End search");

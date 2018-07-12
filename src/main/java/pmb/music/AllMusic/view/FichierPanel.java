@@ -73,7 +73,7 @@ public class FichierPanel extends JPanel {
 
 	private static final int MIN_HEIGHT_TABLE = 42;
 	private static final int MAX_HEIGHT_TABLE = 84;
-	
+
 	private static final int INDEX_FILE_AUTHOR = 0;
 	private static final int INDEX_FILE_FILE_NAME = 1;
 	private static final int INDEX_FILE_PUBLISH = 2;
@@ -81,9 +81,9 @@ public class FichierPanel extends JPanel {
 	private static final int INDEX_FILE_RANGE = 4;
 	private static final int INDEX_FILE_SIZE = 6;
 	private static final int INDEX_FILE_SORTED = 7;
-	
+
 	private static final int INDEX_COMPO_ARTIST = 0;
-	private static final int INDEX_COMPO_TITLE= 1;
+	private static final int INDEX_COMPO_TITLE = 1;
 	private static final int INDEX_COMPO_TYPE = 2;
 	private static final int INDEX_COMPO_RANK = 3;
 	private static final int INDEX_COMPO_SELECTED = 4;
@@ -140,6 +140,7 @@ public class FichierPanel extends JPanel {
 
 	/**
 	 * Initialise tous les composants du {@link FichierPanel}.
+	 * 
 	 * @param artistPanel le panel artiste
 	 * @param authors la liste des auteurs
 	 */
@@ -156,6 +157,7 @@ public class FichierPanel extends JPanel {
 
 	/**
 	 * Initialise les composants de recherche.
+	 * 
 	 * @param artistPanel le panel artiste
 	 * @param authors la liste des auteurs
 	 */
@@ -348,10 +350,12 @@ public class FichierPanel extends JPanel {
 			public void keyTyped(KeyEvent e) {
 				// Nothing to do
 			}
+
 			@Override
 			public void keyReleased(KeyEvent e) {
 				selectedFichierRow = PanelUtils.keyShortcutAction(e, selectedFichierRow, sortedFichierColumn);
 			}
+
 			@Override
 			public void keyPressed(KeyEvent e) {
 				// Nothing to do
@@ -410,10 +414,12 @@ public class FichierPanel extends JPanel {
 			public void keyTyped(KeyEvent e) {
 				// Nothing to do
 			}
+
 			@Override
 			public void keyReleased(KeyEvent e) {
 				selectedCompoRow = PanelUtils.keyShortcutAction(e, selectedCompoRow, sortedCompoColumn);
 			}
+
 			@Override
 			public void keyPressed(KeyEvent e) {
 				// Nothing to do
@@ -487,7 +493,8 @@ public class FichierPanel extends JPanel {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
-			StringSelection selection = new StringSelection(selectedRow.get(INDEX_COMPO_ARTIST) + " " + selectedRow.get(INDEX_COMPO_TITLE));
+			StringSelection selection = new StringSelection(
+					selectedRow.get(INDEX_COMPO_ARTIST) + " " + selectedRow.get(INDEX_COMPO_TITLE));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
@@ -547,11 +554,12 @@ public class FichierPanel extends JPanel {
 		Fichier currentFile = null;
 		try {
 			// On récupère la composition à modifier
-			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(INDEX_COMPO_ARTIST), v.get(INDEX_COMPO_TITLE),
-					v.get(INDEX_COMPO_TYPE), true);
+			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(INDEX_COMPO_ARTIST),
+					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE), true);
 			currentFile = compoToModifInTable.getFiles().get(0);
-			Optional<Composition> findByFileAndRank = CompositionUtils.findByFile(importXML, currentFile);
-			if(!findByFileAndRank.isPresent()) {
+			Optional<Composition> findByFileAndRank = CompositionUtils.findByFile(importXML, currentFile,
+					Optional.of(v.get(INDEX_COMPO_ARTIST)), Optional.of(v.get(INDEX_COMPO_TITLE)));
+			if (!findByFileAndRank.isPresent()) {
 				resultLabel.setText("Impossible de trouver la composition dans Final.xml");
 				return;
 			}
@@ -565,7 +573,8 @@ public class FichierPanel extends JPanel {
 		int indexOfXml = importXML.indexOf(compoToModifInFinal);
 		int indexOfResult = compositionList.indexOf(compoToModifInTable);
 		// Lancement de la popup de modification
-		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true, new Dimension(800, 150), v);
+		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
+				new Dimension(800, 150), v);
 		md.showDialogFileTable();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée
@@ -577,8 +586,8 @@ public class FichierPanel extends JPanel {
 		}
 		// On modifier le fichier xml en conséquence
 		try {
-			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST), v.get(INDEX_COMPO_TITLE),
-					v.get(INDEX_COMPO_TYPE));
+			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST),
+					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE));
 		} catch (MyException e1) {
 			String log = "Erreur lors de la modification d'une composition";
 			LOG.error(log, e1);
@@ -633,8 +642,7 @@ public class FichierPanel extends JPanel {
 			CollectionUtils.filter(fichiers,
 					(Object f) -> SearchUtils.evaluateFichierStrictly(publi.getText(), name.getText(),
 							auteur.getSelectedItem().toString(), cat.getSelectedItem().toString(), rangeB.getText(),
-							rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "",null,
-							f));
+							rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f));
 			updateFileTable();
 		}
 		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");
@@ -644,7 +652,8 @@ public class FichierPanel extends JPanel {
 	private void updateFileTable() {
 		LOG.debug("Start updateFileTable");
 		fichieModel.setRowCount(0);
-		fichieModel.setDataVector(FichierUtils.convertListForJTable(fichiers, false),
+		fichieModel.setDataVector(
+				FichierUtils.convertListForJTable(fichiers, false, Optional.empty(), Optional.empty()),
 				new Vector<>(Arrays.asList(headerFiles)));
 		PanelUtils.colRenderer(tableFiles, true);
 		fichieModel.fireTableDataChanged();
@@ -662,6 +671,7 @@ public class FichierPanel extends JPanel {
 
 	/**
 	 * Met à jour le tableau des compositions.
+	 * 
 	 * @param compo la liste des compositions à afficher
 	 */
 	private void updateCompoTable(List<Composition> compo) {
@@ -695,6 +705,7 @@ public class FichierPanel extends JPanel {
 	}
 
 	private void setTableSize(JPanel panel, int height) {
-		PanelUtils.setSize(panel, (int) parentSize.getWidth(), Math.floorDiv(height * (int) parentSize.getHeight(), 100));
+		PanelUtils.setSize(panel, (int) parentSize.getWidth(),
+				Math.floorDiv(height * (int) parentSize.getHeight(), 100));
 	}
 }
