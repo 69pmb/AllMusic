@@ -771,4 +771,24 @@ public class AppTest {
 		Double apply = jaro.apply(s1, s2);
 		LOG.debug("Key : " + s1 + " Value : " + s2 + " " + apply);
 	}
+
+	@Test
+	public void panelArtist() {
+		List<Composition> list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put(SearchUtils.CRITERIA_ARTIST, "prince");
+		List<Composition> search = SearchUtils.search(list, criteria, false, false);
+		Map<String, List<Composition>> groupByArtist = CompositionUtils.groupCompositionByArtist(search);
+		LOG.debug("panelArtist");
+		groupByArtist.entrySet().stream()
+				.forEach(e -> LOG.debug(e.getKey() + " / "
+						+ StringUtils.join(e.getValue().stream().map(c -> c.getArtist() + " - " + c.getTitre())
+								.collect(Collectors.toList()), ",")
+						+ " / " + e.getValue().stream().mapToInt(c -> c.getFiles().size()).sum() + " / "
+						+ e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
+								.mapToInt(c -> c.getFiles().size()).sum()
+						+ " / " + e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
+								.mapToInt(c -> c.getFiles().size()).sum()));
+		LOG.debug("panelArtist");
+	}
 }
