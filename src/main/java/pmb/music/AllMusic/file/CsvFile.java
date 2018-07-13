@@ -36,10 +36,10 @@ public class CsvFile {
 	 */
 	public static String exportCsv(String filename, List<List<String>> csv, SortKey sortKey, String[] header) {
 		LOG.debug("Start exportCsv");
-		if (sortKey != null) {
+		if (sortKey != null && !csv.isEmpty()) {
 			LOG.debug("Sorting");
 			// Sorting
-			List<String> list = csv.get(1);
+			List<String> list = csv.get(0);
 			List<Integer> intColumn = new ArrayList<>();
 			for (int i = 0; i < list.size(); i++) {
 				String item = list.get(i);
