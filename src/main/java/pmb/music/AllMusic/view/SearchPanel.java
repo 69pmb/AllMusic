@@ -56,7 +56,6 @@ import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
-import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.utils.CompositionUtils;
@@ -627,12 +626,11 @@ public class SearchPanel extends JPanel {
 			JTable target = (JTable) e.getSource();
 			Vector<String> v = (Vector<String>) ((CompoSearchPanelModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-			List<Fichier> files;
 			try {
-				files = CompositionUtils.findByArtistTitreAndType(compoResult, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
-						v.get(INDEX_TYPE), true).getFiles();
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 400),
-						DialogFileTable.INDEX_TITLE, v.get(INDEX_ARTIST), v.get(INDEX_TITRE));
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
+						Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult, v.get(INDEX_ARTIST),
+								v.get(INDEX_TITRE), v.get(INDEX_TYPE), true)),
+						new Dimension(1500, 400), DialogFileTable.INDEX_TITLE);
 				pop.showDialogFileTable();
 			} catch (MyException e1) {
 				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
