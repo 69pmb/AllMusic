@@ -34,6 +34,7 @@ import pmb.music.AllMusic.model.Fichier;
 
 /**
  * Classe utilitaire pour la gestion des {@link Fichier}.
+ * 
  */
 public class FichierUtils {
 
@@ -43,52 +44,49 @@ public class FichierUtils {
 	}
 
 	/**
-	 * Convertit une liste de {@link Fichier} en {@link Vector}.
+	 * Convertit une liste de {@link Composition} en {@link Vector<Vector<Object>>} de Fichier.
 	 * 
-	 * @param fList {@code List<Fichier>} la liste à convertir
-	 * @param getComposition si vrai récupère la composition associée pour chaque fichier
+	 * @param compoList {@code List<Composition>} la liste à convertir
+	 * @param getComposition si vrai récupère la composition associée pour chaque
+	 *            fichier
 	 * @return Vector<Vector<Object>> la liste convertie
 	 */
-	@SuppressWarnings("rawtypes")
-	public static Vector convertListForJTable(List<Fichier> fList, boolean getComposition, Optional<String> artist, Optional<String> titre) {
+	public static Vector<Vector<Object>> convertCompositionListToFichierVector(List<Composition> compoList,
+			boolean getComposition) {
 		LOG.debug("Start convertListForJTable");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
-		for (int i = 0; i < fList.size(); i++) {
-			Fichier f = fList.get(i);
-			Vector<Object> v = new Vector<>();
-			if (getComposition) {
-				List<Composition> compo = ImportXML
-						.importXML(Constant.XML_PATH + f.getFileName() + Constant.XML_EXTENSION);
-				Optional<Composition> c = CompositionUtils.findByFile(compo, f, artist, titre);
-				if (c.isPresent()) {
-					v.addElement(c.get().getArtist());
-					v.addElement(c.get().getTitre());
-					v.addElement(c.get().getRecordType().toString());
-				} else {
-					v.addElement("");
+		for (Composition c : compoList) {
+			for (Fichier f : c.getFiles()) {
+				Vector<Object> v = new Vector<>();
+				if (getComposition) {
+					v.addElement(c.getArtist());
+					v.addElement(c.getTitre());
+					v.addElement(c.getRecordType().toString());
 				}
+				v.addElement(f.getAuthor());
+				v.addElement(f.getFileName());
+				v.addElement(f.getPublishYear());
+				v.addElement(f.getCategorie().toString());
+				v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
+				if (!getComposition) {
+					v.addElement(new Constant().getSdfDttm().format(f.getCreationDate()));
+				}
+				v.addElement(f.getSize());
+				if (getComposition) {
+					v.addElement(f.getClassement());
+				}
+				v.addElement(f.getSorted() ? "Oui" : "Non");
+				result.add(v);
 			}
-			v.addElement(f.getAuthor());
-			v.addElement(f.getFileName());
-			v.addElement(f.getPublishYear());
-			v.addElement(f.getCategorie().toString());
-			v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
-			if (!getComposition) {
-				v.addElement(new Constant().getSdfDttm().format(f.getCreationDate()));
-			}
-			v.addElement(f.getSize());
-			if (getComposition) {
-				v.addElement(f.getClassement());
-			}
-			v.addElement(f.getSorted() ? "Oui" : "Non");
-			result.add(v);
 		}
 		LOG.debug("End convertListForJTable");
 		return result;
 	}
 
 	/**
-	 * Modifie un fichier, dans le fichier final.xml, dans son fichier xml et renomme si besoin les fichiers XML et TXT.
+	 * Modifie un fichier, dans le fichier final.xml, dans son fichier xml et
+	 * renomme si besoin les fichiers XML et TXT.
+	 * 
 	 * @param fileName l'ancien nom du fichier
 	 * @param newFileName le nouveau nom du fichier
 	 * @param newPublish la nouvelle date de publication
@@ -129,8 +127,8 @@ public class FichierUtils {
 		}
 		// Renomme le fichier txt
 		String txtPath = buildTxtFilePath(fileName, result.getAuthor()).get();
-		String newTxt = StringUtils.substringBeforeLast(
-				StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), FileUtils.FS)
+		String newTxt = StringUtils
+				.substringBeforeLast(StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), FileUtils.FS)
 				+ FileUtils.FS + newFileName + Constant.TXT_EXTENSION;
 		renameFile(txtPath, newTxt);
 		return result;
@@ -168,9 +166,10 @@ public class FichierUtils {
 	public static void renameFile(String source, String destination) {
 		new File(source).renameTo(new File(destination));
 	}
-	
+
 	/**
 	 * Récupère la liste des fichiers d'un dossier.
+	 * 
 	 * @param folder le dossier où chercher
 	 * @param files la liste qui contiendra les résultats
 	 * @param extension l'extension des fichiers à chercher
@@ -192,6 +191,7 @@ public class FichierUtils {
 
 	/**
 	 * Ouvre le fichier donnée avec Notepad++ si existe.
+	 * 
 	 * @param filePath le chemin absolu du fichier
 	 * @throws MyException something went wrong
 	 */
@@ -226,11 +226,13 @@ public class FichierUtils {
 			writer.flush();
 		}
 	}
-	
+
 	/**
 	 * Reconstruit le chemin absolu du fichier txt (du dossier Music) donnée.
+	 * 
 	 * @param fileName le nom du fichier
-	 * @param auteur l'auteur du fichier (pour connaitre le nom du dossier du fichier)
+	 * @param auteur l'auteur du fichier (pour connaitre le nom du dossier du
+	 *            fichier)
 	 * @return le chemin absolu du fichier
 	 */
 	public static Optional<String> buildTxtFilePath(String fileName, String auteur) {
@@ -254,7 +256,8 @@ public class FichierUtils {
 
 	/**
 	 * Retourne la première ligne du fichier donné.
-	 * @param file le fichier 
+	 * 
+	 * @param file le fichier
 	 * @return la 1ère ligne
 	 */
 	public static String getFirstLine(File file) {
@@ -271,7 +274,8 @@ public class FichierUtils {
 	}
 
 	/**
-	 * Write (or overwrite if already present) import parameters in txt file. 
+	 * Write (or overwrite if already present) import parameters in txt file.
+	 * 
 	 * @param file the file in which paramaters are written
 	 * @param map a map of paramaters
 	 */
@@ -318,6 +322,7 @@ public class FichierUtils {
 
 	/**
 	 * Renomme le fichier de log si il n'est pas vide.
+	 * 
 	 * @return le nouveau nom du fichier de log.
 	 */
 	public static Optional<String> saveLogFileIfNotEmpty() {
@@ -325,7 +330,7 @@ public class FichierUtils {
 		Optional<String> line = readFileFirstLine(Constant.FILE_LOG_PATH);
 		if (line.isPresent() && StringUtils.isNotBlank(line.get())) {
 			newFileLog = Constant.FILE_LOG_PATH + Constant.SEPARATOR_DATE_HISTORY + MiscUtils.dateNow()
-			+ Constant.TXT_EXTENSION;
+					+ Constant.TXT_EXTENSION;
 			try {
 				copyFileInAnother(Constant.FILE_LOG_PATH, newFileLog);
 			} catch (IOException e) {

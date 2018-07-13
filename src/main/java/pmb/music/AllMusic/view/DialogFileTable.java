@@ -47,7 +47,7 @@ public class DialogFileTable extends JDialog {
 
 	private static final Logger LOG = Logger.getLogger(DialogFileTable.class);
 
-	private List<Fichier> files = new ArrayList<>();
+	private List<Composition> compoList = new ArrayList<>();
 
 	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
 			"Date de publication", "Categorie", "Dates", "Taille", "Classement", "Classé" };
@@ -60,8 +60,6 @@ public class DialogFileTable extends JDialog {
 
 	private JTable fichiers;
 	private int defaultSort;
-	private String artistCompo;
-	private String titreCompo;
 
 	/**
 	 * Constructeur de {@link DialogFileTable}.
@@ -69,21 +67,20 @@ public class DialogFileTable extends JDialog {
 	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
-	 * @param files {@code List<Fichier>} la liste des fichier à afficher
+	 * @param compoList {@code List<Composition>} la liste des compositions dont les
+	 *            fichiers seront affichés
 	 * @param dim {@link Dimension} les dimension de la popup
 	 * @param defaultSort the index of the sorted column at start
 	 */
-	public DialogFileTable(JFrame parent, String header, boolean modal, List<Fichier> files, Dimension dim,
-			int defaultSort, String artistCompo, String titreCompo) {
+	public DialogFileTable(JFrame parent, String header, boolean modal, List<Composition> compoList, Dimension dim,
+			int defaultSort) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-		this.files = files;
+		this.compoList = compoList;
 		this.defaultSort = defaultSort;
-		this.artistCompo = artistCompo;
-		this.titreCompo = titreCompo;
 		this.setResizable(true);
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
@@ -106,8 +103,8 @@ public class DialogFileTable extends JDialog {
 		fichiers.setBackground(UIManager.getColor("Label.background"));
 		fichiers.setFont(UIManager.getFont("Label.font"));
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
-		fichiers.setModel(new FichierDialogModel(FichierUtils.convertListForJTable(files, true,
-				Optional.ofNullable(artistCompo), Optional.ofNullable(titreCompo)), new Vector(Arrays.asList(header))));
+		fichiers.setModel(new FichierDialogModel(FichierUtils.convertCompositionListToFichierVector(compoList, true),
+				new Vector(Arrays.asList(header))));
 		fichiers.getRowSorter().toggleSortOrder(defaultSort);
 
 		fichiers.addMouseListener(pasteFichierListener());

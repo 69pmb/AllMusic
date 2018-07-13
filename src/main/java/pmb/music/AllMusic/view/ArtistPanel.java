@@ -287,6 +287,7 @@ public class ArtistPanel extends JPanel {
 		updateArtistThread = new Thread(() -> {
 			LOG.debug("Start ThreadUpdateArtist");
 			data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.FINAL_FILE_PATH));
+			searchResult = data;
 
 			SwingUtilities.invokeLater(() -> {
 				resetAction();
@@ -323,17 +324,13 @@ public class ArtistPanel extends JPanel {
 			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			LOG.debug(v);
-			List<Fichier> files = new ArrayList<>();
 			Optional<String> key = CompositionUtils.findArtistKey(searchResult, new JaroWinklerDistance(),
 					v.get(INDEX_ARTIST));
 			if (!key.isPresent()) {
 				LOG.error("Error when searching: " + v.get(INDEX_ARTIST) + " in data table");
 			} else {
-				List<Composition> findByArtist = searchResult.get(key.get());
-				files.addAll(findByArtist.stream().map(Composition::getFiles).flatMap(l -> l.stream())
-						.collect(Collectors.toList()));
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600),
-						DialogFileTable.INDEX_TITLE, v.get(INDEX_ARTIST), null);
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, searchResult.get(key.get()),
+						new Dimension(1500, 600), DialogFileTable.INDEX_TITLE);
 				pop.showDialogFileTable();
 			}
 			LOG.debug("End artist mouse");
