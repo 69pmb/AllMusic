@@ -640,7 +640,7 @@ public class FichierPanel extends JPanel {
 						.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
 		if (CollectionUtils.isNotEmpty(fichiers)) {
 			CollectionUtils.filter(fichiers,
-					(Object f) -> SearchUtils.evaluateFichierStrictly(publi.getText(), name.getText(),
+					(Object f) -> SearchUtils.evaluateFichierContains(publi.getText(), name.getText(),
 							auteur.getSelectedItem().toString(), cat.getSelectedItem().toString(), rangeB.getText(),
 							rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f));
 			updateFileTable();

@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
@@ -188,65 +189,14 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Convertit une liste de compositions en vecteur pour l'onglet artist. On
-	 * compte pour chaque artiste le nombre de chanson et d'album enregistrés
+	 * Group by artist the given list of compositions.
 	 * 
-	 * @param compoList {@code List<Composition>} la liste de compo
-	 * @return {@code Vector<Vector<Object>>} le resultat
+	 * @param compoList {@code List<Composition>} a compositions list
+	 * @return {@code Map<String, List<Composition>>}, {@code key}: the artist,
+	 *         {@code value}: a list of composition of the artist
 	 */
-	public static Vector<Vector<Object>> convertCompositionListToArtistVector(List<Composition> compoList) {
-		LOG.debug("Start convertCompositionListToArtistVector");
-		Vector<Vector<Object>> temp = new Vector<Vector<Object>>();
-		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
-		for (int i = 0; i < compoList.size(); i++) {
-			if (Thread.currentThread().isInterrupted()) {
-				LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
-				return result;
-			}
-			Composition composition = compoList.get(i);
-			Vector<Object> v = new Vector<>();
-			v.addElement(composition.getArtist());
-			v.addElement(composition.getFiles().size());
-			if (composition.getRecordType().equals(RecordType.ALBUM)) {
-				v.addElement(composition.getFiles().size());
-			} else {
-				v.addElement(0);
-			}
-			if (composition.getRecordType().equals(RecordType.SONG)) {
-				v.addElement(composition.getFiles().size());
-			} else {
-				v.addElement(0);
-			}
-			temp.addElement(v);
-		}
-		LOG.debug("Fin tmp");
-		JaroWinklerDistance jaro = new JaroWinklerDistance();
-		for (Vector<Object> v : temp) {
-			boolean res = false;
-			for (int i = 0; i < result.size(); i++) {
-				if (Thread.currentThread().isInterrupted()) {
-					LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
-					return result;
-				}
-				if (artistJaroEquals((String) v.get(0), (String) result.get(i).get(0), jaro,
-						Constant.SCORE_LIMIT_ARTIST_FUSION) != null) {
-					result.get(i).set(1, (int) result.get(i).get(1) + (int) v.get(1));
-					result.get(i).set(2, (int) result.get(i).get(2) + (int) v.get(2));
-					result.get(i).set(3, (int) result.get(i).get(3) + (int) v.get(3));
-					res = true;
-					break;
-				}
-			}
-			if (!res) {
-				result.add(v);
-			}
-		}
-		LOG.debug("End convertCompositionListToArtistVector");
-		return result;
-	}
-
 	public static Map<String, List<Composition>> groupCompositionByArtist(List<Composition> compoList) {
-		LOG.debug("Start convertCompositionListToArtistVector");
+		LOG.debug("Start groupCompositionByArtist");
 		Map<String, List<Composition>> result = new HashMap<>();
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		for (Composition c : compoList) {
@@ -254,9 +204,7 @@ public class CompositionUtils {
 				LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
 				return result;
 			}
-			Optional<String> foundArtist = result.keySet().stream().filter(
-					key -> artistJaroEquals(key, c.getArtist(), jaro, Constant.SCORE_LIMIT_ARTIST_FUSION) != null)
-					.findFirst();
+			Optional<String> foundArtist = findArtistKey(result, jaro, c.getArtist());
 			if (foundArtist.isPresent()) {
 				// If the artist already exist in the map result
 				List<Composition> list = result.get(foundArtist.get());
@@ -267,8 +215,51 @@ public class CompositionUtils {
 				result.put(c.getArtist(), new ArrayList<Composition>(Arrays.asList(c)));
 			}
 		}
-		LOG.debug("End convertCompositionListToArtistVector");
+		LOG.debug("End groupCompositionByArtist");
 		return result;
+	}
+
+	/**
+	 * For a {@code Map<String, List<Composition>>} with the keys consisting of
+	 * artist, finds the first similar key inside the keySet.
+	 * 
+	 * @param map the map to search into its keySet.
+	 * @param jaro a instance of {@link JaroWinklerDistance}
+	 * @param artist the artist to search
+	 * @return an Optional of the key found
+	 */
+	public static Optional<String> findArtistKey(Map<String, List<Composition>> map, JaroWinklerDistance jaro,
+			String artist) {
+		return map.keySet().stream().parallel()
+				.filter(key -> artistJaroEquals(key, artist, jaro, Constant.SCORE_LIMIT_ARTIST_FUSION) != null)
+				.findFirst();
+	}
+
+	/**
+	 * Converts a map to Vector, counting the number of occurences for each artist
+	 * by total, album and song.
+	 * 
+	 * @param map {@code Map<String, List<Composition>>} with key an artist and
+	 *            value its compositions
+	 * @return {@code Vector<Vector<Object>>} with 1st column the artist, 2nd total
+	 *         occurences, 3th by album and 4th by song
+	 */
+	public static Vector<Vector<Object>> convertArtistPanelResultToVector(Map<String, List<Composition>> map) {
+		LOG.debug("convertArtistPanelResultToVector");
+		return map.entrySet().stream().map(e -> {
+			Vector<Object> v = new Vector<>();
+			v.addElement(e.getKey());
+			v.addElement(e.getValue().stream().mapToInt(c -> c.getFiles().size()).sum());
+			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
+					.mapToInt(c -> c.getFiles().size()).sum());
+			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
+					.mapToInt(c -> c.getFiles().size()).sum());
+			return v;
+		}).collect(Collector.of(() -> new Vector<Vector<Object>>(),
+				(result, newElement) -> result.addElement(newElement), (result1, result2) -> {
+					result1.addAll(result2);
+					return result1;
+				}, Collector.Characteristics.CONCURRENT));
 	}
 
 	/**
