@@ -23,6 +23,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
@@ -44,8 +45,8 @@ import javax.swing.event.RowSorterListener;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
@@ -85,7 +86,8 @@ public class ArtistPanel extends JPanel {
 
 	private final ArtistModel model;
 
-	private List<Composition> list;
+	private Map<String, List<Composition>> data;
+	private Map<String, List<Composition>> searchResult;
 
 	private static final String[] title = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
 
@@ -284,14 +286,13 @@ public class ArtistPanel extends JPanel {
 	private void startUpdateArtistThread() {
 		updateArtistThread = new Thread(() -> {
 			LOG.debug("Start ThreadUpdateArtist");
-			list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-			Vector<Vector<Object>> convertCompositionListToArtistVector = CompositionUtils
-					.convertCompositionListToArtistVector(list);
+			data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.FINAL_FILE_PATH));
 
 			SwingUtilities.invokeLater(() -> {
 				resetAction();
 				model.setRowCount(0);
-				model.setDataVector(convertCompositionListToArtistVector, new Vector<>(Arrays.asList(title)));
+				model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(data),
+						new Vector<>(Arrays.asList(title)));
 				updateTable();
 			});
 			LOG.debug("End ThreadUpdateArtist");
@@ -323,12 +324,18 @@ public class ArtistPanel extends JPanel {
 					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			LOG.debug(v);
 			List<Fichier> files = new ArrayList<>();
-			List<Composition> findByArtist = CompositionUtils.findByArtist(list, v.get(INDEX_ARTIST));
-			files.addAll(findByArtist.stream().map(Composition::getFiles).flatMap(l -> l.stream())
-					.collect(Collectors.toList()));
-			DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600),
-					DialogFileTable.INDEX_TITLE, v.get(INDEX_ARTIST), null);
-			pop.showDialogFileTable();
+			Optional<String> key = CompositionUtils.findArtistKey(searchResult, new JaroWinklerDistance(),
+					v.get(INDEX_ARTIST));
+			if (!key.isPresent()) {
+				LOG.error("Error when searching: " + v.get(INDEX_ARTIST) + " in data table");
+			} else {
+				List<Composition> findByArtist = searchResult.get(key.get());
+				files.addAll(findByArtist.stream().map(Composition::getFiles).flatMap(l -> l.stream())
+						.collect(Collectors.toList()));
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, files, new Dimension(1500, 600),
+						DialogFileTable.INDEX_TITLE, v.get(INDEX_ARTIST), null);
+				pop.showDialogFileTable();
+			}
 			LOG.debug("End artist mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start artist right mouse");
@@ -349,19 +356,27 @@ public class ArtistPanel extends JPanel {
 
 	private void searchAction() {
 		LOG.debug("Start search");
-		list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-		if (CollectionUtils.isNotEmpty(list)) {
-			Map<String, String> criteria = new HashMap<>();
-			criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
-			if (cat.getSelectedItem() != null) {
-				criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItem().toString());
+		if (!data.isEmpty()) {
+			searchResult = new HashMap<>();
+			for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
+				for (Composition c : entry.getValue()) {
+					List<Fichier> files = c.getFiles().stream()
+							.filter(f -> SearchUtils.evaluateFichierStrictly(publi.getText(), null, auteur.getText(),
+									cat.getSelectedItem() != null ? cat.getSelectedItem().toString() : null,
+									rangeB.getText(), rangeE.getText(), f))
+							.collect(Collectors.toList());
+					if (!files.isEmpty()) {
+						Composition newCompo = new Composition(c);
+						newCompo.setFiles(files);
+						if (!searchResult.containsKey(entry.getKey())) {
+							searchResult.put(entry.getKey(), new ArrayList<>(Arrays.asList(newCompo)));
+						} else {
+							searchResult.get(entry.getKey()).add(newCompo);
+						}
+					}
+				}
 			}
-			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
-			criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
-			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
-
-			list = SearchUtils.search(list, criteria, true, false);
-			model.setDataVector(CompositionUtils.convertCompositionListToArtistVector(list),
+			model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(searchResult),
 					new Vector<>(Arrays.asList(title)));
 			updateTable();
 		}

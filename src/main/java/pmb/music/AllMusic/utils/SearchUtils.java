@@ -115,7 +115,7 @@ public class SearchUtils {
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (searchFile && CollectionUtils.isNotEmpty(files) && result) {
-			CollectionUtils.filter(files, (Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB,
+			CollectionUtils.filter(files, (Object f) -> evaluateFichierContains(publish, fileName, auteur, cat, dateB,
 					dateE, sorted, topTen, f));
 		}
 		if (searchInFiles) {
@@ -187,12 +187,12 @@ public class SearchUtils {
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (searchFile && CollectionUtils.isNotEmpty(files)) {
 			CollectionUtils.filter(files,
-					(Object f) -> evaluateFichierContains(publish, fileName, auteur, cat, dateB, dateE, f));
+					(Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, f));
 		}
 		return result && CollectionUtils.isNotEmpty(files);
 	}
 
-	private static boolean evaluateFichierContains(final String publish, final String fileName, final String auteur,
+	public static boolean evaluateFichierStrictly(final String publish, final String fileName, final String auteur,
 			final String cat, final String dateB, final String dateE, Object f) {
 		Fichier fi = (Fichier) f;
 		boolean result = true;
@@ -200,25 +200,25 @@ public class SearchUtils {
 		if (StringUtils.isNotBlank(publish)) {
 			result = result && fi.getPublishYear() == Integer.parseInt(publish);
 		}
-		if (StringUtils.isNotBlank(fileName)) {
+		if (result && StringUtils.isNotBlank(fileName)) {
 			result = result && StringUtils.equalsIgnoreCase(fi.getFileName(), fileName);
 		}
-		if (StringUtils.isNotBlank(auteur)) {
+		if (result && StringUtils.isNotBlank(auteur)) {
 			result = result && StringUtils.equalsIgnoreCase(fi.getAuthor(), auteur);
 		}
-		if (StringUtils.isNotBlank(cat)) {
+		if (result && StringUtils.isNotBlank(cat)) {
 			result = result && fi.getCategorie() == Cat.valueOf(cat);
 		}
-		if (StringUtils.isNotBlank(dateB)) {
+		if (result && StringUtils.isNotBlank(dateB)) {
 			result = result && fi.getRangeDateBegin() == Integer.parseInt(dateB);
 		}
-		if (StringUtils.isNotBlank(dateE)) {
+		if (result && StringUtils.isNotBlank(dateE)) {
 			result = result && fi.getRangeDateEnd() == Integer.parseInt(dateE);
 		}
 		return result;
 	}
 
-	public static boolean evaluateFichierStrictly(final String publish, final String fileName, final String auteur,
+	public static boolean evaluateFichierContains(final String publish, final String fileName, final String auteur,
 			final String cat, final String dateB, final String dateE, final String sorted, final String topTen,
 			Object f) {
 		Fichier fi = (Fichier) f;
@@ -227,25 +227,25 @@ public class SearchUtils {
 		if (StringUtils.isNotBlank(publish)) {
 			result = result && fi.getPublishYear() == Integer.parseInt(publish);
 		}
-		if (StringUtils.isNotBlank(fileName)) {
+		if (result && StringUtils.isNotBlank(fileName)) {
 			result = result && StringUtils.containsIgnoreCase(fi.getFileName(), fileName);
 		}
-		if (StringUtils.isNotBlank(auteur)) {
+		if (result && StringUtils.isNotBlank(auteur)) {
 			result = result && StringUtils.containsIgnoreCase(fi.getAuthor(), auteur);
 		}
-		if (StringUtils.isNotBlank(cat)) {
+		if (result && StringUtils.isNotBlank(cat)) {
 			result = result && fi.getCategorie() == Cat.valueOf(cat);
 		}
-		if (StringUtils.isNotBlank(dateB)) {
+		if (result && StringUtils.isNotBlank(dateB)) {
 			result = result && fi.getRangeDateBegin() >= Integer.parseInt(dateB);
 		}
-		if (StringUtils.isNotBlank(dateE)) {
+		if (result && StringUtils.isNotBlank(dateE)) {
 			result = result && fi.getRangeDateEnd() <= Integer.parseInt(dateE);
 		}
-		if (StringUtils.isNotBlank(sorted)) {
+		if (result && StringUtils.isNotBlank(sorted)) {
 			result = result && BooleanUtils.toBoolean(sorted) == fi.getSorted();
 		}
-		if (StringUtils.isNotBlank(topTen) && BooleanUtils.toBoolean(topTen)) {
+		if (result && StringUtils.isNotBlank(topTen) && BooleanUtils.toBoolean(topTen)) {
 			result = result && fi.getClassement() <= 10 && fi.getSorted();
 		}
 		return result;
