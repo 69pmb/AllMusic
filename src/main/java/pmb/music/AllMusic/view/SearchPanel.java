@@ -99,7 +99,7 @@ public class SearchPanel extends JPanel {
 
 	private List<Composition> compoResult = new ArrayList<>();
 
-	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "","" };
+	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "", "" };
 
 	private static final int INDEX_ARTIST = 0;
 	private static final int INDEX_TITRE = 1;
@@ -422,7 +422,7 @@ public class SearchPanel extends JPanel {
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 		searchFields.add(sortedPanel);
-		
+
 		// Deleted
 		JPanel deletedPanel = new JPanel();
 		deletedPanel.setPreferredSize(new Dimension(200, 25));
@@ -500,7 +500,8 @@ public class SearchPanel extends JPanel {
 			}
 
 			compoResult = new ArrayList<>();
-			compoResult.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(), false, deleted.isSelected()));
+			compoResult
+					.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(), false, deleted.isSelected()));
 			updateTable();
 		}
 		LOG.debug("End searchAction");
@@ -588,20 +589,12 @@ public class SearchPanel extends JPanel {
 		}
 		int indexOfXml = importXML.indexOf(toModif);
 		int indexOfResult = SearchUtils.indexOf(compoResult, toModif);
-		// On modifier les fichiers xml en conséquence
-		try {
-			CompositionUtils.modifyCompositionsInFiles(toModif, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
-					v.get(INDEX_TYPE));
-		} catch (MyException e1) {
-			String log = "Erreur lors de la modification d'une composition";
-			LOG.error(log, e1);
-			deleteLabel.setText(log + e1);
-			return;
-		}
+
+		// Modification du fichier final
+		boolean isDeleted = false;
 		toModif.setArtist(v.get(INDEX_ARTIST));
 		toModif.setTitre(v.get(INDEX_TITRE));
 		toModif.setRecordType(RecordType.valueOf(v.get(INDEX_TYPE)));
-
 		importXML.remove(indexOfXml);
 		compoResult.remove(indexOfResult);
 		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);
@@ -612,10 +605,13 @@ public class SearchPanel extends JPanel {
 		} else {
 			LOG.debug("La compo existe déjà, on regroupe");
 			compoExist.getFiles().addAll(toModif.getFiles());
+			isDeleted = compoExist.isDeleted() || toModif.isDeleted();
+			// Liste des compositions affichées
 			Composition compoExistResult = CompositionUtils.compoExist(compoResult, toModif);
 			if (compoExistResult != null) {
 				// La compo apparait bien dans les resultats de recherche
 				compoExistResult.getFiles().addAll(toModif.getFiles());
+				compoExistResult.setDeleted(isDeleted);
 			}
 		}
 		try {
@@ -625,6 +621,18 @@ public class SearchPanel extends JPanel {
 			String log = "Erreur lors de l'export du fichier final !!";
 			LOG.error(log, e1);
 			label = log;
+		}
+
+		// On modifier les fichiers xml en conséquence
+		try {
+			toModif.setDeleted(isDeleted);
+			CompositionUtils.modifyCompositionsInFiles(toModif, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
+					v.get(INDEX_TYPE));
+		} catch (MyException e1) {
+			String log = "Erreur lors de la modification d'une composition";
+			LOG.error(log, e1);
+			deleteLabel.setText(log + e1);
+			return;
 		}
 		deleteLabel.setText(label);
 		updateTable();
