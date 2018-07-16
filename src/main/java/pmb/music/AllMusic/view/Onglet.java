@@ -54,13 +54,13 @@ public class Onglet extends JPanel {
 		FichierPanel fichier = new FichierPanel();
 		BatchPanel batch = new BatchPanel(score);
         
-		onglets.addTab(Constant.ONGLET_IMPORT, importFile);
-        onglets.setMnemonicAt(0, KeyEvent.VK_1);
 		onglets.addTab(Constant.ONGLET_SEARCH, search);
-        onglets.setMnemonicAt(1, KeyEvent.VK_2);
+		onglets.setMnemonicAt(0, KeyEvent.VK_1);
 		onglets.addTab(Constant.ONGLET_ARTIST, artist);
-        onglets.setMnemonicAt(2, KeyEvent.VK_3);
+		onglets.setMnemonicAt(1, KeyEvent.VK_2);
         onglets.addTab(Constant.ONGLET_FICHIER, fichier);
+        onglets.setMnemonicAt(2, KeyEvent.VK_3);
+        onglets.addTab(Constant.ONGLET_IMPORT, importFile);
         onglets.setMnemonicAt(3, KeyEvent.VK_4);
         onglets.addTab(Constant.ONGLET_BATCH, batch);
         onglets.setMnemonicAt(4, KeyEvent.VK_5);
