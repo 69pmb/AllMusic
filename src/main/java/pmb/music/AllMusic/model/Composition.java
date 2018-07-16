@@ -43,6 +43,7 @@ public class Composition implements Serializable {
 		this.files = compo.getFiles();
 		this.titre = compo.getTitre();
 		this.recordType = compo.getRecordType();
+		this.deleted = compo.isDeleted();
 	}
 
 	public Composition() {

@@ -70,9 +70,9 @@ public final class ImportXML {
 	}
 
 	/**
-	 * Fusionne tous les fichiers à l'endroit indiqué dans {@code final.xml}.
-	 * Export le fichier final (et crée une sauvegarde de ce fichier dans
-	 * history) et renvoie la liste de Composition.
+	 * Fusionne tous les fichiers à l'endroit indiqué dans {@code final.xml}. Export
+	 * le fichier final (et crée une sauvegarde de ce fichier dans history) et
+	 * renvoie la liste de Composition.
 	 * 
 	 * @param dirName le dossier où se situe les fichiers
 	 * @param resultLabel {@link JTextArea} la zone de texte pour afficher
@@ -89,7 +89,8 @@ public final class ImportXML {
 		List<Composition> compoFusionSong = new ArrayList<>(); // Contiendra toutes les compositions de chanson
 		List<Composition> compoFusionAlbum = new ArrayList<>(); // Contiendra toutes les compositions d'album
 		for (File fileXML : files) {
-			// On récupère les compositions de chaque fichier xml, excepté le fichier final.xml
+			// On récupère les compositions de chaque fichier xml, excepté le fichier
+			// final.xml
 			if (!Constant.FINAL_FILE.equalsIgnoreCase(fileXML.getName())) {
 				List<Composition> importXML = ImportXML.importXML(fileXML.getAbsolutePath());
 				if (RecordType.ALBUM.equals(importXML.get(0).getRecordType())) {
@@ -115,20 +116,20 @@ public final class ImportXML {
 		return compoFinal;
 	}
 
-	private static List<Composition> fusion(final JTextArea resultLabel, List<Composition> compoFusion, List<Composition> compoFinal, int i, int modulo,
-			BigDecimal sizeBG) {
+	private static List<Composition> fusion(final JTextArea resultLabel, List<Composition> compoFusion,
+			List<Composition> compoFinal, int i, int modulo, BigDecimal sizeBG) {
 		for (Composition compo : compoFusion) {
 			Composition compoExist = CompositionUtils.compoExist(compoFinal, compo);
 			if (compoExist == null) {
 				compoFinal.add(compo);
 			} else {
 				compoExist.getFiles().addAll(compo.getFiles());
+				compoExist.setDeleted(compoExist.isDeleted() || compo.isDeleted());
 			}
 			if (i % modulo == 0) {
 				// Affiche dans l'ihm le pourcentage du calcul de fusion
-				updateResultLabel(
-						Arrays.asList("Fusion à "
-								+ BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(i)).divide(sizeBG, RoundingMode.HALF_UP).doubleValue() + "%"),
+				updateResultLabel(Arrays.asList("Fusion à " + BigDecimal.valueOf(100D).setScale(2)
+						.multiply(new BigDecimal(i)).divide(sizeBG, RoundingMode.HALF_UP).doubleValue() + "%"),
 						resultLabel);
 			}
 			i++;

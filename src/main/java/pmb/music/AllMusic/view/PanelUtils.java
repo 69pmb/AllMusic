@@ -140,7 +140,7 @@ public class PanelUtils {
 						v.get(2), true);
 				Composition toRemoveToTable = CompositionUtils.findByArtistTitreAndType(compoList, v.get(0), v.get(1),
 						v.get(2), true);
-				compoList.remove(compoList.indexOf(toRemoveToTable));
+				compoList.get(compoList.indexOf(toRemoveToTable)).setDeleted(true);
 				importXML.get(importXML.indexOf(toRemoveToFinal)).setDeleted(true);
 				CompositionUtils.removeCompositionsInFiles(toRemoveToFinal);
 			} catch (MyException e1) {
