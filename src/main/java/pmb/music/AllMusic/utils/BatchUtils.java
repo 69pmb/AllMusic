@@ -540,6 +540,11 @@ public class BatchUtils {
 		Composition c1 = importXML.get(index1);
 		List<Fichier> files1 = c1.getFiles();
 		Composition c2 = importXML.get(index2);
+		
+		boolean isDeleted = c1.isDeleted() || c2.isDeleted();
+		c1.setDeleted(isDeleted);
+		c2.setDeleted(isDeleted);
+		
 		addLine(result, "i: " + index1, true);
 		addLine(result, "j: " + index2, true);
 		addLine(result, "c1: " + c1, true);

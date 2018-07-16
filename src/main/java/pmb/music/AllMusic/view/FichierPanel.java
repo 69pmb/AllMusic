@@ -87,6 +87,7 @@ public class FichierPanel extends JPanel {
 	private static final int INDEX_COMPO_TYPE = 2;
 	private static final int INDEX_COMPO_RANK = 3;
 	private static final int INDEX_COMPO_SELECTED = 4;
+	private static final int INDEX_COMPO_DELETED = 5;
 
 	private JComboBox<String> auteur;
 	private JTextField name;
@@ -95,6 +96,7 @@ public class FichierPanel extends JPanel {
 	private JTextField rangeE;
 	private JComboBox<String> cat;
 	private JCheckBox sorted;
+	private JCheckBox deleted;
 	private JButton search;
 	private JButton reset;
 	private JLabel resultLabel;
@@ -125,7 +127,7 @@ public class FichierPanel extends JPanel {
 
 	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
 			"Dates", "Date de création", "Taille", "Classé" };
-	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "" };
+	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "", "" };
 
 	/**
 	 * Constructeur de {@link FichierPanel}.
@@ -229,6 +231,15 @@ public class FichierPanel extends JPanel {
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 		header.add(sortedPanel);
+		// Deleted
+		JPanel deletedPanel = new JPanel();
+		deletedPanel.setPreferredSize(new Dimension(50, 60));
+		JLabel deletedLabel = new JLabel("Supprimées: ");
+		deleted = new JCheckBox();
+		deleted.setPreferredSize(new Dimension(50, 25));
+		deletedPanel.add(deletedLabel);
+		deletedPanel.add(deleted);
+		header.add(deletedPanel);
 
 		// SEARCH
 		search = new JButton("Chercher");
@@ -455,6 +466,9 @@ public class FichierPanel extends JPanel {
 			// Affiche les compositions du fichier sélectionné
 			compositionList = ImportXML
 					.importXML(Constant.XML_PATH + v.get(INDEX_FILE_FILE_NAME) + Constant.XML_EXTENSION);
+			if (!deleted.isSelected()) {
+				compositionList = compositionList.stream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
+			}
 			updateCompoTable(compositionList);
 			LOG.debug("End left mouse, open");
 		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
@@ -584,24 +598,12 @@ public class FichierPanel extends JPanel {
 			LOG.debug("Aucune modification");
 			return;
 		}
-		// On modifier le fichier xml en conséquence
-		try {
-			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST),
-					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE));
-		} catch (MyException e1) {
-			String log = "Erreur lors de la modification d'une composition";
-			LOG.error(log, e1);
-			resultLabel.setText(log + e1);
-			return;
-		}
+		
+		boolean isDeleted = false;
 		// On modifie la composition
 		compoToModifInTable.setArtist(v.get(INDEX_COMPO_ARTIST));
 		compoToModifInTable.setTitre(v.get(INDEX_COMPO_TITLE));
 		compoToModifInTable.setRecordType(RecordType.valueOf(v.get(INDEX_COMPO_TYPE)));
-
-		// On remplace par la nouvelle composition dans le tableau
-		compositionList.remove(indexOfResult);
-		compositionList.add(compoToModifInTable);
 
 		// Gestion du fichier final.xml
 		if (importXML.get(indexOfXml).getFiles().size() > 1) {
@@ -617,7 +619,10 @@ public class FichierPanel extends JPanel {
 			importXML.add(compoToModifInTable);
 		} else {
 			LOG.debug("La compo existe déjà, on regroupe");
+			isDeleted = compoToModifInTable.isDeleted() || compoExist.isDeleted();
 			compoExist.getFiles().addAll(compoToModifInTable.getFiles());
+			compoExist.setDeleted(isDeleted);
+			compoToModifInTable.setDeleted(isDeleted);
 		}
 		try {
 			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
@@ -627,6 +632,22 @@ public class FichierPanel extends JPanel {
 			LOG.error(log, e1);
 			label = log;
 		}
+		
+		// On remplace par la nouvelle composition dans le tableau
+		compositionList.remove(indexOfResult);
+		compositionList.add(compoToModifInTable);
+		
+		// On modifier les fichier xml en conséquence
+		try {
+			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST),
+					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE));
+		} catch (MyException e1) {
+			String log = "Erreur lors de la modification d'une composition";
+			LOG.error(log, e1);
+			resultLabel.setText(log + e1);
+			return;
+		}
+
 		resultLabel.setText(label);
 		updateCompoTable(compositionList);
 		LOG.debug("End modif");
@@ -680,7 +701,7 @@ public class FichierPanel extends JPanel {
 		compoModel.setRowCount(0);
 		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true, null),
 				new Vector<>(Arrays.asList(headerCompo)));
-		PanelUtils.colRenderer(tableCompo, false, null);
+		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED);
 		compoModel.fireTableDataChanged();
 		if (sortedCompoColumn == null) {
 			sortedCompoColumn = INDEX_COMPO_RANK;
@@ -689,6 +710,7 @@ public class FichierPanel extends JPanel {
 		tableCompo.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedCompoColumn, sortCompoOrder)));
 		selectedCompoRow = -1;
+		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DELETED));
 		tableCompo.repaint();
 		LOG.debug("Start updateCompoTable");
 	}
@@ -702,6 +724,7 @@ public class FichierPanel extends JPanel {
 		rangeE.setText("");
 		cat.setSelectedItem("");
 		sorted.setSelected(false);
+		deleted.setSelected(false);
 		LOG.debug("End resetAction");
 	}
 
