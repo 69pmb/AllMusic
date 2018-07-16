@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Hurricane" type="SONG" canBeMerged="true" deleted="false">
@@ -34,7 +34,7 @@
   <Composition artist="The Libertines" titre="What A Waster" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="96" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Grandmaster Flash And The Furious Five" titre="The Message" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Grandmaster Flash And The Furious Five" titre="The Message" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="97" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Stone Roses" titre="I Am The Resurrection" type="SONG" canBeMerged="true" deleted="false">
