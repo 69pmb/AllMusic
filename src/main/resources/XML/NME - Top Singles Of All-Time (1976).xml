@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Ike And Tina Turner" titre="River Deep Mountain High" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Ike And Tina Turner" titre="River Deep Mountain High" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Top Singles Of All-Time (1976)" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Miracles" titre="Tracks Of My Tears" type="SONG" canBeMerged="true" deleted="false">
@@ -100,7 +100,7 @@
   <Composition artist="Rolling Stones" titre="Get Off My Cloud" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Top Singles Of All-Time (1976)" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="77" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Temptation" titre="Papa Was A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Temptation" titre="Papa Was A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Top Singles Of All-Time (1976)" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="78" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="Ain't That Peculiar" type="SONG" canBeMerged="true" deleted="false">
