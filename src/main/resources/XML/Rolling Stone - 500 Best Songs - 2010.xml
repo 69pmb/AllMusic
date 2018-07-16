@@ -94,7 +94,7 @@
   <Composition artist="The Rolling Stones" titre="Sympathy for the Devil" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="32" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Ike and Tina Turner" titre="River Deep, Mountain High" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Ike and Tina Turner" titre="River Deep, Mountain High" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="33" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Righteous Brothers" titre="You've Lost That Lovin' Feelin'" type="SONG" canBeMerged="true" deleted="false">
@@ -502,7 +502,7 @@
   <Composition artist="Marvin Gaye" titre="Let's Get It On" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="168" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Temptations" titre="Papa Was a Rollin' Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Temptations" titre="Papa Was a Rollin' Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="169" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="R.E.M." titre="Losing My Religion" type="SONG" canBeMerged="true" deleted="false">
