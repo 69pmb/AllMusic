@@ -110,7 +110,7 @@ public class DialogFileTable extends JDialog {
 
 		fichiers.addMouseListener(pasteFichierListener());
 
-		PanelUtils.colRenderer(fichiers, true);
+		PanelUtils.colRenderer(fichiers, true, null);
 
 		this.setLayout(new BorderLayout());
 		this.add(new JScrollPane(fichiers), BorderLayout.CENTER);

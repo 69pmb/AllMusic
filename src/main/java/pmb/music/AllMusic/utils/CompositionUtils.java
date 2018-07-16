@@ -182,6 +182,7 @@ public class CompositionUtils {
 			if (addBoolean) {
 				v.addElement(new Boolean(false));
 			}
+			v.addElement(Boolean.valueOf(composition.isDeleted()).toString());
 			result.addElement(v);
 		}
 		LOG.debug("End convertCompositionListToVector");
@@ -282,7 +283,7 @@ public class CompositionUtils {
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
 
 		List<Composition> search = new ArrayList<>();
-		search = SearchUtils.search(compoList, criteria, false, isStrictly);
+		search = SearchUtils.search(compoList, criteria, false, isStrictly, true);
 		if (search.size() > 1) {
 			LOG.debug("Compo: " + search.size());
 			search.stream().forEach(LOG::debug);
@@ -350,30 +351,6 @@ public class CompositionUtils {
 	}
 
 	/**
-	 * Cherche une {@link Composition} dans une liste donnée en fonction de
-	 * l'artiste.
-	 * 
-	 * @see SearchUtils#searchJaro(List, Map, boolean)
-	 * @param compoList {@link List<Composition>} une liste de compo
-	 * @param artist {@link String} un artiste
-	 * @return la composition trouvée
-	 */
-	public static List<Composition> findByArtist(List<Composition> compoList, String artist) {
-		LOG.debug("Start findByArtistTitreAndType");
-		Map<String, String> criteria = new HashMap<>();
-		criteria.put(SearchUtils.CRITERIA_ARTIST, artist);
-
-		List<Composition> search = SearchUtils.search(compoList, criteria, false, false);
-		if (!search.isEmpty()) {
-			LOG.debug("End findByArtistTitreAndType");
-			return search;
-		} else {
-			LOG.debug("End findByArtistTitreAndType, no result");
-			return new ArrayList<>();
-		}
-	}
-
-	/**
 	 * Supprime dans les fichiers XML, la composition donnée.
 	 * 
 	 * @param toRemove la {@link Composition} à supprimer des fichiers
@@ -391,7 +368,7 @@ public class CompositionUtils {
 			// Suppresion de la liste de la composition à enlever
 			Composition toRemoveFromFile = CompositionUtils.compoExist(importXML, toRemove);
 			if (toRemoveFromFile != null) {
-				importXML.remove(toRemoveFromFile);
+				toRemoveFromFile.setDeleted(true);
 			} else {
 				LOG.error(filename + Constant.NEW_LINE);
 				throw new MyException("compoExist null: " + toRemove.getArtist() + " " + toRemove.getTitre() + " "
@@ -546,7 +523,7 @@ public class CompositionUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, true);
 		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(MiscUtils.median(rankList));
@@ -563,7 +540,7 @@ public class CompositionUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, true);
 		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(rankList.stream().mapToInt(Integer::intValue).max().getAsInt());

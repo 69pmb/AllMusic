@@ -33,17 +33,23 @@ public class PanelUtils {
 
 	/**
 	 * Dimensionne les colonnes du tableau et ajoute des couleurs aux lignes.
+	 * 
 	 * @see {@link EvenOddRenderer}
 	 * @param table le tableau
 	 * @param lastColumn si la dernière colonne doit être colorisée ou non
+	 * @param deletedIndex index of the deleted column, use it to draw deleted row
+	 *            with specific color
 	 */
-	public static void colRenderer(JTable table, boolean lastColumn) {
+	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex) {
 		setColumnsPreferredWidth(table);
 
-		DefaultTableCellRenderer renderer = new EvenOddRenderer();
+		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex);
 		int columnCount = table.getColumnCount();
 		if (!lastColumn) {
 			columnCount--;
+			if (deletedIndex != null) {
+				columnCount--;
+			}
 		}
 		for (int i = 0; i < columnCount; i++) {
 			renderer.setHorizontalAlignment(JLabel.CENTER);
@@ -52,7 +58,9 @@ public class PanelUtils {
 	}
 
 	/**
-	 * Recherche la longueur maximum pour chaque colonne et la set pour la largeur de cette colonne. 
+	 * Recherche la longueur maximum pour chaque colonne et la set pour la largeur
+	 * de cette colonne.
+	 * 
 	 * @param table le tableau
 	 */
 	public static void setColumnsPreferredWidth(JTable table) {
@@ -61,7 +69,7 @@ public class PanelUtils {
 			int maximum = 0;
 			for (int j = 0; j < table.getRowCount(); j++) {
 				Object currentValue = table.getValueAt(j, i);
-				if(currentValue == null) {
+				if (currentValue == null) {
 					continue;
 				}
 				int longueurCourante = currentValue.toString().length();
@@ -107,15 +115,17 @@ public class PanelUtils {
 
 	/**
 	 * Supprime les compositions sélectionnées du tableau et des fichiers XML.
+	 * 
 	 * @param artistPanel le panel artiste
 	 * @param compoList la liste de composition
 	 * @param selected les lignes sélectionnées
 	 * @param label le label de résultat
 	 */
 	@SuppressWarnings("unchecked")
-	public static void deleteCompositionAction(final ArtistPanel artistPanel, List<Composition> compoList, List<Object> selected, JLabel label) {
+	public static void deleteCompositionAction(final ArtistPanel artistPanel, List<Composition> compoList,
+			List<Object> selected, JLabel label) {
 		LOG.debug("Start deleteCompositionAction");
-		if(selected.isEmpty()) {
+		if (selected.isEmpty()) {
 			label.setText("Aucune composition sélectionnée !");
 			LOG.debug("End deleteCompositionAction, no selected composition");
 			return;
@@ -126,10 +136,12 @@ public class PanelUtils {
 		for (Object o : selected) {
 			Vector<String> v = (Vector<String>) o;
 			try {
-				Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1), v.get(2), true);
-				Composition toRemoveToTable = CompositionUtils.findByArtistTitreAndType(compoList, v.get(0), v.get(1), v.get(2), true);
+				Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1),
+						v.get(2), true);
+				Composition toRemoveToTable = CompositionUtils.findByArtistTitreAndType(compoList, v.get(0), v.get(1),
+						v.get(2), true);
 				compoList.remove(compoList.indexOf(toRemoveToTable));
-				importXML.remove(importXML.indexOf(toRemoveToFinal));
+				importXML.get(importXML.indexOf(toRemoveToFinal)).setDeleted(true);
 				CompositionUtils.removeCompositionsInFiles(toRemoveToFinal);
 			} catch (MyException e1) {
 				LOG.error("Erreur lors de la suppression d'une composition", e1);
@@ -149,8 +161,9 @@ public class PanelUtils {
 
 	/**
 	 * Crée un {@link JPanel} avec un layout de type {@link BoxLayout}.
+	 * 
 	 * @param l'axe sur lequel les composants sont alignés.
-	 * @see {@link BoxLayout#X_AXIS} et {@link BoxLayout#Y_AXIS} 
+	 * @see {@link BoxLayout#X_AXIS} et {@link BoxLayout#Y_AXIS}
 	 * @return le panel crée
 	 */
 	public static JPanel createBoxLayoutPanel(int axis) {
@@ -159,9 +172,10 @@ public class PanelUtils {
 		panel.add(Box.createRigidArea(new Dimension(100, 0)));
 		return panel;
 	}
-	
+
 	/**
 	 * Modifie la taille du composant donné.
+	 * 
 	 * @param comp le composant
 	 * @param width la nouvelle largeur
 	 * @param height la nouvelle hauteur
@@ -174,6 +188,7 @@ public class PanelUtils {
 
 	/**
 	 * Ajoute un composant au panel.
+	 * 
 	 * @param panel
 	 * @param component
 	 * @param alignement
