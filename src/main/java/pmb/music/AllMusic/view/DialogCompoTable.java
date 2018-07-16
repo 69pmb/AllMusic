@@ -95,7 +95,7 @@ public class DialogCompoTable extends JDialog {
 			}
 		});
 
-		PanelUtils.colRenderer(table, true);
+		PanelUtils.colRenderer(table, true, null);
 
 		this.setLayout(new BorderLayout());
 		this.add(new JScrollPane(table), BorderLayout.CENTER);

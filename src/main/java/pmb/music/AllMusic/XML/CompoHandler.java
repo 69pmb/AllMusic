@@ -91,6 +91,7 @@ public class CompoHandler extends DefaultHandler {
 			compo.setTitre(attributes.getValue("titre"));
 			compo.setRecordType(RecordType.valueOf(attributes.getValue("type")));
 			compo.setCanBeMerged(Boolean.parseBoolean(attributes.getValue("canBeMerged")));
+			compo.setDeleted(Boolean.parseBoolean(attributes.getValue("deleted")));
 		} catch (Exception e) {
 			throw new SAXException(e);
 		}

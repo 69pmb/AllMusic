@@ -86,6 +86,7 @@ public class SearchPanel extends JPanel {
 	private JTextField rangeE;
 	private JTextField fileName;
 	private JCheckBox sorted;
+	private JCheckBox deleted;
 	private JCheckBox topTen;
 
 	private final JTable result;
@@ -98,13 +99,14 @@ public class SearchPanel extends JPanel {
 
 	private List<Composition> compoResult = new ArrayList<>();
 
-	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "" };
+	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "","" };
 
 	private static final int INDEX_ARTIST = 0;
 	private static final int INDEX_TITRE = 1;
 	private static final int INDEX_TYPE = 2;
 	private static final int INDEX_SCORE = 4;
 	private static final int INDEX_SELECTED = 5;
+	private static final int INDEX_DELETED = 6;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
 
@@ -284,6 +286,7 @@ public class SearchPanel extends JPanel {
 							artist.getSelectedItem() == null ? "" : artist.getSelectedItem().toString(),
 							author.getSelectedItem() == null ? "" : author.getSelectedItem().toString(),
 							"Sorted:" + Boolean.toString(sorted.isSelected()),
+							"Deleted:" + Boolean.toString(deleted.isSelected()),
 							"Top Ten:" + Boolean.toString(topTen.isSelected()))
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
@@ -419,6 +422,16 @@ public class SearchPanel extends JPanel {
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 		searchFields.add(sortedPanel);
+		
+		// Deleted
+		JPanel deletedPanel = new JPanel();
+		deletedPanel.setPreferredSize(new Dimension(200, 25));
+		JLabel deletedLabel = new JLabel("Supprimé : ");
+		deleted = new JCheckBox();
+		deleted.setPreferredSize(new Dimension(150, 25));
+		deletedPanel.add(deletedLabel);
+		deletedPanel.add(deleted);
+		searchFields.add(deletedPanel);
 
 		// TopTen
 		JPanel topPanel = new JPanel();
@@ -487,7 +500,7 @@ public class SearchPanel extends JPanel {
 			}
 
 			compoResult = new ArrayList<>();
-			compoResult.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(), false));
+			compoResult.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(), false, deleted.isSelected()));
 			updateTable();
 		}
 		LOG.debug("End searchAction");
@@ -498,7 +511,7 @@ public class SearchPanel extends JPanel {
 		model.setRowCount(0);
 		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true, score),
 				new Vector<>(Arrays.asList(title)));
-		PanelUtils.colRenderer(result, false);
+		PanelUtils.colRenderer(result, false, INDEX_DELETED);
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
 		if (sortedColumn == null) {
@@ -507,6 +520,7 @@ public class SearchPanel extends JPanel {
 		}
 		result.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
 		selectedRow = -1;
+		result.removeColumn(result.getColumnModel().getColumn(INDEX_DELETED));
 		result.repaint();
 		LOG.debug("Start updateTable");
 	}
@@ -521,6 +535,7 @@ public class SearchPanel extends JPanel {
 		author.setSelectedItem(null);
 		cat.setSelectedItem(null);
 		sorted.setSelected(false);
+		deleted.setSelected(false);
 		topTen.setSelected(false);
 		rangeB.setText("");
 		rangeE.setText("");

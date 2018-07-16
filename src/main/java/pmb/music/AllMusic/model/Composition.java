@@ -18,6 +18,7 @@ public class Composition implements Serializable {
 	private String titre;
 	private RecordType recordType;
 	private boolean canBeMerged;
+	private boolean deleted;
 
 	/**
 	 * Constructeur.
@@ -111,14 +112,17 @@ public class Composition implements Serializable {
 		this.canBeMerged = canBeMerged;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#toString()
-	 */
+	public boolean isDeleted() {
+		return deleted;
+	}
+
+	public void setDeleted(boolean deleted) {
+		this.deleted = deleted;
+	}
+
 	@Override
 	public String toString() {
-		return "Composition [artist=" + this.artist + ", titre=" + this.titre + ", recordType=" + this.recordType
-				+ ", files=" + this.files + "]";
+		return "Composition [artist=" + artist + ", files=" + files + ", titre=" + titre + ", recordType=" + recordType
+				+ ", canBeMerged=" + canBeMerged + ", deleted=" + deleted + "]";
 	}
 }

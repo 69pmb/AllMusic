@@ -68,7 +68,8 @@ public class AppTest {
 		// gauss(importXML, RecordType.ALBUM);
 		// sizeFileSuspicious(importXML);
 		// findImportParamsForAllFiles();
-		duplicateRankInFiles(importXML);
+//		duplicateRankInFiles(importXML);
+		setDeleted();
 	}
 
 	public static void duplicateRankInFiles(List<Composition> importXML) {
@@ -465,7 +466,7 @@ public class AppTest {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false).stream()
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false, false).stream()
 				.map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
 				.collect(Collectors.toList());
 		for (Integer rank : yearList) {
@@ -486,7 +487,7 @@ public class AppTest {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false).stream()
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, false, false).stream()
 				.map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
 				.collect(Collectors.toList());
 		LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
@@ -502,7 +503,7 @@ public class AppTest {
 
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
 
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (Composition composition : yearList) {
@@ -533,7 +534,7 @@ public class AppTest {
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 			criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
-			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
+			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
 			// LOG.debug("year: " + year + " size: " + yearList.size());
 			LOG.debug("year: " + year + " file size: " + yearList.stream().map(Composition::getFiles)
 					.flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().count());
@@ -646,14 +647,14 @@ public class AppTest {
 		Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test8)));
 	}
 
-	public static void setCanBeMerged() {
+	public static void setDeleted() {
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getFileName).distinct()
 				.forEach(fileName -> {
 					List<Composition> importFile = ImportXML
 							.importXML(Constant.XML_PATH + fileName + Constant.XML_EXTENSION);
 					List<Composition> newImportFile = importFile.stream().map(compo -> {
-						compo.setCanBeMerged(true);
+						compo.setDeleted(false);
 						return compo;
 					}).collect(Collectors.toList());
 					try {
@@ -663,7 +664,7 @@ public class AppTest {
 					}
 				});
 		List<Composition> newImportXML = importXML.stream().map(compo -> {
-			compo.setCanBeMerged(true);
+			compo.setDeleted(false);
 			return compo;
 		}).collect(Collectors.toList());
 		try {
@@ -777,7 +778,7 @@ public class AppTest {
 		List<Composition> list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_ARTIST, "prince");
-		List<Composition> search = SearchUtils.search(list, criteria, false, false);
+		List<Composition> search = SearchUtils.search(list, criteria, false, false, false);
 		Map<String, List<Composition>> groupByArtist = CompositionUtils.groupCompositionByArtist(search);
 		LOG.debug("panelArtist");
 		groupByArtist.entrySet().stream()
