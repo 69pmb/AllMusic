@@ -202,7 +202,7 @@ public class ArtistPanel extends JPanel {
 				}
 			}
 		});
-		PanelUtils.colRenderer(table, false);
+		PanelUtils.colRenderer(table, false, null);
 
 		updateArtistPanel();
 
@@ -305,7 +305,7 @@ public class ArtistPanel extends JPanel {
 	}
 
 	private void updateTable() {
-		PanelUtils.colRenderer(table, true);
+		PanelUtils.colRenderer(table, true, null);
 		model.fireTableDataChanged();
 		if (sortedColumn == null) {
 			sortedColumn = INDEX_NB_TOTAL;

@@ -130,7 +130,7 @@ public class BatchUtils {
 			}
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			res.addAll(SearchUtils.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, false).stream()
+			res.addAll(SearchUtils.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, false, false).stream()
 					.map(Composition::getFiles).flatMap(List::stream)
 					.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
 							|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
@@ -160,7 +160,7 @@ public class BatchUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 		List<Composition> importXML = SearchUtils
-				.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, false).stream()
+				.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, false, false).stream()
 				.sorted((c1, c2) -> StringUtils.compareIgnoreCase(c1.getTitre(), c2.getTitre()))
 				.collect(Collectors.toList());
 		for (int i = 0; i < importXML.size(); i++) {
@@ -500,7 +500,7 @@ public class BatchUtils {
 			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, String.valueOf(year));
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
-			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
+			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
 			addLine(result, "Year: " + year, true);
 			addLine(result, "Size: " + yearList.size(), true);
 			for (int i = 0; i < yearList.size(); i++) {
@@ -630,7 +630,7 @@ public class BatchUtils {
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			List<Composition> yearList = SearchUtils.search(arrayList, criteria, true, false);
+			List<Composition> yearList = SearchUtils.search(arrayList, criteria, true, false, false);
 			if (yearList.isEmpty() || !yearList.get(0).getFiles().get(0).getSorted()) {
 				// If no file for the given author and year or if the file is not sorted
 				continue;
@@ -691,7 +691,7 @@ public class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
 		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
 				.convertCompositionListToVector(yearList, false, false, score).stream()
 				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
@@ -722,7 +722,7 @@ public class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
 		List<List<String>> occurenceList = new ArrayList<>();
 		if (yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
 				.map(WordUtils::capitalize).distinct().count() > 2) {
@@ -757,7 +757,7 @@ public class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
 		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
 		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertArtistPanelResultToVector(CompositionUtils.groupCompositionByArtist(yearList))
 				.stream().filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();

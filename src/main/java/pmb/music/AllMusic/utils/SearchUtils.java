@@ -53,10 +53,12 @@ public class SearchUtils {
 	 * @param strictly {@code true} recherche stricte: le champ doit être exactement
 	 *            égal au critère. {@code false}: Les critères de recherche sont
 	 *            utilisés comme des {@code '%like'}.
+	 * @param deleted if false return only compositions not deleted, if true all
+	 *            compositions
 	 * @return la liste de compo filtrée selon les critères
 	 */
 	public static List<Composition> search(List<Composition> compoList, Map<String, String> criteria,
-			final boolean searchInFiles, boolean strictly) {
+			final boolean searchInFiles, boolean strictly, boolean deleted) {
 		LOG.debug("Start search");
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> arrayList = new ArrayList<>(compoList);
@@ -86,36 +88,41 @@ public class SearchUtils {
 			LOG.debug("Critères de recherche: " + criteria.entrySet().stream()
 					.map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
 			if (strictly) {
-				CollectionUtils.filter(arrayList, (Object c) -> filterStrictly(artist, titre, type, publish, fileName,
-						auteur, cat, dateB, dateE, searchFile, c));
+				CollectionUtils.filter(arrayList, (Object c) -> filterStrictly(artist, titre, type, deleted, publish,
+						fileName, auteur, cat, dateB, dateE, searchFile, c));
 			} else {
 				CollectionUtils.filter(arrayList, (Object c) -> filterJaro(searchInFiles, jaro, artist, titre, type,
-						publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
+						deleted, publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
 			}
+		} else if (!deleted) {
+			CollectionUtils.filter(arrayList, (Object c) -> !((Composition) c).isDeleted());
 		}
 		LOG.debug("End search");
 		return arrayList;
 	}
 
 	private static boolean filterJaro(final boolean searchInFiles, final JaroWinklerDistance jaro, final String artist,
-			final String titre, final String type, final String publish, final String fileName, final String auteur,
-			final String cat, final String dateB, final String dateE, final String sorted, final String topTen,
-			final boolean searchFile, Object c) {
+			final String titre, final String type, final boolean deleted, final String publish, final String fileName,
+			final String auteur, final String cat, final String dateB, final String dateE, final String sorted,
+			final String topTen, final boolean searchFile, Object c) {
 		Composition co = (Composition) c;
 
 		boolean result = true;
 		if (StringUtils.isNotBlank(artist)) {
 			result = result && isEqualsByJaroCriteria(jaro, artist, co.getArtist());
 		}
-		if (StringUtils.isNotBlank(titre)) {
+		if (result && StringUtils.isNotBlank(titre)) {
 			result = result && isEqualsByJaroCriteria(jaro, titre, co.getTitre());
 		}
-		if (type != null) {
+		if (result && type != null) {
 			result = result && co.getRecordType() == RecordType.valueOf(type);
+		}
+		if (result && !deleted) {
+			result = result && !co.isDeleted();
 		}
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
-		if (searchFile && CollectionUtils.isNotEmpty(files) && result) {
+		if (result && searchFile && CollectionUtils.isNotEmpty(files)) {
 			CollectionUtils.filter(files, (Object f) -> evaluateFichierContains(publish, fileName, auteur, cat, dateB,
 					dateE, sorted, topTen, f));
 		}
@@ -170,23 +177,26 @@ public class SearchUtils {
 	}
 
 	private static boolean filterStrictly(final String artist, final String titre, final String type,
-			final String publish, final String fileName, final String auteur, final String cat, final String dateB,
-			final String dateE, final boolean searchFile, Object c) {
+			final boolean deleted, final String publish, final String fileName, final String auteur, final String cat,
+			final String dateB, final String dateE, final boolean searchFile, Object c) {
 		Composition co = (Composition) c;
 
 		boolean result = true;
 		if (StringUtils.isNotBlank(artist)) {
 			result = result && StringUtils.equalsIgnoreCase(co.getArtist(), artist);
 		}
-		if (StringUtils.isNotBlank(titre)) {
+		if (result && StringUtils.isNotBlank(titre)) {
 			result = result && StringUtils.equalsIgnoreCase(co.getTitre(), titre);
 		}
-		if (type != null) {
+		if (result && type != null) {
 			result = result && co.getRecordType() == RecordType.valueOf(type);
+		}
+		if (result && !deleted) {
+			result = result && !co.isDeleted();
 		}
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
-		if (searchFile && CollectionUtils.isNotEmpty(files)) {
+		if (result && searchFile && CollectionUtils.isNotEmpty(files)) {
 			CollectionUtils.filter(files,
 					(Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, f));
 		}
