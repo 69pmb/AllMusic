@@ -20,6 +20,8 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.Vector;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
@@ -66,24 +68,43 @@ public class BatchUtils {
 
 	/**
 	 * Generates statistics of xml files.
-	 * @return 
+	 * 
+	 * @return
 	 */
 	public static String stat() {
 		LOG.debug("Start stat");
 		StringBuilder result = new StringBuilder();
-		addLine(result, "Statistiques: ", true);
-
+		addLine(result, "Statistiques sur la longueur artist + titre: ", true);
 		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
-		List<Integer> size = new ArrayList<>();
-		for (Composition composition : importXML) {
+		List<Integer> size = importXML.stream().map(composition -> {
 			String s = composition.getArtist() + composition.getTitre();
-			size.add(s.length());
-		}
-		addLine(result, "Min: " + size.stream().mapToInt(Integer::intValue).min(), true);
-		addLine(result, "Max: " + size.stream().mapToInt(Integer::intValue).max(), true);
-		addLine(result, "Moyenne: " + size.stream().mapToInt(Integer::intValue).average(), true);
+			return s.length();
+		}).collect(Collectors.toList());
+		addLine(result, "Min: " + size.stream().mapToInt(Integer::intValue).min().getAsInt(), true);
+		addLine(result, "Max: " + size.stream().mapToInt(Integer::intValue).max().getAsInt(), true);
+		addLine(result, "Moyenne: " + size.stream().mapToInt(Integer::intValue).average().getAsDouble(), true);
 		addLine(result, "Summary: " + size.stream().mapToInt(Integer::intValue).summaryStatistics(), true);
-		addLine(result, "Size: " + size, true);
+
+		addLine(result, "Statistiques sur les tops annuels: ", true);
+		Map<Integer, Integer> songs = importXML.stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
+				.map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie().equals(Cat.YEAR))
+				.collect(Collectors.groupingBy(Fichier::getPublishYear, Collectors
+						.collectingAndThen(Collectors.mapping(Fichier::getFileName, Collectors.toSet()), Set::size)));
+		Map<Integer, Integer> albums = importXML.stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
+				.map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie().equals(Cat.YEAR))
+				.collect(Collectors.groupingBy(Fichier::getPublishYear, Collectors
+						.collectingAndThen(Collectors.mapping(Fichier::getFileName, Collectors.toSet()), Set::size)));
+		int min = Stream.concat(songs.keySet().stream(), albums.keySet().stream()).mapToInt(Integer::intValue).min()
+				.getAsInt();
+		int max = Stream.concat(songs.keySet().stream(), albums.keySet().stream()).mapToInt(Integer::intValue).max()
+				.getAsInt();
+		IntStream.rangeClosed(min, max).forEach(i -> {
+			Integer song = !songs.containsKey(i) ? 0 : songs.get(i);
+			Integer album = !albums.containsKey(i) ? 0 : albums.get(i);
+			addLine(result,
+					i + ": Songs: " + song.toString() + ", Albums: " + album.toString() + ", Total: " + (song + album),
+					true);
+		});
 
 		LOG.debug("End stat");
 		return writeInFile(result, Constant.BATCH_FILE);
@@ -130,8 +151,8 @@ public class BatchUtils {
 			}
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			res.addAll(SearchUtils.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, false, false).stream()
-					.map(Composition::getFiles).flatMap(List::stream)
+			res.addAll(SearchUtils.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, false, false)
+					.stream().map(Composition::getFiles).flatMap(List::stream)
 					.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
 							|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
 									" - " + String.valueOf(f.getPublishYear())))
@@ -237,7 +258,8 @@ public class BatchUtils {
 
 	/**
 	 * Search if a composition has similar files (same author and same rank).
-	 * @return 
+	 * 
+	 * @return
 	 */
 	public static String findDuplicateFiles() {
 		LOG.debug("Start findDuplicateFiles");
@@ -277,7 +299,8 @@ public class BatchUtils {
 
 	/**
 	 * Search if there are txt files which are not convert to xml files.
-	 * @return 
+	 * 
+	 * @return
 	 */
 	public static String missingXML() {
 		LOG.debug("Start missingXML");
@@ -334,7 +357,8 @@ public class BatchUtils {
 
 	/**
 	 * Supprime tous les fichiers historisés sauf le plus récent.
-	 * @return 
+	 * 
+	 * @return
 	 */
 	public static String cleanHistory() {
 		LOG.debug("Start cleanHistory");
@@ -535,16 +559,17 @@ public class BatchUtils {
 		return false;
 	}
 
-	private static void mergeTwoCompositions(List<Composition> importXML, int index1, int index2, StringBuilder result) {
+	private static void mergeTwoCompositions(List<Composition> importXML, int index1, int index2,
+			StringBuilder result) {
 		LOG.debug("Start mergeTwoCompositions");
 		Composition c1 = importXML.get(index1);
 		List<Fichier> files1 = c1.getFiles();
 		Composition c2 = importXML.get(index2);
-		
+
 		boolean isDeleted = c1.isDeleted() || c2.isDeleted();
 		c1.setDeleted(isDeleted);
 		c2.setDeleted(isDeleted);
-		
+
 		addLine(result, "i: " + index1, true);
 		addLine(result, "j: " + index2, true);
 		addLine(result, "c1: " + c1, true);
@@ -763,8 +788,9 @@ public class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
 		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
-		List<Vector<Object>> occurenceListTemp = CompositionUtils.convertArtistPanelResultToVector(CompositionUtils.groupCompositionByArtist(yearList))
-				.stream().filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
+		List<Vector<Object>> occurenceListTemp = CompositionUtils
+				.convertArtistPanelResultToVector(CompositionUtils.groupCompositionByArtist(yearList)).stream()
+				.filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
