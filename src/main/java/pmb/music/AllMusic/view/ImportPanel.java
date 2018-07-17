@@ -609,26 +609,31 @@ public class ImportPanel extends JPanel {
 	 * Le traitement lorsqu'on importe un fichier txt.
 	 */
 	private void importFileAction() {
-		LOG.debug("Start importFile");
+		LOG.debug("Start importFileAction");
 		result = new LinkedList<>(Arrays.asList("Sélectionnez un fichier"));
 		if (fichier != null) {
 			fichier.setSorted(sorted.isSelected());
-			fichier.setFileName(name.getText());
+			String xmlFileName = name.getText();
+			fichier.setFileName(xmlFileName);
 			fichier.setAuthor(author.getText());
 			fichier.setCategorie((Cat) cat.getSelectedItem());
 			fichier.setPublishYear(Integer.parseInt(publi.getText()));
 			fichier.setRangeDateBegin(Integer.parseInt(rangeB.getText()));
 			fichier.setRangeDateEnd(Integer.parseInt(rangeE.getText()));
 			fichier.setSize(Integer.parseInt(size.getText()));
-			result = new LinkedList<>(Arrays.asList(name.getText() + " OK !"));
+			result = new LinkedList<>(Arrays.asList(xmlFileName + " OK !"));
 
 			try {
+				// Parse Txt file to Compositions List
 				List<Composition> compoList = ImportFile.getCompositionsFromFile(new File(absolutePathFileTxt), fichier,
 						(RecordType) type.getSelectedItem(), separator.getText(), result, order.isSelected(),
 						reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
 						removeAfter.isSelected());
-				ExportXML.exportXML(compoList, name.getText());
-				absolutePathFileXml = Constant.XML_PATH + name.getText() + Constant.XML_EXTENSION;
+				// Export Compositions to XML file
+				ExportXML.exportXML(compoList, xmlFileName);
+				// Change xml file path
+				absolutePathFileXml = Constant.XML_PATH + xmlFileName + Constant.XML_EXTENSION;
+				// Write in Txt file import params
 				FichierUtils.writeMapInFile(new File(absolutePathFileTxt),
 						convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
 								removeParenthese.isSelected(), upper.isSelected(), removeAfter.isSelected()));
@@ -638,7 +643,7 @@ public class ImportPanel extends JPanel {
 			}
 		}
 		miseEnFormeResultLabel(result);
-		LOG.debug("End importFile");
+		LOG.debug("End importFileAction");
 	}
 
 	private Map<String, String> convertParamsToMap(String separator, boolean artistFirst, boolean reverseArtist,
