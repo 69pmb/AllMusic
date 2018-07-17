@@ -41,10 +41,11 @@ public class DialogCompoTable extends JDialog {
 	private static final int INDEX_ARTIST = 0;
 	private static final int INDEX_TITLE = 1;
 	private static final int INDEX_RANK = 3;
+	private static final int INDEX_DELETED = 4;
 
 	private List<Composition> compo = new ArrayList<>();
 
-	private static final String[] header = { "Artiste", "Titre", "Type", "Classement" };
+	private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "" };
 
 	private JTable table;
 
@@ -95,7 +96,8 @@ public class DialogCompoTable extends JDialog {
 			}
 		});
 
-		PanelUtils.colRenderer(table, true, null);
+		PanelUtils.colRenderer(table, true, INDEX_DELETED);
+		table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
 
 		this.setLayout(new BorderLayout());
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
