@@ -29,6 +29,7 @@ import java.util.stream.Collectors;
 
 import javax.swing.AbstractAction;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -81,6 +82,7 @@ public class ArtistPanel extends JPanel {
 	private final JButton reset;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
+	private JCheckBox deleted;
 
 	private final JTable table;
 
@@ -149,6 +151,15 @@ public class ArtistPanel extends JPanel {
 		catPanel.add(catLabel);
 		catPanel.add(cat);
 		header.add(catPanel);
+		// Deleted
+		JPanel deletedPanel = new JPanel();
+		deletedPanel.setPreferredSize(new Dimension(90, 60));
+		JLabel deletedLabel = new JLabel("Supprimés: ");
+		deleted = new JCheckBox();
+		deleted.setPreferredSize(new Dimension(50, 25));
+		deletedPanel.add(deletedLabel);
+		deletedPanel.add(deleted);
+		header.add(deletedPanel);
 		// SEARCH
 		search = new JButton("Chercher");
 		search.setBackground(Color.white);
@@ -287,14 +298,24 @@ public class ArtistPanel extends JPanel {
 		updateArtistThread = new Thread(() -> {
 			LOG.debug("Start ThreadUpdateArtist");
 			data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.FINAL_FILE_PATH));
-			searchResult = data;
 
 			SwingUtilities.invokeLater(() -> {
 				resetAction();
-				model.setRowCount(0);
-				model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(data),
-						new Vector<>(Arrays.asList(title)));
-				updateTable();
+				searchResult = new HashMap<>();
+				for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
+					for (Composition c : entry.getValue()) {
+						if (deleted.isSelected() || !c.isDeleted()) {
+							Composition newCompo = new Composition(c);
+							newCompo.setFiles(c.getFiles());
+							if (!searchResult.containsKey(entry.getKey())) {
+								searchResult.put(entry.getKey(), new ArrayList<>(Arrays.asList(newCompo)));
+							} else {
+								searchResult.get(entry.getKey()).add(newCompo);
+							}
+						}
+					}
+				}
+				updateTable(searchResult);
 			});
 			LOG.debug("End ThreadUpdateArtist");
 		});
@@ -303,7 +324,10 @@ public class ArtistPanel extends JPanel {
 		updateArtistThread.start();
 	}
 
-	private void updateTable() {
+	private void updateTable(Map<String, List<Composition>> donnee) {
+		model.setRowCount(0);
+		model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee),
+				new Vector<>(Arrays.asList(title)));
 		PanelUtils.colRenderer(table, true, null);
 		model.fireTableDataChanged();
 		if (sortedColumn == null) {
@@ -357,6 +381,9 @@ public class ArtistPanel extends JPanel {
 			searchResult = new HashMap<>();
 			for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
 				for (Composition c : entry.getValue()) {
+					if (!deleted.isSelected() && c.isDeleted()) {
+						continue;
+					}
 					List<Fichier> files = c.getFiles().stream()
 							.filter(f -> SearchUtils.evaluateFichierStrictly(publi.getText(), null, auteur.getText(),
 									cat.getSelectedItem() != null ? cat.getSelectedItem().toString() : null,
@@ -373,9 +400,7 @@ public class ArtistPanel extends JPanel {
 					}
 				}
 			}
-			model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(searchResult),
-					new Vector<>(Arrays.asList(title)));
-			updateTable();
+			updateTable(searchResult);
 		}
 		LOG.debug("End search");
 	}
@@ -387,6 +412,7 @@ public class ArtistPanel extends JPanel {
 		auteur.setText("");
 		publi.setText("");
 		cat.setSelectedItem(null);
+		deleted.setSelected(false);
 		LOG.debug("End resetAction");
 	}
 
