@@ -350,6 +350,9 @@ public class BatchUtils {
 		for (int i = yearBegin; i <= yearEnd; i++) {
 			topYear(i, albumLimit, songLimit, text, score);
 		}
+		if (yearBegin == 0 && yearEnd == 0) {
+			topYear(0, albumLimit, songLimit, text, score);
+		}
 
 		LOG.debug("End topYear");
 		return writeInFile(text, Constant.BATCH_FILE);
@@ -611,18 +614,15 @@ public class BatchUtils {
 	 */
 	private static void topYear(int yearTop, int albumLimit, int songLimit, StringBuilder result, Score score) {
 		LOG.debug("Start topYear");
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		List<String> files = new ArrayList<>();
 		String year = String.valueOf(yearTop);
 		addLine(result, "Year: " + year, true);
-		if (CollectionUtils.isNotEmpty(importXML)) {
-			files.add(topOccurence(importXML, year));
-			files.add(topRecords(importXML, RecordType.SONG, "Top Songs", songLimit, year, score));
-			files.add(topRecords(importXML, RecordType.ALBUM, "Top Albums", albumLimit, year, score));
-			files.add(topRecordsByPoints(importXML, RecordType.SONG, "Points Songs", year));
-			files.add(topRecordsByPoints(importXML, RecordType.ALBUM, "Points Albums", year));
-			files.add(topSongsParPublication(year));
-		}
+		files.add(topOccurence(year));
+		files.add(topRecords(RecordType.SONG, "Top Songs", songLimit, year, score));
+		files.add(topRecords(RecordType.ALBUM, "Top Albums", albumLimit, year, score));
+		files.add(topRecordsByPoints(RecordType.SONG, "Points Songs", year));
+		files.add(topRecordsByPoints(RecordType.ALBUM, "Points Albums", year));
+		files.add(topSongsParPublication(year));
 		File folder = new File(Constant.USER_DIR + "\\Top by Year\\" + year);
 		folder.mkdir();
 		moveFilesInFolder(files, folder, result);
@@ -655,9 +655,11 @@ public class BatchUtils {
 			List<Composition> arrayList = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
-			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
-			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
-			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+			if (!"0".equals(year)) {
+				criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
+				criteria.put(SearchUtils.CRITERIA_DATE_END, year);
+				criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+			}
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
 			List<Composition> yearList = SearchUtils.search(arrayList, criteria, true, false, false);
@@ -673,6 +675,9 @@ public class BatchUtils {
 					row.add(composition.getArtist());
 					row.add(composition.getTitre());
 					row.add(String.valueOf(composition.getFiles().get(0).getClassement()));
+					if ("0".equals(year)) {
+						row.add(String.valueOf(composition.getFiles().get(0).getPublishYear()));
+					}
 					temp.add(row);
 				}
 			}
@@ -691,6 +696,10 @@ public class BatchUtils {
 			}
 		}
 		String[] header = { "Artiste", "Titre", "Classement" };
+		if ("0".equals(year)) {
+			String[] tmp = { "Artiste", "Titre", "Classement", "Année" };
+			header = tmp;
+		}
 		return CsvFile.exportCsv("Top Songs Par Publication - " + year, result, null, header);
 	}
 
@@ -705,7 +714,6 @@ public class BatchUtils {
 	/**
 	 * Top songs or top albums.
 	 * 
-	 * @param importXML list of composition
 	 * @param type Album or Song
 	 * @param fileName the name of the result csv file
 	 * @param limit the minimim of number of occurence a Composition to have to be
@@ -713,13 +721,15 @@ public class BatchUtils {
 	 * @param year the year of the top
 	 * @param score
 	 */
-	private static String topRecords(List<Composition> importXML, RecordType type, String fileName, int limit,
-			String year, Score score) {
+	private static String topRecords(RecordType type, String fileName, int limit, String year, Score score) {
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
-		criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
-		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
-		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+		if (!"0".equals(year)) {
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
+			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+		}
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
@@ -738,18 +748,19 @@ public class BatchUtils {
 	/**
 	 * Top songs or top albums with a sytem of points.
 	 * 
-	 * @param importXML list of composition
 	 * @param type Album or Song
 	 * @param fileName the name of the result csv file
 	 * @param year the year of the top
 	 */
-	private static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName,
-			String year) {
+	private static String topRecordsByPoints(RecordType type, String fileName, String year) {
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
-		criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
-		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
-		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+		if (!"0".equals(year)) {
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
+			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+		}
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
@@ -760,7 +771,11 @@ public class BatchUtils {
 				List<String> row = new ArrayList<>();
 				row.add(composition.getArtist());
 				row.add(composition.getTitre());
-				row.add(composition.getRecordType().toString());
+				if (!"0".equals(year)) {
+					row.add(composition.getRecordType().toString());
+				} else {
+					row.add(String.valueOf(composition.getFiles().get(0).getPublishYear()));
+				}
 				Integer points = composition.getFiles().stream().map(Fichier::getClassement).filter(rank -> rank < 10)
 						.reduce(0, (a, b) -> a + 20 * (11 - b));
 				if (points > 0) {
@@ -778,15 +793,17 @@ public class BatchUtils {
 	 * Generates csv file with the most occurence of an artist, songs and albums
 	 * combine.
 	 * 
-	 * @param importXML
 	 * @param year
 	 */
-	private static String topOccurence(List<Composition> importXML, String year) {
+	private static String topOccurence(String year) {
+		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
-		criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
-		criteria.put(SearchUtils.CRITERIA_DATE_END, year);
-		criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+		if (!"0".equals(year)) {
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
+			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
+		}
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
 				.convertArtistPanelResultToVector(CompositionUtils.groupCompositionByArtist(yearList)).stream()
