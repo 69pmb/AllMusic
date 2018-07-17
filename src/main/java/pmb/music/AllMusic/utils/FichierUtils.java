@@ -45,7 +45,8 @@ public class FichierUtils {
 	}
 
 	/**
-	 * Convertit une liste de {@link Composition} en {@link Vector<Vector<Object>>} de Fichier.
+	 * Convertit une liste de {@link Composition} en {@link Vector<Vector<Object>>}
+	 * de Fichier.
 	 * 
 	 * @param compoList {@code List<Composition>} la liste à convertir
 	 * @param getComposition si vrai récupère la composition associée pour chaque
@@ -63,6 +64,7 @@ public class FichierUtils {
 					v.addElement(c.getArtist());
 					v.addElement(c.getTitre());
 					v.addElement(c.getRecordType().toString());
+					v.addElement(Boolean.valueOf(c.isDeleted()).toString());
 				}
 				v.addElement(f.getAuthor());
 				v.addElement(f.getFileName());

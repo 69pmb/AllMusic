@@ -50,14 +50,15 @@ public class DialogFileTable extends JDialog {
 
 	private List<Composition> compoList = new ArrayList<>();
 
-	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
+	private static final String[] header = { "Artiste", "Oeuvre", "Type", "", "Auteur", "Nom du fichier",
 			"Date de publication", "Categorie", "Dates", "Taille", "Classement", "Classé" };
 
 	public static final int INDEX_ARTIST = 0;
 	public static final int INDEX_TITLE = 1;
-	public static final int INDEX_AUTEUR = 3;
-	public static final int INDEX_FILE_NAME = 4;
-	public static final int INDEX_RANK = 9;
+	public static final int INDEX_DELETED = 3;
+	public static final int INDEX_AUTEUR = 4;
+	public static final int INDEX_FILE_NAME = 5;
+	public static final int INDEX_RANK = 10;
 
 	private JTable fichiers;
 	private int defaultSort;
@@ -110,7 +111,8 @@ public class DialogFileTable extends JDialog {
 
 		fichiers.addMouseListener(pasteFichierListener());
 
-		PanelUtils.colRenderer(fichiers, true, null);
+		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED);
+		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
 
 		this.setLayout(new BorderLayout());
 		this.add(new JScrollPane(fichiers), BorderLayout.CENTER);
