@@ -58,6 +58,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
+import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
@@ -93,6 +94,7 @@ public class SearchPanel extends JPanel {
 
 	private JComboBox<Cat> cat;
 	private JComboBox<RecordType> type;
+	private JComboBox<SearchMethod> searchMethod;
 	private JComboBox<String> titre;
 	private JComboBox<String> artist;
 	private JComboBox<String> author;
@@ -280,6 +282,7 @@ public class SearchPanel extends JPanel {
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
 					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
+							searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
 							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString(),
 							type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(),
 							titre.getSelectedItem() == null ? "" : titre.getSelectedItem().toString(),
@@ -351,14 +354,30 @@ public class SearchPanel extends JPanel {
 
 		// Auteur
 		JPanel authorPanel = new JPanel();
-		authorPanel.setPreferredSize(new Dimension(200, 60));
+		JPanel panel = new JPanel();
 		JLabel authorLabel = new JLabel("Auteur : ");
 		author = new JComboBox<>();
 		AutoCompleteSupport.install(author, GlazedLists.eventListOf(authorList.toArray()));
-		author.setPreferredSize(new Dimension(150, 25));
-		authorPanel.add(authorLabel);
-		authorPanel.add(author);
+		PanelUtils.setSize(author, 150, 25);
+		PanelUtils.setSize(panel, 150, 60);
+		panel.add(authorLabel);
+		panel.add(author);
+		authorPanel.add(panel);
 		searchFields.add(authorPanel);
+
+		// SearchMethod
+		JPanel searchMethodPanel = new JPanel();
+		searchMethodPanel.setPreferredSize(new Dimension(200, 60));
+		JLabel searchMethodLabel = new JLabel("Méthode de recherche : ");
+		searchMethod = new JComboBox<>();
+		SearchMethod[] valuesSearch = SearchMethod.values();
+		for (int i = 0; i < valuesSearch.length; i++) {
+			searchMethod.addItem(valuesSearch[i]);
+		}
+		searchMethod.setPreferredSize(new Dimension(150, 25));
+		searchMethodPanel.add(searchMethodLabel);
+		searchMethodPanel.add(searchMethod);
+		searchFields.add(searchMethodPanel);
 
 		// Type
 		JPanel typePanel = new JPanel();
@@ -501,7 +520,7 @@ public class SearchPanel extends JPanel {
 
 			compoResult = new ArrayList<>();
 			compoResult
-					.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(), false, deleted.isSelected()));
+					.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(), (SearchMethod) searchMethod.getSelectedItem(), deleted.isSelected()));
 			updateTable();
 		}
 		LOG.debug("End searchAction");
@@ -531,6 +550,7 @@ public class SearchPanel extends JPanel {
 		artist.setSelectedItem(null);
 		titre.setSelectedItem(null);
 		type.setSelectedItem(null);
+		searchMethod.setSelectedItem(SearchMethod.CONTAINS);
 		publi.setText("");
 		fileName.setText("");
 		author.setSelectedItem(null);

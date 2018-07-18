@@ -24,6 +24,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
+import pmb.music.AllMusic.model.SearchMethod;
 
 /**
  * Classe utilitaire pour les {@link Composition}.
@@ -282,7 +283,7 @@ public class CompositionUtils {
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
 
 		List<Composition> search = new ArrayList<>();
-		search = SearchUtils.search(compoList, criteria, false, isStrictly, true);
+		search = SearchUtils.search(compoList, criteria, false, isStrictly ? SearchMethod.WHOLE_WORD : SearchMethod.CONTAINS, true);
 		if (search.size() > 1) {
 			LOG.debug("Compo: " + search.size());
 			search.stream().forEach(LOG::debug);
@@ -522,7 +523,7 @@ public class CompositionUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, true);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true);
 		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(MiscUtils.median(rankList));
@@ -539,7 +540,7 @@ public class CompositionUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, false, true);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true);
 		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(rankList.stream().mapToInt(Integer::intValue).max().getAsInt());

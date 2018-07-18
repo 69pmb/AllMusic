@@ -55,6 +55,7 @@ import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
+import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
@@ -385,9 +386,10 @@ public class ArtistPanel extends JPanel {
 						continue;
 					}
 					List<Fichier> files = c.getFiles().stream()
-							.filter(f -> SearchUtils.evaluateFichierStrictly(publi.getText(), null, auteur.getText(),
+							.filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, new JaroWinklerDistance(),
+									publi.getText(), null, auteur.getText(),
 									cat.getSelectedItem() != null ? cat.getSelectedItem().toString() : null,
-									rangeB.getText(), rangeE.getText(), f))
+									rangeB.getText(), rangeE.getText(), null, null, f))
 							.collect(Collectors.toList());
 					if (!files.isEmpty()) {
 						Composition newCompo = new Composition(c);
