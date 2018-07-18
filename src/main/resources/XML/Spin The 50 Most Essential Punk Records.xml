@@ -154,7 +154,7 @@
   <Composition artist="The Stooges" titre="Fun House" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin The 50 Most Essential Punk Records" publishYear="0" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="1" creationDate="21/07/2017 00:26:02" size="50"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin The 50 Most Essential Punk Records" publishYear="0" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="2" creationDate="21/07/2017 00:26:02" size="50"/>
   </Composition>
   <Composition artist="Velvet Underground" titre="White Light/White Heat" type="ALBUM" canBeMerged="true" deleted="false">

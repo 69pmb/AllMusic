@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Kendrick Lamar" titre="DAMN." type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Kendrick Lamar" titre="DAMN." type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="1" creationDate="17/12/2017 16:25:01" size="50"/>
   </Composition>
-  <Composition artist="LCD Soundsystem" titre="American Dream" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="LCD Soundsystem" titre="American Dream" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="2" creationDate="17/12/2017 16:25:01" size="50"/>
   </Composition>
   <Composition artist="Wolf Alice" titre="Visions of a Life" type="ALBUM" canBeMerged="true" deleted="false">

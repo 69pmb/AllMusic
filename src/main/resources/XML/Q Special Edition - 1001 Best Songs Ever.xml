@@ -49,7 +49,7 @@
   <Composition artist="David Bowie" titre="Sound And Vision" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="32" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="The Human League" titre="Don't You Want Me Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Human League" titre="Don't You Want Me Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="33" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Foo Fighters" titre="Monkey Wrench" type="SONG" canBeMerged="true" deleted="false">
@@ -199,7 +199,7 @@
   <Composition artist="D'angelo" titre="Brown Sugar" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="113" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="115" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="2Pac" titre="California Love" type="SONG" canBeMerged="true" deleted="false">
@@ -508,7 +508,7 @@
   <Composition artist="Crowded House" titre="Weather With You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="275" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Derek And The Dominos" titre="Layla" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Derek And The Dominos" titre="Layla" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="276" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Soul II Soul" titre="Keep On Movin'" type="SONG" canBeMerged="true" deleted="false">

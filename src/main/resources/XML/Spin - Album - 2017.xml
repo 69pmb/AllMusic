@@ -76,7 +76,7 @@
   <Composition artist="PERFUME GENIUS" titre="NO SHAPE" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="26" creationDate="26/12/2017 10:43:28" size="50"/>
   </Composition>
-  <Composition artist="LCD SOUNDSYSTEM" titre="AMERICAN DREAM" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="LCD SOUNDSYSTEM" titre="AMERICAN DREAM" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="25" creationDate="26/12/2017 10:43:28" size="50"/>
   </Composition>
   <Composition artist="SAMPHA" titre="PROCESS" type="ALBUM" canBeMerged="true" deleted="false">
@@ -148,7 +148,7 @@
   <Composition artist="BIG THIEF" titre="CAPACITY" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="2" creationDate="26/12/2017 10:43:28" size="50"/>
   </Composition>
-  <Composition artist="KENDRICK LAMAR" titre="DAMN" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="KENDRICK LAMAR" titre="DAMN" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="1" creationDate="26/12/2017 10:43:28" size="50"/>
   </Composition>
 </ListCompositions>

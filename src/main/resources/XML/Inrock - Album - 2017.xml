@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Kendrick Lamar" titre="DAMN." type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Kendrick Lamar" titre="DAMN." type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="1" creationDate="26/12/2017 19:32:56" size="100"/>
   </Composition>
   <Composition artist="King Krule" titre="The OOZ" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="2" creationDate="26/12/2017 19:32:56" size="100"/>
   </Composition>
-  <Composition artist="LCD Soundsystem" titre="american dream" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="LCD Soundsystem" titre="american dream" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="3" creationDate="26/12/2017 19:32:56" size="100"/>
   </Composition>
   <Composition artist="Migos" titre="Culture" type="ALBUM" canBeMerged="true" deleted="false">

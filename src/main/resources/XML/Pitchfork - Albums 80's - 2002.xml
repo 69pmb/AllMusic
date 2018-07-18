@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Albums 80's - 2002" publishYear="2002" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="1" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="Tom Waits" titre="Rain Dogs" type="ALBUM" canBeMerged="true" deleted="false">
@@ -106,7 +106,7 @@
   <Composition artist="Kraftwerk" titre="Computer World" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Albums 80's - 2002" publishYear="2002" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="44" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Albums 80's - 2002" publishYear="2002" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="45" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="XTC" titre="English Settlement" type="ALBUM" canBeMerged="true" deleted="false">
