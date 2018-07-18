@@ -139,6 +139,7 @@ public class CleanFile {
 						}
 						if (StringUtils.endsWithIgnoreCase(name, Constant.TXT_EXTENSION)) {
 							String replaceAll = Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+							replaceAll = StringUtils.stripAccents(replaceAll);
 							if (!StringUtils.endsWithIgnoreCase(line, replaceAll)) {
 								modify = true;
 							}
