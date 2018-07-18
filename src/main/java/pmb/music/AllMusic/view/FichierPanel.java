@@ -46,6 +46,7 @@ import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
@@ -54,6 +55,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -598,7 +600,7 @@ public class FichierPanel extends JPanel {
 			LOG.debug("Aucune modification");
 			return;
 		}
-		
+
 		boolean isDeleted = false;
 		// On modifie la composition
 		compoToModifInTable.setArtist(v.get(INDEX_COMPO_ARTIST));
@@ -632,11 +634,11 @@ public class FichierPanel extends JPanel {
 			LOG.error(log, e1);
 			label = log;
 		}
-		
+
 		// On remplace par la nouvelle composition dans le tableau
 		compositionList.remove(indexOfResult);
 		compositionList.add(compoToModifInTable);
-		
+
 		// On modifier les fichier xml en conséquence
 		try {
 			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST),
@@ -661,9 +663,10 @@ public class FichierPanel extends JPanel {
 						.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
 		if (CollectionUtils.isNotEmpty(fichiers)) {
 			CollectionUtils.filter(fichiers,
-					(Object f) -> SearchUtils.evaluateFichierContains(publi.getText(), name.getText(),
-							auteur.getSelectedItem().toString(), cat.getSelectedItem().toString(), rangeB.getText(),
-							rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f));
+					(Object f) -> SearchUtils.filterFichier(SearchMethod.CONTAINS, new JaroWinklerDistance(),
+							publi.getText(), name.getText(), auteur.getSelectedItem().toString(),
+							cat.getSelectedItem().toString(), rangeB.getText(), rangeE.getText(),
+							sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f));
 			updateFileTable();
 		}
 		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");

@@ -19,6 +19,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.model.SearchMethod;
 
 /**
  * Contient les méthodes de recherche dans une liste de {@link Composition} avec
@@ -50,15 +51,14 @@ public class SearchUtils {
 	 * @param compoList la liste de compo dans laquelle rechercher
 	 * @param criteria les critères
 	 * @param searchInFiles si on doit filtrer ou non les fichiers des compos
-	 * @param strictly {@code true} recherche stricte: le champ doit être exactement
-	 *            égal au critère. {@code false}: Les critères de recherche sont
-	 *            utilisés comme des {@code '%like'}.
+	 * @param searchMethod {@link SearchMethod} la façon de rechercher dans les
+	 *            chaines de caractères
 	 * @param deleted if false return only compositions not deleted, if true all
 	 *            compositions
 	 * @return la liste de compo filtrée selon les critères
 	 */
 	public static List<Composition> search(List<Composition> compoList, Map<String, String> criteria,
-			final boolean searchInFiles, boolean strictly, boolean deleted) {
+			final boolean searchInFiles, SearchMethod searchMethod, boolean deleted) {
 		LOG.debug("Start search");
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> arrayList = new ArrayList<>(compoList);
@@ -87,13 +87,9 @@ public class SearchUtils {
 		if (searchCompo || searchFile) {
 			LOG.debug("Critères de recherche: " + criteria.entrySet().stream()
 					.map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
-			if (strictly) {
-				CollectionUtils.filter(arrayList, (Object c) -> filterStrictly(artist, titre, type, deleted, publish,
-						fileName, auteur, cat, dateB, dateE, searchFile, c));
-			} else {
-				CollectionUtils.filter(arrayList, (Object c) -> filterJaro(searchInFiles, jaro, artist, titre, type,
-						deleted, publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
-			}
+			CollectionUtils.filter(arrayList,
+					(Object c) -> filterCompositions(searchMethod, searchInFiles, jaro, artist, titre, type, deleted,
+							publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
 		} else if (!deleted) {
 			CollectionUtils.filter(arrayList, (Object c) -> !((Composition) c).isDeleted());
 		}
@@ -101,18 +97,19 @@ public class SearchUtils {
 		return arrayList;
 	}
 
-	private static boolean filterJaro(final boolean searchInFiles, final JaroWinklerDistance jaro, final String artist,
-			final String titre, final String type, final boolean deleted, final String publish, final String fileName,
-			final String auteur, final String cat, final String dateB, final String dateE, final String sorted,
-			final String topTen, final boolean searchFile, Object c) {
+	private static boolean filterCompositions(final SearchMethod searchMethod, final boolean searchInFiles,
+			final JaroWinklerDistance jaro, final String artist, final String titre, final String type,
+			final boolean deleted, final String publish, final String fileName, final String auteur, final String cat,
+			final String dateB, final String dateE, final String sorted, final String topTen, final boolean searchFile,
+			Object c) {
 		Composition co = (Composition) c;
 
 		boolean result = true;
 		if (StringUtils.isNotBlank(artist)) {
-			result = result && isEqualsByJaroCriteria(jaro, artist, co.getArtist());
+			result = result && compareString(artist, co.getArtist(), searchMethod, jaro);
 		}
 		if (result && StringUtils.isNotBlank(titre)) {
-			result = result && isEqualsByJaroCriteria(jaro, titre, co.getTitre());
+			result = result && compareString(titre, co.getTitre(), searchMethod, jaro);
 		}
 		if (result && type != null) {
 			result = result && co.getRecordType() == RecordType.valueOf(type);
@@ -123,8 +120,8 @@ public class SearchUtils {
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (result && searchFile && CollectionUtils.isNotEmpty(files)) {
-			CollectionUtils.filter(files, (Object f) -> evaluateFichierContains(publish, fileName, auteur, cat, dateB,
-					dateE, sorted, topTen, f));
+			CollectionUtils.filter(files, (Object f) -> filterFichier(searchMethod, jaro, publish, fileName, auteur,
+					cat, dateB, dateE, sorted, topTen, f));
 		}
 		if (searchInFiles) {
 			co.setFiles(files);
@@ -132,10 +129,19 @@ public class SearchUtils {
 		return result && CollectionUtils.isNotEmpty(files);
 	}
 
-	private static boolean isEqualsByJaroCriteria(final JaroWinklerDistance jaro, final String text, String newText) {
-		String noPunctuation = removePunctuation(newText);
-		return isEqualsJaro(jaro, noPunctuation, text, Constant.SCORE_LIMIT_SEARCH)
-				|| StringUtils.containsIgnoreCase(newText, text);
+	/**
+	 * Returns if the two given text are equals if their {@link JaroWinklerDistance}
+	 * score is greater than the {@link Constant#SCORE_LIMIT_SEARCH}. Removes
+	 * punctuation before testing, and tests also with a basic containsIgnoreCase.
+	 * 
+	 * @param jaro a {@link JaroWinklerDistance} instance
+	 * @param s1 a string
+	 * @param s2 another string
+	 * @return true if the score is equal or greater than the limit
+	 */
+	private static boolean isEqualsJaroForSearch(final JaroWinklerDistance jaro, String s1, String s2) {
+		return isEqualsJaro(jaro, removePunctuation(s2), removePunctuation(s1), Constant.SCORE_LIMIT_SEARCH)
+				|| StringUtils.containsIgnoreCase(s2, s1) || StringUtils.containsIgnoreCase(s1, s2);
 	}
 
 	/**
@@ -176,35 +182,9 @@ public class SearchUtils {
 		return StringUtils.isBlank(res) ? text : res;
 	}
 
-	private static boolean filterStrictly(final String artist, final String titre, final String type,
-			final boolean deleted, final String publish, final String fileName, final String auteur, final String cat,
-			final String dateB, final String dateE, final boolean searchFile, Object c) {
-		Composition co = (Composition) c;
-
-		boolean result = true;
-		if (StringUtils.isNotBlank(artist)) {
-			result = result && StringUtils.equalsIgnoreCase(co.getArtist(), artist);
-		}
-		if (result && StringUtils.isNotBlank(titre)) {
-			result = result && StringUtils.equalsIgnoreCase(co.getTitre(), titre);
-		}
-		if (result && type != null) {
-			result = result && co.getRecordType() == RecordType.valueOf(type);
-		}
-		if (result && !deleted) {
-			result = result && !co.isDeleted();
-		}
-
-		List<Fichier> files = new ArrayList<>(co.getFiles());
-		if (result && searchFile && CollectionUtils.isNotEmpty(files)) {
-			CollectionUtils.filter(files,
-					(Object f) -> evaluateFichierStrictly(publish, fileName, auteur, cat, dateB, dateE, f));
-		}
-		return result && CollectionUtils.isNotEmpty(files);
-	}
-
-	public static boolean evaluateFichierStrictly(final String publish, final String fileName, final String auteur,
-			final String cat, final String dateB, final String dateE, Object f) {
+	public static boolean filterFichier(final SearchMethod searchMethod, JaroWinklerDistance jaro, final String publish,
+			final String fileName, final String auteur, final String cat, final String dateB, final String dateE,
+			final String sorted, final String topTen, Object f) {
 		Fichier fi = (Fichier) f;
 		boolean result = true;
 
@@ -212,46 +192,25 @@ public class SearchUtils {
 			result = result && fi.getPublishYear() == Integer.parseInt(publish);
 		}
 		if (result && StringUtils.isNotBlank(fileName)) {
-			result = result && StringUtils.equalsIgnoreCase(fi.getFileName(), fileName);
+			result = result && compareString(fi.getFileName(), fileName, searchMethod, jaro);
 		}
 		if (result && StringUtils.isNotBlank(auteur)) {
-			result = result && StringUtils.equalsIgnoreCase(fi.getAuthor(), auteur);
+			result = result && compareString(fi.getAuthor(), auteur, searchMethod, jaro);
 		}
 		if (result && StringUtils.isNotBlank(cat)) {
 			result = result && fi.getCategorie() == Cat.valueOf(cat);
 		}
 		if (result && StringUtils.isNotBlank(dateB)) {
-			result = result && fi.getRangeDateBegin() == Integer.parseInt(dateB);
+			result = result && ((searchMethod.equals(SearchMethod.CONTAINS)
+					&& fi.getRangeDateBegin() >= Integer.parseInt(dateB))
+					|| (!searchMethod.equals(SearchMethod.CONTAINS)
+							&& fi.getRangeDateBegin() == Integer.parseInt(dateB)));
 		}
 		if (result && StringUtils.isNotBlank(dateE)) {
-			result = result && fi.getRangeDateEnd() == Integer.parseInt(dateE);
-		}
-		return result;
-	}
-
-	public static boolean evaluateFichierContains(final String publish, final String fileName, final String auteur,
-			final String cat, final String dateB, final String dateE, final String sorted, final String topTen,
-			Object f) {
-		Fichier fi = (Fichier) f;
-		boolean result = true;
-
-		if (StringUtils.isNotBlank(publish)) {
-			result = result && fi.getPublishYear() == Integer.parseInt(publish);
-		}
-		if (result && StringUtils.isNotBlank(fileName)) {
-			result = result && StringUtils.containsIgnoreCase(fi.getFileName(), fileName);
-		}
-		if (result && StringUtils.isNotBlank(auteur)) {
-			result = result && StringUtils.containsIgnoreCase(fi.getAuthor(), auteur);
-		}
-		if (result && StringUtils.isNotBlank(cat)) {
-			result = result && fi.getCategorie() == Cat.valueOf(cat);
-		}
-		if (result && StringUtils.isNotBlank(dateB)) {
-			result = result && fi.getRangeDateBegin() >= Integer.parseInt(dateB);
-		}
-		if (result && StringUtils.isNotBlank(dateE)) {
-			result = result && fi.getRangeDateEnd() <= Integer.parseInt(dateE);
+			result = result
+					&& ((searchMethod.equals(SearchMethod.CONTAINS) && fi.getRangeDateEnd() <= Integer.parseInt(dateE))
+							|| (!searchMethod.equals(SearchMethod.CONTAINS)
+									&& fi.getRangeDateEnd() == Integer.parseInt(dateE)));
 		}
 		if (result && StringUtils.isNotBlank(sorted)) {
 			result = result && BooleanUtils.toBoolean(sorted) == fi.getSorted();
@@ -260,6 +219,66 @@ public class SearchUtils {
 			result = result && fi.getClassement() <= 10 && fi.getSorted();
 		}
 		return result;
+	}
+
+	/**
+	 * Compares two given strings depending on the search method.
+	 * <p>
+	 * {@link SearchMethod#CONTAINS}:
+	 * {@link SearchUtils#isEqualsJaroForSearch(JaroWinklerDistance, String, String)}
+	 * {@link SearchMethod#BEGINS_WITH}:
+	 * {@link StringUtils#startsWithIgnoreCase(CharSequence, CharSequence)}
+	 * {@link SearchMethod#JOKER}: {@link String#matches(String)}
+	 * {@link SearchMethod#WHOLE_WORD}:
+	 * {@link StringUtils#equalsIgnoreCase(CharSequence, CharSequence)}
+	 * </p>
+	 * 
+	 * @param s1 a string
+	 * @param s2 another string
+	 * @param searchMethod {@link SearchMethod} the way of comparing the strings
+	 * @param jaro a jaro wrinkler instance if needed
+	 * @return true if the strings are equals according to the search method, false
+	 *         otherwise
+	 */
+	private static boolean compareString(String s1, String s2, SearchMethod searchMethod, JaroWinklerDistance jaro) {
+		switch (searchMethod) {
+		case CONTAINS:
+			return isEqualsJaroForSearch(jaro, s1, s2);
+		case BEGINS_WITH:
+			return StringUtils.startsWithIgnoreCase(s1, s2) || StringUtils.startsWithIgnoreCase(s2, s1);
+		case JOKER:
+			return s1.toLowerCase().matches(stripRegexCharacters(s2))
+					|| s2.toLowerCase().matches(stripRegexCharacters(s1));
+		case WHOLE_WORD:
+			return StringUtils.equalsIgnoreCase(s1, s2);
+		default:
+			return false;
+		}
+	}
+
+	/**
+	 * Remove all regex characters from the given string.
+	 * 
+	 * <pre>
+	 * stripRegexCharacters(null)   = ""
+	 * stripRegexCharacters("")     = ""
+	 * stripRegexCharacters("aa")   = "aa"
+	 * stripRegexCharacters("a*")   = "a"
+	 * stripRegexCharacters("a(b")  = "ab"
+	 * stripRegexCharacters("ab]c") = "abc"
+	 * </pre>
+	 * 
+	 * @param text a string
+	 * @return empty string if given string blank, the string stripped of regex
+	 *         characters
+	 */
+	private static String stripRegexCharacters(String text) {
+		if (StringUtils.isBlank(text)) {
+			return "";
+		}
+		return text.replaceAll("\\*", ".*").replaceAll("\\(", "").replaceAll("\\)", "").replaceAll("\\?", "")
+				.replaceAll("\\{", "").replaceAll("\\}", "").replaceAll("\\[", "").replaceAll("\\]", "")
+				.replaceAll("\\+", "").toLowerCase();
 	}
 
 	/**
