@@ -130,7 +130,7 @@
   <Composition artist="Hurray For The Riff Raff" titre="The Bavigator" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="8" creationDate="17/12/2017 16:08:07" size="50"/>
   </Composition>
-  <Composition artist="Kendrick Lamar" titre="Damn" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Kendrick Lamar" titre="Damn" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="7" creationDate="17/12/2017 16:08:07" size="50"/>
   </Composition>
   <Composition artist="St. Vincent" titre="Masseducation" type="ALBUM" canBeMerged="true" deleted="false">
@@ -148,7 +148,7 @@
   <Composition artist="Nadia Reid" titre="Preservation" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="2" creationDate="17/12/2017 16:08:07" size="50"/>
   </Composition>
-  <Composition artist="LCD Soundsystem" titre="American Dream" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="LCD Soundsystem" titre="American Dream" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="1" creationDate="17/12/2017 16:08:07" size="50"/>
   </Composition>
 </ListCompositions>

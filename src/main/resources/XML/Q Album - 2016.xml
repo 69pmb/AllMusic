@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="David Bowie" titre="Blackstar" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Blackstar" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="1" creationDate="02/09/2017 08:04:16" size="50"/>
   </Composition>
   <Composition artist="Leonard Cohen" titre="You Want It Darker" type="ALBUM" canBeMerged="true" deleted="false">
@@ -16,7 +16,7 @@
   <Composition artist="Nick Cave And The Bad Seeds" titre="Skeleton Tree" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="5" creationDate="02/09/2017 08:04:16" size="50"/>
   </Composition>
-  <Composition artist="Radiohead" titre="A Moon Shaped Pool" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="A Moon Shaped Pool" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="6" creationDate="02/09/2017 08:04:16" size="50"/>
   </Composition>
   <Composition artist="Cass McCombs" titre="Mangy Love" type="ALBUM" canBeMerged="true" deleted="false">
@@ -37,7 +37,7 @@
   <Composition artist="Goat" titre="Requiem" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="12" creationDate="02/09/2017 08:04:16" size="50"/>
   </Composition>
-  <Composition artist="Beyonce" titre="Lemonade" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beyonce" titre="Lemonade" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="13" creationDate="02/09/2017 08:04:16" size="50"/>
   </Composition>
   <Composition artist="Michael Kiwanuka" titre="Love And Hate" type="ALBUM" canBeMerged="true" deleted="false">
@@ -124,7 +124,7 @@
   <Composition artist="Kevin Morby" titre="Singing Saw" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="41" creationDate="02/09/2017 08:04:16" size="50"/>
   </Composition>
-  <Composition artist="Solange" titre="A Seat At The Table" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Solange" titre="A Seat At The Table" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="42" creationDate="02/09/2017 08:04:16" size="50"/>
   </Composition>
   <Composition artist="The Coral" titre="Distance Inbetween" type="ALBUM" canBeMerged="true" deleted="false">

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="LCD Soundsystem" titre="American Dream" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="LCD Soundsystem" titre="American Dream" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="1" creationDate="17/12/2017 16:23:55" size="75"/>
   </Composition>
   <Composition artist="The War On Drugs" titre="A Deeper Understanding" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="2" creationDate="17/12/2017 16:23:55" size="75"/>
   </Composition>
-  <Composition artist="Kendrick Lamar" titre="Damn" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Kendrick Lamar" titre="Damn" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="3" creationDate="17/12/2017 16:23:55" size="75"/>
   </Composition>
   <Composition artist="The Weather Station" titre="The Weather Station" type="ALBUM" canBeMerged="true" deleted="false">

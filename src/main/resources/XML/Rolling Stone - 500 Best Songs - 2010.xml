@@ -76,7 +76,7 @@
   <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="25" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Derek and the Dominos" titre="Layla" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Derek and the Dominos" titre="Layla" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="27" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="A Day in the Life" type="SONG" canBeMerged="true" deleted="false">
@@ -163,7 +163,7 @@
   <Composition artist="Little Richard" titre="Long Tall Sally" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="55" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Sex Pistols" titre="Anarchy in the U.K." type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Sex Pistols" titre="Anarchy in the U.K." type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="56" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Procol Harum" titre="Whiter Shade of Pale" type="SONG" canBeMerged="true" deleted="false">
@@ -997,7 +997,7 @@
   <Composition artist="The Young Rascals" titre="Good Lovin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="333" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="James Brown" titre="Get Up (I Feel Like Being a) Sex Machine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="James Brown" titre="Get Up (I Feel Like Being a) Sex Machine" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="334" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Jerry Butler and the Impressions" titre="For Your Precious Love" type="SONG" canBeMerged="true" deleted="false">
