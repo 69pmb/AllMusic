@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="12" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
@@ -16,10 +16,10 @@
   <Composition artist="Suede" titre="Dog Man Star" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="31" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="37" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="41" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Stevie Wonder" titre="Innervisions" type="ALBUM" canBeMerged="true" deleted="false">
@@ -376,7 +376,7 @@
   <Composition artist="Ac/Dc" titre="Back In Black" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="197" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="198" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Boo Radleys" titre="Giant Steps" type="ALBUM" canBeMerged="true" deleted="false">

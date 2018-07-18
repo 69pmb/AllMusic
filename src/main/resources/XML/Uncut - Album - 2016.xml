@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="David Bowie" titre="Blackstar" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Blackstar" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="1" creationDate="04/09/2017 14:19:10" size="75"/>
   </Composition>
-  <Composition artist="Radiohead" titre="A Moon Shaped Pool" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="A Moon Shaped Pool" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="2" creationDate="04/09/2017 14:19:10" size="75"/>
   </Composition>
   <Composition artist="Nick Cave And The Bad Seeds" titre="Skeleton Tree" type="ALBUM" canBeMerged="true" deleted="false">
@@ -28,7 +28,7 @@
   <Composition artist="Teenage Fanclub" titre="Here" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="9" creationDate="04/09/2017 14:19:10" size="75"/>
   </Composition>
-  <Composition artist="Beyonce" titre="Lemonade" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beyonce" titre="Lemonade" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="10" creationDate="04/09/2017 14:19:10" size="75"/>
   </Composition>
   <Composition artist="Thee Oh Sees" titre="A Weird Exits" type="ALBUM" canBeMerged="true" deleted="false">
@@ -52,7 +52,7 @@
   <Composition artist="Cavern Of Anti-Matter" titre="Void Beats/Invocation Trex" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="17" creationDate="04/09/2017 14:19:10" size="75"/>
   </Composition>
-  <Composition artist="Solange" titre="A Seat At The Table" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Solange" titre="A Seat At The Table" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="18" creationDate="04/09/2017 14:19:10" size="75"/>
   </Composition>
   <Composition artist="Lambchop" titre="Flotus" type="ALBUM" canBeMerged="true" deleted="false">
