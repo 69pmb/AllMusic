@@ -259,11 +259,11 @@ public class SearchUtils {
 	 * Remove all regex characters from the given string.
 	 * 
 	 * <pre>
-	 * stripRegexCharacters(null)   = ""
-	 * stripRegexCharacters("")     = ""
-	 * stripRegexCharacters("aa")   = "aa"
-	 * stripRegexCharacters("a*")   = "a"
-	 * stripRegexCharacters("a(b")  = "ab"
+	 * stripRegexCharacters(null)	= ""
+	 * stripRegexCharacters("")		= ""
+	 * stripRegexCharacters("aa")	= "aa"
+	 * stripRegexCharacters("a*")	= "a"
+	 * stripRegexCharacters("a(b")	= "ab"
 	 * stripRegexCharacters("ab]c") = "abc"
 	 * </pre>
 	 * 

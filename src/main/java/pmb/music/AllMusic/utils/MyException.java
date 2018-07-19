@@ -1,52 +1,56 @@
 package pmb.music.AllMusic.utils;
 
-
 /**
  * La classe d'exception du programme.
+ * 
  */
 public class MyException extends Exception {
-    private static final long serialVersionUID = 1L;
-    
-    /**
-     * Constructeur avec message.
-     * @param message le message d'erreur
-     */
-    public MyException(String message) {
-        super(message);
-    }
-    
-    /**
-     * Constructeur avec message et throwable.
-     * @param message le message d'erreur
-     * @param throwable la cause de l'erreur
-     */
-    public MyException(String message, Throwable throwable) {
-        super(message, throwable);
-    }
+	private static final long serialVersionUID = 1L;
 
-    /**
-     * Constructeur parent vide.
-     */
-    public MyException() {
-        super();
-    }
+	/**
+	 * Constructeur avec message.
+	 * 
+	 * @param message le message d'erreur
+	 */
+	public MyException(String message) {
+		super(message);
+	}
 
-    /**
-     * Constructeur.
-     * @param message le message d'erreur
-     * @param cause la cause de l'erreur
-     * @param enableSuppression
-     * @param writableStackTrace
-     */
-    public MyException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-        super(message, cause, enableSuppression, writableStackTrace);
-    }
+	/**
+	 * Constructeur avec message et throwable.
+	 * 
+	 * @param message le message d'erreur
+	 * @param throwable la cause de l'erreur
+	 */
+	public MyException(String message, Throwable throwable) {
+		super(message, throwable);
+	}
 
-    /**
-     * Constructeur avec le throwable.
-     * @param cause la cause de l'erreur
-     */
-    public MyException(Throwable cause) {
-        super(cause);
-    }
+	/**
+	 * Constructeur parent vide.
+	 */
+	public MyException() {
+		super();
+	}
+
+	/**
+	 * Constructeur.
+	 * 
+	 * @param message le message d'erreur
+	 * @param cause la cause de l'erreur
+	 * @param enableSuppression
+	 * @param writableStackTrace
+	 */
+	public MyException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+	}
+
+	/**
+	 * Constructeur avec le throwable.
+	 * 
+	 * @param cause la cause de l'erreur
+	 */
+	public MyException(Throwable cause) {
+		super(cause);
+	}
 }

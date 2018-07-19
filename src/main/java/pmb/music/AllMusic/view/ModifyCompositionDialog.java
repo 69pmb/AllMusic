@@ -22,11 +22,12 @@ import pmb.music.AllMusic.model.RecordType;
 
 /**
  * Une "pop-up" permettant de modifier une composition.
+ * 
  * @see {@link JDialog}
  */
 @SuppressWarnings("rawtypes")
 public class ModifyCompositionDialog extends JDialog {
-	
+
 	private static final long serialVersionUID = 1304786661370052913L;
 	private static final Logger LOG = Logger.getLogger(ModifyCompositionDialog.class);
 	private final Vector compo;
@@ -37,6 +38,7 @@ public class ModifyCompositionDialog extends JDialog {
 
 	/**
 	 * Constructeur de {@link ModifyCompositionDialog}.
+	 * 
 	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
@@ -49,7 +51,7 @@ public class ModifyCompositionDialog extends JDialog {
 		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
-	    this.setDefaultCloseOperation(JDialog.HIDE_ON_CLOSE);
+		this.setDefaultCloseOperation(JDialog.HIDE_ON_CLOSE);
 		this.compo = compo;
 		this.setResizable(true);
 		initComposant();
@@ -67,7 +69,7 @@ public class ModifyCompositionDialog extends JDialog {
 		artist.setPreferredSize(new Dimension(230, 30));
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
-		
+
 		// Titre
 		JPanel titrePanel = new JPanel();
 		titrePanel.setPreferredSize(new Dimension(300, 60));
@@ -90,15 +92,15 @@ public class ModifyCompositionDialog extends JDialog {
 		type.setSelectedItem(RecordType.valueOf((String) compo.get(2)));
 		typePanel.add(typeLabel);
 		typePanel.add(type);
-		
-	    JPanel content = new JPanel();
-	    content.add(artistPanel);
-	    content.add(titrePanel);
-	    content.add(typePanel);
-	    
-	    JPanel control = new JPanel();
-	    JButton okBouton = new JButton("OK");
-	    
+
+		JPanel content = new JPanel();
+		content.add(artistPanel);
+		content.add(titrePanel);
+		content.add(typePanel);
+
+		JPanel control = new JPanel();
+		JButton okBouton = new JButton("OK");
+
 		okBouton.addActionListener((ActionEvent arg0) -> {
 			setVisible(false);
 			sendData = true;
@@ -107,17 +109,17 @@ public class ModifyCompositionDialog extends JDialog {
 			compo.set(2, type.getSelectedItem().toString());
 		});
 
-	    JButton cancelBouton = new JButton("Annuler");
-	    cancelBouton.addActionListener((ActionEvent arg0) -> {
-	    	setVisible(false);
-	    	sendData = false;
-	    });
+		JButton cancelBouton = new JButton("Annuler");
+		cancelBouton.addActionListener((ActionEvent arg0) -> {
+			setVisible(false);
+			sendData = false;
+		});
 
-	    control.add(okBouton);
-	    control.add(cancelBouton);
-	    
-	    this.getContentPane().add(content, BorderLayout.CENTER);
-	    this.getContentPane().add(control, BorderLayout.SOUTH);
+		control.add(okBouton);
+		control.add(cancelBouton);
+
+		this.getContentPane().add(content, BorderLayout.CENTER);
+		this.getContentPane().add(control, BorderLayout.SOUTH);
 		LOG.debug("End initComposant");
 	}
 
@@ -126,9 +128,9 @@ public class ModifyCompositionDialog extends JDialog {
 	 */
 	public void showDialogFileTable() {
 		LOG.debug("Start showDialogFileTable");
-	    this.sendData = false;
-	    this.setVisible(true);  
-		LOG.debug("End showDialogFileTable");    
+		this.sendData = false;
+		this.setVisible(true);
+		LOG.debug("End showDialogFileTable");
 	}
 
 	public Vector getCompo() {

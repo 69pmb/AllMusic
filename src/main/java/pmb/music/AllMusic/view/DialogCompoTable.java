@@ -31,6 +31,7 @@ import pmb.music.AllMusic.view.model.CompoDialogModel;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Composition}.
+ * 
  * @see {@link JDialog}
  */
 public class DialogCompoTable extends JDialog {
@@ -51,6 +52,7 @@ public class DialogCompoTable extends JDialog {
 
 	/**
 	 * Constructeur.
+	 * 
 	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
@@ -86,7 +88,8 @@ public class DialogCompoTable extends JDialog {
 		table.setBackground(UIManager.getColor("Label.background"));
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));
-		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, true, false, null), new Vector(Arrays.asList(header))));
+		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, true, false, null),
+				new Vector(Arrays.asList(header))));
 		table.getRowSorter().toggleSortOrder(INDEX_RANK);
 		table.addMouseListener(new MouseAdapter() {
 
@@ -110,11 +113,13 @@ public class DialogCompoTable extends JDialog {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
 			JTable target = (JTable) e.getSource();
-			int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+			int rowAtPoint = target
+					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
 			if (rowAtPoint > -1) {
 				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			}
-			Vector<String> v = (Vector<String>) ((CompoDialogModel) target.getModel()).getDataVector().get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+			Vector<String> v = (Vector<String>) ((CompoDialogModel) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 			StringSelection selection = new StringSelection(v.get(INDEX_ARTIST) + " " + v.get(INDEX_TITLE));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
