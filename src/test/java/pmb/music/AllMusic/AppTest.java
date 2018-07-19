@@ -27,7 +27,7 @@ import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.text.WordUtils;
+import org.apache.commons.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
