@@ -1,5 +1,6 @@
 package pmb.music.AllMusic.view;
 
+import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.event.KeyEvent;
@@ -7,12 +8,14 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Vector;
 
+import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
+import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
@@ -30,6 +33,8 @@ import pmb.music.AllMusic.view.model.AbstractModel;
 public class PanelUtils {
 
 	private static final Logger LOG = Logger.getLogger(PanelUtils.class);
+	public static final int PANEL_HEIGHT = 60;
+	public static final int COMPONENT_HEIGHT = 25;
 
 	/**
 	 * Dimensionne les colonnes du tableau et ajoute des couleurs aux lignes.
@@ -198,5 +203,15 @@ public class PanelUtils {
 		component.setAlignmentY(Component.CENTER_ALIGNMENT);
 		panel.add(component);
 		panel.add(Box.createRigidArea(new Dimension(rigidSize, 0)));
+	}
+
+	public static void setBorder(JComponent comp, Color c) {
+		comp.setBorder(BorderFactory.createLineBorder(c, 2));
+	}
+
+	public static JLabel createJLabel(String text, int width) {
+		JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
+		setSize(jLabel, width, COMPONENT_HEIGHT);
+		return jLabel;
 	}
 }
