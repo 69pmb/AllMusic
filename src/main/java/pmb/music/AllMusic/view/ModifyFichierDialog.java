@@ -24,6 +24,7 @@ import pmb.music.AllMusic.model.Cat;
 
 /**
  * Une "pop-up" permettant de modifier un fichier.
+ * 
  * @see {@link JDialog}
  * @author pmbroca
  */
@@ -49,6 +50,7 @@ public class ModifyFichierDialog extends JDialog {
 
 	/**
 	 * Constructeur de {@link ModifyFichierDialog}.
+	 * 
 	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
@@ -59,7 +61,7 @@ public class ModifyFichierDialog extends JDialog {
 		LOG.debug("Start ModifyFichierDialog");
 		this.setSize(new Dimension(1200, 150));
 		this.setLocationRelativeTo(null);
-	    this.setDefaultCloseOperation(JDialog.HIDE_ON_CLOSE);
+		this.setDefaultCloseOperation(JDialog.HIDE_ON_CLOSE);
 		this.fichier = fichier;
 		this.setResizable(true);
 		initComposant();
@@ -85,7 +87,7 @@ public class ModifyFichierDialog extends JDialog {
 		publishYear.setPreferredSize(new Dimension(50, 30));
 		publishYearPanel.add(publishYearLabel);
 		publishYearPanel.add(publishYear);
-		
+
 		// Range
 		JPanel rangePanel = new JPanel();
 		PanelUtils.setSize(rangePanel, 200, 60);
@@ -121,7 +123,7 @@ public class ModifyFichierDialog extends JDialog {
 		size.setPreferredSize(new Dimension(50, 30));
 		sizePanel.add(sizeLabel);
 		sizePanel.add(size);
-		
+
 		// Sorted
 		JPanel sortedPanel = new JPanel();
 		sortedPanel.setPreferredSize(new Dimension(50, 60));
@@ -173,9 +175,9 @@ public class ModifyFichierDialog extends JDialog {
 	 */
 	public void showDialogFileTable() {
 		LOG.debug("Start showDialogFileTable");
-	    this.sendData = false;
-	    this.setVisible(true);  
-		LOG.debug("End showDialogFileTable");    
+		this.sendData = false;
+		this.setVisible(true);
+		LOG.debug("End showDialogFileTable");
 	}
 
 	public Vector<String> getFichier() {

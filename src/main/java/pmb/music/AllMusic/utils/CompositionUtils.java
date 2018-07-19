@@ -284,7 +284,8 @@ public class CompositionUtils {
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
 
 		List<Composition> search = new ArrayList<>();
-		search = SearchUtils.search(compoList, criteria, false, isStrictly ? SearchMethod.WHOLE_WORD : SearchMethod.CONTAINS, true);
+		search = SearchUtils.search(compoList, criteria, false,
+				isStrictly ? SearchMethod.WHOLE_WORD : SearchMethod.CONTAINS, true);
 		if (search.size() > 1) {
 			LOG.debug("Compo: " + search.size());
 			search.stream().forEach(LOG::debug);
