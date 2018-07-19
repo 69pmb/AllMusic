@@ -38,6 +38,7 @@ import javax.swing.JTextField;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
+import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
@@ -224,7 +225,7 @@ public class SearchPanel extends JPanel {
 
 		search = new JButton("Chercher");
 		search.setBackground(Color.white);
-		search.setPreferredSize(new Dimension(220, 60));
+		search.setPreferredSize(new Dimension(220, PanelUtils.PANEL_HEIGHT));
 		search.addActionListener(searchAction);
 		search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW)
 				.put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0), "Enter_pressed");
@@ -233,19 +234,20 @@ public class SearchPanel extends JPanel {
 
 		// inFiles
 		JPanel inFilesPanel = new JPanel();
-		inFilesPanel.setPreferredSize(new Dimension(180, 60));
-		JLabel inFilesLabel = new JLabel("Rechercher dans les fichiers : ");
+		PanelUtils.setSize(inFilesPanel,200, PanelUtils.PANEL_HEIGHT);
+		JLabel inFilesLabel = PanelUtils.createJLabel("Rechercher dans les fichiers : ", 150);
 		inFiles = new JCheckBox();
-		inFiles.setPreferredSize(new Dimension(25, 25));
+		PanelUtils.setSize(inFiles,150, PanelUtils.COMPONENT_HEIGHT);
 		inFiles.setSelected(true);
+		inFiles.setHorizontalAlignment(SwingConstants.CENTER);
 		inFilesPanel.add(inFilesLabel);
 		inFilesPanel.add(inFiles);
 		top.add(inFilesPanel);
-
+		
 		// Clear Btn
 		JButton clear = new JButton("Réinitialiser recherche");
 		clear.setBackground(Color.white);
-		clear.setPreferredSize(new Dimension(200, 60));
+		clear.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
 		AbstractAction cleanAction = new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -261,7 +263,7 @@ public class SearchPanel extends JPanel {
 		// Delete Btn
 		JButton delete = new JButton("Supprimer les compositions sélectionnées");
 		delete.setBackground(Color.white);
-		delete.setPreferredSize(new Dimension(300, 60));
+		delete.setPreferredSize(new Dimension(300, PanelUtils.PANEL_HEIGHT));
 		delete.addActionListener((ActionEvent e) -> {
 			PanelUtils.deleteCompositionAction(artist2, compoResult, model.getSelected(), deleteLabel);
 			updateTable();
@@ -271,14 +273,14 @@ public class SearchPanel extends JPanel {
 		// Modif Btn
 		JButton modif = new JButton("Modifier la composition sélectionnée");
 		modif.setBackground(Color.white);
-		modif.setPreferredSize(new Dimension(300, 60));
+		modif.setPreferredSize(new Dimension(300, PanelUtils.PANEL_HEIGHT));
 		modif.addActionListener((ActionEvent e) -> modifAction(artist2));
 		top.add(modif);
 
 		// CSV
 		JButton csv = new JButton("Télécharger le résultat de la recherche en CSV");
 		csv.setBackground(Color.white);
-		csv.setPreferredSize(new Dimension(300, 60));
+		csv.setPreferredSize(new Dimension(300, PanelUtils.PANEL_HEIGHT));
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
 					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
@@ -322,32 +324,29 @@ public class SearchPanel extends JPanel {
 
 		// Artiste
 		JPanel artistPanel = new JPanel();
-		artistPanel.setPreferredSize(new Dimension(200, 60));
-		JLabel artistLabel = new JLabel("Artiste : ");
+		JLabel artistLabel = PanelUtils.createJLabel("Artiste : ", 200);
 		artist = new JComboBox<>();
 		AutoCompleteSupport.install(artist, GlazedLists.eventListOf(artistList.toArray()));
-		artist.setPreferredSize(new Dimension(150, 30));
+		artist.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
 		searchFields.add(artistPanel);
 
 		// Titre
 		JPanel titrePanel = new JPanel();
-		titrePanel.setPreferredSize(new Dimension(180, 60));
-		JLabel titreLabel = new JLabel("Titre : ");
+		JLabel titreLabel = PanelUtils.createJLabel("Titre : ", 180);
 		titre = new JComboBox<>();
 		AutoCompleteSupport.install(titre, GlazedLists.eventListOf(titleList.toArray()));
-		titre.setPreferredSize(new Dimension(150, 30));
+		titre.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		titrePanel.add(titreLabel);
 		titrePanel.add(titre);
 		searchFields.add(titrePanel);
 
 		// Nom du fichier
 		JPanel fileNamePanel = new JPanel();
-		PanelUtils.setSize(fileNamePanel, 300, 25);
-		JLabel fileNameLabel = new JLabel("Nom du fichier : ");
+		JLabel fileNameLabel = PanelUtils.createJLabel("Nom du fichier : ", 300);
 		fileName = new JTextField();
-		PanelUtils.setSize(fileName, 250, 25);
+		PanelUtils.setSize(fileName, 250, PanelUtils.COMPONENT_HEIGHT);
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
 		searchFields.add(fileNamePanel);
@@ -355,11 +354,11 @@ public class SearchPanel extends JPanel {
 		// Auteur
 		JPanel authorPanel = new JPanel();
 		JPanel panel = new JPanel();
-		JLabel authorLabel = new JLabel("Auteur : ");
+		JLabel authorLabel = PanelUtils.createJLabel("Auteur : ", 150);
 		author = new JComboBox<>();
 		AutoCompleteSupport.install(author, GlazedLists.eventListOf(authorList.toArray()));
-		PanelUtils.setSize(author, 150, 25);
-		PanelUtils.setSize(panel, 150, 60);
+		PanelUtils.setSize(author, 150, PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.setSize(panel, 150, PanelUtils.PANEL_HEIGHT);
 		panel.add(authorLabel);
 		panel.add(author);
 		authorPanel.add(panel);
@@ -367,41 +366,38 @@ public class SearchPanel extends JPanel {
 
 		// SearchMethod
 		JPanel searchMethodPanel = new JPanel();
-		searchMethodPanel.setPreferredSize(new Dimension(200, 60));
-		JLabel searchMethodLabel = new JLabel("Méthode de recherche : ");
+		JLabel searchMethodLabel = PanelUtils.createJLabel("Méthode de recherche : ", 150);
 		searchMethod = new JComboBox<>();
 		SearchMethod[] valuesSearch = SearchMethod.values();
 		for (int i = 0; i < valuesSearch.length; i++) {
 			searchMethod.addItem(valuesSearch[i]);
 		}
-		searchMethod.setPreferredSize(new Dimension(150, 25));
+		searchMethod.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		searchMethodPanel.add(searchMethodLabel);
 		searchMethodPanel.add(searchMethod);
 		searchFields.add(searchMethodPanel);
 
 		// Type
 		JPanel typePanel = new JPanel();
-		typePanel.setPreferredSize(new Dimension(180, 60));
-		JLabel typeLabel = new JLabel("Type : ");
+		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
 		type = new JComboBox<>();
 		type.addItem(null);
 		RecordType[] valuesType = RecordType.values();
 		for (int i = 0; i < valuesType.length; i++) {
 			type.addItem(valuesType[i]);
 		}
-		type.setPreferredSize(new Dimension(150, 25));
+		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		typePanel.add(typeLabel);
 		typePanel.add(type);
 		searchFields.add(typePanel);
 
 		// Range
 		JPanel rangePanel = new JPanel();
-		PanelUtils.setSize(rangePanel, 300, 25);
-		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
+		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 200);
 		rangeB = new JTextField();
 		rangeE = new JTextField();
-		PanelUtils.setSize(rangeB, 100, 25);
-		PanelUtils.setSize(rangeE, 100, 25);
+		PanelUtils.setSize(rangeB, 100, PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.setSize(rangeE, 100, PanelUtils.COMPONENT_HEIGHT);
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeB);
 		rangePanel.add(rangeE);
@@ -409,73 +405,70 @@ public class SearchPanel extends JPanel {
 
 		// Categorie
 		JPanel catPanel = new JPanel();
-		catPanel.setPreferredSize(new Dimension(200, 60));
-		JLabel catLabel = new JLabel("Catégorie : ");
+		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 150);
 		cat = new JComboBox<>();
 		cat.addItem(null);
 		Cat[] values = Cat.values();
 		for (int i = 0; i < values.length; i++) {
 			cat.addItem(values[i]);
 		}
-		cat.setPreferredSize(new Dimension(150, 25));
+		cat.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
 		searchFields.add(catPanel);
 
 		// Publi
 		JPanel publiPanel = new JPanel();
-		publiPanel.setPreferredSize(new Dimension(200, 60));
-		JLabel publiLabel = new JLabel("Année de publication : ");
+		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 200);
 		publi = new JTextField();
-		publi.setPreferredSize(new Dimension(150, 25));
+		publi.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		publiPanel.add(publiLabel);
 		publiPanel.add(publi);
 		searchFields.add(publiPanel);
 
 		// Sorted
 		JPanel sortedPanel = new JPanel();
-		sortedPanel.setPreferredSize(new Dimension(200, 25));
-		JLabel sortedLabel = new JLabel("Trié : ");
+		JLabel sortedLabel = PanelUtils.createJLabel("Trié : ", 150);
 		sorted = new JCheckBox();
-		sorted.setPreferredSize(new Dimension(150, 25));
+		sorted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		sorted.setHorizontalAlignment(SwingConstants.CENTER);
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 		searchFields.add(sortedPanel);
 
 		// Deleted
 		JPanel deletedPanel = new JPanel();
-		deletedPanel.setPreferredSize(new Dimension(200, 25));
-		JLabel deletedLabel = new JLabel("Supprimé : ");
+		JLabel deletedLabel = PanelUtils.createJLabel("Supprimé : ", 150);
 		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(150, 25));
+		deleted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		deleted.setHorizontalAlignment(SwingConstants.CENTER);
 		deletedPanel.add(deletedLabel);
 		deletedPanel.add(deleted);
 		searchFields.add(deletedPanel);
 
 		// TopTen
 		JPanel topPanel = new JPanel();
-		topPanel.setPreferredSize(new Dimension(200, 25));
-		JLabel topLabel = new JLabel("Top 10 : ");
+		JLabel topLabel = PanelUtils.createJLabel("Top 10 : ", 150);
 		topTen = new JCheckBox();
-		topTen.setPreferredSize(new Dimension(150, 25));
+		topTen.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		topTen.setHorizontalAlignment(SwingConstants.CENTER);
 		topPanel.add(topLabel);
 		topPanel.add(topTen);
 		searchFields.add(topPanel);
 
 		// Nombre de résultat
 		JPanel countPanel = new JPanel();
-		countPanel.setPreferredSize(new Dimension(200, 60));
-		countLabel = new JLabel("");
+		countLabel = PanelUtils.createJLabel("", 200);
 		countLabel.setForeground(new Color(8, 187, 81));
 		Font labelFont = countLabel.getFont();
-		countLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 30));
+		countLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 25));
+		countLabel.setVerticalAlignment(SwingConstants.CENTER);
 		countPanel.add(countLabel);
 		searchFields.add(countPanel);
 
 		// Nombre de suppression
 		JPanel deletePanel = new JPanel();
-		deletePanel.setPreferredSize(new Dimension(400, 60));
-		deleteLabel = new JLabel("");
+		deleteLabel = PanelUtils.createJLabel("", 400);
 		deleteLabel.setForeground(new Color(8, 187, 81));
 		Font labelFont2 = deleteLabel.getFont();
 		deleteLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 20));
@@ -519,8 +512,8 @@ public class SearchPanel extends JPanel {
 			}
 
 			compoResult = new ArrayList<>();
-			compoResult
-					.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(), (SearchMethod) searchMethod.getSelectedItem(), deleted.isSelected()));
+			compoResult.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(),
+					(SearchMethod) searchMethod.getSelectedItem(), deleted.isSelected()));
 			updateTable();
 		}
 		LOG.debug("End searchAction");

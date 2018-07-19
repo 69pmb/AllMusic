@@ -37,6 +37,7 @@ import javax.swing.JTextField;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
+import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
@@ -73,8 +74,8 @@ public class FichierPanel extends JPanel {
 
 	private static final Logger LOG = Logger.getLogger(FichierPanel.class);
 
-	private static final int MIN_HEIGHT_TABLE = 42;
-	private static final int MAX_HEIGHT_TABLE = 84;
+	private static final int MIN_HEIGHT_TABLE = 41;
+	private static final int MAX_HEIGHT_TABLE = 82;
 
 	private static final int INDEX_FILE_AUTHOR = 0;
 	private static final int INDEX_FILE_FILE_NAME = 1;
@@ -91,6 +92,7 @@ public class FichierPanel extends JPanel {
 	private static final int INDEX_COMPO_SELECTED = 4;
 	private static final int INDEX_COMPO_DELETED = 5;
 
+	// Search components
 	private JComboBox<String> auteur;
 	private JTextField name;
 	private JTextField publi;
@@ -169,21 +171,19 @@ public class FichierPanel extends JPanel {
 		JPanel header = new JPanel(new GridLayout(2, 6));
 		// Auteur
 		JPanel auteurPanel = new JPanel();
-		auteurPanel.setPreferredSize(new Dimension(150, 60));
-		JLabel auteurLabel = new JLabel("Auteur : ");
+		JLabel auteurLabel = PanelUtils.createJLabel("Auteur : ", 150);
 		auteur = new JComboBox<>();
 		auteur.addItem("");
 		for (String author : authors) {
 			auteur.addItem(author);
 		}
-		auteur.setPreferredSize(new Dimension(150, 25));
+		auteur.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		auteurPanel.add(auteurLabel);
 		auteurPanel.add(auteur);
 		header.add(auteurPanel);
 		// Nom du fichier
 		JPanel namePanel = new JPanel();
-		PanelUtils.setSize(namePanel, 1000, 25);
-		JLabel nameLabel = new JLabel("Nom du fichier : ");
+		JLabel nameLabel = PanelUtils.createJLabel("Nom du fichier : ", 200);
 		name = new JTextField();
 		PanelUtils.setSize(name, 200, 25);
 		namePanel.add(nameLabel);
@@ -191,54 +191,51 @@ public class FichierPanel extends JPanel {
 		header.add(namePanel);
 		// Publi
 		JPanel publiPanel = new JPanel();
-		publiPanel.setPreferredSize(new Dimension(150, 60));
-		JLabel publiLabel = new JLabel("Année de publication : ");
+		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 150);
 		publi = new JTextField();
-		publi.setPreferredSize(new Dimension(75, 25));
+		publi.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		publiPanel.add(publiLabel);
 		publiPanel.add(publi);
 		header.add(publiPanel);
 		// Range
 		JPanel rangePanel = new JPanel();
-		PanelUtils.setSize(rangePanel, 1000, 25);
-		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
+		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 180);
 		rangeB = new JTextField();
 		rangeE = new JTextField();
-		PanelUtils.setSize(rangeB, 85, 25);
-		PanelUtils.setSize(rangeE, 85, 25);
+		PanelUtils.setSize(rangeB, 85, PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.setSize(rangeE, 85, PanelUtils.COMPONENT_HEIGHT);
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeB);
 		rangePanel.add(rangeE);
 		header.add(rangePanel);
 		// Categorie
 		JPanel catPanel = new JPanel();
-		catPanel.setPreferredSize(new Dimension(180, 60));
-		JLabel catLabel = new JLabel("Catégorie : ");
+		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 180);
 		cat = new JComboBox<>();
 		cat.addItem("");
 		Cat[] values = Cat.values();
 		for (int i = 0; i < values.length; i++) {
 			cat.addItem(values[i].toString());
 		}
-		cat.setPreferredSize(new Dimension(120, 25));
+		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
 		header.add(catPanel);
 		// Sorted
 		JPanel sortedPanel = new JPanel();
-		sortedPanel.setPreferredSize(new Dimension(50, 60));
-		JLabel sortedLabel = new JLabel("Classé: ");
+		JLabel sortedLabel = PanelUtils.createJLabel("Classé: ", 150);
 		sorted = new JCheckBox();
-		sorted.setPreferredSize(new Dimension(50, 25));
+		sorted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		sorted.setHorizontalAlignment(SwingConstants.CENTER);
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 		header.add(sortedPanel);
 		// Deleted
 		JPanel deletedPanel = new JPanel();
-		deletedPanel.setPreferredSize(new Dimension(50, 60));
-		JLabel deletedLabel = new JLabel("Supprimées: ");
+		JLabel deletedLabel = PanelUtils.createJLabel("Supprimées: ", 150);
 		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(50, 25));
+		deleted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		deleted.setHorizontalAlignment(SwingConstants.CENTER);
 		deletedPanel.add(deletedLabel);
 		deletedPanel.add(deleted);
 		header.add(deletedPanel);
@@ -246,7 +243,7 @@ public class FichierPanel extends JPanel {
 		// SEARCH
 		search = new JButton("Chercher");
 		search.setBackground(Color.white);
-		search.setPreferredSize(new Dimension(120, 60));
+		search.setPreferredSize(new Dimension(120, PanelUtils.PANEL_HEIGHT));
 		search.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -260,7 +257,7 @@ public class FichierPanel extends JPanel {
 		// RESET
 		reset = new JButton("Réinitialiser");
 		reset.setBackground(Color.white);
-		reset.setPreferredSize(new Dimension(120, 60));
+		reset.setPreferredSize(new Dimension(120, PanelUtils.PANEL_HEIGHT));
 		reset.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -274,7 +271,7 @@ public class FichierPanel extends JPanel {
 		// hideFileList
 		hideFileList = new JButton("Cacher la liste des fichiers");
 		hideFileList.setBackground(Color.white);
-		hideFileList.setPreferredSize(new Dimension(180, 60));
+		hideFileList.setPreferredSize(new Dimension(180, PanelUtils.PANEL_HEIGHT));
 		hideFileList.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -296,7 +293,7 @@ public class FichierPanel extends JPanel {
 		// hideCompoList
 		hideCompoList = new JButton("Cacher la liste des compositions");
 		hideCompoList.setBackground(Color.white);
-		hideCompoList.setPreferredSize(new Dimension(200, 60));
+		hideCompoList.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
 		hideCompoList.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -318,7 +315,7 @@ public class FichierPanel extends JPanel {
 		// Delete Btn
 		JButton delete = new JButton("Supprimer les compositions sélectionnées");
 		delete.setBackground(Color.white);
-		delete.setPreferredSize(new Dimension(250, 60));
+		delete.setPreferredSize(new Dimension(250, PanelUtils.PANEL_HEIGHT));
 		delete.addActionListener((ActionEvent e) -> {
 			PanelUtils.deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel);
 			updateCompoTable(compositionList);
@@ -326,15 +323,14 @@ public class FichierPanel extends JPanel {
 		header.add(delete);
 		// Label pour afficher les resultats
 		JPanel resultPanel = new JPanel();
-		resultPanel.setPreferredSize(new Dimension(400, 40));
-		resultLabel = new JLabel("");
+		resultLabel = PanelUtils.createJLabel("", 400);
 		resultLabel.setForeground(new Color(8, 187, 81));
 		Font labelFont2 = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 20));
 		resultPanel.add(resultLabel);
 		header.add(resultPanel);
 
-		PanelUtils.setSize(header, (int) parentSize.getWidth(), Math.floorDiv(10 * (int) parentSize.getHeight(), 100));
+		PanelUtils.setSize(header, (int) parentSize.getWidth(), Math.floorDiv(15 * (int) parentSize.getHeight(), 100));
 		this.add(header);
 	}
 
