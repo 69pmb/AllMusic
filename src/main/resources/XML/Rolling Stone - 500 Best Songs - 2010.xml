@@ -112,7 +112,7 @@
   <Composition artist="The Rolling Stones" titre="Gimme Shelter" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="38" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Buddy Holly" titre="That'll Be The Day" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Buddy Holly" titre="That'll Be The Day" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="39" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Martha and the Vandellas" titre="Dancing in the Street" type="SONG" canBeMerged="true" deleted="false">
@@ -586,7 +586,7 @@
   <Composition artist="The Drifters" titre="There Goes My Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="196" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Buddy Holly" titre="Peggy Sue" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Buddy Holly" titre="Peggy Sue" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="197" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Guns N' Roses" titre="Sweet Child O' Mine" type="SONG" canBeMerged="true" deleted="false">
