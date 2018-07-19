@@ -140,7 +140,7 @@ public class SearchUtils {
 	 */
 	private static boolean isEqualsJaroForSearch(final JaroWinklerDistance jaro, String s1, String s2) {
 		return isEqualsJaro(jaro, removePunctuation(s2), removePunctuation(s1), Constant.SCORE_LIMIT_SEARCH)
-				|| StringUtils.containsIgnoreCase(s2, s1) || StringUtils.containsIgnoreCase(s1, s2);
+				|| StringUtils.containsIgnoreCase(s2, s1);
 	}
 
 	/**
