@@ -39,6 +39,7 @@ import javax.swing.JTextField;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
+import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
@@ -121,7 +122,7 @@ public class ArtistPanel extends JPanel {
 		// Range
 		JPanel rangePanel = new JPanel();
 		rangePanel.setPreferredSize(new Dimension(200, 60));
-		JLabel rangeLabel = new JLabel("Année(s) du classement :                ");
+		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
 		rangeB = new JTextField();
 		rangeE = new JTextField();
 		rangeB.setPreferredSize(new Dimension(90, 25));
@@ -159,6 +160,7 @@ public class ArtistPanel extends JPanel {
 		JLabel deletedLabel = new JLabel("Supprimés: ");
 		deleted = new JCheckBox();
 		deleted.setPreferredSize(new Dimension(50, 25));
+		deleted.setHorizontalAlignment(SwingConstants.CENTER);
 		deletedPanel.add(deletedLabel);
 		deletedPanel.add(deleted);
 		header.add(deletedPanel);
