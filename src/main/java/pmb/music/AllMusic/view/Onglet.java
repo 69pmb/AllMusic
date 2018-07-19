@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 
@@ -44,7 +45,7 @@ public class Onglet extends JPanel {
 	public Onglet(final BasicFrame myFrame) {
 		LOG.debug("Start Onglet");
 		onglets = new JTabbedPane(SwingConstants.TOP);
-		final JPanel pannel = new JPanel();
+		final JPanel panel = new JPanel();
 		final Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
 		dim.height = 92 * dim.height / 100;
 		onglets.setPreferredSize(dim);
@@ -71,9 +72,13 @@ public class Onglet extends JPanel {
 		fichier.initPanel(artist, authorList);
 
 		onglets.setOpaque(true);
-		pannel.add(onglets);
-		pannel.validate();
-		myFrame.getContentPane().add(pannel, BorderLayout.CENTER);
+		panel.add(onglets);
+		panel.validate();
+
+		JScrollPane scrollPane = new JScrollPane(panel);
+		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_NEVER);
+		myFrame.getContentPane().add(scrollPane, BorderLayout.CENTER);
 		myFrame.pack();
 		search.getRootPane().setDefaultButton(search.getSearch());
 		LOG.debug("End Onglet");
