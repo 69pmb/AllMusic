@@ -82,7 +82,7 @@
   <Composition artist="Bee Gees" titre="Stayin' Alive" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="28" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Buddy Holly" titre="Peggy Sue" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Buddy Holly" titre="Peggy Sue" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="29" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="true">
@@ -5542,7 +5542,7 @@
   <Composition artist="Bob Seger" titre="Old Time Rock'n'Roll" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1850" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Prove It All Night" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Prove It All Night" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1851" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Chaka Khan" titre="I'm Every Woman" type="SONG" canBeMerged="true" deleted="false">
