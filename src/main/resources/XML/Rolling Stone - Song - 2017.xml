@@ -19,7 +19,7 @@
   <Composition artist="Miley Cyrus" titre="Malibu" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="45" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
-  <Composition artist="Carly Rae Jepsen" titre="Cut to the Feeling" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Carly Rae Jepsen" titre="Cut to the Feeling" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="44" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
   <Composition artist="Big Thief" titre="Shark Smile" type="SONG" canBeMerged="true" deleted="false">
@@ -70,7 +70,7 @@
   <Composition artist="Charly Bliss" titre="Glitter" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="28" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
-  <Composition artist="Calvin Harris" titre="Slide" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Calvin Harris" titre="Slide" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="27" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
   <Composition artist="Tee Grizzley" titre="First Day Out" type="SONG" canBeMerged="true" deleted="false">
@@ -139,7 +139,7 @@
   <Composition artist="U2" titre="Lights of Home" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="5" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
-  <Composition artist="Cardi B" titre="Bodak Yellow" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Cardi B" titre="Bodak Yellow" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="4" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
   <Composition artist="Kendrick Lamar" titre="Humble." type="SONG" canBeMerged="true" deleted="false">

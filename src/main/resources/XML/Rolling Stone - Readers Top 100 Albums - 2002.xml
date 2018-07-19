@@ -73,7 +73,7 @@
   <Composition artist="Madonna" titre="Like A Prayer" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="62" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="63" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Born In The Usa" type="ALBUM" canBeMerged="true" deleted="false">

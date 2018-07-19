@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Calvin Harris" titre="Slide" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Calvin Harris" titre="Slide" type="SONG" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="1" creationDate="26/12/2017 10:43:28" size="101"/>
   </Composition>
   <Composition artist="Kendrick Lamar" titre="DNA." type="SONG" canBeMerged="true" deleted="false">
@@ -10,7 +10,7 @@
   <Composition artist="Big Thief" titre="Mary" type="SONG" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="3" creationDate="26/12/2017 10:43:28" size="101"/>
   </Composition>
-  <Composition artist="Carly Rae Jepsen" titre="Cut to the Feeling" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Carly Rae Jepsen" titre="Cut to the Feeling" type="SONG" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="4" creationDate="26/12/2017 10:43:28" size="101"/>
   </Composition>
   <Composition artist="Lil Uzi Vert" titre="XO Tour Llif3" type="SONG" canBeMerged="true" deleted="false">
@@ -49,7 +49,7 @@
   <Composition artist="The Weather Station" titre="Thirty" type="SONG" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="16" creationDate="26/12/2017 10:43:28" size="101"/>
   </Composition>
-  <Composition artist="Cardi B" titre="Bodak Yellow" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Cardi B" titre="Bodak Yellow" type="SONG" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="17" creationDate="26/12/2017 10:43:28" size="101"/>
   </Composition>
   <Composition artist="DeJ Loaf" titre="No Fear" type="SONG" canBeMerged="true" deleted="false">
