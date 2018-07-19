@@ -28,7 +28,7 @@ import javax.swing.SortOrder;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.text.WordUtils;
+import org.apache.commons.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
@@ -152,7 +152,8 @@ public class BatchUtils {
 			}
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			res.addAll(SearchUtils.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, SearchMethod.CONTAINS, false)
+			res.addAll(SearchUtils
+					.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, SearchMethod.CONTAINS, false)
 					.stream().map(Composition::getFiles).flatMap(List::stream)
 					.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
 							|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
@@ -182,8 +183,8 @@ public class BatchUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 		List<Composition> importXML = SearchUtils
-				.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, SearchMethod.CONTAINS, false).stream()
-				.sorted((c1, c2) -> StringUtils.compareIgnoreCase(c1.getTitre(), c2.getTitre()))
+				.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, SearchMethod.CONTAINS, false)
+				.stream().sorted((c1, c2) -> StringUtils.compareIgnoreCase(c1.getTitre(), c2.getTitre()))
 				.collect(Collectors.toList());
 		for (int i = 0; i < importXML.size(); i++) {
 			for (int j = 0; j < importXML.size(); j++) {

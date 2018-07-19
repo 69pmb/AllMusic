@@ -18,16 +18,19 @@ import pmb.music.AllMusic.utils.Constant;
 
 /**
  * Classe pour les fichiers csv.
+ * 
  * @author pmbroca
  */
 public class CsvFile {
 
 	private static final Logger LOG = Logger.getLogger(CsvFile.class);
 
-	private CsvFile() {}
+	private CsvFile() {
+	}
 
 	/**
 	 * Save data into a csv file.
+	 * 
 	 * @param filename the name of the csv file
 	 * @param csv the data to save
 	 * @param sortKey {@link SortKey} le tri du tableau
@@ -68,7 +71,8 @@ public class CsvFile {
 		String name = filename + Constant.CSV_EXTENSION;
 		// Writing
 		try (CSVWriter csvWriter = new CSVWriter(
-				new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), ';');) {
+				new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), ';',
+				CSVWriter.DEFAULT_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END);) {
 			csvWriter.writeNext(header);
 			for (List<String> row : csv) {
 				csvWriter.writeNext(row.toArray(new String[0]));
