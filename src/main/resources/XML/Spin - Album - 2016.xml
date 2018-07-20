@@ -19,7 +19,7 @@
   <Composition artist="Beyonce" titre="Lemonade" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="6" creationDate="02/09/2017 08:04:16" size="50"/>
   </Composition>
-  <Composition artist="Chance the Rapper" titre="Coloring Book" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Chance the Rapper" titre="Coloring Book" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="7" creationDate="02/09/2017 08:04:16" size="50"/>
   </Composition>
   <Composition artist="Radiohead" titre="A Moon Shaped Pool" type="ALBUM" canBeMerged="true" deleted="true">
