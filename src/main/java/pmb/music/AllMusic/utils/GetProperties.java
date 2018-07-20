@@ -3,18 +3,21 @@ package pmb.music.AllMusic.utils;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Date;
 import java.util.Properties;
 
+import org.apache.commons.lang3.time.DateUtils;
 import org.apache.log4j.Logger;
 
 /**
  * Gère le fichier properties.
+ * 
  * @author pmbroca
  */
 public class GetProperties {
 
 	private static final Logger LOG = Logger.getLogger(GetProperties.class);
-	
+
 	/**
 	 * {@link Properties} contient les properties.
 	 */
@@ -25,7 +28,7 @@ public class GetProperties {
 	 */
 	private GetProperties() {
 		LOG.debug("Start GetProperties");
-		try(InputStream input = new FileInputStream(Constant.CONFIG_PATH);) {
+		try (InputStream input = new FileInputStream(Constant.CONFIG_PATH);) {
 			prop = new Properties();
 			prop.load(input);
 		} catch (IOException e) {
@@ -33,17 +36,18 @@ public class GetProperties {
 		}
 		LOG.debug("End GetProperties");
 	}
-	
+
 	/**
 	 * Récupère une donnée du fichier properties.
+	 * 
 	 * @param key la clé de la donnée
 	 * @return la donnée
 	 */
 	public static String getProperty(String key) {
-		if(prop == null) {
+		if (DateUtils.isSameDay(FichierUtils.getLastModifyDate(Constant.CONFIG_PATH), new Date()) || prop == null) {
 			new GetProperties();
 		}
-		if(prop == null) {
+		if (prop == null) {
 			LOG.error("GetProperties returns null");
 			return "";
 		}

@@ -301,9 +301,9 @@ public class SearchPanel extends JPanel {
 			String name = CsvFile.exportCsv("search", MiscUtils.convertVectorToList(model.getDataVector()),
 					tableResult.getRowSorter().getSortKeys().get(0), csvHeader);
 			try {
-				Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
+				Runtime.getRuntime().exec(Constant.getExcelPath() + name);
 			} catch (IOException e1) {
-				LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
+				LOG.error("Impossible d'ouvrir excel: " + Constant.getExcelPath(), e1);
 			}
 		});
 		top.add(csv);
@@ -484,7 +484,7 @@ public class SearchPanel extends JPanel {
 	private void searchAction() {
 		LOG.debug("Start searchAction");
 		deleteLabel.setText("");
-		List<Composition> allCompo = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> allCompo = ImportXML.importXML(Constant.getFinalFilePath());
 		if (CollectionUtils.isNotEmpty(allCompo)) {
 			Map<String, String> criteria = new HashMap<>();
 			if (artist.getSelectedItem() != null) {
@@ -579,7 +579,7 @@ public class SearchPanel extends JPanel {
 			// On récupère la ligne selectionnée
 			selected = model.getSelected().get(0);
 			v = (Vector<String>) selected;
-			importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+			importXML = ImportXML.importXML(Constant.getFinalFilePath());
 			try {
 				// On récupère la composition à modifier
 				toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
@@ -631,7 +631,7 @@ public class SearchPanel extends JPanel {
 			}
 		}
 		try {
-			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
+			ExportXML.exportXML(importXML, Constant.getFinalFile());
 			artist2.updateArtistPanel();
 		} catch (IOException e1) {
 			String log = "Erreur lors de l'export du fichier final !!";

@@ -362,7 +362,7 @@ public class CompositionUtils {
 		LOG.debug("Start removeCompositionsInFiles");
 		for (Fichier file : toRemove.getFiles()) {
 			// Récupération des compositions du fichier XML
-			String filename = Constant.XML_PATH + file.getFileName() + Constant.XML_EXTENSION;
+			String filename = Constant.getXmlPath() + file.getFileName() + Constant.XML_EXTENSION;
 			List<Composition> importXML = ImportXML.importXML(filename);
 			if (importXML.isEmpty()) {
 				LOG.error("Fichier vide ! " + filename);
@@ -401,7 +401,7 @@ public class CompositionUtils {
 		LOG.debug("Start modifyCompositionsInFiles");
 		for (Fichier file : toModif.getFiles()) {
 			// Récupération des compositions du fichier XML
-			String filename = Constant.XML_PATH + file.getFileName() + Constant.XML_EXTENSION;
+			String filename = Constant.getXmlPath() + file.getFileName() + Constant.XML_EXTENSION;
 			List<Composition> importXML = ImportXML.importXML(filename);
 			if (importXML.isEmpty()) {
 				LOG.error("Fichier vide ! " + filename);
@@ -521,7 +521,7 @@ public class CompositionUtils {
 	 * @return {@link BigDecimal}
 	 */
 	public static BigDecimal getMedian(RecordType type) {
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
@@ -538,7 +538,7 @@ public class CompositionUtils {
 	 * @return {@link BigDecimal}
 	 */
 	public static BigDecimal getMax(RecordType type) {
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());

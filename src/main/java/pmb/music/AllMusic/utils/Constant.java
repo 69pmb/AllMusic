@@ -33,52 +33,70 @@ public class Constant {
 	public static final String RESOURCES_ABS_DIRECTORY = USER_DIR + RESOURCES_DIRECTORY;
 
 	/**
+	 * Chemin abs du fichier de log.
+	 */
+	public static final String FILE_LOG_PATH = Constant.USER_DIR + FileUtils.FS + "error.log";
+
+	/**
 	 * Chemin abs du fichier de configuration.
 	 */
 	public static final String CONFIG_PATH = RESOURCES_ABS_DIRECTORY + FileUtils.FS + "config.properties";
 
 	/**
-	 * Chemin abs du dossier d'historique.
+	 * @return Nom du fichier final.
 	 */
-	public static final String HISTORY_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history")
-			+ FileUtils.FS;
+	public static String getFinalFile() {
+		return GetProperties.getProperty("final");
+	}
 
 	/**
-	 * Chemin abs du fichier de log.
+	 * Chemin abs du fichier aggrégeant tous les fichiers.
 	 */
-	public static final String FILE_LOG_PATH = Constant.USER_DIR + FileUtils.FS + "error.log";
+	public static String getFinalFilePath() {
+		return getXmlPath() + getFinalFile();
+	}
+
+	/**
+	 * @return Chemin abs du dossier d'historique.
+	 */
+	public static String getHistoryPath() {
+		return RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history") + FileUtils.FS;
+	}
+
+	/**
+	 * @return Chemin abs du dossier contenant les fichiers txt des classements.
+	 */
+	public static String getMusicAbsDirectory() {
+		return RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music") + FileUtils.FS;
+	}
+
+	/**
+	 * @return Chemin abs du dossier contenant tous les fichiers xml importés.
+	 */
+	public static String getXmlPath() {
+		return RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml") + FileUtils.FS;
+	}
+
+	/**
+	 * @return chemin de Notepad++.
+	 */
+	public static String getNotepadPath() {
+		return GetProperties.getProperty("notepad") + " ";
+	}
+
+	/**
+	 * @return chemin d'Excel.
+	 */
+	public static String getExcelPath() {
+		return GetProperties.getProperty("excel") + " ";
+	}
 
 	/**
 	 * Nom du fichier de résultat des batchs par défaut.
 	 */
 	public static final String BATCH_FILE = "batch.txt";
 
-	/**
-	 * Chemin abs du dossier contenant tous les fichiers xml importés.
-	 */
-	public static final String XML_PATH = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml") + FileUtils.FS;
-
-	/**
-	 * Nom du fichier final.
-	 */
-	public static final String FINAL_FILE = GetProperties.getProperty("final");
-
-	/**
-	 * Chemin abs du fichier aggrégeant tous les fichiers.
-	 */
-	public static final String FINAL_FILE_PATH = XML_PATH + FINAL_FILE;
-
 	public static final String NEW_LINE = "\r\n";
-
-	/**
-	 * Chemin abs du dossier contenant les fichiers txt des classements.
-	 */
-	public static final String MUSIC_ABS_DIRECTORY = RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music")
-			+ FileUtils.FS;
-
-	public static final String EXCEL_PATH = GetProperties.getProperty("excel") + " ";
-
-	public static final String NOTEPAD_PATH = GetProperties.getProperty("notepad") + " ";
 
 	public static final String ANSI_ENCODING = "Cp1252";
 
@@ -91,7 +109,7 @@ public class Constant {
 	public static final String DOT = ".";
 
 	public static final String COMMENT_PREFIX = "#";
-	
+
 	public static final String IMPORT_PARAMS_PREFIX = "@";
 
 	public static final String XML_EXTENSION = ".xml";
@@ -101,9 +119,9 @@ public class Constant {
 	public static final String TXT_EXTENSION = ".txt";
 
 	private static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
-	
+
 	private static final String[] NOT_SEPARATORS = { "(", ")", DOT, ",", "#", "'", "!", "*", "?", "/" };
-	
+
 	public static final String DEFAULT_TITLE = "AllMusic";
 
 	private final SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");

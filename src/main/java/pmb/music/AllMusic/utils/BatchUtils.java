@@ -76,7 +76,7 @@ public class BatchUtils {
 		LOG.debug("Start stat");
 		StringBuilder result = new StringBuilder();
 		addLine(result, "Statistiques sur la longueur artist + titre: ", true);
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		List<Integer> size = importXML.stream().map(composition -> {
 			String s = composition.getArtist() + composition.getTitre();
 			return s.length();
@@ -116,7 +116,7 @@ public class BatchUtils {
 		StringBuilder result = new StringBuilder();
 		addLine(result, "Suspicious: ", true);
 
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		emptyTitleOrArtist(importXML, result);
 		titleSlash(importXML, result);
 		sizeZero(importXML, result);
@@ -153,7 +153,7 @@ public class BatchUtils {
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
 			res.addAll(SearchUtils
-					.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, SearchMethod.CONTAINS, false)
+					.search(ImportXML.importXML(Constant.getFinalFilePath()), criteria, true, SearchMethod.CONTAINS, false)
 					.stream().map(Composition::getFiles).flatMap(List::stream)
 					.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
 							|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
@@ -183,7 +183,7 @@ public class BatchUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 		List<Composition> importXML = SearchUtils
-				.search(ImportXML.importXML(Constant.FINAL_FILE_PATH), criteria, true, SearchMethod.CONTAINS, false)
+				.search(ImportXML.importXML(Constant.getFinalFilePath()), criteria, true, SearchMethod.CONTAINS, false)
 				.stream().sorted((c1, c2) -> StringUtils.compareIgnoreCase(c1.getTitre(), c2.getTitre()))
 				.collect(Collectors.toList());
 		for (int i = 0; i < importXML.size(); i++) {
@@ -269,7 +269,7 @@ public class BatchUtils {
 		addLine(text, "FindDuplicateFiles: ", true);
 
 		Map<String, Integer> result = new HashMap<String, Integer>();
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		for (Composition composition : importXML) {
 			for (int i = 0; i < composition.getFiles().size(); i++) {
 				for (int j = 0; j < composition.getFiles().size(); j++) {
@@ -311,13 +311,13 @@ public class BatchUtils {
 
 		// Recupère tous les nom des fichiers txt
 		List<File> music = new ArrayList<>();
-		FichierUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), music, Constant.TXT_EXTENSION, true);
+		FichierUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory()), music, Constant.TXT_EXTENSION, true);
 		List<String> collectMusic = music.stream().map(File::getName)
 				.map(s -> StringUtils.substringBeforeLast(s, Constant.TXT_EXTENSION)).collect(Collectors.toList());
 
 		// Recupère tous les nom des fichiers xml
 		List<File> xml = new ArrayList<>();
-		FichierUtils.listFilesForFolder(new File(Constant.XML_PATH), xml, Constant.XML_EXTENSION, true);
+		FichierUtils.listFilesForFolder(new File(Constant.getXmlPath()), xml, Constant.XML_EXTENSION, true);
 		List<String> collectXml = xml.stream().map(File::getName)
 				.map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
 
@@ -374,7 +374,7 @@ public class BatchUtils {
 		// key nom du fichier sans date
 		// value liste des dates du fichier
 		List<File> files = new ArrayList<>();
-		FichierUtils.listFilesForFolder(new File(Constant.HISTORY_PATH), files, Constant.XML_EXTENSION, false);
+		FichierUtils.listFilesForFolder(new File(Constant.getHistoryPath()), files, Constant.XML_EXTENSION, false);
 		int size = files.size();
 		Map<String, List<Date>> list = new HashMap<String, List<Date>>();
 		for (File file : files) {
@@ -396,7 +396,7 @@ public class BatchUtils {
 		for (String key : keySet) {
 			// Tri des dates, la plus récente en 1er
 			Collections.sort(list.get(key), Collections.reverseOrder());
-			String path = Constant.HISTORY_PATH + key + Constant.SEPARATOR_DATE_HISTORY;
+			String path = Constant.getHistoryPath() + key + Constant.SEPARATOR_DATE_HISTORY;
 			// Suppression des fichiers sauf du 1er
 			for (int i = 1; i < list.get(key).size(); i++) {
 				String toDelete = path + new Constant().getSdfHistory().format(list.get(key).get(i))
@@ -408,7 +408,7 @@ public class BatchUtils {
 			}
 		}
 		files = new ArrayList<>();
-		FichierUtils.listFilesForFolder(new File(Constant.HISTORY_PATH), files, Constant.XML_EXTENSION, false);
+		FichierUtils.listFilesForFolder(new File(Constant.getHistoryPath()), files, Constant.XML_EXTENSION, false);
 		int result = size - files.size();
 		addLine(text, "Nombres de fichiers avant: " + size, true);
 		addLine(text, "Nombres de fichiers après: " + files.size(), true);
@@ -441,7 +441,7 @@ public class BatchUtils {
 	private static boolean findFirstDuplicate(String type, final JaroWinklerDistance jaro,
 			boolean ignoreUnmergeableFiles, StringBuilder result) {
 		LOG.debug("Start findFirstDuplicate");
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		if (CollectionUtils.isNotEmpty(importXML)) {
 			addLine(result, "Size: " + importXML.size(), true);
 			for (int i = 0; i < importXML.size(); i++) {
@@ -519,7 +519,7 @@ public class BatchUtils {
 	 */
 	private static boolean detectsDuplicate(String type, final JaroWinklerDistance jaro, StringBuilder result) {
 		LOG.debug("Debut detectsDuplicate");
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		int maxYear = importXML.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getPublishYear)
 				.mapToInt(i -> i).max().getAsInt();
 		int minYear = importXML.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getPublishYear)
@@ -603,7 +603,7 @@ public class BatchUtils {
 		}
 		importXML.remove(c1);
 		try {
-			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
+			ExportXML.exportXML(importXML, Constant.getFinalFile());
 		} catch (IOException e) {
 			LOG.error("Error !!", e);
 		}
@@ -654,7 +654,7 @@ public class BatchUtils {
 		List<String> authors = Onglet.getAuthorList();
 		List<List<String>> result = new ArrayList<List<String>>();
 		for (String author : authors) {
-			List<Composition> arrayList = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+			List<Composition> arrayList = ImportXML.importXML(Constant.getFinalFilePath());
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 			if (!"0".equals(year)) {
@@ -724,7 +724,7 @@ public class BatchUtils {
 	 * @param score
 	 */
 	private static String topRecords(RecordType type, String fileName, int limit, String year, Score score) {
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 		if (!"0".equals(year)) {
@@ -755,7 +755,7 @@ public class BatchUtils {
 	 * @param year the year of the top
 	 */
 	private static String topRecordsByPoints(RecordType type, String fileName, String year) {
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 		if (!"0".equals(year)) {
@@ -798,7 +798,7 @@ public class BatchUtils {
 	 * @param year
 	 */
 	private static String topOccurence(String year) {
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 		if (!"0".equals(year)) {

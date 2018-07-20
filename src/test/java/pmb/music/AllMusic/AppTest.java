@@ -62,7 +62,7 @@ public class AppTest {
 			.compareTo(c2.getFiles().get(0).getClassement());
 
 	public static void main(String[] args) {
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		// topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
 		// topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
 		// stats(importXML, RecordType.ALBUM);
@@ -78,7 +78,7 @@ public class AppTest {
 		List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
 		for (String name : nomFichier) {
-			List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name + Constant.XML_EXTENSION);
+			List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
 			List<Integer> rankList = xml.stream().map(c -> c.getFiles().get(0).getClassement())
 					.collect(Collectors.toList());
 			rankList.stream().filter(i -> Collections.frequency(rankList, i) > 1)
@@ -90,7 +90,7 @@ public class AppTest {
 		List<String> authorList = Onglet.getAuthorList();
 		for (String author : authorList) {
 			List<File> files = new ArrayList<>();
-			FichierUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY + FileUtils.FS + author), files,
+			FichierUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory() + FileUtils.FS + author), files,
 					Constant.TXT_EXTENSION, true);
 			for (File file : files) {
 				String filename = StringUtils.substringBeforeLast(file.getName(), Constant.TXT_EXTENSION);
@@ -100,7 +100,7 @@ public class AppTest {
 					continue;
 				}
 				StringBuilder log = new StringBuilder("@" + Constant.NEW_LINE);
-				List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + filename + Constant.XML_EXTENSION);
+				List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + filename + Constant.XML_EXTENSION);
 				xml = xml.stream().sorted(byRank).collect(Collectors.toList());
 				List<Map<String, String>> list = findImportParamsForOneFile(filename, author, xml, log);
 				if (list.isEmpty()) {
@@ -441,7 +441,7 @@ public class AppTest {
 		List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
 				.filter(f -> !f.getSorted()).map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
 		for (String name : nomFichier) {
-			List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name + Constant.XML_EXTENSION);
+			List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
 			xml.sort((a, b) -> Integer.valueOf(a.getFiles().get(0).getClassement())
 					.compareTo(Integer.valueOf(b.getFiles().get(0).getClassement())));
 			Composition lastCompo = xml.get(xml.size() - 1);
@@ -455,7 +455,7 @@ public class AppTest {
 		List<String> fileNames = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
 		for (String name : fileNames) {
-			List<Composition> xml = ImportXML.importXML(Constant.XML_PATH + name + Constant.XML_EXTENSION);
+			List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
 			int realSize = xml.size();
 			Integer theoricSize = xml.get(0).getFiles().get(0).getSize();
 			if (theoricSize != 0 && realSize != theoricSize) {
@@ -531,7 +531,7 @@ public class AppTest {
 
 	public static void sortedFilesByYear() {
 		for (int i = 1950; i <= 2017; i++) {
-			List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+			List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 			String year = String.valueOf(i);
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
@@ -552,7 +552,7 @@ public class AppTest {
 	 */
 	public static void randomLineTest() {
 		List<File> files = new ArrayList<>();
-		FichierUtils.listFilesForFolder(new File(Constant.MUSIC_ABS_DIRECTORY), files, Constant.TXT_EXTENSION, true);
+		FichierUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory()), files, Constant.TXT_EXTENSION, true);
 		for (File file : files) {
 			LOG.error(file.getName());
 			Fichier fichier = ImportFile.convertOneFile(file);
@@ -570,8 +570,8 @@ public class AppTest {
 	 */
 	public static void mergeFile(String[] args) {
 		LOG.debug("Debut");
-		File first = new File(Constant.MUSIC_ABS_DIRECTORY + "Rolling Stone\\Rolling Stone - 500 Albums.txt");
-		File sec = new File(Constant.MUSIC_ABS_DIRECTORY + "Rolling Stone\\Rolling Stone - 500 Albums - 2012.txt");
+		File first = new File(Constant.getMusicAbsDirectory() + "Rolling Stone\\Rolling Stone - 500 Albums.txt");
+		File sec = new File(Constant.getMusicAbsDirectory() + "Rolling Stone\\Rolling Stone - 500 Albums - 2012.txt");
 		List<String> list = new ArrayList<>();
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(first), Constant.ANSI_ENCODING));) {
@@ -600,7 +600,7 @@ public class AppTest {
 		list = list.stream().sorted((s1, s2) -> Integer.compare(Integer.valueOf(StringUtils.substringBefore(s1, ". ")),
 				Integer.valueOf(StringUtils.substringBefore(s2, ". ")))).collect(Collectors.toList());
 		try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream(Constant.MUSIC_ABS_DIRECTORY + "RS.txt"), Constant.ANSI_ENCODING));) {
+				new FileOutputStream(Constant.getMusicAbsDirectory() + "RS.txt"), Constant.ANSI_ENCODING));) {
 			for (String str : list) {
 				writer.append(str).append(Constant.NEW_LINE);
 			}
@@ -654,11 +654,11 @@ public class AppTest {
 	}
 
 	public static void setDeleted() {
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getFileName).distinct()
 				.forEach(fileName -> {
 					List<Composition> importFile = ImportXML
-							.importXML(Constant.XML_PATH + fileName + Constant.XML_EXTENSION);
+							.importXML(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION);
 					List<Composition> newImportFile = importFile.stream().map(compo -> {
 						compo.setDeleted(false);
 						return compo;
@@ -674,7 +674,7 @@ public class AppTest {
 			return compo;
 		}).collect(Collectors.toList());
 		try {
-			ExportXML.exportXML(newImportXML, Constant.FINAL_FILE);
+			ExportXML.exportXML(newImportXML, Constant.getFinalFile());
 		} catch (IOException e) {
 			LOG.error("Erreur lors de l'export du fichier final");
 		}
@@ -756,7 +756,7 @@ public class AppTest {
 
 	@Test
 	public void distanceJaro() {
-		List<Composition> guardian = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> guardian = ImportXML.importXML(Constant.getFinalFilePath());
 		String test = "beachboys";
 		Map<Double, String> jaroRes = new TreeMap<>();
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
@@ -781,7 +781,7 @@ public class AppTest {
 
 	@Test
 	public void panelArtist() {
-		List<Composition> list = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> list = ImportXML.importXML(Constant.getFinalFilePath());
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_ARTIST, "prince");
 		List<Composition> search = SearchUtils.search(list, criteria, false, SearchMethod.CONTAINS, false);
