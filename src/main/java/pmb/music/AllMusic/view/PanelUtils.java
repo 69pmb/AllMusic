@@ -5,6 +5,7 @@ import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Vector;
 
@@ -46,7 +47,7 @@ public class PanelUtils {
 	 *            with specific color
 	 */
 	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex) {
-		setColumnsPreferredWidth(table);
+		setColumnsWidth(table, table.getWidth());
 
 		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex);
 		int columnCount = table.getColumnCount();
@@ -63,12 +64,12 @@ public class PanelUtils {
 	}
 
 	/**
-	 * Recherche la longueur maximum pour chaque colonne et la set pour la largeur
-	 * de cette colonne.
+	 * Fixe la largeur de chaques colonnes à la longueur maximum pour de chaques colonnes.
 	 * 
 	 * @param table le tableau
+	 * @param width la largeur du composant parent quand il est redimensionné
 	 */
-	public static void setColumnsPreferredWidth(JTable table) {
+	public static void setColumnsWidth(JTable table, int width) {
 		TableColumnModel columnModel = table.getColumnModel();
 		for (int i = 0; i < columnModel.getColumnCount(); i++) {
 			int maximum = 0;
@@ -83,6 +84,14 @@ public class PanelUtils {
 				}
 			}
 			columnModel.getColumn(i).setPreferredWidth(maximum * 7 + 50); // valeur arbitraire
+
+			int intValue = maximum * 7 + 70;
+			if (table.getWidth() != 0 && table.getWidth() > (width + 1)) {
+				// Calcule le ratio entre la largeur donnée et la largeur du tableau
+				intValue = new BigDecimal(intValue).multiply(new BigDecimal(width))
+						.divide(BigDecimal.valueOf(table.getWidth()), BigDecimal.ROUND_CEILING).intValue();
+				columnModel.getColumn(i).setMaxWidth(intValue);
+			}
 		}
 	}
 

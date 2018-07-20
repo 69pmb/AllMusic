@@ -731,4 +731,12 @@ public class FichierPanel extends JPanel {
 		PanelUtils.setSize(panel, (int) parentSize.getWidth(),
 				Math.floorDiv(height * (int) parentSize.getHeight(), 100));
 	}
+
+	public JTable getTableFiles() {
+		return tableFiles;
+	}
+
+	public JTable getTableCompo() {
+		return tableCompo;
+	}
 }
