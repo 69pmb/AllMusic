@@ -106,7 +106,7 @@
   <Composition artist="Anderson .Paak" titre="Malibu" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="16" creationDate="04/09/2017 11:25:10" size="50"/>
   </Composition>
-  <Composition artist="Chance the Rapper" titre="Coloring Book" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Chance the Rapper" titre="Coloring Book" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - Album - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="15" creationDate="04/09/2017 11:25:10" size="50"/>
   </Composition>
   <Composition artist="Pinegrove" titre="Cardinal" type="ALBUM" canBeMerged="true" deleted="false">
