@@ -88,10 +88,10 @@ public class ExportXML {
 		FichierUtils.createFolderIfNotExists(Constant.RESOURCES_ABS_DIRECTORY);
 
 		// Création du dossier history dans le dossier resources
-		FichierUtils.createFolderIfNotExists(Constant.HISTORY_PATH);
+		FichierUtils.createFolderIfNotExists(Constant.getHistoryPath());
 		
 		// Création du dossier xml dans le dossier resources
-		FichierUtils.createFolderIfNotExists(Constant.XML_PATH);
+		FichierUtils.createFolderIfNotExists(Constant.getXmlPath());
 
 		// Nom des fichiers
 		String fullFileName = fileName;
@@ -102,12 +102,12 @@ public class ExportXML {
 		}
 		
 		// Historisation du fichier précédent dans le dossier history
-		File source = new File(Constant.XML_PATH + fullFileName);
-		File destination = new File(Constant.HISTORY_PATH + fileName + Constant.SEPARATOR_DATE_HISTORY + MiscUtils.dateNow() + Constant.XML_EXTENSION);
+		File source = new File(Constant.getXmlPath() + fullFileName);
+		File destination = new File(Constant.getHistoryPath() + fileName + Constant.SEPARATOR_DATE_HISTORY + MiscUtils.dateNow() + Constant.XML_EXTENSION);
 		source.renameTo(destination);
 
 		// Sauvegarde du document dans le fichier
-		FileOutputStream fos = new FileOutputStream(Constant.XML_PATH + fullFileName);
+		FileOutputStream fos = new FileOutputStream(Constant.getXmlPath() + fullFileName);
 		OutputFormat format = OutputFormat.createPrettyPrint();
 		format.setIndent(true);
 		format.setNewlines(true);

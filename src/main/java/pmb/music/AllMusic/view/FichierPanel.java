@@ -462,7 +462,7 @@ public class FichierPanel extends JPanel {
 			// Double click avec le bouton gauche
 			// Affiche les compositions du fichier sélectionné
 			compositionList = ImportXML.importXML(
-					Constant.XML_PATH + selectedRow.get().get(INDEX_FILE_FILE_NAME) + Constant.XML_EXTENSION);
+					Constant.getXmlPath() + selectedRow.get().get(INDEX_FILE_FILE_NAME) + Constant.XML_EXTENSION);
 			if (!deleted.isSelected()) {
 				compositionList = compositionList.stream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
 			}
@@ -557,7 +557,7 @@ public class FichierPanel extends JPanel {
 		// On récupère la ligne selectionnée
 		Vector<String> v = (Vector<String>) selected;
 		List<Composition> importXML;
-		importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		Fichier currentFile = null;
 		try {
 			// On récupère la composition à modifier
@@ -618,7 +618,7 @@ public class FichierPanel extends JPanel {
 			compoToModifInTable.setDeleted(isDeleted);
 		}
 		try {
-			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
+			ExportXML.exportXML(importXML, Constant.getFinalFile());
 			artistPanel.updateArtistPanel();
 		} catch (IOException e1) {
 			String log = "Erreur lors de l'export du fichier final !!";
@@ -650,7 +650,7 @@ public class FichierPanel extends JPanel {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
 		fichiers = new ArrayList<Fichier>(
-				ImportXML.importXML(Constant.FINAL_FILE_PATH).stream().map(Composition::getFiles).flatMap(List::stream)
+				ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getFiles).flatMap(List::stream)
 						.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
 		if (CollectionUtils.isNotEmpty(fichiers)) {
 			CollectionUtils.filter(fichiers,

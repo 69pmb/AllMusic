@@ -169,7 +169,7 @@ public class PanelUtils {
 		}
 		label.setText("");
 		artistPanel.interruptUpdateArtist();
-		List<Composition> importXML = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		for (Object o : selected) {
 			Vector<String> v = (Vector<String>) o;
 			try {
@@ -186,7 +186,7 @@ public class PanelUtils {
 			}
 		}
 		try {
-			ExportXML.exportXML(importXML, Constant.FINAL_FILE);
+			ExportXML.exportXML(importXML, Constant.getFinalFile());
 			artistPanel.updateArtistPanel();
 		} catch (IOException e1) {
 			LOG.error("Erreur lors de l'export du fichier final", e1);
