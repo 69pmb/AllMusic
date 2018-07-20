@@ -6,6 +6,8 @@ package pmb.music.AllMusic.view;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
+import java.awt.event.ComponentEvent;
+import java.awt.event.ComponentListener;
 import java.awt.event.KeyEvent;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -77,6 +79,27 @@ public class Onglet extends JPanel {
 		JScrollPane scrollPane = new JScrollPane(panel);
 		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_NEVER);
+		scrollPane.addComponentListener(new ComponentListener() {
+			@Override
+			public void componentShown(ComponentEvent e) {
+			}
+
+			@Override
+			public void componentResized(ComponentEvent e) {
+				PanelUtils.setColumnsWidth(search.getTableResult(), e.getComponent().getWidth());
+				PanelUtils.setColumnsWidth(fichier.getTableFiles(), e.getComponent().getWidth());
+				PanelUtils.setColumnsWidth(fichier.getTableCompo(), e.getComponent().getWidth());
+				PanelUtils.setColumnsWidth(artist.getTable(), e.getComponent().getWidth());
+			}
+
+			@Override
+			public void componentMoved(ComponentEvent e) {
+			}
+
+			@Override
+			public void componentHidden(ComponentEvent e) {
+			}
+		});
 		myFrame.getContentPane().add(scrollPane, BorderLayout.CENTER);
 		myFrame.pack();
 		search.getRootPane().setDefaultButton(search.getSearch());

@@ -91,7 +91,7 @@ public class SearchPanel extends JPanel {
 	private JCheckBox deleted;
 	private JCheckBox topTen;
 
-	private final JTable result;
+	private final JTable tableResult;
 
 	private JComboBox<Cat> cat;
 	private JComboBox<RecordType> type;
@@ -143,15 +143,16 @@ public class SearchPanel extends JPanel {
 		bottom.setLayout(new BorderLayout());
 
 		// result
-		result = new JTable();
-		result.setAutoCreateRowSorter(true);
-		result.setRowHeight(30);
-		result.setFillsViewportHeight(true);
-		result.setBackground(UIManager.getColor("Label.background"));
-		result.setFont(UIManager.getFont("Label.font"));
-		result.setBorder(UIManager.getBorder("Label.border"));
+		tableResult = new JTable();
+		tableResult.setAutoCreateRowSorter(true);
+		tableResult.setRowHeight(30);
+		tableResult.setFillsViewportHeight(true);
+		tableResult.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
+		tableResult.setBackground(UIManager.getColor("Label.background"));
+		tableResult.setFont(UIManager.getFont("Label.font"));
+		tableResult.setBorder(UIManager.getBorder("Label.border"));
 		model = new CompoSearchPanelModel(new Object[0][6], title);
-		result.setModel(model);
+		tableResult.setModel(model);
 		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
 			@Override
 			public boolean isSortable(int column) {
@@ -161,15 +162,15 @@ public class SearchPanel extends JPanel {
 					return false;
 			};
 		};
-		result.setRowSorter(sorter);
-		result.addMouseListener(new MouseAdapter() {
+		tableResult.setRowSorter(sorter);
+		tableResult.addMouseListener(new MouseAdapter() {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				mouseClickAction(e);
 			}
 		});
-		result.addKeyListener(new KeyListener() {
+		tableResult.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
 				// Nothing to do
@@ -185,7 +186,7 @@ public class SearchPanel extends JPanel {
 				// Nothing to do
 			}
 		});
-		result.getRowSorter().addRowSorterListener(new RowSorterListener() {
+		tableResult.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@Override
 			@SuppressWarnings("unchecked")
 			public void sorterChanged(RowSorterEvent e) {
@@ -198,7 +199,7 @@ public class SearchPanel extends JPanel {
 				}
 			}
 		});
-		bottom.add(new JScrollPane(result), BorderLayout.CENTER);
+		bottom.add(new JScrollPane(tableResult), BorderLayout.CENTER);
 
 		this.add(bottom);
 		LOG.debug("End SearchPanel");
@@ -234,16 +235,16 @@ public class SearchPanel extends JPanel {
 
 		// inFiles
 		JPanel inFilesPanel = new JPanel();
-		PanelUtils.setSize(inFilesPanel,200, PanelUtils.PANEL_HEIGHT);
+		PanelUtils.setSize(inFilesPanel, 200, PanelUtils.PANEL_HEIGHT);
 		JLabel inFilesLabel = PanelUtils.createJLabel("Rechercher dans les fichiers : ", 150);
 		inFiles = new JCheckBox();
-		PanelUtils.setSize(inFiles,150, PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.setSize(inFiles, 150, PanelUtils.COMPONENT_HEIGHT);
 		inFiles.setSelected(true);
 		inFiles.setHorizontalAlignment(SwingConstants.CENTER);
 		inFilesPanel.add(inFilesLabel);
 		inFilesPanel.add(inFiles);
 		top.add(inFilesPanel);
-		
+
 		// Clear Btn
 		JButton clear = new JButton("Réinitialiser recherche");
 		clear.setBackground(Color.white);
@@ -297,7 +298,7 @@ public class SearchPanel extends JPanel {
 			String criteres = StringUtils.join(c, " ");
 			String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Critères: " + criteres };
 			String name = CsvFile.exportCsv("search", MiscUtils.convertVectorToList(model.getDataVector()),
-					result.getRowSorter().getSortKeys().get(0), csvHeader);
+					tableResult.getRowSorter().getSortKeys().get(0), csvHeader);
 			try {
 				Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
 			} catch (IOException e1) {
@@ -524,17 +525,18 @@ public class SearchPanel extends JPanel {
 		model.setRowCount(0);
 		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true, score),
 				new Vector<>(Arrays.asList(title)));
-		PanelUtils.colRenderer(result, false, INDEX_DELETED);
+		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED);
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
 		if (sortedColumn == null) {
 			sortedColumn = INDEX_SCORE;
 			sortOrder = SortOrder.DESCENDING;
 		}
-		result.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
+		tableResult.getRowSorter()
+				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
 		selectedRow = -1;
-		result.removeColumn(result.getColumnModel().getColumn(INDEX_DELETED));
-		result.repaint();
+		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_DELETED));
+		tableResult.repaint();
 		LOG.debug("Start updateTable");
 	}
 
@@ -695,5 +697,9 @@ public class SearchPanel extends JPanel {
 
 	public void setSearch(JButton search) {
 		this.search = search;
+	}
+
+	public JTable getTableResult() {
+		return tableResult;
 	}
 }

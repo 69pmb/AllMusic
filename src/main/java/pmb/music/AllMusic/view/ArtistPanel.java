@@ -420,4 +420,8 @@ public class ArtistPanel extends JPanel {
 		LOG.debug("End resetAction");
 	}
 
+	public JTable getTable() {
+		return table;
+	}
+
 }
