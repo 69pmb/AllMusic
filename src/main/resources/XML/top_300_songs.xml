@@ -121,7 +121,7 @@
   <Composition artist="Prince" titre="Sign 'O' the Times" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="42" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="false" deleted="false">
+  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="false" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="43" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Roy Orbison" titre="Only the Lonely" type="SONG" canBeMerged="true" deleted="false">
@@ -1105,7 +1105,7 @@
   <Composition artist="Richard Hell" titre="Blank Generation" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="371" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Stan Getz and Astrud Gilberto" titre="The Girl from Ipanema" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Stan Getz and Joao Gilberto" titre="The Girl from Ipanema" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="372" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Bobby Darin" titre="Splish Splash" type="SONG" canBeMerged="true" deleted="false">
@@ -1906,7 +1906,7 @@
   <Composition artist="Elvis Costello" titre="(I Don't Want to Go to) Chelsea" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="638" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="John Lee Hooker" titre="Boom Boom" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lee Hooker" titre="Boom Boom" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="639" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="The Shangri-La's" titre="Remember (Walking in the Sand)" type="SONG" canBeMerged="true" deleted="false">
@@ -2026,7 +2026,7 @@
   <Composition artist="Bob Marley and The Wailers" titre="Jamming" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="678" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Justin Timberlake" titre="Cry Me a River" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Justin Timberlake" titre="Cry Me a River" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="679" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="David Bowie" titre="Fame" type="SONG" canBeMerged="true" deleted="false">
@@ -9463,7 +9463,7 @@
   <Composition artist="The Knife" titre="We Share Our Mothers' Health" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="3157" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Joan Baez" titre="We Shall Overcome" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Joan Baez" titre="We Shall Overcome" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="3158" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Dinosaur Jr." titre="Feel the Pain" type="SONG" canBeMerged="true" deleted="false">

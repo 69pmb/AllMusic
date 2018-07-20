@@ -196,7 +196,7 @@
   <Composition artist="The Byrds" titre="Mr. Tambourine Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="65" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="66" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
   <Composition artist="Johnny Cash" titre="I Walk the Line" type="SONG" canBeMerged="true" deleted="false">
@@ -595,7 +595,7 @@
   <Composition artist="John Lee Hooker" titre="Boogie Chillun" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="198" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="John Lee Hooker" titre="Boom Boom" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lee Hooker" titre="Boom Boom" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="199" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
   <Composition artist="Howlin' Wolf" titre="Smokestack Lightnin'" type="SONG" canBeMerged="true" deleted="true">
