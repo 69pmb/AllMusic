@@ -925,7 +925,7 @@
   <Composition artist="Roberta Flack" titre="Killing Me Softly With His Song" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="449" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="450" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Frank Sinatra" titre="My Funny Valentine" type="SONG" canBeMerged="true" deleted="false">
@@ -1684,7 +1684,7 @@
   <Composition artist="Louis Armstrong" titre="West End Blues" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="793" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Frank Sinatra" titre="My Way" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Frank Sinatra" titre="My Way" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="796" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Queens Of The Stone Age" titre="Do It Again" type="SONG" canBeMerged="true" deleted="false">
