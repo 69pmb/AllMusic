@@ -28,7 +28,7 @@
   <Composition artist="Lorde" titre="The Louvre" type="SONG" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="9" creationDate="26/12/2017 10:43:28" size="101"/>
   </Composition>
-  <Composition artist="Hurray for the Riff Raff" titre="Living in the City" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Hurray for the Riff Raff" titre="Living in the City" type="SONG" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="10" creationDate="26/12/2017 10:43:28" size="101"/>
   </Composition>
   <Composition artist="Drake" titre="Passionfruit" type="SONG" canBeMerged="true" deleted="true">
@@ -301,7 +301,7 @@
   <Composition artist="Kesha" titre="Praying" type="SONG" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="100" creationDate="26/12/2017 10:43:28" size="101"/>
   </Composition>
-  <Composition artist="Harry Styles" titre="Sign of the Times" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Harry Styles" titre="Sign of the Times" type="SONG" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="101" creationDate="26/12/2017 10:43:28" size="101"/>
   </Composition>
 </ListCompositions>
