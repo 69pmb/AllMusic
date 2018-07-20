@@ -51,6 +51,7 @@ public class PanelUtils {
 	 *            with specific color
 	 */
 	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex) {
+		LOG.debug("Start colRenderer");
 		setColumnsWidth(table, table.getWidth());
 
 		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex);
@@ -65,6 +66,7 @@ public class PanelUtils {
 			renderer.setHorizontalAlignment(JLabel.CENTER);
 			table.getColumnModel().getColumn(i).setCellRenderer(renderer);
 		}
+		LOG.debug("End colRenderer");
 	}
 
 	/**
@@ -102,14 +104,17 @@ public class PanelUtils {
 
 	@SuppressWarnings("unchecked")
 	public static <T extends AbstractModel> Optional<Vector<String>> getSelectedRow(MouseEvent e) {
+		LOG.debug("Start getSelectedRow");
 		JTable target = (JTable) e.getSource();
 		int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
 		Vector<String> selectedRow = null;
 		if (rowAtPoint > -1) {
+			LOG.debug("Found selectedRow");
 			target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
 			selectedRow = (Vector<String>) ((T) target.getModel()).getDataVector()
 					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 		}
+		LOG.debug("End getSelectedRow");
 		return Optional.ofNullable(selectedRow);
 	}
 
