@@ -19,7 +19,7 @@
   <Composition artist="Kanye West" titre="Famous" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="false" classement="6" creationDate="28/12/2017 15:12:41" size="15"/>
   </Composition>
-  <Composition artist="Christine and the Queens" titre="iT" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Christine and the Queens" titre="iT" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="false" classement="7" creationDate="28/12/2017 15:12:41" size="15"/>
   </Composition>
   <Composition artist="David Bowie" titre="Lazarus" type="SONG" canBeMerged="true" deleted="false">
