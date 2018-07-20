@@ -133,7 +133,7 @@
   <Composition artist="Shirley And Lee" titre="Let The Good Times Roll" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 50's" publishYear="1959" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="true" classement="44" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="false" deleted="false">
+  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="false" deleted="true">
     <File author="NME" fileName="NME - The 50's" publishYear="1959" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="true" classement="45" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Huey Piano Smith" titre="Rockin Pneumonia And The Boogie Woogie Flu" type="SONG" canBeMerged="true" deleted="false">

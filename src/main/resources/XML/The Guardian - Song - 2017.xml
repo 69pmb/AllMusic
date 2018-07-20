@@ -25,7 +25,7 @@
   <Composition artist="Dua Lipa" titre="New Rules" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="8" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="Jorja Smith" titre="On My Mind" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jorja Smith" titre="On My Mind" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="9" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="Francesco Gabbani" titre="Occidentali's Karma" type="SONG" canBeMerged="true" deleted="true">
@@ -52,7 +52,7 @@
   <Composition artist="Harlem Spartans" titre="Kent Nizzy" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="17" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="Kendrick Lamar" titre="HUMBLE." type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Kendrick Lamar" titre="HUMBLE." type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="18" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="BROCKHAMPTON" titre="SWEET" type="SONG" canBeMerged="true" deleted="false">
@@ -127,7 +127,7 @@
   <Composition artist="SZA" titre="Go Gina" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="42" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="Kendrick Lamar" titre="XXX." type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Kendrick Lamar" titre="XXX." type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="43" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="Oumou Sangare" titre="Yere faga" type="SONG" canBeMerged="true" deleted="false">
