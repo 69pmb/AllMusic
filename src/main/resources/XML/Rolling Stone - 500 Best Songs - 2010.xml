@@ -367,7 +367,7 @@
   <Composition artist="The Animals" titre="House of the Rising Sun" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="123" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="James Brown" titre="It's A Man's Man's Man's World" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="James Brown" titre="It's A Man's Man's Man's World" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="124" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Jumpin' Jack Flash" type="SONG" canBeMerged="true" deleted="false">
@@ -868,7 +868,7 @@
   <Composition artist="Elvis Costello" titre="(What's So Funny 'Bout) Peace Love And Understanding" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="290" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Howlin' Wolf" titre="Smokestack Lightnin" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Howlin' Wolf" titre="Smokestack Lightnin" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="291" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Pavement" titre="Summer Babe" type="SONG" canBeMerged="true" deleted="false">
