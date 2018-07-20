@@ -371,7 +371,7 @@ public class ImportPanel extends JPanel {
 		// reverseArtist
 		JPanel reverseArtistPanel = new JPanel();
 		reverseArtistPanel.setPreferredSize(new Dimension(100, PanelUtils.PANEL_HEIGHT));
-		JLabel reverseArtistLabel = new JLabel("Retourner l'artiste: ");
+		JLabel reverseArtistLabel = PanelUtils.createJLabel("<html>Retourner l'artiste: </html>", 100);
 		reverseArtist = new JCheckBox();
 		reverseArtist.setPreferredSize(new Dimension(20, 20));
 		reverseArtistPanel.add(reverseArtistLabel);
@@ -380,8 +380,9 @@ public class ImportPanel extends JPanel {
 
 		// removeParenthese
 		JPanel removeParenthesePanel = new JPanel();
-		removeParenthesePanel.setPreferredSize(new Dimension(220, PanelUtils.PANEL_HEIGHT));
-		JLabel removeParentheseLabel = new JLabel("Supprimer le texte entre parenthèse du titre: ");
+		removeParenthesePanel.setPreferredSize(new Dimension(150, PanelUtils.PANEL_HEIGHT));
+		JLabel removeParentheseLabel = PanelUtils
+				.createJLabel("<html>Supprimer le texte entre parenthèse du titre: </html>", 150);
 		removeParenthese = new JCheckBox();
 		removeParenthese.setPreferredSize(new Dimension(20, 20));
 		removeParenthesePanel.add(removeParentheseLabel);
@@ -390,8 +391,8 @@ public class ImportPanel extends JPanel {
 
 		// upper
 		JPanel upperPanel = new JPanel();
-		upperPanel.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
-		JLabel upperLabel = new JLabel("Pas de séparateur, artiste en capitale: ");
+		upperPanel.setPreferredSize(new Dimension(100, PanelUtils.PANEL_HEIGHT));
+		JLabel upperLabel = PanelUtils.createJLabel("<html>Pas de séparateur, artiste en capitale: </html>", 100);
 		upper = new JCheckBox();
 		upper.setPreferredSize(new Dimension(20, 20));
 		upperPanel.add(upperLabel);
@@ -400,8 +401,8 @@ public class ImportPanel extends JPanel {
 
 		// removeAfter
 		JPanel removeAfterPanel = new JPanel();
-		removeAfterPanel.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
-		JLabel removeAfterLabel = new JLabel("Supprime après le dernier séparateur: ");
+		removeAfterPanel.setPreferredSize(new Dimension(100, PanelUtils.PANEL_HEIGHT));
+		JLabel removeAfterLabel = PanelUtils.createJLabel("<html>Supprime après le dernier séparateur: </html>", 100);
 		removeAfter = new JCheckBox();
 		removeAfter.setPreferredSize(new Dimension(20, 20));
 		removeAfterPanel.add(removeAfterLabel);
@@ -410,8 +411,9 @@ public class ImportPanel extends JPanel {
 
 		// isCompleteDirectory
 		JPanel isCompleteDirectoryPanel = new JPanel();
-		isCompleteDirectoryPanel.setPreferredSize(new Dimension(260, PanelUtils.PANEL_HEIGHT));
-		JLabel isCompleteDirectoryLabel = new JLabel("Utiliser le dossier du fichier pour la mise en forme: ");
+		isCompleteDirectoryPanel.setPreferredSize(new Dimension(150, PanelUtils.PANEL_HEIGHT));
+		JLabel isCompleteDirectoryLabel = PanelUtils
+				.createJLabel("<html>Utiliser le dossier du fichier pour la mise en forme: </html>", 150);
 		isCompleteDirectory = new JCheckBox();
 		isCompleteDirectory.setPreferredSize(new Dimension(20, 20));
 		isCompleteDirectoryPanel.add(isCompleteDirectoryLabel);
