@@ -157,16 +157,16 @@ public class MenuPanel extends JPanel {
 		String tab = "";
 		switch (index) {
 		case 0:
-			tab = Constant.ONGLET_IMPORT;
-			break;
-		case 1:
 			tab = Constant.ONGLET_SEARCH;
 			break;
-		case 2:
+		case 1:
 			tab = Constant.ONGLET_ARTIST;
 			break;
-		case 3:
+		case 2:
 			tab = Constant.ONGLET_FICHIER;
+			break;
+		case 3:
+			tab = Constant.ONGLET_IMPORT;
 			break;
 		case 4:
 			tab = Constant.ONGLET_BATCH;
