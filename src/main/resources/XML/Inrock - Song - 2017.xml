@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Kendrick Lamar" titre="DNA" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Kendrick Lamar" titre="DNA" type="SONG" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="1" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
   <Composition artist="Cardi B" titre="Bodack Yellow" type="SONG" canBeMerged="true" deleted="true">
@@ -16,7 +16,7 @@
   <Composition artist="Arcade Fire" titre="Everything Now" type="SONG" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="5" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
-  <Composition artist="Juliette Armanet" titre="L'amour en solitaire" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Juliette Armanet" titre="L'amour en solitaire" type="SONG" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="6" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
   <Composition artist="Lil Uzi Vert" titre="XO Tour Llif3" type="SONG" canBeMerged="true" deleted="false">
@@ -94,7 +94,7 @@
   <Composition artist="Eddy de Pretto" titre="Kid" type="SONG" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="30" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
-  <Composition artist="Kelela" titre="Frontline" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Kelela" titre="Frontline" type="SONG" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="31" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
   <Composition artist="070 Shake" titre="Be Myself" type="SONG" canBeMerged="true" deleted="false">
@@ -247,7 +247,7 @@
   <Composition artist="Arca" titre="Desafio" type="SONG" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="82" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
-  <Composition artist="Jorja Smith" titre="On My Mind" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jorja Smith" titre="On My Mind" type="SONG" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="83" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
   <Composition artist="Judah Warsky" titre="La Voiture Ivre" type="SONG" canBeMerged="true" deleted="false">
