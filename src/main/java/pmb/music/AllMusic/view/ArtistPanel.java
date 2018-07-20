@@ -260,9 +260,9 @@ public class ArtistPanel extends JPanel {
 			String name = CsvFile.exportCsv("artist", MiscUtils.convertVectorToList(model.getDataVector()),
 					table.getRowSorter().getSortKeys().get(0), csvHeader);
 			try {
-				Runtime.getRuntime().exec(Constant.EXCEL_PATH + name);
+				Runtime.getRuntime().exec(Constant.getExcelPath() + name);
 			} catch (IOException e1) {
-				LOG.error("Impossible d'ouvrir excel: " + Constant.EXCEL_PATH, e1);
+				LOG.error("Impossible d'ouvrir excel: " + Constant.getExcelPath(), e1);
 			}
 			LOG.debug("End Csv");
 		});
@@ -299,7 +299,7 @@ public class ArtistPanel extends JPanel {
 	private void startUpdateArtistThread() {
 		updateArtistThread = new Thread(() -> {
 			LOG.debug("Start ThreadUpdateArtist");
-			data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.FINAL_FILE_PATH));
+			data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.getFinalFilePath()));
 
 			SwingUtilities.invokeLater(() -> {
 				resetAction();

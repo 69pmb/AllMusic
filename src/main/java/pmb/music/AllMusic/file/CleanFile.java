@@ -125,7 +125,7 @@ public class CleanFile {
 			String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - MEF."
 					+ StringUtils.substringAfterLast(file.getName(), Constant.DOT);
 			String name = file.getName();
-			if (!Constant.FINAL_FILE.equals(name)) {
+			if (!Constant.getFinalFile().equals(name)) {
 				LOG.debug(name);
 				try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
 						BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {

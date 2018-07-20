@@ -174,7 +174,7 @@ public class ImportPanel extends JPanel {
 	public ImportPanel(final ArtistPanel artist) {
 		super();
 		LOG.debug("Start ImportPanel");
-		explorePath = Constant.MUSIC_ABS_DIRECTORY;
+		explorePath = Constant.getMusicAbsDirectory();
 		this.setLayout(new GridLayout(6, 1));
 
 		// Insert les boutons du hauts
@@ -196,7 +196,7 @@ public class ImportPanel extends JPanel {
 
 			@Override
 			public void focusLost(FocusEvent e) {
-				absolutePathFileXml = Constant.XML_PATH + name.getText() + Constant.XML_EXTENSION;
+				absolutePathFileXml = Constant.getXmlPath() + name.getText() + Constant.XML_EXTENSION;
 				if (FileUtils.fileExists(absolutePathFileXml)) {
 					miseEnFormeResultLabel(new LinkedList<>(Arrays.asList(name.getText() + " existe déjà")));
 				}
@@ -595,7 +595,7 @@ public class ImportPanel extends JPanel {
 		open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
 		open.addActionListener((ActionEvent arg0) -> {
 			LOG.debug("Start open");
-			xmlFile = addBrowsingFile("xml", Constant.XML_PATH);
+			xmlFile = addBrowsingFile("xml", Constant.getXmlPath());
 			if (xmlFile != null) {
 				absolutePathFileXml = xmlFile.getAbsolutePath();
 			}
@@ -634,7 +634,7 @@ public class ImportPanel extends JPanel {
 				// Export Compositions to XML file
 				ExportXML.exportXML(compoList, xmlFileName);
 				// Change xml file path
-				absolutePathFileXml = Constant.XML_PATH + xmlFileName + Constant.XML_EXTENSION;
+				absolutePathFileXml = Constant.getXmlPath() + xmlFileName + Constant.XML_EXTENSION;
 				// Write in Txt file import params
 				FichierUtils.writeMapInFile(new File(absolutePathFileTxt),
 						convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
@@ -718,7 +718,7 @@ public class ImportPanel extends JPanel {
 	 */
 	private void resetAll() {
 		LOG.debug("Start resetAll");
-		explorePath = Constant.MUSIC_ABS_DIRECTORY;
+		explorePath = Constant.getMusicAbsDirectory();
 		absolutePathFileTxt = "";
 		fichier = null;
 		absolutePathFileXml = "";
@@ -775,7 +775,7 @@ public class ImportPanel extends JPanel {
 					.collect(Collectors.joining(", ")));
 			LOG.debug("Init with stored params");
 			name.setText(value.get(IMPORT_PARAM_NAME));
-			absolutePathFileXml = Constant.XML_PATH + value.get(IMPORT_PARAM_NAME) + Constant.XML_EXTENSION;
+			absolutePathFileXml = Constant.getXmlPath() + value.get(IMPORT_PARAM_NAME) + Constant.XML_EXTENSION;
 			author.setText(value.get(IMPORT_PARAM_AUTEUR));
 			date.setText(value.get(IMPORT_PARAM_CREATE));
 			cat.setSelectedItem(Cat.valueOf(value.get(IMPORT_PARAM_CATEGORIE)));
@@ -803,7 +803,7 @@ public class ImportPanel extends JPanel {
 			fichier = ImportFile.convertOneFile(file);
 			fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
 			fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
-			absolutePathFileXml = Constant.XML_PATH + fichier.getFileName() + Constant.XML_EXTENSION;
+			absolutePathFileXml = Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION;
 			determineType = ImportFile.determineType(file.getName());
 			boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
 			if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType)
@@ -850,7 +850,7 @@ public class ImportPanel extends JPanel {
 			artist.interruptUpdateArtist();
 			result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
 			try {
-				ImportXML.fusionFiles(Constant.XML_PATH, resultLabel);
+				ImportXML.fusionFiles(Constant.getXmlPath(), resultLabel);
 			} catch (IOException e) {
 				LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));

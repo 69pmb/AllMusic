@@ -154,7 +154,7 @@ public class DialogFileTable extends JDialog {
 			// Double click gauche -> Ouvre une popup pour afficher les compositions du
 			// fichier sélectionné
 			List<Composition> compo = ImportXML
-					.importXML(Constant.XML_PATH + selectedRow.get().get(INDEX_FILE_NAME) + Constant.XML_EXTENSION);
+					.importXML(Constant.getXmlPath() + selectedRow.get().get(INDEX_FILE_NAME) + Constant.XML_EXTENSION);
 			List<String> title = new ArrayList<>();
 			if (!compo.isEmpty()) {
 				Fichier file = compo.get(0).getFiles().get(0);

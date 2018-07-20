@@ -12,11 +12,15 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.nio.file.Files;
+import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
@@ -102,7 +106,7 @@ public class FichierUtils {
 	public static Fichier modifyFichier(String fileName, String newFileName, String newPublish, String newRange,
 			String newCat, String newSize, String newSorted) throws MyException {
 		// Modification du fichier xml
-		List<Composition> compoList = ImportXML.importXML(Constant.XML_PATH + fileName + Constant.XML_EXTENSION);
+		List<Composition> compoList = ImportXML.importXML(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION);
 		compoList.stream()
 				.forEach(modifyOneFile(fileName, newFileName, newPublish, newRange, newCat, newSize, newSorted));
 		Fichier result = compoList.get(0).getFiles().get(0);
@@ -114,16 +118,16 @@ public class FichierUtils {
 		}
 		// Supprime l'ancien fichier
 		if (!StringUtils.equals(fileName, newFileName)) {
-			new File(Constant.XML_PATH + fileName + Constant.XML_EXTENSION).delete();
+			new File(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION).delete();
 		}
 		// Modification du fichier final.xml
-		List<Composition> finalList = ImportXML.importXML(Constant.FINAL_FILE_PATH);
+		List<Composition> finalList = ImportXML.importXML(Constant.getFinalFilePath());
 		finalList.stream()
 				.filter(c -> c.getFiles().stream().anyMatch(f -> StringUtils.equals(f.getFileName(), fileName)))
 				.forEach(modifyOneFile(fileName, newFileName, newPublish, newRange, newCat, newSize, newSorted));
 		try {
 			// Sauvegarde des modifications
-			ExportXML.exportXML(finalList, Constant.FINAL_FILE);
+			ExportXML.exportXML(finalList, Constant.getFinalFile());
 		} catch (IOException e) {
 			throw new MyException("Erreur lors de la modification d'une composition dans le fichier final", e);
 		}
@@ -203,7 +207,7 @@ public class FichierUtils {
 			String absPath = filePath.get();
 			if (FileUtils.fileExists(absPath)) {
 				try {
-					Runtime.getRuntime().exec(Constant.NOTEPAD_PATH + absPath);
+					Runtime.getRuntime().exec(Constant.getNotepadPath() + absPath);
 				} catch (IOException e) {
 					throw new MyException("Le chemin de Notepad++ dans le fichier de config est incorrect.", e);
 				}
@@ -239,7 +243,7 @@ public class FichierUtils {
 	 */
 	public static Optional<String> buildTxtFilePath(String fileName, String auteur) {
 		LOG.debug("Start buildTxtFilePath");
-		String pathRoot = Constant.MUSIC_ABS_DIRECTORY + auteur + FileUtils.FS;
+		String pathRoot = Constant.getMusicAbsDirectory() + auteur + FileUtils.FS;
 		String nameWithExtension = fileName + Constant.TXT_EXTENSION;
 
 		String pathShort = pathRoot + nameWithExtension;
@@ -350,5 +354,23 @@ public class FichierUtils {
 			LOG.error("Erreur lors de l'ouverture du fichier: " + filePath, e);
 		}
 		return Optional.ofNullable(line);
+	}
+
+	public static Date getLastModifyDate(String filePath) {
+		BasicFileAttributes attr = null;
+		try {
+			attr = Files.readAttributes(new File(filePath).toPath(), BasicFileAttributes.class);
+		} catch (IOException e) {
+			LOG.error("Impossible de récupérer les attributs de " + filePath, e);
+		}
+		if (attr == null) {
+			return new Date();
+		}
+		Date lastModifyDate = null;
+		long milliseconds = attr.lastModifiedTime().to(TimeUnit.MILLISECONDS);
+		if ((milliseconds > Long.MIN_VALUE) && (milliseconds < Long.MAX_VALUE)) {
+			lastModifyDate = new Date(milliseconds);
+		}
+		return lastModifyDate;
 	}
 }
