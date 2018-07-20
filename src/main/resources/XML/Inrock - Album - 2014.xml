@@ -298,7 +298,7 @@
   <Composition artist="Damon Albarn" titre="Everyday Robots" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Album - 2014" publishYear="2014" categorie="YEAR" rangeDateBegin="2014" rangeDateEnd="2014" sorted="false" classement="99" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
-  <Composition artist="christine and the queens" titre="Chaleur humaine" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="christine and the queens" titre="Chaleur humaine" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Album - 2014" publishYear="2014" categorie="YEAR" rangeDateBegin="2014" rangeDateEnd="2014" sorted="false" classement="100" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
 </ListCompositions>
