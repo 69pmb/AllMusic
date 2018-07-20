@@ -5,7 +5,6 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
@@ -453,17 +452,17 @@ public class FichierPanel extends JPanel {
 		setTableSize(compoPanel, MIN_HEIGHT_TABLE);
 	}
 
-	@SuppressWarnings("unchecked")
 	private void mouseActionForFileTable(MouseEvent e) {
-		JTable target = (JTable) e.getSource();
-		Vector<String> v = (Vector<String>) ((FichierPanelModel) target.getModel()).getDataVector()
-				.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
+		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+		if (!selectedRow.isPresent()) {
+			return;
+		}
 		if (e.getClickCount() == 1 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse, open");
 			// Double click avec le bouton gauche
 			// Affiche les compositions du fichier sélectionné
-			compositionList = ImportXML
-					.importXML(Constant.XML_PATH + v.get(INDEX_FILE_FILE_NAME) + Constant.XML_EXTENSION);
+			compositionList = ImportXML.importXML(
+					Constant.XML_PATH + selectedRow.get().get(INDEX_FILE_FILE_NAME) + Constant.XML_EXTENSION);
 			if (!deleted.isSelected()) {
 				compositionList = compositionList.stream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
 			}
@@ -472,13 +471,13 @@ public class FichierPanel extends JPanel {
 		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("End left mouse, modify");
 			// Popup pour modifier le fichier
-			modifyFichierAction(v);
+			modifyFichierAction(selectedRow.get());
 			LOG.debug("End left mouse, modify");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Ouvre le fichier txt
-			Optional<String> filePath = FichierUtils.buildTxtFilePath(v.get(INDEX_FILE_FILE_NAME),
-					v.get(INDEX_FILE_AUTHOR));
+			Optional<String> filePath = FichierUtils.buildTxtFilePath(selectedRow.get().get(INDEX_FILE_FILE_NAME),
+					selectedRow.get().get(INDEX_FILE_AUTHOR));
 			try {
 				FichierUtils.openFileInNotepad(filePath);
 			} catch (MyException e1) {
@@ -488,25 +487,21 @@ public class FichierPanel extends JPanel {
 		}
 	}
 
-	@SuppressWarnings("unchecked")
 	private void mouseActionForCompoTable(MouseEvent e, ArtistPanel artistPanel) {
-		JTable target = (JTable) e.getSource();
-		int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
-		if (rowAtPoint > -1) {
-			target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+		if (!selectedRow.isPresent()) {
+			return;
 		}
-		Vector<String> selectedRow = (Vector<String>) ((CompoFichierPanelModel) target.getModel()).getDataVector()
-				.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse");
 			// Popup pour modifier la composition
-			modifyCompositionAction(artistPanel, selectedRow);
+			modifyCompositionAction(artistPanel, selectedRow.get());
 			LOG.debug("End left mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
 			StringSelection selection = new StringSelection(
-					selectedRow.get(INDEX_COMPO_ARTIST) + " " + selectedRow.get(INDEX_COMPO_TITLE));
+					selectedRow.get().get(INDEX_COMPO_ARTIST) + " " + selectedRow.get().get(INDEX_COMPO_TITLE));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
@@ -552,7 +547,7 @@ public class FichierPanel extends JPanel {
 	}
 
 	@SuppressWarnings("unchecked")
-	private void modifyCompositionAction(final ArtistPanel artistPanel, Object selected) {
+	private void modifyCompositionAction(final ArtistPanel artistPanel, Vector<String> selected) {
 		LOG.debug("Start modif");
 		resultLabel.setText("");
 		artistPanel.interruptUpdateArtist();
