@@ -61,7 +61,7 @@
   <Composition artist="James Brown" titre="Papa's Got A Brand New Bag" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="21" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Mystery Train" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Mystery Train" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="22" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Booker T" titre="Green Onions" type="SONG" canBeMerged="true" deleted="false">
@@ -94,7 +94,7 @@
   <Composition artist="Rod Stewart" titre="Maggie May" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="32" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Dionne Warwick" titre="Walk On By" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dionne Warwick" titre="Walk On By" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="33" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Roy Orbison" titre="Oh, Pretty Woman" type="SONG" canBeMerged="true" deleted="false">
@@ -418,7 +418,7 @@
   <Composition artist="TLC" titre="Waterfalls" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="142" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Don McLean" titre="American Pie" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Don McLean" titre="American Pie" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="143" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Jackie Brenston" titre="Rocket 88" type="SONG" canBeMerged="true" deleted="false">
@@ -751,7 +751,7 @@
   <Composition artist="The Everly Brothers" titre="Wake Up Little Susie" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="253" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Cyndi Lauper" titre="Girls Just Want to Have Fun" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Cyndi Lauper" titre="Girls Just Want to Have Fun" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="254" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Jimmy Cliff" titre="The Harder They Come" type="SONG" canBeMerged="true" deleted="false">
@@ -1345,7 +1345,7 @@
   <Composition artist="Duran Duran" titre="Hungry Like the Wolf" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="451" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Dexys Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dexys Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="452" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="The Special A.K.A." titre="Free Nelson Mandela" type="SONG" canBeMerged="true" deleted="false">
@@ -1372,7 +1372,7 @@
   <Composition artist="Modest Mouse" titre="Float On" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="460" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Fats Domino" titre="Ain't That a Shame" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Fats Domino" titre="Ain't That a Shame" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="461" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Aaliyah" titre="Try Again" type="SONG" canBeMerged="true" deleted="false">
@@ -2245,7 +2245,7 @@
   <Composition artist="R. Kelly" titre="Ignition (Remix)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="751" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Chuck Berry" titre="Sweet Little Sixteen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Chuck Berry" titre="Sweet Little Sixteen" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="752" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Green Day" titre="Longview" type="SONG" canBeMerged="true" deleted="false">
@@ -3445,7 +3445,7 @@
   <Composition artist="Fleetwood Mac" titre="Oh Well" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1151" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Eric Clapton" titre="Tears in Heaven" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Eric Clapton" titre="Tears in Heaven" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1152" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Neil Young" titre="Cinnamon Girl" type="SONG" canBeMerged="true" deleted="false">
@@ -4816,7 +4816,7 @@
   <Composition artist="The Contours" titre="Do You Love Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1608" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Dead Or Alive" titre="You Spin Me Round" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dead Or Alive" titre="You Spin Me Round" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1609" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Marshall Jefferson" titre="Move Your Body (House Music Anthem)" type="SONG" canBeMerged="true" deleted="false">
@@ -6151,7 +6151,7 @@
   <Composition artist="Eve And Gwen Stefani" titre="Let Me Blow Ya Mind" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="2053" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Dizzee Rascal" titre="Fix Up, Look Sharp" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dizzee Rascal" titre="Fix Up, Look Sharp" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="2054" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Bobby Brown" titre="My Prerogative" type="SONG" canBeMerged="true" deleted="false">
@@ -9412,7 +9412,7 @@
   <Composition artist="The Monkees" titre="Pleasant Valley Sunday" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="3140" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Elton John" titre="Crocodile Rock" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elton John" titre="Crocodile Rock" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="3141" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Girls Aloud" titre="No Good Advice" type="SONG" canBeMerged="true" deleted="false">

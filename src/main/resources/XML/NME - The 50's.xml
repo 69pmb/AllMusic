@@ -73,7 +73,7 @@
   <Composition artist="Big Mama Thornton" titre="Hound Dog" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 50's" publishYear="1959" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="true" classement="24" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Chuck Berry" titre="Sweet Little Sixteen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Chuck Berry" titre="Sweet Little Sixteen" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 50's" publishYear="1959" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="true" classement="25" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Little Richard" titre="Good Golly Miss Molly" type="SONG" canBeMerged="true" deleted="false">
@@ -274,7 +274,7 @@
   <Composition artist="Johnny Burnette" titre="Train Kept A-Rollin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 50's" publishYear="1959" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="true" classement="91" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Fats Domino" titre="Aint That A Shame" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Fats Domino" titre="Aint That A Shame" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 50's" publishYear="1959" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="true" classement="92" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Nina Simone" titre="My Baby Just Cares For Me" type="SONG" canBeMerged="true" deleted="false">
