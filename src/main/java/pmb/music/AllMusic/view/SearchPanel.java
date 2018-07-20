@@ -347,7 +347,7 @@ public class SearchPanel extends JPanel {
 		JPanel fileNamePanel = new JPanel();
 		JLabel fileNameLabel = PanelUtils.createJLabel("Nom du fichier : ", 300);
 		fileName = new JTextField();
-		PanelUtils.setSize(fileName, 250, PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.setSize(fileName, 220, PanelUtils.COMPONENT_HEIGHT);
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
 		searchFields.add(fileNamePanel);
