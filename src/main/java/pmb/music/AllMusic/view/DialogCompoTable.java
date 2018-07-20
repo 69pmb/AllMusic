@@ -5,7 +5,6 @@ package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
@@ -14,6 +13,7 @@ import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.Vector;
 
 import javax.swing.JDialog;
@@ -107,22 +107,17 @@ public class DialogCompoTable extends JDialog {
 		LOG.debug("End initComponent");
 	}
 
-	@SuppressWarnings("unchecked")
 	private void mouseAction(MouseEvent e) {
 		if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
-			JTable target = (JTable) e.getSource();
-			int rowAtPoint = target
-					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
-			if (rowAtPoint > -1) {
-				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+			Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+			if (selectedRow.isPresent()) {
+				StringSelection selection = new StringSelection(
+						selectedRow.get().get(INDEX_ARTIST) + " " + selectedRow.get().get(INDEX_TITLE));
+				Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+				clipboard.setContents(selection, selection);
 			}
-			Vector<String> v = (Vector<String>) ((CompoDialogModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(INDEX_ARTIST) + " " + v.get(INDEX_TITLE));
-			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
 		}
 	}

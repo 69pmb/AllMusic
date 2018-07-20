@@ -5,7 +5,6 @@ package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
@@ -127,19 +126,16 @@ public class DialogFileTable extends JDialog {
 		};
 	}
 
-	@SuppressWarnings("unchecked")
 	private void mouseAction(MouseEvent e) {
-		JTable target = (JTable) e.getSource();
-		int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
-		if (rowAtPoint > -1) {
-			target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+		if (!selectedRow.isPresent()) {
+			return;
 		}
 		if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 2) {
 			LOG.debug("Start fichier mouse");
 			// Double click droit -> ouvre le fichier txt
-			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			Optional<String> filePath = FichierUtils.buildTxtFilePath(v.get(INDEX_FILE_NAME), v.get(INDEX_AUTEUR));
+			Optional<String> filePath = FichierUtils.buildTxtFilePath(selectedRow.get().get(INDEX_FILE_NAME),
+					selectedRow.get().get(INDEX_AUTEUR));
 			try {
 				FichierUtils.openFileInNotepad(filePath);
 			} catch (MyException e1) {
@@ -149,9 +145,7 @@ public class DialogFileTable extends JDialog {
 		} else if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 1) {
 			LOG.debug("Start right mouse");
 			// simple click droit -> copie le nom du fichier dans le presse papier
-			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(INDEX_FILE_NAME));
+			StringSelection selection = new StringSelection(selectedRow.get().get(INDEX_FILE_NAME));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
@@ -159,10 +153,8 @@ public class DialogFileTable extends JDialog {
 			LOG.debug("Start double right mouse");
 			// Double click gauche -> Ouvre une popup pour afficher les compositions du
 			// fichier sélectionné
-			Vector<String> v = (Vector<String>) ((FichierDialogModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			List<Composition> compo = ImportXML
-					.importXML(Constant.XML_PATH + v.get(INDEX_FILE_NAME) + Constant.XML_EXTENSION);
+					.importXML(Constant.XML_PATH + selectedRow.get().get(INDEX_FILE_NAME) + Constant.XML_EXTENSION);
 			List<String> title = new ArrayList<>();
 			if (!compo.isEmpty()) {
 				Fichier file = compo.get(0).getFiles().get(0);
@@ -172,7 +164,7 @@ public class DialogFileTable extends JDialog {
 						String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:",
 						String.valueOf(file.getSize()));
 			} else {
-				LOG.warn(v.get(INDEX_FILE_NAME) + " empty !");
+				LOG.warn(selectedRow.get().get(INDEX_FILE_NAME) + " empty !");
 			}
 			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " "), true, compo,
 					new Dimension(1500, 400));

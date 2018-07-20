@@ -6,7 +6,6 @@ package pmb.music.AllMusic.view;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
@@ -342,19 +341,19 @@ public class ArtistPanel extends JPanel {
 		selectedRow = -1;
 	}
 
-	@SuppressWarnings("unchecked")
 	private void mouseClickAction(MouseEvent e) {
-		JTable target = (JTable) e.getSource();
+		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+		if (!selectedRow.isPresent()) {
+			return;
+		}
+		LOG.debug(selectedRow);
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start artist mouse");
 			// Affiche tous les fichiers de l'artiste double cliqué
-			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
-			LOG.debug(v);
 			Optional<String> key = CompositionUtils.findArtistKey(searchResult, new JaroWinklerDistance(),
-					v.get(INDEX_ARTIST));
+					selectedRow.get().get(INDEX_ARTIST));
 			if (!key.isPresent()) {
-				LOG.error("Error when searching: " + v.get(INDEX_ARTIST) + " in data table");
+				LOG.error("Error when searching: " + selectedRow.get().get(INDEX_ARTIST) + " in data table");
 			} else {
 				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, searchResult.get(key.get()),
 						new Dimension(1500, 600), DialogFileTable.INDEX_TITLE);
@@ -364,14 +363,7 @@ public class ArtistPanel extends JPanel {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start artist right mouse");
 			// Copie dans le presse papier le nom de l'artiste
-			int rowAtPoint = target
-					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
-			if (rowAtPoint > -1) {
-				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
-			}
-			Vector<String> v = (Vector<String>) ((ArtistModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(INDEX_ARTIST));
+			StringSelection selection = new StringSelection(selectedRow.get().get(INDEX_ARTIST));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End artist right mouse");
