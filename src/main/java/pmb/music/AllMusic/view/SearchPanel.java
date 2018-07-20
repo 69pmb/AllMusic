@@ -5,7 +5,6 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
@@ -22,6 +21,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
@@ -655,19 +655,20 @@ public class SearchPanel extends JPanel {
 		LOG.debug("End modif");
 	}
 
-	@SuppressWarnings("unchecked")
 	private void mouseClickAction(MouseEvent e) {
+		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+		if (!selectedRow.isPresent()) {
+			return;
+		}
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start result mouse");
 			// Ouvre une popup pour afficher les fichiers de la
 			// composition sélectionnée
-			JTable target = (JTable) e.getSource();
-			Vector<String> v = (Vector<String>) ((CompoSearchPanelModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(target.getSelectedRow()));
 			try {
 				DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-						Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult, v.get(INDEX_ARTIST),
-								v.get(INDEX_TITRE), v.get(INDEX_TYPE), true)),
+						Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult,
+								selectedRow.get().get(INDEX_ARTIST), selectedRow.get().get(INDEX_TITRE),
+								selectedRow.get().get(INDEX_TYPE), true)),
 						new Dimension(1500, 400), DialogFileTable.INDEX_TITLE);
 				pop.showDialogFileTable();
 			} catch (MyException e1) {
@@ -677,15 +678,8 @@ public class SearchPanel extends JPanel {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
-			JTable target = (JTable) e.getSource();
-			int rowAtPoint = target
-					.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
-			if (rowAtPoint > -1) {
-				target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
-			}
-			Vector<String> v = (Vector<String>) ((CompoSearchPanelModel) target.getModel()).getDataVector()
-					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
-			StringSelection selection = new StringSelection(v.get(INDEX_ARTIST) + " " + v.get(INDEX_TITRE));
+			StringSelection selection = new StringSelection(
+					selectedRow.get().get(INDEX_ARTIST) + " " + selectedRow.get().get(INDEX_TITRE));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");

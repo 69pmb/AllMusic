@@ -3,10 +3,13 @@ package pmb.music.AllMusic.view;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.Point;
 import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 import java.util.Vector;
 
 import javax.swing.BorderFactory;
@@ -17,6 +20,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.SwingConstants;
+import javax.swing.SwingUtilities;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
@@ -64,7 +68,8 @@ public class PanelUtils {
 	}
 
 	/**
-	 * Fixe la largeur de chaques colonnes à la longueur maximum pour de chaques colonnes.
+	 * Fixe la largeur de chaques colonnes à la longueur maximum pour de chaques
+	 * colonnes.
 	 * 
 	 * @param table le tableau
 	 * @param width la largeur du composant parent quand il est redimensionné
@@ -93,6 +98,19 @@ public class PanelUtils {
 				columnModel.getColumn(i).setMaxWidth(intValue);
 			}
 		}
+	}
+
+	@SuppressWarnings("unchecked")
+	public static <T extends AbstractModel> Optional<Vector<String>> getSelectedRow(MouseEvent e) {
+		JTable target = (JTable) e.getSource();
+		int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+		Vector<String> selectedRow = null;
+		if (rowAtPoint > -1) {
+			target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
+			selectedRow = (Vector<String>) ((T) target.getModel()).getDataVector()
+					.get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
+		}
+		return Optional.ofNullable(selectedRow);
 	}
 
 	@SuppressWarnings("unchecked")
