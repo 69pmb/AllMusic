@@ -349,7 +349,7 @@
   <Composition artist="Crosby Stills Nash and Young" titre="Deja Vu" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="148" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Houses of the Holy" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Houses of the Holy" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="149" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Santana" titre="Santana" type="ALBUM" canBeMerged="true" deleted="false">
