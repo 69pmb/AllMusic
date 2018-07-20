@@ -16,6 +16,7 @@ import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JComponent;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
@@ -52,7 +53,8 @@ public class PanelUtils {
 	 */
 	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex) {
 		LOG.debug("Start colRenderer");
-		setColumnsWidth(table, table.getWidth());
+		JFrame topFrame = (JFrame) SwingUtilities.getWindowAncestor(table);
+		setColumnsWidth(table, topFrame != null ? topFrame.getWidth() : table.getWidth());
 
 		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex);
 		int columnCount = table.getColumnCount();
@@ -92,8 +94,8 @@ public class PanelUtils {
 			}
 			columnModel.getColumn(i).setPreferredWidth(maximum * 7 + 50); // valeur arbitraire
 
-			int intValue = maximum * 7 + 70;
-			if (table.getWidth() != 0 && table.getWidth() > (width + 1)) {
+			int intValue = maximum * 7 + 65;
+			if (table.getWidth() != 0 && table.getWidth() > (width + 10)) {
 				// Calcule le ratio entre la largeur donnée et la largeur du tableau
 				intValue = new BigDecimal(intValue).multiply(new BigDecimal(width))
 						.divide(BigDecimal.valueOf(table.getWidth()), BigDecimal.ROUND_CEILING).intValue();
