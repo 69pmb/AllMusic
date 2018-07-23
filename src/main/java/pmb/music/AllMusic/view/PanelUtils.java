@@ -7,8 +7,9 @@ import java.awt.Point;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
-import java.math.BigDecimal;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Vector;
 
@@ -79,8 +80,12 @@ public class PanelUtils {
 	 * @param width la largeur du composant parent quand il est redimensionné
 	 */
 	public static void setColumnsWidth(JTable table, int width) {
+		boolean isTableWiderThanScreen = table.getWidth() != 0 && table.getWidth() > (width + 10);
 		TableColumnModel columnModel = table.getColumnModel();
-		for (int i = 0; i < columnModel.getColumnCount(); i++) {
+		Map<Integer, Integer> colWidth = new HashMap<>();
+		Double widthDouble = new Double(width);
+		int columnCount = columnModel.getColumnCount();
+		for (int i = 0; i < columnCount; i++) {
 			int maximum = 0;
 			for (int j = 0; j < table.getRowCount(); j++) {
 				Object currentValue = table.getValueAt(j, i);
@@ -94,13 +99,30 @@ public class PanelUtils {
 			}
 			columnModel.getColumn(i).setPreferredWidth(maximum * 7 + 50); // valeur arbitraire
 
-			int intValue = maximum * 7 + 65;
-			if (table.getWidth() != 0 && table.getWidth() > (width + 10)) {
+			if (isTableWiderThanScreen) {
+				// If table wider than given width, calculates a column width
+				Double tableWidthDouble = new Double(table.getWidth());
+				Double ratio = widthDouble / tableWidthDouble;
+				Double columnWidth = new Double(maximum) * 7D + 130D * ratio;
 				// Calcule le ratio entre la largeur donnée et la largeur du tableau
-				intValue = new BigDecimal(intValue).multiply(new BigDecimal(width))
-						.divide(BigDecimal.valueOf(table.getWidth()), BigDecimal.ROUND_CEILING).intValue();
-				columnModel.getColumn(i).setMaxWidth(intValue);
+				int round = (int) Math.round(columnWidth * ratio);
+				colWidth.put(i, round);
 			}
+		}
+		if (isTableWiderThanScreen) {
+			// Sum of the calculates columns width
+			Integer sum = colWidth.values().stream().mapToInt(Integer::intValue).sum();
+			if (sum.compareTo(width) > 0) {
+				// If the calculates column are too large
+				Double offset = (new Double(sum) - widthDouble) / new Double(columnCount);
+				colWidth.entrySet().stream().forEach(e -> e.setValue(e.getValue() - (int) Math.round(offset)));
+			} else {
+				// If the calculates column are too thin
+				Double offset = (widthDouble - new Double(sum)) / new Double(columnCount);
+				colWidth.entrySet().stream().forEach(e -> e.setValue(e.getValue() + (int) Math.round(offset)));
+			}
+			// Set of the columns max width for each column
+			colWidth.entrySet().stream().forEach(e -> columnModel.getColumn(e.getKey()).setMaxWidth(e.getValue()));
 		}
 	}
 
