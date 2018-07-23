@@ -84,6 +84,7 @@ public class DialogCompoTable extends JDialog {
 		table = new JTable();
 		table.setAutoCreateRowSorter(true);
 		table.setRowHeight(30);
+		table.getTableHeader().setResizingAllowed(true);
 		table.setFillsViewportHeight(true);
 		table.setBackground(UIManager.getColor("Label.background"));
 		table.setFont(UIManager.getFont("Label.font"));

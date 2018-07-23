@@ -99,6 +99,7 @@ public class DialogFileTable extends JDialog {
 		fichiers = new JTable();
 		fichiers.setAutoCreateRowSorter(true);
 		fichiers.setRowHeight(30);
+		fichiers.getTableHeader().setResizingAllowed(true);
 		fichiers.setFillsViewportHeight(true);
 		fichiers.setBackground(UIManager.getColor("Label.background"));
 		fichiers.setFont(UIManager.getFont("Label.font"));
