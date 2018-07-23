@@ -197,6 +197,7 @@ public class ArtistPanel extends JPanel {
 		table.setAutoCreateRowSorter(true);
 		table.setRowHeight(30);
 		table.setFillsViewportHeight(true);
+		table.getTableHeader().setResizingAllowed(true);
 		table.setBackground(UIManager.getColor("Label.background"));
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));

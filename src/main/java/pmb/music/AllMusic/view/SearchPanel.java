@@ -150,6 +150,7 @@ public class SearchPanel extends JPanel {
 		tableResult.setFillsViewportHeight(true);
 		tableResult.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
 		tableResult.setBackground(UIManager.getColor("Label.background"));
+		tableResult.getTableHeader().setResizingAllowed(true);
 		tableResult.setFont(UIManager.getFont("Label.font"));
 		tableResult.setBorder(UIManager.getBorder("Label.border"));
 		model = new CompoSearchPanelModel(new Object[0][6], title);

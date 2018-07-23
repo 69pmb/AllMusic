@@ -339,6 +339,7 @@ public class FichierPanel extends JPanel {
 		tableFiles.setAutoCreateRowSorter(true);
 		tableFiles.setRowHeight(30);
 		tableFiles.setFillsViewportHeight(true);
+		tableFiles.getTableHeader().setResizingAllowed(true);
 		tableFiles.setBackground(UIManager.getColor("Label.background"));
 		tableFiles.setFont(UIManager.getFont("Label.font"));
 		tableFiles.setBorder(UIManager.getBorder("Label.border"));
@@ -394,6 +395,7 @@ public class FichierPanel extends JPanel {
 		tableCompo.setAutoCreateRowSorter(true);
 		tableCompo.setRowHeight(30);
 		tableCompo.setFillsViewportHeight(true);
+		tableCompo.getTableHeader().setResizingAllowed(true);
 		tableCompo.setBackground(UIManager.getColor("Label.background"));
 		tableCompo.setFont(UIManager.getFont("Label.font"));
 		tableCompo.setBorder(UIManager.getBorder("Label.border"));
