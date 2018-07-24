@@ -69,6 +69,7 @@ public class AllMusic {
 			}
 			f.pack();
 			f.setVisible(true);
+			LOG.debug("Look: " + UIManager.getLookAndFeel());
 		});
 	}
 }
