@@ -56,6 +56,8 @@ public class DialogFileTable extends JDialog {
 	public static final int INDEX_DELETED = 3;
 	public static final int INDEX_AUTEUR = 4;
 	public static final int INDEX_FILE_NAME = 5;
+	public static final int INDEX_PUBLISH_YEAR = 6;
+	public static final int INDEX_FILE_SIZE = 9;
 	public static final int INDEX_RANK = 10;
 
 	private JTable fichiers;
