@@ -39,14 +39,12 @@ public class FichierDialogModel extends AbstractModel {
 	 * @param data {@link Vector} les données
 	 * @param title {@link Vector} les entetes du tableau
 	 */
-	@SuppressWarnings("rawtypes")
-	public FichierDialogModel(Vector data, Vector title) {
+	public FichierDialogModel(Vector<?> data, Vector<?> title) {
 		super(data, title);
 	}
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
-	public Class getColumnClass(int col) {
+	public Class<?> getColumnClass(int col) {
 		if (col == INDEX_PUBLISH_YEAR || col == INDEX_FILE_SIZE || col == INDEX_RANK) {
 			return Integer.class;
 		} else {

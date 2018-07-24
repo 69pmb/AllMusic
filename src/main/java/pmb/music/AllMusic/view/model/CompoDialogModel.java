@@ -23,8 +23,7 @@ public class CompoDialogModel extends AbstractModel {
 	 * @param data {@link Vector} les données
 	 * @param title {@link Vector} les entetes du tableau
 	 */
-	@SuppressWarnings("rawtypes")
-	public CompoDialogModel(Vector data, Vector title) {
+	public CompoDialogModel(Vector<?> data, Vector<?> title) {
 		super(data, title);
 	}
 
