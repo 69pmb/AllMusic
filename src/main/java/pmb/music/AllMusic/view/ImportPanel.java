@@ -27,6 +27,7 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
+import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -704,7 +705,7 @@ public class ImportPanel extends JPanel {
 		jfile.setApproveButtonText("Ouvrir");
 		FileNameExtensionFilter filter = new FileNameExtensionFilter(extension, extension);
 		jfile.setFileFilter(filter);
-		if (jfile.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+		if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
 			resetAll();
 			LOG.debug("End addBrowsingFile");
 			return jfile.getSelectedFile();
