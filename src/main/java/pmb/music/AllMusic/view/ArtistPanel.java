@@ -200,7 +200,7 @@ public class ArtistPanel extends JPanel {
 		table.setBackground(UIManager.getColor("Label.background"));
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));
-		model = new ArtistModel(new Object[0][2], title);
+		model = new ArtistModel(new Object[0][4], title);
 		table.setModel(model);
 		table.setRowSorter(new TableRowSorter<TableModel>(model));
 		table.getRowSorter().addRowSorterListener(new RowSorterListener() {
