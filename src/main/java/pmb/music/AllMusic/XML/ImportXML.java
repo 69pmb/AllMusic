@@ -88,10 +88,11 @@ public final class ImportXML {
 		FichierUtils.listFilesForFolder(dir, files, Constant.XML_EXTENSION, false);
 		List<Composition> compoFusionSong = new ArrayList<>(); // Contiendra toutes les compositions de chanson
 		List<Composition> compoFusionAlbum = new ArrayList<>(); // Contiendra toutes les compositions d'album
+		String finalFile = Constant.getFinalFile();
 		for (File fileXML : files) {
 			// On récupère les compositions de chaque fichier xml, excepté le fichier
 			// final.xml
-			if (!Constant.getFinalFile().equalsIgnoreCase(fileXML.getName())) {
+			if (!finalFile.equalsIgnoreCase(fileXML.getName())) {
 				List<Composition> importXML = ImportXML.importXML(fileXML.getAbsolutePath());
 				if (RecordType.ALBUM.equals(importXML.get(0).getRecordType())) {
 					compoFusionAlbum.addAll(importXML);
@@ -109,7 +110,7 @@ public final class ImportXML {
 		LOG.debug(sizeBG.intValue());
 		compoFinal = fusion(resultLabel, compoFusionAlbum, compoFinal, 0, modulo, sizeBG);
 		compoFinal = fusion(resultLabel, compoFusionSong, compoFinal, compoFusionAlbum.size(), modulo, sizeBG);
-		ExportXML.exportXML(compoFinal, Constant.getFinalFile()); // On exporte le resultat dans le fichier final.xml
+		ExportXML.exportXML(compoFinal, finalFile); // On exporte le resultat dans le fichier final.xml
 		double endTime = System.currentTimeMillis();
 		LOG.debug("Time: " + (endTime - startTime) / 1000 + " secondes");
 		LOG.debug("End fusionFiles");
