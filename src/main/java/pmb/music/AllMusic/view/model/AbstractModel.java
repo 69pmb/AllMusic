@@ -65,9 +65,8 @@ public abstract class AbstractModel extends DefaultTableModel {
 	 */
 	public abstract List<Object> getSelected();
 
-	@SuppressWarnings("rawtypes")
 	@Override
 	public Object getValueAt(int rowIndex, int columnIndex) {
-		return ((Vector) this.getDataVector().elementAt(rowIndex)).elementAt(columnIndex);
+		return ((Vector<?>) this.getDataVector().elementAt(rowIndex)).elementAt(columnIndex);
 	}
 }

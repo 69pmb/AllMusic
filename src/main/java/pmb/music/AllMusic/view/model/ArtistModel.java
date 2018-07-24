@@ -29,9 +29,8 @@ public class ArtistModel extends AbstractModel {
 		return false;
 	}
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
-	public Class getColumnClass(int col) {
+	public Class<?> getColumnClass(int col) {
 		if (col == 0) {
 			return String.class;
 		} else {
