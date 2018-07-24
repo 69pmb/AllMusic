@@ -3,6 +3,7 @@ package pmb.music.AllMusic.view;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.FontMetrics;
 import java.awt.Point;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
@@ -55,7 +56,7 @@ public class PanelUtils {
 	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex) {
 		LOG.debug("Start colRenderer");
 		JFrame topFrame = (JFrame) SwingUtilities.getWindowAncestor(table);
-		setColumnsWidth(table, topFrame != null ? topFrame.getWidth() : table.getWidth());
+		setColumnsWidth(table, topFrame != null ? topFrame.getWidth() : table.getWidth(), "Init");
 
 		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex);
 		int columnCount = table.getColumnCount();
@@ -78,8 +79,10 @@ public class PanelUtils {
 	 * 
 	 * @param table le tableau
 	 * @param width la largeur du composant parent quand il est redimensionné
+	 * @param name name of the table
 	 */
-	public static void setColumnsWidth(JTable table, int width) {
+	public static void setColumnsWidth(JTable table, int width, String name) {
+		LOG.debug("Start setColumnsWidth: " + name);
 		boolean isTableWiderThanScreen = table.getWidth() != 0 && table.getWidth() > (width + 10);
 		TableColumnModel columnModel = table.getColumnModel();
 		Map<Integer, Integer> colWidth = new HashMap<>();
@@ -87,8 +90,9 @@ public class PanelUtils {
 		int columnCount = columnModel.getColumnCount();
 		for (int i = 0; i < columnCount; i++) {
 			int maximum = 0;
+			Object currentValue = null;
 			for (int j = 0; j < table.getRowCount(); j++) {
-				Object currentValue = table.getValueAt(j, i);
+				currentValue = table.getValueAt(j, i);
 				if (currentValue == null) {
 					continue;
 				}
@@ -97,33 +101,49 @@ public class PanelUtils {
 					maximum = longueurCourante;
 				}
 			}
-			columnModel.getColumn(i).setPreferredWidth(maximum * 7 + 50); // valeur arbitraire
+			Double columnWidth = 0D;
+			if (currentValue != null) {
+				FontMetrics fontMetrics = table.getGraphics().getFontMetrics(table.getFont());
+				int widthFactor = fontMetrics.stringWidth(new JLabel(currentValue.toString()).getText());
+				columnModel.getColumn(i).setPreferredWidth(widthFactor + 2); // valeur arbitraire
+				columnWidth = new Double(widthFactor + 2);
+			} else {
+				columnModel.getColumn(i).setPreferredWidth(maximum * 7); // valeur arbitraire
+				columnWidth = new Double(maximum) * 7D;
+			}
 
 			if (isTableWiderThanScreen) {
 				// If table wider than given width, calculates a column width
 				Double tableWidthDouble = new Double(table.getWidth());
 				Double ratio = widthDouble / tableWidthDouble;
-				Double columnWidth = new Double(maximum) * 7D + 130D * ratio;
 				// Calcule le ratio entre la largeur donnée et la largeur du tableau
 				int round = (int) Math.round(columnWidth * ratio);
 				colWidth.put(i, round);
 			}
 		}
 		if (isTableWiderThanScreen) {
+			LOG.debug("Table is wider than Screen");
 			// Sum of the calculates columns width
 			Integer sum = colWidth.values().stream().mapToInt(Integer::intValue).sum();
+			Double sumDouble = new Double(sum);
+			Double columnCountDouble = new Double(columnCount);
 			if (sum.compareTo(width) > 0) {
+				LOG.debug("Too large");
 				// If the calculates column are too large
-				Double offset = (new Double(sum) - widthDouble) / new Double(columnCount);
+				Double offset = (sumDouble - widthDouble) / columnCountDouble;
 				colWidth.entrySet().stream().forEach(e -> e.setValue(e.getValue() - (int) Math.round(offset)));
 			} else {
+				LOG.debug("Too thin");
 				// If the calculates column are too thin
-				Double offset = (widthDouble - new Double(sum)) / new Double(columnCount);
+				Double offset = (widthDouble - sumDouble) / columnCountDouble;
 				colWidth.entrySet().stream().forEach(e -> e.setValue(e.getValue() + (int) Math.round(offset)));
 			}
-			// Set of the columns max width for each column
+			sum = colWidth.values().stream().mapToInt(Integer::intValue).sum();
+			// Set of the columns max/min width for each column
 			colWidth.entrySet().stream().forEach(e -> columnModel.getColumn(e.getKey()).setMaxWidth(e.getValue()));
+			colWidth.entrySet().stream().forEach(e -> columnModel.getColumn(e.getKey()).setMinWidth(e.getValue()));
 		}
+		LOG.debug("End setColumnsWidth: " + name);
 	}
 
 	@SuppressWarnings("unchecked")
