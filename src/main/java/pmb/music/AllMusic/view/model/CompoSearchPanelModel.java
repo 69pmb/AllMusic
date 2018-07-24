@@ -51,10 +51,11 @@ public class CompoSearchPanelModel extends AbstractModel {
 		}
 	}
 
+	@Override
 	public List<Object> getSelected() {
 		List<Object> toReturn = new ArrayList<>();
 		for (int i = 0; i < dataVector.size(); i++) {
-			if ((boolean) ((Vector<?>) dataVector.elementAt(i)).elementAt(INDEX_SELECTED)) {
+			if ((Boolean) ((Vector<?>) dataVector.elementAt(i)).elementAt(INDEX_SELECTED)) {
 				toReturn.add(dataVector.elementAt(i));
 			}
 		}
