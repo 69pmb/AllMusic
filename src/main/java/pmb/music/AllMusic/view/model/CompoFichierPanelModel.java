@@ -37,8 +37,7 @@ public class CompoFichierPanelModel extends AbstractModel {
 	 * @param data {@link Vector} les données
 	 * @param title {@link Vector} les entetes du tableau
 	 */
-	@SuppressWarnings("rawtypes")
-	public CompoFichierPanelModel(Vector data, Vector title) {
+	public CompoFichierPanelModel(Vector<?> data, Vector<?> title) {
 		super(data, title);
 	}
 
@@ -47,9 +46,8 @@ public class CompoFichierPanelModel extends AbstractModel {
 		return i1 == INDEX_SELECTED;
 	}
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
-	public Class getColumnClass(int col) {
+	public Class<?> getColumnClass(int col) {
 		switch (col) {
 		case INDEX_CLASSEMENT:
 			return Integer.class;
@@ -60,12 +58,11 @@ public class CompoFichierPanelModel extends AbstractModel {
 		}
 	}
 
-	@SuppressWarnings("rawtypes")
 	@Override
 	public List<Object> getSelected() {
 		List<Object> toReturn = new ArrayList<>();
 		for (int i = 0; i < dataVector.size(); i++) {
-			if ((boolean) ((Vector) dataVector.elementAt(i)).elementAt(INDEX_SELECTED)) {
+			if ((boolean) ((Vector<?>) dataVector.elementAt(i)).elementAt(INDEX_SELECTED)) {
 				toReturn.add(dataVector.elementAt(i));
 			}
 		}

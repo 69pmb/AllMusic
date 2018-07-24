@@ -37,9 +37,8 @@ public class CompoSearchPanelModel extends AbstractModel {
 		return i1 == INDEX_SELECTED;
 	}
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
-	public Class getColumnClass(int col) {
+	public Class<?> getColumnClass(int col) {
 		switch (col) {
 		case INDEX_FILE_SIZE:
 			return Integer.class;
@@ -52,11 +51,10 @@ public class CompoSearchPanelModel extends AbstractModel {
 		}
 	}
 
-	@SuppressWarnings("rawtypes")
 	public List<Object> getSelected() {
 		List<Object> toReturn = new ArrayList<>();
 		for (int i = 0; i < dataVector.size(); i++) {
-			if ((boolean) ((Vector) dataVector.elementAt(i)).elementAt(INDEX_SELECTED)) {
+			if ((boolean) ((Vector<?>) dataVector.elementAt(i)).elementAt(INDEX_SELECTED)) {
 				toReturn.add(dataVector.elementAt(i));
 			}
 		}
