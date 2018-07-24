@@ -3,6 +3,7 @@
  */
 package pmb.music.AllMusic.view.model;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Vector;
 
@@ -20,6 +21,7 @@ public class FichierPanelModel extends AbstractModel {
 	private static final long serialVersionUID = 1L;
 
 	private static final int INDEX_PUBLISH_YEAR = 2;
+	private static final int INDEX_CREATE_DATE = 5;
 	private static final int INDEX_FILE_SIZE = 6;
 
 	/**
@@ -38,16 +40,16 @@ public class FichierPanelModel extends AbstractModel {
 	 * @param data {@link Vector} les données
 	 * @param title {@link Vector} les entetes du tableau
 	 */
-	@SuppressWarnings("rawtypes")
-	public FichierPanelModel(Vector data, Vector title) {
+	public FichierPanelModel(Vector<?> data, Vector<?> title) {
 		super(data, title);
 	}
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
-	public Class getColumnClass(int col) {
+	public Class<?> getColumnClass(int col) {
 		if (col == INDEX_PUBLISH_YEAR || col == INDEX_FILE_SIZE) {
 			return Integer.class;
+		} else if (col == INDEX_CREATE_DATE) {
+			return Date.class;
 		} else {
 			return String.class;
 		}

@@ -6,6 +6,7 @@ package pmb.music.AllMusic.view;
 import java.awt.Color;
 import java.awt.Component;
 import java.text.NumberFormat;
+import java.util.Date;
 import java.util.Vector;
 
 import javax.swing.JTable;
@@ -13,6 +14,7 @@ import javax.swing.border.MatteBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableCellRenderer;
 
+import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.view.model.AbstractModel;
 
 /**
@@ -49,6 +51,8 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 			int row, int column) {
 		if (value instanceof Number) {
 			value = NumberFormat.getNumberInstance().format(value);
+		} else if (value instanceof Date) {
+			value = new Constant().getSdfDttm().format(value);
 		}
 		Component renderer = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
 		Color foreground;
