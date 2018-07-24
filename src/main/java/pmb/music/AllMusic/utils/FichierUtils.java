@@ -76,7 +76,7 @@ public class FichierUtils {
 				v.addElement(f.getCategorie().toString());
 				v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
 				if (!getComposition) {
-					v.addElement(new Constant().getSdfDttm().format(f.getCreationDate()));
+					v.addElement(f.getCreationDate());
 				}
 				v.addElement(f.getSize());
 				if (getComposition) {
