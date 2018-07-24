@@ -13,6 +13,7 @@ import org.apache.log4j.Logger;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.BasicFrame;
+import pmb.music.AllMusic.view.ExceptionDialog;
 
 /**
  * Hello world!
@@ -35,6 +36,8 @@ public class AllMusic {
 		Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
 			public void uncaughtException(Thread t, Throwable e) {
 				LOG.error("An uncaught exception has been thrown: ", e);
+				ExceptionDialog ed = new ExceptionDialog("An uncaught exception has been thrown", e.getMessage(), e);
+				ed.setVisible(true);
 			};
 		});
 		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
