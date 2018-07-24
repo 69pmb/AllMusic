@@ -86,10 +86,10 @@ public class Onglet extends JPanel {
 
 			@Override
 			public void componentResized(ComponentEvent e) {
-				PanelUtils.setColumnsWidth(search.getTableResult(), e.getComponent().getWidth());
-				PanelUtils.setColumnsWidth(fichier.getTableFiles(), e.getComponent().getWidth());
-				PanelUtils.setColumnsWidth(fichier.getTableCompo(), e.getComponent().getWidth());
-				PanelUtils.setColumnsWidth(artist.getTable(), e.getComponent().getWidth());
+				PanelUtils.setColumnsWidth(search.getTableResult(), e.getComponent().getWidth(), "Search");
+				PanelUtils.setColumnsWidth(fichier.getTableFiles(), e.getComponent().getWidth(), "Fichier files");
+				PanelUtils.setColumnsWidth(fichier.getTableCompo(), e.getComponent().getWidth(), "Fichier compo");
+				PanelUtils.setColumnsWidth(artist.getTable(), e.getComponent().getWidth(), "Artist");
 			}
 
 			@Override
@@ -131,8 +131,9 @@ public class Onglet extends JPanel {
 	}
 
 	public static List<String> getAuthorList() {
-		return ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getFiles).flatMap(List::stream)
-				.map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
+		return ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getFiles)
+				.flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted()
+				.collect(Collectors.toList());
 	}
 
 	/**
