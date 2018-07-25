@@ -3,10 +3,8 @@ package pmb.music.AllMusic.utils;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Date;
 import java.util.Properties;
 
-import org.apache.commons.lang3.time.DateUtils;
 import org.apache.log4j.Logger;
 
 /**
@@ -44,7 +42,7 @@ public class GetProperties {
 	 * @return la donnée
 	 */
 	public static String getProperty(String key) {
-		if (DateUtils.isSameDay(FichierUtils.getLastModifyDate(Constant.CONFIG_PATH), new Date()) || prop == null) {
+		if (prop == null) {
 			new GetProperties();
 		}
 		if (prop == null) {
