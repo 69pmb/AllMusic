@@ -57,7 +57,7 @@ public class ImportFile {
 		String auteur = file.getParentFile().getName();
 		if (StringUtils.equalsAnyIgnoreCase(Constant.ALBUM_FOLDER, auteur)
 				|| StringUtils.equalsAnyIgnoreCase(Constant.SONG_FOLDER, auteur)
-				|| StringUtils.equalsAnyIgnoreCase(Constant.YEAR, auteur)) {
+				|| StringUtils.equalsAnyIgnoreCase(Constant.YEAR_FOLDER, auteur)) {
 			LOG.debug("Pas d'auteur, on prend le nom du dossier");
 			auteur = file.getParentFile().getParentFile().getName();
 		}
