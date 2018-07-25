@@ -312,7 +312,7 @@ public class CompositionUtils {
 	 */
 	public static Optional<Composition> findByFile(List<Composition> compoList, Fichier fichier,
 			Optional<String> artist, Optional<String> titre) {
-		LOG.debug("Start findByFile");
+		LOG.trace("Start findByFile");
 		List<Composition> filtered = compoList.stream().filter(c -> c.getFiles().stream()
 				.anyMatch(f -> StringUtils.equalsIgnoreCase(f.getAuthor(), fichier.getAuthor())
 						&& StringUtils.equalsIgnoreCase(f.getFileName(), fichier.getFileName())
@@ -324,10 +324,10 @@ public class CompositionUtils {
 						&& f.getSorted().equals(fichier.getSorted())))
 				.collect(Collectors.toList());
 		if (filtered.isEmpty()) {
-			LOG.debug("End findByFile, no result");
+			LOG.trace("End findByFile, no result");
 			return Optional.empty();
 		} else if (filtered.size() == 1) {
-			LOG.debug("End findByFile, one result");
+			LOG.trace("End findByFile, one result");
 			return Optional.of(filtered.get(0));
 		} else {
 			if (!artist.isPresent() && !titre.isPresent()) {
@@ -345,7 +345,7 @@ public class CompositionUtils {
 				}
 				map.put(score, composition);
 			}
-			LOG.debug("End findByFile, more than one result");
+			LOG.trace("End findByFile, more than one result");
 			return Optional
 					.of(map.entrySet().stream().max((e1, e2) -> e1.getKey().compareTo(e2.getKey())).get().getValue());
 		}
