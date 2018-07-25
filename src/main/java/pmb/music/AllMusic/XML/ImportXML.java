@@ -12,6 +12,8 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
 
 import javax.swing.JTextArea;
 import javax.xml.parsers.ParserConfigurationException;
@@ -22,10 +24,12 @@ import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import pmb.music.AllMusic.model.Composition;
+import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MyException;
 
 /**
  * Classe pour manipuler les fichiers XML.
@@ -112,6 +116,8 @@ public final class ImportXML {
 		ExportXML.exportXML(compoFinal, finalFile); // On exporte le resultat dans le fichier final.xml
 		double endTime = System.currentTimeMillis();
 		LOG.debug("Time: " + (endTime - startTime) / 1000 + " secondes");
+		LOG.debug("Time: " + Math.round((endTime - startTime) / 60000) + " minutes et "
+				+ Math.round(((endTime - startTime) / 1000) % 60) + " secondes");
 		LOG.debug("End fusionFiles");
 		return compoFinal;
 	}
@@ -146,6 +152,38 @@ public final class ImportXML {
 		resultLabel.setForeground(new Color(243, 16, 16));
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
+	}
+
+	/**
+	 * Verifies that all deleted compositions from final file are also deleted in
+	 * xml files.
+	 * 
+	 * @throws MyException if an export of a xml file goes wrong
+	 */
+	public static void synchroDeletedWithFinal() throws MyException {
+		LOG.debug("Start synchroDeletedWithFinal");
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		importXML = importXML.stream().filter(c -> c.isDeleted()).collect(Collectors.toList());
+		for (Composition composition : importXML) {
+			for (Fichier fichier : composition.getFiles()) {
+				if (composition.isDeleted()) {
+					List<Composition> xml = ImportXML
+							.importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
+					Optional<Composition> findByFile = CompositionUtils.findByFile(xml, fichier,
+							Optional.of(composition.getArtist()), Optional.of(composition.getTitre()));
+					if (findByFile.isPresent() && !findByFile.get().isDeleted()) {
+						LOG.debug("Composition not deleted");
+						findByFile.get().setDeleted(true);
+						try {
+							ExportXML.exportXML(xml, fichier.getFileName());
+						} catch (IOException e) {
+							throw new MyException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
+						}
+					}
+				}
+			}
+		}
+		LOG.debug("End synchroDeletedWithFinal");
 	}
 
 }

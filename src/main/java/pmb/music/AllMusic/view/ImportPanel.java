@@ -856,7 +856,12 @@ public class ImportPanel extends JPanel {
 				LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
 				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
-
+			try {
+				ImportXML.synchroDeletedWithFinal();
+			} catch (MyException e) {
+				LOG.error("Erreur lors de la détection de composition supprimées", e);
+				result = new LinkedList<>(Arrays.asList(e.toString()));
+			}
 			SwingUtilities.invokeLater(() -> {
 				artist.updateArtistPanel();
 				miseEnFormeResultLabel(result);
