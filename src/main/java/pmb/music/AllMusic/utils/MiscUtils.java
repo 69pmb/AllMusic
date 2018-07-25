@@ -22,25 +22,27 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 public class MiscUtils {
 
-//	private static final Logger LOG = Logger.getLogger(MiscUtils.class);
-	
-	private MiscUtils(){}
+	// private static final Logger LOG = Logger.getLogger(MiscUtils.class);
+
+	private MiscUtils() {
+	}
 
 	private static ObjectMapper objectMapper;
 
-	public static synchronized ObjectMapper getObjectMapper(){
-			if (null == objectMapper){
-					objectMapper = new ObjectMapper();
-			}
-			return objectMapper;
+	public static synchronized ObjectMapper getObjectMapper() {
+		if (null == objectMapper) {
+			objectMapper = new ObjectMapper();
+		}
+		return objectMapper;
 	}
 
 	public static String writeValueAsString(Object o) throws JsonProcessingException {
-			return getObjectMapper().writeValueAsString(o);
+		return getObjectMapper().writeValueAsString(o);
 	}
 
 	/**
 	 * Parse a string representing a {@code Map<String, String}.
+	 * 
 	 * @param s the string to parse
 	 * @return the map parsed
 	 * @throws IOException
@@ -53,6 +55,7 @@ public class MiscUtils {
 
 	/**
 	 * Retourne la date à l'instant de l'appel.
+	 * 
 	 * @return la date au format dd-MM-yyyy HH-mm
 	 */
 	public static String dateNow() {
@@ -60,9 +63,10 @@ public class MiscUtils {
 		Date date = greg.getTime();
 		return new Constant().getSdfHistory().format(date);
 	}
-	
+
 	/**
 	 * Returns the current time, only.
+	 * 
 	 * @return format: {@code hour:minute:second}
 	 */
 	public static String getCurrentTime() {
@@ -73,6 +77,7 @@ public class MiscUtils {
 
 	/**
 	 * Convert Vector<Vector<Object>> to List<String[]>.
+	 * 
 	 * @param vector the vector to convert
 	 * @return the list converted
 	 */
@@ -96,10 +101,14 @@ public class MiscUtils {
 
 	/**
 	 * Calculates the median.
+	 * 
 	 * @param numArray
 	 * @return
 	 */
 	public static double median(List<Integer> numArray) {
+		if (numArray.isEmpty()) {
+			return 0;
+		}
 		numArray.sort(Integer::compareTo);
 		double median;
 		if (numArray.size() % 2 == 0) {
@@ -112,6 +121,7 @@ public class MiscUtils {
 
 	/**
 	 * Calculates the standard deviation.
+	 * 
 	 * @param numArray
 	 * @param average
 	 * @param sum
