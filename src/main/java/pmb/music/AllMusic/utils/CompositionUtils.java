@@ -462,7 +462,7 @@ public class CompositionUtils {
 	 */
 	public static BigDecimal getLogMax(RecordType type) {
 		BigDecimal max = getMax(type);
-		BigDecimal logMax = BigDecimal.valueOf(Math.log10(max.doubleValue())).multiply(max);
+		BigDecimal logMax = new BigDecimal(Math.log10(max.doubleValue())).multiply(max);
 		return logMax;
 	}
 
@@ -544,6 +544,6 @@ public class CompositionUtils {
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true);
 		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
-		return BigDecimal.valueOf(rankList.stream().mapToInt(Integer::intValue).max().getAsInt());
+		return new BigDecimal(rankList.stream().mapToInt(Integer::intValue).max().orElse(1));
 	}
 }
