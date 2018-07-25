@@ -25,7 +25,7 @@
   <Composition artist="Pink Floyd" titre="The Piper at the Gates of Dawn" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="8" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="9" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
   <Composition artist="Jefferson Airplane" titre="After Bathing at Baxter's" type="ALBUM" canBeMerged="true" deleted="false">
@@ -106,7 +106,7 @@
   <Composition artist="The Flamin' Groovies" titre="Teenage Head" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="35" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="36" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
   <Composition artist="The Allman Brothers Band" titre="At Fillmore East" type="ALBUM" canBeMerged="true" deleted="false">
@@ -181,7 +181,7 @@
   <Composition artist="Neil Young" titre="Tonight's the night" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="60" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="61" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
   <Composition artist="Aerosmith" titre="Rocks" type="ALBUM" canBeMerged="true" deleted="false">
@@ -256,10 +256,10 @@
   <Composition artist="The Cure" titre="Pornography" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="85" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' the Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' the Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="86" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite for Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite for Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="87" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
   <Composition artist="Pixies" titre="Doolittle" type="ALBUM" canBeMerged="true" deleted="false">
