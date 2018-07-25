@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -40,24 +41,37 @@
 					<mainClass>pmb.music.AllMusic.AllMusic</mainClass>
 				</configuration>
 			</plugin>
+			<!-- Build an executable JAR -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<archive>
+								<manifest>
+									<mainClass>pmb.music.AllMusic.AllMusic</mainClass>
+								</manifest>
+							</archive>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
 				<excludes>
-					<exclude>**/*.txt</exclude>
-				</excludes>
-			</resource>
-			<resource>
-				<directory>src/main/resources/XML</directory>
-				<excludes>
-					<exclude>**/*.xml</exclude>
-				</excludes>
-			</resource>
-			<resource>
-				<directory>src/main/resources/history</directory>
-				<excludes>
-					<exclude>**/*.xml</exclude>
+					<exclude>**/Music/*</exclude>
+					<exclude>**/XML/*</exclude>
+					<exclude>**/history/*</exclude>
 				</excludes>
 			</resource>
 		</resources>
