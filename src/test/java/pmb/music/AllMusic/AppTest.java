@@ -61,17 +61,42 @@ public class AppTest {
 	static Comparator<Composition> byRank = (c1, c2) -> c1.getFiles().get(0).getClassement()
 			.compareTo(c2.getFiles().get(0).getClassement());
 
-	public static void main(String[] args) {
-		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+	public static void main(String[] args) throws IOException {
+		// List<Composition> importXML =
+		// ImportXML.importXML(Constant.getFinalFilePath());
 		// topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
 		// topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
 		// stats(importXML, RecordType.ALBUM);
 		// stats(importXML, RecordType.SONG);
 		// gauss(importXML, RecordType.ALBUM);
-		sizeFileSuspicious(importXML);
+		// sizeFileSuspicious(importXML);
 		// findImportParamsForAllFiles();
 		// duplicateRankInFiles(importXML);
 		// setDeleted();
+		deleted();
+	}
+
+	public static void deleted() throws IOException {
+		LOG.debug("Start deleted");
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		for (Composition composition : importXML) {
+			for (Fichier fichier : composition.getFiles()) {
+				List<Composition> xml = ImportXML
+						.importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
+				Optional<Composition> findByFile = CompositionUtils.findByFile(xml, fichier,
+						Optional.of(composition.getArtist()), Optional.of(composition.getTitre()));
+				if (findByFile.isPresent() && composition.isDeleted() && !findByFile.get().isDeleted()) {
+					LOG.debug("Composition not deleted");
+					findByFile.get().setDeleted(true);
+					ExportXML.exportXML(xml, fichier.getFileName());
+				} else if(findByFile.isPresent() && !composition.isDeleted() && findByFile.get().isDeleted()) {
+					LOG.debug("Composition deleted !!");
+					findByFile.get().setDeleted(false);
+					ExportXML.exportXML(xml, fichier.getFileName());					
+				}
+			}
+		}
+		LOG.debug("End deleted");
 	}
 
 	public static void duplicateRankInFiles(List<Composition> importXML) {
