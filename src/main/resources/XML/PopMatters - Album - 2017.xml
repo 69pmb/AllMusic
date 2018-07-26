@@ -175,7 +175,7 @@
   <Composition artist="Fever Ray" titre="The Plunge" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="PopMatters" fileName="PopMatters - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="3" creationDate="17/12/2017 16:33:45" size="60"/>
   </Composition>
-  <Composition artist="Lorde" titre="Melodrama" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Lorde" titre="Melodrama" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="PopMatters" fileName="PopMatters - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="2" creationDate="17/12/2017 16:33:45" size="60"/>
   </Composition>
   <Composition artist="Kendrick Lamar" titre="DAMN." type="ALBUM" canBeMerged="true" deleted="true">
