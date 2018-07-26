@@ -40,7 +40,7 @@
   <Composition artist="George Mccrae" titre="Rock Your Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME Writers All Time Top 150 Singles 1987" publishYear="1987" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1987" sorted="true" classement="15" creationDate="02/07/2017 07:08:56" size="150"/>
   </Composition>
-  <Composition artist="Nina Simone" titre="My Baby Just Cares For Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nina Simone" titre="My Baby Just Cares For Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME Writers All Time Top 150 Singles 1987" publishYear="1987" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1987" sorted="true" classement="16" creationDate="02/07/2017 07:08:56" size="150"/>
   </Composition>
   <Composition artist="Grandmaster Flash And The Furious Five" titre="The Message" type="SONG" canBeMerged="true" deleted="true">
@@ -109,7 +109,7 @@
   <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME Writers All Time Top 150 Singles 1987" publishYear="1987" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1987" sorted="true" classement="52" creationDate="02/07/2017 07:08:56" size="150"/>
   </Composition>
-  <Composition artist="Martha And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Martha Reeves And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME Writers All Time Top 150 Singles 1987" publishYear="1987" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1987" sorted="true" classement="53" creationDate="02/07/2017 07:08:56" size="150"/>
   </Composition>
   <Composition artist="Freda Payne" titre="Band Of Gold" type="SONG" canBeMerged="true" deleted="false">

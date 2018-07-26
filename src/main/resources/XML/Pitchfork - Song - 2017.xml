@@ -148,7 +148,7 @@
   <Composition artist="Future" titre="Incredible" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="52" creationDate="17/12/2017 16:30:36" size="100"/>
   </Composition>
-  <Composition artist="Paramore" titre="Hard Times" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Paramore" titre="Hard Times" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="51" creationDate="17/12/2017 16:30:36" size="100"/>
   </Composition>
   <Composition artist="Thundercat" titre="Show You The Way" type="SONG" canBeMerged="true" deleted="false">
@@ -259,7 +259,7 @@
   <Composition artist="Bjork" titre="The Gate" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="15" creationDate="17/12/2017 16:30:36" size="100"/>
   </Composition>
-  <Composition artist="Mount Eerie" titre="Real Death" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Mount Eerie" titre="Real Death" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="14" creationDate="17/12/2017 16:30:36" size="100"/>
   </Composition>
   <Composition artist="JAY-Z" titre="The Story of O.J." type="SONG" canBeMerged="true" deleted="false">

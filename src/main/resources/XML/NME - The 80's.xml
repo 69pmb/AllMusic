@@ -46,7 +46,7 @@
   <Composition artist="New Order" titre="Temptation" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 80's" publishYear="1989" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="31" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Madonna" titre="Like A Prayer" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Madonna" titre="Like A Prayer" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 80's" publishYear="1989" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="33" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="NWA" titre="Straight Outta Compton" type="SONG" canBeMerged="true" deleted="false">
@@ -79,7 +79,7 @@
   <Composition artist="Prince" titre="Sign O The Times" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 80's" publishYear="1989" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="48" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="MARRS" titre="Pump Up The Volume" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="MARRS" titre="Pump Up The Volume" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 80's" publishYear="1989" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="50" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="The River" type="SONG" canBeMerged="true" deleted="false">
