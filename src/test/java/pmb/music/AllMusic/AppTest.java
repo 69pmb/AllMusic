@@ -62,14 +62,13 @@ public class AppTest {
 			.compareTo(c2.getFiles().get(0).getClassement());
 
 	public static void main(String[] args) throws IOException {
-		// List<Composition> importXML =
-		// ImportXML.importXML(Constant.getFinalFilePath());
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		// topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
 		// topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
 		// stats(importXML, RecordType.ALBUM);
 		// stats(importXML, RecordType.SONG);
 		// gauss(importXML, RecordType.ALBUM);
-		// sizeFileSuspicious(importXML);
+		sizeFileSuspicious(importXML);
 		// findImportParamsForAllFiles();
 		// duplicateRankInFiles(importXML);
 		// setDeleted();
@@ -462,7 +461,7 @@ public class AppTest {
 			if (theoricSize != 0 && realSize != theoricSize) {
 				BigDecimal ratio = BigDecimal.valueOf(realSize).multiply(BigDecimal.valueOf(100D))
 						.divide(BigDecimal.valueOf(theoricSize), BigDecimal.ROUND_DOWN);
-				LOG.debug(name + ": " + realSize + " " + theoricSize + ", "
+				LOG.debug(name + ";" + realSize + ";" + theoricSize + ";"
 						+ NumberFormat.getNumberInstance().format(ratio) + "%");
 			}
 		}
