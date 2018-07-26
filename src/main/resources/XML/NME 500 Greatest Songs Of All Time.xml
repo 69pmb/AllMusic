@@ -10,13 +10,13 @@
   <Composition artist="Blur" titre="The Universal" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="42" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Madonna" titre="Like A Prayer" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Madonna" titre="Like A Prayer" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="47" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Pulp" titre="Babies" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="60" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="New Order" titre="True Faith" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="New Order" titre="True Faith" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="61" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="NWA" titre="Straight Outta Compton" type="SONG" canBeMerged="true" deleted="false">
@@ -91,7 +91,7 @@
   <Composition artist="Eric B And Rakim" titre="Follow The Leader" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="151" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Martha Reeves And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Martha Reeves And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="152" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Dinosaur Jr" titre="Freak Scene" type="SONG" canBeMerged="true" deleted="false">
@@ -883,7 +883,7 @@
   <Composition artist="Guns 'N' Roses" titre="Sweet Child O' Mine" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="471" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Palma Violets" titre="Best Of Friends" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Palma Violets" titre="Best Of Friends" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME 500 Greatest Songs Of All Time" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="472" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Kinks" titre="Lola" type="SONG" canBeMerged="true" deleted="false">
