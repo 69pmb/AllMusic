@@ -62,6 +62,12 @@ public class BatchUtils {
 		if (album) {
 			detectsDuplicateFinal(RecordType.ALBUM.toString(), ignoreUnmergeableFiles, byYear, result);
 		}
+		try {
+			ImportXML.synchroDeletedWithFinal();
+		} catch (MyException e) {
+			LOG.error("Erreur lors de la détection de composition supprimées", e);
+			addLine(result, e.toString(), true);
+		}
 
 		LOG.debug("End detectsDuplicateFinal");
 		return writeInFile(result, Constant.BATCH_FILE);
@@ -152,15 +158,17 @@ public class BatchUtils {
 			}
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			res.addAll(SearchUtils
-					.search(ImportXML.importXML(Constant.getFinalFilePath()), criteria, true, SearchMethod.CONTAINS, false)
-					.stream().map(Composition::getFiles).flatMap(List::stream)
-					.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
-							|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
-									" - " + String.valueOf(f.getPublishYear())))
-							&& f.getPublishYear() != 0)
-					.map(f -> f.getFileName() + " # " + String.valueOf(f.getPublishYear())).distinct().sorted()
-					.collect(Collectors.toList()));
+			res.addAll(
+					SearchUtils
+							.search(ImportXML.importXML(Constant.getFinalFilePath()), criteria, true,
+									SearchMethod.CONTAINS, false)
+							.stream().map(Composition::getFiles).flatMap(List::stream)
+							.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
+									|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
+											" - " + String.valueOf(f.getPublishYear())))
+									&& f.getPublishYear() != 0)
+							.map(f -> f.getFileName() + " # " + String.valueOf(f.getPublishYear())).distinct().sorted()
+							.collect(Collectors.toList()));
 		}
 		res.stream().forEach(f -> addLine(result, f, true));
 
