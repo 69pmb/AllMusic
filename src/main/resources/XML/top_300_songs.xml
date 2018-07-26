@@ -283,7 +283,7 @@
   <Composition artist="Britney Spears" titre="Toxic" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="97" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Love" titre="Alone Again Or" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Alone Again Or" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="98" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Billie Holiday" titre="Lover Man (Oh, Where Can You Be?)" type="SONG" canBeMerged="true" deleted="false">
@@ -1813,7 +1813,7 @@
   <Composition artist="The Tornados" titre="Telstar" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="607" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Lipps Inc." titre="Funkytown" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Lipps Inc." titre="Funkytown" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="608" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Lonnie Donegan" titre="Rock Island Line" type="SONG" canBeMerged="true" deleted="false">

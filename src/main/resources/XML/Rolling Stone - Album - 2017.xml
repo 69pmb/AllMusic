@@ -148,7 +148,7 @@
   <Composition artist="U2" titre="Songs of Experience" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="3" creationDate="17/12/2017 16:36:26" size="50"/>
   </Composition>
-  <Composition artist="Lorde" titre="Melodrama" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Lorde" titre="Melodrama" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="2" creationDate="17/12/2017 16:36:26" size="50"/>
   </Composition>
   <Composition artist="Kendrick Lamar" titre="Damn." type="ALBUM" canBeMerged="true" deleted="true">

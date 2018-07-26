@@ -52,7 +52,7 @@
   <Composition artist="Juana Molina" titre="Halo" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="17" creationDate="17/12/2017 16:23:55" size="75"/>
   </Composition>
-  <Composition artist="Lorde" titre="Melodrama" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Lorde" titre="Melodrama" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="18" creationDate="17/12/2017 16:23:55" size="75"/>
   </Composition>
   <Composition artist="The Clientele" titre="Music For The Age Of Miracles" type="ALBUM" canBeMerged="true" deleted="false">
