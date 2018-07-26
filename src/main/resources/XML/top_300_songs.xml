@@ -25,7 +25,7 @@
   <Composition artist="Elvis Presley" titre="Hound Dog" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="9" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Martha and The Vandellas" titre="Dancing in the Street" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Martha Reeves And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="10" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Jerry Lee Lewis" titre="Whole Lotta Shakin' Goin' On" type="SONG" canBeMerged="true" deleted="false">
@@ -253,7 +253,7 @@
   <Composition artist="Dusty Springfield" titre="Son of a Preacher Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="87" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Madonna" titre="Into the Groove" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Madonna" titre="Into the Groove" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="88" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Chubby Checker" titre="The Twist" type="SONG" canBeMerged="true" deleted="false">
@@ -472,7 +472,7 @@
   <Composition artist="The Dominoes" titre="Have Mercy, Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="160" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="M/A/R/R/S" titre="Pump Up the Volume" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="M/A/R/R/S" titre="Pump Up the Volume" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="161" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="TLC" titre="No Scrubs" type="SONG" canBeMerged="true" deleted="false">
@@ -631,7 +631,7 @@
   <Composition artist="Public Image Ltd." titre="Public Image" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="213" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="N.W.A." titre="F*** Tha Police" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="NWA" titre="Fuck tha Police" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="214" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="The Penguins" titre="Earth Angel (Will You Be Mine)" type="SONG" canBeMerged="true" deleted="false">
@@ -1012,7 +1012,7 @@
   <Composition artist="The Go-Go's" titre="Our Lips Are Sealed" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="340" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="New Order" titre="True Faith" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="New Order" titre="True Faith" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="341" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Morrissey" titre="First of the Gang to Die" type="SONG" canBeMerged="true" deleted="false">
@@ -3112,7 +3112,7 @@
   <Composition artist="Prince" titre="When You Were Mine" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1040" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Nina Simone" titre="My Baby Just Cares for Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nina Simone" titre="My Baby Just Cares for Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1041" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Cypress Hill" titre="How I Could Just Kill a Man" type="SONG" canBeMerged="true" deleted="false">
@@ -5356,7 +5356,7 @@
   <Composition artist="Jimmy Buffett" titre="Margaritaville" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1788" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Lynyrd Skynyrd" titre="That Smell" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Lynyrd Skynyrd" titre="That Smell" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1789" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Randy Newman" titre="Short People" type="SONG" canBeMerged="true" deleted="false">
