@@ -58,7 +58,7 @@
   <Composition artist="The Cure" titre="Disintegration" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="7" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="6" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
   <Composition artist="Talking Heads" titre="Remain in Light" type="ALBUM" canBeMerged="true" deleted="false">
@@ -73,7 +73,7 @@
   <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="2" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="1" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
 </ListCompositions>
