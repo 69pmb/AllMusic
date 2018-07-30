@@ -1,28 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="10"/>
+  <Composition artist="The Fall" titre="This Nation's Saving Grace" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="25" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
-  <Composition artist="Pixies" titre="Doolittle" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="10"/>
+  <Composition artist="Jane's Addiction" titre="Nothing's Shocking" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="24" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
-  <Composition artist="Joy Division" titre="Closer" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="4" creationDate="24/07/2017 00:51:20" size="10"/>
+  <Composition artist="The Pogues" titre="Rum, Sodomy and the Lash" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="23" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
-  <Composition artist="Talking Heads" titre="Remain in Light" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="5" creationDate="24/07/2017 00:51:20" size="10"/>
+  <Composition artist="Minutemen" titre="Double Nickels on the Dime" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="22" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
-  <Composition artist="The Cure" titre="Disintegration" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="7" creationDate="24/07/2017 00:51:20" size="10"/>
+  <Composition artist="Violent Femmes" titre="Violent Femmes" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="21" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Thriller" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="8" creationDate="24/07/2017 00:51:20" size="10"/>
+  <Composition artist="Cocteau Twins" titre="Treasure" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="20" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
-  <Composition artist="The Jesus And Mary Chain" titre="Psychocandy" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="9" creationDate="24/07/2017 00:51:20" size="10"/>
+  <Composition artist="AC/DC" titre="Back in Black" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="19" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Motorhead" titre="Ace of Spades" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="18" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Public Enemy" titre="It Takes Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="17" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Tracy Chapman" titre="Tracy Chapman" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="16" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="The Police" titre="Synchronicity" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="15" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Tom Waits" titre="Rain Dogs" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="14" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Prince And The Revolution" titre="Purple Rain OST" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="13" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="U2" titre="The Joshua Tree" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="12" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Beastie Boys" titre="Paul's Boutique" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="11" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
   <Composition artist="Nine Inch Nails" titre="Pretty Hate Machine" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="10" creationDate="24/07/2017 00:51:20" size="10"/>
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="10" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="The Jesus And Mary Chain" titre="Psychocandy" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="9" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Michael Jackson" titre="Thriller" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="8" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="The Cure" titre="Disintegration" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="7" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="6" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Talking Heads" titre="Remain in Light" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="5" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Joy Division" titre="Closer" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="4" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Pixies" titre="Doolittle" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="3" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="2" creationDate="08/07/2018 13:56:20" size="25"/>
+  </Composition>
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Le Choix" fileName="Le Choix - 80's Album - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="1" creationDate="08/07/2018 13:56:20" size="25"/>
   </Composition>
 </ListCompositions>
