@@ -16,6 +16,7 @@ import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -35,6 +36,7 @@ import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
+import pmb.music.AllMusic.view.ImportPanel;
 
 /**
  * Classe utilitaire pour la gestion des {@link Fichier}.
@@ -137,6 +139,27 @@ public class FichierUtils {
 				.substringBeforeLast(StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), FileUtils.FS)
 				+ FileUtils.FS + newFileName + Constant.TXT_EXTENSION;
 		renameFile(txtPath, newTxt);
+		// Modifie ses import params
+		String firstLine = FichierUtils.getFirstLine(new File(newTxt));
+		if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
+			Map<String, String> value = new HashMap<>();
+			try {
+				value = MiscUtils.readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
+			} catch (IOException e) {
+				LOG.error("Error while decoding import params:" + firstLine + " in file " + newTxt, e);
+			}
+			String[] split = StringUtils.split(newRange, " - ");
+			value.put(ImportPanel.IMPORT_PARAM_NAME, newFileName);
+			value.put(ImportPanel.IMPORT_PARAM_CATEGORIE, newCat);
+			value.put(ImportPanel.IMPORT_PARAM_RANGE_BEGIN, split[0]);
+			value.put(ImportPanel.IMPORT_PARAM_RANGE_END, split[1]);
+			value.put(ImportPanel.IMPORT_PARAM_SORTED,
+					StringUtils.equalsIgnoreCase(newSorted, "oui") ? Boolean.TRUE.toString()
+							: Boolean.FALSE.toString());
+			value.put(ImportPanel.IMPORT_PARAM_PUBLISH_YEAR, newPublish);
+			value.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(newSize));
+			FichierUtils.writeMapInFile(new File(newTxt), value);
+		}
 		return result;
 	}
 
