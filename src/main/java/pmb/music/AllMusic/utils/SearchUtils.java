@@ -301,7 +301,7 @@ public class SearchUtils {
 						&& StringUtils.equals(composition.getTitre(), o.getTitre())
 						&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
 						&& composition.getFiles().size() == o.getFiles().size()) {
-					LOG.warn("indexOf: " + o);
+					LOG.debug("indexOf: " + o);
 					return i;
 				}
 				i++;
