@@ -76,13 +76,13 @@ public class FichierPanel extends JPanel {
 	private static final int MIN_HEIGHT_TABLE = 41;
 	private static final int MAX_HEIGHT_TABLE = 82;
 
-	private static final int INDEX_FILE_AUTHOR = 0;
-	private static final int INDEX_FILE_FILE_NAME = 1;
-	private static final int INDEX_FILE_PUBLISH = 2;
-	private static final int INDEX_FILE_CAT = 3;
-	private static final int INDEX_FILE_RANGE = 4;
-	private static final int INDEX_FILE_SIZE = 6;
-	private static final int INDEX_FILE_SORTED = 7;
+	public static final int INDEX_FILE_AUTHOR = 0;
+	public static final int INDEX_FILE_FILE_NAME = 1;
+	public static final int INDEX_FILE_PUBLISH = 2;
+	public static final int INDEX_FILE_CAT = 3;
+	public static final int INDEX_FILE_RANGE = 4;
+	public static final int INDEX_FILE_SIZE = 6;
+	public static final int INDEX_FILE_SORTED = 7;
 
 	private static final int INDEX_COMPO_ARTIST = 0;
 	private static final int INDEX_COMPO_TITLE = 1;
