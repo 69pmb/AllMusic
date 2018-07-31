@@ -770,7 +770,7 @@ public class ImportPanel extends JPanel {
 			try {
 				value = MiscUtils.readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
 			} catch (IOException e) {
-				LOG.error("", e);
+				LOG.error("Error while decoding import params:" + firstLine + " in file " + absolutePathFileTxt, e);
 			}
 			LOG.debug("value: " + value.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue())
 					.collect(Collectors.joining(", ")));

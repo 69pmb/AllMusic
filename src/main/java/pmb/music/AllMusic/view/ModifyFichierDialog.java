@@ -31,12 +31,6 @@ public class ModifyFichierDialog extends JDialog {
 
 	private static final long serialVersionUID = 1304786661370052913L;
 	private static final Logger LOG = Logger.getLogger(ModifyFichierDialog.class);
-	private static final int INDEX_FILE_NAME = 1;
-	private static final int INDEX_PUBLISH = 2;
-	private static final int INDEX_CAT = 3;
-	private static final int INDEX_RANGE = 4;
-	private static final int INDEX_SIZE = 6;
-	private static final int INDEX_SORTED = 7;
 	private final Vector<String> fichier;
 	private JTextField fileName;
 	private JTextField publishYear;
@@ -73,7 +67,7 @@ public class ModifyFichierDialog extends JDialog {
 		JPanel fileNamePanel = new JPanel();
 		fileNamePanel.setPreferredSize(new Dimension(450, 60));
 		JLabel fileNameLabel = new JLabel("Nom du fichier : ");
-		fileName = new JTextField((String) fichier.get(INDEX_FILE_NAME));
+		fileName = new JTextField((String) fichier.get(FichierPanel.INDEX_FILE_FILE_NAME));
 		fileName.setPreferredSize(new Dimension(430, 30));
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
@@ -82,7 +76,7 @@ public class ModifyFichierDialog extends JDialog {
 		JPanel publishYearPanel = new JPanel();
 		publishYearPanel.setPreferredSize(new Dimension(80, 60));
 		JLabel publishYearLabel = new JLabel("Publication : ");
-		publishYear = new JTextField(String.valueOf(fichier.get(INDEX_PUBLISH)));
+		publishYear = new JTextField(String.valueOf(fichier.get(FichierPanel.INDEX_FILE_PUBLISH)));
 		publishYear.setPreferredSize(new Dimension(50, 30));
 		publishYearPanel.add(publishYearLabel);
 		publishYearPanel.add(publishYear);
@@ -91,7 +85,7 @@ public class ModifyFichierDialog extends JDialog {
 		JPanel rangePanel = new JPanel();
 		PanelUtils.setSize(rangePanel, 200, 60);
 		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
-		String[] split = StringUtils.split((String) fichier.get(INDEX_RANGE), " - ");
+		String[] split = StringUtils.split((String) fichier.get(FichierPanel.INDEX_FILE_RANGE), " - ");
 		rangeDateBegin = new JTextField(split[0]);
 		rangeDateEnd = new JTextField(split[1]);
 		PanelUtils.setSize(rangeDateBegin, 85, 30);
@@ -110,7 +104,7 @@ public class ModifyFichierDialog extends JDialog {
 			cat.addItem(values[i]);
 		}
 		cat.setPreferredSize(new Dimension(150, 30));
-		cat.setSelectedItem(Cat.valueOf((String) fichier.get(INDEX_CAT)));
+		cat.setSelectedItem(Cat.valueOf((String) fichier.get(FichierPanel.INDEX_FILE_CAT)));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
 
@@ -118,7 +112,7 @@ public class ModifyFichierDialog extends JDialog {
 		JPanel sizePanel = new JPanel();
 		sizePanel.setPreferredSize(new Dimension(50, 60));
 		JLabel sizeLabel = new JLabel("Taille : ");
-		size = new JTextField(String.valueOf(fichier.get(INDEX_SIZE)));
+		size = new JTextField(String.valueOf(fichier.get(FichierPanel.INDEX_FILE_SIZE)));
 		size.setPreferredSize(new Dimension(50, 30));
 		sizePanel.add(sizeLabel);
 		sizePanel.add(size);
@@ -129,15 +123,16 @@ public class ModifyFichierDialog extends JDialog {
 		JLabel sortedLabel = new JLabel("Classé: ");
 		sorted = new JCheckBox();
 		sorted.setSelected(
-				StringUtils.equalsIgnoreCase(fichier.get(INDEX_SORTED), "oui") ? Boolean.TRUE : Boolean.FALSE);
+				StringUtils.equalsIgnoreCase(fichier.get(FichierPanel.INDEX_FILE_SORTED), "oui") ? Boolean.TRUE
+						: Boolean.FALSE);
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 
 		JPanel content = new JPanel();
 		content.add(fileNamePanel);
 		content.add(publishYearPanel);
-		content.add(rangePanel);
 		content.add(catPanel);
+		content.add(rangePanel);
 		content.add(sizePanel);
 		content.add(sortedPanel);
 
@@ -147,12 +142,12 @@ public class ModifyFichierDialog extends JDialog {
 		okBouton.addActionListener((ActionEvent arg0) -> {
 			setVisible(false);
 			sendData = true;
-			fichier.set(INDEX_FILE_NAME, fileName.getText());
-			fichier.set(INDEX_PUBLISH, publishYear.getText());
-			fichier.set(INDEX_CAT, cat.getSelectedItem().toString());
-			fichier.set(INDEX_SIZE, size.getText());
-			fichier.set(INDEX_SORTED, sorted.isSelected() ? "Oui" : "Non");
-			fichier.set(INDEX_RANGE, rangeDateBegin.getText() + " - " + rangeDateEnd.getText());
+			fichier.set(FichierPanel.INDEX_FILE_FILE_NAME, fileName.getText());
+			fichier.set(FichierPanel.INDEX_FILE_PUBLISH, publishYear.getText());
+			fichier.set(FichierPanel.INDEX_FILE_CAT, cat.getSelectedItem().toString());
+			fichier.set(FichierPanel.INDEX_FILE_SIZE, size.getText());
+			fichier.set(FichierPanel.INDEX_FILE_SORTED, sorted.isSelected() ? "Oui" : "Non");
+			fichier.set(FichierPanel.INDEX_FILE_RANGE, rangeDateBegin.getText() + " - " + rangeDateEnd.getText());
 		});
 
 		JButton cancelBouton = new JButton("Annuler");
