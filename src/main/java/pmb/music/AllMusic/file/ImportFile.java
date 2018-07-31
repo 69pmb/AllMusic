@@ -590,9 +590,11 @@ public class ImportFile {
 			} else {
 				lines.add(firstLine);
 			}
+			// 2nd and 3thd lines
 			lines.add(StringUtils.trim(br.readLine()));
 			lines.add(StringUtils.trim(br.readLine()));
-			int rand = ThreadLocalRandom.current().nextInt(startingRandom + 1, countLines);
+			// Random line
+			int rand = ThreadLocalRandom.current().nextInt(startingRandom + 1, countLines - 1);
 			for (int i = startingRandom; i < rand; i++) {
 				line = StringUtils.trim(br.readLine());
 			}
@@ -602,25 +604,14 @@ public class ImportFile {
 				count++;
 			}
 			lines.add(line);
-			String lastLine = null;
-			while (count < countLines - 1) {
-				String read = br.readLine();
-				if (StringUtils.isNotBlank(read)) {
-					lastLine = read;
-				}
+
+			// The last lines
+			while (count < countLines - 2) {
+				br.readLine();
 				count++;
 			}
-			String avantDerniere = StringUtils.trim(br.readLine());
-			lines.add(avantDerniere);
-			if (StringUtils.isNotBlank(avantDerniere)) {
-				lastLine = avantDerniere;
-			}
-			String derniere = StringUtils.trim(br.readLine());
-			lines.add(derniere);
-			if (StringUtils.isNotBlank(derniere)) {
-				lastLine = derniere;
-			}
-			lines.add(StringUtils.trim(lastLine));
+			lines.add(StringUtils.trim(br.readLine()));
+			lines.add(StringUtils.trim(br.readLine()));
 		} catch (IOException e) {
 			LOG.error("Erreur lors de la lecture du fichier " + file.getAbsolutePath(), e);
 		}
@@ -656,12 +647,12 @@ public class ImportFile {
 				new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
 			String readLine = "";
 			while (readLine != null) {
+				readLine = br.readLine();
 				if (validLine && isValidLine(readLine)) {
 					count++;
-				} else if (!validLine) {
+				} else if (!validLine && readLine != null) {
 					count++;
 				}
-				readLine = br.readLine();
 			}
 			LOG.debug("End countLines");
 		}
