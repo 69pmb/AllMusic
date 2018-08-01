@@ -50,6 +50,7 @@ public class Onglet extends JPanel {
 		final JPanel panel = new JPanel();
 		final Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
 		dim.height = 92 * dim.height / 100;
+		dim.width = dim.width - 30;
 		onglets.setPreferredSize(dim);
 		Score score = initStats();
 

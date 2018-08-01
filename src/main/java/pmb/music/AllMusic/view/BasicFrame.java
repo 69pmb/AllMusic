@@ -28,18 +28,10 @@ public class BasicFrame extends JFrame {
 		LOG.debug("Start BasicFrame");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setTab(new Onglet(this));
-		this.getContentPane().add(tab, BorderLayout.EAST);
-		associateMenuPanel();
-		LOG.debug("End BasicFrame");
-	}
-
-	private void associateMenuPanel() {
-		LOG.debug("Start associateMenuPanel");
+		this.getContentPane().add(getTab(), BorderLayout.EAST);
 		this.setMenuPanel(new MenuPanel(this));
 		this.getContentPane().add(getMenuPanel(), BorderLayout.WEST);
-		pack();
-		setVisible(true);
-		LOG.debug("End associateMenuPanel");
+		LOG.debug("End BasicFrame");
 	}
 
 	public void setTab(final Onglet tab) {
