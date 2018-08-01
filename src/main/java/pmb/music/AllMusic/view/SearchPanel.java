@@ -96,7 +96,7 @@ public class SearchPanel extends JPanel {
 
 	private JComboBox<Cat> cat;
 	private JComboBox<RecordType> type;
-	private JComboBox<SearchMethod> searchMethod;
+	private JComboBox<String> searchMethod;
 	private JComboBox<String> titre;
 	private JComboBox<String> artist;
 	private JComboBox<String> author;
@@ -373,7 +373,7 @@ public class SearchPanel extends JPanel {
 		searchMethod = new JComboBox<>();
 		SearchMethod[] valuesSearch = SearchMethod.values();
 		for (int i = 0; i < valuesSearch.length; i++) {
-			searchMethod.addItem(valuesSearch[i]);
+			searchMethod.addItem(valuesSearch[i].getValue());
 		}
 		searchMethod.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		searchMethodPanel.add(searchMethodLabel);
@@ -516,7 +516,7 @@ public class SearchPanel extends JPanel {
 
 			compoResult = new ArrayList<>();
 			compoResult.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(),
-					(SearchMethod) searchMethod.getSelectedItem(), deleted.isSelected()));
+					SearchMethod.getByValue((String) searchMethod.getSelectedItem()), deleted.isSelected()));
 			updateTable();
 		}
 		LOG.debug("End searchAction");
@@ -547,7 +547,7 @@ public class SearchPanel extends JPanel {
 		artist.setSelectedItem(null);
 		titre.setSelectedItem(null);
 		type.setSelectedItem(null);
-		searchMethod.setSelectedItem(SearchMethod.CONTAINS);
+		searchMethod.setSelectedItem(SearchMethod.CONTAINS.getValue());
 		publi.setText("");
 		fileName.setText("");
 		author.setSelectedItem(null);
