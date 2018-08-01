@@ -134,7 +134,6 @@ public class MenuPanel extends JPanel {
 		aff.setMnemonic(KeyEvent.VK_A);
 		Arrays.stream(UIManager.getInstalledLookAndFeels()).forEach(laf -> {
 			JMenuItem mi = aff.add(new JMenuItem(laf.getName()));
-			// lafMenuGroup.add(mi);
 			mi.addActionListener(e -> {
 				try {
 					Optional<LookAndFeelInfo> found = Arrays.stream(UIManager.getInstalledLookAndFeels())
@@ -164,7 +163,7 @@ public class MenuPanel extends JPanel {
 		help.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_H, ActionEvent.CTRL_MASK));
 		help.addActionListener((ActionEvent ae) -> JOptionPane.showMessageDialog(null,
 				"Ce logiciel permet de gérer les classements et palmarès de chansons et d'albums.\n"
-						+ "Il a été developpé par M. Pierre-Marie Broca de janvier 2017 à XXX.",
+						+ "Il a été developpé par M. Pierre-Marie Broca de janvier 2017 à septembre 2018.",
 				"HELP", JOptionPane.INFORMATION_MESSAGE));
 		aide.add(help);
 
