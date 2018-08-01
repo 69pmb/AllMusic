@@ -145,12 +145,13 @@ public class MenuPanel extends JPanel {
 						myFrame.pack();
 					}
 				} catch (Exception ex) {
-					// If Nimbus is not available, fall back to cross-platform
+					// If error, fall back to cross-platform
+					LOG.error("Impossible d'appliquer le style choisi", ex);
 					try {
 						UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
 					} catch (ClassNotFoundException | InstantiationException | IllegalAccessException
 							| UnsupportedLookAndFeelException e1) {
-						LOG.error("Impossible d'appliquer le style demandé", e1);
+						LOG.error("Impossible d'appliquer le style par defaut", e1);
 					}
 				}
 			});
