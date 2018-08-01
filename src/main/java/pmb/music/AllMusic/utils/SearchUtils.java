@@ -85,6 +85,7 @@ public class SearchUtils {
 				|| StringUtils.isNotBlank(dateE) || StringUtils.isNotBlank(sorted) || StringUtils.isNotBlank(topTen);
 
 		if (searchCompo || searchFile) {
+			LOG.debug("searchInFiles: " + searchInFiles + ", searchMethod: " + searchMethod + ", deleted: " + deleted);
 			LOG.debug("Critères de recherche: " + criteria.entrySet().stream()
 					.map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
 			CollectionUtils.filter(arrayList,
