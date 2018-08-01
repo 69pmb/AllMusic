@@ -16,7 +16,7 @@ public enum SearchMethod {
 	/**
 	 * Le champ doit être exactement égal au critère.
 	 */
-	WHOLE_WORD("Egal"),
+	WHOLE_WORD("Strictement Egal"),
 	/**
 	 * Le critère de recherche comporte des {@code '*'} qui seront interprétés comme
 	 * des caractères joker.
@@ -29,7 +29,16 @@ public enum SearchMethod {
 		this.value = value;
 	}
 
-	public String getSearchMethod() {
+	public String getValue() {
 		return value;
+	}
+
+	public static SearchMethod getByValue(String value) {
+		for (SearchMethod sm : values()) {
+			if (sm.value == value) {
+				return sm;
+			}
+		}
+		return null;
 	}
 }
