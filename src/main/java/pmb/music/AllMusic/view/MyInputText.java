@@ -39,7 +39,8 @@ public class MyInputText extends JPanel {
 			}
 		});
 		this.add(this.reset);
-		PanelUtils.setSize(this.input, width - this.reset.getWidth(), PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.setSize(this.input, width - this.reset.getWidth(),
+				PanelUtils.COMPONENT_HEIGHT + this.reset.getHeight());
 	}
 
 	public String getText() {
