@@ -26,15 +26,7 @@ public class MyInputText extends JPanel {
 			input.setText("");
 		});
 		this.add(this.reset);
-		PanelUtils.setSize(this.input, 220, PanelUtils.COMPONENT_HEIGHT);
-	}
-
-	public JTextField getInput() {
-		return input;
-	}
-
-	public void setInput(JTextField input) {
-		this.input = input;
+		PanelUtils.setSize(this.input, width - this.reset.getWidth(), PanelUtils.COMPONENT_HEIGHT);
 	}
 
 	public String getText() {
