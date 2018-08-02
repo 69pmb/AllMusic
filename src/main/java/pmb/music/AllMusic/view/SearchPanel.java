@@ -84,7 +84,7 @@ public class SearchPanel extends JPanel {
 
 	private JButton search;
 
-	private JTextField publi;
+	private MyInputText publi;
 	private JTextField rangeB;
 	private JTextField rangeE;
 	private MyInputText fileName;
@@ -99,7 +99,7 @@ public class SearchPanel extends JPanel {
 	private JComboBox<String> searchMethod;
 	private MyInputText titre;
 	private MyInputText artist;
-	private JComboBox<String> author;
+	private MyInputText author;
 
 	private List<Composition> compoResult = new ArrayList<>();
 
@@ -285,15 +285,15 @@ public class SearchPanel extends JPanel {
 		csv.setBackground(Color.white);
 		csv.setPreferredSize(new Dimension(300, PanelUtils.PANEL_HEIGHT));
 		csv.addActionListener((ActionEvent e) -> {
-			List<String> c = Arrays.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
-					searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
-					cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString(),
-					type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(), titre.getText(),
-					artist.getText(), author.getSelectedItem() == null ? "" : author.getSelectedItem().toString(),
-					"Sorted:" + Boolean.toString(sorted.isSelected()),
-					"Deleted:" + Boolean.toString(deleted.isSelected()),
-					"Top Ten:" + Boolean.toString(topTen.isSelected())).stream().filter(s -> !"".equals(s))
-					.collect(Collectors.toList());
+			List<String> c = Arrays
+					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
+							searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
+							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString(),
+							type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(), titre.getText(),
+							artist.getText(), author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
+							"Deleted:" + Boolean.toString(deleted.isSelected()),
+							"Top Ten:" + Boolean.toString(topTen.isSelected()))
+					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
 			String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Critères: " + criteres };
 			String name = CsvFile.exportCsv("search", MiscUtils.convertVectorToList(model.getDataVector()),
@@ -327,6 +327,7 @@ public class SearchPanel extends JPanel {
 		JLabel artistLabel = PanelUtils.createJLabel("Artiste : ", 200);
 		artist = new MyInputText(JComboBox.class, 150);
 		AutoCompleteSupport.install((JComboBox<?>) artist.getInput(), GlazedLists.eventListOf(artistList.toArray()));
+		PanelUtils.setSize(artistPanel, 300, PanelUtils.PANEL_HEIGHT);
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
 		searchFields.add(artistPanel);
@@ -350,15 +351,11 @@ public class SearchPanel extends JPanel {
 
 		// Auteur
 		JPanel authorPanel = new JPanel();
-		JPanel panel = new JPanel();
 		JLabel authorLabel = PanelUtils.createJLabel("Auteur : ", 150);
-		author = new JComboBox<>();
-		AutoCompleteSupport.install(author, GlazedLists.eventListOf(authorList.toArray()));
-		PanelUtils.setSize(author, 150, PanelUtils.COMPONENT_HEIGHT);
-		PanelUtils.setSize(panel, 150, PanelUtils.PANEL_HEIGHT);
-		panel.add(authorLabel);
-		panel.add(author);
-		authorPanel.add(panel);
+		author = new MyInputText(JComboBox.class, 150);
+		AutoCompleteSupport.install((JComboBox<?>) author.getInput(), GlazedLists.eventListOf(authorList.toArray()));
+		authorPanel.add(authorLabel);
+		authorPanel.add(author);
 		searchFields.add(authorPanel);
 
 		// SearchMethod
@@ -417,8 +414,7 @@ public class SearchPanel extends JPanel {
 		// Publi
 		JPanel publiPanel = new JPanel();
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 200);
-		publi = new JTextField();
-		publi.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		publi = new MyInputText(JTextField.class, 150);
 		publiPanel.add(publiLabel);
 		publiPanel.add(publi);
 		searchFields.add(publiPanel);
@@ -489,9 +485,7 @@ public class SearchPanel extends JPanel {
 			}
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
 			criteria.put(SearchUtils.CRITERIA_FILENAME, (String) fileName.getText());
-			if (author.getSelectedItem() != null) {
-				criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getSelectedItem().toString());
-			}
+			criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getText());
 			if (cat.getSelectedItem() != null) {
 				criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItem().toString());
 			}
@@ -540,7 +534,7 @@ public class SearchPanel extends JPanel {
 		searchMethod.setSelectedItem(SearchMethod.CONTAINS.getValue());
 		publi.setText("");
 		fileName.setText("");
-		author.setSelectedItem(null);
+		author.setText(null);
 		cat.setSelectedItem(null);
 		sorted.setSelected(false);
 		deleted.setSelected(false);
