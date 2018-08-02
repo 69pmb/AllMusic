@@ -97,8 +97,8 @@ public class SearchPanel extends JPanel {
 	private JComboBox<Cat> cat;
 	private JComboBox<RecordType> type;
 	private JComboBox<String> searchMethod;
-	private JComboBox<String> titre;
-	private JComboBox<String> artist;
+	private MyInputText titre;
+	private MyInputText artist;
 	private JComboBox<String> author;
 
 	private List<Composition> compoResult = new ArrayList<>();
@@ -285,18 +285,15 @@ public class SearchPanel extends JPanel {
 		csv.setBackground(Color.white);
 		csv.setPreferredSize(new Dimension(300, PanelUtils.PANEL_HEIGHT));
 		csv.addActionListener((ActionEvent e) -> {
-			List<String> c = Arrays
-					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
-							searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
-							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString(),
-							type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(),
-							titre.getSelectedItem() == null ? "" : titre.getSelectedItem().toString(),
-							artist.getSelectedItem() == null ? "" : artist.getSelectedItem().toString(),
-							author.getSelectedItem() == null ? "" : author.getSelectedItem().toString(),
-							"Sorted:" + Boolean.toString(sorted.isSelected()),
-							"Deleted:" + Boolean.toString(deleted.isSelected()),
-							"Top Ten:" + Boolean.toString(topTen.isSelected()))
-					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
+			List<String> c = Arrays.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
+					searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
+					cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString(),
+					type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(), titre.getText(),
+					artist.getText(), author.getSelectedItem() == null ? "" : author.getSelectedItem().toString(),
+					"Sorted:" + Boolean.toString(sorted.isSelected()),
+					"Deleted:" + Boolean.toString(deleted.isSelected()),
+					"Top Ten:" + Boolean.toString(topTen.isSelected())).stream().filter(s -> !"".equals(s))
+					.collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
 			String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Critères: " + criteres };
 			String name = CsvFile.exportCsv("search", MiscUtils.convertVectorToList(model.getDataVector()),
@@ -328,9 +325,8 @@ public class SearchPanel extends JPanel {
 		// Artiste
 		JPanel artistPanel = new JPanel();
 		JLabel artistLabel = PanelUtils.createJLabel("Artiste : ", 200);
-		artist = new JComboBox<>();
-		AutoCompleteSupport.install(artist, GlazedLists.eventListOf(artistList.toArray()));
-		artist.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		artist = new MyInputText(JComboBox.class, 150);
+		AutoCompleteSupport.install((JComboBox<?>) artist.getInput(), GlazedLists.eventListOf(artistList.toArray()));
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
 		searchFields.add(artistPanel);
@@ -338,9 +334,8 @@ public class SearchPanel extends JPanel {
 		// Titre
 		JPanel titrePanel = new JPanel();
 		JLabel titreLabel = PanelUtils.createJLabel("Titre : ", 180);
-		titre = new JComboBox<>();
-		AutoCompleteSupport.install(titre, GlazedLists.eventListOf(titleList.toArray()));
-		titre.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		titre = new MyInputText(JComboBox.class, 150);
+		AutoCompleteSupport.install((JComboBox<?>) titre.getInput(), GlazedLists.eventListOf(titleList.toArray()));
 		titrePanel.add(titreLabel);
 		titrePanel.add(titre);
 		searchFields.add(titrePanel);
@@ -348,7 +343,7 @@ public class SearchPanel extends JPanel {
 		// Nom du fichier
 		JPanel fileNamePanel = new JPanel();
 		JLabel fileNameLabel = PanelUtils.createJLabel("Nom du fichier : ", 300);
-		fileName = new MyInputText(220);
+		fileName = new MyInputText(JTextField.class, 220);
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
 		searchFields.add(fileNamePanel);
@@ -487,17 +482,13 @@ public class SearchPanel extends JPanel {
 		List<Composition> allCompo = ImportXML.importXML(Constant.getFinalFilePath());
 		if (CollectionUtils.isNotEmpty(allCompo)) {
 			Map<String, String> criteria = new HashMap<>();
-			if (artist.getSelectedItem() != null) {
-				criteria.put(SearchUtils.CRITERIA_ARTIST, artist.getSelectedItem().toString());
-			}
-			if (titre.getSelectedItem() != null) {
-				criteria.put(SearchUtils.CRITERIA_TITRE, titre.getSelectedItem().toString());
-			}
+			criteria.put(SearchUtils.CRITERIA_ARTIST, artist.getText());
+			criteria.put(SearchUtils.CRITERIA_TITRE, titre.getText());
 			if (type.getSelectedItem() != null) {
 				criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.getSelectedItem().toString());
 			}
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
-			criteria.put(SearchUtils.CRITERIA_FILENAME, fileName.getText());
+			criteria.put(SearchUtils.CRITERIA_FILENAME, (String) fileName.getText());
 			if (author.getSelectedItem() != null) {
 				criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getSelectedItem().toString());
 			}
@@ -543,8 +534,8 @@ public class SearchPanel extends JPanel {
 
 	private void cleanAction() {
 		LOG.debug("Start cleanAction");
-		artist.setSelectedItem(null);
-		titre.setSelectedItem(null);
+		artist.setText(null);
+		titre.setText(null);
 		type.setSelectedItem(null);
 		searchMethod.setSelectedItem(SearchMethod.CONTAINS.getValue());
 		publi.setText("");
