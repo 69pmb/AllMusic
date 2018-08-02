@@ -188,22 +188,22 @@ public class BatchPanel extends JPanel {
 
 		// Year Begin
 		JTextField yearBeginTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
-		PanelUtils.setSize(yearBeginTop, 100, 60);
+		PanelUtils.setSize(yearBeginTop, 100, PanelUtils.COMPONENT_HEIGHT);
 		PanelUtils.addComponent(top, yearBeginTop, Component.LEFT_ALIGNMENT, 80);
 
 		// Year End
 		JTextField yearEndTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
-		PanelUtils.setSize(yearEndTop, 100, 60);
+		PanelUtils.setSize(yearEndTop, 100, PanelUtils.COMPONENT_HEIGHT);
 		PanelUtils.addComponent(top, yearEndTop, Component.LEFT_ALIGNMENT, 80);
 
 		// Album limit
 		JTextField albumLimit = new JTextField("10");
-		PanelUtils.setSize(albumLimit, 100, 60);
+		PanelUtils.setSize(albumLimit, 100, PanelUtils.COMPONENT_HEIGHT);
 		PanelUtils.addComponent(top, albumLimit, Component.LEFT_ALIGNMENT, 80);
 
 		// Song limit
 		JTextField songLimit = new JTextField("4");
-		PanelUtils.setSize(songLimit, 100, 60);
+		PanelUtils.setSize(songLimit, 100, PanelUtils.COMPONENT_HEIGHT);
 		PanelUtils.addComponent(top, songLimit, Component.LEFT_ALIGNMENT, 80);
 
 		// Bouton d'action
