@@ -42,7 +42,7 @@ import pmb.music.AllMusic.view.model.AbstractModel;
 public class PanelUtils {
 
 	private static final Logger LOG = Logger.getLogger(PanelUtils.class);
-	public static final int PANEL_HEIGHT = 60;
+	public static final int PANEL_HEIGHT = 70;
 	public static final int COMPONENT_HEIGHT = 25;
 
 	/**
