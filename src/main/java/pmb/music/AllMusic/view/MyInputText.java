@@ -18,15 +18,13 @@ public class MyInputText extends JPanel {
 
 	private JComponent input;
 	private JButton reset;
-	private Class<?> classe;
 
-	public MyInputText(Class<?> classe, int width) {
+	public MyInputText(Class<? extends JComponent> type, int width) {
 		super();
-		this.classe = classe;
 		try {
-			this.input = (JComponent) classe.newInstance();
+			this.input = (JComponent) type.newInstance();
 		} catch (InstantiationException | IllegalAccessException e) {
-			LOG.error("Error when instantiate the input of class: " + classe.getName(), e);
+			LOG.error("Error when instantiate the input of class: " + type.getName(), e);
 		}
 		this.add(this.input);
 		Icon icon = UIManager.getIcon("InternalFrame.closeIcon");
@@ -34,9 +32,9 @@ public class MyInputText extends JPanel {
 		this.reset.setPreferredSize(new Dimension(icon.getIconWidth(), icon.getIconHeight()));
 		this.reset.setFocusable(false);
 		this.reset.addActionListener(l -> {
-			if (this.classe == JTextField.class) {
+			if (isInputInstanceOf(JTextField.class)) {
 				((JTextField) input).setText("");
-			} else if (this.classe == JComboBox.class) {
+			} else if (isInputInstanceOf(JComboBox.class)) {
 				((JComboBox<?>) input).setSelectedItem(null);
 			}
 		});
@@ -45,9 +43,9 @@ public class MyInputText extends JPanel {
 	}
 
 	public String getText() {
-		if (this.classe == JTextField.class) {
+		if (isInputInstanceOf(JTextField.class)) {
 			return ((JTextField) input).getText();
-		} else if (this.classe == JComboBox.class) {
+		} else if (isInputInstanceOf(JComboBox.class)) {
 			return ((JComboBox<?>) input).getSelectedItem() == null ? ""
 					: (String) ((JComboBox<?>) input).getSelectedItem();
 		} else {
@@ -56,11 +54,15 @@ public class MyInputText extends JPanel {
 	}
 
 	public void setText(String text) {
-		if (this.classe == JTextField.class) {
+		if (isInputInstanceOf(JTextField.class)) {
 			((JTextField) input).setText(text);
-		} else if (this.classe == JComboBox.class) {
+		} else if (isInputInstanceOf(JComboBox.class)) {
 			((JComboBox<?>) input).setSelectedItem(text);
 		}
+	}
+
+	public boolean isInputInstanceOf(Class<?> clazz) {
+		return clazz.isInstance(input);
 	}
 
 	public JComponent getInput() {
