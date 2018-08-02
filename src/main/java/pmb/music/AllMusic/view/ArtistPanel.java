@@ -6,6 +6,7 @@ package pmb.music.AllMusic.view;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
@@ -75,10 +76,10 @@ public class ArtistPanel extends JPanel {
 	private static final int INDEX_ARTIST = 0;
 	private static final int INDEX_NB_TOTAL = 1;
 
-	private final JTextField publi;
-	private final JTextField rangeB;
-	private final JTextField rangeE;
-	private final JTextField auteur;
+	private final MyInputText publi;
+	private final MyInputText rangeB;
+	private final MyInputText rangeE;
+	private final MyInputText auteur;
 	private final JComboBox<Cat> cat;
 	private final JButton search;
 	private final JButton reset;
@@ -111,37 +112,34 @@ public class ArtistPanel extends JPanel {
 		JPanel header = new JPanel();
 		// Publi
 		JPanel publiPanel = new JPanel();
-		publiPanel.setPreferredSize(new Dimension(150, 60));
+		publiPanel.setPreferredSize(new Dimension(150, PanelUtils.PANEL_HEIGHT));
 		JLabel publiLabel = new JLabel("Année de publication : ");
-		publi = new JTextField();
-		publi.setPreferredSize(new Dimension(75, 25));
+		publi = new MyInputText(JTextField.class, 75);
 		publiPanel.add(publiLabel);
 		publiPanel.add(publi);
 		header.add(publiPanel);
 		// Range
-		JPanel rangePanel = new JPanel();
-		rangePanel.setPreferredSize(new Dimension(200, 60));
+		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(rangePanel, 300, PanelUtils.PANEL_HEIGHT);
 		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
-		rangeB = new JTextField();
-		rangeE = new JTextField();
-		rangeB.setPreferredSize(new Dimension(90, 25));
-		rangeE.setPreferredSize(new Dimension(90, 25));
+		PanelUtils.setSize(rangeLabel, 180, PanelUtils.COMPONENT_HEIGHT);
+		rangeB = new MyInputText(JTextField.class, 90);
+		rangeE = new MyInputText(JTextField.class, 90);
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeB);
 		rangePanel.add(rangeE);
 		header.add(rangePanel);
 		// Auteur
 		JPanel fileNamePanel = new JPanel();
-		fileNamePanel.setPreferredSize(new Dimension(200, 60));
+		fileNamePanel.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
 		JLabel fileNameLabel = new JLabel("Auteur : ");
-		auteur = new JTextField();
-		auteur.setPreferredSize(new Dimension(150, 25));
+		auteur = new MyInputText(JTextField.class, 150);
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(auteur);
 		header.add(fileNamePanel);
 		// Categorie
 		JPanel catPanel = new JPanel();
-		catPanel.setPreferredSize(new Dimension(180, 60));
+		catPanel.setPreferredSize(new Dimension(180, PanelUtils.PANEL_HEIGHT));
 		JLabel catLabel = new JLabel("Catégorie : ");
 		cat = new JComboBox<>();
 		cat.addItem(null);
@@ -149,16 +147,16 @@ public class ArtistPanel extends JPanel {
 		for (int i = 0; i < values.length; i++) {
 			cat.addItem(values[i]);
 		}
-		cat.setPreferredSize(new Dimension(120, 25));
+		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
 		header.add(catPanel);
 		// Deleted
 		JPanel deletedPanel = new JPanel();
-		deletedPanel.setPreferredSize(new Dimension(90, 60));
+		deletedPanel.setPreferredSize(new Dimension(90, PanelUtils.PANEL_HEIGHT));
 		JLabel deletedLabel = new JLabel("Supprimés: ");
 		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(50, 25));
+		deleted.setPreferredSize(new Dimension(50, PanelUtils.COMPONENT_HEIGHT));
 		deleted.setHorizontalAlignment(SwingConstants.CENTER);
 		deletedPanel.add(deletedLabel);
 		deletedPanel.add(deleted);
@@ -166,7 +164,7 @@ public class ArtistPanel extends JPanel {
 		// SEARCH
 		search = new JButton("Chercher");
 		search.setBackground(Color.white);
-		search.setPreferredSize(new Dimension(150, 60));
+		search.setPreferredSize(new Dimension(150, PanelUtils.PANEL_HEIGHT));
 		search.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -180,7 +178,7 @@ public class ArtistPanel extends JPanel {
 		// RESET
 		reset = new JButton("Réinitialiser");
 		reset.setBackground(Color.white);
-		reset.setPreferredSize(new Dimension(150, 60));
+		reset.setPreferredSize(new Dimension(150, PanelUtils.PANEL_HEIGHT));
 		reset.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -249,7 +247,7 @@ public class ArtistPanel extends JPanel {
 		// CSV
 		JButton csv = new JButton("Télécharger la recherche en CSV");
 		csv.setBackground(Color.white);
-		csv.setPreferredSize(new Dimension(200, 60));
+		csv.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
 		csv.addActionListener((ActionEvent e) -> {
 			LOG.debug("Start Csv");
 			List<String> c = Arrays
