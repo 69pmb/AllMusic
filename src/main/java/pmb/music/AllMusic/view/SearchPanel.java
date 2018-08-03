@@ -50,8 +50,6 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -66,6 +64,8 @@ import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -195,8 +195,8 @@ public class SearchPanel extends JPanel {
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 					List<SortKey> sortKeys = e.getSource().getSortKeys();
 					if (!sortKeys.isEmpty()) {
-						sortedColumn = ((SortKey) sortKeys.get(0)).getColumn();
-						sortOrder = ((SortKey) sortKeys.get(0)).getSortOrder();
+						sortedColumn = sortKeys.get(0).getColumn();
+						sortOrder = sortKeys.get(0).getSortOrder();
 					}
 				}
 			}
@@ -343,8 +343,8 @@ public class SearchPanel extends JPanel {
 
 		// Nom du fichier
 		JPanel fileNamePanel = new JPanel();
-		JLabel fileNameLabel = PanelUtils.createJLabel("Nom du fichier : ", 300);
-		fileName = new MyInputText(JTextField.class, 210);
+		JLabel fileNameLabel = PanelUtils.createJLabel("Nom du fichier : ", 250);
+		fileName = new MyInputText(JTextField.class, 170);
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
 		searchFields.add(fileNamePanel);
@@ -484,7 +484,7 @@ public class SearchPanel extends JPanel {
 				criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.getSelectedItem().toString());
 			}
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
-			criteria.put(SearchUtils.CRITERIA_FILENAME, (String) fileName.getText());
+			criteria.put(SearchUtils.CRITERIA_FILENAME, fileName.getText());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getText());
 			if (cat.getSelectedItem() != null) {
 				criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItem().toString());

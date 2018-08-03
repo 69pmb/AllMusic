@@ -3,6 +3,7 @@ package pmb.music.AllMusic.view;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.Toolkit;
@@ -49,8 +50,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
@@ -65,6 +64,8 @@ import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
 import pmb.music.AllMusic.view.model.FichierPanelModel;
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -171,7 +172,7 @@ public class FichierPanel extends JPanel {
 	private void initSearchBtn(ArtistPanel artistPanel, List<String> authors) {
 		JPanel header = new JPanel(new GridLayout(2, 6));
 		// Auteur
-		JPanel auteurPanel = new JPanel();
+		JPanel auteurPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel auteurLabel = PanelUtils.createJLabel("Auteur : ", 150);
 		auteur = new MyInputText(JComboBox.class, 150);
 		AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(), GlazedLists.eventListOf(authors.toArray()));
@@ -179,21 +180,21 @@ public class FichierPanel extends JPanel {
 		auteurPanel.add(auteur);
 		header.add(auteurPanel);
 		// Nom du fichier
-		JPanel namePanel = new JPanel();
+		JPanel namePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel nameLabel = PanelUtils.createJLabel("Nom du fichier : ", 200);
-		name = new MyInputText(JTextField.class, 200);
+		name = new MyInputText(JTextField.class, 180);
 		namePanel.add(nameLabel);
 		namePanel.add(name);
 		header.add(namePanel);
 		// Publi
-		JPanel publiPanel = new JPanel();
+		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 150);
 		publi = new MyInputText(JTextField.class, 150);
 		publiPanel.add(publiLabel);
 		publiPanel.add(publi);
 		header.add(publiPanel);
 		// Range
-		JPanel rangePanel = new JPanel();
+		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 5, 0));
 		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 180);
 		rangeB = new JTextField();
 		rangeE = new JTextField();
@@ -204,7 +205,7 @@ public class FichierPanel extends JPanel {
 		rangePanel.add(rangeE);
 		header.add(rangePanel);
 		// Categorie
-		JPanel catPanel = new JPanel();
+		JPanel catPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 180);
 		cat = new JComboBox<>();
 		cat.addItem("");
@@ -217,7 +218,7 @@ public class FichierPanel extends JPanel {
 		catPanel.add(cat);
 		header.add(catPanel);
 		// Sorted
-		JPanel sortedPanel = new JPanel();
+		JPanel sortedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel sortedLabel = PanelUtils.createJLabel("Classé: ", 150);
 		sorted = new JCheckBox();
 		sorted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
@@ -226,7 +227,7 @@ public class FichierPanel extends JPanel {
 		sortedPanel.add(sorted);
 		header.add(sortedPanel);
 		// Deleted
-		JPanel deletedPanel = new JPanel();
+		JPanel deletedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel deletedLabel = PanelUtils.createJLabel("Supprimées: ", 150);
 		deleted = new JCheckBox();
 		deleted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
