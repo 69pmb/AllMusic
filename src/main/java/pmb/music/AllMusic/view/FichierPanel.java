@@ -49,6 +49,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
@@ -92,9 +94,9 @@ public class FichierPanel extends JPanel {
 	private static final int INDEX_COMPO_DELETED = 5;
 
 	// Search components
-	private JComboBox<String> auteur;
-	private JTextField name;
-	private JTextField publi;
+	private MyInputText auteur;
+	private MyInputText name;
+	private MyInputText publi;
 	private JTextField rangeB;
 	private JTextField rangeE;
 	private JComboBox<String> cat;
@@ -128,8 +130,8 @@ public class FichierPanel extends JPanel {
 
 	private Dimension parentSize;
 
-	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie", "Dates", "Date de création", "Taille",
-			"Classé" };
+	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
+			"Dates", "Date de création", "Taille", "Classé" };
 	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "", "" };
 
 	/**
@@ -171,28 +173,22 @@ public class FichierPanel extends JPanel {
 		// Auteur
 		JPanel auteurPanel = new JPanel();
 		JLabel auteurLabel = PanelUtils.createJLabel("Auteur : ", 150);
-		auteur = new JComboBox<>();
-		auteur.addItem("");
-		for (String author : authors) {
-			auteur.addItem(author);
-		}
-		auteur.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		auteur = new MyInputText(JComboBox.class, 150);
+		AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(), GlazedLists.eventListOf(authors.toArray()));
 		auteurPanel.add(auteurLabel);
 		auteurPanel.add(auteur);
 		header.add(auteurPanel);
 		// Nom du fichier
 		JPanel namePanel = new JPanel();
 		JLabel nameLabel = PanelUtils.createJLabel("Nom du fichier : ", 200);
-		name = new JTextField();
-		PanelUtils.setSize(name, 200, 25);
+		name = new MyInputText(JTextField.class, 200);
 		namePanel.add(nameLabel);
 		namePanel.add(name);
 		header.add(namePanel);
 		// Publi
 		JPanel publiPanel = new JPanel();
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 150);
-		publi = new JTextField();
-		publi.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		publi = new MyInputText(JTextField.class, 150);
 		publiPanel.add(publiLabel);
 		publiPanel.add(publi);
 		header.add(publiPanel);
@@ -462,7 +458,8 @@ public class FichierPanel extends JPanel {
 			LOG.debug("Start left mouse, open");
 			// Double click avec le bouton gauche
 			// Affiche les compositions du fichier sélectionné
-			compositionList = ImportXML.importXML(Constant.getXmlPath() + selectedRow.get().get(INDEX_FILE_FILE_NAME) + Constant.XML_EXTENSION);
+			compositionList = ImportXML.importXML(
+					Constant.getXmlPath() + selectedRow.get().get(INDEX_FILE_FILE_NAME) + Constant.XML_EXTENSION);
 			if (!deleted.isSelected()) {
 				compositionList = compositionList.stream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
 			}
@@ -476,7 +473,8 @@ public class FichierPanel extends JPanel {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Ouvre le fichier txt
-			Optional<String> filePath = FichierUtils.buildTxtFilePath(selectedRow.get().get(INDEX_FILE_FILE_NAME), selectedRow.get().get(INDEX_FILE_AUTHOR));
+			Optional<String> filePath = FichierUtils.buildTxtFilePath(selectedRow.get().get(INDEX_FILE_FILE_NAME),
+					selectedRow.get().get(INDEX_FILE_AUTHOR));
 			try {
 				FichierUtils.openFileInNotepad(filePath);
 			} catch (MyException e1) {
@@ -499,7 +497,8 @@ public class FichierPanel extends JPanel {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
-			StringSelection selection = new StringSelection(selectedRow.get().get(INDEX_COMPO_ARTIST) + " " + selectedRow.get().get(INDEX_COMPO_TITLE));
+			StringSelection selection = new StringSelection(
+					selectedRow.get().get(INDEX_COMPO_ARTIST) + " " + selectedRow.get().get(INDEX_COMPO_TITLE));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
@@ -511,7 +510,8 @@ public class FichierPanel extends JPanel {
 		resultLabel.setText("");
 		String fileName = selected.get(INDEX_FILE_FILE_NAME);
 		// Index du fichier dans le tableau
-		int indexOf = fichiers.indexOf(fichiers.stream().filter(f -> StringUtils.equals(f.getFileName(), fileName)).findFirst().get());
+		int indexOf = fichiers.indexOf(
+				fichiers.stream().filter(f -> StringUtils.equals(f.getFileName(), fileName)).findFirst().get());
 		// Lancement de la popup de modification
 		ModifyFichierDialog md = new ModifyFichierDialog(null, "Modifier un fichier", true, selected);
 		md.showDialogFileTable();
@@ -527,8 +527,9 @@ public class FichierPanel extends JPanel {
 		Fichier modifiedFichier = null;
 		try {
 			// Modification du fichier
-			modifiedFichier = FichierUtils.modifyFichier(fileName, newFichier.get(INDEX_FILE_FILE_NAME), newFichier.get(INDEX_FILE_PUBLISH),
-					newFichier.get(INDEX_FILE_RANGE), newFichier.get(INDEX_FILE_CAT), newFichier.get(INDEX_FILE_SIZE), newFichier.get(INDEX_FILE_SORTED));
+			modifiedFichier = FichierUtils.modifyFichier(fileName, newFichier.get(INDEX_FILE_FILE_NAME),
+					newFichier.get(INDEX_FILE_PUBLISH), newFichier.get(INDEX_FILE_RANGE),
+					newFichier.get(INDEX_FILE_CAT), newFichier.get(INDEX_FILE_SIZE), newFichier.get(INDEX_FILE_SORTED));
 		} catch (MyException e) {
 			String log = "Erreur pendant FichierUtils.modifyFichier";
 			LOG.error(log, e);
@@ -557,11 +558,11 @@ public class FichierPanel extends JPanel {
 		Fichier currentFile = null;
 		try {
 			// On récupère la composition à modifier
-			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(INDEX_COMPO_ARTIST), v.get(INDEX_COMPO_TITLE),
-					v.get(INDEX_COMPO_TYPE), true);
+			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(INDEX_COMPO_ARTIST),
+					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE), true);
 			currentFile = compoToModifInTable.getFiles().get(0);
-			Optional<Composition> findByFileAndRank = CompositionUtils.findByFile(importXML, currentFile, Optional.of(v.get(INDEX_COMPO_ARTIST)),
-					Optional.of(v.get(INDEX_COMPO_TITLE)));
+			Optional<Composition> findByFileAndRank = CompositionUtils.findByFile(importXML, currentFile,
+					Optional.of(v.get(INDEX_COMPO_ARTIST)), Optional.of(v.get(INDEX_COMPO_TITLE)));
 			if (!findByFileAndRank.isPresent()) {
 				resultLabel.setText("Impossible de trouver la composition dans Final.xml");
 				return;
@@ -576,7 +577,8 @@ public class FichierPanel extends JPanel {
 		int indexOfXml = importXML.indexOf(compoToModifInFinal);
 		int indexOfResult = compositionList.indexOf(compoToModifInTable);
 		// Lancement de la popup de modification
-		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true, new Dimension(800, 150), v);
+		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
+				new Dimension(800, 150), v);
 		md.showDialogFileTable();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée
@@ -627,7 +629,8 @@ public class FichierPanel extends JPanel {
 
 		// On modifier les fichier xml en conséquence
 		try {
-			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST), v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE));
+			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST),
+					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE));
 		} catch (MyException e1) {
 			String log = "Erreur lors de la modification d'une composition";
 			LOG.error(log, e1);
@@ -643,12 +646,15 @@ public class FichierPanel extends JPanel {
 	private void searchAction() {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
-		fichiers = new ArrayList<Fichier>(ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getFiles).flatMap(List::stream)
+		fichiers = new ArrayList<Fichier>(ImportXML.importXML(Constant.getFinalFilePath()).stream()
+				.map(Composition::getFiles).flatMap(List::stream)
 				.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
 		if (CollectionUtils.isNotEmpty(fichiers)) {
-			CollectionUtils.filter(fichiers, (Object f) -> SearchUtils.filterFichier(SearchMethod.CONTAINS, new JaroWinklerDistance(), publi.getText(),
-					name.getText(), auteur.getSelectedItem().toString(), cat.getSelectedItem().toString(), rangeB.getText(), rangeE.getText(),
-					sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f));
+			CollectionUtils.filter(fichiers,
+					(Object f) -> SearchUtils.filterFichier(SearchMethod.CONTAINS, new JaroWinklerDistance(),
+							publi.getText(), name.getText(), auteur.getText(), cat.getSelectedItem().toString(),
+							rangeB.getText(), rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "",
+							null, f));
 			updateFileTable();
 		}
 		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");
@@ -660,14 +666,16 @@ public class FichierPanel extends JPanel {
 		Composition c = new Composition();
 		c.setFiles(fichiers);
 		fichieModel.setRowCount(0);
-		fichieModel.setDataVector(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false), new Vector<>(Arrays.asList(headerFiles)));
+		fichieModel.setDataVector(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false),
+				new Vector<>(Arrays.asList(headerFiles)));
 		PanelUtils.colRenderer(tableFiles, true, null);
 		fichieModel.fireTableDataChanged();
 		if (sortedFichierColumn == null) {
 			sortedFichierColumn = INDEX_FILE_FILE_NAME;
 			sortFichierOrder = SortOrder.ASCENDING;
 		}
-		tableFiles.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedFichierColumn, sortFichierOrder)));
+		tableFiles.getRowSorter()
+				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedFichierColumn, sortFichierOrder)));
 		selectedFichierRow = -1;
 		tableFiles.repaint();
 		updateCompoTable(new ArrayList<>());
@@ -682,14 +690,16 @@ public class FichierPanel extends JPanel {
 	private void updateCompoTable(List<Composition> compo) {
 		LOG.debug("Start updateCompoTable");
 		compoModel.setRowCount(0);
-		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true, null), new Vector<>(Arrays.asList(headerCompo)));
+		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true, null),
+				new Vector<>(Arrays.asList(headerCompo)));
 		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED);
 		compoModel.fireTableDataChanged();
 		if (sortedCompoColumn == null) {
 			sortedCompoColumn = INDEX_COMPO_RANK;
 			sortCompoOrder = SortOrder.ASCENDING;
 		}
-		tableCompo.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedCompoColumn, sortCompoOrder)));
+		tableCompo.getRowSorter()
+				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedCompoColumn, sortCompoOrder)));
 		selectedCompoRow = -1;
 		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DELETED));
 		tableCompo.repaint();
@@ -699,7 +709,7 @@ public class FichierPanel extends JPanel {
 
 	private void resetAction() {
 		LOG.debug("Start resetAction");
-		auteur.setSelectedItem("");
+		auteur.setText(null);
 		name.setText("");
 		publi.setText("");
 		rangeB.setText("");
@@ -711,7 +721,8 @@ public class FichierPanel extends JPanel {
 	}
 
 	private void setTableSize(JPanel panel, int height) {
-		PanelUtils.setSize(panel, (int) parentSize.getWidth(), Math.floorDiv(height * (int) parentSize.getHeight(), 100));
+		PanelUtils.setSize(panel, (int) parentSize.getWidth(),
+				Math.floorDiv(height * (int) parentSize.getHeight(), 100));
 	}
 
 	public JTable getTableFiles() {
