@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Usher" titre="Climax (And Diplo)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Usher" titre="Climax" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="3" creationDate="02/07/2017 14:31:05" size="100"/>
+  </Composition>
+  <Composition artist="Tame Impala" titre="Feels Like We Only Go Backwards" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="7" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
   <Composition artist="Fiona Apple" titre="Werewolf" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="9" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
   <Composition artist="Jai Paul" titre="Jasmine" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="10" creationDate="02/07/2017 14:31:05" size="100"/>
+  </Composition>
+  <Composition artist="Miguel" titre="Adorn" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="12" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
   <Composition artist="Andy Stott" titre="Numb" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="15" creationDate="02/07/2017 14:31:05" size="100"/>
@@ -19,11 +25,14 @@
   <Composition artist="Chairlift" titre="I Belong in Your Arms" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="17" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
-  <Composition artist="Nicki Minaj" titre="Beez In The Trap" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nicki Minaj" titre="Beez in the Trap [And 2 Chainz]" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="18" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
-  <Composition artist="Ariel Pink" titre="Only in My Dreams" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Ariel Pinks Haunted Graffiti" titre="Only in My Dreams" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="19" creationDate="02/07/2017 14:31:05" size="100"/>
+  </Composition>
+  <Composition artist="Kendrick Lamar" titre="Swimming Pools (Drank)" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="20" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
   <Composition artist="Dirty Projectors" titre="Dance for You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="23" creationDate="02/07/2017 14:31:05" size="100"/>
@@ -73,7 +82,7 @@
   <Composition artist="Dum Dum Girls" titre="Lord Knows" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="43" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
-  <Composition artist="AlunaGeorge" titre="You Know You Like It" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="AlunaGeorge" titre="You Know You Like It" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="44" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
   <Composition artist="Spiritualized" titre="Hey Jane" type="SONG" canBeMerged="true" deleted="false">
@@ -87,6 +96,9 @@
   </Composition>
   <Composition artist="Future" titre="Turn on the Lights" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="49" creationDate="02/07/2017 14:31:05" size="100"/>
+  </Composition>
+  <Composition artist="Icona Pop" titre="I Love It" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="50" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
   <Composition artist="Kendrick Lamar" titre="Backstreet Freestyle" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="51" creationDate="02/07/2017 14:31:05" size="100"/>
@@ -118,6 +130,9 @@
   <Composition artist="Anna Meredith" titre="Nautilus" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="60" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
+  <Composition artist="Jessie Ware" titre="110%" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="61" creationDate="02/07/2017 14:31:05" size="100"/>
+  </Composition>
   <Composition artist="Philip Glass" titre="73-78 (Beck Remix)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="62" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
@@ -148,11 +163,14 @@
   <Composition artist="John Talabot" titre="Destiny [And Pional]" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="72" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
-  <Composition artist="Juicy J" titre="Bandz A Make Her Dance" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Juicy J" titre="Bands A Make Her Dance (Remix) [And Lil Wayne and 2 Chainz]" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="73" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
-  <Composition artist="Ariel Pink" titre="Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Ariel Pinks Haunted Graffiti" titre="Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="74" creationDate="02/07/2017 14:31:05" size="100"/>
+  </Composition>
+  <Composition artist="Angel Haze" titre="Werkin' Girls" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="75" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
   <Composition artist="Blawan" titre="Why They Hide Their Bodies Under My Garage" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="76" creationDate="02/07/2017 14:31:05" size="100"/>
@@ -165,6 +183,9 @@
   </Composition>
   <Composition artist="Baauer" titre="Harlem Shake" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="80" creationDate="02/07/2017 14:31:05" size="100"/>
+  </Composition>
+  <Composition artist="Schoolboy Q" titre="There He Go" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="82" creationDate="02/07/2017 14:31:05" size="100"/>
   </Composition>
   <Composition artist="How to Dress Well" titre="Cold Nites" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="83" creationDate="02/07/2017 14:31:05" size="100"/>
