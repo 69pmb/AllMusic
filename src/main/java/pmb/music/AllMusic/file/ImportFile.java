@@ -98,7 +98,7 @@ public class ImportFile {
 				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			while ((line = br.readLine()) != null) {
 				lineNb++;
-				if (!isValidLine(line) && lineNb == 2) {
+				if (!isValidLine(line)) {
 					continue;
 				}
 				getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter,
