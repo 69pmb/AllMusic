@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Janelle Monae" titre="Q.U.E.E.N. (And Erykah Badu)" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="1" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Phosphorescent" titre="Song for Zula" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="2" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Daft Punk" titre="Get Lucky" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="3" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Arcade Fire" titre="Reflektor" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="4" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Mikal Cronin" titre="Weight" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="5" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
@@ -18,6 +30,9 @@
   </Composition>
   <Composition artist="Okkervil River" titre="Down Down the Deep River" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="10" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Vampire Weekend" titre="Ya Hey" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="11" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Superchunk" titre="Me And You And Jackie Mittoo" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="12" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -109,7 +124,7 @@
   <Composition artist="PJ Harvey" titre="Shaker Aamer" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="41" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Robin Thicke" titre="Blurred Lines (And T.I. and Pharrell)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Robin Thicke" titre="Blurred Lines" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Song - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="42" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Waxahatchee" titre="Swan Dive" type="SONG" canBeMerged="true" deleted="false">
