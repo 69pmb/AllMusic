@@ -162,9 +162,9 @@ public final class ImportXML {
 	 */
 	public static void synchroDeletedWithFinal() throws MyException {
 		LOG.debug("Start synchroDeletedWithFinal");
-		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		importXML = importXML.stream().filter(c -> c.isDeleted()).collect(Collectors.toList());
-		for (Composition composition : importXML) {
+		List<Composition> allDeletedComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
+				.filter(c -> c.isDeleted()).collect(Collectors.toList());
+		for (Composition composition : allDeletedComposition) {
 			for (Fichier fichier : composition.getFiles()) {
 				if (composition.isDeleted()) {
 					List<Composition> xml = ImportXML
