@@ -393,9 +393,10 @@ public class CompositionUtils {
 	 * @param newArtist {@link String} le nouvel artiste
 	 * @param newTitre {@link String} le nouveau titre
 	 * @param newType {@link String} le nouveau type
+	 * @param isDeleted {@code boolean} si la composition est supprimée
 	 * @throws MyException
 	 */
-	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre, String newType)
+	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre, String newType, boolean isDeleted)
 			throws MyException {
 		LOG.debug("Start modifyCompositionsInFiles");
 		for (Fichier file : toModif.getFiles()) {
@@ -420,6 +421,7 @@ public class CompositionUtils {
 				composition.setArtist(newArtist);
 				composition.setTitre(newTitre);
 				composition.setRecordType(RecordType.valueOf(newType));
+				composition.setDeleted(isDeleted);
 				importXML.set(indexOf, composition);
 				try {
 					// Sauvegarde des modifications

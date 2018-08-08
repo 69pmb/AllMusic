@@ -627,7 +627,7 @@ public class FichierPanel extends JPanel {
 		// On modifier les fichier xml en conséquence
 		try {
 			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST),
-					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE));
+					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE), isDeleted);
 		} catch (MyException e1) {
 			String log = "Erreur lors de la modification d'une composition";
 			LOG.error(log, e1);
