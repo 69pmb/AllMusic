@@ -1498,10 +1498,10 @@
   <Composition artist="Police" titre="Roxanne" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="499" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Prince And the Revolution" titre="Darling Nikki" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Darling Nikki" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="500" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Prince" titre="If I Was Your Girlfriend" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="If I Was Your Girlfriend" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="501" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Prince" titre="Kiss" type="SONG" canBeMerged="true" deleted="false">
@@ -1891,7 +1891,7 @@
   <Composition artist="Primal Scream" titre="Come Together" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="630" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' the Times" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' the Times" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="631" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="John Prine" titre="Sam Stone" type="SONG" canBeMerged="true" deleted="false">
