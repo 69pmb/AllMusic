@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="The Smiths" titre="I Know It's Over" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - The 25 Greatest Alterative Love Songs" publishYear="0" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="4" creationDate="02/07/2017 07:08:56" size="25"/>
+  </Composition>
   <Composition artist="Tindersticks" titre="City Sickness" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 25 Greatest Alterative Love Songs" publishYear="0" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="7" creationDate="02/07/2017 07:08:56" size="25"/>
   </Composition>
@@ -19,11 +22,17 @@
   <Composition artist="The Afghan Whigs" titre="When We Two Parted" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 25 Greatest Alterative Love Songs" publishYear="0" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="14" creationDate="02/07/2017 07:08:56" size="25"/>
   </Composition>
+  <Composition artist="Ramones" titre="I Wanna Be Your Boyfriend" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - The 25 Greatest Alterative Love Songs" publishYear="0" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="16" creationDate="02/07/2017 07:08:56" size="25"/>
+  </Composition>
   <Composition artist="Nick Drake" titre="Which Will" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 25 Greatest Alterative Love Songs" publishYear="0" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="17" creationDate="02/07/2017 07:08:56" size="25"/>
   </Composition>
   <Composition artist="Spritualized" titre="Broken Heart" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 25 Greatest Alterative Love Songs" publishYear="0" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="18" creationDate="02/07/2017 07:08:56" size="25"/>
+  </Composition>
+  <Composition artist="The Streets" titre="Dry Your Eyes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - The 25 Greatest Alterative Love Songs" publishYear="0" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="19" creationDate="02/07/2017 07:08:56" size="25"/>
   </Composition>
   <Composition artist="Buffalo Tom" titre="Taillights Fade" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 25 Greatest Alterative Love Songs" publishYear="0" categorie="THEME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="20" creationDate="02/07/2017 07:08:56" size="25"/>

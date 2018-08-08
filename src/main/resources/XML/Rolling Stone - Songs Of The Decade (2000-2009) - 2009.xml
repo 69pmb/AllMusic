@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Gnarls Barkley" titre="Crazy" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Jay -Z" titre="99 Problems" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="2" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Beyonce" titre="Crazy in Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
-  <Composition artist="50 Cent" titre="In Da Club" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Outkast" titre="Hey Ya!" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="4" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="M.I.A." titre="Paper Planes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="5" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="6" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Yeah Yeah Yeahs" titre="Maps" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="7" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Amy Winehouse" titre="Rehab" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="8" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="U2" titre="Beautiful Day" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="9" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Eminem" titre="Stan" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="10" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="MGMT" titre="Time to Pretend" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="11" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Eminem" titre="Lose Yourself" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="12" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="50 Cent" titre="In Da Club" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="13" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Missy Elliott" titre="Get Ur Freak On" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="14" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Johnny Cash" titre="Hurt" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="15" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The Strokes" titre="Last Nite" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="16" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Mississippi" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="17" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Kelly Clarkson" titre="Since U Been Gone" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="18" creationDate="24/07/2017 00:51:20" size="100"/>
@@ -13,17 +58,26 @@
   <Composition artist="Kanye West" titre="Jesus Walks" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="19" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
-  <Composition artist="Justin Timberlake" titre="Cry Me a River" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Justin Timberlake" titre="Cry Me a River" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="20" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="OutKast" titre="B.O.B." type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="21" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Amerie" titre="1 Thing" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="22" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
-  <Composition artist="Rihanna" titre="Umbrella [And Jay-Z]" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Rihanna" titre="Umbrella" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="23" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="Everything in Its Right Place" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="24" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Missy Elliott" titre="Work It" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="25" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Coldplay" titre="Clocks" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="26" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="The Postal Service" titre="Such Great Heights" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="27" creationDate="24/07/2017 00:51:20" size="100"/>
@@ -37,22 +91,64 @@
   <Composition artist="R. Kelly" titre="Ignition (Remix)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="30" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
+  <Composition artist="The Flaming Lips" titre="Do You Realize?" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="31" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Franz Ferdinand" titre="Take Me Out" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="32" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Daft Punk" titre="One More Time" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="33" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Coldplay" titre="Yellow" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="34" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
   <Composition artist="Bruce Springsteen" titre="The Rising" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="35" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="U2" titre="Moment of Surrender" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="36" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
+  <Composition artist="LCD Soundsystem" titre="Losing My Edge" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="37" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Gorillaz" titre="Clint Eastwood" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="38" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Modest Mouse" titre="Float On" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="39" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
   <Composition artist="Kelis" titre="Milkshake" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="40" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
-  <Composition artist="The Roots" titre="The Seed 2.0" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="LCD Soundsystem" titre="All My Friends" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="41" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Arcade Fire" titre="Wake Up" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="42" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The Roots" titre="The Seed (2.0)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="43" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
-  <Composition artist="Kylie Minogue" titre="Cant Get You Out of My Head" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Britney Spears" titre="Toxic" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="44" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Kylie Minogue" titre="Can't Get You Out of My Head" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="45" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
-  <Composition artist="Beyonce" titre="Single Ladies (Put a Ring on It)" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="MGMT" titre="Kids" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="46" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Green Day" titre="American Idiot" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="47" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The Killers" titre="Mr. Brightside" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="48" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The Walkmen" titre="The Rat" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="49" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Beyonce" titre="Single Ladies" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="50" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="D'Angelo" titre="Untitled (How Does It Feel)" type="SONG" canBeMerged="true" deleted="false">
@@ -61,8 +157,32 @@
   <Composition artist="Christina Aguilera" titre="Beautiful" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="52" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
+  <Composition artist="The Rapture" titre="House of Jealous Lovers" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="53" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Coldplay" titre="The Scientist" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="54" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="OutKast" titre="Ms. Jackson" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="55" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="Idioteque" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="56" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The Shins" titre="New Slang" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="57" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The White Stripes" titre="Fell In Love With a Girl" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="58" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The Strokes" titre="Hard to Explain" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="59" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
   <Composition artist="Beyonce" titre="Irreplaceable" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="60" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Jet" titre="Are You Gonna Be My Girl" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="61" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Alicia Keys" titre="Fallin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="62" creationDate="24/07/2017 00:51:20" size="100"/>
@@ -70,14 +190,50 @@
   <Composition artist="Lil Wayne" titre="A Milli" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="63" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
+  <Composition artist="U2" titre="Vertigo" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="64" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Green Day" titre="Boulevard of Broken Dreams" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="65" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
   <Composition artist="Madonna" titre="Music" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="66" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Wilco" titre="Jesus, Etc." type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="67" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Coldplay" titre="Viva La Vida" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="68" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Santigold" titre="L.E.S. Artistes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="69" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Arctic Monkeys" titre="I Bet You Look Good on the Dance Floor" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="70" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Justice" titre="D.A.N.C.E." type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="71" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Kings of Leon" titre="Use Somebody" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="72" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Queens of the Stone Age" titre="No One Knows" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="73" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="TV on the Radio" titre="Wolf Like Me" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="74" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Arcade Fire" titre="Rebellion (Lies)" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="75" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Madonna" titre="Hung Up" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="76" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Dixie Chicks" titre="Not Ready to Make Nice" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="77" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="LCD Soundsystem" titre="Daft Punk is Playing at My House" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="78" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Robert Plant and Alison Krauss" titre="Gone Gone Gone" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="79" creationDate="24/07/2017 00:51:20" size="100"/>
@@ -91,11 +247,23 @@
   <Composition artist="Jay-Z" titre="Dirt Off Your Shoulder" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="82" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
-  <Composition artist="The Clipse" titre="Grindin" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Gossip" titre="Standing in the Way of Control" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="83" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The Clipse" titre="Grindin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="84" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The Dirty Projectors" titre="Stillness Is the Move" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="85" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Aaliyah" titre="Try Again" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="86" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="The Knife" titre="Heartbeats" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="87" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Jay -Z" titre="Izzo (H.O.V.A.)" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="88" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Bright Eyes" titre="Lua" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="89" creationDate="24/07/2017 00:51:20" size="100"/>
@@ -109,14 +277,26 @@
   <Composition artist="Brad Paisley" titre="Alcohol" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="92" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
-  <Composition artist="Snoop Doggy Dogg" titre="Drop It Like It's Hot" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Snoop Dogg" titre="Drop It Like It's Hot" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="93" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="Pyramid Song" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="94" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Mary J. Blige" titre="Family Affair" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="95" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Lady Gaga" titre="Poker Face" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="96" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Fleet Foxes" titre="White Winter Hymnal" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="97" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Amy Winehouse" titre="Back to Black" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="98" creationDate="24/07/2017 00:51:20" size="100"/>
+  </Composition>
+  <Composition artist="Gorillaz" titre="Feel Good Inc." type="SONG" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="99" creationDate="24/07/2017 00:51:20" size="100"/>
   </Composition>
   <Composition artist="Damian Marley" titre="Welcome to Jamrock" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="100" creationDate="24/07/2017 00:51:20" size="100"/>
