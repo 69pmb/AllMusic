@@ -49,7 +49,10 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
+import org.kordamp.ikonli.swing.FontIcon;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
@@ -64,8 +67,6 @@ import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
 import pmb.music.AllMusic.view.model.FichierPanelModel;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -237,9 +238,7 @@ public class FichierPanel extends JPanel {
 		header.add(deletedPanel);
 
 		// SEARCH
-		search = new JButton("Chercher");
-		search.setBackground(Color.white);
-		search.setPreferredSize(new Dimension(120, PanelUtils.PANEL_HEIGHT));
+		search = PanelUtils.createJButton("Rechercher", 120, Constant.ICON_SEARCH);
 		search.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -251,9 +250,7 @@ public class FichierPanel extends JPanel {
 		});
 		header.add(search);
 		// RESET
-		reset = new JButton("Réinitialiser");
-		reset.setBackground(Color.white);
-		reset.setPreferredSize(new Dimension(120, PanelUtils.PANEL_HEIGHT));
+		reset = PanelUtils.createJButton("Réinitialiser", 120, Constant.ICON_ERASE);
 		reset.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -265,9 +262,7 @@ public class FichierPanel extends JPanel {
 		});
 		header.add(reset);
 		// hideFileList
-		hideFileList = new JButton("Cacher la liste des fichiers");
-		hideFileList.setBackground(Color.white);
-		hideFileList.setPreferredSize(new Dimension(180, PanelUtils.PANEL_HEIGHT));
+		hideFileList = PanelUtils.createJButton("Cacher la liste des fichiers", 180, Constant.ICON_HIDE);
 		hideFileList.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -278,18 +273,18 @@ public class FichierPanel extends JPanel {
 				fichierPanel.setVisible(showFichierTable);
 				if (showFichierTable) {
 					hideFileList.setText("Cacher la liste des fichiers");
+					hideFileList.setIcon(FontIcon.of(Constant.ICON_HIDE));
 					setTableSize(compoPanel, MIN_HEIGHT_TABLE);
 				} else {
 					hideFileList.setText("Afficher la liste des fichiers");
+					hideFileList.setIcon(FontIcon.of(Constant.ICON_SHOW));
 					setTableSize(compoPanel, MAX_HEIGHT_TABLE);
 				}
 			}
 		});
 		header.add(hideFileList);
 		// hideCompoList
-		hideCompoList = new JButton("Cacher la liste des compositions");
-		hideCompoList.setBackground(Color.white);
-		hideCompoList.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
+		hideCompoList = PanelUtils.createJButton("Cacher la liste des compositions", 200, Constant.ICON_HIDE);
 		hideCompoList.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -300,17 +295,18 @@ public class FichierPanel extends JPanel {
 				compoPanel.setVisible(showCompoTable);
 				if (showCompoTable) {
 					hideCompoList.setText("Cacher la liste des compositions");
+					hideCompoList.setIcon(FontIcon.of(Constant.ICON_HIDE));
 					setTableSize(fichierPanel, MIN_HEIGHT_TABLE);
 				} else {
 					hideCompoList.setText("Afficher la liste des compositions");
+					hideCompoList.setIcon(FontIcon.of(Constant.ICON_SHOW));
 					setTableSize(fichierPanel, MAX_HEIGHT_TABLE);
 				}
 			}
 		});
 		header.add(hideCompoList);
 		// Delete Btn
-		JButton delete = new JButton("<html>Supprimer les compositions sélectionnées</html>");
-		delete.setBackground(Color.white);
+		JButton delete = PanelUtils.createJButton("<html>Supprimer les compositions sélectionnées</html>", 200, Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
 			PanelUtils.deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel);
 			updateCompoTable(compositionList);

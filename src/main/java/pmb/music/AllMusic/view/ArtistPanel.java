@@ -4,7 +4,6 @@
 package pmb.music.AllMusic.view;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Toolkit;
@@ -162,9 +161,7 @@ public class ArtistPanel extends JPanel {
 		deletedPanel.add(deleted);
 		header.add(deletedPanel);
 		// SEARCH
-		search = new JButton("Chercher");
-		search.setBackground(Color.white);
-		search.setPreferredSize(new Dimension(150, PanelUtils.PANEL_HEIGHT));
+		search = PanelUtils.createJButton("Rechercher", 150, Constant.ICON_SEARCH);
 		search.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -176,9 +173,7 @@ public class ArtistPanel extends JPanel {
 		});
 		header.add(search);
 		// RESET
-		reset = new JButton("Réinitialiser");
-		reset.setBackground(Color.white);
-		reset.setPreferredSize(new Dimension(150, PanelUtils.PANEL_HEIGHT));
+		reset = PanelUtils.createJButton("Réinitialiser", 150, Constant.ICON_ERASE);
 		reset.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -245,9 +240,7 @@ public class ArtistPanel extends JPanel {
 		// ----- FIN TABLE ----------
 
 		// CSV
-		JButton csv = new JButton("Télécharger la recherche en CSV");
-		csv.setBackground(Color.white);
-		csv.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
+		JButton csv = PanelUtils.createJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			LOG.debug("Start Csv");
 			List<String> c = Arrays

@@ -31,7 +31,7 @@ import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 
 /**
- * Onglet pour lancer des traitements.
+* Onglet pour lancer des traitements.
  * Batchs List: 
  * - Find duplicate compositions: FDC
  * - Find duplicate files: FDF 
@@ -46,7 +46,7 @@ import pmb.music.AllMusic.utils.MyException;
 public class BatchPanel extends JPanel {
 	private static final long serialVersionUID = -7659089306956006760L;
 	private static final Logger LOG = Logger.getLogger(BatchPanel.class);
-	
+
 	/**
 	 * Les messages.
 	 */
@@ -102,7 +102,7 @@ public class BatchPanel extends JPanel {
 		fdcUnmergeable.setSelected(true);
 		PanelUtils.addComponent(fdc, fdcUnmergeableLabel, Component.LEFT_ALIGNMENT, 0);
 		PanelUtils.addComponent(fdc, fdcUnmergeable, Component.LEFT_ALIGNMENT, 100);
-		
+
 		// Checkbox year
 		JLabel fdcYearLabel = new JLabel("Uniquement les fichiers YEAR: ");
 		JCheckBox fdcYear = new JCheckBox();
@@ -110,7 +110,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(fdc, fdcYear, Component.LEFT_ALIGNMENT, 100);
 
 		// Launch Button
-		JButton fdcBtn = new JButton("Go Compositions En Double");
+		JButton fdcBtn = PanelUtils.createJButton("Go Compositions En Double", 200, Constant.ICON_GO);
 		fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
 		fdcBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime());
@@ -130,13 +130,13 @@ public class BatchPanel extends JPanel {
 	 */
 	private void findDuplicateFiles() {
 		JPanel fdf = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
-		
+
 		// Label
 		JLabel fdfLabel = new JLabel("Recherche les fichiers en double: ");
 		PanelUtils.addComponent(fdf, fdfLabel, Component.LEFT_ALIGNMENT, 700);
 
 		// Bouton d'action
-		JButton fdfBtn = new JButton("Go Fichiers En Double");
+		JButton fdfBtn = PanelUtils.createJButton("Go Fichiers En Double", 200, Constant.ICON_GO);
 		fdfBtn.setToolTipText("Cherche les fichiers en double.");
 		fdfBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateFiles: " + MiscUtils.getCurrentTime());
@@ -149,19 +149,19 @@ public class BatchPanel extends JPanel {
 
 		this.add(fdf);
 	}
-	
+
 	/**
 	 * Initialise les composants pour trouver les fichiers txt non importés (MXF).
 	 */
 	private void missingXmlFiles() {
 		JPanel mxf = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
-		
+
 		// Label
 		JLabel mxfLabel = new JLabel("Rechercher les fichiers XML manquant: ");
 		PanelUtils.addComponent(mxf, mxfLabel, Component.LEFT_ALIGNMENT, 700);
-		
+
 		// Bouton d'action
-		JButton mxfBtn = new JButton("Go XML Manquant");
+		JButton mxfBtn = PanelUtils.createJButton("Go XML Manquant", 200, Constant.ICON_GO);
 		mxfBtn.setToolTipText("Cherche si des fichiers txt n'ont pas d'équivalent XML.");
 		mxfBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start missingXML: " + MiscUtils.getCurrentTime());
@@ -171,13 +171,14 @@ public class BatchPanel extends JPanel {
 			}).start();
 		});
 		PanelUtils.addComponent(mxf, mxfBtn, Component.RIGHT_ALIGNMENT, 100);
-		
+
 		this.add(mxf);
 	}
-	
+
 	/**
 	 * Generates csv reports for a specific year.
-	 * @param score 
+	 * 
+	 * @param score
 	 */
 	private void topYear(Score score) {
 		JPanel top = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
@@ -207,12 +208,13 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(top, songLimit, Component.LEFT_ALIGNMENT, 80);
 
 		// Bouton d'action
-		JButton topBtn = new JButton("Go Tops");
+		JButton topBtn = PanelUtils.createJButton("Go Tops", 200, Constant.ICON_GO);
 		topBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start topYear: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
-				fileResult = BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()), Integer.parseInt(yearEndTop.getText()),
-						Integer.parseInt(albumLimit.getText()), Integer.parseInt(songLimit.getText()), score);
+				fileResult = BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()),
+						Integer.parseInt(yearEndTop.getText()), Integer.parseInt(albumLimit.getText()),
+						Integer.parseInt(songLimit.getText()), score);
 				displayText("End topYear: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
@@ -229,7 +231,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(clear, clearLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// Clean history
-		JButton cleanHistory = new JButton("Go Clean Historique");
+		JButton cleanHistory = PanelUtils.createJButton("Go Clean Historique", 200, Constant.ICON_GO);
 		cleanHistory.setToolTipText("Supprime tous les fichiers du dossier d'historique sauf le plus récent.");
 		cleanHistory.addActionListener((ActionEvent arg0) -> {
 			displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
@@ -242,16 +244,16 @@ public class BatchPanel extends JPanel {
 
 		this.add(clear);
 	}
-	
+
 	private void suspicious() {
 		JPanel suspicious = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
-		
+
 		// Label
 		JLabel suspiciousLabel = new JLabel("Trouver des compositions suspectes: ");
 		PanelUtils.addComponent(suspicious, suspiciousLabel, Component.LEFT_ALIGNMENT, 800);
-		
+
 		// suspicious Btn
-		JButton suspiciousBtn = new JButton("Go Compositions Suspectes");
+		JButton suspiciousBtn = PanelUtils.createJButton("Go Compositions Suspectes", 200, Constant.ICON_GO);
 		suspiciousBtn.setToolTipText("Trouve des compositions bizarres");
 		suspiciousBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
@@ -261,19 +263,19 @@ public class BatchPanel extends JPanel {
 			}).start();
 		});
 		PanelUtils.addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
-		
+
 		this.add(suspicious);
 	}
-	
+
 	private void duplicateTitle() {
 		JPanel duplicateTitle = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
-		
+
 		// Label
 		JLabel duplicateTitleLabel = new JLabel("Trouver les chansons aux titres identiques: ");
 		PanelUtils.addComponent(duplicateTitle, duplicateTitleLabel, Component.LEFT_ALIGNMENT, 800);
-		
+
 		// duplicateTitle Btn
-		JButton duplicateTitleBtn = new JButton("Go Same Title");
+		JButton duplicateTitleBtn = PanelUtils.createJButton("Go Same Title", 200, Constant.ICON_GO);
 		duplicateTitleBtn.setToolTipText("Trouve les chansons avec le même titre mais avec l'artiste différent");
 		duplicateTitleBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
@@ -283,7 +285,7 @@ public class BatchPanel extends JPanel {
 			}).start();
 		});
 		PanelUtils.addComponent(duplicateTitle, duplicateTitleBtn, Component.RIGHT_ALIGNMENT, 100);
-		
+
 		this.add(duplicateTitle);
 	}
 
@@ -295,7 +297,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(validate, validateLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// validate Btn
-		JButton validateBtn = new JButton("Go Filename Incorrect");
+		JButton validateBtn = PanelUtils.createJButton("Go Filename Incorrect", 200, Constant.ICON_GO);
 		validateBtn.setToolTipText("Trouve les noms de fichier incorrect");
 		validateBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime());
@@ -308,16 +310,16 @@ public class BatchPanel extends JPanel {
 
 		this.add(validate);
 	}
-	
+
 	private void stats() {
 		JPanel stat = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
-		
+
 		// Label
 		JLabel statLabel = new JLabel("Statistiques: ");
 		PanelUtils.addComponent(stat, statLabel, Component.LEFT_ALIGNMENT, 900);
-		
+
 		// Stat btn
-		JButton statsBtn = new JButton("Go Statistiques");
+		JButton statsBtn = PanelUtils.createJButton("Go Statistiques", 200, Constant.ICON_GO);
 		statsBtn.setToolTipText("Génère des statistiques.");
 		statsBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start statistic: " + MiscUtils.getCurrentTime());
@@ -327,7 +329,7 @@ public class BatchPanel extends JPanel {
 			}).start();
 		});
 		PanelUtils.addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);
-		
+
 		this.add(stat);
 	}
 
@@ -336,7 +338,7 @@ public class BatchPanel extends JPanel {
 	 */
 	private void lastLine() {
 		JPanel lastLine = new JPanel(new GridLayout(0, 2));
-		
+
 		// result
 		JPanel resultPanel = new JPanel(new BorderLayout());
 		resultLabel = new JTextArea();
@@ -353,21 +355,21 @@ public class BatchPanel extends JPanel {
 		// Boutons
 		JPanel btnPanel = new JPanel();
 		// Clear
-		JButton clearBtn = new JButton("Vider la zone de résultat");
+		JButton clearBtn = PanelUtils.createJButton("Vider la zone de résultat", 200, Constant.ICON_ERASE);
 		clearBtn.addActionListener((ActionEvent arg0) -> {
 			resultLabelData = null;
 			displayText("");
 		});
 		btnPanel.add(clearBtn);
 		// Notepad
-		JButton batchFileBtn = new JButton("Ouvrir le fichier de résultat");
+		JButton batchFileBtn = PanelUtils.createJButton("Ouvrir le fichier de résultat", 200, Constant.ICON_TXT_FILE);
 		batchFileBtn.addActionListener((ActionEvent arg0) -> openResultFileInNotepad());
 		btnPanel.add(batchFileBtn);
-		
+
 		lastLine.add(btnPanel);
 		this.add(lastLine);
 	}
-	
+
 	/**
 	 * Ouvrir le fichier de resultat dans notepad.
 	 */
@@ -389,7 +391,7 @@ public class BatchPanel extends JPanel {
 	 */
 	private void displayText(String text) {
 		LOG.debug("Start displayText");
-		if(resultLabelData == null) {
+		if (resultLabelData == null) {
 			resultLabelData = new ArrayList<>();
 		}
 		StringBuilder s = new StringBuilder();
