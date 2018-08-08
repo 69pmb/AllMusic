@@ -595,7 +595,7 @@ public class BatchUtils {
 			c2.setTitre(c1.getTitre());
 			try {
 				CompositionUtils.modifyCompositionsInFiles(tempC2, c1.getArtist(), c1.getTitre(),
-						c1.getRecordType().toString());
+						c1.getRecordType().toString(), isDeleted);
 			} catch (MyException e) {
 				addLine(result, "Erreur modif compo" + e.getMessage(), true);
 				LOG.error("Erreur modif compo", e);
@@ -603,7 +603,7 @@ public class BatchUtils {
 		} else {
 			try {
 				CompositionUtils.modifyCompositionsInFiles(c1, tempC2.getArtist(), tempC2.getTitre(),
-						c1.getRecordType().toString());
+						c1.getRecordType().toString(), isDeleted);
 			} catch (MyException e) {
 				addLine(result, "Erreur modif compo" + e.getMessage(), true);
 				LOG.error("Erreur modif compo", e);
