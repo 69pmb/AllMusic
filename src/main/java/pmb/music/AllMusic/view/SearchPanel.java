@@ -620,7 +620,7 @@ public class SearchPanel extends JPanel {
 		try {
 			toModif.setDeleted(isDeleted);
 			CompositionUtils.modifyCompositionsInFiles(toModif, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
-					v.get(INDEX_TYPE));
+					v.get(INDEX_TYPE), isDeleted);
 		} catch (MyException e1) {
 			String log = "Erreur lors de la modification d'une composition";
 			LOG.error(log, e1);
