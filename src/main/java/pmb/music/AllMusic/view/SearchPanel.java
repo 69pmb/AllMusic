@@ -50,6 +50,8 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -64,8 +66,6 @@ import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -226,9 +226,7 @@ public class SearchPanel extends JPanel {
 			}
 		};
 
-		search = new JButton("Chercher");
-		search.setBackground(Color.white);
-		search.setPreferredSize(new Dimension(220, PanelUtils.PANEL_HEIGHT));
+		search = PanelUtils.createJButton("Rechercher", 220, Constant.ICON_SEARCH);
 		search.addActionListener(searchAction);
 		search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW)
 				.put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0), "Enter_pressed");
@@ -248,9 +246,7 @@ public class SearchPanel extends JPanel {
 		top.add(inFilesPanel);
 
 		// Clear Btn
-		JButton clear = new JButton("Réinitialiser recherche");
-		clear.setBackground(Color.white);
-		clear.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
+		JButton clear = PanelUtils.createJButton("Réinitialiser recherche", 200, Constant.ICON_ERASE);
 		AbstractAction cleanAction = new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -264,9 +260,8 @@ public class SearchPanel extends JPanel {
 		top.add(clear);
 
 		// Delete Btn
-		JButton delete = new JButton("Supprimer les compositions sélectionnées");
-		delete.setBackground(Color.white);
-		delete.setPreferredSize(new Dimension(300, PanelUtils.PANEL_HEIGHT));
+		JButton delete = PanelUtils.createJButton("Supprimer les compositions sélectionnées", 300,
+				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
 			PanelUtils.deleteCompositionAction(artist2, compoResult, model.getSelected(), deleteLabel);
 			updateTable();
@@ -274,16 +269,13 @@ public class SearchPanel extends JPanel {
 		top.add(delete);
 
 		// Modif Btn
-		JButton modif = new JButton("Modifier la composition sélectionnée");
-		modif.setBackground(Color.white);
-		modif.setPreferredSize(new Dimension(300, PanelUtils.PANEL_HEIGHT));
+		JButton modif = PanelUtils.createJButton("Modifier la composition sélectionnée", 300, Constant.ICON_EDIT);
 		modif.addActionListener((ActionEvent e) -> modifAction(artist2));
 		top.add(modif);
 
 		// CSV
-		JButton csv = new JButton("Télécharger le résultat de la recherche en CSV");
-		csv.setBackground(Color.white);
-		csv.setPreferredSize(new Dimension(300, PanelUtils.PANEL_HEIGHT));
+		JButton csv = PanelUtils.createJButton("Télécharger le résultat de la recherche en CSV", 300,
+				Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
 					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),

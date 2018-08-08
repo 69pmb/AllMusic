@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.regex.Pattern;
 
 import org.codehaus.plexus.util.FileUtils;
+import org.kordamp.ikonli.fontawesome.FontAwesome;
 
 /**
  * Classe de constances.
@@ -199,6 +200,25 @@ public class Constant {
 	public static final BigDecimal SCORE_LIMIT_ARTIST_FUSION = BigDecimal.valueOf(0.95D);
 
 	public static final BigDecimal SCORE_LIMIT_SEARCH = BigDecimal.valueOf(0.92D);
+
+	// ICONS //
+	public static final FontAwesome ICON_SEARCH = FontAwesome.SEARCH;
+	public static final FontAwesome ICON_ERASE = FontAwesome.ERASER;
+	public static final FontAwesome ICON_DELETE = FontAwesome.TRASH;
+	public static final FontAwesome ICON_EDIT = FontAwesome.PENCIL;
+	public static final FontAwesome ICON_HIDE = FontAwesome.MINUS_SQUARE;
+	public static final FontAwesome ICON_SHOW = FontAwesome.PLUS_SQUARE;
+	public static final FontAwesome ICON_FOLDER = FontAwesome.FOLDER_OPEN_O;
+	public static final FontAwesome ICON_FILE = FontAwesome.FILE_O;
+	public static final FontAwesome ICON_TXT_FILE = FontAwesome.FILE_TEXT_O;
+	public static final FontAwesome ICON_XML_FILE = FontAwesome.FILE_CODE_O;
+	public static final FontAwesome ICON_REFRESH = FontAwesome.REFRESH;
+	public static final FontAwesome ICON_UPLOAD = FontAwesome.UPLOAD;
+	public static final FontAwesome ICON_DOWNLOAD = FontAwesome.DOWNLOAD;
+	public static final FontAwesome ICON_CLEAN = FontAwesome.PAINT_BRUSH;
+	public static final FontAwesome ICON_ALIGN = FontAwesome.ALIGN_LEFT;
+	public static final FontAwesome ICON_FUSION = FontAwesome.MAGIC;
+	public static final FontAwesome ICON_GO = FontAwesome.PLAY;
 
 	public Constant() {
 		// Nothing to do
