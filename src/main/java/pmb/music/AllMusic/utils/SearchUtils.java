@@ -192,7 +192,7 @@ public class SearchUtils {
 			result = result && fi.getPublishYear() == Integer.parseInt(publish);
 		}
 		if (result && StringUtils.isNotBlank(fileName)) {
-			result = result && compareString(fi.getFileName(), fileName, searchMethod, jaro);
+			result = result && compareString(fileName, fi.getFileName(), searchMethod, jaro);
 		}
 		if (result && StringUtils.isNotBlank(auteur)) {
 			result = result && compareString(fi.getAuthor(), auteur, searchMethod, jaro);
