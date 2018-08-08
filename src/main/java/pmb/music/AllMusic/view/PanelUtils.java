@@ -18,6 +18,7 @@ import java.util.Vector;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
+import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -30,6 +31,8 @@ import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 
 import org.apache.log4j.Logger;
+import org.kordamp.ikonli.fontawesome.FontAwesome;
+import org.kordamp.ikonli.swing.FontIcon;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -281,6 +284,13 @@ public class PanelUtils {
 		component.setAlignmentY(Component.CENTER_ALIGNMENT);
 		panel.add(component);
 		panel.add(Box.createRigidArea(new Dimension(rigidSize, 0)));
+	}
+
+	public static JButton createJButton(String label, int width, FontAwesome icon) {
+		JButton btn = new JButton(label, FontIcon.of(icon));
+		btn.setBackground(Color.white);
+		btn.setPreferredSize(new Dimension(width, PanelUtils.PANEL_HEIGHT));
+		return btn;
 	}
 
 	public static void setBorder(JComponent comp, Color c) {

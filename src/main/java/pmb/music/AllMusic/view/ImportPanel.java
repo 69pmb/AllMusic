@@ -494,19 +494,22 @@ public class ImportPanel extends JPanel {
 	 */
 	private void insertBottomPanel(final ArtistPanel artist) {
 		JPanel bottom = new JPanel();
-		JButton importFile = new JButton("Importer le fichier");
+		
+		// Import
+		JButton importFile = PanelUtils.createJButton("Importer le fichier", 200, Constant.ICON_UPLOAD);
 		importFile.setToolTipText("Importe au format XML le fichier chargé précédemment avec les critères renseignés.");
 		importFile.addActionListener((ActionEvent arg0) -> importFileAction());
 		bottom.add(importFile);
 
-		JButton cleanFile = new JButton("Nettoyer le fichier");
+		// Clean
+		JButton cleanFile = PanelUtils.createJButton("Nettoyer le fichier", 200, Constant.ICON_CLEAN);
 		cleanFile.setToolTipText(
 				"Supprime les lignes qui ne contiennent pas le séparateur. Supprime également les charactères à supprimer.");
 		cleanFile.addActionListener((ActionEvent arg0) -> cleanFileAction());
 		bottom.add(cleanFile);
 
 		// Mise en forme
-		JButton mef = new JButton("Mettre en forme un fichier ou dossier");
+		JButton mef = PanelUtils.createJButton("Mettre en forme un fichier ou dossier", 250, Constant.ICON_ALIGN);
 		mef.setToolTipText("Pour supprimer les diacritiques et remplacer des charactères spéciaux.");
 		mef.addActionListener((ActionEvent arg0) -> {
 			result = new LinkedList<>(
@@ -520,7 +523,8 @@ public class ImportPanel extends JPanel {
 		});
 		bottom.add(mef);
 
-		JButton fusionFile = new JButton("Fusionner tous les fichiers");
+		// Fusion
+		JButton fusionFile = PanelUtils.createJButton("Fusionner tous les fichiers", 200, Constant.ICON_FUSION);
 		fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
 		fusionFile.addActionListener((ActionEvent arg0) -> {
 			try {
@@ -533,19 +537,19 @@ public class ImportPanel extends JPanel {
 		bottom.add(fusionFile);
 
 		// Ouvre le fichier d'entrée dans notepad
-		JButton openFile = new JButton("Éditer le fichier source");
+		JButton openFile = PanelUtils.createJButton("Ouvrir le fichier source", 200, Constant.ICON_TXT_FILE);
 		openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
 		openFile.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileTxt));
 		bottom.add(openFile);
 
 		// Ouvre le fichier xml dans notepad
-		JButton openXml = new JButton("Éditer le fichier xml");
+		JButton openXml = PanelUtils.createJButton("Ouvrir le fichier xml", 200, Constant.ICON_XML_FILE);
 		openXml.setToolTipText("Ouvre le fichier XML généré dans Notepad++");
 		openXml.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileXml));
 		bottom.add(openXml);
 
 		// Ouvre le fichier de log
-		JButton log = new JButton("Logs");
+		JButton log = PanelUtils.createJButton("Logs", 200, Constant.ICON_TXT_FILE);
 		log.setToolTipText("Ouvre le fichier de logs dans Notepad++");
 		log.addActionListener((ActionEvent arg0) -> openFileNotepad(Constant.FILE_LOG_PATH));
 		bottom.add(log);
@@ -559,9 +563,7 @@ public class ImportPanel extends JPanel {
 	 */
 	private void insertTopPanel() {
 		JPanel top = new JPanel();
-		JButton browse = new JButton("Parcourir");
-		browse.setBackground(Color.white);
-		browse.setPreferredSize(new Dimension(220, PanelUtils.PANEL_HEIGHT));
+		JButton browse = PanelUtils.createJButton("Parcourir", 220, Constant.ICON_FOLDER);
 		browse.setToolTipText("Charge un fichier texte contenant des musiques.");
 		browse.addActionListener((ActionEvent arg0) -> {
 			LOG.debug("Start browse");
@@ -574,25 +576,20 @@ public class ImportPanel extends JPanel {
 		top.add(browse);
 
 		// Reset
-		JButton cleanBtn = new JButton("Reset");
-		cleanBtn.setBackground(Color.white);
-		cleanBtn.setPreferredSize(new Dimension(220, PanelUtils.PANEL_HEIGHT));
+		JButton cleanBtn = PanelUtils.createJButton("Reset", 220, Constant.ICON_ERASE);
 		cleanBtn.setToolTipText("Remet à zéro tous les champs.");
 		cleanBtn.addActionListener((ActionEvent arg0) -> resetAll());
 		top.add(cleanBtn);
 
 		// Reload
-		JButton reloadBtn = new JButton("Reload");
-		reloadBtn.setBackground(Color.white);
-		reloadBtn.setPreferredSize(new Dimension(220, PanelUtils.PANEL_HEIGHT));
+		JButton reloadBtn = PanelUtils.createJButton("Reload", 220, Constant.ICON_REFRESH);
 		reloadBtn.setToolTipText(
 				"Relance le chargement du fichier chargé précédemment. Utile si il a été modifié entre temps.");
 		reloadBtn.addActionListener((ActionEvent arg0) -> loadFile());
 		top.add(reloadBtn);
 
-		JButton open = new JButton("Charger un fichier XML");
-		open.setBackground(Color.white);
-		open.setPreferredSize(new Dimension(220, PanelUtils.PANEL_HEIGHT));
+		// Open Xml file
+		JButton open = PanelUtils.createJButton("Charger un fichier XML", 220, Constant.ICON_FILE);
 		open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
 		open.addActionListener((ActionEvent arg0) -> {
 			LOG.debug("Start open");
