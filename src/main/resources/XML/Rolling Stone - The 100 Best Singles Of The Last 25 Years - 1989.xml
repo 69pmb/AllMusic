@@ -253,7 +253,7 @@
   <Composition artist="Elton John" titre="Your Song" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="84" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Procul Harum" titre="A Whiter Shade Of Pale" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Procul Harum" titre="A Whiter Shade Of Pale" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="85" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Byrds" titre="Mr. Tambourine Man" type="SONG" canBeMerged="true" deleted="false">
