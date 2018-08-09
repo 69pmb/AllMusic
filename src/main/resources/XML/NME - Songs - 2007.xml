@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Rihanna" titre="Umbrella [And Jay-Z]" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Glasvegas" titre="Daddy's Gone" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="2" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="The Cribs" titre="Men's Needs" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="3" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Rihanna" titre="Umbrella" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="5" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Foals" titre="Mathletics" type="SONG" canBeMerged="true" deleted="false">
@@ -45,6 +51,9 @@
   </Composition>
   <Composition artist="The Horrors" titre="She Is The New Thing" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="40" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="MIA" titre="Boyz" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="41" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="The Enemy" titre="It's Not OK" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="42" creationDate="27/07/2017 13:27:28" size="50"/>

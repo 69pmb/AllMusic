@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="The Jam" titre="Going Underground" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="2" creationDate="13/08/2017 04:25:08" size="50"/>
+  </Composition>
   <Composition artist="The Beat" titre="Mirror In The Bathroom" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="3" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
