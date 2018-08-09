@@ -4,7 +4,7 @@
   <Composition artist="Nina Simone" titre="Black is the color of my true love's hair" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="199" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Dionne Warwick" titre="Walk on by" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Dionne Warwick" titre="Walk on by" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="198" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Charles Mingus" titre="Solo dancer" type="SONG" canBeMerged="true" deleted="false">
@@ -13,7 +13,7 @@
   <Composition artist="Irma Thomas" titre="Time is on my side" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="196" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="James Brown" titre="Night Train" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="James Brown" titre="Night train (Live at the Apollo)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="195" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="The Foundations" titre="Build me up buttercup" type="SONG" canBeMerged="true" deleted="false">
@@ -61,7 +61,7 @@
   <Composition artist="Bembeya Jazz National" titre="Armee guineenne" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="179" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Otis Redding" titre="I've Been Loving You So Long" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Otis Redding" titre="I've been loving you too long (To stop now)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="178" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="The Tammys" titre="Egyptian shumba" type="SONG" canBeMerged="true" deleted="false">
@@ -82,10 +82,10 @@
   <Composition artist="Neil Diamond" titre="Sweet Caroline" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="171" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Francoise Hardy" titre="Tous les garcons et les filles" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Francoise Hardy" titre="Tous les garcons et les filles" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="170" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Stevie Wonder" titre="Uptight (Everything's Alright)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Stevie Wonder" titre="Uptight (Everything's alright)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="169" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Albert Ayler" titre="Ghosts" type="SONG" canBeMerged="true" deleted="false">
@@ -99,6 +99,9 @@
   </Composition>
   <Composition artist="The Monks" titre="Monk time" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="165" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Frank Sinatra" titre="It was a very good year" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="164" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Cromagnon" titre="Caledonia" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="163" creationDate="25/01/2017 10:01:39" size="200"/>
@@ -117,6 +120,9 @@
   </Composition>
   <Composition artist="Loretta Lynn" titre="Fist city" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="156" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="The Kingsmen" titre="Louie Louie" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="154" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Lorraine Ellison" titre="Stay with me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="153" creationDate="25/01/2017 10:01:39" size="200"/>
@@ -151,7 +157,7 @@
   <Composition artist="Scott Walker" titre="Big Louise" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="143" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Procol Harum" titre="A whiter shade of pale" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Procol Harum" titre="A whiter shade of pale" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="142" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="The Supremes" titre="Baby love" type="SONG" canBeMerged="true" deleted="false">
@@ -159,6 +165,9 @@
   </Composition>
   <Composition artist="The Impressions" titre="People get ready" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="139" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="The Righteous Brothers" titre="Unchained melody" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="138" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="The Dixie Cups" titre="Iko iko" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="137" creationDate="25/01/2017 10:01:39" size="200"/>
@@ -190,7 +199,7 @@
   <Composition artist="Patsy Cline" titre="I fall to pieces" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="122" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="121" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="? And The Mysterians" titre="96 Tears" type="SONG" canBeMerged="true" deleted="false">
@@ -220,14 +229,20 @@
   <Composition artist="The Four Tops" titre="It's the same old song" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="110" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
+  <Composition artist="The Byrds" titre="Eight miles high" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="109" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
   <Composition artist="Harry Nilsson" titre="One" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="108" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Visions of Johanna" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="107" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Desmond Dekker" titre="007 (Shanty Town)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Desmond Dekker And The Aces" titre="007 (Shanty Town)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="106" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Simon And Garfunkel" titre="America" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="105" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Merle Haggard" titre="Mama tried" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="103" creationDate="25/01/2017 10:01:39" size="200"/>
@@ -262,8 +277,11 @@
   <Composition artist="Roy Orbison" titre="Crying" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="85" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Neil Young" titre="Down By The River" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Neil Young And Crazy Horse" titre="Down by the River" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="83" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Elvis Presley" titre="Suspicious Minds" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="82" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Sam And Dave" titre="Hold On, I'm Comin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="81" creationDate="25/01/2017 10:01:39" size="200"/>
@@ -277,20 +295,29 @@
   <Composition artist="BBC Radiophonic Workshop" titre="Doctor Who (Original Theme)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="76" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="James Brown" titre="Papa's Got A Brand New Bag" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="James Brown And the Famous Flames" titre="Papa's Got a Brand New Bag" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="74" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Don't Think Twice, It's All Right" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="73" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Van Morrison" titre="Sweet Thing" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="72" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
+  <Composition artist="Jimi Hendrix" titre="Manic Depression" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="71" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
   <Composition artist="Patsy Cline" titre="Crazy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="70" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Dick Dale" titre="Miserlou" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dick Dale And the Del-Tones" titre="Misirlou" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="69" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="The Shirelles" titre="Will You Love Me Tomorrow" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="68" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Neil Young And Crazy Horse" titre="Cinnamon Girl" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="67" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="The Paragons" titre="The Tide Is High" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="66" creationDate="25/01/2017 10:01:39" size="200"/>
@@ -298,7 +325,7 @@
   <Composition artist="Del Shannon" titre="Runaway" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="64" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Stan Getz and Joao Gilberto" titre="The Girl From Ipanema" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Stan Getz And Joao Gilberto And Antonio Carlos Jobim" titre="The Girl From Ipanema" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="63" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="The Supremes" titre="You Keep Me Hangin' On" type="SONG" canBeMerged="true" deleted="false">
@@ -313,10 +340,13 @@
   <Composition artist="The Monkees" titre="Daydream Believer" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="54" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Ike And Tina Turner" titre="River Deep Mountain High" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Ray Charles" titre="Georgia on My Mind" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="52" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Ike And Tina Turner" titre="River Deep Mountain High" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="51" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Love" titre="Alone Again Or" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Love" titre="Alone Again Or" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="50" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Lee Hazlewood And Nancy Sinatra" titre="Some Velvet Morning" type="SONG" canBeMerged="true" deleted="false">
@@ -325,8 +355,17 @@
   <Composition artist="The Creation" titre="Making Time" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="46" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
+  <Composition artist="Dusty Springfield" titre="Son of a Preacher Man" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="45" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="The Supremes" titre="Where Did Our Love Go" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="44" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
   <Composition artist="Vince Guaraldi Trio" titre="Linus And Lucy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="43" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="The Band" titre="The Night They Drove Old Dixie Down" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="42" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="The Meters" titre="Cissy Strut" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="38" creationDate="25/01/2017 10:01:39" size="200"/>
@@ -334,11 +373,20 @@
   <Composition artist="13th Floor Elevators" titre="You're Gonna Miss Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="36" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="James Brown" titre="It's A Man's Man's Man's World" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="James Brown And the Famous Flames" titre="It's a Man's Man's Man's World" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="33" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Ennio Morricone" titre="The Good, the Bad, and the Ugly (Main Theme)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="32" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Nico" titre="These Days" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="31" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Otis Redding" titre="(Sittin' on) The Dock of the Bay" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="28" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="The Supremes" titre="You Can't Hurry Love" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="24" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Etta James" titre="At Last" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="23" creationDate="25/01/2017 10:01:39" size="200"/>
@@ -349,10 +397,16 @@
   <Composition artist="Aretha Franklin" titre="Think" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="15" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Desmond Dekker" titre="Israelites" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Dazed and Confused" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="11" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Desmond Dekker And The Aces" titre="Israelites" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="10" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Johnny Cash" titre="Folsom Prison Blues (Live at Folsom Prison)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="8" creationDate="25/01/2017 10:01:39" size="200"/>
+  </Composition>
+  <Composition artist="Sam Cooke" titre="A Change Is Gonna Come" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1960s - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="3" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
 </ListCompositions>
