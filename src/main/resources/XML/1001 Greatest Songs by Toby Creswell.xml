@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Leonard Cohen" titre="Bird On A Wire" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="1" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Cream" titre="Tales Of Brave Ulysses" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="2" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -27,6 +30,9 @@
   </Composition>
   <Composition artist="Bobby Brown" titre="My Perogative" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="11" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Simon And Garfunkel" titre="America" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="12" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Chet Baker" titre="Let's Get Lost" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="14" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -67,7 +73,7 @@
   <Composition artist="Wilson Pickett" titre="In The Midnight Hour" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="32" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="NWA" titre="Fuck tha Police" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="NWA" titre="F*** The Police" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="33" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Sheryl Crow" titre="All I Wanna Do" type="SONG" canBeMerged="true" deleted="false">
@@ -85,7 +91,7 @@
   <Composition artist="Badly Drawn Boy" titre="Stone On The Water" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="39" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Mystery Train" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Elvis Presley" titre="Mystery Train" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="40" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Leonard Cohen" titre="Tower Of Song" type="SONG" canBeMerged="true" deleted="false">
@@ -102,6 +108,9 @@
   </Composition>
   <Composition artist="Al Green" titre="Let's Stay Together" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="46" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Janis Joplin" titre="Summertime" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="47" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Yoko Ono" titre="Walking On Thin Ice" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="48" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -121,6 +130,9 @@
   <Composition artist="John Lennon" titre="Cold Turkey" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="54" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Elvis Presley" titre="Heartbreak Hotel" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="55" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="ABBA" titre="Dancing Queen" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="56" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -133,10 +145,16 @@
   <Composition artist="The dBs" titre="Black And White" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="61" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Elvis Presley" titre="Suspicious Minds" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="62" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Everything But The Girl" titre="Before Today" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="63" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Jackie Wilson" titre="(Your Love Keeps Lifting Me) Higher and Higher" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Avalanches" titre="Since I Left You" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="64" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Jackie Wilson" titre="Higher and Higher" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="65" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Boz Scaggs" titre="Lowdown" type="SONG" canBeMerged="true" deleted="false">
@@ -214,7 +232,10 @@
   <Composition artist="Steve Earle" titre="I Still Carry You Around" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="95" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Dion" titre="Runaround Sue" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Chemical Brothers" titre="Setting Sun" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="97" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Dion And The Belmonts" titre="Runaround Sue" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="98" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Band" titre="Rag Mama Rag" type="SONG" canBeMerged="true" deleted="false">
@@ -250,6 +271,9 @@
   <Composition artist="James Brown" titre="Please, Please, Please" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="114" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Jimi Hendrix" titre="Crosstown Traffic" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="117" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Townes Van Zandt" titre="Tecumseh Valley" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="118" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -258,6 +282,12 @@
   </Composition>
   <Composition artist="Aerosmith" titre="Janie's Got A Gun" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="120" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Fiona Apple" titre="Sleep To Dream" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="121" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Rolling Stones" titre="Moonlight Mile" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="124" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Elvis Costello" titre="Pills And Soap" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="125" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -280,6 +310,9 @@
   <Composition artist="Laurie Anderson" titre="O Superman (for Massenet)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="133" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Primal Scream" titre="Loaded" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="134" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Freelance Hellraiser" titre="Smells Like Booty" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="136" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -295,11 +328,17 @@
   <Composition artist="George Michael" titre="I Want Your Sex" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="140" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="The Byrds" titre="Eight Miles HIGH" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="141" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Kris Kristofferson" titre="Sunday Morning Coming Down" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="142" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Aimee Mann" titre="I Could Hurt You Now" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="144" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Jam" titre="That's Entertainment" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="145" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Kirsty MacColl" titre="He's On The Beach" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="147" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -318,6 +357,9 @@
   </Composition>
   <Composition artist="Emmy Lou Harris" titre="Sin City" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="152" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Black Sabbath" titre="Iron Man" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="153" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Gang Starr" titre="Take It Personal" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="155" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -339,6 +381,9 @@
   </Composition>
   <Composition artist="Richard And Linda Thompson" titre="When I Get To The Border" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="163" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Stone Roses" titre="Fool's Gold" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="164" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Rickie Lee Jones" titre="Chuck E's In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="165" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -415,7 +460,7 @@
   <Composition artist="Arthur Brown" titre="Fire" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="199" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Coolio" titre="Gangsta's Paradise (And L.V.)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Coolio" titre="Gansta's Paradise" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="200" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Jam" titre="Down In The Tube Station at Midnight" type="SONG" canBeMerged="true" deleted="false">
@@ -448,7 +493,7 @@
   <Composition artist="Max Roach" titre="Driva Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="213" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Soul II Soul" titre="Back to Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Soul II Soul" titre="Back To Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="215" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Boz Scaggs" titre="Loan Me A Dime" type="SONG" canBeMerged="true" deleted="false">
@@ -472,7 +517,7 @@
   <Composition artist="The Band" titre="Bessie Smith" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="223" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Madonna" titre="Like A Prayer" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Madonna" titre="Like A Prayer" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="224" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="John Barry" titre="James Bond Theme" type="SONG" canBeMerged="true" deleted="false">
@@ -493,13 +538,16 @@
   <Composition artist="Elliot Smith" titre="Miss Misery" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="233" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="The Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="234" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Bjork" titre="Big Time Sensuality" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="235" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Randy Newman" titre="I Think It's Going To Rain Today" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="236" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Buddy Holly" titre="Peggy Sue" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Buddy Holly" titre="Peggy Sue" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="237" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Beastie Boys" titre="Hey Ladies" type="SONG" canBeMerged="true" deleted="false">
@@ -532,6 +580,9 @@
   <Composition artist="Julie London" titre="Cry Me A River" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="255" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="The Rolling Stones" titre="Happy" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="257" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Jackie Brenston" titre="Rocket 88" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="258" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -552,6 +603,9 @@
   </Composition>
   <Composition artist="Kelis" titre="Caught Out There" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="266" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Gene Vincent" titre="Be-Bop-A-Lula" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="268" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Janis Joplin" titre="Ball And Chain" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="269" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -589,6 +643,9 @@
   <Composition artist="The Memphis Jug Band" titre="Stealin' Stealin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="281" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="David Bowie" titre="Suffragette City" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="282" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Roxy Music" titre="A Song For Europe" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="283" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -601,7 +658,7 @@
   <Composition artist="Robert Palmer" titre="Sneakin' Sally Through The Alley" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="287" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Madonna" titre="Into The Groove" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Madonna" titre="Into The Groove" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="290" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Monkees" titre="Goin' Down" type="SONG" canBeMerged="true" deleted="false">
@@ -613,11 +670,17 @@
   <Composition artist="Elvis Costello" titre="Radio Radio" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="293" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="David Bowie" titre="Young Americans" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="294" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Hunters And Collectors" titre="Say Goodbye" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="298" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Lipstick Killers" titre="Hindu Gods Of Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="301" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Clash" titre="Police And Thieves" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="303" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Gang of Four" titre="Anthrax" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="304" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -628,8 +691,14 @@
   <Composition artist="Creedence Clearwater Revival" titre="Susie Q" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="306" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="The Beatles" titre="I Me Mine" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="308" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Carole King" titre="I Feel The Earth Move" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="309" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="310" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Hot Tuna" titre="Keep Your Lamps Trimmed and Burning" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="311" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -646,6 +715,9 @@
   <Composition artist="Anita Baker" titre="Caught Up In The Rapture" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="316" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Neil Young" titre="Cinnamon Girl" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="317" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Big Country" titre="In A Big Country" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="318" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -661,7 +733,7 @@
   <Composition artist="Pink Floyd" titre="Interstellar Overdrive" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="322" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign o' The Times" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Prince" titre="Sign o' The Times" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="325" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Steve Earle" titre="John Walker's Blues" type="SONG" canBeMerged="true" deleted="false">
@@ -672,6 +744,9 @@
   </Composition>
   <Composition artist="Big Star" titre="In The Street" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="328" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="You Really Got A Hold On Me" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="330" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Daniel And Bono Lanois" titre="Falling At Your Feet" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="331" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -700,6 +775,9 @@
   <Composition artist="Casey Chambers" titre="The Captain" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="342" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="The Pretenders" titre="Brass In Pocket" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="343" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Bruce Springsteen" titre="Highway Patrolman" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="344" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -714,6 +792,9 @@
   </Composition>
   <Composition artist="Jim Carroll" titre="People Who Died" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="351" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Johnny Thunders" titre="You Can't Put Your Arms Around A Memory" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="352" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="I Threw It All Away" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="353" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -766,6 +847,9 @@
   <Composition artist="Neil Young" titre="Cortez The Killer" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="372" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Iggy Pop" titre="Lust For Life" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="374" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Daddy Cool" titre="Eagle Rock" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="375" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -778,11 +862,17 @@
   <Composition artist="Moses McHunu" titre="Qhwayilahle (Leave Him Alone)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="378" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Bruce Springsteen" titre="Thunder Road" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="379" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="The Birthday Party" titre="King Ink" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="380" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Reels" titre="Quasimodo's Dream" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="381" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Dire Straits" titre="Sultans Of Swing" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="383" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Yes" titre="I've Seen All Good People" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="384" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -849,6 +939,9 @@
   </Composition>
   <Composition artist="Rodriguez" titre="Sugar Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="415" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Jam" titre="In The City" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="419" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Go-Betweens" titre="Love Goes On!" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="420" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -925,7 +1018,7 @@
   <Composition artist="Roberta Flack" titre="Killing Me Softly With His Song" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="449" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="450" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Frank Sinatra" titre="My Funny Valentine" type="SONG" canBeMerged="true" deleted="false">
@@ -934,7 +1027,7 @@
   <Composition artist="Duke Ellington" titre="Take The 'A' Train" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="452" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Grandmaster Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Grandmaster Flash And The Furious Five" titre="The Message" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="453" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="David Bromberg" titre="Statesboro Blues/Church Bell Blues" type="SONG" canBeMerged="true" deleted="false">
@@ -955,8 +1048,14 @@
   <Composition artist="Bruce Cockburn" titre="Lovers In A Dangerous TIME" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="460" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Elvis Presley" titre="Hound Dog" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="461" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Bob Dylan" titre="Forever Young" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="463" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Leonard Cohen" titre="Chelsea Hotel #2" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="464" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Miles Davis" titre="So What" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="465" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -967,7 +1066,7 @@
   <Composition artist="Curtis Mayfield" titre="Move On Up" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="467" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="468" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Steve Earle" titre="Copperhead Road" type="SONG" canBeMerged="true" deleted="false">
@@ -982,13 +1081,13 @@
   <Composition artist="Soft Cell" titre="Tainted Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="473" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="M/A/R/R/S" titre="Pump Up The Volume" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="M/A/R/R/S" titre="Pump Up The Volume" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="474" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Luscious Jackson" titre="Naked Eye" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="475" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Ike And Tina Turner" titre="River Deep, Mountain HIGH" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Ike And Tina Turner" titre="River Deep, Mountain HIGH" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="476" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="The Lonesome Death of Hattie Carroll" type="SONG" canBeMerged="true" deleted="false">
@@ -1024,7 +1123,7 @@
   <Composition artist="Howlin' Wolf" titre="Killing Floor" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="488" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="The Band" titre="King Harvest (Has Surely Come)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Band" titre="King Harvest (Will Surely Come)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="489" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Bonnie Raitt" titre="I Thought I Was A Child" type="SONG" canBeMerged="true" deleted="false">
@@ -1038,6 +1137,9 @@
   </Composition>
   <Composition artist="Ella Fitzgerald" titre="Night And Day" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="494" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Trashmen" titre="Surfin' Bird" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="495" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="MC5" titre="Sister Anne" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="496" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1062,6 +1164,9 @@
   </Composition>
   <Composition artist="John Prine" titre="Sam Stone" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="504" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Small Faces" titre="Lazy Sunday" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="505" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Toots and the Maytals" titre="Pressure DROP" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="506" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1102,6 +1207,9 @@
   <Composition artist="Elvis Presley" titre="In The Ghetto" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="521" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Aretha Franklin" titre="Respect" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="522" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Crowded House" titre="Weather With You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="523" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -1126,6 +1234,9 @@
   <Composition artist="Irma Thomas" titre="Ruler Of My Heart" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="533" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="The Allman Brothers Band" titre="Ramblin' Man" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="534" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="The Style Council" titre="My Ever Changing Moods" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="535" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -1138,8 +1249,14 @@
   <Composition artist="Cheap Trick" titre="Surrender" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="538" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Bob Dylan" titre="Tangled Up In Blue" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="539" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Santana" titre="Oye Como Va" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="540" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Prince" titre="When Doves Cry" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="541" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Everly Brothers" titre="Bye Bye Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="543" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1167,6 +1284,12 @@
   </Composition>
   <Composition artist="Bobbie Gentry" titre="Ode To Billie Joe" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="553" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Kate Bush" titre="Running Up That Hill (A Deal With God)" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="554" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Derek And The Dominoes" titre="Layla" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="555" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The SOS Band" titre="Just Be Good To Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="556" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1234,6 +1357,9 @@
   <Composition artist="Del Shannon" titre="Runaway" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="583" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Beck" titre="Where It's At" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="585" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Al Green" titre="Take Me To The River" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="586" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -1245,6 +1371,9 @@
   </Composition>
   <Composition artist="Bill And The Comets Haley" titre="Rock Around The Clock" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="590" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Righteous Brothers" titre="You've Lost That Lovin' Feeling" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="591" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Alanis Morissette" titre="You Oughta Know" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="592" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1269,6 +1398,9 @@
   </Composition>
   <Composition artist="The Pogues" titre="Fairytale Of New York" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="599" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Jimi Hendrix" titre="Little Wing" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="600" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Jefferson Airplane" titre="We Can Be Together" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="601" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1311,6 +1443,12 @@
   </Composition>
   <Composition artist="The Bee Gees" titre="Stayin' Alive" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="621" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Otis Redding" titre="(Sittin' On) The Dock Of The Bay" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="623" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="The Smashing Pumpkins" titre="Bullet With Butterfly Wings" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="625" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Professor Longhair" titre="Tipitina" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="626" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1393,14 +1531,23 @@
   <Composition artist="Loudon III Wainwright" titre="Motel Blues" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="660" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Hole" titre="Doll Parts" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="661" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="The Mamas And The Papas" titre="Dream A Little Dream Of Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="662" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Nina Simone" titre="Mississippi Goddam" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="663" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Radiohead" titre="Fake Plastic Trees" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="664" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="The Shirelles" titre="Will You Love Me Tomorrow?" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="665" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Kraftwerk" titre="Trans-Europe Express" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="666" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Bo Diddley" titre="Who Do You Love?" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="667" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1432,6 +1579,9 @@
   <Composition artist="Eminem" titre="My Name IS" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="683" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Kate Bush" titre="Wuthering Heights" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="684" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Gene Pitney" titre="Town Without Pity" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="685" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -1456,16 +1606,22 @@
   <Composition artist="Paul And The Messengers Kelly" titre="From Little Things Big Things Grow" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="693" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="The Beach Boys" titre="Surf's Up" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="694" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Nick Drake" titre="Hazey Jane II" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="695" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="James Brown" titre="Lost Someone" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="697" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Nico" titre="These Days" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="698" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Tom Waits" titre="Innocent When You Dream (78)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="700" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Genesis" titre="The Lamb Lies Down on Broadway" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Genesis" titre="The Lamb Lie Diwn On Broadway" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="701" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Loretta Lynn" titre="Coal Miner's Daughter" type="SONG" canBeMerged="true" deleted="false">
@@ -1510,7 +1666,7 @@
   <Composition artist="Tori Amos" titre="Cornflake Girl" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="718" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="The Human League" titre="Don't You Want Me" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="The Human League" titre="Don't You Want Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="720" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Randy Newman" titre="Sail Away" type="SONG" canBeMerged="true" deleted="false">
@@ -1531,7 +1687,7 @@
   <Composition artist="Bobby Fuller" titre="I Fought The Law" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="727" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="728" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Rick James" titre="Super Freak" type="SONG" canBeMerged="true" deleted="false">
@@ -1587,6 +1743,9 @@
   </Composition>
   <Composition artist="Patti Smith" titre="Dancing Barefoot" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="749" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Missy Elliott" titre="Get Ur Freak On" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="750" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Lauren Hill" titre="To Zion" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="751" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1645,6 +1804,9 @@
   <Composition artist="Marvin Gaye" titre="Let's Get It ON" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="772" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Stevie Wonder" titre="Higher Ground" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="773" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Miles Davis" titre="In A Silent Way" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="775" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -1654,7 +1816,7 @@
   <Composition artist="Ryan Adams" titre="La Cienega Just Smiled" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="778" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Land:" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Patti Smith" titre="Land:" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="780" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Roy Orbison" titre="Only The Lonely" type="SONG" canBeMerged="true" deleted="false">
@@ -1668,6 +1830,9 @@
   </Composition>
   <Composition artist="Merle Haggard" titre="Mama Tried" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="785" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Girl From The North Country" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="787" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Simple Minds" titre="Promised You A Miracle" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="789" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1684,8 +1849,14 @@
   <Composition artist="Louis Armstrong" titre="West End Blues" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="793" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Frank Sinatra" titre="My Way" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Fleetwood Mac" titre="Rhiannon" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="794" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Frank Sinatra" titre="My Way" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="796" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Sinead O'Connor" titre="Nothing Compares 2 U" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="797" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Queens Of The Stone Age" titre="Do It Again" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="799" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1714,7 +1885,7 @@
   <Composition artist="Neil Young" titre="After The Goldrush" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="808" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="The Roots" titre="The Seed 2.0" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Roots" titre="The Seed (2.0)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="809" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Staple Singers" titre="Respect Yourself" type="SONG" canBeMerged="true" deleted="false">
@@ -1731,6 +1902,9 @@
   </Composition>
   <Composition artist="Desmond And The Aces Dekker" titre="Israelites" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="814" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Nick And The Bad Seeds Cave" titre="Into My Arms" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="816" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Melodians" titre="Rivers Of Babylon" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="817" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1753,8 +1927,11 @@
   <Composition artist="Janet Jackson" titre="Nasty" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="828" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Dr. Dre" titre="Nuthin' But a 'G' Thang" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dr. Dre" titre="Nuthin' But A 'G' Thang" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="829" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Coldplay" titre="Yellow" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="830" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="All The Tired Horses" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="831" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1765,8 +1942,14 @@
   <Composition artist="Neil Young" titre="Ambulance Blues" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="833" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Liz Phair" titre="Fuck And RUN" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="834" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Tammy Wynette" titre="Stand By Your Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="835" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Ray Charles" titre="What'd I Say" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="836" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Missing Links" titre="You're Driving Me Insane" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="838" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1825,8 +2008,14 @@
   <Composition artist="Dionne Warwick" titre="Do You Know The Way To San Jose?" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="861" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Fleetwood Mac" titre="Go Your Own Way" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="862" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Frank Sinatra" titre="All Or Nothing At All" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="864" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Led Zeppelin" titre="Dazed And Confused" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="867" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Riptides" titre="Tomorrow's Tears" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="868" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1840,7 +2029,7 @@
   <Composition artist="Stephen Cummings" titre="When Love Comes Back To You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="871" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="false" deleted="true">
+  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="872" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Captain Beefheart And The Magic Band" titre="Making Love To A Vampire With A Monkey On My Knee" type="SONG" canBeMerged="true" deleted="false">
@@ -1879,6 +2068,9 @@
   <Composition artist="X Ray Spex" titre="Oh Bondage, Up Yours" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="890" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Blondie" titre="The Tide Is High" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="891" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="The Saints" titre="(I'm) Stranded" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="894" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -1903,7 +2095,7 @@
   <Composition artist="Neil Young" titre="Borrowed Tune" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="908" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Dionne Warwick" titre="Walk On BY" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Dionne Warwick" titre="Walk On BY" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="909" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Went To See The Gypsy" type="SONG" canBeMerged="true" deleted="false">
@@ -1911,6 +2103,9 @@
   </Composition>
   <Composition artist="Dragon" titre="April Sun In Cuba" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="912" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Mott The Hoople" titre="All The Young Dudes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="913" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Sweat And Tears Blood" titre="And When I Die" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="914" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1960,7 +2155,7 @@
   <Composition artist="Hunters And Collectors" titre="Throw Your Arms Around Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="935" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Procol Harum" titre="A Whiter Shade Of Pale" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Procol Harum" titre="A Whiter Shade Of Pale" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="937" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Lou Reed" titre="Metal machine Music, Part 1" type="SONG" canBeMerged="true" deleted="false">
@@ -1974,6 +2169,9 @@
   </Composition>
   <Composition artist="Paul And Mary Peter" titre="Blowin' In The Wind" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="941" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Magazine" titre="Shot By Both Sides" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="942" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Stolen Car" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="944" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -1996,8 +2194,14 @@
   <Composition artist="Do Re Mi" titre="Man Overboard" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="952" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="The Kingsmen" titre="Louie Louie" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="953" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Hoodoo Gurus" titre="Death Defying" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="954" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Ian And The Blockheads Drury" titre="Sex And Drugs And Rock And Roll" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="955" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Brilliant Disguise" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="956" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -2011,6 +2215,9 @@
   <Composition artist="Beth Orton" titre="She Cries Your Name" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="961" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
+  <Composition artist="Elton John" titre="Your Song" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="962" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
   <Composition artist="Sting" titre="They Dance Alone" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="963" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
@@ -2023,7 +2230,7 @@
   <Composition artist="Johnny Cash" titre="Drive On" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="968" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Run DMC" titre="It's Like That" type="SONG" canBeMerged="false" deleted="false">
+  <Composition artist="Run-DMC" titre="It's Like That" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="969" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Tom Tom Club" titre="Genius Of Love" type="SONG" canBeMerged="true" deleted="false">
@@ -2044,7 +2251,7 @@
   <Composition artist="Lou Reed" titre="There Is No Time" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="978" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
-  <Composition artist="Tommy James And The Shondells" titre="Crimson And Clover" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Tommy And The Shondells James" titre="Crimson And Clover" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="979" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Alex Chilton" titre="Bangkok" type="SONG" canBeMerged="true" deleted="false">
@@ -2058,6 +2265,9 @@
   </Composition>
   <Composition artist="Wreckless Eric" titre="Whole Wide World" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="985" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="PJ Harvey" titre="Sheela-Na-Gig" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="988" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="The Beatles" titre="Cry For A Shadow" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="989" creationDate="25/01/2017 10:01:31" size="1001"/>
@@ -2085,6 +2295,9 @@
   </Composition>
   <Composition artist="Quicksilver Messenger Service" titre="Who Do You Love?" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="999" creationDate="25/01/2017 10:01:31" size="1001"/>
+  </Composition>
+  <Composition artist="Television" titre="Marquee Moon" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="1000" creationDate="25/01/2017 10:01:31" size="1001"/>
   </Composition>
   <Composition artist="Maria Muldaur" titre="Midnight At The Oasis" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Greatest Songs by Toby Creswell" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="1001" creationDate="25/01/2017 10:01:31" size="1001"/>
