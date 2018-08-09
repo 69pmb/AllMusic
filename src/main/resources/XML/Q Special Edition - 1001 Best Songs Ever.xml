@@ -13,7 +13,7 @@
   <Composition artist="Destiny's Child" titre="Independent Woman Pt1" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="8" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Ike And Tina Turner" titre="River Deep Mountain High" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Ike And Tina Turner" titre="River Deep Mountain High" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Public Enemy" titre="Rebel Without A Pause" type="SONG" canBeMerged="true" deleted="false">
@@ -34,22 +34,25 @@
   <Composition artist="Wu-Tang Clan" titre="Protect Ya Neck" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="7" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Dr. Dre" titre="Nuthin' But a 'G' Thang" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dr. Dre" titre="Nuthin' But A 'G' Thang" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="8" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Boogie Down Productions" titre="South Bronx" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="9" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Grandmaster Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Grandmaster Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Coldplay" titre="Trouble" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="23" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Missy Elliott" titre="Get Ur Freak On" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="27" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="David Bowie" titre="Sound And Vision" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="32" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="The Human League" titre="Don't You Want Me Baby" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="The Human League" titre="Don't You Want Me Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="33" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Foo Fighters" titre="Monkey Wrench" type="SONG" canBeMerged="true" deleted="false">
@@ -61,7 +64,7 @@
   <Composition artist="Dusty Springfield" titre="Son Of A Preacher Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="40" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Run DMC With Jason Nevins" titre="It's Like That" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Run-Dmc With Jason Nevins" titre="It's Like That" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="42" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Ben E King" titre="Stand By Me" type="SONG" canBeMerged="true" deleted="false">
@@ -76,10 +79,13 @@
   <Composition artist="The Wu-Tang Clan" titre="Dog Shit" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="47" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Black Sabbath" titre="Paranoid" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="2" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Slayer" titre="Angel Of Death" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Ac/Dc" titre="Whole Lotta Rosie" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Ac/Dc/" titre="Whole Lotta Rosie" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="4" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Darkness" titre="Love On The Rocks With No Ice" type="SONG" canBeMerged="true" deleted="false">
@@ -94,7 +100,7 @@
   <Composition artist="Motorhead" titre="Ace Of Spades" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="59" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Nelly" titre="Hot In Herre" type="SONG" canBeMerged="true" deleted="false">
@@ -106,16 +112,16 @@
   <Composition artist="Dmx" titre="Ruff Riders Anthem" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="62" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Madonna" titre="Like A Prayer" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Madonna" titre="Like A Prayer" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="70" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Steve Harley" titre="Make Me Smile" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Steve Harley And Cockney Rebel" titre="Make Me Smile (Come Up And See Me)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="71" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Jam" titre="Down In The Tube Station At Midnight" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="74" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Bob Marley" titre="Stir It Up" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Marley And The Wailers" titre="Stir It Up" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="75" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Michael Jackson" titre="Wanna Be Startin' Somethin'" type="SONG" canBeMerged="true" deleted="false">
@@ -163,7 +169,7 @@
   <Composition artist="Spice Girls" titre="Say You'll Be There" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="50 Cent" titre="In Da Club" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="50 Cent" titre="In Da Club" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="96" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Sam Cooke" titre="You Send Me" type="SONG" canBeMerged="true" deleted="false">
@@ -184,8 +190,17 @@
   <Composition artist="Beastie Boys" titre="Intergalitic" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="102" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Primal Scream" titre="Loaded" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="103" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Manic Street Preachers" titre="Motorcycle Empiness" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="104" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Judas Priest" titre="Breaking The Law" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="106" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Jesus And Mary Chain" titre="Never Understand" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="107" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Wu-Tang Clan" titre="Gravel Pit" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="109" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -199,13 +214,13 @@
   <Composition artist="D'angelo" titre="Brown Sugar" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="113" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="115" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="2Pac" titre="California Love" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="2pac And Dr Dre" titre="California Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="118" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign O' The Times" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Prince" titre="Sign Of The Times" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="120" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Beastie Boys" titre="Fight For Your Right (To Party)" type="SONG" canBeMerged="true" deleted="false">
@@ -253,6 +268,9 @@
   <Composition artist="Kings Of Leon" titre="Talihina Sky" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Radiohead" titre="Fake Plastic Trees" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="141" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Sly And The Family Stone" titre="Family Affair" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="143" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -265,20 +283,29 @@
   <Composition artist="R.E.M." titre="The One I Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="147" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Aretha Franklin" titre="A Natural Woman" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="U2" titre="I Still Haven't Found What I'm Looking For" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="148" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Aretha Franklin" titre="( You Make Me Feel) Like A Natural Woman" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="149" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Klf" titre="3am Eternal" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="150" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Nina Simone" titre="Young Gifted And Black" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nina Samone" titre="Young Gifted And Black" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="151" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Madonna" titre="Into The Groove" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Madonna" titre="Into The Groove" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="153" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Isley Brothers" titre="Harvest For The World" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="154" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="The Righteous Brothers" titre="You've Lost That Loving Feeling" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="155" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="The Jimi Hendrix Experience" titre="Crosstown Traffic" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="156" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Ice Cube" titre="It Was A Good Day" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="157" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -286,7 +313,10 @@
   <Composition artist="Primal Scream" titre="Rocks" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="159" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Fats Domino" titre="Ain't That A Shame" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="The Jam" titre="Going Underground" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="160" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Fats Domino" titre="Ain't That A Shame" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="162" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Coasters" titre="Searchin'" type="SONG" canBeMerged="true" deleted="false">
@@ -303,6 +333,9 @@
   </Composition>
   <Composition artist="Moby" titre="Run On" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Goldfrapp" titre="Lovely Head" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="4" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Aqualung" titre="Strange And Beautiful" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="5" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -322,7 +355,10 @@
   <Composition artist="Mr Oizo" titre="Flat Beat" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Everything But the Girl" titre="Missing" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Suspicious Minds" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="176" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Everyting But The Girl" titre="Missing" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="177" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Roberta Flack" titre="Killing Me Softly With His Song" type="SONG" canBeMerged="true" deleted="false">
@@ -349,7 +385,7 @@
   <Composition artist="The Modern Lovers" titre="Road Runner" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="189" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Martha Reeves And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Martha Nad The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="191" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Marilyn Manson" titre="The Beautiful People" type="SONG" canBeMerged="true" deleted="false">
@@ -358,7 +394,7 @@
   <Composition artist="Elvis Costello" titre="I Want You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="194" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Stevie Wonder" titre="Uptight (Everything's Alright)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Stevie Wonder" titre="Uptight" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="195" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="James" titre="Sit Down" type="SONG" canBeMerged="true" deleted="false">
@@ -406,6 +442,15 @@
   <Composition artist="Tricky" titre="Black Steel" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="223" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Red Hot Chilli Peppers" titre="Blood Sugar Sex Magik" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="224" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Super Furry Animals" titre="The Man Don't Give A Fuck" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="225" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Bruce Springsteen" titre="Thunder Road" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="226" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Nelly And Kelly" titre="Dilemma" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="227" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -439,7 +484,7 @@
   <Composition artist="Billy Bragg" titre="Levie Stubbs' Tears" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="239" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Mystry Train" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Elvis Presley" titre="Mystry Train" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="240" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Simply Dreadful" titre="Stars" type="SONG" canBeMerged="true" deleted="false">
@@ -478,7 +523,7 @@
   <Composition artist="Massive Attack" titre="Inertia Creeps" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="9" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="New Order" titre="True Faith" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="New Order" titre="True Faith" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="259" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Crowded House" titre="Distant Sun" type="SONG" canBeMerged="true" deleted="false">
@@ -487,7 +532,7 @@
   <Composition artist="Jimmy Cliff" titre="Many Rivers To Cross" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="262" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Roots Manuva" titre="Witness (One Hope)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Roots Manuva" titre="Witness (1 Hope)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="263" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Labelle" titre="Lady Marmalade" type="SONG" canBeMerged="true" deleted="false">
@@ -496,11 +541,14 @@
   <Composition artist="Eddie Cochren" titre="Somethen' Else" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="267" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="268" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Smoky Robinson And The Miracles" titre="Tracks Of My Tears" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="270" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="The Byrds" titre="Eight Mils High" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="271" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Jane's Addiction" titre="Been Caught Stealing" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="273" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -508,7 +556,7 @@
   <Composition artist="Crowded House" titre="Weather With You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="275" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Derek And The Dominos" titre="Layla" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Derek And The Dominos" titre="Layla" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="276" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Soul II Soul" titre="Keep On Movin'" type="SONG" canBeMerged="true" deleted="false">
@@ -586,7 +634,7 @@
   <Composition artist="Rhythim Is Rhythim" titre="Strings For Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="312" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="De La Soul" titre="Me, Myself And I" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="De La Soul" titre="Me Myself And I" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="313" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Layo And Bushwacka!" titre="Love Story" type="SONG" canBeMerged="true" deleted="false">
@@ -661,6 +709,9 @@
   <Composition artist="Britney Spears" titre="Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="340" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Fleetwood Mac" titre="Go Your Own Way" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="342" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Lauryn Hill" titre="Everything Is Everything" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="343" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -709,7 +760,7 @@
   <Composition artist="Christina Aguilera" titre="Dirty" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="360" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Elton John" titre="Crocodile Rock" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Elton John" titre="Crocodile Rock" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="361" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Gilbert O' Sullivan" titre="Alone Again (Naturally)" type="SONG" canBeMerged="true" deleted="false">
@@ -739,6 +790,9 @@
   <Composition artist="Ry Cooder" titre="Vigilante Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="7" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Badfinger" titre="Come And Get It" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Elastica" titre="Connection" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="377" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -747,6 +801,9 @@
   </Composition>
   <Composition artist="Sparks" titre="This Town Ain't Big Enough For The Both Of Us" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="379" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="The Avalanches" titre="Since I Left You" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="380" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Idlewild" titre="You Held The World In Your Arms" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="381" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -775,10 +832,13 @@
   <Composition artist="Weezer" titre="The Good Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="390" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Wings" titre="Jet" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="392" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="The Darkness" titre="Get Your Hands Off My Woman (Motherfucker)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="393" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Tenor Saw" titre="Ring the Alarm" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Tenor Saw" titre="Ring The Alarm" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="395" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Happy Mondays" titre="Hellelujah" type="SONG" canBeMerged="true" deleted="false">
@@ -795,6 +855,9 @@
   </Composition>
   <Composition artist="Dwarves" titre="We Must Have Blood" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="400" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="My Bloody Valentine" titre="You Made Me Realise" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="401" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Beautiful South" titre="Song For Whoever" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="402" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -865,7 +928,7 @@
   <Composition artist="Fleetwood Mac" titre="Albatross" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="431" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Jay-Z" titre="Izzo (H.O.V.A.)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jay-Z" titre="Izzo" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="432" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Muse" titre="Stockholm Syndrome" type="SONG" canBeMerged="true" deleted="false">
@@ -900,6 +963,9 @@
   </Composition>
   <Composition artist="U2" titre="Night And Day" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="444" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="Where I End And You Begin" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="445" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Meu" titre="Snow Brigade" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="446" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -940,6 +1006,9 @@
   <Composition artist="Warren G" titre="Regulate" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="460" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Smashing Pumpkins" titre="Today" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="462" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Stevie Wonder" titre="Superstition" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="463" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -955,8 +1024,11 @@
   <Composition artist="Def Leppard" titre="Pour Some Sugar On Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="470" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Booker T" titre="Green Onions" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Booker T. And The Mg's" titre="Green Onions" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="471" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Depeche Mode" titre="Personal Jesus" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="472" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Grace Jones" titre="Private Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="473" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -985,8 +1057,11 @@
   <Composition artist="Kris Kristofferson" titre="Sunday Morning Coming Down" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="482" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="false" deleted="true">
+  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="483" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="The Kingsmen" titre="Louie Louie" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="1" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Seeds" titre="Pushing Too Hard" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1015,11 +1090,14 @@
   <Composition artist="Richard And Linda Thompson" titre="Shoot Out The Lights" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="495" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Kraftwerk" titre="Tour de France" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Kraftwerk" titre="Tour De France" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="496" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Pearl Jam" titre="Alive" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="497" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="The Breeders" titre="Cannonball" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="498" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Lambchop" titre="Up With People" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="499" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1036,13 +1114,13 @@
   <Composition artist="Neil Young" titre="Cortez The Killer" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="504" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Leftfield" titre="Open Up" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Leftfield And Lydon" titre="Open Up" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="505" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Curtis Mayfield" titre="Pusherman" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="507" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="James Brown" titre="I Got You (I Feel Good)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="James Brown" titre="I Got You(I Feel Good)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="509" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Nilsson" titre="Everybody's Talkin'" type="SONG" canBeMerged="true" deleted="false">
@@ -1050,6 +1128,9 @@
   </Composition>
   <Composition artist="Royksopp" titre="Poor Leng" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="511" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Blur" titre="This Is A Low" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="512" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Funkadelic" titre="One Nation Under A Groove" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="515" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1078,7 +1159,7 @@
   <Composition artist="Randy Newman" titre="Sail Away" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="527" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Frankie Lymon" titre="Why Do Fools Fall In Love ?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Frankie Lymon And The Teenagers" titre="Why Do Fools Fool In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="529" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Fatback Band" titre="Street Dance" type="SONG" canBeMerged="true" deleted="false">
@@ -1093,7 +1174,7 @@
   <Composition artist="The O'jays" titre="I Love Music" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="4" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Soul II Soul" titre="Back to Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Soul II Soul" titre="Back To Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="5" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Donald Byrd" titre="Places And Spaces" type="SONG" canBeMerged="true" deleted="false">
@@ -1123,7 +1204,7 @@
   <Composition artist="Gradmaster Flash And The Furious Five" titre="White Lines (Don't Do It)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="546" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="N.W.A." titre="Fuck The Police" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="N.W.A." titre="Fuck The Police" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="547" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Future Sound Of London" titre="Papua New Guinea" type="SONG" canBeMerged="true" deleted="false">
@@ -1137,6 +1218,9 @@
   </Composition>
   <Composition artist="Hardfloor" titre="Acperience" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="553" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Metallica" titre="Master Of Puppets" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="554" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Fountains Of Wayne" titre="Stacy's Mom" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="556" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1168,7 +1252,7 @@
   <Composition artist="50 Cent" titre="If I Can't" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="565" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Jackie Wilson" titre="Reet Petite (The Finest Girl You Ever Want to Meet)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jackie Wilson" titre="Reet Petite" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="1" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Flamingos" titre="I Only Have Eyes For You" type="SONG" canBeMerged="true" deleted="false">
@@ -1198,7 +1282,7 @@
   <Composition artist="Joni Michell" titre="Big Yellow Taxi" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="577" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Gregory Isaacs" titre="Night Nurse" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Gregory Isaacs" titre="Night Nurse" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="578" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Charles Wright And The 103 Watts St Band" titre="Express Yourself" type="SONG" canBeMerged="true" deleted="false">
@@ -1228,6 +1312,9 @@
   <Composition artist="Linkin Park" titre="Points Of Authority" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="591" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Kate Bush" titre="Wuthering Heights" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="592" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Jay-Z" titre="Big Pumpin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="593" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -1237,8 +1324,14 @@
   <Composition artist="The Supremes" titre="Stop! In The Name Of Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="596" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="The Smiths" titre="Last Night I Dreamt That Somebody Loved Me" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="597" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="The Cure" titre="Pictures Of You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="598" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="The Stone Roses" titre="Fools Gold (Long Ver)" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="601" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Suede" titre="Stay Together" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="603" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1294,7 +1387,7 @@
   <Composition artist="10cc" titre="I'm Not In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="623" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="624" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Notorious B.I.G." titre="Unbelievable" type="SONG" canBeMerged="true" deleted="false">
@@ -1312,7 +1405,7 @@
   <Composition artist="Stereophonics" titre="Local Boy In The Photograph" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="632" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Love" titre="Alone Again Or" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Love" titre="Alone Again Or" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="633" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Stranglers" titre="Peaches" type="SONG" canBeMerged="true" deleted="false">
@@ -1360,7 +1453,7 @@
   <Composition artist="D'angelo" titre="Shit, Damn, Motherfucker" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Swv" titre="Right Here" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Swv" titre="Right Here (Human Nature Remix)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="4" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Craig David" titre="Fill Me In" type="SONG" canBeMerged="true" deleted="false">
@@ -1375,7 +1468,7 @@
   <Composition artist="Usher" titre="Nice And Slow" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="8" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Justin Timberlake" titre="Cry Me A River" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Justin Timberlake" titre="Cry Me A River" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="9" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Tlc" titre="Unpretty" type="SONG" canBeMerged="true" deleted="false">
@@ -1384,7 +1477,10 @@
   <Composition artist="James Carr" titre="The Dard End Of The Street" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="658" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Prince" titre="If I Was Your Girlfriend" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Radiohead" titre="Street Sprit (Fade Out)" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="661" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Prince" titre="If I Was Your Girlfriend" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="662" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Sheryl Crow" titre="If It Makes You Happy" type="SONG" canBeMerged="true" deleted="false">
@@ -1408,6 +1504,9 @@
   <Composition artist="So Solid Crew" titre="21 Seconds" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="671" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Sonny And Cher" titre="I Got You Babe" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="674" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Sly And The Family Stone" titre="Dance To The Music" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="676" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -1423,6 +1522,9 @@
   <Composition artist="Joni Michell" titre="Woodstock" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="680" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="The Band" titre="The Night They Drove Old Dixie Down" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="681" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Gram Parsons" titre="She" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="682" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -1435,7 +1537,7 @@
   <Composition artist="Elmore James" titre="Dust In My Broom" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="2" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Howlin' Wolf" titre="Smokestack Lightnin" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Howlin' Wolf" titre="Smokestack Lightning" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="John Lee Hooker" titre="Boggie Children" type="SONG" canBeMerged="true" deleted="false">
@@ -1456,7 +1558,7 @@
   <Composition artist="Muddy Walters" titre="Mannish Boy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Kylie Minogue" titre="Can't Get You Out Of My Head" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Kylie Minogue" titre="Can't Get You Out Of My Head" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="694" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Django Reinhardt" titre="Nuages" type="SONG" canBeMerged="true" deleted="false">
@@ -1468,7 +1570,7 @@
   <Composition artist="Spencer Davis Group" titre="I'm A Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="699" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Roni Size/Reprazent" titre="Brown Paper Bag" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Roni Size And Reprazent" titre="Brown Paper Bag" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="701" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Electric Six" titre="Danger, High Voltage" type="SONG" canBeMerged="true" deleted="false">
@@ -1480,11 +1582,14 @@
   <Composition artist="Johnny Cash" titre="I Won't Back Down" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="707" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="The Neptunes" titre="Light Your Ass On Fire" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Busta Rhymes And The Neptunes" titre="Light Your Ass On Fire" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="710" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Wannadies" titre="You And Me Song" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="711" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Althea And Donna" titre="Uptown Top Ranking" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="712" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Alicia Keys" titre="Fallin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="713" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1498,7 +1603,7 @@
   <Composition artist="Moby" titre="Why Does My Heart Feel So Bad" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="719" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Captain Beefheart" titre="Big Eyed Beans From Venus" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Captain Beefheart And The Magic Band" titre="Big Eyed Beans From Venus" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="720" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Norah Jones" titre="Come Away With Me" type="SONG" canBeMerged="true" deleted="false">
@@ -1516,7 +1621,7 @@
   <Composition artist="The Everly Brothers" titre="All I Have To Do Is Dream" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="727" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Nancy Sinatra" titre="Some Velvet Morning" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nancy Sinatra And Lee Hazlewood" titre="Some Velvet Morning" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="728" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Micky And Sylvia" titre="Love Is Strange" type="SONG" canBeMerged="true" deleted="false">
@@ -1524,6 +1629,9 @@
   </Composition>
   <Composition artist="Madness" titre="Baggy Trousers" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Belle And Sabastian" titre="The Boy With The Arab Strap" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="4" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Ian Dury" titre="Their Ain't Half Been Some Clever Bastards" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="5" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1573,10 +1681,10 @@
   <Composition artist="Hall And Oats" titre="I Can't Go For That (No Can Do)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="756" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Sabres of Paradise" titre="Smokebelch II" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Sabres Of Paradise" titre="Smokebelch II" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="757" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Massive Attack" titre="I Against I" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Massive Attack/Mos Def" titre="I Against I" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="758" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Granddaddy" titre="I'm On Standby" type="SONG" canBeMerged="true" deleted="false">
@@ -1639,7 +1747,7 @@
   <Composition artist="Stereophonics" titre="Just Looking" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="779" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="James Brown" titre="It's A Man's Man's Man's World" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="James Brown" titre="It's A Man's Man's Man's World" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="781" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Spiller" titre="Groovejet (If This Ain't Love)" type="SONG" canBeMerged="true" deleted="false">
@@ -1651,11 +1759,17 @@
   <Composition artist="The Chiffons" titre="He's So Fine" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="787" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Radiohead" titre="Subterranean Homesick Alien" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="788" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Liam Lynch" titre="The United States Of Whatever" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="790" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Rage Against The Machine" titre="Bullet In The Head" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="792" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Serge Gainsbourge And Jane Birkin" titre="Je T'aime..Moi Non Plus" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="793" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Roots" titre="The Seed 2.0" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="794" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1675,7 +1789,7 @@
   <Composition artist="Kool And The Gang" titre="Jungle Boogie" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="800" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Dionne Warwick" titre="Walk On By" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Dionne Warwick" titre="Walk On By" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="802" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Spritualized" titre="Come Together" type="SONG" canBeMerged="true" deleted="false">
@@ -1699,6 +1813,9 @@
   <Composition artist="Bon Jovi" titre="Livin' On A Prayer" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="810" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="811" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Harry Connick Jr" titre="It Had To Be You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="1" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -1714,7 +1831,7 @@
   <Composition artist="Morris Stoloff" titre="Moonglow/Theme From Picnic" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="5" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Nina Simone" titre="My Baby Just Cares For Me" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Nina Simone" titre="My Baby Just Cares For Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="6" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Perez Prado" titre="Mambo No.5" type="SONG" canBeMerged="true" deleted="false">
@@ -1728,6 +1845,9 @@
   </Composition>
   <Composition artist="Nat King Cole And George Shearing" titre="Let There Be Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Tangled Up In Blue" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="822" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Gram Parsons" titre="Hickory Wind" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="823" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1747,7 +1867,7 @@
   <Composition artist="Flying Burrito Brothers" titre="Christine's Tune (Devil In Disguise)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="832" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="DJ Shadow" titre="What Does Your Soul Look Like, Vol 4" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dj Shadow" titre="What Dose Your Soul Look Like, Vol 4" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="834" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Cameo" titre="She's Strange" type="SONG" canBeMerged="true" deleted="false">
@@ -1756,7 +1876,7 @@
   <Composition artist="The Four Tops" titre="I Can't Help Myself" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="836" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Cornershop" titre="Brimful Of Asha" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Cornershop" titre="Brimful Of Asha (Norman Cook Mix)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="840" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Robert Palmer" titre="Addicted To Love" type="SONG" canBeMerged="true" deleted="false">
@@ -1779,6 +1899,9 @@
   </Composition>
   <Composition artist="The Notorious B.I.G. And Faith Evans" titre="One More Chance" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="847" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Suede" titre="Animal Nitrate" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="1" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Pulp" titre="Babies" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1822,6 +1945,9 @@
   <Composition artist="Diana Ross" titre="I'm Coming Out" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="868" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Smashing Pumpkins" titre="Cherub Rock" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="869" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Turin Brakes" titre="Painkiller (Summer Rain)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="870" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -1858,7 +1984,7 @@
   <Composition artist="Martha And The Muffins" titre="Echo Beach" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="1" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Dexys Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Dexys Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="2" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Spandau Ballet" titre="To Cut A Long Story Short" type="SONG" canBeMerged="true" deleted="false">
@@ -1887,6 +2013,9 @@
   </Composition>
   <Composition artist="Peter Cook And Dudley More" titre="Bedazzled" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="895" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Nick Cave" titre="Into My Arms" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="896" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Joe Jackson" titre="Steppin' Out" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="897" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -1951,16 +2080,16 @@
   <Composition artist="Dinosaur Jr." titre="Freak Scene" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="921" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Blu Cantrell" titre="Breathe [And Sean Paul]" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Blu Cantrell And Sean Paul" titre="Breath" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="923" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Dizzee Rascal" titre="Fix Up, Look Sharp" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Dizzee Rascal" titre="Fix Up, Look Sharp" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="924" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Supercat" titre="Too Greedy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="925" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Love" titre="You Set The Scene" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Love" titre="You Set The Scene" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="926" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Black Uhuru" titre="Stalk Of Sinsemilla" type="SONG" canBeMerged="true" deleted="false">
@@ -1987,7 +2116,7 @@
   <Composition artist="Azzido De Bass" titre="Dooms Delight" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="5" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="X-Press 2 And David Byrne" titre="Lazy" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="X-Press 2" titre="Lazy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="6" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="New Order" titre="Crystals" type="SONG" canBeMerged="true" deleted="false">
@@ -1998,6 +2127,9 @@
   </Composition>
   <Composition artist="Sasha" titre="Xpander" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="9" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
+  <Composition artist="Chemical Brothers" titre="Setting Sun" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Teardrop Explodes" titre="Reward" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="941" creationDate="25/01/2017 10:01:40" size="1001"/>
@@ -2059,6 +2191,9 @@
   <Composition artist="Avril Lavigne" titre="Complicated" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="960" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
+  <Composition artist="Prince" titre="Purple Rain" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="961" creationDate="25/01/2017 10:01:40" size="1001"/>
+  </Composition>
   <Composition artist="Whitesnake" titre="Here We Go Again" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="962" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
@@ -2077,7 +2212,7 @@
   <Composition artist="The Damned" titre="Neat, Neat, Neat" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Richard Hell" titre="Love Comes In Spurts" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Richard Hell And The Voidoids" titre="Love Comes In Spurts" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="4" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Ruts" titre="Babylon's Burning" type="SONG" canBeMerged="true" deleted="false">
@@ -2110,7 +2245,7 @@
   <Composition artist="The Vines" titre="Highly Evolved" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="980" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Dead Or Alive" titre="You Spin Me Round" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Dead Or Alive" titre="You Spin Me Round" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="981" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Blondie" titre="Rip Her To Shreds" type="SONG" canBeMerged="true" deleted="false">
@@ -2134,7 +2269,7 @@
   <Composition artist="The Champs" titre="Tequila" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="989" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Cyndi Lauper" titre="Girls Just Wanna Have Fun" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Cyndi Lauper" titre="Girls Just Wanna Have Fun" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q Special Edition - 1001 Best Songs Ever" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="true" classement="990" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Athlete" titre="You Got The Style" type="SONG" canBeMerged="true" deleted="false">

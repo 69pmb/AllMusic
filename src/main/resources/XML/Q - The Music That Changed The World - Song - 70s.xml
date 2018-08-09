@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Music That Changed The World - Song - 70s" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="3" creationDate="28/08/2017 21:26:16" size="19"/>
   </Composition>
   <Composition artist="Special Aka" titre="Gangsters" type="SONG" canBeMerged="true" deleted="false">
@@ -10,11 +10,20 @@
   <Composition artist="10cc" titre="I'm Not In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Music That Changed The World - Song - 70s" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="6" creationDate="28/08/2017 21:26:16" size="19"/>
   </Composition>
+  <Composition artist="Black Sabbath" titre="Paranoid" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The Music That Changed The World - Song - 70s" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="7" creationDate="28/08/2017 21:26:16" size="19"/>
+  </Composition>
   <Composition artist="Kraftwerk" titre="Autobahn" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Music That Changed The World - Song - 70s" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="8" creationDate="28/08/2017 21:26:16" size="19"/>
   </Composition>
   <Composition artist="Chic" titre="La Freak" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Music That Changed The World - Song - 70s" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="9" creationDate="28/08/2017 21:26:16" size="19"/>
+  </Composition>
+  <Composition artist="Kate Bush" titre="Wuthering Hights" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The Music That Changed The World - Song - 70s" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="11" creationDate="28/08/2017 21:26:16" size="19"/>
+  </Composition>
+  <Composition artist="Roxy Music" titre="Virginia Plain" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The Music That Changed The World - Song - 70s" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="12" creationDate="28/08/2017 21:26:16" size="19"/>
   </Composition>
   <Composition artist="James Brown" titre="The Payback" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Music That Changed The World - Song - 70s" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="13" creationDate="28/08/2017 21:26:16" size="19"/>
