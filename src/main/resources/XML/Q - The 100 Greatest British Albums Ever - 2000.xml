@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="2" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="The Rolling Stones" titre="Exile On Main Street" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="3" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="The Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="4" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="A Hard Days Night" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="5" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
   <Composition artist="Van Morrison" titre="Astral Weeks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="6" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
+  <Composition artist="The Beatles" titre="The Beatles" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="7" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
   <Composition artist="Massive Attack" titre="Blue Lines" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="9" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="Sex Pistols" titre="Never Mind The Bollocks..." type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="10" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="Pink Floyd" titre="Dark Side Of The Moon" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="11" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="The Rolling Stones" titre="Sticky Fingers" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="12" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="David Bowie" titre="Low" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="14" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Massive Attack" titre="Mezzanine" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="15" creationDate="15/07/2017 10:45:54" size="100"/>
@@ -13,16 +40,40 @@
   <Composition artist="David Bowie" titre="Hunky Dory" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="16" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
+  <Composition artist="Primal Scream" titre="Screamadellica" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="18" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="Joy Division" titre="Unknown Pleasures" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="19" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
   <Composition artist="Kate Bush" titre="Hounds Of Love" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="20" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Rubber Soul" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="21" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="Blur" titre="Park Life" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="22" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Nick Drake" titre="Bryter Later" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="23" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
+  <Composition artist="David Bowie" titre="...Ziggy Stardust" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="25" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
   <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="26" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Scary Monsters" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="27" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="The Rolling Stones" titre="Let It Bleed" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="28" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="The Stone Roses" titre="The Stone Roses" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="29" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="David Bowie" titre="Scary Monsters And Super Creeps" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="30" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Happy Mondays" titre="Pills 'N' Thrills And Bellyaches" type="ALBUM" canBeMerged="true" deleted="false">
@@ -37,8 +88,14 @@
   <Composition artist="Leftfield" titre="Leftism" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="34" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
+  <Composition artist="Radiohead" titre="The Bends" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="35" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
   <Composition artist="Tricky" titre="Maxinquaye" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="36" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin II" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="37" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="The Specials" titre="The Specials" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="38" creationDate="15/07/2017 10:45:54" size="100"/>
@@ -58,7 +115,7 @@
   <Composition artist="The Smiths" titre="Hatful Of Hollow" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="44" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
-  <Composition artist="Elvis Costello" titre="Armed Forces" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Costello And The Attractions" titre="Armed Forces" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="45" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Pulp" titre="Different Class" type="ALBUM" canBeMerged="true" deleted="false">
@@ -82,7 +139,7 @@
   <Composition artist="Stereo MC's" titre="Connected" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="52" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
-  <Composition artist="Peter Gabriel" titre="Peter Gabriel/Melt" type="ALBUM" canBeMerged="false" deleted="false">
+  <Composition artist="Peter Gabriel" titre="Peter Gabriel/Melt" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="53" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Travis" titre="The Man Who" type="ALBUM" canBeMerged="true" deleted="false">
@@ -106,7 +163,10 @@
   <Composition artist="Black Sabbath" titre="Vol.4" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="60" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
-  <Composition artist="John Lennon" titre="Plastic Ono Band" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Portishead" titre="Dummy" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="61" creationDate="15/07/2017 10:45:54" size="100"/>
+  </Composition>
+  <Composition artist="John Lennon/Plastic Ono Band" titre="Plastic Ono Band" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="62" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Various" titre="Metalheads Presents Platinum Breaks" type="ALBUM" canBeMerged="true" deleted="false">
@@ -118,7 +178,7 @@
   <Composition artist="The Cure" titre="Seventeen Seconds" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="65" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
-  <Composition artist="Ian Dury" titre="New Boots And Panties" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Ian Dury" titre="New Boot And Panties" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="66" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="John Martyn" titre="Solid Air" type="ALBUM" canBeMerged="true" deleted="false">
@@ -166,7 +226,7 @@
   <Composition artist="Fatboy Slim" titre="You've Come A Long Way Baby" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="81" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
-  <Composition artist="Elvis Costello" titre="This Year's Model" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Costello And The Attractions" titre="This Years Model" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="82" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Ub40" titre="Signing Off" type="ALBUM" canBeMerged="true" deleted="false">
