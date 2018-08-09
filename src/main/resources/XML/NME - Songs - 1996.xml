@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="1" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Manic Street Preachers" titre="A Design For Life" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="2" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Beck" titre="Where It's At" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="3" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="The Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="4" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Orbital" titre="The Box" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="5" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
@@ -10,7 +22,7 @@
   <Composition artist="Tiger" titre="Race" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="8" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="2Pac" titre="California Love" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="2pac" titre="California Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="9" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Suede" titre="Trash" type="SONG" canBeMerged="true" deleted="false">
@@ -18,6 +30,9 @@
   </Composition>
   <Composition artist="The Bluetones" titre="Slight Return" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="11" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Super Furry Animals" titre="The Man Don't Give A Fuck" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="12" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Fugees" titre="Ready Or Not" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="13" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -40,7 +55,7 @@
   <Composition artist="The Lemonheads" titre="If I Could Talk I'd Tell You" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="20" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="R.E.M." titre="E-Bow The Letter" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="REM" titre="E-Bow The Letter" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="21" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Supergrass" titre="Going Out" type="SONG" canBeMerged="true" deleted="false">
@@ -82,13 +97,16 @@
   <Composition artist="Aphex Twin" titre="Girl/Boy Ep" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="35" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="The Chemical Brothers" titre="Setting Sun" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="36" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Super Furry Animals" titre="If You Don't Want Me To Destroy You" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="37" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="The Divine Comedy" titre="Something For The Weekend" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="38" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="The Lightning Seeds" titre="Three Lions" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Lightning Seeds And Baddiel And Skinner" titre="Three Lions" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="39" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Space" titre="Female Of The Species" type="SONG" canBeMerged="true" deleted="false">
