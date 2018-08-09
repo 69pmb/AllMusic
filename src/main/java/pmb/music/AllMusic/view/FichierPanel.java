@@ -102,6 +102,7 @@ public class FichierPanel extends JPanel {
 	private JTextField rangeB;
 	private JTextField rangeE;
 	private JComboBox<String> cat;
+	private JComboBox<RecordType> type;
 	private JCheckBox sorted;
 	private JCheckBox deleted;
 	private JButton search;
@@ -218,6 +219,19 @@ public class FichierPanel extends JPanel {
 		catPanel.add(catLabel);
 		catPanel.add(cat);
 		header.add(catPanel);
+		// Type
+		JPanel typePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
+		type = new JComboBox<>();
+		type.addItem(null);
+		RecordType[] valuesType = RecordType.values();
+		for (int i = 0; i < valuesType.length; i++) {
+			type.addItem(valuesType[i]);
+		}
+		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		typePanel.add(typeLabel);
+		typePanel.add(type);
+		header.add(typePanel);
 		// Sorted
 		JPanel sortedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel sortedLabel = PanelUtils.createJLabel("Classé: ", 150);
@@ -306,7 +320,8 @@ public class FichierPanel extends JPanel {
 		});
 		header.add(hideCompoList);
 		// Delete Btn
-		JButton delete = PanelUtils.createJButton("<html>Supprimer les compositions sélectionnées</html>", 200, Constant.ICON_DELETE);
+		JButton delete = PanelUtils.createJButton("<html>Supprimer les compositions sélectionnées</html>", 200,
+				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
 			PanelUtils.deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel);
 			updateCompoTable(compositionList);
@@ -643,8 +658,13 @@ public class FichierPanel extends JPanel {
 	private void searchAction() {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
-		fichiers = new ArrayList<Fichier>(ImportXML.importXML(Constant.getFinalFilePath()).stream()
-				.map(Composition::getFiles).flatMap(List::stream)
+		fichiers = new ArrayList<Fichier>(ImportXML.importXML(Constant.getFinalFilePath()).stream().filter(c -> {
+			if (type.getSelectedItem() != null) {
+				return type.getSelectedItem().equals(c.getRecordType());
+			} else {
+				return true;
+			}
+		}).map(Composition::getFiles).flatMap(List::stream)
 				.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
 		if (CollectionUtils.isNotEmpty(fichiers)) {
 			CollectionUtils.filter(fichiers,
@@ -712,6 +732,7 @@ public class FichierPanel extends JPanel {
 		rangeB.setText("");
 		rangeE.setText("");
 		cat.setSelectedItem("");
+		type.setSelectedItem(null);
 		sorted.setSelected(false);
 		deleted.setSelected(false);
 		LOG.debug("End resetAction");
