@@ -121,13 +121,13 @@
   <Composition artist="Prince" titre="Sign 'O' the Times" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="42" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="Folsom Prison Blues" type="SONG" canBeMerged="false" deleted="true">
+  <Composition artist="Johnny Cash" titre="Folsom Prison Blues (Live at Folsom Prison)" type="SONG" canBeMerged="false" deleted="true">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="43" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Roy Orbison" titre="Only the Lonely" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="44" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Dr. Dre" titre="Nuthin' But a 'G' Thang" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dr. Dre" titre="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="45" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="James Brown" titre="Get Up (I Feel Like Being a) Sex Machine" type="SONG" canBeMerged="true" deleted="true">
@@ -886,7 +886,7 @@
   <Composition artist="George Jones" titre="He Stopped Loving Her Today" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="298" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Coolio" titre="Gangsta's Paradise (And L.V.)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Coolio" titre="Gangsta's Paradise" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="299" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="The Shadows" titre="Apache" type="SONG" canBeMerged="true" deleted="false">
@@ -1090,7 +1090,7 @@
   <Composition artist="Public Enemy" titre="Don't Believe the Hype" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="366" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Jackie Wilson" titre="Reet Petite (The Finest Girl You Ever Want to Meet)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jackie Wilson" titre="Reet Petite" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="367" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Loretta Lynn" titre="Coal Miner's Daughter" type="SONG" canBeMerged="true" deleted="false">
@@ -1105,7 +1105,7 @@
   <Composition artist="Richard Hell" titre="Blank Generation" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="371" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Stan Getz and Joao Gilberto" titre="The Girl from Ipanema" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Stan Getz And Joao Gilberto" titre="The Girl From Ipanema" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="372" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Bobby Darin" titre="Splish Splash" type="SONG" canBeMerged="true" deleted="false">
@@ -1390,7 +1390,7 @@
   <Composition artist="Weezer" titre="Buddy Holly" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="466" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Run DMC" titre="It's Like That" type="SONG" canBeMerged="false" deleted="false">
+  <Composition artist="Run D.M.C." titre="It's Like That" type="SONG" canBeMerged="false" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="467" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Aretha Franklin" titre="Think" type="SONG" canBeMerged="true" deleted="false">
@@ -2242,7 +2242,7 @@
   <Composition artist="A Guy Called Gerald" titre="Voodoo Ray" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="750" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="R. Kelly" titre="Ignition (Remix)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="R. Kelly" titre="Ignition" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="751" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Chuck Berry" titre="Sweet Little Sixteen" type="SONG" canBeMerged="true" deleted="true">
@@ -5671,7 +5671,7 @@
   <Composition artist="Oasis" titre="D'You Know What I Mean" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1893" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="Roots Manuva" titre="Witness (One Hope)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Roots Manuva" titre="Witness (1 Hope)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1894" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="James Brown" titre="Prisoner of Love" type="SONG" canBeMerged="true" deleted="false">
@@ -9079,7 +9079,7 @@
   <Composition artist="Johnny Mathis" titre="Chances Are" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="3029" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
-  <Composition artist="X-Press 2 And David Byrne" titre="Lazy" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="X-Press 2" titre="Lazy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="top_300_songs" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="3030" creationDate="08/08/2017 23:13:02" size="3000"/>
   </Composition>
   <Composition artist="Big Maceo" titre="Worried Life Blues" type="SONG" canBeMerged="true" deleted="false">
