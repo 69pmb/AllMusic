@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Jay-Z" titre="Empire State of Mind [And Alicia Keys]" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jay-Z And Alicia Keys" titre="Empire State Of Mind" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="13" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="16" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Missy Elliott" titre="Get Ur Freak On" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Missy Elliott" titre="Get Ur Freak On" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="17" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Justice" titre="We Are Your Friends" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Justice Vs. Simian" titre="We Are Your Friends" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="19" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Dizzee Rascal" titre="Fix Up, Look Sharp" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Dizzee Rascal" titre="Fix Up, Look Sharp" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="25" creationDate="25/05/2018 16:03:21" size="150"/>
+  </Composition>
+  <Composition artist="Crystal Castles" titre="Alice Practice" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="29" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Robyn" titre="With Every Heartbeat" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="30" creationDate="25/05/2018 16:03:21" size="150"/>
@@ -22,7 +25,7 @@
   <Composition artist="Kings Of Leon" titre="The Bucket" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="38" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Elbow" titre="One Day Like This" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Elbow" titre="One Day Like This" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="41" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Aphex Twin" titre="Come To Daddy" type="SONG" canBeMerged="true" deleted="false">
@@ -39,6 +42,9 @@
   </Composition>
   <Composition artist="Friendly Fires" titre="Paris" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="47" creationDate="25/05/2018 16:03:21" size="150"/>
+  </Composition>
+  <Composition artist="Foo Fighters" titre="Everlong" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="48" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Sugababes" titre="Overload" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="51" creationDate="25/05/2018 16:03:21" size="150"/>
@@ -58,7 +64,7 @@
   <Composition artist="Dizzee Rascal" titre="Bonkers" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="59" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Rihanna" titre="Umbrella [And Jay-Z]" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Rihanna" titre="Umbrella" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="63" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Kasabian" titre="Fire" type="SONG" canBeMerged="true" deleted="false">
@@ -97,7 +103,7 @@
   <Composition artist="Queens Of The Stone Age" titre="Feel Good Hit Of The Summer" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="82" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Kylie Minogue" titre="Can't Get You Out Of My Head" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Kylie Minogue" titre="Can't Get You Out Of My Head" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="83" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Dry Your Eyes" titre="Everybody Here Wants You" type="SONG" canBeMerged="true" deleted="false">
@@ -118,7 +124,7 @@
   <Composition artist="The Cribs" titre="Men's Needs" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="98" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Mystery Jets" titre="Two Doors Down" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Mystery Jets And Laura Marling" titre="Two Doors Down" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="100" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Art Brut" titre="Formed A Band" type="SONG" canBeMerged="true" deleted="false">
@@ -130,7 +136,7 @@
   <Composition artist="Lily Allen" titre="Smile" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="104" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Cornershop" titre="Brimful Of Asha" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Cornershop" titre="Brimful Of Asha (Fatboy Slim Remix)" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="105" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Radiohead" titre="Let Down" type="SONG" canBeMerged="true" deleted="false">
@@ -160,7 +166,7 @@
   <Composition artist="Wu Tang Clan" titre="Gravel Pit" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="116" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Aaliyah" titre="We Need A Resolution" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Aaliyah And Timbaland" titre="We Need A Resolution" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="119" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Mercury Rev" titre="Goddess On A Hiway" type="SONG" canBeMerged="true" deleted="false">
@@ -220,7 +226,7 @@
   <Composition artist="Morrissey" titre="First Of The Gang To Die" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="147" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Crystal Castles" titre="Crimewave" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Crystal Castles" titre="Crimewave" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="149" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Manic Street Preachers" titre="Australia" type="SONG" canBeMerged="true" deleted="false">

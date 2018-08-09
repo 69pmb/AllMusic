@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Lana Del Ray" titre="Video Games" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="1" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Tyler The Creator" titre="Yonkers" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="2" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Battles" titre="Ice Cream" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="6" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Tune-Yards" titre="Bizness" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="8" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Howler" titre="I Told You Once" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="9" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Metronomy" titre="The Look" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="11" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Kurt Vile" titre="Baby's Arms" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="12" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Niki And The Dove" titre="The Fox" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="13" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -13,13 +31,19 @@
   <Composition artist="Summer Camp" titre="I Want To" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="16" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Katy B" titre="Broken Record" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="17" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Azealia Banks" titre="212" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="18" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Milk Music" titre="Beyond Living" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="20" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Glasvegas" titre="The World Is Yours" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="24" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Rihanna" titre="We Found Love [And Calvin Harris]" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Rihanna" titre="We Found Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="26" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Little Dragon" titre="Ritual Union" type="SONG" canBeMerged="true" deleted="false">
@@ -55,13 +79,16 @@
   <Composition artist="Justice" titre="Civilization" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="40" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Metronomy" titre="She Wants" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="41" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Factory Floor" titre="Real Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="42" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Azari And III" titre="Reckless With Your Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="43" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Joe Goddard" titre="Gabriel" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Joe Goddard And Valentine" titre="Gabriel" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="44" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Iceage" titre="Broken Bone" type="SONG" canBeMerged="true" deleted="false">
