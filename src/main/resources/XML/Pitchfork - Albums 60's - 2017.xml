@@ -394,7 +394,7 @@
   <Composition artist="Leonard Cohen" titre="Songs From a Room" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Albums 60's - 2017" publishYear="2017" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="70" creationDate="23/07/2018 14:38:50" size="200"/>
   </Composition>
-  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Albums 60's - 2017" publishYear="2017" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="69" creationDate="23/07/2018 14:38:50" size="200"/>
   </Composition>
   <Composition artist="Simon And Garfunkel" titre="Bookends" type="ALBUM" canBeMerged="true" deleted="false">

@@ -76,7 +76,7 @@
   <Composition artist="Tee Grizzley" titre="First Day Out" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="26" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
-  <Composition artist="Superorganism" titre="Something For Your M.I.N.D." type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Superorganism" titre="Something For Your M.I.N.D." type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="25" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
   <Composition artist="DJ Khaled" titre="Wild Thoughts" type="SONG" canBeMerged="true" deleted="false">
@@ -85,7 +85,7 @@
   <Composition artist="Charli XCX" titre="Boys" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="23" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
-  <Composition artist="Spoon" titre="Hot Thoughts" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Spoon" titre="Hot Thoughts" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="22" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
   <Composition artist="Arcade Fire" titre="Everything Now" type="SONG" canBeMerged="true" deleted="true">
@@ -136,7 +136,7 @@
   <Composition artist="Migos And Lil Uzi Vert" titre="Bad and Boujee" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="6" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
-  <Composition artist="U2" titre="Lights of Home" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="U2" titre="Lights of Home" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="5" creationDate="17/12/2017 16:37:15" size="50"/>
   </Composition>
   <Composition artist="Cardi B" titre="Bodak Yellow" type="SONG" canBeMerged="true" deleted="true">

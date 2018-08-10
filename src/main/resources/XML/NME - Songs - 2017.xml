@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Lorde" titre="Green Light" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Lorde" titre="Green Light" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="1" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
   <Composition artist="Charli XCX" titre="Boys" type="SONG" canBeMerged="true" deleted="true">
@@ -13,10 +13,10 @@
   <Composition artist="Kendrick Lamar" titre="Humble" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="4" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
-  <Composition artist="Stormzy" titre="Big For Your Boots" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Stormzy" titre="Big For Your Boots" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="5" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
-  <Composition artist="Wolf Alice" titre="Don't Delete The Kisses" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Wolf Alice" titre="Don't Delete The Kisses" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="6" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
   <Composition artist="Calvin Harris" titre="Slide" type="SONG" canBeMerged="true" deleted="true">
@@ -25,7 +25,7 @@
   <Composition artist="Cardi B" titre="Bodak Yellow" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="8" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
-  <Composition artist="The Killers" titre="The Man" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Killers" titre="The Man" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="9" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
   <Composition artist="Selena Gomez" titre="Bad Liar" type="SONG" canBeMerged="true" deleted="true">
@@ -88,7 +88,7 @@
   <Composition artist="Lorde" titre="Supercut" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="29" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
-  <Composition artist="Superorganism" titre="Something For Your M.I.N.D." type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Superorganism" titre="Something For Your M.I.N.D." type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="30" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
   <Composition artist="Mount Eerie" titre="Real Death" type="SONG" canBeMerged="true" deleted="true">
@@ -148,7 +148,7 @@
   <Composition artist="The Horrors" titre="Something To Remember Me By" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="49" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
-  <Composition artist="SZA" titre="Drew Barrymore" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="SZA" titre="Drew Barrymore" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="50" creationDate="17/12/2017 16:16:00" size="50"/>
   </Composition>
 </ListCompositions>
