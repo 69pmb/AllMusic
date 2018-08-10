@@ -29,6 +29,7 @@ import pmb.music.AllMusic.utils.FichierUtils;
 
 /**
  * Classe pour nettoyer des fichiers.
+ * 
  * @see CleanFile#clearFile(File, boolean, String, String)
  */
 public class CleanFile {
@@ -42,38 +43,44 @@ public class CleanFile {
 	/**
 	 * Supprime toutes les lignes du fichier ne contenant pas des séparateurs,
 	 * possibilité de supprimer dans ces lignes des caractères particuliers.
+	 * 
 	 * @param file le fichier à nettoyer
 	 * @param isSorted si le fichier est trié
 	 * @param sep le séparateur du fichier
 	 * @param characterToRemove les caractères à supprimer
-	 * @param isBefore 
+	 * @param isBefore
 	 * @return un nouveau fichier nettoyé
 	 * @throws IOException
 	 */
-	public static File clearFile(File file, boolean isSorted, String sep, String characterToRemove, boolean isBefore) throws IOException {
+	public static File clearFile(File file, boolean isSorted, String sep, String characterToRemove, boolean isBefore)
+			throws IOException {
 		LOG.debug("Start clearFile");
-//		List<String> sepAsList = new LinkedList<>(Arrays.asList(Constant.getSeparators()));
+		// List<String> sepAsList = new
+		// LinkedList<>(Arrays.asList(Constant.getSeparators()));
 		List<String> sepAsList = new LinkedList<>();
 		if (StringUtils.isNotBlank(sep)) {
 			sepAsList.add(sep);
 		}
 		String line = "";
-		String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - Cleaned."
+		String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS
+				+ StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - Cleaned."
 				+ StringUtils.substringAfterLast(file.getName(), Constant.DOT);
 
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
-				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
-//			int i =0;
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
+				BufferedWriter writer = new BufferedWriter(
+						new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
+			// int i =0;
 			while ((line = br.readLine()) != null) {
 				boolean isDigit = true;
 				if (isSorted) {
 					// Si le fichier est trié, on ne garde que les lignes commencant par un chiffre
 					isDigit = StringUtils.isNumeric(StringUtils.substring(line, 0, 1));
 				}
-				if (isDigit && line.length()<MAXIMUM_LENGTH_LINE) {
+				if (isDigit && line.length() < MAXIMUM_LENGTH_LINE) {
 					writesLineIfContainsSepAndRemovesChar(characterToRemove, sepAsList, line, writer, isBefore);
 				}
-//				i++;
+				// i++;
 			}
 			writer.flush();
 		}
@@ -81,8 +88,8 @@ public class CleanFile {
 		return new File(exitFile);
 	}
 
-	private static void writesLineIfContainsSepAndRemovesChar(String characterToRemove, List<String> sepAsList, String line, BufferedWriter writer,
-			boolean isBefore) throws IOException {
+	private static void writesLineIfContainsSepAndRemovesChar(String characterToRemove, List<String> sepAsList,
+			String line, BufferedWriter writer, boolean isBefore) throws IOException {
 		String newLine = line;
 		for (String separator : sepAsList) {
 			if (StringUtils.containsIgnoreCase(newLine, separator)) {
@@ -98,39 +105,48 @@ public class CleanFile {
 	}
 
 	/**
-	 * Mofifie les fichiers spécifiés:
-	 * Remplace suivant le fichier modif.txt des caractères par d'autres. 
-	 * Supprime tous les diacritiques.
-	 * @param result 
-	 * @param args 
+	 * Mofifie les fichiers spécifiés: Remplace suivant le fichier modif.txt des
+	 * caractères par d'autres. Supprime tous les diacritiques.
+	 * 
+	 * @param result
+	 * @param args
 	 */
 	public static void miseEnForme(File folder, boolean isCompleteDirectory, List<String> result) {
 		LOG.debug("Start clearFile");
 		Set<Entry<String, String>> entrySet = getModifSet();
-		if(entrySet == null) {
+		if (entrySet == null) {
 			return;
 		}
-		
+
 		List<File> files;
-		if(!isCompleteDirectory) {
+		if (!isCompleteDirectory) {
+			// Un seul fichier
 			files = Arrays.asList(folder);
 		} else {
+			// Tous les fichiers du repertoire
 			files = new ArrayList<>();
 			String extention = StringUtils.substringAfterLast(folder.getName(), Constant.DOT);
 			FichierUtils.listFilesForFolder(folder.getParentFile(), files, extention, false);
 		}
-		
+
 		for (File file : files) {
 			boolean modify = false;
-			String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - MEF."
+			// Fichier de sortie
+			String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS
+					+ StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - MEF."
 					+ StringUtils.substringAfterLast(file.getName(), Constant.DOT);
 			String name = file.getName();
 			if (!Constant.getFinalFile().equals(name)) {
 				LOG.debug(name);
-				try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
-						BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
+				try (BufferedReader br = new BufferedReader(
+						new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
+						BufferedWriter writer = new BufferedWriter(
+								new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
 					String line;
 					while ((line = br.readLine()) != null) {
+						if (!ImportFile.isValidLine(line)) {
+							continue;
+						}
 						for (Entry<String, String> entry : entrySet) {
 							if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
 								line = StringUtils.replaceIgnoreCase(line, entry.getKey(), entry.getValue());
@@ -138,7 +154,9 @@ public class CleanFile {
 							}
 						}
 						if (StringUtils.endsWithIgnoreCase(name, Constant.TXT_EXTENSION)) {
-							String replaceAll = Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+							// Supprime les diacritiques et les accents
+							String replaceAll = Normalizer.normalize(line, Form.NFKD)
+									.replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
 							replaceAll = StringUtils.stripAccents(replaceAll);
 							if (!StringUtils.endsWithIgnoreCase(line, replaceAll)) {
 								modify = true;
@@ -156,10 +174,6 @@ public class CleanFile {
 			if (modify) {
 				LOG.debug(file + " modifié");
 				result.add(file.getName());
-//				if (!file.delete()) {
-//					LOG.warn(file + " n'a pas pu etre supprimé");
-//				}
-//				new File(exitFile).renameTo(file);
 			} else {
 				if (!new File(exitFile).delete()) {
 					LOG.warn(exitFile + " n'a pas pu etre supprimé");
@@ -172,7 +186,8 @@ public class CleanFile {
 	private static Set<Entry<String, String>> getModifSet() {
 		File modifFile = new File(Constant.RESOURCES_ABS_DIRECTORY + "modif.txt");
 		Map<String, String> modif = new HashMap<>();
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(modifFile), Constant.ANSI_ENCODING));) {
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(modifFile), Constant.ANSI_ENCODING));) {
 			String line;
 			while ((line = br.readLine()) != null) {
 				String[] split = StringUtils.split(line, ":");
