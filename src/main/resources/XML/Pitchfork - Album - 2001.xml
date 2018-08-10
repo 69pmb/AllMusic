@@ -43,7 +43,7 @@
   <Composition artist="Mum" titre="Yesterday Was Dramatic, Today Is OK" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="7" creationDate="24/07/2018 17:57:14" size="20"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="6" creationDate="24/07/2018 17:57:14" size="20"/>
   </Composition>
   <Composition artist="Circulatory System" titre="Circulatory System" type="ALBUM" canBeMerged="true" deleted="false">

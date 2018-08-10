@@ -67,7 +67,7 @@
   <Composition artist="Michael Jackson" titre="Beat It" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="22" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Roy Orbison" titre="Oh, Pretty Woman" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Roy Orbison" titre="Oh, Pretty Woman" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="23" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="false">

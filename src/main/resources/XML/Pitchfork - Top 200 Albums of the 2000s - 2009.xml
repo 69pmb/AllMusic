@@ -88,7 +88,7 @@
   <Composition artist="Basement Jaxx" titre="Rooty" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Top 200 Albums of the 2000s - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="33" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Top 200 Albums of the 2000s - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="34" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Spoon" titre="Ga Ga Ga Ga Ga" type="ALBUM" canBeMerged="true" deleted="false">
