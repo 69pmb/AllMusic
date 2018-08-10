@@ -1,154 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Wye Oak" titre="Civilian" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="50" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="40 Watt Sun" titre="The Inside Room" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="49" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Tim Hecker" titre="Ravedeath, 1972" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="48" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Drive-By Truckers" titre="Go-Go Boots" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="47" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Hammers of Misfortune" titre="17th Street" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="46" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Charles Bradley" titre="No Time For Dreaming" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="45" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Eleanor Friedberger" titre="Last Summer" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="44" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Ambrose Akinmusire" titre="When the Heart Emerges Glistening" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="43" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="The Horrors" titre="Skying" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="42" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Foo Fighters" titre="Wasting Light" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="41" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="The War on Drugs" titre="Slave Ambient" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="40" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Okkervil River" titre="I Am Very Far" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="39" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="DJ Quik" titre="The Book of David" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="38" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Cults" titre="Cults" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="37" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Panda Bear" titre="Tomboy" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="36" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="EMA" titre="Past Life Martyred Saints" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="35" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Big K.R.I.T." titre="ReturnofEva" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="34" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Paul Simon" titre="So Beautiful or So What" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="33" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Washed Out" titre="Within and Without" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="32" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="The Mountain Goats" titre="All Eternals Deck" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="31" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Shabazz Palaces" titre="Black Up" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="30" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Ryan Adams" titre="Ashes And Fire" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="29" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="TV on the Radio" titre="Nine Types of Light" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="28" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Wilco" titre="The Whole Love" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="27" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Peter Bjorn and John" titre="Gimme Some" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="26" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Florence and the Machine" titre="Ceremonials" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="25" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Destroyer" titre="Kaputt" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="24" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Lykke Li" titre="Wounded Rhymes" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="23" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Wild Flag" titre="Wild Flag" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="22" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="The Antlers" titre="Burst Apart" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="21" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Elbow" titre="Build a Rocket Boys!" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="20" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Tom Waits" titre="Bad As Me" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="19" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Preservation Hall Jazz Band And The Del McCoury Band" titre="American Legacies" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="18" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Raphael Saadiq" titre="Stone Rollin'" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="17" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Girls" titre="Father, Son, Holy Ghost" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="16" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Yuck" titre="Yuck" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="15" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="James Blake" titre="James Blake" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="14" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="The Decemberists" titre="The King Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="13" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Adele" titre="21" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="12" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Kurt Vile" titre="Smoke Ring for My Halo" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="11" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Radiohead" titre="The King of Limbs" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="10" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Gillian Welch" titre="The Harrow And The Harvest" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="9" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="PJ Harvey" titre="Let England Shake" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="8" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="St. Vincent" titre="Strange Mercy" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="7" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="The Weeknd" titre="House of Balloons" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="6" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="M83" titre="Hurry Up, We're Dreaming" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="5" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="tUnE-yArDs" titre="w h o k i l l" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="4" creationDate="09/08/2018 09:14:53" size="50"/>
-  </Composition>
-  <Composition artist="Fucked Up" titre="David Comes to Life" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="3" creationDate="09/08/2018 09:14:53" size="50"/>
+  <Composition artist="Fleet Foxes" titre="Helplessness Blues" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="1" creationDate="09/08/2018 09:14:53" size="75"/>
   </Composition>
   <Composition artist="Bon Iver" titre="Bon Iver, Bon Iver" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="2" creationDate="09/08/2018 09:14:53" size="50"/>
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="2" creationDate="09/08/2018 09:14:53" size="75"/>
   </Composition>
-  <Composition artist="Fleet Foxes" titre="Helplessness Blues" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="1" creationDate="09/08/2018 09:14:53" size="50"/>
+  <Composition artist="Fucked Up" titre="David Comes to Life" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="3" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="tUnE-yArDs" titre="w h o k i l l" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="4" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="M83" titre="Hurry Up, We're Dreaming" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="5" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Weeknd" titre="House of Balloons" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="6" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="St. Vincent" titre="Strange Mercy" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="7" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="PJ Harvey" titre="Let England Shake" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="8" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Gillian Welch" titre="The Harrow And The Harvest" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="9" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="The King of Limbs" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="10" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Kurt Vile" titre="Smoke Ring for My Halo" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="11" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Adele" titre="21" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="12" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Decemberists" titre="The King is Dead" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="13" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="James Blake" titre="James Blake" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="14" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Yuck" titre="Yuck" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="15" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Girls" titre="Father, Son, Holy Ghost" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="16" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Raphael Saadiq" titre="Stone Rollin" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="17" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Del McCoury Band And Preservation Hall Jazz Band" titre="American Legacies" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="18" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Tom Waits" titre="Bad as Me" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="19" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Elbow" titre="Build a Rocket Boys!" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="20" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Antlers" titre="Burst Apart" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="21" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Wild Flag" titre="Wild Flag" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="22" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Lykke Li" titre="Wounded Rhymes" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="23" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Destroyer" titre="Kaputt" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="24" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Florence And The Machine" titre="Ceremonials" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="25" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Peter Bjorn and John" titre="Gimme Some" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="26" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Wilco" titre="The Whole Love" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="27" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="TV on the Radio" titre="Nine Types of Light" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="28" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Ryan Adams" titre="Ashes And Fire" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="29" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Shabazz Palaces" titre="Black Up" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="30" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Mountain Goats" titre="All Eternals Deck" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="31" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Washed Out" titre="Within and Without" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="32" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Paul Simon" titre="So Beautiful or So What" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="33" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Big K.R.I.T." titre="Return Of 4eva" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="34" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="EMA" titre="Past Life Martyred Saints" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="35" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Panda Bear" titre="Tomboy" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="36" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Cults" titre="Cults" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="37" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="DJ Quik" titre="Book of David" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="38" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Okkervil River" titre="I Am Very Far" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="39" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The War on Drugs" titre="Slave Ambient" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="40" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Foo Fighters" titre="Wasting Light" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="41" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Horrors" titre="Skying" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="42" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Ambrose Akinmusire" titre="When the Heart Emerges Glistening" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="43" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Eleanor Friedberger" titre="Last Summer" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="44" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Charles Bradley" titre="No Time for Dreaming" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="45" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Hammers of Misfortune" titre="17th Street" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="46" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Drive-By Truckers" titre="Go-Go Boots" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="47" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Tim Hecker" titre="Ravedeath, 1972" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="48" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="40 Watt Sun" titre="Inside Room" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="49" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Watt Sun" titre="Inside Room" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="40" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Wye Oak" titre="Civilian" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="50" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Smith Westerns" titre="Dye It Blonde" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="51" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Black Lips" titre="Arabia Mountain" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="52" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Colin Stetson" titre="New History Warfare Vol. 2: Judges" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="53" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="My Morning Jacket" titre="Circuital" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="54" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="They Might Be Giants" titre="Join Us" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="55" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Kanye West And Jay-Z" titre="Watch the Throne" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="56" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Battles" titre="Gloss Drop" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="57" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Mogwai" titre="Hardcore Will Never Die, But You Will" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="58" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Bright Eyes" titre="The People's Key" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="59" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Feist" titre="Metals" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="60" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Mastodon" titre="The Hunter" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="61" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Austra" titre="Feel It Break" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="62" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Joy Formidable" titre="The Big Roar" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="63" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Dawes" titre="Nothing Is Wrong" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="64" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Mayer Hawthorne" titre="How Do You Do" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="65" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Atlas Sound" titre="Parallax" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="66" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Airborne Toxic Event" titre="All At Once" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="67" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Slow Club" titre="Paradise" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="68" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Lucinda Williams" titre="Blessed" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="69" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Field" titre="Looping State of Mind" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="70" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Gang Gang Dance" titre="Eye Contact" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="71" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="The Vaccines" titre="What Did You Expect From The Vaccines?" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="72" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Zola Jesus" titre="Conatus" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="73" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="Amon Tobin" titre="ISAM" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="74" creationDate="09/08/2018 09:14:53" size="75"/>
+  </Composition>
+  <Composition artist="My Brightest Diamond" titre="All Things Will Unwind" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="PopMatters" fileName="PopMatters - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="75" creationDate="09/08/2018 09:14:53" size="75"/>
   </Composition>
 </ListCompositions>
