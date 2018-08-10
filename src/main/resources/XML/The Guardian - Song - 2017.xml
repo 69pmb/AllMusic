@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Lorde" titre="Green Light" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Lorde" titre="Green Light" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="1" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="Carly Rae Jepsen" titre="Cut To The Feeling" type="SONG" canBeMerged="true" deleted="true">
@@ -16,10 +16,10 @@
   <Composition artist="Little Mix" titre="Power" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="5" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="Tove Lo" titre="disco tits" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Tove Lo" titre="disco tits" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="6" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="St. Vincent" titre="Los Ageless" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="St. Vincent" titre="Los Ageless" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="7" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="Dua Lipa" titre="New Rules" type="SONG" canBeMerged="true" deleted="true">
@@ -58,7 +58,7 @@
   <Composition artist="BROCKHAMPTON" titre="SWEET" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="19" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="Stormzy" titre="Big For Your Boots" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Stormzy" titre="Big For Your Boots" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="20" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="J HUS" titre="Clartin" type="SONG" canBeMerged="true" deleted="false">
@@ -85,7 +85,7 @@
   <Composition artist="Future" titre="Mask Off" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="28" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="SZA" titre="Love Galore" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="SZA" titre="Love Galore" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="29" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="Drake" titre="Passionfruit" type="SONG" canBeMerged="true" deleted="true">
@@ -118,7 +118,7 @@
   <Composition artist="Baxter Dury" titre="Miami" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="39" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="Superorganism" titre="Something For Your M.I.N.D." type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Superorganism" titre="Something For Your M.I.N.D." type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="40" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="Tyler, The Creator" titre="Boredom" type="SONG" canBeMerged="true" deleted="false">
@@ -139,7 +139,7 @@
   <Composition artist="Thundercat" titre="Friend Zone" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="46" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="Tyler, The Creator" titre="911 / Mr. Lonely" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Tyler, The Creator" titre="911 / Mr. Lonely" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="47" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="The Rhythm Method" titre="Something For The Weekend" type="SONG" canBeMerged="true" deleted="false">
@@ -169,10 +169,10 @@
   <Composition artist="Charlotte Gainsbourg" titre="Deadly Valentine" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="56" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="Wolf Alice" titre="Don't Delete The Kisses" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Wolf Alice" titre="Don't Delete The Kisses" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="57" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="The Black Madonna" titre="He Is the Voice I Hear" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Black Madonna" titre="He Is the Voice I Hear" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="58" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="Powerdance" titre="A Safe and Happy Place" type="SONG" canBeMerged="true" deleted="false">
@@ -244,7 +244,7 @@
   <Composition artist="The War On Drugs" titre="Thinking Of A Place" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="81" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="Courtney Barnett" titre="Over Everything" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Courtney Barnett" titre="Over Everything" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="82" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="This Is The Kit" titre="Moonshine Freeze" type="SONG" canBeMerged="true" deleted="false">
@@ -274,7 +274,7 @@
   <Composition artist="Nadia Reid" titre="Right on Time" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="91" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
-  <Composition artist="St. Vincent" titre="New York" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="St. Vincent" titre="New York" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="92" creationDate="28/12/2017 14:58:16" size="100"/>
   </Composition>
   <Composition artist="Hurray For The Riff Raff" titre="Pa'lante" type="SONG" canBeMerged="true" deleted="true">

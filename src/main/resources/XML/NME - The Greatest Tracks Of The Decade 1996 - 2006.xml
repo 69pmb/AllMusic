@@ -73,7 +73,7 @@
   <Composition artist="Kelis" titre="Milkshake" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Greatest Tracks Of The Decade 1996 - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1996" rangeDateEnd="2006" sorted="true" classement="48" creationDate="05/01/2018 13:17:17" size="50"/>
   </Composition>
-  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The Greatest Tracks Of The Decade 1996 - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1996" rangeDateEnd="2006" sorted="true" classement="49" creationDate="05/01/2018 13:17:17" size="50"/>
   </Composition>
 </ListCompositions>

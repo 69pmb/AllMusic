@@ -64,7 +64,7 @@
   <Composition artist="The Prodigy" titre="Experience" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Classic Albums" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="22" creationDate="02/07/2017 07:08:56" size="40"/>
   </Composition>
-  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Classic Albums" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="23" creationDate="02/07/2017 07:08:56" size="40"/>
   </Composition>
   <Composition artist="The Clash" titre="Sandinista!" type="ALBUM" canBeMerged="true" deleted="false">

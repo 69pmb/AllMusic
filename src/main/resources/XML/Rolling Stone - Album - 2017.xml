@@ -100,7 +100,7 @@
   <Composition artist="Father John Misty" titre="Pure Comedy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="19" creationDate="17/12/2017 16:36:26" size="50"/>
   </Composition>
-  <Composition artist="St. Vincent" titre="Masseduction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="St. Vincent" titre="Masseduction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="18" creationDate="17/12/2017 16:36:26" size="50"/>
   </Composition>
   <Composition artist="Harry Styles" titre="Harry Styles" type="ALBUM" canBeMerged="true" deleted="false">

@@ -31,7 +31,7 @@
   <Composition artist="Rae Sremmurd" titre="Black Beatles" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="10" creationDate="08/08/2017 23:13:02" size="50"/>
   </Composition>
-  <Composition artist="Young M.A" titre="Ooouuu" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Young M.A" titre="Ooouuu" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="11" creationDate="08/08/2017 23:13:02" size="50"/>
   </Composition>
   <Composition artist="Red Hot Chili Peppers" titre="Dark Necessities" type="SONG" canBeMerged="true" deleted="false">
@@ -55,7 +55,7 @@
   <Composition artist="The Monkees" titre="Me And Magdalena" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="18" creationDate="08/08/2017 23:13:02" size="50"/>
   </Composition>
-  <Composition artist="Danny Brown" titre="Really Doe" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Danny Brown" titre="Really Doe" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="19" creationDate="08/08/2017 23:13:02" size="50"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="That Old Black Magic" type="SONG" canBeMerged="true" deleted="false">
