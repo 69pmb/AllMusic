@@ -64,7 +64,7 @@
   <Composition artist="Lil Peep" titre="The Brightside" type="SONG" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="20" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
-  <Composition artist="Sampha" titre="Plastic 100AÂ°C" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Sampha" titre="Plastic 100°C" type="SONG" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="21" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
   <Composition artist="Migos" titre="T-Shirt" type="SONG" canBeMerged="true" deleted="false">
@@ -298,7 +298,7 @@
   <Composition artist="Amadou And Mariam" titre="Bofou Safou" type="SONG" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="99" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
-  <Composition artist="Slowdive" titre="Sugar For The Pill" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Slowdive" titre="Sugar For The Pill" type="SONG" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Song - 2017" publishYear="2017" categorie="YEAR" rangeDateBegin="2017" rangeDateEnd="2017" sorted="true" classement="100" creationDate="30/12/2017 18:48:27" size="100"/>
   </Composition>
 </ListCompositions>
