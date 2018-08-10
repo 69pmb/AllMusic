@@ -61,7 +61,7 @@
   <Composition artist="The Books" titre="The Lemon of Pink" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Top 100 Albums of 2000–2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="2000" rangeDateEnd="2004" sorted="true" classement="20" creationDate="26/07/2018 12:31:01" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Top 100 Albums of 2000–2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="2000" rangeDateEnd="2004" sorted="true" classement="21" creationDate="26/07/2018 12:31:01" size="100"/>
   </Composition>
   <Composition artist="The Microphones" titre="The Glow, Pt. II" type="ALBUM" canBeMerged="true" deleted="false">

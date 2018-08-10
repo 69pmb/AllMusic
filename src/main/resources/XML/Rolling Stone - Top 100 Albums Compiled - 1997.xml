@@ -154,7 +154,7 @@
   <Composition artist="Bob Dylan" titre="Desire" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="87" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="R.E.M." titre="Reckoning" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="R.E.M." titre="Reckoning" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="88" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Scott Walker" titre="Tilt" type="ALBUM" canBeMerged="true" deleted="false">

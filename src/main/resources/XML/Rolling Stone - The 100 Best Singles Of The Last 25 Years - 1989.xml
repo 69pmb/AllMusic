@@ -127,7 +127,7 @@
   <Composition artist="The Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="42" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Roy Orbison" titre="Oh, Pretty Woman" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Roy Orbison" titre="Oh, Pretty Woman" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="43" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
