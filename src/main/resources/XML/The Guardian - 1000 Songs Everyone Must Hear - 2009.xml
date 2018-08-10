@@ -91,7 +91,7 @@
   <Composition artist="Dion" titre="Born To Be with You" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="30" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Fats Domino" titre="Blueberry Hill" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Fats Domino" titre="Blueberry Hill" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="31" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Visions of Johanna" type="SONG" canBeMerged="true" deleted="false">
@@ -1813,7 +1813,7 @@
   <Composition artist="Impressions" titre="Check Out Your Mind" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="604" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Impressions" titre="People Get Ready" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Impressions" titre="People Get Ready" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="605" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Jam" titre="Eton Rifles" type="SONG" canBeMerged="true" deleted="false">
@@ -2278,7 +2278,7 @@
   <Composition artist="Nirvana" titre="Lithium" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="759" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Notorious BIG" titre="Mo Money Mo Problems" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Notorious BIG" titre="Mo Money Mo Problems" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="760" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Notorious BIG" titre="Suicidal Thoughts" type="SONG" canBeMerged="true" deleted="false">
