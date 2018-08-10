@@ -237,7 +237,7 @@ public class BatchPanel extends JPanel {
 			displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				fileResult = BatchUtils.cleanHistory();
-				displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
+				displayText("End cleanHistory: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		PanelUtils.addComponent(clear, cleanHistory, Component.RIGHT_ALIGNMENT, 100);
@@ -259,7 +259,7 @@ public class BatchPanel extends JPanel {
 			displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				fileResult = BatchUtils.findSuspiciousComposition();
-				displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
+				displayText("End findSuspiciousComposition: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		PanelUtils.addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -281,7 +281,7 @@ public class BatchPanel extends JPanel {
 			displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				fileResult = BatchUtils.findDuplicateTitleComposition();
-				displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
+				displayText("End findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		PanelUtils.addComponent(duplicateTitle, duplicateTitleBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -303,7 +303,7 @@ public class BatchPanel extends JPanel {
 			displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				fileResult = BatchUtils.findIncorrectFileNames();
-				displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime());
+				displayText("End findIncorectFileNames: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		PanelUtils.addComponent(validate, validateBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -325,7 +325,7 @@ public class BatchPanel extends JPanel {
 			displayText("Start statistic: " + MiscUtils.getCurrentTime());
 			new Thread(() -> {
 				fileResult = BatchUtils.stat();
-				displayText("Start statistic: " + MiscUtils.getCurrentTime());
+				displayText("End statistic: " + MiscUtils.getCurrentTime());
 			}).start();
 		});
 		PanelUtils.addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);
