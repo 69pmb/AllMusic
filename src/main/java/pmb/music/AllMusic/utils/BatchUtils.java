@@ -95,11 +95,11 @@ public class BatchUtils {
 		addLine(result, "Statistiques sur les tops annuels: ", true);
 		Map<Integer, Integer> songs = importXML.stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
 				.map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie().equals(Cat.YEAR))
-				.collect(Collectors.groupingBy(Fichier::getPublishYear, Collectors
+				.collect(Collectors.groupingBy(Fichier::getRangeDateBegin, Collectors
 						.collectingAndThen(Collectors.mapping(Fichier::getFileName, Collectors.toSet()), Set::size)));
 		Map<Integer, Integer> albums = importXML.stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
 				.map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie().equals(Cat.YEAR))
-				.collect(Collectors.groupingBy(Fichier::getPublishYear, Collectors
+				.collect(Collectors.groupingBy(Fichier::getRangeDateBegin, Collectors
 						.collectingAndThen(Collectors.mapping(Fichier::getFileName, Collectors.toSet()), Set::size)));
 		int min = Stream.concat(songs.keySet().stream(), albums.keySet().stream()).mapToInt(Integer::intValue).min()
 				.getAsInt();
@@ -668,7 +668,6 @@ public class BatchUtils {
 			if (!"0".equals(year)) {
 				criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
 				criteria.put(SearchUtils.CRITERIA_DATE_END, year);
-				criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 			}
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
@@ -686,7 +685,7 @@ public class BatchUtils {
 					row.add(composition.getTitre());
 					row.add(String.valueOf(composition.getFiles().get(0).getClassement()));
 					if ("0".equals(year)) {
-						row.add(String.valueOf(composition.getFiles().get(0).getPublishYear()));
+						row.add(String.valueOf(composition.getFiles().get(0).getRangeDateBegin()));
 					}
 					temp.add(row);
 				}
@@ -738,7 +737,6 @@ public class BatchUtils {
 		if (!"0".equals(year)) {
 			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
 			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
-			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 		}
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false);
@@ -769,7 +767,6 @@ public class BatchUtils {
 		if (!"0".equals(year)) {
 			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
 			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
-			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 		}
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
@@ -784,7 +781,7 @@ public class BatchUtils {
 				if (!"0".equals(year)) {
 					row.add(composition.getRecordType().toString());
 				} else {
-					row.add(String.valueOf(composition.getFiles().get(0).getPublishYear()));
+					row.add(String.valueOf(composition.getFiles().get(0).getRangeDateBegin()));
 				}
 				Integer points = composition.getFiles().stream().map(Fichier::getClassement).filter(rank -> rank < 10)
 						.reduce(0, (a, b) -> a + 20 * (11 - b));
@@ -812,7 +809,6 @@ public class BatchUtils {
 		if (!"0".equals(year)) {
 			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
 			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
-			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 		}
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
