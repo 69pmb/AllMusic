@@ -6,6 +6,7 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -49,7 +50,13 @@ public class CompositionUtils {
 	public static Composition compoExist(List<Composition> compos, Composition c) {
 		Composition res = null;
 		JaroWinklerDistance jaro = new JaroWinklerDistance();
-		for (Composition composition : compos) {
+		Iterator<Composition> iterator = compos.iterator();
+		while (iterator.hasNext()) {
+			Composition composition = iterator.next();
+			if (composition == null) {
+				LOG.error("null: " + composition);
+				continue;
+			}
 			if (c.getRecordType().equals(composition.getRecordType())) {
 				// Suppression de la ponctuation
 				String compoTitre = SearchUtils.removePunctuation(composition.getTitre());
@@ -396,8 +403,8 @@ public class CompositionUtils {
 	 * @param isDeleted {@code boolean} si la composition est supprimée
 	 * @throws MyException
 	 */
-	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre, String newType, boolean isDeleted)
-			throws MyException {
+	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre, String newType,
+			boolean isDeleted) throws MyException {
 		LOG.debug("Start modifyCompositionsInFiles");
 		for (Fichier file : toModif.getFiles()) {
 			// Récupération des compositions du fichier XML
