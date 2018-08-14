@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 import javax.swing.JTextArea;
@@ -98,10 +99,10 @@ public final class ImportXML {
 			// final.xml
 			if (!finalFile.equalsIgnoreCase(fileXML.getName())) {
 				List<Composition> importXML = ImportXML.importXML(fileXML.getAbsolutePath());
-				if (RecordType.ALBUM.equals(importXML.get(0).getRecordType())) {
-					compoFusionAlbum.addAll(importXML);
-				} else {
+				if (RecordType.SONG.equals(importXML.get(0).getRecordType())) {
 					compoFusionSong.addAll(importXML);
+				} else {
+					compoFusionAlbum.addAll(importXML);
 				}
 			}
 		}
@@ -124,23 +125,24 @@ public final class ImportXML {
 	}
 
 	private static List<Composition> fusion(final JTextArea resultLabel, List<Composition> compoFusion,
-			List<Composition> compoFinal, int i, int modulo, BigDecimal sizeBG) {
-		for (Composition compo : compoFusion) {
-			Composition compoExist = CompositionUtils.compoExist(compoFinal, compo);
+			List<Composition> compoFinal, int init, int modulo, BigDecimal sizeBG) {
+		final AtomicInteger count = new AtomicInteger(init);
+		compoFusion.parallelStream().forEach(compo -> {
+			Composition compoExist = CompositionUtils.compoExist(new ArrayList<>(compoFinal), compo);
 			if (compoExist == null) {
 				compoFinal.add(compo);
 			} else {
 				compoExist.getFiles().addAll(compo.getFiles());
 				compoExist.setDeleted(compoExist.isDeleted() || compo.isDeleted());
 			}
-			if (i % modulo == 0) {
+			if (count.incrementAndGet() % modulo == 0) {
 				// Affiche dans l'ihm le pourcentage du calcul de fusion
-				updateResultLabel(Arrays.asList("Fusion à " + BigDecimal.valueOf(100D).setScale(2)
-						.multiply(new BigDecimal(i)).divide(sizeBG, RoundingMode.HALF_UP).doubleValue() + "%"),
+				updateResultLabel(Arrays
+						.asList("Fusion à " + BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(count.get()))
+								.divide(sizeBG, RoundingMode.HALF_UP).doubleValue() + "%"),
 						resultLabel);
 			}
-			i++;
-		}
+		});
 		return compoFinal;
 	}
 
