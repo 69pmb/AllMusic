@@ -1,12 +1,13 @@
 package pmb.music.AllMusic;
 
 import java.awt.EventQueue;
+import java.util.Arrays;
 import java.util.Optional;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
-import javax.swing.UIManager;
 import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
 import org.apache.log4j.Logger;
@@ -34,6 +35,7 @@ public class AllMusic {
 	 */
 	public static void main(String[] args) {
 		LOG.debug("Lancement de AllMusic");
+		Arrays.asList(args).stream().forEach(LOG::debug);
 		Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
 			public void uncaughtException(Thread t, Throwable e) {
 				LOG.error("An uncaught exception has been thrown: ", e);
@@ -59,7 +61,8 @@ public class AllMusic {
 			LOG.error("Impossible d'appliquer le style demandé", e);
 		}
 		EventQueue.invokeLater(() -> {
-			final BasicFrame f = new BasicFrame();
+			boolean withArtist = args.length > 0 ? Boolean.parseBoolean(args[0]) : true;
+			final BasicFrame f = new BasicFrame(withArtist);
 			JFrame.setDefaultLookAndFeelDecorated(true);
 			JDialog.setDefaultLookAndFeelDecorated(true);
 			f.setExtendedState(JFrame.MAXIMIZED_BOTH);
