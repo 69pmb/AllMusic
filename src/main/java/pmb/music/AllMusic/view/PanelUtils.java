@@ -196,7 +196,7 @@ public class PanelUtils {
 			}
 		}
 		LOG.debug("End keyShortcutAction, no result");
-		return -1;
+		return selectedRow != -1 ? keyShortcutAction(e, -1, sortedColumn) : -1;
 	}
 
 	/**
