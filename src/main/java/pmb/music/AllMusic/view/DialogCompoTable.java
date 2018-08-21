@@ -8,6 +8,8 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
@@ -20,8 +22,11 @@ import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.RowSorter.SortKey;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+import javax.swing.event.RowSorterEvent;
+import javax.swing.event.RowSorterListener;
 
 import org.apache.log4j.Logger;
 
@@ -49,6 +54,8 @@ public class DialogCompoTable extends JDialog {
 	private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "" };
 
 	private JTable table;
+	private Integer sortedColumn;
+	private int selectedRow = -1;
 
 	/**
 	 * Constructeur.
@@ -92,6 +99,33 @@ public class DialogCompoTable extends JDialog {
 		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, true, false, null),
 				new Vector(Arrays.asList(header))));
 		table.getRowSorter().toggleSortOrder(INDEX_RANK);
+		table.getRowSorter().addRowSorterListener(new RowSorterListener() {
+			@Override
+			public void sorterChanged(RowSorterEvent e) {
+				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+					List<SortKey> sortKeys = e.getSource().getSortKeys();
+					if (!sortKeys.isEmpty()) {
+						sortedColumn = sortKeys.get(0).getColumn();
+					}
+				}
+			}
+		});
+		table.addKeyListener(new KeyListener() {
+			@Override
+			public void keyTyped(KeyEvent e) {
+				// Nothing to do
+			}
+
+			@Override
+			public void keyReleased(KeyEvent e) {
+				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
+			}
+
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// Nothing to do
+			}
+		});
 		table.addMouseListener(new MouseAdapter() {
 
 			@Override
