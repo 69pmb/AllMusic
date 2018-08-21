@@ -97,14 +97,19 @@ public class ArtistPanel extends JPanel {
 	private int selectedRow = -1;
 
 	private transient Thread updateArtistThread;
+	private boolean withArtist;
 
 	/**
 	 * Génère le panel artiste.
+	 * 
+	 * @param withArtist if true the artist panel is displayed and the data is
+	 *            calculated
 	 */
 	@SuppressWarnings("unchecked")
-	public ArtistPanel() {
+	public ArtistPanel(boolean withArtist) {
 		super();
 		LOG.debug("Start ArtistPanel");
+		this.withArtist = withArtist;
 		this.setLayout(new BorderLayout());
 
 		JPanel header = new JPanel();
@@ -269,6 +274,9 @@ public class ArtistPanel extends JPanel {
 	 */
 	public void updateArtistPanel() {
 		LOG.debug("Start updateArtistPanel");
+		if (!withArtist) {
+			return;
+		}
 		if (updateArtistThread == null || !updateArtistThread.isAlive()) {
 			startUpdateArtistThread();
 		} else {
@@ -285,6 +293,9 @@ public class ArtistPanel extends JPanel {
 	}
 
 	public void interruptUpdateArtist() {
+		if (!withArtist) {
+			return;
+		}
 		updateArtistThread.interrupt();
 	}
 

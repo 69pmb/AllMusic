@@ -21,12 +21,13 @@ public class BasicFrame extends JFrame {
 
 	/**
 	 * Construit la fenetre principale, ajoute le menu et les onglets.
+	 * @param withArtist if true the artist panel is displayed
 	 */
-	public BasicFrame() {
+	public BasicFrame(boolean withArtist) {
 		super(Constant.DEFAULT_TITLE);
 		LOG.debug("Start BasicFrame");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setTab(new Onglet(this));
+		this.setTab(new Onglet(this, withArtist));
 		this.getContentPane().add(getTab(), BorderLayout.EAST);
 		this.setMenuPanel(new MenuPanel(this));
 		this.getContentPane().add(getMenuPanel(), BorderLayout.WEST);

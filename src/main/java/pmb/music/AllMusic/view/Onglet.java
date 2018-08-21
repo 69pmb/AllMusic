@@ -8,7 +8,6 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-import java.awt.event.KeyEvent;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -42,8 +41,9 @@ public class Onglet extends JPanel {
 	 * Génère les onglets.
 	 * 
 	 * @param myFrame la fenetre principale
+	 * @param withArtist if true the artist panel is displayed
 	 */
-	public Onglet(final BasicFrame myFrame) {
+	public Onglet(final BasicFrame myFrame, boolean withArtist) {
 		LOG.debug("Start Onglet");
 		onglets = new JTabbedPane(SwingConstants.TOP);
 		final JPanel panel = new JPanel();
@@ -53,7 +53,7 @@ public class Onglet extends JPanel {
 		onglets.setPreferredSize(dim);
 		Score score = initStats();
 
-		ArtistPanel artist = new ArtistPanel();
+		ArtistPanel artist = new ArtistPanel(withArtist);
 		ImportPanel importFile = new ImportPanel(artist);
 		List<String> authorList = getAuthorList();
 		SearchPanel search = new SearchPanel(artist, getArtistList(), getTitleList(), authorList, score);
@@ -61,16 +61,12 @@ public class Onglet extends JPanel {
 		BatchPanel batch = new BatchPanel(score);
 
 		onglets.addTab(Constant.ONGLET_SEARCH, search);
-		onglets.setMnemonicAt(0, KeyEvent.VK_1);
-		onglets.addTab(Constant.ONGLET_ARTIST, artist);
-		onglets.setMnemonicAt(1, KeyEvent.VK_2);
+		if (withArtist) {
+			onglets.addTab(Constant.ONGLET_ARTIST, artist);
+		}
 		onglets.addTab(Constant.ONGLET_FICHIER, fichier);
-		onglets.setMnemonicAt(2, KeyEvent.VK_3);
 		onglets.addTab(Constant.ONGLET_IMPORT, importFile);
-		onglets.setMnemonicAt(3, KeyEvent.VK_4);
 		onglets.addTab(Constant.ONGLET_BATCH, batch);
-		onglets.setMnemonicAt(4, KeyEvent.VK_5);
-
 		fichier.initPanel(artist, authorList);
 
 		onglets.setOpaque(true);
