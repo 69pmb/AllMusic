@@ -19,7 +19,8 @@ public class CompoFichierPanelModel extends AbstractModel {
 	private static final long serialVersionUID = 1L;
 
 	private static final int INDEX_CLASSEMENT = 3;
-	private static final int INDEX_SELECTED = 4;
+	private static final int INDEX_SCORE = 4;
+	private static final int INDEX_SELECTED = 5;
 
 	/**
 	 * Constructeur de {@link CompoFichierPanelModel}.
@@ -51,6 +52,8 @@ public class CompoFichierPanelModel extends AbstractModel {
 		switch (col) {
 		case INDEX_CLASSEMENT:
 			return Integer.class;
+		case INDEX_SCORE:
+			return Long.class;
 		case INDEX_SELECTED:
 			return Boolean.class;
 		default:
