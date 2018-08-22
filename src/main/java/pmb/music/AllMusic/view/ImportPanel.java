@@ -699,8 +699,8 @@ public class ImportPanel extends JPanel {
 		LOG.debug(dir);
 		JFileChooser jfile = new JFileChooser(dir);
 		jfile.setApproveButtonText("Ouvrir");
-		FileNameExtensionFilter filter = new FileNameExtensionFilter(extension, extension);
-		jfile.setFileFilter(filter);
+		jfile.setPreferredSize(new Dimension(1200, 600));
+		jfile.setFileFilter(new FileNameExtensionFilter(extension, extension));
 		if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
 			resetAll();
 			LOG.debug("End addBrowsingFile");
