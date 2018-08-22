@@ -146,6 +146,7 @@ public class CleanFile {
 					String line;
 					while ((line = br.readLine()) != null) {
 						if (!ImportFile.isValidLine(line)) {
+							writer.append(line).append(Constant.NEW_LINE);
 							continue;
 						}
 						for (Entry<String, String> entry : entrySet) {
