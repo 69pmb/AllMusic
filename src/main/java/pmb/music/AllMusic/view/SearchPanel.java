@@ -500,7 +500,8 @@ public class SearchPanel extends JPanel {
 	private void updateTable() {
 		LOG.debug("Start updateTable");
 		model.setRowCount(0);
-		model.setDataVector(CompositionUtils.convertCompositionListToVector(compoResult, false, true, score),
+		model.setDataVector(
+				CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, score),
 				new Vector<>(Arrays.asList(title)));
 		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED);
 		countLabel.setText(compoResult.size() + " résultats");

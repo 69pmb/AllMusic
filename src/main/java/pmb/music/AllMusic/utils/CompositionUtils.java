@@ -157,14 +157,16 @@ public class CompositionUtils {
 	 * 
 	 * @param compoList {@code List<Composition>} la liste de composition à
 	 *            convertir
-	 * @param displayClassement si on affiche le classement de la composition ou son
-	 *            nombre de fichiers
+	 * @param fichier les fichiers à utiliser pour le classement
+	 * @param displayClassement si on affiche le classement de la composition
+	 * @param displayFileSize si on affiche le nombre de fichiers de la composition
 	 * @param addBoolean si on ajoute une colonne de boolean remplie à false
 	 * @param score {@link Score} constants to calculate the composition score
 	 * @return {@code Vector<Vector<Object>>} la liste de vecteur convertie
 	 */
 	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList,
-			boolean displayClassement, boolean addBoolean, Score score) {
+			List<Fichier> fichier, boolean displayClassement, boolean displayFileSize, boolean addBoolean,
+			Score score) {
 		LOG.debug("Start convertCompositionListToVector");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		if (compoList == null || compoList.isEmpty()) {
@@ -178,8 +180,13 @@ public class CompositionUtils {
 			v.addElement(composition.getTitre());
 			v.addElement(composition.getRecordType().toString());
 			if (displayClassement) {
-				v.addElement(composition.getFiles().get(0).getClassement());
-			} else {
+				if (fichier != null) {
+					v.addElement(fichier.get(i).getClassement());
+				} else {
+					v.addElement(composition.getFiles().get(0).getClassement());
+				}
+			}
+			if (displayFileSize) {
 				v.addElement(composition.getFiles().size());
 			}
 			if (score != null) {

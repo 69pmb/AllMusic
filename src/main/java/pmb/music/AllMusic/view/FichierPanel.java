@@ -93,8 +93,8 @@ public class FichierPanel extends JPanel {
 	private static final int INDEX_COMPO_TITLE = 1;
 	private static final int INDEX_COMPO_TYPE = 2;
 	private static final int INDEX_COMPO_RANK = 3;
-	private static final int INDEX_COMPO_SELECTED = 5;
-	private static final int INDEX_COMPO_DELETED = 6;
+	private static final int INDEX_COMPO_SELECTED = 6;
+	private static final int INDEX_COMPO_DELETED = 7;
 
 	// Search components
 	private MyInputText auteur;
@@ -137,7 +137,8 @@ public class FichierPanel extends JPanel {
 
 	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
 			"Dates", "Date de création", "Taille", "Classé" };
-	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "Score", "", "" };
+	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
+			"Score", "", "" };
 
 	/**
 	 * Constructeur de {@link FichierPanel}.
@@ -712,6 +713,7 @@ public class FichierPanel extends JPanel {
 	private void updateCompoTable(List<Composition> compo) {
 		LOG.debug("Start updateCompoTable");
 		compoModel.setRowCount(0);
+		List<Fichier> fichier = compo.stream().map(c -> c.getFiles().get(0)).collect(Collectors.toList());
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		// recover of all the files of the compositions
 		compo.stream().forEach(c -> {
@@ -723,7 +725,8 @@ public class FichierPanel extends JPanel {
 				LOG.warn("Could not find files for: " + c);
 			}
 		});
-		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true, score),
+		compoModel.setDataVector(
+				CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, score),
 				new Vector<>(Arrays.asList(headerCompo)));
 		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED);
 		compoModel.fireTableDataChanged();
