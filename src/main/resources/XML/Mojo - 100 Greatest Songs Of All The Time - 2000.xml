@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="1" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="2" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="Judy Garland" titre="Over The Rainbow" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="3" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="John Martyn" titre="Over The Rainbow" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="3" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="The Beatles" titre="Here There And Everywhere" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="4" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="The Miracles" titre="Tracks Of My Tears" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="5" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Bob Dylan" titre="The Times They Are A Changin'" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="6" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="7" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Bonnie Raitt" titre="I Can't Make You Love Me" type="SONG" canBeMerged="true" deleted="false">
@@ -19,11 +31,20 @@
   <Composition artist="George Michael" titre="I Can't Make You Love Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="8" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="The Impressions" titre="People Get Ready" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="The Impressions" titre="People Get Ready" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="9" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="The Righteous Brothers" titre="You've Lost That Lovin' Feeling" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="10" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="11" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Dionne Warwick" titre="I Say A Little Prayer" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="12" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="13" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Something" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="14" creationDate="25/08/2017 20:30:52" size="100"/>
@@ -49,17 +70,35 @@
   <Composition artist="Henry Mancini" titre="Moon River" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="17" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="Ben E King" titre="Stand By Me" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="18" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Eleanor Rigby" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="19" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="Bill Withers" titre="Ain't No Sunshine" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="20" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Gladys Knight And The Pips" titre="I Heard It Through The Grapevine" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="21" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="Marvin Gaye" titre="I Heard It Through The Grapevine" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="21" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="22" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Jimmy Cliff" titre="Many Rivers To Cross" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="23" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="Badfinger" titre="Without You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="24" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Harry Nilsson" titre="Without You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="24" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="The Smiths" titre="There A Light That Never Goes Out" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="25" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Marilyn Cooper" titre="Somewhere" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="26" creationDate="25/08/2017 20:30:52" size="100"/>
@@ -75,6 +114,9 @@
   </Composition>
   <Composition artist="The Pretenders" titre="I Go To Sleep" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="28" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="29" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Judy Collins" titre="I Think It's Going To Rain Today" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="30" creationDate="25/08/2017 20:30:52" size="100"/>
@@ -94,8 +136,14 @@
   <Composition artist="Al Green" titre="Tired Of Being Alone" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="33" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="The La's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="34" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="The Stylistics" titre="I'm Stone In Love With You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="35" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Just Like A Woman" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="36" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Charlie Rich" titre="Feel Like Going Home" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="37" creationDate="25/08/2017 20:30:52" size="100"/>
@@ -105,6 +153,9 @@
   </Composition>
   <Composition artist="This Mortal Coil" titre="Song To The Siren" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="38" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="39" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="In The Ghetto" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="40" creationDate="25/08/2017 20:30:52" size="100"/>
@@ -124,11 +175,17 @@
   <Composition artist="Nick Drake" titre="River Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="42" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="The Beatles" titre="The Long And Winding Road" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="43" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="James Carr" titre="Dark End Of The Street" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="44" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Ry Cooder" titre="Dark End Of The Street" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="44" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Simon And Garfunkel" titre="America" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="45" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Leonard Cohen" titre="Tower Of Song" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="46" creationDate="25/08/2017 20:30:52" size="100"/>
@@ -139,6 +196,9 @@
   <Composition artist="Roberta Flack" titre="First Time Ever I Saw Your Face" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="47" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="Velvet Underground; Lou Reed" titre="Sweet Jane" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="48" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="Tommy Edwards" titre="It's All In The Game" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="49" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
@@ -148,7 +208,16 @@
   <Composition artist="Harry Nilsson" titre="Everybody's Talkin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="50" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="Sandy Denny" titre="WhKnows Where the Time Goes?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Chuck Berry" titre="Johnny B. Goode" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="51" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Joni Mitchell" titre="A Case Of You" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="52" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Mark James; Elvis Presley" titre="Suspicious Minds" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="53" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Sandy Denny And the Strawbs" titre="Who Knows Where The Time Goes" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="54" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Fairport Convention" titre="Who Knows Where The Time Goes" type="SONG" canBeMerged="true" deleted="false">
@@ -175,6 +244,12 @@
   <Composition artist="Harold Melvin And The Blue Notes" titre="If You Don't Know Me By Now" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="59" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="60" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="The Kinks" titre="Waterloo Sunset" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="61" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="Noel Harrison" titre="Windmills Of Your Mind" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="62" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
@@ -186,6 +261,9 @@
   </Composition>
   <Composition artist="Billie Holiday" titre="God Bless The Child" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="64" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Simon And Garfunkel" titre="Bridge Over Troubled Water" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="65" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Four Tops" titre="Baby I Need Your Loving" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="66" creationDate="25/08/2017 20:30:52" size="100"/>
@@ -199,6 +277,9 @@
   <Composition artist="Jacques Brel" titre="Ne Me Quitte Pas" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="68" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="John Lennon" titre="Jealous Guy" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="69" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="Frank Sinatra" titre="One For My Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="70" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
@@ -211,13 +292,22 @@
   <Composition artist="Marc Cohn" titre="Walking In Memphis" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="72" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="Glen Gray" titre="Blue Moon" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="73" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Elvis Presley" titre="Blue Moon" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="73" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Marcels" titre="Blue Moon" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="73" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="The Temptations" titre="Just My Imagination" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="74" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Jimmy Ruffin" titre="What Becomes Of The Brokenhearted" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="75" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="Stevie Wonder" titre="Superstition" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Stevie Wonder" titre="Superstition" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="76" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Paul McCartney" titre="Maybe I'm Amazed" type="SONG" canBeMerged="true" deleted="false">
@@ -247,6 +337,9 @@
   <Composition artist="Abbie Mitchell" titre="Summertime" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="82" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="Janis Joplin" titre="Summertime" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="82" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="Ella Fitzgerald" titre="Summertime" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="82" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
@@ -270,6 +363,12 @@
   </Composition>
   <Composition artist="Frank Sinatra" titre="September Song" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="85" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Creedence Clearwater Revival" titre="Proud Mary" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="86" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Louis Armstrong" titre="What A Wonderful World" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="87" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Brenda Lee" titre="Always On My Mind" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="88" creationDate="25/08/2017 20:30:52" size="100"/>
@@ -301,6 +400,9 @@
   <Composition artist="Liza Minnelli" titre="Losing My Mind" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="92" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="The Pet Shop Boys" titre="Losing My Mind" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="92" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="Jacques Renard" titre="As Time Goes By" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="93" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
@@ -309,6 +411,9 @@
   </Composition>
   <Composition artist="Dooley Wilson" titre="As Time Goes By" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="93" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="94" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Leadbelly" titre="Goodnight Irene" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="95" creationDate="25/08/2017 20:30:52" size="100"/>
@@ -322,10 +427,13 @@
   <Composition artist="Britney Spears" titre="Baby One More Time" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="97" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
+  <Composition artist="Buzzcocks" titre="Ever Fallen In Love ?" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="98" creationDate="25/08/2017 20:30:52" size="100"/>
+  </Composition>
   <Composition artist="Pete Seeger" titre="We Shall Overcome" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="99" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="Joan Baez" titre="We Shall Overcome" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Joan Baez" titre="We Shall Overcome" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="99" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="The Eagles" titre="Desperado" type="SONG" canBeMerged="true" deleted="false">
