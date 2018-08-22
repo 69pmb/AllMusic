@@ -59,6 +59,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
@@ -92,8 +93,8 @@ public class FichierPanel extends JPanel {
 	private static final int INDEX_COMPO_TITLE = 1;
 	private static final int INDEX_COMPO_TYPE = 2;
 	private static final int INDEX_COMPO_RANK = 3;
-	private static final int INDEX_COMPO_SELECTED = 4;
-	private static final int INDEX_COMPO_DELETED = 5;
+	private static final int INDEX_COMPO_SELECTED = 5;
+	private static final int INDEX_COMPO_DELETED = 6;
 
 	// Search components
 	private MyInputText auteur;
@@ -132,18 +133,22 @@ public class FichierPanel extends JPanel {
 	private int selectedCompoRow = -1;
 
 	private Dimension parentSize;
+	private Score score;
 
 	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
 			"Dates", "Date de création", "Taille", "Classé" };
-	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "", "" };
+	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "Score", "", "" };
 
 	/**
 	 * Constructeur de {@link FichierPanel}.
+	 * 
+	 * @param score
 	 */
-	public FichierPanel() {
+	public FichierPanel(Score score) {
 		super();
 		LOG.debug("Start FichierPanel");
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+		this.score = score;
 
 		LOG.debug("End FichierPanel");
 	}
@@ -707,7 +712,18 @@ public class FichierPanel extends JPanel {
 	private void updateCompoTable(List<Composition> compo) {
 		LOG.debug("Start updateCompoTable");
 		compoModel.setRowCount(0);
-		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true, null),
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		// recover of all the files of the compositions
+		compo.stream().forEach(c -> {
+			Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, c.getFiles().get(0),
+					Optional.of(c.getArtist()), Optional.of(c.getTitre()));
+			if (findByFile.isPresent()) {
+				c.setFiles(findByFile.get().getFiles());
+			} else {
+				LOG.warn("Could not find files for: " + c);
+			}
+		});
+		compoModel.setDataVector(CompositionUtils.convertCompositionListToVector(compo, true, true, score),
 				new Vector<>(Arrays.asList(headerCompo)));
 		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED);
 		compoModel.fireTableDataChanged();
