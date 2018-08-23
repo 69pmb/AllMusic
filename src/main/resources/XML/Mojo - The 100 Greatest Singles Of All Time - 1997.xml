@@ -79,7 +79,7 @@
   <Composition artist="Eddie Cochran" titre="Summertime Blues" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="24" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Buddy Holly And The Crickets" titre="That'll Be The Day" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Buddy Holly" titre="That'll Be the Day" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="25" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Prince" titre="When Doves Cry" type="SONG" canBeMerged="true" deleted="false">
@@ -130,10 +130,10 @@
   <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="40" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Booker T And The MGs" titre="Green Onions" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Booker T" titre="Green Onions" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="41" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Frankie Lymon And The Teenagers" titre="Why Do Fools Fall In Love" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Frankie Lymon" titre="Why Do Fools Fall In Love ?" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="42" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="The Jimi Hendrix Experience" titre="Purple Haze" type="SONG" canBeMerged="true" deleted="false">
