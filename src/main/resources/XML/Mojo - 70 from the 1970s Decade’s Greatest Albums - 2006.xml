@@ -37,7 +37,7 @@
   <Composition artist="T.Rex" titre="Electric Warrior" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 70 from the 1970s Decade’s Greatest Albums - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="12" creationDate="23/08/2018 13:43:16" size="70"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 70 from the 1970s Decade’s Greatest Albums - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="13" creationDate="23/08/2018 13:43:16" size="70"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="IV" type="ALBUM" canBeMerged="true" deleted="false">
@@ -133,7 +133,7 @@
   <Composition artist="Bruce Springsteen" titre="Born To Run" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 70 from the 1970s Decade’s Greatest Albums - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="44" creationDate="23/08/2018 13:43:16" size="70"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 70 from the 1970s Decade’s Greatest Albums - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="45" creationDate="23/08/2018 13:43:16" size="70"/>
   </Composition>
   <Composition artist="Peter Frampton" titre="Frampton Comes Alive!" type="ALBUM" canBeMerged="true" deleted="false">
@@ -184,7 +184,7 @@
   <Composition artist="AC/DC" titre="Powerage" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 70 from the 1970s Decade’s Greatest Albums - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="61" creationDate="23/08/2018 13:43:16" size="70"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 70 from the 1970s Decade’s Greatest Albums - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="62" creationDate="23/08/2018 13:43:16" size="70"/>
   </Composition>
   <Composition artist="Thin Lizzy" titre="Live And Dangerous" type="ALBUM" canBeMerged="true" deleted="false">
