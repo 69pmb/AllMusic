@@ -124,7 +124,7 @@
   <Composition artist="Bill Withers" titre="Just As I Am" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="MOJO - 100 Soul Albums Everyone Should Own - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="1959" rangeDateEnd="2000" sorted="false" classement="41" creationDate="22/08/2018 17:25:56" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="MOJO - 100 Soul Albums Everyone Should Own - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="1959" rangeDateEnd="2000" sorted="false" classement="42" creationDate="22/08/2018 17:25:56" size="100"/>
   </Composition>
   <Composition artist="Bobby Womack" titre="Communication" type="ALBUM" canBeMerged="true" deleted="false">
@@ -253,7 +253,7 @@
   <Composition artist="Anita Baker" titre="Rapture" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="MOJO - 100 Soul Albums Everyone Should Own - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="1959" rangeDateEnd="2000" sorted="false" classement="84" creationDate="22/08/2018 17:25:56" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="MOJO - 100 Soul Albums Everyone Should Own - 2000" publishYear="2000" categorie="GENRE" rangeDateBegin="1959" rangeDateEnd="2000" sorted="false" classement="85" creationDate="22/08/2018 17:25:56" size="100"/>
   </Composition>
   <Composition artist="Alexander O' Neal" titre="Hearsay" type="ALBUM" canBeMerged="true" deleted="false">
