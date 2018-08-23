@@ -170,7 +170,7 @@ public class BatchUtils {
 							.map(f -> f.getFileName() + " # " + String.valueOf(f.getPublishYear())).distinct().sorted()
 							.collect(Collectors.toList()));
 		}
-		res.stream().forEach(f -> addLine(result, f, true));
+		res.stream().forEach(f -> addLine(result, f, false));
 
 		LOG.debug("End findIncorrectFileNames");
 		return writeInFile(result, "Incorrect Filenames.txt");
