@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Ike And Tina Turner" titre="River Deep Mountain High" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="1" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="2" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Penny Lane" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="2" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="3" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Ronetts" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="4" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Marvin Gaye" titre="I Herd It Through The Grapevine" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="5" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Rolling Stones" titre="(I Can't Get No) Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="6" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="7" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Revolution" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="7" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Ike And Tina Turner" titre="River Deep Mountain High" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="8" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Nirvana" titre="Smells Like Teen Sprit" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="9" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Marvin Gaye" titre="Whats Going On" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="10" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beach Boys" titre="Don't Worry Baby" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="11" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Jimi Hendrix Experience" titre="Hey Joe" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="12" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="The Righteous Brothers" titre="You've Lost That Loving Feeling" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="13" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="14" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Aretha Franklin" titre="Respect" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="15" creationDate="25/01/2017 10:01:33" size="100"/>
@@ -13,13 +55,22 @@
   <Composition artist="Elvis Presley" titre="Heartbreak Hotel" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="16" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Otis Redding" titre="(Sittin' On) The Dock Of The Bay" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Otis Redding" titre="(Sittin' On) The Dock Of The Bay" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="17" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Sly And The Family Stone" titre="Family Affair" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="18" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Byrds" titre="Mr Tambourine Man" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="19" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="20" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Sly And The Family Stone" titre="Family Affair" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="21" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Procol Harum" titre="A Whiter Shade Of Pale" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Procol Harum" titre="A Whiter Shade Of Pale" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="22" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Martha And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="false">
@@ -28,11 +79,26 @@
   <Composition artist="Eddie Cochran" titre="Summertime Blues" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="24" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Buddy Holly" titre="That'll Be The Day" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Buddy Holly And The Crickets" titre="That'll Be The Day" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="25" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Prince" titre="When Doves Cry" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="26" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Rolling Stones" titre="Jumpin' Jack Flash" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="27" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="28" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Paperback Writer" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="29" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Rain" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="29" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="30" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Sam Cooke" titre="A Change Is Gonna Come" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="31" creationDate="25/01/2017 10:01:33" size="100"/>
@@ -43,20 +109,35 @@
   <Composition artist="Ann Peebles" titre="I Can't Stand The Rain" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="33" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
+  <Composition artist="David Bowie" titre="Heroes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="34" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
   <Composition artist="James Brown" titre="Papa's Got A Brand New Bag" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="35" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Stevie Wonder" titre="Superstition" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="36" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Stevie Wonder" titre="Superstition" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="37" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Del Shannon" titre="Runaway" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="38" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Booker T" titre="Green Onions" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Space Oddity" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="39" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="40" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Booker T And The MGs" titre="Green Onions" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="41" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Frankie Lymon" titre="Why Do Fools Fall In Love ?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Frankie Lymon And The Teenagers" titre="Why Do Fools Fall In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="42" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Jimi Hendrix Experience" titre="Purple Haze" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="43" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Everly Brothers" titre="Cathy's Clown" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="44" creationDate="25/01/2017 10:01:33" size="100"/>
@@ -64,13 +145,16 @@
   <Composition artist="Al Green" titre="Lets Stay Together" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="45" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Thunderclap Newman" titre="Something In The Air" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Thunderclap Newman" titre="Something In The Air" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="46" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Lorraine Ellison" titre="Stay With Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="47" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="The Jackson Five" titre="I Wan't You Back" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="48" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="49" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Bill Doggett" titre="Honky Tonk" type="SONG" canBeMerged="true" deleted="false">
@@ -88,8 +172,29 @@
   <Composition artist="Ben E. King" titre="Spanish Harlem" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="54" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
+  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="55" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="56" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="57" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Animals" titre="House Of The Rising Sun" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="58" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
   <Composition artist="Crowded House" titre="Don't Dream It's Over" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="59" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Creedence Clearwater Revival" titre="Proud Mary" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="60" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Specials" titre="Ghost Town" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="61" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Day Tripper" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="62" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="T. Rex" titre="Telegram Sam" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="63" creationDate="25/01/2017 10:01:33" size="100"/>
@@ -97,8 +202,20 @@
   <Composition artist="Gene Vincent" titre="Be-Bop-A-Lula" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="64" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
+  <Composition artist="David Bowie" titre="Starman" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="65" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Massive Attack" titre="Unfinished Sympathy" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="66" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
   <Composition artist="Robert Palmer" titre="Addicted To Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="67" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Sex Pistols" titre="Anarchy In The Uk" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="68" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Van Morrison" titre="Brown Eyed Girl" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="69" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Coolio" titre="Gangsta's Paradise" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="70" creationDate="25/01/2017 10:01:33" size="100"/>
@@ -106,20 +223,38 @@
   <Composition artist="Harold Melvin And The Blue Notes" titre="If You Don't Know Me By Know" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="71" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
+  <Composition artist="The Rolling Stones" titre="Honky Tonk Woman" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="72" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
   <Composition artist="Percy Sledge" titre="When A Man Loves A Woman" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="73" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Mystery Train" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Simon And Garfunkel" titre="Bridge Over Troubled Water" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="74" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Buffalo Springfield" titre="For What It's Worth" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="75" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Elvis Presley" titre="Mystery Train" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="76" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Garbage" titre="Stupid Girl" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="77" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Abba" titre="Knowing Me, Knowing You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="78" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="James Brown" titre="Get Up (I Feel Like Being A) Sex Machine" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="James Brown" titre="Get Up (I Feel Like Being A) Sex Machine" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="79" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Blue Oyster Cult" titre="(Don't Fear) The Reaper" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="80" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Hank Williams" titre="Cold, Cold Heart" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="81" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Oasis" titre="Wonderwall" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="82" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Kraftwerk" titre="Autobahn" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="83" creationDate="25/01/2017 10:01:33" size="100"/>
@@ -130,13 +265,28 @@
   <Composition artist="Jerry Lee Lewis" titre="Whole Lotta Shakin' Goin' On" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="85" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
+  <Composition artist="Frankie Goes To Hollywood" titre="Relax" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="86" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
   <Composition artist="The Miracles" titre="The Tracks Of My Tears" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="87" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="New Order" titre="Blue Monday" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="88" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Roy Orbison" titre="Crying" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="89" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Dionne Warwick" titre="Walk On By" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="The Zombies" titre="She's Not There" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="90" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Police" titre="Every Breath You Take" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="91" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Run DMC" titre="Walk This Way" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="92" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Dionne Warwick" titre="Walk On By" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="93" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="Roxy Music" titre="Virginia Plain" type="SONG" canBeMerged="true" deleted="false">
@@ -144,6 +294,9 @@
   </Composition>
   <Composition artist="Little Richard" titre="Long Tall Sally" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="95" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Subterranean Homesick Blues" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="96" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
   <Composition artist="The Shangri-Las" titre="I Can Never Go Home Anymore" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="97" creationDate="25/01/2017 10:01:33" size="100"/>
@@ -160,73 +313,100 @@
   <Composition artist="Paul Simon" titre="50 Ways To Leave You Lover" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="101" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Motorhead" titre="Ace Of Spades" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Beatles" titre="A Hard Days Night" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="102" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Elvis Costello" titre="Alison" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Motorhead" titre="Ace Of Spades" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="103" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Subway Sect" titre="Ambition" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Costello" titre="Alison" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="104" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="The Four Tops" titre="Baby I Need Your Lovin'" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Subway Sect" titre="Ambition" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="105" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Carl Perkins" titre="Blue Suede Shoes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Four Tops" titre="Baby I Need Your Lovin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="106" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Carl Perkins" titre="Blue Suede Shoes" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="107" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Don't Be Cruel/Hound Dog" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="108" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Little Richard" titre="Good Golly Miss Molly" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Brown Sugar" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="109" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Ray Charles" titre="Hit The Road Jack" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Hound Dog" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="110" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Aretha Franklin" titre="I Never Loved a Man (The Way I Love You)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Don't Be Cruel" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="110" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="T Rex" titre="Get It On" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="111" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="U2" titre="I Still Haven't Found What I'm Looking For" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Little Richard" titre="Good Golly Miss Molly" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="112" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Stevie Wonder" titre="Livin' For The City" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Ray Charles" titre="Hit The Road Jack" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="113" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="The Temptations" titre="Papa Was A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="The Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="114" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Massive Attack" titre="Protection" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Aretha Franklin" titre="I Never Loved A Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="115" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Roxy Music" titre="Pyjamarama" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="U2" titre="I Still Haven't Found What I'm Looking For" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="116" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="The Four Seasons" titre="Rag Doll" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Doors" titre="Light My Fire" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="117" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="The Drifters" titre="Save The Last Dance For Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Stevie Wonder" titre="Livin' For The City" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="118" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="The Chemical Brothers" titre="Setting Sun" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="119" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Sam And Dave" titre="Soul Man" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Temptations" titre="Papa Was A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="120" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="The Everly Brothers" titre="Wake Up Little Sister" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Massive Attack" titre="Protection" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="121" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="The Shirelles" titre="Will You Still Love Me Tomorrow" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Roxy Music" titre="Pyjamarama" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="122" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Nilsson" titre="Without You" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Four Seasons" titre="Rag Doll" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="123" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
-  <Composition artist="Elton John" titre="Your Song" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Drifters" titre="Save The Last Dance For Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="124" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Chemical Brothers" titre="Setting Sun" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="125" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Sam And Dave" titre="Soul Man" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="126" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Box Tops" titre="The Letter" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="127" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Jimi Hendrix" titre="Voodoo Chile" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="128" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Everly Brothers" titre="Wake Up Little Sister" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="129" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="The Shirelles" titre="Will You Still Love Me Tomorrow" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="130" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Nilsson" titre="Without You" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="131" creationDate="25/01/2017 10:01:33" size="100"/>
+  </Composition>
+  <Composition artist="Elton John" titre="Your Song" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - The 100 Greatest Singles Of All Time - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="132" creationDate="25/01/2017 10:01:33" size="100"/>
   </Composition>
 </ListCompositions>
