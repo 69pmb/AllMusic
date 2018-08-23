@@ -19,6 +19,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.WordUtils;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Cat;
@@ -148,8 +149,10 @@ public class ImportFile {
 						StringUtils.trim(StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0])));
 			}
 		}
-		composition.setArtist(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""), "\""));
-		composition.setTitre(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(), "\""), "\""));
+		composition.setArtist(WordUtils
+				.capitalize(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""), "\"")));
+		composition.setTitre(WordUtils
+				.capitalize(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(), "\""), "\"")));
 		if (parenthese) {
 			removeParentheseFromTitreAndArtist(result, line, lineNb, composition);
 		}
