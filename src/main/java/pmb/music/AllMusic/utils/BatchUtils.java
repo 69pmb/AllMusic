@@ -180,7 +180,7 @@ public class BatchUtils {
 		addLine(result, "## Title Slash: ", true);
 		importXML.stream().forEach(c -> {
 			if (StringUtils.contains(c.getTitre(), "/")) {
-				addLine(result, c.getArtist() + " - " + c.getTitre(), true);
+				addLine(result, c.getArtist() + " - " + c.getTitre(), false);
 			}
 		});
 	}
@@ -221,7 +221,7 @@ public class BatchUtils {
 						c.getArtist() + " - " + c.getTitre() + " / "
 								+ StringUtils.join(c.getFiles().stream().filter(f -> f.getClassement() == 0)
 										.map(Fichier::getFileName).collect(Collectors.toList()), ","),
-						true));
+						false));
 	}
 
 	private static void rankGreaterThanSize(List<Composition> importXML, StringBuilder result) {
@@ -241,19 +241,19 @@ public class BatchUtils {
 														Optional::get)))
 				.entrySet().stream().sorted(Map.Entry.comparingByKey())
 				.forEach(f -> addLine(result, f.getValue().getFileName() + ", size: " + f.getValue().getSize()
-						+ ", classement max: " + f.getValue().getClassement(), true));
+						+ ", classement max: " + f.getValue().getClassement(), false));
 	}
 
 	private static void sizeZero(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## File Size Zero: ", true);
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getSize() == 0)
-				.map(Fichier::getFileName).distinct().sorted().forEach(f -> addLine(result, f, true));
+				.map(Fichier::getFileName).distinct().sorted().forEach(f -> addLine(result, f, false));
 	}
 
 	private static void publishZero(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## File Publish Year Zero: ", true);
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getPublishYear() == 0)
-				.map(Fichier::getFileName).distinct().sorted().forEach(f -> addLine(result, f, true));
+				.map(Fichier::getFileName).distinct().sorted().forEach(f -> addLine(result, f, false));
 	}
 
 	private static void emptyTitleOrArtist(List<Composition> importXML, StringBuilder result) {
@@ -261,7 +261,7 @@ public class BatchUtils {
 		importXML.stream().forEach(c -> {
 			if (StringUtils.equalsIgnoreCase(StringUtils.trim(c.getTitre()), "")
 					|| StringUtils.equalsIgnoreCase(StringUtils.trim(c.getArtist()), "")) {
-				addLine(result, c.getArtist() + " - " + c.getTitre(), true);
+				addLine(result, c.getArtist() + " - " + c.getTitre(), false);
 			}
 		});
 	}
