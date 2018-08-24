@@ -46,7 +46,7 @@
   <Composition artist="Black Sabbath" titre="Black Sabbath" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Albums - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="25" creationDate="24/08/2018 10:36:47" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Albums - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="28" creationDate="24/08/2018 10:36:47" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="Rise And Fall Of Ziggy Stardust And The Spiders From Mars" type="ALBUM" canBeMerged="true" deleted="false">
@@ -115,7 +115,7 @@
   <Composition artist="Can" titre="Tago Mago" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Albums - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="62" creationDate="24/08/2018 10:36:47" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Albums - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="63" creationDate="24/08/2018 10:36:47" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="Low" type="ALBUM" canBeMerged="true" deleted="false">
