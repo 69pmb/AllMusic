@@ -28,7 +28,7 @@
   <Composition artist="Ryan Adams" titre="Gold" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="9" creationDate="24/08/2018 10:47:30" size="40"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="10" creationDate="24/08/2018 10:47:30" size="40"/>
   </Composition>
   <Composition artist="Joe Strummer And The Mescaleros" titre="Global A Go-Go" type="ALBUM" canBeMerged="true" deleted="false">
