@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="10"/>
   </Composition>
-  <Composition artist="The Roots" titre="The Seed 2.0" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Roots" titre="The Seed" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="2" creationDate="24/07/2017 00:51:20" size="10"/>
   </Composition>
   <Composition artist="Elton John" titre="Are You Ready For Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="10"/>
+  </Composition>
+  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="4" creationDate="24/07/2017 00:51:20" size="10"/>
   </Composition>
   <Composition artist="Guided By Voices" titre="The Best Of Jill Hives" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="5" creationDate="24/07/2017 00:51:20" size="10"/>
@@ -18,6 +21,12 @@
   </Composition>
   <Composition artist="Neil Young" titre="Bandit" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="7" creationDate="24/07/2017 00:51:20" size="10"/>
+  </Composition>
+  <Composition artist="Blur" titre="Out Of Time" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="8" creationDate="24/07/2017 00:51:20" size="10"/>
+  </Composition>
+  <Composition artist="Yeah Yeah Yeahs" titre="Maps" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Mojo" fileName="Mojo - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="9" creationDate="24/07/2017 00:51:20" size="10"/>
   </Composition>
   <Composition artist="The White Stripes" titre="Black Jack Davy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="10" creationDate="24/07/2017 00:51:20" size="10"/>
