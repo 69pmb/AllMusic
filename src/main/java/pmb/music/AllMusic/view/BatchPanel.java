@@ -67,6 +67,7 @@ public class BatchPanel extends JPanel {
 		suspicious();
 		duplicateTitle();
 		validateFileName();
+		averageOfFilesByFiles();
 		stats();
 		lastLine();
 
@@ -309,6 +310,28 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(validate, validateBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(validate);
+	}
+	
+	private void averageOfFilesByFiles() {
+		JPanel average = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
+		
+		// Label
+		JLabel averageLabel = new JLabel("Moyenne du nombre de fichier par fichier: ");
+		PanelUtils.addComponent(average, averageLabel, Component.LEFT_ALIGNMENT, 800);
+		
+		// average btn
+		JButton averageBtn = PanelUtils.createJButton("Go Average By File", 200, Constant.ICON_GO);
+		averageBtn.setToolTipText("Calcule la moyenne du nombre de fichier de chaque composition par fichier.");
+		averageBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start average: " + MiscUtils.getCurrentTime());
+			new Thread(() -> {
+				fileResult = BatchUtils.averageOfFilesByFiles();
+				displayText("End average: " + MiscUtils.getCurrentTime());
+			}).start();
+		});
+		PanelUtils.addComponent(average, averageBtn, Component.RIGHT_ALIGNMENT, 100);
+		
+		this.add(average);
 	}
 
 	private void stats() {

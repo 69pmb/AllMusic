@@ -10,6 +10,7 @@ import java.util.List;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import com.opencsv.CSVWriter;
@@ -44,6 +45,7 @@ public class CsvFile {
 			// Sorting
 			List<String> list = csv.get(0);
 			List<Integer> intColumn = new ArrayList<>();
+			List<Integer> doubleColumn = new ArrayList<>();
 			for (int i = 0; i < list.size(); i++) {
 				String item = list.get(i);
 				try {
@@ -53,10 +55,22 @@ public class CsvFile {
 				}
 				intColumn.add(i);
 			}
+			for (int i = 0; i < list.size(); i++) {
+				String item = list.get(i);
+				try {
+					Double.parseDouble(StringUtils.replaceAll(item, ",", "."));
+				} catch (NumberFormatException e) {
+					continue;
+				}
+				doubleColumn.add(i);
+			}
 			int column = sortKey.getColumn();
 			Comparator<List<String>> sort = null;
 			if (intColumn.contains(column)) {
 				sort = (c1, c2) -> Integer.valueOf(c1.get(column)).compareTo(Integer.valueOf(c2.get(column)));
+			} else if (doubleColumn.contains(column)) {
+				sort = (c1, c2) -> Double.valueOf(StringUtils.replaceAll(c1.get(column), ",", "."))
+						.compareTo(Double.valueOf(StringUtils.replaceAll(c2.get(column), ",", ".")));
 			} else if (column >= 0) {
 				sort = (c1, c2) -> c1.get(column).compareToIgnoreCase(c2.get(column));
 			}
