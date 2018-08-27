@@ -9,6 +9,7 @@ import java.math.BigDecimal;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
+import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -264,6 +265,35 @@ public class BatchUtils {
 				addLine(result, c.getArtist() + " - " + c.getTitre(), false);
 			}
 		});
+	}
+
+	public static String averageOfFilesByFiles() {
+		LOG.debug("Start averageOfFilesByFiles");
+		StringBuilder text = new StringBuilder();
+		addLine(text, "AverageOfFilesByFiles: ", true);
+		// Moyenne par fichier du nombre de fichiers de chaque composition
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
+				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
+		String[] header = { "Fichier", "Type", "Cat", "Average" };
+		List<List<String>> result = new ArrayList<>();
+		for (String name : nomFichier) {
+			List<String> row = new ArrayList<>();
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put(SearchUtils.CRITERIA_FILENAME, name);
+			importXML = ImportXML.importXML(Constant.getFinalFilePath());
+			List<Composition> xml = SearchUtils.search(importXML, criteria, false, SearchMethod.WHOLE_WORD, true);
+			double average = xml.stream().map(c -> c.getFiles().size()).mapToInt(x -> x).average().getAsDouble();
+			row.add(name);
+			row.add(xml.get(0).getRecordType().toString());
+			row.add(xml.get(0).getFiles().stream().filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), name))
+					.findFirst().get().getCategorie().toString());
+			row.add(NumberFormat.getNumberInstance().format(average));
+			result.add(row);
+		}
+		CsvFile.exportCsv("Average", result, new SortKey(3, SortOrder.ASCENDING), header);
+		LOG.debug("End averageOfFilesByFiles");
+		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
 	/**
