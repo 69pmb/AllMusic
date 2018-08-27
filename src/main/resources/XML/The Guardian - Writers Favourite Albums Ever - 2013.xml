@@ -439,7 +439,7 @@
   <Composition artist="Scott Walker" titre="Scott 4" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Writers Favourite Albums Ever - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="false" classement="146" creationDate="27/08/2018 12:18:56" size="164"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Writers Favourite Albums Ever - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="false" classement="147" creationDate="27/08/2018 12:18:56" size="164"/>
   </Composition>
   <Composition artist="Karen Dalton" titre="It's So Hard To Know Who's Going To Love You The Best" type="ALBUM" canBeMerged="true" deleted="false">
@@ -457,7 +457,7 @@
   <Composition artist="Fairport Convention" titre="Liege And Lief" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Writers Favourite Albums Ever - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="false" classement="152" creationDate="27/08/2018 12:18:56" size="164"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Writers Favourite Albums Ever - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="false" classement="153" creationDate="27/08/2018 12:18:56" size="164"/>
   </Composition>
   <Composition artist="David Bowie" titre="Aladdin Sane" type="ALBUM" canBeMerged="true" deleted="false">
@@ -484,7 +484,7 @@
   <Composition artist="The Hidden Cameras" titre="Smell Of Our Own" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Writers Favourite Albums Ever - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="false" classement="161" creationDate="27/08/2018 12:18:56" size="164"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Writers Favourite Albums Ever - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="false" classement="162" creationDate="27/08/2018 12:18:56" size="164"/>
   </Composition>
   <Composition artist="The Streets" titre="Original Pirate Material" type="ALBUM" canBeMerged="true" deleted="false">

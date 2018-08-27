@@ -10,7 +10,7 @@
   <Composition artist="Little Richard" titre="Tutti Frutti" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="3" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Mystery Train" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Mystery Train" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="4" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
   <Composition artist="Carl Perkins" titre="Blue Suede Shoes" type="SONG" canBeMerged="true" deleted="false">
@@ -178,7 +178,7 @@
   <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="58" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Land" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Land" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="61" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
   <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
