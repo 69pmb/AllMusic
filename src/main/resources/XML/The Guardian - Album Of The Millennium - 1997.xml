@@ -49,7 +49,7 @@
   <Composition artist="Bob Dylan" titre="Blonde On Blonde" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="16" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On?" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On?" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="17" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
   <Composition artist="R.E.M." titre="Automatic For The People" type="ALBUM" canBeMerged="true" deleted="false">
@@ -124,7 +124,7 @@
   <Composition artist="Captain Beefheart And The Magic Band" titre="Trout Mask Replica" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="41" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="42" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="Hunky Dory" type="ALBUM" canBeMerged="true" deleted="false">
@@ -217,7 +217,7 @@
   <Composition artist="Mike Oldfield" titre="Tubular Bells" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="72" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign Of The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign Of The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="73" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="Physical Graffiti" type="ALBUM" canBeMerged="true" deleted="false">
@@ -235,7 +235,7 @@
   <Composition artist="Kate Bush" titre="Hounds Of Love" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="78" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="79" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
   <Composition artist="The Smiths" titre="Hatful Of Hollow" type="ALBUM" canBeMerged="true" deleted="false">
