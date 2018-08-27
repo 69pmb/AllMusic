@@ -491,7 +491,7 @@ public class SearchPanel extends JPanel {
 
 			compoResult = new ArrayList<>();
 			compoResult.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(),
-					SearchMethod.getByValue((String) searchMethod.getSelectedItem()), deleted.isSelected()));
+					SearchMethod.getByValue((String) searchMethod.getSelectedItem()), deleted.isSelected(), true));
 			updateTable();
 		}
 		LOG.debug("End searchAction");

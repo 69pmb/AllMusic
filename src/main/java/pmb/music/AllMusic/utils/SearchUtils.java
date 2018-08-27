@@ -54,11 +54,14 @@ public class SearchUtils {
 	 *            chaines de caractères
 	 * @param deleted if false return only compositions not deleted, if true all
 	 *            compositions
+	 * @param log if true the method is logged
 	 * @return la liste de compo filtrée selon les critères
 	 */
 	public static List<Composition> search(List<Composition> compoList, Map<String, String> criteria,
-			final boolean searchInFiles, SearchMethod searchMethod, boolean deleted) {
-		LOG.debug("Start search");
+			final boolean searchInFiles, SearchMethod searchMethod, boolean deleted, boolean log) {
+		if (log) {
+			LOG.debug("Start search");
+		}
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> arrayList = new ArrayList<>(compoList);
 		// Critères compositions
@@ -84,16 +87,21 @@ public class SearchUtils {
 				|| StringUtils.isNotBlank(dateE) || StringUtils.isNotBlank(sorted) || StringUtils.isNotBlank(topTen);
 
 		if (searchCompo || searchFile) {
-			LOG.debug("searchInFiles: " + searchInFiles + ", searchMethod: " + searchMethod + ", deleted: " + deleted);
-			LOG.debug("Critères de recherche: " + criteria.entrySet().stream()
-					.map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
+			if (log) {
+				LOG.debug("searchInFiles: " + searchInFiles + ", searchMethod: " + searchMethod + ", deleted: "
+						+ deleted);
+				LOG.debug("Critères de recherche: " + criteria.entrySet().stream()
+						.map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
+			}
 			CollectionUtils.filter(arrayList,
 					(Object c) -> filterCompositions(searchMethod, searchInFiles, jaro, artist, titre, type, deleted,
 							publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
 		} else if (!deleted) {
 			CollectionUtils.filter(arrayList, (Object c) -> !((Composition) c).isDeleted());
 		}
-		LOG.debug("End search");
+		if (log) {
+			LOG.debug("End search");
+		}
 		return arrayList;
 	}
 

@@ -298,7 +298,7 @@ public class CompositionUtils {
 
 		List<Composition> search = new ArrayList<>();
 		search = SearchUtils.search(compoList, criteria, false,
-				isStrictly ? SearchMethod.WHOLE_WORD : SearchMethod.CONTAINS, true);
+				isStrictly ? SearchMethod.WHOLE_WORD : SearchMethod.CONTAINS, true, true);
 		if (search.size() > 1) {
 			LOG.debug("Compo: " + search.size());
 			search.stream().forEach(LOG::debug);
@@ -540,7 +540,7 @@ public class CompositionUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
 		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(MiscUtils.median(rankList));
@@ -557,7 +557,7 @@ public class CompositionUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
 		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return new BigDecimal(rankList.stream().mapToInt(Integer::intValue).max().orElse(1));
