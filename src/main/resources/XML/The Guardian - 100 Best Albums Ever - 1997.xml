@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 100 Best Albums Ever - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="1" creationDate="21/07/2017 00:26:02" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
@@ -94,7 +94,7 @@
   <Composition artist="Bob Marley And The Wailers" titre="Natty Dread" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 100 Best Albums Ever - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="31" creationDate="21/07/2017 00:26:02" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 100 Best Albums Ever - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="32" creationDate="21/07/2017 00:26:02" size="100"/>
   </Composition>
   <Composition artist="Television" titre="Marquee Moon" type="ALBUM" canBeMerged="true" deleted="false">
@@ -256,7 +256,7 @@
   <Composition artist="The Cocteau" titre="Twins Treasure" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 100 Best Albums Ever - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="85" creationDate="21/07/2017 00:26:02" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 100 Best Albums Ever - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="86" creationDate="21/07/2017 00:26:02" size="100"/>
   </Composition>
   <Composition artist="The Specials" titre="The Specials" type="ALBUM" canBeMerged="true" deleted="false">
