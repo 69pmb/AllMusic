@@ -205,7 +205,7 @@ public class BatchUtils {
 							&& CompositionUtils.artistJaroEquals(c1.getArtist(), c2.getArtist(), jaro,
 									Constant.SCORE_LIMIT_ARTIST_FUSION) == null) {
 						addLine(result, c1.getArtist() + " - " + c1.getTitre() + " // " + c2.getArtist() + " - "
-								+ c2.getTitre(), true);
+								+ c2.getTitre(), false);
 					}
 				}
 			}
