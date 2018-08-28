@@ -10,7 +10,7 @@
   <Composition artist="Led Zeppelin" titre="IV" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Music That Changed The World - Album - 70s - 2004" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="3" creationDate="25/08/2017 20:30:52" size="20"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Music That Changed The World - Album - 70s - 2004" publishYear="1979" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="4" creationDate="25/08/2017 20:30:52" size="20"/>
   </Composition>
   <Composition artist="Pink Floyd" titre="Dark Side Of The Moon" type="ALBUM" canBeMerged="true" deleted="false">

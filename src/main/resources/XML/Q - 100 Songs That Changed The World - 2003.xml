@@ -16,7 +16,7 @@
   <Composition artist="Nirvana" titre="Smells Like Teen Sprit" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Billie Holiday" titre="Strange Fruit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="6" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
@@ -73,7 +73,7 @@
   <Composition artist="Frankie Goes To Hollywood" titre="Relax" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="24" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Nwa" titre="Fuck Tha Police" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nwa" titre="Fuck Tha Police" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="25" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Tomorrow Never Knows" type="SONG" canBeMerged="true" deleted="false">
@@ -100,13 +100,13 @@
   <Composition artist="The Crystals" titre="He's A Rebel" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="33" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Otis Redding" titre="(Sittin' On) The Dock Of They Bay" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Otis Redding" titre="(Sittin' On) The Dock Of They Bay" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="34" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Barrett Strong" titre="Money (That's What I Want)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="35" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="36" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Eminem" titre="My Name Is" type="SONG" canBeMerged="true" deleted="false">
@@ -145,7 +145,7 @@
   <Composition artist="Strings Of Life" titre="Rhythin Is Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="48" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="M/A/R/R/S" titre="Pump Up The Volume" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="M/A/R/R/S" titre="Pump Up The Volume" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="49" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Elton John" titre="Candle In The Wind" type="SONG" canBeMerged="true" deleted="false">
@@ -202,7 +202,7 @@
   <Composition artist="Soul II Soul" titre="Back To Life (However Do You Want Me)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="67" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' The Times" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="68" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Milli Vanilli" titre="Girl You Know It's True" type="SONG" canBeMerged="true" deleted="false">
@@ -271,7 +271,7 @@
   <Composition artist="The Monkees" titre="Last Train To Clarksville" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="90" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Songs That Changed The World - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="91" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="George Mccrae" titre="Rock Your Baby" type="SONG" canBeMerged="true" deleted="false">

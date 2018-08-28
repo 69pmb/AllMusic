@@ -85,7 +85,7 @@
   <Composition artist="Iron Maiden" titre="The Number Of The Beast" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Greatest Classic Rock Albums Ever - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="28" creationDate="28/08/2018 10:22:07" size="30"/>
   </Composition>
-  <Composition artist="Guns 'N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns 'N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Greatest Classic Rock Albums Ever - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="29" creationDate="28/08/2018 10:22:07" size="30"/>
   </Composition>
   <Composition artist="Queen" titre="A Night At The Opera" type="ALBUM" canBeMerged="true" deleted="false">

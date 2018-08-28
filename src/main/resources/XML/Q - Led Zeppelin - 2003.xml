@@ -34,7 +34,7 @@
   <Composition artist="Led Zeppelin" titre="Rock And Roll" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Led Zeppelin - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="11" creationDate="28/08/2018 10:26:19" size="60"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="No Quarter" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="No Quarter" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Led Zeppelin - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="12" creationDate="28/08/2018 10:26:19" size="60"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="Ramble On" type="SONG" canBeMerged="true" deleted="false">
@@ -178,7 +178,7 @@
   <Composition artist="Led Zeppelin" titre="Down By The Seaside" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Led Zeppelin - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="59" creationDate="28/08/2018 10:26:19" size="60"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="D'yer Mak'er" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="D'yer Mak'er" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Led Zeppelin - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="60" creationDate="28/08/2018 10:26:19" size="60"/>
   </Composition>
 </ListCompositions>
