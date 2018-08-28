@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Kinks" titre="Waterloo Sunset" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Oasis" titre="Wonderwall" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="3" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="4" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="6" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
   <Composition artist="Robbie Williams" titre="Angels" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="7" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="David Bowie" titre="Life On Mars" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="8" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Rolling Stones" titre="Sympathy For The Devil" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="9" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Massive Attack" titre="Unfinished Sympathy" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="10" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="11" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="12" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Smiths" titre="There Is A Light That Never Goes Out" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="13" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="14" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Blur" titre="This Is A Low" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="15" creationDate="19/07/2017 07:11:54" size="50"/>
@@ -13,13 +52,22 @@
   <Composition artist="The Small Faces" titre="All Or Nothing" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="17" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
+  <Composition artist="Pink Floyd" titre="Comfortably Numb" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="18" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="19" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Coldplay" titre="The Scientist" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="20" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
   <Composition artist="Kate Bush" titre="Hounds Of Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="21" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Madness" titre="Baggy Trousers" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="22" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
-  <Composition artist="Dexys Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Dexys Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="23" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="The Stone Roses" titre="Fools Gold" type="SONG" canBeMerged="true" deleted="false">
@@ -28,26 +76,62 @@
   <Composition artist="The Streets" titre="Dry Your Eyes" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="25" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
+  <Composition artist="Blur" titre="Girls And Boys" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="26" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The La's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="27" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
   <Composition artist="Pet Shop Boys" titre="West End Girls" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="28" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="29" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Ian Dury" titre="Sex And Drugs And Rock And Roll" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="30" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
-  <Composition artist="The Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="31" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Specials" titre="Ghost Town" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="32" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="33" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Franz Ferdinand" titre="Take Me Out" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="34" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="35" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="36" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Slade" titre="Cum On Feel The Noise" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="37" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
-  <Composition artist="Soul II Soul" titre="Back To Life (However Do You Want Me)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Soul II Soul" titre="Back To Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="38" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Morrissey" titre="Everyday Is Like Sunday" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="39" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
+  <Composition artist="Radiohead" titre="Karma Police" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="40" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="Happy Mondays" titre="Step On" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="41" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Libertines" titre="Time For Heroes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="42" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
   <Composition artist="Kaiser Chiefs" titre="I Predict A Riot" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="43" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="New Order" titre="Blue Monday" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="44" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Spice Girls" titre="Wannabe" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="45" creationDate="19/07/2017 07:11:54" size="50"/>
@@ -55,10 +139,16 @@
   <Composition artist="Rod Stewart" titre="Maggie May" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="46" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
+  <Composition artist="Keane" titre="Everybody's Changing" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="47" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
   <Composition artist="Elvis Costello" titre="(I Don't Want To Go To) Chelsea" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="48" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Cornershop" titre="Brimful Of Asha" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="49" creationDate="19/07/2017 07:11:54" size="50"/>
+  </Composition>
+  <Composition artist="The Undertones" titre="Teenage Kicks" type="SONG" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="50" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
 </ListCompositions>
