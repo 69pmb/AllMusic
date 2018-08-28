@@ -1,580 +1,754 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="U2" titre="Achtung baby" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="9" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Muse" titre="Black holes and revelations" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="10" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Coldplay" titre="A rush of blood to the head" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="12" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Oasis" titre="(What's The Story) Morning Glory" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Neutral milk hotel" titre="In the aeroplane over the sea" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="16" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Oasis" titre="Definitely Maybe" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Green day" titre="American idiot" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="20" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Manic street preachers" titre="The holy bible" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="21" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="U2" titre="The Joshua Tree" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="The Stone Roses" titre="The Stone Roses" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="The Bends" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="U2" titre="Achtung Baby" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Muse" titre="Black Holes And Revelations" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="The Strokes" titre="Is This It" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="11" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Coldplay" titre="A Rush Of Blood To The Head" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="12" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Blur" titre="Parklife" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="13" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Primal Scream" titre="Screamadelica" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="14" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="The White Stripes" titre="White Blood Cells" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="15" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="In The Aeroplane Over The Sea" titre="Neutral Milk Hotel" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="16" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="The Killers" titre="Hot Fuss" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="17" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="Kid A" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="18" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="19" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Green Day" titre="American Idiot" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="20" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Manic Street Preachers" titre="The Holy Bible" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="21" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Muse" titre="Absolution" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="22" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="22" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Muse" titre="Origin of symmetry" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="26" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Radiohead" titre="In Rainbows" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="23" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Verve" titre="Urban hymns" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="28" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Kings Of Leon" titre="Only By The Night" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="24" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="R.E.M." titre="Automatic for the people" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="29" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Gorillaz" titre="Demon Days" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="25" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Muse" titre="Origin Of Symmetry" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="26" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="27" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="The Verve" titre="Urban Hymns" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="28" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="R.E.M." titre="Automatic For The People" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="29" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="My Bloody Valentine" titre="Loveless" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="30" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Jeff Buckley" titre="Grace" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="31" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="31" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Killers" titre="Sam's town" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="32" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Killers" titre="Sams Town" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="32" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Michael Jackson" titre="Bad" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="33" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="33" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Keane" titre="Hopes and fears" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="34" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Keane" titre="Hope And Fears" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="34" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Kasabian" titre="West ryder pauper lunatic asylum" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="35" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Kasabian" titre="West Ryder Pauper Lunatic Asylum" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="35" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Florence And the Machine" titre="Lungs" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="36" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Florence And The Machine" titre="Lungs" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="36" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Cure" titre="Disintegration" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="38" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Pulp" titre="Different Class" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="37" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="The Cure" titre="Disintegration" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="38" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Coldplay" titre="Parachutes" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="39" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="39" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Pearl jam" titre="Ten" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="41" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Libertines" titre="Up The Bracket" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="40" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Red hot chili peppers" titre="Californication" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="42" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Pearl Jam" titre="Ten" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="41" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Depeche mode" titre="Violator" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="43" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Red Hot Chilli Peppers" titre="Californication" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="42" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Rage against the machine" titre="Rage against the machine" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="44" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Depeche Mode" titre="Violator" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="43" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Chemical brothers" titre="Dig your own hole" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="45" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Rage Against The Machine" titre="Rage Against The Machine" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="44" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="U2" titre="All that you can't leave behind" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="46" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Chemical Brothers" titre="Dig Your Own Hole" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="45" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Kasabian" titre="Kasabain" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="47" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="U2" titre="All That You Can't Leave Behind" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="46" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Manic street preachers" titre="Everything must go" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="49" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Kasabian" titre="Kasabian" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="47" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Keane" titre="Under the iron sea" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="51" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Pixies" titre="Doolittle" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="48" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Manic Street Preachers" titre="Everything Must Go" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="49" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="50" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Keane" titre="Under The Iron Sea" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="51" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Coldplay" titre="Viva La Vida Or Death And All His Friends" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="52" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="52" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Muse" titre="The resistance" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="53" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Muse" titre="The Resistance" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="53" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Kings of Leon" titre="Because of the times" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="55" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The White Stripes" titre="Elephant" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="54" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Alanis Morissette" titre="Jagged little pill" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="58" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Kings Of Leon" titre="Because Of The Times" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="55" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Smashing pumpkins" titre="Mellon Collie and the infinite sadness" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="59" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Nirvana" titre="In Utero" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="56" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Paul Weller" titre="Wild wood" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="60" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Queens Of The Stoneage" titre="Songs For The Deaf" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="57" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Elbow" titre="The seldom seen kid" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="61" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Alanis Morissette" titre="Jagged Little Pill" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="58" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Kings of Leon" titre="A-ha shake heartbreak" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="62" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Smashing Pumpkins" titre="Mellon Collie And The Infinite Sadness" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="59" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Sonic youth" titre="Daydream nation" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="65" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Paul Weller" titre="Wild Wood" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="60" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Eminem" titre="The Marshall Mathers lp" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="66" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Elbow" titre="The Seldom Seen Kid" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="61" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Metallica" titre="Metallica" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="67" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Kings Of Leon" titre="Aha Shake Heartbreak" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="62" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Green Day" titre="Dookie" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="63" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Gorillaz" titre="Plastic Beach" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="64" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="65" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Eminem" titre="The Marshall Mathers Lp" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="66" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Matallica" titre="Metallica" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="67" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Lcd Soundsystem" titre="Sound Of Silver" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="68" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Portishead" titre="Dummy" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="69" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="69" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Depeche mode" titre="Songs of faith and devotion" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="70" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Depeche Mode" titre="Songs Of Faith And Devotion" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="70" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="New order" titre="Technique" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="73" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Libertines" titre="The Libertines" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="71" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Massive attack" titre="Mezzanine" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="75" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Massive Attack" titre="Blue Lines" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="72" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="New Order" titre="Technique" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="73" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Arcade Fire" titre="Neon Bible" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="74" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Massive Attack" titre="Mezzanine" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="75" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Blur" titre="Blur" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="76" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="76" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Manic street preachers" titre="Generation terrorists" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="77" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Manic Street Preachers" titre="Generation Terrorists" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="77" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Beck" titre="Odelay" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="78" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="78" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Smiths" titre="Strangeways, here we come" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="79" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Smiths" titre="Strangeways, Here We Come" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="79" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Kings of Leon" titre="Youth And young manhood" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="80" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Kings Of Leon" titre="Youth And Young Manhood" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="80" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Suede" titre="Dog man star" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="81" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Suede" titre="Dog Man Star" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="81" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Mumford And Sons" titre="Sigh no more" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="82" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Mumford And Sons" titre="Sigh No More" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="82" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Kaiser chiefs" titre="Employment" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="84" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Vampire Weekend" titre="Vampire Weekend" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="83" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Foo fighters" titre="The colour and the shape" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="85" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Kaiser Chiefs" titre="Employment" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="84" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Fatboy Slim" titre="You've come a long way" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="88" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Foo Fighters" titre="The Colour And The Shape" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="85" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="89" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Oasis" titre="Don't Believe The Truth" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="86" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Def leppard" titre="Hysteria" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="90" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Arctic Monkeys" titre="Favourite Worst Nightmare" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="87" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Stereophonics" titre="Word gets around" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="91" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Fatboy Slim" titre="You've Come A Long Way Baby" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="88" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Bloc party" titre="Silent alarm" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="92" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="89" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Pink floyd" titre="The division bell" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="93" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Def Leopard" titre="Hysteria" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="90" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Lady Gaga" titre="The fame" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="94" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Stereophonics" titre="Word Gets Around" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="91" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="U2" titre="How to dismantle an atomic bomb" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="95" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Bloc Party" titre="Silent Alarm" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="92" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Prodigy" titre="The fat of the land" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="96" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Pink Floyd" titre="The Division Bell" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="93" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Streets" titre="Original pirate material" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="97" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Lady Gagagagagag" titre="The Fame" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="94" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="U2" titre="How To Dismantle An Atomic Bomb" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="95" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Prodigy" titre="Fat Of The Land" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="96" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="The Streets" titre="Original Pirate Material" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="97" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Blur" titre="13" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="98" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="98" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Aphex twin" titre="Selected ambient works 85-92" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="99" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Aphex Twin" titre="Selected Ambient Works 85-92" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="99" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Coldplay" titre="XAndY" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="100" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Coldplay" titre="X And Y" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="100" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Snow patrol" titre="Final straw" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="101" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Snow Patrol" titre="Final Straw" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="101" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Nine inch nails" titre="The downward spiral" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="102" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Nine Inch Nails" titre="The Downward Spiral" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="102" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="The Prodigy" titre="Music For A Jilted Generation" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="104" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Bon Iver" titre="For Emma, Forever Ago" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="103" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Happy mondays" titre="Pills 'n' thrills and bellyaches" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="107" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Prodigy" titre="Music For A Jilted Generation" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="104" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Fleet Foxes" titre="Fleet Foxes" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="105" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Blur" titre="Modern Life Is Rubbish" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="106" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Happy Mondays" titre="Pills 'N' Thrills And Bellyaches" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="107" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Glasvegas" titre="Glasvegas" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="108" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="108" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Public enemy" titre="It takes a nation of millions to hold us back" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="109" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="109" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Smashing pumpkins" titre="Siamese dream" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="112" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Mgmt" titre="Oracular Spectacular" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="110" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Paul Weller" titre="Stanley road" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="113" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Gorillaz" titre="Gorallaz" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="111" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="U2" titre="No line on the horizon" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="114" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Smashing Pumpkins" titre="Siamise Dream" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="112" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Doves" titre="Lost souls" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="115" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Paul Weller" titre="Stanley Road" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="113" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="U2" titre="No Line On The Horizon" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="114" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Doves" titre="Lost Souls" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="115" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Suede" titre="Suede" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="116" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="116" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Leftfield" titre="Leftism" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="117" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="117" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Queens of the Stone age" titre="Rated R" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="119" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Air" titre="Moon Safari" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="118" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Queens Of The Stoneage" titre="Rated R" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="119" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Daft Punk" titre="Discovery" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="120" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Interpol" titre="Turn On The Bright Lights" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="121" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="George Michael" titre="Faith" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="122" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="122" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Beck" titre="Sea change" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="123" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Beck" titre="Sea Change" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="123" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="La's" titre="The La's" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="124" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The La's" titre="The La's" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="124" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Red hot chili peppers" titre="Blood sugar sex magik" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="126" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Franz Ferdinand" titre="Franz Ferdinand" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="125" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Red Hot Chilli Peppers" titre="Blood Sugar Sex Magik" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="126" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Muse" titre="Showbiz" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="127" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="127" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Paolo Nutini" titre="Sunny side up" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="128" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Paolo Nutini" titre="Sunny Side Up" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="128" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="129" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="129" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Orb" titre="U.F. Orb" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="130" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Orb" titre="U.F.Orb" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="130" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Wilco" titre="Yankee Hotel Foxtrot" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="131" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Nirvana" titre="Mtv Unplugged In New York" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="132" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Bjork" titre="Post" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="133" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="133" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Pavement" titre="Crooked rain, crooked rain" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="134" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Pavement" titre="Crooked Rain, Crooked Rain" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="134" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Tricky" titre="Maxinquaye" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="135" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="135" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Streets" titre="A grand don't come for free" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="136" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Streets" titre="A Grand Don't Come For Free" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="136" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Travis" titre="The man who" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="137" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Travis" titre="The Man Who" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="137" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Spiritualized" titre="Ladies and gentlemen we are floating in space" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="138" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Spritualized" titre="Ladies And Gentlemen We Are Floating In Space" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="138" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="R.E.M." titre="Out of time" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="139" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="R.E.M." titre="Out Of Time" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="139" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Linkin park" titre="Hybrid theory" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="140" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Linkin Park" titre="Hybrid Theory" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="140" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Weezer" titre="Weezer" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="141" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Weezer" titre="Weezer (Blue)" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="141" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="David Gray" titre="White ladder" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="143" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Beastie Boys" titre="Paul's Boutique" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="142" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Killers" titre="Day And age" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="144" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="David Gray" titre="White Ladder" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="143" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Badly Drawn boy" titre="The hour of bewilderbeast" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="145" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Killers" titre="Day And Age" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="144" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Badly Drawn Boy" titre="The Hour Of The Bewilderbeast" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="145" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Moby" titre="Play" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="146" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="146" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Oasis" titre="Be here now" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="147" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Oasis" titre="Be Here Now" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="147" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Nas" titre="Illmatic" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="148" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="NAS" titre="Illmatic" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="148" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Elbow" titre="Leaders of the free world" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="149" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Elbow" titre="Leaders Of The Free World" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="149" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Foo fighters" titre="Foo fighters" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="150" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Foo Fighters" titre="Foo Fighters" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="150" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Stereophonics" titre="Performance and cocktails" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="151" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Stereophonics" titre="Performance And Cocktails" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="151" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Alicia Keys" titre="Songs in A minor" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="152" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Alicia Keys" titre="Songs In A Minor" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="152" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Mercury rev" titre="The deserter's song" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="153" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Mercury Rev" titre="Deserters Songs" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="153" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Stone roses" titre="The second coming" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="155" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Pixies" titre="Surfer Rosa" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="154" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Pet shop boys" titre="Actually" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="156" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Stone Roses" titre="Second Coming" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="155" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Supergrass" titre="I should coco" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="157" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Pet Shop Boys" titre="Actually" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="156" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Wu-Tang Clan" titre="Enter The Wu-Tang" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="158" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Supergrass" titre="I Should Coco" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="157" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Sigur Ros" titre="Takk ..." type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="159" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Wu-Tang Clan" titre="Enter The Wu Tang Clan (36 Chambers)" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="158" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Nick Cave and the Bad seeds" titre="The boatman's call" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="160" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Sigur Ros" titre="Takk..." type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="159" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Lauryn Hill" titre="The miseducation of Lauryn Hill" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="162" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Nick Cave And The Bad Seeds" titre="The Boatman's Call" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="160" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Teenage fanclub" titre="Bandwagonesque" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="163" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Flaming Lips" titre="The Soft Parade" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="161" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Scissor sisters" titre="Scissor sisters" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="165" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Lauryn Hill" titre="The Miseducation Of Lauryn Hill" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="162" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="The rising" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="166" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Teenage Fanclub" titre="Bandwagonesque" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="163" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Pulp" titre="His 'n' hers" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="168" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Xx" titre="The Xx" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="164" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Scissor Sisters" titre="Scissor Sisters" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="165" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Bruce Springsteen" titre="The Rising" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="166" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="PJ Harvey" titre="Rid Of Me" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="167" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Pulp" titre="His 'N' Hers" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="168" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="U2" titre="Zooropa" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="169" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="169" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="American recordings" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="170" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Johnny Cash" titre="American Recordings" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="170" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Good, the Bad And the Queen" titre="The Good, the Bad And the Queen" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="171" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Good The Bad And The Queen" titre="The Good The Bad And The Queen" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="171" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Neil Young" titre="Ragged Glory" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="172" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Neil Young And Crazy Horse" titre="Ragged Glory" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="172" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Dr. Dre" titre="The Chronic" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="173" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Dr Dre" titre="The Chronic" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="173" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Aerosmith" titre="Pump" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="174" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="174" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Madonna" titre="Ray of light" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="175" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Madonna" titre="Ray Of Light" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="175" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Talk talk" titre="Spirit of Eden" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="176" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Talk Talk" titre="Sprit Of Eden" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="176" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="David Bowie" titre="Heathen" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="177" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="177" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Ryan Adams" titre="Heartbreaker" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="178" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="178" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Yeah Yeah Yeahs" titre="Fever To Tell" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="179" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Slint" titre="Spiderland" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="180" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="180" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Inxs" titre="Kick" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="181" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="181" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Emmylou Harris" titre="Wrecking ball" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="182" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Emmylou Harris" titre="Wrecking Ball" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="182" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Damien Rice" titre="O" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="183" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="183" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Elastica" titre="Elastica" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="184" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="184" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Time out of mind" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="185" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Bob Dylan" titre="Time Out Of Mind" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="185" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Pogues" titre="If I should fall from grace with God" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="186" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Pogues" titre="If I Should Fall From Grace With God" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="186" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Lou Reed" titre="New York" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="187" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="187" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Jay-Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="188" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Amy Winehouse" titre="Frank" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="189" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Kate Bush" titre="Aerial" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="190" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="190" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Fleetwood mac" titre="Tango in the night" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="191" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Fleetwood Mac" titre="Tango In The Night" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="191" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Waterboys" titre="Fisherman's blues" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="193" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Animal Collective" titre="Merriweather Post Pavilion" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="192" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="The Waterboys" titre="Fisherman's Blues" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="193" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="U2" titre="Pop" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="194" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="194" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Goldfrapp" titre="Felt mountain" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="195" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Goldfrapp" titre="Felt Mountain" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="195" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Lemonheads" titre="It's a shame about Ray" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="196" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Lemonheads" titre="It's A Shame About Ray" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="196" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Tom Waits" titre="Mule variations" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="197" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Tom Waits" titre="Mule Variations" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="197" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="N.W.A." titre="Straight outta Compton" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="198" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="N.W.A." titre="Straight Outta Compton" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="198" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="National" titre="Boxer" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="199" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The National" titre="Boxer" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="199" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Boards of Canada" titre="Music has the right to children" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="200" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Boards Of Canada" titre="Music Has The Right To Children" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="200" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Verve" titre="A Northern soul" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="201" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Verve" titre="A Northern Soul" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="201" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="DJ Shadow" titre="Endtroducing" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="202" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Dj Shadow" titre="Endtroducing" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="202" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Arctic monkeys" titre="Humbug" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="203" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Arctic Monkeys" titre="Humbug" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="203" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Radiohead" titre="Pablo Honey" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="204" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="204" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Belle and Sebastian" titre="The boy with the Arab strap" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="205" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Belle And Sebastian" titre="The Boy With The Arab Strap" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="205" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Tunnel of love" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="206" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Bruce Springsteen" titre="Tunnel Of Love" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="206" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Alice in chains" titre="Dirt" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="208" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Oasis" titre="Dig Out Your Soul" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="207" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="De la soul" titre="3 feet high and rising" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="209" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Alice In Chains" titre="Dirt" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="208" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Joanna Newsom" titre="Ys" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="210" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="De La Soul" titre="3 Feet High And Rising" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="209" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Kula shaker" titre="K" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="211" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Joanna Newsome" titre="Yssssssszzzzzzzz" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="210" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Dido" titre="No angel" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="212" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Kula Shaker" titre="K" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="211" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="Dido" titre="No Angel" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="212" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Weezer" titre="Pinkerton" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="213" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="213" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Madonna" titre="Like a prayer" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="214" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Madonna" titre="Like A Prayer" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="214" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Fugees" titre="The score" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="215" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Fugees" titre="The Score" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="215" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Elliott Smith" titre="XO" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="216" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Elliott Smith" titre="Xo" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="216" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Paul Simon" titre="Graceland" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="217" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="217" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Robert Plant And Alison Krauss" titre="Raising sand" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="218" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Robert Plant And Alison Krauss" titre="Raising Sand" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="218" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Blue Nile" titre="Hats" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="219" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Blue Nile" titre="Hats" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="219" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Bright eyes" titre="I'm wide awake it's morning" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="220" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Bright Eyes" titre="I'm Wide Awake, It's Morning" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="220" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Modest mouse" titre="The moon And Antarctica" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="221" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Modest Mouse" titre="The Moon And Antarctica" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="221" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="KLF" titre="The white room" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="222" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The KLF" titre="The White Room" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="222" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Robbie Williams" titre="I've been expecting you" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="223" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Robbie Williams" titre="I've Been Expecting You" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="223" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Roger Waters" titre="Amused to death" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="224" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Roger Walters" titre="Amused To Death" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="224" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Fall" titre="Extricate" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="225" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="The Fall" titre="Extricate" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="225" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Tracy Chapman" titre="Tracy Chapman" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="226" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="226" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Godspeed you black emperor!" titre="F#a#oo" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="227" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Godspeed You Black Emperor" titre="F#A#00" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="227" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Galaxie 500" titre="On fire" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="228" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Galaxie 500" titre="On Fire" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="228" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Jane's addiction" titre="Nothing's shocking" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="229" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Jane's Addiction" titre="Nothing's Shocking" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="229" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Jay-Z" titre="The black album" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="230" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Jay-Z" titre="The Black Album" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="230" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Crowded house" titre="Together alone" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="231" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Crowded House" titre="Together Alone" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="231" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Dizzee Rascal" titre="Boy in da corner" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="232" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Dizzee Rascal" titre="Boy In Da Corner" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="232" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Morrissey" titre="Viva hate" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="233" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Morrissey" titre="Viva Hate" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="233" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Leonard Cohen" titre="I'm your man" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="234" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Leonard Cohen" titre="I'm Your Man" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="234" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Cocteau twins" titre="Heaven or Las Vegas" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="235" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Cocteau Twins" titre="Heaven Or Las Vegas" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="235" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Beastie boys" titre="Ill communication" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="236" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Beastie Boys" titre="Ill Communication" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="236" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Nick Cave and the Bad seeds" titre="Tender prey" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="237" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Nick Cave And The Bad Seeds" titre="Tender Prey" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="237" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="James" titre="Seven" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="238" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="238" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Soul II Soul" titre="Club classics, vol. 1" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="239" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Soul Ii Soul" titre="Club Classics Vol One" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="239" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Take that" titre="Beautiful world live" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="240" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Take That" titre="Beautiful World" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="240" creationDate="05/01/2018 13:17:17" size="250"/>
+  </Composition>
+  <Composition artist="PJ Harvey" titre="Stories From The City, Stories From The Sea" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="241" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Ben Folds Five" titre="Whatever And Ever Amen" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="242" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="242" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="KT Tunstall" titre="Eye to the telescope" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="243" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="KT Tunstall" titre="Eye To The Telescope" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="243" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Antony And the Johnsons" titre="I am a bird now" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="244" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Antony And The Johnsons" titre="I Am A Bird Now" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="244" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Royksopp" titre="Melody a.m." type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="245" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Royksopp" titre="Melody A.M." type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="245" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Outkast" titre="Stankonia" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="246" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Outcast" titre="Stankonia" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="246" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Slipknot" titre="Slipknot" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="247" creationDate="19/07/2017 07:11:54" size="250"/>
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="247" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Sugar" titre="Copper blue" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="248" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Sugar" titre="Copper Blue" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="248" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Orbital" titre="Orbital (Brown Album)" type="ALBUM" canBeMerged="false" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="249" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Orbital" titre="Orbital(&quot;the Green Album&quot;)" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="249" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Gomez" titre="Bring it on" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="250" creationDate="19/07/2017 07:11:54" size="250"/>
+  <Composition artist="Gomez" titre="Bring It On" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="250" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
 </ListCompositions>

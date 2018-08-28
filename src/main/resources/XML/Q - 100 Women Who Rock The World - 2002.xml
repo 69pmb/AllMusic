@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="PJ Harvey" titre="Stories From The City, Stories From The Sea" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 100 Women Who Rock The World - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
   <Composition artist="Madonna" titre="Ray Of Light" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Women Who Rock The World - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
@@ -9,6 +12,9 @@
   </Composition>
   <Composition artist="Tori Amos" titre="Little Earthquakes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Women Who Rock The World - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="4" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="Bjork" titre="Debut" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Q" fileName="Q - 100 Women Who Rock The World - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Debbie Harry" titre="Parallel Lines" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Women Who Rock The World - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="6" creationDate="19/07/2017 07:11:54" size="100"/>
@@ -43,7 +49,7 @@
   <Composition artist="Chrissy Hynde" titre="The Pretenders Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Women Who Rock The World - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="16" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Women Who Rock The World - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="17" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Alanis Morissette" titre="Jagged Little Pill" type="ALBUM" canBeMerged="true" deleted="false">
