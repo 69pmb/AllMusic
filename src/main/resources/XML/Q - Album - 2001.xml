@@ -91,7 +91,7 @@
   <Composition artist="Playgroup" titre="Playgroup" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="false" classement="30" creationDate="28/08/2018 11:39:39" size="46"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="false" classement="31" creationDate="28/08/2018 11:39:39" size="46"/>
   </Composition>
   <Composition artist="R.E.M." titre="Reveal" type="ALBUM" canBeMerged="true" deleted="false">
