@@ -28,10 +28,10 @@
   <Composition artist="New Order" titre="Blue Monday" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Music That Changed The World - Song (1980-2004) - 2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="1980" rangeDateEnd="2004" sorted="true" classement="9" creationDate="28/08/2017 21:26:16" size="20"/>
   </Composition>
-  <Composition artist="Underworls" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Underworls" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Music That Changed The World - Song (1980-2004) - 2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="1980" rangeDateEnd="2004" sorted="true" classement="10" creationDate="28/08/2017 21:26:16" size="20"/>
   </Composition>
-  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Music That Changed The World - Song (1980-2004) - 2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="1980" rangeDateEnd="2004" sorted="true" classement="11" creationDate="28/08/2017 21:26:16" size="20"/>
   </Composition>
   <Composition artist="Motorhead" titre="Ace Of Spades" type="SONG" canBeMerged="true" deleted="false">
@@ -46,7 +46,7 @@
   <Composition artist="Marvin Gaye" titre="Sexual Healing" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Music That Changed The World - Song (1980-2004) - 2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="1980" rangeDateEnd="2004" sorted="true" classement="15" creationDate="28/08/2017 21:26:16" size="20"/>
   </Composition>
-  <Composition artist="Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Music That Changed The World - Song (1980-2004) - 2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="1980" rangeDateEnd="2004" sorted="true" classement="16" creationDate="28/08/2017 21:26:16" size="20"/>
   </Composition>
   <Composition artist="The Smiths" titre="This Charming Man" type="SONG" canBeMerged="true" deleted="false">
@@ -58,7 +58,7 @@
   <Composition artist="Frankie Gose To Hollywood" titre="Two Tribes" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Music That Changed The World - Song (1980-2004) - 2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="1980" rangeDateEnd="2004" sorted="true" classement="19" creationDate="28/08/2017 21:26:16" size="20"/>
   </Composition>
-  <Composition artist="Madonna" titre="Into The Groove" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Madonna" titre="Into The Groove" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Music That Changed The World - Song (1980-2004) - 2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="1980" rangeDateEnd="2004" sorted="true" classement="20" creationDate="28/08/2017 21:26:16" size="20"/>
   </Composition>
 </ListCompositions>

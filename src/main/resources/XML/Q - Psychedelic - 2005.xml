@@ -4,7 +4,7 @@
   <Composition artist="Jimi Hendrix Experience" titre="Electric Ladyland" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Psychedelic - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="true" classement="1" creationDate="28/08/2018 12:03:53" size="40"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Psychedelic - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="true" classement="2" creationDate="28/08/2018 12:03:53" size="40"/>
   </Composition>
   <Composition artist="Pink Floyd" titre="The Piper At The Gates Of Dawn" type="ALBUM" canBeMerged="true" deleted="false">
@@ -52,7 +52,7 @@
   <Composition artist="Captain Beefheart And His Magic Band" titre="Safe As Milk" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Psychedelic - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="true" classement="17" creationDate="28/08/2018 12:03:53" size="40"/>
   </Composition>
-  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Psychedelic - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="true" classement="18" creationDate="28/08/2018 12:03:53" size="40"/>
   </Composition>
   <Composition artist="The Incredible String Band" titre="The 5000 Sprits Of The Layers Of The Onion" type="ALBUM" canBeMerged="true" deleted="false">

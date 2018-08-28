@@ -82,7 +82,7 @@
   <Composition artist="New York Dolls" titre="New York Dolls" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Debut Albums That Changed Music - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="27" creationDate="28/08/2018 12:11:19" size="113"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Debut Albums That Changed Music - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="28" creationDate="28/08/2018 12:11:19" size="113"/>
   </Composition>
   <Composition artist="The Modern Lovers" titre="The Modern Lovers" type="ALBUM" canBeMerged="true" deleted="false">
@@ -178,7 +178,7 @@
   <Composition artist="Happy Mondays" titre="Squirrel And G-Man Twenty Four Hour Party People" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Debut Albums That Changed Music - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="59" creationDate="28/08/2018 12:11:19" size="113"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Debut Albums That Changed Music - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="60" creationDate="28/08/2018 12:11:19" size="113"/>
   </Composition>
   <Composition artist="Public Enemy" titre="Yo! Bum Rush The Show" type="ALBUM" canBeMerged="true" deleted="false">

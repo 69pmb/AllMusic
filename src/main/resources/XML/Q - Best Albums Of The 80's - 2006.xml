@@ -28,13 +28,13 @@
   <Composition artist="AC/DC" titre="Back In Black" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Best Albums Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="9" creationDate="28/08/2018 14:33:05" size="40"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Best Albums Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="10" creationDate="28/08/2018 14:33:05" size="40"/>
   </Composition>
   <Composition artist="Pixies" titre="Doolittle" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Best Albums Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="11" creationDate="28/08/2018 14:33:05" size="40"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Best Albums Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="12" creationDate="28/08/2018 14:33:05" size="40"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Nebraska" type="ALBUM" canBeMerged="true" deleted="false">
@@ -88,7 +88,7 @@
   <Composition artist="Peter Gabriel" titre="Peter Gabriel [III]" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Best Albums Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="29" creationDate="28/08/2018 14:33:05" size="40"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Best Albums Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="30" creationDate="28/08/2018 14:33:05" size="40"/>
   </Composition>
   <Composition artist="Talk Talk" titre="Spirit Of Eden" type="ALBUM" canBeMerged="true" deleted="false">

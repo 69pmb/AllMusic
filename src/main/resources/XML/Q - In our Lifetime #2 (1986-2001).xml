@@ -64,7 +64,7 @@
   <Composition artist="Coldplay" titre="Parachutes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - In our Lifetime #2 (1986-2001)" publishYear="2001" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2001" sorted="true" classement="21" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - In our Lifetime #2 (1986-2001)" publishYear="2001" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2001" sorted="true" classement="22" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Pulp" titre="Different Class" type="ALBUM" canBeMerged="true" deleted="false">
@@ -133,7 +133,7 @@
   <Composition artist="The La's" titre="The La's" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - In our Lifetime #2 (1986-2001)" publishYear="2001" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2001" sorted="true" classement="44" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
-  <Composition artist="Guns And Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns And Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - In our Lifetime #2 (1986-2001)" publishYear="2001" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2001" sorted="true" classement="45" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Madonna" titre="Ray Of Light" type="ALBUM" canBeMerged="true" deleted="false">

@@ -55,7 +55,7 @@
   <Composition artist="Michael Jackson" titre="Bad" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="18" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="19" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
   <Composition artist="The Replacements" titre="Peased TMeed Me" type="ALBUM" canBeMerged="true" deleted="false">
@@ -64,7 +64,7 @@
   <Composition artist="Pet Shop Boys" titre="Actually" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="21" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="22" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
   <Composition artist="The Smiths" titre="Strangeways Here We Come" type="ALBUM" canBeMerged="true" deleted="false">
@@ -91,7 +91,7 @@
   <Composition artist="Prince" titre="Lovesexy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="30" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="31" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
   <Composition artist="Pixies" titre="Surfer Rosa" type="ALBUM" canBeMerged="true" deleted="false">
@@ -697,7 +697,7 @@
   <Composition artist="Tool" titre="Lateralus" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="232" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="233" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
   <Composition artist="The White Stripes" titre="White Blood Cells" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1345,7 +1345,7 @@
   <Composition artist="Joanna Newsom" titre="Divers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="448" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Blackstar" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Blackstar" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="449" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
   <Composition artist="PJ Harvey" titre="The Hope Six Demolition Project" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1360,7 +1360,7 @@
   <Composition artist="Parquet Courts" titre="Human Performance" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="453" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
-  <Composition artist="Radiohead" titre="A Moon Shaped Pool" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="A Moon Shaped Pool" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="454" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
   <Composition artist="The Beatles" titre="Anthology Volumes 1 T3" type="ALBUM" canBeMerged="true" deleted="false">
