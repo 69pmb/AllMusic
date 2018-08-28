@@ -100,7 +100,7 @@
   <Composition artist="Maxi Priest" titre="Maxi" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="33" creationDate="28/08/2018 11:33:49" size="50"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'o' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'o' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="34" creationDate="28/08/2018 11:33:49" size="50"/>
   </Composition>
   <Composition artist="Chris Rea" titre="Dancing With Strangers" type="ALBUM" canBeMerged="true" deleted="false">
