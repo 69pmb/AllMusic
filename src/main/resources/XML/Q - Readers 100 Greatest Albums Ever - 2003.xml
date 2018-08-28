@@ -55,7 +55,7 @@
   <Composition artist="Manic Street Preachers" titre="The Holy Bible" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Readers 100 Greatest Albums Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="18" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers 100 Greatest Albums Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="19" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
   <Composition artist="Lauryn Hill" titre="The Miseducation Of.." type="ALBUM" canBeMerged="true" deleted="false">
@@ -106,10 +106,10 @@
   <Composition artist="Radiohead" titre="Kid A" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Readers 100 Greatest Albums Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="35" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers 100 Greatest Albums Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="36" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers 100 Greatest Albums Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="37" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
   <Composition artist="PJ Harvey" titre="Stories From The City, Stories From The Sea" type="ALBUM" canBeMerged="true" deleted="false">
