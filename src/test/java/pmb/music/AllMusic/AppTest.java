@@ -62,19 +62,19 @@ public class AppTest {
 			.compareTo(c2.getFiles().get(0).getClassement());
 
 	public static void main(String[] args) throws IOException {
-		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		// topRecordsByPoints(importXML, RecordType.SONG, "Top All Years Songs");
 		// topRecordsByPoints(importXML, RecordType.ALBUM, "Top All Years Albums");
 		// stats(importXML, RecordType.ALBUM);
 		// stats(importXML, RecordType.SONG);
 		// gauss(importXML, RecordType.ALBUM);
-		sizeFileSuspicious(importXML);
+		sizeFileSuspicious();
 		// findImportParamsForAllFiles();
 		// duplicateRankInFiles(importXML);
 		// setDeleted();
 	}
 
-	public static void duplicateRankInFiles(List<Composition> importXML) {
+	public static void duplicateRankInFiles() {
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
 		for (String name : nomFichier) {
@@ -432,7 +432,8 @@ public class AppTest {
 		return artistRevert;
 	}
 
-	public static void sizeFileSuspicious(List<Composition> importXML) {
+	public static void sizeFileSuspicious() {
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		LOG.debug("# Tous les fichiers qui ont une taille non multiple de 10");
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream)
 				.filter(f -> f.getSize() % 10 != 0 && f.getSize() % 5 != 0)
@@ -472,7 +473,7 @@ public class AppTest {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false).stream()
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true).stream()
 				.map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
 				.collect(Collectors.toList());
 		for (Integer rank : yearList) {
@@ -493,7 +494,7 @@ public class AppTest {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false).stream()
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true).stream()
 				.map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
 				.collect(Collectors.toList());
 		LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
@@ -509,7 +510,7 @@ public class AppTest {
 
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false);
+		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true);
 
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		for (Composition composition : yearList) {
@@ -540,7 +541,7 @@ public class AppTest {
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 			criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
-			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false);
+			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true);
 			// LOG.debug("year: " + year + " size: " + yearList.size());
 			LOG.debug("year: " + year + " file size: " + yearList.stream().map(Composition::getFiles)
 					.flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().count());
@@ -784,7 +785,7 @@ public class AppTest {
 		List<Composition> list = ImportXML.importXML(Constant.getFinalFilePath());
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_ARTIST, "prince");
-		List<Composition> search = SearchUtils.search(list, criteria, false, SearchMethod.CONTAINS, false);
+		List<Composition> search = SearchUtils.search(list, criteria, false, SearchMethod.CONTAINS, false, true);
 		Map<String, List<Composition>> groupByArtist = CompositionUtils.groupCompositionByArtist(search);
 		LOG.debug("panelArtist");
 		groupByArtist.entrySet().stream()
