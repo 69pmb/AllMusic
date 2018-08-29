@@ -79,16 +79,13 @@
   <Composition artist="Joni Mitchell" titre="Blue" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="30" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Ram Ones" titre="Ram Ones" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="33" creationDate="28/08/2017 14:29:58" size="500"/>
-  </Composition>
   <Composition artist="Bob Dylan" titre="Bringing It All Back Home" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="31" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Let It Bleed" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="32" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Ramones" titre="Ramones" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Ramones" titre="Ramones (1st Album)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="33" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Band" titre="Music From Big Pink" type="ALBUM" canBeMerged="true" deleted="false">
@@ -148,7 +145,7 @@
   <Composition artist="Ray Charles" titre="The Birth of Soul: The Complete Atlantic Rhythm and Blues Recordings 1952, 1959" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="53" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Jimi Hendrix Experience" titre="Electric Ladyland" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Jimi Hendrix" titre="Electric Ladyland" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="54" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="Elvis Presley" type="ALBUM" canBeMerged="true" deleted="false">
@@ -280,7 +277,7 @@
   <Composition artist="Creedence Clearwater Revival" titre="Green River" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="95" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Who" titre="Tommy" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Who" titre="Tommy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="96" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="The Freewheelin' Bob Dylan" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1285,7 +1282,7 @@
   <Composition artist="James Brown" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="414" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Van Halen" titre="Van Halen" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Van Halen" titre="Van Halen (1st Album)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="415" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Tom Waits" titre="Mule Variations" type="ALBUM" canBeMerged="true" deleted="false">
