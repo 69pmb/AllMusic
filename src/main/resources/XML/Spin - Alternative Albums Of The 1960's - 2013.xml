@@ -76,7 +76,7 @@
   <Composition artist="Silver Apples" titre="Silver Apples" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Alternative Albums Of The 1960's - 2013" publishYear="2013" categorie="THEME" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="25" creationDate="30/08/2018 10:32:19" size="100"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Alternative Albums Of The 1960's - 2013" publishYear="2013" categorie="THEME" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="26" creationDate="30/08/2018 10:32:19" size="100"/>
   </Composition>
   <Composition artist="Nick Drake" titre="Five Leaves Left" type="ALBUM" canBeMerged="true" deleted="false">
