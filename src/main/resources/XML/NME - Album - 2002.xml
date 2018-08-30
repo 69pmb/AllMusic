@@ -61,7 +61,7 @@
   <Composition artist="Ms Dynamite" titre="A Little Deeper" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="22" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Jay-Z" titre="The Blueprint 2" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Jay Z" titre="The Blueprint 2" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="23" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="The Von Bondies" titre="Lack Of Communication" type="ALBUM" canBeMerged="true" deleted="false">
