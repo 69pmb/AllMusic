@@ -16,7 +16,7 @@
   <Composition artist="Green Day" titre="American Idiot" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Readers 25th Anniversary Albums - 2010" publishYear="2010" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2010" sorted="false" classement="5" creationDate="30/08/2018 11:18:41" size="25"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Readers 25th Anniversary Albums - 2010" publishYear="2010" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2010" sorted="false" classement="6" creationDate="30/08/2018 11:18:41" size="25"/>
   </Composition>
   <Composition artist="PJ Harvey" titre="Rid Of Me" type="ALBUM" canBeMerged="true" deleted="false">
@@ -49,7 +49,7 @@
   <Composition artist="Pixies" titre="Doolittle" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Readers 25th Anniversary Albums - 2010" publishYear="2010" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2010" sorted="false" classement="16" creationDate="30/08/2018 11:18:41" size="25"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign &quot;O&quot; The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign &quot;O&quot; The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Readers 25th Anniversary Albums - 2010" publishYear="2010" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2010" sorted="false" classement="17" creationDate="30/08/2018 11:18:41" size="25"/>
   </Composition>
   <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
@@ -64,7 +64,7 @@
   <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Readers 25th Anniversary Albums - 2010" publishYear="2010" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2010" sorted="false" classement="21" creationDate="30/08/2018 11:18:41" size="25"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Readers 25th Anniversary Albums - 2010" publishYear="2010" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2010" sorted="false" classement="22" creationDate="30/08/2018 11:18:41" size="25"/>
   </Composition>
   <Composition artist="U2" titre="Achtung Baby" type="ALBUM" canBeMerged="true" deleted="false">
