@@ -94,7 +94,7 @@
   <Composition artist="Noah And The Whale" titre="First Days Of Spring" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="32" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Jay-Z" titre="The Blueprint 3" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Jay Z" titre="The Blueprint 3" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="33" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Phoenix" titre="Wolfgang Amadeus Phoenix" type="ALBUM" canBeMerged="true" deleted="false">
