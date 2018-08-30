@@ -157,7 +157,7 @@
   <Composition artist="Stereo MC's" titre="Connected" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="52" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
-  <Composition artist="Peter Gabriel" titre="Peter Gabriel/Melt" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Peter Gabriel" titre="Peter Gabriel/Melt" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="Q" fileName="Q - The 100 Greatest British Albums Ever - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="53" creationDate="15/07/2017 10:45:54" size="100"/>
   </Composition>
   <Composition artist="Travis" titre="The Man Who" type="ALBUM" canBeMerged="true" deleted="false">
