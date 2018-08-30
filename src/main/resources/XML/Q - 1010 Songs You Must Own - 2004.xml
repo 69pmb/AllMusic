@@ -286,10 +286,10 @@
   <Composition artist="Smashing Pumpkins" titre="Today" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1010 Songs You Must Own - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="95" creationDate="28/08/2018 10:59:18" size="1010"/>
   </Composition>
-  <Composition artist="Jimi Hendrix" titre="VoodoChile (Slight Return)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jimi Hendrix" titre="VoodoChile (Slight Return)" type="SONG" canBeMerged="false" deleted="false">
     <File author="Q" fileName="Q - 1010 Songs You Must Own - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="96" creationDate="28/08/2018 10:59:18" size="1010"/>
   </Composition>
-  <Composition artist="Run DMC/Aerosmith" titre="Walk This Way" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Run DMC And Aerosmith" titre="Walk This Way" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1010 Songs You Must Own - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="97" creationDate="28/08/2018 10:59:18" size="1010"/>
   </Composition>
   <Composition artist="Guns N' Roses" titre="Welcome Tthe Jungle" type="SONG" canBeMerged="true" deleted="false">
@@ -1237,7 +1237,7 @@
   <Composition artist="Curve" titre="Falling Free (Aphex Twin Remix)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1010 Songs You Must Own - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="412" creationDate="28/08/2018 10:59:18" size="1010"/>
   </Composition>
-  <Composition artist="Mariah Carey" titre="Fantasy (Bad Boy With ODB)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Mariah Carey" titre="Fantasy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1010 Songs You Must Own - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="413" creationDate="28/08/2018 10:59:18" size="1010"/>
   </Composition>
   <Composition artist="Jacknife Lee Vs Missy Elliott" titre="Get Ur 9lb Cock On" type="SONG" canBeMerged="true" deleted="false">
