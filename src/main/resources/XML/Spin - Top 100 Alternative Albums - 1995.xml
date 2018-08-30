@@ -16,7 +16,7 @@
   <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Top 100 Alternative Albums - 1995" publishYear="1995" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="5" creationDate="30/08/2018 10:16:24" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Top 100 Alternative Albums - 1995" publishYear="1995" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="6" creationDate="30/08/2018 10:16:24" size="100"/>
   </Composition>
   <Composition artist="Big Star" titre="Radio City" type="ALBUM" canBeMerged="true" deleted="false">
@@ -25,7 +25,7 @@
   <Composition artist="R.E.M." titre="Murmur" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Top 100 Alternative Albums - 1995" publishYear="1995" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="8" creationDate="30/08/2018 10:16:24" size="100"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Top 100 Alternative Albums - 1995" publishYear="1995" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="9" creationDate="30/08/2018 10:16:24" size="100"/>
   </Composition>
   <Composition artist="X" titre="Wild Gift" type="ALBUM" canBeMerged="true" deleted="false">
@@ -70,7 +70,7 @@
   <Composition artist="Lucinda Williams" titre="Lucinda Williams" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Top 100 Alternative Albums - 1995" publishYear="1995" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="23" creationDate="30/08/2018 10:16:24" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign O The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign O The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Top 100 Alternative Albums - 1995" publishYear="1995" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="1995" sorted="true" classement="24" creationDate="30/08/2018 10:16:24" size="100"/>
   </Composition>
   <Composition artist="Hole" titre="Live Through This" type="ALBUM" canBeMerged="true" deleted="false">

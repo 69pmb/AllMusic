@@ -730,7 +730,7 @@
   <Composition artist="Sleater-Kinney" titre="The Woods" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="58" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="57" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
   <Composition artist="Lil Wayne" titre="Tha Carter III" type="ALBUM" canBeMerged="true" deleted="false">
@@ -865,7 +865,7 @@
   <Composition artist="Jay Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="13" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="12" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
   <Composition artist="D'Angelo" titre="Voodoo" type="ALBUM" canBeMerged="true" deleted="false">
@@ -892,7 +892,7 @@
   <Composition artist="Daft Punk" titre="Discovery" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="4" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="3" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
   <Composition artist="Wu-Tang Clan" titre="Enter The Wu-Tang (36 Chambers)" type="ALBUM" canBeMerged="true" deleted="false">
