@@ -169,7 +169,7 @@
   <Composition artist="Beastie Boys" titre="Licensed tIll" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="56" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Beat (UK)" titre="I Just Can't Stop It" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beat" titre="I Just Can't Stop It" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="57" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Beatles" titre="Rubber Soul" type="ALBUM" canBeMerged="true" deleted="false">
@@ -322,7 +322,7 @@
   <Composition artist="Brandy" titre="Afrodisiac" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="107" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Anthony Braxton" titre="For Alt(1969)" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Anthony Braxton" titre="For Alto" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="108" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Michael Brecker" titre="Pilgrimage" type="ALBUM" canBeMerged="true" deleted="false">
@@ -982,7 +982,7 @@
   <Composition artist="Future Sound of London" titre="Accelerator" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="327" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Peter Gabriel" titre="Peter Gabriel/Security" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Peter Gabriel" titre="Peter Gabriel/Security" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="328" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Serge Gainsbourg" titre="Comic Strip" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1564,7 +1564,7 @@
   <Composition artist="Magazine" titre="Real Life" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="523" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Magnetic Fields" titre="69 Love Songs (1999)" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Magnetic Fields" titre="69 Love Songs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="524" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Mahavishnu Orchestra" titre="Inner Mounting Flame" type="ALBUM" canBeMerged="true" deleted="false">
@@ -2806,7 +2806,7 @@
   <Composition artist="Link Wray" titre="Early Recordings" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="937" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Wu-Tang Clan" titre="Enter The Wu-Tang" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Wu Tang Clan" titre="Enter the Wu Tang" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Albums to Hear Before You Die - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="938" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Robert Wyatt" titre="Rock Bottom" type="ALBUM" canBeMerged="true" deleted="false">
