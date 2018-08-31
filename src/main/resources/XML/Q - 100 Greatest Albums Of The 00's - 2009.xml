@@ -298,7 +298,7 @@
   <Composition artist="The Strokes" titre="Is This It" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Albums Of The 00's - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="2" creationDate="28/08/2018 14:32:35" size="100"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Albums Of The 00's - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="1" creationDate="28/08/2018 14:32:35" size="100"/>
   </Composition>
 </ListCompositions>

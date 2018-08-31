@@ -49,7 +49,7 @@
   <Composition artist="Yuck" titre="Georgia" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Song - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="35" creationDate="05/01/2018 13:17:17" size="50"/>
   </Composition>
-  <Composition artist="Adele" titre="Rolling In The Deep" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Adele" titre="Rolling In The Deep" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - Song - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="34" creationDate="05/01/2018 13:17:17" size="50"/>
   </Composition>
   <Composition artist="Reptar" titre="Blastoff" type="SONG" canBeMerged="true" deleted="false">

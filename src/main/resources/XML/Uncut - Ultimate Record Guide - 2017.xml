@@ -112,7 +112,7 @@
   <Composition artist="Amon Duul II" titre="Yeti" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="37" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="38" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
   <Composition artist="Angelic Upstarts" titre="Teenage Warning" type="ALBUM" canBeMerged="true" deleted="false">
@@ -3895,7 +3895,7 @@
   <Composition artist="The Alabama Shakes" titre="Sound And Color" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1298" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
-  <Composition artist="The Allman Brothers Band" titre="At The Fillmore East" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Allman Brothers Band" titre="At Fillmore East" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1299" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
   <Composition artist="The Allman Brothers Band" titre="Eat A Peach" type="ALBUM" canBeMerged="true" deleted="false">
