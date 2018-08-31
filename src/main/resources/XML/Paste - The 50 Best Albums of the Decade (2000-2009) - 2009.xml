@@ -52,7 +52,7 @@
   <Composition artist="Kanye West" titre="The College Dropout" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="17" creationDate="31/08/2018 09:54:34" size="50"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="18" creationDate="31/08/2018 09:54:34" size="50"/>
   </Composition>
   <Composition artist="Beck" titre="Sea Change" type="ALBUM" canBeMerged="true" deleted="false">

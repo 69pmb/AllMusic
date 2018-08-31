@@ -4,7 +4,7 @@
   <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="1" creationDate="27/08/2018 11:34:48" size="50"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="2" creationDate="27/08/2018 11:34:48" size="50"/>
   </Composition>
   <Composition artist="Hot Chip" titre="The Warning" type="ALBUM" canBeMerged="true" deleted="false">

@@ -514,7 +514,7 @@
   <Composition artist="Jay-Z" titre="99 Problems" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="172" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Aerosmith" titre="Dream On" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Aerosmith" titre="Dream On" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="173" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Abba" titre="Dancing Queen" type="SONG" canBeMerged="true" deleted="false">
@@ -577,7 +577,7 @@
   <Composition artist="Lynyrd Skynyrd" titre="Free Bird" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="193" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Rehab" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Rehab" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="194" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Glen Campbell" titre="Wichita Lineman" type="SONG" canBeMerged="true" deleted="true">
@@ -1174,7 +1174,7 @@
   <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="392" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Allman Brothers Band" titre="Whipping Post" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Allman Brothers Band" titre="Whipping Post" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="393" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="Ticket to Ride" type="SONG" canBeMerged="true" deleted="false">
@@ -1453,7 +1453,7 @@
   <Composition artist="David Bowie" titre="Young Americans" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="486" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Alice Cooper" titre="I'm Eighteen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Alice Cooper" titre="I'm Eighteen" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="487" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Cure" titre="Just Like Heaven" type="SONG" canBeMerged="true" deleted="false">
