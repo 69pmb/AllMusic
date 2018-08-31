@@ -19,7 +19,7 @@
   <Composition artist="Radiohead" titre="In Rainbows" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Album - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="6" creationDate="30/08/2018 11:00:10" size="40"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Album - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="7" creationDate="30/08/2018 11:00:10" size="40"/>
   </Composition>
   <Composition artist="Jay-Z" titre="American Gangster" type="ALBUM" canBeMerged="true" deleted="false">
