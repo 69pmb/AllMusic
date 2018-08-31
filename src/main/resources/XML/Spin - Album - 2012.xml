@@ -22,8 +22,11 @@
   <Composition artist="Swans" titre="The Seer" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="7" creationDate="30/08/2018 11:02:49" size="50"/>
   </Composition>
-  <Composition artist="Killer Mike R.A.P. Music 9. Ty Segall" titre="Twins" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Killer Mike" titre="R.A.P. Music" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="8" creationDate="30/08/2018 11:02:49" size="50"/>
+  </Composition>
+  <Composition artist="Ty Segall" titre="Twins" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Spin" fileName="Spin - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="9" creationDate="30/08/2018 11:02:49" size="50"/>
   </Composition>
   <Composition artist="Santigold" titre="Master Of My Make-Believe" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="10" creationDate="30/08/2018 11:02:49" size="50"/>
