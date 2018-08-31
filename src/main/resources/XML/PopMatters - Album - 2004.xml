@@ -295,7 +295,7 @@
   <Composition artist="BRIAN WILSON" titre="Smile" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="PopMatters" fileName="PopMatters - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="3" creationDate="10/08/2018 16:25:18" size="100"/>
   </Composition>
-  <Composition artist="THE ARCADE FIRE" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="THE ARCADE FIRE" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="PopMatters" fileName="PopMatters - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="2" creationDate="10/08/2018 16:25:18" size="100"/>
   </Composition>
   <Composition artist="KANYE WEST" titre="The College Dropout" type="ALBUM" canBeMerged="true" deleted="false">

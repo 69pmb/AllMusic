@@ -40,7 +40,7 @@
   <Composition artist="The Smiths" titre="This Charming Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="11" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="12" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Free" titre="All Right Now" type="SONG" canBeMerged="true" deleted="false">
@@ -208,7 +208,7 @@
   <Composition artist="? And The Mysterians" titre="96 Tears" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="64" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Band" titre="The Weight" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Band" titre="The Weight" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="65" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Band" titre="I Shall Be Released" type="SONG" canBeMerged="true" deleted="false">

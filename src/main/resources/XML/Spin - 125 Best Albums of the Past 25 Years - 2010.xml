@@ -196,7 +196,7 @@
   <Composition artist="Eminem" titre="The Marshall Mathers LP" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - 125 Best Albums of the Past 25 Years - 2010" publishYear="2010" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2010" sorted="true" classement="65" creationDate="30/08/2018 11:15:54" size="125"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - 125 Best Albums of the Past 25 Years - 2010" publishYear="2010" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2010" sorted="true" classement="66" creationDate="30/08/2018 11:15:54" size="125"/>
   </Composition>
   <Composition artist="Tom Waits" titre="Rain Dogs" type="ALBUM" canBeMerged="true" deleted="false">

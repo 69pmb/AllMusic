@@ -148,7 +148,7 @@
   <Composition artist="Animal Collective" titre="Sung Tongs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="2" creationDate="24/07/2018 20:37:22" size="50"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="1" creationDate="24/07/2018 20:37:22" size="50"/>
   </Composition>
 </ListCompositions>

@@ -271,7 +271,7 @@
   <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="11" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
-  <Composition artist="The Band" titre="The Weight" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Band" titre="The Weight" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="10" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="Whole Lotta Love" type="SONG" canBeMerged="true" deleted="false">
@@ -298,7 +298,7 @@
   <Composition artist="The Rolling Stones" titre="Gimme Shelter" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="2" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="1" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
 </ListCompositions>

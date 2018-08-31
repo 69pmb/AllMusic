@@ -646,7 +646,7 @@
   <Composition artist="Pixies" titre="Surfer Rosa" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="86" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="MISCELLANEOUS" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="85" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
   <Composition artist="A Tribe Called Quest" titre="Midnight Marauders" type="ALBUM" canBeMerged="true" deleted="false">

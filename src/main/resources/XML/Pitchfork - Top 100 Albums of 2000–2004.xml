@@ -133,7 +133,7 @@
   <Composition artist="Deerhoof" titre="Apple O'" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Top 100 Albums of 2000–2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="2000" rangeDateEnd="2004" sorted="true" classement="44" creationDate="26/07/2018 12:31:01" size="100"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Top 100 Albums of 2000–2004" publishYear="2004" categorie="MISCELLANEOUS" rangeDateBegin="2000" rangeDateEnd="2004" sorted="true" classement="45" creationDate="26/07/2018 12:31:01" size="100"/>
   </Composition>
   <Composition artist="TV on the Radio" titre="Young Liars" type="ALBUM" canBeMerged="true" deleted="false">

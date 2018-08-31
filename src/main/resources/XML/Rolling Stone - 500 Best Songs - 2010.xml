@@ -73,7 +73,7 @@
   <Composition artist="The Impressions" titre="People Get Ready" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="24" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="25" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Derek and The Dominos" titre="Layla" type="SONG" canBeMerged="true" deleted="true">
@@ -118,7 +118,7 @@
   <Composition artist="Martha Reeves And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="40" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Band" titre="The Weight" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Band" titre="The Weight" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="41" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Kinks" titre="Waterloo Sunset" type="SONG" canBeMerged="true" deleted="false">
@@ -637,7 +637,7 @@
   <Composition artist="? and the Mysterians" titre="96 Tears" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="213" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Caroline, No" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Caroline, No" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="214" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Prince" titre="1999" type="SONG" canBeMerged="true" deleted="false">
@@ -823,7 +823,7 @@
   <Composition artist="George Jones" titre="He Stopped Loving Her Today" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="275" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Sloop John B" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Sloop John B" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="276" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Chuck Berry" titre="Sweet Little Sixteen" type="SONG" canBeMerged="true" deleted="true">

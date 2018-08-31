@@ -154,7 +154,7 @@
   <Composition artist="Arab Strap" titre="Philophobia" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="51" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="52" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
   <Composition artist="Archie Shepp" titre="Attica Blues" type="ALBUM" canBeMerged="true" deleted="false">
@@ -163,7 +163,7 @@
   <Composition artist="Arctic Monkeys" titre="Am" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="54" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
-  <Composition artist="Arctic Monkeys" titre="Whatever People Think I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="55" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
   <Composition artist="Aretha Franklin" titre="I Never Loved a Man the Way I Love You" type="ALBUM" canBeMerged="true" deleted="false">
@@ -3937,7 +3937,7 @@
   <Composition artist="The Beach Boys" titre="Little Deuce Coupe" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1312" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1313" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Smiley Smile" type="ALBUM" canBeMerged="true" deleted="false">

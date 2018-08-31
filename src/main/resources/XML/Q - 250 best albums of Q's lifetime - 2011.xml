@@ -55,7 +55,7 @@
   <Composition artist="Radiohead" titre="Kid A" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="18" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 250 best albums of Q's lifetime - 2011" publishYear="2011" categorie="MISCELLANEOUS" rangeDateBegin="1986" rangeDateEnd="2011" sorted="true" classement="19" creationDate="05/01/2018 13:17:17" size="250"/>
   </Composition>
   <Composition artist="Green Day" titre="American Idiot" type="ALBUM" canBeMerged="true" deleted="false">

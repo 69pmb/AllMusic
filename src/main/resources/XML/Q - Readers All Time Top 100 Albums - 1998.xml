@@ -91,7 +91,7 @@
   <Composition artist="Sex Pistols" titre="Never Mind The Bollocks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Readers All Time Top 100 Albums - 1998" publishYear="1998" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1998" sorted="true" classement="30" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers All Time Top 100 Albums - 1998" publishYear="1998" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1998" sorted="true" classement="31" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
   <Composition artist="The Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
