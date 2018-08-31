@@ -106,7 +106,7 @@
   <Composition artist="The Beatles" titre="With The Beatles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="35" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Freewheelin'..." type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="The Freewheelin' Bob Dylan" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="36" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
   <Composition artist="Phil Spector" titre="A Christmas Gift for You" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1111,7 +1111,7 @@
   <Composition artist="Kraftwerk" titre="Trans–Europe Express" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="370" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
-  <Composition artist="Billy Joel" titre="Stranger, the" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Billy Joel" titre="The Stranger" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="371" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
   <Composition artist="Bob And the Wailers Marley" titre="Exodus" type="ALBUM" canBeMerged="true" deleted="false">
