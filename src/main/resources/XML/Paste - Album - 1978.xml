@@ -82,7 +82,7 @@
   <Composition artist="Elvis Costello And The Attractions" titre="This Year's Model" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Album - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="true" classement="3" creationDate="31/08/2018 10:09:54" size="30"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - Album - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="true" classement="2" creationDate="31/08/2018 10:09:54" size="30"/>
   </Composition>
   <Composition artist="Talking Heads" titre="More Songs About Buildings And Food" type="ALBUM" canBeMerged="true" deleted="false">

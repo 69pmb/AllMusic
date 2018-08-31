@@ -121,10 +121,10 @@
   <Composition artist="Neil Young" titre="Harvest" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 70 Best Albums of the 1970s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="31" creationDate="31/08/2018 09:53:22" size="70"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 70 Best Albums of the 1970s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="30" creationDate="31/08/2018 09:53:22" size="70"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 70 Best Albums of the 1970s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="29" creationDate="31/08/2018 09:53:22" size="70"/>
   </Composition>
   <Composition artist="Queen" titre="A Day At The Races" type="ALBUM" canBeMerged="true" deleted="false">
@@ -205,7 +205,7 @@
   <Composition artist="The Rolling Stones" titre="Exile On Main St." type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 70 Best Albums of the 1970s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="3" creationDate="31/08/2018 09:53:22" size="70"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 70 Best Albums of the 1970s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="2" creationDate="31/08/2018 09:53:22" size="70"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Blood On Tracks" type="ALBUM" canBeMerged="true" deleted="false">
