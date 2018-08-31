@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bob Marley And The Wailers" titre="Kaya" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Marley" titre="Kaya" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Album - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="true" classement="30" creationDate="31/08/2018 10:09:54" size="30"/>
   </Composition>
   <Composition artist="The Ramones" titre="Road To Ruin" type="ALBUM" canBeMerged="true" deleted="false">
@@ -22,7 +22,7 @@
   <Composition artist="The Clash" titre="Give 'Em Enough Rope" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Album - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="true" classement="24" creationDate="31/08/2018 10:09:54" size="30"/>
   </Composition>
-  <Composition artist="Van Halen" titre="Van Halen" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Van Halen" titre="Van Halen (1st Album)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Album - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="true" classement="23" creationDate="31/08/2018 10:09:54" size="30"/>
   </Composition>
   <Composition artist="Patti Smith Group" titre="Easter" type="ALBUM" canBeMerged="true" deleted="false">
@@ -79,7 +79,7 @@
   <Composition artist="The Band" titre="The Last Waltz" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Album - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="true" classement="4" creationDate="31/08/2018 10:09:54" size="30"/>
   </Composition>
-  <Composition artist="Elvis Costello And The Attractions" titre="This Year's Model" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Costello" titre="This Year's Model" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Album - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="true" classement="3" creationDate="31/08/2018 10:09:54" size="30"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
