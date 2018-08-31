@@ -31,7 +31,7 @@
   <Composition artist="Prince" titre="Purple Rain" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 80 Best Albums of the 80s - 2013" publishYear="2013" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="10" creationDate="31/08/2018 09:57:39" size="80"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 80 Best Albums of the 80s - 2013" publishYear="2013" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="11" creationDate="31/08/2018 09:57:39" size="80"/>
   </Composition>
   <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
@@ -67,7 +67,7 @@
   <Composition artist="The Police" titre="Synchronicity" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 80 Best Albums of the 80s - 2013" publishYear="2013" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="22" creationDate="31/08/2018 09:57:39" size="80"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 80 Best Albums of the 80s - 2013" publishYear="2013" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="23" creationDate="31/08/2018 09:57:39" size="80"/>
   </Composition>
   <Composition artist="Richard And Linda Thompson" titre="Shoot Out The Lights" type="ALBUM" canBeMerged="true" deleted="false">
@@ -76,7 +76,7 @@
   <Composition artist="Elvis Costello" titre="Trust" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 80 Best Albums of the 80s - 2013" publishYear="2013" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="25" creationDate="31/08/2018 09:57:39" size="80"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 80 Best Albums of the 80s - 2013" publishYear="2013" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="26" creationDate="31/08/2018 09:57:39" size="80"/>
   </Composition>
   <Composition artist="Peter Gabriel" titre="So" type="ALBUM" canBeMerged="true" deleted="false">
