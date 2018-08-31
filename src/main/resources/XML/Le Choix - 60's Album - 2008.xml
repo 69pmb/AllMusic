@@ -7,7 +7,7 @@
   <Composition artist="Nick Drake" titre="Five Leaves Left" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Le Choix" fileName="Le Choix - 60's Album - 2008" publishYear="2008" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="24" creationDate="31/07/2018 11:49:59" size="25"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Le Choix" fileName="Le Choix - 60's Album - 2008" publishYear="2008" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="23" creationDate="31/07/2018 11:49:59" size="25"/>
   </Composition>
   <Composition artist="Leonard Cohen" titre="Songs Of Leonard Cohen" type="ALBUM" canBeMerged="true" deleted="false">
