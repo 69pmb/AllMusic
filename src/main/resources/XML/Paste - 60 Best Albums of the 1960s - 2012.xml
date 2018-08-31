@@ -64,7 +64,7 @@
   <Composition artist="The Beach Boys" titre="Wild Honey" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 60 Best Albums of the 1960s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="40" creationDate="31/08/2018 09:52:53" size="60"/>
   </Composition>
-  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 60 Best Albums of the 1960s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="39" creationDate="31/08/2018 09:52:53" size="60"/>
   </Composition>
   <Composition artist="Etta James" titre="At Last!" type="ALBUM" canBeMerged="true" deleted="false">
@@ -121,7 +121,7 @@
   <Composition artist="Neil Young With Crazy Horse" titre="Everybody Knows This Is Nowhere" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 60 Best Albums of the 1960s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="21" creationDate="31/08/2018 09:52:53" size="60"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 60 Best Albums of the 1960s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="20" creationDate="31/08/2018 09:52:53" size="60"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="The Freewheelin' Bob Dylan" type="ALBUM" canBeMerged="true" deleted="false">
