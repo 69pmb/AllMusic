@@ -22,10 +22,10 @@
   <Composition artist="Smokey Robinson And The Miracles" titre="You Really Got A Hold On Me" type="UNKNOWN" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="1988" sorted="false" classement="7" creationDate="05/01/2018 13:17:17" size="40"/>
   </Composition>
-  <Composition artist="The Velvet Underground And Nico" titre="The Velvet Underground And Nico" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="The Velvet Underground And Nico" titre="The Velvet Underground And Nico" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="1988" sorted="false" classement="8" creationDate="05/01/2018 13:17:17" size="40"/>
   </Composition>
-  <Composition artist="Van Morrison" titre="Astral Weeks" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="Van Morrison" titre="Astral Weeks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="1988" sorted="false" classement="9" creationDate="05/01/2018 13:17:17" size="40"/>
   </Composition>
   <Composition artist="The Who" titre="Live At Leeds" type="UNKNOWN" canBeMerged="true" deleted="false">
@@ -76,7 +76,7 @@
   <Composition artist="M/A/R/R/S" titre="Pump Up The Volume" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="1988" sorted="false" classement="25" creationDate="05/01/2018 13:17:17" size="40"/>
   </Composition>
-  <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="1988" sorted="false" classement="26" creationDate="05/01/2018 13:17:17" size="40"/>
   </Composition>
 </ListCompositions>
