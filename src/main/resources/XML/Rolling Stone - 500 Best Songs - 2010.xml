@@ -40,7 +40,7 @@
   <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="13" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Blowin' in the Wind" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Blowin' in the Wind" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="14" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="false">
@@ -571,7 +571,7 @@
   <Composition artist="The Bee Gees" titre="Stayin' Alive" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="191" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Knocking on Heaven's Door" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Knocking on Heaven's Door" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="192" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Lynyrd Skynyrd" titre="Free Bird" type="SONG" canBeMerged="true" deleted="false">
@@ -613,7 +613,7 @@
   <Composition artist="The Beatles" titre="Come Together" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="205" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Positively 4th Street" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Positively 4th Street" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="206" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Otis Redding" titre="Try a Little Tenderness" type="SONG" canBeMerged="true" deleted="false">
@@ -754,7 +754,7 @@
   <Composition artist="Aretha Franklin" titre="Chain of Fools" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="252" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Black Sabbath" titre="Paranoid" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Black Sabbath" titre="Paranoid" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="253" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Drifters" titre="Money Honey" type="SONG" canBeMerged="true" deleted="false">
@@ -775,7 +775,7 @@
   <Composition artist="Blondie" titre="Heart of Glass" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="259" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Mississippi" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Mississippi" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="260" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Troggs" titre="Wild Thing" type="SONG" canBeMerged="true" deleted="false">
@@ -910,7 +910,7 @@
   <Composition artist="Prince" titre="Sign 'O' the Times" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="304" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Blondie" titre="One Way or Another" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Blondie" titre="One Way or Another" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="305" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Madonna" titre="Like a Prayer" type="SONG" canBeMerged="true" deleted="true">
@@ -1282,7 +1282,7 @@
   <Composition artist="The Isley Brothers" titre="It's Your Thing" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="428" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Billy Joel" titre="Piano Man" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Billy Joel" titre="Piano Man" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="429" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="Blue Suede Shoes" type="SONG" canBeMerged="true" deleted="false">

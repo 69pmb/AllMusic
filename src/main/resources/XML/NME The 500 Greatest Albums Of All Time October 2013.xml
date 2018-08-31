@@ -682,7 +682,7 @@
   <Composition artist="Rod Stewart" titre="Every Picture Tells A Story" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="305" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="The Freewheelin' Bob Dylan" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="The Freewheelin' Bob Dylan" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME The 500 Greatest Albums Of All Time October 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="306" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Beck" titre="Midnight Vultures" type="ALBUM" canBeMerged="true" deleted="false">
