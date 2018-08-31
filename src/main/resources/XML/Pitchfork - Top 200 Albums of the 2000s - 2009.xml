@@ -4,7 +4,7 @@
   <Composition artist="Radiohead" titre="Kid A" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Top 200 Albums of the 2000s - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="1" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Top 200 Albums of the 2000s - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="2" creationDate="25/01/2017 10:01:39" size="200"/>
   </Composition>
   <Composition artist="Daft Punk" titre="Discovery" type="ALBUM" canBeMerged="true" deleted="false">

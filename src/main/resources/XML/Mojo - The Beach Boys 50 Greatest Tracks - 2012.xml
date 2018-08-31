@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beach Boys" titre="Surf's Up" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Surf's Up" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="1" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="2" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="3" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="California Girls" type="SONG" canBeMerged="true" deleted="false">
@@ -16,16 +16,16 @@
   <Composition artist="The Beach Boys" titre="'Till I Die" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="5" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Caroline No" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Caroline No" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="6" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Heroes And Villains" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="7" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Don't Talk (Put Your Head On My Shoulder)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Don't Talk (Put Your Head On My Shoulder)" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="8" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Wouldn't It Be Nice" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Wouldn't It Be Nice" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="9" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="I Get Around" type="SONG" canBeMerged="true" deleted="false">
@@ -37,10 +37,10 @@
   <Composition artist="The Beach Boys" titre="Feel Flows" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="12" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="I Just Wasn't Made For These Times" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="I Just Wasn't Made For These Times" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="13" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="You Still Believe In Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="You Still Believe In Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="14" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Don't Worry Baby" type="SONG" canBeMerged="true" deleted="false">
@@ -49,7 +49,7 @@
   <Composition artist="The Beach Boys" titre="Sail On Sailor" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="16" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Let's Go Away For A While" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Let's Go Away For A While" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="17" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Surfer Girl" type="SONG" canBeMerged="true" deleted="false">
@@ -58,7 +58,7 @@
   <Composition artist="The Beach Boys" titre="In My Room" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="19" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="I Know There's An Answer" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="I Know There's An Answer" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="20" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Do You Like Worms" type="SONG" canBeMerged="true" deleted="false">
@@ -67,7 +67,7 @@
   <Composition artist="The Beach Boys" titre="Our Prayer" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="22" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="I'm Waiting For The Day" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="I'm Waiting For The Day" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="23" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Pet Sounds (Instrumental)" type="SONG" canBeMerged="true" deleted="false">
@@ -88,7 +88,7 @@
   <Composition artist="The Beach Boys" titre="Darlin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="29" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Here Today" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Here Today" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="30" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="I Can Hear Music" type="SONG" canBeMerged="true" deleted="false">
@@ -109,7 +109,7 @@
   <Composition artist="The Beach Boys" titre="Tears In The Morning" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="36" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Sloop John B" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Sloop John B" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="37" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Cool, Cool Water" type="SONG" canBeMerged="true" deleted="false">
@@ -130,7 +130,7 @@
   <Composition artist="The Beach Boys" titre="Little Deuce Coup" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="43" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="That's Not Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="That's Not Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Beach Boys 50 Greatest Tracks - 2012" publishYear="2012" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2012" sorted="true" classement="44" creationDate="23/08/2018 13:52:45" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Wild Honey" type="SONG" canBeMerged="true" deleted="false">

@@ -292,7 +292,7 @@
   <Composition artist="Jay Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="PopMatters" fileName="PopMatters - The 100 Best Albums of the 2000s - 2014" publishYear="2014" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="4" creationDate="10/08/2018 15:17:00" size="100"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="PopMatters" fileName="PopMatters - The 100 Best Albums of the 2000s - 2014" publishYear="2014" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="3" creationDate="10/08/2018 15:17:00" size="100"/>
   </Composition>
   <Composition artist="Outkast" titre="Stankonia" type="ALBUM" canBeMerged="true" deleted="false">

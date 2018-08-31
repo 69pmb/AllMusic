@@ -181,7 +181,7 @@
   <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="60" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
-  <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="61" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
   <Composition artist="Fred Neil" titre="Fred Neil" type="ALBUM" canBeMerged="true" deleted="false">
@@ -2908,7 +2908,7 @@
   <Composition artist="Icarus Line" titre="Penance Soiree" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="969" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="970" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
   <Composition artist="Devendra Banhart" titre="Rejoicing in the Hands" type="ALBUM" canBeMerged="true" deleted="false">
