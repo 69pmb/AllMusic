@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="The White Stripes" titre="White Blood Cells" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="1" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="Bob Dylan" titre="Love And Theft" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="2" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
@@ -10,11 +13,23 @@
   <Composition artist="Brian Wilson" titre="Smile" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="4" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
+  <Composition artist="The Strokes" titre="Is This It" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="5" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="Robert Plant And Alison Krauss" titre="Raising Sand" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="6" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
+  <Composition artist="The Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="7" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Modern Times" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="8" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="Ryan Adams" titre="Heartbreaker" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="9" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Fleet Foxes" titre="Fleet Foxes" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="10" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="The Flaming Lips" titre="Yoshimi Battles The Pink Robots" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="11" creationDate="25/01/2017 10:01:42" size="150"/>
@@ -22,17 +37,29 @@
   <Composition artist="Portishead" titre="Third" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="12" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
-  <Composition artist="Gillian Welch" titre="Time (The Reinventor)" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Gillian Welsh" titre="Time (The Revelator)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="13" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Primal Scream" titre="Xtrmntr" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="14" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="In Rainbows" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="15" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="LCD Sound System" titre="Sound Of Silver" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="16" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="The White Stripes" titre="Elephant" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="17" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Kate Bush" titre="Aerial" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="18" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="The Rising" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="19" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="20" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Joanna Newsom" titre="Ys" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="21" creationDate="25/01/2017 10:01:42" size="150"/>
@@ -43,11 +70,20 @@
   <Composition artist="Beth Gibbons And Rustin Man" titre="Out Of Season" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="23" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
+  <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="24" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="Kid A" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="25" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="Lambchop" titre="Nixon" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="26" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="The Hold Steady" titre="Boys And Girls In America" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="27" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Queens Of The Stoneage" titre="Songs For The Deaf" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="28" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Neil Young" titre="Chrome Dreams II" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="29" creationDate="25/01/2017 10:01:42" size="150"/>
@@ -61,6 +97,15 @@
   <Composition artist="Calexico" titre="Feast Of Wire" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="32" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
+  <Composition artist="Animal Collective" titre="Merriweather Post Pavilion" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="33" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Bon Iver" titre="For Emma, Forever Ago" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="34" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Wilco" titre="Yankee Hotel Foxtrot" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="35" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="Johnny Cash" titre="American IV: The Man Comes Around" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="36" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
@@ -69,6 +114,9 @@
   </Composition>
   <Composition artist="Ryan Adams" titre="Gold" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="38" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Vampire Weekend" titre="Vampire Weekend" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="39" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Boards Of Canada" titre="Geogaddi" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="40" creationDate="25/01/2017 10:01:42" size="150"/>
@@ -82,6 +130,9 @@
   <Composition artist="The Streets" titre="Original Pirate Material" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="43" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
+  <Composition artist="The Libertines" titre="Up The Bracket" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="44" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="Solomon Burke" titre="Don't Give Up On Me" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="45" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
@@ -94,6 +145,9 @@
   <Composition artist="Ry Cooder" titre="Chavez Ravine" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="48" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
+  <Composition artist="PJ Harvey" titre="Stories From The City, Stories From The Sea" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="49" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="Cat Power" titre="The Greatest" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="50" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
@@ -102,6 +156,9 @@
   </Composition>
   <Composition artist="Dizzee Rascal" titre="Boy In Da Corner" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="52" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Interpol" titre="Turn On The Bright Lights" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="53" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Magnetic Fields" titre="69 Love Songs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="54" creationDate="25/01/2017 10:01:42" size="150"/>
@@ -124,7 +181,7 @@
   <Composition artist="Loretta Lynn" titre="Van Lear Rose" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="60" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
-  <Composition artist="Nick Cave And The Bad Seeds" titre="Abattoir Blues / The Lyre of Orpheus" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nick Cave And The Bad Seeds" titre="The Lyre Of Orpheus/Abattoir Blues" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="61" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Ghostface Killah" titre="Fishscale" type="ALBUM" canBeMerged="true" deleted="false">
@@ -139,11 +196,17 @@
   <Composition artist="Rufus Wainwright" titre="Poses" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="65" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
+  <Composition artist="Jay-Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="66" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="Midlake" titre="The Trials Of Van Occupanther" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="67" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="D'angelo" titre="Voodoo" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="68" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Arctic Monkeys" titre="Favourite Worst Nightmare" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="69" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="The Good The Bad The Queen" titre="The Good The Bad The Queen" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="70" creationDate="25/01/2017 10:01:42" size="150"/>
@@ -160,7 +223,10 @@
   <Composition artist="Elbow" titre="Asleep At The Back" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="74" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
-  <Composition artist="Beck" titre="Sea changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Gorillaz" titre="Demon Days" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="75" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Beck" titre="Seachange" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="76" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Kanye West" titre="The College Dropout" type="ALBUM" canBeMerged="true" deleted="false">
@@ -168,6 +234,9 @@
   </Composition>
   <Composition artist="Johnny Cash" titre="American III: Solitary Man" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="78" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Kings Of Leon" titre="Only By The Night" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="79" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Levon Helm" titre="Electric Dirt" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="80" creationDate="25/01/2017 10:01:42" size="150"/>
@@ -274,7 +343,7 @@
   <Composition artist="The Raconteurs" titre="Consolers Of The Lonely" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="114" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
-  <Composition artist="Stephen Malkmus" titre="Real Emotional Trash" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Stephen Malkmus And The Jicks" titre="Real Emotional Trash" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="115" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Sufjan Stevens" titre="Michigan" type="ALBUM" canBeMerged="true" deleted="false">
@@ -288,6 +357,9 @@
   </Composition>
   <Composition artist="Scritti Politti" titre="White Bread, Black Beer" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="119" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Mgmt" titre="Oracular Spectacular" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="120" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Hot Chip" titre="The Warning" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="121" creationDate="25/01/2017 10:01:42" size="150"/>
@@ -328,10 +400,16 @@
   <Composition artist="Bruce Springsteen" titre="We Shall Overcome: The Seeger Sessions" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="133" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
+  <Composition artist="Radiohead" titre="Hail To The Thief" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="134" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
   <Composition artist="Willard Grant Conspiracy" titre="Regard The End" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="135" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
-  <Composition artist="Elliott Smith" titre="From A Basement On The Hill" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Strokes" titre="Room On Fire" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="136" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Elliott Smith" titre="From A Basement To A Hill" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="137" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Wilco" titre="Sky Blue Sky" type="ALBUM" canBeMerged="true" deleted="false">
@@ -345,6 +423,9 @@
   </Composition>
   <Composition artist="Rachel Unthank And The Winterset" titre="The Bairns" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="141" creationDate="25/01/2017 10:01:42" size="150"/>
+  </Composition>
+  <Composition artist="Yeah Yeah Yeahs" titre="Fever To Tell" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="142" creationDate="25/01/2017 10:01:42" size="150"/>
   </Composition>
   <Composition artist="Leonard Cohen" titre="Ten New Songs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - The 150 Greatest Albums Of The 21st Century So Far - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="143" creationDate="25/01/2017 10:01:42" size="150"/>
