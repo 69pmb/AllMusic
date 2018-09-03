@@ -151,7 +151,7 @@
   <Composition artist="Green Day" titre="Longview" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="151" creationDate="04/07/2018 14:49:00" size="200"/>
   </Composition>
-  <Composition artist="Fatboy Slim" titre="Praise You" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Fatboy Slim" titre="Praise You" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="150" creationDate="04/07/2018 14:49:00" size="200"/>
   </Composition>
   <Composition artist="Matthew Sweet" titre="Girlfriend" type="SONG" canBeMerged="true" deleted="false">
@@ -457,7 +457,7 @@
   <Composition artist="Yo La Tengo" titre="Autumn Sweater" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="49" creationDate="04/07/2018 14:49:00" size="200"/>
   </Composition>
-  <Composition artist="Foo Fighters" titre="Everlong" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Foo Fighters" titre="Everlong" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="48" creationDate="04/07/2018 14:49:00" size="200"/>
   </Composition>
   <Composition artist="PJ Harvey" titre="Rid of Me" type="SONG" canBeMerged="true" deleted="false">
@@ -511,7 +511,7 @@
   <Composition artist="Underworld" titre="Born Slippy .NUXX" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="31" creationDate="04/07/2018 14:49:00" size="200"/>
   </Composition>
-  <Composition artist="The Flaming Lips" titre="Race for the Prize" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Flaming Lips" titre="Race for the Prize" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="30" creationDate="04/07/2018 14:49:00" size="200"/>
   </Composition>
   <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">

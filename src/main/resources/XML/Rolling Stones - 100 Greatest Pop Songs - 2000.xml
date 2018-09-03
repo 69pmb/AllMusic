@@ -31,7 +31,7 @@
   <Composition artist="Backstreet Boys" titre="I Want It That Way" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="10" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="11" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Supremes" titre="Where Did Our Love Go" type="SONG" canBeMerged="true" deleted="false">
@@ -112,7 +112,7 @@
   <Composition artist="Naughty by Nature" titre="O.P.P." type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="37" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Changes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Changes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="38" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Goo Goo Dolls" titre="Iris" type="SONG" canBeMerged="true" deleted="false">
