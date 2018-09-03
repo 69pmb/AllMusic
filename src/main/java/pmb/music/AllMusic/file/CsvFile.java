@@ -43,17 +43,7 @@ public class CsvFile {
 			LOG.debug("Sorting");
 			// Sorting
 			List<String> list = csv.get(0);
-			List<Integer> intColumn = new ArrayList<>();
 			List<Integer> doubleColumn = new ArrayList<>();
-			for (int i = 0; i < list.size(); i++) {
-				String item = list.get(i);
-				try {
-					Integer.valueOf(item);
-				} catch (NumberFormatException e) {
-					continue;
-				}
-				intColumn.add(i);
-			}
 			for (int i = 0; i < list.size(); i++) {
 				String item = list.get(i);
 				try {
@@ -65,9 +55,7 @@ public class CsvFile {
 			}
 			int column = sortKey.getColumn();
 			Comparator<List<String>> sort = null;
-			if (intColumn.contains(column)) {
-				sort = (c1, c2) -> Integer.valueOf(c1.get(column)).compareTo(Integer.valueOf(c2.get(column)));
-			} else if (doubleColumn.contains(column)) {
+			if (doubleColumn.contains(column)) {
 				sort = (c1, c2) -> Double.valueOf(StringUtils.replaceAll(c1.get(column), ",", "."))
 						.compareTo(Double.valueOf(StringUtils.replaceAll(c2.get(column), ",", ".")));
 			} else if (column >= 0) {
