@@ -88,7 +88,7 @@
   <Composition artist="Joe Budden" titre="Joe Budden" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="29" creationDate="30/08/2018 10:55:04" size="40"/>
   </Composition>
-  <Composition artist="Cat Power" titre="You Are Free" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Cat Power" titre="You Are Free" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="30" creationDate="30/08/2018 10:55:04" size="40"/>
   </Composition>
   <Composition artist="Spiritualized" titre="Amazing Grace" type="ALBUM" canBeMerged="true" deleted="false">
