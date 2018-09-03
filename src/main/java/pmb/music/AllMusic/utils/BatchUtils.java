@@ -130,6 +130,7 @@ public class BatchUtils {
 		publishZero(importXML, result);
 		rankZero(importXML, result);
 		rankGreaterThanSize(importXML, result);
+		duplicateCompositionInFile(importXML, result);
 
 		LOG.debug("End findSuspiciousComposition");
 		return writeInFile(result, "Suspicious.txt");
@@ -192,7 +193,8 @@ public class BatchUtils {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 		List<Composition> importXML = SearchUtils
-				.search(ImportXML.importXML(Constant.getFinalFilePath()), criteria, true, SearchMethod.CONTAINS, false, false)
+				.search(ImportXML.importXML(Constant.getFinalFilePath()), criteria, true, SearchMethod.CONTAINS, false,
+						false)
 				.stream().sorted((c1, c2) -> StringUtils.compareIgnoreCase(c1.getTitre(), c2.getTitre()))
 				.collect(Collectors.toList());
 		for (int i = 0; i < importXML.size(); i++) {
@@ -245,6 +247,22 @@ public class BatchUtils {
 						+ ", classement max: " + f.getValue().getClassement(), false));
 	}
 
+	private static void duplicateCompositionInFile(List<Composition> importXML, StringBuilder result) {
+		addLine(result, "## Duplicate Composition In File: ", true);
+		importXML.parallelStream().forEach(c -> {
+			Map<String, Long> collect = c.getFiles().stream()
+					.collect(Collectors.groupingBy(Fichier::getFileName, Collectors.counting()));
+			if (collect.values().stream().anyMatch(v -> v > 1)) {
+				collect.entrySet().stream().forEach(e -> {
+					if (e.getValue() > 1) {
+						addLine(result, c.getArtist() + ", " + c.getTitre() + ". " + e.getKey() + ": " + e.getValue(),
+								false);
+					}
+				});
+			}
+		});
+	}
+
 	private static void sizeZero(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## File Size Zero: ", true);
 		importXML.stream().map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getSize() == 0)
@@ -293,6 +311,37 @@ public class BatchUtils {
 		CsvFile.exportCsv("Average", result, new SortKey(3, SortOrder.ASCENDING), header);
 		LOG.debug("End averageOfFilesByFiles");
 		addLine(text, "End AverageOfFilesByFiles", true);
+		return writeInFile(text, Constant.BATCH_FILE);
+	}
+
+	public static String weirdFileSize() {
+		LOG.debug("Start weirdFileSize");
+		StringBuilder text = new StringBuilder();
+		addLine(text, "Start weirdFileSize", true);
+		// Moyenne par fichier du nombre de fichiers de chaque composition
+		List<String> nomFichier = ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getFiles)
+				.flatMap(List::stream).map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
+		String[] header = { "Fichier", "Type", "Real Size", "Theoric Size", "Ratio" };
+		List<List<String>> result = new ArrayList<>();
+		nomFichier.parallelStream().forEach((name) -> {
+			List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
+			int realSize = xml.size();
+			Integer theoricSize = xml.get(0).getFiles().get(0).getSize();
+			if (theoricSize != 0 && realSize != theoricSize) {
+				BigDecimal ratio = BigDecimal.valueOf(realSize).multiply(BigDecimal.valueOf(100D))
+						.divide(BigDecimal.valueOf(theoricSize), BigDecimal.ROUND_DOWN);
+				List<String> row = new ArrayList<>();
+				row.add(name);
+				row.add(xml.get(0).getRecordType().toString());
+				row.add(NumberFormat.getNumberInstance().format(realSize));
+				row.add(NumberFormat.getNumberInstance().format(theoricSize));
+				row.add(NumberFormat.getNumberInstance().format(ratio.doubleValue()));
+				result.add(row);
+			}
+		});
+		CsvFile.exportCsv("Weird", result, new SortKey(4, SortOrder.ASCENDING), header);
+		LOG.debug("End weirdOfFilesByFiles");
+		addLine(text, "End weirdFileSize", true);
 		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
@@ -567,7 +616,8 @@ public class BatchUtils {
 			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, String.valueOf(year));
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
-			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, false);
+			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false,
+					false);
 			addLine(result, "Year: " + year, true);
 			addLine(result, "Size: " + yearList.size(), true);
 			for (int i = 0; i < yearList.size(); i++) {
@@ -701,7 +751,8 @@ public class BatchUtils {
 			}
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			List<Composition> yearList = SearchUtils.search(arrayList, criteria, true, SearchMethod.CONTAINS, false, false);
+			List<Composition> yearList = SearchUtils.search(arrayList, criteria, true, SearchMethod.CONTAINS, false,
+					false);
 			if (yearList.isEmpty() || !yearList.get(0).getFiles().get(0).getSorted()) {
 				// If no file for the given author and year or if the file is not sorted
 				continue;
