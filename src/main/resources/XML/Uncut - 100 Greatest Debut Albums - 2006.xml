@@ -52,7 +52,7 @@
   <Composition artist="Beatles" titre="Please Please Me" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - 100 Greatest Debut Albums - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="17" creationDate="03/09/2018 10:25:12" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - 100 Greatest Debut Albums - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="18" creationDate="03/09/2018 10:25:12" size="100"/>
   </Composition>
   <Composition artist="Sex Pistols" titre="Never Mind The Bollocks, Here's The..." type="ALBUM" canBeMerged="true" deleted="false">
@@ -226,7 +226,7 @@
   <Composition artist="La's" titre="La's" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - 100 Greatest Debut Albums - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="75" creationDate="03/09/2018 10:25:12" size="100"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - 100 Greatest Debut Albums - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="76" creationDate="03/09/2018 10:25:12" size="100"/>
   </Composition>
   <Composition artist="Eminem" titre="Slim Shady LP" type="ALBUM" canBeMerged="true" deleted="false">
@@ -298,7 +298,7 @@
   <Composition artist="Suede" titre="Suede" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - 100 Greatest Debut Albums - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="99" creationDate="03/09/2018 10:25:12" size="100"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - 100 Greatest Debut Albums - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="100" creationDate="03/09/2018 10:25:12" size="100"/>
   </Composition>
 </ListCompositions>
