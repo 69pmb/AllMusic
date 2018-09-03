@@ -151,10 +151,10 @@
   <Composition artist="David Bowie" titre="Fame" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="50" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Space Oddity" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Space Oddity" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="51" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Ziggy Stardust" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Ziggy Stardust" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="52" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
   <Composition artist="The Box Tops" titre="The Letter" type="SONG" canBeMerged="true" deleted="false">
@@ -298,7 +298,7 @@
   <Composition artist="Cream" titre="Sunshine Of Your Love" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="99" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="Creedence Clearwater Revival" titre="Fortunate Son" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Creedence Clearwater Revival" titre="Fortunate Son" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="100" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
   <Composition artist="Creedence Clearwater Revival" titre="Green River" type="SONG" canBeMerged="true" deleted="false">
@@ -307,19 +307,19 @@
   <Composition artist="Creedence Clearwater Revival" titre="Proud Mary" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="102" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="Crosby, Stills and Nash" titre="Suite: Judy Blue Eyes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Crosby, Stills and Nash" titre="Suite: Judy Blue Eyes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="103" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="Crosby, Stills, Nash and Young" titre="Ohio" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Crosby, Stills, Nash and Young" titre="Ohio" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="104" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
   <Composition artist="The Crows" titre="Gee" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="105" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="The Crystals" titre="Da Doo Ron Ron" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Crystals" titre="Da Doo Ron Ron" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="106" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="The Crystals" titre="He's a Rebel" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Crystals" titre="He's a Rebel" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="107" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
   <Composition artist="Culture Club" titre="Time (Clock of the Heart)" type="SONG" canBeMerged="true" deleted="false">
@@ -367,7 +367,7 @@
   <Composition artist="Dion and the Belmonts" titre="A Teenager in Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="122" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="Dire Straits" titre="Sultans of Swing" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dire Straits" titre="Sultans of Swing" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="123" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
   <Composition artist="The Dixie Cups" titre="Chapel of Love" type="SONG" canBeMerged="true" deleted="false">
@@ -433,7 +433,7 @@
   <Composition artist="Bob Dylan" titre="The Times They Are a-Changin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="144" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="The Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="145" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
   <Composition artist="The Eagles" titre="Take It Easy" type="SONG" canBeMerged="true" deleted="false">
@@ -1009,7 +1009,7 @@
   <Composition artist="Elvis Presley" titre="Heartbreak Hotel" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="336" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Jailhouse Rock" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Jailhouse Rock" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="337" creationDate="25/06/2018 16:01:25" size="500"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="Love Me Tender" type="SONG" canBeMerged="true" deleted="false">

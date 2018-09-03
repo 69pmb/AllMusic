@@ -133,7 +133,7 @@
   <Composition artist="Elvis Presley" titre="Heartbreak Hotel" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="45" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Heroes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Heroes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="46" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Jimi Hendrix" titre="All Along The Watchtower" type="SONG" canBeMerged="true" deleted="false">
@@ -142,7 +142,7 @@
   <Composition artist="Simon and Garfunkel" titre="Bridge Over Troubled Water" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="48" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="49" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Smokey Robinson" titre="The Tracks Of My Tears" type="SONG" canBeMerged="true" deleted="false">
@@ -196,7 +196,7 @@
   <Composition artist="Bob Marley" titre="Redemption Song" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="66" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Jailhouse Rock" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Jailhouse Rock" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="67" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Tangled Up in Blue" type="SONG" canBeMerged="true" deleted="false">
@@ -292,7 +292,7 @@
   <Composition artist="Al Green" titre="Love and Happiness" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="98" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Creedence Clearwater Revival" titre="Fortunate Son" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Creedence Clearwater Revival" titre="Fortunate Son" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="99" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Gnarls Barkley" titre="Crazy" type="SONG" canBeMerged="true" deleted="false">
@@ -379,7 +379,7 @@
   <Composition artist="Big Joe Turner" titre="Shake, Rattle And Roll" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="127" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Changes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Changes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="128" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Chuck Berry" titre="Rock And Roll Music" type="SONG" canBeMerged="true" deleted="false">
@@ -796,7 +796,7 @@
   <Composition artist="Smokey Robinson" titre="Ooo Baby Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="266" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Crystals" titre="He's a Rebel" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Crystals" titre="He's a Rebel" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="267" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Randy Newman" titre="Sail Away" type="SONG" canBeMerged="true" deleted="false">
@@ -841,7 +841,7 @@
   <Composition artist="The Staple Singers" titre="I'll Take You There" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="281" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Ziggy Stardust" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Ziggy Stardust" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="282" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Cure" titre="Pictures of You" type="SONG" canBeMerged="true" deleted="false">
@@ -1087,7 +1087,7 @@
   <Composition artist="Elvis Costello" titre="Watching the Detectives" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="363" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Creedence Clearwater Revival" titre="Bad Moon Rising" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Creedence Clearwater Revival" titre="Bad Moon Rising" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="364" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Eurythmics" titre="Sweet Dreams (Are Made of This)" type="SONG" canBeMerged="true" deleted="false">
@@ -1126,7 +1126,7 @@
   <Composition artist="Cream" titre="White Room" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="376" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Depeche Mode" titre="Personal Jesus" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Depeche Mode" titre="Personal Jesus" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="377" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Bo Diddley" titre="I'm A Man" type="SONG" canBeMerged="true" deleted="false">
@@ -1180,7 +1180,7 @@
   <Composition artist="The Beatles" titre="Ticket to Ride" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="394" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Crosby, Stills, Nash and Young" titre="Ohio" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Crosby, Stills, Nash and Young" titre="Ohio" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="395" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Eric B and Rakim" titre="I Know You Got Soul" type="SONG" canBeMerged="true" deleted="false">
@@ -1273,7 +1273,7 @@
   <Composition artist="N.W.A." titre="Fuck tha Police" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="425" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Crosby, Stills and Nash" titre="Suite: Judy Blue Eyes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Crosby, Stills and Nash" titre="Suite: Judy Blue Eyes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="426" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Dr. Dre" titre="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" canBeMerged="true" deleted="false">
@@ -1285,7 +1285,7 @@
   <Composition artist="Billy Joel" titre="Piano Man" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="429" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Blue Suede Shoes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Blue Suede Shoes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="430" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Smiths" titre="William, It Was Really Nothing" type="SONG" canBeMerged="true" deleted="false">
@@ -1495,7 +1495,7 @@
   <Composition artist="Smokey Robinson and the Miracles" titre="Shop Around" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="500" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Crystals" titre="Da Doo Ron Ron" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Crystals" titre="Da Doo Ron Ron" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="114" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Eminem" titre="Lose Yourself" type="SONG" canBeMerged="true" deleted="false">
@@ -1558,7 +1558,7 @@
   <Composition artist="Dusty Springfield" titre="You Don't Have to Say You Love Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="491" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Crystals" titre="Then He Kissed Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Crystals" titre="Then He Kissed Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="493" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Eagles" titre="Desperado" type="SONG" canBeMerged="true" deleted="false">

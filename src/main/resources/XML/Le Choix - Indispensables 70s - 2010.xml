@@ -34,7 +34,7 @@
   <Composition artist="Emerson" titre="Lucky Man (Live)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Le Choix" fileName="Le Choix - Indispensables 70s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="11" creationDate="31/07/2018 11:27:59" size="19"/>
   </Composition>
-  <Composition artist="Crosby, Stills And Nash" titre="Suite: Judy Blue Eyes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Crosby, Stills And Nash" titre="Suite: Judy Blue Eyes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Le Choix" fileName="Le Choix - Indispensables 70s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="12" creationDate="31/07/2018 11:27:59" size="19"/>
   </Composition>
   <Composition artist="Fleetwood Mac" titre="Dreams" type="SONG" canBeMerged="true" deleted="false">
@@ -52,10 +52,10 @@
   <Composition artist="Buzzcocks" titre="Ever Fallen in Love (With Someone You Shouldn't've)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Le Choix" fileName="Le Choix - Indispensables 70s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="17" creationDate="31/07/2018 11:27:59" size="19"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Ziggy Stardust" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Ziggy Stardust" type="SONG" canBeMerged="true" deleted="true">
     <File author="Le Choix" fileName="Le Choix - Indispensables 70s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="18" creationDate="31/07/2018 11:27:59" size="19"/>
   </Composition>
-  <Composition artist="Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="true">
     <File author="Le Choix" fileName="Le Choix - Indispensables 70s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="19" creationDate="31/07/2018 11:27:59" size="19"/>
   </Composition>
 </ListCompositions>

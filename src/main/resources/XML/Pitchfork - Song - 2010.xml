@@ -151,7 +151,7 @@
   <Composition artist="Smith Westerns" titre="Weekend" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2010" publishYear="2010" categorie="YEAR" rangeDateBegin="2010" rangeDateEnd="2010" sorted="true" classement="51" creationDate="25/07/2018 17:48:38" size="100"/>
   </Composition>
-  <Composition artist="Cults" titre="Go Outside" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Cults" titre="Go Outside" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2010" publishYear="2010" categorie="YEAR" rangeDateBegin="2010" rangeDateEnd="2010" sorted="true" classement="50" creationDate="25/07/2018 17:48:38" size="100"/>
   </Composition>
   <Composition artist="ceo" titre="Come With Me" type="SONG" canBeMerged="true" deleted="false">
@@ -256,7 +256,7 @@
   <Composition artist="Beach House" titre="Norway" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2010" publishYear="2010" categorie="YEAR" rangeDateBegin="2010" rangeDateEnd="2010" sorted="true" classement="16" creationDate="25/07/2018 17:48:38" size="100"/>
   </Composition>
-  <Composition artist="Crystal Castles" titre="Not in Love [And Robert Smith]" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Crystal Castles" titre="Not in Love [And Robert Smith]" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2010" publishYear="2010" categorie="YEAR" rangeDateBegin="2010" rangeDateEnd="2010" sorted="true" classement="15" creationDate="25/07/2018 17:48:38" size="100"/>
   </Composition>
   <Composition artist="Sleigh Bells" titre="Rill Rill" type="SONG" canBeMerged="true" deleted="false">
@@ -268,7 +268,7 @@
   <Composition artist="LCD Soundsystem" titre="All I Want" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2010" publishYear="2010" categorie="YEAR" rangeDateBegin="2010" rangeDateEnd="2010" sorted="true" classement="12" creationDate="25/07/2018 17:48:38" size="100"/>
   </Composition>
-  <Composition artist="Deerhunter" titre="Desire Lines" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Deerhunter" titre="Desire Lines" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Song - 2010" publishYear="2010" categorie="YEAR" rangeDateBegin="2010" rangeDateEnd="2010" sorted="true" classement="11" creationDate="25/07/2018 17:48:38" size="100"/>
   </Composition>
   <Composition artist="Janelle Monae" titre="Tightrope" type="SONG" canBeMerged="true" deleted="false">
