@@ -19,7 +19,7 @@
   <Composition artist="Beastie Boys" titre="Sabotage" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="'90" publishYear="0" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="17" creationDate="30/01/2017 16:54:55" size="50"/>
   </Composition>
-  <Composition artist="Foo Fighters" titre="Everlong" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Foo Fighters" titre="Everlong" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="'90" publishYear="0" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="22" creationDate="30/01/2017 16:54:55" size="50"/>
   </Composition>
   <Composition artist="Dr. Dre" titre="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" canBeMerged="true" deleted="false">
@@ -76,7 +76,7 @@
   <Composition artist="Mogwai" titre="Fear Satan" type="SONG" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="'90" publishYear="0" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="49" creationDate="30/01/2017 16:54:55" size="50"/>
   </Composition>
-  <Composition artist="Fatboy Slim" titre="Praise You" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Fatboy Slim" titre="Praise You" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="'90" publishYear="0" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="50" creationDate="30/01/2017 16:54:55" size="50"/>
   </Composition>
 </ListCompositions>

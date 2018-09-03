@@ -43,7 +43,7 @@
   <Composition artist="Friendly Fires" titre="Paris" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="47" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
-  <Composition artist="Foo Fighters" titre="Everlong" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Foo Fighters" titre="Everlong" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers Top 150 Tracks - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="48" creationDate="25/05/2018 16:03:21" size="150"/>
   </Composition>
   <Composition artist="Sugababes" titre="Overload" type="SONG" canBeMerged="true" deleted="false">

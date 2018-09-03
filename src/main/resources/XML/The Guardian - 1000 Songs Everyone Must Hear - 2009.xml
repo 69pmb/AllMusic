@@ -52,7 +52,7 @@
   <Composition artist="Bobby 'Blue' Bland" titre="I'll Take Care Of You" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="17" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="David Bowie" titre="'Heroes'" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="'Heroes'" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="18" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="David Bowie" titre="Wedding Song" type="SONG" canBeMerged="true" deleted="false">
@@ -118,7 +118,7 @@
   <Composition artist="Elvis Costello" titre="Jack Of All Parades" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="39" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Crystals" titre="Then He Kissed Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Crystals" titre="Then He Kissed Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="40" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Cure" titre="Friday I'm In Love" type="SONG" canBeMerged="true" deleted="false">
@@ -919,10 +919,10 @@
   <Composition artist="Bo Diddley" titre="Road Runner" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="306" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Life On Mars?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Life On Mars?" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="307" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Space Oddity" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Space Oddity" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="308" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Jan Bradley" titre="Nights In New York City" type="SONG" canBeMerged="true" deleted="false">
@@ -1621,7 +1621,7 @@
   <Composition artist="Bessie Smith" titre="Empty Bed Blues" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="540" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Elliott Smith" titre="Between The Bars" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elliott Smith" titre="Between The Bars" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="541" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Soul Sisters" titre="Wreck A Buddy" type="SONG" canBeMerged="true" deleted="false">
@@ -1780,7 +1780,7 @@
   <Composition artist="Bing Crosby" titre="Brother, Can You Spare A Dime?" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="593" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Crosby, Stills, Nash And Young" titre="Ohio" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Crosby, Stills, Nash And Young" titre="Ohio" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="594" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Dan Le Sac Vs Scroobius Pip" titre="Thou Shalt Always Kill" type="SONG" canBeMerged="true" deleted="false">
@@ -2188,7 +2188,7 @@
   <Composition artist="Cure" titre="Killing An Arab" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="729" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Depeche Mode" titre="Personal Jesus" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Depeche Mode" titre="Personal Jesus" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="730" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Chris Difford" titre="Fat As A Fiddle" type="SONG" canBeMerged="true" deleted="false">
