@@ -100,7 +100,7 @@
   <Composition artist="Gillian Welch" titre="Time (The Revelator)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="33" creationDate="03/09/2018 10:35:28" size="60"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="34" creationDate="03/09/2018 10:35:28" size="60"/>
   </Composition>
   <Composition artist="R.E.M." titre="Reveal" type="ALBUM" canBeMerged="true" deleted="false">
