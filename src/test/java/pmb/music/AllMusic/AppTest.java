@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.math.BigDecimal;
-import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -67,7 +66,6 @@ public class AppTest {
 		// stats(importXML, RecordType.ALBUM);
 		// stats(importXML, RecordType.SONG);
 		// gauss(importXML, RecordType.ALBUM);
-		sizeFileSuspicious();
 		// findImportParamsForAllFiles();
 		// duplicateRankInFiles(importXML);
 		// setDeleted();
@@ -430,42 +428,6 @@ public class AppTest {
 			LOG.warn("Error when revert artist: " + txtArtist + ", size: " + arrayArtist.length);
 		}
 		return artistRevert;
-	}
-
-	public static void sizeFileSuspicious() {
-		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		LOG.debug("# Tous les fichiers qui ont une taille non multiple de 10");
-		importXML.stream().map(Composition::getFiles).flatMap(List::stream)
-				.filter(f -> f.getSize() % 10 != 0 && f.getSize() % 5 != 0)
-				.map(f -> f.getFileName() + " " + f.getSize()).distinct().sorted().forEach(LOG::debug);
-		LOG.debug("# Tous les fichiers dont le classement de la derniere composition est different de la taille");
-		List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
-				.filter(f -> !f.getSorted()).map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
-		for (String name : nomFichier) {
-			List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
-			xml.sort((a, b) -> Integer.valueOf(a.getFiles().get(0).getClassement())
-					.compareTo(Integer.valueOf(b.getFiles().get(0).getClassement())));
-			Composition lastCompo = xml.get(xml.size() - 1);
-			if (xml.get(0).getFiles().get(0).getSize() != 0
-					&& lastCompo.getFiles().get(0).getClassement() != xml.get(0).getFiles().get(0).getSize()) {
-				LOG.debug(name + ": " + lastCompo.getFiles().get(0).getClassement() + " "
-						+ xml.get(0).getFiles().get(0).getSize());
-			}
-		}
-		LOG.debug("# Missing compositions:");
-		List<String> fileNames = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
-				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
-		for (String name : fileNames) {
-			List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
-			int realSize = xml.size();
-			Integer theoricSize = xml.get(0).getFiles().get(0).getSize();
-			if (theoricSize != 0 && realSize != theoricSize) {
-				BigDecimal ratio = BigDecimal.valueOf(realSize).multiply(BigDecimal.valueOf(100D))
-						.divide(BigDecimal.valueOf(theoricSize), BigDecimal.ROUND_DOWN);
-				LOG.debug(name + ";" + realSize + ";" + theoricSize + ";"
-						+ NumberFormat.getNumberInstance().format(ratio) + "%");
-			}
-		}
 	}
 
 	public static void gauss(List<Composition> importXML, RecordType type) {

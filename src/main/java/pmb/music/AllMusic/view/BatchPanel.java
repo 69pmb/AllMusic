@@ -57,7 +57,7 @@ public class BatchPanel extends JPanel {
 	public BatchPanel(Score score) {
 		super();
 		LOG.debug("Start BatchPanel");
-		this.setLayout(new GridLayout(11, 1));
+		this.setLayout(new GridLayout(12, 1));
 
 		findDuplicateComposition();
 		findDuplicateFiles();
@@ -68,6 +68,7 @@ public class BatchPanel extends JPanel {
 		duplicateTitle();
 		validateFileName();
 		averageOfFilesByFiles();
+		weirdFileSize();
 		stats();
 		lastLine();
 
@@ -310,6 +311,28 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(validate, validateBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(validate);
+	}
+	
+	private void weirdFileSize() {
+		JPanel weird = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
+		
+		// Label
+		JLabel weirdLabel = new JLabel("Taille de fichier bizarre: ");
+		PanelUtils.addComponent(weird, weirdLabel, Component.LEFT_ALIGNMENT, 800);
+		
+		// weird btn
+		JButton weirdBtn = PanelUtils.createJButton("Go Weird Size By File", 200, Constant.ICON_GO);
+		weirdBtn.setToolTipText("Recherche les fichiers dont la taille est bizarre");
+		weirdBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start weird: " + MiscUtils.getCurrentTime());
+			new Thread(() -> {
+				fileResult = BatchUtils.weirdFileSize();
+				displayText("End weird: " + MiscUtils.getCurrentTime());
+			}).start();
+		});
+		PanelUtils.addComponent(weird, weirdBtn, Component.RIGHT_ALIGNMENT, 100);
+		
+		this.add(weird);
 	}
 	
 	private void averageOfFilesByFiles() {
