@@ -454,7 +454,7 @@
   <Composition artist="Blondie" titre="One Way Or Another" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="151" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Bon Iver" titre="Flume" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bon Iver" titre="Flume" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="152" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="David Bowie" titre="Letter To Hermione" type="SONG" canBeMerged="true" deleted="false">
@@ -895,7 +895,7 @@
   <Composition artist="Tony Bennett" titre="I Left My Heart In San Francisco" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="298" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Chuck Berry" titre="Johnny B Goode" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Chuck Berry" titre="Johnny B Goode" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="299" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Chuck Berry" titre="Memphis, Tennessee" type="SONG" canBeMerged="true" deleted="false">
@@ -1756,7 +1756,7 @@
   <Composition artist="Clash" titre="Straight To Hell" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="585" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
-  <Composition artist="Clash" titre="White Riot" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Clash" titre="White Riot" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - 1000 Songs Everyone Must Hear - 2009" publishYear="2009" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2009" sorted="false" classement="586" creationDate="08/08/2017 23:13:02" size="1000"/>
   </Composition>
   <Composition artist="Jarvis Cocker" titre="Running The World" type="SONG" canBeMerged="true" deleted="false">

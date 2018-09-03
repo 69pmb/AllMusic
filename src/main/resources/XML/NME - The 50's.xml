@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Chuck Berry" titre="Johnny B Goode" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Chuck Berry" titre="Johnny B Goode" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 50's" publishYear="1959" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="Hound Dog" type="SONG" canBeMerged="true" deleted="false">

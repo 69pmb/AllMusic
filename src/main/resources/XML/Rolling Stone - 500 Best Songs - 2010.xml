@@ -19,7 +19,7 @@
   <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="6" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Chuck Berry" titre="Johnny B. Goode" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Chuck Berry" titre="Johnny B. Goode" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="7" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="false">
@@ -184,13 +184,13 @@
   <Composition artist="Bo Diddley" titre="Bo Diddley" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="62" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Buffalo Springfield" titre="For What It's Worth" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Buffalo Springfield" titre="For What It's Worth" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="63" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="She Loves You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="64" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Cream" titre="Sunshine Of Your Love" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Cream" titre="Sunshine Of Your Love" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="65" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Bob Marley" titre="Redemption Song" type="SONG" canBeMerged="true" deleted="false">
@@ -253,7 +253,7 @@
   <Composition artist="Patsy Cline" titre="Crazy" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="85" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Thunder Road" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Thunder Road" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="86" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Johnny Cash" titre="Ring of Fire" type="SONG" canBeMerged="true" deleted="false">
@@ -1108,7 +1108,7 @@
   <Composition artist="The Beatles" titre="All You Need Is Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="370" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Clash" titre="Complete Control" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="Complete Control" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="371" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Box Tops" titre="The Letter" type="SONG" canBeMerged="true" deleted="false">
@@ -1123,7 +1123,7 @@
   <Composition artist="The Bee Gees" titre="How Deep Is Your Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="375" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Cream" titre="White Room" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Cream" titre="White Room" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="376" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Depeche Mode" titre="Personal Jesus" type="SONG" canBeMerged="true" deleted="false">
