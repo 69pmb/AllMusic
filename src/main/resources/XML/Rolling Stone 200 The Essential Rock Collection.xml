@@ -115,7 +115,7 @@
   <Composition artist="Bob Dylan" titre="Blonde On Blonde" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone 200 The Essential Rock Collection" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="41" creationDate="19/07/2017 07:11:54" size="200"/>
   </Composition>
-  <Composition artist="Bob Dylan and the Band" titre="The Basement Tapes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="The Basement Tapes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone 200 The Essential Rock Collection" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="42" creationDate="19/07/2017 07:11:54" size="200"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Blood On The Tracks" type="ALBUM" canBeMerged="true" deleted="false">
@@ -250,7 +250,7 @@
   <Composition artist="The Clash" titre="The Clash" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone 200 The Essential Rock Collection" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="92" creationDate="19/07/2017 07:11:54" size="200"/>
   </Composition>
-  <Composition artist="The Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone 200 The Essential Rock Collection" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="93" creationDate="19/07/2017 07:11:54" size="200"/>
   </Composition>
   <Composition artist="Elvis Costello" titre="My Aim Is True" type="ALBUM" canBeMerged="true" deleted="false">
@@ -448,7 +448,7 @@
   <Composition artist="The Jesus and Mary Chain" titre="Psycho Candy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone 200 The Essential Rock Collection" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="160" creationDate="19/07/2017 07:11:54" size="200"/>
   </Composition>
-  <Composition artist="Joan Jett and the Blackhearts" titre="I Love Rock And Roll" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Joan Jett" titre="I Love Rock And Roll" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone 200 The Essential Rock Collection" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="161" creationDate="19/07/2017 07:11:54" size="200"/>
   </Composition>
   <Composition artist="Joy Division" titre="Closer" type="ALBUM" canBeMerged="true" deleted="false">
