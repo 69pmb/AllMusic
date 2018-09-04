@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Aphex Twin" titre="Windowlicker" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="1" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="TLC" titre="No Scrubs" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="2" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Super Furry Animals" titre="Northern Lites" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="3" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="The Flaming Lips" titre="Race For The Prize" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="4" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Eminem" titre="My Name Is" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="5" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -13,8 +19,14 @@
   <Composition artist="Mogwai" titre="EP" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="6" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Fatboy Slim" titre="Praise You" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="7" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Primal Scream" titre="Swastika Eyes" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="8" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Beck" titre="Sex Laws" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="9" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Madonna" titre="Beautiful Stranger" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="10" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -24,6 +36,12 @@
   </Composition>
   <Composition artist="Campag Velocet" titre="To Lose La Treck" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="12" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Sigur Ros" titre="Svefn-G-Englar" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="13" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Blur" titre="Tender" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="14" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Shack" titre="Comedy" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="15" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -46,8 +64,14 @@
   <Composition artist="Basement Jaxx" titre="Rendez-Vu" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="21" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="The Flaming Lips" titre="Waiting For A Superman" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Flaming Lips" titre="Waiting For Superman" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="22" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Blur" titre="Coffee And TV" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="23" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="The Chemical Brothers" titre="Hey Boy Hey Girl" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="24" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Badly Drawn Boy" titre="It Came From The Ground" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="25" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -105,6 +129,9 @@
   </Composition>
   <Composition artist="Mr Oizo" titre="Flat Beat" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="43" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Hole" titre="Malibu" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="44" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Low" titre="Immune" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="45" creationDate="27/07/2017 13:27:28" size="50"/>

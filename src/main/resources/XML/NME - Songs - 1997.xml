@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="1" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Blur" titre="Song 2" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="2" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="The Verve" titre="The Drugs Don't Work" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="3" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Embrace" titre="All You Good Good People" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="4" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Primal Scream" titre="Kowalski" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="5" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Blue Boy" titre="Remember Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Paranoid Android" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="6" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="The Blueboy" titre="Remember Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="7" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Spiritualized" titre="Electricity" type="SONG" canBeMerged="true" deleted="false">
@@ -19,6 +31,9 @@
   <Composition artist="The Chemical Brothers" titre="Block Rockin' Beats" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="10" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Daft Punk" titre="Da Funk" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="11" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Echo And The Bunnyman" titre="Nothing Lasts Forever" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="12" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
@@ -28,20 +43,29 @@
   <Composition artist="Mogwai" titre="New Paths To Helicon" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="14" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Pavement" titre="Stereo" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="15" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Cornershop" titre="Brimful Of Asha" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="16" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Teenage Fanclub" titre="Ain't That Enough" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="17" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Daft Punk" titre="Around The World" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="18" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="The Beta Band" titre="Champion Versions EP" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="19" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Goldie And KRS-One" titre="Digital" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Goldie And Krs-One" titre="Digital" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="20" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Embrace" titre="Fireworks EP" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="21" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Belle And Sebastian" titre="The Lazy Line Painter Jane" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="22" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Blur" titre="Beetlebum" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="23" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -94,7 +118,7 @@
   <Composition artist="Beck" titre="Deadweight" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="39" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Fatboy Slim" titre="Everybody Needs a 303'" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Fatboy Slim" titre="Everybody Needs A 303'" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="40" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Pulp" titre="Help The Aged" type="SONG" canBeMerged="true" deleted="false">
@@ -103,8 +127,11 @@
   <Composition artist="Orbital" titre="Satan" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="42" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Missy ' Misdemeanour' Elliott" titre="The Rain" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Missy' Misdemeanoe' Elliott" titre="The Rain" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="43" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Eels" titre="Novocain For The Soul" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="44" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Death In Vegas" titre="Rocco" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="45" creationDate="27/07/2017 13:27:28" size="50"/>

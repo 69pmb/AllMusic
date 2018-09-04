@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Primal Scream" titre="Higher Than The Sun" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="1" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
   <Composition artist="The Klf" titre="Justified And Ancient" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="2" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
+  <Composition artist="Rem" titre="Loosing My Religion" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="3" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
   <Composition artist="Teenage Fanclub" titre="Starsign" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="4" creationDate="20/07/2017 20:46:47" size="50"/>
@@ -12,6 +18,12 @@
   </Composition>
   <Composition artist="Electronic" titre="Get The Message" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="6" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
+  <Composition artist="Nirvana" titre="Smell Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="7" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
+  <Composition artist="Massive Attack" titre="Unfinished Sympathy" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="8" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
   <Composition artist="Chapterhouse" titre="Pearl" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="9" creationDate="20/07/2017 20:46:47" size="50"/>
