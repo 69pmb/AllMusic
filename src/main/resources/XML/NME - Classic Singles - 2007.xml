@@ -163,7 +163,7 @@
   <Composition artist="Eminem" titre="The Way I Am" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="54" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
-  <Composition artist="Beck" titre="Devil's Haircut" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Beck" titre="Devil's Haircut" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="55" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
   <Composition artist="Super Furry Animals" titre="God! Show Me Magic" type="SONG" canBeMerged="true" deleted="false">
@@ -172,7 +172,7 @@
   <Composition artist="The Jam" titre="This Is The Modern World" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="57" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
-  <Composition artist="Martha Reeves And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Martha Reeves And The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="58" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
 </ListCompositions>

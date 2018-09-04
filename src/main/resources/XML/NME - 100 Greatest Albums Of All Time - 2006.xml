@@ -64,7 +64,7 @@
   <Composition artist="Killers" titre="Hot Fuss" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="21" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="22" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
   <Composition artist="Jeff Buckley" titre="Grace" type="ALBUM" canBeMerged="true" deleted="false">
@@ -76,7 +76,7 @@
   <Composition artist="Meat Loaf" titre="Bat Out Of Hell" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="25" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="26" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
   <Composition artist="Kaiser Chiefs" titre="Employment" type="ALBUM" canBeMerged="true" deleted="false">
@@ -166,10 +166,10 @@
   <Composition artist="Velvet Underground" titre="And Nico" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="55" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="56" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="57" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
   <Composition artist="Rolling Stones" titre="Let It Bleed" type="ALBUM" canBeMerged="true" deleted="false">
@@ -193,7 +193,7 @@
   <Composition artist="Shania Twain" titre="Come On Over" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="64" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="65" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
   <Composition artist="Pearl Jam" titre="Ten" type="ALBUM" canBeMerged="true" deleted="false">
@@ -241,7 +241,7 @@
   <Composition artist="AC/DC" titre="Back In Black" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="80" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="81" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
   <Composition artist="Razorlight" titre="Up All Night" type="ALBUM" canBeMerged="true" deleted="false">

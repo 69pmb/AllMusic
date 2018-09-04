@@ -82,13 +82,13 @@
   <Composition artist="PJ Harvey" titre="Down By The Water" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="27" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Foo Fighters" titre="Everlong" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Foo Fighters" titre="Everlong" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="28" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Blur" titre="Girls And Boys" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Blur" titre="Girls And Boys" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="29" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="30" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Massive Attack" titre="Unfinished Sympathy" type="SONG" canBeMerged="true" deleted="false">
@@ -142,7 +142,7 @@
   <Composition artist="House Of Pain" titre="Jump Around" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="47" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Blur" titre="For Tomorrow" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Blur" titre="For Tomorrow" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="48" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="R.E.M." titre="Losing My Religion" type="SONG" canBeMerged="true" deleted="false">
@@ -205,7 +205,7 @@
   <Composition artist="The Chemical Brothers" titre="Hey Boy Hey Girl" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="68" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Bjork" titre="Hyperballad" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bjork" titre="Hyperballad" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="69" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Radiohead" titre="Creep" type="SONG" canBeMerged="true" deleted="false">
