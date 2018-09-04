@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="false" classement="1" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="The River" type="ALBUM" canBeMerged="true" deleted="false">
@@ -22,7 +22,7 @@
   <Composition artist="Pete Townsend" titre="Empty Glass" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="false" classement="7" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
-  <Composition artist="AC/DC" titre="Back In Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="AC/DC" titre="Back in Black" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="false" classement="8" creationDate="08/08/2017 23:13:02" size="0"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Emotional Rescue" type="ALBUM" canBeMerged="true" deleted="false">
