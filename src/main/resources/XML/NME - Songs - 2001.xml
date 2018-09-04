@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Kylie Minogue" titre="Can't Get You Out Of My Head" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Missy Elliott" titre="Get Ur Freak On" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="1" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Kylie Minogue" titre="Can't Get You Out Of My Head" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="2" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="The Strokes" titre="The Modern Age Ep" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="3" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Wndrew W.K." titre="Party Hard" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="4" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="The White Stripes" titre="Hoel Yorba" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="5" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Outkast" titre="Msjackson" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="6" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="The Strokes" titre="Hard To Explain" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="7" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Starsailor" titre="Good Souls" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="8" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="MOP" titre="Cold As Ice" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Gorillaz" titre="Clint Eastwood" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="9" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Mop" titre="Cold As Ice" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="10" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Destiny's Child" titre="Bootylicious" type="SONG" canBeMerged="true" deleted="false">
@@ -22,13 +43,13 @@
   <Composition artist="Super Furry Animals" titre="Juxtaposed With You" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="14" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Roots Manuva" titre="Witness (1 Hope)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Roots Manuva" titre="Witness (One Hope)" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="15" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Destiny's Child" titre="Survivor" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="16" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Fischerspooner" titre="Wmerge" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Fischer-Spooner" titre="Wmerge" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="17" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="New Order" titre="Crystal" type="SONG" canBeMerged="true" deleted="false">
@@ -46,13 +67,16 @@
   <Composition artist="Girls On Top" titre="We Don't Give A Damn About Our Friends" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="22" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Daft Punk" titre="Digital Love" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="23" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Muse" titre="Plug In Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="24" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="The Coral" titre="Shadows Fall Ep" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="25" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Jay-Z" titre="Izzo (H.O.V.A.)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jay-Z" titre="Izzo (Hova)" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="26" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Mogwai" titre="My Father My King" type="SONG" canBeMerged="true" deleted="false">
@@ -67,11 +91,17 @@
   <Composition artist="The Streets" titre="Has It Come To This" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="30" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Radiohead" titre="Pyramid Song" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="31" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Roger Sanchez" titre="Another Chance" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="32" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Pulp" titre="The Trees" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pulp" titre="The Trees/Sunrise" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="33" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Basement Jaxx" titre="Romeo" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="34" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Wheatus" titre="Teenage Dirtbag" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="35" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -103,6 +133,9 @@
   <Composition artist="Turin Breaks" titre="Mind Over Money" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="44" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="PJ Harvey" titre="This Is Love" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="45" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Linkin Park" titre="One Step Closer" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="46" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
@@ -115,7 +148,7 @@
   <Composition artist="Bubba Sparxxx" titre="Ugly" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="49" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Kinks Of Tomorrow And Julie McKnight" titre="Finally" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Kinks Of Tomorrow And Julie Mcknight" titre="Finally" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="50" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
 </ListCompositions>

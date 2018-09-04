@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Thin Lizzy" titre="The Boys Are Back In Town" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1976" publishYear="1976" categorie="YEAR" rangeDateBegin="1976" rangeDateEnd="1976" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="20"/>
+  </Composition>
   <Composition artist="Eddie And The Hot Rods" titre="Live At The Marquee (EP)" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1976" publishYear="1976" categorie="YEAR" rangeDateBegin="1976" rangeDateEnd="1976" sorted="true" classement="2" creationDate="24/07/2017 00:51:20" size="20"/>
+  </Composition>
+  <Composition artist="Sex Pistols" titre="Anarchy In The U.K." type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1976" publishYear="1976" categorie="YEAR" rangeDateBegin="1976" rangeDateEnd="1976" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="20"/>
+  </Composition>
+  <Composition artist="Blue Oyster Cult" titre="Don't Fear The Reaper" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1976" publishYear="1976" categorie="YEAR" rangeDateBegin="1976" rangeDateEnd="1976" sorted="true" classement="4" creationDate="24/07/2017 00:51:20" size="20"/>
   </Composition>
   <Composition artist="Nick Lowe" titre="So It Goes" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1976" publishYear="1976" categorie="YEAR" rangeDateBegin="1976" rangeDateEnd="1976" sorted="true" classement="5" creationDate="24/07/2017 00:51:20" size="20"/>

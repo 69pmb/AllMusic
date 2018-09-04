@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="MGMT" titre="Kids" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="1" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Glasvegas" titre="Geraldine" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="2" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Mystery Jets" titre="Two Doors Down" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="3" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="MGMT" titre="Timr To Pretend" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="4" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="MGMT" titre="Electric Feel" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="5" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Metronomy" titre="Heartbreaker" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="6" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -13,11 +22,32 @@
   <Composition artist="Friendly Fires" titre="Paris" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="7" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Mia" titre="Paper Planes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="8" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Kings Of Leon" titre="Sex On Fire" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="9" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Vampire Weekend" titre="A-Punk" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="10" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="The Verve" titre="Love Is Noise" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="11" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Elbow" titre="One Day Like Today" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Hot Chip" titre="Ready For The Floor" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="12" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Elbow" titre="One Day Like Today" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="13" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Florence And The Machine" titre="Kiss With A Fist" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="14" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Ladyhawk" titre="Paris Is Burning" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="15" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Oasis" titre="The Shock Of The Lighning" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="16" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Spritualized" titre="Soul On Fire" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="17" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -25,14 +55,23 @@
   <Composition artist="Hercules And Love Affair" titre="Blind" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="18" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Oasis" titre="I'm Outta Time" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="19" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Chairlift" titre="Bruses" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="20" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Tv On The Radio" titre="Goldan Age" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="21" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="The Last Shadow Puppets" titre="Standing Next To Me" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="22" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Fucked Up" titre="Year Of The Pig" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="23" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Santogold" titre="Les Artistes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="24" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Mystery Jets" titre="Young Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="25" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -40,14 +79,26 @@
   <Composition artist="Amazing Baby" titre="Head Dress" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="26" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="The Last Shadow Puppets" titre="The Age Of The Understatement" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="27" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Elbow" titre="Grounds For Divorce" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="28" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="DJ Mujava" titre="Township Funk" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="29" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Florence And The Machine" titre="Dog Days Are Over" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="30" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Laura Marling" titre="Ghosts" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="31" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Black Kids" titre="I'm Not Going To Teach You Boyfriend How To Dance With You" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="32" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Vampire Weekend" titre="Cape Cod Kwassa Kwassa" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="33" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Late Of The Pier" titre="Space And The Woods" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="34" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -64,6 +115,9 @@
   <Composition artist="Sam Sparro" titre="Black And Gold" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="38" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Vampire Weekend" titre="Oxford Comma" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="39" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Heartbreak" titre="We're Back" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="40" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
@@ -79,7 +133,7 @@
   <Composition artist="Crystal Castles" titre="Courtship Dating" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="44" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Crystal Castles Vs Health" titre="Crimewave" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Crystal Castles Vs Health" titre="Crimewave" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="45" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Mogwai" titre="Batcat" type="SONG" canBeMerged="true" deleted="false">
@@ -88,7 +142,13 @@
   <Composition artist="Portishead" titre="Machine Gun" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="47" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Nick Cave And The Bad Seeds" titre="Dig!! Lazarus Dig!!" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="48" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Glasvegas" titre="Flowers And Football Tops" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="49" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Ida Maria" titre="Oh My God" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="50" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
 </ListCompositions>

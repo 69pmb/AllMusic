@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Nick Cave" titre="The Mercy Seat" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="1" creationDate="20/07/2017 20:46:49" size="50"/>
+  </Composition>
   <Composition artist="Morrissey" titre="Everyday Ls Like Sunday" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="2" creationDate="20/07/2017 20:46:49" size="50"/>
   </Composition>
@@ -58,6 +61,9 @@
   <Composition artist="Tracy Chapman" titre="Fast Car" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="20" creationDate="20/07/2017 20:46:49" size="50"/>
   </Composition>
+  <Composition artist="Womack And Womack" titre="Teardrops" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="21" creationDate="20/07/2017 20:46:49" size="50"/>
+  </Composition>
   <Composition artist="Patti Smith" titre="People Have The Power" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="22" creationDate="20/07/2017 20:46:49" size="50"/>
   </Composition>
@@ -76,10 +82,13 @@
   <Composition artist="Roxanne Shante" titre="Goon Girl" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="27" creationDate="20/07/2017 20:46:49" size="50"/>
   </Composition>
+  <Composition artist="Pixies" titre="Gigantic" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="28" creationDate="20/07/2017 20:46:49" size="50"/>
+  </Composition>
   <Composition artist="Kitchens Of Distinction" titre="Prize" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="29" creationDate="20/07/2017 20:46:49" size="50"/>
   </Composition>
-  <Composition artist="Iggy Pop" titre="Cold Metal" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Lggy Pop" titre="Cold Metal" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="30" creationDate="20/07/2017 20:46:49" size="50"/>
   </Composition>
   <Composition artist="The Parachute Men" titre="Sometimes In Vain" type="SONG" canBeMerged="true" deleted="false">

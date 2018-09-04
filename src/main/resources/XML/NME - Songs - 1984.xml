@@ -28,6 +28,9 @@
   <Composition artist="Prince" titre="When Doves Cry" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="true" classement="9" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="Van Halen" titre="Jump" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="true" classement="10" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Chaka Khan" titre="I Feel For You" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="true" classement="11" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
@@ -79,7 +82,7 @@
   <Composition artist="The Blue Nile" titre="Tinsel Town In The Rain" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="true" classement="27" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Cindy Lauper" titre="Girls Just Want To Have Fun" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Cindy Lauper" titre="Girls Just Want To Have Fun" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="true" classement="28" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Foetus Art Terrorism" titre="Calamity Crush" type="SONG" canBeMerged="true" deleted="false">
