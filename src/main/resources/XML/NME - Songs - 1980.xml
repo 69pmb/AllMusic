@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="1" creationDate="13/08/2017 04:25:08" size="50"/>
+  </Composition>
   <Composition artist="The Jam" titre="Going Underground" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="2" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="The Beat" titre="Mirror In The Bathroom" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="3" creationDate="13/08/2017 04:25:08" size="50"/>
+  </Composition>
+  <Composition artist="Joy Division" titre="Atmosphere" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="4" creationDate="13/08/2017 04:25:08" size="50"/>
+  </Composition>
+  <Composition artist="David Bowie" titre="Ashes To Ashes" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="5" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Bow Wow Wow" titre="Your Cassette Pet" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="6" creationDate="13/08/2017 04:25:08" size="50"/>
@@ -112,10 +121,10 @@
   <Composition artist="Cabaret Voltaire" titre="Seconds To Late" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="40" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
-  <Composition artist="DIANA ROSS" titre="I'm Coming out" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Diana Ross" titre="I'm Coming Out" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="41" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
-  <Composition artist="Elvis Costello" titre="High Fidelity" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Costello" titre="Hi-Fidelity" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="42" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Aswad" titre="Warrior Charge" type="SONG" canBeMerged="true" deleted="false">
@@ -126,6 +135,9 @@
   </Composition>
   <Composition artist="Smack" titre="Edward Fox" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="45" creationDate="13/08/2017 04:25:08" size="50"/>
+  </Composition>
+  <Composition artist="The Police" titre="Don't Stand So Close To Me" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="46" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Bette Bright" titre="Hello I'm Your Heart" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="47" creationDate="13/08/2017 04:25:08" size="50"/>
@@ -140,96 +152,99 @@
     <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="50" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Adam And The Ants" titre="Cartrouble" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="51" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Adam And The Ants" titre="Kings Of The Wild Frontier" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="52" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Tamlins" titre="Baltimore" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="53" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="The Jacksons" titre="Lovely One" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="54" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="James Brown" titre="Rapp Payback" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="55" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Cabaret Voltaire" titre="Three Mantras" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="56" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="The Clash" titre="Bankrobber/The Callup" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="57" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Dexys Midnight Runners" titre="Keep It Up Part 2" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="58" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="The Fall" titre="Elastic Man" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="59" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
-  <Composition artist="The Human League" titre="Holiday '80 Ep" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="60" creationDate="13/08/2017 04:25:08" size="50"/>
+  <Composition artist="The Human League" titre="Holiday'80 Ep" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="The Native Hipsters" titre="There Goes Concorde Again" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="61" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Earth, Wind And Fire" titre="Let Me Talk" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="62" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="D.A.F." titre="Kebabtraume" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="63" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Girls At Our Best" titre="Politics" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="64" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Crown Hights Affair" titre="You Gave Me Love" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="65" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Orange Juice" titre="Blue Boy/ Falling And Laughing" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="66" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
+  </Composition>
+  <Composition artist="Orchestral Manoeuvres In The Dark" titre="Enola Gaye" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Josef K" titre="Radio Drill Time" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="67" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Devo" titre="Whip It" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="68" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Killing Joke" titre="Requiem" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="69" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Grace Jones" titre="Hunter Gets Captured By The Game" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="70" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Chris Stamey" titre="Soul Kiss" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="71" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Robert Wyatt" titre="Arauco" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="72" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Young Marble Giants" titre="Final Day" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="73" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
-  <Composition artist="Elvis Costello" titre="High Fidelity" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="74" creationDate="13/08/2017 04:25:08" size="50"/>
+  <Composition artist="Elvis Costello" titre="Hi-Fidelity" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Ian Dury" titre="I Want To Be Straight" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="75" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="The Specials" titre="Stereotype" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="76" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Jermaine -Jackson" titre="Let's Get Serious" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="77" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Zz Top" titre="Cheap Sunglasses" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="78" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Pretenders" titre="Talk Of The Town" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="79" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="Wah! Heat" titre="Seven Minutes To Midnight" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="80" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
   <Composition artist="The Sound" titre="Heyday" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="81" creationDate="13/08/2017 04:25:08" size="50"/>
+    <File author="NME" fileName="NME - Songs - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="50"/>
   </Composition>
 </ListCompositions>

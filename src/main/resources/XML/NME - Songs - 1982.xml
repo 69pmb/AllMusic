@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Grandmaster Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Grandmaster Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="Sexual Healing" type="SONG" canBeMerged="true" deleted="false">
@@ -46,7 +46,7 @@
   <Composition artist="Odyssey" titre="Inside Out" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="15" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="AFRIKA BAMBAATAA" titre="Planet Rock" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Afrika Bambaataa" titre="Planet Rock" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="16" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Wham!" titre="Young Guns Go For It" type="SONG" canBeMerged="true" deleted="false">
@@ -58,6 +58,9 @@
   <Composition artist="The Jam" titre="Beat Surrender" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="19" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="The Clash" titre="Straight To Hell" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="20" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Imagination" titre="Just An Illusion" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="21" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
@@ -67,7 +70,7 @@
   <Composition artist="Culture Club" titre="Do You Really Want To Hurt Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="23" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Nina Simone" titre="My Baby Just Cares For Me" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Nina Simone" titre="My Baby Just Cares For Me" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="24" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Soft Cell" titre="Say Hello, Wave Goodbye" type="SONG" canBeMerged="true" deleted="false">
@@ -82,7 +85,7 @@
   <Composition artist="Syl Johnson" titre="Ms Fine Brown Frame" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="28" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Dexys Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Dexys Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="29" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="The Clash" titre="Know Your Rights" type="SONG" canBeMerged="true" deleted="false">
@@ -97,11 +100,14 @@
   <Composition artist="Siouxie And The Banshees" titre="Slow Dive" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="33" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Gregory Isaacs" titre="Night Nurse" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Gregory Isaacs" titre="Night Nurse" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="34" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Scritti Politti" titre="Faithless" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="35" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Joan Jett" titre="I Love Rock And Roll" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="36" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Aretha Franklin" titre="Jump To It" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="37" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -124,7 +130,7 @@
   <Composition artist="Elvis Costello" titre="Head To Toe" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="43" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Wham!" titre="Wham! Rap" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Wham!" titre="Wham Rap" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="true" classement="44" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Donna Summer" titre="State Of Independence" type="SONG" canBeMerged="true" deleted="false">

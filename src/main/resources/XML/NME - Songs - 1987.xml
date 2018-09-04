@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Prince" titre="Sign 'O' The Times" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Prince" titre="Sign'O' The Times" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
   <Composition artist="Eric B And Rakim" titre="Paid In Full" type="SONG" canBeMerged="true" deleted="false">
@@ -13,7 +13,7 @@
   <Composition artist="Public Enemy" titre="Rebel Without A Pause" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="4" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
-  <Composition artist="M/A/R/R/S" titre="Pump Up The Volume" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="M/A/R/R/S" titre="Pump Up The Volume" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="5" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
   <Composition artist="Eric B And Rakim" titre="I Know You Got Soul" type="SONG" canBeMerged="true" deleted="false">
@@ -25,7 +25,7 @@
   <Composition artist="The Sugercubes" titre="Birthday" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="8" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
-  <Composition artist="New Order" titre="True Faith" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="New Order" titre="True Faith" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="9" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
   <Composition artist="Cookie Crew" titre="Females" type="SONG" canBeMerged="true" deleted="false">
@@ -40,10 +40,10 @@
   <Composition artist="Pet Shop Boys" titre="Rent" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="13" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
-  <Composition artist="Beastie Boys" titre="Fight For Your Right (To Party)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Beastie Boys" titre="Fight For Your Right" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="14" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
-  <Composition artist="Prince" titre="If I Was Your Girlfriend" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Prince" titre="If I Was Your Girlfriend" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="15" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
   <Composition artist="Derek B" titre="Get Down" type="SONG" canBeMerged="true" deleted="false">
@@ -127,7 +127,7 @@
   <Composition artist="Cookie Crew" titre="Rock Da House" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="42" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
-  <Composition artist="Pet Shop Boys" titre="What Have I Done To Deserve This?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pet Shop Boys" titre="What Have I Done To Deserve This" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="true" classement="43" creationDate="24/07/2017 00:51:20" size="60"/>
   </Composition>
   <Composition artist="The Tams" titre="There Ain't Nothin' Like Shaggin'" type="SONG" canBeMerged="true" deleted="false">

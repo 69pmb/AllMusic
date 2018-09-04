@@ -4,14 +4,26 @@
   <Composition artist="Black Grape" titre="Reverend Black Grape" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="1" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
+  <Composition artist="Supergrass" titre="Alright" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="2" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
   <Composition artist="Pulp" titre="Sorted For E's And Wizz" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="3" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
+  <Composition artist="Oasis" titre="Some Might Say" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="4" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
   <Composition artist="Foo Fighters" titre="This Is Is A Call" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="5" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
-  <Composition artist="McAlmont And Butler" titre="Yes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Oasis" titre="Wonderwall" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="6" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
+  <Composition artist="Mcalmont And Butler" titre="Yes" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="7" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="8" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
   <Composition artist="Blur" titre="The Universal" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="9" creationDate="20/07/2017 20:46:47" size="50"/>
@@ -22,7 +34,7 @@
   <Composition artist="Tricky" titre="Black Steel" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="11" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
-  <Composition artist="The Boo Radleys" titre="Wake Up, Boo!" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="The Boo Radleys" titre="Wake Up, Boo!" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="12" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
   <Composition artist="Coolio" titre="Gangsta's Paradise" type="SONG" canBeMerged="true" deleted="false">
@@ -106,6 +118,12 @@
   <Composition artist="Beastie Boys" titre="Root Down Ep" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="39" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
+  <Composition artist="Pavement" titre="Father To A Sister Of Thought" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="40" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
+  <Composition artist="Pj Harvey" titre="Down By The Water" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="41" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
   <Composition artist="Alex Reece" titre="Pulp Fiction" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="42" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
@@ -129,5 +147,8 @@
   </Composition>
   <Composition artist="Supergrass" titre="Mansize Rooster" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="49" creationDate="20/07/2017 20:46:47" size="50"/>
+  </Composition>
+  <Composition artist="The Connells" titre="'74-'75" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="50" creationDate="20/07/2017 20:46:47" size="50"/>
   </Composition>
 </ListCompositions>

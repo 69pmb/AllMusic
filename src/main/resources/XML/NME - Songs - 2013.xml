@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Daft Punk" titre="Get Lucky" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="1" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Arcade Fire" titre="Reflector" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="2" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Arctic Monkeys" titre="Do I Wanna Know?" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="3" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Disclosure And Aluna George" titre="White Noise" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="4" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Yeah Yeah Yeahs" titre="Sacrilege" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="5" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Courtney Barnett" titre="Avant Gardener" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="6" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Pond" titre="Xanman" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="7" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Foals" titre="My Number" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="8" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Lorde" titre="Royals" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="9" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Kanye West" titre="Black Skinhead" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="10" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Merchandise" titre="Anxiety's Door" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="11" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Nick Cave And The Bad Seeds" titre="Jubilee Street" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="12" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="Haim" titre="Falling" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="13" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
+  <Composition artist="David Bowie" titre="Where Are We Now" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="14" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Drenge" titre="Bloodsports" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="15" creationDate="27/07/2017 13:27:28" size="50"/>
@@ -58,10 +88,13 @@
   <Composition artist="Arctic Monkeys" titre="I Wanna Be Yours" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="29" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
+  <Composition artist="Chvrches" titre="Recover" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="30" creationDate="27/07/2017 13:27:28" size="50"/>
+  </Composition>
   <Composition artist="Vampire Weekend" titre="Diane Young" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="31" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Arctic Monkeys" titre="Why Do You Only Call Me When I'm High?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Arctic Monkeys" titre="Why'd You Only Me When You're High?" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 2013" publishYear="2013" categorie="YEAR" rangeDateBegin="2013" rangeDateEnd="2013" sorted="true" classement="32" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Factory Floor" titre="Fall Back" type="SONG" canBeMerged="true" deleted="false">
