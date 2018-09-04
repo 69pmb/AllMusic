@@ -46,7 +46,7 @@
   <Composition artist="Thom Yoeke" titre="The Eraser" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="15" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="16" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="The Futureheads" titre="News And Tributes" type="ALBUM" canBeMerged="true" deleted="false">
