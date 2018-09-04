@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="1" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Manic Street Preachers" titre="A Design For Life" type="SONG" canBeMerged="true" deleted="false">
@@ -10,7 +10,7 @@
   <Composition artist="Beck" titre="Where It's At" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="3" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="The Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="4" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Orbital" titre="The Box" type="SONG" canBeMerged="true" deleted="false">
@@ -19,7 +19,7 @@
   <Composition artist="Folk Implosion" titre="Natural One" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="6" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
-  <Composition artist="Beck" titre="Devils Haircut" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Beck" titre="Devils Haircut" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="7" creationDate="27/07/2017 13:27:28" size="50"/>
   </Composition>
   <Composition artist="Tiger" titre="Race" type="SONG" canBeMerged="true" deleted="false">

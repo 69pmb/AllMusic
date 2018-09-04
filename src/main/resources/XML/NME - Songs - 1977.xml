@@ -16,7 +16,7 @@
   <Composition artist="The Ramones" titre="Sheena Is A Punk Rocker" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="true" classement="5" creationDate="13/08/2017 04:25:08" size="30"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Heroes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Heroes" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="true" classement="6" creationDate="13/08/2017 04:25:08" size="30"/>
   </Composition>
   <Composition artist="Tom Robinson Band" titre="2 4 6 8 Motorway" type="SONG" canBeMerged="true" deleted="false">
@@ -46,7 +46,7 @@
   <Composition artist="The Jam" titre="All Around The World" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="true" classement="15" creationDate="13/08/2017 04:25:08" size="30"/>
   </Composition>
-  <Composition artist="The Clash" titre="Complete Control" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="Complete Control" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="true" classement="16" creationDate="13/08/2017 04:25:08" size="30"/>
   </Composition>
   <Composition artist="The Boomtown Rats" titre="Looking After No. One" type="SONG" canBeMerged="true" deleted="false">
@@ -94,7 +94,7 @@
   <Composition artist="Richard Hell" titre="Blank Generation" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="30"/>
   </Composition>
-  <Composition artist="The Clash" titre="White Riot" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="White Riot" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="true" classement="0" creationDate="13/08/2017 04:25:08" size="30"/>
   </Composition>
   <Composition artist="The Table" titre="Do The Standing Still" type="SONG" canBeMerged="true" deleted="false">

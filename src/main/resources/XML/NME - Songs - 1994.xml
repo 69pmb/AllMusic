@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Blur" titre="Girls And Boys" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Blur" titre="Girls And Boys" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="1" creationDate="20/07/2017 20:46:49" size="50"/>
   </Composition>
   <Composition artist="Oasis" titre="Cigarettes And Alcohol" type="SONG" canBeMerged="true" deleted="false">
@@ -52,7 +52,7 @@
   <Composition artist="The Stone Roses" titre="Love Spreads" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Songs - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="17" creationDate="20/07/2017 20:46:49" size="50"/>
   </Composition>
-  <Composition artist="Blur" titre="Parklife" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Blur" titre="Parklife" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Songs - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="18" creationDate="20/07/2017 20:46:49" size="50"/>
   </Composition>
   <Composition artist="Veruca Salt" titre="Seether" type="SONG" canBeMerged="true" deleted="false">
