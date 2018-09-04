@@ -4,6 +4,12 @@
   <Composition artist="John Lennon" titre="Cold Turkey" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="10"/>
   </Composition>
+  <Composition artist="John Lennon" titre="Instant Karma" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="10"/>
+  </Composition>
+  <Composition artist="John Lennon" titre="Working Class Hero" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="10"/>
+  </Composition>
   <Composition artist="John Lennon" titre="It's So Hard" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="4" creationDate="02/07/2017 07:08:56" size="10"/>
   </Composition>
@@ -30,6 +36,9 @@
   </Composition>
   <Composition artist="Paul Mccartney" titre="Every Night" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="10"/>
+  </Composition>
+  <Composition artist="Paul Mccartney" titre="Maybe I'm Amazed" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="10"/>
   </Composition>
   <Composition artist="Paul Mccartney" titre="Uncle Albert/Admiral Halsey" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="4" creationDate="02/07/2017 07:08:56" size="10"/>
@@ -58,6 +67,12 @@
   <Composition artist="George Harrison" titre="Bangle Dash" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="10"/>
   </Composition>
+  <Composition artist="George Harrison" titre="My Sweet Lord" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="10"/>
+  </Composition>
+  <Composition artist="George Harrison" titre="While My Guitar Gently Weeps" type="SONG" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="4" creationDate="02/07/2017 07:08:56" size="10"/>
+  </Composition>
   <Composition artist="George Harrison" titre="Give Me Love (Give Me Peace On Earth)" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="5" creationDate="02/07/2017 07:08:56" size="10"/>
   </Composition>
@@ -79,7 +94,7 @@
   <Composition artist="Ringo Star" titre="Back Off Boogaloo" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="10"/>
   </Composition>
-  <Composition artist="Ringo Star" titre="It Don't Come Easy" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Ringo Star" titre="It Don't Come Easy" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Beatles 1970 - 1980 - The Solo Years" publishYear="1980" categorie="THEME" rangeDateBegin="1970" rangeDateEnd="1980" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="10"/>
   </Composition>
   <Composition artist="Ringo Star" titre="Early 1970" type="SONG" canBeMerged="true" deleted="false">
