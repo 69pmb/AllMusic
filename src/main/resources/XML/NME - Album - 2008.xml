@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="MGMT" titre="Oracular Spectacular" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="TV On The Radio" titre="Dear Science" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="2" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Glasvegas" titre="Glasvegas" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Vampire Weekend" titre="Vampire Weekend" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="4" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Foals" titre="Antidotes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="5" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -19,6 +25,9 @@
   <Composition artist="Mystery Jets" titre="Twenty One" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="8" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="Kings Of Leon" titre="Only By The Night" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="9" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Friendly Fires" titre="Friendly Fires" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="10" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
@@ -28,8 +37,14 @@
   <Composition artist="Crystal Castles" titre="Crystal Styles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="12" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="Fleet Foxes" titre="Fleet Foxes" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="13" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Laura Marling" titre="Alas I Cannot Swim" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="14" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="The Last Shadow Puppets" titre="The Age Of The Understatements" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="15" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Ladyhawk" titre="Ladyhawk" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="16" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -48,6 +63,9 @@
   </Composition>
   <Composition artist="Lightspeed Champion" titre="Falling Off The Lavinder Bridge" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="21" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Oasis" titre="Dig Out Your Soul" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="22" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Scarlett Johansson" titre="Anywhere I Lay My Head" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="23" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -73,7 +91,7 @@
   <Composition artist="Hot Chip" titre="Made In The Dark" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="30" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Coldplay" titre="Viva La Vida" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Coldplay" titre="Viva La Vida Or Death And All His Friends" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="31" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Mogwai" titre="The Hawk Is Howling" type="ALBUM" canBeMerged="true" deleted="false">
@@ -100,7 +118,10 @@
   <Composition artist="Chairlift" titre="Does You Inspire You" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="39" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="These New Puritans" titre="Beat Pyramid" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Kills" titre="Midnight Boom" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="40" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="The New Puritans" titre="Beat Pyramid" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2008" publishYear="2008" categorie="YEAR" rangeDateBegin="2008" rangeDateEnd="2008" sorted="true" classement="41" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="School Of Seven Bells" titre="Alpinisms" type="ALBUM" canBeMerged="true" deleted="false">

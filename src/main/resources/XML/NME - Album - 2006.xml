@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Yeah Yeah Yeahs" titre="Show Your Bones" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="2" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
@@ -43,6 +46,9 @@
   <Composition artist="Thom Yoeke" titre="The Eraser" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="15" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="16" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="The Futureheads" titre="News And Tributes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="17" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
@@ -54,6 +60,9 @@
   </Composition>
   <Composition artist="The Streets" titre="The Hardest Way To Make An Easy Living" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="20" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="The Raconteurs" titre="Broken Boy Soldures" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="21" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="The Flaming Lips" titre="At War With The Mystics" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="22" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -123,6 +132,9 @@
   </Composition>
   <Composition artist="Isobel Campbell And Mark Lanegan" titre="Balled Of Broken Seas" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="44" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Modern Times" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="45" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Semifinalists" titre="Semifinalists" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="46" creationDate="24/07/2017 00:51:20" size="50"/>

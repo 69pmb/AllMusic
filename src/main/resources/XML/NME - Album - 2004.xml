@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Franz Ferdinand" titre="Franz Ferdinand" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="The Libertines" titre="The Libertines" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="2" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="The Streets" titre="A Grand Don't Come For A Free" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
@@ -37,10 +43,10 @@
   <Composition artist="Nick Cave And The Bad Seeds" titre="Abbatoir Blues/The Lyre Of Orpheus" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="14" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Dizzee Rascal" titre="Showtime" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Dizzie Rascal" titre="Showtime" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="15" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Beastie Boys" titre="To The 5 Boroughs" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beastie Boys" titre="To Thr 5 Boroughs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="16" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="TV On The Radio" titre="Desperate Youth, Blood Thirsty Babies" type="ALBUM" canBeMerged="true" deleted="false">
@@ -52,7 +58,7 @@
   <Composition artist="The Concretes" titre="The Concretes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="19" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Kasabian" titre="Kasabain" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Kasabain" titre="Kasabain" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="20" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Keane" titre="Hope And Fears" type="ALBUM" canBeMerged="true" deleted="false">
@@ -126,6 +132,9 @@
   </Composition>
   <Composition artist="Wilco" titre="A Ghost Is Born" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="44" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Green Day" titre="American Idiot" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="45" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Sufjan Stevens" titre="Seven Swans" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="46" creationDate="24/07/2017 00:51:20" size="50"/>
