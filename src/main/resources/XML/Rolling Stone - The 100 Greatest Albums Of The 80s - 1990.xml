@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publishYear="1990" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="1" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Prince" titre="Purple Rain" type="ALBUM" canBeMerged="true" deleted="false">
@@ -97,7 +97,7 @@
   <Composition artist="Bruce Springsteen" titre="Tunnel Of Love" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publishYear="1990" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="25" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="Ac/Dc" titre="Back In Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="AC/DC" titre="Back in Black" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publishYear="1990" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="26" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Janet Jackson" titre="Control" type="ALBUM" canBeMerged="true" deleted="false">
@@ -301,7 +301,7 @@
   <Composition artist="Steve Earle" titre="Guitar Town" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publishYear="1990" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="79" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="Nick Cave And The Bad Seeds" titre="Tender Prey" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nick Cave" titre="Tender Pray" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publishYear="1990" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="79" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Suzanne Vega" titre="Suzanne Vega" type="ALBUM" canBeMerged="true" deleted="false">
