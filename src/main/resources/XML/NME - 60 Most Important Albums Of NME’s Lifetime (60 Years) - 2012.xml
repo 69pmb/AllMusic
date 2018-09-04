@@ -25,7 +25,7 @@
   <Composition artist="The Beatles" titre="Rubber Soul" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 60 Most Important Albums Of NME’s Lifetime (60 Years) - 2012" publishYear="2012" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="2012" sorted="false" classement="8" creationDate="04/09/2018 14:02:51" size="60"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 60 Most Important Albums Of NME’s Lifetime (60 Years) - 2012" publishYear="2012" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="2012" sorted="false" classement="9" creationDate="04/09/2018 14:02:51" size="60"/>
   </Composition>
   <Composition artist="The Velvet Underground" titre="The Velvet Underground And Nico" type="ALBUM" canBeMerged="true" deleted="false">
@@ -49,7 +49,7 @@
   <Composition artist="The Who" titre="Live At Leeds" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 60 Most Important Albums Of NME’s Lifetime (60 Years) - 2012" publishYear="2012" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="2012" sorted="false" classement="16" creationDate="04/09/2018 14:02:51" size="60"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 60 Most Important Albums Of NME’s Lifetime (60 Years) - 2012" publishYear="2012" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="2012" sorted="false" classement="17" creationDate="04/09/2018 14:02:51" size="60"/>
   </Composition>
   <Composition artist="Black Sabbath" titre="Master Of Reality" type="ALBUM" canBeMerged="true" deleted="false">
@@ -100,7 +100,7 @@
   <Composition artist="Beastie Boys" titre="Licensed To Ill" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 60 Most Important Albums Of NME’s Lifetime (60 Years) - 2012" publishYear="2012" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="2012" sorted="false" classement="33" creationDate="04/09/2018 14:02:51" size="60"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 60 Most Important Albums Of NME’s Lifetime (60 Years) - 2012" publishYear="2012" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="2012" sorted="false" classement="34" creationDate="04/09/2018 14:02:51" size="60"/>
   </Composition>
   <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
@@ -163,7 +163,7 @@
   <Composition artist="Dizzee Rascal" titre="Boy In Da Corner" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 60 Most Important Albums Of NME’s Lifetime (60 Years) - 2012" publishYear="2012" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="2012" sorted="false" classement="54" creationDate="04/09/2018 14:02:51" size="60"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 60 Most Important Albums Of NME’s Lifetime (60 Years) - 2012" publishYear="2012" categorie="ALL_TIME" rangeDateBegin="1952" rangeDateEnd="2012" sorted="false" classement="55" creationDate="04/09/2018 14:02:51" size="60"/>
   </Composition>
   <Composition artist="Burial" titre="Untrue" type="ALBUM" canBeMerged="true" deleted="false">

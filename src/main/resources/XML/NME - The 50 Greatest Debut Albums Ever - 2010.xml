@@ -46,7 +46,7 @@
   <Composition artist="Brian Eno" titre="Here Come The Warm Jets" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 50 Greatest Debut Albums Ever - 2010" publishYear="2010" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2010" sorted="false" classement="15" creationDate="04/09/2018 15:50:40" size="50"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 50 Greatest Debut Albums Ever - 2010" publishYear="2010" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2010" sorted="false" classement="16" creationDate="04/09/2018 15:50:40" size="50"/>
   </Composition>
   <Composition artist="Ramones" titre="Ramones" type="ALBUM" canBeMerged="true" deleted="false">
@@ -82,7 +82,7 @@
   <Composition artist="Beastie Boys" titre="Licensed To Ill" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 50 Greatest Debut Albums Ever - 2010" publishYear="2010" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2010" sorted="false" classement="27" creationDate="04/09/2018 15:50:40" size="50"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 50 Greatest Debut Albums Ever - 2010" publishYear="2010" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2010" sorted="false" classement="28" creationDate="04/09/2018 15:50:40" size="50"/>
   </Composition>
   <Composition artist="My Bloody Valentine" titre="Isn't Anything" type="ALBUM" canBeMerged="true" deleted="false">
@@ -136,7 +136,7 @@
   <Composition artist="Kanye West" titre="The College Dropout" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 50 Greatest Debut Albums Ever - 2010" publishYear="2010" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2010" sorted="false" classement="45" creationDate="04/09/2018 15:50:40" size="50"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 50 Greatest Debut Albums Ever - 2010" publishYear="2010" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2010" sorted="false" classement="46" creationDate="04/09/2018 15:50:40" size="50"/>
   </Composition>
   <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">

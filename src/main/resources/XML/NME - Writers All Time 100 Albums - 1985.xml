@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers All Time 100 Albums - 1985" publishYear="1985" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1985" sorted="true" classement="1" creationDate="04/09/2018 15:35:34" size="100"/>
   </Composition>
   <Composition artist="Van Morrison" titre="Astral Weeks" type="ALBUM" canBeMerged="true" deleted="false">
@@ -40,7 +40,7 @@
   <Composition artist="The Sex Pistols" titre="Never Mind The Bollocks..." type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time 100 Albums - 1985" publishYear="1985" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1985" sorted="true" classement="13" creationDate="04/09/2018 15:35:34" size="100"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers All Time 100 Albums - 1985" publishYear="1985" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1985" sorted="true" classement="14" creationDate="04/09/2018 15:35:34" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="Low" type="ALBUM" canBeMerged="true" deleted="false">
@@ -52,13 +52,13 @@
   <Composition artist="James Brown" titre="Solid Gold" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time 100 Albums - 1985" publishYear="1985" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1985" sorted="true" classement="17" creationDate="04/09/2018 15:35:34" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers All Time 100 Albums - 1985" publishYear="1985" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1985" sorted="true" classement="18" creationDate="04/09/2018 15:35:34" size="100"/>
   </Composition>
   <Composition artist="James Brown" titre="Live And Lowdown At The Apollo" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time 100 Albums - 1985" publishYear="1985" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1985" sorted="true" classement="19" creationDate="04/09/2018 15:35:34" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers All Time 100 Albums - 1985" publishYear="1985" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1985" sorted="true" classement="20" creationDate="04/09/2018 15:35:34" size="100"/>
   </Composition>
   <Composition artist="Miles Davis" titre="Kind Of Blue" type="ALBUM" canBeMerged="true" deleted="false">
@@ -115,7 +115,7 @@
   <Composition artist="Kraftwerk" titre="Trans-Europe Express" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time 100 Albums - 1985" publishYear="1985" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1985" sorted="true" classement="38" creationDate="04/09/2018 15:35:34" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers All Time 100 Albums - 1985" publishYear="1985" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1985" sorted="true" classement="39" creationDate="04/09/2018 15:35:34" size="100"/>
   </Composition>
   <Composition artist="Elvis Costello And The Attractions" titre="This Years Model" type="ALBUM" canBeMerged="true" deleted="false">

@@ -13,7 +13,7 @@
   <Composition artist="John Coltrane" titre="A Love Supreme" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 101 Albums To Hear Before You Die - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="false" classement="4" creationDate="04/09/2018 15:19:17" size="101"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 101 Albums To Hear Before You Die - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="false" classement="5" creationDate="04/09/2018 15:19:17" size="101"/>
   </Composition>
   <Composition artist="Lou Reed" titre="Transformer" type="ALBUM" canBeMerged="true" deleted="false">
@@ -58,7 +58,7 @@
   <Composition artist="Minutemen" titre="Buzz Or Howl Under The Influence Of Heat" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 101 Albums To Hear Before You Die - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="false" classement="19" creationDate="04/09/2018 15:19:17" size="101"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Houses Of The Holy" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Houses Of The Holy" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 101 Albums To Hear Before You Die - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="false" classement="20" creationDate="04/09/2018 15:19:17" size="101"/>
   </Composition>
   <Composition artist="Red House Painters" titre="Rollercoaster" type="ALBUM" canBeMerged="true" deleted="false">
@@ -232,7 +232,7 @@
   <Composition artist="Durutti Column" titre="LC" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 101 Albums To Hear Before You Die - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="false" classement="77" creationDate="04/09/2018 15:19:17" size="101"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 101 Albums To Hear Before You Die - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="false" classement="78" creationDate="04/09/2018 15:19:17" size="101"/>
   </Composition>
   <Composition artist="X" titre="X-Aspirations" type="ALBUM" canBeMerged="true" deleted="false">
