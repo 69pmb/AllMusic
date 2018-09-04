@@ -52,7 +52,7 @@
   <Composition artist="Television" titre="Marquee Moon" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="17" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="18" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
   <Composition artist="REM" titre="Document" type="ALBUM" canBeMerged="true" deleted="false">
@@ -88,7 +88,7 @@
   <Composition artist="Bruce Springsteen" titre="Born To Run" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="29" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
-  <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="30" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
   <Composition artist="The Smiths" titre="Strangeways, Here We Come" type="ALBUM" canBeMerged="true" deleted="false">
@@ -103,10 +103,10 @@
   <Composition artist="The The" titre="Infected" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="34" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="35" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="36" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
   <Composition artist="The Smiths" titre="Meat Is Murder" type="ALBUM" canBeMerged="true" deleted="false">
@@ -154,7 +154,7 @@
   <Composition artist="The Doors" titre="L.A, Woman" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="51" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
-  <Composition artist="REM" titre="Reckoning" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="REM" titre="Reckoning" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="52" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
   <Composition artist="Elvis Costello" titre="This Year's Model" type="ALBUM" canBeMerged="true" deleted="false">
@@ -199,7 +199,7 @@
   <Composition artist="Van Morrison" titre="Moondance" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="66" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O'TheTtimes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O'TheTtimes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All-Time Top 100 Albums - 1988" publishYear="1988" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1988" sorted="true" classement="67" creationDate="04/09/2018 15:02:50" size="100"/>
   </Composition>
   <Composition artist="Talking Heads" titre="Fear Of Music" type="ALBUM" canBeMerged="true" deleted="false">

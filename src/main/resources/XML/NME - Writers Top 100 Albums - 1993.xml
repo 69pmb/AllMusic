@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Albums - 1993" publishYear="1993" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1993" sorted="true" classement="1" creationDate="04/09/2018 15:40:27" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
@@ -10,7 +10,7 @@
   <Composition artist="The Sex Pistols" titre="Never Mind The Bollocks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers Top 100 Albums - 1993" publishYear="1993" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1993" sorted="true" classement="3" creationDate="04/09/2018 15:40:27" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Albums - 1993" publishYear="1993" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1993" sorted="true" classement="4" creationDate="04/09/2018 15:40:27" size="100"/>
   </Composition>
   <Composition artist="The Stone Roses" titre="The Stone Roses" type="ALBUM" canBeMerged="true" deleted="false">
@@ -46,13 +46,13 @@
   <Composition artist="Van Morrison" titre="Astral Weeks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers Top 100 Albums - 1993" publishYear="1993" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1993" sorted="true" classement="15" creationDate="04/09/2018 15:40:27" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'O'The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign 'O'The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Albums - 1993" publishYear="1993" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1993" sorted="true" classement="16" creationDate="04/09/2018 15:40:27" size="100"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Blonde On Blonde" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers Top 100 Albums - 1993" publishYear="1993" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1993" sorted="true" classement="17" creationDate="04/09/2018 15:40:27" size="100"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Albums - 1993" publishYear="1993" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1993" sorted="true" classement="18" creationDate="04/09/2018 15:40:27" size="100"/>
   </Composition>
   <Composition artist="De La Soul" titre="Three Feet High And Rising" type="ALBUM" canBeMerged="true" deleted="false">
@@ -91,7 +91,7 @@
   <Composition artist="James Brown" titre="Live At The Apollo" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers Top 100 Albums - 1993" publishYear="1993" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1993" sorted="true" classement="30" creationDate="04/09/2018 15:40:27" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Albums - 1993" publishYear="1993" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1993" sorted="true" classement="31" creationDate="04/09/2018 15:40:27" size="100"/>
   </Composition>
   <Composition artist="Stevie Wonder" titre="Innervisions" type="ALBUM" canBeMerged="true" deleted="false">

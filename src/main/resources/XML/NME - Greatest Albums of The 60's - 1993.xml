@@ -4,7 +4,7 @@
   <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Greatest Albums of The 60's - 1993" publishYear="1993" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="1" creationDate="04/09/2018 12:45:28" size="50"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Greatest Albums of The 60's - 1993" publishYear="1993" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="2" creationDate="04/09/2018 12:45:28" size="50"/>
   </Composition>
   <Composition artist="The Velvet Underground" titre="The Velvet Underground And Nico" type="ALBUM" canBeMerged="true" deleted="false">
@@ -19,7 +19,7 @@
   <Composition artist="Van Morrison" titre="Astral Weeks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Greatest Albums of The 60's - 1993" publishYear="1993" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="6" creationDate="04/09/2018 12:45:28" size="50"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Greatest Albums of The 60's - 1993" publishYear="1993" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="7" creationDate="04/09/2018 12:45:28" size="50"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Let It Bleed" type="ALBUM" canBeMerged="true" deleted="false">
@@ -130,7 +130,7 @@
   <Composition artist="The Walker Brothers" titre="Portrait" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Greatest Albums of The 60's - 1993" publishYear="1993" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="43" creationDate="04/09/2018 12:45:28" size="50"/>
   </Composition>
-  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Greatest Albums of The 60's - 1993" publishYear="1993" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="44" creationDate="04/09/2018 12:45:28" size="50"/>
   </Composition>
   <Composition artist="Nancy Sinatra And Lee Hazelwood" titre="Nancy And Lee" type="ALBUM" canBeMerged="true" deleted="false">

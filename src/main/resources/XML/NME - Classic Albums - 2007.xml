@@ -49,7 +49,7 @@
   <Composition artist="The Cure" titre="The Head On The Door" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Classic Albums - 2007" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="16" creationDate="02/07/2017 07:08:56" size="40"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Classic Albums - 2007" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="17" creationDate="02/07/2017 07:08:56" size="40"/>
   </Composition>
   <Composition artist="Slayer" titre="Reirn In Blood" type="ALBUM" canBeMerged="true" deleted="false">
@@ -73,7 +73,7 @@
   <Composition artist="The Prodigy" titre="Experience" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Classic Albums - 2007" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="24" creationDate="02/07/2017 07:08:56" size="40"/>
   </Composition>
-  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Classic Albums - 2007" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="25" creationDate="02/07/2017 07:08:56" size="40"/>
   </Composition>
   <Composition artist="The Clash" titre="Sandinista!" type="ALBUM" canBeMerged="true" deleted="false">

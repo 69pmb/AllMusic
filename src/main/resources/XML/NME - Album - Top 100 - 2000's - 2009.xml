@@ -19,7 +19,7 @@
   <Composition artist="PJ Harvey" titre="Stories From The City, Stories From The Sea" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - Top 100 - 2000's - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="6" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funereal" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funereal" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Album - Top 100 - 2000's - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="7" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Interpol" titre="Turn On The Bright Lights" type="ALBUM" canBeMerged="true" deleted="false">
@@ -79,7 +79,7 @@
   <Composition artist="Dizzee Rascal" titre="Boy In Da Corner" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - Top 100 - 2000's - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="26" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Album - Top 100 - 2000's - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="27" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Johnny Cash" titre="The Man Comes Around" type="ALBUM" canBeMerged="true" deleted="false">
