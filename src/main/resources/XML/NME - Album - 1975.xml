@@ -37,7 +37,7 @@
   <Composition artist="Elvis Presley" titre="The Sun Collection" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 1975" publishYear="1975" categorie="YEAR" rangeDateBegin="1975" rangeDateEnd="1975" sorted="true" classement="12" creationDate="04/09/2018 10:52:11" size="20"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Album - 1975" publishYear="1975" categorie="YEAR" rangeDateBegin="1975" rangeDateEnd="1975" sorted="true" classement="13" creationDate="04/09/2018 10:52:11" size="20"/>
   </Composition>
   <Composition artist="John Fogerty" titre="John Fogerty" type="ALBUM" canBeMerged="true" deleted="false">

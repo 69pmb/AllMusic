@@ -25,7 +25,7 @@
   <Composition artist="Pet Shop Boys" titre="Introspective" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="8" creationDate="04/09/2018 10:49:39" size="50"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="9" creationDate="04/09/2018 10:49:39" size="50"/>
   </Composition>
   <Composition artist="Pixies" titre="Surfer Rosa" type="ALBUM" canBeMerged="true" deleted="false">

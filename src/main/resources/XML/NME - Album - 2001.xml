@@ -73,7 +73,7 @@
   <Composition artist="Low" titre="Things We Lost In The Fire" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="24" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="25" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Missy Elliott" titre="Miss E ...So Addictive" type="ALBUM" canBeMerged="true" deleted="false">
