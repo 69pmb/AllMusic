@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="The White Stripes" titre="Elephant" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="The Rapture" titre="Echoes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="2" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="The Strokes" titre="Room On Fire" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Elbow" titre="Cast Of Thousands" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="4" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Yeah Yeah Yeahs" titre="Fever To Tell" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="5" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Rufus Wainwright" titre="Want One" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="6" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -15,6 +24,9 @@
   </Composition>
   <Composition artist="Outkast" titre="Spekerboxxx/The Love Below" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="8" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Radiohead" titre="Hail To The Thief" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="9" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="My Morning Jacket" titre="It Still Moves" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="10" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -120,6 +132,9 @@
   </Composition>
   <Composition artist="Basement Jaxx" titre="Kish Kash" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="44" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Cat Power" titre="You Are Free" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="45" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="The Ravonettes" titre="Chain Gang Of Love" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="46" creationDate="24/07/2017 00:51:20" size="50"/>

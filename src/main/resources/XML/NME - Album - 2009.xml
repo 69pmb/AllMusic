@@ -4,6 +4,9 @@
   <Composition artist="The Horrors" titre="Primary Colours" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="The XX" titre="The XX" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="2" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Yeah Yeah Yeahs" titre="It's Blitz!" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
@@ -94,7 +97,7 @@
   <Composition artist="Noah And The Whale" titre="First Days Of Spring" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="32" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Jay Z" titre="The Blueprint 3" type="ALBUM" canBeMerged="false" deleted="false">
+  <Composition artist="Jay-Z" titre="The Blueprint 3" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="33" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Phoenix" titre="Wolfgang Amadeus Phoenix" type="ALBUM" canBeMerged="true" deleted="false">
@@ -123,6 +126,9 @@
   </Composition>
   <Composition artist="Empire Of The Sun" titre="Walking On A Dream" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="42" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Franz Ferdinand" titre="Tonight" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="43" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Oneida" titre="Rated O" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2009" publishYear="2009" categorie="YEAR" rangeDateBegin="2009" rangeDateEnd="2009" sorted="true" classement="44" creationDate="24/07/2017 00:51:20" size="50"/>

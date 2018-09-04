@@ -16,6 +16,9 @@
   <Composition artist="Black Rebel Motor Cycle Club" titre="BRMC" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="5" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="Queens Of The Stoneage" titre="Songs For The Deaf" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="6" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Doves" titre="The Last Broadcast" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="7" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
@@ -30,6 +33,9 @@
   </Composition>
   <Composition artist="The Flaming Lips" titre="Yoshimi Battles The Pink Robots" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="11" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="The Libertines" titre="Up The Bracket" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="12" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="The Polyphonic Spree" titre="The Beginning Stages Of..." type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="13" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -49,7 +55,7 @@
   <Composition artist="The Soundtrack Of Our Lives" titre="Behind The Music" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="18" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="The Hives" titre="Your New Favourite Band" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Hives" titre="Your Favourite New Band" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="19" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Johnny Cash" titre="The Man Comes Around" type="ALBUM" canBeMerged="true" deleted="false">
@@ -61,7 +67,7 @@
   <Composition artist="Ms Dynamite" titre="A Little Deeper" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="22" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Jay Z" titre="The Blueprint 2" type="ALBUM" canBeMerged="false" deleted="false">
+  <Composition artist="Jay-Z" titre="The Blueprint 2" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="23" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="The Von Bondies" titre="Lack Of Communication" type="ALBUM" canBeMerged="true" deleted="false">
@@ -97,7 +103,7 @@
   <Composition artist="Death In Vegas" titre="Scorpio Rising" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="34" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Wilco" titre="Yankee Hotel Foxtrot" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Wilco" titre="Yankiee Hotel Foxtrot" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="35" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Brendan Benson" titre="Lapulco" type="ALBUM" canBeMerged="true" deleted="false">

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="The Strokes" titre="Is This It" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Spiritualized" titre="Let It Come Down" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="The White Stripes" titre="White Blood Cells" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Jay Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Jay-Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="4" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Starsailor" titre="Love Is Here" type="ALBUM" canBeMerged="true" deleted="false">
@@ -40,8 +43,11 @@
   <Composition artist="Air" titre="10,000 Hz Legend" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="14" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Destinys Child" titre="Survivor" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Destiny's Child" titre="Survivor" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="15" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Daft Punk" titre="Discovery" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="16" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Pulp" titre="We Love Life" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="17" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -52,13 +58,13 @@
   <Composition artist="Fugazi" titre="The Argument" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="19" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Nick Cave" titre="No More Shall We Part" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nick Cave And The Bad Seeds" titre="No More Shall We Part" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="20" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Stephen Malkmus" titre="Stephen Malkmus" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="21" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Sparklehorse" titre="Its A Wonderful Life" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sparklehorse" titre="It's A Wonderful Life" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="22" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Travis" titre="The Invisible Band" type="ALBUM" canBeMerged="true" deleted="false">
@@ -67,7 +73,7 @@
   <Composition artist="Low" titre="Things We Lost In The Fire" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="24" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="25" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="Missy Elliott" titre="Miss E ...So Addictive" type="ALBUM" canBeMerged="true" deleted="false">
@@ -136,10 +142,13 @@
   <Composition artist="Sizzla" titre="Rastafari Teach I Everything" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="47" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="Gorillaz" titre="Gorillaz" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="48" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Zoot Woman" titre="Living In A Magazine" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="49" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
-  <Composition artist="Gorkys Zygotic Mynci" titre="How I Long To Feel That Summer In My Heart" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Gorky's Zygotic Mynci" titre="How I Long To Feel That Summer In My Heart" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="50" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
 </ListCompositions>

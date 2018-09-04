@@ -4,6 +4,12 @@
   <Composition artist="Bloc Party" titre="Silent Alarm" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="1" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="2" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Franz Ferdinand" titre="You Could Have It So Much Better With..." type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="3" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
   <Composition artist="Antony And The Johnsons" titre="I Am A Bird Now" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="4" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
@@ -21,6 +27,9 @@
   </Composition>
   <Composition artist="Babyshambles" titre="Down In Albion" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="9" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Gorillaz" titre="Demon Days" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="10" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="The Cribs" titre="The New Fellas" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="11" creationDate="24/07/2017 00:51:20" size="50"/>
@@ -60,6 +69,9 @@
   </Composition>
   <Composition artist="Hard-Fi" titre="Stars Of Cctv" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="23" creationDate="24/07/2017 00:51:20" size="50"/>
+  </Composition>
+  <Composition artist="Oasis" titre="Don't Believe The Truth" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="24" creationDate="24/07/2017 00:51:20" size="50"/>
   </Composition>
   <Composition artist="MIA" titre="MIA" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 2005" publishYear="2005" categorie="YEAR" rangeDateBegin="2005" rangeDateEnd="2005" sorted="true" classement="25" creationDate="24/07/2017 00:51:20" size="50"/>
