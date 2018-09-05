@@ -123,6 +123,8 @@ public class Constant {
 
 	private static final String[] NOT_SEPARATORS = { "(", ")", DOT, ",", "#", "'", "!", "*", "?", "/" };
 
+	private static final String[] FORBIDDEN_CHARACTERS_FILENAME = { "<", ">", ":", "\"", "/", "|"};
+
 	public static final String DEFAULT_TITLE = "AllMusic";
 
 	private final SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
@@ -238,5 +240,9 @@ public class Constant {
 
 	public static String[] getNotSeparators() {
 		return NOT_SEPARATORS;
+	}
+
+	public static String[] getForbiddenCharactersFilename() {
+		return FORBIDDEN_CHARACTERS_FILENAME;
 	}
 }
