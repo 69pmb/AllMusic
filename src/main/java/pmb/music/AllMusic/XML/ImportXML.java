@@ -110,7 +110,7 @@ public final class ImportXML {
 		// compoFusion.stream().sorted(byRecord.thenComparing(byTitre).thenComparing(byArtist)).collect(Collectors.toList());
 		List<Composition> compoFinal = new ArrayList<>();
 		BigDecimal sizeBG = new BigDecimal(compoFusionAlbum.size() + compoFusionSong.size());
-		int modulo = Math.round(sizeBG.divide(BigDecimal.valueOf(5000D)).floatValue());
+		int modulo = Math.round(sizeBG.divide(BigDecimal.valueOf(10000D)).floatValue());
 		LOG.debug(modulo);
 		LOG.debug(sizeBG.intValue());
 		compoFinal = fusion(resultLabel, compoFusionAlbum, compoFinal, 0, modulo, sizeBG);
