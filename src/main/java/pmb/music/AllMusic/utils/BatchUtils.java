@@ -377,7 +377,7 @@ public class BatchUtils {
 			}
 		}
 		result.keySet().stream().sorted().forEach(key -> {
-			if (result.get(key) > 1) {
+			if (result.get(key) > 3) {
 				addLine(text, key + ": " + result.get(key), true);
 			}
 		});
