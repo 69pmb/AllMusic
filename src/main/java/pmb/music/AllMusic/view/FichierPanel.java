@@ -542,6 +542,12 @@ public class FichierPanel extends JPanel {
 			LOG.debug("Aucune modification");
 			return;
 		}
+		// Retire les caractères interdits pour windows
+		if (Arrays.asList(Constant.getForbiddenCharactersFilename()).stream()
+				.anyMatch(s -> newFichier.get(INDEX_FILE_FILE_NAME).contains(s))) {
+			Arrays.asList(Constant.getForbiddenCharactersFilename()).stream().forEach(
+					s -> newFichier.set(INDEX_FILE_FILE_NAME, newFichier.get(INDEX_FILE_FILE_NAME).replaceAll(s, "")));
+		}
 		Fichier modifiedFichier = null;
 		try {
 			// Modification du fichier
