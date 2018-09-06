@@ -7,7 +7,7 @@
   <Composition artist="U2" titre="The Joshua Tree" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign O' The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
   <Composition artist="Robbie Robertson" titre="Robbie Robertson" type="ALBUM" canBeMerged="true" deleted="false">

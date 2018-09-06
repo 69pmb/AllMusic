@@ -28,7 +28,7 @@
   <Composition artist="Various Artists" titre="O Brother, Where Art Thou? Original Soundtrack" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
 </ListCompositions>
