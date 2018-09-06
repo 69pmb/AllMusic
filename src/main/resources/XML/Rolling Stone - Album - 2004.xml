@@ -13,7 +13,7 @@
   <Composition artist="Brian Wilson" titre="Smile" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
   <Composition artist="Wilco" titre="A Ghost Is Born" type="ALBUM" canBeMerged="true" deleted="false">

@@ -4,7 +4,7 @@
   <Composition artist="Rolling Stones" titre="Some Girls" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="6"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="6"/>
   </Composition>
   <Composition artist="Jackson Browne" titre="Running On Empty" type="ALBUM" canBeMerged="true" deleted="false">
