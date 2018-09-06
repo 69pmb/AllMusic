@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="Q" fileName="Q - The Greatest Classic Rock Albums Ever - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="false" classement="1" creationDate="28/08/2018 10:22:07" size="30"/>
   </Composition>
   <Composition artist="Alice Cooper" titre="Killer" type="ALBUM" canBeMerged="true" deleted="false">

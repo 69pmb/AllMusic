@@ -79,7 +79,7 @@
   <Composition artist="The Rolling Stones" titre="Sticky Fingers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publishYear="1996" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1996" sorted="true" classement="23" creationDate="23/08/2018 14:09:16" size="100"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin(4)" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="Mojo" fileName="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publishYear="1996" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1996" sorted="true" classement="24" creationDate="23/08/2018 14:09:16" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="Hunky Dory" type="ALBUM" canBeMerged="true" deleted="false">

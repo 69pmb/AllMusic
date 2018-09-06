@@ -25,7 +25,7 @@
   <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Best British Albums Ever - 2004" publishYear="2004" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="8" creationDate="28/08/2018 12:01:34" size="50"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin III" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin III" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="Q" fileName="Q - 50 Best British Albums Ever - 2004" publishYear="2004" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="9" creationDate="28/08/2018 12:01:34" size="50"/>
   </Composition>
   <Composition artist="Massive Attack" titre="Blue Lines" type="ALBUM" canBeMerged="true" deleted="false">

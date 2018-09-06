@@ -34,7 +34,7 @@
   <Composition artist="The Space Lady" titre="The Space Lady's Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 101 Albums To Hear Before You Die - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="false" classement="11" creationDate="04/09/2018 15:19:17" size="101"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="NME" fileName="NME - 101 Albums To Hear Before You Die - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="false" classement="12" creationDate="04/09/2018 15:19:17" size="101"/>
   </Composition>
   <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
