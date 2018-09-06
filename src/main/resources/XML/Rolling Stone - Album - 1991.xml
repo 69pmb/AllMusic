@@ -2,27 +2,18 @@
 
 <ListCompositions>
   <Composition artist="R.E.M." titre="Out Of Time" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="1" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
   <Composition artist="U2" titre="Achtung Baby" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="2" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
   <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="3" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
-  <Composition artist="Guns N Roses" titre="Use Your Illusion" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="4" creationDate="08/08/2017 23:13:02" size="0"/>
+  <Composition artist="Guns N' Roses" titre="Use Your Illusion I" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
   <Composition artist="American Music Club" titre="Everclear" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="5" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="Metallica" titre="Metallica" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="6" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="Van Halen" titre="For Unlawful Carnal Knowledge" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="7" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="Queensryche" titre="Empire" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="8" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
 </ListCompositions>

@@ -2,24 +2,18 @@
 
 <ListCompositions>
   <Composition artist="R.E.M." titre="Murmur" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="1" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="The Police" titre="Synchronicity" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="2" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="U2" titre="War" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="3" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="X" titre="More Fun In The New World" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="4" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
   <Composition artist="Michael Jackson" titre="Thriller" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="5" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
-  <Composition artist="Def Leppard" titre="Pyromania" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="6" creationDate="08/08/2017 23:13:02" size="0"/>
+  <Composition artist="The Police" titre="Synchronicity" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Let's Dance" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="7" creationDate="08/08/2017 23:13:02" size="0"/>
+  <Composition artist="U2" titre="War" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
+  </Composition>
+  <Composition artist="X" titre="More Fun In The New World" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
 </ListCompositions>

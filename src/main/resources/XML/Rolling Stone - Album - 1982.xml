@@ -1,34 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Bruce Springsteen" titre="Nebraska" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="6"/>
+  </Composition>
+  <Composition artist="R. And L. Thompson" titre="Shoot Out The Lights" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="6"/>
+  </Composition>
   <Composition artist="Elvis Costello" titre="Imperial Bedroom" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="1" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="6"/>
   </Composition>
   <Composition artist="Prince" titre="1999" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="2" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="6"/>
   </Composition>
   <Composition artist="Lou Reed" titre="The Blue Mask" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="3" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="6"/>
   </Composition>
   <Composition artist="Marshall Crenshaw" titre="Marshall Crenshaw" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="4" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="Bruce Springsteen" titre="Nebraska" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="5" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="Who" titre="It's Hard" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="6" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="Asia" titre="Asia" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="7" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="Fleetwood Mac" titre="Mirage" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="8" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="Paul Mccartney" titre="Tug Of War" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="9" creationDate="08/08/2017 23:13:02" size="0"/>
-  </Composition>
-  <Composition artist="Clash" titre="Combat Rock" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="10" creationDate="08/08/2017 23:13:02" size="0"/>
+    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="6" creationDate="05/01/2018 13:17:17" size="6"/>
   </Composition>
 </ListCompositions>
