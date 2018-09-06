@@ -581,8 +581,11 @@ public class ImportFile {
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
 			Integer countLines = countLines(file.getAbsolutePath(), false);
-			if (countLines < 4) {
-				LOG.error("File " + file.getName() + " trop trop petit");
+			if (countLines < 6) {
+				LOG.warn("File " + file.getName() + " trop trop petit");
+				while ((line = br.readLine()) != null) {
+					lines.add(line);
+				}
 				return lines;
 			}
 			int startingRandom = 3;

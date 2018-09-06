@@ -494,7 +494,7 @@ public class ImportPanel extends JPanel {
 	 */
 	private void insertBottomPanel(final ArtistPanel artist) {
 		JPanel bottom = new JPanel();
-		
+
 		// Import
 		JButton importFile = PanelUtils.createJButton("Importer le fichier", 200, Constant.ICON_UPLOAD);
 		importFile.setToolTipText("Importe au format XML le fichier chargé précédemment avec les critères renseignés.");
@@ -799,8 +799,18 @@ public class ImportPanel extends JPanel {
 		} else {
 			LOG.debug("Guessing params");
 			fichier = ImportFile.convertOneFile(file);
-			fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
-			fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
+			if (randomLineAndLastLines.size() == 6) {
+				fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
+				fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
+				separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(3)));
+				sorted.setSelected(fichier.getSorted());
+			} else if (!randomLineAndLastLines.isEmpty()) {
+				label.add("Fichier trop petit, paramètres devinés sur la 1ère ligne du fichier.");
+				fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(0)));
+				fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
+				separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(0)));
+				sorted.setSelected(fichier.getSorted());
+			}
 			absolutePathFileXml = Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION;
 			determineType = ImportFile.determineType(file.getName());
 			boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
@@ -818,21 +828,39 @@ public class ImportPanel extends JPanel {
 			type.setSelectedItem(determineType);
 			rangeB.setText(String.valueOf(fichier.getRangeDateBegin()));
 			rangeE.setText(String.valueOf(fichier.getRangeDateEnd()));
-			sorted.setSelected(fichier.getSorted());
 			size.setText(String.valueOf(fichier.getSize()));
-			separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(3)));
 			label.add("Paramètres devinés");
 		}
 		if (FileUtils.fileExists(absolutePathFileXml)) {
 			label.add(name.getText() + " a déjà été importé");
 			miseEnFormeResultLabel(label);
 		}
-		firstL1.setText(randomLineAndLastLines.get(0));
-		firstL2.setText(randomLineAndLastLines.get(1));
-		firstL3.setText(randomLineAndLastLines.get(2));
-		line.setText(randomLineAndLastLines.get(3));
-		lastL1.setText(randomLineAndLastLines.get(4));
-		lastL2.setText(randomLineAndLastLines.get(5));
+		for (int i = 0; i < 7; i++) {
+			if (randomLineAndLastLines.size() > i) {
+				switch (i) {
+				case 0:
+					firstL1.setText(randomLineAndLastLines.get(0));
+					break;
+				case 1:
+					firstL2.setText(randomLineAndLastLines.get(1));
+					break;
+				case 2:
+					firstL3.setText(randomLineAndLastLines.get(2));
+					break;
+				case 3:
+					line.setText(randomLineAndLastLines.get(3));
+					break;
+				case 4:
+					lastL1.setText(randomLineAndLastLines.get(4));
+					break;
+				case 5:
+					lastL2.setText(randomLineAndLastLines.get(5));
+					break;
+				default:
+					break;
+				}
+			}
+		}
 		LOG.debug("End loadFile");
 	}
 
