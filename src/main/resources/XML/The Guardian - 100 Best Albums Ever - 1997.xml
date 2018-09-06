@@ -178,7 +178,7 @@
   <Composition artist="The Beastie Boys" titre="Licence To III" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 100 Best Albums Ever - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="59" creationDate="21/07/2017 00:26:02" size="100"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin II" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin II" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="The Guardian" fileName="The Guardian - 100 Best Albums Ever - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="60" creationDate="21/07/2017 00:26:02" size="100"/>
   </Composition>
   <Composition artist="Prefab Sprout" titre="Steve McQueen" type="ALBUM" canBeMerged="true" deleted="false">

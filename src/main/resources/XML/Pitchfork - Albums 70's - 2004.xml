@@ -79,7 +79,7 @@
   <Composition artist="Stevie Wonder" titre="Innervisions" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Albums 70's - 2004" publishYear="2004" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="26" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin III" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin III" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Albums 70's - 2004" publishYear="2004" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="27" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Let It Be" type="ALBUM" canBeMerged="true" deleted="false">

@@ -133,7 +133,7 @@
   <Composition artist="Radiohead" titre="The Bends" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="44" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="45" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Streets" titre="Original Pirate Material" type="ALBUM" canBeMerged="true" deleted="false">

@@ -193,7 +193,7 @@
   <Composition artist="Miles Davis" titre="Bitches Brew" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 70 Best Albums of the 1970s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="7" creationDate="31/08/2018 09:53:22" size="70"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="Paste" fileName="Paste - 70 Best Albums of the 1970s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="6" creationDate="31/08/2018 09:53:22" size="70"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Born To Run" type="ALBUM" canBeMerged="true" deleted="false">
