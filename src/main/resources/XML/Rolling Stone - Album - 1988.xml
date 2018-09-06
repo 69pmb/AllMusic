@@ -7,7 +7,7 @@
   <Composition artist="Tracy Chapman" titre="Tracy Chapman" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
   <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">

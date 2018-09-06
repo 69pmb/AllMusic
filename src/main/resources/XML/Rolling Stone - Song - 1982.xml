@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Grand Master Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Grand Master Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="Sexual Healing" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
-  <Composition artist="Human League" titre="Don't You Want Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Human League" titre="Don't You Want Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
   <Composition artist="New Order" titre="Temptation" type="SONG" canBeMerged="true" deleted="false">
