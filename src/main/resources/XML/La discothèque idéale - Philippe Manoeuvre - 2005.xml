@@ -55,7 +55,7 @@
   <Composition artist="King Crimson" titre="In the Court of the Crimson King" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="18" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin II" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin II" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="Divers" fileName="La discothèque idéale - Philippe Manoeuvre - 2005" publishYear="2005" categorie="ALL_TIME" rangeDateBegin="1950" rangeDateEnd="2005" sorted="true" classement="19" creationDate="23/07/2018 13:56:05" size="102"/>
   </Composition>
   <Composition artist="Frank Zappa" titre="Hot Rats" type="ALBUM" canBeMerged="true" deleted="false">

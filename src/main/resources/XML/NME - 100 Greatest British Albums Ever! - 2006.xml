@@ -13,7 +13,7 @@
   <Composition artist="Sex Pistols" titre="Never Mind The Bollocks..." type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="4" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
-  <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not." type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="5" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
   <Composition artist="Blur" titre="Modern Life Is Rubbish" type="ALBUM" canBeMerged="true" deleted="false">
@@ -85,7 +85,7 @@
   <Composition artist="Nick Drake" titre="Bryter Later" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="28" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin II" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin II" type="ALBUM" canBeMerged="false" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="29" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
   <Composition artist="Suede" titre="Suede" type="ALBUM" canBeMerged="true" deleted="false">
