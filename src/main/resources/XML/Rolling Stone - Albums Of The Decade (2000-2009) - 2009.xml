@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="Radiohead" titre="Kid A" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="The Strokes" titre="Is This It" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
   <Composition artist="Wilco" titre="Yankee Hotel Foxtrot" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="3" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Jay Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Jay-Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="4" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="The White Stripes" titre="Elephant" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="6" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Eminem" titre="The Marshal Mathers LP" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="7" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="Bob Dylan" titre="Modern Times" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="8" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="M.I.A." titre="Kala" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="9" creationDate="19/07/2017 07:11:54" size="100"/>
@@ -18,6 +33,9 @@
   </Composition>
   <Composition artist="Bob Dylan" titre="Love And Theft" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="11" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="LCD Soundsystem" titre="Sound Of Silver" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="12" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="U2" titre="All That You Can't Leave Behind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="13" creationDate="19/07/2017 07:11:54" size="100"/>
@@ -34,6 +52,12 @@
   <Composition artist="Beck" titre="Sea Change" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="17" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
+  <Composition artist="MGMT" titre="Oracular Spectacular" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="18" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="19" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
   <Composition artist="The White Stripes" titre="White Blood Cells" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="20" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
@@ -49,7 +73,7 @@
   <Composition artist="Bruce Springsteen" titre="Magic" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="24" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="25" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Cat Power" titre="The Greatest" type="ALBUM" canBeMerged="true" deleted="false">
@@ -57,6 +81,9 @@
   </Composition>
   <Composition artist="The Flaming Lips" titre="Yoshimi Battles The Pink Robots" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="27" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="Yeah Yeah Yeahs" titre="Fever To Tell" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="28" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Sigur Ros" titre="Agaetis Byrjun" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="29" creationDate="19/07/2017 07:11:54" size="100"/>
@@ -70,10 +97,13 @@
   <Composition artist="Lil Wayne" titre="Tha Carter III" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="32" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
+  <Composition artist="Daft Punk" titre="Discovery" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="33" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
   <Composition artist="Outkast" titre="Speakerboxxx/The Love Below" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="34" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="PJ Harvey" titre="Stories From the City, Stories From the Sea" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="PJ Harvey" titre="Stories From The City, Stories From The Sea" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="35" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="U2" titre="No Line On The Horizon" type="ALBUM" canBeMerged="true" deleted="false">
@@ -91,8 +121,14 @@
   <Composition artist="Kanye West" titre="Late Registration" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="40" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
+  <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="41" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
   <Composition artist="Elliott Smith" titre="Figure 8" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="42" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="The Killers" titre="Hot Fuss" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="43" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="System Of A Down" titre="Toxicity" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="44" creationDate="19/07/2017 07:11:54" size="100"/>
@@ -102,6 +138,9 @@
   </Composition>
   <Composition artist="Justin Timberlake" titre="Futuresex/Lovesounds" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="46" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="Fleet Foxes" titre="Fleet Foxes" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="47" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="TV On The Radio" titre="Dear Science" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="48" creationDate="19/07/2017 07:11:54" size="100"/>
@@ -118,7 +157,7 @@
   <Composition artist="M.I.A." titre="Arular" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="52" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Kings of Leon" titre="Only By the Night" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Kings Of Leon" titre="Only By The Night" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="53" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Norah Jones" titre="Come Away With Me" type="ALBUM" canBeMerged="true" deleted="false">
@@ -127,13 +166,16 @@
   <Composition artist="Robert Plant And Alison Krauss" titre="Raising Sand" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="55" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
+  <Composition artist="Vampire Weekend" titre="Vampire Weekend" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="56" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
   <Composition artist="Death Cab For Cutie" titre="Transatlanticism" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="57" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Danger Mouse" titre="The Grey Album" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="58" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Interpol" titre="Turn on the Bright Lights" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Interpol" titre="Turn On The Bright Lights" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="59" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Phoenix" titre="Wolfgang Amadeus Phoenix" type="ALBUM" canBeMerged="true" deleted="false">
@@ -148,7 +190,7 @@
   <Composition artist="Kanye West" titre="808s And Heartbreak" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="63" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Gillian Welch" titre="Time (The Reinventor)" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Gillian Welch" titre="Time The Revelator" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="64" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Manu Chao" titre="Proxima Estacion Esperanza" type="ALBUM" canBeMerged="true" deleted="false">
@@ -223,6 +265,9 @@
   <Composition artist="Brian Wilson" titre="Smile" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="88" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
+  <Composition artist="Radiohead" titre="Hail To The Thief" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="89" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
   <Composition artist="Amadou And Miriam" titre="Dimanche A Bamako" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="90" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
@@ -234,6 +279,9 @@
   </Composition>
   <Composition artist="Johnny Cash" titre="Unearthed" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="93" creationDate="19/07/2017 07:11:54" size="100"/>
+  </Composition>
+  <Composition artist="The Libertines" titre="Up The Bracket" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="94" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Alicia Keys" titre="Songs In A Minor" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="95" creationDate="19/07/2017 07:11:54" size="100"/>

@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <Composition artist="The Beatles" titre="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="1" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
+  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="2" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="3" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
   <Composition artist="Bob Dylan" titre="Highway 61 Revisited" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="4" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="Rubber Soul" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="5" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="6" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Exile on Main Street" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Exile On Main Street" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="7" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="8" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Blonde on Blonde" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Blonde On Blonde" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="9" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="The Beatles" type="ALBUM" canBeMerged="true" deleted="false">
@@ -31,13 +40,22 @@
   <Composition artist="Miles Davis" titre="Kind Of Blue" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="12" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Jimi Hendrix" titre="Are You Experienced?" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Velvet Underground" titre="Velvet Underground And Nico" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="13" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
+  <Composition artist="The Beatles" titre="Abbey Road" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="14" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
+  <Composition artist="The Jimi Hendrix Experience" titre="Are You Experienced?" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="15" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Blood on the Tracks" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Blood On The Tracks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="16" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Born to Run" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="17" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
+  <Composition artist="Bruce Springsteen" titre="Born To Run" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="18" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Van Morrison" titre="Astral Weeks" type="ALBUM" canBeMerged="true" deleted="false">
@@ -58,7 +76,7 @@
   <Composition artist="Stevie Wonder" titre="Innervisions" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="23" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="James Brown" titre="Live at the Apollo" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="James Brown" titre="Live At The Apollo (1963)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="24" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Fleetwood Mac" titre="Rumours" type="ALBUM" canBeMerged="true" deleted="false">
@@ -67,7 +85,7 @@
   <Composition artist="U2" titre="The Joshua Tree" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="26" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Robert Johnson" titre="King of the Delta Blues Singers: Vol. 1" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Robert Johnson" titre="King Of The Delta Blues Singers: Vol. 1" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="27" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Who" titre="Who's Next" type="ALBUM" canBeMerged="true" deleted="false">
@@ -91,7 +109,7 @@
   <Composition artist="The Band" titre="Music From Big Pink" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="34" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Ziggy Stardust" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="The Rise And Fall Of Ziggy Stardust And The Spiders From Mars" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="35" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Carole King" titre="Tapestry" type="ALBUM" canBeMerged="true" deleted="false">
@@ -106,28 +124,31 @@
   <Composition artist="The Beatles" titre="Please Please Me" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="39" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="40" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Sex Pistols" titre="Never Mind The Bollocks, Here's The Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="41" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Pink Floyd" titre="The Dark Side of the Moon" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Doors" titre="The Doors" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="42" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
+  <Composition artist="Pink Floyd" titre="The Dark Side Of The Moon" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="43" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="44" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Band" titre="The Band" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="45" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Marley" titre="Legend" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Marley And The Wailers" titre="Legend" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="46" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="John Coltrane" titre="A Love Supreme" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="47" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Public Enemy" titre="It Takes a Nation of Millions to Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="48" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Allman Brothers Band" titre="At Fillmore East" type="ALBUM" canBeMerged="true" deleted="false">
@@ -136,40 +157,40 @@
   <Composition artist="Little Richard" titre="Here's Little Richard" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="50" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Simon and Garfunkel" titre="Bridge Over Troubled Waters" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Simon And Garfunkel" titre="Bridge Over Troubled Waters" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="51" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Al Green" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="52" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Ray Charles" titre="The Birth of Soul: The Complete Atlantic Rhythm and Blues Recordings 1952, 1959" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Ray Charles" titre="The Birth Of Soul: The Complete Atlantic Rhythm And Blues Recordings 1952, 1959" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="53" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Jimi Hendrix" titre="Electric Ladyland" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Jimi Hendrix Experience" titre="Electric Ladyland" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="54" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="Elvis Presley" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="55" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Stevie Wonder" titre="Songs in the Key of Life" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Stevie Wonder" titre="Songs In The Key Of Life" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="56" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Beggars Banquet" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="57" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Captain Beefheart" titre="Trout Mask Replica" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Captain Beefheart And His Magic Band" titre="Trout Mask Replica" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="58" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Credence Clearwater Revival" titre="Chronicles Vol. 1" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="59" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Meet the Beatles" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Meet The Beatles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="59" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Sly and the Family Stone" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sly And The Family Stone" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="60" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Guns n' Roses" titre="Appetite for Destruction" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="61" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="U2" titre="Achtung Baby" type="ALBUM" canBeMerged="true" deleted="false">
@@ -190,7 +211,7 @@
   <Composition artist="Billy Joel" titre="The Stranger" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="67" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Off the Wall" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Off The Wall" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="68" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Curtis Mayfield" titre="Superfly" type="ALBUM" canBeMerged="true" deleted="false">
@@ -199,13 +220,13 @@
   <Composition artist="Led Zeppelin" titre="Physical Graffiti" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="70" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Neil Young" titre="After the Gold Rush" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Neil Young" titre="After The Gold Rush" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="71" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Prince" titre="Purple Rain" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="72" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="AC/DC" titre="Back in Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="AC/DC" titre="Back In Black" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="73" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Otis Redding" titre="Otis Blue" type="ALBUM" canBeMerged="true" deleted="false">
@@ -229,16 +250,16 @@
   <Composition artist="James Brown" titre="Star Time" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="79" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Zombies" titre="Odessey And Oracle" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Zombies" titre="Odessey And Oracle" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="80" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Paul Simon" titre="Graceland" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="81" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Jimi Hendrix" titre="Axis: Bold as Love" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Jimi Hendrix Experience" titre="Axis: Bold As Love" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="82" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Aretha Franklin" titre="I Never Loved a Man the Way I Love You" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Aretha Franklin" titre="I Never Loved A Man The Way I Love You" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="83" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Aretha Franklin" titre="Lady Soul" type="ALBUM" canBeMerged="true" deleted="false">
@@ -256,7 +277,7 @@
   <Composition artist="Johnny Cash" titre="At Folsom Prison" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="88" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Dusty Springfield" titre="Dusty in Memphis" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Dusty Springfield" titre="Dusty In Memphis" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="89" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Stevie Wonder" titre="Talking Book" type="ALBUM" canBeMerged="true" deleted="false">
@@ -268,7 +289,7 @@
   <Composition artist="Buddy Holly" titre="20 Golden Greats" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="92" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign 'o' the Times" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Prince" titre="Sign 'o' The Times" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="93" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Miles Davis" titre="Bitches Brew" type="ALBUM" canBeMerged="true" deleted="false">
@@ -277,19 +298,19 @@
   <Composition artist="Creedence Clearwater Revival" titre="Green River" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="95" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Who" titre="Tommy" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="Tommy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="96" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="The Freewheelin' Bob Dylan" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Bob Dylan" titre="The Freewheelin' Bob Dylan" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="97" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Elvis Costello" titre="This Year's Model" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="98" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Sly and the Family Stone" titre="There's a Riot Goin' On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sly And The Family Stone" titre="There's A Riot Goin' On" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="99" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Frank Sinatra" titre="In the Wee Small Hours" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Frank Sinatra" titre="In The Wee Small Hours" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="100" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Cream" titre="Fresh Cream" type="ALBUM" canBeMerged="true" deleted="false">
@@ -301,13 +322,13 @@
   <Composition artist="James Taylor" titre="Sweet Baby James" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="103" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Ray Charles" titre="Modern Sounds in Country and Western Music" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Ray Charles" titre="Modern Sounds In Country And Western Music" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="104" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Ramones" titre="Rocket to Russia" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Ramones" titre="Rocket To Russia" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="105" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Sam Cooke" titre="Portrait of a Legend 1951, 1964" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sam Cooke" titre="Portrait Of A Legend 1951, 1964" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="106" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="David Bowie" titre="Hunky Dory" type="ALBUM" canBeMerged="true" deleted="false">
@@ -322,16 +343,16 @@
   <Composition artist="Radiohead" titre="The Bends" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="110" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Joni Mitchell" titre="Court and Spark" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Joni Mitchell" titre="Court And Spark" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="111" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Cream" titre="Disraeli Gears" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="112" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="The Who" titre="The Who Sell Out" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="113" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Out of Our Heads" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Out Of Our Heads" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="114" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Derek And The Dominos" titre="Layla And Other Assorted Love Songs" type="ALBUM" canBeMerged="true" deleted="false">
@@ -340,10 +361,10 @@
   <Composition artist="Etta James" titre="At Last" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="116" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Byrds" titre="Sweetheart of the Rodeo" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Byrds" titre="Sweetheart Of The Rodeo" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="117" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Sly and the Family Stone" titre="Stand!" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sly And The Family Stone" titre="Stand!" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="118" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Kane West" titre="Late Registration" type="ALBUM" canBeMerged="true" deleted="false">
@@ -361,7 +382,7 @@
   <Composition artist="Janis Joplin" titre="Pearl" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="122" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Marley" titre="Catch A Fire" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Marley And The Wailers" titre="Catch A Fire" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="123" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Byrds" titre="Younger Than Yesterday" type="ALBUM" canBeMerged="true" deleted="false">
@@ -370,10 +391,10 @@
   <Composition artist="The Stooges" titre="Raw Power" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="125" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Talking Heads" titre="Remain in Light" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Talking Heads" titre="Remain In Light" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="126" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Mamas and the Papas" titre="If You Can Believe Your Eyes and Ears" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Mamas And The Papas" titre="If You Can Believe Your Eyes And Ears" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="127" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Television" titre="Marquee Moon" type="ALBUM" canBeMerged="true" deleted="false">
@@ -388,13 +409,13 @@
   <Composition artist="Various Artists" titre="Saturday Night Fever Original Soundtrack" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="131" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="The Wild: the Innocent and the E Street Shuffle" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="The Wild: The Innocent And The E Street Shuffle" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="132" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Notorious B.I.G." titre="Ready to Die" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Notorious B.I.G." titre="Ready To Die" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="133" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Pavement" titre="Slanted and Enchanted" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Pavement" titre="Slanted And Enchanted" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="134" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Elton John" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
@@ -415,10 +436,10 @@
   <Composition artist="Blondie" titre="Parallel Lines" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="140" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="B.B. King" titre="Live at the Regal" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="B.B. King" titre="Live At The Regal" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="141" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Phil Spector" titre="A Christmas Gift for You" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Phil Spector" titre="A Christmas Gift For You" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="142" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Dr. John" titre="Gris-Gris" type="ALBUM" canBeMerged="true" deleted="false">
@@ -433,25 +454,28 @@
   <Composition artist="Jefferson Airplane" titre="Surrealistic Pillow" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="146" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Otis Redding" titre="Dreams to Remember: The Otis Redding Anthology" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Otis Redding" titre="Dreams To Remember: The Otis Redding Anthology" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="147" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Crosby Stills Nash and Young" titre="Deja Vu" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Crosby Stills Nash And Young" titre="Deja Vu" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="148" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Houses of the Holy" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Led Zeppelin" titre="Houses Of The Holy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="149" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Santana" titre="Santana" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="150" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness on the Edge of Town" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="151" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="151" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The B-52's" titre="The B-52's" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="152" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Howlin' Wolf" titre="Moanin' in the Moonlight" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Howlin' Wolf" titre="Moanin' In The Moonlight" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="153" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="A Tribe Called Quest" titre="The Low End Theory" type="ALBUM" canBeMerged="true" deleted="false">
@@ -466,7 +490,7 @@
   <Composition artist="Joy Division" titre="Closer" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="157" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Elton John" titre="Captain Fantastic and the Brown Dirt Cowboy" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Elton John" titre="Captain Fantastic And The Brown Dirt Cowboy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="158" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Kiss" titre="Alive" type="ALBUM" canBeMerged="true" deleted="false">
@@ -475,7 +499,7 @@
   <Composition artist="T. Rex" titre="Electric Warrior" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="160" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Otis Redding" titre="The Dock of the Bay" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Otis Redding" titre="The Dock Of The Bay" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="161" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
@@ -484,7 +508,7 @@
   <Composition artist="Prince" titre="1999" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="163" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Linda Ronstadt" titre="Heart Like a Wheel" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Linda Ronstadt" titre="Heart Like A Wheel" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="164" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Linda Ronstadt" titre="The Very Best Of" type="ALBUM" canBeMerged="true" deleted="false">
@@ -496,7 +520,7 @@
   <Composition artist="Elvis Costello" titre="Imperial Bedroom" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="166" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Metallica" titre="Master of Puppets" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Metallica" titre="Master Of Puppets" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="167" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Elvis Costello" titre="My Aim Is True" type="ALBUM" canBeMerged="true" deleted="false">
@@ -505,13 +529,13 @@
   <Composition artist="Bob Marley" titre="Exodus" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="169" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Who" titre="Live at Leeds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="Live At Leeds" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="170" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Byrds" titre="The Notorious Byrd Brothers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="171" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Rod Stewart" titre="Every Picture Tells a Story" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Rod Stewart" titre="Every Picture Tells A Story" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="172" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Todd Rundgren" titre="Something/Anything?" type="ALBUM" canBeMerged="true" deleted="false">
@@ -520,19 +544,19 @@
   <Composition artist="Bob Dylan" titre="Desire" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="174" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Carpenters" titre="Close to You" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Carpenters" titre="Close To You" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="175" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Aerosmith" titre="Rocks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="176" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Parliament/Funkadelic" titre="One Nation Under a Groove" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Parliament/Funkadelic" titre="One Nation Under A Groove" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="177" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Byrds" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="178" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Curtis Mayfield and the Impressions" titre="The Anthology 1961, 1977" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Curtis Mayfield And The Impressions" titre="The Anthology 1961, 1977" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="179" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Abba" titre="The Definitive Collection" type="ALBUM" canBeMerged="true" deleted="false">
@@ -541,7 +565,7 @@
   <Composition artist="The Rolling Stones" titre="The Rolling Stones: Now!" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="181" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Marley" titre="Natty Dread" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Marley And The Wailers" titre="Natty Dread" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="182" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Fleetwood Mac (The White Album)" titre="Fleetwood Mac" type="ALBUM" canBeMerged="true" deleted="false">
@@ -553,7 +577,7 @@
   <Composition artist="The Stooges" titre="The Stooges" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="185" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Sly and the Family Stone" titre="Fresh" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sly And The Family Stone" titre="Fresh" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="186" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Peter Gabriel" titre="So" type="ALBUM" canBeMerged="true" deleted="false">
@@ -565,13 +589,13 @@
   <Composition artist="Quicksilver Messenger Service" titre="Happy Trails" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="189" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="From Elvis in Memphis" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="From Elvis In Memphis" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="190" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Stooges" titre="Funhouse" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="191" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Flying Burrito Brothers" titre="The Gilded Palace of Sin" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Flying Burrito Brothers" titre="The Gilded Palace Of Sin" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="192" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Green Day" titre="Dookie" type="ALBUM" canBeMerged="true" deleted="false">
@@ -583,16 +607,16 @@
   <Composition artist="John Mayall With Eric Clapton" titre="Bluesbreakers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="195" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Various Artists" titre="Nuggets: Original Artyfacts from the First Psychedelic Era 1965 1968" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Various Artists" titre="Nuggets: Original Artyfacts From The First Psychedelic Era 1965 1968" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="196" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="R.E.M." titre="Murmur" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="197" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Little Walter" titre="The Best of" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Little Walter" titre="The Best Of" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="198" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="AC/DC" titre="Highway to Hell" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="AC/DC" titre="Highway To Hell" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="199" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Nine Inch Nails" titre="The Downward Spiral" type="ALBUM" canBeMerged="true" deleted="false">
@@ -604,22 +628,25 @@
   <Composition artist="Simon And Garfunkel" titre="Parsley Sage Rosemary And Thyme" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="202" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Cream" titre="Wheels of Fire" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Cream" titre="Wheels Of Fire" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="203" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Prince" titre="Dirty Mind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="204" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
+  <Composition artist="Bob Dylan" titre="Modern Times" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="204" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
   <Composition artist="Santana" titre="Abraxas" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="205" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Cat Stevens" titre="Tea for the Tillerman" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Cat Stevens" titre="Tea For The Tillerman" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="206" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Pearl Jam" titre="Ten" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="207" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Neil Young" titre="Everybody Knows This is Nowhere" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Neil Young With Crazy Horse" titre="Everybody Knows This Is Nowhere" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="208" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Pink Floyd" titre="Wish You Were Here" type="ALBUM" canBeMerged="true" deleted="false">
@@ -631,7 +658,7 @@
   <Composition artist="The Rolling Stones" titre="Tattoo You" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="211" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Ike and Tina Turner" titre="Proud Mary: The Best of Ike and Tina Turner" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Ike And Tina Turner" titre="Proud Mary: The Best Of Ike And Tina Turner" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="212" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="New York Dolls" titre="New York Dolls" type="ALBUM" canBeMerged="true" deleted="false">
@@ -640,13 +667,13 @@
   <Composition artist="Bo Diddley" titre="Bo Diddley/Go Bo Diddley" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="214" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bobby Bland" titre="Two Steps From the Blues" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bobby Bland" titre="Two Steps From The Blues" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="215" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="216" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Beastie Boys" titre="Licensed to Ill" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beastie Boys" titre="Licensed To Ill" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="217" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Meters" titre="Look-Ka Py Py" type="ALBUM" canBeMerged="true" deleted="false">
@@ -664,7 +691,7 @@
   <Composition artist="Neil Diamond" titre="The Neil Diamond Collection" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="222" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Howlin' Wolf" titre="Howlin' Wolf (Rocking Chair Album)" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Howlin' Wolf" titre="Howlin' Wolf" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="223" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Nebraska" type="ALBUM" canBeMerged="true" deleted="false">
@@ -673,19 +700,22 @@
   <Composition artist="Hank Williams" titre="The Complete Hank Williams" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="225" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
+  <Composition artist="Green Day" titre="American Idiot" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="225" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
   <Composition artist="Pixies" titre="Doolittle" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="226" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Eric B. and Rakim" titre="Paid in Full" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Eric B. And Rakim" titre="Paid In Full" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="227" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Aerosmith" titre="Toys in the Attic" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Aerosmith" titre="Toys In The Attic" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="228" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bonnie Raitt" titre="Nick of Time" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bonnie Raitt" titre="Nick Of Time" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="229" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Queen" titre="A Night at the Opera" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Queen" titre="A Night At The Opera" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="230" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Kinks" titre="The Kink Kronikles" type="ALBUM" canBeMerged="true" deleted="false">
@@ -694,7 +724,7 @@
   <Composition artist="The Byrds" titre="Mr. Tambourine Man" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="232" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Simon and Garfunkel" titre="Bookends" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Simon And Garfunkel" titre="Bookends" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="233" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Patsy Cline" titre="The Ultimate Collection" type="ALBUM" canBeMerged="true" deleted="false">
@@ -706,10 +736,10 @@
   <Composition artist="The Who" titre="The Who Sings My Generation" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="236" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Madonna" titre="Like a Prayer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Madonna" titre="Like A Prayer" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="237" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Steely Dan" titre="Can't Buy a Thrill" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Steely Dan" titre="Can't Buy A Thrill" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="238" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Replacements" titre="Let It Be" type="ALBUM" canBeMerged="true" deleted="false">
@@ -721,7 +751,7 @@
   <Composition artist="Black Sabbath" titre="Black Sabbath" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="241" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Mothers of Invention" titre="Freak Out!" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Mothers Of Invention" titre="Freak Out!" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="243" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Grateful Dead" titre="Live Dead" type="ALBUM" canBeMerged="true" deleted="false">
@@ -733,10 +763,10 @@
   <Composition artist="Jerry Lee Lewis" titre="All Killer, No Filler" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="245" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Ornette Coleman" titre="The Shape of Jazz to Come" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Ornette Coleman" titre="The Shape Of Jazz To Come" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="246" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="R.E.M." titre="Automatic for the People" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="R.E.M." titre="Automatic For The People" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="247" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Jay-Z" titre="Reasonable Doubt" type="ALBUM" canBeMerged="true" deleted="false">
@@ -751,7 +781,7 @@
   <Composition artist="Metallica" titre="Metallica" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="252" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Kraftwerk" titre="Trans–Europe Express" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Kraftwerk" titre="Trans-Europe Express" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="253" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Whitney Houston" titre="Whitney Houston" type="ALBUM" canBeMerged="true" deleted="false">
@@ -760,7 +790,7 @@
   <Composition artist="Otis Redding" titre="Dictionary Of Soul" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="254" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Kinks" titre="The Kinks Are the Village Green Preservation Society" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Kinks" titre="The Kinks Are The Village Green Preservation Society" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="255" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Janet Jackson" titre="The Velvet Rope" type="ALBUM" canBeMerged="true" deleted="false">
@@ -772,7 +802,7 @@
   <Composition artist="Grateful Dead" titre="American Beauty" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="258" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Crosby Stills and Nash" titre="Crosby Stills and Nash" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Crosby Stills And Nash" titre="Crosby Stills And Nash" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="259" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Buena Vista Social Club" titre="Buena Vista Social Club" type="ALBUM" canBeMerged="true" deleted="false">
@@ -784,10 +814,10 @@
   <Composition artist="Grateful Dead" titre="Workingman's Dead" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="262" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Ray Charles" titre="The Genius of Ray Charles" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Ray Charles" titre="The Genius Of Ray Charles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="263" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Blood, Sweat and Tears" titre="Child Is Father to the Man" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Blood, Sweat And Tears" titre="Child Is Father To The Man" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="264" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Creedence Clearwater Revival" titre="Cosmo's Factory" type="ALBUM" canBeMerged="true" deleted="false">
@@ -799,11 +829,14 @@
   <Composition artist="Paul Simon" titre="There Goes Rhymin' Simon" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="267" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Jesus and Mary Chain" titre="Psycho Candy" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Jesus And Mary Chain" titre="Psycho Candy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="268" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Paul Simon" titre="Paul Simon" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="268" creationDate="28/08/2017 14:29:58" size="500"/>
+  </Composition>
+  <Composition artist="The Jesus And Mary Chain" titre="Psychocandy" type="ALBUM" canBeMerged="true" deleted="false">
+    <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="269" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Some Girls" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="269" creationDate="28/08/2017 14:29:58" size="500"/>
@@ -811,7 +844,7 @@
   <Composition artist="The Beach Boys" titre="The Beach Boys Today!" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="270" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Smokey Robinson and the Miracles" titre="Going to a Go-Go" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Smokey Robinson And The Miracles" titre="Going To A Go-Go" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="271" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Labelle" titre="Nightbirds" type="ALBUM" canBeMerged="true" deleted="false">
@@ -820,7 +853,7 @@
   <Composition artist="Sleater-Kinney" titre="Dig Me Out" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="272" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Eminem" titre="The Slim Shady Lp" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Eminem" titre="The Slim Shady LP" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="273" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Parliament" titre="Mothership Connection" type="ALBUM" canBeMerged="true" deleted="false">
@@ -829,7 +862,7 @@
   <Composition artist="Janet Jackson" titre="Rhythm Nation 1814" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="275" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Harry Smith" titre="Anthology of American Folk Music" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Harry Smith" titre="Anthology Of American Folk Music" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="276" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="David Bowie" titre="Aladdin Sane" type="ALBUM" canBeMerged="true" deleted="false">
@@ -853,19 +886,19 @@
   <Composition artist="Nick Drake" titre="Five Leaves Left" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="283" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Stevie Wonder" titre="Music of My Mind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Stevie Wonder" titre="Music Of My Mind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="284" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Al Green" titre="I'm Still in Love With You" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Al Green" titre="I'm Still In Love With You" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="285" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="X" titre="Los Angeles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="286" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Grateful Dead" titre="Anthem of the Sun" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Grateful Dead" titre="Anthem Of The Sun" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="287" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Kinks" titre="Something Else by the Kinks" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Kinks" titre="Something Else By The Kinks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="288" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Al Green" titre="Call Me" type="ALBUM" canBeMerged="true" deleted="false">
@@ -874,16 +907,16 @@
   <Composition artist="Talking Heads" titre="Talking Heads: 77" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="290" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="The Basement Tapes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan And The Band" titre="The Basement Tapes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="291" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Velvet Underground" titre="White Light / White Heat" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="292" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Simon and Garfunkel" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Simon And Garfunkel" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="293" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="MC5" titre="Kick Out the Jams" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="MC5" titre="Kick Out The Jams" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="294" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Smiths" titre="Meat Is Murder" type="ALBUM" canBeMerged="true" deleted="false">
@@ -892,22 +925,22 @@
   <Composition artist="Leonard Cohen" titre="Songs Of Love And Hate" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="295" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Mothers of Invention" titre="We're Only In It For the Money" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Mothers Of Invention" titre="We're Only In It For The Money" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="296" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Weezer" titre="Weezer (Blue Album)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="297" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Black Sabbath" titre="Master of Reality" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Black Sabbath" titre="Master Of Reality" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="298" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Kane West" titre="The College Dropout" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="298" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Dolly Parton" titre="Coat of Many Colors" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Dolly Parton" titre="Coat Of Many Colors" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="299" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Public Enemy" titre="Fear of a Black Planet" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Public Enemy" titre="Fear Of A Black Planet" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="300" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="John Wesley Harding" type="ALBUM" canBeMerged="true" deleted="false">
@@ -919,13 +952,13 @@
   <Composition artist="Jeff Buckley" titre="Grace" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="303" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Lucinda Williams" titre="Car Wheels on a Gravel Road" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Lucinda Williams" titre="Car Wheels On A Gravel Road" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="304" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Beck" titre="Odelay" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="305" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Frank Sinatra" titre="Songs for Swingin' Lovers" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Frank Sinatra" titre="Songs For Swingin' Lovers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="306" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Roxy Music" titre="Avalon" type="ALBUM" canBeMerged="true" deleted="false">
@@ -943,13 +976,13 @@
   <Composition artist="Red Hot Chili Peppers" titre="Blood Sugar Sex Magik" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="310" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Nirvana" titre="MTV Unplugged in New York" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="MTV Unplugged In New York" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="311" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Lauryn Hill" titre="The Miseducation of Lauryn Hill" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Lauryn Hill" titre="The Miseducation Of Lauryn Hill" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="312" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Tom Petty and the Heartbreakers" titre="Damn the Torpedoes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Tom Petty And The Heartbreakers" titre="Damn The Torpedoes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="313" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Velvet Underground" titre="The Velvet Underground" type="ALBUM" canBeMerged="true" deleted="false">
@@ -967,25 +1000,25 @@
   <Composition artist="The O'Jays" titre="Back Stabbers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="318" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Marley" titre="Burnin'" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Marley And The Wailers" titre="Burnin'" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="319" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Nick Drake" titre="Pink Moon" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="320" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="320" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Randy Newman" titre="Sail Away" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="321" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Police" titre="Ghost in the Machine" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Police" titre="Ghost In The Machine" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="322" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Station to Station" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Station To Station" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="323" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Linda Ronstadt" titre="The Very Best of Linda Ronstadt" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Linda Ronstadt" titre="The Very Best Of Linda Ronstadt" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="324" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Eric Clapton" titre="Slowhand" type="ALBUM" canBeMerged="true" deleted="false">
@@ -997,22 +1030,22 @@
   <Composition artist="Alanis Morissette" titre="Jagged Little Pill" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="327" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Liz Phair" titre="Exile in Guyville" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Liz Phair" titre="Exile In Guyville" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="328" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="329" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="James Brown" titre="In the Jungle Groove" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="James Brown" titre="In The Jungle Groove" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="330" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Neil Young" titre="Tonight's the Night" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Neil Young" titre="Tonight's The Night" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="331" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="Help!" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="332" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Richard and Linda Thompson" titre="Shoot Out the Lights" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Richard And Linda Thompson" titre="Shoot Out The Lights" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="333" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="X" titre="Wild Gift" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1030,10 +1063,10 @@
   <Composition artist="Jethro Tull" titre="Aqualung" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="337" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Big Brother and the Holding Company" titre="Cheap Thrills" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Big Brother And The Holding Company" titre="Cheap Thrills" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="338" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Tom Waits" titre="The Heart of Saturday Night" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Tom Waits" titre="The Heart Of Saturday Night" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="339" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Black Flag" titre="Damaged" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1045,7 +1078,7 @@
   <Composition artist="Depeche Mode" titre="Violator" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="342" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Meat Loaf" titre="Bat Out of Hell" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Meat Loaf" titre="Bat Out Of Hell" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="343" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Lou Reed" titre="Berlin" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1054,10 +1087,10 @@
   <Composition artist="Talking Heads" titre="Stop Making Sense" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="345" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="De La Soul" titre="3 Feet High and Rising" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="De La Soul" titre="3 Feet High And Rising" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="346" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Pink Floyd" titre="The Piper at the Gates of Dawn" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Pink Floyd" titre="The Piper At The Gates Of Dawn" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="347" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Muddy Waters" titre="At Newport 1960" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1066,19 +1099,19 @@
   <Composition artist="Jay-Z" titre="The Black Album" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="349" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Neil Young" titre="Rust Never Sleeps" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Neil Young And Crazy Horse" titre="Rust Never Sleeps" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="350" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Yardbirds" titre="Roger The Engineer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Yardbirds" titre="Roger The Engineer (Aka Over Under Sideways Down)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="350" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Dire Straits" titre="Brothers in Arms" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Dire Straits" titre="Brothers In Arms" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="351" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Billy Joel" titre="52nd Street" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="352" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Yardbirds" titre="Having a Rave Up With the Yardbirds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Yardbirds" titre="Having A Rave Up With The Yardbirds" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="353" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Kanye West" titre="My Beautiful Dark Twisted Fantasy" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1087,10 +1120,10 @@
   <Composition artist="Randy Newman" titre="12 Songs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="354" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Between the Buttons" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Between The Buttons" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="355" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Miles Davis" titre="Sketches of Spain" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Miles Davis" titre="Sketches Of Spain" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="356" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Elton John" titre="Honky Chateau" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1111,7 +1144,7 @@
   <Composition artist="The Doors" titre="L.A. Woman" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="362" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Madonna" titre="Ray of Light" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Madonna" titre="Ray Of Light" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="363" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Johnny Cash" titre="American Recordings" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1120,19 +1153,19 @@
   <Composition artist="The Smiths" titre="Louder Than Bombs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="365" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Mott the Hoople" titre="Mott" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Mott The Hoople" titre="Mott" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="366" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Strokes" titre="Is This It" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="367" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Rage Against the Machine" titre="Rage Against the Machine" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Rage Against The Machine" titre="Rage Against The Machine" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="368" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Eagles" titre="Eagles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="368" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Police" titre="Reggatta de Blanc" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Police" titre="Reggatta De Blanc" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="369" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Jefferson Airplane" titre="Volunteers" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1141,10 +1174,10 @@
   <Composition artist="Roxy Music" titre="Siren" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="371" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am- That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="371" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Jackson Browne" titre="Late for the Sky" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Jackson Browne" titre="Late For The Sky" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="372" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Bjork" titre="Post" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1153,13 +1186,13 @@
   <Composition artist="John Lee Hooker" titre="The Ultimate Collection (1948 1990)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="375" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Toots and the Maytals" titre="Funky Kingston" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Toots And The Maytals" titre="Funky Kingston" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="378" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Oasis" titre="(What's the Story) Morning Glory?" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Oasis" titre="(What's The Story) Morning Glory" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="378" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Greetings from Asbury Park" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Greetings From Asbury Park" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="379" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Tlc" titre="Crazy Sexy Cool" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1171,13 +1204,13 @@
   <Composition artist="Modern Lovers" titre="Modern Lovers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="381" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Smile" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Smile (2011 Version)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="381" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Talking Heads" titre="More Songs About Buildings and Food" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Talking Heads" titre="More Songs About Buildings And Food" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="382" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Who" titre="A Quick One" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="A Quick One (Happy Jack)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="383" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Def Leppard" titre="Pyromania" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1186,7 +1219,7 @@
   <Composition artist="Steely Dan" titre="Pretzel Logic" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="385" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Wu Tang Clan" titre="Enter the Wu Tang" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Wu-Tang Clan" titre="Enter The Wu-Tang: 36 Chambers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="386" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Roxy Music" titre="Country Life" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1198,7 +1231,7 @@
   <Composition artist="Various Artists" titre="The Indestructible Beat Of Soweto" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="388" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Don Henley" titre="The End of the Innocence" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Don Henley" titre="The End Of The Innocence" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="389" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The White Stripes" titre="Elephant" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1207,7 +1240,7 @@
   <Composition artist="Jackson Browne" titre="The Pretender" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="391" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Creedence Clearwater Revival" titre="Willy and the Poor Boys" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Creedence Clearwater Revival" titre="Willy And The Poor Boys" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="392" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Randy Newman" titre="Good Old Boys" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1261,7 +1294,7 @@
   <Composition artist="The Doors" titre="Strange Days" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="407" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Time Out of Mind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Time Out Of Mind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="408" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Eric Clapton" titre="461 Ocean Boulevard" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1270,19 +1303,19 @@
   <Composition artist="Wire" titre="Pink Flag" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="410" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Minutemen" titre="Double Nickels on the Dime" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Minutemen" titre="Double Nickels On The Dime" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="411" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Massive Attack" titre="Mezzanine" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="412" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Go-Go's" titre="Beauty and the Beat" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Go-Go's" titre="Beauty And The Beat" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="413" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="James Brown" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="414" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Van Halen" titre="Van Halen (1st Album)" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Van Halen" titre="Van Halen" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="415" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Tom Waits" titre="Mule Variations" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1291,25 +1324,25 @@
   <Composition artist="U2" titre="Boy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="417" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Wings" titre="Band on the Run" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Wings" titre="Band On The Run" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="418" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Portishead" titre="Dummy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="419" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Beatles" titre="With the Beatles" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="With The Beatles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="420" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Buddy Holly" titre="The Chirping Crickets" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Buddy Holly And The Crickets" titre="The 'Chirping' Crickets" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="421" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Various Artists" titre="The Best Of The Girl Groups Volumes 1 And 2" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="421" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Mamas and the Papas" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Mamas And The Papas" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="423" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Robert Johnson" titre="King of the Delta Blues Singers: Vol. 2" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Robert Johnson" titre="King Of The Delta Blues Singers: Vol. 2" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="424" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="The Rising" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1318,10 +1351,10 @@
   <Composition artist="David Bowie" titre="Changesone" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="425" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Rage Against the Machine" titre="The Battle of Los Angeles" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Rage Against The Machine" titre="The Battle Of Los Angeles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="426" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Ronettes" titre="Presenting the Fabulous Ronettes And Veronica" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Ronettes" titre="Presenting The Fabulous Ronettes And Veronica" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="427" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Radiohead" titre="Kid A" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1336,7 +1369,7 @@
   <Composition artist="Vampire Weekend" titre="Vampire Weekend" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="430" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Diana Ross and the Supremes" titre="Anthology" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Diana Ross And The Supremes" titre="Anthology" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="431" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Pj Harvey" titre="Stories From The City, Stories From The Sea" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1357,7 +1390,7 @@
   <Composition artist="Nirvana" titre="In Utero" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="435" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Brian Eno" titre="Here Come the Warm Jets" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Brian Eno" titre="Here Come The Warm Jets" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="436" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="George Harrison" titre="All Things Must Pass" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1381,13 +1414,13 @@
   <Composition artist="Devo" titre="Q: Are We Not Men? A: We Are Devo" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="442" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Sam Cooke" titre="Live at the Harlem Square Club" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sam Cooke" titre="Live At The Harlem Square Club" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="443" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Boogie Down Productions" titre="Criminal Minded" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="444" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Pogues" titre="Rum Sodomy and the Lash" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Pogues" titre="Rum Sodomy And The Lash" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="445" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Suicide" titre="Suicide" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1396,25 +1429,25 @@
   <Composition artist="Cheap Trick" titre="In Color" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="448" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="War" titre="The World Is a Ghetto" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="War" titre="The World Is A Ghetto" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="449" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Steve Miller Band" titre="Fly Like an Eagle" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Steve Miller Band" titre="Fly Like An Eagle" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="450" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="MC5" titre="Back in the USA" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="MC5" titre="Back In The USA" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="451" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="451" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Madonna" titre="Music" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="452" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Jane's Addiction" titre="Ritual de lo Habitual" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Jane's Addiction" titre="Ritual De Lo Habitual" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="453" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Stan Getz and Joao Gilberto" titre="Getz/Gilberto" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Stan Getz And Joao Gilberto And Antonio Carlos Jobim" titre="Getz/Gilberto" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="454" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Police" titre="Synchronicity" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1438,34 +1471,34 @@
   <Composition artist="EPMD" titre="Strictly Business" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="459" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Alice Cooper" titre="Love It to Death" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Alice Cooper" titre="Love It To Death" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="460" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Hole" titre="Live Through This" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="460" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Los Lobos" titre="How Will the Wolf Survive?" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Los Lobos" titre="How Will The Wolf Survive?" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="461" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Elton John" titre="Tumbleweed Connection" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="463" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Jay Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Jay-Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="464" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Drifters" titre="Golden Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="465" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Magnetic Fields" titre="69 Love Songs" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Magnetic Fields" titre="69 Love Songs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="465" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Love and Theft" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Love And Theft" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="467" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Elton John" titre="Elton John" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="468" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Public Image Ltd" titre="Metal Box" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Public Image Ltd." titre="Metal Box" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="469" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="R.E.M." titre="Document" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1474,22 +1507,22 @@
   <Composition artist="L.L. Cool J" titre="Radio" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="470" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Echo and the Bunnymen" titre="Heaven Up Here" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Echo And The Bunnymen" titre="Heaven Up Here" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="471" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Def Leppard" titre="Hysteria" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="472" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Coldplay" titre="A Rush of Blood to the Head" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Coldplay" titre="A Rush Of Blood To The Head" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="473" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Otis Redding" titre="Live in Europe" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Otis Redding" titre="Live In Europe" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="474" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Manu Chao" titre="Proxima Estacion Esperanza" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="474" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Tunnel of Love" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Tunnel Of Love" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="475" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Paul Butterfield Blues Band" titre="The Paul Butterfield Blues Band" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1501,19 +1534,19 @@
   <Composition artist="Merl Haggard" titre="Down Every Road" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="477" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Richard and Linda Thompson" titre="I Want to See the Bright Lights Tonight" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Richard And Linda Thompson" titre="I Want To See The Bright Lights Tonight" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="479" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="George Michael" titre="Faith" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="480" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Raekwon" titre="Only Built 4 Cuban Linx" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Raekwon" titre="Only Built 4 Cuban Linux" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="480" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Smiths" titre="The Smiths" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="481" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Elvis Costello" titre="Armed Forces" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Costello And The Attractions" titre="Armed Forces" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="482" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Notorious B.I.G." titre="Life After Death" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1531,7 +1564,7 @@
   <Composition artist="Earth Wind And Fire" titre="That's The Way Of The World" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="486" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Smashing Pumpkins" titre="Mellon Collie and the Infinite Sadness" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Smashing Pumpkins" titre="Mellon Collie And The Infinite Sadness" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="487" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="D'Angelo" titre="Voodoo" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1540,10 +1573,10 @@
   <Composition artist="Steve Earle" titre="Guitar Town" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="489" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Gang of Four" titre="Entertainment!" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Gang Of Four" titre="Entertainment!" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="490" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Mott the Hoople" titre="All the Young Dudes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Mott The Hoople" titre="All The Young Dudes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="491" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Pearl Jam" titre="Vitalogy" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1573,7 +1606,7 @@
   <Composition artist="Boz Skaggs" titre="Boz Skaggs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="496" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Public Enemy" titre="Yo! Bum Rush the Show" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Public Enemy" titre="Yo! Bum Rush The Show" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="497" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The White Stripes" titre="White Blood Cells" type="ALBUM" canBeMerged="true" deleted="false">
@@ -1585,7 +1618,7 @@
   <Composition artist="The Stone Roses" titre="The Stone Roses" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="498" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Albert King" titre="Born Under a Bad Sign" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Albert King" titre="Born Under A Bad Sign" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="499" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="B.B. King" titre="Live In Cooke County Jail" type="ALBUM" canBeMerged="true" deleted="false">
