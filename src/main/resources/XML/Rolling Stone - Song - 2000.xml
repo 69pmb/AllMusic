@@ -4,7 +4,7 @@
   <Composition artist="Madonna" titre="Music" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="American Skin (41 Shots)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="American Skin (41 Shots)" type="SONG" canBeMerged="false" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
   <Composition artist="Eminem" titre="The Real Slim Shady" type="SONG" canBeMerged="true" deleted="false">
