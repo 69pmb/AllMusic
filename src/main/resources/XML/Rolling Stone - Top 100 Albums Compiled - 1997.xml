@@ -4,7 +4,7 @@
   <Composition artist="Rolling Stones" titre="Exile On Main Street" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Highway 61 Revisited" type="ALBUM" canBeMerged="true" deleted="false">
@@ -28,10 +28,10 @@
   <Composition artist="Rolling Stones" titre="Let It Bleed" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="9" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="10" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="11" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Sex Pistols" titre="Never Mind The Bollocks..." type="ALBUM" canBeMerged="true" deleted="false">
@@ -97,7 +97,7 @@
   <Composition artist="Jimi Hendrix" titre="Electric Ladyland" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="32" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="33" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Bringing It All Back Home" type="ALBUM" canBeMerged="true" deleted="false">
@@ -142,7 +142,7 @@
   <Composition artist="Elvis Costello" titre="This Year's Model" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="47" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="48" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Tindersticks" titre="Tindersticks" type="ALBUM" canBeMerged="true" deleted="false">
@@ -262,7 +262,7 @@
   <Composition artist="Bob Dylan" titre="Desire" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="87" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="R.E.M." titre="Reckoning" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="R.E.M." titre="Reckoning" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Compiled - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="88" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Scott Walker" titre="Tilt" type="ALBUM" canBeMerged="true" deleted="false">

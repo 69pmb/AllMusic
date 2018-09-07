@@ -10,7 +10,7 @@
   <Composition artist="Sade" titre="Smooth Operator" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="3" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
-  <Composition artist="Dexy's Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Dexy's Midnight Runners" titre="Come On Eileen" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="4" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
   <Composition artist="Donald Fagen" titre="I.G.Y. (International Geophysical Year)" type="SONG" canBeMerged="true" deleted="false">
@@ -46,7 +46,7 @@
   <Composition artist="The Cure" titre="A Forest" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="15" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
-  <Composition artist="Lipps Inc." titre="Funkytown" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Lipps Inc." titre="Funkytown" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="16" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
   <Composition artist="Dead Kennedys" titre="Holiday In Cambodia" type="SONG" canBeMerged="true" deleted="false">

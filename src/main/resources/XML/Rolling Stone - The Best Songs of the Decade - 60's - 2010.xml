@@ -4,7 +4,7 @@
   <Composition artist="Nancy Sinatra And Lee Hazlewood" titre="Some Velvet Morning" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="1" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
-  <Composition artist="John Lee Hooker" titre="Boom Boom" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lee Hooker" titre="Boom Boom" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="2" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
   <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
@@ -61,7 +61,7 @@
   <Composition artist="The Byrds" titre="Eight Miles High" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="20" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="21" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
   <Composition artist="James Carr" titre="The Dark End Of The Street" type="SONG" canBeMerged="true" deleted="false">
@@ -121,10 +121,10 @@
   <Composition artist="The Rolling Stones" titre="Jumpin' Jack Flash" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="40" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
-  <Composition artist="The Band" titre="The Weight" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Band" titre="The Weight" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="41" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
-  <Composition artist="Cream" titre="Sunshine Of Your Love" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Cream" titre="Sunshine Of Your Love" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="42" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
   <Composition artist="Jimi Hendrix (Experience)" titre="Voodoo Child (Slight Return)" type="SONG" canBeMerged="true" deleted="false">

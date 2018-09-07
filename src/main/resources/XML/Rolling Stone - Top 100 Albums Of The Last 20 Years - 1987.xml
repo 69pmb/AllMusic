@@ -28,7 +28,7 @@
   <Composition artist="The Beatles" titre="The Beatles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="9" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="10" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Elvis Costello" titre="This Year's Model" type="ALBUM" canBeMerged="true" deleted="false">
@@ -46,7 +46,7 @@
   <Composition artist="The Rolling Stones" titre="Beggars Banquet" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="15" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="16" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Abbey Road" type="ALBUM" canBeMerged="true" deleted="false">
@@ -118,7 +118,7 @@
   <Composition artist="Prince" titre="Purple Rain" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="39" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Darkness On The Edge Of Town" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="40" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Band" titre="Music From Big Pink" type="ALBUM" canBeMerged="true" deleted="false">
