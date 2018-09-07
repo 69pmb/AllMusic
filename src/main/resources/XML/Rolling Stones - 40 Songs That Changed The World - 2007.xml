@@ -46,7 +46,7 @@
   <Composition artist="Led Zeppelin" titre="Whole Lotta Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 40 Songs That Changed The World - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="15" creationDate="07/09/2018 14:30:21" size="40"/>
   </Composition>
-  <Composition artist="James Brown" titre="Get Up (I Feel Like Being A) Sex Machine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="James Brown" titre="Get Up (I Feel Like Being A) Sex Machine" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 40 Songs That Changed The World - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="16" creationDate="07/09/2018 14:30:21" size="40"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="false">
@@ -55,7 +55,7 @@
   <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 40 Songs That Changed The World - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="18" creationDate="07/09/2018 14:30:21" size="40"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Ziggy Stardust" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Ziggy Stardust" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 40 Songs That Changed The World - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="19" creationDate="07/09/2018 14:30:21" size="40"/>
   </Composition>
   <Composition artist="Bob Marley" titre="I Shot The Sheriff" type="SONG" canBeMerged="true" deleted="false">
@@ -73,10 +73,10 @@
   <Composition artist="The Ramones" titre="Blitzkrieg Bop" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 40 Songs That Changed The World - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="24" creationDate="07/09/2018 14:30:21" size="40"/>
   </Composition>
-  <Composition artist="The Sex Pistols" titre="Anarchy In The UK" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Sex Pistols" titre="Anarchy In The UK" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 40 Songs That Changed The World - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="25" creationDate="07/09/2018 14:30:21" size="40"/>
   </Composition>
-  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 40 Songs That Changed The World - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="26" creationDate="07/09/2018 14:30:21" size="40"/>
   </Composition>
   <Composition artist="The Sugarhill Gang" titre="Rappers Delight" type="SONG" canBeMerged="true" deleted="false">

@@ -145,7 +145,7 @@
   <Composition artist="The Who" titre="Another Tricky Day" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 50 Greatest Who Songs - 2015" publishYear="2015" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2015" sorted="true" classement="48" creationDate="07/09/2018 13:36:01" size="50"/>
   </Composition>
-  <Composition artist="The Who" titre="Relax" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="Relax" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 50 Greatest Who Songs - 2015" publishYear="2015" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2015" sorted="true" classement="49" creationDate="07/09/2018 13:36:01" size="50"/>
   </Composition>
   <Composition artist="The Who" titre="Boris The Spider" type="SONG" canBeMerged="true" deleted="false">

@@ -16,7 +16,7 @@
   <Composition artist="The White Stripes" titre="Elephant" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="6" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Eminem" titre="The Marshal Mathers LP" type="ALBUM" canBeMerged="true" deleted="false">
@@ -55,7 +55,7 @@
   <Composition artist="MGMT" titre="Oracular Spectacular" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="18" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="19" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The White Stripes" titre="White Blood Cells" type="ALBUM" canBeMerged="true" deleted="false">
@@ -73,7 +73,7 @@
   <Composition artist="Bruce Springsteen" titre="Magic" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="24" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="true" classement="25" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Cat Power" titre="The Greatest" type="ALBUM" canBeMerged="true" deleted="false">

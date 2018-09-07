@@ -58,7 +58,7 @@
   <Composition artist="Pavement" titre="Range Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="19" creationDate="07/09/2018 15:13:20" size="90"/>
   </Composition>
-  <Composition artist="Blur" titre="Parklife" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Blur" titre="Parklife" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="20" creationDate="07/09/2018 15:13:20" size="90"/>
   </Composition>
   <Composition artist="Blumfeld" titre="2 Oder 3 Dinge, Die Ich Von Dir Weiss" type="SONG" canBeMerged="true" deleted="false">
@@ -106,7 +106,7 @@
   <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="35" creationDate="07/09/2018 15:13:20" size="90"/>
   </Composition>
-  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Underworld" titre="Born Slippy" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="36" creationDate="07/09/2018 15:13:20" size="90"/>
   </Composition>
   <Composition artist="Lambchop" titre="The Man Who Loved Beer" type="SONG" canBeMerged="true" deleted="false">
@@ -121,13 +121,13 @@
   <Composition artist="Daft Punk" titre="Da Funk" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="40" creationDate="07/09/2018 15:13:20" size="90"/>
   </Composition>
-  <Composition artist="Belle And Sebastian" titre="The State I Am In" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Belle And Sebastian" titre="The State I Am In" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="41" creationDate="07/09/2018 15:13:20" size="90"/>
   </Composition>
   <Composition artist="Dr. Dre And 2Pac" titre="California Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="42" creationDate="07/09/2018 15:13:20" size="90"/>
   </Composition>
-  <Composition artist="Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Prodigy" titre="Firestarter" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="43" creationDate="07/09/2018 15:13:20" size="90"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Not Dark Yet" type="SONG" canBeMerged="true" deleted="false">

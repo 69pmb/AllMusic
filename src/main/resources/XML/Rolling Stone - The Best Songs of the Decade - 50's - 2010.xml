@@ -34,7 +34,7 @@
   <Composition artist="Bo Diddley" titre="Bo Diddley" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="false" classement="11" creationDate="07/09/2018 15:20:09" size="50"/>
   </Composition>
-  <Composition artist="Fats Domino" titre="Ain't That A Shame" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Fats Domino" titre="Ain't That A Shame" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="false" classement="12" creationDate="07/09/2018 15:20:09" size="50"/>
   </Composition>
   <Composition artist="Frankie Lymon And The Teenagers" titre="Why Do Fools Fall In Love?" type="SONG" canBeMerged="true" deleted="false">
@@ -115,7 +115,7 @@
   <Composition artist="Ricky Nelson" titre="Lonesome Town" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="false" classement="38" creationDate="07/09/2018 15:20:09" size="50"/>
   </Composition>
-  <Composition artist="Chuck Berry" titre="Johnny B. Goode" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Chuck Berry" titre="Johnny B. Goode" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="false" classement="39" creationDate="07/09/2018 15:20:09" size="50"/>
   </Composition>
   <Composition artist="Eddie Cochran" titre="Summertime Blues" type="SONG" canBeMerged="true" deleted="false">
