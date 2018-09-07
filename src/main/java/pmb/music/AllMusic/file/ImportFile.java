@@ -262,6 +262,7 @@ public class ImportFile {
 		} else if (countMatchesTitre > 1 || countMatchesArtist > 1) {
 			result.add("###Trop de parenthèses, line: " + line + LOG_NUMBER + lineNumber);
 			artist = StringUtils.trim(StringUtils.substringBeforeLast(artist, "("));
+			titre = StringUtils.trim(StringUtils.substringBeforeLast(titre, "("));
 		}
 		compo.setTitre(titre);
 		compo.setArtist(artist);
