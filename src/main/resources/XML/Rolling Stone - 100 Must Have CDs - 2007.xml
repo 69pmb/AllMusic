@@ -142,7 +142,7 @@
   <Composition artist="Eminem" titre="The Marshall Mathers LP" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="47" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="48" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
   <Composition artist="The Jimi Hendrix Experience" titre="Axis: Bold As Love" type="ALBUM" canBeMerged="true" deleted="false">
@@ -166,7 +166,7 @@
   <Composition artist="The Jimi Hendrix Experience" titre="Are You Experienced" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="55" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="56" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
   <Composition artist="Stevie Wonder" titre="Innervisions" type="ALBUM" canBeMerged="true" deleted="false">
@@ -256,16 +256,16 @@
   <Composition artist="Aretha Franklin" titre="I Never Loved A Man The Way I Love You" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="85" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="86" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="87" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
   <Composition artist="The Stooges" titre="Raw Power" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="88" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="89" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Let It Bleed" type="ALBUM" canBeMerged="true" deleted="false">
@@ -283,7 +283,7 @@
   <Composition artist="Otis Redding" titre="Otis Blue" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="94" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="Prince" titre="Sign O The Times" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Prince" titre="Sign O The Times" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="95" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
   <Composition artist="Television" titre="Marquee Moon" type="ALBUM" canBeMerged="true" deleted="false">
