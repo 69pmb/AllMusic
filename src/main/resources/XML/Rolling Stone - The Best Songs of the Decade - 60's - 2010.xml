@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Nancy Sinatra And Lee Hazlewood" titre="Some Velvet Morning" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nancy Sinatra" titre="Some Velvet Morning" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="1" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
   <Composition artist="John Lee Hooker" titre="Boom Boom" type="SONG" canBeMerged="true" deleted="true">
@@ -127,7 +127,7 @@
   <Composition artist="Cream" titre="Sunshine Of Your Love" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="42" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
-  <Composition artist="Jimi Hendrix (Experience)" titre="Voodoo Child (Slight Return)" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jimi Hendrix" titre="Voodoo Chile" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="43" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="I Heard It Through The Grapevine" type="SONG" canBeMerged="true" deleted="false">

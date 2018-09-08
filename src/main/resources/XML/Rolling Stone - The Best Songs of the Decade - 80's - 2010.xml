@@ -67,7 +67,7 @@
   <Composition artist="Soft Cell" titre="Tainted Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="22" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
-  <Composition artist="Laurie Anderson" titre="O Superman" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Laurie Anderson" titre="O Superman (for Massenet)" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="23" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
   <Composition artist="New Order" titre="Temptation" type="SONG" canBeMerged="true" deleted="false">
@@ -76,7 +76,7 @@
   <Composition artist="Madness" titre="House Of Fun" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="25" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
-  <Composition artist="Grandmaster Flash And The Furious Five" titre="The Message" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Grandmaster Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="26" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
   <Composition artist="Robert Wyatt" titre="Shipbuilding" type="SONG" canBeMerged="true" deleted="false">
@@ -142,13 +142,13 @@
   <Composition artist="Pixies" titre="Debaser" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="47" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
-  <Composition artist="Tom Petty (And The Heartbreakers)" titre="Free Fallin'" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Tom Petty" titre="Free Fallin'" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="48" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
   <Composition artist="Black Box" titre="Ride On Time" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="49" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
-  <Composition artist="Neil Young (And Crazy Horse)" titre="Rockin' In The Free World" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Neil Young" titre="Rockin' in the Free World" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="false" classement="50" creationDate="07/09/2018 14:43:05" size="80"/>
   </Composition>
 </ListCompositions>
