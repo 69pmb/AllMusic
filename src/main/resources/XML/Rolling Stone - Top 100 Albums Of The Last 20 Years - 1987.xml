@@ -37,7 +37,7 @@
   <Composition artist="Bob Dylan" titre="Blood On The Tracks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="12" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan And The Band" titre="The Basement Tapes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="The Basement Tapes" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="13" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
@@ -97,7 +97,7 @@
   <Composition artist="The Velvet Underground" titre="Loaded" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="32" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Captain Beefheart And The Magic Band" titre="Trout Mask Replica" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Captain Beefheart" titre="Trout Mask Replica" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="33" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Rod Stewart" titre="Every Picture Tells A Story" type="ALBUM" canBeMerged="true" deleted="false">
@@ -193,10 +193,10 @@
   <Composition artist="Stevie Wonder" titre="Talking Book" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="64" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Elvis Costello And The Attractions" titre="Get Happy!!" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Costello" titre="Get Happy!!" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="65" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Neil Young And Crazy Horse" titre="Rust Never Sleeps" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Neil Young" titre="Rust Never Sleeps" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="66" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="John Wesley Harding" type="ALBUM" canBeMerged="true" deleted="false">
