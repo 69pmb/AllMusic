@@ -4,7 +4,7 @@
   <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Rolling Stones" titre="(I Can't Get No) Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
@@ -214,7 +214,7 @@
   <Composition artist="The Ramones" titre="I Wanna Be Sedated" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="71" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Tom Petty" titre="Free Fallin" type="SONG" canBeMerged="true" deleted="true">
+  <Composition artist="Tom Petty" titre="Free Fallin'" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="72" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Culture Club" titre="Do You Really Want To Hurt Me?" type="SONG" canBeMerged="true" deleted="false">
