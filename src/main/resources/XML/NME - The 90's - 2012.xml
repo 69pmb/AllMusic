@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Suede" titre="Stay Together" type="SONG" canBeMerged="true" deleted="false">
@@ -31,7 +31,7 @@
   <Composition artist="Rage Against The Machine" titre="Killing In The Name" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="The Verve" titre="Bittersweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Verve" titre="Bittersweet Symphony" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="11" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Madonna" titre="Vogue" type="SONG" canBeMerged="true" deleted="false">
@@ -61,7 +61,7 @@
   <Composition artist="Green Day" titre="Basket Case" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="20" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 90's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="21" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Nick Cave" titre="Into My Arms" type="SONG" canBeMerged="true" deleted="false">

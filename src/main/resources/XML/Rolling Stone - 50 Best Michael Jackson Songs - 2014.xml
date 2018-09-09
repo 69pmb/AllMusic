@@ -148,7 +148,7 @@
   <Composition artist="Michael Jackson" titre="I Want You Back" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 50 Best Michael Jackson Songs - 2014" publishYear="2014" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="2" creationDate="07/09/2018 14:08:50" size="50"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 50 Best Michael Jackson Songs - 2014" publishYear="2014" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="1" creationDate="07/09/2018 14:08:50" size="50"/>
   </Composition>
 </ListCompositions>

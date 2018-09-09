@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Fleetwood Mac" titre="Go Your Own Way" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="Heroes" type="SONG" canBeMerged="true" deleted="true">
@@ -154,7 +154,7 @@
   <Composition artist="Iggy Pop" titre="Lust For Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="51" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="52" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Thin Lizzy" titre="The Boys Are Back In Town" type="SONG" canBeMerged="true" deleted="false">

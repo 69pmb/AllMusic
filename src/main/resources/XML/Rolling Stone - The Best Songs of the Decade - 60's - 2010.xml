@@ -7,7 +7,7 @@
   <Composition artist="John Lee Hooker" titre="Boom Boom" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="2" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
-  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="3" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
   <Composition artist="Sputniks" titre="Sputnik-Thema" type="SONG" canBeMerged="true" deleted="false">
@@ -34,7 +34,7 @@
   <Composition artist="The Righteous Brothers" titre="Unchained Melody" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="11" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="false" classement="12" creationDate="07/09/2018 15:13:32" size="60"/>
   </Composition>
   <Composition artist="Simon And Garfunkel" titre="The Sound Of Silence" type="SONG" canBeMerged="true" deleted="false">

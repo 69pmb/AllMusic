@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Penny Lane" type="SONG" canBeMerged="true" deleted="false">
@@ -10,10 +10,10 @@
   <Composition artist="The Kinks" titre="Waterloo Sunset" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="4" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Jimi Hendrix" titre="All Along The Watchtower" type="SONG" canBeMerged="true" deleted="false">
@@ -46,7 +46,7 @@
   <Composition artist="Free" titre="All Right Now" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="13" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="14" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Undertones" titre="Teenage Kicks" type="SONG" canBeMerged="true" deleted="false">
@@ -73,7 +73,7 @@
   <Composition artist="The Animals" titre="House Of The Rising Sun" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="22" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="23" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Otis Redding" titre="(Sittin' On) The Dock Of The Bay" type="SONG" canBeMerged="true" deleted="true">
@@ -100,10 +100,10 @@
   <Composition artist="The Beatles" titre="Rain" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="30" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="31" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="32" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Mott The Hoople" titre="All The Young Dudes" type="SONG" canBeMerged="true" deleted="false">
@@ -133,7 +133,7 @@
   <Composition artist="Jimi Hendrix" titre="Purple Haze" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="41" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="42" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Small Faces" titre="Itchycoo Park" type="SONG" canBeMerged="true" deleted="false">
@@ -142,7 +142,7 @@
   <Composition artist="Van Morrison" titre="Brown Eyed Girl" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="44" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="45" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="R.E.M." titre="Losing My Religion" type="SONG" canBeMerged="true" deleted="false">
@@ -157,7 +157,7 @@
   <Composition artist="The Who" titre="I Can See For Miles" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="49" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="50" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Righteous Brothers" titre="You've Lost That Loving Feeling" type="SONG" canBeMerged="true" deleted="false">
@@ -193,7 +193,7 @@
   <Composition artist="Them" titre="Gloria" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="59" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="60" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Mumas And Papas" titre="California Dreamin'" type="SONG" canBeMerged="true" deleted="false">
@@ -226,7 +226,7 @@
   <Composition artist="The Shadows" titre="Apache" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="69" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The La's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The La's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="70" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Sinead O' Connor" titre="Nothing Compares To You" type="SONG" canBeMerged="true" deleted="false">
@@ -244,10 +244,10 @@
   <Composition artist="The Temptations" titre="My Girl" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="75" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="76" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="77" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Jimi Hendrix" titre="Hey Joe" type="SONG" canBeMerged="true" deleted="false">
@@ -265,7 +265,7 @@
   <Composition artist="Radiohead" titre="Creep" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="82" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="83" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Love" titre="Alone Again Or" type="SONG" canBeMerged="true" deleted="true">
@@ -301,7 +301,7 @@
   <Composition artist="Simon And Garfunkel" titre="Bridge Over Troubled Water" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="94" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Readers All Time To 100 Singles - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1997" sorted="true" classement="95" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="Heartbreak Hotel" type="SONG" canBeMerged="true" deleted="false">

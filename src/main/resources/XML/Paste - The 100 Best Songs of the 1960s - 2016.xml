@@ -43,7 +43,7 @@
   <Composition artist="The Hollies" titre="Bus Stop" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="87" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
-  <Composition artist="Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="86" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
   <Composition artist="Frankie Valli And The Four Seasons" titre="Can't Take My Eyes Off Of You" type="SONG" canBeMerged="true" deleted="false">
@@ -199,7 +199,7 @@
   <Composition artist="John Coltrane" titre="A Love Supreme" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="35" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="34" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
   <Composition artist="Smokey Robinson And The Miracles" titre="You Really Got A Hold On Me" type="SONG" canBeMerged="true" deleted="false">
@@ -235,7 +235,7 @@
   <Composition artist="The Zombies" titre="Time Of The Season" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="23" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
-  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="22" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
   <Composition artist="MC5" titre="Kick Out The Jams" type="SONG" canBeMerged="true" deleted="false">
@@ -262,13 +262,13 @@
   <Composition artist="Creedence Clearwater Revival" titre="Fortunate Son" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="14" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
-  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="13" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="I Heard Through The Grapevine" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="12" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
-  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="11" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
   <Composition artist="The Band" titre="The Weight" type="SONG" canBeMerged="true" deleted="true">
@@ -289,7 +289,7 @@
   <Composition artist="Sam Cooke" titre="A Change Is Gonna Come" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="5" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 100 Best Songs of the 1960s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="4" creationDate="31/08/2018 09:51:59" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="Space Oddity" type="SONG" canBeMerged="true" deleted="true">

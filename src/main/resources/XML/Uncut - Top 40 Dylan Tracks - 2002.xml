@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Top 40 Dylan Tracks - 2002" publishYear="2002" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="1" creationDate="03/09/2018 10:17:46" size="40"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Tangled Up In Blue" type="SONG" canBeMerged="true" deleted="false">

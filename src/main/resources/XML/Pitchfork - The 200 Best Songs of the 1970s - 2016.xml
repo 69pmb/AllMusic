@@ -43,7 +43,7 @@
   <Composition artist="Stevie Wonder" titre="Living for the City" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="14" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
-  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="15" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Born to Run" type="SONG" canBeMerged="true" deleted="false">
@@ -142,7 +142,7 @@
   <Composition artist="The Cure" titre="Boys Don't Cry" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="47" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
-  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="48" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
   <Composition artist="Dinosaur" titre="Kiss Me Again" type="SONG" canBeMerged="true" deleted="false">

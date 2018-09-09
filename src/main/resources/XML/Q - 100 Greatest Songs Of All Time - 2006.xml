@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Oasis" titre="Wonderwall" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="3" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="false">
@@ -16,16 +16,16 @@
   <Composition artist="U2" titre="One" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="6" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="7" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="8" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="9" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Radiohead" titre="Paranoid Android" type="SONG" canBeMerged="true" deleted="false">
@@ -34,25 +34,25 @@
   <Composition artist="Robbie Williams" titre="Angels" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="11" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="12" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Smiths" titre="There Is A Light That Never Goes Out" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="13" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="14" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Jeff Buckley" titre="Hallelujah" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="15" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="16" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="U2" titre="With Or Without You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="17" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="18" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Pink Floyd" titre="Comfortably Numb" type="SONG" canBeMerged="true" deleted="false">
@@ -61,7 +61,7 @@
   <Composition artist="Oasis" titre="Don't Look Back In Anger" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="20" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="21" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Guns N' Roses" titre="Sweet Child O' Mine" type="SONG" canBeMerged="true" deleted="false">
@@ -91,7 +91,7 @@
   <Composition artist="Radiohead" titre="Creep" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="30" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="31" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Stone Roses" titre="I Wanna Be Adored" type="SONG" canBeMerged="true" deleted="false">
@@ -130,7 +130,7 @@
   <Composition artist="U2" titre="Where The Streets Have No Name" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="43" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="44" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="Life On Mars" type="SONG" canBeMerged="true" deleted="true">
@@ -166,7 +166,7 @@
   <Composition artist="Kylie Minogue" titre="Can't Get You Out Of My Head" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="55" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="56" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="false">
@@ -187,7 +187,7 @@
   <Composition artist="The Rolling Stones" titre="Gimme Shelter" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="62" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="63" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Coldplay" titre="Yellow" type="SONG" canBeMerged="true" deleted="false">
@@ -196,7 +196,7 @@
   <Composition artist="Foo Fighters" titre="Monkey Wrench" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="65" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="66" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Stone Roses" titre="Fools Gold" type="SONG" canBeMerged="true" deleted="false">
@@ -205,7 +205,7 @@
   <Composition artist="David Bowie" titre="Heroes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="68" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="New Order" titre="Blue Monday" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="New Order" titre="Blue Monday" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="69" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Eagles" titre="Hotel California" type="SONG" canBeMerged="true" deleted="true">
@@ -268,7 +268,7 @@
   <Composition artist="Otis Redding" titre="Sittin On The Dock Of The Bay" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="89" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The LA's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The LA's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 100 Greatest Songs Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="90" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Bob Marley" titre="No Woman No Cry" type="SONG" canBeMerged="true" deleted="false">
