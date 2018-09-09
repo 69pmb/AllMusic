@@ -10,10 +10,10 @@
   <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers Top 100 Singles Of All Time - 1999" publishYear="1999" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1999" sorted="true" classement="3" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers Top 100 Singles Of All Time - 1999" publishYear="1999" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1999" sorted="true" classement="4" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers Top 100 Singles Of All Time - 1999" publishYear="1999" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1999" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="true">
@@ -76,7 +76,7 @@
   <Composition artist="The Smiths" titre="This Charming Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Readers Top 100 Singles Of All Time - 1999" publishYear="1999" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1999" sorted="true" classement="25" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers Top 100 Singles Of All Time - 1999" publishYear="1999" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1999" sorted="true" classement="26" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Oasis" titre="Don't Look Back In Anger" type="SONG" canBeMerged="true" deleted="false">
@@ -190,7 +190,7 @@
   <Composition artist="The Rolling Stones" titre="Jumping Jack Flash" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Readers Top 100 Singles Of All Time - 1999" publishYear="1999" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1999" sorted="true" classement="63" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers Top 100 Singles Of All Time - 1999" publishYear="1999" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1999" sorted="true" classement="64" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="George Michael" titre="Careless Whisper" type="SONG" canBeMerged="true" deleted="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
@@ -16,10 +16,10 @@
   <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="6" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Aretha Franklin" titre="Respect" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Aretha Franklin" titre="Respect" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="7" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="U2" titre="With Or Without You" type="SONG" canBeMerged="true" deleted="false">
@@ -43,7 +43,7 @@
   <Composition artist="The Rolling Stones" titre="Brown Sugar" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="14" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="15" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Siniad O-Connor" titre="Nothing Compares 2 U" type="SONG" canBeMerged="true" deleted="false">
@@ -70,7 +70,7 @@
   <Composition artist="Roy Orbison" titre="Oh, Pretty Woman" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="23" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="24" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Britney Spears" titre="Baby One More Time" type="SONG" canBeMerged="true" deleted="false">
@@ -103,7 +103,7 @@
   <Composition artist="Alanis Morissette" titre="Ironic" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="34" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="35" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="TLC" titre="Waterfalls" type="SONG" canBeMerged="true" deleted="false">
@@ -187,7 +187,7 @@
   <Composition artist="Madonna" titre="Papa Don-t Preach" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="62" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="63" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Elton John" titre="Bennie And The Jets" type="SONG" canBeMerged="true" deleted="false">

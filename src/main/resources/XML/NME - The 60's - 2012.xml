@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="The Ronettes" titre="Bee My Baby" type="SONG" canBeMerged="true" deleted="true">
@@ -19,7 +19,7 @@
   <Composition artist="The Velvet Underground" titre="I'm Waiting For The Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Sympathy For The Devil" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Sympathy For The Devil" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="Suspicious Minds" type="SONG" canBeMerged="true" deleted="false">
@@ -46,7 +46,7 @@
   <Composition artist="The Stooges" titre="I Wanna Be Your Dog" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="15" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Aretha Franklin" titre="Respect" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Aretha Franklin" titre="Respect" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="16" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="These Boots Are Made For Walking" titre="Nancy Sinatra" type="SONG" canBeMerged="true" deleted="false">
@@ -163,7 +163,7 @@
   <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="54" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="55" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Louis Armstrong" titre="What A Wonderful World" type="SONG" canBeMerged="true" deleted="false">
@@ -202,7 +202,7 @@
   <Composition artist="The Who" titre="I Can't Explain" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="67" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Sam Cooke" titre="A Change Is Gonna Come" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Sam Cooke" titre="A Change Is Gonna Come" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="68" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Love" titre="Alone Again Or" type="SONG" canBeMerged="true" deleted="true">

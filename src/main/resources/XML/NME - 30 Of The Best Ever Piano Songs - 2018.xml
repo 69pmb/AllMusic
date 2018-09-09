@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 30 Of The Best Ever Piano Songs - 2018" publishYear="2018" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2018" sorted="true" classement="1" creationDate="05/09/2018 11:22:03" size="30"/>
   </Composition>
   <Composition artist="Dr Dre" titre="Still D.R.E" type="SONG" canBeMerged="true" deleted="false">
@@ -22,7 +22,7 @@
   <Composition artist="Nick Drake" titre="One Of These Things First" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 30 Of The Best Ever Piano Songs - 2018" publishYear="2018" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2018" sorted="true" classement="7" creationDate="05/09/2018 11:22:03" size="30"/>
   </Composition>
-  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 30 Of The Best Ever Piano Songs - 2018" publishYear="2018" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2018" sorted="true" classement="8" creationDate="05/09/2018 11:22:03" size="30"/>
   </Composition>
   <Composition artist="Oasis" titre="Don't Look Back In Anger" type="SONG" canBeMerged="true" deleted="false">

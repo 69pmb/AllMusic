@@ -7,7 +7,7 @@
   <Composition artist="Michael Jackson" titre="Don't Stop 'Til You Get Enough" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="2" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="3" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
   <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="true">
@@ -46,7 +46,7 @@
   <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="15" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Born to Run" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Born to Run" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="16" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
   <Composition artist="Iggy Pop" titre="Lust for Life" type="SONG" canBeMerged="true" deleted="false">
@@ -181,7 +181,7 @@
   <Composition artist="Alice Coltrane" titre="Journey in Satchidananda" type="SONG" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="60" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - The 200 Best Songs of the 1970s - 2016" publishYear="2016" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="61" creationDate="04/07/2018 14:22:19" size="200"/>
   </Composition>
   <Composition artist="The Modern Lovers" titre="Roadrunner" type="SONG" canBeMerged="true" deleted="false">

@@ -4,10 +4,10 @@
   <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Sympathy For The Devil" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Sympathy For The Devil" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Pink Floyd" titre="Shine On You Crazy Diamond" type="SONG" canBeMerged="true" deleted="false">
@@ -19,7 +19,7 @@
   <Composition artist="Kate Bush" titre="Wuthering Heights" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="6" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Beatls" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatls" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="7" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="An American Trilogy" type="SONG" canBeMerged="true" deleted="false">
