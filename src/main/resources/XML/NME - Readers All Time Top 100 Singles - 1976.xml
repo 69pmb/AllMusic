@@ -112,7 +112,7 @@
   <Composition artist="Elton John" titre="Your Song" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers All Time Top 100 Singles - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="37" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Jimi Hendrix" titre="Purple Haze" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Jimi Hendrix" titre="Purple Haze" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All Time Top 100 Singles - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="38" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Beach Boys" titre="I Get Around" type="SONG" canBeMerged="true" deleted="false">
@@ -148,7 +148,7 @@
   <Composition artist="Jimi Hendrix" titre="Voodoo Chile" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers All Time Top 100 Singles - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="49" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All Time Top 100 Singles - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="50" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Who" titre="Won't Get Fooled Again" type="SONG" canBeMerged="true" deleted="false">
@@ -157,7 +157,7 @@
   <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All Time Top 100 Singles - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="52" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All Time Top 100 Singles - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="53" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Doors" titre="Riders On The Storm" type="SONG" canBeMerged="true" deleted="false">
@@ -175,7 +175,7 @@
   <Composition artist="Nilsson" titre="Without You" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Readers All Time Top 100 Singles - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="58" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Readers All Time Top 100 Singles - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="59" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Kinks" titre="Waterloo Sunset" type="SONG" canBeMerged="true" deleted="false">

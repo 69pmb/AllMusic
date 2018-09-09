@@ -7,7 +7,7 @@
   <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="3" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="I Heard It Through The Grapevine" type="SONG" canBeMerged="true" deleted="false">
@@ -16,7 +16,7 @@
   <Composition artist="The Jackson 5" titre="I Want You Back" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Aretha Franklin" titre="Respect" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Aretha Franklin" titre="Respect" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="6" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Otis Redding" titre="(Sittin' On) The Dock Of The Bay" type="SONG" canBeMerged="true" deleted="true">
@@ -25,7 +25,7 @@
   <Composition artist="Creedence Clearwater Revival" titre="Fortunate Son" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="8" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="9" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Supremes" titre="Stop! In The Name Of Love" type="SONG" canBeMerged="true" deleted="false">
@@ -40,7 +40,7 @@
   <Composition artist="Wilson Pickett" titre="In The Midnight Hour" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="13" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="14" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="true">
@@ -85,7 +85,7 @@
   <Composition artist="The Temptations" titre="My Girl" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="28" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="29" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Ike And Tina Turner" titre="River Deep, Mountain High" type="SONG" canBeMerged="true" deleted="true">
@@ -130,7 +130,7 @@
   <Composition artist="Roy Orbison" titre="Oh, Pretty Woman" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="43" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="44" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Al Green" titre="Let's Stay Together" type="SONG" canBeMerged="true" deleted="false">
@@ -157,7 +157,7 @@
   <Composition artist="Creedence Clearwater Revival" titre="Proud Mary" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="52" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="53" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Foreigner" titre="I Want To Know What Love Is" type="SONG" canBeMerged="true" deleted="false">

@@ -52,10 +52,10 @@
   <Composition artist="Warren Zevon" titre="Werewolves Of London" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="17" creationDate="07/09/2018 15:13:27" size="70"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="18" creationDate="07/09/2018 15:13:27" size="70"/>
   </Composition>
-  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="19" creationDate="07/09/2018 15:13:27" size="70"/>
   </Composition>
   <Composition artist="Manu Dibango" titre="Soul Makossa" type="SONG" canBeMerged="true" deleted="false">
@@ -94,7 +94,7 @@
   <Composition artist="Led Zeppelin" titre="Kashmir" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="31" creationDate="07/09/2018 15:13:27" size="70"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="false" classement="32" creationDate="07/09/2018 15:13:27" size="70"/>
   </Composition>
   <Composition artist="Max Romeo And The Upsetters" titre="I Chase The Devil" type="SONG" canBeMerged="true" deleted="false">

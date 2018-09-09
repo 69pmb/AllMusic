@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="The Kinks" titre="Waterloo Sunset" type="SONG" canBeMerged="true" deleted="false">
@@ -25,7 +25,7 @@
   <Composition artist="David Bowie" titre="Life On Mars" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="8" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Sympathy For The Devil" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Sympathy For The Devil" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="9" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Massive Attack" titre="Unfinished Sympathy" type="SONG" canBeMerged="true" deleted="false">
@@ -34,7 +34,7 @@
   <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="11" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="12" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="The Smiths" titre="There Is A Light That Never Goes Out" type="SONG" canBeMerged="true" deleted="false">
@@ -97,7 +97,7 @@
   <Composition artist="The Specials" titre="Ghost Town" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="32" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 50 Greatest British Tracks - 2004" publishYear="2004" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="33" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Franz Ferdinand" titre="Take Me Out" type="SONG" canBeMerged="true" deleted="true">
