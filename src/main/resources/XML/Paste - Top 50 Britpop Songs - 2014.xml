@@ -136,10 +136,10 @@
   <Composition artist="Blur" titre="Girls And Boys" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - Top 50 Britpop Songs - 2014" publishYear="2014" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="6" creationDate="31/08/2018 09:45:51" size="50"/>
   </Composition>
-  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - Top 50 Britpop Songs - 2014" publishYear="2014" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="5" creationDate="31/08/2018 09:45:51" size="50"/>
   </Composition>
-  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - Top 50 Britpop Songs - 2014" publishYear="2014" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="4" creationDate="31/08/2018 09:45:51" size="50"/>
   </Composition>
   <Composition artist="Blur" titre="Song 2" type="SONG" canBeMerged="true" deleted="false">
@@ -148,7 +148,7 @@
   <Composition artist="Oasis" titre="Wonderwall" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - Top 50 Britpop Songs - 2014" publishYear="2014" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="2" creationDate="31/08/2018 09:45:51" size="50"/>
   </Composition>
-  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - Top 50 Britpop Songs - 2014" publishYear="2014" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="1" creationDate="31/08/2018 09:45:51" size="50"/>
   </Composition>
 </ListCompositions>

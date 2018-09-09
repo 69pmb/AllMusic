@@ -7,7 +7,7 @@
   <Composition artist="Michael Jackson" titre="Beat It" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Song - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
   <Composition artist="Prince" titre="Little Red Corvette" type="SONG" canBeMerged="true" deleted="false">

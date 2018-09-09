@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Nirvana" titre="Smells Like Teen Sprit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Sprit" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Donna Summer" titre="I Feel Love" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="3" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="4" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Strokes" titre="Last Night" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="5" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="6" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Arctic Monkeys" titre="I Bet You Look Good O The Dancefloor" type="SONG" canBeMerged="true" deleted="false">
@@ -25,10 +25,10 @@
   <Composition artist="New Monday" titre="Blue Monday" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="8" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="9" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="10" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="Eleanor Rigby" type="SONG" canBeMerged="true" deleted="false">
@@ -37,7 +37,7 @@
   <Composition artist="The Smiths" titre="There Is A Light That Never Goes Out" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="12" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="13" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="God Only Knows" type="SONG" canBeMerged="true" deleted="true">
@@ -46,7 +46,7 @@
   <Composition artist="David Bowie" titre="Heroes" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="15" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="16" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="false">
@@ -64,7 +64,7 @@
   <Composition artist="The Specials" titre="Ghost Town" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="21" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The La's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The La's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="22" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Kinks" titre="Waterloo Sunset" type="SONG" canBeMerged="true" deleted="false">
@@ -79,7 +79,7 @@
   <Composition artist="LCD Soundsystem" titre="Losing My Edge" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="26" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="27" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Libertines" titre="Time For Heroes" type="SONG" canBeMerged="true" deleted="false">
@@ -94,7 +94,7 @@
   <Composition artist="The Stone Roses" titre="Fools Gold" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="31" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="32" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Suede" titre="Animal Nitrate" type="SONG" canBeMerged="true" deleted="false">
@@ -103,7 +103,7 @@
   <Composition artist="David Bowie" titre="Life On Mars?" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="34" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="35" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Oasis" titre="Wonderwall" type="SONG" canBeMerged="true" deleted="false">
@@ -145,7 +145,7 @@
   <Composition artist="The Cure" titre="Boys Don't Cry" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="48" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="49" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Lou Reed" titre="Walk On The Wild Side" type="SONG" canBeMerged="true" deleted="false">
@@ -169,7 +169,7 @@
   <Composition artist="Beastie Boys" titre="Sabotage" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="56" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="57" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="Suspicious Minds" type="SONG" canBeMerged="true" deleted="false">
@@ -208,7 +208,7 @@
   <Composition artist="The Clash" titre="(White Man) In Hammersmith Palais" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="69" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="70" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Buzzcocks" titre="Ever Fallen In Love" type="SONG" canBeMerged="true" deleted="false">
@@ -220,7 +220,7 @@
   <Composition artist="PJ Harvey" titre="Sheena-Na-Gig" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="73" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Franz Ferdinand" titre="Take Me Out" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Franz Ferdinand" titre="Take Me Out" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="74" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Streets" titre="Dry Your Eyes" type="SONG" canBeMerged="true" deleted="false">
@@ -343,7 +343,7 @@
   <Composition artist="Happy Mondays" titre="Step On" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="114" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="115" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Killers" titre="Mr Brightside" type="SONG" canBeMerged="true" deleted="false">
@@ -655,7 +655,7 @@
   <Composition artist="Nick Cave" titre="Straight To You" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="218" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="219" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Blur" titre="End Of The Century" type="SONG" canBeMerged="true" deleted="false">

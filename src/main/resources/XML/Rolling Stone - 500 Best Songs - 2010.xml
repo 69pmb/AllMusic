@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bob Dylan" titre="Like a Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like a Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="1" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="2" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
@@ -16,7 +16,7 @@
   <Composition artist="Aretha Franklin" titre="Respect" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="5" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="6" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Chuck Berry" titre="Johnny B. Goode" type="SONG" canBeMerged="true" deleted="true">
@@ -25,13 +25,13 @@
   <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="8" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="9" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Ray Charles" titre="What'd I Say" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="10" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="11" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Sam Cooke" titre="A Change Is Gonna Come" type="SONG" canBeMerged="true" deleted="false">
@@ -43,7 +43,7 @@
   <Composition artist="Bob Dylan" titre="Blowin' in the Wind" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="14" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="15" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="I Want to Hold Your Hand" type="SONG" canBeMerged="true" deleted="false">
@@ -64,7 +64,7 @@
   <Composition artist="Bruce Springsteen" titre="Born to Run" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="21" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="22" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="false">
@@ -169,7 +169,7 @@
   <Composition artist="Procol Harum" titre="A Whiter Shade Of Pale" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="57" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="58" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="The Times They Are A Changin'" type="SONG" canBeMerged="true" deleted="false">
@@ -223,7 +223,7 @@
   <Composition artist="Led Zeppelin" titre="Whole Lotta Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="75" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="76" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="Mystery Train" type="SONG" canBeMerged="true" deleted="true">
@@ -235,7 +235,7 @@
   <Composition artist="The Byrds" titre="Mr. Tambourine Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="79" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="80" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="I Heard It Through the Grapevine" type="SONG" canBeMerged="true" deleted="false">
@@ -493,7 +493,7 @@
   <Composition artist="Sinead O'Connor" titre="Nothing Compares 2 U" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="165" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="166" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Tracy Chapman" titre="Fast Car" type="SONG" canBeMerged="true" deleted="false">
@@ -520,7 +520,7 @@
   <Composition artist="Abba" titre="Dancing Queen" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="174" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Sex Pistols" titre="God Save the Queen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Sex Pistols" titre="God Save the Queen" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="175" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Paint It, Black" type="SONG" canBeMerged="true" deleted="false">
@@ -538,7 +538,7 @@
   <Composition artist="Big Star" titre="September Gurls" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="180" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="181" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Outkast" titre="Hey Ya!" type="SONG" canBeMerged="true" deleted="false">
@@ -853,7 +853,7 @@
   <Composition artist="Bill Withers" titre="Ain't No Sunshine" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="285" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="286" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Stevie Wonder" titre="You Are the Sunshine of My Life" type="SONG" canBeMerged="true" deleted="false">
@@ -976,7 +976,7 @@
   <Composition artist="Alice Cooper" titre="School's Out" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="326" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="Franz Ferdinand" titre="Take Me Out" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Franz Ferdinand" titre="Take Me Out" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="327" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="Heartbreaker" type="SONG" canBeMerged="true" deleted="false">
@@ -1171,7 +1171,7 @@
   <Composition artist="Aaron Neville" titre="Tell It Like It Is" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="391" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="392" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Allman Brothers Band" titre="Whipping Post" type="SONG" canBeMerged="true" deleted="true">
@@ -1423,7 +1423,7 @@
   <Composition artist="Aretha Franklin" titre="Do Right Woman, Do Right Man" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="476" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
-  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Best Songs - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="477" creationDate="03/08/2017 11:15:33" size="500"/>
   </Composition>
   <Composition artist="The Strokes" titre="Last Night" type="SONG" canBeMerged="true" deleted="false">

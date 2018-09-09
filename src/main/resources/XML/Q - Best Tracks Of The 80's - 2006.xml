@@ -70,7 +70,7 @@
   <Composition artist="U2" titre="Sunday Bloody Sunday" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Best Tracks Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="18" creationDate="28/08/2018 14:33:43" size="40"/>
   </Composition>
-  <Composition artist="The LA's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The LA's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Best Tracks Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="17" creationDate="28/08/2018 14:33:43" size="40"/>
   </Composition>
   <Composition artist="Soft Cell" titre="Tainted Love" type="SONG" canBeMerged="true" deleted="false">
@@ -79,13 +79,13 @@
   <Composition artist="The Jam" titre="Going Underground" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Best Tracks Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="15" creationDate="28/08/2018 14:33:43" size="40"/>
   </Composition>
-  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Best Tracks Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="14" creationDate="28/08/2018 14:33:43" size="40"/>
   </Composition>
   <Composition artist="NWA" titre="Fuch Tha Police" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Best Tracks Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="13" creationDate="28/08/2018 14:33:43" size="40"/>
   </Composition>
-  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Best Tracks Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="12" creationDate="28/08/2018 14:33:43" size="40"/>
   </Composition>
   <Composition artist="Frankie Goes To Hollywood" titre="Relax" type="SONG" canBeMerged="true" deleted="false">
@@ -115,10 +115,10 @@
   <Composition artist="Prince" titre="Kiss" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Best Tracks Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="3" creationDate="28/08/2018 14:33:43" size="40"/>
   </Composition>
-  <Composition artist="New Order" titre="Blue Monday" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="New Order" titre="Blue Monday" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Best Tracks Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="2" creationDate="28/08/2018 14:33:43" size="40"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Best Tracks Of The 80's - 2006" publishYear="2006" categorie="DECADE" rangeDateBegin="1980" rangeDateEnd="1989" sorted="true" classement="1" creationDate="28/08/2018 14:33:43" size="40"/>
   </Composition>
 </ListCompositions>

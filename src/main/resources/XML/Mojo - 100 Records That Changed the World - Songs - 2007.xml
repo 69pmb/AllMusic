@@ -13,7 +13,7 @@
   <Composition artist="Ray Charles" titre="What'd I Say" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="9" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="God Save The Queen" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="10" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
   <Composition artist="Chuck Berry" titre="Johnny B Goode" type="SONG" canBeMerged="true" deleted="true">
@@ -25,16 +25,16 @@
   <Composition artist="James Brown" titre="Papa's Got A Brand New Bag" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="15" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="17" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="19" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
   <Composition artist="Charlie Parker" titre="KoKo" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="26" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="27" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
   <Composition artist="Grandmaster Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="true">
@@ -52,10 +52,10 @@
   <Composition artist="Link Wray" titre="Rumble" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="41" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
-  <Composition artist="Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="44" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
-  <Composition artist="Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Records That Changed the World - Songs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="true" classement="45" creationDate="24/08/2018 10:36:53" size="100"/>
   </Composition>
   <Composition artist="Sam Cooke" titre="You Send Me" type="SONG" canBeMerged="true" deleted="false">

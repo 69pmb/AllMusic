@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="false">
@@ -31,7 +31,7 @@
   <Composition artist="The Supremes" titre="Stop! In The Name Of Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="10" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="11" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Smokey Robinson" titre="The Tracks Of My Tears" type="SONG" canBeMerged="true" deleted="false">
@@ -43,10 +43,10 @@
   <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="14" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="15" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="16" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Prince" titre="Little Red Corvette" type="SONG" canBeMerged="true" deleted="false">
@@ -64,7 +64,7 @@
   <Composition artist="Martha An The Vandellas" titre="Dancing In The Street" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="21" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="22" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Four Tops" titre="Reach Out I'll Be There" type="SONG" canBeMerged="true" deleted="false">
@@ -112,7 +112,7 @@
   <Composition artist="The Box Tops" titre="The Letter" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="37" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="38" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Sam The Sham" titre="Wooly Bully" type="SONG" canBeMerged="true" deleted="false">
@@ -142,7 +142,7 @@
   <Composition artist="Elvis Presley" titre="Suspicious Minds" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="47" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="48" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Otis Redding" titre="Try A Little Tenderness" type="SONG" canBeMerged="true" deleted="false">
@@ -187,7 +187,7 @@
   <Composition artist="The Young Rascals" titre="Groovin'" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="62" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1989" publishYear="1990" categorie="MISCELLANEOUS" rangeDateBegin="1965" rangeDateEnd="1990" sorted="true" classement="63" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Searchers" titre="Needles And Pins" type="SONG" canBeMerged="true" deleted="false">

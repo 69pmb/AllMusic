@@ -4,10 +4,10 @@
   <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="The Ronettes" titre="Bee My Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Ronettes" titre="Bee My Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Jimi Hendrix" titre="All Along The Watchtower" type="SONG" canBeMerged="true" deleted="false">
@@ -25,7 +25,7 @@
   <Composition artist="Elvis Presley" titre="Suspicious Minds" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="I Herd It Through The Grapevine" type="SONG" canBeMerged="true" deleted="false">
@@ -61,7 +61,7 @@
   <Composition artist="David Bowie" titre="Space Oddity" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="20" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="21" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Mc5" titre="Kick Out The Jams" type="SONG" canBeMerged="true" deleted="false">
@@ -76,7 +76,7 @@
   <Composition artist="Buffalo Springfield" titre="For What It's Worth" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="25" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="26" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Gimmie Shelter" type="SONG" canBeMerged="true" deleted="false">
@@ -160,7 +160,7 @@
   <Composition artist="Creedence Clearwater Revival" titre="Bad Moon Rising" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="53" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 60's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="54" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="false">

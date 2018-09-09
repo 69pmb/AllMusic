@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 100 Greatest Britpop Songs - 2013" publishYear="2013" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="1" creationDate="04/09/2018 15:31:37" size="100"/>
   </Composition>
   <Composition artist="Blur" titre="Girls And Boys" type="SONG" canBeMerged="true" deleted="true">
@@ -43,7 +43,7 @@
   <Composition artist="Ash" titre="Girl From Mars" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 100 Greatest Britpop Songs - 2013" publishYear="2013" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="14" creationDate="04/09/2018 15:31:37" size="100"/>
   </Composition>
-  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Oasis" titre="Live Forever" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 100 Greatest Britpop Songs - 2013" publishYear="2013" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="15" creationDate="04/09/2018 15:31:37" size="100"/>
   </Composition>
   <Composition artist="Pulp" titre="Babies" type="SONG" canBeMerged="true" deleted="false">

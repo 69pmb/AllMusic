@@ -16,7 +16,7 @@
   <Composition artist="John Lennon" titre="(Just Like) Starting Over" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="5" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
-  <Composition artist="The La's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The La's" titre="There She Goes" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="6" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
   <Composition artist="The Pretenders" titre="Brass In Pocket" type="SONG" canBeMerged="true" deleted="false">
@@ -61,7 +61,7 @@
   <Composition artist="Cornershop" titre="Brimful Of Asha" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="20" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="21" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
   <Composition artist="Coldplay" titre="Yellow" type="SONG" canBeMerged="true" deleted="false">
@@ -103,7 +103,7 @@
   <Composition artist="The House Of Love" titre="Shine On" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="34" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Classic Singles - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="35" creationDate="02/07/2017 07:08:56" size="60"/>
   </Composition>
   <Composition artist="Talking Heads" titre="Road To Nowhere" type="SONG" canBeMerged="true" deleted="false">

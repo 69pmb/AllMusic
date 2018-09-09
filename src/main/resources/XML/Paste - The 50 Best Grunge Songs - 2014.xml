@@ -148,7 +148,7 @@
   <Composition artist="Pearl Jam" titre="Alive" type="SONG" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - The 50 Best Grunge Songs - 2014" publishYear="2014" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="2" creationDate="31/08/2018 10:00:07" size="50"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 50 Best Grunge Songs - 2014" publishYear="2014" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="1" creationDate="31/08/2018 10:00:07" size="50"/>
   </Composition>
 </ListCompositions>

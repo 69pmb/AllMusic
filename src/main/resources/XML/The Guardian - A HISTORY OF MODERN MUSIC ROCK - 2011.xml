@@ -37,7 +37,7 @@
   <Composition artist="The Rolling Stones" titre="Get Off Of My Cloud" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="12" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="18" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Desolation Row" type="SONG" canBeMerged="true" deleted="false">
@@ -181,7 +181,7 @@
   <Composition artist="Patti Smith" titre="Land" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="61" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
-  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="62" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
   <Composition artist="David Bowie" titre="Be My Wife" type="SONG" canBeMerged="true" deleted="false">
@@ -244,7 +244,7 @@
   <Composition artist="U2" titre="One" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="80" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="85" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
   <Composition artist="Pearl Jam" titre="Alive" type="SONG" canBeMerged="true" deleted="false">
@@ -292,7 +292,7 @@
   <Composition artist="The Darkness" titre="I Believe In A Thing Called Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="75" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
-  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publishYear="2011" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="96" creationDate="27/08/2018 12:23:14" size="100"/>
   </Composition>
   <Composition artist="Snow Patrol" titre="Chasing Cars" type="SONG" canBeMerged="true" deleted="false">

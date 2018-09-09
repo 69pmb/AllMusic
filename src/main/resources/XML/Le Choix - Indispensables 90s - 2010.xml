@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Le Choix" fileName="Le Choix - Indispensables 90s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="1" creationDate="31/07/2018 11:29:02" size="33"/>
   </Composition>
   <Composition artist="Metallica" titre="Enter Sandman" type="SONG" canBeMerged="true" deleted="false">
@@ -34,13 +34,13 @@
   <Composition artist="Sinead O'Connor" titre="Nothing Compares 2 U" type="SONG" canBeMerged="true" deleted="false">
     <File author="Le Choix" fileName="Le Choix - Indispensables 90s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="11" creationDate="31/07/2018 11:29:02" size="33"/>
   </Composition>
-  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="true">
     <File author="Le Choix" fileName="Le Choix - Indispensables 90s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="12" creationDate="31/07/2018 11:29:02" size="33"/>
   </Composition>
   <Composition artist="Beck" titre="Loser" type="SONG" canBeMerged="true" deleted="false">
     <File author="Le Choix" fileName="Le Choix - Indispensables 90s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="13" creationDate="31/07/2018 11:29:02" size="33"/>
   </Composition>
-  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="true">
     <File author="Le Choix" fileName="Le Choix - Indispensables 90s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="14" creationDate="31/07/2018 11:29:02" size="33"/>
   </Composition>
   <Composition artist="Angry Samoans" titre="Buddy Holly" type="SONG" canBeMerged="true" deleted="false">
