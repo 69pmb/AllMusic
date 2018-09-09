@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="1" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
@@ -37,7 +37,7 @@
   <Composition artist="The Righteous Brothers" titre="You've Lost That Lovin' Feeling" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="10" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="11" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Dionne Warwick" titre="I Say A Little Prayer" type="SONG" canBeMerged="true" deleted="false">
@@ -115,7 +115,7 @@
   <Composition artist="The Pretenders" titre="I Go To Sleep" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="28" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="29" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="Judy Collins" titre="I Think It's Going To Rain Today" type="SONG" canBeMerged="true" deleted="false">
@@ -244,7 +244,7 @@
   <Composition artist="Harold Melvin" titre="If You Don't Know Me By Now" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="59" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Greatest Songs Of All The Time - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="60" creationDate="25/08/2017 20:30:52" size="100"/>
   </Composition>
   <Composition artist="The Kinks" titre="Waterloo Sunset" type="SONG" canBeMerged="true" deleted="false">

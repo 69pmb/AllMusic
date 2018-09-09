@@ -16,7 +16,7 @@
   <Composition artist="Van Halen" titre="Eruption" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="true" classement="6" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="true" classement="8" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Allman Brothers Band" titre="Statesboro Blues" type="SONG" canBeMerged="true" deleted="false">
@@ -31,7 +31,7 @@
   <Composition artist="Derek and The Dominos" titre="Layla" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="true" classement="13" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="true" classement="14" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">

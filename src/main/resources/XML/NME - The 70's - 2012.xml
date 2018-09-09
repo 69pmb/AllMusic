@@ -22,7 +22,7 @@
   <Composition artist="Blondie" titre="Heart Of Glass" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Michael Jackson" titre="Dont Stop Til You Get Enough" type="SONG" canBeMerged="true" deleted="false">
@@ -34,7 +34,7 @@
   <Composition artist="Talking Heads" titre="Psycho Killer" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="11" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="12" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="The Undertones" titre="Teenage Kicks" type="SONG" canBeMerged="true" deleted="false">
@@ -58,7 +58,7 @@
   <Composition artist="Joy Division" titre="Transmission" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="19" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="20" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="Lets Get It On" type="SONG" canBeMerged="true" deleted="false">
@@ -97,7 +97,7 @@
   <Composition artist="Black Sabbath" titre="Paranoid" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="32" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="Whats Going On" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="Whats Going On" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 70's - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1970" rangeDateEnd="1979" sorted="true" classement="33" creationDate="05/01/2018 13:17:17" size="100"/>
   </Composition>
   <Composition artist="Rod Stewart" titre="Maggie May" type="SONG" canBeMerged="true" deleted="false">

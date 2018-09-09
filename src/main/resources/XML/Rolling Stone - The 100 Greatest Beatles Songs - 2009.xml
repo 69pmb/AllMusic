@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="1" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Strawberry Fields Forever" type="SONG" canBeMerged="true" deleted="true">
@@ -13,7 +13,7 @@
   <Composition artist="The Beatles" titre="Penny Lane" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="4" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="5" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Happiness Is A Warm Gun" type="SONG" canBeMerged="true" deleted="false">
@@ -22,7 +22,7 @@
   <Composition artist="The Beatles" titre="Helter Skelter" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="7" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Hey Jude" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="8" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Across The Universe" type="SONG" canBeMerged="true" deleted="false">
@@ -46,10 +46,10 @@
   <Composition artist="The Beatles" titre="You've Got To Hide Your Love Away" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="15" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Let It Be" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="16" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="17" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Ticket To Ride" type="SONG" canBeMerged="true" deleted="false">
@@ -58,7 +58,7 @@
   <Composition artist="The Beatles" titre="While My Guitar Gently Weeps" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="19" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="20" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="All My Loving" type="SONG" canBeMerged="true" deleted="false">
@@ -163,7 +163,7 @@
   <Composition artist="The Beatles" titre="Rain" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="54" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publishYear="2009" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2009" sorted="true" classement="55" creationDate="07/09/2018 13:25:37" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Don't Let Me Down" type="SONG" canBeMerged="true" deleted="false">

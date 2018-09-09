@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Classic Rock Magazine - Best Songs Ever - 1999" publishYear="1999" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1999" sorted="true" classement="1" creationDate="26/06/2018 14:05:48" size="50"/>
   </Composition>
   <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">

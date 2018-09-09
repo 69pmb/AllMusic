@@ -55,7 +55,7 @@
   <Composition artist="Carl Perkins" titre="Blue Suede Shoes" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="false" classement="18" creationDate="07/09/2018 15:20:09" size="50"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="I Walk The Line" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Johnny Cash" titre="I Walk The Line" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="false" classement="19" creationDate="07/09/2018 15:20:09" size="50"/>
   </Composition>
   <Composition artist="Roy Orbison" titre="Ooby Dooby" type="SONG" canBeMerged="true" deleted="false">
@@ -142,7 +142,7 @@
   <Composition artist="Dion And The Belmonts" titre="A Teenager In Love" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="false" classement="47" creationDate="07/09/2018 15:20:09" size="50"/>
   </Composition>
-  <Composition artist="Ray Charles" titre="What'd I Say" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Ray Charles" titre="What'd I Say" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1950" rangeDateEnd="1959" sorted="false" classement="48" creationDate="07/09/2018 15:20:09" size="50"/>
   </Composition>
   <Composition artist="Barrett Strong" titre="Money (That's What I Want)" type="SONG" canBeMerged="true" deleted="false">

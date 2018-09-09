@@ -10,7 +10,7 @@
   <Composition artist="Nirvana" titre="Smells Like Teen Sprit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="A Day In The Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="4" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Elvis Presley" titre="In The Ghetto" type="SONG" canBeMerged="true" deleted="false">
@@ -190,7 +190,7 @@
   <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="63" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Marvin Gaye" titre="What's Going On" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="64" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="The Clash" titre="London Calling" type="SONG" canBeMerged="true" deleted="true">
@@ -379,7 +379,7 @@
   <Composition artist="John Lennon" titre="Woman" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="126" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="John Lennon" titre="Imagine" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="127" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="John Lennon" titre="Mother" type="SONG" canBeMerged="true" deleted="false">
@@ -472,7 +472,7 @@
   <Composition artist="Ice Cube" titre="It Was A Good Day" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="157" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Rolling Stones" titre="Sympathy For The Devil" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Rolling Stones" titre="Sympathy For The Devil" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="158" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Primal Scream" titre="Rocks" type="SONG" canBeMerged="true" deleted="false">
@@ -550,7 +550,7 @@
   <Composition artist="Starsailor" titre="Good Souls" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="183" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="In My Life" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="184" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Pink" titre="Get The Party Started" type="SONG" canBeMerged="true" deleted="false">
@@ -880,7 +880,7 @@
   <Composition artist="Jackie Wilson" titre="Because Of You" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="10" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="294" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Electric Six" titre="Gaye Bar" type="SONG" canBeMerged="true" deleted="false">
@@ -1405,7 +1405,7 @@
   <Composition artist="N.E.R.D." titre="Rock Star" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="468" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Help!" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="469" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Def Leppard" titre="Pour Some Sugar On Me" type="SONG" canBeMerged="true" deleted="false">
@@ -1717,7 +1717,7 @@
   <Composition artist="Jimmy Forrest" titre="Night Train" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="7" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Johnny Cash" titre="I Walk The Line" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Johnny Cash" titre="I Walk The Line" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="8" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Tennessee Ernie Ford" titre="Sixteen Tons" type="SONG" canBeMerged="true" deleted="false">
@@ -2758,7 +2758,7 @@
   <Composition artist="Muse" titre="Plug In Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="919" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
-  <Composition artist="Bruce Sprinsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bruce Sprinsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 1001 Best Songs Ever - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="920" creationDate="25/01/2017 10:01:40" size="1001"/>
   </Composition>
   <Composition artist="Dinosaur Jr." titre="Freak Scene" type="SONG" canBeMerged="true" deleted="false">
