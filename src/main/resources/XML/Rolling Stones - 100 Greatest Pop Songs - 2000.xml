@@ -4,16 +4,16 @@
   <Composition artist="The Beatles" titre="Yesterday" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Smells Like Teen Spirit" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="3" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Madonna" titre="Like A Virgin" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="4" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="5" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="I Want To Hold Your Hand" type="SONG" canBeMerged="true" deleted="false">
@@ -58,7 +58,7 @@
   <Composition artist="Madonna" titre="Vogue" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="19" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="20" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Van Morrison" titre="Brown Eyed Girl" type="SONG" canBeMerged="true" deleted="false">
@@ -85,7 +85,7 @@
   <Composition artist="Hanson" titre="MMMBop" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="28" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="29" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Elton John" titre="Your Song" type="SONG" canBeMerged="true" deleted="false">
@@ -97,7 +97,7 @@
   <Composition artist="Otis Redding" titre="(Sittin On) The Dock Of The Bay" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="32" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="33" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="Alanis Morissette" titre="Ironic" type="SONG" canBeMerged="true" deleted="false">
@@ -208,7 +208,7 @@
   <Composition artist="Depeche Mode" titre="Just Can't Get Enough" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="69" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
-  <Composition artist="Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stones - 100 Greatest Pop Songs - 2000" publishYear="2000" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2000" sorted="true" classement="70" creationDate="19/07/2017 07:11:54" size="100"/>
   </Composition>
   <Composition artist="The Ramones" titre="I Wanna Be Sedated" type="SONG" canBeMerged="true" deleted="false">

@@ -148,7 +148,7 @@
   <Composition artist="The Smiths" titre="The Queen Is Dead" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Smiths' 50 Greatest Songs - 2016" publishYear="2016" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="2" creationDate="24/08/2018 13:55:11" size="50"/>
   </Composition>
-  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Smiths" titre="How Soon Is Now?" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Smiths' 50 Greatest Songs - 2016" publishYear="2016" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="1" creationDate="24/08/2018 13:55:11" size="50"/>
   </Composition>
 </ListCompositions>

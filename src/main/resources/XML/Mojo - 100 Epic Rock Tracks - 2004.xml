@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Queen" titre="Bohemian Rhapsody" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="Stairway To Heaven" type="SONG" canBeMerged="true" deleted="false">
@@ -154,7 +154,7 @@
   <Composition artist="Gun's And Roses" titre="November Rain" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="51" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Verve" titre="Bitter Sweet Symphony" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="52" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Lou Reed" titre="Street Hassle" type="SONG" canBeMerged="true" deleted="false">
@@ -166,7 +166,7 @@
   <Composition artist="The Nice" titre="The Cry Of Eugene" type="SONG" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="55" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Pulp" titre="Common People" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 100 Epic Rock Tracks - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="56" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Electric Prunes" titre="Holy Are You" type="SONG" canBeMerged="true" deleted="false">

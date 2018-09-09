@@ -124,7 +124,7 @@
   <Composition artist="Bob Dylan" titre="Blowin' In The Wind" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 42 Best Bob Dylan Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="2" creationDate="31/08/2018 09:57:10" size="42"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - The 42 Best Bob Dylan Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="1" creationDate="31/08/2018 09:57:10" size="42"/>
   </Composition>
 </ListCompositions>

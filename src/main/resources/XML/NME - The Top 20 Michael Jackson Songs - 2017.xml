@@ -58,7 +58,7 @@
   <Composition artist="Michael Jackson" titre="Beat It" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The Top 20 Michael Jackson Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="2" creationDate="05/09/2018 09:58:18" size="20"/>
   </Composition>
-  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Michael Jackson" titre="Billie Jean" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The Top 20 Michael Jackson Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="1" creationDate="05/09/2018 09:58:18" size="20"/>
   </Composition>
 </ListCompositions>

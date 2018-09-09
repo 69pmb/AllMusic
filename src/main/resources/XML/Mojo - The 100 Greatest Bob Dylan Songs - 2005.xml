@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publishYear="2005" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2005" sorted="true" classement="1" creationDate="23/08/2018 17:52:22" size="100"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Positively 4th Street" type="SONG" canBeMerged="true" deleted="true">

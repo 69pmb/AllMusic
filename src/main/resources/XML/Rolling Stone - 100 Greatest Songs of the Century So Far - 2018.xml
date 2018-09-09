@@ -235,7 +235,7 @@
   <Composition artist="Outkast" titre="Ms. Jackson" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publishYear="2018" categorie="MISCELLANEOUS" rangeDateBegin="2000" rangeDateEnd="2018" sorted="true" classement="23" creationDate="07/09/2018 12:50:49" size="100"/>
   </Composition>
-  <Composition artist="Franz Ferdinand" titre="Take Me Out" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Franz Ferdinand" titre="Take Me Out" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publishYear="2018" categorie="MISCELLANEOUS" rangeDateBegin="2000" rangeDateEnd="2018" sorted="true" classement="22" creationDate="07/09/2018 12:50:49" size="100"/>
   </Composition>
   <Composition artist="Lady Gaga" titre="Bad Romance" type="SONG" canBeMerged="true" deleted="false">
@@ -292,7 +292,7 @@
   <Composition artist="Outkast" titre="Hey Ya!" type="SONG" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publishYear="2018" categorie="MISCELLANEOUS" rangeDateBegin="2000" rangeDateEnd="2018" sorted="true" classement="4" creationDate="07/09/2018 12:50:49" size="100"/>
   </Composition>
-  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publishYear="2018" categorie="MISCELLANEOUS" rangeDateBegin="2000" rangeDateEnd="2018" sorted="true" classement="3" creationDate="07/09/2018 12:50:49" size="100"/>
   </Composition>
   <Composition artist="M.I.A." titre="Paper Planes" type="SONG" canBeMerged="true" deleted="false">

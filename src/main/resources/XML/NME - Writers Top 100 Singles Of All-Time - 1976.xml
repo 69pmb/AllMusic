@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="1" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Strawberry Fields/Penny Lane" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Strawberry Fields/Penny Lane" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="2" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
   <Composition artist="Ike And Tina Turner" titre="River Deep Mountain High" type="SONG" canBeMerged="true" deleted="true">
@@ -13,16 +13,16 @@
   <Composition artist="Beach Boys" titre="I Get Around/Don't Worry Baby" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="4" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
-  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="My Generation" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="5" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
   <Composition artist="Marvin Gaye" titre="I Heard It Through The Grapevine" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="6" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
-  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Satisfaction" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="7" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
-  <Composition artist="Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Beach Boys" titre="Good Vibrations" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="8" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
   <Composition artist="Miracles" titre="Tracks Of My Tears" type="SONG" canBeMerged="true" deleted="false">
@@ -94,10 +94,10 @@
   <Composition artist="Booker T" titre="Green Onions" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="31" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
-  <Composition artist="Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Kinks" titre="You Really Got Me" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="32" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
-  <Composition artist="Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="Ronettes" titre="Be My Baby" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers Top 100 Singles Of All-Time - 1976" publishYear="1976" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1976" sorted="true" classement="33" creationDate="04/09/2018 15:06:16" size="100"/>
   </Composition>
   <Composition artist="Plastic Ono Band" titre="Cold Turkey" type="SONG" canBeMerged="true" deleted="false">
