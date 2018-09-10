@@ -34,7 +34,7 @@
   <Composition artist="Cannibal Ox" titre="The Cold Vein" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="11" creationDate="10/09/2018 13:31:05" size="50"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="12" creationDate="10/09/2018 13:31:05" size="50"/>
   </Composition>
   <Composition artist="Matmos" titre="A Chance To Cut Is A Chance To Cure" type="ALBUM" canBeMerged="true" deleted="false">
