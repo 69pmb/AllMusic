@@ -52,7 +52,7 @@
   <Composition artist="Robert Wyatt" titre="Comicopera" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Album - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="17" creationDate="10/09/2018 13:31:05" size="50"/>
   </Composition>
-  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Amy Winehouse" titre="Back To Black" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Album - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="18" creationDate="10/09/2018 13:31:05" size="50"/>
   </Composition>
   <Composition artist="Panda Bear" titre="Person Pitch" type="ALBUM" canBeMerged="true" deleted="false">
