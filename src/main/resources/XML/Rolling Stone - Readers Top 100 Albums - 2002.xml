@@ -61,7 +61,7 @@
   <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="20" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
-  <Composition artist="Weezer" titre="Weezer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Weezer" titre="Weezer (Blue Album)" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="21" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
   <Composition artist="Nirvana" titre="In Utero" type="ALBUM" canBeMerged="true" deleted="false">
@@ -217,7 +217,7 @@
   <Composition artist="Michael Jackson" titre="Off The Wall" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="72" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind The Bollocks" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="73" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
   <Composition artist="Counting Crows" titre="August And Everything After" type="ALBUM" canBeMerged="true" deleted="false">
