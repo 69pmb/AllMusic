@@ -13,13 +13,16 @@ import java.nio.file.StandardCopyOption;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.Vector;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
@@ -119,6 +122,58 @@ public class BatchUtils {
 
 		LOG.debug("End stat");
 		return writeInFile(result, Constant.BATCH_FILE);
+	}
+
+	public static String findUnknown() {
+		LOG.debug("Start findUnknown");
+		Map<String, List<String>> result = new TreeMap<>();
+		StringBuilder sb = new StringBuilder();
+		addLine(sb, "Find Unknown: ", true);
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.UNKNOWN.toString());
+		List<Composition> unknown = SearchUtils.search(ImportXML.importXML(Constant.getFinalFilePath()), criteria, true,
+				SearchMethod.WHOLE_WORD, true, true);
+		AtomicInteger notFound = new AtomicInteger(0);
+		unknown.parallelStream().forEach(u -> {
+			Map<String, String> c = new HashMap<>();
+			c.put(SearchUtils.CRITERIA_ARTIST, u.getArtist());
+			c.put(SearchUtils.CRITERIA_TITRE, u.getTitre());
+			List<Composition> search = SearchUtils.search(ImportXML.importXML(Constant.getFinalFilePath()), c, true,
+					SearchMethod.CONTAINS, true, false);
+			String fileName = u.getFiles().get(0).getFileName();
+			String artistTitre = u.getArtist() + " - " + u.getTitre();
+			String item;
+			List<RecordType> types = search.stream().map(Composition::getRecordType)
+					.filter(t -> !t.equals(RecordType.UNKNOWN)).collect(Collectors.toList());
+			if (!types.isEmpty()) {
+				long songCount = search.stream().filter(s -> s.getRecordType().equals(RecordType.SONG))
+						.mapToInt(s -> s.getFiles().size()).sum();
+				long albumCount = search.stream().filter(s -> s.getRecordType().equals(RecordType.ALBUM))
+						.mapToInt(s -> s.getFiles().size()).sum();
+				if (types.stream().allMatch(type -> RecordType.ALBUM.equals(type))) {
+					item = artistTitre + ": " + RecordType.ALBUM + " (" + albumCount + ")";
+				} else if (types.stream().allMatch(type -> RecordType.SONG.equals(type))) {
+					item = artistTitre + ": " + RecordType.SONG + " (" + songCount + ")";
+				} else {
+					item = artistTitre + Constant.NEW_LINE + RecordType.SONG + ": " + songCount + Constant.NEW_LINE
+							+ RecordType.ALBUM + ": " + albumCount;
+				}
+				if (result.containsKey(fileName)) {
+					result.get(fileName).add(item);
+				} else {
+					result.put(fileName, new LinkedList<String>(Arrays.asList(item)));
+				}
+			} else {
+				notFound.incrementAndGet();
+			}
+		});
+		result.entrySet().stream().forEach(e -> {
+			sb.append(Constant.NEW_LINE + "### " + e.getKey() + ": " + Constant.NEW_LINE);
+			e.getValue().stream().forEach(v -> sb.append(v + Constant.NEW_LINE));
+		});
+		sb.append(Constant.NEW_LINE + "### Not Found: " + notFound.get());
+		LOG.debug("End findUnknown");
+		return writeInFile(sb, "Unknown.txt");
 	}
 
 	public static String findSuspiciousComposition() {
