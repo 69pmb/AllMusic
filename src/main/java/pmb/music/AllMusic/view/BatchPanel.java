@@ -21,6 +21,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Score;
@@ -115,11 +116,11 @@ public class BatchPanel extends JPanel {
 		JButton fdcBtn = PanelUtils.createJButton("Go Compositions En Double", 200, Constant.ICON_GO);
 		fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
 		fdcBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime());
+			displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
 						fdcUnmergeable.isSelected(), fdcYear.isSelected());
-				displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime());
+				displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(fdc, fdcBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -141,10 +142,10 @@ public class BatchPanel extends JPanel {
 		JButton fdfBtn = PanelUtils.createJButton("Go Fichiers En Double", 200, Constant.ICON_GO);
 		fdfBtn.setToolTipText("Cherche les fichiers en double.");
 		fdfBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start findDuplicateFiles: " + MiscUtils.getCurrentTime());
+			displayText("Start findDuplicateFiles: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.findDuplicateFiles();
-				displayText("End findDuplicateFiles: " + MiscUtils.getCurrentTime());
+				displayText("End findDuplicateFiles: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(fdf, fdfBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -166,10 +167,10 @@ public class BatchPanel extends JPanel {
 		JButton mxfBtn = PanelUtils.createJButton("Go XML Manquant", 200, Constant.ICON_GO);
 		mxfBtn.setToolTipText("Cherche si des fichiers txt n'ont pas d'équivalent XML.");
 		mxfBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start missingXML: " + MiscUtils.getCurrentTime());
+			displayText("Start missingXML: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.missingXML();
-				displayText("End missingXML: " + MiscUtils.getCurrentTime());
+				displayText("End missingXML: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(mxf, mxfBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -212,12 +213,12 @@ public class BatchPanel extends JPanel {
 		// Bouton d'action
 		JButton topBtn = PanelUtils.createJButton("Go Tops", 200, Constant.ICON_GO);
 		topBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start topYear: " + MiscUtils.getCurrentTime());
+			displayText("Start topYear: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()),
 						Integer.parseInt(yearEndTop.getText()), Integer.parseInt(albumLimit.getText()),
 						Integer.parseInt(songLimit.getText()), score);
-				displayText("End topYear: " + MiscUtils.getCurrentTime());
+				displayText("End topYear: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(top, topBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -236,10 +237,10 @@ public class BatchPanel extends JPanel {
 		JButton cleanHistory = PanelUtils.createJButton("Go Clean Historique", 200, Constant.ICON_GO);
 		cleanHistory.setToolTipText("Supprime tous les fichiers du dossier d'historique sauf le plus récent.");
 		cleanHistory.addActionListener((ActionEvent arg0) -> {
-			displayText("Start cleanHistory: " + MiscUtils.getCurrentTime());
+			displayText("Start cleanHistory: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.cleanHistory();
-				displayText("End cleanHistory: " + MiscUtils.getCurrentTime());
+				displayText("End cleanHistory: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(clear, cleanHistory, Component.RIGHT_ALIGNMENT, 100);
@@ -258,10 +259,10 @@ public class BatchPanel extends JPanel {
 		JButton suspiciousBtn = PanelUtils.createJButton("Go Compositions Suspectes", 200, Constant.ICON_GO);
 		suspiciousBtn.setToolTipText("Trouve des compositions bizarres");
 		suspiciousBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime());
+			displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.findSuspiciousComposition();
-				displayText("End findSuspiciousComposition: " + MiscUtils.getCurrentTime());
+				displayText("End findSuspiciousComposition: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -280,10 +281,10 @@ public class BatchPanel extends JPanel {
 		JButton duplicateTitleBtn = PanelUtils.createJButton("Go Same Title", 200, Constant.ICON_GO);
 		duplicateTitleBtn.setToolTipText("Trouve les chansons avec le même titre mais avec l'artiste différent");
 		duplicateTitleBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
+			displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.findDuplicateTitleComposition();
-				displayText("End findDuplicateTitleComposition: " + MiscUtils.getCurrentTime());
+				displayText("End findDuplicateTitleComposition: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(duplicateTitle, duplicateTitleBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -302,58 +303,58 @@ public class BatchPanel extends JPanel {
 		JButton validateBtn = PanelUtils.createJButton("Go Filename Incorrect", 200, Constant.ICON_GO);
 		validateBtn.setToolTipText("Trouve les noms de fichier incorrect");
 		validateBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime());
+			displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.findIncorrectFileNames();
-				displayText("End findIncorectFileNames: " + MiscUtils.getCurrentTime());
+				displayText("End findIncorectFileNames: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(validate, validateBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(validate);
 	}
-	
+
 	private void weirdFileSize() {
 		JPanel weird = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
-		
+
 		// Label
 		JLabel weirdLabel = new JLabel("Taille de fichier bizarre: ");
 		PanelUtils.addComponent(weird, weirdLabel, Component.LEFT_ALIGNMENT, 800);
-		
+
 		// weird btn
 		JButton weirdBtn = PanelUtils.createJButton("Go Weird Size By File", 200, Constant.ICON_GO);
 		weirdBtn.setToolTipText("Recherche les fichiers dont la taille est bizarre");
 		weirdBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start weird: " + MiscUtils.getCurrentTime());
+			displayText("Start weird: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.weirdFileSize();
-				displayText("End weird: " + MiscUtils.getCurrentTime());
+				displayText("End weird: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(weird, weirdBtn, Component.RIGHT_ALIGNMENT, 100);
-		
+
 		this.add(weird);
 	}
-	
+
 	private void averageOfFilesByFiles() {
 		JPanel average = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
-		
+
 		// Label
 		JLabel averageLabel = new JLabel("Moyenne du nombre de fichier par fichier: ");
 		PanelUtils.addComponent(average, averageLabel, Component.LEFT_ALIGNMENT, 800);
-		
+
 		// average btn
 		JButton averageBtn = PanelUtils.createJButton("Go Average By File", 200, Constant.ICON_GO);
 		averageBtn.setToolTipText("Calcule la moyenne du nombre de fichier de chaque composition par fichier.");
 		averageBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start average: " + MiscUtils.getCurrentTime());
+			displayText("Start average: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
-				fileResult = BatchUtils.averageOfFilesByFiles();
-				displayText("End average: " + MiscUtils.getCurrentTime());
+				fileResult = BatchUtils.averageOfFilesByFiles(this);
+				displayText("End average: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(average, averageBtn, Component.RIGHT_ALIGNMENT, 100);
-		
+
 		this.add(average);
 	}
 
@@ -368,10 +369,10 @@ public class BatchPanel extends JPanel {
 		JButton statsBtn = PanelUtils.createJButton("Go Statistiques", 200, Constant.ICON_GO);
 		statsBtn.setToolTipText("Génère des statistiques.");
 		statsBtn.addActionListener((ActionEvent arg0) -> {
-			displayText("Start statistic: " + MiscUtils.getCurrentTime());
+			displayText("Start statistic: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
 				fileResult = BatchUtils.stat();
-				displayText("End statistic: " + MiscUtils.getCurrentTime());
+				displayText("End statistic: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
 		PanelUtils.addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -404,7 +405,7 @@ public class BatchPanel extends JPanel {
 		JButton clearBtn = PanelUtils.createJButton("Vider la zone de résultat", 200, Constant.ICON_ERASE);
 		clearBtn.addActionListener((ActionEvent arg0) -> {
 			resultLabelData = null;
-			displayText("");
+			displayText("", false);
 		});
 		btnPanel.add(clearBtn);
 		// Notepad
@@ -424,7 +425,7 @@ public class BatchPanel extends JPanel {
 		try {
 			FichierUtils.openFileInNotepad(Optional.ofNullable(fileResult));
 		} catch (MyException e) {
-			displayText(e.toString());
+			displayText(e.toString(), false);
 			LOG.error("Erreur lors de l'ouverture du fichier: " + fileResult, e);
 		}
 		LOG.debug("End openResultFileInNotepad");
@@ -434,21 +435,23 @@ public class BatchPanel extends JPanel {
 	 * Ajoute un message dans la zone de texte resultLabel.
 	 * 
 	 * @param text un nouveau texte à afficher
+	 * @param replaceLast true replace previous line, fale append it
 	 */
-	private void displayText(String text) {
+	public void displayText(String text, boolean replaceLast) {
 		LOG.debug("Start displayText");
 		if (resultLabelData == null) {
 			resultLabelData = new ArrayList<>();
 		}
-		StringBuilder s = new StringBuilder();
-		resultLabelData.add(text);
-		for (String string : resultLabelData) {
-			s.append(string).append(Constant.NEW_LINE);
+		if (!replaceLast) {
+			resultLabelData.add(text);
+		} else {
+			resultLabelData.set(resultLabelData.size() - 1, text);
 		}
-		resultLabel.setText(s.toString());
+		resultLabel.setText(StringUtils.join(resultLabelData, Constant.NEW_LINE));
 		resultLabel.setForeground(new Color(243, 16, 16));
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
 		LOG.debug("End displayText");
 	}
+
 }
