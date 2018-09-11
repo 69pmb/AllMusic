@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
@@ -20,6 +21,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.Vector;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -43,6 +45,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
+import pmb.music.AllMusic.view.BatchPanel;
 import pmb.music.AllMusic.view.Onglet;
 
 public class BatchUtils {
@@ -285,7 +288,7 @@ public class BatchUtils {
 		});
 	}
 
-	public static String averageOfFilesByFiles() {
+	public static String averageOfFilesByFiles(BatchPanel batchPanel) {
 		LOG.debug("Start averageOfFilesByFiles");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Start AverageOfFilesByFiles", true);
@@ -294,6 +297,8 @@ public class BatchUtils {
 				.flatMap(List::stream).map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
 		String[] header = { "Fichier", "Type", "Cat", "Average" };
 		List<List<String>> result = new ArrayList<>();
+		final AtomicInteger count = new AtomicInteger(0);
+		final BigDecimal total = new BigDecimal(nomFichier.size());
 		nomFichier.parallelStream().forEach((name) -> {
 			List<String> row = new ArrayList<>();
 			Map<String, String> criteria = new HashMap<>();
@@ -307,6 +312,12 @@ public class BatchUtils {
 			row.add(NumberFormat.getNumberInstance()
 					.format(xml.stream().map(c -> c.getFiles().size()).mapToInt(x -> x).average().getAsDouble()));
 			result.add(row);
+			if (count.incrementAndGet() % 10 == 0) {
+				batchPanel.displayText(
+						BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(count.get()))
+								.divide(total, RoundingMode.HALF_UP).doubleValue() + "%",
+						count.get() == 10 ? false : true);
+			}
 		});
 		CsvFile.exportCsv("Average", result, new SortKey(3, SortOrder.ASCENDING), header);
 		LOG.debug("End averageOfFilesByFiles");
