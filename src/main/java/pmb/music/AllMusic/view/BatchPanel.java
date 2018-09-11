@@ -58,7 +58,7 @@ public class BatchPanel extends JPanel {
 	public BatchPanel(Score score) {
 		super();
 		LOG.debug("Start BatchPanel");
-		this.setLayout(new GridLayout(12, 1));
+		this.setLayout(new GridLayout(13, 1));
 
 		findDuplicateComposition();
 		findDuplicateFiles();
@@ -71,6 +71,7 @@ public class BatchPanel extends JPanel {
 		averageOfFilesByFiles();
 		weirdFileSize();
 		stats();
+		findUnknown();
 		lastLine();
 
 		LOG.debug("End BatchPanel");
@@ -378,6 +379,28 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(stat);
+	}
+	
+	private void findUnknown() {
+		JPanel unknown = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
+
+		// Label
+		JLabel unknownLabel = new JLabel("Inconnu: ");
+		PanelUtils.addComponent(unknown, unknownLabel, Component.LEFT_ALIGNMENT, 900);
+
+		// Unknown btn
+		JButton unknownsBtn = PanelUtils.createJButton("Go Inconnus", 200, Constant.ICON_GO);
+		unknownsBtn.setToolTipText("Trouve le type des compositions inconnues.");
+		unknownsBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start findUnknown: " + MiscUtils.getCurrentTime(), false);
+			new Thread(() -> {
+				fileResult = BatchUtils.findUnknown();
+				displayText("End findUnknown: " + MiscUtils.getCurrentTime(), false);
+			}).start();
+		});
+		PanelUtils.addComponent(unknown, unknownsBtn, Component.RIGHT_ALIGNMENT, 100);
+
+		this.add(unknown);		
 	}
 
 	/**
