@@ -34,7 +34,7 @@
   <Composition artist="The Rolling Stones" titre="Let It Bleed" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="11" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Derek And The Dominos" titre="Layla" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Derek And The Dominoes" titre="Layla" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="12" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="The Velvet Underground" titre="The Velvet Underground And Nico" type="ALBUM" canBeMerged="true" deleted="false">
@@ -88,7 +88,7 @@
   <Composition artist="MC5" titre="Back In The USA" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="29" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Crosby, Stills, Nash And Young" titre="Deja Vu" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Stills And Nash Crosby" titre="Deja Vu" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="30" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="The Band" titre="The Band" type="ALBUM" canBeMerged="true" deleted="false">
@@ -103,7 +103,7 @@
   <Composition artist="Rod Stewart" titre="Every Picture Tells A Story" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="34" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="false" deleted="false">
+  <Composition artist="Led Zeppelin" titre="Led Zeppelin 4" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="35" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="The Doors" titre="The Doors" type="ALBUM" canBeMerged="true" deleted="false">
@@ -151,154 +151,154 @@
   <Composition artist="Jethro Tull" titre="Stand Up" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="50" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Big 16" titre="Impressions, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Impressions" titre="Big 16" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="51" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Forever Changes" titre="Love" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="52" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Everybody Knows This Is Nowhere" titre="Young, Neil" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Neil Young" titre="Everybody Knows This Is Nowhere" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="53" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Sweet Baby James" titre="Taylor, James" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="James Taylor" titre="Sweet Baby James" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="54" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Fifth Dimension" titre="Byrds, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Byrds" titre="Fifth Dimension" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="55" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Band On The Run" titre="Wings" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Wings" titre="Band On The Run" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="56" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="The Man Who Sold The World" titre="Bowie, David" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="The Man Who Sold The World" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="57" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="We're Only In It For The Money" titre="Mothers Of Invention, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Mothers Of Invention" titre="We're Only In It For The Money" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="58" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Get Your Ya-Yas Out" titre="Rolling Stones, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Get Your Ya-Yas Out" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="59" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Beck-Ola" titre="Beck, Jeff, Group" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beck, Jeff, Group" titre="Beck-Ola" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="60" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Raw Power" titre="Stooges, Iggy And The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Iggy And The Stooges" titre="Raw Power" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="61" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Smiley Smile" titre="Beach Boys, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Smiley Smile" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="62" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Astral Weeks" titre="Morrison, Van" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Van Morrison" titre="Astral Weeks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="63" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Loaded" titre="Velvet Underground, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Velvet Underground" titre="Loaded" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="64" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Greatest Hits" titre="Franklin, Aretha" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Aretha Franklin" titre="Greatest Hits" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="65" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="With The Beatles" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="66" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Blue" titre="Mitchell, Joni" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Joni Mitchell" titre="Blue" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="67" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Freak Out" titre="Mothers Of Invention, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Mothers Of Invention" titre="Freak Out" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="68" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="After The Gold Rush" titre="Young, Neil" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Neil Young" titre="After The Gold Rush" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="69" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Stephen Stills" titre="Stills, Stephen" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Stephen Stills" titre="Stephen Stills" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="70" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Johnny Winter And" titre="Winter, Johnny" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Johnny Winter" titre="Johnny Winter And" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="71" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="With A Little Help From My Friends" titre="Cocker, Joe" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Joe Cocker" titre="With A Little Help From My Friends" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="72" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="The Yes Album" titre="Yes" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Yes" titre="The Yes Album" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="73" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Moondance" titre="Morrison, Van" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Van Morrison" titre="Moondance" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="74" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="A True Star A Wizard" titre="Rundgren, Todd" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Todd Rundgren" titre="A Wizard, A True Star" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="75" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Plastic Ono Band" titre="Lennon, John" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="John Lennon" titre="Plastic Ono Band" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="76" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Crown Of Creation" titre="Jefferson Airplane, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Jefferson Airplane" titre="Crown Of Creation" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="77" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="The L.A. Woman" titre="Doors" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Doors" titre="L.A. Woman" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="78" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="There's A Riot Going On" titre="Sly And The Family Stone" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sly And The Family Stone" titre="There's A Riot Going On" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="79" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Who's Next" titre="Who, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Who" titre="Who's Next" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="80" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Electric Music For The Mind And Body" titre="Country Joe And The Fish" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Country Joe And The Fish" titre="Electric Music For The Mind And Body" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="81" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="King Of The Delta Blues Singers" titre="Johnson, Robert" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Robert Johnson" titre="King Of The Delta Blues Singers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="82" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Best Of The Beach Boys Volume 1" titre="Beach Boys, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Best Of The Beach Boys Volume 1" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="83" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Songs For A Seagull" titre="Mitchell, Joni" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Joni Mitchell" titre="Songs For A Seagull" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="84" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Bluesbreakers" titre="Mayall's, John, Bluesbreakers" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Mayall's, John, Bluesbreakers" titre="Bluesbreakers" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="85" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Mr Fantasy" titre="Traffic" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Traffic" titre="Mr Fantasy" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="86" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Bringing It All Back Home" titre="Dylan, Bob" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Bringing It All Back Home" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="87" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Greatest Hits Volume 2" titre="Presley, Elvis" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Greatest Hits Volume 2" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="88" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="White Light/White Heat" titre="Velvet Underground, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Velvet Underground" titre="White Light/White Heat" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="89" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="Moby Grape" titre="Moby Grape" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="90" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Cheap Thrills" titre="Big Brother And The Holding Co." type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Big Brother And The Holding Co." titre="Cheap Thrills" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="91" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Dark Side Of The Moon" titre="Pink Floyd" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Pink Floyd" titre="Dark Side Of The Moon" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="92" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Gris-Gris" titre="Doctor John" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Doctor John" titre="Gris-Gris" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="93" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Music Of The Mind" titre="Wonder, Stevie" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Stevie Wonder" titre="Music Of The Mind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="94" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Stranded" titre="Roxy Music" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Roxy Music" titre="Stranded" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="95" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Surf's Up" titre="Beach Boys, The" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beach Boys" titre="Surf's Up" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="96" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="12 Songs" titre="Newman, Randy" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Randy Newman" titre="12 Songs" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="97" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="The 12 Dreams Of Dr Sardonicus" titre="Spirit" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Spirit" titre="The 12 Dreams Of Dr Sardonicus" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="98" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Sailor" titre="Miller, Steve, Band" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Miller, Steve, Band" titre="Sailor" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="99" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Goats Head Soup" titre="The Rolling Stones" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Rolling Stones" titre="Goats Head Soup" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="100" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
 </ListCompositions>
