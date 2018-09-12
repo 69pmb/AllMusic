@@ -13,13 +13,13 @@
   <Composition artist="Little Richard" titre="Tutti Frutti" type="UNKNOWN" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="4" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
-  <Composition artist="Elvis Presley" titre="Heartbreak Hotel" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="Elvis Presley" titre="Heartbreak Hotel" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="5" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
   <Composition artist="Jerry Lee Lewis" titre="Whole Lotta Shakin, Goin On" type="UNKNOWN" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="6" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
-  <Composition artist="Chuck Berry" titre="Johnny B Goode" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="Chuck Berry" titre="Johnny B Goode" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="7" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
   <Composition artist="Ray Charles" titre="What'd I Say" type="UNKNOWN" canBeMerged="true" deleted="false">
@@ -40,7 +40,7 @@
   <Composition artist="The Kinks" titre="You Really Got Me" type="UNKNOWN" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="13" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="Like A Rolling Stone" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="14" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Pet Sounds" type="UNKNOWN" canBeMerged="true" deleted="false">
@@ -76,7 +76,7 @@
   <Composition artist="The Sex Pistols" titre="Anarchy In The Uk" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="25" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
-  <Composition artist="David Bowie" titre="Low" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="David Bowie" titre="Low" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="26" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
   <Composition artist="Public Image Ltd" titre="Public Image" type="UNKNOWN" canBeMerged="true" deleted="false">
@@ -97,7 +97,7 @@
   <Composition artist="New Order" titre="Blue Monday" type="UNKNOWN" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="32" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
-  <Composition artist="The Smiths" titre="The Smiths" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="The Smiths" titre="The Smiths" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="33" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
   <Composition artist="The Jesus And Mary Chain" titre="Psychocandy" type="UNKNOWN" canBeMerged="true" deleted="false">
@@ -115,10 +115,10 @@
   <Composition artist="The Stone Roses" titre="Fools Gold" type="UNKNOWN" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="38" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
-  <Composition artist="Primal Scream" titre="Loaded" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="Primal Scream" titre="Loaded" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="39" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="UNKNOWN" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="40" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
 </ListCompositions>
