@@ -15,11 +15,13 @@ import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Set;
 import java.util.TreeMap;
@@ -126,7 +128,17 @@ public class BatchUtils {
 
 	public static String findUnknown() {
 		LOG.debug("Start findUnknown");
-		Map<String, List<String>> result = new TreeMap<>();
+		Comparator<String> byFileName = (String o1, String o2) -> {
+			String s1 = StringUtils.substringBeforeLast(o1, ";");
+			String s2 = StringUtils.substringBeforeLast(o2, ";");
+			return s1.compareToIgnoreCase(s2);
+		};
+		Comparator<String> byCount = (String o1, String o2) -> {
+			Long r1 = Long.valueOf(StringUtils.substringAfterLast(o1, ";"));
+			Long r2 = Long.valueOf(StringUtils.substringAfterLast(o2, ";"));
+			return Long.compare(r1, r2);
+		};
+		Map<String, List<String>> result = new TreeMap<>(byFileName.thenComparing(byCount.reversed()));
 		StringBuilder sb = new StringBuilder();
 		addLine(sb, "Find Unknown: ", true);
 		Map<String, String> criteria = new HashMap<>();
@@ -150,27 +162,37 @@ public class BatchUtils {
 						.mapToInt(s -> s.getFiles().size()).sum();
 				long albumCount = search.stream().filter(s -> s.getRecordType().equals(RecordType.ALBUM))
 						.mapToInt(s -> s.getFiles().size()).sum();
+				Long count;
 				if (types.stream().allMatch(type -> RecordType.ALBUM.equals(type))) {
 					item = artistTitre + ": " + RecordType.ALBUM + " (" + albumCount + ")";
+					count = albumCount;
 				} else if (types.stream().allMatch(type -> RecordType.SONG.equals(type))) {
 					item = artistTitre + ": " + RecordType.SONG + " (" + songCount + ")";
+					count = songCount;
 				} else {
 					item = artistTitre + Constant.NEW_LINE + RecordType.SONG + ": " + songCount + Constant.NEW_LINE
 							+ RecordType.ALBUM + ": " + albumCount;
+					count = (songCount + albumCount) / 2;
 				}
-				if (result.containsKey(fileName)) {
-					result.get(fileName).add(item);
+				String key = fileName + ";" + count;
+				if (result.containsKey(key)) {
+					result.get(key).add(item);
 				} else {
-					result.put(fileName, new LinkedList<String>(Arrays.asList(item)));
+					result.put(key, new LinkedList<String>(Arrays.asList(item)));
 				}
 			} else {
 				notFound.incrementAndGet();
 			}
 		});
-		result.entrySet().stream().forEach(e -> {
-			sb.append(Constant.NEW_LINE + "### " + e.getKey() + ": " + Constant.NEW_LINE);
+		String currentKey = "";
+		for (Entry<String, List<String>> e : result.entrySet()) {
+			String key = StringUtils.substringBeforeLast(e.getKey(), ";");
+			if (!StringUtils.equalsIgnoreCase(currentKey, key)) {
+				sb.append(Constant.NEW_LINE + "### " + key + ": " + Constant.NEW_LINE);
+				currentKey = key;
+			}
 			e.getValue().stream().forEach(v -> sb.append(v + Constant.NEW_LINE));
-		});
+		}
 		sb.append(Constant.NEW_LINE + "### Not Found: " + notFound.get());
 		LOG.debug("End findUnknown");
 		return writeInFile(sb, "Unknown.txt");
@@ -225,8 +247,7 @@ public class BatchUtils {
 							.stream().map(Composition::getFiles).flatMap(List::stream)
 							.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
 									|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
-											" - " + String.valueOf(f.getPublishYear())))
-									&& f.getPublishYear() != 0)
+											" - " + String.valueOf(f.getPublishYear()))))
 							.map(f -> f.getFileName() + " # " + String.valueOf(f.getPublishYear())).distinct().sorted()
 							.collect(Collectors.toList()));
 		}
