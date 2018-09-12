@@ -520,11 +520,13 @@ public class CompositionUtils {
 			points = BigDecimal.valueOf(Math.log10(5)).multiply(logMax);
 		}
 		if (fichier.getCategorie().equals(Cat.ALL_TIME)) {
+			points = points.multiply(BigDecimal.valueOf(2));
+		} else if (fichier.getCategorie().equals(Cat.LONG_PERIOD)) {
 			points = points.multiply(BigDecimal.valueOf(1.5));
 		} else if (fichier.getCategorie().equals(Cat.DECADE)) {
 			points = points.multiply(BigDecimal.valueOf(1.3));
-		} else if (fichier.getCategorie().equals(Cat.YEAR)) {
-			points = points.divide(BigDecimal.valueOf(2));
+		} else if (fichier.getCategorie().equals(Cat.YEAR) || fichier.getCategorie().equals(Cat.THEME)) {
+			points = points.divide(BigDecimal.valueOf(1.5), RoundingMode.HALF_UP);
 		}
 		return points;
 	}
