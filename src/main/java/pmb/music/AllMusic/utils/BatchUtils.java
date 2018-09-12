@@ -283,7 +283,10 @@ public class BatchUtils {
 					Composition c2 = importXML.get(j);
 					String c1Titre = SearchUtils.removePunctuation(c1.getTitre());
 					String c2Titre = SearchUtils.removePunctuation(c2.getTitre());
-					if (SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.96D))
+					if (c1Titre.length() < 11 || c2Titre.length() < 11) {
+						continue;
+					}
+					if (SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.985D))
 							&& CompositionUtils.artistJaroEquals(c1.getArtist(), c2.getArtist(), jaro,
 									Constant.SCORE_LIMIT_ARTIST_FUSION) == null) {
 						addLine(result, c1.getArtist() + " - " + c1.getTitre() + " // " + c2.getArtist() + " - "
