@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.PatternSyntaxException;
 import java.util.stream.Collectors;
 
 import org.apache.commons.collections.CollectionUtils;
@@ -256,8 +257,12 @@ public class SearchUtils {
 		case BEGINS_WITH:
 			return StringUtils.startsWithIgnoreCase(s1, s2) || StringUtils.startsWithIgnoreCase(s2, s1);
 		case JOKER:
-			return s1.toLowerCase().matches(stripRegexCharacters(s2))
-					|| s2.toLowerCase().matches(stripRegexCharacters(s1));
+			try {
+				return s1.toLowerCase().matches(stripRegexCharacters(s2))
+						|| s2.toLowerCase().matches(stripRegexCharacters(s1));
+			} catch (PatternSyntaxException e) {
+				return false;
+			}
 		case WHOLE_WORD:
 			return StringUtils.equalsIgnoreCase(s1, s2);
 		default:
