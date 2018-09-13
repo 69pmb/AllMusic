@@ -149,8 +149,10 @@ public class SearchUtils {
 	 * @return true if the score is equal or greater than the limit
 	 */
 	private static boolean isEqualsJaroForSearch(final JaroWinklerDistance jaro, String s1, String s2) {
-		return isEqualsJaro(jaro, removePunctuation(s2), removePunctuation(s1), Constant.SCORE_LIMIT_SEARCH)
-				|| StringUtils.containsIgnoreCase(s2, s1);
+		String removePunctuation2 = removePunctuation(s2);
+		String removePunctuation1 = removePunctuation(s1);
+		return isEqualsJaro(jaro, removePunctuation2, removePunctuation1, Constant.SCORE_LIMIT_SEARCH)
+				|| StringUtils.containsIgnoreCase(removePunctuation2, removePunctuation1);
 	}
 
 	/**
