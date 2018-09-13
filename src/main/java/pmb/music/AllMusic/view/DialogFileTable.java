@@ -9,6 +9,7 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
@@ -17,10 +18,12 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
 
+import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -80,7 +83,7 @@ public class DialogFileTable extends JDialog {
 		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
-		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.compoList = compoList;
 		this.defaultSort = defaultSort;
 		this.setResizable(true);
@@ -111,6 +114,9 @@ public class DialogFileTable extends JDialog {
 		fichiers.getRowSorter().toggleSortOrder(defaultSort);
 
 		fichiers.addMouseListener(pasteFichierListener());
+		this.getRootPane().registerKeyboardAction(e -> {
+		    this.dispose();
+		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
 		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED);
 		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
