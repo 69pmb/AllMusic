@@ -278,7 +278,7 @@ public class FichierUtils {
 		Optional<String> result = Arrays.asList(pathShort, pathSong, pathAlbum, pathYear).stream()
 				.filter(path -> FileUtils.fileExists(path)).findFirst();
 		if (!result.isPresent()) {
-			LOG.warn("End buildTxtFilePath, no path built");
+			LOG.warn("End buildTxtFilePath, no path built for: " + fileName + " - " + auteur);
 		}
 		LOG.debug("End buildTxtFilePath");
 		return result;
