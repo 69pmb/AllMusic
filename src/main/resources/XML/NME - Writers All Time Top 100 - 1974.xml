@@ -82,13 +82,13 @@
   <Composition artist="David Bowie" titre="Ziggy Stardust" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="27" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Bob Dylan" titre="Freewheelin'" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Bob Dylan" titre="The Freewheeling Bob Dylan" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="28" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="MC5" titre="Back In The USA" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="29" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Stills And Nash Crosby" titre="Deja Vu" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Crosby, Stills, Nash And Young" titre="Deja Vu" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="30" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="The Band" titre="The Band" type="ALBUM" canBeMerged="true" deleted="false">
@@ -178,7 +178,7 @@
   <Composition artist="The Rolling Stones" titre="Get Your Ya-Yas Out" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="59" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Beck, Jeff, Group" titre="Beck-Ola" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Jeff Beck Group" titre="Beck-Ola" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="60" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="Iggy And The Stooges" titre="Raw Power" type="ALBUM" canBeMerged="true" deleted="false">
@@ -253,7 +253,7 @@
   <Composition artist="Joni Mitchell" titre="Songs For A Seagull" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="84" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Mayall's, John, Bluesbreakers" titre="Bluesbreakers" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="John Mayall And The Blues Breakers" titre="Blues Breakers with Eric Clapton" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="85" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="Traffic" titre="Mr Fantasy" type="ALBUM" canBeMerged="true" deleted="false">
@@ -295,7 +295,7 @@
   <Composition artist="Spirit" titre="The 12 Dreams Of Dr Sardonicus" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="98" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
-  <Composition artist="Miller, Steve, Band" titre="Sailor" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Steve Miller Band" titre="Sailor" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Writers All Time Top 100 - 1974" publishYear="1974" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1974" sorted="true" classement="99" creationDate="04/09/2018 15:40:57" size="100"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Goats Head Soup" type="ALBUM" canBeMerged="true" deleted="false">
