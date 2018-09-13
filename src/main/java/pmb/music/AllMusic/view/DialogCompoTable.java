@@ -18,10 +18,12 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
 
+import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.KeyStroke;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
@@ -72,7 +74,7 @@ public class DialogCompoTable extends JDialog {
 		LOG.debug("Start DialogFileTable");
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
-		this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.compo = compo;
 		this.setResizable(true);
 		this.initComponent();
@@ -134,6 +136,9 @@ public class DialogCompoTable extends JDialog {
 				mouseAction(e);
 			}
 		});
+		this.getRootPane().registerKeyboardAction(e -> {
+		    this.dispose();
+		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
 		PanelUtils.colRenderer(table, true, INDEX_DELETED);
 		table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));

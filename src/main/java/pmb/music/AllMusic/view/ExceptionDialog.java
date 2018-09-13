@@ -6,15 +6,18 @@ import java.awt.FlowLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
 import javax.swing.JButton;
+import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.KeyStroke;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
 
@@ -49,6 +52,9 @@ public class ExceptionDialog extends JDialog {
 		iconLabel.setIcon(UIManager.getIcon("OptionPane.errorIcon"));
 		setupUI();
 		setUpListeners();
+		this.getRootPane().registerKeyboardAction(k -> {
+			this.dispose();
+		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 	}
 
 	public ExceptionDialog(String errorLabelText, Throwable e) {
