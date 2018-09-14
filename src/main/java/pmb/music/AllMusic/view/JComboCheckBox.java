@@ -11,6 +11,7 @@ import java.util.stream.Stream;
 
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
+import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.ListCellRenderer;
@@ -42,7 +43,9 @@ public class JComboCheckBox extends JComboBox<Object> {
 	public JComboCheckBox(List<String> items) {
 		super(Stream.concat(Stream.of(new JCheckBox(CHECKBOX_ALL)), items.stream().map(item -> new JCheckBox(item)))
 				.toArray(JCheckBox[]::new));
+		((JComponent) getItemAt(0)).setOpaque(false);
 		this.selectedItem = new JCheckBox();
+		selectedItem.setOpaque(false);
 		this.boxes = new HashMap<>();
 		items.forEach(i -> this.boxes.put(i, false));
 		this.boxes.put(CHECKBOX_ALL, false);
@@ -53,6 +56,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 			public void popupMenuWillBecomeVisible(PopupMenuEvent e) {
 				if (getModel().getElementAt(0).equals(selectedItem)) {
 					removeItemAt(0);
+					((JComponent) getItemAt(0)).setOpaque(true);
 				}
 				show = true;
 			}
@@ -60,6 +64,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 			public void popupMenuWillBecomeInvisible(PopupMenuEvent e) {
 				show = false;
 				insertSelectedItem();
+				((JComponent) getItemAt(1)).setOpaque(false);
 			}
 
 			public void popupMenuCanceled(PopupMenuEvent e) {
@@ -83,7 +88,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 	 * Calculates the label of the selected item of the combo box depending on the
 	 * check boxes selected.
 	 */
-	public void setLabel() {
+	private void setLabel() {
 		Map<String, Boolean> selected = boxes.entrySet().stream().filter(entry -> entry.getValue())
 				.collect(Collectors.toMap(x -> x.getKey(), x -> x.getValue()));
 		int count = selected.keySet().size();
@@ -101,7 +106,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 	}
 
 	/**
-	 * Returns the text of the selected check boxes.
+	 * Returns the selected check boxes.
 	 * 
 	 * @return a joined string with the char ";"
 	 */
@@ -135,30 +140,47 @@ public class JComboCheckBox extends JComboBox<Object> {
 					jCheckBox.setSelected(selected);
 					this.boxes.put(jCheckBox.getText(), selected);
 				}
-				show = false;
+				show = false; // Bug on refreshing check boxes
 			} else if (boxes.get(CHECKBOX_ALL)) {
 				// deselect all check boxs if deselect a check box
 				int size = this.getModel().getSize();
 				for (int i = 0; i < size; i++) {
-					JCheckBox jCheckBox = (JCheckBox) this.getModel().getElementAt(i);
-					if (StringUtils.equalsIgnoreCase(jCheckBox.getText(), CHECKBOX_ALL)) {
-						jCheckBox.setSelected(false);
-						this.boxes.put(CHECKBOX_ALL, false);
-						break;
-					}
+					setSelectedCheckBoxAll(false);
 				}
 			}
 			// Select or deselect the check box
 			jcb.setSelected(selected);
 			this.boxes.put(jcb.getText(), selected);
+			// If all checkboxes are selected, we check the all box
+			if (!boxes.get(CHECKBOX_ALL) && this.boxes.entrySet().stream()
+					.filter(e -> !e.getKey().contains(CHECKBOX_ALL)).allMatch(e -> e.getValue())) {
+				setSelectedCheckBoxAll(true);
+			}
 		}
 	}
 
-	public void insertSelectedItem() {
+	/**
+	 * Set the property selected of the check box CHECKBOX_ALL.
+	 * @param selected true or false
+	 */
+	private void setSelectedCheckBoxAll(boolean selected) {
+		int size = this.getModel().getSize();
+		for (int i = 0; i < size; i++) {
+			JCheckBox jCheckBox = (JCheckBox) this.getModel().getElementAt(i);
+			if (StringUtils.equalsIgnoreCase(jCheckBox.getText(), CHECKBOX_ALL)) {
+				jCheckBox.setSelected(selected);
+				this.boxes.put(CHECKBOX_ALL, selected);
+				break;
+			}
+		}
+	}
+
+	private void insertSelectedItem() {
 		setLabel();
 		if (!show && !((JCheckBox) getModel().getElementAt(0)).equals(selectedItem)) {
 			insertItemAt(selectedItem, 0);
 			setSelectedItem(selectedItem);
+			selectedItem.setSelected(StringUtils.isNotBlank(label));
 		}
 	}
 
