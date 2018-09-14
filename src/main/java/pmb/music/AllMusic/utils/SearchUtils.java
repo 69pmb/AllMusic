@@ -122,7 +122,8 @@ public class SearchUtils {
 			result = result && compareString(titre, co.getTitre(), searchMethod, jaro);
 		}
 		if (result && type != null) {
-			result = result && co.getRecordType() == RecordType.valueOf(type);
+			result = result && Arrays.asList(StringUtils.split(type, ";")).stream()
+					.anyMatch((t -> co.getRecordType() == RecordType.getByValue(t)));
 		}
 		if (result && !deleted) {
 			result = result && !co.isDeleted();
@@ -210,12 +211,8 @@ public class SearchUtils {
 			result = result && compareString(fi.getAuthor(), auteur, searchMethod, jaro);
 		}
 		if (result && StringUtils.isNotBlank(cat)) {
-			if (StringUtils.contains(cat, ";")) {
-				result = result && Arrays.asList(StringUtils.split(cat, ";")).stream()
-						.anyMatch((c -> fi.getCategorie() == Cat.getByValue(c)));
-			} else {
-				result = result && fi.getCategorie() == Cat.valueOf(cat);
-			}
+			result = result && Arrays.asList(StringUtils.split(cat, ";")).stream()
+					.anyMatch((c -> fi.getCategorie() == Cat.getByValue(c)));
 		}
 		if (result && StringUtils.isNotBlank(dateB)) {
 			result = result && ((searchMethod.equals(SearchMethod.CONTAINS)
