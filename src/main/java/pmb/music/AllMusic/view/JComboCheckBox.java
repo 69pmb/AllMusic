@@ -49,15 +49,20 @@ public class JComboCheckBox extends JComboBox<Object> {
 		this.boxes = new HashMap<>();
 		items.forEach(i -> this.boxes.put(i, false));
 		this.boxes.put(CHECKBOX_ALL, false);
-		addItems();
+		setRenderer(new ComboBoxRenderer());
+		addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent ae) {
+				itemSelected();
+			}
+		});
 		setLabel();
 		insertItemAt(selectedItem, 0);
 		this.addPopupMenuListener(new PopupMenuListener() {
 			public void popupMenuWillBecomeVisible(PopupMenuEvent e) {
 				if (getModel().getElementAt(0).equals(selectedItem)) {
 					removeItemAt(0);
-					((JComponent) getItemAt(0)).setOpaque(true);
 				}
+				((JComponent) getItemAt(0)).setOpaque(true);
 				show = true;
 			}
 
@@ -70,6 +75,22 @@ public class JComboCheckBox extends JComboBox<Object> {
 			public void popupMenuCanceled(PopupMenuEvent e) {
 			}
 		});
+	}
+
+	/**
+	 * Deselects all boxes.
+	 */
+	public void clearSelection() {
+		int size = this.getModel().getSize();
+		for (int i = 0; i < size; i++) {
+			JCheckBox jCheckBox = (JCheckBox) this.getModel().getElementAt(i);
+			jCheckBox.setSelected(false);
+			this.boxes.put(jCheckBox.getText(), false);
+		}
+		label = "";
+		selectedItem = new JCheckBox();
+		selectedItem.setOpaque(false);
+		removeItemAt(0);
 	}
 
 	@Override
@@ -119,15 +140,6 @@ public class JComboCheckBox extends JComboBox<Object> {
 		}
 	}
 
-	private void addItems() {
-		setRenderer(new ComboBoxRenderer());
-		addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent ae) {
-				itemSelected();
-			}
-		});
-	}
-
 	private void itemSelected() {
 		if (getSelectedItem() instanceof JCheckBox && isPopupVisible() && !getSelectedItem().equals(selectedItem)) {
 			JCheckBox jcb = (JCheckBox) getSelectedItem();
@@ -161,6 +173,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 
 	/**
 	 * Set the property selected of the check box CHECKBOX_ALL.
+	 * 
 	 * @param selected true or false
 	 */
 	private void setSelectedCheckBoxAll(boolean selected) {
