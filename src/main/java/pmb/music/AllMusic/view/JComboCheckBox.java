@@ -35,6 +35,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 	 * The selected item of the combo box.
 	 */
 	private JCheckBox selectedItem;
+	private boolean show = false;
 
 	private static final String CHECKBOX_ALL = "All";
 
@@ -53,15 +54,29 @@ public class JComboCheckBox extends JComboBox<Object> {
 				if (getModel().getElementAt(0).equals(selectedItem)) {
 					removeItemAt(0);
 				}
+				show = true;
 			}
 
 			public void popupMenuWillBecomeInvisible(PopupMenuEvent e) {
+				show = false;
 				insertSelectedItem();
 			}
 
 			public void popupMenuCanceled(PopupMenuEvent e) {
 			}
 		});
+	}
+
+	@Override
+	public void setPopupVisible(boolean v) {
+		if (!v && show) {
+			// Do nothing(prevent the combo popup from closing)
+		} else {
+			super.setPopupVisible(v);
+			if (!v) {
+				insertSelectedItem();
+			}
+		}
 	}
 
 	/**
@@ -109,7 +124,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 	}
 
 	private void itemSelected() {
-		if (getSelectedItem() instanceof JCheckBox && isPopupVisible()) {
+		if (getSelectedItem() instanceof JCheckBox && isPopupVisible() && !getSelectedItem().equals(selectedItem)) {
 			JCheckBox jcb = (JCheckBox) getSelectedItem();
 			boolean selected = !jcb.isSelected();
 			if (StringUtils.equalsIgnoreCase(jcb.getText(), CHECKBOX_ALL)) {
@@ -120,6 +135,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 					jCheckBox.setSelected(selected);
 					this.boxes.put(jCheckBox.getText(), selected);
 				}
+				show = false;
 			} else if (boxes.get(CHECKBOX_ALL)) {
 				// deselect all check boxs if deselect a check box
 				int size = this.getModel().getSize();
@@ -135,15 +151,14 @@ public class JComboCheckBox extends JComboBox<Object> {
 			// Select or deselect the check box
 			jcb.setSelected(selected);
 			this.boxes.put(jcb.getText(), selected);
-			insertSelectedItem();
-			setSelectedItem(selectedItem);
 		}
 	}
 
 	public void insertSelectedItem() {
 		setLabel();
-		if (!StringUtils.equals(((JCheckBox) getModel().getElementAt(0)).getText(), selectedItem.getText())) {
+		if (!show && !((JCheckBox) getModel().getElementAt(0)).equals(selectedItem)) {
 			insertItemAt(selectedItem, 0);
+			setSelectedItem(selectedItem);
 		}
 	}
 
