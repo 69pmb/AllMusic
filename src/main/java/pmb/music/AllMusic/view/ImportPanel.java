@@ -821,6 +821,7 @@ public class ImportPanel extends JPanel {
 				fichier.setRangeDateBegin(fichier.getPublishYear());
 				fichier.setRangeDateEnd(fichier.getPublishYear());
 			}
+			reverseArtist.setSelected(ImportFile.countComma(file) > fichier.getSize() / 2);
 			name.setText(fichier.getFileName());
 			author.setText(fichier.getAuthor());
 			date.setText(new Constant().getSdfDttm().format(fichier.getCreationDate()));
