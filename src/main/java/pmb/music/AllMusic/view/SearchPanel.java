@@ -95,7 +95,7 @@ public class SearchPanel extends JPanel {
 	private final JTable tableResult;
 
 	private JComboCheckBox cat;
-	private JComboBox<RecordType> type;
+	private JComboCheckBox type;
 	private JComboBox<String> searchMethod;
 	private MyInputText titre;
 	private MyInputText artist;
@@ -366,12 +366,8 @@ public class SearchPanel extends JPanel {
 		// Type
 		JPanel typePanel = new JPanel();
 		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
-		type = new JComboBox<>();
-		type.addItem(null);
-		RecordType[] valuesType = RecordType.values();
-		for (int i = 0; i < valuesType.length; i++) {
-			type.addItem(valuesType[i]);
-		}
+		type = new JComboCheckBox(
+				Arrays.asList(RecordType.values()).stream().map(t -> t.getRecordType()).collect(Collectors.toList()));
 		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		typePanel.add(typeLabel);
 		typePanel.add(type);
