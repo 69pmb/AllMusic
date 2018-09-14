@@ -3,6 +3,8 @@
  */
 package pmb.music.AllMusic.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * Enumération des différentes catégories de liste d'oeuvres musicales: bilan
  * annuel, décennale, par thème, par genre, sur une longue période de temps,
@@ -30,7 +32,7 @@ public enum Cat {
 
 	public static Cat getByValue(String value) {
 		for (Cat cat : values()) {
-			if (cat.value == value) {
+			if (StringUtils.equalsAnyIgnoreCase(cat.value, value)) {
 				return cat;
 			}
 		}
