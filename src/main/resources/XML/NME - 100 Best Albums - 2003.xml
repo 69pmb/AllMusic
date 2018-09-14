@@ -13,7 +13,7 @@
   <Composition artist="Television" titre="Marquee Moon" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="4" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="5" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
@@ -28,7 +28,7 @@
   <Composition artist="The Velvet Underground" titre="The Velvet Underground" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="9" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="10" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="My Bloody Valentine" titre="Loveless" type="ALBUM" canBeMerged="true" deleted="false">
@@ -46,7 +46,7 @@
   <Composition artist="Nirvana" titre="In Utero" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="15" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="16" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="Spritualized" titre="Ladies And Gentleman We Are Floating In Space" type="ALBUM" canBeMerged="true" deleted="false">
@@ -55,7 +55,7 @@
   <Composition artist="Blondie" titre="Parallel Lines" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="18" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Best Albums - 2003" publishYear="2003" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="19" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The White Stripes" titre="White Blood Cells" type="ALBUM" canBeMerged="true" deleted="false">

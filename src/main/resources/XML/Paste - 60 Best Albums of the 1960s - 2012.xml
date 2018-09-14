@@ -166,7 +166,7 @@
   <Composition artist="Bob Dylan" titre="Blonde On Blonde" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 60 Best Albums of the 1960s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="6" creationDate="31/08/2018 09:52:53" size="60"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 60 Best Albums of the 1960s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="5" creationDate="31/08/2018 09:52:53" size="60"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Let It Bleed" type="ALBUM" canBeMerged="true" deleted="false">

@@ -19,7 +19,7 @@
   <Composition artist="Matthew Sweet" titre="Girlfriend" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Essential Recordings Of The 90s - 1999" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="6" creationDate="13/08/2017 04:25:08" size="0"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Essential Recordings Of The 90s - 1999" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="7" creationDate="13/08/2017 04:25:08" size="0"/>
   </Composition>
   <Composition artist="My Blood Valentine" titre="Loveless" type="ALBUM" canBeMerged="true" deleted="false">
@@ -136,7 +136,7 @@
   <Composition artist="Yo La Tengo" titre="I Can Hear The Heart Beating As One" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Essential Recordings Of The 90s - 1999" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="45" creationDate="13/08/2017 04:25:08" size="0"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Essential Recordings Of The 90s - 1999" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="false" classement="46" creationDate="13/08/2017 04:25:08" size="0"/>
   </Composition>
   <Composition artist="Cornershop" titre="When I Was Born For The 7th Time" type="ALBUM" canBeMerged="true" deleted="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="1" creationDate="24/08/2018 10:44:21" size="40"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Time Out Of Mind" type="ALBUM" canBeMerged="true" deleted="false">

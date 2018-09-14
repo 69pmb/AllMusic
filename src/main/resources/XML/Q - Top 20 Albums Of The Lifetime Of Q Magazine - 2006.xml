@@ -4,10 +4,10 @@
   <Composition artist="Oasis" titre="Definitely Maybe" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Top 20 Albums Of The Lifetime Of Q Magazine - 2006" publishYear="2006" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2006" sorted="true" classement="1" creationDate="28/08/2018 14:34:37" size="20"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Top 20 Albums Of The Lifetime Of Q Magazine - 2006" publishYear="2006" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2006" sorted="true" classement="2" creationDate="28/08/2018 14:34:37" size="20"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Top 20 Albums Of The Lifetime Of Q Magazine - 2006" publishYear="2006" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2006" sorted="true" classement="3" creationDate="28/08/2018 14:34:37" size="20"/>
   </Composition>
   <Composition artist="U2" titre="The Joshua Tree" type="ALBUM" canBeMerged="true" deleted="false">

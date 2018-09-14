@@ -4,7 +4,7 @@
   <Composition artist="Anthrax" titre="Among The Living" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="1" creationDate="28/08/2018 11:33:49" size="50"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="2" creationDate="28/08/2018 11:33:49" size="50"/>
   </Composition>
   <Composition artist="Regina Belle" titre="All By Myself" type="ALBUM" canBeMerged="true" deleted="false">

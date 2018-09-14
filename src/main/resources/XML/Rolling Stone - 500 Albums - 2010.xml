@@ -7,7 +7,7 @@
   <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="2" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="3" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Highway 61 Revisited" type="ALBUM" canBeMerged="true" deleted="false">
@@ -52,7 +52,7 @@
   <Composition artist="Bob Dylan" titre="Blood On The Tracks" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="16" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="17" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Born To Run" type="ALBUM" canBeMerged="true" deleted="false">
@@ -127,7 +127,7 @@
   <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="40" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="41" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="The Doors" titre="The Doors" type="ALBUM" canBeMerged="true" deleted="false">
@@ -502,7 +502,7 @@
   <Composition artist="Otis Redding" titre="The Dock Of The Bay" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="161" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 500 Albums - 2010" publishYear="2010" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2010" sorted="true" classement="162" creationDate="28/08/2017 14:29:58" size="500"/>
   </Composition>
   <Composition artist="Prince" titre="1999" type="ALBUM" canBeMerged="true" deleted="false">

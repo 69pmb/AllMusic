@@ -10,7 +10,7 @@
   <Composition artist="Oasis" titre="Definitely Maybe" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="3" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="4" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
   <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
@@ -25,7 +25,7 @@
   <Composition artist="The Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="8" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="9" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
   <Composition artist="The Libertines" titre="Up The Bracket" type="ALBUM" canBeMerged="true" deleted="false">
@@ -103,7 +103,7 @@
   <Composition artist="The Jam" titre="All Mod Cons" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="34" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest British Albums Ever! - 2006" publishYear="2006" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="35" creationDate="04/09/2018 15:28:42" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="The Beatles" type="ALBUM" canBeMerged="true" deleted="false">

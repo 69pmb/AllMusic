@@ -4,7 +4,7 @@
   <Composition artist="Bob Dylan" titre="Time Out Of Mind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="1" creationDate="03/09/2018 10:34:26" size="25"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="2" creationDate="03/09/2018 10:34:26" size="25"/>
   </Composition>
   <Composition artist="The Chemical Brothers" titre="Dig Your Own Hole" type="ALBUM" canBeMerged="true" deleted="false">

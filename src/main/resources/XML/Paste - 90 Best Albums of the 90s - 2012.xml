@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 90 Best Albums of the 90s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="1" creationDate="31/08/2018 09:44:54" size="90"/>
   </Composition>
   <Composition artist="Neutral Milk Hotel" titre="In The Aeroplane Over The Sea" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Paste" fileName="Paste - 90 Best Albums of the 90s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="2" creationDate="31/08/2018 09:44:54" size="90"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Paste" fileName="Paste - 90 Best Albums of the 90s - 2012" publishYear="2012" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="3" creationDate="31/08/2018 09:44:54" size="90"/>
   </Composition>
   <Composition artist="Jeff Buckley" titre="Grace" type="ALBUM" canBeMerged="true" deleted="false">

@@ -7,16 +7,16 @@
   <Composition artist="Beatles" titre="Sgt Pepper's Lonely Heart's Club Band" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="2" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="3" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="4" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
   <Composition artist="Oasis" titre="(What's The Story) Morning Glory?" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="5" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="6" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
   <Composition artist="Stone Roses" titre="Stone Roses" type="ALBUM" canBeMerged="true" deleted="false">
@@ -46,7 +46,7 @@
   <Composition artist="Libertines" titre="Up The Bracket" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="15" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 100 Greatest Albums Of All Time - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="16" creationDate="04/09/2018 15:03:58" size="100"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="Iv" type="ALBUM" canBeMerged="true" deleted="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Albums 90's - 2003" publishYear="2003" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="1" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="My Bloody Valentine" titre="Loveless" type="ALBUM" canBeMerged="true" deleted="false">
@@ -16,7 +16,7 @@
   <Composition artist="Pavement" titre="Slanted And Enchanted" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Pitchfork" fileName="Pitchfork - Albums 90's - 2003" publishYear="2003" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="5" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Pitchfork" fileName="Pitchfork - Albums 90's - 2003" publishYear="2003" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="6" creationDate="25/01/2017 10:01:38" size="100"/>
   </Composition>
   <Composition artist="DJ Shadow" titre="...Entroducing" type="ALBUM" canBeMerged="true" deleted="false">

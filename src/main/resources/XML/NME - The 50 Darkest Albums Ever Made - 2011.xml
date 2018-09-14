@@ -103,7 +103,7 @@
   <Composition artist="Lou Reed" titre="Berlin" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 50 Darkest Albums Ever Made - 2011" publishYear="2011" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="34" creationDate="04/09/2018 14:13:14" size="50"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 50 Darkest Albums Ever Made - 2011" publishYear="2011" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2011" sorted="true" classement="35" creationDate="04/09/2018 14:13:14" size="50"/>
   </Composition>
   <Composition artist="Low" titre="Things We Lost In The Fire" type="ALBUM" canBeMerged="true" deleted="false">

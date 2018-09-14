@@ -4,7 +4,7 @@
   <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 500 Greatest Albums Of All Time October - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 500 Greatest Albums Of All Time October - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="David Bowie" titre="Hunky Dory" type="ALBUM" canBeMerged="true" deleted="false">
@@ -31,7 +31,7 @@
   <Composition artist="Oasis" titre="Definitely Maybe" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 500 Greatest Albums Of All Time October - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="10" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 500 Greatest Albums Of All Time October - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="11" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
@@ -58,7 +58,7 @@
   <Composition artist="Arctic Monkeys" titre="Whatever People Say I Am, That's What I'm Not" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - The 500 Greatest Albums Of All Time October - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="19" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 500 Greatest Albums Of All Time October - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="20" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Kanye West" titre="My Beautiful Dark Twisted Fantasy" type="ALBUM" canBeMerged="true" deleted="false">
@@ -112,7 +112,7 @@
   <Composition artist="Love" titre="Forever Changes" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 500 Greatest Albums Of All Time October - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="37" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - The 500 Greatest Albums Of All Time October - 2013" publishYear="2013" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2013" sorted="true" classement="38" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="The Clash" titre="London Calling" type="ALBUM" canBeMerged="true" deleted="false">

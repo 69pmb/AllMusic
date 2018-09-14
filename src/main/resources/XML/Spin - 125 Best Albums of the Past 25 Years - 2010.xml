@@ -10,10 +10,10 @@
   <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - 125 Best Albums of the Past 25 Years - 2010" publishYear="2010" categorie="LONG_PERIOD" rangeDateBegin="1985" rangeDateEnd="2010" sorted="true" classement="3" creationDate="30/08/2018 11:15:54" size="125"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - 125 Best Albums of the Past 25 Years - 2010" publishYear="2010" categorie="LONG_PERIOD" rangeDateBegin="1985" rangeDateEnd="2010" sorted="true" classement="4" creationDate="30/08/2018 11:15:54" size="125"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - 125 Best Albums of the Past 25 Years - 2010" publishYear="2010" categorie="LONG_PERIOD" rangeDateBegin="1985" rangeDateEnd="2010" sorted="true" classement="5" creationDate="30/08/2018 11:15:54" size="125"/>
   </Composition>
   <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">

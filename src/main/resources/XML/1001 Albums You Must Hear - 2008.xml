@@ -178,7 +178,7 @@
   <Composition artist="Who" titre="My Generation" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="59" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
-  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="60" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
   <Composition artist="Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">
@@ -1180,7 +1180,7 @@
   <Composition artist="Ian Dury" titre="New Boot And Panties" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="393" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="394" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
   <Composition artist="Pere Ubu" titre="Modern Dance" type="ALBUM" canBeMerged="true" deleted="false">
@@ -2056,7 +2056,7 @@
   <Composition artist="My Bloody Valentine" titre="Loveless" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="685" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="686" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
   <Composition artist="Crowded House" titre="Woodface" type="ALBUM" canBeMerged="true" deleted="false">
@@ -2512,7 +2512,7 @@
   <Composition artist="Blur" titre="Blur" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="837" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="1001 Albums You Must Hear - 2008" publishYear="2008" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="838" creationDate="25/06/2018 16:35:39" size="1001"/>
   </Composition>
   <Composition artist="Finley Quaye" titre="Maverick a Strike" type="ALBUM" canBeMerged="true" deleted="false">

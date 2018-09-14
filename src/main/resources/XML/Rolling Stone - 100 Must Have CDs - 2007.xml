@@ -46,10 +46,10 @@
   <Composition artist="Fugazi" titre="In On The Killtaker" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="15" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="16" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="17" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
   <Composition artist="Pavement" titre="Slanted And Enchanted" type="ALBUM" canBeMerged="true" deleted="false">
@@ -154,7 +154,7 @@
   <Composition artist="The Beatles" titre="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="51" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="52" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Abbey Road" type="ALBUM" canBeMerged="true" deleted="false">
@@ -211,7 +211,7 @@
   <Composition artist="Joy Division" titre="Closer" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="70" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 100 Must Have CDs - 2007" publishYear="2007" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2007" sorted="false" classement="71" creationDate="07/09/2018 13:15:40" size="100"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="Led Zeppelin IV" type="ALBUM" canBeMerged="true" deleted="false">

@@ -10,7 +10,7 @@
   <Composition artist="Elvis Costello" titre="My Aim Is True" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - Album - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="true" classement="3" creationDate="04/09/2018 10:51:51" size="30"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Album - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="true" classement="4" creationDate="04/09/2018 10:51:51" size="30"/>
   </Composition>
   <Composition artist="Television" titre="Marquee Moon" type="ALBUM" canBeMerged="true" deleted="false">
