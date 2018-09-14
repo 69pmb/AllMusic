@@ -5,6 +5,7 @@ package pmb.music.AllMusic.utils;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.PatternSyntaxException;
@@ -210,7 +211,12 @@ public class SearchUtils {
 			result = result && compareString(fi.getAuthor(), auteur, searchMethod, jaro);
 		}
 		if (result && StringUtils.isNotBlank(cat)) {
-			result = result && fi.getCategorie() == Cat.valueOf(cat);
+			if (StringUtils.contains(cat, ";")) {
+				result = result && Arrays.asList(StringUtils.split(cat, ";")).stream()
+						.anyMatch((c -> fi.getCategorie() == Cat.getByValue(c)));
+			} else {
+				result = result && fi.getCategorie() == Cat.valueOf(cat);
+			}
 		}
 		if (result && StringUtils.isNotBlank(dateB)) {
 			result = result && ((searchMethod.equals(SearchMethod.CONTAINS)

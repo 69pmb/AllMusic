@@ -94,7 +94,7 @@ public class SearchPanel extends JPanel {
 
 	private final JTable tableResult;
 
-	private JComboBox<Cat> cat;
+	private JComboCheckBox cat;
 	private JComboBox<RecordType> type;
 	private JComboBox<String> searchMethod;
 	private MyInputText titre;
@@ -392,12 +392,8 @@ public class SearchPanel extends JPanel {
 		// Categorie
 		JPanel catPanel = new JPanel();
 		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 150);
-		cat = new JComboBox<>();
-		cat.addItem(null);
-		Cat[] values = Cat.values();
-		for (int i = 0; i < values.length; i++) {
-			cat.addItem(values[i]);
-		}
+		cat = new JComboCheckBox(
+				Arrays.asList(Cat.values()).stream().map(c -> c.getCat()).collect(Collectors.toList()));
 		cat.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
@@ -478,9 +474,8 @@ public class SearchPanel extends JPanel {
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
 			criteria.put(SearchUtils.CRITERIA_FILENAME, fileName.getText());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getText());
-			if (cat.getSelectedItem() != null) {
-				criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItem().toString());
-			}
+			criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
+			LOG.debug("cat: + " + cat.getSelectedItems());
 			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
 			criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
 			if (sorted.isSelected()) {
