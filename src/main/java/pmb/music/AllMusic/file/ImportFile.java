@@ -628,6 +628,30 @@ public class ImportFile {
 	}
 
 	/**
+	 * Counts the number of comma in the given file.
+	 * @param file the file
+	 * @return a number
+	 */
+	public static int countComma(File file) {
+		LOG.debug("Start countComma");
+		int result = 0;
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+			String readLine = "";
+			while (readLine != null) {
+				readLine = br.readLine();
+				if(StringUtils.contains(readLine, ",")) {
+					result++;
+				}
+			}
+		} catch (IOException e) {
+			LOG.error("Erreur lors du comptage de virgule dans le fichier: " + file.getAbsolutePath(), e);
+		}
+		LOG.debug("End countComma: " + result);
+		return result;
+	}
+	
+	/**
 	 * Checks if the given line is valid, ie might contains a composition.
 	 * 
 	 * @param line the line to check
