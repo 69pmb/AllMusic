@@ -4,7 +4,7 @@
   <Composition artist="Bob Dylan" titre="Time Out Of Mind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
   </Composition>
   <Composition artist="Pavement" titre="Brighten The Corners" type="ALBUM" canBeMerged="true" deleted="false">

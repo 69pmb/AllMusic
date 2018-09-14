@@ -4,7 +4,7 @@
   <Composition artist="The Beatles" titre="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="1" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publishYear="1987" categorie="DECADE" rangeDateBegin="1967" rangeDateEnd="1987" sorted="true" classement="2" creationDate="02/07/2017 07:08:56" size="100"/>
   </Composition>
   <Composition artist="The Rolling Stones" titre="Exile On Main Street" type="ALBUM" canBeMerged="true" deleted="false">

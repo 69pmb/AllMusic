@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers Best Albums Ever - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="1" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
   <Composition artist="Radiohead" titre="The Bends" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Readers Best Albums Ever - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="2" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers Best Albums Ever - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="3" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers Best Albums Ever - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="4" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
   <Composition artist="Oasis" titre="Definitely Maybe" type="ALBUM" canBeMerged="true" deleted="false">
@@ -82,7 +82,7 @@
   <Composition artist="Pink Floyd" titre="The Wall" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Readers Best Albums Ever - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="27" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Readers Best Albums Ever - 2006" publishYear="2006" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2006" sorted="true" classement="28" creationDate="25/01/2017 10:01:40" size="100"/>
   </Composition>
   <Composition artist="The Beatles" titre="Rubber Soul" type="ALBUM" canBeMerged="true" deleted="false">

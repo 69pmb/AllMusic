@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - In Our Lifetime #2 (1986-2001) - 2001" publishYear="2001" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2001" sorted="true" classement="1" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Primal Scream" titre="Screamadelica" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - In Our Lifetime #2 (1986-2001) - 2001" publishYear="2001" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2001" sorted="true" classement="2" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - In Our Lifetime #2 (1986-2001) - 2001" publishYear="2001" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2001" sorted="true" classement="3" creationDate="19/07/2017 07:11:54" size="50"/>
   </Composition>
   <Composition artist="Radiohead" titre="The Bends" type="ALBUM" canBeMerged="true" deleted="false">

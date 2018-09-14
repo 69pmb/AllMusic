@@ -118,7 +118,7 @@
   <Composition artist="Primal Scream" titre="Loaded" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="39" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 40 Records That Captured The Moment - 1992" publishYear="1992" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1992" sorted="false" classement="40" creationDate="04/09/2018 14:07:39" size="40"/>
   </Composition>
 </ListCompositions>

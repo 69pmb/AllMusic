@@ -229,7 +229,7 @@
   <Composition artist="Ice Cube" titre="Death Certificate" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="76" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="77" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
   <Composition artist="Teenage Fanclub" titre="Bandwagonesque" type="ALBUM" canBeMerged="true" deleted="false">
@@ -523,7 +523,7 @@
   <Composition artist="David Bowie" titre="Earthling" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="174" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Greatest Albums Of The Last 30 Years - 2016" publishYear="2016" categorie="LONG_PERIOD" rangeDateBegin="1986" rangeDateEnd="2016" sorted="false" classement="175" creationDate="29/08/2017 09:37:18" size="476"/>
   </Composition>
   <Composition artist="Bjork" titre="Homogenic" type="ALBUM" canBeMerged="true" deleted="false">

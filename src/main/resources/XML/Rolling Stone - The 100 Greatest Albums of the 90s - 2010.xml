@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="1" creationDate="07/09/2018 14:01:48" size="100"/>
   </Composition>
   <Composition artist="Dr. Dre" titre="The Chronic" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="2" creationDate="07/09/2018 14:01:48" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publishYear="2010" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="3" creationDate="07/09/2018 14:01:48" size="100"/>
   </Composition>
   <Composition artist="U2" titre="Achtung Baby" type="ALBUM" canBeMerged="true" deleted="false">

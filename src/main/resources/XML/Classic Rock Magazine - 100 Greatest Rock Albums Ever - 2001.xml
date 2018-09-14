@@ -22,7 +22,7 @@
   <Composition artist="Metallica" titre="Metallica" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publishYear="2001" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2001" sorted="true" classement="7" creationDate="26/06/2018 14:09:00" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publishYear="2001" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2001" sorted="true" classement="8" creationDate="26/06/2018 14:09:00" size="100"/>
   </Composition>
   <Composition artist="Bon Jovi" titre="Slippery When Wet" type="ALBUM" canBeMerged="true" deleted="false">
@@ -31,7 +31,7 @@
   <Composition artist="Jimi Hendrix" titre="Electric Ladyland" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publishYear="2001" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2001" sorted="true" classement="10" creationDate="26/06/2018 14:09:00" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publishYear="2001" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2001" sorted="true" classement="11" creationDate="26/06/2018 14:09:00" size="100"/>
   </Composition>
   <Composition artist="Def Leppard" titre="Hysteria" type="ALBUM" canBeMerged="true" deleted="false">

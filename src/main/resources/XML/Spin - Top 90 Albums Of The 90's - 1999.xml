@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Top 90 Albums Of The 90's - 1999" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="1" creationDate="13/08/2017 04:25:08" size="90"/>
   </Composition>
   <Composition artist="Public Enemy" titre="Fear Of A Black Planet" type="ALBUM" canBeMerged="true" deleted="false">
@@ -25,7 +25,7 @@
   <Composition artist="Dr. Dre" titre="The Chronic" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Top 90 Albums Of The 90's - 1999" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="8" creationDate="13/08/2017 04:25:08" size="90"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Top 90 Albums Of The 90's - 1999" publishYear="1999" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="9" creationDate="13/08/2017 04:25:08" size="90"/>
   </Composition>
   <Composition artist="The Chemical Brothers" titre="Dig Your Own Hole" type="ALBUM" canBeMerged="true" deleted="false">

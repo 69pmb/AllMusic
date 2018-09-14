@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - Top 50 Punk Albums - 2003" publishYear="2003" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="1" creationDate="22/08/2018 16:49:22" size="50"/>
   </Composition>
   <Composition artist="The Clash" titre="The Clash" type="ALBUM" canBeMerged="true" deleted="false">

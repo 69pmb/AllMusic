@@ -91,7 +91,7 @@
   <Composition artist="The Buzzcocks" titre="Singles Going Steady" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 40 Greatest Punk Albums of All Time - 2016" publishYear="2016" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="11" creationDate="07/09/2018 14:23:58" size="40"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 40 Greatest Punk Albums of All Time - 2016" publishYear="2016" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="10" creationDate="07/09/2018 14:23:58" size="40"/>
   </Composition>
   <Composition artist="X" titre="Los Angeles" type="ALBUM" canBeMerged="true" deleted="false">
@@ -112,7 +112,7 @@
   <Composition artist="The Stooges" titre="Funhouse" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - 40 Greatest Punk Albums of All Time - 2016" publishYear="2016" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="4" creationDate="07/09/2018 14:23:58" size="40"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - 40 Greatest Punk Albums of All Time - 2016" publishYear="2016" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2016" sorted="true" classement="3" creationDate="07/09/2018 14:23:58" size="40"/>
   </Composition>
   <Composition artist="The Clash" titre="The Clash" type="ALBUM" canBeMerged="true" deleted="false">

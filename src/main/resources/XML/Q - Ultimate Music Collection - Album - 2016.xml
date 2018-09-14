@@ -13,7 +13,7 @@
   <Composition artist="Led Zeppelin" titre="IV" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Ultimate Music Collection - Album - 2016" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="false" classement="4" creationDate="29/08/2017 09:42:12" size="101"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Ultimate Music Collection - Album - 2016" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="false" classement="5" creationDate="29/08/2017 09:42:12" size="101"/>
   </Composition>
   <Composition artist="Oasis" titre="Definitely Maybe" type="ALBUM" canBeMerged="true" deleted="false">
@@ -22,7 +22,7 @@
   <Composition artist="Pink Floyd" titre="Wish You Were Here" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Ultimate Music Collection - Album - 2016" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="false" classement="7" creationDate="29/08/2017 09:42:12" size="101"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Ultimate Music Collection - Album - 2016" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="false" classement="8" creationDate="29/08/2017 09:42:12" size="101"/>
   </Composition>
   <Composition artist="Red Hot Chili Peppers" titre="By The Way" type="ALBUM" canBeMerged="true" deleted="false">
@@ -88,7 +88,7 @@
   <Composition artist="Ramones" titre="Ramones" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Ultimate Music Collection - Album - 2016" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="false" classement="29" creationDate="29/08/2017 09:42:12" size="101"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Ultimate Music Collection - Album - 2016" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="false" classement="30" creationDate="29/08/2017 09:42:12" size="101"/>
   </Composition>
   <Composition artist="Patti Smith" titre="Horses" type="ALBUM" canBeMerged="true" deleted="true">
@@ -352,7 +352,7 @@
   <Composition artist="White Stripes" titre="Elephant" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Ultimate Music Collection - Album - 2016" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="false" classement="117" creationDate="29/08/2017 09:42:12" size="101"/>
   </Composition>
-  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Ultimate Music Collection - Album - 2016" publishYear="2016" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2016" sorted="false" classement="118" creationDate="29/08/2017 09:42:12" size="101"/>
   </Composition>
   <Composition artist="Madonna" titre="Like A Prayer" type="ALBUM" canBeMerged="true" deleted="false">

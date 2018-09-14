@@ -109,7 +109,7 @@
   <Composition artist="Finley Quaye" titre="Maverick A Strike" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="false" classement="36" creationDate="28/08/2018 11:36:40" size="50"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="false" classement="37" creationDate="28/08/2018 11:36:40" size="50"/>
   </Composition>
   <Composition artist="Reef" titre="Glow" type="ALBUM" canBeMerged="true" deleted="false">

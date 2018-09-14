@@ -883,7 +883,7 @@
   <Composition artist="Liz Phair" titre="Exile In Guyville" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="LONG_PERIOD" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="7" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="LONG_PERIOD" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="6" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
   <Composition artist="The Smiths" titre="The Queen Is Dead" type="ALBUM" canBeMerged="true" deleted="false">
@@ -898,7 +898,7 @@
   <Composition artist="Wu Tang Clan" titre="Enter the Wu Tang" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="LONG_PERIOD" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="2" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - The 300 Best Albums of the Past 30 Years - 2015" publishYear="2015" categorie="LONG_PERIOD" rangeDateBegin="1985" rangeDateEnd="2015" sorted="true" classement="1" creationDate="30/08/2018 11:20:07" size="300"/>
   </Composition>
 </ListCompositions>
