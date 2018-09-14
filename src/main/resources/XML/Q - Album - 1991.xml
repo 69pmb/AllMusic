@@ -73,7 +73,7 @@
   <Composition artist="The Milltown Brothers" titre="Slinky" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="24" creationDate="28/08/2018 11:34:33" size="50"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="false" classement="25" creationDate="28/08/2018 11:34:33" size="50"/>
   </Composition>
   <Composition artist="Omar" titre="There's Nothing Like This" type="ALBUM" canBeMerged="true" deleted="false">

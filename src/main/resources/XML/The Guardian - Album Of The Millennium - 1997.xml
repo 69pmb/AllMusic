@@ -7,7 +7,7 @@
   <Composition artist="The Stone Roses" titre="The Stone Roses" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="2" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="3" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
   <Composition artist="Radiohead" titre="The Bends" type="ALBUM" canBeMerged="true" deleted="false">
@@ -19,10 +19,10 @@
   <Composition artist="Pink Floyd" titre="Dark Side Of The Moon" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="6" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="7" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="8" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
   <Composition artist="Van Morrison" titre="Astral Weeks" type="ALBUM" canBeMerged="true" deleted="false">
@@ -70,7 +70,7 @@
   <Composition artist="Fleetwood" titre="Mac Rumours" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="23" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
-  <Composition artist="The Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="The Guardian" fileName="The Guardian - Album Of The Millennium - 1997" publishYear="1997" categorie="ALL_TIME" rangeDateBegin="1900" rangeDateEnd="1997" sorted="true" classement="24" creationDate="27/08/2018 11:44:50" size="100"/>
   </Composition>
   <Composition artist="Prodigy" titre="The Fat Of The Land" type="ALBUM" canBeMerged="true" deleted="false">

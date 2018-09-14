@@ -19,7 +19,7 @@
   <Composition artist="Portishead" titre="Portishead" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Inrock" fileName="Inrock - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="false" classement="6" creationDate="10/09/2018 13:31:05" size="51"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Inrock" fileName="Inrock - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="false" classement="7" creationDate="10/09/2018 13:31:05" size="51"/>
   </Composition>
   <Composition artist="Swell" titre="Too Many Days Without Thinking" type="ALBUM" canBeMerged="true" deleted="false">

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="1" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="2" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
   <Composition artist="Beatles" titre="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" canBeMerged="true" deleted="false">
@@ -22,7 +22,7 @@
   <Composition artist="Guns N' Roses" titre="Appetite For Destruction" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="7" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="8" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
   <Composition artist="Led Zeppelin" titre="Led Zeppelin 4" type="ALBUM" canBeMerged="true" deleted="false">
@@ -217,7 +217,7 @@
   <Composition artist="Michael Jackson" titre="Off The Wall" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="72" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Readers Top 100 Albums - 2002" publishYear="2002" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2002" sorted="true" classement="73" creationDate="25/01/2017 10:01:41" size="100"/>
   </Composition>
   <Composition artist="Counting Crows" titre="August And Everything After" type="ALBUM" canBeMerged="true" deleted="false">

@@ -64,7 +64,7 @@
   <Composition artist="Bob Dylan" titre="Time Out Of Mind" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publishYear="2013" categorie="LONG_PERIOD" rangeDateBegin="1993" rangeDateEnd="2013" sorted="false" classement="21" creationDate="23/08/2018 13:55:40" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publishYear="2013" categorie="LONG_PERIOD" rangeDateBegin="1993" rangeDateEnd="2013" sorted="false" classement="22" creationDate="23/08/2018 13:55:40" size="100"/>
   </Composition>
   <Composition artist="Spiritualized" titre="Ladies And Gentleman We Are Floating In Space" type="ALBUM" canBeMerged="true" deleted="false">

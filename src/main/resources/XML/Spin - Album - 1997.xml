@@ -4,7 +4,7 @@
   <Composition artist="Cornershop" titre="When I Was Born For The 7th Time" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="1" creationDate="30/08/2018 10:49:27" size="20"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Album - 1997" publishYear="1997" categorie="YEAR" rangeDateBegin="1997" rangeDateEnd="1997" sorted="true" classement="2" creationDate="30/08/2018 10:49:27" size="20"/>
   </Composition>
   <Composition artist="Sleater-Kinney" titre="Dig Me Out" type="ALBUM" canBeMerged="true" deleted="false">

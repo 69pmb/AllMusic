@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="Classic Rock Magazine - 30 Best Albums of the 90s - 2000" publishYear="2000" categorie="DECADE" rangeDateBegin="1990" rangeDateEnd="1999" sorted="true" classement="1" creationDate="26/06/2018 14:06:43" size="30"/>
   </Composition>
   <Composition artist="Metallica" titre="Metallica" type="ALBUM" canBeMerged="true" deleted="false">

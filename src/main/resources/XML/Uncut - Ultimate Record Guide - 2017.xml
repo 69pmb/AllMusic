@@ -2809,7 +2809,7 @@
   <Composition artist="Nirvana" titre="MTV Unplugged In New York" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="936" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="937" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
   <Composition artist="NAS" titre="Illmatic" type="ALBUM" canBeMerged="true" deleted="false">
@@ -3247,7 +3247,7 @@
   <Composition artist="Radiohead" titre="Kid A" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1082" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1083" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
   <Composition artist="Radiohead" titre="Pablo Honey" type="ALBUM" canBeMerged="true" deleted="false">
@@ -3499,7 +3499,7 @@
   <Composition artist="Serge Gainsbourg" titre="Initials BD" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1166" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1167" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
   <Composition artist="Shack" titre="Waterpistol" type="ALBUM" canBeMerged="true" deleted="false">
@@ -3985,7 +3985,7 @@
   <Composition artist="The Beatles" titre="Please Please Me" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1328" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Uncut" fileName="Uncut - Ultimate Record Guide - 2017" publishYear="2017" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2017" sorted="false" classement="1329" creationDate="26/06/2018 13:34:27" size="1721"/>
   </Composition>
   <Composition artist="The Beatles" titre="Rubber Soul" type="ALBUM" canBeMerged="true" deleted="false">

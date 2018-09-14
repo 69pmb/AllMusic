@@ -7,7 +7,7 @@
   <Composition artist="U2" titre="Achtung Baby" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
   </Composition>
   <Composition artist="Guns N' Roses" titre="Use Your Illusion I" type="ALBUM" canBeMerged="true" deleted="false">

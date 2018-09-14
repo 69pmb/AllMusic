@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="The Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Greatest Albums of The 60's - 1993" publishYear="1993" categorie="DECADE" rangeDateBegin="1960" rangeDateEnd="1969" sorted="true" classement="1" creationDate="04/09/2018 12:45:28" size="50"/>
   </Composition>
   <Composition artist="The Beach Boys" titre="Pet Sounds" type="ALBUM" canBeMerged="true" deleted="true">

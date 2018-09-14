@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="1" creationDate="04/09/2018 10:49:07" size="50"/>
   </Composition>
   <Composition artist="Teenage Fanclub" titre="Bandwagonesque" type="ALBUM" canBeMerged="true" deleted="false">

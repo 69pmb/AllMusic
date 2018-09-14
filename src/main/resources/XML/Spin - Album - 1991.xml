@@ -7,7 +7,7 @@
   <Composition artist="R.E.M." titre="Out Of Time" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Spin" fileName="Spin - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="2" creationDate="30/08/2018 10:33:20" size="20"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="3" creationDate="30/08/2018 10:33:20" size="20"/>
   </Composition>
   <Composition artist="Pixies" titre="Trompe Le Monde" type="ALBUM" canBeMerged="true" deleted="false">

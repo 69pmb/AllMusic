@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Rolling Stone" fileName="Rolling Stone - Album - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="6"/>
   </Composition>
   <Composition artist="Eagles" titre="Hotel California" type="ALBUM" canBeMerged="true" deleted="false">

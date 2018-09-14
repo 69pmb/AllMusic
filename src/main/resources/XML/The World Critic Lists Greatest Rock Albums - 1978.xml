@@ -16,7 +16,7 @@
   <Composition artist="Beatles" titre="Rubber Soul" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Divers" fileName="The World Critic Lists Greatest Rock Albums - 1978" publishYear="1978" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1978" sorted="true" classement="5" creationDate="25/06/2018 16:47:53" size="200"/>
   </Composition>
-  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Divers" fileName="The World Critic Lists Greatest Rock Albums - 1978" publishYear="1978" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="1978" sorted="true" classement="6" creationDate="25/06/2018 16:47:53" size="200"/>
   </Composition>
   <Composition artist="Rolling Stones" titre="Exile On Main Street" type="ALBUM" canBeMerged="true" deleted="false">

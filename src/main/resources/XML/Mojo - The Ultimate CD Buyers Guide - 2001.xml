@@ -970,7 +970,7 @@
   <Composition artist="Beatles" titre="Magical Mystery Tour" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Ultimate CD Buyers Guide - 2001" publishYear="2001" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2001" sorted="false" classement="323" creationDate="23/08/2018 17:42:46" size="999"/>
   </Composition>
-  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Beatles" titre="Revolver" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Ultimate CD Buyers Guide - 2001" publishYear="2001" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2001" sorted="false" classement="324" creationDate="23/08/2018 17:42:46" size="999"/>
   </Composition>
   <Composition artist="Beatles" titre="Rubber Soul" type="ALBUM" canBeMerged="true" deleted="false">
@@ -2059,7 +2059,7 @@
   <Composition artist="Quicksilver Messenger Service" titre="Happy Trails" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The Ultimate CD Buyers Guide - 2001" publishYear="2001" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2001" sorted="false" classement="686" creationDate="23/08/2018 17:42:46" size="999"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The Ultimate CD Buyers Guide - 2001" publishYear="2001" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2001" sorted="false" classement="687" creationDate="23/08/2018 17:42:46" size="999"/>
   </Composition>
   <Composition artist="Raincoats" titre="The Raincoats" type="ALBUM" canBeMerged="true" deleted="false">

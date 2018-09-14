@@ -7,7 +7,7 @@
   <Composition artist="Johnny Cash" titre="American Recordings" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publishYear="2006" categorie="LONG_PERIOD" rangeDateBegin="1993" rangeDateEnd="2006" sorted="true" classement="2" creationDate="23/08/2018 17:57:26" size="100"/>
   </Composition>
-  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="Ok Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Mojo" fileName="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publishYear="2006" categorie="LONG_PERIOD" rangeDateBegin="1993" rangeDateEnd="2006" sorted="true" classement="3" creationDate="23/08/2018 17:57:26" size="100"/>
   </Composition>
   <Composition artist="Bob Dylan" titre="Time Out Of Mind" type="ALBUM" canBeMerged="true" deleted="false">

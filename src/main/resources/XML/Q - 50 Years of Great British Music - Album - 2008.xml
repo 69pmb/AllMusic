@@ -43,7 +43,7 @@
   <Composition artist="Queen" titre="A Night At The Opera" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Years of Great British Music - Album - 2008" publishYear="2008" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="14" creationDate="28/08/2018 14:36:53" size="50"/>
   </Composition>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 50 Years of Great British Music - Album - 2008" publishYear="2008" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="15" creationDate="28/08/2018 14:36:53" size="50"/>
   </Composition>
   <Composition artist="Jam" titre="All Mod Cons" type="ALBUM" canBeMerged="true" deleted="false">
@@ -115,7 +115,7 @@
   <Composition artist="Pulp" titre="Different Class" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - 50 Years of Great British Music - Album - 2008" publishYear="2008" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="38" creationDate="28/08/2018 14:36:53" size="50"/>
   </Composition>
-  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Radiohead" titre="OK Computer" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - 50 Years of Great British Music - Album - 2008" publishYear="2008" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2008" sorted="false" classement="39" creationDate="28/08/2018 14:36:53" size="50"/>
   </Composition>
   <Composition artist="Verve" titre="Urban Hymns" type="ALBUM" canBeMerged="true" deleted="false">

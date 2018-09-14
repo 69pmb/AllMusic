@@ -43,7 +43,7 @@
   <Composition artist="Temple Of The Dog" titre="Temple Of The Dog" type="ALBUM" canBeMerged="true" deleted="false">
     <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="14" creationDate="28/08/2018 15:37:53" size="15"/>
   </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="15" creationDate="28/08/2018 15:37:53" size="15"/>
   </Composition>
 </ListCompositions>

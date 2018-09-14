@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="false">
+  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
     <File author="Spin" fileName="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publishYear="2004" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2004" sorted="true" classement="1" creationDate="30/08/2018 10:18:02" size="20"/>
   </Composition>
   <Composition artist="Soundgarden" titre="Superunknown" type="ALBUM" canBeMerged="true" deleted="false">
