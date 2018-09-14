@@ -463,14 +463,11 @@ public class SearchPanel extends JPanel {
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_ARTIST, artist.getText());
 			criteria.put(SearchUtils.CRITERIA_TITRE, titre.getText());
-			if (type.getSelectedItem() != null) {
-				criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.getSelectedItem().toString());
-			}
+			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.getSelectedItems());
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
 			criteria.put(SearchUtils.CRITERIA_FILENAME, fileName.getText());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getText());
 			criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
-			LOG.debug("cat: + " + cat.getSelectedItems());
 			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
 			criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
 			if (sorted.isSelected()) {
@@ -513,12 +510,12 @@ public class SearchPanel extends JPanel {
 		LOG.debug("Start cleanAction");
 		artist.setText(null);
 		titre.setText(null);
-		type.setSelectedItem(null);
+		type.clearSelection();
 		searchMethod.setSelectedItem(SearchMethod.CONTAINS.getValue());
 		publi.setText("");
 		fileName.setText("");
 		author.setText(null);
-		cat.setSelectedItem(null);
+		cat.clearSelection();
 		sorted.setSelected(false);
 		deleted.setSelected(false);
 		topTen.setSelected(false);

@@ -29,7 +29,6 @@ import java.util.stream.Collectors;
 import javax.swing.AbstractAction;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -78,7 +77,7 @@ public class ArtistPanel extends JPanel {
 	private final MyInputText rangeB;
 	private final MyInputText rangeE;
 	private final MyInputText auteur;
-	private final JComboBox<Cat> cat;
+	private final JComboCheckBox cat;
 	private final JButton search;
 	private final JButton reset;
 	private Integer sortedColumn;
@@ -144,12 +143,8 @@ public class ArtistPanel extends JPanel {
 		JPanel catPanel = new JPanel();
 		catPanel.setPreferredSize(new Dimension(180, PanelUtils.PANEL_HEIGHT));
 		JLabel catLabel = new JLabel("Catégorie : ");
-		cat = new JComboBox<>();
-		cat.addItem(null);
-		Cat[] values = Cat.values();
-		for (int i = 0; i < values.length; i++) {
-			cat.addItem(values[i]);
-		}
+		cat = new JComboCheckBox(
+				Arrays.asList(Cat.values()).stream().map(c -> c.getCat()).collect(Collectors.toList()));
 		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
@@ -375,7 +370,7 @@ public class ArtistPanel extends JPanel {
 
 	private void searchAction() {
 		LOG.debug("Start search");
-		if (!data.isEmpty()) {
+		if (data != null && !data.isEmpty()) {
 			searchResult = new HashMap<>();
 			for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
 				for (Composition c : entry.getValue()) {
@@ -385,7 +380,7 @@ public class ArtistPanel extends JPanel {
 					List<Fichier> files = c.getFiles().stream()
 							.filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, new JaroWinklerDistance(),
 									publi.getText(), null, auteur.getText(),
-									cat.getSelectedItem() != null ? cat.getSelectedItem().toString() : null,
+									cat.getSelectedItems(),
 									rangeB.getText(), rangeE.getText(), null, null, f))
 							.collect(Collectors.toList());
 					if (!files.isEmpty()) {
@@ -410,7 +405,7 @@ public class ArtistPanel extends JPanel {
 		rangeE.setText("");
 		auteur.setText("");
 		publi.setText("");
-		cat.setSelectedItem(null);
+		cat.clearSelection();
 		deleted.setSelected(false);
 		LOG.debug("End resetAction");
 	}

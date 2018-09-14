@@ -102,8 +102,8 @@ public class FichierPanel extends JPanel {
 	private MyInputText publi;
 	private JTextField rangeB;
 	private JTextField rangeE;
-	private JComboBox<String> cat;
-	private JComboBox<RecordType> type;
+	private JComboCheckBox cat;
+	private JComboCheckBox type;
 	private JCheckBox sorted;
 	private JCheckBox deleted;
 	private JButton search;
@@ -215,12 +215,8 @@ public class FichierPanel extends JPanel {
 		// Categorie
 		JPanel catPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 180);
-		cat = new JComboBox<>();
-		cat.addItem("");
-		Cat[] values = Cat.values();
-		for (int i = 0; i < values.length; i++) {
-			cat.addItem(values[i].toString());
-		}
+		cat = new JComboCheckBox(
+				Arrays.asList(Cat.values()).stream().map(c -> c.getCat()).collect(Collectors.toList()));
 		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
@@ -228,12 +224,8 @@ public class FichierPanel extends JPanel {
 		// Type
 		JPanel typePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
-		type = new JComboBox<>();
-		type.addItem(null);
-		RecordType[] valuesType = RecordType.values();
-		for (int i = 0; i < valuesType.length; i++) {
-			type.addItem(valuesType[i]);
-		}
+		type = new JComboCheckBox(
+				Arrays.asList(RecordType.values()).stream().map(t -> t.getRecordType()).collect(Collectors.toList()));
 		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		typePanel.add(typeLabel);
 		typePanel.add(type);
@@ -671,8 +663,9 @@ public class FichierPanel extends JPanel {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
 		fichiers = new ArrayList<Fichier>(ImportXML.importXML(Constant.getFinalFilePath()).stream().filter(c -> {
-			if (type.getSelectedItem() != null) {
-				return type.getSelectedItem().equals(c.getRecordType());
+			if (StringUtils.isNotBlank(type.getSelectedItems())) {
+				return Arrays.asList(StringUtils.split(type.getSelectedItems(), ";")).stream()
+						.anyMatch((t -> c.getRecordType() == RecordType.getByValue(t)));
 			} else {
 				return true;
 			}
@@ -681,9 +674,8 @@ public class FichierPanel extends JPanel {
 		if (CollectionUtils.isNotEmpty(fichiers)) {
 			CollectionUtils.filter(fichiers,
 					(Object f) -> SearchUtils.filterFichier(SearchMethod.CONTAINS, new JaroWinklerDistance(),
-							publi.getText(), name.getText(), auteur.getText(), cat.getSelectedItem().toString(),
-							rangeB.getText(), rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "",
-							null, f));
+							publi.getText(), name.getText(), auteur.getText(), cat.getSelectedItems(), rangeB.getText(),
+							rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f));
 			updateFileTable();
 		}
 		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");
@@ -756,8 +748,8 @@ public class FichierPanel extends JPanel {
 		publi.setText("");
 		rangeB.setText("");
 		rangeE.setText("");
-		cat.setSelectedItem("");
-		type.setSelectedItem(null);
+		cat.clearSelection();
+		type.clearSelection();
 		sorted.setSelected(false);
 		deleted.setSelected(false);
 		LOG.debug("End resetAction");
