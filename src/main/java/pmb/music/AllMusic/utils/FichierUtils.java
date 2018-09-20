@@ -67,10 +67,23 @@ public class FichierUtils {
 			for (Fichier f : c.getFiles()) {
 				Vector<Object> v = new Vector<>();
 				if (getComposition) {
-					v.addElement(c.getArtist());
-					v.addElement(c.getTitre());
-					v.addElement(c.getRecordType().toString());
-					v.addElement(Boolean.valueOf(c.isDeleted()).toString());
+					List<Composition> importXML = ImportXML
+							.importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
+					Optional<Composition> optCompo = CompositionUtils.findByFile(importXML, f,
+							Optional.of(c.getArtist()), Optional.of(c.getTitre()));
+					if (optCompo.isPresent()) {
+						v.addElement(optCompo.get().getArtist());
+						v.addElement(optCompo.get().getTitre());
+						v.addElement(optCompo.get().getRecordType().toString());
+						v.addElement(Boolean.valueOf(optCompo.get().isDeleted()).toString());
+					} else {
+						LOG.warn("No result when searching composition by its file: " + f + ", " + c.getArtist() + ", "
+								+ c.getTitre());
+						v.addElement(c.getArtist());
+						v.addElement(c.getTitre());
+						v.addElement(c.getRecordType().toString());
+						v.addElement(Boolean.valueOf(c.isDeleted()).toString());
+					}
 				}
 				v.addElement(f.getAuthor());
 				v.addElement(f.getFileName());
