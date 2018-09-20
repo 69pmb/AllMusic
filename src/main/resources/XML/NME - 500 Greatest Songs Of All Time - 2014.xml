@@ -157,7 +157,7 @@
   <Composition artist="Daft Punk" titre="One More Time" type="SONG" canBeMerged="true" deleted="false">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="52" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
-  <Composition artist="M.I.A." titre="Paper Planes" type="SONG" canBeMerged="true" deleted="false">
+  <Composition artist="M.I.A." titre="Paper Planes" type="SONG" canBeMerged="true" deleted="true">
     <File author="NME" fileName="NME - 500 Greatest Songs Of All Time - 2014" publishYear="2014" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="2014" sorted="true" classement="53" creationDate="02/07/2017 07:08:56" size="500"/>
   </Composition>
   <Composition artist="Bruce Springsteen" titre="Born To Run" type="SONG" canBeMerged="true" deleted="true">
