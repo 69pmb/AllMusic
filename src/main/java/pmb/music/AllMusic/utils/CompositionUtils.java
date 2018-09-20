@@ -299,7 +299,7 @@ public class CompositionUtils {
 
 		List<Composition> search = new ArrayList<>();
 		search = SearchUtils.search(compoList, criteria, false,
-				isStrictly ? SearchMethod.WHOLE_WORD : SearchMethod.CONTAINS, true, true);
+				isStrictly ? SearchMethod.WHOLE_WORD : SearchMethod.CONTAINS, true, false);
 		if (search.size() > 1) {
 			LOG.debug("Compo: " + search.size());
 			search.stream().forEach(LOG::debug);
