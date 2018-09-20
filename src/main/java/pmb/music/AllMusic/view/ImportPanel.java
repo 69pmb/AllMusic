@@ -92,7 +92,7 @@ public class ImportPanel extends JPanel {
 	 */
 	private final JTextField characterToRemove;
 
-	private final JTextArea resultLabel;
+	private final JTextArea resultLabel = new JTextArea();
 
 	private File file;
 	private File xmlFile;
@@ -469,7 +469,6 @@ public class ImportPanel extends JPanel {
 
 		// result
 		JPanel resultPanel = new JPanel(new BorderLayout());
-		resultLabel = new JTextArea();
 		resultLabel.setWrapStyleWord(true);
 		resultLabel.setLineWrap(true);
 		resultLabel.setOpaque(false);
