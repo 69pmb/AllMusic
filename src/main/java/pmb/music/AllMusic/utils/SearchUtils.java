@@ -122,7 +122,7 @@ public class SearchUtils {
 		if (result && StringUtils.isNotBlank(titre)) {
 			result = result && compareString(titre, co.getTitre(), searchMethod, jaro);
 		}
-		if (result && type != null) {
+		if (result && StringUtils.isNotBlank(type)) {
 			result = result && Arrays.asList(StringUtils.split(type, ";")).stream()
 					.anyMatch((t -> co.getRecordType() == RecordType.getByValue(t)));
 		}
