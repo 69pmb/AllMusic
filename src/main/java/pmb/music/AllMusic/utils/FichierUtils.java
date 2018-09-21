@@ -12,6 +12,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Arrays;
@@ -66,9 +68,9 @@ public class FichierUtils {
 		for (Composition c : compoList) {
 			for (Fichier f : c.getFiles()) {
 				Vector<Object> v = new Vector<>();
+				List<Composition> importXML = ImportXML
+						.importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
 				if (getComposition) {
-					List<Composition> importXML = ImportXML
-							.importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
 					Optional<Composition> optCompo = CompositionUtils.findByFile(importXML, f,
 							Optional.of(c.getArtist()), Optional.of(c.getTitre()));
 					if (optCompo.isPresent()) {
@@ -90,6 +92,11 @@ public class FichierUtils {
 				v.addElement(f.getPublishYear());
 				v.addElement(f.getCategorie().toString());
 				v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
+				BigDecimal numberOfDeleted = new BigDecimal(importXML.stream().reduce(0,
+						(sum, item) -> item.isDeleted() ? sum + 1 : sum, (sumA, sumB) -> sumA + sumB));
+				BigDecimal size = new BigDecimal(f.getSize() == 0 ? importXML.size() : f.getSize());
+				v.addElement(BigDecimal.valueOf(100D).setScale(2).multiply(numberOfDeleted)
+						.divide(size, RoundingMode.HALF_UP).doubleValue() + "%");
 				if (!getComposition) {
 					v.addElement(f.getCreationDate());
 				}
