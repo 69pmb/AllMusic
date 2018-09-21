@@ -26,6 +26,7 @@ import javax.swing.JTable;
 import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -35,6 +36,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.model.FichierDialogModel;
@@ -53,7 +55,7 @@ public class DialogFileTable extends JDialog {
 	private List<Composition> compoList = new ArrayList<>();
 
 	private static final String[] header = { "Artiste", "Oeuvre", "Type", "", "Auteur", "Nom du fichier",
-			"Date de publication", "Categorie", "Dates", "Taille", "Classement", "Classé" };
+			"Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Classement", "Classé" };
 
 	public static final int INDEX_ARTIST = 0;
 	public static final int INDEX_TITLE = 1;
@@ -61,8 +63,9 @@ public class DialogFileTable extends JDialog {
 	public static final int INDEX_AUTEUR = 4;
 	public static final int INDEX_FILE_NAME = 5;
 	public static final int INDEX_PUBLISH_YEAR = 6;
-	public static final int INDEX_FILE_SIZE = 9;
-	public static final int INDEX_RANK = 10;
+	public static final int INDEX_PERCENT_DELETED = 9;
+	public static final int INDEX_FILE_SIZE = 10;
+	public static final int INDEX_RANK = 11;
 
 	private JTable fichiers;
 	private int defaultSort;
@@ -113,10 +116,11 @@ public class DialogFileTable extends JDialog {
 		fichiers.setModel(new FichierDialogModel(FichierUtils.convertCompositionListToFichierVector(compoList, true),
 				new Vector(Arrays.asList(header))));
 		fichiers.getRowSorter().toggleSortOrder(defaultSort);
+		((TableRowSorter) fichiers.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
 
 		fichiers.addMouseListener(pasteFichierListener());
 		this.getRootPane().registerKeyboardAction(e -> {
-		    this.dispose();
+			this.dispose();
 		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
 		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED);

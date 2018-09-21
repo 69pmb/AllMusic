@@ -64,6 +64,7 @@ import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.PanelUtils;
@@ -91,8 +92,10 @@ public class FichierPanel extends JPanel {
 	public static final int INDEX_FILE_PUBLISH = 2;
 	public static final int INDEX_FILE_CAT = 3;
 	public static final int INDEX_FILE_RANGE = 4;
-	public static final int INDEX_FILE_SIZE = 6;
-	public static final int INDEX_FILE_SORTED = 7;
+	public static final int INDEX_PERCENT_DELETED = 5;
+	public static final int INDEX_CREATE_DATE = 6;
+	public static final int INDEX_FILE_SIZE = 7;
+	public static final int INDEX_FILE_SORTED = 8;
 
 	private static final int INDEX_COMPO_ARTIST = 0;
 	private static final int INDEX_COMPO_TITLE = 1;
@@ -142,7 +145,7 @@ public class FichierPanel extends JPanel {
 	private Score score;
 
 	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
-			"Dates", "Date de création", "Taille", "Classé" };
+			"Dates", "Supprimés", "Date de création", "Taille", "Classé" };
 	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
 			"Score", "", "" };
 
@@ -344,6 +347,7 @@ public class FichierPanel extends JPanel {
 		this.add(header);
 	}
 
+	@SuppressWarnings({ "unchecked" })
 	private void initFichierTable() {
 		fichierPanel = new JPanel(new BorderLayout());
 
@@ -357,7 +361,6 @@ public class FichierPanel extends JPanel {
 		tableFiles.setBorder(UIManager.getBorder("Label.border"));
 		fichieModel = new FichierPanelModel(new Object[0][9], headerFiles);
 		tableFiles.setModel(fichieModel);
-		tableFiles.setRowSorter(new TableRowSorter<TableModel>(fichieModel));
 		tableFiles.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -383,7 +386,6 @@ public class FichierPanel extends JPanel {
 		});
 		tableFiles.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@Override
-			@SuppressWarnings("unchecked")
 			public void sorterChanged(RowSorterEvent e) {
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 					List<SortKey> sortKeys = e.getSource().getSortKeys();
@@ -689,6 +691,7 @@ public class FichierPanel extends JPanel {
 		LOG.debug("End searchAction");
 	}
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private void updateFileTable() {
 		LOG.debug("Start updateFileTable");
 		Composition c = new Composition();
@@ -704,6 +707,7 @@ public class FichierPanel extends JPanel {
 		}
 		tableFiles.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedFichierColumn, sortFichierOrder)));
+		((TableRowSorter) tableFiles.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
 		selectedFichierRow = -1;
 		tableFiles.repaint();
 		updateCompoTable(new ArrayList<>(), null);

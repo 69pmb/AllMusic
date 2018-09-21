@@ -5,6 +5,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
@@ -12,6 +13,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.OptionalDouble;
 import java.util.Vector;
+
+import org.apache.commons.lang3.StringUtils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -23,6 +26,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class MiscUtils {
 
 	// private static final Logger LOG = Logger.getLogger(MiscUtils.class);
+
+	public static Comparator<String> comparePercentage = (String s1, String s2) -> {
+		return new Double(Double.parseDouble(StringUtils.replaceAll(StringUtils.substringBefore(s1, "%"), ",", ".")))
+				.compareTo(new Double(
+						Double.parseDouble(StringUtils.replaceAll(StringUtils.substringBefore(s2, "%"), ",", "."))));
+	};
 
 	private MiscUtils() {
 	}
