@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -58,6 +58,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.view.PanelUtils;
 
 /**
  * Onglet d'import de fichiers txt.

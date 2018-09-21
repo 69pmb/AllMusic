@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -24,6 +24,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Cat;
+import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.panel.FichierPanel;
 
 /**
  * Une "pop-up" permettant de modifier un fichier.
