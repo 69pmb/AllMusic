@@ -120,6 +120,7 @@ public class FichierPanel extends JPanel {
 	private Integer sortedFichierColumn;
 	private SortOrder sortFichierOrder;
 	private int selectedFichierRow = -1;
+	private String selectedFichierName = "";
 
 	// Composition componants
 	private JPanel compoPanel;
@@ -322,7 +323,7 @@ public class FichierPanel extends JPanel {
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
 			PanelUtils.deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel);
-			updateCompoTable(compositionList);
+			updateCompoTable(compositionList, selectedFichierName);
 		});
 		header.add(delete);
 		// Label pour afficher les resultats
@@ -464,6 +465,7 @@ public class FichierPanel extends JPanel {
 		if (!selectedRow.isPresent()) {
 			return;
 		}
+		selectedFichierName = selectedRow.get().get(INDEX_FILE_FILE_NAME);
 		if (e.getClickCount() == 1 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse, open");
 			// Double click avec le bouton gauche
@@ -473,7 +475,7 @@ public class FichierPanel extends JPanel {
 			if (!deleted.isSelected()) {
 				compositionList = compositionList.stream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
 			}
-			updateCompoTable(compositionList);
+			updateCompoTable(compositionList, selectedFichierName);
 			LOG.debug("End left mouse, open");
 		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("End left mouse, modify");
@@ -655,7 +657,7 @@ public class FichierPanel extends JPanel {
 		}
 
 		resultLabel.setText(label);
-		updateCompoTable(compositionList);
+		updateCompoTable(compositionList, currentFile.getFileName());
 		LOG.debug("End modif");
 	}
 
@@ -699,7 +701,7 @@ public class FichierPanel extends JPanel {
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedFichierColumn, sortFichierOrder)));
 		selectedFichierRow = -1;
 		tableFiles.repaint();
-		updateCompoTable(new ArrayList<>());
+		updateCompoTable(new ArrayList<>(), null);
 		LOG.debug("Start updateFileTable");
 	}
 
@@ -707,25 +709,33 @@ public class FichierPanel extends JPanel {
 	 * Met à jour le tableau des compositions.
 	 * 
 	 * @param compo la liste des compositions à afficher
+	 * @param selectedFile le fichier selectionné
 	 */
-	private void updateCompoTable(List<Composition> compo) {
+	private void updateCompoTable(List<Composition> compo, String selectedFile) {
 		LOG.debug("Start updateCompoTable");
 		compoModel.setRowCount(0);
-		List<Fichier> fichier = compo.stream().map(c -> c.getFiles().get(0)).collect(Collectors.toList());
-		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		// recover of all the files of the compositions
-		compo.stream().forEach(c -> {
-			Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, c.getFiles().get(0),
-					Optional.of(c.getArtist()), Optional.of(c.getTitre()));
-			if (findByFile.isPresent()) {
-				c.setFiles(findByFile.get().getFiles());
-			} else {
-				LOG.warn("Could not find files for: " + c);
-			}
-		});
-		compoModel.setDataVector(
-				CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, score),
-				new Vector<>(Arrays.asList(headerCompo)));
+		if (selectedFile != null && !compo.isEmpty()) {
+			List<Fichier> fichier = compo.stream()
+					.map(c -> c.getFiles().stream()
+							.filter(f -> StringUtils.equalsIgnoreCase(selectedFile, f.getFileName())).findFirst().get())
+					.collect(Collectors.toList());
+			List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+			// recover of all the files of the compositions
+			compo.stream().forEach(c -> {
+				Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, c.getFiles().get(0),
+						Optional.of(c.getArtist()), Optional.of(c.getTitre()));
+				if (findByFile.isPresent()) {
+					c.setFiles(findByFile.get().getFiles());
+				} else {
+					LOG.warn("Could not find files for: " + c);
+				}
+			});
+			compoModel.setDataVector(
+					CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, score),
+					new Vector<>(Arrays.asList(headerCompo)));
+		} else {
+			compoModel.setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
+		}
 		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED);
 		compoModel.fireTableDataChanged();
 		if (sortedCompoColumn == null) {
