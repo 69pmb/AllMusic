@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -34,6 +34,7 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
+import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.model.CompoDialogModel;
 
 /**

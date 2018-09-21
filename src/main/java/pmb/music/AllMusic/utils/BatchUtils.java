@@ -50,8 +50,8 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
-import pmb.music.AllMusic.view.BatchPanel;
-import pmb.music.AllMusic.view.Onglet;
+import pmb.music.AllMusic.view.panel.BatchPanel;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
@@ -232,7 +232,7 @@ public class BatchUtils {
 		StringBuilder result = new StringBuilder();
 		addLine(result, "IncorrectFileNames: ", true);
 
-		List<String> authorList = Onglet.getAuthorList();
+		List<String> authorList = OngletPanel.getAuthorList();
 		List<String> res = new ArrayList<>();
 		for (String author : authorList) {
 			if (StringUtils.equalsIgnoreCase(author, "Divers")) {
@@ -829,7 +829,7 @@ public class BatchUtils {
 	 * @param year
 	 */
 	private static String topSongsParPublication(String year) {
-		List<String> authors = Onglet.getAuthorList();
+		List<String> authors = OngletPanel.getAuthorList();
 		List<List<String>> result = new ArrayList<List<String>>();
 		for (String author : authors) {
 			List<Composition> arrayList = ImportXML.importXML(Constant.getFinalFilePath());

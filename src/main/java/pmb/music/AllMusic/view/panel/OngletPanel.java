@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -26,14 +26,16 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.view.BasicFrame;
+import pmb.music.AllMusic.view.PanelUtils;
 
 /**
  * Classe gérant les onglet de l'appli.
  * 
  */
-public class Onglet extends JPanel {
+public class OngletPanel extends JPanel {
 	private static final long serialVersionUID = -7235352581168930316L;
-	private static final Logger LOG = Logger.getLogger(Onglet.class);
+	private static final Logger LOG = Logger.getLogger(OngletPanel.class);
 	private JTabbedPane onglets;
 	private static int index;
 
@@ -43,7 +45,7 @@ public class Onglet extends JPanel {
 	 * @param myFrame la fenetre principale
 	 * @param withArtist if true the artist panel is displayed
 	 */
-	public Onglet(final BasicFrame myFrame, boolean withArtist) {
+	public OngletPanel(final BasicFrame myFrame, boolean withArtist) {
 		LOG.debug("Start Onglet");
 		onglets = new JTabbedPane(SwingConstants.TOP);
 		final JPanel panel = new JPanel();

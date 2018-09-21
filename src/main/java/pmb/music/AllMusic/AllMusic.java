@@ -15,7 +15,7 @@ import org.apache.log4j.Logger;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.BasicFrame;
-import pmb.music.AllMusic.view.ExceptionDialog;
+import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
 /**
  * Hello world!

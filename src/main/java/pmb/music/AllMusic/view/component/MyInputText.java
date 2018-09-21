@@ -1,4 +1,4 @@
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.component;
 
 import java.awt.Dimension;
 
@@ -11,6 +11,8 @@ import javax.swing.JTextField;
 import javax.swing.UIManager;
 
 import org.apache.log4j.Logger;
+
+import pmb.music.AllMusic.view.PanelUtils;
 
 public class MyInputText extends JPanel {
 	private static final Logger LOG = Logger.getLogger(MyInputText.class);

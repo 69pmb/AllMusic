@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -59,6 +59,10 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.component.JComboCheckBox;
+import pmb.music.AllMusic.view.component.MyInputText;
+import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.model.ArtistModel;
 
 /**

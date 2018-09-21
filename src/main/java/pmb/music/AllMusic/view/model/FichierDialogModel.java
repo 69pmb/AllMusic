@@ -8,7 +8,7 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
-import pmb.music.AllMusic.view.DialogFileTable;
+import pmb.music.AllMusic.view.dialog.DialogFileTable;
 
 /**
  * Décrit la façon dont les tableaux contenant des {@code Fichier} seront

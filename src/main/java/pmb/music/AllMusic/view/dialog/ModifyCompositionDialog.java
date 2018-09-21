@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;

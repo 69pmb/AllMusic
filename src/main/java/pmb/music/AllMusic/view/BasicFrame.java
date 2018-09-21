@@ -7,6 +7,8 @@ import javax.swing.JFrame;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.view.panel.MenuPanel;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
  * La fenetre principale contenant tous les composants de l'application.
@@ -16,7 +18,7 @@ import pmb.music.AllMusic.utils.Constant;
 public class BasicFrame extends JFrame {
 	private static final Logger LOG = Logger.getLogger(BasicFrame.class);
 	private static final long serialVersionUID = 3539279683629505967L;
-	private Onglet tab;
+	private OngletPanel tab;
 	private MenuPanel menuPanel;
 
 	/**
@@ -27,18 +29,18 @@ public class BasicFrame extends JFrame {
 		super(Constant.DEFAULT_TITLE);
 		LOG.debug("Start BasicFrame");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setTab(new Onglet(this, withArtist));
+		this.setTab(new OngletPanel(this, withArtist));
 		this.getContentPane().add(getTab(), BorderLayout.EAST);
 		this.setMenuPanel(new MenuPanel(this));
 		this.getContentPane().add(getMenuPanel(), BorderLayout.WEST);
 		LOG.debug("End BasicFrame");
 	}
 
-	public void setTab(final Onglet tab) {
+	public void setTab(final OngletPanel tab) {
 		this.tab = tab;
 	}
 
-	public Onglet getTab() {
+	public OngletPanel getTab() {
 		return tab;
 	}
 

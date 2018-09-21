@@ -36,7 +36,7 @@ import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
-import pmb.music.AllMusic.view.ImportPanel;
+import pmb.music.AllMusic.view.panel.ImportPanel;
 
 /**
  * Classe utilitaire pour la gestion des {@link Fichier}.
@@ -294,6 +294,23 @@ public class FichierUtils {
 		}
 		LOG.debug("End buildTxtFilePath");
 		return result;
+	}
+
+	/**
+	 * Reconstruit le chemin absolu du fichier xml (du dossier XML) donnée.
+	 * 
+	 * @param fileName le nom du fichier
+	 * @return le chemin absolu du fichier
+	 */
+	public static Optional<String> buildXmlFilePath(String fileName) {
+		LOG.debug("Start buildXmlFilePath");
+		String path = Constant.getXmlPath() + FileUtils.FS + fileName + Constant.XML_EXTENSION;
+		if (!FileUtils.fileExists(path)) {
+			LOG.warn("End buildXmlFilePath, no path built for: " + fileName);
+			return Optional.empty();
+		}
+		LOG.debug("End buildXmlFilePath");
+		return Optional.of(path);
 	}
 
 	/**

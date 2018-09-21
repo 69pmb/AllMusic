@@ -1,4 +1,4 @@
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.component;
 
 import java.awt.event.ActionEvent;
 import java.util.Collections;
