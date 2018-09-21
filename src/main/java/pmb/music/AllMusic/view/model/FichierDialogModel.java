@@ -46,6 +46,8 @@ public class FichierDialogModel extends AbstractModel {
 		if (col == DialogFileTable.INDEX_PUBLISH_YEAR || col == DialogFileTable.INDEX_FILE_SIZE
 				|| col == DialogFileTable.INDEX_RANK) {
 			return Integer.class;
+		} else if (col == DialogFileTable.INDEX_PERCENT_DELETED) {
+			return Double.class;
 		} else {
 			return String.class;
 		}

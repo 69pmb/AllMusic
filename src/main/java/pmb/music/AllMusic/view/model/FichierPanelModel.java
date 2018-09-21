@@ -9,6 +9,8 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
+import pmb.music.AllMusic.view.panel.FichierPanel;
+
 /**
  * Décrit la façon dont les tableaux contenant des {@code Fichier} seront
  * affichées pour l'onglet {@code FichierPanel}.
@@ -19,10 +21,6 @@ import javax.swing.table.DefaultTableModel;
 public class FichierPanelModel extends AbstractModel {
 
 	private static final long serialVersionUID = 1L;
-
-	private static final int INDEX_PUBLISH_YEAR = 2;
-	private static final int INDEX_CREATE_DATE = 5;
-	private static final int INDEX_FILE_SIZE = 6;
 
 	/**
 	 * Constructeur de {@link FichierPanelModel}.
@@ -46,10 +44,12 @@ public class FichierPanelModel extends AbstractModel {
 
 	@Override
 	public Class<?> getColumnClass(int col) {
-		if (col == INDEX_PUBLISH_YEAR || col == INDEX_FILE_SIZE) {
+		if (col == FichierPanel.INDEX_FILE_PUBLISH || col == FichierPanel.INDEX_FILE_SIZE) {
 			return Integer.class;
-		} else if (col == INDEX_CREATE_DATE) {
+		} else if (col == FichierPanel.INDEX_CREATE_DATE) {
 			return Date.class;
+		} else if (col == FichierPanel.INDEX_PERCENT_DELETED) {
+			return Double.class;
 		} else {
 			return String.class;
 		}
