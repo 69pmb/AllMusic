@@ -1,4 +1,4 @@
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -65,6 +65,11 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.component.JComboCheckBox;
+import pmb.music.AllMusic.view.component.MyInputText;
+import pmb.music.AllMusic.view.dialog.DialogFileTable;
+import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
 
 /**

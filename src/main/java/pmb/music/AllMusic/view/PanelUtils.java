@@ -41,6 +41,7 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.model.AbstractModel;
+import pmb.music.AllMusic.view.panel.ArtistPanel;
 
 public class PanelUtils {
 

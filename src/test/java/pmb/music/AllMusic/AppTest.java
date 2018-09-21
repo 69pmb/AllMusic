@@ -48,8 +48,8 @@ import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
-import pmb.music.AllMusic.view.ImportPanel;
-import pmb.music.AllMusic.view.Onglet;
+import pmb.music.AllMusic.view.panel.ImportPanel;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
  * Unit test for simple App.
@@ -85,7 +85,7 @@ public class AppTest {
 	}
 
 	public static void findImportParamsForAllFiles() {
-		List<String> authorList = Onglet.getAuthorList();
+		List<String> authorList = OngletPanel.getAuthorList();
 		for (String author : authorList) {
 			List<File> files = new ArrayList<>();
 			FichierUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory() + FileUtils.FS + author), files,
@@ -435,8 +435,8 @@ public class AppTest {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true).stream()
-				.map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true)
+				.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
 				.collect(Collectors.toList());
 		for (Integer rank : yearList) {
 			if (map.containsKey(rank)) {
@@ -456,8 +456,8 @@ public class AppTest {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true).stream()
-				.map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
+		List<Integer> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true)
+				.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getClassement)
 				.collect(Collectors.toList());
 		LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
 		LOG.debug("Stats: " + yearList.stream().mapToInt(i -> i).summaryStatistics());
@@ -503,7 +503,8 @@ public class AppTest {
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, year);
 			criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
-			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true);
+			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false,
+					true);
 			// LOG.debug("year: " + year + " size: " + yearList.size());
 			LOG.debug("year: " + year + " file size: " + yearList.stream().map(Composition::getFiles)
 					.flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().count());

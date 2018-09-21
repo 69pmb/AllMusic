@@ -1,4 +1,4 @@
-package pmb.music.AllMusic.view;
+package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -20,6 +20,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.view.BasicFrame;
 
 /**
  * Classe pour le menu de l'application.
