@@ -121,17 +121,17 @@ public class OngletPanel extends JPanel {
 	}
 
 	public static List<String> getArtistList() {
-		return ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getArtist)
+		return ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getArtist)
 				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
 	}
 
 	public static List<String> getTitleList() {
-		return ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getTitre)
+		return ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getTitre)
 				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
 	}
 
 	public static List<String> getAuthorList() {
-		return ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getFiles)
+		return ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getFiles)
 				.flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted()
 				.collect(Collectors.toList());
 	}
