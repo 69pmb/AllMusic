@@ -25,16 +25,19 @@ import pmb.music.AllMusic.utils.MiscUtils;
 
 /**
  * Classe pour exporter des fichiers au format XML.
+ * 
  * @author pmbroca
  */
 public class ExportXML {
 
 	private static final Logger LOG = Logger.getLogger(ExportXML.class);
-	
-	private ExportXML(){}
+
+	private ExportXML() {
+	}
 
 	/**
-	 * COnverti en XML la liste de composition puis sauvegarde dans un fichier.
+	 * Converti en XML la liste de composition puis sauvegarde dans un fichier.
+	 * 
 	 * @param compList List<{@link Composition}> les compositions à sauvegarder
 	 * @param fileName {@link String} le nom du fichier
 	 * @throws IOException
@@ -42,31 +45,38 @@ public class ExportXML {
 	public static void exportXML(List<Composition> compList, String fileName) throws IOException {
 		LOG.debug("Start exportXML");
 		Document doc = DocumentHelper.createDocument();
-		Element listComp = doc.addElement("ListCompositions");
+		Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
 
 		for (int i = 0; i < compList.size(); i++) {
 			// Ajout element <Order/>
-			Element comp = listComp.addElement("Composition");
-			comp.addAttribute("artist", String.valueOf(compList.get(i).getArtist()));
-			comp.addAttribute("titre", String.valueOf(compList.get(i).getTitre()));
-			comp.addAttribute("type", String.valueOf(compList.get(i).getRecordType()));
-			comp.addAttribute("canBeMerged", String.valueOf(compList.get(i).isCanBeMerged()));
-			comp.addAttribute("deleted", String.valueOf(compList.get(i).isDeleted()));
+			Element comp = listComp.addElement(CompoHandler.TAG_COMPOSITION);
+			comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(compList.get(i).getArtist()));
+			comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(compList.get(i).getTitre()));
+			comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(compList.get(i).getRecordType()));
+			comp.addAttribute(CompoHandler.TAG_CAN_BE_MERGED, String.valueOf(compList.get(i).isCanBeMerged()));
+			comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(compList.get(i).isDeleted()));
 
 			for (int j = 0; j < compList.get(i).getFiles().size(); j++) {
-				Element file = comp.addElement("File");
-				file.addAttribute("author", String.valueOf(compList.get(i).getFiles().get(j).getAuthor()));
-				file.addAttribute("fileName", String.valueOf(compList.get(i).getFiles().get(j).getFileName()));
-				file.addAttribute("publishYear", String.valueOf(compList.get(i).getFiles().get(j).getPublishYear()));
-				file.addAttribute("categorie", String.valueOf(compList.get(i).getFiles().get(j).getCategorie()));
-				file.addAttribute("rangeDateBegin",
+				Element file = comp.addElement(CompoHandler.TAG_FILE);
+				file.addAttribute(CompoHandler.TAG_AUTHOR,
+						String.valueOf(compList.get(i).getFiles().get(j).getAuthor()));
+				file.addAttribute(CompoHandler.TAG_FILENAME,
+						String.valueOf(compList.get(i).getFiles().get(j).getFileName()));
+				file.addAttribute(CompoHandler.TAG_PUBLISH_YEAR,
+						String.valueOf(compList.get(i).getFiles().get(j).getPublishYear()));
+				file.addAttribute(CompoHandler.TAG_CATEGORIE,
+						String.valueOf(compList.get(i).getFiles().get(j).getCategorie()));
+				file.addAttribute(CompoHandler.TAG_RANGE_DATE_BEGIN,
 						String.valueOf(compList.get(i).getFiles().get(j).getRangeDateBegin()));
-				file.addAttribute("rangeDateEnd", String.valueOf(compList.get(i).getFiles().get(j).getRangeDateEnd()));
-				file.addAttribute("sorted", String.valueOf(compList.get(i).getFiles().get(j).getSorted()));
-				file.addAttribute("classement", String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
-				file.addAttribute("creationDate",
+				file.addAttribute(CompoHandler.TAG_RANGE_DATE_END,
+						String.valueOf(compList.get(i).getFiles().get(j).getRangeDateEnd()));
+				file.addAttribute(CompoHandler.TAG_SORTED,
+						String.valueOf(compList.get(i).getFiles().get(j).getSorted()));
+				file.addAttribute(CompoHandler.TAG_CLASSEMENT,
+						String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
+				file.addAttribute(CompoHandler.TAG_CREATION_DATE,
 						new Constant().getSdfDttm().format(compList.get(i).getFiles().get(j).getCreationDate()));
-				file.addAttribute("size", String.valueOf(compList.get(i).getFiles().get(j).getSize()));
+				file.addAttribute(CompoHandler.TAG_SIZE, String.valueOf(compList.get(i).getFiles().get(j).getSize()));
 			}
 		}
 		saveFile(fileName, doc);
@@ -74,8 +84,9 @@ public class ExportXML {
 	}
 
 	/**
-	 * Historise du fichier précédent dans le dossier history dans les resources
-	 * et sauvegarde du document dans un fichier.
+	 * Historise du fichier précédent dans le dossier history dans les resources et
+	 * sauvegarde du document dans un fichier.
+	 * 
 	 * @param fileName Le nom du fichier
 	 * @param doc Le document a enregistrer
 	 * @throws FileNotFoundException
@@ -89,21 +100,22 @@ public class ExportXML {
 
 		// Création du dossier history dans le dossier resources
 		FichierUtils.createFolderIfNotExists(Constant.getHistoryPath());
-		
+
 		// Création du dossier xml dans le dossier resources
 		FichierUtils.createFolderIfNotExists(Constant.getXmlPath());
 
 		// Nom des fichiers
 		String fullFileName = fileName;
-		if(!StringUtils.endsWith(fileName, Constant.XML_EXTENSION)) {
-			fullFileName+=Constant.XML_EXTENSION;
+		if (!StringUtils.endsWith(fileName, Constant.XML_EXTENSION)) {
+			fullFileName += Constant.XML_EXTENSION;
 		} else {
 			fileName = StringUtils.substringBeforeLast(fileName, Constant.XML_EXTENSION);
 		}
-		
+
 		// Historisation du fichier précédent dans le dossier history
 		File source = new File(Constant.getXmlPath() + fullFileName);
-		File destination = new File(Constant.getHistoryPath() + fileName + Constant.SEPARATOR_DATE_HISTORY + MiscUtils.dateNow() + Constant.XML_EXTENSION);
+		File destination = new File(Constant.getHistoryPath() + fileName + Constant.SEPARATOR_DATE_HISTORY
+				+ MiscUtils.dateNow() + Constant.XML_EXTENSION);
 		source.renameTo(destination);
 
 		// Sauvegarde du document dans le fichier
