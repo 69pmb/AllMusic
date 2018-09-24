@@ -20,7 +20,9 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 
 /**
- * Classe décrivant comment parser un fichier XML contenant des {@link Composition}.
+ * Classe décrivant comment parser un fichier XML contenant des
+ * {@link Composition}.
+ * 
  * @see {@link DefaultHandler}
  */
 public class CompoHandler extends DefaultHandler {
@@ -35,6 +37,25 @@ public class CompoHandler extends DefaultHandler {
 
 	private Fichier file;
 
+	public static final String TAG_ROOT = "ListCompositions";
+	public static final String TAG_COMPOSITION = "Composition";
+	public static final String TAG_FILE = "File";
+	public static final String TAG_PUBLISH_YEAR = "publishYear";
+	public static final String TAG_RANGE_DATE_BEGIN = "rangeDateBegin";
+	public static final String TAG_RANGE_DATE_END = "rangeDateEnd";
+	public static final String TAG_CLASSEMENT = "classement";
+	public static final String TAG_SORTED = "sorted";
+	public static final String TAG_AUTHOR = "author";
+	public static final String TAG_FILENAME = "fileName";
+	public static final String TAG_CATEGORIE = "categorie";
+	public static final String TAG_SIZE = "size";
+	public static final String TAG_CREATION_DATE = "creationDate";
+	public static final String TAG_ARTIST = "artist";
+	public static final String TAG_TITRE = "titre";
+	public static final String TAG_TYPE = "type";
+	public static final String TAG_CAN_BE_MERGED = "canBeMerged";
+	public static final String TAG_DELETED = "deleted";
+
 	/**
 	 * Constructeur.
 	 */
@@ -46,13 +67,13 @@ public class CompoHandler extends DefaultHandler {
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
 		switch (qName) {
-		case "ListCompositions":
+		case TAG_ROOT:
 			compoList = new ArrayList<>();
 			break;
-		case "Composition":
+		case TAG_COMPOSITION:
 			getCompositionElem(attributes);
 			break;
-		case "File":
+		case TAG_FILE:
 			getFileElem(attributes);
 			break;
 		default:
@@ -62,22 +83,22 @@ public class CompoHandler extends DefaultHandler {
 
 	private void getFileElem(Attributes attributes) {
 		file = new Fichier();
-		file.setPublishYear(Integer.parseInt(attributes.getValue("publishYear")));
-		file.setRangeDateBegin(Integer.parseInt(attributes.getValue("rangeDateBegin")));
-		file.setRangeDateEnd(Integer.parseInt(attributes.getValue("rangeDateEnd")));
-		file.setClassement(Integer.parseInt(attributes.getValue("classement")));
-		file.setSorted(Boolean.parseBoolean(attributes.getValue("sorted")));
-		file.setAuthor(attributes.getValue("author"));
-		file.setFileName(attributes.getValue("fileName"));
-		file.setCategorie(Cat.valueOf(attributes.getValue("categorie")));
+		file.setPublishYear(Integer.parseInt(attributes.getValue(TAG_PUBLISH_YEAR)));
+		file.setRangeDateBegin(Integer.parseInt(attributes.getValue(TAG_RANGE_DATE_BEGIN)));
+		file.setRangeDateEnd(Integer.parseInt(attributes.getValue(TAG_RANGE_DATE_END)));
+		file.setClassement(Integer.parseInt(attributes.getValue(TAG_CLASSEMENT)));
+		file.setSorted(Boolean.parseBoolean(attributes.getValue(TAG_SORTED)));
+		file.setAuthor(attributes.getValue(TAG_AUTHOR));
+		file.setFileName(attributes.getValue(TAG_FILENAME));
+		file.setCategorie(Cat.valueOf(attributes.getValue(TAG_CATEGORIE)));
 		try {
-			file.setSize(Integer.parseInt(attributes.getValue("size")));
+			file.setSize(Integer.parseInt(attributes.getValue(TAG_SIZE)));
 		} catch (NumberFormatException e) {
 			file.setSize(0);
 			LOG.error(file, e);
 		}
 		try {
-			file.setCreationDate(new Constant().getSdfDttm().parse(attributes.getValue("creationDate")));
+			file.setCreationDate(new Constant().getSdfDttm().parse(attributes.getValue(TAG_CREATION_DATE)));
 		} catch (ParseException e) {
 			file.setCreationDate(new Date());
 		}
@@ -87,11 +108,11 @@ public class CompoHandler extends DefaultHandler {
 		compo = new Composition();
 		files = new ArrayList<>();
 		try {
-			compo.setArtist(attributes.getValue("artist"));
-			compo.setTitre(attributes.getValue("titre"));
-			compo.setRecordType(RecordType.valueOf(attributes.getValue("type")));
-			compo.setCanBeMerged(Boolean.parseBoolean(attributes.getValue("canBeMerged")));
-			compo.setDeleted(Boolean.parseBoolean(attributes.getValue("deleted")));
+			compo.setArtist(attributes.getValue(TAG_ARTIST));
+			compo.setTitre(attributes.getValue(TAG_TITRE));
+			compo.setRecordType(RecordType.valueOf(attributes.getValue(TAG_TYPE)));
+			compo.setCanBeMerged(Boolean.parseBoolean(attributes.getValue(TAG_CAN_BE_MERGED)));
+			compo.setDeleted(Boolean.parseBoolean(attributes.getValue(TAG_DELETED)));
 		} catch (Exception e) {
 			throw new SAXException(e);
 		}
@@ -100,13 +121,13 @@ public class CompoHandler extends DefaultHandler {
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException {
 		switch (qName) {
-		case "Composition":
+		case TAG_COMPOSITION:
 			compo.setFiles(files);
 			compoList.add(compo);
 			compo = null;
 			files = null;
 			break;
-		case "File":
+		case TAG_FILE:
 			files.add(file);
 			file = null;
 			break;
