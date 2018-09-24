@@ -185,7 +185,7 @@ public class CleanFile {
 	}
 
 	private static Set<Entry<String, String>> getModifSet() {
-		File modifFile = new File(Constant.RESOURCES_ABS_DIRECTORY + "modif.txt");
+		File modifFile = new File(Constant.MODIF_FILE_PATH);
 		Map<String, String> modif = new HashMap<>();
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(modifFile), Constant.ANSI_ENCODING));) {

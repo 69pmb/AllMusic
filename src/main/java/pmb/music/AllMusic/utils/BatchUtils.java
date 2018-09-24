@@ -803,7 +803,7 @@ public class BatchUtils {
 		files.add(topRecordsByPoints(RecordType.SONG, "Points Songs", year));
 		files.add(topRecordsByPoints(RecordType.ALBUM, "Points Albums", year));
 		files.add(topSongsParPublication(year));
-		File folder = new File(Constant.USER_DIR + "\\Top by Year\\" + year);
+		File folder = new File(Constant.getOutputDir() + "\\Top by Year\\" + year);
 		folder.mkdir();
 		moveFilesInFolder(files, folder, result);
 		LOG.debug("End topYear");
@@ -995,7 +995,7 @@ public class BatchUtils {
 	}
 
 	private static String writeInFile(StringBuilder sb, String fileName) {
-		String filePath = Constant.USER_DIR + FileUtils.FS + fileName;
+		String filePath = Constant.getOutputDir() + FileUtils.FS + fileName;
 		try (BufferedWriter writer = new BufferedWriter(
 				new OutputStreamWriter(new FileOutputStream(filePath), Constant.ANSI_ENCODING));) {
 			writer.append(sb);

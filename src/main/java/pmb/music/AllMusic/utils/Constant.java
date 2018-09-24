@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.regex.Pattern;
 
+import org.apache.commons.lang3.StringUtils;
 import org.codehaus.plexus.util.FileUtils;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
 
@@ -17,31 +18,41 @@ import org.kordamp.ikonli.fontawesome.FontAwesome;
 public class Constant {
 
 	/**
-	 * Chemin du dossier ressources.
+	 * Chemin des resources de l'application.
 	 */
-	public static final String RESOURCES_DIRECTORY = FileUtils.FS + "src" + FileUtils.FS + "main" + FileUtils.FS
-			+ "resources" + FileUtils.FS;
+	public static final String RESOURCES_DIRECTORY = System.getProperty("user.dir") + FileUtils.FS + "src"
+			+ FileUtils.FS + "main" + FileUtils.FS + "resources" + FileUtils.FS;
 
 	/**
-	 * Chemin du pgm.
+	 * @return Le chemin où seront générés les fichiers de l'application.
 	 */
-	public static final String USER_DIR = System.getProperty("user.dir");
+	public static String getOutputDir() {
+		String output = GetProperties.getProperty("output");
+		return StringUtils.isBlank(output) ? System.getProperty("user.dir") : output;
+	}
 
 	/**
-	 * Chemin absolu du dossier ressources.
+	 * @return Le chemin absolu du dossier des ressources utilisées par l'appli.
 	 */
-	public static final String RESOURCES_ABS_DIRECTORY = USER_DIR + RESOURCES_DIRECTORY;
+	public static String getResourcesDir() {
+		String resources = GetProperties.getProperty("resources");
+		return StringUtils.isBlank(resources) ? RESOURCES_DIRECTORY : resources;
+	}
 
 	/**
 	 * Chemin abs du fichier de log.
 	 */
-	public static final String FILE_LOG_PATH = Constant.USER_DIR + FileUtils.FS + "error.log";
+	public static final String FILE_LOG_PATH = getOutputDir() + FileUtils.FS + "error.log";
+
+	public static final String MODIF_FILE_PATH = RESOURCES_DIRECTORY + FileUtils.FS + "modif.txt";
 
 	/**
 	 * Chemin abs du fichier de configuration.
 	 */
-	public static final String CONFIG_PATH = RESOURCES_ABS_DIRECTORY + FileUtils.FS + "config.properties";
-
+	public static String getConfigPath() {
+		return RESOURCES_DIRECTORY + FileUtils.FS + "config.properties";
+	}
+	
 	/**
 	 * @return Nom du fichier final.
 	 */
@@ -60,21 +71,21 @@ public class Constant {
 	 * @return Chemin abs du dossier d'historique.
 	 */
 	public static String getHistoryPath() {
-		return RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("history") + FileUtils.FS;
+		return getResourcesDir() + GetProperties.getProperty("history") + FileUtils.FS;
 	}
 
 	/**
 	 * @return Chemin abs du dossier contenant les fichiers txt des classements.
 	 */
 	public static String getMusicAbsDirectory() {
-		return RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("music") + FileUtils.FS;
+		return getResourcesDir() + GetProperties.getProperty("music") + FileUtils.FS;
 	}
 
 	/**
 	 * @return Chemin abs du dossier contenant tous les fichiers xml importés.
 	 */
 	public static String getXmlPath() {
-		return RESOURCES_ABS_DIRECTORY + GetProperties.getProperty("xml") + FileUtils.FS;
+		return getResourcesDir() + GetProperties.getProperty("xml") + FileUtils.FS;
 	}
 
 	/**
@@ -122,7 +133,7 @@ public class Constant {
 
 	private static final String[] NOT_SEPARATORS = { "(", ")", DOT, ",", "#", "'", "!", "*", "?", "/" };
 
-	private static final String[] FORBIDDEN_CHARACTERS_FILENAME = { "<", ">", ":", "\"", "/", "|"};
+	private static final String[] FORBIDDEN_CHARACTERS_FILENAME = { "<", ">", ":", "\"", "/", "|" };
 
 	public static final String DEFAULT_TITLE = "AllMusic";
 

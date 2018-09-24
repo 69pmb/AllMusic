@@ -95,7 +95,7 @@ public class ExportXML {
 	private static void saveFile(String fileName, Document doc) throws IOException {
 		LOG.debug("Start saveFile");
 		// Création du dossier resources
-		FichierUtils.createFolderIfNotExists(Constant.RESOURCES_ABS_DIRECTORY);
+		FichierUtils.createFolderIfNotExists(Constant.getResourcesDir());
 
 		// Création du dossier history dans le dossier resources
 		FichierUtils.createFolderIfNotExists(Constant.getHistoryPath());
