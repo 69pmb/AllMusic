@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Mc5" titre="Kick Out The Jams" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="1" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
-  <Composition artist="Bob Marley" titre="Live!" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="2" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
-  <Composition artist="The Who" titre="Live At Leeds" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="3" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
-  <Composition artist="James Brown" titre="Live at the Apollo" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="4" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
-  <Composition artist="Nirvana" titre="MTV Unplugged In New York" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="5" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
-  <Composition artist="David Bowie" titre="Santa Monica '72" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="6" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
-  <Composition artist="The Rolling Stones" titre="Get Yer Ya Ya's Out" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="7" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
-  <Composition artist="Johnny Cash" titre="Live At San Quentin" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="8" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
-  <Composition artist="Suicide" titre="23 Minutes Over Brussels" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="9" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
-  <Composition artist="Thin Lizzy" titre="Live And Dangerous" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Ten Great Live Albums - 2003" publishYear="2003" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2003" sorted="true" classement="10" creationDate="04/09/2018 15:26:23" size="10"/>
-  </Composition>
+  <compo A="Mc5" T="Kick Out The Jams" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="1" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
+  <compo A="Bob Marley" T="Live!" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="2" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
+  <compo A="The Who" T="Live At Leeds" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="3" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
+  <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="4" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
+  <compo A="Nirvana" T="MTV Unplugged In New York" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="5" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
+  <compo A="David Bowie" T="Santa Monica '72" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="6" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
+  <compo A="The Rolling Stones" T="Get Yer Ya Ya's Out" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="7" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
+  <compo A="Johnny Cash" T="Live At San Quentin" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="8" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
+  <compo A="Suicide" T="23 Minutes Over Brussels" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="9" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
+  <compo A="Thin Lizzy" T="Live And Dangerous" type="ALBUM" mergeable="true" del="false">
+    <file author="NME" name="NME - Ten Great Live Albums - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="10" creation="04/09/2018 15:26:23" size="10"/>
+  </compo>
 </ListCompositions>

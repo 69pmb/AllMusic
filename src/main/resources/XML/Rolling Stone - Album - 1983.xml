@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="R.E.M." titre="Murmur" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Michael Jackson" titre="Thriller" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="The Police" titre="Synchronicity" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="U2" titre="War" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="X" titre="More Fun In The New World" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1983" publishYear="1983" categorie="YEAR" rangeDateBegin="1983" rangeDateEnd="1983" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="The Police" T="Synchronicity" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="U2" T="War" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="X" T="More Fun In The New World" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

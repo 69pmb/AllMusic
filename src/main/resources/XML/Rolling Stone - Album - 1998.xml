@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Lauryn Hill" titre="The Miseducation Of Lauryn Hill" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Beastie Boys" titre="Hello Nasty" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Lucinda Williams" titre="Car Wheels On A Gravel Road" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Beck" titre="Mutations" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Jay-Z" titre="Vol. 2. .... Hard Knock Life" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Lauryn Hill" T="The Miseducation Of Lauryn Hill" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Beastie Boys" T="Hello Nasty" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Lucinda Williams" T="Car Wheels On A Gravel Road" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Beck" T="Mutations" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Jay-Z" T="Vol. 2. .... Hard Knock Life" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

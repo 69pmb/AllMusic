@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Hole" titre="Live Through This" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="R.E.M." titre="Monster" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Soundgarden" titre="Superunknown" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Nine Inch Nails" titre="The Downward Spiral" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Neil Young" titre="Sleeps With Angels" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="R.E.M." T="Monster" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Soundgarden" T="Superunknown" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Nine Inch Nails" T="The Downward Spiral" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Neil Young" T="Sleeps With Angels" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Gnarls Barkley" titre="Crazy" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="1" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
-  <Composition artist="Klaxons" titre="Atlantis To Interzone" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="2" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
-  <Composition artist="D4L" titre="Laffy Taffy" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="3" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
-  <Composition artist="Snoop Dogg" titre="Vato" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="4" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
-  <Composition artist="Cold War Kids" titre="We Used To Vacation" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="5" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
-  <Composition artist="Justice" titre="Waters Of Nazareth" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="6" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
-  <Composition artist="Peter Bjorn And John" titre="Young Folks" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="7" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
-  <Composition artist="Chamillionaire" titre="Ridin'" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="8" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
-  <Composition artist="CSS" titre="Let's Make Love And Listen To Death From Above" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="9" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
-  <Composition artist="The Raconteurs" titre="Steady, As She Goes" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="10" creationDate="10/09/2018 13:32:04" size="10"/>
-  </Composition>
+  <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="1" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
+  <compo A="Klaxons" T="Atlantis To Interzone" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="2" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
+  <compo A="D4L" T="Laffy Taffy" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="3" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
+  <compo A="Snoop Dogg" T="Vato" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="4" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
+  <compo A="Cold War Kids" T="We Used To Vacation" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="5" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
+  <compo A="Justice" T="Waters Of Nazareth" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="6" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
+  <compo A="Peter Bjorn And John" T="Young Folks" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="7" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
+  <compo A="Chamillionaire" T="Ridin'" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="8" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
+  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="9" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
+  <compo A="The Raconteurs" T="Steady, As She Goes" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="10" creation="10/09/2018 13:32:04" size="10"/>
+  </compo>
 </ListCompositions>

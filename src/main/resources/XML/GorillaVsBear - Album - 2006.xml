@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="J Dilla" titre="Donuts" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="13" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Cansei De Ser Sexy" titre="CSS" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="12" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Peter and the Wolf" titre="Lightness" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="11" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Hot Chip" titre="The Warning" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="10" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Grizzly Bear" titre="Yellow House" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="9" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Beach House" titre="Beach House" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="8" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Sunset Rubdown" titre="Shut Up I Am Dreaming" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="7" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Ghostface Killah" titre="Fishscale" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="6" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Love Is All Nine" titre="Times That Same Song" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="5" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Clipse" titre="Hell Hath No Fury" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="4" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Joanna Newsom" titre="Ys" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="3" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="Midlake" titre="The Trials of Van Occupanther" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="2" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
-  <Composition artist="The Knife" titre="Silent Shout" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="GorillaVsBear" fileName="GorillaVsBear - Album - 2006" publishYear="2006" categorie="YEAR" rangeDateBegin="2006" rangeDateEnd="2006" sorted="true" classement="1" creationDate="30/07/2018 14:01:34" size="13"/>
-  </Composition>
+  <compo A="J Dilla" T="Donuts" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="13" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Cansei De Ser Sexy" T="CSS" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="12" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Peter and the Wolf" T="Lightness" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="11" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Hot Chip" T="The Warning" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="10" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Grizzly Bear" T="Yellow House" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="9" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Beach House" T="Beach House" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="8" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Sunset Rubdown" T="Shut Up I Am Dreaming" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="7" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Ghostface Killah" T="Fishscale" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="6" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Love Is All Nine" T="Times That Same Song" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="5" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Clipse" T="Hell Hath No Fury" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="4" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Joanna Newsom" T="Ys" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="3" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="Midlake" T="The Trials of Van Occupanther" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="2" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
+  <compo A="The Knife" T="Silent Shout" type="ALBUM" mergeable="true" del="false">
+    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="1" creation="30/07/2018 14:01:34" size="13"/>
+  </compo>
 </ListCompositions>

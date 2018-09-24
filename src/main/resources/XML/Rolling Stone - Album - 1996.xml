@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Beck" titre="Odelay" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Tricky" titre="Pre-Millennium Tension" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Dirty Three" titre="Horse Stories" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="R.E.M." titre="New Adventures In Hi-Fi" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Johnny Cash" titre="Unchained" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Wilco" titre="Being There" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Screaming Trees" titre="Dust" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Sebadoh" titre="Harmacy" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Nirvana" titre="From The Muddy Banks Of The Wishkah" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Fugees" titre="The Score" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1996" publishYear="1996" categorie="YEAR" rangeDateBegin="1996" rangeDateEnd="1996" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Tricky" T="Pre-Millennium Tension" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Dirty Three" T="Horse Stories" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="R.E.M." T="New Adventures In Hi-Fi" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Johnny Cash" T="Unchained" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Wilco" T="Being There" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Screaming Trees" T="Dust" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Sebadoh" T="Harmacy" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Nirvana" T="From The Muddy Banks Of The Wishkah" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Fugees" T="The Score" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>

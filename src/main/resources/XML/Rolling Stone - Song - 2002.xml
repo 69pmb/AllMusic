@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Missy Elliott" titre="Work It" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Eminem" titre="Lose Yourself" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The White Stripes" titre="Fell In Love With A Girl" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Eminem" titre="Without Me" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Nelly" titre="Hot In Herre" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Kylie Minogue" titre="Can't Get You Out Of My Head" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Strokes" titre="Someday" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Hives" titre="Hate To Say I Told You So" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Avril Lavigne" titre="Complicated" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Vines" titre="Get Free" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="Missy Elliott" T="Work It" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The White Stripes" T="Fell In Love With A Girl" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Eminem" T="Without Me" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Nelly" T="Hot In Herre" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Kylie Minogue" T="Can't Get You Out Of My Head" type="SONG" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Strokes" T="Someday" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Avril Lavigne" T="Complicated" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Vines" T="Get Free" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>

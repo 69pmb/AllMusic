@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Neil Young" titre="Rust Never Sleeps" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1979" publishYear="1979" categorie="YEAR" rangeDateBegin="1979" rangeDateEnd="1979" sorted="true" classement="1" creationDate="08/08/2017 23:13:02" size="1"/>
-  </Composition>
+  <compo A="Neil Young" T="Rust Never Sleeps" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="1"/>
+  </compo>
 </ListCompositions>

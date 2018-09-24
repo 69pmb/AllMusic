@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Cornershop" titre="Lessons Learned From Rocky 1 To III" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Eminem" titre="Without Me" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Libertines" titre="The Boy Looked At Johnny" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Tom Petty" titre="The Last Dj" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Steve Earl" titre="John Walker Blues" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Nelly" titre="Hot in Herre" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="6" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Norah Jones" titre="Don't Know Why" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="7" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Hot Hot Heat" titre="Oh Goddamnit" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="8" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Black Rebel Motorcycle Club" titre="Whatever To My Rock 'N' Roll" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="9" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Joey Ramone" titre="Don't Worry About Me" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="10" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="The Bees" titre="Punch Bag" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="11" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="Neil Young" titre="She's A Healer" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="12" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="The Hives" titre="Hate To Say I Told You So" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="13" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
-  <Composition artist="The Streets" titre="Weak Become Heroes" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2002" publishYear="2002" categorie="YEAR" rangeDateBegin="2002" rangeDateEnd="2002" sorted="false" classement="14" creationDate="05/01/2018 13:17:17" size="14"/>
-  </Composition>
+  <compo A="Cornershop" T="Lessons Learned From Rocky 1 To III" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Eminem" T="Without Me" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Libertines" T="The Boy Looked At Johnny" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Tom Petty" T="The Last Dj" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Steve Earl" T="John Walker Blues" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Nelly" T="Hot in Herre" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Norah Jones" T="Don't Know Why" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Hot Hot Heat" T="Oh Goddamnit" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Black Rebel Motorcycle Club" T="Whatever To My Rock 'N' Roll" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="9" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Joey Ramone" T="Don't Worry About Me" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="10" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="The Bees" T="Punch Bag" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="11" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="Neil Young" T="She's A Healer" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="12" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="13" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
+  <compo A="The Streets" T="Weak Become Heroes" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="14" creation="05/01/2018 13:17:17" size="14"/>
+  </compo>
 </ListCompositions>

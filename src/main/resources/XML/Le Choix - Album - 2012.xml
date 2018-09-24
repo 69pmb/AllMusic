@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="LOWER DENS" titre="Nootropics" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="1" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="DISAPPEARS" titre="Pre Language" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="2" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="TY SEGALL BAND" titre="Slaughterhouse" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="3" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="THE WAVE PICTURES" titre="Long Black Cars" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="4" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="Cloud Nothings" titre="Attack on Memory" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="5" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="PORT ST. WILLOW" titre="Holiday" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="6" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="WOODS" titre="Bend Beyond" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="7" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="COLD SPECKS" titre="I Predict A Graceful Expulsion" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="8" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="ALLAH-LAS" titre="Allah-Las" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="9" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="FRANKIE ROSE" titre="Interstellar" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2012" publishYear="2012" categorie="YEAR" rangeDateBegin="2012" rangeDateEnd="2012" sorted="true" classement="10" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
+  <compo A="LOWER DENS" T="Nootropics" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="DISAPPEARS" T="Pre Language" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="TY SEGALL BAND" T="Slaughterhouse" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="THE WAVE PICTURES" T="Long Black Cars" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="Cloud Nothings" T="Attack on Memory" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="PORT ST. WILLOW" T="Holiday" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="WOODS" T="Bend Beyond" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="COLD SPECKS" T="I Predict A Graceful Expulsion" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="ALLAH-LAS" T="Allah-Las" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="FRANKIE ROSE" T="Interstellar" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
 </ListCompositions>

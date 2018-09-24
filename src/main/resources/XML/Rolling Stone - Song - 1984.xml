@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Tina Turner" titre="What's Love Got To Do With It" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Van Halen" titre="Jump" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Prince" titre="When Doves Cry" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Bruce Springsteen" titre="Dancing In The Dark" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="U2" titre="Pride (In The Name Of Love)" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Tina Turner" T="What's Love Got To Do With It" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Van Halen" T="Jump" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Prince" T="When Doves Cry" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Bruce Springsteen" T="Dancing In The Dark" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="U2" T="Pride (In The Name Of Love)" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

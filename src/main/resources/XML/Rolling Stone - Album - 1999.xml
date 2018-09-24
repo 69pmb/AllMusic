@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Rage Against The Machine" titre="The Battle Of Los Angeles" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Beck" titre="Midnite Vultures" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Eminem" titre="The Slim Shady LP" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Nine Inch Nails" titre="The Fragile" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Moby" titre="Play" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Prince Paul" titre="A Prince Among Thieves" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Randy Newman" titre="Bad Love" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Mary J. Blige" titre="Mary" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Magnetic Fields" titre="69 Love Songs" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Fiona Apple" titre="When The Pawn..." type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="Rage Against The Machine" T="The Battle Of Los Angeles" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Beck" T="Midnite Vultures" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Eminem" T="The Slim Shady LP" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Nine Inch Nails" T="The Fragile" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Moby" T="Play" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Prince Paul" T="A Prince Among Thieves" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Randy Newman" T="Bad Love" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Mary J. Blige" T="Mary" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Magnetic Fields" T="69 Love Songs" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Fiona Apple" T="When The Pawn..." type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>

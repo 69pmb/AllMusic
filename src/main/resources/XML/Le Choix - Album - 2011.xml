@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="TV On The Radio" titre="Nine Types Of Light" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="10" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="Vieux Farka Toure" titre="The Secret" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="9" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="Creepoid" titre="Horse Heaven" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="8" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="Bass Drum of Death" titre="GB City" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="7" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="Baxter Dury" titre="Happy Soup" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="6" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="White Fence" titre="Is Growing Faith" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="5" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="Wu Lyf" titre="Go Tell Fire to the Mountain" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="4" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="Panda Bear" titre="Tomboy" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="3" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="Lia Ices" titre="Grown Unknown" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="2" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
-  <Composition artist="Thee Oh Sees" titre="Carrion Crawler / The Dream" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Le Choix" fileName="Le Choix - Album - 2011" publishYear="2011" categorie="YEAR" rangeDateBegin="2011" rangeDateEnd="2011" sorted="true" classement="1" creationDate="30/07/2018 18:33:46" size="10"/>
-  </Composition>
+  <compo A="TV On The Radio" T="Nine Types Of Light" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="10" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="Vieux Farka Toure" T="The Secret" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="9" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="Creepoid" T="Horse Heaven" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="8" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="Bass Drum of Death" T="GB City" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="7" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="Baxter Dury" T="Happy Soup" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="6" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="White Fence" T="Is Growing Faith" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="5" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="Wu Lyf" T="Go Tell Fire to the Mountain" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="4" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="Panda Bear" T="Tomboy" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="3" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="Lia Ices" T="Grown Unknown" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="2" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
+  <compo A="Thee Oh Sees" T="Carrion Crawler / The Dream" type="ALBUM" mergeable="true" del="false">
+    <file author="Le Choix" name="Le Choix - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="1" creation="30/07/2018 18:33:46" size="10"/>
+  </compo>
 </ListCompositions>

@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Rolling Stones" titre="Tatoo You" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="X" titre="Wild Gift" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="Squeeze" titre="East Side Story" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="Clash" titre="Sandinista" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="Neville Brothers" titre="Fiyo On The Bayou" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="Ricky Lee Jones" titre="Pirates" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="6" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="David Byrne" titre="Catherine Wheel" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="7" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="Police" titre="Ghost In The Machine" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="8" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="Various Artist" titre="Strenght Through Oi!" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="9" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="J.Geils Band" titre="Freeze-Frame" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="10" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
-  <Composition artist="Tom Verlaine" titre="Dreamtime" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="11" creationDate="05/01/2018 13:17:17" size="11"/>
-  </Composition>
+  <compo A="Rolling Stones" T="Tatoo You" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="X" T="Wild Gift" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="Squeeze" T="East Side Story" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="Clash" T="Sandinista" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="Neville Brothers" T="Fiyo On The Bayou" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="Ricky Lee Jones" T="Pirates" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="David Byrne" T="Catherine Wheel" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="Police" T="Ghost In The Machine" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="Various Artist" T="Strenght Through Oi!" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="9" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="J.Geils Band" T="Freeze-Frame" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="10" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
+  <compo A="Tom Verlaine" T="Dreamtime" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="11" creation="05/01/2018 13:17:17" size="11"/>
+  </compo>
 </ListCompositions>

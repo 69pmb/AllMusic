@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Future Islands" titre="Seasons (Waiting On You)" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2014" publishYear="2014" categorie="YEAR" rangeDateBegin="2014" rangeDateEnd="2014" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Pharrell Williams" titre="Happy" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2014" publishYear="2014" categorie="YEAR" rangeDateBegin="2014" rangeDateEnd="2014" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="FKA Twigs" titre="Two Weeks" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2014" publishYear="2014" categorie="YEAR" rangeDateBegin="2014" rangeDateEnd="2014" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Sleaford Mods" titre="Tied Up In Nottz" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2014" publishYear="2014" categorie="YEAR" rangeDateBegin="2014" rangeDateEnd="2014" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="The War On Drugs" titre="Eyes To The Wind" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Mojo" fileName="Mojo - Song - 2014" publishYear="2014" categorie="YEAR" rangeDateBegin="2014" rangeDateEnd="2014" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Pharrell Williams" T="Happy" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="FKA Twigs" T="Two Weeks" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Sleaford Mods" T="Tied Up In Nottz" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="The War On Drugs" T="Eyes To The Wind" type="SONG" mergeable="true" del="false">
+    <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

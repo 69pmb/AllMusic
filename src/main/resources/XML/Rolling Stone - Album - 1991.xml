@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="R.E.M." titre="Out Of Time" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="U2" titre="Achtung Baby" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Guns N' Roses" titre="Use Your Illusion I" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="American Music Club" titre="Everclear" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1991" publishYear="1991" categorie="YEAR" rangeDateBegin="1991" rangeDateEnd="1991" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="R.E.M." T="Out Of Time" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Guns N' Roses" T="Use Your Illusion I" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="American Music Club" T="Everclear" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

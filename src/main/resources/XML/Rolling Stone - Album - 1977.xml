@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Sex Pistols" titre="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="Eagles" titre="Hotel California" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="Fleetwood Mac" titre="Rumours" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="James Taylor" titre="JT" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="Elvis Costello" titre="My Aim Is True" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="Muddy Waters" titre="Hard Again" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="6" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
+  <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="Eagles" T="Hotel California" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="James Taylor" T="JT" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="Muddy Waters" T="Hard Again" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
 </ListCompositions>
