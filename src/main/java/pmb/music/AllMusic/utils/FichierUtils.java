@@ -64,8 +64,8 @@ public class FichierUtils {
 			boolean getComposition) {
 		LOG.debug("Start convertListForJTable");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
-		for (Composition c : compoList) {
-			for (Fichier f : c.getFiles()) {
+		compoList.parallelStream().forEach(c -> {
+			c.getFiles().parallelStream().forEach(f -> {
 				Vector<Object> v = new Vector<>();
 				List<Composition> importXML = ImportXML
 						.importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
@@ -105,8 +105,8 @@ public class FichierUtils {
 				}
 				v.addElement(f.getSorted() ? "Oui" : "Non");
 				result.add(v);
-			}
-		}
+			});
+		});
 		LOG.debug("End convertListForJTable");
 		return result;
 	}

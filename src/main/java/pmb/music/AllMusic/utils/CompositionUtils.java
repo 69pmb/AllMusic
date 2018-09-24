@@ -261,7 +261,7 @@ public class CompositionUtils {
 	 */
 	public static Vector<Vector<Object>> convertArtistPanelResultToVector(Map<String, List<Composition>> map) {
 		LOG.debug("convertArtistPanelResultToVector");
-		return map.entrySet().stream().map(e -> {
+		return map.entrySet().parallelStream().map(e -> {
 			Vector<Object> v = new Vector<>();
 			v.addElement(e.getKey());
 			v.addElement(e.getValue().stream().mapToInt(c -> c.getFiles().size()).sum());
@@ -327,7 +327,7 @@ public class CompositionUtils {
 	public static Optional<Composition> findByFile(List<Composition> compoList, Fichier fichier,
 			Optional<String> artist, Optional<String> titre) {
 		LOG.trace("Start findByFile");
-		List<Composition> filtered = compoList.stream().filter(c -> c.getFiles().stream()
+		List<Composition> filtered = compoList.parallelStream().filter(c -> c.getFiles().stream()
 				.anyMatch(f -> StringUtils.equalsIgnoreCase(f.getAuthor(), fichier.getAuthor())
 						&& StringUtils.equalsIgnoreCase(f.getFileName(), fichier.getFileName())
 						&& f.getPublishYear().equals(fichier.getPublishYear()) && f.getSize().equals(fichier.getSize())
@@ -360,8 +360,8 @@ public class CompositionUtils {
 				map.put(score, composition);
 			}
 			LOG.trace("End findByFile, more than one result");
-			return Optional
-					.of(map.entrySet().stream().max((e1, e2) -> e1.getKey().compareTo(e2.getKey())).get().getValue());
+			return Optional.of(map.entrySet().parallelStream().max((e1, e2) -> e1.getKey().compareTo(e2.getKey())).get()
+					.getValue());
 		}
 	}
 
@@ -543,7 +543,7 @@ public class CompositionUtils {
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
-		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
+		List<Integer> rankList = yearList.parallelStream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(MiscUtils.median(rankList));
 	}
@@ -560,8 +560,8 @@ public class CompositionUtils {
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
-		List<Integer> rankList = yearList.stream().map(Composition::getFiles).flatMap(List::stream)
+		List<Integer> rankList = yearList.parallelStream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
-		return new BigDecimal(rankList.stream().mapToInt(Integer::intValue).max().orElse(1));
+		return new BigDecimal(rankList.parallelStream().mapToInt(Integer::intValue).max().orElse(1));
 	}
 }
