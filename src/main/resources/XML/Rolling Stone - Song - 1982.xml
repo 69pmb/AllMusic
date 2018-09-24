@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Grandmaster Flash" titre="The Message" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Marvin Gaye" titre="Sexual Healing" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Human League" titre="Don't You Want Me" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="New Order" titre="Temptation" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="The Clash" titre="Rock The Kasbah" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1982" publishYear="1982" categorie="YEAR" rangeDateBegin="1982" rangeDateEnd="1982" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Grandmaster Flash" T="The Message" type="SONG" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Marvin Gaye" T="Sexual Healing" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Human League" T="Don't You Want Me" type="SONG" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="New Order" T="Temptation" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="The Clash" T="Rock The Kasbah" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

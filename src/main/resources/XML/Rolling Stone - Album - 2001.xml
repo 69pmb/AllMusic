@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bob Dylan" titre="Love And Theft" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Alicia Keys" titre="Songs In A Minor" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Mick Jagger" titre="Goddess In The Doorway" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Bjork" titre="Vespertine" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Jay-Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Garbage" titre="Beautiful Garbage" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Manu Chao" titre="Proxima Estacion: Esperanza" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Strokes" titre="Is This It" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Various Artists" titre="O Brother, Where Art Thou? Original Soundtrack" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Radiohead" titre="Amnesiac" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2001" publishYear="2001" categorie="YEAR" rangeDateBegin="2001" rangeDateEnd="2001" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="Bob Dylan" T="Love And Theft" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Alicia Keys" T="Songs In A Minor" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Mick Jagger" T="Goddess In The Doorway" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Bjork" T="Vespertine" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Garbage" T="Beautiful Garbage" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Manu Chao" T="Proxima Estacion: Esperanza" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Various Artists" T="O Brother, Where Art Thou? Original Soundtrack" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Radiohead" T="Amnesiac" type="ALBUM" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>

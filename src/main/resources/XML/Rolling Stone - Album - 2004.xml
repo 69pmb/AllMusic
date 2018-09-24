@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Kanye West" titre="The College Dropout" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Loretta Lynn" titre="Van Lear Rose" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Franz Ferdinand" titre="Franz Ferdinand" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Brian Wilson" titre="Smile" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Arcade Fire" titre="Funeral" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Wilco" titre="A Ghost Is Born" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="U2" titre="How To Dismantle An Atomic Bomb" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Rilo Kiley" titre="More Adventureous" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Green Day" titre="American Idiot" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Modest Mouse" titre="Good News For People Who Like Bad News" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2004" publishYear="2004" categorie="YEAR" rangeDateBegin="2004" rangeDateEnd="2004" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Loretta Lynn" T="Van Lear Rose" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Franz Ferdinand" T="Franz Ferdinand" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Brian Wilson" T="Smile" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Arcade Fire" T="Funeral" type="ALBUM" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Wilco" T="A Ghost Is Born" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="U2" T="How To Dismantle An Atomic Bomb" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Rilo Kiley" T="More Adventureous" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Green Day" T="American Idiot" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Modest Mouse" T="Good News For People Who Like Bad News" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>

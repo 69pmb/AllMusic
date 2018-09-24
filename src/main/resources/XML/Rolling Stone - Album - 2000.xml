@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Eminem" titre="The Marshall Mathers LP" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="U2" titre="All That You Can't Leave Behind" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Madonna" titre="Music" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="D'Angelo" titre="Voodoo" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Radiohead" titre="Kid A" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Outkast" titre="Stankonia" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="PJ Harvey" titre="Stories From The City, Stories From The Sea" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Paul Simon" titre="You're The One" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Wu-Tang Clan" titre="The W" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Lou Reed" titre="Ecstasy" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 2000" publishYear="2000" categorie="YEAR" rangeDateBegin="2000" rangeDateEnd="2000" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="Eminem" T="The Marshall Mathers LP" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="U2" T="All That You Can't Leave Behind" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Madonna" T="Music" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="D'Angelo" T="Voodoo" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Outkast" T="Stankonia" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Paul Simon" T="You're The One" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Wu-Tang Clan" T="The W" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Lou Reed" T="Ecstasy" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>

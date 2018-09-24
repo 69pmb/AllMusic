@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Outkast" titre="Hey Ya!" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="Beyonce" titre="Crazy In Love" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="Kelis" titre="Milkshake" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="The White Stripes" titre="Seven Nation Army" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="50 Cent" titre="In Da Club" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="The Rapture" titre="House Of Jealous Lovers" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="Justin Timberlake" titre="Rock Your Body" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="Johnny Cash" titre="Hurt" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="Alicia Keys" titre="You Don't Know My Name" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="Electric Six" titre="Danger! High Voltage" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
-  <Composition artist="R. Kelly" titre="Ignition-Remix" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 2003" publishYear="2003" categorie="YEAR" rangeDateBegin="2003" rangeDateEnd="2003" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="9"/>
-  </Composition>
+  <compo A="Outkast" T="Hey Ya!" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="Beyonce" T="Crazy In Love" type="SONG" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="The White Stripes" T="Seven Nation Army" type="SONG" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="50 Cent" T="In Da Club" type="SONG" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="Justin Timberlake" T="Rock Your Body" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="Johnny Cash" T="Hurt" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="Alicia Keys" T="You Don't Know My Name" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="Electric Six" T="Danger! High Voltage" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
+  <compo A="R. Kelly" T="Ignition-Remix" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="9"/>
+  </compo>
 </ListCompositions>

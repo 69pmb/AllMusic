@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bee Gees" titre="Stayin Alive" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Joe Walsh" titre="Life's Been Good" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Rolling Stones" titre="Miss You" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Patti Smith" titre="Because The Night" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Kinks" titre="Rock And Roll Fantasy" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Warren Zevon" titre="Werewolves Of London" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="6" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Gerry Rafferty" titre="Baker Street" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="7" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Cars" titre="Just What I Needed" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1978" publishYear="1978" categorie="YEAR" rangeDateBegin="1978" rangeDateEnd="1978" sorted="false" classement="8" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
+  <compo A="Bee Gees" T="Stayin Alive" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Joe Walsh" T="Life's Been Good" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Rolling Stones" T="Miss You" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Patti Smith" T="Because The Night" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Kinks" T="Rock And Roll Fantasy" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Warren Zevon" T="Werewolves Of London" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Gerry Rafferty" T="Baker Street" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Cars" T="Just What I Needed" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
 </ListCompositions>

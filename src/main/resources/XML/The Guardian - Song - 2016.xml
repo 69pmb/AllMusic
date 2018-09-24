@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Rihanna" titre="Work" type="SONG" canBeMerged="true" deleted="true">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="1" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Beyonce" titre="Formation" type="SONG" canBeMerged="true" deleted="false">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="2" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Frank Ocean" titre="Ivy" type="SONG" canBeMerged="true" deleted="false">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="3" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Mitski" titre="Your Best American Girl" type="SONG" canBeMerged="true" deleted="true">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="4" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Skepta" titre="Man" type="SONG" canBeMerged="true" deleted="true">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="5" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Kanye West" titre="Famous" type="SONG" canBeMerged="true" deleted="false">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="6" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Christine And The Queens" titre="IT" type="SONG" canBeMerged="true" deleted="true">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="7" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="David Bowie" titre="Lazarus" type="SONG" canBeMerged="true" deleted="false">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="8" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Whitney" titre="No Woman" type="SONG" canBeMerged="true" deleted="true">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="9" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Tegan And Sara" titre="Boyfriend" type="SONG" canBeMerged="true" deleted="false">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="10" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Kano" titre="GarageSkankFREESTYLE" type="SONG" canBeMerged="true" deleted="false">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="11" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Young M.A" titre="Ooouuu" type="SONG" canBeMerged="true" deleted="true">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="12" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Dave Ft AJ Tracey" titre="Thiago Silva" type="SONG" canBeMerged="true" deleted="false">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="13" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="The Monkees" titre="Me And Magdelena" type="SONG" canBeMerged="true" deleted="false">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="14" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
-  <Composition artist="Babyfather" titre="Skywalker Freestyle" type="SONG" canBeMerged="true" deleted="false">
-    <File author="The Guardian" fileName="The Guardian - Song - 2016" publishYear="2016" categorie="YEAR" rangeDateBegin="2016" rangeDateEnd="2016" sorted="true" classement="15" creationDate="28/12/2017 15:12:41" size="15"/>
-  </Composition>
+  <compo A="Rihanna" T="Work" type="SONG" mergeable="true" del="true">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="1" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Beyonce" T="Formation" type="SONG" mergeable="true" del="false">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="2" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Frank Ocean" T="Ivy" type="SONG" mergeable="true" del="false">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="3" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Mitski" T="Your Best American Girl" type="SONG" mergeable="true" del="true">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="4" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Skepta" T="Man" type="SONG" mergeable="true" del="true">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="5" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Kanye West" T="Famous" type="SONG" mergeable="true" del="false">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="6" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Christine And The Queens" T="IT" type="SONG" mergeable="true" del="true">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="7" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="David Bowie" T="Lazarus" type="SONG" mergeable="true" del="false">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="8" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Whitney" T="No Woman" type="SONG" mergeable="true" del="true">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="9" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Tegan And Sara" T="Boyfriend" type="SONG" mergeable="true" del="false">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="10" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Kano" T="GarageSkankFREESTYLE" type="SONG" mergeable="true" del="false">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="11" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Young M.A" T="Ooouuu" type="SONG" mergeable="true" del="true">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="12" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Dave Ft AJ Tracey" T="Thiago Silva" type="SONG" mergeable="true" del="false">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="13" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="The Monkees" T="Me And Magdelena" type="SONG" mergeable="true" del="false">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="14" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
+  <compo A="Babyfather" T="Skywalker Freestyle" type="SONG" mergeable="true" del="false">
+    <file author="The Guardian" name="The Guardian - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="15" creation="28/12/2017 15:12:41" size="15"/>
+  </compo>
 </ListCompositions>

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="System of the down" titre="Toxicity" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="1" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Basement Jaxxx" titre="Rooty" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="2" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Jay Z" titre="The Blueprint" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="3" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Interpol" titre="Turn on the Bright Lights" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="4" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="The White Stripes" titre="White Blood Cells" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="5" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Kanye West" titre="The College Dropout" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="6" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Kanye West" titre="Late Registration" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="7" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Queens of the Stone Age" titre="Songs for the Deaf" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="8" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Queens of the Stone Age" titre="Rated R" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="9" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Mia" titre="Arular" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="10" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Shins" titre="Oh, Inverted World" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="11" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Green Day" titre="American Idiot" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="12" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="The Streets" titre="Original Pirate Material" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="13" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="The Avalanches" titre="Since I Left You" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="14" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
-  <Composition artist="Burial" titre="Untrue" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="AllMusic" fileName="AllMusic - 00's Best Albums - 2009" publishYear="2009" categorie="DECADE" rangeDateBegin="2000" rangeDateEnd="2009" sorted="false" classement="15" creationDate="24/07/2017 00:51:20" size="0"/>
-  </Composition>
+  <compo A="System of the down" T="Toxicity" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="1" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Basement Jaxxx" T="Rooty" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="2" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="3" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Interpol" T="Turn on the Bright Lights" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="4" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="5" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="6" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Kanye West" T="Late Registration" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="7" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Queens of the Stone Age" T="Songs for the Deaf" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="8" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Queens of the Stone Age" T="Rated R" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="9" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Mia" T="Arular" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="10" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Shins" T="Oh, Inverted World" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="11" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Green Day" T="American Idiot" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="12" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="The Streets" T="Original Pirate Material" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="13" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="The Avalanches" T="Since I Left You" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="14" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
+  <compo A="Burial" T="Untrue" type="ALBUM" mergeable="true" del="false">
+    <file author="AllMusic" name="AllMusic - 00's Best Albums - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="15" creation="24/07/2017 00:51:20" size="0"/>
+  </compo>
 </ListCompositions>

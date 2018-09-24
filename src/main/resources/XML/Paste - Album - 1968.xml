@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Otis Redding" titre="The Dock Of The Bay" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="15" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Big Brother and the Holding Company" titre="Cheap Thrills" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="14" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Small Faces" titre="Ogden's Nut Gone Flake" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="13" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Cream" titre="Wheels Of Fire" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="12" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Traffic" titre="Traffic" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="11" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="The Zombies" titre="Odyssey And Oracle" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="10" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Johnny Cash" titre="At Folsom Prison" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="9" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Van Morrison" titre="Astral Weeks" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="8" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="The Kinks" titre="Are The Village Green Preservation Society" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="7" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Simon And Garfunkel" titre="Bookends" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="6" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Band" titre="Music from Big Pink" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="5" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Aretha Franklin" titre="Lady Soul" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="4" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="The Rolling Stones" titre="Beggar's Banquet" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="3" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="Jimi Hendrix" titre="Electric Ladyland" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="2" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
-  <Composition artist="The Beatles" titre="The Beatles" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - Album - 1968" publishYear="1968" categorie="YEAR" rangeDateBegin="1968" rangeDateEnd="1968" sorted="true" classement="1" creationDate="31/08/2018 10:12:30" size="15"/>
-  </Composition>
+  <compo A="Otis Redding" T="The Dock Of The Bay" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="15" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Big Brother and the Holding Company" T="Cheap Thrills" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="14" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Small Faces" T="Ogden's Nut Gone Flake" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="13" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Cream" T="Wheels Of Fire" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="12" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Traffic" T="Traffic" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="11" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="The Zombies" T="Odyssey And Oracle" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="10" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Johnny Cash" T="At Folsom Prison" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="9" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="8" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="The Kinks" T="Are The Village Green Preservation Society" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="7" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Simon And Garfunkel" T="Bookends" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="6" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="5" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Aretha Franklin" T="Lady Soul" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="4" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="3" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="2" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+    <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="1" creation="31/08/2018 10:12:30" size="15"/>
+  </compo>
 </ListCompositions>

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Justice" titre="D.A.N.C.E" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="1" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
-  <Composition artist="Santogold" titre="Creator" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="2" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
-  <Composition artist="Dan Le Sac VS Scroobius Pip" titre="Thou Shalt Always Kill" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="3" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
-  <Composition artist="Mika" titre="Relax, Take It Easy" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="4" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
-  <Composition artist="Gossip" titre="Standing In The Way Of Control" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="5" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
-  <Composition artist="Gym Class Heroes" titre="New Friends Request" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="6" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
-  <Composition artist="Dragonette" titre="I Get Around (Midnight Juggernaut Remix)" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="7" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
-  <Composition artist="50 Cent" titre="I Get Money" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="8" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
-  <Composition artist="Hadouken !" titre="Tuning It (Hi Re-hub)" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="9" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
-  <Composition artist="Amy Winehouse" titre="Rehab" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Inrock" fileName="Inrock - Song - 2007" publishYear="2007" categorie="YEAR" rangeDateBegin="2007" rangeDateEnd="2007" sorted="true" classement="10" creationDate="11/09/2018 15:55:50" size="10"/>
-  </Composition>
+  <compo A="Justice" T="D.A.N.C.E" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="1" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
+  <compo A="Santogold" T="Creator" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="2" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
+  <compo A="Dan Le Sac VS Scroobius Pip" T="Thou Shalt Always Kill" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="3" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
+  <compo A="Mika" T="Relax, Take It Easy" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="4" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
+  <compo A="Gossip" T="Standing In The Way Of Control" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="5" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
+  <compo A="Gym Class Heroes" T="New Friends Request" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
+  <compo A="Dragonette" T="I Get Around (Midnight Juggernaut Remix)" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="7" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
+  <compo A="50 Cent" T="I Get Money" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="8" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
+  <compo A="Hadouken !" T="Tuning It (Hi Re-hub)" type="SONG" mergeable="true" del="false">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="9" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
+  <compo A="Amy Winehouse" T="Rehab" type="SONG" mergeable="true" del="true">
+    <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="10" creation="11/09/2018 15:55:50" size="10"/>
+  </compo>
 </ListCompositions>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Arrested Development" titre="Tennessee" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1992" publishYear="1992" categorie="YEAR" rangeDateBegin="1992" rangeDateEnd="1992" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Arrested Development" titre="People Everyday" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1992" publishYear="1992" categorie="YEAR" rangeDateBegin="1992" rangeDateEnd="1992" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="P.M. Dawn" titre="I'd Die Without You" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1992" publishYear="1992" categorie="YEAR" rangeDateBegin="1992" rangeDateEnd="1992" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="R.E.M." titre="Drive" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1992" publishYear="1992" categorie="YEAR" rangeDateBegin="1992" rangeDateEnd="1992" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Spin Doctors" titre="Little Miss Can't Be Wrong" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1992" publishYear="1992" categorie="YEAR" rangeDateBegin="1992" rangeDateEnd="1992" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Arrested Development" T="Tennessee" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Arrested Development" T="People Everyday" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="P.M. Dawn" T="I'd Die Without You" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="R.E.M." T="Drive" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Spin Doctors" T="Little Miss Can't Be Wrong" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Babes In Toyland" titre="Fontanelle" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="1" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="The Afghan Whigs" titre="Gentleman" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="2" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Smashing Pumpkins" titre="Gish" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="3" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Hole" titre="Live Through This" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="4" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Stone Temple Pilots" titre="Core" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="5" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="The Breeders" titre="Last Splash" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="6" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="The Jesus Lizard" titre="Goat" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="7" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Soundgarden" titre="Superunknown" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="8" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Screaming Trees" titre="Sweet Oblivion" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="9" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Pearl Jam" titre="Ten" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="10" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Mother Love Bone" titre="Apple" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="11" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Mudhoney" titre="Superfuzz Bigmuff" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="12" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Alice In Chains" titre="Dirt" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="13" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Temple Of The Dog" titre="Temple Of The Dog" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="14" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
-  <Composition artist="Nirvana" titre="Nevermind" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Q" fileName="Q - The Story Of Grunge - Albums - 2005" publishYear="2005" categorie="GENRE" rangeDateBegin="0" rangeDateEnd="2005" sorted="false" classement="15" creationDate="28/08/2018 15:37:53" size="15"/>
-  </Composition>
+  <compo A="Babes In Toyland" T="Fontanelle" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="1" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="The Afghan Whigs" T="Gentleman" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="2" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Smashing Pumpkins" T="Gish" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="3" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="4" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Stone Temple Pilots" T="Core" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="5" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="The Breeders" T="Last Splash" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="6" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="The Jesus Lizard" T="Goat" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="7" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Soundgarden" T="Superunknown" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="8" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Screaming Trees" T="Sweet Oblivion" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="9" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="10" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Mother Love Bone" T="Apple" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="11" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Mudhoney" T="Superfuzz Bigmuff" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="12" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Alice In Chains" T="Dirt" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="13" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Temple Of The Dog" T="Temple Of The Dog" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="14" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
+  <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
+    <file author="Q" name="Q - The Story Of Grunge - Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="15" creation="28/08/2018 15:37:53" size="15"/>
+  </compo>
 </ListCompositions>

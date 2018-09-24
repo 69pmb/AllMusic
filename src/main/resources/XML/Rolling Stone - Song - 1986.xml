@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Prince" titre="Kiss" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1986" publishYear="1986" categorie="YEAR" rangeDateBegin="1986" rangeDateEnd="1986" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Run-DMC And Aerosmith" titre="Walk This Way" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1986" publishYear="1986" categorie="YEAR" rangeDateBegin="1986" rangeDateEnd="1986" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Madonna" titre="Papa Don't Preach" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1986" publishYear="1986" categorie="YEAR" rangeDateBegin="1986" rangeDateEnd="1986" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Peter Gabriel" titre="Sledgehammer" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1986" publishYear="1986" categorie="YEAR" rangeDateBegin="1986" rangeDateEnd="1986" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Steve Winwood" titre="Higher Love" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1986" publishYear="1986" categorie="YEAR" rangeDateBegin="1986" rangeDateEnd="1986" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Prince" T="Kiss" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Run-DMC And Aerosmith" T="Walk This Way" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Madonna" T="Papa Don't Preach" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Steve Winwood" T="Higher Love" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

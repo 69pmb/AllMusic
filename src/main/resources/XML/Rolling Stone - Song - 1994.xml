@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Beck" titre="Loser" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Nine Inch Nails" titre="Closer" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Green Day" titre="Longview" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Hole" titre="Miss World" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Coolio" titre="Fantastic Voyage" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1994" publishYear="1994" categorie="YEAR" rangeDateBegin="1994" rangeDateEnd="1994" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Beck" T="Loser" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Nine Inch Nails" T="Closer" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Green Day" T="Longview" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Hole" T="Miss World" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Coolio" T="Fantastic Voyage" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

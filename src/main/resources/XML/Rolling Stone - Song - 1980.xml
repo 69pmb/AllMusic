@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Joy Division" titre="Love Will Tear Us Apart" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Rolling Stones" titre="Emotional Rescue" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="The Pretenders" titre="Stop Your Sobbing" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Blondie" titre="Call Me" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Kurtis Blow" titre="The Breaks" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1980" publishYear="1980" categorie="YEAR" rangeDateBegin="1980" rangeDateEnd="1980" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Joy Division" T="Love Will Tear Us Apart" type="SONG" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Rolling Stones" T="Emotional Rescue" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="The Pretenders" T="Stop Your Sobbing" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Blondie" T="Call Me" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Kurtis Blow" T="The Breaks" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

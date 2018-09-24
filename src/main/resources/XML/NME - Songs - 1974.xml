@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Syreeta" titre="Spinnin' And Spinnin'" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="1" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Aretha Franklin" titre="Until You Come Back To Me" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="2" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Ace" titre="How Long" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="3" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Johnnie Allen" titre="Promised Land" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="4" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Thunderthigh" titre="Central Park Arrest" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="5" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Genesis" titre="I Know What I Like" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="6" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Robert Wyatt" titre="I'm A Believer" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="7" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Brian Protheroe" titre="Pinball" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="8" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Ken Boothe" titre="Everything I Own -" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="9" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="George McCrae" titre="Rock Your Baby" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="10" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Don Covay" titre="It's Better To Have" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="11" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="The Hues Corporation" titre="Rock The Boat" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="12" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Kevin Ayers" titre="After The Show" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="13" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
-  <Composition artist="Johnnie Taylor" titre="I've Been Born Again" type="SONG" canBeMerged="true" deleted="false">
-    <File author="NME" fileName="NME - Songs - 1974" publishYear="1974" categorie="YEAR" rangeDateBegin="1974" rangeDateEnd="1974" sorted="false" classement="14" creationDate="24/07/2017 00:51:20" size="14"/>
-  </Composition>
+  <compo A="Syreeta" T="Spinnin' And Spinnin'" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="1" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Aretha Franklin" T="Until You Come Back To Me" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="2" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Ace" T="How Long" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="3" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Johnnie Allen" T="Promised Land" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="4" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Thunderthigh" T="Central Park Arrest" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="5" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Genesis" T="I Know What I Like" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="6" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Robert Wyatt" T="I'm A Believer" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="7" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Brian Protheroe" T="Pinball" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="8" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Ken Boothe" T="Everything I Own -" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="9" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="George McCrae" T="Rock Your Baby" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="10" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Don Covay" T="It's Better To Have" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="11" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="The Hues Corporation" T="Rock The Boat" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="12" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Kevin Ayers" T="After The Show" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="13" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
+  <compo A="Johnnie Taylor" T="I've Been Born Again" type="SONG" mergeable="true" del="false">
+    <file author="NME" name="NME - Songs - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="false" rank="14" creation="24/07/2017 00:51:20" size="14"/>
+  </compo>
 </ListCompositions>

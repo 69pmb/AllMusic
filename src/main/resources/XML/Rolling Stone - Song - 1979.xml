@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Fleetwood Mac" titre="Tusk" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1979" publishYear="1979" categorie="YEAR" rangeDateBegin="1979" rangeDateEnd="1979" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="1"/>
-  </Composition>
+  <compo A="Fleetwood Mac" T="Tusk" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="1"/>
+  </compo>
 </ListCompositions>

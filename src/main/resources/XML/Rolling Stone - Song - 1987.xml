@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bruce Springsteen" titre="Tunnel Of Love" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Suzanne Vega" titre="Luka" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="R.E.M." titre="The One I Love" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Prince" titre="Sign O' The Times" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="George Michael" titre="Faith" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Bruce Springsteen" T="Tunnel Of Love" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Suzanne Vega" T="Luka" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="R.E.M." T="The One I Love" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Prince" T="Sign O' The Times" type="SONG" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="George Michael" T="Faith" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Rolling Stones" titre="Start Me Up" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="Laurie Anderson" titre="O Superman (for Massenet)" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="Foreigner" titre="Urgent" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="Yoko Ono" titre="Walking On Thin Ice" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="Squeeze" titre="Tempted" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
-  <Composition artist="Police" titre="Every Little Thing She Does Is Magic" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1981" publishYear="1981" categorie="YEAR" rangeDateBegin="1981" rangeDateEnd="1981" sorted="false" classement="6" creationDate="05/01/2018 13:17:17" size="6"/>
-  </Composition>
+  <compo A="Rolling Stones" T="Start Me Up" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="Laurie Anderson" T="O Superman (for Massenet)" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="Foreigner" T="Urgent" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="Yoko Ono" T="Walking On Thin Ice" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="Squeeze" T="Tempted" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
+  <compo A="Police" T="Every Little Thing She Does Is Magic" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="6"/>
+  </compo>
 </ListCompositions>

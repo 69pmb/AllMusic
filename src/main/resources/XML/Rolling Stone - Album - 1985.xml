@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Talking Heads" titre="Little Creatures" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1985" publishYear="1985" categorie="YEAR" rangeDateBegin="1985" rangeDateEnd="1985" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="John Cougar Mellencamp" titre="Scarecrow" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1985" publishYear="1985" categorie="YEAR" rangeDateBegin="1985" rangeDateEnd="1985" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Bob Dylan" titre="Biograph" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1985" publishYear="1985" categorie="YEAR" rangeDateBegin="1985" rangeDateEnd="1985" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="The Replacements" titre="Tim" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1985" publishYear="1985" categorie="YEAR" rangeDateBegin="1985" rangeDateEnd="1985" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="REM" titre="Fables Of The Reconstruction" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1985" publishYear="1985" categorie="YEAR" rangeDateBegin="1985" rangeDateEnd="1985" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Talking Heads" T="Little Creatures" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="John Cougar Mellencamp" T="Scarecrow" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Bob Dylan" T="Biograph" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="The Replacements" T="Tim" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="REM" T="Fables Of The Reconstruction" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

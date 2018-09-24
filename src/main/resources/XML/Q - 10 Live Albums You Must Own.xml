@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="The Who" titre="Live At Leeds" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="1" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
-  <Composition artist="Radiohead" titre="I Might Be Wrong: Live Recordings" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="2" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
-  <Composition artist="The Band" titre="The Last Waltz" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="3" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
-  <Composition artist="The Rolling Stones" titre="Get Your Ya-Yas Out" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="4" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
-  <Composition artist="The Roots" titre="The Roots Come Alive" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="5" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
-  <Composition artist="Talking Heads" titre="Stop Making Sense" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="6" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
-  <Composition artist="Led Zeppelin" titre="How The West Was Won" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="7" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
-  <Composition artist="NEIL YOUNG" titre="Live Rust" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="8" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
-  <Composition artist="James Brown" titre="Live at the Apollo" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="9" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
-  <Composition artist="The Velvet Underground" titre="1969: The Velvet Underground Live" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Q" fileName="Q - 10 Live Albums You Must Own" publishYear="0" categorie="ALL_TIME" rangeDateBegin="0" rangeDateEnd="0" sorted="false" classement="10" creationDate="29/08/2017 09:37:43" size="10"/>
-  </Composition>
+  <compo A="The Who" T="Live At Leeds" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="1" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
+  <compo A="Radiohead" T="I Might Be Wrong: Live Recordings" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="2" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
+  <compo A="The Band" T="The Last Waltz" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="3" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
+  <compo A="The Rolling Stones" T="Get Your Ya-Yas Out" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="4" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
+  <compo A="The Roots" T="The Roots Come Alive" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="5" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
+  <compo A="Talking Heads" T="Stop Making Sense" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="6" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
+  <compo A="Led Zeppelin" T="How The West Was Won" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="7" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
+  <compo A="NEIL YOUNG" T="Live Rust" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="8" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
+  <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="9" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
+  <compo A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" mergeable="true" del="false">
+    <file author="Q" name="Q - 10 Live Albums You Must Own" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="10" creation="29/08/2017 09:37:43" size="10"/>
+  </compo>
 </ListCompositions>

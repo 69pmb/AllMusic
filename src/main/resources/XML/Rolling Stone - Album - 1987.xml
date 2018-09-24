@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bruce Springsteen" titre="Tunnel Of Love" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="U2" titre="The Joshua Tree" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Prince" titre="Sign O' The Times" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Robbie Robertson" titre="Robbie Robertson" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Replacements" titre="Pleased To Meet Me" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="John Hiatt" titre="Bring The Family" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Los Lobos" titre="By The Light Of The Moon" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="R.E.M." titre="Document" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Tom Waits" titre="Franks Wild Years" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="That Petrol Emotion" titre="Babble" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1987" publishYear="1987" categorie="YEAR" rangeDateBegin="1987" rangeDateEnd="1987" sorted="false" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="Bruce Springsteen" T="Tunnel Of Love" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Prince" T="Sign O' The Times" type="ALBUM" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Robbie Robertson" T="Robbie Robertson" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Replacements" T="Pleased To Meet Me" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="John Hiatt" T="Bring The Family" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Los Lobos" T="By The Light Of The Moon" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="R.E.M." T="Document" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Tom Waits" T="Franks Wild Years" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="That Petrol Emotion" T="Babble" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>
