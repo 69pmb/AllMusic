@@ -40,9 +40,14 @@ import pmb.music.AllMusic.view.PanelUtils;
  * - Missing XML files: MXF
  * - Top year: top
  * - Nettoyer dossier historique: clearHistory
- * - Find suspicious compositions: FSC
+ * - Finds suspicious compositions: suspicious
+ * - Finds duplicates title with different artist: duplicateTitle
  * - Checks filenames (Author + name + publishYear): validateFileName
+ * - Calculates in a file for each compositions, the number of files associates 
+ *   to it and get the average for the file: averageOfFilesByFiles
+ * - Looks for weird file size: weirdFileSize
  * - Générer des statistiques: stats
+ * - By looking in other files, guess the type of unknown compositions: findUnknown
  * @author PBR
  */
 public class BatchPanel extends JPanel {
@@ -381,7 +386,7 @@ public class BatchPanel extends JPanel {
 
 		this.add(stat);
 	}
-	
+
 	private void findUnknown() {
 		JPanel unknown = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
@@ -401,7 +406,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(unknown, unknownsBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(unknown);		
+		this.add(unknown);
 	}
 
 	/**
