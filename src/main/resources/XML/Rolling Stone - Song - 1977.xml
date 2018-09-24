@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bob Seger" titre="Night Moves" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="James Taylor" titre="Handy Man" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Fleetwood Mac" titre="Go Your Own Way" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Manfred Mann" titre="Blinded By The Light" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Eagles" titre="Life In The Fast Line" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Marvin Gaye" titre="Got To Give Up" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="6" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Emotions" titre="Best Of My Love" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="7" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
-  <Composition artist="Ramones" titre="Sheena Is A Punk Rockers" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1977" publishYear="1977" categorie="YEAR" rangeDateBegin="1977" rangeDateEnd="1977" sorted="false" classement="8" creationDate="05/01/2018 13:17:17" size="8"/>
-  </Composition>
+  <compo A="Bob Seger" T="Night Moves" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="James Taylor" T="Handy Man" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Manfred Mann" T="Blinded By The Light" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Eagles" T="Life In The Fast Line" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Marvin Gaye" T="Got To Give Up" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Emotions" T="Best Of My Love" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
+  <compo A="Ramones" T="Sheena Is A Punk Rockers" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="8"/>
+  </compo>
 </ListCompositions>

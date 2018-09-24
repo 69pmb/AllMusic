@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Lauryn Hill" titre="Doo Wop (That Thing)" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Jay-Z" titre="Can I Get A..." type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Madonna" titre="Ray Of Light" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Natalie Imbruglia" titre="Torn" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Hole" titre="Celebrity Skin" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1998" publishYear="1998" categorie="YEAR" rangeDateBegin="1998" rangeDateEnd="1998" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Lauryn Hill" T="Doo Wop (That Thing)" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Jay-Z" T="Can I Get A..." type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Madonna" T="Ray Of Light" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Natalie Imbruglia" T="Torn" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Hole" T="Celebrity Skin" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1998" publish="1998" cat="YEAR" rangeB="1998" rangeE="1998" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

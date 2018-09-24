@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="New Order" titre="True Faith" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="10" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
-  <Composition artist="New Order" titre="Blue Monday" type="SONG" canBeMerged="true" deleted="true">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="9" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
-  <Composition artist="New Order" titre="Run" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="8" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
-  <Composition artist="New Order" titre="Vanishing Point" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="7" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
-  <Composition artist="New Order" titre="Bizarre Love Triangle" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="6" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
-  <Composition artist="New Order" titre="All The Way" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="5" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
-  <Composition artist="New Order" titre="Regret" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="4" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
-  <Composition artist="New Order" titre="Temptation" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="3" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
-  <Composition artist="New Order" titre="Ceremony" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="2" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
-  <Composition artist="New Order" titre="Age Of Consent" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Paste" fileName="Paste - The 10 Best New Order Songs - 2017" publishYear="2017" categorie="THEME" rangeDateBegin="0" rangeDateEnd="2017" sorted="true" classement="1" creationDate="31/08/2018 10:18:17" size="10"/>
-  </Composition>
+  <compo A="New Order" T="True Faith" type="SONG" mergeable="true" del="true">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="10" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
+  <compo A="New Order" T="Blue Monday" type="SONG" mergeable="true" del="true">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="9" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
+  <compo A="New Order" T="Run" type="SONG" mergeable="true" del="false">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="8" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
+  <compo A="New Order" T="Vanishing Point" type="SONG" mergeable="true" del="false">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="7" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
+  <compo A="New Order" T="Bizarre Love Triangle" type="SONG" mergeable="true" del="false">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="6" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
+  <compo A="New Order" T="All The Way" type="SONG" mergeable="true" del="false">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="5" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
+  <compo A="New Order" T="Regret" type="SONG" mergeable="true" del="false">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="4" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
+  <compo A="New Order" T="Temptation" type="SONG" mergeable="true" del="false">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="3" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
+  <compo A="New Order" T="Ceremony" type="SONG" mergeable="true" del="false">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="2" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
+  <compo A="New Order" T="Age Of Consent" type="SONG" mergeable="true" del="false">
+    <file author="Paste" name="Paste - The 10 Best New Order Songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="1" creation="31/08/2018 10:18:17" size="10"/>
+  </compo>
 </ListCompositions>

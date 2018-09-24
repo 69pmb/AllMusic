@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Bruce Springsteen" titre="Born In The U.S.A." type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="1" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Prince" titre="Purple Rain" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="2" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Tina Turner" titre="Private Dancer" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="3" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="Los Lobos" titre="How Will The Wolf Survive?" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="4" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
-  <Composition artist="The Pretenders" titre="Learning To Crawl" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1984" publishYear="1984" categorie="YEAR" rangeDateBegin="1984" rangeDateEnd="1984" sorted="false" classement="5" creationDate="05/01/2018 13:17:17" size="5"/>
-  </Composition>
+  <compo A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Tina Turner" T="Private Dancer" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="Los Lobos" T="How Will The Wolf Survive?" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
+  <compo A="The Pretenders" T="Learning To Crawl" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </compo>
 </ListCompositions>

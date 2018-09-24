@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Midnight Oil" titre="Diesel And Dust" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Tracy Chapman" titre="Tracy Chapman" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Sonic Youth" titre="Daydream Nation" type="ALBUM" canBeMerged="true" deleted="true">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Public Enemy" titre="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Volume One" titre="Traveling Wilburys" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="John Hiatt" titre="Slow Turning" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Graham Parker" titre="The Mona Lisa's Sister" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Prince" titre="The Black Album" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Cowboy Junkies" titre="The Trinity Session" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Was (Not Was)" titre="What Up, Dog?" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Prince" titre="Lovesexy" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Waterboys" titre="Fisherman's Blues" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Keith Richards" titre="Talk Is Cheap" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="Midnight Oil" T="Diesel And Dust" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Tracy Chapman" T="Tracy Chapman" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Volume One" T="Traveling Wilburys" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="John Hiatt" T="Slow Turning" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Graham Parker" T="The Mona Lisa's Sister" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Prince" T="The Black Album" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Cowboy Junkies" T="The Trinity Session" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Was (Not Was)" T="What Up, Dog?" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Prince" T="Lovesexy" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Waterboys" T="Fisherman's Blues" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Keith Richards" T="Talk Is Cheap" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>

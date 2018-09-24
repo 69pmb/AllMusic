@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Tracy Chapman" titre="Fast Car" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Midnight Oil" titre="Beds Are Burning" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Prince" titre="Alphabet St." type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="E.U." titre="Da' Butt" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Guns N' Roses" titre="Sweet Child O' Mine" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Talking Heads" titre="(Nothing But) Flowers" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Guns N' Roses" titre="Welcome To The Jungle" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Bob Dylan" titre="Silvio" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Primitives" titre="Crash" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Keith Richards" titre="Take It So Hard" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="8" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Sugarcubes" titre="Birthday" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="The Pursuit Of Happiness" titre="I'm An Adult Now" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Robe Base And D.J. E-Z Rock" titre="It Takes Two" type="SONG" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Song - 1988" publishYear="1988" categorie="YEAR" rangeDateBegin="1988" rangeDateEnd="1988" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="Tracy Chapman" T="Fast Car" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Midnight Oil" T="Beds Are Burning" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Prince" T="Alphabet St." type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="E.U." T="Da' Butt" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Guns N' Roses" T="Sweet Child O' Mine" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Talking Heads" T="(Nothing But) Flowers" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Guns N' Roses" T="Welcome To The Jungle" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Bob Dylan" T="Silvio" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Primitives" T="Crash" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Keith Richards" T="Take It So Hard" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Sugarcubes" T="Birthday" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="The Pursuit Of Happiness" T="I'm An Adult Now" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Robe Base And D.J. E-Z Rock" T="It Takes Two" type="SONG" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>

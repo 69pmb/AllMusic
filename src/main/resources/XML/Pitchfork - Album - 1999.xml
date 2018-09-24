@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Blur" titre="13" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="10" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
-  <Composition artist="Godspeed You! Black Emperor" titre="Slow Riot For New Zero Kanada" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="9" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
-  <Composition artist="Magnetic Fields" titre="69 Love Songs" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="8" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
-  <Composition artist="Tom Waits" titre="Mule Variations" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="7" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
-  <Composition artist="Bonnie 'Prince' Billy" titre="I See a Darkness" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="6" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
-  <Composition artist="Beck" titre="Midnight Vultures" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="5" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
-  <Composition artist="The Beta Band" titre="The Three E.P.'s" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="4" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
-  <Composition artist="Built to Spill" titre="Keep It Like a Secret" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="3" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
-  <Composition artist="The Flaming Lips" titre="The Soft Bulletin" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="2" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
-  <Composition artist="The Dismemberment Plan" titre="Emergency And I" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Pitchfork" fileName="Pitchfork - Album - 1999" publishYear="1999" categorie="YEAR" rangeDateBegin="1999" rangeDateEnd="1999" sorted="true" classement="1" creationDate="23/07/2018 17:57:43" size="10"/>
-  </Composition>
+  <compo A="Blur" T="13" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="10" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
+  <compo A="Godspeed You! Black Emperor" T="Slow Riot For New Zero Kanada" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="9" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
+  <compo A="Magnetic Fields" T="69 Love Songs" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="8" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
+  <compo A="Tom Waits" T="Mule Variations" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="7" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
+  <compo A="Bonnie 'Prince' Billy" T="I See a Darkness" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="6" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
+  <compo A="Beck" T="Midnight Vultures" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="5" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
+  <compo A="The Beta Band" T="The Three E.P.'s" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="4" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
+  <compo A="Built to Spill" T="Keep It Like a Secret" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="3" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="2" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
+  <compo A="The Dismemberment Plan" T="Emergency And I" type="ALBUM" mergeable="true" del="false">
+    <file author="Pitchfork" name="Pitchfork - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="1" creation="23/07/2018 17:57:43" size="10"/>
+  </compo>
 </ListCompositions>

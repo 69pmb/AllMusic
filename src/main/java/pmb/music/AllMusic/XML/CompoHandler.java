@@ -38,23 +38,23 @@ public class CompoHandler extends DefaultHandler {
 	private Fichier file;
 
 	public static final String TAG_ROOT = "ListCompositions";
-	public static final String TAG_COMPOSITION = "Composition";
-	public static final String TAG_FILE = "File";
-	public static final String TAG_PUBLISH_YEAR = "publishYear";
-	public static final String TAG_RANGE_DATE_BEGIN = "rangeDateBegin";
-	public static final String TAG_RANGE_DATE_END = "rangeDateEnd";
-	public static final String TAG_CLASSEMENT = "classement";
+	public static final String TAG_COMPOSITION = "compo";
+	public static final String TAG_FILE = "file";
+	public static final String TAG_PUBLISH_YEAR = "publish";
+	public static final String TAG_RANGE_DATE_BEGIN = "rangeB";
+	public static final String TAG_RANGE_DATE_END = "rangeE";
+	public static final String TAG_CLASSEMENT = "rank";
 	public static final String TAG_SORTED = "sorted";
 	public static final String TAG_AUTHOR = "author";
-	public static final String TAG_FILENAME = "fileName";
-	public static final String TAG_CATEGORIE = "categorie";
+	public static final String TAG_FILENAME = "name";
+	public static final String TAG_CATEGORIE = "cat";
 	public static final String TAG_SIZE = "size";
-	public static final String TAG_CREATION_DATE = "creationDate";
-	public static final String TAG_ARTIST = "artist";
-	public static final String TAG_TITRE = "titre";
+	public static final String TAG_CREATION_DATE = "creation";
+	public static final String TAG_ARTIST = "A";
+	public static final String TAG_TITRE = "T";
 	public static final String TAG_TYPE = "type";
-	public static final String TAG_CAN_BE_MERGED = "canBeMerged";
-	public static final String TAG_DELETED = "deleted";
+	public static final String TAG_CAN_BE_MERGED = "mergeable";
+	public static final String TAG_DELETED = "del";
 
 	/**
 	 * Constructeur.

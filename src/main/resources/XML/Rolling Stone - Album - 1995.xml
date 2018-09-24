@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="PJ Harvey" titre="To Bring You My Love" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Foo Fighters" titre="Foo Fighters" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Tricky" titre="Maxinquaye" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Elastica" titre="Elastica" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Smashing Pumpkins" titre="Mellon Collie And The Infinite Sadness" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Neil Young" titre="Mirror Ball" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Oasis" titre="(What's The Story) Morning Glory?" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Bjork" titre="Post" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="Son Volt" titre="Trace" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="9" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
-  <Composition artist="P.M. Dawn" titre="Jesus Wept" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1995" publishYear="1995" categorie="YEAR" rangeDateBegin="1995" rangeDateEnd="1995" sorted="true" classement="10" creationDate="05/01/2018 13:17:17" size="10"/>
-  </Composition>
+  <compo A="PJ Harvey" T="To Bring You My Love" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Foo Fighters" T="Foo Fighters" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Elastica" T="Elastica" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Smashing Pumpkins" T="Mellon Collie And The Infinite Sadness" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Neil Young" T="Mirror Ball" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="Son Volt" T="Trace" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
+  <compo A="P.M. Dawn" T="Jesus Wept" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </compo>
 </ListCompositions>

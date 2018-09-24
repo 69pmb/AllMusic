@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <Composition artist="Nirvana" titre="In Utero" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1993" publishYear="1993" categorie="YEAR" rangeDateBegin="1993" rangeDateEnd="1993" sorted="true" classement="1" creationDate="05/01/2018 13:17:17" size="7"/>
-  </Composition>
-  <Composition artist="U2" titre="Zooropa" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1993" publishYear="1993" categorie="YEAR" rangeDateBegin="1993" rangeDateEnd="1993" sorted="true" classement="2" creationDate="05/01/2018 13:17:17" size="7"/>
-  </Composition>
-  <Composition artist="Liz Phair" titre="Exile In Guyville" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1993" publishYear="1993" categorie="YEAR" rangeDateBegin="1993" rangeDateEnd="1993" sorted="true" classement="3" creationDate="05/01/2018 13:17:17" size="7"/>
-  </Composition>
-  <Composition artist="Pearl Jam" titre="Vs." type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1993" publishYear="1993" categorie="YEAR" rangeDateBegin="1993" rangeDateEnd="1993" sorted="true" classement="4" creationDate="05/01/2018 13:17:17" size="7"/>
-  </Composition>
-  <Composition artist="Dr. Dre" titre="The Chronic" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1993" publishYear="1993" categorie="YEAR" rangeDateBegin="1993" rangeDateEnd="1993" sorted="true" classement="5" creationDate="05/01/2018 13:17:17" size="7"/>
-  </Composition>
-  <Composition artist="PJ Harvey" titre="4-Track Demos" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1993" publishYear="1993" categorie="YEAR" rangeDateBegin="1993" rangeDateEnd="1993" sorted="true" classement="6" creationDate="05/01/2018 13:17:17" size="7"/>
-  </Composition>
-  <Composition artist="Urge Overkill" titre="Saturation" type="ALBUM" canBeMerged="true" deleted="false">
-    <File author="Rolling Stone" fileName="Rolling Stone - Album - 1993" publishYear="1993" categorie="YEAR" rangeDateBegin="1993" rangeDateEnd="1993" sorted="true" classement="7" creationDate="05/01/2018 13:17:17" size="7"/>
-  </Composition>
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="7"/>
+  </compo>
+  <compo A="U2" T="Zooropa" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="7"/>
+  </compo>
+  <compo A="Liz Phair" T="Exile In Guyville" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="7"/>
+  </compo>
+  <compo A="Pearl Jam" T="Vs." type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="7"/>
+  </compo>
+  <compo A="Dr. Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="7"/>
+  </compo>
+  <compo A="PJ Harvey" T="4-Track Demos" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="7"/>
+  </compo>
+  <compo A="Urge Overkill" T="Saturation" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="7"/>
+  </compo>
 </ListCompositions>
