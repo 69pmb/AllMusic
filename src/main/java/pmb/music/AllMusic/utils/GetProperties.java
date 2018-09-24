@@ -26,11 +26,12 @@ public class GetProperties {
 	 */
 	private GetProperties() {
 		LOG.debug("Start GetProperties");
-		try (InputStream input = new FileInputStream(Constant.CONFIG_PATH);) {
+		try (InputStream input = new FileInputStream(Constant.getConfigPath());) {
 			prop = new Properties();
 			prop.load(input);
 		} catch (IOException e) {
 			LOG.error("Erreur lors de l'import des properties: ", e);
+			java.lang.System.exit(0);
 		}
 		LOG.debug("End GetProperties");
 	}
