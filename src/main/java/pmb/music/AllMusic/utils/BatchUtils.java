@@ -234,9 +234,9 @@ public class BatchUtils {
 
 		List<String> authorList = OngletPanel.getAuthorList();
 		List<String> res = new ArrayList<>();
-		for (String author : authorList) {
+		authorList.parallelStream().forEach(author -> {
 			if (StringUtils.equalsIgnoreCase(author, "Divers")) {
-				continue;
+				return;
 			}
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
@@ -244,13 +244,13 @@ public class BatchUtils {
 					SearchUtils
 							.search(ImportXML.importXML(Constant.getFinalFilePath()), criteria, true,
 									SearchMethod.CONTAINS, false, false)
-							.stream().map(Composition::getFiles).flatMap(List::stream)
+							.parallelStream().map(Composition::getFiles).flatMap(List::stream)
 							.filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
 									|| !StringUtils.endsWithIgnoreCase(f.getFileName(),
 											" - " + String.valueOf(f.getPublishYear()))))
 							.map(f -> f.getFileName() + " # " + String.valueOf(f.getPublishYear())).distinct().sorted()
 							.collect(Collectors.toList()));
-		}
+		});
 		res.stream().forEach(f -> addLine(result, f, false));
 
 		LOG.debug("End findIncorrectFileNames");

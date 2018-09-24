@@ -671,7 +671,7 @@ public class FichierPanel extends JPanel {
 	private void searchAction() {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
-		fichiers = new ArrayList<Fichier>(ImportXML.importXML(Constant.getFinalFilePath()).stream().filter(c -> {
+		fichiers = new ArrayList<Fichier>(ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().filter(c -> {
 			if (StringUtils.isNotBlank(type.getSelectedItems())) {
 				return Arrays.asList(StringUtils.split(type.getSelectedItems(), ";")).stream()
 						.anyMatch((t -> c.getRecordType() == RecordType.getByValue(t)));
@@ -730,7 +730,7 @@ public class FichierPanel extends JPanel {
 					.collect(Collectors.toList());
 			List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 			// recover of all the files of the compositions
-			compo.stream().forEach(c -> {
+			compo.parallelStream().forEach(c -> {
 				Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, c.getFiles().get(0),
 						Optional.of(c.getArtist()), Optional.of(c.getTitre()));
 				if (findByFile.isPresent()) {
