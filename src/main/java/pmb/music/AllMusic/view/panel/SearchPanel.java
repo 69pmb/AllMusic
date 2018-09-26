@@ -285,8 +285,7 @@ public class SearchPanel extends JPanel {
 			List<String> c = Arrays
 					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
 							searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
-							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString(),
-							type.getSelectedItem() == null ? "" : type.getSelectedItem().toString(), titre.getText(),
+							cat.getSelectedItems(), type.getSelectedItems(), titre.getText(),
 							artist.getText(), author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
 							"Deleted:" + Boolean.toString(deleted.isSelected()),
 							"Top Ten:" + Boolean.toString(topTen.isSelected()))

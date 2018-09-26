@@ -249,7 +249,7 @@ public class ArtistPanel extends JPanel {
 			LOG.debug("Start Csv");
 			List<String> c = Arrays
 					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
-							cat.getSelectedItem() == null ? "" : cat.getSelectedItem().toString())
+							cat.getSelectedItems())
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
 			String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons",
