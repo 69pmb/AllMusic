@@ -69,7 +69,7 @@ public class CsvFile {
 				}
 			}
 		}
-		String name = filename + Constant.CSV_EXTENSION;
+		String name = Constant.getOutputDir() + filename + Constant.CSV_EXTENSION;
 		// Writing
 		try (CSVWriter csvWriter = new CSVWriter(
 				new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), ';',

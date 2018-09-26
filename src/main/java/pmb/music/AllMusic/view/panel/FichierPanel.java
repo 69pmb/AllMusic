@@ -757,7 +757,7 @@ public class FichierPanel extends JPanel {
 		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DELETED));
 		tableCompo.repaint();
 		((JScrollPane) tableCompo.getParent().getParent()).getVerticalScrollBar().setValue(0);
-		LOG.debug("Start updateCompoTable");
+		LOG.debug("End updateCompoTable");
 	}
 
 	private void resetAction() {

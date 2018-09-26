@@ -555,6 +555,9 @@ public class BatchUtils {
 		int size = files.size();
 		Map<String, List<Date>> list = new HashMap<String, List<Date>>();
 		for (File file : files) {
+			if(!StringUtils.endsWithIgnoreCase(file.getName(), Constant.XML_EXTENSION)) {
+				continue;
+			}
 			String nomFichier = StringUtils.substringBefore(file.getName(), Constant.SEPARATOR_DATE_HISTORY);
 			String date = StringUtils.substringBetween(file.getName(), Constant.SEPARATOR_DATE_HISTORY,
 					Constant.XML_EXTENSION);

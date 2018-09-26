@@ -28,7 +28,7 @@ public class Constant {
 	 */
 	public static String getOutputDir() {
 		String output = GetProperties.getProperty("output");
-		return StringUtils.isBlank(output) ? System.getProperty("user.dir") : output;
+		return StringUtils.isBlank(output) ? System.getProperty("user.dir") + FileUtils.FS : output + FileUtils.FS;
 	}
 
 	/**
@@ -36,23 +36,23 @@ public class Constant {
 	 */
 	public static String getResourcesDir() {
 		String resources = GetProperties.getProperty("resources");
-		return StringUtils.isBlank(resources) ? RESOURCES_DIRECTORY : resources;
+		return StringUtils.isBlank(resources) ? RESOURCES_DIRECTORY : resources + FileUtils.FS;
 	}
 
 	/**
 	 * Chemin abs du fichier de log.
 	 */
-	public static final String FILE_LOG_PATH = getOutputDir() + FileUtils.FS + "error.log";
+	public static final String FILE_LOG_PATH = System.getProperty("user.dir") + FileUtils.FS + "error.log";
 
-	public static final String MODIF_FILE_PATH = RESOURCES_DIRECTORY + FileUtils.FS + "modif.txt";
+	public static final String MODIF_FILE_PATH = RESOURCES_DIRECTORY + "modif.txt";
 
 	/**
 	 * Chemin abs du fichier de configuration.
 	 */
 	public static String getConfigPath() {
-		return RESOURCES_DIRECTORY + FileUtils.FS + "config.properties";
+		return RESOURCES_DIRECTORY + "config.properties";
 	}
-	
+
 	/**
 	 * @return Nom du fichier final.
 	 */

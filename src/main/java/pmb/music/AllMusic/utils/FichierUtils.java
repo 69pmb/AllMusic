@@ -263,6 +263,32 @@ public class FichierUtils {
 		LOG.debug("End openFileInNotepad");
 	}
 
+	/**
+	 * Ouvre le fichier donnée avec Excel si existe.
+	 * 
+	 * @param filePath le chemin absolu du fichier
+	 * @throws MyException something went wrong
+	 */
+	public static void openFileInExcel(Optional<String> filePath) throws MyException {
+		LOG.debug("Start openFileInExcel");
+		if (filePath.isPresent()) {
+			String absPath = filePath.get();
+			if (FileUtils.fileExists(absPath)) {
+				try {
+					String[] commands = new String[] { Constant.getExcelPath(), absPath };
+					Runtime.getRuntime().exec(commands);
+				} catch (IOException e) {
+					throw new MyException("Le chemin d'Excel dans le fichier de config est incorrect.", e);
+				}
+			} else {
+				throw new MyException("Le fichier: " + absPath + " n'existe pas.");
+			}
+		} else {
+			throw new MyException("Aucun fichier donné.");
+		}
+		LOG.debug("End openFileInExcel");
+	}
+
 	public static void copyFileInAnother(String source, String destination) throws IOException {
 		String line = "";
 		try (BufferedReader br = new BufferedReader(
