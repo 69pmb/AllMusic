@@ -15,7 +15,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -57,7 +56,9 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
@@ -257,9 +258,9 @@ public class ArtistPanel extends JPanel {
 			String name = CsvFile.exportCsv("artist", MiscUtils.convertVectorToList(model.getDataVector()),
 					table.getRowSorter().getSortKeys().get(0), csvHeader);
 			try {
-				Runtime.getRuntime().exec(Constant.getExcelPath() + name);
-			} catch (IOException e1) {
-				LOG.error("Impossible d'ouvrir excel: " + Constant.getExcelPath(), e1);
+				FichierUtils.openFileInExcel(Optional.of(name));
+			} catch (MyException e1) {
+				LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
 			}
 			LOG.debug("End Csv");
 		});

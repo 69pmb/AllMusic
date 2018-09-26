@@ -62,6 +62,7 @@ import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
@@ -285,8 +286,8 @@ public class SearchPanel extends JPanel {
 			List<String> c = Arrays
 					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
 							searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
-							cat.getSelectedItems(), type.getSelectedItems(), titre.getText(),
-							artist.getText(), author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
+							cat.getSelectedItems(), type.getSelectedItems(), titre.getText(), artist.getText(),
+							author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
 							"Deleted:" + Boolean.toString(deleted.isSelected()),
 							"Top Ten:" + Boolean.toString(topTen.isSelected()))
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
@@ -295,9 +296,9 @@ public class SearchPanel extends JPanel {
 			String name = CsvFile.exportCsv("search", MiscUtils.convertVectorToList(model.getDataVector()),
 					tableResult.getRowSorter().getSortKeys().get(0), csvHeader);
 			try {
-				Runtime.getRuntime().exec(Constant.getExcelPath() + name);
-			} catch (IOException e1) {
-				LOG.error("Impossible d'ouvrir excel: " + Constant.getExcelPath(), e1);
+				FichierUtils.openFileInExcel(Optional.of(name));
+			} catch (MyException e1) {
+				LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
 			}
 		});
 		top.add(csv);
