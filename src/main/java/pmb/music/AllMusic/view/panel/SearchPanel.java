@@ -119,6 +119,7 @@ public class SearchPanel extends JPanel {
 	private static final int INDEX_DELETED = 6;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
+	private SortOrder sortDeletedOrder = SortOrder.ASCENDING;
 
 	private final CompoSearchPanelModel model;
 	private Score score;
@@ -161,16 +162,7 @@ public class SearchPanel extends JPanel {
 		tableResult.setBorder(UIManager.getBorder("Label.border"));
 		model = new CompoSearchPanelModel(new Object[0][6], title);
 		tableResult.setModel(model);
-		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
-			@Override
-			public boolean isSortable(int column) {
-				if (column != INDEX_SELECTED)
-					return true;
-				else
-					return false;
-			};
-		};
-		tableResult.setRowSorter(sorter);
+		tableResult.setRowSorter(new TableRowSorter<TableModel>(model));
 		tableResult.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -201,8 +193,19 @@ public class SearchPanel extends JPanel {
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 					List<SortKey> sortKeys = e.getSource().getSortKeys();
 					if (!sortKeys.isEmpty()) {
-						sortedColumn = sortKeys.get(0).getColumn();
+						int column = sortKeys.get(0).getColumn();
 						sortOrder = sortKeys.get(0).getSortOrder();
+						if (column == INDEX_SELECTED) {
+							sortedColumn = INDEX_DELETED;
+							sortDeletedOrder = sortDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
+									: SortOrder.ASCENDING;
+							sortOrder = sortDeletedOrder;
+							tableResult.getRowSorter().setSortKeys(
+									Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
+						} else {
+							sortOrder = sortKeys.get(0).getSortOrder();
+							sortedColumn = column;
+						}
 					}
 				}
 			}

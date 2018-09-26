@@ -139,6 +139,7 @@ public class FichierPanel extends JPanel {
 	private boolean showCompoTable = true;
 	private Integer sortedCompoColumn;
 	private SortOrder sortCompoOrder;
+	private SortOrder sortCompoDeletedOrder = SortOrder.ASCENDING;
 	private int selectedCompoRow = -1;
 
 	private Dimension parentSize;
@@ -415,16 +416,7 @@ public class FichierPanel extends JPanel {
 		tableCompo.setBorder(UIManager.getBorder("Label.border"));
 		compoModel = new CompoFichierPanelModel(new Object[0][6], headerCompo);
 		tableCompo.setModel(compoModel);
-		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(compoModel) {
-			@Override
-			public boolean isSortable(int column) {
-				if (column != INDEX_COMPO_SELECTED)
-					return true;
-				else
-					return false;
-			};
-		};
-		tableCompo.setRowSorter(sorter);
+		tableCompo.setRowSorter(new TableRowSorter<TableModel>(compoModel));
 		tableCompo.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -455,8 +447,18 @@ public class FichierPanel extends JPanel {
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 					List<SortKey> sortKeys = e.getSource().getSortKeys();
 					if (!sortKeys.isEmpty()) {
-						sortedCompoColumn = sortKeys.get(0).getColumn();
-						sortCompoOrder = sortKeys.get(0).getSortOrder();
+						int column = sortKeys.get(0).getColumn();
+						if (column == INDEX_COMPO_SELECTED) {
+							sortedCompoColumn = INDEX_COMPO_DELETED;
+							sortCompoDeletedOrder = sortCompoDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
+									: SortOrder.ASCENDING;
+							sortCompoOrder = sortCompoDeletedOrder;
+							tableCompo.getRowSorter().setSortKeys(Collections
+									.singletonList(new RowSorter.SortKey(sortedCompoColumn, sortCompoDeletedOrder)));
+						} else {
+							sortCompoOrder = sortKeys.get(0).getSortOrder();
+							sortedCompoColumn = column;
+						}
 					}
 				}
 			}
@@ -671,15 +673,16 @@ public class FichierPanel extends JPanel {
 	private void searchAction() {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
-		fichiers = new ArrayList<Fichier>(ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().filter(c -> {
-			if (StringUtils.isNotBlank(type.getSelectedItems())) {
-				return Arrays.asList(StringUtils.split(type.getSelectedItems(), ";")).stream()
-						.anyMatch((t -> c.getRecordType() == RecordType.getByValue(t)));
-			} else {
-				return true;
-			}
-		}).map(Composition::getFiles).flatMap(List::stream)
-				.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
+		fichiers = new ArrayList<Fichier>(
+				ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().filter(c -> {
+					if (StringUtils.isNotBlank(type.getSelectedItems())) {
+						return Arrays.asList(StringUtils.split(type.getSelectedItems(), ";")).stream()
+								.anyMatch((t -> c.getRecordType() == RecordType.getByValue(t)));
+					} else {
+						return true;
+					}
+				}).map(Composition::getFiles).flatMap(List::stream)
+						.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
 		if (CollectionUtils.isNotEmpty(fichiers)) {
 			CollectionUtils.filter(fichiers,
 					(Object f) -> SearchUtils.filterFichier(SearchMethod.CONTAINS, new JaroWinklerDistance(),
