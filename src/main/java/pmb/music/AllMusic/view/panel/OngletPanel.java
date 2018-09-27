@@ -39,6 +39,7 @@ public class OngletPanel extends JPanel {
 	private static final Logger LOG = Logger.getLogger(OngletPanel.class);
 	private JTabbedPane onglets;
 	private static int index;
+	private static Score score;
 
 	/**
 	 * Génère les onglets.
@@ -54,14 +55,14 @@ public class OngletPanel extends JPanel {
 		dim.height = 92 * dim.height / 100;
 		dim.width = dim.width - 30;
 		onglets.setPreferredSize(dim);
-		Score score = initStats();
+		initStats();
 
 		ArtistPanel artist = new ArtistPanel(withArtist);
 		ImportPanel importFile = new ImportPanel(artist);
 		List<String> authorList = getAuthorList();
-		SearchPanel search = new SearchPanel(artist, getArtistList(), getTitleList(), authorList, score);
-		FichierPanel fichier = new FichierPanel(score);
-		BatchPanel batch = new BatchPanel(score);
+		SearchPanel search = new SearchPanel(artist, getArtistList(), getTitleList(), authorList);
+		FichierPanel fichier = new FichierPanel();
+		BatchPanel batch = new BatchPanel();
 
 		onglets.addTab(Constant.ONGLET_SEARCH, search);
 		if (withArtist) {
@@ -109,15 +110,14 @@ public class OngletPanel extends JPanel {
 	/**
 	 * Calculates the constants of {@link Score}.
 	 * 
-	 * @return the score initialized
 	 */
-	private Score initStats() {
+	public void initStats() {
 		Score stats = new Score();
 		stats.setLogMaxAlbum(CompositionUtils.getLogMax(RecordType.ALBUM));
 		stats.setLogMaxSong(CompositionUtils.getLogMax(RecordType.SONG));
 		stats.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(RecordType.ALBUM));
 		stats.setDoubleMedianSong(CompositionUtils.getDoubleMedian(RecordType.SONG));
-		return stats;
+		OngletPanel.score = stats;
 	}
 
 	public static List<String> getArtistList() {
@@ -170,5 +170,9 @@ public class OngletPanel extends JPanel {
 
 	public void setOnglets(JTabbedPane onglets) {
 		this.onglets = onglets;
+	}
+
+	public static Score getScore() {
+		return score;
 	}
 }
