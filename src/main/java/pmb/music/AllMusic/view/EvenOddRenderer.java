@@ -86,12 +86,18 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		if (isSelected) {
 			setBorder(new MatteBorder(1, 0, 1, 0, Color.black));
 		}
+		Boolean rowDeleted = null;
+		if (deletedIndex != null) {
+			// If display row with deleted rows
+		 rowDeleted = Boolean.valueOf(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
+					.get(table.getRowSorter().convertRowIndexToModel(row))).get(deletedIndex));
+		}
 
 		if (typeIndex != null) {
 			// If display a row with record type
 			RecordType type = RecordType.getByValue(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
 					.get(table.getRowSorter().convertRowIndexToModel(row))).get(typeIndex));
-			if (type.getRecordType().equals(value)) {
+			if (type.getRecordType().equals(value) && !rowDeleted) {
 				// only the record type cell is colored
 				renderer.setForeground(type == RecordType.ALBUM ? YELLOW : type == RecordType.SONG ? RED : PURPLE);
 				background = isSelected ? DARK_BLUE : row % 2 == 0 ? GRAY : BLUE;
@@ -101,8 +107,6 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		}
 		if (deletedIndex != null) {
 			// If display row with deleted rows
-			Boolean rowDeleted = Boolean.valueOf(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
-					.get(table.getRowSorter().convertRowIndexToModel(row))).get(deletedIndex));
 			if (isSelected) {
 				// If the row is selected
 				if (rowDeleted) {
