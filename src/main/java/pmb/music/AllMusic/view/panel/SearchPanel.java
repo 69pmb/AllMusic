@@ -519,7 +519,7 @@ public class SearchPanel extends JPanel {
 		model.setDataVector(
 				CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, score),
 				new Vector<>(Arrays.asList(title)));
-		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED);
+		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE);
 		countLabel.setText(compoResult.size() + " résultats");
 		model.fireTableDataChanged();
 		if (sortedColumn == null) {
