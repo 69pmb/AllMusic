@@ -10,6 +10,8 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -133,6 +135,20 @@ public class ArtistPanel extends JPanel {
 		PanelUtils.setSize(rangeLabel, 180, PanelUtils.COMPONENT_HEIGHT);
 		rangeB = new MyInputText(JTextField.class, 90);
 		rangeE = new MyInputText(JTextField.class, 90);
+		rangeE.addFocusListener(new FocusListener() {
+			@Override
+			public void focusLost(FocusEvent e) {
+			}
+
+			@Override
+			public void focusGained(FocusEvent e) {
+				JTextField source = (JTextField) e.getSource();
+				if (StringUtils.isBlank(source.getText()) && StringUtils.isNotBlank(rangeB.getText())) {
+					source.setText(rangeB.getText());
+					source.selectAll();
+				}
+			}
+		});
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeB);
 		rangePanel.add(rangeE);
