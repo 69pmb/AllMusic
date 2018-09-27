@@ -725,7 +725,7 @@ public class FichierPanel extends JPanel {
 		fichieModel.setRowCount(0);
 		fichieModel.setDataVector(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false),
 				new Vector<>(Arrays.asList(headerFiles)));
-		PanelUtils.colRenderer(tableFiles, true, null);
+		PanelUtils.colRenderer(tableFiles, true, null, null);
 		fichieModel.fireTableDataChanged();
 		if (sortedFichierColumn == null) {
 			sortedFichierColumn = INDEX_FILE_FILE_NAME;
@@ -771,7 +771,7 @@ public class FichierPanel extends JPanel {
 		} else {
 			compoModel.setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
 		}
-		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED);
+		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED, INDEX_COMPO_TYPE);
 		compoModel.fireTableDataChanged();
 		if (sortedCompoColumn == null) {
 			sortedCompoColumn = INDEX_COMPO_RANK;

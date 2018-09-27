@@ -60,6 +60,7 @@ public class DialogFileTable extends JDialog {
 
 	public static final int INDEX_ARTIST = 0;
 	public static final int INDEX_TITLE = 1;
+	public static final int INDEX_TYPE = 2;
 	public static final int INDEX_DELETED = 3;
 	public static final int INDEX_AUTEUR = 4;
 	public static final int INDEX_FILE_NAME = 5;
@@ -124,7 +125,7 @@ public class DialogFileTable extends JDialog {
 			this.dispose();
 		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
-		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED);
+		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE);
 		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
 
 		this.setLayout(new BorderLayout());

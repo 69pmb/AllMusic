@@ -237,7 +237,7 @@ public class ArtistPanel extends JPanel {
 				}
 			}
 		});
-		PanelUtils.colRenderer(table, false, null);
+		PanelUtils.colRenderer(table, false, null, null);
 
 		updateArtistPanel();
 
@@ -355,7 +355,7 @@ public class ArtistPanel extends JPanel {
 		model.setRowCount(0);
 		model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee),
 				new Vector<>(Arrays.asList(title)));
-		PanelUtils.colRenderer(table, true, null);
+		PanelUtils.colRenderer(table, true, null, null);
 		model.fireTableDataChanged();
 		if (sortedColumn == null) {
 			sortedColumn = INDEX_NB_TOTAL;
