@@ -140,6 +140,8 @@ public class Constant {
 	private final SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
 	private final SimpleDateFormat sdfHistory = new SimpleDateFormat("dd-MM-yyyy HH-mm");
+	
+	private final SimpleDateFormat sdfDate = new SimpleDateFormat("dd/MM/yyyy");
 
 	public static final String ONGLET_IMPORT = "Import";
 
@@ -242,6 +244,10 @@ public class Constant {
 
 	public SimpleDateFormat getSdfHistory() {
 		return sdfHistory;
+	}
+
+	public SimpleDateFormat getSdfDate() {
+		return sdfDate;
 	}
 
 	public static String[] getSeparators() {

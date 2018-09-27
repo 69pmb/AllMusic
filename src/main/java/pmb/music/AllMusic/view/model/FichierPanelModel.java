@@ -9,6 +9,7 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
+import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
 /**
@@ -51,6 +52,15 @@ public class FichierPanelModel extends AbstractModel {
 			return Double.class;
 		} else {
 			return String.class;
+		}
+	}
+
+	@Override
+	public Object getValueAt(int rowIndex, int columnIndex) {
+		if (columnIndex != FichierPanel.INDEX_CREATE_DATE) {
+			return super.getValueAt(rowIndex, columnIndex);
+		} else {
+			return new Constant().getSdfDate().format(super.getValueAt(rowIndex, columnIndex));
 		}
 	}
 
