@@ -240,7 +240,7 @@ public class ImportPanel extends JPanel {
 		insertFirstLine();
 		insertSecondLine();
 		insertThirdLine();
-		insertFourthLine();
+		insertResultPanel();
 	}
 
 	private void insertFirstLine() {
@@ -329,6 +329,8 @@ public class ImportPanel extends JPanel {
 		rangeE = new JTextField();
 		rangeB.setPreferredSize(new Dimension(100, PanelUtils.COMPONENT_HEIGHT));
 		rangeE.setPreferredSize(new Dimension(100, PanelUtils.COMPONENT_HEIGHT));
+		rangeB.addFocusListener(PanelUtils.selectAll);
+		rangeE.addFocusListener(PanelUtils.selectAll);
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeB);
 		rangePanel.add(rangeE);
@@ -367,6 +369,7 @@ public class ImportPanel extends JPanel {
 		JLabel publiLabel = new JLabel("Année de publication : ");
 		publi = new JTextField();
 		publi.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		publi.addFocusListener(PanelUtils.selectAll);
 		publiPanel.add(publiLabel);
 		publiPanel.add(publi);
 		secondLine.add(publiPanel);
@@ -377,6 +380,7 @@ public class ImportPanel extends JPanel {
 		JLabel sizeLabel = new JLabel("Taille : ");
 		size = new JTextField();
 		size.setPreferredSize(new Dimension(180, PanelUtils.COMPONENT_HEIGHT));
+		size.addFocusListener(PanelUtils.selectAll);
 		sizePanel.add(sizeLabel);
 		sizePanel.add(size);
 		secondLine.add(sizePanel);
@@ -398,6 +402,7 @@ public class ImportPanel extends JPanel {
 		JLabel separatorLabel = new JLabel("Séparateur trouvé: ");
 		separator = new JTextField();
 		separator.setPreferredSize(new Dimension(20, PanelUtils.COMPONENT_HEIGHT));
+		separator.addFocusListener(PanelUtils.selectAll);
 		separatorPanel.add(separatorLabel);
 		separatorPanel.add(separator);
 		secondLine.add(separatorPanel);
@@ -516,27 +521,8 @@ public class ImportPanel extends JPanel {
 		this.add(thirdLine);
 	}
 	
-	private void insertFourthLine() {
+	private void insertResultPanel() {
 		JPanel fourthLine = new JPanel(new GridLayout(0, 1));
-
-		FocusListener selectAll = new FocusListener() {
-
-			@Override
-			public void focusLost(FocusEvent e) {
-				// Nothing to do
-			}
-
-			@Override
-			public void focusGained(FocusEvent e) {
-				JTextField source = (JTextField) e.getSource();
-				source.selectAll();
-			}
-		};
-		rangeB.addFocusListener(selectAll);
-		rangeE.addFocusListener(selectAll);
-		publi.addFocusListener(selectAll);
-		size.addFocusListener(selectAll);
-		separator.addFocusListener(selectAll);
 
 		// result
 		JPanel resultPanel = new JPanel(new BorderLayout());
