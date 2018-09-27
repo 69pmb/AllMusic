@@ -63,6 +63,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
+import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -109,6 +110,7 @@ public class FichierPanel extends JPanel {
 	// Search components
 	private MyInputText auteur;
 	private MyInputText name;
+	private JComboBox<String> searchRange;
 	private MyInputText publi;
 	private JTextField rangeB;
 	private JTextField rangeE;
@@ -208,9 +210,13 @@ public class FichierPanel extends JPanel {
 		header.add(namePanel);
 		// Publi
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 150);
+		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 230);
 		publi = new MyInputText(JTextField.class, 150);
+		searchRange = new JComboBox<String>(
+				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
+		searchRange.setPreferredSize(new Dimension(45, PanelUtils.COMPONENT_HEIGHT));
 		publiPanel.add(publiLabel);
+		publiPanel.add(searchRange);
 		publiPanel.add(publi);
 		header.add(publiPanel);
 		// Range
@@ -702,8 +708,9 @@ public class FichierPanel extends JPanel {
 		if (CollectionUtils.isNotEmpty(fichiers)) {
 			CollectionUtils.filter(fichiers,
 					(Object f) -> SearchUtils.filterFichier(SearchMethod.CONTAINS, new JaroWinklerDistance(),
-							publi.getText(), name.getText(), auteur.getText(), cat.getSelectedItems(), rangeB.getText(),
-							rangeE.getText(), sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f));
+							publi.getText(), (String) searchRange.getSelectedItem(), name.getText(), auteur.getText(),
+							cat.getSelectedItems(), rangeB.getText(), rangeE.getText(),
+							sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f));
 			updateFileTable();
 		}
 		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");
