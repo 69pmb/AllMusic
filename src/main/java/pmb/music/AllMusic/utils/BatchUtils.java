@@ -50,6 +50,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
+import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
@@ -555,7 +556,7 @@ public class BatchUtils {
 		int size = files.size();
 		Map<String, List<Date>> list = new HashMap<String, List<Date>>();
 		for (File file : files) {
-			if(!StringUtils.endsWithIgnoreCase(file.getName(), Constant.XML_EXTENSION)) {
+			if (!StringUtils.endsWithIgnoreCase(file.getName(), Constant.XML_EXTENSION)) {
 				continue;
 			}
 			String nomFichier = StringUtils.substringBefore(file.getName(), Constant.SEPARATOR_DATE_HISTORY);
@@ -708,6 +709,7 @@ public class BatchUtils {
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, String.valueOf(year));
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, SearchRange.EQUAL.getValue());
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
 			List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false,
 					false);

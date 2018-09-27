@@ -62,6 +62,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
+import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -92,6 +93,7 @@ public class SearchPanel extends JPanel {
 
 	private JButton search;
 
+	private JComboBox<String> searchRange;
 	private MyInputText publi;
 	private JTextField rangeB;
 	private JTextField rangeE;
@@ -363,11 +365,8 @@ public class SearchPanel extends JPanel {
 		// SearchMethod
 		JPanel searchMethodPanel = new JPanel();
 		JLabel searchMethodLabel = PanelUtils.createJLabel("Méthode de recherche : ", 150);
-		searchMethod = new JComboBox<>();
-		SearchMethod[] valuesSearch = SearchMethod.values();
-		for (int i = 0; i < valuesSearch.length; i++) {
-			searchMethod.addItem(valuesSearch[i].getValue());
-		}
+		searchMethod = new JComboBox<>(
+				Arrays.asList(SearchMethod.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
 		searchMethod.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		searchMethodPanel.add(searchMethodLabel);
 		searchMethodPanel.add(searchMethod);
@@ -421,9 +420,13 @@ public class SearchPanel extends JPanel {
 
 		// Publi
 		JPanel publiPanel = new JPanel();
-		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 200);
+		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 240);
 		publi = new MyInputText(JTextField.class, 150);
+		searchRange = new JComboBox<String>(
+				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
+		searchRange.setPreferredSize(new Dimension(45, PanelUtils.COMPONENT_HEIGHT));
 		publiPanel.add(publiLabel);
+		publiPanel.add(searchRange);
 		publiPanel.add(publi);
 		searchFields.add(publiPanel);
 
@@ -490,6 +493,7 @@ public class SearchPanel extends JPanel {
 			criteria.put(SearchUtils.CRITERIA_TITRE, titre.getText());
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.getSelectedItems());
 			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, (String) searchRange.getSelectedItem());
 			criteria.put(SearchUtils.CRITERIA_FILENAME, fileName.getText());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getText());
 			criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
