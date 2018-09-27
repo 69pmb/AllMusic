@@ -9,6 +9,8 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -386,6 +388,20 @@ public class SearchPanel extends JPanel {
 		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 200);
 		rangeB = new JTextField();
 		rangeE = new JTextField();
+		rangeE.addFocusListener(new FocusListener() {
+			@Override
+			public void focusLost(FocusEvent e) {
+			}
+
+			@Override
+			public void focusGained(FocusEvent e) {
+				JTextField source = (JTextField) e.getSource();
+				if (StringUtils.isBlank(source.getText()) && StringUtils.isNotBlank(rangeB.getText())) {
+					source.setText(rangeB.getText());
+					source.selectAll();
+				}
+			}
+		});
 		PanelUtils.setSize(rangeB, 100, PanelUtils.COMPONENT_HEIGHT);
 		PanelUtils.setSize(rangeE, 100, PanelUtils.COMPONENT_HEIGHT);
 		rangePanel.add(rangeLabel);
