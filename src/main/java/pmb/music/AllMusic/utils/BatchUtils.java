@@ -260,11 +260,14 @@ public class BatchUtils {
 
 	private static void titleSlash(List<Composition> importXML, StringBuilder result) {
 		addLine(result, "## Title Slash: ", true);
-		importXML.stream().forEach(c -> {
-			if (StringUtils.contains(c.getTitre(), "/")) {
-				addLine(result, c.getArtist() + " - " + c.getTitre(), false);
+		importXML.stream().map(c -> {
+			if (c.getFiles().size() == 1 && StringUtils.contains(c.getTitre(), "/")) {
+				return c.getArtist() + " - " + c.getTitre();
+			} else {
+				return "";
 			}
-		});
+		}).distinct().filter(line -> StringUtils.isNotBlank(line)).sorted()
+				.forEach(line -> addLine(result, line, false));
 	}
 
 	private static void similarTitle(StringBuilder result) {
