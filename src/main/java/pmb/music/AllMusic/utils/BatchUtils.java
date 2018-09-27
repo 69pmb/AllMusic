@@ -48,7 +48,6 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
-import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.view.panel.BatchPanel;
@@ -521,7 +520,7 @@ public class BatchUtils {
 		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
-	public static String topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit, Score score) {
+	public static String topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit) {
 		LOG.debug("Start topYear");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Top Year: ", true);
@@ -531,10 +530,10 @@ public class BatchUtils {
 		addLine(text, "Song Limit: " + songLimit, true);
 
 		for (int i = yearBegin; i <= yearEnd; i++) {
-			topYear(i, albumLimit, songLimit, text, score);
+			topYear(i, albumLimit, songLimit, text);
 		}
 		if (yearBegin == 0 && yearEnd == 0) {
-			topYear(0, albumLimit, songLimit, text, score);
+			topYear(0, albumLimit, songLimit, text);
 		}
 
 		LOG.debug("End topYear");
@@ -800,14 +799,14 @@ public class BatchUtils {
 	/**
 	 * Generates the top excel files of a year.
 	 */
-	private static void topYear(int yearTop, int albumLimit, int songLimit, StringBuilder result, Score score) {
+	private static void topYear(int yearTop, int albumLimit, int songLimit, StringBuilder result) {
 		LOG.debug("Start topYear");
 		List<String> files = new ArrayList<>();
 		String year = String.valueOf(yearTop);
 		addLine(result, "Year: " + year, true);
 		files.add(topOccurence(year));
-		files.add(topRecords(RecordType.SONG, "Top Songs", songLimit, year, score));
-		files.add(topRecords(RecordType.ALBUM, "Top Albums", albumLimit, year, score));
+		files.add(topRecords(RecordType.SONG, "Top Songs", songLimit, year));
+		files.add(topRecords(RecordType.ALBUM, "Top Albums", albumLimit, year));
 		files.add(topRecordsByPoints(RecordType.SONG, "Points Songs", year));
 		files.add(topRecordsByPoints(RecordType.ALBUM, "Points Albums", year));
 		files.add(topSongsParPublication(year));
@@ -909,7 +908,7 @@ public class BatchUtils {
 	 * @param year the year of the top
 	 * @param score
 	 */
-	private static String topRecords(RecordType type, String fileName, int limit, String year, Score score) {
+	private static String topRecords(RecordType type, String fileName, int limit, String year) {
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
@@ -920,7 +919,7 @@ public class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
-				.convertCompositionListToVector(yearList, null, false, true, false, score).stream()
+				.convertCompositionListToVector(yearList, null, false, true, false, true).stream()
 				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {

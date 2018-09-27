@@ -60,7 +60,6 @@ import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.RecordType;
-import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
@@ -126,7 +125,6 @@ public class SearchPanel extends JPanel {
 	private SortOrder sortDeletedOrder = SortOrder.ASCENDING;
 
 	private final CompoSearchPanelModel model;
-	private Score score;
 	private int selectedRow = -1;
 
 	/**
@@ -136,13 +134,11 @@ public class SearchPanel extends JPanel {
 	 * @param artistList
 	 * @param titleList
 	 * @param authorList
-	 * @param score
 	 */
 	public SearchPanel(final ArtistPanel artist2, List<String> artistList, List<String> titleList,
-			List<String> authorList, Score score) {
+			List<String> authorList) {
 		super();
 		LOG.debug("Start SearchPanel");
-		this.score = score;
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
 		JPanel header = new JPanel();
@@ -518,7 +514,7 @@ public class SearchPanel extends JPanel {
 		LOG.debug("Start updateTable");
 		model.setRowCount(0);
 		model.setDataVector(
-				CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, score),
+				CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, true),
 				new Vector<>(Arrays.asList(title)));
 		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE);
 		countLabel.setText(compoResult.size() + " résultats");
