@@ -146,7 +146,6 @@ public class FichierPanel extends JPanel {
 	private int selectedCompoRow = -1;
 
 	private Dimension parentSize;
-	private Score score;
 
 	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
 			"Dates", "Supprimés", "Date de création", "Taille", "Classé" };
