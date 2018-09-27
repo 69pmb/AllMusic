@@ -26,6 +26,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
  * Classe utilitaire pour les {@link Composition}.
@@ -161,12 +162,12 @@ public class CompositionUtils {
 	 * @param displayClassement si on affiche le classement de la composition
 	 * @param displayFileSize si on affiche le nombre de fichiers de la composition
 	 * @param addBoolean si on ajoute une colonne de boolean remplie à false
-	 * @param score {@link Score} constants to calculate the composition score
+	 * @param score boolean if true, calculates the composition score
 	 * @return {@code Vector<Vector<Object>>} la liste de vecteur convertie
 	 */
 	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList,
 			List<Fichier> fichier, boolean displayClassement, boolean displayFileSize, boolean addBoolean,
-			Score score) {
+			boolean score) {
 		LOG.debug("Start convertCompositionListToVector");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		if (compoList == null || compoList.isEmpty()) {
@@ -189,9 +190,9 @@ public class CompositionUtils {
 			if (displayFileSize) {
 				v.addElement(composition.getFiles().size());
 			}
-			if (score != null) {
-				v.addElement(calculateCompositionScore(score.getLogMax(composition.getRecordType()),
-						score.getDoubleMedian(composition.getRecordType()), composition));
+			if (score) {
+				v.addElement(calculateCompositionScore(OngletPanel.getScore().getLogMax(composition.getRecordType()),
+						OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition));
 			}
 			if (addBoolean) {
 				v.addElement(new Boolean(false));

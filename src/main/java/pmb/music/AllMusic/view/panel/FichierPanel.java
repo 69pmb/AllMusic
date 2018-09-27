@@ -61,7 +61,6 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
-import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
@@ -157,13 +156,11 @@ public class FichierPanel extends JPanel {
 	/**
 	 * Constructeur de {@link FichierPanel}.
 	 * 
-	 * @param score
 	 */
-	public FichierPanel(Score score) {
+	public FichierPanel() {
 		super();
 		LOG.debug("Start FichierPanel");
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-		this.score = score;
 
 		LOG.debug("End FichierPanel");
 	}
@@ -766,7 +763,7 @@ public class FichierPanel extends JPanel {
 				}
 			});
 			compoModel.setDataVector(
-					CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, score),
+					CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, true),
 					new Vector<>(Arrays.asList(headerCompo)));
 		} else {
 			compoModel.setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
