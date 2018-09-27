@@ -71,71 +71,71 @@ public class ImportPanel extends JPanel {
 
 	private static final Logger LOG = Logger.getLogger(ImportPanel.class);
 
-	private final JTextField author;
-	private final JTextField publi;
-	private final JTextField rangeB;
-	private final JTextField rangeE;
-	private final JTextField size;
-	private final JTextField name;
-	private final JTextField date;
+	private JTextField author;
+	private JTextField publi;
+	private JTextField rangeB;
+	private JTextField rangeE;
+	private JTextField size;
+	private JTextField name;
+	private JTextField date;
 	/**
 	 * Random line.
 	 */
-	private final JTextField line;
-	private final JTextField separator;
-	private final JTextField firstL1;
-	private final JTextField firstL2;
-	private final JTextField firstL3;
-	private final JTextField lastL1;
-	private final JTextField lastL2;
+	private JTextField line;
+	private JTextField separator;
+	private JTextField firstL1;
+	private JTextField firstL2;
+	private JTextField firstL3;
+	private JTextField lastL1;
+	private JTextField lastL2;
 	/**
 	 * String to remove from import file.
 	 */
-	private final JTextField characterToRemove;
+	private JTextField characterToRemove;
 
-	private final JTextArea resultLabel = new JTextArea();
+	private JTextArea resultLabel = new JTextArea();
 
 	private File file;
 	private File xmlFile;
 
-	private final JComboBox<Cat> cat;
+	private JComboBox<Cat> cat;
 
-	private final JComboBox<RecordType> type;
+	private JComboBox<RecordType> type;
 
 	private Fichier fichier;
 
 	private String absolutePathFileTxt;
 	private String absolutePathFileXml;
 
-	private final JCheckBox sorted;
+	private JCheckBox sorted;
 	/**
 	 * Si l'artist est en 1er, puis le titre.
 	 */
-	private final JCheckBox order;
+	private JCheckBox order;
 	/**
 	 * Si le nom et prénom de l'artist sont inversés. Ex: Young, Neil.
 	 */
-	private final JCheckBox reverseArtist;
+	private JCheckBox reverseArtist;
 	/**
 	 * Doit on supprimer lors de l'import des parenthèses.
 	 */
-	private final JCheckBox removeParenthese;
+	private JCheckBox removeParenthese;
 	/**
 	 * Pas de séparateur mais artist en majuscule ?
 	 */
-	private final JCheckBox upper;
+	private JCheckBox upper;
 	/**
 	 * 2 séparateurs, suppression du dernier.
 	 */
-	private final JCheckBox removeAfter;
+	private JCheckBox removeAfter;
 	/**
 	 * Si le characterToRemove est à supprimer au debut ou à la fin de la ligne.
 	 */
-	private final JCheckBox isBefore;
+	private JCheckBox isBefore;
 	/**
 	 * Utilise-t-on le dossier du fichier à mettre en forme.
 	 */
-	private final JCheckBox isCompleteDirectory;
+	private JCheckBox isCompleteDirectory;
 
 	private RecordType determineType;
 
@@ -182,7 +182,69 @@ public class ImportPanel extends JPanel {
 
 		// Insert les boutons du hauts
 		insertTopPanel();
+		// Insert tous les inputs
+		insertInputs();
+		// Insert les boutons du bas
+		insertBottomPanel(artist);
 
+		LOG.debug("End ImportPanel");
+	}
+
+	/**
+	 * Ajoute les boutons en haut de l'écran.
+	 */
+	private void insertTopPanel() {
+		JPanel top = new JPanel();
+		JButton browse = PanelUtils.createJButton("Parcourir", 220, Constant.ICON_FOLDER);
+		browse.setToolTipText("Charge un fichier texte contenant des musiques.");
+		browse.addActionListener((ActionEvent arg0) -> {
+			LOG.debug("Start browse");
+			file = addBrowsingFile("txt", explorePath);
+			if (file != null) {
+				loadFile();
+			}
+			LOG.debug("End browse");
+		});
+		top.add(browse);
+
+		// Reset
+		JButton cleanBtn = PanelUtils.createJButton("Reset", 220, Constant.ICON_ERASE);
+		cleanBtn.setToolTipText("Remet à zéro tous les champs.");
+		cleanBtn.addActionListener((ActionEvent arg0) -> resetAll());
+		top.add(cleanBtn);
+
+		// Reload
+		JButton reloadBtn = PanelUtils.createJButton("Reload", 220, Constant.ICON_REFRESH);
+		reloadBtn.setToolTipText(
+				"Relance le chargement du fichier chargé précédemment. Utile si il a été modifié entre temps.");
+		reloadBtn.addActionListener((ActionEvent arg0) -> loadFile());
+		top.add(reloadBtn);
+
+		// Open Xml file
+		JButton open = PanelUtils.createJButton("Charger un fichier XML", 220, Constant.ICON_FILE);
+		open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
+		open.addActionListener((ActionEvent arg0) -> {
+			LOG.debug("Start open");
+			xmlFile = addBrowsingFile("xml", Constant.getXmlPath());
+			if (xmlFile != null) {
+				absolutePathFileXml = xmlFile.getAbsolutePath();
+			}
+			LOG.debug("End open");
+		});
+		top.add(open);
+
+		top.setBorder(BorderFactory.createTitledBorder(""));
+		this.add(top);
+	}
+
+	private void insertInputs() {
+		insertFirstLine();
+		insertSecondLine();
+		insertThirdLine();
+		insertFourthLine();
+	}
+
+	private void insertFirstLine() {
 		JPanel firstLine = new JPanel();
 
 		// Nom du fichier
@@ -295,6 +357,9 @@ public class ImportPanel extends JPanel {
 		firstLine.add(orderPanel);
 
 		this.add(firstLine);
+	}
+
+	private void insertSecondLine() {
 		JPanel secondLine = new JPanel();
 
 		// Publi
@@ -355,6 +420,9 @@ public class ImportPanel extends JPanel {
 		secondLine.add(firstLinesPanel);
 
 		this.add(secondLine);
+	}
+
+	private void insertThirdLine() {
 		JPanel thirdLine = new JPanel();
 
 		// lastLines
@@ -447,6 +515,9 @@ public class ImportPanel extends JPanel {
 		thirdLine.add(cleanBtnPanel);
 
 		this.add(thirdLine);
+	}
+	
+	private void insertFourthLine() {
 		JPanel fourthLine = new JPanel(new GridLayout(0, 1));
 
 		FocusListener selectAll = new FocusListener() {
@@ -479,13 +550,7 @@ public class ImportPanel extends JPanel {
 		resultLabel.setBorder(UIManager.getBorder("Label.border"));
 		resultPanel.add(new JScrollPane(resultLabel), BorderLayout.CENTER);
 		fourthLine.add(resultPanel);
-
 		this.add(fourthLine);
-
-		// Insert les boutons du bas
-		insertBottomPanel(artist);
-
-		LOG.debug("End ImportPanel");
 	}
 
 	/**
@@ -558,54 +623,7 @@ public class ImportPanel extends JPanel {
 		bottom.setBorder(BorderFactory.createTitledBorder(""));
 		this.add(bottom);
 	}
-
-	/**
-	 * Ajoute les boutons en haut de l'écran.
-	 */
-	private void insertTopPanel() {
-		JPanel top = new JPanel();
-		JButton browse = PanelUtils.createJButton("Parcourir", 220, Constant.ICON_FOLDER);
-		browse.setToolTipText("Charge un fichier texte contenant des musiques.");
-		browse.addActionListener((ActionEvent arg0) -> {
-			LOG.debug("Start browse");
-			file = addBrowsingFile("txt", explorePath);
-			if (file != null) {
-				loadFile();
-			}
-			LOG.debug("End browse");
-		});
-		top.add(browse);
-
-		// Reset
-		JButton cleanBtn = PanelUtils.createJButton("Reset", 220, Constant.ICON_ERASE);
-		cleanBtn.setToolTipText("Remet à zéro tous les champs.");
-		cleanBtn.addActionListener((ActionEvent arg0) -> resetAll());
-		top.add(cleanBtn);
-
-		// Reload
-		JButton reloadBtn = PanelUtils.createJButton("Reload", 220, Constant.ICON_REFRESH);
-		reloadBtn.setToolTipText(
-				"Relance le chargement du fichier chargé précédemment. Utile si il a été modifié entre temps.");
-		reloadBtn.addActionListener((ActionEvent arg0) -> loadFile());
-		top.add(reloadBtn);
-
-		// Open Xml file
-		JButton open = PanelUtils.createJButton("Charger un fichier XML", 220, Constant.ICON_FILE);
-		open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
-		open.addActionListener((ActionEvent arg0) -> {
-			LOG.debug("Start open");
-			xmlFile = addBrowsingFile("xml", Constant.getXmlPath());
-			if (xmlFile != null) {
-				absolutePathFileXml = xmlFile.getAbsolutePath();
-			}
-			LOG.debug("End open");
-		});
-		top.add(open);
-
-		top.setBorder(BorderFactory.createTitledBorder(""));
-		this.add(top);
-	}
-
+	
 	/**
 	 * Le traitement lorsqu'on importe un fichier txt.
 	 */
