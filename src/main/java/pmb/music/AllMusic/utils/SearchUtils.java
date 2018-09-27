@@ -215,16 +215,10 @@ public class SearchUtils {
 					.anyMatch((c -> fi.getCategorie() == Cat.getByValue(c)));
 		}
 		if (result && StringUtils.isNotBlank(dateB)) {
-			result = result && ((searchMethod.equals(SearchMethod.CONTAINS)
-					&& fi.getRangeDateBegin() >= Integer.parseInt(dateB))
-					|| (!searchMethod.equals(SearchMethod.CONTAINS)
-							&& fi.getRangeDateBegin() == Integer.parseInt(dateB)));
+			result = result && fi.getRangeDateBegin() >= Integer.parseInt(dateB);
 		}
 		if (result && StringUtils.isNotBlank(dateE)) {
-			result = result
-					&& ((searchMethod.equals(SearchMethod.CONTAINS) && fi.getRangeDateEnd() <= Integer.parseInt(dateE))
-							|| (!searchMethod.equals(SearchMethod.CONTAINS)
-									&& fi.getRangeDateEnd() == Integer.parseInt(dateE)));
+			result = result && fi.getRangeDateEnd() <= Integer.parseInt(dateE);
 		}
 		if (result && StringUtils.isNotBlank(sorted)) {
 			result = result && BooleanUtils.toBoolean(sorted) == fi.getSorted();
