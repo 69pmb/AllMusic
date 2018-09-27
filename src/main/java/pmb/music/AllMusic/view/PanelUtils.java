@@ -73,12 +73,12 @@ public class PanelUtils {
 	 * @param deletedIndex index of the deleted column, use it to draw deleted row
 	 *            with specific color
 	 */
-	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex) {
+	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex, Integer typeIndex) {
 		LOG.debug("Start colRenderer");
 		JFrame topFrame = (JFrame) SwingUtilities.getWindowAncestor(table);
 		setColumnsWidth(table, topFrame != null ? topFrame.getWidth() : table.getWidth(), "Init");
 
-		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex);
+		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex, typeIndex);
 		int columnCount = table.getColumnCount();
 		if (!lastColumn) {
 			columnCount--;
