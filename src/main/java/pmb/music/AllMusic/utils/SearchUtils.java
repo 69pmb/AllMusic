@@ -22,6 +22,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.SearchMethod;
+import pmb.music.AllMusic.model.SearchRange;
 
 /**
  * Contient les méthodes de recherche dans une liste de {@link Composition} avec
@@ -35,6 +36,7 @@ public class SearchUtils {
 	public static final String CRITERIA_TITRE = "titre";
 	public static final String CRITERIA_RECORD_TYPE = "type";
 	public static final String CRITERIA_PUBLISH_YEAR = "publish";
+	public static final String CRITERIA_PUBLISH_YEAR_RANGE = "publishRange";
 	public static final String CRITERIA_FILENAME = "fileName";
 	public static final String CRITERIA_AUTHOR = "auteur";
 	public static final String CRITERIA_CAT = "cat";
@@ -72,6 +74,7 @@ public class SearchUtils {
 		final String type = criteria.get(CRITERIA_RECORD_TYPE);
 		// Critères fichiers
 		final String publish = criteria.get(CRITERIA_PUBLISH_YEAR);
+		final String publishRange = criteria.get(CRITERIA_PUBLISH_YEAR_RANGE);
 		final String fileName = criteria.get(CRITERIA_FILENAME);
 		final String auteur = criteria.get(CRITERIA_AUTHOR);
 		final String cat = criteria.get(CRITERIA_CAT);
@@ -97,7 +100,7 @@ public class SearchUtils {
 			}
 			CollectionUtils.filter(arrayList,
 					(Object c) -> filterCompositions(searchMethod, searchInFiles, jaro, artist, titre, type, deleted,
-							publish, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
+							publish, publishRange, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
 		} else if (!deleted) {
 			CollectionUtils.filter(arrayList, (Object c) -> !((Composition) c).isDeleted());
 		}
@@ -109,9 +112,9 @@ public class SearchUtils {
 
 	private static boolean filterCompositions(final SearchMethod searchMethod, final boolean searchInFiles,
 			final JaroWinklerDistance jaro, final String artist, final String titre, final String type,
-			final boolean deleted, final String publish, final String fileName, final String auteur, final String cat,
-			final String dateB, final String dateE, final String sorted, final String topTen, final boolean searchFile,
-			Object c) {
+			final boolean deleted, final String publish, String publishRange, final String fileName,
+			final String auteur, final String cat, final String dateB, final String dateE, final String sorted,
+			final String topTen, final boolean searchFile, Object c) {
 		Composition co = (Composition) c;
 
 		boolean result = true;
@@ -131,8 +134,8 @@ public class SearchUtils {
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (result && searchFile && CollectionUtils.isNotEmpty(files)) {
-			CollectionUtils.filter(files, (Object f) -> filterFichier(searchMethod, jaro, publish, fileName, auteur,
-					cat, dateB, dateE, sorted, topTen, f));
+			CollectionUtils.filter(files, (Object f) -> filterFichier(searchMethod, jaro, publish, publishRange,
+					fileName, auteur, cat, dateB, dateE, sorted, topTen, f));
 		}
 		if (searchInFiles) {
 			co.setFiles(files);
@@ -196,13 +199,25 @@ public class SearchUtils {
 	}
 
 	public static boolean filterFichier(final SearchMethod searchMethod, JaroWinklerDistance jaro, final String publish,
-			final String fileName, final String auteur, final String cat, final String dateB, final String dateE,
-			final String sorted, final String topTen, Object f) {
+			String publishRange, final String fileName, final String auteur, final String cat, final String dateB,
+			final String dateE, final String sorted, final String topTen, Object f) {
 		Fichier fi = (Fichier) f;
 		boolean result = true;
 
 		if (StringUtils.isNotBlank(publish)) {
-			result = result && fi.getPublishYear() == Integer.parseInt(publish);
+			switch (SearchRange.getByValue(publishRange)) {
+			case EQUAL:
+				result = result && fi.getPublishYear() == Integer.parseInt(publish);				
+				break;
+			case GREATER:
+				result = result && fi.getPublishYear() >= Integer.parseInt(publish);				
+				break;
+			case LESS:
+				result = result && fi.getPublishYear() <= Integer.parseInt(publish);				
+				break;
+			default:
+				break;
+			}
 		}
 		if (result && StringUtils.isNotBlank(fileName)) {
 			result = result && compareString(fileName, fi.getFileName(), searchMethod, jaro);

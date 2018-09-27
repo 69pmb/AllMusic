@@ -30,6 +30,7 @@ import java.util.stream.Collectors;
 import javax.swing.AbstractAction;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -56,6 +57,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.SearchMethod;
+import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -80,6 +82,7 @@ public class ArtistPanel extends JPanel {
 	private static final int INDEX_ARTIST = 0;
 	private static final int INDEX_NB_TOTAL = 1;
 
+	private JComboBox<String> searchRange;
 	private final MyInputText publi;
 	private final MyInputText rangeB;
 	private final MyInputText rangeE;
@@ -121,10 +124,14 @@ public class ArtistPanel extends JPanel {
 		JPanel header = new JPanel();
 		// Publi
 		JPanel publiPanel = new JPanel();
-		publiPanel.setPreferredSize(new Dimension(150, PanelUtils.PANEL_HEIGHT));
-		JLabel publiLabel = new JLabel("Année de publication : ");
+		publiPanel.setPreferredSize(new Dimension(230, PanelUtils.PANEL_HEIGHT));
+		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 200);
 		publi = new MyInputText(JTextField.class, 75);
+		searchRange = new JComboBox<String>(
+				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
+		searchRange.setPreferredSize(new Dimension(45, PanelUtils.COMPONENT_HEIGHT));
 		publiPanel.add(publiLabel);
+		publiPanel.add(searchRange);
 		publiPanel.add(publi);
 		header.add(publiPanel);
 		// Range
@@ -263,10 +270,8 @@ public class ArtistPanel extends JPanel {
 		JButton csv = PanelUtils.createJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			LOG.debug("Start Csv");
-			List<String> c = Arrays
-					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
-							cat.getSelectedItems())
-					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
+			List<String> c = Arrays.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
+					cat.getSelectedItems()).stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
 			String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons",
 					"Critères: " + criteres };
@@ -400,9 +405,8 @@ public class ArtistPanel extends JPanel {
 					}
 					List<Fichier> files = c.getFiles().stream()
 							.filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, new JaroWinklerDistance(),
-									publi.getText(), null, auteur.getText(),
-									cat.getSelectedItems(),
-									rangeB.getText(), rangeE.getText(), null, null, f))
+									publi.getText(), (String) searchRange.getSelectedItem(), null, auteur.getText(),
+									cat.getSelectedItems(), rangeB.getText(), rangeE.getText(), null, null, f))
 							.collect(Collectors.toList());
 					if (!files.isEmpty()) {
 						Composition newCompo = new Composition(c);
