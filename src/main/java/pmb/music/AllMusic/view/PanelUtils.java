@@ -6,6 +6,8 @@ import java.awt.Dimension;
 import java.awt.FontMetrics;
 import java.awt.Point;
 import java.awt.Toolkit;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
@@ -24,6 +26,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
+import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.table.DefaultTableCellRenderer;
@@ -48,6 +51,18 @@ public class PanelUtils {
 	private static final Logger LOG = Logger.getLogger(PanelUtils.class);
 	public static final int PANEL_HEIGHT = 70;
 	public static final int COMPONENT_HEIGHT = 25;
+	public static final FocusListener selectAll = new FocusListener() {
+		@Override
+		public void focusLost(FocusEvent e) {
+			// Nothing to do
+		}
+
+		@Override
+		public void focusGained(FocusEvent e) {
+			JTextField source = (JTextField) e.getSource();
+			source.selectAll();
+		}
+	};
 
 	/**
 	 * Dimensionne les colonnes du tableau et ajoute des couleurs aux lignes.
