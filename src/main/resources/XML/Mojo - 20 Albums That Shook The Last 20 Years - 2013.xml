@@ -28,7 +28,7 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="9" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
-  <compo A="Pavement" T="Crooked Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T=" Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="10" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
   <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
@@ -271,7 +271,7 @@
   <compo A="Johanna Newsom" T="Have One On Me" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="90" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
-  <compo A="PJ Harvey" T="Let England Shake" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Let England Shake" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="91" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
   <compo A="The Black Keys" T="El Camino" type="ALBUM" mergeable="true" del="false">

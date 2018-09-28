@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" mergeable="true" del="false">
+  <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 1986 Songs - 2016" publish="2016" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="1" creation="27/07/2018 15:48:07" size="155"/>
   </compo>
   <compo A="Genesis" T="Invisible Touch" type="SONG" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <compo A="Cameo" T="Word Up!" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 1986 Songs - 2016" publish="2016" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="6" creation="27/07/2018 15:48:07" size="155"/>
   </compo>
-  <compo A="New Order" T="Bizarre Love Triangle" type="SONG" mergeable="true" del="false">
+  <compo A="New Order" T="Bizarre Love Triangle" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 1986 Songs - 2016" publish="2016" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="7" creation="27/07/2018 15:48:07" size="155"/>
   </compo>
   <compo A="Stacey Q" T="Two of Hearts" type="SONG" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Slayer" T="Angel of Death" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 1986 Songs - 2016" publish="2016" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="43" creation="27/07/2018 15:48:07" size="155"/>
   </compo>
-  <compo A="Metallica" T="Master of Puppets" type="SONG" mergeable="true" del="false">
+  <compo A="Metallica" T="Master of Puppets" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 1986 Songs - 2016" publish="2016" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="44" creation="27/07/2018 15:48:07" size="155"/>
   </compo>
   <compo A="Megadeth" T="Peace Sells" type="SONG" mergeable="true" del="false">

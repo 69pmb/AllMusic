@@ -736,7 +736,7 @@
   <compo A="Alanis Morissette" T="You Oughta Know" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="248" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
-  <compo A="Pavement" T="Cut Your Hair" type="SONG" mergeable="true" del="false">
+  <compo A="Pavement" T="Cut Your Hair" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="249" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
   <compo A="Naughty by Nature" T="O. P. P." type="SONG" mergeable="true" del="false">
@@ -880,7 +880,7 @@
   <compo A="Neil Young" T="Rockin' in the Free World" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="296" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Only Shallow" type="SONG" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Only Shallow" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="297" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
   <compo A="George Jones" T="He Stopped Loving Her Today" type="SONG" mergeable="true" del="false">
@@ -1708,7 +1708,7 @@
   <compo A="Bob Dylan" T="Desolation Row" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="572" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
-  <compo A="Nick Cave" T="The Mercy Seat" type="SONG" mergeable="true" del="false">
+  <compo A="Nick Cave" T="The Mercy Seat" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="573" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
   <compo A="The Byrds" T="Turn! Turn! Turn!" type="SONG" mergeable="true" del="false">
@@ -2335,7 +2335,7 @@
   <compo A="The Drifters" T="Up on the Roof" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="781" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
-  <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" mergeable="true" del="false">
+  <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="782" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
   <compo A="Heaven 17" T="Fascist Groove Thang" type="SONG" mergeable="true" del="false">
@@ -3763,7 +3763,7 @@
   <compo A="Eddie Cochran" T="C'mon Everybody" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="1257" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
-  <compo A="Metallica" T="Master of Puppets" type="SONG" mergeable="true" del="false">
+  <compo A="Metallica" T="Master of Puppets" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="top_300_songs" publish="0" cat="ALL_TIME" rangeB="0" rangeE="0" sorted="false" rank="1258" creation="08/08/2017 23:13:02" size="3000"/>
   </compo>
   <compo A="Al Jolson" T="Swanee" type="SONG" mergeable="true" del="false">
