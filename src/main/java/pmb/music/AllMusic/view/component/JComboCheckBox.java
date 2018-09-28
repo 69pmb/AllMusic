@@ -90,7 +90,9 @@ public class JComboCheckBox extends JComboBox<Object> {
 		label = "";
 		selectedItem = new JCheckBox();
 		selectedItem.setOpaque(false);
-		removeItemAt(0);
+		if (getModel().getElementAt(0).equals(selectedItem)) {
+			removeItemAt(0);
+		}
 	}
 
 	@Override
