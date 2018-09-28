@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Nick Cave" T="The Mercy Seat" type="SONG" mergeable="true" del="false">
+  <compo A="Nick Cave" T="The Mercy Seat" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="1" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
   <compo A="Morrissey" T="Everyday Ls Like Sunday" type="SONG" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="Roxanne Shante" T="Goon Girl" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="27" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
-  <compo A="Pixies" T="Gigantic" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Gigantic" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="28" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
   <compo A="Kitchens Of Distinction" T="Prize" type="SONG" mergeable="true" del="false">

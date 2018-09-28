@@ -79,7 +79,7 @@
   <compo A="Dire Straits" T="Sultans Of Swing" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="true" rank="32" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="SONG" mergeable="true" del="false">
+  <compo A="Metallica" T="Master Of Puppets" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="true" rank="33" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Run-DMC And Aerosmith" T="Walk This Way" type="SONG" mergeable="true" del="false">
@@ -253,7 +253,7 @@
   <compo A="Mick Jagger" T="Memo From Turner" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="true" rank="92" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Only Shallow" type="SONG" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Only Shallow" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="true" rank="93" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Dire Straits" T="Money For Nothing" type="SONG" mergeable="true" del="false">

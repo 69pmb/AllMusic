@@ -103,7 +103,7 @@
   <compo A="John Lennon" T="Whatever Gets You Throu' The Night" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The Top 40 Post-Beatles Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="34" creation="25/06/2018 15:47:06" size="40"/>
   </compo>
-  <compo A="Paul McCartney" T="Maybe I'm Amazed" type="SONG" mergeable="true" del="false">
+  <compo A="Paul McCartney" T="Maybe I'm Amazed" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The Top 40 Post-Beatles Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="35" creation="25/06/2018 15:47:06" size="40"/>
   </compo>
   <compo A="John Lennon" T="Beautiful Boy" type="SONG" mergeable="true" del="false">
