@@ -2125,7 +2125,7 @@
   <compo A="The Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="708" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Led Leppelin" T="Immigrant Song" type="SONG" mergeable="true" del="false">
+  <compo A="Led Leppelin" T="Immigrant Song" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="709" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Busta Rhymes And The Neptunes" T="Light Your Ass On Fire" type="SONG" mergeable="true" del="false">
@@ -2152,7 +2152,7 @@
   <compo A="Pink Floyd" T="Time" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="717" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Leonard Cohen" T="Suzanne" type="SONG" mergeable="true" del="false">
+  <compo A="Leonard Cohen" T="Suzanne" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="718" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Moby" T="Why Does My Heart Feel So Bad" type="SONG" mergeable="true" del="false">
