@@ -568,7 +568,7 @@
   <compo A="Stephen Fretwell" T="Emily" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="189" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Marvin Gaye" T="I Heard It Through The Grapevine" type="SONG" mergeable="true" del="false">
+  <compo A="Marvin Gaye" T="I Heard It Through The Grapevine" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="190" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Gloria Gaynor" T="I Will Survive" type="SONG" mergeable="true" del="false">
@@ -577,7 +577,7 @@
   <compo A="Glasvegas" T="Daddy's Gone" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="192" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Lesley Gore" T="It's My Party" type="SONG" mergeable="true" del="false">
+  <compo A="Lesley Gore" T="It's My Party" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="193" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Al Green" T="How Can You Mend A Broken Heart?" type="SONG" mergeable="true" del="false">
@@ -1834,7 +1834,7 @@
   <compo A="Dick Gaughan" T="Victor Jara Of Chile" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="611" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Marvin Gaye" T="Mercy Mercy Me" type="SONG" mergeable="true" del="false">
+  <compo A="Marvin Gaye" T="Mercy Mercy Me" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="612" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Marvin Gaye" T="What's Going On" type="SONG" mergeable="true" del="true">
