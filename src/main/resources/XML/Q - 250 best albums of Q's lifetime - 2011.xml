@@ -190,7 +190,7 @@
   <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="63" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="64" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">
@@ -331,7 +331,7 @@
   <compo A="Mgmt" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="110" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Gorillaz" T="Gorallaz" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Gorillaz" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="111" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="The Smashing Pumpkins" T="Siamise Dream" type="ALBUM" mergeable="true" del="false">

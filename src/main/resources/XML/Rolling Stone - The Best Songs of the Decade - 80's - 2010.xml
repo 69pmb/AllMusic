@@ -85,7 +85,7 @@
   <compo A="ABC" T="All Of My Heart" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="false" rank="28" creation="07/09/2018 14:43:05" size="80"/>
   </compo>
-  <compo A="Frankie Goes To Hollywood" T="Relax" type="SONG" mergeable="true" del="false">
+  <compo A="Frankie Goes To Hollywood" T="Relax" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 80's - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="false" rank="29" creation="07/09/2018 14:43:05" size="80"/>
   </compo>
   <compo A="U2" T="New Year's Day" type="SONG" mergeable="true" del="false">
