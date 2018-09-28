@@ -148,7 +148,7 @@
   <compo A="Katy B" T="On A Mission" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="2" creation="27/08/2018 11:12:28" size="50"/>
   </compo>
-  <compo A="PJ Harvey" T="Let England Shake" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Let England Shake" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="1" creation="27/08/2018 11:12:28" size="50"/>
   </compo>
 </ListCompositions>

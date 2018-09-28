@@ -127,7 +127,7 @@
   <compo A="Eurythmics" T="Sweet Dreams (Are Made of This)" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="42" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="New Order" T="Bizarre Love Triangle" type="SONG" mergeable="true" del="false">
+  <compo A="New Order" T="Bizarre Love Triangle" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="43" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Laurie Anderson" T="O Superman (for Massenet)" type="SONG" mergeable="true" del="false">
@@ -229,7 +229,7 @@
   <compo A="Fingers Inc." T="Can You Feel It?" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="76" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Metallica" T="Master of Puppets" type="SONG" mergeable="true" del="false">
+  <compo A="Metallica" T="Master of Puppets" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="77" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="The Specials" T="Ghost Town" type="SONG" mergeable="true" del="true">
@@ -328,7 +328,7 @@
   <compo A="The Smiths" T="This Charming Man" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="109" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Nick Cave" T="The Mercy Seat" type="SONG" mergeable="true" del="false">
+  <compo A="Nick Cave" T="The Mercy Seat" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="110" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="The Clash" T="The Magnificent Seven" type="SONG" mergeable="true" del="false">
@@ -403,7 +403,7 @@
   <compo A="Queen" T="Under Pressure" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="134" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Pixies" T="Gigantic" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Gigantic" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="135" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Motorhead" T="Ace of Spades" type="SONG" mergeable="true" del="false">

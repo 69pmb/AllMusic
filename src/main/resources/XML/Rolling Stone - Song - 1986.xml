@@ -10,7 +10,7 @@
   <compo A="Madonna" T="Papa Don't Preach" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" mergeable="true" del="false">
+  <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
   <compo A="Steve Winwood" T="Higher Love" type="SONG" mergeable="true" del="false">

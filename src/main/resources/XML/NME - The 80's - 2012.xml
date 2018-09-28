@@ -25,7 +25,7 @@
   <compo A="The Cure" T="In Between Days" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="New Order" T="Bizarre Love Triangle" type="SONG" mergeable="true" del="false">
+  <compo A="New Order" T="Bizarre Love Triangle" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Rakim" T="Paid In Full" type="SONG" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="Dinosaur Jr" T="Freak Scene" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="22" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Nick Cave" T="The Mercy Seat" type="SONG" mergeable="true" del="false">
+  <compo A="Nick Cave" T="The Mercy Seat" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="23" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Jesus And Mary Chain" T="Just Like Honey" type="SONG" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Sonic Youth" T="Teen Age Riot" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="68" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="SONG" mergeable="true" del="false">
+  <compo A="Metallica" T="Master Of Puppets" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="69" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Talking Heads" T="Road To Nowhere" type="SONG" mergeable="true" del="false">
