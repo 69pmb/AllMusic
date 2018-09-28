@@ -31,7 +31,7 @@
   <compo A="The Decemberists" T="Dont Carry It All" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Foster the People" T="Pumped Up Kicks" type="SONG" mergeable="true" del="false">
+  <compo A="Foster the People" T="Pumped Up Kicks" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Lloyd And Andre 3000 and Lil Wayne" T="Dedication to My Ex (Miss That)" type="SONG" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="EMA" T="California" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="39" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Girls" T="Vomit" type="SONG" mergeable="true" del="false">
+  <compo A="Girls" T="Vomit" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="40" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Coldplay" T="Paradise" type="SONG" mergeable="true" del="false">

@@ -19,7 +19,7 @@
   <compo A="John Grant" T="Queen Of Denmark" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="6" creation="28/08/2018 11:43:20" size="50"/>
   </compo>
-  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="7" creation="28/08/2018 11:43:20" size="50"/>
   </compo>
   <compo A="The National" T="High Violet" type="ALBUM" mergeable="true" del="false">

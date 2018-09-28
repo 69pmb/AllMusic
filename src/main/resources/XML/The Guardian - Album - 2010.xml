@@ -73,7 +73,7 @@
   <compo A="Vampire Weekend" T="Contra" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="24" creation="27/08/2018 11:18:01" size="40"/>
   </compo>
-  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="25" creation="27/08/2018 11:18:01" size="40"/>
   </compo>
   <compo A="Avi Buffalo" T="Avi Buffalo" type="ALBUM" mergeable="true" del="false">

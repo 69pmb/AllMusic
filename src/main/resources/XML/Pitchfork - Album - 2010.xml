@@ -46,7 +46,7 @@
   <compo A="Emeralds" T="Does It Look Like I'm Here?" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="36" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
-  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="35" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
   <compo A="Crystal Castles" T="Crystal Castles" type="ALBUM" mergeable="true" del="false">
