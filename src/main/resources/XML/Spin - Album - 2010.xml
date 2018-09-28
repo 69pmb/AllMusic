@@ -67,7 +67,7 @@
   <compo A="Cee Lo Green" T="The Lady Killer" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="22" creation="30/08/2018 11:01:29" size="40"/>
   </compo>
-  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="23" creation="30/08/2018 11:01:29" size="40"/>
   </compo>
   <compo A="Wavves" T="King Of The Beach" type="ALBUM" mergeable="true" del="false">

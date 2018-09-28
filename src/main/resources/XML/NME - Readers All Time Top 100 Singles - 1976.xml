@@ -166,7 +166,7 @@
   <compo A="Cream" T="Badge" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="55" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="George Harrison" T="My Sweet Lord" type="SONG" mergeable="true" del="false">
+  <compo A="George Harrison" T="My Sweet Lord" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="56" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="false">

@@ -1399,7 +1399,7 @@
   <compo A="Flirts" T="Passion" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="466" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Frankie Goes To Hollywood" T="Relax" type="SONG" mergeable="true" del="false">
+  <compo A="Frankie Goes To Hollywood" T="Relax" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="467" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" mergeable="true" del="false">
@@ -1414,7 +1414,7 @@
   <compo A="Bobbie Gentry" T="Fancy" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="471" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Grinderman" T="No Pussy Blues" type="SONG" mergeable="true" del="false">
+  <compo A="Grinderman" T="No Pussy Blues" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="472" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Happy Mondays" T="Bob's Yer Uncle" type="SONG" mergeable="true" del="false">
@@ -2254,7 +2254,7 @@
   <compo A="Merle Haggard" T="Workin' Man's Blues" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="751" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="George Harrison" T="All Things Must Pass" type="SONG" mergeable="true" del="false">
+  <compo A="George Harrison" T="All Things Must Pass" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="752" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Screamin' Jay Hawkins" T="I Hear Voices" type="SONG" mergeable="true" del="false">
