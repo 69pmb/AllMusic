@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="LCD Soundsystem" T="All My Friends" type="SONG" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="All My Friends" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="1" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
   <compo A="Wilco" T="Jesus, etc." type="SONG" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Outkast" T="B.O.B. (Bombs Over Baghdad)" type="SONG" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Song 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="7" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
-  <compo A="The Knife" T="Heartbeats" type="SONG" mergeable="true" del="false">
+  <compo A="The Knife" T="Heartbeats" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="8" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
   <compo A="Iron And Wine" T="The Trapeze Swinger" type="SONG" mergeable="true" del="false">

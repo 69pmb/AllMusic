@@ -40,7 +40,7 @@
   <compo A="David Bowie" T="Where Are We Now?" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 50 best songs of the XXI century - 2013" publish="2013" cat="LONG_PERIOD" rangeB="2000" rangeE="2013" sorted="true" rank="13" creation="07/09/2018 14:02:29" size="50"/>
   </compo>
-  <compo A="LCD Sounsystem" T="All My Friends" type="SONG" mergeable="true" del="false">
+  <compo A="LCD Sounsystem" T="All My Friends" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 50 best songs of the XXI century - 2013" publish="2013" cat="LONG_PERIOD" rangeB="2000" rangeE="2013" sorted="true" rank="14" creation="07/09/2018 14:02:29" size="50"/>
   </compo>
   <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Elbow" T="Grounds For Divorce" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 50 best songs of the XXI century - 2013" publish="2013" cat="LONG_PERIOD" rangeB="2000" rangeE="2013" sorted="true" rank="43" creation="07/09/2018 14:02:29" size="50"/>
   </compo>
-  <compo A="Lana Del Rey" T="Video Games" type="SONG" mergeable="true" del="false">
+  <compo A="Lana Del Rey" T="Video Games" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 50 best songs of the XXI century - 2013" publish="2013" cat="LONG_PERIOD" rangeB="2000" rangeE="2013" sorted="true" rank="44" creation="07/09/2018 14:02:29" size="50"/>
   </compo>
   <compo A="Bruce Springsteen" T="The Rising" type="SONG" mergeable="true" del="false">

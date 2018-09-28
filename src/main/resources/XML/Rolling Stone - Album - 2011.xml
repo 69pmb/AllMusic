@@ -127,7 +127,7 @@
   <compo A="Destroyer" T="Kaputt" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="42" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="The Kills" T="Blood Pressures" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Kills" T="Blood Pressures" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="43" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Raphael Saadiq" T="Stone Rollin" type="ALBUM" mergeable="true" del="false">

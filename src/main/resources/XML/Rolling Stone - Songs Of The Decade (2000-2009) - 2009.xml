@@ -121,7 +121,7 @@
   <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="40" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="LCD Soundsystem" T="All My Friends" type="SONG" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="All My Friends" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="41" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Arcade Fire" T="Wake Up" type="SONG" mergeable="true" del="true">
@@ -259,7 +259,7 @@
   <compo A="Aaliyah" T="Try Again" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="86" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="The Knife" T="Heartbeats" type="SONG" mergeable="true" del="false">
+  <compo A="The Knife" T="Heartbeats" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="87" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Jay-Z" T="Izzo (H.O.V.A.)" type="SONG" mergeable="true" del="false">
