@@ -883,7 +883,7 @@
   <compo A="Grandaddy" T="The Crystal Lake" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="295" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Johnny Cash" T="The Man Comes Around" type="SONG" mergeable="true" del="false">
+  <compo A="Johnny Cash" T="The Man Comes Around" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="296" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="David Byrne and Brian Eno" T="Strange Overtones" type="SONG" mergeable="true" del="false">
