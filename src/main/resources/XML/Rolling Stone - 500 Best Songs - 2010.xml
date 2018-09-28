@@ -439,7 +439,7 @@
   <compo A="The B-52's" T="Rock Lobster" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="147" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Janis Joplin" T="Me and Bobby McGee" type="SONG" mergeable="true" del="false">
+  <compo A="Janis Joplin" T="Me and Bobby McGee" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="148" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Iggy Pop" T="Lust for Life" type="SONG" mergeable="true" del="false">
@@ -511,7 +511,7 @@
   <compo A="Joni Mitchell" T="Both Sides Now" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="171" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Jay-Z" T="99 Problems" type="SONG" mergeable="true" del="false">
+  <compo A="Jay-Z" T="99 Problems" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="172" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Aerosmith" T="Dream On" type="SONG" mergeable="true" del="true">
