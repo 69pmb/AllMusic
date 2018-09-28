@@ -832,7 +832,7 @@
   <compo A="The Beatles" T="Something" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="278" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Jefferson Airplane" T="Somebody to Love" type="SONG" mergeable="true" del="false">
+  <compo A="Jefferson Airplane" T="Somebody to Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="279" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born in the U.S.A." type="SONG" mergeable="true" del="false">
