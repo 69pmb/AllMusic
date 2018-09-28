@@ -76,7 +76,7 @@
   <compo A="Rolling Stones" T="Gimmie Shelter" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="25" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Marvin Gaye" T="I Herd It Through The Grapevine" type="SONG" mergeable="true" del="false">
+  <compo A="Marvin Gaye" T="I Herd It Through The Grapevine" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="26" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Missy Elliott" T="Get Ur Freak On" type="SONG" mergeable="true" del="true">
@@ -109,7 +109,7 @@
   <compo A="The Chemical Brothers" T="Hey Boy, Hey Girl" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="36" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Massive Attack" T="Unfinished Sympathy" type="SONG" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Unfinished Sympathy" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="37" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Abba" T="Dancing Queen" type="SONG" mergeable="true" del="false">
@@ -2257,7 +2257,7 @@
   <compo A="Mahalia Jackson" T="He's My Light" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="752" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Lynyrd Skynyrd" T="Free Bird" type="SONG" mergeable="true" del="false">
+  <compo A="Lynyrd Skynyrd" T="Free Bird" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="753" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Tom Waits" T="The Piano Has Been Drinking" type="SONG" mergeable="true" del="false">

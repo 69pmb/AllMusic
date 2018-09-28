@@ -238,7 +238,7 @@
   <compo A="The Kinks" T="You Really Got Me" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="80" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Marvin Gaye" T="I Heard It Through the Grapevine" type="SONG" mergeable="true" del="false">
+  <compo A="Marvin Gaye" T="I Heard It Through the Grapevine" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="81" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Fats Domino" T="Blueberry Hill" type="SONG" mergeable="true" del="true">
@@ -574,7 +574,7 @@
   <compo A="Bob Dylan" T="Knocking on Heaven's Door" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="192" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Lynyrd Skynyrd" T="Free Bird" type="SONG" mergeable="true" del="false">
+  <compo A="Lynyrd Skynyrd" T="Free Bird" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="193" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Amy Winehouse" T="Rehab" type="SONG" mergeable="true" del="true">
