@@ -241,18 +241,6 @@ public class SearchPanel extends JPanel {
 		search.getActionMap().put("Enter_pressed", searchAction);
 		top.add(search);
 
-		// inFiles
-		JPanel inFilesPanel = new JPanel();
-		PanelUtils.setSize(inFilesPanel, 200, PanelUtils.PANEL_HEIGHT);
-		JLabel inFilesLabel = PanelUtils.createJLabel("Rechercher dans les fichiers : ", 150);
-		inFiles = new JCheckBox();
-		PanelUtils.setSize(inFiles, 150, PanelUtils.COMPONENT_HEIGHT);
-		inFiles.setSelected(true);
-		inFiles.setHorizontalAlignment(SwingConstants.CENTER);
-		inFilesPanel.add(inFilesLabel);
-		inFilesPanel.add(inFiles);
-		top.add(inFilesPanel);
-
 		// Clear Btn
 		JButton clear = PanelUtils.createJButton("Réinitialiser recherche", 200, Constant.ICON_ERASE);
 		AbstractAction cleanAction = new AbstractAction() {
@@ -280,6 +268,18 @@ public class SearchPanel extends JPanel {
 		JButton modif = PanelUtils.createJButton("Modifier la composition sélectionnée", 300, Constant.ICON_EDIT);
 		modif.addActionListener((ActionEvent e) -> modifAction(artist2));
 		top.add(modif);
+
+		// inFiles
+		JPanel inFilesPanel = new JPanel();
+		PanelUtils.setSize(inFilesPanel, 200, PanelUtils.PANEL_HEIGHT);
+		JLabel inFilesLabel = PanelUtils.createJLabel("Rechercher dans les fichiers : ", 150);
+		inFiles = new JCheckBox();
+		PanelUtils.setSize(inFiles, 150, PanelUtils.COMPONENT_HEIGHT);
+		inFiles.setSelected(true);
+		inFiles.setHorizontalAlignment(SwingConstants.CENTER);
+		inFilesPanel.add(inFilesLabel);
+		inFilesPanel.add(inFiles);
+		top.add(inFilesPanel);
 
 		// CSV
 		JButton csv = PanelUtils.createJButton("Télécharger le résultat de la recherche en CSV", 300,
@@ -340,6 +340,16 @@ public class SearchPanel extends JPanel {
 		titrePanel.add(titre);
 		searchFields.add(titrePanel);
 
+		// SearchMethod
+		JPanel searchMethodPanel = new JPanel();
+		JLabel searchMethodLabel = PanelUtils.createJLabel("Méthode de recherche : ", 150);
+		searchMethod = new JComboBox<>(
+				Arrays.asList(SearchMethod.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
+		searchMethod.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		searchMethodPanel.add(searchMethodLabel);
+		searchMethodPanel.add(searchMethod);
+		searchFields.add(searchMethodPanel);
+
 		// Nom du fichier
 		JPanel fileNamePanel = new JPanel();
 		JLabel fileNameLabel = PanelUtils.createJLabel("Nom du fichier : ", 250);
@@ -356,16 +366,6 @@ public class SearchPanel extends JPanel {
 		authorPanel.add(authorLabel);
 		authorPanel.add(author);
 		searchFields.add(authorPanel);
-
-		// SearchMethod
-		JPanel searchMethodPanel = new JPanel();
-		JLabel searchMethodLabel = PanelUtils.createJLabel("Méthode de recherche : ", 150);
-		searchMethod = new JComboBox<>(
-				Arrays.asList(SearchMethod.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
-		searchMethod.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
-		searchMethodPanel.add(searchMethodLabel);
-		searchMethodPanel.add(searchMethod);
-		searchFields.add(searchMethodPanel);
 
 		// Type
 		JPanel typePanel = new JPanel();
