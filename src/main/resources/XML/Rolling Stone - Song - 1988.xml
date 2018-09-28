@@ -19,7 +19,7 @@
   <compo A="Talking Heads" T="(Nothing But) Flowers" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Guns N' Roses" T="Welcome To The Jungle" type="SONG" mergeable="true" del="false">
+  <compo A="Guns N' Roses" T="Welcome To The Jungle" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Bob Dylan" T="Silvio" type="SONG" mergeable="true" del="false">
