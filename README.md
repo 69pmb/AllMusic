@@ -10,6 +10,9 @@ A datable file like is then created (the `final.xml` file).
 You can search throught this database/file by artists, titles, dates or types (song or album) for instance.
 
 You can browse by files and also create annual ranking by song, album and artist.
+
+A file property can be configured to define directory for the various files of the application. It can be found there:  
+` AllMusic/src/main/resources/config.properties`
 ### To run AllMusic:
 
 - Install Java 8, Maven and Git.
