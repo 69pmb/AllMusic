@@ -53,8 +53,6 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
@@ -76,6 +74,8 @@ import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.dialog.ModifyFichierDialog;
 import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
 import pmb.music.AllMusic.view.model.FichierPanelModel;
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -207,10 +207,10 @@ public class FichierPanel extends JPanel {
 		// Publi
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 230);
-		publi = new MyInputText(JTextField.class, 150);
+		publi = new MyInputText(JTextField.class, 100);
 		searchRange = new JComboBox<String>(
 				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
-		searchRange.setPreferredSize(new Dimension(45, PanelUtils.COMPONENT_HEIGHT));
+		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
 		publiPanel.add(publiLabel);
 		publiPanel.add(searchRange);
 		publiPanel.add(publi);
