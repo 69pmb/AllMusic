@@ -82,7 +82,7 @@ public class ArtistPanel extends JPanel {
 	private static final int INDEX_ARTIST = 0;
 	private static final int INDEX_NB_TOTAL = 1;
 
-	private JComboBox<String> searchRange;
+	private final JComboBox<String> searchRange;
 	private final MyInputText publi;
 	private final MyInputText rangeB;
 	private final MyInputText rangeE;
@@ -92,7 +92,7 @@ public class ArtistPanel extends JPanel {
 	private final JButton reset;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
-	private JCheckBox deleted;
+	private final JCheckBox deleted;
 
 	private final JTable table;
 
@@ -106,7 +106,7 @@ public class ArtistPanel extends JPanel {
 	private int selectedRow = -1;
 
 	private transient Thread updateArtistThread;
-	private boolean withArtist;
+	private final boolean withArtist;
 
 	/**
 	 * Génère le panel artiste.
@@ -123,13 +123,13 @@ public class ArtistPanel extends JPanel {
 
 		JPanel header = new JPanel();
 		// Publi
-		JPanel publiPanel = new JPanel();
-		publiPanel.setPreferredSize(new Dimension(230, PanelUtils.PANEL_HEIGHT));
+		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(publiPanel, 230, PanelUtils.PANEL_HEIGHT);
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 200);
 		publi = new MyInputText(JTextField.class, 75);
 		searchRange = new JComboBox<String>(
 				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
-		searchRange.setPreferredSize(new Dimension(45, PanelUtils.COMPONENT_HEIGHT));
+		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
 		publiPanel.add(publiLabel);
 		publiPanel.add(searchRange);
 		publiPanel.add(publi);
@@ -230,8 +230,8 @@ public class ArtistPanel extends JPanel {
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 					List<SortKey> sortKeys = e.getSource().getSortKeys();
 					if (!sortKeys.isEmpty()) {
-						sortedColumn = ((SortKey) sortKeys.get(0)).getColumn();
-						sortOrder = ((SortKey) sortKeys.get(0)).getSortOrder();
+						sortedColumn = sortKeys.get(0).getColumn();
+						sortOrder = sortKeys.get(0).getSortOrder();
 					}
 				}
 			}

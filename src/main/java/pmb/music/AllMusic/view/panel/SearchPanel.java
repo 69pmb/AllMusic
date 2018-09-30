@@ -3,6 +3,7 @@ package pmb.music.AllMusic.view.panel;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.Toolkit;
@@ -52,8 +53,6 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -74,6 +73,8 @@ import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -414,9 +415,9 @@ public class SearchPanel extends JPanel {
 		searchFields.add(catPanel);
 
 		// Publi
-		JPanel publiPanel = new JPanel();
+		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 240);
-		publi = new MyInputText(JTextField.class, 150);
+		publi = new MyInputText(JTextField.class, 100);
 		searchRange = new JComboBox<String>(
 				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
 		searchRange.setPreferredSize(new Dimension(45, PanelUtils.COMPONENT_HEIGHT));
