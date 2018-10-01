@@ -90,11 +90,11 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		Boolean rowDeleted = null;
 		if (deletedIndex != null) {
 			// If display row with deleted rows
-		 rowDeleted = Boolean.valueOf(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
+			rowDeleted = Boolean.valueOf(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
 					.get(table.getRowSorter().convertRowIndexToModel(row))).get(deletedIndex));
 		}
 
-		if (typeIndex != null) {
+		if (typeIndex != null && column == typeIndex) {
 			// If display a row with record type
 			RecordType type = RecordType.getByValue(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
 					.get(table.getRowSorter().convertRowIndexToModel(row))).get(typeIndex));
