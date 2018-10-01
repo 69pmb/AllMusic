@@ -262,13 +262,18 @@ public class CompositionUtils {
 	 * 
 	 * @param map {@code Map<String, List<Composition>>} with key an artist and
 	 *            value its compositions
+	 * @param lineNumber if true add a column for line number
 	 * @return {@code Vector<Vector<Object>>} with 1st column the artist, 2nd total
 	 *         occurences, 3th by album and 4th by song
 	 */
-	public static Vector<Vector<Object>> convertArtistPanelResultToVector(Map<String, List<Composition>> map) {
+	public static Vector<Vector<Object>> convertArtistPanelResultToVector(Map<String, List<Composition>> map,
+			boolean lineNumber) {
 		LOG.debug("convertArtistPanelResultToVector");
 		return map.entrySet().parallelStream().map(e -> {
 			Vector<Object> v = new Vector<>();
+			if (lineNumber) {
+				v.addElement(0);
+			}
 			v.addElement(e.getKey());
 			v.addElement(e.getValue().stream().mapToInt(c -> c.getFiles().size()).sum());
 			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
