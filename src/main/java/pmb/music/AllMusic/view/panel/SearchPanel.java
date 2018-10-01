@@ -22,6 +22,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -481,8 +482,9 @@ public class SearchPanel extends JPanel {
 							sortDeletedOrder = sortDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
 									: SortOrder.ASCENDING;
 							sortOrder = sortDeletedOrder;
-							tableResult.getRowSorter().setSortKeys(
-									Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
+							List<SortKey> list = new LinkedList<>(Arrays.asList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
+							tableResult.getRowSorter().getSortKeys().stream().forEach(s -> list.add(s));
+							tableResult.getRowSorter().setSortKeys(list);
 						} else {
 							sortOrder = sortKeys.get(0).getSortOrder();
 							sortedColumn = column;
