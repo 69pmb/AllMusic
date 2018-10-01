@@ -432,7 +432,7 @@ public class SearchPanel extends JPanel {
 		tableResult.getTableHeader().setResizingAllowed(true);
 		tableResult.setFont(UIManager.getFont("Label.font"));
 		tableResult.setBorder(UIManager.getBorder("Label.border"));
-		model = new CompoSearchPanelModel(new Object[0][6], title);
+		model = new CompoSearchPanelModel(new Object[0][title.length - 1], title);
 		tableResult.setModel(model);
 		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
 			@Override
@@ -476,13 +476,13 @@ public class SearchPanel extends JPanel {
 					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 						// Sort of deleted column and store sorted column and order
 						int column = sortKeys.get(0).getColumn();
-						sortOrder = sortKeys.get(0).getSortOrder();
 						if (column == INDEX_SELECTED) {
 							sortedColumn = INDEX_DELETED;
 							sortDeletedOrder = sortDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
 									: SortOrder.ASCENDING;
 							sortOrder = sortDeletedOrder;
-							List<SortKey> list = new LinkedList<>(Arrays.asList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
+							List<SortKey> list = new LinkedList<>(
+									Arrays.asList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
 							tableResult.getRowSorter().getSortKeys().stream().forEach(s -> list.add(s));
 							tableResult.getRowSorter().setSortKeys(list);
 						} else {
