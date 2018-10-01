@@ -6,6 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
@@ -16,6 +17,7 @@ import org.apache.log4j.Logger;
 import com.opencsv.CSVWriter;
 
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MiscUtils;
 
 /**
  * Classe pour les fichiers csv.
@@ -44,6 +46,8 @@ public class CsvFile {
 			LOG.debug("Sorting");
 			// Sorting
 			List<String> list = csv.get(0);
+			List<Integer> percentColumn = list.stream().filter(item -> StringUtils.contains(item, "%"))
+					.map(i -> list.indexOf(i)).collect(Collectors.toList());
 			List<Integer> doubleColumn = new ArrayList<>();
 			for (int i = 0; i < list.size(); i++) {
 				String item = list.get(i);
@@ -59,6 +63,8 @@ public class CsvFile {
 			if (doubleColumn.contains(column)) {
 				sort = (c1, c2) -> Double.valueOf(StringUtils.replaceAll(c1.get(column), ",", "."))
 						.compareTo(Double.valueOf(StringUtils.replaceAll(c2.get(column), ",", ".")));
+			} else if (percentColumn.contains(column)) {
+				sort = (c1, c2) -> MiscUtils.comparePercentage.compare(c1.get(column), c2.get(column));
 			} else if (column >= 0) {
 				sort = (c1, c2) -> c1.get(column).compareToIgnoreCase(c2.get(column));
 			}
