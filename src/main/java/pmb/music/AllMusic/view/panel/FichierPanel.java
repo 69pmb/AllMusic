@@ -90,15 +90,16 @@ public class FichierPanel extends JPanel {
 	private static final int MIN_HEIGHT_TABLE = 41;
 	private static final int MAX_HEIGHT_TABLE = 82;
 
-	public static final int INDEX_FILE_AUTHOR = 0;
-	public static final int INDEX_FILE_FILE_NAME = 1;
-	public static final int INDEX_FILE_PUBLISH = 2;
-	public static final int INDEX_FILE_CAT = 3;
-	public static final int INDEX_FILE_RANGE = 4;
-	public static final int INDEX_PERCENT_DELETED = 5;
-	public static final int INDEX_CREATE_DATE = 6;
-	public static final int INDEX_FILE_SIZE = 7;
-	public static final int INDEX_FILE_SORTED = 8;
+	public static final int INDEX_FILE_LINE_NUMBER = 0;
+	public static final int INDEX_FILE_AUTHOR = 1;
+	public static final int INDEX_FILE_FILE_NAME = 2;
+	public static final int INDEX_FILE_PUBLISH = 3;
+	public static final int INDEX_FILE_CAT = 4;
+	public static final int INDEX_FILE_RANGE = 5;
+	public static final int INDEX_PERCENT_DELETED = 6;
+	public static final int INDEX_CREATE_DATE = 7;
+	public static final int INDEX_FILE_SIZE = 8;
+	public static final int INDEX_FILE_SORTED = 9;
 
 	public static final int INDEX_COMPO_LINE_NUMBER = 0;
 	public static final int INDEX_COMPO_ARTIST = 1;
@@ -151,7 +152,7 @@ public class FichierPanel extends JPanel {
 
 	private Dimension parentSize;
 
-	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
+	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Date de publication", "Categorie",
 	private static final String[] headerCompo = { "#", "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
 			"Score", "", "" };
 
@@ -381,8 +382,18 @@ public class FichierPanel extends JPanel {
 		tableFiles.setBackground(UIManager.getColor("Label.background"));
 		tableFiles.setFont(UIManager.getFont("Label.font"));
 		tableFiles.setBorder(UIManager.getBorder("Label.border"));
-		fichieModel = new FichierPanelModel(new Object[0][9], headerFiles);
+		fichieModel = new FichierPanelModel(new Object[0][headerFiles.length], headerFiles);
 		tableFiles.setModel(fichieModel);
+		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(fichieModel) {
+			@Override
+			public boolean isSortable(int column) {
+				if (column != INDEX_FILE_LINE_NUMBER)
+					return true;
+				else
+					return false;
+			};
+		};
+		tableFiles.setRowSorter(sorter);
 		tableFiles.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -409,11 +420,16 @@ public class FichierPanel extends JPanel {
 		tableFiles.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@Override
 			public void sorterChanged(RowSorterEvent e) {
-				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 					List<SortKey> sortKeys = e.getSource().getSortKeys();
 					if (!sortKeys.isEmpty()) {
+					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+						// Store sorted column and order
 						sortedFichierColumn = sortKeys.get(0).getColumn();
 						sortFichierOrder = sortKeys.get(0).getSortOrder();
+					}
+					// Handling of line numbers
+					for (int i = 0; i < tableFiles.getRowCount(); i++) {
+						tableFiles.setValueAt(i + 1, i, INDEX_FILE_LINE_NUMBER);
 					}
 				}
 			}
@@ -738,10 +754,9 @@ public class FichierPanel extends JPanel {
 		Composition c = new Composition();
 		c.setFiles(fichiers);
 		fichieModel.setRowCount(0);
-		fichieModel.setDataVector(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false),
+		fichieModel.setDataVector(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false, true),
 				new Vector<>(Arrays.asList(headerFiles)));
 		PanelUtils.colRenderer(tableFiles, true, null, null);
-		fichieModel.fireTableDataChanged();
 		if (sortedFichierColumn == null) {
 			sortedFichierColumn = INDEX_FILE_FILE_NAME;
 			sortFichierOrder = SortOrder.ASCENDING;
@@ -749,7 +764,13 @@ public class FichierPanel extends JPanel {
 		tableFiles.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedFichierColumn, sortFichierOrder)));
 		((TableRowSorter) tableFiles.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
+		for (int i = 0; i < tableFiles.getRowCount(); i++) {
+			tableFiles.setValueAt(i + 1, i, INDEX_FILE_LINE_NUMBER);
+		}
+		tableFiles.getColumnModel().getColumn(INDEX_FILE_LINE_NUMBER).setMinWidth(30);
+		tableFiles.getColumnModel().getColumn(INDEX_FILE_LINE_NUMBER).setMaxWidth(30);
 		selectedFichierRow = -1;
+		fichieModel.fireTableDataChanged();
 		tableFiles.repaint();
 		updateCompoTable(new ArrayList<>(), null);
 		LOG.debug("Start updateFileTable");
