@@ -21,6 +21,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
@@ -53,6 +54,8 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
@@ -74,8 +77,6 @@ import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.dialog.ModifyFichierDialog;
 import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
 import pmb.music.AllMusic.view.model.FichierPanelModel;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -99,12 +100,15 @@ public class FichierPanel extends JPanel {
 	public static final int INDEX_FILE_SIZE = 7;
 	public static final int INDEX_FILE_SORTED = 8;
 
-	private static final int INDEX_COMPO_ARTIST = 0;
-	private static final int INDEX_COMPO_TITLE = 1;
-	private static final int INDEX_COMPO_TYPE = 2;
-	private static final int INDEX_COMPO_RANK = 3;
-	private static final int INDEX_COMPO_SELECTED = 6;
-	private static final int INDEX_COMPO_DELETED = 7;
+	public static final int INDEX_COMPO_LINE_NUMBER = 0;
+	public static final int INDEX_COMPO_ARTIST = 1;
+	public static final int INDEX_COMPO_TITLE = 2;
+	public static final int INDEX_COMPO_TYPE = 3;
+	public static final int INDEX_COMPO_RANK = 4;
+	public static final int INDEX_COMPO_FILE_SIZE = 5;
+	public static final int INDEX_COMPO_SCORE = 6;
+	public static final int INDEX_COMPO_SELECTED = 7;
+	public static final int INDEX_COMPO_DELETED = 8;
 
 	// Search components
 	private MyInputText auteur;
@@ -148,8 +152,7 @@ public class FichierPanel extends JPanel {
 	private Dimension parentSize;
 
 	private static final String[] headerFiles = { "Auteur", "Nom du fichier", "Date de publication", "Categorie",
-			"Dates", "Supprimés", "Date de création", "Taille", "Classé" };
-	private static final String[] headerCompo = { "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
+	private static final String[] headerCompo = { "#", "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
 			"Score", "", "" };
 
 	/**
@@ -432,9 +435,18 @@ public class FichierPanel extends JPanel {
 		tableCompo.setBackground(UIManager.getColor("Label.background"));
 		tableCompo.setFont(UIManager.getFont("Label.font"));
 		tableCompo.setBorder(UIManager.getBorder("Label.border"));
-		compoModel = new CompoFichierPanelModel(new Object[0][6], headerCompo);
+		compoModel = new CompoFichierPanelModel(new Object[0][headerCompo.length - 1], headerCompo);
 		tableCompo.setModel(compoModel);
-		tableCompo.setRowSorter(new TableRowSorter<TableModel>(compoModel));
+		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(compoModel) {
+			@Override
+			public boolean isSortable(int column) {
+				if (column != INDEX_COMPO_LINE_NUMBER)
+					return true;
+				else
+					return false;
+			};
+		};
+		tableCompo.setRowSorter(sorter);
 		tableCompo.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -462,21 +474,28 @@ public class FichierPanel extends JPanel {
 			@Override
 			@SuppressWarnings("unchecked")
 			public void sorterChanged(RowSorterEvent e) {
-				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 					List<SortKey> sortKeys = e.getSource().getSortKeys();
 					if (!sortKeys.isEmpty()) {
+					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+						// Sort of deleted column and store sorted column and order
 						int column = sortKeys.get(0).getColumn();
 						if (column == INDEX_COMPO_SELECTED) {
 							sortedCompoColumn = INDEX_COMPO_DELETED;
 							sortCompoDeletedOrder = sortCompoDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
 									: SortOrder.ASCENDING;
 							sortCompoOrder = sortCompoDeletedOrder;
-							tableCompo.getRowSorter().setSortKeys(Collections
-									.singletonList(new RowSorter.SortKey(sortedCompoColumn, sortCompoDeletedOrder)));
+							List<SortKey> list = new LinkedList<>(
+									Arrays.asList(new RowSorter.SortKey(sortedCompoColumn, sortCompoDeletedOrder)));
+							tableCompo.getRowSorter().getSortKeys().stream().forEach(s -> list.add(s));
+							tableCompo.getRowSorter().setSortKeys(list);
 						} else {
 							sortCompoOrder = sortKeys.get(0).getSortOrder();
 							sortedCompoColumn = column;
 						}
+					}
+					// Handling of line numbers
+					for (int i = 0; i < tableCompo.getRowCount(); i++) {
+						tableCompo.setValueAt(i + 1, i, INDEX_COMPO_LINE_NUMBER);
 					}
 				}
 			}
@@ -762,7 +781,7 @@ public class FichierPanel extends JPanel {
 				}
 			});
 			compoModel.setDataVector(
-					CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, true, false),
+					CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, true, true),
 					new Vector<>(Arrays.asList(headerCompo)));
 		} else {
 			compoModel.setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
@@ -776,6 +795,8 @@ public class FichierPanel extends JPanel {
 		tableCompo.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedCompoColumn, sortCompoOrder)));
 		selectedCompoRow = -1;
+		tableCompo.getColumnModel().getColumn(INDEX_COMPO_LINE_NUMBER).setMinWidth(30);
+		tableCompo.getColumnModel().getColumn(INDEX_COMPO_LINE_NUMBER).setMaxWidth(30);
 		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DELETED));
 		tableCompo.repaint();
 		((JScrollPane) tableCompo.getParent().getParent()).getVerticalScrollBar().setValue(0);

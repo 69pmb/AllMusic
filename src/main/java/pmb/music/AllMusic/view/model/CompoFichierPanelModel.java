@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
+import pmb.music.AllMusic.view.panel.FichierPanel;
+
 /**
  * Décrit la façon dont les tableaux contenant des {@code Composition} seront
  * affichées pour l'onglet {@code FichierPanel}.
@@ -16,11 +18,6 @@ import java.util.Vector;
 public class CompoFichierPanelModel extends AbstractModel {
 
 	private static final long serialVersionUID = 1L;
-
-	private static final int INDEX_CLASSEMENT = 3;
-	private static final int INDEX_FILE_SIZE = 4;
-	private static final int INDEX_SCORE = 5;
-	private static final int INDEX_SELECTED = 6;
 
 	/**
 	 * Constructeur de {@link CompoFichierPanelModel}.
@@ -44,19 +41,21 @@ public class CompoFichierPanelModel extends AbstractModel {
 
 	@Override
 	public boolean isCellEditable(int i, int i1) {
-		return i1 == INDEX_SELECTED;
+		return i1 == FichierPanel.INDEX_COMPO_SELECTED;
 	}
 
 	@Override
 	public Class<?> getColumnClass(int col) {
 		switch (col) {
-		case INDEX_CLASSEMENT:
+		case FichierPanel.INDEX_COMPO_RANK:
 			return Integer.class;
-		case INDEX_FILE_SIZE:
+		case FichierPanel.INDEX_COMPO_FILE_SIZE:
 			return Integer.class;
-		case INDEX_SCORE:
+		case FichierPanel.INDEX_COMPO_SCORE:
 			return Long.class;
-		case INDEX_SELECTED:
+		case FichierPanel.INDEX_COMPO_LINE_NUMBER:
+			return Integer.class;
+		case FichierPanel.INDEX_COMPO_SELECTED:
 			return Boolean.class;
 		default:
 			return String.class;
@@ -67,7 +66,7 @@ public class CompoFichierPanelModel extends AbstractModel {
 	public List<Object> getSelected() {
 		List<Object> toReturn = new ArrayList<>();
 		for (int i = 0; i < dataVector.size(); i++) {
-			if ((Boolean) ((Vector<?>) dataVector.elementAt(i)).elementAt(INDEX_SELECTED)) {
+			if ((Boolean) ((Vector<?>) dataVector.elementAt(i)).elementAt(FichierPanel.INDEX_COMPO_SELECTED)) {
 				toReturn.add(dataVector.elementAt(i));
 			}
 		}
