@@ -21,6 +21,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -300,10 +301,10 @@ public class ArtistPanel extends JPanel {
 			List<String> c = Arrays.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
 					cat.getSelectedItems()).stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
-			String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons",
-					"Critères: " + criteres };
+			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
+			csvHeader.add("Critères: " + criteres);
 			String name = CsvFile.exportCsv("artist", MiscUtils.convertVectorToList(model.getDataVector()),
-					table.getRowSorter().getSortKeys().get(0), csvHeader);
+					table.getRowSorter().getSortKeys().get(0), csvHeader.toArray(new String[title.length + 1]));
 			try {
 				FichierUtils.openFileInExcel(Optional.of(name));
 			} catch (MyException e1) {

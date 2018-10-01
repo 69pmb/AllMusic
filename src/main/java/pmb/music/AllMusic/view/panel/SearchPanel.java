@@ -221,9 +221,10 @@ public class SearchPanel extends JPanel {
 							"Top Ten:" + Boolean.toString(topTen.isSelected()))
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
-			String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Critères: " + criteres };
+			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
+			csvHeader.add("Critères: " + criteres);
 			String name = CsvFile.exportCsv("search", MiscUtils.convertVectorToList(model.getDataVector()),
-					tableResult.getRowSorter().getSortKeys().get(0), csvHeader);
+					tableResult.getRowSorter().getSortKeys().get(0), csvHeader.toArray(new String[title.length + 1]));
 			try {
 				FichierUtils.openFileInExcel(Optional.of(name));
 			} catch (MyException e1) {
