@@ -100,7 +100,7 @@ public class DialogCompoTable extends JDialog {
 		table.setBackground(UIManager.getColor("Label.background"));
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));
-		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, null, true, false, false, false),
+		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, null, true, false, false, false, false),
 				new Vector(Arrays.asList(header))));
 		table.getRowSorter().toggleSortOrder(INDEX_RANK);
 		table.getRowSorter().addRowSorterListener(new RowSorterListener() {

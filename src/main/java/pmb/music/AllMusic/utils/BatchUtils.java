@@ -919,7 +919,7 @@ public class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
-				.convertCompositionListToVector(yearList, null, false, true, false, true).stream()
+				.convertCompositionListToVector(yearList, null, false, true, false, true, false).stream()
 				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {

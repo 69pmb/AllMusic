@@ -53,6 +53,8 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -73,8 +75,6 @@ import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -112,14 +112,16 @@ public class SearchPanel extends JPanel {
 
 	private List<Composition> compoResult = new ArrayList<>();
 
-	private static final String[] title = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "", "" };
+	private static final String[] title = { "#", "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "", "" };
 
-	private static final int INDEX_ARTIST = 0;
-	private static final int INDEX_TITRE = 1;
-	private static final int INDEX_TYPE = 2;
-	private static final int INDEX_SCORE = 4;
-	private static final int INDEX_SELECTED = 5;
-	private static final int INDEX_DELETED = 6;
+	public static final int INDEX_LINE_NUMBER = 0;
+	public static final int INDEX_ARTIST = 1;
+	public static final int INDEX_TITRE = 2;
+	public static final int INDEX_TYPE = 3;
+	public static final int INDEX_FILE_SIZE = 4;
+	public static final int INDEX_SCORE = 5;
+	public static final int INDEX_SELECTED = 6;
+	public static final int INDEX_DELETED = 7;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
 	private SortOrder sortDeletedOrder = SortOrder.ASCENDING;
@@ -162,7 +164,16 @@ public class SearchPanel extends JPanel {
 		tableResult.setBorder(UIManager.getBorder("Label.border"));
 		model = new CompoSearchPanelModel(new Object[0][6], title);
 		tableResult.setModel(model);
-		tableResult.setRowSorter(new TableRowSorter<TableModel>(model));
+		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
+			@Override
+			public boolean isSortable(int column) {
+				if (column != INDEX_LINE_NUMBER)
+					return true;
+				else
+					return false;
+			};
+		};
+		tableResult.setRowSorter(sorter);
 		tableResult.addMouseListener(new MouseAdapter() {
 
 			@Override
@@ -190,7 +201,13 @@ public class SearchPanel extends JPanel {
 			@Override
 			@SuppressWarnings("unchecked")
 			public void sorterChanged(RowSorterEvent e) {
+				// Handling of line numbers
+				for (int i = 0; i < tableResult.getRowCount(); i++) {
+					tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
+				}
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+
+					// Sort of deleted column and store sorted column and order
 					List<SortKey> sortKeys = e.getSource().getSortKeys();
 					if (!sortKeys.isEmpty()) {
 						int column = sortKeys.get(0).getColumn();
@@ -514,19 +531,24 @@ public class SearchPanel extends JPanel {
 		LOG.debug("Start updateTable");
 		model.setRowCount(0);
 		model.setDataVector(
-				CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, true),
+				CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, true, true),
 				new Vector<>(Arrays.asList(title)));
-		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE);
 		countLabel.setText(compoResult.size() + " résultats");
-		model.fireTableDataChanged();
 		if (sortedColumn == null) {
 			sortedColumn = INDEX_SCORE;
 			sortOrder = SortOrder.DESCENDING;
 		}
 		tableResult.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
+		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE);
+		for (int i = 0; i < tableResult.getRowCount(); i++) {
+			tableResult.setValueAt(String.valueOf(i + 1), i, INDEX_LINE_NUMBER);
+		}
 		selectedRow = -1;
+		tableResult.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
+		tableResult.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
 		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_DELETED));
+		model.fireTableDataChanged();
 		tableResult.repaint();
 		LOG.debug("Start updateTable");
 	}

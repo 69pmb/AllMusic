@@ -163,11 +163,12 @@ public class CompositionUtils {
 	 * @param displayFileSize si on affiche le nombre de fichiers de la composition
 	 * @param addBoolean si on ajoute une colonne de boolean remplie à false
 	 * @param score boolean if true, calculates the composition score
+	 * @param lineNumber if true add a column for counting line number
 	 * @return {@code Vector<Vector<Object>>} la liste de vecteur convertie
 	 */
 	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList,
 			List<Fichier> fichier, boolean displayClassement, boolean displayFileSize, boolean addBoolean,
-			boolean score) {
+			boolean score, boolean lineNumber) {
 		LOG.debug("Start convertCompositionListToVector");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		if (compoList == null || compoList.isEmpty()) {
@@ -177,6 +178,9 @@ public class CompositionUtils {
 		for (int i = 0; i < compoList.size(); i++) {
 			Composition composition = compoList.get(i);
 			Vector<Object> v = new Vector<>();
+			if (lineNumber) {
+				v.addElement(i);
+			}
 			v.addElement(composition.getArtist());
 			v.addElement(composition.getTitre());
 			v.addElement(composition.getRecordType().toString());
