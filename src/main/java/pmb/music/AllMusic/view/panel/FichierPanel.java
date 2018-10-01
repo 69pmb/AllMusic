@@ -762,7 +762,7 @@ public class FichierPanel extends JPanel {
 				}
 			});
 			compoModel.setDataVector(
-					CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, true),
+					CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, true, false),
 					new Vector<>(Arrays.asList(headerCompo)));
 		} else {
 			compoModel.setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
