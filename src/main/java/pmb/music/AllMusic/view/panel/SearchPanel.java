@@ -102,7 +102,7 @@ public class SearchPanel extends JPanel {
 	private JCheckBox deleted;
 	private JCheckBox topTen;
 
-	private final JTable tableResult;
+	private JTable tableResult;
 
 	private JComboCheckBox cat;
 	private JComboCheckBox type;
@@ -127,7 +127,7 @@ public class SearchPanel extends JPanel {
 	private SortOrder sortOrder;
 	private SortOrder sortDeletedOrder = SortOrder.ASCENDING;
 
-	private final CompoSearchPanelModel model;
+	private CompoSearchPanelModel model;
 	private int selectedRow = -1;
 
 	/**
@@ -150,86 +150,7 @@ public class SearchPanel extends JPanel {
 		initSearchFields(artistList, titleList, authorList, header);
 		this.add(header);
 
-		JPanel bottom = new JPanel();
-		bottom.setLayout(new BorderLayout());
-
-		// result
-		tableResult = new JTable();
-		tableResult.setAutoCreateRowSorter(true);
-		tableResult.setRowHeight(30);
-		tableResult.setFillsViewportHeight(true);
-		tableResult.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
-		tableResult.setBackground(UIManager.getColor("Label.background"));
-		tableResult.getTableHeader().setResizingAllowed(true);
-		tableResult.setFont(UIManager.getFont("Label.font"));
-		tableResult.setBorder(UIManager.getBorder("Label.border"));
-		model = new CompoSearchPanelModel(new Object[0][6], title);
-		tableResult.setModel(model);
-		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
-			@Override
-			public boolean isSortable(int column) {
-				if (column != INDEX_LINE_NUMBER)
-					return true;
-				else
-					return false;
-			};
-		};
-		tableResult.setRowSorter(sorter);
-		tableResult.addMouseListener(new MouseAdapter() {
-
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				mouseClickAction(e);
-			}
-		});
-		tableResult.addKeyListener(new KeyListener() {
-			@Override
-			public void keyTyped(KeyEvent e) {
-				// Nothing to do
-			}
-
-			@Override
-			public void keyReleased(KeyEvent e) {
-				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
-			}
-
-			@Override
-			public void keyPressed(KeyEvent e) {
-				// Nothing to do
-			}
-		});
-		tableResult.getRowSorter().addRowSorterListener(new RowSorterListener() {
-			@Override
-			@SuppressWarnings("unchecked")
-			public void sorterChanged(RowSorterEvent e) {
-					List<SortKey> sortKeys = e.getSource().getSortKeys();
-					if (!sortKeys.isEmpty()) {
-					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-						// Sort of deleted column and store sorted column and order
-						int column = sortKeys.get(0).getColumn();
-						sortOrder = sortKeys.get(0).getSortOrder();
-						if (column == INDEX_SELECTED) {
-							sortedColumn = INDEX_DELETED;
-							sortDeletedOrder = sortDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
-									: SortOrder.ASCENDING;
-							sortOrder = sortDeletedOrder;
-							tableResult.getRowSorter().setSortKeys(
-									Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
-						} else {
-							sortOrder = sortKeys.get(0).getSortOrder();
-							sortedColumn = column;
-						}
-					}
-					// Handling of line numbers
-					for (int i = 0; i < tableResult.getRowCount(); i++) {
-						tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
-				}
-			}
-			}
-		});
-		bottom.add(new JScrollPane(tableResult), BorderLayout.CENTER);
-
-		this.add(bottom);
+		initTable();
 		LOG.debug("End SearchPanel");
 	}
 
@@ -241,7 +162,7 @@ public class SearchPanel extends JPanel {
 	 */
 	@SuppressWarnings("unchecked")
 	private void initButtons(final ArtistPanel artist2, JPanel header) {
-		JPanel top = new JPanel();
+		JPanel top = new JPanel(new FlowLayout(FlowLayout.LEFT));
 		AbstractAction searchAction = new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -286,18 +207,6 @@ public class SearchPanel extends JPanel {
 		JButton modif = PanelUtils.createJButton("Modifier la composition sélectionnée", 300, Constant.ICON_EDIT);
 		modif.addActionListener((ActionEvent e) -> modifAction(artist2));
 		top.add(modif);
-
-		// inFiles
-		JPanel inFilesPanel = new JPanel();
-		PanelUtils.setSize(inFilesPanel, 200, PanelUtils.PANEL_HEIGHT);
-		JLabel inFilesLabel = PanelUtils.createJLabel("Rechercher dans les fichiers : ", 150);
-		inFiles = new JCheckBox();
-		PanelUtils.setSize(inFiles, 150, PanelUtils.COMPONENT_HEIGHT);
-		inFiles.setSelected(true);
-		inFiles.setHorizontalAlignment(SwingConstants.CENTER);
-		inFilesPanel.add(inFilesLabel);
-		inFilesPanel.add(inFiles);
-		top.add(inFilesPanel);
 
 		// CSV
 		JButton csv = PanelUtils.createJButton("Télécharger le résultat de la recherche en CSV", 300,
@@ -443,6 +352,18 @@ public class SearchPanel extends JPanel {
 		publiPanel.add(publi);
 		searchFields.add(publiPanel);
 
+		// inFiles
+		JPanel inFilesPanel = new JPanel();
+		PanelUtils.setSize(inFilesPanel, 200, PanelUtils.PANEL_HEIGHT);
+		JLabel inFilesLabel = PanelUtils.createJLabel("Rechercher dans les fichiers : ", 150);
+		inFiles = new JCheckBox();
+		PanelUtils.setSize(inFiles, 150, PanelUtils.COMPONENT_HEIGHT);
+		inFiles.setSelected(true);
+		inFiles.setHorizontalAlignment(SwingConstants.CENTER);
+		inFilesPanel.add(inFilesLabel);
+		inFilesPanel.add(inFiles);
+		searchFields.add(inFilesPanel);
+
 		// Sorted
 		JPanel sortedPanel = new JPanel();
 		JLabel sortedLabel = PanelUtils.createJLabel("Trié : ", 150);
@@ -494,6 +415,108 @@ public class SearchPanel extends JPanel {
 
 		header.add(searchFields);
 		LOG.debug("End initSearchFields");
+	}
+
+	private void initTable() {
+		JPanel bottom = new JPanel();
+		bottom.setLayout(new BorderLayout());
+
+		// result
+		tableResult = new JTable();
+		tableResult.setAutoCreateRowSorter(true);
+		tableResult.setRowHeight(30);
+		tableResult.setFillsViewportHeight(true);
+		tableResult.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
+		tableResult.setBackground(UIManager.getColor("Label.background"));
+		tableResult.getTableHeader().setResizingAllowed(true);
+		tableResult.setFont(UIManager.getFont("Label.font"));
+		tableResult.setBorder(UIManager.getBorder("Label.border"));
+		model = new CompoSearchPanelModel(new Object[0][6], title);
+		tableResult.setModel(model);
+		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
+			@Override
+			public boolean isSortable(int column) {
+				if (column != INDEX_LINE_NUMBER)
+					return true;
+				else
+					return false;
+			};
+		};
+		tableResult.setRowSorter(sorter);
+		tableResult.addMouseListener(new MouseAdapter() {
+
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				mouseClickAction(e);
+			}
+		});
+		tableResult.addKeyListener(new KeyListener() {
+			@Override
+			public void keyTyped(KeyEvent e) {
+				// Nothing to do
+			}
+
+			@Override
+			public void keyReleased(KeyEvent e) {
+				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
+			}
+
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// Nothing to do
+			}
+		});
+		tableResult.getRowSorter().addRowSorterListener(new RowSorterListener() {
+			@Override
+			@SuppressWarnings("unchecked")
+			public void sorterChanged(RowSorterEvent e) {
+				List<SortKey> sortKeys = e.getSource().getSortKeys();
+				if (!sortKeys.isEmpty()) {
+					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+						// Sort of deleted column and store sorted column and order
+						int column = sortKeys.get(0).getColumn();
+						sortOrder = sortKeys.get(0).getSortOrder();
+						if (column == INDEX_SELECTED) {
+							sortedColumn = INDEX_DELETED;
+							sortDeletedOrder = sortDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
+									: SortOrder.ASCENDING;
+							sortOrder = sortDeletedOrder;
+							tableResult.getRowSorter().setSortKeys(
+									Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
+						} else {
+							sortOrder = sortKeys.get(0).getSortOrder();
+							sortedColumn = column;
+						}
+					}
+					// Handling of line numbers
+					for (int i = 0; i < tableResult.getRowCount(); i++) {
+						tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
+					}
+				}
+			}
+		});
+		// tableResult.getTableHeader().addMouseListener(new CustomSorter());
+		bottom.add(new JScrollPane(tableResult), BorderLayout.CENTER);
+
+		this.add(bottom);
+	}
+
+	private final class CustomSorter extends MouseAdapter {
+		@Override
+		public void mouseClicked(MouseEvent aEvent) {
+			int columnIdx = tableResult.getColumnModel().getColumnIndexAtX(aEvent.getX());
+			// build a list of sort keys for this column, and pass it to the sorter
+			// you can build the list to fit your needs here
+			// for example, you can sort on multiple columns, not just one
+			List<RowSorter.SortKey> sortKeys = new ArrayList<>();
+			// cycle through all orders; sort is removed every 3rd click
+			SortOrder order = SortOrder.values()[fCountClicks % 3];
+			sortKeys.add(new RowSorter.SortKey(columnIdx, order));
+			tableResult.getRowSorter().setSortKeys(sortKeys);
+			++fCountClicks;
+		}
+
+		private int fCountClicks;
 	}
 
 	private void searchAction() {
