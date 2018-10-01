@@ -153,6 +153,7 @@ public class FichierPanel extends JPanel {
 	private Dimension parentSize;
 
 	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Date de publication", "Categorie",
+			"Dates", "Supprimés", "Date de création", "Taille", "Classé" };
 	private static final String[] headerCompo = { "#", "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
 			"Score", "", "" };
 
