@@ -80,8 +80,9 @@ public class ArtistPanel extends JPanel {
 	private static final long serialVersionUID = 2593372709628283573L;
 
 	private static final Logger LOG = Logger.getLogger(ArtistPanel.class);
-	public static final int INDEX_ARTIST = 0;
-	public static final int INDEX_NB_TOTAL = 1;
+	public static final int INDEX_LINE_NUMBER = 0;
+	public static final int INDEX_ARTIST = 1;
+	public static final int INDEX_NB_TOTAL = 2;
 
 	private JComboBox<String> searchRange;
 	private MyInputText publi;
@@ -102,7 +103,7 @@ public class ArtistPanel extends JPanel {
 	private Map<String, List<Composition>> data;
 	private Map<String, List<Composition>> searchResult;
 
-	private static final String[] title = { "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
+	private static final String[] title = { "#", "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
 
 	private int selectedRow = -1;
 
@@ -233,16 +234,30 @@ public class ArtistPanel extends JPanel {
 		table.setBorder(UIManager.getBorder("Label.border"));
 		model = new ArtistModel(new Object[0][title.length], title);
 		table.setModel(model);
-		table.setRowSorter(new TableRowSorter<TableModel>(model));
+		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
+			@Override
+			public boolean isSortable(int column) {
+				if (column != INDEX_LINE_NUMBER)
+					return true;
+				else
+					return false;
+			};
+		};
+		table.setRowSorter(sorter);
 		table.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@SuppressWarnings("unchecked")
 			@Override
 			public void sorterChanged(RowSorterEvent e) {
-				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-					List<SortKey> sortKeys = e.getSource().getSortKeys();
-					if (!sortKeys.isEmpty()) {
+				List<SortKey> sortKeys = e.getSource().getSortKeys();
+				if (!sortKeys.isEmpty()) {
+					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+						// Store sorted column and order
 						sortedColumn = sortKeys.get(0).getColumn();
 						sortOrder = sortKeys.get(0).getSortOrder();
+					}
+					// Handling of line numbers
+					for (int i = 0; i < table.getRowCount(); i++) {
+						table.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 					}
 				}
 			}
@@ -362,15 +377,20 @@ public class ArtistPanel extends JPanel {
 
 	private void updateTable(Map<String, List<Composition>> donnee) {
 		model.setRowCount(0);
-		model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee),
+		model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee, true),
 				new Vector<>(Arrays.asList(title)));
 		PanelUtils.colRenderer(table, true, null, null);
-		model.fireTableDataChanged();
 		if (sortedColumn == null) {
 			sortedColumn = INDEX_NB_TOTAL;
 			sortOrder = SortOrder.DESCENDING;
 		}
 		table.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
+		for (int i = 0; i < table.getRowCount(); i++) {
+			table.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
+		}
+		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
+		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
+		model.fireTableDataChanged();
 		table.repaint();
 		selectedRow = -1;
 	}
