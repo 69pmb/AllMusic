@@ -202,15 +202,10 @@ public class SearchPanel extends JPanel {
 			@Override
 			@SuppressWarnings("unchecked")
 			public void sorterChanged(RowSorterEvent e) {
-				// Handling of line numbers
-				for (int i = 0; i < tableResult.getRowCount(); i++) {
-					tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
-				}
-				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-
-					// Sort of deleted column and store sorted column and order
 					List<SortKey> sortKeys = e.getSource().getSortKeys();
 					if (!sortKeys.isEmpty()) {
+					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+						// Sort of deleted column and store sorted column and order
 						int column = sortKeys.get(0).getColumn();
 						sortOrder = sortKeys.get(0).getSortOrder();
 						if (column == INDEX_SELECTED) {
@@ -225,7 +220,11 @@ public class SearchPanel extends JPanel {
 							sortedColumn = column;
 						}
 					}
+					// Handling of line numbers
+					for (int i = 0; i < tableResult.getRowCount(); i++) {
+						tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 				}
+			}
 			}
 		});
 		bottom.add(new JScrollPane(tableResult), BorderLayout.CENTER);
@@ -543,7 +542,7 @@ public class SearchPanel extends JPanel {
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
 		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE);
 		for (int i = 0; i < tableResult.getRowCount(); i++) {
-			tableResult.setValueAt(String.valueOf(i + 1), i, INDEX_LINE_NUMBER);
+			tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 		}
 		selectedRow = -1;
 		tableResult.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
