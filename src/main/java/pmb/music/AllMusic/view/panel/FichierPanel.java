@@ -58,6 +58,7 @@ import ca.odell.glazedlists.GlazedLists;
 import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -300,8 +301,9 @@ public class FichierPanel extends JPanel {
 		header.add(inputs);
 	}
 
+	@SuppressWarnings("unchecked")
 	private void initButtons(ArtistPanel artistPanel, JPanel header) {
-		JPanel buttons = new JPanel(new GridLayout(1, 6));
+		JPanel buttons = new JPanel(new GridLayout(1, 7));
 		// SEARCH
 		search = PanelUtils.createJButton("Rechercher", 120, Constant.ICON_SEARCH);
 		search.addActionListener(new AbstractAction() {
@@ -378,6 +380,28 @@ public class FichierPanel extends JPanel {
 			updateCompoTable(compositionList, selectedFichierName);
 		});
 		buttons.add(delete);
+		// CSV
+		JButton csv = PanelUtils.createJButton("Télécharger la liste des fichiers en CSV", 300, Constant.ICON_DOWNLOAD);
+		csv.addActionListener((ActionEvent e) -> {
+			List<String> c = Arrays
+					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), name.getText(), cat.getSelectedItems(),
+							type.getSelectedItems(), auteur.getText(),
+							"Sorted:" + Boolean.toString(sorted.isSelected()),
+							"Deleted:" + Boolean.toString(deleted.isSelected()))
+					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
+			String criteres = StringUtils.join(c, " ");
+			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(headerFiles));
+			csvHeader.add("Critères: " + criteres);
+			String name = CsvFile.exportCsv("files", MiscUtils.convertVectorToList(fichieModel.getDataVector()),
+					tableFiles.getRowSorter().getSortKeys().get(0),
+					csvHeader.toArray(new String[headerFiles.length + 1]));
+			try {
+				FichierUtils.openFileInExcel(Optional.of(name));
+			} catch (MyException e1) {
+				LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
+			}
+		});
+		buttons.add(csv);
 		// Label pour afficher les resultats
 		JPanel resultPanel = new JPanel();
 		resultLabel = PanelUtils.createJLabel("", 400);

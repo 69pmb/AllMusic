@@ -99,8 +99,10 @@ public class MiscUtils {
 				Object obj = rowVector.get(j);
 				if (obj instanceof String) {
 					row.add((String) obj);
-				} else if (obj instanceof Integer || obj instanceof Long) {
+				} else if (obj instanceof Integer || obj instanceof Long || obj instanceof Double) {
 					row.add(String.valueOf(obj));
+				} else if (obj instanceof Date) {
+					row.add(new Constant().getSdfDate().format((Date) obj));
 				}
 			}
 			result.add(row);
