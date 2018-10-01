@@ -990,7 +990,7 @@ public class BatchUtils {
 		}
 		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
-				.convertArtistPanelResultToVector(CompositionUtils.groupCompositionByArtist(yearList)).stream()
+				.convertArtistPanelResultToVector(CompositionUtils.groupCompositionByArtist(yearList), false).stream()
 				.filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
 		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
 		for (Vector<Object> vector : occurenceListTemp) {
