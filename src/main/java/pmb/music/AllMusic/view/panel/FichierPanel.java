@@ -193,24 +193,35 @@ public class FichierPanel extends JPanel {
 	 * @param authors la liste des auteurs
 	 */
 	private void initSearchBtn(ArtistPanel artistPanel, List<String> authors) {
-		JPanel header = new JPanel(new GridLayout(2, 6));
+		JPanel header = new JPanel(new GridLayout(2, 1));
+		initInputs(authors, header);
+		initButtons(artistPanel, header);
+		PanelUtils.setSize(header, (int) parentSize.getWidth(), Math.floorDiv(15 * (int) parentSize.getHeight(), 100));
+		this.add(header);
+	}
+
+	private void initInputs(List<String> authors, JPanel header) {
+		JPanel inputs = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		// Auteur
 		JPanel auteurPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(auteurPanel, 200, PanelUtils.PANEL_HEIGHT);
 		JLabel auteurLabel = PanelUtils.createJLabel("Auteur : ", 150);
 		auteur = new MyInputText(JComboBox.class, 150);
 		AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(), GlazedLists.eventListOf(authors.toArray()));
 		auteurPanel.add(auteurLabel);
 		auteurPanel.add(auteur);
-		header.add(auteurPanel);
+		inputs.add(auteurPanel);
 		// Nom du fichier
 		JPanel namePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(namePanel, 250, PanelUtils.PANEL_HEIGHT);
 		JLabel nameLabel = PanelUtils.createJLabel("Nom du fichier : ", 200);
 		name = new MyInputText(JTextField.class, 180);
 		namePanel.add(nameLabel);
 		namePanel.add(name);
-		header.add(namePanel);
+		inputs.add(namePanel);
 		// Publi
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(publiPanel, 270, PanelUtils.PANEL_HEIGHT);
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 230);
 		publi = new MyInputText(JTextField.class, 100);
 		searchRange = new JComboBox<String>(
@@ -219,9 +230,10 @@ public class FichierPanel extends JPanel {
 		publiPanel.add(publiLabel);
 		publiPanel.add(searchRange);
 		publiPanel.add(publi);
-		header.add(publiPanel);
+		inputs.add(publiPanel);
 		// Range
 		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 5, 0));
+		PanelUtils.setSize(rangePanel, 250, PanelUtils.PANEL_HEIGHT);
 		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 180);
 		rangeB = new JTextField();
 		rangeE = new JTextField();
@@ -244,44 +256,52 @@ public class FichierPanel extends JPanel {
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeB);
 		rangePanel.add(rangeE);
-		header.add(rangePanel);
+		inputs.add(rangePanel);
 		// Categorie
 		JPanel catPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(catPanel, 250, PanelUtils.PANEL_HEIGHT);
 		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 180);
 		cat = new JComboCheckBox(
 				Arrays.asList(Cat.values()).stream().map(c -> c.getCat()).collect(Collectors.toList()));
 		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
-		header.add(catPanel);
+		inputs.add(catPanel);
 		// Type
 		JPanel typePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(typePanel, 250, PanelUtils.PANEL_HEIGHT);
 		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
 		type = new JComboCheckBox(
 				Arrays.asList(RecordType.values()).stream().map(t -> t.getRecordType()).collect(Collectors.toList()));
 		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		typePanel.add(typeLabel);
 		typePanel.add(type);
-		header.add(typePanel);
+		inputs.add(typePanel);
 		// Sorted
 		JPanel sortedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(sortedPanel, 200, PanelUtils.PANEL_HEIGHT);
 		JLabel sortedLabel = PanelUtils.createJLabel("Classé: ", 150);
 		sorted = new JCheckBox();
 		sorted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		sorted.setHorizontalAlignment(SwingConstants.CENTER);
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
-		header.add(sortedPanel);
+		inputs.add(sortedPanel);
 		// Deleted
 		JPanel deletedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(deletedPanel, 200, PanelUtils.PANEL_HEIGHT);
 		JLabel deletedLabel = PanelUtils.createJLabel("Supprimées: ", 150);
 		deleted = new JCheckBox();
 		deleted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		deleted.setHorizontalAlignment(SwingConstants.CENTER);
 		deletedPanel.add(deletedLabel);
 		deletedPanel.add(deleted);
-		header.add(deletedPanel);
+		inputs.add(deletedPanel);
+		header.add(inputs);
+	}
 
+	private void initButtons(ArtistPanel artistPanel, JPanel header) {
+		JPanel buttons = new JPanel(new GridLayout(1, 6));
 		// SEARCH
 		search = PanelUtils.createJButton("Rechercher", 120, Constant.ICON_SEARCH);
 		search.addActionListener(new AbstractAction() {
@@ -293,7 +313,7 @@ public class FichierPanel extends JPanel {
 				searchAction();
 			}
 		});
-		header.add(search);
+		buttons.add(search);
 		// RESET
 		reset = PanelUtils.createJButton("Réinitialiser", 120, Constant.ICON_ERASE);
 		reset.addActionListener(new AbstractAction() {
@@ -305,7 +325,7 @@ public class FichierPanel extends JPanel {
 				resetAction();
 			}
 		});
-		header.add(reset);
+		buttons.add(reset);
 		// hideFileList
 		hideFileList = PanelUtils.createJButton("Cacher la liste des fichiers", 180, Constant.ICON_HIDE);
 		hideFileList.addActionListener(new AbstractAction() {
@@ -327,7 +347,7 @@ public class FichierPanel extends JPanel {
 				}
 			}
 		});
-		header.add(hideFileList);
+		buttons.add(hideFileList);
 		// hideCompoList
 		hideCompoList = PanelUtils.createJButton("Cacher la liste des compositions", 200, Constant.ICON_HIDE);
 		hideCompoList.addActionListener(new AbstractAction() {
@@ -349,7 +369,7 @@ public class FichierPanel extends JPanel {
 				}
 			}
 		});
-		header.add(hideCompoList);
+		buttons.add(hideCompoList);
 		// Delete Btn
 		JButton delete = PanelUtils.createJButton("<html>Supprimer les compositions sélectionnées</html>", 200,
 				Constant.ICON_DELETE);
@@ -357,7 +377,7 @@ public class FichierPanel extends JPanel {
 			PanelUtils.deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel);
 			updateCompoTable(compositionList, selectedFichierName);
 		});
-		header.add(delete);
+		buttons.add(delete);
 		// Label pour afficher les resultats
 		JPanel resultPanel = new JPanel();
 		resultLabel = PanelUtils.createJLabel("", 400);
@@ -365,10 +385,8 @@ public class FichierPanel extends JPanel {
 		Font labelFont2 = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 20));
 		resultPanel.add(resultLabel);
-		header.add(resultPanel);
-
-		PanelUtils.setSize(header, (int) parentSize.getWidth(), Math.floorDiv(15 * (int) parentSize.getHeight(), 100));
-		this.add(header);
+		buttons.add(resultPanel);
+		header.add(buttons);
 	}
 
 	@SuppressWarnings({ "unchecked" })
