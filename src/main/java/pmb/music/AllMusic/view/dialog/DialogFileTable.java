@@ -115,7 +115,7 @@ public class DialogFileTable extends JDialog {
 		fichiers.setBackground(UIManager.getColor("Label.background"));
 		fichiers.setFont(UIManager.getFont("Label.font"));
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
-		fichiers.setModel(new FichierDialogModel(FichierUtils.convertCompositionListToFichierVector(compoList, true),
+		fichiers.setModel(new FichierDialogModel(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
 				new Vector(Arrays.asList(header))));
 		fichiers.getRowSorter().toggleSortOrder(defaultSort);
 		((TableRowSorter) fichiers.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);

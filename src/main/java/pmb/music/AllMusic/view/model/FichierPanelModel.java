@@ -45,7 +45,8 @@ public class FichierPanelModel extends AbstractModel {
 
 	@Override
 	public Class<?> getColumnClass(int col) {
-		if (col == FichierPanel.INDEX_FILE_PUBLISH || col == FichierPanel.INDEX_FILE_SIZE) {
+		if (col == FichierPanel.INDEX_FILE_PUBLISH || col == FichierPanel.INDEX_FILE_SIZE
+				|| col == FichierPanel.INDEX_FILE_LINE_NUMBER) {
 			return Integer.class;
 		} else if (col == FichierPanel.INDEX_CREATE_DATE) {
 			return Date.class;

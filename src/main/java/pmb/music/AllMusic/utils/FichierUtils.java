@@ -59,15 +59,19 @@ public class FichierUtils {
 	 * @param compoList {@code List<Composition>} la liste à convertir
 	 * @param getComposition si vrai récupère la composition associée pour chaque
 	 *            fichier
+	 * @param lineNumber if true add a column for line number
 	 * @return Vector<Vector<Object>> la liste convertie
 	 */
 	public static Vector<Vector<Object>> convertCompositionListToFichierVector(List<Composition> compoList,
-			boolean getComposition) {
+			boolean getComposition, boolean lineNumber) {
 		LOG.debug("Start convertListForJTable");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		compoList.parallelStream().forEach(c -> {
 			c.getFiles().parallelStream().forEach(f -> {
 				Vector<Object> v = new Vector<>();
+				if (lineNumber) {
+					v.addElement(0);
+				}
 				List<Composition> importXML = ImportXML
 						.importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
 				if (getComposition) {
