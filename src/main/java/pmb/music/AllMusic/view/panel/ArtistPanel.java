@@ -79,24 +79,24 @@ public class ArtistPanel extends JPanel {
 	private static final long serialVersionUID = 2593372709628283573L;
 
 	private static final Logger LOG = Logger.getLogger(ArtistPanel.class);
-	private static final int INDEX_ARTIST = 0;
-	private static final int INDEX_NB_TOTAL = 1;
+	public static final int INDEX_ARTIST = 0;
+	public static final int INDEX_NB_TOTAL = 1;
 
-	private final JComboBox<String> searchRange;
-	private final MyInputText publi;
-	private final MyInputText rangeB;
-	private final MyInputText rangeE;
-	private final MyInputText auteur;
-	private final JComboCheckBox cat;
-	private final JButton search;
-	private final JButton reset;
+	private JComboBox<String> searchRange;
+	private MyInputText publi;
+	private MyInputText rangeB;
+	private MyInputText rangeE;
+	private MyInputText auteur;
+	private JComboCheckBox cat;
+	private JButton search;
+	private JButton reset;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
-	private final JCheckBox deleted;
+	private JCheckBox deleted;
 
-	private final JTable table;
+	private JTable table;
 
-	private final ArtistModel model;
+	private ArtistModel model;
 
 	private Map<String, List<Composition>> data;
 	private Map<String, List<Composition>> searchResult;
@@ -114,13 +114,20 @@ public class ArtistPanel extends JPanel {
 	 * @param withArtist if true the artist panel is displayed and the data is
 	 *            calculated
 	 */
-	@SuppressWarnings("unchecked")
 	public ArtistPanel(boolean withArtist) {
 		super();
 		LOG.debug("Start ArtistPanel");
 		this.withArtist = withArtist;
 		this.setLayout(new BorderLayout());
+		JPanel header = initHeader();
+		initTable();
+		JButton csv = initCsvBtn();
+		header.add(csv);
+		this.add(header, BorderLayout.PAGE_START);
+		LOG.debug("End ArtistPanel");
+	}
 
+	private JPanel initHeader() {
 		JPanel header = new JPanel();
 		// Publi
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
@@ -211,8 +218,10 @@ public class ArtistPanel extends JPanel {
 			}
 		});
 		header.add(reset);
+		return header;
+	}
 
-		// ----- DEBUT TABLE ----------
+	private void initTable() {
 		table = new JTable();
 		table.setAutoCreateRowSorter(true);
 		table.setRowHeight(30);
@@ -221,10 +230,11 @@ public class ArtistPanel extends JPanel {
 		table.setBackground(UIManager.getColor("Label.background"));
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));
-		model = new ArtistModel(new Object[0][4], title);
+		model = new ArtistModel(new Object[0][title.length], title);
 		table.setModel(model);
 		table.setRowSorter(new TableRowSorter<TableModel>(model));
 		table.getRowSorter().addRowSorterListener(new RowSorterListener() {
+			@SuppressWarnings("unchecked")
 			@Override
 			public void sorterChanged(RowSorterEvent e) {
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
@@ -264,8 +274,10 @@ public class ArtistPanel extends JPanel {
 		});
 
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
-		// ----- FIN TABLE ----------
+	}
 
+	@SuppressWarnings("unchecked")
+	private JButton initCsvBtn() {
 		// CSV
 		JButton csv = PanelUtils.createJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
@@ -284,10 +296,7 @@ public class ArtistPanel extends JPanel {
 			}
 			LOG.debug("End Csv");
 		});
-		header.add(csv);
-		this.add(header, BorderLayout.PAGE_START);
-
-		LOG.debug("End ArtistPanel");
+		return csv;
 	}
 
 	/**

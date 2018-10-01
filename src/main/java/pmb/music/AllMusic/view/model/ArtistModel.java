@@ -5,6 +5,8 @@ package pmb.music.AllMusic.view.model;
 
 import java.util.List;
 
+import pmb.music.AllMusic.view.panel.ArtistPanel;
+
 /**
  * Décrit la façon dont les données de l'onglet artiste seront affichées.
  * 
@@ -31,7 +33,7 @@ public class ArtistModel extends AbstractModel {
 
 	@Override
 	public Class<?> getColumnClass(int col) {
-		if (col == 0) {
+		if (col == ArtistPanel.INDEX_ARTIST) {
 			return String.class;
 		} else {
 			return Integer.class;
