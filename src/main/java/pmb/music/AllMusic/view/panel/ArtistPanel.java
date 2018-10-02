@@ -136,6 +136,7 @@ public class ArtistPanel extends JPanel {
 		PanelUtils.setSize(publiPanel, 230, PanelUtils.PANEL_HEIGHT);
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 200);
 		publi = new MyInputText(JTextField.class, 75);
+		publi.getInput().addFocusListener(PanelUtils.selectAll);
 		searchRange = new JComboBox<String>(
 				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
 		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
@@ -150,7 +151,8 @@ public class ArtistPanel extends JPanel {
 		PanelUtils.setSize(rangeLabel, 180, PanelUtils.COMPONENT_HEIGHT);
 		rangeB = new MyInputText(JTextField.class, 90);
 		rangeE = new MyInputText(JTextField.class, 90);
-		rangeE.addFocusListener(new FocusListener() {
+		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
+		rangeE.getInput().addFocusListener(new FocusListener() {
 			@Override
 			public void focusLost(FocusEvent e) {
 			}
@@ -158,7 +160,7 @@ public class ArtistPanel extends JPanel {
 			@Override
 			public void focusGained(FocusEvent e) {
 				JTextField source = (JTextField) e.getSource();
-				if (StringUtils.isBlank(source.getText()) && StringUtils.isNotBlank(rangeB.getText())) {
+				if (StringUtils.isNotBlank(rangeB.getText())) {
 					source.setText(rangeB.getText());
 					source.selectAll();
 				}
