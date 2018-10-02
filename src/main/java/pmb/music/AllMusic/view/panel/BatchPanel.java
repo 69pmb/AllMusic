@@ -433,7 +433,7 @@ public class BatchPanel extends JPanel {
 		JButton clearBtn = PanelUtils.createJButton("Vider la zone de résultat", 200, Constant.ICON_ERASE);
 		clearBtn.addActionListener((ActionEvent arg0) -> {
 			resultLabelData = null;
-			displayText("", false);
+			displayText(null, false);
 		});
 		btnPanel.add(clearBtn);
 		// Notepad
@@ -463,10 +463,9 @@ public class BatchPanel extends JPanel {
 	 * Ajoute un message dans la zone de texte resultLabel.
 	 * 
 	 * @param text un nouveau texte à afficher
-	 * @param replaceLast true replace previous line, fale append it
+	 * @param replaceLast true replace previous line, false append it
 	 */
 	public void displayText(String text, boolean replaceLast) {
-		LOG.debug("Start displayText");
 		if (resultLabelData == null) {
 			resultLabelData = new ArrayList<>();
 		}
@@ -479,7 +478,6 @@ public class BatchPanel extends JPanel {
 		resultLabel.setForeground(new Color(243, 16, 16));
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
-		LOG.debug("End displayText");
 	}
 
 }
