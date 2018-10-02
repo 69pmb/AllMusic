@@ -117,8 +117,8 @@ public class FichierPanel extends JPanel {
 	private MyInputText name;
 	private JComboBox<String> searchRange;
 	private MyInputText publi;
-	private JTextField rangeB;
-	private JTextField rangeE;
+	private MyInputText rangeB;
+	private MyInputText rangeE;
 	private JComboCheckBox cat;
 	private JComboCheckBox type;
 	private JCheckBox sorted;
@@ -217,6 +217,7 @@ public class FichierPanel extends JPanel {
 		PanelUtils.setSize(namePanel, 250, PanelUtils.PANEL_HEIGHT);
 		JLabel nameLabel = PanelUtils.createJLabel("Nom du fichier : ", 200);
 		name = new MyInputText(JTextField.class, 180);
+		name.getInput().addFocusListener(PanelUtils.selectAll);
 		namePanel.add(nameLabel);
 		namePanel.add(name);
 		inputs.add(namePanel);
@@ -225,6 +226,7 @@ public class FichierPanel extends JPanel {
 		PanelUtils.setSize(publiPanel, 270, PanelUtils.PANEL_HEIGHT);
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 230);
 		publi = new MyInputText(JTextField.class, 100);
+		publi.getInput().addFocusListener(PanelUtils.selectAll);
 		searchRange = new JComboBox<String>(
 				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
 		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
@@ -233,12 +235,13 @@ public class FichierPanel extends JPanel {
 		publiPanel.add(publi);
 		inputs.add(publiPanel);
 		// Range
-		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 5, 0));
-		PanelUtils.setSize(rangePanel, 250, PanelUtils.PANEL_HEIGHT);
+		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(rangePanel, 270, PanelUtils.PANEL_HEIGHT);
 		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 180);
-		rangeB = new JTextField();
-		rangeE = new JTextField();
-		rangeE.addFocusListener(new FocusListener() {
+		rangeB = new MyInputText(JTextField.class, 70);
+		rangeE = new MyInputText(JTextField.class, 70);
+		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
+		rangeE.getInput().addFocusListener(new FocusListener() {
 			@Override
 			public void focusLost(FocusEvent e) {
 			}
@@ -246,14 +249,12 @@ public class FichierPanel extends JPanel {
 			@Override
 			public void focusGained(FocusEvent e) {
 				JTextField source = (JTextField) e.getSource();
-				if (StringUtils.isBlank(source.getText()) && StringUtils.isNotBlank(rangeB.getText())) {
+				if (StringUtils.isNotBlank(rangeB.getText())) {
 					source.setText(rangeB.getText());
 					source.selectAll();
 				}
 			}
 		});
-		PanelUtils.setSize(rangeB, 85, PanelUtils.COMPONENT_HEIGHT);
-		PanelUtils.setSize(rangeE, 85, PanelUtils.COMPONENT_HEIGHT);
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeB);
 		rangePanel.add(rangeE);
@@ -280,20 +281,20 @@ public class FichierPanel extends JPanel {
 		inputs.add(typePanel);
 		// Sorted
 		JPanel sortedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(sortedPanel, 200, PanelUtils.PANEL_HEIGHT);
+		PanelUtils.setSize(sortedPanel, 100, PanelUtils.PANEL_HEIGHT);
 		JLabel sortedLabel = PanelUtils.createJLabel("Classé: ", 150);
 		sorted = new JCheckBox();
-		sorted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		sorted.setPreferredSize(new Dimension(80, PanelUtils.COMPONENT_HEIGHT));
 		sorted.setHorizontalAlignment(SwingConstants.CENTER);
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 		inputs.add(sortedPanel);
 		// Deleted
 		JPanel deletedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(deletedPanel, 200, PanelUtils.PANEL_HEIGHT);
-		JLabel deletedLabel = PanelUtils.createJLabel("Supprimées: ", 150);
+		PanelUtils.setSize(deletedPanel, 100, PanelUtils.PANEL_HEIGHT);
+		JLabel deletedLabel = PanelUtils.createJLabel("Supprimé: ", 150);
 		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		deleted.setPreferredSize(new Dimension(80, PanelUtils.COMPONENT_HEIGHT));
 		deleted.setHorizontalAlignment(SwingConstants.CENTER);
 		deletedPanel.add(deletedLabel);
 		deletedPanel.add(deleted);

@@ -95,8 +95,8 @@ public class SearchPanel extends JPanel {
 
 	private JComboBox<String> searchRange;
 	private MyInputText publi;
-	private JTextField rangeB;
-	private JTextField rangeE;
+	private MyInputText rangeB;
+	private MyInputText rangeE;
 	private MyInputText fileName;
 	private JCheckBox sorted;
 	private JCheckBox deleted;
@@ -281,6 +281,7 @@ public class SearchPanel extends JPanel {
 		JPanel fileNamePanel = new JPanel();
 		JLabel fileNameLabel = PanelUtils.createJLabel("Nom du fichier : ", 250);
 		fileName = new MyInputText(JTextField.class, 170);
+		fileName.getInput().addFocusListener(PanelUtils.selectAll);
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
 		searchFields.add(fileNamePanel);
@@ -305,11 +306,12 @@ public class SearchPanel extends JPanel {
 		searchFields.add(typePanel);
 
 		// Range
-		JPanel rangePanel = new JPanel();
-		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 200);
-		rangeB = new JTextField();
-		rangeE = new JTextField();
-		rangeE.addFocusListener(new FocusListener() {
+		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 180);
+		rangeB = new MyInputText(JTextField.class, 65);
+		rangeE = new MyInputText(JTextField.class, 65);
+		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
+		rangeE.getInput().addFocusListener(new FocusListener() {
 			@Override
 			public void focusLost(FocusEvent e) {
 			}
@@ -317,14 +319,12 @@ public class SearchPanel extends JPanel {
 			@Override
 			public void focusGained(FocusEvent e) {
 				JTextField source = (JTextField) e.getSource();
-				if (StringUtils.isBlank(source.getText()) && StringUtils.isNotBlank(rangeB.getText())) {
+				if (StringUtils.isNotBlank(rangeB.getText())) {
 					source.setText(rangeB.getText());
 					source.selectAll();
 				}
 			}
 		});
-		PanelUtils.setSize(rangeB, 100, PanelUtils.COMPONENT_HEIGHT);
-		PanelUtils.setSize(rangeE, 100, PanelUtils.COMPONENT_HEIGHT);
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeB);
 		rangePanel.add(rangeE);
@@ -347,6 +347,7 @@ public class SearchPanel extends JPanel {
 		searchRange = new JComboBox<String>(
 				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
 		searchRange.setPreferredSize(new Dimension(45, PanelUtils.COMPONENT_HEIGHT));
+		publi.getInput().addFocusListener(PanelUtils.selectAll);
 		publiPanel.add(publiLabel);
 		publiPanel.add(searchRange);
 		publiPanel.add(publi);
