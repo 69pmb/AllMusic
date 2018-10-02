@@ -38,6 +38,9 @@ public class ModifyCompositionDialog extends JDialog {
 	private JTextField titre;
 	private JComboBox<RecordType> type;
 	private boolean sendData;
+	private int artistIndex;
+	private int titleIndex;
+	private int typeIndex;
 
 	/**
 	 * Constructeur de {@link ModifyCompositionDialog}.
@@ -45,13 +48,19 @@ public class ModifyCompositionDialog extends JDialog {
 	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
-	 * @param files {@code List<Fichier>} la liste des fichier à afficher
 	 * @param dim {@link Dimension} les dimension de la popup
 	 * @param compo {@link Vector} la compo à modifier
+	 * @param artistIndex index de l'artiste dans la composition
+	 * @param titleIndex index du titre dans la composition
+	 * @param typeIndex index du type dans la composition
 	 */
-	public ModifyCompositionDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector compo) {
+	public ModifyCompositionDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector compo,
+			int artistIndex, int titleIndex, int typeIndex) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
+		this.artistIndex = artistIndex;
+		this.titleIndex = titleIndex;
+		this.typeIndex = typeIndex;
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
@@ -59,7 +68,7 @@ public class ModifyCompositionDialog extends JDialog {
 		this.setResizable(true);
 		initComposant();
 		this.getRootPane().registerKeyboardAction(e -> {
-		    this.dispose();
+			this.dispose();
 		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 		LOG.debug("End DialogFileTable");
 	}
@@ -71,7 +80,7 @@ public class ModifyCompositionDialog extends JDialog {
 		JPanel artistPanel = new JPanel();
 		artistPanel.setPreferredSize(new Dimension(250, 60));
 		JLabel artistLabel = new JLabel("Artiste : ");
-		artist = new JTextField((String) compo.get(0));
+		artist = new JTextField((String) compo.get(artistIndex));
 		artist.setPreferredSize(new Dimension(230, 30));
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
@@ -80,7 +89,7 @@ public class ModifyCompositionDialog extends JDialog {
 		JPanel titrePanel = new JPanel();
 		titrePanel.setPreferredSize(new Dimension(300, 60));
 		JLabel titreLabel = new JLabel("Titre : ");
-		titre = new JTextField((String) compo.get(1));
+		titre = new JTextField((String) compo.get(titleIndex));
 		titre.setPreferredSize(new Dimension(270, 30));
 		titrePanel.add(titreLabel);
 		titrePanel.add(titre);
@@ -89,13 +98,9 @@ public class ModifyCompositionDialog extends JDialog {
 		JPanel typePanel = new JPanel();
 		typePanel.setPreferredSize(new Dimension(180, 60));
 		JLabel typeLabel = new JLabel("Type : ");
-		type = new JComboBox<>();
-		RecordType[] valuesType = RecordType.values();
-		for (int i = 0; i < valuesType.length; i++) {
-			type.addItem(valuesType[i]);
-		}
+		type = new JComboBox<>(RecordType.values());
 		type.setPreferredSize(new Dimension(150, 25));
-		type.setSelectedItem(RecordType.valueOf((String) compo.get(2)));
+		type.setSelectedItem(RecordType.valueOf((String) compo.get(typeIndex)));
 		typePanel.add(typeLabel);
 		typePanel.add(type);
 
@@ -110,9 +115,9 @@ public class ModifyCompositionDialog extends JDialog {
 		okBouton.addActionListener((ActionEvent arg0) -> {
 			setVisible(false);
 			sendData = true;
-			compo.set(0, artist.getText());
-			compo.set(1, titre.getText());
-			compo.set(2, type.getSelectedItem().toString());
+			compo.set(artistIndex, artist.getText());
+			compo.set(titleIndex, titre.getText());
+			compo.set(typeIndex, type.getSelectedItem().toString());
 		});
 
 		JButton cancelBouton = new JButton("Annuler");
@@ -139,10 +144,16 @@ public class ModifyCompositionDialog extends JDialog {
 		LOG.debug("End showDialogFileTable");
 	}
 
+	/**
+	 * @return la composition à modifier
+	 */
 	public Vector getCompo() {
 		return compo;
 	}
 
+	/**
+	 * @return if true the user has validate the modifications
+	 */
 	public boolean isSendData() {
 		return sendData;
 	}
