@@ -630,7 +630,7 @@ public class SearchPanel extends JPanel {
 		}
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
-				new Dimension(800, 150), v);
+				new Dimension(800, 150), v, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE);
 		md.showDialogFileTable();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée
