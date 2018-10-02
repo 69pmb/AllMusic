@@ -11,6 +11,9 @@ import java.awt.event.FocusListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -181,6 +184,31 @@ public class PanelUtils {
 		}
 		LOG.debug("End getSelectedRow");
 		return Optional.ofNullable(selectedRow);
+	}
+
+	@SuppressWarnings("unchecked")
+	public static <T extends AbstractModel> List<List<String>> convertDataVectorToList(JTable table) {
+		List<List<String>> result = new ArrayList<>();
+		TableModel model = table.getModel();
+		for (int i = 0; i < model.getRowCount(); i++) {
+			Vector<String> selectedRow = (Vector<String>) ((T) model).getDataVector()
+					.get(table.getRowSorter().convertRowIndexToModel(i));
+			List<String> row = new ArrayList<>();
+			for (int j = 0; j < model.getColumnCount(); j++) {
+				if (model.getColumnClass(j) == Boolean.class) {
+					row.add(String.valueOf(selectedRow.get(j)));
+				} else if (model.getColumnClass(j) == Integer.class || model.getColumnClass(j) == Double.class
+						|| model.getColumnClass(j) == Long.class) {
+					row.add(NumberFormat.getNumberInstance().format(selectedRow.get(j)));
+				} else if (model.getColumnClass(j) == Date.class) {
+					row.add(new Constant().getSdfDate().format(selectedRow.get(j)));
+				} else {
+					row.add(selectedRow.get(j));
+				}
+			}
+			result.add(row);
+		}
+		return result;
 	}
 
 	@SuppressWarnings("unchecked")

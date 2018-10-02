@@ -301,7 +301,6 @@ public class FichierPanel extends JPanel {
 		header.add(inputs);
 	}
 
-	@SuppressWarnings("unchecked")
 	private void initButtons(ArtistPanel artistPanel, JPanel header) {
 		JPanel buttons = new JPanel(new GridLayout(1, 7));
 		// SEARCH
@@ -392,8 +391,7 @@ public class FichierPanel extends JPanel {
 			String criteres = StringUtils.join(c, " ");
 			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(headerFiles));
 			csvHeader.add("Critères: " + criteres);
-			String name = CsvFile.exportCsv("files", MiscUtils.convertVectorToList(fichieModel.getDataVector()),
-					tableFiles.getRowSorter().getSortKeys().get(0),
+			String name = CsvFile.exportCsv("files", PanelUtils.convertDataVectorToList(tableFiles), null,
 					csvHeader.toArray(new String[headerFiles.length + 1]));
 			try {
 				FichierUtils.openFileInExcel(Optional.of(name));
