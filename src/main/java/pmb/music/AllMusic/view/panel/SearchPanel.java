@@ -67,7 +67,6 @@ import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
-import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.PanelUtils;
@@ -160,7 +159,6 @@ public class SearchPanel extends JPanel {
 	 * @param artist2 le panel artist
 	 * @param header le header de l'onglet
 	 */
-	@SuppressWarnings("unchecked")
 	private void initButtons(final ArtistPanel artist2, JPanel header) {
 		JPanel top = new JPanel(new FlowLayout(FlowLayout.LEFT));
 		AbstractAction searchAction = new AbstractAction() {
@@ -223,8 +221,8 @@ public class SearchPanel extends JPanel {
 			String criteres = StringUtils.join(c, " ");
 			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
 			csvHeader.add("Critères: " + criteres);
-			String name = CsvFile.exportCsv("search", MiscUtils.convertVectorToList(model.getDataVector()),
-					tableResult.getRowSorter().getSortKeys().get(0), csvHeader.toArray(new String[title.length + 1]));
+			String name = CsvFile.exportCsv("search", PanelUtils.convertDataVectorToList(tableResult), null,
+					csvHeader.toArray(new String[title.length + 1]));
 			try {
 				FichierUtils.openFileInExcel(Optional.of(name));
 			} catch (MyException e1) {

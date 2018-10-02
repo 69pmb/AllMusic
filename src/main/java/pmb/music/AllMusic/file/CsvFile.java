@@ -35,13 +35,33 @@ public class CsvFile {
 	 * 
 	 * @param filename the name of the csv file
 	 * @param csv the data to save
-	 * @param sortKey {@link SortKey} le tri du tableau
+	 * @param sortKey {@link SortKey} le tri du tableau si necessaire
 	 * @param header the header of the file
 	 * @return le full name of the saved file
 	 */
 	public static String exportCsv(String filename, List<List<String>> csv, SortKey sortKey, String[] header) {
 		LOG.debug("Start exportCsv");
-		if (sortKey != null && !csv.isEmpty()) {
+		if (sortKey != null) {
+			sortCsvList(csv, sortKey);
+		}
+		String name = Constant.getOutputDir() + filename + Constant.CSV_EXTENSION;
+		// Writing
+		try (CSVWriter csvWriter = new CSVWriter(
+				new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), ';',
+				CSVWriter.DEFAULT_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END);) {
+			csvWriter.writeNext(header);
+			for (List<String> row : csv) {
+				csvWriter.writeNext(row.toArray(new String[0]));
+			}
+		} catch (IOException e) {
+			LOG.error("Erreur lors de la génération du csv", e);
+		}
+		LOG.debug("End exportCsv");
+		return name;
+	}
+
+	private static void sortCsvList(List<List<String>> csv, SortKey sortKey) {
+		if (!csv.isEmpty()) {
 			LOG.debug("Sorting");
 			// Sorting
 			List<String> list = csv.get(0);
@@ -75,19 +95,5 @@ public class CsvFile {
 				}
 			}
 		}
-		String name = Constant.getOutputDir() + filename + Constant.CSV_EXTENSION;
-		// Writing
-		try (CSVWriter csvWriter = new CSVWriter(
-				new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), ';',
-				CSVWriter.DEFAULT_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END);) {
-			csvWriter.writeNext(header);
-			for (List<String> row : csv) {
-				csvWriter.writeNext(row.toArray(new String[0]));
-			}
-		} catch (IOException e) {
-			LOG.error("Erreur lors de la génération du csv", e);
-		}
-		LOG.debug("End exportCsv");
-		return name;
 	}
 }
