@@ -54,8 +54,6 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -75,6 +73,8 @@ import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -273,7 +273,7 @@ public class SearchPanel extends JPanel {
 		// Nom du fichier
 		JPanel fileNamePanel = new JPanel();
 		JLabel fileNameLabel = PanelUtils.createJLabel("Nom du fichier : ", 250);
-		fileName = new MyInputText(JTextField.class, 170);
+		fileName = new MyInputText(JTextField.class, 150);
 		fileName.getInput().addFocusListener(PanelUtils.selectAll);
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
@@ -301,9 +301,9 @@ public class SearchPanel extends JPanel {
 
 		// Range
 		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 180);
-		rangeB = new MyInputText(JTextField.class, 65);
-		rangeE = new MyInputText(JTextField.class, 65);
+		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 200);
+		rangeB = new MyInputText(JTextField.class, 50);
+		rangeE = new MyInputText(JTextField.class, 50);
 		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
 		rangeE.getInput().addFocusListener(new FocusListener() {
 			@Override
