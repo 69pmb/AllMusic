@@ -212,8 +212,12 @@ public class CompositionUtils {
 	 * Group by artist the given list of compositions.
 	 * 
 	 * @param compoList {@code List<Composition>} a compositions list
-	 * @return {@code Map<String, List<Composition>>}, {@code key}: the artist,
-	 *         {@code value}: a list of composition of the artist
+	 * @return
+	 *         <ul>
+	 *         {@code Map<String, List<Composition>>}
+	 *         <li>{@code key}: the artist</li>
+	 *         <li>{@code value}: a list of compositions of this artist</li>
+	 *         </ul>
 	 */
 	public static Map<String, List<Composition>> groupCompositionByArtist(List<Composition> compoList) {
 		LOG.debug("Start groupCompositionByArtist");
@@ -257,13 +261,20 @@ public class CompositionUtils {
 
 	/**
 	 * Converts a map to Vector, counting the number of occurences for each artist
-	 * by total, album and song.
+	 * by total, album and song, and with a score for this artist.
 	 * 
 	 * @param map {@code Map<String, List<Composition>>} with key an artist and
 	 *            value its compositions
 	 * @param lineNumber if true add a column for line number
-	 * @return {@code Vector<Vector<Object>>} with 1st column the artist, 2nd total
-	 *         occurences, 3th by album and 4th by song
+	 * @return
+	 *         <ul>
+	 *         {@code Vector<Vector<Object>>} with :
+	 *         <li>1st column the artist</li>
+	 *         <li>2nd total occurences</li>
+	 *         <li>3td total occurences by album</li>
+	 *         <li>4th total occurences by song</li>
+	 *         <li>5th sum of the score of each compositions</li>
+	 *         </ul>
 	 */
 	public static Vector<Vector<Object>> convertArtistPanelResultToVector(Map<String, List<Composition>> map,
 			boolean lineNumber) {
@@ -279,6 +290,11 @@ public class CompositionUtils {
 					.mapToInt(c -> c.getFiles().size()).sum());
 			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
 					.mapToInt(c -> c.getFiles().size()).sum());
+			v.addElement(e.getValue().stream()
+					.map(c -> CompositionUtils.calculateCompositionScore(
+							OngletPanel.getScore().getLogMax(c.getRecordType()),
+							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
+					.mapToLong(x -> x).sum());
 			return v;
 		}).collect(Collector.of(() -> new Vector<Vector<Object>>(),
 				(result, newElement) -> result.addElement(newElement), (result1, result2) -> {
