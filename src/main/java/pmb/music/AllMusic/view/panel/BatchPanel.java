@@ -32,21 +32,25 @@ import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.PanelUtils;
 
 /**
-* Onglet pour lancer des traitements.
- * Batchs List: 
- * - Find duplicate compositions: FDC
- * - Find duplicate files: FDF 
- * - Missing XML files: MXF
- * - Top year: top
- * - Nettoyer dossier historique: clearHistory
- * - Finds suspicious compositions: suspicious
- * - Finds duplicates title with different artist: duplicateTitle
- * - Checks filenames (Author + name + publishYear): validateFileName
- * - Calculates in a file for each compositions, the number of files associates 
- *   to it and get the average for the file: averageOfFilesByFiles
- * - Looks for weird file size: weirdFileSize
- * - Générer des statistiques: stats
- * - By looking in other files, guess the type of unknown compositions: findUnknown
+ * Onglet pour lancer des traitements.
+ * <ul>
+ * Batchs List :
+ * <li>Find duplicate compositions: FDC</li>
+ * <li>Find duplicate files: FDF</li>
+ * <li>Missing XML files: MXF</li>
+ * <li>Top year: top</li>
+ * <li>Nettoyer dossier historique: clearHistory</li>
+ * <li>Finds suspicious compositions: suspicious</li>
+ * <li>Finds duplicates title with different artist: duplicateTitle</li>
+ * <li>Checks filenames (Author + name + publishYear): validateFileName</li>
+ * <li>Calculates in a file for each compositions, the number of files
+ * associates to it and get the average for the file: averageOfFilesByFiles</li>
+ * <li>Looks for weird file size: weirdFileSize</li>
+ * <li>Générer des statistiques: stats</li>
+ * <li>By looking in other files, guess the type of unknown compositions:
+ * findUnknown
+ * </ul>
+ * 
  * @author PBR
  */
 public class BatchPanel extends JPanel {
@@ -59,6 +63,10 @@ public class BatchPanel extends JPanel {
 	private JTextArea resultLabel;
 	private List<String> resultLabelData;
 	private String fileResult = Constant.BATCH_FILE;
+	/**
+	 * Open the result file in notepad.
+	 */
+	private JButton batchFileBtn;
 
 	public BatchPanel() {
 		super();
@@ -437,7 +445,7 @@ public class BatchPanel extends JPanel {
 		});
 		btnPanel.add(clearBtn);
 		// Notepad
-		JButton batchFileBtn = PanelUtils.createJButton("Ouvrir le fichier de résultat", 200, Constant.ICON_TXT_FILE);
+		batchFileBtn = PanelUtils.createJButton("Ouvrir le fichier de résultat", 200, Constant.ICON_TXT_FILE);
 		batchFileBtn.addActionListener((ActionEvent arg0) -> openResultFileInNotepad());
 		btnPanel.add(batchFileBtn);
 
@@ -478,6 +486,10 @@ public class BatchPanel extends JPanel {
 		resultLabel.setForeground(new Color(243, 16, 16));
 		Font labelFont = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
+	}
+
+	public JButton getBatchFileBtn() {
+		return batchFileBtn;
 	}
 
 }
