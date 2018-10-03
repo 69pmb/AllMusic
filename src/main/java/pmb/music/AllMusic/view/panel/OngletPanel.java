@@ -5,7 +5,9 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 import javax.swing.JPanel;
@@ -22,8 +24,10 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
+import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.PanelUtils;
 
@@ -58,9 +62,10 @@ public class OngletPanel extends JPanel {
 		onglets.setPreferredSize(dim);
 
 		initScore();
-		setArtistList();
-		setTitleList();
-		setAuthorList();
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		setArtistList(importXML);
+		setTitleList(importXML);
+		setAuthorList(importXML);
 
 		ArtistPanel artist = new ArtistPanel(withArtist);
 		ImportPanel importFile = new ImportPanel(artist);
@@ -126,36 +131,54 @@ public class OngletPanel extends JPanel {
 	private void initScore() {
 		LOG.debug("Start initScore");
 		OngletPanel.score = new Score();
-		score.setLogMaxAlbum(CompositionUtils.getLogMax(RecordType.ALBUM));
-		score.setLogMaxSong(CompositionUtils.getLogMax(RecordType.SONG));
-		score.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(RecordType.ALBUM));
-		score.setDoubleMedianSong(CompositionUtils.getDoubleMedian(RecordType.SONG));
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
+		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
+		List<Composition> songs = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
+		importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		criteria = new HashMap<>();
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.ALBUM.toString());
+		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
+		List<Composition> albums = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
+		score.setLogMaxAlbum(CompositionUtils.getLogMax(RecordType.ALBUM, albums));
+		score.setLogMaxSong(CompositionUtils.getLogMax(RecordType.SONG, songs));
+		score.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(RecordType.ALBUM, albums));
+		score.setDoubleMedianSong(CompositionUtils.getDoubleMedian(RecordType.SONG, songs));
 		LOG.debug("End initScore");
 	}
 
 	/**
-	 * Extracts the artist from all the compositions, unique and sorted.
+	 * Extracts the artist from a list of compositions, (unique and sorted) and set
+	 * to artistList.
+	 * 
+	 * @param importXML the list
 	 */
-	private static void setArtistList() {
-		artistList = ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getArtist)
-				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
+	private static void setArtistList(List<Composition> importXML) {
+		artistList = importXML.parallelStream().map(Composition::getArtist).map(WordUtils::capitalize).distinct()
+				.sorted().collect(Collectors.toList());
 	}
 
 	/**
-	 * Extracts the title from all the compositions, unique and sorted.
+	 * Extracts the title from a list of compositions, (unique and sorted) and set
+	 * to titleList.
+	 * 
+	 * @param importXML the list
 	 */
-	private static void setTitleList() {
-		titleList = ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getTitre)
-				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
-	}
-
-	/**
-	 * Extracts the author from all the compositions, unique and sorted.
-	 */
-	private static void setAuthorList() {
-		authorList = ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getFiles)
-				.flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted()
+	private static void setTitleList(List<Composition> importXML) {
+		titleList = importXML.parallelStream().map(Composition::getTitre).map(WordUtils::capitalize).distinct().sorted()
 				.collect(Collectors.toList());
+	}
+
+	/**
+	 * Extracts the author from a list of compositions, (unique and sorted) and set
+	 * to authorList.
+	 * 
+	 * @param importXML the list
+	 */
+	private static void setAuthorList(List<Composition> importXML) {
+		authorList = importXML.parallelStream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
+				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
 	}
 
 	/**
