@@ -28,7 +28,6 @@ import java.util.Optional;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
-import javax.swing.AbstractAction;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
@@ -132,6 +131,7 @@ public class ArtistPanel extends JPanel {
 	}
 
 	private JPanel initHeader() {
+		LOG.debug("Start initHeader");
 		JPanel header = new JPanel();
 		// Publi
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
@@ -177,7 +177,8 @@ public class ArtistPanel extends JPanel {
 		auteurPanel.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
 		JLabel auteurLabel = new JLabel("Auteur : ");
 		auteur = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(), GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
+		AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(),
+				GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
 		auteurPanel.add(auteurLabel);
 		auteurPanel.add(auteur);
 		header.add(auteurPanel);
@@ -203,32 +204,18 @@ public class ArtistPanel extends JPanel {
 		header.add(deletedPanel);
 		// SEARCH
 		search = PanelUtils.createJButton("Rechercher", 150, Constant.ICON_SEARCH);
-		search.addActionListener(new AbstractAction() {
-
-			private static final long serialVersionUID = 1L;
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				searchAction();
-			}
-		});
+		search.addActionListener((ActionEvent e) -> searchAction());
 		header.add(search);
 		// RESET
 		reset = PanelUtils.createJButton("Réinitialiser", 150, Constant.ICON_ERASE);
-		reset.addActionListener(new AbstractAction() {
-
-			private static final long serialVersionUID = 1L;
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				resetAction();
-			}
-		});
+		reset.addActionListener((ActionEvent e) -> resetAction());
 		header.add(reset);
+		LOG.debug("End initHeader");
 		return header;
 	}
 
 	private void initTable() {
+		LOG.debug("Start initTable");
 		table = new JTable();
 		table.setAutoCreateRowSorter(true);
 		table.setRowHeight(30);
@@ -295,9 +282,11 @@ public class ArtistPanel extends JPanel {
 		});
 
 		this.add(new JScrollPane(table), BorderLayout.CENTER);
+		LOG.debug("End initTable");
 	}
 
 	private JButton initCsvBtn() {
+		LOG.debug("Start initCsvBtn");
 		// CSV
 		JButton csv = PanelUtils.createJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
@@ -316,6 +305,7 @@ public class ArtistPanel extends JPanel {
 			}
 			LOG.debug("End Csv");
 		});
+		LOG.debug("End initCsvBtn");
 		return csv;
 	}
 
@@ -382,6 +372,7 @@ public class ArtistPanel extends JPanel {
 	}
 
 	private void updateTable(Map<String, List<Composition>> donnee) {
+		LOG.debug("Start updateTable");
 		// Updates table data
 		model.setRowCount(0);
 		model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee, true),
@@ -403,6 +394,7 @@ public class ArtistPanel extends JPanel {
 		model.fireTableDataChanged();
 		table.repaint();
 		selectedRow = -1;
+		LOG.debug("End updateTable");
 	}
 
 	private void mouseClickAction(MouseEvent e) {

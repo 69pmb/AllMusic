@@ -487,10 +487,11 @@ public class CompositionUtils {
 	 * all ranking multiply by 2.
 	 * 
 	 * @param type {@link RecordType}
+	 * @param list {@code List<Composition>}
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getDoubleMedian(RecordType type) {
-		BigDecimal median = getMedian(type);
+	public static BigDecimal getDoubleMedian(RecordType type, List<Composition> list) {
+		BigDecimal median = getMedian(type, list);
 		BigDecimal doubleMedian = median.multiply(BigDecimal.valueOf(2));
 		return doubleMedian;
 	}
@@ -500,10 +501,11 @@ public class CompositionUtils {
 	 * size of all files. LogMax is {@code Log10(max) * max}.
 	 * 
 	 * @param type {@link RecordType}
+	 * @param list {@code List<Composition>}
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getLogMax(RecordType type) {
-		BigDecimal max = getMax(type);
+	public static BigDecimal getLogMax(RecordType type, List<Composition> list) {
+		BigDecimal max = getMax(type, list);
 		BigDecimal logMax = new BigDecimal(Math.log10(max.doubleValue())).multiply(max);
 		return logMax;
 	}
@@ -561,15 +563,11 @@ public class CompositionUtils {
 	 * La medianne de tous les classements des fichiers du type donné.
 	 * 
 	 * @param type {@link RecordType}
+	 * @param list {@code List<Composition>}
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getMedian(RecordType type) {
-		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		Map<String, String> criteria = new HashMap<>();
-		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
-		List<Integer> rankList = yearList.parallelStream().map(Composition::getFiles).flatMap(List::stream)
+	public static BigDecimal getMedian(RecordType type, List<Composition> list) {
+		List<Integer> rankList = list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(MiscUtils.median(rankList));
 	}
@@ -578,15 +576,11 @@ public class CompositionUtils {
 	 * La taille maximum des fichiers du type donné.
 	 * 
 	 * @param type {@link RecordType}
+	 * @param list {@code List<Composition>}
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getMax(RecordType type) {
-		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		Map<String, String> criteria = new HashMap<>();
-		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
-		List<Integer> rankList = yearList.parallelStream().map(Composition::getFiles).flatMap(List::stream)
+	public static BigDecimal getMax(RecordType type, List<Composition> list) {
+		List<Integer> rankList = list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return new BigDecimal(rankList.parallelStream().mapToInt(Integer::intValue).max().orElse(1));
 	}
