@@ -148,6 +148,11 @@ public class ImportPanel extends JPanel {
 	 * Content for the result area.
 	 */
 	private List<String> result = new LinkedList<>();
+	
+	/**
+	 * Button that launchs the import of the current loaded file.
+	 */
+	private JButton importFile;
 
 	/**
 	 * Import params constants.
@@ -548,7 +553,7 @@ public class ImportPanel extends JPanel {
 		JPanel bottom = new JPanel();
 
 		// Import
-		JButton importFile = PanelUtils.createJButton("Importer le fichier", 200, Constant.ICON_UPLOAD);
+		importFile = PanelUtils.createJButton("Importer le fichier", 200, Constant.ICON_UPLOAD);
 		importFile.setToolTipText("Importe au format XML le fichier chargé précédemment avec les critères renseignés.");
 		importFile.addActionListener((ActionEvent arg0) -> importFileAction());
 		bottom.add(importFile);
@@ -934,6 +939,10 @@ public class ImportPanel extends JPanel {
 		}
 		miseEnFormeResultLabel(result);
 		LOG.debug("End cleanFile");
+	}
+
+	public JButton getImportFile() {
+		return importFile;
 	}
 
 }

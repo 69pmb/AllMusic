@@ -15,6 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
+import javax.swing.event.ChangeEvent;
 
 import org.apache.commons.text.WordUtils;
 import org.apache.log4j.Logger;
@@ -103,7 +104,15 @@ public class OngletPanel extends JPanel {
 		});
 		myFrame.getContentPane().add(scrollPane, BorderLayout.CENTER);
 		myFrame.pack();
+
+		// Default button handling
 		search.getRootPane().setDefaultButton(search.getSearch());
+		onglets.addChangeListener((ChangeEvent e) -> {
+			if (e.getSource() instanceof JTabbedPane) {
+				// Modifies default button when changing current tab
+				getSelectedDefaultButtonByTab(search, fichier, artist, importFile, batch);
+			}
+		});
 		LOG.debug("End Onglet");
 	}
 
@@ -120,16 +129,31 @@ public class OngletPanel extends JPanel {
 		OngletPanel.score = stats;
 	}
 
+	/**
+	 * Extracts the artist from all the compositions, unique and sorted.
+	 * 
+	 * @return a {@code String} list of artist
+	 */
 	public static List<String> getArtistList() {
 		return ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getArtist)
 				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
 	}
 
+	/**
+	 * Extracts the title from all the compositions, unique and sorted.
+	 * 
+	 * @return a {@code String} list of title
+	 */
 	public static List<String> getTitleList() {
 		return ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getTitre)
 				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
 	}
 
+	/**
+	 * Extracts the author from all the compositions, unique and sorted.
+	 * 
+	 * @return a {@code String} list of author
+	 */
 	public static List<String> getAuthorList() {
 		return ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getFiles)
 				.flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted()
@@ -162,6 +186,38 @@ public class OngletPanel extends JPanel {
 			}
 		}
 		return isTabExists;
+	}
+
+	private String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
+			ImportPanel importP, BatchPanel batch) {
+		int index = getOnglets().getSelectedIndex();
+		String tab = "";
+		switch (index) {
+		case 0:
+			search.getRootPane().setDefaultButton(search.getSearch());
+			tab = Constant.ONGLET_SEARCH;
+			break;
+		case 1:
+			artist.getRootPane().setDefaultButton(artist.getSearch());
+			tab = Constant.ONGLET_ARTIST;
+			break;
+		case 2:
+			fichier.getRootPane().setDefaultButton(fichier.getSearch());
+			tab = Constant.ONGLET_FICHIER;
+			break;
+		case 3:
+			importP.getRootPane().setDefaultButton(importP.getImportFile());
+			tab = Constant.ONGLET_IMPORT;
+			break;
+		case 4:
+			batch.getRootPane().setDefaultButton(batch.getBatchFileBtn());
+			tab = Constant.ONGLET_BATCH;
+			break;
+		default:
+			break;
+		}
+		LOG.debug(tab);
+		return tab;
 	}
 
 	public JTabbedPane getOnglets() {
