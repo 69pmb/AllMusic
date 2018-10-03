@@ -6,7 +6,7 @@
 		<param name="Target" value="System.out" />
 		<param name="threshold" value="debug" />
 		<layout class="org.apache.log4j.PatternLayout">
-			<param name="ConversionPattern" value="%d{HH:mm:ss} %-5p: %c - %m%n" />
+			<param name="ConversionPattern" value="%d{HH:mm:ss.SSS} %-5p: %c - %m%n" />
 		</layout>
 	</appender>
 	<appender name="MyFile" class="org.apache.log4j.FileAppender">
