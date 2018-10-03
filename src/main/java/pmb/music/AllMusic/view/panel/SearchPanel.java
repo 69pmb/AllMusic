@@ -133,12 +133,8 @@ public class SearchPanel extends JPanel {
 	 * Génère le panel search.
 	 * 
 	 * @param artist2 le panel artiste
-	 * @param artistList
-	 * @param titleList
-	 * @param authorList
 	 */
-	public SearchPanel(final ArtistPanel artist2, List<String> artistList, List<String> titleList,
-			List<String> authorList) {
+	public SearchPanel(final ArtistPanel artist2) {
 		super();
 		LOG.debug("Start SearchPanel");
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
@@ -146,7 +142,7 @@ public class SearchPanel extends JPanel {
 		JPanel header = new JPanel();
 		header.setLayout(new BoxLayout(header, BoxLayout.Y_AXIS));
 		initButtons(artist2, header);
-		initSearchFields(artistList, titleList, authorList, header);
+		initSearchFields(header);
 		this.add(header);
 
 		initTable();
@@ -236,13 +232,9 @@ public class SearchPanel extends JPanel {
 	/**
 	 * Initialise les champs de recherche.
 	 * 
-	 * @param artistList la liste des artistes
-	 * @param titleList la liste des titres
-	 * @param authorList la liste des auteurs
 	 * @param header le header de l'onglet
 	 */
-	private void initSearchFields(List<String> artistList, List<String> titleList, List<String> authorList,
-			JPanel header) {
+	private void initSearchFields(JPanel header) {
 		LOG.debug("Start initSearchFields");
 		JPanel searchFields = new JPanel();
 		searchFields.setLayout(new GridLayout(2, 5));
@@ -251,7 +243,8 @@ public class SearchPanel extends JPanel {
 		JPanel artistPanel = new JPanel();
 		JLabel artistLabel = PanelUtils.createJLabel("Artiste : ", 200);
 		artist = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) artist.getInput(), GlazedLists.eventListOf(artistList.toArray()));
+		AutoCompleteSupport.install((JComboBox<?>) artist.getInput(),
+				GlazedLists.eventListOf(OngletPanel.getArtistList().toArray()));
 		PanelUtils.setSize(artistPanel, 300, PanelUtils.PANEL_HEIGHT);
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
@@ -261,7 +254,8 @@ public class SearchPanel extends JPanel {
 		JPanel titrePanel = new JPanel();
 		JLabel titreLabel = PanelUtils.createJLabel("Titre : ", 180);
 		titre = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) titre.getInput(), GlazedLists.eventListOf(titleList.toArray()));
+		AutoCompleteSupport.install((JComboBox<?>) titre.getInput(),
+				GlazedLists.eventListOf(OngletPanel.getTitleList().toArray()));
 		titrePanel.add(titreLabel);
 		titrePanel.add(titre);
 		searchFields.add(titrePanel);
@@ -289,7 +283,8 @@ public class SearchPanel extends JPanel {
 		JPanel authorPanel = new JPanel();
 		JLabel authorLabel = PanelUtils.createJLabel("Auteur : ", 150);
 		author = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) author.getInput(), GlazedLists.eventListOf(authorList.toArray()));
+		AutoCompleteSupport.install((JComboBox<?>) author.getInput(),
+				GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
 		authorPanel.add(authorLabel);
 		authorPanel.add(author);
 		searchFields.add(authorPanel);
@@ -496,28 +491,9 @@ public class SearchPanel extends JPanel {
 				}
 			}
 		});
-		// tableResult.getTableHeader().addMouseListener(new CustomSorter());
 		bottom.add(new JScrollPane(tableResult), BorderLayout.CENTER);
 
 		this.add(bottom);
-	}
-
-	private final class CustomSorter extends MouseAdapter {
-		@Override
-		public void mouseClicked(MouseEvent aEvent) {
-			int columnIdx = tableResult.getColumnModel().getColumnIndexAtX(aEvent.getX());
-			// build a list of sort keys for this column, and pass it to the sorter
-			// you can build the list to fit your needs here
-			// for example, you can sort on multiple columns, not just one
-			List<RowSorter.SortKey> sortKeys = new ArrayList<>();
-			// cycle through all orders; sort is removed every 3rd click
-			SortOrder order = SortOrder.values()[fCountClicks % 3];
-			sortKeys.add(new RowSorter.SortKey(columnIdx, order));
-			tableResult.getRowSorter().setSortKeys(sortKeys);
-			++fCountClicks;
-		}
-
-		private int fCountClicks;
 	}
 
 	private void searchAction() {

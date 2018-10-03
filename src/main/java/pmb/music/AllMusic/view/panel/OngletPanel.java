@@ -1,6 +1,3 @@
-/**
- * 
- */
 package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
@@ -40,6 +37,9 @@ public class OngletPanel extends JPanel {
 	private JTabbedPane onglets;
 	private static int index;
 	private static Score score;
+	private static List<String> artistList;
+	private static List<String> titleList;
+	private static List<String> authorList;
 
 	/**
 	 * Génère les onglets.
@@ -55,12 +55,15 @@ public class OngletPanel extends JPanel {
 		dim.height = 92 * dim.height / 100;
 		dim.width = dim.width - 30;
 		onglets.setPreferredSize(dim);
-		initStats();
+
+		initScore();
+		setArtistList();
+		setTitleList();
+		setAuthorList();
 
 		ArtistPanel artist = new ArtistPanel(withArtist);
 		ImportPanel importFile = new ImportPanel(artist);
-		List<String> authorList = getAuthorList();
-		SearchPanel search = new SearchPanel(artist, getArtistList(), getTitleList(), authorList);
+		SearchPanel search = new SearchPanel(artist);
 		FichierPanel fichier = new FichierPanel();
 		BatchPanel batch = new BatchPanel();
 
@@ -71,7 +74,7 @@ public class OngletPanel extends JPanel {
 		onglets.addTab(Constant.ONGLET_FICHIER, fichier);
 		onglets.addTab(Constant.ONGLET_IMPORT, importFile);
 		onglets.addTab(Constant.ONGLET_BATCH, batch);
-		fichier.initPanel(artist, authorList);
+		fichier.initPanel(artist);
 
 		onglets.setOpaque(true);
 		panel.add(onglets);
@@ -119,42 +122,37 @@ public class OngletPanel extends JPanel {
 	 * Calculates the constants of {@link Score}.
 	 * 
 	 */
-	public void initStats() {
-		Score stats = new Score();
-		stats.setLogMaxAlbum(CompositionUtils.getLogMax(RecordType.ALBUM));
-		stats.setLogMaxSong(CompositionUtils.getLogMax(RecordType.SONG));
-		stats.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(RecordType.ALBUM));
-		stats.setDoubleMedianSong(CompositionUtils.getDoubleMedian(RecordType.SONG));
-		OngletPanel.score = stats;
+	private void initScore() {
+		LOG.debug("Start initScore");
+		OngletPanel.score = new Score();
+		score.setLogMaxAlbum(CompositionUtils.getLogMax(RecordType.ALBUM));
+		score.setLogMaxSong(CompositionUtils.getLogMax(RecordType.SONG));
+		score.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(RecordType.ALBUM));
+		score.setDoubleMedianSong(CompositionUtils.getDoubleMedian(RecordType.SONG));
+		LOG.debug("End initScore");
 	}
 
 	/**
 	 * Extracts the artist from all the compositions, unique and sorted.
-	 * 
-	 * @return a {@code String} list of artist
 	 */
-	public static List<String> getArtistList() {
-		return ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getArtist)
+	private static void setArtistList() {
+		artistList = ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getArtist)
 				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
 	}
 
 	/**
 	 * Extracts the title from all the compositions, unique and sorted.
-	 * 
-	 * @return a {@code String} list of title
 	 */
-	public static List<String> getTitleList() {
-		return ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getTitre)
+	private static void setTitleList() {
+		titleList = ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getTitre)
 				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
 	}
 
 	/**
 	 * Extracts the author from all the compositions, unique and sorted.
-	 * 
-	 * @return a {@code String} list of author
 	 */
-	public static List<String> getAuthorList() {
-		return ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getFiles)
+	private static void setAuthorList() {
+		authorList = ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().map(Composition::getFiles)
 				.flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted()
 				.collect(Collectors.toList());
 	}
@@ -229,5 +227,17 @@ public class OngletPanel extends JPanel {
 
 	public static Score getScore() {
 		return score;
+	}
+
+	public static List<String> getArtistList() {
+		return artistList;
+	}
+
+	public static List<String> getTitleList() {
+		return titleList;
+	}
+
+	public static List<String> getAuthorList() {
+		return authorList;
 	}
 }
