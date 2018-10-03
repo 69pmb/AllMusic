@@ -19,7 +19,6 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 import org.apache.log4j.Logger;
 
-import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.view.BasicFrame;
 
 /**
@@ -83,7 +82,7 @@ public class MenuPanel extends JPanel {
 		final JMenuItem search = new JMenuItem("Rechercher");
 		fichier.add(search);
 		search.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F, ActionEvent.CTRL_MASK));
-		search.addActionListener((ActionEvent ae) -> getSelectedTab());
+//		search.addActionListener((ActionEvent ae) -> getSelectedTab());
 
 		final JMenuItem triDate = new JMenuItem("Trier par date");
 		fichier.add(triDate);
@@ -182,32 +181,6 @@ public class MenuPanel extends JPanel {
 
 	public void setMyFrame(BasicFrame myFrame) {
 		this.myFrame = myFrame;
-	}
-
-	private String getSelectedTab() {
-		int index = getMyFrame().getTab().getOnglets().getSelectedIndex();
-		String tab = "";
-		switch (index) {
-		case 0:
-			tab = Constant.ONGLET_SEARCH;
-			break;
-		case 1:
-			tab = Constant.ONGLET_ARTIST;
-			break;
-		case 2:
-			tab = Constant.ONGLET_FICHIER;
-			break;
-		case 3:
-			tab = Constant.ONGLET_IMPORT;
-			break;
-		case 4:
-			tab = Constant.ONGLET_BATCH;
-			break;
-		default:
-			break;
-		}
-		LOG.debug(tab);
-		return tab;
 	}
 
 }

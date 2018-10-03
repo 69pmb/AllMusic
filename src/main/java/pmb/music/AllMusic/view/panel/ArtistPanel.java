@@ -384,7 +384,7 @@ public class ArtistPanel extends JPanel {
 		model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee, true),
 				new Vector<>(Arrays.asList(title)));
 		PanelUtils.colRenderer(table, true, null, null);
-		// Applies stored sorting 
+		// Applies stored sorting
 		if (sortedColumn == null) {
 			sortedColumn = INDEX_NB_TOTAL;
 			sortOrder = SortOrder.DESCENDING;
@@ -474,6 +474,10 @@ public class ArtistPanel extends JPanel {
 
 	public JTable getTable() {
 		return table;
+	}
+
+	public JButton getSearch() {
+		return search;
 	}
 
 }

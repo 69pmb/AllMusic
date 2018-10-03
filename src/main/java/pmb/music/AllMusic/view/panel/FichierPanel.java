@@ -892,4 +892,8 @@ public class FichierPanel extends JPanel {
 	public JTable getTableCompo() {
 		return tableCompo;
 	}
+
+	public JButton getSearch() {
+		return search;
+	}
 }
