@@ -36,6 +36,8 @@ public class ArtistModel extends AbstractModel {
 	public Class<?> getColumnClass(int col) {
 		if (col == ArtistPanel.INDEX_ARTIST) {
 			return String.class;
+		} else if (col == ArtistPanel.INDEX_NB_SCORE) {
+			return Long.class;
 		} else {
 			return Integer.class;
 		}

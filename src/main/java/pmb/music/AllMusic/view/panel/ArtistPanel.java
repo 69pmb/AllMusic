@@ -83,6 +83,7 @@ public class ArtistPanel extends JPanel {
 	public static final int INDEX_LINE_NUMBER = 0;
 	public static final int INDEX_ARTIST = 1;
 	public static final int INDEX_NB_TOTAL = 2;
+	public static final int INDEX_NB_SCORE = 5;
 
 	private JComboBox<String> searchRange;
 	private MyInputText publi;
@@ -103,7 +104,7 @@ public class ArtistPanel extends JPanel {
 	private Map<String, List<Composition>> data;
 	private Map<String, List<Composition>> searchResult;
 
-	private static final String[] title = { "#", "Artiste", "Nombre d'occurrences", "Album", "Chanson" };
+	private static final String[] title = { "#", "Artiste", "Nombre d'occurrences", "Album", "Chanson", "Score" };
 
 	private int selectedRow = -1;
 
@@ -352,10 +353,12 @@ public class ArtistPanel extends JPanel {
 			data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.getFinalFilePath()));
 
 			SwingUtilities.invokeLater(() -> {
+				// Called when data are finally calculated
 				resetAction();
-				searchResult = new HashMap<>();
+				searchResult = new HashMap<>(); // the data displays in the table
 				for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
 					for (Composition c : entry.getValue()) {
+						// Filters on whether show deleted compositions or not
 						if (deleted.isSelected() || !c.isDeleted()) {
 							Composition newCompo = new Composition(c);
 							newCompo.setFiles(c.getFiles());
@@ -377,20 +380,24 @@ public class ArtistPanel extends JPanel {
 	}
 
 	private void updateTable(Map<String, List<Composition>> donnee) {
+		// Updates table data
 		model.setRowCount(0);
 		model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee, true),
 				new Vector<>(Arrays.asList(title)));
 		PanelUtils.colRenderer(table, true, null, null);
+		// Applies stored sorting 
 		if (sortedColumn == null) {
 			sortedColumn = INDEX_NB_TOTAL;
 			sortOrder = SortOrder.DESCENDING;
 		}
 		table.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
+		// Fills column "line number"
 		for (int i = 0; i < table.getRowCount(); i++) {
 			table.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 		}
 		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
 		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
+		// Update GUI
 		model.fireTableDataChanged();
 		table.repaint();
 		selectedRow = -1;
