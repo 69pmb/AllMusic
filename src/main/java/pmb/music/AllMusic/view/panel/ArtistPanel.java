@@ -52,6 +52,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -172,13 +174,14 @@ public class ArtistPanel extends JPanel {
 		rangePanel.add(rangeE);
 		header.add(rangePanel);
 		// Auteur
-		JPanel fileNamePanel = new JPanel();
-		fileNamePanel.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
-		JLabel fileNameLabel = new JLabel("Auteur : ");
-		auteur = new MyInputText(JTextField.class, 150);
-		fileNamePanel.add(fileNameLabel);
-		fileNamePanel.add(auteur);
-		header.add(fileNamePanel);
+		JPanel auteurPanel = new JPanel();
+		auteurPanel.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
+		JLabel auteurLabel = new JLabel("Auteur : ");
+		auteur = new MyInputText(JComboBox.class, 150);
+		AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(), GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
+		auteurPanel.add(auteurLabel);
+		auteurPanel.add(auteur);
+		header.add(auteurPanel);
 		// Categorie
 		JPanel catPanel = new JPanel();
 		catPanel.setPreferredSize(new Dimension(180, PanelUtils.PANEL_HEIGHT));

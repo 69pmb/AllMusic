@@ -174,13 +174,12 @@ public class FichierPanel extends JPanel {
 	 * Initialise tous les composants du {@link FichierPanel}.
 	 * 
 	 * @param artistPanel le panel artiste
-	 * @param authors la liste des auteurs
 	 */
-	public void initPanel(ArtistPanel artistPanel, List<String> authors) {
+	public void initPanel(ArtistPanel artistPanel) {
 		LOG.debug("Start initPanel");
 
 		parentSize = this.getParent().getPreferredSize();
-		initSearchBtn(artistPanel, authors);
+		initSearchBtn(artistPanel);
 		initFichierTable();
 		initCompoTable(artistPanel);
 
@@ -191,24 +190,24 @@ public class FichierPanel extends JPanel {
 	 * Initialise les composants de recherche.
 	 * 
 	 * @param artistPanel le panel artiste
-	 * @param authors la liste des auteurs
 	 */
-	private void initSearchBtn(ArtistPanel artistPanel, List<String> authors) {
+	private void initSearchBtn(ArtistPanel artistPanel) {
 		JPanel header = new JPanel(new GridLayout(2, 1));
-		initInputs(authors, header);
+		initInputs(header);
 		initButtons(artistPanel, header);
 		PanelUtils.setSize(header, (int) parentSize.getWidth(), Math.floorDiv(15 * (int) parentSize.getHeight(), 100));
 		this.add(header);
 	}
 
-	private void initInputs(List<String> authors, JPanel header) {
+	private void initInputs(JPanel header) {
 		JPanel inputs = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		// Auteur
 		JPanel auteurPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(auteurPanel, 200, PanelUtils.PANEL_HEIGHT);
 		JLabel auteurLabel = PanelUtils.createJLabel("Auteur : ", 150);
 		auteur = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(), GlazedLists.eventListOf(authors.toArray()));
+		AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(),
+				GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
 		auteurPanel.add(auteurLabel);
 		auteurPanel.add(auteur);
 		inputs.add(auteurPanel);
