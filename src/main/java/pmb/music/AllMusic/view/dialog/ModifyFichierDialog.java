@@ -176,11 +176,11 @@ public class ModifyFichierDialog extends JDialog {
 	/**
 	 * Affiche une {@link ModifyFichierDialog}.
 	 */
-	public void showDialogFileTable() {
-		LOG.debug("Start showDialogFileTable");
+	public void showModifyFichierDialog() {
+		LOG.debug("Start showModifyFichierDialog");
 		this.sendData = false;
 		this.setVisible(true);
-		LOG.debug("End showDialogFileTable");
+		LOG.debug("End showModifyFichierDialog");
 	}
 
 	public Vector<String> getFichier() {

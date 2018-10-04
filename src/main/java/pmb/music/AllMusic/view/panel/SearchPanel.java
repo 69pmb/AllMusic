@@ -50,7 +50,6 @@ import javax.swing.event.RowSorterListener;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
@@ -502,7 +501,7 @@ public class SearchPanel extends JPanel {
 		LOG.debug("Start searchAction");
 		deleteLabel.setText("");
 		List<Composition> allCompo = ImportXML.importXML(Constant.getFinalFilePath());
-		if (CollectionUtils.isNotEmpty(allCompo)) {
+		if (!allCompo.isEmpty()) {
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_ARTIST, artist.getText());
 			criteria.put(SearchUtils.CRITERIA_TITRE, titre.getText());
@@ -608,7 +607,7 @@ public class SearchPanel extends JPanel {
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
 				new Dimension(800, 150), v, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE);
-		md.showDialogFileTable();
+		md.showModifyCompositionDialog();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée
 			LOG.debug("Compo modifiée");
