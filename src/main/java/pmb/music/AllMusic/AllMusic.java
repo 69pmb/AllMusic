@@ -6,7 +6,6 @@ import java.util.Optional;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
@@ -71,7 +70,6 @@ public class AllMusic {
 			} catch (NullPointerException e) {
 				LOG.debug("NPE");
 			}
-			SwingUtilities.updateComponentTreeUI(f);
 			f.pack();
 			f.setVisible(true);
 			LOG.debug("Look: " + UIManager.getLookAndFeel());
