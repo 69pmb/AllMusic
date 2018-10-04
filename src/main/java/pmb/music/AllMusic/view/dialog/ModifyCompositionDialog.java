@@ -137,11 +137,11 @@ public class ModifyCompositionDialog extends JDialog {
 	/**
 	 * Affiche une {@link ModifyCompositionDialog}.
 	 */
-	public void showDialogFileTable() {
-		LOG.debug("Start showDialogFileTable");
+	public void showModifyCompositionDialog() {
+		LOG.debug("Start showModifyCompositionDialog");
 		this.sendData = false;
 		this.setVisible(true);
-		LOG.debug("End showDialogFileTable");
+		LOG.debug("End showModifyCompositionDialog");
 	}
 
 	/**

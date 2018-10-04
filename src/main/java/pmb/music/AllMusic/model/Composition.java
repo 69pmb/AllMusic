@@ -5,6 +5,7 @@ package pmb.music.AllMusic.model;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Une composition est ensemble composé d'un artiste et d'une oeuvre musicale
@@ -27,21 +28,27 @@ public class Composition implements Serializable {
 	 * @param files les fichier contenant la composition
 	 * @param titre le titre
 	 * @param recordType si chanson ou album
+	 * @param deleted si supprimé
+	 * @param canBeMerged si peut etre mergé pendant le batch duplicate composition
 	 */
-	public Composition(String artist, List<Fichier> files, String titre, RecordType recordType) {
+	public Composition(String artist, List<Fichier> files, String titre, RecordType recordType, boolean deleted,
+			boolean canBeMerged) {
 		super();
 		this.artist = artist;
 		this.files = files;
 		this.titre = titre;
 		this.recordType = recordType;
+		this.canBeMerged = canBeMerged;
+		this.deleted = deleted;
 	}
 
 	public Composition(Composition compo) {
 		super();
 		this.artist = compo.getArtist();
-		this.files = compo.getFiles();
+		this.files = compo.getFiles().stream().map(f -> new Fichier(f)).collect(Collectors.toList());
 		this.titre = compo.getTitre();
 		this.recordType = compo.getRecordType();
+		this.canBeMerged = compo.isCanBeMerged();
 		this.deleted = compo.isDeleted();
 	}
 
