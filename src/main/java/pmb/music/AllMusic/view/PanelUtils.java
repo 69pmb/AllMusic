@@ -250,10 +250,13 @@ public class PanelUtils {
 	 * @param compoList la liste de composition
 	 * @param selected les lignes sélectionnées
 	 * @param label le label de résultat
+	 * @param artistIndex index de l'artist
+	 * @param titleIndex index du titre
+	 * @param typeIndex index du type
 	 */
 	@SuppressWarnings("unchecked")
 	public static void deleteCompositionAction(final ArtistPanel artistPanel, List<Composition> compoList,
-			List<Object> selected, JLabel label) {
+			List<Object> selected, JLabel label, int artistIndex, int titleIndex, int typeIndex) {
 		LOG.debug("Start deleteCompositionAction");
 		if (selected.isEmpty()) {
 			label.setText("Aucune composition sélectionnée !");
@@ -266,10 +269,10 @@ public class PanelUtils {
 		for (Object o : selected) {
 			Vector<String> v = (Vector<String>) o;
 			try {
-				Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML, v.get(0), v.get(1),
-						v.get(2), true);
-				Composition toRemoveToTable = CompositionUtils.findByArtistTitreAndType(compoList, v.get(0), v.get(1),
-						v.get(2), true);
+				Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML, v.get(artistIndex),
+						v.get(titleIndex), v.get(typeIndex), true);
+				Composition toRemoveToTable = CompositionUtils.findByArtistTitreAndType(compoList, v.get(artistIndex),
+						v.get(titleIndex), v.get(typeIndex), true);
 				compoList.get(compoList.indexOf(toRemoveToTable)).setDeleted(true);
 				importXML.get(importXML.indexOf(toRemoveToFinal)).setDeleted(true);
 				CompositionUtils.removeCompositionsInFiles(toRemoveToFinal);

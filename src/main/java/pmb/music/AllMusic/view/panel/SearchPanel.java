@@ -193,7 +193,8 @@ public class SearchPanel extends JPanel {
 		JButton delete = PanelUtils.createJButton("Supprimer les compositions sélectionnées", 300,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(artist2, compoResult, model.getSelected(), deleteLabel);
+			PanelUtils.deleteCompositionAction(artist2, compoResult, model.getSelected(), deleteLabel, INDEX_ARTIST,
+					INDEX_TITRE, INDEX_TYPE);
 			updateTable();
 		});
 		top.add(delete);
