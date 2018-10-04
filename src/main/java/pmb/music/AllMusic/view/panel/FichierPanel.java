@@ -375,12 +375,14 @@ public class FichierPanel extends JPanel {
 		JButton delete = PanelUtils.createJButton("<html>Supprimer les compositions sélectionnées</html>", 200,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel);
+			PanelUtils.deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel,
+					INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE, INDEX_COMPO_TYPE);
 			updateCompoTable(compositionList, selectedFichierName);
 		});
 		buttons.add(delete);
 		// CSV
-		JButton csv = PanelUtils.createJButton("<html>Télécharger la liste des fichiers en CSV</html>", 300, Constant.ICON_DOWNLOAD);
+		JButton csv = PanelUtils.createJButton("<html>Télécharger la liste des fichiers en CSV</html>", 300,
+				Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
 					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), name.getText(), cat.getSelectedItems(),
