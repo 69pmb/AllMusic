@@ -158,6 +158,8 @@ public class Constant {
 	public static final String YEAR_FOLDER = "Year";
 
 	public static final String SONG_FOLDER = "Song";
+	
+	public static final String ARTIST_PANEL_RESULT_FILE = Constant.getOutputDir() + "artist.json";
 
 	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
 

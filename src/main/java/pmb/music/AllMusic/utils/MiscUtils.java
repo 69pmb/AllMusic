@@ -6,10 +6,10 @@ import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.OptionalDouble;
@@ -20,6 +20,8 @@ import org.apache.commons.lang3.StringUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import pmb.music.AllMusic.model.Composition;
 
 /**
  * Created by PBR on 29 mai 2018.
@@ -51,16 +53,28 @@ public class MiscUtils {
 	}
 
 	/**
-	 * Parse a string representing a {@code Map<String, String}.
+	 * Parse a string representing a {@code Map<String, T>}.
 	 * 
-	 * @param s the string to parse
+	 * @param <T> the type of map values
+	 * @param content the string to parse
 	 * @return the map parsed
 	 * @throws IOException
 	 */
-	public static Map<String, String> readValueAsMap(String s) throws IOException {
-		TypeReference<HashMap<String, String>> typeRef = new TypeReference<HashMap<String, String>>() {
-		};
-		return getObjectMapper().readValue(s, typeRef);
+	public static <T> Map<String, T> readValueAsMap(String content) throws IOException {
+		return getObjectMapper().readValue(content, new TypeReference<Map<String, T>>() {
+		});
+	}
+
+	/**
+	 * Parse a string representing a {@code Map<String, List<Composition>}.
+	 * 
+	 * @param content the string to parse
+	 * @return the map parsed
+	 * @throws IOException
+	 */
+	public static Map<String, List<Composition>> readValueAsMapOfList(String content) throws IOException {
+		return getObjectMapper().readValue(content, new TypeReference<Map<String, Collection<Composition>>>() {
+		});
 	}
 
 	/**
