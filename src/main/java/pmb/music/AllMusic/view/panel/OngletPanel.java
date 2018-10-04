@@ -135,7 +135,6 @@ public class OngletPanel extends JPanel {
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		List<Composition> songs = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
-		importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.ALBUM.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
