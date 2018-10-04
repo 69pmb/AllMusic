@@ -99,13 +99,11 @@ public class SearchUtils {
 						.map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
 			}
 			arrayList = arrayList.parallelStream()
-					.filter((Composition c) -> filterCompositions(searchMethod, searchInFiles, jaro, artist, titre,
-							type, deleted, publish, publishRange, fileName, auteur, cat, dateB, dateE, sorted, topTen,
-							searchFile, c))
-					.collect(Collectors.toList());
+					.map(c -> filterCompositions(searchMethod, searchInFiles, jaro, artist, titre, type, deleted,
+							publish, publishRange, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c))
+					.filter(c -> c != null).collect(Collectors.toList());
 		} else if (!deleted) {
-			arrayList = arrayList.parallelStream().filter((Composition c) -> !c.isDeleted())
-					.collect(Collectors.toList());
+			arrayList = arrayList.parallelStream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
 		}
 		if (log) {
 			LOG.debug("End search");
@@ -113,12 +111,12 @@ public class SearchUtils {
 		return arrayList;
 	}
 
-	private static boolean filterCompositions(final SearchMethod searchMethod, final boolean searchInFiles,
+	private static Composition filterCompositions(final SearchMethod searchMethod, final boolean searchInFiles,
 			final JaroWinklerDistance jaro, final String artist, final String titre, final String type,
 			final boolean deleted, final String publish, String publishRange, final String fileName,
 			final String auteur, final String cat, final String dateB, final String dateE, final String sorted,
-			final String topTen, final boolean searchFile, Object c) {
-		Composition co = (Composition) c;
+			final String topTen, final boolean searchFile, Composition c) {
+		Composition co = new Composition(c);
 
 		boolean result = true;
 		if (StringUtils.isNotBlank(artist)) {
@@ -137,13 +135,13 @@ public class SearchUtils {
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (result && searchFile && !files.isEmpty()) {
-			files = files.parallelStream().filter((Fichier f) -> filterFichier(searchMethod, jaro, publish,
-					publishRange, fileName, auteur, cat, dateB, dateE, sorted, topTen, f)).collect(Collectors.toList());
+			files = files.parallelStream().filter(f -> filterFichier(searchMethod, jaro, publish, publishRange,
+					fileName, auteur, cat, dateB, dateE, sorted, topTen, f)).collect(Collectors.toList());
 		}
 		if (searchInFiles) {
 			co.setFiles(files);
 		}
-		return result && !files.isEmpty();
+		return result && !files.isEmpty() ? co : null;
 	}
 
 	/**
@@ -203,8 +201,7 @@ public class SearchUtils {
 
 	public static boolean filterFichier(final SearchMethod searchMethod, JaroWinklerDistance jaro, final String publish,
 			String publishRange, final String fileName, final String auteur, final String cat, final String dateB,
-			final String dateE, final String sorted, final String topTen, Object f) {
-		Fichier fi = (Fichier) f;
+			final String dateE, final String sorted, final String topTen, Fichier fi) {
 		boolean result = true;
 
 		if (StringUtils.isNotBlank(publish)) {
@@ -324,7 +321,8 @@ public class SearchUtils {
 			LOG.error("indexOf: " + o);
 			return -1;
 		}
-		int indexOf = list.indexOf(new Composition(o.getArtist(), o.getFiles(), o.getTitre(), o.getRecordType()));
+		int indexOf = list.indexOf(new Composition(o.getArtist(), o.getFiles(), o.getTitre(), o.getRecordType(),
+				o.isDeleted(), o.isCanBeMerged()));
 		if (indexOf == -1) {
 			int i = 0;
 			for (Composition composition : list) {

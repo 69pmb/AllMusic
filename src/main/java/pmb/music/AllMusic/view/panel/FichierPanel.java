@@ -48,7 +48,6 @@ import javax.swing.event.RowSorterListener;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
@@ -631,7 +630,7 @@ public class FichierPanel extends JPanel {
 				fichiers.stream().filter(f -> StringUtils.equals(f.getFileName(), fileName)).findFirst().get());
 		// Lancement de la popup de modification
 		ModifyFichierDialog md = new ModifyFichierDialog(null, "Modifier un fichier", true, selected);
-		md.showDialogFileTable();
+		md.showModifyFichierDialog();
 		Vector<String> newFichier;
 		if (md.isSendData()) {
 			// On recupère le fichier si il a bien été modifié
@@ -702,7 +701,7 @@ public class FichierPanel extends JPanel {
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
 				new Dimension(800, 150), v, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE, INDEX_COMPO_TYPE);
-		md.showDialogFileTable();
+		md.showModifyCompositionDialog();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée
 			LOG.debug("Compo modifiée");
@@ -779,12 +778,13 @@ public class FichierPanel extends JPanel {
 					}
 				}).map(Composition::getFiles).flatMap(List::stream)
 						.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
-		if (CollectionUtils.isNotEmpty(fichiers)) {
-			CollectionUtils.filter(fichiers,
-					(Object f) -> SearchUtils.filterFichier(SearchMethod.CONTAINS, new JaroWinklerDistance(),
+		if (!fichiers.isEmpty()) {
+			fichiers = fichiers.stream()
+					.filter(f -> SearchUtils.filterFichier(SearchMethod.CONTAINS, new JaroWinklerDistance(),
 							publi.getText(), (String) searchRange.getSelectedItem(), name.getText(), auteur.getText(),
 							cat.getSelectedItems(), rangeB.getText(), rangeE.getText(),
-							sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f));
+							sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f))
+					.collect(Collectors.toList());
 			updateFileTable();
 		}
 		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");
