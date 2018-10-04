@@ -54,6 +54,8 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -73,8 +75,6 @@ import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Gère le panel search.
@@ -577,7 +577,7 @@ public class SearchPanel extends JPanel {
 	@SuppressWarnings("unchecked")
 	private void modifAction(final ArtistPanel artist2) {
 		LOG.debug("Start modif");
-		artist2.interruptUpdateArtist();
+		artist2.interruptUpdateArtist(true);
 		String label = "Élément modifié";
 		Object selected;
 		Composition toModif;

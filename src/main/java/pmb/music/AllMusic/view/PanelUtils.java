@@ -261,7 +261,7 @@ public class PanelUtils {
 			return;
 		}
 		label.setText("");
-		artistPanel.interruptUpdateArtist();
+		artistPanel.interruptUpdateArtist(true);
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		for (Object o : selected) {
 			Vector<String> v = (Vector<String>) o;

@@ -54,6 +54,8 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -76,8 +78,6 @@ import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.dialog.ModifyFichierDialog;
 import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
 import pmb.music.AllMusic.view.model.FichierPanelModel;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -668,7 +668,7 @@ public class FichierPanel extends JPanel {
 	private void modifyCompositionAction(final ArtistPanel artistPanel, Vector<String> selected) {
 		LOG.debug("Start modif");
 		resultLabel.setText("");
-		artistPanel.interruptUpdateArtist();
+		artistPanel.interruptUpdateArtist(true);
 		String label = "Élément modifié";
 		Composition compoToModifInFinal;
 		Composition compoToModifInTable;

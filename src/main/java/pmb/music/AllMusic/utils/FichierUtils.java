@@ -169,7 +169,8 @@ public class FichierUtils {
 		if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
 			Map<String, String> value = new HashMap<>();
 			try {
-				value = MiscUtils.readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
+				value = MiscUtils
+						.<String>readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
 			} catch (IOException e) {
 				LOG.error("Error while decoding import params:" + firstLine + " in file " + newTxt, e);
 			}
@@ -183,7 +184,7 @@ public class FichierUtils {
 							: Boolean.FALSE.toString());
 			value.put(ImportPanel.IMPORT_PARAM_PUBLISH_YEAR, newPublish);
 			value.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(newSize));
-			FichierUtils.writeMapInFile(new File(newTxt), value);
+			FichierUtils.writeMapInTxtFile(new File(newTxt), value);
 		}
 		return result;
 	}
@@ -342,9 +343,10 @@ public class FichierUtils {
 	 */
 	public static Optional<String> buildXmlFilePath(String fileName) {
 		LOG.debug("Start buildXmlFilePath");
-		String path = Constant.getXmlPath() + FileUtils.FS + fileName + Constant.XML_EXTENSION;
+		String path = Constant.getXmlPath() + fileName + Constant.XML_EXTENSION;
 		if (!FileUtils.fileExists(path)) {
 			LOG.warn("End buildXmlFilePath, no path built for: " + fileName);
+			LOG.warn("Path tested: " + path);
 			return Optional.empty();
 		}
 		LOG.debug("End buildXmlFilePath");
@@ -371,12 +373,36 @@ public class FichierUtils {
 	}
 
 	/**
+	 * Export an object to json in a file.
+	 * 
+	 * @param o the object to export
+	 * @param filePath the absolute path of the file
+	 */
+	public static void exportJsonInFile(Object o, String filePath) {
+		LOG.debug("Start exportJsonInFile");
+		String json = "";
+		try {
+			json = MiscUtils.writeValueAsString(o);
+		} catch (JsonProcessingException e) {
+			LOG.error("Error when converting object to json", e);
+		}
+		File file = new File(filePath);
+		try (BufferedWriter writer = new BufferedWriter(
+				new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING));) {
+			writer.append(json);
+		} catch (IOException e) {
+			LOG.error("Error exporting file: " + file.getName(), e);
+		}
+		LOG.debug("End exportJsonInFile");
+	}
+
+	/**
 	 * Write (or overwrite if already present) import parameters in txt file.
 	 * 
 	 * @param file the file in which paramaters are written
 	 * @param map a map of paramaters
 	 */
-	public static void writeMapInFile(File file, Map<String, String> map) {
+	public static void writeMapInTxtFile(File file, Map<String, String> map) {
 		LOG.debug("Start writeMapInFile");
 		String s = "";
 		try {

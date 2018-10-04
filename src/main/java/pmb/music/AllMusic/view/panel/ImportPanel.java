@@ -148,7 +148,7 @@ public class ImportPanel extends JPanel {
 	 * Content for the result area.
 	 */
 	private List<String> result = new LinkedList<>();
-	
+
 	/**
 	 * Button that launchs the import of the current loaded file.
 	 */
@@ -526,7 +526,7 @@ public class ImportPanel extends JPanel {
 
 		this.add(thirdLine);
 	}
-	
+
 	private void insertResultPanel() {
 		JPanel fourthLine = new JPanel(new GridLayout(0, 1));
 
@@ -614,7 +614,7 @@ public class ImportPanel extends JPanel {
 		bottom.setBorder(BorderFactory.createTitledBorder(""));
 		this.add(bottom);
 	}
-	
+
 	/**
 	 * Le traitement lorsqu'on importe un fichier txt.
 	 */
@@ -644,7 +644,7 @@ public class ImportPanel extends JPanel {
 				// Change xml file path
 				absolutePathFileXml = Constant.getXmlPath() + xmlFileName + Constant.XML_EXTENSION;
 				// Write in Txt file import params
-				FichierUtils.writeMapInFile(new File(absolutePathFileTxt),
+				FichierUtils.writeMapInTxtFile(new File(absolutePathFileTxt),
 						convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
 								removeParenthese.isSelected(), upper.isSelected(), removeAfter.isSelected()));
 			} catch (IOException | MyException e) {
@@ -775,7 +775,8 @@ public class ImportPanel extends JPanel {
 		if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
 			Map<String, String> value = new HashMap<>();
 			try {
-				value = MiscUtils.readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
+				value = MiscUtils
+						.<String>readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
 			} catch (IOException e) {
 				LOG.error("Error while decoding import params:" + firstLine + " in file " + absolutePathFileTxt, e);
 			}
@@ -884,7 +885,7 @@ public class ImportPanel extends JPanel {
 	private void fusionFilesAction(final ArtistPanel artist) throws InterruptedException {
 		new Thread(() -> {
 			LOG.debug("Start fusionFilesAction");
-			artist.interruptUpdateArtist();
+			artist.interruptUpdateArtist(true);
 			result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
 			try {
 				ImportXML.fusionFiles(Constant.getXmlPath(), resultLabel);

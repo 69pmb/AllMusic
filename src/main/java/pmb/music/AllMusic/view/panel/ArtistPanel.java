@@ -17,6 +17,8 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -63,6 +65,7 @@ import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.PanelUtils;
@@ -321,7 +324,7 @@ public class ArtistPanel extends JPanel {
 		if (updateArtistThread == null || !updateArtistThread.isAlive()) {
 			startUpdateArtistThread();
 		} else {
-			interruptUpdateArtist();
+			interruptUpdateArtist(false);
 			try {
 				updateArtistThread.join();
 			} catch (InterruptedException e) {
@@ -333,9 +336,19 @@ public class ArtistPanel extends JPanel {
 		LOG.debug("End updateArtistPanel");
 	}
 
-	public void interruptUpdateArtist() {
+	/**
+	 * Stops the thread that calculates data of artist panel.
+	 * 
+	 * @param deleteJsonFile if true, the json file containing data is deleted
+	 */
+	public void interruptUpdateArtist(boolean deleteJsonFile) {
 		if (!withArtist) {
 			return;
+		}
+		if (deleteJsonFile) {
+			if (!new File(Constant.ARTIST_PANEL_RESULT_FILE).delete()) {
+				LOG.warn(Constant.ARTIST_PANEL_RESULT_FILE + " n'a pas pu etre supprimé");
+			}
 		}
 		updateArtistThread.interrupt();
 	}
@@ -343,8 +356,17 @@ public class ArtistPanel extends JPanel {
 	private void startUpdateArtistThread() {
 		updateArtistThread = new Thread(() -> {
 			LOG.debug("Start ThreadUpdateArtist");
-			data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.getFinalFilePath()));
-
+			if (!new File(Constant.ARTIST_PANEL_RESULT_FILE).exists()) {
+				data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.getFinalFilePath()));
+				FichierUtils.exportJsonInFile(data, Constant.ARTIST_PANEL_RESULT_FILE);
+			} else {
+				try {
+					data = MiscUtils
+							.readValueAsMapOfList(FichierUtils.getFirstLine(new File(Constant.ARTIST_PANEL_RESULT_FILE)));
+				} catch (IOException e1) {
+					LOG.error("Error when reading artist json file", e1);
+				}
+			}
 			SwingUtilities.invokeLater(() -> {
 				// Called when data are finally calculated
 				resetAction();

@@ -129,7 +129,7 @@ public class AppTest {
 							result.put(ImportPanel.IMPORT_PARAM_SORTED, String.valueOf(fichier.getSorted()));
 							result.put(ImportPanel.IMPORT_PARAM_PUBLISH_YEAR, String.valueOf(fichier.getPublishYear()));
 							result.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(fichier.getSize()));
-							FichierUtils.writeMapInFile(file, result);
+							FichierUtils.writeMapInTxtFile(file, result);
 						}
 					} catch (MyException e) {
 						LOG.error("Error file: " + filename, e);
@@ -467,8 +467,8 @@ public class AppTest {
 	}
 
 	public static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName) {
-		BigDecimal doubleMedian = CompositionUtils.getDoubleMedian(type);
-		BigDecimal logMax = CompositionUtils.getLogMax(type);
+		BigDecimal doubleMedian = CompositionUtils.getDoubleMedian(type, importXML);
+		BigDecimal logMax = CompositionUtils.getLogMax(type, importXML);
 
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
