@@ -11,7 +11,6 @@ import java.util.Map;
 import java.util.regex.PatternSyntaxException;
 import java.util.stream.Collectors;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
@@ -99,11 +98,14 @@ public class SearchUtils {
 				LOG.debug("Critères de recherche: " + criteria.entrySet().stream()
 						.map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
 			}
-			CollectionUtils.filter(arrayList,
-					(Object c) -> filterCompositions(searchMethod, searchInFiles, jaro, artist, titre, type, deleted,
-							publish, publishRange, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c));
+			arrayList = arrayList.parallelStream()
+					.filter((Composition c) -> filterCompositions(searchMethod, searchInFiles, jaro, artist, titre,
+							type, deleted, publish, publishRange, fileName, auteur, cat, dateB, dateE, sorted, topTen,
+							searchFile, c))
+					.collect(Collectors.toList());
 		} else if (!deleted) {
-			CollectionUtils.filter(arrayList, (Object c) -> !((Composition) c).isDeleted());
+			arrayList = arrayList.parallelStream().filter((Composition c) -> !c.isDeleted())
+					.collect(Collectors.toList());
 		}
 		if (log) {
 			LOG.debug("End search");
@@ -134,14 +136,14 @@ public class SearchUtils {
 		}
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
-		if (result && searchFile && CollectionUtils.isNotEmpty(files)) {
-			CollectionUtils.filter(files, (Object f) -> filterFichier(searchMethod, jaro, publish, publishRange,
-					fileName, auteur, cat, dateB, dateE, sorted, topTen, f));
+		if (result && searchFile && !files.isEmpty()) {
+			files = files.parallelStream().filter((Fichier f) -> filterFichier(searchMethod, jaro, publish,
+					publishRange, fileName, auteur, cat, dateB, dateE, sorted, topTen, f)).collect(Collectors.toList());
 		}
 		if (searchInFiles) {
 			co.setFiles(files);
 		}
-		return result && CollectionUtils.isNotEmpty(files);
+		return result && !files.isEmpty();
 	}
 
 	/**
@@ -208,13 +210,13 @@ public class SearchUtils {
 		if (StringUtils.isNotBlank(publish)) {
 			switch (SearchRange.getByValue(publishRange)) {
 			case EQUAL:
-				result = result && fi.getPublishYear() == Integer.parseInt(publish);				
+				result = result && fi.getPublishYear() == Integer.parseInt(publish);
 				break;
 			case GREATER:
-				result = result && fi.getPublishYear() >= Integer.parseInt(publish);				
+				result = result && fi.getPublishYear() >= Integer.parseInt(publish);
 				break;
 			case LESS:
-				result = result && fi.getPublishYear() <= Integer.parseInt(publish);				
+				result = result && fi.getPublishYear() <= Integer.parseInt(publish);
 				break;
 			default:
 				break;
