@@ -199,7 +199,11 @@ public class PanelUtils {
 					row.add(String.valueOf(selectedRow.get(j)));
 				} else if (model.getColumnClass(j) == Integer.class || model.getColumnClass(j) == Double.class
 						|| model.getColumnClass(j) == Long.class) {
-					row.add(NumberFormat.getNumberInstance().format(selectedRow.get(j)));
+					try {
+						row.add(NumberFormat.getNumberInstance().format(selectedRow.get(j)));
+					} catch (IllegalArgumentException e) {
+						row.add(selectedRow.get(j));
+					}
 				} else if (model.getColumnClass(j) == Date.class) {
 					row.add(new Constant().getSdfDate().format(selectedRow.get(j)));
 				} else {
