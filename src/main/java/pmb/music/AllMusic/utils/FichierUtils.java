@@ -8,7 +8,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
@@ -166,12 +165,12 @@ public class FichierUtils {
 				+ FileUtils.FS + newFileName + Constant.TXT_EXTENSION;
 		renameFile(txtPath, newTxt);
 		// Modifie ses import params
-		String firstLine = FichierUtils.getFirstLine(new File(newTxt));
-		if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
+		Optional<String> firstLine = FichierUtils.readFirstLine(newTxt);
+		if (firstLine.isPresent() && StringUtils.startsWith(firstLine.get(), Constant.IMPORT_PARAMS_PREFIX)) {
 			Map<String, String> value = new HashMap<>();
 			try {
 				value = MiscUtils
-						.<String>readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
+						.<String>readValueAsMap(StringUtils.substringAfter(firstLine.get(), Constant.IMPORT_PARAMS_PREFIX));
 			} catch (IOException e) {
 				LOG.error("Error while decoding import params:" + firstLine + " in file " + newTxt, e);
 			}
@@ -355,25 +354,6 @@ public class FichierUtils {
 	}
 
 	/**
-	 * Retourne la première ligne du fichier donné.
-	 * 
-	 * @param file le fichier
-	 * @return la 1ère ligne
-	 */
-	public static String getFirstLine(File file) {
-		LOG.debug("Start getFirstLine");
-		String result = "";
-		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
-			result = br.readLine();
-		} catch (IOException e) {
-			LOG.error("Erreur lors de la lecture du fichier " + file.getAbsolutePath(), e);
-		}
-		LOG.debug("End getFirstLine");
-		return result;
-	}
-
-	/**
 	 * Export an object to json in a file.
 	 * 
 	 * @param o the object to export
@@ -451,7 +431,7 @@ public class FichierUtils {
 	 */
 	public static Optional<String> saveLogFileIfNotEmpty() {
 		String newFileLog = null;
-		Optional<String> line = readFileFirstLine(Constant.FILE_LOG_PATH);
+		Optional<String> line = readFirstLine(Constant.FILE_LOG_PATH);
 		if (line.isPresent() && StringUtils.isNotBlank(line.get())) {
 			newFileLog = Constant.FILE_LOG_PATH + Constant.SEPARATOR_DATE_HISTORY + MiscUtils.dateNow()
 					+ Constant.TXT_EXTENSION;
@@ -464,14 +444,23 @@ public class FichierUtils {
 		return Optional.ofNullable(newFileLog);
 	}
 
-	private static Optional<String> readFileFirstLine(String filePath) {
-		String line = null;
-		try (BufferedReader br = new BufferedReader(new FileReader(filePath));) {
-			line = br.readLine();
+	/**
+	 * Retourne la première ligne du fichier donné.
+	 * 
+	 * @param file le chemin absolu du fichier
+	 * @return la 1ère ligne
+	 */
+	public static Optional<String> readFirstLine(String filePath) {
+		LOG.debug("Start readFirstLine");
+		String result = null;
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(new File(filePath)), Constant.ANSI_ENCODING));) {
+			result = br.readLine();
 		} catch (IOException e) {
-			LOG.error("Erreur lors de l'ouverture du fichier: " + filePath, e);
+			LOG.error("Erreur lors de la lecture du fichier " + filePath, e);
 		}
-		return Optional.ofNullable(line);
+		LOG.debug("End readFirstLine");
+		return Optional.ofNullable(result);
 	}
 
 	public static Date getLastModifyDate(String filePath) {
