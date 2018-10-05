@@ -74,6 +74,8 @@ public class PanelUtils {
 	 * @param lastColumn si la dernière colonne doit être colorisée ou non
 	 * @param deletedIndex index of the deleted column, use it to draw deleted row
 	 *            with specific color
+	 * @param typeIndex index of the record type column, use it to draw type cell
+	 *            with a specific color
 	 */
 	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex, Integer typeIndex) {
 		LOG.debug("Start colRenderer");
