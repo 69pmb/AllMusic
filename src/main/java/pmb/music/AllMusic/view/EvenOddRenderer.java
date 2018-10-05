@@ -97,7 +97,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 			// If display a row with record type
 			RecordType type = RecordType.getByValue(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
 					.get(table.getRowSorter().convertRowIndexToModel(row))).get(typeIndex));
-			if (type.getRecordType().equals(value) && !rowDeleted) {
+			if (type.getRecordType().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
 				// only the record type cell is colored
 				renderer.setForeground(type == RecordType.ALBUM ? YELLOW : type == RecordType.SONG ? RED : PURPLE);
 				background = isSelected ? DARK_BLUE : row % 2 == 0 ? GRAY : BLUE;

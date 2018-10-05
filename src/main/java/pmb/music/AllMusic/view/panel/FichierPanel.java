@@ -93,13 +93,14 @@ public class FichierPanel extends JPanel {
 	public static final int INDEX_FILE_LINE_NUMBER = 0;
 	public static final int INDEX_FILE_AUTHOR = 1;
 	public static final int INDEX_FILE_FILE_NAME = 2;
-	public static final int INDEX_FILE_PUBLISH = 3;
-	public static final int INDEX_FILE_CAT = 4;
-	public static final int INDEX_FILE_RANGE = 5;
-	public static final int INDEX_PERCENT_DELETED = 6;
-	public static final int INDEX_CREATE_DATE = 7;
-	public static final int INDEX_FILE_SIZE = 8;
-	public static final int INDEX_FILE_SORTED = 9;
+	public static final int INDEX_FILE_TYPE = 3;
+	public static final int INDEX_FILE_PUBLISH = 4;
+	public static final int INDEX_FILE_CAT = 5;
+	public static final int INDEX_FILE_RANGE = 6;
+	public static final int INDEX_PERCENT_DELETED = 7;
+	public static final int INDEX_CREATE_DATE = 8;
+	public static final int INDEX_FILE_SIZE = 9;
+	public static final int INDEX_FILE_SORTED = 10;
 
 	public static final int INDEX_COMPO_LINE_NUMBER = 0;
 	public static final int INDEX_COMPO_ARTIST = 1;
@@ -152,8 +153,8 @@ public class FichierPanel extends JPanel {
 
 	private Dimension parentSize;
 
-	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Date de publication", "Categorie",
-			"Dates", "Supprimés", "Date de création", "Taille", "Classé" };
+	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Date de publication",
+			"Categorie", "Dates", "Supprimés", "Date de création", "Taille", "Classé" };
 	private static final String[] headerCompo = { "#", "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
 			"Score", "", "" };
 
@@ -462,8 +463,8 @@ public class FichierPanel extends JPanel {
 		tableFiles.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@Override
 			public void sorterChanged(RowSorterEvent e) {
-					List<SortKey> sortKeys = e.getSource().getSortKeys();
-					if (!sortKeys.isEmpty()) {
+				List<SortKey> sortKeys = e.getSource().getSortKeys();
+				if (!sortKeys.isEmpty()) {
 					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 						// Store sorted column and order
 						sortedFichierColumn = sortKeys.get(0).getColumn();
@@ -532,8 +533,8 @@ public class FichierPanel extends JPanel {
 			@Override
 			@SuppressWarnings("unchecked")
 			public void sorterChanged(RowSorterEvent e) {
-					List<SortKey> sortKeys = e.getSource().getSortKeys();
-					if (!sortKeys.isEmpty()) {
+				List<SortKey> sortKeys = e.getSource().getSortKeys();
+				if (!sortKeys.isEmpty()) {
 					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 						// Sort of deleted column and store sorted column and order
 						int column = sortKeys.get(0).getColumn();
@@ -786,7 +787,7 @@ public class FichierPanel extends JPanel {
 			fichiers = fichiers.parallelStream().filter(f -> {
 				return SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, publi.getText(),
 						(String) searchRange.getSelectedItem(), name.getText(), auteur.getText(),
-							cat.getSelectedItems(), rangeB.getText(), rangeE.getText(),
+						cat.getSelectedItems(), rangeB.getText(), rangeE.getText(),
 						sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f);
 			}).collect(Collectors.toList());
 			// update files table
@@ -804,7 +805,7 @@ public class FichierPanel extends JPanel {
 		fichieModel.setRowCount(0);
 		fichieModel.setDataVector(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false, true),
 				new Vector<>(Arrays.asList(headerFiles)));
-		PanelUtils.colRenderer(tableFiles, true, null, null);
+		PanelUtils.colRenderer(tableFiles, true, null, INDEX_FILE_TYPE);
 		if (sortedFichierColumn == null) {
 			sortedFichierColumn = INDEX_FILE_FILE_NAME;
 			sortFichierOrder = SortOrder.ASCENDING;
