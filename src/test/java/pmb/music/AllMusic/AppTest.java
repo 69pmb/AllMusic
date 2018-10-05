@@ -93,7 +93,7 @@ public class AppTest {
 			for (File file : files) {
 				String filename = StringUtils.substringBeforeLast(file.getName(), Constant.TXT_EXTENSION);
 				if (StringUtils.startsWith(
-						FichierUtils.getFirstLine(new File(FichierUtils.buildTxtFilePath(filename, author).get())),
+						FichierUtils.readFirstLine(FichierUtils.buildTxtFilePath(filename, author).get()).get(),
 						Constant.IMPORT_PARAMS_PREFIX)) {
 					continue;
 				}
@@ -167,7 +167,7 @@ public class AppTest {
 		List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
 		if (randomLineAndLastLines.size() < 6) {
 			log.append("Too small: " + filename + Constant.NEW_LINE);
-			String first = FichierUtils.getFirstLine(file);
+			String first = FichierUtils.readFirstLine(file.getAbsolutePath()).get();
 			Map<String, String> findParams = findParams(filename, xml, Arrays.asList(first),
 					ImportFile.getSeparator(first), 0, 0, log);
 			if (!findParams.isEmpty()) {

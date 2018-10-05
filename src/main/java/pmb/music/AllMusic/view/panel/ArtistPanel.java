@@ -362,7 +362,7 @@ public class ArtistPanel extends JPanel {
 			} else {
 				try {
 					data = MiscUtils
-							.readValueAsMapOfList(FichierUtils.getFirstLine(new File(Constant.ARTIST_PANEL_RESULT_FILE)));
+							.readValueAsMapOfList(FichierUtils.readFirstLine(Constant.ARTIST_PANEL_RESULT_FILE).get());
 				} catch (IOException e1) {
 					LOG.error("Error when reading artist json file", e1);
 				}
