@@ -517,7 +517,7 @@ public class BatchUtils {
 		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
-	public static String topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit) {
+	public static String topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit, boolean deleted) {
 		LOG.debug("Start topYear");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Top Year: ", true);
@@ -528,10 +528,10 @@ public class BatchUtils {
 
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		for (int i = yearBegin; i <= yearEnd; i++) {
-			topYear(i, importXML, albumLimit, songLimit, text);
+			topYear(i, importXML, albumLimit, songLimit, deleted, text);
 		}
 		if (yearBegin == 0 && yearEnd == 0) {
-			topYear(0, importXML, albumLimit, songLimit, text);
+			topYear(0, importXML, albumLimit, songLimit, deleted, text);
 		}
 
 		LOG.debug("End topYear");
@@ -798,19 +798,20 @@ public class BatchUtils {
 	 * Generates the top excel files of a year.
 	 * 
 	 * @param list
+	 * @param deleted if true all compositions, false only not deleted compositions
 	 */
-	private static void topYear(int yearTop, List<Composition> list, int albumLimit, int songLimit,
+	private static void topYear(int yearTop, List<Composition> list, int albumLimit, int songLimit, boolean deleted,
 			StringBuilder result) {
 		LOG.debug("Start topYear");
 		List<String> files = new ArrayList<>();
 		String year = String.valueOf(yearTop);
 		addLine(result, "Year: " + year, true);
-		files.add(topOccurence(list, year));
-		files.add(topRecords(list, RecordType.SONG, "Top Songs", songLimit, year));
-		files.add(topRecords(list, RecordType.ALBUM, "Top Albums", albumLimit, year));
-		files.add(topRecordsByPoints(list, RecordType.SONG, "Points Songs", year));
-		files.add(topRecordsByPoints(list, RecordType.ALBUM, "Points Albums", year));
-		files.add(topSongsParPublication(list, year));
+		files.add(topOccurence(list, year, deleted));
+		files.add(topRecords(list, RecordType.SONG, "Top Songs", songLimit, deleted, year));
+		files.add(topRecords(list, RecordType.ALBUM, "Top Albums", albumLimit, deleted, year));
+		files.add(topRecordsByPoints(list, RecordType.SONG, "Points Songs", deleted, year));
+		files.add(topRecordsByPoints(list, RecordType.ALBUM, "Points Albums", deleted, year));
+		files.add(topSongsParPublication(list, year, deleted));
 		moveFilesInFolder(files, new File(Constant.getOutputDir() + "Top by Year" + FileUtils.FS + year), result);
 		LOG.debug("End topYear");
 	}
@@ -833,10 +834,10 @@ public class BatchUtils {
 	 * Generates csv file with each top 10 songs of every publication.
 	 * 
 	 * @param list
-	 * 
 	 * @param year
+	 * @param deleted if true all compositions, false only not deleted compositions
 	 */
-	private static String topSongsParPublication(List<Composition> list, String year) {
+	private static String topSongsParPublication(List<Composition> list, String year, boolean deleted) {
 		List<String> authors = OngletPanel.getAuthorList();
 		List<List<String>> result = new ArrayList<List<String>>();
 		for (String author : authors) {
@@ -848,7 +849,7 @@ public class BatchUtils {
 			}
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, false, false);
+			List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false);
 			if (yearList.isEmpty() || !yearList.get(0).getFiles().get(0).getSorted()) {
 				// If no file for the given author and year or if the file is not sorted
 				continue;
@@ -864,6 +865,7 @@ public class BatchUtils {
 					if ("0".equals(year)) {
 						row.add(String.valueOf(composition.getFiles().get(0).getRangeDateBegin()));
 					}
+					row.add(String.valueOf(composition.isDeleted()));
 					temp.add(row);
 				}
 			}
@@ -881,9 +883,9 @@ public class BatchUtils {
 				strings.set(2, "");
 			}
 		}
-		String[] header = { "Artiste", "Titre", "Classement" };
+		String[] header = { "Artiste", "Titre", "Classement", "Supprimé" };
 		if ("0".equals(year)) {
-			String[] tmp = { "Artiste", "Titre", "Classement", "Année" };
+			String[] tmp = { "Artiste", "Titre", "Classement", "Année", "Supprimé" };
 			header = tmp;
 		}
 		return CsvFile.exportCsv("Top Songs Par Publication - " + year, result, null, header);
@@ -901,15 +903,16 @@ public class BatchUtils {
 	 * Top songs or top albums.
 	 * 
 	 * @param list
-	 * 
 	 * @param type Album or Song
 	 * @param fileName the name of the result csv file
 	 * @param limit the minimim of number of occurence a Composition to have to be
 	 *            in the result file
+	 * @param deleted if true all compositions, false only not deleted compositions
 	 * @param year the year of the top
 	 * @param score
 	 */
-	private static String topRecords(List<Composition> list, RecordType type, String fileName, int limit, String year) {
+	private static String topRecords(List<Composition> list, RecordType type, String fileName, int limit,
+			boolean deleted, String year) {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 		if (!"0".equals(year)) {
@@ -917,7 +920,7 @@ public class BatchUtils {
 			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
 		}
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, false, false);
+		List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
 				.convertCompositionListToVector(yearList, null, false, true, false, true, false).stream()
 				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
@@ -925,7 +928,7 @@ public class BatchUtils {
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
-		String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score",
+		String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Supprimé",
 				"Year: " + year + " Type: " + type.toString() };
 		return CsvFile.exportCsv(fileName + " - " + year, MiscUtils.convertVectorToList(occurenceList),
 				new SortKey(3, SortOrder.DESCENDING), csvHeader);
@@ -935,12 +938,13 @@ public class BatchUtils {
 	 * Top songs or top albums with a sytem of points.
 	 * 
 	 * @param list
-	 * 
 	 * @param type Album or Song
 	 * @param fileName the name of the result csv file
+	 * @param deleted if true all compositions, false only not deleted compositions
 	 * @param year the year of the top
 	 */
-	private static String topRecordsByPoints(List<Composition> list, RecordType type, String fileName, String year) {
+	private static String topRecordsByPoints(List<Composition> list, RecordType type, String fileName, boolean deleted,
+			String year) {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 		if (!"0".equals(year)) {
@@ -949,7 +953,7 @@ public class BatchUtils {
 		}
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, false, false);
+		List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false);
 		List<List<String>> occurenceList = new ArrayList<>();
 		if (yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
 				.map(WordUtils::capitalize).distinct().count() > 2) {
@@ -968,29 +972,31 @@ public class BatchUtils {
 					row.add(String.valueOf(points));
 					occurenceList.add(row);
 				}
+				row.add(String.valueOf(composition.isDeleted()));
 			}
 		}
-		String[] csvHeader = { "Artiste", "Titre", "Type", "Score", "Year: " + year + " Type: " + type.toString() };
+		String[] csvHeader = { "Artiste", "Titre", "Type", "Score", "Supprimé",
+				"Year: " + year + " Type: " + type.toString() };
 		return CsvFile.exportCsv(fileName + " - " + year, occurenceList, new SortKey(3, SortOrder.DESCENDING),
 				csvHeader);
 	}
 
 	/**
 	 * Generates csv file with the most occurence of an artist, songs and albums
-	 * combine.
+	 * combine. Limited with minimum 10 total occurences.
 	 * 
 	 * @param list
-	 * 
 	 * @param year
+	 * @param deleted if true all compositions, false only not deleted compositions
 	 */
-	private static String topOccurence(List<Composition> list, String year) {
+	private static String topOccurence(List<Composition> list, String year, boolean deleted) {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
 		if (!"0".equals(year)) {
 			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, year);
 			criteria.put(SearchUtils.CRITERIA_DATE_END, year);
 		}
-		List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, false, false);
+		List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false);
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
 				.convertArtistPanelResultToVector(CompositionUtils.groupCompositionByArtist(yearList), false).stream()
 				.filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
@@ -998,7 +1004,8 @@ public class BatchUtils {
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
-		String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons", "Year: " + year };
+		String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons", "Score",
+				"Year: " + year };
 		return CsvFile.exportCsv("Top Occurence - " + year, MiscUtils.convertVectorToList(occurenceList),
 				new SortKey(1, SortOrder.DESCENDING), csvHeader);
 	}
