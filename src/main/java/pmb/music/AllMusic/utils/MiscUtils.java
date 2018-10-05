@@ -2,7 +2,6 @@ package pmb.music.AllMusic.utils;
 
 import java.io.IOException;
 import java.text.DateFormat;
-import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -117,7 +116,7 @@ public class MiscUtils {
 				} else if (obj instanceof Boolean) {
 					row.add(String.valueOf(obj));
 				} else if (obj instanceof Integer || obj instanceof Long || obj instanceof Double) {
-					row.add(NumberFormat.getNumberInstance().format(obj));
+					row.add(String.valueOf(obj));
 				} else if (obj instanceof Date) {
 					row.add(new Constant().getSdfDate().format((Date) obj));
 				}
