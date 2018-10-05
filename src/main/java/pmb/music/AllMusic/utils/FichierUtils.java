@@ -93,6 +93,9 @@ public class FichierUtils {
 				}
 				v.addElement(f.getAuthor());
 				v.addElement(f.getFileName());
+				if (!getComposition) {
+					v.addElement(importXML.get(0).getRecordType().toString());
+				}
 				v.addElement(f.getPublishYear());
 				v.addElement(f.getCategorie().toString());
 				v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
@@ -169,8 +172,8 @@ public class FichierUtils {
 		if (firstLine.isPresent() && StringUtils.startsWith(firstLine.get(), Constant.IMPORT_PARAMS_PREFIX)) {
 			Map<String, String> value = new HashMap<>();
 			try {
-				value = MiscUtils
-						.<String>readValueAsMap(StringUtils.substringAfter(firstLine.get(), Constant.IMPORT_PARAMS_PREFIX));
+				value = MiscUtils.<String>readValueAsMap(
+						StringUtils.substringAfter(firstLine.get(), Constant.IMPORT_PARAMS_PREFIX));
 			} catch (IOException e) {
 				LOG.error("Error while decoding import params:" + firstLine + " in file " + newTxt, e);
 			}
