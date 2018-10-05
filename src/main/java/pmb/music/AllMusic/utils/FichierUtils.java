@@ -64,7 +64,8 @@ public class FichierUtils {
 	 */
 	public static Vector<Vector<Object>> convertCompositionListToFichierVector(List<Composition> compoList,
 			boolean getComposition, boolean lineNumber) {
-		LOG.debug("Start convertListForJTable");
+		LOG.debug("Start convertCompositionListToFichierVector, getComposition: " + getComposition + ", lineNumber: "
+				+ lineNumber);
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		compoList.parallelStream().forEach(c -> {
 			c.getFiles().parallelStream().forEach(f -> {
@@ -112,7 +113,7 @@ public class FichierUtils {
 				result.add(v);
 			});
 		});
-		LOG.debug("End convertListForJTable");
+		LOG.debug("End convertCompositionListToFichierVector");
 		return result;
 	}
 
