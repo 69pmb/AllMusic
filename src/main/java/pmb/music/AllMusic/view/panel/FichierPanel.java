@@ -768,6 +768,8 @@ public class FichierPanel extends JPanel {
 	private void searchAction() {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
+		// Gets all compositions, filter on recored type, recovers their files and
+		// perfoms a distinct on their filenames
 		fichiers = new ArrayList<Fichier>(
 				ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().filter(c -> {
 					if (StringUtils.isNotBlank(type.getSelectedItems())) {
@@ -779,12 +781,15 @@ public class FichierPanel extends JPanel {
 				}).map(Composition::getFiles).flatMap(List::stream)
 						.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
 		if (!fichiers.isEmpty()) {
-			fichiers = fichiers.stream()
-					.filter(f -> SearchUtils.filterFichier(SearchMethod.CONTAINS, new JaroWinklerDistance(),
-							publi.getText(), (String) searchRange.getSelectedItem(), name.getText(), auteur.getText(),
+			// Filter on the files list with the others criteria
+			JaroWinklerDistance jaro = new JaroWinklerDistance();
+			fichiers = fichiers.parallelStream().filter(f -> {
+				return SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, publi.getText(),
+						(String) searchRange.getSelectedItem(), name.getText(), auteur.getText(),
 							cat.getSelectedItems(), rangeB.getText(), rangeE.getText(),
-							sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f))
-					.collect(Collectors.toList());
+						sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f);
+			}).collect(Collectors.toList());
+			// update files table
 			updateFileTable();
 		}
 		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");
@@ -829,8 +834,8 @@ public class FichierPanel extends JPanel {
 		LOG.debug("Start updateCompoTable");
 		compoModel.setRowCount(0);
 		if (selectedFile != null && !compo.isEmpty()) {
-			List<Fichier> fichier = compo.stream()
-					.map(c -> c.getFiles().stream()
+			List<Fichier> fichier = compo.parallelStream()
+					.map(c -> c.getFiles().parallelStream()
 							.filter(f -> StringUtils.equalsIgnoreCase(selectedFile, f.getFileName())).findFirst().get())
 					.collect(Collectors.toList());
 			List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
