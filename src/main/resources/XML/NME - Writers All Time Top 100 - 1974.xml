@@ -160,7 +160,7 @@
   <compo A="Neil Young" T="Everybody Knows This Is Nowhere" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="53" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="James Taylor" T="Sweet Baby James" type="ALBUM" mergeable="true" del="true">
+  <compo A="James Taylor" T="Sweet Baby James" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="54" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="The Byrds" T="Fifth Dimension" type="ALBUM" mergeable="true" del="false">
