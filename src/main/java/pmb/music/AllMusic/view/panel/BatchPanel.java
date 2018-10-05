@@ -224,6 +224,13 @@ public class BatchPanel extends JPanel {
 		PanelUtils.setSize(songLimit, 100, PanelUtils.COMPONENT_HEIGHT);
 		PanelUtils.addComponent(top, songLimit, Component.LEFT_ALIGNMENT, 80);
 
+		// Checkbox deleted
+		JLabel deletedLabel = new JLabel("Supprimés: ");
+		JCheckBox deleted = new JCheckBox();
+		deleted.setSelected(false);
+		PanelUtils.addComponent(top, deletedLabel, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(top, deleted, Component.LEFT_ALIGNMENT, 80);
+
 		// Bouton d'action
 		JButton topBtn = PanelUtils.createJButton("Go Tops", 200, Constant.ICON_GO);
 		topBtn.addActionListener((ActionEvent arg0) -> {
@@ -231,7 +238,7 @@ public class BatchPanel extends JPanel {
 			new Thread(() -> {
 				fileResult = BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()),
 						Integer.parseInt(yearEndTop.getText()), Integer.parseInt(albumLimit.getText()),
-						Integer.parseInt(songLimit.getText()));
+						Integer.parseInt(songLimit.getText()), deleted.isSelected());
 				displayText("End topYear: " + MiscUtils.getCurrentTime(), false);
 			}).start();
 		});
