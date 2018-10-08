@@ -688,11 +688,15 @@ public class FichierPanel extends JPanel {
 		}
 		// Mise à jour du JTable
 		List<Composition> list = data.get(key);
+		list.stream().forEach(FichierUtils.modifyOneFile(fileName, newFichier.get(INDEX_FILE_FILE_NAME),
+				newFichier.get(INDEX_FILE_PUBLISH), newFichier.get(INDEX_FILE_RANGE), newFichier.get(INDEX_FILE_CAT),
+				newFichier.get(INDEX_FILE_SIZE), newFichier.get(INDEX_FILE_SORTED)));
 		data.remove(key);
 		data.put(modifiedFichier, list);
 		updateFileTable();
 		resultLabel.setText("Fichier modifié");
 		LOG.debug("End modifyFichierAction");
+
 	}
 
 	@SuppressWarnings("unchecked")
