@@ -246,15 +246,28 @@ public class SearchUtils {
 
 	/**
 	 * Compares two given strings depending on the search method.
+	 * <ul>
+	 * <li>{@link SearchMethod#CONTAINS}:
 	 * <p>
-	 * {@link SearchMethod#CONTAINS}:
 	 * {@link SearchUtils#isEqualsJaroForSearch(JaroWinklerDistance, String, String)}
-	 * {@link SearchMethod#BEGINS_WITH}:
+	 * </p>
+	 * </li>
+	 * <li>{@link SearchMethod#BEGINS_WITH}:
+	 * <p>
 	 * {@link StringUtils#startsWithIgnoreCase(CharSequence, CharSequence)}
-	 * {@link SearchMethod#JOKER}: {@link String#matches(String)}
-	 * {@link SearchMethod#WHOLE_WORD}:
+	 * </p>
+	 * </li>
+	 * <li>{@link SearchMethod#JOKER}:
+	 * <p>
+	 * {@link String#matches(String)}
+	 * </p>
+	 * </li>
+	 * <li>{@link SearchMethod#WHOLE_WORD}:
+	 * <p>
 	 * {@link StringUtils#equalsIgnoreCase(CharSequence, CharSequence)}
 	 * </p>
+	 * </li>
+	 * </ul>
 	 * 
 	 * @param s1 a string
 	 * @param s2 another string
@@ -263,7 +276,7 @@ public class SearchUtils {
 	 * @return true if the strings are equals according to the search method, false
 	 *         otherwise
 	 */
-	private static boolean compareString(String s1, String s2, SearchMethod searchMethod, JaroWinklerDistance jaro) {
+	public static boolean compareString(String s1, String s2, SearchMethod searchMethod, JaroWinklerDistance jaro) {
 		switch (searchMethod) {
 		case CONTAINS:
 			return isEqualsJaroForSearch(jaro, s1, s2);
