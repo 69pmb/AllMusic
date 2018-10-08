@@ -102,8 +102,9 @@ public class FichierPanel extends JPanel {
 	public static final int INDEX_FILE_RANGE = 6;
 	public static final int INDEX_PERCENT_DELETED = 7;
 	public static final int INDEX_CREATE_DATE = 8;
-	public static final int INDEX_FILE_SIZE = 9;
-	public static final int INDEX_FILE_SORTED = 10;
+	public static final int INDEX_FILE_SCORE = 9;
+	public static final int INDEX_FILE_SIZE = 10;
+	public static final int INDEX_FILE_SORTED = 11;
 
 	public static final int INDEX_COMPO_LINE_NUMBER = 0;
 	public static final int INDEX_COMPO_ARTIST = 1;
@@ -158,7 +159,7 @@ public class FichierPanel extends JPanel {
 	private Dimension parentSize;
 
 	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Date de publication",
-			"Categorie", "Dates", "Supprimés", "Date de création", "Taille", "Classé" };
+			"Categorie", "Dates", "Supprimés", "Date de création", "Score", "Taille", "Classé" };
 	private static final String[] headerCompo = { "#", "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
 			"Score", "", "" };
 
@@ -826,8 +827,26 @@ public class FichierPanel extends JPanel {
 		Composition c = new Composition();
 		c.setFiles(new ArrayList<>(searchResult.keySet()));
 		fichieModel.setRowCount(0);
-		fichieModel.setDataVector(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false, true),
-				new Vector<>(Arrays.asList(headerFiles)));
+		Vector<Vector<Object>> dataVector = FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false,
+				true);
+		// Calculates score by getting the average of the score of each compositions
+		for (int i = 0; i < dataVector.size(); i++) {
+			Vector<Object> vector = dataVector.get(i);
+			Optional<Entry<Fichier, List<Composition>>> entry = findFichierInMap(
+					(String) vector.get(INDEX_FILE_FILE_NAME));
+			if (entry.isPresent()) {
+				vector.add(INDEX_FILE_SCORE,
+						Math.round(entry.get().getValue().parallelStream()
+								.map(compo -> CompositionUtils.calculateCompositionScore(
+										OngletPanel.getScore().getLogMax(compo.getRecordType()),
+										OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
+								.mapToLong(x -> x).summaryStatistics().getAverage()));
+			} else {
+				LOG.warn("Entry not found ! ");
+				vector.add(INDEX_FILE_SCORE, 0);
+			}
+		}
+		fichieModel.setDataVector(dataVector, new Vector<>(Arrays.asList(headerFiles)));
 		PanelUtils.colRenderer(tableFiles, true, null, INDEX_FILE_TYPE);
 		if (sortedFichierColumn == null) {
 			sortedFichierColumn = INDEX_FILE_FILE_NAME;
