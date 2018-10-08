@@ -701,40 +701,31 @@ public class FichierPanel extends JPanel {
 
 	@SuppressWarnings("unchecked")
 	private void modifyCompositionAction(final ArtistPanel artistPanel, Vector<String> selected) {
-		LOG.debug("Start modif");
+		LOG.debug("Start modifyCompositionAction");
 		resultLabel.setText("");
 		artistPanel.interruptUpdateArtist(true);
 		String label = "Élément modifié";
-		Composition compoToModifInFinal;
-		Composition compoToModifInTable;
+		Composition compoToModif;
 		// On récupère la ligne selectionnée
 		Vector<String> v = selected;
 		List<Composition> importXML;
 		importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		Fichier currentFile = null;
 		try {
 			// On récupère la composition à modifier
-			compoToModifInTable = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(INDEX_COMPO_ARTIST),
+			compoToModif = CompositionUtils.findByArtistTitreAndType(compositionList, v.get(INDEX_COMPO_ARTIST),
 					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE), true);
-			currentFile = compoToModifInTable.getFiles().get(0);
-			Optional<Composition> findByFileAndRank = CompositionUtils.findByFile(importXML, currentFile,
-					Optional.of(v.get(INDEX_COMPO_ARTIST)), Optional.of(v.get(INDEX_COMPO_TITLE)));
-			if (!findByFileAndRank.isPresent()) {
-				resultLabel.setText("Impossible de trouver la composition dans Final.xml");
-				return;
-			}
-			compoToModifInFinal = findByFileAndRank.get();
 		} catch (MyException e1) {
 			String log = "Erreur dans modifAction, impossible de trouver la compo à modifier";
 			LOG.error(log, e1);
 			resultLabel.setText(log + e1);
 			return;
 		}
-		int indexOfXml = importXML.indexOf(compoToModifInFinal);
-		int indexOfResult = compositionList.indexOf(compoToModifInTable);
+		int indexOfXml = SearchUtils.indexOf(importXML, compoToModif);
+		int indexOfResult = SearchUtils.indexOf(compositionList, compoToModif);
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
-				new Dimension(800, 150), v, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE, INDEX_COMPO_TYPE);
+				new Dimension(950, 150), v, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE, INDEX_COMPO_TYPE,
+				INDEX_COMPO_DELETED);
 		md.showModifyCompositionDialog();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée
@@ -747,28 +738,33 @@ public class FichierPanel extends JPanel {
 
 		boolean isDeleted = false;
 		// On modifie la composition
-		compoToModifInTable.setArtist(v.get(INDEX_COMPO_ARTIST));
-		compoToModifInTable.setTitre(v.get(INDEX_COMPO_TITLE));
-		compoToModifInTable.setRecordType(RecordType.valueOf(v.get(INDEX_COMPO_TYPE)));
+		compoToModif.setArtist(v.get(INDEX_COMPO_ARTIST));
+		compoToModif.setTitre(v.get(INDEX_COMPO_TITLE));
+		compoToModif.setRecordType(RecordType.valueOf(v.get(INDEX_COMPO_TYPE)));
+		compoToModif.setDeleted(Boolean.valueOf(v.get(INDEX_COMPO_DELETED)));
 
 		// Gestion du fichier final.xml
-		if (importXML.get(indexOfXml).getFiles().size() > 1) {
-			LOG.debug("Plusieurs fichiers, suppression du fichier en cours");
-			importXML.get(indexOfXml).getFiles().remove(currentFile);
-		} else {
-			LOG.debug("Un seul fichier, suppression de la composition");
-			importXML.remove(indexOfXml);
-		}
-		Composition compoExist = CompositionUtils.compoExist(importXML, compoToModifInTable);
+		importXML.remove(indexOfXml);
+		compositionList.remove(indexOfResult);
+		Composition compoExist = CompositionUtils.compoExist(importXML, compoToModif);
 		if (compoExist == null) {
 			LOG.debug("Pas de regroupement");
-			importXML.add(compoToModifInTable);
+			importXML.add(compoToModif);
+			compositionList.add(compoToModif);
 		} else {
 			LOG.debug("La compo existe déjà, on regroupe");
-			isDeleted = compoToModifInTable.isDeleted() || compoExist.isDeleted();
-			compoExist.getFiles().addAll(compoToModifInTable.getFiles());
+			// regroupement avec une autre composition
+			isDeleted = compoToModif.isDeleted() || compoExist.isDeleted();
+			compoExist.getFiles().addAll(compoToModif.getFiles());
 			compoExist.setDeleted(isDeleted);
-			compoToModifInTable.setDeleted(isDeleted);
+			compoToModif.setDeleted(isDeleted);
+			// Liste des compositions affichées
+			Composition compoExistResult = CompositionUtils.compoExist(compositionList, compoToModif);
+			if (compoExistResult != null) {
+				// La compo apparait bien dans les resultats de recherche
+				compoExistResult.getFiles().addAll(compoToModif.getFiles());
+				compoExistResult.setDeleted(isDeleted);
+			}
 		}
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
@@ -779,13 +775,9 @@ public class FichierPanel extends JPanel {
 			label = log;
 		}
 
-		// On remplace par la nouvelle composition dans le tableau
-		compositionList.remove(indexOfResult);
-		compositionList.add(compoToModifInTable);
-
 		// On modifier les fichier xml en conséquence
 		try {
-			CompositionUtils.modifyCompositionsInFiles(compoToModifInTable, v.get(INDEX_COMPO_ARTIST),
+			CompositionUtils.modifyCompositionsInFiles(compoToModif, v.get(INDEX_COMPO_ARTIST),
 					v.get(INDEX_COMPO_TITLE), v.get(INDEX_COMPO_TYPE), isDeleted);
 		} catch (MyException e1) {
 			String log = "Erreur lors de la modification d'une composition";
@@ -795,8 +787,8 @@ public class FichierPanel extends JPanel {
 		}
 
 		resultLabel.setText(label);
-		updateCompoTable(compositionList, currentFile.getFileName());
-		LOG.debug("End modif");
+		updateCompoTable(compositionList, selectedFichierName);
+		LOG.debug("End modifyCompositionAction");
 	}
 
 	private void searchAction() {
@@ -804,13 +796,13 @@ public class FichierPanel extends JPanel {
 		resultLabel.setText("");
 		// Filters on record type
 		searchResult = data.entrySet().parallelStream().filter(e -> {
-					if (StringUtils.isNotBlank(type.getSelectedItems())) {
+			if (StringUtils.isNotBlank(type.getSelectedItems())) {
 				return e.getValue().stream()
 						.anyMatch(c -> Arrays.asList(StringUtils.split(type.getSelectedItems(), ";")).stream()
 								.anyMatch((t -> c.getRecordType() == RecordType.getByValue(t))));
-					} else {
-						return true;
-					}
+			} else {
+				return true;
+			}
 		}).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 		if (!searchResult.keySet().isEmpty()) {
 			// Filter on the files list with the others criteria

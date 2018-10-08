@@ -45,6 +45,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
 
@@ -274,8 +275,8 @@ public class PanelUtils {
 						v.get(titleIndex), v.get(typeIndex), true);
 				Composition toRemoveToTable = CompositionUtils.findByArtistTitreAndType(compoList, v.get(artistIndex),
 						v.get(titleIndex), v.get(typeIndex), true);
-				compoList.get(compoList.indexOf(toRemoveToTable)).setDeleted(true);
-				importXML.get(importXML.indexOf(toRemoveToFinal)).setDeleted(true);
+				compoList.get(SearchUtils.indexOf(compoList, toRemoveToTable)).setDeleted(true);
+				importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
 				CompositionUtils.removeCompositionsInFiles(toRemoveToFinal);
 			} catch (MyException e1) {
 				LOG.error("Erreur lors de la suppression d'une composition", e1);
