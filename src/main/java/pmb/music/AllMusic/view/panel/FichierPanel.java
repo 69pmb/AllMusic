@@ -23,8 +23,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 import javax.swing.AbstractAction;
@@ -131,13 +134,14 @@ public class FichierPanel extends JPanel {
 	private JPanel fichierPanel;
 	private JTable tableFiles;
 	private FichierPanelModel fichieModel;
-	private List<Fichier> fichiers;
 	private JButton hideFileList;
 	private boolean showFichierTable = true;
 	private Integer sortedFichierColumn;
 	private SortOrder sortFichierOrder;
 	private int selectedFichierRow = -1;
 	private String selectedFichierName = "";
+	Map<Fichier, List<Composition>> data;
+	Map<Fichier, List<Composition>> searchResult;
 
 	// Composition componants
 	private JPanel compoPanel;
@@ -180,6 +184,7 @@ public class FichierPanel extends JPanel {
 
 		parentSize = this.getParent().getPreferredSize();
 		initSearchBtn(artistPanel);
+		initData();
 		initFichierTable();
 		initCompoTable(artistPanel);
 
@@ -565,6 +570,30 @@ public class FichierPanel extends JPanel {
 		setTableSize(compoPanel, MIN_HEIGHT_TABLE);
 	}
 
+	private void initData() {
+		LOG.debug("Start initData");
+		data = new ConcurrentHashMap<>();
+		ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().forEach(c -> {
+			c.getFiles().parallelStream().forEach(f -> {
+				Optional<Entry<Fichier, List<Composition>>> entry = findFichierInMap(f.getFileName());
+				if (entry.isPresent()) {
+					data.get(entry.get().getKey()).add(c);
+				} else {
+					data.put(f, new LinkedList<>(Arrays.asList(c)));
+				}
+			});
+		});
+		searchResult = new ConcurrentHashMap<>(); // the map displays in the table
+		data.entrySet().stream().forEach(e -> searchResult.put(e.getKey(),
+				e.getValue().stream().map(c -> new Composition(c)).collect(Collectors.toList())));
+		LOG.debug("End initData");
+	}
+
+	private Optional<Entry<Fichier, List<Composition>>> findFichierInMap(String fileName) {
+		return data.entrySet().stream()
+				.filter(entry -> StringUtils.equalsIgnoreCase(entry.getKey().getFileName(), fileName)).findFirst();
+	}
+
 	private void mouseActionForFileTable(MouseEvent e) {
 		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
 		if (!selectedRow.isPresent()) {
@@ -573,10 +602,8 @@ public class FichierPanel extends JPanel {
 		selectedFichierName = selectedRow.get().get(INDEX_FILE_FILE_NAME);
 		if (e.getClickCount() == 1 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse, open");
-			// Double click avec le bouton gauche
 			// Affiche les compositions du fichier sélectionné
-			compositionList = ImportXML.importXML(
-					Constant.getXmlPath() + selectedRow.get().get(INDEX_FILE_FILE_NAME) + Constant.XML_EXTENSION);
+			compositionList = findFichierInMap(selectedRow.get().get(INDEX_FILE_FILE_NAME)).get().getValue();
 			if (!deleted.isSelected()) {
 				compositionList = compositionList.stream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
 			}
@@ -584,6 +611,7 @@ public class FichierPanel extends JPanel {
 			LOG.debug("End left mouse, open");
 		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("End left mouse, modify");
+			// Double click avec le bouton gauche
 			// Popup pour modifier le fichier
 			modifyFichierAction(selectedRow.get());
 			LOG.debug("End left mouse, modify");
@@ -627,8 +655,7 @@ public class FichierPanel extends JPanel {
 		resultLabel.setText("");
 		String fileName = selected.get(INDEX_FILE_FILE_NAME);
 		// Index du fichier dans le tableau
-		int indexOf = fichiers.indexOf(
-				fichiers.stream().filter(f -> StringUtils.equals(f.getFileName(), fileName)).findFirst().get());
+		Fichier key = findFichierInMap(fileName).get().getKey();
 		// Lancement de la popup de modification
 		ModifyFichierDialog md = new ModifyFichierDialog(null, "Modifier un fichier", true, selected);
 		md.showModifyFichierDialog();
@@ -660,7 +687,9 @@ public class FichierPanel extends JPanel {
 			return;
 		}
 		// Mise à jour du JTable
-		fichiers.set(indexOf, modifiedFichier);
+		List<Composition> list = data.get(key);
+		data.remove(key);
+		data.put(modifiedFichier, list);
 		updateFileTable();
 		resultLabel.setText("Fichier modifié");
 		LOG.debug("End modifyFichierAction");
@@ -769,31 +798,29 @@ public class FichierPanel extends JPanel {
 	private void searchAction() {
 		LOG.debug("Start searchAction");
 		resultLabel.setText("");
-		// Gets all compositions, filter on recored type, recovers their files and
-		// perfoms a distinct on their filenames
-		fichiers = new ArrayList<Fichier>(
-				ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().filter(c -> {
+		// Filters on record type
+		searchResult = data.entrySet().parallelStream().filter(e -> {
 					if (StringUtils.isNotBlank(type.getSelectedItems())) {
-						return Arrays.asList(StringUtils.split(type.getSelectedItems(), ";")).stream()
-								.anyMatch((t -> c.getRecordType() == RecordType.getByValue(t)));
+				return e.getValue().stream()
+						.anyMatch(c -> Arrays.asList(StringUtils.split(type.getSelectedItems(), ";")).stream()
+								.anyMatch((t -> c.getRecordType() == RecordType.getByValue(t))));
 					} else {
 						return true;
 					}
-				}).map(Composition::getFiles).flatMap(List::stream)
-						.collect(Collectors.toMap(Fichier::getFileName, f -> f, (p, q) -> p)).values());
-		if (!fichiers.isEmpty()) {
+		}).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+		if (!searchResult.keySet().isEmpty()) {
 			// Filter on the files list with the others criteria
 			JaroWinklerDistance jaro = new JaroWinklerDistance();
-			fichiers = fichiers.parallelStream().filter(f -> {
+			searchResult = searchResult.entrySet().parallelStream().filter(e -> {
 				return SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, publi.getText(),
 						(String) searchRange.getSelectedItem(), name.getText(), auteur.getText(),
 						cat.getSelectedItems(), rangeB.getText(), rangeE.getText(),
-						sorted.isSelected() ? Boolean.TRUE.toString() : "", null, f);
-			}).collect(Collectors.toList());
+						sorted.isSelected() ? Boolean.TRUE.toString() : "", null, e.getKey());
+			}).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 			// update files table
 			updateFileTable();
 		}
-		resultLabel.setText(fichiers.size() + " fichiers trouvé(s) ");
+		resultLabel.setText(searchResult.keySet().size() + " fichiers trouvé(s) ");
 		LOG.debug("End searchAction");
 	}
 
@@ -801,7 +828,7 @@ public class FichierPanel extends JPanel {
 	private void updateFileTable() {
 		LOG.debug("Start updateFileTable");
 		Composition c = new Composition();
-		c.setFiles(fichiers);
+		c.setFiles(new ArrayList<>(searchResult.keySet()));
 		fichieModel.setRowCount(0);
 		fichieModel.setDataVector(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false, true),
 				new Vector<>(Arrays.asList(headerFiles)));
@@ -835,23 +862,8 @@ public class FichierPanel extends JPanel {
 		LOG.debug("Start updateCompoTable");
 		compoModel.setRowCount(0);
 		if (selectedFile != null && !compo.isEmpty()) {
-			List<Fichier> fichier = compo.parallelStream()
-					.map(c -> c.getFiles().parallelStream()
-							.filter(f -> StringUtils.equalsIgnoreCase(selectedFile, f.getFileName())).findFirst().get())
-					.collect(Collectors.toList());
-			List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-			// recover of all the files of the compositions
-			compo.parallelStream().forEach(c -> {
-				Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, c.getFiles().get(0),
-						Optional.of(c.getArtist()), Optional.of(c.getTitre()));
-				if (findByFile.isPresent()) {
-					c.setFiles(findByFile.get().getFiles());
-				} else {
-					LOG.warn("Could not find files for: " + c);
-				}
-			});
 			compoModel.setDataVector(
-					CompositionUtils.convertCompositionListToVector(compo, fichier, true, true, true, true, true),
+					CompositionUtils.convertCompositionListToVector(compo, selectedFile, true, true, true, true, true),
 					new Vector<>(Arrays.asList(headerCompo)));
 		} else {
 			compoModel.setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
