@@ -192,7 +192,7 @@ public class FichierUtils {
 		return result;
 	}
 
-	private static Consumer<? super Composition> modifyOneFile(String fileName, String newFileName, String newPublish,
+	public static Consumer<? super Composition> modifyOneFile(String fileName, String newFileName, String newPublish,
 			String newRange, String newCat, String newSize, String newSorted) {
 		return c -> {
 			List<Fichier> list = c.getFiles().stream().filter(f -> StringUtils.equals(f.getFileName(), fileName))
