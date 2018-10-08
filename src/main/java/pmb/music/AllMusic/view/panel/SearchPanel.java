@@ -606,7 +606,7 @@ public class SearchPanel extends JPanel {
 		}
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
-				new Dimension(800, 150), v, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE);
+				new Dimension(950, 150), v, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE, INDEX_DELETED);
 		md.showModifyCompositionDialog();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée
@@ -616,7 +616,7 @@ public class SearchPanel extends JPanel {
 			LOG.debug("Aucune modification");
 			return;
 		}
-		int indexOfXml = importXML.indexOf(toModif);
+		int indexOfXml =  SearchUtils.indexOf(importXML, toModif);
 		int indexOfResult = SearchUtils.indexOf(compoResult, toModif);
 
 		// Modification du fichier final
@@ -624,6 +624,7 @@ public class SearchPanel extends JPanel {
 		toModif.setArtist(v.get(INDEX_ARTIST));
 		toModif.setTitre(v.get(INDEX_TITRE));
 		toModif.setRecordType(RecordType.valueOf(v.get(INDEX_TYPE)));
+		toModif.setDeleted((Boolean.valueOf(v.get(INDEX_DELETED))));
 		importXML.remove(indexOfXml);
 		compoResult.remove(indexOfResult);
 		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);

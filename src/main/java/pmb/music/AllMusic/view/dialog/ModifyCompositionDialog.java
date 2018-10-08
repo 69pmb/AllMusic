@@ -10,6 +10,7 @@ import java.awt.event.KeyEvent;
 import java.util.Vector;
 
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
@@ -18,6 +19,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
+import javax.swing.SwingConstants;
 
 import org.apache.log4j.Logger;
 
@@ -38,10 +40,12 @@ public class ModifyCompositionDialog extends JDialog {
 	private JTextField artist;
 	private JTextField titre;
 	private JComboBox<RecordType> type;
+	private JCheckBox deleted;
 	private boolean sendData;
 	private int artistIndex;
 	private int titleIndex;
 	private int typeIndex;
+	private int deleteIndex;
 
 	/**
 	 * Constructeur de {@link ModifyCompositionDialog}.
@@ -54,14 +58,16 @@ public class ModifyCompositionDialog extends JDialog {
 	 * @param artistIndex index de l'artiste dans la composition
 	 * @param titleIndex index du titre dans la composition
 	 * @param typeIndex index du type dans la composition
+	 * @param deleteIndex index du boolean deleted
 	 */
 	public ModifyCompositionDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector compo,
-			int artistIndex, int titleIndex, int typeIndex) {
+			int artistIndex, int titleIndex, int typeIndex, int deleteIndex) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
 		this.artistIndex = artistIndex;
 		this.titleIndex = titleIndex;
 		this.typeIndex = typeIndex;
+		this.deleteIndex = deleteIndex;
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
@@ -105,10 +111,22 @@ public class ModifyCompositionDialog extends JDialog {
 		typePanel.add(typeLabel);
 		typePanel.add(type);
 
+		// Deleted
+		JPanel deletedPanel = new JPanel();
+		deletedPanel.setPreferredSize(new Dimension(120, 60));
+		JLabel deletedLabel = new JLabel("Supprimé : ");
+		deleted = new JCheckBox();
+		deleted.setPreferredSize(new Dimension(100, 25));
+		deleted.setSelected(Boolean.parseBoolean((String) compo.get(deleteIndex)));
+		deleted.setHorizontalAlignment(SwingConstants.CENTER);
+		deletedPanel.add(deletedLabel);
+		deletedPanel.add(deleted);
+
 		JPanel content = new JPanel();
 		content.add(artistPanel);
 		content.add(titrePanel);
 		content.add(typePanel);
+		content.add(deletedPanel);
 
 		JPanel control = new JPanel();
 		JButton okBouton = new JButton("OK");
@@ -119,6 +137,7 @@ public class ModifyCompositionDialog extends JDialog {
 			compo.set(artistIndex, artist.getText());
 			compo.set(titleIndex, titre.getText());
 			compo.set(typeIndex, type.getSelectedItem().toString());
+			compo.set(deleteIndex, String.valueOf(deleted.isSelected()));
 		});
 
 		JButton cancelBouton = new JButton("Annuler");
