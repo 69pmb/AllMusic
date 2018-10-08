@@ -88,6 +88,7 @@ public class ArtistPanel extends JPanel {
 	public static final int INDEX_NB_TOTAL = 2;
 	public static final int INDEX_NB_SCORE = 5;
 
+	private MyInputText artist;
 	private JComboBox<String> searchRange;
 	private MyInputText publi;
 	private MyInputText rangeB;
@@ -136,6 +137,16 @@ public class ArtistPanel extends JPanel {
 	private JPanel initHeader() {
 		LOG.debug("Start initHeader");
 		JPanel header = new JPanel();
+		// Artist
+		JPanel artistPanel = new JPanel();
+		artistPanel.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
+		JLabel artistLabel = new JLabel("Artiste : ");
+		artist = new MyInputText(JComboBox.class, 150);
+		AutoCompleteSupport.install((JComboBox<?>) artist.getInput(),
+				GlazedLists.eventListOf(OngletPanel.getArtistList().toArray()));
+		artistPanel.add(artistLabel);
+		artistPanel.add(artist);
+		header.add(artistPanel);
 		// Publi
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(publiPanel, 230, PanelUtils.PANEL_HEIGHT);
@@ -294,8 +305,9 @@ public class ArtistPanel extends JPanel {
 		JButton csv = PanelUtils.createJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			LOG.debug("Start Csv");
-			List<String> c = Arrays.asList(publi.getText(), rangeB.getText(), rangeE.getText(), auteur.getText(),
-					cat.getSelectedItems()).stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
+			List<String> c = Arrays.asList(artist.getText(), publi.getText(), rangeB.getText(), rangeE.getText(),
+					auteur.getText(), cat.getSelectedItems()).stream().filter(s -> !"".equals(s))
+					.collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
 			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
 			csvHeader.add("Critères: " + criteres);
@@ -450,18 +462,21 @@ public class ArtistPanel extends JPanel {
 
 	private void searchAction() {
 		LOG.debug("Start search");
+		JaroWinklerDistance jaro = new JaroWinklerDistance();
 		if (data != null && !data.isEmpty()) {
 			searchResult = new HashMap<>();
 			for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
 				for (Composition c : entry.getValue()) {
-					if (!deleted.isSelected() && c.isDeleted()) {
+					if ((!deleted.isSelected() && c.isDeleted())
+							|| (StringUtils.isNotBlank(artist.getText()) && !SearchUtils.compareString(artist.getText(),
+									c.getArtist(), SearchMethod.CONTAINS, jaro))) {
 						continue;
 					}
-					List<Fichier> files = c.getFiles().stream()
-							.filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, new JaroWinklerDistance(),
-									publi.getText(), (String) searchRange.getSelectedItem(), null, auteur.getText(),
-									cat.getSelectedItems(), rangeB.getText(), rangeE.getText(), null, null, f))
-							.collect(Collectors.toList());
+					List<Fichier> files = c.getFiles().stream().filter(f -> {
+						return SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, publi.getText(),
+								(String) searchRange.getSelectedItem(), null, auteur.getText(), cat.getSelectedItems(),
+								rangeB.getText(), rangeE.getText(), null, null, f);
+					}).collect(Collectors.toList());
 					if (!files.isEmpty()) {
 						Composition newCompo = new Composition(c);
 						newCompo.setFiles(files);
@@ -480,6 +495,7 @@ public class ArtistPanel extends JPanel {
 
 	private void resetAction() {
 		LOG.debug("Start resetAction");
+		artist.setText("");
 		rangeB.setText("");
 		rangeE.setText("");
 		auteur.setText("");
