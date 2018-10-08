@@ -158,7 +158,7 @@ public class CompositionUtils {
 	 * 
 	 * @param compoList {@code List<Composition>} la liste de composition à
 	 *            convertir
-	 * @param fichier les fichiers à utiliser pour le classement
+	 * @param fichier le nom du fichier à utiliser pour le classement
 	 * @param displayClassement si on affiche le classement de la composition
 	 * @param displayFileSize si on affiche le nombre de fichiers de la composition
 	 * @param addBoolean si on ajoute une colonne de boolean remplie à false
@@ -166,9 +166,8 @@ public class CompositionUtils {
 	 * @param lineNumber if true add a column for counting line number
 	 * @return {@code Vector<Vector<Object>>} la liste de vecteur convertie
 	 */
-	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList,
-			List<Fichier> fichier, boolean displayClassement, boolean displayFileSize, boolean addBoolean,
-			boolean score, boolean lineNumber) {
+	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList, String fichier,
+			boolean displayClassement, boolean displayFileSize, boolean addBoolean, boolean score, boolean lineNumber) {
 		LOG.debug("Start convertCompositionListToVector");
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
 		if (compoList == null || compoList.isEmpty()) {
@@ -186,7 +185,9 @@ public class CompositionUtils {
 			v.addElement(composition.getRecordType().toString());
 			if (displayClassement) {
 				if (fichier != null) {
-					v.addElement(fichier.get(i).getClassement());
+					v.addElement(composition.getFiles().stream()
+							.filter(f -> StringUtils.equalsIgnoreCase(fichier, f.getFileName())).findFirst().get()
+							.getClassement());
 				} else {
 					v.addElement(composition.getFiles().get(0).getClassement());
 				}
