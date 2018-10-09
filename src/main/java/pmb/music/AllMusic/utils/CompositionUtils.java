@@ -296,6 +296,16 @@ public class CompositionUtils {
 							OngletPanel.getScore().getLogMax(c.getRecordType()),
 							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
 					.mapToLong(x -> x).sum());
+			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
+					.map(c -> CompositionUtils.calculateCompositionScore(
+							OngletPanel.getScore().getLogMax(c.getRecordType()),
+							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
+					.mapToLong(x -> x).sum());
+			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
+					.map(c -> CompositionUtils.calculateCompositionScore(
+							OngletPanel.getScore().getLogMax(c.getRecordType()),
+							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
+					.mapToLong(x -> x).sum());
 			return v;
 		}).collect(Collector.of(() -> new Vector<Vector<Object>>(),
 				(result, newElement) -> result.addElement(newElement), (result1, result2) -> {
