@@ -23,6 +23,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.LongSummaryStatistics;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
@@ -103,8 +104,9 @@ public class FichierPanel extends JPanel {
 	public static final int INDEX_PERCENT_DELETED = 7;
 	public static final int INDEX_CREATE_DATE = 8;
 	public static final int INDEX_FILE_SCORE = 9;
-	public static final int INDEX_FILE_SIZE = 10;
-	public static final int INDEX_FILE_SORTED = 11;
+	public static final int INDEX_FILE_SCORE_DELETED = 10;
+	public static final int INDEX_FILE_SIZE = 11;
+	public static final int INDEX_FILE_SORTED = 12;
 
 	public static final int INDEX_COMPO_LINE_NUMBER = 0;
 	public static final int INDEX_COMPO_ARTIST = 1;
@@ -158,8 +160,8 @@ public class FichierPanel extends JPanel {
 
 	private Dimension parentSize;
 
-	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Date de publication",
-			"Categorie", "Dates", "Supprimés", "Date de création", "Score", "Taille", "Classé" };
+	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Publication", "Categorie",
+			"Dates", "Supprimés", "Création", "Score", "Score Supprimés", "Taille", "Classé" };
 	private static final String[] headerCompo = { "#", "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
 			"Score", "", "" };
 
@@ -830,17 +832,24 @@ public class FichierPanel extends JPanel {
 		Vector<Vector<Object>> dataVector = FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false,
 				true);
 		// Calculates score by getting the average of the score of each compositions
+		// Calculates the percentage of deleted composition by the score
 		for (int i = 0; i < dataVector.size(); i++) {
 			Vector<Object> vector = dataVector.get(i);
 			Optional<Entry<Fichier, List<Composition>>> entry = findFichierInMap(
 					(String) vector.get(INDEX_FILE_FILE_NAME));
 			if (entry.isPresent()) {
-				vector.add(INDEX_FILE_SCORE,
-						Math.round(entry.get().getValue().parallelStream()
-								.map(compo -> CompositionUtils.calculateCompositionScore(
-										OngletPanel.getScore().getLogMax(compo.getRecordType()),
-										OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
-								.mapToLong(x -> x).summaryStatistics().getAverage()));
+				LongSummaryStatistics score = entry.get().getValue().parallelStream()
+						.map(compo -> CompositionUtils.calculateCompositionScore(
+								OngletPanel.getScore().getLogMax(compo.getRecordType()),
+								OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
+						.mapToLong(x -> x).summaryStatistics();
+				vector.add(INDEX_FILE_SCORE, Math.round(score.getAverage()));
+				long scoreDeleted = entry.get().getValue().parallelStream().filter(co -> co.isDeleted())
+						.map(compo -> CompositionUtils.calculateCompositionScore(
+								OngletPanel.getScore().getLogMax(compo.getRecordType()),
+								OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
+						.mapToLong(x -> x).sum();
+				vector.add(INDEX_FILE_SCORE_DELETED, Math.round(100 * scoreDeleted / score.getSum()) + " %");
 			} else {
 				LOG.warn("Entry not found ! ");
 				vector.add(INDEX_FILE_SCORE, 0);
@@ -855,6 +864,8 @@ public class FichierPanel extends JPanel {
 		tableFiles.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedFichierColumn, sortFichierOrder)));
 		((TableRowSorter) tableFiles.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
+		((TableRowSorter) tableFiles.getRowSorter()).setComparator(INDEX_FILE_SCORE_DELETED,
+				MiscUtils.comparePercentage);
 		for (int i = 0; i < tableFiles.getRowCount(); i++) {
 			tableFiles.setValueAt(i + 1, i, INDEX_FILE_LINE_NUMBER);
 		}

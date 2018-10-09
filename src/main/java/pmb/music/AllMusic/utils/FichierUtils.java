@@ -103,7 +103,7 @@ public class FichierUtils {
 						(sum, item) -> item.isDeleted() ? sum + 1 : sum, (sumA, sumB) -> sumA + sumB));
 				BigDecimal size = new BigDecimal(f.getSize() == 0 ? importXML.size() : f.getSize());
 				v.addElement(BigDecimal.valueOf(100D).setScale(2).multiply(numberOfDeleted)
-						.divide(size, RoundingMode.HALF_UP).doubleValue() + "%");
+						.divide(size, RoundingMode.HALF_UP).doubleValue() + " %");
 				if (!getComposition) {
 					v.addElement(f.getCreationDate());
 				}
