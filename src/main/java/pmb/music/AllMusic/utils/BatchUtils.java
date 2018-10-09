@@ -849,7 +849,8 @@ public class BatchUtils {
 			}
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
-			List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false);
+			List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted,
+					false);
 			if (yearList.isEmpty() || !yearList.get(0).getFiles().get(0).getSorted()) {
 				// If no file for the given author and year or if the file is not sorted
 				continue;
@@ -1004,8 +1005,8 @@ public class BatchUtils {
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
-		String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons", "Score",
-				"Year: " + year };
+		String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons", "Score Total",
+				"Score Album", "Score Chanson", "Year: " + year };
 		return CsvFile.exportCsv("Top Occurence - " + year, MiscUtils.convertVectorToList(occurenceList),
 				new SortKey(1, SortOrder.DESCENDING), csvHeader);
 	}
