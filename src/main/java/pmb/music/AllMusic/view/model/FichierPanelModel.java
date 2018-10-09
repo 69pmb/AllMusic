@@ -49,7 +49,8 @@ public class FichierPanelModel extends AbstractModel {
 			return Integer.class;
 		} else if (col == FichierPanel.INDEX_CREATE_DATE) {
 			return Date.class;
-		} else if (col == FichierPanel.INDEX_PERCENT_DELETED || col == FichierPanel.INDEX_FILE_SCORE) {
+		} else if (col == FichierPanel.INDEX_PERCENT_DELETED || col == FichierPanel.INDEX_FILE_SCORE
+				|| col == FichierPanel.INDEX_FILE_SCORE_DELETED) {
 			return Double.class;
 		} else {
 			return String.class;
