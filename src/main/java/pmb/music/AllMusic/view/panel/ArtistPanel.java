@@ -87,7 +87,9 @@ public class ArtistPanel extends JPanel {
 	public static final int INDEX_LINE_NUMBER = 0;
 	public static final int INDEX_ARTIST = 1;
 	public static final int INDEX_NB_TOTAL = 2;
-	public static final int INDEX_NB_SCORE = 5;
+	public static final int INDEX_SCORE_TOTAL = 5;
+	public static final int INDEX_SCORE_SONG = 6;
+	public static final int INDEX_SCORE_ALBUM = 7;
 
 	private MyInputText artist;
 	private JComboBox<String> searchRange;
@@ -109,7 +111,8 @@ public class ArtistPanel extends JPanel {
 	private Map<String, List<Composition>> data;
 	private Map<String, List<Composition>> searchResult;
 
-	private static final String[] title = { "#", "Artiste", "Nombre d'occurrences", "Album", "Chanson", "Score" };
+	private static final String[] title = { "#", "Artiste", "Nombre d'Occurrences", "Album", "Chanson", "Score Total",
+			"Score Album", "Score Chanson" };
 
 	private int selectedRow = -1;
 
