@@ -181,7 +181,7 @@ public class DialogFileTable extends JDialog {
 			} else {
 				LOG.warn(selectedRow.get().get(INDEX_FILE_NAME) + " empty !");
 			}
-			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " "), true, compo,
+			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " / "), true, compo,
 					new Dimension(1500, 400));
 			pop.showDialogFileTable();
 			LOG.debug("End double right mouse");
