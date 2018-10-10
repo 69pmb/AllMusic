@@ -24,6 +24,7 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.KeyStroke;
+import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
@@ -90,7 +91,6 @@ public class DialogCompoTable extends JDialog {
 		this.setVisible(true);
 	}
 
-	@SuppressWarnings({ "rawtypes", "unchecked" })
 	private void initComponent() {
 		LOG.debug("Start initComponent");
 		table = new JTable();
@@ -101,14 +101,15 @@ public class DialogCompoTable extends JDialog {
 		table.setBackground(UIManager.getColor("Label.background"));
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));
-		table.setModel(new CompoDialogModel(CompositionUtils.convertCompositionListToVector(compo, null, true, false, false, false, false),
-				new Vector(Arrays.asList(header))));
+		table.setModel(new CompoDialogModel(
+				CompositionUtils.convertCompositionListToVector(compo, null, true, false, false, false, false),
+				new Vector<>(Arrays.asList(header))));
 		table.getRowSorter().toggleSortOrder(INDEX_RANK);
 		table.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@Override
 			public void sorterChanged(RowSorterEvent e) {
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-					List<SortKey> sortKeys = e.getSource().getSortKeys();
+					List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
 					if (!sortKeys.isEmpty()) {
 						sortedColumn = sortKeys.get(0).getColumn();
 					}
@@ -139,7 +140,7 @@ public class DialogCompoTable extends JDialog {
 			}
 		});
 		this.getRootPane().registerKeyboardAction(e -> {
-		    this.dispose();
+			this.dispose();
 		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
 		PanelUtils.colRenderer(table, true, INDEX_DELETED, INDEX_TYPE);
