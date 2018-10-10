@@ -464,9 +464,8 @@ public class SearchPanel extends JPanel {
 		});
 		tableResult.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@Override
-			@SuppressWarnings("unchecked")
 			public void sorterChanged(RowSorterEvent e) {
-				List<SortKey> sortKeys = e.getSource().getSortKeys();
+				List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
 				if (!sortKeys.isEmpty()) {
 					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 						// Sort of deleted column and store sorted column and order
@@ -579,7 +578,6 @@ public class SearchPanel extends JPanel {
 		LOG.debug("Start modif");
 		artist2.interruptUpdateArtist(true);
 		String label = "Élément modifié";
-		Object selected;
 		Composition toModif;
 		Vector<String> v;
 		List<Composition> importXML;
@@ -590,8 +588,7 @@ public class SearchPanel extends JPanel {
 			return;
 		} else {
 			// On récupère la ligne selectionnée
-			selected = model.getSelected().get(0);
-			v = (Vector<String>) selected;
+			v = (Vector<String>) model.getSelected().get(0);
 			importXML = ImportXML.importXML(Constant.getFinalFilePath());
 			try {
 				// On récupère la composition à modifier
@@ -616,7 +613,7 @@ public class SearchPanel extends JPanel {
 			LOG.debug("Aucune modification");
 			return;
 		}
-		int indexOfXml =  SearchUtils.indexOf(importXML, toModif);
+		int indexOfXml = SearchUtils.indexOf(importXML, toModif);
 		int indexOfResult = SearchUtils.indexOf(compoResult, toModif);
 
 		// Modification du fichier final

@@ -421,7 +421,6 @@ public class FichierPanel extends JPanel {
 		header.add(buttons);
 	}
 
-	@SuppressWarnings({ "unchecked" })
 	private void initFichierTable() {
 		fichierPanel = new JPanel(new BorderLayout());
 
@@ -471,7 +470,7 @@ public class FichierPanel extends JPanel {
 		tableFiles.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@Override
 			public void sorterChanged(RowSorterEvent e) {
-				List<SortKey> sortKeys = e.getSource().getSortKeys();
+				List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
 				if (!sortKeys.isEmpty()) {
 					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 						// Store sorted column and order
@@ -539,9 +538,8 @@ public class FichierPanel extends JPanel {
 		});
 		tableCompo.getRowSorter().addRowSorterListener(new RowSorterListener() {
 			@Override
-			@SuppressWarnings("unchecked")
 			public void sorterChanged(RowSorterEvent e) {
-				List<SortKey> sortKeys = e.getSource().getSortKeys();
+				List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
 				if (!sortKeys.isEmpty()) {
 					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 						// Sort of deleted column and store sorted column and order
@@ -702,7 +700,6 @@ public class FichierPanel extends JPanel {
 
 	}
 
-	@SuppressWarnings("unchecked")
 	private void modifyCompositionAction(final ArtistPanel artistPanel, Vector<String> selected) {
 		LOG.debug("Start modifyCompositionAction");
 		resultLabel.setText("");
@@ -823,7 +820,6 @@ public class FichierPanel extends JPanel {
 		LOG.debug("End searchAction");
 	}
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private void updateFileTable() {
 		LOG.debug("Start updateFileTable");
 		Composition c = new Composition();
@@ -863,8 +859,9 @@ public class FichierPanel extends JPanel {
 		}
 		tableFiles.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedFichierColumn, sortFichierOrder)));
-		((TableRowSorter) tableFiles.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
-		((TableRowSorter) tableFiles.getRowSorter()).setComparator(INDEX_FILE_SCORE_DELETED,
+		((TableRowSorter<?>) tableFiles.getRowSorter()).setComparator(INDEX_PERCENT_DELETED,
+				MiscUtils.comparePercentage);
+		((TableRowSorter<?>) tableFiles.getRowSorter()).setComparator(INDEX_FILE_SCORE_DELETED,
 				MiscUtils.comparePercentage);
 		for (int i = 0; i < tableFiles.getRowCount(); i++) {
 			tableFiles.setValueAt(i + 1, i, INDEX_FILE_LINE_NUMBER);
