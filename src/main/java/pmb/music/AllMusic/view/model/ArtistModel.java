@@ -36,7 +36,8 @@ public class ArtistModel extends AbstractModel {
 		if (col == ArtistPanel.INDEX_ARTIST) {
 			return String.class;
 		} else if (col == ArtistPanel.INDEX_SCORE_TOTAL || col == ArtistPanel.INDEX_SCORE_SONG
-				|| col == ArtistPanel.INDEX_SCORE_ALBUM) {
+				|| col == ArtistPanel.INDEX_SCORE_ALBUM || col == ArtistPanel.INDEX_SCORE_DELETED
+				|| col == ArtistPanel.INDEX_DELETED) {
 			return Long.class;
 		} else {
 			return Integer.class;

@@ -285,27 +285,47 @@ public class CompositionUtils {
 			if (lineNumber) {
 				v.addElement(0);
 			}
+			// Artist
 			v.addElement(e.getKey());
-			v.addElement(e.getValue().stream().mapToInt(c -> c.getFiles().size()).sum());
+			// Occurence total
+			int sum = e.getValue().stream().mapToInt(c -> c.getFiles().size()).sum();
+			v.addElement(sum);
+			// Occurence by album
 			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
 					.mapToInt(c -> c.getFiles().size()).sum());
+			// Occurence by song
 			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
 					.mapToInt(c -> c.getFiles().size()).sum());
-			v.addElement(e.getValue().stream()
+			// Percentage of deleted
+			v.addElement(Math.round(100
+					* new Double(
+							e.getValue().stream().filter(c -> c.isDeleted()).mapToInt(c -> c.getFiles().size()).sum())
+					/ new Double(sum)) + " %");
+			// Score total
+			long sumScore = e.getValue().stream()
 					.map(c -> CompositionUtils.calculateCompositionScore(
 							OngletPanel.getScore().getLogMax(c.getRecordType()),
 							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
-					.mapToLong(x -> x).sum());
+					.mapToLong(x -> x).sum();
+			v.addElement(sumScore);
+			// Score by Album
 			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
 					.map(c -> CompositionUtils.calculateCompositionScore(
 							OngletPanel.getScore().getLogMax(c.getRecordType()),
 							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
 					.mapToLong(x -> x).sum());
+			// Score by song
 			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
 					.map(c -> CompositionUtils.calculateCompositionScore(
 							OngletPanel.getScore().getLogMax(c.getRecordType()),
 							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
 					.mapToLong(x -> x).sum());
+			// Score deleted
+			v.addElement(Math.round(100 * new Double(e.getValue().stream().filter(c -> c.isDeleted())
+					.map(c -> CompositionUtils.calculateCompositionScore(
+							OngletPanel.getScore().getLogMax(c.getRecordType()),
+							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
+					.mapToLong(x -> x).sum()) / new Double(sumScore)) + " %");
 			return v;
 		}).collect(Collector.of(() -> new Vector<Vector<Object>>(),
 				(result, newElement) -> result.addElement(newElement), (result1, result2) -> {
