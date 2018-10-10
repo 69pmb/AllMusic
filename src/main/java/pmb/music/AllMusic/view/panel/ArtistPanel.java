@@ -87,9 +87,11 @@ public class ArtistPanel extends JPanel {
 	public static final int INDEX_LINE_NUMBER = 0;
 	public static final int INDEX_ARTIST = 1;
 	public static final int INDEX_NB_TOTAL = 2;
-	public static final int INDEX_SCORE_TOTAL = 5;
-	public static final int INDEX_SCORE_SONG = 6;
-	public static final int INDEX_SCORE_ALBUM = 7;
+	public static final int INDEX_DELETED = 5;
+	public static final int INDEX_SCORE_TOTAL = 6;
+	public static final int INDEX_SCORE_SONG = 7;
+	public static final int INDEX_SCORE_ALBUM = 8;
+	public static final int INDEX_SCORE_DELETED = 9;
 
 	private MyInputText artist;
 	private JComboBox<String> searchRange;
@@ -111,8 +113,8 @@ public class ArtistPanel extends JPanel {
 	private Map<String, List<Composition>> data;
 	private Map<String, List<Composition>> searchResult;
 
-	private static final String[] title = { "#", "Artiste", "Nombre d'Occurrences", "Album", "Chanson", "Score Total",
-			"Score Album", "Score Chanson" };
+	private static final String[] title = { "#", "Artiste", "Nombre d'Occurrences", "Album", "Chanson", "Supprimés",
+			"Score Total", "Score Album", "Score Chanson", "Score Supprimés" };
 
 	private int selectedRow = -1;
 
@@ -415,17 +417,23 @@ public class ArtistPanel extends JPanel {
 		model.setRowCount(0);
 		model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee, true),
 				new Vector<>(Arrays.asList(title)));
-		PanelUtils.colRenderer(table, true, null, null);
 		// Applies stored sorting
 		if (sortedColumn == null) {
 			sortedColumn = INDEX_NB_TOTAL;
 			sortOrder = SortOrder.DESCENDING;
 		}
 		table.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
+		((TableRowSorter<?>) table.getRowSorter()).setComparator(INDEX_DELETED, MiscUtils.comparePercentage);
+		((TableRowSorter<?>) table.getRowSorter()).setComparator(INDEX_SCORE_DELETED, MiscUtils.comparePercentage);
 		// Fills column "line number"
 		for (int i = 0; i < table.getRowCount(); i++) {
 			table.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 		}
+		if (!deleted.isSelected()) {
+			table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
+			table.removeColumn(table.getColumnModel().getColumn(INDEX_SCORE_DELETED-1));
+		}
+		PanelUtils.colRenderer(table, true, null, null);
 		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
 		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
 		// Update GUI
