@@ -103,7 +103,6 @@ public class DialogFileTable extends JDialog {
 		this.setVisible(true);
 	}
 
-	@SuppressWarnings({ "rawtypes", "unchecked" })
 	private void initComponent() {
 		LOG.debug("Start initComponent");
 		fichiers = new JTable();
@@ -114,10 +113,11 @@ public class DialogFileTable extends JDialog {
 		fichiers.setBackground(UIManager.getColor("Label.background"));
 		fichiers.setFont(UIManager.getFont("Label.font"));
 		fichiers.setBorder(UIManager.getBorder("Label.border"));
-		fichiers.setModel(new FichierDialogModel(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
-				new Vector(Arrays.asList(header))));
+		fichiers.setModel(
+				new FichierDialogModel(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
+						new Vector<>(Arrays.asList(header))));
 		fichiers.getRowSorter().toggleSortOrder(defaultSort);
-		((TableRowSorter) fichiers.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
+		((TableRowSorter<?>) fichiers.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
 
 		fichiers.addMouseListener(pasteFichierListener());
 		this.getRootPane().registerKeyboardAction(e -> {

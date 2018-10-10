@@ -30,12 +30,11 @@ import pmb.music.AllMusic.model.RecordType;
  * 
  * @see {@link JDialog}
  */
-@SuppressWarnings("rawtypes")
 public class ModifyCompositionDialog extends JDialog {
 
 	private static final long serialVersionUID = 1304786661370052913L;
 	private static final Logger LOG = Logger.getLogger(ModifyCompositionDialog.class);
-	private final Vector compo;
+	private final Vector<String> compo;
 	private JTextField artist;
 	private JTextField titre;
 	private JComboBox<RecordType> type;
@@ -59,7 +58,7 @@ public class ModifyCompositionDialog extends JDialog {
 	 * @param typeIndex index du type dans la composition
 	 * @param deleteIndex index du boolean deleted
 	 */
-	public ModifyCompositionDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector compo,
+	public ModifyCompositionDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector<String> compo,
 			int artistIndex, int titleIndex, int typeIndex, int deleteIndex) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
@@ -79,7 +78,6 @@ public class ModifyCompositionDialog extends JDialog {
 		LOG.debug("End DialogFileTable");
 	}
 
-	@SuppressWarnings("unchecked")
 	private void initComposant() {
 		LOG.debug("Start initComposant");
 		// Artiste
@@ -166,7 +164,7 @@ public class ModifyCompositionDialog extends JDialog {
 	/**
 	 * @return la composition à modifier
 	 */
-	public Vector getCompo() {
+	public Vector<String> getCompo() {
 		return compo;
 	}
 

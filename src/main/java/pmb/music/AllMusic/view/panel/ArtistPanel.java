@@ -256,10 +256,9 @@ public class ArtistPanel extends JPanel {
 		};
 		table.setRowSorter(sorter);
 		table.getRowSorter().addRowSorterListener(new RowSorterListener() {
-			@SuppressWarnings("unchecked")
 			@Override
 			public void sorterChanged(RowSorterEvent e) {
-				List<SortKey> sortKeys = e.getSource().getSortKeys();
+				List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
 				if (!sortKeys.isEmpty()) {
 					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 						// Store sorted column and order
