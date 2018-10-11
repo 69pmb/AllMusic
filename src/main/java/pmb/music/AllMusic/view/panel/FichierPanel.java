@@ -58,6 +58,7 @@ import org.apache.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
 import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.matchers.TextMatcherEditor;
 import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -214,8 +215,9 @@ public class FichierPanel extends JPanel {
 		PanelUtils.setSize(auteurPanel, 200, PanelUtils.PANEL_HEIGHT);
 		JLabel auteurLabel = PanelUtils.createJLabel("Auteur : ", 150);
 		auteur = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(),
+		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(),
 				GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
+		install.setFilterMode(TextMatcherEditor.CONTAINS);
 		auteurPanel.add(auteurLabel);
 		auteurPanel.add(auteur);
 		inputs.add(auteurPanel);
