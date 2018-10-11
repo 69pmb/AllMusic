@@ -54,6 +54,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.matchers.TextMatcherEditor;
 import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -284,8 +285,9 @@ public class SearchPanel extends JPanel {
 		JPanel authorPanel = new JPanel();
 		JLabel authorLabel = PanelUtils.createJLabel("Auteur : ", 150);
 		author = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) author.getInput(),
+		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) author.getInput(),
 				GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
+		install.setFilterMode(TextMatcherEditor.CONTAINS);
 		authorPanel.add(authorLabel);
 		authorPanel.add(author);
 		searchFields.add(authorPanel);
