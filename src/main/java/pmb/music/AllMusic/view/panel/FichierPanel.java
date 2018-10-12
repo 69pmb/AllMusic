@@ -162,6 +162,8 @@ public class FichierPanel extends JPanel {
 
 	private Dimension parentSize;
 
+	private FichierPopupMenu popup;
+
 	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Publication", "Categorie",
 			"Dates", "Supprimés", "Création", "Score", "Score Supprimés", "Taille", "Classé" };
 	private static final String[] headerCompo = { "#", "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
@@ -454,7 +456,8 @@ public class FichierPanel extends JPanel {
 				mouseActionForFileTable(e);
 			}
 		});
-		tableFiles.setComponentPopupMenu(new FichierPopupMenu(tableFiles, INDEX_FILE_FILE_NAME, INDEX_FILE_AUTHOR));
+		popup = new FichierPopupMenu(tableFiles, INDEX_FILE_FILE_NAME, INDEX_FILE_AUTHOR);
+		tableFiles.setComponentPopupMenu(popup);
 		tableFiles.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -463,7 +466,11 @@ public class FichierPanel extends JPanel {
 
 			@Override
 			public void keyReleased(KeyEvent e) {
-				selectedFichierRow = PanelUtils.keyShortcutAction(e, selectedFichierRow, sortedFichierColumn);
+				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
+					 popup.setVisible(!popup.isVisible());
+				} else {
+					selectedFichierRow = PanelUtils.keyShortcutAction(e, selectedFichierRow, sortedFichierColumn);
+				}
 			}
 
 			@Override
@@ -600,7 +607,9 @@ public class FichierPanel extends JPanel {
 	}
 
 	private void mouseActionForFileTable(MouseEvent e) {
-		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
+		popup.setPoint(e.getPoint());
+		popup.setLocation(e.getLocationOnScreen());
 		if (!selectedRow.isPresent()) {
 			return;
 		}
@@ -618,7 +627,7 @@ public class FichierPanel extends JPanel {
 	}
 
 	private void mouseActionForCompoTable(MouseEvent e, ArtistPanel artistPanel) {
-		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 		if (!selectedRow.isPresent()) {
 			return;
 		}
