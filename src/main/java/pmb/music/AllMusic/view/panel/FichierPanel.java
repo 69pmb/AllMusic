@@ -614,13 +614,7 @@ public class FichierPanel extends JPanel {
 			}
 			updateCompoTable(compositionList, selectedFichierName);
 			LOG.debug("End left mouse, open");
-		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-			LOG.debug("End left mouse, modify");
-			// Double click avec le bouton gauche
-			// Popup pour modifier le fichier
-			modifyFichierAction(selectedRow.get());
-			LOG.debug("End left mouse, modify");
-		} 
+		}
 	}
 
 	private void mouseActionForCompoTable(MouseEvent e, ArtistPanel artistPanel) {
@@ -644,7 +638,12 @@ public class FichierPanel extends JPanel {
 		}
 	}
 
-	private void modifyFichierAction(Vector<String> selected) {
+	/**
+	 * Launchs a dialog to modify the selected {@link Fichier}.
+	 * 
+	 * @param selected the selected row representing a fichier
+	 */
+	public void modifyFichierAction(Vector<String> selected) {
 		LOG.debug("Start modifyFichierAction");
 		resultLabel.setText("");
 		String fileName = selected.get(INDEX_FILE_FILE_NAME);
