@@ -445,7 +445,7 @@ public class ArtistPanel extends JPanel {
 	}
 
 	private void mouseClickAction(MouseEvent e) {
-		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 		if (!selectedRow.isPresent()) {
 			return;
 		}
