@@ -155,7 +155,7 @@ public class DialogCompoTable extends JDialog {
 		if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
-			Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow(e);
+			Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 			if (selectedRow.isPresent()) {
 				StringSelection selection = new StringSelection(
 						selectedRow.get().get(INDEX_ARTIST) + " " + selectedRow.get().get(INDEX_TITLE));

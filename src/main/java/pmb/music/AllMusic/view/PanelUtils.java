@@ -9,7 +9,6 @@ import java.awt.Toolkit;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -172,11 +171,17 @@ public class PanelUtils {
 		LOG.trace("End setColumnsWidth: " + name);
 	}
 
+	/**
+	 * Finds in the data table model the selected row.
+	 * @param <T> the model of the table
+	 * @param target the table selected
+	 * @param point the spot clicked
+	 * @return the selected row
+	 */
 	@SuppressWarnings("unchecked")
-	public static <T extends AbstractModel> Optional<Vector<String>> getSelectedRow(MouseEvent e) {
+	public static <T extends AbstractModel> Optional<Vector<String>> getSelectedRow(JTable target, Point point) {
 		LOG.debug("Start getSelectedRow");
-		JTable target = (JTable) e.getSource();
-		int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, new Point(e.getX(), e.getY()), target));
+		int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, point, target));
 		Vector<String> selectedRow = null;
 		if (rowAtPoint > -1) {
 			LOG.debug("Found selectedRow");

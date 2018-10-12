@@ -20,7 +20,7 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
-import pmb.music.AllMusic.view.model.FichierPanelModel;
+import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
 /**
@@ -37,6 +37,7 @@ public class FichierPopupMenu extends JPopupMenu {
 	private int fileNameIndex;
 	private int authorIndex;
 	private JTable table;
+	private Point point;
 
 	/**
 	 * Constructor of {@link FichierPopupMenu}.
@@ -59,6 +60,7 @@ public class FichierPopupMenu extends JPopupMenu {
 			LOG.debug("Start openXml");
 			try {
 				FichierUtils.openFileInNotepad(FichierUtils.buildXmlFilePath(selectedRow.get(fileNameIndex)));
+				this.setVisible(false);
 			} catch (MyException e1) {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
 			}
@@ -74,6 +76,7 @@ public class FichierPopupMenu extends JPopupMenu {
 			try {
 				FichierUtils.openFileInNotepad(
 						FichierUtils.buildTxtFilePath(selectedRow.get(fileNameIndex), selectedRow.get(authorIndex)));
+				this.setVisible(false);
 			} catch (MyException e1) {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
 			}
@@ -89,6 +92,7 @@ public class FichierPopupMenu extends JPopupMenu {
 			StringSelection selection = new StringSelection(selectedRow.get(fileNameIndex));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 			clipboard.setContents(selection, selection);
+			this.setVisible(false);
 			LOG.debug("End copy");
 		});
 		this.add(copy);
@@ -100,6 +104,7 @@ public class FichierPopupMenu extends JPopupMenu {
 			LOG.debug("Start modifFile");
 			((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, table))
 					.modifyFichierAction(selectedRow);
+			this.setVisible(false);
 			LOG.debug("End modifFile");
 		});
 		this.add(modifFile);
@@ -113,16 +118,12 @@ public class FichierPopupMenu extends JPopupMenu {
 					public void run() {
 						LOG.debug("Start popupMenuWillBecomeVisible");
 						FichierPopupMenu popup = (FichierPopupMenu) e.getSource();
-						int rowAtPoint = popup.getTable()
-								.rowAtPoint(SwingUtilities.convertPoint(popup, new Point(0, 0), popup.getTable()));
-						if (rowAtPoint > -1) {
-							popup.getTable().setRowSelectionInterval(rowAtPoint, rowAtPoint);
+						if (popup.getPoint() != null) {
+							popup.setSelectedRow(
+									PanelUtils.getSelectedRow(popup.getTable(), popup.getPoint()).orElse(null));
+						} else {
+							popup.setVisible(false);
 						}
-						@SuppressWarnings("unchecked")
-						Vector<String> selectedRow = (Vector<String>) ((FichierPanelModel) popup.getTable().getModel())
-								.getDataVector()
-								.get(popup.getTable().getRowSorter().convertRowIndexToModel(rowAtPoint));
-						popup.setSelectedRow(selectedRow);
 						LOG.debug("End popupMenuWillBecomeVisible");
 					}
 				});
@@ -169,5 +170,13 @@ public class FichierPopupMenu extends JPopupMenu {
 
 	public void setSelectedRow(Vector<String> selectedRow) {
 		this.selectedRow = selectedRow;
+	}
+
+	public Point getPoint() {
+		return point;
+	}
+
+	public void setPoint(Point point) {
+		this.point = point;
 	}
 }
