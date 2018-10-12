@@ -13,14 +13,11 @@ import javax.swing.JPopupMenu;
 import javax.swing.JTable;
 import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
 
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
-import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
 /**
@@ -108,34 +105,6 @@ public class FichierPopupMenu extends JPopupMenu {
 		});
 		this.add(modifFile);
 
-		this.addPopupMenuListener(new PopupMenuListener() {
-
-			@Override
-			public void popupMenuWillBecomeVisible(PopupMenuEvent e) {
-				SwingUtilities.invokeLater(new Runnable() {
-					@Override
-					public void run() {
-						LOG.debug("Start popupMenuWillBecomeVisible");
-						FichierPopupMenu popup = (FichierPopupMenu) e.getSource();
-						if (popup.getPoint() != null) {
-							popup.setSelectedRow(
-									PanelUtils.getSelectedRow(popup.getTable(), popup.getPoint()).orElse(null));
-						} else {
-							popup.setVisible(false);
-						}
-						LOG.debug("End popupMenuWillBecomeVisible");
-					}
-				});
-			}
-
-			@Override
-			public void popupMenuWillBecomeInvisible(PopupMenuEvent e) {
-			}
-
-			@Override
-			public void popupMenuCanceled(PopupMenuEvent e) {
-			}
-		});
 		LOG.debug("End FichierPopupMenu");
 	}
 

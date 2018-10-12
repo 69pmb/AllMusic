@@ -457,7 +457,6 @@ public class FichierPanel extends JPanel {
 			}
 		});
 		popup = new FichierPopupMenu(tableFiles, INDEX_FILE_FILE_NAME, INDEX_FILE_AUTHOR);
-		tableFiles.setComponentPopupMenu(popup);
 		tableFiles.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -467,7 +466,7 @@ public class FichierPanel extends JPanel {
 			@Override
 			public void keyReleased(KeyEvent e) {
 				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
-					 popup.setVisible(!popup.isVisible());
+					popup.show(e.getComponent(), (int) popup.getPoint().getX(), (int) popup.getPoint().getY());
 				} else {
 					selectedFichierRow = PanelUtils.keyShortcutAction(e, selectedFichierRow, sortedFichierColumn);
 				}
@@ -607,9 +606,11 @@ public class FichierPanel extends JPanel {
 	}
 
 	private void mouseActionForFileTable(MouseEvent e) {
+		LOG.debug("Start mouseActionForFileTable");
 		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 		popup.setPoint(e.getPoint());
 		popup.setLocation(e.getLocationOnScreen());
+		popup.setSelectedRow(selectedRow.orElse(null));
 		if (!selectedRow.isPresent()) {
 			return;
 		}
@@ -623,7 +624,10 @@ public class FichierPanel extends JPanel {
 			}
 			updateCompoTable(compositionList, selectedFichierName);
 			LOG.debug("End left mouse, open");
+		} else if (SwingUtilities.isRightMouseButton(e)) {
+			popup.show(e.getComponent(), (int) popup.getPoint().getX(), (int) popup.getPoint().getY());
 		}
+		LOG.debug("End mouseActionForFileTable");
 	}
 
 	private void mouseActionForCompoTable(MouseEvent e, ArtistPanel artistPanel) {
