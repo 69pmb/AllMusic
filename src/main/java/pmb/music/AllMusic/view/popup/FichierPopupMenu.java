@@ -31,9 +31,6 @@ public class FichierPopupMenu extends JPopupMenu {
 	private static final Logger LOG = Logger.getLogger(FichierPopupMenu.class);
 
 	private Vector<String> selectedRow;
-	private int fileNameIndex;
-	private int authorIndex;
-	private JTable table;
 	private Point point;
 
 	/**
@@ -46,9 +43,6 @@ public class FichierPopupMenu extends JPopupMenu {
 	public FichierPopupMenu(JTable table, int fileNameIndex, int authorIndex) {
 		super();
 		LOG.debug("Start FichierPopupMenu");
-		this.table = table;
-		this.fileNameIndex = fileNameIndex;
-		this.authorIndex = authorIndex;
 
 		// Open XML file
 		JMenuItem openXml = new JMenuItem("Ouvrir le fichier XML");
@@ -107,30 +101,6 @@ public class FichierPopupMenu extends JPopupMenu {
 		this.add(modifFile);
 
 		LOG.debug("End FichierPopupMenu");
-	}
-
-	public int getFileNameIndex() {
-		return fileNameIndex;
-	}
-
-	public void setFileNameIndex(int fileNameIndex) {
-		this.fileNameIndex = fileNameIndex;
-	}
-
-	public int getAuthorIndex() {
-		return authorIndex;
-	}
-
-	public void setAuthorIndex(int authorIndex) {
-		this.authorIndex = authorIndex;
-	}
-
-	public JTable getTable() {
-		return table;
-	}
-
-	public void setTable(JTable table) {
-		this.table = table;
 	}
 
 	public Vector<String> getSelectedRow() {
