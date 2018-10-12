@@ -82,6 +82,7 @@ import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.dialog.ModifyFichierDialog;
 import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
 import pmb.music.AllMusic.view.model.FichierPanelModel;
+import pmb.music.AllMusic.view.popup.FichierPopupMenu;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -453,6 +454,7 @@ public class FichierPanel extends JPanel {
 				mouseActionForFileTable(e);
 			}
 		});
+		tableFiles.setComponentPopupMenu(new FichierPopupMenu(tableFiles, INDEX_FILE_FILE_NAME, INDEX_FILE_AUTHOR));
 		tableFiles.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -618,18 +620,7 @@ public class FichierPanel extends JPanel {
 			// Popup pour modifier le fichier
 			modifyFichierAction(selectedRow.get());
 			LOG.debug("End left mouse, modify");
-		} else if (SwingUtilities.isRightMouseButton(e)) {
-			LOG.debug("Start right mouse");
-			// Ouvre le fichier txt
-			Optional<String> filePath = FichierUtils.buildTxtFilePath(selectedRow.get().get(INDEX_FILE_FILE_NAME),
-					selectedRow.get().get(INDEX_FILE_AUTHOR));
-			try {
-				FichierUtils.openFileInNotepad(filePath);
-			} catch (MyException e1) {
-				LOG.error("Erreur lors de l'ouverture du fichier: " + filePath, e1);
-			}
-			LOG.debug("End right mouse");
-		}
+		} 
 	}
 
 	private void mouseActionForCompoTable(MouseEvent e, ArtistPanel artistPanel) {
