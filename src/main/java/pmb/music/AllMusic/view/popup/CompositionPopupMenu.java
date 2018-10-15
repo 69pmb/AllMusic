@@ -58,13 +58,15 @@ public class CompositionPopupMenu extends PopupMenu {
 			LOG.debug("End copy T");
 		});
 
-		// Modify composition
-		buildMenuItem("Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {
-			LOG.debug("Start modifComposition");
-			type.cast(SwingUtilities.getAncestorOfClass(type, table)).modifyCompositionAction(selectedRow);
-			this.setVisible(false);
-			LOG.debug("End modifComposition");
-		});
+		if (type != null) {
+			// Modify composition
+			buildMenuItem("Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {
+				LOG.debug("Start modifComposition");
+				type.cast(SwingUtilities.getAncestorOfClass(type, table)).modifyCompositionAction(selectedRow);
+				this.setVisible(false);
+				LOG.debug("End modifComposition");
+			});
+		}
 
 		LOG.debug("End CompositionPopupMenu");
 	}

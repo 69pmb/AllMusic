@@ -32,9 +32,9 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
-import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.model.CompoDialogModel;
+import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Composition}.
@@ -59,6 +59,7 @@ public class DialogCompoTable extends JDialog {
 	private JTable table;
 	private Integer sortedColumn;
 	private int selectedRow = -1;
+	private CompositionPopupMenu popup;
 
 	/**
 	 * Constructeur.
@@ -113,6 +114,7 @@ public class DialogCompoTable extends JDialog {
 				}
 			}
 		});
+		popup = new CompositionPopupMenu(table, null, INDEX_ARTIST, INDEX_TITLE);
 		table.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -121,7 +123,11 @@ public class DialogCompoTable extends JDialog {
 
 			@Override
 			public void keyReleased(KeyEvent e) {
-				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
+				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
+					popup.show(e);
+				} else {
+					selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
+				}
 			}
 
 			@Override
@@ -151,11 +157,10 @@ public class DialogCompoTable extends JDialog {
 	private void mouseAction(MouseEvent e) {
 		if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
-			// Copie dans le clipboard l'artist et l'oeuvre
 			Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 			if (selectedRow.isPresent()) {
-				MiscUtils.clipBoardAction(
-						selectedRow.get().get(INDEX_ARTIST) + " " + selectedRow.get().get(INDEX_TITLE));
+				popup.initDataAndPosition(e, selectedRow);
+				popup.show(e);
 			}
 			LOG.debug("End right mouse");
 		}
