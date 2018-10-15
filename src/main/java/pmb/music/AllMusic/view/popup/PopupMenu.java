@@ -15,6 +15,14 @@ import javax.swing.KeyStroke;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Abstract class for creating a popup menu. Contains fields, init methods and
+ * builder for {@link JMenuItem}.
+ * 
+ * @see {@link JPopupMenu}
+ * @author PBR
+ *
+ */
 public abstract class PopupMenu extends JPopupMenu {
 	private static final long serialVersionUID = 1L;
 	private static final Logger LOG = Logger.getLogger(PopupMenu.class);
