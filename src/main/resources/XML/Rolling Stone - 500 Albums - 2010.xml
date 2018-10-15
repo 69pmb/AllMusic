@@ -1357,7 +1357,7 @@
   <compo A="The Ronettes" T="Presenting The Fabulous Ronettes And Veronica" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="427" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="428" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Gram Parsons" T="Grievous Angel" type="ALBUM" mergeable="true" del="false">

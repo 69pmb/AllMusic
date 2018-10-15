@@ -145,7 +145,7 @@
   <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - The 50 Best Albums of the 2000s  - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="3" creation="27/08/2018 12:16:18" size="50"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - The 50 Best Albums of the 2000s  - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="2" creation="27/08/2018 12:16:18" size="50"/>
   </compo>
   <compo A="The Streets" T="Original Pirate Material" type="ALBUM" mergeable="true" del="false">

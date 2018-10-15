@@ -193,7 +193,7 @@
   <compo A="Gang of Four" T="Entertainment!" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="64" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="65" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Elvis Costello" T="This Year's Model" type="ALBUM" mergeable="true" del="false">

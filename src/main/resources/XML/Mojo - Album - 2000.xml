@@ -7,7 +7,7 @@
   <compo A="Queens Of The Stone Age" T="Rated R" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="2" creation="24/08/2018 10:47:07" size="40"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="3" creation="24/08/2018 10:47:07" size="40"/>
   </compo>
   <compo A="Aimee Mann" T="Bachelor No 2" type="ALBUM" mergeable="true" del="false">
