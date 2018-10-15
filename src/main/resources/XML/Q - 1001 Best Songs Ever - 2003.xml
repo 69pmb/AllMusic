@@ -229,7 +229,7 @@
   <compo A="Michael Jackson" T="Wanna Be Startin' Somethin'" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="76" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Smiths" T="This Charming Man" type="SONG" mergeable="true" del="false">
+  <compo A="The Smiths" T="This Charming Man" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="77" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="false">
@@ -724,7 +724,7 @@
   <compo A="Simply Dreadful" T="Stars" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="241" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Sinead O' Connor" T="Nothing Compares 2 U" type="SONG" mergeable="true" del="false">
+  <compo A="Sinead O' Connor" T="Nothing Compares 2 U" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="242" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="The Darkness" T="Growing On Me" type="SONG" mergeable="true" del="false">
@@ -2173,7 +2173,7 @@
   <compo A="Ja Rule And Ashanti" T="Always On Time" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="724" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Serge Gainsbourg And Brigitte Bardot" T="Bonnie And Clyde" type="SONG" mergeable="true" del="false">
+  <compo A="Serge Gainsbourg And Brigitte Bardot" T="Bonnie And Clyde" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="725" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="The Jesus And Mary Chain" T="Sometimes Always" type="SONG" mergeable="true" del="false">

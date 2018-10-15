@@ -433,7 +433,7 @@
   <compo A="The Ramones" T="I Wanna Be Sedated" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="145" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Sly and the Family Stone" T="Everyday People" type="SONG" mergeable="true" del="false">
+  <compo A="Sly and the Family Stone" T="Everyday People" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="146" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The B-52's" T="Rock Lobster" type="SONG" mergeable="true" del="false">
@@ -490,7 +490,7 @@
   <compo A="Ray Charles" T="I Can't Stop Loving You" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="164" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Sinead O'Connor" T="Nothing Compares 2 U" type="SONG" mergeable="true" del="false">
+  <compo A="Sinead O'Connor" T="Nothing Compares 2 U" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="165" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Queen" T="Bohemian Rhapsody" type="SONG" mergeable="true" del="true">
@@ -745,7 +745,7 @@
   <compo A="The Band" T="The Night They Drove Old Dixie Down" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="249" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Sly and the Family Stone" T="Hot Fun In The Summertime" type="SONG" mergeable="true" del="false">
+  <compo A="Sly and the Family Stone" T="Hot Fun In The Summertime" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="250" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Sugarhill Gang" T="Rappers Delight" type="SONG" mergeable="true" del="false">
@@ -1357,7 +1357,7 @@
   <compo A="Toot and the Maytals" T="Pressure Drop" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="453" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Shangri Las" T="Leader of the Pack" type="SONG" mergeable="true" del="false">
+  <compo A="The Shangri Las" T="Leader of the Pack" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="454" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Velvet Underground" T="Heroin" type="SONG" mergeable="true" del="false">

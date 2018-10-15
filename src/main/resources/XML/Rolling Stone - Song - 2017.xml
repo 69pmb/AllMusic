@@ -85,7 +85,7 @@
   <compo A="Charli XCX" T="Boys" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="23" creation="17/12/2017 16:37:15" size="50"/>
   </compo>
-  <compo A="Spoon" T="Hot Thoughts" type="SONG" mergeable="true" del="true">
+  <compo A="Spoon" T="Hot Thoughts" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="22" creation="17/12/2017 16:37:15" size="50"/>
   </compo>
   <compo A="Arcade Fire" T="Everything Now" type="SONG" mergeable="true" del="true">
