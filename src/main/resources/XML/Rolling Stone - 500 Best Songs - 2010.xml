@@ -766,7 +766,7 @@
   <compo A="Mott the Hoople" T="All the Young Dudes" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="256" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="257" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="AC/DC" T="Highway to Hell" type="SONG" mergeable="true" del="false">

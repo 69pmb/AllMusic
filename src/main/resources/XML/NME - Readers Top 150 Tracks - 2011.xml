@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="1" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Arcade Fire" T="Rebellion (Lies)" type="SONG" mergeable="true" del="true">
@@ -256,7 +256,7 @@
   <compo A="The Coral" T="Dreaming Of You" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="85" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="false">
+  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="86" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Dry Your Eyes" T="Everybody Here Wants You" type="SONG" mergeable="true" del="false">
