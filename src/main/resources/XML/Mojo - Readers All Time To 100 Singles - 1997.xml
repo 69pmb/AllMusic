@@ -37,7 +37,7 @@
   <compo A="Small Faces" T="Little Tin Soldier" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="10" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Smiths" T="This Charming Man" type="SONG" mergeable="true" del="false">
+  <compo A="The Smiths" T="This Charming Man" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="11" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Beach Boys" T="God Only Knows" type="SONG" mergeable="true" del="true">
@@ -229,7 +229,7 @@
   <compo A="The La's" T="There She Goes" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="70" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Sinead O' Connor" T="Nothing Compares To You" type="SONG" mergeable="true" del="false">
+  <compo A="Sinead O' Connor" T="Nothing Compares To You" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="71" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Glen Campbell" T="Wichita Lineman" type="SONG" mergeable="true" del="true">
