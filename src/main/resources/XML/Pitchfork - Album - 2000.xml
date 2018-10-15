@@ -58,7 +58,7 @@
   <compo A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="2" creation="24/07/2018 17:49:39" size="20"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="1" creation="24/07/2018 17:49:39" size="20"/>
   </compo>
 </ListCompositions>

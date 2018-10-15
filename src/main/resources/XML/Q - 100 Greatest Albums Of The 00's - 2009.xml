@@ -274,7 +274,7 @@
   <compo A="Johnny Cash" T="American IV: The Man Comes Around" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Albums Of The 00's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="10" creation="28/08/2018 14:32:35" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Albums Of The 00's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="9" creation="28/08/2018 14:32:35" size="100"/>
   </compo>
   <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">

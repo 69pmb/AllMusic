@@ -40,7 +40,7 @@
   <compo A="The Shins" T="Wincing The Night Away" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="13" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="14" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Queens Of The Stoneage" T="Songs For The Deaf" type="ALBUM" mergeable="true" del="false">
