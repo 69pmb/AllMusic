@@ -66,6 +66,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputText;
@@ -79,7 +80,7 @@ import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
  * 
  * @author pmbroca
  */
-public class SearchPanel extends JPanel {
+public class SearchPanel extends JPanel implements ModificationComposition {
 
 	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
 
@@ -202,7 +203,8 @@ public class SearchPanel extends JPanel {
 
 		// Modif Btn
 		JButton modif = PanelUtils.createJButton("Modifier la composition sélectionnée", 300, Constant.ICON_EDIT);
-		modif.addActionListener((ActionEvent e) -> modifAction((Vector<String>) model.getSelected().get(0)));
+		modif.addActionListener(
+				(ActionEvent e) -> modifyCompositionAction((Vector<String>) model.getSelected().get(0)));
 		top.add(modif);
 
 		// CSV
@@ -449,7 +451,7 @@ public class SearchPanel extends JPanel {
 				mouseClickAction(e);
 			}
 		});
-		popup = new CompositionPopupMenu(tableResult, INDEX_ARTIST, INDEX_TITRE);
+		popup = new CompositionPopupMenu(tableResult, this.getClass(), INDEX_ARTIST, INDEX_TITRE);
 		tableResult.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -581,7 +583,7 @@ public class SearchPanel extends JPanel {
 		LOG.debug("End cleanAction");
 	}
 
-	public void modifAction(Vector<String> selectedRow) {
+	public void modifyCompositionAction(Vector<String> selectedRow) {
 		LOG.debug("Start modifAction");
 		artistPanel.interruptUpdateArtist(true);
 		String label = "Élément modifié";
