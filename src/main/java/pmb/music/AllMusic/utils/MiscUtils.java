@@ -1,5 +1,8 @@
 package pmb.music.AllMusic.utils;
 
+import java.awt.Toolkit;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -74,6 +77,17 @@ public class MiscUtils {
 	public static Map<String, List<Composition>> readValueAsMapOfList(String content) throws IOException {
 		return getObjectMapper().readValue(content, new TypeReference<Map<String, Collection<Composition>>>() {
 		});
+	}
+
+	/**
+	 * Copy in the clipboard the given text.
+	 * 
+	 * @param text the text to put in the cipboard
+	 */
+	public static void clipBoardAction(String text) {
+		StringSelection selection = new StringSelection(text);
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		clipboard.setContents(selection, selection);
 	}
 
 	/**
