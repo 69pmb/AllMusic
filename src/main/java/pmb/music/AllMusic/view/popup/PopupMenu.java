@@ -50,7 +50,9 @@ public abstract class PopupMenu extends JPopupMenu {
 	 */
 	public void show(ComponentEvent e) {
 		LOG.debug("Start show");
-		show(e.getComponent(), (int) getPoint().getX(), (int) getPoint().getY());
+		if (getPoint() != null) {
+			show(e.getComponent(), (int) getPoint().getX(), (int) getPoint().getY());
+		}
 		LOG.debug("End show");
 	}
 
