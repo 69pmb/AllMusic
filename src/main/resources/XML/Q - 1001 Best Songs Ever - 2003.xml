@@ -1471,7 +1471,7 @@
   <compo A="The Leaves" T="Hey Joe" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="7" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Stooges" T="1969" type="SONG" mergeable="true" del="false">
+  <compo A="The Stooges" T="1969" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="8" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="The Dirtbombs" T="Your Love Belongs Under A Rock" type="SONG" mergeable="true" del="false">
@@ -2497,7 +2497,7 @@
   <compo A="Flying Burrito Brothers" T="Christine's Tune (Devil In Disguise)" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="832" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Stooges" T="Search and Destroy" type="SONG" mergeable="true" del="false">
+  <compo A="The Stooges" T="Search and Destroy" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="833" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="DJ Shadow" T="What Does Your Soul Look Like (Part 1)" type="SONG" mergeable="true" del="false">
