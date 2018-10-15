@@ -6,9 +6,6 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
@@ -75,6 +72,7 @@ import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
+import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 
 /**
  * Gère le panel search.
@@ -128,20 +126,23 @@ public class SearchPanel extends JPanel {
 
 	private CompoSearchPanelModel model;
 	private int selectedRow = -1;
+	private ArtistPanel artistPanel;
+	private CompositionPopupMenu popup;
 
 	/**
 	 * Génère le panel search.
 	 * 
-	 * @param artist2 le panel artiste
+	 * @param artist le panel artiste
 	 */
-	public SearchPanel(final ArtistPanel artist2) {
+	public SearchPanel(final ArtistPanel artist) {
 		super();
 		LOG.debug("Start SearchPanel");
+		this.artistPanel = artist;
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
 		JPanel header = new JPanel();
 		header.setLayout(new BoxLayout(header, BoxLayout.Y_AXIS));
-		initButtons(artist2, header);
+		initButtons(header);
 		initSearchFields(header);
 		this.add(header);
 
@@ -152,10 +153,10 @@ public class SearchPanel extends JPanel {
 	/**
 	 * Insert les boutons du panel search en haut.
 	 * 
-	 * @param artist2 le panel artist
 	 * @param header le header de l'onglet
 	 */
-	private void initButtons(final ArtistPanel artist2, JPanel header) {
+	@SuppressWarnings("unchecked")
+	private void initButtons(JPanel header) {
 		JPanel top = new JPanel(new FlowLayout(FlowLayout.LEFT));
 		AbstractAction searchAction = new AbstractAction() {
 
@@ -192,7 +193,7 @@ public class SearchPanel extends JPanel {
 		JButton delete = PanelUtils.createJButton("Supprimer les compositions sélectionnées", 300,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(artist2, compoResult, model.getSelected(), deleteLabel, INDEX_ARTIST,
+			PanelUtils.deleteCompositionAction(artistPanel, compoResult, model.getSelected(), deleteLabel, INDEX_ARTIST,
 					INDEX_TITRE, INDEX_TYPE);
 			updateTable();
 		});
@@ -200,7 +201,7 @@ public class SearchPanel extends JPanel {
 
 		// Modif Btn
 		JButton modif = PanelUtils.createJButton("Modifier la composition sélectionnée", 300, Constant.ICON_EDIT);
-		modif.addActionListener((ActionEvent e) -> modifAction(artist2));
+		modif.addActionListener((ActionEvent e) -> modifAction((Vector<String>) model.getSelected().get(0)));
 		top.add(modif);
 
 		// CSV
@@ -447,6 +448,7 @@ public class SearchPanel extends JPanel {
 				mouseClickAction(e);
 			}
 		});
+		popup = new CompositionPopupMenu(tableResult, INDEX_ARTIST, INDEX_TITRE);
 		tableResult.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -455,7 +457,11 @@ public class SearchPanel extends JPanel {
 
 			@Override
 			public void keyReleased(KeyEvent e) {
-				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
+				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
+					popup.show(e);
+				} else {
+					selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
+				}
 			}
 
 			@Override
@@ -574,13 +580,11 @@ public class SearchPanel extends JPanel {
 		LOG.debug("End cleanAction");
 	}
 
-	@SuppressWarnings("unchecked")
-	private void modifAction(final ArtistPanel artist2) {
-		LOG.debug("Start modif");
-		artist2.interruptUpdateArtist(true);
+	public void modifAction(Vector<String> selectedRow) {
+		LOG.debug("Start modifAction");
+		artistPanel.interruptUpdateArtist(true);
 		String label = "Élément modifié";
 		Composition toModif;
-		Vector<String> v;
 		List<Composition> importXML;
 		if (model.getSelected().size() > 1) {
 			String msg = "Trop d'éléments sélectionnés";
@@ -588,13 +592,11 @@ public class SearchPanel extends JPanel {
 			LOG.debug(msg);
 			return;
 		} else {
-			// On récupère la ligne selectionnée
-			v = (Vector<String>) model.getSelected().get(0);
 			importXML = ImportXML.importXML(Constant.getFinalFilePath());
 			try {
 				// On récupère la composition à modifier
-				toModif = CompositionUtils.findByArtistTitreAndType(importXML, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
-						v.get(INDEX_TYPE), true);
+				toModif = CompositionUtils.findByArtistTitreAndType(importXML, selectedRow.get(INDEX_ARTIST),
+						selectedRow.get(INDEX_TITRE), selectedRow.get(INDEX_TYPE), true);
 			} catch (MyException e1) {
 				String log = "Erreur dans modifAction, impossible de trouver la compo à modifier";
 				LOG.error(log, e1);
@@ -604,12 +606,12 @@ public class SearchPanel extends JPanel {
 		}
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
-				new Dimension(950, 150), v, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE, INDEX_DELETED);
+				new Dimension(950, 150), selectedRow, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE, INDEX_DELETED);
 		md.showModifyCompositionDialog();
 		if (md.isSendData()) {
 			// On recupère la compo si elle a bien été modifiée
 			LOG.debug("Compo modifiée");
-			v = md.getCompo();
+			selectedRow = md.getCompo();
 		} else {
 			LOG.debug("Aucune modification");
 			return;
@@ -619,10 +621,10 @@ public class SearchPanel extends JPanel {
 
 		// Modification du fichier final
 		boolean isDeleted = false;
-		toModif.setArtist(v.get(INDEX_ARTIST));
-		toModif.setTitre(v.get(INDEX_TITRE));
-		toModif.setRecordType(RecordType.valueOf(v.get(INDEX_TYPE)));
-		toModif.setDeleted((Boolean.valueOf(v.get(INDEX_DELETED))));
+		toModif.setArtist(selectedRow.get(INDEX_ARTIST));
+		toModif.setTitre(selectedRow.get(INDEX_TITRE));
+		toModif.setRecordType(RecordType.valueOf(selectedRow.get(INDEX_TYPE)));
+		toModif.setDeleted((Boolean.valueOf(selectedRow.get(INDEX_DELETED))));
 		importXML.remove(indexOfXml);
 		compoResult.remove(indexOfResult);
 		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);
@@ -644,7 +646,7 @@ public class SearchPanel extends JPanel {
 		}
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
-			artist2.updateArtistPanel();
+			artistPanel.updateArtistPanel();
 		} catch (IOException e1) {
 			String log = "Erreur lors de l'export du fichier final !!";
 			LOG.error(log, e1);
@@ -654,8 +656,8 @@ public class SearchPanel extends JPanel {
 		// On modifier les fichiers xml en conséquence
 		try {
 			toModif.setDeleted(isDeleted);
-			CompositionUtils.modifyCompositionsInFiles(toModif, v.get(INDEX_ARTIST), v.get(INDEX_TITRE),
-					v.get(INDEX_TYPE), isDeleted);
+			CompositionUtils.modifyCompositionsInFiles(toModif, selectedRow.get(INDEX_ARTIST),
+					selectedRow.get(INDEX_TITRE), selectedRow.get(INDEX_TYPE), isDeleted);
 		} catch (MyException e1) {
 			String log = "Erreur lors de la modification d'une composition";
 			LOG.error(log, e1);
@@ -664,11 +666,12 @@ public class SearchPanel extends JPanel {
 		}
 		deleteLabel.setText(label);
 		updateTable();
-		LOG.debug("End modif");
+		LOG.debug("End modifAction");
 	}
 
 	private void mouseClickAction(MouseEvent e) {
 		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
+		popup.initDataAndPosition(e, selectedRow);
 		if (!selectedRow.isPresent()) {
 			return;
 		}
@@ -688,13 +691,7 @@ public class SearchPanel extends JPanel {
 			}
 			LOG.debug("End result mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
-			LOG.debug("Start right mouse");
-			// Copie dans le clipboard l'artist et l'oeuvre
-			StringSelection selection = new StringSelection(
-					selectedRow.get().get(INDEX_ARTIST) + " " + selectedRow.get().get(INDEX_TITRE));
-			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-			clipboard.setContents(selection, selection);
-			LOG.debug("End right mouse");
+			popup.show(e);
 		}
 	}
 
