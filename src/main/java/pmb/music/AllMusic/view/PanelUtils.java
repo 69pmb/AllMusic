@@ -221,12 +221,11 @@ public class PanelUtils {
 
 	@SuppressWarnings("unchecked")
 	public static int keyShortcutAction(KeyEvent e, int selectedRow, Integer sortedColumn) {
-		LOG.debug("Start keyShortcutAction");
-		JTable target = (JTable) e.getSource();
-		if (!Character.isLetter(e.getKeyChar()) || !Character.isDigit(e.getKeyChar())) {
-			LOG.debug("End keyShortcutAction, not a valid char");
+		if (!Character.isLetter(e.getKeyChar()) && !Character.isDigit(e.getKeyChar())) {
 			return selectedRow;
 		}
+		LOG.debug("Start keyShortcutAction");
+		JTable target = (JTable) e.getSource();
 		String keyChar = String.valueOf(e.getKeyChar());
 		TableModel tableModel = target.getModel();
 		int startRow = selectedRow;
