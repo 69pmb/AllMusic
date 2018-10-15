@@ -196,7 +196,7 @@
   <compo A="The Clash" T="London Calling" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="65" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="66" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="false">
@@ -2509,7 +2509,7 @@
   <compo A="The Four Tops" T="I Can't Help Myself" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="836" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="false">
+  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="837" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Jefferson Airplane" T="White Rabbit" type="SONG" mergeable="true" del="false">

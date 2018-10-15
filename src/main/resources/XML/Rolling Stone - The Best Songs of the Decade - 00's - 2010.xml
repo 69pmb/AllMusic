@@ -7,7 +7,7 @@
   <compo A="Eminem" T="Stan" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 00's - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="2" creation="07/09/2018 15:13:47" size="50"/>
   </compo>
-  <compo A="Radiohead" T="How To Disappear Completely" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="How To Disappear Completely" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 00's - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="3" creation="07/09/2018 15:13:47" size="50"/>
   </compo>
   <compo A="The Avalanches" T="Since I Left You" type="SONG" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Coldplay" T="In My Place" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 00's - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="16" creation="07/09/2018 15:13:47" size="50"/>
   </compo>
-  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="false">
+  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 00's - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="17" creation="07/09/2018 15:13:47" size="50"/>
   </compo>
   <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="false">
