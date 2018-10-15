@@ -7,6 +7,7 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
@@ -34,9 +35,9 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.model.FichierDialogModel;
+import pmb.music.AllMusic.view.popup.DialogFilePopupMenu;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Fichier}.
@@ -68,6 +69,7 @@ public class DialogFileTable extends JDialog {
 
 	private JTable fichiers;
 	private int defaultSort;
+	private DialogFilePopupMenu popup;
 
 	/**
 	 * Constructeur de {@link DialogFileTable}.
@@ -117,6 +119,25 @@ public class DialogFileTable extends JDialog {
 		fichiers.getRowSorter().toggleSortOrder(defaultSort);
 		((TableRowSorter<?>) fichiers.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
 
+		popup = new DialogFilePopupMenu(fichiers, INDEX_ARTIST, INDEX_TITLE, INDEX_FILE_NAME, INDEX_AUTEUR);
+		fichiers.addKeyListener(new KeyListener() {
+			@Override
+			public void keyTyped(KeyEvent e) {
+				// Nothing to do
+			}
+
+			@Override
+			public void keyReleased(KeyEvent e) {
+				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
+					popup.show(e);
+				}
+			}
+
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// Nothing to do
+			}
+		});
 		fichiers.addMouseListener(pasteFichierListener());
 		this.getRootPane().registerKeyboardAction(e -> {
 			this.dispose();
@@ -141,25 +162,12 @@ public class DialogFileTable extends JDialog {
 
 	private void mouseAction(MouseEvent e) {
 		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
+		popup.initDataAndPosition(e, selectedRow);
 		if (!selectedRow.isPresent()) {
 			return;
 		}
-		if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 2) {
-			LOG.debug("Start fichier mouse");
-			// Double click droit -> ouvre le fichier txt
-			Optional<String> filePath = FichierUtils.buildTxtFilePath(selectedRow.get().get(INDEX_FILE_NAME),
-					selectedRow.get().get(INDEX_AUTEUR));
-			try {
-				FichierUtils.openFileInNotepad(filePath);
-			} catch (MyException e1) {
-				LOG.error("Erreur lors de l'ouverture du fichier: " + filePath, e1);
-			}
-			LOG.debug("End fichier mouse");
-		} else if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 1) {
-			LOG.debug("Start right mouse");
-			// simple click droit -> copie le nom du fichier dans le presse papier
-			MiscUtils.clipBoardAction(selectedRow.get().get(INDEX_FILE_NAME));
-			LOG.debug("End right mouse");
+		if (SwingUtilities.isRightMouseButton(e)) {
+			popup.show(e);
 		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start double right mouse");
 			// Double click gauche -> Ouvre une popup pour afficher les compositions du
