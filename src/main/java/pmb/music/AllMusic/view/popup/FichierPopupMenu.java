@@ -1,17 +1,13 @@
 package pmb.music.AllMusic.view.popup;
 
-import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
-import java.util.Vector;
 
-import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.JTable;
-import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
@@ -26,12 +22,9 @@ import pmb.music.AllMusic.view.panel.FichierPanel;
  * @see {@link JPopupMenu}
  * @author pmbroca
  */
-public class FichierPopupMenu extends JPopupMenu {
+public class FichierPopupMenu extends PopupMenu {
 	private static final long serialVersionUID = 4954841294693242496L;
 	private static final Logger LOG = Logger.getLogger(FichierPopupMenu.class);
-
-	private Vector<String> selectedRow;
-	private Point point;
 
 	/**
 	 * Constructor of {@link FichierPopupMenu}.
@@ -45,9 +38,7 @@ public class FichierPopupMenu extends JPopupMenu {
 		LOG.debug("Start FichierPopupMenu");
 
 		// Open XML file
-		JMenuItem openXml = new JMenuItem("Ouvrir le fichier XML");
-		openXml.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, ActionEvent.CTRL_MASK));
-		openXml.addActionListener((ActionEvent e) -> {
+		buildMenuItem("Ouvrir le fichier XML", KeyEvent.VK_X, (ActionEvent e) -> {
 			LOG.debug("Start openXml");
 			try {
 				FichierUtils.openFileInNotepad(FichierUtils.buildXmlFilePath(selectedRow.get(fileNameIndex)));
@@ -57,12 +48,9 @@ public class FichierPopupMenu extends JPopupMenu {
 			}
 			LOG.debug("End openXml");
 		});
-		this.add(openXml);
 
 		// Open TXT file
-		JMenuItem openTxt = new JMenuItem("Ouvrir le fichier TXT");
-		openTxt.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T, ActionEvent.CTRL_MASK));
-		openTxt.addActionListener((ActionEvent e) -> {
+		buildMenuItem("Ouvrir le fichier TXT", KeyEvent.VK_T, (ActionEvent e) -> {
 			LOG.debug("Start openTxt");
 			try {
 				FichierUtils.openFileInNotepad(
@@ -73,12 +61,9 @@ public class FichierPopupMenu extends JPopupMenu {
 			}
 			LOG.debug("End openTxt");
 		});
-		this.add(openTxt);
 
 		// Copy clipboard file name
-		JMenuItem copy = new JMenuItem("Copier le nom du fichier");
-		copy.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C, ActionEvent.CTRL_MASK));
-		copy.addActionListener((ActionEvent e) -> {
+		buildMenuItem("Copier le nom du fichier", KeyEvent.VK_C, (ActionEvent e) -> {
 			LOG.debug("Start copy");
 			StringSelection selection = new StringSelection(selectedRow.get(fileNameIndex));
 			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
@@ -86,36 +71,16 @@ public class FichierPopupMenu extends JPopupMenu {
 			this.setVisible(false);
 			LOG.debug("End copy");
 		});
-		this.add(copy);
 
 		// Modify file
-		JMenuItem modifFile = new JMenuItem("Modifier le fichier");
-		modifFile.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_E, ActionEvent.CTRL_MASK));
-		modifFile.addActionListener((ActionEvent e) -> {
+		buildMenuItem("Modifier le fichier", KeyEvent.VK_E, (ActionEvent e) -> {
 			LOG.debug("Start modifFile");
 			((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, table))
 					.modifyFichierAction(selectedRow);
 			this.setVisible(false);
 			LOG.debug("End modifFile");
 		});
-		this.add(modifFile);
 
 		LOG.debug("End FichierPopupMenu");
-	}
-
-	public Vector<String> getSelectedRow() {
-		return selectedRow;
-	}
-
-	public void setSelectedRow(Vector<String> selectedRow) {
-		this.selectedRow = selectedRow;
-	}
-
-	public Point getPoint() {
-		return point;
-	}
-
-	public void setPoint(Point point) {
-		this.point = point;
 	}
 }
