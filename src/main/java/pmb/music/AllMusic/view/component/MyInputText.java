@@ -14,6 +14,12 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.view.PanelUtils;
 
+/**
+ * Defines a panel with an input component and a reset button.
+ * 
+ * @author PBR
+ *
+ */
 public class MyInputText extends JPanel {
 	private static final Logger LOG = Logger.getLogger(MyInputText.class);
 	private static final long serialVersionUID = 3848984166701854798L;
@@ -21,6 +27,12 @@ public class MyInputText extends JPanel {
 	private JComponent input;
 	private JButton reset;
 
+	/**
+	 * Constructor of {@link MyInputText}.
+	 * 
+	 * @param type the class of the input component
+	 * @param width the width of the panel
+	 */
 	public MyInputText(Class<? extends JComponent> type, int width) {
 		super();
 		try {
@@ -45,6 +57,11 @@ public class MyInputText extends JPanel {
 				PanelUtils.COMPONENT_HEIGHT + this.reset.getHeight());
 	}
 
+	/**
+	 * Gets the text of the input component.
+	 * 
+	 * @return a string
+	 */
 	public String getText() {
 		if (isInputInstanceOf(JTextField.class)) {
 			return ((JTextField) input).getText();
@@ -56,6 +73,11 @@ public class MyInputText extends JPanel {
 		}
 	}
 
+	/**
+	 * Sets the text of the input component.
+	 * 
+	 * @param a string
+	 */
 	public void setText(String text) {
 		if (isInputInstanceOf(JTextField.class)) {
 			((JTextField) input).setText(text);
@@ -64,10 +86,15 @@ public class MyInputText extends JPanel {
 		}
 	}
 
-	public boolean isInputInstanceOf(Class<?> clazz) {
+	private boolean isInputInstanceOf(Class<?> clazz) {
 		return clazz.isInstance(input);
 	}
 
+	/**
+	 * Getter fo the input component.
+	 * 
+	 * @return a JComponent
+	 */
 	public JComponent getInput() {
 		return input;
 	}
