@@ -5,9 +5,6 @@ package pmb.music.AllMusic.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
@@ -35,6 +32,7 @@ import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.model.CompoDialogModel;
 
@@ -156,10 +154,8 @@ public class DialogCompoTable extends JDialog {
 			// Copie dans le clipboard l'artist et l'oeuvre
 			Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 			if (selectedRow.isPresent()) {
-				StringSelection selection = new StringSelection(
+				MiscUtils.clipBoardAction(
 						selectedRow.get().get(INDEX_ARTIST) + " " + selectedRow.get().get(INDEX_TITLE));
-				Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-				clipboard.setContents(selection, selection);
 			}
 			LOG.debug("End right mouse");
 		}

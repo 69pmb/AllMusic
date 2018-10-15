@@ -6,9 +6,6 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
@@ -641,10 +638,8 @@ public class FichierPanel extends JPanel {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			// Copie dans le clipboard l'artist et l'oeuvre
-			StringSelection selection = new StringSelection(
+			MiscUtils.clipBoardAction(
 					selectedRow.get().get(INDEX_COMPO_ARTIST) + " " + selectedRow.get().get(INDEX_COMPO_TITLE));
-			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-			clipboard.setContents(selection, selection);
 			LOG.debug("End right mouse");
 		}
 	}

@@ -6,9 +6,6 @@ package pmb.music.AllMusic.view.panel;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
@@ -465,9 +462,7 @@ public class ArtistPanel extends JPanel {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start artist right mouse");
 			// Copie dans le presse papier le nom de l'artiste
-			StringSelection selection = new StringSelection(selectedRow.get().get(INDEX_ARTIST));
-			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-			clipboard.setContents(selection, selection);
+			MiscUtils.clipBoardAction(selectedRow.get().get(INDEX_ARTIST));
 			LOG.debug("End artist right mouse");
 		}
 	}

@@ -1,8 +1,5 @@
 package pmb.music.AllMusic.view.popup;
 
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 
@@ -13,6 +10,7 @@ import javax.swing.SwingUtilities;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
@@ -64,9 +62,7 @@ public class FichierPopupMenu extends PopupMenu {
 		// Copy clipboard file name
 		buildMenuItem("Copier le nom du fichier", KeyEvent.VK_C, (ActionEvent e) -> {
 			LOG.debug("Start copy");
-			StringSelection selection = new StringSelection(selectedRow.get(fileNameIndex));
-			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-			clipboard.setContents(selection, selection);
+			MiscUtils.clipBoardAction(selectedRow.get(fileNameIndex));
 			this.setVisible(false);
 			LOG.debug("End copy");
 		});
