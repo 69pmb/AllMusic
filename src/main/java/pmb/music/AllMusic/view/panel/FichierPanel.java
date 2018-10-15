@@ -72,6 +72,7 @@ import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputText;
@@ -79,13 +80,14 @@ import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.dialog.ModifyFichierDialog;
 import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
 import pmb.music.AllMusic.view.model.FichierPanelModel;
+import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 import pmb.music.AllMusic.view.popup.FichierPopupMenu;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
  * compositions. Created by PBR on 29 mai 2018.
  */
-public class FichierPanel extends JPanel {
+public class FichierPanel extends JPanel implements ModificationComposition {
 	private static final long serialVersionUID = 8581952935884211032L;
 
 	private static final Logger LOG = Logger.getLogger(FichierPanel.class);
@@ -144,6 +146,7 @@ public class FichierPanel extends JPanel {
 	private String selectedFichierName = "";
 	Map<Fichier, List<Composition>> data;
 	Map<Fichier, List<Composition>> searchResult;
+	private FichierPopupMenu popupFichier;
 
 	// Composition componants
 	private JPanel compoPanel;
@@ -156,10 +159,10 @@ public class FichierPanel extends JPanel {
 	private SortOrder sortCompoOrder;
 	private SortOrder sortCompoDeletedOrder = SortOrder.ASCENDING;
 	private int selectedCompoRow = -1;
+	private CompositionPopupMenu popupComposition;
 
 	private Dimension parentSize;
-
-	private FichierPopupMenu popup;
+	private ArtistPanel artistPanel;
 
 	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Publication", "Categorie",
 			"Dates", "Supprimés", "Création", "Score", "Score Supprimés", "Taille", "Classé" };
@@ -169,41 +172,40 @@ public class FichierPanel extends JPanel {
 	/**
 	 * Constructeur de {@link FichierPanel}.
 	 * 
+	 * @param artistPanel pour arreter ou redemarrer la calcul des données
+	 * 
 	 */
-	public FichierPanel() {
+	public FichierPanel(ArtistPanel artistPanel) {
 		super();
 		LOG.debug("Start FichierPanel");
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+		this.artistPanel = artistPanel;
 
 		LOG.debug("End FichierPanel");
 	}
 
 	/**
 	 * Initialise tous les composants du {@link FichierPanel}.
-	 * 
-	 * @param artistPanel le panel artiste
 	 */
-	public void initPanel(ArtistPanel artistPanel) {
+	public void initPanel() {
 		LOG.debug("Start initPanel");
 
 		parentSize = this.getParent().getPreferredSize();
-		initSearchBtn(artistPanel);
+		initSearchBtn();
 		initData();
 		initFichierTable();
-		initCompoTable(artistPanel);
+		initCompoTable();
 
 		LOG.debug("End initPanel");
 	}
 
 	/**
 	 * Initialise les composants de recherche.
-	 * 
-	 * @param artistPanel le panel artiste
 	 */
-	private void initSearchBtn(ArtistPanel artistPanel) {
+	private void initSearchBtn() {
 		JPanel header = new JPanel(new GridLayout(2, 1));
 		initInputs(header);
-		initButtons(artistPanel, header);
+		initButtons(header);
 		PanelUtils.setSize(header, (int) parentSize.getWidth(), Math.floorDiv(15 * (int) parentSize.getHeight(), 100));
 		this.add(header);
 	}
@@ -311,7 +313,7 @@ public class FichierPanel extends JPanel {
 		header.add(inputs);
 	}
 
-	private void initButtons(ArtistPanel artistPanel, JPanel header) {
+	private void initButtons(JPanel header) {
 		JPanel buttons = new JPanel(new GridLayout(1, 7));
 		// SEARCH
 		search = PanelUtils.createJButton("Rechercher", 120, Constant.ICON_SEARCH);
@@ -453,7 +455,7 @@ public class FichierPanel extends JPanel {
 				mouseActionForFileTable(e);
 			}
 		});
-		popup = new FichierPopupMenu(tableFiles, INDEX_FILE_FILE_NAME, INDEX_FILE_AUTHOR);
+		popupFichier = new FichierPopupMenu(tableFiles, INDEX_FILE_FILE_NAME, INDEX_FILE_AUTHOR);
 		tableFiles.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -463,7 +465,7 @@ public class FichierPanel extends JPanel {
 			@Override
 			public void keyReleased(KeyEvent e) {
 				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
-					popup.show(e);
+					popupFichier.show(e);
 				} else {
 					selectedFichierRow = PanelUtils.keyShortcutAction(e, selectedFichierRow, sortedFichierColumn);
 				}
@@ -497,7 +499,7 @@ public class FichierPanel extends JPanel {
 		setTableSize(fichierPanel, MIN_HEIGHT_TABLE);
 	}
 
-	private void initCompoTable(ArtistPanel artistPanel) {
+	private void initCompoTable() {
 		compoPanel = new JPanel(new BorderLayout());
 
 		tableCompo = new JTable();
@@ -524,9 +526,10 @@ public class FichierPanel extends JPanel {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				mouseActionForCompoTable(e, artistPanel);
+				mouseActionForCompoTable(e);
 			}
 		});
+		popupComposition = new CompositionPopupMenu(tableCompo, this.getClass(), INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE);
 		tableCompo.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -535,7 +538,11 @@ public class FichierPanel extends JPanel {
 
 			@Override
 			public void keyReleased(KeyEvent e) {
-				selectedCompoRow = PanelUtils.keyShortcutAction(e, selectedCompoRow, sortedCompoColumn);
+				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
+					popupComposition.show(e);
+				} else {
+					selectedCompoRow = PanelUtils.keyShortcutAction(e, selectedCompoRow, sortedCompoColumn);
+				}
 			}
 
 			@Override
@@ -605,7 +612,7 @@ public class FichierPanel extends JPanel {
 	private void mouseActionForFileTable(MouseEvent e) {
 		LOG.debug("Start mouseActionForFileTable");
 		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		popup.initDataAndPosition(e, selectedRow);
+		popupFichier.initDataAndPosition(e, selectedRow);
 		if (!selectedRow.isPresent()) {
 			return;
 		}
@@ -620,27 +627,24 @@ public class FichierPanel extends JPanel {
 			updateCompoTable(compositionList, selectedFichierName);
 			LOG.debug("End left mouse, open");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
-			popup.show(e);
+			popupFichier.show(e);
 		}
 		LOG.debug("End mouseActionForFileTable");
 	}
 
-	private void mouseActionForCompoTable(MouseEvent e, ArtistPanel artistPanel) {
+	private void mouseActionForCompoTable(MouseEvent e) {
 		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
+		popupComposition.initDataAndPosition(e, selectedRow);
 		if (!selectedRow.isPresent()) {
 			return;
 		}
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse");
 			// Popup pour modifier la composition
-			modifyCompositionAction(artistPanel, selectedRow.get());
+			modifyCompositionAction(selectedRow.get());
 			LOG.debug("End left mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
-			LOG.debug("Start right mouse");
-			// Copie dans le clipboard l'artist et l'oeuvre
-			MiscUtils.clipBoardAction(
-					selectedRow.get().get(INDEX_COMPO_ARTIST) + " " + selectedRow.get().get(INDEX_COMPO_TITLE));
-			LOG.debug("End right mouse");
+			popupComposition.show(e);
 		}
 	}
 
@@ -698,7 +702,12 @@ public class FichierPanel extends JPanel {
 
 	}
 
-	private void modifyCompositionAction(final ArtistPanel artistPanel, Vector<String> selected) {
+	/**
+	 * Launchs a dialog to modify the selected composition.
+	 * 
+	 * @param selected the selected row representing a composition
+	 */
+	public void modifyCompositionAction(Vector<String> selected) {
 		LOG.debug("Start modifyCompositionAction");
 		resultLabel.setText("");
 		artistPanel.interruptUpdateArtist(true);

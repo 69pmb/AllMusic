@@ -10,10 +10,10 @@ import javax.swing.SwingUtilities;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.view.panel.SearchPanel;
+import pmb.music.AllMusic.view.ModificationComposition;
 
 /**
- * Contextual Menu for {@link SearchPanel}.
+ * Contextual Menu for compositions table.
  * 
  * @see {@link JPopupMenu}
  */
@@ -25,10 +25,12 @@ public class CompositionPopupMenu extends PopupMenu {
 	 * Constructor of {@link CompositionPopupMenu}.
 	 * 
 	 * @param table the composition table
+	 * @param type Class type implementing {@link ModificationComposition}
 	 * @param artistIndex index in row of the artist
 	 * @param titleIndex index in row of the title
 	 */
-	public CompositionPopupMenu(JTable table, int artistIndex, int titleIndex) {
+	public CompositionPopupMenu(JTable table, Class<? extends ModificationComposition> type, int artistIndex,
+			int titleIndex) {
 		super();
 		LOG.debug("Start CompositionPopupMenu");
 
@@ -59,7 +61,7 @@ public class CompositionPopupMenu extends PopupMenu {
 		// Modify composition
 		buildMenuItem("Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {
 			LOG.debug("Start modifComposition");
-			((SearchPanel) SwingUtilities.getAncestorOfClass(SearchPanel.class, table)).modifAction(selectedRow);
+			type.cast(SwingUtilities.getAncestorOfClass(type, table)).modifyCompositionAction(selectedRow);
 			this.setVisible(false);
 			LOG.debug("End modifComposition");
 		});
