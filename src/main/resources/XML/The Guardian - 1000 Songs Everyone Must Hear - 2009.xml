@@ -316,7 +316,7 @@
   <compo A="Merrilee Rush" T="Angel of the Morning" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="105" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Shangri-Las" T="Leader Of The Pack" type="SONG" mergeable="true" del="false">
+  <compo A="Shangri-Las" T="Leader Of The Pack" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="106" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Shirelles" T="Will You Love Me Tomorrow" type="SONG" mergeable="true" del="false">
@@ -667,7 +667,7 @@
   <compo A="New Order" T="Blue Monday" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="222" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Sinead O'Connor" T="Nothing Compares 2 U" type="SONG" mergeable="true" del="false">
+  <compo A="Sinead O'Connor" T="Nothing Compares 2 U" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="223" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Mary Margaret O'Hara" T="To Cry About" type="SONG" mergeable="true" del="false">
@@ -760,7 +760,7 @@
   <compo A="Smiths" T="I Know It's Over" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="253" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Smiths" T="Please, Please, Please Let Me Get What I Want" type="SONG" mergeable="true" del="false">
+  <compo A="Smiths" T="Please Please Please Let Me Get What I Want" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="254" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Smog" T="Left Only With Love" type="SONG" mergeable="true" del="false">
