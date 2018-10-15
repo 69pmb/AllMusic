@@ -76,7 +76,7 @@
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="25" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="26" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Tool" T="Aenima" type="ALBUM" mergeable="true" del="false">

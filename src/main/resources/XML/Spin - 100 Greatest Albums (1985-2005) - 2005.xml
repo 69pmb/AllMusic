@@ -142,7 +142,7 @@
   <compo A="Eric B. And Rakim" T="Paid In Full" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="47" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="48" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
   <compo A="Lauryn Hill" T="The Miseducation Of Lauryn Hill" type="ALBUM" mergeable="true" del="false">

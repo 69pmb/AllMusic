@@ -28,7 +28,7 @@
   <compo A="Radiohead" T="Ok Computer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="2" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="2" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
   <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
