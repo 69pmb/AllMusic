@@ -598,7 +598,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			importXML = ImportXML.importXML(Constant.getFinalFilePath());
 			try {
 				// On récupère la composition à modifier
-				toModif = CompositionUtils.findByArtistTitreAndType(importXML, selectedRow.get(INDEX_ARTIST),
+				toModif = CompositionUtils.findByArtistTitreAndType(compoResult, selectedRow.get(INDEX_ARTIST),
 						selectedRow.get(INDEX_TITRE), selectedRow.get(INDEX_TYPE), true);
 			} catch (MyException e1) {
 				String log = "Erreur dans modifAction, impossible de trouver la compo à modifier";
@@ -607,6 +607,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				return;
 			}
 		}
+		int indexOfXml = importXML.indexOf(CompositionUtils.findByFile(importXML, toModif.getFiles().get(0),
+				Optional.of(selectedRow.get(INDEX_ARTIST)), Optional.of(selectedRow.get(INDEX_TITRE))).get());
+		int indexOfResult = SearchUtils.indexOf(compoResult, toModif);
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
 				new Dimension(950, 150), selectedRow, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE, INDEX_DELETED);
@@ -619,8 +622,6 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			LOG.debug("Aucune modification");
 			return;
 		}
-		int indexOfXml = SearchUtils.indexOf(importXML, toModif);
-		int indexOfResult = SearchUtils.indexOf(compoResult, toModif);
 
 		// Modification du fichier final
 		boolean isDeleted = false;
@@ -628,6 +629,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		toModif.setTitre(selectedRow.get(INDEX_TITRE));
 		toModif.setRecordType(RecordType.valueOf(selectedRow.get(INDEX_TYPE)));
 		toModif.setDeleted((Boolean.valueOf(selectedRow.get(INDEX_DELETED))));
+
 		importXML.remove(indexOfXml);
 		compoResult.remove(indexOfResult);
 		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);
