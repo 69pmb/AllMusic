@@ -5,9 +5,6 @@ package pmb.music.AllMusic.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
@@ -161,9 +158,7 @@ public class DialogFileTable extends JDialog {
 		} else if (SwingUtilities.isRightMouseButton(e) && e.getClickCount() == 1) {
 			LOG.debug("Start right mouse");
 			// simple click droit -> copie le nom du fichier dans le presse papier
-			StringSelection selection = new StringSelection(selectedRow.get().get(INDEX_FILE_NAME));
-			Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-			clipboard.setContents(selection, selection);
+			MiscUtils.clipBoardAction(selectedRow.get().get(INDEX_FILE_NAME));
 			LOG.debug("End right mouse");
 		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start double right mouse");
