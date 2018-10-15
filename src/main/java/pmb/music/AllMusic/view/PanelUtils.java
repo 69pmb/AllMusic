@@ -173,6 +173,7 @@ public class PanelUtils {
 
 	/**
 	 * Finds in the data table model the selected row.
+	 * 
 	 * @param <T> the model of the table
 	 * @param target the table selected
 	 * @param point the spot clicked
@@ -222,6 +223,10 @@ public class PanelUtils {
 	public static int keyShortcutAction(KeyEvent e, int selectedRow, Integer sortedColumn) {
 		LOG.debug("Start keyShortcutAction");
 		JTable target = (JTable) e.getSource();
+		if (!Character.isLetter(e.getKeyChar()) || !Character.isDigit(e.getKeyChar())) {
+			LOG.debug("End keyShortcutAction, not a valid char");
+			return selectedRow;
+		}
 		String keyChar = String.valueOf(e.getKeyChar());
 		TableModel tableModel = target.getModel();
 		int startRow = selectedRow;
