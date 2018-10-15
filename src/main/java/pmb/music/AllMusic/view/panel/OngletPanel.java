@@ -70,7 +70,7 @@ public class OngletPanel extends JPanel {
 		ArtistPanel artist = new ArtistPanel(withArtist);
 		ImportPanel importFile = new ImportPanel(artist);
 		SearchPanel search = new SearchPanel(artist);
-		FichierPanel fichier = new FichierPanel();
+		FichierPanel fichier = new FichierPanel(artist);
 		BatchPanel batch = new BatchPanel();
 
 		onglets.addTab(Constant.ONGLET_SEARCH, search);
@@ -80,7 +80,7 @@ public class OngletPanel extends JPanel {
 		onglets.addTab(Constant.ONGLET_FICHIER, fichier);
 		onglets.addTab(Constant.ONGLET_IMPORT, importFile);
 		onglets.addTab(Constant.ONGLET_BATCH, batch);
-		fichier.initPanel(artist);
+		fichier.initPanel();
 
 		onglets.setOpaque(true);
 		panel.add(onglets);
