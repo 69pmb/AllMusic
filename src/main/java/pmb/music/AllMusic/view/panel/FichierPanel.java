@@ -76,6 +76,7 @@ import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputText;
+import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.dialog.ModifyFichierDialog;
 import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
@@ -640,8 +641,18 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		}
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start left mouse");
-			// Popup pour modifier la composition
-			modifyCompositionAction(selectedRow.get());
+			// Ouvre une popup pour afficher les fichiers de la
+			// composition sélectionnée
+			try {
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
+						Arrays.asList(CompositionUtils.findByArtistTitreAndType(compositionList,
+								selectedRow.get().get(INDEX_COMPO_ARTIST), selectedRow.get().get(INDEX_COMPO_TITLE),
+								selectedRow.get().get(INDEX_COMPO_TYPE), true)),
+						new Dimension(1500, 400), DialogFileTable.INDEX_AUTEUR);
+				pop.showDialogFileTable();
+			} catch (MyException e1) {
+				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
+			}
 			LOG.debug("End left mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			popupComposition.show(e);
