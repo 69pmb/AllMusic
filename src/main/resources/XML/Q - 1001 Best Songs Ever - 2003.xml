@@ -772,7 +772,7 @@
   <compo A="Aphex Twin" T="Window Licker" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="10" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Rolling Stones" T="Tumbling Dice" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Tumbling Dice" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="258" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="New Order" T="True Faith" type="SONG" mergeable="true" del="true">
@@ -1651,7 +1651,7 @@
   <compo A="The Thrills" T="Santa Cruz (You're Not That Far)" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="550" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Roxy Music" T="Love Is The Drug" type="SONG" mergeable="true" del="false">
+  <compo A="Roxy Music" T="Love Is The Drug" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="551" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Aerosmith" T="Jaded" type="SONG" mergeable="true" del="false">
