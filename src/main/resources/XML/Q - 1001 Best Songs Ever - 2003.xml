@@ -64,7 +64,7 @@
   <compo A="Grandmaster Flash" T="The Message" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="10" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Strokes" T="Last Night" type="SONG" mergeable="true" del="false">
+  <compo A="The Strokes" T="Last Night" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="22" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Coldplay" T="Trouble" type="SONG" mergeable="true" del="false">
@@ -568,7 +568,7 @@
   <compo A="The Modern Lovers" T="Road Runner" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="189" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Strokes" T="The Modern Age" type="SONG" mergeable="true" del="false">
+  <compo A="The Strokes" T="The Modern Age" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="190" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Martha Nad The Vandellas" T="Dancing In The Street" type="SONG" mergeable="true" del="false">
