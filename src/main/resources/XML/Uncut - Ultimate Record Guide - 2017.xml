@@ -2710,7 +2710,7 @@
   <compo A="New Order" T="Movement" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="903" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="New Order" T="Power, Corruption And Lies" type="ALBUM" mergeable="true" del="false">
+  <compo A="New Order" T="Power Corruption And Lies" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="904" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="New Order" T="Technique" type="ALBUM" mergeable="true" del="false">
@@ -5026,7 +5026,7 @@
   <compo A="Weezer" T="Pinkerton" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1675" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Weezer" T="Weezer (Blue Album)" type="ALBUM" mergeable="true" del="false">
+  <compo A="WEEZER" T="Weezer" type="ALBUM" mergeable="false" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1676" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Whiskeytown" T="Strangers Almanac" type="ALBUM" mergeable="true" del="false">

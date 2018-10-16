@@ -76,7 +76,7 @@
   <compo A="Yo La Tengo" T="I Can Hear the Heart Beating As One" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="25" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Weezer" T="Weezer (Blue Album)" type="ALBUM" mergeable="true" del="false">
+  <compo A="WEEZER" T="Weezer" type="ALBUM" mergeable="false" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="26" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Guided By Voices" T="Alien Lanes" type="ALBUM" mergeable="true" del="false">
