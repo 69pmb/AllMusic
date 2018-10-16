@@ -4,7 +4,7 @@
   <compo A="Antony and the Johnsons" T="You Are My Sister" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Songs - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="1" creation="31/07/2018 12:40:51" size="20"/>
   </compo>
-  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="true" del="true">
+  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="false" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="2" creation="31/07/2018 12:40:51" size="20"/>
   </compo>
   <compo A="Art Brut" T="Emily Kane" type="SONG" mergeable="true" del="false">
