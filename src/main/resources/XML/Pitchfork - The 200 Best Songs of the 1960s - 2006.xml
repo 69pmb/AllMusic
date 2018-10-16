@@ -169,7 +169,7 @@
   <compo A="The Righteous Brothers" T="Unchained melody" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="138" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Dixie Cups" T="Iko iko" type="SONG" mergeable="true" del="false">
+  <compo A="The Dixie Cups" T="Iko Iko" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="137" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
   <compo A="Brian Wilson" T="Surf's up (Solo piano version)" type="SONG" mergeable="true" del="false">
@@ -403,7 +403,7 @@
   <compo A="Desmond Dekker" T="Israelites" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="10" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Johnny Cash" T="Folsom Prison Blues (Live at Folsom Prison)" type="SONG" mergeable="true" del="true">
+  <compo A="Johnny Cash" T="Folsom Prison Blues" type="SONG" mergeable="false" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="8" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
   <compo A="Sam Cooke" T="A Change Is Gonna Come" type="SONG" mergeable="true" del="true">

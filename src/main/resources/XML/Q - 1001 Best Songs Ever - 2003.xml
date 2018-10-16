@@ -529,7 +529,7 @@
   <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="176" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Everyting But The Girl" T="Missing" type="SONG" mergeable="true" del="false">
+  <compo A="Everything But The Girl" T="Missing (Todd Terry Remix)" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="177" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Happy Mondays" T="Kinky Afro" type="SONG" mergeable="true" del="false">
@@ -1447,7 +1447,7 @@
   <compo A="Kris Kristofferson" T="Sunday Morning Coming Down" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="482" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Johnny Cash" T="Folsom Prison Blues (Live at Folsom Prison)" type="SONG" mergeable="true" del="true">
+  <compo A="Johnny Cash" T="Folsom Prison Blues" type="SONG" mergeable="false" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="483" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="The Kingsmen" T="Louie Louie" type="SONG" mergeable="true" del="false">
