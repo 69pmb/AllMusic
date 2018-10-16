@@ -421,7 +421,7 @@
   <compo A="Linkin Park" T="Hybrid Theory" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="140" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Weezer" T="Weezer (Blue Album)" type="ALBUM" mergeable="true" del="false">
+  <compo A="WEEZER" T="Weezer" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="141" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="false">
