@@ -256,7 +256,7 @@
   <compo A="Animal Collective" T="Who Could Win a Rabbit" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="85" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="true" del="true">
+  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="false" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="86" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Beck" T="Everybody's Gotta Learn Sometimes" type="SONG" mergeable="true" del="false">
@@ -316,7 +316,7 @@
   <compo A="Antony and the Johnsons" T="You Are My Sister" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="105" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="true" del="true">
+  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="false" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="106" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Art Brut" T="Emily Kane" type="SONG" mergeable="true" del="false">
@@ -358,7 +358,7 @@
   <compo A="Roots Manuva" T="Too Cold" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="119" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Sebastien Tellier" T="La Ritournelle" type="SONG" mergeable="true" del="false">
+  <compo A="Sebastien Tellier" T="La Ritournelle" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="120" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="The Chemical Brothers" T="Galvanize" type="SONG" mergeable="true" del="false">

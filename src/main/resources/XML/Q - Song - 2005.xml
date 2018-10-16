@@ -166,7 +166,7 @@
   <compo A="Oasis" T="The Meaning Of Soul" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="55" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
-  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="true" del="true">
+  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="false" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="56" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="Coldplay" T="White Shadows" type="SONG" mergeable="true" del="false">
@@ -208,7 +208,7 @@
   <compo A="Kanye West" T="Diamonds From Sierra Leone" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="69" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
-  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="true" del="true">
+  <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="false" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="70" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="Stereophonics" T="Superman" type="SONG" mergeable="true" del="false">
