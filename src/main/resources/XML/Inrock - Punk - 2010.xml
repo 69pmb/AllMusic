@@ -4,10 +4,10 @@
   <compo A="The Stooges" T="No Fun" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Punk - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="30"/>
   </compo>
-  <compo A="New York Dolls" T="Personality Crisis" type="SONG" mergeable="true" del="false">
+  <compo A="New York Dolls" T="Personality Crisis" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Punk - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="30"/>
   </compo>
-  <compo A="Patti Smith" T="Gloria" type="SONG" mergeable="true" del="false">
+  <compo A="Patti Smith" T="Gloria" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Punk - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="30"/>
   </compo>
   <compo A="Richard Hell And The Voidoids" T="Blank Generation" type="SONG" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Ramones" T="Sheena Is A Punk Rocker" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Punk - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="30"/>
   </compo>
-  <compo A="The Clash" T="White Riot" type="SONG" mergeable="true" del="false">
+  <compo A="The Clash" T="White Riot" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Punk - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="30"/>
   </compo>
   <compo A="Buzzcocks" T="Boredom" type="SONG" mergeable="true" del="false">
