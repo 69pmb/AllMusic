@@ -391,7 +391,7 @@
   <compo A="Lynyrd Skynyrd" T="Free Bird (Live)" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="130" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="M.O.P." T="Ante Up (Robbing-Hoodz Theory)" type="SONG" mergeable="true" del="false">
+  <compo A="M.O.P." T="Ante Up" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="131" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Madlib" T="Slim's Return" type="SONG" mergeable="true" del="false">
@@ -688,7 +688,7 @@
   <compo A="The Lemon Drops" T="I Live in the Springtime" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="229" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="The Lovin' Spoonful" T="Summer in the City" type="SONG" mergeable="true" del="false">
+  <compo A="The Lovin' Spoonful" T="Summer In The City" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="230" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="The Mamas and the Papas" T="California Dreamin'" type="SONG" mergeable="true" del="false">
@@ -2779,7 +2779,7 @@
   <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="928" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Johnny Cash" T="Folsom Prison Blues (Live at Folsom Prison)" type="SONG" mergeable="false" del="true">
+  <compo A="Johnny Cash" T="Folsom Prison Blues" type="SONG" mergeable="false" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="930" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Underground Resistance" T="Jupiter Jazz" type="SONG" mergeable="true" del="false">
