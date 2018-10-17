@@ -91,6 +91,10 @@ public class ImportPanel extends JPanel {
 	 * String to remove from import file.
 	 */
 	private JTextField characterToRemove;
+	/**
+	 * Maximum length of a line when cleaning.
+	 */
+	private JTextField maxLengthClean;
 
 	private JTextArea resultLabel = new JTextArea();
 
@@ -499,6 +503,7 @@ public class ImportPanel extends JPanel {
 		isCompleteDirectoryPanel.add(isCompleteDirectory);
 		thirdLine.add(isCompleteDirectoryPanel);
 
+		// Clean Params
 		JPanel cleanBtnPanel = new JPanel();
 		cleanBtnPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(EtchedBorder.LOWERED),
 				"Paramètres de nettoyage: ", TitledBorder.LEFT, TitledBorder.ABOVE_TOP));
@@ -508,9 +513,21 @@ public class ImportPanel extends JPanel {
 		JLabel characterToRemoveLabel = new JLabel("Caractères à supprimer: ");
 		characterToRemove = new JTextField();
 		characterToRemove.setPreferredSize(new Dimension(40, 20));
+		characterToRemove.addFocusListener(PanelUtils.selectAll);
 		characterToRemovePanel.add(characterToRemoveLabel);
 		characterToRemovePanel.add(characterToRemove);
 		cleanBtnPanel.add(characterToRemovePanel);
+		// maxLengthClean
+		JPanel maxLengthCleanPanel = new JPanel();
+		maxLengthCleanPanel.setPreferredSize(new Dimension(120, PanelUtils.PANEL_HEIGHT));
+		JLabel maxLengthCleanLabel = PanelUtils.createJLabel(
+				"<html><body style='width: 100%'>Longueur maximale d'une ligne valide: </body></html>", 100);
+		maxLengthClean = new JTextField("120");
+		maxLengthClean.setPreferredSize(new Dimension(40, 20));
+		maxLengthClean.addFocusListener(PanelUtils.selectAll);
+		maxLengthCleanPanel.add(maxLengthCleanLabel);
+		maxLengthCleanPanel.add(maxLengthClean);
+		cleanBtnPanel.add(maxLengthCleanPanel);
 		// isBefore
 		JPanel isBeforePanel = new JPanel();
 		isBeforePanel.setPreferredSize(new Dimension(100, PanelUtils.PANEL_HEIGHT));
@@ -749,6 +766,7 @@ public class ImportPanel extends JPanel {
 		lastL2.setText("");
 		separator.setText("");
 		characterToRemove.setText("");
+		maxLengthClean.setText("120");
 		isBefore.setSelected(true);
 		reverseArtist.setSelected(false);
 		removeParenthese.setSelected(false);
@@ -925,20 +943,32 @@ public class ImportPanel extends JPanel {
 	 * Traitment lorsqu'on veut nettoyer un fichier txt.
 	 */
 	private void cleanFileAction() {
-		LOG.debug("Start cleanFile");
-		result = new LinkedList<>(Arrays.asList("Sélectionnez un fichier"));
-		if (file != null) {
-			result = new LinkedList<>(Arrays.asList(file.getName() + " nettoyé !"));
-			try {
-				CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText(),
-						isBefore.isSelected());
-			} catch (IOException e) {
-				LOG.error("Erreur lors du nettoyage du fichier: " + file.getAbsolutePath(), e);
-				result = new LinkedList<>(Arrays.asList(e.toString()));
+		LOG.debug("Start cleanFileAction");
+		String txt = "";
+		if (file == null) {
+			txt = "Sélectionnez un fichier !";
+		} else {
+			String text = maxLengthClean.getText();
+			if (StringUtils.isBlank(text)) {
+				txt = "Pas de valeur pour la taille maximale !";
+			} else if (!StringUtils.isNumeric(text)) {
+				txt = "La valeur entrée pour la taille maximale n'est pas un nombre !";
+			} else if (Integer.parseInt(text) < 0) {
+				txt = "La valeur entrée pour la taille maximale est négative !";
+			} else {
+				try {
+					CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText(),
+							Integer.parseInt(text), isBefore.isSelected());
+					txt = file.getName() + " nettoyé !";
+				} catch (IOException e) {
+					LOG.error("Erreur lors du nettoyage du fichier: " + file.getAbsolutePath(), e);
+					txt = e.toString();
+				}
 			}
 		}
+		result = new LinkedList<>(Arrays.asList(txt));
 		miseEnFormeResultLabel(result);
-		LOG.debug("End cleanFile");
+		LOG.debug("End cleanFileAction");
 	}
 
 	public JButton getImportFile() {
