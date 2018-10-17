@@ -20,7 +20,7 @@ public class Fichier implements Serializable {
 
 	private String fileName;
 
-	private Integer publishYear;
+	private int publishYear;
 
 	private Cat categorie;
 
@@ -62,14 +62,14 @@ public class Fichier implements Serializable {
 	/**
 	 * @return the publishYear
 	 */
-	public Integer getPublishYear() {
+	public int getPublishYear() {
 		return this.publishYear;
 	}
 
 	/**
 	 * @param publishYear the publishYear to set
 	 */
-	public void setPublishYear(Integer publishYear) {
+	public void setPublishYear(int publishYear) {
 		this.publishYear = publishYear;
 	}
 
