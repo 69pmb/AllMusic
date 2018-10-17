@@ -14,7 +14,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -36,7 +35,6 @@ import pmb.music.AllMusic.utils.FichierUtils;
 public class CleanFile {
 
 	private static final Logger LOG = Logger.getLogger(CleanFile.class);
-	private static final int MAXIMUM_LENGTH_LINE = 120;
 
 	private CleanFile() {
 	}
@@ -47,21 +45,16 @@ public class CleanFile {
 	 * 
 	 * @param file le fichier à nettoyer
 	 * @param isSorted si le fichier est trié
-	 * @param sep le séparateur du fichier
+	 * @param separator le séparateur du fichier
 	 * @param characterToRemove les caractères à supprimer
+	 * @param maxLength maximum length for a line
 	 * @param isBefore
 	 * @return un nouveau fichier nettoyé
 	 * @throws IOException
 	 */
-	public static File clearFile(File file, boolean isSorted, String sep, String characterToRemove, boolean isBefore)
-			throws IOException {
+	public static File clearFile(File file, boolean isSorted, String separator, String characterToRemove,
+			Integer maxLength, boolean isBefore) throws IOException {
 		LOG.debug("Start clearFile");
-		// List<String> sepAsList = new
-		// LinkedList<>(Arrays.asList(Constant.getSeparators()));
-		List<String> sepAsList = new LinkedList<>();
-		if (StringUtils.isNotBlank(sep)) {
-			sepAsList.add(sep);
-		}
 		String line = "";
 		String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS
 				+ StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - Cleaned."
@@ -78,8 +71,8 @@ public class CleanFile {
 					// Si le fichier est trié, on ne garde que les lignes commencant par un chiffre
 					isDigit = StringUtils.isNumeric(StringUtils.substring(line, 0, 1));
 				}
-				if (isDigit && line.length() < MAXIMUM_LENGTH_LINE) {
-					writesLineIfContainsSepAndRemovesChar(characterToRemove, sepAsList, line, writer, isBefore);
+				if (isDigit && line.length() < maxLength) {
+					writesLineIfContainsSepAndRemovesChar(characterToRemove, separator, line, writer, isBefore);
 				}
 				// i++;
 			}
@@ -89,19 +82,16 @@ public class CleanFile {
 		return new File(exitFile);
 	}
 
-	private static void writesLineIfContainsSepAndRemovesChar(String characterToRemove, List<String> sepAsList,
-			String line, BufferedWriter writer, boolean isBefore) throws IOException {
+	private static void writesLineIfContainsSepAndRemovesChar(String characterToRemove, String separator, String line,
+			BufferedWriter writer, boolean isBefore) throws IOException {
 		String newLine = line;
-		for (String separator : sepAsList) {
-			if (StringUtils.containsIgnoreCase(newLine, separator)) {
-				if (StringUtils.containsIgnoreCase(newLine, characterToRemove) && isBefore) {
-					newLine = StringUtils.substringAfter(newLine, characterToRemove);
-				} else if (StringUtils.containsIgnoreCase(newLine, characterToRemove) && !isBefore) {
-					newLine = StringUtils.substringBeforeLast(newLine, characterToRemove);
-				}
-				writer.append(newLine).append(Constant.NEW_LINE);
-				break;
+		if (StringUtils.isBlank(separator) || StringUtils.containsIgnoreCase(newLine, separator)) {
+			if (StringUtils.containsIgnoreCase(newLine, characterToRemove) && isBefore) {
+				newLine = StringUtils.substringAfter(newLine, characterToRemove);
+			} else if (StringUtils.containsIgnoreCase(newLine, characterToRemove) && !isBefore) {
+				newLine = StringUtils.substringBeforeLast(newLine, characterToRemove);
 			}
+			writer.append(newLine).append(Constant.NEW_LINE);
 		}
 	}
 
