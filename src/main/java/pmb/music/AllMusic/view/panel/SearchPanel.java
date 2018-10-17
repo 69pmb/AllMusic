@@ -14,7 +14,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -53,7 +52,6 @@ import org.apache.log4j.Logger;
 import ca.odell.glazedlists.GlazedLists;
 import ca.odell.glazedlists.matchers.TextMatcherEditor;
 import ca.odell.glazedlists.swing.AutoCompleteSupport;
-import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -71,7 +69,6 @@ import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
-import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
 import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 
@@ -582,95 +579,17 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		LOG.debug("End cleanAction");
 	}
 
+	@Override
 	public void modifyCompositionAction(Vector<String> selectedRow) {
-		LOG.debug("Start modifAction");
-		artistPanel.interruptUpdateArtist(true);
-		String label = "Élément modifié";
-		Composition toModif;
-		List<Composition> importXML;
 		if (model.getSelected().size() > 1) {
 			String msg = "Trop d'éléments sélectionnés";
 			deleteLabel.setText(msg);
 			LOG.debug(msg);
-			return;
 		} else {
-			importXML = ImportXML.importXML(Constant.getFinalFilePath());
-			try {
-				// On récupère la composition à modifier
-				toModif = CompositionUtils.findByArtistTitreAndType(compoResult, selectedRow.get(INDEX_ARTIST),
-						selectedRow.get(INDEX_TITRE), selectedRow.get(INDEX_TYPE), true);
-			} catch (MyException e1) {
-				String log = "Erreur dans modifAction, impossible de trouver la compo à modifier";
-				LOG.error(log, e1);
-				deleteLabel.setText(log + e1);
-				return;
-			}
+			PanelUtils.modificationCompositionAction(artistPanel, selectedRow, compoResult, INDEX_ARTIST, INDEX_TITRE,
+					INDEX_TYPE, INDEX_DELETED, deleteLabel);
+			updateTable();
 		}
-		int indexOfXml = importXML.indexOf(CompositionUtils.findByFile(importXML, toModif.getFiles().get(0),
-				Optional.of(selectedRow.get(INDEX_ARTIST)), Optional.of(selectedRow.get(INDEX_TITRE))).get());
-		int indexOfResult = SearchUtils.indexOf(compoResult, toModif);
-		// Lancement de la popup de modification
-		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
-				new Dimension(950, 150), selectedRow, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE, INDEX_DELETED);
-		md.showModifyCompositionDialog();
-		if (md.isSendData()) {
-			// On recupère la compo si elle a bien été modifiée
-			LOG.debug("Compo modifiée");
-			selectedRow = md.getCompo();
-		} else {
-			LOG.debug("Aucune modification");
-			return;
-		}
-
-		// Modification du fichier final
-		boolean isDeleted = false;
-		toModif.setArtist(selectedRow.get(INDEX_ARTIST));
-		toModif.setTitre(selectedRow.get(INDEX_TITRE));
-		toModif.setRecordType(RecordType.valueOf(selectedRow.get(INDEX_TYPE)));
-		toModif.setDeleted((Boolean.valueOf(selectedRow.get(INDEX_DELETED))));
-
-		importXML.remove(indexOfXml);
-		compoResult.remove(indexOfResult);
-		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);
-		if (compoExist == null) {
-			LOG.debug("Pas de regroupement");
-			importXML.add(toModif);
-			compoResult.add(toModif);
-		} else {
-			LOG.debug("La compo existe déjà, on regroupe");
-			compoExist.getFiles().addAll(toModif.getFiles());
-			isDeleted = compoExist.isDeleted() || toModif.isDeleted();
-			// Liste des compositions affichées
-			Composition compoExistResult = CompositionUtils.compoExist(compoResult, toModif);
-			if (compoExistResult != null) {
-				// La compo apparait bien dans les resultats de recherche
-				compoExistResult.getFiles().addAll(toModif.getFiles());
-				compoExistResult.setDeleted(isDeleted);
-			}
-		}
-		try {
-			ExportXML.exportXML(importXML, Constant.getFinalFile());
-			artistPanel.updateArtistPanel();
-		} catch (IOException e1) {
-			String log = "Erreur lors de l'export du fichier final !!";
-			LOG.error(log, e1);
-			label = log;
-		}
-
-		// On modifier les fichiers xml en conséquence
-		try {
-			toModif.setDeleted(isDeleted);
-			CompositionUtils.modifyCompositionsInFiles(toModif, selectedRow.get(INDEX_ARTIST),
-					selectedRow.get(INDEX_TITRE), selectedRow.get(INDEX_TYPE), isDeleted);
-		} catch (MyException e1) {
-			String log = "Erreur lors de la modification d'une composition";
-			LOG.error(log, e1);
-			deleteLabel.setText(log + e1);
-			return;
-		}
-		deleteLabel.setText(label);
-		updateTable();
-		LOG.debug("End modifAction");
 	}
 
 	private void mouseClickAction(MouseEvent e) {
