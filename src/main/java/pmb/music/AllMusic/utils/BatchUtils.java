@@ -18,6 +18,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.IntSummaryStatistics;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -95,10 +96,14 @@ public class BatchUtils {
 			String s = composition.getArtist() + composition.getTitre();
 			return s.length();
 		}).collect(Collectors.toList());
-		addLine(result, "Min: " + size.stream().mapToInt(Integer::intValue).min().getAsInt(), true);
-		addLine(result, "Max: " + size.stream().mapToInt(Integer::intValue).max().getAsInt(), true);
-		addLine(result, "Moyenne: " + size.stream().mapToInt(Integer::intValue).average().getAsDouble(), true);
-		addLine(result, "Summary: " + size.stream().mapToInt(Integer::intValue).summaryStatistics(), true);
+		IntSummaryStatistics summaryStatistics = size.stream().mapToInt(Integer::intValue).summaryStatistics();
+		addLine(result, "Min: " + summaryStatistics.getMin(), true);
+		addLine(result, "Max: " + summaryStatistics.getMax(), true);
+		addLine(result, "Moyenne: " + summaryStatistics.getAverage(), true);
+		addLine(result, "Mediane: " + MiscUtils.median(size), true);
+		addLine(result, "Ecart-Type: " + MiscUtils.calculateSD(size, summaryStatistics.getAverage(),
+				(int) summaryStatistics.getSum(), summaryStatistics.getCount()), true);
+		addLine(result, "Summary: " + summaryStatistics, true);
 
 		addLine(result, "Statistiques sur les tops annuels: ", true);
 		Map<Integer, Integer> songs = importXML.stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
