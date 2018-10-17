@@ -14,7 +14,6 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Map;
-import java.util.OptionalDouble;
 import java.util.Vector;
 
 import org.apache.commons.lang3.StringUtils;
@@ -169,11 +168,11 @@ public class MiscUtils {
 	 * @param count
 	 * @return
 	 */
-	public static double calculateSD(List<Integer> numArray, OptionalDouble average, int sum, long count) {
+	public static double calculateSD(List<Integer> numArray, double average, int sum, long count) {
 		double standardDeviation = 0.0;
 
 		for (double num : numArray) {
-			standardDeviation += Math.pow(num - average.getAsDouble(), 2);
+			standardDeviation += Math.pow(num - average, 2);
 		}
 
 		return Math.sqrt(standardDeviation / count);
