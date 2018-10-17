@@ -41,10 +41,12 @@ import org.kordamp.ikonli.swing.FontIcon;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Composition;
+import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
 
@@ -301,6 +303,106 @@ public class PanelUtils {
 		}
 		label.setText(selected.size() + " élément(s) supprimé(s)");
 		LOG.debug("End deleteCompositionAction");
+	}
+
+	/**
+	 * Launchs a dialog to modify the selected composition.
+	 * 
+	 * @param artistPanel to stop calculation
+	 * @param selectedRow the selected composition
+	 * @param compositionList the composition list displayed
+	 * @param indexArtist index of the artist in the vector
+	 * @param indexTitre index of the title in the vector
+	 * @param indexType index of the record type in the vector
+	 * @param indexDeleted index of the deleted boolean in the vector
+	 * @param resultLabel result of the process
+	 */
+	public static void modificationCompositionAction(final ArtistPanel artistPanel, Vector<String> selectedRow,
+			List<Composition> compositionList, int indexArtist, int indexTitre, int indexType, int indexDeleted,
+			JLabel resultLabel) {
+		LOG.debug("Start modificationCompositionAction");
+		artistPanel.interruptUpdateArtist(true);
+		String label = "Élément modifié";
+		Composition toModif;
+		List<Composition> importXML;
+		importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		try {
+			// On récupère la composition à modifier
+			toModif = CompositionUtils.findByArtistTitreAndType(compositionList, selectedRow.get(indexArtist),
+					selectedRow.get(indexTitre), selectedRow.get(indexType), true);
+		} catch (MyException e1) {
+			String log = "Erreur dans modificationCompositionAction, impossible de trouver la compo à modifier";
+			LOG.error(log, e1);
+			resultLabel.setText(log + e1);
+			return;
+		}
+		int indexOfXml = importXML.indexOf(CompositionUtils.findByFile(importXML, toModif.getFiles().get(0),
+				Optional.of(selectedRow.get(indexArtist)), Optional.of(selectedRow.get(indexTitre))).get());
+		int indexOfResult = SearchUtils.indexOf(compositionList, toModif);
+		// Lancement de la popup de modification
+		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
+				new Dimension(950, 150), selectedRow, indexArtist, indexTitre, indexType, indexDeleted);
+		md.showModifyCompositionDialog();
+		if (md.isSendData()) {
+			// On recupère la compo si elle a bien été modifiée
+			LOG.debug("Composition modifiée");
+			selectedRow = md.getCompo();
+		} else {
+			LOG.debug("Aucune modification");
+			return;
+		}
+
+		// On modifie la composition
+		toModif.setArtist(selectedRow.get(indexArtist));
+		toModif.setTitre(selectedRow.get(indexTitre));
+		toModif.setRecordType(RecordType.valueOf(selectedRow.get(indexType)));
+		toModif.setDeleted(Boolean.valueOf(selectedRow.get(indexDeleted)));
+
+		// Modification du fichier final
+		importXML.remove(indexOfXml);
+		compositionList.remove(indexOfResult);
+		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);
+		boolean isDeleted = false;
+		if (compoExist == null) {
+			LOG.debug("Pas de regroupement");
+			importXML.add(toModif);
+			compositionList.add(toModif);
+		} else {
+			LOG.debug("La compo existe déjà, on regroupe");
+			// regroupement avec une autre composition
+			isDeleted = compoExist.isDeleted() || toModif.isDeleted();
+			compoExist.getFiles().addAll(toModif.getFiles());
+			compoExist.setDeleted(isDeleted);
+			toModif.setDeleted(isDeleted);
+			// Liste des compositions affichées
+			Composition compoExistResult = CompositionUtils.compoExist(compositionList, toModif);
+			if (compoExistResult != null) {
+				// La compo apparait bien dans les resultats de recherche
+				compoExistResult.getFiles().addAll(toModif.getFiles());
+				compoExistResult.setDeleted(isDeleted);
+			}
+		}
+		try {
+			ExportXML.exportXML(importXML, Constant.getFinalFile());
+			artistPanel.updateArtistPanel();
+		} catch (IOException e1) {
+			String log = "Erreur lors de l'export du fichier final !!";
+			LOG.error(log, e1);
+			label = log;
+		}
+
+		// On modifie les fichiers xml en conséquence
+		try {
+			CompositionUtils.modifyCompositionsInFiles(toModif, selectedRow.get(indexArtist),
+					selectedRow.get(indexTitre), selectedRow.get(indexType), isDeleted);
+		} catch (MyException e1) {
+			String log = "Erreur lors de la modification d'une composition";
+			LOG.error(log, e1);
+			resultLabel.setText(log + e1);
+			return;
+		}
+		resultLabel.setText(label);
+		LOG.debug("End modificationCompositionAction");
 	}
 
 	/**
