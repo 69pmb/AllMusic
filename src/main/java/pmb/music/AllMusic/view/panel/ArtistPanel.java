@@ -361,7 +361,8 @@ public class ArtistPanel extends JPanel {
 			return;
 		}
 		if (deleteJsonFile) {
-			if (!new File(Constant.ARTIST_PANEL_RESULT_FILE).delete()) {
+			File artist = new File(Constant.ARTIST_PANEL_RESULT_FILE);
+			if (artist.exists() && !artist.delete()) {
 				LOG.warn(Constant.ARTIST_PANEL_RESULT_FILE + " n'a pas pu etre supprimé");
 			}
 		}
@@ -429,7 +430,7 @@ public class ArtistPanel extends JPanel {
 		}
 		if (!deleted.isSelected()) {
 			table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
-			table.removeColumn(table.getColumnModel().getColumn(INDEX_SCORE_DELETED-1));
+			table.removeColumn(table.getColumnModel().getColumn(INDEX_SCORE_DELETED - 1));
 		}
 		PanelUtils.colRenderer(table, true, null, null);
 		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
