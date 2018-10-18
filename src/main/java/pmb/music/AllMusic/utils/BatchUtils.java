@@ -10,7 +10,7 @@ import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.text.NumberFormat;
+import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -383,6 +383,7 @@ public class BatchUtils {
 		List<List<String>> result = new ArrayList<>();
 		final AtomicInteger count = new AtomicInteger(0);
 		final BigDecimal total = new BigDecimal(nomFichier.size());
+		DecimalFormat decimalFormat = new Constant().getDecimalFormat();
 		nomFichier.parallelStream().forEach((name) -> {
 			List<String> row = new ArrayList<>();
 			Map<String, String> criteria = new HashMap<>();
@@ -393,7 +394,7 @@ public class BatchUtils {
 			row.add(xml.get(0).getRecordType().toString());
 			row.add(xml.get(0).getFiles().stream().filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), name))
 					.findFirst().get().getCategorie().toString());
-			row.add(NumberFormat.getNumberInstance()
+			row.add(decimalFormat
 					.format(xml.stream().map(c -> c.getFiles().size()).mapToInt(x -> x).average().getAsDouble()));
 			result.add(row);
 			if (count.incrementAndGet() % 10 == 0) {
@@ -403,7 +404,8 @@ public class BatchUtils {
 						count.get() == 10 ? false : true);
 			}
 		});
-		CsvFile.exportCsv("Average", result, new SortKey(3, SortOrder.ASCENDING), header);
+		CsvFile.exportCsv("Average", result,
+				Arrays.asList(new SortKey(3, SortOrder.ASCENDING), new SortKey(0, SortOrder.ASCENDING)), header);
 		LOG.debug("End averageOfFilesByFiles");
 		addLine(text, "End AverageOfFilesByFiles", true);
 		return writeInFile(text, Constant.BATCH_FILE);
@@ -412,6 +414,7 @@ public class BatchUtils {
 	public static String weirdFileSize() {
 		LOG.debug("Start weirdFileSize");
 		StringBuilder text = new StringBuilder();
+		DecimalFormat decimalFormat = new Constant().getDecimalFormat();
 		addLine(text, "Start weirdFileSize", true);
 		// Moyenne par fichier du nombre de fichiers de chaque composition
 		List<String> nomFichier = ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getFiles)
@@ -428,13 +431,13 @@ public class BatchUtils {
 				List<String> row = new ArrayList<>();
 				row.add(name);
 				row.add(xml.get(0).getRecordType().toString());
-				row.add(NumberFormat.getNumberInstance().format(realSize));
-				row.add(NumberFormat.getNumberInstance().format(theoricSize));
-				row.add(NumberFormat.getNumberInstance().format(ratio.doubleValue()));
+				row.add(decimalFormat.format(realSize));
+				row.add(decimalFormat.format(theoricSize));
+				row.add(decimalFormat.format(ratio.doubleValue()));
 				result.add(row);
 			}
 		});
-		CsvFile.exportCsv("Weird", result, new SortKey(4, SortOrder.ASCENDING), header);
+		CsvFile.exportCsv("Weird", result, Arrays.asList(new SortKey(4, SortOrder.ASCENDING)), header);
 		LOG.debug("End weirdOfFilesByFiles");
 		addLine(text, "End weirdFileSize", true);
 		return writeInFile(text, Constant.BATCH_FILE);
@@ -937,7 +940,7 @@ public class BatchUtils {
 		String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Supprimé",
 				"Year: " + year + " Type: " + type.toString() };
 		return CsvFile.exportCsv(fileName + " - " + year, MiscUtils.convertVectorToList(occurenceList),
-				new SortKey(3, SortOrder.DESCENDING), csvHeader);
+				Arrays.asList(new SortKey(3, SortOrder.DESCENDING), new SortKey(4, SortOrder.DESCENDING)), csvHeader);
 	}
 
 	/**
@@ -983,8 +986,8 @@ public class BatchUtils {
 		}
 		String[] csvHeader = { "Artiste", "Titre", "Type", "Score", "Supprimé",
 				"Year: " + year + " Type: " + type.toString() };
-		return CsvFile.exportCsv(fileName + " - " + year, occurenceList, new SortKey(3, SortOrder.DESCENDING),
-				csvHeader);
+		return CsvFile.exportCsv(fileName + " - " + year, occurenceList,
+				Arrays.asList(new SortKey(3, SortOrder.DESCENDING)), csvHeader);
 	}
 
 	/**
@@ -1013,7 +1016,7 @@ public class BatchUtils {
 		String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons", "Score Total",
 				"Score Album", "Score Chanson", "Year: " + year };
 		return CsvFile.exportCsv("Top Occurence - " + year, MiscUtils.convertVectorToList(occurenceList),
-				new SortKey(1, SortOrder.DESCENDING), csvHeader);
+				Arrays.asList(new SortKey(1, SortOrder.DESCENDING), new SortKey(4, SortOrder.DESCENDING)), csvHeader);
 	}
 
 	private static String writeInFile(StringBuilder sb, String fileName) {

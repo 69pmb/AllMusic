@@ -3,15 +3,14 @@ package pmb.music.AllMusic.file;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.log4j.Logger;
 
 import com.opencsv.CSVWriter;
@@ -35,14 +34,14 @@ public class CsvFile {
 	 * 
 	 * @param filename the name of the csv file
 	 * @param csv the data to save
-	 * @param sortKey {@link SortKey} le tri du tableau si necessaire
+	 * @param sortKey {@link SortKey} list de tri du tableau si necessaire
 	 * @param header the header of the file
 	 * @return le full name of the saved file
 	 */
-	public static String exportCsv(String filename, List<List<String>> csv, SortKey sortKey, String[] header) {
+	public static String exportCsv(String filename, List<List<String>> csv, List<SortKey> sortKeys, String[] header) {
 		LOG.debug("Start exportCsv");
-		if (sortKey != null) {
-			sortCsvList(csv, sortKey);
+		if (sortKeys != null) {
+			sortCsvList(csv, sortKeys);
 		}
 		String name = Constant.getOutputDir() + filename + Constant.CSV_EXTENSION;
 		// Writing
@@ -60,40 +59,32 @@ public class CsvFile {
 		return name;
 	}
 
-	private static void sortCsvList(List<List<String>> csv, SortKey sortKey) {
+	private static void sortCsvList(List<List<String>> csv, List<SortKey> sortKeys) {
+		LOG.debug("Start sortCsvList");
 		if (!csv.isEmpty()) {
 			LOG.debug("Sorting");
-			// Sorting
-			List<String> list = csv.get(0);
-			List<Integer> percentColumn = list.stream().filter(item -> StringUtils.contains(item, "%"))
-					.map(i -> list.indexOf(i)).collect(Collectors.toList());
-			List<Integer> doubleColumn = new ArrayList<>();
-			for (int i = 0; i < list.size(); i++) {
-				String item = list.get(i);
-				try {
-					Double.parseDouble(StringUtils.replaceAll(item, ",", "."));
-				} catch (NumberFormatException e) {
-					continue;
+			Comparator<List<String>> comparator = null;
+			for (SortKey sortKey : sortKeys) {
+				int column = sortKey.getColumn();
+				Comparator<List<String>> sort = null;
+				if (NumberUtils.isCreatable(csv.get(0).get(column))) {
+					sort = (c1, c2) -> MiscUtils.compareDouble.compare(c1.get(column), c2.get(column));
+				} else if (StringUtils.contains(csv.get(0).get(column), "%")) {
+					sort = (c1, c2) -> MiscUtils.comparePercentage.compare(c1.get(column), c2.get(column));
+				} else if (column >= 0) {
+					sort = (c1, c2) -> c1.get(column).compareToIgnoreCase(c2.get(column));
 				}
-				doubleColumn.add(i);
-			}
-			int column = sortKey.getColumn();
-			Comparator<List<String>> sort = null;
-			if (doubleColumn.contains(column)) {
-				sort = (c1, c2) -> Double.valueOf(StringUtils.replaceAll(c1.get(column), ",", "."))
-						.compareTo(Double.valueOf(StringUtils.replaceAll(c2.get(column), ",", ".")));
-			} else if (percentColumn.contains(column)) {
-				sort = (c1, c2) -> MiscUtils.comparePercentage.compare(c1.get(column), c2.get(column));
-			} else if (column >= 0) {
-				sort = (c1, c2) -> c1.get(column).compareToIgnoreCase(c2.get(column));
-			}
-			if (sort != null) {
-				if (SortOrder.DESCENDING.equals(sortKey.getSortOrder())) {
-					csv.sort(sort.reversed());
+				if (sort != null && SortOrder.DESCENDING.equals(sortKey.getSortOrder())) {
+					sort = sort.reversed();
+				}
+				if (comparator == null) {
+					comparator = sort;
 				} else {
-					csv.sort(sort);
+					comparator = comparator.thenComparing(sort);
 				}
 			}
+			csv.sort(comparator);
 		}
+		LOG.debug("End sortCsvList");
 	}
 }

@@ -37,6 +37,11 @@ public class MiscUtils {
 						Double.parseDouble(StringUtils.replaceAll(StringUtils.substringBefore(s2, "%"), ",", "."))));
 	};
 
+	public static Comparator<String> compareDouble = (String s1, String s2) -> {
+		return new Double(Double.parseDouble(StringUtils.replaceAll(s1, ",", ".")))
+				.compareTo(new Double(Double.parseDouble(StringUtils.replaceAll(s2, ",", "."))));
+	};
+
 	private MiscUtils() {
 	}
 
