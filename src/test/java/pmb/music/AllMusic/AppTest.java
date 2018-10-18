@@ -462,7 +462,7 @@ public class AppTest {
 		LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
 		LOG.debug("Stats: " + yearList.stream().mapToInt(i -> i).summaryStatistics());
 		LOG.debug("Medianne: " + MiscUtils.median(yearList));
-		LOG.debug("SD: " + MiscUtils.calculateSD(yearList, yearList.stream().mapToInt(i -> i).average(),
+		LOG.debug("SD: " + MiscUtils.calculateSD(yearList, yearList.stream().mapToInt(i -> i).average().getAsDouble(),
 				yearList.stream().mapToInt(i -> i).sum(), yearList.stream().mapToInt(i -> i).count()));
 	}
 
@@ -488,8 +488,8 @@ public class AppTest {
 				result.add(vector);
 			}
 		}
-		return CsvFile.exportCsv(fileName, MiscUtils.convertVectorToList(result), new SortKey(3, SortOrder.DESCENDING),
-				null);
+		return CsvFile.exportCsv(fileName, MiscUtils.convertVectorToList(result),
+				Arrays.asList(new SortKey(3, SortOrder.DESCENDING)), null);
 	}
 
 	public static void sortedFilesByYear() {
