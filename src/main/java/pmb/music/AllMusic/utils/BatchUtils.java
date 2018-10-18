@@ -1013,10 +1013,10 @@ public class BatchUtils {
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
-		String[] csvHeader = { "Artiste", "Nombre d'occurences totales", "Albums", "Chansons", "Score Total",
-				"Score Album", "Score Chanson", "Year: " + year };
+		String[] csvHeader = { "Artiste", "Nombre d'Occurrences", "Albums", "Chansons", "% De Supprimés", "Score Total",
+				"Score Album", "Score Chanson", "Score Supprimés", "Year: " + year };
 		return CsvFile.exportCsv("Top Occurence - " + year, MiscUtils.convertVectorToList(occurenceList),
-				Arrays.asList(new SortKey(1, SortOrder.DESCENDING), new SortKey(4, SortOrder.DESCENDING)), csvHeader);
+				Arrays.asList(new SortKey(1, SortOrder.DESCENDING), new SortKey(5, SortOrder.DESCENDING)), csvHeader);
 	}
 
 	private static String writeInFile(StringBuilder sb, String fileName) {
