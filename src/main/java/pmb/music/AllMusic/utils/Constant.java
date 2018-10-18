@@ -4,6 +4,7 @@
 package pmb.music.AllMusic.utils;
 
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.regex.Pattern;
 
@@ -141,8 +142,10 @@ public class Constant {
 	private final SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
 	private final SimpleDateFormat sdfHistory = new SimpleDateFormat("dd-MM-yyyy HH-mm");
-	
+
 	private final SimpleDateFormat sdfDate = new SimpleDateFormat("dd/MM/yyyy");
+
+	private final DecimalFormat decimalFormat = new DecimalFormat("#0.00");
 
 	public static final String ONGLET_IMPORT = "Import";
 
@@ -159,7 +162,7 @@ public class Constant {
 	public static final String YEAR_FOLDER = "Year";
 
 	public static final String SONG_FOLDER = "Song";
-	
+
 	public static final String ARTIST_PANEL_RESULT_FILE = Constant.getOutputDir() + "artist.json";
 
 	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
@@ -263,5 +266,9 @@ public class Constant {
 
 	public static String[] getForbiddenCharactersFilename() {
 		return FORBIDDEN_CHARACTERS_FILENAME;
+	}
+
+	public DecimalFormat getDecimalFormat() {
+		return decimalFormat;
 	}
 }
