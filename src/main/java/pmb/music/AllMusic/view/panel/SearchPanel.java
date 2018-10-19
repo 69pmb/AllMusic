@@ -126,17 +126,20 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	private CompoSearchPanelModel model;
 	private int selectedRow = -1;
 	private ArtistPanel artistPanel;
+	private FichierPanel fichierPanel;
 	private CompositionPopupMenu popup;
 
 	/**
 	 * Génère le panel search.
 	 * 
 	 * @param artist le panel artiste
+	 * @param fichierPanel
 	 */
-	public SearchPanel(final ArtistPanel artist) {
+	public SearchPanel(final ArtistPanel artist, FichierPanel fichierPanel) {
 		super();
 		LOG.debug("Start SearchPanel");
 		this.artistPanel = artist;
+		this.fichierPanel = fichierPanel;
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
 		JPanel header = new JPanel();
@@ -192,8 +195,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		JButton delete = PanelUtils.createJButton("Supprimer les compositions sélectionnées", 300,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(artistPanel, compoResult, model.getSelected(), deleteLabel, INDEX_ARTIST,
-					INDEX_TITRE, INDEX_TYPE);
+			PanelUtils.deleteCompositionAction(artistPanel, fichierPanel, compoResult, model.getSelected(), deleteLabel,
+					INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE);
 			updateTable();
 		});
 		top.add(delete);
@@ -587,8 +590,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			deleteLabel.setText(msg);
 			LOG.debug(msg);
 		} else {
-			PanelUtils.modificationCompositionAction(artistPanel, selectedRow, compoResult, INDEX_ARTIST, INDEX_TITRE,
-					INDEX_TYPE, INDEX_DELETED, deleteLabel);
+			PanelUtils.modificationCompositionAction(artistPanel, fichierPanel, selectedRow, compoResult, INDEX_ARTIST,
+					INDEX_TITRE, INDEX_TYPE, INDEX_DELETED, deleteLabel);
 			updateTable();
 		}
 	}

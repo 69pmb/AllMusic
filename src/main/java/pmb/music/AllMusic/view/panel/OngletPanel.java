@@ -68,10 +68,10 @@ public class OngletPanel extends JPanel {
 		setAuthorList(importXML);
 
 		ArtistPanel artist = new ArtistPanel(withArtist);
-		ImportPanel importFile = new ImportPanel(artist);
-		SearchPanel search = new SearchPanel(artist);
 		FichierPanel fichier = new FichierPanel(artist);
-		BatchPanel batch = new BatchPanel();
+		ImportPanel importFile = new ImportPanel(artist, fichier);
+		SearchPanel search = new SearchPanel(artist, fichier);
+		BatchPanel batch = new BatchPanel(artist, fichier);
 
 		onglets.addTab(Constant.ONGLET_SEARCH, search);
 		if (withArtist) {
