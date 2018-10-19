@@ -50,6 +50,7 @@ import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
@@ -143,8 +144,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private SortOrder sortFichierOrder;
 	private int selectedFichierRow = -1;
 	private String selectedFichierName = "";
-	Map<Fichier, List<Composition>> data;
-	Map<Fichier, List<Composition>> searchResult;
+	private Map<Fichier, List<Composition>> data;
+	private Map<Fichier, List<Composition>> searchResult;
 	private FichierPopupMenu popupFichier;
 
 	// Composition componants
@@ -386,9 +387,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		JButton delete = PanelUtils.createJButton("<html>Supprimer les compositions sélectionnées</html>", 200,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(artistPanel, compositionList, compoModel.getSelected(), resultLabel,
-					INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE, INDEX_COMPO_TYPE);
-			updateCompoTable(compositionList, selectedFichierName);
+			PanelUtils.deleteCompositionAction(artistPanel, this, compositionList, compoModel.getSelected(),
+					resultLabel, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE, INDEX_COMPO_TYPE);
+			updateCompoTable(compositionList, selectedFichierName, false);
 		});
 		buttons.add(delete);
 		// CSV
@@ -623,7 +624,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			if (!deleted.isSelected()) {
 				compositionList = compositionList.stream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
 			}
-			updateCompoTable(compositionList, selectedFichierName);
+			updateCompoTable(compositionList, selectedFichierName, true);
 			LOG.debug("End left mouse, open");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			popupFichier.show(e);
@@ -718,9 +719,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	 */
 	public void modifyCompositionAction(Vector<String> selected) {
 		LOG.debug("Start modifyCompositionAction");
-		PanelUtils.modificationCompositionAction(artistPanel, selected, compositionList, INDEX_COMPO_ARTIST,
+		PanelUtils.modificationCompositionAction(artistPanel, this, selected, compositionList, INDEX_COMPO_ARTIST,
 				INDEX_COMPO_TITLE, INDEX_COMPO_TYPE, INDEX_COMPO_DELETED, resultLabel);
-		updateCompoTable(compositionList, selectedFichierName);
+		updateCompoTable(compositionList, selectedFichierName, false);
 		LOG.debug("End modifyCompositionAction");
 	}
 
@@ -804,7 +805,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		selectedFichierRow = -1;
 		fichieModel.fireTableDataChanged();
 		tableFiles.repaint();
-		updateCompoTable(new ArrayList<>(), null);
+		updateCompoTable(new ArrayList<>(), null, true);
 		LOG.debug("Start updateFileTable");
 	}
 
@@ -813,8 +814,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	 * 
 	 * @param compo la liste des compositions à afficher
 	 * @param selectedFile le fichier selectionné
+	 * @param scrollTop true scroll to the top of the table
 	 */
-	private void updateCompoTable(List<Composition> compo, String selectedFile) {
+	private void updateCompoTable(List<Composition> compo, String selectedFile, boolean scrollTop) {
 		LOG.debug("Start updateCompoTable");
 		compoModel.setRowCount(0);
 		if (selectedFile != null && !compo.isEmpty()) {
@@ -837,8 +839,17 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		tableCompo.getColumnModel().getColumn(INDEX_COMPO_LINE_NUMBER).setMaxWidth(30);
 		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DELETED));
 		tableCompo.repaint();
+		if (scrollTop) {
 		((JScrollPane) tableCompo.getParent().getParent()).getVerticalScrollBar().setValue(0);
+		}
 		LOG.debug("End updateCompoTable");
+	}
+
+	public void updateData() {
+		new Thread(() -> {
+			initData();
+			searchAction();
+		}).start();
 	}
 
 	private void resetAction() {
@@ -858,6 +869,27 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private void setTableSize(JPanel panel, int height) {
 		PanelUtils.setSize(panel, (int) parentSize.getWidth(),
 				Math.floorDiv(height * (int) parentSize.getHeight(), 100));
+	}
+
+	public List<Composition> getCompoListFromData(Fichier file) {
+		return getCompoList(file).getValue();
+	}
+
+	public void setCompoListFromData(Fichier file, List<Composition> list) {
+		getCompoList(file).setValue(list);
+	}
+
+	private Entry<Fichier, List<Composition>> getCompoList(Fichier file) {
+		return this.data.entrySet().stream()
+				.filter(e -> StringUtils.equalsIgnoreCase(e.getKey().getAuthor(), file.getAuthor())
+						&& StringUtils.equalsIgnoreCase(e.getKey().getFileName(), file.getFileName())
+						&& NumberUtils.compare(e.getKey().getPublishYear(), file.getPublishYear()) == 0
+						&& e.getKey().getSize().equals(file.getSize())
+						&& e.getKey().getRangeDateBegin().equals(file.getRangeDateBegin())
+						&& e.getKey().getRangeDateEnd().equals(file.getRangeDateEnd())
+						&& e.getKey().getCategorie().equals(file.getCategorie())
+						&& e.getKey().getSorted().equals(file.getSorted()))
+				.findFirst().get();
 	}
 
 	public JTable getTableFiles() {
