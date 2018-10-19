@@ -80,6 +80,11 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		} else if (value instanceof Date) {
 			value = new Constant().getSdfDttm().format(value);
 		}
+		if (value instanceof String && ((String) value).length() > 30) {
+			setToolTipText((String) value);
+		} else {
+			setToolTipText(null);
+		}
 		Component renderer = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
 		Color foreground;
 		Color background;
