@@ -57,6 +57,9 @@ public class BatchPanel extends JPanel {
 	private static final long serialVersionUID = -7659089306956006760L;
 	private static final Logger LOG = Logger.getLogger(BatchPanel.class);
 
+	private FichierPanel fichierPanel;
+	private ArtistPanel artistPanel;
+
 	/**
 	 * Les messages.
 	 */
@@ -68,9 +71,11 @@ public class BatchPanel extends JPanel {
 	 */
 	private JButton batchFileBtn;
 
-	public BatchPanel() {
+	public BatchPanel(ArtistPanel artistPanel, FichierPanel fichierPanel) {
 		super();
 		LOG.debug("Start BatchPanel");
+		this.artistPanel = artistPanel;
+		this.fichierPanel = fichierPanel;
 		this.setLayout(new GridLayout(13, 1));
 
 		findDuplicateComposition();
@@ -130,11 +135,16 @@ public class BatchPanel extends JPanel {
 		JButton fdcBtn = PanelUtils.createJButton("Go Compositions En Double", 200, Constant.ICON_GO);
 		fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
 		fdcBtn.addActionListener((ActionEvent arg0) -> {
+			LOG.debug("Start findDuplicateComposition");
 			displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
+				artistPanel.interruptUpdateArtist(true);
 				fileResult = BatchUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
 						fdcUnmergeable.isSelected(), fdcYear.isSelected());
+				fichierPanel.updateData();
+				artistPanel.updateArtistPanel();
 				displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
+				LOG.debug("End findDuplicateComposition");
 			}).start();
 		});
 		PanelUtils.addComponent(fdc, fdcBtn, Component.RIGHT_ALIGNMENT, 100);

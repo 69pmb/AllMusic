@@ -157,6 +157,9 @@ public class ImportPanel extends JPanel {
 	 */
 	private JButton importFile;
 
+	private FichierPanel fichierPanel;
+	private ArtistPanel artistPanel;
+
 	/**
 	 * Import params constants.
 	 */
@@ -180,11 +183,14 @@ public class ImportPanel extends JPanel {
 	/**
 	 * Construit l'onglet import.
 	 * 
-	 * @param artist l'onglet artiste
+	 * @param artistPanel l'onglet artiste
+	 * @param fichierPanel
 	 */
-	public ImportPanel(final ArtistPanel artist) {
+	public ImportPanel(ArtistPanel artistPanel, FichierPanel fichierPanel) {
 		super();
 		LOG.debug("Start ImportPanel");
+		this.artistPanel = artistPanel;
+		this.fichierPanel = fichierPanel;
 		explorePath = Constant.getMusicAbsDirectory();
 		this.setLayout(new GridLayout(6, 1));
 
@@ -193,7 +199,7 @@ public class ImportPanel extends JPanel {
 		// Insert tous les inputs
 		insertInputs();
 		// Insert les boutons du bas
-		insertBottomPanel(artist);
+		insertBottomPanel();
 
 		LOG.debug("End ImportPanel");
 	}
@@ -562,10 +568,8 @@ public class ImportPanel extends JPanel {
 
 	/**
 	 * Ajoute les boutons du bas de l'écran.
-	 * 
-	 * @param artist l'onglet artist
 	 */
-	private void insertBottomPanel(final ArtistPanel artist) {
+	private void insertBottomPanel() {
 		JPanel bottom = new JPanel();
 
 		// Import
@@ -601,7 +605,7 @@ public class ImportPanel extends JPanel {
 		fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
 		fusionFile.addActionListener((ActionEvent arg0) -> {
 			try {
-				fusionFilesAction(artist);
+				fusionFilesAction();
 			} catch (InterruptedException e) {
 				LOG.error("Erreur lors de la fusion des fichiers XML", e);
 				Thread.currentThread().interrupt();
@@ -895,14 +899,12 @@ public class ImportPanel extends JPanel {
 
 	/**
 	 * Traitement lorsqu'on fusionne tous les fichiers xml.
-	 * 
-	 * @param artist l'onglet artist
 	 * @throws InterruptedException
 	 */
-	private void fusionFilesAction(final ArtistPanel artist) throws InterruptedException {
+	private void fusionFilesAction() throws InterruptedException {
 		new Thread(() -> {
 			LOG.debug("Start fusionFilesAction");
-			artist.interruptUpdateArtist(true);
+			artistPanel.interruptUpdateArtist(true);
 			result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
 			try {
 				ImportXML.fusionFiles(Constant.getXmlPath(), resultLabel);
@@ -917,7 +919,8 @@ public class ImportPanel extends JPanel {
 				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
 			SwingUtilities.invokeLater(() -> {
-				artist.updateArtistPanel();
+				fichierPanel.updateData();
+				artistPanel.updateArtistPanel();
 				miseEnFormeResultLabel(result);
 			});
 			LOG.debug("End fusionFilesAction");

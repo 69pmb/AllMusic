@@ -69,7 +69,7 @@ public class ModifyCompositionDialog extends JDialog {
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-		this.compo = compo;
+		this.compo = new Vector<String>(compo);
 		this.setResizable(true);
 		initComposant();
 		this.getRootPane().registerKeyboardAction(e -> {
