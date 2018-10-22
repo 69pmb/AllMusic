@@ -393,7 +393,7 @@ public class BatchUtils {
 			row.add(name);
 			row.add(xml.get(0).getRecordType().toString());
 			row.add(xml.get(0).getFiles().stream().filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), name))
-					.findFirst().get().getCategorie().toString());
+					.findFirst().get().getCategorie().getCat());
 			row.add(decimalFormat
 					.format(xml.stream().map(c -> c.getFiles().size()).mapToInt(x -> x).average().getAsDouble()));
 			result.add(row);

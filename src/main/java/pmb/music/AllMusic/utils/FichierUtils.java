@@ -70,18 +70,23 @@ public class FichierUtils {
 			c.getFiles().parallelStream().forEach(f -> {
 				Vector<Object> v = new Vector<>();
 				if (lineNumber) {
+					// lineNumber
 					v.addElement(0);
 				}
 				List<Composition> importXML = ImportXML
 						.importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
+				Optional<Composition> optCompo = Optional.empty();
 				if (getComposition) {
-					Optional<Composition> optCompo = CompositionUtils.findByFile(importXML, f,
-							Optional.of(c.getArtist()), Optional.of(c.getTitre()));
+					// If fetch composition details
+					optCompo = CompositionUtils.findByFile(importXML, f, Optional.of(c.getArtist()),
+							Optional.of(c.getTitre()));
 					if (optCompo.isPresent()) {
+						// Artist
 						v.addElement(optCompo.get().getArtist());
+						// Titre
 						v.addElement(optCompo.get().getTitre());
+						// Type
 						v.addElement(optCompo.get().getRecordType().toString());
-						v.addElement(Boolean.valueOf(optCompo.get().isDeleted()).toString());
 					} else {
 						LOG.warn("No result when searching composition by its file: " + f + ", " + c.getArtist() + ", "
 								+ c.getTitre());
@@ -91,14 +96,18 @@ public class FichierUtils {
 						v.addElement(Boolean.valueOf(c.isDeleted()).toString());
 					}
 				}
+				// Author
 				v.addElement(f.getAuthor());
+				// File name
 				v.addElement(f.getFileName());
 				if (!getComposition) {
+					// Type
 					v.addElement(importXML.get(0).getRecordType().toString());
 				}
 				v.addElement(f.getPublishYear());
-				v.addElement(f.getCategorie().toString());
+				v.addElement(f.getCategorie().getCat());
 				v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
+				// % of deleted
 				BigDecimal numberOfDeleted = new BigDecimal(importXML.stream().reduce(0,
 						(sum, item) -> item.isDeleted() ? sum + 1 : sum, (sumA, sumB) -> sumA + sumB));
 				BigDecimal size = new BigDecimal(f.getSize() == 0 ? importXML.size() : f.getSize());
@@ -110,6 +119,8 @@ public class FichierUtils {
 				v.addElement(f.getSize());
 				if (getComposition) {
 					v.addElement(f.getClassement());
+					// Deleted
+					v.addElement(Boolean.valueOf(optCompo.get().isDeleted()).toString());
 				}
 				v.addElement(f.getSorted() ? "Oui" : "Non");
 				result.add(v);
