@@ -5,6 +5,7 @@ package pmb.music.AllMusic.view;
 
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.Font;
 import java.text.NumberFormat;
 import java.util.Date;
 import java.util.Vector;
@@ -14,6 +15,7 @@ import javax.swing.border.MatteBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableCellRenderer;
 
+import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.view.model.AbstractModel;
@@ -50,12 +52,18 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 	 */
 	private static final Color RED = new Color(255, 143, 143);
 	/**
-	 * UNKNOWN color.
+	 * UNKNOWN/YEAR color.
 	 */
 	private static final Color PURPLE = new Color(216, 150, 255);
+	private static final Color GENRE = new Color(167, 196, 76);
+	private static final Color ALL_TIME = new Color(246, 132, 27);
+	private static final Color THEME = new Color(0, 174, 219);
+	private static final Color LONG_PERIOD = new Color(36, 92, 72);
+	private static final Color DECADE = new Color(120, 25, 70);
 
 	Integer deletedIndex;
 	Integer typeIndex;
+	Integer catIndex;
 
 	/**
 	 * Constructor for {@link EvenOddRenderer}.
@@ -64,10 +72,12 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 	 *            with specific color
 	 * @param typeIndex index of the record type column, used to color record type
 	 *            cell depending on the type
+	 * @param catIndex index of the category column, used to color category cell
 	 */
-	public EvenOddRenderer(Integer deletedIndex, Integer typeIndex) {
+	public EvenOddRenderer(Integer deletedIndex, Integer typeIndex, Integer catIndex) {
 		this.deletedIndex = deletedIndex;
 		this.typeIndex = typeIndex;
+		this.catIndex = catIndex;
 	}
 
 	@SuppressWarnings("unchecked")
@@ -98,13 +108,52 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 					.get(table.getRowSorter().convertRowIndexToModel(row))).get(deletedIndex));
 		}
 
+		Font font = renderer.getFont();
 		if (typeIndex != null && column == typeIndex) {
 			// If display a row with record type
 			RecordType type = RecordType.getByValue(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
 					.get(table.getRowSorter().convertRowIndexToModel(row))).get(typeIndex));
+			renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
 			if (type.getRecordType().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
 				// only the record type cell is colored
 				renderer.setForeground(type == RecordType.ALBUM ? YELLOW : type == RecordType.SONG ? RED : PURPLE);
+				background = isSelected ? DARK_BLUE : row % 2 == 0 ? GRAY : BLUE;
+				renderer.setBackground(background);
+				return renderer;
+			}
+		}
+
+		if (catIndex != null && column == catIndex) {
+			// If display a row with cat
+			Cat cat = Cat.getByValue(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
+					.get(table.getRowSorter().convertRowIndexToModel(row))).get(catIndex));
+			renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
+			if (cat.getCat().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
+				// only the cat cell is colored
+				switch (cat) {
+				case YEAR:
+					foreground = PURPLE;
+					break;
+				case DECADE:
+					foreground = DECADE;
+					break;
+				case LONG_PERIOD:
+					foreground = LONG_PERIOD;
+					break;
+				case THEME:
+					foreground = THEME;
+					break;
+				case GENRE:
+					foreground = GENRE;
+					break;
+				case ALL_TIME:
+					foreground = ALL_TIME;
+					break;
+				default:
+					foreground = row % 2 != 0 ? GRAY : BLUE;
+					break;
+				}
+				renderer.setForeground(foreground);
 				background = isSelected ? DARK_BLUE : row % 2 == 0 ? GRAY : BLUE;
 				renderer.setBackground(background);
 				return renderer;

@@ -52,19 +52,20 @@ public class DialogFileTable extends JDialog {
 
 	private List<Composition> compoList = new ArrayList<>();
 
-	private static final String[] header = { "Artiste", "Oeuvre", "Type", "", "Auteur", "Nom du fichier",
-			"Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Classement", "Classé" };
+	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
+			"Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Classement", "", "Classé" };
 
 	public static final int INDEX_ARTIST = 0;
 	public static final int INDEX_TITLE = 1;
 	public static final int INDEX_TYPE = 2;
-	public static final int INDEX_DELETED = 3;
-	public static final int INDEX_AUTEUR = 4;
-	public static final int INDEX_FILE_NAME = 5;
-	public static final int INDEX_PUBLISH_YEAR = 6;
-	public static final int INDEX_PERCENT_DELETED = 9;
-	public static final int INDEX_FILE_SIZE = 10;
-	public static final int INDEX_RANK = 11;
+	public static final int INDEX_AUTEUR = 3;
+	public static final int INDEX_FILE_NAME = 4;
+	public static final int INDEX_PUBLISH_YEAR = 5;
+	public static final int INDEX_CAT = 6;
+	public static final int INDEX_PERCENT_DELETED = 8;
+	public static final int INDEX_FILE_SIZE = 9;
+	public static final int INDEX_DELETED = 11;
+	public static final int INDEX_RANK = 12;
 
 	private JTable fichiers;
 	private int defaultSort;
@@ -142,7 +143,7 @@ public class DialogFileTable extends JDialog {
 			this.dispose();
 		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
-		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE);
+		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT);
 		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
 
 		this.setLayout(new BorderLayout());
@@ -177,7 +178,7 @@ public class DialogFileTable extends JDialog {
 			if (!compo.isEmpty()) {
 				Fichier file = compo.get(0).getFiles().get(0);
 				title = Arrays.asList("FileName:", file.getFileName(), "PublishYear:",
-						String.valueOf(file.getPublishYear()), "Categorie:", file.getCategorie().toString(),
+						String.valueOf(file.getPublishYear()), "Categorie:", file.getCategorie().getCat(),
 						"RangeDateBegin:", String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
 						String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:",
 						String.valueOf(file.getSize()));
