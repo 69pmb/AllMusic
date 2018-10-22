@@ -113,7 +113,7 @@ public class ModifyFichierDialog extends JDialog {
 			cat.addItem(values[i]);
 		}
 		cat.setPreferredSize(new Dimension(150, 30));
-		cat.setSelectedItem(Cat.valueOf((String) fichier.get(FichierPanel.INDEX_FILE_CAT)));
+		cat.setSelectedItem(Cat.getByValue((String) fichier.get(FichierPanel.INDEX_FILE_CAT)));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
 
