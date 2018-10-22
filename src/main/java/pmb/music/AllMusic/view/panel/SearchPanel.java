@@ -550,7 +550,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		}
 		tableResult.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
-		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE);
+		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE, null);
 		for (int i = 0; i < tableResult.getRowCount(); i++) {
 			tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 		}
@@ -611,7 +611,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 						Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult,
 								selectedRow.get().get(INDEX_ARTIST), selectedRow.get().get(INDEX_TITRE),
 								selectedRow.get().get(INDEX_TYPE), true)),
-						new Dimension(1500, 400), DialogFileTable.INDEX_AUTEUR);
+						new Dimension(1700, 400), DialogFileTable.INDEX_AUTEUR);
 				pop.showDialogFileTable();
 			} catch (MyException e1) {
 				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
