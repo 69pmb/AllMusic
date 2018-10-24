@@ -175,7 +175,7 @@
   <compo A="Elvis Costello" T="Imperial Bedroom" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 80's - 2002" publish="2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="58" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="false">
+  <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 80's - 2002" publish="2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="59" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Nebraska" type="ALBUM" mergeable="true" del="false">
