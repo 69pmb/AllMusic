@@ -28,7 +28,7 @@
   <compo A="The Beatles" T="Revolution" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="7" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
-  <compo A="Ike And Tina Turner" T="River Deep Mountain High" type="SONG" mergeable="true" del="true">
+  <compo A="Ike And Tina Turner" T="River Deep, Mountain High" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="8" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
   <compo A="Nirvana" T="Smells Like Teen Sprit" type="SONG" mergeable="true" del="true">
@@ -394,7 +394,7 @@
   <compo A="Box Tops" T="The Letter" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="127" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Voodoo Chile" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Voodoo Chile" type="SONG" mergeable="false" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="128" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
   <compo A="The Everly Brothers" T="Wake Up Little Sister" type="SONG" mergeable="true" del="false">
