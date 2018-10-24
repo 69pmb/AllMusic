@@ -562,7 +562,16 @@ public class CompositionUtils {
 	}
 
 	/**
+	 * <ul>
 	 * Calculates the score for a file.
+	 * <li>ALL_TIME: score * 2</li>
+	 * <li>LONG_PERIOD: score * 1.5</li>
+	 * <li>DECADE: score * 1.3</li>
+	 * <li>YEAR: score / 1.5</li>
+	 * <li>THEME: score / 1.3</li>
+	 * <li>GENRE: score * 1</li>
+	 * <li>MISCELLANEOUS: score * 1</li>
+	 * </ul>
 	 * 
 	 * @param logMax @see {@link Score#getLogMax(RecordType)}
 	 * @param doubleMedian @see {@link Score#getDoubleMedian(RecordType)}
@@ -587,8 +596,10 @@ public class CompositionUtils {
 			points = points.multiply(BigDecimal.valueOf(1.5));
 		} else if (fichier.getCategorie().equals(Cat.DECADE)) {
 			points = points.multiply(BigDecimal.valueOf(1.3));
-		} else if (fichier.getCategorie().equals(Cat.YEAR) || fichier.getCategorie().equals(Cat.THEME)) {
+		} else if (fichier.getCategorie().equals(Cat.YEAR)) {
 			points = points.divide(BigDecimal.valueOf(1.5), RoundingMode.HALF_UP);
+		} else if (fichier.getCategorie().equals(Cat.THEME)) {
+			points = points.divide(BigDecimal.valueOf(1.3), RoundingMode.HALF_UP);
 		}
 		return points;
 	}
