@@ -4,7 +4,7 @@
   <compo A="Chuck Berry" T="Johnny B Goode" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="1" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix Experience" T="Purple Haze" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Purple Haze" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="2" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Cream" T="Crossroads" type="SONG" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="Ramones" T="Blitzkrieg Bop" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="18" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Prince And The Revolution" T="Purple Rain" type="SONG" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="19" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Impressions" T="People Get Ready" type="SONG" mergeable="true" del="true">
