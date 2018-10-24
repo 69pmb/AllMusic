@@ -208,11 +208,17 @@ public class BatchUtils {
 
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		emptyTitleOrArtist(importXML, result);
+		addLine(result, "", false);
 		titleSlash(importXML, result);
+		addLine(result, "", false);
 		sizeZero(importXML, result);
+		addLine(result, "", false);
 		publishZero(importXML, result);
+		addLine(result, "", false);
 		rankZero(importXML, result);
+		addLine(result, "", false);
 		rankGreaterThanSize(importXML, result);
+		addLine(result, "", false);
 		duplicateCompositionInFile(importXML, result);
 
 		LOG.debug("End findSuspiciousComposition");
