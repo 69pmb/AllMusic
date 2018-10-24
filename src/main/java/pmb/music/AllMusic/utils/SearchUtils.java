@@ -219,8 +219,12 @@ public class SearchUtils {
 			}
 		}
 		if (result && StringUtils.isNotBlank(fileName)) {
-			result = result && Arrays.asList(fileName.split(" ")).stream()
-					.allMatch(name -> compareString(name, fi.getFileName(), searchMethod, jaro));
+			if (SearchMethod.CONTAINS.equals(searchMethod)) {
+				result = result && Arrays.asList(fileName.split(" ")).stream()
+						.allMatch(name -> compareString(name, fi.getFileName(), searchMethod, jaro));
+			} else {
+				result = result && compareString(fileName, fi.getFileName(), searchMethod, jaro);
+			}
 		}
 		if (result && StringUtils.isNotBlank(auteur)) {
 			result = result && compareString(fi.getAuthor(), auteur, searchMethod, jaro);
