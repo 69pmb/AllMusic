@@ -295,7 +295,7 @@
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="98" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="false">
+  <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="99" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Marvin Gaye" T="Anthology" type="ALBUM" mergeable="true" del="false">
@@ -460,7 +460,7 @@
   <compo A="Grandmaster Flash and the Furious Five" T="Greatest Message's" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="153" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="false">
+  <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="154" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Don Henley" T="The End of the Innocence" type="ALBUM" mergeable="true" del="false">
