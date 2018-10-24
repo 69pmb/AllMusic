@@ -109,7 +109,7 @@
   <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="36" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Ike And Tina Turner" T="River Deep Mountain High" type="SONG" mergeable="true" del="true">
+  <compo A="Ike And Tina Turner" T="River Deep, Mountain High" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="37" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Sinead O'Connor" T="Nothing Compares 2 U" type="SONG" mergeable="true" del="true">
@@ -736,7 +736,7 @@
   <compo A="Babyshambles" T="Fuck Forever" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="245" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Voodoo Chile" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Voodoo Chile" type="SONG" mergeable="false" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="246" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Beastie Boys" T="Intergalactic" type="SONG" mergeable="true" del="false">
