@@ -79,6 +79,15 @@
   <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="26" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
+  <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="27" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="28" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
+  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="29" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
   <compo A="James Brown" T="Star Time" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="30" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
@@ -136,8 +145,14 @@
   <compo A="The Grateful Dead" T="Workingman's Dead" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="48" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
+  <compo A="The Jimi Hendrix Experience" T="Are You Experienced? (British Version)" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="49" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
   <compo A="Jimi Hendrix" T="Axis: Bold as Love" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="50" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
+  <compo A="The Jimi Hendrix Experience" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="51" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Jefferson Airplane" T="Surrealistic Pillow" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="52" creation="19/07/2017 07:11:54" size="200"/>
@@ -168,6 +183,18 @@
   </compo>
   <compo A="The Rolling Stones" T="Big Hits (High Tide and Green Grass)" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="61" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
+  <compo A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="62" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="63" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="64" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="65" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="The Rolling Stones" T="Some Girls" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="66" creation="19/07/2017 07:11:54" size="200"/>
@@ -267,6 +294,9 @@
   </compo>
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="98" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
+  <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="99" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Marvin Gaye" T="Anthology" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="100" creation="19/07/2017 07:11:54" size="200"/>
@@ -430,6 +460,9 @@
   <compo A="Grandmaster Flash and the Furious Five" T="Greatest Message's" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="153" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
+  <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="154" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
   <compo A="Don Henley" T="The End of the Innocence" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="155" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
@@ -480,6 +513,9 @@
   </compo>
   <compo A="Prince" T="Dirty Mind" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="171" creation="19/07/2017 07:11:54" size="200"/>
+  </compo>
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="172" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Prince" T="Sign 'O' The Times" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="173" creation="19/07/2017 07:11:54" size="200"/>
