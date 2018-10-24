@@ -7,16 +7,16 @@
   <compo A="The Orioles" T="Crying In The Chapel" type="UNKNOWN" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="2" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="Big Joe Turner" T="Shake, Rattle And Roll" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="Big Joe Turner" T="Shake, Rattle And Roll" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="3" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="Little Richard" T="Tutti Frutti" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="Little Richard" T="Tutti Frutti" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="4" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
   <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="5" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin, Goin On" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin, Goin On" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="6" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
   <compo A="Chuck Berry" T="Johnny B Goode" type="SONG" mergeable="true" del="true">
@@ -34,10 +34,10 @@
   <compo A="Smokey Robinson And The Miracles" T="You Really Got A Hold On Me" type="UNKNOWN" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="11" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="The Beatles" T="She Loves You" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="The Beatles" T="She Loves You" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="12" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="The Kinks" T="You Really Got Me" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="The Kinks" T="You Really Got Me" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="13" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
@@ -46,13 +46,13 @@
   <compo A="The Beach Boys" T="Pet Sounds" type="UNKNOWN" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="15" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="The Velvet Underground And Nico" T="The Velvet Underground And Nico" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="The Velvet Underground And Nico" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="16" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="The Rolling Stones" T="Jumping Jack Flash" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="17" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="18" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
   <compo A="The Who" T="Live At Leeds" type="UNKNOWN" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <compo A="Marvin Gaye" T="What's Going On" type="UNKNOWN" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="20" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="Various Artists" T="The Harder They Come" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="Various Artists" T="The Harder They Come" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="21" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
   <compo A="T-Rex" T="20th Century Boy" type="UNKNOWN" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="Public Image Ltd" T="Public Image" type="UNKNOWN" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="27" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="Chic" T="Good Times" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="28" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <compo A="Grandmaster Flash" T="Adventures On The Wheels Of Steel" type="UNKNOWN" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="30" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="Culture Club" T="Do You Really Want To Hurt Me?" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="Culture Club" T="Do You Really Want To Hurt Me?" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="31" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
   <compo A="New Order" T="Blue Monday" type="SONG" mergeable="true" del="true">
@@ -103,10 +103,10 @@
   <compo A="The Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="34" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="Prince" T="Kiss" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="Prince" T="Kiss" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="35" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
-  <compo A="M/A/R/R/S" T="Pump Up The Volume" type="UNKNOWN" mergeable="true" del="false">
+  <compo A="M/A/R/R/S" T="Pump Up The Volume" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 40 Records That Captured The Moment - 1992" publish="1992" cat="ALL_TIME" rangeB="0" rangeE="1992" sorted="false" rank="36" creation="04/09/2018 14:07:39" size="40"/>
   </compo>
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
