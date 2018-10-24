@@ -88,11 +88,11 @@ public class JComboCheckBox extends JComboBox<Object> {
 			this.boxes.put(jCheckBox.getText(), false);
 		}
 		label = "";
-		selectedItem = new JCheckBox();
-		selectedItem.setOpaque(false);
-		if (getModel().getElementAt(0).equals(selectedItem)) {
+		if (StringUtils.equalsIgnoreCase(((JCheckBox) getModel().getElementAt(0)).getText(), selectedItem.getText())) {
 			removeItemAt(0);
 		}
+		selectedItem = new JCheckBox();
+		selectedItem.setOpaque(false);
 	}
 
 	@Override
