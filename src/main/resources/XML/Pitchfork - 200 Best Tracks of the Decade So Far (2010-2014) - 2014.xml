@@ -4,10 +4,10 @@
   <compo A="Grimes" T="Oblivion" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="1" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Ariel Pink's Haunted Graffiti" T="Round And Round" type="SONG" mergeable="true" del="false">
+  <compo A="Ariel Pink" T="Round And Round" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="2" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Kanye West" T="Runaway (And Pusha T)" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Runaway" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="3" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="M83" T="Midnight City" type="SONG" mergeable="true" del="true">
@@ -19,7 +19,7 @@
   <compo A="Robyn" T="Dancing On My Own" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="6" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Azealia Banks" T="212 (And Lazy Jay)" type="SONG" mergeable="true" del="false">
+  <compo A="Azealia Banks" T="212" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="7" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Frank Ocean" T="Pyramids" type="SONG" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <compo A="Drake" T="Worst Behavior" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="24" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Disclosure" T="Latch (And Sam Smith)" type="SONG" mergeable="true" del="false">
+  <compo A="Disclosure" T="Latch" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="25" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Vampire Weekend" T="Hannah Hunt" type="SONG" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Caribou" T="Can't Do Without You" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="93" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Icona Pop" T="I Love It (And Charli XCX)" type="SONG" mergeable="true" del="false">
+  <compo A="Icona Pop" T="I Love It" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="94" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Chairlift" T="I Belong In Your Arms" type="SONG" mergeable="true" del="false">
@@ -445,7 +445,7 @@
   <compo A="Rick Ross" T="B.M.F. (Blowin' Money Fast) [And Styles P]" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="148" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Ariel Pink's Haunted Graffiti" T="Only In My Dreams" type="SONG" mergeable="true" del="false">
+  <compo A="Ariel Pink" T="Only in My Dreams" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="149" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Dirty Projectors" T="Gun Has No Trigger" type="SONG" mergeable="true" del="false">
@@ -511,7 +511,7 @@
   <compo A="Grizzly Bear" T="Sleeping Ute" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="170" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Janelle Monae" T="Tightrope (And Big Boi)" type="SONG" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Tightrope" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="171" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Earl Sweatshirt" T="Earl" type="SONG" mergeable="true" del="false">
