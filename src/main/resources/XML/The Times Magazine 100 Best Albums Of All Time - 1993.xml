@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
+  <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="1" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Beatles" T="Sergeant Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="2" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="3" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
   <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="4" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="5" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Jimi Hendrix Experience" T="Are You Experienced" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="6" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="7" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="8" creation="27/08/2017 13:52:32" size="100"/>
@@ -13,14 +31,29 @@
   <compo A="Otis Redding" T="Otis Blue" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="10" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="11" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="12" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
   <compo A="Derek And The Dominos" T="Layla" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="13" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Aretha Franklin" T="Lady Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="14" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
+  <compo A="Prince And The Revolution" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="15" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
   <compo A="Ian Dury" T="New Boot And Panties" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="16" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="17" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="Led Zeppelin" T="Untitled (Known As Four Symbols Or Led Zep 4" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="18" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="19" creation="27/08/2017 13:52:32" size="100"/>
@@ -31,8 +64,23 @@
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="21" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="22" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="23" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Sex Pistols" T="Never Mind The Bollocks Here's The Sex Pistols" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="24" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="David Bowie" T="The Rise And Fall Of Ziggy Stardust And The Spiders From Mars" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="25" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="26" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="27" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="The Times Are A-Changin'" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="28" creation="27/08/2017 13:52:32" size="100"/>
@@ -46,11 +94,23 @@
   <compo A="Bob Marley" T="Exodus" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="31" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="32" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Rolling Stones" T="Beggars' Banquet" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="33" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
   <compo A="Crosby Stills and Nash" T="Crosby Stills Nash" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="34" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Peter Gabriel" T="So" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="35" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="36" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Jimi Hendrix Experience" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="37" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Paul Simon" T="Graceland" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="38" creation="27/08/2017 13:52:32" size="100"/>
@@ -61,11 +121,20 @@
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="40" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="41" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
   <compo A="Carole King" T="Tapestry" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="42" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="43" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
   <compo A="Cream" T="Wheels of Fire" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="44" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="45" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="46" creation="27/08/2017 13:52:32" size="100"/>
@@ -75,6 +144,12 @@
   </compo>
   <compo A="Iggy Pop" T="Raw Power" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="48" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="49" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="50" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="The Small Faces" T="Ogden's Nut Gone Flake" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="51" creation="27/08/2017 13:52:32" size="100"/>
@@ -139,6 +214,9 @@
   <compo A="Stevie Wonder" T="Talking Book" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="71" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="72" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="73" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
@@ -150,6 +228,9 @@
   </compo>
   <compo A="The Jam" T="All Mod Cons" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="76" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="77" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Crosby, Stills, Nash And Young" T="Deja Vu" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="78" creation="27/08/2017 13:52:32" size="100"/>
@@ -213,6 +294,9 @@
   </compo>
   <compo A="Pet Shop Boys" T="Actually" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="98" creation="27/08/2017 13:52:32" size="100"/>
+  </compo>
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="99" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="U2" T="The Unforgettable Fire" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="100" creation="27/08/2017 13:52:32" size="100"/>
