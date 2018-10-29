@@ -19,7 +19,7 @@
   <compo A="Clash" T="Clash" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="6" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="7" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">

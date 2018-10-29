@@ -55,7 +55,7 @@
   <compo A="King Crimson" T="In the Court of the Crimson King" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="18" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin II" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="19" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Frank Zappa" T="Hot Rats" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="39" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin IV" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="40" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Alice Cooper" T="Killer" type="ALBUM" mergeable="true" del="false">
