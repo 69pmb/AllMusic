@@ -103,7 +103,7 @@
   <compo A="Rod Stewart" T="Every Picture Tells A Story" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="34" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin 4" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="35" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="The Doors" T="Strange Days" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="47" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin 2" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="48" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Otis Redding" T="Otis Blue" type="ALBUM" mergeable="true" del="false">

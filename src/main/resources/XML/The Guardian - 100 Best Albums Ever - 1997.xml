@@ -178,7 +178,7 @@
   <compo A="The Beastie Boys" T="Licence To III" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="59" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin II" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="60" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Prefab Sprout" T="Steve McQueen" type="ALBUM" mergeable="true" del="false">
@@ -265,7 +265,7 @@
   <compo A="ABC" T="Lexicon Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="88" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin IV" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="89" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Iggy And The Stooges" T="Raw Power" type="ALBUM" mergeable="true" del="false">

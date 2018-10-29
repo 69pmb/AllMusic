@@ -28,7 +28,7 @@
   <compo A="Aretha Franklin" T="I Never Loved A Man The Way I Love You" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Albums - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="18" creation="24/08/2018 10:36:47" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Albums - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="20" creation="24/08/2018 10:36:47" size="100"/>
   </compo>
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">

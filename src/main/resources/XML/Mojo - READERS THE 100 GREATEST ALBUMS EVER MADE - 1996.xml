@@ -79,7 +79,7 @@
   <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="23" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="24" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Van Morrison" T="Moondance" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="40" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin II" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="41" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
@@ -307,7 +307,7 @@
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="98" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin III" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="III" type="ALBUM" mergeable="false" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="99" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="The Small Faces" T="Ogdens' Nut Gone Flake" type="ALBUM" mergeable="true" del="false">

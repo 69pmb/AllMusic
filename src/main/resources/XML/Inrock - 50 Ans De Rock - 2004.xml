@@ -1039,7 +1039,7 @@
   <compo A="KRAFTWERK" T="The Man-Machine" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="346" creation="27/08/2018 09:58:37" size="519"/>
   </compo>
-  <compo A="LED ZEPPELIN" T="Led Zeppelin IV" type="ALBUM" mergeable="true" del="false">
+  <compo A="LED ZEPPELIN" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="347" creation="27/08/2018 09:58:37" size="519"/>
   </compo>
   <compo A="MADNESS" T="One Step Beyond" type="ALBUM" mergeable="true" del="false">

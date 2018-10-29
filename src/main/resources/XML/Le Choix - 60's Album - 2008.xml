@@ -22,7 +22,7 @@
   <compo A="Frank Zappa" T="Hot Rats" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="19" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
-  <compo A="Led Zeppelin" T="I" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="18" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="5" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
-  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="4" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
