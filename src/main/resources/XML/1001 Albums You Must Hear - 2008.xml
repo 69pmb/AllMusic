@@ -463,13 +463,13 @@
   <compo A="Quicksilver Messenger Service" T="Happy Trails" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="154" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="155" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Band" T="Band" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="156" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="157" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="MC5" T="Kick Out the Jams" type="ALBUM" mergeable="true" del="false">
@@ -559,7 +559,7 @@
   <compo A="Neil Young" T="After the Gold Rush" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="186" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Led Zeppelin" T="III" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="III" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="187" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Deep Purple" T="In Rock" type="ALBUM" mergeable="true" del="false">
@@ -673,7 +673,7 @@
   <compo A="Lake And Palmer Emerson" T="Tarkus" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="224" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="225" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Serge Gainsbourg" T="Histoire de Melody Nelson" type="ALBUM" mergeable="true" del="false">

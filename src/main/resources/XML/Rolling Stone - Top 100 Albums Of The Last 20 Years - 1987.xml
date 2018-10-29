@@ -139,7 +139,7 @@
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="46" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin Iv" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="47" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Aretha Franklin" T="Lady Soul" type="ALBUM" mergeable="true" del="false">
@@ -247,7 +247,7 @@
   <compo A="The Byrds" T="Sweetheart Of The Rodeo" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="82" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin Ii" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="83" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Roxy Music" T="Siren" type="ALBUM" mergeable="true" del="false">

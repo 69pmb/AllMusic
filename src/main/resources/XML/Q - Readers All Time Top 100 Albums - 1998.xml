@@ -76,7 +76,7 @@
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="25" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="26" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">

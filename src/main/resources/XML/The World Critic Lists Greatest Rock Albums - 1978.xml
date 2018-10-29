@@ -85,7 +85,7 @@
   <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="28" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="29" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" mergeable="true" del="false">
@@ -262,7 +262,7 @@
   <compo A="Bob Seger And The Silver Bullet" T="Live Bullet" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="87" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Led Zeppelin" T="Ii" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="88" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Bob Dylan And The Band" T="In 1966 There Was... (Live At Albert Hall; Bootleg)" type="ALBUM" mergeable="true" del="false">
@@ -361,7 +361,7 @@
   <compo A="John Lennon" T="Plastic Ono Band" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="120" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Led Zeppelin" T="I" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="121" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">

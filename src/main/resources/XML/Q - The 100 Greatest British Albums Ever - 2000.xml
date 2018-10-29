@@ -76,7 +76,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="25" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="26" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="36" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin II" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="37" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="The Specials" T="The Specials" type="ALBUM" mergeable="true" del="false">

@@ -193,7 +193,7 @@
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="64" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="65" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Manic Street Preachers" T="The Holy Bible" type="ALBUM" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="86" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin II" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="87" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
