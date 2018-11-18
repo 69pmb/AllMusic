@@ -16,7 +16,7 @@
   <compo A="Jimi Hendrix" T="Are You Experienced" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="5" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="David Bowie" T="The Rise And Fall Of Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="6" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Rod Stewart" T="Every Picture Tells A Story" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="34" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="The Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="35" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Creedence Clearwater Revival" T="Willy And The Poor Boys" type="ALBUM" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="Sly And The Family Stone" T="Greatest Hits" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="78" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="The Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="79" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Talking Heads" T="Talking Heads: 77" type="ALBUM" mergeable="true" del="false">
