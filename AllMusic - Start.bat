@@ -1,5 +1,4 @@
 @echo off
-cd C:\DEV\workspace\AllMusic
 :debut
 set /p answer="Artist Panel Y/N ?"
 set "result=nothing"

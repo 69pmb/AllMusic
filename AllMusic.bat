@@ -1,14 +1,14 @@
 @echo off
 cd C:\Users\Pierre-Marie\git\AllMusic
 :debut
-set /p answer="1. CMD\n2. Update\n3.Start\n"
+set /p answer="1. CMD    2. Update    3.Start  "
 set "result=nothing"
 IF /i "%answer%"=="1" (
-	call "AlMusic - CMD.bat"
+	call "AllMusic - CMD.bat"
 ) else IF /i "%answer%"=="2" (
-	call "AlMusic - Update.bat"
+	call "AllMusic - Update.bat"
 ) else IF /i "%answer%"=="3" (
-	call "AlMusic - Start.bat"
+	call "AllMusic - Start.bat"
 ) else (
  goto debut
 )
