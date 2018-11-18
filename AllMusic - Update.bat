@@ -1,5 +1,4 @@
 @echo off
-cd C:\Users\Pierre-Marie\git\AllMusic
 git sh
 git pl
 git pop
