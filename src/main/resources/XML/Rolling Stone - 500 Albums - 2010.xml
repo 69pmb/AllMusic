@@ -109,7 +109,7 @@
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="34" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="David Bowie" T="The Rise And Fall Of Ziggy Stardust And The Spiders From Mars" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="35" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Carole King" T="Tapestry" type="ALBUM" mergeable="true" del="false">
@@ -133,7 +133,7 @@
   <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="42" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Pink Floyd" T="The Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="43" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
@@ -1090,7 +1090,7 @@
   <compo A="De La Soul" T="3 Feet High And Rising" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="346" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Pink Floyd" T="The Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="347" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Muddy Waters" T="At Newport 1960" type="ALBUM" mergeable="true" del="false">
