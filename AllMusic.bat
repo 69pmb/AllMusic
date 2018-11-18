@@ -1,40 +1,14 @@
 @echo off
-cd C:\DEV\workspace\AllMusic
+cd C:\Users\workspace\git\AllMusic
 :debut
-set /p answer="Artist Panel Y/N ?"
+set /p answer="1. CMD\n2. Update\n3.Start\n"
 set "result=nothing"
-IF /i "%answer%"=="Y" (
-	echo "hllo"
-	set "result=true"
-) else IF /i "%answer%"=="y" (
-	set "result=true"
-) else IF /i "%answer%"=="yes" (
-	set "result=true"
-) else IF /i "%answer%"=="Yes" (
-	set "result=true"
-) else IF /i "%answer%"=="O" (
-	set "result=true"
-) else IF /i "%answer%"=="Oui" (
-	set "result=true"
-) else IF /i "%answer%"=="oui" (
-	set "result=true"
-) else IF /i "%answer%"=="o" (
-	set "result=true"
-) else IF /i "%answer%"=="N" (
-	set "result=false"
-) else IF /i "%answer%"=="n" (
-	set "result=false"
-) else IF /i "%answer%"=="no" (
-	set "result=false"
-) else IF /i "%answer%"=="No" (
-	set "result=false"
-) else IF /i "%answer%"=="Non" (
-	set "result=false"
-) else IF /i "%answer%"=="non" (
-	set "result=false"
+IF /i "%answer%"=="1" (
+	call "AlMusic - CMD.bat"
+) else IF /i "%answer%"=="2" (
+	call "AlMusic - Update.bat"
+) else IF /i "%answer%"=="3" (
+	call "AlMusic - Start.bat"
 ) else (
-	echo "coucou"
-	set "result=nothing"
+ goto debut
 )
-IF not "%result%"=="nothing" ( mvn exec:java -Dexec.args=%result% ) else goto debut
-pause>nul
