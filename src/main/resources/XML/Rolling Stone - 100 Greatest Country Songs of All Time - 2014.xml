@@ -85,7 +85,7 @@
   <compo A="Hank Williams" T="I Saw The Light" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Country Songs of All Time - 2014" publish="2014" cat="GENRE" rangeB="0" rangeE="2014" sorted="true" rank="28" creation="07/09/2018 12:49:01" size="100"/>
   </compo>
-  <compo A="Jimmie Rodgers" T="Blue Yodel No. 1 (T For Texas)" type="SONG" mergeable="true" del="false">
+  <compo A="Jimmie Rodgers" T="Blue Yodel No. 1 (T For Texas)" type="SONG" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Country Songs of All Time - 2014" publish="2014" cat="GENRE" rangeB="0" rangeE="2014" sorted="true" rank="29" creation="07/09/2018 12:49:01" size="100"/>
   </compo>
   <compo A="Faron Young" T="Hello Walls" type="SONG" mergeable="true" del="false">
@@ -151,7 +151,7 @@
   <compo A="Steve Earle" T="Guitar Town" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Country Songs of All Time - 2014" publish="2014" cat="GENRE" rangeB="0" rangeE="2014" sorted="true" rank="50" creation="07/09/2018 12:49:01" size="100"/>
   </compo>
-  <compo A="Johnny Cash" T="Folsom Prison Blues" type="SONG" mergeable="true" del="true">
+  <compo A="Johnny Cash" T="Folsom Prison Blues (Live At Folsom Prison)" type="SONG" mergeable="false" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Country Songs of All Time - 2014" publish="2014" cat="GENRE" rangeB="0" rangeE="2014" sorted="true" rank="51" creation="07/09/2018 12:49:01" size="100"/>
   </compo>
   <compo A="Flatt And Scruggs" T="Foggy Mountain Breakdown" type="SONG" mergeable="true" del="false">

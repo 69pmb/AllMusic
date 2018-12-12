@@ -91,7 +91,7 @@
   <compo A="Elton John" T="Your Song" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="30" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Santana And Rob Thomas" T="Smooth" type="SONG" mergeable="true" del="false">
+  <compo A="Santana" T="Smooth" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="31" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Otis Redding" T="(Sittin On) The Dock Of The Bay" type="SONG" mergeable="true" del="true">
@@ -151,7 +151,7 @@
   <compo A="Prince" T="Little Red Corvette" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="50" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Temptations" T="Just My Imagination" type="SONG" mergeable="true" del="false">
+  <compo A="The Temptations" T="Just My Imagination (Running Away With Me)" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="51" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Paul McCartney" T="Maybe I'm Amazed" type="SONG" mergeable="true" del="true">
@@ -265,10 +265,10 @@
   <compo A="Wyclef Jean" T="Gone Till November" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="88" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Wham! And George Michael" T="Careless Whisper" type="SONG" mergeable="true" del="false">
+  <compo A="Wham!" T="Careless Whisper" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="89" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Brandy and Monica" T="The Boy Is Mine" type="SONG" mergeable="true" del="false">
+  <compo A="Brandy" T="The Boy Is Mine" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="90" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Blackstreet" T="No Diggity" type="SONG" mergeable="true" del="false">
