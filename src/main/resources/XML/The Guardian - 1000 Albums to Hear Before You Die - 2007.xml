@@ -253,7 +253,7 @@
   <compo A="Blackstreet" T="Blackstreet" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="84" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Art Blakey" T="A Night at Birdland: Vol 1" type="ALBUM" mergeable="true" del="false">
+  <compo A="Art Blakey Quintet" T="A Night At Birdland Vol. 1" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="85" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Carla Bley" T="Escalator Over the Hill" type="ALBUM" mergeable="true" del="false">
@@ -1261,7 +1261,7 @@
   <compo A="Isley Brothers" T="3 + 3" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="422" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="J Dilla" T="Donuts" type="ALBUM" mergeable="true" del="false">
+  <compo A="J Dilla [Jay Dee]" T="Donuts" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="423" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Janet Jackson" T="Control" type="ALBUM" mergeable="true" del="false">
@@ -1720,7 +1720,7 @@
   <compo A="Modern Jazz Quartet" T="Artistry of the..." type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="575" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Modern Lovers" T="Modern Lovers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="576" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Nils Petter MolvAer" T="Khmer" type="ALBUM" mergeable="true" del="false">
@@ -2461,7 +2461,7 @@
   <compo A="Donna Summer" T="Endless Summer" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="822" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Sun Ra And His Arkestra" T="Jazz in Silhouette" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sun Ra" T="Jazz In Silhouette" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="823" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Sunn O)))" T="Black One" type="ALBUM" mergeable="true" del="false">
@@ -2656,7 +2656,7 @@
   <compo A="Vangelis" T="Blade Runner: Soundtrack" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="887" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="false" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="888" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Vanity 6" T="Vanity 6" type="ALBUM" mergeable="true" del="false">
@@ -2806,7 +2806,7 @@
   <compo A="Link Wray" T="Early Recordings" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="937" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Wu Tang Clan" T="Enter the Wu Tang" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="938" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Robert Wyatt" T="Rock Bottom" type="ALBUM" mergeable="true" del="false">
