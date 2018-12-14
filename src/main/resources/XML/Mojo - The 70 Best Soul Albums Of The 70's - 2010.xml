@@ -58,7 +58,7 @@
   <compo A="Gil Scott-Heron" T="Pieces Of A Man" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 70 Best Soul Albums Of The 70's - 2010" publish="2010" cat="GENRE" rangeB="1970" rangeE="1979" sorted="true" rank="19" creation="22/08/2018 17:32:02" size="70"/>
   </compo>
-  <compo A="Curtis Mayfield" T="Curtis" type="ALBUM" mergeable="true" del="false">
+  <compo A="Curtis Mayfield" T="Curtis" type="ALBUM" mergeable="false" del="false">
     <file author="Mojo" name="Mojo - The 70 Best Soul Albums Of The 70's - 2010" publish="2010" cat="GENRE" rangeB="1970" rangeE="1979" sorted="true" rank="20" creation="22/08/2018 17:32:02" size="70"/>
   </compo>
   <compo A="Al Green" T="Call Me" type="ALBUM" mergeable="true" del="false">
