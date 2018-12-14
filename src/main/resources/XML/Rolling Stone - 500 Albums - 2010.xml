@@ -550,7 +550,7 @@
   <compo A="Aerosmith" T="Rocks" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="176" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Parliament/Funkadelic" T="One Nation Under A Groove" type="ALBUM" mergeable="true" del="false">
+  <compo A="Funkadelic" T="One Nation Under A Groove" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="177" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="The Byrds" T="Greatest Hits" type="ALBUM" mergeable="true" del="false">
@@ -568,7 +568,7 @@
   <compo A="Bob Marley" T="Natty Dread" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="182" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Fleetwood Mac (The White Album)" T="Fleetwood Mac" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="The White Album" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="183" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Willie Nelson" T="Red Headed Stranger" type="ALBUM" mergeable="true" del="false">
@@ -646,7 +646,7 @@
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="207" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Neil Young" T="Everybody Knows This is Nowhere" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Everybody Knows This Is Nowhere" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="208" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
@@ -1201,7 +1201,7 @@
   <compo A="The Beach Boys" T="Sunflower" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="380" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Modern Lovers" T="Modern Lovers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="381" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="The Beach Boys" T="Smile" type="ALBUM" mergeable="true" del="false">
@@ -1210,7 +1210,7 @@
   <compo A="Talking Heads" T="More Songs About Buildings And Food" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="382" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="The Who" T="A Quick One (Happy Jack)" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="A Quick One" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="383" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Def Leppard" T="Pyromania" type="ALBUM" mergeable="true" del="false">
@@ -1219,7 +1219,7 @@
   <compo A="Steely Dan" T="Pretzel Logic" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="385" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang: 36 Chambers" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="386" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Roxy Music" T="Country Life" type="ALBUM" mergeable="true" del="false">
@@ -1315,7 +1315,7 @@
   <compo A="James Brown" T="Greatest Hits" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="414" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="415" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Tom Waits" T="Mule Variations" type="ALBUM" mergeable="true" del="false">
