@@ -406,7 +406,7 @@
   <compo A="Mothers of Invention" T="We're Only in it for the Money" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="135" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Neil Young" T="Everybody Knows This is Nowhere" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Everybody Knows This Is Nowhere" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="136" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" mergeable="true" del="false">
@@ -1048,7 +1048,7 @@
   <compo A="Tom And the Heartbreakers Petty" T="Tom Petty And the Heartbreakers" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="349" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Modern Lovers" T="Modern Lovers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="350" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="David Bowie" T="Station to Station" type="ALBUM" mergeable="true" del="false">
@@ -1243,7 +1243,7 @@
   <compo A="Buzzcocks" T="Another Music in a Different Kitchen" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="414" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="415" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Willie And Ruben Blades Colon" T="Siembra" type="ALBUM" mergeable="true" del="false">
@@ -2245,13 +2245,13 @@
   <compo A="Fall" T="Infotainment Scan" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="748" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Wu Tang Clan" T="Enter the Wu Tang" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="749" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="750" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Orbital" T="Orbital(&quot;the Green Album&quot;)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Orbital" T="Orbital(&quot;the Green Album&quot;)" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="751" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Snoop Doggy Dogg" T="Doggystyle" type="ALBUM" mergeable="true" del="false">

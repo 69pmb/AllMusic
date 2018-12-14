@@ -2026,7 +2026,7 @@
   <compo A="Elvis Presley" T="Aloha From Hawaii Via Satellite" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="675" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Elvis Presley" T="Elvis '56" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Elvis '56" type="ALBUM" mergeable="false" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="676" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Elvis Presley" T="From Elvis In Memphis" type="ALBUM" mergeable="true" del="false">
@@ -2287,7 +2287,7 @@
   <compo A="Neil Young" T="Decade" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="762" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Neil Young" T="Everybody Knows This is Nowhere" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Everybody Knows This Is Nowhere" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="763" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Neil Young" T="Rust Never Sleeps" type="ALBUM" mergeable="true" del="false">
@@ -2584,7 +2584,7 @@
   <compo A="Gil Scot-Heron" T="The Revolution Will Not Be Televised" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="861" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Jill Scott" T="Who Is Jill Scott?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jill Scott" T="Who Is Jill Scott? Words And Sounds Vol. 1" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="862" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Sly And The Family Stone" T="Fresh" type="ALBUM" mergeable="true" del="false">
@@ -2647,7 +2647,7 @@
   <compo A="O.V. Wright" T="The Complete O.V. Wright" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="882" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Wu Tang Clan" T="Enter the Wu Tang" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="883" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Various Artist" T="2001 : A Space Odyessey (soundtrack)" type="ALBUM" mergeable="true" del="false">
@@ -2752,7 +2752,7 @@
   <compo A="Duke Ellington" T="Anatomy Of A Murder (soundtrack)" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="917" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Philip Glass" T="Koyaanisqatsi (soundtrack)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Philip Glass" T="Koyaanisqatsi" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="918" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Goblin" T="Suspiria (soundtrack)" type="ALBUM" mergeable="true" del="false">
@@ -2767,7 +2767,7 @@
   <compo A="Herbie Hancock" T="Death Wish (soundtrack)" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="922" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Isaac Hayes" T="Shaft (soundtrack)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Isaac Hayes" T="Shaft" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="923" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Bernard Hermann" T="North By Nortwest (soundtrack)" type="ALBUM" mergeable="true" del="false">
@@ -2965,7 +2965,7 @@
   <compo A="Os Mutantes" T="Everything Is Possible" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="988" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Tito Puente And His Orchestra" T="Dance Mania" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tito Puente" T="Dance Mania" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="989" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Amalia Rodrigues" T="O Melhor De" type="ALBUM" mergeable="true" del="false">
