@@ -13,7 +13,7 @@
   <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="4" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="5" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="N.W.A." T="Straight Outta Compton" type="ALBUM" mergeable="true" del="false">

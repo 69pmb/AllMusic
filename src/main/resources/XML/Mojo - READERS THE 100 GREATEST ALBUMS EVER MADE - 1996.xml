@@ -37,7 +37,7 @@
   <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="12" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="13" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">

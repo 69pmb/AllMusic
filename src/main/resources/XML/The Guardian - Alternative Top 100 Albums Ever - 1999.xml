@@ -193,7 +193,7 @@
   <compo A="Roxy Music" T="Stranded" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="64" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="65" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
   <compo A="Little Feat" T="Dixie Chicken" type="ALBUM" mergeable="true" del="false">

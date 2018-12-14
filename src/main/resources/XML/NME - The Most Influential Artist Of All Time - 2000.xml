@@ -148,13 +148,13 @@
   <compo A="Mos Def" T="Black On Both Sides" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="17" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="18" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
   <compo A="The Velvet Underground" T="White Light White Heat" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="18" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="18" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
   <compo A="Beck" T="One Foot In The Grave" type="ALBUM" mergeable="true" del="false">
