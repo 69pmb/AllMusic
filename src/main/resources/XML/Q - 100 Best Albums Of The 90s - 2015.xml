@@ -133,7 +133,7 @@
   <compo A="Sonic Youth" T="Goo" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="44" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Wu Tang Clan" T="Enter the Wu Tang" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="45" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Verve" T="A Northern Soul" type="ALBUM" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="The Charlatans" T="Tellin' Stories" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="53" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Orbital" T="Orbital(&quot;the Green Album&quot;)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Orbital" T="Orbital(&quot;the Green Album&quot;)" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="54" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">

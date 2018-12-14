@@ -109,7 +109,7 @@
   <compo A="Wire" T="Pink Flag" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="36" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="37" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Kate Bush" T="The Kick Inside" type="ALBUM" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="Suede" T="Suede" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="79" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Wu Tang Clan" T="Enter the Wu Tang" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="80" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Nas" T="Illmatic" type="ALBUM" mergeable="true" del="false">

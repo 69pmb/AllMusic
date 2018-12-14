@@ -472,7 +472,7 @@
   <compo A="Supergrass" T="I Should Coco" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="157" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Wu Tang Clan" T="Enter the Wu Tang" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="158" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Sigur Ros" T="Takk..." type="ALBUM" mergeable="true" del="false">
@@ -745,7 +745,7 @@
   <compo A="Sugar" T="Copper Blue" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="248" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Orbital" T="Orbital(&quot;the Green Album&quot;)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Orbital" T="Orbital(&quot;the Green Album&quot;)" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="249" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Gomez" T="Bring It On" type="ALBUM" mergeable="true" del="false">

@@ -118,7 +118,7 @@
   <compo A="Suicide" T="Suicide" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="39" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Jonathan Richman And The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="40" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
@@ -217,7 +217,7 @@
   <compo A="King Crimson" T="Red" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="72" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="false" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="73" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Leonard Cohen" T="Songs Of Love And Hate" type="ALBUM" mergeable="true" del="false">
