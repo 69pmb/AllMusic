@@ -16,7 +16,7 @@
   <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="5" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="6" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">

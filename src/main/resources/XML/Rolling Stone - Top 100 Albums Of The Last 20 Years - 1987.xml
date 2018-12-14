@@ -61,7 +61,7 @@
   <compo A="Prince" T="Dirty Mind" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="20" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="21" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="David Bowie" T="Changesonebowie" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="96" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="97" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Steely Dan" T="Katy Lied" type="ALBUM" mergeable="true" del="false">

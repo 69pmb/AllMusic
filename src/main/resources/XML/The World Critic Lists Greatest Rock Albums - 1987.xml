@@ -19,7 +19,7 @@
   <compo A="Elvis Presley" T="The Sun Sessions" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="6" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="7" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
@@ -244,7 +244,7 @@
   <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="81" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="81" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" mergeable="true" del="false">
