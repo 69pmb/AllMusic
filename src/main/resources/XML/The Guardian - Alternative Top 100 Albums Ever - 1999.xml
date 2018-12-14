@@ -19,7 +19,7 @@
   <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="6" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
-  <compo A="Curtis Mayfield" T="Curtis" type="ALBUM" mergeable="true" del="false">
+  <compo A="Curtis Mayfield" T="Curtis" type="ALBUM" mergeable="false" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="7" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
   <compo A="Todd Rundgren" T="A Wizard And A Star" type="ALBUM" mergeable="true" del="false">

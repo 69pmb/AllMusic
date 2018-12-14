@@ -79,13 +79,13 @@
   <compo A="Run-D.M.C." T="Run-DMC" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="26" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="27" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="The B-52's" T="B-52s" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="28" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang (36 Chambers)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="29" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="47" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Modern Lovers" T="Modern Lovers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="48" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="Franz Ferdinand" T="Franz Ferdinand" type="ALBUM" mergeable="true" del="false">
