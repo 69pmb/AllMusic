@@ -25,7 +25,7 @@
   <compo A="The Smiths" T="The Queen In Dead" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="8" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="9" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
@@ -61,7 +61,7 @@
   <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="20" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="21" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="New Order" T="Technique" type="ALBUM" mergeable="true" del="false">

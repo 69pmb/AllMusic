@@ -73,7 +73,7 @@
   <compo A="Aretha Franklin" T="Respect" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="24" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="T.Rex" T="Get It On" type="SONG" mergeable="true" del="false">
+  <compo A="T. Rex" T="Get It On" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="25" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="Aphex Twin" T="Windowlicker" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="79" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Voodoo Chile" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Voodoo Chile" type="SONG" mergeable="false" del="false">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="80" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Bob Marley" T="Get Up Stand Up" type="SONG" mergeable="true" del="false">

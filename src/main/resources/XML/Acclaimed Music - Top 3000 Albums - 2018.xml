@@ -10,7 +10,7 @@
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Velvet Underground And Nico" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
@@ -556,7 +556,7 @@
   <compo A="The Specials" T="Specials" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="185" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="186" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Nas" T="Illmatic" type="ALBUM" mergeable="true" del="false">

@@ -34,7 +34,7 @@
   <compo A="Simon And Garfunkel" T="Sounds Of Silence" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="50" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="49" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="12" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="11" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="John Coltrane" T="A Love Supreme" type="ALBUM" mergeable="true" del="false">

@@ -178,7 +178,7 @@
   <compo A="Gang of Four" T="Entertainment!" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="59" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="60" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="The Isley Brothers" T="3+3" type="ALBUM" mergeable="true" del="false">
