@@ -286,7 +286,7 @@
   <compo A="The Lovin'Spoonful" T="Do You Believe In Magic?" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="95" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Beatles" T="I Wanna Hold Your Hand" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="I Wanna Hold Your Hand" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="96" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Cross Town Traffic" type="SONG" mergeable="true" del="false">
