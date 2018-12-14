@@ -457,7 +457,7 @@
   <compo A="The Who" T="Baba O'Riley" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="152" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="T. Rex" T="Get It On [Bang A Gong (Get It On)]" type="SONG" mergeable="true" del="false">
+  <compo A="T. Rex" T="Get It On" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="153" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Shirelles" T="Will You Love Me Tomorrow" type="SONG" mergeable="true" del="false">
@@ -1405,7 +1405,7 @@
   <compo A="James Taylor" T="Fire And Rain" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="468" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Fatboy Slim" T="The Rockafeller Skank" type="SONG" mergeable="true" del="false">
+  <compo A="Fatboy Slim" T="The Rockefeller Skank" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="469" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="false">
@@ -3064,7 +3064,7 @@
   <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1021" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Al Green" T="Love And Happiness" type="SONG" mergeable="true" del="false">
+  <compo A="Al Green" T="Love And Happiness" type="SONG" mergeable="false" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1022" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Robert Johnson" T="Hellhound On My Trail" type="SONG" mergeable="true" del="false">

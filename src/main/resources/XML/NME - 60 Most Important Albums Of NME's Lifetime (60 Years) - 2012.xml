@@ -28,7 +28,7 @@
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="9" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="10" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
