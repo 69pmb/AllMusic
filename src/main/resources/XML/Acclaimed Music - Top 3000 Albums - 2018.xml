@@ -730,7 +730,7 @@
   <compo A="Can" T="Tago Mago" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="243" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Van Halen" T="Van Halen" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Halen" T="Van Halen" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="244" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Mothers Of Invention" T="Freak Out!" type="ALBUM" mergeable="true" del="false">
@@ -4519,7 +4519,7 @@
   <compo A="Kate And Anna McGarrigle" T="Kate And Anna McGarrigle" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1506" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Pixies" T="Come On Pilgrim EP" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Come On Pilgrim" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1507" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="M83" T="Dead Cities, Red Seas And Lost Ghosts" type="ALBUM" mergeable="true" del="false">
@@ -8143,7 +8143,7 @@
   <compo A="Dizzy Gillespie With Roy Eldridge" T="Roy And Diz #2" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2714" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Van Halen" T="Van Halen II" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Halen" T="Van Halen II" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2715" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Scott Walker" T="Scott 2" type="ALBUM" mergeable="true" del="false">
