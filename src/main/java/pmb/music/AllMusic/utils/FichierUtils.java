@@ -270,7 +270,7 @@ public class FichierUtils {
 			String absPath = filePath.get();
 			if (FileUtils.fileExists(absPath)) {
 				try {
-					Runtime.getRuntime().exec(Constant.getNotepadPath() + absPath);
+					Runtime.getRuntime().exec(Constant.getNotepadPath() + Constant.QUOTE + absPath + Constant.QUOTE);
 				} catch (IOException e) {
 					throw new MyException("Le chemin de Notepad++ dans le fichier de config est incorrect.", e);
 				}
