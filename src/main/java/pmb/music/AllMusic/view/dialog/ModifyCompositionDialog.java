@@ -62,7 +62,7 @@ public class ModifyCompositionDialog extends JDialog {
 	public ModifyCompositionDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector<String> compo,
 			int artistIndex, int titleIndex, int typeIndex, int deleteIndex) {
 		super(parent, header, modal);
-		LOG.debug("Start DialogFileTable");
+		LOG.debug("Start ModifyCompositionDialog");
 		this.artistIndex = artistIndex;
 		this.titleIndex = titleIndex;
 		this.typeIndex = typeIndex;
@@ -76,7 +76,7 @@ public class ModifyCompositionDialog extends JDialog {
 		this.getRootPane().registerKeyboardAction(e -> {
 			this.dispose();
 		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
-		LOG.debug("End DialogFileTable");
+		LOG.debug("End ModifyCompositionDialog");
 	}
 
 	private void initComposant() {
