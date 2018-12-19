@@ -93,7 +93,7 @@ public class Constant {
 	 * @return chemin de Notepad++.
 	 */
 	public static String getNotepadPath() {
-		return GetProperties.getProperty("notepad") + " ";
+		return QUOTE + GetProperties.getProperty("notepad") + QUOTE + " -alwaysOnTop ";
 	}
 
 	/**
@@ -119,6 +119,8 @@ public class Constant {
 	public static final String REGULAR_DASH = "-";
 
 	public static final String DOT = ".";
+
+	public static final String QUOTE = "\"";
 
 	public static final String COMMENT_PREFIX = "#";
 
