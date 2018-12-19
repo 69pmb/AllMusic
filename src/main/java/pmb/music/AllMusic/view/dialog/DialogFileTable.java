@@ -5,6 +5,7 @@ package pmb.music.AllMusic.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -79,14 +80,14 @@ public class DialogFileTable extends JDialog {
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
 	 * @param compoList {@code List<Composition>} la liste des compositions dont les
 	 *            fichiers seront affichés
-	 * @param dim {@link Dimension} les dimension de la popup
+	 * @param height la hauteur de la popup
 	 * @param defaultSort the index of the sorted column at start
 	 */
-	public DialogFileTable(JFrame parent, String header, boolean modal, List<Composition> compoList, Dimension dim,
+	public DialogFileTable(JFrame parent, String header, boolean modal, List<Composition> compoList, int height,
 			int defaultSort) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
-		this.setSize(dim);
+		this.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.compoList = compoList;
@@ -185,8 +186,7 @@ public class DialogFileTable extends JDialog {
 			} else {
 				LOG.warn(selectedRow.get().get(INDEX_FILE_NAME) + " empty !");
 			}
-			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " / "), true, compo,
-					new Dimension(1500, 400));
+			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " / "), true, compo, 800);
 			pop.showDialogFileTable();
 			LOG.debug("End double right mouse");
 		}

@@ -455,8 +455,8 @@ public class ArtistPanel extends JPanel {
 			if (!key.isPresent()) {
 				LOG.error("Error when searching: " + selectedRow.get().get(INDEX_ARTIST) + " in data table");
 			} else {
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, searchResult.get(key.get()),
-						new Dimension(1500, 600), DialogFileTable.INDEX_TITLE);
+				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, searchResult.get(key.get()), 600,
+						DialogFileTable.INDEX_TITLE);
 				pop.showDialogFileTable();
 			}
 			LOG.debug("End artist mouse");

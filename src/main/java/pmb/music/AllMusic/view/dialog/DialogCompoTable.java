@@ -5,6 +5,7 @@ package pmb.music.AllMusic.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
@@ -68,12 +69,12 @@ public class DialogCompoTable extends JDialog {
 	 * @param header {@link String} les entetes de la popup
 	 * @param modal {@code boolean} si la popup bloque l'utilisateur
 	 * @param compo {@code List<Composition>} la liste des fichier à afficher
-	 * @param dim {@link Dimension} les dimension de la popup
+	 * @param height la hauteur de la popup
 	 */
-	public DialogCompoTable(JFrame parent, String header, boolean modal, List<Composition> compo, Dimension dim) {
+	public DialogCompoTable(JFrame parent, String header, boolean modal, List<Composition> compo, int height) {
 		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
-		this.setSize(dim);
+		this.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.compo = compo;
