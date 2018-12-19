@@ -64,8 +64,8 @@ public class DialogFileTable extends JDialog {
 	public static final int INDEX_CAT = 6;
 	public static final int INDEX_PERCENT_DELETED = 8;
 	public static final int INDEX_FILE_SIZE = 9;
+	public static final int INDEX_RANK = 10;
 	public static final int INDEX_DELETED = 11;
-	public static final int INDEX_RANK = 12;
 
 	private JTable fichiers;
 	private int defaultSort;
