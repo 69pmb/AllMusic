@@ -396,8 +396,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
-					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), filename.getText(), cat.getSelectedItems(),
-							type.getSelectedItems(), auteur.getText(),
+					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), filename.getText(),
+							cat.getSelectedItems(), type.getSelectedItems(), auteur.getText(),
 							"Sorted:" + Boolean.toString(sorted.isSelected()),
 							"Deleted:" + Boolean.toString(deleted.isSelected()))
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
@@ -643,7 +643,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 						Arrays.asList(CompositionUtils.findByArtistTitreAndType(compositionList,
 								selectedRow.get().get(INDEX_COMPO_ARTIST), selectedRow.get().get(INDEX_COMPO_TITLE),
 								selectedRow.get().get(INDEX_COMPO_TYPE), true)),
-						new Dimension(1500, 400), DialogFileTable.INDEX_AUTEUR);
+						400, DialogFileTable.INDEX_AUTEUR);
 				pop.showDialogFileTable();
 			} catch (MyException e1) {
 				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
