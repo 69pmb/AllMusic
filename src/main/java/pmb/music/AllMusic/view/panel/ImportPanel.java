@@ -934,7 +934,7 @@ public class ImportPanel extends JPanel {
 	private void openFileNotepad(String path) {
 		LOG.debug("Start openFileNotepad");
 		try {
-			FichierUtils.openFileInNotepad(Optional.ofNullable(path));
+			FichierUtils.openFileInNotepad(Optional.ofNullable(path), Optional.empty());
 		} catch (MyException e) {
 			result = new LinkedList<>(Arrays.asList(e.toString()));
 			miseEnFormeResultLabel(result);
