@@ -47,7 +47,7 @@ public class AllMusic {
 			Optional<String> savedLogFile = FichierUtils.saveLogFileIfNotEmpty();
 			if (savedLogFile.isPresent()) {
 				try {
-					FichierUtils.openFileInNotepad(savedLogFile);
+					FichierUtils.openFileInNotepad(savedLogFile, Optional.empty());
 				} catch (MyException e1) {
 					LOG.error("Erreur lors l'ouverture du fichier de log historisé: " + savedLogFile);
 				}

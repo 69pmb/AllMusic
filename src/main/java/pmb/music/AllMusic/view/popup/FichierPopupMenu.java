@@ -2,6 +2,8 @@ package pmb.music.AllMusic.view.popup;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+import java.util.Optional;
+import java.util.Vector;
 
 import javax.swing.JPopupMenu;
 import javax.swing.JTable;
@@ -31,6 +33,7 @@ public class FichierPopupMenu extends PopupMenu {
 	 * @param fileNameIndex index in row of the filename
 	 * @param authorIndex index in row of the author
 	 */
+	@SuppressWarnings("unchecked")
 	public FichierPopupMenu(JTable table, int fileNameIndex, int authorIndex) {
 		super();
 		LOG.debug("Start FichierPopupMenu");
@@ -39,7 +42,8 @@ public class FichierPopupMenu extends PopupMenu {
 		buildMenuItem("Ouvrir le fichier XML", KeyEvent.VK_X, (ActionEvent e) -> {
 			LOG.debug("Start openXml");
 			try {
-				FichierUtils.openFileInNotepad(FichierUtils.buildXmlFilePath(selectedRow.get(fileNameIndex)));
+				FichierUtils.openFileInNotepad(FichierUtils.buildXmlFilePath((String) selectedRow.get(fileNameIndex)),
+						Optional.empty());
 				this.setVisible(false);
 			} catch (MyException e1) {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
@@ -51,8 +55,8 @@ public class FichierPopupMenu extends PopupMenu {
 		buildMenuItem("Ouvrir le fichier TXT", KeyEvent.VK_T, (ActionEvent e) -> {
 			LOG.debug("Start openTxt");
 			try {
-				FichierUtils.openFileInNotepad(
-						FichierUtils.buildTxtFilePath(selectedRow.get(fileNameIndex), selectedRow.get(authorIndex)));
+				FichierUtils.openFileInNotepad(FichierUtils.buildTxtFilePath((String) selectedRow.get(fileNameIndex),
+						(String) selectedRow.get(authorIndex)), Optional.empty());
 				this.setVisible(false);
 			} catch (MyException e1) {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
@@ -63,7 +67,7 @@ public class FichierPopupMenu extends PopupMenu {
 		// Copy clipboard file name
 		buildMenuItem("Copier le nom du fichier", KeyEvent.VK_C, (ActionEvent e) -> {
 			LOG.debug("Start copy");
-			MiscUtils.clipBoardAction(selectedRow.get(fileNameIndex));
+			MiscUtils.clipBoardAction((String) selectedRow.get(fileNameIndex));
 			this.setVisible(false);
 			LOG.debug("End copy");
 		});
@@ -72,7 +76,7 @@ public class FichierPopupMenu extends PopupMenu {
 		buildMenuItem("Modifier le fichier", KeyEvent.VK_E, (ActionEvent e) -> {
 			LOG.debug("Start modifFile");
 			((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, table))
-					.modifyFichierAction(selectedRow);
+					.modifyFichierAction((Vector<String>) selectedRow);
 			this.setVisible(false);
 			LOG.debug("End modifFile");
 		});

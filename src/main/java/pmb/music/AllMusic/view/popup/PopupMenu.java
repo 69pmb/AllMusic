@@ -26,7 +26,7 @@ import org.apache.log4j.Logger;
 public abstract class PopupMenu extends JPopupMenu {
 	private static final long serialVersionUID = 1L;
 	private static final Logger LOG = Logger.getLogger(PopupMenu.class);
-	protected Vector<String> selectedRow;
+	protected Vector<?> selectedRow;
 	protected Point point;
 
 	/**
@@ -70,11 +70,11 @@ public abstract class PopupMenu extends JPopupMenu {
 		this.add(item);
 	}
 
-	public Vector<String> getSelectedRow() {
+	public Vector<?> getSelectedRow() {
 		return selectedRow;
 	}
 
-	public void setSelectedRow(Vector<String> selectedRow) {
+	public void setSelectedRow(Vector<?> selectedRow) {
 		this.selectedRow = selectedRow;
 	}
 
