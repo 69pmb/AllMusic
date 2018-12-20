@@ -11,8 +11,25 @@ You can search throught this database/file by artists, titles, dates or types (s
 
 You can browse by files and also create annual ranking by song, album and artist.
 
+### Configuration:
+
 A property file is used to define directories for the various files of the application. It can be found there:  
 ` AllMusic/src/main/resources/config.properties`
+
+* resources: absolute path of the resources folder, where all files will be found
+
+* output: absolute path of the folder where files will be generated 
+
+* final: name of the file that's hold all the compositions
+
+* music: name of the folder of the txt files
+
+* notepad: absolute path of the nopad++.exe
+
+* excel: absolute path of the excel.exe
+
+* xml: name of the folder of the xml files
+
 ### To run AllMusic:
 
 - Install Java 8, Maven and Git.
