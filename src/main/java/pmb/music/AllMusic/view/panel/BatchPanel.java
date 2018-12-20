@@ -39,7 +39,6 @@ import pmb.music.AllMusic.view.PanelUtils;
  * <li>Find duplicate files: FDF</li>
  * <li>Missing XML files: MXF</li>
  * <li>Top year: top</li>
- * <li>Nettoyer dossier historique: clearHistory</li>
  * <li>Finds suspicious compositions: suspicious</li>
  * <li>Finds duplicates title with different artist: duplicateTitle</li>
  * <li>Checks filenames (Author + name + publishYear): validateFileName</li>
@@ -82,7 +81,6 @@ public class BatchPanel extends JPanel {
 		findDuplicateFiles();
 		missingXmlFiles();
 		topYear();
-		clearHistory();
 		suspicious();
 		duplicateTitle();
 		validateFileName();
@@ -255,28 +253,6 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(top, topBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(top);
-	}
-
-	private void clearHistory() {
-		JPanel clear = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
-
-		// Label
-		JLabel clearLabel = new JLabel("Nettoyer le dossier historique: ");
-		PanelUtils.addComponent(clear, clearLabel, Component.LEFT_ALIGNMENT, 800);
-
-		// Clean history
-		JButton cleanHistory = PanelUtils.createJButton("Go Clean Historique", 200, Constant.ICON_GO);
-		cleanHistory.setToolTipText("Supprime tous les fichiers du dossier d'historique sauf le plus récent.");
-		cleanHistory.addActionListener((ActionEvent arg0) -> {
-			displayText("Start cleanHistory: " + MiscUtils.getCurrentTime(), false);
-			new Thread(() -> {
-				fileResult = BatchUtils.cleanHistory();
-				displayText("End cleanHistory: " + MiscUtils.getCurrentTime(), false);
-			}).start();
-		});
-		PanelUtils.addComponent(clear, cleanHistory, Component.RIGHT_ALIGNMENT, 100);
-
-		this.add(clear);
 	}
 
 	private void suspicious() {
