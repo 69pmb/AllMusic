@@ -75,7 +75,7 @@ public final class ImportXML {
 
 	/**
 	 * Fusionne tous les fichiers à l'endroit indiqué dans {@code final.xml}. Export
-	 * le fichier final (et crée une sauvegarde de ce fichier dans history) et
+	 * le fichier final et
 	 * renvoie la liste de Composition.
 	 * 
 	 * @param dirName le dossier où se situe les fichiers

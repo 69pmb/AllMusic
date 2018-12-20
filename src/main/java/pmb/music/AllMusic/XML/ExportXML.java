@@ -3,7 +3,6 @@
  */
 package pmb.music.AllMusic.XML;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -21,7 +20,6 @@ import org.dom4j.io.XMLWriter;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
-import pmb.music.AllMusic.utils.MiscUtils;
 
 /**
  * Classe pour exporter des fichiers au format XML.
@@ -83,8 +81,7 @@ public class ExportXML {
 	}
 
 	/**
-	 * Historise du fichier précédent dans le dossier history dans les resources et
-	 * sauvegarde du document dans un fichier.
+	 * Sauvegarde du document dans un fichier.
 	 * 
 	 * @param fileName Le nom du fichier
 	 * @param doc Le document a enregistrer
@@ -97,9 +94,6 @@ public class ExportXML {
 		// Création du dossier resources
 		FichierUtils.createFolderIfNotExists(Constant.getResourcesDir());
 
-		// Création du dossier history dans le dossier resources
-		FichierUtils.createFolderIfNotExists(Constant.getHistoryPath());
-
 		// Création du dossier xml dans le dossier resources
 		FichierUtils.createFolderIfNotExists(Constant.getXmlPath());
 
@@ -110,12 +104,6 @@ public class ExportXML {
 		} else {
 			fileName = StringUtils.substringBeforeLast(fileName, Constant.XML_EXTENSION);
 		}
-
-		// Historisation du fichier précédent dans le dossier history
-		File source = new File(Constant.getXmlPath() + fullFileName);
-		File destination = new File(Constant.getHistoryPath() + fileName + Constant.SEPARATOR_DATE_HISTORY
-				+ MiscUtils.dateNow() + Constant.XML_EXTENSION);
-		source.renameTo(destination);
 
 		// Sauvegarde du document dans le fichier
 		FileOutputStream fos = new FileOutputStream(Constant.getXmlPath() + fullFileName);

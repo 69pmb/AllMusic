@@ -459,7 +459,7 @@ public class FichierUtils {
 		String newFileLog = null;
 		Optional<String> line = readFirstLine(Constant.FILE_LOG_PATH);
 		if (line.isPresent() && StringUtils.isNotBlank(line.get())) {
-			newFileLog = Constant.FILE_LOG_PATH + Constant.SEPARATOR_DATE_HISTORY + MiscUtils.dateNow()
+			newFileLog = Constant.FILE_LOG_PATH + Constant.SEPARATOR_DATE + MiscUtils.dateNow()
 					+ Constant.TXT_EXTENSION;
 			try {
 				copyFileInAnother(Constant.FILE_LOG_PATH, newFileLog);

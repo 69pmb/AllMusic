@@ -69,13 +69,6 @@ public class Constant {
 	}
 
 	/**
-	 * @return Chemin abs du dossier d'historique.
-	 */
-	public static String getHistoryPath() {
-		return getResourcesDir() + GetProperties.getProperty("history") + FileUtils.FS;
-	}
-
-	/**
 	 * @return Chemin abs du dossier contenant les fichiers txt des classements.
 	 */
 	public static String getMusicAbsDirectory() {
@@ -114,7 +107,7 @@ public class Constant {
 
 	public static final String UTF8_ENCODING = "UTF-8";
 
-	public static final String SEPARATOR_DATE_HISTORY = " ; ";
+	public static final String SEPARATOR_DATE = " ; ";
 
 	public static final String REGULAR_DASH = "-";
 
@@ -142,7 +135,7 @@ public class Constant {
 
 	private final SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
-	private final SimpleDateFormat sdfHistory = new SimpleDateFormat("dd-MM-yyyy HH-mm");
+	private final SimpleDateFormat sdfHhMm = new SimpleDateFormat("dd-MM-yyyy HH-mm");
 
 	private final SimpleDateFormat sdfDate = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -249,8 +242,8 @@ public class Constant {
 		return sdfDttm;
 	}
 
-	public SimpleDateFormat getSdfHistory() {
-		return sdfHistory;
+	public SimpleDateFormat getSdfHhMm() {
+		return sdfHhMm;
 	}
 
 	public SimpleDateFormat getSdfDate() {
