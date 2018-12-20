@@ -2,6 +2,7 @@ package pmb.music.AllMusic.view.popup;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+import java.util.Vector;
 
 import javax.swing.JPopupMenu;
 import javax.swing.JTable;
@@ -29,6 +30,7 @@ public class CompositionPopupMenu extends PopupMenu {
 	 * @param artistIndex index in row of the artist
 	 * @param titleIndex index in row of the title
 	 */
+	@SuppressWarnings("unchecked")
 	public CompositionPopupMenu(JTable table, Class<? extends ModificationComposition> type, int artistIndex,
 			int titleIndex) {
 		super();
@@ -45,7 +47,7 @@ public class CompositionPopupMenu extends PopupMenu {
 		// Copy clipboard artist
 		buildMenuItem("Copier l'artiste", KeyEvent.VK_A, (ActionEvent e) -> {
 			LOG.debug("Start copy A");
-			MiscUtils.clipBoardAction(selectedRow.get(artistIndex));
+			MiscUtils.clipBoardAction((String) selectedRow.get(artistIndex));
 			this.setVisible(false);
 			LOG.debug("End copy A");
 		});
@@ -53,7 +55,7 @@ public class CompositionPopupMenu extends PopupMenu {
 		// Copy clipboard title
 		buildMenuItem("Copier le titre", KeyEvent.VK_T, (ActionEvent e) -> {
 			LOG.debug("Start copy T");
-			MiscUtils.clipBoardAction(selectedRow.get(titleIndex));
+			MiscUtils.clipBoardAction((String) selectedRow.get(titleIndex));
 			this.setVisible(false);
 			LOG.debug("End copy T");
 		});
@@ -62,7 +64,8 @@ public class CompositionPopupMenu extends PopupMenu {
 			// Modify composition
 			buildMenuItem("Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {
 				LOG.debug("Start modifComposition");
-				type.cast(SwingUtilities.getAncestorOfClass(type, table)).modifyCompositionAction(selectedRow);
+				type.cast(SwingUtilities.getAncestorOfClass(type, table))
+						.modifyCompositionAction((Vector<String>) selectedRow);
 				this.setVisible(false);
 				LOG.debug("End modifComposition");
 			});

@@ -261,15 +261,28 @@ public class FichierUtils {
 	 * Ouvre le fichier donnée avec Notepad++ si existe.
 	 * 
 	 * @param filePath le chemin absolu du fichier
+	 * @param lineNumber open the file to this specific line
 	 * @throws MyException something went wrong
 	 */
-	public static void openFileInNotepad(Optional<String> filePath) throws MyException {
+	public static void openFileInNotepad(Optional<String> filePath, Optional<Integer> lineNumber) throws MyException {
 		LOG.debug("Start openFileInNotepad");
 		if (filePath.isPresent()) {
 			String absPath = filePath.get();
 			if (FileUtils.fileExists(absPath)) {
+				String lineNb = lineNumber.map(nb -> {
+					// calculates the specific line number
+					if (StringUtils.endsWith(absPath, Constant.TXT_EXTENSION)) {
+						// offset with import settings
+						nb += 1;
+					} else if (StringUtils.endsWith(absPath, Constant.XML_EXTENSION)) {
+						// offset with root tags and each compo is 3 lines long
+						nb = (nb - 1) * 3 + 4;
+					}
+					return "-n" + nb + " ";
+				}).orElse("");
 				try {
-					Runtime.getRuntime().exec(Constant.getNotepadPath() + Constant.QUOTE + absPath + Constant.QUOTE);
+					Runtime.getRuntime()
+							.exec(Constant.getNotepadPath() + lineNb + Constant.QUOTE + absPath + Constant.QUOTE);
 				} catch (IOException e) {
 					throw new MyException("Le chemin de Notepad++ dans le fichier de config est incorrect.", e);
 				}

@@ -2,6 +2,7 @@ package pmb.music.AllMusic.view.popup;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+import java.util.Optional;
 
 import javax.swing.JTable;
 
@@ -29,8 +30,10 @@ public class DialogFilePopupMenu extends PopupMenu {
 	 * @param titleIndex index in row of the title
 	 * @param fileNameIndex index in row of the file name
 	 * @param authorIndex index in row of the author
+	 * @param rankIndex index in row of the rank
 	 */
-	public DialogFilePopupMenu(JTable table, int artistIndex, int titleIndex, int fileNameIndex, int authorIndex) {
+	public DialogFilePopupMenu(JTable table, int artistIndex, int titleIndex, int fileNameIndex, int authorIndex,
+			int rankIndex) {
 		super();
 		LOG.debug("Start DialogFilePopupMenu");
 
@@ -38,7 +41,8 @@ public class DialogFilePopupMenu extends PopupMenu {
 		buildMenuItem("Ouvrir le fichier XML", KeyEvent.VK_X, (ActionEvent e) -> {
 			LOG.debug("Start openXml");
 			try {
-				FichierUtils.openFileInNotepad(FichierUtils.buildXmlFilePath(selectedRow.get(fileNameIndex)));
+				FichierUtils.openFileInNotepad(FichierUtils.buildXmlFilePath((String) selectedRow.get(fileNameIndex)),
+						Optional.of((Integer) selectedRow.get(rankIndex)));
 				this.setVisible(false);
 			} catch (MyException e1) {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
@@ -51,7 +55,8 @@ public class DialogFilePopupMenu extends PopupMenu {
 			LOG.debug("Start openTxt");
 			try {
 				FichierUtils.openFileInNotepad(
-						FichierUtils.buildTxtFilePath(selectedRow.get(fileNameIndex), selectedRow.get(authorIndex)));
+						FichierUtils.buildTxtFilePath((String) selectedRow.get(fileNameIndex), (String) selectedRow.get(authorIndex)),
+						Optional.of((Integer) selectedRow.get(rankIndex)));
 				this.setVisible(false);
 			} catch (MyException e1) {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
@@ -70,7 +75,7 @@ public class DialogFilePopupMenu extends PopupMenu {
 		// Copy clipboard artist
 		buildMenuItem("Copier l'artiste", KeyEvent.VK_A, (ActionEvent e) -> {
 			LOG.debug("Start copy A");
-			MiscUtils.clipBoardAction(selectedRow.get(artistIndex));
+			MiscUtils.clipBoardAction((String) selectedRow.get(artistIndex));
 			this.setVisible(false);
 			LOG.debug("End copy A");
 		});
@@ -78,7 +83,7 @@ public class DialogFilePopupMenu extends PopupMenu {
 		// Copy clipboard title
 		buildMenuItem("Copier le titre", KeyEvent.VK_I, (ActionEvent e) -> {
 			LOG.debug("Start copy I");
-			MiscUtils.clipBoardAction(selectedRow.get(titleIndex));
+			MiscUtils.clipBoardAction((String) selectedRow.get(titleIndex));
 			this.setVisible(false);
 			LOG.debug("End copy I");
 		});
@@ -86,7 +91,7 @@ public class DialogFilePopupMenu extends PopupMenu {
 		// Copy clipboard file name
 		buildMenuItem("Copier le nom du fichier", KeyEvent.VK_F, (ActionEvent e) -> {
 			LOG.debug("Start copy F");
-			MiscUtils.clipBoardAction(selectedRow.get(fileNameIndex));
+			MiscUtils.clipBoardAction((String) selectedRow.get(fileNameIndex));
 			this.setVisible(false);
 			LOG.debug("End copy F");
 		});

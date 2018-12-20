@@ -120,7 +120,7 @@ public class DialogFileTable extends JDialog {
 		fichiers.getRowSorter().toggleSortOrder(defaultSort);
 		((TableRowSorter<?>) fichiers.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
 
-		popup = new DialogFilePopupMenu(fichiers, INDEX_ARTIST, INDEX_TITLE, INDEX_FILE_NAME, INDEX_AUTEUR);
+		popup = new DialogFilePopupMenu(fichiers, INDEX_ARTIST, INDEX_TITLE, INDEX_FILE_NAME, INDEX_AUTEUR, INDEX_RANK);
 		fichiers.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
