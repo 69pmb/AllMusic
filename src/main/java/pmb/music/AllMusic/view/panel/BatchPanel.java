@@ -138,7 +138,7 @@ public class BatchPanel extends JPanel {
 			new Thread(() -> {
 				artistPanel.interruptUpdateArtist(true);
 				fileResult = BatchUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
-						fdcUnmergeable.isSelected(), fdcYear.isSelected());
+						fdcUnmergeable.isSelected(), fdcYear.isSelected(), this);
 				fichierPanel.updateData();
 				artistPanel.updateArtistPanel();
 				displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
