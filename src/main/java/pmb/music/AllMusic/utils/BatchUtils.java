@@ -53,8 +53,16 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
 
+	/**
+	 * @param song
+	 * @param album
+	 * @param ignoreUnmergeableFiles if ignore file with merge equals to false
+	 * @param byYear
+	 * @param batchPanel for logging purpose
+	 * @return
+	 */
 	public static String detectsDuplicateFinal(boolean song, boolean album, boolean ignoreUnmergeableFiles,
-			boolean byYear) {
+			boolean byYear, BatchPanel batchPanel) {
 		LOG.debug("Start detectsDuplicateFinal");
 		StringBuilder result = new StringBuilder();
 		addLine(result, "DetectsDuplicateFinal: ", true);
@@ -63,10 +71,10 @@ public class BatchUtils {
 		addLine(result, "Ignore Unmergeable Files: " + ignoreUnmergeableFiles, true);
 
 		if (song) {
-			detectsDuplicateFinal(RecordType.SONG.toString(), ignoreUnmergeableFiles, byYear, result);
+			detectsDuplicateFinal(RecordType.SONG.toString(), ignoreUnmergeableFiles, byYear, result, batchPanel);
 		}
 		if (album) {
-			detectsDuplicateFinal(RecordType.ALBUM.toString(), ignoreUnmergeableFiles, byYear, result);
+			detectsDuplicateFinal(RecordType.ALBUM.toString(), ignoreUnmergeableFiles, byYear, result, batchPanel);
 		}
 		try {
 			ImportXML.synchroDeletedWithFinal();
@@ -552,14 +560,16 @@ public class BatchUtils {
 	/**
 	 * Show all the duplicates for a year and a type regardless of the artist, only
 	 * based on the song or album.
+	 * 
+	 * @param batchPanel TODO
 	 */
 	private static void detectsDuplicateFinal(String type, boolean ignoreUnmergeableFiles, boolean byYear,
-			StringBuilder result) {
+			StringBuilder result, BatchPanel batchPanel) {
 		LOG.debug("Start detectsDuplicateFinal");
 		double startTime = System.currentTimeMillis();
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		int i = 0;
-		while ((!byYear && findFirstDuplicate(type, jaro, ignoreUnmergeableFiles, result))
+		while ((!byYear && findFirstDuplicate(type, jaro, ignoreUnmergeableFiles, result, batchPanel))
 				|| (byYear && detectsDuplicate(type, jaro, result))) {
 			i++;
 		}
@@ -570,13 +580,14 @@ public class BatchUtils {
 	}
 
 	private static boolean findFirstDuplicate(String type, final JaroWinklerDistance jaro,
-			boolean ignoreUnmergeableFiles, StringBuilder result) {
+			boolean ignoreUnmergeableFiles, StringBuilder result, BatchPanel batchPanel) {
 		LOG.debug("Start findFirstDuplicate");
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		if (!importXML.isEmpty()) {
-			addLine(result, "Size: " + importXML.size(), true);
-			for (int i = 0; i < importXML.size(); i++) {
-				for (int j = 0; j < importXML.size(); j++) {
+			int size = importXML.size();
+			addLine(result, "Size: " + size, true);
+			for (int i = 0; i < size; i++) {
+				for (int j = 0; j < size; j++) {
 					Composition c1 = importXML.get(i);
 					Composition c2 = importXML.get(j);
 					if ((!c1.getRecordType().toString().equals(type) || !c2.getRecordType().toString().equals(type))
@@ -633,6 +644,10 @@ public class BatchUtils {
 							if (equalsJaroPar) {
 								mergeTwoCompositions(importXML, i, j, result);
 								LOG.debug("End findFirstDuplicate, find duplicate");
+								batchPanel.displayText(
+										BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(i))
+												.divide(new BigDecimal(size), RoundingMode.HALF_UP).doubleValue() + "%",
+										true);
 								return true;
 							}
 						}
