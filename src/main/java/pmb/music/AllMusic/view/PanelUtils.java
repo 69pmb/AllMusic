@@ -23,7 +23,6 @@ import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JComponent;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
@@ -86,8 +85,8 @@ public class PanelUtils {
 	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex, Integer typeIndex,
 			Integer catIndex) {
 		LOG.debug("Start colRenderer");
-		JFrame topFrame = (JFrame) SwingUtilities.getWindowAncestor(table);
-		setColumnsWidth(table, topFrame != null ? topFrame.getWidth() : table.getWidth(), "Init");
+		Component topComponent = (Component) SwingUtilities.getWindowAncestor(table);
+		setColumnsWidth(table, topComponent != null ? topComponent.getWidth() : table.getWidth(), "Init");
 
 		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex, typeIndex, catIndex);
 		int columnCount = table.getColumnCount();
