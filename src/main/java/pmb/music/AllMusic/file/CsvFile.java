@@ -1,8 +1,13 @@
 package pmb.music.AllMusic.file;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
@@ -14,6 +19,7 @@ import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.log4j.Logger;
 
 import com.opencsv.CSVWriter;
+import com.opencsv.bean.CsvToBeanBuilder;
 
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
@@ -86,5 +92,26 @@ public class CsvFile {
 			csv.sort(comparator);
 		}
 		LOG.debug("End sortCsvList");
+	}
+
+	/**
+	 * Read data from a csv file.
+	 * 
+	 * @param csvFile the csv file
+	 * @param returnType the {@link Class} of data read
+	 * @param <T> the type of data parsed
+	 * @return a {@code List<T>}
+	 */
+	public static <T> List<T> importCsv(File csvFile, Class<T> returnType) {
+		LOG.debug("Start importCsv: " + csvFile.getAbsolutePath());
+		List<T> result = new ArrayList<>();
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(csvFile), Constant.ANSI_ENCODING));) {
+			result = new CsvToBeanBuilder<T>(br).withType(returnType).withSeparator(';').build().parse();
+		} catch (IOException e) {
+			LOG.error("Erreur lors de la lecture du csv", e);
+		}
+		LOG.debug("End importCsv");
+		return result;
 	}
 }
