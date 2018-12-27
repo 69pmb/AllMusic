@@ -134,9 +134,9 @@ public class Constant {
 
 	public static final String DEFAULT_TITLE = "AllMusic";
 
-	private final SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+	private final static SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
-	private final SimpleDateFormat sdfHhMm = new SimpleDateFormat("dd-MM-yyyy HH-mm");
+	private final static SimpleDateFormat sdfHhMm = new SimpleDateFormat("dd-MM-yyyy HH-mm");
 
 	private final SimpleDateFormat sdfDate = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -239,11 +239,11 @@ public class Constant {
 		// Nothing to do
 	}
 
-	public SimpleDateFormat getSdfDttm() {
+	public static SimpleDateFormat getSdfDttm() {
 		return sdfDttm;
 	}
 
-	public SimpleDateFormat getSdfHhMm() {
+	public static SimpleDateFormat getSdfHhMm() {
 		return sdfHhMm;
 	}
 

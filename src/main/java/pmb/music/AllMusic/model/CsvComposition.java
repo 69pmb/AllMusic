@@ -5,6 +5,8 @@ import java.util.Date;
 import com.opencsv.bean.CsvBindByName;
 import com.opencsv.bean.CsvDate;
 
+import pmb.music.AllMusic.utils.Constant;
+
 /**
  * Created by PBR on 27 déc. 2018.
  */
@@ -38,6 +40,9 @@ public class CsvComposition {
 	@CsvBindByName(column = "Dernière lecture")
 	@CsvDate("dd/MM/yyyy HH:mm")
 	private Date lastPlay;
+
+	@CsvBindByName(column = "Deleted")
+	private String deleted;
 
 	public String getTitre() {
 		return titre;
@@ -111,10 +116,26 @@ public class CsvComposition {
 		this.lastPlay = lastPlay;
 	}
 
+	public String getDeleted() {
+		return deleted;
+	}
+
+	public void setDeleted(String deleted) {
+		this.deleted = deleted;
+	}
+
 	@Override
 	public String toString() {
 		return "CsvComposition [titre=" + titre + ", artist=" + artist + ", year=" + year + ", album=" + album
 				+ ", duration=" + duration + ", added=" + added + ", playCount=" + playCount + ", rank=" + rank
 				+ ", lastPlay=" + lastPlay + "]";
+	}
+
+	public String prettyToString() {
+		return artist + " - " + titre + Constant.NEW_LINE + "year: " + year + Constant.NEW_LINE + "album: " + album
+				+ Constant.NEW_LINE + "duration: " + duration + Constant.NEW_LINE + "added: "
+				+ Constant.getSdfDttm().format(added) + Constant.NEW_LINE + "playCount: " + playCount
+				+ Constant.NEW_LINE + "rank: " + rank + Constant.NEW_LINE + "lastPlay: "
+				+ Constant.getSdfDttm().format(lastPlay);
 	}
 }
