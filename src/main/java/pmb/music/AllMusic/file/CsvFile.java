@@ -20,6 +20,10 @@ import org.apache.log4j.Logger;
 
 import com.opencsv.CSVWriter;
 import com.opencsv.bean.CsvToBeanBuilder;
+import com.opencsv.bean.StatefulBeanToCsv;
+import com.opencsv.bean.StatefulBeanToCsvBuilder;
+import com.opencsv.exceptions.CsvDataTypeMismatchException;
+import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
@@ -113,5 +117,24 @@ public class CsvFile {
 		}
 		LOG.debug("End importCsv");
 		return result;
+	}
+
+	/**
+	 * Export a list of bean in a csv file.
+	 * 
+	 * @param csvFile the csv file
+	 * @param beans the {@code List<T>} the beans to export
+	 * @param <T> the type of data exported
+	 */
+	public static <T> void exportBeanList(File csvFile, List<T> beans) {
+		LOG.debug("Start exportBeanList: " + csvFile.getAbsolutePath());
+		try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(csvFile),
+				Constant.ANSI_ENCODING);) {
+			StatefulBeanToCsv<T> beanToCsv = new StatefulBeanToCsvBuilder<T>(writer).withSeparator(';').build();
+			beanToCsv.write(beans);
+		} catch (IOException | CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e) {
+			LOG.error("Erreur lors de la lecture du csv", e);
+		}
+		LOG.debug("End exportBeanList");
 	}
 }

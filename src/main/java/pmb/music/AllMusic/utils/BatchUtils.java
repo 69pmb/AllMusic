@@ -43,10 +43,12 @@ import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
+import pmb.music.AllMusic.model.CsvComposition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
+import pmb.music.AllMusic.view.dialog.DeleteCompoDialog;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
@@ -451,6 +453,53 @@ public class BatchUtils {
 		CsvFile.exportCsv("Weird", result, Arrays.asList(new SortKey(4, SortOrder.ASCENDING)), header);
 		LOG.debug("End weirdOfFilesByFiles");
 		addLine(text, "End weirdFileSize", true);
+		return writeInFile(text, Constant.BATCH_FILE);
+	}
+
+	public static String massDeletion(String type, File file) {
+		LOG.debug("Start massDeletion");
+		type = RecordType.SONG.toString();
+		StringBuilder text = new StringBuilder();
+		addLine(text, "Start massDeletion", true);
+
+		List<CsvComposition> compoCsv = CsvFile.importCsv(file, CsvComposition.class);
+		addLine(text, "Import csv file successfully", true);
+
+		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null,
+				"Confirmation de la suppression de la composition", compoCsv.size(), 800);
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		Map<String, String> criteria = new HashMap<String, String>();
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
+		for (int i = 0; i < compoCsv.size(); i++) {
+			// Search composition
+			CsvComposition compoToDelete = compoCsv.get(i);
+			criteria.put(SearchUtils.CRITERIA_ARTIST, compoToDelete.getArtist());
+			criteria.put(SearchUtils.CRITERIA_TITRE, compoToDelete.getTitre());
+			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, false,
+					false);
+			if(compoFound.isEmpty()) {
+				LOG.debug("nothing found");
+				continue;
+			}
+			// update dialog
+			deleteCompoDialog.updateDialog(compoToDelete, compoFound.get(0), i);
+			deleteCompoDialog.setVisible(true);
+			Boolean action = deleteCompoDialog.getSendData();
+			if (action == null) {
+				// stop everything
+				LOG.debug("stop");
+				break;
+			} else if (action) {
+				// Delete composition
+				LOG.debug("delete");
+			} else {
+				// Skip
+				LOG.debug("skip");
+			}
+		}
+
+		LOG.debug("End massDeletion");
+		addLine(text, "End massDeletion", true);
 		return writeInFile(text, Constant.BATCH_FILE);
 	}
 

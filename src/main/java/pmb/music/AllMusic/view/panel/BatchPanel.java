@@ -3,9 +3,11 @@ package pmb.music.AllMusic.view.panel;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -14,16 +16,21 @@ import java.util.Optional;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JDialog;
+import javax.swing.JFileChooser;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
+import javax.swing.filechooser.FileNameExtensionFilter;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.BatchUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -36,6 +43,7 @@ import pmb.music.AllMusic.view.PanelUtils;
  * <ul>
  * Batchs List :
  * <li>Find duplicate compositions: FDC</li>
+ * <li>Mass deletion: for deleting an important amount of compositions</li>
  * <li>Find duplicate files: FDF</li>
  * <li>Missing XML files: MXF</li>
  * <li>Top year: top</li>
@@ -78,6 +86,7 @@ public class BatchPanel extends JPanel {
 		this.setLayout(new GridLayout(13, 1));
 
 		findDuplicateComposition();
+		massDeletion();
 		findDuplicateFiles();
 		missingXmlFiles();
 		topYear();
@@ -148,6 +157,67 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(fdc, fdcBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(fdc);
+	}
+
+	/**
+	 * Mass deletion: import a file of compositions to delete, by type. A search and
+	 * a confirmation is done for each.
+	 */
+	private void massDeletion() {
+		JPanel massDeletion = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
+
+		// Label
+		JLabel massDeletionLabel = new JLabel("Suppression des compositions en masse: ");
+		PanelUtils.addComponent(massDeletion, massDeletionLabel, Component.LEFT_ALIGNMENT, 100);
+
+		// File chooser
+		JLabel selectedFile = new JLabel();
+		JFileChooser jfile = new JFileChooser(Constant.getResourcesDir());
+		jfile.setApproveButtonText("Ouvrir");
+		jfile.setPreferredSize(new Dimension(1200, 600));
+		jfile.setFileFilter(new FileNameExtensionFilter("csv", "csv"));
+		JButton browse = PanelUtils.createJButton("Parcourir", 220, Constant.ICON_FOLDER);
+		browse.setToolTipText("Charge un fichier csv contenant des compositions");
+		browse.addActionListener((ActionEvent arg0) -> {
+			LOG.debug("Start browse");
+			if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
+				selectedFile.setText(jfile.getSelectedFile().getAbsolutePath());
+			} else {
+				selectedFile.setText(null);
+			}
+		});
+		PanelUtils.addComponent(massDeletion, selectedFile, Component.LEFT_ALIGNMENT, 80);
+		PanelUtils.addComponent(massDeletion, browse, Component.LEFT_ALIGNMENT, 80);
+
+		// Type
+		JPanel typePanel = new JPanel();
+		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
+		JComboBox<RecordType> type = new JComboBox<>(RecordType.values());
+		typePanel.add(typeLabel);
+		typePanel.add(type);
+		PanelUtils.setSize(typePanel, 100, PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.addComponent(massDeletion, typePanel, Component.LEFT_ALIGNMENT, 80);
+
+		// Bouton d'action
+		JButton massDeletionBtn = PanelUtils.createJButton("Go Mass Deletion", 200, Constant.ICON_GO);
+		massDeletionBtn.setToolTipText("Supprime en masse des compositions.");
+		massDeletionBtn.addActionListener((ActionEvent arg0) -> {
+			if (selectedFile.getText() != null
+					&& !StringUtils.equals(selectedFile.getText(), Constant.getResourcesDir())) {
+				LOG.debug("End browse");
+				displayText("Start massDeletion: " + MiscUtils.getCurrentTime(), false);
+				new Thread(() -> {
+					fileResult = BatchUtils.massDeletion(type.getSelectedItem().toString(),
+							new File(selectedFile.getText()));
+					displayText("End massDeletion: " + MiscUtils.getCurrentTime(), false);
+				}).start();
+			} else {
+				displayText("No selected file", false);
+			}
+		});
+		PanelUtils.addComponent(massDeletion, massDeletionBtn, Component.RIGHT_ALIGNMENT, 100);
+
+		this.add(massDeletion);
 	}
 
 	/**

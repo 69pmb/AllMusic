@@ -687,7 +687,7 @@ public class ImportPanel extends JPanel {
 		map.put(IMPORT_PARAM_REMOVE_AFTER, Boolean.toString(removeAfter));
 		map.put(IMPORT_PARAM_NAME, fichier.getFileName());
 		map.put(IMPORT_PARAM_AUTEUR, fichier.getAuthor());
-		map.put(IMPORT_PARAM_CREATE, new Constant().getSdfDttm().format(fichier.getCreationDate()));
+		map.put(IMPORT_PARAM_CREATE, Constant.getSdfDttm().format(fichier.getCreationDate()));
 		map.put(IMPORT_PARAM_RECORD_TYPE, type.getSelectedItem().toString());
 		map.put(IMPORT_PARAM_CATEGORIE, fichier.getCategorie().getCat());
 		map.put(IMPORT_PARAM_RANGE_BEGIN, String.valueOf(fichier.getRangeDateBegin()));
@@ -823,7 +823,7 @@ public class ImportPanel extends JPanel {
 			order.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_ARTIST_FIRST)));
 			fichier = new Fichier();
 			try {
-				fichier.setCreationDate(new Constant().getSdfDttm().parse(value.get(IMPORT_PARAM_CREATE)));
+				fichier.setCreationDate(Constant.getSdfDttm().parse(value.get(IMPORT_PARAM_CREATE)));
 			} catch (ParseException e) {
 				LOG.warn("Error when parsing creation date", e);
 			}
@@ -855,7 +855,7 @@ public class ImportPanel extends JPanel {
 			reverseArtist.setSelected(ImportFile.countComma(file) > fichier.getSize() / 2);
 			name.setText(fichier.getFileName());
 			author.setText(fichier.getAuthor());
-			date.setText(new Constant().getSdfDttm().format(fichier.getCreationDate()));
+			date.setText(Constant.getSdfDttm().format(fichier.getCreationDate()));
 			cat.setSelectedItem(fichier.getCategorie());
 			publi.setText(String.valueOf(fichier.getPublishYear()));
 			type.setSelectedItem(determineType);
