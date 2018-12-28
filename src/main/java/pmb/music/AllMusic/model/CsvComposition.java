@@ -21,17 +21,17 @@ public class CsvComposition {
 	@CsvBindByName(column = "Album")
 	private String album;
 
-	@CsvBindByName(column = "Durée")
+	@CsvBindByName(column = "Duree")
 	private String duration;
 
-	@CsvBindByName(column = "Débit")
+	@CsvBindByName(column = "Debit")
 	private String bitRate;
 
 	@CsvBindByName(column = "Date d'ajout")
 	@CsvDate("dd/MM/yyyy HH:mm")
 	private Date added;
 
-	@CsvBindByName(column = "Année")
+	@CsvBindByName(column = "Annee")
 	private Integer year;
 
 	@CsvBindByName(column = "Lectures")
@@ -40,7 +40,7 @@ public class CsvComposition {
 	@CsvBindByName(column = "Classement")
 	private Integer rank;
 
-	@CsvBindByName(column = "Dernière lecture")
+	@CsvBindByName(column = "Derniere lecture")
 	@CsvDate("dd/MM/yyyy HH:mm")
 	private Date lastPlay;
 
