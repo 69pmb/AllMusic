@@ -40,6 +40,7 @@ import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.file.CleanFile;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.file.CustomColumnPositionMappingStrategy;
 import pmb.music.AllMusic.model.Cat;
@@ -474,22 +475,37 @@ public class BatchUtils {
 		for (int i = 0; i < compoCsv.size(); i++) {
 			// Search composition
 			CsvComposition compoToDelete = compoCsv.get(i);
-			if(StringUtils.isNotBlank(compoToDelete.getDeleted())) {
+			if (StringUtils.isNotBlank(compoToDelete.getDeleted())) {
 				// Already processed
 				continue;
 			}
-			criteria.put(SearchUtils.CRITERIA_ARTIST, compoToDelete.getArtist());
-			criteria.put(SearchUtils.CRITERIA_TITRE, compoToDelete.getTitre());
-			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, false,
+			// Clean artist and title
+			Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
+			String stripArtist = StringUtils.substringBefore(
+					SearchUtils.removeParentheses(CleanFile
+							.removeDiactriticals(cleanLine(compoToDelete.getArtist().toLowerCase(), entrySet))),
+					" and ");
+			if (StringUtils.startsWith(stripArtist, "the ")) {
+				stripArtist = StringUtils.substringAfter(stripArtist, "the ");
+			}
+			criteria.put(SearchUtils.CRITERIA_ARTIST, SearchUtils.removePunctuation(stripArtist));
+			criteria.put(SearchUtils.CRITERIA_TITRE, SearchUtils.removePunctuation(SearchUtils.removeParentheses(
+					CleanFile.removeDiactriticals(cleanLine(compoToDelete.getTitre().toLowerCase(), entrySet)))));
+
+			// Search composition
+			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
 					false);
 			if (compoFound.isEmpty()) {
-				LOG.debug("nothing found");
+				// nothing found
 				compoToDelete.setDeleted("Not Found");
 				continue;
 			} else if (compoFound.size() > 1) {
-				LOG.debug("Multiple result");
+				// Multiple result
 				compoToDelete.setDeleted("Size: " + compoFound.size());
 				continue;
+			} else if (compoFound.get(0).isDeleted()) {
+				// Already deleted
+				compoToDelete.setDeleted("Already");
 			}
 			// update dialog
 			deleteCompoDialog.updateDialog(compoToDelete, compoFound.get(0), i);
@@ -501,25 +517,32 @@ public class BatchUtils {
 				break;
 			} else if (action) {
 				// Delete composition
-				LOG.debug("delete");
 				compoToDelete.setDeleted("OK");
 			} else {
-				// Skip
+				// Skip composition
 				compoToDelete.setDeleted("KO");
-				LOG.debug("skip");
 			}
 		}
 
 		CustomColumnPositionMappingStrategy<CsvComposition> mappingStrategy = new CustomColumnPositionMappingStrategy<CsvComposition>();
 		mappingStrategy.setType(CsvComposition.class);
-		String[] columns = new String[] { "titre", "artist", "album", "duration", "bitrate", "added", "year", "playCount", "rank",
-				"lastPlay", "deleted" };
+		String[] columns = new String[] { "titre", "artist", "album", "duration", "bitrate", "added", "year",
+				"playCount", "rank", "lastPlay", "deleted" };
 		mappingStrategy.setColumnMapping(columns);
 		CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
 
 		LOG.debug("End massDeletion");
 		addLine(text, "End massDeletion", true);
 		return writeInFile(text, Constant.BATCH_FILE);
+	}
+
+	private static String cleanLine(String line, Set<Entry<String, String>> entrySet) {
+		for (Entry<String, String> entry : entrySet) {
+			if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
+				line = StringUtils.replaceIgnoreCase(line, entry.getKey(), entry.getValue());
+			}
+		}
+		return line;
 	}
 
 	/**
@@ -663,33 +686,15 @@ public class BatchUtils {
 						continue;
 					}
 					boolean isCriteria = true;
-					// importXML.get(i).getFiles().stream().anyMatch(
-					// f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP
-					// && f.getRangeDateEnd() == YEAR_TOP
-					// && f.getPublishYear() == YEAR_TOP)
-					// && importXML.get(j).getFiles().stream().anyMatch(
-					// f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin() == YEAR_TOP
-					// && f.getRangeDateEnd() == YEAR_TOP
-					// && f.getPublishYear() == YEAR_TOP);
 					if (i != j && isCriteria) {
 						Composition composition1 = c1;
 						Composition composition2 = c2;
-						String artist1 = composition1.getArtist();
-						String artist2 = composition2.getArtist();
-						// boolean result = (SearchUtils.isEqualsJaro(jaro, newTitre1, newTitre2,
-						// Constant.SCORE_LIMIT_TITLE_FUSION)
-						// || StringUtils.startsWithIgnoreCase(titre1, titre2) ||
-						// StringUtils.startsWithIgnoreCase(titre2, titre1))
-						// && (StringUtils.startsWithIgnoreCase(artist1, artist2) ||
-						// StringUtils.startsWithIgnoreCase(artist2, artist1))
-						// && publishYear1 == publishYear2;
-						boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2)
-								|| StringUtils.startsWithIgnoreCase(artist2, artist1);
+						boolean similarArtist = isArtistSimilar(composition1, composition2);
 						if (similarArtist) {
 							String titre1 = composition1.getTitre().toLowerCase();
-							String titre2 = composition2.getTitre().toLowerCase();
 							String remParTitre1 = SearchUtils.removeParentheses(titre1);
 							String parTitre1 = SearchUtils.removePunctuation(remParTitre1);
+							String titre2 = composition2.getTitre().toLowerCase();
 							String remParTitre2 = SearchUtils.removeParentheses(titre2);
 							String parTitre2 = SearchUtils.removePunctuation(remParTitre2);
 							boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2)
@@ -725,6 +730,14 @@ public class BatchUtils {
 		}
 		LOG.debug("End findFirstDuplicate, no result");
 		return false;
+	}
+
+	private static boolean isArtistSimilar(Composition composition1, Composition composition2) {
+		String artist1 = composition1.getArtist();
+		String artist2 = composition2.getArtist();
+		boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2)
+				|| StringUtils.startsWithIgnoreCase(artist2, artist1);
+		return similarArtist;
 	}
 
 	/**

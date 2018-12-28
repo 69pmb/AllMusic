@@ -146,9 +146,7 @@ public class CleanFile {
 						}
 						if (StringUtils.endsWithIgnoreCase(name, Constant.TXT_EXTENSION)) {
 							// Supprime les diacritiques et les accents
-							String replaceAll = Normalizer.normalize(line, Form.NFKD)
-									.replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
-							replaceAll = StringUtils.stripAccents(replaceAll);
+							String replaceAll = removeDiactriticals(line);
 							if (!StringUtils.endsWithIgnoreCase(line, replaceAll)) {
 								modify = true;
 							}
@@ -174,7 +172,14 @@ public class CleanFile {
 		LOG.debug("End clearFile");
 	}
 
-	private static Set<Entry<String, String>> getModifSet() {
+	public static String removeDiactriticals(String line) {
+		String replaceAll = Normalizer.normalize(line, Form.NFKD)
+				.replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+		replaceAll = StringUtils.stripAccents(replaceAll);
+		return replaceAll;
+	}
+
+	public static Set<Entry<String, String>> getModifSet() {
 		File modifFile = new File(Constant.MODIF_FILE_PATH);
 		Map<String, String> modif = new HashMap<>();
 		try (BufferedReader br = new BufferedReader(
