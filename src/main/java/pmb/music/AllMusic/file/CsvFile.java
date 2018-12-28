@@ -20,6 +20,7 @@ import org.apache.log4j.Logger;
 
 import com.opencsv.CSVWriter;
 import com.opencsv.bean.CsvToBeanBuilder;
+import com.opencsv.bean.MappingStrategy;
 import com.opencsv.bean.StatefulBeanToCsv;
 import com.opencsv.bean.StatefulBeanToCsvBuilder;
 import com.opencsv.exceptions.CsvDataTypeMismatchException;
@@ -124,13 +125,15 @@ public class CsvFile {
 	 * 
 	 * @param csvFile the csv file
 	 * @param beans the {@code List<T>} the beans to export
+	 * @param mappingStrategy
 	 * @param <T> the type of data exported
 	 */
-	public static <T> void exportBeanList(File csvFile, List<T> beans) {
+	public static <T> void exportBeanList(File csvFile, List<T> beans, MappingStrategy<T> mappingStrategy) {
 		LOG.debug("Start exportBeanList: " + csvFile.getAbsolutePath());
 		try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(csvFile),
 				Constant.ANSI_ENCODING);) {
-			StatefulBeanToCsv<T> beanToCsv = new StatefulBeanToCsvBuilder<T>(writer).withSeparator(';').build();
+			StatefulBeanToCsv<T> beanToCsv = new StatefulBeanToCsvBuilder<T>(writer).withSeparator(';')
+					.withQuotechar(Character.MIN_VALUE).withMappingStrategy(mappingStrategy).build();
 			beanToCsv.write(beans);
 		} catch (IOException | CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e) {
 			LOG.error("Erreur lors de la lecture du csv", e);

@@ -41,6 +41,7 @@ import org.codehaus.plexus.util.FileUtils;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
+import pmb.music.AllMusic.file.CustomColumnPositionMappingStrategy;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.CsvComposition;
@@ -473,12 +474,21 @@ public class BatchUtils {
 		for (int i = 0; i < compoCsv.size(); i++) {
 			// Search composition
 			CsvComposition compoToDelete = compoCsv.get(i);
+			if(StringUtils.isNotBlank(compoToDelete.getDeleted())) {
+				// Already processed
+				continue;
+			}
 			criteria.put(SearchUtils.CRITERIA_ARTIST, compoToDelete.getArtist());
 			criteria.put(SearchUtils.CRITERIA_TITRE, compoToDelete.getTitre());
 			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, false,
 					false);
-			if(compoFound.isEmpty()) {
+			if (compoFound.isEmpty()) {
 				LOG.debug("nothing found");
+				compoToDelete.setDeleted("Not Found");
+				continue;
+			} else if (compoFound.size() > 1) {
+				LOG.debug("Multiple result");
+				compoToDelete.setDeleted("Size: " + compoFound.size());
 				continue;
 			}
 			// update dialog
@@ -492,11 +502,20 @@ public class BatchUtils {
 			} else if (action) {
 				// Delete composition
 				LOG.debug("delete");
+				compoToDelete.setDeleted("OK");
 			} else {
 				// Skip
+				compoToDelete.setDeleted("KO");
 				LOG.debug("skip");
 			}
 		}
+
+		CustomColumnPositionMappingStrategy<CsvComposition> mappingStrategy = new CustomColumnPositionMappingStrategy<CsvComposition>();
+		mappingStrategy.setType(CsvComposition.class);
+		String[] columns = new String[] { "titre", "artist", "album", "duration", "bitrate", "added", "year", "playCount", "rank",
+				"lastPlay", "deleted" };
+		mappingStrategy.setColumnMapping(columns);
+		CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
 
 		LOG.debug("End massDeletion");
 		addLine(text, "End massDeletion", true);

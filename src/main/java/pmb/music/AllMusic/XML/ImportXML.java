@@ -48,10 +48,10 @@ public final class ImportXML {
 	/**
 	 * Import le fichier donné et extrait les {@link Composition}.
 	 * 
-	 * @param uri {@link String} le chemin absolu du fichier
+	 * @param filePath {@link String} le chemin absolu du fichier
 	 * @return les compos extraites
 	 */
-	public static List<Composition> importXML(String uri) {
+	public static List<Composition> importXML(String filePath) {
 		SAXParserFactory fabrique = SAXParserFactory.newInstance();
 		SAXParser parseur = null;
 		try {
@@ -60,14 +60,18 @@ public final class ImportXML {
 			LOG.error("Erreur lors de la création du parseur", e);
 		}
 
-		File fichier = new File(uri);
+		File fichier = new File(filePath);
 		CompoHandler handler = new CompoHandler();
 		if (fichier.length() > 0 && parseur != null) {
 			try {
 				parseur.parse(fichier, handler);
 			} catch (SAXException | IOException e) {
 				LOG.error("Erreur lors de la lecture du fichier", e);
-				LOG.error(uri);
+				LOG.error(filePath);
+			} catch (Exception e2) {
+				LOG.error("Runtime error when readind file", e2);
+				LOG.error(filePath);
+				throw e2;
 			}
 		}
 		return handler.getCompoList();
@@ -75,8 +79,7 @@ public final class ImportXML {
 
 	/**
 	 * Fusionne tous les fichiers à l'endroit indiqué dans {@code final.xml}. Export
-	 * le fichier final et
-	 * renvoie la liste de Composition.
+	 * le fichier final et renvoie la liste de Composition.
 	 * 
 	 * @param dirName le dossier où se situe les fichiers
 	 * @param resultLabel {@link JTextArea} la zone de texte pour afficher

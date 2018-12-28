@@ -102,7 +102,7 @@ public class MiscUtils {
 	public static String dateNow() {
 		Calendar greg = new GregorianCalendar();
 		Date date = greg.getTime();
-		return new Constant().getSdfHhMm().format(date);
+		return Constant.getSdfHhMm().format(date);
 	}
 
 	/**
