@@ -298,7 +298,7 @@
   <compo A="Troggs" T="Wild Thing" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="99" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Who" T="Won't Get Fooled Again" type="SONG" mergeable="true" del="false">
+  <compo A="Who" T="Won't Get Fooled Again" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="100" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Jay Z" T="'03 Bonnie And Clyde" type="SONG" mergeable="true" del="false">
@@ -694,7 +694,7 @@
   <compo A="Guns N' Roses" T="November Rain" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="231" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Smiths" T="Paint A Vulgar Picture" type="SONG" mergeable="true" del="false">
+  <compo A="Smiths" T="Paint A Vulgar Picture" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="232" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Temptations" T="Papa Was A Rolling Stone" type="SONG" mergeable="true" del="true">
@@ -1540,7 +1540,7 @@
   <compo A="Mr Oizo" T="Flat Beat" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="513" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Red Hot Chili Peppers" T="Give It Away" type="SONG" mergeable="true" del="false">
+  <compo A="Red Hot Chili Peppers" T="Give It Away" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="514" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Faithless" T="God Is A DJ" type="SONG" mergeable="true" del="false">
@@ -2914,7 +2914,7 @@
   <compo A="Beatles" T="Night Before" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="971" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Rolling Stones" T="Out Of Time" type="SONG" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Out Of Time" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="972" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Nick Drake" T="River Man" type="SONG" mergeable="true" del="false">

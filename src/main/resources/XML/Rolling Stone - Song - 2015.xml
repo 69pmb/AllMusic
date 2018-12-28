@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Weekend" T="Can't Feel My Face" type="SONG" mergeable="true" del="false">
+  <compo A="The Weekend" T="Can't Feel My Face" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Fatty Wap" T="Trap Queen" type="SONG" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <compo A="Jamie xx" T="I Know There's Gonna Be (Good Times)" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Adele" T="Hello" type="SONG" mergeable="true" del="false">
+  <compo A="Adele" T="Hello" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Kendrick Lamar" T="King Kunta" type="SONG" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <compo A="Future" T="Fuck Up Some Commas" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="8" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Tobias Jesso Jr." T="How Could You Babe" type="SONG" mergeable="true" del="false">
+  <compo A="Tobias Jesso Jr." T="How Could You Babe" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="9" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Jack U" T="Where Are You Now" type="SONG" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Florence And The Machine" T="Ship To Wreck" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="26" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Miguel" T="Coffee" type="SONG" mergeable="true" del="false">
+  <compo A="Miguel" T="Coffee" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="27" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Eric Church" T="Mr Misunderstood" type="SONG" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="The Weekend" T="Earned It" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="39" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Unknown Mortal Orchestra" T="Can't Keep Checking My Phone" type="SONG" mergeable="true" del="false">
+  <compo A="Unknown Mortal Orchestra" T="Can't Keep Checking My Phone" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="40" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Coldplay" T="Adventure Of A Lifetime" type="SONG" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Carly Rae Jepsen" T="Run Away With Me" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="49" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Titus Andronicus" T="Dimed Out" type="SONG" mergeable="true" del="false">
+  <compo A="Titus Andronicus" T="Dimed Out" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="50" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
 </ListCompositions>
