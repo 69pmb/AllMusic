@@ -51,6 +51,7 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.view.dialog.DeleteCompoDialog;
+import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
@@ -458,7 +459,7 @@ public class BatchUtils {
 		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
-	public static String massDeletion(String type, File file) {
+	public static String massDeletion(String type, File file, ArtistPanel artistPanel) {
 		LOG.debug("Start massDeletion");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Start massDeletion", true);
@@ -471,6 +472,7 @@ public class BatchUtils {
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		Map<String, String> criteria = new HashMap<String, String>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
+		artistPanel.interruptUpdateArtist(true);
 		for (int i = 0; i < compoCsv.size(); i++) {
 			// Search composition
 			CsvComposition compoToDelete = compoCsv.get(i);
@@ -507,8 +509,9 @@ public class BatchUtils {
 				compoToDelete.setDeleted("Already");
 				continue;
 			}
+			Composition found = compoFound.get(0);
 			// update dialog
-			deleteCompoDialog.updateDialog(compoToDelete, compoFound.get(0), i);
+			deleteCompoDialog.updateDialog(compoToDelete, found, i);
 			deleteCompoDialog.setVisible(true);
 			Boolean action = deleteCompoDialog.getSendData();
 			if (action == null) {
@@ -517,7 +520,16 @@ public class BatchUtils {
 				break;
 			} else if (action) {
 				// Delete composition
-				compoToDelete.setDeleted("OK");
+				try {
+					Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML,
+							found.getArtist(), found.getTitre(), found.getRecordType().toString(), true);
+					importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
+					CompositionUtils.removeCompositionsInFiles(found);
+					compoToDelete.setDeleted("OK");
+				} catch (MyException e) {
+					LOG.error("Error when deleting compostion: " + compoToDelete, e);
+					compoToDelete.setDeleted("Error");
+				}
 			} else {
 				// Skip composition
 				compoToDelete.setDeleted("KO");
@@ -534,9 +546,17 @@ public class BatchUtils {
 		CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
 		addLine(text, "File successfully exported", true);
 
+		try {
+			ExportXML.exportXML(importXML, Constant.getFinalFile());
+			artistPanel.updateArtistPanel();
+		} catch (IOException e1) {
+			LOG.error("Erreur lors de l'export du fichier final", e1);
+			addLine(text, "Erreur lors de l'export du fichier final !!" + e1, true);
+		}
+
 		LOG.debug("End massDeletion");
 		addLine(text, "End massDeletion", true);
-		return writeInFile(text, Constant.BATCH_FILE);
+		return writeInFile(text, "Delete.txt");
 	}
 
 	private static String cleanLine(String line, Set<Entry<String, String>> entrySet) {
