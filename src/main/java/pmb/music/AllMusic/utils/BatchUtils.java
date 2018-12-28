@@ -460,7 +460,6 @@ public class BatchUtils {
 
 	public static String massDeletion(String type, File file) {
 		LOG.debug("Start massDeletion");
-		type = RecordType.SONG.toString();
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Start massDeletion", true);
 
@@ -523,13 +522,16 @@ public class BatchUtils {
 				compoToDelete.setDeleted("KO");
 			}
 		}
+		addLine(text, "End of deleting", true);
 
+		// Modifies csv entry file
 		CustomColumnPositionMappingStrategy<CsvComposition> mappingStrategy = new CustomColumnPositionMappingStrategy<CsvComposition>();
 		mappingStrategy.setType(CsvComposition.class);
 		String[] columns = new String[] { "titre", "artist", "album", "duration", "bitrate", "added", "year",
 				"playCount", "rank", "lastPlay", "deleted" };
 		mappingStrategy.setColumnMapping(columns);
 		CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
+		addLine(text, "File successfully exported", true);
 
 		LOG.debug("End massDeletion");
 		addLine(text, "End massDeletion", true);

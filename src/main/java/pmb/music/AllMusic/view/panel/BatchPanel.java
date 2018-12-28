@@ -171,6 +171,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(massDeletion, massDeletionLabel, Component.LEFT_ALIGNMENT, 100);
 
 		// File chooser
+		JPanel choose = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
 		JLabel selectedFile = new JLabel();
 		JFileChooser jfile = new JFileChooser(Constant.getResourcesDir());
 		jfile.setApproveButtonText("Ouvrir");
@@ -186,17 +187,18 @@ public class BatchPanel extends JPanel {
 				selectedFile.setText(null);
 			}
 		});
-		PanelUtils.addComponent(massDeletion, selectedFile, Component.LEFT_ALIGNMENT, 80);
-		PanelUtils.addComponent(massDeletion, browse, Component.LEFT_ALIGNMENT, 80);
+		PanelUtils.addComponent(choose, browse, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(choose, selectedFile, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(massDeletion, choose, Component.LEFT_ALIGNMENT, 0);
 
 		// Type
-		JPanel typePanel = new JPanel();
-		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
+		JPanel typePanel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
+		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 50);
 		JComboBox<RecordType> type = new JComboBox<>(RecordType.values());
-		typePanel.add(typeLabel);
-		typePanel.add(type);
-		PanelUtils.setSize(typePanel, 100, PanelUtils.COMPONENT_HEIGHT);
-		PanelUtils.addComponent(massDeletion, typePanel, Component.LEFT_ALIGNMENT, 80);
+		PanelUtils.setSize(type, 100, PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.addComponent(typePanel, typeLabel, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(typePanel, type, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(massDeletion, typePanel, Component.RIGHT_ALIGNMENT, 100);
 
 		// Bouton d'action
 		JButton massDeletionBtn = PanelUtils.createJButton("Go Mass Deletion", 200, Constant.ICON_GO);
