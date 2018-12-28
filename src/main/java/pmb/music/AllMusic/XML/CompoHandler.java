@@ -99,7 +99,7 @@ public class CompoHandler extends DefaultHandler {
 			LOG.error(file, e);
 		}
 		try {
-			file.setCreationDate(Constant.getSdfDttm().parse(attributes.getValue(TAG_CREATION_DATE)));
+			file.setCreationDate(new Constant().getSdfDttm().parse(attributes.getValue(TAG_CREATION_DATE)));
 		} catch (ParseException | NumberFormatException e) {
 			file.setCreationDate(new Date());
 		}

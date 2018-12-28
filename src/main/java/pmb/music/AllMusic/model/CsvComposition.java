@@ -138,11 +138,11 @@ public class CsvComposition {
 	public String prettyToString() {
 		String lastPlayStr = "";
 		if (lastPlay != null) {
-			lastPlayStr = Constant.getSdfDttm().format(lastPlay);
+			lastPlayStr = new Constant().getSdfDttm().format(lastPlay);
 		}
 		String addedStr = "";
 		if (added != null) {
-			addedStr = Constant.getSdfDttm().format(added);
+			addedStr = new Constant().getSdfDttm().format(added);
 		}
 		return artist + " - " + titre + Constant.NEW_LINE + "year: " + year + Constant.NEW_LINE + "album: " + album
 				+ Constant.NEW_LINE + "duration: " + duration + Constant.NEW_LINE + "added: " + addedStr
