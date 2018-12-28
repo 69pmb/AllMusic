@@ -44,6 +44,7 @@ public class ExportXML {
 		LOG.debug("Start exportXML");
 		Document doc = DocumentHelper.createDocument();
 		Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
+		SimpleDateFormat sdfDttm = new Constant().getSdfDttm();
 
 		for (int i = 0; i < compList.size(); i++) {
 			// Ajout element <Order/>
@@ -73,7 +74,7 @@ public class ExportXML {
 				file.addAttribute(CompoHandler.TAG_CLASSEMENT,
 						String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
 				file.addAttribute(CompoHandler.TAG_CREATION_DATE,
-							Constant.getSdfDttm().format(compList.get(i).getFiles().get(j).getCreationDate()));
+							sdfDttm.format(compList.get(i).getFiles().get(j).getCreationDate()));
 					file.addAttribute(CompoHandler.TAG_SIZE,
 							String.valueOf(compList.get(i).getFiles().get(j).getSize()));
 			}
