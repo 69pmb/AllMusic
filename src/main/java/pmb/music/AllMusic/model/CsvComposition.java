@@ -144,10 +144,11 @@ public class CsvComposition {
 		if (added != null) {
 			addedStr = new Constant().getSdfDttm().format(added);
 		}
-		return artist + " - " + titre + Constant.NEW_LINE + "year: " + year + Constant.NEW_LINE + "album: " + album
-				+ Constant.NEW_LINE + "duration: " + duration + Constant.NEW_LINE + "added: " + addedStr
-				+ Constant.NEW_LINE + "playCount: " + playCount + Constant.NEW_LINE + "rank: " + rank
-				+ Constant.NEW_LINE + "lastPlay: " + lastPlayStr + Constant.NEW_LINE + "bit rate: " + bitRate;
+		return Constant.NEW_LINE + artist + " - " + titre + Constant.NEW_LINE + "Année: " + year + Constant.NEW_LINE
+				+ "Album: " + album + Constant.NEW_LINE + "Durée: " + duration + Constant.NEW_LINE + "Ajouté: "
+				+ addedStr + Constant.NEW_LINE + "Lectures: " + playCount + Constant.NEW_LINE + "Classement: "
+				+ rank / 20 + Constant.NEW_LINE + "Dernière lecture: " + lastPlayStr + Constant.NEW_LINE + "Bit rate: "
+				+ bitRate;
 	}
 
 	@Override

@@ -16,10 +16,13 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.JTextArea;
+import javax.swing.JTextPane;
 import javax.swing.UIManager;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
 
 import org.apache.log4j.Logger;
 
@@ -60,7 +63,7 @@ public class DeleteCompoDialog extends JDialog {
 	private int size;
 
 	// Components
-	private JTextArea compoCsv;
+	private JTextPane compoCsv;
 	JTable filesFound;
 	JButton yes;
 	JButton no;
@@ -92,14 +95,19 @@ public class DeleteCompoDialog extends JDialog {
 
 		// Csv compo
 		JPanel compoCsvPanel = new JPanel(new BorderLayout());
-		compoCsv = new JTextArea();
-		compoCsv.setWrapStyleWord(true);
-		compoCsv.setLineWrap(true);
+		compoCsv = new JTextPane();
 		compoCsv.setOpaque(false);
 		compoCsv.setEditable(false);
 		compoCsv.setBackground(UIManager.getColor("Label.background"));
 		compoCsv.setFont(UIManager.getFont("Label.font"));
 		compoCsv.setBorder(UIManager.getBorder("Label.border"));
+		compoCsv.setForeground(new Color(21, 77, 153));
+		Font labelFont = compoCsv.getFont();
+		compoCsv.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
+		StyledDocument doc = compoCsv.getStyledDocument();
+		SimpleAttributeSet center = new SimpleAttributeSet();
+		StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
+		doc.setParagraphAttributes(0, doc.getLength(), center, false);
 		compoCsvPanel.add(new JScrollPane(compoCsv), BorderLayout.CENTER);
 		panel.add(compoCsvPanel);
 
@@ -143,11 +151,7 @@ public class DeleteCompoDialog extends JDialog {
 	public void updateDialog(CsvComposition csv, Composition found, int index) {
 		sendData = null;
 		this.setTitle(index + "/" + size);
-		
 		compoCsv.setText(csv.prettyToString());
-		compoCsv.setForeground(new Color(10,208,111));
-		Font labelFont = compoCsv.getFont();
-		compoCsv.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
 
 		((DefaultTableModel) filesFound.getModel()).setRowCount(0);
 		((DefaultTableModel) filesFound.getModel()).setDataVector(
