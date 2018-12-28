@@ -10,7 +10,7 @@
   <compo A="Blue Oyster Cult" T="(Don't Fear) The Reaper" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="3" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="The Clash" T="(White Man) In Hammersmith Palais" type="SONG" mergeable="true" del="false">
+  <compo A="The Clash" T="(White Man) In Hammersmith Palais" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="4" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Amerie" T="1 Thing" type="SONG" mergeable="true" del="false">
@@ -1429,7 +1429,7 @@
   <compo A="A Guy Called Gerald" T="Voodoo Ray" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="476" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="The Flaming Lips" T="Waitin' For A Superman" type="SONG" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="Waitin' For A Superman" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="477" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Fugazi" T="Waiting Room" type="SONG" mergeable="true" del="false">

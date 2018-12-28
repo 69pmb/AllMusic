@@ -7,7 +7,7 @@
   <compo A="Fatty Wap" T="Trap Queen" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Drake" T="Hotline Bling" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Hotline Bling" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Courtney Barnett" T="Pedestrian At Best" type="SONG" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <compo A="The Weekend" T="The Hills" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Foals" T="What Went Down" type="SONG" mergeable="true" del="false">
+  <compo A="Foals" T="What Went Down" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="12" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Bully" T="Trying" type="SONG" mergeable="true" del="false">
@@ -64,13 +64,13 @@
   <compo A="Alessia Cara" T="Here" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Donnie Trumpet And The Social Experiment" T="Sunday Candy" type="SONG" mergeable="true" del="false">
+  <compo A="Donnie Trumpet And The Social Experiment" T="Sunday Candy" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Beck" T="Dreams" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="23" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Chvrches" T="Leave A Trace" type="SONG" mergeable="true" del="false">
+  <compo A="Chvrches" T="Leave A Trace" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="24" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Dawes" T="All Your Favourite Bands" type="SONG" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="Eric Church" T="Mr Misunderstood" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="28" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Drake" T="Know Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Know Yourself" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="29" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Selena Gomez" T="Good For You" type="SONG" mergeable="true" del="false">
