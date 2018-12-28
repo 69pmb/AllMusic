@@ -544,11 +544,12 @@ public class BatchUtils {
 				"playCount", "rank", "lastPlay", "deleted" };
 		mappingStrategy.setColumnMapping(columns);
 		CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
-		addLine(text, "File successfully exported", true);
+		addLine(text, "Csv file successfully exported", true);
 
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
 			artistPanel.updateArtistPanel();
+			addLine(text, "Final file successfully exported", true);
 		} catch (IOException e1) {
 			LOG.error("Erreur lors de l'export du fichier final", e1);
 			addLine(text, "Erreur lors de l'export du fichier final !!" + e1, true);
