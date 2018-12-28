@@ -691,7 +691,7 @@
   <compo A="Van Morrison" T="Moondance" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="231" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="Just Like a Woman" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Just Like a Woman" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="232" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Marvin Gaye" T="Sexual Healing" type="SONG" mergeable="true" del="false">
@@ -1234,7 +1234,7 @@
   <compo A="Rihanna" T="Umbrella [And Jay-Z]" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="412" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="Visions of Johanna" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Visions of Johanna" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="413" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Carpenters" T="We've Only Just Begun" type="SONG" mergeable="true" del="false">

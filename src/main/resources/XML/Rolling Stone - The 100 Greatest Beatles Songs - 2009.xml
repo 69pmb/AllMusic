@@ -25,7 +25,7 @@
   <compo A="The Beatles" T="Hey Jude" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="8" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Across The Universe" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Across The Universe" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="9" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="I Am The Walrus" type="SONG" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="The Beatles" T="Nowhere Man" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="13" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Long And Winding Road" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Long And Winding Road" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="14" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="You've Got To Hide Your Love Away" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="The Beatles" T="Girl" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="29" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Two Of Us" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Two Of Us" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="30" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="A Hard Day's Night" type="SONG" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="The Beatles" T="She Said She Said" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="71" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Dig A Pony" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Dig A Pony" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="72" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="With A Little Help From My Friends" type="SONG" mergeable="true" del="false">
@@ -256,7 +256,7 @@
   <compo A="The Beatles" T="Eight Days A Week" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="85" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Get Back" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Get Back" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="86" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="The Word" type="SONG" mergeable="true" del="false">

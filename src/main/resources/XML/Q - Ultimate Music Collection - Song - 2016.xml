@@ -157,7 +157,7 @@
   <compo A="Britney Spears" T="Baby, One More Time" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="52" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Bjork" T="Big Time Sensuality" type="SONG" mergeable="true" del="false">
+  <compo A="Bjork" T="Big Time Sensuality" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="53" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Mamas And The Papas" T="California Dreamin'" type="SONG" mergeable="true" del="false">
@@ -1390,13 +1390,13 @@
   <compo A="The Beatles" T="Something" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="463" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="The Beatles" T="Twof Us" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Twof Us" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="464" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="The Beatles" T="Get Back" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Get Back" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="465" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="The Beatles" T="Long And Winding Road" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Long And Winding Road" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="466" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Madonna" T="Holiday" type="SONG" mergeable="true" del="false">
@@ -1486,10 +1486,10 @@
   <compo A="Bob Dylan" T="Positively 4th Street" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="495" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Bob Dylan" T="Just Like A Woman" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Just Like A Woman" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="496" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Bob Dylan" T="I Want You" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="I Want You" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="497" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Bob Dylan" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
