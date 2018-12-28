@@ -46,7 +46,7 @@
   <compo A="IDLES" T="Danny Nedelko" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="19/12/2018 10:20:16" size="20"/>
   </compo>
-  <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="5" creation="19/12/2018 10:20:16" size="20"/>
   </compo>
   <compo A="Arctic Monkeys" T="Four Out Of Five" type="SONG" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="The 1975" T="Love It If We Made It" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="19/12/2018 10:20:16" size="20"/>
   </compo>
-  <compo A="Childish Gambino" T="This Is America" type="SONG" mergeable="true" del="false">
+  <compo A="Childish Gambino" T="This Is America" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="19/12/2018 10:20:16" size="20"/>
   </compo>
 </ListCompositions>
