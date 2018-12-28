@@ -18,24 +18,27 @@ public class CsvComposition {
 	@CsvBindByName(column = "Artiste")
 	private String artist;
 
-	@CsvBindByName(column = "Année")
-	private int year;
-
 	@CsvBindByName(column = "Album")
 	private String album;
 
 	@CsvBindByName(column = "Durée")
 	private String duration;
 
+	@CsvBindByName(column = "Débit")
+	private String bitRate;
+
 	@CsvBindByName(column = "Date d'ajout")
 	@CsvDate("dd/MM/yyyy HH:mm")
 	private Date added;
 
+	@CsvBindByName(column = "Année")
+	private Integer year;
+
 	@CsvBindByName(column = "Lectures")
-	private int playCount;
+	private Integer playCount;
 
 	@CsvBindByName(column = "Classement")
-	private int rank;
+	private Integer rank;
 
 	@CsvBindByName(column = "Dernière lecture")
 	@CsvDate("dd/MM/yyyy HH:mm")
@@ -60,14 +63,6 @@ public class CsvComposition {
 		this.artist = artist;
 	}
 
-	public int getYear() {
-		return year;
-	}
-
-	public void setYear(int year) {
-		this.year = year;
-	}
-
 	public String getAlbum() {
 		return album;
 	}
@@ -84,6 +79,14 @@ public class CsvComposition {
 		this.duration = duration;
 	}
 
+	public String getBitRate() {
+		return bitRate;
+	}
+
+	public void setBitRate(String bitRate) {
+		this.bitRate = bitRate;
+	}
+
 	public Date getAdded() {
 		return added;
 	}
@@ -92,19 +95,27 @@ public class CsvComposition {
 		this.added = added;
 	}
 
-	public int getPlayCount() {
+	public Integer getYear() {
+		return year;
+	}
+
+	public void setYear(Integer year) {
+		this.year = year;
+	}
+
+	public Integer getPlayCount() {
 		return playCount;
 	}
 
-	public void setPlayCount(int playCount) {
+	public void setPlayCount(Integer playCount) {
 		this.playCount = playCount;
 	}
 
-	public int getRank() {
+	public Integer getRank() {
 		return rank;
 	}
 
-	public void setRank(int rank) {
+	public void setRank(Integer rank) {
 		this.rank = rank;
 	}
 
@@ -124,18 +135,25 @@ public class CsvComposition {
 		this.deleted = deleted;
 	}
 
-	@Override
-	public String toString() {
-		return "CsvComposition [titre=" + titre + ", artist=" + artist + ", year=" + year + ", album=" + album
-				+ ", duration=" + duration + ", added=" + added + ", playCount=" + playCount + ", rank=" + rank
-				+ ", lastPlay=" + lastPlay + "]";
+	public String prettyToString() {
+		String lastPlayStr = "";
+		if (lastPlay != null) {
+			lastPlayStr = Constant.getSdfDttm().format(lastPlay);
+		}
+		String addedStr = "";
+		if (added != null) {
+			addedStr = Constant.getSdfDttm().format(added);
+		}
+		return artist + " - " + titre + Constant.NEW_LINE + "year: " + year + Constant.NEW_LINE + "album: " + album
+				+ Constant.NEW_LINE + "duration: " + duration + Constant.NEW_LINE + "added: " + addedStr
+				+ Constant.NEW_LINE + "playCount: " + playCount + Constant.NEW_LINE + "rank: " + rank
+				+ Constant.NEW_LINE + "lastPlay: " + lastPlayStr + Constant.NEW_LINE + "bit rate: " + bitRate;
 	}
 
-	public String prettyToString() {
-		return artist + " - " + titre + Constant.NEW_LINE + "year: " + year + Constant.NEW_LINE + "album: " + album
-				+ Constant.NEW_LINE + "duration: " + duration + Constant.NEW_LINE + "added: "
-				+ Constant.getSdfDttm().format(added) + Constant.NEW_LINE + "playCount: " + playCount
-				+ Constant.NEW_LINE + "rank: " + rank + Constant.NEW_LINE + "lastPlay: "
-				+ Constant.getSdfDttm().format(lastPlay);
+	@Override
+	public String toString() {
+		return "CsvComposition [titre=" + titre + ", artist=" + artist + ", album=" + album + ", duration=" + duration
+				+ ", bitRate=" + bitRate + ", added=" + added + ", year=" + year + ", playCount=" + playCount
+				+ ", rank=" + rank + ", lastPlay=" + lastPlay + ", deleted=" + deleted + "]";
 	}
 }
