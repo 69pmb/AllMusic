@@ -210,7 +210,7 @@ public class BatchPanel extends JPanel {
 				displayText("Start massDeletion: " + MiscUtils.getCurrentTime(), false);
 				new Thread(() -> {
 					fileResult = BatchUtils.massDeletion(type.getSelectedItem().toString(),
-							new File(selectedFile.getText()));
+							new File(selectedFile.getText()), artistPanel);
 					displayText("End massDeletion: " + MiscUtils.getCurrentTime(), false);
 				}).start();
 			} else {
