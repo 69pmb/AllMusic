@@ -67,7 +67,7 @@
   <compo A="Miranda Lambert" T="Vice" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="22" creation="02/09/2017 08:04:16" size="60"/>
   </compo>
-  <compo A="Radiohead" T="Daydreaming" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Daydreaming" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="23" creation="02/09/2017 08:04:16" size="60"/>
   </compo>
   <compo A="Nick Cave" T="I Need You" type="SONG" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Kanye West" T="Fade" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="32" creation="02/09/2017 08:04:16" size="60"/>
   </compo>
-  <compo A="Radiohead" T="True Love Waits" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="True Love Waits" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="33" creation="02/09/2017 08:04:16" size="60"/>
   </compo>
   <compo A="Rihanna" T="Needed Me" type="SONG" mergeable="true" del="true">

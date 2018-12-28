@@ -397,7 +397,7 @@
   <compo A="Bo Diddley" T="Who Do You Love" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="133" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Who" T="Won't Get Fooled Again" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Won't Get Fooled Again" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="134" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Wilson Pickett" T="In the Midnight Hour" type="SONG" mergeable="true" del="false">
@@ -427,7 +427,7 @@
   <compo A="James Brown" T="Please, Please, Please" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="143" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="SONG" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="144" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Ramones" T="I Wanna Be Sedated" type="SONG" mergeable="true" del="false">
@@ -1042,7 +1042,7 @@
   <compo A="The Supremes" T="You Keep Me Hanging On" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="348" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Who" T="Baba O'Riley" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Baba O'Riley" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="349" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Jimmy Cliff" T="The Harder They Come" type="SONG" mergeable="true" del="false">
@@ -1162,7 +1162,7 @@
   <compo A="U2" T="Pride (In The Name of Love)" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="388" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="R.E.M." T="Radio Free Europe" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="Radio Free Europe" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="389" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Elton John" T="Goodbye Yellow Brick Road" type="SONG" mergeable="true" del="false">

@@ -160,7 +160,7 @@
   <compo A="George Michael" T="Faith" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="53" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Red Hot Chili Peppers" T="Under The Bridge" type="SONG" mergeable="true" del="false">
+  <compo A="Red Hot Chili Peppers" T="Under The Bridge" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="54" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="-N Sync" T="Bye Bye Bye" type="SONG" mergeable="true" del="false">
