@@ -631,7 +631,7 @@
   <compo A="Fairport Convention" T="A Sailor's Life" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="277" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Led Zeppelin" T="When The Levee Breaks" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="When The Levee Breaks" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="278" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="The Pretty Things" T="Don't Bring Me Down" type="SONG" mergeable="true" del="false">
@@ -1255,7 +1255,7 @@
   <compo A="Santana" T="Oye Como Va" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="540" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Prince" T="When Doves Cry" type="SONG" mergeable="true" del="false">
+  <compo A="Prince" T="When Doves Cry" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="541" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="The Everly Brothers" T="Bye Bye Love" type="SONG" mergeable="true" del="false">
@@ -1588,7 +1588,7 @@
   <compo A="Sade" T="Your Love Is King" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="686" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="John Lennon" T="How Do You Sleep?" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="How Do You Sleep?" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="687" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Roy Orbison" T="In Dreams" type="SONG" mergeable="true" del="false">

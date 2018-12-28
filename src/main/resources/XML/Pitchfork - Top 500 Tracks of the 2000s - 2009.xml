@@ -151,7 +151,7 @@
   <compo A="Basement Jaxx" T="Romeo" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="50" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Jay-Z" T="Takeover" type="SONG" mergeable="true" del="false">
+  <compo A="Jay-Z" T="Takeover" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="51" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Kanye West" T="Flashing Lights" type="SONG" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="A Freelance Hellraiser" T="A Stroke of Genius" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="78" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Jay-Z" T="Izzo (H.O.V.A.)" type="SONG" mergeable="true" del="false">
+  <compo A="Jay-Z" T="Izzo (H.O.V.A.)" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="79" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Lil Wayne" T="A Milli" type="SONG" mergeable="true" del="false">
@@ -865,7 +865,7 @@
   <compo A="Fabolous" T="Breathe" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="288" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="PJ Harvey" T="Good Fortune" type="SONG" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Good Fortune" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="289" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="The Exploding Hearts" T="Modern Kicks" type="SONG" mergeable="true" del="false">

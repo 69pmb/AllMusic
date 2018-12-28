@@ -115,7 +115,7 @@
   <compo A="Abba" T="Dancing Queen" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="38" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="John Lennon" T="Jealous Guy" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="Jealous Guy" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="39" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Dusty Springfield" T="Son Of A Preacher Man" type="SONG" mergeable="true" del="false">
@@ -601,7 +601,7 @@
   <compo A="John Mills" T="Music" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="200" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Led Zeppelin" T="Rock And Roll" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Rock And Roll" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="201" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Mc5" T="Kick Out The Jams" type="SONG" mergeable="true" del="false">
@@ -1294,7 +1294,7 @@
   <compo A="Fleetwood Mac" T="Albatross" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="431" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Jay-Z" T="Izzo (H.O.V.A.)" type="SONG" mergeable="true" del="false">
+  <compo A="Jay-Z" T="Izzo (H.O.V.A.)" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="432" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Muse" T="Stockholm Syndrome" type="SONG" mergeable="true" del="false">

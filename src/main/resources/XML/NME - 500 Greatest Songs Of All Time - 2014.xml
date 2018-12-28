@@ -337,7 +337,7 @@
   <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="112" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Prince" T="When Doves Cry" type="SONG" mergeable="true" del="false">
+  <compo A="Prince" T="When Doves Cry" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="113" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Happy Mondays" T="Step On" type="SONG" mergeable="true" del="true">
@@ -625,7 +625,7 @@
   <compo A="Daft Punk" T="Da Funk" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="208" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="John Lennon" T="Jealous Guy" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="Jealous Guy" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="209" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Fall" T="Hit The North" type="SONG" mergeable="true" del="false">
@@ -946,7 +946,7 @@
   <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="315" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pavement" T="Here" type="SONG" mergeable="true" del="false">
+  <compo A="Pavement" T="Here" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="316" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Yeah Yeah Yeahs" T="Zero" type="SONG" mergeable="true" del="false">
@@ -1486,7 +1486,7 @@
   <compo A="Gorky's Zygotic Mynci" T="Patio Song" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="495" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Hey Joe" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Hey Joe" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="496" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Primal Scream" T="Kill All Hippies" type="SONG" mergeable="true" del="false">
