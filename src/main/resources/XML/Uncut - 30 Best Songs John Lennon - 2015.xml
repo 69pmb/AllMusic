@@ -22,10 +22,10 @@
   <compo A="John Lennon" T="#9 DREAM" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 30 Best Songs John Lennon - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="24" creation="03/09/2018 11:13:38" size="30"/>
   </compo>
-  <compo A="John Lennon" T="GIMME SOME TRUTH" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="GIMME SOME TRUTH" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 30 Best Songs John Lennon - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="23" creation="03/09/2018 11:13:38" size="30"/>
   </compo>
-  <compo A="John Lennon" T="JEALOUS GUY" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="JEALOUS GUY" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 30 Best Songs John Lennon - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="22" creation="03/09/2018 11:13:38" size="30"/>
   </compo>
   <compo A="The Beatles" T="HELP!" type="SONG" mergeable="true" del="true">
@@ -37,7 +37,7 @@
   <compo A="The Beatles" T="DEAR PRUDENCE" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 30 Best Songs John Lennon - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="19" creation="03/09/2018 11:13:38" size="30"/>
   </compo>
-  <compo A="John Lennon" T="HOW DO YOU SLEEP?" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="HOW DO YOU SLEEP?" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 30 Best Songs John Lennon - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="18" creation="03/09/2018 11:13:38" size="30"/>
   </compo>
   <compo A="The Beatles" T="THE BALLAD OF JOHN AND YOKO" type="SONG" mergeable="true" del="false">

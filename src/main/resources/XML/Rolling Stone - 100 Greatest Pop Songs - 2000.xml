@@ -79,7 +79,7 @@
   <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="26" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Prince" T="When Doves Cry" type="SONG" mergeable="true" del="false">
+  <compo A="Prince" T="When Doves Cry" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="27" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Hanson" T="MMMBop" type="SONG" mergeable="true" del="false">
