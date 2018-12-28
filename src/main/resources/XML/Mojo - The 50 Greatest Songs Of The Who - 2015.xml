@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Who" T="Baba O'riley" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Baba O'riley" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of The Who - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="1" creation="23/08/2018 11:50:05" size="50"/>
   </compo>
   <compo A="The Who" T="My Generation" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of The Who - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="2" creation="23/08/2018 11:50:05" size="50"/>
   </compo>
-  <compo A="The Who" T="Won't Get Fooled Again" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Won't Get Fooled Again" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of The Who - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="3" creation="23/08/2018 11:50:05" size="50"/>
   </compo>
   <compo A="The Who" T="Substitute" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of The Who - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="4" creation="23/08/2018 11:50:05" size="50"/>
   </compo>
-  <compo A="The Who" T="Behind Blue Eyes" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Behind Blue Eyes" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of The Who - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="5" creation="23/08/2018 11:50:05" size="50"/>
   </compo>
   <compo A="The Who" T="I Can't Explain" type="SONG" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <compo A="The Who" T="Circles" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of The Who - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="24" creation="23/08/2018 11:50:05" size="50"/>
   </compo>
-  <compo A="The Who" T="Bargain" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Bargain" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of The Who - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="25" creation="23/08/2018 11:50:05" size="50"/>
   </compo>
   <compo A="The Who" T="So Sad About Us" type="SONG" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="The Who" T="Eminence Front" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of The Who - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="47" creation="23/08/2018 11:50:05" size="50"/>
   </compo>
-  <compo A="The Who" T="Going Mobile" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Going Mobile" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of The Who - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="48" creation="23/08/2018 11:50:05" size="50"/>
   </compo>
   <compo A="The Who" T="Jaguar" type="SONG" mergeable="true" del="false">

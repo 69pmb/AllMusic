@@ -229,7 +229,7 @@
   <compo A="Frank Ocean" T="Nikes" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="25" creation="04/09/2017 13:51:19" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Daydreaming" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Daydreaming" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="24" creation="04/09/2017 13:51:19" size="100"/>
   </compo>
   <compo A="David Bowie" T="I Can't Give Everything Away" type="SONG" mergeable="true" del="true">
@@ -274,7 +274,7 @@
   <compo A="Rae Sremmurd" T="Black Beatles" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="10" creation="04/09/2017 13:51:19" size="100"/>
   </compo>
-  <compo A="Radiohead" T="True Love Waits" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="True Love Waits" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="9" creation="04/09/2017 13:51:19" size="100"/>
   </compo>
   <compo A="Angel Olsen" T="Shut Up Kiss Me" type="SONG" mergeable="true" del="true">

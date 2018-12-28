@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Prince" T="Purple Rain" type="SONG" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="1" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Michael Jackson" T="Wanna Be Startin' Somethin'" type="SONG" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Joy Division" T="Love Will Tear Us Apart" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="7" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Talking Heads" T="Once in a Lifetime" type="SONG" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Once in a Lifetime" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="8" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Grandmaster Flash" T="The Message" type="SONG" mergeable="true" del="true">
@@ -97,7 +97,7 @@
   <compo A="N.W.A" T="Fuck tha Police" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="32" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Prince" T="I Would Die 4 U" type="SONG" mergeable="true" del="false">
+  <compo A="Prince" T="I Would Die 4 U" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="33" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Afrika Bambaataa" T="Planet Rock" type="SONG" mergeable="true" del="false">
@@ -382,7 +382,7 @@
   <compo A="Cyndi Lauper" T="Girls Just Want to Have Fun" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="127" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="R.E.M." T="Radio Free Europe" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="Radio Free Europe" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="128" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="This Mortal Coil" T="Song to the Siren" type="SONG" mergeable="true" del="false">
