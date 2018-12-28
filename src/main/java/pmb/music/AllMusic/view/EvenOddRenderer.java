@@ -87,7 +87,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		if (value instanceof Number) {
 			value = NumberFormat.getNumberInstance().format(value);
 		} else if (value instanceof Date) {
-			value = Constant.getSdfDttm().format(value);
+			value = new Constant().getSdfDttm().format(value);
 		}
 		if (value instanceof String && ((String) value).length() > 30) {
 			setToolTipText((String) value);
