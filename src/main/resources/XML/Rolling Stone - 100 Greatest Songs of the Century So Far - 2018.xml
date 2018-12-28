@@ -223,7 +223,7 @@
   <compo A="Outkast" T="BOB" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="27" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
-  <compo A="Drake" T="Hotline Bling" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Hotline Bling" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="26" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
   <compo A="Mark Ronson" T="Uptown Funk" type="SONG" mergeable="true" del="false">
@@ -247,7 +247,7 @@
   <compo A="Robyn" T="Dancing On My Own" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="19" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Blackstar" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Blackstar" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="18" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
   <compo A="Missy Elliott" T="Work It" type="SONG" mergeable="true" del="false">

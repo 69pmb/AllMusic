@@ -964,7 +964,7 @@
   <compo A="The Animals" T="Don't Let Me Be Misunderstood" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="322" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Elvis Costello" T="Alison" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="Alison" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="323" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Pink Floyd" T="Wish You Were Here" type="SONG" mergeable="true" del="false">
@@ -1084,7 +1084,7 @@
   <compo A="Eric Clapton" T="Tears in Heaven" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="362" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Elvis Costello" T="Watching the Detectives" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="Watching the Detectives" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="363" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Creedence Clearwater Revival" T="Bad Moon Rising" type="SONG" mergeable="true" del="true">
@@ -1306,7 +1306,7 @@
   <compo A="Solomon Burke" T="Everybody Needs Somebody to Love" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="436" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Clash" T="White Man in Hammersmith Palais" type="SONG" mergeable="true" del="false">
+  <compo A="The Clash" T="White Man in Hammersmith Palais" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="437" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Fats Domino" T="Aint That A Shame" type="SONG" mergeable="true" del="true">

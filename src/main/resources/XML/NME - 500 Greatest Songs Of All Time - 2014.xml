@@ -205,7 +205,7 @@
   <compo A="The Beatles" T="Blackbird" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="68" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Clash" T="(White Man) In Hammersmith Palais" type="SONG" mergeable="true" del="false">
+  <compo A="The Clash" T="(White Man) In Hammersmith Palais" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="69" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Who" T="My Generation" type="SONG" mergeable="true" del="true">
@@ -1237,7 +1237,7 @@
   <compo A="Friendly Fires" T="Paris" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="412" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Elvis Costello" T="Watching the Detectives" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="Watching the Detectives" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="413" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Only Ones" T="Another Girl, Another Planet" type="SONG" mergeable="true" del="false">

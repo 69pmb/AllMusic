@@ -559,7 +559,7 @@
   <compo A="The Ravonettes" T="Little Animal" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="186" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Clash" T="(White Man) In Hammersmith Palais" type="SONG" mergeable="true" del="false">
+  <compo A="The Clash" T="(White Man) In Hammersmith Palais" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="187" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="A-Ha" T="Take On Me" type="SONG" mergeable="true" del="false">
@@ -1618,7 +1618,7 @@
   <compo A="Parliament" T="Flashlight" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="10" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Clash" T="I Fought The Law" type="SONG" mergeable="true" del="false">
+  <compo A="The Clash" T="I Fought The Law" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="540" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Chuck Berry" T="Maybellene" type="SONG" mergeable="true" del="false">

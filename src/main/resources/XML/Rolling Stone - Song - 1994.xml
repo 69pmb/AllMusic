@@ -10,7 +10,7 @@
   <compo A="Green Day" T="Longview" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Hole" T="Miss World" type="SONG" mergeable="true" del="false">
+  <compo A="Hole" T="Miss World" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
   <compo A="Coolio" T="Fantastic Voyage" type="SONG" mergeable="true" del="false">
