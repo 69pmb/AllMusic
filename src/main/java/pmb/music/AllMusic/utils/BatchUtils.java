@@ -505,6 +505,7 @@ public class BatchUtils {
 			} else if (compoFound.get(0).isDeleted()) {
 				// Already deleted
 				compoToDelete.setDeleted("Already");
+				continue;
 			}
 			// update dialog
 			deleteCompoDialog.updateDialog(compoToDelete, compoFound.get(0), i);
