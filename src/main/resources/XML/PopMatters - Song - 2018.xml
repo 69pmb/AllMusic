@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="St. Vincent" T="Fast Slow Disco" type="SONG" mergeable="true" del="false">
+  <compo A="St. Vincent" T="Fast Slow Disco" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="60" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
   <compo A="Silk City And Dua Lipa" T="Electricity" type="SONG" mergeable="true" del="false">
@@ -175,10 +175,10 @@
   <compo A="Ray BLK" T="Run Run" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
-  <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
-  <compo A="Childish Gambino" T="This Is America" type="SONG" mergeable="true" del="false">
+  <compo A="Childish Gambino" T="This Is America" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
 </ListCompositions>

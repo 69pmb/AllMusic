@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Childish Gambino" T="This Is America" type="SONG" mergeable="true" del="false">
+  <compo A="Childish Gambino" T="This Is America" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Ariana Grande" T="No Tears Left To Cry" type="SONG" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Charli XCX And Troye Sivan" T="1999" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="34" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Janelle Monae" T="Django Jane" type="SONG" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Django Jane" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="35" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Snail Mail" T="Pristine" type="SONG" mergeable="true" del="false">
@@ -154,7 +154,7 @@
   <compo A="Roisin Murphy" T="Plaything" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="51" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="St. Vincent" T="Fast Slow Disco" type="SONG" mergeable="true" del="false">
+  <compo A="St. Vincent" T="Fast Slow Disco" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="52" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Lykke Li" T="Deep End" type="SONG" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="Iceage" T="The Day The Music Dies" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="60" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Janelle Monae" T="Pynk (And Grimes)" type="SONG" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Pynk (And Grimes)" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="61" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Teyana Taylor" T="Rose In Harlem" type="SONG" mergeable="true" del="false">
