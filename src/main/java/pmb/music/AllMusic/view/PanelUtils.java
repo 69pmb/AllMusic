@@ -466,9 +466,10 @@ public class PanelUtils {
 	/**
 	 * Ajoute un composant au panel.
 	 * 
-	 * @param panel
-	 * @param component
-	 * @param alignement
+	 * @param panel le futur panel parent
+	 * @param component le composant à ajouter
+	 * @param alignement l'alignement vertical
+	 * @param rigidSize la largeur de la rigid area 
 	 */
 	public static void addComponent(JPanel panel, JComponent component, float alignement, int rigidSize) {
 		component.setAlignmentX(alignement);
