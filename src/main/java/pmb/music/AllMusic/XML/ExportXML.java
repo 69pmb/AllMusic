@@ -73,8 +73,9 @@ public class ExportXML {
 				file.addAttribute(CompoHandler.TAG_CLASSEMENT,
 						String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
 				file.addAttribute(CompoHandler.TAG_CREATION_DATE,
-						new Constant().getSdfDttm().format(compList.get(i).getFiles().get(j).getCreationDate()));
-				file.addAttribute(CompoHandler.TAG_SIZE, String.valueOf(compList.get(i).getFiles().get(j).getSize()));
+							Constant.getSdfDttm().format(compList.get(i).getFiles().get(j).getCreationDate()));
+					file.addAttribute(CompoHandler.TAG_SIZE,
+							String.valueOf(compList.get(i).getFiles().get(j).getSize()));
 			}
 		}
 		saveFile(fileName, doc);
