@@ -55,7 +55,7 @@
   <compo A="The Who" T="I'm One" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="18" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
-  <compo A="The Who" T="Tattoo" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Tattoo" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="19" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
   <compo A="The Who" T="I'm Free" type="SONG" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="The Who" T="Magic Bus" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="23" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
-  <compo A="The Who" T="Sunrise" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Sunrise" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="24" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
   <compo A="The Who" T="How Many Friends" type="SONG" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="The Who" T="Let's See Action" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="42" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
-  <compo A="The Who" T="I Can't Reach You" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="I Can't Reach You" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="43" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
   <compo A="The Who" T="Trick Of The Light" type="SONG" mergeable="true" del="false">

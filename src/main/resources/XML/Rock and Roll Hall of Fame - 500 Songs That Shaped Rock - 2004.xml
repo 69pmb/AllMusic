@@ -934,7 +934,7 @@
   <compo A="New York Dolls" T="Personality Crisis" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="311" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Randy Newman" T="Sail Away" type="SONG" mergeable="true" del="false">
+  <compo A="Randy Newman" T="Sail Away" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="312" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Nirvana" T="Smells Like Teen Spirit" type="SONG" mergeable="true" del="true">
@@ -1216,7 +1216,7 @@
   <compo A="Sister Sledge" T="We Are Family" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="405" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Percy Sledge" T="When a Man Loves a Woman" type="SONG" mergeable="true" del="false">
+  <compo A="Percy Sledge" T="When a Man Loves a Woman" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="406" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Sly and the Family Stone" T="Dance to the Music" type="SONG" mergeable="true" del="false">
