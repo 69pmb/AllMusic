@@ -187,7 +187,7 @@
   <compo A="Queens Of The Stone Age" T="No One Knows" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="39" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
-  <compo A="Beyonce" T="Formation" type="SONG" mergeable="true" del="false">
+  <compo A="Beyonce" T="Formation" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="38" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
   <compo A="Leonard Cohen" T="You Want It Darker" type="SONG" mergeable="true" del="true">

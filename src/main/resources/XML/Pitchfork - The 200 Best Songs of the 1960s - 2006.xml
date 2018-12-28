@@ -280,7 +280,7 @@
   <compo A="Harry Nilsson" T="One" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="108" creation="05/01/2018 13:17:17" size="200"/>
   </compo>
-  <compo A="Bob Dylan" T="Visions Of Johanna" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Visions Of Johanna" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="107" creation="05/01/2018 13:17:17" size="200"/>
   </compo>
   <compo A="Desmond Dekker" T="007 (Shanty Town)" type="SONG" mergeable="true" del="false">

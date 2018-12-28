@@ -142,7 +142,7 @@
   <compo A="The Stylistics" T="I'm Stone In Love With You" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Greatest Songs Of All The Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="35" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Just Like A Woman" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Just Like A Woman" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Greatest Songs Of All The Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="36" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
   <compo A="Charlie Rich" T="Feel Like Going Home" type="SONG" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <compo A="Nick Drake" T="River Man" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Greatest Songs Of All The Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="42" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Long And Winding Road" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Long And Winding Road" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Greatest Songs Of All The Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="43" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
   <compo A="James Carr" T="Dark End Of The Street" type="SONG" mergeable="true" del="false">

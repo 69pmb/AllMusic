@@ -19,7 +19,7 @@
   <compo A="The Beatles" T="Tomorrow Never Knows" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="6" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Across The Universe" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Across The Universe" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="7" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
   <compo A="The Beatles" T="While My Guitar Gently Weeps" type="SONG" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <compo A="The Beatles" T="Michelle" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="35" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Get Back" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Get Back" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="36" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
   <compo A="The Beatles" T="Here , There And Everywhere" type="SONG" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="The Beatles" T="Help!" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="41" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Two Of Us" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Two Of Us" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="42" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
   <compo A="The Beatles" T="Nowhere Man" type="SONG" mergeable="true" del="false">
@@ -196,7 +196,7 @@
   <compo A="The Beatles" T="Yellow Submarine" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="65" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Long And Winding Road" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Long And Winding Road" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="66" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
   <compo A="The Beatles" T="You're Going To Lose That Girl" type="SONG" mergeable="true" del="false">
@@ -277,10 +277,10 @@
   <compo A="The Beatles" T="Hello, Goodbye" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="92" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Dig A Pony" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Dig A Pony" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="93" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="I Me Mine" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="I Me Mine" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="94" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
   <compo A="The Beatles" T="You Know Mu Name (Look Up The Number)" type="SONG" mergeable="true" del="false">

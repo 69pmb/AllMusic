@@ -139,7 +139,7 @@
   <compo A="Bob Dylan" T="Girl From The North Country" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="46" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Bob Dylan" T="Visions Of Johanna" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Visions Of Johanna" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="47" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Bob Dylan" T="Wedding Song" type="SONG" mergeable="true" del="false">
@@ -535,7 +535,7 @@
   <compo A="Bob Dylan" T="If You See Her, Say Hello" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="178" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Bob Dylan" T="Just Like A Woman" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Just Like A Woman" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="179" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Bob Dylan" T="She's Your Lover Now" type="SONG" mergeable="true" del="false">
@@ -1369,7 +1369,7 @@
   <compo A="Ian Dury" T="Wake Up And Make Love With Me" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="456" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Bob Dylan" T="I Want You" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="I Want You" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="457" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Bob Dylan" T="Lay Lady Lay" type="SONG" mergeable="true" del="false">
@@ -2542,7 +2542,7 @@
   <compo A="B-52's" T="Love Shack" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="847" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Bjork" T="Big Time Sensuality" type="SONG" mergeable="true" del="false">
+  <compo A="Bjork" T="Big Time Sensuality" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="848" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Hamilton Bohannon" T="Let's Start II Dance Again" type="SONG" mergeable="true" del="false">

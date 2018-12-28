@@ -115,7 +115,7 @@
   <compo A="Rihanna" T="Kiss It Better" type="SONG" mergeable="true" del="false">
     <file author="Paste" name="Paste - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="13" creation="04/09/2017 13:42:41" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="22 (OVER SooN)" type="SONG" mergeable="true" del="false">
+  <compo A="Bon Iver" T="22 (OVER SooN)" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="12" creation="04/09/2017 13:42:41" size="50"/>
   </compo>
   <compo A="Pinegrove" T="Old Friends" type="SONG" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Mitski" T="Your Best American Girl" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="2" creation="04/09/2017 13:42:41" size="50"/>
   </compo>
-  <compo A="Beyonce" T="Formation" type="SONG" mergeable="true" del="false">
+  <compo A="Beyonce" T="Formation" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="1" creation="04/09/2017 13:42:41" size="50"/>
   </compo>
 </ListCompositions>
