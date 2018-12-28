@@ -124,7 +124,7 @@
   <compo A="Tame Impala" T="The Less I Know The Better" type="SONG" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="10" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
-  <compo A="Natalie Prass" T="My Baby Don't Understand Me" type="SONG" mergeable="true" del="false">
+  <compo A="Natalie Prass" T="My Baby Don't Understand Me" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="9" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
   <compo A="Shamir" T="On The Regular" type="SONG" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Sufjan Stevens" T="The Only Thing" type="SONG" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="2" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
-  <compo A="Jamie xx" T="Loud Places" type="SONG" mergeable="true" del="false">
+  <compo A="Jamie xx" T="Loud Places" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="1" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
 </ListCompositions>

@@ -70,7 +70,7 @@
   <compo A="Bob Dylan" T="Tangled Up in Blue" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1970s - 2016" publish="2016" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="23" creation="04/07/2018 14:22:19" size="200"/>
   </compo>
-  <compo A="Led Zeppelin" T="When the Levee Breaks" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="When the Levee Breaks" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1970s - 2016" publish="2016" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="24" creation="04/07/2018 14:22:19" size="200"/>
   </compo>
   <compo A="Curtis Mayfield" T="Move on Up" type="SONG" mergeable="true" del="false">
@@ -370,7 +370,7 @@
   <compo A="Roberta Flack" T="Killing Me Softly With His Song" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1970s - 2016" publish="2016" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="123" creation="04/07/2018 14:22:19" size="200"/>
   </compo>
-  <compo A="John Lennon" T="Jealous Guy" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="Jealous Guy" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1970s - 2016" publish="2016" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="124" creation="04/07/2018 14:22:19" size="200"/>
   </compo>
   <compo A="Kool And the Gang" T="Summer Madness" type="SONG" mergeable="true" del="false">
