@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.lang.reflect.Field;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.nio.file.Files;
@@ -14,6 +15,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.IntSummaryStatistics;
 import java.util.LinkedList;
@@ -33,10 +35,13 @@ import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.reflect.FieldUtils;
 import org.apache.commons.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
+
+import com.opencsv.bean.CsvBindByName;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -557,7 +562,7 @@ public class BatchUtils {
 			}
 			Composition found = compoFound.get(0);
 			// update dialog
-			deleteCompoDialog.updateDialog(compoToDelete, found, i);
+			deleteCompoDialog.updateDialog(prettyPrintForSong(compoToDelete), found, i);
 			deleteCompoDialog.setVisible(true);
 			Boolean action = deleteCompoDialog.getSendData();
 			if (action == null) {
@@ -582,6 +587,43 @@ public class BatchUtils {
 			}
 		}
 		addLine(text, "End of deleting Song", true);
+	}
+
+	private static String prettyPrintForSong(CsvComposition csv) {
+		StringBuilder sb = new StringBuilder();
+		List<String> ignoreField = Arrays.asList("deletedSong", "deletedAlbum", "artist", "titre", "trackNumber",
+				"cdNumber");
+		sb.append(Constant.NEW_LINE).append(csv.getArtist()).append(" - ").append(csv.getTitre());
+		try {
+			Field[] declaredFields = CsvComposition.class.getDeclaredFields();
+			for (int i = 0; i < declaredFields.length; i++) {
+				Field field = declaredFields[i];
+				CsvBindByName annotation = field.getAnnotationsByType(CsvBindByName.class)[0];
+				Object fieldValue = field.get(csv);
+				if (fieldValue != null) {
+					if (ignoreField.contains(field.getName())) {
+						continue;
+					}
+					sb.append(Constant.NEW_LINE).append(annotation.column()).append(": ")
+							.append(convertValueField(field, fieldValue));
+				}
+			}
+		} catch (IllegalArgumentException | IllegalAccessException e) {
+			LOG.error("This should not append", e);
+		}
+		return sb.toString();
+	}
+
+	private static String convertValueField(Field field, Object fieldValue) {
+		String result;
+		if (field.getType().equals(Date.class)) {
+			result = new Constant().getSdfDttm().format(fieldValue);
+		} else if (field.getName().equals("rank")) {
+			result = String.valueOf((Integer) fieldValue / 20) + " Stars";
+		} else {
+			result = String.valueOf(fieldValue);
+		}
+		return result;
 	}
 
 	/**
@@ -643,7 +685,7 @@ public class BatchUtils {
 			}
 			Composition found = compoFound.get(0);
 			// update dialog
-			deleteCompoDialog.updateDialog(compoToDelete, found, i);
+			deleteCompoDialog.updateDialog(prettyPrintForAlbum(compoAlbum), found, i);
 			deleteCompoDialog.setVisible(true);
 			Boolean action = deleteCompoDialog.getSendData();
 			if (action == null) {
@@ -668,6 +710,51 @@ public class BatchUtils {
 			}
 		}
 		addLine(text, "End of deleting Album", true);
+	}
+
+	private static String prettyPrintForAlbum(List<CsvComposition> list) {
+		StringBuilder sb = new StringBuilder();
+		try {
+			sb.append(Constant.NEW_LINE).append(groupByField(list, "artist"));
+			sb.append(Constant.NEW_LINE).append("Album: " + list.get(0).getAlbum());
+			sb.append(Constant.NEW_LINE).append(groupByField(list, "added"));
+			sb.append(Constant.NEW_LINE).append(groupByField(list, "year"));
+			sb.append(Constant.NEW_LINE).append(groupByField(list, "playCount"));
+			sb.append(Constant.NEW_LINE).append(groupByField(list, "rank"));
+		} catch (IllegalArgumentException | NoSuchFieldException | SecurityException e) {
+			LOG.error("This should not append", e);
+		}
+		return sb.toString();
+	}
+
+	private static String groupByField(List<CsvComposition> list, String field)
+			throws NoSuchFieldException, SecurityException {
+		String result = "";
+		Map<Object, Long> collect = list.stream().collect(Collectors.groupingBy(csv -> {
+			try {
+				return FieldUtils.readField(csv, field, true);
+			} catch (IllegalArgumentException | IllegalAccessException | SecurityException e) {
+				LOG.error("This should not append", e);
+				return "";
+			}
+		}, Collectors.counting()));
+		Field declaredField = FieldUtils.getDeclaredField(CsvComposition.class, field, true);
+		if (!collect.isEmpty()) {
+			if (collect.size() == 1) {
+				result = convertValueField(declaredField, collect.keySet().iterator().next());
+			} else {
+				result = "{ "
+						+ collect.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+								.map(e -> e.getValue() + " = " + convertValueField(declaredField, e.getKey()))
+								.collect(Collectors.joining(", "))
+						+ " }";
+			}
+		}
+		if (StringUtils.isNotBlank(result)) {
+			return declaredField.getAnnotationsByType(CsvBindByName.class)[0].column() + ": " + result;
+		} else {
+			return "";
+		}
 	}
 
 	private static Map<String, String> fillSearchCriteriaForMassDeletion(String type, String artist, String titre) {
