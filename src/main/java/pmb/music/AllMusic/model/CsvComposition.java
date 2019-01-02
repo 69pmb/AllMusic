@@ -1,6 +1,9 @@
 package pmb.music.AllMusic.model;
 
+import java.lang.reflect.Field;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 import com.opencsv.bean.CsvBindByName;
 import com.opencsv.bean.CsvDate;
@@ -43,6 +46,12 @@ public class CsvComposition {
 	@CsvBindByName(column = "Derniere lecture")
 	@CsvDate("dd/MM/yyyy HH:mm")
 	private Date lastPlay;
+
+	@CsvBindByName(column = "Numero de piste")
+	private String trackNumber;
+
+	@CsvBindByName(column = "Numero de disque")
+	private String cdNumber;
 
 	@CsvBindByName(column = "Deleted")
 	private String deleted;
@@ -135,29 +144,56 @@ public class CsvComposition {
 		this.deleted = deleted;
 	}
 
+	public String getTrackNumber() {
+		return trackNumber;
+	}
+
+	public void setTrackNumber(String trackNumber) {
+		this.trackNumber = trackNumber;
+	}
+
+	public String getCdNumber() {
+		return cdNumber;
+	}
+
+	public void setCdNumber(String cdNumber) {
+		this.cdNumber = cdNumber;
+	}
+
 	public String prettyToString() {
-		String lastPlayStr = "";
-		if (lastPlay != null) {
-			lastPlayStr = new Constant().getSdfDttm().format(lastPlay);
+		StringBuilder sb = new StringBuilder();
+		List<String> ignoreField = Arrays.asList("deleted", "artist", "titre", "trackNumber", "cdNumber");
+		sb.append(Constant.NEW_LINE).append(artist).append(" - ").append(titre);
+		try {
+			Field[] declaredFields = CsvComposition.class.getDeclaredFields();
+			for (int i = 0; i < declaredFields.length; i++) {
+				Field field = declaredFields[i];
+				CsvBindByName annotation = field.getAnnotationsByType(CsvBindByName.class)[0];
+				if (field.get(this) != null) {
+					if (ignoreField.contains(field.getName())) {
+						continue;
+					}
+					sb.append(Constant.NEW_LINE).append(annotation.column()).append(": ");
+					if (field.getType().equals(Date.class)) {
+						sb.append(new Constant().getSdfDttm().format(field.get(this)));
+					} else if (field.getName().equals("rank")) {
+						sb.append((Integer) field.get(this) / 20);
+					} else {
+						sb.append(field.get(this));
+					}
+				}
+			}
+		} catch (IllegalArgumentException | IllegalAccessException e) {
+			e.printStackTrace();
 		}
-		String addedStr = "";
-		if (added != null) {
-			addedStr = new Constant().getSdfDttm().format(added);
-		}
-		Integer rankStr = 0;
-		if (rank != null) {
-			rankStr = rank / 20;
-		}
-		return Constant.NEW_LINE + artist + " - " + titre + Constant.NEW_LINE + "Année: " + year + Constant.NEW_LINE
-				+ "Album: " + album + Constant.NEW_LINE + "Durée: " + duration + Constant.NEW_LINE + "Ajouté: "
-				+ addedStr + Constant.NEW_LINE + "Lectures: " + playCount + Constant.NEW_LINE + "Classement: " + rankStr
-				+ Constant.NEW_LINE + "Dernière lecture: " + lastPlayStr + Constant.NEW_LINE + "Bit rate: " + bitRate;
+		return sb.toString();
 	}
 
 	@Override
 	public String toString() {
 		return "CsvComposition [titre=" + titre + ", artist=" + artist + ", album=" + album + ", duration=" + duration
 				+ ", bitRate=" + bitRate + ", added=" + added + ", year=" + year + ", playCount=" + playCount
-				+ ", rank=" + rank + ", lastPlay=" + lastPlay + ", deleted=" + deleted + "]";
+				+ ", rank=" + rank + ", lastPlay=" + lastPlay + ", trackNumber=" + trackNumber + ", cdNumber="
+				+ cdNumber + ", deleted=" + deleted + "]";
 	}
 }

@@ -541,7 +541,7 @@ public class BatchUtils {
 		CustomColumnPositionMappingStrategy<CsvComposition> mappingStrategy = new CustomColumnPositionMappingStrategy<CsvComposition>();
 		mappingStrategy.setType(CsvComposition.class);
 		String[] columns = new String[] { "titre", "artist", "album", "duration", "bitrate", "added", "year",
-				"playCount", "rank", "lastPlay", "deleted" };
+				"playCount", "rank", "lastPlay", "trackNumber", "cdNumber", "deleted" };
 		mappingStrategy.setColumnMapping(columns);
 		CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
 		addLine(text, "Csv file successfully exported", true);
