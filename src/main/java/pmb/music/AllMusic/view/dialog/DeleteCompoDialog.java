@@ -71,13 +71,12 @@ public class DeleteCompoDialog extends JDialog {
 	 * Constructeur de {@link DeleteCompoDialog}.
 	 * 
 	 * @param parent {@link JFrame} la fenetre parente
-	 * @param header {@link String} les entetes de la popup
+	 * @param height la hauteur de la popup
 	 * @param compoCsv {@link CsvComposition} la composition dont la suppression
 	 *            doit être confirmée
-	 * @param height la hauteur de la popup
 	 */
-	public DeleteCompoDialog(JFrame parent, String header, int size, int height) {
-		super(parent, header, true);
+	public DeleteCompoDialog(JFrame parent, int size, int height) {
+		super(parent, "", true);
 		LOG.debug("Start DeleteCompoDialog");
 		this.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
 		this.setLocationRelativeTo(null);

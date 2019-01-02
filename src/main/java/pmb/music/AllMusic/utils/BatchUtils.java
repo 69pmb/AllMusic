@@ -487,15 +487,23 @@ public class BatchUtils {
 		List<CsvComposition> compoCsv = CsvFile.importCsv(file, CsvComposition.class);
 		addLine(text, "Import csv file successfully", true);
 
-		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null,
-				"Confirmation de la suppression de la composition", compoCsv.size(), 800);
+		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, compoCsv.size(), 800);
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		artistPanel.interruptUpdateArtist(true);
 		if (type.equals(RecordType.SONG.toString())) {
-			massDeletionForSongs(file, text, compoCsv, deleteCompoDialog, importXML);
+			massDeletionForSongs(text, compoCsv, deleteCompoDialog, importXML);
 		} else {
 			massDeletionForAlbums(text, compoCsv, deleteCompoDialog, importXML);
 		}
+
+		// Modifies csv entry file
+		CustomColumnPositionMappingStrategy<CsvComposition> mappingStrategy = new CustomColumnPositionMappingStrategy<CsvComposition>();
+		mappingStrategy.setType(CsvComposition.class);
+		String[] columns = new String[] { "titre", "artist", "album", "duration", "bitrate", "added", "year",
+				"playCount", "rank", "lastPlay", "trackNumber", "cdNumber", "deletedSong", "deletedAlbum" };
+		mappingStrategy.setColumnMapping(columns);
+		CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
+		addLine(text, "Csv file successfully exported", true);
 
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
@@ -514,18 +522,17 @@ public class BatchUtils {
 	/**
 	 * Mass deletion for songs.
 	 * 
-	 * @param file input file containing a list of song
 	 * @param text log
 	 * @param compoCsv compo to delete
 	 * @param deleteCompoDialog dialog to confirm or not the deletion
 	 * @param importXML compo from final file
 	 */
-	private static void massDeletionForSongs(File file, StringBuilder text, List<CsvComposition> compoCsv,
+	private static void massDeletionForSongs(StringBuilder text, List<CsvComposition> compoCsv,
 			DeleteCompoDialog deleteCompoDialog, List<Composition> importXML) {
 		for (int i = 0; i < compoCsv.size(); i++) {
 			// Search composition
 			CsvComposition compoToDelete = compoCsv.get(i);
-			if (StringUtils.isNotBlank(compoToDelete.getDeleted())) {
+			if (StringUtils.isNotBlank(compoToDelete.getDeletedSong())) {
 				// Already processed
 				continue;
 			}
@@ -537,15 +544,15 @@ public class BatchUtils {
 					false);
 			if (compoFound.isEmpty()) {
 				// nothing found
-				compoToDelete.setDeleted("Not Found");
+				compoToDelete.setDeletedSong("Not Found");
 				continue;
 			} else if (compoFound.size() > 1) {
 				// Multiple result
-				compoToDelete.setDeleted("Size: " + compoFound.size());
+				compoToDelete.setDeletedSong("Size: " + compoFound.size());
 				continue;
 			} else if (compoFound.get(0).isDeleted()) {
 				// Already deleted
-				compoToDelete.setDeleted("Already");
+				compoToDelete.setDeletedSong("Already");
 				continue;
 			}
 			Composition found = compoFound.get(0);
@@ -555,7 +562,7 @@ public class BatchUtils {
 			Boolean action = deleteCompoDialog.getSendData();
 			if (action == null) {
 				// stop everything
-				LOG.debug("stop");
+				LOG.debug("Stop");
 				break;
 			} else if (action) {
 				// Delete composition
@@ -564,26 +571,17 @@ public class BatchUtils {
 							found.getArtist(), found.getTitre(), found.getRecordType().toString(), true);
 					importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
 					CompositionUtils.removeCompositionsInFiles(found);
-					compoToDelete.setDeleted("OK");
+					compoToDelete.setDeletedSong("OK");
 				} catch (MyException e) {
 					LOG.error("Error when deleting compostion: " + compoToDelete, e);
-					compoToDelete.setDeleted("Error");
+					compoToDelete.setDeletedSong("Error");
 				}
 			} else {
 				// Skip composition
-				compoToDelete.setDeleted("KO");
+				compoToDelete.setDeletedSong("KO");
 			}
 		}
-		addLine(text, "End of deleting", true);
-
-		// Modifies csv entry file
-		CustomColumnPositionMappingStrategy<CsvComposition> mappingStrategy = new CustomColumnPositionMappingStrategy<CsvComposition>();
-		mappingStrategy.setType(CsvComposition.class);
-		String[] columns = new String[] { "titre", "artist", "album", "duration", "bitrate", "added", "year",
-				"playCount", "rank", "lastPlay", "trackNumber", "cdNumber", "deleted" };
-		mappingStrategy.setColumnMapping(columns);
-		CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
-		addLine(text, "Csv file successfully exported", true);
+		addLine(text, "End of deleting Song", true);
 	}
 
 	/**
@@ -600,7 +598,6 @@ public class BatchUtils {
 				.sorted(Comparator.comparing(CsvComposition::getAlbum).thenComparing(compareByTrackNumber.reversed()))
 				.map(CsvComposition::getAlbum).filter(s -> StringUtils.isNotBlank(s)).distinct()
 				.collect(Collectors.toList());
-		List<List<String>> result = new ArrayList<>();
 		for (int i = 0; i < albumList.size(); i++) {
 			String album = albumList.get(i);
 			List<CsvComposition> compoAlbum = compoCsv.stream().filter(csv -> csv.getAlbum().equals(album))
@@ -609,22 +606,23 @@ public class BatchUtils {
 			String trackNumber = compoToDelete.getTrackNumber();
 			String albumToSearch = "";
 			if (compoAlbum.size() < 5 || StringUtils.isBlank(trackNumber)) {
+				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Invalid"));
 				continue;
 			} else if (StringUtils.contains(trackNumber, " sur ")) {
 				String[] split = StringUtils.split(trackNumber, " sur ");
 				String max = split[1];
 				if (compoAlbum.size() == Integer.valueOf(max)) {
 					albumToSearch = album;
+				} else {
+					compoAlbum.forEach(csv -> csv.setDeletedAlbum("Incomplete"));
+					continue;
 				}
 			} else if (compoAlbum.size() == Integer.valueOf(trackNumber)) {
 				albumToSearch = album;
-			}
-			if (StringUtils.isBlank(albumToSearch)) {
+			} else {
+				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Too Small"));
 				continue;
 			}
-			ArrayList<String> rowResult = new ArrayList<>();
-			rowResult.add(compoToDelete.getArtist());
-			rowResult.add(albumToSearch);
 			Map<String, String> criteria = fillSearchCriteriaForMassDeletion(RecordType.ALBUM.toString(),
 					compoToDelete.getArtist(), albumToSearch);
 			// Search composition
@@ -632,15 +630,15 @@ public class BatchUtils {
 					true);
 			if (compoFound.isEmpty()) {
 				// nothing found
-				rowResult.add("Not Found");
+				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Not Found"));
 				continue;
 			} else if (compoFound.size() > 1) {
 				// Multiple result
-				rowResult.add("Size: " + compoFound.size());
+				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Size: " + compoFound.size()));
 				continue;
 			} else if (compoFound.get(0).isDeleted()) {
 				// Already deleted
-				rowResult.add("Already");
+				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Already"));
 				continue;
 			}
 			Composition found = compoFound.get(0);
@@ -650,7 +648,7 @@ public class BatchUtils {
 			Boolean action = deleteCompoDialog.getSendData();
 			if (action == null) {
 				// stop everything
-				LOG.debug("stop");
+				LOG.debug("Stop");
 				break;
 			} else if (action) {
 				// Delete composition
@@ -659,23 +657,17 @@ public class BatchUtils {
 							found.getArtist(), found.getTitre(), found.getRecordType().toString(), true);
 					importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
 					CompositionUtils.removeCompositionsInFiles(found);
-					rowResult.add("OK");
+					compoAlbum.forEach(csv -> csv.setDeletedAlbum("OK"));
 				} catch (MyException e) {
 					LOG.error("Error when deleting compostion: " + compoToDelete, e);
-					rowResult.add("Error");
+					compoAlbum.forEach(csv -> csv.setDeletedAlbum("Error"));
 				}
 			} else {
 				// Skip composition
-				rowResult.add("KO");
+				compoAlbum.forEach(csv -> csv.setDeletedAlbum("KO"));
 			}
-			result.add(rowResult);
 		}
-		addLine(text, "End of deleting", true);
-
-		String[] header = { "Artist", "Album", "Deleted" };
-		CsvFile.exportCsv("Delete Albums", result,
-				Arrays.asList(new SortKey(0, SortOrder.ASCENDING), new SortKey(1, SortOrder.ASCENDING)), header);
-		addLine(text, "Csv result file successfully exported", true);
+		addLine(text, "End of deleting Album", true);
 	}
 
 	private static Map<String, String> fillSearchCriteriaForMassDeletion(String type, String artist, String titre) {
