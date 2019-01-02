@@ -146,10 +146,10 @@ public class DeleteCompoDialog extends JDialog {
 		LOG.debug("End initComponent");
 	}
 
-	public void updateDialog(CsvComposition csv, Composition found, int index) {
+	public void updateDialog(String csv, Composition found, int index) {
 		sendData = null;
 		this.setTitle(index + "/" + size);
-		compoCsv.setText(csv.prettyToString());
+		compoCsv.setText(csv);
 
 		((DefaultTableModel) filesFound.getModel()).setRowCount(0);
 		((DefaultTableModel) filesFound.getModel()).setDataVector(
