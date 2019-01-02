@@ -58,6 +58,26 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
 
+	public static Comparator<CsvComposition> compareByTrackNumber = (CsvComposition c1, CsvComposition c2) -> {
+		String s1 = c1.getTrackNumber();
+		if (StringUtils.contains(s1, " sur")) {
+			s1 = StringUtils.substringBefore(s1, " sur ");
+		}
+		String s2 = c2.getTrackNumber();
+		if (StringUtils.contains(s2, " sur")) {
+			s2 = StringUtils.substringBefore(s2, " sur ");
+		}
+		Integer int1 = 0;
+		if (StringUtils.isNotBlank(s1)) {
+			int1 = Integer.valueOf(s1);
+		}
+		Integer int2 = 0;
+		if (StringUtils.isNotBlank(s2)) {
+			int2 = Integer.valueOf(s2);
+		}
+		return int1.compareTo(int2);
+	};
+
 	/**
 	 * @param song
 	 * @param album
@@ -470,9 +490,38 @@ public class BatchUtils {
 		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null,
 				"Confirmation de la suppression de la composition", compoCsv.size(), 800);
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		Map<String, String> criteria = new HashMap<String, String>();
-		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
 		artistPanel.interruptUpdateArtist(true);
+		if (type.equals(RecordType.SONG.toString())) {
+			massDeletionForSongs(file, text, compoCsv, deleteCompoDialog, importXML);
+		} else {
+			massDeletionForAlbums(text, compoCsv, deleteCompoDialog, importXML);
+		}
+
+		try {
+			ExportXML.exportXML(importXML, Constant.getFinalFile());
+			artistPanel.updateArtistPanel();
+			addLine(text, "Final file successfully exported", true);
+		} catch (IOException e1) {
+			LOG.error("Erreur lors de l'export du fichier final", e1);
+			addLine(text, "Erreur lors de l'export du fichier final !!" + e1, true);
+		}
+
+		LOG.debug("End massDeletion");
+		addLine(text, "End massDeletion", true);
+		return writeInFile(text, "Delete.txt");
+	}
+
+	/**
+	 * Mass deletion for songs.
+	 * 
+	 * @param file input file containing a list of song
+	 * @param text log
+	 * @param compoCsv compo to delete
+	 * @param deleteCompoDialog dialog to confirm or not the deletion
+	 * @param importXML compo from final file
+	 */
+	private static void massDeletionForSongs(File file, StringBuilder text, List<CsvComposition> compoCsv,
+			DeleteCompoDialog deleteCompoDialog, List<Composition> importXML) {
 		for (int i = 0; i < compoCsv.size(); i++) {
 			// Search composition
 			CsvComposition compoToDelete = compoCsv.get(i);
@@ -480,18 +529,8 @@ public class BatchUtils {
 				// Already processed
 				continue;
 			}
-			// Clean artist and title
-			Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
-			String stripArtist = StringUtils.substringBefore(
-					SearchUtils.removeParentheses(CleanFile
-							.removeDiactriticals(cleanLine(compoToDelete.getArtist().toLowerCase(), entrySet))),
-					" and ");
-			if (StringUtils.startsWith(stripArtist, "the ")) {
-				stripArtist = StringUtils.substringAfter(stripArtist, "the ");
-			}
-			criteria.put(SearchUtils.CRITERIA_ARTIST, SearchUtils.removePunctuation(stripArtist));
-			criteria.put(SearchUtils.CRITERIA_TITRE, SearchUtils.removePunctuation(SearchUtils.removeParentheses(
-					CleanFile.removeDiactriticals(cleanLine(compoToDelete.getTitre().toLowerCase(), entrySet)))));
+			Map<String, String> criteria = fillSearchCriteriaForMassDeletion(RecordType.SONG.toString(),
+					compoToDelete.getArtist(), compoToDelete.getTitre());
 
 			// Search composition
 			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
@@ -545,19 +584,115 @@ public class BatchUtils {
 		mappingStrategy.setColumnMapping(columns);
 		CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
 		addLine(text, "Csv file successfully exported", true);
+	}
 
-		try {
-			ExportXML.exportXML(importXML, Constant.getFinalFile());
-			artistPanel.updateArtistPanel();
-			addLine(text, "Final file successfully exported", true);
-		} catch (IOException e1) {
-			LOG.error("Erreur lors de l'export du fichier final", e1);
-			addLine(text, "Erreur lors de l'export du fichier final !!" + e1, true);
+	/**
+	 * Mass deletion for albums.
+	 * 
+	 * @param text log
+	 * @param compoCsv compo ffrom csv file
+	 * @param deleteCompoDialog dialog to confirm of not deletion
+	 * @param importXML all compo from final file
+	 */
+	private static void massDeletionForAlbums(StringBuilder text, List<CsvComposition> compoCsv,
+			DeleteCompoDialog deleteCompoDialog, List<Composition> importXML) {
+		List<String> albumList = compoCsv.stream()
+				.sorted(Comparator.comparing(CsvComposition::getAlbum).thenComparing(compareByTrackNumber.reversed()))
+				.map(CsvComposition::getAlbum).filter(s -> StringUtils.isNotBlank(s)).distinct()
+				.collect(Collectors.toList());
+		List<List<String>> result = new ArrayList<>();
+		for (int i = 0; i < albumList.size(); i++) {
+			String album = albumList.get(i);
+			List<CsvComposition> compoAlbum = compoCsv.stream().filter(csv -> csv.getAlbum().equals(album))
+					.collect(Collectors.toList());
+			CsvComposition compoToDelete = compoAlbum.get(0);
+			String trackNumber = compoToDelete.getTrackNumber();
+			String albumToSearch = "";
+			if (compoAlbum.size() < 5 || StringUtils.isBlank(trackNumber)) {
+				continue;
+			} else if (StringUtils.contains(trackNumber, " sur ")) {
+				String[] split = StringUtils.split(trackNumber, " sur ");
+				String max = split[1];
+				if (compoAlbum.size() == Integer.valueOf(max)) {
+					albumToSearch = album;
+				}
+			} else if (compoAlbum.size() == Integer.valueOf(trackNumber)) {
+				albumToSearch = album;
+			}
+			if (StringUtils.isBlank(albumToSearch)) {
+				continue;
+			}
+			ArrayList<String> rowResult = new ArrayList<>();
+			rowResult.add(compoToDelete.getArtist());
+			rowResult.add(albumToSearch);
+			Map<String, String> criteria = fillSearchCriteriaForMassDeletion(RecordType.ALBUM.toString(),
+					compoToDelete.getArtist(), albumToSearch);
+			// Search composition
+			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
+					true);
+			if (compoFound.isEmpty()) {
+				// nothing found
+				rowResult.add("Not Found");
+				continue;
+			} else if (compoFound.size() > 1) {
+				// Multiple result
+				rowResult.add("Size: " + compoFound.size());
+				continue;
+			} else if (compoFound.get(0).isDeleted()) {
+				// Already deleted
+				rowResult.add("Already");
+				continue;
+			}
+			Composition found = compoFound.get(0);
+			// update dialog
+			deleteCompoDialog.updateDialog(compoToDelete, found, i);
+			deleteCompoDialog.setVisible(true);
+			Boolean action = deleteCompoDialog.getSendData();
+			if (action == null) {
+				// stop everything
+				LOG.debug("stop");
+				break;
+			} else if (action) {
+				// Delete composition
+				try {
+					Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML,
+							found.getArtist(), found.getTitre(), found.getRecordType().toString(), true);
+					importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
+					CompositionUtils.removeCompositionsInFiles(found);
+					rowResult.add("OK");
+				} catch (MyException e) {
+					LOG.error("Error when deleting compostion: " + compoToDelete, e);
+					rowResult.add("Error");
+				}
+			} else {
+				// Skip composition
+				rowResult.add("KO");
+			}
+			result.add(rowResult);
 		}
+		addLine(text, "End of deleting", true);
 
-		LOG.debug("End massDeletion");
-		addLine(text, "End massDeletion", true);
-		return writeInFile(text, "Delete.txt");
+		String[] header = { "Artist", "Album", "Deleted" };
+		CsvFile.exportCsv("Delete Albums", result,
+				Arrays.asList(new SortKey(0, SortOrder.ASCENDING), new SortKey(1, SortOrder.ASCENDING)), header);
+		addLine(text, "Csv result file successfully exported", true);
+	}
+
+	private static Map<String, String> fillSearchCriteriaForMassDeletion(String type, String artist, String titre) {
+		Map<String, String> criteria = new HashMap<String, String>();
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
+		// Clean artist and title
+		Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
+		String stripArtist = StringUtils.substringBefore(
+				SearchUtils.removeParentheses(CleanFile.removeDiactriticals(cleanLine(artist.toLowerCase(), entrySet))),
+				" and ");
+		if (StringUtils.startsWith(stripArtist, "the ")) {
+			stripArtist = StringUtils.substringAfter(stripArtist, "the ");
+		}
+		criteria.put(SearchUtils.CRITERIA_ARTIST, SearchUtils.removePunctuation(stripArtist));
+		criteria.put(SearchUtils.CRITERIA_TITRE, SearchUtils.removePunctuation(SearchUtils
+				.removeParentheses(CleanFile.removeDiactriticals(cleanLine(titre.toLowerCase(), entrySet)))));
+		return criteria;
 	}
 
 	private static String cleanLine(String line, Set<Entry<String, String>> entrySet) {
