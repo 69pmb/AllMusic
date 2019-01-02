@@ -53,8 +53,11 @@ public class CsvComposition {
 	@CsvBindByName(column = "Numero de disque")
 	private String cdNumber;
 
-	@CsvBindByName(column = "Deleted")
-	private String deleted;
+	@CsvBindByName(column = "Deleted Song")
+	private String deletedSong;
+
+	@CsvBindByName(column = "Deleted Album")
+	private String deletedAlbum;
 
 	public String getTitre() {
 		return titre;
@@ -136,12 +139,20 @@ public class CsvComposition {
 		this.lastPlay = lastPlay;
 	}
 
-	public String getDeleted() {
-		return deleted;
+	public String getDeletedSong() {
+		return deletedSong;
 	}
 
-	public void setDeleted(String deleted) {
-		this.deleted = deleted;
+	public void setDeletedSong(String deletedSong) {
+		this.deletedSong = deletedSong;
+	}
+
+	public String getDeletedAlbum() {
+		return deletedAlbum;
+	}
+
+	public void setDeletedAlbum(String deletedAlbum) {
+		this.deletedAlbum = deletedAlbum;
 	}
 
 	public String getTrackNumber() {
@@ -162,7 +173,8 @@ public class CsvComposition {
 
 	public String prettyToString() {
 		StringBuilder sb = new StringBuilder();
-		List<String> ignoreField = Arrays.asList("deleted", "artist", "titre", "trackNumber", "cdNumber");
+		List<String> ignoreField = Arrays.asList("deletedSong", "deletedAlbum", "artist", "titre", "trackNumber",
+				"cdNumber");
 		sb.append(Constant.NEW_LINE).append(artist).append(" - ").append(titre);
 		try {
 			Field[] declaredFields = CsvComposition.class.getDeclaredFields();
@@ -194,6 +206,6 @@ public class CsvComposition {
 		return "CsvComposition [titre=" + titre + ", artist=" + artist + ", album=" + album + ", duration=" + duration
 				+ ", bitRate=" + bitRate + ", added=" + added + ", year=" + year + ", playCount=" + playCount
 				+ ", rank=" + rank + ", lastPlay=" + lastPlay + ", trackNumber=" + trackNumber + ", cdNumber="
-				+ cdNumber + ", deleted=" + deleted + "]";
+				+ cdNumber + ", deletedSong=" + deletedSong + ", deletedAlbum=" + deletedAlbum + "]";
 	}
 }
