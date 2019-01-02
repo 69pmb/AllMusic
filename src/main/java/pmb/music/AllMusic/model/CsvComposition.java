@@ -1,14 +1,9 @@
 package pmb.music.AllMusic.model;
 
-import java.lang.reflect.Field;
-import java.util.Arrays;
 import java.util.Date;
-import java.util.List;
 
 import com.opencsv.bean.CsvBindByName;
 import com.opencsv.bean.CsvDate;
-
-import pmb.music.AllMusic.utils.Constant;
 
 /**
  * Created by PBR on 27 déc. 2018.
@@ -169,36 +164,6 @@ public class CsvComposition {
 
 	public void setCdNumber(String cdNumber) {
 		this.cdNumber = cdNumber;
-	}
-
-	public String prettyToString() {
-		StringBuilder sb = new StringBuilder();
-		List<String> ignoreField = Arrays.asList("deletedSong", "deletedAlbum", "artist", "titre", "trackNumber",
-				"cdNumber");
-		sb.append(Constant.NEW_LINE).append(artist).append(" - ").append(titre);
-		try {
-			Field[] declaredFields = CsvComposition.class.getDeclaredFields();
-			for (int i = 0; i < declaredFields.length; i++) {
-				Field field = declaredFields[i];
-				CsvBindByName annotation = field.getAnnotationsByType(CsvBindByName.class)[0];
-				if (field.get(this) != null) {
-					if (ignoreField.contains(field.getName())) {
-						continue;
-					}
-					sb.append(Constant.NEW_LINE).append(annotation.column()).append(": ");
-					if (field.getType().equals(Date.class)) {
-						sb.append(new Constant().getSdfDttm().format(field.get(this)));
-					} else if (field.getName().equals("rank")) {
-						sb.append((Integer) field.get(this) / 20);
-					} else {
-						sb.append(field.get(this));
-					}
-				}
-			}
-		} catch (IllegalArgumentException | IllegalAccessException e) {
-			e.printStackTrace();
-		}
-		return sb.toString();
 	}
 
 	@Override
