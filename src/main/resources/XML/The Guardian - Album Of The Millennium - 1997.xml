@@ -169,7 +169,7 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="56" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="57" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Bob Marley" T="Legend" type="ALBUM" mergeable="true" del="false">

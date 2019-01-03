@@ -73,7 +73,7 @@
   <compo A="Sufjan Stevens" T="Illinois" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="24" creation="24/08/2018 10:49:47" size="50"/>
   </compo>
-  <compo A="Oasis" T="Don't Believe The Truth" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Don't Believe The Truth" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="25" creation="24/08/2018 10:49:47" size="50"/>
   </compo>
   <compo A="Rufus Wainwright" T="Want Two" type="ALBUM" mergeable="true" del="false">

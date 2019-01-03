@@ -10,7 +10,7 @@
   <compo A="Lou Reed" T="New York" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="3" creation="04/09/2018 10:49:26" size="50"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="4" creation="04/09/2018 10:49:26" size="50"/>
   </compo>
   <compo A="New Order" T="Technique" type="ALBUM" mergeable="true" del="false">
