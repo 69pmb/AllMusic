@@ -139,7 +139,7 @@
   <compo A="The Streets" T="Original Pirate Material" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="46" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="47" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="REM" T="Automatic For The People" type="ALBUM" mergeable="true" del="false">

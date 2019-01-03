@@ -61,7 +61,7 @@
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="20" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="21" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
@@ -1153,13 +1153,13 @@
   <compo A="ABC" T="The Lexicon Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="384" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Frank Ocean" T="Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Frank Ocean" T="Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="385" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="LCD Soundsystem" T="LCD Soundsystem" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="386" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Bon Iver" T="Bon Iver, Bon Iver" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="Bon Iver, Bon Iver" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="387" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Disclosure" T="Settle" type="ALBUM" mergeable="true" del="false">
@@ -1840,7 +1840,7 @@
   <compo A="The Orb" T="The Orb's Adventures Beyond The Ultraworld" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="613" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Grimes" T="Art Angels" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grimes" T="Art Angels" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="614" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Swans" T="To Be Kind" type="ALBUM" mergeable="true" del="false">
@@ -2065,7 +2065,7 @@
   <compo A="Justin Timberlake" T="FutureSex/LoveSounds" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="688" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="689" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Garbage" T="Garbage" type="ALBUM" mergeable="true" del="false">
@@ -3466,7 +3466,7 @@
   <compo A="Mott The Hoople" T="All The Young Dudes" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1155" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1156" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Beck" T="Morning Phase" type="ALBUM" mergeable="true" del="false">

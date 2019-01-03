@@ -73,7 +73,7 @@
   <compo A="Band" T="The Band" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="24" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="25" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">

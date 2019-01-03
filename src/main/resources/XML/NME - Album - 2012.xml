@@ -28,7 +28,7 @@
   <compo A="Jake Bugg" T="Jake Bugg" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Django Django" T="Django Django" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Cat Power" T="Sun" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="21" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="22" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Richard Hawley" T="Standing At The Sky's Edge" type="ALBUM" mergeable="true" del="false">

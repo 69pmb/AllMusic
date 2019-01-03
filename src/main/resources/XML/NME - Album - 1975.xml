@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="1" creation="04/09/2018 10:52:11" size="20"/>
   </compo>
   <compo A="Bob Marley" T="Natty Dread" type="ALBUM" mergeable="true" del="false">

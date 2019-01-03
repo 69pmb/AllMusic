@@ -10,7 +10,7 @@
   <compo A="Fiona Apple" T="The Idler Wheel" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="10/08/2018 15:25:12" size="75"/>
   </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="10/08/2018 15:25:12" size="75"/>
   </compo>
   <compo A="Swans" T="The Seer" type="ALBUM" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="The Walkmen" T="Heaven" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="10/08/2018 15:25:12" size="75"/>
   </compo>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="14" creation="10/08/2018 15:25:12" size="75"/>
   </compo>
   <compo A="Baroness" T="Yellow And Green" type="ALBUM" mergeable="true" del="false">

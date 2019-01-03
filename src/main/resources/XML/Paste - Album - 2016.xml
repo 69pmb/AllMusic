@@ -121,7 +121,7 @@
   <compo A="Kanye West" T="The Life of Pablo" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="11" creation="04/09/2017 11:25:10" size="50"/>
   </compo>
-  <compo A="Frank Ocean" T="Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Frank Ocean" T="Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="10" creation="04/09/2017 11:25:10" size="50"/>
   </compo>
   <compo A="Bon Iver" T="22, A Million" type="ALBUM" mergeable="true" del="true">

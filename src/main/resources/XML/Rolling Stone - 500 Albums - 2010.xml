@@ -49,7 +49,7 @@
   <compo A="Jimi Hendrix" T="Are You Experienced" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="15" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="16" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">

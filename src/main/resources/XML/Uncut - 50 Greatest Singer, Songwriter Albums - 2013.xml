@@ -49,7 +49,7 @@
   <compo A="Neil Young" T="On The Beach" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 50 Greatest Singer, Songwriter Albums - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="16" creation="03/09/2018 10:15:25" size="50"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 50 Greatest Singer, Songwriter Albums - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="17" creation="03/09/2018 10:15:25" size="50"/>
   </compo>
   <compo A="Joan Baez" T="Diamonds And Rust" type="ALBUM" mergeable="true" del="false">

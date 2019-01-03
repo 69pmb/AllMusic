@@ -46,7 +46,7 @@
   <compo A="Paul Simon" T="So Beautiful Or So What" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="15" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="Bon Iver" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="Bon Iver, Bon Iver" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="16" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Bill Wells And Aidan Moffat" T="Everything's Getting Older" type="ALBUM" mergeable="true" del="false">

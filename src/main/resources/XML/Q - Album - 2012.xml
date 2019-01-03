@@ -19,7 +19,7 @@
   <compo A="Bat For Lashes" T="The Haunted Man" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="false" rank="6" creation="28/08/2018 11:44:11" size="50"/>
   </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="false" rank="7" creation="28/08/2018 11:44:11" size="50"/>
   </compo>
   <compo A="Jake Bugg" T="Bloom" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Paul Weller" T="Sonic Kicks" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="false" rank="49" creation="28/08/2018 11:44:11" size="50"/>
   </compo>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="false" rank="50" creation="28/08/2018 11:44:11" size="50"/>
   </compo>
 </ListCompositions>
