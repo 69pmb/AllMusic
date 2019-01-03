@@ -42,6 +42,12 @@ public class MiscUtils {
 				.compareTo(new Double(Double.parseDouble(StringUtils.replaceAll(s2, ",", "."))));
 	};
 
+	public static Comparator<String> compareInteger = (String s1, String s2) -> {
+		s1 = StringUtils.isBlank(s1) ? "0" : s1;
+		s2 = StringUtils.isBlank(s2) ? "0" : s2;
+		return Integer.valueOf(s1).compareTo(Integer.valueOf(s2));
+	};
+
 	private MiscUtils() {
 	}
 
