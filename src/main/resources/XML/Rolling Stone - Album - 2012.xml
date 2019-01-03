@@ -7,7 +7,7 @@
   <compo A="Frank Ocean" T="Channel Orange" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Bob Dylan" T="Tempest" type="ALBUM" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="Gary Clark Jr." T="Blak and Blu" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="27" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="28" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Dave Matthews Band" T="Away From the World" type="ALBUM" mergeable="true" del="false">

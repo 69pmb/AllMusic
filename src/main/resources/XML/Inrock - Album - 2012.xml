@@ -142,7 +142,7 @@
   <compo A="Chairlift" T="Something" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="53" creation="11/09/2018 17:56:32" size="99"/>
   </compo>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="52" creation="11/09/2018 17:56:32" size="99"/>
   </compo>
   <compo A="Animal Collective" T="Centipede Hz" type="ALBUM" mergeable="true" del="false">
@@ -265,7 +265,7 @@
   <compo A="Grizzly Bear" T="Shields" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="11/09/2018 17:56:32" size="99"/>
   </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="11/09/2018 17:56:32" size="99"/>
   </compo>
   <compo A="The XX" T="Coexist" type="ALBUM" mergeable="true" del="false">

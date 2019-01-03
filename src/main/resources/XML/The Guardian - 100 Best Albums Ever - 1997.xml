@@ -115,7 +115,7 @@
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="38" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="39" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Verve" T="A Northern Soul" type="ALBUM" mergeable="true" del="false">

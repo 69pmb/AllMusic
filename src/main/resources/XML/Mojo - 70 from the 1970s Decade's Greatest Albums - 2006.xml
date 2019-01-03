@@ -124,7 +124,7 @@
   <compo A="Queen" T="Sheer Heart Attack" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" publish="2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="41" creation="23/08/2018 13:43:16" size="70"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" publish="2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="42" creation="23/08/2018 13:43:16" size="70"/>
   </compo>
   <compo A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" mergeable="true" del="false">

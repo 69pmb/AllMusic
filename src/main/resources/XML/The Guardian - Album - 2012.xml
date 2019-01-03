@@ -85,7 +85,7 @@
   <compo A="Tribes" T="Baby" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="28" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="29" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
   <compo A="Angel Haze" T="Reservation" type="ALBUM" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <compo A="Nite Jewel" T="One Second Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="35" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="36" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
   <compo A="Orbital" T="Wonky" type="ALBUM" mergeable="true" del="false">

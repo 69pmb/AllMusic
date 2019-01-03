@@ -142,7 +142,7 @@
   <compo A="Frank Ocean" T="Nostalgia, Ultra." type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="54" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="53" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
   <compo A="James Blake" T="James Blake" type="ALBUM" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <compo A="My Bloody Valentine" T="mbv" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="28" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
-  <compo A="Bon Iver" T="Bon Iver, Bon Iver" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="Bon Iver, Bon Iver" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="27" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
   <compo A="Deafheaven" T="Sunbather" type="ALBUM" mergeable="true" del="false">

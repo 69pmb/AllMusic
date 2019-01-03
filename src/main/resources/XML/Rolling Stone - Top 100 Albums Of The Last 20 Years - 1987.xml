@@ -34,7 +34,7 @@
   <compo A="Elvis Costello" T="This Year's Model" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="11" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="12" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="The Basement Tapes" type="ALBUM" mergeable="true" del="false">

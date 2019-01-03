@@ -151,7 +151,7 @@
   <compo A="The Impressions" T="Big 16" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="50" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="51" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Suicide" T="Alan Vega/Martin Rev" type="ALBUM" mergeable="true" del="false">

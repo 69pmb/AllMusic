@@ -31,7 +31,7 @@
   <compo A="The Beatles" T="The White Album" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="10" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="11" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">

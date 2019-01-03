@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="24/08/2018 10:52:17" size="20"/>
   </compo>
   <compo A="Frank Ocean" T="Channel Orange" type="ALBUM" mergeable="true" del="false">
