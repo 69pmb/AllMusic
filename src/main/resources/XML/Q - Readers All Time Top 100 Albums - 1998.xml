@@ -133,7 +133,7 @@
   <compo A="Kula Shaker" T="K" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="44" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="45" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Paul Weller" T="Stanley Road" type="ALBUM" mergeable="true" del="false">

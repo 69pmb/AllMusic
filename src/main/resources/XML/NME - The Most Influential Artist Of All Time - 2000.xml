@@ -139,7 +139,7 @@
   <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="16" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="16" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
   <compo A="Mos Def" T="Black Star" type="ALBUM" mergeable="true" del="false">

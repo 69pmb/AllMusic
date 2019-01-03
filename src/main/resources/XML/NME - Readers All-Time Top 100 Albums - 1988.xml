@@ -46,7 +46,7 @@
   <compo A="Bob Dylan" T="Hlghway 61 Revisited" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="15" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On Thetracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On Thetracks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="16" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">

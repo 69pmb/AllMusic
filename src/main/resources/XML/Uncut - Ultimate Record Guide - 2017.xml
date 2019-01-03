@@ -439,7 +439,7 @@
   <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="146" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="147" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Bob Dylan" T="Bob Dylan" type="ALBUM" mergeable="true" del="false">
@@ -559,7 +559,7 @@
   <compo A="Bon Iver" T="22, A Million" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="186" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Bon Iver" T="Bon Iver" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="Bon Iver, Bon Iver" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="187" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">

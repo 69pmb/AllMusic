@@ -7,7 +7,7 @@
   <compo A="Bob Dylan" T="Tempest" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="03/09/2018 10:39:01" size="75"/>
   </compo>
-  <compo A="Jack White" T="Blunderbust" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jack White" T="Blunderbust" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="03/09/2018 10:39:01" size="75"/>
   </compo>
   <compo A="Dr John" T="Locked Down" type="ALBUM" mergeable="true" del="false">
