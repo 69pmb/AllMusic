@@ -934,7 +934,7 @@
   <compo A="David Bowie" T="1.Outside" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="311" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="David Bowie" T="Aladdin Sane" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Aladdin Sane" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="312" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="David Bowie" T="Blackstar" type="ALBUM" mergeable="true" del="true">
@@ -2593,7 +2593,7 @@
   <compo A="Morrissey" T="Viva Hate" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="864" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Motorhead" T="Ace Of Spades" type="ALBUM" mergeable="true" del="false">
+  <compo A="Motorhead" T="Ace Of Spades" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="865" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Motorhead" T="No Sleep 'Till Hammersmith" type="ALBUM" mergeable="true" del="false">
@@ -2635,7 +2635,7 @@
   <compo A="Neil Young" T="A Letter Home" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="878" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="879" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Neil Young" T="American Stars 'N Bars" type="ALBUM" mergeable="true" del="false">
@@ -3970,7 +3970,7 @@
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1323" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Beatles" T="Beatles For Sale" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Beatles For Sale" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1324" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Beatles" T="Help!" type="ALBUM" mergeable="true" del="false">
@@ -4495,7 +4495,7 @@
   <compo A="The Reverend Gary Davis" T="At Newport" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1498" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1499" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">

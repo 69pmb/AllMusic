@@ -25,7 +25,7 @@
   <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="8" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="U2" T="Achung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="9" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
@@ -262,7 +262,7 @@
   <compo A="P.J. Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="87" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="88" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Morrissey" T="Vauxhall And I" type="ALBUM" mergeable="true" del="false">

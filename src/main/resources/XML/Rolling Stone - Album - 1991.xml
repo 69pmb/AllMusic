@@ -4,7 +4,7 @@
   <compo A="R.E.M." T="Out Of Time" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
