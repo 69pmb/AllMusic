@@ -64,7 +64,7 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="21" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="22" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">

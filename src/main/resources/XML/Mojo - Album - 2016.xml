@@ -46,7 +46,7 @@
   <compo A="The Cult" T="Hidden City" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="15" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="22, A Million" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="22, A Million" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="16" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
   <compo A="Dinosaur Jr" T="Give A Glimpse Of What Yer Not" type="ALBUM" mergeable="true" del="false">

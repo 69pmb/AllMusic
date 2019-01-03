@@ -964,7 +964,7 @@
   <compo A="Beatles" T="1" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="321" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="322" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Beatles" T="Magical Mystery Tour" type="ALBUM" mergeable="true" del="false">
