@@ -19,7 +19,7 @@
   <compo A="Love" T="Forever Changes" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="6" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="7" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <compo A="John Coltrane" T="A Love Supreme" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="35" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="36" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Kinks" T="The Kinks Are The Village Green Society" type="ALBUM" mergeable="true" del="false">
@@ -286,7 +286,7 @@
   <compo A="The Flying Burrito Brothers" T="The Guided Palace Of Sin" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="95" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="96" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Cure" T="Pornography" type="ALBUM" mergeable="true" del="false">
@@ -346,7 +346,7 @@
   <compo A="Tom Waits" T="Rain Dogs" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="115" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="116" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Specials" T="The Specials" type="ALBUM" mergeable="true" del="false">
@@ -448,7 +448,7 @@
   <compo A="The Beatles" T="A Hard Day's Night" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="149" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="150" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Daft Punk" T="Discovery" type="ALBUM" mergeable="true" del="false">

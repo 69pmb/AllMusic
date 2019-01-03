@@ -436,7 +436,7 @@
   <compo A="Bob Dylan" T="Another Side Of Bob Dylan" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="145" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="146" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
@@ -649,7 +649,7 @@
   <compo A="Bruce Springsteen" T="Born In The USA" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="216" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="217" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" mergeable="true" del="true">
@@ -2008,7 +2008,7 @@
   <compo A="Joni Mitchell" T="The Hissing Of Summer Lawns" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="669" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="670" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
@@ -2401,7 +2401,7 @@
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="800" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="801" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Massive Attack" T="Mezzanine" type="ALBUM" mergeable="true" del="false">
@@ -3049,7 +3049,7 @@
   <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1016" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1017" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
@@ -3277,7 +3277,7 @@
   <compo A="Ray Charles" T="What'd I Say" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1092" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Red Hot Chili Peppers" T="Blood Sugar Sex Magik" type="ALBUM" mergeable="true" del="false">
+  <compo A="Red Hot Chili Peppers" T="Blood Sugar Sex Magik" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1093" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Red House Painters" T="Red House Painters, Rollercoaster" type="ALBUM" mergeable="true" del="false">
@@ -4498,7 +4498,7 @@
   <compo A="The Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1499" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1500" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Rolling Stones" T="Between The Buttons" type="ALBUM" mergeable="true" del="false">
@@ -4705,7 +4705,7 @@
   <compo A="The Wedding Present" T="George Best" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1568" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The White Stripes" T="De Stijl" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="De Stijl" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1569" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">

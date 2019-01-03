@@ -22,7 +22,7 @@
   <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 80's - 1993" publish="1993" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="7" creation="04/09/2018 12:46:00" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 80's - 1993" publish="1993" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="8" creation="04/09/2018 12:46:00" size="50"/>
   </compo>
   <compo A="The Jam" T="Sound Affects" type="ALBUM" mergeable="true" del="false">

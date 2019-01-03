@@ -4,7 +4,7 @@
   <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="1" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="2" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
   <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="true">
@@ -235,7 +235,7 @@
   <compo A="Dinosaur Jr." T="Green Mind" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="78" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="79" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
   <compo A="X" T="Under The Big Black Sun" type="ALBUM" mergeable="true" del="false">

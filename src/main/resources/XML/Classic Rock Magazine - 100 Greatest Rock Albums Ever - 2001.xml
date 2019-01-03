@@ -55,7 +55,7 @@
   <compo A="Deep Purple" T="Machine Head" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="18" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Red Hot Chili Peppers" T="BloodSugarSexMagik" type="ALBUM" mergeable="true" del="false">
+  <compo A="Red Hot Chili Peppers" T="BloodSugarSexMagik" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="19" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Black Sabbath" T="Master of Reality" type="ALBUM" mergeable="true" del="false">

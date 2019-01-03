@@ -34,7 +34,7 @@
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="11" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="12" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="23" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="24" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The RoIlIng" T="Stones Exile On Main Street" type="ALBUM" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="43" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="44" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="John Coltrane" T="A Love Supreme" type="ALBUM" mergeable="true" del="false">
@@ -241,7 +241,7 @@
   <compo A="Bob Marley" T="Exodus" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="80" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="81" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Goldie" T="Timeless" type="ALBUM" mergeable="true" del="false">
@@ -283,7 +283,7 @@
   <compo A="Frank Sinatra" T="Songs For Swinging Lover.s" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="94" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Closer." type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer." type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="95" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Pretenders" T="The Pretenders" type="ALBUM" mergeable="true" del="false">

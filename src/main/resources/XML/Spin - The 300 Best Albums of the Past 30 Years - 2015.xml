@@ -448,7 +448,7 @@
   <compo A="Tom Waits" T="Rain Dogs" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="152" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="151" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Cloud Nothings" T="Attack On Memory" type="ALBUM" mergeable="true" del="false">
