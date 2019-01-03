@@ -4,7 +4,7 @@
   <compo A="Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="1" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="2" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="9" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="10" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Elvis Presley" T="The Sun Sessions" type="ALBUM" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="41" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="42" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">

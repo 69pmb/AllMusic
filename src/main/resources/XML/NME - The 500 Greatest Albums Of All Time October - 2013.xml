@@ -46,7 +46,7 @@
   <compo A="PJ Harvey" T="Let England Shake" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="15" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="16" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
@@ -178,13 +178,13 @@
   <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="59" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="60" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="61" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="62" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
@@ -253,7 +253,7 @@
   <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="84" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="85" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Queens Of The Stoneage" T="Songs For The Deaf" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="93" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="94" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Talk Talk" T="Sprit Of Eden" type="ALBUM" mergeable="true" del="false">
@@ -1066,7 +1066,7 @@
   <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="355" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="356" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Sugar" T="Copper Blue" type="ALBUM" mergeable="true" del="false">
@@ -1183,7 +1183,7 @@
   <compo A="Wire" T="Chairs Missing" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="394" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The White Stripes" T="De Stijl" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="De Stijl" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="395" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Heartbreakers" T="LAMF" type="ALBUM" mergeable="true" del="false">

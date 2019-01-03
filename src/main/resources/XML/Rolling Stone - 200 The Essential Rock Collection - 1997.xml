@@ -121,7 +121,7 @@
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="40" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="41" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Bob Dylan" T="The Basement Tapes" type="ALBUM" mergeable="true" del="false">
@@ -184,7 +184,7 @@
   <compo A="The Rolling Stones" T="Big Hits (High Tide and Green Grass)" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="61" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="62" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
@@ -391,7 +391,7 @@
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="130" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="131" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" mergeable="true" del="false">
@@ -484,7 +484,7 @@
   <compo A="Joan Jett" T="I Love Rock And Roll" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="161" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="162" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="LL Cool J" T="Radio" type="ALBUM" mergeable="true" del="false">
@@ -565,7 +565,7 @@
   <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="188" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="189" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Moby" T="'Go'" type="ALBUM" mergeable="true" del="false">

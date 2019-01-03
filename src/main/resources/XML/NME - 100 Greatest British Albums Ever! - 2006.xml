@@ -91,7 +91,7 @@
   <compo A="Suede" T="Suede" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="30" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="31" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="The Zombies" T="Odyssey And Oracle" type="ALBUM" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Buzzcocks" T="Lovebites" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="71" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="72" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Kaiser Chiefs" T="Employment" type="ALBUM" mergeable="true" del="false">

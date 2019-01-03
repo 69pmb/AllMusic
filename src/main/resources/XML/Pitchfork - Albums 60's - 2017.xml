@@ -496,7 +496,7 @@
   <compo A="John Coltrane" T="Giant Steps" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="36" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="35" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Otis Redding" T="Otis Blue: Otis Redding Sings Soul" type="ALBUM" mergeable="true" del="false">
@@ -583,7 +583,7 @@
   <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="7" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde on Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde on Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="6" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Nina Simone" T="Wild Is the Wind" type="ALBUM" mergeable="true" del="false">

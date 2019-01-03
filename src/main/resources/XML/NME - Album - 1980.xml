@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="true" rank="1" creation="04/09/2018 10:51:15" size="50"/>
   </compo>
   <compo A="Elvis Costello" T="Get Happy!!" type="ALBUM" mergeable="true" del="false">

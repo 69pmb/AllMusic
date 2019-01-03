@@ -37,7 +37,7 @@
   <compo A="Aretha Franklin" T="Lady Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="4" creation="31/08/2018 10:12:30" size="15"/>
   </compo>
-  <compo A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="3" creation="31/08/2018 10:12:30" size="15"/>
   </compo>
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">

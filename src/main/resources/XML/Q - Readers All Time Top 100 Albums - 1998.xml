@@ -139,7 +139,7 @@
   <compo A="Paul Weller" T="Stanley Road" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="46" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="47" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Kate Bush" T="Hounds OF Love" type="ALBUM" mergeable="true" del="false">
@@ -172,7 +172,7 @@
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="57" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="58" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="R.E.M." T="New Adventures In Hi-Fi" type="ALBUM" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="71" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Red Hot Chili Peppers" T="BloodSugarSexMagik" type="ALBUM" mergeable="true" del="false">
+  <compo A="Red Hot Chili Peppers" T="BloodSugarSexMagik" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="72" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">

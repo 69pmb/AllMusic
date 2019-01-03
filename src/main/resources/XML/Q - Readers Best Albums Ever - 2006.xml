@@ -106,7 +106,7 @@
   <compo A="Blur" T="Park Life" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="35" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="36" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="R.E.M." T="Out Of Time" type="ALBUM" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="43" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="44" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="64" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="65" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
@@ -244,7 +244,7 @@
   <compo A="Stereophonics" T="Word Gets Around" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="81" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Bruce Sprinsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Sprinsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="82" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Paul Weller" T="Stanley Road" type="ALBUM" mergeable="true" del="false">

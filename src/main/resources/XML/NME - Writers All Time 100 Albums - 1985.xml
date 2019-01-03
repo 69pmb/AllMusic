@@ -22,7 +22,7 @@
   <compo A="The Band" T="The Band" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="7" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="8" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="John Lennon/Plastic Ono Band" T="John Lennon/Plastic Ono Band" type="ALBUM" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="Buzzcocks" T="Another Music In A Different Kitchen" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="53" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="54" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Madness" T="Mad Not Mad" type="ALBUM" mergeable="true" del="false">

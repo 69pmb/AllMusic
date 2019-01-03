@@ -19,7 +19,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="6" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
-  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="7" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="Led Zeppelin" T="III" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="9" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="10" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="21" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="22" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
   <compo A="Kate Bush" T="Hounds Of Love" type="ALBUM" mergeable="true" del="false">

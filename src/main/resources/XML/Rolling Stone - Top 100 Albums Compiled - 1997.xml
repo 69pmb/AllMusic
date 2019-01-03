@@ -16,10 +16,10 @@
   <compo A="Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="5" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="6" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="7" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
@@ -82,7 +82,7 @@
   <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="27" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="28" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">

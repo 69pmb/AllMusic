@@ -49,7 +49,7 @@
   <compo A="Prince" T="Sign 'O'The Times" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="16" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="17" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Love" T="Forever Changes" type="ALBUM" mergeable="true" del="true">
@@ -58,7 +58,7 @@
   <compo A="De La Soul" T="Three Feet High And Rising" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="19" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="20" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="Pil" T="Metal Box" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="96" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="97" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="The Byrds" T="Younger Than Yesterday" type="ALBUM" mergeable="true" del="false">

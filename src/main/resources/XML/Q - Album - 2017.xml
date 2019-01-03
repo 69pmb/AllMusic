@@ -121,7 +121,7 @@
   <compo A="Tyler, the Creator" T="Flower Boy" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="40" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Fleet Foxes" T="Crack-Up" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Crack-Up" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="41" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
   <compo A="Laura Marling" T="Semper Femina" type="ALBUM" mergeable="true" del="false">

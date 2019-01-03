@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="1" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">

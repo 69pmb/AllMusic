@@ -211,7 +211,7 @@
   <compo A="Kate Bush" T="Hounds Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="70" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="71" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Jam" T="All Mod Cons" type="ALBUM" mergeable="true" del="false">
@@ -232,7 +232,7 @@
   <compo A="Human League" T="Dare!" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="77" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="78" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
@@ -250,7 +250,7 @@
   <compo A="Madonna" T="Ray Of Light" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="83" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="84" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" mergeable="true" del="false">

@@ -199,7 +199,7 @@
   <compo A="The Sundays" T="Reading, Writing And Arithmetic" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="66" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
-  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="67" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
   <compo A="Neil Young" T="Ragged Glory" type="ALBUM" mergeable="true" del="false">
@@ -241,7 +241,7 @@
   <compo A="R.E.M." T="Out Of Time" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="80" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
-  <compo A="Red Hot Chilli Peppers" T="Blood Sugar Sex Magik" type="ALBUM" mergeable="true" del="false">
+  <compo A="Red Hot Chilli Peppers" T="Blood Sugar Sex Magik" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="81" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
@@ -262,7 +262,7 @@
   <compo A="Ice-T" T="O.G. Original Gangster" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="87" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="88" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
   <compo A="The KLF" T="The White Room" type="ALBUM" mergeable="true" del="false">
