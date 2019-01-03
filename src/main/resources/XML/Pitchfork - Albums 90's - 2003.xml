@@ -82,7 +82,7 @@
   <compo A="Guided By Voices" T="Alien Lanes" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="27" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="28" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Modest Mouse" T="The Lonesome Crowded West" type="ALBUM" mergeable="true" del="false">
@@ -253,7 +253,7 @@
   <compo A="Company Flow" T="Funcrusher Plus" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="84" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="85" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Destroy" T="City of Daughters" type="ALBUM" mergeable="true" del="false">

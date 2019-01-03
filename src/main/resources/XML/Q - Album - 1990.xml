@@ -85,7 +85,7 @@
   <compo A="Pet Shop Boys" T="Behaviour" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="false" rank="28" creation="28/08/2018 11:34:22" size="50"/>
   </compo>
-  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="false" rank="29" creation="28/08/2018 11:34:22" size="50"/>
   </compo>
   <compo A="Prefab Sprout" T="Jordan: The Comeback" type="ALBUM" mergeable="true" del="false">

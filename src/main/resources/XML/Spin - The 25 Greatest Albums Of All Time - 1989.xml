@@ -7,7 +7,7 @@
   <compo A="Tom Waits" T="Swordfishtrombones" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 25 Greatest Albums Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="2" creation="25/01/2017 10:01:42" size="25"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 25 Greatest Albums Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="3" creation="25/01/2017 10:01:42" size="25"/>
   </compo>
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">

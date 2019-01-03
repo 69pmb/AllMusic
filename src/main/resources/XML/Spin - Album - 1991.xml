@@ -34,7 +34,7 @@
   <compo A="Metallica" T="Metallica" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="11" creation="30/08/2018 10:33:20" size="20"/>
   </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="12" creation="30/08/2018 10:33:20" size="20"/>
   </compo>
   <compo A="Fugazi" T="Steady Diet Of Nothing" type="ALBUM" mergeable="true" del="false">

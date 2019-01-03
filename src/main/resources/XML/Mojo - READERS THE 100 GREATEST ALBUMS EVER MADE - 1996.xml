@@ -25,7 +25,7 @@
   <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="8" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="9" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
@@ -91,7 +91,7 @@
   <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="27" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="28" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="30" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="31" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="49" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="50" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="false">

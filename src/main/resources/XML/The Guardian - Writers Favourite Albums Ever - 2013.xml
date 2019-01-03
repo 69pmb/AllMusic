@@ -31,7 +31,7 @@
   <compo A="The Byrds" T="The Notorious Byrd Brothers" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="10" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="11" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
   <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
@@ -403,7 +403,7 @@
   <compo A="Neil Young" T="Tonight's The Night" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="134" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="135" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
   <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">

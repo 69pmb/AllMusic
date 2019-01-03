@@ -22,13 +22,13 @@
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="7" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="8" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="9" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="10" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="The Ciash" T="London Calling" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="28" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="29" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">

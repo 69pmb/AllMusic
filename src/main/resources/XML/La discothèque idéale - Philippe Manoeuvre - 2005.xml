@@ -10,7 +10,7 @@
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="3" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Bob Dylan" T="Blonde on Blonde" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blonde on Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="4" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <compo A="Lynyrd Skynyrd" T="(pronounced 'leh-'nerd 'skin-'nerd)" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="58" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born to Run" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born to Run" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="59" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Neil Young" T="Tonight's the night" type="ALBUM" mergeable="true" del="false">
@@ -244,7 +244,7 @@
   <compo A="Diana Ross" T="Diana" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="81" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="82" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="AC/DC" T="Back in Black" type="ALBUM" mergeable="true" del="false">

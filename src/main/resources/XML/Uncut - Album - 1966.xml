@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="1" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">

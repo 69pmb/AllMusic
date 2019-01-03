@@ -52,7 +52,7 @@
   <compo A="The La's" T="The La's" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="17" creation="04/09/2018 10:49:16" size="50"/>
   </compo>
-  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="18" creation="04/09/2018 10:49:16" size="50"/>
   </compo>
   <compo A="The Sundays" T="Reading, Writing And Arithmetic" type="ALBUM" mergeable="true" del="false">
