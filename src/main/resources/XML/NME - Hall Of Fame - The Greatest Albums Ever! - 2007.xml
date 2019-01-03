@@ -37,7 +37,7 @@
   <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="12" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="13" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
 </ListCompositions>

@@ -4,7 +4,7 @@
   <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="1" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="2" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">

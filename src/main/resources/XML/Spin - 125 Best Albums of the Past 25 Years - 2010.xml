@@ -46,7 +46,7 @@
   <compo A="Husker Du" T="New Day Rising" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="15" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="The Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="16" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="De La Soul" T="3 Feet High And Rising" type="ALBUM" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="41" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="42" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="The Notorious B.I.G." T="Ready To Die" type="ALBUM" mergeable="true" del="false">

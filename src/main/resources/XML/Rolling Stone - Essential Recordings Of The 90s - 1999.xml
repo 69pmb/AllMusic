@@ -58,7 +58,7 @@
   <compo A="Pearl Jam" T="Vs." type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="19" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="20" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Tori Amos" T="Under The Pink" type="ALBUM" mergeable="true" del="false">

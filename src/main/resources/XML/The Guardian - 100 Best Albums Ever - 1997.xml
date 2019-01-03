@@ -247,7 +247,7 @@
   <compo A="Goldie" T="Timeless" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="82" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="The Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="83" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Beatles" T="1962-66" type="ALBUM" mergeable="true" del="false">
