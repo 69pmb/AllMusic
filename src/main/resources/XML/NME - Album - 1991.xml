@@ -58,7 +58,7 @@
   <compo A="Billy Bragg" T="Don't Try This At Home" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="19" creation="04/09/2018 10:49:07" size="50"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="20" creation="04/09/2018 10:49:07" size="50"/>
   </compo>
   <compo A="The Fatima Mansions" T="Bertie's Brochures" type="ALBUM" mergeable="true" del="false">

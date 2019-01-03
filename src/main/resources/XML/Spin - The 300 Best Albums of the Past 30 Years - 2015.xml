@@ -790,7 +790,7 @@
   <compo A="Beyonce" T="Beyonce" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="38" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="37" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">

@@ -112,7 +112,7 @@
   <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="37" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="38" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
@@ -229,7 +229,7 @@
   <compo A="Little Feat" T="Salin' Shoes" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="76" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="77" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Flying Burrito Brothers" T="The Gilded Palace Of Sin" type="ALBUM" mergeable="true" del="false">

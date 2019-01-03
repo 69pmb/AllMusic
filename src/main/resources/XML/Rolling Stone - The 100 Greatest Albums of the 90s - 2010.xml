@@ -10,7 +10,7 @@
   <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="3" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="4" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
   <compo A="Lauryn Hill" T="The Miseducation Of Lauryn Hill" type="ALBUM" mergeable="true" del="false">

@@ -7,7 +7,7 @@
   <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="2" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="3" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">

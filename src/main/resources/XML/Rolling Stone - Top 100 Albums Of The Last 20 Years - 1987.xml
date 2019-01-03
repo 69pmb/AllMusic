@@ -211,7 +211,7 @@
   <compo A="The Rolling Stones" T="Between The Buttons" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="70" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="71" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">

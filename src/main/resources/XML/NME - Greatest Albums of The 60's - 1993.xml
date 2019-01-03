@@ -112,7 +112,7 @@
   <compo A="Nick Drake" T="Five Leaves Left" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="37" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
-  <compo A="The Beatles" T="Beatles For Sale" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Beatles For Sale" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="38" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">

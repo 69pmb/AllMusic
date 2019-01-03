@@ -229,7 +229,7 @@
   <compo A="Blondie" T="Parallel Lines" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="76" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Aladdin Sane" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Aladdin Sane" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="77" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Fela Anikulapo Futi And Africa '70" T="Expensive Shit" type="ALBUM" mergeable="true" del="false">
@@ -295,7 +295,7 @@
   <compo A="Robert Wyatt" T="Rock Bottom" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="98" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After the Gold Rush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After the Gold Rush" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="99" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Brian Eno" T="Before and After Science" type="ALBUM" mergeable="true" del="false">

@@ -130,7 +130,7 @@
   <compo A="Richard Thompson" T="Rumor And Sigh" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="false" rank="43" creation="28/08/2018 11:34:33" size="50"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="false" rank="44" creation="28/08/2018 11:34:33" size="50"/>
   </compo>
   <compo A="Various Artists" T="I'm Your Fan" type="ALBUM" mergeable="true" del="false">
