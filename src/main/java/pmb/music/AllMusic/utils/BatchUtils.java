@@ -492,13 +492,12 @@ public class BatchUtils {
 		List<CsvComposition> compoCsv = CsvFile.importCsv(file, CsvComposition.class);
 		addLine(text, "Import csv file successfully", true);
 
-		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, compoCsv.size(), 800);
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		artistPanel.interruptUpdateArtist(true);
 		if (type.equals(RecordType.SONG.toString())) {
-			massDeletionForSongs(text, compoCsv, deleteCompoDialog, importXML);
+			massDeletionForSongs(text, compoCsv, importXML);
 		} else {
-			massDeletionForAlbums(text, compoCsv, deleteCompoDialog, importXML);
+			massDeletionForAlbums(text, compoCsv, importXML);
 		}
 
 		// Modifies csv entry file
@@ -529,11 +528,11 @@ public class BatchUtils {
 	 * 
 	 * @param text log
 	 * @param compoCsv compo to delete
-	 * @param deleteCompoDialog dialog to confirm or not the deletion
 	 * @param importXML compo from final file
 	 */
 	private static void massDeletionForSongs(StringBuilder text, List<CsvComposition> compoCsv,
-			DeleteCompoDialog deleteCompoDialog, List<Composition> importXML) {
+			List<Composition> importXML) {
+		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, compoCsv.size(), 800);
 		for (int i = 0; i < compoCsv.size(); i++) {
 			// Search composition
 			CsvComposition compoToDelete = compoCsv.get(i);
@@ -614,14 +613,23 @@ public class BatchUtils {
 		return sb.toString();
 	}
 
+	/**
+	 * Converts or formats given value depending on the field type and name.
+	 * 
+	 * @param field the field
+	 * @param fieldValue the value of the field
+	 * @return formats dates, if rank field converts to stars
+	 */
 	private static String convertValueField(Field field, Object fieldValue) {
 		String result;
 		if (field.getType().equals(Date.class)) {
-			result = new Constant().getSdfDttm().format(fieldValue);
+			result = fieldValue != null ? new Constant().getSdfDttm().format(fieldValue) : "";
 		} else if (field.getName().equals("rank")) {
-			result = String.valueOf((Integer) fieldValue / 20) + " Stars";
+			result = fieldValue != null ? result = String.valueOf((Integer) fieldValue / 20) + " Stars" : "0 Stars";
+		} else if (field.getType().equals(Integer.class)) {
+			result = fieldValue != null ? String.valueOf(fieldValue) : "0";
 		} else {
-			result = String.valueOf(fieldValue);
+			result = fieldValue != null ? String.valueOf(fieldValue) : "";
 		}
 		return result;
 	}
@@ -631,19 +639,23 @@ public class BatchUtils {
 	 * 
 	 * @param text log
 	 * @param compoCsv compo ffrom csv file
-	 * @param deleteCompoDialog dialog to confirm of not deletion
 	 * @param importXML all compo from final file
 	 */
 	private static void massDeletionForAlbums(StringBuilder text, List<CsvComposition> compoCsv,
-			DeleteCompoDialog deleteCompoDialog, List<Composition> importXML) {
+			List<Composition> importXML) {
 		List<String> albumList = compoCsv.stream()
 				.sorted(Comparator.comparing(CsvComposition::getAlbum).thenComparing(compareByTrackNumber.reversed()))
 				.map(CsvComposition::getAlbum).filter(s -> StringUtils.isNotBlank(s)).distinct()
 				.collect(Collectors.toList());
+		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, albumList.size(), 800);
 		for (int i = 0; i < albumList.size(); i++) {
 			String album = albumList.get(i);
 			List<CsvComposition> compoAlbum = compoCsv.stream().filter(csv -> csv.getAlbum().equals(album))
 					.collect(Collectors.toList());
+			if (compoAlbum.stream().allMatch(csv -> StringUtils.isNotBlank(csv.getDeletedAlbum()))) {
+				// Already processed
+				continue;
+			}
 			CsvComposition compoToDelete = compoAlbum.get(0);
 			String trackNumber = compoToDelete.getTrackNumber();
 			String albumToSearch = "";
@@ -732,7 +744,7 @@ public class BatchUtils {
 		String result = "";
 		Map<Object, Long> collect = list.stream().collect(Collectors.groupingBy(csv -> {
 			try {
-				return FieldUtils.readField(csv, field, true);
+				return Optional.ofNullable(FieldUtils.readField(csv, field, true));
 			} catch (IllegalArgumentException | IllegalAccessException | SecurityException e) {
 				LOG.error("This should not append", e);
 				return "";
@@ -741,12 +753,29 @@ public class BatchUtils {
 		Field declaredField = FieldUtils.getDeclaredField(CsvComposition.class, field, true);
 		if (!collect.isEmpty()) {
 			if (collect.size() == 1) {
-				result = convertValueField(declaredField, collect.keySet().iterator().next());
+				result = convertValueField(declaredField,
+						((Optional<?>) collect.keySet().iterator().next()).orElse(null));
 			} else {
 				result = "{ "
-						+ collect.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-								.map(e -> e.getValue() + " = " + convertValueField(declaredField, e.getKey()))
-								.collect(Collectors.joining(", "))
+						+ collect.entrySet().stream()
+								.collect(Collectors.toMap(Map.Entry::getValue, e -> new ArrayList<String>(Arrays.asList(
+										convertValueField(declaredField, ((Optional<?>) e.getKey()).orElse(null)))),
+										(o, n) -> {
+											o.addAll(n);
+											if (declaredField.getType().equals(Integer.class)) {
+												o.sort(MiscUtils.compareInteger.reversed());
+											}
+											return o;
+										}))
+								.entrySet().stream().sorted(Map.Entry.comparingByKey(Comparator.reverseOrder()))
+								.map(e -> {
+									String res = e.getKey() + "x = ";
+									if (e.getValue().size() > 1) {
+										return res + "[" + StringUtils.join(e.getValue(), ", ") + "]";
+									} else {
+										return res + e.getValue().get(0);
+									}
+								}).collect(Collectors.joining(", "))
 						+ " }";
 			}
 		}
