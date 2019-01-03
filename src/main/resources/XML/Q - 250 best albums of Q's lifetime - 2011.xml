@@ -142,7 +142,7 @@
   <compo A="Kasabian" T="Kasabian" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="47" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="48" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Manic Street Preachers" T="Everything Must Go" type="ALBUM" mergeable="true" del="false">
@@ -187,7 +187,7 @@
   <compo A="Kings Of Leon" T="Aha Shake Heartbreak" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="62" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="63" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Gorillaz" T="Plastic Beach" type="ALBUM" mergeable="true" del="true">
@@ -256,7 +256,7 @@
   <compo A="Foo Fighters" T="The Colour And The Shape" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="85" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Oasis" T="Don't Believe The Truth" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Don't Believe The Truth" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="86" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Arctic Monkeys" T="Favourite Worst Nightmare" type="ALBUM" mergeable="true" del="false">

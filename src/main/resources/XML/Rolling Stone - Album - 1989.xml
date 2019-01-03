@@ -28,7 +28,7 @@
   <compo A="Fine Young Cannibals" T="The Raw And The Cooked" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Soul II Soul" T="Keep On Movin'" type="ALBUM" mergeable="true" del="false">

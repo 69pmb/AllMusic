@@ -157,7 +157,7 @@
   <compo A="Metallica" T="Metallica" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 90 Albums Of The 90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="52" creation="13/08/2017 04:25:08" size="90"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 90 Albums Of The 90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="53" creation="13/08/2017 04:25:08" size="90"/>
   </compo>
   <compo A="Bikini Kill" T="Bikini Kill Ep" type="ALBUM" mergeable="true" del="false">

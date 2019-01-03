@@ -178,7 +178,7 @@
   <compo A="White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="59" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="60" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Muse" T="Absolution" type="ALBUM" mergeable="true" del="false">
@@ -202,7 +202,7 @@
   <compo A="Kasabian" T="Kasabian" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="67" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="68" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Muse" T="Origin Of Symmetry" type="ALBUM" mergeable="true" del="false">

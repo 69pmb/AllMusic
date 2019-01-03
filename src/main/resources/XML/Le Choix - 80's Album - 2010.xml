@@ -67,7 +67,7 @@
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="4" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="3" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">

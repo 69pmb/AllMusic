@@ -598,7 +598,7 @@
   <compo A="The Flying Burrito Brothers" T="The Gilded Palace Of Sin" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="192" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="193" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
@@ -703,7 +703,7 @@
   <compo A="Green Day" T="American Idiot" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="225" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="226" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Eric B. And Rakim" T="Paid In Full" type="ALBUM" mergeable="true" del="false">

@@ -106,7 +106,7 @@
   <compo A="Dr. Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="35" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="36" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Guided By Voices" T="Bee Thousand" type="ALBUM" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Boogie Down Productions" T="Criminal Minded" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="43" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="44" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">

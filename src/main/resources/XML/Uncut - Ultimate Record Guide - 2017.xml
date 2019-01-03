@@ -1582,7 +1582,7 @@
   <compo A="Grateful Dead" T="Workingman's Dead" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="527" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="528" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
@@ -3052,7 +3052,7 @@
   <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1017" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1018" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
