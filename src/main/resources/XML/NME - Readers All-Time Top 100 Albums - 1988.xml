@@ -187,7 +187,7 @@
   <compo A="Pink Floyd" T="Animals" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="62" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="63" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Talking Heads" T="More Songs About Buildings And Food" type="ALBUM" mergeable="true" del="false">

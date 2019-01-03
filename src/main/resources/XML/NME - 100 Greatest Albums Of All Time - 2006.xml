@@ -40,7 +40,7 @@
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="13" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="14" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">

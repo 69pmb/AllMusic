@@ -148,7 +148,7 @@
   <compo A="Public Access Tv" T="Never Enough" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="49" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="22 A Million" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="22 A Million" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="50" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
 </ListCompositions>

@@ -58,7 +58,7 @@
   <compo A="Pink Floyd" T="The Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="19" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="20" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="false">
@@ -1912,7 +1912,7 @@
   <compo A="Eric Clapton" T="461 Ocean Boulevard" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="637" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Bon Iver" T="22, A Million" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="22, A Million" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="638" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Elvis Presley" T="Elvis" type="ALBUM" mergeable="false" del="false">
