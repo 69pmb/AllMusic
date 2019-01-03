@@ -331,7 +331,7 @@
   <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="110" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="111" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
   <compo A="PJ Harvey" T="Rid Of Me" type="ALBUM" mergeable="true" del="false">
@@ -1135,7 +1135,7 @@
   <compo A="The Weekend" T="House Of Balloons" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="378" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
-  <compo A="Florence And The Machine" T="Ceremonials" type="ALBUM" mergeable="true" del="false">
+  <compo A="Florence And The Machine" T="Ceremonials" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="379" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
   <compo A="Bon Iver" T="Bon Iver, Bon Iver" type="ALBUM" mergeable="true" del="true">
@@ -1315,7 +1315,7 @@
   <compo A="Florence And The Machine" T="How Big, How Blue, How Beautiful" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="438" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
-  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="439" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
   <compo A="Jamie XX" T="In Colour" type="ALBUM" mergeable="true" del="false">
@@ -1333,7 +1333,7 @@
   <compo A="Mbongwana Star" T="From Kinshasa" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="444" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
-  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="445" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
   <compo A="Vince Staples" T="Summertime '06" type="ALBUM" mergeable="true" del="false">

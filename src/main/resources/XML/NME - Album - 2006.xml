@@ -61,7 +61,7 @@
   <compo A="The Streets" T="The Hardest Way To Make An Easy Living" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="20" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="The Raconteurs" T="Broken Boy Soldures" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Raconteurs" T="Broken Boy Soldures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="21" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="The Flaming Lips" T="At War With The Mystics" type="ALBUM" mergeable="true" del="false">

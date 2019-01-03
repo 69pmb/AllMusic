@@ -106,7 +106,7 @@
   <compo A="Turnstile" T="Time And Space" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="35" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
-  <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="36" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
   <compo A="Parcels" T="Parcels" type="ALBUM" mergeable="true" del="false">

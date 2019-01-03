@@ -37,7 +37,7 @@
   <compo A="Al Green" T="Don't Look Back" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="12" creation="10/09/2018 13:31:05" size="39"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="13" creation="10/09/2018 13:31:05" size="39"/>
   </compo>
   <compo A="Sugar" T="Beaster" type="ALBUM" mergeable="true" del="false">

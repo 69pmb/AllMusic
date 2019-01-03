@@ -58,7 +58,7 @@
   <compo A="Neneh Cherry And The Thing" T="The Cherry Thing" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="19" creation="03/09/2018 10:39:01" size="75"/>
   </compo>
-  <compo A="The XX" T="Coexist" type="ALBUM" mergeable="true" del="false">
+  <compo A="The XX" T="Coexist" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="03/09/2018 10:39:01" size="75"/>
   </compo>
   <compo A="Beachwood Sparks" T="The Tarnished Gold" type="ALBUM" mergeable="true" del="false">

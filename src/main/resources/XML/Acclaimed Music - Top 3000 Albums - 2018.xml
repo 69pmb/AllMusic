@@ -256,7 +256,7 @@
   <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="85" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="86" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
@@ -403,7 +403,7 @@
   <compo A="Queen" T="A Night At The Opera" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="134" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="135" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
@@ -658,7 +658,7 @@
   <compo A="Spiritualized" T="Ladies And Gentlemen We Are Floating In Space" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="219" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="220" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Flying Burrito Bros" T="The Gilded Palace Of Sin" type="ALBUM" mergeable="true" del="false">
@@ -1498,7 +1498,7 @@
   <compo A="David Bowie" T="Aladdin Sane" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="499" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="500" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Jackson Browne" T="Late For The Sky" type="ALBUM" mergeable="true" del="false">
@@ -2671,7 +2671,7 @@
   <compo A="Modest Mouse" T="The Lonesome Crowded West" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="890" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Vampire Weekend" T="Contra" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Contra" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="891" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Wes Montgomery" T="The Incredible Jazz Guitar Of Wes Montgomery" type="ALBUM" mergeable="true" del="false">
@@ -3871,7 +3871,7 @@
   <compo A="Sun Ra" T="Heliocentric Worlds Of Sun Ra" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1290" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Xx" T="Coexist" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Xx" T="Coexist" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1291" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="PJ Harvey" T="White Chalk" type="ALBUM" mergeable="true" del="false">
@@ -6517,7 +6517,7 @@
   <compo A="Franz Ferdinand" T="You Could Have It So Much Better" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2172" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Raconteurs" T="Broken Boy Soldiers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Raconteurs" T="Broken Boy Soldiers" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2173" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="John Fogerty" T="Centerfield" type="ALBUM" mergeable="true" del="false">

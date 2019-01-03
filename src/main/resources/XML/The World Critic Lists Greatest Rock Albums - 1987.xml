@@ -94,7 +94,7 @@
   <compo A="Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="31" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="32" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="false">

@@ -46,7 +46,7 @@
   <compo A="David Baerwald" T="Triage" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="false" rank="15" creation="28/08/2018 11:35:19" size="50"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="false" rank="16" creation="28/08/2018 11:35:19" size="50"/>
   </compo>
   <compo A="Frank Black" T="Same" type="ALBUM" mergeable="true" del="false">
