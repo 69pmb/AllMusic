@@ -22,7 +22,7 @@
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="7" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Abby Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Abby Road" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="8" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">

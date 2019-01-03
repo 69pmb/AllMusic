@@ -64,7 +64,7 @@
   <compo A="Margo Price" T="Midwest Farmers Daughter" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="22: A Million" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="22: A Million" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Mitski" T="Puberty 2" type="ALBUM" mergeable="true" del="false">

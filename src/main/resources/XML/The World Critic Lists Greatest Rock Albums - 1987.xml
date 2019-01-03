@@ -37,7 +37,7 @@
   <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="12" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="13" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">

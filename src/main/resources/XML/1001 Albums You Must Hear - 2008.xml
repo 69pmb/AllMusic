@@ -430,7 +430,7 @@
   <compo A="Creedence Clearwater Revival" T="Green River" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="143" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="144" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Who" T="Tommy" type="ALBUM" mergeable="true" del="false">

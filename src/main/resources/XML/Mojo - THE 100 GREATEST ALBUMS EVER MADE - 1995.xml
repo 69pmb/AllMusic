@@ -70,7 +70,7 @@
   <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="23" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="24" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">

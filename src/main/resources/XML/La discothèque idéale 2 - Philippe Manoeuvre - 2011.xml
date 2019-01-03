@@ -85,7 +85,7 @@
   <compo A="Nick Drake" T="Five Leaves Left" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="28" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="29" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="Fleetwood Mac" T="Then Play On" type="ALBUM" mergeable="true" del="false">
