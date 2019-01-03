@@ -103,7 +103,7 @@
   <compo A="Johnny Cash" T="American V" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="34" creation="31/08/2018 10:23:33" size="100"/>
   </compo>
-  <compo A="The Raconteurs" T="Broken Boy Soldiers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Raconteurs" T="Broken Boy Soldiers" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="35" creation="31/08/2018 10:23:33" size="100"/>
   </compo>
   <compo A="Damien Dempsey" T="Shots" type="ALBUM" mergeable="true" del="false">

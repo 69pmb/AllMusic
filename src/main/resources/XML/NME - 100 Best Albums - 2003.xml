@@ -280,7 +280,7 @@
   <compo A="Joni Mitchell" T="Hejira" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="93" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="94" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">

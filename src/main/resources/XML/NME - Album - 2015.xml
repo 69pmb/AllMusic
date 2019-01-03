@@ -13,7 +13,7 @@
   <compo A="Wolf Alice" T="My Love Is Cool" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="4" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="5" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Chvrches" T="Every Open Eye" type="ALBUM" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="Drake" T="If You're Reading This It's Too Late" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="23" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="24" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Bjork" T="Vulnicura" type="ALBUM" mergeable="true" del="false">

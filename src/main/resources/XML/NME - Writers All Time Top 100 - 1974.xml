@@ -259,7 +259,7 @@
   <compo A="Traffic" T="Mr Fantasy" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="86" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="87" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Elvis Presley" T="Greatest Hits Volume 2" type="ALBUM" mergeable="true" del="false">

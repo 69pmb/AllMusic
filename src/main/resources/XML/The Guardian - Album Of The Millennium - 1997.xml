@@ -223,7 +223,7 @@
   <compo A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="74" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="75" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
@@ -271,7 +271,7 @@
   <compo A="John Coltrane" T="Love Supreme" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="90" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="91" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Public Enemy" T="It Takes A Nation Of Millions...." type="ALBUM" mergeable="true" del="false">

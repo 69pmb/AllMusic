@@ -115,7 +115,7 @@
   <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="38" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="39" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Robert Wyatt" T="Rock Bottom" type="ALBUM" mergeable="true" del="false">
@@ -469,7 +469,7 @@
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="156" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="157" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Fall" T="The Nation's Saving Grace" type="ALBUM" mergeable="true" del="false">

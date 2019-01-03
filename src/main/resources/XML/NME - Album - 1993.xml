@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="1" creation="04/09/2018 10:48:41" size="50"/>
   </compo>
   <compo A="The Boo Radleys" T="Giant Steps" type="ALBUM" mergeable="true" del="false">
