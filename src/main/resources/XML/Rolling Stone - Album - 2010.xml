@@ -16,7 +16,7 @@
   <compo A="Jamey Johnson" T="The Guitar Song" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="30"/>
   </compo>
-  <compo A="Vampire Weekend" T="Contra" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Contra" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="30"/>
   </compo>
   <compo A="Drake" T="Thank Me Later" type="ALBUM" mergeable="true" del="false">

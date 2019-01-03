@@ -40,7 +40,7 @@
   <compo A="DIIV" T="Oshin" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="The xx" T="Coexist" type="ALBUM" mergeable="true" del="false">
+  <compo A="The xx" T="Coexist" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="14" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Sharon Van Etten" T="Tramp" type="ALBUM" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <compo A="Metz" T="Metz" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="35" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="The Vaccines" T="Come Of Age" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Vaccines" T="Come Of Age" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="36" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Enter Shikari" T="A Flash Flood Of Colour" type="ALBUM" mergeable="true" del="false">

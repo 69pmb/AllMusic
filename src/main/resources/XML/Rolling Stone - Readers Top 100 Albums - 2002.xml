@@ -265,7 +265,7 @@
   <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="88" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="89" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Who" T="Quadrophenia" type="ALBUM" mergeable="true" del="false">

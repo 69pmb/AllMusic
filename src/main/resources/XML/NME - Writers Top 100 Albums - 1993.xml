@@ -142,7 +142,7 @@
   <compo A="Iggy Pop" T="Lust For Life" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="47" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="48" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Husker Du" T="Warehouse: Songs And Stories" type="ALBUM" mergeable="true" del="false">

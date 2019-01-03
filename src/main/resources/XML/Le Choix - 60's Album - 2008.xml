@@ -31,7 +31,7 @@
   <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="16" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="15" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
   <compo A="The Piper At The Gates Of Dawn" T="Pink Floyd" type="ALBUM" mergeable="true" del="false">

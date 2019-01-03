@@ -148,7 +148,7 @@
   <compo A="Sonics" T="Here Are the..." type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="49" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing it All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing it All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="50" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Otis Redding" T="Otis Blue... Sings Soul" type="ALBUM" mergeable="true" del="false">
@@ -2248,7 +2248,7 @@
   <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="749" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="750" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Orbital" T="Orbital(&quot;the Green Album&quot;)" type="ALBUM" mergeable="false" del="false">

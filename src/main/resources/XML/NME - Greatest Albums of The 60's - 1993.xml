@@ -52,7 +52,7 @@
   <compo A="The Byrds" T="Younger Than Yesterday" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="17" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="18" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
   <compo A="Scott Walker" T="Scott" type="ALBUM" mergeable="true" del="false">

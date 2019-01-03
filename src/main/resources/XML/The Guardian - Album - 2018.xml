@@ -7,7 +7,7 @@
   <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="19/12/2018 09:45:44" size="50"/>
   </compo>
-  <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="19/12/2018 09:45:44" size="50"/>
   </compo>
   <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" mergeable="true" del="false">

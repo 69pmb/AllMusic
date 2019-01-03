@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Julia Holter" T="Have You In My Wilderness" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Roisin Murphy" T="Hairless Toys" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="39" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="40" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Wilco" T="Star Wars" type="ALBUM" mergeable="true" del="false">

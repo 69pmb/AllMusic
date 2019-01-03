@@ -112,7 +112,7 @@
   <compo A="Mitski" T="Be The Cowboy" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="18/12/2018 09:50:01" size="50"/>
   </compo>
-  <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="13" creation="18/12/2018 09:50:01" size="50"/>
   </compo>
   <compo A="Brandi Carlile" T="By The Way, I Forgive You" type="ALBUM" mergeable="true" del="false">

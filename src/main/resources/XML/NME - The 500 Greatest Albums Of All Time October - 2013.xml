@@ -136,7 +136,7 @@
   <compo A="Blondie" T="Parallel Lines" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="45" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="46" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Smiths" T="Strangeways Here We Come" type="ALBUM" mergeable="true" del="false">
@@ -217,7 +217,7 @@
   <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="72" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="73" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="NAS" T="Illmatic" type="ALBUM" mergeable="true" del="false">

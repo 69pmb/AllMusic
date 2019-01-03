@@ -328,7 +328,7 @@
   <compo A="Billy Joel" T="The Stranger" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="109" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="110" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Bjork" T="Homogenic" type="ALBUM" mergeable="true" del="false">
@@ -445,7 +445,7 @@
   <compo A="Bob Dylan" T="Bob Dylan" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="148" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="149" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Bob Dylan" T="Desire" type="ALBUM" mergeable="true" del="false">
@@ -3763,7 +3763,7 @@
   <compo A="Suede" T="Suede" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1254" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1255" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Sugar" T="Copper Blue" type="ALBUM" mergeable="true" del="false">
@@ -3841,7 +3841,7 @@
   <compo A="Talking Heads" T="Speaking In Tongues" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1280" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1281" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Tangerine Dream" T="Phaedra" type="ALBUM" mergeable="true" del="false">
@@ -4465,7 +4465,7 @@
   <compo A="The Psychedelic Furs" T="Talk Talk Talk" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1488" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Raconteurs" T="Broken Boy Soldiers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Raconteurs" T="Broken Boy Soldiers" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1489" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Raconteurs" T="Consolers Of The Lonely" type="ALBUM" mergeable="true" del="false">
