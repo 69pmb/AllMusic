@@ -139,7 +139,7 @@
   <compo A="Aretha Franklin" T="Queen Of Soul" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="46" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="47" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Alanis Morisette" T="Jagged Little Pill" type="ALBUM" mergeable="true" del="false">
@@ -211,7 +211,7 @@
   <compo A="The Byrds" T="Younger Than Yesterday" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="70" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="71" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Burning Spear" T="Marcus Garvey" type="ALBUM" mergeable="true" del="false">

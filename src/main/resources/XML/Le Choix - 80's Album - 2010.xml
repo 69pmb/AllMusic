@@ -22,7 +22,7 @@
   <compo A="AC/DC" T="Back in Black" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="19" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
-  <compo A="Motorhead" T="Ace of Spades" type="ALBUM" mergeable="true" del="false">
+  <compo A="Motorhead" T="Ace of Spades" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="18" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
   <compo A="Public Enemy" T="It Takes Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">

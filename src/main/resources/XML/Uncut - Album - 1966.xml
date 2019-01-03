@@ -10,7 +10,7 @@
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="3" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="4" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
   <compo A="The Byrds" T="Fifth Dimention" type="ALBUM" mergeable="true" del="false">

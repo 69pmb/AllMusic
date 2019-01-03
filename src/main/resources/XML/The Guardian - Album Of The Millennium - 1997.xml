@@ -157,7 +157,7 @@
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="52" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="53" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="The Verve" T="Urban Hymns" type="ALBUM" mergeable="true" del="false">
@@ -202,7 +202,7 @@
   <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="67" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="68" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Queen" T="A Night At The Opera" type="ALBUM" mergeable="true" del="false">

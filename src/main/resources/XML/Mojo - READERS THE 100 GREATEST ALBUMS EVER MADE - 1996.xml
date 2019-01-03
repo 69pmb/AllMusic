@@ -64,7 +64,7 @@
   <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="19" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="20" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
@@ -289,7 +289,7 @@
   <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="92" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="93" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="Crosby, Stills And Nash" T="Crosby, Stills And Nash" type="ALBUM" mergeable="true" del="false">

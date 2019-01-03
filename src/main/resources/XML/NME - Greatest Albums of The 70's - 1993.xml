@@ -55,7 +55,7 @@
   <compo A="Iggy Pop" T="Lust For Life" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="18" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
-  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="19" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
   <compo A="Gram Parsons" T="Grievous Angel" type="ALBUM" mergeable="true" del="false">

@@ -169,7 +169,7 @@
   <compo A="Weezer" T="Blue Album" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="56" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="57" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Teenage Fanclub" T="Bandwagonesque" type="ALBUM" mergeable="true" del="false">

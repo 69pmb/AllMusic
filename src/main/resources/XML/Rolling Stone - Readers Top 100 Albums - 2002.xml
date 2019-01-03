@@ -28,7 +28,7 @@
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="9" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="10" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">

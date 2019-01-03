@@ -298,7 +298,7 @@
   <compo A="Suede" T="Dog Man Star" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="99" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
-  <compo A="Motorhead" T="Ace Of Spades" type="ALBUM" mergeable="true" del="false">
+  <compo A="Motorhead" T="Ace Of Spades" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="100" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
 </ListCompositions>

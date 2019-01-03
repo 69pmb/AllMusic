@@ -91,7 +91,7 @@
   <compo A="Roxy Music" T="For Your Pleasure" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" publish="2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="30" creation="23/08/2018 13:43:16" size="70"/>
   </compo>
-  <compo A="David Bowie" T="Aladdin Sane" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Aladdin Sane" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" publish="2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="31" creation="23/08/2018 13:43:16" size="70"/>
   </compo>
   <compo A="Bob And The Wailers Marley" T="Catch A Fire" type="ALBUM" mergeable="true" del="false">

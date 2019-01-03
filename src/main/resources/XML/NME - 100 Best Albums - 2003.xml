@@ -238,7 +238,7 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="79" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="80" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
