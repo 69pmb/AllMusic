@@ -665,13 +665,13 @@ public class BatchUtils {
 			} else if (StringUtils.contains(trackNumber, " sur ")) {
 				String[] split = StringUtils.split(trackNumber, " sur ");
 				String max = split[1];
-				if (compoAlbum.size() == Integer.valueOf(max)) {
+				if (compoAlbum.size() >= Integer.valueOf(max)) {
 					albumToSearch = album;
 				} else {
 					compoAlbum.forEach(csv -> csv.setDeletedAlbum("Incomplete"));
 					continue;
 				}
-			} else if (compoAlbum.size() == Integer.valueOf(trackNumber)) {
+			} else if (compoAlbum.size() >= Integer.valueOf(trackNumber)) {
 				albumToSearch = album;
 			} else {
 				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Too Small"));
@@ -762,7 +762,8 @@ public class BatchUtils {
 										convertValueField(declaredField, ((Optional<?>) e.getKey()).orElse(null)))),
 										(o, n) -> {
 											o.addAll(n);
-											if (declaredField.getType().equals(Integer.class)) {
+											if (declaredField.getType().equals(Integer.class)
+													&& !declaredField.getName().equals("rank")) {
 												o.sort(MiscUtils.compareInteger.reversed());
 											}
 											return o;
