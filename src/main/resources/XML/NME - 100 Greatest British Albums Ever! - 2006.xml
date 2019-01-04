@@ -175,7 +175,7 @@
   <compo A="Suede" T="Dog Man Star" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="58" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="59" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="The Human League" T="Dare" type="ALBUM" mergeable="true" del="false">

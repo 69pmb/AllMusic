@@ -154,13 +154,13 @@
   <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="51" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Van Morrison." T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison." T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="52" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Verve" T="A Northern Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="53" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="54" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Crowded House" T="Woodface" type="ALBUM" mergeable="true" del="false">
@@ -217,7 +217,7 @@
   <compo A="Red Hot Chili Peppers" T="BloodSugarSexMagik" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="72" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="73" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">

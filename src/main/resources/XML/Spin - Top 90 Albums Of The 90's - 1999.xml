@@ -97,7 +97,7 @@
   <compo A="A Tribe Called Quest" T="The Low End Theory" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 90 Albums Of The 90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="32" creation="13/08/2017 04:25:08" size="90"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 90 Albums Of The 90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="33" creation="13/08/2017 04:25:08" size="90"/>
   </compo>
   <compo A="Cornershop" T="When I Was Born For The 7th Time" type="ALBUM" mergeable="true" del="false">

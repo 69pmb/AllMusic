@@ -130,7 +130,7 @@
   <compo A="Michael Jackson" T="Off the Wall" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="43" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="44" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Talking Heads" T="More Songs About Buildings and Food" type="ALBUM" mergeable="true" del="false">

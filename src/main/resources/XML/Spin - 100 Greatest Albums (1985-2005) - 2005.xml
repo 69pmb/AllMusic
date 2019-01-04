@@ -277,7 +277,7 @@
   <compo A="Big Black" T="Atomizer" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="92" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="93" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Slint" T="Spiderland" type="ALBUM" mergeable="true" del="false">

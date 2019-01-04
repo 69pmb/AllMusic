@@ -58,7 +58,7 @@
   <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="18" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="19" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
@@ -223,7 +223,7 @@
   <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="71" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="72" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="AC/DC" T="Back In Black" type="ALBUM" mergeable="true" del="false">
@@ -241,7 +241,7 @@
   <compo A="Peri Nice" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="76" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="77" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="false">
@@ -643,7 +643,7 @@
   <compo A="Cat Stevens" T="Tea For The Tillerman" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="206" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="207" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Neil Young" T="Everybody Knows This Is Nowhere" type="ALBUM" mergeable="true" del="false">
@@ -733,7 +733,7 @@
   <compo A="Jackie Wilson" T="Mr. Excitement!" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="235" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="The Who" T="The Who Sings My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="236" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Madonna" T="Like A Prayer" type="ALBUM" mergeable="true" del="false">

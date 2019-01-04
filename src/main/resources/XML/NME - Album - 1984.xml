@@ -19,10 +19,10 @@
   <compo A="Billy Bragg" T="Brewing Up With.." type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="6" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Rem" T="The Reckoning" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rem" T="Reckoning" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="7" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="8" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
   <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">

@@ -118,7 +118,7 @@
   <compo A="PJ Harvey" T="Dry" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="false" rank="39" creation="28/08/2018 11:34:52" size="49"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="false" rank="40" creation="28/08/2018 11:34:52" size="49"/>
   </compo>
   <compo A="Prince" T="Love Symbol" type="ALBUM" mergeable="true" del="false">

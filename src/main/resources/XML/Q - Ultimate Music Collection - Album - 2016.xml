@@ -52,7 +52,7 @@
   <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Album - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="17" creation="29/08/2017 09:42:12" size="122"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Album - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="18" creation="29/08/2017 09:42:12" size="122"/>
   </compo>
   <compo A="Scissor Sisters" T="Scissor Sisters" type="ALBUM" mergeable="true" del="false">

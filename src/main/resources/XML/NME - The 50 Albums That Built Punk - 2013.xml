@@ -58,10 +58,10 @@
   <compo A="Mudhoney" T="Every Good Boy Deserves Fudge" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="19" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Who" T="The Who Sing My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="20" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="21" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
   <compo A="Siouxsie And The Banshees" T="The Scream" type="ALBUM" mergeable="true" del="false">

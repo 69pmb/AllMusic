@@ -4,7 +4,7 @@
   <compo A="Beastie Boys" T="Licensed To Ill" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="1" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="The Ramones" T="The Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="2" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Are You Experienced" type="ALBUM" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <compo A="Nas" T="Illmatic" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="11" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="12" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="The Pretenders" T="Pretenders" type="ALBUM" mergeable="true" del="false">
@@ -136,7 +136,7 @@
   <compo A="The Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="45" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="46" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <compo A="Norah Jones" T="Come Away With Me" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="73" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="The Xx" T="Xx" type="ALBUM" mergeable="true" del="false">
+  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="74" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="The Go-Gos" T="Beauty And The Beat" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="The Hold Steady" T="Almost Killed Me" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="93" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="The Who" T="The Who Sings My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="94" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="Little Richard" T="Here's Little Richard" type="ALBUM" mergeable="true" del="false">

@@ -88,7 +88,7 @@
   <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="29" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="30" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="The Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">

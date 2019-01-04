@@ -19,7 +19,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="6" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="7" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
@@ -79,7 +79,7 @@
   <compo A="Neil Young" T="Tonight's The Night" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="26" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="27" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="38" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="39" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" mergeable="true" del="true">

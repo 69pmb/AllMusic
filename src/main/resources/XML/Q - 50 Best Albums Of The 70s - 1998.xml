@@ -115,7 +115,7 @@
   <compo A="Meatloaf" T="Bat Out Of Hell" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="38" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="39" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="The Jam" T="Setting Sons" type="ALBUM" mergeable="true" del="false">

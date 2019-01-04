@@ -232,7 +232,7 @@
   <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="77" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="78" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
@@ -244,7 +244,7 @@
   <compo A="Tom Waits" T="Heart Attack And Vine" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="81" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="82" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Moondance" type="ALBUM" mergeable="true" del="false">

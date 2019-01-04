@@ -235,7 +235,7 @@
   <compo A="Suede" T="Dog Man Star" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="78" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="79" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
@@ -247,7 +247,7 @@
   <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="82" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="83" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="De La Soul" T="3 Feet High And Rising" type="ALBUM" mergeable="true" del="false">

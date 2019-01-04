@@ -25,7 +25,7 @@
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="8" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="9" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="The Beatles" T="The White Album" type="ALBUM" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="Velvet Underground" T="Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="22" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Fleetwood" T="Mac Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="23" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="The Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
@@ -166,7 +166,7 @@
   <compo A="George Michael" T="Older" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="55" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="56" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
