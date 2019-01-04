@@ -139,7 +139,7 @@
   <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="46" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="47" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <compo A="Micheal Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="58" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="59" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Radiohead" T="Amnesiac" type="ALBUM" mergeable="true" del="true">
@@ -229,7 +229,7 @@
   <compo A="Johnny Cash" T="American III: Solitary Man" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="76" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="77" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="AC/DC" T="Back in Black" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Bob Marley" T="Exodus" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="93" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="94" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Iggy Pop" T="Raw Power" type="ALBUM" mergeable="true" del="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Christine And The Queens" T="Chris" type="ALBUM" mergeable="true" del="false">
+  <compo A="Christine And The Queens" T="Chris" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="19/12/2018 09:45:44" size="50"/>
   </compo>
   <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="false">

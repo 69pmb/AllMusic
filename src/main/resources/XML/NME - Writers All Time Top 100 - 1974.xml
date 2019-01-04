@@ -187,7 +187,7 @@
   <compo A="The Beach Boys" T="Smiley Smile" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="62" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="63" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">

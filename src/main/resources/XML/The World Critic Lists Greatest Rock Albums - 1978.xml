@@ -10,7 +10,7 @@
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="3" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="4" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Peter Framton" T="Framton Comes Alive!" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="49" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="50" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Blood, Sweat And Tears" T="Blood, Sweat And Tears" type="ALBUM" mergeable="true" del="false">

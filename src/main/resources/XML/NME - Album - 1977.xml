@@ -19,7 +19,7 @@
   <compo A="Bob Marley" T="Exodus" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="6" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="7" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
   <compo A="Iggy Pop" T="Lust For Life" type="ALBUM" mergeable="true" del="false">

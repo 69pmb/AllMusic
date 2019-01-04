@@ -7,7 +7,7 @@
   <compo A="The Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="2" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="3" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="Aretha Franklin" T="Lady Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="14" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="15" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Ian Dury" T="New Boot And Panties" type="ALBUM" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="27" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="The Times Are A-Changin'" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="The Times They Are A-Changin'" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="28" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Prince" T="Sign 'O' The Times" type="ALBUM" mergeable="true" del="true">

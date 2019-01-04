@@ -133,7 +133,7 @@
   <compo A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
-  <compo A="Christine And The Queens" T="Chris" type="ALBUM" mergeable="true" del="false">
+  <compo A="Christine And The Queens" T="Chris" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
   <compo A="Parquet Courts" T="Wide Awake!" type="ALBUM" mergeable="true" del="false">

@@ -61,7 +61,7 @@
   <compo A="Arctic Monkeys" T="Tranquility Base Hotel And Casino" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="31" creation="18/12/2018 09:53:03" size="50"/>
   </compo>
-  <compo A="Christine And The Queens" T="Chris" type="ALBUM" mergeable="true" del="false">
+  <compo A="Christine And The Queens" T="Chris" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="18/12/2018 09:53:03" size="50"/>
   </compo>
   <compo A="Boygenius" T="Boygenius EP" type="ALBUM" mergeable="true" del="false">

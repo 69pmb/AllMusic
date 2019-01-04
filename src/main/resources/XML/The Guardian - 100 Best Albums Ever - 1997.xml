@@ -28,7 +28,7 @@
   <compo A="The Beatles" T="The White Album" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="9" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="10" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="33" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="34" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="Ian Dury" T="New Boot And Panties" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="64" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="TheRamones" T="TheRamones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="65" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Beach Boys" T="Sunflower." type="ALBUM" mergeable="true" del="false">

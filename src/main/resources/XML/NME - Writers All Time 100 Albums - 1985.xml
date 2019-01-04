@@ -4,13 +4,13 @@
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="1" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="2" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="3" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="4" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
@@ -217,7 +217,7 @@
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="72" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Hard Day's Night" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="73" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Roxy Music" T="Roxy Music" type="ALBUM" mergeable="true" del="false">

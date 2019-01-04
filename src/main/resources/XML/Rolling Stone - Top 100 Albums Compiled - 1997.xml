@@ -10,7 +10,7 @@
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="3" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="4" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
@@ -115,7 +115,7 @@
   <compo A="Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="38" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="39" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Sly And The Family Stone" T="There's A Riot Going On" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="Randy Newman" T="12 Songs" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="56" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Ramones" T="The Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="57" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Who" T="Who's Next?" type="ALBUM" mergeable="true" del="false">

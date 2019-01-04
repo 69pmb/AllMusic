@@ -34,7 +34,7 @@
   <compo A="Tom Waits" T="Swordfishtrombones" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 80's - 2002" publish="2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="11" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 80's - 2002" publish="2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="12" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="The Fall" T="This Nation's Saving Grace" type="ALBUM" mergeable="true" del="false">

@@ -76,7 +76,7 @@
   <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="25" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="26" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Run DMC" T="Together Forever : Greatest Hits 1983-1991" type="ALBUM" mergeable="true" del="false">
