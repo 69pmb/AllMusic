@@ -274,7 +274,7 @@
   <compo A="Chic" T="Risque" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="91" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="92" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
@@ -340,7 +340,7 @@
   <compo A="Curtis Mayfield and the Impressions" T="The Anthology 1966 1977" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="113" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="114" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Van Morrison" T="Moondance" type="ALBUM" mergeable="true" del="false">
@@ -514,7 +514,7 @@
   <compo A="Prince" T="Dirty Mind" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="171" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="172" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Prince" T="Sign 'O' The Times" type="ALBUM" mergeable="true" del="true">
@@ -589,7 +589,7 @@
   <compo A="Pavement" T="Slanted and Enchanted" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="196" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="197" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Liz Phair" T="Exile In Guyville" type="ALBUM" mergeable="true" del="false">

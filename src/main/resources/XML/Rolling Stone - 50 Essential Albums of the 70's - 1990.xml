@@ -37,7 +37,7 @@
   <compo A="RANDY NEWMAN" T="12 Songs" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 50 Essential Albums of the 70's - 1990" publish="1990" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="12" creation="07/09/2018 14:04:16" size="50"/>
   </compo>
-  <compo A="THE CLASH" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="THE CLASH" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 50 Essential Albums of the 70's - 1990" publish="1990" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="13" creation="07/09/2018 14:04:16" size="50"/>
   </compo>
   <compo A="Graham Parker" T="Howlin Wind" type="ALBUM" mergeable="true" del="false">

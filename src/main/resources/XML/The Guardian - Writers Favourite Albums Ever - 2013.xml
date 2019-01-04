@@ -79,7 +79,7 @@
   <compo A="Pulp" T="His'n'Hers" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="26" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="27" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
   <compo A="Roxy Music" T="Manifesto" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="The Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="56" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="57" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
   <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">

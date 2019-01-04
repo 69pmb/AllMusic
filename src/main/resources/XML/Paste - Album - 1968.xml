@@ -22,7 +22,7 @@
   <compo A="Johnny Cash" T="At Folsom Prison" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="9" creation="31/08/2018 10:12:30" size="15"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="8" creation="31/08/2018 10:12:30" size="15"/>
   </compo>
   <compo A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" mergeable="true" del="false">

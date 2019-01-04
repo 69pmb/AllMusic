@@ -181,7 +181,7 @@
   <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="60" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="61" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
@@ -202,7 +202,7 @@
   <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="67" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="68" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
@@ -271,7 +271,7 @@
   <compo A="The Streets" T="A Grand Don't Come For Free" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="90" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="91" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Super Furry Animals" T="Radiator" type="ALBUM" mergeable="true" del="false">
@@ -1015,7 +1015,7 @@
   <compo A="Notorious Big" T="Ready To Die" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="338" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="339" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Sister Sledge" T="We Are Family" type="ALBUM" mergeable="true" del="false">

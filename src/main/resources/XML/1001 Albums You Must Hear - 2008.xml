@@ -394,7 +394,7 @@
   <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="131" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="132" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Byrds" T="Sweetheart of the Rodeo" type="ALBUM" mergeable="true" del="false">
@@ -1612,7 +1612,7 @@
   <compo A="Van Halen" T="1984" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="537" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="538" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Replacements" T="Let it Be" type="ALBUM" mergeable="true" del="false">
@@ -2092,7 +2092,7 @@
   <compo A="a Tribe Called Quest" T="The Low-End Theory" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="697" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="698" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Saint Etienne" T="Foxbase Alpha" type="ALBUM" mergeable="true" del="false">

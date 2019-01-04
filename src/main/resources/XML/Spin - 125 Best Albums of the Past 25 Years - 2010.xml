@@ -208,7 +208,7 @@
   <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="69" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="70" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">

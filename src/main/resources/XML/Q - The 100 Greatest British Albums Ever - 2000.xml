@@ -16,7 +16,7 @@
   <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="5" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="6" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="Prodigy" T="The Fat Of The Land" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="47" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="48" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="Soul To Soul" T="Club Classics Vol. One" type="ALBUM" mergeable="true" del="false">

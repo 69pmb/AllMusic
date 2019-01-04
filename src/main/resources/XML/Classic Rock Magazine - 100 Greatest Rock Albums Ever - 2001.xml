@@ -49,7 +49,7 @@
   <compo A="Marillion" T="Misplaced Childhood" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="16" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="17" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Deep Purple" T="Machine Head" type="ALBUM" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Queen" T="A Night At The Opera" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="25" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="26" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Whitesnake" T="1987" type="ALBUM" mergeable="true" del="false">
