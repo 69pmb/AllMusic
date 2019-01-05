@@ -4,7 +4,7 @@
   <compo A="LCD Soundsystem" T="All My Friends" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="1" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
-  <compo A="Wilco" T="Jesus, etc." type="SONG" mergeable="true" del="false">
+  <compo A="Wilco" T="Jesus, etc." type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="2" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
   <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="false" del="true">
@@ -85,7 +85,7 @@
   <compo A="M.I.A." T="Paper Planes" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="28" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
-  <compo A="Interpol" T="NYC" type="SONG" mergeable="true" del="false">
+  <compo A="Interpol" T="NYC" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="29" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
   <compo A="Bloc Party" T="This Modern Love" type="SONG" mergeable="true" del="false">

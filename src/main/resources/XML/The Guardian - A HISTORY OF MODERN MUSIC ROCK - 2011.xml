@@ -70,7 +70,7 @@
   <compo A="Cream" T="Steppin' Out" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="14" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Crosstown Traffic" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Crosstown Traffic" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="21" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="July" T="My Clown" type="SONG" mergeable="true" del="false">
@@ -298,7 +298,7 @@
   <compo A="Snow Patrol" T="Chasing Cars" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="94" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Radiohead" T="House Of Cards" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="House Of Cards" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="100" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
 </ListCompositions>

@@ -253,7 +253,7 @@
   <compo A="Neil Young" T="Rockin' in the Free World" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="84" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Chuck Berry" T="Roll Over Beethoven" type="SONG" mergeable="true" del="false">
+  <compo A="Chuck Berry" T="Roll Over Beethoven" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="85" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Soundgarden" T="Rusty Cage" type="SONG" mergeable="true" del="false">
@@ -658,13 +658,13 @@
   <compo A="Donna Summer" T="I Feel Love" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="219" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="U2" T="I Still Haven't Found What I'm Looking For" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="I Still Haven't Found What I'm Looking For" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="220" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Ministry" T="Jesus Built My Hot Rod" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="221" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Jungleland" type="SONG" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Jungleland" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="222" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="KLF" T="Justified And Ancient" type="SONG" mergeable="true" del="false">
@@ -772,7 +772,7 @@
   <compo A="Cure" T="Carnage Visors" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="257" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Pixies" T="Cecilia Ann" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Cecilia Ann" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="258" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="GiorgiMoroder" T="Chase" type="SONG" mergeable="true" del="false">
@@ -919,7 +919,7 @@
   <compo A="Beach Boys" T="Barbara Ann" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="306" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Massive Attack" T="Be Thankful For What You Got" type="SONG" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Be Thankful For What You Got" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="307" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="10,000 Maniacs" T="Because The Night" type="SONG" mergeable="true" del="false">
@@ -1111,7 +1111,7 @@
   <compo A="Beach Boys" T="God Only Knows" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="370" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Massive Attack" T="Hymn Of The Big Wheel" type="SONG" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Hymn Of The Big Wheel" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="371" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="LL Cool J" T="I Need Love" type="SONG" mergeable="true" del="false">
@@ -1504,7 +1504,7 @@
   <compo A="Smashing Pumpkins" T="1979" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="501" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Jimi Hendrix" T="1983 ( A Merman I Should Turn To Be)" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="1983 ( A Merman I Should Turn To Be)" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="502" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Sweet" T="Blockbuster" type="SONG" mergeable="true" del="false">
@@ -2182,7 +2182,7 @@
   <compo A="Led Zeppelin" T="Rock 'n' Roll" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="727" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Massive Attack" T="Safe From Harm" type="SONG" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Safe From Harm" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="728" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Metallica" T="Seek And Destroy" type="SONG" mergeable="true" del="false">
@@ -2329,7 +2329,7 @@
   <compo A="Radiohead" T="Scatterbrain" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="776" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Led Zeppelin" T="Since I've Been Loving You" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Since I've Been Loving You" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="777" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Manic St Preachers" T="Small Black Flowers That Grow In The Sky" type="SONG" mergeable="true" del="false">
@@ -2635,7 +2635,7 @@
   <compo A="Warren Zevon" T="Werewolves Of London" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="878" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Smiths" T="What Difference Does It Make?" type="SONG" mergeable="true" del="false">
+  <compo A="Smiths" T="What Difference Does It Make?" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="879" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Stooges" T="Your Pretty Face Is Going THell" type="SONG" mergeable="true" del="false">

@@ -442,7 +442,7 @@
   <compo A="R.E.M." T="The One I Love" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="147" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="U2" T="I Still Haven't Found What I'm Looking For" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="I Still Haven't Found What I'm Looking For" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="148" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Aretha Franklin" T="(You Make Me Feel Like) A Natural Woman" type="SONG" mergeable="true" del="false">
@@ -466,7 +466,7 @@
   <compo A="The Righteous Brothers" T="You've Lost That Loving Feeling" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="155" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Crosstown Traffic" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Crosstown Traffic" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="156" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Ice Cube" T="It Was A Good Day" type="SONG" mergeable="true" del="false">
@@ -1144,7 +1144,7 @@
   <compo A="Idlewild" T="You Held The World In Your Arms" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="381" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Damned" T="New Rose" type="SONG" mergeable="true" del="false">
+  <compo A="The Damned" T="New Rose" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="382" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Stevie Wonder" T="Living For The City" type="SONG" mergeable="true" del="false">
@@ -1375,7 +1375,7 @@
   <compo A="Talking Heads" T="Once In A Lifetime" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="458" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="U2" T="Where The Streets Have No Name" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Where The Streets Have No Name" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="459" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Warren G" T="Regulate" type="SONG" mergeable="true" del="false">
@@ -1501,7 +1501,7 @@
   <compo A="Elo" T="Mr. Blue Sky" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="500" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Television" T="See No Evil" type="SONG" mergeable="true" del="false">
+  <compo A="Television" T="See No Evil" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="501" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="The Waterboys" T="The Whole Of The Moon" type="SONG" mergeable="true" del="false">
@@ -1621,7 +1621,7 @@
   <compo A="The Clash" T="I Fought The Law" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="540" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Chuck Berry" T="Maybellene" type="SONG" mergeable="true" del="false">
+  <compo A="Chuck Berry" T="Maybellene" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="541" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Tlc" T="No Scrubs" type="SONG" mergeable="true" del="false">
@@ -2125,7 +2125,7 @@
   <compo A="The Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="708" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Led Zeppelin" T="Immigrant Song" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Immigrant Song" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="709" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Busta Rhymes And The Neptunes" T="Light Your Ass On Fire" type="SONG" mergeable="true" del="false">
@@ -2590,7 +2590,7 @@
   <compo A="Brendan Benson" T="Tiny Spark" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="863" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Interpol" T="Obstacle 1" type="SONG" mergeable="true" del="false">
+  <compo A="Interpol" T="Obstacle 1" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="864" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Flaming Groovies" T="Shake Some Action" type="SONG" mergeable="true" del="false">

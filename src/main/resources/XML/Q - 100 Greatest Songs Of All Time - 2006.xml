@@ -49,7 +49,7 @@
   <compo A="Michael Jackson" T="Billie Jean" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="16" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="U2" T="With Or Without You" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="With Or Without You" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="17" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Sex Pistols" T="God Save The Queen" type="SONG" mergeable="true" del="true">
@@ -127,7 +127,7 @@
   <compo A="Radiohead" T="Street Spirit (Fade Out)" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="42" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="U2" T="Where The Streets Have No Name" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Where The Streets Have No Name" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="43" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Pulp" T="Common People" type="SONG" mergeable="true" del="true">

@@ -16,7 +16,7 @@
   <compo A="Bruce Springsteen" T="The River" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="5" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Backstreets" type="SONG" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Backstreets" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="6" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Atlantic City" type="SONG" mergeable="true" del="true">
@@ -37,7 +37,7 @@
   <compo A="Bruce Springsteen" T="The Ghost Of Tom Joad" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="12" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Jungleland" type="SONG" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Jungleland" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="13" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Nebraska" type="SONG" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Bruce Springsteen" T="The Promise" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="19" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Tenth Avenue Freeze-Out" type="SONG" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Tenth Avenue Freeze-Out" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="20" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="I'm On Fire" type="SONG" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="Bruce Springsteen" T="If I Should Fall Behind" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="41" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Meeting Across The River" type="SONG" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Meeting Across The River" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="42" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Wrecking Ball" type="SONG" mergeable="true" del="false">
@@ -187,7 +187,7 @@
   <compo A="Bruce Springsteen" T="Radio Nowhere" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="62" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="She's The One" type="SONG" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="She's The One" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Bruce Springsteen Songs - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="63" creation="07/09/2018 13:58:15" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="American Skin (41 Shots)" type="SONG" mergeable="false" del="false">

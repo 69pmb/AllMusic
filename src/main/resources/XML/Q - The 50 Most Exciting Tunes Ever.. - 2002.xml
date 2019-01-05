@@ -46,7 +46,7 @@
   <compo A="The Jam" T="The Eaton Rifles" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - The 50 Most Exciting Tunes Ever.. - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="15" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
-  <compo A="U2" T="Where The Streets Have No Name" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Where The Streets Have No Name" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - The 50 Most Exciting Tunes Ever.. - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="16" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
   <compo A="Led Zeppelin" T="Rock And Roll" type="SONG" mergeable="true" del="true">
@@ -67,7 +67,7 @@
   <compo A="Blur" T="Song 2" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - The 50 Most Exciting Tunes Ever.. - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="22" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Crosstown Traffic" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Crosstown Traffic" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - The 50 Most Exciting Tunes Ever.. - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="23" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
   <compo A="The Who" T="I Can't Explain" type="SONG" mergeable="true" del="false">

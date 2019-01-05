@@ -529,7 +529,7 @@
   <compo A="The Libertines" T="Can't Stand Me Now" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="176" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Chuck Berry" T="Roll Over Beethoven" type="SONG" mergeable="true" del="false">
+  <compo A="Chuck Berry" T="Roll Over Beethoven" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="177" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Miracles" T="The Tracks Of My Tears" type="SONG" mergeable="true" del="false">
@@ -835,7 +835,7 @@
   <compo A="Kate Bush" T="Hounds Of Love" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="278" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pixies" T="Velouria" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Velouria" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="279" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Beatles" T="She Loves You" type="SONG" mergeable="true" del="false">
@@ -1210,7 +1210,7 @@
   <compo A="Black Grape" T="Reverend Black Grape" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="403" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="U2" T="Where The Streets Have No Name" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Where The Streets Have No Name" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="404" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Mia" T="Bad Girls" type="SONG" mergeable="true" del="true">

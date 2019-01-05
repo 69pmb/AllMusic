@@ -82,7 +82,7 @@
   <compo A="JD McPherson" T="Head Over Heels" type="SONG" mergeable="true" del="false">
     <file author="Paste" name="Paste - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="24" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Grimes" T="Flesh Without Blood" type="SONG" mergeable="true" del="false">
+  <compo A="Grimes" T="Flesh Without Blood" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="23" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Nathaniel Rateliff And The Night Sweats" T="SOB" type="SONG" mergeable="true" del="false">
@@ -121,10 +121,10 @@
   <compo A="Missy Elliott" T="WTF (Where They From) [And Pharrell Williams]" type="SONG" mergeable="true" del="false">
     <file author="Paste" name="Paste - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="11" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Sufjan Stevens" T="Should Have Known Better" type="SONG" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="Should Have Known Better" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="10" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Tame Impala" T="Let It Happen" type="SONG" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Let It Happen" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="9" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Drake" T="Hotline Bling" type="SONG" mergeable="true" del="true">
@@ -145,10 +145,10 @@
   <compo A="The Mountain Goats" T="The Legend of Chavo Guerro" type="SONG" mergeable="true" del="false">
     <file author="Paste" name="Paste - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="3" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Kendrick Lamar" T="King Kunta" type="SONG" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="King Kunta" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="2" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Courtney Barnett" T="Pedestrian At Best" type="SONG" mergeable="true" del="false">
+  <compo A="Courtney Barnett" T="Pedestrian At Best" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - Song - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
 </ListCompositions>
