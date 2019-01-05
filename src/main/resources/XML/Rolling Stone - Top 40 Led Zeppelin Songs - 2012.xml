@@ -19,7 +19,7 @@
   <compo A="Led Zeppelin" T="Good Times Bad Times" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="6" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Immigrant Song" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Immigrant Song" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="7" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="When The Levee Breaks" type="SONG" mergeable="true" del="true">
@@ -55,7 +55,7 @@
   <compo A="Led Zeppelin" T="The Song Remains The Same" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="18" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Gallows Pole" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Gallows Pole" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="19" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="D'yer Mak'er" type="SONG" mergeable="true" del="true">
@@ -103,10 +103,10 @@
   <compo A="Led Zeppelin" T="The Rain Song" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="34" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Tangerine" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Tangerine" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="35" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Since I've Been Loving You" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Since I've Been Loving You" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="36" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="Four Sticks" type="SONG" mergeable="true" del="true">

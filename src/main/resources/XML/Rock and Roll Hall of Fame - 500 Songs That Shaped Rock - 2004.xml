@@ -109,7 +109,7 @@
   <compo A="Chuck Berry" T="Johnny B. Goode" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="36" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Chuck Berry" T="Maybelline" type="SONG" mergeable="true" del="false">
+  <compo A="Chuck Berry" T="Maybelline" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="37" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Chuck Berry" T="Rock and Roll Music" type="SONG" mergeable="true" del="false">
@@ -328,7 +328,7 @@
   <compo A="Dick Dale" T="Let's Go Trippin'" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="109" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Damned" T="New Rose" type="SONG" mergeable="true" del="false">
+  <compo A="The Damned" T="New Rose" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="110" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Danny And the Juniors" T="At the Hop" type="SONG" mergeable="true" del="false">
@@ -988,7 +988,7 @@
   <compo A="Wilson Pickett" T="In the Midnight Hour" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="329" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Pink Floyd" T="Another Brick in the Wall, Part 2" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Another Brick in the Wall, Part 2" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="330" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Pink Floyd" T="Money" type="SONG" mergeable="true" del="false">
@@ -1234,7 +1234,7 @@
   <compo A="Patti Smith" T="Gloria" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="411" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Smiths" T="Heaven Knows I'm Miserable Now" type="SONG" mergeable="true" del="false">
+  <compo A="The Smiths" T="Heaven Knows I'm Miserable Now" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="412" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Sonic Youth" T="Teenage Riot" type="SONG" mergeable="true" del="false">
@@ -1360,7 +1360,7 @@
   <compo A="U.T.F.O." T="Roxanne, Roxanne" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="453" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="U2" T="I Still Haven't Found What I'm Looking For" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="I Still Haven't Found What I'm Looking For" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="454" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="U2" T="Pride (In the Name of Love)" type="SONG" mergeable="true" del="false">
@@ -1492,7 +1492,7 @@
   <compo A="Neil Young" T="Down By The River" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="497" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Neil Young" T="Heart of Gold" type="SONG" mergeable="true" del="false">
+  <compo A="Neil Young" T="Heart of Gold" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="498" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Neil Young" T="My My, Hey Hey (Out of the Blue)" type="SONG" mergeable="true" del="false">
