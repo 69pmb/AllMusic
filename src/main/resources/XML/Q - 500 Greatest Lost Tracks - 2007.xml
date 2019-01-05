@@ -724,10 +724,10 @@
   <compo A="Bob Dylan" T="Rambling, Gambling Willie" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 500 Greatest Lost Tracks - 2007" publish="2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="241" creation="28/08/2018 11:00:04" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="The Time They Are A-Changing" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="The Time They Are A-Changing" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 500 Greatest Lost Tracks - 2007" publish="2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="242" creation="28/08/2018 11:00:04" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="With God On Our Side" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="With God On Our Side" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 500 Greatest Lost Tracks - 2007" publish="2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="243" creation="28/08/2018 11:00:04" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Talkin' John Birch Paranoid Blues" type="SONG" mergeable="true" del="false">
@@ -961,7 +961,7 @@
   <compo A="U2" T="Dancing Barefoot" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 500 Greatest Lost Tracks - 2007" publish="2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="320" creation="28/08/2018 11:00:04" size="500"/>
   </compo>
-  <compo A="U2" T="Mysterious Ways" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Mysterious Ways" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 500 Greatest Lost Tracks - 2007" publish="2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="321" creation="28/08/2018 11:00:04" size="500"/>
   </compo>
   <compo A="U2" T="Lady With The Spinning Head (Uvi Version)" type="SONG" mergeable="true" del="false">

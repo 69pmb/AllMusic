@@ -28,7 +28,7 @@
   <compo A="Dinosaur Jr" T="Get Me" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 50 Greatest Guitar Solos Of All Time - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="42" creation="05/09/2018 10:29:43" size="50"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Soma" type="SONG" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Soma" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 50 Greatest Guitar Solos Of All Time - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="41" creation="05/09/2018 10:29:43" size="50"/>
   </compo>
   <compo A="Thin Lizzy" T="Roisin Dubh (Black Rose)" type="SONG" mergeable="true" del="false">
@@ -151,7 +151,7 @@
   <compo A="Led Zeppelin" T="Stairway To Heaven" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 50 Greatest Guitar Solos Of All Time - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="2" creation="05/09/2018 10:29:43" size="50"/>
   </compo>
-  <compo A="Guns N' Roses" T="Sweet Child O' Mine" type="SONG" mergeable="true" del="false">
+  <compo A="Guns N' Roses" T="Sweet Child O' Mine" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 50 Greatest Guitar Solos Of All Time - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="1" creation="05/09/2018 10:29:43" size="50"/>
   </compo>
 </ListCompositions>

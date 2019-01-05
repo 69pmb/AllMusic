@@ -16,7 +16,7 @@
   <compo A="The Beatles" T="Helter Skelter" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="5" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Guns N' Roses" T="Sweet Child Of Mine" type="SONG" mergeable="true" del="false">
+  <compo A="Guns N' Roses" T="Sweet Child Of Mine" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="6" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Who" T="Won't Get Fooled Again" type="SONG" mergeable="true" del="true">
@@ -199,7 +199,7 @@
   <compo A="The Strokes" T="Last Night" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="66" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Cherub Rock" type="SONG" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Cherub Rock" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="67" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Sonics" T="Strychnine" type="SONG" mergeable="true" del="false">

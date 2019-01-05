@@ -4,7 +4,7 @@
   <compo A="Sex Pistols" T="God Save The Queen" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Clash" T="London Calling" type="SONG" mergeable="true" del="true">
@@ -76,7 +76,7 @@
   <compo A="David Bowie" T="Life On Mars?" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="25" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Lou Reed" T="Walk On The Wild Side" type="SONG" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Walk On The Wild Side" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="26" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="ABBA" T="Dancing Queen" type="SONG" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Gang Of Four" T="Damaged Goods" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="46" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Dreams" type="SONG" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Dreams" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="47" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="false">

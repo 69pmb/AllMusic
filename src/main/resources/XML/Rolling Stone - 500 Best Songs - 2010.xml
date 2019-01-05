@@ -172,7 +172,7 @@
   <compo A="Michael Jackson" T="Billie Jean" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="58" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="The Times They Are A Changin'" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="The Times They Are A Changin'" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="59" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Al Green" T="Let's Stay Together" type="SONG" mergeable="true" del="false">
@@ -355,7 +355,7 @@
   <compo A="The Isley Brothers" T="Shout (Parts 1 and 2)]" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="119" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="120" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Jackson 5" T="I Want You Back" type="SONG" mergeable="true" del="false">
@@ -589,7 +589,7 @@
   <compo A="Buddy Holly" T="Peggy Sue" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="197" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Guns N' Roses" T="Sweet Child O' Mine" type="SONG" mergeable="true" del="false">
+  <compo A="Guns N' Roses" T="Sweet Child O' Mine" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="198" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Chantels" T="Maybe" type="SONG" mergeable="true" del="false">
@@ -664,7 +664,7 @@
   <compo A="he Left Banke" T="Walk Away Renee" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="222" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Lou Reed" T="Walk on the Wild Side" type="SONG" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Walk on the Wild Side" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="223" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Roy Orbison" T="Oh, Pretty Woman" type="SONG" mergeable="true" del="true">
@@ -787,7 +787,7 @@
   <compo A="The Dells" T="Oh, What a Night" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="263" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Jeff Buckley" T="Hallelujah" type="SONG" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Hallelujah" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="264" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Stevie Wonder" T="Higher Ground" type="SONG" mergeable="true" del="false">
@@ -1372,7 +1372,7 @@
   <compo A="Sam Cooke" T="Cupid" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="458" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Guns n' Roses" T="Paradise City" type="SONG" mergeable="true" del="false">
+  <compo A="Guns n' Roses" T="Paradise City" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="459" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="George Harrison" T="My Sweet Lord" type="SONG" mergeable="true" del="true">

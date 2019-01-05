@@ -46,7 +46,7 @@
   <compo A="Methyl Ethel" T="Ubu" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="56" creation="17/12/2017 16:34:31" size="70"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fool's Errand" type="SONG" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fool's Errand" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="55" creation="17/12/2017 16:34:31" size="70"/>
   </compo>
   <compo A="ODESZA" T="Late Night" type="SONG" mergeable="true" del="false">
@@ -208,7 +208,7 @@
   <compo A="Kendrick Lamar" T="HUMBLE" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="2" creation="17/12/2017 16:34:31" size="70"/>
   </compo>
-  <compo A="The XX" T="On Hold" type="SONG" mergeable="true" del="false">
+  <compo A="The XX" T="On Hold" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="1" creation="17/12/2017 16:34:31" size="70"/>
   </compo>
 </ListCompositions>

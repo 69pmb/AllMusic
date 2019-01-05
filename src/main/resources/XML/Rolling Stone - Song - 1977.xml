@@ -7,7 +7,7 @@
   <compo A="James Taylor" T="Handy Man" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="8"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="8"/>
   </compo>
   <compo A="Manfred Mann" T="Blinded By The Light" type="SONG" mergeable="true" del="false">

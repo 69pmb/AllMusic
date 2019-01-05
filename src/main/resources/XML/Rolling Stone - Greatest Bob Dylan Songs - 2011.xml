@@ -82,7 +82,7 @@
   <compo A="Bob Dylan" T="Sad-Eyed Lady Of The Lowlands" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="27" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="The Times They Are A-Changin'" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="The Times They Are A-Changin'" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="28" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="You Ain't Goin' Nowhere" type="SONG" mergeable="true" del="false">
@@ -103,10 +103,10 @@
   <compo A="Bob Dylan" T="Isis" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="34" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="The Lonesome Death Of Hattie Carroll" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="The Lonesome Death Of Hattie Carroll" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="35" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="With God On Our Side" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="With God On Our Side" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="36" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Maggie's Farm" type="SONG" mergeable="true" del="false">
@@ -202,7 +202,7 @@
   <compo A="Bob Dylan" T="Leopard Skin Pill-Box Hat" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="67" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="One Too Many Mornings" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="One Too Many Mornings" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="68" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="One More Cup Of Coffee (The Valley Below)" type="SONG" mergeable="true" del="false">

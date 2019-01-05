@@ -430,7 +430,7 @@
   <compo A="Bob Dylan" T="Tangled Up in Blue" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="143" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="The Times They Are a-Changin'" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="The Times They Are a-Changin'" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="144" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Eagles" T="Hotel California" type="SONG" mergeable="true" del="true">
@@ -457,7 +457,7 @@
   <compo A="The Flamingos" T="I Only Have Eyes for You" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="152" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="153" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Flying Burrito Brothers" T="Sin City" type="SONG" mergeable="true" del="false">
@@ -961,7 +961,7 @@
   <compo A="Les Paul and Mary Ford" T="How High the Moon" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="320" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Pearl Jam" T="Jeremy" type="SONG" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Jeremy" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="321" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Penguins" T="Earth Angel (Will You Be Mine)" type="SONG" mergeable="true" del="false">
@@ -1093,7 +1093,7 @@
   <compo A="Jimmy Reed" T="Bright Lights, Big City" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="364" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Lou Reed" T="Walk on the Wild Side" type="SONG" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Walk on the Wild Side" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="365" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Replacements" T="I Will Dare" type="SONG" mergeable="true" del="false">
