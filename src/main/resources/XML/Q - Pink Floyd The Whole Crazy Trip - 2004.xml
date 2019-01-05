@@ -73,7 +73,7 @@
   <compo A="Pink Floyd" T="Careful With That Axe Eugene" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Pink Floyd The Whole Crazy Trip - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="24" creation="28/08/2018 10:22:59" size="25"/>
   </compo>
-  <compo A="Pink Floyd" T="Mother" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Mother" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Pink Floyd The Whole Crazy Trip - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="25" creation="28/08/2018 10:22:59" size="25"/>
   </compo>
 </ListCompositions>

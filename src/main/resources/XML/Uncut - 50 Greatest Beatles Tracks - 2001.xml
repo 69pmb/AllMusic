@@ -34,7 +34,7 @@
   <compo A="The Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 50 Greatest Beatles Tracks - 2001" publish="2001" cat="THEME" rangeB="0" rangeE="2001" sorted="true" rank="11" creation="03/09/2018 10:17:22" size="52"/>
   </compo>
-  <compo A="The Beatles" T="Ticket To Ride" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Ticket To Ride" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 50 Greatest Beatles Tracks - 2001" publish="2001" cat="THEME" rangeB="0" rangeE="2001" sorted="true" rank="12" creation="03/09/2018 10:17:22" size="52"/>
   </compo>
   <compo A="The Beatles" T="Hey Jude" type="SONG" mergeable="true" del="true">
@@ -91,7 +91,7 @@
   <compo A="The Beatles" T="She Said She Said" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 50 Greatest Beatles Tracks - 2001" publish="2001" cat="THEME" rangeB="0" rangeE="2001" sorted="true" rank="30" creation="03/09/2018 10:17:22" size="52"/>
   </compo>
-  <compo A="The Beatles" T="You've Got To Hide Your Love Away" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="You've Got To Hide Your Love Away" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 50 Greatest Beatles Tracks - 2001" publish="2001" cat="THEME" rangeB="0" rangeE="2001" sorted="true" rank="31" creation="03/09/2018 10:17:22" size="52"/>
   </compo>
   <compo A="The Beatles" T="I'm Only Sleeping" type="SONG" mergeable="true" del="false">
