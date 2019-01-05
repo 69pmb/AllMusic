@@ -118,7 +118,7 @@
   <compo A="Jimi Hendrix" T="Voodoo Child (Slight Return)" type="SONG" mergeable="false" del="false">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="39" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
-  <compo A="Guns N' Roses" T="Sweet Child O' Mine" type="SONG" mergeable="true" del="false">
+  <compo A="Guns N' Roses" T="Sweet Child O' Mine" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="40" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
   <compo A="Free" T="Wishing Well" type="SONG" mergeable="true" del="false">

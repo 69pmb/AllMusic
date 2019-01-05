@@ -46,7 +46,7 @@
   <compo A="Andy Schauf" T="The Magician" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="66" creation="04/09/2017 13:57:39" size="80"/>
   </compo>
-  <compo A="Solange" T="Cranes in the Sky" type="SONG" mergeable="true" del="false">
+  <compo A="Solange" T="Cranes in the Sky" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="65" creation="04/09/2017 13:57:39" size="80"/>
   </compo>
   <compo A="Tinariwen" T="Tenere Taqqal" type="SONG" mergeable="true" del="false">
@@ -226,7 +226,7 @@
   <compo A="Radiohead" T="Burn the Witch" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="6" creation="04/09/2017 13:57:39" size="80"/>
   </compo>
-  <compo A="Frank Ocean" T="Nikes" type="SONG" mergeable="true" del="false">
+  <compo A="Frank Ocean" T="Nikes" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="5" creation="04/09/2017 13:57:39" size="80"/>
   </compo>
   <compo A="The 1975" T="The Sound" type="SONG" mergeable="true" del="true">

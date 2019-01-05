@@ -52,7 +52,7 @@
   <compo A="Journey" T="Dont Stop Believin'" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Most Explosive Choruses - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="34" creation="05/09/2018 10:27:52" size="50"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Most Explosive Choruses - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="33" creation="05/09/2018 10:27:52" size="50"/>
   </compo>
   <compo A="Toto" T="Africa" type="SONG" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Foo Fighters" T="Everlong" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Most Explosive Choruses - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="26" creation="05/09/2018 10:27:52" size="50"/>
   </compo>
-  <compo A="Pearl Jam" T="Alive" type="SONG" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Alive" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Most Explosive Choruses - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="25" creation="05/09/2018 10:27:52" size="50"/>
   </compo>
   <compo A="M.I.A." T="Paper Planes" type="SONG" mergeable="true" del="true">

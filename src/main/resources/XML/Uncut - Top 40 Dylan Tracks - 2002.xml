@@ -46,7 +46,7 @@
   <compo A="Bob Dylan" T="Mr Tambourine Man" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="15" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="The Lonesome Death Of Hattie Carroll" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="The Lonesome Death Of Hattie Carroll" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="16" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="Blowin' In The Wind" type="SONG" mergeable="true" del="true">
@@ -61,7 +61,7 @@
   <compo A="Bob Dylan" T="Don't Think Twice, It's All Over" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="20" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="The Times They Are A-Changin'" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="The Times They Are A-Changin'" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="21" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="Masters Of War" type="SONG" mergeable="true" del="true">
@@ -85,7 +85,7 @@
   <compo A="Bob Dylan" T="Knockin' On Heaven's Door" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="28" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="With God On Our Side" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="With God On Our Side" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="29" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
