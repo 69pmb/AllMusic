@@ -1165,7 +1165,7 @@
   <compo A="R.E.M." T="Radio Free Europe" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="389" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="390" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Aaron Neville" T="Tell It Like It Is" type="SONG" mergeable="true" del="false">
@@ -1177,7 +1177,7 @@
   <compo A="The Allman Brothers Band" T="Whipping Post" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="393" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Ticket to Ride" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Ticket to Ride" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="394" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Crosby, Stills, Nash and Young" T="Ohio" type="SONG" mergeable="true" del="true">
@@ -1288,7 +1288,7 @@
   <compo A="Elvis Presley" T="Blue Suede Shoes" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="430" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Smiths" T="William, It Was Really Nothing" type="SONG" mergeable="true" del="false">
+  <compo A="The Smiths" T="William, It Was Really Nothing" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="431" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Green day" T="American Idiot" type="SONG" mergeable="true" del="false">
@@ -1330,7 +1330,7 @@
   <compo A="Elvis Presley" T="Love Me Tender" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="444" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Stooges" T="I Wanna Be Your Dog" type="SONG" mergeable="true" del="false">
+  <compo A="The Stooges" T="I Wanna Be Your Dog" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="445" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Salt 'n' Pepa" T="Push It" type="SONG" mergeable="true" del="true">

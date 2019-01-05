@@ -385,7 +385,7 @@
   <compo A="Culture Club" T="Time(Clock Of The Heart)" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="128" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
-  <compo A="The Beatles" T="Ticket To Ride" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Ticket To Ride" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="129" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
   <compo A="Chuck Berry" T="Sweet Little Sixteen" type="SONG" mergeable="true" del="true">
