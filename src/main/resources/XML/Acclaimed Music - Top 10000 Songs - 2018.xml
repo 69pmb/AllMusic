@@ -280,7 +280,7 @@
   <compo A="LCD Soundsystem" T="All My Friends" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="93" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="U2" T="One" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="One" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="94" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Smokey Robinson And The Miracles" T="The Tracks Of My Tears" type="SONG" mergeable="true" del="false">
@@ -2134,7 +2134,7 @@
   <compo A="The Who" T="Pinball Wizard" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="711" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Marvin Gaye" T="Inner City Blues (Make Me Wanna Holler)" type="SONG" mergeable="true" del="false">
+  <compo A="Marvin Gaye" T="Inner City Blues (Make Me Wanna Holler)" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="712" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Coleman Hawkins" T="Body And Soul" type="SONG" mergeable="true" del="false">
@@ -8560,7 +8560,7 @@
   <compo A="Janis Joplin" T="Summertime" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2853" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Pearl Jam" T="Black" type="SONG" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Black" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2854" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Jurassic 5" T="Concrete Schoolyard" type="SONG" mergeable="true" del="false">
