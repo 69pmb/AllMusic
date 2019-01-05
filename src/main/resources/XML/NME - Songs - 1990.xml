@@ -121,7 +121,7 @@
   <compo A="Something Happens!" T="Hello Hello Hello Hello (Petrol)" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="40" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
-  <compo A="Pixies" T="Velouria" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Velouria" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="41" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
   <compo A="Nick Cave" T="The Ship Song" type="SONG" mergeable="true" del="false">

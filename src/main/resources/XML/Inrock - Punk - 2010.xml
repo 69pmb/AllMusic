@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Stooges" T="No Fun" type="SONG" mergeable="true" del="false">
+  <compo A="The Stooges" T="No Fun" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Punk - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="30"/>
   </compo>
   <compo A="New York Dolls" T="Personality Crisis" type="SONG" mergeable="true" del="true">
@@ -37,7 +37,7 @@
   <compo A="Dead Boys" T="Sonic Reducer" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Punk - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="12" creation="05/01/2018 13:17:17" size="30"/>
   </compo>
-  <compo A="The Saints (2)" T="I'm Stranded" type="SONG" mergeable="true" del="false">
+  <compo A="The Saints (2)" T="I'm Stranded" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Punk - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="13" creation="05/01/2018 13:17:17" size="30"/>
   </compo>
   <compo A="Penetration (2)" T="Don't Dictate" type="SONG" mergeable="true" del="false">

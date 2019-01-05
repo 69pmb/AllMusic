@@ -139,7 +139,7 @@
   <compo A="R.E.M." T="Hope" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="58" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Chuck Berry" T="Maybelline" type="SONG" mergeable="true" del="false">
+  <compo A="Chuck Berry" T="Maybelline" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="60" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="The dBs" T="Black And White" type="SONG" mergeable="true" del="false">
@@ -271,7 +271,7 @@
   <compo A="James Brown" T="Please, Please, Please" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="114" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Crosstown Traffic" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Crosstown Traffic" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="117" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Townes Van Zandt" T="Tecumseh Valley" type="SONG" mergeable="true" del="false">
@@ -550,7 +550,7 @@
   <compo A="Buddy Holly" T="Peggy Sue" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="237" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Beastie Boys" T="Hey Ladies" type="SONG" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Hey Ladies" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="238" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="MC5" T="Shakin' Street" type="SONG" mergeable="true" del="false">
@@ -598,7 +598,7 @@
   <compo A="Judy Collins" T="Deportee" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="264" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="My Bloody Valentine" T="When You Sleep" type="SONG" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="When You Sleep" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="265" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Kelis" T="Caught Out There" type="SONG" mergeable="true" del="false">
@@ -1987,7 +1987,7 @@
   <compo A="Tortoise" T="Djed" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="851" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Neil Young" T="A Man Needs A Maid" type="SONG" mergeable="true" del="false">
+  <compo A="Neil Young" T="A Man Needs A Maid" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="852" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Stevie Wonder" T="Uptight (Everything's Alright)" type="SONG" mergeable="true" del="false">
@@ -2071,7 +2071,7 @@
   <compo A="Blondie" T="The Tide Is High" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="891" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="The Saints" T="(I'm) Stranded" type="SONG" mergeable="true" del="false">
+  <compo A="The Saints" T="(I'm) Stranded" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="894" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Tom Waits" T="Tom Traubert's Blues" type="SONG" mergeable="true" del="false">
@@ -2281,7 +2281,7 @@
   <compo A="The Cruel Sea" T="Better Get A Lawyer" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="992" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Led Zeppelin" T="Gallows Pole" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Gallows Pole" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="993" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="The Monkees" T="Porpoise Song" type="SONG" mergeable="true" del="false">
