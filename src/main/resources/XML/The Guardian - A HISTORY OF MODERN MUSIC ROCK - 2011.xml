@@ -190,7 +190,7 @@
   <compo A="David Bowie" T="Heroes" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="67" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="68" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Racing In The Street" type="SONG" mergeable="true" del="true">
@@ -247,7 +247,7 @@
   <compo A="Nirvana" T="Smells Like Teen Spirit" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="85" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Pearl Jam" T="Alive" type="SONG" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Alive" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="86" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="REM" T="Country Feedback" type="SONG" mergeable="true" del="false">

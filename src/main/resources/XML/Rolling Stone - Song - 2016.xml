@@ -4,7 +4,7 @@
   <compo A="Beyonce" T="Formation" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Frank Ocean" T="Ivy" type="SONG" mergeable="true" del="false">
+  <compo A="Frank Ocean" T="Ivy" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Drake" T="One Dance" type="SONG" mergeable="true" del="true">
@@ -19,7 +19,7 @@
   <compo A="Pwr Bttm" T="Projection" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Solange" T="Cranes in the Sky" type="SONG" mergeable="true" del="false">
+  <compo A="Solange" T="Cranes in the Sky" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="7" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Fifth Harmony And Ty Dolla sign" T="Work From Home" type="SONG" mergeable="true" del="true">

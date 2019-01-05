@@ -127,7 +127,7 @@
   <compo A="Bob Dylan" T="Positively 4th Street" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="42" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Lou Reed" T="Walk On The Wild Side" type="SONG" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Walk On The Wild Side" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="43" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Bad Company" T="Can't Get Enough" type="SONG" mergeable="true" del="false">

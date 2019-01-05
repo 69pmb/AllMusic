@@ -94,7 +94,7 @@
   <compo A="The Replacements" T="Bastards Of Young" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="31" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Metallica" T="Battery" type="SONG" mergeable="true" del="false">
+  <compo A="Metallica" T="Battery" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="32" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Rammellzee And K-Rob" T="Beat Bop" type="SONG" mergeable="true" del="false">
@@ -448,7 +448,7 @@
   <compo A="Marvin Gaye" T="Got To Give It Up" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="149" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="SONG" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="150" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Paul Simon" T="Graceland" type="SONG" mergeable="true" del="false">
@@ -1255,7 +1255,7 @@
   <compo A="Bright Eyes" T="The Calendar Hung Itself" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="418" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Fleetwood Mac" T="The Chain" type="SONG" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="The Chain" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="419" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Giorgio Moroder" T="The Chase" type="SONG" mergeable="true" del="false">
