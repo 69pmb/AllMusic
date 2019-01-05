@@ -41,8 +41,6 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
-import com.opencsv.bean.CsvBindByName;
-
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CleanFile;
@@ -59,6 +57,8 @@ import pmb.music.AllMusic.view.dialog.DeleteCompoDialog;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
+
+import com.opencsv.bean.CsvBindByName;
 
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
@@ -597,12 +597,12 @@ public class BatchUtils {
 			Field[] declaredFields = CsvComposition.class.getDeclaredFields();
 			for (int i = 0; i < declaredFields.length; i++) {
 				Field field = declaredFields[i];
+				if (ignoreField.contains(field.getName())) {
+					continue;
+				}
 				CsvBindByName annotation = field.getAnnotationsByType(CsvBindByName.class)[0];
-				Object fieldValue = field.get(csv);
+				Object fieldValue = FieldUtils.readField(field, csv, true);
 				if (fieldValue != null) {
-					if (ignoreField.contains(field.getName())) {
-						continue;
-					}
 					sb.append(Constant.NEW_LINE).append(annotation.column()).append(": ")
 							.append(convertValueField(field, fieldValue));
 				}
