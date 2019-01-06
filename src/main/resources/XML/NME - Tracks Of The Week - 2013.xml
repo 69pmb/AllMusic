@@ -76,7 +76,7 @@
   <compo A="Arctic Monkeys" T="Do You Wanna Know?" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="25" creation="27/07/2017 13:27:28" size="49"/>
   </compo>
-  <compo A="Franz Ferdinand" T="Right Action" type="SONG" mergeable="true" del="false">
+  <compo A="Franz Ferdinand" T="Right Action" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="26" creation="27/07/2017 13:27:28" size="49"/>
   </compo>
   <compo A="Pixies" T="Bagboy" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Earl Sweatshirt And Vince Staples And Casey Veggies" T="Hive" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="29" creation="27/07/2017 13:27:28" size="49"/>
   </compo>
-  <compo A="Haim" T="The Wire" type="SONG" mergeable="true" del="false">
+  <compo A="Haim" T="The Wire" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="30" creation="27/07/2017 13:27:28" size="49"/>
   </compo>
   <compo A="TV On The Radio" T="Mercy" type="SONG" mergeable="true" del="false">
@@ -103,10 +103,10 @@
   <compo A="MIA" T="Unbreak My Mixtape" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="34" creation="27/07/2017 13:27:28" size="49"/>
   </compo>
-  <compo A="Sleigh Bells" T="Bitter Rival" type="SONG" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Bitter Rival" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="35" creation="27/07/2017 13:27:28" size="49"/>
   </compo>
-  <compo A="MIA" T="Come Walk With Me" type="SONG" mergeable="true" del="false">
+  <compo A="MIA" T="Come Walk With Me" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="36" creation="27/07/2017 13:27:28" size="49"/>
   </compo>
   <compo A="The Killers" T="Shot At The Night" type="SONG" mergeable="true" del="false">
@@ -145,7 +145,7 @@
   <compo A="Childish Gambino" T="Sweatpants" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="48" creation="27/07/2017 13:27:28" size="49"/>
   </compo>
-  <compo A="St. Vincent" T="Birth In Reverse" type="SONG" mergeable="true" del="false">
+  <compo A="St. Vincent" T="Birth In Reverse" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="49" creation="27/07/2017 13:27:28" size="49"/>
   </compo>
 </ListCompositions>

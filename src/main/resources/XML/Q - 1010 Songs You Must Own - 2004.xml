@@ -748,13 +748,13 @@
   <compo A="McAlmont And Butler" T="Yes" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="249" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Rolling Stones" T="You Can't Always Get What You Want" type="SONG" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="You Can't Always Get What You Want" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="250" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="45 King" T="900 Number" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="251" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="David Bowie" T="A New Career In A New Town" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="A New Career In A New Town" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="252" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Fleetwood Mac" T="Albatross" type="SONG" mergeable="true" del="false">
@@ -826,7 +826,7 @@
   <compo A="Love Unlimited Orchestra" T="Love's Theme" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="275" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Funkadelic" T="Maggot Brain" type="SONG" mergeable="true" del="false">
+  <compo A="Funkadelic" T="Maggot Brain" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="276" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Ryuichi Sakamoto" T="Merry Christmas, Mr Lawrence" type="SONG" mergeable="true" del="false">
@@ -1384,7 +1384,7 @@
   <compo A="Coral" T="Dreaming Of You" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="461" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Streets" T="Dry Your Eyes" type="SONG" mergeable="true" del="false">
+  <compo A="Streets" T="Dry Your Eyes" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="462" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Alicia Keys" T="Fallin'" type="SONG" mergeable="true" del="false">
@@ -1678,7 +1678,7 @@
   <compo A="Rolling Stones" T="We Love You" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="559" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Primal Scream" T="Loaded" type="SONG" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Loaded" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="560" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="KLF" T="3am Somewhere Out Of Beaumont" type="SONG" mergeable="true" del="false">
@@ -1696,7 +1696,7 @@
   <compo A="Kate Bush" T="And Dreams Of Sheep" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="565" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="David Bowie" T="Art Decade" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Art Decade" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="566" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Push Button Objects" T="ATP Track" type="SONG" mergeable="true" del="false">
@@ -2011,7 +2011,7 @@
   <compo A="Carpenters" T="Superstar" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="670" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="671" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Isley Brothers" T="That Lady" type="SONG" mergeable="true" del="false">
@@ -2404,7 +2404,7 @@
   <compo A="Mercyful Fate" T="A Corpse Without Soul" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="801" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Motorhead" T="Ace Of Spades" type="SONG" mergeable="true" del="false">
+  <compo A="Motorhead" T="Ace Of Spades" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="802" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Led Zeppelin" T="Black Dog" type="SONG" mergeable="true" del="true">

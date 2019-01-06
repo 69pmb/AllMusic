@@ -118,7 +118,7 @@
   <compo A="George Harrison" T="Handle With Care" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The Top 40 Post-Beatles Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="39" creation="25/06/2018 15:47:06" size="40"/>
   </compo>
-  <compo A="Paul McCartney" T="Queenie Eye" type="SONG" mergeable="true" del="false">
+  <compo A="Paul McCartney" T="Queenie Eye" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The Top 40 Post-Beatles Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="40" creation="25/06/2018 15:47:06" size="40"/>
   </compo>
 </ListCompositions>

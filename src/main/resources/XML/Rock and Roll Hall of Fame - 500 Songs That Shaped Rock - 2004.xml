@@ -214,7 +214,7 @@
   <compo A="Ray Charles" T="Hallelujah I Love Her So" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="71" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Ray Charles" T="I Got a Woman" type="SONG" mergeable="true" del="false">
+  <compo A="Ray Charles" T="I Got a Woman" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="72" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Ray Charles" T="What'd I Say" type="SONG" mergeable="true" del="true">
@@ -730,7 +730,7 @@
   <compo A="Ben E. King" T="Spanish Harlem" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="243" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Ben E. King" T="Stand by Me" type="SONG" mergeable="true" del="false">
+  <compo A="Ben E. King" T="Stand by Me" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="244" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Carole King" T="You've Got a Friend" type="SONG" mergeable="true" del="false">
@@ -778,7 +778,7 @@
   <compo A="Led Zeppelin" T="Stairway to Heaven" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="259" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="260" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Left Banke" T="Walk Away Renee" type="SONG" mergeable="true" del="false">
@@ -793,7 +793,7 @@
   <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="264" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Jerry Lee Lewis" T="Great Balls of Fire" type="SONG" mergeable="true" del="false">
+  <compo A="Jerry Lee Lewis" T="Great Balls of Fire" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="265" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin' Goin' On" type="SONG" mergeable="true" del="false">
@@ -1018,7 +1018,7 @@
   <compo A="Elvis Presley" T="Mystery Train" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="339" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="340" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Elvis Presley" T="That's All Right" type="SONG" mergeable="true" del="false">
@@ -1084,7 +1084,7 @@
   <compo A="Otis Redding" T="(Sittin' on) The Dock of the Bay" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="361" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Otis Redding" T="Try a Little Tenderness" type="SONG" mergeable="true" del="false">
+  <compo A="Otis Redding" T="Try a Little Tenderness" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="362" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Jimmy Reed" T="Big Boss Man" type="SONG" mergeable="true" del="false">
