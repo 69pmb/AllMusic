@@ -31,7 +31,7 @@
   <compo A="Meat Loaf" T="Bat Out Of Hell" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="10" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
-  <compo A="Motorhead" T="Ace Of Spades" type="SONG" mergeable="true" del="false">
+  <compo A="Motorhead" T="Ace Of Spades" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="11" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
   <compo A="Rush" T="2112" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Journey" T="Don't Stop Believing" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="29" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
-  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="30" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
   <compo A="Iron Maiden" T="Run To The Hills" type="SONG" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Yes" T="Owner Of A Lonely Heart" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="42" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
-  <compo A="The Rolling Stones" T="Gimme Shelter" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Gimme Shelter" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="43" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
   <compo A="Pink Floyd" T="Time" type="SONG" mergeable="true" del="false">

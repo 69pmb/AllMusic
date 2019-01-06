@@ -34,7 +34,7 @@
   <compo A="Bob Dylan" T="It's All Over Now, Baby Blue" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="11" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Desolation Row" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Desolation Row" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="12" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Subterranean Homesick Blues" type="SONG" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="14" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Simple Twist Of Fate" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Simple Twist Of Fate" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="15" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Positively 4th Street" type="SONG" mergeable="true" del="true">
@@ -52,7 +52,7 @@
   <compo A="Bob Dylan" T="This Wheel's On Fire" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="17" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Ballad Of A Thin Man" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Ballad Of A Thin Man" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="18" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Blind Willie McTell" type="SONG" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Bob Dylan" T="Chimes Of Freedom" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="32" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Idiot Wind" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Idiot Wind" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="33" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Isis" type="SONG" mergeable="true" del="false">
@@ -166,10 +166,10 @@
   <compo A="Bob Dylan" T="If Not For You" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="55" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="You're Gonna Make Me Lonesome When You Go" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="You're Gonna Make Me Lonesome When You Go" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="56" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Just Like Tom Thumb's Blues" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Just Like Tom Thumb's Blues" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="57" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Percy's Song" type="SONG" mergeable="true" del="false">
@@ -178,16 +178,16 @@
   <compo A="Bob Dylan" T="Million Dollar Bash" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="59" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Buckets Of Rain" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Buckets Of Rain" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="60" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="It Takes A Lot To Laugh, It Takes A Train To Cry" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="It Takes A Lot To Laugh, It Takes A Train To Cry" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="61" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Queen Jane Approximately" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Queen Jane Approximately" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="62" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="If You See Her, Say Hello" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="If You See Her, Say Hello" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="63" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Abandoned Love" type="SONG" mergeable="true" del="false">
@@ -196,7 +196,7 @@
   <compo A="Bob Dylan" T="Tough Mama" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="65" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Shelter From The Storm" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Shelter From The Storm" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="66" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Leopard Skin Pill-Box Hat" type="SONG" mergeable="true" del="true">
@@ -256,13 +256,13 @@
   <compo A="Bob Dylan" T="She's Your Lover Now" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="85" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Meet Me In The Morning" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Meet Me In The Morning" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="86" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Most Of The Time" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="87" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Tombstone Blues" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Tombstone Blues" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="88" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Changing Of The Guards" type="SONG" mergeable="true" del="false">
@@ -271,7 +271,7 @@
   <compo A="Bob Dylan" T="The Groom's Still Waiting At The Altar" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="90" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="You're A Big Girl Now" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="You're A Big Girl Now" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="91" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Going, Going, Gone" type="SONG" mergeable="true" del="false">

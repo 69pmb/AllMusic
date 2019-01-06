@@ -61,7 +61,7 @@
   <compo A="Coldplay" T="The Scientist" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="20" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
-  <compo A="Kate Bush" T="Hounds Of Love" type="SONG" mergeable="true" del="false">
+  <compo A="Kate Bush" T="Hounds Of Love" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="21" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
   <compo A="Madness" T="Baggy Trousers" type="SONG" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="24" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
-  <compo A="The Streets" T="Dry Your Eyes" type="SONG" mergeable="true" del="false">
+  <compo A="The Streets" T="Dry Your Eyes" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="25" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
   <compo A="Blur" T="Girls And Boys" type="SONG" mergeable="true" del="true">
@@ -115,7 +115,7 @@
   <compo A="Soul II Soul" T="Back To Life" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="38" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
-  <compo A="Morrissey" T="Everyday Is Like Sunday" type="SONG" mergeable="true" del="false">
+  <compo A="Morrissey" T="Everyday Is Like Sunday" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="39" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
   <compo A="Radiohead" T="Karma Police" type="SONG" mergeable="true" del="false">

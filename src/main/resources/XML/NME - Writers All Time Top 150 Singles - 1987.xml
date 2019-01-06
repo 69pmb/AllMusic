@@ -142,7 +142,7 @@
   <compo A="Elvis Presley" T="Don't Be Cruel/Hound Dog" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="47" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
-  <compo A="Ben E. King" T="Stand By Me" type="SONG" mergeable="true" del="false">
+  <compo A="Ben E. King" T="Stand By Me" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="48" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
   <compo A="Prince" T="1999" type="SONG" mergeable="true" del="false">
@@ -262,7 +262,7 @@
   <compo A="Jockey Wilson" T="Higher And Higher" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="87" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
-  <compo A="The Beatles" T="A Hard Days Night" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Days Night" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="88" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
   <compo A="Smokey Robinson And The Miracles" T="I Second That Emotion" type="SONG" mergeable="true" del="false">

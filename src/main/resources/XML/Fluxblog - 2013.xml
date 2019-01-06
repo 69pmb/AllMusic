@@ -7,10 +7,10 @@
   <compo A="Miley Cyrus" T="We Can't Stop" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="2" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Haim" T="The Wire" type="SONG" mergeable="true" del="false">
+  <compo A="Haim" T="The Wire" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="3" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Kanye West" T="Bound 2" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Bound 2" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="4" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Vampire Weekend" T="Don't Lie" type="SONG" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Neko Case" T="Night Still Comes" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="7" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Sky Ferreira" T="I Blame Myself" type="SONG" mergeable="true" del="false">
+  <compo A="Sky Ferreira" T="I Blame Myself" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="8" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Laura Mvula" T="Make Me Lovely" type="SONG" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Cults" T="I Can Hardly Make You Mine" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="21" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Janelle Monae" T="Dance Apocalyptic" type="SONG" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="Dance Apocalyptic" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="22" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Brown Eyed Girls" T="I Want To Fly Away" type="SONG" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Eleanor Friedberger" T="I'll Never Be Happy Again" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="26" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Deerhunter" T="Dream Captain" type="SONG" mergeable="true" del="false">
+  <compo A="Deerhunter" T="Dream Captain" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="27" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Fear of Men" T="Ritual Confession" type="SONG" mergeable="true" del="false">
@@ -112,13 +112,13 @@
   <compo A="Glass Candy" T="The Possessed" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="37" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Chvrches" T="The Mother We Share" type="SONG" mergeable="true" del="false">
+  <compo A="Chvrches" T="The Mother We Share" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="38" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="GEMS" T="Medusa" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="39" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Lorde" T="Royals" type="SONG" mergeable="true" del="false">
+  <compo A="Lorde" T="Royals" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="40" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Vic Mensa" T="Orange Soda" type="SONG" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="Pitbull And Kesha" T="Timber" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="47" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Queens of the Stone Age" T="Smooth Sailing" type="SONG" mergeable="true" del="false">
+  <compo A="Queens of the Stone Age" T="Smooth Sailing" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="48" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="The Preatures" T="Is This How You Feel?" type="SONG" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Basement Jaxx" T="Back 2 the Wild" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="68" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Duke Dumont" T="Need U (100%) (And A*M*E)" type="SONG" mergeable="true" del="false">
+  <compo A="Duke Dumont" T="Need U (100%) (And A*M*E)" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="69" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Betty Who" T="Somebody Loves You" type="SONG" mergeable="true" del="false">
@@ -247,7 +247,7 @@
   <compo A="Eric Copeland" T="Rokzi" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="82" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Kurt Vile" T="Walkin' On A Pretty Day" type="SONG" mergeable="true" del="false">
+  <compo A="Kurt Vile" T="Walkin' On A Pretty Day" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="83" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Florida Georgia Line" T="Get Your Shine On" type="SONG" mergeable="true" del="false">
@@ -325,7 +325,7 @@
   <compo A="Doldrums" T="She Is the Wave" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="108" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Sleigh Bells" T="Bitter Rivals" type="SONG" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Bitter Rivals" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="109" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Teen Girl Scientist Monthly" T="Summer Skin" type="SONG" mergeable="true" del="false">
@@ -337,7 +337,7 @@
   <compo A="Cakes Da Killa" T="Break Em Off" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="112" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Drake" T="Hold On, We're Going Home" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Hold On, We're Going Home" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="113" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="San E" T="Break Up Dinner" type="SONG" mergeable="true" del="false">
@@ -382,7 +382,7 @@
   <compo A="Knife Party" T="Power Glove" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="127" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Ciara And Nicki Minaj" T="I'm Out" type="SONG" mergeable="true" del="false">
+  <compo A="Ciara And Nicki Minaj" T="I'm Out" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="128" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Migos" T="Versace" type="SONG" mergeable="true" del="false">
@@ -421,13 +421,13 @@
   <compo A="Electric Six" T="Show Me What Your Lights Mean" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="140" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Paul McCartney" T="Queenie Eye" type="SONG" mergeable="true" del="false">
+  <compo A="Paul McCartney" T="Queenie Eye" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="141" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Unmade Beds" T="Go the Whole Way" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="142" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="AsAP Ferg" T="Shabba" type="SONG" mergeable="true" del="false">
+  <compo A="AsAP Ferg" T="Shabba" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="143" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Robin Thicke And Kendrick Lamar" T="Give It 2 U" type="SONG" mergeable="true" del="false">
@@ -439,7 +439,7 @@
   <compo A="G-Dragon" T="MichiGO" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="146" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Arcade Fire" T="We Exist" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="We Exist" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="147" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Daft Punk" T="Get Lucky" type="SONG" mergeable="true" del="false">
@@ -496,13 +496,13 @@
   <compo A="Sandy Lam" T="???" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="165" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Tegan and Sara" T="Closer" type="SONG" mergeable="true" del="false">
+  <compo A="Tegan and Sara" T="Closer" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="166" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Fol Chen" T="A Tourist Town" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="167" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
-  <compo A="Franz Ferdinand" T="Right Action" type="SONG" mergeable="true" del="false">
+  <compo A="Franz Ferdinand" T="Right Action" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="false" rank="168" creation="08/08/2017 23:13:02" size="184"/>
   </compo>
   <compo A="Destroyer" T="El Rito" type="SONG" mergeable="true" del="false">
