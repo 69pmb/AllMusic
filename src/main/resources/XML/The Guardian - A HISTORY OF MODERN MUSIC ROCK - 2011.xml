@@ -40,7 +40,7 @@
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="18" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Desolation Row" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Desolation Row" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="19" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="John Mayall And The Bluesbreakers With Eric Clapton" T="Steppin' Out" type="SONG" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="36" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Midnight Rambler (live)" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Midnight Rambler (live)" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="37" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Joni Mitchell" T="Big Yellow Taxi" type="SONG" mergeable="true" del="false">
@@ -145,7 +145,7 @@
   <compo A="Carole King" T="It's Too Late" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="47" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Funkadelic" T="Maggot Brain" type="SONG" mergeable="true" del="false">
+  <compo A="Funkadelic" T="Maggot Brain" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="48" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="false">
@@ -184,7 +184,7 @@
   <compo A="Queen" T="Bohemian Rhapsody" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="62" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Be My Wife" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Be My Wife" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="66" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="David Bowie" T="Heroes" type="SONG" mergeable="true" del="true">

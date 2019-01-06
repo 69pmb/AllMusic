@@ -31,7 +31,7 @@
   <compo A="Nirvana" T="Smells Like Teen Spirit" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="10" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="11" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Voodoo Child (Slight Return)" type="SONG" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="White Stripes" T="Seven Nation Army" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="21" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Beatles" T="A Hard Day's Night!" type="SONG" mergeable="true" del="false">
+  <compo A="Beatles" T="A Hard Day's Night!" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="22" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Yardbirds" T="Over Under Sideways Down" type="SONG" mergeable="true" del="false">
@@ -178,7 +178,7 @@
   <compo A="Jeff Beck" T="Freeway Jam" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="59" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Funkadelic" T="Maggot Brain" type="SONG" mergeable="true" del="false">
+  <compo A="Funkadelic" T="Maggot Brain" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="60" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Sam And Dave" T="Soul Man" type="SONG" mergeable="true" del="false">

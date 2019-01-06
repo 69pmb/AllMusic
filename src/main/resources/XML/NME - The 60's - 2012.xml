@@ -22,7 +22,7 @@
   <compo A="The Rolling Stones" T="Sympathy For The Devil" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
@@ -37,7 +37,7 @@
   <compo A="The Beach Boys" T="God Only Knows" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="12" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="13" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Paint It Black" type="SONG" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="The Who" T="My Generation" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="26" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Gimmie Shelter" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Gimmie Shelter" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="27" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Otis Redding" T="Sittin'On The Dock Of The Bay" type="SONG" mergeable="true" del="true">
@@ -100,7 +100,7 @@
   <compo A="13th Floor Elevators" T="You're Gonna Miss Me" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="33" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Ben E. King" T="Stand By Me" type="SONG" mergeable="true" del="false">
+  <compo A="Ben E. King" T="Stand By Me" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="34" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Zombies" T="Time Of The Season" type="SONG" mergeable="true" del="false">
@@ -178,7 +178,7 @@
   <compo A="Sly And The Family Stone" T="Dance To The Music" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="59" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Shirelles" T="Will You Still Love Me Tomorrow" type="SONG" mergeable="true" del="false">
+  <compo A="The Shirelles" T="Will You Still Love Me Tomorrow" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="60" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Righteous Brothers" T="Unchained Melody" type="SONG" mergeable="true" del="false">

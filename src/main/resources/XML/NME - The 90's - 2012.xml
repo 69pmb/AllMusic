@@ -37,7 +37,7 @@
   <compo A="Madonna" T="Vogue" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="12" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Primal Scream" T="Loaded" type="SONG" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Loaded" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="13" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Suede" T="Animal Nitrate" type="SONG" mergeable="true" del="false">
@@ -226,7 +226,7 @@
   <compo A="Hole" T="Celebrity Skin" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="75" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Primal Scream" T="Come Together" type="SONG" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Come Together" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="76" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Air" T="Sexy Boy" type="SONG" mergeable="true" del="false">
@@ -271,7 +271,7 @@
   <compo A="A Tribe Called Quest" T="Can I Kick It?" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="90" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Pulp" T="Babies" type="SONG" mergeable="true" del="false">
+  <compo A="Pulp" T="Babies" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="91" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" mergeable="true" del="false">

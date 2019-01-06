@@ -25,7 +25,7 @@
   <compo A="Shabazz Palaces" T="Forerunner Foray" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="68" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
-  <compo A="Lykke Li" T="No Rest for the Wicked" type="SONG" mergeable="true" del="false">
+  <compo A="Lykke Li" T="No Rest for the Wicked" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="67" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
   <compo A="Leonard Cohen" T="Did I Ever Love You" type="SONG" mergeable="true" del="false">
@@ -175,10 +175,10 @@
   <compo A="Big K.R.I.T." T="Cadillactica" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="18" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
-  <compo A="Caribou" T="Can't Do Without You" type="SONG" mergeable="true" del="false">
+  <compo A="Caribou" T="Can't Do Without You" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="17" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
-  <compo A="St. Vincent" T="Digital Witness" type="SONG" mergeable="true" del="false">
+  <compo A="St. Vincent" T="Digital Witness" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="16" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
   <compo A="Owen Pallett" T="The Riverbed" type="SONG" mergeable="true" del="true">
@@ -217,13 +217,13 @@
   <compo A="Taylor Swift" T="Shake It Off" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
-  <compo A="FKA Twigs" T="Two Weeks" type="SONG" mergeable="true" del="false">
+  <compo A="FKA Twigs" T="Two Weeks" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
-  <compo A="Future Islands" T="Seasons (Waiting on You)" type="SONG" mergeable="true" del="false">
+  <compo A="Future Islands" T="Seasons (Waiting on You)" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
-  <compo A="Flying Lotus" T="Never Catch Me [And Kendrick Lamar]" type="SONG" mergeable="true" del="false">
+  <compo A="Flying Lotus" T="Never Catch Me [And Kendrick Lamar]" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
 </ListCompositions>

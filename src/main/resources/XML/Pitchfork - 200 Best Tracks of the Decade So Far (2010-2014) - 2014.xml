@@ -28,7 +28,7 @@
   <compo A="Deerhunter" T="Helicopter" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="9" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Drake" T="Hold On, We're Going Home" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Hold On, We're Going Home" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="10" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Tame Impala" T="Feels Like We Only Go Backwards" type="SONG" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <compo A="Drake" T="Worst Behavior" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="24" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Disclosure" T="Latch" type="SONG" mergeable="true" del="false">
+  <compo A="Disclosure" T="Latch" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="25" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Vampire Weekend" T="Hannah Hunt" type="SONG" mergeable="true" del="false">
@@ -172,7 +172,7 @@
   <compo A="Death Grips" T="I've Seen Footage" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="57" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Haim" T="The Wire" type="SONG" mergeable="true" del="false">
+  <compo A="Haim" T="The Wire" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="58" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Adele" T="Rolling In The Deep" type="SONG" mergeable="true" del="true">
@@ -190,13 +190,13 @@
   <compo A="Girl Unit" T="Wut" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="63" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="FKA Twigs" T="Two Weeks" type="SONG" mergeable="true" del="false">
+  <compo A="FKA Twigs" T="Two Weeks" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="64" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Caribou" T="Odessa" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="65" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Lorde" T="Royals" type="SONG" mergeable="true" del="false">
+  <compo A="Lorde" T="Royals" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="66" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="The War On Drugs" T="Red Eyes" type="SONG" mergeable="true" del="true">
@@ -247,7 +247,7 @@
   <compo A="LCD Soundsystem" T="All I Want" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="82" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Drake" T="Started From The Bottom" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Started From The Bottom" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="83" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Burial" T="Street Halo" type="SONG" mergeable="true" del="false">
@@ -271,13 +271,13 @@
   <compo A="Tame Impala" T="Apocalypse Dreams" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="90" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Sky Ferreira" T="I Blame Myself" type="SONG" mergeable="true" del="false">
+  <compo A="Sky Ferreira" T="I Blame Myself" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="91" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Japandroids" T="Younger Us" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="92" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Caribou" T="Can't Do Without You" type="SONG" mergeable="true" del="false">
+  <compo A="Caribou" T="Can't Do Without You" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="93" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Icona Pop" T="I Love It" type="SONG" mergeable="true" del="false">
@@ -304,7 +304,7 @@
   <compo A="ScHoolboy Q" T="Hands On The Wheel" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="101" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Kurt Vile" T="Wakin On A Pretty Day" type="SONG" mergeable="true" del="false">
+  <compo A="Kurt Vile" T="Wakin On A Pretty Day" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="102" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Killer Mike" T="Big Beast" type="SONG" mergeable="true" del="false">
@@ -319,7 +319,7 @@
   <compo A="Kendrick Lamar" T="Backseat Freestyle" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="106" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Arcade Fire" T="Afterlife" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Afterlife" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="107" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Girls" T="Vomit" type="SONG" mergeable="true" del="true">
@@ -361,13 +361,13 @@
   <compo A="Janelle Monae" T="Cold War" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="120" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Courtney Barnett" T="Avant Gardener" type="SONG" mergeable="true" del="false">
+  <compo A="Courtney Barnett" T="Avant Gardener" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="121" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Beyonce" T="1+1" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="122" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" mergeable="true" del="false">
+  <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="123" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Frank Ocean" T="Novacane" type="SONG" mergeable="true" del="true">
@@ -388,7 +388,7 @@
   <compo A="Nicki Minaj" T="Come On A Cone" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="129" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="AsAP Ferg" T="Shabba" type="SONG" mergeable="true" del="false">
+  <compo A="AsAP Ferg" T="Shabba" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="130" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Miley Cyrus" T="We Can't Stop" type="SONG" mergeable="true" del="false">
@@ -496,7 +496,7 @@
   <compo A="Majical Cloudz" T="Childhood's End" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="165" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Haim" T="Falling" type="SONG" mergeable="true" del="false">
+  <compo A="Haim" T="Falling" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="166" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Zoo Kid" T="Out Getting Ribs" type="SONG" mergeable="true" del="false">
@@ -517,10 +517,10 @@
   <compo A="Earl Sweatshirt" T="Earl" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="172" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Phosphorescent" T="Song For Zula" type="SONG" mergeable="true" del="false">
+  <compo A="Phosphorescent" T="Song For Zula" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="173" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Arcade Fire" T="Reflektor" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Reflektor" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="174" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Jamie XX" T="Far Nearer" type="SONG" mergeable="true" del="false">
@@ -529,7 +529,7 @@
   <compo A="Jessie Ware" T="Running (Disclosure Remix)" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="176" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Mac DeMarco" T="Passing Out Pieces" type="SONG" mergeable="true" del="false">
+  <compo A="Mac DeMarco" T="Passing Out Pieces" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="177" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Ty Dolla sign" T="Paranoid [And B.o.B]" type="SONG" mergeable="true" del="false">
@@ -547,10 +547,10 @@
   <compo A="Kavinsky" T="Nightcall (And Lovefoxxx)" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="182" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Yo La Tengo" T="Ohm" type="SONG" mergeable="true" del="false">
+  <compo A="Yo La Tengo" T="Ohm" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="183" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Parquet Courts" T="Stoned And Starving" type="SONG" mergeable="true" del="false">
+  <compo A="Parquet Courts" T="Stoned And Starving" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="184" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Bon Iver" T="Perth" type="SONG" mergeable="true" del="false">
@@ -571,7 +571,7 @@
   <compo A="Ty Segall Band" T="I Bought My Eyes" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="190" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
-  <compo A="Chvrches" T="The Mother We Share" type="SONG" mergeable="true" del="false">
+  <compo A="Chvrches" T="The Mother We Share" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - 200 Best Tracks of the Decade So Far (2010-2014) - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="191" creation="25/01/2017 10:01:38" size="200"/>
   </compo>
   <compo A="Addison Groove" T="Footcrab" type="SONG" mergeable="true" del="false">

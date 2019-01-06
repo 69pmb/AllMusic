@@ -13,7 +13,7 @@
   <compo A="Betty Boo" T="Where Are You Baby" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="4" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
-  <compo A="Primal Scream" T="Loaded" type="SONG" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Loaded" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="5" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
   <compo A="Pet Shop Boys" T="Being Boring" type="SONG" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Alice Donut" T="My Boyfriends Back" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="25" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
-  <compo A="Primal Scream" T="Come Together" type="SONG" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Come Together" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="26" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
   <compo A="Madonna" T="Vogue" type="SONG" mergeable="true" del="false">

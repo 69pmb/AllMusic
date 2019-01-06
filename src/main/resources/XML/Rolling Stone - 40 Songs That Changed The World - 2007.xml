@@ -4,7 +4,7 @@
   <compo A="Elvis Presley" T="That's All Right" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 40 Songs That Changed The World - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="1" creation="07/09/2018 14:30:21" size="40"/>
   </compo>
-  <compo A="Ray Charles" T="I Got AWoman" type="SONG" mergeable="true" del="false">
+  <compo A="Ray Charles" T="I Got AWoman" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Songs That Changed The World - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="2" creation="07/09/2018 14:30:21" size="40"/>
   </compo>
   <compo A="Chuck Berry" T="Maybellene" type="SONG" mergeable="true" del="true">
@@ -43,7 +43,7 @@
   <compo A="Jimi Hendrix" T="Purple Haze" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Songs That Changed The World - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="14" creation="07/09/2018 14:30:21" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Songs That Changed The World - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="15" creation="07/09/2018 14:30:21" size="40"/>
   </compo>
   <compo A="James Brown" T="Get Up (I Feel Like Being A) Sex Machine" type="SONG" mergeable="true" del="true">

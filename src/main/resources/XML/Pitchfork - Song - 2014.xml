@@ -139,7 +139,7 @@
   <compo A="Kendrick Lamar" T="i" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="55" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="Spoon" T="Inside Out" type="SONG" mergeable="true" del="false">
+  <compo A="Spoon" T="Inside Out" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="54" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
   <compo A="Perfect Pussy" T="Interference Fits" type="SONG" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="Charli XCX" T="Boom Clap" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="37" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="Mac DeMarco" T="Passing Out Pieces" type="SONG" mergeable="true" del="false">
+  <compo A="Mac DeMarco" T="Passing Out Pieces" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="36" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
   <compo A="FKA twigs" T="Pendulum" type="SONG" mergeable="true" del="true">
@@ -229,10 +229,10 @@
   <compo A="Vic Mensa" T="Down on My Luck" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="25" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="St. Vincent" T="Digital Witness" type="SONG" mergeable="true" del="false">
+  <compo A="St. Vincent" T="Digital Witness" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="24" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="Flying Lotus" T="Never Catch Me [And Kendrick Lamar]" type="SONG" mergeable="true" del="false">
+  <compo A="Flying Lotus" T="Never Catch Me [And Kendrick Lamar]" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="23" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
   <compo A="Ex Hex" T="Don't Wanna Lose" type="SONG" mergeable="true" del="false">
@@ -289,16 +289,16 @@
   <compo A="The War on Drugs" T="Red Eyes" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="5" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="Caribou" T="Can't Do Without You" type="SONG" mergeable="true" del="false">
+  <compo A="Caribou" T="Can't Do Without You" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="4" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="FKA twigs" T="Two Weeks" type="SONG" mergeable="true" del="false">
+  <compo A="FKA twigs" T="Two Weeks" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="3" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
   <compo A="ILoveMakonnen" T="Tuesday" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="2" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" mergeable="true" del="false">
+  <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
 </ListCompositions>

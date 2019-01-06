@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="1" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="Stairway To Heaven" type="SONG" mergeable="true" del="true">
@@ -13,7 +13,7 @@
   <compo A="Led Zeppelin" T="Kashmir" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="4" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Ramble On" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Ramble On" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="5" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="Good Times Bad Times" type="SONG" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="Led Zeppelin" T="The Ocean" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="14" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="What Is And What Should Never Be" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="What Is And What Should Never Be" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="15" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="Over The Hills And Far Away" type="SONG" mergeable="true" del="true">
@@ -64,7 +64,7 @@
   <compo A="Led Zeppelin" T="Dancing Days" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="21" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Heartbreaker" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Heartbreaker" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="22" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="Nobody's Fault But Mine" type="SONG" mergeable="true" del="false">
@@ -85,19 +85,19 @@
   <compo A="Led Zeppelin" T="No Quarter" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="28" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Thank You" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Thank You" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="29" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="In My Time Of Dying" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="30" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Moby Dick" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Moby Dick" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="31" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="The Wanton Song" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="32" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
-  <compo A="Led Zeppelin" T="Living Loving Maid" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Living Loving Maid" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 40 Led Zeppelin Songs - 2012" publish="2012" cat="THEME" rangeB="0" rangeE="2012" sorted="true" rank="33" creation="07/09/2018 13:38:49" size="40"/>
   </compo>
   <compo A="Led Zeppelin" T="The Rain Song" type="SONG" mergeable="true" del="true">

@@ -4,7 +4,7 @@
   <compo A="Daft Punk" T="Get Lucky" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Lorde" T="Royals" type="SONG" mergeable="true" del="false">
+  <compo A="Lorde" T="Royals" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Kanye West" T="Black Skinhead" type="SONG" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <compo A="Disclosure" T="When a Fire Starts to Burn" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Parquet Courts" T="Stoned and Starving" type="SONG" mergeable="true" del="false">
+  <compo A="Parquet Courts" T="Stoned and Starving" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Justin Timberlake" T="Mirrors" type="SONG" mergeable="true" del="false">
@@ -25,16 +25,16 @@
   <compo A="James Blake" T="Retrograde" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="8" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Drake" T="Started From the Bottom" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Started From the Bottom" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="9" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Do I Wanna Know?" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Do I Wanna Know?" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Reflektor" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Reflektor" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Tegan and Sara" T="Closer" type="SONG" mergeable="true" del="false">
+  <compo A="Tegan and Sara" T="Closer" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="12" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Big Sean" T="Control" type="SONG" mergeable="true" del="false">
@@ -46,7 +46,7 @@
   <compo A="Eminem" T="Rap God" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="15" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="HAIM" T="The Wire" type="SONG" mergeable="true" del="false">
+  <compo A="HAIM" T="The Wire" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="16" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Lady Gaga" T="Do What U Want" type="SONG" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="J. Cole" T="Crooked Smile" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="37" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Kurt Vile" T="Wakin on a Pretty Day" type="SONG" mergeable="true" del="false">
+  <compo A="Kurt Vile" T="Wakin on a Pretty Day" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="38" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Natalie Maines" T="Free Life" type="SONG" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Britney Spears" T="Work Bitch" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="46" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Yo La Tengo" T="Ohm" type="SONG" mergeable="true" del="false">
+  <compo A="Yo La Tengo" T="Ohm" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="47" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Caitlin Rose" T="I Was Cruel" type="SONG" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Lucius" T="Tempest" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="49" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Robin Thicke" T="Blurred Lines" type="SONG" mergeable="true" del="false">
+  <compo A="Robin Thicke" T="Blurred Lines" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="50" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
 </ListCompositions>

@@ -154,7 +154,7 @@
   <compo A="The Beatles" T="Here Comes The Sun" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 50 Greatest Beatles Tracks - 2001" publish="2001" cat="THEME" rangeB="0" rangeE="2001" sorted="true" rank="51" creation="03/09/2018 10:17:22" size="52"/>
   </compo>
-  <compo A="The Beatles" T="A Hard Days Night" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Days Night" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 50 Greatest Beatles Tracks - 2001" publish="2001" cat="THEME" rangeB="0" rangeE="2001" sorted="true" rank="52" creation="03/09/2018 10:17:22" size="52"/>
   </compo>
 </ListCompositions>

@@ -10,7 +10,7 @@
   <compo A="Arctic Monkeys" T="I Wanna Be Yours" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Decade (2010's)...So Far - 2015" publish="2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="false" rank="3" creation="02/07/2017 07:08:56" size="50"/>
   </compo>
-  <compo A="St Vincent" T="Digital Witness" type="SONG" mergeable="true" del="false">
+  <compo A="St Vincent" T="Digital Witness" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Decade (2010's)...So Far - 2015" publish="2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="false" rank="4" creation="02/07/2017 07:08:56" size="50"/>
   </compo>
   <compo A="M83" T="Midnight City" type="SONG" mergeable="true" del="true">
@@ -61,7 +61,7 @@
   <compo A="Arcade Fire" T="Ready To Start" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Decade (2010's)...So Far - 2015" publish="2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="false" rank="20" creation="02/07/2017 07:08:56" size="50"/>
   </compo>
-  <compo A="Lord" T="Royals" type="SONG" mergeable="true" del="false">
+  <compo A="Lord" T="Royals" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Decade (2010's)...So Far - 2015" publish="2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="false" rank="21" creation="02/07/2017 07:08:56" size="50"/>
   </compo>
   <compo A="Blur" T="Under The Westway" type="SONG" mergeable="true" del="false">
@@ -118,10 +118,10 @@
   <compo A="Grimes" T="Oblivion" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Decade (2010's)...So Far - 2015" publish="2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="false" rank="39" creation="02/07/2017 07:08:56" size="50"/>
   </compo>
-  <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" mergeable="true" del="false">
+  <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Decade (2010's)...So Far - 2015" publish="2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="false" rank="40" creation="02/07/2017 07:08:56" size="50"/>
   </compo>
-  <compo A="Disclosure" T="White Noise" type="SONG" mergeable="true" del="false">
+  <compo A="Disclosure" T="White Noise" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Decade (2010's)...So Far - 2015" publish="2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="false" rank="41" creation="02/07/2017 07:08:56" size="50"/>
   </compo>
   <compo A="Palma Violets" T="Best Of Friends" type="SONG" mergeable="true" del="true">
@@ -142,7 +142,7 @@
   <compo A="Foals" T="Spanish Sahara" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Decade (2010's)...So Far - 2015" publish="2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="false" rank="47" creation="02/07/2017 07:08:56" size="50"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Do I Wanna Know?" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Do I Wanna Know?" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Decade (2010's)...So Far - 2015" publish="2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="false" rank="48" creation="02/07/2017 07:08:56" size="50"/>
   </compo>
   <compo A="Daft Punk" T="Get Lucky" type="SONG" mergeable="true" del="false">
