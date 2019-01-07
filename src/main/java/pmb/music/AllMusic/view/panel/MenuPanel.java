@@ -1,8 +1,11 @@
 package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
+import java.awt.Desktop;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+import java.io.File;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Optional;
 
@@ -19,6 +22,9 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.BasicFrame;
 
 /**
@@ -67,25 +73,71 @@ public class MenuPanel extends JPanel {
 		final JMenu fichier = new JMenu("Fichier");
 		fichier.setMnemonic(KeyEvent.VK_F);
 
-		final JMenuItem excel = new JMenuItem("Ouvrir Fichier Excel");
-		fichier.add(excel);
-		excel.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
+		final JMenuItem log = new JMenuItem("Ouvrir le fichier de Log");
+		fichier.add(log);
+		log.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_L, ActionEvent.CTRL_MASK));
+		log.addActionListener((ActionEvent ae) -> {
+			try {
+				FichierUtils.openFileInNotepad(Optional.of(Constant.FILE_LOG_PATH), Optional.empty());
+			} catch (MyException e) {
+				LOG.error("Error when opening log file", e);
+			}
+		});
 
-		final JMenuItem exportXml = new JMenuItem("Exporter en XML");
-		fichier.add(exportXml);
-		exportXml.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, ActionEvent.CTRL_MASK));
+		final JMenuItem config = new JMenuItem("Ouvrir le fichier de configuration");
+		fichier.add(config);
+		config.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, ActionEvent.CTRL_MASK));
+		config.addActionListener((ActionEvent ae) -> {
+			try {
+				FichierUtils.openFileInNotepad(Optional.of(Constant.getConfigPath()), Optional.empty());
+			} catch (MyException e) {
+				LOG.error("Error when opening config file", e);
+			}
+		});
 
-		final JMenuItem calculStats = new JMenuItem("Calculer Statistique");
-		fichier.add(calculStats);
-		calculStats.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, ActionEvent.CTRL_MASK));
+		final JMenuItem modif = new JMenuItem("Ouvrir le fichier de modification");
+		fichier.add(modif);
+		modif.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK));
+		modif.addActionListener((ActionEvent ae) -> {
+			try {
+				FichierUtils.openFileInNotepad(Optional.of(Constant.MODIF_FILE_PATH), Optional.empty());
+			} catch (MyException e) {
+				LOG.error("Error when opening modif file", e);
+			}
+		});
 
-		final JMenuItem search = new JMenuItem("Rechercher");
-		fichier.add(search);
-		search.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F, ActionEvent.CTRL_MASK));
-//		search.addActionListener((ActionEvent ae) -> getSelectedTab());
+		final JMenuItem outputDir = new JMenuItem("Ouvrir le dossier de sortie");
+		fichier.add(outputDir);
+		outputDir.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
+		outputDir.addActionListener((ActionEvent ae) -> {
+			try {
+				Desktop.getDesktop().open(new File(Constant.getOutputDir()));
+			} catch (IOException e) {
+				LOG.error("Error when opening output directory", e);
+			}
+		});
 
-		final JMenuItem triDate = new JMenuItem("Trier par date");
-		fichier.add(triDate);
+		final JMenuItem xmlDir = new JMenuItem("Ouvrir le dossier des fichiers XML");
+		fichier.add(xmlDir);
+		xmlDir.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_L, ActionEvent.CTRL_MASK));
+		xmlDir.addActionListener((ActionEvent ae) -> {
+			try {
+				Desktop.getDesktop().open(new File(Constant.getXmlPath()));
+			} catch (IOException e) {
+				LOG.error("Error when opening XML files directory", e);
+			}
+		});
+		
+		final JMenuItem txtDir = new JMenuItem("Ouvrir le dossier Musique");
+		fichier.add(txtDir);
+		txtDir.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_M, ActionEvent.CTRL_MASK));
+		txtDir.addActionListener((ActionEvent ae) -> {
+			try {
+				Desktop.getDesktop().open(new File(Constant.getMusicAbsDirectory()));
+			} catch (IOException e) {
+				LOG.error("Error when opening txt files directory", e);
+			}
+		});
 
 		final JMenuItem close = new JMenuItem("Fermer");
 		fichier.add(close);
@@ -113,10 +165,6 @@ public class MenuPanel extends JPanel {
 		final JMenuItem remove = new JMenuItem("Supprimer les lignes sélectionnées");
 		remove.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
 		edition.add(remove);
-
-		final JMenuItem addItem = new JMenuItem("Ajouter une sortie");
-		addItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK));
-		edition.add(addItem);
 
 		final JMenuItem addGroupe = new JMenuItem("Ajouter un groupe à des sorties");
 		addGroupe.setAccelerator(
