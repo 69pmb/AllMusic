@@ -41,6 +41,8 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
+import com.opencsv.bean.CsvBindByName;
+
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CleanFile;
@@ -57,8 +59,6 @@ import pmb.music.AllMusic.view.dialog.DeleteCompoDialog;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
-
-import com.opencsv.bean.CsvBindByName;
 
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
@@ -804,7 +804,7 @@ public class BatchUtils {
 		return criteria;
 	}
 
-	private static String cleanLine(String line, Set<Entry<String, String>> entrySet) {
+	public static String cleanLine(String line, Set<Entry<String, String>> entrySet) {
 		for (Entry<String, String> entry : entrySet) {
 			if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
 				line = StringUtils.replaceIgnoreCase(line, entry.getKey(), entry.getValue());
