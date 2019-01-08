@@ -101,6 +101,8 @@ public class Constant {
 	 */
 	public static final String BATCH_FILE = "batch.txt";
 
+	public static final String ACCESS_TOKEN = "G-_ZeiEAvB0AAAAAAAANQd4IMHRr7Y9aTvAiivg-8LImbDKmo9pdu95_SIioW3lR";
+	
 	public static final String NEW_LINE = "\r\n";
 
 	public static final String ANSI_ENCODING = "Cp1252";

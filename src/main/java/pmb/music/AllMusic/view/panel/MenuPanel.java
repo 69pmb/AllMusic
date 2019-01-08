@@ -22,6 +22,8 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.XML.NgExportXml;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
@@ -127,7 +129,7 @@ public class MenuPanel extends JPanel {
 				LOG.error("Error when opening XML files directory", e);
 			}
 		});
-		
+
 		final JMenuItem txtDir = new JMenuItem("Ouvrir le dossier Musique");
 		fichier.add(txtDir);
 		txtDir.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_M, ActionEvent.CTRL_MASK));
@@ -158,9 +160,16 @@ public class MenuPanel extends JPanel {
 		final JMenu edition = new JMenu("Edition");
 		edition.setMnemonic(KeyEvent.VK_E);
 
-		final JMenuItem add = new JMenuItem("Ajouter une ligne");
-		add.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		edition.add(add);
+		final JMenuItem export = new JMenuItem("Exporter le fichier final");
+		export.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
+		export.addActionListener((ActionEvent ae) -> {
+			try {
+				NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), "final.xml");
+			} catch (IOException e) {
+				LOG.error("fails", e);
+			}
+		});
+		edition.add(export);
 
 		final JMenuItem remove = new JMenuItem("Supprimer les lignes sélectionnées");
 		remove.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
