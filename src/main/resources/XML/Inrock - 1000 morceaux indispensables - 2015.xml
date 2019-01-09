@@ -61,7 +61,7 @@
   <compo A="Big Star" T="The Ballad of El Goodo" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="20" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Bill Withers" T="Ain't No Sunshine" type="SONG" mergeable="true" del="false">
+  <compo A="Bill Withers" T="Ain't No Sunshine" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="21" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Billie Holiday" T="Strange Fruit" type="SONG" mergeable="true" del="true">
@@ -112,7 +112,7 @@
   <compo A="Chuck Berry" T="Johnny B. Goode" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="37" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Clispe" T="Grindin'" type="SONG" mergeable="true" del="false">
+  <compo A="Clispe" T="Grindin'" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="38" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Common" T="The Light" type="SONG" mergeable="true" del="false">
@@ -136,7 +136,7 @@
   <compo A="D'Angelo" T="Untitled (How Does It Feel?)" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="45" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Deee-Lite" T="Groove is in the Heart" type="SONG" mergeable="true" del="false">
+  <compo A="Deee-Lite" T="Groove is in the Heart" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="46" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Deep Purple" T="Smoke on the Water" type="SONG" mergeable="true" del="false">
@@ -1927,7 +1927,7 @@
   <compo A="Cajmere" T="Feelin' Kinda High" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="642" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Caribou" T="Odessa" type="SONG" mergeable="true" del="false">
+  <compo A="Caribou" T="Odessa" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="643" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Cat Power" T="Cherokee" type="SONG" mergeable="true" del="false">

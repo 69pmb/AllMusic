@@ -61,7 +61,7 @@
   <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="20" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="At The Drive In" T="One Armed Scissor" type="SONG" mergeable="true" del="false">
+  <compo A="At The Drive In" T="One Armed Scissor" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="21" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Primal Scream" T="Kill All Hippies" type="SONG" mergeable="true" del="false">
@@ -322,7 +322,7 @@
   <compo A="Art Brut" T="Emily Kane" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="107" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Basement Jaxx" T="Oh My Gosh" type="SONG" mergeable="true" del="false">
+  <compo A="Basement Jaxx" T="Oh My Gosh" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="108" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Beck" T="E-Pro" type="SONG" mergeable="true" del="false">

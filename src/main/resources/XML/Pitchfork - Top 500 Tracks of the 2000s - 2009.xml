@@ -79,10 +79,10 @@
   <compo A="Justin Timberlake And T.I." T="My Love" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="26" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Clipse" T="Grindin'" type="SONG" mergeable="true" del="false">
+  <compo A="Clipse" T="Grindin'" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="27" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Antony and the Johnsons" T="Hope There's Someone" type="SONG" mergeable="true" del="false">
+  <compo A="Antony and the Johnsons" T="Hope There's Someone" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="28" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Hot Chip" T="Boy From School" type="SONG" mergeable="true" del="false">
@@ -763,7 +763,7 @@
   <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="254" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="At the Drive-In" T="One Armed Scissor" type="SONG" mergeable="true" del="false">
+  <compo A="At the Drive-In" T="One Armed Scissor" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="255" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="M83" T="Km And Jessie" type="SONG" mergeable="true" del="true">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Aretha Franklin" T="I Say A Little Prayer" type="SONG" mergeable="true" del="false">
+  <compo A="Aretha Franklin" T="I Say A Little Prayer" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="1" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
   <compo A="Al Green" T="Tired Of Being Alone" type="SONG" mergeable="true" del="false">
@@ -322,7 +322,7 @@
   <compo A="The Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="107" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
-  <compo A="Cream" T="I Feel Free" type="SONG" mergeable="true" del="false">
+  <compo A="Cream" T="I Feel Free" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="108" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
   <compo A="Culture" T="Two Sevens Clash" type="SONG" mergeable="true" del="false">
@@ -427,7 +427,7 @@
   <compo A="The Miracles" T="Come Around Here(Im The One That You Need)" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="142" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
-  <compo A="Booker T" T="Green Onions" type="SONG" mergeable="true" del="false">
+  <compo A="Booker T" T="Green Onions" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="143" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
   <compo A="The Clash" T="(White Man) In Hammersmith Palais" type="SONG" mergeable="true" del="true">
