@@ -148,7 +148,7 @@
   <compo A="Kacey Musgraves" T="Merry Go Round" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="49" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Carly Rae Jepsen" T="Call Me Maybe" type="SONG" mergeable="true" del="false">
+  <compo A="Carly Rae Jepsen" T="Call Me Maybe" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="50" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
 </ListCompositions>

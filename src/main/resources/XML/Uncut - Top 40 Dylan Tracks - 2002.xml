@@ -73,7 +73,7 @@
   <compo A="Bob Dylan" T="Not Dark Yet" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="24" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="Hurricane" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Hurricane" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="25" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="Gates Of Eden" type="SONG" mergeable="true" del="false">

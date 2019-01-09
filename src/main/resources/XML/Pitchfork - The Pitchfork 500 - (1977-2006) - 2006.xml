@@ -253,7 +253,7 @@
   <compo A="Beyonce" T="Crazy In Love" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="84" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Cat Power" T="Cross Bones Style" type="SONG" mergeable="true" del="false">
+  <compo A="Cat Power" T="Cross Bones Style" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="85" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Justin Timberlake" T="Cry Me A River" type="SONG" mergeable="true" del="true">
@@ -391,7 +391,7 @@
   <compo A="Art Brut" T="Formed A Band" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="130" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Dinosaur Jr" T="Freak Scene" type="SONG" mergeable="true" del="false">
+  <compo A="Dinosaur Jr" T="Freak Scene" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="131" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Stereolab" T="French Disco" type="SONG" mergeable="true" del="false">
@@ -457,10 +457,10 @@
   <compo A="Animal Collective" T="Grass" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="152" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Clipse" T="Grindin'" type="SONG" mergeable="true" del="false">
+  <compo A="Clipse" T="Grindin'" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="153" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Deee-Lite" T="Groove Is In The Heart" type="SONG" mergeable="true" del="false">
+  <compo A="Deee-Lite" T="Groove Is In The Heart" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="154" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Clash" T="Guns Of Brixton" type="SONG" mergeable="true" del="false">
@@ -529,7 +529,7 @@
   <compo A="Melvins" T="Hooch" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="176" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Antony And The Johnsons" T="Hope There's Someone" type="SONG" mergeable="true" del="false">
+  <compo A="Antony And The Johnsons" T="Hope There's Someone" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="177" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Throbbing Gristle" T="Hot On The Heels Of Love" type="SONG" mergeable="true" del="false">
@@ -544,7 +544,7 @@
   <compo A="Butthole Surfers" T="Human Cannonball" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="181" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="The Cramps" T="Human Fly" type="SONG" mergeable="true" del="false">
+  <compo A="The Cramps" T="Human Fly" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="182" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Bjork" T="Hyperballad" type="SONG" mergeable="true" del="true">
@@ -865,7 +865,7 @@
   <compo A="Kraftwerk" T="Numbers/Computer World 2" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="288" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" mergeable="true" del="false">
+  <compo A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="289" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Ghostface Killah" T="Nutmeg" type="SONG" mergeable="true" del="false">

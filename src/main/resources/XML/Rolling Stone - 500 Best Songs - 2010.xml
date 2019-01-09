@@ -544,7 +544,7 @@
   <compo A="Outkast" T="Hey Ya!" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="182" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Booker T" T="Green Onions" type="SONG" mergeable="true" del="false">
+  <compo A="Booker T" T="Green Onions" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="183" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Drifters" T="Save the Last Dance for Me" type="SONG" mergeable="true" del="false">
@@ -706,7 +706,7 @@
   <compo A="M.I.A." T="Paper Planes" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="236" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Byrds" T="I'll Feel a Whole Lot Better" type="SONG" mergeable="true" del="false">
+  <compo A="The Byrds" T="I'll Feel a Whole Lot Better" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="237" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Buddy Holly" T="Everyday" type="SONG" mergeable="true" del="true">
@@ -850,7 +850,7 @@
   <compo A="The Dixie Cups" T="Chapel of Love" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="284" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Bill Withers" T="Ain't No Sunshine" type="SONG" mergeable="true" del="false">
+  <compo A="Bill Withers" T="Ain't No Sunshine" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="285" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The White Stripes" T="Seven Nation Army" type="SONG" mergeable="true" del="true">
@@ -1276,7 +1276,7 @@
   <compo A="Crosby, Stills and Nash" T="Suite: Judy Blue Eyes" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="426" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" mergeable="true" del="false">
+  <compo A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="427" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Isley Brothers" T="It's Your Thing" type="SONG" mergeable="true" del="false">
