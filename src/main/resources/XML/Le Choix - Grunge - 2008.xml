@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Alice In Chains" T="Would?" type="SONG" mergeable="true" del="false">
+  <compo A="Alice In Chains" T="Would?" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="1" creation="30/07/2018 18:33:46" size="20"/>
   </compo>
   <compo A="Nirvana" T="Lithium" type="SONG" mergeable="true" del="false">

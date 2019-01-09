@@ -139,7 +139,7 @@
   <compo A="Nancy Sinatra" T="Some Velvet Morning" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="46" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Byrds" T="I'll Feel A Whole Lot Better" type="SONG" mergeable="true" del="false">
+  <compo A="The Byrds" T="I'll Feel A Whole Lot Better" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="47" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Silver Apples" T="Oscillations" type="SONG" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="Led Zeppelin" T="Dazed And Confused" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="78" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Booker T" T="Green Onions" type="SONG" mergeable="true" del="false">
+  <compo A="Booker T" T="Green Onions" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="79" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="false">
