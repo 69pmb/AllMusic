@@ -100,7 +100,7 @@
   <compo A="Art Brut" T="Formed A Band" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Jay-Z" T="Empire State Of Mind" type="SONG" mergeable="true" del="false">
+  <compo A="Jay-Z" T="Empire State Of Mind" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Queens Of The Stone Age" T="No One Knows" type="SONG" mergeable="true" del="false">
@@ -241,7 +241,7 @@
   <compo A="Primal Scream" T="Accelerator" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="70" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="false">
+  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="71" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Knife" T="Heartbeat" type="SONG" mergeable="true" del="true">

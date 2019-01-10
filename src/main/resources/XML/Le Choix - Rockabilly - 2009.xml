@@ -10,13 +10,13 @@
   <compo A="Bill Haley" T="Rock Around The Clock" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rockabilly - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="3" creation="30/07/2018 18:33:47" size="21"/>
   </compo>
-  <compo A="Jerry Lee Lewis" T="Whole /Lotta Shakin' Goin' On" type="SONG" mergeable="true" del="false">
+  <compo A="Jerry Lee Lewis" T="Whole /Lotta Shakin' Goin' On" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rockabilly - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="4" creation="30/07/2018 18:33:47" size="21"/>
   </compo>
   <compo A="Kip Tyler" T="She's My Witch" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rockabilly - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="5" creation="30/07/2018 18:33:47" size="21"/>
   </compo>
-  <compo A="Johnny Burnette" T="Train Kept A-Rollin'" type="SONG" mergeable="true" del="false">
+  <compo A="Johnny Burnette" T="Train Kept A-Rollin'" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rockabilly - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="6" creation="30/07/2018 18:33:47" size="21"/>
   </compo>
   <compo A="Carl Perkins" T="Matchbox" type="SONG" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <compo A="Swing Cats" T="Tall Skinny Mama" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rockabilly - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="20" creation="30/07/2018 18:33:47" size="21"/>
   </compo>
-  <compo A="The Everly Brothers" T="Wake Up Little Susie" type="SONG" mergeable="true" del="false">
+  <compo A="The Everly Brothers" T="Wake Up Little Susie" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rockabilly - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="21" creation="30/07/2018 18:33:47" size="21"/>
   </compo>
 </ListCompositions>

@@ -154,7 +154,7 @@
   <compo A="The Monkees" T="I'm A Believer" type="SONG" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 100 Best Songs of the 1960s - 2016" publish="2016" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="50" creation="31/08/2018 09:51:59" size="100"/>
   </compo>
-  <compo A="Tommy James And The Shondells" T="Crimson And Clover" type="SONG" mergeable="true" del="false">
+  <compo A="Tommy James And The Shondells" T="Crimson And Clover" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 100 Best Songs of the 1960s - 2016" publish="2016" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="49" creation="31/08/2018 09:51:59" size="100"/>
   </compo>
   <compo A="Merle Haggard" T="Mama Tried" type="SONG" mergeable="true" del="false">
@@ -166,7 +166,7 @@
   <compo A="Roy Orbison" T="Oh, Pretty Woman" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 100 Best Songs of the 1960s - 2016" publish="2016" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="46" creation="31/08/2018 09:51:59" size="100"/>
   </compo>
-  <compo A="Patsy Cline" T="Crazy" type="SONG" mergeable="true" del="false">
+  <compo A="Patsy Cline" T="Crazy" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 100 Best Songs of the 1960s - 2016" publish="2016" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="45" creation="31/08/2018 09:51:59" size="100"/>
   </compo>
   <compo A="Peter, Paul and Mary" T="If I Had a Hammer" type="SONG" mergeable="true" del="false">
@@ -184,10 +184,10 @@
   <compo A="Sly And The Family Stone" T="Everyday People" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 100 Best Songs of the 1960s - 2016" publish="2016" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="40" creation="31/08/2018 09:51:59" size="100"/>
   </compo>
-  <compo A="Etta James" T="At Last" type="SONG" mergeable="true" del="false">
+  <compo A="Etta James" T="At Last" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 100 Best Songs of the 1960s - 2016" publish="2016" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="39" creation="31/08/2018 09:51:59" size="100"/>
   </compo>
-  <compo A="Marvin Gaye" T="Ain't No Mountain High Enough" type="SONG" mergeable="true" del="false">
+  <compo A="Marvin Gaye" T="Ain't No Mountain High Enough" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 100 Best Songs of the 1960s - 2016" publish="2016" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="38" creation="31/08/2018 09:51:59" size="100"/>
   </compo>
   <compo A="Cream" T="Sunshine Of Your Love" type="SONG" mergeable="true" del="true">
@@ -223,7 +223,7 @@
   <compo A="The Temptations" T="My Girl" type="SONG" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 100 Best Songs of the 1960s - 2016" publish="2016" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="27" creation="31/08/2018 09:51:59" size="100"/>
   </compo>
-  <compo A="The Supremes" T="Stop! In The Name Of Love" type="SONG" mergeable="true" del="false">
+  <compo A="The Supremes" T="Stop! In The Name Of Love" type="SONG" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 100 Best Songs of the 1960s - 2016" publish="2016" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="26" creation="31/08/2018 09:51:59" size="100"/>
   </compo>
   <compo A="The Jackson 5" T="I Want You Back" type="SONG" mergeable="true" del="false">

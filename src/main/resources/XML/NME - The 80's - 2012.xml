@@ -103,7 +103,7 @@
   <compo A="The Smiths" T="There Is A Light That Never Goes Out" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="34" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="NWA" T="Straight Outta Compton" type="SONG" mergeable="true" del="false">
+  <compo A="NWA" T="Straight Outta Compton" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="35" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="R.E.M." T="The One I Love" type="SONG" mergeable="true" del="false">
@@ -202,7 +202,7 @@
   <compo A="Duran Duran" T="Rio" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="67" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Sonic Youth" T="Teen Age Riot" type="SONG" mergeable="true" del="false">
+  <compo A="Sonic Youth" T="Teen Age Riot" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="68" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Metallica" T="Master Of Puppets" type="SONG" mergeable="true" del="true">

@@ -55,7 +55,7 @@
   <compo A="Kelly Clarkson" T="Since U Been Gone" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="18" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="19" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Justin Timberlake" T="Cry Me a River" type="SONG" mergeable="true" del="true">
@@ -88,7 +88,7 @@
   <compo A="Kanye West" T="Gold Digger" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="29" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="R. Kelly" T="Ignition" type="SONG" mergeable="true" del="false">
+  <compo A="R. Kelly" T="Ignition" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="30" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="The Flaming Lips" T="Do You Realize?" type="SONG" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Modest Mouse" T="Float On" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="39" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="false">
+  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="40" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="LCD Soundsystem" T="All My Friends" type="SONG" mergeable="true" del="true">
@@ -127,7 +127,7 @@
   <compo A="Arcade Fire" T="Wake Up" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="42" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="false">
+  <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="43" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Britney Spears" T="Toxic" type="SONG" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="93" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Pyramid Song" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Pyramid Song" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="94" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Mary J. Blige" T="Family Affair" type="SONG" mergeable="true" del="true">

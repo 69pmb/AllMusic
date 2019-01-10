@@ -16,7 +16,7 @@
   <compo A="Carl Perkins" T="Blue Suede Shoes" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="5" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin' Goin On" type="SONG" mergeable="true" del="false">
+  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin' Goin On" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="6" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="The Crickets" T="Oh Boy!" type="SONG" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Crosby Stills And Nash" T="Suite: Judy Blue Eyes" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="38" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="The Grateful Dead" T="Dark Star (live)" type="SONG" mergeable="true" del="false">
+  <compo A="The Grateful Dead" T="Dark Star (live)" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="51" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Quicksilver Messenger Service" T="Who Do You Love?" type="SONG" mergeable="true" del="false">
@@ -121,10 +121,10 @@
   <compo A="The Rolling Stones" T="Midnight Rambler (live)" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="37" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Joni Mitchell" T="Big Yellow Taxi" type="SONG" mergeable="true" del="false">
+  <compo A="Joni Mitchell" T="Big Yellow Taxi" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="39" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Neil Young" T="After The Goldrush" type="SONG" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Goldrush" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="40" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="The Beatles" T="Let It Be" type="SONG" mergeable="true" del="true">
@@ -148,7 +148,7 @@
   <compo A="Funkadelic" T="Maggot Brain" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="48" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="false">
+  <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="49" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Rod Stewart" T="Mandolin Wind" type="SONG" mergeable="true" del="false">

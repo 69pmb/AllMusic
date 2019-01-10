@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Sonic Youth" T="Teen Age Riot" type="SONG" mergeable="true" del="false">
+  <compo A="Sonic Youth" T="Teen Age Riot" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 1988 Songs - 2015" publish="2015" cat="YEAR" rangeB="1988" rangeE="1988" sorted="false" rank="1" creation="27/07/2018 15:48:52" size="157"/>
   </compo>
   <compo A="Public Enemy" T="Bring the Noise" type="SONG" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <compo A="Metallica" T="One" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 1988 Songs - 2015" publish="2015" cat="YEAR" rangeB="1988" rangeE="1988" sorted="false" rank="17" creation="27/07/2018 15:48:52" size="157"/>
   </compo>
-  <compo A="N.W.A." T="Straight Outta Compton" type="SONG" mergeable="true" del="false">
+  <compo A="N.W.A." T="Straight Outta Compton" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 1988 Songs - 2015" publish="2015" cat="YEAR" rangeB="1988" rangeE="1988" sorted="false" rank="18" creation="27/07/2018 15:48:52" size="157"/>
   </compo>
   <compo A="Eric B and Rakim" T="Lyrics of Fury" type="SONG" mergeable="true" del="false">

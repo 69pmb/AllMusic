@@ -31,7 +31,7 @@
   <compo A="Wings" T="Band On The Run" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Talking Heads" T="Psycho Killer" type="SONG" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Psycho Killer" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="11" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="John Lennon" T="Imagine" type="SONG" mergeable="true" del="true">
@@ -64,7 +64,7 @@
   <compo A="Marvin Gaye" T="Lets Get It On" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="21" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Sugarhill Gang" T="Rappers Delight" type="SONG" mergeable="true" del="false">
+  <compo A="Sugarhill Gang" T="Rappers Delight" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="22" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Tubeway Army" T="Are Friends Electric?" type="SONG" mergeable="true" del="false">
@@ -100,10 +100,10 @@
   <compo A="Marvin Gaye" T="Whats Going On" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="33" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="false">
+  <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="34" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Gladys Knight And The Pips" T="Midnight Train To Georgia" type="SONG" mergeable="true" del="false">
+  <compo A="Gladys Knight And The Pips" T="Midnight Train To Georgia" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="35" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Sly And The Family Stone" T="Family Affair" type="SONG" mergeable="true" del="true">
@@ -250,7 +250,7 @@
   <compo A="Althea And Donna" T="Upton Top Rankin" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="83" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Joni Mitchell" T="Big Yellow Taxi" type="SONG" mergeable="true" del="false">
+  <compo A="Joni Mitchell" T="Big Yellow Taxi" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="84" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="false">
@@ -283,7 +283,7 @@
   <compo A="The Slits" T="Typical Girls" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="94" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Siouxsie And The Banshees" T="Hong Kong Garden" type="SONG" mergeable="true" del="false">
+  <compo A="Siouxsie And The Banshees" T="Hong Kong Garden" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="95" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Bob Marley" T="No Woman No Cry" type="SONG" mergeable="true" del="false">
