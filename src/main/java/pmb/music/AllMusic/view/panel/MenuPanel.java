@@ -165,9 +165,9 @@ public class MenuPanel extends JPanel {
 		export.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
 		export.addActionListener((ActionEvent ae) -> {
 			try {
-				NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), "final.xml");
+				NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
 			} catch (IOException e) {
-				LOG.error("fails", e);
+				LOG.error("Export of final file for Angular failed", e);
 			}
 		});
 		edition.add(export);
