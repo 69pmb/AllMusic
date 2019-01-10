@@ -64,7 +64,7 @@
   <compo A="Van Morrison" T="Brown Eyed Girl" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="21" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Michael Jackson" T="Beat It" type="SONG" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Beat It" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="22" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Roy Orbison" T="Oh, Pretty Woman" type="SONG" mergeable="true" del="true">
@@ -157,7 +157,7 @@
   <compo A="Paul McCartney" T="Maybe I'm Amazed" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="52" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="George Michael" T="Faith" type="SONG" mergeable="true" del="false">
+  <compo A="George Michael" T="Faith" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="53" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Red Hot Chili Peppers" T="Under The Bridge" type="SONG" mergeable="true" del="true">
@@ -175,7 +175,7 @@
   <compo A="The Wallflowers" T="One Headlight" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="58" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Stevie Wonder" T="You Are The Sunshine Of My Life" type="SONG" mergeable="true" del="false">
+  <compo A="Stevie Wonder" T="You Are The Sunshine Of My Life" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="59" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Billy Joel" T="Just The Way You Are" type="SONG" mergeable="true" del="false">
@@ -190,7 +190,7 @@
   <compo A="The Beatles" T="In My Life" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="63" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elton John" T="Bennie And The Jets" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Bennie And The Jets" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="64" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Cars" T="Just What I Needed" type="SONG" mergeable="true" del="false">

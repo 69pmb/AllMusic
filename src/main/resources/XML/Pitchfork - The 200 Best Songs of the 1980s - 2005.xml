@@ -4,10 +4,10 @@
   <compo A="Prince" T="Purple Rain" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="1" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Michael Jackson" T="Wanna Be Startin' Somethin'" type="SONG" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Wanna Be Startin' Somethin'" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="2" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="N.W.A" T="Straight Outta Compton" type="SONG" mergeable="true" del="false">
+  <compo A="N.W.A" T="Straight Outta Compton" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="3" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="New Order" T="Blue Monday" type="SONG" mergeable="true" del="true">
@@ -43,7 +43,7 @@
   <compo A="The Smiths" T="There Is a Light That Never Goes Out" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="14" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Sonic Youth" T="Teen Age Riot" type="SONG" mergeable="true" del="false">
+  <compo A="Sonic Youth" T="Teen Age Riot" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="15" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Fugazi" T="Waiting Room" type="SONG" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <compo A="Sade" T="The Sweetest Taboo" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="35" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Michael Jackson" T="Human Nature" type="SONG" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Human Nature" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="36" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Tom Tom Club" T="Genius of Love" type="SONG" mergeable="true" del="false">
@@ -208,7 +208,7 @@
   <compo A="Prince" T="When You Were Mine" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="69" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Pet Shop Boys" T="West End Girls" type="SONG" mergeable="true" del="false">
+  <compo A="Pet Shop Boys" T="West End Girls" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="70" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Bruce Springsteen" T="Atlantic City" type="SONG" mergeable="true" del="true">
@@ -244,7 +244,7 @@
   <compo A="Diana Ross" T="Upside Down" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="81" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Tears for Fears" T="Everybody Wants to Rule the World" type="SONG" mergeable="true" del="false">
+  <compo A="Tears for Fears" T="Everybody Wants to Rule the World" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="82" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="My Bloody Valentine" T="You Made Me Realise" type="SONG" mergeable="true" del="false">
@@ -304,7 +304,7 @@
   <compo A="Eazy-E" T="Boyz-n-the-Hood" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="101" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Michael Jackson" T="P.Y.T. (Pretty Young Thing)" type="SONG" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="P.Y.T. (Pretty Young Thing)" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="102" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Whitney Houston" T="How Will I Know" type="SONG" mergeable="true" del="false">
@@ -340,7 +340,7 @@
   <compo A="The Isley Brothers" T="Between the Sheets" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="113" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Talk Talk" T="Life's What You Make It" type="SONG" mergeable="true" del="false">
+  <compo A="Talk Talk" T="Life's What You Make It" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="114" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="INXS" T="Never Tear Us Apart" type="SONG" mergeable="true" del="true">

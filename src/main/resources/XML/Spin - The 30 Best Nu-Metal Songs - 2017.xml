@@ -88,7 +88,7 @@
   <compo A="Papa Roach" T="Last Resort" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 30 Best Nu-Metal Songs - 2017" publish="2017" cat="GENRE" rangeB="0" rangeE="2017" sorted="true" rank="2" creation="30/08/2018 12:00:31" size="30"/>
   </compo>
-  <compo A="Korn" T="Freak On A Leash" type="SONG" mergeable="true" del="false">
+  <compo A="Korn" T="Freak On A Leash" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 30 Best Nu-Metal Songs - 2017" publish="2017" cat="GENRE" rangeB="0" rangeE="2017" sorted="true" rank="1" creation="30/08/2018 12:00:31" size="30"/>
   </compo>
 </ListCompositions>

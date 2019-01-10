@@ -37,7 +37,7 @@
   <compo A="MGMT" T="Time To Pretend" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="12" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Jay-Z" T="Empire State Of Mind" type="SONG" mergeable="true" del="false">
+  <compo A="Jay-Z" T="Empire State Of Mind" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="13" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Foals" T="Spanish Sahara" type="SONG" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Liars" T="Scarecrows On A Killer Slant" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="68" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="69" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="MIA" T="XXXO" type="SONG" mergeable="true" del="false">
@@ -391,7 +391,7 @@
   <compo A="Belle And Sebastian" T="The Boy With The Arab Strap" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="130" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Radiohead" T="Pyramid Song" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Pyramid Song" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="131" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Daft Punk" T="Harder, Better, Faster, Stronger" type="SONG" mergeable="true" del="false">
@@ -406,7 +406,7 @@
   <compo A="Kelly Clarkson" T="Since U Been Gone" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="135" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="false">
+  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="136" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Doves" T="There Goes The Fear" type="SONG" mergeable="true" del="false">

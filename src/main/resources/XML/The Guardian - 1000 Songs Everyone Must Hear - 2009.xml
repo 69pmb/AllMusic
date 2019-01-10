@@ -172,7 +172,7 @@
   <compo A="Judy Garland" T="Zing! Went The Strings Of My Heart" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="57" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Marvin Gaye" T="Ain't No Mountain High Enough" type="SONG" mergeable="true" del="false">
+  <compo A="Marvin Gaye" T="Ain't No Mountain High Enough" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="58" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Marvin Gaye" T="You're All I Need To Get By" type="SONG" mergeable="true" del="false">
@@ -376,7 +376,7 @@
   <compo A="Supremes" T="You Can't Hurry Love" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="125" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Teenagers And Frankie Lymon" T="Why Do Fools Fall In Love" type="SONG" mergeable="true" del="false">
+  <compo A="Frankie Lymon" T="Why Do Fools Fall In Love" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="126" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Temptations" T="My Girl" type="SONG" mergeable="true" del="false">
@@ -415,7 +415,7 @@
   <compo A="Neil Young" T="Like A Hurricane" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="138" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Neil Young" T="Only Love Can Break Your Heart" type="SONG" mergeable="true" del="false">
+  <compo A="Neil Young" T="Only Love Can Break Your Heart" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="139" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="ABBA" T="Winner Takes It All" type="SONG" mergeable="true" del="false">
@@ -487,7 +487,7 @@
   <compo A="Clash" T="Should I Stay Or Should I Go" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="162" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Patsy Cline" T="Crazy" type="SONG" mergeable="true" del="false">
+  <compo A="Patsy Cline" T="Crazy" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="163" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Leonard Cohen" T="So Long, Marianne" type="SONG" mergeable="true" del="true">
@@ -775,7 +775,7 @@
   <compo A="Dusty Springfield" T="You Don't Have To Say You Love Me" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="258" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="false">
+  <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="259" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Streets" T="Dry Your Eyes" type="SONG" mergeable="true" del="true">
@@ -799,7 +799,7 @@
   <compo A="Take That" T="Back For Good" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="266" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="TLC" T="No Scrubs" type="SONG" mergeable="true" del="false">
+  <compo A="TLC" T="No Scrubs" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="267" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="U2" T="With Or Without You" type="SONG" mergeable="true" del="true">
@@ -1144,7 +1144,7 @@
   <compo A="Van Morrison" T="Coney Island" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="381" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Willie Nelson" T="On The Road Again" type="SONG" mergeable="true" del="false">
+  <compo A="Willie Nelson" T="On The Road Again" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="382" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Randy Newman" T="A Few Words In Defense Of Our Country" type="SONG" mergeable="true" del="false">
@@ -1177,7 +1177,7 @@
   <compo A="Pet Shop Boys" T="King's Cross" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="392" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Pet Shop Boys" T="West End Girls" type="SONG" mergeable="true" del="false">
+  <compo A="Pet Shop Boys" T="West End Girls" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="393" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Wilson Pickett" T="Mustang Sally" type="SONG" mergeable="true" del="false">
@@ -1444,16 +1444,16 @@
   <compo A="Rick James" T="Super Freak" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="481" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Tommy James And The Shondells" T="Crimson And Clover" type="SONG" mergeable="true" del="false">
+  <compo A="Tommy James And The Shondells" T="Crimson And Clover" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="482" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Grace Jones" T="Pull Up To The Bumper" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="483" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="false">
+  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="484" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="R Kelly" T="Ignition (Remix)" type="SONG" mergeable="true" del="false">
+  <compo A="R Kelly" T="Ignition (Remix)" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="485" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Khia" T="My Neck, My Back (Lick It)" type="SONG" mergeable="true" del="false">
@@ -1480,7 +1480,7 @@
   <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="493" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin' Goin' On" type="SONG" mergeable="true" del="false">
+  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin' Goin' On" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="494" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Lil' Louis" T="French Kiss" type="SONG" mergeable="true" del="false">
@@ -1735,7 +1735,7 @@
   <compo A="Bronski Beat" T="Smalltown Boy" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="578" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="James Brown" T="Say It Loud (I'm Black And I'm Proud)" type="SONG" mergeable="true" del="false">
+  <compo A="James Brown" T="Say It Loud (I'm Black And I'm Proud)" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="579" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Burning Spear" T="Slavery Days" type="SONG" mergeable="true" del="false">
@@ -1915,7 +1915,7 @@
   <compo A="Barry McGuire" T="Eve of Destruction" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="638" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Joni Mitchell" T="Big Yellow Taxi" type="SONG" mergeable="true" del="false">
+  <compo A="Joni Mitchell" T="Big Yellow Taxi" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="639" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Mothers Of Invention" T="Trouble Every Day" type="SONG" mergeable="true" del="false">
@@ -1942,7 +1942,7 @@
   <compo A="Pogues" T="Streets Of Sorrow/Birmingham Six" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="647" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Elvis Presley" T="In The Ghetto" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="In The Ghetto" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="648" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Primal Scream" T="Come Together" type="SONG" mergeable="true" del="true">
@@ -2101,7 +2101,7 @@
   <compo A="Neil Young" T="Rockin' in the Free World" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="700" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Neil Young" T="Southern Man" type="SONG" mergeable="true" del="false">
+  <compo A="Neil Young" T="Southern Man" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="701" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Abyssinians" T="Satta Massagana" type="SONG" mergeable="true" del="false">
@@ -2428,7 +2428,7 @@
   <compo A="Talking Heads" T="Once In A Lifetime" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="809" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Talking Heads" T="Psycho Killer" type="SONG" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Psycho Killer" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="810" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="The The" T="This Is The Day" type="SONG" mergeable="true" del="false">
@@ -2935,7 +2935,7 @@
   <compo A="Sueno Latino And Carolina Damas" T="Sueno Latino" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="978" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Sugarhill Gang" T="Rapper's Delight" type="SONG" mergeable="true" del="false">
+  <compo A="Sugarhill Gang" T="Rapper's Delight" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="979" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Sundown Playboys" T="Saturday Nite Special" type="SONG" mergeable="true" del="false">

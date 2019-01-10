@@ -22,7 +22,7 @@
   <compo A="Cut Copy" T="Lights And Music" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Songs - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="7" creation="31/07/2018 12:33:16" size="23"/>
   </compo>
-  <compo A="Duffy" T="Mercy" type="SONG" mergeable="true" del="false">
+  <compo A="Duffy" T="Mercy" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="8" creation="31/07/2018 12:33:16" size="23"/>
   </compo>
   <compo A="Estelle" T="American Boy (And Kanye West)" type="SONG" mergeable="true" del="true">
@@ -67,7 +67,7 @@
   <compo A="The Ting Tings" T="Great DJ" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Songs - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="22" creation="31/07/2018 12:33:16" size="23"/>
   </compo>
-  <compo A="TV On The Radio" T="DLZ" type="SONG" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="DLZ" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="23" creation="31/07/2018 12:33:16" size="23"/>
   </compo>
 </ListCompositions>

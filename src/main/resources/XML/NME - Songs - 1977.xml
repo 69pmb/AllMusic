@@ -52,10 +52,10 @@
   <compo A="The Boomtown Rats" T="Looking After No. One" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="17" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="The Stranglers" T="Peaches" type="SONG" mergeable="true" del="false">
+  <compo A="The Stranglers" T="Peaches" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="18" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="X Ray Spex" T="Oh Bondage! Up Yours" type="SONG" mergeable="true" del="false">
+  <compo A="X Ray Spex" T="Oh Bondage! Up Yours" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="19" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Peter Gabriel" T="Solsbury Hill" type="SONG" mergeable="true" del="true">
@@ -112,7 +112,7 @@
   <compo A="Wreckless Eric" T="Whole Wide World" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="37" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Talking Heads" T="Psycho Killer" type="SONG" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Psycho Killer" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="38" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="William Bell" T="Tryin' To Love Two" type="SONG" mergeable="true" del="false">

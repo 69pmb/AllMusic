@@ -25,7 +25,7 @@
   <compo A="Sloy" T="Pop" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="8" creation="10/09/2018 13:32:04" size="25"/>
   </compo>
-  <compo A="Weezer" T="Buddy Holly" type="SONG" mergeable="true" del="false">
+  <compo A="Weezer" T="Buddy Holly" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="9" creation="10/09/2018 13:32:04" size="25"/>
   </compo>
   <compo A="High Llamas" T="Checking In Checking Out" type="SONG" mergeable="true" del="false">

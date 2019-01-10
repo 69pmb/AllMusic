@@ -298,7 +298,7 @@
   <compo A="GRIMES" T="Oblivion" type="SONG" mergeable="true" del="false">
     <file author="GorillaVsBear" name="GorillaVsBear - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Usher" T="Climax" type="SONG" mergeable="true" del="false">
+  <compo A="Usher" T="Climax" type="SONG" mergeable="true" del="true">
     <file author="GorillaVsBear" name="GorillaVsBear - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
 </ListCompositions>

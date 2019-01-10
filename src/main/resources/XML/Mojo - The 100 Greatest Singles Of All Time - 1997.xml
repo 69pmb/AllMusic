@@ -76,7 +76,7 @@
   <compo A="Martha And The Vandellas" T="Dancing In The Street" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="23" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
-  <compo A="Eddie Cochran" T="Summertime Blues" type="SONG" mergeable="true" del="false">
+  <compo A="Eddie Cochran" T="Summertime Blues" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="24" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
   <compo A="Buddy Holly" T="That'll Be the Day" type="SONG" mergeable="true" del="true">
@@ -103,7 +103,7 @@
   <compo A="Sam Cooke" T="A Change Is Gonna Come" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="31" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
-  <compo A="The Four Tops" T="Reach Out I'll Be There" type="SONG" mergeable="true" del="false">
+  <compo A="The Four Tops" T="Reach Out I'll Be There" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="32" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
   <compo A="Ann Peebles" T="I Can't Stand the Rain" type="SONG" mergeable="true" del="false">
@@ -133,7 +133,7 @@
   <compo A="Booker T" T="Green Onions" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="41" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
-  <compo A="Frankie Lymon" T="Why Do Fools Fall In Love ?" type="SONG" mergeable="true" del="false">
+  <compo A="Frankie Lymon" T="Why Do Fools Fall In Love ?" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="42" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
   <compo A="Jimi Hendrix" T="Purple Haze" type="SONG" mergeable="true" del="true">
@@ -262,7 +262,7 @@
   <compo A="Duane Eddy" T="Rebel Rouser" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="84" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
-  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin' Goin' On" type="SONG" mergeable="true" del="false">
+  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin' Goin' On" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="85" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
   <compo A="Frankie Goes To Hollywood" T="Relax" type="SONG" mergeable="true" del="true">
@@ -304,7 +304,7 @@
   <compo A="Don Henley" T="The Boys Of Summer" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="98" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
-  <compo A="The Supremes" T="Stop! In The Name Of Love" type="SONG" mergeable="true" del="false">
+  <compo A="The Supremes" T="Stop! In The Name Of Love" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="99" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
   <compo A="Frank Sinatra" T="I've Got You Under My Skin" type="SONG" mergeable="true" del="false">
@@ -397,7 +397,7 @@
   <compo A="Jimi Hendrix" T="Voodoo Chile" type="SONG" mergeable="false" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="128" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
-  <compo A="The Everly Brothers" T="Wake Up Little Susie" type="SONG" mergeable="true" del="false">
+  <compo A="The Everly Brothers" T="Wake Up Little Susie" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Singles Of All Time - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="129" creation="25/01/2017 10:01:33" size="132"/>
   </compo>
   <compo A="The Shirelles" T="Will You Still Love Me Tomorrow" type="SONG" mergeable="true" del="true">

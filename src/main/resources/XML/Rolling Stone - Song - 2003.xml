@@ -7,7 +7,7 @@
   <compo A="Beyonce" T="Crazy In Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="false">
+  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
   <compo A="The White Stripes" T="Seven Nation Army" type="SONG" mergeable="true" del="true">
@@ -31,7 +31,7 @@
   <compo A="Electric Six" T="Danger! High Voltage" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="R. Kelly" T="Ignition-Remix" type="SONG" mergeable="true" del="false">
+  <compo A="R. Kelly" T="Ignition-Remix" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
 </ListCompositions>
