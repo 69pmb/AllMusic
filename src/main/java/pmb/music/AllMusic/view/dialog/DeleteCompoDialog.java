@@ -6,6 +6,8 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Arrays;
 import java.util.Vector;
 
@@ -148,7 +150,8 @@ public class DeleteCompoDialog extends JDialog {
 
 	public void updateDialog(String csv, Composition found, int index) {
 		sendData = null;
-		this.setTitle(index + "/" + size);
+		this.setTitle(index + "/" + size + " - " + BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(index))
+				.divide(new BigDecimal(size), RoundingMode.HALF_UP).doubleValue() + "%");
 		compoCsv.setText(csv);
 
 		((DefaultTableModel) filesFound.getModel()).setRowCount(0);
