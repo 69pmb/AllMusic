@@ -70,7 +70,7 @@
   <compo A="The Who" T="I Can't Explain" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="23" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
-  <compo A="Four Tops" T="Reach Out I'll Be There" type="SONG" mergeable="true" del="false">
+  <compo A="Four Tops" T="Reach Out I'll Be There" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="24" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
   <compo A="Beatles" T="Daytripper/We Can Work It Out" type="SONG" mergeable="true" del="false">
@@ -109,13 +109,13 @@
   <compo A="The Who" T="Pinball Wizard" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="36" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
-  <compo A="The Who" T="I Can See For Miles" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="I Can See For Miles" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="37" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
   <compo A="Beatles" T="Hey Jude" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="38" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
-  <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="false">
+  <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="39" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
   <compo A="Junior Walker And The All Stars" T="(I'm a) Roadrunner" type="SONG" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <compo A="Aretha Franklin" T="I Never Loved A Man (The Way I Love You)" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="72" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
-  <compo A="Ronettes" T="Baby I Love You" type="SONG" mergeable="true" del="false">
+  <compo A="Ronettes" T="Baby I Love You" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="74" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
   <compo A="Elvis Presley" T="Mystery Train" type="SONG" mergeable="true" del="true">

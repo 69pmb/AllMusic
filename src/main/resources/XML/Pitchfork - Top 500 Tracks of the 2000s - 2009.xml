@@ -55,7 +55,7 @@
   <compo A="Hercules and Love Affair" T="Blind" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="18" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="R. Kelly" T="Ignition" type="SONG" mergeable="true" del="false">
+  <compo A="R. Kelly" T="Ignition" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="19" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="The Walkmen" T="The Rat" type="SONG" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <compo A="The White Stripes" T="Fell in Love With a Girl" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="58" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Radiohead" T="Pyramid Song" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Pyramid Song" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="59" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Ghostface Killah" T="Nutmeg" type="SONG" mergeable="true" del="false">
@@ -283,7 +283,7 @@
   <compo A="The Futureheads" T="Hounds of Love" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="94" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Wolf Parade" T="I'll Believe in Anything" type="SONG" mergeable="true" del="false">
+  <compo A="Wolf Parade" T="I'll Believe in Anything" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="95" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Clinic" T="Distortions" type="SONG" mergeable="true" del="false">
@@ -337,7 +337,7 @@
   <compo A="Lindstrom" T="I Feel Space" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="112" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="false">
+  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="113" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="!!!" T="Me And Guiliani Down By The Schoolyard (A True Story)" type="SONG" mergeable="true" del="false">
@@ -367,7 +367,7 @@
   <compo A="Cam'Ron" T="Hey Ma" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="122" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="123" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Ted Leo And The Pharmacists" T="Where Have All The Rude Boys Gone?" type="SONG" mergeable="true" del="false">
@@ -520,7 +520,7 @@
   <compo A="M.O.P." T="Ante Up" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="173" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Los Campesinos!" T="You! Me! Dancing!" type="SONG" mergeable="true" del="false">
+  <compo A="Los Campesinos!" T="You! Me! Dancing!" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="174" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Usher" T="Yeah" type="SONG" mergeable="true" del="false">
@@ -988,7 +988,7 @@
   <compo A="Caribou" T="Hendrix with KO" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="329" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="false">
+  <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="330" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Andrew Bird" T="Fake Palindromes" type="SONG" mergeable="true" del="false">
@@ -1162,7 +1162,7 @@
   <compo A="Cortney Tidwell" T="Don't Let the Stars Keep Us Tangled Up (Ewan's Objects in Space Remix)" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="387" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Sigur Ros" T="Hoppipolla" type="SONG" mergeable="true" del="false">
+  <compo A="Sigur Ros" T="Hoppipolla" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="388" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Junior Boys" T="High Come Down" type="SONG" mergeable="true" del="false">

@@ -28,7 +28,7 @@
   <compo A="Neil Young" T="Ohio" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Neil Young - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="false" rank="9" creation="28/08/2018 10:15:54" size="36"/>
   </compo>
-  <compo A="Neil Young" T="Don't Let It Bring You Down" type="SONG" mergeable="true" del="false">
+  <compo A="Neil Young" T="Don't Let It Bring You Down" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Neil Young - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="false" rank="10" creation="28/08/2018 10:15:54" size="36"/>
   </compo>
   <compo A="Neil Young" T="Bad Fog Of Loneliness" type="SONG" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="Neil Young" T="Don't Spook The Horse" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Neil Young - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="false" rank="33" creation="28/08/2018 10:15:54" size="36"/>
   </compo>
-  <compo A="Neil Young" T="After The Goldrush" type="SONG" mergeable="true" del="false">
+  <compo A="Neil Young" T="After The Goldrush" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Neil Young - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="false" rank="34" creation="28/08/2018 10:15:54" size="36"/>
   </compo>
   <compo A="Neil Young" T="Change Your Mind" type="SONG" mergeable="true" del="false">

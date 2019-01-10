@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Sugarhill Gang" T="Rapper's Delight" type="SONG" mergeable="true" del="false">
+  <compo A="The Sugarhill Gang" T="Rapper's Delight" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="1" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
   <compo A="Afrika Bambaataa" T="Unity" type="SONG" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <compo A="Lil Wayne" T="Mr. Carter" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="20" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="21" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
   <compo A="Jay-Z" T="99 Problems" type="SONG" mergeable="true" del="true">
@@ -73,13 +73,13 @@
   <compo A="Missy Elliott" T="Get Ur Freak On" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="24" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="false">
+  <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="25" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
   <compo A="Slum Village" T="Reunion" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="26" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="A Tribe Called Quest" T="Can I Kick It?" type="SONG" mergeable="true" del="false">
+  <compo A="A Tribe Called Quest" T="Can I Kick It?" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="27" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
   <compo A="Mobb Deep" T="Shook Ones (Part II)" type="SONG" mergeable="true" del="false">

@@ -22,7 +22,7 @@
   <compo A="The Chiffons" T="One Fine Day" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="7" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Rod Stewart" T="Maggie Mae" type="SONG" mergeable="true" del="false">
+  <compo A="Rod Stewart" T="Maggie Mae" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="8" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Dionne Warwick" T="Walk On By" type="SONG" mergeable="true" del="true">
@@ -169,7 +169,7 @@
   <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="56" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Gladys Knight And The Pips" T="Midnight Train To Memphis" type="SONG" mergeable="true" del="false">
+  <compo A="Gladys Knight And The Pips" T="Midnight Train To Memphis" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="57" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Pretenders" T="Brass In Pocket (I'm Special)" type="SONG" mergeable="true" del="false">

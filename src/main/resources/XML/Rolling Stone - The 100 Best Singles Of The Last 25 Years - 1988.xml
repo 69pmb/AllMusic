@@ -28,7 +28,7 @@
   <compo A="Bruce Springsteen" T="Born To Run" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="9" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Supremes" T="Stop! In The Name Of Love" type="SONG" mergeable="true" del="false">
+  <compo A="The Supremes" T="Stop! In The Name Of Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="10" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Beach Boys" T="Good Vibrations" type="SONG" mergeable="true" del="true">
@@ -67,7 +67,7 @@
   <compo A="Michael Jackson" T="Billie Jean" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="22" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Four Tops" T="Reach Out I'll Be There" type="SONG" mergeable="true" del="false">
+  <compo A="The Four Tops" T="Reach Out I'll Be There" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="23" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Sam Cooke" T="Shake" type="SONG" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <compo A="The Crystals" T="Da Doo Ron Ron" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="35" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="? And The Mysterians" T="96 Tears" type="SONG" mergeable="true" del="false">
+  <compo A="? And The Mysterians" T="96 Tears" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="36" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Box Tops" T="The Letter" type="SONG" mergeable="true" del="false">
@@ -199,7 +199,7 @@
   <compo A="Sam And Dave" T="Hold On, I'm Comin'" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="66" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Tommy James And The Shondells" T="Crimson And Clover" type="SONG" mergeable="true" del="false">
+  <compo A="Tommy James And The Shondells" T="Crimson And Clover" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="67" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <compo A="The Byrds" T="Mr. Tambourine Man" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="86" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Rad Stewart" T="Maggie May" type="SONG" mergeable="true" del="false">
+  <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="87" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Lovin' Spoonful" T="Summer In The City" type="SONG" mergeable="true" del="false">

@@ -19,7 +19,7 @@
   <compo A="Howlin' Wolf" T="Evil" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publish="2010" cat="DECADE" rangeB="1950" rangeE="1959" sorted="false" rank="6" creation="07/09/2018 15:20:09" size="50"/>
   </compo>
-  <compo A="Muddy Waters" T="Hoochie Coochie Man" type="SONG" mergeable="true" del="false">
+  <compo A="Muddy Waters" T="Hoochie Coochie Man" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publish="2010" cat="DECADE" rangeB="1950" rangeE="1959" sorted="false" rank="7" creation="07/09/2018 15:20:09" size="50"/>
   </compo>
   <compo A="Bill Haley" T="Rock Around The Clock" type="SONG" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Fats Domino" T="Ain't That A Shame" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publish="2010" cat="DECADE" rangeB="1950" rangeE="1959" sorted="false" rank="12" creation="07/09/2018 15:20:09" size="50"/>
   </compo>
-  <compo A="Frankie Lymon" T="Why Do Fools Fall In Love ?" type="SONG" mergeable="true" del="false">
+  <compo A="Frankie Lymon" T="Why Do Fools Fall In Love ?" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publish="2010" cat="DECADE" rangeB="1950" rangeE="1959" sorted="false" rank="13" creation="07/09/2018 15:20:09" size="50"/>
   </compo>
   <compo A="Richard Berry" T="Louie Louie" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Danny And The Juniors" T="At The Hop" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publish="2010" cat="DECADE" rangeB="1950" rangeE="1959" sorted="false" rank="29" creation="07/09/2018 15:20:09" size="50"/>
   </compo>
-  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin' Goin' On" type="SONG" mergeable="true" del="false">
+  <compo A="Jerry Lee Lewis" T="Whole Lotta Shakin' Goin' On" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publish="2010" cat="DECADE" rangeB="1950" rangeE="1959" sorted="false" rank="30" creation="07/09/2018 15:20:09" size="50"/>
   </compo>
   <compo A="Dale Hawkins" T="Susie Q" type="SONG" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Chuck Berry" T="Johnny B. Goode" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publish="2010" cat="DECADE" rangeB="1950" rangeE="1959" sorted="false" rank="39" creation="07/09/2018 15:20:09" size="50"/>
   </compo>
-  <compo A="Eddie Cochran" T="Summertime Blues" type="SONG" mergeable="true" del="false">
+  <compo A="Eddie Cochran" T="Summertime Blues" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 50's - 2010" publish="2010" cat="DECADE" rangeB="1950" rangeE="1959" sorted="false" rank="40" creation="07/09/2018 15:20:09" size="50"/>
   </compo>
   <compo A="Cliff Richard" T="Move It" type="SONG" mergeable="true" del="true">

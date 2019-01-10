@@ -25,7 +25,7 @@
   <compo A="Patti Smith" T="Gloria" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="8" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="X Ray Spex" T="Oh Bondage, Up Yours" type="SONG" mergeable="true" del="false">
+  <compo A="X Ray Spex" T="Oh Bondage, Up Yours" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="9" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Gang Of Four" T="Damaged Goods" type="SONG" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="The Pop Group" T="We Are All Prostitutes" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="33" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Siouxsie And The Banshees" T="Hong Kong Garden" type="SONG" mergeable="true" del="false">
+  <compo A="Siouxsie And The Banshees" T="Hong Kong Garden" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="34" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Pere Ubu" T="30 Seconds Over Tokyo" type="SONG" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Television Personalities" T="Part-Time Punks" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="49" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Talking Heads" T="Psycho Killer" type="SONG" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Psycho Killer" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="50" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Public Image Ltd" T="Public Image" type="SONG" mergeable="true" del="false">
