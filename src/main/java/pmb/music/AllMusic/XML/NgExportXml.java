@@ -29,6 +29,7 @@ import pmb.music.AllMusic.utils.BatchUtils;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.DropBoxUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.panel.OngletPanel;
@@ -136,11 +137,10 @@ public class NgExportXml {
 		LOG.debug("Start saveFile");
 		// Nom du fichier
 		String fullFileName = fileName;
-		if (!StringUtils.endsWith(fileName, Constant.XML_EXTENSION)) {
-			fullFileName += Constant.XML_EXTENSION;
-		} else {
-			fileName = StringUtils.substringBeforeLast(fileName, Constant.XML_EXTENSION);
+		if (StringUtils.endsWith(fullFileName, Constant.XML_EXTENSION)) {
+			fullFileName = StringUtils.substringBeforeLast(fullFileName, Constant.XML_EXTENSION);
 		}
+		fullFileName += ";" + MiscUtils.dateNow() + Constant.XML_EXTENSION;
 
 		// Sauvegarde du document dans le fichier
 		FileOutputStream fos = new FileOutputStream(Constant.getXmlPath() + fullFileName);
@@ -150,11 +150,14 @@ public class NgExportXml {
 		XMLWriter xmlOut = new XMLWriter(fos, format);
 		xmlOut.write(doc);
 		xmlOut.close();
+		File pathFile = new File(Constant.getXmlPath() + fullFileName);
 		try {
-			DropBoxUtils.uploadFile(new File(Constant.getXmlPath() + fullFileName), "XML/" + fullFileName,
-					WriteMode.OVERWRITE);
+			DropBoxUtils.uploadFile(pathFile, "XML/" + fullFileName, WriteMode.OVERWRITE);
 		} catch (MyException e) {
 			LOG.error("Impossible d'enregistrer le fichier: " + fullFileName + " dans la dropbox", e);
+		}
+		if (!pathFile.delete()) {
+			LOG.warn("Error when deleting file: " + Constant.getXmlPath() + fullFileName);
 		}
 		LOG.debug("End saveFile");
 	}

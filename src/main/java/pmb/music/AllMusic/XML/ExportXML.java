@@ -46,6 +46,11 @@ public class ExportXML {
 		Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
 		SimpleDateFormat sdfDttm = new Constant().getSdfDttm();
 
+		// Export file in Dropbox if final file
+		if (Constant.getFinalFile().equals(fileName)) {
+			NgExportXml.ngExportXml(compList, Constant.getFinalFile());
+		}
+
 		for (int i = 0; i < compList.size(); i++) {
 			// Ajout element <Order/>
 			Element comp = listComp.addElement(CompoHandler.TAG_COMPOSITION);
