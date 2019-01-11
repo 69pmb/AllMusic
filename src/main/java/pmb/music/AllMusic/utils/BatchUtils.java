@@ -35,13 +35,12 @@ import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import org.apache.commons.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
-
-import com.opencsv.bean.CsvBindByName;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -59,6 +58,8 @@ import pmb.music.AllMusic.view.dialog.DeleteCompoDialog;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
+
+import com.opencsv.bean.CsvBindByName;
 
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
