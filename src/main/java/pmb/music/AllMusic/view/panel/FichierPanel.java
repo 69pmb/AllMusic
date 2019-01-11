@@ -54,9 +54,6 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.matchers.TextMatcherEditor;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -81,6 +78,9 @@ import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
 import pmb.music.AllMusic.view.model.FichierPanelModel;
 import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 import pmb.music.AllMusic.view.popup.FichierPopupMenu;
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.matchers.TextMatcherEditor;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -161,7 +161,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private CompositionPopupMenu popupComposition;
 
 	private Dimension parentSize;
-	private ArtistPanel artistPanel;
+	private final ArtistPanel artistPanel;
 
 	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Publication", "Categorie",
 			"Dates", "Supprimés", "Création", "Score", "Score Supprimés", "Taille", "Classé" };
@@ -213,8 +213,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		JPanel inputs = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		// Auteur
 		JPanel auteurPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(auteurPanel, 200, PanelUtils.PANEL_HEIGHT);
-		JLabel auteurLabel = PanelUtils.createJLabel("Auteur : ", 150);
+		PanelUtils.setSize(auteurPanel, 190, PanelUtils.PANEL_HEIGHT);
+		JLabel auteurLabel = PanelUtils.createJLabel("Auteur : ", 140);
 		auteur = new MyInputText(JComboBox.class, 150);
 		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(),
 				GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
@@ -224,8 +224,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		inputs.add(auteurPanel);
 		// Nom du fichier
 		JPanel namePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(namePanel, 250, PanelUtils.PANEL_HEIGHT);
-		JLabel nameLabel = PanelUtils.createJLabel("Nom du fichier : ", 200);
+		PanelUtils.setSize(namePanel, 240, PanelUtils.PANEL_HEIGHT);
+		JLabel nameLabel = PanelUtils.createJLabel("Nom du fichier : ", 190);
 		filename = new MyInputText(JTextField.class, 180);
 		filename.getInput().addFocusListener(PanelUtils.selectAll);
 		namePanel.add(nameLabel);
@@ -233,8 +233,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		inputs.add(namePanel);
 		// Publi
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(publiPanel, 270, PanelUtils.PANEL_HEIGHT);
-		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 230);
+		PanelUtils.setSize(publiPanel, 250, PanelUtils.PANEL_HEIGHT);
+		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 210);
 		publi = new MyInputText(JTextField.class, 100);
 		publi.getInput().addFocusListener(PanelUtils.selectAll);
 		searchRange = new JComboBox<String>(
@@ -271,8 +271,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		inputs.add(rangePanel);
 		// Categorie
 		JPanel catPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(catPanel, 250, PanelUtils.PANEL_HEIGHT);
-		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 180);
+		PanelUtils.setSize(catPanel, 200, PanelUtils.PANEL_HEIGHT);
+		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 150);
 		cat = new JComboCheckBox(
 				Arrays.asList(Cat.values()).stream().map(c -> c.getCat()).collect(Collectors.toList()));
 		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
@@ -281,8 +281,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		inputs.add(catPanel);
 		// Type
 		JPanel typePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(typePanel, 250, PanelUtils.PANEL_HEIGHT);
-		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
+		PanelUtils.setSize(typePanel, 200, PanelUtils.PANEL_HEIGHT);
+		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 150);
 		type = new JComboCheckBox(
 				Arrays.asList(RecordType.values()).stream().map(t -> t.getRecordType()).collect(Collectors.toList()));
 		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
@@ -713,6 +713,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	 * 
 	 * @param selected the selected row representing a composition
 	 */
+	@Override
 	public void modifyCompositionAction(Vector<String> selected) {
 		LOG.debug("Start modifyCompositionAction");
 		PanelUtils.modificationCompositionAction(artistPanel, this, selected, compositionList, INDEX_COMPO_ARTIST,
