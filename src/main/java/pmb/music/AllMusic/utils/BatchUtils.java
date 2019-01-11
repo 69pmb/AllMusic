@@ -635,7 +635,18 @@ public class BatchUtils {
 	}
 	
 	private static String warningForSong(CsvComposition csv) {
-		return "";
+		List<String> result = new ArrayList<String>();
+		if (csv.getPlayCount() < 10) {
+			result.add("Nombre de lecture < 10");
+		}
+		String[] split = StringUtils.split(csv.getBitRate(), " ");
+		if (split.length == 2 && NumberUtils.isDigits(split[0]) && Integer.valueOf(split[0]) < 128) {
+			result.add("Bit Rate < 128");
+		}
+		if (csv.getRank() < 90) {
+			result.add("Classement < 5 Étoiles");
+		}
+		return result.stream().collect(Collectors.joining(Constant.NEW_LINE));
 	}
 
 	/**
