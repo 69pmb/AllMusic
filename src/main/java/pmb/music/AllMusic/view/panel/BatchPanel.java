@@ -183,8 +183,6 @@ public class BatchPanel extends JPanel {
 			LOG.debug("Start browse");
 			if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
 				selectedFile.setText(jfile.getSelectedFile().getAbsolutePath());
-			} else {
-				selectedFile.setText(null);
 			}
 		});
 		PanelUtils.addComponent(choose, browse, Component.LEFT_ALIGNMENT, 0);
@@ -205,7 +203,7 @@ public class BatchPanel extends JPanel {
 		massDeletionBtn.setToolTipText("Supprime en masse des compositions.");
 		massDeletionBtn.addActionListener((ActionEvent arg0) -> {
 			if (selectedFile.getText() != null
-					&& !StringUtils.equals(selectedFile.getText(), Constant.getResourcesDir())) {
+					&& !StringUtils.equalsIgnoreCase(selectedFile.getText(), Constant.getResourcesDir())) {
 				LOG.debug("End browse");
 				displayText("Start massDeletion: " + MiscUtils.getCurrentTime(), false);
 				new Thread(() -> {

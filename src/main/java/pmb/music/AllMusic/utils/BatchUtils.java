@@ -561,7 +561,7 @@ public class BatchUtils {
 			}
 			Composition found = compoFound.get(0);
 			// update dialog
-			deleteCompoDialog.updateDialog(prettyPrintForSong(compoToDelete), found, i);
+			deleteCompoDialog.updateDialog(prettyPrintForSong(compoToDelete), found, i, warningForSong(compoToDelete));
 			deleteCompoDialog.setVisible(true);
 			Boolean action = deleteCompoDialog.getSendData();
 			if (action == null) {
@@ -633,6 +633,10 @@ public class BatchUtils {
 		}
 		return result;
 	}
+	
+	private static String warningForSong(CsvComposition csv) {
+		return "";
+	}
 
 	/**
 	 * Mass deletion for albums.
@@ -697,7 +701,7 @@ public class BatchUtils {
 			}
 			Composition found = compoFound.get(0);
 			// update dialog
-			deleteCompoDialog.updateDialog(prettyPrintForAlbum(compoAlbum), found, i);
+			deleteCompoDialog.updateDialog(prettyPrintForAlbum(compoAlbum), found, i, null);
 			deleteCompoDialog.setVisible(true);
 			Boolean action = deleteCompoDialog.getSendData();
 			if (action == null) {
