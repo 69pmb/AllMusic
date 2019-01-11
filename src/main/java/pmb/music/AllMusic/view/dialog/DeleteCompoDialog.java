@@ -65,6 +65,7 @@ public class DeleteCompoDialog extends JDialog {
 
 	// Components
 	private JTextPane compoCsv;
+	private JTextPane warning;
 	JTable filesFound;
 	JButton yes;
 	JButton no;
@@ -95,21 +96,15 @@ public class DeleteCompoDialog extends JDialog {
 
 		// Csv compo
 		JPanel compoCsvPanel = new JPanel(new BorderLayout());
-		compoCsv = new JTextPane();
-		compoCsv.setOpaque(false);
-		compoCsv.setEditable(false);
-		compoCsv.setBackground(UIManager.getColor("Label.background"));
-		compoCsv.setFont(UIManager.getFont("Label.font"));
-		compoCsv.setBorder(UIManager.getBorder("Label.border"));
-		compoCsv.setForeground(new Color(21, 77, 153));
-		Font labelFont = compoCsv.getFont();
-		compoCsv.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
-		StyledDocument doc = compoCsv.getStyledDocument();
-		SimpleAttributeSet center = new SimpleAttributeSet();
-		StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
-		doc.setParagraphAttributes(0, doc.getLength(), center, false);
+		compoCsv = initJTextPaneComponent(panel, new Color(21, 77, 153), 20);
 		compoCsvPanel.add(new JScrollPane(compoCsv), BorderLayout.CENTER);
 		panel.add(compoCsvPanel);
+
+		// Warning
+		JPanel warningPanel = new JPanel(new BorderLayout());
+		warning = initJTextPaneComponent(panel, new Color(255, 67, 67), 30);
+		warningPanel.add(new JScrollPane(warning), BorderLayout.CENTER);
+		panel.add(warningPanel);
 
 		// Files found
 		filesFound = new JTable();
@@ -148,11 +143,38 @@ public class DeleteCompoDialog extends JDialog {
 		LOG.debug("End initComponent");
 	}
 
-	public void updateDialog(String csv, Composition found, int index) {
+	private JTextPane initJTextPaneComponent(JPanel panel, Color color, int fontSize) {
+		JTextPane textPane = new JTextPane();
+		textPane.setOpaque(false);
+		textPane.setEditable(false);
+		textPane.setBackground(UIManager.getColor("Label.background"));
+		textPane.setFont(UIManager.getFont("Label.font"));
+		textPane.setBorder(UIManager.getBorder("Label.border"));
+		textPane.setForeground(color);
+		Font labelFont = textPane.getFont();
+		textPane.setFont(new Font(labelFont.getName(), labelFont.getStyle(), fontSize));
+		StyledDocument doc = textPane.getStyledDocument();
+		SimpleAttributeSet center = new SimpleAttributeSet();
+		StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
+		doc.setParagraphAttributes(0, doc.getLength(), center, false);
+		return textPane;
+	}
+
+	/**
+	 * Update delete dialog infos.
+	 * 
+	 * @param csv composition infos from csv file
+	 * @param found composition found from xml final file
+	 * @param index index in csv file
+	 * @param warning warning on csv composition like play count or rank
+	 */
+	public void updateDialog(String csv, Composition found, int index, String warning) {
 		sendData = null;
 		this.setTitle(index + "/" + size + " - " + BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(index))
 				.divide(new BigDecimal(size), RoundingMode.HALF_UP).doubleValue() + "%");
 		compoCsv.setText(csv);
+
+		this.warning.setText(warning);
 
 		((DefaultTableModel) filesFound.getModel()).setRowCount(0);
 		((DefaultTableModel) filesFound.getModel()).setDataVector(
