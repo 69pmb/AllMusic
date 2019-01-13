@@ -10,7 +10,7 @@
   <compo A="Passion Pit" T="Take a Walk" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Frank Ocean" T="Thinkin Bout You" type="SONG" mergeable="true" del="false">
+  <compo A="Frank Ocean" T="Thinkin Bout You" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Neil Young" T="Ramada Inn" type="SONG" mergeable="true" del="false">
@@ -28,13 +28,13 @@
   <compo A="Bob Dylan" T="Pay in Blood" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="First Aid Kit" T="Emmylou" type="SONG" mergeable="true" del="false">
+  <compo A="First Aid Kit" T="Emmylou" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="fun." T="Some Nights" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Fiona Apple" T="Hot Knife" type="SONG" mergeable="true" del="false">
+  <compo A="Fiona Apple" T="Hot Knife" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Mumford And Sons" T="I Will Wait" type="SONG" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="The Lumineers" T="Ho Hey" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="26" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="AsAP Rocky" T="Goldie" type="SONG" mergeable="true" del="false">
+  <compo A="AsAP Rocky" T="Goldie" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="27" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Grimes" T="Oblivion" type="SONG" mergeable="true" del="false">
@@ -97,13 +97,13 @@
   <compo A="Bruce Springsteen" T="We Take Care Of Our Own" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="32" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Miguel" T="Adorn" type="SONG" mergeable="true" del="false">
+  <compo A="Miguel" T="Adorn" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="33" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Kendrick Lamar" T="Swimming Pools (Drank)" type="SONG" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="Swimming Pools (Drank)" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="34" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Icona Pop" T="I Love It" type="SONG" mergeable="true" del="false">
+  <compo A="Icona Pop" T="I Love It" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="35" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Himanshu" T="Womyn" type="SONG" mergeable="true" del="false">

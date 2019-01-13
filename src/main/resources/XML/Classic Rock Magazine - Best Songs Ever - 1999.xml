@@ -76,7 +76,7 @@
   <compo A="Thin Lizzy" T="Boys Are Back In Town" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="25" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
-  <compo A="Pink Floyd" T="Comfortably Numb" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Comfortably Numb" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="26" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
   <compo A="Free" T="Mr Big" type="SONG" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="The Rolling Stones" T="Gimme Shelter" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="43" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
-  <compo A="Pink Floyd" T="Time" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Time" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="44" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
   <compo A="King Crimson" T="In The Court Of The Crimson King" type="SONG" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="Asia" T="Heat Of The Moment" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="47" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
-  <compo A="Lynyrd Skynyrd" T="Sweet Home Alabama" type="SONG" mergeable="true" del="false">
+  <compo A="Lynyrd Skynyrd" T="Sweet Home Alabama" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="48" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
   <compo A="UFO" T="Lights Out" type="SONG" mergeable="true" del="false">

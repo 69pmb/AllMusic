@@ -142,7 +142,7 @@
   <compo A="Take That" T="Back For Good" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="47" creation="20/07/2017 20:46:47" size="50"/>
   </compo>
-  <compo A="Radiohead" T="Lucky" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Lucky" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="48" creation="20/07/2017 20:46:47" size="50"/>
   </compo>
   <compo A="Supergrass" T="Mansize Rooster" type="SONG" mergeable="true" del="false">

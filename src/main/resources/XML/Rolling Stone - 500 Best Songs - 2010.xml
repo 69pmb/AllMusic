@@ -124,7 +124,7 @@
   <compo A="The Kinks" T="Waterloo Sunset" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="42" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Little Richard" T="Tutti, Frutti" type="SONG" mergeable="true" del="false">
+  <compo A="Little Richard" T="Tutti, Frutti" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="43" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Ray Charles" T="Georgia on My Mind" type="SONG" mergeable="true" del="false">
@@ -262,7 +262,7 @@
   <compo A="The Temptations" T="My Girl" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="88" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Mamas and The Papas" T="California Dreamin'" type="SONG" mergeable="true" del="false">
+  <compo A="The Mamas and The Papas" T="California Dreamin'" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="89" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Five Satins" T="In the Still of the Nite" type="SONG" mergeable="true" del="false">
@@ -334,7 +334,7 @@
   <compo A="Hank Williams" T="I'm So Lonesome I Could Cry" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="112" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Elvis Presley" T="That's All Right" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="That's All Right" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="113" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Drifters" T="Up on the Roof" type="SONG" mergeable="true" del="false">
@@ -406,7 +406,7 @@
   <compo A="The Beatles" T="While My Guitar Gently Weeps" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="136" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Elton John" T="Your Song" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Your Song" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="137" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Beatles" T="Eleanor Rigby" type="SONG" mergeable="true" del="false">
@@ -505,7 +505,7 @@
   <compo A="The Temptations" T="Papa Was a Rollin' Stone" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="169" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="170" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Joni Mitchell" T="Both Sides Now" type="SONG" mergeable="true" del="false">
@@ -553,7 +553,7 @@
   <compo A="B.B. King" T="The Thrill Is Gone" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="185" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Please Please Me" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Please Please Me" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="186" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Desolation Row" type="SONG" mergeable="true" del="true">
@@ -631,7 +631,7 @@
   <compo A="Them" T="Gloria" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="211" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Beach Boys" T="In My Room" type="SONG" mergeable="true" del="false">
+  <compo A="The Beach Boys" T="In My Room" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="212" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="? and the Mysterians" T="96 Tears" type="SONG" mergeable="true" del="true">
@@ -679,7 +679,7 @@
   <compo A="James Taylor" T="Fire and Rain" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="227" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Clash" T="Should I Stay or Should I Go" type="SONG" mergeable="true" del="false">
+  <compo A="The Clash" T="Should I Stay or Should I Go" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="228" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="false">
@@ -763,7 +763,7 @@
   <compo A="Bobby Darin" T="Mack the Knife" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="255" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Mott the Hoople" T="All the Young Dudes" type="SONG" mergeable="true" del="false">
+  <compo A="Mott the Hoople" T="All the Young Dudes" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="256" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="true">
@@ -835,7 +835,7 @@
   <compo A="Jefferson Airplane" T="Somebody to Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="279" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born in the U.S.A." type="SONG" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born in the U.S.A." type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="280" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Staple Singers" T="I'll Take You There" type="SONG" mergeable="true" del="false">
@@ -958,7 +958,7 @@
   <compo A="Screamin' Jay Hawkins" T="I Put a Spell on You" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="320" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Pink Floyd" T="Comfortably Numb" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Comfortably Numb" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="321" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Animals" T="Don't Let Me Be Misunderstood" type="SONG" mergeable="true" del="false">
@@ -970,7 +970,7 @@
   <compo A="Pink Floyd" T="Wish You Were Here" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="324" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Jimmy Cliff" T="Many Rivers to Cross" type="SONG" mergeable="true" del="false">
+  <compo A="Jimmy Cliff" T="Many Rivers to Cross" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="325" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Alice Cooper" T="School's Out" type="SONG" mergeable="true" del="false">
@@ -1216,7 +1216,7 @@
   <compo A="Big Star" T="Thirteen" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="406" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Lynyrd Skynyrd" T="Sweet Home Alabama" type="SONG" mergeable="true" del="false">
+  <compo A="Lynyrd Skynyrd" T="Sweet Home Alabama" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="407" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Metallica" T="Enter Sandman" type="SONG" mergeable="true" del="false">
@@ -1465,7 +1465,7 @@
   <compo A="Coldplay" T="Clocks" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="490" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Joan Jett" T="I Love Rock 'n Roll" type="SONG" mergeable="true" del="false">
+  <compo A="Joan Jett" T="I Love Rock 'n Roll" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="491" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Gloria Gaynor" T="I Will Survive" type="SONG" mergeable="true" del="false">

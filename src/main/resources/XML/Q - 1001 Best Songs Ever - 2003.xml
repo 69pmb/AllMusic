@@ -103,7 +103,7 @@
   <compo A="Guns 'N' Roses" T="Paradise City" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="34" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Foo Fighters" T="Monkey Wrench" type="SONG" mergeable="true" del="false">
+  <compo A="Foo Fighters" T="Monkey Wrench" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="35" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="The Chemical Brothers" T="Hey Boy, Hey Girl" type="SONG" mergeable="true" del="false">
@@ -544,7 +544,7 @@
   <compo A="Red Hot Chilli Peppers" T="Under The Bridge" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="181" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="false">
+  <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="182" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Starsailor" T="Good Souls" type="SONG" mergeable="true" del="false">
@@ -784,7 +784,7 @@
   <compo A="Crowded House" T="Distant Sun" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="261" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Jimmy Cliff" T="Many Rivers To Cross" type="SONG" mergeable="true" del="false">
+  <compo A="Jimmy Cliff" T="Many Rivers To Cross" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="262" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Roots Manuva" T="Witness (1 Hope)" type="SONG" mergeable="true" del="false">
@@ -1048,7 +1048,7 @@
   <compo A="Aretha Franklin" T="Never Loved A Man He Way That I Loved You" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="349" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Little Richard" T="Tutti Frutti" type="SONG" mergeable="true" del="false">
+  <compo A="Little Richard" T="Tutti Frutti" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="350" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Cheap Trick" T="I Want You To Want Me" type="SONG" mergeable="true" del="false">
@@ -1117,7 +1117,7 @@
   <compo A="Ry Cooder" T="Vigilante Man" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="7" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Lynyrd Skynyrd" T="Sweet Home Alabama" type="SONG" mergeable="true" del="false">
+  <compo A="Lynyrd Skynyrd" T="Sweet Home Alabama" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="8" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="New York Dolls" T="Personality Crisis" type="SONG" mergeable="true" del="true">
@@ -1516,7 +1516,7 @@
   <compo A="Leftfield" T="Open Up" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="505" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Pj Harvy" T="Rid Of Me" type="SONG" mergeable="true" del="false">
+  <compo A="Pj Harvy" T="Rid Of Me" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="506" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Curtis Mayfield" T="Pusherman" type="SONG" mergeable="true" del="false">
@@ -2110,7 +2110,7 @@
   <compo A="Electric Six" T="Danger, High Voltage" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="703" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Clash" T="Should I Stay Or Should I Go" type="SONG" mergeable="true" del="false">
+  <compo A="The Clash" T="Should I Stay Or Should I Go" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="704" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Massive Attack" T="Teardrop" type="SONG" mergeable="true" del="false">
@@ -2143,13 +2143,13 @@
   <compo A="The Cure" T="Close To Me" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="714" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="715" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Travis" T="Writing To Reach You" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="716" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Pink Floyd" T="Time" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Time" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="717" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Leonard Cohen" T="Suzanne" type="SONG" mergeable="true" del="true">
@@ -2338,7 +2338,7 @@
   <compo A="Stereophonics" T="Just Looking" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="779" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Cure" T="Boys Don't Cry" type="SONG" mergeable="true" del="false">
+  <compo A="The Cure" T="Boys Don't Cry" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="780" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="James Brown" T="It's A Man's Man's Man's World" type="SONG" mergeable="true" del="true">
@@ -2362,7 +2362,7 @@
   <compo A="The Chiffons" T="He's So Fine" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="787" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Radiohead" T="Subterranean Homesick Alien" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Subterranean Homesick Alien" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="788" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Queen" T="Killer Queen" type="SONG" mergeable="true" del="true">
@@ -2902,7 +2902,7 @@
   <compo A="Stiff Little Fingers" T="Alternative Ulster" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="2" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Damned" T="Neat, Neat, Neat" type="SONG" mergeable="true" del="false">
+  <compo A="The Damned" T="Neat, Neat, Neat" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="3" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Richard Hell" T="Love Comes In Spurts" type="SONG" mergeable="true" del="false">

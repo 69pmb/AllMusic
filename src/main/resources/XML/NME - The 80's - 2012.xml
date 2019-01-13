@@ -91,7 +91,7 @@
   <compo A="Pet Shop Boys" T="What Have I Done To Deserve This?" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="30" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="New Order" T="Temptation" type="SONG" mergeable="true" del="false">
+  <compo A="New Order" T="Temptation" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="31" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Stone Roses" T="Made Of Stone" type="SONG" mergeable="true" del="false">
@@ -277,7 +277,7 @@
   <compo A="Fleetwood Mac" T="Everywhere" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="92" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Clash" T="Should I Stay Or Should I Go" type="SONG" mergeable="true" del="false">
+  <compo A="The Clash" T="Should I Stay Or Should I Go" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="93" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Starship" T="Nothings Gonna Stop Us" type="SONG" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="OMD" T="Enola Gay" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="96" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Pixies" T="Where Is My Mind?" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Where Is My Mind?" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="97" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Dead Or Alive" T="You Spin Me Round" type="SONG" mergeable="true" del="true">

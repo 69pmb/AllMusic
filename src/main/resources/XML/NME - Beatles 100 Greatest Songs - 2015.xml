@@ -67,7 +67,7 @@
   <compo A="The Beatles" T="Yesterday" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="22" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Twist And Shout" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Twist And Shout" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="23" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
   <compo A="The Beatles" T="All You Need Is Love" type="SONG" mergeable="true" del="false">
@@ -244,10 +244,10 @@
   <compo A="The Beatles" T="I Need You" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="81" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="You Really Got A Hold On Me" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="You Really Got A Hold On Me" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="82" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Do You Want To Know A Secret?" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Do You Want To Know A Secret?" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="83" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
   <compo A="The Beatles" T="And I Love Her" type="SONG" mergeable="true" del="false">
@@ -259,10 +259,10 @@
   <compo A="The Beatles" T="Honey Pie" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="86" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="A Taste Of Honey" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Taste Of Honey" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="87" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Baby It's You" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Baby It's You" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="88" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
   <compo A="The Beatles" T="Oh! Darling" type="SONG" mergeable="true" del="false">

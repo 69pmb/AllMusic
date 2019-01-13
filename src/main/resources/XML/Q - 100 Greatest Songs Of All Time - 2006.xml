@@ -55,7 +55,7 @@
   <compo A="Sex Pistols" T="God Save The Queen" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="18" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Comfortably Numb" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Comfortably Numb" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="19" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Oasis" T="Don't Look Back In Anger" type="SONG" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="The Stone Roses" T="I Wanna Be Adored" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="32" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Karma Police" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Karma Police" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="33" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Run-DMC And Aerosmith" T="Walk This Way" type="SONG" mergeable="true" del="false">
@@ -172,7 +172,7 @@
   <compo A="The Beatles" T="In My Life" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="57" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="REM" T="Losing My Religion" type="SONG" mergeable="true" del="false">
+  <compo A="REM" T="Losing My Religion" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="58" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Eminem" T="Stan" type="SONG" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="64" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Foo Fighters" T="Monkey Wrench" type="SONG" mergeable="true" del="false">
+  <compo A="Foo Fighters" T="Monkey Wrench" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="65" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Satisfaction" type="SONG" mergeable="true" del="true">

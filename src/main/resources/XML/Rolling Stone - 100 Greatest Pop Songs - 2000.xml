@@ -52,7 +52,7 @@
   <compo A="Stevie Wonder" T="Superstition" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="17" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="18" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Madonna" T="Vogue" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Queen" T="Bohemian Rhapsody" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="29" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elton John" T="Your Song" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Your Song" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="30" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Santana" T="Smooth" type="SONG" mergeable="true" del="false">
