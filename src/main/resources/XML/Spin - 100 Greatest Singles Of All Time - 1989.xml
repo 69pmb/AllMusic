@@ -166,7 +166,7 @@
   <compo A="Bob Seger" T="Night Moves" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="55" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="false">
+  <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="56" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Gladys Knight And The Pips" T="Midnight Train To Memphis" type="SONG" mergeable="true" del="true">
@@ -277,7 +277,7 @@
   <compo A="The Smiths" T="Please Please Please Let Me Get What I Want" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="92" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Please Please Me" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Please Please Me" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="93" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Cure" T="Why Can't I Be You" type="SONG" mergeable="true" del="false">

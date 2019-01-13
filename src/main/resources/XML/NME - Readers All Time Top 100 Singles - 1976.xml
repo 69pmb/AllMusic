@@ -37,7 +37,7 @@
   <compo A="Simon And Garfunkle" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="12" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Moody Blues" T="Nights In White Satin" type="SONG" mergeable="true" del="false">
+  <compo A="Moody Blues" T="Nights In White Satin" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="13" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
@@ -91,7 +91,7 @@
   <compo A="Don Mclean" T="American Pie" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="30" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="false">
+  <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="31" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Who" T="Substitute" type="SONG" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Hawkwind" T="Silver Machine" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="36" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Elton John" T="Your Song" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Your Song" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="37" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Purple Haze" type="SONG" mergeable="true" del="true">

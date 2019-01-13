@@ -106,7 +106,7 @@
   <compo A="Nirvana" T="Smells Like Teen Spirit" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="32" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="false">
+  <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="33" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Don McLean" T="American Pie" type="SONG" mergeable="true" del="true">
@@ -145,7 +145,7 @@
   <compo A="The Kinks" T="You Really Got Me" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="45" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="46" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Doors" T="Light My Fire" type="SONG" mergeable="true" del="false">
@@ -295,7 +295,7 @@
   <compo A="Sex Pistols" T="Pretty Vacant" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="92" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Moody Blues" T="Nights In White Satin" type="SONG" mergeable="true" del="false">
+  <compo A="The Moody Blues" T="Nights In White Satin" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="93" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="false">

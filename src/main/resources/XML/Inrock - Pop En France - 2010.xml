@@ -88,7 +88,7 @@
   <compo A="Emilie Simon" T="Chanson De Toile" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Pop En France - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="14" creation="16/10/2018 14:58:07" size="30"/>
   </compo>
-  <compo A="Phoenix" T="Lisztomania" type="SONG" mergeable="true" del="false">
+  <compo A="Phoenix" T="Lisztomania" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Pop En France - 2010" publish="2010" cat="GENRE" rangeB="0" rangeE="2010" sorted="false" rank="15" creation="16/10/2018 14:58:07" size="30"/>
   </compo>
 </ListCompositions>

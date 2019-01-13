@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Elvis Presley" T="That's All Right" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="That's All Right" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Songs That Changed The World - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="1" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Beatles" T="I Wanna Hold Your Hand" type="SONG" mergeable="true" del="true">
@@ -298,7 +298,7 @@
   <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Songs That Changed The World - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="99" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Little Richard" T="Tutti Frutti" type="SONG" mergeable="true" del="false">
+  <compo A="Little Richard" T="Tutti Frutti" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Songs That Changed The World - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="100" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
 </ListCompositions>

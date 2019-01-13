@@ -109,7 +109,7 @@
   <compo A="Pink Floyd" T="Interstellar Overdrive" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="36" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="That's All Right" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="That's All Right" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="37" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Faces" T="Stay With Me" type="SONG" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Bb King" T="Thrill Is Gone" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="68" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Money" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Money" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="69" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Smashing Pumpkins" T="Bullet With Butterfly Wings" type="SONG" mergeable="true" del="false">
@@ -265,7 +265,7 @@
   <compo A="Quicksilver Messenger Service" T="Mona" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="88" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Joan Jett" T="I Love Rock 'n Roll" type="SONG" mergeable="true" del="false">
+  <compo A="Joan Jett" T="I Love Rock 'n Roll" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="89" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Smiths" T="How Soon Is Now?" type="SONG" mergeable="true" del="true">

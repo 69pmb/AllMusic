@@ -13,7 +13,7 @@
   <compo A="Haim" T="Forever" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Plan B" T="Ill Manors" type="SONG" mergeable="true" del="false">
+  <compo A="Plan B" T="Ill Manors" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Grimes" T="Oblivion" type="SONG" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Jake Bugg" T="Lightning Bolt" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Bat For Lashes" T="Laura" type="SONG" mergeable="true" del="false">
+  <compo A="Bat For Lashes" T="Laura" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Tame Impala" T="Elephant" type="SONG" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <compo A="Jack White" T="Sixteen Saltines" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Frank Ocean" T="Pyramids" type="SONG" mergeable="true" del="false">
+  <compo A="Frank Ocean" T="Pyramids" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Peace" T="California Daze" type="SONG" mergeable="true" del="false">
@@ -49,10 +49,10 @@
   <compo A="Grimes" T="Genesis" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Cribs" T="Come On, Be A No One" type="SONG" mergeable="true" del="false">
+  <compo A="The Cribs" T="Come On, Be A No One" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="17" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Arctic Monkeys" T="R U Mine" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="R U Mine" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="18" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Solange" T="Losing You" type="SONG" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Pond" T="You Broke My Cool" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="25" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Cribs" T="Chi-Town" type="SONG" mergeable="true" del="false">
+  <compo A="The Cribs" T="Chi-Town" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="26" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Cat Power" T="Ruin" type="SONG" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="Burns" T="Lies" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="33" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Jai Paul" T="Jasmine" type="SONG" mergeable="true" del="false">
+  <compo A="Jai Paul" T="Jasmine" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="34" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="King Krule" T="Rock Bottom" type="SONG" mergeable="true" del="false">
@@ -136,16 +136,16 @@
   <compo A="Zebra Katz" T="Ima Read" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="45" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Frank Ocean" T="Forest Gump" type="SONG" mergeable="true" del="false">
+  <compo A="Frank Ocean" T="Forest Gump" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="46" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Peace" T="Follow Baby" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="47" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Major Lazer" T="Get Free" type="SONG" mergeable="true" del="false">
+  <compo A="Major Lazer" T="Get Free" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="48" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Kendrick Lamar" T="Backseat Freestyle" type="SONG" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="Backseat Freestyle" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="49" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Psycho" T="Gangham Styleeeee" type="SONG" mergeable="true" del="false">

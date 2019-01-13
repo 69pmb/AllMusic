@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="REM" T="Losing My Religion" type="SONG" mergeable="true" del="false">
+  <compo A="REM" T="Losing My Religion" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Best songs of 90's - 2014" publish="2014" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="1" creation="07/09/2018 13:55:35" size="33"/>
   </compo>
   <compo A="PULP" T="Common People" type="SONG" mergeable="true" del="true">
@@ -55,7 +55,7 @@
   <compo A="BLUR" T="Parklife" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Best songs of 90's - 2014" publish="2014" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="18" creation="07/09/2018 13:55:35" size="33"/>
   </compo>
-  <compo A="PJ HARVEY" T="Rid Of Me" type="SONG" mergeable="true" del="false">
+  <compo A="PJ HARVEY" T="Rid Of Me" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Best songs of 90's - 2014" publish="2014" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="19" creation="07/09/2018 13:55:35" size="33"/>
   </compo>
   <compo A="McALMONT And BUTLER" T="Yes" type="SONG" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="SUEDE" T="Stay Together" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Best songs of 90's - 2014" publish="2014" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="27" creation="07/09/2018 13:55:35" size="33"/>
   </compo>
-  <compo A="Radiohead" T="No Surprises" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="No Surprises" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Best songs of 90's - 2014" publish="2014" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="28" creation="07/09/2018 13:55:35" size="33"/>
   </compo>
   <compo A="LIZ PHAIR" T="Fuck And Run" type="SONG" mergeable="true" del="true">
