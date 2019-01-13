@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Daft Punk" T="Get Lucky" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Get Lucky" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Arcade Fire" T="Reflector" type="SONG" mergeable="true" del="true">
@@ -22,13 +22,13 @@
   <compo A="Pond" T="Xanman" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="7" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Foals" T="My Number" type="SONG" mergeable="true" del="false">
+  <compo A="Foals" T="My Number" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="8" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Lorde" T="Royals" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="9" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Kanye West" T="Black Skinhead" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Black Skinhead" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="10" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Merchandise" T="Anxiety's Door" type="SONG" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="Haim" T="Falling" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="13" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Where Are We Now" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Where Are We Now" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="14" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Drenge" T="Bloodsports" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Arctic Monkeys" T="I Wanna Be Yours" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="29" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Chvrches" T="Recover" type="SONG" mergeable="true" del="false">
+  <compo A="Chvrches" T="Recover" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="30" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Vampire Weekend" T="Diane Young" type="SONG" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="Factory Floor" T="Fall Back" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="33" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Phoenix" T="Entertainment" type="SONG" mergeable="true" del="false">
+  <compo A="Phoenix" T="Entertainment" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="34" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Wolf Alice" T="Fluffy" type="SONG" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Kanye West" T="New Slaves" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="36" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Foals" T="Bad Habbit" type="SONG" mergeable="true" del="false">
+  <compo A="Foals" T="Bad Habbit" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="37" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="MIA" T="Bring The Noise" type="SONG" mergeable="true" del="false">
@@ -136,7 +136,7 @@
   <compo A="Chance The Ripper" T="Juice" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="45" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="James Blake" T="Retrograde" type="SONG" mergeable="true" del="false">
+  <compo A="James Blake" T="Retrograde" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="46" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="The Cribs" T="Leather Jacket Love Song" type="SONG" mergeable="true" del="false">

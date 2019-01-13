@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Daft Punk" T="Get Lucky" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Get Lucky" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Arcade Fire" T="Reflektor" type="SONG" mergeable="true" del="true">
@@ -10,10 +10,10 @@
   <compo A="Fauve" T="Haut les coeurs/ Rag #2" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="3" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Kanye West" T="Black Skinhead" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Black Skinhead" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="4" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Where Are We Now?" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Where Are We Now?" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="5" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Asgeir" T="Going Home" type="SONG" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="London Grammar" T="Wasting My Young Years" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="9" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Major Lazer" T="Get Free" type="SONG" mergeable="true" del="false">
+  <compo A="Major Lazer" T="Get Free" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="10" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="The Child of Lov" T="Fly" type="SONG" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <compo A="Vampire Weekend" T="Diane Young" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="30" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Chvrches" T="Recover" type="SONG" mergeable="true" del="false">
+  <compo A="Chvrches" T="Recover" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="31" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Lana Del Rey" T="Young And Beautiful" type="SONG" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="Palma Violets" T="Best Of Friends" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="37" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Phoenix" T="Entertainment" type="SONG" mergeable="true" del="false">
+  <compo A="Phoenix" T="Entertainment" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="38" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="No Ceremony///" T="PARTOFME" type="SONG" mergeable="true" del="false">

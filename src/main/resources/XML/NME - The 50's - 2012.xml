@@ -10,7 +10,7 @@
   <compo A="Jerry Lee Lewis" T="Great Balls of Fire" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="3" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Little Richard" T="Tutti Frutti" type="SONG" mergeable="true" del="false">
+  <compo A="Little Richard" T="Tutti Frutti" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="4" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Howlin' Wolf" T="Smokestack Lightnin" type="SONG" mergeable="true" del="true">
@@ -100,7 +100,7 @@
   <compo A="Little Richard" T="Long Tall Sally" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="33" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="Thats All Right Mama" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Thats All Right Mama" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="34" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Link Wray" T="Rumble" type="SONG" mergeable="true" del="false">

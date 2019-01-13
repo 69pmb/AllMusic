@@ -202,7 +202,7 @@
   <compo A="Moby" T="Go" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="134" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="Pearl Jam" T="Yellow Ledbetter" type="SONG" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Yellow Ledbetter" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="133" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="Ice Cube" T="Wicked" type="SONG" mergeable="true" del="false">
@@ -460,7 +460,7 @@
   <compo A="Foo Fighters" T="Everlong" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="48" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="PJ Harvey" T="Rid of Me" type="SONG" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Rid of Me" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="47" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="Stardust" T="Music Sounds Better With You" type="SONG" mergeable="true" del="false">
@@ -556,7 +556,7 @@
   <compo A="OutKast" T="SpottieOttieDopaliscious" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="16" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="Depeche Mode" T="Enjoy the Silence" type="SONG" mergeable="true" del="false">
+  <compo A="Depeche Mode" T="Enjoy the Silence" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="15" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="The Notorious B.I.G." T="Juicy" type="SONG" mergeable="true" del="false">

@@ -40,7 +40,7 @@
   <compo A="Simon And Garfunkel" T="The Sound Of Silence" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="13" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
-  <compo A="The Mamas And The Papas" T="California Dreamin'" type="SONG" mergeable="true" del="false">
+  <compo A="The Mamas And The Papas" T="California Dreamin'" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="14" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
   <compo A="The Who" T="Substitute" type="SONG" mergeable="true" del="false">

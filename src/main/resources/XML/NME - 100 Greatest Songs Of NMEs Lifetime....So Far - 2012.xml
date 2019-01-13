@@ -46,7 +46,7 @@
   <compo A="The Beatles" T="A Day In The Life" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Songs Of NMEs Lifetime....So Far - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="true" rank="15" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Cure" T="Boys Don't Cry" type="SONG" mergeable="true" del="false">
+  <compo A="The Cure" T="Boys Don't Cry" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Songs Of NMEs Lifetime....So Far - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="true" rank="16" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
@@ -160,7 +160,7 @@
   <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Songs Of NMEs Lifetime....So Far - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="true" rank="53" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Songs Of NMEs Lifetime....So Far - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="true" rank="54" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Velvet Underground" T="I'm Waiting For The Man" type="SONG" mergeable="true" del="false">
