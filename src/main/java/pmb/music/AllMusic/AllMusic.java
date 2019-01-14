@@ -1,6 +1,7 @@
 package pmb.music.AllMusic;
 
 import java.awt.EventQueue;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Optional;
 
@@ -11,6 +12,10 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.XML.ExportXML;
+import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.XML.NgExportXml;
+import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.BasicFrame;
@@ -44,6 +49,13 @@ public class AllMusic {
 		});
 		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
 			LOG.debug("Fin de AllMusic");
+			if (ExportXML.isFinalFileChanged()) {
+				try {
+					NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
+				} catch (IOException e) {
+					LOG.error("Export of final file for Angular failed", e);
+				}
+			}
 			Optional<String> savedLogFile = FichierUtils.saveLogFileIfNotEmpty();
 			if (savedLogFile.isPresent()) {
 				try {
