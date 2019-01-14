@@ -29,6 +29,7 @@ import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.GetProperties;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.BasicFrame;
+import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
 /**
  * Classe pour le menu de l'application.
@@ -187,18 +188,31 @@ public class MenuPanel extends JPanel {
 		final JMenuItem export = new JMenuItem("Exporter le fichier final");
 		export.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
 		export.addActionListener((ActionEvent ae) -> {
-			try {
-				NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
-			} catch (IOException e) {
-				LOG.error("Export of final file for Angular failed", e);
-			}
+			new Thread(() -> {
+				try {
+					NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
+					JOptionPane.showMessageDialog(null, "Final File successfully exported.", "",
+							JOptionPane.INFORMATION_MESSAGE);
+				} catch (IOException e) {
+					LOG.error("Export of final file for Angular failed", e);
+					ExceptionDialog exceptionDialog = new ExceptionDialog("Export of final file for Angular failed", e.getMessage(), e);
+					exceptionDialog.setVisible(true);
+				}
+			}).start();
 		});
 		edition.add(export);
 
 		final JMenuItem reloadProperties = new JMenuItem("Recharger le fichier de configuration");
 		reloadProperties.setAccelerator(
 				KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		reloadProperties.addActionListener((ActionEvent ae) -> GetProperties.reloadProperties());
+		reloadProperties.addActionListener((ActionEvent ae) -> {
+			if (GetProperties.reloadProperties()) {
+				JOptionPane.showMessageDialog(null, "Properties successfully reloaded.", "",
+						JOptionPane.INFORMATION_MESSAGE);
+			} else {
+				JOptionPane.showMessageDialog(null, "Error when reloading properties.", "", JOptionPane.ERROR_MESSAGE);
+			}
+		});
 		edition.add(reloadProperties);
 
 		return edition;
