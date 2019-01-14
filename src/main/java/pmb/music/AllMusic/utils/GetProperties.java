@@ -35,11 +35,9 @@ public class GetProperties {
 		LOG.debug("End GetProperties");
 	}
 
-	public static void reloadProperties() {
+	public static boolean reloadProperties() {
 		new GetProperties();
-		if (prop == null) {
-			LOG.error("GetProperties returns null");
-		}
+		return prop == null ? false : true;
 	}
 
 	/**
