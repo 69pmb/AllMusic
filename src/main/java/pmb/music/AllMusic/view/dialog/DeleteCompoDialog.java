@@ -95,16 +95,15 @@ public class DeleteCompoDialog extends JDialog {
 		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 
 		// Csv compo
-		JPanel compoCsvPanel = new JPanel(new BorderLayout());
+		JPanel compoCsvPanel = new JPanel();
+		compoCsvPanel.setLayout(new BoxLayout(compoCsvPanel, BoxLayout.Y_AXIS));
 		compoCsv = initJTextPaneComponent(panel, new Color(21, 77, 153), 20);
-		compoCsvPanel.add(new JScrollPane(compoCsv), BorderLayout.CENTER);
-		panel.add(compoCsvPanel);
+		compoCsvPanel.add(compoCsv);
 
 		// Warning
-		JPanel warningPanel = new JPanel(new BorderLayout());
 		warning = initJTextPaneComponent(panel, new Color(255, 67, 67), 30);
-		warningPanel.add(new JScrollPane(warning), BorderLayout.CENTER);
-		panel.add(warningPanel);
+		compoCsvPanel.add(warning);
+		panel.add(new JScrollPane(compoCsvPanel));
 
 		// Files found
 		filesFound = new JTable();
