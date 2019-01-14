@@ -385,7 +385,7 @@
   <compo A="Chuck Berry" T="Rock And Roll Music" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="129" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Steppenwolf" T="Born to Be Wild" type="SONG" mergeable="true" del="false">
+  <compo A="Steppenwolf" T="Born to Be Wild" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="130" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
@@ -811,7 +811,7 @@
   <compo A="New York Dolls" T="Personality Crisis" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="271" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="U2" T="Sunday Bloody Sunday" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Sunday Bloody Sunday" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="272" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="true">
@@ -1138,7 +1138,7 @@
   <compo A="The Who" T="I Can't Explain" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="380" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="381" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Sam Cooke" T="Wonderful World" type="SONG" mergeable="true" del="false">
@@ -1567,7 +1567,7 @@
   <compo A="Brook Benton" T="Rainy Night in Georgia" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="498" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Thin Lizzy" T="The Boys Are Back in Town" type="SONG" mergeable="true" del="false">
+  <compo A="Thin Lizzy" T="The Boys Are Back in Town" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="499" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Boston" T="More Than a Feeling" type="SONG" mergeable="true" del="false">

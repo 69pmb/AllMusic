@@ -25,7 +25,7 @@
   <compo A="The Allman Brothers Band" T="Whipping Post" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="8" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Animals" T="The House of the Rising Sun" type="SONG" mergeable="true" del="false">
+  <compo A="The Animals" T="The House of the Rising Sun" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="9" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Animals" T="We Gotta Get Out of This Place" type="SONG" mergeable="true" del="false">
@@ -1264,7 +1264,7 @@
   <compo A="Steely Dan" T="Reelin' in the Years" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="421" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Steppenwolf" T="Born to Be Wild" type="SONG" mergeable="true" del="false">
+  <compo A="Steppenwolf" T="Born to Be Wild" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="422" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
@@ -1366,7 +1366,7 @@
   <compo A="U2" T="Pride (In the Name of Love)" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="455" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="U2" T="Sunday Bloody Sunday" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Sunday Bloody Sunday" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="456" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Ritchie Valens" T="La Bamba" type="SONG" mergeable="true" del="false">

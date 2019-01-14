@@ -91,7 +91,7 @@
   <compo A="Al Green" T="Lets Stay Together" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="30" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="31" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Black Sabbath" T="Paranoid" type="SONG" mergeable="true" del="true">
@@ -157,7 +157,7 @@
   <compo A="Queen" T="Bohemian Rhapsody" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="52" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Thin Lizzy" T="The Boys Are Back in Town" type="SONG" mergeable="true" del="false">
+  <compo A="Thin Lizzy" T="The Boys Are Back in Town" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="53" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Elton John" T="Tiny Dancer" type="SONG" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="New York Dolls" T="Personality Crisis" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="78" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Jam" T="The Eton Rifles" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="The Eton Rifles" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="79" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Blondie" T="One Way Or Another" type="SONG" mergeable="true" del="true">

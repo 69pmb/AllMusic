@@ -19,7 +19,7 @@
   <compo A="Bat For Lashes" T="Laura" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Tame Impala" T="Feels Like We Only Go Backwards" type="SONG" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Feels Like We Only Go Backwards" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Beach House" T="Myth" type="SONG" mergeable="true" del="false">
@@ -46,7 +46,7 @@
   <compo A="Andy Stott" T="Numb" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="15" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Solange" T="Losing You" type="SONG" mergeable="true" del="false">
+  <compo A="Solange" T="Losing You" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Chairlift" T="I Belong In Your Arms" type="SONG" mergeable="true" del="true">
@@ -160,7 +160,7 @@
   <compo A="Rhye" T="The Fall" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="53" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Savages" T="Husbands" type="SONG" mergeable="true" del="false">
+  <compo A="Savages" T="Husbands" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="54" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Miguel" T="Do You..." type="SONG" mergeable="true" del="false">
@@ -244,7 +244,7 @@
   <compo A="Liars" T="No. 1 Against The Rush" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="81" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Schoolboy Q" T="There He Go" type="SONG" mergeable="true" del="false">
+  <compo A="Schoolboy Q" T="There He Go" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="82" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="How To Dress Well" T="Cold Nites" type="SONG" mergeable="true" del="false">

@@ -28,7 +28,7 @@
   <compo A="Tame Impala" T="Elephant" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Savages" T="Husbands" type="SONG" mergeable="true" del="false">
+  <compo A="Savages" T="Husbands" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Jack White" T="Sixteen Saltines" type="SONG" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="Arctic Monkeys" T="R U Mine" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="18" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Solange" T="Losing You" type="SONG" mergeable="true" del="false">
+  <compo A="Solange" T="Losing You" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="19" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Carly Rae Jepsen" T="Call Me Maybe" type="SONG" mergeable="true" del="true">
@@ -106,7 +106,7 @@
   <compo A="King Krule" T="Rock Bottom" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="35" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Vaccines" T="Teenage Icon" type="SONG" mergeable="true" del="false">
+  <compo A="The Vaccines" T="Teenage Icon" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="36" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Mosca And Katy B" T="What You Came For" type="SONG" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Good Music" T="Mercy" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="39" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Tame Impala" T="Feels Like We Only Go Backwards" type="SONG" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Feels Like We Only Go Backwards" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="40" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Django Django" T="Default" type="SONG" mergeable="true" del="false">
