@@ -115,7 +115,7 @@
   <compo A="Jimi Hendrix" T="Purple Haze" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="38" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Beach Boys" T="I Get Around" type="SONG" mergeable="true" del="false">
+  <compo A="Beach Boys" T="I Get Around" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="39" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="David Bowie" T="Life On Mars" type="SONG" mergeable="true" del="true">
@@ -286,7 +286,7 @@
   <compo A="Stevie Wonder" T="Superstition" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="95" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Steppenwolf" T="Born To Be Wild" type="SONG" mergeable="true" del="false">
+  <compo A="Steppenwolf" T="Born To Be Wild" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="96" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Plastic Ono Band" T="Cold Turkey" type="SONG" mergeable="true" del="false">

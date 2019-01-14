@@ -622,7 +622,7 @@
   <compo A="Terry Riley" T="In C" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="207" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="The Animal" T="The House of the Rising Sun" type="SONG" mergeable="true" del="false">
+  <compo A="The Animal" T="The House of the Rising Sun" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="208" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="The B-52's" T="Give Me Back My Man" type="SONG" mergeable="true" del="false">
@@ -745,7 +745,7 @@
   <compo A="The Zombies" T="A Rose for Emily" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="248" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Thin Lizzy" T="The Boys Are Back in Town" type="SONG" mergeable="true" del="false">
+  <compo A="Thin Lizzy" T="The Boys Are Back in Town" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="249" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Three 6 Mafia" T="Stay Fly" type="SONG" mergeable="true" del="false">
@@ -2782,7 +2782,7 @@
   <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="927" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="928" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Otis Redding" T="(Sittin' On) The Dock Of The Bay" type="SONG" mergeable="true" del="true">

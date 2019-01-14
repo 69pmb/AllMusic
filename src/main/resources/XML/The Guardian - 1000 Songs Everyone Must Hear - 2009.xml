@@ -1237,7 +1237,7 @@
   <compo A="Simon And Garfunkel" T="Homeward Bound" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="412" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Simon And Garfunkel" T="Mrs Robinson" type="SONG" mergeable="true" del="false">
+  <compo A="Simon And Garfunkel" T="Mrs Robinson" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="413" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Frank Sinatra" T="(Theme From) New York, New York" type="SONG" mergeable="true" del="false">
@@ -1255,7 +1255,7 @@
   <compo A="Stanley Brothers" T="Rank Strangers" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="418" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Steppenwolf" T="Born To Be Wild" type="SONG" mergeable="true" del="false">
+  <compo A="Steppenwolf" T="Born To Be Wild" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="419" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Thin Lizzy" T="Boys Are Back In Town" type="SONG" mergeable="true" del="false">
@@ -2065,7 +2065,7 @@
   <compo A="2Pac" T="Keep Ya Head Up" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="688" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="U2" T="Sunday Bloody Sunday" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Sunday Bloody Sunday" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="689" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="USA For Africa" T="We Are The World" type="SONG" mergeable="true" del="false">
@@ -2449,7 +2449,7 @@
   <compo A="U2" T="One" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="816" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Velvet Underground" T="Jesus" type="SONG" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="Jesus" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="817" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Loudon Wainwright III" T="Rufus Is A Tit Man" type="SONG" mergeable="true" del="false">

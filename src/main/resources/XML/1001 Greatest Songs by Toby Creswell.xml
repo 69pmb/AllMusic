@@ -580,7 +580,7 @@
   <compo A="Julie London" T="Cry Me A River" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="255" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="The Rolling Stones" T="Happy" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Happy" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="257" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Jackie Brenston" T="Rocket 88" type="SONG" mergeable="true" del="false">
@@ -2296,7 +2296,7 @@
   <compo A="Quicksilver Messenger Service" T="Who Do You Love?" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="999" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="1000" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Maria Muldaur" T="Midnight At The Oasis" type="SONG" mergeable="true" del="false">
