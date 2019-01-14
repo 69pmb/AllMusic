@@ -26,6 +26,7 @@ import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.XML.NgExportXml;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.GetProperties;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.BasicFrame;
 
@@ -71,7 +72,27 @@ public class MenuPanel extends JPanel {
 		LOG.debug("Start menuBar");
 		final JMenuBar menuBar = new JMenuBar();
 
-		// Fichier
+		final JMenu fichier = fichierMenu();
+
+		// Edition
+		final JMenu edition = edititonMenu();
+
+		// Affichage
+		final JMenu aff = affichageMenu();
+
+		// Aide
+		final JMenu aide = helpMenu();
+
+		menuBar.add(fichier);
+		menuBar.add(edition);
+		menuBar.add(aff);
+		menuBar.add(aide);
+
+		LOG.debug("End menuBar");
+		return menuBar;
+	}
+
+	private JMenu fichierMenu() {
 		final JMenu fichier = new JMenu("Fichier");
 		fichier.setMnemonic(KeyEvent.VK_F);
 
@@ -155,8 +176,10 @@ public class MenuPanel extends JPanel {
 				// Nothing to do
 			}
 		});
+		return fichier;
+	}
 
-		// Edition
+	private JMenu edititonMenu() {
 		final JMenu edition = new JMenu("Edition");
 		edition.setMnemonic(KeyEvent.VK_E);
 
@@ -171,21 +194,16 @@ public class MenuPanel extends JPanel {
 		});
 		edition.add(export);
 
-		final JMenuItem remove = new JMenuItem("Supprimer les lignes sélectionnées");
-		remove.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		edition.add(remove);
+		final JMenuItem reloadProperties = new JMenuItem("Recharger le fichier de configuration");
+		reloadProperties.setAccelerator(
+				KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
+		reloadProperties.addActionListener((ActionEvent ae) -> GetProperties.reloadProperties());
+		edition.add(reloadProperties);
 
-		final JMenuItem addGroupe = new JMenuItem("Ajouter un groupe à des sorties");
-		addGroupe.setAccelerator(
-				KeyStroke.getKeyStroke(KeyEvent.VK_A, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		edition.add(addGroupe);
+		return edition;
+	}
 
-		final JMenuItem removeGroupe = new JMenuItem("Supprimer tous les groupes des sorties sélectionnées");
-		removeGroupe.setAccelerator(
-				KeyStroke.getKeyStroke(KeyEvent.VK_W, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		edition.add(removeGroupe);
-
-		// Affichage
+	private JMenu affichageMenu() {
 		final JMenu aff = new JMenu("Affichage");
 		aff.setMnemonic(KeyEvent.VK_A);
 		Arrays.stream(UIManager.getInstalledLookAndFeels()).forEach(laf -> {
@@ -211,8 +229,10 @@ public class MenuPanel extends JPanel {
 				}
 			});
 		});
+		return aff;
+	}
 
-		// Aide
+	private JMenu helpMenu() {
 		final JMenu aide = new JMenu("Aide");
 		aide.setMnemonic(KeyEvent.VK_H);
 		final JMenuItem help = new JMenuItem("?");
@@ -222,14 +242,7 @@ public class MenuPanel extends JPanel {
 						+ "Il a été developpé de janvier 2017 à septembre 2018.",
 				"HELP", JOptionPane.INFORMATION_MESSAGE));
 		aide.add(help);
-
-		menuBar.add(fichier);
-		menuBar.add(edition);
-		menuBar.add(aff);
-		menuBar.add(aide);
-
-		LOG.debug("End menuBar");
-		return menuBar;
+		return aide;
 	}
 
 	public BasicFrame getMyFrame() {
