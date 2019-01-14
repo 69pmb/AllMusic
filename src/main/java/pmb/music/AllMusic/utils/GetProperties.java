@@ -36,6 +36,13 @@ public class GetProperties {
 		LOG.debug("End GetProperties");
 	}
 
+	public static void reloadProperties() {
+		new GetProperties();
+		if (prop == null) {
+			LOG.error("GetProperties returns null");
+		}
+	}
+
 	/**
 	 * Récupère une donnée du fichier properties.
 	 * 
