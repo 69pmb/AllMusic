@@ -850,7 +850,7 @@
   <compo A="Bruce Springsteen" T="The River" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="283" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Weezer" T="Weezer [&quot;The Blue Album&quot;]" type="ALBUM" mergeable="true" del="false">
+  <compo A="Weezer" T="The Blue Album" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="284" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="George Harrison" T="All Things Must Pass" type="ALBUM" mergeable="true" del="false">
@@ -7279,7 +7279,7 @@
   <compo A="The Go-Betweens" T="Before Hollywood" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2426" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Weezer" T="Weezer [&quot;The Green Album&quot;]" type="ALBUM" mergeable="false" del="false">
+  <compo A="Weezer" T="The Green Album" type="ALBUM" mergeable="false" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2427" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Everly Brothers" T="Songs Our Daddy Taught Us" type="ALBUM" mergeable="true" del="false">
