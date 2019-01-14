@@ -42,6 +42,8 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
+import com.opencsv.bean.CsvBindByName;
+
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CleanFile;
@@ -58,8 +60,6 @@ import pmb.music.AllMusic.view.dialog.DeleteCompoDialog;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
-
-import com.opencsv.bean.CsvBindByName;
 
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
@@ -533,7 +533,7 @@ public class BatchUtils {
 	 */
 	private static void massDeletionForSongs(StringBuilder text, List<CsvComposition> compoCsv,
 			List<Composition> importXML) {
-		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, compoCsv.size(), 800);
+		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, compoCsv.size(), 900);
 		for (int i = 0; i < compoCsv.size(); i++) {
 			// Search composition
 			CsvComposition compoToDelete = compoCsv.get(i);
@@ -663,7 +663,7 @@ public class BatchUtils {
 				.sorted(Comparator.comparing(CsvComposition::getAlbum).thenComparing(compareByTrackNumber.reversed()))
 				.map(CsvComposition::getAlbum).filter(s -> StringUtils.isNotBlank(s)).distinct()
 				.collect(Collectors.toList());
-		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, albumList.size(), 800);
+		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, albumList.size(), 900);
 		for (int i = 0; i < albumList.size(); i++) {
 			String album = albumList.get(i);
 			List<CsvComposition> compoAlbum = compoCsv.stream().filter(csv -> csv.getAlbum().equals(album))
