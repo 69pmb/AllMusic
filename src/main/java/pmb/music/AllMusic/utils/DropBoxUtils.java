@@ -219,7 +219,7 @@ public class DropBoxUtils {
 	 * @throws MyException
 	 */
 	public static FileMetadata uploadFile(File pathFile, String pathDropBox, WriteMode mode) throws MyException {
-		LOG.debug("Start modifyFile");
+		LOG.debug("Start uploadFile");
 		FileMetadata metadata = null;
 		String dropBoxPath = "/" + pathDropBox;
 		WriteMode writeMode = mode;
@@ -232,7 +232,7 @@ public class DropBoxUtils {
 			throw new MyException(
 					"Erreur lors de l'upload du fichier: " + pathFile + " dans le dossier: " + dropBoxPath, e);
 		}
-		LOG.debug("End modifyFile");
+		LOG.debug("End uploadFile");
 		return metadata;
 	}
 }

@@ -30,6 +30,8 @@ public class ExportXML {
 
 	private static final Logger LOG = Logger.getLogger(ExportXML.class);
 
+	private static boolean finalFileChanged = false;
+
 	private ExportXML() {
 	}
 
@@ -48,7 +50,7 @@ public class ExportXML {
 
 		// Export file in Dropbox if final file
 		if (Constant.getFinalFile().equals(fileName)) {
-			NgExportXml.ngExportXml(compList, Constant.getFinalFile());
+			finalFileChanged = true;
 		}
 
 		for (int i = 0; i < compList.size(); i++) {
@@ -122,5 +124,9 @@ public class ExportXML {
 		xmlOut.write(doc);
 		xmlOut.close();
 		LOG.debug("End saveFile");
+	}
+
+	public static boolean isFinalFileChanged() {
+		return finalFileChanged;
 	}
 }
