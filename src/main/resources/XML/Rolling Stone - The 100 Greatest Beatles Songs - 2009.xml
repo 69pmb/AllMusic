@@ -31,13 +31,13 @@
   <compo A="The Beatles" T="I Am The Walrus" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="10" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Norwegian Wood (This Bird Has Flown)" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Norwegian Wood (This Bird Has Flown)" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="11" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="Something" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="12" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Nowhere Man" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Nowhere Man" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="13" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="The Long And Winding Road" type="SONG" mergeable="true" del="true">
@@ -133,7 +133,7 @@
   <compo A="The Beatles" T="Because" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="44" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="I Saw Her Standing There" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="I Saw Her Standing There" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="45" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="I've Just Seen A Face" type="SONG" mergeable="true" del="true">
@@ -184,7 +184,7 @@
   <compo A="The Beatles" T="Cry Baby Cry" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="61" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Drive My Car" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Drive My Car" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="62" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="And Your Bird Can Sing" type="SONG" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="The Beatles" T="From Me To You" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="78" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Michelle" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Michelle" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="79" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="Why Don't We Do It In The Road?" type="SONG" mergeable="true" del="false">
@@ -259,10 +259,10 @@
   <compo A="The Beatles" T="Get Back" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="86" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Word" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Word" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="87" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="You Won't See Me" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="You Won't See Me" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="88" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="When I'm Sixty-Four" type="SONG" mergeable="true" del="false">
@@ -283,7 +283,7 @@
   <compo A="The Beatles" T="Love Me Do" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="94" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Wait" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Wait" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Beatles Songs - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="true" rank="95" creation="07/09/2018 13:25:37" size="100"/>
   </compo>
   <compo A="The Beatles" T="Honey Pie" type="SONG" mergeable="true" del="false">

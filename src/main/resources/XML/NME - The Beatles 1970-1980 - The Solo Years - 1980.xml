@@ -61,7 +61,7 @@
   <compo A="Paul Mccartney" T="Single Pigeon" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The Beatles 1970-1980 - The Solo Years - 1980" publish="1980" cat="THEME" rangeB="1970" rangeE="1980" sorted="true" rank="10" creation="02/07/2017 07:08:56" size="10"/>
   </compo>
-  <compo A="George Harrison" T="What Is Life" type="SONG" mergeable="true" del="false">
+  <compo A="George Harrison" T="What Is Life" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The Beatles 1970-1980 - The Solo Years - 1980" publish="1980" cat="THEME" rangeB="1970" rangeE="1980" sorted="true" rank="1" creation="02/07/2017 07:08:56" size="10"/>
   </compo>
   <compo A="George Harrison" T="Bangle Dash" type="SONG" mergeable="true" del="false">

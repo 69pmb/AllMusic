@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Grimes" T="Oblivion" type="SONG" mergeable="true" del="false">
+  <compo A="Grimes" T="Oblivion" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Frank Ocean" T="Pyramids" type="SONG" mergeable="true" del="true">
@@ -10,10 +10,10 @@
   <compo A="Usher" T="Climax" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Kendrick Lamar" T="Bitch Don't Kill My Vibe" type="SONG" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="Bitch Don't Kill My Vibe" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Japandroids" T="The House That Heaven Built" type="SONG" mergeable="true" del="false">
+  <compo A="Japandroids" T="The House That Heaven Built" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Bat For Lashes" T="Laura" type="SONG" mergeable="true" del="true">
@@ -22,7 +22,7 @@
   <compo A="Tame Impala" T="Feels Like We Only Go Backwards" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Beach House" T="Myth" type="SONG" mergeable="true" del="false">
+  <compo A="Beach House" T="Myth" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Fiona Apple" T="Werewolf" type="SONG" mergeable="true" del="true">
@@ -37,7 +37,7 @@
   <compo A="Miguel" T="Adorn" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Chromatics" T="Kill For Love" type="SONG" mergeable="true" del="false">
+  <compo A="Chromatics" T="Kill For Love" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="M.I.A." T="Bad Girls" type="SONG" mergeable="true" del="true">
@@ -61,10 +61,10 @@
   <compo A="Kendrick Lamar" T="Swimming Pools (Drank)" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Jessie Ware" T="Wildest Moments" type="SONG" mergeable="true" del="false">
+  <compo A="Jessie Ware" T="Wildest Moments" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="21" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Death Grips" T="I've Seen Footage" type="SONG" mergeable="true" del="false">
+  <compo A="Death Grips" T="I've Seen Footage" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="22" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Dirty Projectors" T="Dance For You" type="SONG" mergeable="true" del="true">
@@ -73,13 +73,13 @@
   <compo A="Chief Keef" T="I Don't Like" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="24" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Grimes" T="Genesis" type="SONG" mergeable="true" del="false">
+  <compo A="Grimes" T="Genesis" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="25" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="TNGHT" T="Higher Ground" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="26" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Grizzly Bear" T="Yet Again" type="SONG" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Yet Again" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="27" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Cat Power" T="Nothin But Time" type="SONG" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="Killer Mike" T="Reagan" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="37" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Hot Chip" T="''Flutes''" type="SONG" mergeable="true" del="false">
+  <compo A="Hot Chip" T="''Flutes''" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="38" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="ScHoolboy Q" T="Hands On The Wheel" type="SONG" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Ty Segall Band" T="I Bought My Eyes" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="46" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Grizzly Bear" T="Sleeping Ute" type="SONG" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Sleeping Ute" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="47" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Burial/Four Tet" T="Nova" type="SONG" mergeable="true" del="false">
@@ -295,7 +295,7 @@
   <compo A="Odd Future" T="Oldie" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="98" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Blur" T="Under The Westway" type="SONG" mergeable="true" del="false">
+  <compo A="Blur" T="Under The Westway" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="99" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Swearin" T="Just" type="SONG" mergeable="true" del="false">

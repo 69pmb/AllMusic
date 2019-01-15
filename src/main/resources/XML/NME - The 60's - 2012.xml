@@ -67,7 +67,7 @@
   <compo A="Mc5" T="Kick Out The Jams" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="22" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Dusty Springfield" T="Son Of A Preacher Man" type="SONG" mergeable="true" del="false">
+  <compo A="Dusty Springfield" T="Son Of A Preacher Man" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="23" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Beatles" T="She Loves You" type="SONG" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="Otis Redding" T="Sittin'On The Dock Of The Bay" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="28" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Kingsmen" T="Louie Louie" type="SONG" mergeable="true" del="false">
+  <compo A="The Kingsmen" T="Louie Louie" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="29" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Band" T="The Weight" type="SONG" mergeable="true" del="true">
@@ -232,7 +232,7 @@
   <compo A="The Supremes" T="Where Did Our Love Go?" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="77" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Dazed And Confused" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Dazed And Confused" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="78" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Booker T" T="Green Onions" type="SONG" mergeable="true" del="true">

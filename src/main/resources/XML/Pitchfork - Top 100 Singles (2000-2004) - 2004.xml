@@ -82,7 +82,7 @@
   <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="27" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Avalanches" T="Since I Left You" type="SONG" mergeable="true" del="false">
+  <compo A="The Avalanches" T="Since I Left You" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="28" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Junior Senior" T="Move Your Feet" type="SONG" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="53" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Animal Collective" T="Who Could Win a Rabbit?" type="SONG" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Who Could Win a Rabbit?" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="54" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Jurgen Paape" T="So weit wie noch nie" type="SONG" mergeable="true" del="false">
