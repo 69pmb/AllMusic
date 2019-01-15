@@ -70,7 +70,7 @@
   <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Songs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="54" creation="24/08/2018 10:36:53" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Arnold Layne" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Arnold Layne" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Songs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="56" creation="24/08/2018 10:36:53" size="100"/>
   </compo>
   <compo A="Billie Holiday" T="Strange Fruit" type="SONG" mergeable="true" del="true">
@@ -85,7 +85,7 @@
   <compo A="Smiths" T="This Charming Man" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Songs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="80" creation="24/08/2018 10:36:53" size="100"/>
   </compo>
-  <compo A="Shadows" T="Apache" type="SONG" mergeable="true" del="false">
+  <compo A="Shadows" T="Apache" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Songs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="84" creation="24/08/2018 10:36:53" size="100"/>
   </compo>
   <compo A="Animals" T="House Of The Rising Sun" type="SONG" mergeable="true" del="false">

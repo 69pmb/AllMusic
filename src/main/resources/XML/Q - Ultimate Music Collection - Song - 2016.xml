@@ -19,7 +19,7 @@
   <compo A="Crowded House" T="Don't Dream It's Over" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="6" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="false">
+  <compo A="Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="7" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Foo Fighters" T="Everlong" type="SONG" mergeable="true" del="true">
@@ -127,7 +127,7 @@
   <compo A="Smashing Pumpkins" T="Today" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="42" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Roxy Music" T="Virginia Plain" type="SONG" mergeable="true" del="false">
+  <compo A="Roxy Music" T="Virginia Plain" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="43" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Dr John" T="Walk On Gilded Splinters" type="SONG" mergeable="true" del="false">
@@ -784,7 +784,7 @@
   <compo A="System Of A Down" T="Chop Suey" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="261" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Nine Inch Nails" T="Closer" type="SONG" mergeable="true" del="false">
+  <compo A="Nine Inch Nails" T="Closer" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="262" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Ozzy Osbourne" T="Crazy Train" type="SONG" mergeable="true" del="false">
@@ -1198,7 +1198,7 @@
   <compo A="Elliott Smith" T="Between The Bars" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="399" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Sugarcubes" T="Birthday" type="SONG" mergeable="true" del="false">
+  <compo A="Sugarcubes" T="Birthday" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="400" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Doves" T="Black And White Town" type="SONG" mergeable="true" del="false">
@@ -1285,7 +1285,7 @@
   <compo A="Nick Cave" T="The Mercy Seat" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="428" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="false">
+  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="429" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Killers" T="Mr Brightside" type="SONG" mergeable="true" del="false">
@@ -1576,19 +1576,19 @@
   <compo A="U2" T="Vertigo" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="525" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Velvet Underground" T="White Light/White Heat" type="SONG" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="White Light/White Heat" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="526" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Velvet Underground" T="Here She Comes Now" type="SONG" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="Here She Comes Now" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="527" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Velvet Underground" T="I Heard Her Call My Name" type="SONG" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="I Heard Her Call My Name" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="528" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Velvet Underground" T="Lady Godiva's Operation" type="SONG" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="Lady Godiva's Operation" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="529" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Velvet Underground" T="Sister Ray" type="SONG" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="Sister Ray" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="530" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Velvet Underground" T="Stephanie Says" type="SONG" mergeable="true" del="false">
@@ -2017,7 +2017,7 @@
   <compo A="2Pac" T="How Do U Want It" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="672" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="false">
+  <compo A="Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="673" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Darkness" T="I Believe In A Thing Called Love" type="SONG" mergeable="true" del="false">
@@ -2071,7 +2071,7 @@
   <compo A="Jimi Hendrix" T="Purple Haze" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="690" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Smiths" T="The Queen Is Dead" type="SONG" mergeable="true" del="false">
+  <compo A="Smiths" T="The Queen Is Dead" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="691" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Kraftwerk" T="Robots, The" type="SONG" mergeable="true" del="false">

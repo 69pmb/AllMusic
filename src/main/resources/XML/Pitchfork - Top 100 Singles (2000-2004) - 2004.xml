@@ -40,7 +40,7 @@
   <compo A="Britney Spears" T="Toxic" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="13" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="Fell in Love With a Girl" type="SONG" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Fell in Love With a Girl" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="14" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Radiohead" T="Pyramid Song" type="SONG" mergeable="true" del="true">
@@ -190,7 +190,7 @@
   <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="63" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The New Pornographers" T="The Laws Have Changed" type="SONG" mergeable="true" del="false">
+  <compo A="The New Pornographers" T="The Laws Have Changed" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="64" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Missy Elliott" T="One Minute Man" type="SONG" mergeable="true" del="false">
@@ -211,7 +211,7 @@
   <compo A="M83" T="Run Into Flowers" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="70" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="Dead Leaves and the Dirty Ground" type="SONG" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Dead Leaves and the Dirty Ground" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Singles (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="71" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Luomo" T="Tessio" type="SONG" mergeable="true" del="false">

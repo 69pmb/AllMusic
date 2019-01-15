@@ -28,7 +28,7 @@
   <compo A="The Kinks" T="You Really Got Me" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="9" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="10" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Black Sabbath" T="Paranoid" type="SONG" mergeable="true" del="true">
@@ -61,7 +61,7 @@
   <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="20" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Pixies" T="Debaser" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Debaser" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="21" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Metalica" T="Master Of Puppets" type="SONG" mergeable="true" del="true">
@@ -103,7 +103,7 @@
   <compo A="The Clash" T="White Riot" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="34" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="My Bloody Valentine" T="You Made Me Realise" type="SONG" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="You Made Me Realise" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="35" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="T. Rex" T="Get It On" type="SONG" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Howlin' Wolf" T="Smokestack Lightnin'" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="49" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="false">
+  <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="50" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Television" T="Marquee Moon" type="SONG" mergeable="true" del="true">
@@ -169,7 +169,7 @@
   <compo A="David Bowie" T="Heroes" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="56" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="R.E.M." T="The One I Love" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="The One I Love" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="57" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="U2" T="Vertigo" type="SONG" mergeable="true" del="false">
@@ -286,10 +286,10 @@
   <compo A="Steely Dan" T="Reelin' In The Years" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="95" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Shadows" T="Apache" type="SONG" mergeable="true" del="false">
+  <compo A="The Shadows" T="Apache" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="96" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Suede" T="Animal Nitrate" type="SONG" mergeable="true" del="false">
+  <compo A="Suede" T="Animal Nitrate" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Guitar Tracks Ever! - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="97" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Jesus And Mary Chain" T="Sidewalking" type="SONG" mergeable="true" del="false">

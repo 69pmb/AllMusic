@@ -46,7 +46,7 @@
   <compo A="Lana Del Rey" T="Video Games" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="15" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
-  <compo A="tUnE-yArDs" T="Gangsta" type="SONG" mergeable="true" del="false">
+  <compo A="tUnE-yArDs" T="Gangsta" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="16" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
   <compo A="Wilco" T="One Sunday Morning" type="SONG" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="EMA" T="California" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="37" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
-  <compo A="Shabazz Palaces" T="Recollections of the Wraith" type="SONG" mergeable="true" del="false">
+  <compo A="Shabazz Palaces" T="Recollections of the Wraith" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="38" creation="05/01/2018 13:17:17" size="75"/>
   </compo>
   <compo A="Raphael Saadiq" T="Good Man" type="SONG" mergeable="true" del="false">

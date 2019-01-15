@@ -154,7 +154,7 @@
   <compo A="Rod Stewart" T="Mandolin Wind" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="50" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Roxy Music" T="Virginia Plain" type="SONG" mergeable="true" del="false">
+  <compo A="Roxy Music" T="Virginia Plain" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="54" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Paul McCartney And Wings" T="Band On The Run" type="SONG" mergeable="true" del="false">
@@ -262,7 +262,7 @@
   <compo A="Green Day" T="Basket Case" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="90" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Street Spirit (Fade Out)" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Street Spirit (Fade Out)" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="98" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="true">
@@ -283,7 +283,7 @@
   <compo A="Bob Dylan" T="Sugar Baby" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="84" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="White Stripes" T="Hotel Yorba" type="SONG" mergeable="true" del="false">
+  <compo A="White Stripes" T="Hotel Yorba" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="95" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Coldplay" T="Clocks" type="SONG" mergeable="true" del="false">

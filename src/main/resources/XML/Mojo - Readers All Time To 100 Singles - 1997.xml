@@ -19,7 +19,7 @@
   <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="5" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="false">
+  <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="6" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Beatles" T="Revolution" type="SONG" mergeable="true" del="false">
@@ -160,10 +160,10 @@
   <compo A="The Ronettes" T="Be My Baby" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="50" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Righteous Brothers" T="You've Lost That Loving Feeling" type="SONG" mergeable="true" del="false">
+  <compo A="The Righteous Brothers" T="You've Lost That Loving Feeling" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="51" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Stone Roses" T="What The World Is Waiting For" type="SONG" mergeable="true" del="false">
@@ -220,10 +220,10 @@
   <compo A="The Beatles" T="I Want To Hold Your Hand" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="67" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Brown Sugar" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Brown Sugar" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="68" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Shadows" T="Apache" type="SONG" mergeable="true" del="false">
+  <compo A="The Shadows" T="Apache" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="69" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The La's" T="There She Goes" type="SONG" mergeable="true" del="true">

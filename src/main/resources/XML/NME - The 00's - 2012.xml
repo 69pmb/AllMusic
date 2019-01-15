@@ -43,7 +43,7 @@
   <compo A="The White Stripes" T="Seven Nation Army" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="14" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Bang" type="SONG" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Bang" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="15" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Rihanna" T="Umbrella [And Jay-Z]" type="SONG" mergeable="true" del="true">
@@ -61,7 +61,7 @@
   <compo A="Hot Chip" T="Over And Over" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="20" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="Fell In Love With A Girl" type="SONG" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Fell In Love With A Girl" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="21" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Strokes" T="Last Night" type="SONG" mergeable="true" del="true">
@@ -283,7 +283,7 @@
   <compo A="Destiny's Child" T="Independent Woman Pt1" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="83" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Pulp" T="Bad Cover Versions" type="SONG" mergeable="true" del="false">
+  <compo A="Pulp" T="Bad Cover Versions" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="84" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Yeasayer" T="Sunrise" type="SONG" mergeable="true" del="false">
@@ -334,7 +334,7 @@
   <compo A="Sugarbabes" T="Round Round" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="97" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Morrissey" T="Irish Blood, English Heart" type="SONG" mergeable="true" del="false">
+  <compo A="Morrissey" T="Irish Blood, English Heart" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="98" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Flaming Lips" T="Do You Realize?" type="SONG" mergeable="true" del="false">

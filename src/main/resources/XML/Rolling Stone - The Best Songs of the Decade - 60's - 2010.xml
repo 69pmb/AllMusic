@@ -31,7 +31,7 @@
   <compo A="The Lovin' Spoonful" T="Do You Believe In Magic?" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="10" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
-  <compo A="The Righteous Brothers" T="Unchained Melody" type="SONG" mergeable="true" del="false">
+  <compo A="The Righteous Brothers" T="Unchained Melody" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="11" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
@@ -49,7 +49,7 @@
   <compo A="The Temptations" T="Ain't Too Proud To Beg" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="16" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
-  <compo A="The Supremes" T="You Can't Hurry Love" type="SONG" mergeable="true" del="false">
+  <compo A="The Supremes" T="You Can't Hurry Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="17" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
   <compo A="The Walker Brothers" T="The Sun Ain't Gonna Shine Anymore" type="SONG" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="The Troggs" T="I Can't Control Myself" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="19" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
-  <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="false">
+  <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="20" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
   <compo A="The Beach Boys" T="God Only Knows" type="SONG" mergeable="true" del="true">

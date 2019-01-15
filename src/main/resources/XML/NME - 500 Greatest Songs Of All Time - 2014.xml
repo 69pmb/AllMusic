@@ -34,7 +34,7 @@
   <compo A="The Beatles" T="Eleanor Rigby" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="11" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Smiths" T="There Is A Light That Never Goes Out" type="SONG" mergeable="true" del="false">
+  <compo A="The Smiths" T="There Is A Light That Never Goes Out" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="12" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Oasis" T="Live Forever" type="SONG" mergeable="true" del="true">
@@ -91,13 +91,13 @@
   <compo A="Talking Heads" T="Once In A Lifetime" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="30" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="31" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Clash" T="London Calling" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="32" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Suede" T="Animal Nitrate" type="SONG" mergeable="true" del="false">
+  <compo A="Suede" T="Animal Nitrate" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="33" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="David Bowie" T="Life On Mars?" type="SONG" mergeable="true" del="true">
@@ -130,7 +130,7 @@
   <compo A="Manic Street Preachers" T="A Design For Life" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="43" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pixies" T="Debaser" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Debaser" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="44" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="true">
@@ -217,7 +217,7 @@
   <compo A="The Velvet Underground" T="Venus In Furs" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="72" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="PJ Harvey" T="Sheena-Na-Gig" type="SONG" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Sheena-Na-Gig" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="73" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" mergeable="true" del="true">
@@ -232,10 +232,10 @@
   <compo A="The Beatles" T="Hey Jude" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="77" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Nick Cave" T="Into My Arms" type="SONG" mergeable="true" del="false">
+  <compo A="Nick Cave" T="Into My Arms" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="78" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The White Stripes" T="Fell In Love With A Girl" type="SONG" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Fell In Love With A Girl" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="79" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Beatles" T="Taxman" type="SONG" mergeable="true" del="false">
@@ -298,13 +298,13 @@
   <compo A="Queens Of The Stoneage" T="No One Knows" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="99" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="100" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="R.E.M." T="Loosing My Religion" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="101" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="false">
+  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="102" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Stevie Wonder" T="Superstition" type="SONG" mergeable="true" del="true">
@@ -355,16 +355,16 @@
   <compo A="The Strokes" T="Someday" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="118" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Stone Roses" T="Waterfall" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="Waterfall" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="119" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Roxy Music" T="Virginia Plane" type="SONG" mergeable="true" del="false">
+  <compo A="Roxy Music" T="Virginia Plane" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="120" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Hole" T="Celebrity Skin" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="121" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="White Stripes" T="Hotel Yorba" type="SONG" mergeable="true" del="false">
+  <compo A="White Stripes" T="Hotel Yorba" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="122" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Prince" T="Purple Rain" type="SONG" mergeable="true" del="true">
@@ -586,10 +586,10 @@
   <compo A="Joy Division" T="Atmosphere" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="195" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Stone Roses" T="Made Of Stone" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="Made Of Stone" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="196" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pixies" T="Monkeys Gone To Heaven" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Monkeys Gone To Heaven" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="197" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Blur" T="This Is A Low" type="SONG" mergeable="true" del="true">
@@ -637,7 +637,7 @@
   <compo A="R.E.M." T="Radio Free Europe" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="212" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pixies" T="Here Comes Your Man" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Here Comes Your Man" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="213" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Peter Gabriel" T="Solsbury Hill" type="SONG" mergeable="true" del="true">
@@ -670,7 +670,7 @@
   <compo A="Spritualized" T="Electricity" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="223" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Sugarcubes" T="Birthday" type="SONG" mergeable="true" del="false">
+  <compo A="The Sugarcubes" T="Birthday" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="224" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="James Brown" T="Get Up (I Feel Like Being) A Sex Machine" type="SONG" mergeable="true" del="true">
@@ -847,7 +847,7 @@
   <compo A="Elastica" T="Connection" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="282" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Smiths" T="Bigmouth Strikes Again" type="SONG" mergeable="true" del="false">
+  <compo A="The Smiths" T="Bigmouth Strikes Again" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="283" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Supergrass" T="Caught By The Fuzz" type="SONG" mergeable="true" del="false">
@@ -904,7 +904,7 @@
   <compo A="Depeche Mode" T="Enjoy The Silence" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="301" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Radiohead" T="Fake Plastic Trees" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Fake Plastic Trees" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="302" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Leonard Cohen" T="Suzanne" type="SONG" mergeable="true" del="true">
@@ -1000,10 +1000,10 @@
   <compo A="Pet Shop Boys" T="Go West" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="333" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Stone Roses" T="She Bangs The Drums" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="She Bangs The Drums" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="334" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Super Furry Animals" T="The Man Don't Give A Fuck" type="SONG" mergeable="true" del="false">
+  <compo A="Super Furry Animals" T="The Man Don't Give A Fuck" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="335" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Beatles" T="Come Together" type="SONG" mergeable="true" del="false">
@@ -1042,7 +1042,7 @@
   <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="347" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="false">
+  <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="348" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Depeche Mode" T="Just Can't Get Enough" type="SONG" mergeable="true" del="false">
@@ -1102,7 +1102,7 @@
   <compo A="A Guy Called Gerold" T="Voodoo Ray" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="367" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="My Bloody Valentine" T="You Made Me Realise" type="SONG" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="You Made Me Realise" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="368" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Oasis" T="Half A World Away" type="SONG" mergeable="true" del="false">
@@ -1132,7 +1132,7 @@
   <compo A="Elton John" T="Bennie And The Jets" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="377" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Nick Cave" T="Where The Wild Roses Grow" type="SONG" mergeable="true" del="false">
+  <compo A="Nick Cave" T="Where The Wild Roses Grow" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="378" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Byrds" T="I'll Feel A Whole Lot Better" type="SONG" mergeable="true" del="true">
@@ -1162,7 +1162,7 @@
   <compo A="Roy Orbison" T="Oh Pretty Woman" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="387" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Smiths" T="The Boy With The Thorn In His Side" type="SONG" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Boy With The Thorn In His Side" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="388" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Blur" T="There's No Other Way" type="SONG" mergeable="true" del="false">
@@ -1276,7 +1276,7 @@
   <compo A="Muse" T="Plug In Baby" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="425" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Tame Impala" T="Elephant" type="SONG" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Elephant" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="426" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="false">
@@ -1465,7 +1465,7 @@
   <compo A="The Stranglers" T="Golden Brown" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="488" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="NICK CAVE" T="Red Right Hand" type="SONG" mergeable="true" del="false">
+  <compo A="NICK CAVE" T="Red Right Hand" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="489" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Doors" T="Riders Of The Storm" type="SONG" mergeable="true" del="false">

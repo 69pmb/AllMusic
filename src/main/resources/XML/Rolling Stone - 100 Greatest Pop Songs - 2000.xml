@@ -40,7 +40,7 @@
   <compo A="Guns N Roses" T="Sweet Child O Mine" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="13" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Brown Sugar" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Brown Sugar" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="14" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="John Lennon" T="Imagine" type="SONG" mergeable="true" del="true">
@@ -181,7 +181,7 @@
   <compo A="Billy Joel" T="Just The Way You Are" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="60" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="R.E.M." T="The One I Love" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="The One I Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="61" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Madonna" T="Papa Don-t Preach" type="SONG" mergeable="true" del="false">
