@@ -49,7 +49,7 @@
   <compo A="Bruce Springsteen" T="Thunder Road" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="16" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Brown Sugar" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Brown Sugar" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="17" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Ian Dury" T="Sex And Drugs And Rock And Roll" type="SONG" mergeable="true" del="true">
@@ -214,7 +214,7 @@
   <compo A="Suicide" T="Ghost Rider" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="71" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Who" T="Who Are You" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Who Are You" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="72" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="XTC" T="Making Plans For Nigel" type="SONG" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <compo A="Leonard Cohen" T="Chelsea Hotel No. 2" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="86" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Roxy Music" T="Virginia Plain" type="SONG" mergeable="true" del="false">
+  <compo A="Roxy Music" T="Virginia Plain" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="87" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Kinks" T="Lola" type="SONG" mergeable="true" del="false">

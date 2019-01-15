@@ -139,7 +139,7 @@
   <compo A="Lady Gaga" T="Telephone" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="55" creation="25/07/2018 17:48:38" size="100"/>
   </compo>
-  <compo A="Vampire Weekend" T="White Sky" type="SONG" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="White Sky" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="54" creation="25/07/2018 17:48:38" size="100"/>
   </compo>
   <compo A="Kendal Johansson" T="Blue Moon" type="SONG" mergeable="true" del="false">
@@ -202,10 +202,10 @@
   <compo A="Gold Panda" T="You" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="34" creation="25/07/2018 17:48:38" size="100"/>
   </compo>
-  <compo A="Zola Jesus" T="Night" type="SONG" mergeable="true" del="false">
+  <compo A="Zola Jesus" T="Night" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="33" creation="25/07/2018 17:48:38" size="100"/>
   </compo>
-  <compo A="Robyn" T="Hang With Me" type="SONG" mergeable="true" del="false">
+  <compo A="Robyn" T="Hang With Me" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="32" creation="25/07/2018 17:48:38" size="100"/>
   </compo>
   <compo A="Girls" T="Carolina" type="SONG" mergeable="true" del="false">
@@ -232,7 +232,7 @@
   <compo A="Teengirl Fantasy" T="Cheaters" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="24" creation="25/07/2018 17:48:38" size="100"/>
   </compo>
-  <compo A="Vampire Weekend" T="Giving Up the Gun" type="SONG" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Giving Up the Gun" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="23" creation="25/07/2018 17:48:38" size="100"/>
   </compo>
   <compo A="Rick Ross" T="B.M.F. (Blowin' Money Fast) [And Styles P]" type="SONG" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <compo A="Crystal Castles" T="Not In Love" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="15" creation="25/07/2018 17:48:38" size="100"/>
   </compo>
-  <compo A="Sleigh Bells" T="Rill Rill" type="SONG" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Rill Rill" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="14" creation="25/07/2018 17:48:38" size="100"/>
   </compo>
   <compo A="Caribou" T="Odessa" type="SONG" mergeable="true" del="true">

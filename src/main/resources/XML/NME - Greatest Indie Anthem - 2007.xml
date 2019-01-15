@@ -10,7 +10,7 @@
   <compo A="Pulp" T="Common People" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="3" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
-  <compo A="The Smiths" T="There Is A Light That Never Goes Out" type="SONG" mergeable="true" del="false">
+  <compo A="The Smiths" T="There Is A Light That Never Goes Out" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="4" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
   <compo A="The Libertines" T="Don't Look Back Into The Sun" type="SONG" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="The Smiths" T="How Soon Is Now?" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="7" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
-  <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="8" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
   <compo A="The Strokes" T="Last Night" type="SONG" mergeable="true" del="true">
@@ -34,7 +34,7 @@
   <compo A="The Smiths" T="This Charming Man" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="11" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
-  <compo A="The Stone Roses" T="She Bangs The Drum" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="She Bangs The Drum" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="12" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
   <compo A="The Libertines" T="Can't Stand Me Now" type="SONG" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="16" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
-  <compo A="The Stone Roses" T="I Wanna Be Adored" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="I Wanna Be Adored" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="17" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
   <compo A="The Verve" T="Bitter Sweet Symphony" type="SONG" mergeable="true" del="true">
@@ -94,7 +94,7 @@
   <compo A="Oasis" T="Cigarettes And Alcohol" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="31" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
-  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="32" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
   <compo A="The Killers" T="Mr Brightside" type="SONG" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Radiohead" T="Just" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="34" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
-  <compo A="Pixies" T="Monkey Gone To Heaven" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Monkey Gone To Heaven" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="35" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
   <compo A="Kaiser Chiefs" T="I Predict A Riot" type="SONG" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="The Cribs" T="Hey Scenesters!" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="42" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
-  <compo A="Suede" T="Animal Nitrate" type="SONG" mergeable="true" del="false">
+  <compo A="Suede" T="Animal Nitrate" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="43" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
   <compo A="The Stone Roses" T="Love Spreads" type="SONG" mergeable="true" del="true">
@@ -148,13 +148,13 @@
   <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="49" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
-  <compo A="My Bloody Valentine" T="You Made Me Realise" type="SONG" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="You Made Me Realise" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="50" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
   <compo A="The Clash" T="Londons Calling" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="51" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
-  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="false">
+  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Indie Anthem - 2007" publish="2007" cat="GENRE" rangeB="0" rangeE="2007" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="60"/>
   </compo>
   <compo A="Muse" T="Supermassive Black Hole" type="SONG" mergeable="true" del="false">
