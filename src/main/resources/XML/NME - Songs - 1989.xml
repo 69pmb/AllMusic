@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Stone Roses" T="She Bangs The Drums" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="She Bangs The Drums" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="1" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
-  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="2" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
   <compo A="The Sundays" T="Can't Be Sure" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="3" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
-  <compo A="The Stone Roses" T="Made Of Stone" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="Made Of Stone" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="4" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
   <compo A="808 State" T="Pacific State" type="SONG" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Rem" T="Orange Crush" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="21" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
-  <compo A="Pixies" T="Monkey Gone To Heaven" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Monkey Gone To Heaven" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="22" creation="20/07/2017 20:46:49" size="50"/>
   </compo>
   <compo A="Frankie Knuckles" T="Tears" type="SONG" mergeable="true" del="false">

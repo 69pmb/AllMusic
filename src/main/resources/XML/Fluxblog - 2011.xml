@@ -10,7 +10,7 @@
   <compo A="Britney Spears" T="How I Roll" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="false" rank="3" creation="02/07/2017 14:31:05" size="183"/>
   </compo>
-  <compo A="Tune-Yards" T="Powa" type="SONG" mergeable="true" del="false">
+  <compo A="Tune-Yards" T="Powa" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="false" rank="4" creation="02/07/2017 14:31:05" size="183"/>
   </compo>
   <compo A="Lady Gaga" T="You and I" type="SONG" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="James Blake" T="The Wilhelm Scream" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="false" rank="78" creation="02/07/2017 14:31:05" size="183"/>
   </compo>
-  <compo A="Shabazz Palaces" T="Recollections of the Wraith" type="SONG" mergeable="true" del="false">
+  <compo A="Shabazz Palaces" T="Recollections of the Wraith" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="false" rank="79" creation="02/07/2017 14:31:05" size="183"/>
   </compo>
   <compo A="Nicolas Jaar" T="Space Is Only Noise If You Can See" type="SONG" mergeable="true" del="false">
@@ -469,7 +469,7 @@
   <compo A="Jamie xx" T="Far Nearer" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="false" rank="156" creation="02/07/2017 14:31:05" size="183"/>
   </compo>
-  <compo A="Skrillex" T="Scary Monsters and Nice Sprites" type="SONG" mergeable="true" del="false">
+  <compo A="Skrillex" T="Scary Monsters and Nice Sprites" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="false" rank="157" creation="02/07/2017 14:31:05" size="183"/>
   </compo>
   <compo A="The Do" T="Gonna Be Sick!" type="SONG" mergeable="true" del="false">

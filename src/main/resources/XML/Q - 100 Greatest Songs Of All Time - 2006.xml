@@ -37,7 +37,7 @@
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="12" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Smiths" T="There Is A Light That Never Goes Out" type="SONG" mergeable="true" del="false">
+  <compo A="The Smiths" T="There Is A Light That Never Goes Out" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="13" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Clash" T="London Calling" type="SONG" mergeable="true" del="true">
@@ -94,7 +94,7 @@
   <compo A="The Beatles" T="Strawberry Fields Forever" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="31" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Stone Roses" T="I Wanna Be Adored" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="I Wanna Be Adored" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="32" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Radiohead" T="Karma Police" type="SONG" mergeable="true" del="true">
@@ -124,7 +124,7 @@
   <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="41" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Street Spirit (Fade Out)" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Street Spirit (Fade Out)" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="42" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="U2" T="Where The Streets Have No Name" type="SONG" mergeable="true" del="true">
@@ -160,7 +160,7 @@
   <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="53" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Fake Plastic Trees" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Fake Plastic Trees" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="54" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Kylie Minogue" T="Can't Get You Out Of My Head" type="SONG" mergeable="true" del="true">
@@ -199,7 +199,7 @@
   <compo A="The Rolling Stones" T="Satisfaction" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="66" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="Fools Gold" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="67" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="David Bowie" T="Heroes" type="SONG" mergeable="true" del="true">
@@ -262,7 +262,7 @@
   <compo A="Razorlight" T="Golden Touch" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="87" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="false">
+  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="88" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Otis Redding" T="Sittin On The Dock Of The Bay" type="SONG" mergeable="true" del="true">
@@ -277,13 +277,13 @@
   <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="92" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="93" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Elton John" T="Rocket Man" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="94" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Pixies" T="Debaser" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Debaser" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="95" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Pogues" T="Fairytale Of New York" type="SONG" mergeable="true" del="false">

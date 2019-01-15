@@ -13,7 +13,7 @@
   <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="false">
+  <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="false">
@@ -40,10 +40,10 @@
   <compo A="Primal Scream" T="Loaded" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="13" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Suede" T="Animal Nitrate" type="SONG" mergeable="true" del="false">
+  <compo A="Suede" T="Animal Nitrate" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="14" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Street Spirit (Fade Out)" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Street Spirit (Fade Out)" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="15" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Eminem" T="My Name Is" type="SONG" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Oasis" T="Live Forever" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="21" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Nick Cave" T="Into My Arms" type="SONG" mergeable="true" del="false">
+  <compo A="Nick Cave" T="Into My Arms" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="22" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Jeff Buckley" T="Last Goodbye" type="SONG" mergeable="true" del="true">
@@ -103,7 +103,7 @@
   <compo A="Portishead" T="Glory Box" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="34" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Nick Cave" T="Where The Wild Roses Grow" type="SONG" mergeable="true" del="false">
+  <compo A="Nick Cave" T="Where The Wild Roses Grow" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="35" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Mazzy Star" T="Fade Into You" type="SONG" mergeable="true" del="false">

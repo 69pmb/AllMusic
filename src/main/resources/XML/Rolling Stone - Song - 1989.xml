@@ -13,7 +13,7 @@
   <compo A="Neil Young" T="Rockin' in the Free World" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Pixies" T="Monkey Gone To Heaven" type="SONG" mergeable="true" del="false">
+  <compo A="Pixies" T="Monkey Gone To Heaven" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Tom Petty" T="Free Fallin'" type="SONG" mergeable="true" del="true">

@@ -10,7 +10,7 @@
   <compo A="Pink Floyd" T="Time" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="3" creation="22/08/2018 17:34:28" size="50"/>
   </compo>
-  <compo A="Pink Floyd" T="Arnold Lane" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Arnold Lane" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="4" creation="22/08/2018 17:34:28" size="50"/>
   </compo>
   <compo A="Pink Floyd" T="Breath" type="SONG" mergeable="true" del="false">
@@ -94,7 +94,7 @@
   <compo A="Pink Floyd" T="Another Brick In The Wall (Part 2)" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="31" creation="22/08/2018 17:34:28" size="50"/>
   </compo>
-  <compo A="Pink Floyd" T="Apples And Oranges" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Apples And Oranges" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="32" creation="22/08/2018 17:34:28" size="50"/>
   </compo>
   <compo A="Pink Floyd" T="Quicksilver" type="SONG" mergeable="true" del="false">

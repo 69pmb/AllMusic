@@ -7,7 +7,7 @@
   <compo A="Taylor Swift" T="We Are Never Ever Getting Back Together" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Passion Pit" T="Take a Walk" type="SONG" mergeable="true" del="false">
+  <compo A="Passion Pit" T="Take a Walk" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Frank Ocean" T="Thinkin Bout You" type="SONG" mergeable="true" del="true">
@@ -64,7 +64,7 @@
   <compo A="Donald Fagen" T="Weather in My Head" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Skrillex" T="Bangarang" type="SONG" mergeable="true" del="false">
+  <compo A="Skrillex" T="Bangarang" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Randy Newman" T="Im Dreaming" type="SONG" mergeable="true" del="false">
