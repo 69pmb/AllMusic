@@ -226,7 +226,7 @@
   <compo A="The Who" T="I Can't Explain" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="75" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Elton John" T="Rocket Man" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Rocket Man" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="76" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Paint It Black" type="SONG" mergeable="true" del="false">

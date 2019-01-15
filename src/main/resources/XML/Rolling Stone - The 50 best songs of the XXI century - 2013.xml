@@ -100,7 +100,7 @@
   <compo A="New Order" T="Crystal" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 50 best songs of the XXI century - 2013" publish="2013" cat="LONG_PERIOD" rangeB="2000" rangeE="2013" sorted="true" rank="33" creation="07/09/2018 14:02:29" size="50"/>
   </compo>
-  <compo A="Blur" T="Under The Westway" type="SONG" mergeable="true" del="false">
+  <compo A="Blur" T="Under The Westway" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 50 best songs of the XXI century - 2013" publish="2013" cat="LONG_PERIOD" rangeB="2000" rangeE="2013" sorted="true" rank="34" creation="07/09/2018 14:02:29" size="50"/>
   </compo>
   <compo A="Radiohead" T="Everything In Its Right Place" type="SONG" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <compo A="PJ Harvey" T="In The Dark Places" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 50 best songs of the XXI century - 2013" publish="2013" cat="LONG_PERIOD" rangeB="2000" rangeE="2013" sorted="true" rank="38" creation="07/09/2018 14:02:29" size="50"/>
   </compo>
-  <compo A="Animal Collective" T="My Girls" type="SONG" mergeable="true" del="false">
+  <compo A="Animal Collective" T="My Girls" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 50 best songs of the XXI century - 2013" publish="2013" cat="LONG_PERIOD" rangeB="2000" rangeE="2013" sorted="true" rank="39" creation="07/09/2018 14:02:29" size="50"/>
   </compo>
   <compo A="Sufjan Stevens" T="Chicago" type="SONG" mergeable="true" del="false">

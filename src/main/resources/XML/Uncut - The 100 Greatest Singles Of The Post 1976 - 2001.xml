@@ -49,7 +49,7 @@
   <compo A="David Bowie" T="Heroes" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="16" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
-  <compo A="The Jesus And Mary Chain" T="Never Understand" type="SONG" mergeable="true" del="false">
+  <compo A="The Jesus And Mary Chain" T="Never Understand" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="17" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
   <compo A="Grandmaster Flash And The Furious Five" T="The Adventures Of GF On The Wheels Of Steel" type="SONG" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="Underworld" T="Born Slippy" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="23" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
-  <compo A="Magazine" T="Shot Both Sides" type="SONG" mergeable="true" del="false">
+  <compo A="Magazine" T="Shot Both Sides" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="24" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
   <compo A="Elvis Costello" T="(I Don't Want To Go To) Chelsea" type="SONG" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="Scritti Politi" T="The Sweetest Girl" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="53" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
-  <compo A="Kate Bush" T="Running Up That Hill" type="SONG" mergeable="true" del="false">
+  <compo A="Kate Bush" T="Running Up That Hill" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="54" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
   <compo A="Simple Minds" T="I Promised You A Miracle" type="SONG" mergeable="true" del="false">

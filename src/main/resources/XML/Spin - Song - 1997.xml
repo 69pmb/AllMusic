@@ -70,7 +70,7 @@
   <compo A="Elliot Smith" T="I Don't Think I'm Ever Gonna Figure It Out" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="19" creation="30/08/2018 10:49:38" size="20"/>
   </compo>
-  <compo A="Fiona Apple" T="Criminal" type="SONG" mergeable="true" del="false">
+  <compo A="Fiona Apple" T="Criminal" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="20" creation="30/08/2018 10:49:38" size="20"/>
   </compo>
 </ListCompositions>

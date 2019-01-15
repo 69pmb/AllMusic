@@ -61,7 +61,7 @@
   <compo A="Yuck" T="Get Away" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="81" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Fucked Up" T="Queen of Hearts" type="SONG" mergeable="true" del="false">
+  <compo A="Fucked Up" T="Queen of Hearts" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="80" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Kelly Rowland [And Lil Wayne]" T="Motivation" type="SONG" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="Sandro Perri" T="Changes" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="78" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Cults" T="Abducted" type="SONG" mergeable="true" del="false">
+  <compo A="Cults" T="Abducted" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="77" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Julianna Barwick" T="Prizewinning" type="SONG" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="Toro Y Moi" T="New Beat" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="64" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Bon Iver" T="Perth" type="SONG" mergeable="true" del="false">
+  <compo A="Bon Iver" T="Perth" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="63" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Liturgy" T="Generation" type="SONG" mergeable="true" del="false">
@@ -151,10 +151,10 @@
   <compo A="Todd Terje" T="Snooze 4 Love" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="51" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Atlas Sound" T="Mona Lisa" type="SONG" mergeable="true" del="false">
+  <compo A="Atlas Sound" T="Mona Lisa" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="50" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Katy B" T="Broken Record" type="SONG" mergeable="true" del="false">
+  <compo A="Katy B" T="Broken Record" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="49" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Kreayshawn" T="Gucci Gucci" type="SONG" mergeable="true" del="false">
@@ -166,7 +166,7 @@
   <compo A="Ty Segall" T="Goodbye Bread" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="46" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Drake" T="Headlines" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Headlines" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="45" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Nicolas Jaar" T="Space Is Only Noise If You Can See" type="SONG" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <compo A="Panda Bear" T="Last Night at the Jetty" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="43" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Jay-Z And Kanye West" T="Otis" type="SONG" mergeable="true" del="false">
+  <compo A="Jay-Z And Kanye West" T="Otis" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="42" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Frank Ocean" T="Novacane" type="SONG" mergeable="true" del="true">
@@ -190,7 +190,7 @@
   <compo A="Purity Ring" T="Ungirthed" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="38" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="AsAP Rocky" T="Peso" type="SONG" mergeable="true" del="false">
+  <compo A="AsAP Rocky" T="Peso" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="37" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Jamie xx" T="Far Nearer" type="SONG" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="Bill Callahan" T="Riding For the Feeling" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Drake" T="Marvins Room" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Marvins Room" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Gang Gang Dance" T="Glass Jar" type="SONG" mergeable="true" del="false">
@@ -274,7 +274,7 @@
   <compo A="DJ Khaled" T="I'm On One" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Azealia Banks" T="212" type="SONG" mergeable="true" del="false">
+  <compo A="Azealia Banks" T="212" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="9" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Cass McCombs" T="County Line" type="SONG" mergeable="true" del="false">

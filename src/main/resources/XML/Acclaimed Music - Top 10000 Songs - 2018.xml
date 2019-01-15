@@ -49,7 +49,7 @@
   <compo A="The Beatles" T="Strawberry Fields Forever" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="16" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="17" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Michael Jackson" T="Billie Jean" type="SONG" mergeable="true" del="true">
@@ -121,7 +121,7 @@
   <compo A="Sam Cooke" T="A Change Is Gonna Come" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="40" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Kingsmen" T="Louie Louie" type="SONG" mergeable="true" del="false">
+  <compo A="The Kingsmen" T="Louie Louie" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="41" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Beatles" T="Hey Jude" type="SONG" mergeable="true" del="true">
@@ -217,7 +217,7 @@
   <compo A="Missy Elliott" T="Get Ur Freak On" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="72" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Elvis Presley" T="Hound Dog" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Hound Dog" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="73" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="true">
@@ -364,7 +364,7 @@
   <compo A="James Brown" T="Papa's Got A Brand New Bag" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="121" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="122" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Simon And Garfunkel" T="The Sound Of Silence" type="SONG" mergeable="true" del="false">
@@ -406,7 +406,7 @@
   <compo A="Bee Gees" T="Stayin' Alive" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="135" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Gene Vincent" T="Be-Bop-a-Lula" type="SONG" mergeable="true" del="false">
+  <compo A="Gene Vincent" T="Be-Bop-a-Lula" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="136" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Roy Orbison" T="Oh, Pretty Woman" type="SONG" mergeable="true" del="true">
@@ -490,7 +490,7 @@
   <compo A="The Beatles" T="Help!" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="163" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Kate Bush" T="Wuthering Heights" type="SONG" mergeable="true" del="false">
+  <compo A="Kate Bush" T="Wuthering Heights" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="164" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Roxy Music" T="Virginia Plain" type="SONG" mergeable="true" del="false">
@@ -535,7 +535,7 @@
   <compo A="Dionne Warwick" T="Walk On By" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="178" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Beastie Boys" T="Sabotage" type="SONG" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Sabotage" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="179" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Stooges" T="Search And Destroy" type="SONG" mergeable="true" del="true">
@@ -571,7 +571,7 @@
   <compo A="Kraftwerk" T="Autobahn" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="190" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Animal Collective" T="My Girls" type="SONG" mergeable="true" del="false">
+  <compo A="Animal Collective" T="My Girls" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="191" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="M83" T="Midnight City" type="SONG" mergeable="true" del="true">
@@ -589,7 +589,7 @@
   <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="196" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bob Dylan" T="Subterranean Homesick Blues" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Subterranean Homesick Blues" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="197" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Pixies" T="Debaser" type="SONG" mergeable="true" del="false">
@@ -694,7 +694,7 @@
   <compo A="Jimi Hendrix" T="Hey Joe" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="231" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Dusty Springfield" T="Son-of-a Preacher Man" type="SONG" mergeable="true" del="false">
+  <compo A="Dusty Springfield" T="Son-of-a Preacher Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="232" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Mott The Hoople" T="All The Young Dudes" type="SONG" mergeable="true" del="true">
@@ -781,7 +781,7 @@
   <compo A="Stevie Wonder" T="Living For The City" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="260" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Kate Bush" T="Running Up That Hill" type="SONG" mergeable="true" del="false">
+  <compo A="Kate Bush" T="Running Up That Hill" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="261" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Metallica" T="Enter Sandman" type="SONG" mergeable="true" del="false">
@@ -835,7 +835,7 @@
   <compo A="The Who" T="I Can See For Miles" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="278" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Cure" T="Just Like Heaven" type="SONG" mergeable="true" del="false">
+  <compo A="The Cure" T="Just Like Heaven" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="279" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Iggy Pop" T="Lust For Life" type="SONG" mergeable="true" del="false">
@@ -850,7 +850,7 @@
   <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="283" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Led Zeppelin" T="Dazed And Confused" type="SONG" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Dazed And Confused" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="284" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Lynyrd Skynyrd" T="Sweet Home Alabama" type="SONG" mergeable="true" del="true">
@@ -979,7 +979,7 @@
   <compo A="Jimi Hendrix" T="Voodoo Child (Slight Return)" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="326" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="327" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Aretha Franklin" T="I Say A Little Prayer" type="SONG" mergeable="true" del="true">
@@ -1102,7 +1102,7 @@
   <compo A="The Police" T="Roxanne" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="367" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Grimes" T="Oblivion" type="SONG" mergeable="true" del="false">
+  <compo A="Grimes" T="Oblivion" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="368" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="N.W.A" T="F*** Tha Police" type="SONG" mergeable="true" del="false">
@@ -1171,7 +1171,7 @@
   <compo A="Patti Smith" T="Because The Night" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="390" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Beatles" T="Norwegian Wood (This Bird Has Flown)" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Norwegian Wood (This Bird Has Flown)" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="391" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Damned" T="New Rose" type="SONG" mergeable="true" del="true">
@@ -1189,7 +1189,7 @@
   <compo A="The Velvet Underground" T="Venus In Furs" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="396" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="David Bowie" T="Young Americans" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Young Americans" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="397" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Nirvana" T="All Apologies" type="SONG" mergeable="true" del="false">
@@ -1354,7 +1354,7 @@
   <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="451" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Jam" T="That's Entertainment" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="That's Entertainment" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="452" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Van Morrison" T="Moondance" type="SONG" mergeable="true" del="false">
@@ -1417,7 +1417,7 @@
   <compo A="The Velvet Underground" T="Rock And Roll" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="472" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Little Wing" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Little Wing" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="473" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Iggy Pop" T="The Passenger" type="SONG" mergeable="true" del="true">
@@ -1504,7 +1504,7 @@
   <compo A="Aerosmith" T="Dream On" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="501" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Band" T="The Night They Drove Old Dixie Down" type="SONG" mergeable="true" del="false">
+  <compo A="The Band" T="The Night They Drove Old Dixie Down" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="502" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="false">
@@ -1774,7 +1774,7 @@
   <compo A="Don Henley" T="The Boys Of Summer" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="591" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Magazine" T="Shot By Both Sides" type="SONG" mergeable="true" del="false">
+  <compo A="Magazine" T="Shot By Both Sides" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="592" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="David Bowie" T="Let's Dance" type="SONG" mergeable="true" del="false">
@@ -1810,7 +1810,7 @@
   <compo A="Weezer" T="Buddy Holly" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="603" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Ian Dury" T="Sex And Drugs And Rock And Roll" type="SONG" mergeable="true" del="false">
+  <compo A="Ian Dury" T="Sex And Drugs And Rock And Roll" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="604" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Jeff Buckley" T="Last Goodbye" type="SONG" mergeable="true" del="true">
@@ -1882,7 +1882,7 @@
   <compo A="Roxy Music" T="More Than This" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="627" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Black Sabbath" T="Iron Man" type="SONG" mergeable="true" del="false">
+  <compo A="Black Sabbath" T="Iron Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="628" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Bob Dylan" T="Ballad Of A Thin Man" type="SONG" mergeable="true" del="true">
@@ -1993,7 +1993,7 @@
   <compo A="Bobby Darin" T="Mack The Knife" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="664" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Avalanches" T="Since I Left You" type="SONG" mergeable="true" del="false">
+  <compo A="The Avalanches" T="Since I Left You" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="665" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Arctic Monkeys" T="Do I Wanna Know?" type="SONG" mergeable="true" del="true">
@@ -2050,7 +2050,7 @@
   <compo A="The Doors" T="L.A. Woman" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="683" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Azealia Banks" T="212" type="SONG" mergeable="true" del="false">
+  <compo A="Azealia Banks" T="212" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="684" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Everything But The Girl" T="Missing (Todd Terry Remix)" type="SONG" mergeable="true" del="false">
@@ -2212,7 +2212,7 @@
   <compo A="Blackstreet" T="No Diggity" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="737" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Elton John" T="Rocket Man" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Rocket Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="738" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Elvis Presley" T="In The Ghetto" type="SONG" mergeable="true" del="true">
@@ -2329,7 +2329,7 @@
   <compo A="Nick Drake" T="River Man" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="776" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Beatles" T="I Saw Her Standing There" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="I Saw Her Standing There" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="777" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Coldplay" T="The Scientist" type="SONG" mergeable="true" del="false">
@@ -2590,7 +2590,7 @@
   <compo A="Air" T="Sexy Boy" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="863" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Japandroids" T="The House That Heaven Built" type="SONG" mergeable="true" del="false">
+  <compo A="Japandroids" T="The House That Heaven Built" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="864" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Jam" T="The Eton Rifles" type="SONG" mergeable="true" del="true">
@@ -2629,7 +2629,7 @@
   <compo A="The Allman Brothers Band" T="Whipping Post" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="876" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bob Dylan" T="It's Alright Ma (I'm Only Bleeding)" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="It's Alright Ma (I'm Only Bleeding)" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="877" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Iron Butterfly" T="In-A-Gadda-Da-Vida" type="SONG" mergeable="true" del="false">
@@ -2860,7 +2860,7 @@
   <compo A="UGK" T="Int'l Player's Anthem (I Choose You)" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="953" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Chemical Brothers" T="Setting Sun" type="SONG" mergeable="true" del="false">
+  <compo A="The Chemical Brothers" T="Setting Sun" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="954" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Ray Charles" T="Hit The Road Jack" type="SONG" mergeable="true" del="false">
@@ -2908,7 +2908,7 @@
   <compo A="Bob Dylan" T="Blind Willie McTell" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="969" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Jam" T="In The City" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="In The City" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="970" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Elastica" T="Connection" type="SONG" mergeable="true" del="false">
@@ -2926,7 +2926,7 @@
   <compo A="Elvis Presley" T="Love Me Tender" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="975" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Allman Brothers Band" T="Ramblin' Man" type="SONG" mergeable="true" del="false">
+  <compo A="The Allman Brothers Band" T="Ramblin' Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="976" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Solange" T="Losing You" type="SONG" mergeable="true" del="true">
@@ -2977,7 +2977,7 @@
   <compo A="Panda Bear" T="Bro's" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="992" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Joni Mitchell" T="Help Me" type="SONG" mergeable="true" del="false">
+  <compo A="Joni Mitchell" T="Help Me" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="993" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Orb" T="Little Fluffy Clouds" type="SONG" mergeable="true" del="false">
@@ -3139,7 +3139,7 @@
   <compo A="The Moody Blues" T="Nights In White Satin" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1046" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Blondie" T="Rapture" type="SONG" mergeable="true" del="false">
+  <compo A="Blondie" T="Rapture" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1047" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Drifters" T="Up On The Roof" type="SONG" mergeable="true" del="false">
@@ -3172,7 +3172,7 @@
   <compo A="Fleetwood Mac" T="Oh Well" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1057" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Beach House" T="Myth" type="SONG" mergeable="true" del="false">
+  <compo A="Beach House" T="Myth" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1058" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Beatles" T="With A Little Help From My Friends" type="SONG" mergeable="true" del="false">
@@ -3229,7 +3229,7 @@
   <compo A="Pulp" T="This Is Hardcore" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1076" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Frankie Goes To Hollywood" T="Two Tribes" type="SONG" mergeable="true" del="false">
+  <compo A="Frankie Goes To Hollywood" T="Two Tribes" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1077" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Dexys Midnight Runners" T="Geno" type="SONG" mergeable="true" del="false">
@@ -3247,7 +3247,7 @@
   <compo A="Jay-Z" T="IZZO (H.O.V.A.)" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1082" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Gotye" T="Somebody That I Used To Know" type="SONG" mergeable="true" del="false">
+  <compo A="Gotye" T="Somebody That I Used To Know" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1083" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Streets" T="Weak Become Heroes" type="SONG" mergeable="true" del="false">
@@ -3373,7 +3373,7 @@
   <compo A="Four Tops" T="I Can't Help Myself" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1124" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bob Dylan" T="Mr. Tambourine Man" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Mr. Tambourine Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1125" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Animals" T="We Gotta Get Out Of This Place" type="SONG" mergeable="true" del="false">
@@ -3424,7 +3424,7 @@
   <compo A="Dion" T="The Wanderer" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1141" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Grimes" T="Genesis" type="SONG" mergeable="true" del="false">
+  <compo A="Grimes" T="Genesis" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1142" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Suicide" T="Ghost Rider" type="SONG" mergeable="true" del="false">
@@ -3493,7 +3493,7 @@
   <compo A="Little Feat" T="Willin'" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1164" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="David Bowie" T="Suffragette City" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Suffragette City" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1165" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Doobie Brothers" T="What A Fool Believes" type="SONG" mergeable="true" del="false">
@@ -3565,7 +3565,7 @@
   <compo A="Elton John" T="Candle In The Wind" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1188" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rhiannon" type="SONG" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rhiannon" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1189" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Bob Dylan" T="Sad Eyed Lady Of The Lowlands" type="SONG" mergeable="true" del="true">
@@ -3913,7 +3913,7 @@
   <compo A="Elis Regina" T="Aguas De Marco" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1304" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Fiona Apple" T="Criminal" type="SONG" mergeable="true" del="false">
+  <compo A="Fiona Apple" T="Criminal" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1305" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Steely Dan" T="Rikki Don't Lose That Number" type="SONG" mergeable="true" del="false">
@@ -3931,7 +3931,7 @@
   <compo A="Liz Phair" T="Fuck And Run" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1310" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Drake" T="Marvin's Room" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Marvin's Room" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1311" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Sigur Ros" T="Hoppipolla" type="SONG" mergeable="true" del="true">
@@ -3982,7 +3982,7 @@
   <compo A="XTC" T="Dear God" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1327" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Leonard Cohen" T="Chelsea Hotel #2" type="SONG" mergeable="true" del="false">
+  <compo A="Leonard Cohen" T="Chelsea Hotel #2" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1328" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Chiffons" T="He's So Fine" type="SONG" mergeable="true" del="false">
@@ -4357,7 +4357,7 @@
   <compo A="Kendrick Lamar" T="Swimming Pools (Drank)" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1452" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="David Bowie" T="Moonage Daydream" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Moonage Daydream" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1453" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Nicki Minaj" T="Super Bass" type="SONG" mergeable="true" del="true">
@@ -4378,7 +4378,7 @@
   <compo A="Steve Harley" T="Make Me Smile" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1459" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Jesus And Mary Chain" T="Never Understand" type="SONG" mergeable="true" del="false">
+  <compo A="The Jesus And Mary Chain" T="Never Understand" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1460" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Kraftwerk" T="Die Roboter/The Robots" type="SONG" mergeable="true" del="false">
@@ -4489,7 +4489,7 @@
   <compo A="The Waterboys" T="The Whole Of The Moon" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1496" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Blur" T="Country House" type="SONG" mergeable="true" del="false">
+  <compo A="Blur" T="Country House" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1497" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Morrissey" T="Suedehead" type="SONG" mergeable="true" del="false">
@@ -4585,7 +4585,7 @@
   <compo A="Beastie Boys" T="Hey Ladies" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1528" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Animal Collective" T="Summertime Clothes" type="SONG" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Summertime Clothes" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1529" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Bob Dylan" T="Not Dark Yet" type="SONG" mergeable="true" del="false">
@@ -4627,7 +4627,7 @@
   <compo A="Herbie Hancock" T="Chameleon" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1542" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bob Dylan" T="It's All Over Now, Baby Blue" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="It's All Over Now, Baby Blue" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1543" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Kurt Vile" T="Pretty Pimpin'" type="SONG" mergeable="true" del="true">
@@ -4777,7 +4777,7 @@
   <compo A="Bangles" T="Manic Monday" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1592" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Beatles" T="Nowhere Man" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Nowhere Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1593" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="T. Rex" T="Metal Guru" type="SONG" mergeable="true" del="false">
@@ -4819,7 +4819,7 @@
   <compo A="Deerhunter" T="Nothing Ever Happened" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1606" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Blur" T="This Is A Low" type="SONG" mergeable="true" del="false">
+  <compo A="Blur" T="This Is A Low" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1607" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Flying Burrito Brothers" T="Sin City" type="SONG" mergeable="true" del="false">
@@ -4966,7 +4966,7 @@
   <compo A="Spiritualized" T="Ladies And Gentlemen We Are Floating In Space" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1655" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="David Bowie" T="Five Years" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Five Years" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1656" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Gorillaz" T="Stylo" type="SONG" mergeable="true" del="false">
@@ -5281,10 +5281,10 @@
   <compo A="Massive Attack" T="Karmacoma" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1760" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Alt-J" T="Breezeblocks" type="SONG" mergeable="true" del="false">
+  <compo A="Alt-J" T="Breezeblocks" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1761" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Jessie Ware" T="Wildest Moments" type="SONG" mergeable="true" del="false">
+  <compo A="Jessie Ware" T="Wildest Moments" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1762" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Kanye West" T="Stronger" type="SONG" mergeable="true" del="false">
@@ -5314,7 +5314,7 @@
   <compo A="The Darkness" T="I Believe In A Thing Called Love" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1771" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Cream" T="Crossroads" type="SONG" mergeable="true" del="false">
+  <compo A="Cream" T="Crossroads" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1772" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Stone Temple Pilots" T="Interstate Love Song" type="SONG" mergeable="true" del="false">
@@ -5584,7 +5584,7 @@
   <compo A="Rod Stewart" T="Tonight's The Night (Gonna Be Alright)" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1861" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Arcade Fire" T="Keep The Car Running" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Keep The Car Running" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1862" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Who" T="Behind Blue Eyes" type="SONG" mergeable="true" del="true">
@@ -5614,7 +5614,7 @@
   <compo A="Blondie" T="Dreaming" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1871" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Grizzly Bear" T="Yet Again" type="SONG" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Yet Again" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1872" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="AC/DC" T="Dirty Deeds Done Dirt Cheap" type="SONG" mergeable="true" del="false">
@@ -5674,7 +5674,7 @@
   <compo A="The Undisputed Truth" T="Smiling Faces Sometimes" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1891" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="AsAP Rocky" T="Peso" type="SONG" mergeable="true" del="false">
+  <compo A="AsAP Rocky" T="Peso" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1892" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Phoenix" T="Too Young" type="SONG" mergeable="true" del="false">
@@ -5701,7 +5701,7 @@
   <compo A="The Rolling Stones" T="Moonlight Mile" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1900" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Glasvegas" T="Daddy's Gone" type="SONG" mergeable="true" del="false">
+  <compo A="Glasvegas" T="Daddy's Gone" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1901" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Public Image Ltd." T="Rise" type="SONG" mergeable="true" del="false">
@@ -5770,7 +5770,7 @@
   <compo A="Aphex Twin" T="Mini Pops 67" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1923" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Alabama Shakes" T="Hold On" type="SONG" mergeable="true" del="false">
+  <compo A="Alabama Shakes" T="Hold On" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1924" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Lil' Louis" T="French Kiss" type="SONG" mergeable="true" del="false">
@@ -5929,7 +5929,7 @@
   <compo A="The White Stripes" T="Icky Thump" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1976" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="George Harrison" T="What Is Life" type="SONG" mergeable="true" del="false">
+  <compo A="George Harrison" T="What Is Life" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1977" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Jan And Dean" T="Surf City" type="SONG" mergeable="true" del="false">
@@ -6232,7 +6232,7 @@
   <compo A="Grinderman" T="No Pussy Blues" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2077" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Arcade Fire" T="Intervention" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Intervention" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2078" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Pink Floyd" T="Time" type="SONG" mergeable="true" del="true">
@@ -6373,7 +6373,7 @@
   <compo A="The Chiffons" T="One Fine Day" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2124" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Beastie Boys" T="No Sleep Till Brooklyn" type="SONG" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="No Sleep Till Brooklyn" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2125" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="King Crimson" T="In The Court Of The Crimson King" type="SONG" mergeable="true" del="false">
@@ -6430,7 +6430,7 @@
   <compo A="John Lennon" T="Mother" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2143" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Animal Collective" T="Brother Sport" type="SONG" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Brother Sport" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2144" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Paul Simon" T="50 Ways To Leave Your Lover" type="SONG" mergeable="true" del="false">
@@ -6448,7 +6448,7 @@
   <compo A="TUnE-yArDs" T="Bizness" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2149" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Dirty Projectors" T="Gun Has No Trigger" type="SONG" mergeable="true" del="false">
+  <compo A="Dirty Projectors" T="Gun Has No Trigger" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2150" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Backstreet Boys" T="I Want It That Way" type="SONG" mergeable="true" del="false">
@@ -6790,7 +6790,7 @@
   <compo A="The Supremes" T="Love Child" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2263" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Chromatics" T="Kill For Love" type="SONG" mergeable="true" del="false">
+  <compo A="Chromatics" T="Kill For Love" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2264" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Spinners" T="Could It Be I'm Falling In Love" type="SONG" mergeable="true" del="false">
@@ -7036,7 +7036,7 @@
   <compo A="U2" T="Desire" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2345" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Beatles" T="Drive My Car" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Drive My Car" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2346" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Violent Femmes" T="Gone Daddy Gone" type="SONG" mergeable="true" del="false">
@@ -7045,7 +7045,7 @@
   <compo A="Al Stewart" T="Year Of The Cat" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2348" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Arcade Fire" T="No Cars Go" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="No Cars Go" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2349" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Bjork" T="Bachelorette" type="SONG" mergeable="true" del="false">
@@ -7399,7 +7399,7 @@
   <compo A="Pavement" T="Here" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2466" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Belle And Sebastian" T="The Boy With The Arab Strap" type="SONG" mergeable="true" del="false">
+  <compo A="Belle And Sebastian" T="The Boy With The Arab Strap" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2467" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Marvin Gaye" T="I Want You" type="SONG" mergeable="true" del="false">
@@ -7483,7 +7483,7 @@
   <compo A="System Of A Down" T="B.Y.O.B." type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2494" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Chemical Brothers" T="The Private Psychedelic Reel" type="SONG" mergeable="true" del="false">
+  <compo A="The Chemical Brothers" T="The Private Psychedelic Reel" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2495" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Lynyrd Skynyrd" T="That Smell" type="SONG" mergeable="true" del="true">
@@ -7798,7 +7798,7 @@
   <compo A="George Jones" T="She Thinks I Still Care" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2599" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Blondie" T="The Tide Is High" type="SONG" mergeable="true" del="false">
+  <compo A="Blondie" T="The Tide Is High" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2600" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="John Lennon" T="Cold Turkey" type="SONG" mergeable="true" del="false">
@@ -7993,7 +7993,7 @@
   <compo A="The Robins" T="Riot In Cell Block #9" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2664" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Jack White" T="Sixteen Saltines" type="SONG" mergeable="true" del="false">
+  <compo A="Jack White" T="Sixteen Saltines" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2665" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Kate Smith" T="God Bless America" type="SONG" mergeable="true" del="false">
@@ -8113,7 +8113,7 @@
   <compo A="Howlin' Wolf" T="Back Door Man" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2704" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Jay-Z And Kanye West" T="Otis" type="SONG" mergeable="true" del="false">
+  <compo A="Jay-Z And Kanye West" T="Otis" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2705" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Hank Williams" T="Hey Good Lookin'" type="SONG" mergeable="true" del="false">
@@ -8347,7 +8347,7 @@
   <compo A="Jessie Ware" T="110%" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2782" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Goldfrapp" T="Lovely Head" type="SONG" mergeable="true" del="false">
+  <compo A="Goldfrapp" T="Lovely Head" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2783" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Skyliners" T="Since I Don't Have You" type="SONG" mergeable="true" del="false">
@@ -8491,7 +8491,7 @@
   <compo A="Dizzy Gillespie" T="A Night In Tunisia" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2830" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Blur" T="Under The Westway" type="SONG" mergeable="true" del="false">
+  <compo A="Blur" T="Under The Westway" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2831" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Nina Simone" T="Mississippi Goddam" type="SONG" mergeable="true" del="false">
@@ -8512,7 +8512,7 @@
   <compo A="Elvis Presley" T="Blue Moon" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2837" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bon Iver" T="Perth" type="SONG" mergeable="true" del="false">
+  <compo A="Bon Iver" T="Perth" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2838" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Bessie Smith" T="Downhearted Blues" type="SONG" mergeable="true" del="false">
@@ -8599,7 +8599,7 @@
   <compo A="Drake" T="Know Yourself" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2866" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Johnny Thunders" T="You Can't Put Your Arms Around A Memory" type="SONG" mergeable="true" del="false">
+  <compo A="Johnny Thunders" T="You Can't Put Your Arms Around A Memory" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="2867" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Manfred Mann" T="Blinded By The Light" type="SONG" mergeable="true" del="false">
@@ -9010,7 +9010,7 @@
   <compo A="The Jon Spencer Blues Explosion" T="Bellbottoms" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3003" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Django Django" T="Default" type="SONG" mergeable="true" del="false">
+  <compo A="Django Django" T="Default" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3004" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Louis Armstrong" T="Struttin' With Some Barbeque" type="SONG" mergeable="true" del="false">
@@ -9196,13 +9196,13 @@
   <compo A="Guided By Voices" T="Game Of Pricks" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3065" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bob Dylan" T="Love Minus Zero/No Limit" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Love Minus Zero/No Limit" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3066" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Billy Joel" T="Uptown Girl" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3067" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Frank Sinatra" T="It Was A Very Good Year" type="SONG" mergeable="true" del="false">
+  <compo A="Frank Sinatra" T="It Was A Very Good Year" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3068" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Chemical Brothers" T="Out Of Control" type="SONG" mergeable="true" del="false">
@@ -9388,7 +9388,7 @@
   <compo A="Crystal Castles" T="Crimewave" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3129" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Kendrick Lamar" T="Bitch, Don't Kill My Vibe" type="SONG" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="Bitch, Don't Kill My Vibe" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3130" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Method Man" T="Bring The Pain" type="SONG" mergeable="true" del="false">
@@ -10399,7 +10399,7 @@
   <compo A="Tone-Loc" T="Funky Cold Medina" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3466" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Goldfrapp" T="Strict Machine" type="SONG" mergeable="true" del="false">
+  <compo A="Goldfrapp" T="Strict Machine" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3467" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Gang Gang Dance" T="Glass Jar" type="SONG" mergeable="true" del="false">
@@ -10429,13 +10429,13 @@
   <compo A="LCD Soundsystem" T="Yeah" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3476" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Kavinsky" T="Nightcall [And Lovefoxxx]" type="SONG" mergeable="true" del="false">
+  <compo A="Kavinsky" T="Nightcall [And Lovefoxxx]" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3477" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="U2" T="All I Want Is You" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3478" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Beatles" T="Michelle" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Michelle" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3479" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Khaled" T="Didi" type="SONG" mergeable="true" del="false">
@@ -10678,7 +10678,7 @@
   <compo A="Bill Withers" T="Use Me" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3559" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Fucked Up" T="Queen Of Hearts" type="SONG" mergeable="true" del="false">
+  <compo A="Fucked Up" T="Queen Of Hearts" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3560" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Gang Starr" T="DWYCK" type="SONG" mergeable="true" del="false">
@@ -11392,7 +11392,7 @@
   <compo A="Big Joe Williams" T="Baby Please Don't Go" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3797" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Cat Power" T="Ruin" type="SONG" mergeable="true" del="false">
+  <compo A="Cat Power" T="Ruin" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="3798" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Orchestral Manoeuvres In The Dark" T="If You Leave" type="SONG" mergeable="true" del="false">
@@ -12349,7 +12349,7 @@
   <compo A="Van Morrison" T="Domino" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4116" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="M.I.A." T="Boyz" type="SONG" mergeable="true" del="false">
+  <compo A="M.I.A." T="Boyz" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4117" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="R.E.M." T="Don't Go Back To Rockville" type="SONG" mergeable="true" del="true">
@@ -12601,7 +12601,7 @@
   <compo A="Primal Scream" T="Kill All Hippies" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4200" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Death Grips" T="I've Seen Footage" type="SONG" mergeable="true" del="false">
+  <compo A="Death Grips" T="I've Seen Footage" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4201" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Stylistics" T="Betcha By Golly, Wow" type="SONG" mergeable="true" del="false">
@@ -12637,7 +12637,7 @@
   <compo A="Technotronic" T="Pump Up The Jam" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4212" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Badfinger" T="Come And Get It" type="SONG" mergeable="true" del="false">
+  <compo A="Badfinger" T="Come And Get It" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4213" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Coldplay" T="Trouble" type="SONG" mergeable="true" del="true">
@@ -13135,7 +13135,7 @@
   <compo A="Smokey Robinson" T="Being With You" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4378" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Drake" T="Take Care" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Take Care" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4379" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The The" T="Infected" type="SONG" mergeable="true" del="false">
@@ -13462,7 +13462,7 @@
   <compo A="Soap And Skin" T="Spiracle" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4487" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Electric Light Orchestra" T="Don't Bring Me Down" type="SONG" mergeable="true" del="false">
+  <compo A="Electric Light Orchestra" T="Don't Bring Me Down" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4488" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Eagles" T="Take It To The Limit" type="SONG" mergeable="true" del="false">
@@ -13687,7 +13687,7 @@
   <compo A="Charles Mingus" T="Pithecanthropus Erectus" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4562" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Cults" T="Abducted" type="SONG" mergeable="true" del="false">
+  <compo A="Cults" T="Abducted" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4563" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Sasha" T="Xpander" type="SONG" mergeable="true" del="false">
@@ -13948,7 +13948,7 @@
   <compo A="Spandau Ballet" T="Gold" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4649" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Hot Chip" T="Flutes" type="SONG" mergeable="true" del="false">
+  <compo A="Hot Chip" T="Flutes" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4650" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Bon Jovi" T="You Give Love A Bad Name" type="SONG" mergeable="true" del="false">
@@ -14602,7 +14602,7 @@
   <compo A="Gal Costa" T="Baby" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4867" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="M83" T="Don't Save Us From The Flames" type="SONG" mergeable="true" del="false">
+  <compo A="M83" T="Don't Save Us From The Flames" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4868" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Nancy And Frank Sinatra" T="Somethin' Stupid" type="SONG" mergeable="true" del="false">
@@ -14713,7 +14713,7 @@
   <compo A="Professor Longhair" T="Mardi Gras In New Orleans" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4904" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bob Dylan" T="Maggie's Farm" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Maggie's Farm" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4905" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Sarah McLachlan" T="Possession" type="SONG" mergeable="true" del="false">
@@ -14851,7 +14851,7 @@
   <compo A="Shabba Ranks" T="Mr. Loverman" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4950" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Goldfrapp" T="A And E" type="SONG" mergeable="true" del="false">
+  <compo A="Goldfrapp" T="A And E" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="4951" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="America" T="Sister Golden Hair" type="SONG" mergeable="true" del="false">
@@ -16546,7 +16546,7 @@
   <compo A="Pearl Jam" T="The Fixer" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="5515" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Goldfrapp" T="Ooh La La" type="SONG" mergeable="true" del="false">
+  <compo A="Goldfrapp" T="Ooh La La" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="5516" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The White Stripes" T="You Don't Know What Love Is (You Just Do As You're Told)" type="SONG" mergeable="true" del="false">
@@ -17518,7 +17518,7 @@
   <compo A="Seeed" T="Dickes B" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="5839" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bon Iver" T="Re: Stacks" type="SONG" mergeable="true" del="false">
+  <compo A="Bon Iver" T="Re: Stacks" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="5840" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Shuggie Otis" T="Information Ispiration" type="SONG" mergeable="true" del="false">
@@ -17695,7 +17695,7 @@
   <compo A="The Heptones" T="Book Of Rules" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="5898" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bob Dylan" T="Gates Of Eden" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Gates Of Eden" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="5899" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Weeknd And Daft Punk" T="I Feel It Coming" type="SONG" mergeable="true" del="true">
@@ -18268,7 +18268,7 @@
   <compo A="Bob Dylan" T="Lily, Rosemary And The Jack Of Hearts" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6089" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Foo Fighters" T="Walk" type="SONG" mergeable="true" del="false">
+  <compo A="Foo Fighters" T="Walk" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6090" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Tobias Jesso Jr." T="Without You" type="SONG" mergeable="true" del="false">
@@ -18448,7 +18448,7 @@
   <compo A="Dexys Midnight Runners" T="This Is What She's Like" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6149" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Beatles" T="You Won't See Me" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="You Won't See Me" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6150" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Jimi Hendrix" T="Red House" type="SONG" mergeable="true" del="true">
@@ -19708,7 +19708,7 @@
   <compo A="Glass Candy" T="Warm In The Winter" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6569" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Fiona Apple" T="Sleep To Dream" type="SONG" mergeable="true" del="false">
+  <compo A="Fiona Apple" T="Sleep To Dream" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6570" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Basic Channel" T="Phylyps Trak II" type="SONG" mergeable="true" del="false">
@@ -20131,7 +20131,7 @@
   <compo A="Judy Clay And William Bell" T="Private Number" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6710" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Black Keys" T="Gold On The Ceiling" type="SONG" mergeable="true" del="false">
+  <compo A="The Black Keys" T="Gold On The Ceiling" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6711" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Mary Wells" T="You Beat Me To The Punch" type="SONG" mergeable="true" del="false">
@@ -20383,7 +20383,7 @@
   <compo A="Coleman Hawkins" T="The Man I Love" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6794" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Ladyhawke" T="My Delirium" type="SONG" mergeable="true" del="false">
+  <compo A="Ladyhawke" T="My Delirium" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6795" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Otis Redding" T="I Can't Turn You Loose" type="SONG" mergeable="true" del="false">
@@ -20656,7 +20656,7 @@
   <compo A="Stevie Wonder" T="Isn't She Lovely" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6885" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Beatles" T="The Word" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Word" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="6886" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Empress Of" T="Standard" type="SONG" mergeable="true" del="false">
@@ -21334,7 +21334,7 @@
   <compo A="Premiata Forneria Marconi" T="Impressioni Di Settembre" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7111" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Grizzly Bear" T="Sleeping Ute" type="SONG" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Sleeping Ute" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7112" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Pearl Jam" T="Sirens" type="SONG" mergeable="true" del="false">
@@ -21730,7 +21730,7 @@
   <compo A="Bruce Springsteen" T="Land Of Hope And Dreams" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7243" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bat For Lashes" T="What's A Girl To Do?" type="SONG" mergeable="true" del="false">
+  <compo A="Bat For Lashes" T="What's A Girl To Do?" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7244" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Rapture" T="I Need Your Love" type="SONG" mergeable="true" del="false">
@@ -22360,7 +22360,7 @@
   <compo A="Australian Crawl" T="Reckless" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7453" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Beatles" T="Run For Your Life" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Run For Your Life" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7454" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Spiritualized" T="Stop Your Crying" type="SONG" mergeable="true" del="false">
@@ -22819,7 +22819,7 @@
   <compo A="Maurice Fanon" T="L'echarpe" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7606" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="The Antlers" T="I Don't Want Love" type="SONG" mergeable="true" del="false">
+  <compo A="The Antlers" T="I Don't Want Love" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7607" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Gap Band" T="Oops Upside Your Head (I Don't Believe You Won't Get Up And Dance)" type="SONG" mergeable="true" del="false">
@@ -23389,7 +23389,7 @@
   <compo A="Boogie Down Productions" T="Love's Gonna Get 'Cha (Material Love)" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7796" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="JANIS JOPLIN" T="MOve Over" type="SONG" mergeable="true" del="false">
+  <compo A="JANIS JOPLIN" T="MOve Over" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7797" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Michael Jackson" T="Dirty Diana" type="SONG" mergeable="true" del="false">
@@ -23929,7 +23929,7 @@
   <compo A="Andy Kim" T="Rock Me Gently" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7976" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Cat Power" T="Cherokee" type="SONG" mergeable="true" del="false">
+  <compo A="Cat Power" T="Cherokee" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="7977" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Gene Clark" T="No Other" type="SONG" mergeable="true" del="false">
@@ -25366,7 +25366,7 @@
   <compo A="Lennie Tristano" T="Intuition" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="8455" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="M.I.A." T="Bird Flu" type="SONG" mergeable="true" del="false">
+  <compo A="M.I.A." T="Bird Flu" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="8456" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Def Leppard" T="Love Bites" type="SONG" mergeable="true" del="false">
@@ -25996,7 +25996,7 @@
   <compo A="Royal Blood" T="Out Of The Black" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="8665" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Crystal Castles" T="Alice Practice" type="SONG" mergeable="true" del="false">
+  <compo A="Crystal Castles" T="Alice Practice" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="8666" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Shamen" T="Ebeneezer Goode" type="SONG" mergeable="true" del="false">
@@ -26443,7 +26443,7 @@
   <compo A="Bob Dylan" T="Million Dollar Bash" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="8814" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Beirut" T="East Harlem" type="SONG" mergeable="true" del="false">
+  <compo A="Beirut" T="East Harlem" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="8815" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="The Magnetic Fields" T="100,000 Fireflies" type="SONG" mergeable="true" del="false">
@@ -26776,7 +26776,7 @@
   <compo A="Antonio Carlos Jobim" T="Insensatez" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="8925" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Drake" T="Headlines" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Headlines" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="8926" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Patti Smith" T="Hey Joe" type="SONG" mergeable="true" del="false">
@@ -28363,7 +28363,7 @@
   <compo A="Shakespear's Sister" T="You're History" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9454" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Jack White" T="Love Interruption" type="SONG" mergeable="true" del="false">
+  <compo A="Jack White" T="Love Interruption" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9455" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="50 Cent" T="How To Rob" type="SONG" mergeable="true" del="false">
@@ -28399,7 +28399,7 @@
   <compo A="Can" T="Father Cannot Yell" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9466" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Bob Dylan" T="She Belongs To Me" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="She Belongs To Me" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9467" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Lou Reed" T="Street Hassle" type="SONG" mergeable="true" del="false">
@@ -28888,7 +28888,7 @@
   <compo A="Eminem" T="Just The Two Of Us/'97 Bonnie And Clyde" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9629" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Azealia Banks" T="1991" type="SONG" mergeable="true" del="false">
+  <compo A="Azealia Banks" T="1991" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9630" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Lou Reed" T="Romeo Had Juliette" type="SONG" mergeable="true" del="false">
@@ -29356,7 +29356,7 @@
   <compo A="Soul Coughing" T="Super Bon Bon" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9785" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Animal Collective" T="Who Could Win A Rabbit?" type="SONG" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Who Could Win A Rabbit?" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9786" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Genesis" T="Firth Of Fifth" type="SONG" mergeable="true" del="false">
@@ -29950,7 +29950,7 @@
   <compo A="Daniel Lanois" T="The Maker" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9983" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
-  <compo A="Atlas Sound" T="Te Amo" type="SONG" mergeable="true" del="false">
+  <compo A="Atlas Sound" T="Te Amo" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 10000 Songs - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="9984" creation="03/12/2018 12:03:58" size="10000"/>
   </compo>
   <compo A="Paula Cole" T="I Don't Want To Wait" type="SONG" mergeable="true" del="false">

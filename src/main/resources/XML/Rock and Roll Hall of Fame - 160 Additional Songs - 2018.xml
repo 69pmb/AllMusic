@@ -178,7 +178,7 @@
   <compo A="Heart" T="Barracuda" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="59" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Little Wing" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Little Wing" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="60" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
   <compo A="Billie Holiday" T="Strange Fruit" type="SONG" mergeable="true" del="true">
@@ -187,7 +187,7 @@
   <compo A="Janet Jackson" T="Control" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="62" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
-  <compo A="The Jam" T="In the City" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="In the City" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="63" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
   <compo A="Etta James" T="At Last" type="SONG" mergeable="true" del="true">
@@ -328,7 +328,7 @@
   <compo A="The Pixies" T="Where Is My Mind?" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="109" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
-  <compo A="Elvis Presley" T="Hound Dog" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Hound Dog" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="110" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
   <compo A="Jimmy Preston" T="Rock this Joint" type="SONG" mergeable="true" del="false">
