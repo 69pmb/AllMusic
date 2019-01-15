@@ -10,7 +10,7 @@
   <compo A="My Chemical Romance" T="Famous Last Words" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="false" rank="3" creation="04/09/2018 11:31:52" size="49"/>
   </compo>
-  <compo A="Arcade Fire" T="Keep The Car Running" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Keep The Car Running" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="false" rank="4" creation="04/09/2018 11:31:52" size="49"/>
   </compo>
   <compo A="Kaiser Chiefs" T="Ruby" type="SONG" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Santogold" T="Creator/LES Artistes" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="false" rank="43" creation="04/09/2018 11:31:52" size="49"/>
   </compo>
-  <compo A="Glasvegas" T="Daddy's Gone" type="SONG" mergeable="true" del="false">
+  <compo A="Glasvegas" T="Daddy's Gone" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="false" rank="44" creation="04/09/2018 11:31:52" size="49"/>
   </compo>
   <compo A="Bloc Party" T="Flux" type="SONG" mergeable="true" del="false">

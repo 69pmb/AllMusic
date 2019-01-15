@@ -10,7 +10,7 @@
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 75 Tunes That Defined Rock Roll - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="3" creation="04/09/2018 15:48:04" size="75"/>
   </compo>
-  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 75 Tunes That Defined Rock Roll - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="4" creation="04/09/2018 15:48:04" size="75"/>
   </compo>
   <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" mergeable="true" del="true">
@@ -214,7 +214,7 @@
   <compo A="The Human League" T="Love Action" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 75 Tunes That Defined Rock Roll - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="71" creation="04/09/2018 15:48:04" size="75"/>
   </compo>
-  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 75 Tunes That Defined Rock Roll - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="72" creation="04/09/2018 15:48:04" size="75"/>
   </compo>
   <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="true">

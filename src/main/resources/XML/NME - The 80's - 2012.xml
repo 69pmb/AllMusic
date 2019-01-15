@@ -85,7 +85,7 @@
   <compo A="Sugarcubes" T="Birthday" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="28" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Jam" T="Thats Entertainment" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="Thats Entertainment" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="29" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Pet Shop Boys" T="What Have I Done To Deserve This?" type="SONG" mergeable="true" del="false">
@@ -151,19 +151,19 @@
   <compo A="MARRS" T="Pump Up The Volume" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="50" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="51" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="The River" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="52" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Cure" T="Just Like Heaven" type="SONG" mergeable="true" del="false">
+  <compo A="The Cure" T="Just Like Heaven" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="53" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="808 State" T="Pacific State" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="54" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Frankie Goes To Hollywood" T="Two Tribes" type="SONG" mergeable="true" del="false">
+  <compo A="Frankie Goes To Hollywood" T="Two Tribes" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="55" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Soul II Soul" T="Back To Life" type="SONG" mergeable="true" del="false">

@@ -10,7 +10,7 @@
   <compo A="Genesis" T="Supper's Ready" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publish="2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="3" creation="07/09/2018 15:13:27" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Moonage Daydream" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="Moonage Daydream" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publish="2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="4" creation="07/09/2018 15:13:27" size="50"/>
   </compo>
   <compo A="John Cale" T="Fear Is A Man's Best Friend" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Patti Smith" T="Gloria" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publish="2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="29" creation="07/09/2018 15:13:27" size="50"/>
   </compo>
-  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publish="2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="30" creation="07/09/2018 15:13:27" size="50"/>
   </compo>
   <compo A="Led Zeppelin" T="Kashmir" type="SONG" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Suicide" T="Ghost Rider" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publish="2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="42" creation="07/09/2018 15:13:27" size="50"/>
   </compo>
-  <compo A="Magazine" T="Shot By Both Sides" type="SONG" mergeable="true" del="false">
+  <compo A="Magazine" T="Shot By Both Sides" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" publish="2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="43" creation="07/09/2018 15:13:27" size="50"/>
   </compo>
   <compo A="Kraftwerk" T="Das Model" type="SONG" mergeable="true" del="false">

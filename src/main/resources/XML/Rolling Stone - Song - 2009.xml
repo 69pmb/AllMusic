@@ -37,7 +37,7 @@
   <compo A="Wilco" T="Wilco (The Song)" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="12" creation="08/08/2017 23:13:02" size="25"/>
   </compo>
-  <compo A="Animal Collective" T="My Girls" type="SONG" mergeable="true" del="false">
+  <compo A="Animal Collective" T="My Girls" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="13" creation="08/08/2017 23:13:02" size="25"/>
   </compo>
   <compo A="Black Eyed Peas" T="Boom Boom Pow" type="SONG" mergeable="true" del="false">

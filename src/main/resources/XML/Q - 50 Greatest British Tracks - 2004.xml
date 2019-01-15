@@ -43,10 +43,10 @@
   <compo A="The Clash" T="London Calling" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="14" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
-  <compo A="Blur" T="This Is A Low" type="SONG" mergeable="true" del="false">
+  <compo A="Blur" T="This Is A Low" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="15" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
-  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="16" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
   <compo A="The Small Faces" T="All Or Nothing" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Joy Division" T="Love Will Tear Us Apart" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="29" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
-  <compo A="Ian Dury" T="Sex And Drugs And Rock And Roll" type="SONG" mergeable="true" del="false">
+  <compo A="Ian Dury" T="Sex And Drugs And Rock And Roll" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Greatest British Tracks - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="30" creation="19/07/2017 07:11:54" size="50"/>
   </compo>
   <compo A="The Verve" T="Bitter Sweet Symphony" type="SONG" mergeable="true" del="true">

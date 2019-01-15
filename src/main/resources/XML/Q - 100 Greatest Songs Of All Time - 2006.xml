@@ -181,7 +181,7 @@
   <compo A="The Verve" T="The Drugs Don't Work" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="60" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Kate Bush" T="Wuthering Heights" type="SONG" mergeable="true" del="false">
+  <compo A="Kate Bush" T="Wuthering Heights" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="61" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Gimme Shelter" type="SONG" mergeable="true" del="true">
@@ -280,7 +280,7 @@
   <compo A="The Stone Roses" T="I Am The Resurrection" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="93" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elton John" T="Rocket Man" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Rocket Man" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="94" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Pixies" T="Debaser" type="SONG" mergeable="true" del="false">
@@ -292,7 +292,7 @@
   <compo A="The Strokes" T="Last Nite" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="97" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Songs Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="98" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Rage Against The Machine" T="Killing In The Name" type="SONG" mergeable="true" del="false">

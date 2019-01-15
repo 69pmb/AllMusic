@@ -4,7 +4,7 @@
   <compo A="Chuck Berry" T="Johnny B Goode" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="1" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="Hound Dog" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Hound Dog" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="2" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Jerry Lee Lewis" T="Great Balls of Fire" type="SONG" mergeable="true" del="true">
@@ -31,7 +31,7 @@
   <compo A="Buddy Holly" T="Peggy Sue" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="10" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="11" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Carl Perkins" T="Blue Suede Shoes" type="SONG" mergeable="true" del="false">
@@ -184,7 +184,7 @@
   <compo A="Bill Haley" T="Rock Around The Clock" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="61" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Gene Vincent" T="Be-Bop-A-Lula" type="SONG" mergeable="true" del="false">
+  <compo A="Gene Vincent" T="Be-Bop-A-Lula" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 50's - 2012" publish="2012" cat="DECADE" rangeB="1950" rangeE="1959" sorted="true" rank="62" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Miles Davis" T="Blue In Green" type="SONG" mergeable="true" del="false">

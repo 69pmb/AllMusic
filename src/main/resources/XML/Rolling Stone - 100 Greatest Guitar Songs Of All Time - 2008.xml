@@ -7,7 +7,7 @@
   <compo A="Jimi Hendrix" T="Purple Haze" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="2" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Cream" T="Crossroads" type="SONG" mergeable="true" del="false">
+  <compo A="Cream" T="Crossroads" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="3" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Kinks" T="You Really Got Me" type="SONG" mergeable="true" del="true">
@@ -133,7 +133,7 @@
   <compo A="Sleater-Kinney" T="Dig Me Out" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="44" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Beatles" T="I Saw Her Standing There" type="SONG" mergeable="true" del="false">
+  <compo A="Beatles" T="I Saw Her Standing There" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="45" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Dick Dale" T="Miserlou" type="SONG" mergeable="true" del="false">

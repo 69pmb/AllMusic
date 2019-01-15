@@ -52,7 +52,7 @@
   <compo A="The Rolling Stones" T="Brown Sugar" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="17" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Ian Dury" T="Sex And Drugs And Rock And Roll" type="SONG" mergeable="true" del="false">
+  <compo A="Ian Dury" T="Sex And Drugs And Rock And Roll" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="18" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Joy Division" T="Transmission" type="SONG" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="Fleetwood Mac" T="Dreams" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="47" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="48" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Clash" T="Train In Vain" type="SONG" mergeable="true" del="false">
@@ -256,7 +256,7 @@
   <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="85" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Leonard Cohen" T="Chelsea Hotel No. 2" type="SONG" mergeable="true" del="false">
+  <compo A="Leonard Cohen" T="Chelsea Hotel No. 2" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="86" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Roxy Music" T="Virginia Plain" type="SONG" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="Bob Marley" T="No Woman No Cry" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="96" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Kate Bush" T="Wuthering Heights" type="SONG" mergeable="true" del="false">
+  <compo A="Kate Bush" T="Wuthering Heights" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="97" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="James Brown" T="Get Up (I Feel Like Being A) Sex Machine" type="SONG" mergeable="true" del="true">

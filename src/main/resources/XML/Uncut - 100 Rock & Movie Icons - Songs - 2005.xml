@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Songs - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="2" creation="03/09/2018 10:22:23" size="100"/>
   </compo>
   <compo A="Beatles" T="She Loves You" type="SONG" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="Ronettes" T="Be My Baby" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Songs - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="62" creation="03/09/2018 10:22:23" size="100"/>
   </compo>
-  <compo A="Magazine" T="Shot By Both Sides" type="SONG" mergeable="true" del="false">
+  <compo A="Magazine" T="Shot By Both Sides" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Songs - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="67" creation="03/09/2018 10:22:23" size="100"/>
   </compo>
   <compo A="Donna Summer" T="I Feel Love" type="SONG" mergeable="true" del="true">

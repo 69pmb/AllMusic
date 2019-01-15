@@ -4,7 +4,7 @@
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="1" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="2" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="Visions Of Johanna" type="SONG" mergeable="true" del="true">
@@ -13,10 +13,10 @@
   <compo A="Bob Dylan" T="A Hard Rains Gonna Fall" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="4" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="It's Alright, Ma (I'm Only Bleeding)" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="It's Alright, Ma (I'm Only Bleeding)" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="5" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="Subterranean Homesick Blues" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Subterranean Homesick Blues" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="6" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="Desolation Row" type="SONG" mergeable="true" del="true">
@@ -31,7 +31,7 @@
   <compo A="Bob Dylan" T="Sad-Eyed Lady Of The Lowlands" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="10" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="It's All Over Now Baby Blue" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="It's All Over Now Baby Blue" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="11" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="Positively 4th Street" type="SONG" mergeable="true" del="true">
@@ -40,10 +40,10 @@
   <compo A="Bob Dylan" T="Stuck Inside Of Mobile With The Memphis Blues Again" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="13" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="She Belongs To Me" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="She Belongs To Me" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="14" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="Mr Tambourine Man" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Mr Tambourine Man" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="15" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="The Lonesome Death Of Hattie Carroll" type="SONG" mergeable="true" del="true">
@@ -67,7 +67,7 @@
   <compo A="Bob Dylan" T="Masters Of War" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="22" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="Love Minus Zero/No Limit" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Love Minus Zero/No Limit" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="23" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="Not Dark Yet" type="SONG" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Bob Dylan" T="Hurricane" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="25" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="Gates Of Eden" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Gates Of Eden" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Top 40 Dylan Tracks - 2002" publish="2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="26" creation="03/09/2018 10:17:46" size="40"/>
   </compo>
   <compo A="Bob Dylan" T="Every Grain Of Sand" type="SONG" mergeable="true" del="false">

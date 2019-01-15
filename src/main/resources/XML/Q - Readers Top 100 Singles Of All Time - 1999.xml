@@ -94,7 +94,7 @@
   <compo A="Blur" T="Song 2" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="31" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Kate Bush" T="Wuthering Heights" type="SONG" mergeable="true" del="false">
+  <compo A="Kate Bush" T="Wuthering Heights" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="32" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="The Sex Pistols" T="God Save The Queen" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="49" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="50" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Derek And The Dominoes" T="Layla" type="SONG" mergeable="true" del="true">
@@ -160,7 +160,7 @@
   <compo A="The Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="53" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="54" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Robbie Williams" T="Angles" type="SONG" mergeable="true" del="false">
@@ -265,7 +265,7 @@
   <compo A="Stevie Wonder" T="Superstition" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="88" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Jam" T="That's Entertainment" type="SONG" mergeable="true" del="false">
+  <compo A="The Jam" T="That's Entertainment" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="89" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Marvin Gaye" T="(Sexual) Healing" type="SONG" mergeable="true" del="false">
