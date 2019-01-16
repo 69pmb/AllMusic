@@ -296,9 +296,13 @@ public class PanelUtils {
 				importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
 				CompositionUtils.removeCompositionsInFiles(toRemoveToFinal);
 				// Update fichier panel data
-				for (Fichier file : toRemoveToFinal.getFiles()) {
-					List<Composition> compoListFromData = fichierPanel.getCompoListFromData(file);
-					compoListFromData.get(SearchUtils.indexOf(compoListFromData, toRemoveToFinal)).setDeleted(true);
+				try {
+					for (Fichier file : toRemoveToFinal.getFiles()) {
+						List<Composition> compoListFromData = fichierPanel.getCompoListFromData(file);
+						compoListFromData.get(SearchUtils.indexOf(compoListFromData, toRemoveToFinal)).setDeleted(true);
+					}
+				} catch (Exception e) {
+					LOG.warn("Erreur lors de la mise à jour du panel", e);
 				}
 			} catch (MyException e1) {
 				LOG.error("Erreur lors de la suppression d'une composition", e1);
@@ -469,7 +473,7 @@ public class PanelUtils {
 	 * @param panel le futur panel parent
 	 * @param component le composant à ajouter
 	 * @param alignement l'alignement vertical
-	 * @param rigidSize la largeur de la rigid area 
+	 * @param rigidSize la largeur de la rigid area
 	 */
 	public static void addComponent(JPanel panel, JComponent component, float alignement, int rigidSize) {
 		component.setAlignmentX(alignement);
