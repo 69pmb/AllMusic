@@ -157,7 +157,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="52" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Box Tops" T="The Letter" type="SONG" mergeable="true" del="false">
+  <compo A="Box Tops" T="The Letter" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="53" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Johnny Moore's Three Blazers" T="Driftin' Blues" type="SONG" mergeable="true" del="false">
@@ -742,7 +742,7 @@
   <compo A="The Kingsmen" T="Louie Louie" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="247" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Kinks" T="A Well Respected Man" type="SONG" mergeable="true" del="false">
+  <compo A="The Kinks" T="A Well Respected Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="248" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Kinks" T="Lola" type="SONG" mergeable="true" del="false">
@@ -916,7 +916,7 @@
   <compo A="Van Morrison" T="Madame George" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="305" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Van Morrison" T="Moondance" type="SONG" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Moondance" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="306" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Mothers of Invention" T="Brown Shoes Don't Make It" type="SONG" mergeable="true" del="false">
@@ -982,7 +982,7 @@
   <compo A="Peter, Paul and Mary" T="If I Had a Hammer" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="327" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Tom Petty" T="American Girl" type="SONG" mergeable="true" del="false">
+  <compo A="Tom Petty" T="American Girl" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="328" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Wilson Pickett" T="In the Midnight Hour" type="SONG" mergeable="true" del="false">
@@ -1300,10 +1300,10 @@
   <compo A="Swinging Blue Jeans" T="Hippy Hippy Shake" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="433" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="T. Rex" T="Get It On" type="SONG" mergeable="true" del="false">
+  <compo A="T. Rex" T="Get It On" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="434" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Talking Heads" T="Life During Wartime" type="SONG" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Life During Wartime" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="435" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Talking Heads" T="Once in a Lifetime" type="SONG" mergeable="true" del="true">
@@ -1381,7 +1381,7 @@
   <compo A="Stevie Ray Vaughan" T="Pride and Joy" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="460" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Velvet Underground" T="Heroin" type="SONG" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="Heroin" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="461" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Velvet Underground" T="White Light/White Heat" type="SONG" mergeable="true" del="true">

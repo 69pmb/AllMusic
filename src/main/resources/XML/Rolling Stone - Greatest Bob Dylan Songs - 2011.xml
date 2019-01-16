@@ -4,7 +4,7 @@
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="1" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="A Hard Rain's A-Gonna Fall" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="A Hard Rain's A-Gonna Fall" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="2" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="true">
@@ -16,7 +16,7 @@
   <compo A="Bob Dylan" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="5" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="I Shall Be Released" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="I Shall Be Released" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="6" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="It's Alright Ma (I'm Only Bleeding)" type="SONG" mergeable="true" del="true">
@@ -64,7 +64,7 @@
   <compo A="Bob Dylan" T="Mississippi" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="21" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Don't Think Twice, It's All Right" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Don't Think Twice, It's All Right" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Greatest Bob Dylan Songs - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="22" creation="07/09/2018 12:49:58" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Forever Young" type="SONG" mergeable="true" del="false">

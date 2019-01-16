@@ -49,7 +49,7 @@
   <compo A="Rihanna" T="Umbrella [And Jay-Z]" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="16" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Maps" type="SONG" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Maps" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="17" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Outkast" T="Ms Jackson" type="SONG" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Arcade Fire" T="Wake Up" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="25" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Y Control" type="SONG" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Y Control" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="26" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Amy Winehouse" T="Rehab" type="SONG" mergeable="true" del="true">
@@ -184,7 +184,7 @@
   <compo A="Libertines" T="Time For Heroes" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="53" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Sufjan Stevens" T="Chicago" type="SONG" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="Chicago" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="54" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Sleepy Jackson" T="Good Dancers" type="SONG" mergeable="true" del="false">
@@ -208,7 +208,7 @@
   <compo A="Regina Spektor" T="Us" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="60" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Amy Winehouse" T="Back To Black" type="SONG" mergeable="true" del="false">
+  <compo A="Amy Winehouse" T="Back To Black" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="61" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Long Blondes" T="Giddy Stratopheres" type="SONG" mergeable="true" del="false">
