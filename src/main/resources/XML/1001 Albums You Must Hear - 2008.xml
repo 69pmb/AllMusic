@@ -1162,7 +1162,7 @@
   <compo A="Iggy Pop" T="Idiot, the" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="387" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Peter Gabriel" T="Peter Gabriel/Car" type="ALBUM" mergeable="false" del="false">
+  <compo A="Peter Gabriel" T="Car" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="388" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
@@ -1375,7 +1375,7 @@
   <compo A="Dead Kennedys" T="Fresh Fruit for Rotting Vegetables" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="458" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Peter Gabriel" T="Peter Gabriel/Melt" type="ALBUM" mergeable="false" del="false">
+  <compo A="Peter Gabriel" T="Melt" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="459" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Soft Boys" T="Underwater Moonlight" type="ALBUM" mergeable="true" del="false">
