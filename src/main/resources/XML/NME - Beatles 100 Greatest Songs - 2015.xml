@@ -163,7 +163,7 @@
   <compo A="The Beatles" T="Helter Skelter" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="54" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Girl" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Girl" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Beatles 100 Greatest Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="55" creation="05/09/2018 10:21:18" size="100"/>
   </compo>
   <compo A="The Beatles" T="Don't Let Me Down" type="SONG" mergeable="true" del="false">
