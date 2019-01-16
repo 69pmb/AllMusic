@@ -22,7 +22,7 @@
   <compo A="Sepalcure" T="Pencil Pimp" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="94" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Wild Flag" T="Romance" type="SONG" mergeable="true" del="false">
+  <compo A="Wild Flag" T="Romance" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="93" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Jacques Greene" T="Another Girl" type="SONG" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="John Maus" T="Believer" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="82" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Yuck" T="Get Away" type="SONG" mergeable="true" del="false">
+  <compo A="Yuck" T="Get Away" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="81" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Fucked Up" T="Queen of Hearts" type="SONG" mergeable="true" del="true">
@@ -262,7 +262,7 @@
   <compo A="Girls" T="Vomit" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="14" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="tUnE-yArDs" T="Bizness" type="SONG" mergeable="true" del="false">
+  <compo A="tUnE-yArDs" T="Bizness" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="13" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Jay-Z And Kanye West" T="Niggas in Paris" type="SONG" mergeable="true" del="true">

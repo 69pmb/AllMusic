@@ -754,7 +754,7 @@
   <compo A="Bob Dylan" T="Isis" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 500 Greatest Lost Tracks - 2007" publish="2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="251" creation="28/08/2018 11:00:04" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="I Shall Be Released" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="I Shall Be Released" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 500 Greatest Lost Tracks - 2007" publish="2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="252" creation="28/08/2018 11:00:04" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Idiot Wind" type="SONG" mergeable="true" del="true">

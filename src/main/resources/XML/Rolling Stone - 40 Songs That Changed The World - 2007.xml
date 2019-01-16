@@ -10,7 +10,7 @@
   <compo A="Chuck Berry" T="Maybellene" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Songs That Changed The World - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="3" creation="07/09/2018 14:30:21" size="40"/>
   </compo>
-  <compo A="Bob Dylan" T="A Hard Rain's A-Gonna Fall" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="A Hard Rain's A-Gonna Fall" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Songs That Changed The World - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="4" creation="07/09/2018 14:30:21" size="40"/>
   </compo>
   <compo A="The Kingsmen" T="Louie Louie" type="SONG" mergeable="true" del="true">
@@ -34,7 +34,7 @@
   <compo A="The Beatles" T="Strawberry Fields Forever" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Songs That Changed The World - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="11" creation="07/09/2018 14:30:21" size="40"/>
   </compo>
-  <compo A="The Velvet Underground" T="Herion" type="SONG" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Herion" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Songs That Changed The World - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="12" creation="07/09/2018 14:30:21" size="40"/>
   </compo>
   <compo A="Aretha Franklin" T="Respect" type="SONG" mergeable="true" del="true">

@@ -67,10 +67,10 @@
   <compo A="Bob Dylan" T="The Times They Are A-Changin'" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="22" creation="23/08/2018 17:52:22" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="A Hard Rain's A-Gonna Fall" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="A Hard Rain's A-Gonna Fall" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="23" creation="23/08/2018 17:52:22" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="I Shall Be Released" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="I Shall Be Released" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="24" creation="23/08/2018 17:52:22" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Hurricane" type="SONG" mergeable="true" del="true">
@@ -136,7 +136,7 @@
   <compo A="Bob Dylan" T="Lay Down Your Weary Tune" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="45" creation="23/08/2018 17:52:22" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Don't Think Twice, It's All Right" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Don't Think Twice, It's All Right" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="46" creation="23/08/2018 17:52:22" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Jokerman" type="SONG" mergeable="true" del="false">

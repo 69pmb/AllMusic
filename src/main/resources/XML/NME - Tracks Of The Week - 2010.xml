@@ -106,7 +106,7 @@
   <compo A="Glasser" T="Home" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="false" rank="35" creation="04/09/2018 11:29:00" size="49"/>
   </compo>
-  <compo A="Sufjan Stevens" T="I Walked" type="SONG" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="I Walked" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="false" rank="36" creation="04/09/2018 11:29:00" size="49"/>
   </compo>
   <compo A="Kings Of Leon" T="Radioactive" type="SONG" mergeable="true" del="false">
@@ -118,10 +118,10 @@
   <compo A="My Chemical Romance" T="Na Na Na" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="false" rank="39" creation="04/09/2018 11:29:00" size="49"/>
   </compo>
-  <compo A="Yuck" T="Rubber" type="SONG" mergeable="true" del="false">
+  <compo A="Yuck" T="Rubber" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="false" rank="40" creation="04/09/2018 11:29:00" size="49"/>
   </compo>
-  <compo A="The Vaccines" T="Wreckin' Bar (Ra Ra Ra)" type="SONG" mergeable="true" del="false">
+  <compo A="The Vaccines" T="Wreckin' Bar (Ra Ra Ra)" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="false" rank="41" creation="04/09/2018 11:29:00" size="49"/>
   </compo>
   <compo A="Lykke Li" T="Get Some" type="SONG" mergeable="true" del="true">
@@ -145,7 +145,7 @@
   <compo A="David Lynch" T="Good Day Today/I Know" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="false" rank="48" creation="04/09/2018 11:29:00" size="49"/>
   </compo>
-  <compo A="Anna Calvi" T="Suzanne And I" type="SONG" mergeable="true" del="false">
+  <compo A="Anna Calvi" T="Suzanne And I" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="false" rank="49" creation="04/09/2018 11:29:00" size="49"/>
   </compo>
 </ListCompositions>
