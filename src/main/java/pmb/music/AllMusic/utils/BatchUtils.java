@@ -634,18 +634,24 @@ public class BatchUtils {
 		}
 		return result;
 	}
-	
+
 	private static String warningForSong(CsvComposition csv) {
 		List<String> result = new ArrayList<String>();
 		if (csv.getPlayCount() != null && csv.getPlayCount() < 10) {
 			result.add("Nombre de lecture < 10");
+		} else if (csv.getPlayCount() == null) {
+			result.add("Nombre de lecture 0 !");
 		}
-		String[] split = StringUtils.split(csv.getBitRate(), " ");
-		if (split.length == 2 && NumberUtils.isDigits(split[0]) && Integer.valueOf(split[0]) < 128) {
-			result.add("Bit Rate < 128");
+		if (csv.getBitRate() != null) {
+			String[] split = StringUtils.split(csv.getBitRate(), " ");
+			if (split.length == 2 && NumberUtils.isDigits(split[0]) && Integer.valueOf(split[0]) < 128) {
+				result.add("Bit Rate < 128");
+			}
 		}
 		if (csv.getRank() != null && csv.getRank() < 90) {
 			result.add("Classement < 5 Étoiles");
+		} else if (csv.getRank() == null) {
+			result.add("Classement 0 Étoiles !");
 		}
 		return result.stream().collect(Collectors.joining(Constant.NEW_LINE));
 	}
