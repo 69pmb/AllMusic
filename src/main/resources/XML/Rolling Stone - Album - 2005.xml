@@ -58,7 +58,10 @@
   <compo A="The Magic Numbers" T="The Magic Numbers" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="19" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="System Of A Down" T="Mezmerize/Hypnotize" type="ALBUM" mergeable="true" del="false">
+  <compo A="System Of A Down" T="Hypnotize" type="ALBUM" mergeable="true" del="false">
+    <file author="Rolling Stone" name="Rolling Stone - Album - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="20" creation="13/08/2017 04:25:08" size="50"/>
+  </compo>
+  <compo A="System Of A Down" T="Mezmerize" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="20" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Common" T="Be" type="ALBUM" mergeable="true" del="false">
