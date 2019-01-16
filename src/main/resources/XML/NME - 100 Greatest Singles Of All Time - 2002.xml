@@ -73,7 +73,7 @@
   <compo A="Aretha Franklin" T="Respect" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="24" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="T. Rex" T="Get It On" type="SONG" mergeable="true" del="false">
+  <compo A="T. Rex" T="Get It On" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="25" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
@@ -178,7 +178,7 @@
   <compo A="The Beach Boys" T="God Only Knows" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="59" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Who" T="I Can't Explain" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="I Can't Explain" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="60" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Kinks" T="You Really Got Me" type="SONG" mergeable="true" del="true">

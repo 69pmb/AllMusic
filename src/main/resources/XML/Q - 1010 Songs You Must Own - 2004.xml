@@ -181,7 +181,7 @@
   <compo A="Metallica" T="Enter Sandman" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="60" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Van Halen" T="Eruption" type="SONG" mergeable="true" del="false">
+  <compo A="Van Halen" T="Eruption" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="61" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="White Stripes" T="Fell In Love With A Girl" type="SONG" mergeable="true" del="true">
@@ -499,7 +499,7 @@
   <compo A="White Stripes" T="Hotel Yorba" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="166" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Who" T="I Can't Explain" type="SONG" mergeable="true" del="false">
+  <compo A="Who" T="I Can't Explain" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="167" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Beach Boys (2.11)" T="I Get Around" type="SONG" mergeable="true" del="true">
@@ -562,7 +562,7 @@
   <compo A="Pixies" T="Tame" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="187" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Box Tops" T="The Letter" type="SONG" mergeable="true" del="false">
+  <compo A="Box Tops" T="The Letter" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="188" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="One World Orchestra" T="The Magnificent" type="SONG" mergeable="true" del="false">
@@ -604,7 +604,7 @@
   <compo A="Manic Street Preachers" T="A Design For Life" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="201" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Velvet Underground" T="All Tomorrow's Parties" type="SONG" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="All Tomorrow's Parties" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="202" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Elvis Presley" T="An American Trilogy" type="SONG" mergeable="true" del="false">
@@ -1966,7 +1966,7 @@
   <compo A="PJ Harvey" T="M Bike" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="655" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Man" type="SONG" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Man" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="656" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Franz Ferdinand" T="Michael" type="SONG" mergeable="true" del="false">

@@ -7,7 +7,7 @@
   <compo A="Blur" T="Song 2" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="2" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Verve" T="The Drugs Don't Work" type="SONG" mergeable="true" del="false">
+  <compo A="The Verve" T="The Drugs Don't Work" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="3" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Embrace" T="All You Good Good People" type="SONG" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Embrace" T="Fireworks EP" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="21" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Belle And Sebastian" T="The Lazy Line Painter Jane" type="SONG" mergeable="true" del="false">
+  <compo A="Belle And Sebastian" T="Lazy Line Painter Jane" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="22" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Blur" T="Beetlebum" type="SONG" mergeable="true" del="false">
