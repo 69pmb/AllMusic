@@ -19,7 +19,7 @@
   <compo A="Beatles" T="Eight Days A Week" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="6" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Beatles" T="Girl" type="SONG" mergeable="true" del="false">
+  <compo A="Beatles" T="Girl" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="7" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Beatles" T="I Want THold Your Hand" type="SONG" mergeable="true" del="true">
@@ -784,7 +784,7 @@
   <compo A="Strokes" T="Last Nite" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="261" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Supremes" T="Where Did Our Love Go" type="SONG" mergeable="true" del="false">
+  <compo A="Supremes" T="Where Did Our Love Go" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="262" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Supremes" T="You Keep Me Hangin' On" type="SONG" mergeable="true" del="false">
@@ -1105,7 +1105,7 @@
   <compo A="Lord Kitchener" T="London Is The Place For Me" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="368" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Kraftwerk" T="Trans-Europe Express" type="SONG" mergeable="true" del="false">
+  <compo A="Kraftwerk" T="Trans-Europe Express" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="369" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Lemon Jelly" T="Ramblin' Man" type="SONG" mergeable="true" del="false">
@@ -1591,7 +1591,7 @@
   <compo A="Rolling Stones" T="Let's Spend The Night Together" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="530" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Diana Ross And The Supremes" T="Love Child" type="SONG" mergeable="true" del="false">
+  <compo A="The Supremes" T="Love Child" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="531" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Roxy Music" T="In Every Dream Home A Heartache" type="SONG" mergeable="true" del="false">

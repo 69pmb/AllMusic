@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Leonard Cohen" T="Bird On A Wire" type="SONG" mergeable="true" del="false">
+  <compo A="Leonard Cohen" T="Bird On A Wire" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="1" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Cream" T="Tales Of Brave Ulysses" type="SONG" mergeable="true" del="false">
@@ -1546,7 +1546,7 @@
   <compo A="The Shirelles" T="Will You Love Me Tomorrow?" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="665" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Kraftwerk" T="Trans-Europe Express" type="SONG" mergeable="true" del="false">
+  <compo A="Kraftwerk" T="Trans-Europe Express" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="666" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Bo Diddley" T="Who Do You Love?" type="SONG" mergeable="true" del="false">
@@ -2056,7 +2056,7 @@
   <compo A="The Damned" T="Neat Neat Neat" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="883" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Sly and the Family Stone" T="Thank You (Falettime Be Mice Elf Again)" type="SONG" mergeable="true" del="false">
+  <compo A="Sly and the Family Stone" T="Thank You (Falettime Be Mice Elf Again)" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="885" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="The Impressions" T="People Get Ready" type="SONG" mergeable="true" del="true">
