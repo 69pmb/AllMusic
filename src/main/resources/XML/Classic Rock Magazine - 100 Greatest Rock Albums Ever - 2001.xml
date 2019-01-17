@@ -37,7 +37,7 @@
   <compo A="Def Leppard" T="Hysteria" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="12" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Van Halen" T="Van Halen (1st Album)" type="ALBUM" mergeable="false" del="false">
+  <compo A="Van Halen" T="Van Halen First" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="13" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Eagles" T="Hotel California" type="ALBUM" mergeable="true" del="false">
