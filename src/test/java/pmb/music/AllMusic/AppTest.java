@@ -69,6 +69,28 @@ public class AppTest {
 		// findImportParamsForAllFiles();
 		// duplicateRankInFiles(importXML);
 		// setDeleted();
+		testString("Van Halen First", "Van Halen Second");
+	}
+
+	// Suppression de la ponctuation
+	private static void testString(String s1, String s2) {
+		JaroWinklerDistance jaro = new JaroWinklerDistance();
+		// Suppression de la ponctuation
+		String compoTitre = SearchUtils.removePunctuation(s1);
+		if (StringUtils.isBlank(compoTitre)) {
+			// Si le titre n'est constitué que de ponctuation
+			compoTitre = s1.toLowerCase();
+		}
+		// Suppression de la ponctuation
+		String cTitre = SearchUtils.removePunctuation(s2);
+		if (StringUtils.isBlank(cTitre)) {
+			// Si le titre n'est constitué que de ponctuation
+			cTitre = s2;
+		}
+		// Si le titre et l'artist sont similaires, on sort
+		LOG.debug(s1 + " / " + s2 + " "
+				+ (SearchUtils.isEqualsJaro(jaro, compoTitre, cTitre, Constant.SCORE_LIMIT_TITLE_FUSION) ? "Egal"
+						: "Different"));
 	}
 
 	public static void duplicateRankInFiles() {
