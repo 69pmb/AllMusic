@@ -130,7 +130,7 @@
   <compo A="Dolly Parton" T="Jolene" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="43" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Deep Purple" T="Smoke On The Water" type="SONG" mergeable="true" del="false">
+  <compo A="Deep Purple" T="Smoke On The Water" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="44" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Blondie" T="Hanging On The Telephone" type="SONG" mergeable="true" del="true">
@@ -253,7 +253,7 @@
   <compo A="Joni Mitchell" T="Big Yellow Taxi" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="84" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="false">
+  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="85" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Leonard Cohen" T="Chelsea Hotel No. 2" type="SONG" mergeable="true" del="true">

@@ -13,7 +13,7 @@
   <compo A="Beyonce" T="Crazy In Love" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="4" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="5" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Yeah Yeah Yeahs" T="Maps" type="SONG" mergeable="true" del="true">
@@ -67,7 +67,7 @@
   <compo A="LCD Soundsystem" T="Someone Great" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="22" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Daft Punk" T="Digital Love" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Digital Love" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="23" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Radiohead" T="Everything in Its Right Place" type="SONG" mergeable="true" del="false">
@@ -310,7 +310,7 @@
   <compo A="Feist" T="Mushaboom" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="103" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="104" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Grinderman" T="No Pussy Blues" type="SONG" mergeable="true" del="true">
@@ -415,7 +415,7 @@
   <compo A="D'Angelo" T="Untitled (How Does It Feel?)" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="138" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Daft Punk" T="Harder, Better, Faster, Stronger" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Harder, Better, Faster, Stronger" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="139" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Interpol" T="NYC" type="SONG" mergeable="true" del="true">
@@ -535,7 +535,7 @@
   <compo A="Air" T="Cherry Blossom Girl" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="178" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Bon Iver" T="Skinny Love" type="SONG" mergeable="true" del="false">
+  <compo A="Bon Iver" T="Skinny Love" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="179" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Gwen Stefani" T="Hollaback Girl" type="SONG" mergeable="true" del="false">
@@ -787,7 +787,7 @@
   <compo A="Mastodon" T="Blood And Thunder" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="262" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
+  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="263" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Baby And Clipse" T="What Happend to That Boy?" type="SONG" mergeable="true" del="false">
@@ -895,7 +895,7 @@
   <compo A="Stars" T="Your Ex-Lover Is Dead" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="298" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="CSS" T="Let's Make Love and Listen to Death From Above" type="SONG" mergeable="true" del="false">
+  <compo A="CSS" T="Let's Make Love and Listen to Death From Above" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="299" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Iron And Wine" T="Upward Over the Mountain" type="SONG" mergeable="true" del="false">
@@ -1021,7 +1021,7 @@
   <compo A="Herbert" T="Something Isn't Right" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="340" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Fleet Foxes" T="Blue Ridge Mountains" type="SONG" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Blue Ridge Mountains" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="341" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Franz Ferdinand" T="Do You Want To" type="SONG" mergeable="true" del="false">

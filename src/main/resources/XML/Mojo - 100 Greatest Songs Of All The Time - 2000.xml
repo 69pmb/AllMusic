@@ -370,7 +370,7 @@
   <compo A="Frank Sinatra" T="September Song" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Greatest Songs Of All The Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="85" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
-  <compo A="Creedence Clearwater Revival" T="Proud Mary" type="SONG" mergeable="true" del="false">
+  <compo A="Creedence Clearwater Revival" T="Proud Mary" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Greatest Songs Of All The Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="86" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
   <compo A="Louis Armstrong" T="What a Wonderful World" type="SONG" mergeable="true" del="false">
@@ -433,7 +433,7 @@
   <compo A="Britney Spears" T="Baby One More Time" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Greatest Songs Of All The Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="97" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
-  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="false">
+  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Greatest Songs Of All The Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="98" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
   <compo A="Pete Seeger" T="We Shall Overcome" type="SONG" mergeable="true" del="false">

@@ -97,7 +97,7 @@
   <compo A="The Dandy Wharhols" T="Godless" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="32" creation="10/09/2018 13:32:04" size="50"/>
   </compo>
-  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
+  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="33" creation="10/09/2018 13:32:04" size="50"/>
   </compo>
   <compo A="Lucy Pearl" T="Dance Tonight" type="SONG" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Bosco" T="Quid" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="46" creation="10/09/2018 13:32:04" size="50"/>
   </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="47" creation="10/09/2018 13:32:04" size="50"/>
   </compo>
   <compo A="Kings Of Convenience" T="Toxic Girl" type="SONG" mergeable="true" del="false">

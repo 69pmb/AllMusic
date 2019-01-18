@@ -7,7 +7,7 @@
   <compo A="Beyonce" T="Single Ladies" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - The 75 Best Singles of the 2000s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="74" creation="27/08/2018 12:11:09" size="75"/>
   </compo>
-  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
+  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - The 75 Best Singles of the 2000s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="73" creation="27/08/2018 12:11:09" size="75"/>
   </compo>
   <compo A="Vampire Weekend" T="Cape Cod Kwassa Kwassa" type="SONG" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="Lethal Bizzle" T="Pow! (Forward)" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - The 75 Best Singles of the 2000s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="58" creation="27/08/2018 12:11:09" size="75"/>
   </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - The 75 Best Singles of the 2000s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="57" creation="27/08/2018 12:11:09" size="75"/>
   </compo>
   <compo A="All Saints" T="Pure Shores" type="SONG" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Christina Aguilera" T="Beautiful" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - The 75 Best Singles of the 2000s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="44" creation="27/08/2018 12:11:09" size="75"/>
   </compo>
-  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="false">
+  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - The 75 Best Singles of the 2000s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="43" creation="27/08/2018 12:11:09" size="75"/>
   </compo>
   <compo A="Gorillaz" T="Dare" type="SONG" mergeable="true" del="false">

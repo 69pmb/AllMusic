@@ -112,7 +112,7 @@
   <compo A="Eminem" T="My Name Is" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Songs That Changed The World - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="37" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Deep Purple" T="Smoke On The Water" type="SONG" mergeable="true" del="false">
+  <compo A="Deep Purple" T="Smoke On The Water" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Songs That Changed The World - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="38" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Marvin Gaye" T="What's Going On" type="SONG" mergeable="true" del="true">
