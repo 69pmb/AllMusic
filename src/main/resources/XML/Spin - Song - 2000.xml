@@ -46,7 +46,7 @@
   <compo A="Britney Spears" T="Oops!...I Did It Again" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="13" creation="30/08/2018 10:53:09" size="20"/>
   </compo>
-  <compo A="Red Hot Chili Peppers" T="Californication" type="SONG" mergeable="true" del="false">
+  <compo A="Red Hot Chili Peppers" T="Californication" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="14" creation="30/08/2018 10:53:09" size="20"/>
   </compo>
   <compo A="Matchbox Twenty" T="Bent" type="SONG" mergeable="true" del="false">

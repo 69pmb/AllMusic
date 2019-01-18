@@ -100,7 +100,7 @@
   <compo A="The Ronettes" T="Be My Baby" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="33" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="34" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Byrds" T="Mr Tambourine Man" type="SONG" mergeable="true" del="true">
@@ -208,7 +208,7 @@
   <compo A="Soft Cell" T="Tainted Love" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="69" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="70" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Pogues" T="Fairytale Of New York" type="SONG" mergeable="true" del="false">

@@ -13,7 +13,7 @@
   <compo A="The Presidents Of The United States Of America" T="Lump" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
 </ListCompositions>

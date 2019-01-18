@@ -25,7 +25,7 @@
   <compo A="Raconteurs" T="Steady, As She Goes" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="8" creation="28/08/2018 11:42:18" size="100"/>
   </compo>
-  <compo A="Red Hot Chili Peppers" T="Dani California" type="SONG" mergeable="true" del="false">
+  <compo A="Red Hot Chili Peppers" T="Dani California" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="9" creation="28/08/2018 11:42:18" size="100"/>
   </compo>
   <compo A="Scissor Sisters" T="I Don't Feel Like Dancin'" type="SONG" mergeable="true" del="false">
@@ -298,7 +298,7 @@
   <compo A="Fall Out Boy" T="Dance Dance" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="99" creation="28/08/2018 11:42:18" size="100"/>
   </compo>
-  <compo A="Peter, Bjorn And John" T="Young Folks" type="SONG" mergeable="true" del="false">
+  <compo A="Peter, Bjorn And John" T="Young Folks" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="100" creation="28/08/2018 11:42:18" size="100"/>
   </compo>
 </ListCompositions>

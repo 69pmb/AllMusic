@@ -70,7 +70,7 @@
   <compo A="Rihanna" T="Umbrella [And Jay-Z]" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="23" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Everything in Its Right Place" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Everything in Its Right Place" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="24" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Missy Elliott" T="Work It" type="SONG" mergeable="true" del="false">
@@ -217,7 +217,7 @@
   <compo A="Kings of Leon" T="Use Somebody" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="72" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Queens of the Stone Age" T="No One Knows" type="SONG" mergeable="true" del="false">
+  <compo A="Queens of the Stone Age" T="No One Knows" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="73" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="TV on the Radio" T="Wolf Like Me" type="SONG" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="Robert Plant and Alison Krauss" T="Gone Gone Gone" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="79" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Phoenix" T="1901" type="SONG" mergeable="true" del="false">
+  <compo A="Phoenix" T="1901" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="80" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Pink" T="Get The Party Started" type="SONG" mergeable="true" del="false">

@@ -46,7 +46,7 @@
   <compo A="New Order" T="Regret" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="15" creation="20/07/2017 20:46:47" size="50"/>
   </compo>
-  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="16" creation="20/07/2017 20:46:47" size="50"/>
   </compo>
   <compo A="Shara Nelson" T="Down That Road" type="SONG" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="Compulsion" T="Compulsion Ep" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="37" creation="20/07/2017 20:46:47" size="50"/>
   </compo>
-  <compo A="R.E.M." T="Everybody Hurts" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="Everybody Hurts" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="38" creation="20/07/2017 20:46:47" size="50"/>
   </compo>
   <compo A="Done Lying Down" T="Heart Of Dirt Ep" type="SONG" mergeable="true" del="false">
