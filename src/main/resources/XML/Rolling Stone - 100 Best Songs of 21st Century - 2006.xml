@@ -172,7 +172,7 @@
   <compo A="RADIOHEAD" T="There There" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="57" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
-  <compo A="BECK" T="Lost Cause" type="SONG" mergeable="true" del="false">
+  <compo A="BECK" T="Lost Cause" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="58" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
   <compo A="BEN HARPER" T="With My Own Two Hands" type="SONG" mergeable="true" del="false">
@@ -277,7 +277,7 @@
   <compo A="BRUCE SPRINGSTEEN" T="Jesus Was An Only Son" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="92" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
-  <compo A="BLACK REBEL MOTORCYCLE CLUB" T="Ain't No Easy Way" type="SONG" mergeable="true" del="false">
+  <compo A="BLACK REBEL MOTORCYCLE CLUB" T="Ain't No Easy Way" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="93" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
   <compo A="GREEN DAY" T="Wake Me Up When September Ends" type="SONG" mergeable="true" del="false">
