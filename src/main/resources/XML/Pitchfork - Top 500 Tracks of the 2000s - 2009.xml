@@ -22,7 +22,7 @@
   <compo A="Missy Elliott" T="Get Ur Freak On" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="7" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Radiohead" T="Idioteque" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Idioteque" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="8" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Animal Collective" T="My Girls" type="SONG" mergeable="true" del="true">
@@ -97,7 +97,7 @@
   <compo A="Amerie" T="I Thing" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Spoon" T="The Way We Get By" type="SONG" mergeable="true" del="false">
+  <compo A="Spoon" T="The Way We Get By" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="33" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="M.I.A." T="Galang" type="SONG" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <compo A="T.I." T="What You Know" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="38" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Modest Mouse" T="Float On" type="SONG" mergeable="true" del="false">
+  <compo A="Modest Mouse" T="Float On" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="39" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="The Avalanches" T="Since I Left You" type="SONG" mergeable="true" del="true">
@@ -133,7 +133,7 @@
   <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="44" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Hot Chip" T="Over and Over" type="SONG" mergeable="true" del="false">
+  <compo A="Hot Chip" T="Over and Over" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="45" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Robyn" T="With Every Heartbeat [And Kleerup]" type="SONG" mergeable="true" del="false">
@@ -268,7 +268,7 @@
   <compo A="The Postal Service" T="Such Great Heights" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="89" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Streets" T="Weak Become Heroes" type="SONG" mergeable="true" del="false">
+  <compo A="The Streets" T="Weak Become Heroes" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="90" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Justice" T="D.A.N.C.E." type="SONG" mergeable="true" del="false">
@@ -325,7 +325,7 @@
   <compo A="The Hold Steady" T="The Swish" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="108" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Grizzly Bear" T="Knife" type="SONG" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Knife" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="109" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Dizzee Rascal" T="Fix Up, Look Sharp" type="SONG" mergeable="true" del="true">
@@ -343,7 +343,7 @@
   <compo A="!!!" T="Me And Guiliani Down By The Schoolyard (A True Story)" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="114" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Dirty Projectors" T="Stillness Is the Move" type="SONG" mergeable="true" del="false">
+  <compo A="Dirty Projectors" T="Stillness Is the Move" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="115" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="The White Stripes" T="Dead Leaves and the Dirty Ground" type="SONG" mergeable="true" del="true">
@@ -499,7 +499,7 @@
   <compo A="Gui Boratto" T="Beautiful Life" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="166" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Liars" T="The Other Side of Mt. Heart Attack" type="SONG" mergeable="true" del="false">
+  <compo A="Liars" T="The Other Side of Mt. Heart Attack" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="167" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Of Montreal" T="The Past Is a Grotesque Animal" type="SONG" mergeable="true" del="false">
@@ -532,7 +532,7 @@
   <compo A="Eminem" T="The Real Slim Shady" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="177" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Air" T="Cherry Blossom Girl" type="SONG" mergeable="true" del="false">
+  <compo A="Air" T="Cherry Blossom Girl" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="178" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Bon Iver" T="Skinny Love" type="SONG" mergeable="true" del="false">
@@ -616,7 +616,7 @@
   <compo A="Lily Allen" T="Smile" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="205" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Bat for Lashes" T="Daniel" type="SONG" mergeable="true" del="false">
+  <compo A="Bat for Lashes" T="Daniel" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="206" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="OutKast" T="The Whole World" type="SONG" mergeable="true" del="false">
@@ -649,7 +649,7 @@
   <compo A="Sleater-Kinney" T="Jumpers" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="216" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Yeasayer" T="2080" type="SONG" mergeable="true" del="false">
+  <compo A="Yeasayer" T="2080" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="217" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Bloc Party" T="Banquet" type="SONG" mergeable="true" del="false">
@@ -697,7 +697,7 @@
   <compo A="Destiny's Child" T="Jumpin' Jumpin'" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="232" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Air" T="Playground Love" type="SONG" mergeable="true" del="false">
+  <compo A="Air" T="Playground Love" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="233" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Electric Six" T="Danger! High Voltage" type="SONG" mergeable="true" del="false">
@@ -742,7 +742,7 @@
   <compo A="Broadcast" T="Pendulum" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="247" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Liars" T="Plaster Casts of Everything" type="SONG" mergeable="true" del="false">
+  <compo A="Liars" T="Plaster Casts of Everything" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="248" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Amadou And Mariam" T="Sabali" type="SONG" mergeable="true" del="false">
@@ -913,7 +913,7 @@
   <compo A="Destroyer" T="The Sublimination Hour" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="304" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Loretta Lynn" T="Portland, Oregon" type="SONG" mergeable="true" del="false">
+  <compo A="Loretta Lynn" T="Portland, Oregon" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="305" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Dr. Dre" T="The Next Episode" type="SONG" mergeable="true" del="false">
@@ -1147,7 +1147,7 @@
   <compo A="The Microphones" T="The Moon" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="382" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Girls" T="Hellhole Ratrace" type="SONG" mergeable="true" del="false">
+  <compo A="Girls" T="Hellhole Ratrace" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="383" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Boards of Canada" T="Music Is Math" type="SONG" mergeable="true" del="false">
@@ -1474,7 +1474,7 @@
   <compo A="Viktor Vaughn" T="Saliva" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="491" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="St. Vincent" T="The Strangers" type="SONG" mergeable="true" del="false">
+  <compo A="St. Vincent" T="The Strangers" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="492" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Goldfrapp" T="Lovely Head" type="SONG" mergeable="true" del="true">

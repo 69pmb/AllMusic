@@ -31,7 +31,7 @@
   <compo A="Chuck Berry" T="No Particular Place To Go" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="10" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="The Last Time" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="The Last Time" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="11" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Get Off Of My Cloud" type="SONG" mergeable="true" del="false">
@@ -172,7 +172,7 @@
   <compo A="Led Zeppelin" T="Kashmir" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="25" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Shine On You Crazy Diamond Parts I-V" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Shine On You Crazy Diamond Parts I-V" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="57" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born To Run" type="SONG" mergeable="true" del="true">

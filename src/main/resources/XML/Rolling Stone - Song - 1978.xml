@@ -10,7 +10,7 @@
   <compo A="Rolling Stones" T="Miss You" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="8"/>
   </compo>
-  <compo A="Patti Smith" T="Because The Night" type="SONG" mergeable="true" del="false">
+  <compo A="Patti Smith" T="Because The Night" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="8"/>
   </compo>
   <compo A="Kinks" T="Rock And Roll Fantasy" type="SONG" mergeable="true" del="false">

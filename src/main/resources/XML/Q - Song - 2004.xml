@@ -40,7 +40,7 @@
   <compo A="Keane" T="Somewhere Only We Know" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="13" creation="28/08/2018 11:41:01" size="100"/>
   </compo>
-  <compo A="Modest Mouse" T="Float On" type="SONG" mergeable="true" del="false">
+  <compo A="Modest Mouse" T="Float On" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="14" creation="28/08/2018 11:41:01" size="100"/>
   </compo>
   <compo A="Snow Patrol" T="Spitting Games" type="SONG" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Snow Patrol" T="Chocolate" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="19" creation="28/08/2018 11:41:01" size="100"/>
   </compo>
-  <compo A="Pete Doherty" T="For Lovers" type="SONG" mergeable="true" del="false">
+  <compo A="Pete Doherty" T="For Lovers" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="20" creation="28/08/2018 11:41:01" size="100"/>
   </compo>
   <compo A="The Hives" T="Walk Idiot Walk" type="SONG" mergeable="true" del="false">
@@ -268,7 +268,7 @@
   <compo A="Razorlight" T="Stumble And Fall" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="89" creation="28/08/2018 11:41:01" size="100"/>
   </compo>
-  <compo A="Kasabain" T="Clb Foot" type="SONG" mergeable="true" del="false">
+  <compo A="Kasabain" T="Clb Foot" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="90" creation="28/08/2018 11:41:01" size="100"/>
   </compo>
   <compo A="Natasha Bedingfield" T="Single" type="SONG" mergeable="true" del="false">

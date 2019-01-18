@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Hot Chip" T="Over And Over" type="SONG" mergeable="true" del="false">
+  <compo A="Hot Chip" T="Over And Over" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Peter Bjorn And John" T="Young Folks" type="SONG" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Amy Winehouse" T="Rehab" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="7" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Horrors" T="Sheena Is A Parasite" type="SONG" mergeable="true" del="false">
+  <compo A="The Horrors" T="Sheena Is A Parasite" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="8" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="The View" T="Wasted Little Dj" type="SONG" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Metric" T="Monster Hospital" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="12" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Arctic Monkeys" T="When The Sun Goes Down" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="When The Sun Goes Down" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="13" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="The Raconteurs" T="Steady, As She Goes" type="SONG" mergeable="true" del="false">

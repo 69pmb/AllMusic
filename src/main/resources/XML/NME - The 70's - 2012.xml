@@ -82,10 +82,10 @@
   <compo A="ABBA" T="Dancing Queen" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="27" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Kraftwerk" T="The Model" type="SONG" mergeable="true" del="false">
+  <compo A="Kraftwerk" T="The Model" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="28" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The B52s" T="Rock Lobster" type="SONG" mergeable="true" del="false">
+  <compo A="The B52s" T="Rock Lobster" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="29" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Al Green" T="Lets Stay Together" type="SONG" mergeable="true" del="true">
@@ -133,7 +133,7 @@
   <compo A="Deep Purple" T="Smoke On The Water" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="44" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Blondie" T="Hanging On The Telephone" type="SONG" mergeable="true" del="false">
+  <compo A="Blondie" T="Hanging On The Telephone" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="45" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Gang Of Four" T="Damaged Goods" type="SONG" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="Elvis Costello" T="Oliver's Army" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="60" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Patti Smith" T="Because The Night" type="SONG" mergeable="true" del="false">
+  <compo A="Patti Smith" T="Because The Night" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="61" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Gary Numan" T="Cars" type="SONG" mergeable="true" del="false">
@@ -190,7 +190,7 @@
   <compo A="Nick Drake" T="Pink Moon" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="63" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Big Star" T="September Gurls" type="SONG" mergeable="true" del="false">
+  <compo A="Big Star" T="September Gurls" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="64" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="George Harrison" T="My Sweet Lord" type="SONG" mergeable="true" del="true">
@@ -247,7 +247,7 @@
   <compo A="Giorgio Moroder" T="Chase" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="82" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Althea And Donna" T="Upton Top Rankin" type="SONG" mergeable="true" del="false">
+  <compo A="Althea And Donna" T="Upton Top Rankin" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="83" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Joni Mitchell" T="Big Yellow Taxi" type="SONG" mergeable="true" del="true">
@@ -265,7 +265,7 @@
   <compo A="The Kinks" T="Lola" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="88" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Specials" T="A Message To You Rudy" type="SONG" mergeable="true" del="false">
+  <compo A="The Specials" T="A Message To You Rudy" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="89" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Madness" T="One Step Beyond" type="SONG" mergeable="true" del="false">

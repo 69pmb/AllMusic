@@ -13,7 +13,7 @@
   <compo A="Phoenix" T="1901" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="97" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
-  <compo A="The Black Keys" T="Tighten Up" type="SONG" mergeable="true" del="false">
+  <compo A="The Black Keys" T="Tighten Up" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="96" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
   <compo A="Kylie Minogue" T="Can't Get You Out Of My Head" type="SONG" mergeable="true" del="true">
@@ -202,7 +202,7 @@
   <compo A="The Killers" T="Mr. Brightside" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="34" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Idioteque" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Idioteque" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="33" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
   <compo A="50 Cent" T="In Da Club" type="SONG" mergeable="true" del="true">
@@ -244,7 +244,7 @@
   <compo A="Amy Winehouse" T="Rehab" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="20" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
-  <compo A="Robyn" T="Dancing On My Own" type="SONG" mergeable="true" del="false">
+  <compo A="Robyn" T="Dancing On My Own" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="19" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
   <compo A="David Bowie" T="Blackstar" type="SONG" mergeable="true" del="true">

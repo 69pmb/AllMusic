@@ -19,7 +19,7 @@
   <compo A="The White Stripes" T="Fell In Love With A Girl" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="6" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Hot Chip" T="Over And Over" type="SONG" mergeable="true" del="false">
+  <compo A="Hot Chip" T="Over And Over" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="7" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Amy Winehouse" T="Rehab" type="SONG" mergeable="true" del="true">
@@ -31,7 +31,7 @@
   <compo A="The Libertines" T="Time For Heroes" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="10" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Arctic Monkeys" T="I Bet You Look Good On The Dance Floor" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="I Bet You Look Good On The Dance Floor" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="11" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="MGMT" T="Time To Pretend" type="SONG" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="Jay-Z" T="Empire State Of Mind" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="13" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Foals" T="Spanish Sahara" type="SONG" mergeable="true" del="false">
+  <compo A="Foals" T="Spanish Sahara" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="14" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="M.I.A." T="Paper Planes" type="SONG" mergeable="true" del="true">
@@ -82,7 +82,7 @@
   <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="27" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="The Xx" T="Islands" type="SONG" mergeable="true" del="false">
+  <compo A="The Xx" T="Islands" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="28" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Crystal Castles" T="Alice Practice" type="SONG" mergeable="true" del="true">
@@ -145,7 +145,7 @@
   <compo A="Foo Fighters" T="Everlong" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="48" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Best Coast" T="Boyfriend" type="SONG" mergeable="true" del="false">
+  <compo A="Best Coast" T="Boyfriend" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="49" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="The Chemical Brothers" T="Hey Boy Hey Girl" type="SONG" mergeable="true" del="false">
@@ -178,7 +178,7 @@
   <compo A="Dizzee Rascal" T="Bonkers" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="59" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="The Drums" T="Let's Go Surfing" type="SONG" mergeable="true" del="false">
+  <compo A="The Drums" T="Let's Go Surfing" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="60" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Arcade Fire" T="Keep The Car Running" type="SONG" mergeable="true" del="true">
@@ -202,13 +202,13 @@
   <compo A="Ian Brown" T="F.E.A.R." type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="67" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Liars" T="Scarecrows On A Killer Slant" type="SONG" mergeable="true" del="false">
+  <compo A="Liars" T="Scarecrows On A Killer Slant" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="68" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="69" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="MIA" T="XXXO" type="SONG" mergeable="true" del="false">
+  <compo A="MIA" T="XXXO" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="70" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="The Libertines" T="Don't Look Back Into The Sun" type="SONG" mergeable="true" del="false">
@@ -286,7 +286,7 @@
   <compo A="The Knife" T="Heartbeats" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="95" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="The Horrors" T="Sheena Is A Parasite" type="SONG" mergeable="true" del="false">
+  <compo A="The Horrors" T="Sheena Is A Parasite" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="96" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Klaxons" T="Golden Skans" type="SONG" mergeable="true" del="false">
@@ -301,7 +301,7 @@
   <compo A="Mystery Jets" T="Two Doors Down" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="100" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="The Horrors" T="Sea Within A Sea" type="SONG" mergeable="true" del="false">
+  <compo A="The Horrors" T="Sea Within A Sea" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="101" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Art Brut" T="Formed A Band" type="SONG" mergeable="true" del="false">
@@ -322,7 +322,7 @@
   <compo A="Radiohead" T="No Surprises" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="107" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Kasabian" T="Club Foot" type="SONG" mergeable="true" del="false">
+  <compo A="Kasabian" T="Club Foot" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="108" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Ultrasound" T="Stay Young" type="SONG" mergeable="true" del="false">
@@ -433,7 +433,7 @@
   <compo A="The Killers" T="Human" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="144" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Fever Ray" T="If I Had A Heart" type="SONG" mergeable="true" del="false">
+  <compo A="Fever Ray" T="If I Had A Heart" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="145" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Laura Marling" T="My Manic And I" type="SONG" mergeable="true" del="false">
