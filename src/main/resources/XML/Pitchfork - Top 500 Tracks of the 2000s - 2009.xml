@@ -31,7 +31,7 @@
   <compo A="Arcade Fire" T="Neighbourhood #1 Tunnels" type="SONG" mergeable="false" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="10" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="false">
+  <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="11" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="OutKast" T="Hey Ya!" type="SONG" mergeable="true" del="false">
@@ -484,7 +484,7 @@
   <compo A="Christian Falk" T="Dream On" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="161" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Grizzly Bear" T="Two Weeks" type="SONG" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Two Weeks" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="162" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Girl Talk" T="Smash Your Head" type="SONG" mergeable="true" del="false">
@@ -493,7 +493,7 @@
   <compo A="Broadcast" T="Come On Let's Go" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="164" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Jimmy Eat World" T="The Middle" type="SONG" mergeable="true" del="false">
+  <compo A="Jimmy Eat World" T="The Middle" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="165" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Gui Boratto" T="Beautiful Life" type="SONG" mergeable="true" del="false">
@@ -922,7 +922,7 @@
   <compo A="Wolf Parade" T="Shine a Light" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="307" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Gorillaz" T="Feel Good Inc." type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Feel Good Inc." type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="308" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Midlake" T="Roscoe" type="SONG" mergeable="true" del="false">
@@ -1285,7 +1285,7 @@
   <compo A="Yo La Tengo" T="Last Days of Disco" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="428" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Gossip" T="Standing in the Way of Control" type="SONG" mergeable="true" del="false">
+  <compo A="Gossip" T="Standing in the Way of Control" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="429" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Mastodon" T="Sleeping Giant" type="SONG" mergeable="true" del="false">

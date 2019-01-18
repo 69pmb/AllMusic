@@ -247,7 +247,7 @@
   <compo A="The Primitives" T="Crash" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="82" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="false">
+  <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="83" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Beyonce" T="Crazy In Love" type="SONG" mergeable="true" del="true">
@@ -721,7 +721,7 @@
   <compo A="Oasis" T="Live Forever" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="240" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Green Day" T="Longview" type="SONG" mergeable="true" del="false">
+  <compo A="Green Day" T="Longview" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="241" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Section 25" T="Looking From A Hilltop" type="SONG" mergeable="true" del="false">

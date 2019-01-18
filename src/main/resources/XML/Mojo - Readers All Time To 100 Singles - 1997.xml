@@ -16,7 +16,7 @@
   <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="4" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="5" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="true">
@@ -169,7 +169,7 @@
   <compo A="The Stone Roses" T="What The World Is Waiting For" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="53" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Jefferson Airplane" T="White Rabbit" type="SONG" mergeable="true" del="true">

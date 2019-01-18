@@ -574,7 +574,7 @@
   <compo A="Richard Hell" T="Blank Generation" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="191" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="192" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Jimi Hendrix" T="Purple Haze" type="SONG" mergeable="true" del="true">
@@ -790,7 +790,7 @@
   <compo A="John Lennon" T="Imagine" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="263" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="264" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Jerry Lee Lewis" T="Great Balls of Fire" type="SONG" mergeable="true" del="true">

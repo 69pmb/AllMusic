@@ -55,7 +55,7 @@
   <compo A="Ian Dury" T="Sex And Drugs And Rock And Roll" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="18" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Transmission" type="SONG" mergeable="true" del="false">
+  <compo A="Joy Division" T="Transmission" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="19" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Led Zeppelin" T="Stairway To Heaven" type="SONG" mergeable="true" del="true">
@@ -151,7 +151,7 @@
   <compo A="The Cramps" T="Human Fly" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="50" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Iggy Pop" T="Lust For Life" type="SONG" mergeable="true" del="false">
+  <compo A="Iggy Pop" T="Lust For Life" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="51" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Queen" T="Bohemian Rhapsody" type="SONG" mergeable="true" del="true">
@@ -229,7 +229,7 @@
   <compo A="The Only Ones" T="Another Girl, Another Planet" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="76" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="77" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="New York Dolls" T="Personality Crisis" type="SONG" mergeable="true" del="true">

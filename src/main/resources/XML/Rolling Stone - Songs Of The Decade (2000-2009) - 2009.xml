@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="false">
+  <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="1" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Jay-Z" T="99 Problems" type="SONG" mergeable="true" del="true">
@@ -112,7 +112,7 @@
   <compo A="LCD Soundsystem" T="Losing My Edge" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="37" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="38" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Modest Mouse" T="Float On" type="SONG" mergeable="true" del="true">
@@ -181,7 +181,7 @@
   <compo A="Beyonce" T="Irreplaceable" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="60" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Jet" T="Are You Gonna Be My Girl" type="SONG" mergeable="true" del="false">
+  <compo A="Jet" T="Are You Gonna Be My Girl" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="61" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Alicia Keys" T="Fallin'" type="SONG" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Justice" T="D.A.N.C.E." type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="71" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Kings of Leon" T="Use Somebody" type="SONG" mergeable="true" del="false">
+  <compo A="Kings of Leon" T="Use Somebody" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="72" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Queens of the Stone Age" T="No One Knows" type="SONG" mergeable="true" del="false">
@@ -247,7 +247,7 @@
   <compo A="Jay-Z" T="Dirt Off Your Shoulder" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="82" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="The Gossip" T="Standing in the Way of Control" type="SONG" mergeable="true" del="false">
+  <compo A="The Gossip" T="Standing in the Way of Control" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="83" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="The Clipse" T="Grindin'" type="SONG" mergeable="true" del="true">
@@ -295,7 +295,7 @@
   <compo A="Amy Winehouse" T="Back to Black" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="98" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Gorillaz" T="Feel Good Inc." type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Feel Good Inc." type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="99" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Damian Marley" T="Welcome to Jamrock" type="SONG" mergeable="true" del="false">
