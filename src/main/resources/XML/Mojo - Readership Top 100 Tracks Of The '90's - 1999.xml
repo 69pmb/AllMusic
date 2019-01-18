@@ -160,7 +160,7 @@
   <compo A="James" T="Sit Down" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readership Top 100 Tracks Of The '90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="53" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Nirvana" T="Heart Shaped Box" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="Heart Shaped Box" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readership Top 100 Tracks Of The '90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="54" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Youssou N'Dour" T="7 Seconds" type="SONG" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="Portishead" T="Numb" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readership Top 100 Tracks Of The '90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="60" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Lenny Kravitz" T="Are You Gonna Go My Way?" type="SONG" mergeable="true" del="false">
+  <compo A="Lenny Kravitz" T="Are You Gonna Go My Way?" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readership Top 100 Tracks Of The '90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="61" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Oasis" T="Acquiesce" type="SONG" mergeable="true" del="false">
@@ -196,7 +196,7 @@
   <compo A="Radiohead" T="High And Dry" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readership Top 100 Tracks Of The '90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="65" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
-  <compo A="Nirvana" T="Come As You Are" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="Come As You Are" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readership Top 100 Tracks Of The '90's - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="66" creation="02/07/2017 14:31:05" size="100"/>
   </compo>
   <compo A="Red Hot Chili Peppers" T="Under The Bridge" type="SONG" mergeable="true" del="true">

@@ -268,7 +268,7 @@
   <compo A="Jeff Buckley" T="Hallelujah" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="89" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="MGMT" T="Time To Pretend" type="SONG" mergeable="true" del="false">
+  <compo A="MGMT" T="Time To Pretend" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="90" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="LCD Soundsystem" T="All My Friends" type="SONG" mergeable="true" del="true">
@@ -643,7 +643,7 @@
   <compo A="Peter Gabriel" T="Solsbury Hill" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="214" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Nirvana" T="Lithium" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="Lithium" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="215" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Orange Juice" T="Rip It Up" type="SONG" mergeable="true" del="false">
@@ -1252,7 +1252,7 @@
   <compo A="Tindersticks" T="Marbles" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="417" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Nirvana" T="Come As You Are" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="Come As You Are" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="418" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Jam" T="Start!" type="SONG" mergeable="true" del="false">
@@ -1390,7 +1390,7 @@
   <compo A="Gloria Gaynor" T="I Will Survive" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="463" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Nirvana" T="About A Girl" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="About A Girl" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="464" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Mercury Rev" T="Goddess On A Hiway" type="SONG" mergeable="true" del="false">

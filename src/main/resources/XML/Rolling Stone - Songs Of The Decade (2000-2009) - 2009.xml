@@ -31,7 +31,7 @@
   <compo A="Eminem" T="Stan" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="10" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="MGMT" T="Time to Pretend" type="SONG" mergeable="true" del="false">
+  <compo A="MGMT" T="Time to Pretend" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="11" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="true">
@@ -232,7 +232,7 @@
   <compo A="Dixie Chicks" T="Not Ready to Make Nice" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="77" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="LCD Soundsystem" T="Daft Punk is Playing at My House" type="SONG" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="Daft Punk is Playing at My House" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="78" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Robert Plant and Alison Krauss" T="Gone Gone Gone" type="SONG" mergeable="true" del="false">
