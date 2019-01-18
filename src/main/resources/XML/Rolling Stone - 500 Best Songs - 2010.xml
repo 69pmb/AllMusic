@@ -139,7 +139,7 @@
   <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="47" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Simon and Garfunkel" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="false">
+  <compo A="Simon and Garfunkel" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="48" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Eagles" T="Hotel California" type="SONG" mergeable="true" del="true">
@@ -430,7 +430,7 @@
   <compo A="Prince" T="Purple Rain" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="144" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Ramones" T="I Wanna Be Sedated" type="SONG" mergeable="true" del="false">
+  <compo A="The Ramones" T="I Wanna Be Sedated" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="145" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Sly and the Family Stone" T="Everyday People" type="SONG" mergeable="true" del="true">
@@ -967,7 +967,7 @@
   <compo A="Elvis Costello" T="Alison" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="323" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="324" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Jimmy Cliff" T="Many Rivers to Cross" type="SONG" mergeable="true" del="true">
@@ -1378,7 +1378,7 @@
   <compo A="George Harrison" T="My Sweet Lord" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="460" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Ramones" T="Sheena Is a Punk Rocker" type="SONG" mergeable="true" del="false">
+  <compo A="Ramones" T="Sheena Is a Punk Rocker" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="461" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Nirvana" T="All Apologies" type="SONG" mergeable="true" del="true">

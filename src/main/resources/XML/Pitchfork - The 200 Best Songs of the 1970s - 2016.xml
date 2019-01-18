@@ -115,7 +115,7 @@
   <compo A="Neil Young" T="On the Beach" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1970s - 2016" publish="2016" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="38" creation="04/07/2018 14:22:19" size="200"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1970s - 2016" publish="2016" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="39" creation="04/07/2018 14:22:19" size="200"/>
   </compo>
   <compo A="Gil Scott Heron" T="The Revolution Will Not Be Televised" type="SONG" mergeable="true" del="false">
@@ -433,7 +433,7 @@
   <compo A="Elvis Costello" T="Radio Radio" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1970s - 2016" publish="2016" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="144" creation="04/07/2018 14:22:19" size="200"/>
   </compo>
-  <compo A="Ramones" T="Sheena Is a Punk Rocker" type="SONG" mergeable="true" del="false">
+  <compo A="Ramones" T="Sheena Is a Punk Rocker" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1970s - 2016" publish="2016" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="145" creation="04/07/2018 14:22:19" size="200"/>
   </compo>
   <compo A="Donny Hathaway" T="A Song for You" type="SONG" mergeable="true" del="false">

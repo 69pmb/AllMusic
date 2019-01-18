@@ -196,7 +196,7 @@
   <compo A="Bruce Springsteen" T="Racing In The Street" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="59" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="Queen" T="Don't Stop Me Now" type="SONG" mergeable="true" del="false">
+  <compo A="Queen" T="Don't Stop Me Now" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="63" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Kate Bush" T="Wuthering Heights" type="SONG" mergeable="true" del="true">
@@ -256,7 +256,7 @@
   <compo A="Alice In Chains" T="Them Bones" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="87" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
-  <compo A="REM" T="Everybody Hurts" type="SONG" mergeable="true" del="false">
+  <compo A="REM" T="Everybody Hurts" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC ROCK - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="89" creation="27/08/2018 12:23:14" size="100"/>
   </compo>
   <compo A="Green Day" T="Basket Case" type="SONG" mergeable="true" del="true">

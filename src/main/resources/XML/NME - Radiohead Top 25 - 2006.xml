@@ -10,7 +10,7 @@
   <compo A="Radiohead" T="Fake Plastic Trees" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Radiohead Top 25 - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="3" creation="04/09/2018 15:48:44" size="25"/>
   </compo>
-  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Radiohead Top 25 - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="4" creation="04/09/2018 15:48:44" size="25"/>
   </compo>
   <compo A="Radiohead" T="Paranoid Android" type="SONG" mergeable="true" del="true">
@@ -61,7 +61,7 @@
   <compo A="Radiohead" T="Anyone Can Play Guitar" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Radiohead Top 25 - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="20" creation="04/09/2018 15:48:44" size="25"/>
   </compo>
-  <compo A="Radiohead" T="Everything In It's Right Place" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Everything In It's Right Place" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Radiohead Top 25 - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="21" creation="04/09/2018 15:48:44" size="25"/>
   </compo>
   <compo A="Radiohead" T="Street Spirit (Fade Out)" type="SONG" mergeable="true" del="true">
@@ -70,10 +70,10 @@
   <compo A="Radiohead" T="How To Disappear Completely" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Radiohead Top 25 - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="23" creation="04/09/2018 15:48:44" size="25"/>
   </compo>
-  <compo A="Radiohead" T="There There" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="There There" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Radiohead Top 25 - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="24" creation="04/09/2018 15:48:44" size="25"/>
   </compo>
-  <compo A="Radiohead" T="Where I End And You Begen" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Where I End And You Begen" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Radiohead Top 25 - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="25" creation="04/09/2018 15:48:44" size="25"/>
   </compo>
 </ListCompositions>

@@ -994,7 +994,7 @@
   <compo A="Pink Floyd" T="Money" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="331" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Pink Floyd" T="See Emily Play" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="See Emily Play" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="332" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Platters" T="The Great Pretender" type="SONG" mergeable="true" del="false">
@@ -1066,7 +1066,7 @@
   <compo A="Bonnie Raitt" T="Something to Talk About" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="355" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Ramones" T="Sheena Is a Punk Rocker" type="SONG" mergeable="true" del="false">
+  <compo A="Ramones" T="Sheena Is a Punk Rocker" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="356" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Young Rascals" T="Groovin'" type="SONG" mergeable="true" del="false">
@@ -1201,7 +1201,7 @@
   <compo A="Shirelles" T="Will You Love Me Tomorrow" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="400" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Simon and Garfunkel" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="false">
+  <compo A="Simon and Garfunkel" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="401" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Simon and Garfunkel" T="Sound Of Silence" type="SONG" mergeable="true" del="false">

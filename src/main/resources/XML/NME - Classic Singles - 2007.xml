@@ -124,7 +124,7 @@
   <compo A="Elvis Costello" T="Oliver's Army" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Classic Singles - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="41" creation="02/07/2017 07:08:56" size="58"/>
   </compo>
-  <compo A="The Stranglers" T="Golden Brown" type="SONG" mergeable="true" del="false">
+  <compo A="The Stranglers" T="Golden Brown" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Classic Singles - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="42" creation="02/07/2017 07:08:56" size="58"/>
   </compo>
   <compo A="The Smiths" T="Panic" type="SONG" mergeable="true" del="true">
@@ -142,7 +142,7 @@
   <compo A="Blur" T="Country House" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Classic Singles - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="47" creation="02/07/2017 07:08:56" size="58"/>
   </compo>
-  <compo A="Oasis" T="Roll With It" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Roll With It" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Classic Singles - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="48" creation="02/07/2017 07:08:56" size="58"/>
   </compo>
   <compo A="Run-DMC And Aerosmith" T="Walk This Way" type="SONG" mergeable="true" del="false">

@@ -31,7 +31,7 @@
   <compo A="Bob Marley" T="No Woman No Cry" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="8" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="See Emily Play" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="See Emily Play" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="9" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Small Faces" T="Little Tin Soldier" type="SONG" mergeable="true" del="false">
@@ -262,7 +262,7 @@
   <compo A="Talking Heads" T="Once In A Lifetime" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="81" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="82" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Pulp" T="Common People" type="SONG" mergeable="true" del="true">
@@ -298,7 +298,7 @@
   <compo A="The Moody Blues" T="Nights In White Satin" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="93" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="false">
+  <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="94" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Joy Division" T="Love Will Tear Us Apart" type="SONG" mergeable="true" del="true">
@@ -310,7 +310,7 @@
   <compo A="David Bowie" T="Heroes" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="97" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Everybody Hurts" type="SONG" mergeable="true" del="false">
+  <compo A="R.E.M." T="Everybody Hurts" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="98" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Elvis Presley" T="Hound Dog" type="SONG" mergeable="true" del="true">
@@ -319,7 +319,7 @@
   <compo A="Elvis Presley" T="Don't Be Cruel" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="99" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Oasis" T="Don't Look Back In Anger" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Don't Look Back In Anger" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="100" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
 </ListCompositions>

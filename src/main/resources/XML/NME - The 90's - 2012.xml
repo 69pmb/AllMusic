@@ -16,7 +16,7 @@
   <compo A="Manic Street Preachers" T="Motorcycle Emptiness" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Beastie Boys" T="Sabotage" type="SONG" mergeable="true" del="true">
@@ -79,7 +79,7 @@
   <compo A="Warren G" T="Regulate" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="26" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="PJ Harvey" T="Down By The Water" type="SONG" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Down By The Water" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="27" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Foo Fighters" T="Everlong" type="SONG" mergeable="true" del="true">
@@ -208,7 +208,7 @@
   <compo A="Bjork" T="Hyperballad" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="69" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="70" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Wu Tang Clan" T="Protect Ya Neck" type="SONG" mergeable="true" del="false">
@@ -256,7 +256,7 @@
   <compo A="Sonic Youth" T="Sugar Kane" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="85" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="86" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Manic Street Preachers" T="A Design For Life" type="SONG" mergeable="true" del="true">

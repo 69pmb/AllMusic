@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Oasis" T="The Importance Of Being Idle" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="The Importance Of Being Idle" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="1" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="Coldplay" T="Fix You" type="SONG" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <compo A="Kt Tunstall" T="Black Horse And The Cherry Tree" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="5" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
-  <compo A="Oasis" T="Lyla" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Lyla" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="6" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="Franz Ferdinand" T="Do You Want To" type="SONG" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="U2" T="Sometimes You Can't Make It On Your Own" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="36" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
-  <compo A="Oasis" T="Let There Be Love" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Let There Be Love" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="37" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="Greenday" T="Boulevard Of Broken Dreams" type="SONG" mergeable="true" del="false">
@@ -157,13 +157,13 @@
   <compo A="Editors" T="Bullets" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="52" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
-  <compo A="Oasis" T="Turn Up The Sun" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Turn Up The Sun" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="53" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="The Coral" T="In The Morning" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="54" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
-  <compo A="Oasis" T="The Meaning Of Soul" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="The Meaning Of Soul" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="55" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="Arcade Fire" T="Neighbourhood #2 (Laika)" type="SONG" mergeable="false" del="true">
@@ -238,7 +238,7 @@
   <compo A="Natalie Imbruglia" T="Shiver" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="79" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
-  <compo A="Oasis" T="Mucky Fingers" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Mucky Fingers" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="80" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="Weezer" T="Beverly Hills" type="SONG" mergeable="true" del="false">

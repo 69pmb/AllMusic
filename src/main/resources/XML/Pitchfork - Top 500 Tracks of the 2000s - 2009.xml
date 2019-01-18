@@ -70,7 +70,7 @@
   <compo A="Daft Punk" T="Digital Love" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="23" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Radiohead" T="Everything in Its Right Place" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Everything in Its Right Place" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="24" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Rihanna" T="Umbrella [And Jay-Z]" type="SONG" mergeable="true" del="true">
@@ -142,7 +142,7 @@
   <compo A="Burial" T="Archangel" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="47" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Panda Bear" T="Bro's" type="SONG" mergeable="true" del="false">
+  <compo A="Panda Bear" T="Bro's" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="48" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Sufjan Stevens" T="Chicago" type="SONG" mergeable="true" del="true">
@@ -250,7 +250,7 @@
   <compo A="Basement Jaxx" T="Where's Your Head At?" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="83" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Peter Bjorn And John" T="Young Folks" type="SONG" mergeable="true" del="false">
+  <compo A="Peter Bjorn And John" T="Young Folks" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="84" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Phoenix" T="Long Distance Call" type="SONG" mergeable="true" del="false">
@@ -550,7 +550,7 @@
   <compo A="Beyonce" T="Irreplaceable" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="183" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Queens of the Stone Age" T="No One Knows" type="SONG" mergeable="true" del="false">
+  <compo A="Queens of the Stone Age" T="No One Knows" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="184" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Dead Prez" T="Hip-Hop" type="SONG" mergeable="true" del="false">
@@ -595,7 +595,7 @@
   <compo A="Vitalic" T="La Rock 01" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="198" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Portishead" T="The Rip" type="SONG" mergeable="true" del="false">
+  <compo A="Portishead" T="The Rip" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="199" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Beck" T="Lost Cause" type="SONG" mergeable="true" del="true">
@@ -682,7 +682,7 @@
   <compo A="Bjork" T="Pagan Poetry" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="227" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Phoenix" T="1901" type="SONG" mergeable="true" del="false">
+  <compo A="Phoenix" T="1901" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="228" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Joanna Newsom" T="Sprout and the Bean" type="SONG" mergeable="true" del="false">
@@ -760,7 +760,7 @@
   <compo A="Caribou" T="Melody Day" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="253" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="254" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="At the Drive-In" T="One Armed Scissor" type="SONG" mergeable="true" del="true">
@@ -1189,7 +1189,7 @@
   <compo A="Nathan Fake" T="The Sky Was Pink" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="396" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Queens of the Stone Age" T="The Lost Art of Keeping a Secret" type="SONG" mergeable="true" del="false">
+  <compo A="Queens of the Stone Age" T="The Lost Art of Keeping a Secret" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="397" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="The Chemical Brothers" T="Star Guitar" type="SONG" mergeable="true" del="false">
