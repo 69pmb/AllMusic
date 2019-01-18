@@ -1240,7 +1240,7 @@
   <compo A="The Carpenters" T="We've Only Just Begun" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="414" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Nirvana" T="In Bloom" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Bloom" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="415" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Aerosmith" T="Sweet Emotion" type="SONG" mergeable="true" del="false">
@@ -1351,7 +1351,7 @@
   <compo A="Sonny and Cher" T="I Got You Babe" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="451" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Nirvana" T="Come As You Are" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="Come As You Are" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="452" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Toot and the Maytals" T="Pressure Drop" type="SONG" mergeable="true" del="false">
@@ -1381,7 +1381,7 @@
   <compo A="Ramones" T="Sheena Is a Punk Rocker" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="461" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Nirvana" T="All Apologies" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="All Apologies" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="462" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Sam and Dave" T="Soul Man" type="SONG" mergeable="true" del="false">
@@ -1471,7 +1471,7 @@
   <compo A="Gloria Gaynor" T="I Will Survive" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="492" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="MGMT" T="Time To Pretend" type="SONG" mergeable="true" del="false">
+  <compo A="MGMT" T="Time To Pretend" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="493" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="R. Kelly" T="Ignition" type="SONG" mergeable="true" del="true">

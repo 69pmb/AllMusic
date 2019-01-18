@@ -10,10 +10,10 @@
   <compo A="Mystery Jets" T="Two Doors Down" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="3" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="MGMT" T="Time To Pretend" type="SONG" mergeable="true" del="false">
+  <compo A="MGMT" T="Time To Pretend" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="MGMT" T="Electric Feel" type="SONG" mergeable="true" del="false">
+  <compo A="MGMT" T="Electric Feel" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="5" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Metronomy" T="Heartbreaker" type="SONG" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="Florence And The Machine" T="Kiss With A Fist" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="14" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Ladyhawk" T="Paris Is Burning" type="SONG" mergeable="true" del="false">
+  <compo A="Ladyhawk" T="Paris Is Burning" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="15" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Oasis" T="The Shock Of The Lighning" type="SONG" mergeable="true" del="false">

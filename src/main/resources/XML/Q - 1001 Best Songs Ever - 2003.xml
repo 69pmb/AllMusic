@@ -346,7 +346,7 @@
   <compo A="Billie Holiday" T="Strange Fruit" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="115" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Nirvana" T="Heart Shaped Box" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="Heart Shaped Box" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="116" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Jackson Five" T="I Want You Back" type="SONG" mergeable="true" del="false">
@@ -622,7 +622,7 @@
   <compo A="De La Soul" T="A Roller Skating Jam Named Saturdays" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="207" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Nirvana" T="Come As You Are" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="Come As You Are" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="208" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
@@ -1171,7 +1171,7 @@
   <compo A="Weezer" T="The Good Life" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="390" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Nick Drake" T="Pink Moon" type="SONG" mergeable="true" del="false">
+  <compo A="Nick Drake" T="Pink Moon" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="391" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Wings" T="Jet" type="SONG" mergeable="true" del="true">
@@ -2113,7 +2113,7 @@
   <compo A="The Clash" T="Should I Stay Or Should I Go" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="704" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Massive Attack" T="Teardrop" type="SONG" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Teardrop" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="705" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="The Beta Band" T="She's The One" type="SONG" mergeable="true" del="false">
@@ -2485,7 +2485,7 @@
   <compo A="Kiss" T="Rock 'N' Roll All Night" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="828" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Nirvana" T="The Man Who Sold The World" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="The Man Who Sold The World" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="829" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="David Essex" T="Rock On" type="SONG" mergeable="true" del="false">
@@ -2617,7 +2617,7 @@
   <compo A="Tammy Wynette" T="D.I.V.O.R.C.E." type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="872" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Nirvana" T="Lithium" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="Lithium" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="873" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Van Halen" T="Jump" type="SONG" mergeable="true" del="false">
