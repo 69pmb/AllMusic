@@ -7,13 +7,13 @@
   <compo A="Janelle Monae" T="Tightrope" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="2" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="Arcade Fire" T="Sprawl II (Mountains Beyond Mountains)" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Sprawl II (Mountains Beyond Mountains)" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="3" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
   <compo A="The National" T="Bloodbuzz Ohio" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="4" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="Kanye West" T="Power" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Power" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="5" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
   <compo A="LCD Soundsystem" T="Dance Yrself Clean" type="SONG" mergeable="true" del="false">
@@ -22,13 +22,13 @@
   <compo A="Big Boi" T="Shutterbugg [And Cutty]" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="7" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="Ariel Pink" T="Round and Round" type="SONG" mergeable="true" del="false">
+  <compo A="Ariel Pink" T="Round and Round" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="8" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
   <compo A="Gogol Bordello" T="Pala Tute" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="9" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="Deerhunter" T="Helicopter" type="SONG" mergeable="true" del="false">
+  <compo A="Deerhunter" T="Helicopter" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="10" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
   <compo A="Miranda Lambert" T="The House That Built Me" type="SONG" mergeable="true" del="false">
@@ -43,19 +43,19 @@
   <compo A="Spoon" T="Written in Reverse" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="14" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="Robyn" T="Dancing On My Own" type="SONG" mergeable="true" del="false">
+  <compo A="Robyn" T="Dancing On My Own" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="15" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="The New Pornographers" T="Crash Years" type="SONG" mergeable="true" del="false">
+  <compo A="The New Pornographers" T="Crash Years" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="16" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="Gorillaz" T="Stylo" type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Stylo" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="17" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
   <compo A="Joanna Newsom" T="Good Intentions Paving Company" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="18" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="LCD Soundsystem" T="All I Want" type="SONG" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="All I Want" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="19" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
   <compo A="Blur" T="Fool's Day" type="SONG" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <compo A="The New Pornographers" T="Sweet Talk Sweet Talk" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="24" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="Best Coast" T="Boyfriend" type="SONG" mergeable="true" del="false">
+  <compo A="Best Coast" T="Boyfriend" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="25" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
   <compo A="Caribou" T="Odessa" type="SONG" mergeable="true" del="true">
@@ -142,7 +142,7 @@
   <compo A="Crystal Castles" T="Not In Love" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="47" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
-  <compo A="Beach House" T="Norway" type="SONG" mergeable="true" del="false">
+  <compo A="Beach House" T="Norway" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="48" creation="13/08/2018 16:15:56" size="60"/>
   </compo>
   <compo A="The Roots" T="How I Got Over" type="SONG" mergeable="true" del="false">

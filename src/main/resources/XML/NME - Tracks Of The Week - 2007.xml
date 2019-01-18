@@ -31,7 +31,7 @@
   <compo A="The Sounds" T="Tony The Beat" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="false" rank="10" creation="04/09/2018 11:31:52" size="49"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Brainstorm" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Brainstorm" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="false" rank="11" creation="04/09/2018 11:31:52" size="49"/>
   </compo>
   <compo A="Stalkers" T="Let's Get It Together" type="SONG" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="The Twang And The Streets" T="Either Way" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Tracks Of The Week - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="false" rank="23" creation="04/09/2018 11:31:52" size="49"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Fluorescent Adolescent" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Fluorescent Adolescent" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Tracks Of The Week - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="false" rank="24" creation="04/09/2018 11:31:52" size="49"/>
   </compo>
   <compo A="Klaxons" T="It's Not Over Yet" type="SONG" mergeable="true" del="false">

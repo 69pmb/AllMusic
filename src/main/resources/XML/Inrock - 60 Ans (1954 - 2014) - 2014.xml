@@ -22,7 +22,7 @@
   <compo A="Tame Impala" T="Elephant" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 60 Ans (1954 - 2014) - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="7" creation="16/10/2018 14:20:14" size="200"/>
   </compo>
-  <compo A="Beach House" T="Norway" type="SONG" mergeable="true" del="false">
+  <compo A="Beach House" T="Norway" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 60 Ans (1954 - 2014) - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="8" creation="16/10/2018 14:20:14" size="200"/>
   </compo>
   <compo A="Caribou" T="Odessa" type="SONG" mergeable="true" del="true">
@@ -64,7 +64,7 @@
   <compo A="The Kills" T="The Good Ones" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 60 Ans (1954 - 2014) - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="21" creation="16/10/2018 14:20:14" size="200"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Fluorescent Adolescent" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Fluorescent Adolescent" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 60 Ans (1954 - 2014) - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="22" creation="16/10/2018 14:20:14" size="200"/>
   </compo>
   <compo A="The Libertines" T="Music When The Lights Go Out" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Metronomy" T="The Look" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 60 Ans (1954 - 2014) - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="29" creation="16/10/2018 14:20:14" size="200"/>
   </compo>
-  <compo A="Hot Chip" T="Over And Over" type="SONG" mergeable="true" del="false">
+  <compo A="Hot Chip" T="Over And Over" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 60 Ans (1954 - 2014) - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="30" creation="16/10/2018 14:20:14" size="200"/>
   </compo>
   <compo A="Bloc Party" T="Banquet" type="SONG" mergeable="true" del="false">

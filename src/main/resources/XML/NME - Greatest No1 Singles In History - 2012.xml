@@ -28,7 +28,7 @@
   <compo A="The Rolling Stones" T="Jumpin' Jack Flash" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest No1 Singles In History - 2012" publish="2012" cat="ALL_TIME" rangeB="0" rangeE="2012" sorted="true" rank="9" creation="02/07/2017 07:08:56" size="40"/>
   </compo>
-  <compo A="Arctic Monkeys" T="I Bet You Look Good On The Dancefloor" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="I Bet You Look Good On The Dancefloor" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest No1 Singles In History - 2012" publish="2012" cat="ALL_TIME" rangeB="0" rangeE="2012" sorted="true" rank="10" creation="02/07/2017 07:08:56" size="40"/>
   </compo>
   <compo A="Oasis" T="Some Might Say" type="SONG" mergeable="true" del="false">
@@ -115,10 +115,10 @@
   <compo A="Blur" T="Beetlbum" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest No1 Singles In History - 2012" publish="2012" cat="ALL_TIME" rangeB="0" rangeE="2012" sorted="true" rank="38" creation="02/07/2017 07:08:56" size="40"/>
   </compo>
-  <compo A="Kraftwerk" T="The Model" type="SONG" mergeable="true" del="false">
+  <compo A="Kraftwerk" T="The Model" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest No1 Singles In History - 2012" publish="2012" cat="ALL_TIME" rangeB="0" rangeE="2012" sorted="true" rank="39" creation="02/07/2017 07:08:56" size="40"/>
   </compo>
-  <compo A="Althea And Donna" T="Uptown Top Ranking" type="SONG" mergeable="true" del="false">
+  <compo A="Althea And Donna" T="Uptown Top Ranking" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest No1 Singles In History - 2012" publish="2012" cat="ALL_TIME" rangeB="0" rangeE="2012" sorted="true" rank="40" creation="02/07/2017 07:08:56" size="40"/>
   </compo>
 </ListCompositions>

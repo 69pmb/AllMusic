@@ -13,7 +13,7 @@
   <compo A="Katy Perry" T="Teenage Dream" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="4" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="We Used to Wait" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="We Used to Wait" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="5" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Mavis Staples" T="You Are Not Alone" type="SONG" mergeable="true" del="false">
@@ -49,16 +49,16 @@
   <compo A="Cold War Kids" T="Coffee Spoon" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="16" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="LCD Soundsystem" T="I Can Change" type="SONG" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="I Can Change" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="17" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Jenny and Johnny" T="Scissor Runner" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="18" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="The New Pornographers" T="Your Hands (Together)" type="SONG" mergeable="true" del="false">
+  <compo A="The New Pornographers" T="Your Hands (Together)" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="19" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Best Coast" T="Boyfriend" type="SONG" mergeable="true" del="false">
+  <compo A="Best Coast" T="Boyfriend" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="20" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Sleigh Bells" T="Infinity Guitars" type="SONG" mergeable="true" del="true">
@@ -76,7 +76,7 @@
   <compo A="Nicki Minaj" T="Did It On'em" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="25" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Robyn" T="Dancing on My Own" type="SONG" mergeable="true" del="false">
+  <compo A="Robyn" T="Dancing on My Own" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="26" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="The National" T="Bloodbuzz Ohio" type="SONG" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="Wavves" T="Post Acid" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="33" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Gorillaz" T="Stylo" type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Stylo" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="34" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Massive Attack And Hope Sandoval" T="Paradise Circus" type="SONG" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="The Gaslight Anthem" T="The Diamond Church Street Choir" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="39" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
-  <compo A="Kanye West" T="Power" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Power" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="40" creation="13/08/2017 04:25:08" size="50"/>
   </compo>
   <compo A="Junip" T="In Every Direction" type="SONG" mergeable="true" del="false">

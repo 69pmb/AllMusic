@@ -10,7 +10,7 @@
   <compo A="Sex Pistols" T="Anarchy In The Uk" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Paint It Black" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Paint It Black" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="David Bowie" T="Heroes" type="SONG" mergeable="true" del="true">
@@ -103,7 +103,7 @@
   <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="34" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Byrds" T="Mr Tambourine Man" type="SONG" mergeable="true" del="false">
+  <compo A="The Byrds" T="Mr Tambourine Man" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="35" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The La's" T="There She Goes" type="SONG" mergeable="true" del="true">
@@ -199,10 +199,10 @@
   <compo A="Nelly" T="Hot in Herre" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="66" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="MC5" T="Kick Out The Jams" type="SONG" mergeable="true" del="false">
+  <compo A="MC5" T="Kick Out The Jams" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="67" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Big Star" T="September Gurls" type="SONG" mergeable="true" del="false">
+  <compo A="Big Star" T="September Gurls" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="68" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Soft Cell" T="Tainted Love" type="SONG" mergeable="true" del="false">

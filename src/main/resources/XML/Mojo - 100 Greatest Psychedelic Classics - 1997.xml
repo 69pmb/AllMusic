@@ -67,7 +67,7 @@
   <compo A="Moby Grape" T="Omaha" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Greatest Psychedelic Classics - 1997" publish="1997" cat="GENRE" rangeB="0" rangeE="1997" sorted="false" rank="22" creation="02/07/2017 07:08:56" size="111"/>
   </compo>
-  <compo A="Jefferson Airplane" T="White Rabbit" type="SONG" mergeable="true" del="false">
+  <compo A="Jefferson Airplane" T="White Rabbit" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Greatest Psychedelic Classics - 1997" publish="1997" cat="GENRE" rangeB="0" rangeE="1997" sorted="false" rank="23" creation="02/07/2017 07:08:56" size="111"/>
   </compo>
   <compo A="Tim Buckley" T="Hallucinations" type="SONG" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <compo A="The Grateful Dead" T="That's It For The Other One" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Greatest Psychedelic Classics - 1997" publish="1997" cat="GENRE" rangeB="0" rangeE="1997" sorted="false" rank="38" creation="02/07/2017 07:08:56" size="111"/>
   </compo>
-  <compo A="Iron Butterfly" T="In-A-Gadda-Da-Vida" type="SONG" mergeable="true" del="false">
+  <compo A="Iron Butterfly" T="In-A-Gadda-Da-Vida" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Greatest Psychedelic Classics - 1997" publish="1997" cat="GENRE" rangeB="0" rangeE="1997" sorted="false" rank="39" creation="02/07/2017 07:08:56" size="111"/>
   </compo>
   <compo A="Steppenwolf" T="Magic Carpet Ride" type="SONG" mergeable="true" del="false">
@@ -154,7 +154,7 @@
   <compo A="The Beatles" T="Tomorrow Never Knows" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Greatest Psychedelic Classics - 1997" publish="1997" cat="GENRE" rangeB="0" rangeE="1997" sorted="false" rank="51" creation="02/07/2017 07:08:56" size="111"/>
   </compo>
-  <compo A="The Rolling Stones" T="Paint It Black" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Paint It Black" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Greatest Psychedelic Classics - 1997" publish="1997" cat="GENRE" rangeB="0" rangeE="1997" sorted="false" rank="52" creation="02/07/2017 07:08:56" size="111"/>
   </compo>
   <compo A="The Creation" T="Making Time" type="SONG" mergeable="true" del="false">

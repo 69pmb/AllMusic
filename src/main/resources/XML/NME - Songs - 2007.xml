@@ -19,7 +19,7 @@
   <compo A="The Ting Tings" T="That's Not My Name" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Brainstorm" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Brainstorm" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="7" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Foals" T="Mathletics" type="SONG" mergeable="true" del="false">
@@ -46,7 +46,7 @@
   <compo A="Battles" T="Atlas" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="15" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Fluorescent Adolescent" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Fluorescent Adolescent" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="16" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="MIA" T="Jimmy" type="SONG" mergeable="true" del="true">

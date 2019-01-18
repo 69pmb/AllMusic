@@ -19,7 +19,7 @@
   <compo A="Britney Spears" T="Toxic" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Modest Mouse" T="Float On" type="SONG" mergeable="true" del="false">
+  <compo A="Modest Mouse" T="Float On" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="U2" T="Vertigo" type="SONG" mergeable="true" del="false">
