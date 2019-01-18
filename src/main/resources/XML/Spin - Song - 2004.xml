@@ -58,7 +58,7 @@
   <compo A="Alicia Keys" T="If I Ain't Got You" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="19" creation="30/08/2018 10:58:37" size="20"/>
   </compo>
-  <compo A="Jet" T="Are You Gonna Be My Girl?" type="SONG" mergeable="true" del="false">
+  <compo A="Jet" T="Are You Gonna Be My Girl?" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="20" creation="30/08/2018 10:58:37" size="20"/>
   </compo>
 </ListCompositions>

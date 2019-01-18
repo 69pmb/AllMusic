@@ -61,7 +61,7 @@
   <compo A="Yellowcard" T="Ocean Avenue" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 21 Best Pop-Punk Choruses of the 21st Century - 2017" publish="2017" cat="GENRE" rangeB="0" rangeE="2017" sorted="true" rank="2" creation="30/08/2018 11:58:55" size="21"/>
   </compo>
-  <compo A="Jimmy Eat World" T="The Middle" type="SONG" mergeable="true" del="false">
+  <compo A="Jimmy Eat World" T="The Middle" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 21 Best Pop-Punk Choruses of the 21st Century - 2017" publish="2017" cat="GENRE" rangeB="0" rangeE="2017" sorted="true" rank="1" creation="30/08/2018 11:58:55" size="21"/>
   </compo>
 </ListCompositions>

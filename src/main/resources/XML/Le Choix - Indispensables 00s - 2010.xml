@@ -22,7 +22,7 @@
   <compo A="Eminem" T="Stan" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="7" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Gossip" T="Standing In The Way of Control" type="SONG" mergeable="true" del="false">
+  <compo A="Gossip" T="Standing In The Way of Control" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="8" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="The Avalanches" T="Since I Left You" type="SONG" mergeable="true" del="true">
@@ -199,7 +199,7 @@
   <compo A="Goldfrapp" T="Train" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="66" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Jet" T="Are You Gonna Be My Girl" type="SONG" mergeable="true" del="false">
+  <compo A="Jet" T="Are You Gonna Be My Girl" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="67" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Johnny Cash" T="Hurt" type="SONG" mergeable="true" del="true">
@@ -337,10 +337,10 @@
   <compo A="Franz Ferdinand" T="Do You Want To" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="112" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Gorillaz" T="Feel Good Inc" type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Feel Good Inc" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="113" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Gorillaz" T="DARE" type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="DARE" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="114" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Lindstrøm" T="I Feel Space" type="SONG" mergeable="true" del="false">
@@ -382,7 +382,7 @@
   <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="127" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="false">
+  <compo A="Gnarls Barkley" T="Crazy" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="128" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Hot Chip" T="Over And Over" type="SONG" mergeable="true" del="true">

@@ -49,7 +49,7 @@
   <compo A="Animals" T="House Of The Rising Sun" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="16" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="false">
+  <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="17" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="Neil Young" T="Like A Hurricane" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="22" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Iggy Pop" T="Lust For Life" type="SONG" mergeable="true" del="false">
+  <compo A="Iggy Pop" T="Lust For Life" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="23" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
@@ -166,7 +166,7 @@
   <compo A="Kylie Minogue" T="Can't Get You Out Of My Head" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="55" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="56" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Dexy's Midnight Runners" T="Come On Eileen" type="SONG" mergeable="true" del="true">
@@ -1873,7 +1873,7 @@
   <compo A="Band" T="The Weight" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="624" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
-  <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Song - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="625" creation="29/08/2017 09:40:30" size="707"/>
   </compo>
   <compo A="Elvis Presley" T="Always On My Mind" type="SONG" mergeable="true" del="false">

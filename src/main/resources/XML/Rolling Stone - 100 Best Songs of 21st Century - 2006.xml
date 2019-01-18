@@ -94,7 +94,7 @@
   <compo A="BOB DYLAN" T="Mississippi" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="31" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
-  <compo A="JET" T="Are You Gonna Be My Girl" type="SONG" mergeable="true" del="false">
+  <compo A="JET" T="Are You Gonna Be My Girl" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="32" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
   <compo A="COLDPLAY" T="Speed Of Sound" type="SONG" mergeable="true" del="false">
@@ -178,7 +178,7 @@
   <compo A="BEN HARPER" T="With My Own Two Hands" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="59" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
-  <compo A="GORRILLAZ" T="Feel Good Inc." type="SONG" mergeable="true" del="false">
+  <compo A="GORRILLAZ" T="Feel Good Inc." type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="60" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
   <compo A="NORAH JONES" T="Sunrise" type="SONG" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Arcade Fire" T="Neighborhood #3 Power Out" type="SONG" mergeable="false" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="71" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
-  <compo A="GORILLAZ" T="Dare" type="SONG" mergeable="true" del="false">
+  <compo A="GORILLAZ" T="Dare" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="72" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
   <compo A="AUDIOSLAVE" T="Like A Stone" type="SONG" mergeable="true" del="false">

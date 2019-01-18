@@ -58,7 +58,7 @@
   <compo A="Ash" T="Girl From Mars" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="19" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Green Day" T="Basket Case" type="SONG" mergeable="true" del="false">
+  <compo A="Green Day" T="Basket Case" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="20" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Oasis" T="Live Forever" type="SONG" mergeable="true" del="true">
@@ -223,7 +223,7 @@
   <compo A="New Order" T="Regret" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="74" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Hole" T="Celebrity Skin" type="SONG" mergeable="true" del="false">
+  <compo A="Hole" T="Celebrity Skin" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="75" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Primal Scream" T="Come Together" type="SONG" mergeable="true" del="true">
