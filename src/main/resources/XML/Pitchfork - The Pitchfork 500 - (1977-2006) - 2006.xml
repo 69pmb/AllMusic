@@ -259,7 +259,7 @@
   <compo A="Justin Timberlake" T="Cry Me A River" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="86" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Daft Punk" T="Da Funk" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Da Funk" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="87" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Gang Of Four" T="Damaged Goods" type="SONG" mergeable="true" del="false">
@@ -355,7 +355,7 @@
   <compo A="Depeche Mode" T="Enjoy The Silence" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="118" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="false">
+  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="119" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Morrissey" T="Everyday Is Like Sunday" type="SONG" mergeable="true" del="true">
@@ -817,7 +817,7 @@
   <compo A="Cabaret Voltaire" T="Nag Nag Nag" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="272" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Elliott Smith" T="Needle In The Hay" type="SONG" mergeable="true" del="false">
+  <compo A="Elliott Smith" T="Needle In The Hay" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="273" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Mantronix" T="Needle To The Groove" type="SONG" mergeable="true" del="false">
@@ -895,7 +895,7 @@
   <compo A="Sleater-Kinney" T="One More Hour" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="298" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="299" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Liquid Liquid" T="Optimo" type="SONG" mergeable="true" del="false">

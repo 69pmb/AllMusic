@@ -82,7 +82,7 @@
   <compo A="Bob Marley" T="No Woman No Cry" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 75 Tunes That Defined Rock Roll - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="27" creation="04/09/2018 15:48:04" size="75"/>
   </compo>
-  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
+  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 75 Tunes That Defined Rock Roll - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="28" creation="04/09/2018 15:48:04" size="75"/>
   </compo>
   <compo A="Cornershop" T="Brimful Of Asha" type="SONG" mergeable="true" del="true">
@@ -163,7 +163,7 @@
   <compo A="Arcade Fire" T="Power Out" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 75 Tunes That Defined Rock Roll - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="54" creation="04/09/2018 15:48:04" size="75"/>
   </compo>
-  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="false">
+  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 75 Tunes That Defined Rock Roll - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="55" creation="04/09/2018 15:48:04" size="75"/>
   </compo>
   <compo A="Chuck Berry" T="Johnny B Goode" type="SONG" mergeable="true" del="true">

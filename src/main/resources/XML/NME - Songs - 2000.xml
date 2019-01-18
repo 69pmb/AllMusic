@@ -4,7 +4,7 @@
   <compo A="Eminem" T="The Real Slim Shady" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
+  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="2" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
   <compo A="Kelis" T="Caught Out There" type="SONG" mergeable="true" del="false">
@@ -94,7 +94,7 @@
   <compo A="Manic Street Preachers" T="Masses Against The Classes" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="31" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="32" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
   <compo A="Super Furry Animals" T="Ysbeidiau Heulog" type="SONG" mergeable="true" del="true">

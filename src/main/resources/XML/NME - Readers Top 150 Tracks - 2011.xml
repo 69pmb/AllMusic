@@ -61,7 +61,7 @@
   <compo A="Bloc Party" T="Banquet" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="20" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Daft Punk" T="Around The World" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Around The World" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="21" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Arcade Fire" T="Wake Up" type="SONG" mergeable="true" del="true">
@@ -169,7 +169,7 @@
   <compo A="The Killers" T="All These Things That I've Done" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="56" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="57" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Destiny's Child" T="Say My Name" type="SONG" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="93" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="false">
+  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="94" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="The Knife" T="Heartbeats" type="SONG" mergeable="true" del="true">
@@ -394,7 +394,7 @@
   <compo A="Radiohead" T="Pyramid Song" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="131" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Daft Punk" T="Harder, Better, Faster, Stronger" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Harder, Better, Faster, Stronger" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="132" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="The Strokes" T="Under Cover Of Darkness" type="SONG" mergeable="true" del="true">
@@ -415,7 +415,7 @@
   <compo A="Bat For Lashes" T="What's A Girl To Do?" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="138" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
+  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="139" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Arctic Monkeys" T="A Certain Romance" type="SONG" mergeable="true" del="true">
@@ -424,7 +424,7 @@
   <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="141" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Foals" T="Hummer" type="SONG" mergeable="true" del="false">
+  <compo A="Foals" T="Hummer" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="142" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Oasis" T="The Hindu Times" type="SONG" mergeable="true" del="false">

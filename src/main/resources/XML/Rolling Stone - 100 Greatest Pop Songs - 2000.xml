@@ -121,7 +121,7 @@
   <compo A="Whitney Houston" T="I Will Always Love You" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="40" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Creedence Clearwater Revival" T="Proud Mary" type="SONG" mergeable="true" del="false">
+  <compo A="Creedence Clearwater Revival" T="Proud Mary" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="41" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Police" T="Every Breath You Take" type="SONG" mergeable="true" del="false">

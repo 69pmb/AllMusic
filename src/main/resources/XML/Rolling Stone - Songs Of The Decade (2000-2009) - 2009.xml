@@ -34,7 +34,7 @@
   <compo A="MGMT" T="Time to Pretend" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="11" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="12" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="50 Cent" T="In Da Club" type="SONG" mergeable="true" del="true">
@@ -97,10 +97,10 @@
   <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="33" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
+  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="34" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="The Rising" type="SONG" mergeable="true" del="false">
