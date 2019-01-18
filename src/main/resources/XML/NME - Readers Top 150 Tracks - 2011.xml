@@ -52,7 +52,7 @@
   <compo A="Missy Elliott" T="Get Ur Freak On" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="17" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Queens Of The Stone Age" T="No One Knows" type="SONG" mergeable="true" del="false">
+  <compo A="Queens Of The Stone Age" T="No One Knows" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="18" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Justice" T="We Are Your Friends" type="SONG" mergeable="true" del="false">
@@ -190,7 +190,7 @@
   <compo A="Rihanna" T="Umbrella [And Jay-Z]" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="63" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="La Roux" T="In For The Kill" type="SONG" mergeable="true" del="false">
+  <compo A="La Roux" T="In For The Kill" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="64" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Kasabian" T="Fire" type="SONG" mergeable="true" del="true">
@@ -274,10 +274,10 @@
   <compo A="O.N.E." T="Yeasayer" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="91" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Peter, Bjorn And John" T="Young Folks" type="SONG" mergeable="true" del="false">
+  <compo A="Peter, Bjorn And John" T="Young Folks" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="92" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="93" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="true">

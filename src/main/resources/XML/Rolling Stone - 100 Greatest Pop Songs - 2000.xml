@@ -211,7 +211,7 @@
   <compo A="Beach Boys" T="Good Vibrations" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="70" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Ramones" T="I Wanna Be Sedated" type="SONG" mergeable="true" del="false">
+  <compo A="The Ramones" T="I Wanna Be Sedated" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="71" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Tom Petty" T="Free Fallin'" type="SONG" mergeable="true" del="true">
@@ -226,7 +226,7 @@
   <compo A="Sly and the Family Stone" T="Hot Fun In The Summertime" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="75" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="76" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Al Green" T="Let's Stay Together" type="SONG" mergeable="true" del="true">
@@ -250,7 +250,7 @@
   <compo A="Foreigner" T="I Want To Know What Love Is" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="83" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="84" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Cheap Trick" T="Surrender" type="SONG" mergeable="true" del="false">

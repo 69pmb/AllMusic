@@ -70,7 +70,7 @@
   <compo A="Beck" T="Loser" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="23" creation="07/09/2018 15:13:20" size="50"/>
   </compo>
-  <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Supersonic" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="24" creation="07/09/2018 15:13:20" size="50"/>
   </compo>
   <compo A="Johnny Cash" T="Delia's Gone" type="SONG" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="The Jayhawks" T="Blue" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="27" creation="07/09/2018 15:13:20" size="50"/>
   </compo>
-  <compo A="PJ Harvey" T="Down By The Water" type="SONG" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Down By The Water" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 90's - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="28" creation="07/09/2018 15:13:20" size="50"/>
   </compo>
   <compo A="Tocotronic" T="Digital Ist Besser" type="SONG" mergeable="true" del="false">

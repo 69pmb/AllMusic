@@ -325,7 +325,7 @@
   <compo A="Labi Siffre" T="It Must Be Love" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="108" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="false">
+  <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="109" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Frank Sinatra" T="Fly Me To The Moon" type="SONG" mergeable="true" del="false">
@@ -718,7 +718,7 @@
   <compo A="Lou Reed" T="Sad Song" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="239" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="REM" T="Everybody Hurts" type="SONG" mergeable="true" del="false">
+  <compo A="REM" T="Everybody Hurts" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="240" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="REM" T="One I Love" type="SONG" mergeable="true" del="false">
@@ -2803,7 +2803,7 @@
   <compo A="Nolans" T="I'm In The Mood For Dancing" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="934" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Oasis" T="Cigarettes And Alcohol" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="Cigarettes And Alcohol" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="935" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Ol' Dirty Bastard And Kelis" T="Got Your Money" type="SONG" mergeable="true" del="false">

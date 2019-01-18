@@ -55,7 +55,7 @@
   <compo A="Outkast" T="Ms Jackson" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="18" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="19" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Hot Chip" T="Over And Over" type="SONG" mergeable="true" del="true">
@@ -103,7 +103,7 @@
   <compo A="Jay-Z" T="Empire State Of Mind" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Queens Of The Stone Age" T="No One Knows" type="SONG" mergeable="true" del="false">
+  <compo A="Queens Of The Stone Age" T="No One Knows" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="33" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <compo A="Daft Punk" T="Harder, Better, Faster, Better" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="51" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="La Roux" T="In For The Kill" type="SONG" mergeable="true" del="false">
+  <compo A="La Roux" T="In For The Kill" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="false">
@@ -199,7 +199,7 @@
   <compo A="Elbow" T="One Day Like This" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="57" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Everything In It's Right Place" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Everything In It's Right Place" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="58" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Interpol" T="Evil" type="SONG" mergeable="true" del="false">
@@ -325,7 +325,7 @@
   <compo A="The Killers" T="All These Things I'Ve Done" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="95" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Oasis" T="The Shock Of The Lightning" type="SONG" mergeable="true" del="false">
+  <compo A="Oasis" T="The Shock Of The Lightning" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="96" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Crystal Castles" T="Crimewave" type="SONG" mergeable="true" del="true">

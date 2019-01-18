@@ -4,7 +4,7 @@
   <compo A="Yeah Yeah Yeahs" T="Zero" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="1" creation="30/08/2018 11:01:18" size="20"/>
   </compo>
-  <compo A="Phoenix" T="1901" type="SONG" mergeable="true" del="false">
+  <compo A="Phoenix" T="1901" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="2" creation="30/08/2018 11:01:18" size="20"/>
   </compo>
   <compo A="Girls" T="Hellhole Ratrace" type="SONG" mergeable="true" del="true">
@@ -46,7 +46,7 @@
   <compo A="Mike Snow" T="Animal" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="15" creation="30/08/2018 11:01:18" size="20"/>
   </compo>
-  <compo A="La Roux" T="Bulletproof" type="SONG" mergeable="true" del="false">
+  <compo A="La Roux" T="Bulletproof" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="16" creation="30/08/2018 11:01:18" size="20"/>
   </compo>
   <compo A="Neko Case" T="This Tornado Loves You" type="SONG" mergeable="true" del="false">

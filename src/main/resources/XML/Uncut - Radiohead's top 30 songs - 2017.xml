@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Radiohead's top 30 songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="1" creation="03/09/2018 10:53:03" size="30"/>
   </compo>
   <compo A="Radiohead" T="Planet Telex" type="SONG" mergeable="true" del="true">
@@ -43,7 +43,7 @@
   <compo A="Radiohead" T="Follow Me Around" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Radiohead's top 30 songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="14" creation="03/09/2018 10:53:03" size="30"/>
   </compo>
-  <compo A="Radiohead" T="Everything In Its Right Place" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Everything In Its Right Place" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Radiohead's top 30 songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="15" creation="03/09/2018 10:53:03" size="30"/>
   </compo>
   <compo A="Radiohead" T="The National Anthem" type="SONG" mergeable="true" del="true">
@@ -64,7 +64,7 @@
   <compo A="Radiohead" T="Like Spinning Plates" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Radiohead's top 30 songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="21" creation="03/09/2018 10:53:03" size="30"/>
   </compo>
-  <compo A="Radiohead" T="There There" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="There There" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Radiohead's top 30 songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="22" creation="03/09/2018 10:53:03" size="30"/>
   </compo>
   <compo A="Radiohead" T="15 Steps" type="SONG" mergeable="true" del="true">
@@ -73,7 +73,7 @@
   <compo A="Radiohead" T="Weird Fishes/Arpeggi" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Radiohead's top 30 songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="24" creation="03/09/2018 10:53:03" size="30"/>
   </compo>
-  <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="false">
+  <compo A="Radiohead" T="Reckoner" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Radiohead's top 30 songs - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="25" creation="03/09/2018 10:53:03" size="30"/>
   </compo>
   <compo A="Radiohead" T="Videotape" type="SONG" mergeable="true" del="true">
