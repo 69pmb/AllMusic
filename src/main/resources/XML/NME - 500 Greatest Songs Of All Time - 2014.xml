@@ -31,7 +31,7 @@
   <compo A="The Beach Boys" T="Good Vibrations" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="10" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Eleanor Rigby" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Eleanor Rigby" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="11" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Smiths" T="There Is A Light That Never Goes Out" type="SONG" mergeable="true" del="true">
@@ -202,7 +202,7 @@
   <compo A="Oasis" T="Cigarettes And Alcohol" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="67" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Blackbird" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Blackbird" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="68" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Clash" T="(White Man) In Hammersmith Palais" type="SONG" mergeable="true" del="true">
@@ -238,7 +238,7 @@
   <compo A="The White Stripes" T="Fell In Love With A Girl" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="79" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Taxman" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Taxman" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="80" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Jay-Z And Kanye West" T="Niggas In Paris" type="SONG" mergeable="true" del="true">
@@ -280,7 +280,7 @@
   <compo A="Kanye West" T="Gold Digger" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="93" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Flaming Lips" T="Do You Realize??" type="SONG" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="Do You Realize??" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="94" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Public Enemy" T="Fight The Power" type="SONG" mergeable="true" del="true">
@@ -493,7 +493,7 @@
   <compo A="Dizzee Rascal" T="Fix Up, Look Sharp" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="164" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Breeders" T="Cannonball" type="SONG" mergeable="true" del="false">
+  <compo A="The Breeders" T="Cannonball" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="165" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Beastie Boys" T="Fight For Your Right (To Party)" type="SONG" mergeable="true" del="false">
@@ -580,7 +580,7 @@
   <compo A="Blur" T="Tender" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="193" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Supergrass" T="Alright" type="SONG" mergeable="true" del="false">
+  <compo A="Supergrass" T="Alright" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="194" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Joy Division" T="Atmosphere" type="SONG" mergeable="true" del="true">
@@ -595,7 +595,7 @@
   <compo A="Blur" T="This Is A Low" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="198" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Doors" T="Light My Fire" type="SONG" mergeable="true" del="false">
+  <compo A="The Doors" T="Light My Fire" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="199" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Pixies" T="Where Is My Mind?" type="SONG" mergeable="true" del="true">
@@ -790,7 +790,7 @@
   <compo A="Elvis Presley" T="Hound Dog" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="263" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="264" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Jay-Z" T="Empire State Of Mind" type="SONG" mergeable="true" del="true">
@@ -838,7 +838,7 @@
   <compo A="Pixies" T="Velouria" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="279" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="She Loves You" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="She Loves You" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="280" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Elbow" T="One Day Like This" type="SONG" mergeable="true" del="true">
@@ -1144,7 +1144,7 @@
   <compo A="Mgmt" T="Kids" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="381" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="While My Guitar Gently Weeps" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="While My Guitar Gently Weeps" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="382" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="N*E*R*D" T="Lapdance" type="SONG" mergeable="true" del="false">
@@ -1468,7 +1468,7 @@
   <compo A="NICK CAVE" T="Red Right Hand" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="489" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Doors" T="Riders Of The Storm" type="SONG" mergeable="true" del="false">
+  <compo A="The Doors" T="Riders Of The Storm" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="490" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Johnny Cash" T="One" type="SONG" mergeable="true" del="false">

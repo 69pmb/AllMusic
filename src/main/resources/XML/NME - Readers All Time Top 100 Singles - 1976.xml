@@ -139,7 +139,7 @@
   <compo A="Queen" T="Bohemian Rhapsody" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="46" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Beatles" T="She Loves You" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="She Loves You" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="47" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Beatles" T="Get Back" type="SONG" mergeable="true" del="true">
@@ -160,7 +160,7 @@
   <compo A="John Lennon" T="Imagine" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="53" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Doors" T="Riders On The Storm" type="SONG" mergeable="true" del="false">
+  <compo A="The Doors" T="Riders On The Storm" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="54" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Cream" T="Badge" type="SONG" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="George Harrison" T="My Sweet Lord" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="56" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="false">
+  <compo A="Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="57" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Nilsson" T="Without You" type="SONG" mergeable="true" del="false">
@@ -253,10 +253,10 @@
   <compo A="Kinks" T="You Really Got Me" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="84" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Beach Boys" T="California Girls" type="SONG" mergeable="true" del="false">
+  <compo A="Beach Boys" T="California Girls" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="85" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Doors" T="Light My Fire" type="SONG" mergeable="true" del="false">
+  <compo A="Doors" T="Light My Fire" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All Time Top 100 Singles - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="86" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Rolling Stones" T="The Last Time" type="SONG" mergeable="true" del="true">

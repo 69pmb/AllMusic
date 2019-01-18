@@ -115,7 +115,7 @@
   <compo A="The Jackson Five" T="I Want You Back" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="38" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
-  <compo A="The Doors" T="Light My Fire" type="SONG" mergeable="true" del="false">
+  <compo A="The Doors" T="Light My Fire" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="39" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
   <compo A="Aretha Franklin" T="Respect" type="SONG" mergeable="true" del="true">
@@ -127,7 +127,7 @@
   <compo A="Percy Sledge" T="When A Man Loves A Woman" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="42" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
-  <compo A="The Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 150 Singles - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="43" creation="02/07/2017 07:08:56" size="150"/>
   </compo>
   <compo A="Al Green" T="Let's Stay Together" type="SONG" mergeable="true" del="true">

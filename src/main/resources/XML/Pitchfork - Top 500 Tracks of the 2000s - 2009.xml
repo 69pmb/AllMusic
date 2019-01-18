@@ -424,7 +424,7 @@
   <compo A="Britney Spears" T="Toxic" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="141" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Flaming Lips" T="Do You Realize??" type="SONG" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="Do You Realize??" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="142" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Feist" T="1234" type="SONG" mergeable="true" del="false">
@@ -769,7 +769,7 @@
   <compo A="M83" T="Km And Jessie" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="256" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Flaming Lips" T="Fight Test" type="SONG" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="Fight Test" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="257" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Rachel Stevens" T="Some Girls" type="SONG" mergeable="true" del="false">
@@ -1429,7 +1429,7 @@
   <compo A="Ward 21" T="Petrol" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="476" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Dodos" T="Fools" type="SONG" mergeable="true" del="false">
+  <compo A="The Dodos" T="Fools" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="477" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Pantha Du Prince" T="Asha" type="SONG" mergeable="true" del="false">
