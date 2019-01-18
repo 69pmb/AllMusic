@@ -70,7 +70,7 @@
   <compo A="Dusty Springfield" T="Son Of A Preacher Man" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="23" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Beatles" T="She Loves You" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="She Loves You" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="24" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Buffalo Springfield" T="For What It's Worth" type="SONG" mergeable="true" del="true">
@@ -211,7 +211,7 @@
   <compo A="Patsy Cline" T="Crazy" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="70" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Eleanor Rigby" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Eleanor Rigby" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="71" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Flirtations" T="Nothing But A Heartache" type="SONG" mergeable="true" del="false">

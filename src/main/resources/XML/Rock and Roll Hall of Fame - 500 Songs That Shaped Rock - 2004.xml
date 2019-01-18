@@ -52,7 +52,7 @@
   <compo A="The Band" T="The Weight" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="17" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Beach Boys" T="California Girls" type="SONG" mergeable="true" del="false">
+  <compo A="Beach Boys" T="California Girls" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="18" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Beach Boys" T="Don't Worry Baby" type="SONG" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Beach Boys" T="Good Vibrations" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="21" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Beach Boys" T="Surfin' U.S.A." type="SONG" mergeable="true" del="false">
+  <compo A="Beach Boys" T="Surfin' U.S.A." type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="22" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Beastie Boys" T="Fight For Your Right (To Party)" type="SONG" mergeable="true" del="false">
@@ -394,10 +394,10 @@
   <compo A="Donovan" T="Sunshine Superman" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="131" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Doors" T="Light My Fire" type="SONG" mergeable="true" del="false">
+  <compo A="The Doors" T="Light My Fire" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="132" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Doors" T="The End" type="SONG" mergeable="true" del="false">
+  <compo A="The Doors" T="The End" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="133" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" mergeable="true" del="true">
