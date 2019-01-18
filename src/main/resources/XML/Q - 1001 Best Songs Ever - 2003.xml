@@ -334,13 +334,13 @@
   <compo A="Aaron Neville" T="Hercules" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="111" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Blondie" T="Atomic" type="SONG" mergeable="true" del="false">
+  <compo A="Blondie" T="Atomic" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="112" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="D'angelo" T="Brown Sugar" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="113" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Blur" T="Song 2" type="SONG" mergeable="true" del="false">
+  <compo A="Blur" T="Song 2" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="114" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Billie Holiday" T="Strange Fruit" type="SONG" mergeable="true" del="true">
@@ -1087,7 +1087,7 @@
   <compo A="Gilbert O' Sullivan" T="Alone Again (Naturally)" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="362" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Belle And Sebastian" T="The Stars Of Track And Field" type="SONG" mergeable="true" del="false">
+  <compo A="Belle And Sebastian" T="The Stars Of Track And Field" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="363" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Shuggie Otis" T="Strawberry Letter 23" type="SONG" mergeable="true" del="false">
@@ -1210,7 +1210,7 @@
   <compo A="Benny Benassi And The Biz" T="Satisfaction" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="403" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Blue Oyster Cult" T="(Don't Fear) The Reaper" type="SONG" mergeable="true" del="false">
+  <compo A="Blue Oyster Cult" T="(Don't Fear) The Reaper" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="404" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="The Beach Boys" T="The Warmth Of The Sun" type="SONG" mergeable="true" del="false">

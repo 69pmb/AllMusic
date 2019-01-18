@@ -46,7 +46,7 @@
   <compo A="Arrested Development" T="Tennessee" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="15" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Beck" T="Loser" type="SONG" mergeable="true" del="false">
+  <compo A="Beck" T="Loser" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="16" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Bee Gees" T="Odessa (City on the Black Sea)" type="SONG" mergeable="true" del="false">
@@ -1345,7 +1345,7 @@
   <compo A="Black Dice" T="Pigs" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="448" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Black Lips" T="O Katrina!" type="SONG" mergeable="true" del="false">
+  <compo A="Black Lips" T="O Katrina!" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="449" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Black Sabbath" T="Paranoid" type="SONG" mergeable="true" del="true">
@@ -2830,7 +2830,7 @@
   <compo A="Bjork" T="Hunter" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="943" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Blondie" T="Atomic" type="SONG" mergeable="true" del="false">
+  <compo A="Blondie" T="Atomic" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="944" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Patti Smith" T="Easter" type="SONG" mergeable="true" del="false">
@@ -2890,7 +2890,7 @@
   <compo A="Frankie Knuckles" T="Your Love" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="963" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Blur" T="Song 2" type="SONG" mergeable="true" del="false">
+  <compo A="Blur" T="Song 2" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="964" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Brian Eno" T="An Ending (Ascent)" type="SONG" mergeable="true" del="false">

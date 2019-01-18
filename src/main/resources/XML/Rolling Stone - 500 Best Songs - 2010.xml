@@ -604,7 +604,7 @@
   <compo A="Parliament" T="Flash Light" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="202" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Beck" T="Loser" type="SONG" mergeable="true" del="false">
+  <compo A="Beck" T="Loser" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="203" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="New Order" T="Bizarre Love Triangle" type="SONG" mergeable="true" del="true">
@@ -772,7 +772,7 @@
   <compo A="AC/DC" T="Highway to Hell" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="258" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Blondie" T="Heart of Glass" type="SONG" mergeable="true" del="false">
+  <compo A="Blondie" T="Heart of Glass" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="259" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Mississippi" type="SONG" mergeable="true" del="true">
@@ -862,7 +862,7 @@
   <compo A="Joni Mitchell" T="Help Me" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="288" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Blondie" T="Call Me" type="SONG" mergeable="true" del="false">
+  <compo A="Blondie" T="Call Me" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="289" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Elvis Costello" T="(What's So Funny 'Bout) Peace Love And Understanding" type="SONG" mergeable="true" del="false">
@@ -1114,7 +1114,7 @@
   <compo A="Box Tops" T="The Letter" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="372" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="373" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Righteous Brothers" T="Unchained Melody" type="SONG" mergeable="true" del="true">
@@ -1210,10 +1210,10 @@
   <compo A="The Shangri Las" T="Remember (Walkin' in the Sand)" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="404" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Blue Oyster Cult" T="(Don't Fear) the Reaper" type="SONG" mergeable="true" del="false">
+  <compo A="Blue Oyster Cult" T="(Don't Fear) the Reaper" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="405" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Big Star" T="Thirteen" type="SONG" mergeable="true" del="false">
+  <compo A="Big Star" T="Thirteen" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="406" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Lynyrd Skynyrd" T="Sweet Home Alabama" type="SONG" mergeable="true" del="true">

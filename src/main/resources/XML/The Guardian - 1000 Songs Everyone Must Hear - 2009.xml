@@ -46,7 +46,7 @@
   <compo A="Beyonce" T="Crazy In Love" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="15" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Big Star" T="Thirteen" type="SONG" mergeable="true" del="false">
+  <compo A="Big Star" T="Thirteen" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="16" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Bobby 'Blue' Bland" T="I'll Take Care Of You" type="SONG" mergeable="true" del="false">
@@ -448,7 +448,7 @@
   <compo A="Big Brother And The Holding Company And Janis Joplin" T="Piece Of My Heart" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="149" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Blondie" T="Heart Of Glass" type="SONG" mergeable="true" del="false">
+  <compo A="Blondie" T="Heart Of Glass" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="150" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Blondie" T="One Way Or Another" type="SONG" mergeable="true" del="true">
@@ -865,7 +865,7 @@
   <compo A="Animals" T="We've Gotta Get Out Of This Place" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="288" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Arctic Monkeys" T="A Certain Romance" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="A Certain Romance" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="289" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Roy Ayers" T="Chicago" type="SONG" mergeable="true" del="false">
@@ -2140,7 +2140,7 @@
   <compo A="Blue Nile" T="Happiness" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="713" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Blue Oyster Cult" T="(Don't Fear) The Reaper" type="SONG" mergeable="true" del="false">
+  <compo A="Blue Oyster Cult" T="(Don't Fear) The Reaper" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="714" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Blur" T="This Is A Low" type="SONG" mergeable="true" del="true">

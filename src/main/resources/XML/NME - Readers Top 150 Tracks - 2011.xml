@@ -235,7 +235,7 @@
   <compo A="The Verve" T="The Drugs Don't Work" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="78" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Blur" T="Song 2" type="SONG" mergeable="true" del="false">
+  <compo A="Blur" T="Song 2" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="79" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Eminem" T="The Real Slim Shady" type="SONG" mergeable="true" del="false">
@@ -418,7 +418,7 @@
   <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="139" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
-  <compo A="Arctic Monkeys" T="A Certain Romance" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="A Certain Romance" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Readers Top 150 Tracks - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="140" creation="25/05/2018 16:03:21" size="150"/>
   </compo>
   <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="false">

@@ -79,7 +79,7 @@
   <compo A="Yo La Tengo" T="Let's Save Tony Orlando's House" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="26" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Beck" T="Lost Cause" type="SONG" mergeable="true" del="false">
+  <compo A="Beck" T="Lost Cause" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="27" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Bright Eyes" T="Bowl of Oranges" type="SONG" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <compo A="Arcade Fire" T="Neighborhood #1 Tunnels" type="SONG" mergeable="false" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="86" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Beck" T="Everybody's Gotta Learn Sometimes" type="SONG" mergeable="true" del="false">
+  <compo A="Beck" T="Everybody's Gotta Learn Sometimes" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="87" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Britney Spears" T="Toxic" type="SONG" mergeable="true" del="false">
@@ -325,10 +325,10 @@
   <compo A="Basement Jaxx" T="Oh My Gosh" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="108" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Beck" T="E-Pro" type="SONG" mergeable="true" del="false">
+  <compo A="Beck" T="E-Pro" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="109" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Black Rebel Motorcycle Club" T="Ain't No Easy Way" type="SONG" mergeable="true" del="false">
+  <compo A="Black Rebel Motorcycle Club" T="Ain't No Easy Way" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="110" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Feist" T="Inside And Out" type="SONG" mergeable="true" del="false">
@@ -442,7 +442,7 @@
   <compo A="Arcade Fire" T="No Cars Go" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="147" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Black Kids" T="I'm Not Gonna Teach Your Boyfriend How To Dance With You" type="SONG" mergeable="true" del="false">
+  <compo A="Black Kids" T="I'm Not Gonna Teach Your Boyfriend How To Dance With You" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="148" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Feist" T="1234" type="SONG" mergeable="true" del="false">
@@ -496,7 +496,7 @@
   <compo A="Beach House" T="Gila" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="165" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
-  <compo A="Beck" T="Gamma Ray" type="SONG" mergeable="true" del="false">
+  <compo A="Beck" T="Gamma Ray" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="166" creation="31/07/2018 11:29:46" size="190"/>
   </compo>
   <compo A="Black Mountain" T="Tyrants" type="SONG" mergeable="true" del="false">

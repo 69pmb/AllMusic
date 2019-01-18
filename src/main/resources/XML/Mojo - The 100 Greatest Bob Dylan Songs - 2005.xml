@@ -37,7 +37,7 @@
   <compo A="Bob Dylan" T="Love Sick" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="12" creation="23/08/2018 17:52:22" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="13" creation="23/08/2018 17:52:22" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Mr Tambourine Man" type="SONG" mergeable="true" del="true">
@@ -79,7 +79,7 @@
   <compo A="Bob Dylan" T="Shelter From The Storm" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="26" creation="23/08/2018 17:52:22" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="All Along The Watchtower" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="27" creation="23/08/2018 17:52:22" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="I Want You" type="SONG" mergeable="true" del="true">
