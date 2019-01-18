@@ -37,7 +37,7 @@
   <compo A="Cuba" T="Havana" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="false" rank="12" creation="10/09/2018 13:32:04" size="51"/>
   </compo>
-  <compo A="Daft Punk" T="Around The World" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Around The World" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="false" rank="13" creation="10/09/2018 13:32:04" size="51"/>
   </compo>
   <compo A="Depeche Mode" T="Home" type="SONG" mergeable="true" del="false">

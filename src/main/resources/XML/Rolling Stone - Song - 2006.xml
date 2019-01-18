@@ -16,7 +16,7 @@
   <compo A="The Pack" T="Vans" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Thunder On The Mountain" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Thunder On The Mountain" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Lily Allen" T="Smile" type="SONG" mergeable="true" del="false">
@@ -136,7 +136,7 @@
   <compo A="Chris Brown" T="Yo (Excuse Me Miss)" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="45" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Cold War Kids" T="Hang Me Up To Dry" type="SONG" mergeable="true" del="false">
+  <compo A="Cold War Kids" T="Hang Me Up To Dry" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="46" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Tokyo Police Club" T="Cheer It On" type="SONG" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="Yeah Yeah Yeahs" T="Phenomena" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="60" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="false">
+  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="61" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Rakes" T="Work, Work, Work (Pub, Club, Sleep)" type="SONG" mergeable="true" del="false">

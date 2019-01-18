@@ -193,7 +193,7 @@
   <compo A="Cream" T="Sunshine Of Your Love" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="65" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Bob Marley" T="Redemption Song" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Marley" T="Redemption Song" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="66" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Elvis Presley" T="Jailhouse Rock" type="SONG" mergeable="true" del="true">
@@ -463,7 +463,7 @@
   <compo A="Buddy Holly" T="Rave On" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="155" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Creedence Clearwater Revival" T="Proud Mary" type="SONG" mergeable="true" del="false">
+  <compo A="Creedence Clearwater Revival" T="Proud Mary" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="156" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Simon and Garfunkel" T="Sound Of Silence" type="SONG" mergeable="true" del="false">
@@ -916,7 +916,7 @@
   <compo A="Madonna" T="Like a Prayer" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="306" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="307" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Rod Stewart" T="Do Ya Think I'm Sexy?" type="SONG" mergeable="true" del="false">
@@ -1297,7 +1297,7 @@
   <compo A="The Rolling Stones" T="Tumbling Dice" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="433" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Deep Purple" T="Smoke on the Water" type="SONG" mergeable="true" del="false">
+  <compo A="Deep Purple" T="Smoke on the Water" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="434" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="U2" T="New Year's Day" type="SONG" mergeable="true" del="false">
@@ -1498,7 +1498,7 @@
   <compo A="The Crystals" T="Da Doo Ron Ron" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="114" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="166" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Chords" T="Sh-Boom" type="SONG" mergeable="true" del="false">

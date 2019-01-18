@@ -49,7 +49,7 @@
   <compo A="Original Broadway Cast Of 'Hamilton'" T="My Shot" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="85" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="84" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
   <compo A="Beck" T="Lost Cause" type="SONG" mergeable="true" del="true">
@@ -229,7 +229,7 @@
   <compo A="Mark Ronson" T="Uptown Funk" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="25" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
-  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" publish="2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="24" creation="07/09/2018 12:50:49" size="100"/>
   </compo>
   <compo A="Outkast" T="Ms. Jackson" type="SONG" mergeable="true" del="false">

@@ -172,7 +172,7 @@
   <compo A="Klaxons" T="Magick" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="51" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Daft Punk" T="Harder, Better, Faster, Better" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Harder, Better, Faster, Better" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="51" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="La Roux" T="In For The Kill" type="SONG" mergeable="true" del="false">
@@ -307,7 +307,7 @@
   <compo A="Eminem" T="The Real Slim Shady" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="90" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="false">
+  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="91" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Johnny Cash" T="Hurt" type="SONG" mergeable="true" del="true">

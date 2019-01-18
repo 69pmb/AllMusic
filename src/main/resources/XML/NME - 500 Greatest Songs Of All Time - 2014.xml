@@ -154,7 +154,7 @@
   <compo A="David Bowie" T="Ashes To Ashes" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="51" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="One More Time" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="M.I.A." T="Paper Planes" type="SONG" mergeable="true" del="true">
@@ -211,7 +211,7 @@
   <compo A="The Who" T="My Generation" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="70" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="false">
+  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="71" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Velvet Underground" T="Venus In Furs" type="SONG" mergeable="true" del="true">
@@ -262,7 +262,7 @@
   <compo A="Lana Del Rey" T="Video Games" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="87" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="88" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Jeff Buckley" T="Hallelujah" type="SONG" mergeable="true" del="true">
@@ -622,7 +622,7 @@
   <compo A="Billy Bragg" T="Levi Stubbs Tears" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="207" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Daft Punk" T="Da Funk" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Da Funk" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="208" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="John Lennon" T="Jealous Guy" type="SONG" mergeable="true" del="true">
@@ -1258,7 +1258,7 @@
   <compo A="The Jam" T="Start!" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="419" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
+  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="420" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Neutral Milk Hotel" T="Holland 1945" type="SONG" mergeable="true" del="false">
@@ -1444,7 +1444,7 @@
   <compo A="Echo And The Bunnymen" T="The Killing Moon" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="481" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Franz Ferdinand" T="Darts Of Pleasure" type="SONG" mergeable="true" del="false">
+  <compo A="Franz Ferdinand" T="Darts Of Pleasure" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="482" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Aphex Twin" T="Come To Daddy" type="SONG" mergeable="true" del="false">

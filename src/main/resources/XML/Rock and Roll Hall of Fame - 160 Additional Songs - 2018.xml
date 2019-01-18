@@ -34,7 +34,7 @@
   <compo A="Jerry Butler" T="For Your Precious Love" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="11" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
-  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="false">
+  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="12" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
   <compo A="Leroy Carr" T="How Long How Long Blues" type="SONG" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Leonard Cohen" T="Suzanne" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="25" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
-  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="false">
+  <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="26" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
   <compo A="Nat “King” Cole" T="Straighten Up and Fly Right" type="SONG" mergeable="true" del="false">
@@ -247,7 +247,7 @@
   <compo A="Madonna" T="Vogue" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="82" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
-  <compo A="Bob Marley" T="Redemption Song" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Marley" T="Redemption Song" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="83" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
   <compo A="Bob Marley" T="Three Little Birds" type="SONG" mergeable="true" del="false">

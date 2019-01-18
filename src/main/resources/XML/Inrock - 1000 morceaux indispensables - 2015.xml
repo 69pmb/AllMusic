@@ -88,7 +88,7 @@
   <compo A="Busta Rhymes" T="Break Ya Neck" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="29" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="false">
+  <compo A="Buzzcocks" T="Ever Fallen In Love" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="30" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Canned Heat" T="On the Road Again" type="SONG" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Deee-Lite" T="Groove is in the Heart" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="46" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Deep Purple" T="Smoke on the Water" type="SONG" mergeable="true" del="false">
+  <compo A="Deep Purple" T="Smoke on the Water" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="47" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Destiny's Child" T="Bills, Bills, Bills" type="SONG" mergeable="true" del="false">
@@ -1405,7 +1405,7 @@
   <compo A="Expression Direkt" T="Dealer Pour Survivre" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="468" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Foo Fighters" T="The Pretender" type="SONG" mergeable="true" del="false">
+  <compo A="Foo Fighters" T="The Pretender" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="469" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Fuck Buttons" T="Surf Solar" type="SONG" mergeable="true" del="false">
@@ -2923,7 +2923,7 @@
   <compo A="Radiohead" T="Karma Police" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="974" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Daft Punk" T="Around The World" type="SONG" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Around The World" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="975" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Marvin Gaye" T="What's Going On" type="SONG" mergeable="true" del="true">

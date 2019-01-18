@@ -259,7 +259,7 @@
   <compo A="Bloc Party" T="This Modern Love" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="86" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
-  <compo A="Editors" T="Munich" type="SONG" mergeable="true" del="false">
+  <compo A="Editors" T="Munich" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="87" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="Garbage" T="Why Do You Love Me" type="SONG" mergeable="true" del="false">
@@ -277,7 +277,7 @@
   <compo A="The Cribs" T="Hey Scenesters!" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="92" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
-  <compo A="Foo Fighters" T="Doa" type="SONG" mergeable="true" del="false">
+  <compo A="Foo Fighters" T="Doa" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="93" creation="28/08/2018 11:41:35" size="100"/>
   </compo>
   <compo A="Elbow" T="Forget Myself" type="SONG" mergeable="true" del="false">
