@@ -55,7 +55,7 @@
   <compo A="System Of A Down" T="Chop Suey!" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Songs - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="18" creation="31/07/2018 12:39:57" size="24"/>
   </compo>
-  <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="19" creation="31/07/2018 12:39:57" size="24"/>
   </compo>
   <compo A="Noir Desir" T="Le Vent Nous Portera" type="SONG" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="Roots Manuva" T="Witness (1 Hope)" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Songs - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="23" creation="31/07/2018 12:39:57" size="24"/>
   </compo>
-  <compo A="Kings of Convenience" T="Winning A Battle, Losing The War" type="SONG" mergeable="true" del="false">
+  <compo A="Kings of Convenience" T="Winning A Battle, Losing The War" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="24" creation="31/07/2018 12:39:57" size="24"/>
   </compo>
 </ListCompositions>

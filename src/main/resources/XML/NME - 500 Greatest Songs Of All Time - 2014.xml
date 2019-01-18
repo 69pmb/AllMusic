@@ -325,7 +325,7 @@
   <compo A="Kate Bush" T="Running Up That Hill" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="108" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Gossip" T="Standing In The Way Of Control" type="SONG" mergeable="true" del="false">
+  <compo A="Gossip" T="Standing In The Way Of Control" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="109" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Super Furry Animals" T="Ice Hocky Hair" type="SONG" mergeable="true" del="false">
@@ -361,7 +361,7 @@
   <compo A="Roxy Music" T="Virginia Plane" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="120" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Hole" T="Celebrity Skin" type="SONG" mergeable="true" del="false">
+  <compo A="Hole" T="Celebrity Skin" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="121" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="White Stripes" T="Hotel Yorba" type="SONG" mergeable="true" del="true">
@@ -478,7 +478,7 @@
   <compo A="Jimi Hendrix" T="Purple Haze" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="159" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Joy Division" T="Transmission" type="SONG" mergeable="true" del="false">
+  <compo A="Joy Division" T="Transmission" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="160" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Dusty Springfield" T="Son Of A Preacher Man" type="SONG" mergeable="true" del="true">
@@ -943,7 +943,7 @@
   <compo A="Mc5" T="Kick Out The Jams" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="314" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="315" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Pavement" T="Here" type="SONG" mergeable="true" del="true">
@@ -1012,7 +1012,7 @@
   <compo A="The Kinks" T="All Day And All Of The Night" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="337" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Gorillaz" T="Dare" type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Dare" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="338" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Patti Smith" T="Because The Night" type="SONG" mergeable="true" del="true">
@@ -1039,7 +1039,7 @@
   <compo A="Yazoo" T="Only You" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="346" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Clint Eastwood" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="347" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Byrds" T="Eight Miles High" type="SONG" mergeable="true" del="true">
@@ -1375,7 +1375,7 @@
   <compo A="Rihanna" T="Umbrella [And Jay-Z]" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="458" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Iggy Pop" T="Lust For Life" type="SONG" mergeable="true" del="false">
+  <compo A="Iggy Pop" T="Lust For Life" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="459" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="R.E.M." T="It's The End Of The World As We Know It (And I Feel Fine)" type="SONG" mergeable="true" del="false">
