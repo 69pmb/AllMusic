@@ -76,7 +76,7 @@
   <compo A="Destroyer" T="My Favorite Year" type="SONG" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="26" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
-  <compo A="The Dodos" T="Fools" type="SONG" mergeable="true" del="false">
+  <compo A="The Dodos" T="Fools" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="25" creation="02/09/2017 08:04:16" size="50"/>
   </compo>
   <compo A="No Age" T="Teen Creeps" type="SONG" mergeable="true" del="false">

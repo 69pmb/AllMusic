@@ -37,7 +37,7 @@
   <compo A="Bill Haley" T="Rock Around The Clock" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Songs That Changed The World - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="12" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Helter Skelter" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Helter Skelter" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Songs That Changed The World - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="13" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Grandmaster Flash" T="The Message" type="SONG" mergeable="true" del="true">
@@ -244,7 +244,7 @@
   <compo A="Metallica" T="Enter Sandman" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Songs That Changed The World - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="81" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Doors" T="The End" type="SONG" mergeable="true" del="false">
+  <compo A="The Doors" T="The End" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Songs That Changed The World - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="82" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Incredible Bongo Band" T="Apache" type="SONG" mergeable="true" del="false">

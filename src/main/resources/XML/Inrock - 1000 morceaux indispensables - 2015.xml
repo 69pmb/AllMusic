@@ -601,7 +601,7 @@
   <compo A="Stevie Ray Vaughn And Double Trouble" T="Crossfire" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="200" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Supergrass" T="Alright" type="SONG" mergeable="true" del="false">
+  <compo A="Supergrass" T="Alright" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="201" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Suzanne Vega" T="Luka" type="SONG" mergeable="true" del="true">
@@ -637,7 +637,7 @@
   <compo A="The Black Keys" T="Lonely Boy" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="212" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="The Breeders" T="Cannonball" type="SONG" mergeable="true" del="false">
+  <compo A="The Breeders" T="Cannonball" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="213" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="The Buggles" T="Video Killed the Radio Star" type="SONG" mergeable="true" del="false">
@@ -2767,7 +2767,7 @@
   <compo A="Happy Mondays" T="Wrote For Luck" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="922" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="The doors" T="Riders On The Storm" type="SONG" mergeable="true" del="false">
+  <compo A="The doors" T="Riders On The Storm" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="923" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="The Who" T="I Can't Explain" type="SONG" mergeable="true" del="true">
