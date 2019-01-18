@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Robyn" T="Dancing On My Own" type="SONG" mergeable="true" del="false">
+  <compo A="Robyn" T="Dancing On My Own" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Janelle Monae" T="Tightrope" type="SONG" mergeable="true" del="true">
@@ -16,7 +16,7 @@
   <compo A="Joanna Newsom" T="Good Intentions Paving Company" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Arcade Fire" T="Sprawl II (Mountains Beyond Mountains)" type="SONG" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Sprawl II (Mountains Beyond Mountains)" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Surfer Blood" T="Swim (To Reach The End)" type="SONG" mergeable="true" del="true">
@@ -58,7 +58,7 @@
   <compo A="Little Scream" T="The Heron and the Fox" type="SONG" mergeable="true" del="false">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="19" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Beach House" T="Zebra" type="SONG" mergeable="true" del="false">
+  <compo A="Beach House" T="Zebra" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="20" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="James Blake" T="I Only Know (What I Know Now)" type="SONG" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="Kate McGarrigle" T="Proserpina (live)" type="SONG" mergeable="true" del="false">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="28" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Kanye West" T="Power" type="SONG" mergeable="true" del="false">
+  <compo A="Kanye West" T="Power" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="29" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Lightning Bug Situation" T="This Body" type="SONG" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Spoon" T="Is Love Forever?" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="46" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Girls" T="Carolina" type="SONG" mergeable="true" del="false">
+  <compo A="Girls" T="Carolina" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="47" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Wolf Parade" T="Semi Precious Stone" type="SONG" mergeable="true" del="true">
@@ -154,7 +154,7 @@
   <compo A="Snailhouse" T="Living the Dream" type="SONG" mergeable="true" del="false">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="51" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The New Pornographers" T="Crash Years" type="SONG" mergeable="true" del="false">
+  <compo A="The New Pornographers" T="Crash Years" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="52" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Tindersticks" T="Peanuts And Mary Margaret O'Hara" type="SONG" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <compo A="Javiera Mena" T="Aca Entera" type="SONG" mergeable="true" del="false">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="73" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Ariel Pink" T="Round and Round" type="SONG" mergeable="true" del="false">
+  <compo A="Ariel Pink" T="Round and Round" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="74" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Josephine Foster and the Victor Herrero Band" T="Los Cuatro Muleros" type="SONG" mergeable="true" del="false">
@@ -274,7 +274,7 @@
   <compo A="Sam Amidon" T="Way Go Lily" type="SONG" mergeable="true" del="false">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="91" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Foals" T="Spanish Sahara" type="SONG" mergeable="true" del="false">
+  <compo A="Foals" T="Spanish Sahara" type="SONG" mergeable="true" del="true">
     <file author="SaidTheGramaphone" name="SaidTheGramaphone - Song - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="92" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Elton John and Leon Russell" T="When Love Is Dying" type="SONG" mergeable="true" del="false">

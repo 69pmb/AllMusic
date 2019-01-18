@@ -37,7 +37,7 @@
   <compo A="Arrested Development" T="Tennessee" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="12" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The B-52's" T="Rock Lobster" type="SONG" mergeable="true" del="false">
+  <compo A="The B-52's" T="Rock Lobster" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="13" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="LaVern Baker" T="Jim Dandy" type="SONG" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <compo A="Big Brother and the Holding Company" T="Piece of My Heart" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="40" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Big Star" T="September Gurls" type="SONG" mergeable="true" del="false">
+  <compo A="Big Star" T="September Gurls" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="41" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Black Sabbath" T="Iron Man" type="SONG" mergeable="true" del="true">
@@ -193,7 +193,7 @@
   <compo A="The Byrds" T="Hickory Wind" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="64" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Byrds" T="Mr. Tambourine Man" type="SONG" mergeable="true" del="false">
+  <compo A="The Byrds" T="Mr. Tambourine Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="65" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Johnny Cash" T="Folsom Prison Blues (Live At Folsom Prison)" type="SONG" mergeable="false" del="true">
@@ -622,7 +622,7 @@
   <compo A="The Ink Spots" T="If I Didn't Care" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="207" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Iron Butterfly" T="In-a-Gadda-da-Vida" type="SONG" mergeable="true" del="false">
+  <compo A="Iron Butterfly" T="In-a-Gadda-da-Vida" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="208" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Isley Brothers" T="It's Your Thing" type="SONG" mergeable="true" del="false">
@@ -670,7 +670,7 @@
   <compo A="Jefferson Airplane" T="Somebody to Love" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="223" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Jefferson Airplane" T="White Rabbit" type="SONG" mergeable="true" del="false">
+  <compo A="Jefferson Airplane" T="White Rabbit" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="224" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Blind Lemon Jefferson" T="Matchbox Blues" type="SONG" mergeable="true" del="false">

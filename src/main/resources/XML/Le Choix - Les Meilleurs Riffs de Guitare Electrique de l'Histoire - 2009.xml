@@ -10,13 +10,13 @@
   <compo A="AC/DC" T="Back In Black" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Les Meilleurs Riffs de Guitare Electrique de l'Histoire - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="false" rank="3" creation="30/07/2018 18:33:46" size="85"/>
   </compo>
-  <compo A="Alice Cooper" T="School's Out" type="SONG" mergeable="true" del="false">
+  <compo A="Alice Cooper" T="School's Out" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Les Meilleurs Riffs de Guitare Electrique de l'Histoire - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="false" rank="4" creation="30/07/2018 18:33:46" size="85"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Fake Tales of San Francisco" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Fake Tales of San Francisco" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Les Meilleurs Riffs de Guitare Electrique de l'Histoire - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="false" rank="5" creation="30/07/2018 18:33:46" size="85"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Brianstorm" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Brianstorm" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Les Meilleurs Riffs de Guitare Electrique de l'Histoire - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="false" rank="6" creation="30/07/2018 18:33:46" size="85"/>
   </compo>
   <compo A="Black Sabbath" T="Iron Man" type="SONG" mergeable="true" del="true">
@@ -199,7 +199,7 @@
   <compo A="The Cure" T="Boys Don't Cry" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Les Meilleurs Riffs de Guitare Electrique de l'Histoire - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="false" rank="66" creation="30/07/2018 18:33:46" size="85"/>
   </compo>
-  <compo A="The Doors" T="Roadhouse Blues" type="SONG" mergeable="true" del="false">
+  <compo A="The Doors" T="Roadhouse Blues" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Les Meilleurs Riffs de Guitare Electrique de l'Histoire - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="false" rank="67" creation="30/07/2018 18:33:46" size="85"/>
   </compo>
   <compo A="The Killers" T="Mr Brightside" type="SONG" mergeable="true" del="false">
@@ -232,7 +232,7 @@
   <compo A="The Rolling Stones" T="Satisfaction" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Les Meilleurs Riffs de Guitare Electrique de l'Histoire - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="false" rank="77" creation="30/07/2018 18:33:46" size="85"/>
   </compo>
-  <compo A="The Rolling Stones" T="Paint It Black" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Paint It Black" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Les Meilleurs Riffs de Guitare Electrique de l'Histoire - 2009" publish="2009" cat="THEME" rangeB="0" rangeE="2009" sorted="false" rank="78" creation="30/07/2018 18:33:46" size="85"/>
   </compo>
   <compo A="The Smashing Pumpkins" T="Cherub Rock" type="SONG" mergeable="true" del="true">

@@ -124,7 +124,7 @@
   <compo A="Rolling Stones" T="Not Fade Away" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="41" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
-  <compo A="Byrds" T="Mr Tambourine Man" type="SONG" mergeable="true" del="false">
+  <compo A="Byrds" T="Mr Tambourine Man" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="42" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
   <compo A="Kingsmen" T="Louie Louie" type="SONG" mergeable="true" del="true">
@@ -289,7 +289,7 @@
   <compo A="Bob Marley" T="No Woman No Cry" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="96" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="The Last Time" type="SONG" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="The Last Time" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Singles Of All-Time - 1976" publish="1976" cat="ALL_TIME" rangeB="0" rangeE="1976" sorted="true" rank="97" creation="04/09/2018 15:06:16" size="100"/>
   </compo>
   <compo A="Beach Boys" T="God Only Knows" type="SONG" mergeable="true" del="true">

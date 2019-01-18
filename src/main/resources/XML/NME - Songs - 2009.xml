@@ -4,7 +4,7 @@
   <compo A="Yeah Yeah Yeahs" T="Zero" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Horrors" T="The Sea Within A Sea" type="SONG" mergeable="true" del="false">
+  <compo A="The Horrors" T="Sea Within A Sea" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="2" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="The Big Pink" T="Dominoes" type="SONG" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <compo A="Jay-Z" T="Empire State Of Mind" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="6" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Drums" T="Let's Go Surfing" type="SONG" mergeable="true" del="false">
+  <compo A="The Drums" T="Let's Go Surfing" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="7" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="La Roux" T="In For The Kill" type="SONG" mergeable="true" del="false">
@@ -31,7 +31,7 @@
   <compo A="Health" T="Die Slow" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="10" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Cornerstone" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Cornerstone" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="11" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Kasabian" T="Fire" type="SONG" mergeable="true" del="true">
@@ -43,10 +43,10 @@
   <compo A="Jamie T" T="Sticks'N Stones" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="14" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Crying Lightning" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Crying Lightning" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="15" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Bat For Lashes" T="Daniel" type="SONG" mergeable="true" del="false">
+  <compo A="Bat For Lashes" T="Daniel" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="16" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Memory Tapes" T="Bicycle" type="SONG" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="The Big Pink" T="Velvet" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="22" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Dirty Projectors" T="Stillness Is The Move" type="SONG" mergeable="true" del="false">
+  <compo A="Dirty Projectors" T="Stillness Is The Move" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="23" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="La Roux" T="Bulletproof" type="SONG" mergeable="true" del="false">
@@ -82,13 +82,13 @@
   <compo A="Chew Lips" T="Solo" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="27" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The XX" T="Islands" type="SONG" mergeable="true" del="false">
+  <compo A="The XX" T="Islands" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="28" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Shakira" T="She Wolf" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="29" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Fever Ray" T="If I Had A Heart" type="SONG" mergeable="true" del="false">
+  <compo A="Fever Ray" T="If I Had A Heart" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="30" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Future Of The Left" T="Amazing Eritrea" type="SONG" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="Bon Iver" T="Blood Bank" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="37" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Girls" T="Hellhole Retrace" type="SONG" mergeable="true" del="false">
+  <compo A="Girls" T="Hellhole Retrace" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="38" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Fuck Buttons" T="Surf Solar" type="SONG" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <compo A="Frightened Rabbit" T="Swim Until You Can't See The Land" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="40" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="La Roux" T="I'm Not Your Toy" type="SONG" mergeable="true" del="false">
+  <compo A="La Roux" T="I'm Not Your Toy" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="41" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Manic Street Preachers" T="Jackie Collins Existential Question Time" type="SONG" mergeable="true" del="false">

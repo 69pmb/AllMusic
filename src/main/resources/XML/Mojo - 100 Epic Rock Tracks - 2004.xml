@@ -10,7 +10,7 @@
   <compo A="The Rolling Stones" T="Sympathy For The Devil" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Epic Rock Tracks - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="3" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Shine On You Crazy Diamond" type="SONG" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Shine On You Crazy Diamond" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Epic Rock Tracks - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="4" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Doors" T="The End" type="SONG" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="Buffalo Springfield" T="Broken Arrow" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Epic Rock Tracks - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="79" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Iron Butterfly" T="In-A-Gadda-Da-Vida" type="SONG" mergeable="true" del="false">
+  <compo A="Iron Butterfly" T="In-A-Gadda-Da-Vida" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Epic Rock Tracks - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="80" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Alex Harvey" T="Isobel Goodie" type="SONG" mergeable="true" del="false">

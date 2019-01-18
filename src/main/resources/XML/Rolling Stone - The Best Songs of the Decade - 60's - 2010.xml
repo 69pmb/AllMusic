@@ -88,7 +88,7 @@
   <compo A="The Doors" T="People Are Strange" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="29" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
-  <compo A="Jefferson Airplane" T="White Rabbit" type="SONG" mergeable="true" del="false">
+  <compo A="Jefferson Airplane" T="White Rabbit" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="30" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
   <compo A="Townes Van Zandt" T="Waitin' Around To Die" type="SONG" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="The Flying Burrito Brothers" T="Sin City" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="47" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
-  <compo A="MC5" T="Kick Out The Jams" type="SONG" mergeable="true" del="false">
+  <compo A="MC5" T="Kick Out The Jams" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="48" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
   <compo A="Nick Drake" T="River Man" type="SONG" mergeable="true" del="false">

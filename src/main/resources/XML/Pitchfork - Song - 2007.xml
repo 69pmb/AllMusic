@@ -154,10 +154,10 @@
   <compo A="Dude 'N Nem" T="Watch My Feet" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="50" creation="25/07/2018 16:35:48" size="100"/>
   </compo>
-  <compo A="Yeasayer" T="2080" type="SONG" mergeable="true" del="false">
+  <compo A="Yeasayer" T="2080" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="49" creation="25/07/2018 16:35:48" size="100"/>
   </compo>
-  <compo A="Liars" T="Plaster Casts of Everything" type="SONG" mergeable="true" del="false">
+  <compo A="Liars" T="Plaster Casts of Everything" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="48" creation="25/07/2018 16:35:48" size="100"/>
   </compo>
   <compo A="T2" T="Heartbroken" type="SONG" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="Simian Mobile Disco" T="I Believe" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="23" creation="25/07/2018 16:35:48" size="100"/>
   </compo>
-  <compo A="Animal Collective" T="Peacebone" type="SONG" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Peacebone" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="22" creation="25/07/2018 16:35:48" size="100"/>
   </compo>
   <compo A="M.I.A." T="Boyz" type="SONG" mergeable="true" del="true">

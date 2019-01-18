@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Byrds" T="Mr Tambourine Man" type="SONG" mergeable="true" del="false">
+  <compo A="The Byrds" T="Mr Tambourine Man" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC INDIE - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="1" creation="27/08/2018 12:23:02" size="100"/>
   </compo>
   <compo A="The Byrds" T="Have You Seen Her Face" type="SONG" mergeable="true" del="false">
@@ -13,7 +13,7 @@
   <compo A="The Velvet Underground" T="I Heard Her Call My Name" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC INDIE - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="4" creation="27/08/2018 12:23:02" size="100"/>
   </compo>
-  <compo A="MC5" T="Kick Out The Jams" type="SONG" mergeable="true" del="false">
+  <compo A="MC5" T="Kick Out The Jams" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC INDIE - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="5" creation="27/08/2018 12:23:02" size="100"/>
   </compo>
   <compo A="The Stooges" T="1969" type="SONG" mergeable="true" del="true">
@@ -283,10 +283,10 @@
   <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC INDIE - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="94" creation="27/08/2018 12:23:02" size="100"/>
   </compo>
-  <compo A="Arctic Monkeys" T="I Bet You Look Good On The Dancefloor" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="I Bet You Look Good On The Dancefloor" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC INDIE - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="95" creation="27/08/2018 12:23:02" size="100"/>
   </compo>
-  <compo A="Arctic Monkeys" T="When The Sun Goes Down" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="When The Sun Goes Down" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - A HISTORY OF MODERN MUSIC INDIE - 2011" publish="2011" cat="ALL_TIME" rangeB="0" rangeE="2011" sorted="true" rank="96" creation="27/08/2018 12:23:02" size="100"/>
   </compo>
   <compo A="Gossip" T="Standing In The Way Of Control" type="SONG" mergeable="true" del="false">

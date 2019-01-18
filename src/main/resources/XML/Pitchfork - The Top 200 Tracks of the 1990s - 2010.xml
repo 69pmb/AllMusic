@@ -286,7 +286,7 @@
   <compo A="New Radicals" T="You Get What You Give" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="106" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="Happy Mondays" T="Kinky Afro" type="SONG" mergeable="true" del="false">
+  <compo A="Happy Mondays" T="Kinky Afro" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="105" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="Ginuwine" T="Pony" type="SONG" mergeable="true" del="false">
@@ -346,7 +346,7 @@
   <compo A="Bell Biv DeVoe" T="Poison" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="86" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="Air" T="All I Need" type="SONG" mergeable="true" del="false">
+  <compo A="Air" T="All I Need" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="85" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="Bone Thugs-N-Harmony" T="Tha Crossroads" type="SONG" mergeable="true" del="false">
@@ -481,7 +481,7 @@
   <compo A="The Pharcyde" T="Passin' Me By" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="41" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="The Orb" T="Little Fluffy Clouds" type="SONG" mergeable="true" del="false">
+  <compo A="The Orb" T="Little Fluffy Clouds" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="40" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="Beastie Boys" T="Sabotage" type="SONG" mergeable="true" del="true">
@@ -598,7 +598,7 @@
   <compo A="Pulp" T="Common People" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="2" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="Pavement" T="Gold Soundz" type="SONG" mergeable="true" del="false">
+  <compo A="Pavement" T="Gold Soundz" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="1" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
 </ListCompositions>

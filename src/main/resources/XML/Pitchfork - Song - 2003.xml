@@ -115,7 +115,7 @@
   <compo A="Radiohead" T="There There" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="13" creation="25/07/2018 15:17:51" size="50"/>
   </compo>
-  <compo A="Spoon" T="The Way We Get By" type="SONG" mergeable="true" del="false">
+  <compo A="Spoon" T="The Way We Get By" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="12" creation="25/07/2018 15:17:51" size="50"/>
   </compo>
   <compo A="The Flaming Lips" T="Fight Test" type="SONG" mergeable="true" del="false">
