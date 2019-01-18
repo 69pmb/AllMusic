@@ -106,7 +106,7 @@
   <compo A="Nick Cave" T="Where The Wild Roses Grow" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="35" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Mazzy Star" T="Fade Into You" type="SONG" mergeable="true" del="false">
+  <compo A="Mazzy Star" T="Fade Into You" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="36" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Daft Punk" T="Around The World" type="SONG" mergeable="true" del="true">
@@ -154,7 +154,7 @@
   <compo A="The Stone Roses" T="One Love" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="51" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Nirvana" T="Lithium" type="SONG" mergeable="true" del="false">
+  <compo A="Nirvana" T="Lithium" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 90's - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="52" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Elastica" T="Stutter" type="SONG" mergeable="true" del="false">
