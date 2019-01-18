@@ -7,7 +7,7 @@
   <compo A="Brian Eno" T="1/1" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="2" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Blue Oyster Cult" T="(Don't Fear) The Reaper" type="SONG" mergeable="true" del="false">
+  <compo A="Blue Oyster Cult" T="(Don't Fear) The Reaper" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="3" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="The Clash" T="(White Man) In Hammersmith Palais" type="SONG" mergeable="true" del="true">
@@ -79,7 +79,7 @@
   <compo A="Joy Division" T="Atmosphere" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="26" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Blondie" T="Atomic" type="SONG" mergeable="true" del="false">
+  <compo A="Blondie" T="Atomic" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="27" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Yo La Tengo" T="Autumn Sweater" type="SONG" mergeable="true" del="false">
@@ -730,7 +730,7 @@
   <compo A="Cocteau Twins" T="Lorelei" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="243" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Beck" T="Loser" type="SONG" mergeable="true" del="false">
+  <compo A="Beck" T="Loser" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="244" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="LCD Soundsystem" T="Losing My Edge" type="SONG" mergeable="true" del="false">
