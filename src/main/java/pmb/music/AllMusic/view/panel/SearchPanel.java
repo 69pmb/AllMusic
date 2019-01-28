@@ -108,7 +108,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 	private List<Composition> compoResult = new ArrayList<>();
 
-	private static final String[] title = { "#", "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "", "" };
+	private static final String[] title = { "#", "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "", "",
+			"" };
 
 	public static final int INDEX_LINE_NUMBER = 0;
 	public static final int INDEX_ARTIST = 1;
@@ -116,8 +117,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	public static final int INDEX_TYPE = 3;
 	public static final int INDEX_FILE_SIZE = 4;
 	public static final int INDEX_SCORE = 5;
-	public static final int INDEX_SELECTED = 6;
-	public static final int INDEX_DELETED = 7;
+	public static final int INDEX_DECILE = 6;
+	public static final int INDEX_SELECTED = 7;
+	public static final int INDEX_DELETED = 8;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
 	private SortOrder sortDeletedOrder = SortOrder.ASCENDING;
@@ -549,14 +551,15 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		}
 		tableResult.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
-		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE, null);
+		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE, null, INDEX_DECILE, INDEX_SCORE);
 		for (int i = 0; i < tableResult.getRowCount(); i++) {
 			tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 		}
 		selectedRow = -1;
 		tableResult.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
 		tableResult.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
-		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_DELETED));
+		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_DECILE));
+		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_DELETED - 1));
 		model.fireTableDataChanged();
 		tableResult.repaint();
 		LOG.debug("Start updateTable");

@@ -143,6 +143,8 @@ public class OngletPanel extends JPanel {
 		score.setLogMaxSong(CompositionUtils.getLogMax(RecordType.SONG, songs));
 		score.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(RecordType.ALBUM, albums));
 		score.setDoubleMedianSong(CompositionUtils.getDoubleMedian(RecordType.SONG, songs));
+		score.setDecileLimitSong(CompositionUtils.getDecileLimit(RecordType.SONG, songs));
+		score.setDecileLimitAlbum(CompositionUtils.getDecileLimit(RecordType.ALBUM, albums));
 		LOG.debug("End initScore");
 	}
 
