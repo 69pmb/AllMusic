@@ -65,6 +65,8 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 	Integer deletedIndex;
 	Integer typeIndex;
 	Integer catIndex;
+	Integer decileIndex;
+	Integer scoreIndex;
 
 	/**
 	 * Constructor for {@link EvenOddRenderer}.
@@ -74,11 +76,16 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 	 * @param typeIndex index of the record type column, used to color record type
 	 *            cell depending on the type
 	 * @param catIndex index of the category column, used to color category cell
+	 * @param decileIndex index of the decile column, used to add tooltip
+	 * @param scoreIndex TODO
 	 */
-	public EvenOddRenderer(Integer deletedIndex, Integer typeIndex, Integer catIndex) {
+	public EvenOddRenderer(Integer deletedIndex, Integer typeIndex, Integer catIndex, Integer decileIndex,
+			Integer scoreIndex) {
 		this.deletedIndex = deletedIndex;
 		this.typeIndex = typeIndex;
 		this.catIndex = catIndex;
+		this.decileIndex = decileIndex;
+		this.scoreIndex = scoreIndex;
 	}
 
 	@SuppressWarnings("unchecked")
@@ -90,8 +97,12 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		} else if (value instanceof Date) {
 			value = new Constant().getSdfDttm().format(value);
 		}
+		// ToolTip
 		if (value instanceof String && ((String) value).length() > 30) {
 			setToolTipText((String) value);
+		} else if (decileIndex != null && scoreIndex != null && column == scoreIndex) {
+			setToolTipText(String.valueOf(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
+					.get(table.getRowSorter().convertRowIndexToModel(row))).get(decileIndex)) + " / 10");
 		} else {
 			setToolTipText(null);
 		}

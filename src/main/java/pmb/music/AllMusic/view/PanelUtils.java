@@ -81,14 +81,16 @@ public class PanelUtils {
 	 *            with a specific color
 	 * @param catIndex index of the category column, use it to draw type cell with a
 	 *            specific color
+	 * @param decileIndex TODO
+	 * @param scoreIndex TODO
 	 */
 	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex, Integer typeIndex,
-			Integer catIndex) {
+			Integer catIndex, Integer decileIndex, Integer scoreIndex) {
 		LOG.debug("Start colRenderer");
 		Component topComponent = (Component) SwingUtilities.getWindowAncestor(table);
 		setColumnsWidth(table, topComponent != null ? topComponent.getWidth() : table.getWidth(), "Init");
 
-		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex, typeIndex, catIndex);
+		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex, typeIndex, catIndex, decileIndex, scoreIndex);
 		int columnCount = table.getColumnCount();
 		if (!lastColumn) {
 			columnCount--;

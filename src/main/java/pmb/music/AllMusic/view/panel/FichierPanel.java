@@ -783,7 +783,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			}
 		}
 		fichieModel.setDataVector(dataVector, new Vector<>(Arrays.asList(headerFiles)));
-		PanelUtils.colRenderer(tableFiles, true, null, INDEX_FILE_TYPE, INDEX_FILE_CAT);
+		PanelUtils.colRenderer(tableFiles, true, null, INDEX_FILE_TYPE, INDEX_FILE_CAT, null, null);
 		if (sortedFichierColumn == null) {
 			sortedFichierColumn = INDEX_FILE_FILE_NAME;
 			sortFichierOrder = SortOrder.ASCENDING;
@@ -823,7 +823,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		} else {
 			compoModel.setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
 		}
-		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED, INDEX_COMPO_TYPE, null);
+		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED, INDEX_COMPO_TYPE, null, null, null);
 		compoModel.fireTableDataChanged();
 		if (sortedCompoColumn == null) {
 			sortedCompoColumn = INDEX_COMPO_RANK;
