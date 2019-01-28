@@ -62,6 +62,10 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 	private static final Color LONG_PERIOD = new Color(36, 92, 72);
 	private static final Color DECADE = new Color(120, 25, 70);
 
+	private static final Color[] DECILE_SCORE_PURPLE = { new Color(243, 233, 252), new Color(219, 191, 246),
+			new Color(196, 149, 240), new Color(173, 106, 234), new Color(149, 64, 228), new Color(138, 43, 226),
+			new Color(110, 34, 180), new Color(82, 25, 135), new Color(55, 17, 90), new Color(27, 8, 45) };
+
 	Integer deletedIndex;
 	Integer typeIndex;
 	Integer catIndex;
@@ -167,6 +171,20 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 				}
 				renderer.setForeground(foreground);
 				background = isSelected ? DARK_BLUE : row % 2 == 0 ? GRAY : BLUE;
+				renderer.setBackground(background);
+				return renderer;
+			}
+		}
+		if (scoreIndex != null && decileIndex != null && column == scoreIndex) {
+			// If display a row with score
+			Integer decile = (Integer) ((Vector<Object>) ((AbstractModel) table.getModel()).getDataVector()
+					.get(table.getRowSorter().convertRowIndexToModel(row))).get(decileIndex);
+			renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
+			if (decile != 0) {
+				// only the score cell is colored
+				background = DECILE_SCORE_PURPLE[decile - 1];
+				foreground = isSelected ? DARK_BLUE : decile <= 2 ? DARK_BLUE : row % 2 == 0 ? BLUE : GRAY;
+				renderer.setForeground(foreground);
 				renderer.setBackground(background);
 				return renderer;
 			}
