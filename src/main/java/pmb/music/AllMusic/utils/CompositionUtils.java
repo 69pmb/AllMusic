@@ -14,8 +14,10 @@ import java.util.Vector;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
+import org.apache.commons.math3.stat.descriptive.rank.Percentile;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
@@ -198,8 +200,11 @@ public class CompositionUtils {
 				v.addElement(composition.getFiles().size());
 			}
 			if (score) {
-				v.addElement(calculateCompositionScore(OngletPanel.getScore().getLogMax(composition.getRecordType()),
-						OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition));
+				long calculatedScore = calculateCompositionScore(
+						OngletPanel.getScore().getLogMax(composition.getRecordType()),
+						OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition);
+				v.addElement(calculatedScore);
+				v.addElement(getDecile(composition, calculatedScore));
 			}
 			if (addBoolean) {
 				v.addElement(new Boolean(false));
@@ -209,6 +214,19 @@ public class CompositionUtils {
 		}
 		LOG.debug("End convertCompositionListToVector");
 		return result;
+	}
+
+	private static int getDecile(Composition composition, long calculatedScore) {
+		BigDecimal scoreBD = new BigDecimal(calculatedScore);
+		List<Double> decileLimit = OngletPanel.getScore().getDecileLimit(composition.getRecordType());
+		int decile = 0;
+		for (int j = 0; j < decileLimit.size(); j++) {
+			if (scoreBD.compareTo(new BigDecimal(decileLimit.get(j))) <= 0) {
+				decile = j + 1;
+				break;
+			}
+		}
+		return decile;
 	}
 
 	/**
@@ -529,6 +547,33 @@ public class CompositionUtils {
 		BigDecimal median = getMedian(type, list);
 		BigDecimal doubleMedian = median.multiply(BigDecimal.valueOf(2));
 		return doubleMedian;
+	}
+
+	/**
+	 * Calculates the {@link Score} decile limit for the given type.
+	 * 
+	 * @param type {@link RecordType}
+	 * @param list {@code List<Composition>}
+	 * @return {@link List<Integer>}
+	 */
+	public static List<Double> getDecileLimit(RecordType type, List<Composition> list) {
+		Map<Composition, Long> collectedMap = list.stream()
+				.collect(Collectors.toMap(c -> c,
+						composition -> calculateCompositionScore(
+								OngletPanel.getScore().getLogMax(composition.getRecordType()),
+								OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition)));
+		double[] prob = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+		int size = prob.length;
+		Percentile[] q = new Percentile[size];
+		for (int i = 0; i < size; i++) {
+			q[i] = new Percentile();
+		}
+		double[] value = new double[size];
+		for (int i = 0; i < size; i++) {
+			value[i] = q[i].evaluate(collectedMap.values().stream().mapToDouble(s -> s.doubleValue()).toArray(),
+					prob[i]);
+		}
+		return Arrays.asList(ArrayUtils.toObject(value));
 	}
 
 	/**

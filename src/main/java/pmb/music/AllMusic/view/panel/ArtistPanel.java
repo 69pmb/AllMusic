@@ -272,7 +272,7 @@ public class ArtistPanel extends JPanel {
 				}
 			}
 		});
-		PanelUtils.colRenderer(table, false, null, null, null);
+		PanelUtils.colRenderer(table, false, null, null, null, null, null);
 
 		updateArtistPanel();
 
@@ -432,7 +432,7 @@ public class ArtistPanel extends JPanel {
 			table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
 			table.removeColumn(table.getColumnModel().getColumn(INDEX_SCORE_DELETED - 1));
 		}
-		PanelUtils.colRenderer(table, true, null, null, null);
+		PanelUtils.colRenderer(table, true, null, null, null, null, null);
 		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
 		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
 		// Update GUI

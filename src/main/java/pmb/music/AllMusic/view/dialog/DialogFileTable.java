@@ -145,7 +145,7 @@ public class DialogFileTable extends JDialog {
 			this.dispose();
 		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
-		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT);
+		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null);
 		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
 
 		this.setLayout(new BorderLayout());
