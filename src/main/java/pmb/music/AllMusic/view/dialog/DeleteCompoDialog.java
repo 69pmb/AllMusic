@@ -74,14 +74,14 @@ public class DeleteCompoDialog extends JDialog {
 	 * Constructeur de {@link DeleteCompoDialog}.
 	 * 
 	 * @param parent {@link JFrame} la fenetre parente
-	 * @param height la hauteur de la popup
 	 * @param compoCsv {@link CsvComposition} la composition dont la suppression
 	 *            doit être confirmée
 	 */
-	public DeleteCompoDialog(JFrame parent, int size, int height) {
+	public DeleteCompoDialog(JFrame parent, int size) {
 		super(parent, "", true);
 		LOG.debug("Start DeleteCompoDialog");
-		this.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
+		this.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100,
+				Toolkit.getDefaultToolkit().getScreenSize().height - 50));
 		this.setLocationRelativeTo(null);
 		this.size = size;
 		this.setResizable(true);
@@ -115,7 +115,7 @@ public class DeleteCompoDialog extends JDialog {
 		filesFound.setFont(UIManager.getFont("Label.font"));
 		filesFound.setBorder(UIManager.getBorder("Label.border"));
 		filesFound.setModel(new FichierDialogModel(new Object[0][header.length - 1], header));
-		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT);
+		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null);
 		panel.add(new JScrollPane(filesFound), BorderLayout.CENTER);
 
 		JPanel btnPanel = new JPanel();
@@ -179,7 +179,7 @@ public class DeleteCompoDialog extends JDialog {
 		((DefaultTableModel) filesFound.getModel()).setDataVector(
 				FichierUtils.convertCompositionListToFichierVector(Arrays.asList(found), true, false),
 				new Vector<>(Arrays.asList(header)));
-		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT);
+		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null);
 		filesFound.removeColumn(filesFound.getColumnModel().getColumn(INDEX_DELETED));
 		((AbstractTableModel) filesFound.getModel()).fireTableDataChanged();
 		filesFound.repaint();
