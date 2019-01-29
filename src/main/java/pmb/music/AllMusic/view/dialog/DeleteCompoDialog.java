@@ -59,6 +59,7 @@ public class DeleteCompoDialog extends JDialog {
 	public static final int INDEX_FILE_SIZE = 9;
 	public static final int INDEX_RANK = 10;
 	public static final int INDEX_DELETED = 11;
+	public static final int INDEX_SORTED = 12;
 
 	// Data
 	private Boolean sendData;
@@ -116,7 +117,8 @@ public class DeleteCompoDialog extends JDialog {
 		filesFound.setFont(UIManager.getFont("Label.font"));
 		filesFound.setBorder(UIManager.getBorder("Label.border"));
 		filesFound.setModel(new FichierDialogModel(new Object[0][header.length - 1], header));
-		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null);
+		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null, INDEX_SORTED,
+				INDEX_RANK);
 		panel.add(new JScrollPane(filesFound), BorderLayout.CENTER);
 
 		JPanel btnPanel = new JPanel();
@@ -180,7 +182,8 @@ public class DeleteCompoDialog extends JDialog {
 		((DefaultTableModel) filesFound.getModel()).setDataVector(
 				FichierUtils.convertCompositionListToFichierVector(Arrays.asList(found), true, false),
 				new Vector<>(Arrays.asList(header)));
-		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null);
+		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null, INDEX_SORTED,
+				INDEX_RANK);
 		filesFound.removeColumn(filesFound.getColumnModel().getColumn(INDEX_DELETED));
 		((AbstractTableModel) filesFound.getModel()).fireTableDataChanged();
 		filesFound.repaint();
