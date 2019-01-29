@@ -132,21 +132,34 @@ public class OngletPanel extends JPanel {
 		LOG.debug("Start initScore");
 		OngletPanel.score = new Score();
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		Map<String, String> criteria = new HashMap<>();
-		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
-		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> songs = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
-		criteria = new HashMap<>();
-		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.ALBUM.toString());
-		criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		List<Composition> albums = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
+		List<Composition> songs = getByType(importXML, RecordType.SONG, true);
+		List<Composition> albums = getByType(importXML, RecordType.ALBUM, true);
 		score.setLogMaxAlbum(CompositionUtils.getLogMax(RecordType.ALBUM, albums));
 		score.setLogMaxSong(CompositionUtils.getLogMax(RecordType.SONG, songs));
 		score.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(RecordType.ALBUM, albums));
 		score.setDoubleMedianSong(CompositionUtils.getDoubleMedian(RecordType.SONG, songs));
-		score.setDecileLimitSong(CompositionUtils.getDecileLimit(RecordType.SONG, songs));
-		score.setDecileLimitAlbum(CompositionUtils.getDecileLimit(RecordType.ALBUM, albums));
+		score.setDecileLimitSong(
+				CompositionUtils.getDecileLimit(RecordType.SONG, getByType(importXML, RecordType.SONG, false)));
+		score.setDecileLimitAlbum(
+				CompositionUtils.getDecileLimit(RecordType.ALBUM, getByType(importXML, RecordType.ALBUM, false)));
 		LOG.debug("End initScore");
+	}
+
+	/**
+	 * Filters given compositions list by type and sorting.
+	 * 
+	 * @param importXML the list to filter
+	 * @param type the record type
+	 * @param sorted if true only sorted will be returned
+	 * @return a list of composition
+	 */
+	private List<Composition> getByType(List<Composition> importXML, RecordType type, boolean sorted) {
+		Map<String, String> criteria = new HashMap<>();
+		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
+		if (sorted) {
+			criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
+		}
+		return SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
 	}
 
 	/**
