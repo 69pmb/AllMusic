@@ -83,14 +83,17 @@ public class PanelUtils {
 	 *            specific color
 	 * @param decileIndex TODO
 	 * @param scoreIndex TODO
+	 * @param sortedIndex TODO
+	 * @param rankIndex TODO
 	 */
 	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex, Integer typeIndex,
-			Integer catIndex, Integer decileIndex, Integer scoreIndex) {
+			Integer catIndex, Integer decileIndex, Integer scoreIndex, Integer sortedIndex, Integer rankIndex) {
 		LOG.debug("Start colRenderer");
 		Component topComponent = (Component) SwingUtilities.getWindowAncestor(table);
 		setColumnsWidth(table, topComponent != null ? topComponent.getWidth() : table.getWidth(), "Init");
 
-		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex, typeIndex, catIndex, decileIndex, scoreIndex);
+		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex, typeIndex, catIndex, decileIndex,
+				scoreIndex, sortedIndex, rankIndex);
 		int columnCount = table.getColumnCount();
 		if (!lastColumn) {
 			columnCount--;

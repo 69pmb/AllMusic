@@ -552,7 +552,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		}
 		tableResult.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
-		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE, null, INDEX_DECILE, INDEX_SCORE);
+		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE, null, INDEX_DECILE, INDEX_SCORE, null, null);
 		for (int i = 0; i < tableResult.getRowCount(); i++) {
 			tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 		}
