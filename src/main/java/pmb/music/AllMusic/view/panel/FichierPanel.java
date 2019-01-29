@@ -54,6 +54,9 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.matchers.TextMatcherEditor;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -78,9 +81,6 @@ import pmb.music.AllMusic.view.model.CompoFichierPanelModel;
 import pmb.music.AllMusic.view.model.FichierPanelModel;
 import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 import pmb.music.AllMusic.view.popup.FichierPopupMenu;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.matchers.TextMatcherEditor;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -115,8 +115,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	public static final int INDEX_COMPO_RANK = 4;
 	public static final int INDEX_COMPO_FILE_SIZE = 5;
 	public static final int INDEX_COMPO_SCORE = 6;
-	public static final int INDEX_COMPO_SELECTED = 7;
-	public static final int INDEX_COMPO_DELETED = 8;
+	public static final int INDEX_COMPO_DECILE = 7;
+	public static final int INDEX_COMPO_SELECTED = 8;
+	public static final int INDEX_COMPO_DELETED = 9;
 
 	// Search components
 	private MyInputText auteur;
@@ -166,7 +167,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Publication", "Categorie",
 			"Dates", "Supprimés", "Création", "Score", "Score Supprimés", "Taille", "Classé" };
 	private static final String[] headerCompo = { "#", "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
-			"Score", "", "" };
+			"Score", "", "", "" };
 
 	/**
 	 * Constructeur de {@link FichierPanel}.
@@ -823,7 +824,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		} else {
 			compoModel.setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
 		}
-		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED, INDEX_COMPO_TYPE, null, null, null);
+		PanelUtils.colRenderer(tableCompo, false, INDEX_COMPO_DELETED, INDEX_COMPO_TYPE, null, INDEX_COMPO_DECILE,
+				INDEX_COMPO_SCORE);
 		compoModel.fireTableDataChanged();
 		if (sortedCompoColumn == null) {
 			sortedCompoColumn = INDEX_COMPO_RANK;
@@ -834,7 +836,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		selectedCompoRow = -1;
 		tableCompo.getColumnModel().getColumn(INDEX_COMPO_LINE_NUMBER).setMinWidth(30);
 		tableCompo.getColumnModel().getColumn(INDEX_COMPO_LINE_NUMBER).setMaxWidth(30);
-		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DELETED));
+		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DECILE));
+		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DELETED - 1));
 		tableCompo.repaint();
 		if (scrollTop) {
 			((JScrollPane) tableCompo.getParent().getParent()).getVerticalScrollBar().setValue(0);
