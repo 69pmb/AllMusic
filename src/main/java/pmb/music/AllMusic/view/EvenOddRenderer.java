@@ -15,6 +15,8 @@ import javax.swing.border.MatteBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableCellRenderer;
 
+import org.apache.commons.lang3.StringUtils;
+
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
@@ -61,6 +63,8 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 	private static final Color LONG_PERIOD = new Color(36, 92, 72);
 	private static final Color DECADE = new Color(120, 25, 70);
 
+	private static final Color SORTED = new Color(251, 224, 131);
+
 	private static final Color[] DECILE_SCORE_PURPLE = { new Color(243, 233, 252), new Color(219, 191, 246),
 			new Color(196, 149, 240), new Color(173, 106, 234), new Color(149, 64, 228), new Color(138, 43, 226),
 			new Color(110, 34, 180), new Color(82, 25, 135), new Color(55, 17, 90), new Color(27, 8, 45) };
@@ -70,6 +74,8 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 	Integer catIndex;
 	Integer decileIndex;
 	Integer scoreIndex;
+	Integer sortedIndex;
+	Integer rankIndex;
 
 	/**
 	 * Constructor for {@link EvenOddRenderer}.
@@ -80,15 +86,20 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 	 *            cell depending on the type
 	 * @param catIndex index of the category column, used to color category cell
 	 * @param decileIndex index of the decile column, used to add tooltip
-	 * @param scoreIndex TODO
+	 * @param scoreIndex index of the score column, used to add color scale of
+	 *            purple
+	 * @param sortedIndex index of the sorted column, used to add color if sorted
+	 * @param rankIndex index of the rank column, used to add color if sorted
 	 */
 	public EvenOddRenderer(Integer deletedIndex, Integer typeIndex, Integer catIndex, Integer decileIndex,
-			Integer scoreIndex) {
+			Integer scoreIndex, Integer sortedIndex, Integer rankIndex) {
 		this.deletedIndex = deletedIndex;
 		this.typeIndex = typeIndex;
 		this.catIndex = catIndex;
 		this.decileIndex = decileIndex;
 		this.scoreIndex = scoreIndex;
+		this.sortedIndex = sortedIndex;
+		this.rankIndex = rankIndex;
 	}
 
 	@SuppressWarnings("unchecked")
@@ -187,6 +198,17 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 				renderer.setBackground(background);
 				return renderer;
 			}
+		}
+		if (sortedIndex != null
+				&& (column == sortedIndex - 1 || column == sortedIndex || (rankIndex != null && column == rankIndex))) {
+			String sortedString = ((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
+					.get(table.getRowSorter().convertRowIndexToModel(row))).get(sortedIndex);
+			Boolean sorted = StringUtils.equalsIgnoreCase(sortedString, "oui") ? Boolean.TRUE : Boolean.FALSE;
+			foreground = sorted ? BLUE : row % 2 == 0 ? BLUE : GRAY;
+			background = sorted ? SORTED : isSelected ? DARK_BLUE : row % 2 == 0 ? GRAY : BLUE;
+			renderer.setForeground(foreground);
+			renderer.setBackground(background);
+			return renderer;
 		}
 		if (deletedIndex != null) {
 			// If display row with deleted rows

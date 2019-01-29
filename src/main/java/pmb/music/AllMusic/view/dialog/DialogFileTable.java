@@ -67,6 +67,7 @@ public class DialogFileTable extends JDialog {
 	public static final int INDEX_FILE_SIZE = 9;
 	public static final int INDEX_RANK = 10;
 	public static final int INDEX_DELETED = 11;
+	public static final int INDEX_SORTED = 12;
 
 	private JTable fichiers;
 	private int defaultSort;
@@ -144,7 +145,7 @@ public class DialogFileTable extends JDialog {
 			this.dispose();
 		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
-		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null);
+		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null, INDEX_SORTED, INDEX_RANK);
 		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
 
 		this.setLayout(new BorderLayout());
