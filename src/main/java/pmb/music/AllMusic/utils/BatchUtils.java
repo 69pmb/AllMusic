@@ -1265,7 +1265,7 @@ public class BatchUtils {
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
-		String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Supprimé",
+		String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Décile", "Supprimé",
 				"Year: " + year + " Type: " + type.toString() };
 		return CsvFile.exportCsv(fileName + " - " + year, MiscUtils.convertVectorToList(occurenceList),
 				Arrays.asList(new SortKey(3, SortOrder.DESCENDING), new SortKey(4, SortOrder.DESCENDING)), csvHeader);
