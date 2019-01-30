@@ -31,18 +31,18 @@ public class MiscUtils {
 
 	// private static final Logger LOG = Logger.getLogger(MiscUtils.class);
 
-	public static Comparator<String> comparePercentage = (String s1, String s2) -> {
+	public static final Comparator<String> comparePercentage = (String s1, String s2) -> {
 		return new Double(Double.parseDouble(StringUtils.replaceAll(StringUtils.substringBefore(s1, "%"), ",", ".")))
 				.compareTo(new Double(
 						Double.parseDouble(StringUtils.replaceAll(StringUtils.substringBefore(s2, "%"), ",", "."))));
 	};
 
-	public static Comparator<String> compareDouble = (String s1, String s2) -> {
+	public static final Comparator<String> compareDouble = (String s1, String s2) -> {
 		return new Double(Double.parseDouble(StringUtils.replaceAll(s1, ",", ".")))
 				.compareTo(new Double(Double.parseDouble(StringUtils.replaceAll(s2, ",", "."))));
 	};
 
-	public static Comparator<String> compareInteger = (String s1, String s2) -> {
+	public static final Comparator<String> compareInteger = (String s1, String s2) -> {
 		s1 = StringUtils.isBlank(s1) ? "0" : s1;
 		s2 = StringUtils.isBlank(s2) ? "0" : s2;
 		return Integer.valueOf(s1).compareTo(Integer.valueOf(s2));
