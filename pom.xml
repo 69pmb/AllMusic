@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>pmb.music</groupId>
 	<artifactId>AllMusic</artifactId>
-	<version>5.0</version>
+	<version>5.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>AllMusic</name>
 	<url>http://maven.apache.org</url>
