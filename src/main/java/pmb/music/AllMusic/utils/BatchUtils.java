@@ -64,7 +64,7 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
 public class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
 
-	public static Comparator<CsvComposition> compareByTrackNumber = (CsvComposition c1, CsvComposition c2) -> {
+	public static final Comparator<CsvComposition> compareByTrackNumber = (CsvComposition c1, CsvComposition c2) -> {
 		String s1 = c1.getTrackNumber();
 		if (StringUtils.contains(s1, " sur")) {
 			s1 = StringUtils.substringBefore(s1, " sur ");
