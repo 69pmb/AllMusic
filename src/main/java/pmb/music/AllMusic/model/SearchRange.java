@@ -6,9 +6,7 @@ package pmb.music.AllMusic.model;
  * @author pmbroca
  */
 public enum SearchRange {
-	EQUAL("=="),
-	GREATER(">="),
-	LESS("<=");
+	EQUAL("=="), GREATER(">="), LESS("<=");
 
 	private final String value;
 
@@ -22,7 +20,7 @@ public enum SearchRange {
 
 	public static SearchRange getByValue(String value) {
 		for (SearchRange sm : values()) {
-			if (sm.value == value) {
+			if (sm.value.equals(value)) {
 				return sm;
 			}
 		}
