@@ -126,20 +126,14 @@ public class BatchUtils {
 	public static String stat() {
 		LOG.debug("Start stat");
 		StringBuilder result = new StringBuilder();
-		addLine(result, "Statistiques sur la longueur artist + titre: ", true);
+		addLine(result, "Statistiques sur la longueur artiste et titre: ", true);
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		List<Integer> size = importXML.stream().map(composition -> {
-			String s = composition.getArtist() + composition.getTitre();
-			return s.length();
-		}).collect(Collectors.toList());
-		IntSummaryStatistics summaryStatistics = size.stream().mapToInt(Integer::intValue).summaryStatistics();
-		addLine(result, "Min: " + summaryStatistics.getMin(), true);
-		addLine(result, "Max: " + summaryStatistics.getMax(), true);
-		addLine(result, "Moyenne: " + summaryStatistics.getAverage(), true);
-		addLine(result, "Mediane: " + MiscUtils.median(size), true);
-		addLine(result, "Ecart-Type: " + MiscUtils.calculateSD(size, summaryStatistics.getAverage(),
-				(int) summaryStatistics.getSum(), summaryStatistics.getCount()), true);
-		addLine(result, "Summary: " + summaryStatistics, true);
+		statsLength(result, importXML.stream().map(composition -> composition.getArtist()).distinct()
+				.map(s -> s.length()).collect(Collectors.toList()), "Artiste: ");
+		statsLength(result, importXML.stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
+				.map(composition -> composition.getTitre().length()).collect(Collectors.toList()), "Album: ");
+		statsLength(result, importXML.stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
+				.map(composition -> composition.getTitre().length()).collect(Collectors.toList()), "Chanson: ");
 
 		addLine(result, "Statistiques sur les tops annuels: ", true);
 		Map<Integer, Integer> songs = importXML.stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
@@ -150,20 +144,51 @@ public class BatchUtils {
 				.map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie().equals(Cat.YEAR))
 				.collect(Collectors.groupingBy(Fichier::getRangeDateBegin, Collectors
 						.collectingAndThen(Collectors.mapping(Fichier::getFileName, Collectors.toSet()), Set::size)));
+
+		List<Composition> songYear = importXML.stream()
+				.filter(c -> c.getRecordType().equals(RecordType.SONG)
+						&& c.getFiles().stream().anyMatch(f -> f.getCategorie().equals(Cat.YEAR)))
+				.collect(Collectors.toList());
+		List<Composition> albumYear = importXML.stream()
+				.filter(c -> c.getRecordType().equals(RecordType.ALBUM)
+						&& c.getFiles().stream().anyMatch(f -> f.getCategorie().equals(Cat.YEAR)))
+				.collect(Collectors.toList());
+
 		int min = Stream.concat(songs.keySet().stream(), albums.keySet().stream()).mapToInt(Integer::intValue).min()
 				.getAsInt();
 		int max = Stream.concat(songs.keySet().stream(), albums.keySet().stream()).mapToInt(Integer::intValue).max()
 				.getAsInt();
+		addLine(result, "Year;Songs Files;Songs Count;Albums Files;Albums Count;Total Files;Total Count", false);
 		IntStream.rangeClosed(min, max).forEach(i -> {
 			Integer song = !songs.containsKey(i) ? 0 : songs.get(i);
 			Integer album = !albums.containsKey(i) ? 0 : albums.get(i);
-			addLine(result,
-					i + ": Songs: " + song.toString() + ", Albums: " + album.toString() + ", Total: " + (song + album),
-					true);
+			long songCount = songYear.stream()
+					.filter(c -> c.getFiles().stream()
+							.anyMatch(f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin().equals(i)))
+					.count();
+			long albumCount = albumYear.stream()
+					.filter(c -> c.getFiles().stream()
+							.anyMatch(f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin().equals(i)))
+					.count();
+			addLine(result, i + ";" + song.toString() + ";" + songCount + ";" + album.toString() + ";" + albumCount
+					+ ";" + (song + album) + ";" + (songCount + albumCount), false);
 		});
 
 		LOG.debug("End stat");
-		return writeInFile(result, Constant.BATCH_FILE);
+		return writeInFile(result, "stats.csv");
+	}
+
+	private static void statsLength(StringBuilder result, List<Integer> size, String title) {
+		addLine(result, title, true);
+		IntSummaryStatistics summaryStatistics = size.stream().mapToInt(Integer::intValue).summaryStatistics();
+		addLine(result, "Min: " + summaryStatistics.getMin(), false);
+		addLine(result, "Max: " + summaryStatistics.getMax(), false);
+		addLine(result, "Moyenne: " + summaryStatistics.getAverage(), false);
+		addLine(result, "Mediane: " + MiscUtils.median(size), false);
+		addLine(result, "Ecart-Type: " + MiscUtils.calculateSD(size, summaryStatistics.getAverage(),
+				(int) summaryStatistics.getSum(), summaryStatistics.getCount()), false);
+		addLine(result, "Summary: " + summaryStatistics, false);
+		addLine(result, "", false);
 	}
 
 	public static String findUnknown() {
