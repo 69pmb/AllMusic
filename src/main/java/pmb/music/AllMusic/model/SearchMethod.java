@@ -35,7 +35,7 @@ public enum SearchMethod {
 
 	public static SearchMethod getByValue(String value) {
 		for (SearchMethod sm : values()) {
-			if (sm.value == value) {
+			if (sm.value.equals(value)) {
 				return sm;
 			}
 		}

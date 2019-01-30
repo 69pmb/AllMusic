@@ -480,7 +480,7 @@ public class ImportFile {
 
 	private static List<String> matchPart(String[] split, String regex) {
 		List<String> res = new ArrayList<>();
-		if (regex == Constant.TWO_DIGITS) {
+		if (regex.equals(Constant.TWO_DIGITS)) {
 			for (int i = 0; i < split.length; i++) {
 				String str = split[i].trim();
 				if (str.matches(regex) && (split[i + 1].startsWith("s") || split[i + 1].startsWith("'"))) {
@@ -629,6 +629,7 @@ public class ImportFile {
 
 	/**
 	 * Counts the number of comma in the given file.
+	 * 
 	 * @param file the file
 	 * @return a number
 	 */
@@ -640,7 +641,7 @@ public class ImportFile {
 			String readLine = "";
 			while (readLine != null) {
 				readLine = br.readLine();
-				if(StringUtils.contains(readLine, ",")) {
+				if (StringUtils.contains(readLine, ",")) {
 					result++;
 				}
 			}
@@ -650,7 +651,7 @@ public class ImportFile {
 		LOG.debug("End countComma: " + result);
 		return result;
 	}
-	
+
 	/**
 	 * Checks if the given line is valid, ie might contains a composition.
 	 * 

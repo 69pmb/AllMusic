@@ -878,7 +878,7 @@ public class BatchUtils {
 					if (i > j) {
 						Fichier f1 = composition.getFiles().get(i);
 						Fichier f2 = composition.getFiles().get(j);
-						if (f1.getClassement() == f2.getClassement()
+						if (f1.getClassement().equals(f2.getClassement())
 								&& StringUtils.equalsIgnoreCase(f1.getAuthor(), f2.getAuthor())) {
 							String key = f1.getFileName() + ", " + f2.getFileName();
 							if (!result.containsKey(key)) {
