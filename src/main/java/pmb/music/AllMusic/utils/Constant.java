@@ -18,18 +18,20 @@ import org.kordamp.ikonli.fontawesome.FontAwesome;
  */
 public class Constant {
 
+	public static final String USER_DIRECTORY = System.getProperty("user.dir") + FileUtils.FS;
+
 	/**
 	 * Chemin des resources de l'application.
 	 */
-	public static final String RESOURCES_DIRECTORY = System.getProperty("user.dir") + FileUtils.FS + "src"
-			+ FileUtils.FS + "main" + FileUtils.FS + "resources" + FileUtils.FS;
+	public static final String RESOURCES_DIRECTORY = USER_DIRECTORY + "src" + FileUtils.FS + "main" + FileUtils.FS
+			+ "resources" + FileUtils.FS;
 
 	/**
 	 * @return Le chemin où seront générés les fichiers de l'application.
 	 */
 	public static String getOutputDir() {
 		String output = GetProperties.getProperty("output");
-		return StringUtils.isBlank(output) ? System.getProperty("user.dir") + FileUtils.FS : output + FileUtils.FS;
+		return StringUtils.isBlank(output) ? USER_DIRECTORY : output + FileUtils.FS;
 	}
 
 	/**
@@ -43,7 +45,7 @@ public class Constant {
 	/**
 	 * Chemin abs du fichier de log.
 	 */
-	public static final String FILE_LOG_PATH = System.getProperty("user.dir") + FileUtils.FS + "error.log";
+	public static final String FILE_LOG_PATH = USER_DIRECTORY + "error.log";
 
 	public static final String MODIF_FILE_PATH = RESOURCES_DIRECTORY + "modif.txt";
 
@@ -102,7 +104,7 @@ public class Constant {
 	public static final String BATCH_FILE = "batch.txt";
 
 	public static final String ACCESS_TOKEN = "G-_ZeiEAvB0AAAAAAAANQd4IMHRr7Y9aTvAiivg-8LImbDKmo9pdu95_SIioW3lR";
-	
+
 	public static final String NEW_LINE = "\r\n";
 
 	public static final String ANSI_ENCODING = "Cp1252";

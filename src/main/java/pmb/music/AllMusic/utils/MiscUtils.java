@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
+import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -31,16 +32,14 @@ public class MiscUtils {
 
 	// private static final Logger LOG = Logger.getLogger(MiscUtils.class);
 
-	public static final Comparator<String> comparePercentage = (String s1, String s2) -> {
-		return new Double(Double.parseDouble(StringUtils.replaceAll(StringUtils.substringBefore(s1, "%"), ",", ".")))
-				.compareTo(new Double(
-						Double.parseDouble(StringUtils.replaceAll(StringUtils.substringBefore(s2, "%"), ",", "."))));
-	};
+	public static final Comparator<String> comparePercentage = (String s1, String s2) -> Double
+			.valueOf(Double.parseDouble(RegExUtils.replaceAll(StringUtils.substringBefore(s1, "%"), ",", ".")))
+			.compareTo(Double.valueOf(
+					Double.parseDouble(RegExUtils.replaceAll(StringUtils.substringBefore(s2, "%"), ",", "."))));
 
-	public static final Comparator<String> compareDouble = (String s1, String s2) -> {
-		return new Double(Double.parseDouble(StringUtils.replaceAll(s1, ",", ".")))
-				.compareTo(new Double(Double.parseDouble(StringUtils.replaceAll(s2, ",", "."))));
-	};
+	public static final Comparator<String> compareDouble = (String s1, String s2) -> Double
+			.valueOf(Double.parseDouble(RegExUtils.replaceAll(s1, ",", ".")))
+			.compareTo(Double.valueOf(Double.parseDouble(RegExUtils.replaceAll(s2, ",", "."))));
 
 	public static final Comparator<String> compareInteger = (String s1, String s2) -> {
 		s1 = StringUtils.isBlank(s1) ? "0" : s1;
@@ -175,11 +174,10 @@ public class MiscUtils {
 	 * 
 	 * @param numArray
 	 * @param average
-	 * @param sum
 	 * @param count
 	 * @return
 	 */
-	public static double calculateSD(List<Integer> numArray, double average, int sum, long count) {
+	public static double calculateSD(List<Integer> numArray, double average, long count) {
 		double standardDeviation = 0.0;
 
 		for (double num : numArray) {

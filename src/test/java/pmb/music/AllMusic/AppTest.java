@@ -485,7 +485,7 @@ public class AppTest {
 		LOG.debug("Stats: " + yearList.stream().mapToInt(i -> i).summaryStatistics());
 		LOG.debug("Medianne: " + MiscUtils.median(yearList));
 		LOG.debug("SD: " + MiscUtils.calculateSD(yearList, yearList.stream().mapToInt(i -> i).average().getAsDouble(),
-				yearList.stream().mapToInt(i -> i).sum(), yearList.stream().mapToInt(i -> i).count()));
+				yearList.stream().mapToInt(i -> i).count()));
 	}
 
 	public static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName) {

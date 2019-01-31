@@ -14,6 +14,7 @@ import java.io.OutputStreamWriter;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Arrays;
 import java.util.Date;
@@ -65,66 +66,64 @@ public class FichierUtils {
 		LOG.debug("Start convertCompositionListToFichierVector, getComposition: " + getComposition + ", lineNumber: "
 				+ lineNumber);
 		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
-		compoList.parallelStream().forEach(c -> {
-			c.getFiles().parallelStream().forEach(f -> {
-				Vector<Object> v = new Vector<>();
-				if (lineNumber) {
-					// lineNumber
-					v.addElement(0);
-				}
-				List<Composition> importXML = ImportXML
-						.importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
-				Optional<Composition> optCompo = Optional.empty();
-				if (getComposition) {
-					// If fetch composition details
-					optCompo = CompositionUtils.findByFile(importXML, f, Optional.of(c.getArtist()),
-							Optional.of(c.getTitre()));
-					if (optCompo.isPresent()) {
-						// Artist
-						v.addElement(optCompo.get().getArtist());
-						// Titre
-						v.addElement(optCompo.get().getTitre());
-						// Type
-						v.addElement(optCompo.get().getRecordType().toString());
-					} else {
-						LOG.warn("No result when searching composition by its file: " + f + ", " + c.getArtist() + ", "
-								+ c.getTitre());
-						v.addElement(c.getArtist());
-						v.addElement(c.getTitre());
-						v.addElement(c.getRecordType().toString());
-						v.addElement(Boolean.valueOf(c.isDeleted()).toString());
-					}
-				}
-				// Author
-				v.addElement(f.getAuthor());
-				// File name
-				v.addElement(f.getFileName());
-				if (!getComposition) {
+		compoList.parallelStream().forEach(c -> c.getFiles().parallelStream().forEach(f -> {
+			Vector<Object> v = new Vector<>();
+			if (lineNumber) {
+				// lineNumber
+				v.addElement(0);
+			}
+			List<Composition> importXML = ImportXML
+					.importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
+			Optional<Composition> optCompo = Optional.empty();
+			if (getComposition) {
+				// If fetch composition details
+				optCompo = CompositionUtils.findByFile(importXML, f, Optional.of(c.getArtist()),
+						Optional.of(c.getTitre()));
+				if (optCompo.isPresent()) {
+					// Artist
+					v.addElement(optCompo.get().getArtist());
+					// Titre
+					v.addElement(optCompo.get().getTitre());
 					// Type
-					v.addElement(importXML.get(0).getRecordType().toString());
+					v.addElement(optCompo.get().getRecordType().toString());
+				} else {
+					LOG.warn("No result when searching composition by its file: " + f + ", " + c.getArtist() + ", "
+							+ c.getTitre());
+					v.addElement(c.getArtist());
+					v.addElement(c.getTitre());
+					v.addElement(c.getRecordType().toString());
+					v.addElement(Boolean.toString(c.isDeleted()));
 				}
-				v.addElement(f.getPublishYear());
-				v.addElement(f.getCategorie().getCat());
-				v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
-				// % of deleted
-				BigDecimal numberOfDeleted = new BigDecimal(importXML.stream().reduce(0,
-						(sum, item) -> item.isDeleted() ? sum + 1 : sum, (sumA, sumB) -> sumA + sumB));
-				BigDecimal size = new BigDecimal(f.getSize() == 0 ? importXML.size() : f.getSize());
-				v.addElement(BigDecimal.valueOf(100D).setScale(2).multiply(numberOfDeleted)
-						.divide(size, RoundingMode.HALF_UP).doubleValue() + " %");
-				if (!getComposition) {
-					v.addElement(f.getCreationDate());
-				}
-				v.addElement(f.getSize());
-				if (getComposition) {
-					v.addElement(f.getClassement());
-					// Deleted
-					v.addElement(Boolean.valueOf(optCompo.get().isDeleted()).toString());
-				}
-				v.addElement(f.getSorted() ? "Oui" : "Non");
-				result.add(v);
-			});
-		});
+			}
+			// Author
+			v.addElement(f.getAuthor());
+			// File name
+			v.addElement(f.getFileName());
+			if (!getComposition) {
+				// Type
+				v.addElement(importXML.get(0).getRecordType().toString());
+			}
+			v.addElement(f.getPublishYear());
+			v.addElement(f.getCategorie().getCat());
+			v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
+			// % of deleted
+			BigDecimal numberOfDeleted = new BigDecimal(importXML.stream().reduce(0,
+					(sum, item) -> item.isDeleted() ? sum + 1 : sum, (sumA, sumB) -> sumA + sumB));
+			BigDecimal size = new BigDecimal(f.getSize() == 0 ? importXML.size() : f.getSize());
+			v.addElement(BigDecimal.valueOf(100D).setScale(2).multiply(numberOfDeleted)
+					.divide(size, RoundingMode.HALF_UP).doubleValue() + " %");
+			if (!getComposition) {
+				v.addElement(f.getCreationDate());
+			}
+			v.addElement(f.getSize());
+			if (getComposition) {
+				v.addElement(f.getClassement());
+				// Deleted
+				v.addElement(Boolean.toString(optCompo.get().isDeleted()));
+			}
+			v.addElement(f.getSorted() ? "Oui" : "Non");
+			result.add(v);
+		}));
 		LOG.debug("End convertCompositionListToFichierVector");
 		return result;
 	}
@@ -158,7 +157,11 @@ public class FichierUtils {
 		}
 		// Supprime l'ancien fichier
 		if (!StringUtils.equals(fileName, newFileName)) {
-			new File(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION).delete();
+			try {
+				Files.delete(Paths.get(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION));
+			} catch (IOException e) {
+				LOG.warn("Error when deleting file: " + fileName, e);
+			}
 		}
 		// Modification du fichier final.xml
 		List<Composition> finalList = ImportXML.importXML(Constant.getFinalFilePath());
@@ -202,7 +205,7 @@ public class FichierUtils {
 		return result;
 	}
 
-	public static Consumer<? super Composition> modifyOneFile(String fileName, String newFileName, String newPublish,
+	public static Consumer<Composition> modifyOneFile(String fileName, String newFileName, String newPublish,
 			String newRange, String newCat, String newSize, String newSorted) {
 		return c -> {
 			List<Fichier> list = c.getFiles().stream().filter(f -> StringUtils.equals(f.getFileName(), fileName))
@@ -231,8 +234,8 @@ public class FichierUtils {
 		}
 	}
 
-	public static void renameFile(String source, String destination) {
-		new File(source).renameTo(new File(destination));
+	public static boolean renameFile(String source, String destination) {
+		return new File(source).renameTo(new File(destination));
 	}
 
 	/**
@@ -353,7 +356,7 @@ public class FichierUtils {
 		String pathYear = pathRoot + Constant.YEAR_FOLDER + FileUtils.FS + nameWithExtension;
 
 		Optional<String> result = Arrays.asList(pathShort, pathSong, pathAlbum, pathYear).stream()
-				.filter(path -> FileUtils.fileExists(path)).findFirst();
+				.filter(FileUtils::fileExists).findFirst();
 		if (!result.isPresent()) {
 			LOG.warn("End buildTxtFilePath, no path built for: " + fileName + " - " + auteur);
 		}
@@ -436,7 +439,11 @@ public class FichierUtils {
 			return;
 		}
 		// Delete the file
-		file.delete();
+		try {
+			Files.delete(file.toPath());
+		} catch (IOException e1) {
+			LOG.error("Error when deleting file: " + file.getName(), e1);
+		}
 		// Rewrite the file
 		try (BufferedWriter writer = new BufferedWriter(
 				new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING));) {
