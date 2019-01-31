@@ -42,7 +42,6 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
-import javax.swing.event.RowSorterListener;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
@@ -247,15 +246,15 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		searchFields.setLayout(new GridLayout(2, 5));
 
 		// Artiste
-		JPanel artistPanel = new JPanel();
+		JPanel panelArtist = new JPanel();
 		JLabel artistLabel = PanelUtils.createJLabel("Artiste : ", 200);
 		artist = new MyInputText(JComboBox.class, 150);
 		AutoCompleteSupport.install((JComboBox<?>) artist.getInput(),
 				GlazedLists.eventListOf(OngletPanel.getArtistList().toArray()));
-		PanelUtils.setSize(artistPanel, 300, PanelUtils.PANEL_HEIGHT);
-		artistPanel.add(artistLabel);
-		artistPanel.add(artist);
-		searchFields.add(artistPanel);
+		PanelUtils.setSize(panelArtist, 300, PanelUtils.PANEL_HEIGHT);
+		panelArtist.add(artistLabel);
+		panelArtist.add(artist);
+		searchFields.add(panelArtist);
 
 		// Titre
 		JPanel titrePanel = new JPanel();
@@ -271,7 +270,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		JPanel searchMethodPanel = new JPanel();
 		JLabel searchMethodLabel = PanelUtils.createJLabel("Méthode de recherche : ", 150);
 		searchMethod = new JComboBox<>(
-				Arrays.asList(SearchMethod.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
+				Arrays.asList(SearchMethod.values()).stream().map(SearchMethod::getValue).toArray(String[]::new));
 		searchMethod.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		searchMethodPanel.add(searchMethodLabel);
 		searchMethodPanel.add(searchMethod);
@@ -300,8 +299,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		// Type
 		JPanel typePanel = new JPanel();
 		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
-		type = new JComboCheckBox(
-				Arrays.asList(RecordType.values()).stream().map(t -> t.getRecordType()).collect(Collectors.toList()));
+		type = new JComboCheckBox(Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType)
+				.collect(Collectors.toList()));
 		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		typePanel.add(typeLabel);
 		typePanel.add(type);
@@ -316,6 +315,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		rangeE.getInput().addFocusListener(new FocusListener() {
 			@Override
 			public void focusLost(FocusEvent e) {
+				// Nothing to do
 			}
 
 			@Override
@@ -335,8 +335,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		// Categorie
 		JPanel catPanel = new JPanel();
 		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 150);
-		cat = new JComboCheckBox(
-				Arrays.asList(Cat.values()).stream().map(c -> c.getCat()).collect(Collectors.toList()));
+		cat = new JComboCheckBox(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()));
 		cat.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
@@ -346,8 +345,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 240);
 		publi = new MyInputText(JTextField.class, 100);
-		searchRange = new JComboBox<String>(
-				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
+		searchRange = new JComboBox<>(
+				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new));
 		searchRange.setPreferredSize(new Dimension(45, PanelUtils.COMPONENT_HEIGHT));
 		publi.getInput().addFocusListener(PanelUtils.selectAll);
 		publiPanel.add(publiLabel);
@@ -439,10 +438,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
 			@Override
 			public boolean isSortable(int column) {
-				if (column != INDEX_LINE_NUMBER)
-					return true;
-				else
-					return false;
+				return column != INDEX_LINE_NUMBER;
 			};
 		};
 		tableResult.setRowSorter(sorter);
@@ -474,32 +470,29 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				// Nothing to do
 			}
 		});
-		tableResult.getRowSorter().addRowSorterListener(new RowSorterListener() {
-			@Override
-			public void sorterChanged(RowSorterEvent e) {
-				List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
-				if (!sortKeys.isEmpty()) {
-					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-						// Sort of deleted column and store sorted column and order
-						int column = sortKeys.get(0).getColumn();
-						if (column == INDEX_SELECTED) {
-							sortedColumn = INDEX_DELETED;
-							sortDeletedOrder = sortDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
-									: SortOrder.ASCENDING;
-							sortOrder = sortDeletedOrder;
-							List<SortKey> list = new LinkedList<>(
-									Arrays.asList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
-							tableResult.getRowSorter().getSortKeys().stream().forEach(s -> list.add(s));
-							tableResult.getRowSorter().setSortKeys(list);
-						} else {
-							sortOrder = sortKeys.get(0).getSortOrder();
-							sortedColumn = column;
-						}
+		tableResult.getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
+			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
+			if (!sortKeys.isEmpty()) {
+				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+					// Sort of deleted column and store sorted column and order
+					int column = sortKeys.get(0).getColumn();
+					if (column == INDEX_SELECTED) {
+						sortedColumn = INDEX_DELETED;
+						sortDeletedOrder = sortDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
+								: SortOrder.ASCENDING;
+						sortOrder = sortDeletedOrder;
+						List<SortKey> list = new LinkedList<>(
+								Arrays.asList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
+						tableResult.getRowSorter().getSortKeys().stream().forEach(list::add);
+						tableResult.getRowSorter().setSortKeys(list);
+					} else {
+						sortOrder = sortKeys.get(0).getSortOrder();
+						sortedColumn = column;
 					}
-					// Handling of line numbers
-					for (int i = 0; i < tableResult.getRowCount(); i++) {
-						tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
-					}
+				}
+				// Handling of line numbers
+				for (int i = 0; i < tableResult.getRowCount(); i++) {
+					tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 				}
 			}
 		});
@@ -552,7 +545,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		}
 		tableResult.getRowSorter()
 				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
-		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE, null, INDEX_DECILE, INDEX_SCORE, null, null);
+		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE, null, INDEX_DECILE, INDEX_SCORE, null,
+				null);
 		for (int i = 0; i < tableResult.getRowCount(); i++) {
 			tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 		}
@@ -600,9 +594,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	}
 
 	private void mouseClickAction(MouseEvent e) {
-		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		popup.initDataAndPosition(e, selectedRow);
-		if (!selectedRow.isPresent()) {
+		Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
+		popup.initDataAndPosition(e, row);
+		if (!row.isPresent()) {
 			return;
 		}
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
@@ -611,9 +605,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			// composition sélectionnée
 			try {
 				DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-						Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult,
-								selectedRow.get().get(INDEX_ARTIST), selectedRow.get().get(INDEX_TITRE),
-								selectedRow.get().get(INDEX_TYPE), true)),
+						Arrays.asList(
+								CompositionUtils.findByArtistTitreAndType(compoResult, row.get().get(INDEX_ARTIST),
+										row.get().get(INDEX_TITRE), row.get().get(INDEX_TYPE), true)),
 						400, DialogFileTable.INDEX_AUTEUR);
 				pop.showDialogFileTable();
 			} catch (MyException e1) {

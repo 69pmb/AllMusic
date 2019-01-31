@@ -16,6 +16,8 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -42,7 +44,6 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
-import javax.swing.event.RowSorterListener;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
@@ -99,7 +100,6 @@ public class ArtistPanel extends JPanel {
 	private MyInputText auteur;
 	private JComboCheckBox cat;
 	private JButton search;
-	private JButton reset;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
 	private JCheckBox deleted;
@@ -157,8 +157,8 @@ public class ArtistPanel extends JPanel {
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 200);
 		publi = new MyInputText(JTextField.class, 75);
 		publi.getInput().addFocusListener(PanelUtils.selectAll);
-		searchRange = new JComboBox<String>(
-				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
+		searchRange = new JComboBox<>(
+				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new));
 		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
 		publiPanel.add(publiLabel);
 		publiPanel.add(searchRange);
@@ -175,6 +175,7 @@ public class ArtistPanel extends JPanel {
 		rangeE.getInput().addFocusListener(new FocusListener() {
 			@Override
 			public void focusLost(FocusEvent e) {
+				// Nothing to do
 			}
 
 			@Override
@@ -205,8 +206,7 @@ public class ArtistPanel extends JPanel {
 		JPanel catPanel = new JPanel();
 		catPanel.setPreferredSize(new Dimension(180, PanelUtils.PANEL_HEIGHT));
 		JLabel catLabel = new JLabel("Catégorie : ");
-		cat = new JComboCheckBox(
-				Arrays.asList(Cat.values()).stream().map(c -> c.getCat()).collect(Collectors.toList()));
+		cat = new JComboCheckBox(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()));
 		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
@@ -226,7 +226,7 @@ public class ArtistPanel extends JPanel {
 		search.addActionListener((ActionEvent e) -> searchAction());
 		header.add(search);
 		// RESET
-		reset = PanelUtils.createJButton("Réinitialiser", 150, Constant.ICON_ERASE);
+		JButton reset = PanelUtils.createJButton("Réinitialiser", 150, Constant.ICON_ERASE);
 		reset.addActionListener((ActionEvent e) -> resetAction());
 		header.add(reset);
 		LOG.debug("End initHeader");
@@ -248,27 +248,21 @@ public class ArtistPanel extends JPanel {
 		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
 			@Override
 			public boolean isSortable(int column) {
-				if (column != INDEX_LINE_NUMBER)
-					return true;
-				else
-					return false;
+				return column != INDEX_LINE_NUMBER;
 			};
 		};
 		table.setRowSorter(sorter);
-		table.getRowSorter().addRowSorterListener(new RowSorterListener() {
-			@Override
-			public void sorterChanged(RowSorterEvent e) {
-				List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
-				if (!sortKeys.isEmpty()) {
-					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-						// Store sorted column and order
-						sortedColumn = sortKeys.get(0).getColumn();
-						sortOrder = sortKeys.get(0).getSortOrder();
-					}
-					// Handling of line numbers
-					for (int i = 0; i < table.getRowCount(); i++) {
-						table.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
-					}
+		table.getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
+			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
+			if (!sortKeys.isEmpty()) {
+				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+					// Store sorted column and order
+					sortedColumn = sortKeys.get(0).getColumn();
+					sortOrder = sortKeys.get(0).getSortOrder();
+				}
+				// Handling of line numbers
+				for (int i = 0; i < table.getRowCount(); i++) {
+					table.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 				}
 			}
 		});
@@ -360,10 +354,11 @@ public class ArtistPanel extends JPanel {
 		if (!withArtist) {
 			return;
 		}
-		if (deleteJsonFile) {
-			File artist = new File(Constant.ARTIST_PANEL_RESULT_FILE);
-			if (artist.exists() && !artist.delete()) {
-				LOG.warn(Constant.ARTIST_PANEL_RESULT_FILE + " n'a pas pu etre supprimé");
+		if (deleteJsonFile && new File(Constant.ARTIST_PANEL_RESULT_FILE).exists()) {
+			try {
+				Files.delete(Paths.get(Constant.ARTIST_PANEL_RESULT_FILE));
+			} catch (IOException e) {
+				LOG.warn(Constant.ARTIST_PANEL_RESULT_FILE + " n'a pas pu etre supprimé", e);
 			}
 		}
 		updateArtistThread.interrupt();
@@ -443,18 +438,18 @@ public class ArtistPanel extends JPanel {
 	}
 
 	private void mouseClickAction(MouseEvent e) {
-		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		if (!selectedRow.isPresent()) {
+		Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
+		if (!row.isPresent()) {
 			return;
 		}
-		LOG.debug(selectedRow);
+		LOG.debug(row);
 		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start artist mouse");
 			// Affiche tous les fichiers de l'artiste double cliqué
 			Optional<String> key = CompositionUtils.findArtistKey(searchResult, new JaroWinklerDistance(),
-					selectedRow.get().get(INDEX_ARTIST));
+					row.get().get(INDEX_ARTIST));
 			if (!key.isPresent()) {
-				LOG.error("Error when searching: " + selectedRow.get().get(INDEX_ARTIST) + " in data table");
+				LOG.error("Error when searching: " + row.get().get(INDEX_ARTIST) + " in data table");
 			} else {
 				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, searchResult.get(key.get()), 600,
 						DialogFileTable.INDEX_TITLE);
@@ -464,7 +459,7 @@ public class ArtistPanel extends JPanel {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start artist right mouse");
 			// Copie dans le presse papier le nom de l'artiste
-			MiscUtils.clipBoardAction(selectedRow.get().get(INDEX_ARTIST));
+			MiscUtils.clipBoardAction(row.get().get(INDEX_ARTIST));
 			LOG.debug("End artist right mouse");
 		}
 	}
@@ -481,11 +476,11 @@ public class ArtistPanel extends JPanel {
 									c.getArtist(), SearchMethod.CONTAINS, jaro))) {
 						continue;
 					}
-					List<Fichier> files = c.getFiles().stream().filter(f -> {
-						return SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, publi.getText(),
-								(String) searchRange.getSelectedItem(), null, auteur.getText(), cat.getSelectedItems(),
-								rangeB.getText(), rangeE.getText(), null, null, f);
-					}).collect(Collectors.toList());
+					List<Fichier> files = c.getFiles().stream()
+							.filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, publi.getText(),
+									(String) searchRange.getSelectedItem(), null, auteur.getText(),
+									cat.getSelectedItems(), rangeB.getText(), rangeE.getText(), null, null, f))
+							.collect(Collectors.toList());
 					if (!files.isEmpty()) {
 						Composition newCompo = new Composition(c);
 						newCompo.setFiles(files);

@@ -3,6 +3,7 @@
  */
 package pmb.music.AllMusic.view.model;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
@@ -43,6 +44,6 @@ public class CompoDialogModel extends AbstractModel {
 
 	@Override
 	public List<Object> getSelected() {
-		return null;
+		return new ArrayList<>();
 	}
 }
