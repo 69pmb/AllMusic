@@ -69,13 +69,13 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 			new Color(196, 149, 240), new Color(173, 106, 234), new Color(149, 64, 228), new Color(138, 43, 226),
 			new Color(110, 34, 180), new Color(82, 25, 135), new Color(55, 17, 90), new Color(27, 8, 45) };
 
-	Integer deletedIndex;
-	Integer typeIndex;
-	Integer catIndex;
-	Integer decileIndex;
-	Integer scoreIndex;
-	Integer sortedIndex;
-	Integer rankIndex;
+	private Integer deletedIndex;
+	private Integer typeIndex;
+	private Integer catIndex;
+	private Integer decileIndex;
+	private Integer scoreIndex;
+	private Integer sortedIndex;
+	private Integer rankIndex;
 
 	/**
 	 * Constructor for {@link EvenOddRenderer}.

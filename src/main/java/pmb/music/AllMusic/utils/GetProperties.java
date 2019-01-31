@@ -58,6 +58,6 @@ public class GetProperties {
 	}
 
 	private GetProperties() {
-		// Nothing to do
+		throw new AssertionError("Must not be used");
 	}
 }

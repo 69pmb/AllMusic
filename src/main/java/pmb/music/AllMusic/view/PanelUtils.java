@@ -81,15 +81,16 @@ public class PanelUtils {
 	 *            with a specific color
 	 * @param catIndex index of the category column, use it to draw type cell with a
 	 *            specific color
-	 * @param decileIndex TODO
-	 * @param scoreIndex TODO
-	 * @param sortedIndex TODO
-	 * @param rankIndex TODO
+	 * @param decileIndex index of the decile column, used to add tooltip
+	 * @param scoreIndex index of the score column, used to add color scale of
+	 *            purple
+	 * @param sortedIndex index of the sorted column, used to add color if sorted
+	 * @param rankIndex index of the rank column, used to add color if sorted
 	 */
 	public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex, Integer typeIndex,
 			Integer catIndex, Integer decileIndex, Integer scoreIndex, Integer sortedIndex, Integer rankIndex) {
 		LOG.debug("Start colRenderer");
-		Component topComponent = (Component) SwingUtilities.getWindowAncestor(table);
+		Component topComponent = SwingUtilities.getWindowAncestor(table);
 		setColumnsWidth(table, topComponent != null ? topComponent.getWidth() : table.getWidth(), "Init");
 
 		DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex, typeIndex, catIndex, decileIndex,
@@ -121,7 +122,7 @@ public class PanelUtils {
 		boolean isTableWiderThanScreen = table.getWidth() != 0 && table.getWidth() > (width + 10);
 		TableColumnModel columnModel = table.getColumnModel();
 		Map<Integer, Integer> colWidth = new HashMap<>();
-		Double widthDouble = new Double(width);
+		Double widthDouble = Double.valueOf(width);
 		int columnCount = columnModel.getColumnCount();
 		for (int i = 0; i < columnCount; i++) {
 			int maximum = 0;
@@ -141,16 +142,16 @@ public class PanelUtils {
 				@SuppressWarnings("deprecation")
 				FontMetrics fontMetrics = Toolkit.getDefaultToolkit().getFontMetrics(table.getFont());
 				int widthFactor = fontMetrics.stringWidth(new JLabel(currentValue.toString()).getText());
-				columnModel.getColumn(i).setPreferredWidth(widthFactor + 2); // valeur arbitraire
-				columnWidth = new Double(widthFactor + 2);
+				columnModel.getColumn(i).setPreferredWidth(widthFactor + 2D); // valeur arbitraire
+				columnWidth = Double.valueOf(widthFactor + 2D);
 			} else {
 				columnModel.getColumn(i).setPreferredWidth(maximum * 7); // valeur arbitraire
-				columnWidth = new Double(maximum) * 7D;
+				columnWidth = Double.valueOf(maximum) * 7D;
 			}
 
 			if (isTableWiderThanScreen) {
 				// If table wider than given width, calculates a column width
-				Double tableWidthDouble = new Double(table.getWidth());
+				Double tableWidthDouble = Double.valueOf(table.getWidth());
 				Double ratio = widthDouble / tableWidthDouble;
 				// Calcule le ratio entre la largeur donnée et la largeur du tableau
 				int round = (int) Math.round(columnWidth * ratio);
@@ -161,8 +162,8 @@ public class PanelUtils {
 			LOG.debug("Table is wider than Screen");
 			// Sum of the calculates columns width
 			Integer sum = colWidth.values().stream().mapToInt(Integer::intValue).sum();
-			Double sumDouble = new Double(sum);
-			Double columnCountDouble = new Double(columnCount);
+			Double sumDouble = Double.valueOf(sum);
+			Double columnCountDouble = Double.valueOf(columnCount);
 			if (sum.compareTo(width) > 0) {
 				LOG.debug("Too large");
 				// If the calculates column are too large
@@ -174,7 +175,6 @@ public class PanelUtils {
 				Double offset = (widthDouble - sumDouble) / columnCountDouble;
 				colWidth.entrySet().stream().forEach(e -> e.setValue(e.getValue() + (int) Math.round(offset)));
 			}
-			sum = colWidth.values().stream().mapToInt(Integer::intValue).sum();
 			// Set of the columns max/min width for each column
 			colWidth.entrySet().stream().forEach(e -> columnModel.getColumn(e.getKey()).setMaxWidth(e.getValue()));
 			colWidth.entrySet().stream().forEach(e -> columnModel.getColumn(e.getKey()).setMinWidth(e.getValue()));
@@ -502,5 +502,9 @@ public class PanelUtils {
 		JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
 		setSize(jLabel, width, COMPONENT_HEIGHT);
 		return jLabel;
+	}
+
+	private PanelUtils() {
+		throw new AssertionError("Must not be used");
 	}
 }

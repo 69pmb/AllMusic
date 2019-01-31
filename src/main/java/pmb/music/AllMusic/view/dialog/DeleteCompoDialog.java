@@ -67,9 +67,7 @@ public class DeleteCompoDialog extends JDialog {
 	// Components
 	private JTextPane compoCsv;
 	private JTextPane warning;
-	JTable filesFound;
-	JButton yes;
-	JButton no;
+	private JTable filesFound;
 
 	/**
 	 * Constructeur de {@link DeleteCompoDialog}.
@@ -98,11 +96,11 @@ public class DeleteCompoDialog extends JDialog {
 		// Csv compo
 		JPanel compoCsvPanel = new JPanel();
 		compoCsvPanel.setLayout(new BoxLayout(compoCsvPanel, BoxLayout.Y_AXIS));
-		compoCsv = initJTextPaneComponent(panel, new Color(21, 77, 153), 20);
+		compoCsv = initJTextPaneComponent(new Color(21, 77, 153), 20);
 		compoCsvPanel.add(compoCsv);
 
 		// Warning
-		warning = initJTextPaneComponent(panel, new Color(255, 67, 67), 30);
+		warning = initJTextPaneComponent(new Color(255, 67, 67), 30);
 		compoCsvPanel.add(warning);
 		panel.add(new JScrollPane(compoCsvPanel));
 
@@ -144,7 +142,7 @@ public class DeleteCompoDialog extends JDialog {
 		LOG.debug("End initComponent");
 	}
 
-	private JTextPane initJTextPaneComponent(JPanel panel, Color color, int fontSize) {
+	private JTextPane initJTextPaneComponent(Color color, int fontSize) {
 		JTextPane textPane = new JTextPane();
 		textPane.setOpaque(false);
 		textPane.setEditable(false);
