@@ -17,6 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 import javax.swing.JTextArea;
+import javax.xml.XMLConstants;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -52,10 +53,11 @@ public final class ImportXML {
 	 * @return les compos extraites
 	 */
 	public static List<Composition> importXML(String filePath) {
-		SAXParserFactory fabrique = SAXParserFactory.newInstance();
+		SAXParserFactory factory = SAXParserFactory.newInstance();
 		SAXParser parseur = null;
 		try {
-			parseur = fabrique.newSAXParser();
+			factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, Boolean.TRUE);
+			parseur = factory.newSAXParser();
 		} catch (ParserConfigurationException | SAXException e) {
 			LOG.error("Erreur lors de la création du parseur", e);
 		}
@@ -108,15 +110,13 @@ public final class ImportXML {
 				}
 			}
 		}
-		// compoFusion =
-		// compoFusion.stream().sorted(byRecord.thenComparing(byTitre).thenComparing(byArtist)).collect(Collectors.toList());
 		List<Composition> compoFinal = new ArrayList<>();
 		BigDecimal sizeBG = new BigDecimal(compoFusionAlbum.size() + compoFusionSong.size());
 		int modulo = Math.round(sizeBG.divide(BigDecimal.valueOf(10000D)).floatValue());
 		LOG.debug(modulo);
 		LOG.debug(sizeBG.intValue());
-		compoFinal = fusion(resultLabel, compoFusionAlbum, compoFinal, 0, modulo, sizeBG);
-		compoFinal = fusion(resultLabel, compoFusionSong, compoFinal, compoFusionAlbum.size(), modulo, sizeBG);
+		fusion(resultLabel, compoFusionAlbum, compoFinal, 0, modulo, sizeBG);
+		fusion(resultLabel, compoFusionSong, compoFinal, compoFusionAlbum.size(), modulo, sizeBG);
 		ExportXML.exportXML(compoFinal, finalFile); // On exporte le resultat dans le fichier final.xml
 		double endTime = System.currentTimeMillis();
 		LOG.debug("Time: " + (endTime - startTime) / 1000 + " secondes");
@@ -126,8 +126,8 @@ public final class ImportXML {
 		return compoFinal;
 	}
 
-	private static List<Composition> fusion(final JTextArea resultLabel, List<Composition> compoFusion,
-			List<Composition> compoFinal, int init, int modulo, BigDecimal sizeBG) {
+	private static void fusion(final JTextArea resultLabel, List<Composition> compoFusion, List<Composition> compoFinal,
+			int init, int modulo, BigDecimal sizeBG) {
 		final AtomicInteger count = new AtomicInteger(init);
 		compoFusion.parallelStream().forEach(compo -> {
 			Composition compoExist = CompositionUtils.compoExist(new ArrayList<>(compoFinal), compo);
@@ -145,7 +145,6 @@ public final class ImportXML {
 						resultLabel);
 			}
 		});
-		return compoFinal;
 	}
 
 	private static void updateResultLabel(List<String> result2, final JTextArea resultLabel) {
@@ -168,7 +167,7 @@ public final class ImportXML {
 	public static void synchroDeletedWithFinal() throws MyException {
 		LOG.debug("Start synchroDeletedWithFinal");
 		List<Composition> allDeletedComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
-				.filter(c -> c.isDeleted()).collect(Collectors.toList());
+				.filter(Composition::isDeleted).collect(Collectors.toList());
 		for (Composition composition : allDeletedComposition) {
 			for (Fichier fichier : composition.getFiles()) {
 				if (composition.isDeleted()) {

@@ -62,12 +62,6 @@ public class CustomColumnPositionMappingStrategy<T>
 	 */
 	private Integer[] columnIndexForWriting = null;
 
-	/**
-	 * Default constructor.
-	 */
-	public CustomColumnPositionMappingStrategy() {
-	}
-
 	@Override
 	public void captureHeader(CSVReader reader) throws IOException {
 		// Validation
@@ -197,7 +191,9 @@ public class CustomColumnPositionMappingStrategy<T>
 		fieldMap.setColumnOrderOnWrite(writeOrder);
 		int i = 0;
 		for (Field field : loadFields(getType())) {
-			String fieldLocale, capture, format;
+			String fieldLocale;
+			String capture;
+			String format;
 
 			// Custom converters always have precedence.
 			if (field.isAnnotationPresent(CsvCustomBindByPosition.class)) {

@@ -8,6 +8,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
 import java.util.ArrayList;
@@ -63,7 +65,6 @@ public class CleanFile {
 				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
 				BufferedWriter writer = new BufferedWriter(
 						new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
-			// int i =0;
 			while ((line = br.readLine()) != null) {
 				boolean isDigit = true;
 				if (isSorted) {
@@ -73,7 +74,6 @@ public class CleanFile {
 				if (isDigit && line.length() < maxLength) {
 					writesLineIfContainsSepAndRemovesChar(characterToRemove, separator, line, writer, isBefore);
 				}
-				// i++;
 			}
 			writer.flush();
 		}
@@ -164,8 +164,10 @@ public class CleanFile {
 				LOG.debug(file + " modifié");
 				result.add(file.getName());
 			} else {
-				if (!new File(exitFile).delete()) {
-					LOG.warn(exitFile + " n'a pas pu etre supprimé");
+				try {
+					Files.delete(Paths.get(exitFile));
+				} catch (IOException e) {
+					LOG.warn(exitFile + " n'a pas pu etre supprimé", e);
 				}
 			}
 		}
@@ -173,8 +175,7 @@ public class CleanFile {
 	}
 
 	public static String removeDiactriticals(String line) {
-		String replaceAll = Normalizer.normalize(line, Form.NFKD)
-				.replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+		String replaceAll = Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
 		replaceAll = StringUtils.stripAccents(replaceAll);
 		return replaceAll;
 	}
