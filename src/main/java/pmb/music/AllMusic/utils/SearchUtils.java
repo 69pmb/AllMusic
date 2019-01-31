@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.regex.PatternSyntaxException;
 import java.util.stream.Collectors;
 
@@ -101,7 +102,7 @@ public class SearchUtils {
 			arrayList = arrayList.parallelStream()
 					.map(c -> filterCompositions(searchMethod, searchInFiles, jaro, artist, titre, type, deleted,
 							publish, publishRange, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c))
-					.filter(c -> c != null).collect(Collectors.toList());
+					.filter(Objects::nonNull).collect(Collectors.toList());
 		} else if (!deleted) {
 			arrayList = arrayList.parallelStream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
 		}
@@ -120,17 +121,17 @@ public class SearchUtils {
 
 		boolean result = true;
 		if (StringUtils.isNotBlank(artist)) {
-			result = result && compareString(artist, co.getArtist(), searchMethod, jaro);
+			result = compareString(artist, co.getArtist(), searchMethod, jaro);
 		}
 		if (result && StringUtils.isNotBlank(titre)) {
-			result = result && compareString(titre, co.getTitre(), searchMethod, jaro);
+			result = compareString(titre, co.getTitre(), searchMethod, jaro);
 		}
 		if (result && StringUtils.isNotBlank(type)) {
-			result = result && Arrays.asList(StringUtils.split(type, ";")).stream()
+			result = Arrays.asList(StringUtils.split(type, ";")).stream()
 					.anyMatch((t -> co.getRecordType() == RecordType.getByValue(t)));
 		}
 		if (result && !deleted) {
-			result = result && !co.isDeleted();
+			result = !co.isDeleted();
 		}
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
@@ -172,7 +173,7 @@ public class SearchUtils {
 	 * @return true if the score is equal or greater than the limit
 	 */
 	public static boolean isEqualsJaro(JaroWinklerDistance jaro, String text1, String text2, BigDecimal limit) {
-		return new BigDecimal(jaro.apply(text1, text2)).compareTo(limit) > 0;
+		return BigDecimal.valueOf(jaro.apply(text1, text2)).compareTo(limit) > 0;
 	}
 
 	/**

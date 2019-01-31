@@ -2,10 +2,10 @@ package pmb.music.AllMusic.view.component;
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -41,7 +41,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 	private static final String CHECKBOX_ALL = "All";
 
 	public JComboCheckBox(List<String> items) {
-		super(Stream.concat(Stream.of(new JCheckBox(CHECKBOX_ALL)), items.stream().map(item -> new JCheckBox(item)))
+		super(Stream.concat(Stream.of(new JCheckBox(CHECKBOX_ALL)), items.stream().map(JCheckBox::new))
 				.toArray(JCheckBox[]::new));
 		((JComponent) getItemAt(0)).setOpaque(false);
 		this.selectedItem = new JCheckBox();
@@ -50,11 +50,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 		items.forEach(i -> this.boxes.put(i, false));
 		this.boxes.put(CHECKBOX_ALL, false);
 		setRenderer(new ComboBoxRenderer());
-		addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent ae) {
-				itemSelected();
-			}
-		});
+		addActionListener((ActionEvent ae) -> itemSelected());
 		setLabel();
 		insertItemAt(selectedItem, 0);
 		this.addPopupMenuListener(new PopupMenuListener() {
@@ -73,6 +69,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 			}
 
 			public void popupMenuCanceled(PopupMenuEvent e) {
+				// Nothing to do
 			}
 		});
 	}
@@ -112,8 +109,8 @@ public class JComboCheckBox extends JComboBox<Object> {
 	 * check boxes selected.
 	 */
 	private void setLabel() {
-		Map<String, Boolean> selected = boxes.entrySet().stream().filter(entry -> entry.getValue())
-				.collect(Collectors.toMap(x -> x.getKey(), x -> x.getValue()));
+		Map<String, Boolean> selected = boxes.entrySet().stream().filter(Entry::getValue)
+				.collect(Collectors.toMap(Entry::getKey, Entry::getValue));
 		int count = selected.keySet().size();
 		boolean isAllSelected = selected.keySet().contains(CHECKBOX_ALL);
 		if (isAllSelected) {
@@ -138,7 +135,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 			return "";
 		} else {
 			return this.boxes.entrySet().stream().filter(e -> e.getValue() && !e.getKey().contains(CHECKBOX_ALL))
-					.map(e -> e.getKey()).collect(Collectors.joining(";"));
+					.map(Entry::getKey).collect(Collectors.joining(";"));
 		}
 	}
 
@@ -167,7 +164,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 			this.boxes.put(jcb.getText(), selected);
 			// If all checkboxes are selected, we check the all box
 			if (!boxes.get(CHECKBOX_ALL) && this.boxes.entrySet().stream()
-					.filter(e -> !e.getKey().contains(CHECKBOX_ALL)).allMatch(e -> e.getValue())) {
+					.filter(e -> !e.getKey().contains(CHECKBOX_ALL)).allMatch(Entry::getValue)) {
 				setSelectedCheckBoxAll(true);
 			}
 		}

@@ -36,7 +36,7 @@ public class MyInputText extends JPanel {
 	public MyInputText(Class<? extends JComponent> type, int width) {
 		super();
 		try {
-			this.input = (JComponent) type.newInstance();
+			this.input = type.newInstance();
 		} catch (InstantiationException | IllegalAccessException e) {
 			LOG.error("Error when instantiate the input of class: " + type.getName(), e);
 		}

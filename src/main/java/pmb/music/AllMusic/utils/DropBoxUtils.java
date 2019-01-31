@@ -24,17 +24,17 @@ public class DropBoxUtils {
 
 	private static DbxClientV2 client = null;
 
-	private DropBoxUtils() {
-		LOG.debug("Start DropBox");
+	private static void initClient() {
+		LOG.debug("Start initClient");
 		// Create Dropbox client
 		DbxRequestConfig config = new DbxRequestConfig("dropbox/java-tutorial");
 		client = new DbxClientV2(config, Constant.ACCESS_TOKEN);
-		LOG.debug("End DropBox");
+		LOG.debug("End initClient");
 	}
 
-	public static DbxClientV2 getClientDropBox() throws MyException {
+	public static DbxClientV2 getClientDropBox() {
 		if (client == null) {
-			new DropBoxUtils();
+			initClient();
 		}
 		return client;
 	}
@@ -56,11 +56,15 @@ public class DropBoxUtils {
 		}
 		try (InputStream in = new FileInputStream(pathFile)) {
 			metadata = getClientDropBox().files().uploadBuilder(dropBoxPath).withMode(writeMode).uploadAndFinish(in);
-		} catch (MyException | IOException | DbxException e) {
+		} catch (IOException | DbxException e) {
 			throw new MyException(
 					"Erreur lors de l'upload du fichier: " + pathFile + " dans le dossier: " + dropBoxPath, e);
 		}
 		LOG.debug("End uploadFile");
 		return metadata;
+	}
+
+	private DropBoxUtils() {
+		throw new AssertionError("Must not be used");
 	}
 }
