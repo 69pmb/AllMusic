@@ -440,7 +440,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			@Override
 			public boolean isSortable(int column) {
 				return column != INDEX_FILE_LINE_NUMBER;
-			};
+			}
 		};
 		tableFiles.setRowSorter(sorter);
 		tableFiles.addMouseListener(new MouseAdapter() {
@@ -508,7 +508,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			@Override
 			public boolean isSortable(int column) {
 				return (column != INDEX_COMPO_LINE_NUMBER);
-			};
+			}
 		};
 		tableCompo.setRowSorter(sorter);
 		tableCompo.addMouseListener(new MouseAdapter() {

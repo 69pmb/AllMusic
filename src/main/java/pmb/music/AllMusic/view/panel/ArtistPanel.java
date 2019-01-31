@@ -249,7 +249,7 @@ public class ArtistPanel extends JPanel {
 			@Override
 			public boolean isSortable(int column) {
 				return column != INDEX_LINE_NUMBER;
-			};
+			}
 		};
 		table.setRowSorter(sorter);
 		table.getRowSorter().addRowSorterListener((RowSorterEvent e) -> {

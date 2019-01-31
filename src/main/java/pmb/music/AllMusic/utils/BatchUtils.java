@@ -185,8 +185,10 @@ public class BatchUtils {
 		addLine(result, "Max: " + summaryStatistics.getMax(), false);
 		addLine(result, "Moyenne: " + summaryStatistics.getAverage(), false);
 		addLine(result, "Mediane: " + MiscUtils.median(size), false);
-		addLine(result, "Ecart-Type: " + MiscUtils.calculateSD(size, summaryStatistics.getAverage(),
-				summaryStatistics.getCount()), false);
+		addLine(result,
+				"Ecart-Type: "
+						+ MiscUtils.calculateSD(size, summaryStatistics.getAverage(), summaryStatistics.getCount()),
+				false);
 		addLine(result, "Summary: " + summaryStatistics, false);
 		addLine(result, "", false);
 	}
@@ -921,14 +923,14 @@ public class BatchUtils {
 
 		addLine(text, "TXT: ", true);
 		for (String txt : collectMusic) {
-			if (!collectXml.stream().anyMatch(s -> StringUtils.equalsAnyIgnoreCase(s, txt))) {
+			if (collectXml.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, txt))) {
 				addLine(text, "Missing: " + txt, true);
 				LOG.debug("Missing: " + txt);
 			}
 		}
 		addLine(text, "XML: ", true);
 		for (String xmlFile : collectXml) {
-			if (!collectMusic.stream().anyMatch(s -> StringUtils.equalsAnyIgnoreCase(s, xmlFile))) {
+			if (collectMusic.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, xmlFile))) {
 				addLine(text, "Missing: " + xmlFile, true);
 				LOG.debug("Missing: " + xmlFile);
 			}
