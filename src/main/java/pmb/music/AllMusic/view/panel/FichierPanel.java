@@ -765,7 +765,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 								OngletPanel.getScore().getLogMax(compo.getRecordType()),
 								OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
 						.mapToLong(x -> x).sum();
-				vector.add(INDEX_FILE_SCORE_DELETED, Math.round(100 * (float) scoreDeleted / score.getSum()) + " %");
+				vector.add(INDEX_FILE_SCORE_DELETED, Math.round(100 * (double) scoreDeleted / score.getSum()) + " %");
 			} else {
 				LOG.warn("Entry not found ! ");
 				vector.add(INDEX_FILE_SCORE, 0);
