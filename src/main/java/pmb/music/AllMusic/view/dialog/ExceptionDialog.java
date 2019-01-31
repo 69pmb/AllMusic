@@ -82,9 +82,7 @@ public class ExceptionDialog extends JDialog {
 	}
 
 	private void setUpListeners() {
-		okButton.addActionListener((ActionEvent e) -> {
-			ExceptionDialog.this.setVisible(false);
-		});
+		okButton.addActionListener((ActionEvent e) -> ExceptionDialog.this.setVisible(false));
 		viewButton.addActionListener((ActionEvent e) -> {
 			if (open) {
 				viewButton.setText("View Error");
