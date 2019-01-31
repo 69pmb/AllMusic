@@ -45,7 +45,7 @@ public class Composition implements Serializable {
 	public Composition(Composition compo) {
 		super();
 		this.artist = compo.getArtist();
-		this.files = compo.getFiles().stream().map(f -> new Fichier(f)).collect(Collectors.toList());
+		this.files = compo.getFiles().stream().map(Fichier::new).collect(Collectors.toList());
 		this.titre = compo.getTitre();
 		this.recordType = compo.getRecordType();
 		this.canBeMerged = compo.isCanBeMerged();

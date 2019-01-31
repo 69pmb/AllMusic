@@ -344,8 +344,8 @@ public class CompositionUtils {
 							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
 					.mapToLong(x -> x).sum()) / Double.valueOf(sumScore)) + " %");
 			return v;
-		}).collect(Collector.of(() -> new Vector<Vector<Object>>(),
-				(result, newElement) -> result.addElement(newElement), (result1, result2) -> {
+		}).collect(Collector.of(Vector<Vector<Object>>::new, (result, newElement) -> result.addElement(newElement),
+				(result1, result2) -> {
 					result1.addAll(result2);
 					return result1;
 				}, Collector.Characteristics.CONCURRENT));

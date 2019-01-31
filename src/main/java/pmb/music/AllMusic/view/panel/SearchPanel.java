@@ -438,7 +438,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			@Override
 			public boolean isSortable(int column) {
 				return column != INDEX_LINE_NUMBER;
-			};
+			}
 		};
 		tableResult.setRowSorter(sorter);
 		tableResult.addMouseListener(new MouseAdapter() {
