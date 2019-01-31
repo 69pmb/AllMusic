@@ -69,7 +69,6 @@ public class DialogFileTable extends JDialog {
 	public static final int INDEX_DELETED = 11;
 	public static final int INDEX_SORTED = 12;
 
-	private JTable fichiers;
 	private int defaultSort;
 	private DialogFilePopupMenu popup;
 
@@ -107,7 +106,7 @@ public class DialogFileTable extends JDialog {
 
 	private void initComponent() {
 		LOG.debug("Start initComponent");
-		fichiers = new JTable();
+		JTable fichiers = new JTable();
 		fichiers.setAutoCreateRowSorter(true);
 		fichiers.setRowHeight(30);
 		fichiers.getTableHeader().setResizingAllowed(true);
@@ -141,11 +140,11 @@ public class DialogFileTable extends JDialog {
 			}
 		});
 		fichiers.addMouseListener(pasteFichierListener());
-		this.getRootPane().registerKeyboardAction(e -> {
-			this.dispose();
-		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.getRootPane().registerKeyboardAction(e -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
+				JComponent.WHEN_IN_FOCUSED_WINDOW);
 
-		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null, INDEX_SORTED, INDEX_RANK);
+		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null, INDEX_SORTED,
+				INDEX_RANK);
 		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
 
 		this.setLayout(new BorderLayout());

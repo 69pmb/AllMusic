@@ -27,7 +27,6 @@ import javax.swing.RowSorter.SortKey;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
-import javax.swing.event.RowSorterListener;
 
 import org.apache.log4j.Logger;
 
@@ -57,7 +56,6 @@ public class DialogCompoTable extends JDialog {
 
 	private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "" };
 
-	private JTable table;
 	private Integer sortedColumn;
 	private int selectedRow = -1;
 	private CompositionPopupMenu popup;
@@ -92,7 +90,7 @@ public class DialogCompoTable extends JDialog {
 
 	private void initComponent() {
 		LOG.debug("Start initComponent");
-		table = new JTable();
+		JTable table = new JTable();
 		table.setAutoCreateRowSorter(true);
 		table.setRowHeight(30);
 		table.getTableHeader().setResizingAllowed(true);
@@ -104,14 +102,11 @@ public class DialogCompoTable extends JDialog {
 				CompositionUtils.convertCompositionListToVector(compo, null, true, false, false, false, false),
 				new Vector<>(Arrays.asList(header))));
 		table.getRowSorter().toggleSortOrder(INDEX_RANK);
-		table.getRowSorter().addRowSorterListener(new RowSorterListener() {
-			@Override
-			public void sorterChanged(RowSorterEvent e) {
-				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-					List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
-					if (!sortKeys.isEmpty()) {
-						sortedColumn = sortKeys.get(0).getColumn();
-					}
+		table.getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
+			if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+				List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
+				if (!sortKeys.isEmpty()) {
+					sortedColumn = sortKeys.get(0).getColumn();
 				}
 			}
 		});
@@ -143,9 +138,8 @@ public class DialogCompoTable extends JDialog {
 				mouseAction(e);
 			}
 		});
-		this.getRootPane().registerKeyboardAction(e -> {
-			this.dispose();
-		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.getRootPane().registerKeyboardAction(e -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
+				JComponent.WHEN_IN_FOCUSED_WINDOW);
 
 		PanelUtils.colRenderer(table, true, INDEX_DELETED, INDEX_TYPE, null, null, null, null, null);
 		table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
@@ -158,9 +152,9 @@ public class DialogCompoTable extends JDialog {
 	private void mouseAction(MouseEvent e) {
 		if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
-			Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-			if (selectedRow.isPresent()) {
-				popup.initDataAndPosition(e, selectedRow);
+			Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
+			if (row.isPresent()) {
+				popup.initDataAndPosition(e, row);
 				popup.show(e);
 			}
 			LOG.debug("End right mouse");

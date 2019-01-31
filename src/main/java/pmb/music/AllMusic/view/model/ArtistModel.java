@@ -3,6 +3,7 @@
  */
 package pmb.music.AllMusic.view.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import pmb.music.AllMusic.view.panel.ArtistPanel;
@@ -46,6 +47,6 @@ public class ArtistModel extends AbstractModel {
 
 	@Override
 	public List<Object> getSelected() {
-		return null;
+		return new ArrayList<>();
 	}
 }

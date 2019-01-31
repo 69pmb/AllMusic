@@ -186,19 +186,18 @@ public class MenuPanel extends JPanel {
 
 		final JMenuItem export = new JMenuItem("Exporter le fichier final");
 		export.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		export.addActionListener((ActionEvent ae) -> {
-			new Thread(() -> {
-				try {
-					NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
-					JOptionPane.showMessageDialog(null, "Final File successfully exported.", "",
-							JOptionPane.INFORMATION_MESSAGE);
-				} catch (IOException e) {
-					LOG.error("Export of final file for Angular failed", e);
-					ExceptionDialog exceptionDialog = new ExceptionDialog("Export of final file for Angular failed", e.getMessage(), e);
-					exceptionDialog.setVisible(true);
-				}
-			}).start();
-		});
+		export.addActionListener((ActionEvent ae) -> new Thread(() -> {
+			try {
+				NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
+				JOptionPane.showMessageDialog(null, "Final File successfully exported.", "",
+						JOptionPane.INFORMATION_MESSAGE);
+			} catch (IOException e) {
+				LOG.error("Export of final file for Angular failed", e);
+				ExceptionDialog exceptionDialog = new ExceptionDialog("Export of final file for Angular failed",
+						e.getMessage(), e);
+				exceptionDialog.setVisible(true);
+			}
+		}).start());
 		edition.add(export);
 
 		final JMenuItem reloadProperties = new JMenuItem("Recharger le fichier de configuration");

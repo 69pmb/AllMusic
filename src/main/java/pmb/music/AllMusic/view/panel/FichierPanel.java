@@ -44,7 +44,6 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
-import javax.swing.event.RowSorterListener;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
@@ -131,11 +130,10 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private JCheckBox sorted;
 	private JCheckBox deleted;
 	private JButton search;
-	private JButton reset;
 	private JLabel resultLabel;
 
 	// Fichier componants
-	private JPanel fichierPanel;
+	private JPanel filePanel;
 	private JTable tableFiles;
 	private FichierPanelModel fichieModel;
 	private JButton hideFileList;
@@ -238,8 +236,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 210);
 		publi = new MyInputText(JTextField.class, 100);
 		publi.getInput().addFocusListener(PanelUtils.selectAll);
-		searchRange = new JComboBox<String>(
-				Arrays.asList(SearchRange.values()).stream().map(v -> v.getValue()).toArray(String[]::new));
+		searchRange = new JComboBox<>(
+				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new));
 		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
 		publiPanel.add(publiLabel);
 		publiPanel.add(searchRange);
@@ -255,6 +253,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		rangeE.getInput().addFocusListener(new FocusListener() {
 			@Override
 			public void focusLost(FocusEvent e) {
+				// Nothing to do
 			}
 
 			@Override
@@ -274,8 +273,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		JPanel catPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(catPanel, 200, PanelUtils.PANEL_HEIGHT);
 		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 150);
-		cat = new JComboCheckBox(
-				Arrays.asList(Cat.values()).stream().map(c -> c.getCat()).collect(Collectors.toList()));
+		cat = new JComboCheckBox(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()));
 		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
 		catPanel.add(catLabel);
 		catPanel.add(cat);
@@ -284,8 +282,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		JPanel typePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(typePanel, 200, PanelUtils.PANEL_HEIGHT);
 		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 150);
-		type = new JComboCheckBox(
-				Arrays.asList(RecordType.values()).stream().map(t -> t.getRecordType()).collect(Collectors.toList()));
+		type = new JComboCheckBox(Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType)
+				.collect(Collectors.toList()));
 		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
 		typePanel.add(typeLabel);
 		typePanel.add(type);
@@ -328,7 +326,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		});
 		buttons.add(search);
 		// RESET
-		reset = PanelUtils.createJButton("Réinitialiser", 120, Constant.ICON_ERASE);
+		JButton reset = PanelUtils.createJButton("Réinitialiser", 120, Constant.ICON_ERASE);
 		reset.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -348,7 +346,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				showFichierTable = !showFichierTable;
-				fichierPanel.setVisible(showFichierTable);
+				filePanel.setVisible(showFichierTable);
 				if (showFichierTable) {
 					hideFileList.setText("Cacher la liste des fichiers");
 					hideFileList.setIcon(FontIcon.of(Constant.ICON_HIDE));
@@ -374,11 +372,11 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				if (showCompoTable) {
 					hideCompoList.setText("Cacher la liste des compositions");
 					hideCompoList.setIcon(FontIcon.of(Constant.ICON_HIDE));
-					setTableSize(fichierPanel, MIN_HEIGHT_TABLE);
+					setTableSize(filePanel, MIN_HEIGHT_TABLE);
 				} else {
 					hideCompoList.setText("Afficher la liste des compositions");
 					hideCompoList.setIcon(FontIcon.of(Constant.ICON_SHOW));
-					setTableSize(fichierPanel, MAX_HEIGHT_TABLE);
+					setTableSize(filePanel, MAX_HEIGHT_TABLE);
 				}
 			}
 		});
@@ -426,7 +424,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	}
 
 	private void initFichierTable() {
-		fichierPanel = new JPanel(new BorderLayout());
+		filePanel = new JPanel(new BorderLayout());
 
 		tableFiles = new JTable();
 		tableFiles.setAutoCreateRowSorter(true);
@@ -441,10 +439,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(fichieModel) {
 			@Override
 			public boolean isSortable(int column) {
-				if (column != INDEX_FILE_LINE_NUMBER)
-					return true;
-				else
-					return false;
+				return column != INDEX_FILE_LINE_NUMBER;
 			};
 		};
 		tableFiles.setRowSorter(sorter);
@@ -491,9 +486,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			}
 		});
 
-		fichierPanel.add(new JScrollPane(tableFiles), BorderLayout.CENTER);
-		this.add(fichierPanel);
-		setTableSize(fichierPanel, MIN_HEIGHT_TABLE);
+		filePanel.add(new JScrollPane(tableFiles), BorderLayout.CENTER);
+		this.add(filePanel);
+		setTableSize(filePanel, MIN_HEIGHT_TABLE);
 	}
 
 	private void initCompoTable() {
@@ -512,10 +507,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(compoModel) {
 			@Override
 			public boolean isSortable(int column) {
-				if (column != INDEX_COMPO_LINE_NUMBER)
-					return true;
-				else
-					return false;
+				return (column != INDEX_COMPO_LINE_NUMBER);
 			};
 		};
 		tableCompo.setRowSorter(sorter);
@@ -547,32 +539,29 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				// Nothing to do
 			}
 		});
-		tableCompo.getRowSorter().addRowSorterListener(new RowSorterListener() {
-			@Override
-			public void sorterChanged(RowSorterEvent e) {
-				List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
-				if (!sortKeys.isEmpty()) {
-					if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-						// Sort of deleted column and store sorted column and order
-						int column = sortKeys.get(0).getColumn();
-						if (column == INDEX_COMPO_SELECTED) {
-							sortedCompoColumn = INDEX_COMPO_DELETED;
-							sortCompoDeletedOrder = sortCompoDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
-									: SortOrder.ASCENDING;
-							sortCompoOrder = sortCompoDeletedOrder;
-							List<SortKey> list = new LinkedList<>(
-									Arrays.asList(new RowSorter.SortKey(sortedCompoColumn, sortCompoDeletedOrder)));
-							tableCompo.getRowSorter().getSortKeys().stream().forEach(s -> list.add(s));
-							tableCompo.getRowSorter().setSortKeys(list);
-						} else {
-							sortCompoOrder = sortKeys.get(0).getSortOrder();
-							sortedCompoColumn = column;
-						}
+		tableCompo.getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
+			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
+			if (!sortKeys.isEmpty()) {
+				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+					// Sort of deleted column and store sorted column and order
+					int column = sortKeys.get(0).getColumn();
+					if (column == INDEX_COMPO_SELECTED) {
+						sortedCompoColumn = INDEX_COMPO_DELETED;
+						sortCompoDeletedOrder = sortCompoDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
+								: SortOrder.ASCENDING;
+						sortCompoOrder = sortCompoDeletedOrder;
+						List<SortKey> list = new LinkedList<>(
+								Arrays.asList(new RowSorter.SortKey(sortedCompoColumn, sortCompoDeletedOrder)));
+						tableCompo.getRowSorter().getSortKeys().stream().forEach(list::add);
+						tableCompo.getRowSorter().setSortKeys(list);
+					} else {
+						sortCompoOrder = sortKeys.get(0).getSortOrder();
+						sortedCompoColumn = column;
 					}
-					// Handling of line numbers
-					for (int i = 0; i < tableCompo.getRowCount(); i++) {
-						tableCompo.setValueAt(i + 1, i, INDEX_COMPO_LINE_NUMBER);
-					}
+				}
+				// Handling of line numbers
+				for (int i = 0; i < tableCompo.getRowCount(); i++) {
+					tableCompo.setValueAt(i + 1, i, INDEX_COMPO_LINE_NUMBER);
 				}
 			}
 		});
@@ -585,19 +574,18 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private void initData() {
 		LOG.debug("Start initData");
 		data = new ConcurrentHashMap<>();
-		ImportXML.importXML(Constant.getFinalFilePath()).parallelStream().forEach(c -> {
-			c.getFiles().parallelStream().forEach(f -> {
-				Optional<Entry<Fichier, List<Composition>>> entry = findFichierInMap(f.getFileName());
-				if (entry.isPresent()) {
-					data.get(entry.get().getKey()).add(c);
-				} else {
-					data.put(f, new LinkedList<>(Arrays.asList(c)));
-				}
-			});
-		});
+		ImportXML.importXML(Constant.getFinalFilePath()).parallelStream()
+				.forEach(c -> c.getFiles().parallelStream().forEach(f -> {
+					Optional<Entry<Fichier, List<Composition>>> entry = findFichierInMap(f.getFileName());
+					if (entry.isPresent()) {
+						data.get(entry.get().getKey()).add(c);
+					} else {
+						data.put(f, new LinkedList<>(Arrays.asList(c)));
+					}
+				}));
 		searchResult = new ConcurrentHashMap<>(); // the map displays in the table
 		data.entrySet().stream().forEach(e -> searchResult.put(e.getKey(),
-				e.getValue().stream().map(c -> new Composition(c)).collect(Collectors.toList())));
+				e.getValue().stream().map(Composition::new).collect(Collectors.toList())));
 		LOG.debug("End initData");
 	}
 
@@ -739,12 +727,12 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		if (!searchResult.keySet().isEmpty()) {
 			// Filter on the files list with the others criteria
 			JaroWinklerDistance jaro = new JaroWinklerDistance();
-			searchResult = searchResult.entrySet().parallelStream().filter(e -> {
-				return SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, publi.getText(),
-						(String) searchRange.getSelectedItem(), filename.getText(), auteur.getText(),
-						cat.getSelectedItems(), rangeB.getText(), rangeE.getText(),
-						sorted.isSelected() ? Boolean.TRUE.toString() : "", null, e.getKey());
-			}).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+			searchResult = searchResult.entrySet().parallelStream()
+					.filter(e -> SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, publi.getText(),
+							(String) searchRange.getSelectedItem(), filename.getText(), auteur.getText(),
+							cat.getSelectedItems(), rangeB.getText(), rangeE.getText(),
+							sorted.isSelected() ? Boolean.TRUE.toString() : "", null, e.getKey()))
+					.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 			// update files table
 			updateFileTable();
 		}
@@ -772,19 +760,20 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 								OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
 						.mapToLong(x -> x).summaryStatistics();
 				vector.add(INDEX_FILE_SCORE, Math.round(score.getAverage()));
-				long scoreDeleted = entry.get().getValue().parallelStream().filter(co -> co.isDeleted())
+				long scoreDeleted = entry.get().getValue().parallelStream().filter(Composition::isDeleted)
 						.map(compo -> CompositionUtils.calculateCompositionScore(
 								OngletPanel.getScore().getLogMax(compo.getRecordType()),
 								OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
 						.mapToLong(x -> x).sum();
-				vector.add(INDEX_FILE_SCORE_DELETED, Math.round(100 * scoreDeleted / score.getSum()) + " %");
+				vector.add(INDEX_FILE_SCORE_DELETED, Math.round(100 * (float) scoreDeleted / score.getSum()) + " %");
 			} else {
 				LOG.warn("Entry not found ! ");
 				vector.add(INDEX_FILE_SCORE, 0);
 			}
 		}
 		fichieModel.setDataVector(dataVector, new Vector<>(Arrays.asList(headerFiles)));
-		PanelUtils.colRenderer(tableFiles, true, null, INDEX_FILE_TYPE, INDEX_FILE_CAT, null, null, INDEX_FILE_SORTED, null);
+		PanelUtils.colRenderer(tableFiles, true, null, INDEX_FILE_TYPE, INDEX_FILE_CAT, null, null, INDEX_FILE_SORTED,
+				null);
 		if (sortedFichierColumn == null) {
 			sortedFichierColumn = INDEX_FILE_FILE_NAME;
 			sortFichierOrder = SortOrder.ASCENDING;

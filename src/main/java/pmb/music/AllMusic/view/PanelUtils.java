@@ -142,7 +142,7 @@ public class PanelUtils {
 				@SuppressWarnings("deprecation")
 				FontMetrics fontMetrics = Toolkit.getDefaultToolkit().getFontMetrics(table.getFont());
 				int widthFactor = fontMetrics.stringWidth(new JLabel(currentValue.toString()).getText());
-				columnModel.getColumn(i).setPreferredWidth(widthFactor + 2D); // valeur arbitraire
+				columnModel.getColumn(i).setPreferredWidth(widthFactor + 2); // valeur arbitraire
 				columnWidth = Double.valueOf(widthFactor + 2D);
 			} else {
 				columnModel.getColumn(i).setPreferredWidth(maximum * 7); // valeur arbitraire
