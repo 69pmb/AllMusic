@@ -5,7 +5,6 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -52,9 +51,8 @@ public class ExceptionDialog extends JDialog {
 		iconLabel.setIcon(UIManager.getIcon("OptionPane.errorIcon"));
 		setupUI();
 		setUpListeners();
-		this.getRootPane().registerKeyboardAction(k -> {
-			this.dispose();
-		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.getRootPane().registerKeyboardAction(k -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
+				JComponent.WHEN_IN_FOCUSED_WINDOW);
 	}
 
 	public ExceptionDialog(String errorLabelText, Throwable e) {
@@ -84,28 +82,22 @@ public class ExceptionDialog extends JDialog {
 	}
 
 	private void setUpListeners() {
-		okButton.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				ExceptionDialog.this.setVisible(false);
-			}
+		okButton.addActionListener((ActionEvent e) -> {
+			ExceptionDialog.this.setVisible(false);
 		});
-		viewButton.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				if (open) {
-					viewButton.setText("View Error");
-					topPanel.remove(exceptionTextAreaSP);
-					ExceptionDialog.this.setSize(dialogWidth, dialogHeight);
-					topPanel.revalidate();
-					open = false;
-				} else {
-					viewButton.setText("Hide Error");
-					topPanel.add(exceptionTextAreaSP, BorderLayout.SOUTH);
-					ExceptionDialog.this.setSize(dialogWidth, dialogHeight + 100);
-					topPanel.revalidate();
-					open = true;
-				}
+		viewButton.addActionListener((ActionEvent e) -> {
+			if (open) {
+				viewButton.setText("View Error");
+				topPanel.remove(exceptionTextAreaSP);
+				ExceptionDialog.this.setSize(dialogWidth, dialogHeight);
+				topPanel.revalidate();
+				open = false;
+			} else {
+				viewButton.setText("Hide Error");
+				topPanel.add(exceptionTextAreaSP, BorderLayout.SOUTH);
+				ExceptionDialog.this.setSize(dialogWidth, dialogHeight + 100);
+				topPanel.revalidate();
+				open = true;
 			}
 		});
 	}

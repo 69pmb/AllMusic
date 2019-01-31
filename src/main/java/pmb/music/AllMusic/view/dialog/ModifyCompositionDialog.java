@@ -36,10 +36,6 @@ public class ModifyCompositionDialog extends JDialog {
 	private static final long serialVersionUID = 1304786661370052913L;
 	private static final Logger LOG = Logger.getLogger(ModifyCompositionDialog.class);
 	private final Vector<String> compo;
-	private JTextField artist;
-	private JTextField titre;
-	private JComboBox<RecordType> type;
-	private JCheckBox deleted;
 	private boolean sendData;
 	private int artistIndex;
 	private int titleIndex;
@@ -70,12 +66,11 @@ public class ModifyCompositionDialog extends JDialog {
 		this.setSize(dim);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-		this.compo = new Vector<String>(compo);
+		this.compo = new Vector<>(compo);
 		this.setResizable(true);
 		initComposant();
-		this.getRootPane().registerKeyboardAction(e -> {
-			this.dispose();
-		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.getRootPane().registerKeyboardAction(e -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
+				JComponent.WHEN_IN_FOCUSED_WINDOW);
 		LOG.debug("End ModifyCompositionDialog");
 	}
 
@@ -85,7 +80,7 @@ public class ModifyCompositionDialog extends JDialog {
 		JPanel artistPanel = new JPanel();
 		artistPanel.setPreferredSize(new Dimension(250, 60));
 		JLabel artistLabel = new JLabel("Artiste : ");
-		artist = new JTextField((String) compo.get(artistIndex));
+		JTextField artist = new JTextField((String) compo.get(artistIndex));
 		artist.setPreferredSize(new Dimension(230, 30));
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
@@ -94,7 +89,7 @@ public class ModifyCompositionDialog extends JDialog {
 		JPanel titrePanel = new JPanel();
 		titrePanel.setPreferredSize(new Dimension(300, 60));
 		JLabel titreLabel = new JLabel("Titre : ");
-		titre = new JTextField((String) compo.get(titleIndex));
+		JTextField titre = new JTextField((String) compo.get(titleIndex));
 		titre.setPreferredSize(new Dimension(270, 30));
 		titrePanel.add(titreLabel);
 		titrePanel.add(titre);
@@ -103,7 +98,7 @@ public class ModifyCompositionDialog extends JDialog {
 		JPanel typePanel = new JPanel();
 		typePanel.setPreferredSize(new Dimension(180, 60));
 		JLabel typeLabel = new JLabel("Type : ");
-		type = new JComboBox<>(RecordType.values());
+		JComboBox<RecordType> type = new JComboBox<>(RecordType.values());
 		type.setPreferredSize(new Dimension(150, 25));
 		type.setSelectedItem(RecordType.valueOf((String) compo.get(typeIndex)));
 		typePanel.add(typeLabel);
@@ -113,7 +108,7 @@ public class ModifyCompositionDialog extends JDialog {
 		JPanel deletedPanel = new JPanel();
 		deletedPanel.setPreferredSize(new Dimension(120, 60));
 		JLabel deletedLabel = new JLabel("Supprimé : ");
-		deleted = new JCheckBox();
+		JCheckBox deleted = new JCheckBox();
 		deleted.setPreferredSize(new Dimension(100, 25));
 		deleted.setSelected(Boolean.parseBoolean((String) compo.get(deleteIndex)));
 		deleted.setHorizontalAlignment(SwingConstants.CENTER);

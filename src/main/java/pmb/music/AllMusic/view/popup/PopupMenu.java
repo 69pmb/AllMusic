@@ -26,7 +26,7 @@ import org.apache.log4j.Logger;
 public abstract class PopupMenu extends JPopupMenu {
 	private static final long serialVersionUID = 1L;
 	private static final Logger LOG = Logger.getLogger(PopupMenu.class);
-	protected Vector<?> selectedRow;
+	protected transient Vector<?> selectedRow;
 	protected Point point;
 
 	/**
@@ -68,10 +68,6 @@ public abstract class PopupMenu extends JPopupMenu {
 		item.setAccelerator(KeyStroke.getKeyStroke(shortcut, ActionEvent.CTRL_MASK));
 		item.addActionListener(action);
 		this.add(item);
-	}
-
-	public Vector<?> getSelectedRow() {
-		return selectedRow;
 	}
 
 	public void setSelectedRow(Vector<?> selectedRow) {

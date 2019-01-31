@@ -40,7 +40,6 @@ public class OngletPanel extends JPanel {
 	private static final long serialVersionUID = -7235352581168930316L;
 	private static final Logger LOG = Logger.getLogger(OngletPanel.class);
 	private JTabbedPane onglets;
-	private static int index;
 	private static Score score;
 	private static List<String> artistList;
 	private static List<String> titleList;
@@ -92,6 +91,7 @@ public class OngletPanel extends JPanel {
 		scrollPane.addComponentListener(new ComponentListener() {
 			@Override
 			public void componentShown(ComponentEvent e) {
+				// Nothing to do
 			}
 
 			@Override
@@ -104,10 +104,12 @@ public class OngletPanel extends JPanel {
 
 			@Override
 			public void componentMoved(ComponentEvent e) {
+				// Nothing to do
 			}
 
 			@Override
 			public void componentHidden(ComponentEvent e) {
+				// Nothing to do
 			}
 		});
 		myFrame.getContentPane().add(scrollPane, BorderLayout.CENTER);
@@ -128,7 +130,7 @@ public class OngletPanel extends JPanel {
 	 * Calculates the constants of {@link Score}.
 	 * 
 	 */
-	private void initScore() {
+	private static void initScore() {
 		LOG.debug("Start initScore");
 		OngletPanel.score = new Score();
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
@@ -153,7 +155,7 @@ public class OngletPanel extends JPanel {
 	 * @param sorted if true only sorted will be returned
 	 * @return a list of composition
 	 */
-	private List<Composition> getByType(List<Composition> importXML, RecordType type, boolean sorted) {
+	private static List<Composition> getByType(List<Composition> importXML, RecordType type, boolean sorted) {
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		if (sorted) {
@@ -193,34 +195,6 @@ public class OngletPanel extends JPanel {
 	private static void setAuthorList(List<Composition> importXML) {
 		authorList = importXML.parallelStream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
 				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
-	}
-
-	/**
-	 * Rafraichi un onglet.
-	 * 
-	 * @param title le titre de l'onglet à rafraichir
-	 * @param onglets le conteneur de tous les onglets
-	 * @param ongletToRedraw l'onglet à rafraichir
-	 */
-	public static void redrawTab(String title, JTabbedPane onglets, JPanel ongletToRedraw) {
-		if (!isTabAlreadyExists(onglets, title)) {
-			onglets.addTab(title, ongletToRedraw);
-		} else {
-			onglets.removeTabAt(index);
-			onglets.insertTab(title, null, ongletToRedraw, null, index);
-		}
-	}
-
-	private static boolean isTabAlreadyExists(JTabbedPane onglets, String title) {
-		boolean isTabExists = false;
-		for (int i = 0; i < onglets.getTabCount(); i++) {
-			if (title.equals(onglets.getTitleAt(i))) {
-				isTabExists = true;
-				index = i;
-				break;
-			}
-		}
-		return isTabExists;
 	}
 
 	private String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,

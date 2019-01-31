@@ -38,13 +38,6 @@ public class ModifyFichierDialog extends JDialog {
 	private static final long serialVersionUID = 1304786661370052913L;
 	private static final Logger LOG = Logger.getLogger(ModifyFichierDialog.class);
 	private final Vector<String> fichier;
-	private JTextField fileName;
-	private JTextField publishYear;
-	private JTextField rangeDateBegin;
-	private JTextField rangeDateEnd;
-	private JTextField size;
-	private JCheckBox sorted;
-	private JComboBox<Cat> cat;
 	private boolean sendData;
 
 	/**
@@ -64,9 +57,8 @@ public class ModifyFichierDialog extends JDialog {
 		this.fichier = fichier;
 		this.setResizable(true);
 		initComposant();
-		this.getRootPane().registerKeyboardAction(e -> {
-		    this.dispose();
-		}, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.getRootPane().registerKeyboardAction(e -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
+				JComponent.WHEN_IN_FOCUSED_WINDOW);
 		LOG.debug("End ModifyFichierDialog");
 	}
 
@@ -76,7 +68,7 @@ public class ModifyFichierDialog extends JDialog {
 		JPanel fileNamePanel = new JPanel();
 		fileNamePanel.setPreferredSize(new Dimension(450, 60));
 		JLabel fileNameLabel = new JLabel("Nom du fichier : ");
-		fileName = new JTextField((String) fichier.get(FichierPanel.INDEX_FILE_FILE_NAME));
+		JTextField fileName = new JTextField((String) fichier.get(FichierPanel.INDEX_FILE_FILE_NAME));
 		fileName.setPreferredSize(new Dimension(430, 30));
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
@@ -85,7 +77,7 @@ public class ModifyFichierDialog extends JDialog {
 		JPanel publishYearPanel = new JPanel();
 		publishYearPanel.setPreferredSize(new Dimension(80, 60));
 		JLabel publishYearLabel = new JLabel("Publication : ");
-		publishYear = new JTextField(String.valueOf(fichier.get(FichierPanel.INDEX_FILE_PUBLISH)));
+		JTextField publishYear = new JTextField(String.valueOf(fichier.get(FichierPanel.INDEX_FILE_PUBLISH)));
 		publishYear.setPreferredSize(new Dimension(50, 30));
 		publishYearPanel.add(publishYearLabel);
 		publishYearPanel.add(publishYear);
@@ -95,8 +87,8 @@ public class ModifyFichierDialog extends JDialog {
 		PanelUtils.setSize(rangePanel, 200, 60);
 		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
 		String[] split = StringUtils.split((String) fichier.get(FichierPanel.INDEX_FILE_RANGE), " - ");
-		rangeDateBegin = new JTextField(split[0]);
-		rangeDateEnd = new JTextField(split[1]);
+		JTextField rangeDateBegin = new JTextField(split[0]);
+		JTextField rangeDateEnd = new JTextField(split[1]);
 		PanelUtils.setSize(rangeDateBegin, 85, 30);
 		PanelUtils.setSize(rangeDateEnd, 85, 30);
 		rangePanel.add(rangeLabel);
@@ -107,7 +99,7 @@ public class ModifyFichierDialog extends JDialog {
 		JPanel catPanel = new JPanel();
 		catPanel.setPreferredSize(new Dimension(180, 60));
 		JLabel catLabel = new JLabel("Catégorie : ");
-		cat = new JComboBox<>();
+		JComboBox<Cat> cat = new JComboBox<>();
 		Cat[] values = Cat.values();
 		for (int i = 0; i < values.length; i++) {
 			cat.addItem(values[i]);
@@ -121,7 +113,7 @@ public class ModifyFichierDialog extends JDialog {
 		JPanel sizePanel = new JPanel();
 		sizePanel.setPreferredSize(new Dimension(50, 60));
 		JLabel sizeLabel = new JLabel("Taille : ");
-		size = new JTextField(String.valueOf(fichier.get(FichierPanel.INDEX_FILE_SIZE)));
+		JTextField size = new JTextField(String.valueOf(fichier.get(FichierPanel.INDEX_FILE_SIZE)));
 		size.setPreferredSize(new Dimension(50, 30));
 		sizePanel.add(sizeLabel);
 		sizePanel.add(size);
@@ -130,7 +122,7 @@ public class ModifyFichierDialog extends JDialog {
 		JPanel sortedPanel = new JPanel();
 		sortedPanel.setPreferredSize(new Dimension(50, 60));
 		JLabel sortedLabel = new JLabel("Classé: ");
-		sorted = new JCheckBox();
+		JCheckBox sorted = new JCheckBox();
 		sorted.setSelected(
 				StringUtils.equalsIgnoreCase(fichier.get(FichierPanel.INDEX_FILE_SORTED), "oui") ? Boolean.TRUE
 						: Boolean.FALSE);

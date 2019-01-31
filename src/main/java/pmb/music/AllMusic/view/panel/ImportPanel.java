@@ -45,8 +45,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CleanFile;
@@ -141,8 +139,6 @@ public class ImportPanel extends JPanel {
 	 * Utilise-t-on le dossier du fichier à mettre en forme.
 	 */
 	private JCheckBox isCompleteDirectory;
-
-	private RecordType determineType;
 
 	/**
 	 * Path of the last opened file.
@@ -605,14 +601,7 @@ public class ImportPanel extends JPanel {
 		// Fusion
 		JButton fusionFile = PanelUtils.createJButton("Fusionner tous les fichiers", 200, Constant.ICON_FUSION);
 		fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
-		fusionFile.addActionListener((ActionEvent arg0) -> {
-			try {
-				fusionFilesAction();
-			} catch (InterruptedException e) {
-				LOG.error("Erreur lors de la fusion des fichiers XML", e);
-				Thread.currentThread().interrupt();
-			}
-		});
+		fusionFile.addActionListener((ActionEvent arg0) -> fusionFilesAction());
 		bottom.add(fusionFile);
 
 		// Ouvre le fichier d'entrée dans notepad
@@ -679,7 +668,7 @@ public class ImportPanel extends JPanel {
 	}
 
 	private Map<String, String> convertParamsToMap(String separator, boolean artistFirst, boolean reverseArtist,
-			boolean parenthese, boolean upper, boolean removeAfter) throws JsonProcessingException {
+			boolean parenthese, boolean upper, boolean removeAfter) {
 		Map<String, String> map = new HashMap<>();
 		map.put(IMPORT_PARAM_SEPARATOR, separator);
 		map.put(IMPORT_PARAM_ARTIST_FIRST, Boolean.toString(artistFirst));
@@ -847,7 +836,7 @@ public class ImportPanel extends JPanel {
 				sorted.setSelected(fichier.getSorted());
 			}
 			absolutePathFileXml = Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION;
-			determineType = ImportFile.determineType(file.getName());
+			RecordType determineType = ImportFile.determineType(file.getName());
 			boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
 			if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType)
 					&& fichier.getPublishYear() != 0 && rangeDatesZero) {
@@ -902,9 +891,10 @@ public class ImportPanel extends JPanel {
 
 	/**
 	 * Traitement lorsqu'on fusionne tous les fichiers xml.
+	 * 
 	 * @throws InterruptedException
 	 */
-	private void fusionFilesAction() throws InterruptedException {
+	private void fusionFilesAction() {
 		new Thread(() -> {
 			LOG.debug("Start fusionFilesAction");
 			artistPanel.interruptUpdateArtist(true);
