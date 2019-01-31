@@ -22,10 +22,10 @@ public class GetProperties {
 	private static Properties prop = null;
 
 	/**
-	 * Récupère le fichier properties.
+	 * Loads properties from configuration file.
 	 */
-	private GetProperties() {
-		LOG.debug("Start GetProperties");
+	private static void loadProperties() {
+		LOG.debug("Start loadProperties");
 		try (InputStream input = new FileInputStream(Constant.getConfigPath());) {
 			prop = new Properties();
 			prop.load(input);
@@ -33,12 +33,12 @@ public class GetProperties {
 			LOG.error("Erreur lors de l'import des properties: ", e);
 			java.lang.System.exit(0);
 		}
-		LOG.debug("End GetProperties");
+		LOG.debug("End loadProperties");
 	}
 
 	public static boolean reloadProperties() {
-		new GetProperties();
-		return prop == null ? false : true;
+		loadProperties();
+		return prop != null;
 	}
 
 	/**
@@ -49,12 +49,16 @@ public class GetProperties {
 	 */
 	public static String getProperty(String key) {
 		if (prop == null) {
-			new GetProperties();
+			loadProperties();
 		}
 		if (prop == null) {
-			LOG.error("GetProperties returns null");
+			LOG.error("loadProperties returns null");
 			return "";
 		}
 		return prop.getProperty(key);
+	}
+
+	private GetProperties() {
+		// Nothing to do
 	}
 }

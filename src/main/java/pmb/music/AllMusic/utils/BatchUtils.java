@@ -186,7 +186,7 @@ public class BatchUtils {
 		addLine(result, "Moyenne: " + summaryStatistics.getAverage(), false);
 		addLine(result, "Mediane: " + MiscUtils.median(size), false);
 		addLine(result, "Ecart-Type: " + MiscUtils.calculateSD(size, summaryStatistics.getAverage(),
-				(int) summaryStatistics.getSum(), summaryStatistics.getCount()), false);
+				summaryStatistics.getCount()), false);
 		addLine(result, "Summary: " + summaryStatistics, false);
 		addLine(result, "", false);
 	}
