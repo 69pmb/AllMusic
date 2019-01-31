@@ -112,8 +112,6 @@ public class ExportXML {
 		String fullFileName = fileName;
 		if (!StringUtils.endsWith(fileName, Constant.XML_EXTENSION)) {
 			fullFileName += Constant.XML_EXTENSION;
-		} else {
-			fileName = StringUtils.substringBeforeLast(fileName, Constant.XML_EXTENSION);
 		}
 
 		// Sauvegarde du document dans le fichier

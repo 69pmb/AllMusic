@@ -128,8 +128,8 @@ public class BatchUtils {
 		StringBuilder result = new StringBuilder();
 		addLine(result, "Statistiques sur la longueur artiste et titre: ", true);
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		statsLength(result, importXML.stream().map(composition -> composition.getArtist()).distinct()
-				.map(s -> s.length()).collect(Collectors.toList()), "Artiste: ");
+		statsLength(result, importXML.stream().map(Composition::getArtist).distinct().map(String::length)
+				.collect(Collectors.toList()), "Artiste: ");
 		statsLength(result, importXML.stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
 				.map(composition -> composition.getTitre().length()).collect(Collectors.toList()), "Album: ");
 		statsLength(result, importXML.stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
@@ -227,10 +227,10 @@ public class BatchUtils {
 				long albumCount = search.stream().filter(s -> s.getRecordType().equals(RecordType.ALBUM))
 						.mapToInt(s -> s.getFiles().size()).sum();
 				Long count;
-				if (types.stream().allMatch(type -> RecordType.ALBUM.equals(type))) {
+				if (types.stream().allMatch(RecordType.ALBUM::equals)) {
 					item = artistTitre + ": " + RecordType.ALBUM + " (" + albumCount + ")";
 					count = albumCount;
-				} else if (types.stream().allMatch(type -> RecordType.SONG.equals(type))) {
+				} else if (types.stream().allMatch(RecordType.SONG::equals)) {
 					item = artistTitre + ": " + RecordType.SONG + " (" + songCount + ")";
 					count = songCount;
 				} else {
@@ -333,8 +333,7 @@ public class BatchUtils {
 			} else {
 				return "";
 			}
-		}).distinct().filter(line -> StringUtils.isNotBlank(line)).sorted()
-				.forEach(line -> addLine(result, line, false));
+		}).distinct().filter(StringUtils::isNotBlank).sorted().forEach(line -> addLine(result, line, false));
 	}
 
 	private static void similarTitle(StringBuilder result) {
@@ -451,7 +450,7 @@ public class BatchUtils {
 		final AtomicInteger count = new AtomicInteger(0);
 		final BigDecimal total = new BigDecimal(nomFichier.size());
 		DecimalFormat decimalFormat = new Constant().getDecimalFormat();
-		nomFichier.parallelStream().forEach((name) -> {
+		nomFichier.parallelStream().forEach(name -> {
 			List<String> row = new ArrayList<>();
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_FILENAME, name);
@@ -465,10 +464,8 @@ public class BatchUtils {
 					.format(xml.stream().map(c -> c.getFiles().size()).mapToInt(x -> x).average().getAsDouble()));
 			result.add(row);
 			if (count.incrementAndGet() % 10 == 0) {
-				batchPanel.displayText(
-						BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(count.get()))
-								.divide(total, RoundingMode.HALF_UP).doubleValue() + "%",
-						count.get() == 10 ? false : true);
+				batchPanel.displayText(BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(count.get()))
+						.divide(total, RoundingMode.HALF_UP).doubleValue() + "%", count.get() != 10);
 			}
 		});
 		CsvFile.exportCsv("Average", result,
@@ -488,7 +485,7 @@ public class BatchUtils {
 				.flatMap(List::stream).map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
 		String[] header = { "Fichier", "Type", "Real Size", "Theoric Size", "Ratio" };
 		List<List<String>> result = new ArrayList<>();
-		nomFichier.parallelStream().forEach((name) -> {
+		nomFichier.parallelStream().forEach(name -> {
 			List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
 			int realSize = xml.size();
 			Integer theoricSize = xml.get(0).getFiles().get(0).getSize();
@@ -527,7 +524,7 @@ public class BatchUtils {
 		}
 
 		// Modifies csv entry file
-		CustomColumnPositionMappingStrategy<CsvComposition> mappingStrategy = new CustomColumnPositionMappingStrategy<CsvComposition>();
+		CustomColumnPositionMappingStrategy<CsvComposition> mappingStrategy = new CustomColumnPositionMappingStrategy<>();
 		mappingStrategy.setType(CsvComposition.class);
 		String[] columns = new String[] { "titre", "artist", "album", "duration", "bitrate", "added", "year",
 				"playCount", "rank", "lastPlay", "trackNumber", "cdNumber", "deletedSong", "deletedAlbum" };
@@ -651,7 +648,7 @@ public class BatchUtils {
 		if (field.getType().equals(Date.class)) {
 			result = fieldValue != null ? new Constant().getSdfDttm().format(fieldValue) : "";
 		} else if (field.getName().equals("rank")) {
-			result = fieldValue != null ? result = String.valueOf((Integer) fieldValue / 20) + " Stars" : "0 Stars";
+			result = fieldValue != null ? String.valueOf((Integer) fieldValue / 20) + " Stars" : "0 Stars";
 		} else if (field.getType().equals(Integer.class)) {
 			result = fieldValue != null ? String.valueOf(fieldValue) : "0";
 		} else {
@@ -661,7 +658,7 @@ public class BatchUtils {
 	}
 
 	private static String warningForSong(CsvComposition csv) {
-		List<String> result = new ArrayList<String>();
+		List<String> result = new ArrayList<>();
 		if (csv.getPlayCount() != null && csv.getPlayCount() < 10) {
 			result.add("Nombre de lecture < 10");
 		} else if (csv.getPlayCount() == null) {
@@ -692,8 +689,7 @@ public class BatchUtils {
 			List<Composition> importXML) {
 		List<String> albumList = compoCsv.stream()
 				.sorted(Comparator.comparing(CsvComposition::getAlbum).thenComparing(compareByTrackNumber.reversed()))
-				.map(CsvComposition::getAlbum).filter(s -> StringUtils.isNotBlank(s)).distinct()
-				.collect(Collectors.toList());
+				.map(CsvComposition::getAlbum).filter(StringUtils::isNotBlank).distinct().collect(Collectors.toList());
 		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, albumList.size());
 		for (int i = 0; i < albumList.size(); i++) {
 			String album = albumList.get(i);
@@ -835,7 +831,7 @@ public class BatchUtils {
 	}
 
 	private static Map<String, String> fillSearchCriteriaForMassDeletion(String type, String artist, String titre) {
-		Map<String, String> criteria = new HashMap<String, String>();
+		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
 		// Clean artist and title
 		Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
@@ -870,7 +866,7 @@ public class BatchUtils {
 		StringBuilder text = new StringBuilder();
 		addLine(text, "FindDuplicateFiles: ", true);
 
-		Map<String, Integer> result = new HashMap<String, Integer>();
+		Map<String, Integer> result = new HashMap<>();
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		for (Composition composition : importXML) {
 			for (int i = 0; i < composition.getFiles().size(); i++) {
@@ -1025,7 +1021,6 @@ public class BatchUtils {
 										.removePunctuation(StringUtils.substringBefore(remParTitre2, " and "));
 								parTitre1 = andTitre1;
 								parTitre2 = andTitre2;
-								parTitreEqu = false;
 							}
 							boolean equalsJaroPar = SearchUtils.isEqualsJaro(jaro, parTitre1, parTitre2,
 									Constant.SCORE_LIMIT_TITLE_FUSION);
@@ -1050,9 +1045,7 @@ public class BatchUtils {
 	private static boolean isArtistSimilar(Composition composition1, Composition composition2) {
 		String artist1 = composition1.getArtist();
 		String artist2 = composition2.getArtist();
-		boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2)
-				|| StringUtils.startsWithIgnoreCase(artist2, artist1);
-		return similarArtist;
+		return StringUtils.startsWithIgnoreCase(artist1, artist2) || StringUtils.startsWithIgnoreCase(artist2, artist1);
 	}
 
 	/**
@@ -1091,7 +1084,7 @@ public class BatchUtils {
 						Integer publishYear2 = composition2.getFiles().get(0).getPublishYear();
 						boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2)
 								|| StringUtils.startsWithIgnoreCase(artist2, artist1);
-						boolean equalsJaroPar = publishYear1 == publishYear2 && (SearchUtils.isEqualsJaro(jaro,
+						boolean equalsJaroPar = publishYear1.equals(publishYear2) && (SearchUtils.isEqualsJaro(jaro,
 								newTitre1, newTitre2, Constant.SCORE_LIMIT_TITLE_FUSION)
 								|| StringUtils.startsWithIgnoreCase(titre1, titre2)
 								|| StringUtils.startsWithIgnoreCase(newTitre1, newTitre2)) && similarArtist;
@@ -1387,5 +1380,9 @@ public class BatchUtils {
 	private static void addLine(StringBuilder sb, String text, boolean displayTime) {
 		sb.append(displayTime ? MiscUtils.getCurrentTime() : "").append(displayTime ? ": " : "").append(text)
 				.append(Constant.NEW_LINE);
+	}
+
+	private BatchUtils() {
+		// Nothing to do
 	}
 }

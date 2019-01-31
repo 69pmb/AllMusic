@@ -8,6 +8,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Map.Entry;
@@ -157,8 +158,10 @@ public class NgExportXml {
 		} catch (MyException e) {
 			LOG.error("Impossible d'enregistrer le fichier: " + fullFileName + " dans la dropbox", e);
 		}
-		if (!pathFile.delete()) {
-			LOG.warn("Error when deleting file: " + Constant.getXmlPath() + fullFileName);
+		try {
+			Files.delete(pathFile.toPath());
+		} catch (IOException e) {
+			LOG.warn("Error when deleting file: " + Constant.getXmlPath() + fullFileName, e);
 		}
 		LOG.debug("End saveFile");
 	}

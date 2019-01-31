@@ -114,7 +114,6 @@ public class CompositionUtils {
 				String andTitre2 = SearchUtils.removePunctuation(StringUtils.substringBefore(remParTitre2, " and "));
 				parTitre1 = andTitre1;
 				parTitre2 = andTitre2;
-				parTitreEqu = false;
 			}
 			return SearchUtils.isEqualsJaro(jaro, parTitre1, parTitre2, Constant.SCORE_LIMIT_TITLE_FUSION);
 		}
@@ -207,9 +206,9 @@ public class CompositionUtils {
 				v.addElement(getDecile(composition, calculatedScore));
 			}
 			if (addBoolean) {
-				v.addElement(new Boolean(false));
+				v.addElement(Boolean.valueOf(false));
 			}
-			v.addElement(Boolean.valueOf(composition.isDeleted()).toString());
+			v.addElement(Boolean.toString(composition.isDeleted()));
 			result.addElement(v);
 		}
 		LOG.debug("End convertCompositionListToVector");
@@ -217,11 +216,11 @@ public class CompositionUtils {
 	}
 
 	private static int getDecile(Composition composition, long calculatedScore) {
-		BigDecimal scoreBD = new BigDecimal(calculatedScore);
+		BigDecimal scoreBD = BigDecimal.valueOf(calculatedScore);
 		List<Double> decileLimit = OngletPanel.getScore().getDecileLimit(composition.getRecordType());
 		int decile = 0;
 		for (int j = 0; j < decileLimit.size(); j++) {
-			if (scoreBD.compareTo(new BigDecimal(decileLimit.get(j))) <= 0) {
+			if (scoreBD.compareTo(BigDecimal.valueOf(decileLimit.get(j))) <= 0) {
 				decile = j + 1;
 				break;
 			}
@@ -317,10 +316,9 @@ public class CompositionUtils {
 			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
 					.mapToInt(c -> c.getFiles().size()).sum());
 			// Percentage of deleted
-			v.addElement(Math.round(100
-					* new Double(
-							e.getValue().stream().filter(c -> c.isDeleted()).mapToInt(c -> c.getFiles().size()).sum())
-					/ new Double(sum)) + " %");
+			v.addElement(Math.round(100 * Double.valueOf(
+					e.getValue().stream().filter(Composition::isDeleted).mapToInt(c -> c.getFiles().size()).sum())
+					/ Double.valueOf(sum)) + " %");
 			// Score total
 			long sumScore = e.getValue().stream()
 					.map(c -> CompositionUtils.calculateCompositionScore(
@@ -341,11 +339,11 @@ public class CompositionUtils {
 							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
 					.mapToLong(x -> x).sum());
 			// Score deleted
-			v.addElement(Math.round(100 * new Double(e.getValue().stream().filter(c -> c.isDeleted())
+			v.addElement(Math.round(100 * Double.valueOf(e.getValue().stream().filter(Composition::isDeleted)
 					.map(c -> CompositionUtils.calculateCompositionScore(
 							OngletPanel.getScore().getLogMax(c.getRecordType()),
 							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
-					.mapToLong(x -> x).sum()) / new Double(sumScore)) + " %");
+					.mapToLong(x -> x).sum()) / Double.valueOf(sumScore)) + " %");
 			return v;
 		}).collect(Collector.of(() -> new Vector<Vector<Object>>(),
 				(result, newElement) -> result.addElement(newElement), (result1, result2) -> {
@@ -373,8 +371,7 @@ public class CompositionUtils {
 		criteria.put(SearchUtils.CRITERIA_TITRE, titre);
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
 
-		List<Composition> search = new ArrayList<>();
-		search = SearchUtils.search(compoList, criteria, false,
+		List<Composition> search = SearchUtils.search(compoList, criteria, false,
 				isStrictly ? SearchMethod.WHOLE_WORD : SearchMethod.CONTAINS, true, false);
 		if (search.size() > 1) {
 			LOG.debug("Compo: " + search.size());
@@ -544,9 +541,7 @@ public class CompositionUtils {
 	 * @return {@link BigDecimal}
 	 */
 	public static BigDecimal getDoubleMedian(RecordType type, List<Composition> list) {
-		BigDecimal median = getMedian(type, list);
-		BigDecimal doubleMedian = median.multiply(BigDecimal.valueOf(2));
-		return doubleMedian;
+		return getMedian(type, list).multiply(BigDecimal.valueOf(2));
 	}
 
 	/**
@@ -570,8 +565,7 @@ public class CompositionUtils {
 		}
 		double[] value = new double[size];
 		for (int i = 0; i < size; i++) {
-			value[i] = q[i].evaluate(collectedMap.values().stream().mapToDouble(s -> s.doubleValue()).toArray(),
-					prob[i]);
+			value[i] = q[i].evaluate(collectedMap.values().stream().mapToDouble(Long::doubleValue).toArray(), prob[i]);
 		}
 		return Arrays.asList(ArrayUtils.toObject(value));
 	}
@@ -586,8 +580,7 @@ public class CompositionUtils {
 	 */
 	public static BigDecimal getLogMax(RecordType type, List<Composition> list) {
 		BigDecimal max = getMax(type, list);
-		BigDecimal logMax = new BigDecimal(Math.log10(max.doubleValue())).multiply(max);
-		return logMax;
+		return BigDecimal.valueOf(Math.log10(max.doubleValue())).multiply(max);
 	}
 
 	/**
@@ -625,7 +618,7 @@ public class CompositionUtils {
 	 * @return {@link BigDecimal} the score
 	 */
 	public static BigDecimal calculateFileScore(BigDecimal logMax, BigDecimal doubleMedian, Fichier fichier) {
-		BigDecimal points = BigDecimal.ZERO;
+		BigDecimal points;
 		if (fichier.getSorted() && fichier.getClassement() != 0) {
 			// Log10(doubleMedian/rank + 3) * logMax
 			points = BigDecimal.valueOf(Math

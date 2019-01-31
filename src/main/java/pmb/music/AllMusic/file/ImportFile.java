@@ -170,7 +170,7 @@ public class ImportFile {
 	}
 
 	private static Integer setArtistAndTitreGetRank(Composition composition, String line, boolean upper, String[] split,
-			Boolean sorted, Integer i) throws MyException {
+			Boolean sorted, Integer i) {
 		// Reconnaissance du titre et de l'artiste
 		String artist;
 		String titre;
@@ -682,9 +682,7 @@ public class ImportFile {
 			String readLine = "";
 			while (readLine != null) {
 				readLine = br.readLine();
-				if (validLine && isValidLine(readLine)) {
-					count++;
-				} else if (!validLine && readLine != null) {
+				if ((validLine && isValidLine(readLine)) || (!validLine && readLine != null)) {
 					count++;
 				}
 			}

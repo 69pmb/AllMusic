@@ -40,12 +40,10 @@ public class AllMusic {
 	public static void main(String[] args) {
 		LOG.debug("Lancement de AllMusic");
 		Arrays.asList(args).stream().forEach(LOG::debug);
-		Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
-			public void uncaughtException(Thread t, Throwable e) {
-				LOG.error("An uncaught exception has been thrown: ", e);
-				ExceptionDialog ed = new ExceptionDialog("An uncaught exception has been thrown", e.getMessage(), e);
-				ed.setVisible(true);
-			};
+		Thread.setDefaultUncaughtExceptionHandler((Thread t, Throwable e) -> {
+			LOG.error("An uncaught exception has been thrown: ", e);
+			ExceptionDialog ed = new ExceptionDialog("An uncaught exception has been thrown", e.getMessage(), e);
+			ed.setVisible(true);
 		});
 		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
 			LOG.debug("Fin de AllMusic");
