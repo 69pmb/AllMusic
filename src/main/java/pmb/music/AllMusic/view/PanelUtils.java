@@ -546,10 +546,7 @@ public class PanelUtils {
 		text.getInput().addFocusListener(PanelUtils.selectAll);
 		JComboBox<String> searchRange = new JComboBox<>(comboBoxValues);
 		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
-
-		JComboBoxInput input = new JComboBoxInput();
-		input.setComboBox(searchRange);
-		input.setInput(text);
+		JComboBoxInput input = new JComboBoxInput(text, searchRange);
 
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(publiPanel, panelWidth, PanelUtils.PANEL_HEIGHT);
