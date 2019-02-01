@@ -476,10 +476,15 @@ public class ArtistPanel extends JPanel {
 									c.getArtist(), SearchMethod.CONTAINS, jaro))) {
 						continue;
 					}
+					Map<String, String> criteria = new HashMap<>();
+					criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
+					criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, (String) searchRange.getSelectedItem());
+					criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
+					criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
+					criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
+					criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
 					List<Fichier> files = c.getFiles().stream()
-							.filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, publi.getText(),
-									(String) searchRange.getSelectedItem(), null, auteur.getText(),
-									cat.getSelectedItems(), rangeB.getText(), rangeE.getText(), null, null, f))
+							.filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, criteria, f))
 							.collect(Collectors.toList());
 					if (!files.isEmpty()) {
 						Composition newCompo = new Composition(c);
