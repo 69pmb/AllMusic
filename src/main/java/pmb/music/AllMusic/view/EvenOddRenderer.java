@@ -103,159 +103,174 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		this.rankIndex = rankIndex;
 	}
 
-	@SuppressWarnings("unchecked")
 	@Override
 	public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus,
 			int row, int column) {
-		if (value instanceof Number) {
-			value = NumberFormat.getNumberInstance().format(value);
-		} else if (value instanceof Date) {
-			value = new Constant().getSdfDttm().format(value);
-		}
-		// ToolTip
-		if (value instanceof String && ((String) value).length() > 30) {
-			setToolTipText((String) value);
-		} else if (decileIndex != null && scoreIndex != null && column == scoreIndex) {
-			setToolTipText(String.valueOf(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
-					.get(table.getRowSorter().convertRowIndexToModel(row))).get(decileIndex)) + " / 10");
-		} else {
-			setToolTipText(null);
-		}
-		Component renderer = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
-		Color foreground;
-		Color background;
+		value = formatValue(value);
+		setTooltip(table, value, row, column);
 		table.setBorder(noFocusBorder);
 		if (isSelected) {
 			setBorder(new MatteBorder(1, 0, 1, 0, Color.black));
 		}
-		Boolean rowDeleted = null;
-		if (deletedIndex != null) {
-			// If display row with deleted rows
-			rowDeleted = Boolean.valueOf(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
-					.get(table.getRowSorter().convertRowIndexToModel(row))).get(deletedIndex));
-		}
 
+		Component renderer = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
 		Font font = renderer.getFont();
-		if (typeIndex != null && column == typeIndex) {
-			// If display a row with record type
-			RecordType type = RecordType.getByValue(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
-					.get(table.getRowSorter().convertRowIndexToModel(row))).get(typeIndex));
-			renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
-			if (type.getRecordType().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
-				// only the record type cell is colored
-				renderer.setForeground(type == RecordType.ALBUM ? YELLOW : type == RecordType.SONG ? RED : PURPLE);
-				background = isSelected ? DARK_BLUE : row % 2 == 0 ? GRAY : BLUE;
-				renderer.setBackground(background);
-				return renderer;
-			}
+		Boolean rowDeleted = false;
+		if (deletedIndex != null) {
+			// If displayed row is a deleted row
+			rowDeleted = Boolean.valueOf((String) getValueByColumnIndex(table, row, deletedIndex));
 		}
 
-		if (catIndex != null && column == catIndex) {
-			// If display a row with cat
-			Cat cat = Cat.getByValue(((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
-					.get(table.getRowSorter().convertRowIndexToModel(row))).get(catIndex));
-			renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
-			if (cat.getCat().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
-				// only the cat cell is colored
-				switch (cat) {
-				case YEAR:
-					foreground = PURPLE;
-					break;
-				case DECADE:
-					foreground = DECADE;
-					break;
-				case LONG_PERIOD:
-					foreground = LONG_PERIOD;
-					break;
-				case THEME:
-					foreground = THEME;
-					break;
-				case GENRE:
-					foreground = GENRE;
-					break;
-				case ALL_TIME:
-					foreground = ALL_TIME;
-					break;
-				default:
-					foreground = row % 2 != 0 ? GRAY : BLUE;
-					break;
-				}
-				renderer.setForeground(foreground);
-				background = isSelected ? DARK_BLUE : row % 2 == 0 ? GRAY : BLUE;
-				renderer.setBackground(background);
-				return renderer;
-			}
-		}
-		if (scoreIndex != null && decileIndex != null && column == scoreIndex) {
-			// If display a row with score
-			Integer decile = (Integer) ((Vector<Object>) ((AbstractModel) table.getModel()).getDataVector()
-					.get(table.getRowSorter().convertRowIndexToModel(row))).get(decileIndex);
-			renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
-			if (decile != 0) {
-				// only the score cell is colored
-				background = DECILE_SCORE_PURPLE[decile - 1];
-				foreground = isSelected ? DARK_BLUE : decile <= 2 ? DARK_BLUE : row % 2 == 0 ? BLUE : GRAY;
-				renderer.setForeground(foreground);
-				renderer.setBackground(background);
-				return renderer;
-			}
-		}
-		if (sortedIndex != null
+		Color foreground;
+		Color background;
+		if (typeIndex != null && column == typeIndex) {
+			foreground = getTypeRenderer(table, value, isSelected, row, renderer, font, rowDeleted);
+			background = getDefaultBackground(isSelected, row, rowDeleted);
+		} else if (catIndex != null && column == catIndex) {
+			foreground = getCatRenderer(table, value, isSelected, row, renderer, rowDeleted, font);
+			background = getDefaultBackground(isSelected, row, rowDeleted);
+		} else if (scoreIndex != null && decileIndex != null && column == scoreIndex) {
+			return getScoreRenderer(table, isSelected, row, renderer, font);
+		} else if (sortedIndex != null
 				&& (column == sortedIndex - 1 || column == sortedIndex || (rankIndex != null && column == rankIndex))) {
-			String sortedString = ((Vector<String>) ((AbstractModel) table.getModel()).getDataVector()
-					.get(table.getRowSorter().convertRowIndexToModel(row))).get(sortedIndex);
-			Boolean sorted = StringUtils.equalsIgnoreCase(sortedString, "oui") ? Boolean.TRUE : Boolean.FALSE;
-			foreground = sorted ? BLUE : row % 2 == 0 ? BLUE : GRAY;
-			background = sorted ? SORTED : isSelected ? DARK_BLUE : row % 2 == 0 ? GRAY : BLUE;
-			renderer.setForeground(foreground);
-			renderer.setBackground(background);
-			return renderer;
-		}
-		if (deletedIndex != null) {
-			// If display row with deleted rows
-			if (isSelected) {
-				// If the row is selected
-				if (rowDeleted) {
-					// If the row is deleted
-					background = DARK_GREEN;
-					foreground = GRAY;
-				} else {
-					foreground = Color.black;
-					background = DARK_BLUE;
-				}
-			} else {
-				if (rowDeleted) {
-					background = GREEN;
-					foreground = GRAY;
-				} else {
-					if (row % 2 == 0) {
-						foreground = BLUE;
-						background = GRAY;
-					} else {
-						foreground = GRAY;
-						background = BLUE;
-					}
-				}
-			}
+			return getSortRenderer(table, isSelected, row, renderer);
 		} else {
-			// No deleted row
-			if (isSelected) {
-				// If the row is selected
-				foreground = Color.black;
-				background = DARK_BLUE;
-			} else {
-				if (row % 2 == 0) {
-					foreground = BLUE;
-					background = GRAY;
-				} else {
-					foreground = GRAY;
-					background = BLUE;
-				}
-			}
+			foreground = getDefaultForeground(isSelected, row, rowDeleted);
+			background = getDefaultBackground(isSelected, row, rowDeleted);
 		}
 
 		renderer.setForeground(foreground);
 		renderer.setBackground(background);
 		return renderer;
+	}
+
+	private Color getTypeRenderer(JTable table, Object value, boolean isSelected, int row, Component renderer,
+			Font font, Boolean rowDeleted) {
+		Color foreground;
+		// If display a row with record type
+		RecordType type = RecordType.getByValue((String) getValueByColumnIndex(table, row, typeIndex));
+		renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
+		if (type.getRecordType().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
+			// only the record type cell is colored
+			foreground = type == RecordType.ALBUM ? YELLOW : type == RecordType.SONG ? RED : PURPLE;
+		} else {
+			foreground = getDefaultForeground(isSelected, row, rowDeleted);
+		}
+		return foreground;
+	}
+
+	private Color getCatRenderer(JTable table, Object value, boolean isSelected, int row, Component renderer,
+			Boolean rowDeleted, Font font) {
+		Color foreground;
+		// If display a row with cat
+		Cat cat = Cat.getByValue((String) getValueByColumnIndex(table, row, catIndex));
+		renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
+		if (cat.getCat().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
+			// only the cat cell is colored
+			switch (cat) {
+			case YEAR:
+				foreground = PURPLE;
+				break;
+			case DECADE:
+				foreground = DECADE;
+				break;
+			case LONG_PERIOD:
+				foreground = LONG_PERIOD;
+				break;
+			case THEME:
+				foreground = THEME;
+				break;
+			case GENRE:
+				foreground = GENRE;
+				break;
+			case ALL_TIME:
+				foreground = ALL_TIME;
+				break;
+			default:
+				foreground = row % 2 != 0 ? GRAY : BLUE;
+				break;
+			}
+		} else {
+			foreground = getDefaultForeground(isSelected, row, rowDeleted);
+		}
+		return foreground;
+	}
+
+	private Component getScoreRenderer(JTable table, boolean isSelected, int row, Component renderer, Font font) {
+		// If display a row with score
+		Integer decile = (Integer) (getValueByColumnIndex(table, row, decileIndex));
+		renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
+		if (decile != 0) {
+			// only the score cell is colored
+			renderer.setForeground(isSelected ? DARK_BLUE : decile <= 2 ? DARK_BLUE : row % 2 == 0 ? BLUE : GRAY);
+			renderer.setBackground(DECILE_SCORE_PURPLE[decile - 1]);
+		}
+		return renderer;
+	}
+
+	private Component getSortRenderer(JTable table, boolean isSelected, int row, Component renderer) {
+		String sortedString = (String) getValueByColumnIndex(table, row, sortedIndex);
+		Boolean sorted = StringUtils.equalsIgnoreCase(sortedString, "oui") ? Boolean.TRUE : Boolean.FALSE;
+		renderer.setForeground(sorted ? BLUE : row % 2 == 0 ? BLUE : GRAY);
+		renderer.setBackground(sorted ? SORTED : row % 2 == 0 ? GRAY : BLUE);
+		return renderer;
+	}
+
+	private Color getDefaultBackground(boolean isSelected, int row, Boolean rowDeleted) {
+		Color background;
+		if (rowDeleted && isSelected) {
+			background = DARK_GREEN;
+		} else if (!rowDeleted && isSelected) {
+			background = DARK_BLUE;
+		} else if (rowDeleted && !isSelected) {
+			background = GREEN;
+		} else if (!rowDeleted && !isSelected && row % 2 == 0) {
+			background = GRAY;
+		} else {
+			background = BLUE;
+		}
+		return background;
+	}
+
+	private Color getDefaultForeground(boolean isSelected, int row, Boolean rowDeleted) {
+		Color foreground;
+		if (isSelected) {
+			foreground = Color.BLACK;
+		} else if (!rowDeleted && !isSelected && row % 2 == 0) {
+			foreground = BLUE;
+		} else {
+			// (deleted & !selected) || (!deleted & !selected & row)
+			foreground = GRAY;
+		}
+		return foreground;
+	}
+
+	private void setTooltip(JTable table, Object value, int row, int column) {
+		if (value instanceof String && ((String) value).length() > 30) {
+			// If value is a long string
+			setToolTipText((String) value);
+		} else if (decileIndex != null && scoreIndex != null && column == scoreIndex) {
+			// if decile
+			setToolTipText(String.valueOf(getValueByColumnIndex(table, row, decileIndex)) + " / 10");
+		} else {
+			setToolTipText(null);
+		}
+	}
+
+	private Object formatValue(Object value) {
+		if (value instanceof Number) {
+			// format number
+			value = NumberFormat.getNumberInstance().format(value);
+		} else if (value instanceof Date) {
+			// format date
+			value = new Constant().getSdfDttm().format(value);
+		}
+		return value;
+	}
+
+	@SuppressWarnings("unchecked")
+	private Object getValueByColumnIndex(JTable table, int row, int index) {
+		return ((Vector<Object>) ((AbstractModel) table.getModel()).getDataVector()
+				.get(table.getRowSorter().convertRowIndexToModel(row))).get(index);
 	}
 }
