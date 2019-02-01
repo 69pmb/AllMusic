@@ -3,6 +3,7 @@ package pmb.music.AllMusic.view;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.FontMetrics;
 import java.awt.LayoutManager;
 import java.awt.Point;
@@ -23,6 +24,7 @@ import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -47,7 +49,9 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
+import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
@@ -523,6 +527,36 @@ public class PanelUtils {
 		boxPanel.add(cat);
 		parent.add(boxPanel);
 		return cat;
+	}
+
+	/**
+	 * Creates a JComboBoxInput and the layout around it.
+	 * 
+	 * @param parent parent panel to be add
+	 * @param comboBoxValues values of the combo box
+	 * @param label label
+	 * @param widthPanel width of the box panel
+	 * @param widthLabel with of the label
+	 * @param inputWidth width of the input
+	 * @return
+	 */
+	public static JComboBoxInput createJComboBoxInput(JPanel parent, String[] comboBoxValues, String label,
+			int panelWidth, int labelWidth, int inputWidth) {
+		MyInputText text = new MyInputText(JTextField.class, inputWidth);
+		text.getInput().addFocusListener(PanelUtils.selectAll);
+		JComboBox<String> searchRange = new JComboBox<>(comboBoxValues);
+		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
+
+		JComboBoxInput input = new JComboBoxInput();
+		input.setComboBox(searchRange);
+		input.setInput(text);
+
+		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(publiPanel, panelWidth, PanelUtils.PANEL_HEIGHT);
+		publiPanel.add(PanelUtils.createJLabel(label, labelWidth));
+		publiPanel.add(input);
+		parent.add(publiPanel);
+		return input;
 	}
 
 	public static void setBorder(JComponent comp, Color c) {

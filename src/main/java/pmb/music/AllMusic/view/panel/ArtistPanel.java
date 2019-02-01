@@ -68,6 +68,7 @@ import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
@@ -93,8 +94,7 @@ public class ArtistPanel extends JPanel {
 	public static final int INDEX_SCORE_DELETED = 9;
 
 	private MyInputText artist;
-	private JComboBox<String> searchRange;
-	private MyInputText publi;
+	private JComboBoxInput publi;
 	private MyInputText rangeB;
 	private MyInputText rangeE;
 	private MyInputText auteur;
@@ -152,18 +152,9 @@ public class ArtistPanel extends JPanel {
 		artistPanel.add(artist);
 		header.add(artistPanel);
 		// Publi
-		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(publiPanel, 230, PanelUtils.PANEL_HEIGHT);
-		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 200);
-		publi = new MyInputText(JTextField.class, 75);
-		publi.getInput().addFocusListener(PanelUtils.selectAll);
-		searchRange = new JComboBox<>(
-				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new));
-		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
-		publiPanel.add(publiLabel);
-		publiPanel.add(searchRange);
-		publiPanel.add(publi);
-		header.add(publiPanel);
+		publi = PanelUtils.createJComboBoxInput(header,
+				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new),
+				"Année de publication : ", 230, 200, 75);
 		// Range
 		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(rangePanel, 300, PanelUtils.PANEL_HEIGHT);
@@ -298,9 +289,10 @@ public class ArtistPanel extends JPanel {
 		JButton csv = PanelUtils.createJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			LOG.debug("Start Csv");
-			List<String> c = Arrays.asList(artist.getText(), publi.getText(), rangeB.getText(), rangeE.getText(),
-					auteur.getText(), cat.getSelectedItems()).stream().filter(s -> !"".equals(s))
-					.collect(Collectors.toList());
+			List<String> c = Arrays
+					.asList(artist.getText(), publi.getInput().getText(), rangeB.getText(), rangeE.getText(),
+							auteur.getText(), cat.getSelectedItems())
+					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
 			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
 			csvHeader.add("Critères: " + criteres);
@@ -472,8 +464,9 @@ public class ArtistPanel extends JPanel {
 						continue;
 					}
 					Map<String, String> criteria = new HashMap<>();
-					criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
-					criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, (String) searchRange.getSelectedItem());
+					criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getInput().getText());
+					criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE,
+							(String) publi.getComboBox().getSelectedItem());
 					criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
 					criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
 					criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
@@ -503,7 +496,9 @@ public class ArtistPanel extends JPanel {
 		rangeB.setText("");
 		rangeE.setText("");
 		auteur.setText("");
-		publi.setText("");
+		if (publi.getInput() != null) {
+			publi.getInput().setText("");
+		}
 		cat.clearSelection();
 		deleted.setSelected(false);
 		LOG.debug("End resetAction");
