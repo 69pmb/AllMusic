@@ -105,12 +105,14 @@ public class CompositionUtils {
 			boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2)
 					|| StringUtils.startsWithIgnoreCase(parTitre2, parTitre1);
 			if (parTitreEqu
-					&& (StringUtils.containsIgnoreCase(remParTitre1, " and ")
-							|| StringUtils.containsIgnoreCase(remParTitre2, " and "))
+					&& (StringUtils.containsIgnoreCase(remParTitre1, Constant.SEPARATOR_AND)
+							|| StringUtils.containsIgnoreCase(remParTitre2, Constant.SEPARATOR_AND))
 					&& !StringUtils.containsIgnoreCase(remParTitre1, "/")
 					&& !StringUtils.containsIgnoreCase(remParTitre2, "/")) {
-				String andTitre1 = SearchUtils.removePunctuation(StringUtils.substringBefore(remParTitre1, " and "));
-				String andTitre2 = SearchUtils.removePunctuation(StringUtils.substringBefore(remParTitre2, " and "));
+				String andTitre1 = SearchUtils
+						.removePunctuation(StringUtils.substringBefore(remParTitre1, Constant.SEPARATOR_AND));
+				String andTitre2 = SearchUtils
+						.removePunctuation(StringUtils.substringBefore(remParTitre2, Constant.SEPARATOR_AND));
 				parTitre1 = andTitre1;
 				parTitre2 = andTitre2;
 			}
