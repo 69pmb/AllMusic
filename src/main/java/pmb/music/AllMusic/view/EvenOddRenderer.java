@@ -108,12 +108,12 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 			int row, int column) {
 		value = formatValue(value);
 		setTooltip(table, value, row, column);
+
+		Component renderer = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
 		table.setBorder(noFocusBorder);
 		if (isSelected) {
 			setBorder(new MatteBorder(1, 0, 1, 0, Color.black));
 		}
-
-		Component renderer = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
 		Font font = renderer.getFont();
 		Boolean rowDeleted = false;
 		if (deletedIndex != null) {
@@ -133,7 +133,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 			return getScoreRenderer(table, isSelected, row, renderer, font);
 		} else if (sortedIndex != null
 				&& (column == sortedIndex - 1 || column == sortedIndex || (rankIndex != null && column == rankIndex))) {
-			return getSortRenderer(table, isSelected, row, renderer);
+			return getSortRenderer(table, row, renderer);
 		} else {
 			foreground = getDefaultForeground(isSelected, row, rowDeleted);
 			background = getDefaultBackground(isSelected, row, rowDeleted);
@@ -152,7 +152,17 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
 		if (type.getRecordType().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
 			// only the record type cell is colored
-			foreground = type == RecordType.ALBUM ? YELLOW : type == RecordType.SONG ? RED : PURPLE;
+			switch (type) {
+			case ALBUM:
+				foreground = YELLOW;
+				break;
+			case SONG:
+				foreground = RED;
+				break;
+			default:
+				foreground = PURPLE;
+				break;
+			}
 		} else {
 			foreground = getDefaultForeground(isSelected, row, rowDeleted);
 		}
@@ -202,17 +212,31 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
 		if (decile != 0) {
 			// only the score cell is colored
-			renderer.setForeground(isSelected ? DARK_BLUE : decile <= 2 ? DARK_BLUE : row % 2 == 0 ? BLUE : GRAY);
+			Color foreground;
+			if (isSelected) {
+				foreground = DARK_BLUE;
+			} else if (decile <= 2) {
+				foreground = BLUE;
+			} else {
+				foreground = row % 2 == 0 ? BLUE : GRAY;
+			}
+			renderer.setForeground(foreground);
 			renderer.setBackground(DECILE_SCORE_PURPLE[decile - 1]);
 		}
 		return renderer;
 	}
 
-	private Component getSortRenderer(JTable table, boolean isSelected, int row, Component renderer) {
+	private Component getSortRenderer(JTable table, int row, Component renderer) {
 		String sortedString = (String) getValueByColumnIndex(table, row, sortedIndex);
 		Boolean sorted = StringUtils.equalsIgnoreCase(sortedString, "oui") ? Boolean.TRUE : Boolean.FALSE;
-		renderer.setForeground(sorted ? BLUE : row % 2 == 0 ? BLUE : GRAY);
-		renderer.setBackground(sorted ? SORTED : row % 2 == 0 ? GRAY : BLUE);
+		renderer.setForeground(sorted || row % 2 == 0 ? BLUE : GRAY);
+		Color background;
+		if (sorted) {
+			background = SORTED;
+		} else {
+			background = row % 2 == 0 ? GRAY : BLUE;
+		}
+		renderer.setBackground(background);
 		return renderer;
 	}
 
@@ -222,9 +246,9 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 			background = DARK_GREEN;
 		} else if (!rowDeleted && isSelected) {
 			background = DARK_BLUE;
-		} else if (rowDeleted && !isSelected) {
+		} else if (rowDeleted) {
 			background = GREEN;
-		} else if (!rowDeleted && !isSelected && row % 2 == 0) {
+		} else if (row % 2 == 0) {
 			background = GRAY;
 		} else {
 			background = BLUE;
@@ -236,10 +260,9 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		Color foreground;
 		if (isSelected) {
 			foreground = Color.BLACK;
-		} else if (!rowDeleted && !isSelected && row % 2 == 0) {
+		} else if (!rowDeleted && row % 2 == 0) {
 			foreground = BLUE;
 		} else {
-			// (deleted & !selected) || (!deleted & !selected & row)
 			foreground = GRAY;
 		}
 		return foreground;
