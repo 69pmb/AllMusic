@@ -361,8 +361,8 @@ public class PanelUtils {
 				Optional.of(selectedRow.get(indexArtist)), Optional.of(selectedRow.get(indexTitre))).get());
 		int indexOfResult = SearchUtils.indexOf(compositionList, toModif);
 		// Lancement de la popup de modification
-		ModifyCompositionDialog md = new ModifyCompositionDialog(null, "Modifier une composition", true,
-				new Dimension(950, 150), selectedRow, indexArtist, indexTitre, indexType, indexDeleted);
+		ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, indexArtist, indexTitre,
+				indexType, indexDeleted);
 		md.showModifyCompositionDialog();
 		Vector<String> editedRow;
 		if (md.isSendData()) {
