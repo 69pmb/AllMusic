@@ -13,8 +13,10 @@ public class JComboBoxInput extends JPanel {
 	private MyInputText input;
 	private JComboBox<String> comboBox;
 
-	public void setInput(MyInputText input) {
+	public JComboBoxInput(MyInputText input, JComboBox<String> comboBox) {
+		this.comboBox = comboBox;
 		this.input = input;
+		this.add(this.comboBox);
 		this.add(this.input);
 	}
 
@@ -24,10 +26,5 @@ public class JComboBoxInput extends JPanel {
 
 	public JComboBox<String> getComboBox() {
 		return comboBox;
-	}
-
-	public void setComboBox(JComboBox<String> comboBox) {
-		this.comboBox = comboBox;
-		this.add(this.comboBox);
 	}
 }
