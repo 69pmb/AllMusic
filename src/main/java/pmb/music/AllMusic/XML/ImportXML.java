@@ -17,7 +17,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 import javax.swing.JTextArea;
-import javax.xml.XMLConstants;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -56,7 +55,6 @@ public final class ImportXML {
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		SAXParser parseur = null;
 		try {
-			factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, Boolean.TRUE);
 			parseur = factory.newSAXParser();
 		} catch (ParserConfigurationException | SAXException e) {
 			LOG.error("Erreur lors de la création du parseur", e);

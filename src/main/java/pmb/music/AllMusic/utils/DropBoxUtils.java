@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import org.apache.log4j.Logger;
-import org.codehaus.plexus.util.FileUtils;
 
 import com.dropbox.core.DbxException;
 import com.dropbox.core.DbxRequestConfig;
@@ -49,7 +48,7 @@ public class DropBoxUtils {
 	public static FileMetadata uploadFile(File pathFile, String pathDropBox, WriteMode mode) throws MyException {
 		LOG.debug("Start uploadFile");
 		FileMetadata metadata = null;
-		String dropBoxPath = FileUtils.FS + pathDropBox;
+		String dropBoxPath = "/" + pathDropBox;
 		WriteMode writeMode = mode;
 		if (writeMode == null) {
 			writeMode = WriteMode.ADD;
