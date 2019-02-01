@@ -44,25 +44,21 @@ public class ModifyCompositionDialog extends JDialog {
 	/**
 	 * Constructeur de {@link ModifyCompositionDialog}.
 	 * 
-	 * @param parent {@link JFrame} la fenetre parente
-	 * @param header {@link String} les entetes de la popup
-	 * @param modal {@code boolean} si la popup bloque l'utilisateur
-	 * @param dim {@link Dimension} les dimension de la popup
 	 * @param compo {@link Vector} la compo à modifier
 	 * @param artistIndex index de l'artiste dans la composition
 	 * @param titleIndex index du titre dans la composition
 	 * @param typeIndex index du type dans la composition
 	 * @param deleteIndex index du boolean deleted
 	 */
-	public ModifyCompositionDialog(JFrame parent, String header, boolean modal, Dimension dim, Vector<String> compo,
-			int artistIndex, int titleIndex, int typeIndex, int deleteIndex) {
-		super(parent, header, modal);
+	public ModifyCompositionDialog(Vector<String> compo, int artistIndex, int titleIndex, int typeIndex,
+			int deleteIndex) {
+		super((JFrame) null, "Modifier une composition", true);
 		LOG.debug("Start ModifyCompositionDialog");
 		this.artistIndex = artistIndex;
 		this.titleIndex = titleIndex;
 		this.typeIndex = typeIndex;
 		this.deleteIndex = deleteIndex;
-		this.setSize(dim);
+		this.setSize(new Dimension(950, 150));
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 		this.compo = new Vector<>(compo);

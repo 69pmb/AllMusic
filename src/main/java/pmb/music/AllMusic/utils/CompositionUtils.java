@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Vector;
 import java.util.stream.Collector;
@@ -190,8 +191,8 @@ public class CompositionUtils {
 			if (displayClassement) {
 				if (fichier != null) {
 					v.addElement(composition.getFiles().stream()
-							.filter(f -> StringUtils.equalsIgnoreCase(fichier, f.getFileName())).findFirst().get()
-							.getClassement());
+							.filter(f -> StringUtils.equalsIgnoreCase(fichier, f.getFileName())).findFirst()
+							.map(Fichier::getClassement).orElse(0));
 				} else {
 					v.addElement(composition.getFiles().get(0).getClassement());
 				}
@@ -437,8 +438,8 @@ public class CompositionUtils {
 				map.put(score, composition);
 			}
 			LOG.trace("End findByFile, more than one result");
-			return Optional.of(map.entrySet().parallelStream().max((e1, e2) -> e1.getKey().compareTo(e2.getKey())).get()
-					.getValue());
+			return Optional.ofNullable(map.entrySet().parallelStream()
+					.max((e1, e2) -> e1.getKey().compareTo(e2.getKey())).map(Entry::getValue).orElse(null));
 		}
 	}
 
