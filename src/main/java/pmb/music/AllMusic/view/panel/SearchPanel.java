@@ -296,14 +296,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		searchFields.add(authorPanel);
 
 		// Type
-		JPanel typePanel = new JPanel();
-		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 180);
-		type = new JComboCheckBox(Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType)
-				.collect(Collectors.toList()));
-		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
-		typePanel.add(typeLabel);
-		typePanel.add(type);
-		searchFields.add(typePanel);
+		type = PanelUtils.createJComboCheckBox(searchFields,
+				Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType).collect(Collectors.toList()),
+				"Type : ", null, 180, 150, 180);
 
 		// Range
 		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
@@ -332,13 +327,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		searchFields.add(rangePanel);
 
 		// Categorie
-		JPanel catPanel = new JPanel();
-		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 150);
-		cat = new JComboCheckBox(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()));
-		cat.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
-		catPanel.add(catLabel);
-		catPanel.add(cat);
-		searchFields.add(catPanel);
+		cat = PanelUtils.createJComboCheckBox(searchFields,
+				Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()), "Catégorie : ",
+				null, 180, 150, 150);
 
 		// Publi
 		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
