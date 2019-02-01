@@ -73,6 +73,7 @@ import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
@@ -122,8 +123,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	// Search components
 	private MyInputText auteur;
 	private MyInputText filename;
-	private JComboBox<String> searchRange;
-	private MyInputText publi;
+	private JComboBoxInput publi;
 	private MyInputText rangeB;
 	private MyInputText rangeE;
 	private JComboCheckBox cat;
@@ -232,18 +232,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		namePanel.add(filename);
 		inputs.add(namePanel);
 		// Publi
-		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(publiPanel, 250, PanelUtils.PANEL_HEIGHT);
-		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 210);
-		publi = new MyInputText(JTextField.class, 100);
-		publi.getInput().addFocusListener(PanelUtils.selectAll);
-		searchRange = new JComboBox<>(
-				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new));
-		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
-		publiPanel.add(publiLabel);
-		publiPanel.add(searchRange);
-		publiPanel.add(publi);
-		inputs.add(publiPanel);
+		publi = PanelUtils.createJComboBoxInput(inputs,
+				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new),
+				"Année de publication : ", 250, 210, 100);
 		// Range
 		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(rangePanel, 270, PanelUtils.PANEL_HEIGHT);
@@ -385,7 +376,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
-					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), filename.getText(),
+					.asList(publi.getInput().getText(), rangeB.getText(), rangeE.getText(), filename.getText(),
 							cat.getSelectedItems(), type.getSelectedItems(), auteur.getText(),
 							"Sorted:" + Boolean.toString(sorted.isSelected()),
 							"Deleted:" + Boolean.toString(deleted.isSelected()))
@@ -718,8 +709,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			// Filter on the files list with the others criteria
 			JaroWinklerDistance jaro = new JaroWinklerDistance();
 			Map<String, String> criteria = new HashMap<>();
-			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
-			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, (String) searchRange.getSelectedItem());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getInput().getText());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, (String) publi.getComboBox().getSelectedItem());
 			criteria.put(SearchUtils.CRITERIA_FILENAME, filename.getText());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
 			criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
@@ -841,7 +832,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		LOG.debug("Start resetAction");
 		auteur.setText(null);
 		filename.setText("");
-		publi.setText("");
+		publi.getInput().setText("");
 		rangeB.setText("");
 		rangeE.setText("");
 		cat.clearSelection();

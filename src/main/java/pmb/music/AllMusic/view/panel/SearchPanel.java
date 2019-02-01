@@ -65,6 +65,7 @@ import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
@@ -88,8 +89,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 	private JButton search;
 
-	private JComboBox<String> searchRange;
-	private MyInputText publi;
+	private JComboBoxInput publi;
 	private MyInputText rangeB;
 	private MyInputText rangeE;
 	private MyInputText fileName;
@@ -213,7 +213,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
-					.asList(publi.getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
+					.asList(publi.getInput().getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
 							searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
 							cat.getSelectedItems(), type.getSelectedItems(), titre.getText(), artist.getText(),
 							author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
@@ -333,17 +333,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				null, 180, 150, 150);
 
 		// Publi
-		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		JLabel publiLabel = PanelUtils.createJLabel("Année de publication : ", 240);
-		publi = new MyInputText(JTextField.class, 100);
-		searchRange = new JComboBox<>(
-				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new));
-		searchRange.setPreferredSize(new Dimension(45, PanelUtils.COMPONENT_HEIGHT));
-		publi.getInput().addFocusListener(PanelUtils.selectAll);
-		publiPanel.add(publiLabel);
-		publiPanel.add(searchRange);
-		publiPanel.add(publi);
-		searchFields.add(publiPanel);
+		publi = PanelUtils.createJComboBoxInput(searchFields,
+				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new),
+				"Année de publication : ", 230, 240, 100);
 
 		// inFiles
 		JPanel inFilesPanel = new JPanel();
@@ -501,8 +493,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			criteria.put(SearchUtils.CRITERIA_ARTIST, artist.getText());
 			criteria.put(SearchUtils.CRITERIA_TITRE, titre.getText());
 			criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.getSelectedItems());
-			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
-			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, (String) searchRange.getSelectedItem());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getInput().getText());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, (String) publi.getComboBox().getSelectedItem());
 			criteria.put(SearchUtils.CRITERIA_FILENAME, fileName.getText());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getText());
 			criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
@@ -557,7 +549,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		titre.setText(null);
 		type.clearSelection();
 		searchMethod.setSelectedItem(SearchMethod.CONTAINS.getValue());
-		publi.setText("");
+		publi.getInput().setText("");
 		fileName.setText("");
 		author.setText(null);
 		cat.clearSelection();
