@@ -203,14 +203,9 @@ public class ArtistPanel extends JPanel {
 		auteurPanel.add(auteur);
 		header.add(auteurPanel);
 		// Categorie
-		JPanel catPanel = new JPanel();
-		catPanel.setPreferredSize(new Dimension(180, PanelUtils.PANEL_HEIGHT));
-		JLabel catLabel = new JLabel("Catégorie : ");
-		cat = new JComboCheckBox(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()));
-		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
-		catPanel.add(catLabel);
-		catPanel.add(cat);
-		header.add(catPanel);
+		cat = PanelUtils.createJComboCheckBox(header,
+				Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()), "Catégorie : ",
+				new FlowLayout(FlowLayout.CENTER, 0, 0), 180, 120, 150);
 		// Deleted
 		JPanel deletedPanel = new JPanel();
 		deletedPanel.setPreferredSize(new Dimension(90, PanelUtils.PANEL_HEIGHT));
