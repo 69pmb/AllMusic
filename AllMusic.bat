@@ -9,8 +9,10 @@ IF /i "%answer%"=="1" (
 	call code .
 ) else IF /i "%answer%"=="3" (
 	call "AllMusic - Update.bat"
+ goto debut
 ) else IF /i "%answer%"=="4" (
 	call mvn install -q -Dmaven.test.skip=true
+ goto debut
 ) else IF /i "%answer%"=="5" (
 	call "AllMusic - Start.bat"
 ) else (
