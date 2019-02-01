@@ -10,8 +10,8 @@ public class JComboBoxInput extends JPanel {
 
 	private static final long serialVersionUID = -1407784810832692643L;
 
-	MyInputText input;
-	JComboBox<String> comboBox;
+	private MyInputText input;
+	private JComboBox<String> comboBox;
 
 	public void setInput(MyInputText input) {
 		this.input = input;
