@@ -271,24 +271,13 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		rangePanel.add(rangeE);
 		inputs.add(rangePanel);
 		// Categorie
-		JPanel catPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(catPanel, 200, PanelUtils.PANEL_HEIGHT);
-		JLabel catLabel = PanelUtils.createJLabel("Catégorie : ", 150);
-		cat = new JComboCheckBox(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()));
-		cat.setPreferredSize(new Dimension(120, PanelUtils.COMPONENT_HEIGHT));
-		catPanel.add(catLabel);
-		catPanel.add(cat);
-		inputs.add(catPanel);
+		cat = PanelUtils.createJComboCheckBox(inputs,
+				Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()), "Catégorie : ",
+				new FlowLayout(FlowLayout.CENTER, 0, 0), 200, 120, 150);
 		// Type
-		JPanel typePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(typePanel, 200, PanelUtils.PANEL_HEIGHT);
-		JLabel typeLabel = PanelUtils.createJLabel("Type : ", 150);
-		type = new JComboCheckBox(Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType)
-				.collect(Collectors.toList()));
-		type.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
-		typePanel.add(typeLabel);
-		typePanel.add(type);
-		inputs.add(typePanel);
+		type = PanelUtils.createJComboCheckBox(inputs,
+				Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType).collect(Collectors.toList()),
+				"Type : ", new FlowLayout(FlowLayout.CENTER, 0, 0), 200, 150, 150);
 		// Sorted
 		JPanel sortedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(sortedPanel, 100, PanelUtils.PANEL_HEIGHT);

@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FontMetrics;
+import java.awt.LayoutManager;
 import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.event.FocusEvent;
@@ -46,6 +47,7 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
@@ -361,8 +363,8 @@ public class PanelUtils {
 				Optional.of(selectedRow.get(indexArtist)), Optional.of(selectedRow.get(indexTitre))).get());
 		int indexOfResult = SearchUtils.indexOf(compositionList, toModif);
 		// Lancement de la popup de modification
-		ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, indexArtist, indexTitre,
-				indexType, indexDeleted);
+		ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, indexArtist, indexTitre, indexType,
+				indexDeleted);
 		md.showModifyCompositionDialog();
 		Vector<String> editedRow;
 		if (md.isSendData()) {
@@ -492,6 +494,35 @@ public class PanelUtils {
 		btn.setBackground(Color.white);
 		btn.setPreferredSize(new Dimension(width, PanelUtils.PANEL_HEIGHT));
 		return btn;
+	}
+
+	/**
+	 * Creates a JComboCheckBox and the layout around it.
+	 * 
+	 * @param parent parent panel to be add
+	 * @param values values of the box
+	 * @param label label
+	 * @param layout layout for the box panel
+	 * @param widthPanel width of the box panel
+	 * @param widthBox width of the box
+	 * @param widthLabel with of the label
+	 * @return
+	 */
+	public static JComboCheckBox createJComboCheckBox(JPanel parent, List<String> values, String label,
+			LayoutManager layout, int widthPanel, int widthBox, int widthLabel) {
+		JPanel boxPanel;
+		if (layout != null) {
+			boxPanel = new JPanel(layout);
+		} else {
+			boxPanel = new JPanel();
+		}
+		PanelUtils.setSize(boxPanel, widthPanel, PanelUtils.PANEL_HEIGHT);
+		JComboCheckBox cat = new JComboCheckBox(values);
+		cat.setPreferredSize(new Dimension(widthBox, PanelUtils.COMPONENT_HEIGHT));
+		boxPanel.add(PanelUtils.createJLabel(label, widthLabel));
+		boxPanel.add(cat);
+		parent.add(boxPanel);
+		return cat;
 	}
 
 	public static void setBorder(JComponent comp, Color c) {
