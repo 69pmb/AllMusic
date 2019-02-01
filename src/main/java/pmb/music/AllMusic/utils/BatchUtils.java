@@ -66,12 +66,12 @@ public class BatchUtils {
 
 	public static final Comparator<CsvComposition> compareByTrackNumber = (CsvComposition c1, CsvComposition c2) -> {
 		String s1 = c1.getTrackNumber();
-		if (StringUtils.contains(s1, " sur")) {
-			s1 = StringUtils.substringBefore(s1, " sur ");
+		if (StringUtils.contains(s1, Constant.TRACK_NUMBER_SEPARATOR)) {
+			s1 = StringUtils.substringBefore(s1, Constant.TRACK_NUMBER_SEPARATOR);
 		}
 		String s2 = c2.getTrackNumber();
-		if (StringUtils.contains(s2, " sur")) {
-			s2 = StringUtils.substringBefore(s2, " sur ");
+		if (StringUtils.contains(s2, Constant.TRACK_NUMBER_SEPARATOR)) {
+			s2 = StringUtils.substringBefore(s2, Constant.TRACK_NUMBER_SEPARATOR);
 		}
 		Integer int1 = 0;
 		if (StringUtils.isNotBlank(s1)) {
@@ -707,8 +707,8 @@ public class BatchUtils {
 			if (compoAlbum.size() < 5 || StringUtils.isBlank(trackNumber)) {
 				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Invalid"));
 				continue;
-			} else if (StringUtils.contains(trackNumber, " sur ")) {
-				String[] split = StringUtils.split(trackNumber, " sur ");
+			} else if (StringUtils.contains(trackNumber, Constant.TRACK_NUMBER_SEPARATOR)) {
+				String[] split = StringUtils.split(trackNumber, Constant.TRACK_NUMBER_SEPARATOR);
 				String max = split[1];
 				if (compoAlbum.size() >= Integer.valueOf(max)) {
 					albumToSearch = album;
@@ -839,7 +839,7 @@ public class BatchUtils {
 		Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
 		String stripArtist = StringUtils.substringBefore(
 				SearchUtils.removeParentheses(CleanFile.removeDiactriticals(cleanLine(artist.toLowerCase(), entrySet))),
-				" and ");
+				Constant.SEPARATOR_AND);
 		if (StringUtils.startsWith(stripArtist, "the ")) {
 			stripArtist = StringUtils.substringAfter(stripArtist, "the ");
 		}
@@ -1013,14 +1013,14 @@ public class BatchUtils {
 							boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2)
 									|| StringUtils.startsWithIgnoreCase(parTitre2, parTitre1);
 							if (parTitreEqu
-									&& (StringUtils.containsIgnoreCase(remParTitre1, " and ")
-											|| StringUtils.containsIgnoreCase(remParTitre2, " and "))
+									&& (StringUtils.containsIgnoreCase(remParTitre1, Constant.SEPARATOR_AND)
+											|| StringUtils.containsIgnoreCase(remParTitre2, Constant.SEPARATOR_AND))
 									&& !StringUtils.containsIgnoreCase(remParTitre1, "/")
 									&& !StringUtils.containsIgnoreCase(remParTitre2, "/")) {
-								String andTitre1 = SearchUtils
-										.removePunctuation(StringUtils.substringBefore(remParTitre1, " and "));
-								String andTitre2 = SearchUtils
-										.removePunctuation(StringUtils.substringBefore(remParTitre2, " and "));
+								String andTitre1 = SearchUtils.removePunctuation(
+										StringUtils.substringBefore(remParTitre1, Constant.SEPARATOR_AND));
+								String andTitre2 = SearchUtils.removePunctuation(
+										StringUtils.substringBefore(remParTitre2, Constant.SEPARATOR_AND));
 								parTitre1 = andTitre1;
 								parTitre2 = andTitre2;
 							}
@@ -1120,8 +1120,9 @@ public class BatchUtils {
 		addLine(result, "c2: " + c2, true);
 		Composition tempC2 = new Composition(c2);
 		c2.getFiles().addAll(files1);
-		if (((c1.getFiles().size() >= c2.getFiles().size() && !StringUtils.containsIgnoreCase(c1.getArtist(), " and "))
-				|| StringUtils.containsIgnoreCase(c2.getArtist(), " and "))) {
+		if (((c1.getFiles().size() >= c2.getFiles().size()
+				&& !StringUtils.containsIgnoreCase(c1.getArtist(), Constant.SEPARATOR_AND))
+				|| StringUtils.containsIgnoreCase(c2.getArtist(), Constant.SEPARATOR_AND))) {
 			c2.setArtist(c1.getArtist());
 			c2.setTitre(c1.getTitre());
 			try {

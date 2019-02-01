@@ -17,6 +17,7 @@ import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.LongSummaryStatistics;
@@ -727,11 +728,17 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		if (!searchResult.keySet().isEmpty()) {
 			// Filter on the files list with the others criteria
 			JaroWinklerDistance jaro = new JaroWinklerDistance();
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getText());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, (String) searchRange.getSelectedItem());
+			criteria.put(SearchUtils.CRITERIA_FILENAME, filename.getText());
+			criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
+			criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
+			criteria.put(SearchUtils.CRITERIA_SORTED, sorted.isSelected() ? Boolean.TRUE.toString() : "");
 			searchResult = searchResult.entrySet().parallelStream()
-					.filter(e -> SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, publi.getText(),
-							(String) searchRange.getSelectedItem(), filename.getText(), auteur.getText(),
-							cat.getSelectedItems(), rangeB.getText(), rangeE.getText(),
-							sorted.isSelected() ? Boolean.TRUE.toString() : "", null, e.getKey()))
+					.filter(e -> SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, criteria, e.getKey()))
 					.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 			// update files table
 			updateFileTable();

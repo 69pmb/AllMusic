@@ -69,28 +69,21 @@ public class SearchUtils {
 		}
 		final JaroWinklerDistance jaro = new JaroWinklerDistance();
 		List<Composition> arrayList = new ArrayList<>(compoList);
-		// Critères compositions
-		final String artist = criteria.get(CRITERIA_ARTIST);
-		final String titre = criteria.get(CRITERIA_TITRE);
-		final String type = criteria.get(CRITERIA_RECORD_TYPE);
-		// Critères fichiers
-		final String publish = criteria.get(CRITERIA_PUBLISH_YEAR);
-		final String publishRange = criteria.get(CRITERIA_PUBLISH_YEAR_RANGE);
-		final String fileName = criteria.get(CRITERIA_FILENAME);
-		final String auteur = criteria.get(CRITERIA_AUTHOR);
-		final String cat = criteria.get(CRITERIA_CAT);
-		final String dateB = criteria.get(CRITERIA_DATE_BEGIN);
-		final String dateE = criteria.get(CRITERIA_DATE_END);
-		final String sorted = criteria.get(CRITERIA_SORTED);
-		final String topTen = criteria.get(CRITERIA_TOP);
 
 		// Si on doit chercher dans les compos
-		final boolean searchCompo = StringUtils.isNotBlank(artist) || StringUtils.isNotBlank(titre)
-				|| StringUtils.isNotBlank(type);
+		final boolean searchCompo = StringUtils.isNotBlank(criteria.get(CRITERIA_ARTIST))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_TITRE))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_RECORD_TYPE));
 		// Si on doit chercher dans les fichiers
-		final boolean searchFile = StringUtils.isNotBlank(publish) || StringUtils.isNotBlank(fileName)
-				|| StringUtils.isNotBlank(auteur) || StringUtils.isNotBlank(cat) || StringUtils.isNotBlank(dateB)
-				|| StringUtils.isNotBlank(dateE) || StringUtils.isNotBlank(sorted) || StringUtils.isNotBlank(topTen);
+		final boolean searchFile = StringUtils.isNotBlank(criteria.get(CRITERIA_PUBLISH_YEAR))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_PUBLISH_YEAR_RANGE))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_FILENAME))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_AUTHOR))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_CAT))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_DATE_BEGIN))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_DATE_END))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_SORTED))
+				|| StringUtils.isNotBlank(criteria.get(CRITERIA_TOP));
 
 		if (searchCompo || searchFile) {
 			if (log) {
@@ -100,8 +93,7 @@ public class SearchUtils {
 						.map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
 			}
 			arrayList = arrayList.parallelStream()
-					.map(c -> filterCompositions(searchMethod, searchInFiles, jaro, artist, titre, type, deleted,
-							publish, publishRange, fileName, auteur, cat, dateB, dateE, sorted, topTen, searchFile, c))
+					.map(c -> filterCompositions(searchMethod, searchInFiles, jaro, criteria, deleted, searchFile, c))
 					.filter(Objects::nonNull).collect(Collectors.toList());
 		} else if (!deleted) {
 			arrayList = arrayList.parallelStream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
@@ -113,11 +105,13 @@ public class SearchUtils {
 	}
 
 	private static Composition filterCompositions(final SearchMethod searchMethod, final boolean searchInFiles,
-			final JaroWinklerDistance jaro, final String artist, final String titre, final String type,
-			final boolean deleted, final String publish, String publishRange, final String fileName,
-			final String auteur, final String cat, final String dateB, final String dateE, final String sorted,
-			final String topTen, final boolean searchFile, Composition c) {
+			final JaroWinklerDistance jaro, final Map<String, String> criteria, final boolean deleted,
+			final boolean searchFile, Composition c) {
 		Composition co = new Composition(c);
+
+		final String artist = criteria.get(CRITERIA_ARTIST);
+		final String titre = criteria.get(CRITERIA_TITRE);
+		final String type = criteria.get(CRITERIA_RECORD_TYPE);
 
 		boolean result = true;
 		if (StringUtils.isNotBlank(artist)) {
@@ -136,8 +130,8 @@ public class SearchUtils {
 
 		List<Fichier> files = new ArrayList<>(co.getFiles());
 		if (result && searchFile && !files.isEmpty()) {
-			files = files.parallelStream().filter(f -> filterFichier(searchMethod, jaro, publish, publishRange,
-					fileName, auteur, cat, dateB, dateE, sorted, topTen, f)).collect(Collectors.toList());
+			files = files.parallelStream().filter(f -> filterFichier(searchMethod, jaro, criteria, f))
+					.collect(Collectors.toList());
 		}
 		if (searchInFiles) {
 			co.setFiles(files);
@@ -200,10 +194,19 @@ public class SearchUtils {
 		return StringUtils.isBlank(res) ? text : res;
 	}
 
-	public static boolean filterFichier(final SearchMethod searchMethod, JaroWinklerDistance jaro, final String publish,
-			String publishRange, final String fileName, final String auteur, final String cat, final String dateB,
-			final String dateE, final String sorted, final String topTen, Fichier fi) {
+	public static boolean filterFichier(final SearchMethod searchMethod, JaroWinklerDistance jaro,
+			final Map<String, String> criteria, Fichier fi) {
 		boolean result = true;
+
+		final String publish = criteria.get(CRITERIA_PUBLISH_YEAR);
+		final String publishRange = criteria.get(CRITERIA_PUBLISH_YEAR_RANGE);
+		final String fileName = criteria.get(CRITERIA_FILENAME);
+		final String auteur = criteria.get(CRITERIA_AUTHOR);
+		final String cat = criteria.get(CRITERIA_CAT);
+		final String dateB = criteria.get(CRITERIA_DATE_BEGIN);
+		final String dateE = criteria.get(CRITERIA_DATE_END);
+		final String sorted = criteria.get(CRITERIA_SORTED);
+		final String topTen = criteria.get(CRITERIA_TOP);
 
 		if (StringUtils.isNotBlank(publish)) {
 			switch (SearchRange.getByValue(publishRange)) {
@@ -337,7 +340,7 @@ public class SearchUtils {
 	 */
 	public static int indexOf(List<Composition> list, Composition o) {
 		if (list == null || list.isEmpty() || o == null) {
-			LOG.error("indexOf: " + o);
+			LOG.error("Error in indexOf: " + o);
 			return -1;
 		}
 		int indexOf = list.indexOf(new Composition(o.getArtist(), o.getFiles(), o.getTitre(), o.getRecordType(),
@@ -349,12 +352,12 @@ public class SearchUtils {
 						&& StringUtils.equals(composition.getTitre(), o.getTitre())
 						&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
 						&& composition.getFiles().size() == o.getFiles().size()) {
-					LOG.debug("indexOf: " + o);
+					LOG.debug("indexOf found: " + o);
 					return i;
 				}
 				i++;
 			}
-			LOG.error("indexOf: " + o);
+			LOG.error("Error in indexOf: " + o);
 			return -1;
 		}
 		return indexOf;
