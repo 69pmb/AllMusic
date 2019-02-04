@@ -53,7 +53,6 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
-import ca.odell.glazedlists.matchers.TextMatcherEditor;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -68,6 +67,8 @@ import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ComponentBuilder;
+import pmb.music.AllMusic.view.ComponentBuilderConfiguration;
 import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
@@ -209,25 +210,25 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private void initInputs(JPanel header) {
 		JPanel inputs = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		// Auteur
-		auteur = PanelUtils.createMyInputText(inputs, OngletPanel.getAuthorList(), TextMatcherEditor.CONTAINS,
-				new FlowLayout(FlowLayout.CENTER, 0, 0), "Auteur : ", 140, 150, 190);
+		auteur = ComponentBuilder.createMyInputText(new ComponentBuilderConfiguration(inputs,
+				OngletPanel.getAuthorList(), "Auteur : ", true, true, 190, 150, 140));
 		// Nom du fichier
 		JPanel namePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(namePanel, 240, PanelUtils.PANEL_HEIGHT);
-		JLabel nameLabel = PanelUtils.createJLabel("Nom du fichier : ", 190);
+		PanelUtils.setSize(namePanel, 240, ComponentBuilder.PANEL_HEIGHT);
+		JLabel nameLabel = ComponentBuilder.createJLabel("Nom du fichier : ", 190);
 		filename = new MyInputText(JTextField.class, 180);
 		filename.getInput().addFocusListener(PanelUtils.selectAll);
 		namePanel.add(nameLabel);
 		namePanel.add(filename);
 		inputs.add(namePanel);
 		// Publi
-		publi = PanelUtils.createJComboBoxInput(inputs,
-				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new),
-				"Année de publication : ", 250, 210, 100);
+		publi = ComponentBuilder.createJComboBoxInput(new ComponentBuilderConfiguration(inputs,
+				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).collect(Collectors.toList()),
+				"Année de publication : ", false, false, 250, 100, 210));
 		// Range
 		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(rangePanel, 270, PanelUtils.PANEL_HEIGHT);
-		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 180);
+		PanelUtils.setSize(rangePanel, 270, ComponentBuilder.PANEL_HEIGHT);
+		JLabel rangeLabel = ComponentBuilder.createJLabel("Année(s) du classement : ", 180);
 		rangeB = new MyInputText(JTextField.class, 70);
 		rangeE = new MyInputText(JTextField.class, 70);
 		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
@@ -251,29 +252,29 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		rangePanel.add(rangeE);
 		inputs.add(rangePanel);
 		// Categorie
-		cat = PanelUtils.createJComboCheckBox(inputs,
+		cat = ComponentBuilder.createJComboCheckBox(new ComponentBuilderConfiguration(inputs,
 				Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()), "Catégorie : ",
-				new FlowLayout(FlowLayout.CENTER, 0, 0), 200, 120, 150);
+				true, false, 200, 120, 150));
 		// Type
-		type = PanelUtils.createJComboCheckBox(inputs,
+		type = ComponentBuilder.createJComboCheckBox(new ComponentBuilderConfiguration(inputs,
 				Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType).collect(Collectors.toList()),
-				"Type : ", new FlowLayout(FlowLayout.CENTER, 0, 0), 200, 150, 150);
+				"Type : ", true, false, 200, 150, 150));
 		// Sorted
 		JPanel sortedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(sortedPanel, 100, PanelUtils.PANEL_HEIGHT);
-		JLabel sortedLabel = PanelUtils.createJLabel("Classé: ", 150);
+		PanelUtils.setSize(sortedPanel, 100, ComponentBuilder.PANEL_HEIGHT);
+		JLabel sortedLabel = ComponentBuilder.createJLabel("Classé: ", 150);
 		sorted = new JCheckBox();
-		sorted.setPreferredSize(new Dimension(80, PanelUtils.COMPONENT_HEIGHT));
+		sorted.setPreferredSize(new Dimension(80, ComponentBuilder.COMPONENT_HEIGHT));
 		sorted.setHorizontalAlignment(SwingConstants.CENTER);
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
 		inputs.add(sortedPanel);
 		// Deleted
 		JPanel deletedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(deletedPanel, 100, PanelUtils.PANEL_HEIGHT);
-		JLabel deletedLabel = PanelUtils.createJLabel("Supprimé: ", 150);
+		PanelUtils.setSize(deletedPanel, 100, ComponentBuilder.PANEL_HEIGHT);
+		JLabel deletedLabel = ComponentBuilder.createJLabel("Supprimé: ", 150);
 		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(80, PanelUtils.COMPONENT_HEIGHT));
+		deleted.setPreferredSize(new Dimension(80, ComponentBuilder.COMPONENT_HEIGHT));
 		deleted.setHorizontalAlignment(SwingConstants.CENTER);
 		deletedPanel.add(deletedLabel);
 		deletedPanel.add(deleted);
@@ -284,7 +285,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private void initButtons(JPanel header) {
 		JPanel buttons = new JPanel(new GridLayout(1, 7));
 		// SEARCH
-		search = PanelUtils.createJButton("Rechercher", 120, Constant.ICON_SEARCH);
+		search = ComponentBuilder.createJButton("Rechercher", 120, Constant.ICON_SEARCH);
 		search.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -296,7 +297,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		});
 		buttons.add(search);
 		// RESET
-		JButton reset = PanelUtils.createJButton("Réinitialiser", 120, Constant.ICON_ERASE);
+		JButton reset = ComponentBuilder.createJButton("Réinitialiser", 120, Constant.ICON_ERASE);
 		reset.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -308,7 +309,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		});
 		buttons.add(reset);
 		// hideFileList
-		hideFileList = PanelUtils.createJButton("Cacher la liste des fichiers", 180, Constant.ICON_HIDE);
+		hideFileList = ComponentBuilder.createJButton("Cacher la liste des fichiers", 180, Constant.ICON_HIDE);
 		hideFileList.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -330,7 +331,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		});
 		buttons.add(hideFileList);
 		// hideCompoList
-		hideCompoList = PanelUtils.createJButton("Cacher la liste des compositions", 200, Constant.ICON_HIDE);
+		hideCompoList = ComponentBuilder.createJButton("Cacher la liste des compositions", 200, Constant.ICON_HIDE);
 		hideCompoList.addActionListener(new AbstractAction() {
 
 			private static final long serialVersionUID = 1L;
@@ -352,7 +353,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		});
 		buttons.add(hideCompoList);
 		// Delete Btn
-		JButton delete = PanelUtils.createJButton("<html>Supprimer les compositions sélectionnées</html>", 200,
+		JButton delete = ComponentBuilder.createJButton("<html>Supprimer les compositions sélectionnées</html>", 200,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
 			PanelUtils.deleteCompositionAction(artistPanel, this, compositionList, compoModel.getSelected(),
@@ -361,7 +362,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		});
 		buttons.add(delete);
 		// CSV
-		JButton csv = PanelUtils.createJButton("<html>Télécharger la liste des fichiers en CSV</html>", 300,
+		JButton csv = ComponentBuilder.createJButton("<html>Télécharger la liste des fichiers en CSV</html>", 300,
 				Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
@@ -384,7 +385,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		buttons.add(csv);
 		// Label pour afficher les resultats
 		JPanel resultPanel = new JPanel();
-		resultLabel = PanelUtils.createJLabel("", 400);
+		resultLabel = ComponentBuilder.createJLabel("", 400);
 		resultLabel.setForeground(new Color(8, 187, 81));
 		Font labelFont2 = resultLabel.getFont();
 		resultLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 20));
