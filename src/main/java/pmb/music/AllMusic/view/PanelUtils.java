@@ -40,6 +40,8 @@ import org.apache.log4j.Logger;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
 import org.kordamp.ikonli.swing.FontIcon;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Composition;
@@ -62,6 +64,7 @@ public class PanelUtils {
 	private static final Logger LOG = Logger.getLogger(PanelUtils.class);
 	public static final int PANEL_HEIGHT = 70;
 	public static final int COMPONENT_HEIGHT = 25;
+	public static final int LABEL_HEIGHT = 15;
 	public static final FocusListener selectAll = new FocusListener() {
 		@Override
 		public void focusLost(FocusEvent e) {
@@ -521,12 +524,12 @@ public class PanelUtils {
 			boxPanel = new JPanel();
 		}
 		PanelUtils.setSize(boxPanel, widthPanel, PanelUtils.PANEL_HEIGHT);
-		JComboCheckBox cat = new JComboCheckBox(values);
-		cat.setPreferredSize(new Dimension(widthBox, PanelUtils.COMPONENT_HEIGHT));
+		JComboCheckBox box = new JComboCheckBox(values);
+		box.setPreferredSize(new Dimension(widthBox, PanelUtils.COMPONENT_HEIGHT));
 		boxPanel.add(PanelUtils.createJLabel(label, widthLabel));
-		boxPanel.add(cat);
+		boxPanel.add(box);
 		parent.add(boxPanel);
-		return cat;
+		return box;
 	}
 
 	/**
@@ -544,15 +547,49 @@ public class PanelUtils {
 			int panelWidth, int labelWidth, int inputWidth) {
 		MyInputText text = new MyInputText(JTextField.class, inputWidth);
 		text.getInput().addFocusListener(PanelUtils.selectAll);
-		JComboBox<String> searchRange = new JComboBox<>(comboBoxValues);
-		PanelUtils.setSize(searchRange, 45, PanelUtils.COMPONENT_HEIGHT);
-		JComboBoxInput input = new JComboBoxInput(text, searchRange);
+		JComboBox<String> box = new JComboBox<>(comboBoxValues);
+		PanelUtils.setSize(box, 45, PanelUtils.COMPONENT_HEIGHT);
+		JComboBoxInput input = new JComboBoxInput(text, box);
 
-		JPanel publiPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(publiPanel, panelWidth, PanelUtils.PANEL_HEIGHT);
-		publiPanel.add(PanelUtils.createJLabel(label, labelWidth));
-		publiPanel.add(input);
-		parent.add(publiPanel);
+		JPanel panel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		PanelUtils.setSize(panel, panelWidth, PanelUtils.PANEL_HEIGHT);
+		panel.add(PanelUtils.createJLabel(label, labelWidth));
+		panel.add(input);
+		parent.add(panel);
+		return input;
+	}
+
+	/**
+	 * Creates a MyInputText and the layout around it.
+	 * 
+	 * @param parent its parent panel
+	 * @param values its values
+	 * @param filterMode a TextMatcherEditor constant
+	 * @param labelText its label
+	 * @param labelWidth label width
+	 * @param inputWidth its width
+	 * @param panelWidth panel width
+	 * @return
+	 */
+	public static MyInputText createMyInputText(JPanel parent, List<String> values, Integer filterMode,
+			LayoutManager layout, String labelText, int labelWidth, int inputWidth, int panelWidth) {
+		JPanel inputPanel;
+		if (layout != null) {
+			inputPanel = new JPanel(layout);
+		} else {
+			inputPanel = new JPanel();
+		}
+		JLabel label = PanelUtils.createJLabel(labelText, labelWidth);
+		MyInputText input = new MyInputText(JComboBox.class, inputWidth);
+		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) input.getInput(),
+				GlazedLists.eventListOf(values.toArray()));
+		if (filterMode != null) {
+			install.setFilterMode(filterMode);
+		}
+		PanelUtils.setSize(inputPanel, panelWidth, PanelUtils.PANEL_HEIGHT);
+		inputPanel.add(label);
+		inputPanel.add(input);
+		parent.add(inputPanel);
 		return input;
 	}
 
@@ -562,7 +599,7 @@ public class PanelUtils {
 
 	public static JLabel createJLabel(String text, int width) {
 		JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
-		setSize(jLabel, width, COMPONENT_HEIGHT);
+		setSize(jLabel, width, LABEL_HEIGHT);
 		return jLabel;
 	}
 

@@ -32,7 +32,6 @@ import javax.swing.AbstractAction;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -54,9 +53,7 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
-import ca.odell.glazedlists.GlazedLists;
 import ca.odell.glazedlists.matchers.TextMatcherEditor;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -212,16 +209,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private void initInputs(JPanel header) {
 		JPanel inputs = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		// Auteur
-		JPanel auteurPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(auteurPanel, 190, PanelUtils.PANEL_HEIGHT);
-		JLabel auteurLabel = PanelUtils.createJLabel("Auteur : ", 140);
-		auteur = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(),
-				GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
-		install.setFilterMode(TextMatcherEditor.CONTAINS);
-		auteurPanel.add(auteurLabel);
-		auteurPanel.add(auteur);
-		inputs.add(auteurPanel);
+		auteur = PanelUtils.createMyInputText(inputs, OngletPanel.getAuthorList(), TextMatcherEditor.CONTAINS,
+				new FlowLayout(FlowLayout.CENTER, 0, 0), "Auteur : ", 140, 150, 190);
 		// Nom du fichier
 		JPanel namePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(namePanel, 240, PanelUtils.PANEL_HEIGHT);
