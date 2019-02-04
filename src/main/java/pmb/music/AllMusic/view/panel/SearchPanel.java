@@ -48,7 +48,6 @@ import javax.swing.table.TableRowSorter;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.matchers.TextMatcherEditor;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -61,6 +60,8 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ComponentBuilder;
+import pmb.music.AllMusic.view.ComponentBuilderConfiguration;
 import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
@@ -169,7 +170,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			}
 		};
 
-		search = PanelUtils.createJButton("Rechercher", 220, Constant.ICON_SEARCH);
+		search = ComponentBuilder.createJButton("Rechercher", 220, Constant.ICON_SEARCH);
 		search.addActionListener(searchAction);
 		search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW)
 				.put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0), "Enter_pressed");
@@ -177,21 +178,12 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		top.add(search);
 
 		// Clear Btn
-		JButton clear = PanelUtils.createJButton("Réinitialiser recherche", 200, Constant.ICON_ERASE);
-		AbstractAction cleanAction = new AbstractAction() {
-
-			private static final long serialVersionUID = 1L;
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				cleanAction();
-			}
-		};
-		clear.addActionListener(cleanAction);
+		JButton clear = ComponentBuilder.createJButton("Réinitialiser recherche", 200, Constant.ICON_ERASE);
+		clear.addActionListener((ActionEvent e) -> cleanAction());
 		top.add(clear);
 
 		// Delete Btn
-		JButton delete = PanelUtils.createJButton("Supprimer les compositions sélectionnées", 300,
+		JButton delete = ComponentBuilder.createJButton("Supprimer les compositions sélectionnées", 300,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
 			PanelUtils.deleteCompositionAction(artistPanel, fichierPanel, compoResult, model.getSelected(), deleteLabel,
@@ -201,13 +193,13 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		top.add(delete);
 
 		// Modif Btn
-		JButton modif = PanelUtils.createJButton("Modifier la composition sélectionnée", 300, Constant.ICON_EDIT);
+		JButton modif = ComponentBuilder.createJButton("Modifier la composition sélectionnée", 300, Constant.ICON_EDIT);
 		modif.addActionListener(
 				(ActionEvent e) -> modifyCompositionAction((Vector<String>) model.getSelected().get(0)));
 		top.add(modif);
 
 		// CSV
-		JButton csv = PanelUtils.createJButton("Télécharger le résultat de la recherche en CSV", 300,
+		JButton csv = ComponentBuilder.createJButton("Télécharger le résultat de la recherche en CSV", 300,
 				Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
@@ -244,26 +236,26 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		searchFields.setLayout(new GridLayout(2, 5));
 
 		// Artiste
-		artist = PanelUtils.createMyInputText(searchFields, OngletPanel.getArtistList(), null, null, "Artiste : ", 200,
-				150, 300);
+		artist = ComponentBuilder.createMyInputText(new ComponentBuilderConfiguration(searchFields,
+				OngletPanel.getArtistList(), "Artiste : ", false, false, 300, 150, 200));
 
 		// Titre
-		titre = PanelUtils.createMyInputText(searchFields, OngletPanel.getTitleList(), null, null, "Titre : ", 180, 150,
-				300);
+		titre = ComponentBuilder.createMyInputText(new ComponentBuilderConfiguration(searchFields,
+				OngletPanel.getTitleList(), "Titre : ", false, false, 300, 150, 180));
 
 		// SearchMethod
 		JPanel searchMethodPanel = new JPanel();
-		JLabel searchMethodLabel = PanelUtils.createJLabel("Méthode de recherche : ", 150);
+		JLabel searchMethodLabel = ComponentBuilder.createJLabel("Méthode de recherche : ", 150);
 		searchMethod = new JComboBox<>(
 				Arrays.asList(SearchMethod.values()).stream().map(SearchMethod::getValue).toArray(String[]::new));
-		searchMethod.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		searchMethod.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
 		searchMethodPanel.add(searchMethodLabel);
 		searchMethodPanel.add(searchMethod);
 		searchFields.add(searchMethodPanel);
 
 		// Nom du fichier
 		JPanel fileNamePanel = new JPanel();
-		JLabel fileNameLabel = PanelUtils.createJLabel("Nom du fichier : ", 250);
+		JLabel fileNameLabel = ComponentBuilder.createJLabel("Nom du fichier : ", 250);
 		fileName = new MyInputText(JTextField.class, 150);
 		fileName.getInput().addFocusListener(PanelUtils.selectAll);
 		fileNamePanel.add(fileNameLabel);
@@ -271,17 +263,17 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		searchFields.add(fileNamePanel);
 
 		// Auteur
-		author = PanelUtils.createMyInputText(searchFields, OngletPanel.getAuthorList(), TextMatcherEditor.CONTAINS,
-				null, "Auteur : ", 140, 150, 150);
+		author = ComponentBuilder.createMyInputText(new ComponentBuilderConfiguration(searchFields,
+				OngletPanel.getAuthorList(), "Auteur : ", false, true, 150, 150, 140));
 
 		// Type
-		type = PanelUtils.createJComboCheckBox(searchFields,
+		type = ComponentBuilder.createJComboCheckBox(new ComponentBuilderConfiguration(searchFields,
 				Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType).collect(Collectors.toList()),
-				"Type : ", null, 180, 150, 180);
+				"Type : ", false, false, 180, 150, 180));
 
 		// Range
 		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		JLabel rangeLabel = PanelUtils.createJLabel("Année(s) du classement : ", 200);
+		JLabel rangeLabel = ComponentBuilder.createJLabel("Année(s) du classement : ", 200);
 		rangeB = new MyInputText(JTextField.class, 50);
 		rangeE = new MyInputText(JTextField.class, 50);
 		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
@@ -306,21 +298,21 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		searchFields.add(rangePanel);
 
 		// Categorie
-		cat = PanelUtils.createJComboCheckBox(searchFields,
+		cat = ComponentBuilder.createJComboCheckBox(new ComponentBuilderConfiguration(searchFields,
 				Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()), "Catégorie : ",
-				null, 180, 150, 150);
+				false, false, 180, 150, 150));
 
 		// Publi
-		publi = PanelUtils.createJComboBoxInput(searchFields,
-				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new),
-				"Année de publication : ", 230, 240, 100);
+		publi = ComponentBuilder.createJComboBoxInput(new ComponentBuilderConfiguration(searchFields,
+				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).collect(Collectors.toList()),
+				"Année de publication : ", false, false, 230, 100, 240));
 
 		// inFiles
 		JPanel inFilesPanel = new JPanel();
-		PanelUtils.setSize(inFilesPanel, 200, PanelUtils.PANEL_HEIGHT);
-		JLabel inFilesLabel = PanelUtils.createJLabel("Rechercher dans les fichiers : ", 150);
+		PanelUtils.setSize(inFilesPanel, 200, ComponentBuilder.PANEL_HEIGHT);
+		JLabel inFilesLabel = ComponentBuilder.createJLabel("Rechercher dans les fichiers : ", 150);
 		inFiles = new JCheckBox();
-		PanelUtils.setSize(inFiles, 150, PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.setSize(inFiles, 150, ComponentBuilder.COMPONENT_HEIGHT);
 		inFiles.setSelected(true);
 		inFiles.setHorizontalAlignment(SwingConstants.CENTER);
 		inFilesPanel.add(inFilesLabel);
@@ -329,9 +321,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 		// Sorted
 		JPanel sortedPanel = new JPanel();
-		JLabel sortedLabel = PanelUtils.createJLabel("Trié : ", 150);
+		JLabel sortedLabel = ComponentBuilder.createJLabel("Trié : ", 150);
 		sorted = new JCheckBox();
-		sorted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		sorted.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
 		sorted.setHorizontalAlignment(SwingConstants.CENTER);
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
@@ -339,9 +331,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 		// Deleted
 		JPanel deletedPanel = new JPanel();
-		JLabel deletedLabel = PanelUtils.createJLabel("Supprimé : ", 150);
+		JLabel deletedLabel = ComponentBuilder.createJLabel("Supprimé : ", 150);
 		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		deleted.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
 		deleted.setHorizontalAlignment(SwingConstants.CENTER);
 		deletedPanel.add(deletedLabel);
 		deletedPanel.add(deleted);
@@ -349,9 +341,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 		// TopTen
 		JPanel topPanel = new JPanel();
-		JLabel topLabel = PanelUtils.createJLabel("Top 10 : ", 150);
+		JLabel topLabel = ComponentBuilder.createJLabel("Top 10 : ", 150);
 		topTen = new JCheckBox();
-		topTen.setPreferredSize(new Dimension(150, PanelUtils.COMPONENT_HEIGHT));
+		topTen.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
 		topTen.setHorizontalAlignment(SwingConstants.CENTER);
 		topPanel.add(topLabel);
 		topPanel.add(topTen);
@@ -359,7 +351,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 		// Nombre de résultat
 		JPanel countPanel = new JPanel();
-		countLabel = PanelUtils.createJLabel("", 200);
+		countLabel = ComponentBuilder.createJLabel("", 200);
 		countLabel.setForeground(new Color(8, 187, 81));
 		Font labelFont = countLabel.getFont();
 		countLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 25));
@@ -369,7 +361,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 		// Nombre de suppression
 		JPanel deletePanel = new JPanel();
-		deleteLabel = PanelUtils.createJLabel("", 400);
+		deleteLabel = ComponentBuilder.createJLabel("", 400);
 		deleteLabel.setForeground(new Color(8, 187, 81));
 		Font labelFont2 = deleteLabel.getFont();
 		deleteLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 20));

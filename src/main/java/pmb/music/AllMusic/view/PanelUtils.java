@@ -3,9 +3,7 @@ package pmb.music.AllMusic.view;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
-import java.awt.FlowLayout;
 import java.awt.FontMetrics;
-import java.awt.LayoutManager;
 import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.event.FocusEvent;
@@ -23,25 +21,18 @@ import java.util.Vector;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
-import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 
 import org.apache.log4j.Logger;
-import org.kordamp.ikonli.fontawesome.FontAwesome;
-import org.kordamp.ikonli.swing.FontIcon;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Composition;
@@ -51,9 +42,6 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
-import pmb.music.AllMusic.view.component.JComboBoxInput;
-import pmb.music.AllMusic.view.component.JComboCheckBox;
-import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
@@ -62,9 +50,6 @@ import pmb.music.AllMusic.view.panel.FichierPanel;
 public class PanelUtils {
 
 	private static final Logger LOG = Logger.getLogger(PanelUtils.class);
-	public static final int PANEL_HEIGHT = 70;
-	public static final int COMPONENT_HEIGHT = 25;
-	public static final int LABEL_HEIGHT = 15;
 	public static final FocusListener selectAll = new FocusListener() {
 		@Override
 		public void focusLost(FocusEvent e) {
@@ -496,111 +481,8 @@ public class PanelUtils {
 		panel.add(Box.createRigidArea(new Dimension(rigidSize, 0)));
 	}
 
-	public static JButton createJButton(String label, int width, FontAwesome icon) {
-		JButton btn = new JButton(label, FontIcon.of(icon));
-		btn.setBackground(Color.white);
-		btn.setPreferredSize(new Dimension(width, PanelUtils.PANEL_HEIGHT));
-		return btn;
-	}
-
-	/**
-	 * Creates a JComboCheckBox and the layout around it.
-	 * 
-	 * @param parent parent panel to be add
-	 * @param values values of the box
-	 * @param label label
-	 * @param layout layout for the box panel
-	 * @param widthPanel width of the box panel
-	 * @param widthBox width of the box
-	 * @param widthLabel with of the label
-	 * @return
-	 */
-	public static JComboCheckBox createJComboCheckBox(JPanel parent, List<String> values, String label,
-			LayoutManager layout, int widthPanel, int widthBox, int widthLabel) {
-		JPanel boxPanel;
-		if (layout != null) {
-			boxPanel = new JPanel(layout);
-		} else {
-			boxPanel = new JPanel();
-		}
-		PanelUtils.setSize(boxPanel, widthPanel, PanelUtils.PANEL_HEIGHT);
-		JComboCheckBox box = new JComboCheckBox(values);
-		box.setPreferredSize(new Dimension(widthBox, PanelUtils.COMPONENT_HEIGHT));
-		boxPanel.add(PanelUtils.createJLabel(label, widthLabel));
-		boxPanel.add(box);
-		parent.add(boxPanel);
-		return box;
-	}
-
-	/**
-	 * Creates a JComboBoxInput and the layout around it.
-	 * 
-	 * @param parent parent panel to be add
-	 * @param comboBoxValues values of the combo box
-	 * @param label label
-	 * @param widthPanel width of the box panel
-	 * @param widthLabel with of the label
-	 * @param inputWidth width of the input
-	 * @return
-	 */
-	public static JComboBoxInput createJComboBoxInput(JPanel parent, String[] comboBoxValues, String label,
-			int panelWidth, int labelWidth, int inputWidth) {
-		MyInputText text = new MyInputText(JTextField.class, inputWidth);
-		text.getInput().addFocusListener(PanelUtils.selectAll);
-		JComboBox<String> box = new JComboBox<>(comboBoxValues);
-		PanelUtils.setSize(box, 45, PanelUtils.COMPONENT_HEIGHT);
-		JComboBoxInput input = new JComboBoxInput(text, box);
-
-		JPanel panel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(panel, panelWidth, PanelUtils.PANEL_HEIGHT);
-		panel.add(PanelUtils.createJLabel(label, labelWidth));
-		panel.add(input);
-		parent.add(panel);
-		return input;
-	}
-
-	/**
-	 * Creates a MyInputText and the layout around it.
-	 * 
-	 * @param parent its parent panel
-	 * @param values its values
-	 * @param filterMode a TextMatcherEditor constant
-	 * @param labelText its label
-	 * @param labelWidth label width
-	 * @param inputWidth its width
-	 * @param panelWidth panel width
-	 * @return
-	 */
-	public static MyInputText createMyInputText(JPanel parent, List<String> values, Integer filterMode,
-			LayoutManager layout, String labelText, int labelWidth, int inputWidth, int panelWidth) {
-		JPanel inputPanel;
-		if (layout != null) {
-			inputPanel = new JPanel(layout);
-		} else {
-			inputPanel = new JPanel();
-		}
-		JLabel label = PanelUtils.createJLabel(labelText, labelWidth);
-		MyInputText input = new MyInputText(JComboBox.class, inputWidth);
-		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) input.getInput(),
-				GlazedLists.eventListOf(values.toArray()));
-		if (filterMode != null) {
-			install.setFilterMode(filterMode);
-		}
-		PanelUtils.setSize(inputPanel, panelWidth, PanelUtils.PANEL_HEIGHT);
-		inputPanel.add(label);
-		inputPanel.add(input);
-		parent.add(inputPanel);
-		return input;
-	}
-
 	public static void setBorder(JComponent comp, Color c) {
 		comp.setBorder(BorderFactory.createLineBorder(c, 2));
-	}
-
-	public static JLabel createJLabel(String text, int width) {
-		JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
-		setSize(jLabel, width, LABEL_HEIGHT);
-		return jLabel;
 	}
 
 	private PanelUtils() {
