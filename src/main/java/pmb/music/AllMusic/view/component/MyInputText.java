@@ -12,6 +12,7 @@ import javax.swing.UIManager;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 
 /**
@@ -54,7 +55,7 @@ public class MyInputText extends JPanel {
 		});
 		this.add(this.reset);
 		PanelUtils.setSize(this.input, width - this.reset.getWidth(),
-				PanelUtils.COMPONENT_HEIGHT + this.reset.getHeight());
+				ComponentBuilder.COMPONENT_HEIGHT + this.reset.getHeight());
 	}
 
 	/**

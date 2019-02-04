@@ -50,7 +50,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.matchers.TextMatcherEditor;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -64,6 +63,8 @@ import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ComponentBuilder;
+import pmb.music.AllMusic.view.ComponentBuilderConfiguration;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
@@ -138,17 +139,17 @@ public class ArtistPanel extends JPanel {
 		LOG.debug("Start initHeader");
 		JPanel header = new JPanel();
 		// Artist
-		artist = PanelUtils.createMyInputText(header, OngletPanel.getArtistList(), null, null, "Artiste : ", 150, 150,
-				200);
+		artist = ComponentBuilder.createMyInputText(new ComponentBuilderConfiguration(header,
+				OngletPanel.getArtistList(), "Artiste : ", false, false, 200, 150, 150));
 		// Publi
-		publi = PanelUtils.createJComboBoxInput(header,
-				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new),
-				"Année de publication : ", 230, 200, 75);
+		publi = ComponentBuilder.createJComboBoxInput(new ComponentBuilderConfiguration(header,
+				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).collect(Collectors.toList()),
+				"Année de publication : ", false, false, 230, 200, 75));
 		// Range
 		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(rangePanel, 300, PanelUtils.PANEL_HEIGHT);
+		PanelUtils.setSize(rangePanel, 300, ComponentBuilder.PANEL_HEIGHT);
 		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
-		PanelUtils.setSize(rangeLabel, 180, PanelUtils.COMPONENT_HEIGHT);
+		PanelUtils.setSize(rangeLabel, 180, ComponentBuilder.COMPONENT_HEIGHT);
 		rangeB = new MyInputText(JTextField.class, 90);
 		rangeE = new MyInputText(JTextField.class, 90);
 		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
@@ -172,28 +173,28 @@ public class ArtistPanel extends JPanel {
 		rangePanel.add(rangeE);
 		header.add(rangePanel);
 		// Auteur
-		auteur = PanelUtils.createMyInputText(header, OngletPanel.getAuthorList(), TextMatcherEditor.CONTAINS, null,
-				"Auteur : ", 150, 150, 200);
+		auteur = ComponentBuilder.createMyInputText(new ComponentBuilderConfiguration(header,
+				OngletPanel.getAuthorList(), "Auteur : ", false, true, 150, 150, 200));
 		// Categorie
-		cat = PanelUtils.createJComboCheckBox(header,
+		cat = ComponentBuilder.createJComboCheckBox(new ComponentBuilderConfiguration(header,
 				Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()), "Catégorie : ",
-				new FlowLayout(FlowLayout.CENTER, 0, 0), 180, 120, 150);
+				true, false, 180, 120, 150));
 		// Deleted
 		JPanel deletedPanel = new JPanel();
-		deletedPanel.setPreferredSize(new Dimension(90, PanelUtils.PANEL_HEIGHT));
+		deletedPanel.setPreferredSize(new Dimension(90, ComponentBuilder.PANEL_HEIGHT));
 		JLabel deletedLabel = new JLabel("Supprimés: ");
 		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(50, PanelUtils.COMPONENT_HEIGHT));
+		deleted.setPreferredSize(new Dimension(50, ComponentBuilder.COMPONENT_HEIGHT));
 		deleted.setHorizontalAlignment(SwingConstants.CENTER);
 		deletedPanel.add(deletedLabel);
 		deletedPanel.add(deleted);
 		header.add(deletedPanel);
 		// SEARCH
-		search = PanelUtils.createJButton("Rechercher", 150, Constant.ICON_SEARCH);
+		search = ComponentBuilder.createJButton("Rechercher", 150, Constant.ICON_SEARCH);
 		search.addActionListener((ActionEvent e) -> searchAction());
 		header.add(search);
 		// RESET
-		JButton reset = PanelUtils.createJButton("Réinitialiser", 150, Constant.ICON_ERASE);
+		JButton reset = ComponentBuilder.createJButton("Réinitialiser", 150, Constant.ICON_ERASE);
 		reset.addActionListener((ActionEvent e) -> resetAction());
 		header.add(reset);
 		LOG.debug("End initHeader");
@@ -267,7 +268,7 @@ public class ArtistPanel extends JPanel {
 	private JButton initCsvBtn() {
 		LOG.debug("Start initCsvBtn");
 		// CSV
-		JButton csv = PanelUtils.createJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
+		JButton csv = ComponentBuilder.createJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			LOG.debug("Start Csv");
 			List<String> c = Arrays
