@@ -48,9 +48,7 @@ import javax.swing.table.TableRowSorter;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.GlazedLists;
 import ca.odell.glazedlists.matchers.TextMatcherEditor;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -246,25 +244,12 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		searchFields.setLayout(new GridLayout(2, 5));
 
 		// Artiste
-		JPanel panelArtist = new JPanel();
-		JLabel artistLabel = PanelUtils.createJLabel("Artiste : ", 200);
-		artist = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) artist.getInput(),
-				GlazedLists.eventListOf(OngletPanel.getArtistList().toArray()));
-		PanelUtils.setSize(panelArtist, 300, PanelUtils.PANEL_HEIGHT);
-		panelArtist.add(artistLabel);
-		panelArtist.add(artist);
-		searchFields.add(panelArtist);
+		artist = PanelUtils.createMyInputText(searchFields, OngletPanel.getArtistList(), null, null, "Artiste : ", 200,
+				150, 300);
 
 		// Titre
-		JPanel titrePanel = new JPanel();
-		JLabel titreLabel = PanelUtils.createJLabel("Titre : ", 180);
-		titre = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) titre.getInput(),
-				GlazedLists.eventListOf(OngletPanel.getTitleList().toArray()));
-		titrePanel.add(titreLabel);
-		titrePanel.add(titre);
-		searchFields.add(titrePanel);
+		titre = PanelUtils.createMyInputText(searchFields, OngletPanel.getTitleList(), null, null, "Titre : ", 180, 150,
+				300);
 
 		// SearchMethod
 		JPanel searchMethodPanel = new JPanel();
@@ -286,15 +271,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		searchFields.add(fileNamePanel);
 
 		// Auteur
-		JPanel authorPanel = new JPanel();
-		JLabel authorLabel = PanelUtils.createJLabel("Auteur : ", 150);
-		author = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) author.getInput(),
-				GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
-		install.setFilterMode(TextMatcherEditor.CONTAINS);
-		authorPanel.add(authorLabel);
-		authorPanel.add(author);
-		searchFields.add(authorPanel);
+		author = PanelUtils.createMyInputText(searchFields, OngletPanel.getAuthorList(), TextMatcherEditor.CONTAINS,
+				null, "Auteur : ", 140, 150, 150);
 
 		// Type
 		type = PanelUtils.createJComboCheckBox(searchFields,
