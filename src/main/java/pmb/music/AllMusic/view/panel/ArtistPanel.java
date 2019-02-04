@@ -31,7 +31,6 @@ import java.util.stream.Collectors;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -51,9 +50,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.log4j.Logger;
 
-import ca.odell.glazedlists.GlazedLists;
 import ca.odell.glazedlists.matchers.TextMatcherEditor;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
@@ -141,15 +138,8 @@ public class ArtistPanel extends JPanel {
 		LOG.debug("Start initHeader");
 		JPanel header = new JPanel();
 		// Artist
-		JPanel artistPanel = new JPanel();
-		artistPanel.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
-		JLabel artistLabel = new JLabel("Artiste : ");
-		artist = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport.install((JComboBox<?>) artist.getInput(),
-				GlazedLists.eventListOf(OngletPanel.getArtistList().toArray()));
-		artistPanel.add(artistLabel);
-		artistPanel.add(artist);
-		header.add(artistPanel);
+		artist = PanelUtils.createMyInputText(header, OngletPanel.getArtistList(), null, null, "Artiste : ", 150, 150,
+				200);
 		// Publi
 		publi = PanelUtils.createJComboBoxInput(header,
 				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new),
@@ -182,16 +172,8 @@ public class ArtistPanel extends JPanel {
 		rangePanel.add(rangeE);
 		header.add(rangePanel);
 		// Auteur
-		JPanel auteurPanel = new JPanel();
-		auteurPanel.setPreferredSize(new Dimension(200, PanelUtils.PANEL_HEIGHT));
-		JLabel auteurLabel = new JLabel("Auteur : ");
-		auteur = new MyInputText(JComboBox.class, 150);
-		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) auteur.getInput(),
-				GlazedLists.eventListOf(OngletPanel.getAuthorList().toArray()));
-		install.setFilterMode(TextMatcherEditor.CONTAINS);
-		auteurPanel.add(auteurLabel);
-		auteurPanel.add(auteur);
-		header.add(auteurPanel);
+		auteur = PanelUtils.createMyInputText(header, OngletPanel.getAuthorList(), TextMatcherEditor.CONTAINS, null,
+				"Auteur : ", 150, 150, 200);
 		// Categorie
 		cat = PanelUtils.createJComboCheckBox(header,
 				Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()), "Catégorie : ",
