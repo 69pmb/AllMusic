@@ -24,6 +24,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Cat;
+import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
@@ -61,8 +62,11 @@ public class ModifyFichierDialog extends JDialog {
 		LOG.debug("End ModifyFichierDialog");
 	}
 
+	@SuppressWarnings("unchecked")
 	private void initComposant() {
 		LOG.debug("Start initComposant");
+		JPanel content = new JPanel();
+
 		// FileName
 		JPanel fileNamePanel = new JPanel();
 		fileNamePanel.setPreferredSize(new Dimension(450, 60));
@@ -71,6 +75,7 @@ public class ModifyFichierDialog extends JDialog {
 		fileName.setPreferredSize(new Dimension(430, 30));
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
+		content.add(fileNamePanel);
 
 		// Publish Year
 		JPanel publishYearPanel = new JPanel();
@@ -80,6 +85,7 @@ public class ModifyFichierDialog extends JDialog {
 		publishYear.setPreferredSize(new Dimension(50, 30));
 		publishYearPanel.add(publishYearLabel);
 		publishYearPanel.add(publishYear);
+		content.add(publishYearPanel);
 
 		// Range
 		JPanel rangePanel = new JPanel();
@@ -93,20 +99,13 @@ public class ModifyFichierDialog extends JDialog {
 		rangePanel.add(rangeLabel);
 		rangePanel.add(rangeDateBegin);
 		rangePanel.add(rangeDateEnd);
+		content.add(rangePanel);
 
 		// Cat
-		JPanel catPanel = new JPanel();
-		catPanel.setPreferredSize(new Dimension(180, 60));
-		JLabel catLabel = new JLabel("Catégorie : ");
-		JComboBox<Cat> cat = new JComboBox<>();
-		Cat[] values = Cat.values();
-		for (int i = 0; i < values.length; i++) {
-			cat.addItem(values[i]);
-		}
-		cat.setPreferredSize(new Dimension(150, 30));
-		cat.setSelectedItem(Cat.getByValue((String) fichier.get(FichierPanel.INDEX_FILE_CAT)));
-		catPanel.add(catLabel);
-		catPanel.add(cat);
+		JComboBox<Cat> cat = (JComboBox<Cat>) new ComponentBuilder<Cat>(JComboBox.class).withParent(content)
+				.withPanelWidth(180).withLabel("Catégorie : ").withValues(Cat.values())
+				.withInitialValue(Cat.getByValue((String) fichier.get(FichierPanel.INDEX_FILE_CAT)))
+				.withComponentWidth(150).withLabelWidth(150).build();
 
 		// Size
 		JPanel sizePanel = new JPanel();
@@ -116,6 +115,7 @@ public class ModifyFichierDialog extends JDialog {
 		size.setPreferredSize(new Dimension(50, 30));
 		sizePanel.add(sizeLabel);
 		sizePanel.add(size);
+		content.add(sizePanel);
 
 		// Sorted
 		JPanel sortedPanel = new JPanel();
@@ -127,13 +127,6 @@ public class ModifyFichierDialog extends JDialog {
 						: Boolean.FALSE);
 		sortedPanel.add(sortedLabel);
 		sortedPanel.add(sorted);
-
-		JPanel content = new JPanel();
-		content.add(fileNamePanel);
-		content.add(publishYearPanel);
-		content.add(catPanel);
-		content.add(rangePanel);
-		content.add(sizePanel);
 		content.add(sortedPanel);
 
 		JPanel control = new JPanel();

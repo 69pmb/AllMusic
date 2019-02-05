@@ -8,7 +8,6 @@ import java.awt.event.ComponentListener;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -40,9 +39,9 @@ public class OngletPanel extends JPanel {
 	private static final Logger LOG = Logger.getLogger(OngletPanel.class);
 	private JTabbedPane onglets;
 	private static Score score;
-	private static List<String> artistList;
-	private static List<String> titleList;
-	private static List<String> authorList;
+	private static String[] artistList;
+	private static String[] titleList;
+	private static String[] authorList;
 
 	/**
 	 * Génère les onglets.
@@ -171,7 +170,7 @@ public class OngletPanel extends JPanel {
 	 */
 	private static void setArtistList(List<Composition> importXML) {
 		artistList = importXML.parallelStream().map(Composition::getArtist).map(WordUtils::capitalize).distinct()
-				.sorted().collect(Collectors.toList());
+				.sorted().toArray(String[]::new);
 	}
 
 	/**
@@ -182,7 +181,7 @@ public class OngletPanel extends JPanel {
 	 */
 	private static void setTitleList(List<Composition> importXML) {
 		titleList = importXML.parallelStream().map(Composition::getTitre).map(WordUtils::capitalize).distinct().sorted()
-				.collect(Collectors.toList());
+				.toArray(String[]::new);
 	}
 
 	/**
@@ -193,7 +192,7 @@ public class OngletPanel extends JPanel {
 	 */
 	private static void setAuthorList(List<Composition> importXML) {
 		authorList = importXML.parallelStream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
-				.map(WordUtils::capitalize).distinct().sorted().collect(Collectors.toList());
+				.map(WordUtils::capitalize).distinct().sorted().toArray(String[]::new);
 	}
 
 	private String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
@@ -240,15 +239,15 @@ public class OngletPanel extends JPanel {
 		return score;
 	}
 
-	public static List<String> getArtistList() {
+	public static String[] getArtistList() {
 		return artistList;
 	}
 
-	public static List<String> getTitleList() {
+	public static String[] getTitleList() {
 		return titleList;
 	}
 
-	public static List<String> getAuthorList() {
+	public static String[] getAuthorList() {
 		return authorList;
 	}
 }

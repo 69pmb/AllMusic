@@ -1,7 +1,6 @@
 package pmb.music.AllMusic.view;
 
 import java.awt.Color;
-import java.util.List;
 
 import javax.swing.JComponent;
 import javax.swing.JPanel;
@@ -9,14 +8,14 @@ import javax.swing.JPanel;
 /**
  * Created by PBR on 4 févr. 2019.
  */
-public class ComponentBuilderConfiguration {
+public class ComponentBuilderConfiguration<T> {
 	private Class<? extends JComponent> type;
 	private JPanel parent;
-	private List<String> values;
+	private T[] values;
 	private String label;
 	private boolean isFlowLayout;
 	private boolean isFilterContains;
-	private boolean defaultBooleanValue;
+	private T initialValue;
 	private int panelWidth;
 	private int componentWidth;
 	private int labelWidth;
@@ -48,11 +47,11 @@ public class ComponentBuilderConfiguration {
 		this.parent = parent;
 	}
 
-	public List<String> getValues() {
+	public T[] getValues() {
 		return values;
 	}
 
-	public void setValues(List<String> values) {
+	public void setValues(T[] values) {
 		this.values = values;
 	}
 
@@ -80,6 +79,14 @@ public class ComponentBuilderConfiguration {
 		this.isFilterContains = isFilterContains;
 	}
 
+	public T getInitialValue() {
+		return initialValue;
+	}
+
+	public void setInitialValue(T initialValue) {
+		this.initialValue = initialValue;
+	}
+
 	public int getPanelWidth() {
 		return panelWidth;
 	}
@@ -102,14 +109,6 @@ public class ComponentBuilderConfiguration {
 
 	public void setLabelWidth(int labelWidth) {
 		this.labelWidth = labelWidth;
-	}
-
-	public boolean getDefaultBooleanValue() {
-		return defaultBooleanValue;
-	}
-
-	public void setDefaultBooleanValue(boolean defaultBooleanValue) {
-		this.defaultBooleanValue = defaultBooleanValue;
 	}
 
 	public Color getColor() {

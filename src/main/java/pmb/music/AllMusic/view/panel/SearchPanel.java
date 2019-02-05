@@ -2,7 +2,6 @@ package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -80,7 +79,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	private JLabel deleteLabel;
 	private JButton search;
 
-	private JComboBoxInput publi;
+	private JComboBoxInput<String> publi;
 	private MyInputRange range;
 	private MyInputText fileName;
 	private JCheckBox inFiles;
@@ -223,28 +222,25 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	 * 
 	 * @param header le header de l'onglet
 	 */
+	@SuppressWarnings("unchecked")
 	private void initSearchFields(JPanel header) {
 		LOG.debug("Start initSearchFields");
 		JPanel searchFields = new JPanel();
 		searchFields.setLayout(new GridLayout(2, 5));
 
 		// Artiste
-		artist = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(searchFields)
+		artist = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
 				.withValues(OngletPanel.getArtistList()).withLabel("Artiste : ").withPanelWidth(300)
 				.withComponentWidth(150).withLabelWidth(200).build();
 		// Titre
-		titre = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(searchFields)
+		titre = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
 				.withValues(OngletPanel.getTitleList()).withLabel("Titre : ").withPanelWidth(300)
 				.withComponentWidth(150).withLabelWidth(180).build();
 		// SearchMethod
-		JPanel searchMethodPanel = new JPanel();
-		JLabel searchMethodLabel = ComponentBuilder.buildJLabel("Méthode de recherche : ", 150);
-		searchMethod = new JComboBox<>(
-				Arrays.asList(SearchMethod.values()).stream().map(SearchMethod::getValue).toArray(String[]::new));
-		searchMethod.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
-		searchMethodPanel.add(searchMethodLabel);
-		searchMethodPanel.add(searchMethod);
-		searchFields.add(searchMethodPanel);
+		searchMethod = (JComboBox<String>) new ComponentBuilder<String>(JComboBox.class).withParent(searchFields)
+				.withPanelWidth(200).withLabel("Méthode de recherche : ").withValues(Arrays
+						.asList(SearchMethod.values()).stream().map(SearchMethod::getValue).toArray(String[]::new))
+				.withComponentWidth(150).withLabelWidth(150).build();
 		// Nom du fichier
 		JPanel fileNamePanel = new JPanel();
 		JLabel fileNameLabel = ComponentBuilder.buildJLabel("Nom du fichier : ", 250);
@@ -254,46 +250,46 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		fileNamePanel.add(fileName);
 		searchFields.add(fileNamePanel);
 		// Auteur
-		author = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(searchFields)
+		author = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
 				.withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(150)
 				.withFilterContains(true).withComponentWidth(150).withLabelWidth(140).build();
 		// Type
-		type = (JComboCheckBox) new ComponentBuilder(JComboCheckBox.class).withParent(searchFields)
+		type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(searchFields)
 				.withValues(Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType)
-						.collect(Collectors.toList()))
+						.toArray(String[]::new))
 				.withLabel("Type : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(180).build();
 		// Range
-		range = (MyInputRange) new ComponentBuilder(MyInputRange.class).withParent(searchFields)
+		range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(searchFields)
 				.withLabel("Année(s) du classement : ").withPanelWidth(250).withComponentWidth(100).withLabelWidth(200)
 				.withFlowLayout(true).build();
 		// Categorie
-		cat = (JComboCheckBox) new ComponentBuilder(JComboCheckBox.class).withParent(searchFields)
-				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()))
+		cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(searchFields)
+				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).toArray(String[]::new))
 				.withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(150).build();
 		// Publi
-		publi = (JComboBoxInput) new ComponentBuilder(JComboBoxInput.class).withParent(searchFields)
-				.withValues(Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue)
-						.collect(Collectors.toList()))
+		publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(searchFields)
+				.withValues(
+						Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new))
 				.withLabel("Année de publication : ").withPanelWidth(230).withComponentWidth(100).withLabelWidth(240)
 				.build();
 		// inFiles
-		inFiles = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(searchFields)
-				.withLabel("Rechercher dans les fichiers : ").withDefaultBooleanValue(true).withPanelWidth(200)
+		inFiles = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(searchFields)
+				.withLabel("Rechercher dans les fichiers : ").withInitialValue(true).withPanelWidth(200)
 				.withComponentWidth(150).withLabelWidth(150).build();
 		// Sorted
-		sorted = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(searchFields).withLabel("Trié : ")
-				.withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
+		sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(searchFields)
+				.withLabel("Trié : ").withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
 		// Deleted
-		deleted = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(searchFields).withLabel("Supprimé : ")
-				.withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
+		deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(searchFields)
+				.withLabel("Supprimé : ").withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
 		// TopTen
-		topTen = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(searchFields).withLabel("Top 10 : ")
-				.withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
+		topTen = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(searchFields)
+				.withLabel("Top 10 : ").withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
 		// Nombre de résultat
-		countLabel = (JLabel) new ComponentBuilder(JLabel.class).withParent(searchFields).withLabel("")
+		countLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(searchFields).withLabel("")
 				.withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(25).build();
 		// Nombre de suppression
-		deleteLabel = (JLabel) new ComponentBuilder(JLabel.class).withParent(searchFields).withLabel("")
+		deleteLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(searchFields).withLabel("")
 				.withLabelWidth(400).withColor(new Color(8, 187, 81)).withFontSize(20).build();
 
 		header.add(searchFields);
