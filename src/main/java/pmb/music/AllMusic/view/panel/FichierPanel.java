@@ -4,7 +4,6 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
-import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
@@ -322,13 +321,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		});
 		buttons.add(csv);
 		// Label pour afficher les resultats
-		JPanel resultPanel = new JPanel();
-		resultLabel = ComponentBuilder.buildJLabel("", 400);
-		resultLabel.setForeground(new Color(8, 187, 81));
-		Font labelFont2 = resultLabel.getFont();
-		resultLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 20));
-		resultPanel.add(resultLabel);
-		buttons.add(resultPanel);
+		resultLabel = (JLabel) new ComponentBuilder(JLabel.class).withParent(buttons).withLabel("").withLabelWidth(400)
+				.withColor(new Color(8, 187, 81)).withFontSize(20).build();
 		header.add(buttons);
 	}
 

@@ -3,6 +3,7 @@ package pmb.music.AllMusic.view;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.util.List;
@@ -54,67 +55,27 @@ public class ComponentBuilder {
 	 * @return the component built
 	 */
 	public JComponent build() {
+		if (config.getParent() == null) {
+			throw new IllegalArgumentException("Component parent is required");
+		}
 		if (config.getType().equals(JComboCheckBox.class)) {
+			requiredValues();
 			return buildJComboCheckBox();
 		} else if (config.getType().equals(JComboBoxInput.class)) {
+			requiredValues();
 			return buildJComboBoxInput();
 		} else if (config.getType().equals(MyInputText.class)) {
+			requiredValues();
 			return buildMyInputText();
 		} else if (config.getType().equals(JCheckBox.class)) {
 			return buildJCheckBox();
 		} else if (config.getType().equals(MyInputRange.class)) {
 			return buildMyInputRange();
+		} else if (config.getType().equals(JLabel.class)) {
+			return buildJLabel();
 		} else {
-			return new JPanel();
+			throw new IllegalArgumentException("Incorrect component type: " + config.getType().getName());
 		}
-	}
-
-	/**
-	 * Builds a JCheckBox component.
-	 * 
-	 * @return the JCheckBox built
-	 */
-	private JCheckBox buildJCheckBox() {
-		JPanel panel = buildComponentPanel();
-		PanelUtils.setSize(panel, config.getPanelWidth(), ComponentBuilder.PANEL_HEIGHT);
-		JCheckBox checkBox = new JCheckBox();
-		PanelUtils.setSize(checkBox, config.getComponentWidth(), ComponentBuilder.COMPONENT_HEIGHT);
-		checkBox.setSelected(config.getDefaultBooleanValue());
-		checkBox.setHorizontalAlignment(SwingConstants.CENTER);
-		panel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
-		panel.add(checkBox);
-		return checkBox;
-	}
-
-	/**
-	 * Builds a MyInputRange component.
-	 * 
-	 * @return the MyInputRange built
-	 */
-	private MyInputRange buildMyInputRange() {
-		JPanel rangePanel = buildComponentPanel();
-		MyInputRange range = new MyInputRange(new MyInputText(JTextField.class, config.getComponentWidth() / 2),
-				new MyInputText(JTextField.class, config.getComponentWidth() / 2));
-		range.getFirst().getInput().addFocusListener(PanelUtils.selectAll);
-		range.getSecond().getInput().addFocusListener(new FocusListener() {
-			@Override
-			public void focusLost(FocusEvent e) {
-				// Nothing to do
-			}
-
-			@Override
-			public void focusGained(FocusEvent e) {
-				JTextField source = (JTextField) e.getSource();
-				if (StringUtils.isNotBlank(range.getFirst().getText())) {
-					source.setText(range.getFirst().getText());
-					source.selectAll();
-				}
-			}
-		});
-		rangePanel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
-		rangePanel.add(range.getFirst());
-		rangePanel.add(range.getSecond());
-		return range;
 	}
 
 	/**
@@ -168,6 +129,67 @@ public class ComponentBuilder {
 		return input;
 	}
 
+	/**
+	 * Builds a JCheckBox component.
+	 * 
+	 * @return the JCheckBox built
+	 */
+	private JCheckBox buildJCheckBox() {
+		JPanel panel = buildComponentPanel();
+		JCheckBox checkBox = new JCheckBox();
+		PanelUtils.setSize(checkBox, config.getComponentWidth(), ComponentBuilder.COMPONENT_HEIGHT);
+		checkBox.setSelected(config.getDefaultBooleanValue());
+		checkBox.setHorizontalAlignment(SwingConstants.CENTER);
+		panel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
+		panel.add(checkBox);
+		return checkBox;
+	}
+
+	/**
+	 * Builds a MyInputRange component.
+	 * 
+	 * @return the MyInputRange built
+	 */
+	private MyInputRange buildMyInputRange() {
+		JPanel rangePanel = buildComponentPanel();
+		MyInputRange range = new MyInputRange(new MyInputText(JTextField.class, config.getComponentWidth() / 2),
+				new MyInputText(JTextField.class, config.getComponentWidth() / 2));
+		range.getFirst().getInput().addFocusListener(PanelUtils.selectAll);
+		range.getSecond().getInput().addFocusListener(new FocusListener() {
+			@Override
+			public void focusLost(FocusEvent e) {
+				// Nothing to do
+			}
+
+			@Override
+			public void focusGained(FocusEvent e) {
+				JTextField source = (JTextField) e.getSource();
+				if (StringUtils.isNotBlank(range.getFirst().getText())) {
+					source.setText(range.getFirst().getText());
+					source.selectAll();
+				}
+			}
+		});
+		rangePanel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
+		rangePanel.add(range.getFirst());
+		rangePanel.add(range.getSecond());
+		return range;
+	}
+
+	private JLabel buildJLabel() {
+		JPanel panel = buildComponentPanel();
+		JLabel label = new JLabel(config.getLabel(), SwingConstants.CENTER);
+		PanelUtils.setSize(label, config.getLabelWidth(), COMPONENT_HEIGHT);
+		label.setForeground(config.getColor());
+		if (config.getFontSize() > 0) {
+			Font labelFont = label.getFont();
+			label.setFont(new Font(labelFont.getName(), labelFont.getStyle(), config.getFontSize()));
+		}
+		label.setVerticalAlignment(SwingConstants.CENTER);
+		panel.add(label);
+		return label;
+	}
+
 	public static JButton buildJButton(String label, int width, FontAwesome icon) {
 		JButton btn = new JButton(label, FontIcon.of(icon));
 		btn.setBackground(Color.white);
@@ -198,6 +220,13 @@ public class ComponentBuilder {
 		return panel;
 	}
 
+	private void requiredValues() {
+		if (config.getValues() == null || config.getValues().isEmpty()) {
+			throw new IllegalArgumentException(
+					"Component values are required for the type: " + config.getType().getName());
+		}
+	}
+
 	/**
 	 * Configures the parent panel where the component will be added to.
 	 * 
@@ -216,6 +245,11 @@ public class ComponentBuilder {
 	 * @return the builder
 	 */
 	public ComponentBuilder withValues(List<String> values) {
+		if (!config.getType().equals(JComboCheckBox.class) && !config.getType().equals(JComboBoxInput.class)
+				&& !config.getType().equals(MyInputText.class)) {
+			throw new IllegalArgumentException(
+					"The type " + config.getType().getName() + " must not use the property Values");
+		}
 		this.config.setValues(values);
 		return this;
 	}
@@ -251,6 +285,10 @@ public class ComponentBuilder {
 	 * @return the builder
 	 */
 	public ComponentBuilder withFilterContains(boolean isFilterContains) {
+		if (!config.getType().equals(MyInputText.class)) {
+			throw new IllegalArgumentException(
+					"The type " + config.getType().getName() + " must not use the property Filter Contains");
+		}
 		this.config.setFilterContains(isFilterContains);
 		return this;
 	}
@@ -273,6 +311,10 @@ public class ComponentBuilder {
 	 * @return the builder
 	 */
 	public ComponentBuilder withComponentWidth(int componentWidth) {
+		if (config.getType().equals(JLabel.class)) {
+			throw new IllegalArgumentException(
+					"The type " + config.getType().getName() + " must not use the property Component Width");
+		}
 		this.config.setComponentWidth(componentWidth);
 		return this;
 	}
@@ -289,12 +331,46 @@ public class ComponentBuilder {
 	}
 
 	/**
+	 * Configures font size.
+	 * 
+	 * @param fontSize an int
+	 * @return the builder
+	 */
+	public ComponentBuilder withFontSize(int fontSize) {
+		if (!config.getType().equals(JLabel.class)) {
+			throw new IllegalArgumentException(
+					"The type " + config.getType().getName() + " must not use the property Font Size");
+		}
+		this.config.setFontSize(fontSize);
+		return this;
+	}
+
+	/**
+	 * Configures color.
+	 * 
+	 * @param color a Color
+	 * @return the builder
+	 */
+	public ComponentBuilder withColor(Color color) {
+		if (!config.getType().equals(JLabel.class)) {
+			throw new IllegalArgumentException(
+					"The type " + config.getType().getName() + " must not use the property Color");
+		}
+		this.config.setColor(color);
+		return this;
+	}
+
+	/**
 	 * Configures default boolean value.
 	 * 
 	 * @param defaultValue a boolean
 	 * @return the builder
 	 */
 	public ComponentBuilder withDefaultBooleanValue(boolean defaultValue) {
+		if (!config.getType().equals(JCheckBox.class)) {
+			throw new IllegalArgumentException(
+					"The type " + config.getType().getName() + " must not use the property Default Boolean Value");
+		}
 		this.config.setDefaultBooleanValue(defaultValue);
 		return this;
 	}
