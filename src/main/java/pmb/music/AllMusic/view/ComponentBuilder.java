@@ -51,6 +51,7 @@ public class ComponentBuilder<T> {
 	 * <li>JComboBox : A list of value with one selectable item</li>
 	 * <li>JCheckBox : True / false</li>
 	 * <li>MyInputRange : Two inputs together</li>
+	 * <li>JTextField : A classic text field</li>
 	 * <li>JLabel : A label</li>
 	 * 
 	 * @param type class of the component
@@ -91,6 +92,9 @@ public class ComponentBuilder<T> {
 		} else if (config.getType().equals(MyInputRange.class)) {
 			// Two inputs together
 			return buildMyInputRange();
+		} else if (config.getType().equals(JTextField.class)) {
+			// A classic text field
+			return buildJTextField();
 		} else if (config.getType().equals(JLabel.class)) {
 			// A label
 			return buildJLabel();
@@ -211,10 +215,28 @@ public class ComponentBuilder<T> {
 				}
 			}
 		});
+		if (StringUtils.isNotBlank((String) config.getInitialValue())) {
+			if (!StringUtils.contains((String) config.getInitialValue(), " - ")) {
+				throw new IllegalArgumentException(
+						config.getType().getName() + " initial value must be splittable by \' - \'");
+			}
+			String[] split = StringUtils.split((String) config.getInitialValue(), " - ");
+			range.getFirst().setText(split[0]);
+			range.getSecond().setText(split[1]);
+		}
 		rangePanel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
 		rangePanel.add(range.getFirst());
 		rangePanel.add(range.getSecond());
 		return range;
+	}
+
+	private JTextField buildJTextField() {
+		JPanel panel = buildComponentPanel();
+		JTextField text = new JTextField((String) config.getInitialValue());
+		PanelUtils.setSize(text, config.getComponentWidth(), COMPONENT_HEIGHT);
+		panel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
+		panel.add(text);
+		return text;
 	}
 
 	private JLabel buildJLabel() {
@@ -405,7 +427,8 @@ public class ComponentBuilder<T> {
 	 * @return the builder
 	 */
 	public ComponentBuilder<T> withInitialValue(T initialValue) {
-		if (!config.getType().equals(JCheckBox.class) && !config.getType().equals(JComboBox.class)) {
+		if (!config.getType().equals(JCheckBox.class) && !config.getType().equals(JComboBox.class)
+				&& !config.getType().equals(JTextField.class) && !config.getType().equals(MyInputRange.class)) {
 			throw new IllegalArgumentException(config.getType().getName() + " must not use the property Initial Value");
 		}
 		this.config.setInitialValue(initialValue);
