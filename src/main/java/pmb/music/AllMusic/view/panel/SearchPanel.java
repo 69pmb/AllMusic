@@ -7,8 +7,6 @@ import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -65,6 +63,7 @@ import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
+import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
@@ -88,8 +87,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	private JButton search;
 
 	private JComboBoxInput publi;
-	private MyInputText rangeB;
-	private MyInputText rangeE;
+	private MyInputRange range;
 	private MyInputText fileName;
 	private JCheckBox sorted;
 	private JCheckBox deleted;
@@ -202,7 +200,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
-					.asList(publi.getInput().getText(), rangeB.getText(), rangeE.getText(), fileName.getText(),
+					.asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
+							fileName.getText(),
 							searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
 							cat.getSelectedItems(), type.getSelectedItems(), titre.getText(), artist.getText(),
 							author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
@@ -275,30 +274,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				.withLabel("Type : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(180).build();
 
 		// Range
-		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		JLabel rangeLabel = ComponentBuilder.buildJLabel("Année(s) du classement : ", 200);
-		rangeB = new MyInputText(JTextField.class, 50);
-		rangeE = new MyInputText(JTextField.class, 50);
-		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
-		rangeE.getInput().addFocusListener(new FocusListener() {
-			@Override
-			public void focusLost(FocusEvent e) {
-				// Nothing to do
-			}
-
-			@Override
-			public void focusGained(FocusEvent e) {
-				JTextField source = (JTextField) e.getSource();
-				if (StringUtils.isNotBlank(rangeB.getText())) {
-					source.setText(rangeB.getText());
-					source.selectAll();
-				}
-			}
-		});
-		rangePanel.add(rangeLabel);
-		rangePanel.add(rangeB);
-		rangePanel.add(rangeE);
-		searchFields.add(rangePanel);
+		range = (MyInputRange) new ComponentBuilder(MyInputRange.class).withParent(searchFields)
+				.withLabel("Année(s) du classement : ").withPanelWidth(250).withComponentWidth(100).withLabelWidth(200)
+				.withFlowLayout(true).build();
 
 		// Categorie
 		cat = (JComboCheckBox) new ComponentBuilder(JComboCheckBox.class).withParent(searchFields)
@@ -473,8 +451,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			criteria.put(SearchUtils.CRITERIA_FILENAME, fileName.getText());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, author.getText());
 			criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
-			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
-			criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, range.getFirst().getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_END, range.getSecond().getText());
 			if (sorted.isSelected()) {
 				criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 			}
@@ -531,8 +509,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		sorted.setSelected(false);
 		deleted.setSelected(false);
 		topTen.setSelected(false);
-		rangeB.setText("");
-		rangeE.setText("");
+		range.getFirst().setText("");
+		range.getSecond().setText("");
 		deleteLabel.setText("");
 		countLabel.setText("");
 		LOG.debug("End cleanAction");

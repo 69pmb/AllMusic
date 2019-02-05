@@ -7,8 +7,6 @@ import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -72,6 +70,7 @@ import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
+import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.dialog.ModifyFichierDialog;
@@ -121,8 +120,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private MyInputText auteur;
 	private MyInputText filename;
 	private JComboBoxInput publi;
-	private MyInputText rangeB;
-	private MyInputText rangeE;
+	private MyInputRange range;
 	private JComboCheckBox cat;
 	private JComboCheckBox type;
 	private JCheckBox sorted;
@@ -228,31 +226,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				.withLabel("Année de publication : ").withPanelWidth(250).withComponentWidth(100).withLabelWidth(210)
 				.build();
 		// Range
-		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(rangePanel, 270, ComponentBuilder.PANEL_HEIGHT);
-		JLabel rangeLabel = ComponentBuilder.buildJLabel("Année(s) du classement : ", 180);
-		rangeB = new MyInputText(JTextField.class, 70);
-		rangeE = new MyInputText(JTextField.class, 70);
-		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
-		rangeE.getInput().addFocusListener(new FocusListener() {
-			@Override
-			public void focusLost(FocusEvent e) {
-				// Nothing to do
-			}
-
-			@Override
-			public void focusGained(FocusEvent e) {
-				JTextField source = (JTextField) e.getSource();
-				if (StringUtils.isNotBlank(rangeB.getText())) {
-					source.setText(rangeB.getText());
-					source.selectAll();
-				}
-			}
-		});
-		rangePanel.add(rangeLabel);
-		rangePanel.add(rangeB);
-		rangePanel.add(rangeE);
-		inputs.add(rangePanel);
+		range = (MyInputRange) new ComponentBuilder(MyInputRange.class).withParent(inputs)
+				.withLabel("Année(s) du classement : ").withPanelWidth(270).withComponentWidth(140).withLabelWidth(180)
+				.withFlowLayout(true).build();
 		// Categorie
 		cat = (JComboCheckBox) new ComponentBuilder(JComboCheckBox.class).withParent(inputs)
 				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()))
@@ -371,8 +347,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			List<String> c = Arrays
-					.asList(publi.getInput().getText(), rangeB.getText(), rangeE.getText(), filename.getText(),
-							cat.getSelectedItems(), type.getSelectedItems(), auteur.getText(),
+					.asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
+							filename.getText(), cat.getSelectedItems(), type.getSelectedItems(), auteur.getText(),
 							"Sorted:" + Boolean.toString(sorted.isSelected()),
 							"Deleted:" + Boolean.toString(deleted.isSelected()))
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
@@ -709,8 +685,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			criteria.put(SearchUtils.CRITERIA_FILENAME, filename.getText());
 			criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
 			criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
-			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
-			criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, range.getFirst().getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_END, range.getSecond().getText());
 			criteria.put(SearchUtils.CRITERIA_SORTED, sorted.isSelected() ? Boolean.TRUE.toString() : "");
 			searchResult = searchResult.entrySet().parallelStream()
 					.filter(e -> SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, criteria, e.getKey()))
@@ -828,8 +804,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		auteur.setText(null);
 		filename.setText("");
 		publi.getInput().setText("");
-		rangeB.setText("");
-		rangeE.setText("");
+		range.getFirst().setText("");
+		range.getSecond().setText("");
 		cat.clearSelection();
 		type.clearSelection();
 		sorted.setSelected(false);

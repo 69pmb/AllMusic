@@ -3,6 +3,8 @@ package pmb.music.AllMusic.view;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
 import java.util.List;
 
 import javax.swing.JButton;
@@ -13,6 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
+import org.apache.commons.lang3.StringUtils;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
 import org.kordamp.ikonli.swing.FontIcon;
 
@@ -21,6 +24,7 @@ import ca.odell.glazedlists.matchers.TextMatcherEditor;
 import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
+import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
 
 /**
@@ -55,22 +59,55 @@ public class ComponentBuilder {
 			return buildJComboBoxInput();
 		} else if (config.getType().equals(MyInputText.class)) {
 			return buildMyInputText();
+		} else if (config.getType().equals(MyInputRange.class)) {
+			return buildMyInputRange();
 		} else {
 			return new JPanel();
 		}
 	}
 
 	/**
+	 * Builds a MyInputRange component.
+	 * 
+	 * @return the MyInputRange built
+	 */
+	private MyInputRange buildMyInputRange() {
+		JPanel rangePanel;
+		if (config.isFlowLayout()) {
+			rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		} else {
+			rangePanel = new JPanel();
+		}
+		PanelUtils.setSize(rangePanel, config.getPanelWidth(), ComponentBuilder.PANEL_HEIGHT);
+		MyInputRange range = new MyInputRange(new MyInputText(JTextField.class, config.getComponentWidth() / 2),
+				new MyInputText(JTextField.class, config.getComponentWidth() / 2));
+		range.getFirst().getInput().addFocusListener(PanelUtils.selectAll);
+		range.getSecond().getInput().addFocusListener(new FocusListener() {
+			@Override
+			public void focusLost(FocusEvent e) {
+				// Nothing to do
+			}
+
+			@Override
+			public void focusGained(FocusEvent e) {
+				JTextField source = (JTextField) e.getSource();
+				if (StringUtils.isNotBlank(range.getFirst().getText())) {
+					source.setText(range.getFirst().getText());
+					source.selectAll();
+				}
+			}
+		});
+		rangePanel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
+		rangePanel.add(range.getFirst());
+		rangePanel.add(range.getSecond());
+		config.getParent().add(rangePanel);
+		return range;
+	}
+
+	/**
 	 * Creates a JComboCheckBox and the layout around it.
 	 * 
-	 * @param parent parent panel to be add
-	 * @param values values of the box
-	 * @param label label
-	 * @param layout layout for the box panel
-	 * @param widthPanel width of the box panel
-	 * @param widthBox width of the box
-	 * @param widthLabel with of the label
-	 * @return
+	 * @return the component built
 	 */
 	private JComboCheckBox buildJComboCheckBox() {
 		JPanel boxPanel;
@@ -91,13 +128,7 @@ public class ComponentBuilder {
 	/**
 	 * Creates a JComboBoxInput and the layout around it.
 	 * 
-	 * @param parent parent panel to be add
-	 * @param comboBoxValues values of the combo box
-	 * @param label label
-	 * @param widthPanel width of the box panel
-	 * @param widthLabel with of the label
-	 * @param inputWidth width of the input
-	 * @return
+	 * @return the component built
 	 */
 	private JComboBoxInput buildJComboBoxInput() {
 		MyInputText text = new MyInputText(JTextField.class, config.getComponentWidth());
@@ -117,14 +148,7 @@ public class ComponentBuilder {
 	/**
 	 * Creates a MyInputText and the layout around it.
 	 * 
-	 * @param parent its parent panel
-	 * @param values its values
-	 * @param filterMode a TextMatcherEditor constant
-	 * @param labelText its label
-	 * @param labelWidth label width
-	 * @param inputWidth its width
-	 * @param panelWidth panel width
-	 * @return
+	 * @return the component built
 	 */
 	private MyInputText buildMyInputText() {
 		JPanel inputPanel;
@@ -160,41 +184,91 @@ public class ComponentBuilder {
 		return jLabel;
 	}
 
+	/**
+	 * Configures the parent panel where the component will be added to.
+	 * 
+	 * @param parent the panel
+	 * @return the builder
+	 */
 	public ComponentBuilder withParent(JPanel parent) {
 		this.config.setParent(parent);
 		return this;
 	}
 
+	/**
+	 * Configures the values of the component.
+	 * 
+	 * @param values a list of string
+	 * @return the builder
+	 */
 	public ComponentBuilder withValues(List<String> values) {
 		this.config.setValues(values);
 		return this;
 	}
 
+	/**
+	 * Configures the label value.
+	 * 
+	 * @param label a string
+	 * @return the builder
+	 */
 	public ComponentBuilder withLabel(String label) {
 		this.config.setLabel(label);
 		return this;
 	}
 
+	/**
+	 * Configures if the panel will be created with a FlowLayout.
+	 * 
+	 * @param isFlowLayout if true, init panel with
+	 *            {@code new FlowLayout(FlowLayout.CENTER, 0, 0)}
+	 * @return the builder
+	 */
 	public ComponentBuilder withFlowLayout(boolean isFlowLayout) {
 		this.config.setFlowLayout(isFlowLayout);
 		return this;
 	}
 
+	/**
+	 * Configures if the filter mode will be contains. Only for MyInputText
+	 * component.
+	 * 
+	 * @param isFilterContains set filer mode to contains if true
+	 * @return the builder
+	 */
 	public ComponentBuilder withFilterContains(boolean isFilterContains) {
 		this.config.setFilterContains(isFilterContains);
 		return this;
 	}
 
+	/**
+	 * Configures panel width.
+	 * 
+	 * @param panelWidth an int
+	 * @return the builder
+	 */
 	public ComponentBuilder withPanelWidth(int panelWidth) {
 		this.config.setPanelWidth(panelWidth);
 		return this;
 	}
 
+	/**
+	 * Configures component width.
+	 * 
+	 * @param componentWidth and int
+	 * @return the builder
+	 */
 	public ComponentBuilder withComponentWidth(int componentWidth) {
 		this.config.setComponentWidth(componentWidth);
 		return this;
 	}
 
+	/**
+	 * Configures label width.
+	 * 
+	 * @param labelWidth an int
+	 * @return the builder
+	 */
 	public ComponentBuilder withLabelWidth(int labelWidth) {
 		this.config.setLabelWidth(labelWidth);
 		return this;
