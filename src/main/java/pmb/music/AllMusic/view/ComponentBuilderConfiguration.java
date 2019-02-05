@@ -2,12 +2,14 @@ package pmb.music.AllMusic.view;
 
 import java.util.List;
 
+import javax.swing.JComponent;
 import javax.swing.JPanel;
 
 /**
  * Created by PBR on 4 févr. 2019.
  */
 public class ComponentBuilderConfiguration {
+	private Class<? extends JComponent> type;
 	private JPanel parent;
 	private List<String> values;
 	private String label;
@@ -17,17 +19,16 @@ public class ComponentBuilderConfiguration {
 	private int componentWidth;
 	private int labelWidth;
 
-	public ComponentBuilderConfiguration(JPanel parent, List<String> values, String label, boolean isFlowLayout,
-			boolean isFilterContains, int panelWidth, int componentWidth, int labelWidth) {
+	public ComponentBuilderConfiguration() {
 		super();
-		this.parent = parent;
-		this.values = values;
-		this.label = label;
-		this.isFlowLayout = isFlowLayout;
-		this.isFilterContains = isFilterContains;
-		this.panelWidth = panelWidth;
-		this.componentWidth = componentWidth;
-		this.labelWidth = labelWidth;
+	}
+
+	public Class<? extends JComponent> getType() {
+		return type;
+	}
+
+	public void setType(Class<? extends JComponent> type) {
+		this.type = type;
 	}
 
 	public JPanel getParent() {
