@@ -30,7 +30,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.JTextField;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
@@ -242,13 +241,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 						.asList(SearchMethod.values()).stream().map(SearchMethod::getValue).toArray(String[]::new))
 				.withComponentWidth(150).withLabelWidth(150).build();
 		// Nom du fichier
-		JPanel fileNamePanel = new JPanel();
-		JLabel fileNameLabel = ComponentBuilder.buildJLabel("Nom du fichier : ", 250);
-		fileName = new MyInputText(JTextField.class, 150);
-		fileName.getInput().addFocusListener(PanelUtils.selectAll);
-		fileNamePanel.add(fileNameLabel);
-		fileNamePanel.add(fileName);
-		searchFields.add(fileNamePanel);
+		fileName = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
+				.withLabel("Nom du fichier : ").withPanelWidth(250).withComponentWidth(150).withLabelWidth(250).build();
 		// Auteur
 		author = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
 				.withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(150)

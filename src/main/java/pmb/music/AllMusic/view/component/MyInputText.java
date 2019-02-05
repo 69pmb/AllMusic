@@ -38,6 +38,7 @@ public class MyInputText extends JPanel {
 		super();
 		try {
 			this.input = type.newInstance();
+			this.input.addFocusListener(PanelUtils.selectAll);
 		} catch (InstantiationException | IllegalAccessException e) {
 			LOG.error("Error when instantiate the input of class: " + type.getName(), e);
 		}
