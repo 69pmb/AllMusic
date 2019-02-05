@@ -26,7 +26,6 @@ import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
-import javax.swing.AbstractAction;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -253,69 +252,41 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		JPanel buttons = new JPanel(new GridLayout(1, 7));
 		// SEARCH
 		search = ComponentBuilder.buildJButton("Rechercher", 120, Constant.ICON_SEARCH);
-		search.addActionListener(new AbstractAction() {
-
-			private static final long serialVersionUID = 1L;
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				searchAction();
-			}
-		});
+		search.addActionListener((ActionEvent e) -> searchAction());
 		buttons.add(search);
 		// RESET
 		JButton reset = ComponentBuilder.buildJButton("Réinitialiser", 120, Constant.ICON_ERASE);
-		reset.addActionListener(new AbstractAction() {
-
-			private static final long serialVersionUID = 1L;
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				resetAction();
-			}
-		});
+		reset.addActionListener((ActionEvent e) -> resetAction());
 		buttons.add(reset);
 		// hideFileList
 		hideFileList = ComponentBuilder.buildJButton("Cacher la liste des fichiers", 180, Constant.ICON_HIDE);
-		hideFileList.addActionListener(new AbstractAction() {
-
-			private static final long serialVersionUID = 1L;
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				showFichierTable = !showFichierTable;
-				filePanel.setVisible(showFichierTable);
-				if (showFichierTable) {
-					hideFileList.setText("Cacher la liste des fichiers");
-					hideFileList.setIcon(FontIcon.of(Constant.ICON_HIDE));
-					setTableSize(compoPanel, MIN_HEIGHT_TABLE);
-				} else {
-					hideFileList.setText("Afficher la liste des fichiers");
-					hideFileList.setIcon(FontIcon.of(Constant.ICON_SHOW));
-					setTableSize(compoPanel, MAX_HEIGHT_TABLE);
-				}
+		hideFileList.addActionListener((ActionEvent e) -> {
+			showFichierTable = !showFichierTable;
+			filePanel.setVisible(showFichierTable);
+			if (showFichierTable) {
+				hideFileList.setText("Cacher la liste des fichiers");
+				hideFileList.setIcon(FontIcon.of(Constant.ICON_HIDE));
+				setTableSize(compoPanel, MIN_HEIGHT_TABLE);
+			} else {
+				hideFileList.setText("Afficher la liste des fichiers");
+				hideFileList.setIcon(FontIcon.of(Constant.ICON_SHOW));
+				setTableSize(compoPanel, MAX_HEIGHT_TABLE);
 			}
 		});
 		buttons.add(hideFileList);
 		// hideCompoList
 		hideCompoList = ComponentBuilder.buildJButton("Cacher la liste des compositions", 200, Constant.ICON_HIDE);
-		hideCompoList.addActionListener(new AbstractAction() {
-
-			private static final long serialVersionUID = 1L;
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				showCompoTable = !showCompoTable;
-				compoPanel.setVisible(showCompoTable);
-				if (showCompoTable) {
-					hideCompoList.setText("Cacher la liste des compositions");
-					hideCompoList.setIcon(FontIcon.of(Constant.ICON_HIDE));
-					setTableSize(filePanel, MIN_HEIGHT_TABLE);
-				} else {
-					hideCompoList.setText("Afficher la liste des compositions");
-					hideCompoList.setIcon(FontIcon.of(Constant.ICON_SHOW));
-					setTableSize(filePanel, MAX_HEIGHT_TABLE);
-				}
+		hideCompoList.addActionListener((ActionEvent e) -> {
+			showCompoTable = !showCompoTable;
+			compoPanel.setVisible(showCompoTable);
+			if (showCompoTable) {
+				hideCompoList.setText("Cacher la liste des compositions");
+				hideCompoList.setIcon(FontIcon.of(Constant.ICON_HIDE));
+				setTableSize(filePanel, MIN_HEIGHT_TABLE);
+			} else {
+				hideCompoList.setText("Afficher la liste des compositions");
+				hideCompoList.setIcon(FontIcon.of(Constant.ICON_SHOW));
+				setTableSize(filePanel, MAX_HEIGHT_TABLE);
 			}
 		});
 		buttons.add(hideCompoList);
