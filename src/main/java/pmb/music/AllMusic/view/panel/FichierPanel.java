@@ -38,7 +38,6 @@ import javax.swing.JTextField;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
-import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
@@ -241,25 +240,12 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				.withFlowLayout(true).withLabel("Type : ").withPanelWidth(200).withComponentWidth(150)
 				.withLabelWidth(150).build();
 		// Sorted
-		JPanel sortedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(sortedPanel, 100, ComponentBuilder.PANEL_HEIGHT);
-		JLabel sortedLabel = ComponentBuilder.buildJLabel("Classé: ", 150);
-		sorted = new JCheckBox();
-		sorted.setPreferredSize(new Dimension(80, ComponentBuilder.COMPONENT_HEIGHT));
-		sorted.setHorizontalAlignment(SwingConstants.CENTER);
-		sortedPanel.add(sortedLabel);
-		sortedPanel.add(sorted);
-		inputs.add(sortedPanel);
+		sorted = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(inputs).withLabel("Classé : ")
+				.withFlowLayout(true).withPanelWidth(100).withComponentWidth(80).withLabelWidth(150).build();
 		// Deleted
-		JPanel deletedPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(deletedPanel, 100, ComponentBuilder.PANEL_HEIGHT);
-		JLabel deletedLabel = ComponentBuilder.buildJLabel("Supprimé: ", 150);
-		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(80, ComponentBuilder.COMPONENT_HEIGHT));
-		deleted.setHorizontalAlignment(SwingConstants.CENTER);
-		deletedPanel.add(deletedLabel);
-		deletedPanel.add(deleted);
-		inputs.add(deletedPanel);
+		deleted = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(inputs).withLabel("Supprimés : ")
+				.withFlowLayout(true).withDefaultBooleanValue(true).withPanelWidth(100).withComponentWidth(80)
+				.withLabelWidth(150).build();
 		header.add(inputs);
 	}
 

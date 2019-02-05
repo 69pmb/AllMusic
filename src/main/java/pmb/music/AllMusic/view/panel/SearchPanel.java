@@ -81,14 +81,12 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	private static final long serialVersionUID = 2593372709628283573L;
 	private JLabel countLabel;
 	private JLabel deleteLabel;
-
-	private JCheckBox inFiles;
-
 	private JButton search;
 
 	private JComboBoxInput publi;
 	private MyInputRange range;
 	private MyInputText fileName;
+	private JCheckBox inFiles;
 	private JCheckBox sorted;
 	private JCheckBox deleted;
 	private JCheckBox topTen;
@@ -237,12 +235,10 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		artist = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(searchFields)
 				.withValues(OngletPanel.getArtistList()).withLabel("Artiste : ").withPanelWidth(300)
 				.withComponentWidth(150).withLabelWidth(200).build();
-
 		// Titre
 		titre = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(searchFields)
 				.withValues(OngletPanel.getTitleList()).withLabel("Titre : ").withPanelWidth(300)
 				.withComponentWidth(150).withLabelWidth(180).build();
-
 		// SearchMethod
 		JPanel searchMethodPanel = new JPanel();
 		JLabel searchMethodLabel = ComponentBuilder.buildJLabel("Méthode de recherche : ", 150);
@@ -252,7 +248,6 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		searchMethodPanel.add(searchMethodLabel);
 		searchMethodPanel.add(searchMethod);
 		searchFields.add(searchMethodPanel);
-
 		// Nom du fichier
 		JPanel fileNamePanel = new JPanel();
 		JLabel fileNameLabel = ComponentBuilder.buildJLabel("Nom du fichier : ", 250);
@@ -261,77 +256,42 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		fileNamePanel.add(fileNameLabel);
 		fileNamePanel.add(fileName);
 		searchFields.add(fileNamePanel);
-
 		// Auteur
 		author = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(searchFields)
 				.withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(150)
 				.withFilterContains(true).withComponentWidth(150).withLabelWidth(140).build();
-
 		// Type
 		type = (JComboCheckBox) new ComponentBuilder(JComboCheckBox.class).withParent(searchFields)
 				.withValues(Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType)
 						.collect(Collectors.toList()))
 				.withLabel("Type : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(180).build();
-
 		// Range
 		range = (MyInputRange) new ComponentBuilder(MyInputRange.class).withParent(searchFields)
 				.withLabel("Année(s) du classement : ").withPanelWidth(250).withComponentWidth(100).withLabelWidth(200)
 				.withFlowLayout(true).build();
-
 		// Categorie
 		cat = (JComboCheckBox) new ComponentBuilder(JComboCheckBox.class).withParent(searchFields)
 				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()))
 				.withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(150).build();
-
 		// Publi
 		publi = (JComboBoxInput) new ComponentBuilder(JComboBoxInput.class).withParent(searchFields)
 				.withValues(Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue)
 						.collect(Collectors.toList()))
 				.withLabel("Année de publication : ").withPanelWidth(230).withComponentWidth(100).withLabelWidth(240)
 				.build();
-
 		// inFiles
-		JPanel inFilesPanel = new JPanel();
-		PanelUtils.setSize(inFilesPanel, 200, ComponentBuilder.PANEL_HEIGHT);
-		JLabel inFilesLabel = ComponentBuilder.buildJLabel("Rechercher dans les fichiers : ", 150);
-		inFiles = new JCheckBox();
-		PanelUtils.setSize(inFiles, 150, ComponentBuilder.COMPONENT_HEIGHT);
-		inFiles.setSelected(true);
-		inFiles.setHorizontalAlignment(SwingConstants.CENTER);
-		inFilesPanel.add(inFilesLabel);
-		inFilesPanel.add(inFiles);
-		searchFields.add(inFilesPanel);
-
+		inFiles = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(searchFields)
+				.withLabel("Rechercher dans les fichiers : ").withDefaultBooleanValue(true).withPanelWidth(200)
+				.withComponentWidth(150).withLabelWidth(150).build();
 		// Sorted
-		JPanel sortedPanel = new JPanel();
-		JLabel sortedLabel = ComponentBuilder.buildJLabel("Trié : ", 150);
-		sorted = new JCheckBox();
-		sorted.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
-		sorted.setHorizontalAlignment(SwingConstants.CENTER);
-		sortedPanel.add(sortedLabel);
-		sortedPanel.add(sorted);
-		searchFields.add(sortedPanel);
-
+		sorted = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(searchFields).withLabel("Trié : ")
+				.withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
 		// Deleted
-		JPanel deletedPanel = new JPanel();
-		JLabel deletedLabel = ComponentBuilder.buildJLabel("Supprimé : ", 150);
-		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
-		deleted.setHorizontalAlignment(SwingConstants.CENTER);
-		deletedPanel.add(deletedLabel);
-		deletedPanel.add(deleted);
-		searchFields.add(deletedPanel);
-
+		deleted = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(searchFields).withLabel("Supprimé : ")
+				.withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
 		// TopTen
-		JPanel topPanel = new JPanel();
-		JLabel topLabel = ComponentBuilder.buildJLabel("Top 10 : ", 150);
-		topTen = new JCheckBox();
-		topTen.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
-		topTen.setHorizontalAlignment(SwingConstants.CENTER);
-		topPanel.add(topLabel);
-		topPanel.add(topTen);
-		searchFields.add(topPanel);
-
+		topTen = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(searchFields).withLabel("Top 10 : ")
+				.withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
 		// Nombre de résultat
 		JPanel countPanel = new JPanel();
 		countLabel = ComponentBuilder.buildJLabel("", 200);
@@ -341,7 +301,6 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		countLabel.setVerticalAlignment(SwingConstants.CENTER);
 		countPanel.add(countLabel);
 		searchFields.add(countPanel);
-
 		// Nombre de suppression
 		JPanel deletePanel = new JPanel();
 		deleteLabel = ComponentBuilder.buildJLabel("", 400);

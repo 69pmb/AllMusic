@@ -15,6 +15,7 @@ public class ComponentBuilderConfiguration {
 	private String label;
 	private boolean isFlowLayout;
 	private boolean isFilterContains;
+	private boolean defaultBooleanValue;
 	private int panelWidth;
 	private int componentWidth;
 	private int labelWidth;
@@ -93,5 +94,13 @@ public class ComponentBuilderConfiguration {
 
 	public void setLabelWidth(int labelWidth) {
 		this.labelWidth = labelWidth;
+	}
+
+	public boolean getDefaultBooleanValue() {
+		return defaultBooleanValue;
+	}
+
+	public void setDefaultBooleanValue(boolean defaultBooleanValue) {
+		this.defaultBooleanValue = defaultBooleanValue;
 	}
 }
