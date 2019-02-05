@@ -107,7 +107,7 @@ public class AppTest {
 	}
 
 	public static void findImportParamsForAllFiles() {
-		List<String> authorList = OngletPanel.getAuthorList();
+		List<String> authorList = Arrays.asList(OngletPanel.getAuthorList());
 		for (String author : authorList) {
 			List<File> files = new ArrayList<>();
 			FichierUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory() + FileUtils.FS + author), files,

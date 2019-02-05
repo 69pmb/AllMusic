@@ -304,10 +304,9 @@ public class BatchUtils {
 		StringBuilder result = new StringBuilder();
 		addLine(result, "IncorrectFileNames: ", true);
 
-		List<String> authorList = OngletPanel.getAuthorList();
 		List<String> res = new ArrayList<>();
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		authorList.parallelStream().forEach(author -> {
+		Arrays.asList(OngletPanel.getAuthorList()).parallelStream().forEach(author -> {
 			if (StringUtils.equalsIgnoreCase(author, "Divers")) {
 				return;
 			}
@@ -1195,7 +1194,7 @@ public class BatchUtils {
 	 * @param deleted if true all compositions, false only not deleted compositions
 	 */
 	private static String topSongsParPublication(List<Composition> list, String year, boolean deleted) {
-		List<String> authors = OngletPanel.getAuthorList();
+		List<String> authors = Arrays.asList(OngletPanel.getAuthorList());
 		List<List<String>> result = new ArrayList<List<String>>();
 		for (String author : authors) {
 			Map<String, String> criteria = new HashMap<>();
