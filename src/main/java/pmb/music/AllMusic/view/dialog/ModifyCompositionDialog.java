@@ -15,7 +15,6 @@ import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
@@ -76,24 +75,14 @@ public class ModifyCompositionDialog extends JDialog {
 		JPanel content = new JPanel();
 
 		// Artiste
-		JPanel artistPanel = new JPanel();
-		artistPanel.setPreferredSize(new Dimension(250, 60));
-		JLabel artistLabel = new JLabel("Artiste : ");
-		JTextField artist = new JTextField((String) compo.get(artistIndex));
-		artist.setPreferredSize(new Dimension(230, 30));
-		artistPanel.add(artistLabel);
-		artistPanel.add(artist);
-		content.add(artistPanel);
+		JTextField artist = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+				.withLabel("Artiste : ").withPanelWidth(250).withInitialValue((String) compo.get(artistIndex))
+				.withComponentWidth(230).withLabelWidth(230).build();
 
 		// Titre
-		JPanel titrePanel = new JPanel();
-		titrePanel.setPreferredSize(new Dimension(300, 60));
-		JLabel titreLabel = new JLabel("Titre : ");
-		JTextField titre = new JTextField((String) compo.get(titleIndex));
-		titre.setPreferredSize(new Dimension(270, 30));
-		titrePanel.add(titreLabel);
-		titrePanel.add(titre);
-		content.add(titrePanel);
+		JTextField titre = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+				.withLabel("Titre : ").withPanelWidth(300).withInitialValue((String) compo.get(titleIndex))
+				.withComponentWidth(270).withLabelWidth(270).build();
 
 		// Type
 		JComboBox<RecordType> type = (JComboBox<RecordType>) new ComponentBuilder<RecordType>(JComboBox.class)
