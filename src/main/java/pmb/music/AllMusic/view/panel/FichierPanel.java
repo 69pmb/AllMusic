@@ -32,7 +32,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.JTextField;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
@@ -209,14 +208,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				.withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(190)
 				.withFilterContains(true).withFlowLayout(true).withComponentWidth(150).withLabelWidth(140).build();
 		// Nom du fichier
-		JPanel namePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(namePanel, 240, ComponentBuilder.PANEL_HEIGHT);
-		JLabel nameLabel = ComponentBuilder.buildJLabel("Nom du fichier : ", 190);
-		filename = new MyInputText(JTextField.class, 180);
-		filename.getInput().addFocusListener(PanelUtils.selectAll);
-		namePanel.add(nameLabel);
-		namePanel.add(filename);
-		inputs.add(namePanel);
+		filename = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(inputs)
+				.withLabel("Nom du fichier : ").withFlowLayout(true).withPanelWidth(240).withComponentWidth(180)
+				.withLabelWidth(190).build();
 		// Publi
 		publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(inputs)
 				.withValues(

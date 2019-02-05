@@ -80,7 +80,6 @@ public class ComponentBuilder<T> {
 			return buildJComboBoxInput();
 		} else if (config.getType().equals(MyInputText.class)) {
 			// An input text with suggestions
-			requiredValues();
 			return buildMyInputText();
 		} else if (config.getType().equals(JComboBox.class)) {
 			// A list of value with one selectable item
@@ -125,13 +124,8 @@ public class ComponentBuilder<T> {
 	 */
 	private JComboBoxInput<T> buildJComboBoxInput() {
 		JPanel panel = buildComponentPanel();
-
-		MyInputText text = new MyInputText(JTextField.class, config.getComponentWidth());
-		text.getInput().addFocusListener(PanelUtils.selectAll);
-		JComboBox<T> box = new JComboBox<>(config.getValues());
-		PanelUtils.setSize(box, 45, COMPONENT_HEIGHT);
-		JComboBoxInput<T> input = new JComboBoxInput<>(text, box);
-
+		JComboBoxInput<T> input = new JComboBoxInput<>(new MyInputText(JTextField.class, config.getComponentWidth()),
+				new JComboBox<>(config.getValues()));
 		panel.add(buildJLabel(config.getLabel(), config.getLabelWidth()));
 		panel.add(input);
 		return input;
@@ -144,11 +138,16 @@ public class ComponentBuilder<T> {
 	 */
 	private MyInputText buildMyInputText() {
 		JPanel inputPanel = buildComponentPanel();
-		MyInputText input = new MyInputText(JComboBox.class, config.getComponentWidth());
-		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) input.getInput(),
-				GlazedLists.eventListOf(config.getValues()));
-		if (config.isFilterContains()) {
-			install.setFilterMode(TextMatcherEditor.CONTAINS);
+		MyInputText input;
+		if (config.getValues() != null && config.getValues().length > 0) {
+			input = new MyInputText(JComboBox.class, config.getComponentWidth());
+			AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) input.getInput(),
+					GlazedLists.eventListOf(config.getValues()));
+			if (config.isFilterContains()) {
+				install.setFilterMode(TextMatcherEditor.CONTAINS);
+			}
+		} else {
+			input = new MyInputText(JTextField.class, config.getComponentWidth());
 		}
 		inputPanel.add(buildJLabel(config.getLabel(), config.getLabelWidth()));
 		inputPanel.add(input);
