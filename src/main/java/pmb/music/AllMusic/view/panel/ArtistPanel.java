@@ -5,10 +5,7 @@ package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -35,7 +32,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.JTextField;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
@@ -67,6 +63,7 @@ import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
+import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.model.ArtistModel;
@@ -92,8 +89,7 @@ public class ArtistPanel extends JPanel {
 
 	private MyInputText artist;
 	private JComboBoxInput publi;
-	private MyInputText rangeB;
-	private MyInputText rangeE;
+	private MyInputRange range;
 	private MyInputText auteur;
 	private JComboCheckBox cat;
 	private JButton search;
@@ -149,32 +145,9 @@ public class ArtistPanel extends JPanel {
 				.withLabel("Année de publication : ").withPanelWidth(230).withComponentWidth(75).withLabelWidth(200)
 				.build();
 		// Range
-		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(rangePanel, 300, ComponentBuilder.PANEL_HEIGHT);
-		JLabel rangeLabel = new JLabel("Année(s) du classement : ");
-		PanelUtils.setSize(rangeLabel, 180, ComponentBuilder.COMPONENT_HEIGHT);
-		rangeB = new MyInputText(JTextField.class, 90);
-		rangeE = new MyInputText(JTextField.class, 90);
-		rangeB.getInput().addFocusListener(PanelUtils.selectAll);
-		rangeE.getInput().addFocusListener(new FocusListener() {
-			@Override
-			public void focusLost(FocusEvent e) {
-				// Nothing to do
-			}
-
-			@Override
-			public void focusGained(FocusEvent e) {
-				JTextField source = (JTextField) e.getSource();
-				if (StringUtils.isNotBlank(rangeB.getText())) {
-					source.setText(rangeB.getText());
-					source.selectAll();
-				}
-			}
-		});
-		rangePanel.add(rangeLabel);
-		rangePanel.add(rangeB);
-		rangePanel.add(rangeE);
-		header.add(rangePanel);
+		range = (MyInputRange) new ComponentBuilder(MyInputRange.class).withParent(header)
+				.withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(180).withLabelWidth(180)
+				.withFlowLayout(true).build();
 		// Auteur
 		auteur = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(header)
 				.withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(200)
@@ -276,8 +249,8 @@ public class ArtistPanel extends JPanel {
 		csv.addActionListener((ActionEvent e) -> {
 			LOG.debug("Start Csv");
 			List<String> c = Arrays
-					.asList(artist.getText(), publi.getInput().getText(), rangeB.getText(), rangeE.getText(),
-							auteur.getText(), cat.getSelectedItems())
+					.asList(artist.getText(), publi.getInput().getText(), range.getFirst().getText(),
+							range.getSecond().getText(), auteur.getText(), cat.getSelectedItems())
 					.stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
 			String criteres = StringUtils.join(c, " ");
 			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
@@ -455,8 +428,8 @@ public class ArtistPanel extends JPanel {
 							(String) publi.getComboBox().getSelectedItem());
 					criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
 					criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
-					criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, rangeB.getText());
-					criteria.put(SearchUtils.CRITERIA_DATE_END, rangeE.getText());
+					criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, range.getFirst().getText());
+					criteria.put(SearchUtils.CRITERIA_DATE_END, range.getSecond().getText());
 					List<Fichier> files = c.getFiles().stream()
 							.filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, criteria, f))
 							.collect(Collectors.toList());
@@ -479,8 +452,8 @@ public class ArtistPanel extends JPanel {
 	private void resetAction() {
 		LOG.debug("Start resetAction");
 		artist.setText("");
-		rangeB.setText("");
-		rangeE.setText("");
+		range.getFirst().setText("");
+		range.getSecond().setText("");
 		auteur.setText("");
 		if (publi.getInput() != null) {
 			publi.getInput().setText("");
