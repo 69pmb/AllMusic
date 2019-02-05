@@ -1,5 +1,6 @@
 package pmb.music.AllMusic.view;
 
+import java.awt.Color;
 import java.util.List;
 
 import javax.swing.JComponent;
@@ -19,9 +20,16 @@ public class ComponentBuilderConfiguration {
 	private int panelWidth;
 	private int componentWidth;
 	private int labelWidth;
+	private Color color;
+	private int fontSize;
 
 	public ComponentBuilderConfiguration() {
 		super();
+		label = "";
+		color = Color.BLACK;
+		panelWidth = 200;
+		labelWidth = 170;
+		componentWidth = 130;
 	}
 
 	public Class<? extends JComponent> getType() {
@@ -102,5 +110,21 @@ public class ComponentBuilderConfiguration {
 
 	public void setDefaultBooleanValue(boolean defaultBooleanValue) {
 		this.defaultBooleanValue = defaultBooleanValue;
+	}
+
+	public Color getColor() {
+		return color;
+	}
+
+	public void setColor(Color color) {
+		this.color = color;
+	}
+
+	public int getFontSize() {
+		return fontSize;
+	}
+
+	public void setFontSize(int fontSize) {
+		this.fontSize = fontSize;
 	}
 }

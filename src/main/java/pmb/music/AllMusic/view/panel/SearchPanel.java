@@ -4,7 +4,6 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
-import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
@@ -36,7 +35,6 @@ import javax.swing.JTextField;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
-import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
@@ -292,22 +290,11 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		topTen = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(searchFields).withLabel("Top 10 : ")
 				.withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
 		// Nombre de résultat
-		JPanel countPanel = new JPanel();
-		countLabel = ComponentBuilder.buildJLabel("", 200);
-		countLabel.setForeground(new Color(8, 187, 81));
-		Font labelFont = countLabel.getFont();
-		countLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 25));
-		countLabel.setVerticalAlignment(SwingConstants.CENTER);
-		countPanel.add(countLabel);
-		searchFields.add(countPanel);
+		countLabel = (JLabel) new ComponentBuilder(JLabel.class).withParent(searchFields).withLabel("")
+				.withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(25).build();
 		// Nombre de suppression
-		JPanel deletePanel = new JPanel();
-		deleteLabel = ComponentBuilder.buildJLabel("", 400);
-		deleteLabel.setForeground(new Color(8, 187, 81));
-		Font labelFont2 = deleteLabel.getFont();
-		deleteLabel.setFont(new Font(labelFont2.getName(), labelFont2.getStyle(), 20));
-		deletePanel.add(deleteLabel);
-		searchFields.add(deletePanel);
+		deleteLabel = (JLabel) new ComponentBuilder(JLabel.class).withParent(searchFields).withLabel("")
+				.withLabelWidth(400).withColor(new Color(8, 187, 81)).withFontSize(20).build();
 
 		header.add(searchFields);
 		LOG.debug("End initSearchFields");
