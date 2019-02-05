@@ -42,6 +42,16 @@ public class ComponentBuilder<T> {
 	/**
 	 * Creates a builder for a specific component. It will be parametrized by the
 	 * {@code with..} methods.
+	 * <ul>
+	 * Allowed types are:
+	 * </ul>
+	 * <li>JComboCheckBox : A list with multiples selectable choices</li>
+	 * <li>JComboBoxInput : An input text with a combo box</li>
+	 * <li>MyInputText : An input text with suggestions</li>
+	 * <li>JComboBox : A list of value with one selectable item</li>
+	 * <li>JCheckBox : True / false</li>
+	 * <li>MyInputRange : Two inputs together</li>
+	 * <li>JLabel : A label</li>
 	 * 
 	 * @param type class of the component
 	 */
@@ -60,22 +70,29 @@ public class ComponentBuilder<T> {
 			throw new IllegalArgumentException("Component parent is required");
 		}
 		if (config.getType().equals(JComboCheckBox.class)) {
+			// A list with multiples selectable choices
 			requiredValues();
 			return buildJComboCheckBox();
 		} else if (config.getType().equals(JComboBoxInput.class)) {
+			// An input text with a combo box
 			requiredValues();
 			return buildJComboBoxInput();
 		} else if (config.getType().equals(MyInputText.class)) {
+			// An input text with suggestions
 			requiredValues();
 			return buildMyInputText();
 		} else if (config.getType().equals(JComboBox.class)) {
+			// A list of value with one selectable item
 			requiredValues();
 			return buildJComboBox();
 		} else if (config.getType().equals(JCheckBox.class)) {
+			// True / false
 			return buildJCheckBox();
 		} else if (config.getType().equals(MyInputRange.class)) {
+			// Two inputs together
 			return buildMyInputRange();
 		} else if (config.getType().equals(JLabel.class)) {
+			// A label
 			return buildJLabel();
 		} else {
 			throw new IllegalArgumentException("Incorrect component type: " + config.getType().getName());
@@ -271,8 +288,7 @@ public class ComponentBuilder<T> {
 	public ComponentBuilder<T> withValues(T[] values) {
 		if (!config.getType().equals(JComboCheckBox.class) && !config.getType().equals(JComboBoxInput.class)
 				&& !config.getType().equals(MyInputText.class) && !config.getType().equals(JComboBox.class)) {
-			throw new IllegalArgumentException(
-					"The type " + config.getType().getName() + " must not use the property Values");
+			throw new IllegalArgumentException(config.getType().getName() + " must not use the property Values");
 		}
 		this.config.setValues(values);
 		return this;
@@ -311,7 +327,7 @@ public class ComponentBuilder<T> {
 	public ComponentBuilder<T> withFilterContains(boolean isFilterContains) {
 		if (!config.getType().equals(MyInputText.class)) {
 			throw new IllegalArgumentException(
-					"The type " + config.getType().getName() + " must not use the property Filter Contains");
+					config.getType().getName() + " must not use the property Filter Contains");
 		}
 		this.config.setFilterContains(isFilterContains);
 		return this;
@@ -337,7 +353,7 @@ public class ComponentBuilder<T> {
 	public ComponentBuilder<T> withComponentWidth(int componentWidth) {
 		if (config.getType().equals(JLabel.class)) {
 			throw new IllegalArgumentException(
-					"The type " + config.getType().getName() + " must not use the property Component Width");
+					config.getType().getName() + " must not use the property Component Width");
 		}
 		this.config.setComponentWidth(componentWidth);
 		return this;
@@ -362,8 +378,7 @@ public class ComponentBuilder<T> {
 	 */
 	public ComponentBuilder<T> withFontSize(int fontSize) {
 		if (!config.getType().equals(JLabel.class)) {
-			throw new IllegalArgumentException(
-					"The type " + config.getType().getName() + " must not use the property Font Size");
+			throw new IllegalArgumentException(config.getType().getName() + " must not use the property Font Size");
 		}
 		this.config.setFontSize(fontSize);
 		return this;
@@ -377,8 +392,7 @@ public class ComponentBuilder<T> {
 	 */
 	public ComponentBuilder<T> withColor(Color color) {
 		if (!config.getType().equals(JLabel.class)) {
-			throw new IllegalArgumentException(
-					"The type " + config.getType().getName() + " must not use the property Color");
+			throw new IllegalArgumentException(config.getType().getName() + " must not use the property Color");
 		}
 		this.config.setColor(color);
 		return this;
@@ -392,8 +406,7 @@ public class ComponentBuilder<T> {
 	 */
 	public ComponentBuilder<T> withInitialValue(T initialValue) {
 		if (!config.getType().equals(JCheckBox.class) && !config.getType().equals(JComboBox.class)) {
-			throw new IllegalArgumentException(
-					"The type " + config.getType().getName() + " must not use the property Initial Value");
+			throw new IllegalArgumentException(config.getType().getName() + " must not use the property Initial Value");
 		}
 		this.config.setInitialValue(initialValue);
 		return this;
