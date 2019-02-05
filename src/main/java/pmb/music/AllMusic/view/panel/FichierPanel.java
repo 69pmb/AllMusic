@@ -116,7 +116,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	// Search components
 	private MyInputText auteur;
 	private MyInputText filename;
-	private JComboBoxInput publi;
+	private JComboBoxInput<String> publi;
 	private MyInputRange range;
 	private JComboCheckBox cat;
 	private JComboCheckBox type;
@@ -201,10 +201,11 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		this.add(header);
 	}
 
+	@SuppressWarnings("unchecked")
 	private void initInputs(JPanel header) {
 		JPanel inputs = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		// Auteur
-		auteur = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(inputs)
+		auteur = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(inputs)
 				.withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(190)
 				.withFilterContains(true).withFlowLayout(true).withComponentWidth(150).withLabelWidth(140).build();
 		// Nom du fichier
@@ -217,33 +218,33 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		namePanel.add(filename);
 		inputs.add(namePanel);
 		// Publi
-		publi = (JComboBoxInput) new ComponentBuilder(JComboBoxInput.class).withParent(inputs)
-				.withValues(Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue)
-						.collect(Collectors.toList()))
+		publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(inputs)
+				.withValues(
+						Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new))
 				.withLabel("Année de publication : ").withPanelWidth(250).withComponentWidth(100).withLabelWidth(210)
 				.build();
 		// Range
-		range = (MyInputRange) new ComponentBuilder(MyInputRange.class).withParent(inputs)
+		range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(inputs)
 				.withLabel("Année(s) du classement : ").withPanelWidth(270).withComponentWidth(140).withLabelWidth(180)
 				.withFlowLayout(true).build();
 		// Categorie
-		cat = (JComboCheckBox) new ComponentBuilder(JComboCheckBox.class).withParent(inputs)
-				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()))
+		cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
+				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).toArray(String[]::new))
 				.withFlowLayout(true).withLabel("Catégorie : ").withPanelWidth(200).withComponentWidth(120)
 				.withLabelWidth(150).build();
 		// Type
-		type = (JComboCheckBox) new ComponentBuilder(JComboCheckBox.class).withParent(inputs)
+		type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
 				.withValues(Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType)
-						.collect(Collectors.toList()))
+						.toArray(String[]::new))
 				.withFlowLayout(true).withLabel("Type : ").withPanelWidth(200).withComponentWidth(150)
 				.withLabelWidth(150).build();
 		// Sorted
-		sorted = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(inputs).withLabel("Classé : ")
+		sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs).withLabel("Classé : ")
 				.withFlowLayout(true).withPanelWidth(100).withComponentWidth(80).withLabelWidth(150).build();
 		// Deleted
-		deleted = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(inputs).withLabel("Supprimés : ")
-				.withFlowLayout(true).withDefaultBooleanValue(true).withPanelWidth(100).withComponentWidth(80)
-				.withLabelWidth(150).build();
+		deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs)
+				.withLabel("Supprimés : ").withFlowLayout(true).withInitialValue(true).withPanelWidth(100)
+				.withComponentWidth(80).withLabelWidth(150).build();
 		header.add(inputs);
 	}
 
@@ -321,8 +322,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		});
 		buttons.add(csv);
 		// Label pour afficher les resultats
-		resultLabel = (JLabel) new ComponentBuilder(JLabel.class).withParent(buttons).withLabel("").withLabelWidth(400)
-				.withColor(new Color(8, 187, 81)).withFontSize(20).build();
+		resultLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(buttons).withLabel("")
+				.withLabelWidth(400).withColor(new Color(8, 187, 81)).withFontSize(20).build();
 		header.add(buttons);
 	}
 

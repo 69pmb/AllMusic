@@ -19,11 +19,11 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
-import javax.swing.SwingConstants;
 
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.view.ComponentBuilder;
 
 /**
  * Une "pop-up" permettant de modifier une composition.
@@ -70,8 +70,11 @@ public class ModifyCompositionDialog extends JDialog {
 		LOG.debug("End ModifyCompositionDialog");
 	}
 
+	@SuppressWarnings("unchecked")
 	private void initComposant() {
 		LOG.debug("Start initComposant");
+		JPanel content = new JPanel();
+
 		// Artiste
 		JPanel artistPanel = new JPanel();
 		artistPanel.setPreferredSize(new Dimension(250, 60));
@@ -80,6 +83,7 @@ public class ModifyCompositionDialog extends JDialog {
 		artist.setPreferredSize(new Dimension(230, 30));
 		artistPanel.add(artistLabel);
 		artistPanel.add(artist);
+		content.add(artistPanel);
 
 		// Titre
 		JPanel titrePanel = new JPanel();
@@ -89,33 +93,17 @@ public class ModifyCompositionDialog extends JDialog {
 		titre.setPreferredSize(new Dimension(270, 30));
 		titrePanel.add(titreLabel);
 		titrePanel.add(titre);
+		content.add(titrePanel);
 
 		// Type
-		JPanel typePanel = new JPanel();
-		typePanel.setPreferredSize(new Dimension(180, 60));
-		JLabel typeLabel = new JLabel("Type : ");
-		JComboBox<RecordType> type = new JComboBox<>(RecordType.values());
-		type.setPreferredSize(new Dimension(150, 25));
-		type.setSelectedItem(RecordType.valueOf((String) compo.get(typeIndex)));
-		typePanel.add(typeLabel);
-		typePanel.add(type);
+		JComboBox<RecordType> type = (JComboBox<RecordType>) new ComponentBuilder<RecordType>(JComboBox.class)
+				.withParent(content).withPanelWidth(180).withLabel("Type : ").withValues(RecordType.values())
+				.withInitialValue(RecordType.valueOf((String) compo.get(typeIndex))).withComponentWidth(150).build();
 
 		// Deleted
-		JPanel deletedPanel = new JPanel();
-		deletedPanel.setPreferredSize(new Dimension(120, 60));
-		JLabel deletedLabel = new JLabel("Supprimé : ");
-		JCheckBox deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(100, 25));
-		deleted.setSelected(Boolean.parseBoolean((String) compo.get(deleteIndex)));
-		deleted.setHorizontalAlignment(SwingConstants.CENTER);
-		deletedPanel.add(deletedLabel);
-		deletedPanel.add(deleted);
-
-		JPanel content = new JPanel();
-		content.add(artistPanel);
-		content.add(titrePanel);
-		content.add(typePanel);
-		content.add(deletedPanel);
+		JCheckBox deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(content)
+				.withLabel("Supprimé : ").withPanelWidth(120).withComponentWidth(100)
+				.withInitialValue(Boolean.parseBoolean((String) compo.get(deleteIndex))).build();
 
 		JPanel control = new JPanel();
 		JButton okBouton = new JButton("OK");
