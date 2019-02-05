@@ -8,6 +8,7 @@ import java.awt.event.FocusListener;
 import java.util.List;
 
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
@@ -59,6 +60,8 @@ public class ComponentBuilder {
 			return buildJComboBoxInput();
 		} else if (config.getType().equals(MyInputText.class)) {
 			return buildMyInputText();
+		} else if (config.getType().equals(JCheckBox.class)) {
+			return buildJCheckBox();
 		} else if (config.getType().equals(MyInputRange.class)) {
 			return buildMyInputRange();
 		} else {
@@ -67,18 +70,29 @@ public class ComponentBuilder {
 	}
 
 	/**
+	 * Builds a JCheckBox component.
+	 * 
+	 * @return the JCheckBox built
+	 */
+	private JCheckBox buildJCheckBox() {
+		JPanel panel = buildComponentPanel();
+		PanelUtils.setSize(panel, config.getPanelWidth(), ComponentBuilder.PANEL_HEIGHT);
+		JCheckBox checkBox = new JCheckBox();
+		PanelUtils.setSize(checkBox, config.getComponentWidth(), ComponentBuilder.COMPONENT_HEIGHT);
+		checkBox.setSelected(config.getDefaultBooleanValue());
+		checkBox.setHorizontalAlignment(SwingConstants.CENTER);
+		panel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
+		panel.add(checkBox);
+		return checkBox;
+	}
+
+	/**
 	 * Builds a MyInputRange component.
 	 * 
 	 * @return the MyInputRange built
 	 */
 	private MyInputRange buildMyInputRange() {
-		JPanel rangePanel;
-		if (config.isFlowLayout()) {
-			rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		} else {
-			rangePanel = new JPanel();
-		}
-		PanelUtils.setSize(rangePanel, config.getPanelWidth(), ComponentBuilder.PANEL_HEIGHT);
+		JPanel rangePanel = buildComponentPanel();
 		MyInputRange range = new MyInputRange(new MyInputText(JTextField.class, config.getComponentWidth() / 2),
 				new MyInputText(JTextField.class, config.getComponentWidth() / 2));
 		range.getFirst().getInput().addFocusListener(PanelUtils.selectAll);
@@ -100,7 +114,6 @@ public class ComponentBuilder {
 		rangePanel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
 		rangePanel.add(range.getFirst());
 		rangePanel.add(range.getSecond());
-		config.getParent().add(rangePanel);
 		return range;
 	}
 
@@ -110,18 +123,11 @@ public class ComponentBuilder {
 	 * @return the component built
 	 */
 	private JComboCheckBox buildJComboCheckBox() {
-		JPanel boxPanel;
-		if (config.isFlowLayout()) {
-			boxPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		} else {
-			boxPanel = new JPanel();
-		}
-		PanelUtils.setSize(boxPanel, config.getPanelWidth(), PANEL_HEIGHT);
+		JPanel boxPanel = buildComponentPanel();
 		JComboCheckBox box = new JComboCheckBox(config.getValues());
 		box.setPreferredSize(new Dimension(config.getComponentWidth(), COMPONENT_HEIGHT));
 		boxPanel.add(buildJLabel(config.getLabel(), config.getLabelWidth()));
 		boxPanel.add(box);
-		config.getParent().add(boxPanel);
 		return box;
 	}
 
@@ -131,17 +137,16 @@ public class ComponentBuilder {
 	 * @return the component built
 	 */
 	private JComboBoxInput buildJComboBoxInput() {
+		JPanel panel = buildComponentPanel();
+
 		MyInputText text = new MyInputText(JTextField.class, config.getComponentWidth());
 		text.getInput().addFocusListener(PanelUtils.selectAll);
 		JComboBox<String> box = new JComboBox<>(config.getValues().stream().toArray(String[]::new));
 		PanelUtils.setSize(box, 45, COMPONENT_HEIGHT);
 		JComboBoxInput input = new JComboBoxInput(text, box);
 
-		JPanel panel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		PanelUtils.setSize(panel, config.getPanelWidth(), PANEL_HEIGHT);
 		panel.add(buildJLabel(config.getLabel(), config.getLabelWidth()));
 		panel.add(input);
-		config.getParent().add(panel);
 		return input;
 	}
 
@@ -151,23 +156,15 @@ public class ComponentBuilder {
 	 * @return the component built
 	 */
 	private MyInputText buildMyInputText() {
-		JPanel inputPanel;
-		if (config.isFlowLayout()) {
-			inputPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-		} else {
-			inputPanel = new JPanel();
-		}
-		JLabel label = buildJLabel(config.getLabel(), config.getLabelWidth());
+		JPanel inputPanel = buildComponentPanel();
 		MyInputText input = new MyInputText(JComboBox.class, config.getComponentWidth());
 		AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) input.getInput(),
 				GlazedLists.eventListOf(config.getValues().toArray()));
 		if (config.isFilterContains()) {
 			install.setFilterMode(TextMatcherEditor.CONTAINS);
 		}
-		PanelUtils.setSize(inputPanel, config.getPanelWidth(), PANEL_HEIGHT);
-		inputPanel.add(label);
+		inputPanel.add(buildJLabel(config.getLabel(), config.getLabelWidth()));
 		inputPanel.add(input);
-		config.getParent().add(inputPanel);
 		return input;
 	}
 
@@ -182,6 +179,23 @@ public class ComponentBuilder {
 		JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
 		PanelUtils.setSize(jLabel, width, LABEL_HEIGHT);
 		return jLabel;
+	}
+
+	/**
+	 * Builds the panel that will hold the component.
+	 * 
+	 * @return the panel added to the parent panel
+	 */
+	private JPanel buildComponentPanel() {
+		JPanel panel;
+		if (config.isFlowLayout()) {
+			panel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+		} else {
+			panel = new JPanel();
+		}
+		PanelUtils.setSize(panel, config.getPanelWidth(), ComponentBuilder.PANEL_HEIGHT);
+		config.getParent().add(panel);
+		return panel;
 	}
 
 	/**
@@ -271,6 +285,17 @@ public class ComponentBuilder {
 	 */
 	public ComponentBuilder withLabelWidth(int labelWidth) {
 		this.config.setLabelWidth(labelWidth);
+		return this;
+	}
+
+	/**
+	 * Configures default boolean value.
+	 * 
+	 * @param defaultValue a boolean
+	 * @return the builder
+	 */
+	public ComponentBuilder withDefaultBooleanValue(boolean defaultValue) {
+		this.config.setDefaultBooleanValue(defaultValue);
 		return this;
 	}
 }
