@@ -4,7 +4,6 @@
 package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
-import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
@@ -28,14 +27,12 @@ import java.util.stream.Collectors;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
-import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
@@ -156,15 +153,8 @@ public class ArtistPanel extends JPanel {
 				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()))
 				.withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(120).withLabelWidth(150).build();
 		// Deleted
-		JPanel deletedPanel = new JPanel();
-		deletedPanel.setPreferredSize(new Dimension(90, ComponentBuilder.PANEL_HEIGHT));
-		JLabel deletedLabel = new JLabel("Supprimés: ");
-		deleted = new JCheckBox();
-		deleted.setPreferredSize(new Dimension(50, ComponentBuilder.COMPONENT_HEIGHT));
-		deleted.setHorizontalAlignment(SwingConstants.CENTER);
-		deletedPanel.add(deletedLabel);
-		deletedPanel.add(deleted);
-		header.add(deletedPanel);
+		deleted = (JCheckBox) new ComponentBuilder(JCheckBox.class).withParent(header).withLabel("Supprimés : ")
+				.withPanelWidth(90).withComponentWidth(50).withLabelWidth(60).build();
 		// SEARCH
 		search = ComponentBuilder.buildJButton("Rechercher", 150, Constant.ICON_SEARCH);
 		search.addActionListener((ActionEvent e) -> searchAction());
