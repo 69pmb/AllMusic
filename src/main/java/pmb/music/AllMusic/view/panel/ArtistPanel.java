@@ -64,7 +64,6 @@ import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ComponentBuilder;
-import pmb.music.AllMusic.view.ComponentBuilderConfiguration;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
@@ -139,12 +138,15 @@ public class ArtistPanel extends JPanel {
 		LOG.debug("Start initHeader");
 		JPanel header = new JPanel();
 		// Artist
-		artist = ComponentBuilder.createMyInputText(new ComponentBuilderConfiguration(header,
-				OngletPanel.getArtistList(), "Artiste : ", false, false, 200, 150, 150));
+		artist = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(header)
+				.withValues(OngletPanel.getArtistList()).withLabel("Artiste : ").withPanelWidth(200)
+				.withComponentWidth(150).withLabelWidth(150).build();
 		// Publi
-		publi = ComponentBuilder.createJComboBoxInput(new ComponentBuilderConfiguration(header,
-				Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).collect(Collectors.toList()),
-				"Année de publication : ", false, false, 230, 200, 75));
+		publi = (JComboBoxInput) new ComponentBuilder(JComboBoxInput.class).withParent(header)
+				.withValues(Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue)
+						.collect(Collectors.toList()))
+				.withLabel("Année de publication : ").withPanelWidth(230).withComponentWidth(75).withLabelWidth(200)
+				.build();
 		// Range
 		JPanel rangePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		PanelUtils.setSize(rangePanel, 300, ComponentBuilder.PANEL_HEIGHT);
@@ -173,12 +175,13 @@ public class ArtistPanel extends JPanel {
 		rangePanel.add(rangeE);
 		header.add(rangePanel);
 		// Auteur
-		auteur = ComponentBuilder.createMyInputText(new ComponentBuilderConfiguration(header,
-				OngletPanel.getAuthorList(), "Auteur : ", false, true, 150, 150, 200));
+		auteur = (MyInputText) new ComponentBuilder(MyInputText.class).withParent(header)
+				.withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(200)
+				.withFilterContains(true).withComponentWidth(150).withLabelWidth(150).build();
 		// Categorie
-		cat = ComponentBuilder.createJComboCheckBox(new ComponentBuilderConfiguration(header,
-				Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()), "Catégorie : ",
-				true, false, 180, 120, 150));
+		cat = (JComboCheckBox) new ComponentBuilder(JComboCheckBox.class).withParent(header)
+				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).collect(Collectors.toList()))
+				.withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(120).withLabelWidth(150).build();
 		// Deleted
 		JPanel deletedPanel = new JPanel();
 		deletedPanel.setPreferredSize(new Dimension(90, ComponentBuilder.PANEL_HEIGHT));
@@ -190,11 +193,11 @@ public class ArtistPanel extends JPanel {
 		deletedPanel.add(deleted);
 		header.add(deletedPanel);
 		// SEARCH
-		search = ComponentBuilder.createJButton("Rechercher", 150, Constant.ICON_SEARCH);
+		search = ComponentBuilder.buildJButton("Rechercher", 150, Constant.ICON_SEARCH);
 		search.addActionListener((ActionEvent e) -> searchAction());
 		header.add(search);
 		// RESET
-		JButton reset = ComponentBuilder.createJButton("Réinitialiser", 150, Constant.ICON_ERASE);
+		JButton reset = ComponentBuilder.buildJButton("Réinitialiser", 150, Constant.ICON_ERASE);
 		reset.addActionListener((ActionEvent e) -> resetAction());
 		header.add(reset);
 		LOG.debug("End initHeader");
@@ -268,7 +271,7 @@ public class ArtistPanel extends JPanel {
 	private JButton initCsvBtn() {
 		LOG.debug("Start initCsvBtn");
 		// CSV
-		JButton csv = ComponentBuilder.createJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
+		JButton csv = ComponentBuilder.buildJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
 		csv.addActionListener((ActionEvent e) -> {
 			LOG.debug("Start Csv");
 			List<String> c = Arrays

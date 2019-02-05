@@ -140,7 +140,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(fdc, fdcYear, Component.LEFT_ALIGNMENT, 100);
 
 		// Launch Button
-		JButton fdcBtn = ComponentBuilder.createJButton("Go Compositions En Double", 200, Constant.ICON_GO);
+		JButton fdcBtn = ComponentBuilder.buildJButton("Go Compositions En Double", 200, Constant.ICON_GO);
 		fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
 		fdcBtn.addActionListener((ActionEvent arg0) -> {
 			LOG.debug("Start findDuplicateComposition");
@@ -178,7 +178,7 @@ public class BatchPanel extends JPanel {
 		jfile.setApproveButtonText("Ouvrir");
 		jfile.setPreferredSize(new Dimension(1200, 600));
 		jfile.setFileFilter(new FileNameExtensionFilter("csv", "csv"));
-		JButton browse = ComponentBuilder.createJButton("Parcourir", 220, Constant.ICON_FOLDER);
+		JButton browse = ComponentBuilder.buildJButton("Parcourir", 220, Constant.ICON_FOLDER);
 		browse.setToolTipText("Charge un fichier csv contenant des compositions");
 		browse.addActionListener((ActionEvent arg0) -> {
 			LOG.debug("Start browse");
@@ -192,7 +192,7 @@ public class BatchPanel extends JPanel {
 
 		// Type
 		JPanel typePanel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-		JLabel typeLabel = ComponentBuilder.createJLabel("Type : ", 50);
+		JLabel typeLabel = ComponentBuilder.buildJLabel("Type : ", 50);
 		JComboBox<RecordType> type = new JComboBox<>(new RecordType[] { RecordType.SONG, RecordType.ALBUM });
 		PanelUtils.setSize(type, 100, ComponentBuilder.COMPONENT_HEIGHT);
 		PanelUtils.addComponent(typePanel, typeLabel, Component.LEFT_ALIGNMENT, 0);
@@ -200,7 +200,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(massDeletion, typePanel, Component.RIGHT_ALIGNMENT, 100);
 
 		// Bouton d'action
-		JButton massDeletionBtn = ComponentBuilder.createJButton("Go Mass Deletion", 200, Constant.ICON_GO);
+		JButton massDeletionBtn = ComponentBuilder.buildJButton("Go Mass Deletion", 200, Constant.ICON_GO);
 		massDeletionBtn.setToolTipText("Supprime en masse des compositions.");
 		massDeletionBtn.addActionListener((ActionEvent arg0) -> {
 			if (selectedFile.getText() != null
@@ -232,7 +232,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(fdf, fdfLabel, Component.LEFT_ALIGNMENT, 700);
 
 		// Bouton d'action
-		JButton fdfBtn = ComponentBuilder.createJButton("Go Fichiers En Double", 200, Constant.ICON_GO);
+		JButton fdfBtn = ComponentBuilder.buildJButton("Go Fichiers En Double", 200, Constant.ICON_GO);
 		fdfBtn.setToolTipText("Cherche les fichiers en double.");
 		fdfBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateFiles: " + MiscUtils.getCurrentTime(), false);
@@ -257,7 +257,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(mxf, mxfLabel, Component.LEFT_ALIGNMENT, 700);
 
 		// Bouton d'action
-		JButton mxfBtn = ComponentBuilder.createJButton("Go XML Manquant", 200, Constant.ICON_GO);
+		JButton mxfBtn = ComponentBuilder.buildJButton("Go XML Manquant", 200, Constant.ICON_GO);
 		mxfBtn.setToolTipText("Cherche si des fichiers txt n'ont pas d'équivalent XML.");
 		mxfBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start missingXML: " + MiscUtils.getCurrentTime(), false);
@@ -311,7 +311,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(top, deleted, Component.LEFT_ALIGNMENT, 80);
 
 		// Bouton d'action
-		JButton topBtn = ComponentBuilder.createJButton("Go Tops", 200, Constant.ICON_GO);
+		JButton topBtn = ComponentBuilder.buildJButton("Go Tops", 200, Constant.ICON_GO);
 		topBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start topYear: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
@@ -334,7 +334,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(suspicious, suspiciousLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// suspicious Btn
-		JButton suspiciousBtn = ComponentBuilder.createJButton("Go Compositions Suspectes", 200, Constant.ICON_GO);
+		JButton suspiciousBtn = ComponentBuilder.buildJButton("Go Compositions Suspectes", 200, Constant.ICON_GO);
 		suspiciousBtn.setToolTipText("Trouve des compositions bizarres");
 		suspiciousBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime(), false);
@@ -356,7 +356,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(duplicateTitle, duplicateTitleLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// duplicateTitle Btn
-		JButton duplicateTitleBtn = ComponentBuilder.createJButton("Go Same Title", 200, Constant.ICON_GO);
+		JButton duplicateTitleBtn = ComponentBuilder.buildJButton("Go Same Title", 200, Constant.ICON_GO);
 		duplicateTitleBtn.setToolTipText("Trouve les chansons avec le même titre mais avec l'artiste différent");
 		duplicateTitleBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime(), false);
@@ -378,7 +378,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(validate, validateLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// validate Btn
-		JButton validateBtn = ComponentBuilder.createJButton("Go Filename Incorrect", 200, Constant.ICON_GO);
+		JButton validateBtn = ComponentBuilder.buildJButton("Go Filename Incorrect", 200, Constant.ICON_GO);
 		validateBtn.setToolTipText("Trouve les noms de fichier incorrect");
 		validateBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime(), false);
@@ -400,7 +400,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(weird, weirdLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// weird btn
-		JButton weirdBtn = ComponentBuilder.createJButton("Go Weird Size By File", 200, Constant.ICON_GO);
+		JButton weirdBtn = ComponentBuilder.buildJButton("Go Weird Size By File", 200, Constant.ICON_GO);
 		weirdBtn.setToolTipText("Recherche les fichiers dont la taille est bizarre");
 		weirdBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start weird: " + MiscUtils.getCurrentTime(), false);
@@ -422,7 +422,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(average, averageLabel, Component.LEFT_ALIGNMENT, 800);
 
 		// average btn
-		JButton averageBtn = ComponentBuilder.createJButton("Go Average By File", 200, Constant.ICON_GO);
+		JButton averageBtn = ComponentBuilder.buildJButton("Go Average By File", 200, Constant.ICON_GO);
 		averageBtn.setToolTipText("Calcule la moyenne du nombre de fichier de chaque composition par fichier.");
 		averageBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start average: " + MiscUtils.getCurrentTime(), false);
@@ -444,7 +444,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(stat, statLabel, Component.LEFT_ALIGNMENT, 900);
 
 		// Stat btn
-		JButton statsBtn = ComponentBuilder.createJButton("Go Statistiques", 200, Constant.ICON_GO);
+		JButton statsBtn = ComponentBuilder.buildJButton("Go Statistiques", 200, Constant.ICON_GO);
 		statsBtn.setToolTipText("Génère des statistiques.");
 		statsBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start statistic: " + MiscUtils.getCurrentTime(), false);
@@ -466,7 +466,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(unknown, unknownLabel, Component.LEFT_ALIGNMENT, 900);
 
 		// Unknown btn
-		JButton unknownsBtn = ComponentBuilder.createJButton("Go Inconnus", 200, Constant.ICON_GO);
+		JButton unknownsBtn = ComponentBuilder.buildJButton("Go Inconnus", 200, Constant.ICON_GO);
 		unknownsBtn.setToolTipText("Trouve le type des compositions inconnues.");
 		unknownsBtn.addActionListener((ActionEvent arg0) -> {
 			displayText("Start findUnknown: " + MiscUtils.getCurrentTime(), false);
@@ -502,14 +502,14 @@ public class BatchPanel extends JPanel {
 		// Boutons
 		JPanel btnPanel = new JPanel();
 		// Clear
-		JButton clearBtn = ComponentBuilder.createJButton("Vider la zone de résultat", 200, Constant.ICON_ERASE);
+		JButton clearBtn = ComponentBuilder.buildJButton("Vider la zone de résultat", 200, Constant.ICON_ERASE);
 		clearBtn.addActionListener((ActionEvent arg0) -> {
 			resultLabelData = null;
 			displayText(null, false);
 		});
 		btnPanel.add(clearBtn);
 		// Notepad
-		batchFileBtn = ComponentBuilder.createJButton("Ouvrir le fichier de résultat", 200, Constant.ICON_TXT_FILE);
+		batchFileBtn = ComponentBuilder.buildJButton("Ouvrir le fichier de résultat", 200, Constant.ICON_TXT_FILE);
 		batchFileBtn.addActionListener((ActionEvent arg0) -> openResultFileInNotepad());
 		btnPanel.add(batchFileBtn);
 

@@ -207,7 +207,7 @@ public class ImportPanel extends JPanel {
 	 */
 	private void insertTopPanel() {
 		JPanel top = new JPanel();
-		JButton browse = ComponentBuilder.createJButton("Parcourir", 220, Constant.ICON_FOLDER);
+		JButton browse = ComponentBuilder.buildJButton("Parcourir", 220, Constant.ICON_FOLDER);
 		browse.setToolTipText("Charge un fichier texte contenant des musiques.");
 		browse.addActionListener((ActionEvent arg0) -> {
 			LOG.debug("Start browse");
@@ -220,20 +220,20 @@ public class ImportPanel extends JPanel {
 		top.add(browse);
 
 		// Reset
-		JButton cleanBtn = ComponentBuilder.createJButton("Reset", 220, Constant.ICON_ERASE);
+		JButton cleanBtn = ComponentBuilder.buildJButton("Reset", 220, Constant.ICON_ERASE);
 		cleanBtn.setToolTipText("Remet à zéro tous les champs.");
 		cleanBtn.addActionListener((ActionEvent arg0) -> resetAll());
 		top.add(cleanBtn);
 
 		// Reload
-		JButton reloadBtn = ComponentBuilder.createJButton("Reload", 220, Constant.ICON_REFRESH);
+		JButton reloadBtn = ComponentBuilder.buildJButton("Reload", 220, Constant.ICON_REFRESH);
 		reloadBtn.setToolTipText(
 				"Relance le chargement du fichier chargé précédemment. Utile si il a été modifié entre temps.");
 		reloadBtn.addActionListener((ActionEvent arg0) -> loadFile());
 		top.add(reloadBtn);
 
 		// Open Xml file
-		JButton open = ComponentBuilder.createJButton("Charger un fichier XML", 220, Constant.ICON_FILE);
+		JButton open = ComponentBuilder.buildJButton("Charger un fichier XML", 220, Constant.ICON_FILE);
 		open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
 		open.addActionListener((ActionEvent arg0) -> {
 			LOG.debug("Start open");
@@ -337,7 +337,7 @@ public class ImportPanel extends JPanel {
 		// Range
 		JPanel rangePanel = new JPanel();
 		PanelUtils.setSize(rangePanel, 300, ComponentBuilder.PANEL_HEIGHT);
-		JLabel rangeLabel = ComponentBuilder.createJLabel("Année(s) du classement : ", 300);
+		JLabel rangeLabel = ComponentBuilder.buildJLabel("Année(s) du classement : ", 300);
 		rangeB = new JTextField();
 		rangeE = new JTextField();
 		rangeB.setPreferredSize(new Dimension(100, ComponentBuilder.COMPONENT_HEIGHT));
@@ -458,7 +458,7 @@ public class ImportPanel extends JPanel {
 		// reverseArtist
 		JPanel reverseArtistPanel = new JPanel();
 		reverseArtistPanel.setPreferredSize(new Dimension(100, ComponentBuilder.PANEL_HEIGHT));
-		JLabel reverseArtistLabel = ComponentBuilder.createJLabel("<html>Retourner l'artiste: </html>", 100);
+		JLabel reverseArtistLabel = ComponentBuilder.buildJLabel("<html>Retourner l'artiste: </html>", 100);
 		reverseArtist = new JCheckBox();
 		reverseArtist.setPreferredSize(new Dimension(20, 20));
 		reverseArtistPanel.add(reverseArtistLabel);
@@ -469,7 +469,7 @@ public class ImportPanel extends JPanel {
 		JPanel removeParenthesePanel = new JPanel();
 		removeParenthesePanel.setPreferredSize(new Dimension(150, ComponentBuilder.PANEL_HEIGHT));
 		JLabel removeParentheseLabel = ComponentBuilder
-				.createJLabel("<html>Supprimer le texte entre parenthèse du titre: </html>", 150);
+				.buildJLabel("<html>Supprimer le texte entre parenthèse du titre: </html>", 150);
 		removeParenthese = new JCheckBox();
 		removeParenthese.setPreferredSize(new Dimension(20, 20));
 		removeParenthesePanel.add(removeParentheseLabel);
@@ -479,7 +479,7 @@ public class ImportPanel extends JPanel {
 		// upper
 		JPanel upperPanel = new JPanel();
 		upperPanel.setPreferredSize(new Dimension(100, ComponentBuilder.PANEL_HEIGHT));
-		JLabel upperLabel = ComponentBuilder.createJLabel("<html>Pas de séparateur, artiste en capitale: </html>", 100);
+		JLabel upperLabel = ComponentBuilder.buildJLabel("<html>Pas de séparateur, artiste en capitale: </html>", 100);
 		upper = new JCheckBox();
 		upper.setPreferredSize(new Dimension(20, 20));
 		upperPanel.add(upperLabel);
@@ -489,7 +489,7 @@ public class ImportPanel extends JPanel {
 		// removeAfter
 		JPanel removeAfterPanel = new JPanel();
 		removeAfterPanel.setPreferredSize(new Dimension(100, ComponentBuilder.PANEL_HEIGHT));
-		JLabel removeAfterLabel = ComponentBuilder.createJLabel("<html>Supprime après le dernier séparateur: </html>",
+		JLabel removeAfterLabel = ComponentBuilder.buildJLabel("<html>Supprime après le dernier séparateur: </html>",
 				100);
 		removeAfter = new JCheckBox();
 		removeAfter.setPreferredSize(new Dimension(20, 20));
@@ -501,7 +501,7 @@ public class ImportPanel extends JPanel {
 		JPanel isCompleteDirectoryPanel = new JPanel();
 		isCompleteDirectoryPanel.setPreferredSize(new Dimension(150, ComponentBuilder.PANEL_HEIGHT));
 		JLabel isCompleteDirectoryLabel = ComponentBuilder
-				.createJLabel("<html>Utiliser le dossier du fichier pour la mise en forme: </html>", 150);
+				.buildJLabel("<html>Utiliser le dossier du fichier pour la mise en forme: </html>", 150);
 		isCompleteDirectory = new JCheckBox();
 		isCompleteDirectory.setPreferredSize(new Dimension(20, 20));
 		isCompleteDirectoryPanel.add(isCompleteDirectoryLabel);
@@ -525,7 +525,7 @@ public class ImportPanel extends JPanel {
 		// maxLengthClean
 		JPanel maxLengthCleanPanel = new JPanel();
 		maxLengthCleanPanel.setPreferredSize(new Dimension(120, ComponentBuilder.PANEL_HEIGHT));
-		JLabel maxLengthCleanLabel = ComponentBuilder.createJLabel(
+		JLabel maxLengthCleanLabel = ComponentBuilder.buildJLabel(
 				"<html><body style='width: 100%'>Longueur maximale d'une ligne valide: </body></html>", 100);
 		maxLengthClean = new JTextField("120");
 		maxLengthClean.setPreferredSize(new Dimension(40, 20));
@@ -572,20 +572,20 @@ public class ImportPanel extends JPanel {
 		JPanel bottom = new JPanel();
 
 		// Import
-		importFile = ComponentBuilder.createJButton("Importer le fichier", 200, Constant.ICON_UPLOAD);
+		importFile = ComponentBuilder.buildJButton("Importer le fichier", 200, Constant.ICON_UPLOAD);
 		importFile.setToolTipText("Importe au format XML le fichier chargé précédemment avec les critères renseignés.");
 		importFile.addActionListener((ActionEvent arg0) -> importFileAction());
 		bottom.add(importFile);
 
 		// Clean
-		JButton cleanFile = ComponentBuilder.createJButton("Nettoyer le fichier", 200, Constant.ICON_CLEAN);
+		JButton cleanFile = ComponentBuilder.buildJButton("Nettoyer le fichier", 200, Constant.ICON_CLEAN);
 		cleanFile.setToolTipText(
 				"Supprime les lignes qui ne contiennent pas le séparateur. Supprime également les charactères à supprimer.");
 		cleanFile.addActionListener((ActionEvent arg0) -> cleanFileAction());
 		bottom.add(cleanFile);
 
 		// Mise en forme
-		JButton mef = ComponentBuilder.createJButton("Mettre en forme un fichier ou dossier", 250, Constant.ICON_ALIGN);
+		JButton mef = ComponentBuilder.buildJButton("Mettre en forme un fichier ou dossier", 250, Constant.ICON_ALIGN);
 		mef.setToolTipText("Pour supprimer les diacritiques et remplacer des charactères spéciaux.");
 		mef.addActionListener((ActionEvent arg0) -> {
 			result = new LinkedList<>(
@@ -600,25 +600,25 @@ public class ImportPanel extends JPanel {
 		bottom.add(mef);
 
 		// Fusion
-		JButton fusionFile = ComponentBuilder.createJButton("Fusionner tous les fichiers", 200, Constant.ICON_FUSION);
+		JButton fusionFile = ComponentBuilder.buildJButton("Fusionner tous les fichiers", 200, Constant.ICON_FUSION);
 		fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
 		fusionFile.addActionListener((ActionEvent arg0) -> fusionFilesAction());
 		bottom.add(fusionFile);
 
 		// Ouvre le fichier d'entrée dans notepad
-		JButton openFile = ComponentBuilder.createJButton("Ouvrir le fichier source", 200, Constant.ICON_TXT_FILE);
+		JButton openFile = ComponentBuilder.buildJButton("Ouvrir le fichier source", 200, Constant.ICON_TXT_FILE);
 		openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
 		openFile.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileTxt));
 		bottom.add(openFile);
 
 		// Ouvre le fichier xml dans notepad
-		JButton openXml = ComponentBuilder.createJButton("Ouvrir le fichier xml", 200, Constant.ICON_XML_FILE);
+		JButton openXml = ComponentBuilder.buildJButton("Ouvrir le fichier xml", 200, Constant.ICON_XML_FILE);
 		openXml.setToolTipText("Ouvre le fichier XML généré dans Notepad++");
 		openXml.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileXml));
 		bottom.add(openXml);
 
 		// Ouvre le fichier de log
-		JButton log = ComponentBuilder.createJButton("Logs", 200, Constant.ICON_TXT_FILE);
+		JButton log = ComponentBuilder.buildJButton("Logs", 200, Constant.ICON_TXT_FILE);
 		log.setToolTipText("Ouvre le fichier de logs dans Notepad++");
 		log.addActionListener((ActionEvent arg0) -> openFileNotepad(Constant.FILE_LOG_PATH));
 		bottom.add(log);
