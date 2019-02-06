@@ -47,7 +47,7 @@ import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
-public class PanelUtils {
+public final class PanelUtils {
 
 	private static final Logger LOG = Logger.getLogger(PanelUtils.class);
 	public static final FocusListener selectAll = new FocusListener() {

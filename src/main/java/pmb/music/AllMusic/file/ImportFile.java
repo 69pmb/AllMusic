@@ -34,13 +34,14 @@ import pmb.music.AllMusic.utils.MyException;
  * 
  * @author pmbroca
  */
-public class ImportFile {
+public final class ImportFile {
 
 	private static final String LOG_NUMBER = " number: ";
 
 	private static final Logger LOG = Logger.getLogger(ImportFile.class);
 
 	private ImportFile() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**

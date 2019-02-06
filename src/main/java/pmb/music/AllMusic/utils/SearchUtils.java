@@ -30,7 +30,7 @@ import pmb.music.AllMusic.model.SearchRange;
  * 
  * @author pmbroca
  */
-public class SearchUtils {
+public final class SearchUtils {
 
 	private static final Logger LOG = Logger.getLogger(SearchUtils.class);
 	public static final String CRITERIA_ARTIST = "artist";
@@ -47,6 +47,7 @@ public class SearchUtils {
 	public static final String CRITERIA_TOP = "top";
 
 	private SearchUtils() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**

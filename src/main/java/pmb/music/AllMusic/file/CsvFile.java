@@ -34,11 +34,12 @@ import pmb.music.AllMusic.utils.MiscUtils;
  * 
  * @author pmbroca
  */
-public class CsvFile {
+public final class CsvFile {
 
 	private static final Logger LOG = Logger.getLogger(CsvFile.class);
 
 	private CsvFile() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**

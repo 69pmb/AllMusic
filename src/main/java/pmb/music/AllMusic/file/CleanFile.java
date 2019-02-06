@@ -34,11 +34,12 @@ import pmb.music.AllMusic.utils.FichierUtils;
  * @see CleanFile#clearFile(File, boolean, String, String)
  * @author pmbroca
  */
-public class CleanFile {
+public final class CleanFile {
 
 	private static final Logger LOG = Logger.getLogger(CleanFile.class);
 
 	private CleanFile() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**

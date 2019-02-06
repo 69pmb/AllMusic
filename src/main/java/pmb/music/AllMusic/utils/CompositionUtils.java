@@ -37,11 +37,12 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  * 
  * @author pmbroca
  */
-public class CompositionUtils {
+public final class CompositionUtils {
 
 	private static final Logger LOG = Logger.getLogger(CompositionUtils.class);
 
 	private CompositionUtils() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**

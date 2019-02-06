@@ -17,7 +17,7 @@ import com.dropbox.core.v2.files.WriteMode;
  * Hello world!
  * 
  */
-public class DropBoxUtils {
+public final class DropBoxUtils {
 
 	private static final Logger LOG = Logger.getLogger(DropBoxUtils.class);
 
