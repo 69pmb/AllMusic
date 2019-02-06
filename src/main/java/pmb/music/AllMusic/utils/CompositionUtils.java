@@ -175,7 +175,7 @@ public class CompositionUtils {
 	public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList, String fichier,
 			boolean displayClassement, boolean displayFileSize, boolean addBoolean, boolean score, boolean lineNumber) {
 		LOG.debug("Start convertCompositionListToVector");
-		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
+		Vector<Vector<Object>> result = new Vector<>();
 		if (compoList == null || compoList.isEmpty()) {
 			LOG.debug("End convertCompositionListToVector, empty list");
 			return result;

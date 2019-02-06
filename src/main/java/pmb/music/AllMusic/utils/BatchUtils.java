@@ -1195,7 +1195,7 @@ public class BatchUtils {
 	 */
 	private static String topSongsParPublication(List<Composition> list, String year, boolean deleted) {
 		List<String> authors = Arrays.asList(OngletPanel.getAuthorList());
-		List<List<String>> result = new ArrayList<List<String>>();
+		List<List<String>> result = new ArrayList<>();
 		for (String author : authors) {
 			Map<String, String> criteria = new HashMap<>();
 			criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
@@ -1211,7 +1211,7 @@ public class BatchUtils {
 				// If no file for the given author and year or if the file is not sorted
 				continue;
 			}
-			List<List<String>> temp = new ArrayList<List<String>>();
+			List<List<String>> temp = new ArrayList<>();
 			for (int i = 0; i < yearList.size(); i++) {
 				List<String> row = new ArrayList<>();
 				Composition composition = yearList.get(i);
@@ -1281,7 +1281,7 @@ public class BatchUtils {
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
 				.convertCompositionListToVector(yearList, null, false, true, false, true, false).stream()
 				.filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
-		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
+		Vector<Vector<Object>> occurenceList = new Vector<>();
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
@@ -1357,7 +1357,7 @@ public class BatchUtils {
 		List<Vector<Object>> occurenceListTemp = CompositionUtils
 				.convertArtistPanelResultToVector(CompositionUtils.groupCompositionByArtist(yearList), false).stream()
 				.filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
-		Vector<Vector<Object>> occurenceList = new Vector<Vector<Object>>();
+		Vector<Vector<Object>> occurenceList = new Vector<>();
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
