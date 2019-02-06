@@ -74,14 +74,14 @@ public class AllMusic {
 			final BasicFrame f = new BasicFrame(withArtist);
 			JFrame.setDefaultLookAndFeelDecorated(true);
 			JDialog.setDefaultLookAndFeelDecorated(true);
-			f.setExtendedState(JFrame.MAXIMIZED_BOTH);
+			f.getFrame().setExtendedState(JFrame.MAXIMIZED_BOTH);
 			try {
-				f.setLocation(null);
+				f.getFrame().setLocation(null);
 			} catch (NullPointerException e) {
 				LOG.debug("NPE");
 			}
-			f.pack();
-			f.setVisible(true);
+			f.getFrame().pack();
+			f.getFrame().setVisible(true);
 			LOG.debug("Look: " + UIManager.getLookAndFeel());
 		});
 	}
