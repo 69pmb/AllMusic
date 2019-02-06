@@ -261,7 +261,11 @@ public class ComponentBuilder<T> {
 
 	public static JLabel buildJLabel(String text, int width) {
 		JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
-		PanelUtils.setSize(jLabel, width, LABEL_HEIGHT);
+		if (StringUtils.isNotBlank(text) && text.length() > 30) {
+			PanelUtils.setSize(jLabel, width, COMPONENT_HEIGHT);
+		} else {
+			PanelUtils.setSize(jLabel, width, LABEL_HEIGHT);
+		}
 		return jLabel;
 	}
 
