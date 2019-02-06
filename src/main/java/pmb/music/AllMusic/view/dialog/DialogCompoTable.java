@@ -42,17 +42,16 @@ import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
  * @see {@link JDialog}
  * @author pmbroca
  */
-public class DialogCompoTable extends JDialog {
-
-	private static final long serialVersionUID = 1304786661370052913L;
-
+public class DialogCompoTable {
 	private static final Logger LOG = Logger.getLogger(DialogCompoTable.class);
+
 	private static final int INDEX_ARTIST = 0;
 	private static final int INDEX_TITLE = 1;
 	private static final int INDEX_TYPE = 2;
 	private static final int INDEX_RANK = 3;
 	private static final int INDEX_DELETED = 4;
 
+	private JDialog dialog;
 	private List<Composition> compo = new ArrayList<>();
 
 	private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "" };
@@ -71,13 +70,13 @@ public class DialogCompoTable extends JDialog {
 	 * @param height la hauteur de la popup
 	 */
 	public DialogCompoTable(JFrame parent, String header, boolean modal, List<Composition> compo, int height) {
-		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
-		this.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
-		this.setLocationRelativeTo(null);
-		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		this.dialog = new JDialog(parent, header, modal);
+		this.dialog.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
+		this.dialog.setLocationRelativeTo(null);
+		this.dialog.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.compo = compo;
-		this.setResizable(true);
+		this.dialog.setResizable(true);
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
 	}
@@ -86,7 +85,7 @@ public class DialogCompoTable extends JDialog {
 	 * Affiche une {@link DialogCompoTable}.
 	 */
 	public void showDialogFileTable() {
-		this.setVisible(true);
+		this.dialog.setVisible(true);
 	}
 
 	private void initComponent() {
@@ -139,14 +138,14 @@ public class DialogCompoTable extends JDialog {
 				mouseAction(e);
 			}
 		});
-		this.getRootPane().registerKeyboardAction(e -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
-				JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
+				KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
 		PanelUtils.colRenderer(table, true, INDEX_DELETED, INDEX_TYPE, null, null, null, null, null);
 		table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
 
-		this.setLayout(new BorderLayout());
-		this.add(new JScrollPane(table), BorderLayout.CENTER);
+		this.dialog.setLayout(new BorderLayout());
+		this.dialog.add(new JScrollPane(table), BorderLayout.CENTER);
 		LOG.debug("End initComponent");
 	}
 
