@@ -329,7 +329,7 @@ public class FichierUtils {
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(source), Constant.ANSI_ENCODING));
 				BufferedWriter writer = new BufferedWriter(
-						new OutputStreamWriter(new FileOutputStream(destination), Constant.ANSI_ENCODING));) {
+						new OutputStreamWriter(new FileOutputStream(destination), Constant.ANSI_ENCODING))) {
 			while ((line = br.readLine()) != null) {
 				writer.append(line).append(Constant.NEW_LINE);
 			}
@@ -398,7 +398,7 @@ public class FichierUtils {
 		}
 		File file = new File(filePath);
 		try (BufferedWriter writer = new BufferedWriter(
-				new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING));) {
+				new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING))) {
 			writer.append(json);
 		} catch (IOException e) {
 			LOG.error("Error exporting file: " + file.getName(), e);
@@ -424,7 +424,7 @@ public class FichierUtils {
 		// Read all the lines of the file
 		StringBuilder lines = new StringBuilder();
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
 			String line = "";
 			boolean isFirstLine = true;
 			while ((line = br.readLine()) != null) {
@@ -446,7 +446,7 @@ public class FichierUtils {
 		}
 		// Rewrite the file
 		try (BufferedWriter writer = new BufferedWriter(
-				new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING));) {
+				new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING))) {
 			// Appends imports params
 			writer.append(Constant.IMPORT_PARAMS_PREFIX + s + Constant.NEW_LINE);
 			// Then append all the read lines
@@ -487,7 +487,7 @@ public class FichierUtils {
 		LOG.debug("Start readFirstLine");
 		String result = null;
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(new File(filePath)), Constant.ANSI_ENCODING));) {
+				new InputStreamReader(new FileInputStream(new File(filePath)), Constant.ANSI_ENCODING))) {
 			result = br.readLine();
 		} catch (IOException e) {
 			LOG.error("Erreur lors de la lecture du fichier " + filePath, e);

@@ -1378,7 +1378,7 @@ public class BatchUtils {
 	private static String writeInFile(StringBuilder sb, String fileName) {
 		String filePath = Constant.getOutputDir() + FileUtils.FS + fileName;
 		try (BufferedWriter writer = new BufferedWriter(
-				new OutputStreamWriter(new FileOutputStream(filePath), Constant.ANSI_ENCODING));) {
+				new OutputStreamWriter(new FileOutputStream(filePath), Constant.ANSI_ENCODING))) {
 			writer.append(sb);
 			writer.flush();
 		} catch (IOException e) {
