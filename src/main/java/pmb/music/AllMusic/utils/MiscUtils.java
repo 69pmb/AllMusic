@@ -30,8 +30,6 @@ import pmb.music.AllMusic.model.Composition;
  */
 public class MiscUtils {
 
-	// private static final Logger LOG = Logger.getLogger(MiscUtils.class);
-
 	public static final Comparator<String> comparePercentage = (String s1, String s2) -> Double
 			.valueOf(Double.parseDouble(RegExUtils.replaceAll(StringUtils.substringBefore(s1, "%"), ",", ".")))
 			.compareTo(Double.valueOf(
