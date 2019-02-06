@@ -97,7 +97,7 @@ public class ImportFile {
 		Integer i = 1;
 		Integer lineNb = 1;
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
 			while ((line = br.readLine()) != null) {
 				lineNb++;
 				if (!isValidLine(line)) {
@@ -581,7 +581,7 @@ public class ImportFile {
 		List<String> lines = new ArrayList<>();
 		String line = "";
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
 			Integer countLines = countLines(file.getAbsolutePath(), false);
 			if (countLines < 6) {
 				LOG.warn("File " + file.getName() + " trop trop petit");
@@ -638,7 +638,7 @@ public class ImportFile {
 		LOG.debug("Start countComma");
 		int result = 0;
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
 			String readLine = "";
 			while (readLine != null) {
 				readLine = br.readLine();
@@ -678,7 +678,7 @@ public class ImportFile {
 		LOG.debug("Start countLines");
 		Integer count = 0;
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING));) {
+				new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING))) {
 			String readLine = "";
 			while (readLine != null) {
 				readLine = br.readLine();
