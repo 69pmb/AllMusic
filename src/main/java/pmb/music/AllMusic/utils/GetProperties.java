@@ -30,7 +30,7 @@ public class GetProperties {
 	 */
 	private static void loadProperties() {
 		LOG.debug("Start loadProperties");
-		try (InputStream input = new FileInputStream(Constant.getConfigPath());) {
+		try (InputStream input = new FileInputStream(Constant.getConfigPath())) {
 			prop = new Properties();
 			prop.load(input);
 		} catch (IOException e) {

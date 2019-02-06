@@ -65,7 +65,7 @@ public class CleanFile {
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
 				BufferedWriter writer = new BufferedWriter(
-						new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
+						new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING))) {
 			while ((line = br.readLine()) != null) {
 				boolean isDigit = true;
 				if (isSorted) {
@@ -132,7 +132,7 @@ public class CleanFile {
 				try (BufferedReader br = new BufferedReader(
 						new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
 						BufferedWriter writer = new BufferedWriter(
-								new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING));) {
+								new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING))) {
 					String line;
 					while ((line = br.readLine()) != null) {
 						if (!ImportFile.isValidLine(line)) {
@@ -185,7 +185,7 @@ public class CleanFile {
 		File modifFile = new File(Constant.MODIF_FILE_PATH);
 		Map<String, String> modif = new HashMap<>();
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(modifFile), Constant.ANSI_ENCODING));) {
+				new InputStreamReader(new FileInputStream(modifFile), Constant.ANSI_ENCODING))) {
 			String line;
 			while ((line = br.readLine()) != null) {
 				String[] split = StringUtils.split(line, ":");

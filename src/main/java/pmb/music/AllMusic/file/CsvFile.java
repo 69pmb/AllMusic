@@ -59,7 +59,7 @@ public class CsvFile {
 		// Writing
 		try (CSVWriter csvWriter = new CSVWriter(
 				new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), ';',
-				CSVWriter.DEFAULT_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END);) {
+				CSVWriter.DEFAULT_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END)) {
 			csvWriter.writeNext(header);
 			for (List<String> row : csv) {
 				csvWriter.writeNext(row.toArray(new String[0]));
@@ -112,7 +112,7 @@ public class CsvFile {
 		LOG.debug("Start importCsv: " + csvFile.getAbsolutePath());
 		List<T> result = new ArrayList<>();
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(csvFile), Constant.ANSI_ENCODING));) {
+				new InputStreamReader(new FileInputStream(csvFile), Constant.ANSI_ENCODING))) {
 			result = new CsvToBeanBuilder<T>(br).withType(returnType).withSeparator(';').build().parse();
 		} catch (IOException e) {
 			LOG.error("Erreur lors de la lecture du csv", e);
@@ -132,7 +132,7 @@ public class CsvFile {
 	public static <T> void exportBeanList(File csvFile, List<T> beans, MappingStrategy<T> mappingStrategy) {
 		LOG.debug("Start exportBeanList: " + csvFile.getAbsolutePath());
 		try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(csvFile),
-				Constant.ANSI_ENCODING);) {
+				Constant.ANSI_ENCODING)) {
 			StatefulBeanToCsv<T> beanToCsv = new StatefulBeanToCsvBuilder<T>(writer).withSeparator(';')
 					.withQuotechar(Character.MIN_VALUE).withMappingStrategy(mappingStrategy).build();
 			beanToCsv.write(beans);
