@@ -40,11 +40,12 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  * application Angular.
  * 
  */
-public class NgExportXml {
+public final class NgExportXml {
 
 	private static final Logger LOG = Logger.getLogger(NgExportXml.class);
 
 	private NgExportXml() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**

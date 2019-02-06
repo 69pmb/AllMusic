@@ -61,7 +61,7 @@ import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
-public class BatchUtils {
+public final class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
 
 	public static final Comparator<CsvComposition> compareByTrackNumber = (CsvComposition c1, CsvComposition c2) -> {

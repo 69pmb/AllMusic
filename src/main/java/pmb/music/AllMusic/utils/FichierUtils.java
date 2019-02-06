@@ -44,11 +44,12 @@ import pmb.music.AllMusic.view.panel.ImportPanel;
  * Classe utilitaire pour la gestion des {@link Fichier}.
  * 
  */
-public class FichierUtils {
+public final class FichierUtils {
 
 	private static final Logger LOG = Logger.getLogger(FichierUtils.class);
 
 	private FichierUtils() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**

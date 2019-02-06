@@ -33,11 +33,12 @@ import pmb.music.AllMusic.utils.MiscUtils;
  * Classe pour les fichiers csv.
  * 
  */
-public class CsvFile {
+public final class CsvFile {
 
 	private static final Logger LOG = Logger.getLogger(CsvFile.class);
 
 	private CsvFile() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**

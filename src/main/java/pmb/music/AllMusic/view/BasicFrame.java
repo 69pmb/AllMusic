@@ -30,10 +30,10 @@ public class BasicFrame {
 		LOG.debug("Start BasicFrame");
 		this.frame = new JFrame(Constant.DEFAULT_TITLE);
 		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.frame.getContentPane().add(getTab(), BorderLayout.EAST);
-		this.frame.getContentPane().add(getMenuPanel(), BorderLayout.WEST);
 		this.tab = new OngletPanel(this, withArtist);
 		this.menuPanel = new MenuPanel(this);
+		this.frame.getContentPane().add(getTab(), BorderLayout.EAST);
+		this.frame.getContentPane().add(getMenuPanel(), BorderLayout.WEST);
 		LOG.debug("End BasicFrame");
 	}
 

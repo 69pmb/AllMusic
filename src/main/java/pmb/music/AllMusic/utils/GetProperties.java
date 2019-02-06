@@ -11,7 +11,7 @@ import org.apache.log4j.Logger;
  * Gère le fichier properties.
  * 
  */
-public class GetProperties {
+public final class GetProperties {
 
 	private static final Logger LOG = Logger.getLogger(GetProperties.class);
 
