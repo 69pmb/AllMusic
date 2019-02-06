@@ -102,6 +102,6 @@ public class ExceptionDialog {
 	}
 
 	public void setVisible(boolean b) {
-		this.dialog.setVisible(true);
+		this.dialog.setVisible(b);
 	}
 }
