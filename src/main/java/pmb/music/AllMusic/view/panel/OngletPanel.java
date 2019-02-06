@@ -111,8 +111,8 @@ public class OngletPanel extends JPanel {
 				// Nothing to do
 			}
 		});
-		myFrame.getContentPane().add(scrollPane, BorderLayout.CENTER);
-		myFrame.pack();
+		myFrame.getFrame().getContentPane().add(scrollPane, BorderLayout.CENTER);
+		myFrame.getFrame().pack();
 
 		// Default button handling
 		search.getRootPane().setDefaultButton(search.getSearch());
