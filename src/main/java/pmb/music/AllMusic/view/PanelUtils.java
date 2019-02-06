@@ -131,7 +131,7 @@ public class PanelUtils {
 					maximum = longueurCourante;
 				}
 			}
-			Double columnWidth = 0D;
+			Double columnWidth;
 			if (currentValue != null) {
 				@SuppressWarnings("deprecation")
 				FontMetrics fontMetrics = Toolkit.getDefaultToolkit().getFontMetrics(table.getFont());
