@@ -29,10 +29,9 @@ import pmb.music.AllMusic.view.ComponentBuilder;
  * 
  * @see {@link JDialog}
  */
-public class ModifyCompositionDialog extends JDialog {
-
-	private static final long serialVersionUID = 1304786661370052913L;
+public class ModifyCompositionDialog {
 	private static final Logger LOG = Logger.getLogger(ModifyCompositionDialog.class);
+	private JDialog dialog;
 	private final Vector<String> compo;
 	private boolean sendData;
 	private int artistIndex;
@@ -51,20 +50,20 @@ public class ModifyCompositionDialog extends JDialog {
 	 */
 	public ModifyCompositionDialog(Vector<String> compo, int artistIndex, int titleIndex, int typeIndex,
 			int deleteIndex) {
-		super((JFrame) null, "Modifier une composition", true);
 		LOG.debug("Start ModifyCompositionDialog");
+		this.dialog = new JDialog((JFrame) null, "Modifier une composition", true);
 		this.artistIndex = artistIndex;
 		this.titleIndex = titleIndex;
 		this.typeIndex = typeIndex;
 		this.deleteIndex = deleteIndex;
-		this.setSize(new Dimension(950, 150));
-		this.setLocationRelativeTo(null);
-		this.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+		this.dialog.setSize(new Dimension(950, 150));
+		this.dialog.setLocationRelativeTo(null);
+		this.dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 		this.compo = new Vector<>(compo);
-		this.setResizable(true);
+		this.dialog.setResizable(true);
 		initComposant();
-		this.getRootPane().registerKeyboardAction(e -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
-				JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
+				KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 		LOG.debug("End ModifyCompositionDialog");
 	}
 
@@ -97,7 +96,7 @@ public class ModifyCompositionDialog extends JDialog {
 		JButton okBouton = new JButton("OK");
 
 		okBouton.addActionListener((ActionEvent arg0) -> {
-			setVisible(false);
+			dialog.setVisible(false);
 			sendData = true;
 			compo.set(artistIndex, artist.getText());
 			compo.set(titleIndex, titre.getText());
@@ -107,15 +106,15 @@ public class ModifyCompositionDialog extends JDialog {
 
 		JButton cancelBouton = new JButton("Annuler");
 		cancelBouton.addActionListener((ActionEvent arg0) -> {
-			setVisible(false);
+			dialog.setVisible(false);
 			sendData = false;
 		});
 
 		control.add(okBouton);
 		control.add(cancelBouton);
 
-		this.getContentPane().add(content, BorderLayout.CENTER);
-		this.getContentPane().add(control, BorderLayout.SOUTH);
+		this.dialog.getContentPane().add(content, BorderLayout.CENTER);
+		this.dialog.getContentPane().add(control, BorderLayout.SOUTH);
 		LOG.debug("End initComposant");
 	}
 
@@ -125,7 +124,7 @@ public class ModifyCompositionDialog extends JDialog {
 	public void showModifyCompositionDialog() {
 		LOG.debug("Start showModifyCompositionDialog");
 		this.sendData = false;
-		this.setVisible(true);
+		this.dialog.setVisible(true);
 		LOG.debug("End showModifyCompositionDialog");
 	}
 

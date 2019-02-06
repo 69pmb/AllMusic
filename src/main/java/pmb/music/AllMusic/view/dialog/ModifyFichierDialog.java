@@ -32,10 +32,9 @@ import pmb.music.AllMusic.view.panel.FichierPanel;
  * 
  * @see {@link JDialog}
  */
-public class ModifyFichierDialog extends JDialog {
-
-	private static final long serialVersionUID = 1304786661370052913L;
+public class ModifyFichierDialog {
 	private static final Logger LOG = Logger.getLogger(ModifyFichierDialog.class);
+	private JDialog dialog;
 	private final Vector<String> fichier;
 	private boolean sendData;
 
@@ -48,16 +47,16 @@ public class ModifyFichierDialog extends JDialog {
 	 * @param fichier {@link Vector} le fichier à modifier
 	 */
 	public ModifyFichierDialog(JFrame parent, String header, boolean modal, Vector<String> fichier) {
-		super(parent, header, modal);
 		LOG.debug("Start ModifyFichierDialog");
-		this.setSize(new Dimension(1200, 150));
-		this.setLocationRelativeTo(null);
-		this.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+		this.dialog = new JDialog(parent, header, modal);
+		this.dialog.setSize(new Dimension(1200, 150));
+		this.dialog.setLocationRelativeTo(null);
+		this.dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 		this.fichier = fichier;
-		this.setResizable(true);
+		this.dialog.setResizable(true);
 		initComposant();
-		this.getRootPane().registerKeyboardAction(e -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
-				JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
+				KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 		LOG.debug("End ModifyFichierDialog");
 	}
 
@@ -107,7 +106,7 @@ public class ModifyFichierDialog extends JDialog {
 		JButton okBouton = new JButton("OK");
 
 		okBouton.addActionListener((ActionEvent arg0) -> {
-			setVisible(false);
+			dialog.setVisible(false);
 			sendData = true;
 			fichier.set(FichierPanel.INDEX_FILE_FILE_NAME, fileName.getText());
 			fichier.set(FichierPanel.INDEX_FILE_PUBLISH, publishYear.getText());
@@ -120,15 +119,15 @@ public class ModifyFichierDialog extends JDialog {
 
 		JButton cancelBouton = new JButton("Annuler");
 		cancelBouton.addActionListener((ActionEvent arg0) -> {
-			setVisible(false);
+			dialog.setVisible(false);
 			sendData = false;
 		});
 
 		control.add(okBouton);
 		control.add(cancelBouton);
 
-		this.getContentPane().add(content, BorderLayout.CENTER);
-		this.getContentPane().add(control, BorderLayout.SOUTH);
+		this.dialog.getContentPane().add(content, BorderLayout.CENTER);
+		this.dialog.getContentPane().add(control, BorderLayout.SOUTH);
 		LOG.debug("End initComposant");
 	}
 
@@ -138,7 +137,7 @@ public class ModifyFichierDialog extends JDialog {
 	public void showModifyFichierDialog() {
 		LOG.debug("Start showModifyFichierDialog");
 		this.sendData = false;
-		this.setVisible(true);
+		this.dialog.setVisible(true);
 		LOG.debug("End showModifyFichierDialog");
 	}
 

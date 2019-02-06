@@ -45,12 +45,9 @@ import pmb.music.AllMusic.view.popup.DialogFilePopupMenu;
  * 
  * @see {@link JDialog}
  */
-public class DialogFileTable extends JDialog {
-
-	private static final long serialVersionUID = 1304786661370052913L;
-
+public class DialogFileTable {
 	private static final Logger LOG = Logger.getLogger(DialogFileTable.class);
-
+	private JDialog dialog;
 	private List<Composition> compoList = new ArrayList<>();
 
 	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
@@ -85,14 +82,14 @@ public class DialogFileTable extends JDialog {
 	 */
 	public DialogFileTable(JFrame parent, String header, boolean modal, List<Composition> compoList, int height,
 			int defaultSort) {
-		super(parent, header, modal);
 		LOG.debug("Start DialogFileTable");
-		this.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
-		this.setLocationRelativeTo(null);
-		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		this.dialog = new JDialog(parent, header, modal);
+		this.dialog.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
+		this.dialog.setLocationRelativeTo(null);
+		this.dialog.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.compoList = compoList;
 		this.defaultSort = defaultSort;
-		this.setResizable(true);
+		this.dialog.setResizable(true);
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
 	}
@@ -101,7 +98,7 @@ public class DialogFileTable extends JDialog {
 	 * Affiche une {@link DialogFileTable}.
 	 */
 	public void showDialogFileTable() {
-		this.setVisible(true);
+		this.dialog.setVisible(true);
 	}
 
 	private void initComponent() {
@@ -140,15 +137,15 @@ public class DialogFileTable extends JDialog {
 			}
 		});
 		fichiers.addMouseListener(pasteFichierListener());
-		this.getRootPane().registerKeyboardAction(e -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
-				JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
+				KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
 		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null, INDEX_SORTED,
 				INDEX_RANK);
 		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
 
-		this.setLayout(new BorderLayout());
-		this.add(new JScrollPane(fichiers), BorderLayout.CENTER);
+		this.dialog.setLayout(new BorderLayout());
+		this.dialog.add(new JScrollPane(fichiers), BorderLayout.CENTER);
 		LOG.debug("End initComponent");
 	}
 
