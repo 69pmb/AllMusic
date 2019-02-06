@@ -20,8 +20,8 @@ import javax.swing.KeyStroke;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
 
-public class ExceptionDialog extends JDialog {
-	private static final long serialVersionUID = 7734402253908037656L;
+public class ExceptionDialog {
+	private JDialog dialog;
 	private int dialogWidth = 700;
 	private int dialogHeight = 140;
 	private JLabel iconLabel = new JLabel();
@@ -38,9 +38,10 @@ public class ExceptionDialog extends JDialog {
 	public ExceptionDialog(String errorLabelText, String errorDescription, Throwable e) {
 		StringWriter errors = new StringWriter();
 		e.printStackTrace(new PrintWriter(errors));
-		setSize(dialogWidth, dialogHeight);
-		setLocationRelativeTo(null);
-		setResizable(false);
+		this.dialog = new JDialog();
+		dialog.setSize(dialogWidth, dialogHeight);
+		dialog.setLocationRelativeTo(null);
+		dialog.setResizable(false);
 		errorTextArea.setText(errorDescription);
 		errorLabel.setText(errorLabelText);
 		exceptionTextArea.setText(errors.toString());
@@ -51,8 +52,8 @@ public class ExceptionDialog extends JDialog {
 		iconLabel.setIcon(UIManager.getIcon("OptionPane.errorIcon"));
 		setupUI();
 		setUpListeners();
-		this.getRootPane().registerKeyboardAction(k -> this.dispose(), KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
-				JComponent.WHEN_IN_FOCUSED_WINDOW);
+		this.dialog.getRootPane().registerKeyboardAction(k -> this.dialog.dispose(),
+				KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 	}
 
 	public ExceptionDialog(String errorLabelText, Throwable e) {
@@ -60,7 +61,7 @@ public class ExceptionDialog extends JDialog {
 	}
 
 	public void setupUI() {
-		this.setTitle("Error");
+		this.dialog.setTitle("Error");
 		errorTextArea.setLineWrap(true);
 		errorTextArea.setWrapStyleWord(true);
 		errorTextArea.setEditable(false);
@@ -77,26 +78,30 @@ public class ExceptionDialog extends JDialog {
 		p.add(errorLabel, BorderLayout.NORTH);
 		p.add(textAreaSP);
 		topPanel.add(p);
-		this.add(topPanel);
-		this.add(buttonPanel, BorderLayout.SOUTH);
+		this.dialog.add(topPanel);
+		this.dialog.add(buttonPanel, BorderLayout.SOUTH);
 	}
 
 	private void setUpListeners() {
-		okButton.addActionListener((ActionEvent e) -> ExceptionDialog.this.setVisible(false));
+		okButton.addActionListener((ActionEvent e) -> ExceptionDialog.this.dialog.setVisible(false));
 		viewButton.addActionListener((ActionEvent e) -> {
 			if (open) {
 				viewButton.setText("View Error");
 				topPanel.remove(exceptionTextAreaSP);
-				ExceptionDialog.this.setSize(dialogWidth, dialogHeight);
+				ExceptionDialog.this.dialog.setSize(dialogWidth, dialogHeight);
 				topPanel.revalidate();
 				open = false;
 			} else {
 				viewButton.setText("Hide Error");
 				topPanel.add(exceptionTextAreaSP, BorderLayout.SOUTH);
-				ExceptionDialog.this.setSize(dialogWidth, dialogHeight + 100);
+				ExceptionDialog.this.dialog.setSize(dialogWidth, dialogHeight + 100);
 				topPanel.revalidate();
 				open = true;
 			}
 		});
+	}
+
+	public void setVisible(boolean b) {
+		this.dialog.setVisible(true);
 	}
 }

@@ -41,8 +41,7 @@ import pmb.music.AllMusic.view.model.FichierDialogModel;
  * @see {@link JDialog}
  * @author pmbroca
  */
-public class DeleteCompoDialog extends JDialog {
-	private static final long serialVersionUID = -3058545632488552308L;
+public class DeleteCompoDialog {
 	private static final Logger LOG = Logger.getLogger(DeleteCompoDialog.class);
 
 	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
@@ -61,6 +60,7 @@ public class DeleteCompoDialog extends JDialog {
 	public static final int INDEX_DELETED = 11;
 	public static final int INDEX_SORTED = 12;
 
+	private JDialog dialog;
 	// Data
 	private Boolean sendData;
 	private int size;
@@ -78,13 +78,13 @@ public class DeleteCompoDialog extends JDialog {
 	 *            doit être confirmée
 	 */
 	public DeleteCompoDialog(JFrame parent, int size) {
-		super(parent, "", true);
 		LOG.debug("Start DeleteCompoDialog");
-		this.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100,
+		this.dialog = new JDialog(parent, "", true);
+		this.dialog.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100,
 				Toolkit.getDefaultToolkit().getScreenSize().height - 50));
-		this.setLocationRelativeTo(null);
+		this.dialog.setLocationRelativeTo(null);
 		this.size = size;
-		this.setResizable(true);
+		this.dialog.setResizable(true);
 		this.initComponent();
 		LOG.debug("End DeleteCompoDialog");
 	}
@@ -124,7 +124,7 @@ public class DeleteCompoDialog extends JDialog {
 		// Yes
 		JButton yes = new JButton("Oui");
 		yes.addActionListener((ActionEvent a) -> {
-			setVisible(false);
+			dialog.setVisible(false);
 			sendData = true;
 		});
 		btnPanel.add(yes);
@@ -132,14 +132,14 @@ public class DeleteCompoDialog extends JDialog {
 		// No
 		JButton no = new JButton("Non");
 		no.addActionListener((ActionEvent a) -> {
-			setVisible(false);
+			dialog.setVisible(false);
 			sendData = false;
 		});
 		btnPanel.add(no);
 		panel.add(btnPanel);
 
-		this.setLayout(new BorderLayout());
-		this.add(panel, BorderLayout.CENTER);
+		this.dialog.setLayout(new BorderLayout());
+		this.dialog.add(panel, BorderLayout.CENTER);
 		LOG.debug("End initComponent");
 	}
 
@@ -170,8 +170,9 @@ public class DeleteCompoDialog extends JDialog {
 	 */
 	public void updateDialog(String csv, Composition found, int index, String warning) {
 		sendData = null;
-		this.setTitle(index + "/" + size + " - " + BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(index))
-				.divide(new BigDecimal(size), RoundingMode.HALF_UP).doubleValue() + "%");
+		this.dialog.setTitle(
+				index + "/" + size + " - " + BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(index))
+						.divide(new BigDecimal(size), RoundingMode.HALF_UP).doubleValue() + "%");
 		compoCsv.setText(csv);
 
 		this.warning.setText(warning);
@@ -189,5 +190,9 @@ public class DeleteCompoDialog extends JDialog {
 
 	public Boolean getSendData() {
 		return sendData;
+	}
+
+	public void setVisible(boolean b) {
+		dialog.setVisible(b);
 	}
 }
