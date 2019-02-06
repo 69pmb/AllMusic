@@ -84,6 +84,10 @@ public class BatchUtils {
 		return int1.compareTo(int2);
 	};
 
+	private BatchUtils() {
+		throw new AssertionError("Must not be used");
+	}
+
 	/**
 	 * @param song
 	 * @param album
@@ -1386,9 +1390,5 @@ public class BatchUtils {
 	private static void addLine(StringBuilder sb, String text, boolean displayTime) {
 		sb.append(displayTime ? MiscUtils.getCurrentTime() : "").append(displayTime ? ": " : "").append(text)
 				.append(Constant.NEW_LINE);
-	}
-
-	private BatchUtils() {
-		// Nothing to do
 	}
 }

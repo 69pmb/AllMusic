@@ -45,10 +45,11 @@ public class MiscUtils {
 		return Integer.valueOf(s1).compareTo(Integer.valueOf(s2));
 	};
 
-	private MiscUtils() {
-	}
-
 	private static ObjectMapper objectMapper;
+
+	private MiscUtils() {
+		throw new AssertionError("Must not be used");
+	}
 
 	public static synchronized ObjectMapper getObjectMapper() {
 		if (null == objectMapper) {
