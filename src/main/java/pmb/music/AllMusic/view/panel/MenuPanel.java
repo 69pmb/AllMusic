@@ -37,7 +37,7 @@ import pmb.music.AllMusic.view.dialog.ExceptionDialog;
  */
 public class MenuPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
-	private BasicFrame myFrame;
+	private transient BasicFrame myFrame;
 	private static final Logger LOG = Logger.getLogger(MenuPanel.class);
 
 	/**

@@ -963,7 +963,12 @@ public class BatchUtils {
 	 * Show all the duplicates for a year and a type regardless of the artist, only
 	 * based on the song or album.
 	 * 
-	 * @param batchPanel TODO
+	 * @param type type of compositions
+	 * @param ignoreUnmergeableFiles if true, ignore composition with canBeMerged to
+	 *            false
+	 * @param byYear if detects duplicates by year
+	 * @param result result string
+	 * @param batchPanel batch panel to display progression
 	 */
 	private static void detectsDuplicateFinal(String type, boolean ignoreUnmergeableFiles, boolean byYear,
 			StringBuilder result, BatchPanel batchPanel) {
