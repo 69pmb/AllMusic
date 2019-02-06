@@ -128,7 +128,6 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private JPanel filePanel;
 	private JTable tableFiles;
 	private FichierPanelModel fichieModel;
-	private JButton hideFileList;
 	private boolean showFichierTable = true;
 	private Integer sortedFichierColumn;
 	private SortOrder sortFichierOrder;
@@ -143,7 +142,6 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private JTable tableCompo;
 	private CompoFichierPanelModel compoModel;
 	private List<Composition> compositionList;
-	private JButton hideCompoList;
 	private boolean showCompoTable = true;
 	private Integer sortedCompoColumn;
 	private SortOrder sortCompoOrder;
@@ -253,7 +251,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		reset.addActionListener((ActionEvent e) -> resetAction());
 		buttons.add(reset);
 		// hideFileList
-		hideFileList = ComponentBuilder.buildJButton("Cacher la liste des fichiers", 180, Constant.ICON_HIDE);
+		JButton hideFileList = ComponentBuilder.buildJButton("Cacher la liste des fichiers", 180, Constant.ICON_HIDE);
 		hideFileList.addActionListener((ActionEvent e) -> {
 			showFichierTable = !showFichierTable;
 			filePanel.setVisible(showFichierTable);
@@ -269,7 +267,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		});
 		buttons.add(hideFileList);
 		// hideCompoList
-		hideCompoList = ComponentBuilder.buildJButton("Cacher la liste des compositions", 200, Constant.ICON_HIDE);
+		JButton hideCompoList = ComponentBuilder.buildJButton("Cacher la liste des compositions", 200,
+				Constant.ICON_HIDE);
 		hideCompoList.addActionListener((ActionEvent e) -> {
 			showCompoTable = !showCompoTable;
 			compoPanel.setVisible(showCompoTable);

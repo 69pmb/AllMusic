@@ -50,14 +50,6 @@ public class MenuPanel extends JPanel {
 		initComponents();
 	}
 
-	public BasicFrame getFrame() {
-		return myFrame;
-	}
-
-	public void setBasicFrame(final BasicFrame basicFrame) {
-		myFrame = basicFrame;
-	}
-
 	private void initComponents() {
 		setLayout(new BorderLayout());
 		final JMenuBar menu = menuBar();
