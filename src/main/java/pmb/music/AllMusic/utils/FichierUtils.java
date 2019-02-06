@@ -66,7 +66,7 @@ public class FichierUtils {
 			boolean getComposition, boolean lineNumber) {
 		LOG.debug("Start convertCompositionListToFichierVector, getComposition: " + getComposition + ", lineNumber: "
 				+ lineNumber);
-		Vector<Vector<Object>> result = new Vector<Vector<Object>>();
+		Vector<Vector<Object>> result = new Vector<>();
 		compoList.parallelStream().forEach(c -> c.getFiles().parallelStream().forEach(f -> {
 			Vector<Object> v = new Vector<>();
 			if (lineNumber) {
