@@ -15,24 +15,25 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  * 
  * @see {@link JFrame}
  */
-public class BasicFrame extends JFrame {
+public class BasicFrame {
 	private static final Logger LOG = Logger.getLogger(BasicFrame.class);
-	private static final long serialVersionUID = 3539279683629505967L;
+	private JFrame frame;
 	private OngletPanel tab;
 	private MenuPanel menuPanel;
 
 	/**
 	 * Construit la fenetre principale, ajoute le menu et les onglets.
+	 * 
 	 * @param withArtist if true the artist panel is displayed
 	 */
 	public BasicFrame(boolean withArtist) {
-		super(Constant.DEFAULT_TITLE);
 		LOG.debug("Start BasicFrame");
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.frame = new JFrame(Constant.DEFAULT_TITLE);
+		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setTab(new OngletPanel(this, withArtist));
-		this.getContentPane().add(getTab(), BorderLayout.EAST);
+		this.frame.getContentPane().add(getTab(), BorderLayout.EAST);
 		this.setMenuPanel(new MenuPanel(this));
-		this.getContentPane().add(getMenuPanel(), BorderLayout.WEST);
+		this.frame.getContentPane().add(getMenuPanel(), BorderLayout.WEST);
 		LOG.debug("End BasicFrame");
 	}
 
@@ -50,5 +51,13 @@ public class BasicFrame extends JFrame {
 
 	public void setMenuPanel(final MenuPanel myMenuPanel) {
 		menuPanel = myMenuPanel;
+	}
+
+	public JFrame getFrame() {
+		return frame;
+	}
+
+	public void setFrame(JFrame frame) {
+		this.frame = frame;
 	}
 }

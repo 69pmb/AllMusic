@@ -61,7 +61,7 @@ public class MenuPanel extends JPanel {
 	private void initComponents() {
 		setLayout(new BorderLayout());
 		final JMenuBar menu = menuBar();
-		myFrame.getContentPane().add(menu, BorderLayout.NORTH);
+		myFrame.getFrame().getContentPane().add(menu, BorderLayout.NORTH);
 	}
 
 	/**
@@ -227,8 +227,8 @@ public class MenuPanel extends JPanel {
 							.filter(look -> laf.getName().equals(look.getName())).findFirst();
 					if (found.isPresent()) {
 						UIManager.setLookAndFeel(found.get().getClassName());
-						SwingUtilities.updateComponentTreeUI(myFrame);
-						myFrame.pack();
+						SwingUtilities.updateComponentTreeUI(myFrame.getFrame());
+						myFrame.getFrame().pack();
 					}
 				} catch (Exception ex) {
 					// If error, fall back to cross-platform
