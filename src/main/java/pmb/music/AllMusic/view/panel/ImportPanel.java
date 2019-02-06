@@ -59,6 +59,7 @@ import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.component.MyInputRange;
 
 /**
  * Onglet d'import de fichiers txt.
@@ -72,8 +73,7 @@ public class ImportPanel extends JPanel {
 
 	private JTextField author;
 	private JTextField publi;
-	private JTextField rangeB;
-	private JTextField rangeE;
+	private MyInputRange range;
 	private JTextField size;
 	private JTextField name;
 	private JTextField date;
@@ -256,19 +256,13 @@ public class ImportPanel extends JPanel {
 		insertResultPanel();
 	}
 
+	@SuppressWarnings("unchecked")
 	private void insertFirstLine() {
 		JPanel firstLine = new JPanel();
 
 		// Nom du fichier
-		JPanel namePanel = new JPanel();
-		namePanel.setPreferredSize(new Dimension(360, ComponentBuilder.PANEL_HEIGHT));
-		JLabel nameLabel = new JLabel("Nom du fichier : ");
-		name = new JTextField();
-		name.setPreferredSize(new Dimension(350, ComponentBuilder.COMPONENT_HEIGHT));
-		namePanel.add(nameLabel);
-		namePanel.add(name);
-		firstLine.add(namePanel);
-
+		name = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(firstLine)
+				.withLabel("Nom du fichier : ").withPanelWidth(360).withComponentWidth(350).withLabelWidth(350).build();
 		name.addFocusListener(new FocusListener() {
 
 			@Override
@@ -286,89 +280,31 @@ public class ImportPanel extends JPanel {
 		});
 
 		// Auteur
-		JPanel authorPanel = new JPanel();
-		authorPanel.setPreferredSize(new Dimension(160, ComponentBuilder.PANEL_HEIGHT));
-		JLabel authorLabel = new JLabel("Auteur : ");
-		author = new JTextField();
-		author.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
-		authorPanel.add(authorLabel);
-		authorPanel.add(author);
-		firstLine.add(authorPanel);
-
+		author = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(firstLine)
+				.withLabel("Auteur : ").withPanelWidth(160).withComponentWidth(150).withLabelWidth(150).build();
 		// Date de creation
-		JPanel datePanel = new JPanel();
-		datePanel.setPreferredSize(new Dimension(160, ComponentBuilder.PANEL_HEIGHT));
-		JLabel dateLabel = new JLabel("Date de création : ");
-		date = new JTextField();
-		date.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
+		date = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(firstLine)
+				.withLabel("Date de création : ").withPanelWidth(160).withComponentWidth(150).withLabelWidth(150)
+				.build();
 		date.setEnabled(false);
-		datePanel.add(dateLabel);
-		datePanel.add(date);
-		firstLine.add(datePanel);
-
 		// Type
-		JPanel typePanel = new JPanel();
-		typePanel.setPreferredSize(new Dimension(110, ComponentBuilder.PANEL_HEIGHT));
-		JLabel typeLabel = new JLabel("Type : ");
-		type = new JComboBox<>();
-		RecordType[] valuesType = RecordType.values();
-		for (int i = 0; i < valuesType.length; i++) {
-			type.addItem(valuesType[i]);
-		}
-		type.setPreferredSize(new Dimension(100, ComponentBuilder.COMPONENT_HEIGHT));
-		typePanel.add(typeLabel);
-		typePanel.add(type);
-		firstLine.add(typePanel);
-
+		type = (JComboBox<RecordType>) new ComponentBuilder<RecordType>(JComboBox.class).withParent(firstLine)
+				.withPanelWidth(110).withLabel("Type : ").withValues(RecordType.values()).withComponentWidth(100)
+				.withLabelWidth(100).build();
 		// Categorie
-		JPanel catPanel = new JPanel();
-		catPanel.setPreferredSize(new Dimension(130, ComponentBuilder.PANEL_HEIGHT));
-		JLabel catLabel = new JLabel("Catégorie : ");
-		cat = new JComboBox<>();
-		Cat[] values = Cat.values();
-		for (int i = 0; i < values.length; i++) {
-			cat.addItem(values[i]);
-		}
-		cat.setPreferredSize(new Dimension(120, ComponentBuilder.COMPONENT_HEIGHT));
-		catPanel.add(catLabel);
-		catPanel.add(cat);
-		firstLine.add(catPanel);
-
+		cat = (JComboBox<Cat>) new ComponentBuilder<Cat>(JComboBox.class).withParent(firstLine).withPanelWidth(130)
+				.withLabel("Catégorie : ").withValues(Cat.values()).withComponentWidth(120).withLabelWidth(120).build();
 		// Range
-		JPanel rangePanel = new JPanel();
-		PanelUtils.setSize(rangePanel, 300, ComponentBuilder.PANEL_HEIGHT);
-		JLabel rangeLabel = ComponentBuilder.buildJLabel("Année(s) du classement : ", 300);
-		rangeB = new JTextField();
-		rangeE = new JTextField();
-		rangeB.setPreferredSize(new Dimension(100, ComponentBuilder.COMPONENT_HEIGHT));
-		rangeE.setPreferredSize(new Dimension(100, ComponentBuilder.COMPONENT_HEIGHT));
-		rangeB.addFocusListener(PanelUtils.selectAll);
-		rangeE.addFocusListener(PanelUtils.selectAll);
-		rangePanel.add(rangeLabel);
-		rangePanel.add(rangeB);
-		rangePanel.add(rangeE);
-		firstLine.add(rangePanel);
-
+		range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(firstLine)
+				.withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(200).withLabelWidth(300)
+				.build();
 		// Sort
-		JPanel sortedPanel = new JPanel();
-		sortedPanel.setPreferredSize(new Dimension(60, ComponentBuilder.PANEL_HEIGHT));
-		JLabel sortedLabel = new JLabel("Classé : ");
-		sorted = new JCheckBox();
-		sorted.setPreferredSize(new Dimension(25, ComponentBuilder.COMPONENT_HEIGHT));
-		sortedPanel.add(sortedLabel);
-		sortedPanel.add(sorted);
-		firstLine.add(sortedPanel);
-
+		sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(firstLine).withLabel("Classé : ")
+				.withPanelWidth(60).withComponentWidth(25).withLabelWidth(50).build();
 		// Order/Artist
-		JPanel orderPanel = new JPanel();
-		orderPanel.setPreferredSize(new Dimension(100, ComponentBuilder.PANEL_HEIGHT));
-		JLabel orderLabel = new JLabel("Artiste en premier: ");
-		order = new JCheckBox();
-		order.setSelected(true);
-		order.setPreferredSize(new Dimension(25, ComponentBuilder.COMPONENT_HEIGHT));
-		orderPanel.add(orderLabel);
-		orderPanel.add(order);
-		firstLine.add(orderPanel);
+		order = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(firstLine)
+				.withLabel("Artiste en premier : ").withInitialValue(true).withPanelWidth(100).withComponentWidth(25)
+				.withLabelWidth(100).build();
 
 		this.add(firstLine);
 	}
@@ -377,48 +313,23 @@ public class ImportPanel extends JPanel {
 		JPanel secondLine = new JPanel();
 
 		// Publi
-		JPanel publiPanel = new JPanel();
-		publiPanel.setPreferredSize(new Dimension(160, ComponentBuilder.PANEL_HEIGHT));
-		JLabel publiLabel = new JLabel("Année de publication : ");
-		publi = new JTextField();
-		publi.setPreferredSize(new Dimension(150, ComponentBuilder.COMPONENT_HEIGHT));
+		publi = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(secondLine)
+				.withLabel("Année de publication : ").withPanelWidth(160).withComponentWidth(150).withLabelWidth(150)
+				.build();
 		publi.addFocusListener(PanelUtils.selectAll);
-		publiPanel.add(publiLabel);
-		publiPanel.add(publi);
-		secondLine.add(publiPanel);
-
-		// Taille
-		JPanel sizePanel = new JPanel();
-		sizePanel.setPreferredSize(new Dimension(200, ComponentBuilder.PANEL_HEIGHT));
-		JLabel sizeLabel = new JLabel("Taille : ");
-		size = new JTextField();
-		size.setPreferredSize(new Dimension(180, ComponentBuilder.COMPONENT_HEIGHT));
+		// Size
+		size = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(secondLine).withLabel("Taille : ")
+				.withPanelWidth(200).withComponentWidth(180).withLabelWidth(180).build();
 		size.addFocusListener(PanelUtils.selectAll);
-		sizePanel.add(sizeLabel);
-		sizePanel.add(size);
-		secondLine.add(sizePanel);
-
 		// Line
-		JPanel linePanel = new JPanel();
-		linePanel.setPreferredSize(new Dimension(400, ComponentBuilder.PANEL_HEIGHT));
-		JLabel lineLabel = new JLabel("Ligne utilisée : ");
-		line = new JTextField();
-		line.setPreferredSize(new Dimension(350, ComponentBuilder.COMPONENT_HEIGHT));
+		line = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(secondLine)
+				.withLabel("Ligne utilisée : ").withPanelWidth(400).withComponentWidth(350).withLabelWidth(350).build();
 		line.setEnabled(false);
-		linePanel.add(lineLabel);
-		linePanel.add(line);
-		secondLine.add(linePanel);
-
-		// separator
-		JPanel separatorPanel = new JPanel();
-		separatorPanel.setPreferredSize(new Dimension(100, ComponentBuilder.PANEL_HEIGHT));
-		JLabel separatorLabel = new JLabel("Séparateur trouvé: ");
-		separator = new JTextField();
-		separator.setPreferredSize(new Dimension(20, ComponentBuilder.COMPONENT_HEIGHT));
+		// Separator
+		separator = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(secondLine)
+				.withLabel("Séparateur trouvé : ").withPanelWidth(100).withComponentWidth(20).withLabelWidth(100)
+				.build();
 		separator.addFocusListener(PanelUtils.selectAll);
-		separatorPanel.add(separatorLabel);
-		separatorPanel.add(separator);
-		secondLine.add(separatorPanel);
 
 		// firstLines
 		JPanel firstLinesPanel = new JPanel();
@@ -456,95 +367,46 @@ public class ImportPanel extends JPanel {
 		thirdLine.add(lastLinesPanel);
 
 		// reverseArtist
-		JPanel reverseArtistPanel = new JPanel();
-		reverseArtistPanel.setPreferredSize(new Dimension(100, ComponentBuilder.PANEL_HEIGHT));
-		JLabel reverseArtistLabel = ComponentBuilder.buildJLabel("<html>Retourner l'artiste: </html>", 100);
-		reverseArtist = new JCheckBox();
-		reverseArtist.setPreferredSize(new Dimension(20, 20));
-		reverseArtistPanel.add(reverseArtistLabel);
-		reverseArtistPanel.add(reverseArtist);
-		thirdLine.add(reverseArtistPanel);
-
+		reverseArtist = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+				.withLabel("<html>Retourner l'artiste: </html>").withPanelWidth(100).withComponentWidth(20)
+				.withLabelWidth(100).build();
 		// removeParenthese
-		JPanel removeParenthesePanel = new JPanel();
-		removeParenthesePanel.setPreferredSize(new Dimension(150, ComponentBuilder.PANEL_HEIGHT));
-		JLabel removeParentheseLabel = ComponentBuilder
-				.buildJLabel("<html>Supprimer le texte entre parenthèse du titre: </html>", 150);
-		removeParenthese = new JCheckBox();
-		removeParenthese.setPreferredSize(new Dimension(20, 20));
-		removeParenthesePanel.add(removeParentheseLabel);
-		removeParenthesePanel.add(removeParenthese);
-		thirdLine.add(removeParenthesePanel);
-
+		removeParenthese = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+				.withLabel("<html>Supprimer le texte entre parenthèse du titre: </html>").withPanelWidth(150)
+				.withComponentWidth(20).withLabelWidth(150).build();
 		// upper
-		JPanel upperPanel = new JPanel();
-		upperPanel.setPreferredSize(new Dimension(100, ComponentBuilder.PANEL_HEIGHT));
-		JLabel upperLabel = ComponentBuilder.buildJLabel("<html>Pas de séparateur, artiste en capitale: </html>", 100);
-		upper = new JCheckBox();
-		upper.setPreferredSize(new Dimension(20, 20));
-		upperPanel.add(upperLabel);
-		upperPanel.add(upper);
-		thirdLine.add(upperPanel);
-
+		upper = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+				.withLabel("<html>Pas de séparateur, artiste en capitale: </html>").withPanelWidth(100)
+				.withComponentWidth(20).withLabelWidth(100).build();
 		// removeAfter
-		JPanel removeAfterPanel = new JPanel();
-		removeAfterPanel.setPreferredSize(new Dimension(100, ComponentBuilder.PANEL_HEIGHT));
-		JLabel removeAfterLabel = ComponentBuilder.buildJLabel("<html>Supprime après le dernier séparateur: </html>",
-				100);
-		removeAfter = new JCheckBox();
-		removeAfter.setPreferredSize(new Dimension(20, 20));
-		removeAfterPanel.add(removeAfterLabel);
-		removeAfterPanel.add(removeAfter);
-		thirdLine.add(removeAfterPanel);
-
+		removeAfter = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+				.withLabel("<html>Supprime après le dernier séparateur: </html>").withPanelWidth(100)
+				.withComponentWidth(20).withLabelWidth(100).build();
 		// isCompleteDirectory
-		JPanel isCompleteDirectoryPanel = new JPanel();
-		isCompleteDirectoryPanel.setPreferredSize(new Dimension(150, ComponentBuilder.PANEL_HEIGHT));
-		JLabel isCompleteDirectoryLabel = ComponentBuilder
-				.buildJLabel("<html>Utiliser le dossier du fichier pour la mise en forme: </html>", 150);
-		isCompleteDirectory = new JCheckBox();
-		isCompleteDirectory.setPreferredSize(new Dimension(20, 20));
-		isCompleteDirectoryPanel.add(isCompleteDirectoryLabel);
-		isCompleteDirectoryPanel.add(isCompleteDirectory);
-		thirdLine.add(isCompleteDirectoryPanel);
+		isCompleteDirectory = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+				.withLabel("<html>Utiliser le dossier du fichier pour la mise en forme: </html>").withPanelWidth(150)
+				.withComponentWidth(20).withLabelWidth(150).build();
 
 		// Clean Params
 		JPanel cleanBtnPanel = new JPanel();
 		cleanBtnPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(EtchedBorder.LOWERED),
 				"Paramètres de nettoyage: ", TitledBorder.LEFT, TitledBorder.ABOVE_TOP));
 		// characterToRemove
-		JPanel characterToRemovePanel = new JPanel();
-		characterToRemovePanel.setPreferredSize(new Dimension(120, ComponentBuilder.PANEL_HEIGHT));
-		JLabel characterToRemoveLabel = new JLabel("Caractères à supprimer: ");
-		characterToRemove = new JTextField();
-		characterToRemove.setPreferredSize(new Dimension(40, 20));
+		characterToRemove = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(cleanBtnPanel)
+				.withLabel("Caractères à supprimer : ").withPanelWidth(140).withComponentWidth(40).withLabelWidth(140)
+				.build();
 		characterToRemove.addFocusListener(PanelUtils.selectAll);
-		characterToRemovePanel.add(characterToRemoveLabel);
-		characterToRemovePanel.add(characterToRemove);
-		cleanBtnPanel.add(characterToRemovePanel);
 		// maxLengthClean
-		JPanel maxLengthCleanPanel = new JPanel();
-		maxLengthCleanPanel.setPreferredSize(new Dimension(120, ComponentBuilder.PANEL_HEIGHT));
-		JLabel maxLengthCleanLabel = ComponentBuilder.buildJLabel(
-				"<html><body style='width: 100%'>Longueur maximale d'une ligne valide: </body></html>", 100);
-		maxLengthClean = new JTextField("120");
-		maxLengthClean.setPreferredSize(new Dimension(40, 20));
+		maxLengthClean = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(cleanBtnPanel)
+				.withLabel("<html><body style='width: 100%'>Longueur maximale d'une ligne valide: </body></html>")
+				.withInitialValue("120").withPanelWidth(120).withComponentWidth(40).withLabelWidth(100).build();
 		maxLengthClean.addFocusListener(PanelUtils.selectAll);
-		maxLengthCleanPanel.add(maxLengthCleanLabel);
-		maxLengthCleanPanel.add(maxLengthClean);
-		cleanBtnPanel.add(maxLengthCleanPanel);
 		// isBefore
-		JPanel isBeforePanel = new JPanel();
-		isBeforePanel.setPreferredSize(new Dimension(100, ComponentBuilder.PANEL_HEIGHT));
-		JLabel isBeforeLabel = new JLabel("Supprimer au début: ");
-		isBefore = new JCheckBox();
-		isBefore.setSelected(true);
-		isBefore.setPreferredSize(new Dimension(20, 20));
-		isBeforePanel.add(isBeforeLabel);
-		isBeforePanel.add(isBefore);
-		cleanBtnPanel.add(isBeforePanel);
-		thirdLine.add(cleanBtnPanel);
+		isBefore = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(cleanBtnPanel)
+				.withLabel("Supprimer au début : ").withPanelWidth(120).withInitialValue(true).withComponentWidth(20)
+				.withLabelWidth(120).build();
 
+		thirdLine.add(cleanBtnPanel);
 		this.add(thirdLine);
 	}
 
@@ -640,8 +502,8 @@ public class ImportPanel extends JPanel {
 			fichier.setAuthor(author.getText());
 			fichier.setCategorie((Cat) cat.getSelectedItem());
 			fichier.setPublishYear(Integer.parseInt(publi.getText()));
-			fichier.setRangeDateBegin(Integer.parseInt(rangeB.getText()));
-			fichier.setRangeDateEnd(Integer.parseInt(rangeE.getText()));
+			fichier.setRangeDateBegin(Integer.parseInt(range.getFirst().getText()));
+			fichier.setRangeDateEnd(Integer.parseInt(range.getSecond().getText()));
 			fichier.setSize(Integer.parseInt(size.getText()));
 			result = new LinkedList<>(Arrays.asList(xmlFileName + " Import OK !"));
 
@@ -748,8 +610,8 @@ public class ImportPanel extends JPanel {
 		date.setText("");
 		type.setSelectedItem(null);
 		cat.setSelectedItem(null);
-		rangeB.setText("");
-		rangeE.setText("");
+		range.getFirst().setText("");
+		range.getSecond().setText("");
 		sorted.setSelected(false);
 		order.setSelected(true);
 		publi.setText("");
@@ -804,8 +666,8 @@ public class ImportPanel extends JPanel {
 			cat.setSelectedItem(Cat.valueOf(value.get(IMPORT_PARAM_CATEGORIE)));
 			publi.setText(value.get(IMPORT_PARAM_PUBLISH_YEAR));
 			type.setSelectedItem(RecordType.valueOf(value.get(IMPORT_PARAM_RECORD_TYPE)));
-			rangeB.setText(value.get(IMPORT_PARAM_RANGE_BEGIN));
-			rangeE.setText(value.get(IMPORT_PARAM_RANGE_END));
+			range.getFirst().setText(value.get(IMPORT_PARAM_RANGE_BEGIN));
+			range.getSecond().setText(value.get(IMPORT_PARAM_RANGE_END));
 			sorted.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_SORTED)));
 			size.setText(value.get(IMPORT_PARAM_SIZE));
 			separator.setText(value.get(IMPORT_PARAM_SEPARATOR));
@@ -852,8 +714,8 @@ public class ImportPanel extends JPanel {
 			cat.setSelectedItem(fichier.getCategorie());
 			publi.setText(String.valueOf(fichier.getPublishYear()));
 			type.setSelectedItem(determineType);
-			rangeB.setText(String.valueOf(fichier.getRangeDateBegin()));
-			rangeE.setText(String.valueOf(fichier.getRangeDateEnd()));
+			range.getFirst().setText(String.valueOf(fichier.getRangeDateBegin()));
+			range.getSecond().setText(String.valueOf(fichier.getRangeDateEnd()));
 			size.setText(String.valueOf(fichier.getSize()));
 			label.add("Paramètres devinés");
 		}
