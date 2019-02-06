@@ -28,76 +28,11 @@ public class Constant {
 			+ "resources" + FileUtils.FS;
 
 	/**
-	 * @return Le chemin où seront générés les fichiers de l'application.
-	 */
-	public static String getOutputDir() {
-		String output = GetProperties.getProperty("output");
-		return StringUtils.isBlank(output) ? USER_DIRECTORY : output + FileUtils.FS;
-	}
-
-	/**
-	 * @return Le chemin absolu du dossier des ressources utilisées par l'appli.
-	 */
-	public static String getResourcesDir() {
-		String resources = GetProperties.getProperty("resources");
-		return StringUtils.isBlank(resources) ? RESOURCES_DIRECTORY : resources + FileUtils.FS;
-	}
-
-	/**
 	 * Chemin abs du fichier de log.
 	 */
 	public static final String FILE_LOG_PATH = USER_DIRECTORY + "error.log";
 
 	public static final String MODIF_FILE_PATH = RESOURCES_DIRECTORY + "modif.txt";
-
-	/**
-	 * Chemin abs du fichier de configuration.
-	 */
-	public static String getConfigPath() {
-		return RESOURCES_DIRECTORY + "config.properties";
-	}
-
-	/**
-	 * @return Nom du fichier final.
-	 */
-	public static String getFinalFile() {
-		return GetProperties.getProperty("final");
-	}
-
-	/**
-	 * Chemin abs du fichier aggrégeant tous les fichiers.
-	 */
-	public static String getFinalFilePath() {
-		return getXmlPath() + getFinalFile();
-	}
-
-	/**
-	 * @return Chemin abs du dossier contenant les fichiers txt des classements.
-	 */
-	public static String getMusicAbsDirectory() {
-		return getResourcesDir() + GetProperties.getProperty("music") + FileUtils.FS;
-	}
-
-	/**
-	 * @return Chemin abs du dossier contenant tous les fichiers xml importés.
-	 */
-	public static String getXmlPath() {
-		return getResourcesDir() + GetProperties.getProperty("xml") + FileUtils.FS;
-	}
-
-	/**
-	 * @return chemin de Notepad++.
-	 */
-	public static String getNotepadPath() {
-		return QUOTE + GetProperties.getProperty("notepad") + QUOTE + " -alwaysOnTop ";
-	}
-
-	/**
-	 * @return chemin d'Excel.
-	 */
-	public static String getExcelPath() {
-		return GetProperties.getProperty("excel") + " ";
-	}
 
 	/**
 	 * Nom du fichier de résultat des batchs par défaut.
@@ -163,9 +98,9 @@ public class Constant {
 	public static final String SONG_FOLDER = "Song";
 
 	public static final String ARTIST_PANEL_RESULT_FILE = Constant.getOutputDir() + "artist.json";
-	
+
 	public static final String SEPARATOR_AND = " and ";
-	
+
 	public static final String TRACK_NUMBER_SEPARATOR = " sur ";
 
 	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
@@ -245,6 +180,71 @@ public class Constant {
 
 	public Constant() {
 		// Nothing to do
+	}
+
+	/**
+	 * Chemin abs du fichier de configuration.
+	 */
+	public static String getConfigPath() {
+		return RESOURCES_DIRECTORY + "config.properties";
+	}
+
+	/**
+	 * @return Le chemin où seront générés les fichiers de l'application.
+	 */
+	public static String getOutputDir() {
+		String output = GetProperties.getProperty("output");
+		return StringUtils.isBlank(output) ? USER_DIRECTORY : output + FileUtils.FS;
+	}
+
+	/**
+	 * @return Le chemin absolu du dossier des ressources utilisées par l'appli.
+	 */
+	public static String getResourcesDir() {
+		String resources = GetProperties.getProperty("resources");
+		return StringUtils.isBlank(resources) ? RESOURCES_DIRECTORY : resources + FileUtils.FS;
+	}
+
+	/**
+	 * @return Nom du fichier final.
+	 */
+	public static String getFinalFile() {
+		return GetProperties.getProperty("final");
+	}
+
+	/**
+	 * Chemin abs du fichier aggrégeant tous les fichiers.
+	 */
+	public static String getFinalFilePath() {
+		return getXmlPath() + getFinalFile();
+	}
+
+	/**
+	 * @return Chemin abs du dossier contenant les fichiers txt des classements.
+	 */
+	public static String getMusicAbsDirectory() {
+		return getResourcesDir() + GetProperties.getProperty("music") + FileUtils.FS;
+	}
+
+	/**
+	 * @return Chemin abs du dossier contenant tous les fichiers xml importés.
+	 */
+	public static String getXmlPath() {
+		return getResourcesDir() + GetProperties.getProperty("xml") + FileUtils.FS;
+	}
+
+	/**
+	 * @return chemin de Notepad++.
+	 */
+	public static String getNotepadPath() {
+		return QUOTE + GetProperties.getProperty("notepad") + QUOTE + " -alwaysOnTop ";
+	}
+
+	/**
+	 * @return chemin d'Excel.
+	 */
+	public static String getExcelPath() {
+		return GetProperties.getProperty("excel") + " ";
 	}
 
 	public SimpleDateFormat getSdfDttm() {
