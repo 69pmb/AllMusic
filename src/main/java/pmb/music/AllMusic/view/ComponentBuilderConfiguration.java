@@ -48,11 +48,11 @@ public class ComponentBuilderConfiguration<T> {
 	}
 
 	public T[] getValues() {
-		return values;
+		return values.clone();
 	}
 
 	public void setValues(T[] values) {
-		this.values = values;
+		this.values = values.clone();
 	}
 
 	public String getLabel() {

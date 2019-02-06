@@ -63,6 +63,10 @@ public class PanelUtils {
 		}
 	};
 
+	private PanelUtils() {
+		throw new AssertionError("Must not be used");
+	}
+
 	/**
 	 * Dimensionne les colonnes du tableau et ajoute des couleurs aux lignes.
 	 * 
@@ -483,9 +487,5 @@ public class PanelUtils {
 
 	public static void setBorder(JComponent comp, Color c) {
 		comp.setBorder(BorderFactory.createLineBorder(c, 2));
-	}
-
-	private PanelUtils() {
-		throw new AssertionError("Must not be used");
 	}
 }

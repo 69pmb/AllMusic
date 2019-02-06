@@ -20,6 +20,10 @@ public class GetProperties {
 	 */
 	private static Properties prop = null;
 
+	private GetProperties() {
+		throw new AssertionError("Must not be used");
+	}
+
 	/**
 	 * Loads properties from configuration file.
 	 */
@@ -55,9 +59,5 @@ public class GetProperties {
 			return "";
 		}
 		return prop.getProperty(key);
-	}
-
-	private GetProperties() {
-		throw new AssertionError("Must not be used");
 	}
 }

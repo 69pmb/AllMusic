@@ -23,6 +23,10 @@ public class DropBoxUtils {
 
 	private static DbxClientV2 client = null;
 
+	private DropBoxUtils() {
+		throw new AssertionError("Must not be used");
+	}
+
 	private static void initClient() {
 		LOG.debug("Start initClient");
 		// Create Dropbox client
@@ -61,9 +65,5 @@ public class DropBoxUtils {
 		}
 		LOG.debug("End uploadFile");
 		return metadata;
-	}
-
-	private DropBoxUtils() {
-		throw new AssertionError("Must not be used");
 	}
 }
