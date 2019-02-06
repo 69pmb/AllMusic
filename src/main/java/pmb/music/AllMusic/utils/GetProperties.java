@@ -12,7 +12,7 @@ import org.apache.log4j.Logger;
  * 
  * @author pmbroca
  */
-public class GetProperties {
+public final class GetProperties {
 
 	private static final Logger LOG = Logger.getLogger(GetProperties.class);
 

@@ -27,13 +27,14 @@ import pmb.music.AllMusic.utils.FichierUtils;
  * 
  * @author pmbroca
  */
-public class ExportXML {
+public final class ExportXML {
 
 	private static final Logger LOG = Logger.getLogger(ExportXML.class);
 
 	private static boolean finalFileChanged = false;
 
 	private ExportXML() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**

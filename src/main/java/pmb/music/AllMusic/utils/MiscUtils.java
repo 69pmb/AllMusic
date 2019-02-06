@@ -28,7 +28,7 @@ import pmb.music.AllMusic.model.Composition;
 /**
  * Created by PBR on 29 mai 2018.
  */
-public class MiscUtils {
+public final class MiscUtils {
 
 	public static final Comparator<String> comparePercentage = (String s1, String s2) -> Double
 			.valueOf(Double.parseDouble(RegExUtils.replaceAll(StringUtils.substringBefore(s1, "%"), ",", ".")))

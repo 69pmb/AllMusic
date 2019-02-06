@@ -25,11 +25,12 @@ import pmb.music.AllMusic.view.dialog.ExceptionDialog;
  * Hello world!
  * 
  */
-public class AllMusic {
+public final class AllMusic {
 
 	private static final Logger LOG = Logger.getLogger(AllMusic.class);
 
 	private AllMusic() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**
