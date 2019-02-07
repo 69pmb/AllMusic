@@ -3,9 +3,9 @@
  */
 package pmb.music.AllMusic.XML;
 
-import java.text.ParseException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -99,9 +99,10 @@ public class CompoHandler extends DefaultHandler {
 			LOG.error(file, e);
 		}
 		try {
-			file.setCreationDate(new Constant().getSdfDttm().parse(attributes.getValue(TAG_CREATION_DATE)));
-		} catch (ParseException | NumberFormatException e) {
-			file.setCreationDate(new Date());
+			file.setCreationDate(
+					LocalDateTime.parse(attributes.getValue(TAG_CREATION_DATE), new Constant().getFullDTF()));
+		} catch (DateTimeParseException | NumberFormatException e) {
+			file.setCreationDate(LocalDateTime.now());
 		}
 	}
 

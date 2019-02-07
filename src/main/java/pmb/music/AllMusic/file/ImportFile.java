@@ -8,14 +8,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.file.Files;
-import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 
 import org.apache.commons.lang3.StringUtils;
@@ -27,6 +23,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 
 /**
@@ -54,7 +51,7 @@ public final class ImportFile {
 		LOG.debug("Start convertOneFile");
 		Fichier fichier = new Fichier();
 		String name = file.getName();
-		fichier.setCreationDate(getCreationDate(file));
+		fichier.setCreationDate(FichierUtils.getCreationDate(file));
 		fichier.setFileName(StringUtils.substringBeforeLast(name, Constant.DOT));
 		fichier.setCategorie(determineCategory(name));
 		String auteur = file.getParentFile().getName();
@@ -498,26 +495,6 @@ public final class ImportFile {
 			}
 		}
 		return res;
-	}
-
-	private static Date getCreationDate(File file) {
-		LOG.debug("Start getCreationDate");
-		BasicFileAttributes attr = null;
-		try {
-			attr = Files.readAttributes(file.toPath(), BasicFileAttributes.class);
-		} catch (IOException e) {
-			LOG.error("Impossible de récupérer la date de création de " + file.getAbsolutePath(), e);
-		}
-		if (attr == null) {
-			return new Date();
-		}
-		Date creationDate = null;
-		long milliseconds = attr.creationTime().to(TimeUnit.MILLISECONDS);
-		if ((milliseconds > Long.MIN_VALUE) && (milliseconds < Long.MAX_VALUE)) {
-			creationDate = new Date(milliseconds);
-		}
-		LOG.debug("End getCreationDate");
-		return creationDate;
 	}
 
 	/**

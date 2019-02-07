@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
@@ -48,7 +48,7 @@ public final class ExportXML {
 		LOG.debug("Start exportXML");
 		Document doc = DocumentHelper.createDocument();
 		Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
-		SimpleDateFormat sdfDttm = new Constant().getSdfDttm();
+		DateTimeFormatter fullDTF = new Constant().getFullDTF();
 
 		// Export file in Dropbox if final file
 		if (Constant.getFinalFile().equals(fileName)) {
@@ -83,7 +83,7 @@ public final class ExportXML {
 				file.addAttribute(CompoHandler.TAG_CLASSEMENT,
 						String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
 				file.addAttribute(CompoHandler.TAG_CREATION_DATE,
-							sdfDttm.format(compList.get(i).getFiles().get(j).getCreationDate()));
+							fullDTF.format(compList.get(i).getFiles().get(j).getCreationDate()));
 					file.addAttribute(CompoHandler.TAG_SIZE,
 							String.valueOf(compList.get(i).getFiles().get(j).getSize()));
 			}
