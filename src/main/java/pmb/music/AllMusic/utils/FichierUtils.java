@@ -16,14 +16,14 @@ import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Vector;
-import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
@@ -498,21 +498,19 @@ public final class FichierUtils {
 		return Optional.ofNullable(result);
 	}
 
-	public static Date getLastModifyDate(String filePath) {
+	public static LocalDateTime getCreationDate(File file) {
+		LOG.debug("Start getCreationDate");
 		BasicFileAttributes attr = null;
 		try {
-			attr = Files.readAttributes(new File(filePath).toPath(), BasicFileAttributes.class);
+			attr = Files.readAttributes(file.toPath(), BasicFileAttributes.class);
 		} catch (IOException e) {
-			LOG.error("Impossible de récupérer les attributs de " + filePath, e);
+			LOG.error("Impossible de récupérer la date de création de " + file.getAbsolutePath(), e);
 		}
 		if (attr == null) {
-			return new Date();
+			return LocalDateTime.now();
 		}
-		Date lastModifyDate = null;
-		long milliseconds = attr.lastModifiedTime().to(TimeUnit.MILLISECONDS);
-		if ((milliseconds > Long.MIN_VALUE) && (milliseconds < Long.MAX_VALUE)) {
-			lastModifyDate = new Date(milliseconds);
-		}
-		return lastModifyDate;
+		LocalDateTime creationDate = LocalDateTime.ofInstant(attr.creationTime().toInstant(), ZoneId.systemDefault());
+		LOG.debug("End getCreationDate");
+		return creationDate;
 	}
 }

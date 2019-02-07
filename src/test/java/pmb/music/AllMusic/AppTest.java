@@ -142,7 +142,7 @@ public class AppTest {
 							result.put(ImportPanel.IMPORT_PARAM_NAME, fichier.getFileName());
 							result.put(ImportPanel.IMPORT_PARAM_AUTEUR, fichier.getAuthor());
 							result.put(ImportPanel.IMPORT_PARAM_CREATE,
-									new Constant().getSdfDttm().format(fichier.getCreationDate()));
+									new Constant().getFullDTF().format(fichier.getCreationDate()));
 							result.put(ImportPanel.IMPORT_PARAM_RECORD_TYPE, composition.getRecordType().toString());
 							result.put(ImportPanel.IMPORT_PARAM_CATEGORIE, fichier.getCategorie().toString());
 							result.put(ImportPanel.IMPORT_PARAM_RANGE_BEGIN,

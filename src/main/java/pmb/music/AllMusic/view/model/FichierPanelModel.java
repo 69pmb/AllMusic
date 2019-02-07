@@ -3,8 +3,8 @@
  */
 package pmb.music.AllMusic.view.model;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Vector;
 
@@ -50,7 +50,7 @@ public class FichierPanelModel extends AbstractModel {
 				|| col == FichierPanel.INDEX_FILE_LINE_NUMBER) {
 			return Integer.class;
 		} else if (col == FichierPanel.INDEX_CREATE_DATE) {
-			return Date.class;
+			return LocalDateTime.class;
 		} else if (col == FichierPanel.INDEX_PERCENT_DELETED || col == FichierPanel.INDEX_FILE_SCORE
 				|| col == FichierPanel.INDEX_FILE_SCORE_DELETED) {
 			return Double.class;
@@ -64,7 +64,7 @@ public class FichierPanelModel extends AbstractModel {
 		if (columnIndex != FichierPanel.INDEX_CREATE_DATE) {
 			return super.getValueAt(rowIndex, columnIndex);
 		} else {
-			return new Constant().getSdfDate().format(super.getValueAt(rowIndex, columnIndex));
+			return new Constant().getDateDTF().format((LocalDateTime) super.getValueAt(rowIndex, columnIndex));
 		}
 	}
 

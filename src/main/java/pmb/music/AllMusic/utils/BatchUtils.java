@@ -647,7 +647,7 @@ public final class BatchUtils {
 	private static String convertValueField(Field field, Object fieldValue) {
 		String result;
 		if (field.getType().equals(Date.class)) {
-			result = fieldValue != null ? new Constant().getSdfDttm().format(fieldValue) : "";
+			result = fieldValue != null ? new Constant().getSdfDt().format(fieldValue) : "";
 		} else if (field.getName().equals("rank")) {
 			result = fieldValue != null ? String.valueOf((Integer) fieldValue / 20) + " Stars" : "0 Stars";
 		} else if (field.getType().equals(Integer.class)) {
