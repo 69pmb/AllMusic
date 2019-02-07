@@ -19,7 +19,6 @@ public class BasicFrame {
 	private static final Logger LOG = Logger.getLogger(BasicFrame.class);
 	private JFrame frame;
 	private OngletPanel tab;
-	private MenuPanel menuPanel;
 
 	/**
 	 * Construit la fenetre principale, ajoute le menu et les onglets.
@@ -31,9 +30,8 @@ public class BasicFrame {
 		this.frame = new JFrame(Constant.DEFAULT_TITLE);
 		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.tab = new OngletPanel(this, withArtist);
-		this.menuPanel = new MenuPanel(this);
+		MenuPanel.buildMenu(this);
 		this.frame.getContentPane().add(tab, BorderLayout.EAST);
-		this.frame.getContentPane().add(menuPanel, BorderLayout.WEST);
 		LOG.debug("End BasicFrame");
 	}
 
@@ -43,14 +41,6 @@ public class BasicFrame {
 
 	public OngletPanel getTab() {
 		return tab;
-	}
-
-	public MenuPanel getMenuPanel() {
-		return menuPanel;
-	}
-
-	public void setMenuPanel(final MenuPanel myMenuPanel) {
-		menuPanel = myMenuPanel;
 	}
 
 	public JFrame getFrame() {

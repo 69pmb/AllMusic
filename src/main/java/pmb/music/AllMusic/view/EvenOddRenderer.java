@@ -239,7 +239,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		return renderer;
 	}
 
-	private Color getDefaultBackground(boolean isSelected, int row, Boolean rowDeleted) {
+	private static Color getDefaultBackground(boolean isSelected, int row, Boolean rowDeleted) {
 		Color background;
 		if (rowDeleted && isSelected) {
 			background = DARK_GREEN;
@@ -255,7 +255,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		return background;
 	}
 
-	private Color getDefaultForeground(boolean isSelected, int row, Boolean rowDeleted) {
+	private static Color getDefaultForeground(boolean isSelected, int row, Boolean rowDeleted) {
 		Color foreground;
 		if (isSelected) {
 			foreground = Color.BLACK;
@@ -279,7 +279,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		}
 	}
 
-	private Object formatValue(Object value) {
+	private static Object formatValue(Object value) {
 		if (value instanceof Number) {
 			// format number
 			value = NumberFormat.getNumberInstance().format(value);
@@ -291,7 +291,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 	}
 
 	@SuppressWarnings("unchecked")
-	private Object getValueByColumnIndex(JTable table, int row, int index) {
+	private static Object getValueByColumnIndex(JTable table, int row, int index) {
 		return ((Vector<Object>) ((AbstractModel) table.getModel()).getDataVector()
 				.get(table.getRowSorter().convertRowIndexToModel(row))).get(index);
 	}
