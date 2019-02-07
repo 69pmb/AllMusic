@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Optional;
 
+import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
@@ -36,33 +36,21 @@ import pmb.music.AllMusic.view.dialog.ExceptionDialog;
  * 
  * @author pmbroca
  */
-public class MenuPanel extends JPanel {
-	private static final long serialVersionUID = 1L;
-	private transient BasicFrame myFrame;
+public final class MenuPanel {
 	private static final Logger LOG = Logger.getLogger(MenuPanel.class);
 
-	/**
-	 * Instentiation du menu.
-	 * 
-	 * @param myFrame
-	 */
-	public MenuPanel(final BasicFrame myFrame) {
-		this.myFrame = myFrame;
-		initComponents();
-	}
-
-	private void initComponents() {
-		setLayout(new BorderLayout());
-		final JMenuBar menu = menuBar();
-		myFrame.getFrame().getContentPane().add(menu, BorderLayout.NORTH);
+	private MenuPanel() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**
 	 * Création de la barre de menu.
 	 * 
+	 * @param myFrame the frame where the menu will be added
+	 * 
 	 * @return le {@link JMenuBar} crée
 	 */
-	public JMenuBar menuBar() {
+	public static void buildMenu(final BasicFrame myFrame) {
 		LOG.debug("Start menuBar");
 		final JMenuBar menuBar = new JMenuBar();
 
@@ -72,7 +60,7 @@ public class MenuPanel extends JPanel {
 		final JMenu edition = edititonMenu();
 
 		// Affichage
-		final JMenu aff = affichageMenu();
+		final JMenu aff = affichageMenu(myFrame.getFrame());
 
 		// Aide
 		final JMenu aide = helpMenu();
@@ -82,11 +70,11 @@ public class MenuPanel extends JPanel {
 		menuBar.add(aff);
 		menuBar.add(aide);
 
+		myFrame.getFrame().getContentPane().add(menuBar, BorderLayout.NORTH);
 		LOG.debug("End menuBar");
-		return menuBar;
 	}
 
-	private JMenu fichierMenu() {
+	private static JMenu fichierMenu() {
 		final JMenu fichier = new JMenu("Fichier");
 		fichier.setMnemonic(KeyEvent.VK_F);
 
@@ -160,7 +148,6 @@ public class MenuPanel extends JPanel {
 		fichier.add(close);
 		close.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.CTRL_MASK));
 		close.addActionListener((ActionEvent ae) -> {
-			getMyFrame().getTab().getOnglets().getSelectedIndex();
 			final int option = JOptionPane.showConfirmDialog(null, "Voulez-vous VRAIMENT quitter ?",
 					"Demande confirmation ", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
 			if (option == 0) {
@@ -173,7 +160,7 @@ public class MenuPanel extends JPanel {
 		return fichier;
 	}
 
-	private JMenu edititonMenu() {
+	private static JMenu edititonMenu() {
 		final JMenu edition = new JMenu("Edition");
 		edition.setMnemonic(KeyEvent.VK_E);
 
@@ -209,7 +196,7 @@ public class MenuPanel extends JPanel {
 		return edition;
 	}
 
-	private JMenu affichageMenu() {
+	private static JMenu affichageMenu(JFrame frame) {
 		final JMenu aff = new JMenu("Affichage");
 		aff.setMnemonic(KeyEvent.VK_A);
 		Arrays.stream(UIManager.getInstalledLookAndFeels()).forEach(laf -> {
@@ -220,8 +207,8 @@ public class MenuPanel extends JPanel {
 							.filter(look -> laf.getName().equals(look.getName())).findFirst();
 					if (found.isPresent()) {
 						UIManager.setLookAndFeel(found.get().getClassName());
-						SwingUtilities.updateComponentTreeUI(myFrame.getFrame());
-						myFrame.getFrame().pack();
+						SwingUtilities.updateComponentTreeUI(frame);
+						frame.pack();
 					}
 				} catch (Exception ex) {
 					// If error, fall back to cross-platform
@@ -238,7 +225,7 @@ public class MenuPanel extends JPanel {
 		return aff;
 	}
 
-	private JMenu helpMenu() {
+	private static JMenu helpMenu() {
 		final JMenu aide = new JMenu("Aide");
 		aide.setMnemonic(KeyEvent.VK_H);
 		final JMenuItem help = new JMenuItem("?");
@@ -249,14 +236,6 @@ public class MenuPanel extends JPanel {
 				"HELP", JOptionPane.INFORMATION_MESSAGE));
 		aide.add(help);
 		return aide;
-	}
-
-	public BasicFrame getMyFrame() {
-		return myFrame;
-	}
-
-	public void setMyFrame(BasicFrame myFrame) {
-		this.myFrame = myFrame;
 	}
 
 }

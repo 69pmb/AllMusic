@@ -16,7 +16,12 @@ import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import javax.swing.JTextPane;
 import javax.swing.SwingConstants;
+import javax.swing.UIManager;
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
 
 import org.apache.commons.lang3.StringUtils;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
@@ -267,6 +272,23 @@ public class ComponentBuilder<T> {
 			PanelUtils.setSize(jLabel, width, LABEL_HEIGHT);
 		}
 		return jLabel;
+	}
+
+	public static JTextPane initJTextPaneComponent(Color color, int fontSize) {
+		JTextPane textPane = new JTextPane();
+		textPane.setOpaque(false);
+		textPane.setEditable(false);
+		textPane.setBackground(UIManager.getColor("Label.background"));
+		textPane.setFont(UIManager.getFont("Label.font"));
+		textPane.setBorder(UIManager.getBorder("Label.border"));
+		textPane.setForeground(color);
+		Font labelFont = textPane.getFont();
+		textPane.setFont(new Font(labelFont.getName(), labelFont.getStyle(), fontSize));
+		StyledDocument doc = textPane.getStyledDocument();
+		SimpleAttributeSet center = new SimpleAttributeSet();
+		StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
+		doc.setParagraphAttributes(0, doc.getLength(), center, false);
+		return textPane;
 	}
 
 	/**
