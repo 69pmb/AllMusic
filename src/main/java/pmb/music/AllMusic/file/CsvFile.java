@@ -87,7 +87,7 @@ public final class CsvFile {
 				} else if (column >= 0) {
 					sort = (c1, c2) -> c1.get(column).compareToIgnoreCase(c2.get(column));
 				}
-				if (sort != null && SortOrder.DESCENDING.equals(sortKey.getSortOrder())) {
+				if (sort != null && SortOrder.DESCENDING == sortKey.getSortOrder()) {
 					sort = sort.reversed();
 				}
 				if (comparator == null) {

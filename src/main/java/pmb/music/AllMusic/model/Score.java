@@ -123,7 +123,7 @@ public class Score {
 	 * @return the log max
 	 */
 	public BigDecimal getLogMax(RecordType type) {
-		if (type.equals(RecordType.SONG)) {
+		if (type == RecordType.SONG) {
 			return getLogMaxSong();
 		} else {
 			return getLogMaxAlbum();
@@ -137,15 +137,15 @@ public class Score {
 	 * @return the double median
 	 */
 	public BigDecimal getDoubleMedian(RecordType type) {
-		if (type.equals(RecordType.SONG)) {
+		if (type == RecordType.SONG) {
 			return getDoubleMedianSong();
 		} else {
 			return getDoubleMedianAlbum();
 		}
 	}
-	
+
 	public List<Double> getDecileLimit(RecordType type) {
-		if (type.equals(RecordType.SONG)) {
+		if (type == RecordType.SONG) {
 			return getDecileLimitSong();
 		} else {
 			return getDecileLimitAlbum();
