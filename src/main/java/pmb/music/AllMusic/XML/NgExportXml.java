@@ -9,7 +9,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.nio.file.Files;
-import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -59,7 +59,7 @@ public final class NgExportXml {
 		LOG.debug("Start ngExportXml");
 		Document doc = DocumentHelper.createDocument();
 		Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
-		SimpleDateFormat sdfDttm = new Constant().getSdfDttm();
+		DateTimeFormatter fullDTF = new Constant().getFullDTF();
 		Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
 
 		for (int i = 0; i < compList.size(); i++) {
@@ -110,7 +110,7 @@ public final class NgExportXml {
 					file.addAttribute(CompoHandler.TAG_CLASSEMENT,
 							String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
 					file.addAttribute(CompoHandler.TAG_CREATION_DATE,
-							sdfDttm.format(compList.get(i).getFiles().get(j).getCreationDate()));
+							fullDTF.format(compList.get(i).getFiles().get(j).getCreationDate()));
 					file.addAttribute(CompoHandler.TAG_SIZE,
 							String.valueOf(compList.get(i).getFiles().get(j).getSize()));
 				} catch (NullPointerException e) {

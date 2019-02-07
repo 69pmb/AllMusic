@@ -7,7 +7,7 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Font;
 import java.text.NumberFormat;
-import java.util.Date;
+import java.time.LocalDateTime;
 import java.util.Vector;
 
 import javax.swing.JTable;
@@ -283,9 +283,9 @@ public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCe
 		if (value instanceof Number) {
 			// format number
 			value = NumberFormat.getNumberInstance().format(value);
-		} else if (value instanceof Date) {
+		} else if (value instanceof LocalDateTime) {
 			// format date
-			value = new Constant().getSdfDttm().format(value);
+			value = new Constant().getFullDTF().format((LocalDateTime) value);
 		}
 		return value;
 	}

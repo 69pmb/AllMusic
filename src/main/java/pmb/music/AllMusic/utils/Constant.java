@@ -6,6 +6,7 @@ package pmb.music.AllMusic.utils;
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.StringUtils;
@@ -72,11 +73,11 @@ public class Constant {
 
 	public static final String DEFAULT_TITLE = "AllMusic";
 
-	private final SimpleDateFormat sdfDttm = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+	private final DateTimeFormatter fullDTF = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 
-	private final SimpleDateFormat sdfHhMm = new SimpleDateFormat("dd-MM-yyyy HH-mm");
+	private final SimpleDateFormat sdfDt = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss");
 
-	private final SimpleDateFormat sdfDate = new SimpleDateFormat("dd/MM/yyyy");
+	private final DateTimeFormatter dateDTF = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
 	private final DecimalFormat decimalFormat = new DecimalFormat("#0.00");
 
@@ -246,16 +247,16 @@ public class Constant {
 		return GetProperties.getProperty("excel") + " ";
 	}
 
-	public SimpleDateFormat getSdfDttm() {
-		return sdfDttm;
+	public DateTimeFormatter getFullDTF() {
+		return fullDTF;
 	}
 
-	public SimpleDateFormat getSdfHhMm() {
-		return sdfHhMm;
+	public SimpleDateFormat getSdfDt() {
+		return sdfDt;
 	}
 
-	public SimpleDateFormat getSdfDate() {
-		return sdfDate;
+	public DateTimeFormatter getDateDTF() {
+		return dateDTF;
 	}
 
 	public static String[] getSeparators() {

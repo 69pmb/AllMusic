@@ -8,8 +8,8 @@ import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.io.File;
+import java.time.Year;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 import java.util.Optional;
 
@@ -283,13 +283,14 @@ public class BatchPanel extends JPanel {
 		JLabel topLabel = new JLabel("Générer les tops: ");
 		PanelUtils.addComponent(top, topLabel, Component.LEFT_ALIGNMENT, 100);
 
+		String previousYear = String.valueOf(Year.now().getValue() - 1);
 		// Year Begin
-		JTextField yearBeginTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
+		JTextField yearBeginTop = new JTextField(previousYear);
 		PanelUtils.setSize(yearBeginTop, 100, ComponentBuilder.COMPONENT_HEIGHT);
 		PanelUtils.addComponent(top, yearBeginTop, Component.LEFT_ALIGNMENT, 80);
 
 		// Year End
-		JTextField yearEndTop = new JTextField(String.valueOf(Calendar.getInstance().get(Calendar.YEAR) - 1));
+		JTextField yearEndTop = new JTextField(previousYear);
 		PanelUtils.setSize(yearEndTop, 100, ComponentBuilder.COMPONENT_HEIGHT);
 		PanelUtils.addComponent(top, yearEndTop, Component.LEFT_ALIGNMENT, 80);
 

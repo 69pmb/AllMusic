@@ -4,7 +4,7 @@
 package pmb.music.AllMusic.model;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 /**
  * Représentation des listes contenant des compositions. Décrit ayant un auteur,
@@ -32,7 +32,7 @@ public class Fichier implements Serializable {
 
 	private Integer classement;
 
-	private Date creationDate;
+	private LocalDateTime creationDate;
 
 	private Integer size;
 
@@ -146,14 +146,14 @@ public class Fichier implements Serializable {
 	/**
 	 * @return the creationDate
 	 */
-	public Date getCreationDate() {
+	public LocalDateTime getCreationDate() {
 		return this.creationDate;
 	}
 
 	/**
 	 * @param creationDate the creationDate to set
 	 */
-	public void setCreationDate(Date creationDate) {
+	public void setCreationDate(LocalDateTime creationDate) {
 		this.creationDate = creationDate;
 	}
 

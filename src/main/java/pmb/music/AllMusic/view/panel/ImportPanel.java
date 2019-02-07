@@ -13,8 +13,9 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.io.File;
 import java.io.IOException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -541,7 +542,7 @@ public class ImportPanel extends JPanel {
 		map.put(IMPORT_PARAM_REMOVE_AFTER, Boolean.toString(removeAfter));
 		map.put(IMPORT_PARAM_NAME, fichier.getFileName());
 		map.put(IMPORT_PARAM_AUTEUR, fichier.getAuthor());
-		map.put(IMPORT_PARAM_CREATE, new Constant().getSdfDttm().format(fichier.getCreationDate()));
+		map.put(IMPORT_PARAM_CREATE, new Constant().getFullDTF().format(fichier.getCreationDate()));
 		map.put(IMPORT_PARAM_RECORD_TYPE, type.getSelectedItem().toString());
 		map.put(IMPORT_PARAM_CATEGORIE, fichier.getCategorie().getCat());
 		map.put(IMPORT_PARAM_RANGE_BEGIN, String.valueOf(fichier.getRangeDateBegin()));
@@ -647,7 +648,7 @@ public class ImportPanel extends JPanel {
 		absolutePathFileTxt = file.getAbsolutePath();
 		List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
 		String firstLine = FichierUtils.readFirstLine(file.getAbsolutePath()).get();
-		SimpleDateFormat sdfDttm = new Constant().getSdfDttm();
+		DateTimeFormatter fullDTF = new Constant().getFullDTF();
 		if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
 			Map<String, String> value = new HashMap<>();
 			try {
@@ -678,8 +679,8 @@ public class ImportPanel extends JPanel {
 			order.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_ARTIST_FIRST)));
 			fichier = new Fichier();
 			try {
-				fichier.setCreationDate(sdfDttm.parse(value.get(IMPORT_PARAM_CREATE)));
-			} catch (ParseException e) {
+				fichier.setCreationDate(LocalDateTime.parse(value.get(IMPORT_PARAM_CREATE), fullDTF));
+			} catch (DateTimeParseException e) {
 				LOG.warn("Error when parsing creation date", e);
 			}
 			label.add("Paramètres importés");
@@ -710,7 +711,7 @@ public class ImportPanel extends JPanel {
 			reverseArtist.setSelected(ImportFile.countComma(file) > fichier.getSize() / 2);
 			name.setText(fichier.getFileName());
 			author.setText(fichier.getAuthor());
-			date.setText(sdfDttm.format(fichier.getCreationDate()));
+			date.setText(fullDTF.format(fichier.getCreationDate()));
 			cat.setSelectedItem(fichier.getCategorie());
 			publi.setText(String.valueOf(fichier.getPublishYear()));
 			type.setSelectedItem(determineType);

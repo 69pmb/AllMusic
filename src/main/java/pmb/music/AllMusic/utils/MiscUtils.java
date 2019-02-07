@@ -4,8 +4,9 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collection;
@@ -22,6 +23,9 @@ import org.apache.commons.lang3.StringUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;
 
 import pmb.music.AllMusic.model.Composition;
 
@@ -53,7 +57,8 @@ public final class MiscUtils {
 
 	public static synchronized ObjectMapper getObjectMapper() {
 		if (null == objectMapper) {
-			objectMapper = new ObjectMapper();
+			objectMapper = new ObjectMapper().registerModule(new ParameterNamesModule())
+					.registerModule(new Jdk8Module()).registerModule(new JavaTimeModule());
 		}
 		return objectMapper;
 	}
@@ -101,12 +106,12 @@ public final class MiscUtils {
 	/**
 	 * Retourne la date à l'instant de l'appel.
 	 * 
-	 * @return la date au format dd-MM-yyyy HH-mm
+	 * @return la date au format dd-MM-yyyy HH-mm-ss
 	 */
 	public static String dateNow() {
 		Calendar greg = new GregorianCalendar();
 		Date date = greg.getTime();
-		return new Constant().getSdfHhMm().format(date);
+		return new Constant().getSdfDt().format(date);
 	}
 
 	/**
@@ -115,9 +120,7 @@ public final class MiscUtils {
 	 * @return format: {@code hour:minute:second}
 	 */
 	public static String getCurrentTime() {
-		DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-		Date date = new Date();
-		return dateFormat.format(date);
+		return DateTimeFormatter.ofPattern("HH:mm:ss").format(LocalTime.now());
 	}
 
 	/**
@@ -139,8 +142,8 @@ public final class MiscUtils {
 					row.add(String.valueOf(obj));
 				} else if (obj instanceof Integer || obj instanceof Long || obj instanceof Double) {
 					row.add(String.valueOf(obj));
-				} else if (obj instanceof Date) {
-					row.add(new Constant().getSdfDate().format((Date) obj));
+				} else if (obj instanceof LocalDateTime) {
+					row.add(new Constant().getDateDTF().format((LocalDateTime) obj));
 				}
 			}
 			result.add(row);
