@@ -138,7 +138,7 @@ public class CustomColumnPositionMappingStrategy<T>
 		return header;
 	}
 
-	private String extractHeaderName(final BeanField<?> beanField) {
+	private static String extractHeaderName(final BeanField<?> beanField) {
 		if (beanField == null || beanField.getField() == null
 				|| beanField.getField().getDeclaredAnnotationsByType(CsvBindByName.class).length == 0) {
 			return StringUtils.EMPTY;

@@ -3,7 +3,6 @@ package pmb.music.AllMusic.view.dialog;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Font;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.math.BigDecimal;
@@ -22,15 +21,13 @@ import javax.swing.JTextPane;
 import javax.swing.UIManager;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
 
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.CsvComposition;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.model.FichierDialogModel;
 
@@ -97,11 +94,11 @@ public class DeleteCompoDialog {
 		// Csv compo
 		JPanel compoCsvPanel = new JPanel();
 		compoCsvPanel.setLayout(new BoxLayout(compoCsvPanel, BoxLayout.Y_AXIS));
-		compoCsv = initJTextPaneComponent(new Color(21, 77, 153), 20);
+		compoCsv = ComponentBuilder.initJTextPaneComponent(new Color(21, 77, 153), 20);
 		compoCsvPanel.add(compoCsv);
 
 		// Warning
-		warning = initJTextPaneComponent(new Color(255, 67, 67), 30);
+		warning = ComponentBuilder.initJTextPaneComponent(new Color(255, 67, 67), 30);
 		compoCsvPanel.add(warning);
 		panel.add(new JScrollPane(compoCsvPanel));
 
@@ -141,23 +138,6 @@ public class DeleteCompoDialog {
 		this.dialog.setLayout(new BorderLayout());
 		this.dialog.add(panel, BorderLayout.CENTER);
 		LOG.debug("End initComponent");
-	}
-
-	private JTextPane initJTextPaneComponent(Color color, int fontSize) {
-		JTextPane textPane = new JTextPane();
-		textPane.setOpaque(false);
-		textPane.setEditable(false);
-		textPane.setBackground(UIManager.getColor("Label.background"));
-		textPane.setFont(UIManager.getFont("Label.font"));
-		textPane.setBorder(UIManager.getBorder("Label.border"));
-		textPane.setForeground(color);
-		Font labelFont = textPane.getFont();
-		textPane.setFont(new Font(labelFont.getName(), labelFont.getStyle(), fontSize));
-		StyledDocument doc = textPane.getStyledDocument();
-		SimpleAttributeSet center = new SimpleAttributeSet();
-		StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
-		doc.setParagraphAttributes(0, doc.getLength(), center, false);
-		return textPane;
 	}
 
 	/**
