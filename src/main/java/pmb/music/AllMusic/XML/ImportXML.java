@@ -102,7 +102,7 @@ public final class ImportXML {
 			// final.xml
 			if (!finalFile.equalsIgnoreCase(fileXML.getName())) {
 				List<Composition> importXML = ImportXML.importXML(fileXML.getAbsolutePath());
-				if (RecordType.SONG.equals(importXML.get(0).getRecordType())) {
+				if (RecordType.SONG == importXML.get(0).getRecordType()) {
 					compoFusionSong.addAll(importXML);
 				} else {
 					compoFusionAlbum.addAll(importXML);

@@ -702,7 +702,7 @@ public class ImportPanel extends JPanel {
 			absolutePathFileXml = Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION;
 			RecordType determineType = ImportFile.determineType(file.getName());
 			boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
-			if (Cat.MISCELLANEOUS.equals(fichier.getCategorie()) && !RecordType.UNKNOWN.equals(determineType)
+			if (Cat.MISCELLANEOUS == fichier.getCategorie() && RecordType.UNKNOWN != determineType
 					&& fichier.getPublishYear() != 0 && rangeDatesZero) {
 				fichier.setCategorie(Cat.YEAR);
 				fichier.setRangeDateBegin(fichier.getPublishYear());

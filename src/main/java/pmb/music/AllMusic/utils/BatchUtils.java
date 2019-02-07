@@ -134,28 +134,28 @@ public final class BatchUtils {
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		statsLength(result, importXML.stream().map(Composition::getArtist).distinct().map(String::length)
 				.collect(Collectors.toList()), "Artiste: ");
-		statsLength(result, importXML.stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
+		statsLength(result, importXML.stream().filter(c -> c.getRecordType() == RecordType.ALBUM)
 				.map(composition -> composition.getTitre().length()).collect(Collectors.toList()), "Album: ");
-		statsLength(result, importXML.stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
+		statsLength(result, importXML.stream().filter(c -> c.getRecordType() == RecordType.SONG)
 				.map(composition -> composition.getTitre().length()).collect(Collectors.toList()), "Chanson: ");
 
 		addLine(result, "Statistiques sur les tops annuels: ", true);
-		Map<Integer, Integer> songs = importXML.stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
-				.map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie().equals(Cat.YEAR))
+		Map<Integer, Integer> songs = importXML.stream().filter(c -> c.getRecordType() == RecordType.SONG)
+				.map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie() == Cat.YEAR)
 				.collect(Collectors.groupingBy(Fichier::getRangeDateBegin, Collectors
 						.collectingAndThen(Collectors.mapping(Fichier::getFileName, Collectors.toSet()), Set::size)));
-		Map<Integer, Integer> albums = importXML.stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
-				.map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie().equals(Cat.YEAR))
+		Map<Integer, Integer> albums = importXML.stream().filter(c -> c.getRecordType() == RecordType.ALBUM)
+				.map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie() == Cat.YEAR)
 				.collect(Collectors.groupingBy(Fichier::getRangeDateBegin, Collectors
 						.collectingAndThen(Collectors.mapping(Fichier::getFileName, Collectors.toSet()), Set::size)));
 
 		List<Composition> songYear = importXML.stream()
-				.filter(c -> c.getRecordType().equals(RecordType.SONG)
-						&& c.getFiles().stream().anyMatch(f -> f.getCategorie().equals(Cat.YEAR)))
+				.filter(c -> c.getRecordType() == RecordType.SONG
+						&& c.getFiles().stream().anyMatch(f -> f.getCategorie() == Cat.YEAR))
 				.collect(Collectors.toList());
 		List<Composition> albumYear = importXML.stream()
-				.filter(c -> c.getRecordType().equals(RecordType.ALBUM)
-						&& c.getFiles().stream().anyMatch(f -> f.getCategorie().equals(Cat.YEAR)))
+				.filter(c -> c.getRecordType() == RecordType.ALBUM
+						&& c.getFiles().stream().anyMatch(f -> f.getCategorie() == Cat.YEAR))
 				.collect(Collectors.toList());
 
 		int min = Stream.concat(songs.keySet().stream(), albums.keySet().stream()).mapToInt(Integer::intValue).min()
@@ -166,14 +166,10 @@ public final class BatchUtils {
 		IntStream.rangeClosed(min, max).forEach(i -> {
 			Integer song = !songs.containsKey(i) ? 0 : songs.get(i);
 			Integer album = !albums.containsKey(i) ? 0 : albums.get(i);
-			long songCount = songYear.stream()
-					.filter(c -> c.getFiles().stream()
-							.anyMatch(f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin().equals(i)))
-					.count();
-			long albumCount = albumYear.stream()
-					.filter(c -> c.getFiles().stream()
-							.anyMatch(f -> f.getCategorie().equals(Cat.YEAR) && f.getRangeDateBegin().equals(i)))
-					.count();
+			long songCount = songYear.stream().filter(c -> c.getFiles().stream()
+					.anyMatch(f -> f.getCategorie() == Cat.YEAR && f.getRangeDateBegin().equals(i))).count();
+			long albumCount = albumYear.stream().filter(c -> c.getFiles().stream()
+					.anyMatch(f -> f.getCategorie() == Cat.YEAR && f.getRangeDateBegin().equals(i))).count();
 			addLine(result, i + ";" + song.toString() + ";" + songCount + ";" + album.toString() + ";" + albumCount
 					+ ";" + (song + album) + ";" + (songCount + albumCount), false);
 		});
@@ -228,9 +224,9 @@ public final class BatchUtils {
 			List<RecordType> types = search.stream().map(Composition::getRecordType)
 					.filter(t -> !t.equals(RecordType.UNKNOWN)).collect(Collectors.toList());
 			if (!types.isEmpty()) {
-				long songCount = search.stream().filter(s -> s.getRecordType().equals(RecordType.SONG))
+				long songCount = search.stream().filter(s -> s.getRecordType() == RecordType.SONG)
 						.mapToInt(s -> s.getFiles().size()).sum();
-				long albumCount = search.stream().filter(s -> s.getRecordType().equals(RecordType.ALBUM))
+				long albumCount = search.stream().filter(s -> s.getRecordType() == RecordType.ALBUM)
 						.mapToInt(s -> s.getFiles().size()).sum();
 				Long count;
 				if (types.stream().allMatch(RecordType.ALBUM::equals)) {

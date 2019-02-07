@@ -225,7 +225,7 @@ public final class SearchUtils {
 			}
 		}
 		if (result && StringUtils.isNotBlank(fileName)) {
-			if (SearchMethod.CONTAINS.equals(searchMethod)) {
+			if (SearchMethod.CONTAINS == searchMethod) {
 				result = result && Arrays.asList(fileName.split(" ")).stream()
 						.allMatch(name -> compareString(name, fi.getFileName(), searchMethod, jaro));
 			} else {
