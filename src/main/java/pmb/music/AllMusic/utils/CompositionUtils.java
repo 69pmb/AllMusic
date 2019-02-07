@@ -63,7 +63,7 @@ public final class CompositionUtils {
 				LOG.error("null: " + composition);
 				continue;
 			}
-			if (c.getRecordType().equals(composition.getRecordType())) {
+			if (c.getRecordType() == composition.getRecordType()) {
 				// Suppression de la ponctuation
 				String compoTitre = SearchUtils.removePunctuation(composition.getTitre());
 				if (StringUtils.isBlank(compoTitre)) {
@@ -313,10 +313,10 @@ public final class CompositionUtils {
 			int sum = e.getValue().stream().mapToInt(c -> c.getFiles().size()).sum();
 			v.addElement(sum);
 			// Occurence by album
-			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
+			v.addElement(e.getValue().stream().filter(c -> c.getRecordType() == RecordType.ALBUM)
 					.mapToInt(c -> c.getFiles().size()).sum());
 			// Occurence by song
-			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
+			v.addElement(e.getValue().stream().filter(c -> c.getRecordType() == RecordType.SONG)
 					.mapToInt(c -> c.getFiles().size()).sum());
 			// Percentage of deleted
 			v.addElement(Math.round(100 * Double.valueOf(
@@ -330,13 +330,13 @@ public final class CompositionUtils {
 					.mapToLong(x -> x).sum();
 			v.addElement(sumScore);
 			// Score by Album
-			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.ALBUM))
+			v.addElement(e.getValue().stream().filter(c -> c.getRecordType() == RecordType.ALBUM)
 					.map(c -> CompositionUtils.calculateCompositionScore(
 							OngletPanel.getScore().getLogMax(c.getRecordType()),
 							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
 					.mapToLong(x -> x).sum());
 			// Score by song
-			v.addElement(e.getValue().stream().filter(c -> c.getRecordType().equals(RecordType.SONG))
+			v.addElement(e.getValue().stream().filter(c -> c.getRecordType() == RecordType.SONG)
 					.map(c -> CompositionUtils.calculateCompositionScore(
 							OngletPanel.getScore().getLogMax(c.getRecordType()),
 							OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
@@ -632,15 +632,15 @@ public final class CompositionUtils {
 			// Log10(5) * logMax
 			points = BigDecimal.valueOf(Math.log10(5)).multiply(logMax);
 		}
-		if (fichier.getCategorie().equals(Cat.ALL_TIME)) {
+		if (fichier.getCategorie() == Cat.ALL_TIME) {
 			points = points.multiply(BigDecimal.valueOf(2));
-		} else if (fichier.getCategorie().equals(Cat.LONG_PERIOD)) {
+		} else if (fichier.getCategorie() == Cat.LONG_PERIOD) {
 			points = points.multiply(BigDecimal.valueOf(1.5));
-		} else if (fichier.getCategorie().equals(Cat.DECADE)) {
+		} else if (fichier.getCategorie() == Cat.DECADE) {
 			points = points.multiply(BigDecimal.valueOf(1.3));
-		} else if (fichier.getCategorie().equals(Cat.YEAR)) {
+		} else if (fichier.getCategorie() == Cat.YEAR) {
 			points = points.divide(BigDecimal.valueOf(1.5), RoundingMode.HALF_UP);
-		} else if (fichier.getCategorie().equals(Cat.THEME)) {
+		} else if (fichier.getCategorie() == Cat.THEME) {
 			points = points.divide(BigDecimal.valueOf(1.3), RoundingMode.HALF_UP);
 		}
 		return points;

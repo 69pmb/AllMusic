@@ -779,7 +779,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 						&& e.getKey().getSize().equals(file.getSize())
 						&& e.getKey().getRangeDateBegin().equals(file.getRangeDateBegin())
 						&& e.getKey().getRangeDateEnd().equals(file.getRangeDateEnd())
-						&& e.getKey().getCategorie().equals(file.getCategorie())
+						&& e.getKey().getCategorie() == file.getCategorie()
 						&& e.getKey().getSorted().equals(file.getSorted()))
 				.findFirst().get();
 	}
