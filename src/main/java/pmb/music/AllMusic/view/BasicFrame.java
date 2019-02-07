@@ -32,8 +32,8 @@ public class BasicFrame {
 		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.tab = new OngletPanel(this, withArtist);
 		this.menuPanel = new MenuPanel(this);
-		this.frame.getContentPane().add(getTab(), BorderLayout.EAST);
-		this.frame.getContentPane().add(getMenuPanel(), BorderLayout.WEST);
+		this.frame.getContentPane().add(tab, BorderLayout.EAST);
+		this.frame.getContentPane().add(menuPanel, BorderLayout.WEST);
 		LOG.debug("End BasicFrame");
 	}
 

@@ -184,6 +184,7 @@ public class CustomColumnPositionMappingStrategy<T>
 		columnsExplicitlySet = true;
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	protected void loadFieldMap() throws CsvBadConverterException {
 		boolean required;
@@ -268,6 +269,7 @@ public class CustomColumnPositionMappingStrategy<T>
 		}
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public void verifyLineLength(int numberOfFields) throws CsvRequiredFieldEmptyException {
 		if (!headerIndex.isEmpty()) {
