@@ -1,5 +1,7 @@
 package pmb.music.AllMusic.view.component;
 
+import java.io.Serializable;
+
 import javax.swing.JTable;
 import javax.swing.RowSorter;
 import javax.swing.SortOrder;
@@ -14,7 +16,8 @@ import pmb.music.AllMusic.view.popup.PopupMenu;
 /**
  * Created by PBR on 8 févr. 2019.
  */
-public class MyTable {
+public class MyTable implements Serializable {
+	private static final long serialVersionUID = 1L;
 	private JTable table;
 	private int selectedRow;
 	private Integer sortedColumn;

@@ -6,7 +6,6 @@ package pmb.music.AllMusic.view.panel;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
-import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -20,7 +19,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Vector;
-import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import javax.swing.JButton;
@@ -164,8 +162,32 @@ public class ArtistPanel extends JPanel {
 
 		try {
 			table = new TableBuilder().withModelAndData(null, title, ArtistModel.class)
-					.withDefaultRowSorterListener(INDEX_LINE_NUMBER).withMouseClickAction(mouseClickAction)
-					.withKeyListener().build();
+					.withDefaultRowSorterListener(INDEX_LINE_NUMBER).withMouseClickAction(e -> {
+						Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
+						if (!row.isPresent()) {
+							return;
+						}
+						LOG.debug(row);
+						if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+							LOG.debug("Start artist mouse");
+							// Affiche tous les fichiers de l'artiste double cliqué
+							Optional<String> key = CompositionUtils.findArtistKey(searchResult,
+									new JaroWinklerDistance(), row.get().get(INDEX_ARTIST));
+							if (!key.isPresent()) {
+								LOG.error("Error when searching: " + row.get().get(INDEX_ARTIST) + " in data table");
+							} else {
+								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
+										searchResult.get(key.get()), 600, DialogFileTable.INDEX_TITLE);
+								pop.showDialogFileTable();
+							}
+							LOG.debug("End artist mouse");
+						} else if (SwingUtilities.isRightMouseButton(e)) {
+							LOG.debug("Start artist right mouse");
+							// Copie dans le presse papier le nom de l'artiste
+							MiscUtils.clipBoardAction(row.get().get(INDEX_ARTIST));
+							LOG.debug("End artist right mouse");
+						}
+					}).withKeyListener().build();
 			PanelUtils.colRenderer(table.getTable(), false, null, null, null, null, null, null, null);
 			updateArtistPanel();
 			this.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
@@ -318,33 +340,6 @@ public class ArtistPanel extends JPanel {
 		table.setSelectedRow(-1);
 		LOG.debug("End updateTable");
 	}
-
-	private Consumer<MouseEvent> mouseClickAction = e -> {
-		Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		if (!row.isPresent()) {
-			return;
-		}
-		LOG.debug(row);
-		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-			LOG.debug("Start artist mouse");
-			// Affiche tous les fichiers de l'artiste double cliqué
-			Optional<String> key = CompositionUtils.findArtistKey(searchResult, new JaroWinklerDistance(),
-					row.get().get(INDEX_ARTIST));
-			if (!key.isPresent()) {
-				LOG.error("Error when searching: " + row.get().get(INDEX_ARTIST) + " in data table");
-			} else {
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true, searchResult.get(key.get()), 600,
-						DialogFileTable.INDEX_TITLE);
-				pop.showDialogFileTable();
-			}
-			LOG.debug("End artist mouse");
-		} else if (SwingUtilities.isRightMouseButton(e)) {
-			LOG.debug("Start artist right mouse");
-			// Copie dans le presse papier le nom de l'artiste
-			MiscUtils.clipBoardAction(row.get().get(INDEX_ARTIST));
-			LOG.debug("End artist right mouse");
-		}
-	};
 
 	private void searchAction() {
 		LOG.debug("Start search");

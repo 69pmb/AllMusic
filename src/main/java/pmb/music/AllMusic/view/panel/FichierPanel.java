@@ -7,7 +7,6 @@ import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
-import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -20,7 +19,6 @@ import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import javax.swing.BoxLayout;
@@ -310,8 +308,31 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 
 		try {
 			tableFiles = new TableBuilder().withModelAndData(null, headerFiles, FichierPanelModel.class)
-					.withDefaultRowSorterListener(INDEX_FILE_LINE_NUMBER).withMouseClickAction(mouseActionForFileTable)
-					.withPopupMenu(new FichierPopupMenu(INDEX_FILE_FILE_NAME, INDEX_FILE_AUTHOR)).withKeyListener()
+					.withDefaultRowSorterListener(INDEX_FILE_LINE_NUMBER).withMouseClickAction(e -> {
+						LOG.debug("Start mouseActionForFileTable");
+						Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(),
+								e.getPoint());
+						tableFiles.getPopupMenu().initDataAndPosition(e, selectedRow);
+						if (!selectedRow.isPresent()) {
+							return;
+						}
+						selectedFichierName = selectedRow.get().get(INDEX_FILE_FILE_NAME);
+						if (e.getClickCount() == 1 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+							LOG.debug("Start left mouse, open");
+							// Affiche les compositions du fichier sélectionné
+							compositionList = findFichierInMap(selectedRow.get().get(INDEX_FILE_FILE_NAME)).get()
+									.getValue();
+							if (!deleted.isSelected()) {
+								compositionList = compositionList.stream().filter(c -> !c.isDeleted())
+										.collect(Collectors.toList());
+							}
+							updateCompoTable(compositionList, selectedFichierName, true);
+							LOG.debug("End left mouse, open");
+						} else if (SwingUtilities.isRightMouseButton(e)) {
+							tableFiles.getPopupMenu().show(e);
+						}
+						LOG.debug("End mouseActionForFileTable");
+					}).withPopupMenu(new FichierPopupMenu(INDEX_FILE_FILE_NAME, INDEX_FILE_AUTHOR)).withKeyListener()
 					.build();
 		} catch (MyException e1) {
 			LOG.error("An error occured when init fichier table", e1);
@@ -330,8 +351,33 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		try {
 			tableCompo = new TableBuilder().withModelAndData(null, headerCompo, CompoFichierPanelModel.class)
 					.withRowSorterListenerDelete(INDEX_COMPO_LINE_NUMBER, INDEX_COMPO_DELETED, INDEX_COMPO_SELECTED)
-					.withMouseClickAction(mouseActionForCompoTable)
-					.withPopupMenu(new CompositionPopupMenu(this.getClass(), INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE))
+					.withMouseClickAction(e -> {
+						Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(),
+								e.getPoint());
+						tableCompo.getPopupMenu().initDataAndPosition(e, selectedRow);
+						if (!selectedRow.isPresent()) {
+							return;
+						}
+						if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+							LOG.debug("Start left mouse");
+							// Ouvre une popup pour afficher les fichiers de la
+							// composition sélectionnée
+							try {
+								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
+										Arrays.asList(CompositionUtils.findByArtistTitreAndType(compositionList,
+												selectedRow.get().get(INDEX_COMPO_ARTIST),
+												selectedRow.get().get(INDEX_COMPO_TITLE),
+												selectedRow.get().get(INDEX_COMPO_TYPE), true)),
+										400, DialogFileTable.INDEX_AUTEUR);
+								pop.showDialogFileTable();
+							} catch (MyException e1) {
+								LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
+							}
+							LOG.debug("End left mouse");
+						} else if (SwingUtilities.isRightMouseButton(e)) {
+							tableCompo.getPopupMenu().show(e);
+						}
+					}).withPopupMenu(new CompositionPopupMenu(this.getClass(), INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE))
 					.withKeyListener().build();
 		} catch (MyException e1) {
 			LOG.error("An error occured when init composition table", e1);
@@ -366,55 +412,6 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		return data.entrySet().stream()
 				.filter(entry -> StringUtils.equalsIgnoreCase(entry.getKey().getFileName(), fileName)).findFirst();
 	}
-
-	private Consumer<MouseEvent> mouseActionForFileTable = e -> {
-		LOG.debug("Start mouseActionForFileTable");
-		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		tableFiles.getPopupMenu().initDataAndPosition(e, selectedRow);
-		if (!selectedRow.isPresent()) {
-			return;
-		}
-		selectedFichierName = selectedRow.get().get(INDEX_FILE_FILE_NAME);
-		if (e.getClickCount() == 1 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-			LOG.debug("Start left mouse, open");
-			// Affiche les compositions du fichier sélectionné
-			compositionList = findFichierInMap(selectedRow.get().get(INDEX_FILE_FILE_NAME)).get().getValue();
-			if (!deleted.isSelected()) {
-				compositionList = compositionList.stream().filter(c -> !c.isDeleted()).collect(Collectors.toList());
-			}
-			updateCompoTable(compositionList, selectedFichierName, true);
-			LOG.debug("End left mouse, open");
-		} else if (SwingUtilities.isRightMouseButton(e)) {
-			tableFiles.getPopupMenu().show(e);
-		}
-		LOG.debug("End mouseActionForFileTable");
-	};
-
-	private Consumer<MouseEvent> mouseActionForCompoTable = e -> {
-		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		tableCompo.getPopupMenu().initDataAndPosition(e, selectedRow);
-		if (!selectedRow.isPresent()) {
-			return;
-		}
-		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-			LOG.debug("Start left mouse");
-			// Ouvre une popup pour afficher les fichiers de la
-			// composition sélectionnée
-			try {
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-						Arrays.asList(CompositionUtils.findByArtistTitreAndType(compositionList,
-								selectedRow.get().get(INDEX_COMPO_ARTIST), selectedRow.get().get(INDEX_COMPO_TITLE),
-								selectedRow.get().get(INDEX_COMPO_TYPE), true)),
-						400, DialogFileTable.INDEX_AUTEUR);
-				pop.showDialogFileTable();
-			} catch (MyException e1) {
-				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
-			}
-			LOG.debug("End left mouse");
-		} else if (SwingUtilities.isRightMouseButton(e)) {
-			tableCompo.getPopupMenu().show(e);
-		}
-	};
 
 	/**
 	 * Launchs a dialog to modify the selected {@link Fichier}.
