@@ -79,8 +79,7 @@ public final class FichierUtils {
 			Optional<Composition> optCompo = Optional.empty();
 			if (getComposition) {
 				// If fetch composition details
-				optCompo = CompositionUtils.findByFile(importXML, f, Optional.of(c.getArtist()),
-						Optional.of(c.getTitre()));
+				optCompo = CompositionUtils.findByFile(importXML, f, c.getArtist(), c.getTitre());
 				if (optCompo.isPresent()) {
 					// Artist
 					v.addElement(optCompo.get().getArtist());
@@ -269,30 +268,30 @@ public final class FichierUtils {
 	 * @param lineNumber open the file to this specific line
 	 * @throws MyException something went wrong
 	 */
-	public static void openFileInNotepad(Optional<String> filePath, Optional<Integer> lineNumber) throws MyException {
+	public static void openFileInNotepad(String filePath, Integer lineNumber) throws MyException {
 		LOG.debug("Start openFileInNotepad");
-		if (filePath.isPresent()) {
-			String absPath = filePath.get();
-			if (FileUtils.fileExists(absPath)) {
-				String lineNb = lineNumber.map(nb -> {
+		if (filePath != null) {
+			if (FileUtils.fileExists(filePath)) {
+				String lineNb = "";
+				if (lineNumber != null) {
 					// calculates the specific line number
-					if (StringUtils.endsWith(absPath, Constant.TXT_EXTENSION)) {
+					if (StringUtils.endsWith(filePath, Constant.TXT_EXTENSION)) {
 						// offset with import settings
-						nb += 1;
-					} else if (StringUtils.endsWith(absPath, Constant.XML_EXTENSION)) {
+						lineNumber += 1;
+					} else if (StringUtils.endsWith(filePath, Constant.XML_EXTENSION)) {
 						// offset with root tags and each compo is 3 lines long
-						nb = (nb - 1) * 3 + 4;
+						lineNumber = (lineNumber - 1) * 3 + 4;
 					}
-					return "-n" + nb + " ";
-				}).orElse("");
+					lineNb = "-n" + lineNumber + " ";
+				}
 				try {
 					Runtime.getRuntime()
-							.exec(Constant.getNotepadPath() + lineNb + Constant.QUOTE + absPath + Constant.QUOTE);
+							.exec(Constant.getNotepadPath() + lineNb + Constant.QUOTE + filePath + Constant.QUOTE);
 				} catch (IOException e) {
 					throw new MyException("Le chemin de Notepad++ dans le fichier de config est incorrect.", e);
 				}
 			} else {
-				throw new MyException("Le fichier: " + absPath + " n'existe pas.");
+				throw new MyException("Le fichier: " + filePath + " n'existe pas.");
 			}
 		} else {
 			throw new MyException("Aucun fichier donné.");
@@ -306,19 +305,18 @@ public final class FichierUtils {
 	 * @param filePath le chemin absolu du fichier
 	 * @throws MyException something went wrong
 	 */
-	public static void openFileInExcel(Optional<String> filePath) throws MyException {
+	public static void openFileInExcel(String filePath) throws MyException {
 		LOG.debug("Start openFileInExcel");
-		if (filePath.isPresent()) {
-			String absPath = filePath.get();
-			if (FileUtils.fileExists(absPath)) {
+		if (filePath != null) {
+			if (FileUtils.fileExists(filePath)) {
 				try {
-					String[] commands = new String[] { Constant.getExcelPath(), absPath };
+					String[] commands = new String[] { Constant.getExcelPath(), filePath };
 					Runtime.getRuntime().exec(commands);
 				} catch (IOException e) {
 					throw new MyException("Le chemin d'Excel dans le fichier de config est incorrect.", e);
 				}
 			} else {
-				throw new MyException("Le fichier: " + absPath + " n'existe pas.");
+				throw new MyException("Le fichier: " + filePath + " n'existe pas.");
 			}
 		} else {
 			throw new MyException("Aucun fichier donné.");

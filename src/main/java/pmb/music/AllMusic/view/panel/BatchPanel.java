@@ -524,7 +524,7 @@ public class BatchPanel extends JPanel {
 	private void openResultFileInNotepad() {
 		LOG.debug("Start openResultFileInNotepad");
 		try {
-			FichierUtils.openFileInNotepad(Optional.ofNullable(fileResult), Optional.empty());
+			FichierUtils.openFileInNotepad(Optional.ofNullable(fileResult).orElse(null), null);
 		} catch (MyException e) {
 			displayText(e.toString(), false);
 			LOG.error("Erreur lors de l'ouverture du fichier: " + fileResult, e);
