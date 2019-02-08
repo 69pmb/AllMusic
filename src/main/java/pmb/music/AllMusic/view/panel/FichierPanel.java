@@ -367,7 +367,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				.filter(entry -> StringUtils.equalsIgnoreCase(entry.getKey().getFileName(), fileName)).findFirst();
 	}
 
-	Consumer<MouseEvent> mouseActionForFileTable = e -> {
+	private Consumer<MouseEvent> mouseActionForFileTable = e -> {
 		LOG.debug("Start mouseActionForFileTable");
 		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 		tableFiles.getPopupMenu().initDataAndPosition(e, selectedRow);
