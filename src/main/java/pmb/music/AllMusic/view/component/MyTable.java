@@ -19,6 +19,7 @@ public class MyTable {
 	private int selectedRow;
 	private Integer sortedColumn;
 	private SortOrder sortOrder;
+	private SortOrder sortDeletedOrder;
 	private AbstractModel model;
 	private PopupMenu popupMenu;
 	private String[] header;
@@ -34,6 +35,7 @@ public class MyTable {
 		table.setFont(UIManager.getFont("Label.font"));
 		table.setBorder(UIManager.getBorder("Label.border"));
 		selectedRow = -1;
+		sortDeletedOrder = SortOrder.ASCENDING;
 	}
 
 	public RowSorter<? extends TableModel> getRowSorter() {
@@ -110,5 +112,13 @@ public class MyTable {
 
 	public void setHeader(String[] header) {
 		this.header = header;
+	}
+
+	public SortOrder getSortDeletedOrder() {
+		return sortDeletedOrder;
+	}
+
+	public void setSortDeletedOrder(SortOrder sortDeletedOrder) {
+		this.sortDeletedOrder = sortDeletedOrder;
 	}
 }

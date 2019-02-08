@@ -6,7 +6,6 @@ import java.util.Optional;
 import java.util.Vector;
 
 import javax.swing.JPopupMenu;
-import javax.swing.JTable;
 import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
@@ -34,7 +33,7 @@ public class FichierPopupMenu extends PopupMenu {
 	 * @param authorIndex index in row of the author
 	 */
 	@SuppressWarnings("unchecked")
-	public FichierPopupMenu(JTable table, int fileNameIndex, int authorIndex) {
+	public FichierPopupMenu(int fileNameIndex, int authorIndex) {
 		super();
 		LOG.debug("Start FichierPopupMenu");
 
@@ -75,7 +74,7 @@ public class FichierPopupMenu extends PopupMenu {
 		// Modify file
 		buildMenuItem("Modifier le fichier", KeyEvent.VK_E, (ActionEvent e) -> {
 			LOG.debug("Start modifFile");
-			((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, table))
+			((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, getTable()))
 					.modifyFichierAction((Vector<String>) selectedRow);
 			this.setVisible(false);
 			LOG.debug("End modifFile");
