@@ -6,9 +6,6 @@ package pmb.music.AllMusic.view.panel;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.IOException;
@@ -23,6 +20,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import javax.swing.JButton;
@@ -31,12 +29,8 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.RowSorter;
-import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-import javax.swing.event.RowSorterEvent;
-import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.lang3.StringUtils;
@@ -58,10 +52,12 @@ import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.TableBuilder;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
+import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.model.ArtistModel;
 
@@ -83,27 +79,21 @@ public class ArtistPanel extends JPanel {
 	public static final int INDEX_SCORE_ALBUM = 8;
 	public static final int INDEX_SCORE_DELETED = 9;
 
+	// Search components
 	private MyInputText artist;
 	private JComboBoxInput<String> publi;
 	private MyInputRange range;
 	private MyInputText auteur;
 	private JComboCheckBox cat;
 	private JButton search;
-	private Integer sortedColumn;
-	private SortOrder sortOrder;
 	private JCheckBox deleted;
 
-	private JTable table;
-
-	private ArtistModel model;
-
+	private MyTable table;
 	private Map<String, List<Composition>> data;
 	private Map<String, List<Composition>> searchResult;
 
 	private static final String[] title = { "#", "Artiste", "Nombre d'Occurrences", "Album", "Chanson", "Supprimés",
 			"Score Total", "Score Album", "Score Chanson", "Score Supprimés" };
-
-	private int selectedRow = -1;
 
 	private transient Thread updateArtistThread;
 	private final boolean withArtist;
@@ -170,65 +160,19 @@ public class ArtistPanel extends JPanel {
 
 	private void initTable() {
 		LOG.debug("Start initTable");
-		table = new JTable();
-		table.setAutoCreateRowSorter(true);
-		table.setRowHeight(30);
-		table.setFillsViewportHeight(true);
-		table.getTableHeader().setResizingAllowed(true);
-		table.setBackground(UIManager.getColor("Label.background"));
-		table.setFont(UIManager.getFont("Label.font"));
-		table.setBorder(UIManager.getBorder("Label.border"));
-		model = new ArtistModel(new Object[0][title.length], title);
-		table.setModel(model);
-		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
-			@Override
-			public boolean isSortable(int column) {
-				return column != INDEX_LINE_NUMBER;
-			}
-		};
-		table.setRowSorter(sorter);
-		table.getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
-			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
-			if (!sortKeys.isEmpty()) {
-				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-					// Store sorted column and order
-					sortedColumn = sortKeys.get(0).getColumn();
-					sortOrder = sortKeys.get(0).getSortOrder();
-				}
-				// Handling of line numbers
-				for (int i = 0; i < table.getRowCount(); i++) {
-					table.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
-				}
-			}
-		});
-		PanelUtils.colRenderer(table, false, null, null, null, null, null, null, null);
 
-		updateArtistPanel();
+		try {
+			table = new TableBuilder().withModelAndData(null, title, ArtistModel.class)
+					.withDefaultRowSorterListener(INDEX_LINE_NUMBER).withMouseClickAction(mouseClickAction)
+					.withKeyListener().build();
+			PanelUtils.colRenderer(table.getTable(), false, null, null, null, null, null, null, null);
+			updateArtistPanel();
+			this.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
+		} catch (MyException e1) {
+			LOG.error("An error occured when init artist table", e1);
+			return;
+		}
 
-		table.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				mouseClickAction(e);
-			}
-		});
-		table.addKeyListener(new KeyListener() {
-			@Override
-			public void keyTyped(KeyEvent e) {
-				// Nothing to do
-			}
-
-			@Override
-			public void keyReleased(KeyEvent e) {
-				selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
-			}
-
-			@Override
-			public void keyPressed(KeyEvent e) {
-				// Nothing to do
-			}
-		});
-
-		this.add(new JScrollPane(table), BorderLayout.CENTER);
 		LOG.debug("End initTable");
 	}
 
@@ -245,7 +189,7 @@ public class ArtistPanel extends JPanel {
 			String criteres = StringUtils.join(c, " ");
 			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
 			csvHeader.add("Critères: " + criteres);
-			String name = CsvFile.exportCsv("artist", PanelUtils.convertDataVectorToList(table), null,
+			String name = CsvFile.exportCsv("artist", PanelUtils.convertDataVectorToList(table.getTable()), null,
 					csvHeader.toArray(new String[title.length + 1]));
 			try {
 				FichierUtils.openFileInExcel(Optional.of(name));
@@ -344,15 +288,16 @@ public class ArtistPanel extends JPanel {
 	private void updateTable(Map<String, List<Composition>> donnee) {
 		LOG.debug("Start updateTable");
 		// Updates table data
-		model.setRowCount(0);
-		model.setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee, true),
+		table.getModel().setRowCount(0);
+		table.getModel().setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee, true),
 				new Vector<>(Arrays.asList(title)));
 		// Applies stored sorting
-		if (sortedColumn == null) {
-			sortedColumn = INDEX_NB_TOTAL;
-			sortOrder = SortOrder.DESCENDING;
+		if (table.getSortedColumn() == null) {
+			table.setSortedColumn(INDEX_NB_TOTAL);
+			table.setSortOrder(SortOrder.DESCENDING);
 		}
-		table.getRowSorter().setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
+		table.getRowSorter().setSortKeys(
+				Collections.singletonList(new RowSorter.SortKey(table.getSortedColumn(), table.getSortOrder())));
 		((TableRowSorter<?>) table.getRowSorter()).setComparator(INDEX_DELETED, MiscUtils.comparePercentage);
 		((TableRowSorter<?>) table.getRowSorter()).setComparator(INDEX_SCORE_DELETED, MiscUtils.comparePercentage);
 		// Fills column "line number"
@@ -363,17 +308,17 @@ public class ArtistPanel extends JPanel {
 			table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
 			table.removeColumn(table.getColumnModel().getColumn(INDEX_SCORE_DELETED - 1));
 		}
-		PanelUtils.colRenderer(table, true, null, null, null, null, null, null, null);
+		PanelUtils.colRenderer(table.getTable(), true, null, null, null, null, null, null, null);
 		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
 		table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
 		// Update GUI
-		model.fireTableDataChanged();
-		table.repaint();
-		selectedRow = -1;
+		table.getModel().fireTableDataChanged();
+		table.getTable().repaint();
+		table.setSelectedRow(-1);
 		LOG.debug("End updateTable");
 	}
 
-	private void mouseClickAction(MouseEvent e) {
+	private Consumer<MouseEvent> mouseClickAction = e -> {
 		Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 		if (!row.isPresent()) {
 			return;
@@ -398,7 +343,7 @@ public class ArtistPanel extends JPanel {
 			MiscUtils.clipBoardAction(row.get().get(INDEX_ARTIST));
 			LOG.debug("End artist right mouse");
 		}
-	}
+	};
 
 	private void searchAction() {
 		LOG.debug("Start search");
@@ -454,7 +399,7 @@ public class ArtistPanel extends JPanel {
 	}
 
 	public JTable getTable() {
-		return table;
+		return table.getTable();
 	}
 
 	public JButton getSearch() {
