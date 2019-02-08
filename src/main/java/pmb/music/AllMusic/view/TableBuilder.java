@@ -84,14 +84,14 @@ public class TableBuilder {
 	 * @param indexLineNumber index of the column line number
 	 * @return the table builder
 	 */
-	private TableBuilder withRowSorter(int indexLineNumber) {
+	private TableBuilder withRowSorter(Integer indexLineNumber) {
 		if (table.getModel() == null) {
 			throw new IllegalArgumentException("Table model must be initialized first");
 		}
 		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(table.getModel()) {
 			@Override
 			public boolean isSortable(int column) {
-				return column != indexLineNumber;
+				return indexLineNumber != null ? column != indexLineNumber : true;
 			}
 		};
 		table.getTable().setRowSorter(sorter);
@@ -104,7 +104,7 @@ public class TableBuilder {
 	 * @param indexLineNumber index of the column line number
 	 * @return the table builder
 	 */
-	public TableBuilder withDefaultRowSorterListener(int indexLineNumber) {
+	public TableBuilder withDefaultRowSorterListener(Integer indexLineNumber) {
 		withRowSorter(indexLineNumber);
 		table.getTable().getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
 			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
@@ -114,9 +114,11 @@ public class TableBuilder {
 					table.setSortedColumn(sortKeys.get(0).getColumn());
 					table.setSortOrder(sortKeys.get(0).getSortOrder());
 				}
-				// Handling of line numbers
-				for (int i = 0; i < table.getTable().getRowCount(); i++) {
-					table.getTable().setValueAt(i + 1, i, indexLineNumber);
+				if (indexLineNumber != null) {
+					// Handling of line numbers
+					for (int i = 0; i < table.getTable().getRowCount(); i++) {
+						table.getTable().setValueAt(i + 1, i, indexLineNumber);
+					}
 				}
 			}
 		});
