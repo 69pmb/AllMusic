@@ -7,14 +7,12 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Consumer;
 
 import javax.swing.JComponent;
 import javax.swing.JDialog;
@@ -22,17 +20,16 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.KeyStroke;
-import javax.swing.RowSorter;
-import javax.swing.RowSorter.SortKey;
 import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-import javax.swing.event.RowSorterEvent;
 
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.TableBuilder;
+import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.CompoDialogModel;
 import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 
@@ -53,12 +50,9 @@ public class DialogCompoTable {
 
 	private JDialog dialog;
 	private List<Composition> compo = new ArrayList<>();
+	private MyTable table;
 
 	private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "" };
-
-	private Integer sortedColumn;
-	private int selectedRow = -1;
-	private CompositionPopupMenu popup;
 
 	/**
 	 * Constructeur.
@@ -90,75 +84,39 @@ public class DialogCompoTable {
 
 	private void initComponent() {
 		LOG.debug("Start initComponent");
-		JTable table = new JTable();
-		table.setAutoCreateRowSorter(true);
-		table.setRowHeight(30);
-		table.getTableHeader().setResizingAllowed(true);
-		table.setFillsViewportHeight(true);
-		table.setBackground(UIManager.getColor("Label.background"));
-		table.setFont(UIManager.getFont("Label.font"));
-		table.setBorder(UIManager.getBorder("Label.border"));
-		table.setModel(new CompoDialogModel(
-				CompositionUtils.convertCompositionListToVector(compo, null, true, false, false, false, false),
-				new Vector<>(Arrays.asList(header))));
-		table.getRowSorter().toggleSortOrder(INDEX_RANK);
-		table.getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
-			if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-				List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
-				if (!sortKeys.isEmpty()) {
-					sortedColumn = sortKeys.get(0).getColumn();
-				}
-			}
-		});
-		popup = new CompositionPopupMenu(null, INDEX_ARTIST, INDEX_TITLE);
-		popup.setTable(table);
-		table.addKeyListener(new KeyListener() {
-			@Override
-			public void keyTyped(KeyEvent e) {
-				// Nothing to do
-			}
 
-			@Override
-			public void keyReleased(KeyEvent e) {
-				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
-					popup.show(e);
-				} else {
-					selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
-				}
-			}
+		try {
+			table = new TableBuilder()
+					.withModelAndData(CompositionUtils.convertCompositionListToVector(compo, null, true, false, false,
+							false, false), header, CompoDialogModel.class)
+					.withDefaultRowSorterListener(null).withMouseClickAction(mouseAction)
+					.withPopupMenu(new CompositionPopupMenu(null, INDEX_ARTIST, INDEX_TITLE)).withKeyListener().build();
+			table.getRowSorter().toggleSortOrder(INDEX_RANK);
+		} catch (MyException e1) {
+			LOG.error("An error occured when init Dialog Compo table", e1);
+			return;
+		}
 
-			@Override
-			public void keyPressed(KeyEvent e) {
-				// Nothing to do
-			}
-		});
-		table.addMouseListener(new MouseAdapter() {
-
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				mouseAction(e);
-			}
-		});
 		this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
 				KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
-		PanelUtils.colRenderer(table, true, INDEX_DELETED, INDEX_TYPE, null, null, null, null, null);
+		PanelUtils.colRenderer(table.getTable(), true, INDEX_DELETED, INDEX_TYPE, null, null, null, null, null);
 		table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
 
 		this.dialog.setLayout(new BorderLayout());
-		this.dialog.add(new JScrollPane(table), BorderLayout.CENTER);
+		this.dialog.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
 		LOG.debug("End initComponent");
 	}
 
-	private void mouseAction(MouseEvent e) {
+	private Consumer<MouseEvent> mouseAction = e -> {
 		if (SwingUtilities.isRightMouseButton(e)) {
 			LOG.debug("Start right mouse");
 			Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 			if (row.isPresent()) {
-				popup.initDataAndPosition(e, row);
-				popup.show(e);
+				table.getPopupMenu().initDataAndPosition(e, row);
+				table.getPopupMenu().show(e);
 			}
 			LOG.debug("End right mouse");
 		}
-	}
+	};
 }
