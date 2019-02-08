@@ -6,7 +6,6 @@ import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
-import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -16,7 +15,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Vector;
-import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import javax.swing.AbstractAction;
@@ -286,8 +284,31 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		try {
 			tableResult = new TableBuilder().withModelAndData(null, title, CompoSearchPanelModel.class)
 					.withRowSorterListenerDelete(INDEX_LINE_NUMBER, INDEX_DELETED, INDEX_SELECTED)
-					.withMouseClickAction(mouseClickAction)
-					.withPopupMenu(new CompositionPopupMenu(this.getClass(), INDEX_ARTIST, INDEX_TITRE))
+					.withMouseClickAction(e -> {
+						Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
+						tableResult.getPopupMenu().initDataAndPosition(e, row);
+						if (!row.isPresent()) {
+							return;
+						}
+						if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+							LOG.debug("Start result mouse");
+							// Ouvre une popup pour afficher les fichiers de la
+							// composition sélectionnée
+							try {
+								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
+										Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult,
+												row.get().get(INDEX_ARTIST), row.get().get(INDEX_TITRE),
+												row.get().get(INDEX_TYPE), true)),
+										400, DialogFileTable.INDEX_AUTEUR);
+								pop.showDialogFileTable();
+							} catch (MyException e1) {
+								LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
+							}
+							LOG.debug("End result mouse");
+						} else if (SwingUtilities.isRightMouseButton(e)) {
+							tableResult.getPopupMenu().show(e);
+						}
+					}).withPopupMenu(new CompositionPopupMenu(this.getClass(), INDEX_ARTIST, INDEX_TITRE))
 					.withKeyListener().build();
 		} catch (MyException e1) {
 			LOG.error("An error occured when init search table", e1);
@@ -390,32 +411,6 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			updateTable();
 		}
 	}
-
-	private Consumer<MouseEvent> mouseClickAction = e -> {
-		Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		tableResult.getPopupMenu().initDataAndPosition(e, row);
-		if (!row.isPresent()) {
-			return;
-		}
-		if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-			LOG.debug("Start result mouse");
-			// Ouvre une popup pour afficher les fichiers de la
-			// composition sélectionnée
-			try {
-				DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-						Arrays.asList(
-								CompositionUtils.findByArtistTitreAndType(compoResult, row.get().get(INDEX_ARTIST),
-										row.get().get(INDEX_TITRE), row.get().get(INDEX_TYPE), true)),
-						400, DialogFileTable.INDEX_AUTEUR);
-				pop.showDialogFileTable();
-			} catch (MyException e1) {
-				LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
-			}
-			LOG.debug("End result mouse");
-		} else if (SwingUtilities.isRightMouseButton(e)) {
-			tableResult.getPopupMenu().show(e);
-		}
-	};
 
 	public JButton getSearch() {
 		return search;
