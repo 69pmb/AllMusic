@@ -8,14 +8,13 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Consumer;
 
 import javax.swing.JComponent;
 import javax.swing.JDialog;
@@ -24,7 +23,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
 import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.lang3.StringUtils;
@@ -36,7 +34,10 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.TableBuilder;
+import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.FichierDialogModel;
 import pmb.music.AllMusic.view.popup.DialogFilePopupMenu;
 
@@ -67,7 +68,7 @@ public class DialogFileTable {
 	public static final int INDEX_SORTED = 12;
 
 	private int defaultSort;
-	private DialogFilePopupMenu popup;
+	private MyTable fichiers;
 
 	/**
 	 * Constructeur de {@link DialogFileTable}.
@@ -103,69 +104,42 @@ public class DialogFileTable {
 
 	private void initComponent() {
 		LOG.debug("Start initComponent");
-		JTable fichiers = new JTable();
-		fichiers.setAutoCreateRowSorter(true);
-		fichiers.setRowHeight(30);
-		fichiers.getTableHeader().setResizingAllowed(true);
-		fichiers.setFillsViewportHeight(true);
-		fichiers.setBackground(UIManager.getColor("Label.background"));
-		fichiers.setFont(UIManager.getFont("Label.font"));
-		fichiers.setBorder(UIManager.getBorder("Label.border"));
-		fichiers.setModel(
-				new FichierDialogModel(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
-						new Vector<>(Arrays.asList(header))));
-		fichiers.getRowSorter().toggleSortOrder(defaultSort);
-		((TableRowSorter<?>) fichiers.getRowSorter()).setComparator(INDEX_PERCENT_DELETED, MiscUtils.comparePercentage);
 
-		popup = new DialogFilePopupMenu(fichiers, INDEX_ARTIST, INDEX_TITLE, INDEX_FILE_NAME, INDEX_AUTEUR, INDEX_RANK);
-		fichiers.addKeyListener(new KeyListener() {
-			@Override
-			public void keyTyped(KeyEvent e) {
-				// Nothing to do
-			}
+		try {
+			fichiers = new TableBuilder()
+					.withModelAndData(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
+							header, FichierDialogModel.class)
+					.withDefaultRowSorterListener(null).withMouseClickAction(mouseAction)
+					.withPopupMenu(new DialogFilePopupMenu(INDEX_ARTIST, INDEX_TITLE, INDEX_FILE_NAME, INDEX_AUTEUR,
+							INDEX_RANK))
+					.withKeyListener().build();
+			fichiers.getRowSorter().toggleSortOrder(defaultSort);
+			((TableRowSorter<?>) fichiers.getRowSorter()).setComparator(INDEX_PERCENT_DELETED,
+					MiscUtils.comparePercentage);
+			PanelUtils.colRenderer(fichiers.getTable(), true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null,
+					INDEX_SORTED, INDEX_RANK);
+			fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
 
-			@Override
-			public void keyReleased(KeyEvent e) {
-				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
-					popup.show(e);
-				}
-			}
+			this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
+					KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
+			this.dialog.setLayout(new BorderLayout());
+			this.dialog.add(new JScrollPane(fichiers.getTable()), BorderLayout.CENTER);
+		} catch (MyException e1) {
+			LOG.error("An error occured when init Dialog File table", e1);
+			return;
+		}
 
-			@Override
-			public void keyPressed(KeyEvent e) {
-				// Nothing to do
-			}
-		});
-		fichiers.addMouseListener(pasteFichierListener());
-		this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
-				KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
-
-		PanelUtils.colRenderer(fichiers, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null, INDEX_SORTED,
-				INDEX_RANK);
-		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
-
-		this.dialog.setLayout(new BorderLayout());
-		this.dialog.add(new JScrollPane(fichiers), BorderLayout.CENTER);
 		LOG.debug("End initComponent");
 	}
 
-	private MouseAdapter pasteFichierListener() {
-		return new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				mouseAction(e);
-			}
-		};
-	}
-
-	private void mouseAction(MouseEvent e) {
+	private Consumer<MouseEvent> mouseAction = e -> {
 		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		popup.initDataAndPosition(e, selectedRow);
+		fichiers.getPopupMenu().initDataAndPosition(e, selectedRow);
 		if (!selectedRow.isPresent()) {
 			return;
 		}
 		if (SwingUtilities.isRightMouseButton(e)) {
-			popup.show(e);
+			fichiers.getPopupMenu().show(e);
 		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
 			LOG.debug("Start double right mouse");
 			// Double click gauche -> Ouvre une popup pour afficher les compositions du
@@ -187,5 +161,5 @@ public class DialogFileTable {
 			pop.showDialogFileTable();
 			LOG.debug("End double right mouse");
 		}
-	}
+	};
 }

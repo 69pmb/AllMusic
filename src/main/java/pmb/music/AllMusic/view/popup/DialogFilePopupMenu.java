@@ -4,8 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.util.Optional;
 
-import javax.swing.JTable;
-
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -25,15 +23,13 @@ public class DialogFilePopupMenu extends PopupMenu {
 	/**
 	 * Constructor of {@link DialogFilePopupMenu}.
 	 * 
-	 * @param table the table
 	 * @param artistIndex index in row of the artist
 	 * @param titleIndex index in row of the title
 	 * @param fileNameIndex index in row of the file name
 	 * @param authorIndex index in row of the author
 	 * @param rankIndex index in row of the rank
 	 */
-	public DialogFilePopupMenu(JTable table, int artistIndex, int titleIndex, int fileNameIndex, int authorIndex,
-			int rankIndex) {
+	public DialogFilePopupMenu(int artistIndex, int titleIndex, int fileNameIndex, int authorIndex, int rankIndex) {
 		super();
 		LOG.debug("Start DialogFilePopupMenu");
 
@@ -55,7 +51,8 @@ public class DialogFilePopupMenu extends PopupMenu {
 			LOG.debug("Start openTxt");
 			try {
 				FichierUtils.openFileInNotepad(
-						FichierUtils.buildTxtFilePath((String) selectedRow.get(fileNameIndex), (String) selectedRow.get(authorIndex)),
+						FichierUtils.buildTxtFilePath((String) selectedRow.get(fileNameIndex),
+								(String) selectedRow.get(authorIndex)),
 						Optional.of((Integer) selectedRow.get(rankIndex)));
 				this.setVisible(false);
 			} catch (MyException e1) {

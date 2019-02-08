@@ -24,7 +24,6 @@ public class CompositionPopupMenu extends PopupMenu {
 	/**
 	 * Constructor of {@link CompositionPopupMenu}.
 	 * 
-	 * @param table the composition table
 	 * @param type Class type implementing {@link ModificationComposition}
 	 * @param artistIndex index in row of the artist
 	 * @param titleIndex index in row of the title

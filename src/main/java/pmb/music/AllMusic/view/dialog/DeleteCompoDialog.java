@@ -110,7 +110,7 @@ public class DeleteCompoDialog {
 					INDEX_SORTED, INDEX_RANK);
 			panel.add(new JScrollPane(filesFound.getTable()), BorderLayout.CENTER);
 		} catch (MyException e1) {
-			LOG.error("An error occured when init search table", e1);
+			LOG.error("An error occured when init Delete Compo Dialog table", e1);
 			warning.setText(e1.getMessage());
 			return;
 		}
