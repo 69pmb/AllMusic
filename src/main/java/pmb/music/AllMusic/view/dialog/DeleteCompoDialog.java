@@ -17,8 +17,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
-import javax.swing.table.AbstractTableModel;
-import javax.swing.table.DefaultTableModel;
 
 import org.apache.log4j.Logger;
 
@@ -156,14 +154,14 @@ public class DeleteCompoDialog {
 
 		this.warning.setText(warning);
 
-		((DefaultTableModel) filesFound.getModel()).setRowCount(0);
-		((DefaultTableModel) filesFound.getModel()).setDataVector(
+		filesFound.getModel().setRowCount(0);
+		filesFound.getModel().setDataVector(
 				FichierUtils.convertCompositionListToFichierVector(Arrays.asList(found), true, false),
 				new Vector<>(Arrays.asList(header)));
 		PanelUtils.colRenderer(filesFound.getTable(), true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null,
 				INDEX_SORTED, INDEX_RANK);
 		filesFound.removeColumn(filesFound.getColumnModel().getColumn(INDEX_DELETED));
-		((AbstractTableModel) filesFound.getModel()).fireTableDataChanged();
+		filesFound.getModel().fireTableDataChanged();
 		filesFound.getTable().repaint();
 	}
 

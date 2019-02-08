@@ -20,7 +20,7 @@ import pmb.music.AllMusic.view.panel.FichierPanel;
  * 
  * @see {@link JPopupMenu}
  */
-public class FichierPopupMenu extends PopupMenu {
+public class FichierPopupMenu extends AbstractPopupMenu {
 	private static final long serialVersionUID = 4954841294693242496L;
 	private static final Logger LOG = Logger.getLogger(FichierPopupMenu.class);
 

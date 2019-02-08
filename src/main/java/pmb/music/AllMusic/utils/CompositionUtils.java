@@ -404,17 +404,15 @@ public final class CompositionUtils {
 	public static Optional<Composition> findByFile(List<Composition> compoList, Fichier fichier,
 			Optional<String> artist, Optional<String> titre) {
 		LOG.trace("Start findByFile");
-		List<Composition> filtered = compoList.parallelStream()
-				.filter(c -> c.getFiles().stream()
-						.anyMatch(f -> StringUtils.equalsIgnoreCase(f.getAuthor(), fichier.getAuthor())
-								&& StringUtils.equalsIgnoreCase(f.getFileName(), fichier.getFileName())
-								&& NumberUtils.compare(f.getPublishYear(), fichier.getPublishYear()) == 0
-								&& f.getSize().equals(fichier.getSize())
-								&& f.getRangeDateBegin().equals(fichier.getRangeDateBegin())
-								&& f.getRangeDateEnd().equals(fichier.getRangeDateEnd())
-								&& f.getClassement().equals(fichier.getClassement())
-								&& f.getCategorie().equals(fichier.getCategorie())
-								&& f.getSorted().equals(fichier.getSorted())))
+		List<Composition> filtered = compoList.parallelStream().filter(c -> c.getFiles().stream()
+				.anyMatch(f -> StringUtils.equalsIgnoreCase(f.getAuthor(), fichier.getAuthor())
+						&& StringUtils.equalsIgnoreCase(f.getFileName(), fichier.getFileName())
+						&& NumberUtils.compare(f.getPublishYear(), fichier.getPublishYear()) == 0
+						&& f.getSize().equals(fichier.getSize())
+						&& f.getRangeDateBegin().equals(fichier.getRangeDateBegin())
+						&& f.getRangeDateEnd().equals(fichier.getRangeDateEnd())
+						&& f.getClassement().equals(fichier.getClassement())
+						&& f.getCategorie() == fichier.getCategorie() && f.getSorted().equals(fichier.getSorted())))
 				.collect(Collectors.toList());
 		if (filtered.isEmpty()) {
 			LOG.trace("End findByFile, no result");

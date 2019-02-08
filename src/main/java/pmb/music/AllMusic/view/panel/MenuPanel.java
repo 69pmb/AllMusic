@@ -28,7 +28,6 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.GetProperties;
 import pmb.music.AllMusic.utils.MyException;
-import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
 /**
@@ -45,11 +44,11 @@ public final class MenuPanel {
 	/**
 	 * Création de la barre de menu.
 	 * 
-	 * @param myFrame the frame where the menu will be added
+	 * @param frame the frame where the menu will be added
 	 * 
 	 * @return le {@link JMenuBar} crée
 	 */
-	public static void buildMenu(final BasicFrame myFrame) {
+	public static void buildMenu(final JFrame frame) {
 		LOG.debug("Start menuBar");
 		final JMenuBar menuBar = new JMenuBar();
 
@@ -59,7 +58,7 @@ public final class MenuPanel {
 		final JMenu edition = edititonMenu();
 
 		// Affichage
-		final JMenu aff = affichageMenu(myFrame.getFrame());
+		final JMenu aff = affichageMenu(frame);
 
 		// Aide
 		final JMenu aide = helpMenu();
@@ -69,7 +68,7 @@ public final class MenuPanel {
 		menuBar.add(aff);
 		menuBar.add(aide);
 
-		myFrame.getFrame().getContentPane().add(menuBar, BorderLayout.NORTH);
+		frame.getContentPane().add(menuBar, BorderLayout.NORTH);
 		LOG.debug("End menuBar");
 	}
 
