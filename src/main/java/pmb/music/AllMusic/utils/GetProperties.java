@@ -18,7 +18,7 @@ public final class GetProperties {
 	/**
 	 * {@link Properties} contient les properties.
 	 */
-	private static Properties prop = null;
+	private static Properties prop;
 
 	private GetProperties() {
 		throw new AssertionError("Must not be used");

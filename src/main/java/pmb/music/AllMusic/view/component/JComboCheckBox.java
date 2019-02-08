@@ -36,7 +36,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 	 * The selected item of the combo box.
 	 */
 	private JCheckBox selectedItem;
-	private boolean show = false;
+	private boolean show;
 
 	private static final String CHECKBOX_ALL = "All";
 
