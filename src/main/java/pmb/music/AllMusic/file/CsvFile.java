@@ -72,32 +72,40 @@ public final class CsvFile {
 		return name;
 	}
 
+	/**
+	 * Sorts given csv data with sorting keys.
+	 * 
+	 * @param csv data to sort
+	 * @param sortKeys sorting keys
+	 */
 	private static void sortCsvList(List<List<String>> csv, List<SortKey> sortKeys) {
 		LOG.debug("Start sortCsvList");
-		if (!csv.isEmpty()) {
-			LOG.debug("Sorting");
-			Comparator<List<String>> comparator = null;
-			for (SortKey sortKey : sortKeys) {
-				int column = sortKey.getColumn();
-				Comparator<List<String>> sort = null;
-				if (NumberUtils.isCreatable(csv.get(0).get(column))) {
-					sort = (c1, c2) -> MiscUtils.compareDouble.compare(c1.get(column), c2.get(column));
-				} else if (StringUtils.contains(csv.get(0).get(column), "%")) {
-					sort = (c1, c2) -> MiscUtils.comparePercentage.compare(c1.get(column), c2.get(column));
-				} else if (column >= 0) {
-					sort = (c1, c2) -> c1.get(column).compareToIgnoreCase(c2.get(column));
-				}
-				if (sort != null && SortOrder.DESCENDING == sortKey.getSortOrder()) {
-					sort = sort.reversed();
-				}
-				if (comparator == null) {
-					comparator = sort;
-				} else {
-					comparator = comparator.thenComparing(sort);
-				}
-			}
-			csv.sort(comparator);
+		if (csv.isEmpty()) {
+			return;
 		}
+		LOG.debug("Sorting");
+		Comparator<List<String>> comparator = null;
+		for (SortKey sortKey : sortKeys) {
+			int column = sortKey.getColumn();
+			Comparator<List<String>> sort = null;
+			// Finds comparator depending on the sorted column of the first line
+			if (NumberUtils.isCreatable(csv.get(0).get(column))) {
+				sort = (c1, c2) -> MiscUtils.compareDouble.compare(c1.get(column), c2.get(column));
+			} else if (StringUtils.contains(csv.get(0).get(column), "%")) {
+				sort = (c1, c2) -> MiscUtils.comparePercentage.compare(c1.get(column), c2.get(column));
+			} else if (column >= 0) {
+				sort = (c1, c2) -> c1.get(column).compareToIgnoreCase(c2.get(column));
+			}
+			if (sort != null && SortOrder.DESCENDING == sortKey.getSortOrder()) {
+				sort = sort.reversed();
+			}
+			if (comparator == null) {
+				comparator = sort;
+			} else {
+				comparator = comparator.thenComparing(sort);
+			}
+		}
+		csv.sort(comparator);
 		LOG.debug("End sortCsvList");
 	}
 
