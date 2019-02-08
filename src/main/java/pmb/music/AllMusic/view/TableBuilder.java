@@ -1,5 +1,7 @@
 package pmb.music.AllMusic.view;
 
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.Arrays;
@@ -17,6 +19,7 @@ import javax.swing.table.TableRowSorter;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.AbstractModel;
+import pmb.music.AllMusic.view.popup.PopupMenu;
 
 /**
  * Builder for {@link JTable}. Created by PBR on 8 févr. 2019.
@@ -37,6 +40,9 @@ public class TableBuilder {
 	 * @return the table built
 	 */
 	public MyTable build() {
+		if (table.getModel() == null || table.getHeader() == null || table.getRowSorter() == null) {
+			throw new IllegalArgumentException("Table has not been fully initialized");
+		}
 		return table;
 	}
 
@@ -112,6 +118,48 @@ public class TableBuilder {
 				for (int i = 0; i < table.getTable().getRowCount(); i++) {
 					table.getTable().setValueAt(i + 1, i, indexFileLineNumber);
 				}
+			}
+		});
+		return this;
+	}
+
+	/**
+	 * Initializes the table popup menu.
+	 * 
+	 * @param popup the menu
+	 * @return the table builder
+	 */
+	public TableBuilder withPopupMenu(PopupMenu popup) {
+		popup.setTable(table.getTable());
+		table.setPopupMenu(popup);
+		return this;
+	}
+
+	/**
+	 * Initializes the table key listener.
+	 * 
+	 * @return the table builder
+	 */
+	public TableBuilder withKeyListener() {
+		table.getTable().addKeyListener(new KeyListener() {
+			@Override
+			public void keyTyped(KeyEvent e) {
+				// Nothing to do
+			}
+
+			@Override
+			public void keyReleased(KeyEvent e) {
+				if (e.getKeyCode() == KeyEvent.VK_SHIFT && table.getPopupMenu() != null) {
+					table.getPopupMenu().show(e);
+				} else {
+					table.setSelectedRow(
+							PanelUtils.keyShortcutAction(e, table.getSelectedRow(), table.getSortedColumn()));
+				}
+			}
+
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// Nothing to do
 			}
 		});
 		return this;

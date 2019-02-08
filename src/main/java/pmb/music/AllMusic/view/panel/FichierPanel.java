@@ -415,7 +415,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				mouseActionForCompoTable(e);
 			}
 		});
-		popupComposition = new CompositionPopupMenu(tableCompo, this.getClass(), INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE);
+		popupComposition = new CompositionPopupMenu(this.getClass(), INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE);
+		popupComposition.setTable(tableCompo);
 		tableCompo.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {

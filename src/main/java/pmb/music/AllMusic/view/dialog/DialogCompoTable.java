@@ -110,7 +110,8 @@ public class DialogCompoTable {
 				}
 			}
 		});
-		popup = new CompositionPopupMenu(table, null, INDEX_ARTIST, INDEX_TITLE);
+		popup = new CompositionPopupMenu(null, INDEX_ARTIST, INDEX_TITLE);
+		popup.setTable(table);
 		table.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {

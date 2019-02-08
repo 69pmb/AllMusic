@@ -11,6 +11,7 @@ import java.util.Vector;
 
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
+import javax.swing.JTable;
 import javax.swing.KeyStroke;
 
 import org.apache.log4j.Logger;
@@ -28,6 +29,7 @@ public abstract class PopupMenu extends JPopupMenu {
 	private static final Logger LOG = Logger.getLogger(PopupMenu.class);
 	protected transient Vector<?> selectedRow;
 	protected Point point;
+	private JTable table;
 
 	/**
 	 * Set the data and the position of the popup menu.
@@ -80,5 +82,13 @@ public abstract class PopupMenu extends JPopupMenu {
 
 	public void setPoint(Point point) {
 		this.point = point;
+	}
+
+	public JTable getTable() {
+		return table;
+	}
+
+	public void setTable(JTable table) {
+		this.table = table;
 	}
 }
