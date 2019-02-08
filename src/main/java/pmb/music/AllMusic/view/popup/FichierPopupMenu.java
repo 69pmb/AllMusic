@@ -28,7 +28,6 @@ public class FichierPopupMenu extends PopupMenu {
 	/**
 	 * Constructor of {@link FichierPopupMenu}.
 	 * 
-	 * @param table the fichier table
 	 * @param fileNameIndex index in row of the filename
 	 * @param authorIndex index in row of the author
 	 */
