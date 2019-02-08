@@ -16,9 +16,7 @@ import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.JTable;
 import javax.swing.JTextPane;
-import javax.swing.UIManager;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableModel;
 
@@ -27,8 +25,11 @@ import org.apache.log4j.Logger;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.CsvComposition;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.TableBuilder;
+import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.FichierDialogModel;
 
 /**
@@ -65,7 +66,7 @@ public class DeleteCompoDialog {
 	// Components
 	private JTextPane compoCsv;
 	private JTextPane warning;
-	private JTable filesFound;
+	private MyTable filesFound;
 
 	/**
 	 * Constructeur de {@link DeleteCompoDialog}.
@@ -103,18 +104,17 @@ public class DeleteCompoDialog {
 		panel.add(new JScrollPane(compoCsvPanel));
 
 		// Files found
-		filesFound = new JTable();
-		filesFound.setAutoCreateRowSorter(true);
-		filesFound.setRowHeight(30);
-		filesFound.getTableHeader().setResizingAllowed(true);
-		filesFound.setFillsViewportHeight(true);
-		filesFound.setBackground(UIManager.getColor("Label.background"));
-		filesFound.setFont(UIManager.getFont("Label.font"));
-		filesFound.setBorder(UIManager.getBorder("Label.border"));
-		filesFound.setModel(new FichierDialogModel(new Object[0][header.length - 1], header));
-		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null, INDEX_SORTED,
-				INDEX_RANK);
-		panel.add(new JScrollPane(filesFound), BorderLayout.CENTER);
+		try {
+			filesFound = new TableBuilder().withModelAndData(null, header, FichierDialogModel.class)
+					.withDefaultRowSorterListener(null).withKeyListener().build();
+			PanelUtils.colRenderer(filesFound.getTable(), true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null,
+					INDEX_SORTED, INDEX_RANK);
+			panel.add(new JScrollPane(filesFound.getTable()), BorderLayout.CENTER);
+		} catch (MyException e1) {
+			LOG.error("An error occured when init search table", e1);
+			warning.setText(e1.getMessage());
+			return;
+		}
 
 		JPanel btnPanel = new JPanel();
 
@@ -161,11 +161,11 @@ public class DeleteCompoDialog {
 		((DefaultTableModel) filesFound.getModel()).setDataVector(
 				FichierUtils.convertCompositionListToFichierVector(Arrays.asList(found), true, false),
 				new Vector<>(Arrays.asList(header)));
-		PanelUtils.colRenderer(filesFound, true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null, INDEX_SORTED,
-				INDEX_RANK);
+		PanelUtils.colRenderer(filesFound.getTable(), true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null,
+				INDEX_SORTED, INDEX_RANK);
 		filesFound.removeColumn(filesFound.getColumnModel().getColumn(INDEX_DELETED));
 		((AbstractTableModel) filesFound.getModel()).fireTableDataChanged();
-		filesFound.repaint();
+		filesFound.getTable().repaint();
 	}
 
 	public Boolean getSendData() {
