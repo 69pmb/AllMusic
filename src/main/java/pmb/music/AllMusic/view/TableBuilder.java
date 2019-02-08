@@ -5,6 +5,7 @@ import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 import java.util.function.Consumer;
@@ -12,6 +13,7 @@ import java.util.function.Consumer;
 import javax.swing.JTable;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
+import javax.swing.SortOrder;
 import javax.swing.event.RowSorterEvent;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
@@ -82,7 +84,7 @@ public class TableBuilder {
 	 * @param indexLineNumber index of the column line number
 	 * @return the table builder
 	 */
-	public TableBuilder withRowSorter(int indexLineNumber) {
+	private TableBuilder withRowSorter(int indexLineNumber) {
 		if (table.getModel() == null) {
 			throw new IllegalArgumentException("Table model must be initialized first");
 		}
@@ -102,10 +104,8 @@ public class TableBuilder {
 	 * @param indexLineNumber index of the column line number
 	 * @return the table builder
 	 */
-	public TableBuilder withDefaultRowSorterListener(int indexFileLineNumber) {
-		if (table.getTable().getRowSorter() == null) {
-			throw new IllegalArgumentException("Table row sorted must be initialized first");
-		}
+	public TableBuilder withDefaultRowSorterListener(int indexLineNumber) {
+		withRowSorter(indexLineNumber);
 		table.getTable().getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
 			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
 			if (!sortKeys.isEmpty()) {
@@ -116,7 +116,48 @@ public class TableBuilder {
 				}
 				// Handling of line numbers
 				for (int i = 0; i < table.getTable().getRowCount(); i++) {
-					table.getTable().setValueAt(i + 1, i, indexFileLineNumber);
+					table.getTable().setValueAt(i + 1, i, indexLineNumber);
+				}
+			}
+		});
+		return this;
+	}
+
+	/**
+	 * Initializes the row sorter listener with selected column sortable on deleted
+	 * composition.
+	 * 
+	 * @param indexLineNumber index of the column line number
+	 * @param indexDeleted index of the column deleted
+	 * @param indexSelected index of the column line number selected
+	 * @return
+	 */
+	public TableBuilder withRowSorterListenerDelete(int indexLineNumber, int indexDeleted, int indexSelected) {
+		withRowSorter(indexLineNumber);
+		table.getTable().getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
+			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
+			if (!sortKeys.isEmpty()) {
+				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
+					// Sort of deleted column and store sorted column and order
+					int column = sortKeys.get(0).getColumn();
+					if (column == indexSelected) {
+						table.setSortedColumn(indexDeleted);
+						table.setSortDeletedOrder(
+								table.getSortDeletedOrder() == SortOrder.ASCENDING ? SortOrder.DESCENDING
+										: SortOrder.ASCENDING);
+						table.setSortOrder(table.getSortDeletedOrder());
+						List<SortKey> list = new LinkedList<>(Arrays
+								.asList(new RowSorter.SortKey(table.getSortedColumn(), table.getSortDeletedOrder())));
+						table.getRowSorter().getSortKeys().stream().forEach(list::add);
+						table.getRowSorter().setSortKeys(list);
+					} else {
+						table.setSortOrder(sortKeys.get(0).getSortOrder());
+						table.setSortedColumn(column);
+					}
+				}
+				// Handling of line numbers
+				for (int i = 0; i < table.getRowCount(); i++) {
+					table.setValueAt(i + 1, i, indexLineNumber);
 				}
 			}
 		});
