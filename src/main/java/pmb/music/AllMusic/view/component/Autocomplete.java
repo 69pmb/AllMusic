@@ -54,8 +54,9 @@ public class Autocomplete implements DocumentListener {
 
 	@Override
 	public void insertUpdate(DocumentEvent ev) {
-		if (ev.getLength() != 1)
+		if (ev.getLength() != 1) {
 			return;
+		}
 
 		int pos = ev.getOffset();
 		String content = null;
@@ -75,8 +76,9 @@ public class Autocomplete implements DocumentListener {
 		}
 
 		// Too few chars
-		if (pos - w < 2)
+		if (pos - w < 2) {
 			return;
+		}
 
 		String prefix = content.substring(w + 1).toLowerCase();
 		int n = Collections.binarySearch(keywords, prefix);

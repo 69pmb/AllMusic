@@ -15,5 +15,5 @@ public interface ModificationComposition {
 	 * 
 	 * @param selectedRow the selected composition to modify
 	 */
-	public void modifyCompositionAction(Vector<String> selectedRow);
+	void modifyCompositionAction(Vector<String> selectedRow);
 }

@@ -11,7 +11,7 @@ import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 
 import pmb.music.AllMusic.view.model.AbstractModel;
-import pmb.music.AllMusic.view.popup.PopupMenu;
+import pmb.music.AllMusic.view.popup.AbstractPopupMenu;
 
 /**
  * Created by PBR on 8 févr. 2019.
@@ -24,7 +24,7 @@ public class MyTable implements Serializable {
 	private SortOrder sortOrder;
 	private SortOrder sortDeletedOrder;
 	private AbstractModel model;
-	private PopupMenu popupMenu;
+	private AbstractPopupMenu popupMenu;
 	private String[] header;
 
 	public MyTable() {
@@ -102,11 +102,11 @@ public class MyTable implements Serializable {
 		this.model = model;
 	}
 
-	public PopupMenu getPopupMenu() {
+	public AbstractPopupMenu getPopupMenu() {
 		return popupMenu;
 	}
 
-	public void setPopupMenu(PopupMenu popupMenu) {
+	public void setPopupMenu(AbstractPopupMenu popupMenu) {
 		this.popupMenu = popupMenu;
 	}
 

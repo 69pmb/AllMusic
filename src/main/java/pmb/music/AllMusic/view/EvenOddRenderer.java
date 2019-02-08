@@ -13,7 +13,6 @@ import java.util.Vector;
 import javax.swing.JTable;
 import javax.swing.border.MatteBorder;
 import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableCellRenderer;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -29,7 +28,7 @@ import pmb.music.AllMusic.view.model.AbstractModel;
  * @author pmbroca
  * @see DefaultTableCellRenderer
  */
-public class EvenOddRenderer extends DefaultTableCellRenderer implements TableCellRenderer {
+public class EvenOddRenderer extends DefaultTableCellRenderer {
 
 	private static final long serialVersionUID = 7366600520755781512L;
 	private static final Color BLUE = new Color(47, 129, 210);
