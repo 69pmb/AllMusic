@@ -75,36 +75,38 @@ public class ComponentBuilder<T> {
 		if (config.getParent() == null) {
 			throw new IllegalArgumentException("Component parent is required");
 		}
+		JComponent result;
 		if (config.getType().equals(JComboCheckBox.class)) {
 			// A list with multiples selectable choices
 			requiredValues();
-			return buildJComboCheckBox();
+			result = buildJComboCheckBox();
 		} else if (config.getType().equals(JComboBoxInput.class)) {
 			// An input text with a combo box
 			requiredValues();
-			return buildJComboBoxInput();
+			result = buildJComboBoxInput();
 		} else if (config.getType().equals(MyInputText.class)) {
 			// An input text with suggestions
-			return buildMyInputText();
+			result = buildMyInputText();
 		} else if (config.getType().equals(JComboBox.class)) {
 			// A list of value with one selectable item
 			requiredValues();
-			return buildJComboBox();
+			result = buildJComboBox();
 		} else if (config.getType().equals(JCheckBox.class)) {
 			// True / false
-			return buildJCheckBox();
+			result = buildJCheckBox();
 		} else if (config.getType().equals(MyInputRange.class)) {
 			// Two inputs together
-			return buildMyInputRange();
+			result = buildMyInputRange();
 		} else if (config.getType().equals(JTextField.class)) {
 			// A classic text field
-			return buildJTextField();
+			result = buildJTextField();
 		} else if (config.getType().equals(JLabel.class)) {
 			// A label
-			return buildJLabel();
+			result = buildJLabel();
 		} else {
 			throw new IllegalArgumentException("Incorrect component type: " + config.getType().getName());
 		}
+		return result;
 	}
 
 	/**

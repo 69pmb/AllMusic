@@ -47,20 +47,28 @@ public class CompoSearchPanelModel extends AbstractModel {
 
 	@Override
 	public Class<?> getColumnClass(int col) {
+		Class<?> result;
 		switch (col) {
 		case SearchPanel.INDEX_FILE_SIZE:
-			return Integer.class;
+			result = Integer.class;
+			break;
 		case SearchPanel.INDEX_SCORE:
-			return Integer.class;
+			result = Integer.class;
+			break;
 		case SearchPanel.INDEX_LINE_NUMBER:
-			return Integer.class;
+			result = Integer.class;
+			break;
 		case SearchPanel.INDEX_DECILE:
-			return Integer.class;
+			result = Integer.class;
+			break;
 		case SearchPanel.INDEX_SELECTED:
-			return Boolean.class;
+			result = Boolean.class;
+			break;
 		default:
-			return String.class;
+			result = String.class;
+			break;
 		}
+		return result;
 	}
 
 	@Override
