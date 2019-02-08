@@ -445,7 +445,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		}
 	}
 
-	Consumer<MouseEvent> mouseClickAction = e -> {
+	private Consumer<MouseEvent> mouseClickAction = e -> {
 		Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 		popup.initDataAndPosition(e, row);
 		if (!row.isPresent()) {
