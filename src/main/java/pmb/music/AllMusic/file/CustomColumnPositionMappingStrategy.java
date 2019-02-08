@@ -44,7 +44,7 @@ public class CustomColumnPositionMappingStrategy<T>
 	 * Whether the user has programmatically set the map from column positions to
 	 * field names.
 	 */
-	private boolean columnsExplicitlySet = false;
+	private boolean columnsExplicitlySet;
 
 	/**
 	 * The map from column position to {@link BeanField}.
@@ -60,7 +60,7 @@ public class CustomColumnPositionMappingStrategy<T>
 	 * Used to store a mapping from presumed input column index to desired output
 	 * column index, as determined by applying {@link #writeOrder}.
 	 */
-	private Integer[] columnIndexForWriting = null;
+	private Integer[] columnIndexForWriting;
 
 	@Override
 	public void captureHeader(CSVReader reader) throws IOException {

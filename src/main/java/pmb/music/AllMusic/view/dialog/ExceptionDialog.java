@@ -26,7 +26,7 @@ public class ExceptionDialog {
 	private int dialogHeight = 140;
 	private JLabel iconLabel = new JLabel();
 	// is error panel opened up
-	private boolean open = false;
+	private boolean open;
 	private JLabel errorLabel = new JLabel();
 	private JTextArea errorTextArea = new JTextArea("");
 	private JTextArea exceptionTextArea = new JTextArea("");
