@@ -286,24 +286,31 @@ public final class SearchUtils {
 	 *         otherwise
 	 */
 	public static boolean compareString(String s1, String s2, SearchMethod searchMethod, JaroWinklerDistance jaro) {
+		boolean result;
 		switch (searchMethod) {
 		case CONTAINS:
-			return isEqualsJaroForSearch(jaro, s1, s2);
+			result = isEqualsJaroForSearch(jaro, s1, s2);
+			break;
 		case BEGINS_WITH:
-			return StringUtils.startsWithIgnoreCase(s1, s2) || StringUtils.startsWithIgnoreCase(s2, s1);
+			result = StringUtils.startsWithIgnoreCase(s1, s2) || StringUtils.startsWithIgnoreCase(s2, s1);
+			break;
 		case JOKER:
 			try {
-				return s1.toLowerCase().matches(stripRegexCharacters(s2))
+				result = s1.toLowerCase().matches(stripRegexCharacters(s2))
 						|| s2.toLowerCase().matches(stripRegexCharacters(s1));
 			} catch (PatternSyntaxException e) {
 				LOG.info("Regex not valid", e);
-				return false;
+				result = false;
 			}
+			break;
 		case WHOLE_WORD:
-			return StringUtils.equalsIgnoreCase(s1, s2);
+			result = StringUtils.equalsIgnoreCase(s1, s2);
+			break;
 		default:
-			return false;
+			result = false;
+			break;
 		}
+		return result;
 	}
 
 	/**

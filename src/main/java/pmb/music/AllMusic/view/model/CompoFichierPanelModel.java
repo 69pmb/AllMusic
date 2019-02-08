@@ -46,20 +46,28 @@ public class CompoFichierPanelModel extends AbstractModel {
 
 	@Override
 	public Class<?> getColumnClass(int col) {
+		Class<?> result;
 		switch (col) {
 		case FichierPanel.INDEX_COMPO_RANK:
-			return Integer.class;
+			result = Integer.class;
+			break;
 		case FichierPanel.INDEX_COMPO_FILE_SIZE:
-			return Integer.class;
+			result = Integer.class;
+			break;
 		case FichierPanel.INDEX_COMPO_SCORE:
-			return Long.class;
+			result = Long.class;
+			break;
 		case FichierPanel.INDEX_COMPO_LINE_NUMBER:
-			return Integer.class;
+			result = Integer.class;
+			break;
 		case FichierPanel.INDEX_COMPO_SELECTED:
-			return Boolean.class;
+			result = Boolean.class;
+			break;
 		default:
-			return String.class;
+			result = String.class;
+			break;
 		}
+		return result;
 	}
 
 	@Override
