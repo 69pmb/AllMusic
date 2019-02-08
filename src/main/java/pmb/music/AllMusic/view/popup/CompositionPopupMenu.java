@@ -5,7 +5,6 @@ import java.awt.event.KeyEvent;
 import java.util.Vector;
 
 import javax.swing.JPopupMenu;
-import javax.swing.JTable;
 import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
@@ -31,8 +30,7 @@ public class CompositionPopupMenu extends PopupMenu {
 	 * @param titleIndex index in row of the title
 	 */
 	@SuppressWarnings("unchecked")
-	public CompositionPopupMenu(JTable table, Class<? extends ModificationComposition> type, int artistIndex,
-			int titleIndex) {
+	public CompositionPopupMenu(Class<? extends ModificationComposition> type, int artistIndex, int titleIndex) {
 		super();
 		LOG.debug("Start CompositionPopupMenu");
 
@@ -64,7 +62,7 @@ public class CompositionPopupMenu extends PopupMenu {
 			// Modify composition
 			buildMenuItem("Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {
 				LOG.debug("Start modifComposition");
-				type.cast(SwingUtilities.getAncestorOfClass(type, table))
+				type.cast(SwingUtilities.getAncestorOfClass(type, getTable()))
 						.modifyCompositionAction((Vector<String>) selectedRow);
 				this.setVisible(false);
 				LOG.debug("End modifComposition");
