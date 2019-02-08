@@ -46,17 +46,19 @@ public class FichierPanelModel extends AbstractModel {
 
 	@Override
 	public Class<?> getColumnClass(int col) {
+		Class<?> result;
 		if (col == FichierPanel.INDEX_FILE_PUBLISH || col == FichierPanel.INDEX_FILE_SIZE
 				|| col == FichierPanel.INDEX_FILE_LINE_NUMBER) {
-			return Integer.class;
+			result = Integer.class;
 		} else if (col == FichierPanel.INDEX_CREATE_DATE) {
-			return LocalDateTime.class;
+			result = LocalDateTime.class;
 		} else if (col == FichierPanel.INDEX_PERCENT_DELETED || col == FichierPanel.INDEX_FILE_SCORE
 				|| col == FichierPanel.INDEX_FILE_SCORE_DELETED) {
-			return Double.class;
+			result = Double.class;
 		} else {
-			return String.class;
+			result = String.class;
 		}
+		return result;
 	}
 
 	@Override
