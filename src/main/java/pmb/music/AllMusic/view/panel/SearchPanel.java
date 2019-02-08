@@ -6,8 +6,6 @@ import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -113,7 +111,6 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 	private ArtistPanel artistPanel;
 	private FichierPanel fichierPanel;
-	private CompositionPopupMenu popup;
 
 	/**
 	 * Génère le panel search.
@@ -290,38 +287,17 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		JPanel bottom = new JPanel();
 		bottom.setLayout(new BorderLayout());
 
-		// result
 		try {
 			tableResult = new TableBuilder().withModelAndData(null, title, CompoSearchPanelModel.class)
-					.withRowSorter(INDEX_LINE_NUMBER).withMouseClickAction(mouseClickAction).build();
+					.withRowSorter(INDEX_LINE_NUMBER).withMouseClickAction(mouseClickAction)
+					.withPopupMenu(new CompositionPopupMenu(this.getClass(), INDEX_ARTIST, INDEX_TITRE))
+					.withKeyListener().build();
 		} catch (MyException e1) {
 			LOG.error("An error occured when init search table", e1);
 			countLabel.setText(e1.getMessage());
 			return;
 		}
 
-		popup = new CompositionPopupMenu(tableResult.getTable(), this.getClass(), INDEX_ARTIST, INDEX_TITRE);
-		tableResult.getTable().addKeyListener(new KeyListener() {
-			@Override
-			public void keyTyped(KeyEvent e) {
-				// Nothing to do
-			}
-
-			@Override
-			public void keyReleased(KeyEvent e) {
-				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
-					popup.show(e);
-				} else {
-					tableResult.setSelectedRow(PanelUtils.keyShortcutAction(e, tableResult.getSelectedRow(),
-							tableResult.getSortedColumn()));
-				}
-			}
-
-			@Override
-			public void keyPressed(KeyEvent e) {
-				// Nothing to do
-			}
-		});
 		tableResult.getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
 			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
 			if (!sortKeys.isEmpty()) {
@@ -447,7 +423,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 	private Consumer<MouseEvent> mouseClickAction = e -> {
 		Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		popup.initDataAndPosition(e, row);
+		tableResult.getPopupMenu().initDataAndPosition(e, row);
 		if (!row.isPresent()) {
 			return;
 		}
@@ -467,7 +443,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			}
 			LOG.debug("End result mouse");
 		} else if (SwingUtilities.isRightMouseButton(e)) {
-			popup.show(e);
+			tableResult.getPopupMenu().show(e);
 		}
 	};
 
