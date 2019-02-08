@@ -7,12 +7,10 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
-import java.util.function.Consumer;
 
 import javax.swing.JComponent;
 import javax.swing.JDialog;
@@ -88,8 +86,19 @@ public class DialogCompoTable {
 			table = new TableBuilder()
 					.withModelAndData(CompositionUtils.convertCompositionListToVector(compo, null, true, false, false,
 							false, false), header, CompoDialogModel.class)
-					.withDefaultRowSorterListener(null).withMouseClickAction(mouseAction)
-					.withPopupMenu(new CompositionPopupMenu(null, INDEX_ARTIST, INDEX_TITLE)).withKeyListener().build();
+					.withDefaultRowSorterListener(null).withMouseClickAction(e -> {
+						if (SwingUtilities.isRightMouseButton(e)) {
+							LOG.debug("Start right mouse");
+							Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(),
+									e.getPoint());
+							if (row.isPresent()) {
+								table.getPopupMenu().initDataAndPosition(e, row.orElse(null));
+								table.getPopupMenu().show(e);
+							}
+							LOG.debug("End right mouse");
+						}
+					}).withPopupMenu(new CompositionPopupMenu(null, INDEX_ARTIST, INDEX_TITLE)).withKeyListener()
+					.build();
 			table.getRowSorter().toggleSortOrder(INDEX_RANK);
 		} catch (MyException e1) {
 			LOG.error("An error occured when init Dialog Compo table", e1);
@@ -107,15 +116,4 @@ public class DialogCompoTable {
 		LOG.debug("End initComponent");
 	}
 
-	private Consumer<MouseEvent> mouseAction = e -> {
-		if (SwingUtilities.isRightMouseButton(e)) {
-			LOG.debug("Start right mouse");
-			Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-			if (row.isPresent()) {
-				table.getPopupMenu().initDataAndPosition(e, row.orElse(null));
-				table.getPopupMenu().show(e);
-			}
-			LOG.debug("End right mouse");
-		}
-	};
 }

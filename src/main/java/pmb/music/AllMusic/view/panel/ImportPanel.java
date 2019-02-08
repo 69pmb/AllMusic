@@ -647,7 +647,7 @@ public class ImportPanel extends JPanel {
 				file.getAbsolutePath().lastIndexOf(File.separator));
 		absolutePathFileTxt = file.getAbsolutePath();
 		List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
-		String firstLine = FichierUtils.readFirstLine(file.getAbsolutePath()).get();
+		String firstLine = FichierUtils.readFirstLine(file.getAbsolutePath()).orElse("");
 		DateTimeFormatter fullDTF = new Constant().getFullDTF();
 		if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
 			Map<String, String> value = new HashMap<>();

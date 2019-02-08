@@ -8,13 +8,11 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
-import java.util.function.Consumer;
 
 import javax.swing.JComponent;
 import javax.swing.JDialog;
@@ -109,8 +107,39 @@ public class DialogFileTable {
 			fichiers = new TableBuilder()
 					.withModelAndData(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
 							header, FichierDialogModel.class)
-					.withDefaultRowSorterListener(null).withMouseClickAction(mouseAction)
-					.withPopupMenu(new DialogFilePopupMenu(INDEX_ARTIST, INDEX_TITLE, INDEX_FILE_NAME, INDEX_AUTEUR,
+					.withDefaultRowSorterListener(null).withMouseClickAction(e -> {
+						Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(),
+								e.getPoint());
+						fichiers.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
+						if (!selectedRow.isPresent()) {
+							return;
+						}
+						if (SwingUtilities.isRightMouseButton(e)) {
+							fichiers.getPopupMenu().show(e);
+						} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+							LOG.debug("Start double right mouse");
+							// Double click gauche -> Ouvre une popup pour afficher les compositions du
+							// fichier sélectionné
+							List<Composition> compo = ImportXML.importXML(Constant.getXmlPath()
+									+ selectedRow.get().get(INDEX_FILE_NAME) + Constant.XML_EXTENSION);
+							List<String> title = new ArrayList<>();
+							if (!compo.isEmpty()) {
+								Fichier file = compo.get(0).getFiles().get(0);
+								title = Arrays.asList("FileName:", file.getFileName(), "PublishYear:",
+										String.valueOf(file.getPublishYear()), "Categorie:",
+										file.getCategorie().getCat(), "RangeDateBegin:",
+										String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
+										String.valueOf(file.getRangeDateEnd()), "Sorted:",
+										String.valueOf(file.getSorted()), "Size:", String.valueOf(file.getSize()));
+							} else {
+								LOG.warn(selectedRow.get().get(INDEX_FILE_NAME) + " empty !");
+							}
+							DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " / "), true,
+									compo, 800);
+							pop.showDialogFileTable();
+							LOG.debug("End double right mouse");
+						}
+					}).withPopupMenu(new DialogFilePopupMenu(INDEX_ARTIST, INDEX_TITLE, INDEX_FILE_NAME, INDEX_AUTEUR,
 							INDEX_RANK))
 					.withKeyListener().build();
 			fichiers.getRowSorter().toggleSortOrder(defaultSort);
@@ -132,34 +161,4 @@ public class DialogFileTable {
 		LOG.debug("End initComponent");
 	}
 
-	private Consumer<MouseEvent> mouseAction = e -> {
-		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		fichiers.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
-		if (!selectedRow.isPresent()) {
-			return;
-		}
-		if (SwingUtilities.isRightMouseButton(e)) {
-			fichiers.getPopupMenu().show(e);
-		} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
-			LOG.debug("Start double right mouse");
-			// Double click gauche -> Ouvre une popup pour afficher les compositions du
-			// fichier sélectionné
-			List<Composition> compo = ImportXML
-					.importXML(Constant.getXmlPath() + selectedRow.get().get(INDEX_FILE_NAME) + Constant.XML_EXTENSION);
-			List<String> title = new ArrayList<>();
-			if (!compo.isEmpty()) {
-				Fichier file = compo.get(0).getFiles().get(0);
-				title = Arrays.asList("FileName:", file.getFileName(), "PublishYear:",
-						String.valueOf(file.getPublishYear()), "Categorie:", file.getCategorie().getCat(),
-						"RangeDateBegin:", String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
-						String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:",
-						String.valueOf(file.getSize()));
-			} else {
-				LOG.warn(selectedRow.get().get(INDEX_FILE_NAME) + " empty !");
-			}
-			DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " / "), true, compo, 800);
-			pop.showDialogFileTable();
-			LOG.debug("End double right mouse");
-		}
-	};
 }

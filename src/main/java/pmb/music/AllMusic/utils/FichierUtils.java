@@ -175,7 +175,8 @@ public final class FichierUtils {
 			throw new MyException("Erreur lors de la modification d'une composition dans le fichier final", e);
 		}
 		// Renomme le fichier txt
-		String txtPath = buildTxtFilePath(fileName, result.getAuthor()).get();
+		String txtPath = buildTxtFilePath(fileName, result.getAuthor()).orElseThrow(() -> new MyException(
+				"Can't build txt file path of: " + fileName + " with author: " + result.getAuthor()));
 		String newTxt = StringUtils
 				.substringBeforeLast(StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), FileUtils.FS)
 				+ FileUtils.FS + newFileName + Constant.TXT_EXTENSION;
