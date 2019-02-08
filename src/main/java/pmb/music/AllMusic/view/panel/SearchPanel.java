@@ -29,10 +29,8 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.RowSorter;
-import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
-import javax.swing.event.RowSorterEvent;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -106,7 +104,6 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	public static final int INDEX_DECILE = 6;
 	public static final int INDEX_SELECTED = 7;
 	public static final int INDEX_DELETED = 8;
-	private SortOrder sortDeletedOrder = SortOrder.ASCENDING;
 
 	private ArtistPanel artistPanel;
 	private FichierPanel fichierPanel;
@@ -288,7 +285,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 		try {
 			tableResult = new TableBuilder().withModelAndData(null, title, CompoSearchPanelModel.class)
-					.withRowSorter(INDEX_LINE_NUMBER).withMouseClickAction(mouseClickAction)
+					.withRowSorterListenerDelete(INDEX_LINE_NUMBER, INDEX_DELETED, INDEX_SELECTED)
+					.withMouseClickAction(mouseClickAction)
 					.withPopupMenu(new CompositionPopupMenu(this.getClass(), INDEX_ARTIST, INDEX_TITRE))
 					.withKeyListener().build();
 		} catch (MyException e1) {
@@ -297,34 +295,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			return;
 		}
 
-		tableResult.getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
-			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
-			if (!sortKeys.isEmpty()) {
-				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
-					// Sort of deleted column and store sorted column and order
-					int column = sortKeys.get(0).getColumn();
-					if (column == INDEX_SELECTED) {
-						tableResult.setSortedColumn(INDEX_DELETED);
-						sortDeletedOrder = sortDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
-								: SortOrder.ASCENDING;
-						tableResult.setSortOrder(sortDeletedOrder);
-						List<SortKey> list = new LinkedList<>(
-								Arrays.asList(new RowSorter.SortKey(tableResult.getSortedColumn(), sortDeletedOrder)));
-						tableResult.getRowSorter().getSortKeys().stream().forEach(list::add);
-						tableResult.getRowSorter().setSortKeys(list);
-					} else {
-						tableResult.setSortOrder(sortKeys.get(0).getSortOrder());
-						tableResult.setSortedColumn(column);
-					}
-				}
-				// Handling of line numbers
-				for (int i = 0; i < tableResult.getRowCount(); i++) {
-					tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
-				}
-			}
-		});
 		bottom.add(new JScrollPane(tableResult.getTable()), BorderLayout.CENTER);
-
 		this.add(bottom);
 	}
 
