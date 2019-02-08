@@ -102,6 +102,7 @@ public class CompoHandler extends DefaultHandler {
 			file.setCreationDate(
 					LocalDateTime.parse(attributes.getValue(TAG_CREATION_DATE), new Constant().getFullDTF()));
 		} catch (DateTimeParseException | NumberFormatException e) {
+			LOG.warn("Error when parsing creation date", e);
 			file.setCreationDate(LocalDateTime.now());
 		}
 	}

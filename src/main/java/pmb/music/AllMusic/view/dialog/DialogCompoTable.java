@@ -113,7 +113,7 @@ public class DialogCompoTable {
 			LOG.debug("Start right mouse");
 			Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 			if (row.isPresent()) {
-				table.getPopupMenu().initDataAndPosition(e, row);
+				table.getPopupMenu().initDataAndPosition(e, row.orElse(null));
 				table.getPopupMenu().show(e);
 			}
 			LOG.debug("End right mouse");

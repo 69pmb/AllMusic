@@ -82,7 +82,7 @@ public final class MenuPanel {
 		log.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_L, ActionEvent.CTRL_MASK));
 		log.addActionListener((ActionEvent ae) -> {
 			try {
-				FichierUtils.openFileInNotepad(Optional.of(Constant.FILE_LOG_PATH), Optional.empty());
+				FichierUtils.openFileInNotepad(Optional.of(Constant.FILE_LOG_PATH).orElse(null), null);
 			} catch (MyException e) {
 				LOG.error("Error when opening log file", e);
 			}
@@ -93,7 +93,7 @@ public final class MenuPanel {
 		config.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, ActionEvent.CTRL_MASK));
 		config.addActionListener((ActionEvent ae) -> {
 			try {
-				FichierUtils.openFileInNotepad(Optional.of(Constant.getConfigPath()), Optional.empty());
+				FichierUtils.openFileInNotepad(Optional.of(Constant.getConfigPath()).orElse(null), null);
 			} catch (MyException e) {
 				LOG.error("Error when opening config file", e);
 			}
@@ -104,7 +104,7 @@ public final class MenuPanel {
 		modif.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK));
 		modif.addActionListener((ActionEvent ae) -> {
 			try {
-				FichierUtils.openFileInNotepad(Optional.of(Constant.MODIF_FILE_PATH), Optional.empty());
+				FichierUtils.openFileInNotepad(Optional.of(Constant.MODIF_FILE_PATH).orElse(null), null);
 			} catch (MyException e) {
 				LOG.error("Error when opening modif file", e);
 			}

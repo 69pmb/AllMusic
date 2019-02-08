@@ -6,7 +6,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ComponentEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
-import java.util.Optional;
 import java.util.Vector;
 
 import javax.swing.JMenuItem;
@@ -37,11 +36,11 @@ public abstract class AbstractPopupMenu extends JPopupMenu {
 	 * @param e {@link MouseEvent} event when user clicks on the table
 	 * @param selectedRow the selected row by the user
 	 */
-	public void initDataAndPosition(MouseEvent e, Optional<Vector<String>> selectedRow) {
+	public void initDataAndPosition(MouseEvent e, Vector<String> selectedRow) {
 		LOG.debug("Start initDataAndPosition");
 		setPoint(e.getPoint());
 		setLocation(e.getLocationOnScreen());
-		setSelectedRow(selectedRow.orElse(null));
+		setSelectedRow(selectedRow);
 		LOG.debug("End initDataAndPosition");
 	}
 

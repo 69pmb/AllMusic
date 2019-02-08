@@ -291,7 +291,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			String name = CsvFile.exportCsv("files", PanelUtils.convertDataVectorToList(tableFiles.getTable()), null,
 					csvHeader.toArray(new String[headerFiles.length + 1]));
 			try {
-				FichierUtils.openFileInExcel(Optional.of(name));
+				FichierUtils.openFileInExcel(name);
 			} catch (MyException e1) {
 				LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
 			}
@@ -312,7 +312,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 						LOG.debug("Start mouseActionForFileTable");
 						Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(),
 								e.getPoint());
-						tableFiles.getPopupMenu().initDataAndPosition(e, selectedRow);
+						tableFiles.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
 						if (!selectedRow.isPresent()) {
 							return;
 						}
@@ -354,7 +354,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 					.withMouseClickAction(e -> {
 						Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(),
 								e.getPoint());
-						tableCompo.getPopupMenu().initDataAndPosition(e, selectedRow);
+						tableCompo.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
 						if (!selectedRow.isPresent()) {
 							return;
 						}

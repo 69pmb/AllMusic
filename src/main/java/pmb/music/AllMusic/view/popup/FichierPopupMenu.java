@@ -2,7 +2,6 @@ package pmb.music.AllMusic.view.popup;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
-import java.util.Optional;
 import java.util.Vector;
 
 import javax.swing.JPopupMenu;
@@ -40,8 +39,8 @@ public class FichierPopupMenu extends AbstractPopupMenu {
 		buildMenuItem("Ouvrir le fichier XML", KeyEvent.VK_X, (ActionEvent e) -> {
 			LOG.debug("Start openXml");
 			try {
-				FichierUtils.openFileInNotepad(FichierUtils.buildXmlFilePath((String) selectedRow.get(fileNameIndex)),
-						Optional.empty());
+				FichierUtils.openFileInNotepad(
+						FichierUtils.buildXmlFilePath((String) selectedRow.get(fileNameIndex)).orElse(null), null);
 				this.setVisible(false);
 			} catch (MyException e1) {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
@@ -54,7 +53,7 @@ public class FichierPopupMenu extends AbstractPopupMenu {
 			LOG.debug("Start openTxt");
 			try {
 				FichierUtils.openFileInNotepad(FichierUtils.buildTxtFilePath((String) selectedRow.get(fileNameIndex),
-						(String) selectedRow.get(authorIndex)), Optional.empty());
+						(String) selectedRow.get(authorIndex)).orElse(null), null);
 				this.setVisible(false);
 			} catch (MyException e1) {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);

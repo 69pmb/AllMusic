@@ -297,6 +297,7 @@ public final class SearchUtils {
 				return s1.toLowerCase().matches(stripRegexCharacters(s2))
 						|| s2.toLowerCase().matches(stripRegexCharacters(s1));
 			} catch (PatternSyntaxException e) {
+				LOG.info("Regex not valid", e);
 				return false;
 			}
 		case WHOLE_WORD:

@@ -173,7 +173,7 @@ public final class ImportXML {
 					List<Composition> xml = ImportXML
 							.importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
 					Optional<Composition> findByFile = CompositionUtils.findByFile(xml, fichier,
-							Optional.of(composition.getArtist()), Optional.of(composition.getTitre()));
+							composition.getArtist(), composition.getTitre());
 					if (findByFile.isPresent() && !findByFile.get().isDeleted()) {
 						LOG.debug(
 								"Composition not deleted: " + composition.getArtist() + " - " + composition.getTitre());

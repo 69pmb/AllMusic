@@ -66,26 +66,34 @@ public final class ExportXML {
 
 			for (int j = 0; j < compList.get(i).getFiles().size(); j++) {
 				Element file = comp.addElement(CompoHandler.TAG_FILE);
-				file.addAttribute(CompoHandler.TAG_AUTHOR,
-						String.valueOf(compList.get(i).getFiles().get(j).getAuthor()));
-				file.addAttribute(CompoHandler.TAG_FILENAME,
-						String.valueOf(compList.get(i).getFiles().get(j).getFileName()));
-				file.addAttribute(CompoHandler.TAG_PUBLISH_YEAR,
-						String.valueOf(compList.get(i).getFiles().get(j).getPublishYear()));
-				file.addAttribute(CompoHandler.TAG_CATEGORIE,
-						String.valueOf(compList.get(i).getFiles().get(j).getCategorie()));
-				file.addAttribute(CompoHandler.TAG_RANGE_DATE_BEGIN,
-						String.valueOf(compList.get(i).getFiles().get(j).getRangeDateBegin()));
-				file.addAttribute(CompoHandler.TAG_RANGE_DATE_END,
-						String.valueOf(compList.get(i).getFiles().get(j).getRangeDateEnd()));
-				file.addAttribute(CompoHandler.TAG_SORTED,
-						String.valueOf(compList.get(i).getFiles().get(j).getSorted()));
-				file.addAttribute(CompoHandler.TAG_CLASSEMENT,
-						String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
-				file.addAttribute(CompoHandler.TAG_CREATION_DATE,
+				try {
+					file.addAttribute(CompoHandler.TAG_AUTHOR,
+							String.valueOf(compList.get(i).getFiles().get(j).getAuthor()));
+					file.addAttribute(CompoHandler.TAG_FILENAME,
+							String.valueOf(compList.get(i).getFiles().get(j).getFileName()));
+					file.addAttribute(CompoHandler.TAG_PUBLISH_YEAR,
+							String.valueOf(compList.get(i).getFiles().get(j).getPublishYear()));
+					file.addAttribute(CompoHandler.TAG_CATEGORIE,
+							String.valueOf(compList.get(i).getFiles().get(j).getCategorie()));
+					file.addAttribute(CompoHandler.TAG_RANGE_DATE_BEGIN,
+							String.valueOf(compList.get(i).getFiles().get(j).getRangeDateBegin()));
+					file.addAttribute(CompoHandler.TAG_RANGE_DATE_END,
+							String.valueOf(compList.get(i).getFiles().get(j).getRangeDateEnd()));
+					file.addAttribute(CompoHandler.TAG_SORTED,
+							String.valueOf(compList.get(i).getFiles().get(j).getSorted()));
+					file.addAttribute(CompoHandler.TAG_CLASSEMENT,
+							String.valueOf(compList.get(i).getFiles().get(j).getClassement()));
+					file.addAttribute(CompoHandler.TAG_CREATION_DATE,
 							fullDTF.format(compList.get(i).getFiles().get(j).getCreationDate()));
 					file.addAttribute(CompoHandler.TAG_SIZE,
 							String.valueOf(compList.get(i).getFiles().get(j).getSize()));
+				} catch (NullPointerException e) {
+					LOG.error("comp: " + comp, e);
+					LOG.error("file: " + file);
+					LOG.error("compList: " + compList);
+					LOG.error("compList.get(i): " + compList.get(i));
+					LOG.error("compList.get(i).getFiles(): " + compList.get(i).getFiles());
+				}
 			}
 		}
 		saveFile(fileName, doc);
