@@ -14,10 +14,10 @@ import pmb.music.AllMusic.view.dialog.DialogFileTable;
 /**
  * Contextual Menu for {@link DialogFileTable}.
  * 
- * @see {@link PopupMenu}
+ * @see {@link AbstractPopupMenu}
  * @author pmbroca
  */
-public class DialogFilePopupMenu extends PopupMenu {
+public class DialogFilePopupMenu extends AbstractPopupMenu {
 	private static final long serialVersionUID = 1L;
 	private static final Logger LOG = Logger.getLogger(DialogFilePopupMenu.class);
 

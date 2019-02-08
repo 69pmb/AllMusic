@@ -31,7 +31,7 @@ public class BasicFrame {
 		this.frame = new JFrame(Constant.DEFAULT_TITLE);
 		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.tab = new OngletPanel(this, withArtist);
-		MenuPanel.buildMenu(this);
+		MenuPanel.buildMenu(frame);
 		this.frame.getContentPane().add(tab, BorderLayout.EAST);
 		LOG.debug("End BasicFrame");
 	}

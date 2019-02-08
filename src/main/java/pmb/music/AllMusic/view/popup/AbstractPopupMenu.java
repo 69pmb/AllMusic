@@ -24,9 +24,9 @@ import org.apache.log4j.Logger;
  * @author PBR
  *
  */
-public abstract class PopupMenu extends JPopupMenu {
+public abstract class AbstractPopupMenu extends JPopupMenu {
 	private static final long serialVersionUID = 1L;
-	private static final Logger LOG = Logger.getLogger(PopupMenu.class);
+	private static final Logger LOG = Logger.getLogger(AbstractPopupMenu.class);
 	protected transient Vector<?> selectedRow;
 	protected Point point;
 	private JTable table;

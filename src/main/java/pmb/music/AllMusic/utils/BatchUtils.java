@@ -222,7 +222,7 @@ public final class BatchUtils {
 			String artistTitre = u.getArtist() + " - " + u.getTitre();
 			String item;
 			List<RecordType> types = search.stream().map(Composition::getRecordType)
-					.filter(t -> !t.equals(RecordType.UNKNOWN)).collect(Collectors.toList());
+					.filter(t -> t != RecordType.UNKNOWN).collect(Collectors.toList());
 			if (!types.isEmpty()) {
 				long songCount = search.stream().filter(s -> s.getRecordType() == RecordType.SONG)
 						.mapToInt(s -> s.getFiles().size()).sum();
