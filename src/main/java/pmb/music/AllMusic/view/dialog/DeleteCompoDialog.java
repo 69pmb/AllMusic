@@ -21,7 +21,6 @@ import javax.swing.JTextPane;
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
-import pmb.music.AllMusic.model.CsvComposition;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -69,8 +68,7 @@ public class DeleteCompoDialog {
 	 * Constructeur de {@link DeleteCompoDialog}.
 	 * 
 	 * @param parent {@link JFrame} la fenetre parente
-	 * @param compoCsv {@link CsvComposition} la composition dont la suppression
-	 *            doit être confirmée
+	 * @param size amount of compositions to delete
 	 */
 	public DeleteCompoDialog(JFrame parent, int size) {
 		LOG.debug("Start DeleteCompoDialog");
