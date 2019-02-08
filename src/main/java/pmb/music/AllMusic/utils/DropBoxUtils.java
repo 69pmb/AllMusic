@@ -21,7 +21,7 @@ public final class DropBoxUtils {
 
 	private static final Logger LOG = Logger.getLogger(DropBoxUtils.class);
 
-	private static DbxClientV2 client = null;
+	private static DbxClientV2 client;
 
 	private DropBoxUtils() {
 		throw new AssertionError("Must not be used");
