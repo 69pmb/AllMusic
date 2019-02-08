@@ -114,7 +114,7 @@ public final class NgExportXml {
 					file.addAttribute(CompoHandler.TAG_SIZE,
 							String.valueOf(compList.get(i).getFiles().get(j).getSize()));
 				} catch (NullPointerException e) {
-					LOG.error("comp: " + comp);
+					LOG.error("comp: " + comp, e);
 					LOG.error("file: " + file);
 					LOG.error("compList: " + compList);
 					LOG.error("compList.get(i): " + compList.get(i));

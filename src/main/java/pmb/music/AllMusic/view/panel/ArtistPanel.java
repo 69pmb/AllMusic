@@ -214,7 +214,7 @@ public class ArtistPanel extends JPanel {
 			String name = CsvFile.exportCsv("artist", PanelUtils.convertDataVectorToList(table.getTable()), null,
 					csvHeader.toArray(new String[title.length + 1]));
 			try {
-				FichierUtils.openFileInExcel(Optional.of(name));
+				FichierUtils.openFileInExcel(name);
 			} catch (MyException e1) {
 				LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
 			}

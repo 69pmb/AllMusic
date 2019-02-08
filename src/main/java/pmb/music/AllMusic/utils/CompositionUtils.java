@@ -399,10 +399,12 @@ public final class CompositionUtils {
 	 * 
 	 * @param compoList la liste de composition
 	 * @param fichier le fichier
+	 * @param artist to differentiate if multiple results
+	 * @param titre to differentiate if multiple results
 	 * @return un {@link Optional} de composition
 	 */
-	public static Optional<Composition> findByFile(List<Composition> compoList, Fichier fichier,
-			Optional<String> artist, Optional<String> titre) {
+	public static Optional<Composition> findByFile(List<Composition> compoList, Fichier fichier, String artist,
+			String titre) {
 		LOG.trace("Start findByFile");
 		List<Composition> filtered = compoList.parallelStream().filter(c -> c.getFiles().stream()
 				.anyMatch(f -> StringUtils.equalsIgnoreCase(f.getAuthor(), fichier.getAuthor())
@@ -421,18 +423,18 @@ public final class CompositionUtils {
 			LOG.trace("End findByFile, one result");
 			return Optional.of(filtered.get(0));
 		} else {
-			if (!artist.isPresent() && !titre.isPresent()) {
+			if (artist == null && titre == null) {
 				return Optional.of(filtered.get(0));
 			}
 			JaroWinklerDistance jaro = new JaroWinklerDistance();
 			Map<Double, Composition> map = new HashMap<>();
 			for (Composition composition : filtered) {
 				Double score = 0D;
-				if (artist.isPresent()) {
-					score += jaro.apply(composition.getArtist(), artist.get());
+				if (artist != null) {
+					score += jaro.apply(composition.getArtist(), artist);
 				}
-				if (titre.isPresent()) {
-					score += jaro.apply(composition.getTitre(), titre.get());
+				if (titre != null) {
+					score += jaro.apply(composition.getTitre(), titre);
 				}
 				map.put(score, composition);
 			}
@@ -500,8 +502,7 @@ public final class CompositionUtils {
 			// Modificaton de la liste de la composition à enlever
 			Composition toModifFromFile = CompositionUtils.compoExist(importXML, toModif);
 			if (toModifFromFile == null) {
-				Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, file, Optional.of(newArtist),
-						Optional.of(newTitre));
+				Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, file, newArtist, newTitre);
 				if (findByFile.isPresent()) {
 					toModifFromFile = findByFile.get();
 				}

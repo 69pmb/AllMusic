@@ -194,7 +194,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			String name = CsvFile.exportCsv("search", PanelUtils.convertDataVectorToList(tableResult.getTable()), null,
 					csvHeader.toArray(new String[title.length + 1]));
 			try {
-				FichierUtils.openFileInExcel(Optional.of(name));
+				FichierUtils.openFileInExcel(name);
 			} catch (MyException e1) {
 				LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
 			}
@@ -286,7 +286,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 					.withRowSorterListenerDelete(INDEX_LINE_NUMBER, INDEX_DELETED, INDEX_SELECTED)
 					.withMouseClickAction(e -> {
 						Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-						tableResult.getPopupMenu().initDataAndPosition(e, row);
+						tableResult.getPopupMenu().initDataAndPosition(e, row.orElse(null));
 						if (!row.isPresent()) {
 							return;
 						}

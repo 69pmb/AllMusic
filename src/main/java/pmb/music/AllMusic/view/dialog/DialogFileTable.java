@@ -134,7 +134,7 @@ public class DialogFileTable {
 
 	private Consumer<MouseEvent> mouseAction = e -> {
 		Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
-		fichiers.getPopupMenu().initDataAndPosition(e, selectedRow);
+		fichiers.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
 		if (!selectedRow.isPresent()) {
 			return;
 		}

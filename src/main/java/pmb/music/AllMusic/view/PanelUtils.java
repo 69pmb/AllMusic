@@ -356,7 +356,7 @@ public final class PanelUtils {
 			return;
 		}
 		int indexOfXml = importXML.indexOf(CompositionUtils.findByFile(importXML, toModif.getFiles().get(0),
-				Optional.of(selectedRow.get(indexArtist)), Optional.of(selectedRow.get(indexTitre))).get());
+				selectedRow.get(indexArtist), selectedRow.get(indexTitre)).get());
 		int indexOfResult = SearchUtils.indexOf(compositionList, toModif);
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, indexArtist, indexTitre, indexType,

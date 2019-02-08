@@ -58,9 +58,9 @@ public final class AllMusic {
 			Optional<String> savedLogFile = FichierUtils.saveLogFileIfNotEmpty();
 			if (savedLogFile.isPresent()) {
 				try {
-					FichierUtils.openFileInNotepad(savedLogFile, Optional.empty());
+					FichierUtils.openFileInNotepad(savedLogFile.get(), null);
 				} catch (MyException e1) {
-					LOG.error("Erreur lors l'ouverture du fichier de log historisé: " + savedLogFile);
+					LOG.error("Erreur lors l'ouverture du fichier de log historisé: " + savedLogFile, e1);
 				}
 			}
 		}));
@@ -79,7 +79,7 @@ public final class AllMusic {
 			try {
 				f.getFrame().setLocation(null);
 			} catch (NullPointerException e) {
-				LOG.debug("NPE");
+				LOG.debug("NPE", e);
 			}
 			f.getFrame().pack();
 			f.getFrame().setVisible(true);
