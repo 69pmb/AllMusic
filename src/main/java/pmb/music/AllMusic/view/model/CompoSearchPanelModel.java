@@ -30,6 +30,16 @@ public class CompoSearchPanelModel extends AbstractModel {
 		super(data, title);
 	}
 
+	/**
+	 * Constructeur de {@link CompoSearchPanelModel}.
+	 * 
+	 * @param data {@link Vector} les données
+	 * @param title {@link Vector} les entetes du tableau
+	 */
+	public CompoSearchPanelModel(Vector<?> data, Vector<?> title) {
+		super(data, title);
+	}
+
 	@Override
 	public boolean isCellEditable(int i, int i1) {
 		return i1 == SearchPanel.INDEX_SELECTED;
@@ -43,6 +53,8 @@ public class CompoSearchPanelModel extends AbstractModel {
 		case SearchPanel.INDEX_SCORE:
 			return Integer.class;
 		case SearchPanel.INDEX_LINE_NUMBER:
+			return Integer.class;
+		case SearchPanel.INDEX_DECILE:
 			return Integer.class;
 		case SearchPanel.INDEX_SELECTED:
 			return Boolean.class;
