@@ -44,6 +44,10 @@ public class Score {
 	 */
 	private List<Double> decileLimitAlbum;
 
+	public Score() {
+		// Nothing to do
+	}
+
 	/**
 	 * @see Score#logMaxSong
 	 */

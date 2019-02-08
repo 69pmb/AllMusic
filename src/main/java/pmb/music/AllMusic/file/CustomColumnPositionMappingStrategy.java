@@ -62,6 +62,10 @@ public class CustomColumnPositionMappingStrategy<T>
 	 */
 	private Integer[] columnIndexForWriting;
 
+	public CustomColumnPositionMappingStrategy() {
+		// Nothing to do
+	}
+
 	@Override
 	public void captureHeader(CSVReader reader) throws IOException {
 		// Validation

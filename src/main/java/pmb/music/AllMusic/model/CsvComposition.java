@@ -54,6 +54,10 @@ public class CsvComposition {
 	@CsvBindByName(column = "Deleted Album")
 	private String deletedAlbum;
 
+	public CsvComposition() {
+		// Nothing to do
+	}
+
 	public String getTitre() {
 		return titre;
 	}
