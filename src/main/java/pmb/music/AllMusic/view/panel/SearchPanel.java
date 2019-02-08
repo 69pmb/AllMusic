@@ -8,7 +8,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,6 +18,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import javax.swing.AbstractAction;
@@ -34,10 +34,7 @@ import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
 import javax.swing.event.RowSorterEvent;
-import javax.swing.table.TableModel;
-import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -57,10 +54,12 @@ import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.TableBuilder;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
+import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
 import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
@@ -86,7 +85,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	private JCheckBox deleted;
 	private JCheckBox topTen;
 
-	private JTable tableResult;
+	private MyTable tableResult;
 
 	private JComboCheckBox cat;
 	private JComboCheckBox type;
@@ -109,12 +108,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	public static final int INDEX_DECILE = 6;
 	public static final int INDEX_SELECTED = 7;
 	public static final int INDEX_DELETED = 8;
-	private Integer sortedColumn;
-	private SortOrder sortOrder;
 	private SortOrder sortDeletedOrder = SortOrder.ASCENDING;
 
-	private CompoSearchPanelModel model;
-	private int selectedRow = -1;
 	private ArtistPanel artistPanel;
 	private FichierPanel fichierPanel;
 	private CompositionPopupMenu popup;
@@ -176,16 +171,16 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		JButton delete = ComponentBuilder.buildJButton("Supprimer les compositions sélectionnées", 300,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(artistPanel, fichierPanel, compoResult, model.getSelected(), deleteLabel,
-					INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE);
+			PanelUtils.deleteCompositionAction(artistPanel, fichierPanel, compoResult,
+					tableResult.getModel().getSelected(), deleteLabel, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE);
 			updateTable();
 		});
 		top.add(delete);
 
 		// Modif Btn
 		JButton modif = ComponentBuilder.buildJButton("Modifier la composition sélectionnée", 300, Constant.ICON_EDIT);
-		modif.addActionListener(
-				(ActionEvent e) -> modifyCompositionAction((Vector<String>) model.getSelected().get(0)));
+		modif.addActionListener((ActionEvent e) -> modifyCompositionAction(
+				(Vector<String>) tableResult.getModel().getSelected().get(0)));
 		top.add(modif);
 
 		// CSV
@@ -204,7 +199,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			String criteres = StringUtils.join(c, " ");
 			LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
 			csvHeader.add("Critères: " + criteres);
-			String name = CsvFile.exportCsv("search", PanelUtils.convertDataVectorToList(tableResult), null,
+			String name = CsvFile.exportCsv("search", PanelUtils.convertDataVectorToList(tableResult.getTable()), null,
 					csvHeader.toArray(new String[title.length + 1]));
 			try {
 				FichierUtils.openFileInExcel(Optional.of(name));
@@ -295,33 +290,17 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		bottom.setLayout(new BorderLayout());
 
 		// result
-		tableResult = new JTable();
-		tableResult.setAutoCreateRowSorter(true);
-		tableResult.setRowHeight(30);
-		tableResult.setFillsViewportHeight(true);
-		tableResult.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
-		tableResult.setBackground(UIManager.getColor("Label.background"));
-		tableResult.getTableHeader().setResizingAllowed(true);
-		tableResult.setFont(UIManager.getFont("Label.font"));
-		tableResult.setBorder(UIManager.getBorder("Label.border"));
-		model = new CompoSearchPanelModel(new Object[0][title.length - 1], title);
-		tableResult.setModel(model);
-		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model) {
-			@Override
-			public boolean isSortable(int column) {
-				return column != INDEX_LINE_NUMBER;
-			}
-		};
-		tableResult.setRowSorter(sorter);
-		tableResult.addMouseListener(new MouseAdapter() {
+		try {
+			tableResult = new TableBuilder().withModelAndData(null, title, CompoSearchPanelModel.class)
+					.withRowSorter(INDEX_LINE_NUMBER).withMouseClickAction(mouseClickAction).build();
+		} catch (MyException e1) {
+			LOG.error("An error occured when init search table", e1);
+			countLabel.setText(e1.getMessage());
+			return;
+		}
 
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				mouseClickAction(e);
-			}
-		});
-		popup = new CompositionPopupMenu(tableResult, this.getClass(), INDEX_ARTIST, INDEX_TITRE);
-		tableResult.addKeyListener(new KeyListener() {
+		popup = new CompositionPopupMenu(tableResult.getTable(), this.getClass(), INDEX_ARTIST, INDEX_TITRE);
+		tableResult.getTable().addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
 				// Nothing to do
@@ -332,7 +311,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				if (e.getKeyCode() == KeyEvent.VK_SHIFT) {
 					popup.show(e);
 				} else {
-					selectedRow = PanelUtils.keyShortcutAction(e, selectedRow, sortedColumn);
+					tableResult.setSelectedRow(PanelUtils.keyShortcutAction(e, tableResult.getSelectedRow(),
+							tableResult.getSortedColumn()));
 				}
 			}
 
@@ -348,17 +328,17 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 					// Sort of deleted column and store sorted column and order
 					int column = sortKeys.get(0).getColumn();
 					if (column == INDEX_SELECTED) {
-						sortedColumn = INDEX_DELETED;
+						tableResult.setSortedColumn(INDEX_DELETED);
 						sortDeletedOrder = sortDeletedOrder == SortOrder.ASCENDING ? SortOrder.DESCENDING
 								: SortOrder.ASCENDING;
-						sortOrder = sortDeletedOrder;
+						tableResult.setSortOrder(sortDeletedOrder);
 						List<SortKey> list = new LinkedList<>(
-								Arrays.asList(new RowSorter.SortKey(sortedColumn, sortDeletedOrder)));
+								Arrays.asList(new RowSorter.SortKey(tableResult.getSortedColumn(), sortDeletedOrder)));
 						tableResult.getRowSorter().getSortKeys().stream().forEach(list::add);
 						tableResult.getRowSorter().setSortKeys(list);
 					} else {
-						sortOrder = sortKeys.get(0).getSortOrder();
-						sortedColumn = column;
+						tableResult.setSortOrder(sortKeys.get(0).getSortOrder());
+						tableResult.setSortedColumn(column);
 					}
 				}
 				// Handling of line numbers
@@ -367,7 +347,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				}
 			}
 		});
-		bottom.add(new JScrollPane(tableResult), BorderLayout.CENTER);
+		bottom.add(new JScrollPane(tableResult.getTable()), BorderLayout.CENTER);
 
 		this.add(bottom);
 	}
@@ -405,29 +385,29 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 	private void updateTable() {
 		LOG.debug("Start updateTable");
-		model.setRowCount(0);
-		model.setDataVector(
+		tableResult.getModel().setRowCount(0);
+		tableResult.getModel().setDataVector(
 				CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, true, true),
 				new Vector<>(Arrays.asList(title)));
 		countLabel.setText(compoResult.size() + " résultats");
-		if (sortedColumn == null) {
-			sortedColumn = INDEX_SCORE;
-			sortOrder = SortOrder.DESCENDING;
+		if (tableResult.getSortedColumn() == null) {
+			tableResult.setSortedColumn(INDEX_SCORE);
+			tableResult.setSortOrder(SortOrder.DESCENDING);
 		}
-		tableResult.getRowSorter()
-				.setSortKeys(Collections.singletonList(new RowSorter.SortKey(sortedColumn, sortOrder)));
-		PanelUtils.colRenderer(tableResult, false, INDEX_DELETED, INDEX_TYPE, null, INDEX_DECILE, INDEX_SCORE, null,
-				null);
+		tableResult.getRowSorter().setSortKeys(Collections
+				.singletonList(new RowSorter.SortKey(tableResult.getSortedColumn(), tableResult.getSortOrder())));
+		PanelUtils.colRenderer(tableResult.getTable(), false, INDEX_DELETED, INDEX_TYPE, null, INDEX_DECILE,
+				INDEX_SCORE, null, null);
 		for (int i = 0; i < tableResult.getRowCount(); i++) {
 			tableResult.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
 		}
-		selectedRow = -1;
+		tableResult.setSelectedRow(-1);
 		tableResult.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
 		tableResult.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
 		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_DECILE));
 		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_DELETED - 1));
-		model.fireTableDataChanged();
-		tableResult.repaint();
+		tableResult.getModel().fireTableDataChanged();
+		tableResult.getTable().repaint();
 		LOG.debug("Start updateTable");
 	}
 
@@ -453,7 +433,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 	@Override
 	public void modifyCompositionAction(Vector<String> selectedRow) {
-		if (model.getSelected().size() > 1) {
+		if (tableResult.getModel().getSelected().size() > 1) {
 			String msg = "Trop d'éléments sélectionnés";
 			deleteLabel.setText(msg);
 			LOG.debug(msg);
@@ -464,7 +444,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		}
 	}
 
-	private void mouseClickAction(MouseEvent e) {
+	Consumer<MouseEvent> mouseClickAction = e -> {
 		Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
 		popup.initDataAndPosition(e, row);
 		if (!row.isPresent()) {
@@ -488,7 +468,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		} else if (SwingUtilities.isRightMouseButton(e)) {
 			popup.show(e);
 		}
-	}
+	};
 
 	public JButton getSearch() {
 		return search;
@@ -499,6 +479,6 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	}
 
 	public JTable getTableResult() {
-		return tableResult;
+		return tableResult.getTable();
 	}
 }
