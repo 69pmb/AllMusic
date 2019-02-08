@@ -20,6 +20,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -103,7 +104,7 @@ public final class CleanFile {
 	 * @param args
 	 */
 	public static void miseEnForme(File folder, boolean isCompleteDirectory, List<String> result) {
-		LOG.debug("Start clearFile");
+		LOG.debug("Start miseEnForme");
 		Set<Entry<String, String>> entrySet = getModifSet();
 		if (entrySet == null) {
 			return;
@@ -119,47 +120,27 @@ public final class CleanFile {
 			String extention = StringUtils.substringAfterLast(folder.getName(), Constant.DOT);
 			FichierUtils.listFilesForFolder(folder.getParentFile(), files, extention, false);
 		}
+		files = files.stream().filter(f -> !StringUtils.equals(Constant.getFinalFile(), f.getName()))
+				.collect(Collectors.toList());
 
-		for (File file : files) {
+		files.forEach(file -> {
 			boolean modify = false;
 			// Fichier de sortie
 			String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS
 					+ StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - MEF."
 					+ StringUtils.substringAfterLast(file.getName(), Constant.DOT);
 			String name = file.getName();
-			if (!Constant.getFinalFile().equals(name)) {
-				LOG.debug(name);
-				try (BufferedReader br = new BufferedReader(
-						new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
-						BufferedWriter writer = new BufferedWriter(
-								new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING))) {
-					String line;
-					while ((line = br.readLine()) != null) {
-						if (!ImportFile.isValidLine(line)) {
-							writer.append(line).append(Constant.NEW_LINE);
-							continue;
-						}
-						for (Entry<String, String> entry : entrySet) {
-							if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
-								line = StringUtils.replaceIgnoreCase(line, entry.getKey(), entry.getValue());
-								modify = true;
-							}
-						}
-						if (StringUtils.endsWithIgnoreCase(name, Constant.TXT_EXTENSION)) {
-							// Supprime les diacritiques et les accents
-							String replaceAll = removeDiactriticals(line);
-							if (!StringUtils.endsWithIgnoreCase(line, replaceAll)) {
-								modify = true;
-							}
-							writer.append(replaceAll).append(Constant.NEW_LINE);
-						} else {
-							writer.append(line).append(Constant.NEW_LINE);
-						}
-					}
-				} catch (IOException e) {
-					LOG.error("Erreur lors du netoyage de " + file.getAbsolutePath(), e);
-					return;
+			LOG.debug(name);
+			try (BufferedReader br = new BufferedReader(
+					new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
+					BufferedWriter writer = new BufferedWriter(
+							new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING))) {
+				String line;
+				while ((line = br.readLine()) != null) {
+					modify = formattingAndAppendingLine(entrySet, modify, name, writer, line);
 				}
+			} catch (IOException e) {
+				LOG.error("Erreur lors du netoyage de " + file.getAbsolutePath(), e);
 			}
 			if (modify) {
 				LOG.debug(file + " modifié");
@@ -171,8 +152,46 @@ public final class CleanFile {
 					LOG.warn(exitFile + " n'a pas pu etre supprimé", e);
 				}
 			}
+		});
+		LOG.debug("End miseEnForme");
+	}
+
+	/**
+	 * Formats given line with mofif rules and removes diactriticals. Then appends
+	 * the line to the writer.
+	 * 
+	 * @param entrySet the modif rules
+	 * @param modify if the file has been edited
+	 * @param name name of the file
+	 * @param writer the writer
+	 * @param line the line to format
+	 * @return if the line has been edited
+	 * @throws IOException
+	 */
+	private static boolean formattingAndAppendingLine(Set<Entry<String, String>> entrySet, boolean modify, String name,
+			BufferedWriter writer, String line) throws IOException {
+		if (!ImportFile.isValidLine(line)) {
+			// line doesn't contain a composition, ignores it
+			writer.append(line).append(Constant.NEW_LINE);
+			return modify;
 		}
-		LOG.debug("End clearFile");
+		for (Entry<String, String> entry : entrySet) {
+			if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
+				line = StringUtils.replaceIgnoreCase(line, entry.getKey(), entry.getValue());
+				modify = true;
+			}
+		}
+		if (StringUtils.endsWithIgnoreCase(name, Constant.TXT_EXTENSION)) {
+			// Supprime les diacritiques et les accents
+			String replaceAll = removeDiactriticals(line);
+			if (!StringUtils.endsWithIgnoreCase(line, replaceAll)) {
+				modify = true;
+			}
+			writer.append(replaceAll).append(Constant.NEW_LINE);
+		} else {
+			writer.append(line).append(Constant.NEW_LINE);
+		}
+		return modify;
 	}
 
 	public static String removeDiactriticals(String line) {
@@ -181,6 +200,13 @@ public final class CleanFile {
 		return replaceAll;
 	}
 
+	/**
+	 * Fetches the modif file where unwanted characters and their substitutes are
+	 * describes.
+	 * 
+	 * @return an Entry of a Set with key unwanted characters and value its
+	 *         substitute
+	 */
 	public static Set<Entry<String, String>> getModifSet() {
 		File modifFile = new File(Constant.MODIF_FILE_PATH);
 		Map<String, String> modif = new HashMap<>();
