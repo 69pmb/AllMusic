@@ -414,15 +414,16 @@ public final class CompositionUtils {
 						&& f.getClassement().equals(fichier.getClassement())
 						&& f.getCategorie() == fichier.getCategorie() && f.getSorted().equals(fichier.getSorted())))
 				.collect(Collectors.toList());
+		Optional<Composition> result;
 		if (filtered.isEmpty()) {
 			LOG.trace("End findByFile, no result");
-			return Optional.empty();
+			result = Optional.empty();
 		} else if (filtered.size() == 1) {
 			LOG.trace("End findByFile, one result");
-			return Optional.of(filtered.get(0));
+			result = Optional.of(filtered.get(0));
 		} else {
 			if (artist == null && titre == null) {
-				return Optional.of(filtered.get(0));
+				result = Optional.of(filtered.get(0));
 			}
 			JaroWinklerDistance jaro = new JaroWinklerDistance();
 			Map<Double, Composition> map = new HashMap<>();
@@ -437,9 +438,10 @@ public final class CompositionUtils {
 				map.put(score, composition);
 			}
 			LOG.trace("End findByFile, more than one result");
-			return Optional.ofNullable(map.entrySet().parallelStream()
+			result = Optional.ofNullable(map.entrySet().parallelStream()
 					.max((e1, e2) -> e1.getKey().compareTo(e2.getKey())).map(Entry::getValue).orElse(null));
 		}
+		return result;
 	}
 
 	/**

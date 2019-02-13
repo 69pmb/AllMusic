@@ -347,28 +347,32 @@ public final class SearchUtils {
 	 * @return le numéro d'index dans la liste ou -1 si non trouvé
 	 */
 	public static int indexOf(List<Composition> list, Composition o) {
+		int result;
 		if (list == null || list.isEmpty() || o == null) {
-			LOG.error("Error in indexOf: " + o);
-			return -1;
-		}
-		int indexOf = list.indexOf(new Composition(o.getArtist(), o.getFiles(), o.getTitre(), o.getRecordType(),
-				o.isDeleted(), o.isCanBeMerged()));
-		if (indexOf == -1) {
-			int i = 0;
-			for (Composition composition : list) {
-				if (StringUtils.equals(composition.getArtist(), o.getArtist())
-						&& StringUtils.equals(composition.getTitre(), o.getTitre())
-						&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
-						&& composition.getFiles().size() == o.getFiles().size()) {
-					LOG.debug("indexOf found: " + o);
-					return i;
+			LOG.error("List or Composition empty: " + o);
+			result = -1;
+		} else {
+			result = list.indexOf(new Composition(o.getArtist(), o.getFiles(), o.getTitre(), o.getRecordType(),
+					o.isDeleted(), o.isCanBeMerged()));
+			if (result == -1) {
+				int i = 0;
+				for (Composition composition : list) {
+					if (StringUtils.equals(composition.getArtist(), o.getArtist())
+							&& StringUtils.equals(composition.getTitre(), o.getTitre())
+							&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
+							&& composition.getFiles().size() == o.getFiles().size()) {
+						LOG.debug("indexOf found: " + o);
+						result = i;
+						break;
+					}
+					i++;
 				}
-				i++;
+				if (result == -1) {
+					LOG.error("Error in indexOf: " + o);
+				}
 			}
-			LOG.error("Error in indexOf: " + o);
-			return -1;
 		}
-		return indexOf;
+		return result;
 	}
 
 }
