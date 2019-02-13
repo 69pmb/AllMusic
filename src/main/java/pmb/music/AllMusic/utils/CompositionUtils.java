@@ -61,9 +61,7 @@ public final class CompositionUtils {
 			Composition composition = iterator.next();
 			if (composition == null) {
 				LOG.error("null: " + composition);
-				continue;
-			}
-			if (c.getRecordType() == composition.getRecordType()) {
+			} else if (c.getRecordType() == composition.getRecordType()) {
 				// Suppression de la ponctuation
 				String compoTitre = SearchUtils.removePunctuation(composition.getTitre());
 				if (StringUtils.isBlank(compoTitre)) {
