@@ -517,20 +517,20 @@ public final class ImportFile {
 	public static String getSeparator(String line) {
 		LOG.debug("Start getSeparator");
 		String[] split = line.split(" ");
-		String res = "-";
+		String result = "-";
 		int i = 0;
-		while (i < split.length && res == "-") {
+		while (i < split.length && "-".equals(result)) {
 			String string = split[i].trim();
 			if (isSuitableSeparator(string)) {
-				res = string;
+				result = string;
 			} else {
 				String first = StringUtils.substring(string, 0, 1);
 				if (isSuitableSeparator(first)) {
-					res = first;
+					result = first;
 				} else {
 					String last = StringUtils.substring(string, string.length() - 1, string.length());
 					if (isSuitableSeparator(last)) {
-						res = last;
+						result = last;
 					}
 				}
 
@@ -538,7 +538,7 @@ public final class ImportFile {
 			i++;
 		}
 		LOG.debug("End getSeparator");
-		return res;
+		return result;
 	}
 
 	private static boolean isSuitableSeparator(String sep) {
