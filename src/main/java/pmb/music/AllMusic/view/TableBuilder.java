@@ -21,7 +21,7 @@ import javax.swing.table.TableRowSorter;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.AbstractModel;
-import pmb.music.AllMusic.view.popup.AbstractPopupMenu;
+import pmb.music.AllMusic.view.popup.PopupMenu;
 
 /**
  * Builder for {@link JTable}. Created by PBR on 8 févr. 2019.
@@ -172,7 +172,7 @@ public class TableBuilder {
 	 * @param popup the menu
 	 * @return the table builder
 	 */
-	public TableBuilder withPopupMenu(AbstractPopupMenu popup) {
+	public TableBuilder withPopupMenu(PopupMenu popup) {
 		popup.setTable(table.getTable());
 		table.setPopupMenu(popup);
 		return this;
