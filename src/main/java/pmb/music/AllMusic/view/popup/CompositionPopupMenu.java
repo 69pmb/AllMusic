@@ -18,7 +18,7 @@ import pmb.music.AllMusic.view.ModificationComposition;
  * @see {@link JPopupMenu}
  * @author pmbroca
  */
-public class CompositionPopupMenu extends AbstractPopupMenu {
+public class CompositionPopupMenu extends PopupMenu {
 	private static final Logger LOG = Logger.getLogger(CompositionPopupMenu.class);
 
 	/**

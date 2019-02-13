@@ -422,10 +422,9 @@ public final class CompositionUtils {
 		} else if (filtered.size() == 1) {
 			LOG.trace("End findByFile, one result");
 			result = Optional.of(filtered.get(0));
+		} else if (artist == null && titre == null) {
+			result = Optional.of(filtered.get(0));
 		} else {
-			if (artist == null && titre == null) {
-				result = Optional.of(filtered.get(0));
-			}
 			JaroWinklerDistance jaro = new JaroWinklerDistance();
 			Map<Double, Composition> map = new HashMap<>();
 			for (Composition composition : filtered) {

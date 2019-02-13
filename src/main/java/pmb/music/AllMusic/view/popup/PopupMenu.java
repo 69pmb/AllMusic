@@ -16,21 +16,21 @@ import javax.swing.KeyStroke;
 import org.apache.log4j.Logger;
 
 /**
- * Abstract class for creating a popup menu. Contains fields, init methods and
+ * Parent class for creating a popup menu. Contains fields, init methods and
  * builder for {@link JMenuItem}.
  * 
  * @see {@link JPopupMenu}
  * @author PBR
  *
  */
-public abstract class AbstractPopupMenu {
-	private static final Logger LOG = Logger.getLogger(AbstractPopupMenu.class);
-	protected transient Vector<?> selectedRow;
+public class PopupMenu {
+	private static final Logger LOG = Logger.getLogger(PopupMenu.class);
+	protected Vector<?> selectedRow;
 	protected JPopupMenu menu;
 	protected Point point;
 	private JTable table;
 
-	public AbstractPopupMenu() {
+	public PopupMenu() {
 		this.menu = new JPopupMenu();
 	}
 
@@ -74,7 +74,7 @@ public abstract class AbstractPopupMenu {
 		item.addActionListener(action);
 		menu.add(item);
 	}
-	
+
 	protected void setVisible(boolean visible) {
 		menu.setVisible(visible);
 	}
