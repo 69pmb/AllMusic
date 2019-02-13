@@ -17,7 +17,6 @@ import pmb.music.AllMusic.view.dialog.DialogFileTable;
  * @author pmbroca
  */
 public class DialogFilePopupMenu extends AbstractPopupMenu {
-	private static final long serialVersionUID = 1L;
 	private static final Logger LOG = Logger.getLogger(DialogFilePopupMenu.class);
 
 	/**

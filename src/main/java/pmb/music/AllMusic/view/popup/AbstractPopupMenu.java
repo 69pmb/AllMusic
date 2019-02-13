@@ -23,12 +23,16 @@ import org.apache.log4j.Logger;
  * @author PBR
  *
  */
-public abstract class AbstractPopupMenu extends JPopupMenu {
-	private static final long serialVersionUID = 1L;
+public abstract class AbstractPopupMenu {
 	private static final Logger LOG = Logger.getLogger(AbstractPopupMenu.class);
 	protected transient Vector<?> selectedRow;
+	protected JPopupMenu menu;
 	protected Point point;
 	private JTable table;
+
+	public AbstractPopupMenu() {
+		this.menu = new JPopupMenu();
+	}
 
 	/**
 	 * Set the data and the position of the popup menu.
@@ -39,7 +43,7 @@ public abstract class AbstractPopupMenu extends JPopupMenu {
 	public void initDataAndPosition(MouseEvent e, Vector<String> selectedRow) {
 		LOG.debug("Start initDataAndPosition");
 		setPoint(e.getPoint());
-		setLocation(e.getLocationOnScreen());
+		menu.setLocation(e.getLocationOnScreen());
 		setSelectedRow(selectedRow);
 		LOG.debug("End initDataAndPosition");
 	}
@@ -52,7 +56,7 @@ public abstract class AbstractPopupMenu extends JPopupMenu {
 	public void show(ComponentEvent e) {
 		LOG.debug("Start show");
 		if (getPoint() != null) {
-			show(e.getComponent(), (int) getPoint().getX(), (int) getPoint().getY());
+			menu.show(e.getComponent(), (int) getPoint().getX(), (int) getPoint().getY());
 		}
 		LOG.debug("End show");
 	}
@@ -68,7 +72,11 @@ public abstract class AbstractPopupMenu extends JPopupMenu {
 		JMenuItem item = new JMenuItem(text);
 		item.setAccelerator(KeyStroke.getKeyStroke(shortcut, ActionEvent.CTRL_MASK));
 		item.addActionListener(action);
-		this.add(item);
+		menu.add(item);
+	}
+	
+	protected void setVisible(boolean visible) {
+		menu.setVisible(visible);
 	}
 
 	public void setSelectedRow(Vector<?> selectedRow) {
