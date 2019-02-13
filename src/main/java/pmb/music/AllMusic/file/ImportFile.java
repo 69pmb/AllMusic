@@ -518,25 +518,24 @@ public final class ImportFile {
 		LOG.debug("Start getSeparator");
 		String[] split = line.split(" ");
 		String res = "-";
-		for (int i = 0; i < split.length; i++) {
+		int i = 0;
+		while (i < split.length && res == "-") {
 			String string = split[i].trim();
 			if (isSuitableSeparator(string)) {
 				res = string;
-				break;
 			} else {
 				String first = StringUtils.substring(string, 0, 1);
 				if (isSuitableSeparator(first)) {
 					res = first;
-					break;
 				} else {
 					String last = StringUtils.substring(string, string.length() - 1, string.length());
 					if (isSuitableSeparator(last)) {
 						res = last;
-						break;
 					}
 				}
 
 			}
+			i++;
 		}
 		LOG.debug("End getSeparator");
 		return res;
