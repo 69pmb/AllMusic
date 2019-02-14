@@ -114,12 +114,7 @@ public class TableBuilder {
 					table.setSortedColumn(sortKeys.get(0).getColumn());
 					table.setSortOrder(sortKeys.get(0).getSortOrder());
 				}
-				if (indexLineNumber != null) {
-					// Handling of line numbers
-					for (int i = 0; i < table.getTable().getRowCount(); i++) {
-						table.getTable().setValueAt(i + 1, i, indexLineNumber);
-					}
-				}
+				setLineNumber(indexLineNumber);
 			}
 		});
 		return this;
@@ -134,7 +129,7 @@ public class TableBuilder {
 	 * @param indexSelected index of the column line number selected
 	 * @return
 	 */
-	public TableBuilder withRowSorterListenerDelete(int indexLineNumber, int indexDeleted, int indexSelected) {
+	public TableBuilder withRowSorterListenerDelete(Integer indexLineNumber, int indexDeleted, int indexSelected) {
 		withRowSorter(indexLineNumber);
 		table.getTable().getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
 			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
@@ -157,13 +152,24 @@ public class TableBuilder {
 						table.setSortedColumn(column);
 					}
 				}
-				// Handling of line numbers
-				for (int i = 0; i < table.getRowCount(); i++) {
-					table.setValueAt(i + 1, i, indexLineNumber);
-				}
+				setLineNumber(indexLineNumber);
 			}
 		});
 		return this;
+	}
+
+	/**
+	 * Updates line number column values.
+	 * 
+	 * @param indexLineNumber index of the column line number
+	 */
+	private void setLineNumber(Integer indexLineNumber) {
+		if (indexLineNumber != null) {
+			// Handling of line numbers
+			for (int i = 0; i < table.getRowCount(); i++) {
+				table.setValueAt(i + 1, i, indexLineNumber);
+			}
+		}
 	}
 
 	/**
