@@ -354,10 +354,8 @@ public final class BatchUtils {
 					Composition c2 = importXML.get(j);
 					String c1Titre = SearchUtils.removePunctuation(c1.getTitre());
 					String c2Titre = SearchUtils.removePunctuation(c2.getTitre());
-					if (c1Titre.length() < 11 || c2Titre.length() < 11) {
-						continue;
-					}
-					if (SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.985D))
+					if (c1Titre.length() >= 11 && c2Titre.length() >= 11
+							&& SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.985D))
 							&& CompositionUtils.artistJaroEquals(c1.getArtist(), c2.getArtist(), jaro,
 									Constant.SCORE_LIMIT_ARTIST_FUSION) == null) {
 						addLine(result, c1.getArtist() + " - " + c1.getTitre() + " // " + c2.getArtist() + " - "
@@ -556,7 +554,7 @@ public final class BatchUtils {
 	 */
 	private static void massDeletionForSongs(StringBuilder text, List<CsvComposition> compoCsv,
 			List<Composition> importXML) {
-		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, compoCsv.size());
+		DeleteCompoDialog deleteDialog = new DeleteCompoDialog(null, compoCsv.size());
 		for (int i = 0; i < compoCsv.size(); i++) {
 			// Search composition
 			CsvComposition compoToDelete = compoCsv.get(i);
@@ -570,28 +568,49 @@ public final class BatchUtils {
 			// Search composition
 			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
 					false);
-			if (compoFound.isEmpty()) {
-				// nothing found
-				compoToDelete.setDeletedSong("Not Found");
-				continue;
-			} else if (compoFound.size() > 1) {
-				// Multiple result
-				compoToDelete.setDeletedSong("Size: " + compoFound.size());
-				continue;
-			} else if (compoFound.get(0).isDeleted()) {
-				// Already deleted
-				compoToDelete.setDeletedSong("Already");
-				continue;
-			}
+			processComposition(RecordType.SONG, importXML, deleteDialog, i, Arrays.asList(compoToDelete), compoFound);
+		}
+		addLine(text, "End of deleting Song", true);
+	}
+
+	/**
+	 * Process found composition to delete.
+	 * 
+	 * @param type record type of compositions
+	 * @param importXML all compositions
+	 * @param deleteDialog the dialog to choose if the composition found should be
+	 *            deleted or not
+	 * @param i counter
+	 * @param compoToDelete composition from the csv to delete
+	 * @param compoFound composition found
+	 */
+	private static void processComposition(RecordType type, List<Composition> importXML, DeleteCompoDialog deleteDialog,
+			int i, List<CsvComposition> compoToDelete, List<Composition> compoFound) {
+		String result = null;
+		if (compoFound.isEmpty()) {
+			// nothing found
+			result = "Not Found";
+		} else if (compoFound.size() > 1) {
+			// Multiple result
+			result = "Size: " + compoFound.size();
+		} else if (compoFound.get(0).isDeleted()) {
+			// Already deleted
+			result = "Already";
+		} else {
+			// Composition can be deleted
 			Composition found = compoFound.get(0);
 			// update dialog
-			deleteCompoDialog.updateDialog(prettyPrintForSong(compoToDelete), found, i, warningForSong(compoToDelete));
-			deleteCompoDialog.setVisible(true);
-			Boolean action = deleteCompoDialog.getSendData();
+			if (RecordType.ALBUM == type) {
+				deleteDialog.updateDialog(prettyPrintForAlbum(compoToDelete), found, i, null);
+			} else {
+				deleteDialog.updateDialog(prettyPrintForSong(compoToDelete.get(0)), found, i,
+						warningForSong(compoToDelete.get(0)));
+			}
+			deleteDialog.setVisible(true);
+			Boolean action = deleteDialog.getSendData();
 			if (action == null) {
 				// stop everything
 				LOG.debug("Stop");
-				break;
 			} else if (action) {
 				// Delete composition
 				try {
@@ -599,17 +618,22 @@ public final class BatchUtils {
 							found.getArtist(), found.getTitre(), found.getRecordType().toString(), true);
 					importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
 					CompositionUtils.removeCompositionsInFiles(found);
-					compoToDelete.setDeletedSong("OK");
+					result = "OK";
 				} catch (MyException e) {
 					LOG.error("Error when deleting compostion: " + compoToDelete, e);
-					compoToDelete.setDeletedSong("Error");
+					result = "Error";
 				}
 			} else {
 				// Skip composition
-				compoToDelete.setDeletedSong("KO");
+				compoToDelete.forEach(csv -> csv.setDeletedSong("KO"));
 			}
 		}
-		addLine(text, "End of deleting Song", true);
+		final String deleted = result;
+		if (RecordType.ALBUM == type) {
+			compoToDelete.forEach(csv -> csv.setDeletedAlbum(deleted));
+		} else {
+			compoToDelete.forEach(csv -> csv.setDeletedSong(deleted));
+		}
 	}
 
 	private static String prettyPrintForSong(CsvComposition csv) {
@@ -691,7 +715,7 @@ public final class BatchUtils {
 		List<String> albumList = compoCsv.stream()
 				.sorted(Comparator.comparing(CsvComposition::getAlbum).thenComparing(compareByTrackNumber.reversed()))
 				.map(CsvComposition::getAlbum).filter(StringUtils::isNotBlank).distinct().collect(Collectors.toList());
-		DeleteCompoDialog deleteCompoDialog = new DeleteCompoDialog(null, albumList.size());
+		DeleteCompoDialog deleteDialog = new DeleteCompoDialog(null, albumList.size());
 		for (int i = 0; i < albumList.size(); i++) {
 			String album = albumList.get(i);
 			List<CsvComposition> compoAlbum = compoCsv.stream().filter(csv -> csv.getAlbum().equals(album))
@@ -726,44 +750,7 @@ public final class BatchUtils {
 			// Search composition
 			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
 					true);
-			if (compoFound.isEmpty()) {
-				// nothing found
-				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Not Found"));
-				continue;
-			} else if (compoFound.size() > 1) {
-				// Multiple result
-				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Size: " + compoFound.size()));
-				continue;
-			} else if (compoFound.get(0).isDeleted()) {
-				// Already deleted
-				compoAlbum.forEach(csv -> csv.setDeletedAlbum("Already"));
-				continue;
-			}
-			Composition found = compoFound.get(0);
-			// update dialog
-			deleteCompoDialog.updateDialog(prettyPrintForAlbum(compoAlbum), found, i, null);
-			deleteCompoDialog.setVisible(true);
-			Boolean action = deleteCompoDialog.getSendData();
-			if (action == null) {
-				// stop everything
-				LOG.debug("Stop");
-				break;
-			} else if (action) {
-				// Delete composition
-				try {
-					Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML,
-							found.getArtist(), found.getTitre(), found.getRecordType().toString(), true);
-					importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
-					CompositionUtils.removeCompositionsInFiles(found);
-					compoAlbum.forEach(csv -> csv.setDeletedAlbum("OK"));
-				} catch (MyException e) {
-					LOG.error("Error when deleting compostion: " + compoToDelete, e);
-					compoAlbum.forEach(csv -> csv.setDeletedAlbum("Error"));
-				}
-			} else {
-				// Skip composition
-				compoAlbum.forEach(csv -> csv.setDeletedAlbum("KO"));
-			}
+			processComposition(RecordType.ALBUM, importXML, deleteDialog, i, compoAlbum, compoFound);
 		}
 		addLine(text, "End of deleting Album", true);
 	}
