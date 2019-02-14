@@ -50,7 +50,7 @@ public final class AllMusic {
 			LOG.debug("Fin de AllMusic");
 			if (ExportXML.isFinalFileChanged()) {
 				try {
-					NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
+					NgExportXml.exportXML(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
 				} catch (IOException e) {
 					LOG.error("Export of final file for Angular failed", e);
 				}

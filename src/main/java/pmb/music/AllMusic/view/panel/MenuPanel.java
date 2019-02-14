@@ -167,7 +167,7 @@ public final class MenuPanel {
 		export.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
 		export.addActionListener((ActionEvent ae) -> new Thread(() -> {
 			try {
-				NgExportXml.ngExportXml(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
+				NgExportXml.exportXML(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
 				JOptionPane.showMessageDialog(null, "Final File successfully exported.", "",
 						JOptionPane.INFORMATION_MESSAGE);
 			} catch (IOException e) {
