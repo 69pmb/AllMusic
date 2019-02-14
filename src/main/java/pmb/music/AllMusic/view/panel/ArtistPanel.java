@@ -283,21 +283,7 @@ public class ArtistPanel extends JPanel {
 			SwingUtilities.invokeLater(() -> {
 				// Called when data are finally calculated
 				resetAction();
-				searchResult = new HashMap<>(); // the data displays in the table
-				for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
-					for (Composition c : entry.getValue()) {
-						// Filters on whether show deleted compositions or not
-						if (deleted.isSelected() || !c.isDeleted()) {
-							Composition newCompo = new Composition(c);
-							newCompo.setFiles(c.getFiles());
-							if (!searchResult.containsKey(entry.getKey())) {
-								searchResult.put(entry.getKey(), new ArrayList<>(Arrays.asList(newCompo)));
-							} else {
-								searchResult.get(entry.getKey()).add(newCompo);
-							}
-						}
-					}
-				}
+				fillSearchResultAndFilterDeleted();
 				updateTable(searchResult);
 			});
 			LOG.debug("End ThreadUpdateArtist");
@@ -305,6 +291,27 @@ public class ArtistPanel extends JPanel {
 		updateArtistThread.setDaemon(true);
 		updateArtistThread.setPriority(Thread.MIN_PRIORITY);
 		updateArtistThread.start();
+	}
+
+	/**
+	 * Fills search result (the displayed data) with imported or calculated data.
+	 * Filters on whether show deleted compositions or not.
+	 */
+	private void fillSearchResultAndFilterDeleted() {
+		searchResult = new HashMap<>(); // the data displays in the table
+		for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
+			for (Composition c : entry.getValue()) {
+				if (deleted.isSelected() || !c.isDeleted()) {
+					Composition newCompo = new Composition(c);
+					newCompo.setFiles(c.getFiles());
+					if (!searchResult.containsKey(entry.getKey())) {
+						searchResult.put(entry.getKey(), new ArrayList<>(Arrays.asList(newCompo)));
+					} else {
+						searchResult.get(entry.getKey()).add(newCompo);
+					}
+				}
+			}
+		}
 	}
 
 	private void updateTable(Map<String, List<Composition>> donnee) {
