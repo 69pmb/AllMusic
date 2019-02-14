@@ -5,7 +5,6 @@ import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FontMetrics;
 import java.awt.Point;
-import java.awt.Toolkit;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.KeyEvent;
@@ -137,8 +136,7 @@ public final class PanelUtils {
 			}
 			Double columnWidth;
 			if (currentValue != null) {
-				@SuppressWarnings("deprecation")
-				FontMetrics fontMetrics = Toolkit.getDefaultToolkit().getFontMetrics(table.getFont());
+				FontMetrics fontMetrics = table.getFontMetrics(table.getFont());
 				int widthFactor = fontMetrics.stringWidth(new JLabel(currentValue.toString()).getText());
 				columnModel.getColumn(i).setPreferredWidth(widthFactor + 2); // valeur arbitraire
 				columnWidth = Double.valueOf(widthFactor + 2D);
