@@ -649,77 +649,14 @@ public class ImportPanel extends JPanel {
 		List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
 		String firstLine = FichierUtils.readFirstLine(file.getAbsolutePath()).orElse("");
 		DateTimeFormatter fullDTF = new Constant().getFullDTF();
+
+		// Initializes input fields
 		if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
-			Map<String, String> value = new HashMap<>();
-			try {
-				value = MiscUtils
-						.<String>readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
-			} catch (IOException e) {
-				LOG.error("Error while decoding import params:" + firstLine + " in file " + absolutePathFileTxt, e);
-			}
-			LOG.debug("value: " + value.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue())
-					.collect(Collectors.joining(", ")));
-			LOG.debug("Init with stored params");
-			name.setText(value.get(IMPORT_PARAM_NAME));
-			absolutePathFileXml = Constant.getXmlPath() + value.get(IMPORT_PARAM_NAME) + Constant.XML_EXTENSION;
-			author.setText(value.get(IMPORT_PARAM_AUTEUR));
-			date.setText(value.get(IMPORT_PARAM_CREATE));
-			cat.setSelectedItem(Cat.valueOf(value.get(IMPORT_PARAM_CATEGORIE)));
-			publi.setText(value.get(IMPORT_PARAM_PUBLISH_YEAR));
-			type.setSelectedItem(RecordType.valueOf(value.get(IMPORT_PARAM_RECORD_TYPE)));
-			range.getFirst().setText(value.get(IMPORT_PARAM_RANGE_BEGIN));
-			range.getSecond().setText(value.get(IMPORT_PARAM_RANGE_END));
-			sorted.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_SORTED)));
-			size.setText(value.get(IMPORT_PARAM_SIZE));
-			separator.setText(value.get(IMPORT_PARAM_SEPARATOR));
-			upper.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_UPPER)));
-			removeParenthese.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_PARENTHESE)));
-			removeAfter.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_REMOVE_AFTER)));
-			reverseArtist.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_REVERSE_ARTIST)));
-			order.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_ARTIST_FIRST)));
-			fichier = new Fichier();
-			try {
-				fichier.setCreationDate(LocalDateTime.parse(value.get(IMPORT_PARAM_CREATE), fullDTF));
-			} catch (DateTimeParseException e) {
-				LOG.warn("Error when parsing creation date", e);
-			}
-			label.add("Paramètres importés");
+			initInputsWithImportParams(label, firstLine, fullDTF);
 		} else {
-			LOG.debug("Guessing params");
-			fichier = ImportFile.convertOneFile(file);
-			if (randomLineAndLastLines.size() == 6) {
-				fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
-				fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
-				separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(3)));
-				sorted.setSelected(fichier.getSorted());
-			} else if (!randomLineAndLastLines.isEmpty()) {
-				label.add("Fichier trop petit, paramètres devinés sur la 1ère ligne du fichier.");
-				fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(0)));
-				fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
-				separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(0)));
-				sorted.setSelected(fichier.getSorted());
-			}
-			absolutePathFileXml = Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION;
-			RecordType determineType = ImportFile.determineType(file.getName());
-			boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
-			if (Cat.MISCELLANEOUS == fichier.getCategorie() && RecordType.UNKNOWN != determineType
-					&& fichier.getPublishYear() != 0 && rangeDatesZero) {
-				fichier.setCategorie(Cat.YEAR);
-				fichier.setRangeDateBegin(fichier.getPublishYear());
-				fichier.setRangeDateEnd(fichier.getPublishYear());
-			}
-			reverseArtist.setSelected(ImportFile.countComma(file) > fichier.getSize() / 2);
-			name.setText(fichier.getFileName());
-			author.setText(fichier.getAuthor());
-			date.setText(fullDTF.format(fichier.getCreationDate()));
-			cat.setSelectedItem(fichier.getCategorie());
-			publi.setText(String.valueOf(fichier.getPublishYear()));
-			type.setSelectedItem(determineType);
-			range.getFirst().setText(String.valueOf(fichier.getRangeDateBegin()));
-			range.getSecond().setText(String.valueOf(fichier.getRangeDateEnd()));
-			size.setText(String.valueOf(fichier.getSize()));
-			label.add("Paramètres devinés");
+			initInputsWithGuessedParams(label, randomLineAndLastLines, fullDTF);
 		}
+
 		if (FileUtils.fileExists(absolutePathFileXml)) {
 			label.add(name.getText() + " a déjà été importé");
 			miseEnFormeResultLabel(label);
@@ -751,6 +688,82 @@ public class ImportPanel extends JPanel {
 			}
 		}
 		LOG.debug("End loadFile");
+	}
+
+	private void initInputsWithImportParams(List<String> label, String firstLine, DateTimeFormatter fullDTF) {
+		Map<String, String> value = new HashMap<>();
+		try {
+			value = MiscUtils
+					.<String>readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
+		} catch (IOException e) {
+			LOG.error("Error while decoding import params:" + firstLine + " in file " + absolutePathFileTxt, e);
+			return;
+		}
+		LOG.debug("value: " + value.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue())
+				.collect(Collectors.joining(", ")));
+		LOG.debug("Init with stored params");
+		name.setText(value.get(IMPORT_PARAM_NAME));
+		absolutePathFileXml = Constant.getXmlPath() + value.get(IMPORT_PARAM_NAME) + Constant.XML_EXTENSION;
+		author.setText(value.get(IMPORT_PARAM_AUTEUR));
+		date.setText(value.get(IMPORT_PARAM_CREATE));
+		cat.setSelectedItem(Cat.valueOf(value.get(IMPORT_PARAM_CATEGORIE)));
+		publi.setText(value.get(IMPORT_PARAM_PUBLISH_YEAR));
+		type.setSelectedItem(RecordType.valueOf(value.get(IMPORT_PARAM_RECORD_TYPE)));
+		range.getFirst().setText(value.get(IMPORT_PARAM_RANGE_BEGIN));
+		range.getSecond().setText(value.get(IMPORT_PARAM_RANGE_END));
+		sorted.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_SORTED)));
+		size.setText(value.get(IMPORT_PARAM_SIZE));
+		separator.setText(value.get(IMPORT_PARAM_SEPARATOR));
+		upper.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_UPPER)));
+		removeParenthese.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_PARENTHESE)));
+		removeAfter.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_REMOVE_AFTER)));
+		reverseArtist.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_REVERSE_ARTIST)));
+		order.setSelected(Boolean.parseBoolean(value.get(IMPORT_PARAM_ARTIST_FIRST)));
+		fichier = new Fichier();
+		try {
+			fichier.setCreationDate(LocalDateTime.parse(value.get(IMPORT_PARAM_CREATE), fullDTF));
+		} catch (DateTimeParseException e) {
+			LOG.warn("Error when parsing creation date", e);
+		}
+		label.add("Paramètres importés");
+	}
+
+	private void initInputsWithGuessedParams(List<String> label, List<String> randomLineAndLastLines,
+			DateTimeFormatter fullDTF) {
+		LOG.debug("Guessing params");
+		fichier = ImportFile.convertOneFile(file);
+		if (randomLineAndLastLines.size() == 6) {
+			fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
+			fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
+			separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(3)));
+			sorted.setSelected(fichier.getSorted());
+		} else if (!randomLineAndLastLines.isEmpty()) {
+			label.add("Fichier trop petit, paramètres devinés sur la 1ère ligne du fichier.");
+			fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(0)));
+			fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
+			separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(0)));
+			sorted.setSelected(fichier.getSorted());
+		}
+		absolutePathFileXml = Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION;
+		RecordType determineType = ImportFile.determineType(file.getName());
+		boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
+		if (Cat.MISCELLANEOUS == fichier.getCategorie() && RecordType.UNKNOWN != determineType
+				&& fichier.getPublishYear() != 0 && rangeDatesZero) {
+			fichier.setCategorie(Cat.YEAR);
+			fichier.setRangeDateBegin(fichier.getPublishYear());
+			fichier.setRangeDateEnd(fichier.getPublishYear());
+		}
+		reverseArtist.setSelected(ImportFile.countComma(file) > fichier.getSize() / 2);
+		name.setText(fichier.getFileName());
+		author.setText(fichier.getAuthor());
+		date.setText(fullDTF.format(fichier.getCreationDate()));
+		cat.setSelectedItem(fichier.getCategorie());
+		publi.setText(String.valueOf(fichier.getPublishYear()));
+		type.setSelectedItem(determineType);
+		range.getFirst().setText(String.valueOf(fichier.getRangeDateBegin()));
+		range.getSecond().setText(String.valueOf(fichier.getRangeDateEnd()));
+		size.setText(String.valueOf(fichier.getSize()));
+		label.add("Paramètres devinés");
 	}
 
 	/**
