@@ -14,8 +14,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.stream.Collectors;
 
 import javax.swing.BorderFactory;
 import javax.swing.Box;
@@ -424,10 +426,11 @@ public final class PanelUtils {
 		if (compoExist == null) {
 			for (Fichier file : toModif.getFiles()) {
 				try {
-					List<Composition> compoListFichierPanel = fichierPanel.getCompoListFromData(file);
+					List<Composition> compoListFichierPanel = fichierPanel.getCompoListFromData(file).stream()
+							.filter(Objects::nonNull).collect(Collectors.toList());
 					Composition compoFichierPanel = CompositionUtils.findByArtistTitreAndType(compoListFichierPanel,
 							selectedRow.get(indexArtist), selectedRow.get(indexTitre), selectedRow.get(indexType),
-							false);
+							true);
 					compoListFichierPanel.set(SearchUtils.indexOf(compoListFichierPanel, compoFichierPanel), toModif);
 					fichierPanel.setCompoListFromData(file, compoListFichierPanel);
 				} catch (MyException e) {
