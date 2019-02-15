@@ -45,7 +45,7 @@ public class ExportXML {
 	 * @throws IOException
 	 */
 	public static void exportXML(List<Composition> compList, String fileName) throws IOException {
-		LOG.debug("Start exportXML");
+		LOG.debug("Start exportXML: " + fileName);
 		Document doc = DocumentHelper.createDocument();
 		Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
 		DateTimeFormatter fullDTF = new Constant().getFullDTF();
