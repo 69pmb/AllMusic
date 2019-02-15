@@ -14,6 +14,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
@@ -37,7 +38,9 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  * 
  * @author pmbroca
  */
-public final class NgExportXml extends AbstractExportXML {
+public final class NgExportXml extends ExportXML {
+
+	private static final Logger LOG = Logger.getLogger(NgExportXml.class);
 
 	private NgExportXml() {
 		super();
@@ -85,7 +88,7 @@ public final class NgExportXml extends AbstractExportXML {
 							OngletPanel.getScore().getLogMax(compList.get(i).getRecordType()),
 							OngletPanel.getScore().getDoubleMedian(compList.get(i).getRecordType()), compList.get(i))));
 
-			exportFichier(compList, fullDTF, i, comp);
+			exportFichier(compList.get(i), fullDTF, comp);
 		}
 		saveFile(fileName, doc);
 		LOG.debug("End ngExportXml");

@@ -4,17 +4,22 @@
 package pmb.music.AllMusic.XML;
 
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
+import org.dom4j.io.OutputFormat;
+import org.dom4j.io.XMLWriter;
 
 import pmb.music.AllMusic.model.Composition;
+import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 
@@ -23,12 +28,14 @@ import pmb.music.AllMusic.utils.FichierUtils;
  * 
  * @author pmbroca
  */
-public final class ExportXML extends AbstractExportXML {
+public class ExportXML {
+
+	private static final Logger LOG = Logger.getLogger(ExportXML.class);
 
 	private static boolean finalFileChanged;
 
-	private ExportXML() {
-		super();
+	protected ExportXML() {
+		throw new AssertionError("Must not be used");
 	}
 
 	/**
@@ -57,10 +64,47 @@ public final class ExportXML extends AbstractExportXML {
 			comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(compList.get(i).getRecordType()));
 			comp.addAttribute(CompoHandler.TAG_CAN_BE_MERGED, String.valueOf(compList.get(i).isCanBeMerged()));
 			comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(compList.get(i).isDeleted()));
-			exportFichier(compList, fullDTF, i, comp);
+			exportFichier(compList.get(i), fullDTF, comp);
 		}
 		saveFile(fileName, doc);
 		LOG.debug("End exportXML");
+	}
+
+	/**
+	 * Converts the {@link Fichier} list of the given composition to xml.
+	 * 
+	 * @param composition the composition of which files will be converted
+	 * @param fullDTF date time formatter
+	 * @param comp the xml element where files will be added
+	 */
+	protected static void exportFichier(Composition composition, DateTimeFormatter fullDTF, Element comp) {
+		for (int j = 0; j < composition.getFiles().size(); j++) {
+			Element file = comp.addElement(CompoHandler.TAG_FILE);
+			try {
+				file.addAttribute(CompoHandler.TAG_AUTHOR, String.valueOf(composition.getFiles().get(j).getAuthor()));
+				file.addAttribute(CompoHandler.TAG_FILENAME,
+						String.valueOf(composition.getFiles().get(j).getFileName()));
+				file.addAttribute(CompoHandler.TAG_PUBLISH_YEAR,
+						String.valueOf(composition.getFiles().get(j).getPublishYear()));
+				file.addAttribute(CompoHandler.TAG_CATEGORIE,
+						String.valueOf(composition.getFiles().get(j).getCategorie()));
+				file.addAttribute(CompoHandler.TAG_RANGE_DATE_BEGIN,
+						String.valueOf(composition.getFiles().get(j).getRangeDateBegin()));
+				file.addAttribute(CompoHandler.TAG_RANGE_DATE_END,
+						String.valueOf(composition.getFiles().get(j).getRangeDateEnd()));
+				file.addAttribute(CompoHandler.TAG_SORTED, String.valueOf(composition.getFiles().get(j).getSorted()));
+				file.addAttribute(CompoHandler.TAG_CLASSEMENT,
+						String.valueOf(composition.getFiles().get(j).getClassement()));
+				file.addAttribute(CompoHandler.TAG_CREATION_DATE,
+						fullDTF.format(composition.getFiles().get(j).getCreationDate()));
+				file.addAttribute(CompoHandler.TAG_SIZE, String.valueOf(composition.getFiles().get(j).getSize()));
+			} catch (NullPointerException e) {
+				LOG.error("comp: " + comp, e);
+				LOG.error("file: " + file);
+				LOG.error("composition: " + composition);
+				LOG.error("composition.getFiles(): " + composition.getFiles());
+			}
+		}
 	}
 
 	/**
@@ -88,6 +132,24 @@ public final class ExportXML extends AbstractExportXML {
 		// Sauvegarde du document dans le fichier
 		writeCompositionInFile(doc, fullFileName);
 		LOG.debug("End saveFile");
+	}
+
+	/**
+	 * Saves the xml document in a file in the xml directory.
+	 * 
+	 * @param doc the xml to save
+	 * @param fullFileName the name of the file
+	 * @throws IOException if something went wrong (file not found, encoding
+	 *             error..)
+	 */
+	protected static void writeCompositionInFile(Document doc, String fullFileName) throws IOException {
+		FileOutputStream fos = new FileOutputStream(Constant.getXmlPath() + fullFileName);
+		OutputFormat format = OutputFormat.createPrettyPrint();
+		format.setIndent(true);
+		format.setNewlines(true);
+		XMLWriter xmlOut = new XMLWriter(fos, format);
+		xmlOut.write(doc);
+		xmlOut.close();
 	}
 
 	public static boolean isFinalFileChanged() {
