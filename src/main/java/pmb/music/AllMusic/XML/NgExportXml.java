@@ -23,7 +23,6 @@ import com.dropbox.core.v2.files.WriteMode;
 
 import pmb.music.AllMusic.file.CleanFile;
 import pmb.music.AllMusic.model.Composition;
-import pmb.music.AllMusic.utils.BatchUtils;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.DropBoxUtils;
@@ -69,7 +68,7 @@ public final class NgExportXml extends ExportXML {
 			String stripArtist = StringUtils
 					.substringBefore(
 							SearchUtils.removeParentheses(CleanFile.removeDiactriticals(
-									BatchUtils.cleanLine(compList.get(i).getArtist().toLowerCase(), entrySet))),
+									MiscUtils.cleanLine(compList.get(i).getArtist().toLowerCase(), entrySet))),
 							" and ");
 			if (StringUtils.startsWith(stripArtist, "the ")) {
 				stripArtist = StringUtils.substringAfter(stripArtist, "the ");
@@ -77,7 +76,7 @@ public final class NgExportXml extends ExportXML {
 			comp.addAttribute("s" + CompoHandler.TAG_ARTIST, SearchUtils.removePunctuation(stripArtist));
 			comp.addAttribute("s" + CompoHandler.TAG_TITRE,
 					SearchUtils.removePunctuation(SearchUtils.removeParentheses(CleanFile.removeDiactriticals(
-							BatchUtils.cleanLine(compList.get(i).getTitre().toLowerCase(), entrySet)))));
+							MiscUtils.cleanLine(compList.get(i).getTitre().toLowerCase(), entrySet)))));
 
 			comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(compList.get(i).getRecordType()));
 			comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(compList.get(i).isDeleted()));

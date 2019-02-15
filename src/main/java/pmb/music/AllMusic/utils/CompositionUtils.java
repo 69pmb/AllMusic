@@ -86,6 +86,14 @@ public final class CompositionUtils {
 		return res;
 	}
 
+	/**
+	 * Checks if the given compositions are equals.
+	 * 
+	 * @param c1 first compo
+	 * @param c2 second compo
+	 * @param type type of compostions
+	 * @return true they are equals, false otherwise
+	 */
 	public static boolean isCompositionEquals(Composition c1, Composition c2, String type) {
 		if (!c1.getRecordType().toString().equals(type) || !c2.getRecordType().toString().equals(type)) {
 			return false;
@@ -127,6 +135,7 @@ public final class CompositionUtils {
 	 * @param artist un artist
 	 * @param a un autre artist
 	 * @param jaro une instance de {@link JaroWinklerDistance}
+	 * @param scoreLimit the jaro score limit
 	 * @return {@code null} rien trouvé, le 1er artiste sinon
 	 */
 	public static String artistJaroEquals(String artist, String a, JaroWinklerDistance jaro, BigDecimal scoreLimit) {
@@ -361,6 +370,7 @@ public final class CompositionUtils {
 	 * @param artist {@link String} un artiste
 	 * @param titre {@link String} un titre de chanson ou d'album
 	 * @param type {@link String} album ou chanson
+	 * @param isStrictly if true search exact matching, else contains search
 	 * @return une seule {@link Composition}
 	 * @throws MyException si plusieurs résultat
 	 */
@@ -447,7 +457,8 @@ public final class CompositionUtils {
 	 * Supprime dans les fichiers XML, la composition donnée.
 	 * 
 	 * @param toRemove la {@link Composition} à supprimer des fichiers
-	 * @throws MyException
+	 * @throws MyException if the deletion of the composition failed in the xml
+	 *             files or final file
 	 */
 	public static void removeCompositionsInFiles(Composition toRemove) throws MyException {
 		LOG.debug("Start removeCompositionsInFiles");
@@ -486,7 +497,7 @@ public final class CompositionUtils {
 	 * @param newTitre {@link String} le nouveau titre
 	 * @param newType {@link String} le nouveau type
 	 * @param isDeleted {@code boolean} si la composition est supprimée
-	 * @throws MyException
+	 * @throws MyException if the composition can't be found in the given file
 	 */
 	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre, String newType,
 			boolean isDeleted) throws MyException {
