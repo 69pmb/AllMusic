@@ -290,26 +290,27 @@ public final class PanelUtils {
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		for (Object o : selected) {
 			Vector<String> v = (Vector<String>) o;
+			Composition toRemoveToFinal;
 			try {
-				Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML, v.get(artistIndex),
+				toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML, v.get(artistIndex),
 						v.get(titleIndex), v.get(typeIndex), true);
 				Composition toRemoveToTable = CompositionUtils.findByArtistTitreAndType(compoList, v.get(artistIndex),
 						v.get(titleIndex), v.get(typeIndex), true);
 				compoList.get(SearchUtils.indexOf(compoList, toRemoveToTable)).setDeleted(true);
 				importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
 				CompositionUtils.removeCompositionsInFiles(toRemoveToFinal);
-				// Update fichier panel data
-				try {
-					for (Fichier file : toRemoveToFinal.getFiles()) {
-						List<Composition> compoListFromData = fichierPanel.getCompoListFromData(file);
-						compoListFromData.get(SearchUtils.indexOf(compoListFromData, toRemoveToFinal)).setDeleted(true);
-					}
-				} catch (Exception e) {
-					LOG.warn("Erreur lors de la mise à jour du panel", e);
-				}
 			} catch (MyException e1) {
 				LOG.error("Erreur lors de la suppression d'une composition", e1);
 				return;
+			}
+			// Update fichier panel data
+			try {
+				for (Fichier file : toRemoveToFinal.getFiles()) {
+					List<Composition> compoListFromData = fichierPanel.getCompoListFromData(file);
+					compoListFromData.get(SearchUtils.indexOf(compoListFromData, toRemoveToFinal)).setDeleted(true);
+				}
+			} catch (Exception e) {
+				LOG.warn("Erreur lors de la mise à jour du panel", e);
 			}
 		}
 		try {
