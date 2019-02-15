@@ -356,20 +356,20 @@ public final class SearchUtils {
 			result = list.indexOf(new Composition(o.getArtist(), o.getFiles(), o.getTitre(), o.getRecordType(),
 					o.isDeleted(), o.isCanBeMerged()));
 			if (result == -1) {
-				int i = 0;
-				for (Composition composition : list) {
-					if (StringUtils.equals(composition.getArtist(), o.getArtist())
+				int i = -1;
+				Composition composition = list.get(0);
+				while (i < list.size() && !(StringUtils.equals(composition.getArtist(), o.getArtist())
 							&& StringUtils.equals(composition.getTitre(), o.getTitre())
 							&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
-							&& composition.getFiles().size() == o.getFiles().size()) {
-						LOG.debug("indexOf found: " + o);
-						result = i;
-						break;
-					}
+						&& composition.getFiles().size() == o.getFiles().size())) {
 					i++;
+					composition = list.get(i);
 				}
-				if (result == -1) {
+				if (i == list.size()) {
 					LOG.error("Error in indexOf: " + o);
+				} else {
+					LOG.debug("indexOf found: " + o.getArtist() + " - " + o.getTitre() + " - " + i);
+					result = i;
 				}
 			}
 		}
