@@ -15,6 +15,8 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.Vector;
 
 import org.apache.commons.lang3.RegExUtils;
@@ -30,6 +32,8 @@ import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;
 import pmb.music.AllMusic.model.Composition;
 
 /**
+ * Utility class of generic methods.
+ * 
  * Created by PBR on 29 mai 2018.
  */
 public final class MiscUtils {
@@ -55,6 +59,11 @@ public final class MiscUtils {
 		throw new AssertionError("Must not be used");
 	}
 
+	/**
+	 * Gets the object mapper parser initialized with appropriated modules.
+	 * 
+	 * @return the object mapper
+	 */
 	public static synchronized ObjectMapper getObjectMapper() {
 		if (null == objectMapper) {
 			objectMapper = new ObjectMapper().registerModule(new ParameterNamesModule())
@@ -63,6 +72,13 @@ public final class MiscUtils {
 		return objectMapper;
 	}
 
+	/**
+	 * Converts to json the given object.
+	 * 
+	 * @param o the object to format
+	 * @return a string representing the given object in json format
+	 * @throws JsonProcessingException if the process fails
+	 */
 	public static String writeValueAsString(Object o) throws JsonProcessingException {
 		return getObjectMapper().writeValueAsString(o);
 	}
@@ -73,7 +89,7 @@ public final class MiscUtils {
 	 * @param <T> the type of map values
 	 * @param content the string to parse
 	 * @return the map parsed
-	 * @throws IOException
+	 * @throws IOException if parser fails
 	 */
 	public static <T> Map<String, T> readValueAsMap(String content) throws IOException {
 		return getObjectMapper().readValue(content, new TypeReference<Map<String, T>>() {
@@ -85,7 +101,7 @@ public final class MiscUtils {
 	 * 
 	 * @param content the string to parse
 	 * @return the map parsed
-	 * @throws IOException
+	 * @throws IOException if parser fails
 	 */
 	public static Map<String, List<Composition>> readValueAsMapOfList(String content) throws IOException {
 		return getObjectMapper().readValue(content, new TypeReference<Map<String, Collection<Composition>>>() {
@@ -101,6 +117,20 @@ public final class MiscUtils {
 		StringSelection selection = new StringSelection(text);
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(selection, selection);
+	}
+
+	/**
+	 * @param line
+	 * @param entrySet
+	 * @return
+	 */
+	public static String cleanLine(String line, Set<Entry<String, String>> entrySet) {
+		for (Entry<String, String> entry : entrySet) {
+			if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
+				line = StringUtils.replaceIgnoreCase(line, entry.getKey(), entry.getValue());
+			}
+		}
+		return line;
 	}
 
 	/**
@@ -154,8 +184,8 @@ public final class MiscUtils {
 	/**
 	 * Calculates the median.
 	 * 
-	 * @param numArray
-	 * @return
+	 * @param numArray a list of number
+	 * @return the median calculated
 	 */
 	public static double median(List<Integer> numArray) {
 		if (numArray.isEmpty()) {
@@ -174,10 +204,10 @@ public final class MiscUtils {
 	/**
 	 * Calculates the standard deviation.
 	 * 
-	 * @param numArray
-	 * @param average
-	 * @param count
-	 * @return
+	 * @param numArray a list of number
+	 * @param average mean
+	 * @param count size of the list
+	 * @return the standard deviation calculated
 	 */
 	public static double calculateSD(List<Integer> numArray, double average, long count) {
 		double standardDeviation = 0.0;

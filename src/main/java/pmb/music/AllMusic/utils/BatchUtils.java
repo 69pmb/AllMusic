@@ -61,6 +61,12 @@ import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
+/**
+ * Utility class that contains all processes for the {@link BatchPanel}.
+ * 
+ * @author PBR
+ *
+ */
 public final class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
 
@@ -89,12 +95,14 @@ public final class BatchUtils {
 	}
 
 	/**
-	 * @param song
-	 * @param album
+	 * Detects if there are compositions that should be merged.
+	 * 
+	 * @param song if song compositions are treated
+	 * @param album if album compositions are treated
 	 * @param ignoreUnmergeableFiles if ignore file with merge equals to false
-	 * @param byYear
+	 * @param byYear if processes compositions by year files cat
 	 * @param batchPanel for logging purpose
-	 * @return
+	 * @return file name of the result file
 	 */
 	public static String detectsDuplicateFinal(boolean song, boolean album, boolean ignoreUnmergeableFiles,
 			boolean byYear, BatchPanel batchPanel) {
@@ -125,7 +133,7 @@ public final class BatchUtils {
 	/**
 	 * Generates statistics of xml files.
 	 * 
-	 * @return
+	 * @return the file name of the result file
 	 */
 	public static String stat() {
 		LOG.debug("Start stat");
@@ -193,6 +201,9 @@ public final class BatchUtils {
 		addLine(result, "", false);
 	}
 
+	/**
+	 * @return
+	 */
 	public static String findUnknown() {
 		LOG.debug("Start findUnknown");
 		Comparator<String> byFileName = (String o1, String o2) -> {
@@ -264,6 +275,9 @@ public final class BatchUtils {
 		return writeInFile(sb, "Unknown.txt");
 	}
 
+	/**
+	 * @return
+	 */
 	public static String findSuspiciousComposition() {
 		LOG.debug("Start findSuspiciousComposition");
 		StringBuilder result = new StringBuilder();
@@ -288,6 +302,9 @@ public final class BatchUtils {
 		return writeInFile(result, "Suspicious.txt");
 	}
 
+	/**
+	 * @return
+	 */
 	public static String findDuplicateTitleComposition() {
 		LOG.debug("Start findDuplicateTitleComposition");
 		StringBuilder result = new StringBuilder();
@@ -299,6 +316,12 @@ public final class BatchUtils {
 		return writeInFile(result, "Duplicate Title.txt");
 	}
 
+	/**
+	 * Finds files with file names doesn't respect the pattern: "{@code Author} -
+	 * {@code Txt filename} - {@code Publish year}".
+	 * 
+	 * @return
+	 */
 	public static String findIncorrectFileNames() {
 		LOG.debug("Start findIncorrectFileNames");
 		StringBuilder result = new StringBuilder();
@@ -436,6 +459,10 @@ public final class BatchUtils {
 		});
 	}
 
+	/**
+	 * @param batchPanel
+	 * @return
+	 */
 	public static String averageOfFilesByFiles(BatchPanel batchPanel) {
 		LOG.debug("Start averageOfFilesByFiles");
 		StringBuilder text = new StringBuilder();
@@ -474,6 +501,10 @@ public final class BatchUtils {
 		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
 	public static String weirdFileSize() {
 		LOG.debug("Start weirdFileSize");
 		StringBuilder text = new StringBuilder();
@@ -506,6 +537,15 @@ public final class BatchUtils {
 		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
+	/**
+	 * Reads csv file, searchs its compositions in final file and aks if user wants
+	 * to delete found compositions.
+	 * 
+	 * @param type record type: song or album
+	 * @param file csv file
+	 * @param artistPanel artist panel, to stop and relaunch process
+	 * @return the file name of the result file
+	 */
 	public static String massDeletion(String type, File file, ArtistPanel artistPanel) {
 		LOG.debug("Start massDeletion");
 		StringBuilder text = new StringBuilder();
@@ -823,30 +863,22 @@ public final class BatchUtils {
 		// Clean artist and title
 		Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
 		String stripArtist = StringUtils.substringBefore(
-				SearchUtils.removeParentheses(CleanFile.removeDiactriticals(cleanLine(artist.toLowerCase(), entrySet))),
+				SearchUtils.removeParentheses(
+						CleanFile.removeDiactriticals(MiscUtils.cleanLine(artist.toLowerCase(), entrySet))),
 				Constant.SEPARATOR_AND);
 		if (StringUtils.startsWith(stripArtist, "the ")) {
 			stripArtist = StringUtils.substringAfter(stripArtist, "the ");
 		}
 		criteria.put(SearchUtils.CRITERIA_ARTIST, SearchUtils.removePunctuation(stripArtist));
 		criteria.put(SearchUtils.CRITERIA_TITRE, SearchUtils.removePunctuation(SearchUtils
-				.removeParentheses(CleanFile.removeDiactriticals(cleanLine(titre.toLowerCase(), entrySet)))));
+				.removeParentheses(CleanFile.removeDiactriticals(MiscUtils.cleanLine(titre.toLowerCase(), entrySet)))));
 		return criteria;
-	}
-
-	public static String cleanLine(String line, Set<Entry<String, String>> entrySet) {
-		for (Entry<String, String> entry : entrySet) {
-			if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
-				line = StringUtils.replaceIgnoreCase(line, entry.getKey(), entry.getValue());
-			}
-		}
-		return line;
 	}
 
 	/**
 	 * Search if a composition has similar files (same author and same rank).
 	 * 
-	 * @return
+	 * @return the file name of the result file
 	 */
 	public static String findDuplicateFiles() {
 		LOG.debug("Start findDuplicateFiles");
@@ -887,7 +919,7 @@ public final class BatchUtils {
 	/**
 	 * Search if there are txt files which are not convert to xml files.
 	 * 
-	 * @return
+	 * @return the file name of the result file
 	 */
 	public static String missingXML() {
 		LOG.debug("Start missingXML");
@@ -925,6 +957,17 @@ public final class BatchUtils {
 		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
+	/**
+	 * Creates for each year top year file (top by songs, by albums, by occurences,
+	 * by points, by publications).
+	 * 
+	 * @param yearBegin the begining year
+	 * @param yearEnd the ending year
+	 * @param albumLimit the limit for albums top
+	 * @param songLimit the limit for songs top
+	 * @param deleted if the deleted compositions are included
+	 * @return the file name of the result file
+	 */
 	public static String topYear(int yearBegin, int yearEnd, int albumLimit, int songLimit, boolean deleted) {
 		LOG.debug("Start topYear");
 		StringBuilder text = new StringBuilder();
