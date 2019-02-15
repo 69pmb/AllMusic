@@ -4,6 +4,7 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -141,7 +142,7 @@ public final class MiscUtils {
 	public static String dateNow() {
 		Calendar greg = new GregorianCalendar();
 		Date date = greg.getTime();
-		return new Constant().getSdfDt().format(date);
+		return new SimpleDateFormat("yyyy-MM-dd HH-mm").format(date);
 	}
 
 	/**
