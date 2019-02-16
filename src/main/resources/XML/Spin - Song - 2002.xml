@@ -37,10 +37,10 @@
   <compo A="Felix Da Housecat" T="Silver Screen Shower Scene" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="12" creation="30/08/2018 10:54:44" size="20"/>
   </compo>
-  <compo A="The Strokes" T="Someday" type="SONG" mergeable="true" del="false">
+  <compo A="The Strokes" T="Someday" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="13" creation="30/08/2018 10:54:44" size="20"/>
   </compo>
-  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="false">
+  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="14" creation="30/08/2018 10:54:44" size="20"/>
   </compo>
   <compo A="The Chemical Brothers" T="Star Guitar" type="SONG" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Red Hot Chili Peppers" T="By The Way" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="19" creation="30/08/2018 10:54:44" size="20"/>
   </compo>
-  <compo A="The Vines" T="Get Free" type="SONG" mergeable="true" del="false">
+  <compo A="The Vines" T="Get Free" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="20" creation="30/08/2018 10:54:44" size="20"/>
   </compo>
 </ListCompositions>

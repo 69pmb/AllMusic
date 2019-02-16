@@ -13,7 +13,7 @@
   <compo A="My Chemical Romance" T="Welcome To The Black Parade" type="SONG" mergeable="true" del="false">
     <file author="Spin" name="Spin - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="4" creation="30/08/2018 10:59:55" size="20"/>
   </compo>
-  <compo A="TV On The Radio" T="Wolf Like Me" type="SONG" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Wolf Like Me" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="5" creation="30/08/2018 10:59:55" size="20"/>
   </compo>
   <compo A="Rick Ross" T="Hustlin'" type="SONG" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Arctic Monkeys" T="I Bet You Look Good On The Dancefloor" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="12" creation="30/08/2018 10:59:55" size="20"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Cheated Hearts" type="SONG" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Cheated Hearts" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="13" creation="30/08/2018 10:59:55" size="20"/>
   </compo>
   <compo A="Turbulence" T="Notorious" type="SONG" mergeable="true" del="false">

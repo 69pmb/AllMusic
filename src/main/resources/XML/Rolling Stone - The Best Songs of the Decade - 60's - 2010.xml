@@ -43,7 +43,7 @@
   <compo A="The Mamas And The Papas" T="California Dreamin'" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="14" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
-  <compo A="The Who" T="Substitute" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Substitute" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="15" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
   <compo A="The Temptations" T="Ain't Too Proud To Beg" type="SONG" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="The Velvet Underground" T="Heroin" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="26" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
-  <compo A="The Kinks" T="Waterloo Sunset" type="SONG" mergeable="true" del="false">
+  <compo A="The Kinks" T="Waterloo Sunset" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="27" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
   <compo A="The Beatles" T="A Day In The Life" type="SONG" mergeable="true" del="true">
@@ -118,7 +118,7 @@
   <compo A="Dr. John" T="I Walk On Guilded Splinters" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="39" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
-  <compo A="The Rolling Stones" T="Jumpin' Jack Flash" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Jumpin' Jack Flash" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 60's - 2010" publish="2010" cat="DECADE" rangeB="1960" rangeE="1969" sorted="false" rank="40" creation="07/09/2018 15:13:32" size="50"/>
   </compo>
   <compo A="The Band" T="The Weight" type="SONG" mergeable="true" del="true">

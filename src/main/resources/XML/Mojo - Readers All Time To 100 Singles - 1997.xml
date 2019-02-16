@@ -7,7 +7,7 @@
   <compo A="The Beatles" T="Penny Lane" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="1" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Kinks" T="Waterloo Sunset" type="SONG" mergeable="true" del="false">
+  <compo A="The Kinks" T="Waterloo Sunset" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="2" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Beach Boys" T="Good Vibrations" type="SONG" mergeable="true" del="true">
@@ -49,7 +49,7 @@
   <compo A="The Who" T="My Generation" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="14" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="false">
+  <compo A="The Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="15" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Sex Pistols" T="Anarchy In The Uk" type="SONG" mergeable="true" del="true">
@@ -85,13 +85,13 @@
   <compo A="Lou Reed" T="Walk On The Wild Side" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="26" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="27" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Rod Stewart" T="Maggie May" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="28" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Who" T="Substitute" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Substitute" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="29" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Beatles" T="Paperback Writer" type="SONG" mergeable="true" del="true">
@@ -136,7 +136,7 @@
   <compo A="Oasis" T="Live Forever" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="42" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Small Faces" T="Itchycoo Park" type="SONG" mergeable="true" del="false">
+  <compo A="The Small Faces" T="Itchycoo Park" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="43" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Brown Eyed Girl" type="SONG" mergeable="true" del="false">
@@ -190,7 +190,7 @@
   <compo A="Them" T="Baby Please Go" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="59" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Them" T="Gloria" type="SONG" mergeable="true" del="false">
+  <compo A="Them" T="Gloria" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="59" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Verve" T="Bitter Sweet Symphony" type="SONG" mergeable="true" del="true">
@@ -214,7 +214,7 @@
   <compo A="The Band" T="I Shall Be Released" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="65" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Kinks" T="Lola" type="SONG" mergeable="true" del="false">
+  <compo A="The Kinks" T="Lola" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Readers All Time To 100 Singles - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="66" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Beatles" T="I Want To Hold Your Hand" type="SONG" mergeable="true" del="true">

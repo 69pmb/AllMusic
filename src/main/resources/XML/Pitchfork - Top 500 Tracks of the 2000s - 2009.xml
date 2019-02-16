@@ -58,7 +58,7 @@
   <compo A="R. Kelly" T="Ignition" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="19" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Walkmen" T="The Rat" type="SONG" mergeable="true" del="false">
+  <compo A="The Walkmen" T="The Rat" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="20" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Kelly Clarkson" T="Since U Been Gone" type="SONG" mergeable="true" del="false">
@@ -157,7 +157,7 @@
   <compo A="Kanye West" T="Flashing Lights" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="52" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Strokes" T="Someday" type="SONG" mergeable="true" del="false">
+  <compo A="The Strokes" T="Someday" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="53" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Missy Elliott" T="Work It" type="SONG" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="Dizzee Rascal" T="I Luv U" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="56" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="TV on the Radio" T="Wolf Like Me" type="SONG" mergeable="true" del="false">
+  <compo A="TV on the Radio" T="Wolf Like Me" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="57" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="The White Stripes" T="Fell in Love With a Girl" type="SONG" mergeable="true" del="true">
@@ -184,7 +184,7 @@
   <compo A="Wilco" T="Jesus, Etc." type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="61" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="false">
+  <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="62" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="The Hold Steady" T="Stuck Between Stations" type="SONG" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Kanye West" T="Gone" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="71" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Killers" T="Mr. Brightside" type="SONG" mergeable="true" del="false">
+  <compo A="The Killers" T="Mr. Brightside" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="72" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Animal Collective" T="Grass" type="SONG" mergeable="true" del="true">
@@ -571,7 +571,7 @@
   <compo A="Panjabi Mc" T="Mundian To Bach Ke" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="190" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Vampire Weekend" T="Oxford Comma" type="SONG" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Oxford Comma" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="191" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Pulp" T="Sunrise" type="SONG" mergeable="true" del="true">
@@ -730,7 +730,7 @@
   <compo A="Fischerspooner" T="Emerge" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="243" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Hives" T="Hate to Say I Told You So" type="SONG" mergeable="true" del="false">
+  <compo A="The Hives" T="Hate to Say I Told You So" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="244" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Girls Aloud" T="Biology" type="SONG" mergeable="true" del="false">
@@ -976,10 +976,10 @@
   <compo A="Sean Paul" T="Like Glue" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="325" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Cheated Hearts" type="SONG" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Cheated Hearts" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="326" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Vampire Weekend" T="Walcott" type="SONG" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Walcott" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="327" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Isolee" T="Schrapnell" type="SONG" mergeable="true" del="false">
@@ -1318,7 +1318,7 @@
   <compo A="Beirut" T="Elephant Gun" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="439" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="The Libertines" T="Time for Heroes" type="SONG" mergeable="true" del="false">
+  <compo A="The Libertines" T="Time for Heroes" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="440" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Sufjan Stevens" T="For the Widows in Paradise, For the Fathers in Ypsilanti" type="SONG" mergeable="true" del="false">
@@ -1483,7 +1483,7 @@
   <compo A="Blonde Redhead" T="Equus" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="494" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Weezer" T="Island in the Sun" type="SONG" mergeable="true" del="false">
+  <compo A="Weezer" T="Island in the Sun" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="495" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Akufen" T="Deck the House (Herbert's Stop Like This Mix)" type="SONG" mergeable="true" del="false">

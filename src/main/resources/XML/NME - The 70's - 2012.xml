@@ -37,7 +37,7 @@
   <compo A="John Lennon" T="Imagine" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="12" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="false">
+  <compo A="The Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="13" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Pink Floyd" T="Comfortably Numb" type="SONG" mergeable="true" del="true">
@@ -118,7 +118,7 @@
   <compo A="Bee Gees" T="Stayin Alive" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="39" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Knack" T="My Sharona" type="SONG" mergeable="true" del="false">
+  <compo A="The Knack" T="My Sharona" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="40" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Tumbling Dice" type="SONG" mergeable="true" del="true">
@@ -226,7 +226,7 @@
   <compo A="Neil Young" T="Heart Of Gold" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="75" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Only Ones" T="Another Girl, Another Planet" type="SONG" mergeable="true" del="false">
+  <compo A="The Only Ones" T="Another Girl, Another Planet" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="76" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="John Lennon" T="Instant Karma" type="SONG" mergeable="true" del="true">
@@ -262,7 +262,7 @@
   <compo A="Roxy Music" T="Virginia Plain" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="87" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Kinks" T="Lola" type="SONG" mergeable="true" del="false">
+  <compo A="The Kinks" T="Lola" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="88" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Specials" T="A Message To You Rudy" type="SONG" mergeable="true" del="true">

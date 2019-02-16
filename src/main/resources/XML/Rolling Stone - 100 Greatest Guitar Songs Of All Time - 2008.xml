@@ -127,7 +127,7 @@
   <compo A="John Mayall's Blues Breakers" T="Hideaway" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="42" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Sex Pistols" T="Holidays In The Sun" type="SONG" mergeable="true" del="false">
+  <compo A="Sex Pistols" T="Holidays In The Sun" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="43" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Sleater-Kinney" T="Dig Me Out" type="SONG" mergeable="true" del="false">
@@ -211,7 +211,7 @@
   <compo A="Smashing Pumpkins" T="Bullet With Butterfly Wings" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="70" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Strokes" T="Take It Or Leave It" type="SONG" mergeable="true" del="false">
+  <compo A="Strokes" T="Take It Or Leave It" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Guitar Songs Of All Time - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="71" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Weezer" T="Say It Ain't So" type="SONG" mergeable="true" del="false">

@@ -139,7 +139,7 @@
   <compo A="MGMT" T="Kids" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 00's - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="46" creation="07/09/2018 15:13:47" size="50"/>
   </compo>
-  <compo A="Vampire Weekend" T="A-Punk" type="SONG" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="A-Punk" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The Best Songs of the Decade - 00's - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="47" creation="07/09/2018 15:13:47" size="50"/>
   </compo>
   <compo A="Fleet Foxes" T="White Winter Hymnal" type="SONG" mergeable="true" del="false">

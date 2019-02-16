@@ -7,7 +7,7 @@
   <compo A="MGMT" T="Time To Pretend" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="2" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Hard To Explain" type="SONG" mergeable="true" del="false">
+  <compo A="The Strokes" T="Hard To Explain" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="3" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Mia" T="Paper Planes" type="SONG" mergeable="true" del="true">
@@ -31,13 +31,13 @@
   <compo A="Arctic Monkeys" T="A Certain Romance" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="10" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Libertines" T="Can't Stand Me Now" type="SONG" mergeable="true" del="false">
+  <compo A="The Libertines" T="Can't Stand Me Now" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="11" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Streets" T="Dry Your Eyes" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="12" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Walkmen" T="The Rat" type="SONG" mergeable="true" del="false">
+  <compo A="The Walkmen" T="The Rat" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="13" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The White Stripes" T="Seven Nation Army" type="SONG" mergeable="true" del="true">
@@ -106,7 +106,7 @@
   <compo A="Queens Of The Stone Age" T="No One Knows" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="33" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="false">
+  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="34" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="At The Drive-In" T="One Armed Scissor" type="SONG" mergeable="true" del="true">
@@ -124,16 +124,16 @@
   <compo A="Girls Aloud" T="Sound Of The Underground" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="39" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Zero" type="SONG" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Zero" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="40" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Kanye West" T="Gold Digger" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="40" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Killers" T="Somebody Told Me" type="SONG" mergeable="true" del="false">
+  <compo A="The Killers" T="Somebody Told Me" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="41" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Killers" T="Mr Brightside" type="SONG" mergeable="true" del="false">
+  <compo A="The Killers" T="Mr Brightside" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="41" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Gossip" T="Standing In The Way Of Control" type="SONG" mergeable="true" del="true">
@@ -160,7 +160,7 @@
   <compo A="Sebastien Tellier" T="La Ritournelle" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="48" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Vampire Weekend" T="A-Punk" type="SONG" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="A-Punk" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="48" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Jay-Z" T="99 Problems" type="SONG" mergeable="true" del="true">
@@ -178,10 +178,10 @@
   <compo A="La Roux" T="In For The Kill" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="false">
+  <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Libertines" T="Time For Heroes" type="SONG" mergeable="true" del="false">
+  <compo A="Libertines" T="Time For Heroes" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 00's - 2012" publish="2012" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="53" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Sufjan Stevens" T="Chicago" type="SONG" mergeable="true" del="true">

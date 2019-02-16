@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The White Stripes" T="My Doorbell" type="SONG" mergeable="true" del="false">
+  <compo A="The White Stripes" T="My Doorbell" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="50" creation="25/07/2018 15:49:55" size="50"/>
   </compo>
   <compo A="!!!" T="Take Ecstasy With Me" type="SONG" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Juelz Santana" T="Mic Check" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="19" creation="25/07/2018 15:49:55" size="50"/>
   </compo>
-  <compo A="The Killers" T="Mr. Brightside" type="SONG" mergeable="true" del="false">
+  <compo A="The Killers" T="Mr. Brightside" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="18" creation="25/07/2018 15:49:55" size="50"/>
   </compo>
   <compo A="LCD Soundsystem" T="Tribulations" type="SONG" mergeable="true" del="false">

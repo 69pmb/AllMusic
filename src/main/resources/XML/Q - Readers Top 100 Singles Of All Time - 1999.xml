@@ -40,7 +40,7 @@
   <compo A="Joy Division" T="Love Will Tear Us Apart" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="13" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Kinks" T="Waterloo Sunset" type="SONG" mergeable="true" del="false">
+  <compo A="The Kinks" T="Waterloo Sunset" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="14" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Massive Attack" T="Unfinished Sympathy" type="SONG" mergeable="true" del="true">
@@ -154,10 +154,10 @@
   <compo A="Derek And The Dominoes" T="Layla" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="51" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Police" T="Every Breath You Take" type="SONG" mergeable="true" del="false">
+  <compo A="The Police" T="Every Breath You Take" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="52" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="false">
+  <compo A="The Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="53" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The Jam" T="Going Underground" type="SONG" mergeable="true" del="true">
@@ -187,7 +187,7 @@
   <compo A="The Sex Pistols" T="Pretty Vacant" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="62" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Top 100 Singles Of All Time - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="63" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born To Run" type="SONG" mergeable="true" del="true">
