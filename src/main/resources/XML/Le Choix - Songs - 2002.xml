@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Vines" T="Get Free" type="SONG" mergeable="true" del="false">
+  <compo A="The Vines" T="Get Free" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="1" creation="31/07/2018 12:42:04" size="33"/>
   </compo>
   <compo A="Eminem" T="Without Me" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Songs - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="2" creation="31/07/2018 12:42:04" size="33"/>
   </compo>
-  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="false">
+  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="3" creation="31/07/2018 12:42:04" size="33"/>
   </compo>
   <compo A="The Coral" T="Dreaming of You" type="SONG" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <compo A="Queens of the Stone Age" T="No One Knows" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="8" creation="31/07/2018 12:42:04" size="33"/>
   </compo>
-  <compo A="The Strokes" T="Someday" type="SONG" mergeable="true" del="false">
+  <compo A="The Strokes" T="Someday" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="9" creation="31/07/2018 12:42:04" size="33"/>
   </compo>
   <compo A="DJ Shadow" T="Six Days" type="SONG" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Elvis Presley" T="A Little Less Conversation" type="SONG" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Songs - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="32" creation="31/07/2018 12:42:04" size="33"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="SONG" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="SONG" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Songs - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="33" creation="31/07/2018 12:42:04" size="33"/>
   </compo>
 </ListCompositions>

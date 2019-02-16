@@ -7,7 +7,7 @@
   <compo A="Eminem" T="Without Me" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="14"/>
   </compo>
-  <compo A="Libertines" T="The Boy Looked At Johnny" type="SONG" mergeable="true" del="false">
+  <compo A="Libertines" T="The Boy Looked At Johnny" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="14"/>
   </compo>
   <compo A="Tom Petty" T="The Last Dj" type="SONG" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Neil Young" T="She's A Healer" type="SONG" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="12" creation="05/01/2018 13:17:17" size="14"/>
   </compo>
-  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="false">
+  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Song - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="13" creation="05/01/2018 13:17:17" size="14"/>
   </compo>
   <compo A="The Streets" T="Weak Become Heroes" type="SONG" mergeable="true" del="true">

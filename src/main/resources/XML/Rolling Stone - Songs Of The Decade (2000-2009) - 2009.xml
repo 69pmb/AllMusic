@@ -142,10 +142,10 @@
   <compo A="Green Day" T="American Idiot" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="47" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="The Killers" T="Mr. Brightside" type="SONG" mergeable="true" del="false">
+  <compo A="The Killers" T="Mr. Brightside" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="48" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="The Walkmen" T="The Rat" type="SONG" mergeable="true" del="false">
+  <compo A="The Walkmen" T="The Rat" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="49" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Beyonce" T="Single Ladies" type="SONG" mergeable="true" del="true">
@@ -169,13 +169,13 @@
   <compo A="Radiohead" T="Idioteque" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="56" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="false">
+  <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="57" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="The White Stripes" T="Fell In Love With a Girl" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="58" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Hard to Explain" type="SONG" mergeable="true" del="false">
+  <compo A="The Strokes" T="Hard to Explain" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="59" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Beyonce" T="Irreplaceable" type="SONG" mergeable="true" del="false">
@@ -190,7 +190,7 @@
   <compo A="Lil Wayne" T="A Milli" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="63" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="U2" T="Vertigo" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Vertigo" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="64" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Green Day" T="Boulevard of Broken Dreams" type="SONG" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <compo A="Queens of the Stone Age" T="No One Knows" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="73" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
-  <compo A="TV on the Radio" T="Wolf Like Me" type="SONG" mergeable="true" del="false">
+  <compo A="TV on the Radio" T="Wolf Like Me" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="74" creation="24/07/2017 00:51:20" size="100"/>
   </compo>
   <compo A="Arcade Fire" T="Rebellion (Lies)" type="SONG" mergeable="true" del="true">

@@ -16,7 +16,7 @@
   <compo A="Squeeze" T="Tempted" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Police" T="Every Little Thing She Does Is Magic" type="SONG" mergeable="true" del="false">
+  <compo A="Police" T="Every Little Thing She Does Is Magic" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
 </ListCompositions>

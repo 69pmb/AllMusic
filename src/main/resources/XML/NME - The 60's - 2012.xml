@@ -133,7 +133,7 @@
   <compo A="The Velvet Underground" T="Venus In Furs" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="44" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Kinks" T="Waterloo Sunset" type="SONG" mergeable="true" del="false">
+  <compo A="The Kinks" T="Waterloo Sunset" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="45" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Nancy Sinatra" T="Some Velvet Morning" type="SONG" mergeable="true" del="false">
@@ -145,7 +145,7 @@
   <compo A="Silver Apples" T="Oscillations" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="48" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Jumpin'Jack Flash" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Jumpin'Jack Flash" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 60's - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="49" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Velvet Underground" T="Heroin" type="SONG" mergeable="true" del="true">

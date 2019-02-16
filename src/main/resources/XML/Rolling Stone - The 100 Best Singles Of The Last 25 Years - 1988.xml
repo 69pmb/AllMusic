@@ -58,7 +58,7 @@
   <compo A="The Righteous Brothers" T="You've Lost That Lovin' Feelin'" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="19" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Them" T="Gloria" type="SONG" mergeable="true" del="false">
+  <compo A="Them" T="Gloria" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="20" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Martha An The Vandellas" T="Dancing In The Street" type="SONG" mergeable="true" del="true">
@@ -202,7 +202,7 @@
   <compo A="Tommy James And The Shondells" T="Crimson And Clover" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="67" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Jumping Jack Flash" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="68" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Talking Heads" T="Once In A Lifetime" type="SONG" mergeable="true" del="true">
@@ -283,7 +283,7 @@
   <compo A="Edwin Starr" T="War" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="94" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Police" T="Every Breath You Take" type="SONG" mergeable="true" del="false">
+  <compo A="The Police" T="Every Breath You Take" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Best Singles Of The Last 25 Years - 1988" publish="1988" cat="LONG_PERIOD" rangeB="1963" rangeE="1988" sorted="true" rank="95" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="true">

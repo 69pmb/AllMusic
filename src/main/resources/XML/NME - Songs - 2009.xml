@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Yeah Yeah Yeahs" T="Zero" type="SONG" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Zero" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="The Horrors" T="Sea Within A Sea" type="SONG" mergeable="true" del="true">
@@ -76,7 +76,7 @@
   <compo A="Biffy Clyro" T="That Golden Rule" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="25" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Wild Beasts" T="Hooting And Howling" type="SONG" mergeable="true" del="false">
+  <compo A="Wild Beasts" T="Hooting And Howling" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="26" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Chew Lips" T="Solo" type="SONG" mergeable="true" del="false">
