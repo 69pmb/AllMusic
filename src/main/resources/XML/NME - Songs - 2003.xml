@@ -10,7 +10,7 @@
   <compo A="Outkast" T="Hey Ya!" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="3" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Libertines" T="Don't Look Back Into The Sun" type="SONG" mergeable="true" del="false">
+  <compo A="The Libertines" T="Don't Look Back Into The Sun" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="4" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Franz Ferdinand" T="Darts Of Pleasure" type="SONG" mergeable="true" del="true">
@@ -22,7 +22,7 @@
   <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="7" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Strokes" T="12:51" type="SONG" mergeable="true" del="false">
+  <compo A="The Strokes" T="12:51" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="8" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Electric Six" T="Danger! High Voltage" type="SONG" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="The Eighties Matchbox B-Line Disaster" T="Psychosis Safari" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="22" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Libertines" T="Time For Heroes" type="SONG" mergeable="true" del="false">
+  <compo A="The Libertines" T="Time For Heroes" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="23" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Coldplay" T="Clocks" type="SONG" mergeable="true" del="false">

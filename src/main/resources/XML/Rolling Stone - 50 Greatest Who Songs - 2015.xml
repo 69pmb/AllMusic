@@ -31,7 +31,7 @@
   <compo A="The Who" T="Eminence Front" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="10" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
-  <compo A="The Who" T="Substitute" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Substitute" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="11" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
   <compo A="The Who" T="Behind Blue Eyes" type="SONG" mergeable="true" del="true">
@@ -112,7 +112,7 @@
   <compo A="The Who" T="Long Live Rock" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="37" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
-  <compo A="The Who" T="Christmas" type="SONG" mergeable="true" del="false">
+  <compo A="The Who" T="Christmas" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 50 Greatest Who Songs - 2015" publish="2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="38" creation="07/09/2018 13:36:01" size="50"/>
   </compo>
   <compo A="The Who" T="I'm A Boy" type="SONG" mergeable="true" del="false">

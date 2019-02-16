@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Libertines" T="Can't Stand Me Now" type="SONG" mergeable="true" del="false">
+  <compo A="The Libertines" T="Can't Stand Me Now" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Frans Ferdinand" T="Take Me Out" type="SONG" mergeable="true" del="true">
@@ -13,7 +13,7 @@
   <compo A="Jay-Z" T="99 Problems" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="4" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Killers" T="Mr Brightside" type="SONG" mergeable="true" del="false">
+  <compo A="The Killers" T="Mr Brightside" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="5" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Scissor Sisters" T="Take Your Mama" type="SONG" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="Pete Doherty" T="For Lovers" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="18" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Strokes" T="Reptile" type="SONG" mergeable="true" del="false">
+  <compo A="The Strokes" T="Reptile" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="19" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Art Brut" T="Formed A Band" type="SONG" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="Engineers" T="A Given Right" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="33" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="The Killers" T="Somebody Told Me" type="SONG" mergeable="true" del="false">
+  <compo A="The Killers" T="Somebody Told Me" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="34" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Block Party" T="She's Hearing Voices" type="SONG" mergeable="true" del="false">

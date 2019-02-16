@@ -55,7 +55,7 @@
   <compo A="Slayer" T="Angel Of Death" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="18" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="The Only Ones" T="Another Girl, Another Planet" type="SONG" mergeable="true" del="false">
+  <compo A="The Only Ones" T="Another Girl, Another Planet" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="19" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="...And You Will Know Us By The Trail Of Dead" T="Another Morning Stoner" type="SONG" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Jens Lekman" T="Black Cab" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="46" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Violent Femmes" T="Blister In The Sun" type="SONG" mergeable="true" del="false">
+  <compo A="Violent Femmes" T="Blister In The Sun" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="47" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Orange Juice" T="Blue Boy" type="SONG" mergeable="true" del="false">
@@ -649,7 +649,7 @@
   <compo A="The Cure" T="Just Like Heaven" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="216" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Jesus And Mary Chain" T="Just Like Honey" type="SONG" mergeable="true" del="false">
+  <compo A="Jesus And Mary Chain" T="Just Like Honey" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="217" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Gang Starr" T="Just To Get A Rep" type="SONG" mergeable="true" del="false">
@@ -835,10 +835,10 @@
   <compo A="Palace Music" T="New Partner" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="278" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="false">
+  <compo A="The Shins" T="New Slang" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="279" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="U2" T="New Year's Day" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="New Year's Day" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="280" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Misfits" T="Night Of The Living Dead" type="SONG" mergeable="true" del="false">
@@ -1216,7 +1216,7 @@
   <compo A="Massive Attack" T="Teardrop" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="405" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="false">
+  <compo A="Undertones" T="Teenage Kicks" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="406" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Sonic Youth" T="Teenage Riot" type="SONG" mergeable="true" del="true">
@@ -1312,7 +1312,7 @@
   <compo A="Iggy Pop" T="The Passenger" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="437" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Walkmen" T="The Rat" type="SONG" mergeable="true" del="false">
+  <compo A="Walkmen" T="The Rat" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="438" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Eminem" T="The Real Slim Shady" type="SONG" mergeable="true" del="false">

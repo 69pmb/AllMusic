@@ -61,7 +61,7 @@
   <compo A="The Police" T="Don't Stand So Close To Me" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 30 Best Songs of Sting and The Police - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="11" creation="07/09/2018 13:23:43" size="30"/>
   </compo>
-  <compo A="The Police" T="Walking On The Moon" type="SONG" mergeable="true" del="false">
+  <compo A="The Police" T="Walking On The Moon" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 30 Best Songs of Sting and The Police - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="10" creation="07/09/2018 13:23:43" size="30"/>
   </compo>
   <compo A="The Police" T="King Of Pain" type="SONG" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Sting" T="Fragile" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 30 Best Songs of Sting and The Police - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="2" creation="07/09/2018 13:23:43" size="30"/>
   </compo>
-  <compo A="The Police" T="Every Breath You Take" type="SONG" mergeable="true" del="false">
+  <compo A="The Police" T="Every Breath You Take" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 30 Best Songs of Sting and The Police - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="1" creation="07/09/2018 13:23:43" size="30"/>
   </compo>
 </ListCompositions>

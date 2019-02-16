@@ -61,7 +61,7 @@
   <compo A="Katy Perry" T="I Kissed A Girl" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="20" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Vampire Weekend" T="One (Blake's Got A New Face)" type="SONG" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="One (Blake's Got A New Face)" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Jay-Z" T="Swagga Like Us" type="SONG" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Rapture" T="No Sex For Ben" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="26" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Ting Tings" T="Shut Up And Let Me Go" type="SONG" mergeable="true" del="false">
+  <compo A="Ting Tings" T="Shut Up And Let Me Go" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="27" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Kevin Rudolf And Lil Wayne" T="Let It Rock" type="SONG" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="Duffy" T="Warwick Avenue" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="41" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Raconteurs" T="Salute Your Solution" type="SONG" mergeable="true" del="false">
+  <compo A="Raconteurs" T="Salute Your Solution" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="42" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Erykah Badu" T="The Healer" type="SONG" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="She And Him" T="Why Do You Let Me Stay Here?" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="64" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
-  <compo A="Virgins" T="Rich Girls" type="SONG" mergeable="true" del="false">
+  <compo A="Virgins" T="Rich Girls" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="65" creation="08/08/2017 23:13:02" size="100"/>
   </compo>
   <compo A="Jenny Lewis" T="Acid Tongue" type="SONG" mergeable="true" del="false">

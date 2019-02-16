@@ -40,7 +40,7 @@
   <compo A="Geiger" T="Good Evening (SuperMayer Remix)" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="88" creation="25/07/2018 16:09:56" size="100"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Cheated Hearts" type="SONG" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Cheated Hearts" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="87" creation="25/07/2018 16:09:56" size="100"/>
   </compo>
   <compo A="Spank Rock" T="Sweet Talk" type="SONG" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="Peter Bjorn And John" T="Young Folks" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="5" creation="25/07/2018 16:09:56" size="100"/>
   </compo>
-  <compo A="TV on the Radio" T="Wolf Like Me" type="SONG" mergeable="true" del="false">
+  <compo A="TV on the Radio" T="Wolf Like Me" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="4" creation="25/07/2018 16:09:56" size="100"/>
   </compo>
   <compo A="T.I." T="What You Know" type="SONG" mergeable="true" del="false">
