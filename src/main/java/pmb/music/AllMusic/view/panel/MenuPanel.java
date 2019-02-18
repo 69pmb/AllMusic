@@ -14,7 +14,6 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
-import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
@@ -28,6 +27,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.GetProperties;
 import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
 /**
@@ -77,76 +77,58 @@ public final class MenuPanel {
 		final JMenu fichier = new JMenu("Fichier");
 		fichier.setMnemonic(KeyEvent.VK_F);
 
-		final JMenuItem log = new JMenuItem("Ouvrir le fichier de Log");
-		fichier.add(log);
-		log.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_L, ActionEvent.CTRL_MASK));
-		log.addActionListener((ActionEvent ae) -> {
+		ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de Log", KeyEvent.VK_L, (ActionEvent ae) -> {
 			try {
 				FichierUtils.openFileInNotepad(Optional.of(Constant.FILE_LOG_PATH).orElse(null), null);
 			} catch (MyException e) {
 				LOG.error("Error when opening log file", e);
 			}
-		});
+		}, null);
 
-		final JMenuItem config = new JMenuItem("Ouvrir le fichier de configuration");
-		fichier.add(config);
-		config.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, ActionEvent.CTRL_MASK));
-		config.addActionListener((ActionEvent ae) -> {
-			try {
-				FichierUtils.openFileInNotepad(Optional.of(Constant.getConfigPath()).orElse(null), null);
-			} catch (MyException e) {
-				LOG.error("Error when opening config file", e);
-			}
-		});
+		ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de configuration", KeyEvent.VK_P,
+				(ActionEvent ae) -> {
+					try {
+						FichierUtils.openFileInNotepad(Optional.of(Constant.getConfigPath()).orElse(null), null);
+					} catch (MyException e) {
+						LOG.error("Error when opening config file", e);
+					}
+				}, null);
 
-		final JMenuItem modif = new JMenuItem("Ouvrir le fichier de modification");
-		fichier.add(modif);
-		modif.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK));
-		modif.addActionListener((ActionEvent ae) -> {
-			try {
-				FichierUtils.openFileInNotepad(Optional.of(Constant.MODIF_FILE_PATH).orElse(null), null);
-			} catch (MyException e) {
-				LOG.error("Error when opening modif file", e);
-			}
-		});
+		ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de modification", KeyEvent.VK_D,
+				(ActionEvent ae) -> {
+					try {
+						FichierUtils.openFileInNotepad(Optional.of(Constant.MODIF_FILE_PATH).orElse(null), null);
+					} catch (MyException e) {
+						LOG.error("Error when opening modif file", e);
+					}
+				}, null);
 
-		final JMenuItem outputDir = new JMenuItem("Ouvrir le dossier de sortie");
-		fichier.add(outputDir);
-		outputDir.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
-		outputDir.addActionListener((ActionEvent ae) -> {
+		ComponentBuilder.buildMenuItem(fichier, "Ouvrir le dossier de sortie", KeyEvent.VK_O, (ActionEvent ae) -> {
 			try {
 				Desktop.getDesktop().open(new File(Constant.getOutputDir()));
 			} catch (IOException e) {
 				LOG.error("Error when opening output directory", e);
 			}
-		});
+		}, null);
 
-		final JMenuItem xmlDir = new JMenuItem("Ouvrir le dossier des fichiers XML");
-		fichier.add(xmlDir);
-		xmlDir.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_L, ActionEvent.CTRL_MASK));
-		xmlDir.addActionListener((ActionEvent ae) -> {
-			try {
-				Desktop.getDesktop().open(new File(Constant.getXmlPath()));
-			} catch (IOException e) {
-				LOG.error("Error when opening XML files directory", e);
-			}
-		});
+		ComponentBuilder.buildMenuItem(fichier, "Ouvrir le dossier des fichiers XML", KeyEvent.VK_L,
+				(ActionEvent ae) -> {
+					try {
+						Desktop.getDesktop().open(new File(Constant.getXmlPath()));
+					} catch (IOException e) {
+						LOG.error("Error when opening XML files directory", e);
+					}
+				}, null);
 
-		final JMenuItem txtDir = new JMenuItem("Ouvrir le dossier Musique");
-		fichier.add(txtDir);
-		txtDir.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_M, ActionEvent.CTRL_MASK));
-		txtDir.addActionListener((ActionEvent ae) -> {
+		ComponentBuilder.buildMenuItem(fichier, "Ouvrir le dossier Musique", KeyEvent.VK_M, (ActionEvent ae) -> {
 			try {
 				Desktop.getDesktop().open(new File(Constant.getMusicAbsDirectory()));
 			} catch (IOException e) {
 				LOG.error("Error when opening txt files directory", e);
 			}
-		});
+		}, null);
 
-		final JMenuItem close = new JMenuItem("Fermer");
-		fichier.add(close);
-		close.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.CTRL_MASK));
-		close.addActionListener((ActionEvent ae) -> {
+		ComponentBuilder.buildMenuItem(fichier, "Fermer", KeyEvent.VK_Q, (ActionEvent ae) -> {
 			final int option = JOptionPane.showConfirmDialog(null, "Voulez-vous VRAIMENT quitter ?",
 					"Demande confirmation ", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
 			if (option == 0) {
@@ -155,7 +137,7 @@ public final class MenuPanel {
 			} else {
 				// Nothing to do
 			}
-		});
+		}, null);
 		return fichier;
 	}
 
@@ -163,34 +145,31 @@ public final class MenuPanel {
 		final JMenu edition = new JMenu("Edition");
 		edition.setMnemonic(KeyEvent.VK_E);
 
-		final JMenuItem export = new JMenuItem("Exporter le fichier final");
-		export.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		export.addActionListener((ActionEvent ae) -> new Thread(() -> {
-			try {
-				NgExportXml.exportXML(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
-				JOptionPane.showMessageDialog(null, "Final File successfully exported.", "",
-						JOptionPane.INFORMATION_MESSAGE);
-			} catch (IOException e) {
-				LOG.error("Export of final file for Angular failed", e);
-				ExceptionDialog exceptionDialog = new ExceptionDialog("Export of final file for Angular failed",
-						e.getMessage(), e);
-				exceptionDialog.setVisible(true);
-			}
-		}).start());
-		edition.add(export);
+		ComponentBuilder.buildMenuItem(edition, "Exporter le fichier final", KeyEvent.VK_D,
+				(ActionEvent ae) -> new Thread(() -> {
+					try {
+						NgExportXml.exportXML(ImportXML.importXML(Constant.getFinalFilePath()),
+								Constant.getFinalFile());
+						JOptionPane.showMessageDialog(null, "Final File successfully exported.", "",
+								JOptionPane.INFORMATION_MESSAGE);
+					} catch (IOException e) {
+						LOG.error("Export of final file for Angular failed", e);
+						ExceptionDialog exceptionDialog = new ExceptionDialog("Export of final file for Angular failed",
+								e.getMessage(), e);
+						exceptionDialog.setVisible(true);
+					}
+				}).start(), ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK);
 
-		final JMenuItem reloadProperties = new JMenuItem("Recharger le fichier de configuration");
-		reloadProperties.setAccelerator(
-				KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK));
-		reloadProperties.addActionListener((ActionEvent ae) -> {
-			if (GetProperties.reloadProperties()) {
-				JOptionPane.showMessageDialog(null, "Properties successfully reloaded.", "",
-						JOptionPane.INFORMATION_MESSAGE);
-			} else {
-				JOptionPane.showMessageDialog(null, "Error when reloading properties.", "", JOptionPane.ERROR_MESSAGE);
-			}
-		});
-		edition.add(reloadProperties);
+		ComponentBuilder.buildMenuItem(edition, "Recharger le fichier de configuration", KeyEvent.VK_R,
+				(ActionEvent ae) -> {
+					if (GetProperties.reloadProperties()) {
+						JOptionPane.showMessageDialog(null, "Properties successfully reloaded.", "",
+								JOptionPane.INFORMATION_MESSAGE);
+					} else {
+						JOptionPane.showMessageDialog(null, "Error when reloading properties.", "",
+								JOptionPane.ERROR_MESSAGE);
+					}
+				}, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK);
 
 		return edition;
 	}
@@ -226,14 +205,12 @@ public final class MenuPanel {
 
 	private static JMenu helpMenu() {
 		final JMenu aide = new JMenu("Aide");
-		aide.setMnemonic(KeyEvent.VK_H);
-		final JMenuItem help = new JMenuItem("?");
-		help.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_H, ActionEvent.CTRL_MASK));
-		help.addActionListener((ActionEvent ae) -> JOptionPane.showMessageDialog(null,
-				"Ce logiciel permet de gérer les classements et palmarès de chansons et d'albums.\n"
-						+ "Il a été developpé par M. Pierre-Marie Broca de janvier 2017 à septembre 2018.",
-				"HELP", JOptionPane.INFORMATION_MESSAGE));
-		aide.add(help);
+		ComponentBuilder.buildMenuItem(aide, "?", KeyEvent.VK_H,
+				(ActionEvent ae) -> JOptionPane.showMessageDialog(null,
+						"Ce logiciel permet de gérer les classements et palmarès de chansons et d'albums.\n"
+								+ "Il a été developpé par M. Pierre-Marie Broca de janvier 2017 à septembre 2018.",
+						"HELP", JOptionPane.INFORMATION_MESSAGE),
+				null);
 		return aide;
 	}
 

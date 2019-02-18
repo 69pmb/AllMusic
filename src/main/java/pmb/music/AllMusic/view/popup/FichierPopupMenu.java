@@ -9,6 +9,7 @@ import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
 /**
@@ -36,15 +37,15 @@ public class FichierPopupMenu extends PopupMenu {
 		// Open TXT file
 		buildOpenTxtFileMenu(KeyEvent.VK_T, fileNameIndex, null, authorIndex);
 		// Copy clipboard file name
-		buildCopyFileNameMenu(KeyEvent.VK_C, fileNameIndex);
+		buildCopySelectedRowFieldMenu(KeyEvent.VK_C, fileNameIndex, "Copier le nom du fichier");
 		// Modify file
-		buildMenuItem("Modifier le fichier", KeyEvent.VK_E, (ActionEvent e) -> {
+		ComponentBuilder.buildMenuItem(menu, "Modifier le fichier", KeyEvent.VK_E, (ActionEvent e) -> {
 			LOG.debug("Start modifFile");
 			((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, getTable()))
 					.modifyFichierAction((Vector<String>) selectedRow);
 			this.setVisible(false);
 			LOG.debug("End modifFile");
-		});
+		}, null);
 
 		LOG.debug("End FichierPopupMenu");
 	}

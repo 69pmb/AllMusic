@@ -2,22 +2,20 @@ package pmb.music.AllMusic.view.popup;
 
 import java.awt.Point;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.ComponentEvent;
-import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.util.Vector;
 
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.JTable;
-import javax.swing.KeyStroke;
 
 import org.apache.log4j.Logger;
 
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.view.ComponentBuilder;
 
 /**
  * Parent class for creating a popup menu. Contains fields, init methods and
@@ -69,47 +67,18 @@ public class PopupMenu {
 	}
 
 	/**
-	 * Build and add to the popup a {@link JMenuItem}.
-	 * 
-	 * @param text text of the item
-	 * @param shortcut {@link KeyEvent} constant
-	 * @param action {@link ActionListener} of the item
-	 */
-	public void buildMenuItem(String text, int shortcut, ActionListener action) {
-		JMenuItem item = new JMenuItem(text);
-		item.setAccelerator(KeyStroke.getKeyStroke(shortcut, ActionEvent.CTRL_MASK));
-		item.addActionListener(action);
-		menu.add(item);
-	}
-
-	/**
-	 * Builds a {@link JMenuItem} to copy composition title of selected row.
+	 * Builds a {@link JMenuItem} to copy composition a field of selected row.
 	 * 
 	 * @param shortcut shortcut of the menu
-	 * @param titleIndex index of the title in the selected row
+	 * @param index index of the wanted field in the selected row
 	 */
-	public void buildCopyTitleMenu(int shortcut, int titleIndex) {
-		buildMenuItem("Copier le titre", shortcut, (ActionEvent e) -> {
-			LOG.debug("Start copy title");
-			MiscUtils.clipBoardAction((String) selectedRow.get(titleIndex));
+	public void buildCopySelectedRowFieldMenu(int shortcut, int index, String label) {
+		ComponentBuilder.buildMenuItem(menu, label, shortcut, (ActionEvent e) -> {
+			LOG.debug("Start " + label);
+			MiscUtils.clipBoardAction((String) selectedRow.get(index));
 			this.setVisible(false);
-			LOG.debug("End copy title");
-		});
-	}
-
-	/**
-	 * Builds a {@link JMenuItem} to copy composition artist of selected row.
-	 * 
-	 * @param shortcut shortcut of the menu
-	 * @param artistIndex index of the artist in the selected row
-	 */
-	public void buildCopyArtistMenu(int shortcut, int artistIndex) {
-		buildMenuItem("Copier l'artiste", shortcut, (ActionEvent e) -> {
-			LOG.debug("Start copy Artist");
-			MiscUtils.clipBoardAction((String) selectedRow.get(artistIndex));
-			this.setVisible(false);
-			LOG.debug("End copy Artist");
-		});
+			LOG.debug("End copy" + label);
+		}, null);
 	}
 
 	/**
@@ -121,27 +90,12 @@ public class PopupMenu {
 	 * @param artistIndex index of the artist in the selected row
 	 */
 	public void buildCopyArtistAndTitleMenu(int shortcut, int artistIndex, int titleIndex) {
-		buildMenuItem("Copier l'artiste et le titre", shortcut, (ActionEvent e) -> {
+		ComponentBuilder.buildMenuItem(menu, "Copier l'artiste et le titre", shortcut, (ActionEvent e) -> {
 			LOG.debug("Start copy A+T");
 			MiscUtils.clipBoardAction(selectedRow.get(artistIndex) + " " + selectedRow.get(titleIndex));
 			this.setVisible(false);
 			LOG.debug("End copy A+T");
-		});
-	}
-
-	/**
-	 * Builds a {@link JMenuItem} to copy file name of selected row.
-	 * 
-	 * @param shortcut shortcut of the menu
-	 * @param fileNameIndex index of the filename in the selected row
-	 */
-	public void buildCopyFileNameMenu(int shortcut, int fileNameIndex) {
-		buildMenuItem("Copier le nom du fichier", shortcut, (ActionEvent e) -> {
-			LOG.debug("Start copy filename");
-			MiscUtils.clipBoardAction((String) selectedRow.get(fileNameIndex));
-			this.setVisible(false);
-			LOG.debug("End copy filename");
-		});
+		}, null);
 	}
 
 	/**
@@ -152,7 +106,7 @@ public class PopupMenu {
 	 * @param rankIndex index of the rank, to opens editor to a specific line
 	 */
 	public void buildOpenXmlFileMenu(int shortcut, int fileNameIndex, Integer rankIndex) {
-		buildMenuItem("Ouvrir le fichier XML", shortcut, (ActionEvent e) -> {
+		ComponentBuilder.buildMenuItem(menu, "Ouvrir le fichier XML", shortcut, (ActionEvent e) -> {
 			LOG.debug("Start openXml");
 			try {
 				FichierUtils.openFileInNotepad(
@@ -163,7 +117,7 @@ public class PopupMenu {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
 			}
 			LOG.debug("End openXml");
-		});
+		}, null);
 	}
 
 	/**
@@ -175,7 +129,7 @@ public class PopupMenu {
 	 * @param authorIndex index of the artist, to find the directory of the file
 	 */
 	public void buildOpenTxtFileMenu(int shortcut, int fileNameIndex, Integer rankIndex, int authorIndex) {
-		buildMenuItem("Ouvrir le fichier TXT", shortcut, (ActionEvent e) -> {
+		ComponentBuilder.buildMenuItem(menu, "Ouvrir le fichier TXT", shortcut, (ActionEvent e) -> {
 			LOG.debug("Start openTxt");
 			try {
 				FichierUtils.openFileInNotepad(
@@ -187,7 +141,7 @@ public class PopupMenu {
 				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
 			}
 			LOG.debug("End openTxt");
-		});
+		}, null);
 	}
 
 	protected void setVisible(boolean visible) {
