@@ -37,7 +37,7 @@
   <compo A="Morrissey" T="You Are The Quarry" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="12" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="13" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Nick Cave And The Bad Seeds" T="Abbatoir Blues/The Lyre Of Orpheus" type="ALBUM" mergeable="true" del="false">

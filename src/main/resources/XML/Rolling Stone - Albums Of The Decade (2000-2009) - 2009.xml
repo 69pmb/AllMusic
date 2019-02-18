@@ -82,7 +82,7 @@
   <compo A="The Flaming Lips" T="Yoshimi Battles The Pink Robots" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="27" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="28" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Elliott Smith" T="Figure 8" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="42" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="43" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="System Of A Down" T="Toxicity" type="ALBUM" mergeable="true" del="false">
@@ -139,10 +139,10 @@
   <compo A="Justin Timberlake" T="Futuresex/Lovesounds" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="46" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="47" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="48" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Fiona Apple" T="Extraordionary Machine" type="ALBUM" mergeable="true" del="false">
@@ -265,7 +265,7 @@
   <compo A="Brian Wilson" T="Smile" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="88" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="89" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Amadou And Miriam" T="Dimanche A Bamako" type="ALBUM" mergeable="true" del="false">
@@ -274,7 +274,7 @@
   <compo A="The Hives" T="Veni Vidi Vicious" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="91" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="92" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Johnny Cash" T="Unearthed" type="ALBUM" mergeable="true" del="false">

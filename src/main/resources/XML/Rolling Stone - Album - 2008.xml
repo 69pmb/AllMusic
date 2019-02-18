@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Bob Dylan" T="Tell Tale Signs: Bootleg Series Vol 8" type="ALBUM" mergeable="true" del="false">
@@ -31,7 +31,7 @@
   <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Guns N' Roses" T="Chinese Democracy" type="ALBUM" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="Knux" T="Remind Me In Three Days" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="28" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="29" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Duffy" T="Rockferry" type="ALBUM" mergeable="true" del="false">

@@ -16,16 +16,16 @@
   <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="5" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="6" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="7" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
   <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="8" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="9" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
   <compo A="Pavement" T=" Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="11" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="12" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
   <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="71" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="72" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
   <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
@@ -226,7 +226,7 @@
   <compo A="Arctic Monkeys" T="Favourite Worst Nightmare" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="75" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="76" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
   <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Kate Bush" T="50 Words For Snow" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="93" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
-  <compo A="Fleet Foxes" T="Heplessness Blues" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Heplessness Blues" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" publish="2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="94" creation="23/08/2018 13:55:40" size="100"/>
   </compo>
   <compo A="Tom Waits" T="Bad As Me" type="ALBUM" mergeable="true" del="false">

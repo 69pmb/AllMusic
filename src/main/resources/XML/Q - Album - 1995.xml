@@ -106,7 +106,7 @@
   <compo A="Passengers" T="Original Soundtracks 1" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="35" creation="28/08/2018 11:36:11" size="50"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="36" creation="28/08/2018 11:36:11" size="50"/>
   </compo>
   <compo A="Red Hot Chili Peppers" T="One Hot Minute" type="ALBUM" mergeable="true" del="false">

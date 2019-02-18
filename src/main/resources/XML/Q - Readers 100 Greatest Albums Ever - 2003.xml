@@ -22,7 +22,7 @@
   <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="7" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="8" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
@@ -70,13 +70,13 @@
   <compo A="Dr Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="23" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="24" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Coldplay" T="Parachutes" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="25" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Mainstreet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Mainstreet" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="26" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
@@ -163,7 +163,7 @@
   <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="54" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="55" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
@@ -241,7 +241,7 @@
   <compo A="Stereophonics" T="Word Gets Around" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="80" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="81" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="DJ Shadow" T="Endtroducing" type="ALBUM" mergeable="true" del="false">
@@ -283,7 +283,7 @@
   <compo A="Outkast" T="Stankonia" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="94" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="95" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Ash" T="Free All Angels" type="ALBUM" mergeable="true" del="false">

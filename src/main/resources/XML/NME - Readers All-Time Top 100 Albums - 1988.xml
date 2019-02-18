@@ -10,7 +10,7 @@
   <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="3" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="The Smiths" T="A Hatful Of Hollow" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="A Hatful Of Hollow" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="4" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="The Velvet Underground" T="Velvet Underground And Nico" type="ALBUM" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="Elvis Costello" T="Imperial Bedroom" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="14" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Hlghway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Hlghway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="15" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Blood On Thetracks" type="ALBUM" mergeable="true" del="true">
@@ -139,7 +139,7 @@
   <compo A="Prince" T="Parade" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="46" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="47" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Elvis Presley" T="The Sun Sessions" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="John Lennon/Plastic Ono Band" T="John Lennon/Plastic Ono Band" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="49" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="50" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="The Doors" T="L.A, Woman" type="ALBUM" mergeable="true" del="false">

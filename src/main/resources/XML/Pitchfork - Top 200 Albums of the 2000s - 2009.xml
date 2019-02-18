@@ -70,7 +70,7 @@
   <compo A="Broken Social Scene" T="You Forgot It In People" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="23" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever to Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever to Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="24" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
   <compo A="Madvillain" T="Madvillainy" type="ALBUM" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="28" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="29" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
   <compo A="Boards of Canada" T="Geogaddi" type="ALBUM" mergeable="true" del="false">
@@ -94,7 +94,7 @@
   <compo A="TV on the Radio" T="Return to Cookie Mountain" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="31" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
   <compo A="Basement Jaxx" T="Rooty" type="ALBUM" mergeable="true" del="false">
@@ -418,7 +418,7 @@
   <compo A="Love Is All" T="Nine Times That Same Song" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="139" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="TV on the Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV on the Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="140" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
   <compo A="Neko Case" T="Blacklisted" type="ALBUM" mergeable="true" del="false">

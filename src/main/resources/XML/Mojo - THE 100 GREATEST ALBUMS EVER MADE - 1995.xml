@@ -10,10 +10,10 @@
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="3" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="4" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="5" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
@@ -73,7 +73,7 @@
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="24" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="25" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">

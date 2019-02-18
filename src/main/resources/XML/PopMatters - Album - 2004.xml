@@ -112,7 +112,7 @@
   <compo A="SUFJAN STEVENS" T="Seven Swans" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="64" creation="10/08/2018 16:25:18" size="100"/>
   </compo>
-  <compo A="THE KILLERS" T="Hot Fuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="THE KILLERS" T="Hot Fuss" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="63" creation="10/08/2018 16:25:18" size="100"/>
   </compo>
   <compo A="DEERHOOF" T="Milk Man" type="ALBUM" mergeable="true" del="false">

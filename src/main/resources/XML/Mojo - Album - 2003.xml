@@ -16,7 +16,7 @@
   <compo A="My Morning Jacket" T="It Still Moves" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="5" creation="24/08/2018 10:48:30" size="40"/>
   </compo>
-  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="6" creation="24/08/2018 10:48:30" size="40"/>
   </compo>
   <compo A="Emmylou Harris" T="Stumble Into Grace" type="ALBUM" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Terry Hall And Mushtaq" T="The Hour Of Two Lights" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="12" creation="24/08/2018 10:48:30" size="40"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="13" creation="24/08/2018 10:48:30" size="40"/>
   </compo>
   <compo A="Kings Of Leon" T="Youth And Young Manhood" type="ALBUM" mergeable="true" del="false">

@@ -31,7 +31,7 @@
   <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="10" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="11" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
@@ -103,16 +103,16 @@
   <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="34" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="35" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Prodigy" T="Music For The Jilted Generation" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="36" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="37" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="38" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">

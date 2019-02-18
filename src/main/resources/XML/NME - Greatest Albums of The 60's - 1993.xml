@@ -13,7 +13,7 @@
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="4" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="5" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">

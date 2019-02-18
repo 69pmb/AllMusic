@@ -19,7 +19,7 @@
   <compo A="Supergrass" T="I Should Coco" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="6" creation="04/09/2018 10:48:23" size="50"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="7" creation="04/09/2018 10:48:23" size="50"/>
   </compo>
   <compo A="Pj Harvey" T="To Bring You My Love" type="ALBUM" mergeable="true" del="false">

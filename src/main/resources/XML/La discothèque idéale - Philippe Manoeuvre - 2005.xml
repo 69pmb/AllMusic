@@ -127,7 +127,7 @@
   <compo A="Sly and The Family Stone" T="There's a Riot Goin' On" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="42" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Rolling Stones" T="Exile on main street" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Exile on main street" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="43" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Roxy Music" T="Roxy Music" type="ALBUM" mergeable="true" del="false">
@@ -277,7 +277,7 @@
   <compo A="The Black Crowes" T="The Southern Harmony and Musical Companion" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="92" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="93" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Red Hot Chili Peppers" T="One Hot Minute" type="ALBUM" mergeable="true" del="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="1" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Little Richard" T="Here's Little Richard" type="ALBUM" mergeable="true" del="false">
@@ -130,10 +130,10 @@
   <compo A="Wu-Tang Clan" T="Enter The Wu-Tang Clan" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="43" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="44" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="45" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="DJ Shadow" T="Entroducing" type="ALBUM" mergeable="true" del="false">

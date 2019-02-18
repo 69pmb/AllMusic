@@ -70,7 +70,7 @@
   <compo A="Jamie xx" T="In Colour" type="ALBUM" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="3" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
-  <compo A="Father John Misty" T="I Love You, Honeybear" type="ALBUM" mergeable="true" del="false">
+  <compo A="Father John Misty" T="I Love You, Honeybear" type="ALBUM" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="2" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
   <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="true">

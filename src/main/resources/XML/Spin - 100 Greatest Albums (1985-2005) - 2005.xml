@@ -82,7 +82,7 @@
   <compo A="The Cure" T="The Head On The Door" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="27" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="28" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Fugazi" T="13 Songs" type="ALBUM" mergeable="true" del="false">
@@ -217,10 +217,10 @@
   <compo A="Raekwon" T="Only Built 4 Cuban Linx" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="72" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="73" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="74" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Le Tigre" T="Le Tigre" type="ALBUM" mergeable="true" del="false">
@@ -244,7 +244,7 @@
   <compo A="Beck" T="Mellow Gold" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="81" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="82" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="At The Drive-In" T="Relationship Of Command" type="ALBUM" mergeable="true" del="false">
@@ -265,7 +265,7 @@
   <compo A="Stereolab" T="Emperor Tomato Ketchup" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="88" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="89" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Sonic Youth" T="Sister" type="ALBUM" mergeable="true" del="false">

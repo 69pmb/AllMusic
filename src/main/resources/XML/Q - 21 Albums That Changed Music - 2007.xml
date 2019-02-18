@@ -4,7 +4,7 @@
   <compo A="The Beatles" T="Meet The Beatles" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="1" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="2" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
@@ -52,10 +52,10 @@
   <compo A="Dr. Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="17" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="18" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="19" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
   <compo A="Radiohead" T="Ok Computer" type="ALBUM" mergeable="true" del="true">

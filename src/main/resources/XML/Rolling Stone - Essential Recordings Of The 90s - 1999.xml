@@ -79,10 +79,10 @@
   <compo A="Beastie Boys" T="Ill Communication" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="26" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="27" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="28" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Nirvana" T="Mtv Unplugged In New York" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Marilyn Manson" T="Antichrist Superstar" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="42" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="43" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" mergeable="true" del="false">
@@ -358,7 +358,7 @@
   <compo A="Massive Attack" T="Protection" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="119" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="120" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Moby" T="Everything Is Wrong" type="ALBUM" mergeable="true" del="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Top 20 Albums Of The Lifetime Of Q Magazine - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1986" rangeE="2006" sorted="true" rank="1" creation="28/08/2018 14:34:37" size="20"/>
   </compo>
   <compo A="Radiohead" T="Ok Computer" type="ALBUM" mergeable="true" del="true">
@@ -13,7 +13,7 @@
   <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Top 20 Albums Of The Lifetime Of Q Magazine - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1986" rangeE="2006" sorted="true" rank="4" creation="28/08/2018 14:34:37" size="20"/>
   </compo>
-  <compo A="Jeff Buckly" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckly" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Top 20 Albums Of The Lifetime Of Q Magazine - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1986" rangeE="2006" sorted="true" rank="5" creation="28/08/2018 14:34:37" size="20"/>
   </compo>
   <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">

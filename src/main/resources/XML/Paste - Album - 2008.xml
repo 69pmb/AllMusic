@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="50" creation="31/08/2018 10:27:53" size="50"/>
   </compo>
   <compo A="Sandra McCracken" T="Red Balloon" type="ALBUM" mergeable="true" del="false">
@@ -133,13 +133,13 @@
   <compo A="Girl Talk" T="Feed The Animals" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="7" creation="31/08/2018 10:27:53" size="50"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="6" creation="31/08/2018 10:27:53" size="50"/>
   </compo>
   <compo A="Okkervil River" T="The Stand Ins" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="5" creation="31/08/2018 10:27:53" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="31/08/2018 10:27:53" size="50"/>
   </compo>
   <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">

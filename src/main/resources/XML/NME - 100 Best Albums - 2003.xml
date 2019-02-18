@@ -37,7 +37,7 @@
   <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="12" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="13" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
@@ -103,7 +103,7 @@
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="34" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="35" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Kraftwerk" T="Trans-Europe Express" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="The Stooges" T="Fun House" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="42" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="43" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
@@ -151,10 +151,10 @@
   <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="50" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="51" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Mainstreet" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Mainstreet" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Slint" T="Spiderland" type="ALBUM" mergeable="true" del="false">

@@ -64,7 +64,7 @@
   <compo A="Stooges" T="Fun House" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Albums - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="36" creation="24/08/2018 10:36:47" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Albums - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="37" creation="24/08/2018 10:36:47" size="100"/>
   </compo>
   <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <compo A="Queen" T="Sheer Heart Attack" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Albums - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="88" creation="24/08/2018 10:36:47" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Records That Changed the World - Albums - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="89" creation="24/08/2018 10:36:47" size="100"/>
   </compo>
   <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">

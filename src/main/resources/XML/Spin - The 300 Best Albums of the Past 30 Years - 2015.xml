@@ -40,7 +40,7 @@
   <compo A="Tyler, The Creator" T="Goblin" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="288" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="287" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Sugar" T="Copper Blue" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="The Books" T="Thought For Food" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="285" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="284" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Superchunk" T="I Hate Music" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Bruce Springsteen" T="Tunnel Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="259" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="258" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="The Chills" T="Submarine Bells" type="ALBUM" mergeable="true" del="false">
@@ -334,7 +334,7 @@
   <compo A="Boredoms" T="Super Ae" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="190" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="189" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Nine Inch Nails" T="Pretty Hate Machine" type="ALBUM" mergeable="true" del="false">
@@ -358,7 +358,7 @@
   <compo A="The Smiths" T="Strangeways, Here We Come" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="182" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="181" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Four Tet" T="Rounds" type="ALBUM" mergeable="true" del="false">
@@ -421,7 +421,7 @@
   <compo A="Massive Attack" T="Mezzanine" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="161" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="160" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="The Postal Service" T="Give Up" type="ALBUM" mergeable="true" del="false">
@@ -718,7 +718,7 @@
   <compo A="Eric B. And Rakim" T="Paid In Full" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="62" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="61" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Vampire Weekend" T="Modern Vampires Of The City" type="ALBUM" mergeable="true" del="false">
@@ -796,7 +796,7 @@
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="36" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="35" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="false">

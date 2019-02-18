@@ -19,7 +19,7 @@
   <compo A="BOB DYLAN" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 50 Essential Albums of the 70's - 1990" publish="1990" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="6" creation="07/09/2018 14:04:16" size="50"/>
   </compo>
-  <compo A="THE ROLLING STONES" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="THE ROLLING STONES" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 50 Essential Albums of the 70's - 1990" publish="1990" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="7" creation="07/09/2018 14:04:16" size="50"/>
   </compo>
   <compo A="JOHN LENNON" T="Plastic Ono Band" type="ALBUM" mergeable="true" del="false">

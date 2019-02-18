@@ -64,7 +64,7 @@
   <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="21" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="22" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
   <compo A="The Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="39" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Neil Young" T="Harvest Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Harvest Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="40" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
   <compo A="Guns N' Roses" T="Use Your Illusion I And II" type="ALBUM" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Jay-Z" T="Vol. 2...Hard Knock Life" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="46" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="47" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
   <compo A="Weezer" T="Pinkerton" type="ALBUM" mergeable="true" del="false">
@@ -232,7 +232,7 @@
   <compo A="Neil Young" T="Ragged Glory" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="77" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="78" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
   <compo A="Guided By Voices" T="Bee Thousand" type="ALBUM" mergeable="true" del="false">
@@ -253,7 +253,7 @@
   <compo A="Marilyn Manson" T="Antichrist Superstar" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="84" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="85" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
   <compo A="Yo La Tengo" T="I Can Hear The Heart Beating As One" type="ALBUM" mergeable="true" del="false">
