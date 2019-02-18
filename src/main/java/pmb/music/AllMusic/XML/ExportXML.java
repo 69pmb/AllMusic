@@ -43,7 +43,7 @@ public class ExportXML {
 	 * 
 	 * @param compList List<{@link Composition}> les compositions à sauvegarder
 	 * @param fileName {@link String} le nom du fichier
-	 * @throws IOException
+	 * @throws IOException if error the file when saving file
 	 */
 	public static void exportXML(List<Composition> compList, String fileName) throws IOException {
 		LOG.debug("Start exportXML: " + fileName);
