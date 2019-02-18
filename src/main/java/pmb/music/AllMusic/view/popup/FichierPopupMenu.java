@@ -9,9 +9,6 @@ import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
 
-import pmb.music.AllMusic.utils.FichierUtils;
-import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
 /**
@@ -35,39 +32,11 @@ public class FichierPopupMenu extends PopupMenu {
 		LOG.debug("Start FichierPopupMenu");
 
 		// Open XML file
-		buildMenuItem("Ouvrir le fichier XML", KeyEvent.VK_X, (ActionEvent e) -> {
-			LOG.debug("Start openXml");
-			try {
-				FichierUtils.openFileInNotepad(
-						FichierUtils.buildXmlFilePath((String) selectedRow.get(fileNameIndex)).orElse(null), null);
-				this.setVisible(false);
-			} catch (MyException e1) {
-				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
-			}
-			LOG.debug("End openXml");
-		});
-
+		buildOpenXmlFileMenu(KeyEvent.VK_X, fileNameIndex, null);
 		// Open TXT file
-		buildMenuItem("Ouvrir le fichier TXT", KeyEvent.VK_T, (ActionEvent e) -> {
-			LOG.debug("Start openTxt");
-			try {
-				FichierUtils.openFileInNotepad(FichierUtils.buildTxtFilePath((String) selectedRow.get(fileNameIndex),
-						(String) selectedRow.get(authorIndex)).orElse(null), null);
-				this.setVisible(false);
-			} catch (MyException e1) {
-				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
-			}
-			LOG.debug("End openTxt");
-		});
-
+		buildOpenTxtFileMenu(KeyEvent.VK_T, fileNameIndex, null, authorIndex);
 		// Copy clipboard file name
-		buildMenuItem("Copier le nom du fichier", KeyEvent.VK_C, (ActionEvent e) -> {
-			LOG.debug("Start copy");
-			MiscUtils.clipBoardAction((String) selectedRow.get(fileNameIndex));
-			this.setVisible(false);
-			LOG.debug("End copy");
-		});
-
+		buildCopyFileNameMenu(KeyEvent.VK_C, fileNameIndex);
 		// Modify file
 		buildMenuItem("Modifier le fichier", KeyEvent.VK_E, (ActionEvent e) -> {
 			LOG.debug("Start modifFile");
