@@ -489,8 +489,8 @@ public class AppTest {
 	}
 
 	public static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName) {
-		BigDecimal doubleMedian = CompositionUtils.getDoubleMedian(type, importXML);
-		BigDecimal logMax = CompositionUtils.getLogMax(type, importXML);
+		BigDecimal doubleMedian = CompositionUtils.getDoubleMedian(importXML);
+		BigDecimal logMax = CompositionUtils.getLogMax(importXML);
 
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());

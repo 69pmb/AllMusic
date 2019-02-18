@@ -546,15 +546,15 @@ public final class CompositionUtils {
 	}
 
 	/**
-	 * Calculates the {@link Score} doubleMedian for the given type. The median of
+	 * Calculates the {@link Score} doubleMedian. The median of
 	 * all ranking multiply by 2.
 	 * 
-	 * @param type {@link RecordType}
 	 * @param list {@code List<Composition>}
+	 * 
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getDoubleMedian(RecordType type, List<Composition> list) {
-		return getMedian(type, list).multiply(BigDecimal.valueOf(2));
+	public static BigDecimal getDoubleMedian(List<Composition> list) {
+		return getMedian(list).multiply(BigDecimal.valueOf(2));
 	}
 
 	/**
@@ -587,12 +587,12 @@ public final class CompositionUtils {
 	 * Calculates the {@link Score} logMax for the given type. Max is the biggest
 	 * size of all files. LogMax is {@code Log10(max) * max}.
 	 * 
-	 * @param type {@link RecordType}
 	 * @param list {@code List<Composition>}
+	 * 
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getLogMax(RecordType type, List<Composition> list) {
-		BigDecimal max = getMax(type, list);
+	public static BigDecimal getLogMax(List<Composition> list) {
+		BigDecimal max = getMax(list);
 		return BigDecimal.valueOf(Math.log10(max.doubleValue())).multiply(max);
 	}
 
@@ -657,13 +657,13 @@ public final class CompositionUtils {
 	}
 
 	/**
-	 * La medianne de tous les classements des fichiers du type donné.
+	 * La medianne de tous les classements des fichiers.
 	 * 
-	 * @param type {@link RecordType}
 	 * @param list {@code List<Composition>}
+	 * 
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getMedian(RecordType type, List<Composition> list) {
+	public static BigDecimal getMedian(List<Composition> list) {
 		List<Integer> rankList = list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(MiscUtils.median(rankList));
@@ -672,11 +672,11 @@ public final class CompositionUtils {
 	/**
 	 * La taille maximum des fichiers du type donné.
 	 * 
-	 * @param type {@link RecordType}
 	 * @param list {@code List<Composition>}
+	 * 
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getMax(RecordType type, List<Composition> list) {
+	public static BigDecimal getMax(List<Composition> list) {
 		List<Integer> rankList = list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return new BigDecimal(rankList.parallelStream().mapToInt(Integer::intValue).max().orElse(1));
