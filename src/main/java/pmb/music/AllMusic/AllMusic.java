@@ -36,7 +36,7 @@ public final class AllMusic {
 	/**
 	 * La méthode d'entrée du programme.
 	 * 
-	 * @param args
+	 * @param args if opens with artist panel
 	 */
 	public static void main(String[] args) {
 		LOG.debug("Lancement de AllMusic");
