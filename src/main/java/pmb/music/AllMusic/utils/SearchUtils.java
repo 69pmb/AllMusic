@@ -356,14 +356,14 @@ public final class SearchUtils {
 					o.isDeleted(), o.isCanBeMerged()));
 			if (result == -1) {
 				int i = -1;
-				Composition composition = list.get(0);
-				while (i < list.size() && !(StringUtils.equals(composition.getArtist(), o.getArtist())
-							&& StringUtils.equals(composition.getTitre(), o.getTitre())
-							&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
-						&& composition.getFiles().size() == o.getFiles().size())) {
+				Composition composition;
+				do {
 					i++;
 					composition = list.get(i);
-				}
+				} while (i < list.size() && !(StringUtils.equals(composition.getArtist(), o.getArtist())
+						&& StringUtils.equals(composition.getTitre(), o.getTitre())
+						&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
+						&& composition.getFiles().size() == o.getFiles().size()));
 				if (i == list.size()) {
 					LOG.error("Error in indexOf: " + o);
 				} else {
