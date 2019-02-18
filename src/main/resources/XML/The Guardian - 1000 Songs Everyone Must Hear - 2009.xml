@@ -28,7 +28,7 @@
   <compo A="Beatles" T="She Loves You" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="9" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Beatles" T="Something" type="SONG" mergeable="true" del="false">
+  <compo A="Beatles" T="Something" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="10" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Beatles" T="With A Little Help From My Friends" type="SONG" mergeable="true" del="true">
@@ -883,7 +883,7 @@
   <compo A="Beatles" T="Eleanor Rigby" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="294" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Beatles" T="Penny Lane" type="SONG" mergeable="true" del="false">
+  <compo A="Beatles" T="Penny Lane" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="295" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Beatles" T="She's Leaving Home" type="SONG" mergeable="true" del="true">
@@ -1705,10 +1705,10 @@
   <compo A="Beat (UK)" T="Stand Down Margaret" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="568" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Beatles" T="I Am The Walrus" type="SONG" mergeable="true" del="false">
+  <compo A="Beatles" T="I Am The Walrus" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="569" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="The Beatles" T="Revolution" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Revolution" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="570" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Black Sabbath" T="War Pigs" type="SONG" mergeable="true" del="false">
