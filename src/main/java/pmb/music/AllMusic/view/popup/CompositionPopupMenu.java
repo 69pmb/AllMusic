@@ -9,7 +9,6 @@ import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
 
-import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.view.ModificationComposition;
 
 /**
@@ -33,29 +32,11 @@ public class CompositionPopupMenu extends PopupMenu {
 		LOG.debug("Start CompositionPopupMenu");
 
 		// Copy clipboard artist and title
-		buildMenuItem("Copier l'artiste et le titre", KeyEvent.VK_C, (ActionEvent e) -> {
-			LOG.debug("Start copy A+T");
-			MiscUtils.clipBoardAction(selectedRow.get(artistIndex) + " " + selectedRow.get(titleIndex));
-			this.setVisible(false);
-			LOG.debug("End copy A+T");
-		});
-
+		buildCopyArtistAndTitleMenu(KeyEvent.VK_C, artistIndex, titleIndex);
 		// Copy clipboard artist
-		buildMenuItem("Copier l'artiste", KeyEvent.VK_A, (ActionEvent e) -> {
-			LOG.debug("Start copy A");
-			MiscUtils.clipBoardAction((String) selectedRow.get(artistIndex));
-			this.setVisible(false);
-			LOG.debug("End copy A");
-		});
-
+		buildCopyArtistMenu(KeyEvent.VK_A, artistIndex);
 		// Copy clipboard title
-		buildMenuItem("Copier le titre", KeyEvent.VK_T, (ActionEvent e) -> {
-			LOG.debug("Start copy T");
-			MiscUtils.clipBoardAction((String) selectedRow.get(titleIndex));
-			this.setVisible(false);
-			LOG.debug("End copy T");
-		});
-
+		buildCopyTitleMenu(KeyEvent.VK_T, titleIndex);
 		if (type != null) {
 			// Modify composition
 			buildMenuItem("Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {
