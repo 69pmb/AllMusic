@@ -545,8 +545,8 @@ public final class CompositionUtils {
 	}
 
 	/**
-	 * Calculates the {@link Score} doubleMedian. The median of
-	 * all ranking multiply by 2.
+	 * Calculates the {@link Score} doubleMedian. The median of all ranking multiply
+	 * by 2.
 	 * 
 	 * @param list {@code List<Composition>}
 	 * 
@@ -559,11 +559,10 @@ public final class CompositionUtils {
 	/**
 	 * Calculates the {@link Score} decile limit for the given type.
 	 * 
-	 * @param type {@link RecordType}
 	 * @param list {@code List<Composition>}
 	 * @return {@link List<Integer>}
 	 */
-	public static List<Double> getDecileLimit(RecordType type, List<Composition> list) {
+	public static List<Double> getDecileLimit(List<Composition> list) {
 		Map<Composition, Long> collectedMap = list.stream()
 				.collect(Collectors.toMap(c -> c,
 						composition -> calculateCompositionScore(

@@ -100,8 +100,10 @@ public final class CleanFile {
 	 * Mofifie les fichiers spécifiés: Remplace suivant le fichier modif.txt des
 	 * caractères par d'autres. Supprime tous les diacritiques.
 	 * 
-	 * @param result
-	 * @param args
+	 * @param folder a folder or a file
+	 * @param isCompleteDirectory if true processes all files in folder, otherwise
+	 *            only given file
+	 * @param result a list of string that will holds the name of the file processed
 	 */
 	public static void miseEnForme(File folder, boolean isCompleteDirectory, List<String> result) {
 		LOG.debug("Start miseEnForme");

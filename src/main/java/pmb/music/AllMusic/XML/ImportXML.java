@@ -84,7 +84,7 @@ public final class ImportXML {
 	 * @param dirName le dossier où se situe les fichiers
 	 * @param resultLabel {@link JTextArea} la zone de texte pour afficher
 	 * @return la liste des {@link Composition} des fichiers
-	 * @throws IOException
+	 * @throws IOException if error when exporting final file
 	 */
 	public static List<Composition> fusionFiles(String dirName, final JTextArea resultLabel) throws IOException {
 		LOG.debug("Start fusionFiles");
