@@ -134,10 +134,10 @@ public class OngletPanel extends JPanel {
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		List<Composition> songs = getByType(importXML, RecordType.SONG, true);
 		List<Composition> albums = getByType(importXML, RecordType.ALBUM, true);
-		score.setLogMaxAlbum(CompositionUtils.getLogMax(RecordType.ALBUM, albums));
-		score.setLogMaxSong(CompositionUtils.getLogMax(RecordType.SONG, songs));
-		score.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(RecordType.ALBUM, albums));
-		score.setDoubleMedianSong(CompositionUtils.getDoubleMedian(RecordType.SONG, songs));
+		score.setLogMaxAlbum(CompositionUtils.getLogMax(albums));
+		score.setLogMaxSong(CompositionUtils.getLogMax(songs));
+		score.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(albums));
+		score.setDoubleMedianSong(CompositionUtils.getDoubleMedian(songs));
 		score.setDecileLimitSong(
 				CompositionUtils.getDecileLimit(RecordType.SONG, getByType(importXML, RecordType.SONG, false)));
 		score.setDecileLimitAlbum(
