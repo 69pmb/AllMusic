@@ -610,7 +610,7 @@
   <compo A="New Order" T="Bizarre Love Triangle" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="204" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Come Together" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Come Together" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="205" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Positively 4th Street" type="SONG" mergeable="true" del="true">
@@ -829,7 +829,7 @@
   <compo A="Chuck Berry" T="Sweet Little Sixteen" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="277" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Something" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Something" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="278" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Jefferson Airplane" T="Somebody to Love" type="SONG" mergeable="true" del="true">
@@ -1363,7 +1363,7 @@
   <compo A="The Velvet Underground" T="Heroin" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="455" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Penny Lane" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Penny Lane" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="456" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Chubby Checker" T="The Twist" type="SONG" mergeable="true" del="false">
