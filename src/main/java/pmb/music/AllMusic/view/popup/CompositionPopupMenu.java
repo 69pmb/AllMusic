@@ -9,6 +9,7 @@ import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.ModificationComposition;
 
 /**
@@ -34,18 +35,18 @@ public class CompositionPopupMenu extends PopupMenu {
 		// Copy clipboard artist and title
 		buildCopyArtistAndTitleMenu(KeyEvent.VK_C, artistIndex, titleIndex);
 		// Copy clipboard artist
-		buildCopyArtistMenu(KeyEvent.VK_A, artistIndex);
+		buildCopySelectedRowFieldMenu(KeyEvent.VK_A, artistIndex, "Copier l'artiste");
 		// Copy clipboard title
-		buildCopyTitleMenu(KeyEvent.VK_T, titleIndex);
+		buildCopySelectedRowFieldMenu(KeyEvent.VK_T, titleIndex, "Copier le titre");
 		if (type != null) {
 			// Modify composition
-			buildMenuItem("Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {
+			ComponentBuilder.buildMenuItem(menu, "Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {
 				LOG.debug("Start modifComposition");
 				type.cast(SwingUtilities.getAncestorOfClass(type, getTable()))
 						.modifyCompositionAction((Vector<String>) selectedRow);
 				this.setVisible(false);
 				LOG.debug("End modifComposition");
-			});
+			}, null);
 		}
 
 		LOG.debug("End CompositionPopupMenu");

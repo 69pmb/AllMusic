@@ -34,11 +34,11 @@ public class DialogFilePopupMenu extends PopupMenu {
 		// Copy clipboard artist and title
 		buildCopyArtistAndTitleMenu(KeyEvent.VK_C, artistIndex, titleIndex);
 		// Copy clipboard artist
-		buildCopyArtistMenu(KeyEvent.VK_A, artistIndex);
+		buildCopySelectedRowFieldMenu(KeyEvent.VK_A, artistIndex, "Copier l'artiste");
 		// Copy clipboard title
-		buildCopyTitleMenu(KeyEvent.VK_I, titleIndex);
+		buildCopySelectedRowFieldMenu(KeyEvent.VK_I, titleIndex, "Copier le titre");
 		// Copy clipboard file name
-		buildCopyFileNameMenu(KeyEvent.VK_C, fileNameIndex);
+		buildCopySelectedRowFieldMenu(KeyEvent.VK_C, fileNameIndex, "Copier le nom du fichier");
 
 		LOG.debug("End DialogFilePopupMenu");
 	}

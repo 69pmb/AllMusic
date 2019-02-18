@@ -4,8 +4,11 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
+import java.awt.event.KeyEvent;
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,9 +17,11 @@ import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
+import javax.swing.KeyStroke;
 import javax.swing.SwingConstants;
 import javax.swing.UIManager;
 import javax.swing.text.SimpleAttributeSet;
@@ -292,6 +297,24 @@ public class ComponentBuilder<T> {
 			PanelUtils.setSize(jLabel, width, LABEL_HEIGHT);
 		}
 		return jLabel;
+	}
+
+	/**
+	 * Build and add to the given menu a {@link JMenuItem}.
+	 * 
+	 * @param menu the menu where the item will be added
+	 * @param text text of the item
+	 * @param shortcut {@link KeyEvent} constant
+	 * @param action {@link ActionListener} of the item
+	 * @param keyStroke {@link ActionEvent} constant, if null set
+	 *            {@code ActionEvent.CTRL_MASK}
+	 */
+	public static void buildMenuItem(JComponent menu, String text, int shortcut, ActionListener action,
+			Integer keyStroke) {
+		JMenuItem item = new JMenuItem(text);
+		item.setAccelerator(KeyStroke.getKeyStroke(shortcut, keyStroke == null ? ActionEvent.CTRL_MASK : keyStroke));
+		item.addActionListener(action);
+		menu.add(item);
 	}
 
 	/**
