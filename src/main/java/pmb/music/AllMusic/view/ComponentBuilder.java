@@ -188,7 +188,7 @@ public class ComponentBuilder<T> {
 		JCheckBox checkBox = new JCheckBox();
 		PanelUtils.setSize(checkBox, config.getComponentWidth(), ComponentBuilder.COMPONENT_HEIGHT);
 		if (config.getInitialValue() != null) {
-			checkBox.setSelected((boolean) config.getInitialValue());
+			checkBox.setSelected((Boolean) config.getInitialValue());
 		}
 		checkBox.setHorizontalAlignment(SwingConstants.CENTER);
 		panel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
