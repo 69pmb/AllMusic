@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="1" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
   <compo A="Lil Wayne" T="Tha Carter III" type="ALBUM" mergeable="true" del="false">
@@ -13,7 +13,7 @@
   <compo A="Fucked Up" T="Chemistry Of Common Life" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="5" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
   <compo A="Santogold" T="Santogold" type="ALBUM" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <compo A="Lucinda Williams" T="Little Honey" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="30" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="31" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
   <compo A="Gutter Twins" T="Saturnalia" type="ALBUM" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="Wolf Parade" T="At Mount Zoomer" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="37" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
-  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="38" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
   <compo A="Guns N' Roses" T="Chinese Democracy" type="ALBUM" mergeable="true" del="false">

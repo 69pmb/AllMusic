@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="1" creation="24/08/2018 10:51:03" size="50"/>
   </compo>
   <compo A="Last Shadow Puppets" T="Age Of The Understatement" type="ALBUM" mergeable="true" del="false">
@@ -10,7 +10,7 @@
   <compo A="Paul Weller" T="22 Dreams" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="3" creation="24/08/2018 10:51:03" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="24/08/2018 10:51:03" size="50"/>
   </compo>
   <compo A="Nick Cave And The Bad Seeds" T="Dig!!! Lazarus, Dig!!!" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Beck" T="Modern Guilt" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="19" creation="24/08/2018 10:51:03" size="50"/>
   </compo>
-  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="20" creation="24/08/2018 10:51:03" size="50"/>
   </compo>
   <compo A="Amadou And Mariam" T="Welcome To Mali" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Neil Cowley Trio" T="Loud... Louder... Stop!" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="49" creation="24/08/2018 10:51:03" size="50"/>
   </compo>
-  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="50" creation="24/08/2018 10:51:03" size="50"/>
   </compo>
 </ListCompositions>

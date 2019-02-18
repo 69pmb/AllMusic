@@ -175,7 +175,7 @@
   <compo A="Air" T="Talkie Walkie" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="58" creation="03/09/2018 10:36:05" size="70"/>
   </compo>
-  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="59" creation="03/09/2018 10:36:05" size="70"/>
   </compo>
   <compo A="Polly Paulusma" T="Scissors In My Pocket" type="ALBUM" mergeable="true" del="false">

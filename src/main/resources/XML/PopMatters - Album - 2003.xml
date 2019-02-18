@@ -115,7 +115,7 @@
   <compo A="WARREN ZEVON" T="The Wind" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="13" creation="10/08/2018 16:40:30" size="50"/>
   </compo>
-  <compo A="RADIOHEAD" T="Hail to the Thief" type="ALBUM" mergeable="true" del="false">
+  <compo A="RADIOHEAD" T="Hail to the Thief" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="12" creation="10/08/2018 16:40:30" size="50"/>
   </compo>
   <compo A="DRIVE-BY TRUCKERS" T="Decoration Day" type="ALBUM" mergeable="true" del="false">

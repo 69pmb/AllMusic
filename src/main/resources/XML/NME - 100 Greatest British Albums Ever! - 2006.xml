@@ -7,7 +7,7 @@
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="2" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="3" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
@@ -19,7 +19,7 @@
   <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="6" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="7" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="The Verve" T="A Northern Soul" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="13" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="14" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="25" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="26" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Pj Harvey" T="Dry" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="The Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="42" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="43" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">

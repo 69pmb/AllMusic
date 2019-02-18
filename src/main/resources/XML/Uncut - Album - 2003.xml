@@ -76,7 +76,7 @@
   <compo A="Basement Jaxx" T="Kish Kash" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="25" creation="03/09/2018 10:35:50" size="70"/>
   </compo>
-  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="26" creation="03/09/2018 10:35:50" size="70"/>
   </compo>
   <compo A="David Bowie" T="Reality" type="ALBUM" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="James Kirk" T="You Can Make It If You Boogie" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="28" creation="03/09/2018 10:35:50" size="70"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="29" creation="03/09/2018 10:35:50" size="70"/>
   </compo>
   <compo A="Steely Dan" T="Everything Must Go" type="ALBUM" mergeable="true" del="false">

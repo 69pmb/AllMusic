@@ -91,13 +91,13 @@
   <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="30" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="31" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="De La Soul" T="Three Feet High And Rising" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="32" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="33" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
@@ -124,10 +124,10 @@
   <compo A="Boston" T="Boston" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="41" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="42" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="43" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="Black Sabbath" T="Black Sabbath" type="ALBUM" mergeable="true" del="false">
@@ -166,7 +166,7 @@
   <compo A="Missy &quot;Misdemeanor&quot; Elliot" T="Supa Dupa Fly" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="55" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="56" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <compo A="Nine Inch Nails" T="Pretty Hate Machine" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="58" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="59" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="Fiona Apple" T="Tidal" type="ALBUM" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="78" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Debut Albums of All Time - 2013" publish="2013" cat="THEME" rangeB="0" rangeE="2013" sorted="true" rank="79" creation="07/09/2018 14:03:23" size="100"/>
   </compo>
   <compo A="The Byrds" T="Mr. Tambourine Man" type="ALBUM" mergeable="true" del="false">

@@ -7,7 +7,7 @@
   <compo A="Fugees" T="The Score" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="2" creation="30/08/2018 10:34:41" size="20"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="3" creation="30/08/2018 10:34:41" size="20"/>
   </compo>
   <compo A="Imperial Teen" T="Seasick" type="ALBUM" mergeable="true" del="false">

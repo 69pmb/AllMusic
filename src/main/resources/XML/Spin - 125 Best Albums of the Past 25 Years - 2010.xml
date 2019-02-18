@@ -121,7 +121,7 @@
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="40" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="41" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
@@ -139,7 +139,7 @@
   <compo A="N.W.A." T="Straight Outta Compton" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="46" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="47" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Elliott Smith" T="Either/Or" type="ALBUM" mergeable="true" del="false">
@@ -211,7 +211,7 @@
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="70" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="71" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Lucinda Williams" T="Lucinda Williams" type="ALBUM" mergeable="true" del="false">
@@ -262,7 +262,7 @@
   <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="87" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="88" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Basement Jaxx" T="Remedy" type="ALBUM" mergeable="true" del="false">

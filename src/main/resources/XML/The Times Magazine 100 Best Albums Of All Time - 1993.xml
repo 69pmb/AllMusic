@@ -13,7 +13,7 @@
   <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="4" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="5" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Are You Experienced" type="ALBUM" mergeable="true" del="false">

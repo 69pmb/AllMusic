@@ -31,7 +31,7 @@
   <compo A="Brian Eno" T="Another Green World" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="10" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile on Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile on Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="11" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="The Stooges" T="Funhouse" type="ALBUM" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="Randy Newman" T="Sail Away" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="79" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="80" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">

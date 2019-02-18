@@ -442,7 +442,7 @@
   <compo A="Trisha Yearwood" T="Songbook" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="147" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="148" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Townes Van Zandt" T="Live At The Old Quarter, Houston Texas" type="ALBUM" mergeable="true" del="false">
@@ -1591,7 +1591,7 @@
   <compo A="Jackson Browne" T="Late For The Sky" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="530" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="531" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Tim Buckley" T="Happy Sad" type="ALBUM" mergeable="true" del="false">
@@ -1723,7 +1723,7 @@
   <compo A="Bob Dylan" T="Empire Burlesque" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="574" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="575" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Bob Dylan" T="John Wesley Harding" type="ALBUM" mergeable="true" del="false">
@@ -1987,7 +1987,7 @@
   <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="662" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="663" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Only Ones" T="The Immortal Story 1977-1980" type="ALBUM" mergeable="true" del="false">
@@ -2050,7 +2050,7 @@
   <compo A="Public Image Ltd" T="Metal Box" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="683" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="684" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Queens Of The Stone Age" T="Queens Of The Stone Age" type="ALBUM" mergeable="true" del="false">
@@ -2089,7 +2089,7 @@
   <compo A="Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="696" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="697" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">

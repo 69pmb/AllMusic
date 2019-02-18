@@ -118,7 +118,7 @@
   <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="32" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="31" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" mergeable="true" del="true">
@@ -202,7 +202,7 @@
   <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="4" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main St." type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main St." type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="3" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">

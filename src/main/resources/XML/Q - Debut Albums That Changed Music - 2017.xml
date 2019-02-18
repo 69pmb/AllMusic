@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="1" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Gene Vincent And His Blue Caps" T="Bluejean Bop!" type="ALBUM" mergeable="true" del="false">
@@ -244,16 +244,16 @@
   <compo A="Nas" T="Illmatic" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="81" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="82" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="83" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="WEEZER" T="The Blue Album" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="84" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="85" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="The Chemical Brothers" T="Exit Planet Dust" type="ALBUM" mergeable="true" del="false">
@@ -310,7 +310,7 @@
   <compo A="Burial" T="Burial" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="103" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="104" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">

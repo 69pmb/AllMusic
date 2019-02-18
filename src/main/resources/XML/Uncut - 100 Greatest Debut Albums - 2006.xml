@@ -88,7 +88,7 @@
   <compo A="Nick Drake" T="Five Leaves Left" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="29" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="30" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
@@ -133,7 +133,7 @@
   <compo A="Orange Juice" T="You Can't Hide Your Love Forever" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="44" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="45" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Slits" T="Cut" type="ALBUM" mergeable="true" del="false">
@@ -253,7 +253,7 @@
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="84" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="85" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Undertones" T="Undertones" type="ALBUM" mergeable="true" del="false">

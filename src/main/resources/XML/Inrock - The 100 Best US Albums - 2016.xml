@@ -166,7 +166,7 @@
   <compo A="MGMT" T="Congratulations" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="55" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="56" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
   <compo A="The Cars" T="The Cars" type="ALBUM" mergeable="true" del="false">
@@ -217,7 +217,7 @@
   <compo A="Hursker Du" T="Zen Arcade" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="72" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="73" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
   <compo A="Curtis Mayfield" T="Curtis" type="ALBUM" mergeable="false" del="false">
@@ -292,7 +292,7 @@
   <compo A="Bo Diddley" T="Bo Diddley" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="97" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best US Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="98" creation="10/09/2018 13:45:10" size="100"/>
   </compo>
   <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">

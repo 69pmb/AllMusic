@@ -4,10 +4,10 @@
   <compo A="Portishead" T="Third" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="1" creation="10/08/2018 15:41:15" size="60"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="2" creation="10/08/2018 15:41:15" size="60"/>
   </compo>
-  <compo A="TV on the Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV on the Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="3" creation="10/08/2018 15:41:15" size="60"/>
   </compo>
   <compo A="Erykah Badu" T="New Amerykah Part I: 4th World War" type="ALBUM" mergeable="false" del="false">
@@ -88,7 +88,7 @@
   <compo A="Q-Tip" T="The Renaissance" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="29" creation="10/08/2018 15:41:15" size="60"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="30" creation="10/08/2018 15:41:15" size="60"/>
   </compo>
   <compo A="Jamie Lidell" T="Jim" type="ALBUM" mergeable="true" del="false">

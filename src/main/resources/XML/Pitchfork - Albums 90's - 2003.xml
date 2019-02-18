@@ -142,7 +142,7 @@
   <compo A="Oval" T="94diskont" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="47" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="48" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Tom Waits" T="Bone Machine" type="ALBUM" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="Palace Music" T="Viva Last Blues" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="60" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="61" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Aphex Twin" T="Selected Ambient Works, Vol.II" type="ALBUM" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Elliott Smith" T="XO" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="68" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="69" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Jawbox" T="For Your Own Special Sweetheart" type="ALBUM" mergeable="true" del="false">

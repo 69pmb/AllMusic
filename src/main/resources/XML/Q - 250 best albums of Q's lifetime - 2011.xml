@@ -10,7 +10,7 @@
   <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Neutral Milk Hotel" T="In The Aeroplane Over The Sea" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="16" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="17" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
@@ -91,7 +91,7 @@
   <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="30" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="31" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="The Killers" T="Sams Town" type="ALBUM" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Florence And The Machine" T="Lungs" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="36" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="37" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="The Cure" T="Disintegration" type="ALBUM" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Lcd Soundsystem" T="Sound Of Silver" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="68" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="69" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Depeche Mode" T="Songs Of Faith And Devotion" type="ALBUM" mergeable="true" del="false">
@@ -307,13 +307,13 @@
   <compo A="Nine Inch Nails" T="The Downward Spiral" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="102" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="103" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Prodigy" T="Music For A Jilted Generation" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="104" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="105" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="false">
@@ -535,7 +535,7 @@
   <compo A="Ryan Adams" T="Heartbreaker" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="178" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="179" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Slint" T="Spiderland" type="ALBUM" mergeable="true" del="false">
@@ -619,7 +619,7 @@
   <compo A="Bruce Springsteen" T="Tunnel Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="206" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="207" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Alice In Chains" T="Dirt" type="ALBUM" mergeable="true" del="false">

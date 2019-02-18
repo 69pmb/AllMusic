@@ -67,10 +67,10 @@
   <compo A="Of Montreal" T="Skeletal Lamping" type="ALBUM" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
-  <compo A="TV on the Radio" T="Dear Science," type="ALBUM" mergeable="true" del="false">
+  <compo A="TV on the Radio" T="Dear Science," type="ALBUM" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="3" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="2" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
   <compo A="The Hold Steady" T="Stay Positive" type="ALBUM" mergeable="true" del="false">
