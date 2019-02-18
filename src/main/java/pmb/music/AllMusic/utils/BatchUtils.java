@@ -608,7 +608,10 @@ public final class BatchUtils {
 			// Search composition
 			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
 					false);
-			processComposition(RecordType.SONG, importXML, deleteDialog, i, Arrays.asList(compoToDelete), compoFound);
+			if (processComposition(RecordType.SONG, importXML, deleteDialog, i, Arrays.asList(compoToDelete),
+					compoFound) == null) {
+				break;
+			}
 		}
 		addLine(text, "End of deleting Song", true);
 	}
@@ -624,8 +627,8 @@ public final class BatchUtils {
 	 * @param compoToDelete composition from the csv to delete
 	 * @param compoFound composition found
 	 */
-	private static void processComposition(RecordType type, List<Composition> importXML, DeleteCompoDialog deleteDialog,
-			int i, List<CsvComposition> compoToDelete, List<Composition> compoFound) {
+	private static String processComposition(RecordType type, List<Composition> importXML,
+			DeleteCompoDialog deleteDialog, int i, List<CsvComposition> compoToDelete, List<Composition> compoFound) {
 		String result = null;
 		if (compoFound.isEmpty()) {
 			// nothing found
@@ -651,6 +654,7 @@ public final class BatchUtils {
 			if (action == null) {
 				// stop everything
 				LOG.debug("Stop");
+				return null;
 			} else if (action) {
 				// Delete composition
 				try {
@@ -674,6 +678,7 @@ public final class BatchUtils {
 		} else {
 			compoToDelete.forEach(csv -> csv.setDeletedSong(deleted));
 		}
+		return deleted;
 	}
 
 	private static String prettyPrintForSong(CsvComposition csv) {
@@ -790,7 +795,9 @@ public final class BatchUtils {
 			// Search composition
 			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
 					true);
-			processComposition(RecordType.ALBUM, importXML, deleteDialog, i, compoAlbum, compoFound);
+			if (processComposition(RecordType.ALBUM, importXML, deleteDialog, i, compoAlbum, compoFound) == null) {
+				break;
+			}
 		}
 		addLine(text, "End of deleting Album", true);
 	}
