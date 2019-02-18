@@ -5,6 +5,7 @@ package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Desktop;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -480,6 +481,24 @@ public class ImportPanel extends JPanel {
 		openXml.setToolTipText("Ouvre le fichier XML généré dans Notepad++");
 		openXml.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileXml));
 		bottom.add(openXml);
+
+		// Opens txt file directory
+		JButton openDir = ComponentBuilder.buildJButton("<html>Ouvrir le dossier du fichier source</html>", 200,
+				Constant.ICON_FOLDER);
+		openDir.setToolTipText("Ouvre le dossier du fichier source dans l'explorateur");
+		openDir.addActionListener((ActionEvent arg0) -> {
+			if (StringUtils.isNotBlank(absolutePathFileTxt)) {
+				String directoryTxt = StringUtils.substringBeforeLast(absolutePathFileTxt, FileUtils.FS);
+				try {
+					Desktop.getDesktop().open(new File(directoryTxt));
+				} catch (IOException e) {
+					LOG.error("Error when opening input directory", e);
+					result = new LinkedList<>(Arrays.asList(e.toString()));
+					miseEnFormeResultLabel(result);
+				}
+			}
+		});
+		bottom.add(openDir);
 
 		// Ouvre le fichier de log
 		JButton log = ComponentBuilder.buildJButton("Logs", 200, Constant.ICON_TXT_FILE);
