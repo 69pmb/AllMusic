@@ -34,6 +34,9 @@ public class PopupMenu {
 	protected Point point;
 	private JTable table;
 
+	/**
+	 * Constructor of {@link PopupMenu}.
+	 */
 	public PopupMenu() {
 		this.menu = new JPopupMenu();
 	}

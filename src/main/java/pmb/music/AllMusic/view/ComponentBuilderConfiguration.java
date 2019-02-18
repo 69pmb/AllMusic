@@ -7,6 +7,8 @@ import javax.swing.JPanel;
 
 /**
  * Created by PBR on 4 févr. 2019.
+ * 
+ * @param <T> type of the items of the component to build
  */
 public class ComponentBuilderConfiguration<T> {
 	private Class<? extends JComponent> type;
@@ -22,6 +24,10 @@ public class ComponentBuilderConfiguration<T> {
 	private Color color;
 	private int fontSize;
 
+	/**
+	 * Constructor of {@link ComponentBuilderConfiguration} with default values sets
+	 * (dimension, color).
+	 */
 	public ComponentBuilderConfiguration() {
 		super();
 		label = "";

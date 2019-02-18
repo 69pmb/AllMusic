@@ -7,7 +7,9 @@ import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 
 /**
- * Created by PBR on 1 févr. 2019.
+ * Custom components merging a {@link MyInputText} with a {@link JComboBox}.
+ * 
+ * @param <T> the type of the elements of the combo box
  */
 public class JComboBoxInput<T> extends JPanel {
 
@@ -16,6 +18,12 @@ public class JComboBoxInput<T> extends JPanel {
 	private MyInputText input;
 	private JComboBox<T> comboBox;
 
+	/**
+	 * Constructor of {@link JComboBoxInput}.
+	 * 
+	 * @param input the input
+	 * @param comboBox the combo box
+	 */
 	public JComboBoxInput(MyInputText input, JComboBox<T> comboBox) {
 		this.comboBox = comboBox;
 		this.input = input;

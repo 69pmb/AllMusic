@@ -40,6 +40,11 @@ public final class GetProperties {
 		LOG.debug("End loadProperties");
 	}
 
+	/**
+	 * Refreshs the property file, useful if it changes.
+	 * 
+	 * @return true if succeed, false otherwise
+	 */
 	public static boolean reloadProperties() {
 		loadProperties();
 		return prop != null;

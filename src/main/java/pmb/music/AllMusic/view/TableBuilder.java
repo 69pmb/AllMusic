@@ -127,7 +127,7 @@ public class TableBuilder {
 	 * @param indexLineNumber index of the column line number
 	 * @param indexDeleted index of the column deleted
 	 * @param indexSelected index of the column line number selected
-	 * @return
+	 * @return the table builder
 	 */
 	public TableBuilder withRowSorterListenerDelete(Integer indexLineNumber, int indexDeleted, int indexSelected) {
 		withRowSorter(indexLineNumber);

@@ -20,6 +20,12 @@ import javax.swing.KeyStroke;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
 
+/**
+ * Dialogs to display exceptions with a panel to show its stack trace.
+ * 
+ * @author PBR
+ *
+ */
 public class ExceptionDialog {
 	private JDialog dialog;
 	private int dialogWidth = 700;

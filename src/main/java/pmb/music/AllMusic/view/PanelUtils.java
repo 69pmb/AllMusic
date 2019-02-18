@@ -48,6 +48,12 @@ import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
+/**
+ * Utility class for application panels.
+ * 
+ * @author PBR
+ *
+ */
 public final class PanelUtils {
 
 	private static final Logger LOG = Logger.getLogger(PanelUtils.class);
