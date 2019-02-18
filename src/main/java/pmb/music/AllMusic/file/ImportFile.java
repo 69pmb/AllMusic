@@ -84,7 +84,7 @@ public final class ImportFile {
 	 *            majuscule et pas le titre
 	 * @param removeAfter si plusieurs séparateurs, supprimer après le dernier
 	 * @return {@code List<Composition>} la liste de compos extraite du fichier
-	 * @throws MyException
+	 * @throws MyException if a line can't be parsed
 	 */
 	public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type,
 			String separator, List<String> result, boolean artistFirst, boolean reverseArtist, boolean parenthese,
@@ -272,7 +272,7 @@ public final class ImportFile {
 	 * @param fichier le fichier
 	 * @param randomLines une ligne tirée aléatoirement
 	 * @param absolutePath le chemin du fichier
-	 * @return
+	 * @return number of compositions in the given file
 	 */
 	public static Integer determineSize(Fichier fichier, List<String> randomLines, String absolutePath) {
 		LOG.debug("Start determineSize");
@@ -649,7 +649,7 @@ public final class ImportFile {
 	 * @param validLine true on compte seulement les lignes valides, plus longue que
 	 *            5 caractères et non commentées, false on compte toutes les lignes.
 	 * @return un nombre
-	 * @throws IOException
+	 * @throws IOException if error when readind file
 	 */
 	public static Integer countLines(String filename, boolean validLine) throws IOException {
 		LOG.debug("Start countLines");

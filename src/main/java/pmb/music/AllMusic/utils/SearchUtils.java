@@ -187,6 +187,12 @@ public final class SearchUtils {
 		return StringUtils.isBlank(res) ? trim : res;
 	}
 
+	/**
+	 * Removes parentheses of the given text.
+	 * 
+	 * @param text the text to clean
+	 * @return given text without parenthese and the text in it
+	 */
 	public static String removeParentheses(String text) {
 		if (StringUtils.isBlank(text)) {
 			return "";
