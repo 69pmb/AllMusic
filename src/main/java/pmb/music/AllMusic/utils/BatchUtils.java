@@ -665,7 +665,7 @@ public final class BatchUtils {
 				}
 			} else {
 				// Skip composition
-				compoToDelete.forEach(csv -> csv.setDeletedSong("KO"));
+				result = "KO";
 			}
 		}
 		final String deleted = result;
