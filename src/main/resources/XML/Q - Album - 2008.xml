@@ -4,7 +4,7 @@
   <compo A="Kings Of Leon" T="Only By The Night" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="1" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="2" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
   <compo A="Coldplay" T="Viva La Vida" type="ALBUM" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <compo A="Duffy" T="Rockferry" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="6" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
-  <compo A="TV On The Radio" T="Dear, Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Dear, Science" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="7" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
   <compo A="Elbow" T="Seldom Seen Kid" type="ALBUM" mergeable="true" del="false">
@@ -94,13 +94,13 @@
   <compo A="Black Mountain" T="In The Future" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="31" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
-  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="32" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
   <compo A="Hercules And Love Affair" T="Hercules And Love Affair" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="33" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="34" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
   <compo A="Hold Steady" T="Stay Positive" type="ALBUM" mergeable="true" del="false">

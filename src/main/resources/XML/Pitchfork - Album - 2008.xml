@@ -133,7 +133,7 @@
   <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="7" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
-  <compo A="TV on the Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV on the Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="6" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
   <compo A="Deerhunter" T="Microcastle" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Portishead" T="Third" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="2" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="1" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
 </ListCompositions>

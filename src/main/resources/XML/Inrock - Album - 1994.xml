@@ -40,7 +40,7 @@
   <compo A="Liz Phair" T="Whip Smart" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="13" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="14" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
   <compo A="The Divine Comedy" T="Promenade" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Grant Lee Buffalo" T="Mighty Joe Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="19" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="20" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
   <compo A="Vic Chesnutt" T="Drunk" type="ALBUM" mergeable="true" del="false">

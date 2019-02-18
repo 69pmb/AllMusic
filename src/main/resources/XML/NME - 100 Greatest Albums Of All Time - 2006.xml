@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="1" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Beatles" T="Sgt Pepper's Lonely Heart's Club Band" type="ALBUM" mergeable="true" del="false">
@@ -61,13 +61,13 @@
   <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="20" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="false">
+  <compo A="Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="21" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="22" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="23" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Manic Street Preachers" T="Holy Bible" type="ALBUM" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="41" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="42" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="47" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="48" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Coldplay" T="X And Y" type="ALBUM" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="Abba" T="Arrival" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="53" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="54" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Velvet Underground" T="And Nico" type="ALBUM" mergeable="true" del="false">

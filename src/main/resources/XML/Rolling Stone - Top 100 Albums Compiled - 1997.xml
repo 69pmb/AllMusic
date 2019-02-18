@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="1" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="2" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="3" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
@@ -73,10 +73,10 @@
   <compo A="Gram Parsons" T="Grievous Angel" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="24" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="25" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="26" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" mergeable="true" del="false">

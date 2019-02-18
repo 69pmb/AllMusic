@@ -13,7 +13,7 @@
   <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="4" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="5" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <compo A="The Twilight Sad" T="Forget The Night Ahead" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="86" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="87" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Bonnie Prince Billy" T="The Letting Go" type="ALBUM" mergeable="true" del="false">

@@ -4,7 +4,7 @@
   <compo A="Outkast" T="Speakerboxxx/The Love Below" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <compo A="Rufus Wainwright" T="Want One" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Fountains Of Wayne" T="Welcome Interstate Managers" type="ALBUM" mergeable="true" del="false">

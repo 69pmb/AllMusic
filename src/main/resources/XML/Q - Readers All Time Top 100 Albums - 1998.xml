@@ -40,13 +40,13 @@
   <compo A="Oasis" T="Be Here Now" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="13" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="14" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="15" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="16" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Suede" T="Coming Up" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="36" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="37" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="R.E.M." T="Out Of Time" type="ALBUM" mergeable="true" del="false">
@@ -124,10 +124,10 @@
   <compo A="Manic Street Preachers" T="The Holy Bible" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="41" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="42" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="43" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Kula Shaker" T="K" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="Paul Simon" T="Graceland" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="56" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="57" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
@@ -190,7 +190,7 @@
   <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="63" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="64" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
@@ -223,7 +223,7 @@
   <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="74" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="75" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Band" T="The Band" type="ALBUM" mergeable="true" del="false">

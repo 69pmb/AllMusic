@@ -19,7 +19,7 @@
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="6" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="7" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
   <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="25" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="26" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
   <compo A="Echo And The Bunnymen" T="Ocean Rain" type="ALBUM" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="28" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main St." type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main St." type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="29" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
   <compo A="New Order" T="Technique" type="ALBUM" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Elvis Costello" T="This Year's Model" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="71" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="72" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
   <compo A="Tindersticks" T="Tindersticks [II]" type="ALBUM" mergeable="true" del="false">

@@ -31,7 +31,7 @@
   <compo A="Janes's Addiction" T="Strays" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="10" creation="28/08/2018 11:40:13" size="50"/>
   </compo>
-  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="11" creation="28/08/2018 11:40:13" size="50"/>
   </compo>
   <compo A="Elbow" T="Cast Of Thousand" type="ALBUM" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="Muse" T="Absolution" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="14" creation="28/08/2018 11:40:13" size="50"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="15" creation="28/08/2018 11:40:13" size="50"/>
   </compo>
   <compo A="Johnny Cash" T="The Man Comes Around" type="ALBUM" mergeable="true" del="false">

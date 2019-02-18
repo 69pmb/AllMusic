@@ -13,7 +13,7 @@
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="4" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="5" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="17" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="18" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" mergeable="true" del="true">
@@ -112,7 +112,7 @@
   <compo A="King Crimson" T="In The Court Of The Crimson King" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="37" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="38" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">

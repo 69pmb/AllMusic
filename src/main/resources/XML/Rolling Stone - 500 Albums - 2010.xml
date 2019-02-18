@@ -10,7 +10,7 @@
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="3" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="4" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="6" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="7" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="54" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Elvis Presley" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="55" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
@@ -244,7 +244,7 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="77" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="78" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="James Brown" T="Star Time" type="ALBUM" mergeable="true" del="false">
@@ -331,7 +331,7 @@
   <compo A="Sam Cooke" T="Portrait Of A Legend 1951, 1964" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="106" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="107" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="The Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="true">
@@ -949,7 +949,7 @@
   <compo A="Eminem" T="The Marshall Mathers LP" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="302" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="303" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Lucinda Williams" T="Car Wheels On A Gravel Road" type="ALBUM" mergeable="true" del="false">
@@ -1327,7 +1327,7 @@
   <compo A="Wings" T="Band On The Run" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="418" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="419" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="false">

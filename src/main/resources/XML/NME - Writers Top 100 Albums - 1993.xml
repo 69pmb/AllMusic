@@ -31,7 +31,7 @@
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="10" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="11" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
@@ -40,7 +40,7 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="13" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="14" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
@@ -112,7 +112,7 @@
   <compo A="Pubic Enemy" T="Fear Of A Black Planet" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="37" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="38" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Elvis Cosleilo And The Attractions" T="Blood And Chocolate" type="ALBUM" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="40" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="41" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="New Order" T="Technioue" type="ALBUM" mergeable="true" del="false">
@@ -178,7 +178,7 @@
   <compo A="Mothers Of Invention" T="We're Only In It For The Money" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="59" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="60" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Scott Walker" T="Scott" type="ALBUM" mergeable="true" del="false">

@@ -4,7 +4,7 @@
   <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="1" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="2" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Glasvegas" T="Glasvegas" type="ALBUM" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Crystal Castles" T="Crystal Styles" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="12" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="13" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Laura Marling" T="Alas I Cannot Swim" type="ALBUM" mergeable="true" del="false">
@@ -64,13 +64,13 @@
   <compo A="Lightspeed Champion" T="Falling Off The Lavinder Bridge" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="21" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Dig Out Your Soul" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="22" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Scarlett Johansson" T="Anywhere I Lay My Head" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="23" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="24" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Portishead" T="Third" type="ALBUM" mergeable="true" del="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="1" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
@@ -88,7 +88,7 @@
   <compo A="Prodigy" T="Music For A Jilted Generation" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="29" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="30" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
   <compo A="Small Faces" T="Ogdens' Nut Gone Flake" type="ALBUM" mergeable="true" del="false">

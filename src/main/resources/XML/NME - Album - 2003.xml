@@ -13,7 +13,7 @@
   <compo A="Elbow" T="Cast Of Thousands" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="4" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="5" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Rufus Wainwright" T="Want One" type="ALBUM" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <compo A="Outkast" T="Spekerboxxx/The Love Below" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="8" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="My Morning Jacket" T="It Still Moves" type="ALBUM" mergeable="true" del="false">

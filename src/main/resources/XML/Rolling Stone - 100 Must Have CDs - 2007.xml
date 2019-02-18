@@ -88,7 +88,7 @@
   <compo A="Elvis Presley" T="Elvis At Sun" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="29" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="30" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
   <compo A="Johnny Cash" T="At Folsom Prison" type="ALBUM" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <compo A="Miles Davis" T="Kind Of Blue" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="35" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="36" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
   <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Run-DMC" T="Raising Hell" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="39" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="40" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
   <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" mergeable="true" del="false">
@@ -226,7 +226,7 @@
   <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="75" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
-  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="76" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
   <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
@@ -295,7 +295,7 @@
   <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="98" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Must Have CDs - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="99" creation="07/09/2018 13:15:40" size="100"/>
   </compo>
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">

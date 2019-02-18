@@ -4,7 +4,7 @@
   <compo A="Black Mountain" T="In The Future" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="1" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
-  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="2" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
   <compo A="The Roots" T="Rising Down" type="ALBUM" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="The Mars Volta" T="The Bedlam in Goliath" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="14" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="15" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
   <compo A="No Age" T="Nouns" type="ALBUM" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="Bloc Party" T="Intimacy" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="18" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="19" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
   <compo A="These New Puritans" T="Beat Pyramid" type="ALBUM" mergeable="true" del="false">
