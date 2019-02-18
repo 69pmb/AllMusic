@@ -488,7 +488,7 @@ public final class FichierUtils {
 	/**
 	 * Retourne la première ligne du fichier donné.
 	 * 
-	 * @param file le chemin absolu du fichier
+	 * @param filePath le chemin absolu du fichier
 	 * @return la 1ère ligne
 	 */
 	public static Optional<String> readFirstLine(String filePath) {

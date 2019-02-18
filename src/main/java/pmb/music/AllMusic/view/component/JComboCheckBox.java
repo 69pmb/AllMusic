@@ -20,6 +20,13 @@ import javax.swing.event.PopupMenuListener;
 
 import org.apache.commons.lang3.StringUtils;
 
+/**
+ * Custom component made of a {@link JComboBox} in which every single item are a
+ * {@link JCheckBox}.
+ * 
+ * @author PBR
+ *
+ */
 public class JComboCheckBox extends JComboBox<Object> {
 	private static final long serialVersionUID = 3148985615922245686L;
 
@@ -40,6 +47,11 @@ public class JComboCheckBox extends JComboBox<Object> {
 
 	private static final String CHECKBOX_ALL = "All";
 
+	/**
+	 * Constructor of {@link JComboCheckBox}.
+	 * 
+	 * @param items items to initialize the component
+	 */
 	public JComboCheckBox(List<String> items) {
 		super(Stream.concat(Stream.of(new JCheckBox(CHECKBOX_ALL)), items.stream().map(JCheckBox::new))
 				.toArray(JCheckBox[]::new));

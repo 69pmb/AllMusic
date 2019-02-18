@@ -31,11 +31,12 @@ import com.opencsv.bean.CsvCustomBindByPosition;
 import com.opencsv.bean.FieldMap;
 import com.opencsv.bean.FieldMapByPosition;
 import com.opencsv.bean.FieldMapByPositionEntry;
-import com.opencsv.exceptions.CsvBadConverterException;
 import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 
 /**
  * Created by PBR on 28 déc. 2018.
+ * 
+ * @param <T> class model of the csv
  */
 public class CustomColumnPositionMappingStrategy<T>
 		extends AbstractMappingStrategy<String, Integer, ComplexFieldMapEntry<String, Integer, T>, T> {
@@ -190,7 +191,7 @@ public class CustomColumnPositionMappingStrategy<T>
 
 	@SuppressWarnings("rawtypes")
 	@Override
-	protected void loadFieldMap() throws CsvBadConverterException {
+	protected void loadFieldMap() {
 		boolean required;
 		fieldMap = new FieldMapByPosition<>(errorLocale);
 		fieldMap.setColumnOrderOnWrite(writeOrder);

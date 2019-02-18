@@ -203,6 +203,12 @@ public final class PanelUtils {
 		return Optional.ofNullable(selectedRow);
 	}
 
+	/**
+	 * Converts a table data vector to a list of list of string.
+	 * 
+	 * @param table the table holding the data to convert
+	 * @return a {@code List<List<String>>} representing row then column
+	 */
 	@SuppressWarnings("unchecked")
 	public static <T extends AbstractModel> List<List<String>> convertDataVectorToList(JTable table) {
 		List<List<String>> result = new ArrayList<>();
