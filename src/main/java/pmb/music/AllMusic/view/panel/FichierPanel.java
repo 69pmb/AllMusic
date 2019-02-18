@@ -610,6 +610,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		LOG.debug("End updateCompoTable");
 	}
 
+	/**
+	 * Refreshs fichier panel data.
+	 */
 	public void updateData() {
 		new Thread(() -> {
 			initData();
@@ -636,10 +639,22 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				Math.floorDiv(height * (int) parentSize.getHeight(), 100));
 	}
 
+	/**
+	 * Gets the compositions for the given file.
+	 * 
+	 * @param file the file requested
+	 * @return a list of compositions
+	 */
 	public List<Composition> getCompoListFromData(Fichier file) {
 		return getCompoList(file).getValue();
 	}
 
+	/**
+	 * Replaces with the given compositions the given file.
+	 * 
+	 * @param file the file to edit the compositions
+	 * @param list the compositions to set
+	 */
 	public void setCompoListFromData(Fichier file, List<Composition> list) {
 		getCompoList(file).setValue(list);
 	}

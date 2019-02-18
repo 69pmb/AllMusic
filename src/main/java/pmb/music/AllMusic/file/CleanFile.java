@@ -51,9 +51,9 @@ public final class CleanFile {
 	 * @param separator le séparateur du fichier
 	 * @param characterToRemove les caractères à supprimer
 	 * @param maxLength maximum length for a line
-	 * @param isBefore
+	 * @param isBefore if true keep sub string before characterToRemove, false after
 	 * @return un nouveau fichier nettoyé
-	 * @throws IOException
+	 * @throws IOException if an error occured when reading or writing files
 	 */
 	public static File clearFile(File file, boolean isSorted, String separator, String characterToRemove,
 			Integer maxLength, boolean isBefore) throws IOException {
@@ -196,6 +196,12 @@ public final class CleanFile {
 		return modify;
 	}
 
+	/**
+	 * Removes all diactriticals from the given line.
+	 * 
+	 * @param line the line to clean
+	 * @return the line cleaned
+	 */
 	public static String removeDiactriticals(String line) {
 		String replaceAll = Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
 		replaceAll = StringUtils.stripAccents(replaceAll);

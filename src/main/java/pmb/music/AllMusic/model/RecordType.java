@@ -24,6 +24,12 @@ public enum RecordType {
 		return value;
 	}
 
+	/**
+	 * Finds a RecordType by its value.
+	 * 
+	 * @param value the value to find
+	 * @return a RecordType or null if not found
+	 */
 	public static RecordType getByValue(String value) {
 		for (RecordType type : values()) {
 			if (StringUtils.equalsAnyIgnoreCase(type.value, value)) {

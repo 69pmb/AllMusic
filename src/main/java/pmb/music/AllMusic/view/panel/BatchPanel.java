@@ -79,6 +79,12 @@ public class BatchPanel extends JPanel {
 	 */
 	private JButton batchFileBtn;
 
+	/**
+	 * Constructor of {@link BatchPanel}.
+	 * 
+	 * @param artistPanel the artist panel, to update its data if necessary
+	 * @param fichierPanel the fichier panel, to update its data if necessary
+	 */
 	public BatchPanel(ArtistPanel artistPanel, FichierPanel fichierPanel) {
 		super();
 		LOG.debug("Start BatchPanel");

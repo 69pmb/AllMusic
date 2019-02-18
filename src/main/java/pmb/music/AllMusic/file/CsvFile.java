@@ -46,7 +46,7 @@ public final class CsvFile {
 	 * 
 	 * @param filename the name of the csv file
 	 * @param csv the data to save
-	 * @param sortKey {@link SortKey} list de tri du tableau si necessaire
+	 * @param sortKeys {@link SortKey} list de tri du tableau si necessaire
 	 * @param header the header of the file
 	 * @return le full name of the saved file
 	 */
@@ -134,7 +134,7 @@ public final class CsvFile {
 	 * 
 	 * @param csvFile the csv file
 	 * @param beans the {@code List<T>} the beans to export
-	 * @param mappingStrategy
+	 * @param mappingStrategy {@link MappingStrategy} columns order and name
 	 * @param <T> the type of data exported
 	 */
 	public static <T> void exportBeanList(File csvFile, List<T> beans, MappingStrategy<T> mappingStrategy) {

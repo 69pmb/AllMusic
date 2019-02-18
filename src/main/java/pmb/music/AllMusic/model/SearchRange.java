@@ -17,6 +17,12 @@ public enum SearchRange {
 		return value;
 	}
 
+	/**
+	 * Finds a SearchRange by its value.
+	 * 
+	 * @param value the value to find
+	 * @return a SearchRange or null if not found
+	 */
 	public static SearchRange getByValue(String value) {
 		for (SearchRange sm : values()) {
 			if (sm.value.equals(value)) {

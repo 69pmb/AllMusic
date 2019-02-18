@@ -30,6 +30,12 @@ public enum Cat {
 		return value;
 	}
 
+	/**
+	 * Finds a Cat by its value.
+	 * 
+	 * @param value the value to find
+	 * @return a Cat or null if not found
+	 */
 	public static Cat getByValue(String value) {
 		for (Cat cat : values()) {
 			if (StringUtils.equalsAnyIgnoreCase(cat.value, value)) {
