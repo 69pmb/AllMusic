@@ -37,6 +37,8 @@ import pmb.music.AllMusic.view.component.MyInputText;
 
 /**
  * Builder for various JComponent. Created by PBR on 4 févr. 2019.
+ * 
+ * @param <T> type of the items of the built component
  */
 public class ComponentBuilder<T> {
 	public static final int PANEL_HEIGHT = 70;
@@ -259,6 +261,14 @@ public class ComponentBuilder<T> {
 		return label;
 	}
 
+	/**
+	 * Creates a JButton.
+	 * 
+	 * @param label label of the button
+	 * @param width width of the button
+	 * @param icon icon of the button
+	 * @return the button created
+	 */
 	public static JButton buildJButton(String label, int width, FontAwesome icon) {
 		JButton btn = new JButton(label, FontIcon.of(icon));
 		btn.setBackground(Color.white);
@@ -266,6 +276,14 @@ public class ComponentBuilder<T> {
 		return btn;
 	}
 
+	/**
+	 * Creates a JLabel.
+	 * 
+	 * @param text init text
+	 * @param width the width of the label
+	 * @return the label created, height is depending of the length of the given
+	 *         text
+	 */
 	public static JLabel buildJLabel(String text, int width) {
 		JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
 		if (StringUtils.isNotBlank(text) && text.length() > 30) {
@@ -276,6 +294,15 @@ public class ComponentBuilder<T> {
 		return jLabel;
 	}
 
+	/**
+	 * Creates a JTextPane.
+	 * 
+	 * @param color the font color
+	 * @param fontSize the font size
+	 * @return a JTextPane initialized with properties: editable -> false, opaque ->
+	 *         false, default value for background, font family and border, text
+	 *         align center
+	 */
 	public static JTextPane initJTextPaneComponent(Color color, int fontSize) {
 		JTextPane textPane = new JTextPane();
 		textPane.setOpaque(false);
@@ -450,7 +477,7 @@ public class ComponentBuilder<T> {
 	/**
 	 * Configures initial value.
 	 * 
-	 * @param defaultValue
+	 * @param initialValue the initial value
 	 * @return the builder
 	 */
 	public ComponentBuilder<T> withInitialValue(T initialValue) {

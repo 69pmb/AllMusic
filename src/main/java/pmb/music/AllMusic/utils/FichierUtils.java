@@ -207,6 +207,16 @@ public final class FichierUtils {
 		return result;
 	}
 
+	/**
+	 * @param fileName
+	 * @param newFileName
+	 * @param newPublish
+	 * @param newRange
+	 * @param newCat
+	 * @param newSize
+	 * @param newSorted
+	 * @return
+	 */
 	public static Consumer<Composition> modifyOneFile(String fileName, String newFileName, String newPublish,
 			String newRange, String newCat, String newSize, String newSorted) {
 		return c -> {
@@ -236,6 +246,13 @@ public final class FichierUtils {
 		}
 	}
 
+	/**
+	 * Renames a file.
+	 * 
+	 * @param source file to rename
+	 * @param destination new name
+	 * @return true if and only if the renaming succeeded; false otherwise
+	 */
 	public static boolean renameFile(String source, String destination) {
 		return new File(source).renameTo(new File(destination));
 	}
@@ -504,6 +521,12 @@ public final class FichierUtils {
 		return Optional.ofNullable(result);
 	}
 
+	/**
+	 * Recovers the creation date of the given file.
+	 * 
+	 * @param file the file of which the creation date is wanted
+	 * @return the creation date, now if error
+	 */
 	public static LocalDateTime getCreationDate(File file) {
 		LOG.debug("Start getCreationDate");
 		BasicFileAttributes attr = null;

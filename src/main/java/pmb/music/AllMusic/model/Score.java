@@ -148,6 +148,12 @@ public class Score {
 		}
 	}
 
+	/**
+	 * Get the decile limit depending on the given type.
+	 * 
+	 * @param type the wanted type
+	 * @return a list of score for each decile
+	 */
 	public List<Double> getDecileLimit(RecordType type) {
 		if (type == RecordType.SONG) {
 			return getDecileLimitSong();
