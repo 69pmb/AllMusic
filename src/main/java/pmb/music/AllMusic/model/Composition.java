@@ -42,6 +42,11 @@ public class Composition implements Serializable {
 		this.deleted = deleted;
 	}
 
+	/**
+	 * Constructor with a given composition.
+	 * 
+	 * @param compo composition to clone
+	 */
 	public Composition(Composition compo) {
 		super();
 		this.artist = compo.getArtist();

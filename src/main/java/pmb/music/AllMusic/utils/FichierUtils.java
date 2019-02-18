@@ -324,6 +324,13 @@ public final class FichierUtils {
 		LOG.debug("End openFileInExcel");
 	}
 
+	/**
+	 * Copy source file content in destination file.
+	 * 
+	 * @param source the source file
+	 * @param destination the destination file
+	 * @throws IOException if an error occured during file manipulations
+	 */
 	public static void copyFileInAnother(String source, String destination) throws IOException {
 		String line = "";
 		try (BufferedReader br = new BufferedReader(

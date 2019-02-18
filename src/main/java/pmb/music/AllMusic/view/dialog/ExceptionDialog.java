@@ -35,6 +35,13 @@ public class ExceptionDialog {
 	private JButton viewButton = new JButton("View Error");
 	private JPanel topPanel = new JPanel(new BorderLayout());
 
+	/**
+	 * Opens a dialog to show an exception.
+	 * 
+	 * @param errorLabelText label of the exception
+	 * @param errorDescription message of the exception
+	 * @param e the exception, for showing the stack trace
+	 */
 	public ExceptionDialog(String errorLabelText, String errorDescription, Throwable e) {
 		StringWriter errors = new StringWriter();
 		e.printStackTrace(new PrintWriter(errors));
@@ -56,11 +63,7 @@ public class ExceptionDialog {
 				KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 	}
 
-	public ExceptionDialog(String errorLabelText, Throwable e) {
-		this(errorLabelText, null, e);
-	}
-
-	public void setupUI() {
+	private void setupUI() {
 		this.dialog.setTitle("Error");
 		errorTextArea.setLineWrap(true);
 		errorTextArea.setWrapStyleWord(true);

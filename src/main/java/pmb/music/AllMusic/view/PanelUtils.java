@@ -228,6 +228,16 @@ public final class PanelUtils {
 		return result;
 	}
 
+	/**
+	 * Adds a key listener for table to select first row that match a letter
+	 * pressed.
+	 * 
+	 * @param e the key event, ie key pressed
+	 * @param selectedRow the selected row
+	 * @param sortedColumn the sorted column (if artist go to first artist starting
+	 *            to the letter pressed)
+	 * @return the selected row, -1 if no result
+	 */
 	@SuppressWarnings("unchecked")
 	public static int keyShortcutAction(KeyEvent e, int selectedRow, Integer sortedColumn) {
 		if (!Character.isLetter(e.getKeyChar()) && !Character.isDigit(e.getKeyChar())) {
@@ -448,7 +458,7 @@ public final class PanelUtils {
 	/**
 	 * Crée un {@link JPanel} avec un layout de type {@link BoxLayout}.
 	 * 
-	 * @param l'axe sur lequel les composants sont alignés.
+	 * @param axis l'axe sur lequel les composants sont alignés.
 	 * @see {@link BoxLayout#X_AXIS} et {@link BoxLayout#Y_AXIS}
 	 * @return le panel crée
 	 */
@@ -487,6 +497,12 @@ public final class PanelUtils {
 		panel.add(Box.createRigidArea(new Dimension(rigidSize, 0)));
 	}
 
+	/**
+	 * Adds line border around given component. Useful for debugging views
+	 * 
+	 * @param comp the component
+	 * @param c color of the border
+	 */
 	public static void setBorder(JComponent comp, Color c) {
 		comp.setBorder(BorderFactory.createLineBorder(c, 2));
 	}
