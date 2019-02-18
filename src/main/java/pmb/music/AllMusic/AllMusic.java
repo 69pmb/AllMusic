@@ -71,7 +71,7 @@ public final class AllMusic {
 			LOG.error("Impossible d'appliquer le style demandé", e);
 		}
 		EventQueue.invokeLater(() -> {
-			boolean withArtist = args.length > 0 ? Boolean.parseBoolean(args[0]) : true;
+			boolean withArtist = args.length == 0 || Boolean.parseBoolean(args[0]);
 			final BasicFrame f = new BasicFrame(withArtist);
 			JFrame.setDefaultLookAndFeelDecorated(true);
 			JDialog.setDefaultLookAndFeelDecorated(true);
