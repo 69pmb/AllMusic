@@ -200,6 +200,13 @@ public final class SearchUtils {
 		return StringUtils.isBlank(res) ? text : res;
 	}
 
+	/**
+	 * @param searchMethod
+	 * @param jaro
+	 * @param criteria
+	 * @param fi
+	 * @return
+	 */
 	public static boolean filterFichier(final SearchMethod searchMethod, JaroWinklerDistance jaro,
 			final Map<String, String> criteria, Fichier fi) {
 		boolean result = true;

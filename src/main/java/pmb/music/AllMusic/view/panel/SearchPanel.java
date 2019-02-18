@@ -109,7 +109,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	/**
 	 * Génère le panel search.
 	 * 
-	 * @param artistPanel the artist panel, to update its data
+	 * @param artist the artist panel, to update its data
 	 * @param fichierPanel the fichier panel, to update its data
 	 */
 	public SearchPanel(final ArtistPanel artist, FichierPanel fichierPanel) {

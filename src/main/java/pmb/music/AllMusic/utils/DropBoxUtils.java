@@ -14,8 +14,7 @@ import com.dropbox.core.v2.files.FileMetadata;
 import com.dropbox.core.v2.files.WriteMode;
 
 /**
- * Hello world!
- * 
+ * Utility class for handling dropbox.
  */
 public final class DropBoxUtils {
 
@@ -43,11 +42,13 @@ public final class DropBoxUtils {
 	}
 
 	/**
-	 * @param pathFile
-	 * @param pathDropBox
-	 * @param mode
-	 * @return
-	 * @throws MyException
+	 * Upload a file to dropbox.
+	 * 
+	 * @param pathFile the file path in the file system, the source path
+	 * @param pathDropBox file path in dropbox, destination path
+	 * @param mode {@link WriteMode} the write mode
+	 * @return the file metadata of the uploaded file
+	 * @throws MyException if an error occured when uploading the file
 	 */
 	public static FileMetadata uploadFile(File pathFile, String pathDropBox, WriteMode mode) throws MyException {
 		LOG.debug("Start uploadFile");

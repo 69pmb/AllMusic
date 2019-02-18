@@ -49,7 +49,7 @@ public final class NgExportXml extends ExportXML {
 	 * 
 	 * @param compList List<{@link Composition}> les compositions à sauvegarder
 	 * @param fileName {@link String} le nom du fichier
-	 * @throws IOException
+	 * @throws IOException if error occured when when saving the file
 	 */
 	public static void exportXML(List<Composition> compList, String fileName) throws IOException {
 		LOG.debug("Start ngExportXml");
