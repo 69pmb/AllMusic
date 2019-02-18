@@ -1,13 +1,9 @@
 package pmb.music.AllMusic.view.popup;
 
-import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 
 import org.apache.log4j.Logger;
 
-import pmb.music.AllMusic.utils.FichierUtils;
-import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 
 /**
@@ -33,65 +29,17 @@ public class DialogFilePopupMenu extends PopupMenu {
 		LOG.debug("Start DialogFilePopupMenu");
 
 		// Open XML file
-		buildMenuItem("Ouvrir le fichier XML", KeyEvent.VK_X, (ActionEvent e) -> {
-			LOG.debug("Start openXml");
-			try {
-				FichierUtils.openFileInNotepad(
-						FichierUtils.buildXmlFilePath((String) selectedRow.get(fileNameIndex)).orElse(null),
-						(Integer) selectedRow.get(rankIndex));
-				this.setVisible(false);
-			} catch (MyException e1) {
-				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
-			}
-			LOG.debug("End openXml");
-		});
-
+		buildOpenXmlFileMenu(KeyEvent.VK_X, fileNameIndex, rankIndex);
 		// Open TXT file
-		buildMenuItem("Ouvrir le fichier TXT", KeyEvent.VK_T, (ActionEvent e) -> {
-			LOG.debug("Start openTxt");
-			try {
-				FichierUtils.openFileInNotepad(
-						FichierUtils.buildTxtFilePath((String) selectedRow.get(fileNameIndex),
-								(String) selectedRow.get(authorIndex)).orElse(null),
-						(Integer) selectedRow.get(rankIndex));
-				this.setVisible(false);
-			} catch (MyException e1) {
-				LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
-			}
-			LOG.debug("End openTxt");
-		});
-
+		buildOpenTxtFileMenu(KeyEvent.VK_T, fileNameIndex, rankIndex, authorIndex);
 		// Copy clipboard artist and title
-		buildMenuItem("Copier l'artiste et le titre", KeyEvent.VK_C, (ActionEvent e) -> {
-			LOG.debug("Start copy A+T");
-			MiscUtils.clipBoardAction(selectedRow.get(artistIndex) + " " + selectedRow.get(titleIndex));
-			this.setVisible(false);
-			LOG.debug("End copy A+T");
-		});
-
+		buildCopyArtistAndTitleMenu(KeyEvent.VK_C, artistIndex, titleIndex);
 		// Copy clipboard artist
-		buildMenuItem("Copier l'artiste", KeyEvent.VK_A, (ActionEvent e) -> {
-			LOG.debug("Start copy A");
-			MiscUtils.clipBoardAction((String) selectedRow.get(artistIndex));
-			this.setVisible(false);
-			LOG.debug("End copy A");
-		});
-
+		buildCopyArtistMenu(KeyEvent.VK_A, artistIndex);
 		// Copy clipboard title
-		buildMenuItem("Copier le titre", KeyEvent.VK_I, (ActionEvent e) -> {
-			LOG.debug("Start copy I");
-			MiscUtils.clipBoardAction((String) selectedRow.get(titleIndex));
-			this.setVisible(false);
-			LOG.debug("End copy I");
-		});
-
+		buildCopyTitleMenu(KeyEvent.VK_I, titleIndex);
 		// Copy clipboard file name
-		buildMenuItem("Copier le nom du fichier", KeyEvent.VK_F, (ActionEvent e) -> {
-			LOG.debug("Start copy F");
-			MiscUtils.clipBoardAction((String) selectedRow.get(fileNameIndex));
-			this.setVisible(false);
-			LOG.debug("End copy F");
-		});
+		buildCopyFileNameMenu(KeyEvent.VK_C, fileNameIndex);
 
 		LOG.debug("End DialogFilePopupMenu");
 	}
