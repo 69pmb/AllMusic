@@ -276,7 +276,16 @@ public final class BatchUtils {
 	}
 
 	/**
-	 * @return
+	 * Finds all suspicous compositions:
+	 * <ul>
+	 * <li>Empty title or artist</li>
+	 * <li>Title with slash</li>
+	 * <li>Size, publish year or rank to zero</li>
+	 * <li>Rank greater than file size</li>
+	 * <li>Duplicate composition in same file</li>
+	 * </ul>
+	 * 
+	 * @return the file name of the result file
 	 */
 	public static String findSuspiciousComposition() {
 		LOG.debug("Start findSuspiciousComposition");
@@ -303,7 +312,9 @@ public final class BatchUtils {
 	}
 
 	/**
-	 * @return
+	 * Finds compositons that have the same title but with different artists.
+	 * 
+	 * @return the file name of the result file
 	 */
 	public static String findDuplicateTitleComposition() {
 		LOG.debug("Start findDuplicateTitleComposition");
@@ -320,7 +331,7 @@ public final class BatchUtils {
 	 * Finds files with file names doesn't respect the pattern: "{@code Author} -
 	 * {@code Txt filename} - {@code Publish year}".
 	 * 
-	 * @return
+	 * @return the file name of the result file
 	 */
 	public static String findIncorrectFileNames() {
 		LOG.debug("Start findIncorrectFileNames");
