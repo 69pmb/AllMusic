@@ -760,7 +760,7 @@
   <compo A="The Byrds" T="Turn! Turn! Turn! (To Everything There Is A Season)" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" publish="2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="253" creation="10/09/2018 13:59:34" size="1211"/>
   </compo>
-  <compo A="The Beatles" T="Day Tripper" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Day Tripper" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" publish="2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="254" creation="10/09/2018 13:59:34" size="1211"/>
   </compo>
   <compo A="The Who" T="I Can't Explain" type="SONG" mergeable="true" del="true">
@@ -1084,7 +1084,7 @@
   <compo A="The Legendary Stardust Cowboy" T="Paralyzed" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" publish="2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="361" creation="10/09/2018 13:59:34" size="1211"/>
   </compo>
-  <compo A="The Beatles" T="Revolution" type="SONG" mergeable="true" del="false">
+  <compo A="The Beatles" T="Revolution" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" publish="2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="362" creation="10/09/2018 13:59:34" size="1211"/>
   </compo>
   <compo A="Steppenwolf" T="Born To Be Wild" type="SONG" mergeable="true" del="true">
@@ -3313,7 +3313,7 @@
   <compo A="Peaches And Iggy Pop" T="Kick It" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" publish="2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="1104" creation="10/09/2018 13:59:34" size="1211"/>
   </compo>
-  <compo A="The Streets" T="You're Fit But You Know It" type="SONG" mergeable="true" del="false">
+  <compo A="The Streets" T="Fit But You Know It" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" publish="2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="1105" creation="10/09/2018 13:59:34" size="1211"/>
   </compo>
   <compo A="M.I.A." T="Galang" type="SONG" mergeable="true" del="false">
@@ -3442,7 +3442,7 @@
   <compo A="Cat Power" T="Lived In Bars" type="SONG" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" publish="2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="1147" creation="10/09/2018 13:59:34" size="1211"/>
   </compo>
-  <compo A="The Raconteurs" T="Steady As She Goes" type="SONG" mergeable="true" del="false">
+  <compo A="The Raconteurs" T="Steady As She Goes" type="SONG" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" publish="2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="1148" creation="10/09/2018 13:59:34" size="1211"/>
   </compo>
   <compo A="The Young Knives" T="She's Attracted To" type="SONG" mergeable="true" del="false">

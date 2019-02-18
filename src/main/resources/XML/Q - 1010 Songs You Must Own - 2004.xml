@@ -1171,7 +1171,7 @@
   <compo A="Michael Jackson" T="Rock With You" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="390" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Beatles" T="Something" type="SONG" mergeable="true" del="false">
+  <compo A="Beatles" T="Something" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="391" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Prince" T="Sometimes It Snows In April" type="SONG" mergeable="true" del="false">
@@ -1381,7 +1381,7 @@
   <compo A="Electric Six" T="Danger! High Voltage" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="460" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Coral" T="Dreaming Of You" type="SONG" mergeable="true" del="false">
+  <compo A="Coral" T="Dreaming Of You" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="461" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Streets" T="Dry Your Eyes" type="SONG" mergeable="true" del="true">
