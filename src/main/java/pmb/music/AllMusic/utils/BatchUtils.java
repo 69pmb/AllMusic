@@ -70,7 +70,7 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
 public final class BatchUtils {
 	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
 
-	public static final Comparator<CsvComposition> compareByTrackNumber = (CsvComposition c1, CsvComposition c2) -> {
+	private static final Comparator<CsvComposition> compareByTrackNumber = (CsvComposition c1, CsvComposition c2) -> {
 		String s1 = c1.getTrackNumber();
 		if (StringUtils.contains(s1, Constant.TRACK_NUMBER_SEPARATOR)) {
 			s1 = StringUtils.substringBefore(s1, Constant.TRACK_NUMBER_SEPARATOR);

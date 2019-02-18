@@ -34,6 +34,12 @@ public enum SearchMethod {
 		return value;
 	}
 
+	/**
+	 * Finds a SearchMethod by its value.
+	 * 
+	 * @param value the value to find
+	 * @return a SearchMethod or null if not found
+	 */
 	public static SearchMethod getByValue(String value) {
 		for (SearchMethod sm : values()) {
 			if (sm.value.equals(value)) {

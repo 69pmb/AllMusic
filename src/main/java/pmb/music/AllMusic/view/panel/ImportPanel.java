@@ -184,8 +184,8 @@ public class ImportPanel extends JPanel {
 	/**
 	 * Construit l'onglet import.
 	 * 
-	 * @param artistPanel l'onglet artiste
-	 * @param fichierPanel
+	 * @param artistPanel the artist panel, to update its data
+	 * @param fichierPanel the fichier panel, to update its data
 	 */
 	public ImportPanel(ArtistPanel artistPanel, FichierPanel fichierPanel) {
 		super();
