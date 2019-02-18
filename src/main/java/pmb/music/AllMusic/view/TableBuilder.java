@@ -91,7 +91,7 @@ public class TableBuilder {
 		TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(table.getModel()) {
 			@Override
 			public boolean isSortable(int column) {
-				return indexLineNumber != null ? column != indexLineNumber : true;
+				return indexLineNumber == null || column != indexLineNumber;
 			}
 		};
 		table.getTable().setRowSorter(sorter);
