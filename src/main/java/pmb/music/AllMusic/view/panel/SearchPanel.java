@@ -104,28 +104,18 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	public static final int INDEX_SELECTED = 7;
 	public static final int INDEX_DELETED = 8;
 
-	private ArtistPanel artistPanel;
-	private FichierPanel fichierPanel;
-
 	/**
 	 * Génère le panel search.
-	 * 
-	 * @param artist the artist panel, to update its data
-	 * @param fichierPanel the fichier panel, to update its data
 	 */
-	public SearchPanel(final ArtistPanel artist, FichierPanel fichierPanel) {
+	public SearchPanel() {
 		super();
 		LOG.debug("Start SearchPanel");
-		this.artistPanel = artist;
-		this.fichierPanel = fichierPanel;
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-
 		JPanel header = new JPanel();
 		header.setLayout(new BoxLayout(header, BoxLayout.Y_AXIS));
 		initButtons(header);
 		initSearchFields(header);
 		this.add(header);
-
 		initTable();
 		LOG.debug("End SearchPanel");
 	}
@@ -164,8 +154,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		JButton delete = ComponentBuilder.buildJButton("Supprimer les compositions sélectionnées", 300,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(artistPanel, fichierPanel, compoResult,
-					tableResult.getModel().getSelected(), deleteLabel, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE);
+			PanelUtils.deleteCompositionAction(compoResult, tableResult.getModel().getSelected(), deleteLabel,
+					INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE);
 			updateTable();
 		});
 		top.add(delete);
@@ -297,9 +287,10 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 							// composition sélectionnée
 							try {
 								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-										Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult,
-												row.get().get(INDEX_ARTIST), row.get().get(INDEX_TITRE),
-												row.get().get(INDEX_TYPE), true)),
+										new LinkedList<Composition>(
+												Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult,
+														row.get().get(INDEX_ARTIST), row.get().get(INDEX_TITRE),
+														row.get().get(INDEX_TYPE), true))),
 										400, DialogFileTable.INDEX_AUTEUR);
 								pop.showDialogFileTable();
 							} catch (MyException e1) {
@@ -407,8 +398,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			deleteLabel.setText(msg);
 			LOG.debug(msg);
 		} else {
-			PanelUtils.modificationCompositionAction(artistPanel, fichierPanel, selectedRow, compoResult, INDEX_ARTIST,
-					INDEX_TITRE, INDEX_TYPE, INDEX_DELETED, deleteLabel);
+			PanelUtils.modificationCompositionAction(selectedRow, compoResult, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE,
+					INDEX_DELETED, deleteLabel);
 			updateTable();
 		}
 	}

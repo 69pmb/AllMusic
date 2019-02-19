@@ -65,9 +65,6 @@ public class BatchPanel extends JPanel {
 	private static final long serialVersionUID = -7659089306956006760L;
 	private static final Logger LOG = Logger.getLogger(BatchPanel.class);
 
-	private FichierPanel fichierPanel;
-	private ArtistPanel artistPanel;
-
 	/**
 	 * Les messages.
 	 */
@@ -81,15 +78,10 @@ public class BatchPanel extends JPanel {
 
 	/**
 	 * Constructor of {@link BatchPanel}.
-	 * 
-	 * @param artistPanel the artist panel, to update its data if necessary
-	 * @param fichierPanel the fichier panel, to update its data if necessary
 	 */
-	public BatchPanel(ArtistPanel artistPanel, FichierPanel fichierPanel) {
+	public BatchPanel() {
 		super();
 		LOG.debug("Start BatchPanel");
-		this.artistPanel = artistPanel;
-		this.fichierPanel = fichierPanel;
 		this.setLayout(new GridLayout(13, 1));
 
 		findDuplicateComposition();
@@ -152,11 +144,11 @@ public class BatchPanel extends JPanel {
 			LOG.debug("Start findDuplicateComposition");
 			displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
 			new Thread(() -> {
-				artistPanel.interruptUpdateArtist(true);
+				OngletPanel.getArtist().interruptUpdateArtist(true);
 				fileResult = BatchUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
 						fdcUnmergeable.isSelected(), fdcYear.isSelected(), this);
-				fichierPanel.updateData();
-				artistPanel.updateArtistPanel();
+				OngletPanel.getFichier().updateData();
+				OngletPanel.getArtist().updateArtistPanel();
 				displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
 				LOG.debug("End findDuplicateComposition");
 			}).start();
@@ -215,7 +207,7 @@ public class BatchPanel extends JPanel {
 				displayText("Start massDeletion: " + MiscUtils.getCurrentTime(), false);
 				new Thread(() -> {
 					fileResult = BatchUtils.massDeletion(type.getSelectedItem().toString(),
-							new File(selectedFile.getText()), artistPanel);
+							new File(selectedFile.getText()));
 					displayText("End massDeletion: " + MiscUtils.getCurrentTime(), false);
 				}).start();
 			} else {
