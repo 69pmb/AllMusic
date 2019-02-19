@@ -43,6 +43,8 @@ public class OngletPanel extends JPanel {
 	private static String[] artistList;
 	private static String[] titleList;
 	private static String[] authorList;
+	private static FichierPanel fichier;
+	private static ArtistPanel artist;
 
 	/**
 	 * Génère les onglets.
@@ -65,11 +67,11 @@ public class OngletPanel extends JPanel {
 		setTitleList(importXML);
 		setAuthorList(importXML);
 
-		ArtistPanel artist = new ArtistPanel(withArtist);
-		FichierPanel fichier = new FichierPanel(artist);
-		ImportPanel importFile = new ImportPanel(artist, fichier);
-		SearchPanel search = new SearchPanel(artist, fichier);
-		BatchPanel batch = new BatchPanel(artist, fichier);
+		artist = new ArtistPanel(withArtist);
+		fichier = new FichierPanel();
+		ImportPanel importFile = new ImportPanel();
+		SearchPanel search = new SearchPanel();
+		BatchPanel batch = new BatchPanel();
 
 		onglets.addTab(Constant.ONGLET_SEARCH, search);
 		if (withArtist) {
@@ -139,10 +141,8 @@ public class OngletPanel extends JPanel {
 		score.setLogMaxSong(CompositionUtils.getLogMax(songs));
 		score.setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(albums));
 		score.setDoubleMedianSong(CompositionUtils.getDoubleMedian(songs));
-		score.setDecileLimitSong(
-				CompositionUtils.getDecileLimit(getByType(importXML, RecordType.SONG, false)));
-		score.setDecileLimitAlbum(
-				CompositionUtils.getDecileLimit(getByType(importXML, RecordType.ALBUM, false)));
+		score.setDecileLimitSong(CompositionUtils.getDecileLimit(getByType(importXML, RecordType.SONG, false)));
+		score.setDecileLimitAlbum(CompositionUtils.getDecileLimit(getByType(importXML, RecordType.ALBUM, false)));
 		LOG.debug("End initScore");
 	}
 
@@ -250,5 +250,13 @@ public class OngletPanel extends JPanel {
 
 	public static String[] getAuthorList() {
 		return authorList;
+	}
+
+	public static FichierPanel getFichier() {
+		return fichier;
+	}
+
+	public static ArtistPanel getArtist() {
+		return artist;
 	}
 }

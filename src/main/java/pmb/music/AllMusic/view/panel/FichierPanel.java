@@ -133,7 +133,6 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private boolean showCompoTable = true;
 
 	private Dimension parentSize;
-	private final ArtistPanel artistPanel;
 
 	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Publication", "Categorie",
 			"Dates", "Supprimés", "Création", "Score", "Score Supprimés", "Taille", "Classé" };
@@ -142,16 +141,11 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 
 	/**
 	 * Constructeur de {@link FichierPanel}.
-	 * 
-	 * @param artistPanel pour arreter ou redemarrer la calcul des données
-	 * 
 	 */
-	public FichierPanel(ArtistPanel artistPanel) {
+	public FichierPanel() {
 		super();
 		LOG.debug("Start FichierPanel");
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-		this.artistPanel = artistPanel;
-
 		LOG.debug("End FichierPanel");
 	}
 
@@ -270,8 +264,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		JButton delete = ComponentBuilder.buildJButton("<html>Supprimer les compositions sélectionnées</html>", 200,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(artistPanel, this, compositionList, tableCompo.getModel().getSelected(),
-					resultLabel, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE, INDEX_COMPO_TYPE);
+			PanelUtils.deleteCompositionAction(compositionList, tableCompo.getModel().getSelected(), resultLabel,
+					INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE, INDEX_COMPO_TYPE);
 			updateCompoTable(compositionList, selectedFichierName, false);
 		});
 		buttons.add(delete);
@@ -364,10 +358,11 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 							// composition sélectionnée
 							try {
 								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-										Arrays.asList(CompositionUtils.findByArtistTitreAndType(compositionList,
-												selectedRow.get().get(INDEX_COMPO_ARTIST),
-												selectedRow.get().get(INDEX_COMPO_TITLE),
-												selectedRow.get().get(INDEX_COMPO_TYPE), true)),
+										new LinkedList<Composition>(
+												Arrays.asList(CompositionUtils.findByArtistTitreAndType(compositionList,
+														selectedRow.get().get(INDEX_COMPO_ARTIST),
+														selectedRow.get().get(INDEX_COMPO_TITLE),
+														selectedRow.get().get(INDEX_COMPO_TYPE), true))),
 										400, DialogFileTable.INDEX_AUTEUR);
 								pop.showDialogFileTable();
 							} catch (MyException e1) {
@@ -475,8 +470,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	@Override
 	public void modifyCompositionAction(Vector<String> selected) {
 		LOG.debug("Start modifyCompositionAction");
-		PanelUtils.modificationCompositionAction(artistPanel, this, selected, compositionList, INDEX_COMPO_ARTIST,
-				INDEX_COMPO_TITLE, INDEX_COMPO_TYPE, INDEX_COMPO_DELETED, resultLabel);
+		PanelUtils.modificationCompositionAction(selected, compositionList, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE,
+				INDEX_COMPO_TYPE, INDEX_COMPO_DELETED, resultLabel);
 		updateCompoTable(compositionList, selectedFichierName, false);
 		LOG.debug("End modifyCompositionAction");
 	}

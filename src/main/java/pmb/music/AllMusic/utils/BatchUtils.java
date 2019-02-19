@@ -57,7 +57,6 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.view.dialog.DeleteCompoDialog;
-import pmb.music.AllMusic.view.panel.ArtistPanel;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
@@ -554,10 +553,9 @@ public final class BatchUtils {
 	 * 
 	 * @param type record type: song or album
 	 * @param file csv file
-	 * @param artistPanel artist panel, to stop and relaunch process
 	 * @return the file name of the result file
 	 */
-	public static String massDeletion(String type, File file, ArtistPanel artistPanel) {
+	public static String massDeletion(String type, File file) {
 		LOG.debug("Start massDeletion");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Start massDeletion", true);
@@ -566,7 +564,7 @@ public final class BatchUtils {
 		addLine(text, "Import csv file successfully", true);
 
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		artistPanel.interruptUpdateArtist(true);
+		OngletPanel.getArtist().interruptUpdateArtist(true);
 		if (type.equals(RecordType.SONG.toString())) {
 			massDeletionForSongs(text, compoCsv, importXML);
 		} else {
@@ -584,7 +582,7 @@ public final class BatchUtils {
 
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
-			artistPanel.updateArtistPanel();
+			OngletPanel.getArtist().updateArtistPanel();
 			addLine(text, "Final file successfully exported", true);
 		} catch (IOException e1) {
 			LOG.error("Erreur lors de l'export du fichier final", e1);
