@@ -157,9 +157,6 @@ public class ImportPanel extends JPanel {
 	 */
 	private JButton importFile;
 
-	private FichierPanel fichierPanel;
-	private ArtistPanel artistPanel;
-
 	/**
 	 * Import params constants.
 	 */
@@ -182,15 +179,10 @@ public class ImportPanel extends JPanel {
 
 	/**
 	 * Construit l'onglet import.
-	 * 
-	 * @param artistPanel the artist panel, to update its data
-	 * @param fichierPanel the fichier panel, to update its data
 	 */
-	public ImportPanel(ArtistPanel artistPanel, FichierPanel fichierPanel) {
+	public ImportPanel() {
 		super();
 		LOG.debug("Start ImportPanel");
-		this.artistPanel = artistPanel;
-		this.fichierPanel = fichierPanel;
 		explorePath = Constant.getMusicAbsDirectory();
 		this.setLayout(new GridLayout(6, 1));
 
@@ -793,7 +785,7 @@ public class ImportPanel extends JPanel {
 	private void fusionFilesAction() {
 		new Thread(() -> {
 			LOG.debug("Start fusionFilesAction");
-			artistPanel.interruptUpdateArtist(true);
+			OngletPanel.getArtist().interruptUpdateArtist(true);
 			result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
 			try {
 				ImportXML.fusionFiles(Constant.getXmlPath(), resultLabel);
@@ -808,8 +800,8 @@ public class ImportPanel extends JPanel {
 				result = new LinkedList<>(Arrays.asList(e.toString()));
 			}
 			SwingUtilities.invokeLater(() -> {
-				fichierPanel.updateData();
-				artistPanel.updateArtistPanel();
+				OngletPanel.getFichier().updateData();
+				OngletPanel.getArtist().updateArtistPanel();
 				miseEnFormeResultLabel(result);
 			});
 			LOG.debug("End fusionFilesAction");

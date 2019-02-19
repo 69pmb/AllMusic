@@ -45,8 +45,7 @@ import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.AbstractModel;
-import pmb.music.AllMusic.view.panel.ArtistPanel;
-import pmb.music.AllMusic.view.panel.FichierPanel;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
  * Utility class for application panels.
@@ -288,8 +287,6 @@ public final class PanelUtils {
 	/**
 	 * Supprime les compositions sélectionnées du tableau et des fichiers XML.
 	 * 
-	 * @param artistPanel le panel artiste
-	 * @param fichierPanel le panel des fichiers
 	 * @param compoList la liste de composition
 	 * @param selected les lignes sélectionnées
 	 * @param label le label de résultat
@@ -298,9 +295,8 @@ public final class PanelUtils {
 	 * @param typeIndex index du type
 	 */
 	@SuppressWarnings("unchecked")
-	public static void deleteCompositionAction(final ArtistPanel artistPanel, FichierPanel fichierPanel,
-			List<Composition> compoList, List<Object> selected, JLabel label, int artistIndex, int titleIndex,
-			int typeIndex) {
+	public static void deleteCompositionAction(List<Composition> compoList, List<Object> selected, JLabel label,
+			int artistIndex, int titleIndex, int typeIndex) {
 		LOG.debug("Start deleteCompositionAction");
 		if (selected.isEmpty()) {
 			label.setText("Aucune composition sélectionnée !");
@@ -308,7 +304,7 @@ public final class PanelUtils {
 			return;
 		}
 		label.setText("");
-		artistPanel.interruptUpdateArtist(true);
+		OngletPanel.getArtist().interruptUpdateArtist(true);
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		for (Object o : selected) {
 			Vector<String> v = (Vector<String>) o;
@@ -328,7 +324,7 @@ public final class PanelUtils {
 			// Update fichier panel data
 			try {
 				for (Fichier file : toRemoveToFinal.getFiles()) {
-					List<Composition> compoListFromData = fichierPanel.getCompoListFromData(file);
+					List<Composition> compoListFromData = OngletPanel.getFichier().getCompoListFromData(file);
 					compoListFromData.get(SearchUtils.indexOf(compoListFromData, toRemoveToFinal)).setDeleted(true);
 				}
 			} catch (Exception e) {
@@ -337,7 +333,7 @@ public final class PanelUtils {
 		}
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
-			artistPanel.updateArtistPanel();
+			OngletPanel.getArtist().updateArtistPanel();
 		} catch (IOException e1) {
 			LOG.error("Erreur lors de l'export du fichier final", e1);
 			label.setText("Erreur lors de l'export du fichier final !!" + e1);
@@ -349,8 +345,6 @@ public final class PanelUtils {
 	/**
 	 * Launchs a dialog to modify the selected composition.
 	 * 
-	 * @param artistPanel to stop calculation
-	 * @param fichierPanel to modify its data
 	 * @param selectedRow the selected composition
 	 * @param compositionList the composition list displayed
 	 * @param indexArtist index of the artist in the vector
@@ -359,11 +353,10 @@ public final class PanelUtils {
 	 * @param indexDeleted index of the deleted boolean in the vector
 	 * @param resultLabel result of the process
 	 */
-	public static void modificationCompositionAction(final ArtistPanel artistPanel, FichierPanel fichierPanel,
-			Vector<String> selectedRow, List<Composition> compositionList, int indexArtist, int indexTitre,
-			int indexType, int indexDeleted, JLabel resultLabel) {
+	public static void modificationCompositionAction(Vector<String> selectedRow, List<Composition> compositionList,
+			int indexArtist, int indexTitre, int indexType, int indexDeleted, JLabel resultLabel) {
 		LOG.debug("Start modificationCompositionAction");
-		artistPanel.interruptUpdateArtist(true);
+		OngletPanel.getArtist().interruptUpdateArtist(true);
 		String label = "Élément modifié";
 		Composition toModif;
 		List<Composition> importXML;
@@ -427,7 +420,7 @@ public final class PanelUtils {
 		}
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
-			artistPanel.updateArtistPanel();
+			OngletPanel.getArtist().updateArtistPanel();
 		} catch (IOException e1) {
 			String log = "Erreur lors de l'export du fichier final !!";
 			LOG.error(log, e1);
@@ -449,13 +442,13 @@ public final class PanelUtils {
 		if (compoExist == null) {
 			for (Fichier file : toModif.getFiles()) {
 				try {
-					List<Composition> compoListFichierPanel = fichierPanel.getCompoListFromData(file).stream()
-							.filter(Objects::nonNull).collect(Collectors.toList());
+					List<Composition> compoListFichierPanel = OngletPanel.getFichier().getCompoListFromData(file)
+							.stream().filter(Objects::nonNull).collect(Collectors.toList());
 					Composition compoFichierPanel = CompositionUtils.findByArtistTitreAndType(compoListFichierPanel,
 							selectedRow.get(indexArtist), selectedRow.get(indexTitre), selectedRow.get(indexType),
 							true);
 					compoListFichierPanel.set(SearchUtils.indexOf(compoListFichierPanel, compoFichierPanel), toModif);
-					fichierPanel.setCompoListFromData(file, compoListFichierPanel);
+					OngletPanel.getFichier().setCompoListFromData(file, compoListFichierPanel);
 				} catch (MyException e) {
 					String log = "Impossible de mettre à jour les données de Fichier Panel";
 					LOG.error(log, e);
