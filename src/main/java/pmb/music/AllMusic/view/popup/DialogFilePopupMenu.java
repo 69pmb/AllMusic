@@ -44,7 +44,7 @@ public class DialogFilePopupMenu extends PopupMenu {
 		// Copy clipboard artist
 		buildCopySelectedRowFieldMenu(KeyEvent.VK_A, artistIndex, "Copier l'artiste");
 		// Copy clipboard title
-		buildCopySelectedRowFieldMenu(KeyEvent.VK_I, titleIndex, "Copier le titre");
+		buildCopySelectedRowFieldMenu(KeyEvent.VK_R, titleIndex, "Copier le titre");
 		// Copy clipboard file name
 		buildCopySelectedRowFieldMenu(KeyEvent.VK_C, fileNameIndex, "Copier le nom du fichier");
 		// Edition of selected composition
