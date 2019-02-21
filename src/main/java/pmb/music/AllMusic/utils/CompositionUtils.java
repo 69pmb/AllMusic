@@ -213,7 +213,7 @@ public final class CompositionUtils {
 						OngletPanel.getScore().getLogMax(composition.getRecordType()),
 						OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition);
 				v.addElement(calculatedScore);
-				v.addElement(getDecile(composition, calculatedScore));
+				v.addElement(getDecile(composition.getRecordType(), calculatedScore));
 			}
 			if (addBoolean) {
 				v.addElement(Boolean.valueOf(false));
@@ -225,9 +225,16 @@ public final class CompositionUtils {
 		return result;
 	}
 
-	private static int getDecile(Composition composition, long calculatedScore) {
+	/**
+	 * Finds decile for given score and type.
+	 * 
+	 * @param type the record type
+	 * @param calculatedScore the score
+	 * @return the decile (between 1 and 10)
+	 */
+	public static int getDecile(RecordType type, long calculatedScore) {
 		BigDecimal scoreBD = BigDecimal.valueOf(calculatedScore);
-		List<Double> decileLimit = OngletPanel.getScore().getDecileLimit(composition.getRecordType());
+		List<Double> decileLimit = OngletPanel.getScore().getDecileLimit(type);
 		int decile = 0;
 		for (int j = 0; j < decileLimit.size(); j++) {
 			if (scoreBD.compareTo(BigDecimal.valueOf(decileLimit.get(j))) <= 0) {

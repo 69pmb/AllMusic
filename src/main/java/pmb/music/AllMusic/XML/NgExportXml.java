@@ -81,10 +81,12 @@ public final class NgExportXml extends ExportXML {
 			comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(compList.get(i).getRecordType()));
 			comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(compList.get(i).isDeleted()));
 			comp.addAttribute("size", String.valueOf(compList.get(i).getFiles().size()));
-			comp.addAttribute("score",
-					String.valueOf(CompositionUtils.calculateCompositionScore(
-							OngletPanel.getScore().getLogMax(compList.get(i).getRecordType()),
-							OngletPanel.getScore().getDoubleMedian(compList.get(i).getRecordType()), compList.get(i))));
+			long calculatedScore = CompositionUtils.calculateCompositionScore(
+					OngletPanel.getScore().getLogMax(compList.get(i).getRecordType()),
+					OngletPanel.getScore().getDoubleMedian(compList.get(i).getRecordType()), compList.get(i));
+			comp.addAttribute("score", String.valueOf(calculatedScore));
+			comp.addAttribute("decile",
+					String.valueOf(CompositionUtils.getDecile(compList.get(i).getRecordType(), calculatedScore)));
 
 			exportFichier(compList.get(i), fullDTF, comp);
 		}
