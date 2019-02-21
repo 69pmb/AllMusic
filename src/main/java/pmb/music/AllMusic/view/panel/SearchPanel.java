@@ -343,7 +343,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		LOG.debug("End searchAction");
 	}
 
-	private void updateTable() {
+	public void updateTable() {
 		LOG.debug("Start updateTable");
 		tableResult.getModel().setRowCount(0);
 		tableResult.getModel().setDataVector(
@@ -414,5 +414,13 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 	public JTable getTableResult() {
 		return tableResult.getTable();
+	}
+
+	public List<Composition> getCompoResult() {
+		return compoResult;
+	}
+
+	public void setCompoResult(List<Composition> compoResult) {
+		this.compoResult = compoResult;
 	}
 }

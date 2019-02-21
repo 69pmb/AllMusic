@@ -71,6 +71,7 @@ public class PopupMenu {
 	 * 
 	 * @param shortcut shortcut of the menu
 	 * @param index index of the wanted field in the selected row
+	 * @param label label of the menu item
 	 */
 	public void buildCopySelectedRowFieldMenu(int shortcut, int index, String label) {
 		ComponentBuilder.buildMenuItem(menu, label, shortcut, (ActionEvent e) -> {
