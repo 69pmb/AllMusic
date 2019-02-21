@@ -374,7 +374,7 @@ public final class SearchUtils {
 				do {
 					i++;
 					composition = list.get(i);
-				} while (i < list.size() && !(StringUtils.equals(composition.getArtist(), o.getArtist())
+				} while (i < list.size() - 1 && !(StringUtils.equals(composition.getArtist(), o.getArtist())
 						&& StringUtils.equals(composition.getTitre(), o.getTitre())
 						&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
 						&& composition.getFiles().size() == o.getFiles().size()));

@@ -8,15 +8,19 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.KeyStroke;
@@ -26,9 +30,12 @@ import javax.swing.table.TableRowSorter;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
+import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
@@ -37,6 +44,7 @@ import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.TableBuilder;
 import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.FichierDialogModel;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 import pmb.music.AllMusic.view.popup.DialogFilePopupMenu;
 
 /**
@@ -140,8 +148,8 @@ public class DialogFileTable {
 							pop.showDialogFileTable();
 							LOG.debug("End double right mouse");
 						}
-					}).withPopupMenu(new DialogFilePopupMenu(INDEX_ARTIST, INDEX_TITLE, INDEX_FILE_NAME, INDEX_AUTEUR,
-							INDEX_RANK))
+					}).withPopupMenu(new DialogFilePopupMenu(this, INDEX_ARTIST, INDEX_TITLE, INDEX_FILE_NAME,
+							INDEX_AUTEUR, INDEX_RANK))
 					.withKeyListener().build();
 			fichiers.getRowSorter().toggleSortOrder(defaultSort);
 			((TableRowSorter<?>) fichiers.getRowSorter()).setComparator(INDEX_PERCENT_DELETED,
@@ -162,4 +170,120 @@ public class DialogFileTable {
 		LOG.debug("End initComponent");
 	}
 
+	/**
+	 * Launchs a dialog to modify the selected composition.
+	 * 
+	 * @param selected the selected row representing a composition
+	 */
+	public void modifyCompositionAction(Vector<Object> selected) {
+		LOG.debug("Start modifyCompositionAction");
+		OngletPanel.getArtist().interruptUpdateArtist(true);
+		List<Composition> importXML;
+		importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		// On récupère la composition à modifier
+		String fileName = (String) selected.get(INDEX_FILE_NAME);
+		String artist = (String) selected.get(INDEX_ARTIST);
+		String titre = (String) selected.get(INDEX_TITLE);
+		List<Composition> xmlFile = ImportXML.importXML(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION);
+		Composition edited = xmlFile.stream()
+				.filter(c -> c.getFiles().get(0).getClassement().equals((Integer) selected.get(INDEX_RANK))
+						&& StringUtils.equals(c.getTitre(), titre)
+						&& c.getFiles().get(0).getSize().equals((Integer) selected.get(INDEX_FILE_SIZE))
+						&& StringUtils.equals(c.getArtist(), artist))
+				.findFirst().get();
+		int indexFromFinal = importXML
+				.indexOf(CompositionUtils.findByFile(importXML, edited.getFiles().get(0), artist, titre).get());
+		// Lancement de la popup de modification
+		ModifyCompositionDialog md = new ModifyCompositionDialog(
+				selected.stream().map(Object::toString).collect(Collectors.toCollection(Vector::new)), INDEX_ARTIST,
+				INDEX_TITLE, INDEX_TYPE, INDEX_DELETED);
+		md.showModifyCompositionDialog();
+		Vector<String> editedRow;
+		if (md.isSendData()) {
+			// On recupère la compo si elle a bien été modifiée
+			LOG.debug("Composition modifiée");
+			editedRow = md.getCompo();
+		} else {
+			LOG.debug("Aucune modification");
+			return;
+		}
+
+		// Update composition from dialog
+		edited.setArtist(editedRow.get(INDEX_ARTIST));
+		edited.setTitre(editedRow.get(INDEX_TITLE));
+		edited.setRecordType(RecordType.valueOf(editedRow.get(INDEX_TYPE)));
+		edited.setDeleted(Boolean.valueOf(editedRow.get(INDEX_DELETED)));
+
+		Predicate<Fichier> filterFile = f -> !(f.getClassement().equals((Integer) selected.get(INDEX_RANK))
+				&& StringUtils.equals(f.getFileName(), (String) selected.get(INDEX_FILE_NAME))
+				&& f.getSize().equals((Integer) selected.get(INDEX_FILE_SIZE)));
+		importXML.get(indexFromFinal).setFiles(
+				importXML.get(indexFromFinal).getFiles().stream().filter(filterFile).collect(Collectors.toList()));
+		int indexCompoList = compoList
+				.indexOf(CompositionUtils.findByFile(compoList, edited.getFiles().get(0), artist, titre).get());
+		compoList.get(indexCompoList).setFiles(
+				compoList.get(indexCompoList).getFiles().stream().filter(filterFile).collect(Collectors.toList()));
+		Composition compoExist = CompositionUtils.compoExist(importXML, edited);
+		boolean isDeleted = false;
+		if (compoExist == null) {
+			LOG.debug("Pas de regroupement");
+			importXML.add(edited);
+		} else {
+			LOG.debug("La compo existe déjà, on regroupe");
+			// regroupement avec une autre composition
+			isDeleted = compoExist.isDeleted() || edited.isDeleted();
+			compoExist.getFiles().addAll(edited.getFiles());
+			compoExist.setDeleted(isDeleted);
+			edited.setDeleted(isDeleted);
+			// Liste des compositions affichées
+			Composition compoExistResult = CompositionUtils.compoExist(compoList, edited);
+			if (compoExistResult != null) {
+				// La compo apparait bien dans les resultats de recherche
+				compoExistResult.getFiles().addAll(edited.getFiles());
+				compoExistResult.setDeleted(isDeleted);
+			}
+		}
+
+		try {
+			ExportXML.exportXML(importXML, Constant.getFinalFile());
+			OngletPanel.getArtist().updateArtistPanel();
+		} catch (IOException e1) {
+			LOG.error("Erreur lors de l'export du fichier final !!", e1);
+		}
+
+		try {
+			ExportXML.exportXML(xmlFile, fileName);
+		} catch (IOException e) {
+			LOG.error("Erreur lors de la modification d'une composition dans le fichier: " + fileName, e);
+		}
+
+		if (OngletPanel.getOnglets().getSelectedIndex() == 0) {
+			LOG.debug("Updates search panel data");
+			List<Composition> searchPanelCompo = OngletPanel.getSearch().getCompoResult();
+			int indexOfSearchPanel = searchPanelCompo.indexOf(
+					CompositionUtils.findByFile(searchPanelCompo, edited.getFiles().get(0), artist, titre).get());
+			searchPanelCompo.get(indexOfSearchPanel).setFiles(searchPanelCompo.get(indexOfSearchPanel).getFiles()
+					.stream().filter(filterFile).collect(Collectors.toList()));
+			compoExist = CompositionUtils.compoExist(searchPanelCompo, edited);
+			if (compoExist == null) {
+				searchPanelCompo.add(indexOfSearchPanel, edited);
+			} else {
+				compoExist.getFiles().addAll(edited.getFiles());
+				compoExist.setDeleted(isDeleted);
+			}
+			OngletPanel.getSearch().updateTable();
+		}
+
+		// Updates fichier panel data
+		PanelUtils.updateFichierPanelData(selected, INDEX_ARTIST, INDEX_TITLE, INDEX_TYPE, new JLabel(), edited);
+
+		// Update dialog
+		fichiers.getModel().setRowCount(0);
+		fichiers.getModel().setDataVector(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
+				new Vector<>(Arrays.asList(header)));
+		PanelUtils.colRenderer(fichiers.getTable(), true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null,
+				INDEX_SORTED, INDEX_RANK);
+		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
+		LOG.debug("End modifyCompositionAction");
+	}
 }

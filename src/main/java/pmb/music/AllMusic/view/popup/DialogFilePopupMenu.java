@@ -1,9 +1,12 @@
 package pmb.music.AllMusic.view.popup;
 
+import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+import java.util.Vector;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 
 /**
@@ -18,13 +21,16 @@ public class DialogFilePopupMenu extends PopupMenu {
 	/**
 	 * Constructor of {@link DialogFilePopupMenu}.
 	 * 
+	 * @param dialogFileTable dialog file 
 	 * @param artistIndex index in row of the artist
 	 * @param titleIndex index in row of the title
 	 * @param fileNameIndex index in row of the file name
 	 * @param authorIndex index in row of the author
 	 * @param rankIndex index in row of the rank
 	 */
-	public DialogFilePopupMenu(int artistIndex, int titleIndex, int fileNameIndex, int authorIndex, int rankIndex) {
+	@SuppressWarnings("unchecked")
+	public DialogFilePopupMenu(DialogFileTable dialogFileTable, int artistIndex, int titleIndex, int fileNameIndex,
+			int authorIndex, int rankIndex) {
 		super();
 		LOG.debug("Start DialogFilePopupMenu");
 
@@ -40,6 +46,12 @@ public class DialogFilePopupMenu extends PopupMenu {
 		buildCopySelectedRowFieldMenu(KeyEvent.VK_I, titleIndex, "Copier le titre");
 		// Copy clipboard file name
 		buildCopySelectedRowFieldMenu(KeyEvent.VK_C, fileNameIndex, "Copier le nom du fichier");
+		// Edition of selected composition
+		ComponentBuilder.buildMenuItem(menu, "Modifier cette composition", KeyEvent.VK_E, (ActionEvent e) -> {
+			dialogFileTable.modifyCompositionAction((Vector<Object>) selectedRow);
+			this.setVisible(false);
+			LOG.debug("End edit");
+		}, null);
 
 		LOG.debug("End DialogFilePopupMenu");
 	}
