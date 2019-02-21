@@ -93,7 +93,8 @@ public final class BatchUtils {
 	private static final String CSV_HEADER_TITLE = "Titre";
 	private static final String CSV_HEADER_RANK = "Classement";
 	private static final String CSV_HEADER_DELETED = "Supprimé";
-	private static final String CSV_HEADER_YEAR = "Année";
+	private static final String CSV_HEADER_ANNEE = "Année";
+	private static final String CSV_HEADER_YEAR = "Year: ";
 	private static final String CSV_HEADER_TYPE = "Type";
 	private static final String CSV_HEADER_SCORE = "Score";
 	private static final String CSV_HEADER_DECILE = "Décile";
@@ -973,17 +974,18 @@ public final class BatchUtils {
 				.map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
 
 		addLine(text, "TXT: ", true);
+		final String missingLog = "Missing: ";
 		for (String txt : collectMusic) {
 			if (collectXml.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, txt))) {
-				addLine(text, "Missing: " + txt, true);
-				LOG.debug("Missing: " + txt);
+				addLine(text, missingLog + txt, true);
+				LOG.debug(missingLog + txt);
 			}
 		}
 		addLine(text, "XML: ", true);
 		for (String xmlFile : collectXml) {
 			if (collectMusic.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, xmlFile))) {
-				addLine(text, "Missing: " + xmlFile, true);
-				LOG.debug("Missing: " + xmlFile);
+				addLine(text, missingLog + xmlFile, true);
+				LOG.debug(missingLog + xmlFile);
 			}
 		}
 
@@ -1310,7 +1312,7 @@ public final class BatchUtils {
 		}
 		String[] header = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_RANK, CSV_HEADER_DELETED };
 		if ("0".equals(year)) {
-			String[] tmp = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_RANK, CSV_HEADER_YEAR,
+			String[] tmp = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_RANK, CSV_HEADER_ANNEE,
 					CSV_HEADER_DELETED };
 			header = tmp;
 		}
@@ -1356,7 +1358,7 @@ public final class BatchUtils {
 		}
 		String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_TYPE, CSV_HEADER_FILE_SIZE,
 				CSV_HEADER_SCORE, CSV_HEADER_DECILE, CSV_HEADER_DELETED,
-				"Year: " + year + " Type: " + type.toString() };
+				CSV_HEADER_YEAR + year + " Type: " + type.toString() };
 		return CsvFile.exportCsv(fileName + " - " + year, MiscUtils.convertVectorToList(occurenceList),
 				Arrays.asList(new SortKey(3, SortOrder.DESCENDING), new SortKey(4, SortOrder.DESCENDING)), csvHeader);
 	}
@@ -1403,7 +1405,7 @@ public final class BatchUtils {
 			}
 		}
 		String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_TYPE, CSV_HEADER_SCORE,
-				CSV_HEADER_DELETED, "Year: " + year + " Type: " + type.toString() };
+				CSV_HEADER_DELETED, CSV_HEADER_YEAR + year + " Type: " + type.toString() };
 		return CsvFile.exportCsv(fileName + " - " + year, occurenceList,
 				Arrays.asList(new SortKey(3, SortOrder.DESCENDING)), csvHeader);
 	}
@@ -1433,7 +1435,7 @@ public final class BatchUtils {
 		}
 		String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_OCCURENCY, CSV_HEADER_ALBUMS, CSV_HEADER_SONG,
 				CSV_HEADER_PERCENT_DELETED, CSV_HEADER_SCORE_TOTAL, CSV_HEADER_SCORE_ALBUM, CSV_HEADER_SCORE_SONG,
-				CSV_HEADER_SCORE_DELETED, "Year: " + year };
+				CSV_HEADER_SCORE_DELETED, CSV_HEADER_YEAR + year };
 		return CsvFile.exportCsv("Top Occurence - " + year, MiscUtils.convertVectorToList(occurenceList),
 				Arrays.asList(new SortKey(1, SortOrder.DESCENDING), new SortKey(5, SortOrder.DESCENDING)), csvHeader);
 	}
