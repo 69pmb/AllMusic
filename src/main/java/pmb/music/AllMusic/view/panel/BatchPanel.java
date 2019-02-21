@@ -49,6 +49,8 @@ import pmb.music.AllMusic.view.PanelUtils;
  * <li>Missing XML files: MXF</li>
  * <li>Top year: top</li>
  * <li>Finds suspicious compositions: suspicious</li>
+ * <li>Finds and edits composition with a slash in title and alone:
+ * slashEdit</li>
  * <li>Finds duplicates title with different artist: duplicateTitle</li>
  * <li>Checks filenames (Author + name + publishYear): validateFileName</li>
  * <li>Calculates in a file for each compositions, the number of files
@@ -82,7 +84,7 @@ public class BatchPanel extends JPanel {
 	public BatchPanel() {
 		super();
 		LOG.debug("Start BatchPanel");
-		this.setLayout(new GridLayout(13, 1));
+		this.setLayout(new GridLayout(14, 1));
 
 		findDuplicateComposition();
 		massDeletion();
@@ -90,6 +92,7 @@ public class BatchPanel extends JPanel {
 		missingXmlFiles();
 		topYear();
 		suspicious();
+		slashEdit();
 		duplicateTitle();
 		validateFileName();
 		averageOfFilesByFiles();
@@ -345,6 +348,28 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(suspicious);
+	}
+
+	private void slashEdit() {
+		JPanel slash = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
+
+		// Label
+		JLabel suspiciousLabel = new JLabel("Editer les compositions avec un slash: ");
+		PanelUtils.addComponent(slash, suspiciousLabel, Component.LEFT_ALIGNMENT, 800);
+
+		// Slash Btn
+		JButton slashBtn = ComponentBuilder.buildJButton("Go Compositions Slash", 200, Constant.ICON_GO);
+		slashBtn.setToolTipText("Editer des compositions seules contenant un slash dans leur titre");
+		slashBtn.addActionListener((ActionEvent arg0) -> {
+			displayText("Start slashEdit: " + MiscUtils.getCurrentTime(), false);
+			new Thread(() -> {
+				fileResult = BatchUtils.slashEdit();
+				displayText("End slashEdit: " + MiscUtils.getCurrentTime(), false);
+			}).start();
+		});
+		PanelUtils.addComponent(slash, slashBtn, Component.RIGHT_ALIGNMENT, 100);
+
+		this.add(slash);
 	}
 
 	private void duplicateTitle() {

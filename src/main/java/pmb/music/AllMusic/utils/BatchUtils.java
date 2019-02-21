@@ -57,6 +57,7 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.view.dialog.DeleteCompoDialog;
+import pmb.music.AllMusic.view.dialog.SlashEditDialog;
 import pmb.music.AllMusic.view.panel.BatchPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
@@ -564,6 +565,90 @@ public final class BatchUtils {
 		LOG.debug("End weirdOfFilesByFiles");
 		addLine(text, "End weirdFileSize", true);
 		return writeInFile(text, Constant.BATCH_FILE);
+	}
+
+	/**
+	 * Launchs a dialog to edit composition with a slash in their title.
+	 * 
+	 * @return the file name of the result file
+	 */
+	public static String slashEdit() {
+		LOG.debug("Start slashEdit");
+		StringBuilder result = new StringBuilder();
+
+		List<Composition> slashComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
+				.filter(c -> c.getFiles().size() == 1 && StringUtils.contains(c.getTitre(), "/"))
+				.collect(Collectors.toList());
+		int size = slashComposition.size();
+		SlashEditDialog dialog = new SlashEditDialog(size);
+		for (int i = 0; i < size; i++) {
+			Composition c = slashComposition.get(i);
+			dialog.updateDialog(c, i);
+			dialog.setVisible(true);
+			Boolean action = dialog.getSendData();
+			if (action == null) {
+				// stop everything
+				LOG.debug("Stop");
+				break;
+			} else if (action) {
+				// Edit composition
+				Fichier file = c.getFiles().get(0);
+
+				List<Composition> finalFile = ImportXML.importXML(Constant.getFinalFilePath());
+				splitComposition(finalFile, dialog, c, file, true);
+
+				List<Composition> xmlFile = ImportXML
+						.importXML(FichierUtils.buildXmlFilePath(file.getFileName()).orElse(null));
+				splitComposition(xmlFile, dialog, c, file, false);
+
+				try {
+					ExportXML.exportXML(finalFile, Constant.getFinalFile());
+					ExportXML.exportXML(xmlFile, file.getFileName());
+				} catch (IOException e) {
+					LOG.error("Error when exporting a file", e);
+				}
+			} else {
+				// Skip composition
+			}
+		}
+
+		LOG.debug("End slashEdit");
+		return writeInFile(result, Constant.BATCH_FILE);
+	}
+
+	private static void splitComposition(List<Composition> list, SlashEditDialog dialog, Composition c, Fichier file,
+			boolean fusion) {
+		Composition compoInList = CompositionUtils.findByFile(list, file, c.getArtist(), c.getTitre()).orElse(null);
+		if (compoInList != null) {
+			int indexOf = SearchUtils.indexOf(list, compoInList);
+			Composition c2 = new Composition(compoInList);
+			compoInList.setTitre(dialog.getTitle1());
+			c2.setTitre(dialog.getTitle2());
+			list.add(indexOf + 1, c2);
+
+			if (fusion) {
+				boolean merged = fusion(list, compoInList, indexOf);
+				fusion(list, c2, merged ? indexOf : indexOf + 1);
+			}
+
+		} else {
+			LOG.warn("Warning could not find composition in list");
+		}
+	}
+
+	private static boolean fusion(List<Composition> list, Composition c, int indexOf) {
+		boolean isDeleted = false;
+		list.remove(indexOf);
+		Composition compoExist = CompositionUtils.compoExist(list, c);
+		if (compoExist != null) {
+			LOG.debug("Composition exists -> fusion");
+			isDeleted = compoExist.isDeleted() || c.isDeleted();
+			compoExist.getFiles().addAll(c.getFiles());
+			compoExist.setDeleted(isDeleted);
+		} else {
+			list.add(indexOf, c);
+		}
+		return compoExist != null;
 	}
 
 	/**
