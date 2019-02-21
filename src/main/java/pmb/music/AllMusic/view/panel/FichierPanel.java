@@ -466,9 +466,10 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	 * Launchs a dialog to modify the selected composition.
 	 * 
 	 * @param selected the selected row representing a composition
+	 * @throws MyException if edition fails
 	 */
 	@Override
-	public void modifyCompositionAction(Vector<String> selected) {
+	public void modifyCompositionAction(Vector<String> selected) throws MyException {
 		LOG.debug("Start modifyCompositionAction");
 		PanelUtils.modificationCompositionAction(selected, compositionList, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE,
 				INDEX_COMPO_TYPE, INDEX_COMPO_DELETED, resultLabel);

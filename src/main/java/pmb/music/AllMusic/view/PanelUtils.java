@@ -352,9 +352,10 @@ public final class PanelUtils {
 	 * @param indexType index of the record type in the vector
 	 * @param indexDeleted index of the deleted boolean in the vector
 	 * @param resultLabel result of the process
+	 * @throws MyException if something went wrong
 	 */
 	public static void modificationCompositionAction(Vector<String> selectedRow, List<Composition> compositionList,
-			int indexArtist, int indexTitre, int indexType, int indexDeleted, JLabel resultLabel) {
+			int indexArtist, int indexTitre, int indexType, int indexDeleted, JLabel resultLabel) throws MyException {
 		LOG.debug("Start modificationCompositionAction");
 		OngletPanel.getArtist().interruptUpdateArtist(true);
 		String label = "Élément modifié";
@@ -371,8 +372,10 @@ public final class PanelUtils {
 			resultLabel.setText(log + e1.getMessage());
 			return;
 		}
-		int indexOfXml = importXML.indexOf(CompositionUtils.findByFile(importXML, toModif.getFiles().get(0),
-				selectedRow.get(indexArtist), selectedRow.get(indexTitre)).get());
+		int indexOfXml = importXML.indexOf(CompositionUtils
+				.findByFile(importXML, toModif.getFiles().get(0), selectedRow.get(indexArtist),
+						selectedRow.get(indexTitre))
+				.orElseThrow(() -> new MyException("Can't find edited composition in final file")));
 		int indexOfResult = SearchUtils.indexOf(compositionList, toModif);
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, indexArtist, indexTitre, indexType,

@@ -55,6 +55,7 @@ import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
+import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 import pmb.music.AllMusic.view.model.CompoSearchPanelModel;
 import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 
@@ -161,8 +162,16 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 		// Modif Btn
 		JButton modif = ComponentBuilder.buildJButton("Modifier la composition sélectionnée", 300, Constant.ICON_EDIT);
-		modif.addActionListener((ActionEvent e) -> modifyCompositionAction(
-				(Vector<String>) tableResult.getModel().getSelected().get(0)));
+		modif.addActionListener((ActionEvent e) -> {
+			try {
+				modifyCompositionAction((Vector<String>) tableResult.getModel().getSelected().get(0));
+			} catch (MyException e2) {
+				LOG.error("An exception has been thrown when editing composition: ", e2);
+				ExceptionDialog ed = new ExceptionDialog("An exception has been thrown when editing composition",
+						e2.getMessage(), e2);
+				ed.setVisible(true);
+			}
+		});
 		top.add(modif);
 
 		// CSV
@@ -391,7 +400,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	}
 
 	@Override
-	public void modifyCompositionAction(Vector<String> selectedRow) {
+	public void modifyCompositionAction(Vector<String> selectedRow) throws MyException {
 		if (tableResult.getModel().getSelected().size() > 1) {
 			String msg = "Trop d'éléments sélectionnés";
 			deleteLabel.setText(msg);
