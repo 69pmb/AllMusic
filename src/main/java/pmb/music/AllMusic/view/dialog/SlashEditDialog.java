@@ -110,6 +110,7 @@ public class SlashEditDialog {
 	 * Update dialog infos.
 	 * 
 	 * @param found composition found
+	 * @param index index in all slashed composition
 	 */
 	public void updateDialog(Composition found, int index) {
 		sendData = null;
@@ -118,8 +119,8 @@ public class SlashEditDialog {
 						.divide(new BigDecimal(size), RoundingMode.HALF_UP).doubleValue() + "%");
 
 		StringJoiner compoJoin = new StringJoiner(Constant.NEW_LINE).add(found.getArtist() + " " + found.getTitre())
-				.add(found.getRecordType().toString()).add("Deleted: " + Boolean.valueOf(found.isDeleted()).toString())
-				.add("CanBeMerged: " + Boolean.valueOf(found.isCanBeMerged()).toString());
+				.add(found.getRecordType().toString()).add("Deleted: " + Boolean.toString(found.isDeleted()))
+				.add("CanBeMerged: " + Boolean.toString(found.isCanBeMerged()));
 		Fichier fichier = found.getFiles().get(0);
 		StringJoiner fileJoin = new StringJoiner(Constant.NEW_LINE).add(fichier.getFileName())
 				.add("Category: " + fichier.getCategorie().toString())
