@@ -208,14 +208,16 @@ public final class FichierUtils {
 	}
 
 	/**
-	 * @param fileName
-	 * @param newFileName
-	 * @param newPublish
-	 * @param newRange
-	 * @param newCat
-	 * @param newSize
-	 * @param newSorted
-	 * @return
+	 * Edits entry composition file with given filename with new values.
+	 * 
+	 * @param fileName file name of the file to edit
+	 * @param newFileName new file name
+	 * @param newPublish new publish year
+	 * @param newRange range date begin and end combined with a {@code " - "}
+	 * @param newCat new category
+	 * @param newSize new size
+	 * @param newSorted {@code oui} or {@code non} for new sort value
+	 * @return a consumer making the described action
 	 */
 	public static Consumer<Composition> modifyOneFile(String fileName, String newFileName, String newPublish,
 			String newRange, String newCat, String newSize, String newSorted) {
@@ -291,16 +293,13 @@ public final class FichierUtils {
 		if (filePath != null) {
 			if (FileUtils.fileExists(filePath)) {
 				String lineNb = "";
-				if (lineNumber != null) {
-					// calculates the specific line number
-					if (StringUtils.endsWith(filePath, Constant.TXT_EXTENSION)) {
-						// offset with import settings
-						lineNumber += 1;
-					} else if (StringUtils.endsWith(filePath, Constant.XML_EXTENSION)) {
-						// offset with root tags and each compo is 3 lines long
-						lineNumber = (lineNumber - 1) * 3 + 4;
-					}
-					lineNb = "-n" + lineNumber + " ";
+				// calculates the specific line number
+				if (lineNumber != null && StringUtils.endsWith(filePath, Constant.TXT_EXTENSION)) {
+					// offset with import settings
+					lineNb = "-n" + (lineNumber + 1) + " ";
+				} else if (lineNumber != null && StringUtils.endsWith(filePath, Constant.XML_EXTENSION)) {
+					// offset with root tags and each compo is 3 lines long
+					lineNb = "-n" + ((lineNumber - 1) * 3 + 4) + " ";
 				}
 				try {
 					Runtime.getRuntime()
