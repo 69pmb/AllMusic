@@ -440,24 +440,29 @@ public final class PanelUtils {
 
 		// Modification des données de fichier panel
 		if (compoExist == null) {
-			for (Fichier file : toModif.getFiles()) {
-				try {
-					List<Composition> compoListFichierPanel = OngletPanel.getFichier().getCompoListFromData(file)
-							.stream().filter(Objects::nonNull).collect(Collectors.toList());
-					Composition compoFichierPanel = CompositionUtils.findByArtistTitreAndType(compoListFichierPanel,
-							selectedRow.get(indexArtist), selectedRow.get(indexTitre), selectedRow.get(indexType),
-							true);
-					compoListFichierPanel.set(SearchUtils.indexOf(compoListFichierPanel, compoFichierPanel), toModif);
-					OngletPanel.getFichier().setCompoListFromData(file, compoListFichierPanel);
-				} catch (MyException e) {
-					String log = "Impossible de mettre à jour les données de Fichier Panel";
-					LOG.error(log, e);
-					resultLabel.setText(log + e.getMessage());
-				}
-			}
+			updateFichierPanelData(selectedRow, indexArtist, indexTitre, indexType, resultLabel, toModif);
 		}
 		resultLabel.setText(label);
 		LOG.debug("End modificationCompositionAction");
+	}
+
+	public static void updateFichierPanelData(Vector<?> selectedRow, int indexArtist, int indexTitre, int indexType,
+			JLabel resultLabel, Composition toModif) {
+		for (Fichier file : toModif.getFiles()) {
+			try {
+				List<Composition> compoListFichierPanel = OngletPanel.getFichier().getCompoListFromData(file).stream()
+						.filter(Objects::nonNull).collect(Collectors.toList());
+				Composition compoFichierPanel = CompositionUtils.findByArtistTitreAndType(compoListFichierPanel,
+						(String) selectedRow.get(indexArtist), (String) selectedRow.get(indexTitre),
+						(String) selectedRow.get(indexType), true);
+				compoListFichierPanel.set(SearchUtils.indexOf(compoListFichierPanel, compoFichierPanel), toModif);
+				OngletPanel.getFichier().setCompoListFromData(file, compoListFichierPanel);
+			} catch (MyException e) {
+				String log = "Impossible de mettre à jour les données de Fichier Panel";
+				LOG.error(log, e);
+				resultLabel.setText(log + e.getMessage());
+			}
+		}
 	}
 
 	/**
