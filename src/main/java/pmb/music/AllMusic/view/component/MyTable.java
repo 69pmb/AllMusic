@@ -75,7 +75,7 @@ public class MyTable implements Serializable {
 	 * Remove given column from table.
 	 * 
 	 * @see JTable#removeColumn(TableColumn)
-	 * @param aColumn
+	 * @param aColumn column to remove
 	 */
 	public void removeColumn(TableColumn aColumn) {
 		table.removeColumn(aColumn);
