@@ -171,6 +171,12 @@ public final class MenuPanel {
 					}
 				}, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK);
 
+		ComponentBuilder.buildMenuItem(edition, "Recalculer les données de l'onglet Artiste", KeyEvent.VK_E,
+				(ActionEvent ae) -> {
+					OngletPanel.getArtist().interruptUpdateArtist(true);
+					OngletPanel.getArtist().updateArtistPanel();
+				}, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK);
+
 		return edition;
 	}
 
