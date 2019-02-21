@@ -352,6 +352,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		LOG.debug("End searchAction");
 	}
 
+	/**
+	 * Updates {@link SearchPanel} table data and handles sorting and rendering.
+	 */
 	public void updateTable() {
 		LOG.debug("Start updateTable");
 		tableResult.getModel().setRowCount(0);

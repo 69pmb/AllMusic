@@ -6,7 +6,7 @@ import com.opencsv.bean.CsvBindByName;
 import com.opencsv.bean.CsvDate;
 
 /**
- * Created by PBR on 27 déc. 2018.
+ * Model class for Itunes csv file.
  */
 public class CsvComposition {
 

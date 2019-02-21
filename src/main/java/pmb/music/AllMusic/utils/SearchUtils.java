@@ -202,11 +202,14 @@ public final class SearchUtils {
 	}
 
 	/**
-	 * @param searchMethod
-	 * @param jaro
-	 * @param criteria
-	 * @param fi
-	 * @return
+	 * Checks if given {@link Fichier} matches given criteria (author, filename,
+	 * category...).
+	 * 
+	 * @param searchMethod searching method for file name
+	 * @param jaro jaro instance
+	 * @param criteria search criteria
+	 * @param fi file to check
+	 * @return if true the file matchs, false otherwise
 	 */
 	public static boolean filterFichier(final SearchMethod searchMethod, JaroWinklerDistance jaro,
 			final Map<String, String> criteria, Fichier fi) {
