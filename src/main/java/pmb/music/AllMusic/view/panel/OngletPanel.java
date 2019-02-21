@@ -197,7 +197,7 @@ public class OngletPanel extends JPanel {
 				.map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted().toArray(String[]::new);
 	}
 
-	private String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
+	private static String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
 			ImportPanel importP, BatchPanel batch) {
 		int index = getOnglets().getSelectedIndex();
 		String tab = "";
