@@ -6,7 +6,8 @@ import javax.swing.JComponent;
 import javax.swing.JPanel;
 
 /**
- * Created by PBR on 4 févr. 2019.
+ * Configuration to build swing {@link JComponent} with
+ * {@code ComponentBuilder}.
  * 
  * @param <T> type of the items of the component to build
  */
