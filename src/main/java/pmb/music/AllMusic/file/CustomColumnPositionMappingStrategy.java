@@ -34,8 +34,9 @@ import com.opencsv.bean.FieldMapByPositionEntry;
 import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 
 /**
- * Created by PBR on 28 déc. 2018.
+ * Class describing how to parse csv file when using {@code OpenCsv}.
  * 
+ * @see AbstractMappingStrategy
  * @param <T> class model of the csv
  */
 public class CustomColumnPositionMappingStrategy<T>

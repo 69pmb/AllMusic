@@ -14,7 +14,8 @@ import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.popup.PopupMenu;
 
 /**
- * Created by PBR on 8 févr. 2019.
+ * Wrapper around {@link JTable} to handle generically sorting, popup, model and
+ * initialization.
  */
 public class MyTable implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -27,6 +28,10 @@ public class MyTable implements Serializable {
 	private transient PopupMenu popupMenu;
 	private String[] header;
 
+	/**
+	 * Constructor of {@link MyTable}. Sets default value for its table (header,
+	 * design, sorting).
+	 */
 	public MyTable() {
 		table = new JTable();
 		table.setAutoCreateRowSorter(true);
@@ -50,6 +55,14 @@ public class MyTable implements Serializable {
 		return table.getRowCount();
 	}
 
+	/**
+	 * Edits a value in table.
+	 * 
+	 * @see JTable#setValueAt(Object, int, int)
+	 * @param aValue the new value
+	 * @param row row position of the value to replace
+	 * @param column column position of the value to replace
+	 */
 	public void setValueAt(Object aValue, int row, int column) {
 		table.setValueAt(aValue, row, column);
 	}
@@ -58,6 +71,12 @@ public class MyTable implements Serializable {
 		return table.getColumnModel();
 	}
 
+	/**
+	 * Remove given column from table.
+	 * 
+	 * @see JTable#removeColumn(TableColumn)
+	 * @param aColumn
+	 */
 	public void removeColumn(TableColumn aColumn) {
 		table.removeColumn(aColumn);
 	}

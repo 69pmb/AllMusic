@@ -121,9 +121,11 @@ public final class MiscUtils {
 	}
 
 	/**
-	 * @param line
-	 * @param entrySet
-	 * @return
+	 * Clean given line with given rules.
+	 * 
+	 * @param line the line to clean
+	 * @param entrySet key: character to replace, value: character to replace with
+	 * @return the line cleaned
 	 */
 	public static String cleanLine(String line, Set<Entry<String, String>> entrySet) {
 		for (Entry<String, String> entry : entrySet) {

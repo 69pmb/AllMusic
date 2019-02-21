@@ -449,16 +449,26 @@ public final class PanelUtils {
 		LOG.debug("End modificationCompositionAction");
 	}
 
+	/**
+	 * Updates fichier panel data when a row has been edited.
+	 * 
+	 * @param selectedRow the row edited
+	 * @param indexArtist index of the artist in the row
+	 * @param indexTitre index of the title in the row
+	 * @param indexType index of the record type in the row
+	 * @param resultLabel jlabel holding process result
+	 * @param edited the composition edited
+	 */
 	public static void updateFichierPanelData(Vector<?> selectedRow, int indexArtist, int indexTitre, int indexType,
-			JLabel resultLabel, Composition toModif) {
-		for (Fichier file : toModif.getFiles()) {
+			JLabel resultLabel, Composition edited) {
+		for (Fichier file : edited.getFiles()) {
 			try {
 				List<Composition> compoListFichierPanel = OngletPanel.getFichier().getCompoListFromData(file).stream()
 						.filter(Objects::nonNull).collect(Collectors.toList());
 				Composition compoFichierPanel = CompositionUtils.findByArtistTitreAndType(compoListFichierPanel,
 						(String) selectedRow.get(indexArtist), (String) selectedRow.get(indexTitre),
 						(String) selectedRow.get(indexType), true);
-				compoListFichierPanel.set(SearchUtils.indexOf(compoListFichierPanel, compoFichierPanel), toModif);
+				compoListFichierPanel.set(SearchUtils.indexOf(compoListFichierPanel, compoFichierPanel), edited);
 				OngletPanel.getFichier().setCompoListFromData(file, compoListFichierPanel);
 			} catch (MyException e) {
 				String log = "Impossible de mettre à jour les données de Fichier Panel";

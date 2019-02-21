@@ -22,8 +22,7 @@ import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
 /**
- * Hello world!
- * 
+ * Root class of the application.
  */
 public final class AllMusic {
 

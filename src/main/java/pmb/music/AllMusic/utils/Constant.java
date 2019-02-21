@@ -14,7 +14,7 @@ import org.codehaus.plexus.util.FileUtils;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
 
 /**
- * Classe de constances.
+ * Constants class.
  * 
  */
 public class Constant {
