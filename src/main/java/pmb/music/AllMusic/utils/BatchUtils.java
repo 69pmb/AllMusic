@@ -89,6 +89,24 @@ public final class BatchUtils {
 		return int1.compareTo(int2);
 	};
 
+	private static final String CSV_HEADER_ARTIST = "Artiste";
+	private static final String CSV_HEADER_TITLE = "Titre";
+	private static final String CSV_HEADER_RANK = "Classement";
+	private static final String CSV_HEADER_DELETED = "Supprimé";
+	private static final String CSV_HEADER_YEAR = "Année";
+	private static final String CSV_HEADER_TYPE = "Type";
+	private static final String CSV_HEADER_SCORE = "Score";
+	private static final String CSV_HEADER_DECILE = "Décile";
+	private static final String CSV_HEADER_FILE_SIZE = "Nombre de fichiers";
+	private static final String CSV_HEADER_ALBUMS = "Albums";
+	private static final String CSV_HEADER_SONG = "Chansons";
+	private static final String CSV_HEADER_PERCENT_DELETED = "% De Supprimés";
+	private static final String CSV_HEADER_SCORE_DELETED = "Score Supprimés";
+	private static final String CSV_HEADER_SCORE_SONG = "Score Chanson";
+	private static final String CSV_HEADER_SCORE_ALBUM = "Score Album";
+	private static final String CSV_HEADER_SCORE_TOTAL = "Score Total";
+	private static final String CSV_HEADER_OCCURENCY = "Nombre d'Occurrences";
+
 	private BatchUtils() {
 		throw new AssertionError("Must not be used");
 	}
@@ -1290,9 +1308,10 @@ public final class BatchUtils {
 				strings.set(2, "");
 			}
 		}
-		String[] header = { "Artiste", "Titre", "Classement", "Supprimé" };
+		String[] header = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_RANK, CSV_HEADER_DELETED };
 		if ("0".equals(year)) {
-			String[] tmp = { "Artiste", "Titre", "Classement", "Année", "Supprimé" };
+			String[] tmp = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_RANK, CSV_HEADER_YEAR,
+					CSV_HEADER_DELETED };
 			header = tmp;
 		}
 		return CsvFile.exportCsv("Top Songs Par Publication - " + year, result, null, header);
@@ -1335,7 +1354,8 @@ public final class BatchUtils {
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
-		String[] csvHeader = { "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "Décile", "Supprimé",
+		String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_TYPE, CSV_HEADER_FILE_SIZE,
+				CSV_HEADER_SCORE, CSV_HEADER_DECILE, CSV_HEADER_DELETED,
 				"Year: " + year + " Type: " + type.toString() };
 		return CsvFile.exportCsv(fileName + " - " + year, MiscUtils.convertVectorToList(occurenceList),
 				Arrays.asList(new SortKey(3, SortOrder.DESCENDING), new SortKey(4, SortOrder.DESCENDING)), csvHeader);
@@ -1382,8 +1402,8 @@ public final class BatchUtils {
 				row.add(String.valueOf(composition.isDeleted()));
 			}
 		}
-		String[] csvHeader = { "Artiste", "Titre", "Type", "Score", "Supprimé",
-				"Year: " + year + " Type: " + type.toString() };
+		String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_TYPE, CSV_HEADER_SCORE,
+				CSV_HEADER_DELETED, "Year: " + year + " Type: " + type.toString() };
 		return CsvFile.exportCsv(fileName + " - " + year, occurenceList,
 				Arrays.asList(new SortKey(3, SortOrder.DESCENDING)), csvHeader);
 	}
@@ -1411,8 +1431,9 @@ public final class BatchUtils {
 		for (Vector<Object> vector : occurenceListTemp) {
 			occurenceList.add(vector);
 		}
-		String[] csvHeader = { "Artiste", "Nombre d'Occurrences", "Albums", "Chansons", "% De Supprimés", "Score Total",
-				"Score Album", "Score Chanson", "Score Supprimés", "Year: " + year };
+		String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_OCCURENCY, CSV_HEADER_ALBUMS, CSV_HEADER_SONG,
+				CSV_HEADER_PERCENT_DELETED, CSV_HEADER_SCORE_TOTAL, CSV_HEADER_SCORE_ALBUM, CSV_HEADER_SCORE_SONG,
+				CSV_HEADER_SCORE_DELETED, "Year: " + year };
 		return CsvFile.exportCsv("Top Occurence - " + year, MiscUtils.convertVectorToList(occurenceList),
 				Arrays.asList(new SortKey(1, SortOrder.DESCENDING), new SortKey(5, SortOrder.DESCENDING)), csvHeader);
 	}
