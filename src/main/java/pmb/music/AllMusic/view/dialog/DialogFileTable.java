@@ -173,12 +173,12 @@ public class DialogFileTable {
 	 * Launchs a dialog to modify the selected composition.
 	 * 
 	 * @param selected the selected row representing a composition
+	 * @throws MyException if something went wrong
 	 */
-	public void modifyCompositionAction(Vector<Object> selected) {
+	public void modifyCompositionAction(Vector<Object> selected) throws MyException {
 		LOG.debug("Start modifyCompositionAction");
 		OngletPanel.getArtist().interruptUpdateArtist(true);
-		List<Composition> importXML;
-		importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		// On récupère la composition à modifier
 		String fileName = (String) selected.get(INDEX_FILE_NAME);
 		String artist = (String) selected.get(INDEX_ARTIST);
@@ -189,9 +189,8 @@ public class DialogFileTable {
 						&& StringUtils.equals(c.getTitre(), titre)
 						&& c.getFiles().get(0).getSize().equals((Integer) selected.get(INDEX_FILE_SIZE))
 						&& StringUtils.equals(c.getArtist(), artist))
-				.findFirst().get();
-		int indexFromFinal = importXML
-				.indexOf(CompositionUtils.findByFile(importXML, edited.getFiles().get(0), artist, titre).get());
+				.findFirst().orElseThrow(() -> new MyException("Can't find edited file"));
+		Fichier editedFile = edited.getFiles().get(0);
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(
 				selected.stream().map(Object::toString).collect(Collectors.toCollection(Vector::new)), INDEX_ARTIST,
@@ -216,10 +215,13 @@ public class DialogFileTable {
 		Predicate<Fichier> filterFile = f -> !(f.getClassement().equals((Integer) selected.get(INDEX_RANK))
 				&& StringUtils.equals(f.getFileName(), (String) selected.get(INDEX_FILE_NAME))
 				&& f.getSize().equals((Integer) selected.get(INDEX_FILE_SIZE)));
+
+		int indexFromFinal = importXML.indexOf(CompositionUtils.findByFile(importXML, editedFile, artist, titre)
+				.orElseThrow(() -> new MyException("Can't find composition in final file")));
 		importXML.get(indexFromFinal).setFiles(
 				importXML.get(indexFromFinal).getFiles().stream().filter(filterFile).collect(Collectors.toList()));
-		int indexCompoList = compoList
-				.indexOf(CompositionUtils.findByFile(compoList, edited.getFiles().get(0), artist, titre).get());
+		int indexCompoList = compoList.indexOf(CompositionUtils.findByFile(compoList, editedFile, artist, titre)
+				.orElseThrow(() -> new MyException("Can't find composition in dialog data")));
 		compoList.get(indexCompoList).setFiles(
 				compoList.get(indexCompoList).getFiles().stream().filter(filterFile).collect(Collectors.toList()));
 		Composition compoExist = CompositionUtils.compoExist(importXML, edited);
@@ -243,24 +245,12 @@ public class DialogFileTable {
 			}
 		}
 
-		try {
-			ExportXML.exportXML(importXML, Constant.getFinalFile());
-			OngletPanel.getArtist().updateArtistPanel();
-		} catch (IOException e1) {
-			LOG.error("Erreur lors de l'export du fichier final !!", e1);
-		}
-
-		try {
-			ExportXML.exportXML(xmlFile, fileName);
-		} catch (IOException e) {
-			LOG.error("Erreur lors de la modification d'une composition dans le fichier: " + fileName, e);
-		}
-
 		if (OngletPanel.getOnglets().getSelectedIndex() == 0) {
 			LOG.debug("Updates search panel data");
 			List<Composition> searchPanelCompo = OngletPanel.getSearch().getCompoResult();
-			int indexOfSearchPanel = searchPanelCompo.indexOf(
-					CompositionUtils.findByFile(searchPanelCompo, edited.getFiles().get(0), artist, titre).get());
+			int indexOfSearchPanel = searchPanelCompo
+					.indexOf(CompositionUtils.findByFile(searchPanelCompo, editedFile, artist, titre)
+							.orElseThrow(() -> new MyException("Can't find edited composition in search parnel data")));
 			searchPanelCompo.get(indexOfSearchPanel).setFiles(searchPanelCompo.get(indexOfSearchPanel).getFiles()
 					.stream().filter(filterFile).collect(Collectors.toList()));
 			compoExist = CompositionUtils.compoExist(searchPanelCompo, edited);
@@ -275,6 +265,19 @@ public class DialogFileTable {
 
 		// Updates fichier panel data
 		PanelUtils.updateFichierPanelData(selected, INDEX_ARTIST, INDEX_TITLE, INDEX_TYPE, new JLabel(), edited);
+
+		try {
+			ExportXML.exportXML(importXML, Constant.getFinalFile());
+			OngletPanel.getArtist().updateArtistPanel();
+		} catch (IOException e1) {
+			LOG.error("Erreur lors de l'export du fichier final !!", e1);
+		}
+
+		try {
+			ExportXML.exportXML(xmlFile, fileName);
+		} catch (IOException e) {
+			LOG.error("Erreur lors de la modification d'une composition dans le fichier: " + fileName, e);
+		}
 
 		// Update dialog
 		fichiers.getModel().setRowCount(0);
