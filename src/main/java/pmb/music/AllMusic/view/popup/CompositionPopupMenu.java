@@ -9,8 +9,10 @@ import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.ModificationComposition;
+import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
 /**
  * Contextual Menu for compositions table.
@@ -43,9 +45,16 @@ public class CompositionPopupMenu extends PopupMenu {
 			// Modify composition
 			ComponentBuilder.buildMenuItem(menu, "Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {
 				LOG.debug("Start modifComposition");
-				type.cast(SwingUtilities.getAncestorOfClass(type, getTable()))
-						.modifyCompositionAction((Vector<String>) selectedRow);
-				this.setVisible(false);
+				try {
+					this.setVisible(false);
+					type.cast(SwingUtilities.getAncestorOfClass(type, getTable()))
+							.modifyCompositionAction((Vector<String>) selectedRow);
+				} catch (MyException e1) {
+					LOG.error("An exception has been thrown when editing composition: ", e1);
+					ExceptionDialog ed = new ExceptionDialog("An exception has been thrown when editing composition",
+							e1.getMessage(), e1);
+					ed.setVisible(true);
+				}
 				LOG.debug("End modifComposition");
 			}, null);
 		}
