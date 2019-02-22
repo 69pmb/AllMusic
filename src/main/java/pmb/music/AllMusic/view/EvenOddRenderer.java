@@ -284,7 +284,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer {
 			value = NumberFormat.getNumberInstance().format(value);
 		} else if (value instanceof LocalDateTime) {
 			// format date
-			value = new Constant().getFullDTF().format((LocalDateTime) value);
+			value = new Constant().getDateDTF().format((LocalDateTime) value);
 		}
 		return value;
 	}

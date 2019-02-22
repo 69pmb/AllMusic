@@ -10,7 +10,6 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
-import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
 /**
@@ -58,15 +57,6 @@ public class FichierPanelModel extends AbstractModel {
 			result = String.class;
 		}
 		return result;
-	}
-
-	@Override
-	public Object getValueAt(int rowIndex, int columnIndex) {
-		if (columnIndex != FichierPanel.INDEX_CREATE_DATE) {
-			return super.getValueAt(rowIndex, columnIndex);
-		} else {
-			return new Constant().getDateDTF().format((LocalDateTime) super.getValueAt(rowIndex, columnIndex));
-		}
 	}
 
 	@Override
