@@ -44,16 +44,18 @@ public class FichierDialogModel extends AbstractModel {
 
 	@Override
 	public Class<?> getColumnClass(int col) {
+		Class<?> result;
 		if (col == DialogFileTable.INDEX_PUBLISH_YEAR || col == DialogFileTable.INDEX_FILE_SIZE
 				|| col == DialogFileTable.INDEX_RANK) {
-			return Integer.class;
+			result = Integer.class;
 		} else if (col == DialogFileTable.INDEX_PERCENT_DELETED) {
-			return Double.class;
+			result = Double.class;
 		} else if (col == DialogFileTable.INDEX_SCORE) {
-			return Long.class;
+			result = Long.class;
 		} else {
-			return String.class;
+			result = String.class;
 		}
+		return result;
 	}
 
 	@Override
