@@ -39,7 +39,7 @@ public class DeleteCompoDialog {
 	private static final Logger LOG = Logger.getLogger(DeleteCompoDialog.class);
 
 	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
-			"Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Classement", "", "Classé" };
+			"Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Score", "Classement", "", "Classé" };
 
 	public static final int INDEX_ARTIST = 0;
 	public static final int INDEX_TITLE = 1;
@@ -50,9 +50,10 @@ public class DeleteCompoDialog {
 	public static final int INDEX_CAT = 6;
 	public static final int INDEX_PERCENT_DELETED = 8;
 	public static final int INDEX_FILE_SIZE = 9;
-	public static final int INDEX_RANK = 10;
-	public static final int INDEX_DELETED = 11;
-	public static final int INDEX_SORTED = 12;
+	public static final int INDEX_SCORE = 10;
+	public static final int INDEX_RANK = 11;
+	public static final int INDEX_DELETED = 12;
+	public static final int INDEX_SORTED = 13;
 
 	private JDialog dialog;
 	// Data

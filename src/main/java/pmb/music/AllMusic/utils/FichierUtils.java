@@ -39,6 +39,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.view.panel.ImportPanel;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
  * Classe utilitaire pour la gestion des {@link Fichier}.
@@ -56,11 +57,11 @@ public final class FichierUtils {
 	 * Convertit une liste de {@link Composition} en {@link Vector<Vector<Object>>}
 	 * de Fichier.
 	 * 
-	 * @param compoList {@code List<Composition>} la liste à convertir
-	 * @param getComposition si vrai récupère la composition associée pour chaque
-	 *            fichier
-	 * @param lineNumber if true add a column for line number
-	 * @return Vector<Vector<Object>> la liste convertie
+	 * @param compoList {@code List<Composition>} the list to convert
+	 * @param getComposition if true recovers the associated composition for each
+	 *            file
+	 * @param lineNumber if true add a columns for line number
+	 * @return Vector<Vector<Object>> the list converted
 	 */
 	public static Vector<Vector<Object>> convertCompositionListToFichierVector(List<Composition> compoList,
 			boolean getComposition, boolean lineNumber) {
@@ -75,24 +76,25 @@ public final class FichierUtils {
 			}
 			List<Composition> importXML = ImportXML
 					.importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
-			Optional<Composition> optCompo = Optional.empty();
+			Optional<Composition> optCompo = null;
 			if (getComposition) {
 				// If fetch composition details
 				optCompo = CompositionUtils.findByFile(importXML, f, c.getArtist(), c.getTitre());
 				if (optCompo.isPresent()) {
+					Composition compo = optCompo.get();
 					// Artist
-					v.addElement(optCompo.get().getArtist());
+					v.addElement(compo.getArtist());
 					// Titre
-					v.addElement(optCompo.get().getTitre());
+					v.addElement(compo.getTitre());
 					// Type
-					v.addElement(optCompo.get().getRecordType().toString());
+					v.addElement(compo.getRecordType().toString());
 				} else {
 					LOG.warn("No result when searching composition by its file: " + f + ", " + c.getArtist() + ", "
 							+ c.getTitre());
 					v.addElement(c.getArtist());
 					v.addElement(c.getTitre());
 					v.addElement(c.getRecordType().toString());
-					v.addElement(Boolean.toString(c.isDeleted()));
+					v.addElement(0L);
 				}
 			}
 			// Author
@@ -117,9 +119,15 @@ public final class FichierUtils {
 			}
 			v.addElement(f.getSize());
 			if (getComposition) {
+				Composition compo = optCompo.get();
+				// Score
+				v.addElement(CompositionUtils.calculateCompositionScore(
+						OngletPanel.getScore().getLogMax(compo.getRecordType()),
+						OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo));
+				// Rank
 				v.addElement(f.getClassement());
 				// Deleted
-				v.addElement(Boolean.toString(optCompo.get().isDeleted()));
+				v.addElement(Boolean.toString(compo.isDeleted()));
 			}
 			v.addElement(f.getSorted() ? "Oui" : "Non");
 			result.add(v);

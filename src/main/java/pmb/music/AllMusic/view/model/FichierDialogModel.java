@@ -48,6 +48,8 @@ public class FichierDialogModel extends AbstractModel {
 			return Integer.class;
 		} else if (col == DialogFileTable.INDEX_PERCENT_DELETED) {
 			return Double.class;
+		} else if (col == DialogFileTable.INDEX_SCORE) {
+			return Long.class;
 		} else {
 			return String.class;
 		}
