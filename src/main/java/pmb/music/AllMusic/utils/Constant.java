@@ -256,6 +256,11 @@ public class Constant {
 		return sdfDt;
 	}
 
+	/**
+	 * "dd/MM/yyyy"
+	 * 
+	 * @return a formatter
+	 */
 	public DateTimeFormatter getDateDTF() {
 		return dateDTF;
 	}
