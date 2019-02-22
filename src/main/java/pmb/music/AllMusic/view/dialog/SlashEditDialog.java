@@ -130,12 +130,8 @@ public class SlashEditDialog {
 		compoFound.setText(compoJoin.toString() + Constant.NEW_LINE + fileJoin);
 
 		String[] split = StringUtils.split(found.getTitre(), "/");
-		if (split.length == 2) {
-			title1.setText(split[0]);
-			title2.setText(split[1]);
-		} else {
-			LOG.warn("Warning composition title is splittable in more than 2 pieces: " + found.getTitre());
-		}
+		title1.setText(split[0]);
+		title2.setText(split[1]);
 	}
 
 	public Boolean getSendData() {
