@@ -212,7 +212,6 @@ public final class SearchUtils {
 	 */
 	public static boolean filterFichier(final SearchMethod searchMethod, JaroWinklerDistance jaro,
 			final Map<String, String> criteria, Fichier fi) {
-		boolean result = true;
 
 		final String publish = criteria.get(CRITERIA_PUBLISH_YEAR);
 		final String publishRange = criteria.get(CRITERIA_PUBLISH_YEAR_RANGE);
@@ -224,16 +223,17 @@ public final class SearchUtils {
 		final String sorted = criteria.get(CRITERIA_SORTED);
 		final String topTen = criteria.get(CRITERIA_TOP);
 
+		boolean result = true;
 		if (StringUtils.isNotBlank(publish)) {
 			switch (SearchRange.getByValue(publishRange)) {
 			case EQUAL:
-				result = result && fi.getPublishYear() == Integer.parseInt(publish);
+				result = fi.getPublishYear() == Integer.parseInt(publish);
 				break;
 			case GREATER:
-				result = result && fi.getPublishYear() >= Integer.parseInt(publish);
+				result = fi.getPublishYear() >= Integer.parseInt(publish);
 				break;
 			case LESS:
-				result = result && fi.getPublishYear() <= Integer.parseInt(publish);
+				result = fi.getPublishYear() <= Integer.parseInt(publish);
 				break;
 			default:
 				break;
@@ -241,30 +241,30 @@ public final class SearchUtils {
 		}
 		if (result && StringUtils.isNotBlank(fileName)) {
 			if (SearchMethod.CONTAINS == searchMethod) {
-				result = result && Arrays.asList(fileName.split(" ")).stream()
+				result = Arrays.asList(fileName.split(" ")).stream()
 						.allMatch(name -> compareString(name, fi.getFileName(), searchMethod, jaro));
 			} else {
-				result = result && compareString(fileName, fi.getFileName(), searchMethod, jaro);
+				result = compareString(fileName, fi.getFileName(), searchMethod, jaro);
 			}
 		}
 		if (result && StringUtils.isNotBlank(auteur)) {
-			result = result && compareString(fi.getAuthor(), auteur, searchMethod, jaro);
+			result = compareString(fi.getAuthor(), auteur, searchMethod, jaro);
 		}
 		if (result && StringUtils.isNotBlank(cat)) {
-			result = result && Arrays.asList(StringUtils.split(cat, ";")).stream()
+			result = Arrays.asList(StringUtils.split(cat, ";")).stream()
 					.anyMatch((c -> fi.getCategorie() == Cat.getByValue(c)));
 		}
 		if (result && StringUtils.isNotBlank(dateB)) {
-			result = result && fi.getRangeDateBegin() >= Integer.parseInt(dateB);
+			result = fi.getRangeDateBegin() >= Integer.parseInt(dateB);
 		}
 		if (result && StringUtils.isNotBlank(dateE)) {
-			result = result && fi.getRangeDateEnd() <= Integer.parseInt(dateE);
+			result = fi.getRangeDateEnd() <= Integer.parseInt(dateE);
 		}
 		if (result && StringUtils.isNotBlank(sorted)) {
-			result = result && BooleanUtils.toBoolean(sorted) == fi.getSorted();
+			result = BooleanUtils.toBoolean(sorted) == fi.getSorted();
 		}
 		if (result && StringUtils.isNotBlank(topTen) && BooleanUtils.toBoolean(topTen)) {
-			result = result && fi.getClassement() <= 10 && fi.getSorted();
+			result = fi.getClassement() <= 10 && fi.getSorted();
 		}
 		return result;
 	}
