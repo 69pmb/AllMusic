@@ -221,7 +221,10 @@ public final class BatchUtils {
 	}
 
 	/**
-	 * @return
+	 * For each compositions whith unknown type searchs if there is compositions to
+	 * merge with. The goal is to guess their types.
+	 * 
+	 * @return the file name of the result file
 	 */
 	public static String findUnknown() {
 		LOG.debug("Start findUnknown");
@@ -490,8 +493,11 @@ public final class BatchUtils {
 	}
 
 	/**
-	 * @param batchPanel
-	 * @return
+	 * For each file calculates the average of files each compositions are linked
+	 * to.
+	 * 
+	 * @param batchPanel to log progression
+	 * @return the file name of the result file
 	 */
 	public static String averageOfFilesByFiles(BatchPanel batchPanel) {
 		LOG.debug("Start averageOfFilesByFiles");
@@ -532,8 +538,10 @@ public final class BatchUtils {
 	}
 
 	/**
+	 * Creates a csv file with for every file looks its calculated size, its real
+	 * size and makes a ratio of it.
 	 * 
-	 * @return
+	 * @return the file name of the result file
 	 */
 	public static String weirdFileSize() {
 		LOG.debug("Start weirdFileSize");
