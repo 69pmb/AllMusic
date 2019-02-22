@@ -591,6 +591,11 @@ public final class BatchUtils {
 		SlashEditDialog dialog = new SlashEditDialog(size);
 		for (int i = 0; i < size; i++) {
 			Composition c = slashComposition.get(i);
+			if (StringUtils.split(c.getTitre(), "/").length != 2) {
+				LOG.warn("Warning composition title is not splittable in 2 pieces: " + c.getArtist() + " - "
+						+ c.getTitre());
+				continue;
+			}
 			dialog.updateDialog(c, i);
 			dialog.setVisible(true);
 			Boolean action = dialog.getSendData();
@@ -630,8 +635,8 @@ public final class BatchUtils {
 		if (compoInList != null) {
 			int indexOf = SearchUtils.indexOf(list, compoInList);
 			Composition c2 = new Composition(compoInList);
-			compoInList.setTitre(dialog.getTitle1());
-			c2.setTitre(dialog.getTitle2());
+			compoInList.setTitre(StringUtils.trim(dialog.getTitle1()));
+			c2.setTitre(StringUtils.trim(dialog.getTitle2()));
 			list.add(indexOf + 1, c2);
 
 			if (fusion) {
