@@ -73,7 +73,10 @@
   <compo A="Paul Weller" T="Stanley Road" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 30 Best Albums of the 90s - 2000" publish="2000" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="24" creation="26/06/2018 14:06:43" size="30"/>
   </compo>
-  <compo A="Alice in Chains" T="Jar of Flies/Sap" type="ALBUM" mergeable="true" del="false">
+  <compo A="Alice in Chains" T="Jar of Flies" type="ALBUM" mergeable="true" del="false">
+    <file author="Divers" name="Classic Rock Magazine - 30 Best Albums of the 90s - 2000" publish="2000" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="25" creation="26/06/2018 14:06:43" size="30"/>
+  </compo>
+  <compo A="Alice in Chains" T="Sap" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 30 Best Albums of the 90s - 2000" publish="2000" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="25" creation="26/06/2018 14:06:43" size="30"/>
   </compo>
   <compo A="Tom Petty" T="Wildflowers" type="ALBUM" mergeable="true" del="false">
