@@ -4,7 +4,7 @@
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="1" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="2" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
   <compo A="The MC5" T="Kick Out The Jams" type="ALBUM" mergeable="true" del="false">
@@ -13,7 +13,7 @@
   <compo A="The Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="4" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="5" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
   <compo A="Billy Bragg" T="Life's A Riot With Spy Vs Spy" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="9" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="10" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
   <compo A="ABC" T="The Lexicon Of Love" type="ALBUM" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="The Blue Nile" T="A Walk Across The Rooftops" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="14" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="15" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
   <compo A="Buzzcocks" T="Another Music In A Different Kitchen" type="ALBUM" mergeable="true" del="false">
@@ -52,13 +52,13 @@
   <compo A="Kate Bush" T="The Kick Inside" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="17" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="18" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
   <compo A="Carter The Unstoppable Sex Machine" T="101 Damnations" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="19" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 20 Best Debut Albums - 1992" publish="1992" cat="THEME" rangeB="0" rangeE="1992" sorted="true" rank="20" creation="04/09/2018 14:05:33" size="20"/>
   </compo>
 </ListCompositions>

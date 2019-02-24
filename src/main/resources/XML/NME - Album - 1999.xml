@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="1" creation="04/09/2018 10:47:43" size="50"/>
   </compo>
   <compo A="Shack" T="HMS Fable" type="ALBUM" mergeable="true" del="false">

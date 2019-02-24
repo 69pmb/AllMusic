@@ -4,7 +4,7 @@
   <compo A="PJ Harvey" T="Let England Shake" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Metronomy" T="The English Riviera" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metronomy" T="The English Riviera" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="The Horrors" T="Skying" type="ALBUM" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="Suns" T="Zeroes Qc" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="13" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="The Vaccines" T="What Did You Expect From The Vaccines" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Vaccines" T="What Did You Expect From The Vaccines" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="14" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Wild Flag" T="Wild Flag" type="ALBUM" mergeable="true" del="false">

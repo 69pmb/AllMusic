@@ -97,7 +97,7 @@
   <compo A="Bjork" T="Medulla" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="19" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="18" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
   <compo A="Sufjan Stevens" T="Seven Swans" type="ALBUM" mergeable="true" del="false">

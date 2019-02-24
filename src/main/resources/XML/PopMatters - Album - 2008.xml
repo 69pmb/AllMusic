@@ -40,7 +40,7 @@
   <compo A="Buena Vista Social Club" T="At Carnegie Hall" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="13" creation="10/08/2018 15:41:15" size="60"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="14" creation="10/08/2018 15:41:15" size="60"/>
   </compo>
   <compo A="Gnarls Barkley" T="The Odd Couple" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Why?" T="Alopecia" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="19" creation="10/08/2018 15:41:15" size="60"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="20" creation="10/08/2018 15:41:15" size="60"/>
   </compo>
   <compo A="Flying Lotus" T="Los Angeles" type="ALBUM" mergeable="true" del="false">

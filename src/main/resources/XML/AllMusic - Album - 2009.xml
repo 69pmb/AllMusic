@@ -7,7 +7,7 @@
   <compo A="Lily Allen" T="It's Not Me, It's You" type="ALBUM" mergeable="true" del="false">
     <file author="AllMusic" name="AllMusic - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="false" rank="2" creation="26/07/2018 15:10:55" size="71"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="AllMusic" name="AllMusic - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="false" rank="3" creation="26/07/2018 15:10:55" size="71"/>
   </compo>
   <compo A="Antipop Consortium" T="Fluorescent Black" type="ALBUM" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Green Day" T="21st Century Breakdown" type="ALBUM" mergeable="true" del="false">
     <file author="AllMusic" name="AllMusic - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="false" rank="26" creation="26/07/2018 15:10:55" size="71"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="AllMusic" name="AllMusic - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="false" rank="27" creation="26/07/2018 15:10:55" size="71"/>
   </compo>
   <compo A="Hudson Mohawke" T="Butter" type="ALBUM" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Wilco" T="Wilco (The Album)" type="ALBUM" mergeable="true" del="false">
     <file author="AllMusic" name="AllMusic - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="false" rank="68" creation="26/07/2018 15:10:55" size="71"/>
   </compo>
-  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="false">
+  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="true">
     <file author="AllMusic" name="AllMusic - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="false" rank="69" creation="26/07/2018 15:10:55" size="71"/>
   </compo>
   <compo A="Yeah Yeah Yeahs" T="It's Blitz!" type="ALBUM" mergeable="true" del="false">

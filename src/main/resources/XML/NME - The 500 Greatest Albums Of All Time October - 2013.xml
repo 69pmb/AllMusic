@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="1" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
@@ -10,16 +10,16 @@
   <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="3" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="4" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="5" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="6" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="7" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
@@ -40,7 +40,7 @@
   <compo A="Arcade Fire" T="Funeral" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="13" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="14" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="PJ Harvey" T="Let England Shake" type="ALBUM" mergeable="true" del="true">
@@ -52,7 +52,7 @@
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="17" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="18" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Kanye West" T="My Beautiful Dark Twisted Fantasy" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="21" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="22" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
@@ -79,13 +79,13 @@
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="26" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="27" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Amy Winehouse" T="Back To Black" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="28" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="29" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
@@ -94,16 +94,16 @@
   <compo A="Suede" T="Dog Man Star" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="31" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Beastie Boys" T="Pauls Boutique" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Pauls Boutique" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="32" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="33" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="34" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="35" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
@@ -115,10 +115,10 @@
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="38" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="39" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="40" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">
@@ -127,7 +127,7 @@
   <compo A="Stevie Wonder" T="Innervisions" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="42" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="43" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Manic Street Preachers" T="The Holy Bible" type="ALBUM" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="46" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Smiths" T="Strangeways Here We Come" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="Strangeways Here We Come" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="47" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Kate Bush" T="Hounds Of Love" type="ALBUM" mergeable="true" del="false">
@@ -151,19 +151,19 @@
   <compo A="Dusty Springfield" T="Dusty In Memphis" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="50" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="51" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="David Bowie" T="Station To Station" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="53" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="54" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="55" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
@@ -172,10 +172,10 @@
   <compo A="Kraftwerk" T="The Man Machine" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="57" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="58" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="59" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
@@ -196,7 +196,7 @@
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="65" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="66" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="false">
@@ -205,16 +205,16 @@
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="68" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="69" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="70" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="71" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="72" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
@@ -229,7 +229,7 @@
   <compo A="Daft Punk" T="Discovery" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="76" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The White Strypes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Strypes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="77" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Suede" T="Suede" type="ALBUM" mergeable="true" del="false">
@@ -250,7 +250,7 @@
   <compo A="The Band" T="The Band" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="83" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="84" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
@@ -259,7 +259,7 @@
   <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="86" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="87" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Roxy Music" T="For Your Pleasure" type="ALBUM" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="Public Enemy" T="Fear Of A Black Planet" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="96" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="97" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Neutral Milk Hotel" T="In The Aeroplane Over The Sea" type="ALBUM" mergeable="true" del="false">
@@ -304,7 +304,7 @@
   <compo A="Kraftwerk" T="Computer World" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="101" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="102" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
@@ -379,7 +379,7 @@
   <compo A="Beastie Boys" T="Ill Communication" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="126" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="127" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Verve" T="Urban Hymns" type="ALBUM" mergeable="true" del="false">
@@ -388,10 +388,10 @@
   <compo A="Neil Young" T="On The Beach" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="129" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="130" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="131" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
@@ -400,7 +400,7 @@
   <compo A="John Lennon/Plastic Ono Band" T="John Lennon/Plastic Ono Band" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="133" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="134" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Eminem" T="The Marshall Mathers LP" type="ALBUM" mergeable="true" del="false">
@@ -433,7 +433,7 @@
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="144" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="145" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="At The Drive-In" T="Relationship Of Command" type="ALBUM" mergeable="true" del="false">
@@ -481,7 +481,7 @@
   <compo A="Primal Scream" T="Xtrmnatr" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="160" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="161" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The National" T="Boxer" type="ALBUM" mergeable="true" del="false">
@@ -508,7 +508,7 @@
   <compo A="Dexys Midnight Runners" T="Don't Stand Me Down" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="169" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="170" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Talking Heads" T="Fear Of Music" type="ALBUM" mergeable="true" del="false">
@@ -550,13 +550,13 @@
   <compo A="Outkast" T="Speakerboxxx/The Love Below" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="183" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="184" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Eric B And Rakim" T="Paid In Full" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="185" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="186" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="My Bloody Valentine" T="Isn't Anything" type="ALBUM" mergeable="true" del="false">
@@ -616,7 +616,7 @@
   <compo A="Nwa" T="Straight Outta'Compton" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="205" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="206" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Janis Joplin" T="Pearl" type="ALBUM" mergeable="true" del="false">
@@ -667,7 +667,7 @@
   <compo A="Fever Ray" T="Fever Ray" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="222" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="223" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Echo And The Bunnymen" T="Heaven Up Here" type="ALBUM" mergeable="true" del="false">
@@ -676,10 +676,10 @@
   <compo A="T Rex" T="Electric Warrior" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="225" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="226" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="227" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Pavement" T="Brighten In The Corners" type="ALBUM" mergeable="true" del="false">
@@ -709,7 +709,7 @@
   <compo A="Suicide" T="Suicide" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="236" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The XX" T="The XX" type="ALBUM" mergeable="true" del="false">
+  <compo A="The XX" T="The XX" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="237" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Yeah Yeah Yeahs" T="Show Your Bones" type="ALBUM" mergeable="true" del="false">
@@ -754,7 +754,7 @@
   <compo A="The Beach Boys" T="Surfs Up" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="251" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="252" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Pussy Galore" T="Exile On Main Street" type="ALBUM" mergeable="true" del="false">
@@ -763,7 +763,7 @@
   <compo A="The Smiths" T="Meat Is Murder" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="254" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Metronomy" T="The English Riviera" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metronomy" T="The English Riviera" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="255" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Elvis Costello" T="This Year's Model" type="ALBUM" mergeable="true" del="false">
@@ -790,7 +790,7 @@
   <compo A="Laura Marling" T="I Speak Because I Can" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="263" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="264" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Hole" T="Celebrity Skin" type="ALBUM" mergeable="true" del="false">
@@ -811,13 +811,13 @@
   <compo A="The Kinks" T="The Kinks Are The Village Green Society" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="270" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="271" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Coldplay" T="Parachutes" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="272" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Kanye West" T="The Collage Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The Collage Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="273" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="R.E.M." T="Green" type="ALBUM" mergeable="true" del="false">
@@ -841,7 +841,7 @@
   <compo A="Aphex Twin" T="Drukqs" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="280" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="281" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Teenage Fanclub" T="Grand Prix" type="ALBUM" mergeable="true" del="false">
@@ -955,7 +955,7 @@
   <compo A="Ice-T" T="OG Original Gangster" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="318" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="319" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Tom Waits" T="Swardfishtrombone" type="ALBUM" mergeable="true" del="false">
@@ -964,7 +964,7 @@
   <compo A="Doves" T="Lost Souls" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="321" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Lcd Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lcd Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="322" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Miles Davis" T="Bitches Brew" type="ALBUM" mergeable="true" del="false">
@@ -1054,7 +1054,7 @@
   <compo A="The Byrds" T="Sweetheart Of The Rodeo" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="351" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="352" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="McLusky" T="McLusky Do Dallas" type="ALBUM" mergeable="true" del="false">
@@ -1063,7 +1063,7 @@
   <compo A="Isaac Hayes" T="Hot Buttered Soul" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="354" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="355" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
@@ -1078,7 +1078,7 @@
   <compo A="The Mothers Of Invention" T="We're Only In It For The Money" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="359" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="360" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Faces" T="A Nod Is As Good As A Wink...." type="ALBUM" mergeable="true" del="false">
@@ -1111,7 +1111,7 @@
   <compo A="The Cribs" T="Men's Needs, Woman's Needs, Whatever" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="370" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="371" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Big Black" T="Atomizer" type="ALBUM" mergeable="true" del="false">
@@ -1246,7 +1246,7 @@
   <compo A="Chet Baker" T="Chet Baker Sings" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="415" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="416" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Ash" T="1977" type="ALBUM" mergeable="true" del="false">
@@ -1363,7 +1363,7 @@
   <compo A="Destiny's Child" T="The Writings On The Wall" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="454" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="455" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Frank Sinatra" T="September Of My Years" type="ALBUM" mergeable="true" del="false">
@@ -1372,7 +1372,7 @@
   <compo A="Goldfrapp" T="Black Cherry" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="457" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="458" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Jay-Z" T="The Black Album" type="ALBUM" mergeable="true" del="false">
@@ -1384,7 +1384,7 @@
   <compo A="Manic Street Preachers" T="Generation Terrorists" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="461" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="462" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Breeders" T="Pod" type="ALBUM" mergeable="true" del="false">
@@ -1411,7 +1411,7 @@
   <compo A="Kanye West" T="Graduation" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="470" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="471" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Smashing Pumpkins" T="Melon Collie And The Infinite Sadness" type="ALBUM" mergeable="true" del="false">
@@ -1489,7 +1489,7 @@
   <compo A="Girls" T="Album" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="496" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="497" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Lou Reed" T="Berlin" type="ALBUM" mergeable="true" del="false">

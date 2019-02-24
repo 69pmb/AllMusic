@@ -16,7 +16,7 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="5" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="6" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
@@ -28,7 +28,7 @@
   <compo A="Nirvana" T="Mtv Unplugged In New York" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="9" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="10" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="Nick Cave" T="The Boatman's Call" type="ALBUM" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Spiritualized" T="Ladies And Gentlemen We Are Floating In Space" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="12" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="13" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="Massive Attack" T="Mezzanine" type="ALBUM" mergeable="true" del="false">
@@ -46,7 +46,7 @@
   <compo A="Bob Dylan" T="Love And Theft" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="15" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="16" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="Johnny Cash" T="American III: Solitary Man" type="ALBUM" mergeable="true" del="false">
@@ -73,16 +73,16 @@
   <compo A="Elliott Smith" T="Either/Or" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="24" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="P.J. Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="P.J. Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="25" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="26" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="Air" T="Moon Safari" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="27" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="28" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="Madonna" T="Ray Of Light" type="ALBUM" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Beck" T="Mutations" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="32" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="33" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="Soloman Burke" T="Don't Give Up On Me" type="ALBUM" mergeable="true" del="false">
@@ -157,7 +157,7 @@
   <compo A="Ryan Adams" T="Heartbreaker" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="52" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="53" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="Bastie Boys" T="Ill Communication" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="56" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="57" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="R.E.M" T="New Adventures In Hi-Fi" type="ALBUM" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Al Green" T="I Can't Stop" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="71" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 100 Greatest Albums of Our Lifetime 1993-2006 - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1993" rangeE="2006" sorted="true" rank="72" creation="23/08/2018 17:57:26" size="100"/>
   </compo>
   <compo A="Nick Cave And The Bad Seeds" T="Abattoir Blues/The Lyre Of Orpheus" type="ALBUM" mergeable="true" del="false">

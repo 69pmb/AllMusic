@@ -7,7 +7,7 @@
   <compo A="Spiritualized" T="Let It Come Down" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Darkest Albums Ever Made - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="2" creation="04/09/2018 14:13:14" size="50"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Darkest Albums Ever Made - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="3" creation="04/09/2018 14:13:14" size="50"/>
   </compo>
   <compo A="The Smiths" T="Meat Is Murder" type="ALBUM" mergeable="true" del="false">
@@ -136,7 +136,7 @@
   <compo A="Editors" T="The Back Room" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Darkest Albums Ever Made - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="45" creation="04/09/2018 14:13:14" size="50"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Darkest Albums Ever Made - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="46" creation="04/09/2018 14:13:14" size="50"/>
   </compo>
   <compo A="Bruce Springsteen" T="Nebraska" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Pulp" T="This Is Hardcore" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Darkest Albums Ever Made - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="49" creation="04/09/2018 14:13:14" size="50"/>
   </compo>
-  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="false">
+  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Darkest Albums Ever Made - 2011" publish="2011" cat="THEME" rangeB="0" rangeE="2011" sorted="true" rank="50" creation="04/09/2018 14:13:14" size="50"/>
   </compo>
 </ListCompositions>

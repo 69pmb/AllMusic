@@ -13,7 +13,7 @@
   <compo A="Leonard Cohen" T="Songs Of Leonard Cohen" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="22" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="21" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
   <compo A="Jacques Brel" T="Olympia 61" type="ALBUM" mergeable="true" del="false">
@@ -22,13 +22,13 @@
   <compo A="Frank Zappa" T="Hot Rats" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="19" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="18" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="17" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
-  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="16" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
   <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
@@ -58,10 +58,10 @@
   <compo A="Sly And The Family Stone" T="Stand!" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="7" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="6" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Le Choix" name="Le Choix - 60's Album - 2008" publish="2008" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="5" creation="31/07/2018 11:49:59" size="25"/>
   </compo>
   <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">

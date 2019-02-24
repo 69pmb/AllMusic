@@ -37,7 +37,7 @@
   <compo A="Emeralds" T="Does It Look Like I'm Here?" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="89" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
-  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="88" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
   <compo A="FKA twigs" T="LP1" type="ALBUM" mergeable="true" del="false">
@@ -202,13 +202,13 @@
   <compo A="Death Grips" T="The Money Store" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="34" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="33" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
   <compo A="Kurt Vile" T="Smoke Ring For My Halo" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="32" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
-  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="31" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
   <compo A="Titus Andronicus" T="The Monitor" type="ALBUM" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="M83" T="Hurry Up, We're Dreaming" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="22" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
-  <compo A="The War on Drugs" T="Lost in the Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="The War on Drugs" T="Lost in the Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="21" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
   <compo A="Ariel Pink" T="Before Today" type="ALBUM" mergeable="true" del="false">
@@ -256,7 +256,7 @@
   <compo A="Destroyer" T="Kaputt" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="16" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="15" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
   <compo A="Beyonce" T="Beyonce" type="ALBUM" mergeable="true" del="false">
@@ -268,7 +268,7 @@
   <compo A="Drake" T="Take Care" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="12" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
-  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="11" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
   <compo A="Fiona Apple" T="The Idler Wheel..." type="ALBUM" mergeable="true" del="false">
@@ -283,7 +283,7 @@
   <compo A="Tame Impala" T="Lonerism" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="7" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
-  <compo A="Vampire Weekend" T="Modern Vampires of the City" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Modern Vampires of the City" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" publish="2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="6" creation="25/01/2017 10:01:39" size="100"/>
   </compo>
   <compo A="Beach House" T="Teen Dream" type="ALBUM" mergeable="true" del="false">

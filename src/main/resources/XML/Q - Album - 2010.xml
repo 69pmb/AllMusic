@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="1" creation="28/08/2018 11:43:20" size="50"/>
   </compo>
   <compo A="Robert Plant" T="Band Of Joy" type="ALBUM" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="Corinne Bailey Rae" T="The Sea" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="22" creation="28/08/2018 11:43:20" size="50"/>
   </compo>
-  <compo A="Lcd Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lcd Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="23" creation="28/08/2018 11:43:20" size="50"/>
   </compo>
   <compo A="Bryan Ferry" T="Olympia" type="ALBUM" mergeable="true" del="false">

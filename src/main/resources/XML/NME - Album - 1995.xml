@@ -10,7 +10,7 @@
   <compo A="Black Grape" T="It's Great When You're Straight..Yeah!" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="3" creation="04/09/2018 10:48:23" size="50"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="4" creation="04/09/2018 10:48:23" size="50"/>
   </compo>
   <compo A="Teenage Fanclub" T="Grand Prix" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Isaac Hayes" T="Branded" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="34" creation="04/09/2018 10:48:23" size="50"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="35" creation="04/09/2018 10:48:23" size="50"/>
   </compo>
   <compo A="AC/DC" T="Ballbreaker" type="ALBUM" mergeable="true" del="false">

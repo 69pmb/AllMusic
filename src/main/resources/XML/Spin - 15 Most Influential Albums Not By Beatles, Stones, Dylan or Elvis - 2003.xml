@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Spin" name="Spin - 15 Most Influential Albums Not By Beatles, Stones, Dylan or Elvis - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="1" creation="30/08/2018 11:23:03" size="15"/>
   </compo>
   <compo A="The Stooges" T="Fun House" type="ALBUM" mergeable="true" del="false">
@@ -16,13 +16,13 @@
   <compo A="Kraftwerk" T="Autobahn" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 15 Most Influential Albums Not By Beatles, Stones, Dylan or Elvis - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="5" creation="30/08/2018 11:23:03" size="15"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 15 Most Influential Albums Not By Beatles, Stones, Dylan or Elvis - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="6" creation="30/08/2018 11:23:03" size="15"/>
   </compo>
   <compo A="The Runaways" T="Queens Of Noise" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 15 Most Influential Albums Not By Beatles, Stones, Dylan or Elvis - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="7" creation="30/08/2018 11:23:03" size="15"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 15 Most Influential Albums Not By Beatles, Stones, Dylan or Elvis - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="8" creation="30/08/2018 11:23:03" size="15"/>
   </compo>
   <compo A="Black Flag" T="Damaged" type="ALBUM" mergeable="true" del="false">

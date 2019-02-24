@@ -76,7 +76,7 @@
   <compo A="Arrested Development" T="3 Years, 5 Months And 2 Days...." type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="true" rank="25" creation="04/09/2018 10:48:53" size="50"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="true" rank="26" creation="04/09/2018 10:48:53" size="50"/>
   </compo>
   <compo A="Brian Eno" T="Nerve Net" type="ALBUM" mergeable="true" del="false">

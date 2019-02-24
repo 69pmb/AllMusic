@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="1" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
@@ -19,7 +19,7 @@
   <compo A="Elvis Presley" T="The Sun Sessions" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="6" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="7" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
@@ -34,7 +34,7 @@
   <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="11" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="12" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
@@ -58,16 +58,16 @@
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="19" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="20" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="21" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Otis Redding" T="Otis Blue" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="22" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="23" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Band" T="The Band" type="ALBUM" mergeable="true" del="false">
@@ -76,16 +76,16 @@
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="25" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="26" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Roxy Music" T="Avalon" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="27" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="28" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="29" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Carole King" T="Tapestry" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Elvis Costello" T="Get Happy!!" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="39" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="40" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Gang of Four" T="Entertainment!" type="ALBUM" mergeable="true" del="false">
@@ -253,7 +253,7 @@
   <compo A="Marvin Gaye" T="Let's Get It On" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="84" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="85" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Aretha Franklin" T="Amazing Grace" type="ALBUM" mergeable="true" del="false">
@@ -298,7 +298,7 @@
   <compo A="Eurythmics" T="Sweet Dreams" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="97" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="100" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
 </ListCompositions>

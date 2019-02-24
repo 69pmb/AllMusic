@@ -16,7 +16,7 @@
   <compo A="Marvin Gaye" T="I Heard It Through The Grapevine" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="56" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heart" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heart" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="55" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="David Bowie" T="Space Oddity" type="ALBUM" mergeable="true" del="false">
@@ -34,10 +34,10 @@
   <compo A="Simon And Garfunkel" T="Sounds Of Silence" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="50" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="49" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="48" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="The Ronettes" T="Presenting The Fabulous Ronettes And Veronica" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Aretha Franklin" T="Lady Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="42" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="41" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="The Beach Boys" T="Wild Honey" type="ALBUM" mergeable="true" del="false">
@@ -94,7 +94,7 @@
   <compo A="Aretha Franklin" T="I Never Loved A Man The Way I Love You" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="30" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="29" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="Crosby, Stills And Nash" T="Crosby, Stills And Nash" type="ALBUM" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="14" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="The Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="13" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="5" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="4" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
@@ -178,7 +178,7 @@
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="2" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="1" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
 </ListCompositions>

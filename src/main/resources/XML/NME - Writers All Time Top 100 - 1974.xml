@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="1" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
@@ -25,25 +25,25 @@
   <compo A="The Beatles" T="Abby Road" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="8" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="9" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="10" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="11" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Derek And The Dominoes" T="Layla" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="12" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="13" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Chuck Berry" T="Golden Decade Vol 1" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="14" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="15" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="The Who" T="Tommy" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="21" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="22" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Stills And Nash Crosby" T="Crosby, Stills And Nash" type="ALBUM" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <compo A="The Rolling Stones" T="The Rolling Stones" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="24" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="25" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Carole King" T="Tapestry" type="ALBUM" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="35" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="36" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="King Crimson" T="In The Court Of The Crimson King" type="ALBUM" mergeable="true" del="false">
@@ -190,13 +190,13 @@
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="63" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="64" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Aretha Franklin" T="Greatest Hits" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="65" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="66" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="Sly And The Family Stone" T="There's A Riot Going On" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="79" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="80" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Country Joe And The Fish" T="Electric Music For The Mind And Body" type="ALBUM" mergeable="true" del="false">
@@ -265,7 +265,7 @@
   <compo A="Elvis Presley" T="Greatest Hits Volume 2" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="88" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="89" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Moby Grape" T="Moby Grape" type="ALBUM" mergeable="true" del="false">

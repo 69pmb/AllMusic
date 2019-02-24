@@ -52,7 +52,7 @@
   <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="54" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="53" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Big Star" T="Third/Sister Lovers" type="ALBUM" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="The Rolling Stones" T="Some Girls" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="45" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="44" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Tom Waits" T="Small Change" type="ALBUM" mergeable="true" del="false">
@@ -103,13 +103,13 @@
   <compo A="Carole King" T="Tapestry" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="37" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="36" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Elvis Costello" T="This Year's Model" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="35" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="34" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="The Kinks" T="Lola Versus Powerman And The Moneygoround, Part One" type="ALBUM" mergeable="true" del="false">
@@ -151,10 +151,10 @@
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="21" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="20" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="19" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Funkadelic" T="Maggot Brain" type="ALBUM" mergeable="true" del="false">
@@ -166,28 +166,28 @@
   <compo A="Sly And The Family Stone" T="There's A Riot Goin' On" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="16" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="15" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Stevie Wonder" T="Innervisions" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="14" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="13" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="12" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="The Beatles" T="Let It Be" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Let It Be" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="11" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="10" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="9" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="The Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="8" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Miles Davis" T="Bitches Brew" type="ALBUM" mergeable="true" del="false">

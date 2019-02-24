@@ -145,7 +145,7 @@
   <compo A="The Flaming Lips" T="Embryonic" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="13" creation="10/08/2018 15:14:57" size="60"/>
   </compo>
-  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="false">
+  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="12" creation="10/08/2018 15:14:57" size="60"/>
   </compo>
   <compo A="Yeah Yeah Yeahs" T="It's Blitz!" type="ALBUM" mergeable="true" del="false">
@@ -175,10 +175,10 @@
   <compo A="The Avett Brothers" T="I and Love and You" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="3" creation="10/08/2018 15:14:57" size="60"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="2" creation="10/08/2018 15:14:57" size="60"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="1" creation="10/08/2018 15:14:57" size="60"/>
   </compo>
 </ListCompositions>

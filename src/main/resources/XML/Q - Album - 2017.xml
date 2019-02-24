@@ -49,7 +49,7 @@
   <compo A="Girl Ray" T="Earl Grey" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="16" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="The xx" T="I See You" type="ALBUM" mergeable="true" del="false">
+  <compo A="The xx" T="I See You" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="17" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
   <compo A="Four Tet" T="New Energy" type="ALBUM" mergeable="true" del="false">

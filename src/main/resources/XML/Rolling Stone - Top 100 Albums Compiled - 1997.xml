@@ -25,7 +25,7 @@
   <compo A="Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="8" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="9" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
@@ -46,7 +46,7 @@
   <compo A="The Band" T="The Band" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="15" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="16" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
@@ -58,16 +58,16 @@
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="19" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="20" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="21" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="22" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="23" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Gram Parsons" T="Grievous Angel" type="ALBUM" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="28" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="29" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Elvis Costello" T="Imperial Bedroom" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="34" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="35" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Byrds" T="The Notorious Byrd Brothers" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Scott Walker" T="Scott 4" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="42" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="43" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Roxy Music" T="For Your Pleasure" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Tindersticks" T="Tindersticks" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="49" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="50" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Leonard Cohen" T="Songs Of Leonard Cohen" type="ALBUM" mergeable="true" del="false">
@@ -169,10 +169,10 @@
   <compo A="Randy Newman" T="12 Songs" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="56" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="57" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Who" T="Who's Next?" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next?" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="58" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
@@ -190,7 +190,7 @@
   <compo A="Carole King" T="Tapestry" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="63" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="64" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Steely Dan" T="Countdown To Ecstasy" type="ALBUM" mergeable="true" del="false">

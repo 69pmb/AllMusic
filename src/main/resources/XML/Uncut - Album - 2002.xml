@@ -10,7 +10,7 @@
   <compo A="EL-P" T="Fantastic Damage" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="3" creation="03/09/2018 10:35:38" size="70"/>
   </compo>
-  <compo A="Wilco" T="Yankie Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankie Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="4" creation="03/09/2018 10:35:38" size="70"/>
   </compo>
   <compo A="The Streets" T="Original Pirate Material" type="ALBUM" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Sparks" T="Lil' Beethovan" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="25" creation="03/09/2018 10:35:38" size="70"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Brights Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Brights Lights" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="26" creation="03/09/2018 10:35:38" size="70"/>
   </compo>
   <compo A="Doves" T="Last Broadcast" type="ALBUM" mergeable="true" del="false">

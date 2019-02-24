@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="1" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="2" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
   <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
@@ -25,10 +25,10 @@
   <compo A="Lauryn Hill" T="The Miseducation Of Lauren Hill" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="8" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="9" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="10" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
   <compo A="My Chemical Romance" T="Three Cheers For Sweet Revenge" type="ALBUM" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="13" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="14" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
@@ -58,10 +58,10 @@
   <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="19" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="20" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="21" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
   <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">

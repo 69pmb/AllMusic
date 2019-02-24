@@ -4,10 +4,10 @@
   <compo A="Grimes" T="Art Angels" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="1" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Kendrick Lamar" T="To Pimp A Butterfly" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="To Pimp A Butterfly" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="2" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Jamie XX" T="In Colour" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jamie XX" T="In Colour" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="3" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Wolf Alice" T="My Love Is Cool" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Shamir" T="Ratchet" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="21" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Courtney Barnett" T="Sometimes I Sit And Think, And Sometimes I Just Sit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Courtney Barnett" T="Sometimes I Sit And Think, And Sometimes I Just Sit" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="22" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Drake" T="If You're Reading This It's Too Late" type="ALBUM" mergeable="true" del="false">

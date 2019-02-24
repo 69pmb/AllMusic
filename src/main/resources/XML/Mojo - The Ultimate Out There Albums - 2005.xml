@@ -37,10 +37,10 @@
   <compo A="Os Mutantes" T="Os Mutantes" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate Out There Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="12" creation="23/08/2018 13:20:30" size="50"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate Out There Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="13" creation="23/08/2018 13:20:30" size="50"/>
   </compo>
-  <compo A="The Beatles" T="Sgt. Pepper's Lonely Heart Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt. Pepper's Lonely Heart Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate Out There Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="14" creation="23/08/2018 13:20:30" size="50"/>
   </compo>
   <compo A="The Holy Modal Rounders" T="The Morlay Eels Eat..." type="ALBUM" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <compo A="Lightning Bolt" T="Wonderful Rainbow" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate Out There Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="17" creation="23/08/2018 13:20:30" size="50"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate Out There Albums - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="18" creation="23/08/2018 13:20:30" size="50"/>
   </compo>
   <compo A="Hawkwind" T="Space Ritual Alive" type="ALBUM" mergeable="true" del="false">

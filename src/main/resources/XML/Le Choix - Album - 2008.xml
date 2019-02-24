@@ -13,7 +13,7 @@
   <compo A="The Black Keys" T="Attack And Release" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
-  <compo A="The Kills" T="Midnight Boom" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Kills" T="Midnight Boom" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="5" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
   <compo A="Cut Copy" T="In Ghost Colours" type="ALBUM" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Jakob Dylan" T="Seeing Things" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="29" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="30" creation="31/07/2018 11:35:02" size="41"/>
   </compo>
   <compo A="Tricky" T="Knowle West Boy" type="ALBUM" mergeable="true" del="false">

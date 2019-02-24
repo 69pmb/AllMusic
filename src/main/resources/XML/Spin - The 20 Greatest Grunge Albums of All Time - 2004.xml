@@ -10,7 +10,7 @@
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="3" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="4" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
   <compo A="Mudhoney" T="Superfuzz Bigmuff" type="ALBUM" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <compo A="Alice In Chains" T="Dirt" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="6" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="7" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
   <compo A="Various Artists" T="Sub-Pop-200" type="ALBUM" mergeable="true" del="false">

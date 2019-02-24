@@ -4,7 +4,7 @@
   <compo A="Sufjan Stevens" T="Illinois" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="1" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="2" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
   <compo A="Arcade Fire" T="Funeral" type="ALBUM" mergeable="true" del="true">
@@ -40,7 +40,7 @@
   <compo A="Josh Ritter" T="The Animal Years" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="13" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="14" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
   <compo A="Patty Griffin" T="1000 Kisses" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Rufus Wainwright" T="Want One" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="16" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="17" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
   <compo A="Amy Winehouse" T="Back To Black" type="ALBUM" mergeable="true" del="true">
@@ -61,7 +61,7 @@
   <compo A="The National" T="Boxer" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="20" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="21" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
   <compo A="The Decemberists" T="The Crane Wife" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Various Artists" T="O Brother Where Art Thou?" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="34" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="35" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
   <compo A="Pedro The Lion" T="Control" type="ALBUM" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <compo A="Gentleman Jesse" T="Introducing Gentleman Jesse" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="38" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="39" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
   <compo A="TV On The Radio" T="Return To Cookie Mountain" type="ALBUM" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="LCD Soundsystem" T="Sound Of Silver" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="41" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
-  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="42" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
   <compo A="Jens Lekman" T="Night Falls Over Kortedala" type="ALBUM" mergeable="true" del="false">
@@ -133,7 +133,7 @@
   <compo A="The Jayhawks" T="Rainy Day Music" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="44" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="45" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
   <compo A="Once" T="Music From The Motion Picture" type="ALBUM" mergeable="true" del="false">
@@ -145,7 +145,7 @@
   <compo A="Loretta Lynn" T="Van Lear Rose" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="48" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
-  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Albums of the Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="49" creation="31/08/2018 09:54:34" size="50"/>
   </compo>
   <compo A="Bjork" T="Vespertine" type="ALBUM" mergeable="true" del="false">

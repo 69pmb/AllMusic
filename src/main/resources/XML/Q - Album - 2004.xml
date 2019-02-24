@@ -85,7 +85,7 @@
   <compo A="Usher" T="Confessions" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="28" creation="28/08/2018 11:40:27" size="50"/>
   </compo>
-  <compo A="Kanye West" T="The Collage Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The Collage Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="29" creation="28/08/2018 11:40:27" size="50"/>
   </compo>
   <compo A="Eminem" T="Encore" type="ALBUM" mergeable="true" del="false">

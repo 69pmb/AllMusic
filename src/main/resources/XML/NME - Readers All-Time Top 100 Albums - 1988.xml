@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="1" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="2" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="3" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="The Smiths" T="A Hatful Of Hollow" type="ALBUM" mergeable="true" del="true">
@@ -37,7 +37,7 @@
   <compo A="Gaye" T="What's Going On Marvin" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="12" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="13" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Elvis Costello" T="Imperial Bedroom" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Bob Dylan" T="Blood On Thetracks" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="16" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="17" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Love" T="Forever Changes" type="ALBUM" mergeable="true" del="true">
@@ -67,7 +67,7 @@
   <compo A="Elvis Costello" T="King Of America" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="22" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="23" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Prefab Sprout" T="Steve Mcqueen" type="ALBUM" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="30" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="The Smiths" T="Strangeways, Here We Come" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="Strangeways, Here We Come" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="31" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="The Pogues" T="Rum Sodomy And The Lash" type="ALBUM" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="The The" T="Soul Mining" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="41" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="42" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="The Jam" T="All Mod Cons" type="ALBUM" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="New Order" T="Low Life" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="60" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="61" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Pink Floyd" T="Animals" type="ALBUM" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="Talking Heads" T="More Songs About Buildings And Food" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="64" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="65" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Moondance" type="ALBUM" mergeable="true" del="false">
@@ -211,7 +211,7 @@
   <compo A="Bruce Springsteen" T="Born In The USA" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="70" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="71" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="Roxy Music" T="For Your Pleasure" type="ALBUM" mergeable="true" del="false">
@@ -277,7 +277,7 @@
   <compo A="Captain Beefheart And The Magic Band" T="Safe As Milk" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="92" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Readers All-Time Top 100 Albums - 1988" publish="1988" cat="ALL_TIME" rangeB="0" rangeE="1988" sorted="true" rank="93" creation="04/09/2018 15:02:50" size="100"/>
   </compo>
   <compo A="David Bowie" T="Young Americans" type="ALBUM" mergeable="true" del="false">

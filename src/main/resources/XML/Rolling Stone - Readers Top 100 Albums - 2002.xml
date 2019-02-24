@@ -7,7 +7,7 @@
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="2" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="3" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
@@ -34,13 +34,13 @@
   <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="11" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="12" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="13" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="14" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="U2" T="All That You Can't Leave Behind" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Weezer" T="Pinkerton" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="16" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="17" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Smashing Pumpkins" T="Mellon Collie And The Infinite Sadness" type="ALBUM" mergeable="true" del="false">
@@ -64,10 +64,10 @@
   <compo A="WEEZER" T="The Blue Album" type="ALBUM" mergeable="false" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="21" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="22" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="23" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Eminem" T="The Eminem Show" type="ALBUM" mergeable="true" del="false">
@@ -82,16 +82,16 @@
   <compo A="Tool" T="Aenima" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="27" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="28" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Madonna" T="Ray Of Light" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="29" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="30" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="31" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
@@ -106,7 +106,7 @@
   <compo A="Red Hot Chili Peppers" T="Blood Sugar Sex Magik" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="35" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="36" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Eminem" T="The Marshall Mathers Lp" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Metallica" T="Metallica" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="42" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="43" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="56" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="57" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Linkin Park" T="Hybrid Theory" type="ALBUM" mergeable="true" del="false">
@@ -202,7 +202,7 @@
   <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="67" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="68" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Mariah Carey" T="Daydream" type="ALBUM" mergeable="true" del="false">
@@ -259,10 +259,10 @@
   <compo A="Bon Jovi" T="Slippery When Wet" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="86" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="87" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="88" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
@@ -289,7 +289,7 @@
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="96" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="97" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
@@ -298,7 +298,7 @@
   <compo A="Madonna" T="The Immaculate Collection" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="99" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="100" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
 </ListCompositions>

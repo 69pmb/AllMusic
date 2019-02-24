@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Classic Albums - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="1" creation="02/07/2017 07:08:56" size="42"/>
   </compo>
   <compo A="PJ Harvey" T="Dry" type="ALBUM" mergeable="true" del="false">
@@ -31,7 +31,7 @@
   <compo A="Kate Bush" T="Hounds Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Classic Albums - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="10" creation="02/07/2017 07:08:56" size="42"/>
   </compo>
-  <compo A="The Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Classic Albums - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="11" creation="02/07/2017 07:08:56" size="42"/>
   </compo>
   <compo A="Gary Newman" T="The Pleasure Principle" type="ALBUM" mergeable="true" del="false">

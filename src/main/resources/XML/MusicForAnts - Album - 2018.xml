@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="20/12/2018 09:57:13" size="30"/>
   </compo>
   <compo A="Father John Misty" T="God's Favorite Customer" type="ALBUM" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Wild Pink" T="Yolk In The Fur" type="ALBUM" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="12" creation="20/12/2018 09:57:13" size="30"/>
   </compo>
-  <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="false">
+  <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="13" creation="20/12/2018 09:57:13" size="30"/>
   </compo>
   <compo A="Jeff Rosenstock" T="POST" type="ALBUM" mergeable="true" del="false">

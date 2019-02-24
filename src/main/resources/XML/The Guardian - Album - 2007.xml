@@ -4,13 +4,13 @@
   <compo A="LCD Soundsystem" T="Sound Of Silver" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="1" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="2" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
   <compo A="The Hold Steady" T="Boys And Girls In America" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="3" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="4" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
   <compo A="Klaxons" T="Myths Of The Near Future" type="ALBUM" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="The Felice Brothers" T="Tonight At The Arizona" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="13" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="The Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="14" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
   <compo A="Les Savy Fav" T="Let's Stay Friends" type="ALBUM" mergeable="true" del="false">

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="1" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="2" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Primal Scream" T="Xtrmnatr" type="ALBUM" mergeable="true" del="false">
@@ -16,19 +16,19 @@
   <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="5" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="6" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Arcade Fire" T="Funereal" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="7" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="8" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Streets" T="Original Pirate Material" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="9" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="10" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="LCD Sound System" T="Sounds Of Silver" type="ALBUM" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="18" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="19" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Blur" T="Think Tank" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="The Coral" T="The Coral" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="21" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="22" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Klaxons" T="Myths Of The Near Future" type="ALBUM" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Yeah Yeah Yeahs" T="Show Your Bones" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="33" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Grandaddy" T="The Sophtware Slump" type="ALBUM" mergeable="true" del="false">
@@ -124,10 +124,10 @@
   <compo A="Wild Beasts" T="Two Dancers" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="41" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="42" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="43" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Outkast" T="Speakerboxxx / The Love Below" type="ALBUM" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Brian Wilson" T="Smile" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="71" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Mia" T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mia" T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="72" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Broken Social Scene" T="You Forgot It In People" type="ALBUM" mergeable="true" del="false">
@@ -298,7 +298,7 @@
   <compo A="The Maccabees" T="Colour It In" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="99" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="100" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
 </ListCompositions>

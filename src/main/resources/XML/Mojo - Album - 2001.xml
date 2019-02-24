@@ -7,7 +7,7 @@
   <compo A="Bob Dylan" T="Love And Theft" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="2" creation="24/08/2018 10:47:30" size="40"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="3" creation="24/08/2018 10:47:30" size="40"/>
   </compo>
   <compo A="Gillian Welch" T="Time (The Revelator)" type="ALBUM" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="The Shins" T="Oh, Inverted World" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="14" creation="24/08/2018 10:47:30" size="40"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="15" creation="24/08/2018 10:47:30" size="40"/>
   </compo>
   <compo A="Lucinda Williams" T="Essence" type="ALBUM" mergeable="true" del="false">

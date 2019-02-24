@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="1" creation="24/08/2018 10:43:45" size="35"/>
   </compo>
   <compo A="Teenage Fanclub" T="Grand Prix" type="ALBUM" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <compo A="Supergrass" T="I Should Coco" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="6" creation="24/08/2018 10:43:45" size="35"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="7" creation="24/08/2018 10:43:45" size="35"/>
   </compo>
   <compo A="The Jayhawks" T="Tomorrow The Green Grass" type="ALBUM" mergeable="true" del="false">

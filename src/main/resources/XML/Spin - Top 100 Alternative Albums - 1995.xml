@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="1" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Big Star" T="Radio City" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="7" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="8" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">
@@ -46,7 +46,7 @@
   <compo A="Gang of Four" T="Entertainment!" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="15" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="16" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Buzzcocks" T="Singles Going Steady" type="ALBUM" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <compo A="Prince" T="Sign O The Times" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="24" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="25" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
@@ -82,7 +82,7 @@
   <compo A="Run DMC" T="Together Forever : Greatest Hits 1983-1991" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="27" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="28" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Meat Puppets" T="Meat Puppets II" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Public Image Ltd" T="Second Edition" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="34" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="35" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="PJ Harvey" T="Rid Of Me" type="ALBUM" mergeable="true" del="false">
@@ -154,7 +154,7 @@
   <compo A="Pere Ubu" T="The Modern Dance" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="51" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="52" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Prince" T="Dirty Mind" type="ALBUM" mergeable="true" del="false">
@@ -199,7 +199,7 @@
   <compo A="New Order" T="Substance, The Singles 1980-1987" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="66" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="67" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Boogie Down Productions" T="Criminal Minded" type="ALBUM" mergeable="true" del="false">
@@ -208,7 +208,7 @@
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="69" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="70" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Go-Betweens" T="1978-1990" type="ALBUM" mergeable="true" del="false">
@@ -274,7 +274,7 @@
   <compo A="Go Go's" T="Beauty And The Beat" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="91" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="92" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Moby" T="Everything Is Wrong" type="ALBUM" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="Lee 'Scratch' Perry And The Upsetters" T="Some Of The Best" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="96" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Top 100 Alternative Albums - 1995" publish="1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="97" creation="30/08/2018 10:16:24" size="100"/>
   </compo>
   <compo A="Sebadoh" T="Sebadoh III" type="ALBUM" mergeable="true" del="false">

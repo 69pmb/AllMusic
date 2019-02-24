@@ -16,13 +16,13 @@
   <compo A="Love" T="Forever Changes" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="5" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="6" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
   <compo A="Don Cherry And Ed Blackwell" T="El Corazon" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="7" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="8" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
   <compo A="Outkast" T="Stankonia" type="ALBUM" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Cro-Mags" T="The Age Of Quarrel" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="29" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="30" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
   <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
@@ -136,7 +136,7 @@
   <compo A="Blackalicious" T="NIA" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="45" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="46" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
   <compo A="MIA" T="Matangi" type="ALBUM" mergeable="true" del="false">
@@ -184,7 +184,7 @@
   <compo A="Scritti Politti" T="Cupid And Psyche 85" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="61" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="62" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
   <compo A="Bjork" T="Homogenic" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="93" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 101 Albums To Hear Before You Die - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="false" rank="94" creation="04/09/2018 15:19:17" size="101"/>
   </compo>
   <compo A="ESG" T="Come Away With ESG" type="ALBUM" mergeable="true" del="false">

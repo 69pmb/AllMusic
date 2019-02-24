@@ -25,7 +25,7 @@
   <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="8" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="9" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
   <compo A="Rickie Lee Jones" T="The Magazine" type="ALBUM" mergeable="true" del="false">

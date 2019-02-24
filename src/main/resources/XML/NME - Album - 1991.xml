@@ -25,7 +25,7 @@
   <compo A="Carter USM" T="30 Something" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="8" creation="04/09/2018 10:49:07" size="50"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="9" creation="04/09/2018 10:49:07" size="50"/>
   </compo>
   <compo A="The Wonder Stuff" T="Never Loved Elvis" type="ALBUM" mergeable="true" del="false">

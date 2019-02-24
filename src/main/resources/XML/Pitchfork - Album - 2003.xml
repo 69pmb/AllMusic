@@ -118,7 +118,7 @@
   <compo A="Dizzee Rascal" T="Boy in da Corner" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="12" creation="24/07/2018 18:01:43" size="50"/>
   </compo>
-  <compo A="The Strokes" T="Room on Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Room on Fire" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="11" creation="24/07/2018 18:01:43" size="50"/>
   </compo>
   <compo A="The Unicorns" T="Who Will Cut Our Hair When We're Gone?" type="ALBUM" mergeable="true" del="false">

@@ -28,13 +28,13 @@
   <compo A="The Datsuns" T="The Datsuns" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="9" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="10" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="The Flaming Lips" T="Yoshimi Battles The Pink Robots" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="11" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="12" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="The Polyphonic Spree" T="The Beginning Stages Of..." type="ALBUM" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="Ms Dynamite" T="A Little Deeper" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="22" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Jay-Z" T="The Blueprint 2" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="The Blueprint 2" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="23" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="The Von Bondies" T="Lack Of Communication" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Death In Vegas" T="Scorpio Rising" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="34" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Wilco" T="Yankiee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankiee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="35" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Brendan Benson" T="Lapulco" type="ALBUM" mergeable="true" del="false">

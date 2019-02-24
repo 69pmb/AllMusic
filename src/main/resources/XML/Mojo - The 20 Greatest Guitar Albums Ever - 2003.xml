@@ -4,7 +4,7 @@
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 20 Greatest Guitar Albums Ever - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="1" creation="22/08/2018 17:27:48" size="20"/>
   </compo>
-  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 20 Greatest Guitar Albums Ever - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="2" creation="22/08/2018 17:27:48" size="20"/>
   </compo>
   <compo A="Howlin' Wolf" T="Howlin' Wolf" type="ALBUM" mergeable="true" del="false">
@@ -13,13 +13,13 @@
   <compo A="Funkadelic" T="Maggot Brain" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The 20 Greatest Guitar Albums Ever - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="4" creation="22/08/2018 17:27:48" size="20"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 20 Greatest Guitar Albums Ever - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="5" creation="22/08/2018 17:27:48" size="20"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 20 Greatest Guitar Albums Ever - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="6" creation="22/08/2018 17:27:48" size="20"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 20 Greatest Guitar Albums Ever - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="7" creation="22/08/2018 17:27:48" size="20"/>
   </compo>
   <compo A="Charlie Christian" T="Genius Of The Electric Guitar" type="ALBUM" mergeable="true" del="false">

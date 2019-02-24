@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="1" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
   <compo A="Thr Slits" T="Cut" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Mudhoney" T="Every Good Boy Deserves Fudge" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="19" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="20" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
@@ -106,7 +106,7 @@
   <compo A="Wire" T="Pink Flag" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="35" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="36" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
   <compo A="The Runaways" T="Waitin'For The Night" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Fugazi" T="Repeater" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="39" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="40" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
   <compo A="Killing Joke" T="Killing Joke" type="ALBUM" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Devo" T="Q: Are We Not Men A: We Are Devo" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="46" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="47" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
   <compo A="Dead Kennedys" T="Fresh Fruit For Rotting Vegetables" type="ALBUM" mergeable="true" del="false">

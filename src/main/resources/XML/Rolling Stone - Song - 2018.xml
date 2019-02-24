@@ -52,7 +52,7 @@
   <compo A="Hop Along" T="How Simple" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="34" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Robyn" T="Ever Again" type="SONG" mergeable="true" del="false">
+  <compo A="Robyn" T="Ever Again" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="33" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Hayley Kiyoko" T="Curious" type="SONG" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <compo A="Lil Baby And Gunna" T="Drip Too Hard" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="31" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Lucy Dacus" T="Night Shift" type="SONG" mergeable="true" del="false">
+  <compo A="Lucy Dacus" T="Night Shift" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Pistol Annies" T="Best Years Of My Life" type="SONG" mergeable="true" del="false">
@@ -103,16 +103,16 @@
   <compo A="Eric Church" T="Desperate Man" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="17" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Ariana Grande" T="Thank U, Next" type="SONG" mergeable="true" del="false">
+  <compo A="Ariana Grande" T="Thank U, Next" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="16" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Kacey Musgraves" T="High Horse" type="SONG" mergeable="true" del="false">
+  <compo A="Kacey Musgraves" T="High Horse" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="15" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Sheck Wes" T="Mo Bamba" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Snail Mail" T="Pristine" type="SONG" mergeable="true" del="false">
+  <compo A="Snail Mail" T="Pristine" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="13" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Taylor Swift" T="Delicate" type="SONG" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <compo A="Nio Garcia, Casper Magico, Darell, Bad Bunny, Ozuna And Nicky Jam" T="Te Bote (Remix)" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="11" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Travis Scott" T="Sicko Mode" type="SONG" mergeable="true" del="false">
+  <compo A="Travis Scott" T="Sicko Mode" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="true">
@@ -136,7 +136,7 @@
   <compo A="Lana Del Rey" T="Mariners Apartment Complex" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Drake" T="Nice For What" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="Nice For What" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="5" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Camila Cabello" T="Never Be The Same" type="SONG" mergeable="true" del="false">

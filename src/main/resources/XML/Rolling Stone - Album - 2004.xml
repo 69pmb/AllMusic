@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Loretta Lynn" T="Van Lear Rose" type="ALBUM" mergeable="true" del="false">

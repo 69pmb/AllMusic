@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="7"/>
   </compo>
   <compo A="U2" T="Zooropa" type="ALBUM" mergeable="true" del="false">

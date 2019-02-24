@@ -169,13 +169,13 @@
   <compo A="Moby Grape" T="Moby Grape" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="56" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="57" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
   <compo A="Miles Davis" T="Sketches Of Spain" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="58" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
-  <compo A="Beach Boys" T="The Beach Boys Today!" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach Boys" T="The Beach Boys Today!" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="59" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
   <compo A="Laura Nyro" T="Eli And The Thirteenth Confession" type="ALBUM" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="Roxy Music" T="Stranded" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="64" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="true">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="65" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
   <compo A="Little Feat" T="Dixie Chicken" type="ALBUM" mergeable="true" del="false">
@@ -208,7 +208,7 @@
   <compo A="Kraftwerk" T="Radioactivity" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="69" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="70" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
   <compo A="Neil Young" T="On The Beach" type="ALBUM" mergeable="true" del="false">
@@ -232,7 +232,7 @@
   <compo A="Big Star" T="Third/Sister Lovers" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="76" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
-  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="77" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
   <compo A="Ar Kane" T="Sixty Nine" type="ALBUM" mergeable="true" del="false">

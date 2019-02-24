@@ -115,7 +115,7 @@
   <compo A="Gruff Rhys" T="Babelsberg" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="13" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
-  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="12" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
   <compo A="Interpol" T="Marauder" type="ALBUM" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Parquet Courts" T="Wide Awake!" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="5" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
-  <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="false">
+  <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
   <compo A="The 1975" T="A Brief Inquiry Into Online Relationships" type="ALBUM" mergeable="true" del="false">

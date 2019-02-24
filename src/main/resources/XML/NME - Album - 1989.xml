@@ -4,7 +4,7 @@
   <compo A="De La Soul" T="3 Feet High And Rising" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="1" creation="04/09/2018 10:49:26" size="50"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="2" creation="04/09/2018 10:49:26" size="50"/>
   </compo>
   <compo A="Lou Reed" T="New York" type="ALBUM" mergeable="true" del="false">
@@ -31,7 +31,7 @@
   <compo A="Elvis Costello" T="Spike" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="10" creation="04/09/2018 10:49:26" size="50"/>
   </compo>
-  <compo A="Beastie Boys" T="Pauls Boutique" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Pauls Boutique" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="11" creation="04/09/2018 10:49:26" size="50"/>
   </compo>
   <compo A="Inner City" T="Paradise" type="ALBUM" mergeable="true" del="false">

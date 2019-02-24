@@ -10,7 +10,7 @@
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="3" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="4" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
@@ -22,13 +22,13 @@
   <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="7" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="8" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="9" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="10" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
@@ -43,7 +43,7 @@
   <compo A="Miles Davis" T="Kind Of Blue" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="14" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="15" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
@@ -55,19 +55,19 @@
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="18" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="19" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Kraftwerk" T="Trans Europe Express" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="20" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Beatles" T="Sgt. Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt. Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="21" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="22" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="23" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
@@ -79,10 +79,10 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="26" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="27" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="28" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <compo A="David Bowie" T="Stationtostation" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="30" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="31" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
@@ -112,7 +112,7 @@
   <compo A="The Kinks" T="The Kinks Are The Village Green Society" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="37" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="38" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
@@ -133,7 +133,7 @@
   <compo A="Sly And The Family Stone" T="There's A Riot Going On" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="44" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="45" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" mergeable="true" del="false">
@@ -160,13 +160,13 @@
   <compo A="Big Star" T="Third/Sister Lovers" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="53" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="54" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="55" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="56" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
@@ -178,16 +178,16 @@
   <compo A="Prince" T="Sign O The Times" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="59" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="60" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadalica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadalica" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="61" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Byrds" T="The Notorious Byrd Brothers" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="62" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="63" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="David Crosby" T="If Only I Could Remember My Name" type="ALBUM" mergeable="true" del="false">
@@ -238,13 +238,13 @@
   <compo A="Gillian Welch" T="Time (The Revelator)" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="79" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="80" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="81" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="82" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Bob Dylan" T="The Freewheelin' Bob Dylan" type="ALBUM" mergeable="true" del="true">
@@ -316,7 +316,7 @@
   <compo A="David Bowie" T="Diamond Dogs" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="105" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="106" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Spiritualized" T="Ladies And Gentlemen We Are Floating In Space" type="ALBUM" mergeable="true" del="false">
@@ -370,10 +370,10 @@
   <compo A="Steely Dan" T="Can't Buy A Thrill" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="123" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="124" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="125" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Nick Drake" T="Pink Moon" type="ALBUM" mergeable="true" del="false">
@@ -406,7 +406,7 @@
   <compo A="The Beach Boys" T="Surfs Up" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="135" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="136" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="AC/DC" T="Back in Black" type="ALBUM" mergeable="true" del="false">
@@ -433,7 +433,7 @@
   <compo A="Cocteau Twins" T="Heaven Or Las Vegas" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="144" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="145" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
@@ -502,7 +502,7 @@
   <compo A="Aphex Twin" T="Selected Ambient Works 85-92" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="167" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Smiths" T="Strangeways Here We Come" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="Strangeways Here We Come" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="168" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="T. Rex" T="Electric Warrior" type="ALBUM" mergeable="true" del="false">
@@ -538,7 +538,7 @@
   <compo A="The Who" T="Tommy" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="179" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="180" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="The Replacements" T="Tim" type="ALBUM" mergeable="true" del="false">
@@ -565,7 +565,7 @@
   <compo A="Talking Heads" T="Fear Of Music" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="188" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 200 Greatest Albums Of All Time - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="189" creation="25/01/2017 10:01:42" size="200"/>
   </compo>
   <compo A="Prefab Sprout" T="Steve McQueen" type="ALBUM" mergeable="true" del="false">

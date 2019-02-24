@@ -19,7 +19,7 @@
   <compo A="Outkast" T="Stankonia" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Paul Simon" T="You're The One" type="ALBUM" mergeable="true" del="false">

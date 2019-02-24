@@ -7,7 +7,7 @@
   <compo A="OutKast" T="Speakerboxxx/The Love Below" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="2" creation="30/08/2018 10:55:04" size="40"/>
   </compo>
-  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="3" creation="30/08/2018 10:55:04" size="40"/>
   </compo>
   <compo A="50 Cent" T="Get Rich Or Die Tryin'" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Atmosphere" T="Seven's Travels" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="19" creation="30/08/2018 10:55:04" size="40"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="20" creation="30/08/2018 10:55:04" size="40"/>
   </compo>
   <compo A="The Mars Volta" T="De-Loused In The Comatorium" type="ALBUM" mergeable="true" del="false">

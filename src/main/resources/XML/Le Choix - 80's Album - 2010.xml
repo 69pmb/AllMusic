@@ -43,7 +43,7 @@
   <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="12" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
-  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="11" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
   <compo A="Nine Inch Nails" T="Pretty Hate Machine" type="ALBUM" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <compo A="The Jesus and Mary Chain" T="Psycho Candy" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="9" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="8" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
   <compo A="The Cure" T="Disintegration" type="ALBUM" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="6" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
-  <compo A="Talking Heads" T="Remain in Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain in Light" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="5" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
@@ -70,7 +70,7 @@
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="3" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - 80's Album - 2010" publish="2010" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="2" creation="08/07/2018 13:56:20" size="25"/>
   </compo>
   <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">

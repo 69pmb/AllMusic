@@ -10,7 +10,7 @@
   <compo A="Queens Of The Stoneage" T="Songs For The Deaf" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="3" creation="24/08/2018 10:47:45" size="40"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="4" creation="24/08/2018 10:47:45" size="40"/>
   </compo>
   <compo A="Beth Gibbons And Rustin' Man" T="Out Of Season" type="ALBUM" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <compo A="Boards Of Canada" T="Geogaddi" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="16" creation="24/08/2018 10:47:45" size="40"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="17" creation="24/08/2018 10:47:45" size="40"/>
   </compo>
   <compo A="Tom Waits" T="Blood Money/Alice" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Elvis Costello" T="When I Was Cruel" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="33" creation="24/08/2018 10:47:45" size="40"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Light" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="34" creation="24/08/2018 10:47:45" size="40"/>
   </compo>
   <compo A="Precious Bryant" T="Fool Me Good" type="ALBUM" mergeable="true" del="false">

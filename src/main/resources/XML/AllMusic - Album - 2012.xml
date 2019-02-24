@@ -61,7 +61,7 @@
   <compo A="Cat Power" T="Sun" type="ALBUM" mergeable="true" del="false">
     <file author="AllMusic" name="AllMusic - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="31" creation="26/07/2018 14:45:44" size="50"/>
   </compo>
-  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" mergeable="true" del="true">
     <file author="AllMusic" name="AllMusic - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="30" creation="26/07/2018 14:45:44" size="50"/>
   </compo>
   <compo A="Fun." T="Some Nights" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Frank Ocean" T="Channel Orange" type="ALBUM" mergeable="true" del="false">
     <file author="AllMusic" name="AllMusic - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="26/07/2018 14:45:44" size="50"/>
   </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="true">
     <file author="AllMusic" name="AllMusic - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="26/07/2018 14:45:44" size="50"/>
   </compo>
 </ListCompositions>

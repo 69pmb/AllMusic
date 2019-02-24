@@ -4,13 +4,13 @@
   <compo A="These New Puritans" T="Hidden" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="1" creation="24/07/2017 00:51:20" size="75"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="2" creation="24/07/2017 00:51:20" size="75"/>
   </compo>
   <compo A="Beach House" T="Teen Dream" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="3" creation="24/07/2017 00:51:20" size="75"/>
   </compo>
-  <compo A="Lcd Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lcd Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="4" creation="24/07/2017 00:51:20" size="75"/>
   </compo>
   <compo A="Laura Marling" T="I Speak Because I Can" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Magnetic Man" T="Magnetic Man" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="39" creation="24/07/2017 00:51:20" size="75"/>
   </compo>
-  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="40" creation="24/07/2017 00:51:20" size="75"/>
   </compo>
   <compo A="Steve Mason" T="Boys Outside" type="ALBUM" mergeable="true" del="false">

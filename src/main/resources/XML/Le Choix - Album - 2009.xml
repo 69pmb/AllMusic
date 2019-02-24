@@ -7,7 +7,7 @@
   <compo A="Danger Mouse And Sparklehorse" T="Dark Night of the Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="2" creation="30/07/2018 18:33:46" size="21"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="3" creation="30/07/2018 18:33:46" size="21"/>
   </compo>
   <compo A="Fever Ray" T="Fever Ray" type="ALBUM" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <compo A="The Antlers" T="Hospice" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="5" creation="30/07/2018 18:33:46" size="21"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="6" creation="30/07/2018 18:33:46" size="21"/>
   </compo>
   <compo A="J. Tillman" T="Year in the Kingdom" type="ALBUM" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="The Flaming Lips" T="Embryonic" type="ALBUM" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="18" creation="30/07/2018 18:33:46" size="21"/>
   </compo>
-  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="false">
+  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="19" creation="30/07/2018 18:33:46" size="21"/>
   </compo>
   <compo A="Timber Timbre" T="S/T" type="ALBUM" mergeable="true" del="false">

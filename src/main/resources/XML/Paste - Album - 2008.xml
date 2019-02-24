@@ -67,7 +67,7 @@
   <compo A="Lil Wayne" T="Tha Carter III" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="29" creation="31/08/2018 10:27:53" size="50"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="28" creation="31/08/2018 10:27:53" size="50"/>
   </compo>
   <compo A="Liam Finn" T="I'll Be Lightning" type="ALBUM" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="31/08/2018 10:27:53" size="50"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="3" creation="31/08/2018 10:27:53" size="50"/>
   </compo>
   <compo A="Sigur Ros" T="Med Sud I Eyrum Vid Spilum Endalaust" type="ALBUM" mergeable="true" del="false">

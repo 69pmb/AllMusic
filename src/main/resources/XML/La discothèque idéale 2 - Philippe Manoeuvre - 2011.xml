@@ -49,7 +49,7 @@
   <compo A="Canned Heat" T="Boogie with Canned Heat" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="16" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="17" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="Mike Bloomfield, Al Kooper And Stephen Stills" T="Super Session" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="19" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="20" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="MC5" T="Kick Out the Jams" type="ALBUM" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Grateful Dead" T="Live/Dead" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="32" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="33" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="Syd Barrett" T="The Madcap Laughs" type="ALBUM" mergeable="true" del="false">
@@ -145,7 +145,7 @@
   <compo A="Mott the Hoople" T="All the Young Dudes" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="48" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="49" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="Rory Gallagher" T="Tattoo" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="Kiss" T="Alive!" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="56" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="57" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="Queen" T="A Night At The Opera" type="ALBUM" mergeable="true" del="false">
@@ -232,7 +232,7 @@
   <compo A="Marianne Faithfull" T="Broken English" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="77" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="78" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="Kid Creole and the Coconuts" T="Off the Coast of Me" type="ALBUM" mergeable="true" del="false">
@@ -256,7 +256,7 @@
   <compo A="The Birthday Party" T="Junk Yard" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="85" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="86" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="The Pogues" T="Rum, Sodomy and the Lash" type="ALBUM" mergeable="true" del="false">
@@ -277,7 +277,7 @@
   <compo A="Metallica" T="The $5.98 E.P.: Garage Days Re-Revisited" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="92" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="93" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="Motley Crue" T="Dr. Feelgood" type="ALBUM" mergeable="true" del="false">
@@ -289,19 +289,19 @@
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="96" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="97" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="The Reverend Horton Heat" T="The Full Custom Gospel Sounds Of..." type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="98" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="99" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="100" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="101" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="The Brian Jonestown Massacre" T="Tepid Peppermint Wonderland, Vol 1 And 2" type="ALBUM" mergeable="true" del="false">
@@ -316,7 +316,7 @@
   <compo A="Amy Winehouse" T="Back To Black" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="105" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="106" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
 </ListCompositions>

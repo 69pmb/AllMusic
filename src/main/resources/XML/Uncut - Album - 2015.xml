@@ -4,7 +4,7 @@
   <compo A="Julia Holter" T="Have You In My Wilderness" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="1" creation="03/09/2018 10:39:41" size="75"/>
   </compo>
-  <compo A="Kendrick Lamar" T="To Pimp A Butterfly" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="To Pimp A Butterfly" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="2" creation="03/09/2018 10:39:41" size="75"/>
   </compo>
   <compo A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" mergeable="true" del="true">
@@ -19,7 +19,7 @@
   <compo A="Tame Impala" T="Currents" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="6" creation="03/09/2018 10:39:41" size="75"/>
   </compo>
-  <compo A="Courtney Barnett" T="Sometimes I Sit And Think, And Sometimes I Just Sit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Courtney Barnett" T="Sometimes I Sit And Think, And Sometimes I Just Sit" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="7" creation="03/09/2018 10:39:41" size="75"/>
   </compo>
   <compo A="Natalie Prass" T="Natalie Prass" type="ALBUM" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Joanna Newsom" T="Divers" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="26" creation="03/09/2018 10:39:41" size="75"/>
   </compo>
-  <compo A="Jamie XX" T="In Colour" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jamie XX" T="In Colour" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2015" publish="2015" cat="YEAR" rangeB="2015" rangeE="2015" sorted="true" rank="27" creation="03/09/2018 10:39:41" size="75"/>
   </compo>
   <compo A="Bassekou Kouyate And Ngoni" T="Ba Power" type="ALBUM" mergeable="true" del="false">

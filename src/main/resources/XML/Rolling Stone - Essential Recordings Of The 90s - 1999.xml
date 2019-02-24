@@ -22,13 +22,13 @@
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="7" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="My Blood Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Blood Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="8" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="9" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="10" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="L7" T="Bricks Are Heavy" type="ALBUM" mergeable="true" del="false">
@@ -46,10 +46,10 @@
   <compo A="The Cranberries" T="Everybody Else Is Doing It, So Why Can't We?" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="15" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="The Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="16" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="17" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Pj Harvey" T="Rid Of Me" type="ALBUM" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <compo A="Soundgarden" T="Superunknown" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="24" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="25" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Beastie Boys" T="Ill Communication" type="ALBUM" mergeable="true" del="false">
@@ -94,13 +94,13 @@
   <compo A="Pj Harvey" T="To Bring You My Love" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="31" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="32" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Alanis Morissette" T="Jagged Little Pill" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="33" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="34" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Garbage" T="Garbage" type="ALBUM" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <compo A="Sleater Kinney" T="Call The Doctor" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="38" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="39" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Sublime" T="Sublime" type="ALBUM" mergeable="true" del="false">

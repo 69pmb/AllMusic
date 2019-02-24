@@ -13,7 +13,7 @@
   <compo A="Graham Parker" T="Heat Treatment" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1976" publish="1976" cat="YEAR" rangeB="1976" rangeE="1976" sorted="true" rank="4" creation="04/09/2018 10:52:01" size="24"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1976" publish="1976" cat="YEAR" rangeB="1976" rangeE="1976" sorted="true" rank="5" creation="04/09/2018 10:52:01" size="24"/>
   </compo>
   <compo A="Blue Oyster Cult" T="Agents Of Fortune" type="ALBUM" mergeable="true" del="false">

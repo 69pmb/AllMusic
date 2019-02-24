@@ -19,13 +19,13 @@
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="6" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="7" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="8" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="9" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
@@ -49,7 +49,7 @@
   <compo A="The Stooges" T="Fun House" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="16" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="17" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="22" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="23" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
@@ -79,7 +79,7 @@
   <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="26" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="27" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="29" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="30" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Otis Redding" T="Otis Blue" type="ALBUM" mergeable="true" del="false">
@@ -127,13 +127,13 @@
   <compo A="Gram Parsons" T="Grievous Angel" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="42" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="43" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Iggy Pop" T="Lust For Life" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="44" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="45" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Miles Davis" T="In A Silent Way" type="ALBUM" mergeable="true" del="false">
@@ -145,16 +145,16 @@
   <compo A="Kraftwerk" T="Trans–Europe Express" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="48" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="The New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="49" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Moby Grape" T="Moby Grape" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="50" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="51" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="52" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
@@ -187,7 +187,7 @@
   <compo A="Can" T="Future Days" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="62" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="63" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Captain Beefheart" T="Clear Spot" type="ALBUM" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="Joni Mitchell" T="The Hissing Of Summer Lawns" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="78" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="79" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Todd Rundgren" T="A Wizard, A True Star" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="93" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="94" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Muddy Waters" T="Hard Again" type="ALBUM" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="96" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - THE 100 GREATEST ALBUMS EVER MADE - 1995" publish="1995" cat="ALL_TIME" rangeB="0" rangeE="1995" sorted="true" rank="97" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Iggy And The Stooges" T="Raw Power" type="ALBUM" mergeable="true" del="false">

@@ -13,7 +13,7 @@
   <compo A="Soft Cell" T="The Art Of Falling Apart" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="true" rank="4" creation="04/09/2018 10:50:38" size="50"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="true" rank="5" creation="04/09/2018 10:50:38" size="50"/>
   </compo>
   <compo A="Yellow" T="You Gotta Say Yes To Another Excess" type="ALBUM" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Echo And The Bunnymen" T="Porcupine" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="true" rank="32" creation="04/09/2018 10:50:38" size="50"/>
   </compo>
-  <compo A="R.E.M" T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M" T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="true" rank="33" creation="04/09/2018 10:50:38" size="50"/>
   </compo>
   <compo A="Mc5" T="Babes In Arms" type="ALBUM" mergeable="true" del="false">

@@ -16,10 +16,10 @@
   <compo A="Belly" T="Star" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="5" creation="04/09/2018 10:48:41" size="50"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="6" creation="04/09/2018 10:48:41" size="50"/>
   </compo>
-  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="7" creation="04/09/2018 10:48:41" size="50"/>
   </compo>
   <compo A="Cypress Hill" T="Black Sunday" type="ALBUM" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Gallon Drunk" T="From The Heart Of Town" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="29" creation="04/09/2018 10:48:41" size="50"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="30" creation="04/09/2018 10:48:41" size="50"/>
   </compo>
   <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="false">

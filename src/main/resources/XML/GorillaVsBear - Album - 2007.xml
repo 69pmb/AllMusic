@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="GorillaVsBear" name="GorillaVsBear - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="17" creation="30/07/2018 13:52:52" size="17"/>
   </compo>
   <compo A="Menomena" T="Friend and Foe" type="ALBUM" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Oh No" T="Dr. No's Oxperiment" type="ALBUM" mergeable="true" del="false">
     <file author="GorillaVsBear" name="GorillaVsBear - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="11" creation="30/07/2018 13:52:52" size="17"/>
   </compo>
-  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="GorillaVsBear" name="GorillaVsBear - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="10" creation="30/07/2018 13:52:52" size="17"/>
   </compo>
   <compo A="Bodies of Water" T="Ears Will Pop And Eyes Will Blink" type="ALBUM" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <compo A="Black Lips" T="Los Valientes Del Mundo Nuevo" type="ALBUM" mergeable="true" del="false">
     <file author="GorillaVsBear" name="GorillaVsBear - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="7" creation="30/07/2018 13:52:52" size="17"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="GorillaVsBear" name="GorillaVsBear - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="30/07/2018 13:52:52" size="17"/>
   </compo>
   <compo A="St. Vincent" T="Marry Me" type="ALBUM" mergeable="true" del="false">
