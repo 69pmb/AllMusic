@@ -16,7 +16,7 @@
   <compo A="Jim O'Rourke" T="Insignificance" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="16" creation="24/07/2018 17:57:14" size="20"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="15" creation="24/07/2018 17:57:14" size="20"/>
   </compo>
   <compo A="The Dismemberment Plan" T="Change" type="ALBUM" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="The New Pornographers" T="Mass Romantic" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="9" creation="24/07/2018 17:57:14" size="20"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="8" creation="24/07/2018 17:57:14" size="20"/>
   </compo>
   <compo A="Mum" T="Yesterday Was Dramatic, Today Is OK" type="ALBUM" mergeable="true" del="false">

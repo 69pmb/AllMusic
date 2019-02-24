@@ -7,10 +7,10 @@
   <compo A="Arctic Monkeys" T="Favourite Worst Nightmare" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="2" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="3" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="4" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Les Savy Fav" T="Let's Stay Friends" type="ALBUM" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <compo A="Kings Of Leon" T="Because Of The Times" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="7" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Biffy Clyro" T="Puzzle" type="ALBUM" mergeable="true" del="false">

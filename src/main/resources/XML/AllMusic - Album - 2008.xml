@@ -88,7 +88,7 @@
   <compo A="Kelley Polar" T="I Need You to Hold on While the Sky Is Falling" type="ALBUM" mergeable="true" del="false">
     <file author="AllMusic" name="AllMusic - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="false" rank="29" creation="26/07/2018 15:01:50" size="64"/>
   </compo>
-  <compo A="The Kills" T="Midnight Boom" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Kills" T="Midnight Boom" type="ALBUM" mergeable="true" del="true">
     <file author="AllMusic" name="AllMusic - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="false" rank="30" creation="26/07/2018 15:01:50" size="64"/>
   </compo>
   <compo A="B.B. King" T="One Kind Favor" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Madlib" T="WLIB AM: King of the Wigflip" type="ALBUM" mergeable="true" del="false">
     <file author="AllMusic" name="AllMusic - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="false" rank="39" creation="26/07/2018 15:01:50" size="64"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="AllMusic" name="AllMusic - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="false" rank="40" creation="26/07/2018 15:01:50" size="64"/>
   </compo>
   <compo A="Mogwai" T="The Hawk Is Howling" type="ALBUM" mergeable="true" del="false">
@@ -184,7 +184,7 @@
   <compo A="TV on the Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
     <file author="AllMusic" name="AllMusic - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="false" rank="61" creation="26/07/2018 15:01:50" size="64"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="AllMusic" name="AllMusic - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="false" rank="62" creation="26/07/2018 15:01:50" size="64"/>
   </compo>
   <compo A="WEEZER" T="The Red Album" type="ALBUM" mergeable="false" del="false">

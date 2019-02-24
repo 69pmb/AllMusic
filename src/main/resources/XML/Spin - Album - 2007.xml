@@ -4,7 +4,7 @@
   <compo A="Against Me!" T="New Wave" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="1" creation="30/08/2018 11:00:10" size="40"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="2" creation="30/08/2018 11:00:10" size="40"/>
   </compo>
   <compo A="LCD Soundsystem" T="Sound Of Silver" type="ALBUM" mergeable="true" del="false">
@@ -13,10 +13,10 @@
   <compo A="KanYe West" T="Graduation" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="4" creation="30/08/2018 11:00:10" size="40"/>
   </compo>
-  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="5" creation="30/08/2018 11:00:10" size="40"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="30/08/2018 11:00:10" size="40"/>
   </compo>
   <compo A="Amy Winehouse" T="Back To Black" type="ALBUM" mergeable="true" del="true">

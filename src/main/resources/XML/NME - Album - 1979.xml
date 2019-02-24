@@ -7,7 +7,7 @@
   <compo A="Public Image Ltd." T="Metal Box" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="2" creation="04/09/2018 10:51:28" size="40"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="3" creation="04/09/2018 10:51:28" size="40"/>
   </compo>
   <compo A="The Jam" T="Setting Sons" type="ALBUM" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Ian Dury" T="Do It Yourself" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="7" creation="04/09/2018 10:51:28" size="40"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="8" creation="04/09/2018 10:51:28" size="40"/>
   </compo>
   <compo A="Graham Parker" T="Squeezing Out The Sparks" type="ALBUM" mergeable="true" del="false">

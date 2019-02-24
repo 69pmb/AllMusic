@@ -133,7 +133,7 @@
   <compo A="Elvis Presley" T="Heartbreak Hotel" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="55" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="ABBA" T="Dancing Queen" type="SONG" mergeable="true" del="false">
+  <compo A="ABBA" T="Dancing Queen" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="56" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="R.E.M." T="Hope" type="SONG" mergeable="true" del="false">
@@ -1195,7 +1195,7 @@
   <compo A="James Carr" T="The Dark End Of The Street" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="516" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="false">
+  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="517" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Lou Reed" T="Rock And Roll" type="SONG" mergeable="true" del="false">
@@ -1909,7 +1909,7 @@
   <compo A="The Melodians" T="Rivers Of Babylon" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="817" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Mudhoney" T="Touch Me I'm Sick" type="SONG" mergeable="true" del="false">
+  <compo A="Mudhoney" T="Touch Me I'm Sick" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="818" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Funkadelic" T="Maggot Brain" type="SONG" mergeable="true" del="true">
@@ -2272,7 +2272,7 @@
   <compo A="The Beatles" T="Cry For A Shadow" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="989" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="The Modern Lovers" T="Roadrunner" type="SONG" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="Roadrunner" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="990" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Magic Dirt" T="Bodysnatcher" type="SONG" mergeable="true" del="false">

@@ -10,7 +10,7 @@
   <compo A="Paul Weller" T="Wake Up The Nation" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="3" creation="03/09/2018 10:38:11" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="4" creation="03/09/2018 10:38:11" size="50"/>
   </compo>
   <compo A="Robert Plant" T="Band Of Joy" type="ALBUM" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <compo A="Alifarka Toure And Toumani Diabate" T="Ali And Toumani" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="8" creation="03/09/2018 10:38:11" size="50"/>
   </compo>
-  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="9" creation="03/09/2018 10:38:11" size="50"/>
   </compo>
   <compo A="Grinderman" T="Grinderman 2" type="ALBUM" mergeable="true" del="false">
@@ -136,7 +136,7 @@
   <compo A="Toro Y Moi" T="Causers Of This" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="45" creation="03/09/2018 10:38:11" size="50"/>
   </compo>
-  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="46" creation="03/09/2018 10:38:11" size="50"/>
   </compo>
   <compo A="Solar Bears" T="She Was Coloured In" type="ALBUM" mergeable="true" del="false">

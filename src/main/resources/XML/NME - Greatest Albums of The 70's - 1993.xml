@@ -10,13 +10,13 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="3" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="4" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
   <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="5" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
-  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="6" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="9" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="10" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
   <compo A="The Jam" T="All Mod Cons" type="ALBUM" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <compo A="Gram Parsons" T="Grievous Angel" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="20" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="21" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
   <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
@@ -70,7 +70,7 @@
   <compo A="Pil" T="Metal Box" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="23" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="24" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
   <compo A="The Specials" T="The Specials" type="ALBUM" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="Lou Reed" T="Berlin" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="33" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 70's - 1993" publish="1993" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="34" creation="04/09/2018 12:45:48" size="50"/>
   </compo>
   <compo A="Original Soundtrack" T="Saturday Night Fever" type="ALBUM" mergeable="true" del="false">

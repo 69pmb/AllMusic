@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
   <compo A="Bruce Springsteen" T="The River" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
   <compo A="Captain Beefheart" T="Doc At The Radar Station" type="ALBUM" mergeable="true" del="false">

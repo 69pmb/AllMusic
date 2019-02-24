@@ -4,7 +4,7 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="1" creation="04/09/2018 10:48:31" size="50"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="2" creation="04/09/2018 10:48:31" size="50"/>
   </compo>
   <compo A="Beastie Boys" T="Ill Communication" type="ALBUM" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <compo A="Neil Young" T="Sleeps With Angels" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="11" creation="04/09/2018 10:48:31" size="50"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="12" creation="04/09/2018 10:48:31" size="50"/>
   </compo>
   <compo A="Massive Attack" T="Protection" type="ALBUM" mergeable="true" del="false">

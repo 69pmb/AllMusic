@@ -19,7 +19,7 @@
   <compo A="Danger Mouse" T="The Greay Album" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="6" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="7" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Razorlight" T="Razorlight" type="ALBUM" mergeable="true" del="false">

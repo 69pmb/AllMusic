@@ -7,7 +7,7 @@
   <compo A="Prince" T="Sign O' The Times" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="2" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="3" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
@@ -25,7 +25,7 @@
   <compo A="PJ Harvey" T="Rid Of Me" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="8" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="9" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Nine Inch Nails" T="The Downward Spiral" type="ALBUM" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="13" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="The Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="14" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Husker Du" T="New Day Rising" type="ALBUM" mergeable="true" del="false">
@@ -52,13 +52,13 @@
   <compo A="De La Soul" T="3 Feet High And Rising" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="17" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="18" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="19" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="20" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Oasis" T="(What's The Story?) Morning Glory" type="ALBUM" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="Daft Punk" T="Discovery" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="23" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="24" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Nas" T="Illmatic" type="ALBUM" mergeable="true" del="false">
@@ -79,10 +79,10 @@
   <compo A="Guided By Voices" T="Bee Thousand" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="26" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="27" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="28" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="33" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="34" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
@@ -133,7 +133,7 @@
   <compo A="The Beastie Boys" T="Licensed To Ill" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="44" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="The Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="45" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="N.W.A." T="Straight Outta Compton" type="ALBUM" mergeable="true" del="false">
@@ -154,7 +154,7 @@
   <compo A="Rage Against The Machine" T="The Battle Of Los Angeles" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="51" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="52" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="The Cure" T="The Head On The Door" type="ALBUM" mergeable="true" del="false">
@@ -163,7 +163,7 @@
   <compo A="Dinosaur Jr." T="You're Living All Over Me" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="54" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="55" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Aphex Twin" T="Selected Ambient Works 85-92" type="ALBUM" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="Fugazi" T="13 Songs" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="60" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="61" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
@@ -190,7 +190,7 @@
   <compo A="R.E.M." T="Fables Of The Reconstruction" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="63" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="64" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Eminem" T="The Marshall Mathers LP" type="ALBUM" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Raekwon" T="Only Built 4 Cuban Linx..." type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="68" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="69" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
@@ -223,7 +223,7 @@
   <compo A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="74" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="75" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="OutKast" T="Aquemini" type="ALBUM" mergeable="true" del="false">
@@ -241,7 +241,7 @@
   <compo A="The Fall" T="This Nation's Saving Grace" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="80" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="81" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Dr. Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <compo A="TV On The Radio" T="Return To Cookie Mountain" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="86" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="87" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
@@ -271,7 +271,7 @@
   <compo A="Elliott Smith" T="XO" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="90" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="The Smiths" T="Strangeways, Here We Come" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="Strangeways, Here We Come" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="91" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Jay-Z" T="The Black Album" type="ALBUM" mergeable="true" del="false">
@@ -289,19 +289,19 @@
   <compo A="The Roots" T="Things Fall Apart" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="96" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="97" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Johnny Cash" T="American Recordings" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="98" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="99" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Kanye West" T="Late Registration" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="100" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="101" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Queen Latifah" T="All Hail The Queen" type="ALBUM" mergeable="true" del="false">
@@ -334,13 +334,13 @@
   <compo A="Teenage Fanclub" T="Bandwagonesque" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="111" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="112" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Danger Mouse" T="The Grey Album" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="113" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="114" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="OutKast" T="Speakerboxxx/The Love Below" type="ALBUM" mergeable="true" del="false">

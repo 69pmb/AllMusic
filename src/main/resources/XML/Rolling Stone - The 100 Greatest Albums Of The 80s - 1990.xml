@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publish="1990" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="1" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
   <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
@@ -10,7 +10,7 @@
   <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publish="1990" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="3" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publish="1990" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="4" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
   <compo A="Paul Simon" T="Graceland" type="ALBUM" mergeable="true" del="false">
@@ -19,10 +19,10 @@
   <compo A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publish="1990" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="6" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publish="1990" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="7" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
-  <compo A="Rem" T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rem" T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publish="1990" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="8" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
   <compo A="Cold Chisel" T="Circus Animals" type="ALBUM" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Tom Waits" T="Rain Dogs" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publish="1990" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="21" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums Of The 80s - 1990" publish="1990" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="22" creation="25/08/2017 20:30:52" size="100"/>
   </compo>
   <compo A="Crowded House" T="Crowded House" type="ALBUM" mergeable="true" del="false">

@@ -4,7 +4,7 @@
   <compo A="Bill Callahan" T="Dream River" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="24/08/2018 10:52:32" size="50"/>
   </compo>
-  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="2" creation="24/08/2018 10:52:32" size="50"/>
   </compo>
   <compo A="David Bowie" T="The Next Day" type="ALBUM" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <compo A="Deerhunter" T="Monomania" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="6" creation="24/08/2018 10:52:32" size="50"/>
   </compo>
-  <compo A="Vampire Weekend" T="Modern Vampires Of The City" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Modern Vampires Of The City" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="7" creation="24/08/2018 10:52:32" size="50"/>
   </compo>
   <compo A="Mark Kozelek And Jimmy Lavelle" T="Perils From The Sea" type="ALBUM" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <compo A="Charles Bradley" T="Victim Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="17" creation="24/08/2018 10:52:32" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Reflector" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Reflector" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="18" creation="24/08/2018 10:52:32" size="50"/>
   </compo>
   <compo A="Laura Mvula" T="Sing To The Moon" type="ALBUM" mergeable="true" del="false">

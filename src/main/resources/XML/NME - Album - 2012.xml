@@ -4,7 +4,7 @@
   <compo A="Tame Impala" T="Lonerism" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Frank Ocean" T="Channel Orange" type="ALBUM" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Graham Coxon" T="A+E" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="32" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="33" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Bat For Lashes" T="The Haunted Man" type="ALBUM" mergeable="true" del="false">

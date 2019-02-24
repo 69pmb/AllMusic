@@ -7,7 +7,7 @@
   <compo A="Dr. Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="2" creation="30/08/2018 10:33:40" size="20"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="3" creation="30/08/2018 10:33:40" size="20"/>
   </compo>
   <compo A="PJ Harvey" T="Rid Of Me" type="ALBUM" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="The Afghan Whigs" T="Gentlemen" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="7" creation="30/08/2018 10:33:40" size="20"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="8" creation="30/08/2018 10:33:40" size="20"/>
   </compo>
   <compo A="Pet Shop Boys" T="Very" type="ALBUM" mergeable="true" del="false">

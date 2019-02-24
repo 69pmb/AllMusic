@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Alternative Albums Of The 1960's - 2013" publish="2013" cat="THEME" rangeB="1960" rangeE="1969" sorted="true" rank="1" creation="30/08/2018 10:32:19" size="100"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Alternative Albums Of The 1960's - 2013" publish="2013" cat="THEME" rangeB="1960" rangeE="1969" sorted="true" rank="2" creation="30/08/2018 10:32:19" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Spin" name="Spin - Alternative Albums Of The 1960's - 2013" publish="2013" cat="THEME" rangeB="1960" rangeE="1969" sorted="true" rank="3" creation="30/08/2018 10:32:19" size="100"/>
   </compo>
   <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <compo A="MC5" T="Kick Out The Jams" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Alternative Albums Of The 1960's - 2013" publish="2013" cat="THEME" rangeB="1960" rangeE="1969" sorted="true" rank="17" creation="30/08/2018 10:32:19" size="100"/>
   </compo>
-  <compo A="The Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Alternative Albums Of The 1960's - 2013" publish="2013" cat="THEME" rangeB="1960" rangeE="1969" sorted="true" rank="18" creation="30/08/2018 10:32:19" size="100"/>
   </compo>
   <compo A="Albert Ayler Trio" T="Spiritual Unity" type="ALBUM" mergeable="true" del="false">

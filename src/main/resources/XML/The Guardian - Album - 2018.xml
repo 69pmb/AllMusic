@@ -4,7 +4,7 @@
   <compo A="Christine And The Queens" T="Chris" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="19/12/2018 09:45:44" size="50"/>
   </compo>
-  <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="false">
+  <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="19/12/2018 09:45:44" size="50"/>
   </compo>
   <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" mergeable="true" del="true">
@@ -22,7 +22,7 @@
   <compo A="Kamasi Washington" T="Heaven And Earth" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="19/12/2018 09:45:44" size="50"/>
   </compo>
-  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="19/12/2018 09:45:44" size="50"/>
   </compo>
   <compo A="Low" T="Double Negative" type="ALBUM" mergeable="true" del="false">

@@ -130,10 +130,10 @@
   <compo A="Phosphorescent" T="Here's To Taking It Easy" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="8" creation="30/08/2018 17:36:47" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="7" creation="30/08/2018 17:36:47" size="50"/>
   </compo>
-  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="6" creation="30/08/2018 17:36:47" size="50"/>
   </compo>
   <compo A="Titus Andronicus" T="The Monitor" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Janelle Monae" T="The ArchAndroid" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="2" creation="30/08/2018 17:36:47" size="50"/>
   </compo>
-  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="1" creation="30/08/2018 17:36:47" size="50"/>
   </compo>
 </ListCompositions>

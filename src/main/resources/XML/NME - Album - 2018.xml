@@ -31,7 +31,7 @@
   <compo A="Christine And The Queens" T="Chris" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
-  <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="false">
+  <compo A="Robyn" T="Honey" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="11" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
   <compo A="Blood Orange" T="Negro Swan" type="ALBUM" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="Connan Mockasin" T="Jassbusters" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="64" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
-  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="65" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
   <compo A="The Breeders" T="All Nerve" type="ALBUM" mergeable="true" del="false">

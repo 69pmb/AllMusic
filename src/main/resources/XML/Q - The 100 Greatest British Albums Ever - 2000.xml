@@ -10,7 +10,7 @@
   <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="3" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="4" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="false">
@@ -34,13 +34,13 @@
   <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="11" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="12" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="13" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="14" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="Massive Attack" T="Mezzanine" type="ALBUM" mergeable="true" del="false">
@@ -52,19 +52,19 @@
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="17" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadellica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadellica" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="18" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="19" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="Kate Bush" T="Hounds Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="20" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="21" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Blur" T="Park Life" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Park Life" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="22" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="Nick Drake" T="Bryter Later" type="ALBUM" mergeable="true" del="false">
@@ -79,13 +79,13 @@
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="26" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="27" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="28" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="29" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="David Bowie" T="Scary Monsters (And Super Creeps)" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Leftfield" T="Leftism" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="34" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="35" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Chemical Brothers" T="Dig Your Own Hole" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="42" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="43" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="true">

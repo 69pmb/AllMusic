@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="1" creation="30/08/2018 10:34:41" size="20"/>
   </compo>
   <compo A="Fugees" T="The Score" type="ALBUM" mergeable="true" del="false">

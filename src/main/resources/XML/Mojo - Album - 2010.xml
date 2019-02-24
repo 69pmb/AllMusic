@@ -4,7 +4,7 @@
   <compo A="John Grant" T="Queen Of Denmark" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="1" creation="24/08/2018 10:51:43" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="2" creation="24/08/2018 10:51:43" size="50"/>
   </compo>
   <compo A="MGMT" T="Congratulations" type="ALBUM" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <compo A="M.I.A." T="Maya" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="35" creation="24/08/2018 10:51:43" size="50"/>
   </compo>
-  <compo A="Lcd Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lcd Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="36" creation="24/08/2018 10:51:43" size="50"/>
   </compo>
   <compo A="Teenage Fanclub" T="Shadows" type="ALBUM" mergeable="true" del="false">

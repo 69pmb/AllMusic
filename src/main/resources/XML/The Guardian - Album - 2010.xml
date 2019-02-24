@@ -10,7 +10,7 @@
   <compo A="Hot Chip" T="One Life Stand" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="3" creation="27/08/2018 11:18:01" size="40"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="4" creation="27/08/2018 11:18:01" size="40"/>
   </compo>
   <compo A="These New Puritans" T="Hidden" type="ALBUM" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <compo A="Beach House" T="Teen Dream" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="11" creation="27/08/2018 11:18:01" size="40"/>
   </compo>
-  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="12" creation="27/08/2018 11:18:01" size="40"/>
   </compo>
   <compo A="Gil Scott-Heron" T="I'm New Here" type="ALBUM" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <compo A="The National" T="High Violet" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="20" creation="27/08/2018 11:18:01" size="40"/>
   </compo>
-  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="21" creation="27/08/2018 11:18:01" size="40"/>
   </compo>
   <compo A="Ikonika" T="Contact, Love, Want, Have" type="ALBUM" mergeable="true" del="false">

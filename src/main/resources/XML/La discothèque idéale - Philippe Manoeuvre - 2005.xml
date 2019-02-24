@@ -13,13 +13,13 @@
   <compo A="Bob Dylan" T="Blonde on Blonde" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="4" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="5" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="6" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="7" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="The Doors" T="L.A. Woman" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="33" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="34" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="The Flamin' Groovies" T="Teenage Head" type="ALBUM" mergeable="true" del="false">
@@ -112,10 +112,10 @@
   <compo A="The Allman Brothers Band" T="At Fillmore East" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="37" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="The Who" T="Who's next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's next" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="38" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="39" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
@@ -151,7 +151,7 @@
   <compo A="Lou Reed" T="Berlin" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="50" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="51" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="David Bowie" T="Pin Ups" type="ALBUM" mergeable="true" del="false">
@@ -187,7 +187,7 @@
   <compo A="Aerosmith" T="Rocks" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="62" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="63" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
@@ -295,7 +295,7 @@
   <compo A="Air" T="Moon Safari" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="98" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="99" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Queens of the Stone Age" T="Songs for the Deaf" type="ALBUM" mergeable="true" del="false">
@@ -304,7 +304,7 @@
   <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="101" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="The Libertines" T="Up the Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up the Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="102" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
 </ListCompositions>

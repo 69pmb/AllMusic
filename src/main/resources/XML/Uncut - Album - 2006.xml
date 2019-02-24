@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="1" creation="03/09/2018 10:36:40" size="50"/>
   </compo>
   <compo A="Scritti Politti" T="White Bread, Black Beer" type="ALBUM" mergeable="true" del="false">

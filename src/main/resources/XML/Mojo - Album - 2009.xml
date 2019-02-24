@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="1" creation="24/08/2018 10:51:21" size="50"/>
   </compo>
   <compo A="Bill Callahan" T="Sometimes I Wish We Were An Eagle" type="ALBUM" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="The Low Anthem" T="Oh My God, Charlie Darwin" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="12" creation="24/08/2018 10:51:21" size="50"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="13" creation="24/08/2018 10:51:21" size="50"/>
   </compo>
   <compo A="Mayer Hawthorne" T="A Strange Arrangement" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Bat For Lashes" T="Two Suns" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="21" creation="24/08/2018 10:51:21" size="50"/>
   </compo>
-  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="false">
+  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="22" creation="24/08/2018 10:51:21" size="50"/>
   </compo>
   <compo A="Arctic Monkeys" T="Humbug" type="ALBUM" mergeable="true" del="false">

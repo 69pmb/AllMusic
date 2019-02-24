@@ -16,22 +16,22 @@
   <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="5" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="6" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="7" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="8" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
   <compo A="Weezer" T="Blue Album" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="9" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="10" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="11" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
   <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="Yo La Tengo" T="I Can Hear The Heart Beating As One" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="22" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="23" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
   <compo A="Uncle Tupelo" T="Anodyne" type="ALBUM" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <compo A="Johnny Cash" T="American Recordings" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="38" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="39" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
   <compo A="Billy Bragg And Wilco" T="Mermaid Avenue" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="The Beta Band" T="The Three EPs" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="56" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="57" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
   <compo A="Sunny Day Real Estate" T="Diary" type="ALBUM" mergeable="true" del="false">
@@ -190,7 +190,7 @@
   <compo A="The Jayhawks" T="Hollywood Town Hall" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="63" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 90 Best Albums of the 90s - 2012" publish="2012" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="64" creation="31/08/2018 09:44:54" size="90"/>
   </compo>
   <compo A="Massive Attack" T="Mezzanine" type="ALBUM" mergeable="true" del="false">

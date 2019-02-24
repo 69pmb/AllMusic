@@ -25,7 +25,7 @@
   <compo A="The White Stripes" T="Icky Thump" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="8" creation="03/09/2018 10:37:21" size="50"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="9" creation="03/09/2018 10:37:21" size="50"/>
   </compo>
   <compo A="Klaxons" T="Myths Of The Near Future" type="ALBUM" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="Neil Young" T="Chrome Dreams II" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="13" creation="03/09/2018 10:37:21" size="50"/>
   </compo>
-  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="14" creation="03/09/2018 10:37:21" size="50"/>
   </compo>
   <compo A="Panda Bear" T="Person Pitch" type="ALBUM" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <compo A="Bruce Springsteen" T="Magic" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="20" creation="03/09/2018 10:37:21" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="21" creation="03/09/2018 10:37:21" size="50"/>
   </compo>
   <compo A="Babyshambles" T="Shotters Nation" type="ALBUM" mergeable="true" del="false">

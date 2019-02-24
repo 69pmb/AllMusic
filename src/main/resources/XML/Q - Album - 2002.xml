@@ -73,7 +73,7 @@
   <compo A="Idlewild" T="The Remote Part" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="24" creation="28/08/2018 11:40:00" size="40"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="false" rank="25" creation="28/08/2018 11:40:00" size="40"/>
   </compo>
   <compo A="Nickleback" T="Silver Side Up" type="ALBUM" mergeable="true" del="false">

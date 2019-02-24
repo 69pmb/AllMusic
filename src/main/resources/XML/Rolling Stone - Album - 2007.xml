@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Bruce Springsteen" T="Magic" type="ALBUM" mergeable="true" del="false">
@@ -10,13 +10,13 @@
   <compo A="Jay-Z" T="American Gangster" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="4" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Kanye West" T="Graduation" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="LCD Soundsystem" T="Sound Of Silver" type="ALBUM" mergeable="true" del="false">

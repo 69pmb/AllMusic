@@ -28,7 +28,7 @@
   <compo A="Rush" T="2112" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="9" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="10" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
   <compo A="Jethro Tull" T="Thick As A Brick" type="ALBUM" mergeable="true" del="false">

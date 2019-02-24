@@ -130,7 +130,7 @@
   <compo A="The Weeknd" T="House Of Balloons" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="8" creation="27/08/2018 11:12:28" size="50"/>
   </compo>
-  <compo A="Metronomy" T="The English Riviera" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metronomy" T="The English Riviera" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="7" creation="27/08/2018 11:12:28" size="50"/>
   </compo>
   <compo A="James Blake" T="James Blake" type="ALBUM" mergeable="true" del="false">

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="11/09/2018 17:16:40" size="100"/>
   </compo>
   <compo A="La Femme" T="Psycho Tropical Berlin" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="2" creation="11/09/2018 17:16:40" size="100"/>
   </compo>
-  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="3" creation="11/09/2018 17:16:40" size="100"/>
   </compo>
   <compo A="Nick Cave And The Bad Seeds" T="Push The Sky Away" type="ALBUM" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="Gesaffelstein" T="Aleph" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="28" creation="11/09/2018 17:16:40" size="100"/>
   </compo>
-  <compo A="Vampire Weekend" T="Modern Vampires Of The City" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Modern Vampires Of The City" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="29" creation="11/09/2018 17:16:40" size="100"/>
   </compo>
   <compo A="The Strokes" T="Comedown Machine" type="ALBUM" mergeable="true" del="false">

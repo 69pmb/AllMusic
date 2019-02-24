@@ -13,16 +13,16 @@
   <compo A="Neutral Milk Hotel" T="In the Aeroplane Over the Sea" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="4" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="5" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="6" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="7" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="8" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Kanye West" T="My Beautiful Dark Twisted Fantasy" type="ALBUM" mergeable="true" del="false">
@@ -34,19 +34,19 @@
   <compo A="LCD Soundsystem" T="Sound of Silver" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="11" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Interpol" T="Turn On the Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On the Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="12" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="13" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="14" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="false">
+  <compo A="The xx" T="The xx" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="15" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="16" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Modest Mouse" T="The Moon And Antarctica" type="ALBUM" mergeable="true" del="false">
@@ -64,10 +64,10 @@
   <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="21" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="22" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="23" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="The National" T="Boxer" type="ALBUM" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Daft Punk" T="Discovery" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="26" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="27" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Bon Iver" T="Bon Iver, Bon Iver" type="ALBUM" mergeable="true" del="true">
@@ -88,7 +88,7 @@
   <compo A="DJ Shadow" T="...Endtroducing" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="29" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="30" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <compo A="Modest Mouse" T="The Lonesome Crowded West" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="33" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="34" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="OutKast" T="Stankonia" type="ALBUM" mergeable="true" del="false">
@@ -112,10 +112,10 @@
   <compo A="Elliott Smith" T="Either/Or" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="37" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="38" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="39" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Radiohead" T="Hail to the Thief" type="ALBUM" mergeable="true" del="true">
@@ -196,7 +196,7 @@
   <compo A="M83" T="Hurry Up, We're Dreaming" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="65" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="66" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Animal Collective" T="Feels" type="ALBUM" mergeable="true" del="false">
@@ -226,7 +226,7 @@
   <compo A="Animal Collective" T="Sung Tongs" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="75" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="The Strokes" T="Room on Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Room on Fire" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="76" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Wilco" T="Summerteeth" type="ALBUM" mergeable="true" del="false">
@@ -292,7 +292,7 @@
   <compo A="Spoon" T="Ga Ga Ga Ga Ga" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="97" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="98" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Girls" T="Album" type="ALBUM" mergeable="true" del="false">
@@ -373,7 +373,7 @@
   <compo A="Elliott Smith" T="Figure 8" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="124" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="PJ Harvey" T="Stories From the City, Stories From the Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Stories From the City, Stories From the Sea" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="125" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Clap Your Hands Say Yeah" T="Clap Your Hands Say Yeah" type="ALBUM" mergeable="true" del="false">
@@ -391,7 +391,7 @@
   <compo A="Band of Horses" T="Everything All the Time" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="130" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="131" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="Japandroids" T="Post-Nothing" type="ALBUM" mergeable="true" del="false">
@@ -520,7 +520,7 @@
   <compo A="Ghostface Killah" T="Supreme Clientele" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="173" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
-  <compo A="The Libertines" T="Up the Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up the Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="174" creation="25/07/2018 14:35:40" size="200"/>
   </compo>
   <compo A="The Tallest Man on Earth" T="The Wild Hunt" type="ALBUM" mergeable="true" del="false">

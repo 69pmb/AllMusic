@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Vampire Weekend" T="Modern Vampires of the City" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Modern Vampires of the City" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Kanye West" T="Yeezus" type="ALBUM" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <compo A="Deafheaven" T="Sunbather" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="6" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="7" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Majical Cloudz" T="Impersonator" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="Savages" T="Silence Yourself" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="9" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="10" creation="27/07/2017 13:27:28" size="50"/>
   </compo>
   <compo A="Darkside" T="Psychic" type="ALBUM" mergeable="true" del="false">

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="1" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="2" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="3" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="The Go-Betweens" T="16 Lovers Lane" type="ALBUM" mergeable="true" del="false">
@@ -43,10 +43,10 @@
   <compo A="The Divine Comedy" T="Liberation" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="14" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="The Smiths" T="Strangeways, Here We Come" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="Strangeways, Here We Come" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="15" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="16" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="The La's" T="The La's" type="ALBUM" mergeable="true" del="false">
@@ -232,10 +232,10 @@
   <compo A="REM" T="Green" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="77" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="78" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="79" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="Bats" T="Daddy's Highway" type="ALBUM" mergeable="true" del="false">

@@ -67,7 +67,7 @@
   <compo A="Field Music" T="Open Here" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="22" creation="17/12/2018 16:03:59" size="75"/>
   </compo>
-  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="23" creation="17/12/2018 16:03:59" size="75"/>
   </compo>
   <compo A="Oh Sees" T="Smote Reverser" type="ALBUM" mergeable="true" del="false">

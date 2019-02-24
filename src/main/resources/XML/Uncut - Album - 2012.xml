@@ -49,7 +49,7 @@
   <compo A="The Ty Segall Band" T="Slaughterhouse" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="03/09/2018 10:39:01" size="75"/>
   </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="17" creation="03/09/2018 10:39:01" size="75"/>
   </compo>
   <compo A="Sharon Vanetten" T="Tramp" type="ALBUM" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <compo A="Ry Cooder" T="Election Special" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="30" creation="03/09/2018 10:39:01" size="75"/>
   </compo>
-  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="31" creation="03/09/2018 10:39:01" size="75"/>
   </compo>
   <compo A="Richard Hawley" T="Standing At The Sky's Edge" type="ALBUM" mergeable="true" del="false">

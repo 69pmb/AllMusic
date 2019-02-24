@@ -4,7 +4,7 @@
   <compo A="Dusty Springfield" T="Everything's Coming Up Dusty" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="1" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="2" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Fairport Convention" T="Liege And Lief" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="7" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="8" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Who" T="Tommy" type="ALBUM" mergeable="true" del="false">
@@ -55,10 +55,10 @@
   <compo A="Specials" T="Specials" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="18" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="19" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="20" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Dexys Midnight Runners" T="Searching For The Young Soul Rebels" type="ALBUM" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Kate Bush" T="Hounds Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="25" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="26" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Pet Shop Boys" T="Actually" type="ALBUM" mergeable="true" del="false">
@@ -97,10 +97,10 @@
   <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="32" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="33" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="34" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
@@ -121,13 +121,13 @@
   <compo A="Verve" T="Urban Hymns" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="40" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="41" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Coldplay" T="A Rush Of Blood Tthe Head" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="42" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="43" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
   <compo A="Dizzee Rascal" T="Boy In Da Corner" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Amy Winehouse" T="Back To Black" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="49" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Years of Great British Music - Album - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="false" rank="50" creation="28/08/2018 14:36:53" size="50"/>
   </compo>
 </ListCompositions>

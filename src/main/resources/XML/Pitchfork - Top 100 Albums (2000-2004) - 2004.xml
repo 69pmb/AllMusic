@@ -4,10 +4,10 @@
   <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="1" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="2" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="3" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
   <compo A="OutKast" T="Stankonia" type="ALBUM" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Modest Mouse" T="The Moon And Antarctica" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="7" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="8" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
   <compo A="Animal Collective" T="Sung Tongs" type="ALBUM" mergeable="true" del="false">
@@ -31,7 +31,7 @@
   <compo A="The Streets" T="Original Pirate Material" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="10" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="11" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
   <compo A="Daft Punk" T="Discovery" type="ALBUM" mergeable="true" del="false">
@@ -46,7 +46,7 @@
   <compo A="Dizzee Rascal" T="Boy in da Corner" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="15" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="16" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
   <compo A="Boredoms" T="Vision Creation Newsun" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Lightning Bolt" T="Wonderful Rainbow" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="49" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="50" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
   <compo A="Prefuse 73" T="One Word Extinguisher" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Eminem" T="The Marshall Mathers LP" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="93" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 100 Albums (2000-2004) - 2004" publish="2004" cat="MISCELLANEOUS" rangeB="2000" rangeE="2004" sorted="true" rank="94" creation="26/07/2018 12:31:01" size="100"/>
   </compo>
   <compo A="Unwound" T="Leaves Turn Inside You" type="ALBUM" mergeable="true" del="false">

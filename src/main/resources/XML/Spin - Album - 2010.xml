@@ -7,10 +7,10 @@
   <compo A="Deerhunter" T="Halcyon Digest" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="2" creation="30/08/2018 11:01:29" size="40"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="3" creation="30/08/2018 11:01:29" size="40"/>
   </compo>
-  <compo A="Lcd Soundsystem" T="This Is Happenin" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lcd Soundsystem" T="This Is Happenin" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="4" creation="30/08/2018 11:01:29" size="40"/>
   </compo>
   <compo A="Jamey Johnson" T="The Guitar Song" type="ALBUM" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="Neil Young" T="Le Noise" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="28" creation="30/08/2018 11:01:29" size="40"/>
   </compo>
-  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="29" creation="30/08/2018 11:01:29" size="40"/>
   </compo>
   <compo A="The Black Keys" T="Brothers" type="ALBUM" mergeable="true" del="false">

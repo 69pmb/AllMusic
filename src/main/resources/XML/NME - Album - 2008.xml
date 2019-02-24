@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="1" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
@@ -10,7 +10,7 @@
   <compo A="Glasvegas" T="Glasvegas" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="3" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Foals" T="Antidotes" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Chairlift" T="Does You Inspire You" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="39" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="The Kills" T="Midnight Boom" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Kills" T="Midnight Boom" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="40" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="The New Puritans" T="Beat Pyramid" type="ALBUM" mergeable="true" del="false">

@@ -439,7 +439,7 @@
   <compo A="Slint" T="Good Morning, Captain" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="146" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="false">
+  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="147" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="RJD2" T="Good Times Roll Pt. 2" type="SONG" mergeable="true" del="false">
@@ -1381,7 +1381,7 @@
   <compo A="The Fall" T="Totally Wired" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="460" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Mudhoney" T="Touch Me I'm Sick" type="SONG" mergeable="true" del="false">
+  <compo A="Mudhoney" T="Touch Me I'm Sick" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="461" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="The Jam" T="Town Called Malice" type="SONG" mergeable="true" del="false">

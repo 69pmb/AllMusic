@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
   <compo A="The Police" T="Synchronicity" type="ALBUM" mergeable="true" del="false">

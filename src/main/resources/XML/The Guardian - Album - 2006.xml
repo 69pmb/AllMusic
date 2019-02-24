@@ -49,7 +49,7 @@
   <compo A="Tom Waits" T="Orphans" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="16" creation="27/08/2018 11:34:48" size="50"/>
   </compo>
-  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="17" creation="27/08/2018 11:34:48" size="50"/>
   </compo>
   <compo A="Midlake" T="The Trials Of Von Occupanther" type="ALBUM" mergeable="true" del="false">

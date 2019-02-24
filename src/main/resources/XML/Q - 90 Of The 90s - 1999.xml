@@ -40,13 +40,13 @@
   <compo A="Cypress Hill" T="Cypress Hill" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="13" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="14" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="15" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadellca" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadellca" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="16" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
   <compo A="Red Hot Chilli Peppers" T="Blood Sugar Sex Magik" type="ALBUM" mergeable="true" del="true">
@@ -88,7 +88,7 @@
   <compo A="Neil Young" T="Harvest Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="29" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="30" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
   <compo A="The Boo Radleys" T="Giant Steps" type="ALBUM" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Orbital" T="Orbital(&quot;the Green Album&quot;)" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="36" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="37" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
   <compo A="Suede" T="Suede" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Paul Weller" T="Wild Wood" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="39" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="40" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
   <compo A="Beastie Boys" T="Ill Communication" type="ALBUM" mergeable="true" del="false">
@@ -163,7 +163,7 @@
   <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="54" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="55" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
   <compo A="Teenage Fanclub" T="Grand Prix" type="ALBUM" mergeable="true" del="false">
@@ -184,7 +184,7 @@
   <compo A="Ash" T="1977" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="61" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 90 Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="62" creation="27/08/2018 17:39:20" size="90"/>
   </compo>
   <compo A="Sheryl Crow" T="Sheryl Crow" type="ALBUM" mergeable="true" del="false">

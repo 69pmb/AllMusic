@@ -28,7 +28,7 @@
   <compo A="Coldplay" T="Viva La Vida" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="9" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="10" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
   <compo A="Elbow" T="Seldom Seen Kid" type="ALBUM" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="No Age" T="Nouns" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="13" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="14" creation="30/08/2018 11:00:39" size="40"/>
   </compo>
   <compo A="Beck" T="Modern Guilt" type="ALBUM" mergeable="true" del="false">

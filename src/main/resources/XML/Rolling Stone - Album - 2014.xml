@@ -67,7 +67,7 @@
   <compo A="Skrillex" T="Recess" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="The War on Drugs" T="Lost in the Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="The War on Drugs" T="Lost in the Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="23" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Leonard Cohen" T="Popular Problems" type="ALBUM" mergeable="true" del="false">

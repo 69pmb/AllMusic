@@ -10,13 +10,13 @@
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="3" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="4" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
   <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="5" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="6" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="Kraftwerk" T="Autobahn" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="9" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="10" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
   <compo A="Various Artists" T="Saturday Night Fever" type="ALBUM" mergeable="true" del="false">
@@ -37,10 +37,10 @@
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="12" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="13" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="14" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
   <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <compo A="Radiohead" T="Ok Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="20" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 21 Albums That Changed Music - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="true" rank="21" creation="28/08/2018 12:08:11" size="21"/>
   </compo>
 </ListCompositions>

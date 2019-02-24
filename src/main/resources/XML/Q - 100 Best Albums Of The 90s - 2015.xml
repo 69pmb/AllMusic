@@ -7,7 +7,7 @@
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="2" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="3" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
@@ -73,7 +73,7 @@
   <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="24" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="25" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="A Tribe Called Quest" T="The Low End Thory" type="ALBUM" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <compo A="Super Furry Animals" T="Fuzzy Logic" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="30" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="31" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Lauryn Hill" T="The Miseducation Of Lauryn Hill" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Madonna" T="Ray Of Light" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="34" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="35" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Beta Band" T="The Three E.P's" type="ALBUM" mergeable="true" del="false">
@@ -139,10 +139,10 @@
   <compo A="The Verve" T="A Northern Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="46" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="47" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="48" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Nas" T="Illmatic" type="ALBUM" mergeable="true" del="false">
@@ -163,7 +163,7 @@
   <compo A="Orbital" T="Orbital(&quot;the Green Album&quot;)" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="54" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="55" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Weezer" T="Blue Album" type="ALBUM" mergeable="true" del="false">
@@ -199,7 +199,7 @@
   <compo A="The Breeders" T="Last Splash" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="66" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Best Albums Of The 90s - 2015" publish="2015" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="67" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Afghan Whigs" T="Gentlemen" type="ALBUM" mergeable="true" del="false">

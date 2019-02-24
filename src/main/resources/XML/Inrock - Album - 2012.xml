@@ -238,7 +238,7 @@
   <compo A="Lou Doillon" T="Places" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="21" creation="11/09/2018 17:56:32" size="99"/>
   </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="11/09/2018 17:56:32" size="99"/>
   </compo>
   <compo A="Electric Guest" T="Mondo" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Lana Del Rey" T="Born To Die" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="11/09/2018 17:56:32" size="99"/>
   </compo>
-  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="11/09/2018 17:56:32" size="99"/>
   </compo>
   <compo A="Django Django" T="Django Django" type="ALBUM" mergeable="true" del="false">

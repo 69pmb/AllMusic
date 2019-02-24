@@ -16,16 +16,16 @@
   <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="15" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="16" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="17" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="18" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="20" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
   <compo A="Iggy And The Stooges" T="Raw Power" type="ALBUM" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="Roxy Music" T="Roxy Music" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="41" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="42" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
@@ -73,13 +73,13 @@
   <compo A="Big Star" T="#1 Record" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="50" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="51" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="52" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="54" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="69" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="72" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
   <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="MC5" T="Kick Out The Jams" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="84" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="87" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
   <compo A="Stone Roses" T="Stone Roses" type="ALBUM" mergeable="true" del="false">
@@ -139,19 +139,19 @@
   <compo A="Sly And The Family Stone" T="There's A Riot Goin' On" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="93" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="95" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
   <compo A="Elvis Costello" T="Imperial Bedroom" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="96" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="97" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
   <compo A="Associates" T="Sulk" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="98" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Rock &amp; Movie Icons - Albums - 2005" publish="2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="100" creation="03/09/2018 10:22:05" size="100"/>
   </compo>
 </ListCompositions>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="1" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">
@@ -13,7 +13,7 @@
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="4" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="5" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
@@ -22,7 +22,7 @@
   <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="7" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="8" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
@@ -55,7 +55,7 @@
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="18" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="19" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Buddy Holly" T="Legend" type="ALBUM" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="27" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="28" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
@@ -91,7 +91,7 @@
   <compo A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="30" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="31" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Who" T="Tommy" type="ALBUM" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="42" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="43" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Paul Simon" T="There Goes Rhymin' Simon" type="ALBUM" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <compo A="Peter Framton" T="Framton Comes Alive!" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="49" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="50" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Blood, Sweat And Tears" T="Blood, Sweat And Tears" type="ALBUM" mergeable="true" del="false">
@@ -202,7 +202,7 @@
   <compo A="Sly And The Family Stone" T="Stand!" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="67" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="68" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Who" T="Sell Out" type="ALBUM" mergeable="true" del="false">
@@ -334,7 +334,7 @@
   <compo A="B.B. King" T="Live At The Regal" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="111" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="112" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Dory Previn" T="Live At Carnegie Hall" type="ALBUM" mergeable="true" del="false">
@@ -361,7 +361,7 @@
   <compo A="John Lennon" T="Plastic Ono Band" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="120" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="121" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
@@ -373,7 +373,7 @@
   <compo A="Eric Clapton" T="461 Ocean Boulevard" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="124" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Velvet Underground" T="White Light / White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="White Light / White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="125" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Bob Marley" T="Catch A Fire" type="ALBUM" mergeable="true" del="false">
@@ -436,7 +436,7 @@
   <compo A="Joe Cocker" T="Joe Cocker" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="145" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="146" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Chicago" T="Live At Carnegie Hall" type="ALBUM" mergeable="true" del="false">
@@ -595,7 +595,7 @@
   <compo A="Temptations" T="The Temptations Greatest Hits" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="198" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="199" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Richie Havens" T="Mixed Bag" type="ALBUM" mergeable="true" del="false">

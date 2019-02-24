@@ -7,7 +7,7 @@
   <compo A="Baby Bird" T="I Was Born A Man, Bad Shave And Fatherhood" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="2" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="3" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
   <compo A="Blur" T="The Great Escape" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="19" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="20" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
   <compo A="Ron Sexmith" T="Ron Sexmith" type="ALBUM" mergeable="true" del="false">

@@ -37,7 +37,7 @@
   <compo A="Lily Allen And Giggs" T="Trigger Bang" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="39" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="Peggy Gou" T="It Makes You Forget (Itgehane)" type="SONG" mergeable="true" del="false">
+  <compo A="Peggy Gou" T="It Makes You Forget (Itgehane)" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="38" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
   <compo A="Grimes" T="We Appreciate Power" type="SONG" mergeable="true" del="false">
@@ -64,10 +64,10 @@
   <compo A="Arctic Monkeys" T="Tranquility Base Hotel And Casino" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="Ariana Grande" T="Thank U, Next" type="SONG" mergeable="true" del="false">
+  <compo A="Ariana Grande" T="Thank U, Next" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="29" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="Travis Scott" T="Sicko Mode" type="SONG" mergeable="true" del="false">
+  <compo A="Travis Scott" T="Sicko Mode" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="28" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
   <compo A="Brockhampton" T="1998 Truman" type="SONG" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Mitski" T="Nobody" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="19" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="IDLES" T="Danny Nedelko" type="SONG" mergeable="true" del="false">
+  <compo A="IDLES" T="Danny Nedelko" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="18" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
   <compo A="Bring Me The Horizon" T="MANTRA" type="SONG" mergeable="true" del="false">
@@ -106,13 +106,13 @@
   <compo A="Pusha T" T="If You Know You Know" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="16" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="Rolling Blackouts Coastal Fever" T="Talking Straight" type="SONG" mergeable="true" del="false">
+  <compo A="Rolling Blackouts Coastal Fever" T="Talking Straight" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="15" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
   <compo A="Anderson .Paak And Kendrick Lamar" T="Tints" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="Kacey Musgraves" T="High Horse" type="SONG" mergeable="true" del="false">
+  <compo A="Kacey Musgraves" T="High Horse" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="13" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
   <compo A="Cardi B" T="I Like It" type="SONG" mergeable="true" del="false">
@@ -121,19 +121,19 @@
   <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="11" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="SOPHIE" T="Immaterial" type="SONG" mergeable="true" del="false">
+  <compo A="SOPHIE" T="Immaterial" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
   <compo A="Christine And The Queens" T="Girlfriend" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="Robyn" T="Missing U" type="SONG" mergeable="true" del="false">
+  <compo A="Robyn" T="Missing U" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
   <compo A="IDLES" T="Never Fight A Man With A Perm" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="Sunflower Bean" T="Twentytwo" type="SONG" mergeable="true" del="false">
+  <compo A="Sunflower Bean" T="Twentytwo" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
   <compo A="Childish Gambino" T="This Is America" type="SONG" mergeable="true" del="true">
@@ -148,7 +148,7 @@
   <compo A="The 1975" T="Love It If We Made It" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
-  <compo A="Ariana Grande" T="No Tears Left To Cry" type="SONG" mergeable="true" del="false">
+  <compo A="Ariana Grande" T="No Tears Left To Cry" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="18/12/2018 09:47:09" size="50"/>
   </compo>
 </ListCompositions>

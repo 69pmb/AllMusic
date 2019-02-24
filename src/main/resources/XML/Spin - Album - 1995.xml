@@ -37,7 +37,7 @@
   <compo A="Buju Banton" T="'Til Shiloh" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="12" creation="30/08/2018 10:34:18" size="20"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="13" creation="30/08/2018 10:34:18" size="20"/>
   </compo>
   <compo A="Raekwon" T="Only Built 4 Cuban Linx..." type="ALBUM" mergeable="true" del="false">

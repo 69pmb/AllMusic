@@ -4,7 +4,7 @@
   <compo A="Velvet Underground" T="And Nico" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="1" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="2" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
@@ -19,22 +19,22 @@
   <compo A="Clash" T="Clash" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="6" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="7" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="8" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Roxy Music" T="Roxy Music" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="9" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="10" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="11" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="12" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Byrds" T="Mr Tambourine Man" type="ALBUM" mergeable="true" del="false">
@@ -46,10 +46,10 @@
   <compo A="Rolling Stones" T="Rolling Stones" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="15" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="16" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="17" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
@@ -64,7 +64,7 @@
   <compo A="Smiths" T="Smiths" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="21" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="22" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Flying Burrito Brothers" T="Gilded Palace Of Sin" type="ALBUM" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="My Bloody Valentine" T="Isn't Anything" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="27" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="28" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Nick Drake" T="Five Leaves Left" type="ALBUM" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="30" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="31" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="MC5" T="Kick Out The Jams" type="ALBUM" mergeable="true" del="false">
@@ -145,7 +145,7 @@
   <compo A="Pretenders" T="Pretenders" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="48" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Talking Heads" T="Talking Heads: 77" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Talking Heads: 77" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="49" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
@@ -214,10 +214,10 @@
   <compo A="Scritti Politti" T="Songs To Remember" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="71" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="72" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="73" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Kate Bush" T="Kick Inside" type="ALBUM" mergeable="true" del="false">
@@ -232,7 +232,7 @@
   <compo A="Eminem" T="Slim Shady LP" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="77" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
-  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - 100 Greatest Debut Albums - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="78" creation="03/09/2018 10:25:12" size="100"/>
   </compo>
   <compo A="Jackson Browne" T="Jackson Browne (Saturate Before Using)" type="ALBUM" mergeable="true" del="false">

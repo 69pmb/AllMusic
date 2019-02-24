@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="false" rank="1" creation="03/09/2018 10:35:03" size="70"/>
   </compo>
   <compo A="Shack" T="Hms Fable" type="ALBUM" mergeable="true" del="false">

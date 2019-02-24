@@ -121,7 +121,7 @@
   <compo A="Angelo Badalmenti" T="Soundtrack From Twin Peaks" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="40" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="41" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Anne Briggs" T="Anne Briggs" type="ALBUM" mergeable="true" del="false">
@@ -229,7 +229,7 @@
   <compo A="Beastie Boys" T="Licensed To Ill" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="76" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="77" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Beat Happening" T="Black Candy" type="ALBUM" mergeable="true" del="false">
@@ -244,7 +244,7 @@
   <compo A="Beck" T="Morning Phase" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="81" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="82" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Beck" T="Sea Changes" type="ALBUM" mergeable="true" del="false">
@@ -334,7 +334,7 @@
   <compo A="Bjork" T="Homogenic" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="111" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="112" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Bjork" T="Vespertine" type="ALBUM" mergeable="true" del="false">
@@ -406,10 +406,10 @@
   <compo A="Blur" T="Leisure" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="135" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="136" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="137" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Blur" T="The Great Escape" type="ALBUM" mergeable="true" del="false">
@@ -472,7 +472,7 @@
   <compo A="Bob Dylan" T="Love And Theft" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="157" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="158" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Bob Dylan" T="Nashville Skyline" type="ALBUM" mergeable="true" del="false">
@@ -508,7 +508,7 @@
   <compo A="Bob Dylan" T="The Freewheelin' Bob Dylan" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="169" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Bob Dylan" T="The Times They Are A Changin'" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="The Times They Are A Changin'" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="170" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Bob Dylan" T="Time Out Of Mind" type="ALBUM" mergeable="true" del="false">
@@ -838,7 +838,7 @@
   <compo A="Counting Crows" T="August And Everything" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="279" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Courtney Barnett" T="Sometimes I Sit And Think, And Sometimes I Just Sit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Courtney Barnett" T="Sometimes I Sit And Think, And Sometimes I Just Sit" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="280" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Courtney Barnett And Kurt Vile" T="Lotta Sea Lice" type="ALBUM" mergeable="true" del="false">
@@ -958,7 +958,7 @@
   <compo A="David Bowie" T="Lodger" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="319" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="320" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="David Bowie" T="Never Let Me Down" type="ALBUM" mergeable="true" del="false">
@@ -1219,7 +1219,7 @@
   <compo A="Elton John" T="Honky Chateau" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="406" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="407" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Elvis Costello" T="This Year's Model" type="ALBUM" mergeable="true" del="false">
@@ -1342,7 +1342,7 @@
   <compo A="Fleetwood Mac" T="Mr Wonderful" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="447" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="448" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Fleetwood Mac" T="Tango In The Night" type="ALBUM" mergeable="true" del="false">
@@ -1585,7 +1585,7 @@
   <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="528" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="529" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Grizzly Bear" T="Yellow House" type="ALBUM" mergeable="true" del="false">
@@ -1633,7 +1633,7 @@
   <compo A="Hiss Golden Messenger" T="Lateness Of Dancers" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="544" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="545" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Hole" T="Pretty On The Inside" type="ALBUM" mergeable="true" del="false">
@@ -1696,7 +1696,7 @@
   <compo A="International Submarine Band" T="Safe At Home" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="565" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="566" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Iron And Wine" T="The Creek Drank The Cradle" type="ALBUM" mergeable="true" del="false">
@@ -1939,7 +1939,7 @@
   <compo A="John Lee Hooker" T="That's My Story" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="646" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="647" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="John Martyn" T="Grace And Danger" type="ALBUM" mergeable="true" del="false">
@@ -2011,7 +2011,7 @@
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="670" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="671" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Judee Sill" T="Heart Food" type="ALBUM" mergeable="true" del="false">
@@ -2041,7 +2041,7 @@
   <compo A="Kano" T="Made In The Manor" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="680" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="681" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Karen Dalton" T="It's Hard To Tell Who's Going To Love You.." type="ALBUM" mergeable="true" del="false">
@@ -2080,7 +2080,7 @@
   <compo A="Kendrick Lamar" T="Section 80" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="693" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Kendrick Lamar" T="To Pimp A Butterfly" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="To Pimp A Butterfly" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="694" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Kendrick Lamar" T="Untitled Unmastered" type="ALBUM" mergeable="true" del="false">
@@ -2194,7 +2194,7 @@
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="731" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="732" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
@@ -2308,7 +2308,7 @@
   <compo A="Lou Reed" T="Street Hassle" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="769" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="770" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Love" T="Da Capo" type="ALBUM" mergeable="true" del="false">
@@ -2434,7 +2434,7 @@
   <compo A="Metallica" T="Kill 'Em All" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="811" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="812" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Metallica" T="Metallica" type="ALBUM" mergeable="true" del="false">
@@ -2446,7 +2446,7 @@
   <compo A="Method Man" T="Tical" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="815" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="816" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="MIA" T="Arular" type="ALBUM" mergeable="true" del="false">
@@ -2467,7 +2467,7 @@
   <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="822" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="823" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Michael Rother" T="Flammende Herzen" type="ALBUM" mergeable="true" del="false">
@@ -2614,7 +2614,7 @@
   <compo A="My Bloody Valentine" T="Isn't Anything" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="871" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="872" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="My Morning Jacket" T="It Still Moves" type="ALBUM" mergeable="true" del="false">
@@ -2716,7 +2716,7 @@
   <compo A="New Order" T="Technique" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="905" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="906" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Nic Jones" T="Penguin Eggs" type="ALBUM" mergeable="true" del="false">
@@ -2800,7 +2800,7 @@
   <compo A="Nirvana" T="Bleach" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="933" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="934" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Nirvana" T="Insecticide" type="ALBUM" mergeable="true" del="false">
@@ -2950,7 +2950,7 @@
   <compo A="Pavement" T="Crooked Rain Crooked Rain" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="983" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="984" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Pavement" T="Terror Twilight" type="ALBUM" mergeable="true" del="false">
@@ -3040,13 +3040,13 @@
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1013" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1014" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Pink Floyd" T="Ummagumma" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1015" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1016" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
@@ -3055,7 +3055,7 @@
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1018" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1019" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="PJ Harvey" T="Dry" type="ALBUM" mergeable="true" del="false">
@@ -3070,7 +3070,7 @@
   <compo A="PJ Harvey" T="Rid Of Me" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1023" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1024" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="PJ Harvey" T="To Bring You My Love" type="ALBUM" mergeable="true" del="false">
@@ -3124,7 +3124,7 @@
   <compo A="Primal Scream" T="Primal Scream" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1041" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1042" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Primal Scream" T="Vanishing Point" type="ALBUM" mergeable="true" del="false">
@@ -3223,7 +3223,7 @@
   <compo A="R.E.M." T="Lifes Rich Pageant" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1074" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1075" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="R.E.M." T="Reckoning" type="ALBUM" mergeable="true" del="true">
@@ -3241,7 +3241,7 @@
   <compo A="Radiohead" T="I Might Be Wrong" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1080" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1081" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
@@ -3253,7 +3253,7 @@
   <compo A="Radiohead" T="Pablo Honey" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1084" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1085" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Radiohead" T="The King Of Limbs" type="ALBUM" mergeable="true" del="false">
@@ -3610,7 +3610,7 @@
   <compo A="Smashing Pumpkins" T="Mellon Collie And The Infinite Sadness" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1203" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1204" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Smog" T="A River Ain't Too Much In Love" type="ALBUM" mergeable="true" del="false">
@@ -3832,10 +3832,10 @@
   <compo A="Talking Heads" T="More Songs About Buildings And Food" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1277" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1278" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Talking Heads" T="Talking Heads '77" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Talking Heads '77" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1279" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Talking Heads" T="Speaking In Tongues" type="ALBUM" mergeable="true" del="false">
@@ -3865,7 +3865,7 @@
   <compo A="Television" T="Adventure" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1288" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1289" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Television Personalities" T="...And Don't The Kids Just Love It" type="ALBUM" mergeable="true" del="false">
@@ -3958,7 +3958,7 @@
   <compo A="The Beach Boys" T="The Smile Sessions" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1319" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Beach Boys" T="The Beach Boys Today!" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach Boys" T="The Beach Boys Today!" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1320" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Beach Boys" T="Wild Honey" type="ALBUM" mergeable="true" del="false">
@@ -3976,28 +3976,28 @@
   <compo A="The Beatles" T="Help!" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1325" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Beatles" T="Let It Be" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Let It Be" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1326" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Beatles" T="Magical Mystery Tour" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1327" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1328" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1329" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1330" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Beatles" T="Sgt. Pepper's Lonely Heart Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt. Pepper's Lonely Heart Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1331" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1332" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1333" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Beta Band" T="The Three Ep's" type="ALBUM" mergeable="true" del="false">
@@ -4060,7 +4060,7 @@
   <compo A="The Clash" T="Combat Rock" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1353" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1354" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Clash" T="Sandinista!" type="ALBUM" mergeable="true" del="false">
@@ -4141,7 +4141,7 @@
   <compo A="The Doors" T="Strange Days" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1380" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1381" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Doors" T="The Soft Parade" type="ALBUM" mergeable="true" del="false">
@@ -4204,7 +4204,7 @@
   <compo A="The Feminine Complex" T="Livin' Love" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1401" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1402" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Flaming Lips" T="Yoshimi Battles The Pink Robots" type="ALBUM" mergeable="true" del="false">
@@ -4348,7 +4348,7 @@
   <compo A="The Lemonheads" T="Lick" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1449" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1450" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Louvin Brothers" T="Satan Is Real" type="ALBUM" mergeable="true" del="false">
@@ -4477,7 +4477,7 @@
   <compo A="The Raincoats" T="The Raincoats" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1492" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1493" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Replacements" T="Don't Tell A Soul" type="ALBUM" mergeable="true" del="false">
@@ -4519,7 +4519,7 @@
   <compo A="The Rolling Stones" T="It's Only Rock 'N' Roll" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1506" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1507" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Rolling Stones" T="Out Of Our Heads" type="ALBUM" mergeable="true" del="false">
@@ -4528,7 +4528,7 @@
   <compo A="The Rolling Stones" T="Some Girls" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1509" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1510" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Rolling Stones" T="Tattoo You" type="ALBUM" mergeable="true" del="false">
@@ -4576,13 +4576,13 @@
   <compo A="The Smiths" T="Meat Is Murder" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1525" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Smiths" T="Strangeways Here We Come" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="Strangeways Here We Come" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1526" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1527" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1528" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Smiths" T="The World Won't Listen" type="ALBUM" mergeable="true" del="false">
@@ -4609,13 +4609,13 @@
   <compo A="The Standells" T="Dirty Water" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1536" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1537" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Stooges" T="Fun House" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1538" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1539" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Stranglers" T="Rattus Norvegicus" type="ALBUM" mergeable="true" del="false">
@@ -4624,10 +4624,10 @@
   <compo A="The Streets" T="A Grand Don't Come For Free" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1541" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1542" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1543" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Sugarcubes" T="Life's Too Good" type="ALBUM" mergeable="true" del="false">
@@ -4663,16 +4663,16 @@
   <compo A="The Upsetters" T="Return Of Django" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1554" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1555" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1556" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1557" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1558" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Verve" T="A Northern Soul" type="ALBUM" mergeable="true" del="false">
@@ -4726,7 +4726,7 @@
   <compo A="The White Stripes" T="Under Great White Northern Lights" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1575" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1576" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Who" T="A Quick One" type="ALBUM" mergeable="true" del="false">
@@ -4735,7 +4735,7 @@
   <compo A="The Who" T="Live At Leeds" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1578" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1579" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Who" T="Quadrophenia" type="ALBUM" mergeable="true" del="false">
@@ -4753,10 +4753,10 @@
   <compo A="The Who" T="Who Are You" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1584" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1585" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Xx" T="The Xx" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Xx" T="The Xx" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1586" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Yardbirds" T="Having A Rave Up With..." type="ALBUM" mergeable="true" del="false">
@@ -4771,7 +4771,7 @@
   <compo A="The Zodiac" T="Cosmic Sounds" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1590" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1591" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Thelonious Monk" T="Criss Cross" type="ALBUM" mergeable="true" del="false">
@@ -4975,7 +4975,7 @@
   <compo A="U-Roy" T="Dread In A Babylon" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1658" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1659" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Van Der Graaf Generator" T="Pawn Hearts" type="ALBUM" mergeable="true" del="false">
@@ -5053,7 +5053,7 @@
   <compo A="Wilco" T="Summertheeth" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1684" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1685" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Wiley" T="100% Publishing" type="ALBUM" mergeable="true" del="false">

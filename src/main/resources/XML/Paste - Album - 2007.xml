@@ -4,7 +4,7 @@
   <compo A="The National" T="Boxer" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="1" creation="30/08/2018 17:38:06" size="100"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="2" creation="30/08/2018 17:38:06" size="100"/>
   </compo>
   <compo A="Bruce Springsteen" T="Magic" type="ALBUM" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <compo A="Feist" T="The Reminder" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="5" creation="30/08/2018 17:38:06" size="100"/>
   </compo>
-  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="30/08/2018 17:38:06" size="100"/>
   </compo>
   <compo A="Wilco" T="Sky Blue Sky" type="ALBUM" mergeable="true" del="false">
@@ -31,7 +31,7 @@
   <compo A="Iron And Wine" T="The Shepherd's Dog" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="10" creation="30/08/2018 17:38:06" size="100"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="11" creation="30/08/2018 17:38:06" size="100"/>
   </compo>
   <compo A="Avett Brothers" T="Emotionalism" type="ALBUM" mergeable="true" del="false">

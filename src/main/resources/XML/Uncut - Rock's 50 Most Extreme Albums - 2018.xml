@@ -4,7 +4,7 @@
   <compo A="John Coltrane" T="Ascension" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Rock's 50 Most Extreme Albums - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="true" rank="1" creation="03/09/2018 10:33:28" size="50"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Rock's 50 Most Extreme Albums - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="true" rank="2" creation="03/09/2018 10:33:28" size="50"/>
   </compo>
   <compo A="Randy Holden" T="Population Ii" type="ALBUM" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Hole" T="Pretty On The Inside" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Rock's 50 Most Extreme Albums - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="true" rank="32" creation="03/09/2018 10:33:28" size="50"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Rock's 50 Most Extreme Albums - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="true" rank="33" creation="03/09/2018 10:33:28" size="50"/>
   </compo>
   <compo A="The Dead C" T="Harsh 70s Reality" type="ALBUM" mergeable="true" del="false">
