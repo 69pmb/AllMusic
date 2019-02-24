@@ -31,10 +31,10 @@
   <compo A="Billy Fury" T="The Sound Of Fury" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="10" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="The Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="11" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="12" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="The Byrds" T="Mr Tambourine Man" type="ALBUM" mergeable="true" del="false">
@@ -43,13 +43,13 @@
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="14" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="15" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="16" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="17" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Leonard Cohen" T="Songs Of Leonard Cohen" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="19" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="20" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Nick Drake" T="Five Leaves Left" type="ALBUM" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Roxy Music" T="Roxy Music" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="26" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="27" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
@@ -91,7 +91,7 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="30" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Talking Heads" T="Talking Heads: 77" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Talking Heads: 77" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="31" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Cheap Trick" T="Cheap Trick" type="ALBUM" mergeable="true" del="false">
@@ -100,10 +100,10 @@
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="33" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="34" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="35" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Wire" T="Pink Flag" type="ALBUM" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="Madness" T="One Step Beyond" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="41" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="42" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="The Specials" T="The Specials" type="ALBUM" mergeable="true" del="false">
@@ -145,7 +145,7 @@
   <compo A="Orange Juice" T="You Can't Hide Your Love Forever" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="48" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="REM" T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="49" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Wham!" T="Fantastic" type="ALBUM" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="Nirvana" T="Bleach" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="64" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="65" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="The La's" T="The La's" type="ALBUM" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Smashing Pumpkins" T="Gish" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="71" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="72" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="PJ Harvey" T="Dry" type="ALBUM" mergeable="true" del="false">
@@ -280,19 +280,19 @@
   <compo A="Sugababes" T="One Touch" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="93" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="94" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="95" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="96" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Dizzee Rascal" T="Boy In Da Corner" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="97" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="98" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Scissor Sisters" T="Scissor Sisters" type="ALBUM" mergeable="true" del="false">
@@ -313,7 +313,7 @@
   <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="104" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Debut Albums That Changed Music - 2017" publish="2017" cat="THEME" rangeB="0" rangeE="2017" sorted="false" rank="105" creation="28/08/2018 12:11:19" size="113"/>
   </compo>
   <compo A="Lady Gaga" T="The Fame" type="ALBUM" mergeable="true" del="false">

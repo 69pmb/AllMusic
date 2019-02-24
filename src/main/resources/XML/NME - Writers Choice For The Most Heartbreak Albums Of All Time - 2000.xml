@@ -10,7 +10,7 @@
   <compo A="Spiritualized" T="Ladies And Gentlemen We Are Floating In Space" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Choice For The Most Heartbreak Albums Of All Time - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="3" creation="04/09/2018 15:41:44" size="30"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Choice For The Most Heartbreak Albums Of All Time - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="4" creation="04/09/2018 15:41:44" size="30"/>
   </compo>
   <compo A="Leonard Cohen" T="Songs Of Love And Hate" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="Sebadoh" T="Bubble And Scrape" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Choice For The Most Heartbreak Albums Of All Time - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="9" creation="04/09/2018 15:41:44" size="30"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Choice For The Most Heartbreak Albums Of All Time - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="10" creation="04/09/2018 15:41:44" size="30"/>
   </compo>
   <compo A="REM" T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Choice For The Most Heartbreak Albums Of All Time - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="29" creation="04/09/2018 15:41:44" size="30"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Choice For The Most Heartbreak Albums Of All Time - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="30" creation="04/09/2018 15:41:44" size="30"/>
   </compo>
 </ListCompositions>

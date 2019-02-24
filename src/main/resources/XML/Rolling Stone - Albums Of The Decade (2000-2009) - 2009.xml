@@ -4,13 +4,13 @@
   <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="1" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="2" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="3" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="4" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
@@ -22,13 +22,13 @@
   <compo A="Eminem" T="The Marshal Mathers LP" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="7" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="8" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="9" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="10" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Love And Theft" type="ALBUM" mergeable="true" del="false">
@@ -52,13 +52,13 @@
   <compo A="Beck" T="Sea Change" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="17" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="18" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Amy Winehouse" T="Back To Black" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="19" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="20" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="29" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="30" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="My Morning Jacket" T="Z" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="Outkast" T="Speakerboxxx/The Love Below" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="34" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="35" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="U2" T="No Line On The Horizon" type="ALBUM" mergeable="true" del="false">
@@ -166,7 +166,7 @@
   <compo A="Robert Plant And Alison Krauss" T="Raising Sand" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="55" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="56" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Death Cab For Cutie" T="Transatlanticism" type="ALBUM" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <compo A="Danger Mouse" T="The Grey Album" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="58" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="59" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Phoenix" T="Wolfgang Amadeus Phoenix" type="ALBUM" mergeable="true" del="false">
@@ -223,7 +223,7 @@
   <compo A="Red Hot Chili Peppers" T="Stadium Arcadium" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="74" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="75" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Sigur Ros" T="()" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Johnny Cash" T="Unearthed" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="93" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="94" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Alicia Keys" T="Songs In A Minor" type="ALBUM" mergeable="true" del="false">

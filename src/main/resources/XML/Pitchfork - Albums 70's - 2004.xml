@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="1" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="2" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="3" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Sly And The Family Stone" T="There's a Riot Goin' On" type="ALBUM" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <compo A="Gang of Four" T="Entertainment!" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="8" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="9" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Brian Eno" T="Another Green World" type="ALBUM" mergeable="true" del="false">
@@ -40,10 +40,10 @@
   <compo A="Nick Drake" T="Pink Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="13" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="14" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="15" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Buzzcocks" T="Singles Going Steady" type="ALBUM" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <compo A="Wire" T="Pink Flag" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="22" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="23" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Eno" T="Here Come the Warm Jets" type="ALBUM" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="Led Zeppelin" T="III" type="ALBUM" mergeable="false" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="27" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Let It Be" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Let It Be" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="28" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Can" T="Tago Mago" type="ALBUM" mergeable="true" del="false">
@@ -94,7 +94,7 @@
   <compo A="Talking Heads" T="Fear of Music" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="31" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="32" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Wire" T="Chairs Missing" type="ALBUM" mergeable="true" del="false">
@@ -106,10 +106,10 @@
   <compo A="The Pop Group" T="Y" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="35" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="36" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="37" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="XTC" T="Drums And Wires" type="ALBUM" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="40" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 70's - 2004" publish="2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="41" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="The Specials" T="The Specials" type="ALBUM" mergeable="true" del="false">

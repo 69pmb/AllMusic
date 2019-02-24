@@ -10,7 +10,7 @@
   <compo A="Coldplay" T="Viva La Vida" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="3" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
   <compo A="Glasvegas" T="Glasvegas" type="ALBUM" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Keane" T="Perfect Symmetry" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="12" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="13" creation="28/08/2018 11:42:50" size="50"/>
   </compo>
   <compo A="Kaiser Chiefs" T="Off With Their Heads" type="ALBUM" mergeable="true" del="false">

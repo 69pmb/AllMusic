@@ -7,13 +7,13 @@
   <compo A="Ian Dury" T="New Boots And Panties" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="2" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="3" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="4" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="5" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
   <compo A="Bob Marley" T="Exodus" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Randy Newman" T="Little Criminals" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="16" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
-  <compo A="Talking Heads" T="Talking Heads '77" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Talking Heads '77" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="17" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
   <compo A="Cheap Trick" T="In Colour" type="ALBUM" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Wire" T="Pink Flag" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="26" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="true" rank="27" creation="04/09/2018 10:51:51" size="30"/>
   </compo>
   <compo A="Blondie" T="Blondie" type="ALBUM" mergeable="true" del="false">

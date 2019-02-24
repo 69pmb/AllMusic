@@ -19,7 +19,7 @@
   <compo A="Keane" T="Under The Iron Sea" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="6" creation="28/08/2018 11:41:50" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="7" creation="28/08/2018 11:41:50" size="100"/>
   </compo>
   <compo A="Kasabian" T="Empire" type="ALBUM" mergeable="true" del="false">

@@ -10,7 +10,7 @@
   <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Room On Fire" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Rufus Wainwright" T="Want One" type="ALBUM" mergeable="true" del="false">

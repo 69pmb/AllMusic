@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="1" creation="30/08/2018 11:01:08" size="40"/>
   </compo>
   <compo A="Yeah Yeah Yeahs" T="It's Blitz!" type="ALBUM" mergeable="true" del="false">
@@ -10,7 +10,7 @@
   <compo A="Phoenix" T="Woulfgang Amadeus Phoenix" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="3" creation="30/08/2018 11:01:08" size="40"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="4" creation="30/08/2018 11:01:08" size="40"/>
   </compo>
   <compo A="Girls" T="Album" type="ALBUM" mergeable="true" del="false">

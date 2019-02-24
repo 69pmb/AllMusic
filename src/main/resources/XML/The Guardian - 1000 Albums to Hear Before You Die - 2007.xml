@@ -163,7 +163,7 @@
   <compo A="Basquiat Strings" T="With Seb Rochford" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="54" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Beach Boys" T="The Beach Boys Today!" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beach Boys" T="The Beach Boys Today!" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="55" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Beastie Boys" T="Licensed tIll" type="ALBUM" mergeable="true" del="false">
@@ -172,7 +172,7 @@
   <compo A="Beat" T="I Just Can't Stop It" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="57" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="58" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Sidney Bechet" T="Shake 'Em Up: 1938-1947" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Colin Blunstone" T="One Year" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="93" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="94" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Blurt" T="Fish Needs a Bike: Best of... Vol 1" type="ALBUM" mergeable="true" del="false">
@@ -313,7 +313,7 @@
   <compo A="Boredoms" T="Vision Creation Newsun" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="104" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="105" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Billy Bragg" T="Brewing Up with Billy Bragg" type="ALBUM" mergeable="true" del="false">
@@ -751,7 +751,7 @@
   <compo A="Donovan" T="Sunshine Superman" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="250" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="251" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Dave Douglas" T="Charms of the Night Sky" type="ALBUM" mergeable="true" del="false">
@@ -901,13 +901,13 @@
   <compo A="Ella Fitzgerald" T="Sings the Cole Porter Song Book" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="300" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="301" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Flatlanders" T="More a Legend Than a Band" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="302" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="303" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Flying BurritBrothers" T="Out of the Blue" type="ALBUM" mergeable="true" del="false">
@@ -1183,7 +1183,7 @@
   <compo A="Hold Steady" T="Separation Sunday" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="396" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="397" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Billie Holiday" T="Lady Day Swings" type="ALBUM" mergeable="true" del="false">
@@ -1477,7 +1477,7 @@
   <compo A="LFO" T="Frequencies" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="494" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Libertines" T="Up the Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="Libertines" T="Up the Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="495" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Lieutenant Pigeon" T="Mouldy Old Music" type="ALBUM" mergeable="true" del="false">
@@ -1669,13 +1669,13 @@
   <compo A="Mestre Ambrosi" T="Mestre Ambrosio" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="558" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Metallica" T="Master of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Master of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="559" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Pat Metheny" T="80/81" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="560" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="MIA" T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="561" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="George Michael" T="Faith" type="ALBUM" mergeable="true" del="false">
@@ -1840,7 +1840,7 @@
   <compo A="New Order" T="Substance" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="615" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls (1973)" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls (1973)" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="616" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Joanna Newsom" T="Ys" type="ALBUM" mergeable="true" del="false">
@@ -1975,7 +1975,7 @@
   <compo A="Billy Paul" T="360 Degrees of Billy Paul" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="660" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="661" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Peaches" T="Teaches of Peaches" type="ALBUM" mergeable="true" del="false">
@@ -2011,7 +2011,7 @@
   <compo A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="672" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="673" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Plaid" T="Rest Proof Clockwork" type="ALBUM" mergeable="true" del="false">
@@ -2047,7 +2047,7 @@
   <compo A="Pretty Things" T="SF Sorrow" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="684" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="685" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Prince Buster" T="Fabulous Greatest Hits" type="ALBUM" mergeable="true" del="false">
@@ -2083,13 +2083,13 @@
   <compo A="RadiTarifa" T="Rumba Argelina" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="696" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="697" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="AR Rahman" T="Bombay: Soundtrack" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="698" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="699" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Red Hot Chili Peppers" T="Blood Sugar Sex Magik" type="ALBUM" mergeable="true" del="true">
@@ -2431,7 +2431,7 @@
   <compo A="Stone Roses" T="Stone Roses" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="812" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="813" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Stranglers" T="The Raven" type="ALBUM" mergeable="true" del="false">
@@ -2440,7 +2440,7 @@
   <compo A="Streets" T="Original Pirate Material" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="815" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="816" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Stylistics" T="Best of the..." type="ALBUM" mergeable="true" del="false">
@@ -2533,7 +2533,7 @@
   <compo A="Teenage Fanclub" T="Grand Prix" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="846" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="847" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Temptations" T="All Directions" type="ALBUM" mergeable="true" del="false">
@@ -2671,7 +2671,7 @@
   <compo A="CaetanVelos" T="Definitive Collection" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="892" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="893" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Verve" T="A Northern Soul" type="ALBUM" mergeable="true" del="false">
@@ -2734,7 +2734,7 @@
   <compo A="Wendy And Bonnie" T="Genesis" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="913" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="914" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="West Coast Pop Art Experimental Band" T="Part One" type="ALBUM" mergeable="true" del="false">
@@ -2755,13 +2755,13 @@
   <compo A="James White And the Blacks" T="Off White" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="920" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="921" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Who" T="Meaty Beaty Big And Bouncy" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="922" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="923" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Hank Williams" T="40 Greatest Hits" type="ALBUM" mergeable="true" del="false">
@@ -2848,7 +2848,7 @@
   <compo A="Joe Zawinul" T="Faces And Places" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="951" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="952" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="John Zorn" T="Big Gundown" type="ALBUM" mergeable="true" del="false">

@@ -151,10 +151,10 @@
   <compo A="...And You Will Know Us By The Trail Of Dead" T="Source Tags And Codes" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="3" creation="24/07/2018 17:59:34" size="50"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="2" creation="24/07/2018 17:59:34" size="50"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="1" creation="24/07/2018 17:59:34" size="50"/>
   </compo>
 </ListCompositions>

@@ -19,7 +19,7 @@
   <compo A="Dan Penn" T="Do Right Man" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="6" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="7" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
   <compo A="Tom Petty" T="Wildflowers" type="ALBUM" mergeable="true" del="false">

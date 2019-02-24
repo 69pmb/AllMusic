@@ -316,7 +316,7 @@
   <compo A="Howlin' Wolf" T="Howlin' Wolf" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="96" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="95" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Nina Simone" T="In Concert" type="ALBUM" mergeable="true" del="false">
@@ -385,7 +385,7 @@
   <compo A="Joni Mitchell" T="Clouds" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="73" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="72" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Sam Cooke" T="Ain't That Good News" type="ALBUM" mergeable="true" del="false">
@@ -460,10 +460,10 @@
   <compo A="Can" T="Monster Movie" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="48" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Zombies" T="Odessey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="47" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="46" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Scott Walker" T="Scott 4" type="ALBUM" mergeable="true" del="false">
@@ -517,13 +517,13 @@
   <compo A="Aretha Franklin" T="Lady Soul" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="29" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="28" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="27" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="26" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Sly and the Family Stone" T="Stand!" type="ALBUM" mergeable="true" del="false">
@@ -541,13 +541,13 @@
   <compo A="Nina Simone" T="Pastel Blues" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="21" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="20" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Dusty Springfield" T="Dusty in Memphis" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="19" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="18" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Charles Mingus" T="The Black Saint and the Sinner Lady" type="ALBUM" mergeable="true" del="false">
@@ -565,7 +565,7 @@
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="13" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="12" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Leonard Cohen" T="Songs of Leonard Cohen" type="ALBUM" mergeable="true" del="false">

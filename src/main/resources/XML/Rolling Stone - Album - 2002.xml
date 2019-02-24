@@ -4,7 +4,7 @@
   <compo A="Beck" T="Sea Change" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" mergeable="true" del="false">

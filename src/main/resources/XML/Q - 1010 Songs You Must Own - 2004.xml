@@ -2101,7 +2101,7 @@
   <compo A="Parliament" T="Give Up The Funk (Tear The Roof Off The Sucker)" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="700" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="false">
+  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="701" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Rolling Stones" T="Happy" type="SONG" mergeable="true" del="true">
@@ -2410,7 +2410,7 @@
   <compo A="Led Zeppelin" T="Black Dog" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="803" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Judas Priest" T="Breakin' The Law" type="SONG" mergeable="true" del="false">
+  <compo A="Judas Priest" T="Breakin' The Law" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="804" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Deep Purple" T="Highway Star" type="SONG" mergeable="true" del="true">

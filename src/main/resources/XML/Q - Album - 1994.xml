@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Blur" T="Park Life" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Park Life" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="false" rank="1" creation="28/08/2018 11:35:55" size="50"/>
   </compo>
   <compo A="Jackie Leven" T="The Mystery Of Love Is Greater Than The Mystery Of Death" type="ALBUM" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="false" rank="26" creation="28/08/2018 11:35:55" size="50"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="false" rank="27" creation="28/08/2018 11:35:55" size="50"/>
   </compo>
   <compo A="Ice Cube" T="Lethal Injection" type="ALBUM" mergeable="true" del="false">

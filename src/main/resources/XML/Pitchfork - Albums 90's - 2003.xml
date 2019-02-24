@@ -4,16 +4,16 @@
   <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="1" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="2" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="3" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Neutral Milk Hotel" T="In the Aeroplane Over the Sea" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="4" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="5" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
@@ -37,13 +37,13 @@
   <compo A="Slint" T="Spiderland" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="12" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="13" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="14" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="15" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="The Dismemberment Plan" T="Emergency And I" type="ALBUM" mergeable="true" del="false">
@@ -52,13 +52,13 @@
   <compo A="Public Enemy" T="Fear of a Black Planet" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="17" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="18" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="19" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="20" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Bjork" T="Homogenic" type="ALBUM" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="Weezer" T="Pinkerton" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="53" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="54" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Spiritualized" T="Ladies and Gentlemen, We Are Floating in Space" type="ALBUM" mergeable="true" del="false">
@@ -229,7 +229,7 @@
   <compo A="Mercury Rev" T="Deserter's Songs" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="76" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 90's - 2003" publish="2003" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="77" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Stereolab" T="Mars Audiac Quintet" type="ALBUM" mergeable="true" del="false">

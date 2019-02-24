@@ -103,7 +103,7 @@
   <compo A="Caribou" T="Swim" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="17" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
-  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleigh Bells" T="Treats" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="16" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
   <compo A="Robyn" T="Body Talk" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Janelle Monae" T="The ArchAndroid" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="12" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="11" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
   <compo A="Titus Andronicus" T="The Monitor" type="ALBUM" mergeable="true" del="false">
@@ -151,7 +151,7 @@
   <compo A="Deerhunter" T="Halcyon Digest" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="3" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
-  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="This Is Happening" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Album - 2010" publish="2010" cat="YEAR" rangeB="2010" rangeE="2010" sorted="true" rank="2" creation="24/07/2018 20:37:22" size="50"/>
   </compo>
   <compo A="Kanye West" T="My Beautiful Dark Twisted Fantasy" type="ALBUM" mergeable="true" del="false">

@@ -10,7 +10,7 @@
   <compo A="Blues Explosion" T="Acme" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="3" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="4" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">

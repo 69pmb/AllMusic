@@ -7,7 +7,7 @@
   <compo A="Chance The Rapper" T="Acid Rap" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="2" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Vampire Weekend" T="Modern Vampires In The City" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Modern Vampires In The City" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="3" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
   <compo A="Haim" T="Days Are Gone" type="ALBUM" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="Mikal Cronin" T="MCII" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="18" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="19" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
   <compo A="Waxahatchee" T="Cerulean Salt" type="ALBUM" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Kelela" T="Cut 4 Me" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="36" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="37" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
   <compo A="Janelle Monae" T="The Electric Lady" type="ALBUM" mergeable="true" del="false">

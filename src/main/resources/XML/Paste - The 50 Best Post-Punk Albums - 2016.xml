@@ -82,7 +82,7 @@
   <compo A="Magazine" T="Real Life" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="24" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="23" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
   <compo A="Devo" T="Q: Are We Not Men? A: We Are Devo!" type="ALBUM" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="13" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
-  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="12" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
   <compo A="The Slits" T="Cut" type="ALBUM" mergeable="true" del="false">
@@ -136,19 +136,19 @@
   <compo A="Gang of Four" T="Entertainment!" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="6" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="5" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="4" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
   <compo A="Wire" T="Chairs Missing" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="3" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="2" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - The 50 Best Post-Punk Albums - 2016" publish="2016" cat="GENRE" rangeB="0" rangeE="2016" sorted="true" rank="1" creation="31/08/2018 09:41:17" size="50"/>
   </compo>
 </ListCompositions>

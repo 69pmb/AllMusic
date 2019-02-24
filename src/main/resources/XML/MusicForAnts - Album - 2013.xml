@@ -31,7 +31,7 @@
   <compo A="Mikal Cronin" T="MCII" type="ALBUM" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="16" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
-  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="15" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
   <compo A="Phosphorescent" T="Muchacho" type="ALBUM" mergeable="true" del="false">
@@ -67,10 +67,10 @@
   <compo A="Moonface" T="Julia With Blue Jeans On" type="ALBUM" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="4" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
-  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="3" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
-  <compo A="Vampire Weekend" T="Modern Vampires of the City" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Modern Vampires of the City" type="ALBUM" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="2" creation="02/09/2017 08:04:16" size="25"/>
   </compo>
   <compo A="The National" T="Trouble Will Find Me" type="ALBUM" mergeable="true" del="false">

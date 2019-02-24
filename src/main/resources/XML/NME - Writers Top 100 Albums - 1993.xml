@@ -13,13 +13,13 @@
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="4" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="5" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="6" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="7" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="9" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="10" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
@@ -61,10 +61,10 @@
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="20" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="21" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="22" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Rem" T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
@@ -73,10 +73,10 @@
   <compo A="Elvis Presley" T="The Sun Sessions" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="24" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="25" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="26" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Stevie Wonder" T="Innervisions" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="32" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Band" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="33" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Frank Sinatra" T="Songs For Swinging Lovers" type="ALBUM" mergeable="true" del="false">
@@ -127,10 +127,10 @@
   <compo A="New Order" T="Technioue" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="42" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="43" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="44" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="The Orb" T="Adventures Beyond The Ultraworld" type="ALBUM" mergeable="true" del="false">
@@ -163,7 +163,7 @@
   <compo A="Dusty Springfield" T="Dusty In Memphis" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="54" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="55" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
@@ -184,13 +184,13 @@
   <compo A="Scott Walker" T="Scott" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="61" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="62" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Neil Young" T="Everybody Knows This Is Nowhere" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="63" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="64" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Aretha Franklin" T="Greatest Hits" type="ALBUM" mergeable="true" del="false">
@@ -199,10 +199,10 @@
   <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="66" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="67" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="68" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Burning Spear" T="Marcus Garvey" type="ALBUM" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="PJ Harvey" T="Dry" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="71" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="72" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Spiritualized" T="Lazer-Guided Melodies" type="ALBUM" mergeable="true" del="false">
@@ -295,7 +295,7 @@
   <compo A="The Byrds" T="Younger Than Yesterday" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="98" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Who" T="Who's Next?" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next?" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="99" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Happy Mondays" T="Bummed" type="ALBUM" mergeable="true" del="false">

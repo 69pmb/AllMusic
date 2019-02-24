@@ -4,7 +4,7 @@
   <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="1" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="2" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
@@ -16,7 +16,7 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="5" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="6" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="11" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="12" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
@@ -55,16 +55,16 @@
   <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="18" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Sgt. Peppers Loney Hears Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt. Peppers Loney Hears Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="19" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="20" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="21" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="22" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
@@ -76,19 +76,19 @@
   <compo A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="25" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="26" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="27" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="28" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="29" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="30" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Red Hot Chilli Peppers" T="Californiacation" type="ALBUM" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="34" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Blur" T="Park Life" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Park Life" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="35" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
@@ -115,7 +115,7 @@
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="38" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="39" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Coldplay" T="Parachutes" type="ALBUM" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="41" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="42" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
@@ -142,7 +142,7 @@
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="47" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="48" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="R.E.M." T="Document" type="ALBUM" mergeable="true" del="false">
@@ -151,7 +151,7 @@
   <compo A="Love" T="Forever Changes" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="50" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="51" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Nirvana" T="Unplugged In New York" type="ALBUM" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="U2" T="All That You Can't Leave Behind" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="53" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="54" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
@@ -172,7 +172,7 @@
   <compo A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="57" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Micheal Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Micheal Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="58" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
@@ -181,7 +181,7 @@
   <compo A="Radiohead" T="Amnesiac" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="60" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="61" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Kate Bush" T="Hounds Of Love" type="ALBUM" mergeable="true" del="false">
@@ -190,19 +190,19 @@
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="63" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="64" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="65" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="66" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="David Grey" T="White Ladder" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="67" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="68" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Manic Street Preachers" T="The Holy Bible" type="ALBUM" mergeable="true" del="false">
@@ -223,7 +223,7 @@
   <compo A="Muse" T="Origin Of Symmetry" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="74" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="75" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Johnny Cash" T="American III: Solitary Man" type="ALBUM" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="The Jam" T="Setting Sons" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="79" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="80" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Stereophonics" T="Word Gets Around" type="ALBUM" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <compo A="Eminem" T="The Marshall Mathers LP" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="86" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="P.J. Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="false">
+  <compo A="P.J. Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="87" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
@@ -289,16 +289,16 @@
   <compo A="Kraftwerk" T="The Man Machine" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="96" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="97" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="98" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Tom Waits" T="Rain Dogs" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="99" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best Albums Ever - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="100" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
 </ListCompositions>

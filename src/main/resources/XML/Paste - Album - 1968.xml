@@ -16,7 +16,7 @@
   <compo A="Traffic" T="Traffic" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="11" creation="31/08/2018 10:12:30" size="15"/>
   </compo>
-  <compo A="The Zombies" T="Odyssey And Oracle" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Zombies" T="Odyssey And Oracle" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="10" creation="31/08/2018 10:12:30" size="15"/>
   </compo>
   <compo A="Johnny Cash" T="At Folsom Prison" type="ALBUM" mergeable="true" del="false">

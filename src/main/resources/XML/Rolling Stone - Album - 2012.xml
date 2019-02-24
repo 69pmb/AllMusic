@@ -97,7 +97,7 @@
   <compo A="Hospitality" T="Hospitality" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="32" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="33" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
   <compo A="Alabama Shakes" T="Boys And Girls" type="ALBUM" mergeable="true" del="false">

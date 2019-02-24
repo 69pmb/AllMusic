@@ -130,7 +130,7 @@
   <compo A="The Rolling Stones" T="Miss You" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="43" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Abba" T="Dancing Queen" type="SONG" mergeable="true" del="false">
+  <compo A="Abba" T="Dancing Queen" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="44" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Eric Clapton" T="Tears In Heaven" type="SONG" mergeable="true" del="true">
@@ -283,7 +283,7 @@
   <compo A="Blink-182" T="All The Small Things" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="94" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="false">
+  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="95" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Def Leppard" T="Photograph" type="SONG" mergeable="true" del="false">

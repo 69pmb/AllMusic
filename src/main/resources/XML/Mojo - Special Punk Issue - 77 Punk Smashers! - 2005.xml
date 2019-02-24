@@ -16,7 +16,7 @@
   <compo A="Mc5" T="The Big Bang! Best Of" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="4" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="5" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
   <compo A="Iggy Pop" T="Raw Power" type="ALBUM" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="7" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="8" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
   <compo A="Edde And The Hot Rods" T="Teenage Depression" type="ALBUM" mergeable="true" del="false">
@@ -40,10 +40,10 @@
   <compo A="The Saints" T="All Times Through Paradise" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="12" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="13" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="14" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
   <compo A="The Damned" T="Damned, Damned, Damned" type="ALBUM" mergeable="true" del="false">
@@ -151,7 +151,7 @@
   <compo A="Stiff Little Fingers" T="Inflammable Material" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="49" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="50" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
   <compo A="The Undertones" T="The Undertones" type="ALBUM" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="Buzzcocks" T="Singles Going Steady" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="59" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Special Punk Issue - 77 Punk Smashers! - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="false" rank="60" creation="22/08/2018 16:53:27" size="77"/>
   </compo>
   <compo A="The Pop Group" T="We Are All Prostitutes" type="ALBUM" mergeable="true" del="false">

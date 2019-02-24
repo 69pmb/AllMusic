@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="1" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="2" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="3" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="4" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Blondie" T="Parallel Lines" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="16" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="17" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="Electric Light Orchestra" T="Out Of The Blue" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="21" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="22" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
@@ -88,10 +88,10 @@
   <compo A="Nick Drake" T="Bryter Layter" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="29" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="30" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="31" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="The Wailers" T="Catch A Fire" type="ALBUM" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Ian Dury" T="New Boot And Panties" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="43" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="44" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="Chic" T="Risque" type="ALBUM" mergeable="true" del="false">

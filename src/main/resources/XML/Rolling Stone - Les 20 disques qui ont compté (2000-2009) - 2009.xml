@@ -4,22 +4,22 @@
   <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="1" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="2" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
   <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="3" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="4" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="5" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
   <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="6" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="7" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
   <compo A="Pete Doherty" T="Grace/Wastelands" type="ALBUM" mergeable="true" del="true">
@@ -37,7 +37,7 @@
   <compo A="Blur" T="Think Tank" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="12" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="13" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
   <compo A="Cat Power" T="The Greatest" type="ALBUM" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <compo A="Ryan Adams" T="Gold" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="19" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="20" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
 </ListCompositions>

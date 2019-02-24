@@ -16,7 +16,7 @@
   <compo A="Missy Elliot" T="Under Construction" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="5" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="6" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
   <compo A="Ms Dynamite" T="A Little Deeper" type="ALBUM" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Tom Waits" T="Alice" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="43" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="44" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
   <compo A="Avril" T="That Horse Must Be Starving" type="ALBUM" mergeable="true" del="false">

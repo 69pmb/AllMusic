@@ -22,25 +22,25 @@
   <compo A="Jerry Lee Lewis" T="Live At The Star Club, Hamburg" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="7" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="8" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="9" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="10" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="11" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Leonard Cohen" T="The Songs Of Leonard Cohen" type="ALBUM" mergeable="true" del="false">
+  <compo A="Leonard Cohen" T="The Songs Of Leonard Cohen" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="12" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Dusty Springfield" T="Dusty In Memphis" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="13" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="14" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">
@@ -67,7 +67,7 @@
   <compo A="Bruce Sprinsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="22" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="23" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Suicide" T="Suicide" type="ALBUM" mergeable="true" del="false">
@@ -76,16 +76,16 @@
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="25" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="26" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="27" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="28" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="29" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
@@ -94,7 +94,7 @@
   <compo A="The Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="31" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="32" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Beastie Boys" T="Licensed To Ill" type="ALBUM" mergeable="true" del="false">
@@ -112,16 +112,16 @@
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="37" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="38" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="39" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="40" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="41" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="false">
@@ -148,16 +148,16 @@
   <compo A="Daft Punk" T="Discovery" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="49" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="50" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="51" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="The Streets" T="Original Pirate Material" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="52" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="53" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Dizzee Rascal" T="Boy In Da Corner" type="ALBUM" mergeable="true" del="false">
@@ -169,13 +169,13 @@
   <compo A="Burial" T="Untrue" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="56" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Mia" T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mia" T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="57" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Crystal Castles" T="Crystal Castles" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="58" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="The Suburbs" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="59" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="PJ Harvey" T="Let England Shake" type="ALBUM" mergeable="true" del="true">

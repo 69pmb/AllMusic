@@ -10,13 +10,13 @@
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="3" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="4" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="5" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="6" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="De La Soul" T="3 Feet High And Rising" type="ALBUM" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="11" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="12" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Husker Du" T="New Day Rising" type="ALBUM" mergeable="true" del="false">
@@ -46,7 +46,7 @@
   <compo A="Liz Phair" T="Exile In Guyville" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="15" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="16" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Nas" T="Illmatic" type="ALBUM" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="18" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="19" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Public Enemy" T="Fear Of A Black Planet" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="21" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="22" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Outkast" T="Stankonia" type="ALBUM" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <compo A="Nine Inch Nails" T="The Downward Spiral" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="25" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="26" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="The Cure" T="The Head On The Door" type="ALBUM" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <compo A="Run-D.M.C" T="Raising Hell" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="40" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="41" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Jane's Addiction" T="Nothing's Shocking" type="ALBUM" mergeable="true" del="false">
@@ -133,7 +133,7 @@
   <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="44" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="45" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="The Fall" T="This Nation's Saving Grace" type="ALBUM" mergeable="true" del="false">
@@ -151,7 +151,7 @@
   <compo A="New Order" T="Low-Life" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="50" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="51" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Beastie Boys" T="Licensed To Ill" type="ALBUM" mergeable="true" del="false">
@@ -169,10 +169,10 @@
   <compo A="PJ Harvey" T="To Bring You My Love" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="56" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="57" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Metallica" T="Masters Of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Masters Of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="58" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Modest Mouse" T="The Lonesome Crowded West" type="ALBUM" mergeable="true" del="false">
@@ -208,7 +208,7 @@
   <compo A="DJ Shadow" T="Endtroducing" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="69" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="70" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="The Jesus and Mary Chain" T="Psycho Candy" type="ALBUM" mergeable="true" del="false">
@@ -229,10 +229,10 @@
   <compo A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="76" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="77" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="78" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Moby" T="Everything Is Wrong" type="ALBUM" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <compo A="Meat Puppets" T="Up On The Sun" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="86" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="87" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Stereolab" T="Emperor Tomato Ketchup" type="ALBUM" mergeable="true" del="false">
@@ -298,7 +298,7 @@
   <compo A="Afghan Whigs" T="Gentlemen" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="99" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="100" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Sebadoh" T="Bakesale" type="ALBUM" mergeable="true" del="false">

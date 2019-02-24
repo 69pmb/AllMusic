@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="1" creation="04/09/2018 10:48:11" size="50"/>
   </compo>
   <compo A="Manic Street Preachers" T="Everything Must Go" type="ALBUM" mergeable="true" del="false">

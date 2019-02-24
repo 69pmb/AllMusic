@@ -16,7 +16,7 @@
   <compo A="Holger Czukay" T="Movies" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="true" rank="5" creation="04/09/2018 10:51:15" size="50"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="true" rank="6" creation="04/09/2018 10:51:15" size="50"/>
   </compo>
   <compo A="Echo And The Bunnymen" T="Crocodiles" type="ALBUM" mergeable="true" del="false">

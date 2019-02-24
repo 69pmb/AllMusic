@@ -43,7 +43,7 @@
   <compo A="Camera Obscura" T="My Maudlin Career" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="12" creation="31/08/2018 10:37:45" size="25"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="11" creation="31/08/2018 10:37:45" size="25"/>
   </compo>
   <compo A="Frank Turner" T="Poetry Of The Deed" type="ALBUM" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="Elvis Perkins In Dearland" T="Elvis Perkins In Dearland" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="3" creation="31/08/2018 10:37:45" size="25"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="2" creation="31/08/2018 10:37:45" size="25"/>
   </compo>
   <compo A="The Avett Brothers" T="I And Love And You" type="ALBUM" mergeable="true" del="false">

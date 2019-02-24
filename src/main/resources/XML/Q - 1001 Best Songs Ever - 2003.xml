@@ -112,7 +112,7 @@
   <compo A="Massive Attack" T="Unfinished Sympathy" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="37" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Abba" T="Dancing Queen" type="SONG" mergeable="true" del="false">
+  <compo A="Abba" T="Dancing Queen" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="38" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="John Lennon" T="Jealous Guy" type="SONG" mergeable="true" del="true">
@@ -316,7 +316,7 @@
   <compo A="The White Stripes" T="Fell In Love With A Girl" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="105" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Judas Priest" T="Breaking The Law" type="SONG" mergeable="true" del="false">
+  <compo A="Judas Priest" T="Breaking The Law" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="106" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Jesus And Mary Chain" T="Never Understand" type="SONG" mergeable="true" del="true">
@@ -565,7 +565,7 @@
   <compo A="A-Ha" T="Take On Me" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="188" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="The Modern Lovers" T="Road Runner" type="SONG" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="Road Runner" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="189" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="The Strokes" T="The Modern Age" type="SONG" mergeable="true" del="true">
@@ -712,7 +712,7 @@
   <compo A="Robbie Williams" T="Angels" type="SONG" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="237" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="false">
+  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="238" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Billy Bragg" T="Levie Stubbs' Tears" type="SONG" mergeable="true" del="false">

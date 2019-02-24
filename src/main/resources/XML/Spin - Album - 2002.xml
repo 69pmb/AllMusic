@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="1" creation="30/08/2018 10:54:28" size="20"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="2" creation="30/08/2018 10:54:28" size="20"/>
   </compo>
   <compo A="Beck" T="Sea Change" type="ALBUM" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Sleater-Kinney" T="One Beat" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="12" creation="30/08/2018 10:54:28" size="20"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint 2" type="ALBUM" mergeable="false" del="false">
+  <compo A="Jay Z" T="The Blueprint 2" type="ALBUM" mergeable="false" del="true">
     <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="13" creation="30/08/2018 10:54:28" size="20"/>
   </compo>
   <compo A="Bruce Springsteen" T="The Rising" type="ALBUM" mergeable="true" del="false">

@@ -4,7 +4,7 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="1" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Beatles" T="Sgt Pepper's Lonely Heart's Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Sgt Pepper's Lonely Heart's Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="2" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
@@ -25,16 +25,16 @@
   <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="8" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="9" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="10" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="11" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="12" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="14" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="15" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
@@ -58,7 +58,7 @@
   <compo A="Queen" T="A Night At The Opera" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="19" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="20" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Killers" T="Hot Fuss" type="ALBUM" mergeable="true" del="true">
@@ -82,10 +82,10 @@
   <compo A="Kaiser Chiefs" T="Employment" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="27" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="28" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="29" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Libertines" T="Libertines" type="ALBUM" mergeable="true" del="false">
@@ -100,13 +100,13 @@
   <compo A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="33" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="34" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="35" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="36" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Rem" T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="40" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="41" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
@@ -148,7 +148,7 @@
   <compo A="Coldplay" T="X And Y" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="49" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="50" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Keane" T="Hopes And Fears" type="ALBUM" mergeable="true" del="false">
@@ -172,7 +172,7 @@
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="57" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="58" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="73" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="74" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Suede" T="Dog Man Star" type="ALBUM" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="78" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="79" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="AC/DC" T="Back In Black" type="ALBUM" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <compo A="Alanis Morissette" T="Jagged Little Pill" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="93" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="94" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">

@@ -79,7 +79,7 @@
   <compo A="Lou Reed" T="Walk On The Wild Side" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="26" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="ABBA" T="Dancing Queen" type="SONG" mergeable="true" del="false">
+  <compo A="ABBA" T="Dancing Queen" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="27" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Kraftwerk" T="The Model" type="SONG" mergeable="true" del="true">
@@ -172,7 +172,7 @@
   <compo A="Squeeze" T="Up The Junction" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="57" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="The Modern Lovers" T="Roadrunner" type="SONG" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="Roadrunner" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - The 70's - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="58" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Curtis Mayfield" T="Move On Up" type="SONG" mergeable="true" del="false">

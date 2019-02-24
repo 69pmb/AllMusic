@@ -181,7 +181,7 @@
   <compo A="Public Image Ltd" T="Album" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 80 From The 80s - Albums - 2007" publish="2007" cat="DECADE" rangeB="1980" rangeE="1989" sorted="false" rank="60" creation="02/07/2017 07:08:56" size="80"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 80 From The 80s - Albums - 2007" publish="2007" cat="DECADE" rangeB="1980" rangeE="1989" sorted="false" rank="61" creation="02/07/2017 07:08:56" size="80"/>
   </compo>
   <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="true">
@@ -235,7 +235,7 @@
   <compo A="Bob Dylan" T="Oh Mercy" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 80 From The 80s - Albums - 2007" publish="2007" cat="DECADE" rangeB="1980" rangeE="1989" sorted="false" rank="78" creation="02/07/2017 07:08:56" size="80"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 80 From The 80s - Albums - 2007" publish="2007" cat="DECADE" rangeB="1980" rangeE="1989" sorted="false" rank="79" creation="02/07/2017 07:08:56" size="80"/>
   </compo>
   <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">

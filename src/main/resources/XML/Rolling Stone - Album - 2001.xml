@@ -13,7 +13,7 @@
   <compo A="Bjork" T="Vespertine" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Garbage" T="Beautiful Garbage" type="ALBUM" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Manu Chao" T="Proxima Estacion: Esperanza" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Various Artists" T="O Brother, Where Art Thou? Original Soundtrack" type="ALBUM" mergeable="true" del="false">

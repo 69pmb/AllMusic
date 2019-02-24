@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="1" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
@@ -40,7 +40,7 @@
   <compo A="Bob Dylan" T="The Basement Tapes" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="13" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="14" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
@@ -52,7 +52,7 @@
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="17" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="18" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Band" T="The Band" type="ALBUM" mergeable="true" del="false">
@@ -61,10 +61,10 @@
   <compo A="Prince" T="Dirty Mind" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="20" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="21" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="22" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Derek And The Dominos" T="Layla" type="ALBUM" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <compo A="Richard And Linda Thompson" T="Shoot Out The Lights" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="24" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="25" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Neil Young" T="Tonight's The Night" type="ALBUM" mergeable="true" del="false">
@@ -85,16 +85,16 @@
   <compo A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="28" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Evis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Evis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="29" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Sly And The Family Stone" T="There's A Riot Goin' On" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="30" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="31" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="32" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="Stevie Wonder" T="Innervisions" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="37" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="38" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
@@ -157,13 +157,13 @@
   <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="52" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="53" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Graham Parker" T="Howlin Wind" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="54" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="The New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="55" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Paul Simon" T="Graceland" type="ALBUM" mergeable="true" del="false">
@@ -172,7 +172,7 @@
   <compo A="Talking Heads" T="More Songs About Buildings And Food" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="57" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="58" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Moondance" type="ALBUM" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="Original Soundtrack" T="The Harder They Come" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="60" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="61" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="68" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="69" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Between The Buttons" type="ALBUM" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <compo A="Neil Young" T="After The Goldrush" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="71" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="72" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Todd Rundgren" T="Something/Anything" type="ALBUM" mergeable="true" del="false">
@@ -238,7 +238,7 @@
   <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="79" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Talking Heads" T="Talking Heads: 77" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Talking Heads: 77" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="80" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Miles Davis" T="Bitches Brew" type="ALBUM" mergeable="true" del="false">
@@ -253,7 +253,7 @@
   <compo A="Roxy Music" T="Siren" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="84" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="85" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Richard And Linda Thompson" T="I Want To See The Bright Lights Tonight" type="ALBUM" mergeable="true" del="false">

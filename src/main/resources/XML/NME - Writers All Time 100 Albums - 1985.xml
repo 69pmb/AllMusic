@@ -13,7 +13,7 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="4" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Television" T="Marquee Moon" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="5" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Tom Waits" T="Swardfishtrombones" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="John Lennon/Plastic Ono Band" T="John Lennon/Plastic Ono Band" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="9" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="10" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
@@ -43,10 +43,10 @@
   <compo A="Love" T="Forever Changes" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="14" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="15" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="16" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="James Brown" T="Solid Gold" type="ALBUM" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="Otis Redding" T="Otis Blue" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="23" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="24" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
@@ -103,7 +103,7 @@
   <compo A="Dexys Midnight Runners" T="Searching For The Young Soul Rebels" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="34" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="35" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="David Bowie" T="Young Americans" type="ALBUM" mergeable="true" del="false">
@@ -241,7 +241,7 @@
   <compo A="Roxy Music" T="Stranded" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="80" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="Talking Heads" T="Talking Heads '77" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Talking Heads '77" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="81" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Magazine" T="The Correct Use Of Soap" type="ALBUM" mergeable="true" del="false">
@@ -277,7 +277,7 @@
   <compo A="The Abyssinians" T="Forward Onto Zion" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="92" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="93" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Lloyd Cole And The Commotions" T="Rattlesnakes" type="ALBUM" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="Augustus Pablo" T="King Tubbys Meets The Rockers Uptown" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="96" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="97" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Suicide" T="Suicide" type="ALBUM" mergeable="true" del="false">

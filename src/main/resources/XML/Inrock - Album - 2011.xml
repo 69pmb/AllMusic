@@ -4,7 +4,7 @@
   <compo A="The Black Keys" T="El Camino" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="1" creation="10/09/2018 13:31:05" size="100"/>
   </compo>
-  <compo A="Metronomy" T="The English Riviera" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metronomy" T="The English Riviera" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="2" creation="10/09/2018 13:31:05" size="100"/>
   </compo>
   <compo A="WU LYF" T="Go Tell The Fire Mountain" type="ALBUM" mergeable="true" del="false">
@@ -199,7 +199,7 @@
   <compo A="Yuksek" T="Living On The Edge Of Time" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="66" creation="10/09/2018 13:31:05" size="100"/>
   </compo>
-  <compo A="The Vaccines" T="What Did You Expect From The Vaccines?" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Vaccines" T="What Did You Expect From The Vaccines?" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2011" publish="2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="67" creation="10/09/2018 13:31:05" size="100"/>
   </compo>
   <compo A="Keren Ann" T="101" type="ALBUM" mergeable="true" del="false">

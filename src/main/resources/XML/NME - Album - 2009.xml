@@ -4,7 +4,7 @@
   <compo A="The Horrors" T="Primary Colours" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="1" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="The XX" T="The XX" type="ALBUM" mergeable="true" del="false">
+  <compo A="The XX" T="The XX" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="2" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Yeah Yeah Yeahs" T="It's Blitz!" type="ALBUM" mergeable="true" del="false">
@@ -13,10 +13,10 @@
   <compo A="Wild Beasts" T="Two Dancers" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="4" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="5" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="6" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="The Big Pink" T="A Brief History Of Love" type="ALBUM" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Noah And The Whale" T="The First Days Of Spring" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="32" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Jay-Z" T="The Blueprint 3" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="The Blueprint 3" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="33" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Phoenix" T="Wolfgang Amadeus Phoenix" type="ALBUM" mergeable="true" del="false">

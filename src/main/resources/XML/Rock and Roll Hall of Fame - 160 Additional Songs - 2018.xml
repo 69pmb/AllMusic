@@ -52,7 +52,7 @@
   <compo A="The Chi-Lites" T="Have You Seen Her" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="17" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
-  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="false">
+  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="18" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
   <compo A="The Chords" T="Sh-Boom" type="SONG" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <compo A="Billy Joel" T="Piano Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="68" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
-  <compo A="Judas Priest" T="Breaking the Law" type="SONG" mergeable="true" del="false">
+  <compo A="Judas Priest" T="Breaking the Law" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 160 Additional Songs - 2018" publish="2018" cat="GENRE" rangeB="0" rangeE="2018" sorted="false" rank="69" creation="25/06/2018 16:11:38" size="160"/>
   </compo>
   <compo A="B.B. King" T="Three O'Clock" type="SONG" mergeable="true" del="false">

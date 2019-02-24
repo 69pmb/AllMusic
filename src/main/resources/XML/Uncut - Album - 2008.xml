@@ -13,7 +13,7 @@
   <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="4" creation="03/09/2018 10:37:40" size="50"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="5" creation="03/09/2018 10:37:40" size="50"/>
   </compo>
   <compo A="Elbow" T="Seldom Seen Kid" type="ALBUM" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <compo A="Lucinda Williams" T="Little Honey" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="26" creation="03/09/2018 10:37:40" size="50"/>
   </compo>
-  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="false">
+  <compo A="MGMT" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 2008" publish="2008" cat="YEAR" rangeB="2008" rangeE="2008" sorted="true" rank="27" creation="03/09/2018 10:37:40" size="50"/>
   </compo>
   <compo A="Felice Brothers" T="Felice Brothers" type="ALBUM" mergeable="true" del="false">

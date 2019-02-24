@@ -28,13 +28,13 @@
   <compo A="Alela Diane" T="The Pirate's Gospel" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="9" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
-  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="10" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
   <compo A="The Gossip" T="Standing In The Way Of Control" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="11" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="12" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
   <compo A="Burial" T="Untrue" type="ALBUM" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <compo A="Cocoon" T="My Friends All Died In A Plane Crash" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="47" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="48" creation="10/09/2018 13:31:05" size="50"/>
   </compo>
   <compo A="Map Of Africa" T="Map Of Africa" type="ALBUM" mergeable="true" del="false">

@@ -76,10 +76,10 @@
   <compo A="The Beatles" T="1962 1966" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="25" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="26" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="27" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
@@ -112,7 +112,7 @@
   <compo A="Crosby, Stills, Nash and Young" T="Deja Vu" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="37" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="38" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
@@ -187,10 +187,10 @@
   <compo A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="62" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="63" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="64" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
@@ -211,10 +211,10 @@
   <compo A="Diana Ross and the Supremes" T="Anthology" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="70" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="71" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Loaded" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="72" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="The Who" T="Meaty Beaty Big and Bouncy" type="ALBUM" mergeable="true" del="false">
@@ -223,7 +223,7 @@
   <compo A="Who" T="Tommy" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="74" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="75" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Jackie Wilson" T="Mr. Excitement!" type="ALBUM" mergeable="true" del="false">
@@ -265,7 +265,7 @@
   <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="88" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Low" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="89" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Jackson Browne" T="Late For The Sky" type="ALBUM" mergeable="true" del="false">
@@ -277,10 +277,10 @@
   <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="92" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="93" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="94" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Derek And The Dominos" T="Layla" type="ALBUM" mergeable="true" del="false">
@@ -292,7 +292,7 @@
   <compo A="Brian Eno" T="Another Green World" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="97" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="98" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
@@ -328,7 +328,7 @@
   <compo A="John Lennon" T="Plastic Ono Band" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="109" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="110" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Bob Marley" T="Burnin'" type="ALBUM" mergeable="true" del="false">
@@ -355,7 +355,7 @@
   <compo A="Randy Newman" T="12 Songs" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="118" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="The New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="119" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="The O'Jays" T="Back Stabbers" type="ALBUM" mergeable="true" del="false">
@@ -373,7 +373,7 @@
   <compo A="Pretenders" T="Pretenders" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="124" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="125" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Roxy Music" T="Siren" type="ALBUM" mergeable="true" del="false">
@@ -439,7 +439,7 @@
   <compo A="Afrika Bambaataa and Soulsonic Force" T="Planet Rock, The Album" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="146" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="147" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Black Flag" T="Damaged" type="ALBUM" mergeable="true" del="false">
@@ -472,7 +472,7 @@
   <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="157" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="158" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Jane's Addiction" T="Nothing's Shocking" type="ALBUM" mergeable="true" del="false">
@@ -508,7 +508,7 @@
   <compo A="Sinead O'Connor" T="I Do Not Want What I Haven't Got" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="169" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="170" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Prince" T="Dirty Mind" type="ALBUM" mergeable="true" del="false">
@@ -526,7 +526,7 @@
   <compo A="Bonnie Raitt" T="Nick Of Time" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="175" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="176" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="R.E.M." T="Document" type="ALBUM" mergeable="true" del="false">
@@ -538,13 +538,13 @@
   <compo A="Run-D.M.C." T="Raising Hell" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="179" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="180" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="181" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="182" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
@@ -553,7 +553,7 @@
   <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="184" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="185" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Dr. Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
@@ -562,7 +562,7 @@
   <compo A="PJ Harvey" T="Dry" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="187" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="188" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
@@ -571,7 +571,7 @@
   <compo A="Moby" T="'Go'" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="190" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="191" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Nine Inch Nails" T="Pretty Hate Machine" type="ALBUM" mergeable="true" del="false">
@@ -586,7 +586,7 @@
   <compo A="The Orb" T="The Orb's Adventures Beyond the Ultraworld" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="195" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="Pavement" T="Slanted and Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted and Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="196" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
   <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
@@ -595,10 +595,10 @@
   <compo A="Liz Phair" T="Exile In Guyville" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="198" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="199" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 200 The Essential Rock Collection - 1997" publish="1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="200" creation="19/07/2017 07:11:54" size="200"/>
   </compo>
 </ListCompositions>

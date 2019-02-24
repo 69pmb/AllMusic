@@ -79,7 +79,7 @@
   <compo A="Jane's Addiction" T="Nothing's Shocking" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="5" creation="31/08/2018 10:11:58" size="30"/>
   </compo>
-  <compo A="The Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 1988" publish="1988" cat="YEAR" rangeB="1988" rangeE="1988" sorted="true" rank="4" creation="31/08/2018 10:11:58" size="30"/>
   </compo>
   <compo A="Cowboy Junkies" T="The Trinity Sessions" type="ALBUM" mergeable="true" del="false">

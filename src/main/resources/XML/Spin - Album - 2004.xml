@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="1" creation="30/08/2018 10:58:27" size="40"/>
   </compo>
   <compo A="Green Day" T="American Idiot" type="ALBUM" mergeable="true" del="false">

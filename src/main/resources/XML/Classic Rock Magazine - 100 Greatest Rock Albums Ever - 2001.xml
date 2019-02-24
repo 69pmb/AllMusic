@@ -61,7 +61,7 @@
   <compo A="Black Sabbath" T="Master of Reality" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="20" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="false">
+  <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="21" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Journey" T="Escape" type="ALBUM" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <compo A="Lynyrd Skynyrd" T="Pronounced Leh-Nerd Skin-Nerd" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="23" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="24" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Queen" T="A Night At The Opera" type="ALBUM" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="Bad Company" T="Bad Company" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="53" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="54" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Nine Inch Nails" T="Pretty Hate Machine" type="ALBUM" mergeable="true" del="false">
@@ -199,7 +199,7 @@
   <compo A="Queens of the Stone Age" T="Rated R" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="66" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Metallica" T="Master of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Master of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="67" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Thin Lizzy" T="Jailbreak" type="ALBUM" mergeable="true" del="false">

@@ -4,10 +4,10 @@
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="1" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="1" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="2" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
@@ -25,7 +25,7 @@
   <compo A="Funkadelic" T="Maggot Brain" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="6" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="7" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <compo A="Beastie Boys" T="Licensed To Ill" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="10" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="11" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Sly And The Family Stone" T="There's A Riot Goin' On" type="ALBUM" mergeable="true" del="false">
@@ -64,10 +64,10 @@
   <compo A="The Stooges" T="Fun House" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="19" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="20" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="21" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Patti Smith Group" T="Horses" type="ALBUM" mergeable="true" del="true">
@@ -94,7 +94,7 @@
   <compo A="Black Sabbath" T="Paranoid" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="29" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="30" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Minor Threat" T="Out Of Step" type="ALBUM" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <compo A="Bad Brains" T="Bad Brains" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="38" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="39" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Grandmaster Flash And The Furious Five" T="Adventures On The Wheels Of Steel" type="ALBUM" mergeable="true" del="false">

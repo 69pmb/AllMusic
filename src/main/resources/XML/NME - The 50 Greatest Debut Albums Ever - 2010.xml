@@ -10,25 +10,25 @@
   <compo A="Bob Dylan" T="Bob Dylan" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="3" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="The Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Please Please Me" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="4" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="Dusty Springfield" T="A Girl Called Dusty" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="5" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="6" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="The Mothers Of Invention" T="Freak Out" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="7" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="8" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="Band" T="Music from Big Pink" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="9" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="10" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="Black Sabbath" T="Black Sabbath" type="ALBUM" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <compo A="Neu!" T="Neu!" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="13" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="14" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="Brian Eno" T="Here Come The Warm Jets" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="16" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="17" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
@@ -58,7 +58,7 @@
   <compo A="Devo" T="Q: Are We No Men? A: We Are Devo!" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="19" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="20" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="Killing Joke" T="Killing Joke" type="ALBUM" mergeable="true" del="false">
@@ -70,10 +70,10 @@
   <compo A="ABC" T="The Lexicon Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="23" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M." T="Murmur" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="24" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="25" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="The Jesus And Mary Chain" T="Psychocandy" type="ALBUM" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <compo A="My Bloody Valentine" T="Isn't Anything" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="29" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="30" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="The La's" T="The La's" type="ALBUM" mergeable="true" del="false">
@@ -124,16 +124,16 @@
   <compo A="Coldplay" T="Parachutes" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="41" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="42" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="43" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="Dizzee Rascal" T="Boy In Da Corner" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="44" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="45" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
   <compo A="Arcade Fire" T="Funeral" type="ALBUM" mergeable="true" del="true">
@@ -148,7 +148,7 @@
   <compo A="Crystal Castles" T="Crystal Castles" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="49" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
-  <compo A="The XX" T="The XX" type="ALBUM" mergeable="true" del="false">
+  <compo A="The XX" T="The XX" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Greatest Debut Albums Ever - 2010" publish="2010" cat="THEME" rangeB="0" rangeE="2010" sorted="false" rank="50" creation="04/09/2018 15:50:40" size="50"/>
   </compo>
 </ListCompositions>

@@ -28,7 +28,7 @@
   <compo A="The Paul Butterfield Blues Band" T="The Paul Butterfield Blues Band" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="9" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
-  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Rubber Soul" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="10" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
@@ -40,10 +40,10 @@
   <compo A="Perrey And Kingsley" T="The In Sounds From Way Out!" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="13" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="14" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
-  <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt. Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="15" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
   <compo A="Loretta Lynn" T="Don't Come Home a Drinkin'" type="ALBUM" mergeable="true" del="false">
@@ -85,13 +85,13 @@
   <compo A="Kraftwerk" T="Autobahn" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="28" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="29" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
   <compo A="Throbbing Gristle" T="The Second Annual Report" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="30" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="31" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
   <compo A="Various Artists" T="Now That's What I Call Music" type="ALBUM" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <compo A="Mary J. Blige" T="What's The 411?" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="38" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 40 Most Groundbreaking Albums of All Time - 2014" publish="2014" cat="THEME" rangeB="0" rangeE="2014" sorted="false" rank="39" creation="07/09/2018 14:06:20" size="40"/>
   </compo>
   <compo A="Kanye West" T="808s And Heartbreak" type="ALBUM" mergeable="true" del="false">

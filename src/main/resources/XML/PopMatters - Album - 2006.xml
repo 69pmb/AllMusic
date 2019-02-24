@@ -130,7 +130,7 @@
   <compo A="Cat Power" T="The Greatest" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="18" creation="10/08/2018 16:09:55" size="60"/>
   </compo>
-  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="17" creation="10/08/2018 16:09:55" size="60"/>
   </compo>
   <compo A="J Dilla [Jay Dee]" T="Donuts" type="ALBUM" mergeable="true" del="false">

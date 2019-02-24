@@ -19,7 +19,7 @@
   <compo A="Gorillaz" T="Gorillaz" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="6" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="7" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
   <compo A="Daft Punk" T="Discovery" type="ALBUM" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <compo A="Macy Gray" T="The Id" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="17" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="18" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
   <compo A="Craig David" T="Born To Do It" type="ALBUM" mergeable="true" del="false">

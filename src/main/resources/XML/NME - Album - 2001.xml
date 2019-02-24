@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="1" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Spiritualized" T="Let It Come Down" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="3" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="3" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
-  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="4" creation="24/07/2017 00:51:20" size="50"/>
   </compo>
   <compo A="Starsailor" T="Love Is Here" type="ALBUM" mergeable="true" del="false">

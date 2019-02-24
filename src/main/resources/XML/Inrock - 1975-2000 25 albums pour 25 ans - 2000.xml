@@ -4,7 +4,7 @@
   <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="1" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="2" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
   <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
@@ -28,25 +28,25 @@
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="9" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
-  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="10" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
   <compo A="Bjork" T="Homogenic" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="11" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="12" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
   <compo A="Massive Attack" T="Mezzanine" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="13" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="14" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="15" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="16" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
   <compo A="Alain Bashung" T="Fantaisie Militaire" type="ALBUM" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="21" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1975-2000 25 albums pour 25 ans - 2000" publish="2000" cat="LONG_PERIOD" rangeB="1975" rangeE="2000" sorted="true" rank="22" creation="10/09/2018 14:13:13" size="25"/>
   </compo>
   <compo A="Morrissey" T="Vauxhall And I" type="ALBUM" mergeable="true" del="false">

@@ -31,7 +31,7 @@
   <compo A="The Long Winters" T="Putting The Days To Bed" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="10" creation="31/08/2018 10:23:33" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="11" creation="31/08/2018 10:23:33" size="100"/>
   </compo>
   <compo A="Neko Case" T="Fox Confessor Brings The Flood" type="ALBUM" mergeable="true" del="false">

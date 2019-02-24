@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 50 Most Essential Punk Records - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="1" creation="21/07/2017 00:26:02" size="50"/>
   </compo>
   <compo A="Wire" T="Pink Flag" type="ALBUM" mergeable="true" del="false">
@@ -31,13 +31,13 @@
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 50 Most Essential Punk Records - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="10" creation="21/07/2017 00:26:02" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 50 Most Essential Punk Records - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="11" creation="21/07/2017 00:26:02" size="50"/>
   </compo>
   <compo A="Richard Hell" T="Blank Generation" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 50 Most Essential Punk Records - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="12" creation="21/07/2017 00:26:02" size="50"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 50 Most Essential Punk Records - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="13" creation="21/07/2017 00:26:02" size="50"/>
   </compo>
   <compo A="Pere Ubu" T="The Modern Dance" type="ALBUM" mergeable="true" del="false">
@@ -157,10 +157,10 @@
   <compo A="Patti Smith" T="Horses" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 50 Most Essential Punk Records - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="2" creation="21/07/2017 00:26:02" size="50"/>
   </compo>
-  <compo A="Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="false">
+  <compo A="Velvet Underground" T="White Light/White Heat" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 50 Most Essential Punk Records - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="3" creation="21/07/2017 00:26:02" size="50"/>
   </compo>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="false">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 50 Most Essential Punk Records - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="4" creation="21/07/2017 00:26:02" size="50"/>
   </compo>
   <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">

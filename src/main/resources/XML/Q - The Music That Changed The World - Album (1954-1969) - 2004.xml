@@ -7,19 +7,19 @@
   <compo A="Bob Dylan" T="The Freewheeling Bob Dylan" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Music That Changed The World - Album (1954-1969) - 2004" publish="2004" cat="LONG_PERIOD" rangeB="1954" rangeE="1969" sorted="true" rank="2" creation="25/08/2017 20:30:52" size="20"/>
   </compo>
-  <compo A="The Beatles" T="Sgt. Pepper's Lonely Heart Club Band" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="Sgt. Pepper's Lonely Heart Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Music That Changed The World - Album (1954-1969) - 2004" publish="2004" cat="LONG_PERIOD" rangeB="1954" rangeE="1969" sorted="true" rank="3" creation="25/08/2017 20:30:52" size="20"/>
   </compo>
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Music That Changed The World - Album (1954-1969) - 2004" publish="2004" cat="LONG_PERIOD" rangeB="1954" rangeE="1969" sorted="true" rank="4" creation="25/08/2017 20:30:52" size="20"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - The Music That Changed The World - Album (1954-1969) - 2004" publish="2004" cat="LONG_PERIOD" rangeB="1954" rangeE="1969" sorted="true" rank="5" creation="25/08/2017 20:30:52" size="20"/>
   </compo>
-  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Music That Changed The World - Album (1954-1969) - 2004" publish="2004" cat="LONG_PERIOD" rangeB="1954" rangeE="1969" sorted="true" rank="6" creation="25/08/2017 20:30:52" size="20"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - The Music That Changed The World - Album (1954-1969) - 2004" publish="2004" cat="LONG_PERIOD" rangeB="1954" rangeE="1969" sorted="true" rank="7" creation="25/08/2017 20:30:52" size="20"/>
   </compo>
   <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Big Brother And The Holding Company" T="Cheap Thrills" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Music That Changed The World - Album (1954-1969) - 2004" publish="2004" cat="LONG_PERIOD" rangeB="1954" rangeE="1969" sorted="true" rank="16" creation="25/08/2017 20:30:52" size="20"/>
   </compo>
-  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Stooges" T="The Stooges" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Music That Changed The World - Album (1954-1969) - 2004" publish="2004" cat="LONG_PERIOD" rangeB="1954" rangeE="1969" sorted="true" rank="17" creation="25/08/2017 20:30:52" size="20"/>
   </compo>
   <compo A="Chuck Berry" T="Rockin' At The Hops" type="ALBUM" mergeable="true" del="false">

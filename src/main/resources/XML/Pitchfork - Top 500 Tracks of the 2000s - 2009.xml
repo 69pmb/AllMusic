@@ -127,7 +127,7 @@
   <compo A="Battles" T="Atlas" type="SONG" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="42" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="UGK" T="International Player's Anthem" type="SONG" mergeable="true" del="false">
+  <compo A="UGK" T="International Player's Anthem" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="43" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" mergeable="true" del="true">
@@ -1000,7 +1000,7 @@
   <compo A="Death Cab for Cutie" T="A Movie Script Ending" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="333" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
-  <compo A="Grizzly Bear" T="While You Wait for the Others" type="SONG" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="While You Wait for the Others" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 500 Tracks of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="334" creation="25/01/2017 10:01:39" size="500"/>
   </compo>
   <compo A="Max Tundra" T="MBGATE" type="SONG" mergeable="true" del="false">

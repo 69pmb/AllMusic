@@ -7,13 +7,13 @@
   <compo A="Eagles" T="Hotel California" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
   <compo A="James Taylor" T="JT" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
   <compo A="Muddy Waters" T="Hard Again" type="ALBUM" mergeable="true" del="false">
