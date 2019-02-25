@@ -97,7 +97,7 @@
   <compo A="Rod Stewart" T="Gasoline Alley" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="32" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
-  <compo A="The Beatles" T="A Hard Day's Night" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Day's Night" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time Top 100 - 1974" publish="1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="33" creation="04/09/2018 15:40:57" size="100"/>
   </compo>
   <compo A="Rod Stewart" T="Every Picture Tells A Story" type="ALBUM" mergeable="true" del="false">

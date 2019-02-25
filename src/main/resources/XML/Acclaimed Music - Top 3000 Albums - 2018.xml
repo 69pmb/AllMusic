@@ -616,7 +616,7 @@
   <compo A="Metallica" T="Metallica" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="205" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Beatles" T="A Hard Day's Night" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Day's Night" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="206" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="A Tribe Called Quest" T="The Low End Theory" type="ALBUM" mergeable="true" del="false">
