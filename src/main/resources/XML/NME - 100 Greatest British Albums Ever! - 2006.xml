@@ -106,7 +106,7 @@
   <compo A="Radiohead" T="Ok Computer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="35" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="36" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Manic Street Preachers" T="The Holy Bible" type="ALBUM" mergeable="true" del="false">
@@ -187,7 +187,7 @@
   <compo A="Saint Ettienne" T="Fox Base Alpha" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="62" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="63" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Gang of Four" T="Entertainment!" type="ALBUM" mergeable="true" del="false">
@@ -274,7 +274,7 @@
   <compo A="The Fall" T="The Nations Saving Grace" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="91" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="92" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Brian Eno" T="Here Come The Warm Jets" type="ALBUM" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <compo A="Adam And The Ants" T="Kings Of The Wild Frontier" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="96" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - 100 Greatest British Albums Ever! - 2006" publish="2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="97" creation="04/09/2018 15:28:42" size="100"/>
   </compo>
   <compo A="Roots Manuva" T="Run Come Save Me" type="ALBUM" mergeable="true" del="false">

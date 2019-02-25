@@ -64,7 +64,7 @@
   <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="25"/>
   </compo>
-  <compo A="Franz Ferdinand" T="Tonight: Franz Ferdinand" type="ALBUM" mergeable="true" del="false">
+  <compo A="Franz Ferdinand" T="Tonight: Franz Ferdinand" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2009" publish="2009" cat="YEAR" rangeB="2009" rangeE="2009" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="25"/>
   </compo>
   <compo A="Levon Helm" T="Electric Dirt" type="ALBUM" mergeable="true" del="false">

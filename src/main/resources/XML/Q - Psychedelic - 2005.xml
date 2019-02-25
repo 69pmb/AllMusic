@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="1" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
   <compo A="Love" T="Forever Changes" type="ALBUM" mergeable="true" del="true">
@@ -46,7 +46,7 @@
   <compo A="Traffic" T="Mr Fantasy" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="15" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="16" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
   <compo A="Captain Beefheart And His Magic Band" T="Safe As Milk" type="ALBUM" mergeable="true" del="false">

@@ -88,7 +88,7 @@
   <compo A="Replacements" T="Let It Be" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 80's - 2002" publish="2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="29" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 80's - 2002" publish="2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="30" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Sonic Youth" T="EVOL" type="ALBUM" mergeable="true" del="false">

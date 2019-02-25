@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="1" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
   <compo A="Queensryche" T="Operation: Mindcrime" type="ALBUM" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Yes" T="Tales From The Topographic Oceans" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="7" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="8" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
   <compo A="Rush" T="2112" type="ALBUM" mergeable="true" del="false">

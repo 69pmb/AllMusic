@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="1" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
   <compo A="Genesis" T="Foxtrot" type="ALBUM" mergeable="true" del="false">

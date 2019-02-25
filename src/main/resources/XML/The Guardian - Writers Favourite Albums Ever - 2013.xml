@@ -118,7 +118,7 @@
   <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="true">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="39" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="40" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
   <compo A="Throwing Muses" T="Throwing Muses" type="ALBUM" mergeable="true" del="false">
@@ -433,7 +433,7 @@
   <compo A="Captain Beefheart And The Magic Band" T="Safe As Milk" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="144" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
-  <compo A="The Beatles" T="The White Album" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Writers Favourite Albums Ever - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="false" rank="145" creation="27/08/2018 12:18:56" size="164"/>
   </compo>
   <compo A="Scott Walker" T="Scott 4" type="ALBUM" mergeable="true" del="false">

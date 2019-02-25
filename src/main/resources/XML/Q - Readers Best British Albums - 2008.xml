@@ -4,7 +4,7 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="1" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="2" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
   <compo A="Radiohead" T="Ok Computer" type="ALBUM" mergeable="true" del="true">
@@ -25,7 +25,7 @@
   <compo A="Keane" T="Under The Iron Sea" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="8" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="9" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
   <compo A="The Verve" T="Urban Hymns" type="ALBUM" mergeable="true" del="false">
@@ -55,7 +55,7 @@
   <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="18" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="19" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
@@ -85,7 +85,7 @@
   <compo A="Muse" T="Origin Of Symmetry" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="28" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="29" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
   <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
@@ -136,7 +136,7 @@
   <compo A="Pet Shop Boys" T="Behaviour" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="45" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers Best British Albums - 2008" publish="2008" cat="THEME" rangeB="0" rangeE="2008" sorted="true" rank="46" creation="28/08/2018 12:09:34" size="50"/>
   </compo>
   <compo A="Coldplay" T="Parachutes" type="ALBUM" mergeable="true" del="false">

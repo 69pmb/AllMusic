@@ -4,7 +4,7 @@
   <compo A="Bruce Springsteen" T="Tunnel Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Prince" T="Sign O' The Times" type="ALBUM" mergeable="true" del="true">

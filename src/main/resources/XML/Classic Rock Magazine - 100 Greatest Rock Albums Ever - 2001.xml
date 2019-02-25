@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="1" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="2" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Black Sabbath" T="Paranoid" type="ALBUM" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <compo A="Bon Jovi" T="Slippery When Wet" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="9" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="10" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">

@@ -10,7 +10,7 @@
   <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="2" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="3" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Bob Marley" T="Burnin'" type="ALBUM" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="Sly And The Family Stone" T="There's A Riot Goin' On" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="12" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="13" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Run-D.M.C." T="Raising Hell" type="ALBUM" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <compo A="Radiohead" T="Ok Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="15" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="16" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">
@@ -115,7 +115,7 @@
   <compo A="Fela Kuti And Afrika 70/Egypt 80" T="Original Suffer Head/I.T.T." type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="35" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="36" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Blondie" T="Parallel Lines" type="ALBUM" mergeable="true" del="false">
@@ -151,7 +151,7 @@
   <compo A="Korn" T="Follow The Leader" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="48" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 50 Greatest Bands Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="49" creation="28/08/2017 14:29:58" size="50"/>
   </compo>
   <compo A="Red Hot Chili Peppers" T="Blood Sugar Sex Magik" type="ALBUM" mergeable="true" del="true">

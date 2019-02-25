@@ -37,16 +37,16 @@
   <compo A="Sex Pistols" T="Never Mind The Bollocks, Here's The Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="12" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="13" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="14" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="15" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="David Bowie" T="The Rise And Fall Of Ziggy Stardust And The Spiders From Mars" type="ALBUM" mergeable="true" del="true">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="16" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
@@ -55,7 +55,7 @@
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="18" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Pink Floyd" T="The Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="19" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
@@ -76,7 +76,7 @@
   <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="25" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="26" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Arcade Fire" T="Funeral" type="ALBUM" mergeable="true" del="true">
@@ -118,7 +118,7 @@
   <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="39" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="40" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">
@@ -229,7 +229,7 @@
   <compo A="DJ Shadow" T="Endtroducing....." type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="76" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="77" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
@@ -358,7 +358,7 @@
   <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="119" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Pink Floyd" T="The Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="120" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" mergeable="true" del="false">
@@ -622,7 +622,7 @@
   <compo A="A Tribe Called Quest" T="The Low End Theory" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="207" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Jimi Hendrix Experience" T="Axis: Bold As Love" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Axis: Bold As Love" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="208" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Santana" T="Abraxas" type="ALBUM" mergeable="true" del="false">

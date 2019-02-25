@@ -979,7 +979,7 @@
   <compo A="David Bowie" T="The Next Day" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="326" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="327" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="David Bowie" T="Tonight" type="ALBUM" mergeable="true" del="false">
@@ -2191,7 +2191,7 @@
   <compo A="Led Zeppelin" T="In Through The Out Door" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="730" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="731" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" mergeable="false" del="true">
@@ -2821,7 +2821,7 @@
   <compo A="Nusrat Fateh Alikhan" T="Devotional Songs" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="940" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="941" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Oasis" T="Be Here Now" type="ALBUM" mergeable="true" del="false">
@@ -3028,7 +3028,7 @@
   <compo A="Pink Floyd" T="Atom Heart Mother" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1009" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1010" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Pink Floyd" T="Meddle" type="ALBUM" mergeable="true" del="false">
@@ -3994,7 +3994,7 @@
   <compo A="The Beatles" T="Sgt. Pepper's Lonely Heart Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1331" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1332" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Beatles" T="With The Beatles" type="ALBUM" mergeable="true" del="true">
@@ -4303,13 +4303,13 @@
   <compo A="The Jesus Lizard" T="Down" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1434" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1435" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Jimi Hendrix" T="Axis: Bold as Love" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1436" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1437" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Kinks" T="Arthur (Or The Decline And Fall Of The British Empire)" type="ALBUM" mergeable="true" del="false">
@@ -4936,7 +4936,7 @@
   <compo A="U2" T="Rattle And Hum" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1645" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1646" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="U2" T="The Unforgettable Fire" type="ALBUM" mergeable="true" del="false">

@@ -1165,7 +1165,7 @@
   <compo A="Hell" T="Keeps Us Off the Streets" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="390" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="391" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Bernard Herrmann" T="Taxi Driver: Soundtrack" type="ALBUM" mergeable="true" del="false">
@@ -2008,7 +2008,7 @@
   <compo A="Courtney Pine" T="Devotion" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="671" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="672" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Pixies" T="Surfer Rosa" type="ALBUM" mergeable="true" del="true">

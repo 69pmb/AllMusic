@@ -49,10 +49,10 @@
   <compo A="Love" T="Forever Changes" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="16" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="17" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="18" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
@@ -85,7 +85,7 @@
   <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="28" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="29" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Rod Stewart" T="Every Picture Tells A Story" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="46" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="47" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Van Morrison" T="Saint Dominic's Preview" type="ALBUM" mergeable="true" del="false">
@@ -277,7 +277,7 @@
   <compo A="Stevie Wonder" T="Talking Book" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="92" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="93" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Neil Young" T="Harvest" type="ALBUM" mergeable="true" del="true">
@@ -403,7 +403,7 @@
   <compo A="Huey &quot;Piano&quot; Smith" T="Rockin' Pneumonia And The Boogie Woogie Flu" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="134" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1978" publish="1978" cat="ALL_TIME" rangeB="0" rangeE="1978" sorted="true" rank="135" creation="25/06/2018 16:47:53" size="200"/>
   </compo>
   <compo A="Johnny Burnette" T="Johnny Burnette And His Rock'n'roll Trio" type="ALBUM" mergeable="true" del="false">
