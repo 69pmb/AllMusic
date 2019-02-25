@@ -16,7 +16,7 @@
   <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="5" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="6" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
   <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
@@ -40,7 +40,7 @@
   <compo A="Primal Scream" T="Screamadellica" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="13" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best British Albums Ever - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="true" rank="14" creation="28/08/2018 12:01:34" size="50"/>
   </compo>
   <compo A="The Specials" T="The Specials" type="ALBUM" mergeable="true" del="false">

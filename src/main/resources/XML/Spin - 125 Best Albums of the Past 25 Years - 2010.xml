@@ -61,7 +61,7 @@
   <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="20" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story?) Morning Glory" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story?) Morning Glory" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="21" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Eric B. And Rakim" T="Paid In Full" type="ALBUM" mergeable="true" del="false">
@@ -184,7 +184,7 @@
   <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="61" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="62" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="R.E.M." T="Fables Of The Reconstruction" type="ALBUM" mergeable="true" del="false">

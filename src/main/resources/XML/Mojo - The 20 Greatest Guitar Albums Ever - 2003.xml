@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The 20 Greatest Guitar Albums Ever - 2003" publish="2003" cat="THEME" rangeB="0" rangeE="2003" sorted="true" rank="1" creation="22/08/2018 17:27:48" size="20"/>
   </compo>
   <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="true">

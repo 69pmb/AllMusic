@@ -19,10 +19,10 @@
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="6" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="7" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="8" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
@@ -31,7 +31,7 @@
   <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="10" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="11" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
@@ -73,10 +73,10 @@
   <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="24" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="25" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - The 100 Greatest British Albums Ever - 2000" publish="2000" cat="THEME" rangeB="0" rangeE="2000" sorted="true" rank="26" creation="15/07/2017 10:45:54" size="100"/>
   </compo>
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">

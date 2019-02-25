@@ -46,7 +46,7 @@
   <compo A="Elvis Costell" T="King Of America" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="15" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="16" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
   <compo A="The Jesus And Mary Chain" T="Darklands" type="ALBUM" mergeable="true" del="false">
@@ -418,7 +418,7 @@
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="139" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Albums Of The Last 30 Years - 2016" publish="2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="140" creation="29/08/2017 09:37:18" size="466"/>
   </compo>
   <compo A="Pj Harvey" T="To Bring You My Love" type="ALBUM" mergeable="true" del="false">

@@ -298,7 +298,7 @@
   <compo A="Merle Haggard" T="I'm a Lonesome Fugitive" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="99" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="100" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Electric Prunes" T="I Had too Much to Dream" type="ALBUM" mergeable="true" del="false">
@@ -337,7 +337,7 @@
   <compo A="os Mutantes" T="Mutantes, os" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="112" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="113" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Leonard Cohen" T="Songs of Leonard Cohen" type="ALBUM" mergeable="true" del="false">
@@ -400,7 +400,7 @@
   <compo A="Byrds" T="Sweetheart of the Rodeo" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="133" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="134" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Mothers of Invention" T="We're Only in it for the Money" type="ALBUM" mergeable="true" del="false">
@@ -673,7 +673,7 @@
   <compo A="Lake And Palmer Emerson" T="Tarkus" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="224" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="225" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Serge Gainsbourg" T="Histoire de Melody Nelson" type="ALBUM" mergeable="true" del="false">
@@ -799,7 +799,7 @@
   <compo A="Temptations" T="All Directions" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="266" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="267" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="War" T="World is a Ghetto" type="ALBUM" mergeable="true" del="false">
@@ -874,7 +874,7 @@
   <compo A="Waylon Jennings" T="Honky Tonk Heroes" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="291" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="292" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Stevie Wonder" T="Innervisions" type="ALBUM" mergeable="true" del="false">
@@ -1825,7 +1825,7 @@
   <compo A="Pet Shop Boys" T="Actually" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="608" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="609" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Terence Trent D'Arby" T="Introducing the Hardline According to..." type="ALBUM" mergeable="true" del="false">
@@ -2413,7 +2413,7 @@
   <compo A="D'Angelo" T="Brown Sugar" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="804" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="805" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Goldie" T="Timeless" type="ALBUM" mergeable="true" del="false">

@@ -4,7 +4,7 @@
   <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="1" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="2" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
   <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
@@ -139,7 +139,7 @@
   <compo A="Public Image Ltd" T="Metal Box" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="46" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
-  <compo A="Oasis" T="What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - The 100 Best British Albums - 2016" publish="2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="47" creation="10/09/2018 17:01:44" size="100"/>
   </compo>
   <compo A="Led Zeppelin" T="II" type="ALBUM" mergeable="false" del="false">

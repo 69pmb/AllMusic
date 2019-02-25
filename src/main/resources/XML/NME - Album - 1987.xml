@@ -16,7 +16,7 @@
   <compo A="Tom Waits" T="Frank's Wild Years" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="true" rank="5" creation="04/09/2018 10:49:49" size="60"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="true" rank="6" creation="04/09/2018 10:49:49" size="60"/>
   </compo>
   <compo A="Scott La Rock" T="Criminal Mind" type="ALBUM" mergeable="true" del="false">

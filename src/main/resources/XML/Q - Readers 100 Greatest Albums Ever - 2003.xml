@@ -46,7 +46,7 @@
   <compo A="The Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="15" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="16" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Madonna" T="Ray Of Light" type="ALBUM" mergeable="true" del="false">
@@ -61,10 +61,10 @@
   <compo A="Lauryn Hill" T="The Miseducation Of.." type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="20" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="21" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="22" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Dr Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="27" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="28" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
@@ -91,7 +91,7 @@
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="30" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="31" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Smashing Pumpkins" T="Mellon Collie And The Infinite Sadness" type="ALBUM" mergeable="true" del="false">
@@ -133,7 +133,7 @@
   <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="44" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="45" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Eminem" T="The Slim Shady Lp" type="ALBUM" mergeable="true" del="false">
@@ -181,7 +181,7 @@
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="60" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers 100 Greatest Albums Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="61" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Bruce Sprinsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">

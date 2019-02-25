@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - The Greatest Classic Rock Albums Ever - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="1" creation="28/08/2018 10:22:07" size="30"/>
   </compo>
   <compo A="Alice Cooper" T="Killer" type="ALBUM" mergeable="true" del="false">

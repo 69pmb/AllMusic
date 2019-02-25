@@ -40,10 +40,10 @@
   <compo A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="3" creation="31/08/2018 10:12:30" size="15"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="2" creation="31/08/2018 10:12:30" size="15"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - Album - 1968" publish="1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="1" creation="31/08/2018 10:12:30" size="15"/>
   </compo>
 </ListCompositions>

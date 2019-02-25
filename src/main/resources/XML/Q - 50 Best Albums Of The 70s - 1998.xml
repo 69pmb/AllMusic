@@ -4,7 +4,7 @@
   <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="1" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="2" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
@@ -31,13 +31,13 @@
   <compo A="Roxy Music" T="For Your Pleasure" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="10" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="11" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="12" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="13" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">

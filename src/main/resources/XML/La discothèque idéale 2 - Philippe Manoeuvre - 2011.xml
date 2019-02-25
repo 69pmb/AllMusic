@@ -25,7 +25,7 @@
   <compo A="Chuck Berry" T="Golden Hits" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="8" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="9" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="Cream" T="Disraeli Gears" type="ALBUM" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="JJ Cale" T="Naturally" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="46" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="47" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="Mott the Hoople" T="All the Young Dudes" type="ALBUM" mergeable="true" del="false">
@@ -268,7 +268,7 @@
   <compo A="Beastie Boys" T="Licensed to Ill" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="89" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale 2 - Philippe Manoeuvre - 2011" publish="2011" cat="ALL_TIME" rangeB="1950" rangeE="2011" sorted="true" rank="90" creation="23/07/2018 13:54:40" size="106"/>
   </compo>
   <compo A="The Cult" T="Electric" type="ALBUM" mergeable="true" del="false">
