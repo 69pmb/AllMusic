@@ -770,7 +770,7 @@ public final class BatchUtils {
 			Composition found = compoFound.get(0);
 			// update dialog
 			if (RecordType.ALBUM == type) {
-				deleteDialog.updateDialog(prettyPrintForAlbum(compoToDelete), found, i, null);
+				deleteDialog.updateDialog(prettyPrintForAlbum(compoToDelete), found, i, warningForAlbum(compoToDelete));
 			} else {
 				deleteDialog.updateDialog(prettyPrintForSong(compoToDelete.get(0)), found, i,
 						warningForSong(compoToDelete.get(0)));
@@ -870,6 +870,21 @@ public final class BatchUtils {
 			result.add("Classement < 5 Étoiles");
 		} else if (csv.getRank() == null) {
 			result.add("Classement 0 Étoiles !");
+		}
+		return result.stream().collect(Collectors.joining(Constant.NEW_LINE));
+	}
+
+	private static String warningForAlbum(List<CsvComposition> list) {
+		List<String> result = new ArrayList<>();
+		int thirdOfSize = Math.floorDiv(list.size(), 3);
+		if (list.stream()
+				.filter(csv -> csv.getPlayCount() == null || (csv.getPlayCount() != null && csv.getPlayCount() < 10))
+				.count() >= thirdOfSize) {
+			result.add("Beaucoup de lecture < 10");
+		}
+		if (list.stream().filter(csv -> csv.getRank() == null || (csv.getRank() != null && csv.getRank() < 90))
+				.count() >= thirdOfSize) {
+			result.add("Beaucoup de classement < 5 Étoiles");
 		}
 		return result.stream().collect(Collectors.joining(Constant.NEW_LINE));
 	}
