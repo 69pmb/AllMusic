@@ -70,7 +70,7 @@
   <compo A="John Coltrane" T="A Love Supreme" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="23" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
-  <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="24" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
   <compo A="Dusty Springfield" T="Dusty In Memphis" type="ALBUM" mergeable="true" del="false">

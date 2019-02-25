@@ -16,7 +16,7 @@
   <compo A="Nick Drake" T="Five Leaves Left" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="5" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
-  <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Alternative Top 100 Albums Ever - 1999" publish="1999" cat="GENRE" rangeB="0" rangeE="1999" sorted="true" rank="6" creation="25/06/2018 16:30:06" size="100"/>
   </compo>
   <compo A="Curtis Mayfield" T="Curtis" type="ALBUM" mergeable="false" del="false">
