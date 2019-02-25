@@ -52,7 +52,7 @@
   <compo A="Sufjan Stevens" T="Illinois" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="17" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - Top 100 - 2000's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="18" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">

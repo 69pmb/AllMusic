@@ -145,7 +145,7 @@
   <compo A="THE SHINS" T="Chutes Too Narrow" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="3" creation="10/08/2018 16:40:30" size="50"/>
   </compo>
-  <compo A="THE WHITE STRIPES" T="Elephant" type="ALBUM" mergeable="true" del="false">
+  <compo A="THE WHITE STRIPES" T="Elephant" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="2" creation="10/08/2018 16:40:30" size="50"/>
   </compo>
   <compo A="OUTKAST" T="Speakerboxxx/The Love Below" type="ALBUM" mergeable="true" del="false">

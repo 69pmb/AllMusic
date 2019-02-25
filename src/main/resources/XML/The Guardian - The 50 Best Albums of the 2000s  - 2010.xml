@@ -130,7 +130,7 @@
   <compo A="Jay-Z" T="The Black Album" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - The 50 Best Albums of the 2000s  - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="8" creation="27/08/2018 12:16:18" size="50"/>
   </compo>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - The 50 Best Albums of the 2000s  - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="7" creation="27/08/2018 12:16:18" size="50"/>
   </compo>
   <compo A="Amy Winehouse" T="Back To Black" type="ALBUM" mergeable="true" del="true">

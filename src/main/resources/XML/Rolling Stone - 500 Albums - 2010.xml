@@ -1234,7 +1234,7 @@
   <compo A="Don Henley" T="The End Of The Innocence" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="389" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="390" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Jackson Browne" T="The Pretender" type="ALBUM" mergeable="true" del="false">

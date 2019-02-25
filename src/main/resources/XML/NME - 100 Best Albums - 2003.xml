@@ -220,7 +220,7 @@
   <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="73" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="74" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
