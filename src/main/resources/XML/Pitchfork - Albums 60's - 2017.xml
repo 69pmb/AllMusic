@@ -109,7 +109,7 @@
   <compo A="Sonny Rollins" T="The Bridge" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="165" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Beatles" T="A Hard Day's Night" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Day's Night" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="164" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Big Brother And the Holding Company" T="Cheap Thrills" type="ALBUM" mergeable="true" del="false">

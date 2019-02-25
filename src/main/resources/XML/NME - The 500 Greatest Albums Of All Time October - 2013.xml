@@ -583,7 +583,7 @@
   <compo A="Guns N'Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="194" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Days Night" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="195" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Stranglers" T="Rattus Norvegicus" type="ALBUM" mergeable="true" del="false">
