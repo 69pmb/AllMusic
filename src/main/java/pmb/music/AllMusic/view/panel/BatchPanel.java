@@ -57,6 +57,7 @@ import pmb.music.AllMusic.view.PanelUtils;
  * associates to it and get the average for the file: averageOfFilesByFiles</li>
  * <li>Looks for weird file size: weirdFileSize</li>
  * <li>Générer des statistiques: stats</li>
+ * <li>Checks if deleted</li>
  * <li>By looking in other files, guess the type of unknown compositions:
  * findUnknown
  * </ul>
@@ -84,7 +85,7 @@ public class BatchPanel extends JPanel {
 	public BatchPanel() {
 		super();
 		LOG.debug("Start BatchPanel");
-		this.setLayout(new GridLayout(14, 1));
+		this.setLayout(new GridLayout(15, 1));
 
 		findDuplicateComposition();
 		massDeletion();
@@ -98,6 +99,7 @@ public class BatchPanel extends JPanel {
 		averageOfFilesByFiles();
 		weirdFileSize();
 		stats();
+		checksIfDeleted();
 		findUnknown();
 		lastLine();
 
@@ -173,23 +175,7 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(massDeletion, massDeletionLabel, Component.LEFT_ALIGNMENT, 100);
 
 		// File chooser
-		JPanel choose = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-		JLabel selectedFile = new JLabel();
-		JFileChooser jfile = new JFileChooser(Constant.getResourcesDir());
-		jfile.setApproveButtonText("Ouvrir");
-		jfile.setPreferredSize(new Dimension(1200, 600));
-		jfile.setFileFilter(new FileNameExtensionFilter("csv", "csv"));
-		JButton browse = ComponentBuilder.buildJButton("Parcourir", 220, Constant.ICON_FOLDER);
-		browse.setToolTipText("Charge un fichier csv contenant des compositions");
-		browse.addActionListener((ActionEvent arg0) -> {
-			LOG.debug("Start browse");
-			if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
-				selectedFile.setText(jfile.getSelectedFile().getAbsolutePath());
-			}
-		});
-		PanelUtils.addComponent(choose, browse, Component.LEFT_ALIGNMENT, 0);
-		PanelUtils.addComponent(choose, selectedFile, Component.LEFT_ALIGNMENT, 0);
-		PanelUtils.addComponent(massDeletion, choose, Component.LEFT_ALIGNMENT, 0);
+		JLabel selectedFile = buildFileChooser(massDeletion, "csv", "Charge un fichier csv contenant des compositions");
 
 		// Type
 		JPanel typePanel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
@@ -480,6 +466,58 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(stat);
+	}
+
+	private void checksIfDeleted() {
+		JPanel checks = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
+
+		// Label
+		JLabel checksLabel = new JLabel("Vérifie si supprimé: ");
+		PanelUtils.addComponent(checks, checksLabel, Component.LEFT_ALIGNMENT, 100);
+
+		// File chooser
+		JLabel selectedFile = buildFileChooser(checks, "txt", "Charge un fichier txt contenant des chansons");
+
+		// Bouton d'action
+		JButton checksBtn = ComponentBuilder.buildJButton("Go checksIfDeleted", 200, Constant.ICON_GO);
+		checksBtn.setToolTipText("Supprime en masse des compositions.");
+		checksBtn.addActionListener((ActionEvent arg0) -> {
+			if (selectedFile.getText() != null
+					&& !StringUtils.equalsIgnoreCase(selectedFile.getText(), Constant.getResourcesDir())) {
+				LOG.debug("End browse");
+				displayText("Start checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
+				new Thread(() -> {
+					fileResult = BatchUtils.checksIfDeleted(new File(selectedFile.getText()));
+					displayText("End checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
+				}).start();
+			} else {
+				displayText("No selected file", false);
+			}
+		});
+		PanelUtils.addComponent(checks, checksBtn, Component.RIGHT_ALIGNMENT, 100);
+
+		this.add(checks);
+	}
+
+	private JLabel buildFileChooser(JPanel checks, String extention, String label) {
+		JPanel choose = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
+		JLabel selectedFile = new JLabel();
+		JFileChooser jfile = new JFileChooser(Constant.getResourcesDir());
+		jfile.setApproveButtonText("Ouvrir");
+		jfile.setPreferredSize(new Dimension(1200, 600));
+		jfile.setFileFilter(new FileNameExtensionFilter(extention, extention));
+		JButton browse = ComponentBuilder.buildJButton("Parcourir", 220, Constant.ICON_FOLDER);
+		browse.setToolTipText(label);
+		browse.addActionListener((ActionEvent arg0) -> {
+			LOG.debug("Start browse");
+			if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
+				selectedFile.setText(jfile.getSelectedFile().getAbsolutePath());
+			}
+		});
+		PanelUtils.addComponent(choose, browse, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(choose, selectedFile, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(checks, choose, Component.LEFT_ALIGNMENT, 0);
+		return selectedFile;
 	}
 
 	private void findUnknown() {
