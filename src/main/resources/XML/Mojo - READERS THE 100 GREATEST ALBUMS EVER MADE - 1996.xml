@@ -10,7 +10,7 @@
   <compo A="The Beatles" T="Abbey Road" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="3" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="4" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
@@ -40,19 +40,19 @@
   <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="13" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="14" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="15" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="16" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="The Stooges" T="Fun House" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="16" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="17" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="The Doors" T="The Doors" type="ALBUM" mergeable="true" del="true">
@@ -79,7 +79,7 @@
   <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="23" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="24" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="David Bowie" T="Hunky Dory" type="ALBUM" mergeable="true" del="true">
@@ -88,7 +88,7 @@
   <compo A="The Band" T="The Band" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="26" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="27" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" mergeable="true" del="true">
@@ -142,7 +142,7 @@
   <compo A="Derek And The Dominos" T="Layla" type="ALBUM" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="44" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - READERS THE 100 GREATEST ALBUMS EVER MADE - 1996" publish="1996" cat="ALL_TIME" rangeB="0" rangeE="1996" sorted="true" rank="45" creation="23/08/2018 14:09:16" size="100"/>
   </compo>
   <compo A="The Byrds" T="The Notorious Byrd Brothers" type="ALBUM" mergeable="true" del="false">

@@ -484,7 +484,7 @@
   <compo A="Ike And Tina Turner" T="River Deep, Mountain High" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="40" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="39" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" mergeable="true" del="true">
@@ -562,7 +562,7 @@
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="14" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="13" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" mergeable="false" del="true">
@@ -589,7 +589,7 @@
   <compo A="Nina Simone" T="Wild Is the Wind" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="5" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 60's - 2017" publish="2017" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="4" creation="23/07/2018 14:38:50" size="200"/>
   </compo>
   <compo A="John Coltrane" T="A Love Supreme" type="ALBUM" mergeable="true" del="false">

@@ -100,7 +100,7 @@
   <compo A="Eminem" T="The Slim Shady LP" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="33" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="34" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
   <compo A="Wilco" T="Being There" type="ALBUM" mergeable="true" del="false">

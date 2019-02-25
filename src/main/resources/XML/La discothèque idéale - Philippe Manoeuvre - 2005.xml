@@ -37,10 +37,10 @@
   <compo A="Big Brother and the Holding Company" T="Cheap Thrills" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="12" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="13" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="14" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Jeff Beck" T="Beck-Ola" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="John Lennon" T="Imagine" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="39" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="40" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Alice Cooper" T="Killer" type="ALBUM" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Santana" T="Caravanserai" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="46" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="47" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Todd Rundgren" T="A Wizard, a True Star" type="ALBUM" mergeable="true" del="false">
@@ -283,7 +283,7 @@
   <compo A="Red Hot Chili Peppers" T="One Hot Minute" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="94" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
-  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="La discothèque idéale - Philippe Manoeuvre - 2005" publish="2005" cat="ALL_TIME" rangeB="1950" rangeE="2005" sorted="true" rank="95" creation="23/07/2018 13:56:05" size="102"/>
   </compo>
   <compo A="Alice in Chains" T="Alice in Chains" type="ALBUM" mergeable="true" del="false">

@@ -19,7 +19,7 @@
   <compo A="Neil Young" T="Mirror Ball" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
   <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">

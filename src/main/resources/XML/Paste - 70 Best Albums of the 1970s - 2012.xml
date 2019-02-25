@@ -175,7 +175,7 @@
   <compo A="The Who" T="Who's Next" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="13" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="12" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="The Beatles" T="Let It Be" type="ALBUM" mergeable="true" del="true">
@@ -193,13 +193,13 @@
   <compo A="Miles Davis" T="Bitches Brew" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="7" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="6" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="5" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 70 Best Albums of the 1970s - 2012" publish="2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="4" creation="31/08/2018 09:53:22" size="70"/>
   </compo>
   <compo A="The Rolling Stones" T="Exile On Main St." type="ALBUM" mergeable="true" del="true">

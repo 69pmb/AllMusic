@@ -31,7 +31,7 @@
   <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="10" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="11" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Leonard Cohen" T="The Songs Of Leonard Cohen" type="ALBUM" mergeable="true" del="true">
@@ -55,10 +55,10 @@
   <compo A="Black Sabbath" T="Master Of Reality" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="18" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="19" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - 60 Most Important Albums Of NME's Lifetime (60 Years) - 2012" publish="2012" cat="ALL_TIME" rangeB="1952" rangeE="2012" sorted="false" rank="20" creation="04/09/2018 14:02:51" size="60"/>
   </compo>
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">

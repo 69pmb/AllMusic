@@ -10,7 +10,7 @@
   <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="3" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="4" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" mergeable="true" del="true">
@@ -43,7 +43,7 @@
   <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="14" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="15" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
   <compo A="The Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">

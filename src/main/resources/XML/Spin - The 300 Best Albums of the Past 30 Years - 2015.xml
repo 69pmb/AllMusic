@@ -547,7 +547,7 @@
   <compo A="Built To Spill" T="Keep It Like A Secret" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="119" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="118" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Primal Scream" T="XTRMNTR" type="ALBUM" mergeable="true" del="false">
@@ -664,7 +664,7 @@
   <compo A="Bikini Kill" T="The Singles" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="80" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 300 Best Albums of the Past 30 Years - 2015" publish="2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="79" creation="30/08/2018 11:20:07" size="300"/>
   </compo>
   <compo A="Frank Ocean" T="Nostalgia, ULTRA." type="ALBUM" mergeable="true" del="false">

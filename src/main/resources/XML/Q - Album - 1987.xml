@@ -142,7 +142,7 @@
   <compo A="Trouble Funk" T="Trouble Over Here, Trouble Over There" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="47" creation="28/08/2018 11:33:49" size="50"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1987" publish="1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="false" rank="48" creation="28/08/2018 11:33:49" size="50"/>
   </compo>
   <compo A="Jennifer Warnes" T="Famous Blue Raincoat" type="ALBUM" mergeable="true" del="false">

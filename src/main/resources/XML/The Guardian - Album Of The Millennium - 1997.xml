@@ -13,10 +13,10 @@
   <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="4" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="5" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="6" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
@@ -28,7 +28,7 @@
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="9" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The White Album" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="10" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" mergeable="true" del="true">
@@ -55,10 +55,10 @@
   <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="18" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="19" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="20" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Massive Attack" T="Blue Lines" type="ALBUM" mergeable="true" del="true">
@@ -91,7 +91,7 @@
   <compo A="Oasis" T="Be Here Now" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="30" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="31" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
@@ -190,10 +190,10 @@
   <compo A="Leftfield" T="Leftism" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="63" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="64" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="65" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="Manic Street Preachers" T="The Holy Bible" type="ALBUM" mergeable="true" del="false">

@@ -22,7 +22,7 @@
   <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="7" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="8" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <compo A="Joni Mitchell" T="Blue" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="28" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="29" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <compo A="Elvis Cosleilo And The Attractions" T="Blood And Chocolate" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="39" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="40" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="true">
@@ -166,7 +166,7 @@
   <compo A="Lou Reed" T="Transformer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="55" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="56" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="The Jam" T="All Mod Cons" type="ALBUM" mergeable="true" del="false">

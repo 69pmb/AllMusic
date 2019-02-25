@@ -70,7 +70,7 @@
   <compo A="Etta James" T="At Last!" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="38" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="37" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="Sam Cooke" T="Night Beat" type="ALBUM" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <compo A="Johnny Cash" T="At Folsom Prison" type="ALBUM" mergeable="true" del="false">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="8" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="Paste" name="Paste - 60 Best Albums of the 1960s - 2012" publish="2012" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="7" creation="31/08/2018 09:52:53" size="60"/>
   </compo>
   <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" mergeable="true" del="true">

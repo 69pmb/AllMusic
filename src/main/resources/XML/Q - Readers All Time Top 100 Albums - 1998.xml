@@ -22,13 +22,13 @@
   <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="7" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="8" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Prodigy" T="The Fat Of The Land" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="9" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side OF The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side OF The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="10" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Manic Street Preachers" T="Everything Must Go" type="ALBUM" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="16" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="17" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="The Verve" T="Urban Hymns" type="ALBUM" mergeable="true" del="false">
@@ -64,19 +64,19 @@
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="21" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="22" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="23" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="24" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="25" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="Q" name="Q - Readers All Time Top 100 Albums - 1998" publish="1998" cat="ALL_TIME" rangeB="0" rangeE="1998" sorted="true" rank="26" creation="25/01/2017 10:01:40" size="100"/>
   </compo>
   <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">

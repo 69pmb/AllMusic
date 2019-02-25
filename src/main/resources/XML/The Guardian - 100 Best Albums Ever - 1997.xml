@@ -19,13 +19,13 @@
   <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="6" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="7" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" mergeable="false" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="8" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The White Album" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="9" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" mergeable="true" del="true">
@@ -52,7 +52,7 @@
   <compo A="Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="17" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="(What's the Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="18" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
@@ -85,10 +85,10 @@
   <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="28" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="29" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="30" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Bob Marley" T="Natty Dread" type="ALBUM" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="36" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="37" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="56" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Joshua Tree" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="57" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Who" T="Who's Next?" type="ALBUM" mergeable="true" del="true">
@@ -265,7 +265,7 @@
   <compo A="ABC" T="Lexicon Of Love" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="88" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="false">
+  <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="The Guardian" name="The Guardian - 100 Best Albums Ever - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="89" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="Iggy And The Stooges" T="Raw Power" type="ALBUM" mergeable="true" del="false">

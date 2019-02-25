@@ -82,7 +82,7 @@
   <compo A="Aretha Franklin" T="Greatest Hits" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="27" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="28" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Pere Ubu" T="The Modern Dance" type="ALBUM" mergeable="true" del="false">
@@ -97,7 +97,7 @@
   <compo A="Smoky Bacon And The Miracles" T="Anthology" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="32" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="33" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Dexys Midnight Runners" T="Searching For The Young Soul Rebels" type="ALBUM" mergeable="true" del="false">
