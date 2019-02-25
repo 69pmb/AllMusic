@@ -1,9 +1,12 @@
 package pmb.music.AllMusic.utils;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
@@ -1021,6 +1024,67 @@ public final class BatchUtils {
 		criteria.put(SearchUtils.CRITERIA_TITRE, SearchUtils.removePunctuation(SearchUtils
 				.removeParentheses(CleanFile.removeDiactriticals(MiscUtils.cleanLine(titre.toLowerCase(), entrySet)))));
 		return criteria;
+	}
+
+	/**
+	 * Checks if the compositions in the given file are deleted.
+	 * 
+	 * @param file the file
+	 * @return file result name
+	 */
+	public static String checksIfDeleted(File file) {
+		LOG.debug("Start checksIfDeleted");
+		StringBuilder text = new StringBuilder();
+		addLine(text, "Checks If Deleted: ", true);
+
+		String line = "";
+		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		int i = 1;
+		try (BufferedReader br = new BufferedReader(
+				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
+			while ((line = br.readLine()) != null) {
+				String[] split = StringUtils.split(line, "-");
+				if (split.length == 2) {
+					if (StringUtils.split(split[1], "/").length > 1) {
+						List<String> titles = Arrays.asList(StringUtils.split(split[1], "/"));
+						for (String title : titles) {
+							checksOneIfDeleted(text, importXML, split, split[0].trim(), title.trim(), i);
+						}
+					} else {
+						checksOneIfDeleted(text, importXML, split, split[0].trim(), split[1].trim(), i);
+					}
+				} else {
+					addLine(text, line + ": Can't be splitted" + ", line " + i, false);
+				}
+				i++;
+			}
+		} catch (IOException e1) {
+			addLine(text, e1.getMessage(), true);
+		}
+
+		LOG.debug("End checksIfDeleted");
+		return writeInFile(text, "ChecksIfDeleted.txt");
+	}
+
+	private static void checksOneIfDeleted(StringBuilder text, List<Composition> importXML, String[] split,
+			String artist, String title, int index) {
+		Map<String, String> criteria = fillSearchCriteriaForMassDeletion(RecordType.SONG.toString(), artist, title);
+		List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
+				false);
+		String result = null;
+		if (compoFound.isEmpty()) {
+			// nothing found
+			result = "Not Found";
+		} else if (compoFound.size() > 1) {
+			// Multiple result
+			result = "Size: " + compoFound.size();
+		} else if (compoFound.get(0).isDeleted()) {
+			// Already deleted
+			result = "Already";
+		}
+		if (result != null) {
+			addLine(text, artist + " - " + title + ": " + result + ", line " + index, false);
+		}
 	}
 
 	/**
