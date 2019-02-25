@@ -289,7 +289,7 @@
   <compo A="Coldplay" T="Viva La Vida" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 100 Greatest Albums Of The 00's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="5" creation="28/08/2018 14:32:35" size="100"/>
   </compo>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 100 Greatest Albums Of The 00's - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="4" creation="28/08/2018 14:32:35" size="100"/>
   </compo>
   <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
