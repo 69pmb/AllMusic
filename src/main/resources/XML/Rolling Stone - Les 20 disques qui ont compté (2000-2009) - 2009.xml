@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Les 20 disques qui ont compté (2000-2009) - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="false" rank="1" creation="07/09/2018 13:21:56" size="20"/>
   </compo>
   <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">

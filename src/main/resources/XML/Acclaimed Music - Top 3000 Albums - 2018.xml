@@ -232,7 +232,7 @@
   <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="77" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="false">
+  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="78" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
