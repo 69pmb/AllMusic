@@ -1030,9 +1030,10 @@ public final class BatchUtils {
 	 * Checks if the compositions in the given file are deleted.
 	 * 
 	 * @param file the file
+	 * @param type record type of the file
 	 * @return file result name
 	 */
-	public static String checksIfDeleted(File file) {
+	public static String checksIfDeleted(File file, RecordType type) {
 		LOG.debug("Start checksIfDeleted");
 		StringBuilder text = new StringBuilder();
 		addLine(text, "Checks If Deleted: ", true);
@@ -1043,15 +1044,15 @@ public final class BatchUtils {
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
 			while ((line = br.readLine()) != null) {
-				String[] split = StringUtils.split(line, "-");
+				String[] split = StringUtils.splitByWholeSeparator(line, " - ");
 				if (split.length == 2) {
 					if (StringUtils.split(split[1], "/").length > 1) {
 						List<String> titles = Arrays.asList(StringUtils.split(split[1], "/"));
 						for (String title : titles) {
-							checksOneIfDeleted(text, importXML, split, split[0].trim(), title.trim(), i);
+							checksOneIfDeleted(text, importXML, split, split[0].trim(), title.trim(), i, type);
 						}
 					} else {
-						checksOneIfDeleted(text, importXML, split, split[0].trim(), split[1].trim(), i);
+						checksOneIfDeleted(text, importXML, split, split[0].trim(), split[1].trim(), i, type);
 					}
 				} else {
 					addLine(text, line + ": Can't be splitted" + ", line " + i, false);
@@ -1067,8 +1068,8 @@ public final class BatchUtils {
 	}
 
 	private static void checksOneIfDeleted(StringBuilder text, List<Composition> importXML, String[] split,
-			String artist, String title, int index) {
-		Map<String, String> criteria = fillSearchCriteriaForMassDeletion(RecordType.SONG.toString(), artist, title);
+			String artist, String title, int index, RecordType type) {
+		Map<String, String> criteria = fillSearchCriteriaForMassDeletion(type.toString(), artist, title);
 		List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
 				false);
 		String result = null;

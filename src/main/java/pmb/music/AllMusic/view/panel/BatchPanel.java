@@ -178,13 +178,7 @@ public class BatchPanel extends JPanel {
 		JLabel selectedFile = buildFileChooser(massDeletion, "csv", "Charge un fichier csv contenant des compositions");
 
 		// Type
-		JPanel typePanel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-		JLabel typeLabel = ComponentBuilder.buildJLabel("Type : ", 50);
-		JComboBox<RecordType> type = new JComboBox<>(new RecordType[] { RecordType.SONG, RecordType.ALBUM });
-		PanelUtils.setSize(type, 100, ComponentBuilder.COMPONENT_HEIGHT);
-		PanelUtils.addComponent(typePanel, typeLabel, Component.LEFT_ALIGNMENT, 0);
-		PanelUtils.addComponent(typePanel, type, Component.LEFT_ALIGNMENT, 0);
-		PanelUtils.addComponent(massDeletion, typePanel, Component.RIGHT_ALIGNMENT, 100);
+		JComboBox<RecordType> type = buildTypeComboBox(massDeletion);
 
 		// Bouton d'action
 		JButton massDeletionBtn = ComponentBuilder.buildJButton("Go Mass Deletion", 200, Constant.ICON_GO);
@@ -206,6 +200,17 @@ public class BatchPanel extends JPanel {
 		PanelUtils.addComponent(massDeletion, massDeletionBtn, Component.RIGHT_ALIGNMENT, 100);
 
 		this.add(massDeletion);
+	}
+
+	private JComboBox<RecordType> buildTypeComboBox(JPanel parent) {
+		JPanel typePanel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
+		JLabel typeLabel = ComponentBuilder.buildJLabel("Type : ", 50);
+		JComboBox<RecordType> type = new JComboBox<>(new RecordType[] { RecordType.SONG, RecordType.ALBUM });
+		PanelUtils.setSize(type, 100, ComponentBuilder.COMPONENT_HEIGHT);
+		PanelUtils.addComponent(typePanel, typeLabel, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(typePanel, type, Component.LEFT_ALIGNMENT, 0);
+		PanelUtils.addComponent(parent, typePanel, Component.RIGHT_ALIGNMENT, 100);
+		return type;
 	}
 
 	/**
@@ -478,8 +483,11 @@ public class BatchPanel extends JPanel {
 		// File chooser
 		JLabel selectedFile = buildFileChooser(checks, "txt", "Charge un fichier txt contenant des chansons");
 
+		// Type
+		JComboBox<RecordType> type = buildTypeComboBox(checks);
+
 		// Bouton d'action
-		JButton checksBtn = ComponentBuilder.buildJButton("Go checksIfDeleted", 200, Constant.ICON_GO);
+		JButton checksBtn = ComponentBuilder.buildJButton("Go Checks If Deleted", 200, Constant.ICON_GO);
 		checksBtn.setToolTipText("Supprime en masse des compositions.");
 		checksBtn.addActionListener((ActionEvent arg0) -> {
 			if (selectedFile.getText() != null
@@ -487,7 +495,8 @@ public class BatchPanel extends JPanel {
 				LOG.debug("End browse");
 				displayText("Start checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
 				new Thread(() -> {
-					fileResult = BatchUtils.checksIfDeleted(new File(selectedFile.getText()));
+					fileResult = BatchUtils.checksIfDeleted(new File(selectedFile.getText()),
+							(RecordType) type.getSelectedItem());
 					displayText("End checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
 				}).start();
 			} else {
