@@ -73,13 +73,13 @@
   <compo A="Tove Styrke" T="Changed My Mind" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="27" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Carly Rae Jepsen" T="Party For One" type="SONG" mergeable="true" del="false">
+  <compo A="Carly Rae Jepsen" T="Party For One" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="26" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Mitski" T="A Pearl" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="25" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="The Carters" T="Ape Shit" type="SONG" mergeable="true" del="false">
+  <compo A="The Carters" T="Ape Shit" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="24" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Christina Aguilera" T="Unless It's With You" type="SONG" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <compo A="Kacey Musgraves" T="High Horse" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="15" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Sheck Wes" T="Mo Bamba" type="SONG" mergeable="true" del="false">
+  <compo A="Sheck Wes" T="Mo Bamba" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Snail Mail" T="Pristine" type="SONG" mergeable="true" del="true">
@@ -133,7 +133,7 @@
   <compo A="Courtney Barnett" T="Charity" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Lana Del Rey" T="Mariners Apartment Complex" type="SONG" mergeable="true" del="false">
+  <compo A="Lana Del Rey" T="Mariners Apartment Complex" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Drake" T="Nice For What" type="SONG" mergeable="true" del="true">
@@ -142,13 +142,13 @@
   <compo A="Camila Cabello" T="Never Be The Same" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Cardi B" T="I Like It" type="SONG" mergeable="true" del="false">
+  <compo A="Cardi B" T="I Like It" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Lady Gaga And Bradley Cooper" T="Shallow" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Drake" T="In My Feelings" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="In My Feelings" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
 </ListCompositions>

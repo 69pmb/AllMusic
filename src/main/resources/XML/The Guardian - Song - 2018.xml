@@ -25,7 +25,7 @@
   <compo A="Robyn" T="Missing U" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Cardi B" T="I Like It" type="SONG" mergeable="true" del="false">
+  <compo A="Cardi B" T="I Like It" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="The 1975" T="Love It If We Made It" type="SONG" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <compo A="Troye Sivan" T="My My My!" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Lizzo" T="Boys" type="SONG" mergeable="true" del="false">
+  <compo A="Lizzo" T="Boys" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="15" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="DJ Koze" T="Pick Up" type="SONG" mergeable="true" del="true">
@@ -55,13 +55,13 @@
   <compo A="Kacey Musgraves" T="High Horse" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="18" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Drake" T="In My Feelings" type="SONG" mergeable="true" del="false">
+  <compo A="Drake" T="In My Feelings" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="19" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Rolling Blackouts Coastal Fever" T="Mainland" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="20" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="THE CARTERS" T="APESHIT" type="SONG" mergeable="true" del="false">
+  <compo A="THE CARTERS" T="APESHIT" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="21" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="King Princess" T="1950" type="SONG" mergeable="true" del="false">
@@ -118,13 +118,13 @@
   <compo A="SOPHIE" T="Faceshopping" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="39" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Yves Tumor" T="Noid" type="SONG" mergeable="true" del="false">
+  <compo A="Yves Tumor" T="Noid" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="40" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Arctic Monkeys" T="Four Out Of Five" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="41" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Empress Of" T="When I'm With Him" type="SONG" mergeable="true" del="false">
+  <compo A="Empress Of" T="When I'm With Him" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="42" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Years And Years" T="Sanctify" type="SONG" mergeable="true" del="false">
@@ -163,7 +163,7 @@
   <compo A="Nines" T="I See You Shining" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="54" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Cardi B" T="Be Careful" type="SONG" mergeable="true" del="false">
+  <compo A="Cardi B" T="Be Careful" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="55" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Kali Uchis" T="After The Storm" type="SONG" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="Tracey Thorn" T="Dancefloor" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="64" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Lana Del Rey" T="Mariners Apartment Complex" type="SONG" mergeable="true" del="false">
+  <compo A="Lana Del Rey" T="Mariners Apartment Complex" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="65" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Pusha T" T="If You Know You Know" type="SONG" mergeable="true" del="false">
