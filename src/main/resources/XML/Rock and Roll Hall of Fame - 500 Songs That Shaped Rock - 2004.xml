@@ -583,7 +583,7 @@
   <compo A="Jimi Hendrix" T="Voodoo Child (Slight Return)" type="SONG" mergeable="false" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="194" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Hollies" T="Bus Stop" type="SONG" mergeable="true" del="false">
+  <compo A="The Hollies" T="Bus Stop" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="195" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Buddy Holly" T="Peggy Sue" type="SONG" mergeable="true" del="true">
@@ -1159,7 +1159,7 @@
   <compo A="Mitch Ryder and the Detroit Wheels" T="Devil With a Blue Dress On/Good Golly Miss Molly" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="386" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Sam and Dave" T="Soul Man" type="SONG" mergeable="true" del="false">
+  <compo A="Sam and Dave" T="Soul Man" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="387" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Sam The Sham" T="Wooly Bully" type="SONG" mergeable="true" del="false">
