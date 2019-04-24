@@ -85,7 +85,7 @@
   <compo A="St. Lenox" T="Ten Fables Of Young Ambition And Passionate Love" type="ALBUM" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="43" creation="18/12/2018 09:55:04" size="70"/>
   </compo>
-  <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="42" creation="18/12/2018 09:55:04" size="70"/>
   </compo>
   <compo A="Kelly Moran" T="Ultraviolet" type="ALBUM" mergeable="true" del="false">
@@ -202,7 +202,7 @@
   <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="18/12/2018 09:55:04" size="70"/>
   </compo>
-  <compo A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" mergeable="true" del="false">
+  <compo A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="18/12/2018 09:55:04" size="70"/>
   </compo>
   <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="true">

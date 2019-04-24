@@ -208,7 +208,7 @@
   <compo A="Slipknot" T="Iowa" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="69" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Rage Against the Machine" T="Rage Against the Machine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rage Against the Machine" T="Rage Against the Machine" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="70" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Machine Head" T="Burn My Eyes" type="ALBUM" mergeable="true" del="false">

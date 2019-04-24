@@ -91,7 +91,7 @@
   <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="30" creation="04/09/2018 10:48:41" size="50"/>
   </compo>
-  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="31" creation="04/09/2018 10:48:41" size="50"/>
   </compo>
   <compo A="Buffalo Tom" T="Big Red Letter Day" type="ALBUM" mergeable="true" del="false">

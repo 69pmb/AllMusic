@@ -34,7 +34,7 @@
   <compo A="Billie Eilish" T="You Should See Me In A Crown" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="50" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Four Out Of Five" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Four Out Of Five" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="49" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
   <compo A="The Poster Children" T="Grand Bargain!" type="SONG" mergeable="true" del="false">
@@ -94,7 +94,7 @@
   <compo A="CHVRCHES" T="Get Out" type="SONG" mergeable="true" del="false">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
-  <compo A="Idles" T="Samaritans" type="SONG" mergeable="true" del="false">
+  <compo A="Idles" T="Samaritans" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="29" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
   <compo A="Django Django" T="Marble Skies" type="SONG" mergeable="true" del="false">
@@ -166,7 +166,7 @@
   <compo A="Ella Mai" T="Boo'd Up" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
-  <compo A="Young Fathers" T="In My View" type="SONG" mergeable="true" del="false">
+  <compo A="Young Fathers" T="In My View" type="SONG" mergeable="true" del="true">
     <file author="PopMatters" name="PopMatters - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="5" creation="20/12/2018 10:18:11" size="60"/>
   </compo>
   <compo A="George FitzGerald" T="Roll Back" type="SONG" mergeable="true" del="false">
