@@ -1,7 +1,7 @@
 @echo off
 cd C:\Users\workspace\git\AllMusic
 :debut
-set /p answer="1. CMD    2. Code    3. Update    4.Build    5.Start  "
+set /p answer="1. CMD    2. Code    3. Update    4.Build    5.Start with Artist Panel    6.Start without Artist Panel  "
 set "result=nothing"
 IF /i "%answer%"=="1" (
 	cmd.exe /K "cd ."
@@ -14,7 +14,9 @@ IF /i "%answer%"=="1" (
 	call mvn install -q -Dmaven.test.skip=true
  goto debut
 ) else IF /i "%answer%"=="5" (
-	call "AllMusic - Start.bat"
+	mvn exec:java -Dexec.args=true
+) else IF /i "%answer%"=="6" (
+	mvn exec:java -Dexec.args=false
 ) else (
  goto debut
 )
