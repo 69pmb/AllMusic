@@ -79,7 +79,7 @@
   <compo A="Nas" T="Illmatic" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="26" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="27" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
   <compo A="Madonna" T="Ray Of Light" type="ALBUM" mergeable="true" del="false">

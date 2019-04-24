@@ -148,7 +148,7 @@
   <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="18/12/2018 09:50:01" size="50"/>
   </compo>
-  <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="18/12/2018 09:50:01" size="50"/>
   </compo>
 </ListCompositions>

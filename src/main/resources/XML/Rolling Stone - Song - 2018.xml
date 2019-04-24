@@ -4,7 +4,7 @@
   <compo A="Weezer" T="Africa" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="50" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Four Out Of Five" type="SONG" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Four Out Of Five" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="49" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Teyana Taylor" T="Gonna Love Me" type="SONG" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Paul McCartney" T="Come On To Me" type="SONG" mergeable="true" del="false">
+  <compo A="Paul McCartney" T="Come On To Me" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Courtney Barnett" T="Charity" type="SONG" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="Drake" T="Nice For What" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="5" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
-  <compo A="Camila Cabello" T="Never Be The Same" type="SONG" mergeable="true" del="false">
+  <compo A="Camila Cabello" T="Never Be The Same" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="18/12/2018 09:50:55" size="50"/>
   </compo>
   <compo A="Cardi B" T="I Like It" type="SONG" mergeable="true" del="true">
