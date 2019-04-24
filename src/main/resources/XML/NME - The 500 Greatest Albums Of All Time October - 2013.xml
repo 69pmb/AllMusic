@@ -319,7 +319,7 @@
   <compo A="Led Zeppelin" T="IV" type="ALBUM" mergeable="false" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="106" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="107" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Weezer" T="Pinkerton" type="ALBUM" mergeable="true" del="false">

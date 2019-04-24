@@ -199,7 +199,7 @@
   <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="66" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="67" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" mergeable="true" del="true">

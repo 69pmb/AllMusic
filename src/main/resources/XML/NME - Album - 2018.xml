@@ -7,7 +7,7 @@
   <compo A="Arctic Monkeys" T="Tranquility Base Hotel And Casino" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
-  <compo A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" mergeable="true" del="false">
+  <compo A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
   <compo A="Sunflower Bean" T="Twentytwo In Blue" type="ALBUM" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <compo A="Kali Uchis" T="Isolation" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
-  <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="17/12/2018 16:04:28" size="100"/>
   </compo>
   <compo A="Mitski" T="Be The Cowboy" type="ALBUM" mergeable="true" del="false">

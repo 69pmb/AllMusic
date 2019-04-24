@@ -13,7 +13,7 @@
   <compo A="The Good, The Bad And The Queen" T="Merrie Land" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="47" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
-  <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="46" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
   <compo A="Mac Miller" T="Swimming" type="ALBUM" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
-  <compo A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" mergeable="true" del="false">
+  <compo A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="19/12/2018 10:20:01" size="50"/>
   </compo>
   <compo A="Christine And The Queens" T="Chris" type="ALBUM" mergeable="true" del="true">
