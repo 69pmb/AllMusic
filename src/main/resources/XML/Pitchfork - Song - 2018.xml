@@ -214,7 +214,7 @@
   <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
-  <compo A="Let's Eat Grandma" T="Falling Into Me" type="SONG" mergeable="true" del="false">
+  <compo A="Let's Eat Grandma" T="Falling Into Me" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="29" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
   <compo A="Peggy Gou" T="It Makes You Forget (Itgehane)" type="SONG" mergeable="true" del="true">
@@ -259,7 +259,7 @@
   <compo A="Robyn" T="Missing U" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="15" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
-  <compo A="Valee And Jeremih" T="Womp Womp" type="SONG" mergeable="true" del="false">
+  <compo A="Valee And Jeremih" T="Womp Womp" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
   <compo A="Noname" T="Self" type="SONG" mergeable="true" del="false">
@@ -274,7 +274,7 @@
   <compo A="CupcakKe" T="Duck Duck Goose" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
-  <compo A="Mitski" T="Nobody" type="SONG" mergeable="true" del="false">
+  <compo A="Mitski" T="Nobody" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
   <compo A="Ariana Grande" T="Thank U, Next" type="SONG" mergeable="true" del="true">
@@ -292,13 +292,13 @@
   <compo A="Drake" T="Nice For What" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
-  <compo A="ROSALIA" T="Malamente" type="SONG" mergeable="true" del="false">
+  <compo A="ROSALIA" T="Malamente" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
   <compo A="Robyn" T="Honey" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
-  <compo A="The 1975" T="Love It If We Made It" type="SONG" mergeable="true" del="false">
+  <compo A="The 1975" T="Love It If We Made It" type="SONG" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="18/12/2018 09:53:46" size="100"/>
   </compo>
 </ListCompositions>
