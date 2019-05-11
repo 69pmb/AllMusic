@@ -4,13 +4,13 @@
   <compo A="MGMT" T="Me And Michael" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="20/12/2018 09:59:24" size="75"/>
   </compo>
-  <compo A="Mitski" T="Nobody" type="SONG" mergeable="true" del="false">
+  <compo A="Mitski" T="Nobody" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="20/12/2018 09:59:24" size="75"/>
   </compo>
   <compo A="Janelle Monae" T="Make Me Feel" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="20/12/2018 09:59:24" size="75"/>
   </compo>
-  <compo A="Let's Eat Grandma" T="Falling Into Me" type="SONG" mergeable="true" del="false">
+  <compo A="Let's Eat Grandma" T="Falling Into Me" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="20/12/2018 09:59:24" size="75"/>
   </compo>
   <compo A="Father John Misty" T="Please Don't Die" type="SONG" mergeable="true" del="true">
@@ -28,7 +28,7 @@
   <compo A="Robyn" T="Missing U" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="20/12/2018 09:59:24" size="75"/>
   </compo>
-  <compo A="Anderson .Paak" T="'Til It's Over" type="SONG" mergeable="true" del="false">
+  <compo A="Anderson .Paak" T="'Til It's Over" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="20/12/2018 09:59:24" size="75"/>
   </compo>
   <compo A="Boygenius" T="Me And My Dog" type="SONG" mergeable="true" del="true">
@@ -172,7 +172,7 @@
   <compo A="Chromatics" T="Black Walls" type="SONG" mergeable="true" del="false">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="57" creation="20/12/2018 09:59:24" size="75"/>
   </compo>
-  <compo A="Parquet Courts" T="Wide Awake" type="SONG" mergeable="true" del="false">
+  <compo A="Parquet Courts" T="Wide Awake" type="SONG" mergeable="true" del="true">
     <file author="MusicForAnts" name="MusicForAnts - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="58" creation="20/12/2018 09:59:24" size="75"/>
   </compo>
   <compo A="Chris Farren" T="The Way That I Love U Has Changed" type="SONG" mergeable="true" del="false">

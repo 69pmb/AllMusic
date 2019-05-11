@@ -28,7 +28,7 @@
   <compo A="Cardi B" T="I Like It" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="The 1975" T="Love It If We Made It" type="SONG" mergeable="true" del="false">
+  <compo A="The 1975" T="Love It If We Made It" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Peggy Gou" T="It Makes You Forget (Itgehane)" type="SONG" mergeable="true" del="true">
@@ -49,7 +49,7 @@
   <compo A="DJ Koze" T="Pick Up" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="16" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="ROSALIA" T="Malamente" type="SONG" mergeable="true" del="false">
+  <compo A="ROSALIA" T="Malamente" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="17" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Kacey Musgraves" T="High Horse" type="SONG" mergeable="true" del="true">
@@ -70,7 +70,7 @@
   <compo A="Mitski" T="Geyser" type="SONG" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="23" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
-  <compo A="Mitski" T="Nobody" type="SONG" mergeable="true" del="false">
+  <compo A="Mitski" T="Nobody" type="SONG" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="24" creation="19/12/2018 09:44:15" size="100"/>
   </compo>
   <compo A="Dave And Fredo" T="Funky Friday" type="SONG" mergeable="true" del="false">
