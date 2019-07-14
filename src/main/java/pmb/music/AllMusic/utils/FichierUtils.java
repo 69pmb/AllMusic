@@ -31,8 +31,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Cat;
@@ -40,6 +38,8 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.view.panel.ImportPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 /**
  * Classe utilitaire pour la gestion des {@link Fichier}.
@@ -110,8 +110,9 @@ public final class FichierUtils {
 			v.addElement(f.getCategorie().getCat());
 			v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
 			// % of deleted
-			BigDecimal numberOfDeleted = new BigDecimal(importXML.stream().reduce(0,
-					(sum, item) -> item.isDeleted() ? sum + 1 : sum, (sumA, sumB) -> sumA + sumB));
+			int reduce = importXML.stream().reduce(0,
+					(sum, item) -> item.isDeleted() ? sum + 1 : sum, (sumA, sumB) -> sumA + sumB);
+			BigDecimal numberOfDeleted = new BigDecimal(reduce);
 			BigDecimal size = new BigDecimal(f.getSize() == 0 ? importXML.size() : f.getSize());
 			v.addElement(BigDecimal.valueOf(100D).setScale(2).multiply(numberOfDeleted)
 					.divide(size, RoundingMode.HALF_UP).doubleValue() + " %");
