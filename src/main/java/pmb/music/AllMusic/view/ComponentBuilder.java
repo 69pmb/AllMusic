@@ -32,13 +32,13 @@ import org.apache.commons.lang3.StringUtils;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
 import org.kordamp.ikonli.swing.FontIcon;
 
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.matchers.TextMatcherEditor;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.matchers.TextMatcherEditor;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Builder for various JComponent. Created by PBR on 4 févr. 2019.
@@ -49,7 +49,7 @@ public class ComponentBuilder<T> {
 	public static final int PANEL_HEIGHT = 70;
 	public static final int COMPONENT_HEIGHT = 25;
 	public static final int LABEL_HEIGHT = 15;
-	private ComponentBuilderConfiguration<T> config;
+	private final ComponentBuilderConfiguration<T> config;
 
 	/**
 	 * Creates a builder for a specific component. It will be parametrized by the
