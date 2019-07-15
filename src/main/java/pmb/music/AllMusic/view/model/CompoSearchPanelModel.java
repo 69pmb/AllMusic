@@ -36,7 +36,7 @@ public class CompoSearchPanelModel extends AbstractModel {
 	 * @param data {@link Vector} les données
 	 * @param title {@link Vector} les entetes du tableau
 	 */
-	public CompoSearchPanelModel(Vector<?> data, Vector<?> title) {
+	public CompoSearchPanelModel(Vector<? extends Vector<?>> data, Vector<?> title) {
 		super(data, title);
 	}
 
