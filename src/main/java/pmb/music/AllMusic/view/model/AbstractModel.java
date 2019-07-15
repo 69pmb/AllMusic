@@ -34,7 +34,7 @@ public abstract class AbstractModel extends DefaultTableModel {
 	 * @param data {@link Vector} les données
 	 * @param title {@link Vector} les entetes du tableau
 	 */
-	public AbstractModel(Vector<?> data, Vector<?> title) {
+	public AbstractModel(Vector<? extends Vector<?>> data, Vector<?> title) {
 		super(data, title);
 	}
 
