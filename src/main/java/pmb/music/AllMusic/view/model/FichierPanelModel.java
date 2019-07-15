@@ -38,7 +38,7 @@ public class FichierPanelModel extends AbstractModel {
 	 * @param data {@link Vector} les données
 	 * @param title {@link Vector} les entetes du tableau
 	 */
-	public FichierPanelModel(Vector<?> data, Vector<?> title) {
+	public FichierPanelModel(Vector<? extends Vector<?>> data, Vector<?> title) {
 		super(data, title);
 	}
 

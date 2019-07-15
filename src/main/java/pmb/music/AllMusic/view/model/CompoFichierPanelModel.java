@@ -35,7 +35,7 @@ public class CompoFichierPanelModel extends AbstractModel {
 	 * @param data {@link Vector} les données
 	 * @param title {@link Vector} les entetes du tableau
 	 */
-	public CompoFichierPanelModel(Vector<?> data, Vector<?> title) {
+	public CompoFichierPanelModel(Vector<? extends Vector<?>> data, Vector<?> title) {
 		super(data, title);
 	}
 
