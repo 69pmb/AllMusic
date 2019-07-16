@@ -89,7 +89,12 @@ public final class MenuPanel {
 					try {
 						FichierUtils.openFileInNotepad(Optional.of(Constant.getConfigPath()).orElse(null), null);
 					} catch (MyException e) {
-						LOG.error("Error when opening config file", e);
+						LOG.warn("Error when opening configuration file", e);
+						try {
+							Desktop.getDesktop().open(new File(Constant.getConfigPath()).getParentFile());
+						} catch (IOException e1) {
+							LOG.error("Error when opening configuration file directory", e);
+						}
 					}
 				}, null);
 
