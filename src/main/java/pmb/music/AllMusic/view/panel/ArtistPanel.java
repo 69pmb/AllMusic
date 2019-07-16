@@ -126,8 +126,7 @@ public class ArtistPanel extends JPanel {
 				.withComponentWidth(150).withLabelWidth(150).build();
 		// Publi
 		publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(header)
-				.withValues(
-						Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new))
+				.withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
 				.withLabel("Année de publication : ").withPanelWidth(230).withComponentWidth(75).withLabelWidth(200)
 				.build();
 		// Range
@@ -140,7 +139,7 @@ public class ArtistPanel extends JPanel {
 				.withFilterContains(true).withComponentWidth(150).withLabelWidth(150).build();
 		// Categorie
 		cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(header)
-				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).toArray(String[]::new))
+				.withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getCat))
 				.withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(120).withLabelWidth(150).build();
 		// Deleted
 		deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(header)

@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collection;
 import java.util.Comparator;
@@ -19,6 +20,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.Vector;
+import java.util.function.Function;
 
 import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -182,6 +184,18 @@ public final class MiscUtils {
 			result.add(row);
 		}
 		return result;
+	}
+
+	/**
+	 * When given values of a enum, project and transform to array of String.
+	 * 
+	 * @param <T> type of the enum
+	 * @param values all values of the enum
+	 * @param projection to get enum value
+	 * @return array of String
+	 */
+	public static <T> String[] getEnumValues(T[] values, Function<T, String> projection) {
+		return Arrays.asList(values).stream().map(projection).toArray(String[]::new);
 	}
 
 	/**

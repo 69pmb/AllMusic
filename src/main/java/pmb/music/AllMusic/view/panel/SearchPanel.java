@@ -43,6 +43,7 @@ import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -224,8 +225,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				.withComponentWidth(150).withLabelWidth(180).build();
 		// SearchMethod
 		searchMethod = (JComboBox<String>) new ComponentBuilder<String>(JComboBox.class).withParent(searchFields)
-				.withPanelWidth(200).withLabel("Méthode de recherche : ").withValues(Arrays
-						.asList(SearchMethod.values()).stream().map(SearchMethod::getValue).toArray(String[]::new))
+				.withPanelWidth(200).withLabel("Méthode de recherche : ")
+				.withValues(MiscUtils.getEnumValues(SearchMethod.values(), SearchMethod::getValue))
 				.withComponentWidth(150).withLabelWidth(150).build();
 		// Nom du fichier
 		fileName = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
@@ -236,8 +237,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				.withFilterContains(true).withComponentWidth(150).withLabelWidth(140).build();
 		// Type
 		type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(searchFields)
-				.withValues(Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType)
-						.toArray(String[]::new))
+				.withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
 				.withLabel("Type : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(180).build();
 		// Range
 		range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(searchFields)
@@ -245,12 +245,11 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				.withFlowLayout(true).build();
 		// Categorie
 		cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(searchFields)
-				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).toArray(String[]::new))
+				.withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getCat))
 				.withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(150).build();
 		// Publi
 		publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(searchFields)
-				.withValues(
-						Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new))
+				.withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
 				.withLabel("Année de publication : ").withPanelWidth(230).withComponentWidth(100).withLabelWidth(240)
 				.build();
 		// inFiles
@@ -296,7 +295,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 							// composition sélectionnée
 							try {
 								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-										new LinkedList<Composition>(
+										new LinkedList<>(
 												Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult,
 														row.get().get(INDEX_ARTIST), row.get().get(INDEX_TITRE),
 														row.get().get(INDEX_TYPE), true))),
