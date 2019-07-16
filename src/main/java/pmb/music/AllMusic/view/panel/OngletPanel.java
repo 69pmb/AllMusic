@@ -15,6 +15,7 @@ import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 import javax.swing.event.ChangeEvent;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
 import org.apache.log4j.Logger;
 
@@ -26,6 +27,7 @@ import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.PanelUtils;
@@ -165,36 +167,32 @@ public class OngletPanel extends JPanel {
 	}
 
 	/**
-	 * Extracts the artist from a list of compositions, (unique and sorted) and set
-	 * to artistList.
+	 * Extracts the artist from a list of compositions, (unique and sorted) and set to artistList.
 	 * 
 	 * @param importXML the list
 	 */
 	private static void setArtistList(List<Composition> importXML) {
-		OngletPanel.artistList = importXML.parallelStream().map(Composition::getArtist).map(WordUtils::capitalize)
-				.distinct().sorted().toArray(String[]::new);
+		OngletPanel.artistList = MiscUtils.distinctSortToArray(MiscUtils.projectAndCapitalize(importXML,
+				Composition::getArtist, artist -> StringUtils.startsWithIgnoreCase(artist, "the") ? StringUtils.substringAfter(artist, "the") : artist));
 	}
 
 	/**
-	 * Extracts the title from a list of compositions, (unique and sorted) and set
-	 * to titleList.
+	 * Extracts the title from a list of compositions, (unique and sorted) and set to titleList.
 	 * 
 	 * @param importXML the list
 	 */
 	private static void setTitleList(List<Composition> importXML) {
-		OngletPanel.titleList = importXML.parallelStream().map(Composition::getTitre).map(WordUtils::capitalize)
-				.distinct().sorted().toArray(String[]::new);
+		OngletPanel.titleList = MiscUtils.distinctSortToArray(MiscUtils.projectAndCapitalize(importXML, Composition::getTitre, null));
 	}
 
 	/**
-	 * Extracts the author from a list of compositions, (unique and sorted) and set
-	 * to authorList.
+	 * Extracts the author from a list of compositions, (unique and sorted) and set to authorList.
 	 * 
 	 * @param importXML the list
 	 */
 	private static void setAuthorList(List<Composition> importXML) {
-		OngletPanel.authorList = importXML.parallelStream().map(Composition::getFiles).flatMap(List::stream)
-				.map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted().toArray(String[]::new);
+		OngletPanel.authorList = MiscUtils.distinctSortToArray(() -> importXML.parallelStream().map(Composition::getFiles).flatMap(List::stream)
+				.map(Fichier::getAuthor).map(WordUtils::capitalize));
 	}
 
 	private static String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
