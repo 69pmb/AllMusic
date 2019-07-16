@@ -188,8 +188,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				.withLabelWidth(190).build();
 		// Publi
 		publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(inputs)
-				.withValues(
-						Arrays.asList(SearchRange.values()).stream().map(SearchRange::getValue).toArray(String[]::new))
+				.withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
 				.withLabel("Année de publication : ").withPanelWidth(250).withComponentWidth(100).withLabelWidth(210)
 				.build();
 		// Range
@@ -198,13 +197,12 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				.withFlowLayout(true).build();
 		// Categorie
 		cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
-				.withValues(Arrays.asList(Cat.values()).stream().map(Cat::getCat).toArray(String[]::new))
+				.withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getCat))
 				.withFlowLayout(true).withLabel("Catégorie : ").withPanelWidth(200).withComponentWidth(120)
 				.withLabelWidth(150).build();
 		// Type
 		type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
-				.withValues(Arrays.asList(RecordType.values()).stream().map(RecordType::getRecordType)
-						.toArray(String[]::new))
+				.withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
 				.withFlowLayout(true).withLabel("Type : ").withPanelWidth(200).withComponentWidth(150)
 				.withLabelWidth(150).build();
 		// Sorted
@@ -358,7 +356,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 							// composition sélectionnée
 							try {
 								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-										new LinkedList<Composition>(
+										new LinkedList<>(
 												Arrays.asList(CompositionUtils.findByArtistTitreAndType(compositionList,
 														selectedRow.get().get(INDEX_COMPO_ARTIST),
 														selectedRow.get().get(INDEX_COMPO_TITLE),
