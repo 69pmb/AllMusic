@@ -764,12 +764,12 @@ public final class BatchUtils {
 		if (compoFound.isEmpty()) {
 			// nothing found
 			result = "Not Found";
-		} else if (compoFound.size() > 1) {
-			// Multiple result
-			result = "Size: " + compoFound.size();
 		} else if (compoFound.get(0).isDeleted()) {
 			// Already deleted
 			result = "Already";
+		} else if (compoFound.size() > 1) {
+			// Multiple result
+			result = "Size: " + compoFound.size();
 		} else {
 			// Composition can be deleted
 			Composition found = compoFound.get(0);
