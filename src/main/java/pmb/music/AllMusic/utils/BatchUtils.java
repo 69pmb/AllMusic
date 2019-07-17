@@ -15,6 +15,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.text.DecimalFormat;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -280,7 +282,7 @@ public final class BatchUtils {
 				if (result.containsKey(key)) {
 					result.get(key).add(item);
 				} else {
-					result.put(key, new LinkedList<String>(Arrays.asList(item)));
+					result.put(key, new LinkedList<>(Arrays.asList(item)));
 				}
 			} else {
 				notFound.incrementAndGet();
@@ -817,8 +819,7 @@ public final class BatchUtils {
 		sb.append(Constant.NEW_LINE).append(csv.getArtist()).append(" - ").append(csv.getTitre());
 		try {
 			Field[] declaredFields = CsvComposition.class.getDeclaredFields();
-			for (int i = 0; i < declaredFields.length; i++) {
-				Field field = declaredFields[i];
+			for (Field field : declaredFields) {
 				if (ignoreField.contains(field.getName())) {
 					continue;
 				}
@@ -845,7 +846,7 @@ public final class BatchUtils {
 	private static String convertValueField(Field field, Object fieldValue) {
 		String result;
 		if (field.getType().equals(Date.class)) {
-			result = fieldValue != null ? new Constant().getSdfDt().format(fieldValue) : "";
+			result = fieldValue != null ? new Constant().getFullDTF().format(LocalDateTime.ofInstant(((Date) fieldValue).toInstant(), ZoneId.systemDefault())) : "";
 		} else if (field.getName().equals("rank")) {
 			result = fieldValue != null ? String.valueOf((Integer) fieldValue / 20) + " Stars" : "0 Stars";
 		} else if (field.getType().equals(Integer.class)) {
@@ -979,7 +980,7 @@ public final class BatchUtils {
 			} else {
 				result = "{ "
 						+ collect.entrySet().stream()
-								.collect(Collectors.toMap(Map.Entry::getValue, e -> new ArrayList<String>(Arrays.asList(
+								.collect(Collectors.toMap(Map.Entry::getValue, e -> new ArrayList<>(Arrays.asList(
 										convertValueField(declaredField, ((Optional<?>) e.getKey()).orElse(null)))),
 										(o, n) -> {
 											o.addAll(n);
