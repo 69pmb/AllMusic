@@ -49,7 +49,7 @@
   <compo A="The Beatles" T="Let It Be" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="3" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The Most Influential Artist Of All Time - 2000" publish="2000" cat="ALL_TIME" rangeB="0" rangeE="2000" sorted="true" rank="4" creation="04/09/2018 14:12:49" size="20"/>
   </compo>
   <compo A="Public Enemy" T="Fear Of A Black Planet" type="ALBUM" mergeable="true" del="false">

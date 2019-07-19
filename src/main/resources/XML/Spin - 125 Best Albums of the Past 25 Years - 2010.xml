@@ -16,7 +16,7 @@
   <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="5" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="6" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="true">
@@ -85,7 +85,7 @@
   <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="28" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
-  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 125 Best Albums of the Past 25 Years - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="true" rank="29" creation="30/08/2018 11:15:54" size="125"/>
   </compo>
   <compo A="A Tribe Called Quest" T="The Low End Theory" type="ALBUM" mergeable="true" del="false">

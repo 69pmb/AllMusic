@@ -58,7 +58,7 @@
   <compo A="David Bowie" T="Young Americans" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="19" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Public Enemy" T="Bring The Noise" type="SONG" mergeable="true" del="false">
+  <compo A="Public Enemy" T="Bring The Noise" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="20" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="The Cure" T="A Night Like This" type="SONG" mergeable="true" del="false">
@@ -199,7 +199,7 @@
   <compo A="The Sex Pistols" T="Anarchy In The Uk" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="66" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
-  <compo A="Tom Jones" T="It's Not Unusual" type="SONG" mergeable="true" del="false">
+  <compo A="Tom Jones" T="It's Not Unusual" type="SONG" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Singles Of All Time - 1989" publish="1989" cat="ALL_TIME" rangeB="0" rangeE="1989" sorted="true" rank="67" creation="21/07/2017 00:26:02" size="100"/>
   </compo>
   <compo A="David Bowie" T="Heroes" type="SONG" mergeable="true" del="true">

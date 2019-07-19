@@ -49,7 +49,7 @@
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="16" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="17" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
@@ -1222,7 +1222,7 @@
   <compo A="Ride" T="Going Blank Again" type="ALBUM" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="407" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Pavement" T="Crooked Rain Crooked Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Crooked Rain Crooked Rain" type="ALBUM" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="408" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Can" T="Tago Mago" type="ALBUM" mergeable="true" del="false">

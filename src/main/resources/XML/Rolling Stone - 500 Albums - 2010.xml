@@ -148,7 +148,7 @@
   <compo A="John Coltrane" T="A Love Supreme" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="47" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="48" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="The Allman Brothers Band" T="At Fillmore East" type="ALBUM" mergeable="true" del="false">
@@ -283,7 +283,7 @@
   <compo A="Stevie Wonder" T="Talking Book" type="ALBUM" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="90" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="91" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Buddy Holly" T="20 Golden Greats" type="ALBUM" mergeable="true" del="false">
@@ -652,7 +652,7 @@
   <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="209" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="210" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="The Rolling Stones" T="Tattoo You" type="ALBUM" mergeable="true" del="false">

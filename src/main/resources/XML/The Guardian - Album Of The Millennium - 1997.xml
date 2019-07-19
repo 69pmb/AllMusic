@@ -274,7 +274,7 @@
   <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="91" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions...." type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="92" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="R.E.M." T="Out Of Time" type="ALBUM" mergeable="true" del="false">
@@ -298,7 +298,7 @@
   <compo A="The Eagles" T="Hotel California" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="99" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="100" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
 </ListCompositions>

@@ -61,7 +61,7 @@
   <compo A="New Order" T="Blue Monday" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="20" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Dexys Midnight Runners" T="Geno" type="SONG" mergeable="true" del="false">
+  <compo A="Dexys Midnight Runners" T="Geno" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="21" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Blondie" T="Heart Of Glass" type="SONG" mergeable="true" del="true">
@@ -274,7 +274,7 @@
   <compo A="The Jam" T="The Eaton Rifles" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="91" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Public Enemy" T="Bring The Noise" type="SONG" mergeable="true" del="false">
+  <compo A="Public Enemy" T="Bring The Noise" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Singles Of All Time - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="92" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Aaliyah" T="Try Again" type="SONG" mergeable="true" del="false">

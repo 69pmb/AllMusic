@@ -1213,7 +1213,7 @@
   <compo A="Elton John" T="Elton John" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="404" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="405" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Elton John" T="Honky Chateau" type="ALBUM" mergeable="true" del="false">
@@ -2947,7 +2947,7 @@
   <compo A="Pavement" T="Brighten The Corners" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="982" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Pavement" T="Crooked Rain Crooked Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Crooked Rain Crooked Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="983" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
@@ -3169,7 +3169,7 @@
   <compo A="Public Enemy" T="Fear Of A Black Planet" type="ALBUM" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1056" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1057" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Public Enemy" T="Yo! Bum Rush The Show" type="ALBUM" mergeable="true" del="false">

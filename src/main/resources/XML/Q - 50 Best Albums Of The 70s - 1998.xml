@@ -121,7 +121,7 @@
   <compo A="The Jam" T="Setting Sons" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="40" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Best Albums Of The 70s - 1998" publish="1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="41" creation="25/01/2017 10:01:40" size="50"/>
   </compo>
   <compo A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" mergeable="true" del="false">

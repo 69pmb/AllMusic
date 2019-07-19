@@ -4,7 +4,7 @@
   <compo A="Radiohead" T="Ok Computer" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="1" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="2" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
@@ -187,7 +187,7 @@
   <compo A="Missy Elliott" T="Supa Dupa Fly" type="ALBUM" mergeable="true" del="false">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="62" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
-  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Spin" name="Spin - 100 Greatest Albums (1985-2005) - 2005" publish="2005" cat="ALL_TIME" rangeB="1985" rangeE="2005" sorted="true" rank="63" creation="25/01/2017 10:01:42" size="105"/>
   </compo>
   <compo A="Eminem" T="The Marshall Mathers Lp" type="ALBUM" mergeable="true" del="false">
