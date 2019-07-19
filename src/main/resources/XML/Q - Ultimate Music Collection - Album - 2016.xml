@@ -49,7 +49,7 @@
   <compo A="Michael Jackson" T="Thriller" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Album - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="16" creation="29/08/2017 09:42:12" size="122"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Album - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="17" creation="29/08/2017 09:42:12" size="122"/>
   </compo>
   <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
@@ -121,7 +121,7 @@
   <compo A="OutKast" T="Aquemini" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - Ultimate Music Collection - Album - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="40" creation="29/08/2017 09:42:12" size="122"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions THold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - Ultimate Music Collection - Album - 2016" publish="2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="41" creation="29/08/2017 09:42:12" size="122"/>
   </compo>
   <compo A="Run DMC" T="Raising Hell" type="ALBUM" mergeable="true" del="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Public Enemy" T="Rebel Without A Pause" type="SONG" mergeable="true" del="false">
+  <compo A="Public Enemy" T="Rebel Without A Pause" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="1" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
   <compo A="Nirvana" T="Smells Like Teen Sprit" type="SONG" mergeable="true" del="true">
@@ -106,7 +106,7 @@
   <compo A="R.E.M." T="Radio Free Europe" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="35" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
-  <compo A="The Human League" T="Love Action" type="SONG" mergeable="true" del="false">
+  <compo A="The Human League" T="Love Action" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="36" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
   <compo A="De La Soul" T="Me, Myself And I" type="SONG" mergeable="true" del="false">
@@ -184,13 +184,13 @@
   <compo A="The Orb" T="Little Fluffy Clouds" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="61" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
-  <compo A="Dexy's Midnight Runners" T="Geno" type="SONG" mergeable="true" del="false">
+  <compo A="Dexy's Midnight Runners" T="Geno" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="62" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
   <compo A="Aphex Twin" T="Didgeridoo" type="SONG" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="63" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
-  <compo A="Prodigy" T="No Good (Start The Dance)" type="SONG" mergeable="true" del="false">
+  <compo A="Prodigy" T="No Good (Start The Dance)" type="SONG" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - The 100 Greatest Singles Of The Post 1976 - 2001" publish="2001" cat="LONG_PERIOD" rangeB="1976" rangeE="2001" sorted="true" rank="64" creation="25/01/2017 10:01:42" size="100"/>
   </compo>
   <compo A="M|A|R|R|S" T="Pump Up The Volume" type="SONG" mergeable="true" del="true">

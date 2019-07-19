@@ -325,7 +325,7 @@
   <compo A="Glasvegas" T="Glasvegas" type="ALBUM" mergeable="true" del="false">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="108" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="109" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Mgmt" T="Oracular Spectacular" type="ALBUM" mergeable="true" del="true">
@@ -400,7 +400,7 @@
   <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="133" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
-  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Q" name="Q - 250 best albums of Q's lifetime - 2011" publish="2011" cat="LONG_PERIOD" rangeB="1986" rangeE="2011" sorted="true" rank="134" creation="05/01/2018 13:17:17" size="250"/>
   </compo>
   <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">

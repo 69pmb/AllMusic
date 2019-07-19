@@ -1318,7 +1318,7 @@
   <compo A="The Jesus and Mary Chain" T="Psycho Candy" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="441" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="442" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Linton Kwesi Johnson" T="Dread Beat an' Blood" type="ALBUM" mergeable="true" del="false">
@@ -2065,7 +2065,7 @@
   <compo A="Psychedelic Furs" T="Talk Talk Talk" type="ALBUM" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="690" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes a Nation of Millions tHold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Albums to Hear Before You Die - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="691" creation="08/08/2017 23:13:02" size="1052"/>
   </compo>
   <compo A="Public Image Ltd" T="Metal Box" type="ALBUM" mergeable="true" del="false">

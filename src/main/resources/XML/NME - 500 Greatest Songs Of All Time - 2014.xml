@@ -349,7 +349,7 @@
   <compo A="The Killers" T="Mr Brightside" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="116" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Dexys Midnight Runners" T="Geno" type="SONG" mergeable="true" del="false">
+  <compo A="Dexys Midnight Runners" T="Geno" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="117" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="The Strokes" T="Someday" type="SONG" mergeable="true" del="true">
@@ -517,7 +517,7 @@
   <compo A="LCD Soundsystem" T="Someone Great" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="172" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Public Enemy" T="Rebel Without A Pause" type="SONG" mergeable="true" del="false">
+  <compo A="Public Enemy" T="Rebel Without A Pause" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="173" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="McAlmont And Butler" T="Yes" type="SONG" mergeable="true" del="false">
@@ -547,7 +547,7 @@
   <compo A="The Who" T="I Can See For Miles" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="182" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Prodigy" T="No Good (Start The Dance)" type="SONG" mergeable="true" del="false">
+  <compo A="The Prodigy" T="No Good (Start The Dance)" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="183" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Queen" T="Under Pressure" type="SONG" mergeable="true" del="true">
@@ -631,7 +631,7 @@
   <compo A="The Fall" T="Hit The North" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="210" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Supremes" T="You Keep Me Hanging On" type="SONG" mergeable="true" del="false">
+  <compo A="The Supremes" T="You Keep Me Hanging On" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="211" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="R.E.M." T="Radio Free Europe" type="SONG" mergeable="true" del="true">
@@ -871,7 +871,7 @@
   <compo A="Glasvegas" T="Daddy's Gone" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="290" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Robert Wyatt" T="Shipbuilding" type="SONG" mergeable="true" del="false">
+  <compo A="Robert Wyatt" T="Shipbuilding" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="291" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Electric Light Orchestra" T="Mr Blue Sky" type="SONG" mergeable="true" del="false">
@@ -1021,7 +1021,7 @@
   <compo A="Eminem" T="Stan" type="SONG" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="340" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Kelis" T="Caught Out There" type="SONG" mergeable="true" del="false">
+  <compo A="Kelis" T="Caught Out There" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="341" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Kasabian" T="Club Foot" type="SONG" mergeable="true" del="true">
@@ -1114,13 +1114,13 @@
   <compo A="Bjork" T="Hyperballad" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="371" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Public Enemy" T="Don't Believe The Hype" type="SONG" mergeable="true" del="false">
+  <compo A="Public Enemy" T="Don't Believe The Hype" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="372" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Arctic Monkeys" T="Brainstorm" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="373" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="The Human League" T="Love Action" type="SONG" mergeable="true" del="false">
+  <compo A="The Human League" T="Love Action" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="374" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Michael Jackson" T="Don't Stop 'Till You Get Enough" type="SONG" mergeable="true" del="false">

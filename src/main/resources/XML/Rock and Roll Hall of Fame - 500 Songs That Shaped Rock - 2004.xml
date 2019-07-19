@@ -16,7 +16,7 @@
   <compo A="Aerosmith" T="Toys in the Attic" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="5" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Afrika Bambaataa" T="Planet Rock" type="SONG" mergeable="true" del="false">
+  <compo A="Afrika Bambaataa" T="Planet Rock" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="6" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Allman Brothers Band" T="Ramblin' Man" type="SONG" mergeable="true" del="true">
@@ -445,7 +445,7 @@
   <compo A="Eurythmics" T="Sweet Dreams (Are Made of This)" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="148" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Everly Brothers" T="All I Have to Do Is Dream" type="SONG" mergeable="true" del="false">
+  <compo A="The Everly Brothers" T="All I Have to Do Is Dream" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="149" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="The Everly Brothers" T="Bye Bye Love" type="SONG" mergeable="true" del="false">
@@ -550,7 +550,7 @@
   <compo A="Woody Guthrie" T="Pretty Boy Floyd" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="183" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Woody Guthrie" T="This Land Is Your Land" type="SONG" mergeable="true" del="false">
+  <compo A="Woody Guthrie" T="This Land Is Your Land" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="184" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Bill Haley" T="Rock Around The Clock" type="SONG" mergeable="true" del="false">
@@ -781,7 +781,7 @@
   <compo A="Led Zeppelin" T="Whole Lotta Love" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="260" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Left Banke" T="Walk Away Renee" type="SONG" mergeable="true" del="false">
+  <compo A="The Left Banke" T="Walk Away Renee" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="261" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="John Lennon" T="Give Peace a Chance" type="SONG" mergeable="true" del="false">
@@ -1108,7 +1108,7 @@
   <compo A="Little Richard" T="Good Golly, Miss Molly" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="369" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Little Richard" T="Long Tall Sally" type="SONG" mergeable="true" del="false">
+  <compo A="Little Richard" T="Long Tall Sally" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="370" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Little Richard" T="Tutti Frutti" type="SONG" mergeable="true" del="true">
@@ -1255,7 +1255,7 @@
   <compo A="The Standells" T="Dirty Water" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="418" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Staple Singers" T="Respect Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="The Staple Singers" T="Respect Yourself" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="419" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Edwin Starr" T="War" type="SONG" mergeable="true" del="false">
@@ -1474,7 +1474,7 @@
   <compo A="Stevie Wonder" T="Uptight (Everything's Alright)" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="491" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Link Wray" T="Rumble" type="SONG" mergeable="true" del="false">
+  <compo A="Link Wray" T="Rumble" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="492" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="X" T="Los Angeles" type="SONG" mergeable="true" del="false">

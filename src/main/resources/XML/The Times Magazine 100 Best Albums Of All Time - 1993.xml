@@ -265,7 +265,7 @@
   <compo A="Madness" T="One Step Beyond" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="88" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="The Times Magazine 100 Best Albums Of All Time - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="89" creation="27/08/2017 13:52:32" size="100"/>
   </compo>
   <compo A="The Waterboys" T="Fisherman's Blues" type="ALBUM" mergeable="true" del="false">

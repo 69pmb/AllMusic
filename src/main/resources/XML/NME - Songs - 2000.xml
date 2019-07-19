@@ -7,7 +7,7 @@
   <compo A="Coldplay" T="Yellow" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="2" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
-  <compo A="Kelis" T="Caught Out There" type="SONG" mergeable="true" del="false">
+  <compo A="Kelis" T="Caught Out There" type="SONG" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="3" creation="27/07/2017 13:27:28" size="100"/>
   </compo>
   <compo A="Queens Of The Stone Age" T="The Lost Art Of Keeping A Secret" type="SONG" mergeable="true" del="true">

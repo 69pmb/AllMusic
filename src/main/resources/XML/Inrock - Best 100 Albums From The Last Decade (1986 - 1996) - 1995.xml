@@ -130,7 +130,7 @@
   <compo A="New Order" T="Brotherhood" type="ALBUM" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="43" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Best 100 Albums From The Last Decade (1986 - 1996) - 1995" publish="1995" cat="DECADE" rangeB="1986" rangeE="1995" sorted="true" rank="44" creation="25/01/2017 10:01:33" size="100"/>
   </compo>
   <compo A="The Apartments" T="A Life Full Of Farewells" type="ALBUM" mergeable="true" del="false">
