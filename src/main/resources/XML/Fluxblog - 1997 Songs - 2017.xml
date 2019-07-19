@@ -196,7 +196,7 @@
   <compo A="The Prodigy" T="Smack My Bitch Up" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 1997 Songs - 2017" publish="2017" cat="YEAR" rangeB="1997" rangeE="1997" sorted="false" rank="65" creation="27/07/2018 11:27:49" size="294"/>
   </compo>
-  <compo A="Rammstein" T="Du Hast" type="SONG" mergeable="true" del="false">
+  <compo A="Rammstein" T="Du Hast" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 1997 Songs - 2017" publish="2017" cat="YEAR" rangeB="1997" rangeE="1997" sorted="false" rank="66" creation="27/07/2018 11:27:49" size="294"/>
   </compo>
   <compo A="Godspeed You! Black Emperor" T="The Dead Flag Blues" type="SONG" mergeable="true" del="false">
@@ -880,7 +880,7 @@
   <compo A="Barbra Streisand And Bryan Adams" T="I Finally Found Someone" type="SONG" mergeable="true" del="false">
     <file author="Fluxblog" name="Fluxblog - 1997 Songs - 2017" publish="2017" cat="YEAR" rangeB="1997" rangeE="1997" sorted="false" rank="293" creation="27/07/2018 11:27:49" size="294"/>
   </compo>
-  <compo A="Elton John" T="Candle in the Wind 1997" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Candle in the Wind 1997" type="SONG" mergeable="true" del="true">
     <file author="Fluxblog" name="Fluxblog - 1997 Songs - 2017" publish="2017" cat="YEAR" rangeB="1997" rangeE="1997" sorted="false" rank="294" creation="27/07/2018 11:27:49" size="294"/>
   </compo>
 </ListCompositions>

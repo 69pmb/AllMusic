@@ -49,7 +49,7 @@
   <compo A="NORAH JONES" T="Don't Know Why" type="SONG" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="16" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
-  <compo A="THE POSTAL SERVICE" T="Such Great Heights" type="SONG" mergeable="true" del="false">
+  <compo A="THE POSTAL SERVICE" T="Such Great Heights" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="17" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
   <compo A="JOSH ROUSE" T="Love Vibration" type="SONG" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <compo A="THE STROKES" T="12:51" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="46" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
-  <compo A="ELECTRIC SIX" T="Danger! High Voltage" type="SONG" mergeable="true" del="false">
+  <compo A="ELECTRIC SIX" T="Danger! High Voltage" type="SONG" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Best Songs of 21st Century - 2006" publish="2006" cat="MISCELLANEOUS" rangeB="2000" rangeE="2006" sorted="true" rank="47" creation="07/09/2018 13:30:08" size="100"/>
   </compo>
   <compo A="KEANE" T="Somewhere Only We Know" type="SONG" mergeable="true" del="false">

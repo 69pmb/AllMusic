@@ -25,7 +25,7 @@
   <compo A="Tom Waits" T="Rain Dogs" type="ALBUM" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Albums 80's - 2002" publish="2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="8" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Albums 80's - 2002" publish="2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="9" creation="25/01/2017 10:01:38" size="100"/>
   </compo>
   <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">

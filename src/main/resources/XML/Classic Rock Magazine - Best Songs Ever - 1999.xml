@@ -106,7 +106,7 @@
   <compo A="Emerson, Lake And Palmer" T="Tarkus" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="35" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
-  <compo A="Kansas" T="Carry On Wayward Son" type="SONG" mergeable="true" del="false">
+  <compo A="Kansas" T="Carry On Wayward Son" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Best Songs Ever - 1999" publish="1999" cat="ALL_TIME" rangeB="0" rangeE="1999" sorted="true" rank="36" creation="26/06/2018 14:05:48" size="50"/>
   </compo>
   <compo A="Black Sabbath" T="Sabbath Bloody Sabbath" type="SONG" mergeable="true" del="false">

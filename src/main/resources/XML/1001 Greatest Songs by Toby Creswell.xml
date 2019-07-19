@@ -97,7 +97,7 @@
   <compo A="Leonard Cohen" T="Tower Of Song" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="42" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Lucinda Williams" T="Car Wheels On A Gravel Road" type="SONG" mergeable="true" del="false">
+  <compo A="Lucinda Williams" T="Car Wheels On A Gravel Road" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="43" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Eels" T="Grace Kelly Blues" type="SONG" mergeable="true" del="false">
@@ -373,7 +373,7 @@
   <compo A="The Dixie Hummingbirds" T="Christian's Automobile" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="158" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Public Enemy" T="Black Steel In The Hour of Chaos" type="SONG" mergeable="true" del="false">
+  <compo A="Public Enemy" T="Black Steel In The Hour of Chaos" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="159" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Moses Allison" T="Parchman Farm" type="SONG" mergeable="true" del="false">
@@ -571,7 +571,7 @@
   <compo A="Devo" T="Whip It" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="248" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Public Enemy" T="Bring The Noise" type="SONG" mergeable="true" del="false">
+  <compo A="Public Enemy" T="Bring The Noise" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="251" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Judy Garland" T="Over The Rainbow" type="SONG" mergeable="true" del="false">
@@ -601,7 +601,7 @@
   <compo A="My Bloody Valentine" T="When You Sleep" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="265" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Kelis" T="Caught Out There" type="SONG" mergeable="true" del="false">
+  <compo A="Kelis" T="Caught Out There" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="266" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Gene Vincent" T="Be-Bop-A-Lula" type="SONG" mergeable="true" del="true">
@@ -802,7 +802,7 @@
   <compo A="Brian Eno" T="Baby's On Fire" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="354" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="The 13th Floor Elevators" T="You're Gonna Miss Me" type="SONG" mergeable="true" del="false">
+  <compo A="The 13th Floor Elevators" T="You're Gonna Miss Me" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="355" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="John Paul Young" T="Love Is In The Air" type="SONG" mergeable="true" del="false">
@@ -823,7 +823,7 @@
   <compo A="The Nitty Gritty Dirt Band" T="Will The Circle Be Unbroken?" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="363" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Dr. John" T="I Walk On Gilded Splinters" type="SONG" mergeable="true" del="false">
+  <compo A="Dr. John" T="I Walk On Gilded Splinters" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="364" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Tom Waits" T="TIME" type="SONG" mergeable="true" del="false">
@@ -1306,7 +1306,7 @@
   <compo A="Bob Dylan" T="Copper Kettle" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="561" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Woody Guthrie" T="This Land Is Your Land" type="SONG" mergeable="true" del="false">
+  <compo A="Woody Guthrie" T="This Land Is Your Land" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="564" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Joan Baez" T="Silver Dagger" type="SONG" mergeable="true" del="false">
@@ -1411,7 +1411,7 @@
   <compo A="The Troggs" T="Love Is All Around" type="SONG" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="604" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Bill Monroe" T="Blue Moon Of Kentucky" type="SONG" mergeable="true" del="false">
+  <compo A="Bill Monroe" T="Blue Moon Of Kentucky" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="605" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Fairport Convention" T="Who Knows Where The Time Goes" type="SONG" mergeable="true" del="false">
@@ -1888,7 +1888,7 @@
   <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="809" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="The Staple Singers" T="Respect Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="The Staple Singers" T="Respect Yourself" type="SONG" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="810" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Hank Williams" T="Your Cheatin' Heart" type="SONG" mergeable="true" del="false">

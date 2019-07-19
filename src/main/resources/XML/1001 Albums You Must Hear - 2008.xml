@@ -865,7 +865,7 @@
   <compo A="Todd Rundgren" T="A Wizard, a True Star" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="288" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="289" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Steely Dan" T="Countdown to Ecstasy" type="ALBUM" mergeable="true" del="false">
@@ -1903,7 +1903,7 @@
   <compo A="Jane's Addiction" T="Nothing's Shocking" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="634" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes a Nation of Millions to Hold Us Back" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="635" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Faith No More" T="Real Thing" type="ALBUM" mergeable="true" del="false">
@@ -2278,7 +2278,7 @@
   <compo A="Jeru the Damaja" T="Sun Rises in the East" type="ALBUM" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="759" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="760" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
