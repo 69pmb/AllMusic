@@ -124,7 +124,7 @@ public class OngletPanel extends JPanel {
 		getOnglets().addChangeListener((ChangeEvent e) -> {
 			if (e.getSource() instanceof JTabbedPane) {
 				// Modifies default button when changing current tab
-				getSelectedDefaultButtonByTab(getSearch(), getFichier(), getArtist(), importFile, batch);
+				getSelectedDefaultButtonByTab(getSearch(), getFichier(), getArtist(), importFile, batch, withArtist);
 			}
 		});
 		LOG.debug("End Onglet");
@@ -196,8 +196,9 @@ public class OngletPanel extends JPanel {
 	}
 
 	private static String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
-			ImportPanel importP, BatchPanel batch) {
+			ImportPanel importP, BatchPanel batch, boolean withArtist) {
 		int index = getOnglets().getSelectedIndex();
+		index = !withArtist && index != 0 ? index + 1 : index;
 		String tab = "";
 		switch (index) {
 		case 0:
