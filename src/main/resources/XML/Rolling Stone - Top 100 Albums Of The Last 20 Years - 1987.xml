@@ -289,7 +289,7 @@
   <compo A="David Bowie" T="Changesonebowie" type="ALBUM" uuid="6501c7b011ba49a9971e3f7bcfb06643" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="96" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="0b7cba998b6d4e3881ae016b2b709aec" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="0b7cba998b6d4e3881ae016b2b709aec" mergeable="false" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" publish="1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="97" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Steely Dan" T="Katy Lied" type="ALBUM" uuid="ae4a2282db2c47938ad8e1c04cc03867" mergeable="true" del="false">

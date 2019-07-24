@@ -61,7 +61,7 @@
   <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" uuid="ff3d7a4bc1514adc99447241a50280ea" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="20" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="3f1b76c9fd5744c8b9d53ce5a5626279" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="3f1b76c9fd5744c8b9d53ce5a5626279" mergeable="false" del="true">
     <file author="NME" name="NME - 100 Best Albums - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="21" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="New Order" T="Technique" type="ALBUM" uuid="b186081c736245acb3f4d67f83bbd995" mergeable="true" del="false">
