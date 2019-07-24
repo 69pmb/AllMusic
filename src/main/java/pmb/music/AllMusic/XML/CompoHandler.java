@@ -6,10 +6,14 @@ package pmb.music.AllMusic.XML;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Optional;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.commons.lang3.StringUtils;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -54,6 +58,7 @@ public class CompoHandler extends DefaultHandler {
 	public static final String TAG_CREATION_DATE = "creation";
 	public static final String TAG_ARTIST = "A";
 	public static final String TAG_TITRE = "T";
+	public static final String TAG_UUID = "uuid";
 	public static final String TAG_TYPE = "type";
 	public static final String TAG_CAN_BE_MERGED = "mergeable";
 	public static final String TAG_DELETED = "del";
@@ -114,6 +119,8 @@ public class CompoHandler extends DefaultHandler {
 		try {
 			compo.setArtist(attributes.getValue(TAG_ARTIST));
 			compo.setTitre(attributes.getValue(TAG_TITRE));
+			compo.setUuids(Optional.ofNullable(attributes.getValue(TAG_UUID)).map(uuids -> new LinkedList<>(Arrays.asList(StringUtils.split(uuids, ","))))
+					.orElse(new LinkedList<String>()));
 			compo.setRecordType(RecordType.valueOf(attributes.getValue(TAG_TYPE)));
 			compo.setCanBeMerged(Boolean.parseBoolean(attributes.getValue(TAG_CAN_BE_MERGED)));
 			compo.setDeleted(Boolean.parseBoolean(attributes.getValue(TAG_DELETED)));

@@ -370,8 +370,7 @@ public final class SearchUtils {
 			LOG.error("List or Composition empty: " + o);
 			result = -1;
 		} else {
-			result = list.indexOf(new Composition(o.getArtist(), o.getFiles(), o.getTitre(), o.getRecordType(),
-					o.isDeleted(), o.isCanBeMerged()));
+			result = list.indexOf(new Composition(o));
 			if (result == -1) {
 				int i = -1;
 				Composition composition;
