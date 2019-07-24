@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Joy Division" T="Love Will Tear Us Apart" type="SONG" mergeable="true" del="true">
+  <compo A="Joy Division" T="Love Will Tear Us Apart" type="SONG" uuid="a97519fc617d4599a5ece8fe3fec3f00" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Rolling Stones" T="Emotional Rescue" type="SONG" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Emotional Rescue" type="SONG" uuid="5fa08fee6936465884870e6c8b36261c" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="The Pretenders" T="Stop Your Sobbing" type="SONG" mergeable="true" del="false">
+  <compo A="The Pretenders" T="Stop Your Sobbing" type="SONG" uuid="4ab96737e3374faeac59962fc1c54400" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Blondie" T="Call Me" type="SONG" mergeable="true" del="true">
+  <compo A="Blondie" T="Call Me" type="SONG" uuid="5627b4dc76ed487d80304a5c9615d5aa" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Kurtis Blow" T="The Breaks" type="SONG" mergeable="true" del="false">
+  <compo A="Kurtis Blow" T="The Breaks" type="SONG" uuid="0158518b86e84467a1ad3f420d5f9566" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
 </ListCompositions>

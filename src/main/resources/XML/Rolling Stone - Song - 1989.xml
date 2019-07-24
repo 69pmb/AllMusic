@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Public Enemy" T="Fight The Power" type="SONG" mergeable="true" del="true">
+  <compo A="Public Enemy" T="Fight The Power" type="SONG" uuid="e857041428504974a32b59d9b2b161ba" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Neneh Cherry" T="Buffalo Stance" type="SONG" mergeable="true" del="false">
+  <compo A="Neneh Cherry" T="Buffalo Stance" type="SONG" uuid="72c3fb0808c64f9e8ef1c6780b5a84e5" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Soul II Soul" T="Keep On Movin'" type="SONG" mergeable="true" del="false">
+  <compo A="Soul II Soul" T="Keep On Movin'" type="SONG" uuid="b76231e7c8ee4b83be7799751d040c1b" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Neil Young" T="Rockin' in the Free World" type="SONG" mergeable="true" del="false">
+  <compo A="Neil Young" T="Rockin' in the Free World" type="SONG" uuid="94883a2116024014a24c65e1763c3137" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Pixies" T="Monkey Gone To Heaven" type="SONG" mergeable="true" del="true">
+  <compo A="Pixies" T="Monkey Gone To Heaven" type="SONG" uuid="e2129c5307e041d4911e09621616adbe" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Tom Petty" T="Free Fallin'" type="SONG" mergeable="true" del="true">
+  <compo A="Tom Petty" T="Free Fallin'" type="SONG" uuid="16856a97e12c44429cfd5fd6a4be71d5" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="B-52s" T="Love Shack" type="SONG" mergeable="true" del="false">
+  <compo A="B-52s" T="Love Shack" type="SONG" uuid="d723913cb41446d8991ca3cd018b1201" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Fine Young Cannibals" T="She Drives Me Crazy" type="SONG" mergeable="true" del="false">
+  <compo A="Fine Young Cannibals" T="She Drives Me Crazy" type="SONG" uuid="90367f477a4849128f726b002de556ae" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Living Colour" T="Cult Of Personality" type="SONG" mergeable="true" del="false">
+  <compo A="Living Colour" T="Cult Of Personality" type="SONG" uuid="e3a5d51f0e444937be74236ba87d396c" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Bobby Brown" T="My Prerogative" type="SONG" mergeable="true" del="false">
+  <compo A="Bobby Brown" T="My Prerogative" type="SONG" uuid="15020a6e295c4d6885f0b5b30e23a53e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
 </ListCompositions>

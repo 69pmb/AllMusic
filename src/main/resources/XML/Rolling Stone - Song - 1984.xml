@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Tina Turner" T="What's Love Got To Do With It" type="SONG" mergeable="true" del="false">
+  <compo A="Tina Turner" T="What's Love Got To Do With It" type="SONG" uuid="4f889f4b5517497d8fe7c932ea339260" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Van Halen" T="Jump" type="SONG" mergeable="true" del="false">
+  <compo A="Van Halen" T="Jump" type="SONG" uuid="20e346b947534a40acbde06ad10f3c0b" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Prince" T="When Doves Cry" type="SONG" mergeable="true" del="true">
+  <compo A="Prince" T="When Doves Cry" type="SONG" uuid="fb242ccc9e534efaae0c8272eedfc52b" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Dancing In The Dark" type="SONG" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Dancing In The Dark" type="SONG" uuid="67fff304d24443d1ba912decef10c6c9" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="U2" T="Pride (In The Name Of Love)" type="SONG" mergeable="true" del="false">
+  <compo A="U2" T="Pride (In The Name Of Love)" type="SONG" uuid="d0ad4d7d8f564230b74027009903f7b2" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
 </ListCompositions>

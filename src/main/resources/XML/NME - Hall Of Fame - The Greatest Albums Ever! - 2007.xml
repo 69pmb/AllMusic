@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Beastie Boys" T="Pauls Boutique" type="ALBUM" mergeable="true" del="true">
+  <compo A="Beastie Boys" T="Pauls Boutique" type="ALBUM" uuid="781307fcbe4f4105beecead44961433f" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="1" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="The Clash" T="London's Calling" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Clash" T="London's Calling" type="ALBUM" uuid="20ac32fb856342f9b3b460b70992bdd2" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="2" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" uuid="6bbf7a3dab62448da475aa35253933ee" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="3" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Wire" T="Pink Flag" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wire" T="Pink Flag" type="ALBUM" uuid="9c3ba4e1623947da97eb88924419e5f5" mergeable="true" del="false">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="4" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Blondie" T="Parallel Lines" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blondie" T="Parallel Lines" type="ALBUM" uuid="4b7c8f4e4e194494a05d51fe52062daf" mergeable="true" del="false">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="5" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Joy Division" T="Closer" type="ALBUM" mergeable="true" del="true">
+  <compo A="Joy Division" T="Closer" type="ALBUM" uuid="f26a6bd61a3b43e6845393e75031394b" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="6" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" mergeable="true" del="true">
+  <compo A="Blur" T="Modern Life Is Rubbish" type="ALBUM" uuid="cdbea9262d634a818ec3247d3af97965" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="7" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" mergeable="true" del="true">
+  <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" uuid="0ab32e239c7844eda9b659517ba88543" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="8" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" uuid="4145fe323e2d410ebcb874f02cfb9be3" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="9" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Gang of Four" T="Entertainment!" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="33d86ef2a21d48bdb5e74c701a16c89b" mergeable="true" del="false">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="10" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Kraftwerk" T="Trans Europe Express" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kraftwerk" T="Trans Europe Express" type="ALBUM" uuid="70b49a7a8fd043048d8366469e918d9e" mergeable="true" del="false">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="11" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
+  <compo A="Bjork" T="Debut" type="ALBUM" uuid="09ff9d834f9849c181a138c8ec15b4d0" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="12" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" uuid="6d4beb2458d34f08b202104d79009854" mergeable="true" del="true">
     <file author="NME" name="NME - Hall Of Fame - The Greatest Albums Ever! - 2007" publish="2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="13" creation="04/09/2018 15:53:32" size="13"/>
   </compo>
 </ListCompositions>

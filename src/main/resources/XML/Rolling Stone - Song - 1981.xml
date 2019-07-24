@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Rolling Stones" T="Start Me Up" type="SONG" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Start Me Up" type="SONG" uuid="4deca75662774115bff9aba7fffb45bc" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Laurie Anderson" T="O Superman (for Massenet)" type="SONG" mergeable="true" del="false">
+  <compo A="Laurie Anderson" T="O Superman (for Massenet)" type="SONG" uuid="b41279e1637048f1973c31bdd031d3ff" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Foreigner" T="Urgent" type="SONG" mergeable="true" del="false">
+  <compo A="Foreigner" T="Urgent" type="SONG" uuid="ece98cbe94224178809e810065e5032d" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Yoko Ono" T="Walking On Thin Ice" type="SONG" mergeable="true" del="false">
+  <compo A="Yoko Ono" T="Walking On Thin Ice" type="SONG" uuid="2e9d6eaea00b46c0bee35ba19d99bcd2" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Squeeze" T="Tempted" type="SONG" mergeable="true" del="false">
+  <compo A="Squeeze" T="Tempted" type="SONG" uuid="04cdf5a55a6a453f8522169e1ffb87c1" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Police" T="Every Little Thing She Does Is Magic" type="SONG" mergeable="true" del="true">
+  <compo A="Police" T="Every Little Thing She Does Is Magic" type="SONG" uuid="d1e4c914a45348bea9b5fac1018d2698" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
 </ListCompositions>

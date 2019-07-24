@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Kanye West" T="Yeezus" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="Yeezus" type="ALBUM" uuid="15e1ddc30af84912b2e8213394395ccc" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Chance The Rapper" T="Acid Rap" type="ALBUM" mergeable="true" del="false">
+  <compo A="Chance The Rapper" T="Acid Rap" type="ALBUM" uuid="d8f23bab2bfc49e2981cf1e439fa8d4d" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="2" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Vampire Weekend" T="Modern Vampires In The City" type="ALBUM" mergeable="true" del="true">
+  <compo A="Vampire Weekend" T="Modern Vampires In The City" type="ALBUM" uuid="cb9eb1e74ef741c2b0077464456e8bb2" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="3" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Haim" T="Days Are Gone" type="ALBUM" mergeable="true" del="false">
+  <compo A="Haim" T="Days Are Gone" type="ALBUM" uuid="df7e5b4219f1476fba20894e0dbd2e0c" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="4" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Disclosure" T="Settle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Disclosure" T="Settle" type="ALBUM" uuid="a524bf7775cc420383efd2334730977d" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="5" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Tim Hecker" T="Virgins" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tim Hecker" T="Virgins" type="ALBUM" uuid="e64fdd2699604041bfdc1bfd1eae3f99" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="6" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Boards Of Canada" T="Tomorrow's Harvest" type="ALBUM" mergeable="true" del="false">
+  <compo A="Boards Of Canada" T="Tomorrow's Harvest" type="ALBUM" uuid="288618f6914d43f6ad687bd4431b706b" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="7" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Ka" T="The Night's Gambit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ka" T="The Night's Gambit" type="ALBUM" uuid="bbe0944c06ba4f47a588f5b8fec2d09d" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="8" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="The Knife" T="Shaking The Habitual" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Knife" T="Shaking The Habitual" type="ALBUM" uuid="e120107d8dcc4789a3f296582a19d228" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="9" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Kurt Vile" T="Wakin On A Pretty Daze" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kurt Vile" T="Wakin On A Pretty Daze" type="ALBUM" uuid="ebe0120fac5b4b2985d8b7c133e064eb" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="10" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="M.I.A." T="Matangi" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Matangi" type="ALBUM" uuid="a7af8ba7d17c43758a27be36227384b5" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="11" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Danny Brown" T="Old" type="ALBUM" mergeable="true" del="false">
+  <compo A="Danny Brown" T="Old" type="ALBUM" uuid="6e9f054479c141e58ee638182f49ae80" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="12" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Tegan And Sara" T="Heartthrob" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tegan And Sara" T="Heartthrob" type="ALBUM" uuid="1b540e933b6045e6a880eb2b3e34c3e0" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="13" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="The Haxan Cloak" T="Excavation" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Haxan Cloak" T="Excavation" type="ALBUM" uuid="c3f90954b20d42bf90ea0e6b299a791c" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="14" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Nine Inch Nails" T="Hesitation Marks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nine Inch Nails" T="Hesitation Marks" type="ALBUM" uuid="2065311721ed487186b0d98ee082f5af" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="15" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Omar Souleyman" T="Wenu Wenu" type="ALBUM" mergeable="true" del="false">
+  <compo A="Omar Souleyman" T="Wenu Wenu" type="ALBUM" uuid="6f12b69099ad472eaadafbcd1058d136" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="16" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Kacey Musgraves" T="Same Trailer Different Park" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kacey Musgraves" T="Same Trailer Different Park" type="ALBUM" uuid="ec2bba0cc7ed4d488d0e1df33ab47338" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="17" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Mikal Cronin" T="MCII" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mikal Cronin" T="MCII" type="ALBUM" uuid="2c23ad867ae542339b4d1acb0eff8e95" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="18" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" mergeable="true" del="true">
+  <compo A="Daft Punk" T="Random Access Memories" type="ALBUM" uuid="5aae7ef04fee44248e599c53c4d4d9b4" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="19" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Waxahatchee" T="Cerulean Salt" type="ALBUM" mergeable="true" del="false">
+  <compo A="Waxahatchee" T="Cerulean Salt" type="ALBUM" uuid="3e0955e10bb74ae697b634ac517f4d52" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="20" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Run The Jewels" T="Run The Jewels" type="ALBUM" mergeable="true" del="false">
+  <compo A="Run The Jewels" T="Run The Jewels" type="ALBUM" uuid="785a7a3011c14b7d876e96d50f35c48f" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="21" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Deafheaven" T="Sunbather" type="ALBUM" mergeable="true" del="false">
+  <compo A="Deafheaven" T="Sunbather" type="ALBUM" uuid="45497945c2b441e4a250e87e351e23d8" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="22" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Oneohtrix Point Never" T="R Plus Seven" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oneohtrix Point Never" T="R Plus Seven" type="ALBUM" uuid="3eea941f653e47699c161f53821a00c2" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="23" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="DJ Rashad" T="I Don't Give A Fuck EP" type="ALBUM" mergeable="true" del="false">
+  <compo A="DJ Rashad" T="I Don't Give A Fuck EP" type="ALBUM" uuid="462868245921404ba2c787b2fb19b173" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="24" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Caitlin Rose" T="The Stand-In" type="ALBUM" mergeable="true" del="false">
+  <compo A="Caitlin Rose" T="The Stand-In" type="ALBUM" uuid="9818426446b94d1b8ce9557d8b944927" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="25" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Rhye" T="Woman" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rhye" T="Woman" type="ALBUM" uuid="91dcfe378d77431ea4ee8aa8e6e245e8" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="26" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Migos" T="Young Rich Niggas" type="ALBUM" mergeable="true" del="false">
+  <compo A="Migos" T="Young Rich Niggas" type="ALBUM" uuid="4a097129d1254a16a0d0a56a006e861f" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="27" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Eminem" T="The Marshall Mathers LP 2" type="ALBUM" mergeable="true" del="false">
+  <compo A="Eminem" T="The Marshall Mathers LP 2" type="ALBUM" uuid="a59da6223fda45faab2aa618cad9319e" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="28" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Rudimental" T="Home" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rudimental" T="Home" type="ALBUM" uuid="2b1eb1d24f9d46759ca4abde50ed8f9d" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="29" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="2 Chainz" T="B.O.A.T.S. II: Me Time" type="ALBUM" mergeable="true" del="false">
+  <compo A="2 Chainz" T="B.O.A.T.S. II: Me Time" type="ALBUM" uuid="bdebb6399bfc477a87bc285d34f69d6c" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="30" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Earl Sweatshirt" T="Doris" type="ALBUM" mergeable="true" del="false">
+  <compo A="Earl Sweatshirt" T="Doris" type="ALBUM" uuid="3e4ac0dd2d0b4d31be558fb58a6b33e7" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="31" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Justin Timberlake" T="The 20/20 Experience" type="ALBUM" mergeable="true" del="false">
+  <compo A="Justin Timberlake" T="The 20/20 Experience" type="ALBUM" uuid="64d6b571e5ad4b55a6a7fe567620ecbe" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="32" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Laura Marling" T="Once I Was An Eagle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Laura Marling" T="Once I Was An Eagle" type="ALBUM" uuid="2a38efc3050a435a9d6bc56cae54c49c" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="33" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Kvelertak" T="Meir" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kvelertak" T="Meir" type="ALBUM" uuid="a8151e126bdc4487888755cc96e6d7df" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="34" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Ashley Monroe" T="Like A Rose" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ashley Monroe" T="Like A Rose" type="ALBUM" uuid="f55a0273e38e4933992b9d5fa3a5e74f" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="35" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Kelela" T="Cut 4 Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kelela" T="Cut 4 Me" type="ALBUM" uuid="6dc6bfa508e745509abb87c5c476ced8" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="36" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" mergeable="true" del="true">
+  <compo A="Arcade Fire" T="Reflektor" type="ALBUM" uuid="d447dadeca9f4595bd83ecb77ddd7385" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="37" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Janelle Monae" T="The Electric Lady" type="ALBUM" mergeable="true" del="false">
+  <compo A="Janelle Monae" T="The Electric Lady" type="ALBUM" uuid="ad32ea009c7a4ac598804a7edf690e9a" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="38" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="My Bloody Valentine" T="M B V" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Bloody Valentine" T="M B V" type="ALBUM" uuid="89ba57d2edb34b3ca2d63ad28e15520c" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="39" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Bill Callahan" T="Dream River" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bill Callahan" T="Dream River" type="ALBUM" uuid="dc78fb44285243caada4bbcc593327df" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="40" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Colin Stetson" T="New History Warfare Vol. 3: To See More Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Colin Stetson" T="New History Warfare Vol. 3: To See More Light" type="ALBUM" uuid="4de4c37059c24425836a89290e30bcdc" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="41" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Holden" T="The Inheritors" type="ALBUM" mergeable="true" del="false">
+  <compo A="Holden" T="The Inheritors" type="ALBUM" uuid="790833e0aa6344a6bede612e1b4dc9c4" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="42" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Death Grips" T="Government Plates" type="ALBUM" mergeable="true" del="false">
+  <compo A="Death Grips" T="Government Plates" type="ALBUM" uuid="8c503cc9e5e5485a9173b67cafc2483e" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="43" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="William Tyler" T="Impossible Truth" type="ALBUM" mergeable="true" del="false">
+  <compo A="William Tyler" T="Impossible Truth" type="ALBUM" uuid="4c6282aae267457e8745a99eeba8b034" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="44" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Superchunk" T="I Hate Music" type="ALBUM" mergeable="true" del="false">
+  <compo A="Superchunk" T="I Hate Music" type="ALBUM" uuid="b35a2fc12d14456393720691aebfea32" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="45" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Pusha T" T="My Name Is My Name" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pusha T" T="My Name Is My Name" type="ALBUM" uuid="5c010d6adc6e4d3fb84846fc7fc46c75" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="46" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Neko Case" T="The Worse Things Get, The Harder I Fight, The Harder I Fight" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neko Case" T="The Worse Things Get, The Harder I Fight, The Harder I Fight" type="ALBUM" uuid="60b79fac1b2b4eb795a6c8c4f63b60b1" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="47" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Body/Head" T="Coming Apart" type="ALBUM" mergeable="true" del="false">
+  <compo A="Body/Head" T="Coming Apart" type="ALBUM" uuid="112bd33418534fc49b3f7fab4cdf73e6" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="48" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Queens Of The Stone Age" T="...Like Clockwork" type="ALBUM" mergeable="true" del="false">
+  <compo A="Queens Of The Stone Age" T="...Like Clockwork" type="ALBUM" uuid="b28ac939e1bc499a8e564a52ef6a07cb" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="49" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
-  <compo A="Drake" T="Nothing Was The Same" type="ALBUM" mergeable="true" del="false">
+  <compo A="Drake" T="Nothing Was The Same" type="ALBUM" uuid="711ebbf6882a466caa3cf2fb3b15787e" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="50" creation="30/08/2018 11:03:18" size="50"/>
   </compo>
 </ListCompositions>

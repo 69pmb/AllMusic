@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" uuid="c0382240dd904293be640a609f732277" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="1" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Queensryche" T="Operation: Mindcrime" type="ALBUM" mergeable="true" del="false">
+  <compo A="Queensryche" T="Operation: Mindcrime" type="ALBUM" uuid="b873f351459149bf87a38477534ce0a7" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="2" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Who" T="Tommy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Who" T="Tommy" type="ALBUM" uuid="3a8c095d09f4422a9eea126ae084eca1" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="3" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Marillion" T="Misplaced Childhood" type="ALBUM" mergeable="true" del="false">
+  <compo A="Marillion" T="Misplaced Childhood" type="ALBUM" uuid="b028e544d15445b59a65e5a4a236bf26" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="4" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Marilyn Manson" T="Antichrist Superstar" type="ALBUM" mergeable="true" del="false">
+  <compo A="Marilyn Manson" T="Antichrist Superstar" type="ALBUM" uuid="36942cc59c8b4603a2fa74ebf72613f1" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="5" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Genesis" T="The Lamb Lies Down on Broadway" type="ALBUM" mergeable="true" del="false">
+  <compo A="Genesis" T="The Lamb Lies Down on Broadway" type="ALBUM" uuid="8ad018833cd64b6d998fec2ca1f5fb81" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="6" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Yes" T="Tales From The Topographic Oceans" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yes" T="Tales From The Topographic Oceans" type="ALBUM" uuid="eef15aefaf624359b409cede0472474f" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="7" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" uuid="b678115044024b8e95bb2057de985709" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="8" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Rush" T="2112" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rush" T="2112" type="ALBUM" uuid="7254d2d22f33474783b740ed303cfdf8" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="9" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pink Floyd" T="The Wall" type="ALBUM" uuid="5a3b3aa61ef04b5bade6364cc5227db3" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="10" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Jethro Tull" T="Thick As A Brick" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jethro Tull" T="Thick As A Brick" type="ALBUM" uuid="5dace65b7f12438a97082c9fcffb9bdd" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="11" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="The Who" T="Quadrophenia" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Quadrophenia" type="ALBUM" uuid="4e0d3e5ff3c94d1dbce181a9aeff9a62" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="12" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Nine Inch Nails" T="Downward Spiral" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nine Inch Nails" T="Downward Spiral" type="ALBUM" uuid="5ad209a251da4a5bb4925b84cb313ecf" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="13" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Genesis" T="Duke" type="ALBUM" mergeable="true" del="false">
+  <compo A="Genesis" T="Duke" type="ALBUM" uuid="a91b8edcab6b4f1586c8f6d50c26142e" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="14" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Dream Theater" T="Metropolis Pt. 2: Scenes From A Memory" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dream Theater" T="Metropolis Pt. 2: Scenes From A Memory" type="ALBUM" uuid="38fe2a85b3fa4d3e92195c1d95f9b3fc" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="15" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Alan Parsons Project" T="Tales Of Mystery And Imagination" type="ALBUM" mergeable="true" del="false">
+  <compo A="Alan Parsons Project" T="Tales Of Mystery And Imagination" type="ALBUM" uuid="895bd9317ac746f1a28f098321a224c5" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="16" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="OK Computer" type="ALBUM" uuid="da68513355d64d698cd5fd406a0c290d" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="17" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="ced8976ae1194bc3b769f651d2e8db12" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="18" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Rush" T="Hemispheres" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rush" T="Hemispheres" type="ALBUM" uuid="6a24bc49da8c400f9d7d5bc0df31df0b" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="19" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Frank Zappa" T="Joe's Garage, Acts I, Ii And Iii" type="ALBUM" mergeable="true" del="false">
+  <compo A="Frank Zappa" T="Joe's Garage, Acts I, Ii And Iii" type="ALBUM" uuid="3fea99f1fbd7497bb8dec065c72a18c8" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="20" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Pink Floyd" T="Final Cut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Final Cut" type="ALBUM" uuid="602d87fe661d4036b593318c16e49086" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="21" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Pretty Things" T="S.F. Sorrow" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pretty Things" T="S.F. Sorrow" type="ALBUM" uuid="317374a096a845529641e0b4a463bc6e" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="22" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Marillion" T="Brave" type="ALBUM" mergeable="true" del="false">
+  <compo A="Marillion" T="Brave" type="ALBUM" uuid="5787c87dcea34312a675d736a5ec6a20" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="23" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Roger Waters" T="Radio K.A.O.S." type="ALBUM" mergeable="true" del="false">
+  <compo A="Roger Waters" T="Radio K.A.O.S." type="ALBUM" uuid="939f148196014397a05ad81a5d8ce91e" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="24" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Rick Wakeman" T="Journey To The Centre Of The Earth" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rick Wakeman" T="Journey To The Centre Of The Earth" type="ALBUM" uuid="177578e8427d408f92783d3f9e2decd5" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="25" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Fear Factory" T="Obsolete" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fear Factory" T="Obsolete" type="ALBUM" uuid="66ffd41af91041b0a9a8dd83e0788da4" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="26" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Gentle Giant" T="Three Friends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gentle Giant" T="Three Friends" type="ALBUM" uuid="aa0be1d42f7844c596a6e92b8c53b199" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="27" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Styx" T="Kilroy Was Here" type="ALBUM" mergeable="true" del="false">
+  <compo A="Styx" T="Kilroy Was Here" type="ALBUM" uuid="778ef6c7affd4e1e83dd9180ec4897be" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="28" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Spock's Beard" T="Snow" type="ALBUM" mergeable="true" del="false">
+  <compo A="Spock's Beard" T="Snow" type="ALBUM" uuid="f223d4b72ba94e8b88da2164272dd517" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="29" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
-  <compo A="Iron Maiden" T="Seventh Son Of A Seventh Son" type="ALBUM" mergeable="true" del="false">
+  <compo A="Iron Maiden" T="Seventh Son Of A Seventh Son" type="ALBUM" uuid="4eeb03bbc1024eb99ea090508a48ad83" mergeable="true" del="false">
     <file author="Divers" name="Classic Rock Magazine - Rock's 30 Greatest Concept Albums - 2003" publish="2003" cat="GENRE" rangeB="0" rangeE="2003" sorted="true" rank="30" creation="26/06/2018 14:09:04" size="30"/>
   </compo>
 </ListCompositions>

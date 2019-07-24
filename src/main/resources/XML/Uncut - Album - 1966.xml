@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
+  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" uuid="8f605cafb3524d7cab69b1dfbd3f560e" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="1" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Beach Boys" T="Pet Sounds" type="ALBUM" uuid="eb5e5352e1ca4600bb13827e3b026f52" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="2" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Beatles" T="Revolver" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Beatles" T="Revolver" type="ALBUM" uuid="9389ab83a55f44959c2bce3903277f92" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="3" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Rolling Stones" T="Aftermath" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Rolling Stones" T="Aftermath" type="ALBUM" uuid="36a676d0400e49639eb392a71fa2c48e" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="4" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Byrds" T="Fifth Dimention" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Byrds" T="Fifth Dimention" type="ALBUM" uuid="96b39a27c8894ad1ae0d2d7a8c123d10" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="5" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Mothers Of Invention" T="Freak Out" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Mothers Of Invention" T="Freak Out" type="ALBUM" uuid="b300834eec834c93b853583d3d35717c" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="6" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="Otis Reading" T="Otis Blue" type="ALBUM" mergeable="true" del="false">
+  <compo A="Otis Reading" T="Otis Blue" type="ALBUM" uuid="9397295aa58d40edacf893402b96e9d2" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="7" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Who" T="A Quick One" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="A Quick One" type="ALBUM" uuid="4a784d75f0b74ed1914f53000ac87ed4" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="8" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="John Mayall's Blues Breakers" T="With Eric Clapton" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Mayall's Blues Breakers" T="With Eric Clapton" type="ALBUM" uuid="e09e16a4df0546c39850b59c588532bd" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="9" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="Simon And Garfunkel" T="Sounds Of Silence" type="ALBUM" mergeable="true" del="false">
+  <compo A="Simon And Garfunkel" T="Sounds Of Silence" type="ALBUM" uuid="bbd113c6272346548294507b95acfed8" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="10" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="Cream" T="Fresh Cream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cream" T="Fresh Cream" type="ALBUM" uuid="24f608ced28240a48c0d14ace7bd4b0d" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="11" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="Love" T="Love" type="ALBUM" mergeable="true" del="false">
+  <compo A="Love" T="Love" type="ALBUM" uuid="9fc81a8041ce43d3bb47e42aecf29e4b" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="12" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="Yardbirds" T="Roger the Engineer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yardbirds" T="Roger the Engineer" type="ALBUM" uuid="294dde3e50d64509bd7a1cd1fca40ec3" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="13" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="Small Faces" T="Small Faces" type="ALBUM" mergeable="true" del="false">
+  <compo A="Small Faces" T="Small Faces" type="ALBUM" uuid="19e12043c28242bea755fbe1067f8032" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="14" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Kinks" T="Face To Face" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Kinks" T="Face To Face" type="ALBUM" uuid="da3a6472d41f4e0fa3b8a9ad6ca113da" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="15" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Monkees" T="The Monkees" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Monkees" T="The Monkees" type="ALBUM" uuid="8cd94ccef2e64f60b6f96d171d1cc033" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="16" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Mamas And Papas" T="If You Can Believe Your Eyes And Ears" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Mamas And Papas" T="If You Can Believe Your Eyes And Ears" type="ALBUM" uuid="3d00d9e21d7846e399206f1453a7c149" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="17" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Lovin' Spoonful" T="Daydreamer" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Lovin' Spoonful" T="Daydreamer" type="ALBUM" uuid="92878d7e2ce64fc086c9b5c0dd567d84" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="18" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="The Animals" T="Animalism" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Animals" T="Animalism" type="ALBUM" uuid="8c132d9fb4f6433789a00aa0546afb94" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="19" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
-  <compo A="Donovan" T="Sunshine Superman" type="ALBUM" mergeable="true" del="false">
+  <compo A="Donovan" T="Sunshine Superman" type="ALBUM" uuid="02e8ce503fe3495ba16977c2461e5c78" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1966" publish="1966" cat="YEAR" rangeB="1966" rangeE="1966" sorted="true" rank="20" creation="03/09/2018 10:27:40" size="20"/>
   </compo>
 </ListCompositions>

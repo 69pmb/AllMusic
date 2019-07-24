@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Coolio" T="Gangsta's Paradise" type="SONG" mergeable="true" del="false">
+  <compo A="Coolio" T="Gangsta's Paradise" type="SONG" uuid="aef8050593dc40f4a4eee61d88ac1539" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Edwyn Collins" T="A Girl Like You" type="SONG" mergeable="true" del="false">
+  <compo A="Edwyn Collins" T="A Girl Like You" type="SONG" uuid="8cbd7214b120493b870049e2b4c7ff07" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Alanis Morissette" T="You Oughta Know" type="SONG" mergeable="true" del="false">
+  <compo A="Alanis Morissette" T="You Oughta Know" type="SONG" uuid="ad6d096917bd41e592956b635f11b611" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="The Presidents Of The United States Of America" T="Lump" type="SONG" mergeable="true" del="false">
+  <compo A="The Presidents Of The United States Of America" T="Lump" type="SONG" uuid="5bbed748a0a94804b9bbad9be221a2a4" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="true">
+  <compo A="Oasis" T="Wonderwall" type="SONG" uuid="7eca9a33b26840069496d1ab00163472" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
 </ListCompositions>

@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
+  <compo A="Nirvana" T="Nevermind" type="ALBUM" uuid="f70e11072e78425196031fa174e35017" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="1" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Soundgarden" T="Superunknown" type="ALBUM" mergeable="true" del="false">
+  <compo A="Soundgarden" T="Superunknown" type="ALBUM" uuid="a06d6e3c28914528ba41e1d5d2691a3c" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="2" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" uuid="d974f885cf6f4a6f9410bf6d67e2630b" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="3" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" uuid="5732906bc13a4aa4a2a8f636d7fb9b36" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="4" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Mudhoney" T="Superfuzz Bigmuff" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mudhoney" T="Superfuzz Bigmuff" type="ALBUM" uuid="bfca196d6ac549f29f7399a189d5ac1d" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="5" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Alice In Chains" T="Dirt" type="ALBUM" mergeable="true" del="false">
+  <compo A="Alice In Chains" T="Dirt" type="ALBUM" uuid="744ad5eb64dd4a06af6c9f97b675f744" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="6" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Hole" T="Live Through This" type="ALBUM" mergeable="true" del="true">
+  <compo A="Hole" T="Live Through This" type="ALBUM" uuid="3676579ade014283be60e7b9151d2f3a" mergeable="true" del="true">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="7" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Various Artists" T="Sub-Pop-200" type="ALBUM" mergeable="true" del="false">
+  <compo A="Various Artists" T="Sub-Pop-200" type="ALBUM" uuid="d90c056e8b534792b839871888a72e32" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="8" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Melvins" T="Stoner Witch" type="ALBUM" mergeable="true" del="false">
+  <compo A="Melvins" T="Stoner Witch" type="ALBUM" uuid="0ea42a1dd3c04e7f9026d66d920e5d4b" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="9" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Screaming Trees" T="Sweet Oblivion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Screaming Trees" T="Sweet Oblivion" type="ALBUM" uuid="51546dbbf3ac403db3ed7cb49bf5b35c" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="10" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="L7" T="Bricks Are Heavy" type="ALBUM" mergeable="true" del="false">
+  <compo A="L7" T="Bricks Are Heavy" type="ALBUM" uuid="e8070e8f8c6a4d70926cb854a38f45e4" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="11" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Mother Love Bone" T="Apple" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mother Love Bone" T="Apple" type="ALBUM" uuid="5e3d2e41d44a49b78ba1e987e403d314" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="12" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="TAD" T="Inhaler" type="ALBUM" mergeable="true" del="false">
+  <compo A="TAD" T="Inhaler" type="ALBUM" uuid="148b82a4920947eebe4ccf21fc89663f" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="13" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Love Battery" T="Dayglo" type="ALBUM" mergeable="true" del="false">
+  <compo A="Love Battery" T="Dayglo" type="ALBUM" uuid="47626aa6aa464f5db9ee8492e5d794c4" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="14" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Wipers" T="Wipers Box Set" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wipers" T="Wipers Box Set" type="ALBUM" uuid="08807ac8678844faa7e74a720c4b1c7d" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="15" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Babes In Toyland" T="Spanking Machine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Babes In Toyland" T="Spanking Machine" type="ALBUM" uuid="4deff28e8b934b47b5bbfcc609f8108d" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="16" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Green River" T="Dry As A Bone/Rehab Doll" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green River" T="Dry As A Bone/Rehab Doll" type="ALBUM" uuid="5070b5b3160348d4884c4f7efbc46994" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="17" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Nirvana" T="MTV Unplugged In New York" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="MTV Unplugged In New York" type="ALBUM" uuid="1cdd7163b50342dc83493a43018dc778" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="18" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Various Artists" T="Singles (O.S.T.)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Various Artists" T="Singles (O.S.T.)" type="ALBUM" uuid="1cfc3e39135048a491668a2eb261c230" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="19" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
-  <compo A="Stone Temple Pilots" T="Purple" type="ALBUM" mergeable="true" del="false">
+  <compo A="Stone Temple Pilots" T="Purple" type="ALBUM" uuid="ecb7815ebd6544ebb694cfbf167fa1ac" mergeable="true" del="false">
     <file author="Spin" name="Spin - The 20 Greatest Grunge Albums of All Time - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="true" rank="20" creation="30/08/2018 10:18:02" size="20"/>
   </compo>
 </ListCompositions>

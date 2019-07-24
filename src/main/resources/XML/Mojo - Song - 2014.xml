@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" mergeable="true" del="true">
+  <compo A="Future Islands" T="Seasons (Waiting On You)" type="SONG" uuid="b893682add284dd0bc77542deec828a9" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Pharrell Williams" T="Happy" type="SONG" mergeable="true" del="false">
+  <compo A="Pharrell Williams" T="Happy" type="SONG" uuid="a303767ff0ed4e8b8ccde0141a294306" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="FKA Twigs" T="Two Weeks" type="SONG" mergeable="true" del="true">
+  <compo A="FKA Twigs" T="Two Weeks" type="SONG" uuid="1bf1310d6b3a4eeaab341b173b17816f" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Sleaford Mods" T="Tied Up In Nottz" type="SONG" mergeable="true" del="false">
+  <compo A="Sleaford Mods" T="Tied Up In Nottz" type="SONG" uuid="4a4ad8bdb1d54faca13821023243d05c" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="The War On Drugs" T="Eyes To The Wind" type="SONG" mergeable="true" del="true">
+  <compo A="The War On Drugs" T="Eyes To The Wind" type="SONG" uuid="9508d5e1870844138fa67e3438b82c25" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Song - 2014" publish="2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
 </ListCompositions>

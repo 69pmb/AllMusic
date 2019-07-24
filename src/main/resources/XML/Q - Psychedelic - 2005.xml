@@ -1,124 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" uuid="05d8f09f9af744ff9168b48b7676ac89" mergeable="true" del="true">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="1" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Love" T="Forever Changes" type="ALBUM" mergeable="true" del="true">
+  <compo A="Love" T="Forever Changes" type="ALBUM" uuid="7882be86375e4f46b40b6d4373abceee" mergeable="true" del="true">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="2" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" uuid="6f7ea08c660c41559627eaa037e55c30" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="3" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The 13th Floor Elevators" T="The Psychedelic Sound Of The 13th Floor Elevators" type="ALBUM" mergeable="true" del="false">
+  <compo A="The 13th Floor Elevators" T="The Psychedelic Sound Of The 13th Floor Elevators" type="ALBUM" uuid="a529ee9a4524409081a04249c6de4acc" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="4" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Beatles" T="Sgt Peppers Lonely Hearts Club Band" type="ALBUM" uuid="325362f2ffc342acb5fcdf8903d61f99" mergeable="true" del="true">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="5" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Greateful Dead" T="Live/Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Greateful Dead" T="Live/Dead" type="ALBUM" uuid="15326bdb2b984044a62cf550442aaafe" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="6" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="bda021c358974d75879f0435a4485116" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="6" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Mothers Of Invention" T="We're Only In It For The Money" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Mothers Of Invention" T="We're Only In It For The Money" type="ALBUM" uuid="1ffc0e770e894bef8d033b3222a28b38" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="7" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Jefferson Airplane" T="After Bathing At Baxter's" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jefferson Airplane" T="After Bathing At Baxter's" type="ALBUM" uuid="3a33ffcc255d4b8a9df26a2a3523f6d5" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="8" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Alexander 'Skip' Spence" T="Oar" type="ALBUM" mergeable="true" del="false">
+  <compo A="Alexander 'Skip' Spence" T="Oar" type="ALBUM" uuid="f16f253b3c3d49b1a3129d1ba702a681" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="10" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Small Faces" T="Ogdens' Nut Gone Flake" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Small Faces" T="Ogdens' Nut Gone Flake" type="ALBUM" uuid="2d2a20ec028c4e71bbebee70a541fd16" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="11" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Os Mutantes" T="Mutantes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Os Mutantes" T="Mutantes" type="ALBUM" uuid="11c9437d6ecd45edbdb2cbd00ef4e4ac" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="12" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Keleiderscope" T="Tangerine Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Keleiderscope" T="Tangerine Dream" type="ALBUM" uuid="877ab88ba461483593066ae384ba3d2f" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="13" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Country Joe And The Fish" T="Electric Music For The Mind And Body" type="ALBUM" mergeable="true" del="false">
+  <compo A="Country Joe And The Fish" T="Electric Music For The Mind And Body" type="ALBUM" uuid="7fb36368b1604f3a9c910af962ad538a" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="14" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Traffic" T="Mr Fantasy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Traffic" T="Mr Fantasy" type="ALBUM" uuid="b95e7486763240d7b8c176edc3998649" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="15" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" uuid="88bb66f75d0b44538cc05cdd083b5f0f" mergeable="true" del="true">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="16" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Captain Beefheart And His Magic Band" T="Safe As Milk" type="ALBUM" mergeable="true" del="false">
+  <compo A="Captain Beefheart And His Magic Band" T="Safe As Milk" type="ALBUM" uuid="36d690a5133c4657abeb5c53054facc3" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="17" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Who" T="The Who Sell Out" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Who" T="The Who Sell Out" type="ALBUM" uuid="68adb9b52cab4cadaac0c4fce5a8c7cf" mergeable="true" del="true">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="18" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Incredible String Band" T="The 5000 Sprits Of The Layers Of The Onion" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Incredible String Band" T="The 5000 Sprits Of The Layers Of The Onion" type="ALBUM" uuid="a4528c44de7342cea9b08e629f7da8aa" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="19" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Big Brother And The Holding Company" T="Cheap Thrills" type="ALBUM" mergeable="true" del="false">
+  <compo A="Big Brother And The Holding Company" T="Cheap Thrills" type="ALBUM" uuid="b6dde22610ab4b658d48ef53dc5861d7" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="20" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Electric Prunes" T="I Had Too Much To Dream (Last Night)" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Electric Prunes" T="I Had Too Much To Dream (Last Night)" type="ALBUM" uuid="5c426e4d313445d786a17fd2de7dc83e" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="21" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Mighty Baby" T="Mighty Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mighty Baby" T="Mighty Baby" type="ALBUM" uuid="1ec7cffbdb7a436182cfefdb2fc53153" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="22" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Sprit" T="Twelve Dreams Of Dr Sardonicus" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sprit" T="Twelve Dreams Of Dr Sardonicus" type="ALBUM" uuid="741c8a708e88404e8a406aa0a19d07d5" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="23" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Van Dyke Parks" T="Song Cycle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Dyke Parks" T="Song Cycle" type="ALBUM" uuid="6f4ca11cd72849f294e503c20bba2299" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="24" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Beach Boys" T="Smiley Smile" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beach Boys" T="Smiley Smile" type="ALBUM" uuid="aac30ba4cca547c795fa2874c0b4befe" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="25" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Soft Machine" T="Volume Two" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Soft Machine" T="Volume Two" type="ALBUM" uuid="ee311aa45b5142a8ab3ca1110d545b67" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="26" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Donavan" T="Sunshine Superman" type="ALBUM" mergeable="true" del="false">
+  <compo A="Donavan" T="Sunshine Superman" type="ALBUM" uuid="cd061ed15c16437bbe2239f71303241c" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="27" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Odessy And Oracle" T="Life After Death" type="ALBUM" mergeable="true" del="false">
+  <compo A="Odessy And Oracle" T="Life After Death" type="ALBUM" uuid="eb7d135bf2cf464b9401507add965733" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="28" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Quicksilver Messenger Service" T="Quicksilver Messenger Service" type="ALBUM" mergeable="true" del="false">
+  <compo A="Quicksilver Messenger Service" T="Quicksilver Messenger Service" type="ALBUM" uuid="c1970ddca4bc4bf7b827fab61b62108f" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="29" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Cream" T="Disraeli Gears" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cream" T="Disraeli Gears" type="ALBUM" uuid="73cc70fae9e74015b1925bd01c48dbff" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="30" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The West Cost Pop Art Experimental Band" T="A Child's Guide To Good And Evil" type="ALBUM" mergeable="true" del="false">
+  <compo A="The West Cost Pop Art Experimental Band" T="A Child's Guide To Good And Evil" type="ALBUM" uuid="94997f808e9e4fd8b814844a15df240b" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="31" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Temptations" T="Psychedelic Shack" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Temptations" T="Psychedelic Shack" type="ALBUM" uuid="fef792eb10524e8594ee2ee0cca5c2d9" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="32" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Insect Trust" T="The Insect Trust" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Insect Trust" T="The Insect Trust" type="ALBUM" uuid="216995acfd4b44a4a19c6f0e123117a9" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="33" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Tim Buckley" T="Goodbye And Hello" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tim Buckley" T="Goodbye And Hello" type="ALBUM" uuid="7bf33ee77d6247149b5c72050a3eb6d9" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="34" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Doors" T="Strange Days" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="731d4e3d8748486984f714ffd066e7d4" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="35" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Julie Drisco, Brian Auger And The Trinity" T="Open" type="ALBUM" mergeable="true" del="false">
+  <compo A="Julie Drisco, Brian Auger And The Trinity" T="Open" type="ALBUM" uuid="c14a8cb6eb7d43539e340bf192ad4280" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="36" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="The Pretty Things" T="SF Sorrow" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pretty Things" T="SF Sorrow" type="ALBUM" uuid="6ac4a62dd4bc4aaea6db4cd423825cc9" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="37" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Meic Stevens" T="Outlander" type="ALBUM" mergeable="true" del="false">
+  <compo A="Meic Stevens" T="Outlander" type="ALBUM" uuid="67cf3936cfc640a485b287da84414167" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="38" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Blue Cheer" T="Vincebus Eruptum" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blue Cheer" T="Vincebus Eruptum" type="ALBUM" uuid="beadb72e9807483ca5428987e8adb6aa" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="39" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
-  <compo A="Euphoria" T="A Gift From Euphoria" type="ALBUM" mergeable="true" del="false">
+  <compo A="Euphoria" T="A Gift From Euphoria" type="ALBUM" uuid="13fafabda05041a3a4b8432778911ae3" mergeable="true" del="false">
     <file author="Q" name="Q - Psychedelic - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="40" creation="28/08/2018 12:03:53" size="40"/>
   </compo>
 </ListCompositions>

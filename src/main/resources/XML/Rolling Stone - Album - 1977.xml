@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" mergeable="true" del="true">
+  <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" uuid="923e61f4425d4ecc886a3e9c362d1c57" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Eagles" T="Hotel California" type="ALBUM" mergeable="true" del="false">
+  <compo A="Eagles" T="Hotel California" type="ALBUM" uuid="1babff3a10a54c9daca6a9b5a45ad230" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" mergeable="true" del="true">
+  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" uuid="4db038a0b8a247919c14313f0ef37fe3" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="James Taylor" T="JT" type="ALBUM" mergeable="true" del="false">
+  <compo A="James Taylor" T="JT" type="ALBUM" uuid="02577a58c8d04411889590e1bc713ecc" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" mergeable="true" del="true">
+  <compo A="Elvis Costello" T="My Aim Is True" type="ALBUM" uuid="79b8f6e0a59e4e2da483cb0d0a595275" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
-  <compo A="Muddy Waters" T="Hard Again" type="ALBUM" mergeable="true" del="false">
+  <compo A="Muddy Waters" T="Hard Again" type="ALBUM" uuid="e66ddceee8fa4c58984a31334d481f64" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="6"/>
   </compo>
 </ListCompositions>

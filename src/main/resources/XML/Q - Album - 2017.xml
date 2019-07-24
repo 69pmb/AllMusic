@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Kendrick Lamar" T="DAMN." type="ALBUM" mergeable="true" del="true">
+  <compo A="Kendrick Lamar" T="DAMN." type="ALBUM" uuid="45e0c39720fc428eb27cdda96b183fe3" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="1" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="LCD Soundsystem" T="American Dream" type="ALBUM" mergeable="true" del="true">
+  <compo A="LCD Soundsystem" T="American Dream" type="ALBUM" uuid="ded6a7e0a3b640d3b55ce54220785e16" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="2" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Wolf Alice" T="Visions of a Life" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wolf Alice" T="Visions of a Life" type="ALBUM" uuid="69464fecc24a482abb9b82f8781018c0" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="3" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Lorde" T="Melodrama" type="ALBUM" mergeable="true" del="true">
+  <compo A="Lorde" T="Melodrama" type="ALBUM" uuid="7537701c5cfd497b9f89b08c606864e7" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="4" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Gorillaz" T="Humanz" type="ALBUM" mergeable="true" del="true">
+  <compo A="Gorillaz" T="Humanz" type="ALBUM" uuid="5c6e188114ce471c8f84a2a2cd1d4843" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="5" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="St. Vincent" T="MASSEDUCTION" type="ALBUM" mergeable="true" del="true">
+  <compo A="St. Vincent" T="MASSEDUCTION" type="ALBUM" uuid="9057170278fb49eeab028bfd2fff7569" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="6" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Father John Misty" T="Pure Comedy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Father John Misty" T="Pure Comedy" type="ALBUM" uuid="c8d6fd69528041c68e9788a46ad01cef" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="7" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Baxter Dury" T="Prince of Tears" type="ALBUM" mergeable="true" del="false">
+  <compo A="Baxter Dury" T="Prince of Tears" type="ALBUM" uuid="473f54ff46e147d7b17c9e7d3c3ec2ea" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="8" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Queens of the Stone Age" T="Villains" type="ALBUM" mergeable="true" del="false">
+  <compo A="Queens of the Stone Age" T="Villains" type="ALBUM" uuid="a59b34bdc1264d86ae792ac12a8e3f0f" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="9" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="The National" T="Sleep Well Beast" type="ALBUM" mergeable="true" del="false">
+  <compo A="The National" T="Sleep Well Beast" type="ALBUM" uuid="932fa3993ee743d689ee463f01fbb898" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="10" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Stormzy" T="Gang Signs And Prayer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Stormzy" T="Gang Signs And Prayer" type="ALBUM" uuid="f3b08f7277a44d15aa8de1a16f023d98" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="11" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Sleaford Mods" T="English Tapas" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleaford Mods" T="English Tapas" type="ALBUM" uuid="3eac9974f60d4609a71997802e6e918e" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="12" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="The Horrors" T="V" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Horrors" T="V" type="ALBUM" uuid="5bec3fa990f745e690ffd26bd7d78926" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="13" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Sampha" T="Process" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sampha" T="Process" type="ALBUM" uuid="7e543f5c813d4f85b4ace57750b79b3a" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="14" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Liam Gallagher" T="As You Were" type="ALBUM" mergeable="true" del="false">
+  <compo A="Liam Gallagher" T="As You Were" type="ALBUM" uuid="11e6b4fe7fb44d2c9859f7c7c3be4487" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="15" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Girl Ray" T="Earl Grey" type="ALBUM" mergeable="true" del="false">
+  <compo A="Girl Ray" T="Earl Grey" type="ALBUM" uuid="5fdae02617374e13b2f26782604a3a71" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="16" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="The xx" T="I See You" type="ALBUM" mergeable="true" del="true">
+  <compo A="The xx" T="I See You" type="ALBUM" uuid="4d397a756a4d47679239bd9e4e880b06" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="17" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Four Tet" T="New Energy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Four Tet" T="New Energy" type="ALBUM" uuid="c2ded96fa47d441ab0c8f9abce6ac0e2" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="18" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Dizzee Rascal" T="Raskit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dizzee Rascal" T="Raskit" type="ALBUM" uuid="517ac4ccdb0740a989c230d7e5c7e08d" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="19" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Forest Swords" T="Compassion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Forest Swords" T="Compassion" type="ALBUM" uuid="e5b386f84853431eb574e338e3f77641" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="20" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Cigarettes After Sex" T="Cigarettes After Sex" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cigarettes After Sex" T="Cigarettes After Sex" type="ALBUM" uuid="0de6f03c45304f2189ea74988df51de3" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="21" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Jane Weaver" T="Modern Kosmology" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jane Weaver" T="Modern Kosmology" type="ALBUM" uuid="1c96618e326b4bdb892f9c0466c05423" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="22" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="The War on Drugs" T="A Deeper Understanding" type="ALBUM" mergeable="true" del="false">
+  <compo A="The War on Drugs" T="A Deeper Understanding" type="ALBUM" uuid="2136cf7447344cdfa2e937f3527acb79" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="23" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Paul Weller" T="A Kind Revolution" type="ALBUM" mergeable="true" del="false">
+  <compo A="Paul Weller" T="A Kind Revolution" type="ALBUM" uuid="874e6510b36d40c1a331b41b280486e1" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="24" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Thundercat" T="Drunk" type="ALBUM" mergeable="true" del="false">
+  <compo A="Thundercat" T="Drunk" type="ALBUM" uuid="8d6ac9957033492897468ab7931e3e9f" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="25" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Sparks" T="Hippopotamus" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sparks" T="Hippopotamus" type="ALBUM" uuid="eb2fc02a1c204edea063ed536d4e5715" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="26" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="SZA" T="CTRL" type="ALBUM" mergeable="true" del="false">
+  <compo A="SZA" T="CTRL" type="ALBUM" uuid="986380d3fb1c4ed0ae85df340acb1b46" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="27" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="MUNA" T="About U" type="ALBUM" mergeable="true" del="false">
+  <compo A="MUNA" T="About U" type="ALBUM" uuid="b9c4297e7a044198884912c18a8c12f0" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="28" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Everything Everything" T="A Fever Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Everything Everything" T="A Fever Dream" type="ALBUM" uuid="5f704e4c3f264951a72bd528f9f0924b" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="29" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Beck" T="Colors" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Colors" type="ALBUM" uuid="cf627150e1f341be899803bec1c0e342" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="30" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Brian Eno" T="Reflection" type="ALBUM" mergeable="true" del="false">
+  <compo A="Brian Eno" T="Reflection" type="ALBUM" uuid="d4b9f429ba5148ba9d0c07d24953d3f0" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="31" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Nadia Reid" T="Preservation" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nadia Reid" T="Preservation" type="ALBUM" uuid="b6e49fae2d5749948ab7f9ad38c21b48" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="32" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Joan Shelley" T="Joan Shelley" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joan Shelley" T="Joan Shelley" type="ALBUM" uuid="7b1f88af915e45d3a2b766f1771def1c" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="33" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Susanne Sundfør" T="Music For People In Trouble" type="ALBUM" mergeable="true" del="false">
+  <compo A="Susanne Sundfør" T="Music For People In Trouble" type="ALBUM" uuid="961ceac09d334621ac60f50e322e53ab" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="34" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Kasabian" T="For Crying Out Loud" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kasabian" T="For Crying Out Loud" type="ALBUM" uuid="13f011f824774d46a4d2245deb6287f9" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="35" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Elbow" T="Little Fictions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elbow" T="Little Fictions" type="ALBUM" uuid="69842ad53e674137b82853e9fc941ab5" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="36" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="J Hus" T="Common Sense" type="ALBUM" mergeable="true" del="false">
+  <compo A="J Hus" T="Common Sense" type="ALBUM" uuid="dd81807a058a4b498b87a46a2a5cfd54" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="37" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Phoenix" T="Ti Amo" type="ALBUM" mergeable="true" del="false">
+  <compo A="Phoenix" T="Ti Amo" type="ALBUM" uuid="815ec1edcef94f0c84f61bdec2dfd0c1" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="38" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Lana Del Rey" T="Lust for Life" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lana Del Rey" T="Lust for Life" type="ALBUM" uuid="5550eab959564baf80bb7fca78970309" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="39" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Tyler, the Creator" T="Flower Boy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tyler, the Creator" T="Flower Boy" type="ALBUM" uuid="fb00d5b68d14419fbbdc6f4e3e0f218b" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="40" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Fleet Foxes" T="Crack-Up" type="ALBUM" mergeable="true" del="true">
+  <compo A="Fleet Foxes" T="Crack-Up" type="ALBUM" uuid="985d07cac8304b959bbb470f07035f0c" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="41" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Laura Marling" T="Semper Femina" type="ALBUM" mergeable="true" del="false">
+  <compo A="Laura Marling" T="Semper Femina" type="ALBUM" uuid="2bf43905ef8d4eb9a3cdb35ae83d3ab1" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="42" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Squeeze" T="The Knowledge" type="ALBUM" mergeable="true" del="false">
+  <compo A="Squeeze" T="The Knowledge" type="ALBUM" uuid="a949bed30ecf4596a48766ef919fa75c" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="43" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Michael Head And The Red Elastic Band" T="Adios Senor Pussycat" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Head And The Red Elastic Band" T="Adios Senor Pussycat" type="ALBUM" uuid="7bd642b5c5a24d9cae39194553b133e5" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="44" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="alt-J" T="Relaxer" type="ALBUM" mergeable="true" del="false">
+  <compo A="alt-J" T="Relaxer" type="ALBUM" uuid="981a1668a2b447f6b83fbb2b1afe6dd6" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="45" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Jay-Z" T="4:44" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="4:44" type="ALBUM" uuid="1e2fe2e043824379a3d372367e89eab3" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="46" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Ghostpoet" T="Dark Days And Canapes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ghostpoet" T="Dark Days And Canapes" type="ALBUM" uuid="785970ca981f4c7285a70798250f8bfe" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="47" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Kevin Morby" T="City Music" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kevin Morby" T="City Music" type="ALBUM" uuid="2644628fdbfc460bb73b4dd70ea501ce" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="48" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Depeche Mode" T="Spirit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Depeche Mode" T="Spirit" type="ALBUM" uuid="c9cbb0b96f7d450a8ee4f462ab996c3e" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="49" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
-  <compo A="Pumarosa" T="The Witch" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pumarosa" T="The Witch" type="ALBUM" uuid="ab62b351d9a64e0c8a0db58f437514d1" mergeable="true" del="false">
     <file author="Q" name="Q - Album - 2017" publish="2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="50" creation="17/12/2017 16:25:01" size="50"/>
   </compo>
 </ListCompositions>

@@ -1,604 +1,604 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="Kid A" type="ALBUM" uuid="fa3f8af8893f4058a35d069b435d5ab6" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="1" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Arcade Fire" T="Funeral" type="ALBUM" mergeable="true" del="true">
+  <compo A="Arcade Fire" T="Funeral" type="ALBUM" uuid="7508245c898e42ad8c10a84ec829174c" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="2" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Daft Punk" T="Discovery" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Discovery" type="ALBUM" uuid="54a8f52f16a54bf59efeb61625f7dc96" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="3" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" mergeable="true" del="true">
+  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" uuid="86ac1c1dfa9a4ac89d010d960068b3d5" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="4" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" uuid="8234175aff0b44b1994e6939a75b4089" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="5" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Modest Mouse" T="The Moon And Antarctica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Modest Mouse" T="The Moon And Antarctica" type="ALBUM" uuid="cebbafee28084603a34f658a0f3c20a8" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="6" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" uuid="b9a6580fd7924b7fb9480dc09e800393" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="7" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="968758523abe42eba133a4f76e90a391" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="8" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Panda Bear" T="Person Pitch" type="ALBUM" mergeable="true" del="false">
+  <compo A="Panda Bear" T="Person Pitch" type="ALBUM" uuid="9e9e58fa4e614d46a1e977e33dc95d5c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="9" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Avalanches" T="Since I Left You" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Avalanches" T="Since I Left You" type="ALBUM" uuid="f48e47e2c61a4349a147a20482b34e03" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="10" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Ghostface Killah" T="Supreme Clientele" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ghostface Killah" T="Supreme Clientele" type="ALBUM" uuid="2e69d194889247f6bdee453cba50df0c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="11" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
+  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" uuid="2c918b5fa452427ea141e97db2ea20e4" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="12" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="OutKast" T="Stankonia" type="ALBUM" mergeable="true" del="false">
+  <compo A="OutKast" T="Stankonia" type="ALBUM" uuid="52ba81644c1c470a8b494a03c28535d5" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="13" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" mergeable="true" del="true">
+  <compo A="Animal Collective" T="Merriweather Post Pavilion" type="ALBUM" uuid="f1c0d8eef6de436aad160124b3249c67" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="14" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Knife" T="Silent Shout" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Knife" T="Silent Shout" type="ALBUM" uuid="49a80e1ccdf24cf59211936dda8ef3c7" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="15" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Sufjan Stevens" T="Illinois" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="Illinois" type="ALBUM" uuid="bae03e3d3ae3469ba70c0961c4fe043b" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="16" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="LCD Soundsystem" T="Sound of Silver" type="ALBUM" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="Sound of Silver" type="ALBUM" uuid="5ee41ec870364bda9a3135550c9684bd" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="17" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Kanye West" T="Late Registration" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="Late Registration" type="ALBUM" uuid="644805e3f6db43ec99637535493c3aa4" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="18" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Spoon" T="Kill The Moonlight" type="ALBUM" mergeable="true" del="false">
+  <compo A="Spoon" T="Kill The Moonlight" type="ALBUM" uuid="896155b53d854e68aed39dd4c878bc5a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="19" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" mergeable="true" del="true">
+  <compo A="Interpol" T="Turn On The Bright Lights" type="ALBUM" uuid="39d4535b2f33480fa4f45acaf9e2bf80" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="20" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" uuid="cc0e38dec58348c5bcaad55f260c6125" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="21" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="M.I.A" T="Kala" type="ALBUM" mergeable="true" del="true">
+  <compo A="M.I.A" T="Kala" type="ALBUM" uuid="265b522b64c747d099b2e3474e5fe3a2" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="22" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Broken Social Scene" T="You Forgot It In People" type="ALBUM" mergeable="true" del="false">
+  <compo A="Broken Social Scene" T="You Forgot It In People" type="ALBUM" uuid="bcaf9ac42ddb430ca0499612bb0db675" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="23" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever to Tell" type="ALBUM" mergeable="true" del="true">
+  <compo A="Yeah Yeah Yeahs" T="Fever to Tell" type="ALBUM" uuid="95ffe6109f0145dbae9f8aa450de3ef2" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="24" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Madvillain" T="Madvillainy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Madvillain" T="Madvillainy" type="ALBUM" uuid="79b55097dc504182b61de7ebd007f0a5" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="25" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Fennesz" T="Endless Summer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fennesz" T="Endless Summer" type="ALBUM" uuid="a1dc21cc74d4439aadd00d5778ddc3b8" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="26" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Animal Collective" T="Sung Tongs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Sung Tongs" type="ALBUM" uuid="fd0c17b19093405da75f67b6a47527b0" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="27" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Kanye West" T="The College Dropout" type="ALBUM" mergeable="true" del="true">
+  <compo A="Kanye West" T="The College Dropout" type="ALBUM" uuid="aa3670e673644e4c81512de93346ddf6" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="28" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" mergeable="true" del="true">
+  <compo A="Bon Iver" T="For Emma, Forever Ago" type="ALBUM" uuid="47a631e67c6a4b3b93db07ce625b356d" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="29" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Boards of Canada" T="Geogaddi" type="ALBUM" mergeable="true" del="false">
+  <compo A="Boards of Canada" T="Geogaddi" type="ALBUM" uuid="55a22e8564cf4d53a37e94ded8ba2d5b" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="30" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="TV on the Radio" T="Return to Cookie Mountain" type="ALBUM" mergeable="true" del="false">
+  <compo A="TV on the Radio" T="Return to Cookie Mountain" type="ALBUM" uuid="3c1082c079f5459593a79e167c510738" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="31" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" mergeable="true" del="true">
+  <compo A="Fleet Foxes" T="Fleet Foxes" type="ALBUM" uuid="9d1a96a6efe1475abe3dc493c615f65e" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Basement Jaxx" T="Rooty" type="ALBUM" mergeable="true" del="false">
+  <compo A="Basement Jaxx" T="Rooty" type="ALBUM" uuid="997aeacad86e4927a41f4d1accff203f" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="33" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Radiohead" T="Amnesiac" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="Amnesiac" type="ALBUM" uuid="111130f804144426bae9ccd6cb7a7226" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="34" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Spoon" T="Ga Ga Ga Ga Ga" type="ALBUM" mergeable="true" del="false">
+  <compo A="Spoon" T="Ga Ga Ga Ga Ga" type="ALBUM" uuid="19dfef29a2cb4a60953b7810ac8cbd2c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="35" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Streets" T="Original Pirate Material" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Streets" T="Original Pirate Material" type="ALBUM" uuid="37df6e9ccd2b44ba949ef5d31c28e4cb" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="36" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Yo La Tengo" T="...And Then Nothing Turned Itself Inside-Out" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yo La Tengo" T="...And Then Nothing Turned Itself Inside-Out" type="ALBUM" uuid="40bd075c80654ada97493d88ab811622" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="37" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Phoenix" T="It's Never Been Like That" type="ALBUM" mergeable="true" del="false">
+  <compo A="Phoenix" T="It's Never Been Like That" type="ALBUM" uuid="87efb433e75b46ccb69839e27eeb50ed" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="38" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Boredoms" T="Vision Creation Newsun" type="ALBUM" mergeable="true" del="false">
+  <compo A="Boredoms" T="Vision Creation Newsun" type="ALBUM" uuid="2a2c74a2ba424e018d383606f0c5624c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="39" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The National" T="Alligator" type="ALBUM" mergeable="true" del="false">
+  <compo A="The National" T="Alligator" type="ALBUM" uuid="3a062a444900452a817b573ed0511731" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="40" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Burial" T="Untrue" type="ALBUM" mergeable="true" del="false">
+  <compo A="Burial" T="Untrue" type="ALBUM" uuid="e86b135168f54e31830b573bfec94ab8" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="41" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" mergeable="true" del="true">
+  <compo A="Grizzly Bear" T="Veckatimest" type="ALBUM" uuid="f5e8da13da094da1b74311317bbacb9d" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="42" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Luomo" T="Vocalcity" type="ALBUM" mergeable="true" del="false">
+  <compo A="Luomo" T="Vocalcity" type="ALBUM" uuid="55ff57d6d0844afc9b08f7980203ccb5" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="43" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="D'Angelo" T="Voodoo" type="ALBUM" mergeable="true" del="false">
+  <compo A="D'Angelo" T="Voodoo" type="ALBUM" uuid="bee573e563ca401cb330562e785d4431" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="44" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Fugazi" T="The Argument" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fugazi" T="The Argument" type="ALBUM" uuid="ba4d935125e14987a2eb6af26561278b" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="45" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Shins" T="Chutes Too Narrow" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Shins" T="Chutes Too Narrow" type="ALBUM" uuid="e0e0cff22aaf40e09eb7e31425235e0f" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="46" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Joanna Newsom" T="The Milk-Eyed Mender" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joanna Newsom" T="The Milk-Eyed Mender" type="ALBUM" uuid="bed855f9b2e4467c9501ab275917b4bf" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="47" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Hold Steady" T="Separation Sunday" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Hold Steady" T="Separation Sunday" type="ALBUM" uuid="7c02b29d9fae45bd90b33ee4b4d056f4" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="48" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Antony and the Johnsons" T="I Am a Bird Now" type="ALBUM" mergeable="true" del="false">
+  <compo A="Antony and the Johnsons" T="I Am a Bird Now" type="ALBUM" uuid="c4d864a8fb0944f99664c48169344881" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="49" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Deerhunter" T="Microcastle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Deerhunter" T="Microcastle" type="ALBUM" uuid="71d5626d548d4b739eaccf593de08606" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="50" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" mergeable="true" del="true">
+  <compo A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" uuid="4f32c6e28498424ea4557c0db53e322d" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="51" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Clipse" T="Hell Hath No Fury" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clipse" T="Hell Hath No Fury" type="ALBUM" uuid="1b8a6300fe9a413a898ca6af60d26b48" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="52" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Clinic" T="Internal Wrangler" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clinic" T="Internal Wrangler" type="ALBUM" uuid="99d9cfb788e043ee9120bc662a940050" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="53" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="M.I.A." T="Arular" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Arular" type="ALBUM" uuid="14b321cb2b3840f594ca7a84dd517846" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="54" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Animal Collective" T="Feels" type="ALBUM" mergeable="true" del="false">
+  <compo A="Animal Collective" T="Feels" type="ALBUM" uuid="496e3b487a81433ba6cd7fa4741a2468" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="55" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Dirty Projectors" T="Bitte Orca" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dirty Projectors" T="Bitte Orca" type="ALBUM" uuid="d05adaf2e80c4e90b0d58524853e850a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="56" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Rapture" T="Echoes" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rapture" T="Echoes" type="ALBUM" uuid="097d13a90878480688d592640fde201a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="57" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Field" T="From Here We Go Sublime" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Field" T="From Here We Go Sublime" type="ALBUM" uuid="a1310386923148da9446a8184ead7836" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="58" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Ted Leo and the Pharmacists" T="Hearts of Oak" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ted Leo and the Pharmacists" T="Hearts of Oak" type="ALBUM" uuid="00dcd49d613d4e53b4f82a8a9cd5619e" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="59" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Exploding Hearts" T="Guitar Romantic" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Exploding Hearts" T="Guitar Romantic" type="ALBUM" uuid="243bb7b0978844fc9f57337bd7e1d27f" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="60" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Cut Copy" T="In Ghost Colours" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cut Copy" T="In Ghost Colours" type="ALBUM" uuid="ebc5bf8e2cfb4a988750aa5798121dbb" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="61" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Dizzee Rascal" T="Boy in da Corner" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dizzee Rascal" T="Boy in da Corner" type="ALBUM" uuid="92a7b0a494e54714bde94991ba92562a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="62" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="of Montreal" T="Hissing Fauna, Are You The Destroyer?" type="ALBUM" mergeable="true" del="false">
+  <compo A="of Montreal" T="Hissing Fauna, Are You The Destroyer?" type="ALBUM" uuid="3ede5b0080d340268e7e47222c4a3a4f" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="63" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Hold Steady" T="Boys and Girls in America" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Hold Steady" T="Boys and Girls in America" type="ALBUM" uuid="7bd3079c09d54efd95b95c46672bdf7d" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="64" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Godspeed You! Black Emperor" T="Lift Your Skinny Fists Like Antennas to Heaven" type="ALBUM" mergeable="true" del="false">
+  <compo A="Godspeed You! Black Emperor" T="Lift Your Skinny Fists Like Antennas to Heaven" type="ALBUM" uuid="5ea0cb22909a49aea77b5f37c4751c90" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="65" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="J Dilla [Jay Dee]" T="Donuts" type="ALBUM" mergeable="true" del="false">
+  <compo A="J Dilla [Jay Dee]" T="Donuts" type="ALBUM" uuid="67dcd0fc91e541c7bfafa9d19cf92db6" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="66" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Flaming Lips" T="Yoshimi Battles The Pink Robots" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Flaming Lips" T="Yoshimi Battles The Pink Robots" type="ALBUM" uuid="063d783110024b5487f6d37c4516be6a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="67" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Robyn" T="Robyn" type="ALBUM" mergeable="true" del="false">
+  <compo A="Robyn" T="Robyn" type="ALBUM" uuid="2cfa642418904a94a55ae73ca2eea654" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="68" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Liars" T="Drum's Not Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="Liars" T="Drum's Not Dead" type="ALBUM" uuid="b0798836ddfb4bd0b567b1bb3482862b" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="69" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Sufjan Stevens" T="Greetings From Michigan: The Great Lakes State" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sufjan Stevens" T="Greetings From Michigan: The Great Lakes State" type="ALBUM" uuid="da3ba3da783d4cfca6deecc42ab72737" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="70" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Portishead" T="Third" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Third" type="ALBUM" uuid="3512510a84e24a88a889d1a67fce1e64" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="71" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Sleater-Kinney" T="One Beat" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleater-Kinney" T="One Beat" type="ALBUM" uuid="5e304eec43ab4a4894cbf4caaf64fbc2" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="72" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Microphones" T="The Glow Pt. 2" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Microphones" T="The Glow Pt. 2" type="ALBUM" uuid="e932ba3f3fc54376897c41e840640710" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="73" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
+  <compo A="The White Stripes" T="Elephant" type="ALBUM" uuid="78ad9d3f2f58493a9ac3e7dd9059d4ec" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="74" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Ghostface Killah" T="Fishscale" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ghostface Killah" T="Fishscale" type="ALBUM" uuid="0f1fb73d7f154c3f9ca6ea3d68429910" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="75" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Junior Boys" T="Last Exit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Junior Boys" T="Last Exit" type="ALBUM" uuid="86e1374ef8214c93b94b472a95937ad2" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="76" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Missy Elliott" T="Miss E...  So Addictive" type="ALBUM" mergeable="true" del="false">
+  <compo A="Missy Elliott" T="Miss E...  So Addictive" type="ALBUM" uuid="2142e6a7cde047ab919469a5eb5de8ac" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="77" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="No Age" T="Nouns" type="ALBUM" mergeable="true" del="false">
+  <compo A="No Age" T="Nouns" type="ALBUM" uuid="99499209411345d69407e17b1f8c6f1f" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="78" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Justin Timberlake" T="FutureSex / LoveSounds" type="ALBUM" mergeable="true" del="false">
+  <compo A="Justin Timberlake" T="FutureSex / LoveSounds" type="ALBUM" uuid="866b057a00fa461d8f2625806b194065" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="79" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Clientele" T="Suburban Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Clientele" T="Suburban Light" type="ALBUM" uuid="485c7475f4c947e7b6a5ea28041c6534" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="80" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Hot Chip" T="The Warning" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hot Chip" T="The Warning" type="ALBUM" uuid="aa24d0bbe101408f92d1acdb972a44cc" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="81" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Beck" T="Sea Change" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Sea Change" type="ALBUM" uuid="168180f6f5da4e348f828f2c17591184" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="82" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Joanna Newsom" T="Ys" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joanna Newsom" T="Ys" type="ALBUM" uuid="e51a2a0386594ba7a041e4d3c5c9c805" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="83" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Super Furry Animals" T="Rings Around The World" type="ALBUM" mergeable="true" del="false">
+  <compo A="Super Furry Animals" T="Rings Around The World" type="ALBUM" uuid="370d11ac70674b419c76dc996dffdba7" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="84" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Gas" T="Pop" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gas" T="Pop" type="ALBUM" uuid="815fea921c55427baff8243ccb19fa77" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="85" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Belle And Sebastian" T="The Life Pursuit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Belle And Sebastian" T="The Life Pursuit" type="ALBUM" uuid="42f86de2970b4272953caba28ca8634d" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="86" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Kanye West" T="Graduation" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="Graduation" type="ALBUM" uuid="365b64c0245a40eab0fa63bb454d86fc" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="87" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Wrens" T="The Meadowlands" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Wrens" T="The Meadowlands" type="ALBUM" uuid="bc0d3106a405454998181ec82d5a110e" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="88" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Wolf Parade" T="Apologies to the Queen Mary" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wolf Parade" T="Apologies to the Queen Mary" type="ALBUM" uuid="da98b695d6ea4804a18157735fcee778" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="89" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Jay Z" T="The Black Album" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay Z" T="The Black Album" type="ALBUM" uuid="cbe7fd27880d43229e697ee6db6f4b4a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="90" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The New Pornographers" T="Mass Romantic" type="ALBUM" mergeable="true" del="false">
+  <compo A="The New Pornographers" T="Mass Romantic" type="ALBUM" uuid="a9a65b1ae44a427985b3f65426e17719" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="91" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Bjork" T="Vespertine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Vespertine" type="ALBUM" uuid="4f023d57a4154335aabfb58ebe38227f" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="92" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="2 Many DJs" T="As Heard on Radio Soulwax Pt. 2" type="ALBUM" mergeable="true" del="false">
+  <compo A="2 Many DJs" T="As Heard on Radio Soulwax Pt. 2" type="ALBUM" uuid="2b5daf4675514297b6a7426ac71927bf" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="93" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="mclusky" T="Mclusky Do Dallas" type="ALBUM" mergeable="true" del="false">
+  <compo A="mclusky" T="Mclusky Do Dallas" type="ALBUM" uuid="6148a48af4f044f59ed573d87eb0b1f8" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="94" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Grizzly Bear" T="Yellow House" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Yellow House" type="ALBUM" uuid="a8fcf6f81d674dbb9e21029a6ca3df76" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="95" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Spoon" T="Girls Can Tell" type="ALBUM" mergeable="true" del="false">
+  <compo A="Spoon" T="Girls Can Tell" type="ALBUM" uuid="d1c2d63f2f8d4b26938dfd1fa1f0fad5" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="96" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Dismemberment Plan" T="Change" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Dismemberment Plan" T="Change" type="ALBUM" uuid="62bc25c774024e609746c79eb6a1fd04" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="97" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Cat Power" T="You Are Free" type="ALBUM" mergeable="true" del="true">
+  <compo A="Cat Power" T="You Are Free" type="ALBUM" uuid="cf005e9d15324e068613f6ae9e043349" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="98" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Lil Wayne" T="Da Drought 3" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lil Wayne" T="Da Drought 3" type="ALBUM" uuid="a0ec9ba80aa4414db4f276be7a9840b3" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="99" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="...And You Will Know Us By The Trail Of Dead" T="Source Tags And Codes" type="ALBUM" mergeable="true" del="false">
+  <compo A="...And You Will Know Us By The Trail Of Dead" T="Source Tags And Codes" type="ALBUM" uuid="e9aaeef75b354cd2bc33c2930f65a2e9" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="100" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Franz Ferdinand" T="Franz Ferdinand" type="ALBUM" mergeable="true" del="false">
+  <compo A="Franz Ferdinand" T="Franz Ferdinand" type="ALBUM" uuid="966a91d28fdf43798e8f4ccffe30fe56" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="101" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Mountain Goats" T="The Sunset Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Mountain Goats" T="The Sunset Tree" type="ALBUM" uuid="13ebc99fc8eb41e9bcecedf321a95f1a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="102" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="M.I.A." T="Piracy Funds Terrorism, Volume 1" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="Piracy Funds Terrorism, Volume 1" type="ALBUM" uuid="3f99929351b8425b9738cab0279b262d" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="103" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Postal Service" T="Give Up" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Postal Service" T="Give Up" type="ALBUM" uuid="1b4345d45c0844dc9b161f8308c3a37f" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="104" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Battles" T="Mirrored" type="ALBUM" mergeable="true" del="false">
+  <compo A="Battles" T="Mirrored" type="ALBUM" uuid="2cbe0bf02f5a4fc08d520d5d3774f11e" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="105" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Caribou" T="Up in Flames" type="ALBUM" mergeable="true" del="false">
+  <compo A="Caribou" T="Up in Flames" type="ALBUM" uuid="124a3dfe48f1410caa1b31b8929ef63a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="106" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Justice" T="Cross" type="ALBUM" mergeable="true" del="false">
+  <compo A="Justice" T="Cross" type="ALBUM" uuid="9664837ee5894968ae1583a39f2d67dd" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="107" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Sonic Youth" T="Murray Street" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sonic Youth" T="Murray Street" type="ALBUM" uuid="058abe5474c24800ae2619202db10f84" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="108" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Band of Horses" T="Everything All The Time" type="ALBUM" mergeable="true" del="false">
+  <compo A="Band of Horses" T="Everything All The Time" type="ALBUM" uuid="d1887aa67668457f9b3aa6c7760cb7d6" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="109" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The National" T="Boxer" type="ALBUM" mergeable="true" del="false">
+  <compo A="The National" T="Boxer" type="ALBUM" uuid="5437bfe3a4c844e8b65464095985a474" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="110" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="M83" T="Saturdays = Youth" type="ALBUM" mergeable="true" del="false">
+  <compo A="M83" T="Saturdays = Youth" type="ALBUM" uuid="6361eb3a630f4a1b95a3853500d66d35" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="111" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Feist" T="The Reminder" type="ALBUM" mergeable="true" del="false">
+  <compo A="Feist" T="The Reminder" type="ALBUM" uuid="781c809caa20452f89fb17d1f40133ec" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="112" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="LCD Soundsystem" T="LCD Soundsystem" type="ALBUM" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="LCD Soundsystem" type="ALBUM" uuid="2272516002fb4a02894adc893cf07ef8" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="113" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Cam'ron" T="Purple Haze" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cam'ron" T="Purple Haze" type="ALBUM" uuid="ddab973a13af4033b4657b89b71be31a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="114" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Shins" T="Oh, Inverted World" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Shins" T="Oh, Inverted World" type="ALBUM" uuid="4ac477fe00f940adb62207afe80bcf6c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="115" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Michael Mayer" T="Immer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Mayer" T="Immer" type="ALBUM" uuid="3e483b8b1aa7467d8534326d2a38c9c9" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="116" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Low" T="Things We Lost in the Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="Low" T="Things We Lost in the Fire" type="ALBUM" uuid="b180d5b21f7847fc835a285ae9e3a1ed" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="117" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Beta Band" T="Hot Shots II" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Beta Band" T="Hot Shots II" type="ALBUM" uuid="f2f383be1aca4e809ec0224eada67b52" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="118" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Eminem" T="The Marshall Mathers LP" type="ALBUM" mergeable="true" del="false">
+  <compo A="Eminem" T="The Marshall Mathers LP" type="ALBUM" uuid="db18c29507d341c999a460b33ccdea53" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="119" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Ted Leo" T="The Tyranny of Distance" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ted Leo" T="The Tyranny of Distance" type="ALBUM" uuid="33bc944e854c4fb1982011f32d02d7fa" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="120" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Broadcast" T="Haha Sound" type="ALBUM" mergeable="true" del="false">
+  <compo A="Broadcast" T="Haha Sound" type="ALBUM" uuid="961d49bacbab446f8784a7e1a2679514" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="121" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Ryan Adams" T="Heartbreaker" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ryan Adams" T="Heartbreaker" type="ALBUM" uuid="e3c0e7af23db44a3ab9556e1bc068a33" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="122" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Four Tet" T="Rounds" type="ALBUM" mergeable="true" del="false">
+  <compo A="Four Tet" T="Rounds" type="ALBUM" uuid="9cff674b314d40d9b458784cfeefc7d6" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="123" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="PJ Harvey" T="Stories from the City, Stories from the Sea" type="ALBUM" mergeable="true" del="true">
+  <compo A="PJ Harvey" T="Stories from the City, Stories from the Sea" type="ALBUM" uuid="a798f7cf38644b0faa3970fe163c35b2" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="124" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Books" T="Thought For Food" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Books" T="Thought For Food" type="ALBUM" uuid="5aa21b079d4b4e26999d0a62935d1fb2" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="125" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Mastodon" T="Leviathan" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mastodon" T="Leviathan" type="ALBUM" uuid="bab0fdedcb9a41cd81131783a8422f12" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="126" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Sleater-Kinney" T="The Woods" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleater-Kinney" T="The Woods" type="ALBUM" uuid="032f4248b08b43958bc5fa9237393b74" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="127" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Life Without Buildings" T="Any Other City" type="ALBUM" mergeable="true" del="false">
+  <compo A="Life Without Buildings" T="Any Other City" type="ALBUM" uuid="4aa22c2551694eeaba9a49faf45d6ca2" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="128" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Streets" T="A Grand Don't Come For Free" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Streets" T="A Grand Don't Come For Free" type="ALBUM" uuid="c9213088af1d4ffc975ce829494f66eb" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="129" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Clipse" T="We Got It 4 Cheap Volume 2" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clipse" T="We Got It 4 Cheap Volume 2" type="ALBUM" uuid="e970faa139874dc5b527b1bdfcc834fe" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="130" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Notwist" T="Neon Golden" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Notwist" T="Neon Golden" type="ALBUM" uuid="552601fed6ac43c39d246469dcd84a5d" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="131" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Hercules and Love Affair" T="Hercules And Love Affair" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hercules and Love Affair" T="Hercules And Love Affair" type="ALBUM" uuid="4f7ff12c3af647c89010c90407a8c711" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="132" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Erykah Badu" T="New Amerykah Part I: 4th World War" type="ALBUM" mergeable="false" del="false">
+  <compo A="Erykah Badu" T="New Amerykah Part I: 4th World War" type="ALBUM" uuid="d611867ab0824c438b410dbdb008a2e9" mergeable="false" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="133" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Queens of the Stone Age" T="Songs For The Deaf" type="ALBUM" mergeable="true" del="false">
+  <compo A="Queens of the Stone Age" T="Songs For The Deaf" type="ALBUM" uuid="af15b63b832b4485bf08db3b39b6ef83" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="134" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Sigur Ros" T="()" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sigur Ros" T="()" type="ALBUM" uuid="a9ac009cb75543e9a8ab3a5d31af3455" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="135" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="No Age" T="Weirdo Rippers" type="ALBUM" mergeable="true" del="false">
+  <compo A="No Age" T="Weirdo Rippers" type="ALBUM" uuid="74267d685a024aa0b94dbd91c12d749b" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="136" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Iron And Wine" T="The Creek Drank The Cradle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Iron And Wine" T="The Creek Drank The Cradle" type="ALBUM" uuid="4416aa3bc77245b38ff155e9fee17c81" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="137" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" uuid="78e2b1be8e7045f0b971848e53952eaa" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="138" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Love Is All" T="Nine Times That Same Song" type="ALBUM" mergeable="true" del="false">
+  <compo A="Love Is All" T="Nine Times That Same Song" type="ALBUM" uuid="965e5afd325d412aa2cfec6395c731c2" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="139" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="TV on the Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
+  <compo A="TV on the Radio" T="Dear Science" type="ALBUM" uuid="5e0462c41e4f46578490003702d43a37" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="140" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Neko Case" T="Blacklisted" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neko Case" T="Blacklisted" type="ALBUM" uuid="ce1e8add1b9b4c779337b72fd8d1ec5f" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="141" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Primal Scream" T="XTRMNTR" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="XTRMNTR" type="ALBUM" uuid="7bb8e7abdb884c9a82d90a69100813b2" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="142" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Decemberists" T="Picaresque" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Decemberists" T="Picaresque" type="ALBUM" uuid="1e5a5dfd725b430f9e5bdcb8fbb0b19b" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="143" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Andrew W.K." T="I Get Wet" type="ALBUM" mergeable="true" del="false">
+  <compo A="Andrew W.K." T="I Get Wet" type="ALBUM" uuid="00d8d205c21d4cb5869c22fa5f603be0" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="144" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Fiery Furnaces" T="Blueberry Boat" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Fiery Furnaces" T="Blueberry Boat" type="ALBUM" uuid="ad0cbb8ae31c4197b6de3cf16b7476b3" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="145" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="My Morning Jacket" T="Z" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Morning Jacket" T="Z" type="ALBUM" uuid="69c4a58401b248f6a18da4d97f13b858" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="146" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="T.I." T="King" type="ALBUM" mergeable="true" del="false">
+  <compo A="T.I." T="King" type="ALBUM" uuid="568b9e9b77514350954b1dbd4b62a980" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="147" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Erlend eye" T="DJ Kicks" type="ALBUM" mergeable="true" del="false">
+  <compo A="Erlend eye" T="DJ Kicks" type="ALBUM" uuid="145c9ab197da41df93cbdd0be9913188" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="148" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Tough Alliance" T="A New Chance" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Tough Alliance" T="A New Chance" type="ALBUM" uuid="87edde1160434ccaa74a2a416c3c8bb9" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="149" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The New Pornographers" T="Twin Cinema" type="ALBUM" mergeable="true" del="false">
+  <compo A="The New Pornographers" T="Twin Cinema" type="ALBUM" uuid="724454ca41464c6eba66ed39dba86dd3" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="150" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Walkmen" T="Bows And Arrows" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Walkmen" T="Bows And Arrows" type="ALBUM" uuid="2171e987c5ff41768801755c96aa1a87" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="151" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Cannibal Ox" T="The Cold Vein" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cannibal Ox" T="The Cold Vein" type="ALBUM" uuid="b0f70f567f1a45cd9612e0ecc74496f3" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="152" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Jens Lekman" T="Night Falls Over Kortedala" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jens Lekman" T="Night Falls Over Kortedala" type="ALBUM" uuid="2963fa2004114950bd578b0bf60c3f3b" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="153" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Ghostface" T="The Pretty Toney Album" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ghostface" T="The Pretty Toney Album" type="ALBUM" uuid="1402482400c84eaab1e1c86381a9fefb" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="154" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Clipse" T="Lord Willin'" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clipse" T="Lord Willin'" type="ALBUM" uuid="81065c1a87504bea8b71c381957f5d5b" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="155" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Bloc Party" T="Silent Alarm" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bloc Party" T="Silent Alarm" type="ALBUM" uuid="ba907fabc2c44d71bb91d73951725d66" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="156" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Lightning Bolt" T="Wonderful Rainbow" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lightning Bolt" T="Wonderful Rainbow" type="ALBUM" uuid="f101df2836c943a29cb7465f0d4072a7" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="157" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Destroyer" T="Destroyer's Rubies" type="ALBUM" mergeable="true" del="false">
+  <compo A="Destroyer" T="Destroyer's Rubies" type="ALBUM" uuid="087553242ce04145a1ba8c351b77cfe6" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="158" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Girl Talk" T="Night Ripper" type="ALBUM" mergeable="true" del="false">
+  <compo A="Girl Talk" T="Night Ripper" type="ALBUM" uuid="711d01a6627e4460be00346bedc2c53c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="159" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Deerhunter" T="Cryptograms" type="ALBUM" mergeable="true" del="false">
+  <compo A="Deerhunter" T="Cryptograms" type="ALBUM" uuid="cf782c70313d4ea6b1cee42ec3eeb932" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="160" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Air France" T="No Way Down" type="ALBUM" mergeable="true" del="false">
+  <compo A="Air France" T="No Way Down" type="ALBUM" uuid="3f0b802d80f54ef7908d4be8e12871a9" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="161" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Wu-Tang Clan" T="The W" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="The W" type="ALBUM" uuid="8d30df938468481f92f21ea011ab5525" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="162" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="DJ /rupture" T="Uproot" type="ALBUM" mergeable="true" del="false">
+  <compo A="DJ /rupture" T="Uproot" type="ALBUM" uuid="648aa858ac7f4be0bdfd18f1ce4e312c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="163" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Les Savy Fav" T="Emor: Rome Upside Down" type="ALBUM" mergeable="true" del="false">
+  <compo A="Les Savy Fav" T="Emor: Rome Upside Down" type="ALBUM" uuid="8a3890f6c1a247f88b2bfffe972c1bf0" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="164" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Ricardo Villalobos" T="Alcachofa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ricardo Villalobos" T="Alcachofa" type="ALBUM" uuid="20d5cd0b75614318874dcf958eae5fe4" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="165" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Jim O'Rourke" T="Insignificance" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jim O'Rourke" T="Insignificance" type="ALBUM" uuid="dbfb63e5cd0147dda3a77183ae2a48e9" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="166" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Annie" T="Anniemal" type="ALBUM" mergeable="true" del="false">
+  <compo A="Annie" T="Anniemal" type="ALBUM" uuid="954945272cc843dbbfa221d9c15441d0" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="167" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Califone" T="Roots And Crowns" type="ALBUM" mergeable="true" del="false">
+  <compo A="Califone" T="Roots And Crowns" type="ALBUM" uuid="f8e8e5fb85464e019b0db5f9b8113555" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="168" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Common" T="Like Water for Chocolate" type="ALBUM" mergeable="true" del="false">
+  <compo A="Common" T="Like Water for Chocolate" type="ALBUM" uuid="2a70908ff7694d18998d1c3b440070f5" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="169" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Bright Eyes" T="Fevers and Mirrors" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bright Eyes" T="Fevers and Mirrors" type="ALBUM" uuid="a0920d93208543539096d0862fc2c2d3" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="170" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Go! Team" T="Thunder, Lightning, Strike" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Go! Team" T="Thunder, Lightning, Strike" type="ALBUM" uuid="a68fbde2575f4284a7f5a256d9b4d60a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="171" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Constantines" T="Shine a Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Constantines" T="Shine a Light" type="ALBUM" uuid="6cd162b5bee34d848e4b54c477664a38" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="172" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Herbert" T="Bodily Functions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Herbert" T="Bodily Functions" type="ALBUM" uuid="6fc1b3e3af6c469e99be1e3ab8383ace" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="173" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Okkervil River" T="Black Sheep Boy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Okkervil River" T="Black Sheep Boy" type="ALBUM" uuid="3bb0b61683654d1ababe80096776cd33" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="174" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Various Artists" T="Total 3" type="ALBUM" mergeable="true" del="false">
+  <compo A="Various Artists" T="Total 3" type="ALBUM" uuid="6c6bf86ae624458888853c092394bcaa" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="175" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Mountain Goats" T="Tallahassee" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Mountain Goats" T="Tallahassee" type="ALBUM" uuid="925b4e4fe19743958db476976b7cef2e" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="176" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Broadcast" T="The Noise Made By People" type="ALBUM" mergeable="true" del="false">
+  <compo A="Broadcast" T="The Noise Made By People" type="ALBUM" uuid="cfffb915fc9f45a2bcb5bd328f98006c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="177" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Lil Wayne" T="Tha Carter II" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lil Wayne" T="Tha Carter II" type="ALBUM" uuid="b107748cb1b243c4ae0dd21c9a885568" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="178" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Camera Obscura" T="Let's Get Out Of This Country" type="ALBUM" mergeable="true" del="false">
+  <compo A="Camera Obscura" T="Let's Get Out Of This Country" type="ALBUM" uuid="bd19cbe0e2ff44b0ab37014fcd947280" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="179" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Nick Cave And The Bad Seeds" T="Abattoir Blues / The Lyre Of Orpheus" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nick Cave And The Bad Seeds" T="Abattoir Blues / The Lyre Of Orpheus" type="ALBUM" uuid="263328c828e54cc38cfbb9452e8231fd" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="180" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Andrew Bird" T="The Mysterious Production of Eggs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Andrew Bird" T="The Mysterious Production of Eggs" type="ALBUM" uuid="e1123874bd884cccbcd61177341a40ea" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="181" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Max Tundra" T="Mastered by Guy at the Exchange" type="ALBUM" mergeable="true" del="false">
+  <compo A="Max Tundra" T="Mastered by Guy at the Exchange" type="ALBUM" uuid="c474bd3036584c109902f12b04da226b" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="182" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" uuid="6ab61526dffd4c3fa76e7be3d15b663c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="183" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Vitalic" T="OK Cowboy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vitalic" T="OK Cowboy" type="ALBUM" uuid="4a0c2701f7914597ac5a12caa2f4f154" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="184" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Scarface" T="The Fix" type="ALBUM" mergeable="true" del="false">
+  <compo A="Scarface" T="The Fix" type="ALBUM" uuid="06005996e313434f803ed37870804dcc" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="185" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="The Thermals" T="The Body, The Blood, The Machine" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Thermals" T="The Body, The Blood, The Machine" type="ALBUM" uuid="1e8da6b9c94e48798e4513204cdaf4ce" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="186" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Stars of the Lid" T="The Tired Sounds of Stars of the Lid" type="ALBUM" mergeable="true" del="false">
+  <compo A="Stars of the Lid" T="The Tired Sounds of Stars of the Lid" type="ALBUM" uuid="7c21dbff157f4321bc01b5d22e933b69" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="187" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="M83" T="Dead Cities, Red Seas And Lost Ghosts" type="ALBUM" mergeable="true" del="false">
+  <compo A="M83" T="Dead Cities, Red Seas And Lost Ghosts" type="ALBUM" uuid="8915d48e1b5346d7856bead2501e1494" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="188" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Jamie Lidell" T="Multiply" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jamie Lidell" T="Multiply" type="ALBUM" uuid="db31c980341446faad10715bfb694276" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="189" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Elliott Smith" T="Figure 8" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elliott Smith" T="Figure 8" type="ALBUM" uuid="244cac8f13274a0e9bd872817dd04501" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="190" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Air" T="Talkie Walkie" type="ALBUM" mergeable="true" del="false">
+  <compo A="Air" T="Talkie Walkie" type="ALBUM" uuid="76ad1b0daf0f4292b8f6f8b1804286dc" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="191" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Art Brut" T="Bang Bang Rock And Roll" type="ALBUM" mergeable="true" del="false">
+  <compo A="Art Brut" T="Bang Bang Rock And Roll" type="ALBUM" uuid="b3d00441c6be4e9bbab1849503dcd956" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="192" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Devendra Banhart" T="Rejoicing In The Hands" type="ALBUM" mergeable="true" del="false">
+  <compo A="Devendra Banhart" T="Rejoicing In The Hands" type="ALBUM" uuid="109cd83da9454a8793d0a08a50d35de3" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="193" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Pulp" T="We Love Life" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pulp" T="We Love Life" type="ALBUM" uuid="8ed32540920f41a08d9b08a132789d0a" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="194" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Bonnie 'Prince' Billy" T="The Letting Go" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bonnie 'Prince' Billy" T="The Letting Go" type="ALBUM" uuid="16c8afbb585245eb8a162ef8facbcee6" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="195" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="William Basinski" T="The Disintegration Loops" type="ALBUM" mergeable="true" del="false">
+  <compo A="William Basinski" T="The Disintegration Loops" type="ALBUM" uuid="d2b8569c19f84aaf9a03b0938978be27" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="196" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Yeasayer" T="All Hour Cymbals" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yeasayer" T="All Hour Cymbals" type="ALBUM" uuid="f100115026d5432a8c94cf2805afc43c" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="197" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Boris" T="Akuma No Uta" type="ALBUM" mergeable="true" del="false">
+  <compo A="Boris" T="Akuma No Uta" type="ALBUM" uuid="25a43126894a42da9bc912d125631819" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="198" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Deerhoof" T="Apple O'" type="ALBUM" mergeable="true" del="false">
+  <compo A="Deerhoof" T="Apple O'" type="ALBUM" uuid="f270c92e8445451b9be5394738ef6d99" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="199" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
-  <compo A="Jay Reatard" T="Blood Visions" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay Reatard" T="Blood Visions" type="ALBUM" uuid="f8edd3d9374e4a5db30c90876d5b499f" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - Top 200 Albums of the 2000s - 2009" publish="2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="200" creation="25/01/2017 10:01:39" size="200"/>
   </compo>
 </ListCompositions>

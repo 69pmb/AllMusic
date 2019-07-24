@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" uuid="be4bf46afb8d4aa398b4069efe79f473" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="7"/>
   </compo>
-  <compo A="U2" T="Zooropa" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Zooropa" type="ALBUM" uuid="7afdb3021e4844e095c304af5f4adb04" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="7"/>
   </compo>
-  <compo A="Liz Phair" T="Exile In Guyville" type="ALBUM" mergeable="true" del="false">
+  <compo A="Liz Phair" T="Exile In Guyville" type="ALBUM" uuid="5a0a7a434cd64374b25aa40d369fca04" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="7"/>
   </compo>
-  <compo A="Pearl Jam" T="Vs." type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Vs." type="ALBUM" uuid="eb2b4c3e57c14be49438c51ab0241e64" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="7"/>
   </compo>
-  <compo A="Dr. Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dr. Dre" T="The Chronic" type="ALBUM" uuid="3528f077b40846f7a383944945447e53" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="7"/>
   </compo>
-  <compo A="PJ Harvey" T="4-Track Demos" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="4-Track Demos" type="ALBUM" uuid="15851106a46f4c8399882c33cd7f10c3" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="7"/>
   </compo>
-  <compo A="Urge Overkill" T="Saturation" type="ALBUM" mergeable="true" del="false">
+  <compo A="Urge Overkill" T="Saturation" type="ALBUM" uuid="02fa0c22ce5c44b39f83c731f6074754" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="7"/>
   </compo>
 </ListCompositions>

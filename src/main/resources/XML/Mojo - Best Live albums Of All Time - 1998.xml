@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Frank Sinatra" T="Live In Australia 1959" type="ALBUM" mergeable="true" del="false">
+  <compo A="Frank Sinatra" T="Live In Australia 1959" type="ALBUM" uuid="8c0ba9f2a894401ab855674c27262bcd" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="1" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="John Coltrane" T="The Complete 1961 Village Vanguard Recordings" type="ALBUM" mergeable="true" del="false">
+  <compo A="John Coltrane" T="The Complete 1961 Village Vanguard Recordings" type="ALBUM" uuid="5f0fe9c8505b427787dda89905b5e62b" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="2" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
+  <compo A="James Brown" T="Live at the Apollo" type="ALBUM" uuid="4e013c56e8c749fa857e17ab5db80ddf" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="3" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Sam Cooke" T="Live At Harlem Square Club" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sam Cooke" T="Live At Harlem Square Club" type="ALBUM" uuid="a99854dc59ba488a856b5ee20e11ca04" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="4" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Jerry Lee Lewis" T="Live At The Star Club Hamburg" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jerry Lee Lewis" T="Live At The Star Club Hamburg" type="ALBUM" uuid="73277735bf4f4e8284145fdbf357372d" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="5" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="B.B. King" T="Live At The Regal" type="ALBUM" mergeable="true" del="false">
+  <compo A="B.B. King" T="Live At The Regal" type="ALBUM" uuid="4d19227728e64a81a7e1aba3221a87d1" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="6" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Miles Davis" T="Live At The Plugged Nickel" type="ALBUM" mergeable="true" del="false">
+  <compo A="Miles Davis" T="Live At The Plugged Nickel" type="ALBUM" uuid="52827542bfea49a2947dca8dafce7e1d" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="7" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Tim Buckley" T="Dream Letter" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tim Buckley" T="Dream Letter" type="ALBUM" uuid="ddc06d97ed2147a6b04542c8e40adb52" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="8" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="MC5" T="Kick Out The Jams" type="ALBUM" mergeable="true" del="false">
+  <compo A="MC5" T="Kick Out The Jams" type="ALBUM" uuid="328fc82298d6432f89c08e84e6a20402" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="9" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Cream" T="Live Cream Vol. 2" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cream" T="Live Cream Vol. 2" type="ALBUM" uuid="2bf91f657bd2402f8d357efe5b168c65" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="10" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Johnny Cash" T="At San Quentin" type="ALBUM" mergeable="true" del="false">
+  <compo A="Johnny Cash" T="At San Quentin" type="ALBUM" uuid="a56b15d8a98b4331bfd9de4f8d73b045" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="11" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="The Grateful Dead" T="Live/Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Grateful Dead" T="Live/Dead" type="ALBUM" uuid="98c8d16912ef40939f8a19ad526cffe5" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="12" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="The Velvet Underground" T="Live With Lou Reed" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="Live With Lou Reed" type="ALBUM" uuid="69009922cd2c4ea78dd4b5a625a2893a" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="13" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="The Rolling Stones" T="Get Your Ya Ya's Out" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Get Your Ya Ya's Out" type="ALBUM" uuid="18328621a4da4adfbdd2b74fd68f096f" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="14" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="The Who" T="Live At Leeds" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Live At Leeds" type="ALBUM" uuid="7a676d7c454f406a9330702a8c967623" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="15" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="The Allman Brothers Band" T="At Fillmore East" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Allman Brothers Band" T="At Fillmore East" type="ALBUM" uuid="de33d0d6fda7419db1d7eef765b3a045" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="16" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="The Band" T="Rock Of Ages" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Band" T="Rock Of Ages" type="ALBUM" uuid="a36b6a016d3e4d8fbd293c16b8f9bc93" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="17" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Van Morrison" T="To Late To Stop Us Now" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Morrison" T="To Late To Stop Us Now" type="ALBUM" uuid="7737f4adf7bc464e90643eec18769524" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="18" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Bob Marley" T="Live!" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Marley" T="Live!" type="ALBUM" uuid="3a7b5674eab44244a81b762f58041e5f" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="19" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Dr Feelgood" T="Stupidity" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dr Feelgood" T="Stupidity" type="ALBUM" uuid="4ebbf9780c0d4807b26139af7b6a6f22" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="20" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
-  <compo A="Nirvana" T="Unplugged In New York" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="Unplugged In New York" type="ALBUM" uuid="ba4dd30730084a6d86c038b060fac1ca" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Best Live albums Of All Time - 1998" publish="1998" cat="THEME" rangeB="0" rangeE="1998" sorted="false" rank="21" creation="22/08/2018 17:14:19" size="21"/>
   </compo>
 </ListCompositions>
