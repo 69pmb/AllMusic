@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="System Of A Down" T="Toxicity" type="ALBUM" mergeable="true" del="false">
+  <compo A="System Of A Down" T="Toxicity" type="ALBUM" uuid="d6300aedd45c440dbf38a179a9d9b103" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="1" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Radiohead" T="Amnesiac" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="Amnesiac" type="ALBUM" uuid="7938024fd806450da1bd7803d140ba31" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="2" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Basement Jaxx" T="Rooty" type="ALBUM" mergeable="true" del="false">
+  <compo A="Basement Jaxx" T="Rooty" type="ALBUM" uuid="a43131e3fdc0488fa09572a56cb09c27" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="3" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Bob Dylan" T="Love And Theft" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Love And Theft" type="ALBUM" uuid="6e6af92a2ce445e1a9d36683ab24fcd1" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="4" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Bjork" T="Vespertine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Vespertine" type="ALBUM" uuid="cd5087aaf06d413e999460d1e0045710" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="5" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Gorillaz" T="Gorillaz" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gorillaz" T="Gorillaz" type="ALBUM" uuid="65808623652a4b2582a80b3eb40b3231" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="6" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" uuid="b81de30bc74f40c2b05d9fdf5bcf59a9" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="7" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Daft Punk" T="Discovery" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Discovery" type="ALBUM" uuid="75dcb6d645bb40b89cb6085da1e5041f" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="8" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="WEEZER" T="The Green Album" type="ALBUM" mergeable="false" del="false">
+  <compo A="WEEZER" T="The Green Album" type="ALBUM" uuid="e3f8a6ae06fd4a45a45649be780df09d" mergeable="false" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="9" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Tori Amos" T="Strange Little Girls" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tori Amos" T="Strange Little Girls" type="ALBUM" uuid="3c926519ec4e4fbe8b68f37d8667862c" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="10" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Richie Hawtin" T="DE9: Closer To The Edit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Richie Hawtin" T="DE9: Closer To The Edit" type="ALBUM" uuid="274677119c074d29aa307e131cf3e5fa" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="11" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Manu Chao" T="Proxima Estacion: Esperanza" type="ALBUM" mergeable="true" del="false">
+  <compo A="Manu Chao" T="Proxima Estacion: Esperanza" type="ALBUM" uuid="92424c0cff7b4b059152e1408a7fae45" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="12" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Lucinda Williams" T="Essence" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lucinda Williams" T="Essence" type="ALBUM" uuid="53f818b2c3064e60a1bf35adf08cbc22" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="13" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="The Coup" T="Party Music" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Coup" T="Party Music" type="ALBUM" uuid="49d6387c144343fabf4af36e206d2d12" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="14" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="The Dismemberment Plan" T="Change" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Dismemberment Plan" T="Change" type="ALBUM" uuid="5852288cf1884773909ca869f29b418e" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="15" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Tool" T="Lateralus" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tool" T="Lateralus" type="ALBUM" uuid="a6779e58b4f94f51a0396c38ba0ff219" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="16" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Macy Gray" T="The Id" type="ALBUM" mergeable="true" del="false">
+  <compo A="Macy Gray" T="The Id" type="ALBUM" uuid="5bfba9b46d60408b88ec55d76b510fe8" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="17" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" uuid="958d80645e664118b14e74d86b4ce965" mergeable="true" del="true">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="18" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Craig David" T="Born To Do It" type="ALBUM" mergeable="true" del="false">
+  <compo A="Craig David" T="Born To Do It" type="ALBUM" uuid="eff1cedcb10b4371b0790026126328c9" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="19" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
-  <compo A="Various Artists" T="American Pie 2: Music From The Motion Picture" type="ALBUM" mergeable="true" del="false">
+  <compo A="Various Artists" T="American Pie 2: Music From The Motion Picture" type="ALBUM" uuid="b8f203f41fbd465cb12b2bd2a35dcb1d" mergeable="true" del="false">
     <file author="Spin" name="Spin - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="20" creation="30/08/2018 10:53:50" size="20"/>
   </compo>
 </ListCompositions>

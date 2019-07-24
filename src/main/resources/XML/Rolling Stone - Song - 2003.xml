@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Outkast" T="Hey Ya!" type="SONG" mergeable="true" del="false">
+  <compo A="Outkast" T="Hey Ya!" type="SONG" uuid="12eff21d630047bdb2bf83104b121b51" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="Beyonce" T="Crazy In Love" type="SONG" mergeable="true" del="true">
+  <compo A="Beyonce" T="Crazy In Love" type="SONG" uuid="272bf00314074126a7b32a5e30770dd5" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="Kelis" T="Milkshake" type="SONG" mergeable="true" del="true">
+  <compo A="Kelis" T="Milkshake" type="SONG" uuid="4bd7a325730d40edad3194d70461c2dd" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="The White Stripes" T="Seven Nation Army" type="SONG" mergeable="true" del="true">
+  <compo A="The White Stripes" T="Seven Nation Army" type="SONG" uuid="f207dc0de7864f549d79f9b72f435c7c" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="50 Cent" T="In Da Club" type="SONG" mergeable="true" del="true">
+  <compo A="50 Cent" T="In Da Club" type="SONG" uuid="d6505dcbf393434ca64aeec580a12219" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" mergeable="true" del="true">
+  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" uuid="16f3d3efae2f4e52a87e31e1cc44b31b" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="Justin Timberlake" T="Rock Your Body" type="SONG" mergeable="true" del="false">
+  <compo A="Justin Timberlake" T="Rock Your Body" type="SONG" uuid="8604b51b8b1046a9bbb0917933be6c75" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="Johnny Cash" T="Hurt" type="SONG" mergeable="true" del="true">
+  <compo A="Johnny Cash" T="Hurt" type="SONG" uuid="3ac97086da734f609b2880ac099e393d" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="Alicia Keys" T="You Don't Know My Name" type="SONG" mergeable="true" del="false">
+  <compo A="Alicia Keys" T="You Don't Know My Name" type="SONG" uuid="e8a345dad49640cb993c31ffaf58b1eb" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="Electric Six" T="Danger! High Voltage" type="SONG" mergeable="true" del="true">
+  <compo A="Electric Six" T="Danger! High Voltage" type="SONG" uuid="54e3cc14906a4a958ccc3d82aa82e4ac" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
-  <compo A="R. Kelly" T="Ignition-Remix" type="SONG" mergeable="true" del="true">
+  <compo A="R. Kelly" T="Ignition-Remix" type="SONG" uuid="eee0155a95654f8d9840febbae5f435a" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="9"/>
   </compo>
 </ListCompositions>

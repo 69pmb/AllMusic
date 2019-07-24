@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" uuid="e55a7f883a40429e943e7894e0050556" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="1" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Neil Young" T="Sleeps With Angels" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Sleeps With Angels" type="ALBUM" uuid="b019a803fdcc455fa01f202c7674d82d" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="2" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" uuid="6b5605c438f94f1f8274bce990f09461" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="3" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Johhny Cash" T="American Recordings" type="ALBUM" mergeable="true" del="false">
+  <compo A="Johhny Cash" T="American Recordings" type="ALBUM" uuid="f47b742f8ab94f81be92dff12f0ef774" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="4" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Nirvana" T="Unplugged In New York" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="Unplugged In New York" type="ALBUM" uuid="616b5350efac4fb29b78fc0eac5890a8" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="5" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Dan Penn" T="Do Right Man" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dan Penn" T="Do Right Man" type="ALBUM" uuid="b30982b9dede4f62a3399af440f9b2d0" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="6" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Blur" T="Parklife" type="ALBUM" mergeable="true" del="true">
+  <compo A="Blur" T="Parklife" type="ALBUM" uuid="8dd658d8cdfc44deb1b7f5bdab66b945" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="7" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Tom Petty" T="Wildflowers" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tom Petty" T="Wildflowers" type="ALBUM" uuid="d60c033f20f54b8a91950445527d322b" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="8" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="The High Llamas" T="Gideon Gaye" type="ALBUM" mergeable="true" del="false">
+  <compo A="The High Llamas" T="Gideon Gaye" type="ALBUM" uuid="f1a145ba843f45b89640ba6cdb59b5b6" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="9" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Counting Crows" T="August And Everything After" type="ALBUM" mergeable="true" del="false">
+  <compo A="Counting Crows" T="August And Everything After" type="ALBUM" uuid="eec44ee2c77f4b0b8dac0e3c7193cc84" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="10" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Jimmy Page And Robert Plant" T="No Quarter" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jimmy Page And Robert Plant" T="No Quarter" type="ALBUM" uuid="5a16246aae734b77ba68f5a50f5d2623" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="11" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
+  <compo A="Portishead" T="Dummy" type="ALBUM" uuid="bfe1b07276c844a59c50572deb61d920" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="12" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Freddy Johnston" T="This Perfect World" type="ALBUM" mergeable="true" del="false">
+  <compo A="Freddy Johnston" T="This Perfect World" type="ALBUM" uuid="6aadadf3e489404e835c9ecbcb260c03" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="13" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="The Pretenders" T="Last Of The Independents" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pretenders" T="Last Of The Independents" type="ALBUM" uuid="2e120d268d26470e80e58a8716fd3149" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="14" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Suede" T="Dog Man Star" type="ALBUM" mergeable="true" del="false">
+  <compo A="Suede" T="Dog Man Star" type="ALBUM" uuid="cf0267416c8741db8eef598df7a66942" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="15" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Ali Farka Toure" T="Talking Timbuktu" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ali Farka Toure" T="Talking Timbuktu" type="ALBUM" uuid="d1fe5d9eb67443bcb5f9f942d1c95e20" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="16" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Morrissey" T="Vauxhall And I" type="ALBUM" mergeable="true" del="false">
+  <compo A="Morrissey" T="Vauxhall And I" type="ALBUM" uuid="28d5bba660aa49fb99a20364432f0c99" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="17" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Nick Lowe" T="The Impossible Bird" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nick Lowe" T="The Impossible Bird" type="ALBUM" uuid="a0b6f95cab50451197e7b5ef7e4bb397" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="18" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Elvis Costello" T="Brutal Youth" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="Brutal Youth" type="ALBUM" uuid="453f90ae76d14113b7e8b7fd930631a6" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="19" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="The Rolling Stones" T="Voodoo Lounge" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Voodoo Lounge" type="ALBUM" uuid="093250617b70466d99022e8baae4564b" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="20" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Palace Brothers" T="Palace Brothers" type="ALBUM" mergeable="true" del="false">
+  <compo A="Palace Brothers" T="Palace Brothers" type="ALBUM" uuid="62bda1b64d93482d9d7dc1bf4a7aba8c" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="21" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Ian McNabb" T="Head Like A Rock" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ian McNabb" T="Head Like A Rock" type="ALBUM" uuid="e666329a41f6401cbb13bc45f9852f93" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="22" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="June Tabor" T="Against The Streams" type="ALBUM" mergeable="true" del="false">
+  <compo A="June Tabor" T="Against The Streams" type="ALBUM" uuid="ad777ca0b8f8484abe8dbc14b131faf2" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="23" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Joni Mitchell" T="Turbulent Indigo" type="ALBUM" mergeable="true" del="false">
+  <compo A="Joni Mitchell" T="Turbulent Indigo" type="ALBUM" uuid="226e3d148f56422b9438e5e852353a19" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="24" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
-  <compo A="Sebadoh" T="Bakesale" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sebadoh" T="Bakesale" type="ALBUM" uuid="6e5c366ef3c6492fbbd00ac7f5717d96" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - Album - 1994" publish="1994" cat="YEAR" rangeB="1994" rangeE="1994" sorted="true" rank="25" creation="24/08/2018 10:42:40" size="25"/>
   </compo>
 </ListCompositions>

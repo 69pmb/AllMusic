@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" mergeable="true" del="true">
+  <compo A="New York Dolls" T="New York Dolls" type="ALBUM" uuid="c10a8a41dc2d4510960d2f768916c810" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="1" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Thr Slits" T="Cut" type="ALBUM" mergeable="true" del="false">
+  <compo A="Thr Slits" T="Cut" type="ALBUM" uuid="d4f35de3b2e543ac8ebc85628c132b62" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="2" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Blink-182" T="Enema Of The State" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blink-182" T="Enema Of The State" type="ALBUM" uuid="674914df99cb4dd980efeaba5ae4823b" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="3" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Husker Du" T="Zen Arcade" type="ALBUM" mergeable="true" del="false">
+  <compo A="Husker Du" T="Zen Arcade" type="ALBUM" uuid="894ac8ed85d1469abf945bb5b5c4f950" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="4" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Various Artists" T="Nuggets" type="ALBUM" mergeable="true" del="false">
+  <compo A="Various Artists" T="Nuggets" type="ALBUM" uuid="a47d75ca322a4310a533af4c10126c43" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="5" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Richard Hell" T="Blank Generation" type="ALBUM" mergeable="true" del="false">
+  <compo A="Richard Hell" T="Blank Generation" type="ALBUM" uuid="bb7a105377ed49c49e2eaa9e385c32f7" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="6" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Saints" T="Eternally Yours" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Saints" T="Eternally Yours" type="ALBUM" uuid="6a040b2011c14a9e8cf4e9342ef4d7f5" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="7" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Sonics" T="Here Are The Sonics" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Sonics" T="Here Are The Sonics" type="ALBUM" uuid="7cdb7fe682e5405384edd2d04c544f4c" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="8" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Offspring" T="Smash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Offspring" T="Smash" type="ALBUM" uuid="804397edfe9e4389ace095ab65c623ca" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="9" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Cramps" T="Songs The Lord Taught Us" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Cramps" T="Songs The Lord Taught Us" type="ALBUM" uuid="05a65fb3c88a4de395fb5ac96012fd5b" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="10" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Troggs" T="From Nowhere... The Troggs" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Troggs" T="From Nowhere... The Troggs" type="ALBUM" uuid="c237ae74b533470a933a56d8d619fbf6" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="11" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
+  <compo A="Green Day" T="Dookie" type="ALBUM" uuid="c3ce3aa4397d4e908fe4b0dd6d0f794e" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="12" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="X-Ray Spex" T="Germ-Free Adolescents" type="ALBUM" mergeable="true" del="false">
+  <compo A="X-Ray Spex" T="Germ-Free Adolescents" type="ALBUM" uuid="0d95877898794d268caeb064b28e1dae" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="13" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Crass" T="The Feeding Of The Five Thousend" type="ALBUM" mergeable="true" del="false">
+  <compo A="Crass" T="The Feeding Of The Five Thousend" type="ALBUM" uuid="3874e94651504c009c4d2c3f3a627756" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="14" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Sonic Youth" T="Evol" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sonic Youth" T="Evol" type="ALBUM" uuid="59ec478dacfb4ee899aaaaf6d9c9c576" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="15" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Minutemen" T="Double Nickls On The Dime" type="ALBUM" mergeable="true" del="false">
+  <compo A="Minutemen" T="Double Nickls On The Dime" type="ALBUM" uuid="70a33f181f644748ba87cd00329b960f" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="16" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Replacements" T="Let It Be" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Replacements" T="Let It Be" type="ALBUM" uuid="62db811194034617acb63f1f1c55d7ce" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="17" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Public Image Ltd." T="Metal Box" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Image Ltd." T="Metal Box" type="ALBUM" uuid="0abff39efe1f41bc9261c3ce460a5476" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="18" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Mudhoney" T="Every Good Boy Deserves Fudge" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mudhoney" T="Every Good Boy Deserves Fudge" type="ALBUM" uuid="0545c32f6e5c4a578061772d3465de3e" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="19" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Who" T="My Generation" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Who" T="My Generation" type="ALBUM" uuid="8fea0e195d1a4216bd68273fb3fc4e80" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="20" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Clash" T="The Clash" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Clash" T="The Clash" type="ALBUM" uuid="0f19103bec0e47eba78e9cb6dd347b45" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="21" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Siouxsie And The Banshees" T="The Scream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Siouxsie And The Banshees" T="The Scream" type="ALBUM" uuid="de4b0460e7824061818379d7ebf1c7a5" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="22" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" uuid="b4b349dc0acb46518f7b9a9624249f47" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="23" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Iggy And The Stooges" T="Raw Power" type="ALBUM" mergeable="true" del="false">
+  <compo A="Iggy And The Stooges" T="Raw Power" type="ALBUM" uuid="1fc8d05bf3be41c6a4923cfa75e8e622" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="24" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Black Flag" T="Damaged" type="ALBUM" mergeable="true" del="false">
+  <compo A="Black Flag" T="Damaged" type="ALBUM" uuid="645909deecf84c51b412efb068d7bcca" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="25" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Gang of Four" T="Entertainment!" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="a3aaa55ac326491f9ff9005c3597eaaa" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="26" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Rancid" T="...And Out Come The Wolves" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rancid" T="...And Out Come The Wolves" type="ALBUM" uuid="c4f60a24de4542d99a994192172b1fa9" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="27" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Damned" T="Damned Damned Damned" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Damned" T="Damned Damned Damned" type="ALBUM" uuid="89b3b11072554e3c9e16a10ad99116da" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="28" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Mc5" T="Kick Out The Jams" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mc5" T="Kick Out The Jams" type="ALBUM" uuid="d6accbe73b30475bb286792f8fcced8e" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="29" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Germs" T="(GI)" type="ALBUM" mergeable="true" del="false">
+  <compo A="Germs" T="(GI)" type="ALBUM" uuid="0bdb6bf47c964ae69387b0a73d59f752" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="30" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Buzzcocks" T="Another Music From A Different Kitchen" type="ALBUM" mergeable="true" del="false">
+  <compo A="Buzzcocks" T="Another Music From A Different Kitchen" type="ALBUM" uuid="8762286277894ccb9cb380491c04f352" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="31" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Bad Brains" T="Bad Brains" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bad Brains" T="Bad Brains" type="ALBUM" uuid="7b065cedea0242b69191ce07fa4b9673" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="32" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Big Black" T="Songs About Fucking" type="ALBUM" mergeable="true" del="false">
+  <compo A="Big Black" T="Songs About Fucking" type="ALBUM" uuid="78975fa447874aa7903d1cc96f57c21c" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="33" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Nirvana" T="Bleach" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="Bleach" type="ALBUM" uuid="e979b377161c453384ceab5acbe883d0" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="34" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Wire" T="Pink Flag" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wire" T="Pink Flag" type="ALBUM" uuid="eebc3a95ae2d4d04b0cdeb3f126babad" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="35" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" uuid="767add14675742b2a1368434052529bd" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="36" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Runaways" T="Waitin'For The Night" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Runaways" T="Waitin'For The Night" type="ALBUM" uuid="987970d8cedc44a7b78823b4cbf6d632" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="37" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Bad Religion" T="Against The Grain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bad Religion" T="Against The Grain" type="ALBUM" uuid="83a64026c93c4aa89454490b5026f271" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="38" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Fugazi" T="Repeater" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fugazi" T="Repeater" type="ALBUM" uuid="7594a0f31ce04dad89b86490b93efd69" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="39" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Ramones" T="Ramones" type="ALBUM" mergeable="true" del="true">
+  <compo A="Ramones" T="Ramones" type="ALBUM" uuid="85da205ddb8c457a8537f35069e0e6ac" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="40" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Killing Joke" T="Killing Joke" type="ALBUM" mergeable="true" del="false">
+  <compo A="Killing Joke" T="Killing Joke" type="ALBUM" uuid="45164e2234bc412180b849d812afb30c" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="41" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Misfits" T="Walk Among Us" type="ALBUM" mergeable="true" del="false">
+  <compo A="Misfits" T="Walk Among Us" type="ALBUM" uuid="415beba17209496897e10c135294cbeb" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="42" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Undertones" T="The Undertones" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Undertones" T="The Undertones" type="ALBUM" uuid="5794e71dcf6d465bbdc8841a513b9fc3" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="43" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Sex Pistols" T="Spunk" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sex Pistols" T="Spunk" type="ALBUM" uuid="7bc31f14e63d4054a86ad6699e750de6" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="44" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Seeds" T="The Seeds" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Seeds" T="The Seeds" type="ALBUM" uuid="1f97a06357034fe9a46e3f9880706558" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="45" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Devo" T="Q: Are We Not Men A: We Are Devo" type="ALBUM" mergeable="true" del="false">
+  <compo A="Devo" T="Q: Are We Not Men A: We Are Devo" type="ALBUM" uuid="cb88ad429f174726b7d0d2c3bb7bfcb3" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="46" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" uuid="2f0144f7c8ad49a0bbd8ec77e556db9c" mergeable="true" del="true">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="47" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Dead Kennedys" T="Fresh Fruit For Rotting Vegetables" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dead Kennedys" T="Fresh Fruit For Rotting Vegetables" type="ALBUM" uuid="87b9847dea294653834f26193938b867" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="48" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Bikini Kill" T="Pussy Whipped" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bikini Kill" T="Pussy Whipped" type="ALBUM" uuid="b50efd3b44b4424a9676994114b71ddc" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="49" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
-  <compo A="Suicide" T="Suicide" type="ALBUM" mergeable="true" del="false">
+  <compo A="Suicide" T="Suicide" type="ALBUM" uuid="fcf366f316804f38a73a7c99ee13c9df" mergeable="true" del="false">
     <file author="NME" name="NME - The 50 Albums That Built Punk - 2013" publish="2013" cat="GENRE" rangeB="0" rangeE="2013" sorted="true" rank="50" creation="04/09/2018 14:55:47" size="50"/>
   </compo>
 </ListCompositions>

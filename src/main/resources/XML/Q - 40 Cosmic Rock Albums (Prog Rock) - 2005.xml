@@ -1,124 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" uuid="0a13682400af460496e1b23fccbf0965" mergeable="true" del="true">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="1" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Genesis" T="Foxtrot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Genesis" T="Foxtrot" type="ALBUM" uuid="2ab1c77de2c74ca9ad7080e96b47581f" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="2" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Yes" T="Close To The Edge" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yes" T="Close To The Edge" type="ALBUM" uuid="3c1a12afa32f443981eff66dcc3ffbca" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="3" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="King Crimson" T="In The Court Of The Crimson King" type="ALBUM" mergeable="true" del="false">
+  <compo A="King Crimson" T="In The Court Of The Crimson King" type="ALBUM" uuid="5ea4935194d04a4fa462312a5ce16950" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="4" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Emerson, Lake And Palmer" T="Brain Salad Surgery" type="ALBUM" mergeable="true" del="false">
+  <compo A="Emerson, Lake And Palmer" T="Brain Salad Surgery" type="ALBUM" uuid="0d0521da7e4d4a4d9b3f10f04c88ef45" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="5" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Rush" T="A Farewell To Kings" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rush" T="A Farewell To Kings" type="ALBUM" uuid="550a8c90a2954aaf8987734b29951fef" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="6" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Jethro Tull" T="Aqualung" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jethro Tull" T="Aqualung" type="ALBUM" uuid="0aa5275b69084b198cdd6d29cb119769" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="7" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Hawkwind" T="Space Ritual" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hawkwind" T="Space Ritual" type="ALBUM" uuid="64b0ccb0c7a94c979130dd6479a21003" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="8" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Mike Oldfield" T="Tubular Bells" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mike Oldfield" T="Tubular Bells" type="ALBUM" uuid="fa207a17336c4c28a4902e290376109b" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="9" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="OK Computer" type="ALBUM" uuid="29763f738f384708a0567e802acbc5d5" mergeable="true" del="true">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="10" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" uuid="b4aa261788f24b669c7ed193415d8929" mergeable="true" del="true">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="11" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Yes" T="The Yes Album" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yes" T="The Yes Album" type="ALBUM" uuid="23a412cf4e294e78b16c3d0b70b22783" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="12" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Frank Zappa" T="Hot Rats" type="ALBUM" mergeable="true" del="false">
+  <compo A="Frank Zappa" T="Hot Rats" type="ALBUM" uuid="be89a1363b8241938d363273fb7a469c" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="13" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Genesis" T="The Lamb Lies Down On Broadway" type="ALBUM" mergeable="true" del="false">
+  <compo A="Genesis" T="The Lamb Lies Down On Broadway" type="ALBUM" uuid="1f3c1824369d45ccacf76057f6f792e5" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="14" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Van Der Graaf Generator" T="The Least We Can Do Is Wave To Each Other" type="ALBUM" mergeable="true" del="false">
+  <compo A="Van Der Graaf Generator" T="The Least We Can Do Is Wave To Each Other" type="ALBUM" uuid="ac66d5e991324f7f9969d58e0c0d468c" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="15" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Gentle Giant" T="Octopus" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gentle Giant" T="Octopus" type="ALBUM" uuid="963fbdf28d434b2581533fe3dd91d9f4" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="16" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Marillion" T="Misplaced Childhood" type="ALBUM" mergeable="true" del="false">
+  <compo A="Marillion" T="Misplaced Childhood" type="ALBUM" uuid="c882eb6ddff34e3a82fccf37b60be9ca" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="17" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="The Mars Volta" T="Frances The Mute" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Mars Volta" T="Frances The Mute" type="ALBUM" uuid="ef45e458f7d7403a8fbbab88b95aab79" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="18" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Caravan" T="The Land Of Grey And Pink" type="ALBUM" mergeable="true" del="false">
+  <compo A="Caravan" T="The Land Of Grey And Pink" type="ALBUM" uuid="f85368cdb4914a4dabc1b76734a5139c" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="19" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Soft Machine" T="Third" type="ALBUM" mergeable="true" del="false">
+  <compo A="Soft Machine" T="Third" type="ALBUM" uuid="66674e84180b403fb12d5ae48417bfdd" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="20" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Tool" T="Lateralus" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tool" T="Lateralus" type="ALBUM" uuid="03a7822a59624a9ba2cad9d72633df72" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="21" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="King Crimson" T="Larks' Tongues In Aspic" type="ALBUM" mergeable="true" del="false">
+  <compo A="King Crimson" T="Larks' Tongues In Aspic" type="ALBUM" uuid="1137d6383cd5478fafcc23be33fcb25d" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="22" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Camel" T="Moonmadness" type="ALBUM" mergeable="true" del="false">
+  <compo A="Camel" T="Moonmadness" type="ALBUM" uuid="886821a2257f49e98d7a37ac36e6f50c" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="23" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Focus" T="Moving Waves" type="ALBUM" mergeable="true" del="false">
+  <compo A="Focus" T="Moving Waves" type="ALBUM" uuid="6523014c47484effb77384c34b12da95" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="24" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="740fd043df3b456caaaa81f42ca716b4" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="25" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Pavlov's Dog" T="Pampered Menial" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pavlov's Dog" T="Pampered Menial" type="ALBUM" uuid="55db8f2a6d5f4a449dd09b1bb5a2c5e1" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="26" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="943c9fd7ffbb419480f9a25b8b59fe85" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="27" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Steve Hillage" T="L" type="ALBUM" mergeable="true" del="false">
+  <compo A="Steve Hillage" T="L" type="ALBUM" uuid="666f9da3853c4b918dbe5d8adc988ea4" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="28" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="The Nice" T="Five Bridges" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Nice" T="Five Bridges" type="ALBUM" uuid="6d8322141d0e40f4bb70df620147af6b" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="29" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Family" T="Music From A Dolls House" type="ALBUM" mergeable="true" del="false">
+  <compo A="Family" T="Music From A Dolls House" type="ALBUM" uuid="b120f85a65b643379182afdaf584b959" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="30" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Roxy Music" T="Roxy Music" type="ALBUM" mergeable="true" del="false">
+  <compo A="Roxy Music" T="Roxy Music" type="ALBUM" uuid="f71f65d416c84822a13d7b0fb7f1db67" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="31" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Golden Earing" T="Moontan" type="ALBUM" mergeable="true" del="false">
+  <compo A="Golden Earing" T="Moontan" type="ALBUM" uuid="81e50b3d1b664de09b495dd498bfba98" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="32" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Argent" T="All Together Now" type="ALBUM" mergeable="true" del="false">
+  <compo A="Argent" T="All Together Now" type="ALBUM" uuid="e3963d4e996140d286e7cba4b3c2cb19" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="33" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Hatfield And The North" T="Hatfield And The North" type="ALBUM" mergeable="true" del="false">
+  <compo A="Hatfield And The North" T="Hatfield And The North" type="ALBUM" uuid="f39618198c984623877e80ab6318f9b6" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="34" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Gong" T="Flying Teapot Radio Gnome Invisible Radio Part 1" type="ALBUM" mergeable="true" del="false">
+  <compo A="Gong" T="Flying Teapot Radio Gnome Invisible Radio Part 1" type="ALBUM" uuid="f4559d9d3c7e4dc5ac4d2f5e3b9f6f51" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="35" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Amon Duul II" T="Dance Of The Lemmings" type="ALBUM" mergeable="true" del="false">
+  <compo A="Amon Duul II" T="Dance Of The Lemmings" type="ALBUM" uuid="5caff7ef3ee546f8bea87ffc76a35e77" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="36" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="The Moody Blues" T="In Search Of The Lost Chord" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Moody Blues" T="In Search Of The Lost Chord" type="ALBUM" uuid="aeb9e5923cb749c9921ef5aa76ab9303" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="37" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Tangerine Dream" T="Phaedra" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tangerine Dream" T="Phaedra" type="ALBUM" uuid="360700b21863499f8008badcfeb7200b" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="38" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Barclay James Harvest" T="Once Again" type="ALBUM" mergeable="true" del="false">
+  <compo A="Barclay James Harvest" T="Once Again" type="ALBUM" uuid="459b378ca6f045b489d59cedbe41d53c" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="39" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
-  <compo A="Aphrodite's Child" T="666" type="ALBUM" mergeable="true" del="false">
+  <compo A="Aphrodite's Child" T="666" type="ALBUM" uuid="67bfeca5d81d410eb5709f358b293e98" mergeable="true" del="false">
     <file author="Q" name="Q - 40 Cosmic Rock Albums (Prog Rock) - 2005" publish="2005" cat="GENRE" rangeB="0" rangeE="2005" sorted="true" rank="40" creation="28/08/2018 10:14:58" size="40"/>
   </compo>
 </ListCompositions>

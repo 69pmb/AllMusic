@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Beyonce" T="Formation" type="SONG" mergeable="true" del="true">
+  <compo A="Beyonce" T="Formation" type="SONG" uuid="75b34fc6f4264158b366e4a09ec2c5ef" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Frank Ocean" T="Ivy" type="SONG" mergeable="true" del="true">
+  <compo A="Frank Ocean" T="Ivy" type="SONG" uuid="ce7a3b05840d4633b897e6ce3e8bd22a" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Drake" T="One Dance" type="SONG" mergeable="true" del="true">
+  <compo A="Drake" T="One Dance" type="SONG" uuid="a5ba45b804f9411eb1faf27d3c0cce57" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="David Bowie" T="No Plan" type="SONG" mergeable="true" del="false">
+  <compo A="David Bowie" T="No Plan" type="SONG" uuid="ae45824e05744accaf94d6528aabec20" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="4" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Kanye West" T="Ultralight Beam" type="SONG" mergeable="true" del="true">
+  <compo A="Kanye West" T="Ultralight Beam" type="SONG" uuid="f12eaa9e28ff4c438fe657e7f12303e3" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Pwr Bttm" T="Projection" type="SONG" mergeable="true" del="false">
+  <compo A="Pwr Bttm" T="Projection" type="SONG" uuid="ea4be5d768b047d3b41f2d613f5dbcb3" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Solange" T="Cranes in the Sky" type="SONG" mergeable="true" del="true">
+  <compo A="Solange" T="Cranes in the Sky" type="SONG" uuid="6f1734e25e324ad9a0c2af5a5baf93ba" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="7" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Fifth Harmony And Ty Dolla sign" T="Work From Home" type="SONG" mergeable="true" del="true">
+  <compo A="Fifth Harmony And Ty Dolla sign" T="Work From Home" type="SONG" uuid="458be15f0857496a8e577874386867e9" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="8" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Lvl Up" T="Pain" type="SONG" mergeable="true" del="false">
+  <compo A="Lvl Up" T="Pain" type="SONG" uuid="adcf676ac992444fb08f9a7842c5e044" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="9" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Rae Sremmurd" T="Black Beatles" type="SONG" mergeable="true" del="true">
+  <compo A="Rae Sremmurd" T="Black Beatles" type="SONG" uuid="c3496101c3b24ae6bdd80bcc6292c171" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Young M.A" T="Ooouuu" type="SONG" mergeable="true" del="true">
+  <compo A="Young M.A" T="Ooouuu" type="SONG" uuid="b1f94015d3ec42c29bb5c4135cbf22c0" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Red Hot Chili Peppers" T="Dark Necessities" type="SONG" mergeable="true" del="false">
+  <compo A="Red Hot Chili Peppers" T="Dark Necessities" type="SONG" uuid="abe3095e3cd34183b17cd8a727ec0f25" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="12" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Wilco" T="If I Ever Was a Child" type="SONG" mergeable="true" del="false">
+  <compo A="Wilco" T="If I Ever Was a Child" type="SONG" uuid="0977cdab132d4500bbe5d844c9901797" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="13" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Mannequin Pussy" T="Romantic" type="SONG" mergeable="true" del="false">
+  <compo A="Mannequin Pussy" T="Romantic" type="SONG" uuid="a4ec37ab1e4340aba17f2c173da4bba8" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="14" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Kendrick Lamar" T="Untitled 05 | 09.21.2014." type="SONG" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="Untitled 05 | 09.21.2014." type="SONG" uuid="e2329933e2e74b43a7057cda8610d5a3" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="15" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Chance the Rapper And Saba" T="Angels" type="SONG" mergeable="true" del="true">
+  <compo A="Chance the Rapper And Saba" T="Angels" type="SONG" uuid="830e585c96ee4d95887e52b2c0780828" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="16" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Lucy Dacus" T="I Dont Wanna Be Funny Anymore" type="SONG" mergeable="true" del="false">
+  <compo A="Lucy Dacus" T="I Dont Wanna Be Funny Anymore" type="SONG" uuid="298e6f0f68264e0fae1a3bbf3bf0127e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="17" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="The Monkees" T="Me And Magdalena" type="SONG" mergeable="true" del="false">
+  <compo A="The Monkees" T="Me And Magdalena" type="SONG" uuid="893eec50b5d74a9abe980d27e2d73fc1" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="18" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Danny Brown" T="Really Doe" type="SONG" mergeable="true" del="true">
+  <compo A="Danny Brown" T="Really Doe" type="SONG" uuid="a49ba36802da4e4a9883e4a650d9aa19" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="19" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Bob Dylan" T="That Old Black Magic" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="That Old Black Magic" type="SONG" uuid="77ed552d2ddc42369207688790989754" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="20" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="21 Savage And Metro Boomin And Future" T="X" type="SONG" mergeable="true" del="false">
+  <compo A="21 Savage And Metro Boomin And Future" T="X" type="SONG" uuid="f05f758f3a6e48dfa3b30306f3c5ed1b" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Ariana Grande And Nicki Minaj" T="Side to Side" type="SONG" mergeable="true" del="false">
+  <compo A="Ariana Grande And Nicki Minaj" T="Side to Side" type="SONG" uuid="2edaeeba8b0c49a1afcb7662aa4e5daf" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Little Big Town" T="Better Man" type="SONG" mergeable="true" del="false">
+  <compo A="Little Big Town" T="Better Man" type="SONG" uuid="139e09e6b2be4cc5a7a1c8176a99a9c4" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="23" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Courtney Barnett" T="Three Packs a Day" type="SONG" mergeable="true" del="false">
+  <compo A="Courtney Barnett" T="Three Packs a Day" type="SONG" uuid="52c90712d0af4fd99ccadc6e61e26fdb" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="24" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Leonard Cohen" T="Treaty" type="SONG" mergeable="true" del="false">
+  <compo A="Leonard Cohen" T="Treaty" type="SONG" uuid="b34c2077436d4a2ba065f373ac178666" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="25" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Vince Staples" T="War Ready" type="SONG" mergeable="true" del="true">
+  <compo A="Vince Staples" T="War Ready" type="SONG" uuid="bf0dce5c30ed4404bc5503df41d2f01e" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="26" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Angel Olsen" T="Sister" type="SONG" mergeable="true" del="true">
+  <compo A="Angel Olsen" T="Sister" type="SONG" uuid="09409becbbc9412e882b2c74c418018c" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="27" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Lady Gaga" T="Perfect Illusion" type="SONG" mergeable="true" del="false">
+  <compo A="Lady Gaga" T="Perfect Illusion" type="SONG" uuid="67b852510bcc45138ae54e269822842c" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="28" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Cobalt" T="Beast Whip" type="SONG" mergeable="true" del="false">
+  <compo A="Cobalt" T="Beast Whip" type="SONG" uuid="75d42289396840e0b149082562ee3882" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="29" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="A Tribe Called Quest" T="The Space Program" type="SONG" mergeable="true" del="true">
+  <compo A="A Tribe Called Quest" T="The Space Program" type="SONG" uuid="46895b0afe3949da9f2faf4687e395dc" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="30" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Miranda Lambert" T="Vice" type="SONG" mergeable="true" del="false">
+  <compo A="Miranda Lambert" T="Vice" type="SONG" uuid="be395abedf1b46958779d4c0800e6097" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="31" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Kodak Black" T="Everything 1K" type="SONG" mergeable="true" del="false">
+  <compo A="Kodak Black" T="Everything 1K" type="SONG" uuid="7faa14bfb3bc4d1d822ddab81c05afef" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="32" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Mitski" T="Your Best American Girl" type="SONG" mergeable="true" del="true">
+  <compo A="Mitski" T="Your Best American Girl" type="SONG" uuid="312951e93d6f40ffb161c89e9899e34e" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="33" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Britney Spears" T="Clumsy" type="SONG" mergeable="true" del="false">
+  <compo A="Britney Spears" T="Clumsy" type="SONG" uuid="1e5e4bfef2f14eb599446d8bf1c4c3fd" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="34" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Japanese Breakfast" T="Everybody Wants to Love You" type="SONG" mergeable="true" del="false">
+  <compo A="Japanese Breakfast" T="Everybody Wants to Love You" type="SONG" uuid="1a30bf4631d34e9296a3532b022b6a2b" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="35" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Drive-By Truckers" T="Ever South" type="SONG" mergeable="true" del="false">
+  <compo A="Drive-By Truckers" T="Ever South" type="SONG" uuid="50557cfa42374027b2e6879c53bd366e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="36" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Tacocat" T="Night Swimming" type="SONG" mergeable="true" del="false">
+  <compo A="Tacocat" T="Night Swimming" type="SONG" uuid="84cdba15fda54148849910e51257fdea" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="37" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Maren Morris" T="80s Mercedes" type="SONG" mergeable="true" del="false">
+  <compo A="Maren Morris" T="80s Mercedes" type="SONG" uuid="61fcff37fde3444fa4333fbb57fbe66c" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="38" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Paul Simon" T="Cool Papa Bell" type="SONG" mergeable="true" del="false">
+  <compo A="Paul Simon" T="Cool Papa Bell" type="SONG" uuid="8fcb30f3f5784fff8202ca7efbad87bd" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="39" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Lil Uzi Vert" T="Original Uzi (4 of Us)" type="SONG" mergeable="true" del="false">
+  <compo A="Lil Uzi Vert" T="Original Uzi (4 of Us)" type="SONG" uuid="40f9dff655e54796b29e9bea2939db03" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="40" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Yohuna" T="The Moon Hangs in the Sky Like Nothing Hangs in the Sky" type="SONG" mergeable="true" del="false">
+  <compo A="Yohuna" T="The Moon Hangs in the Sky Like Nothing Hangs in the Sky" type="SONG" uuid="adeac6b9a1c840d0ac37b6db5b2cde12" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="41" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Bob Mould" T="Voices in My Head" type="SONG" mergeable="true" del="false">
+  <compo A="Bob Mould" T="Voices in My Head" type="SONG" uuid="29cdb0c9d5684c6b93e86c77eeed6a8a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="42" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Free Cake for Every Creature" T="All You Gotta Be When Youre 23 Is Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="Free Cake for Every Creature" T="All You Gotta Be When Youre 23 Is Yourself" type="SONG" uuid="07358b74d225454bbee371c8f22f1bf2" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="43" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Desiigner" T="Tiimmy Turner" type="SONG" mergeable="true" del="false">
+  <compo A="Desiigner" T="Tiimmy Turner" type="SONG" uuid="5c991324ad514e9fbc80d5c8bb013050" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="44" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Car Seat Headrest" T="Drunk Drivers/Killer Whales" type="SONG" mergeable="true" del="true">
+  <compo A="Car Seat Headrest" T="Drunk Drivers/Killer Whales" type="SONG" uuid="00553b54ff054d8aaa789d20648ee16f" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="45" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Helado Negro" T="Runaround" type="SONG" mergeable="true" del="false">
+  <compo A="Helado Negro" T="Runaround" type="SONG" uuid="84efddc5506a4e1b9c1832f34296d43b" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="46" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="D.R.A.M." T="Broccoli And Lil Yachty" type="SONG" mergeable="true" del="true">
+  <compo A="D.R.A.M." T="Broccoli And Lil Yachty" type="SONG" uuid="8c0e9bc1a7ea40a1a8321f5b36cc6ba6" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="47" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Sturgill Simpson" T="Keep It Between the Lines" type="SONG" mergeable="true" del="false">
+  <compo A="Sturgill Simpson" T="Keep It Between the Lines" type="SONG" uuid="5592e7a8b660406582d0abdbe9232e03" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="48" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Nicki Minaj" T="Black Barbies" type="SONG" mergeable="true" del="false">
+  <compo A="Nicki Minaj" T="Black Barbies" type="SONG" uuid="3ce603dc3d9d4be0bd446cc02df24df6" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="49" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
-  <compo A="Van Morrison" T="Going Down to Bangor" type="SONG" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Going Down to Bangor" type="SONG" uuid="a18ae5f63a6a4a7fa0426dc3a79f81f5" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="50" creation="08/08/2017 23:13:02" size="50"/>
   </compo>
 </ListCompositions>

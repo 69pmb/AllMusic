@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="26c29eb7377444dd962bbb20ea34ecaf" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" uuid="737b6a8ced1e46849f139525b552a7a0" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Tina Turner" T="Private Dancer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tina Turner" T="Private Dancer" type="ALBUM" uuid="4cf9f9067c364030b193325e086db7ed" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Los Lobos" T="How Will The Wolf Survive?" type="ALBUM" mergeable="true" del="false">
+  <compo A="Los Lobos" T="How Will The Wolf Survive?" type="ALBUM" uuid="ae60e8dd34524be38f630d2525e66403" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="The Pretenders" T="Learning To Crawl" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pretenders" T="Learning To Crawl" type="ALBUM" uuid="7f3fc0dcac914e2697ddb623a597381b" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
 </ListCompositions>

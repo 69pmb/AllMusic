@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bob Dylan" T="Love And Theft" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Love And Theft" type="ALBUM" uuid="6ff2a43cb98d4b51bc1fd698e5331958" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Alicia Keys" T="Songs In A Minor" type="ALBUM" mergeable="true" del="false">
+  <compo A="Alicia Keys" T="Songs In A Minor" type="ALBUM" uuid="0a97d7759c6d4c83b8ca0d77a1d9cd0f" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Mick Jagger" T="Goddess In The Doorway" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mick Jagger" T="Goddess In The Doorway" type="ALBUM" uuid="a74239e8b98244f0934947d2241d21f8" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Bjork" T="Vespertine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bjork" T="Vespertine" type="ALBUM" uuid="5acaefc8ee9540d6b96f9593a5f9d126" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jay-Z" T="The Blueprint" type="ALBUM" uuid="8f80fab9d2f148c3be4b2b8fb8831783" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Garbage" T="Beautiful Garbage" type="ALBUM" mergeable="true" del="false">
+  <compo A="Garbage" T="Beautiful Garbage" type="ALBUM" uuid="6fcbc3ad33574bd390d11b84c21159f7" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Manu Chao" T="Proxima Estacion: Esperanza" type="ALBUM" mergeable="true" del="false">
+  <compo A="Manu Chao" T="Proxima Estacion: Esperanza" type="ALBUM" uuid="a5f42df3616545838667390cec23457c" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Strokes" T="Is This It" type="ALBUM" uuid="fdaaea2e626b4882bcf4f56ba59dd96f" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Various Artists" T="O Brother, Where Art Thou? Original Soundtrack" type="ALBUM" mergeable="true" del="false">
+  <compo A="Various Artists" T="O Brother, Where Art Thou? Original Soundtrack" type="ALBUM" uuid="362edb35b28447d7809ef1e991ee6b58" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Radiohead" T="Amnesiac" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="Amnesiac" type="ALBUM" uuid="b8b4914cab614cbc9000e9d700fc283f" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 2001" publish="2001" cat="YEAR" rangeB="2001" rangeE="2001" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
 </ListCompositions>

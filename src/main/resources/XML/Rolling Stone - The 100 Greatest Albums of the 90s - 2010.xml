@@ -1,304 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
+  <compo A="Nirvana" T="Nevermind" type="ALBUM" uuid="7cbde733ac734090946c950c1e4f3257" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="1" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Dr. Dre" T="The Chronic" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dr. Dre" T="The Chronic" type="ALBUM" uuid="343b8a6c970845408e0c4430bb47e95e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="2" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="OK Computer" type="ALBUM" uuid="1dae238022b9437a99460abfd2c68dd2" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="3" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" uuid="26bc72181b214dcda7df663453ab7676" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="4" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Lauryn Hill" T="The Miseducation Of Lauryn Hill" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lauryn Hill" T="The Miseducation Of Lauryn Hill" type="ALBUM" uuid="1d55e5365f9e44d09fa6ef6ff49ea53f" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="5" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" uuid="1fd7a7efeba84471825e064bb53f3605" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="6" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" mergeable="true" del="true">
+  <compo A="Nirvana" T="In Utero" type="ALBUM" uuid="8e17b07655f54451a2175c17d99ff40f" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="7" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Notorious B.I.G." T="Ready To Die" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Notorious B.I.G." T="Ready To Die" type="ALBUM" uuid="d19500e3d36e4bb19ef76a584a4c5e00" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="8" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
+  <compo A="Beck" T="Odelay" type="ALBUM" uuid="16df12de8aea4c4dba13459623ab1ba0" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="9" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pavement" T="Crooked Rain, Crooked Rain" type="ALBUM" uuid="5ccbbad545464134acbda6264eff46a5" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="10" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Outkast" T="Aquemini" type="ALBUM" mergeable="true" del="false">
+  <compo A="Outkast" T="Aquemini" type="ALBUM" uuid="939a3f660fb743fb93a7735024b35c05" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="11" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Tom Petty" T="Wildflowers" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tom Petty" T="Wildflowers" type="ALBUM" uuid="893972af1be7485f9a099f67e13fa8fd" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="12" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Beastie Boys" T="Ill Communication" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beastie Boys" T="Ill Communication" type="ALBUM" uuid="bccff223af0040cc991c1778b590b4c0" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="13" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Snoop Doggy Dogg" T="Doggystyle" type="ALBUM" mergeable="true" del="false">
+  <compo A="Snoop Doggy Dogg" T="Doggystyle" type="ALBUM" uuid="f481177c919d4312a5130e169f29361d" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="14" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Lucinda Williams" T="Car Wheels On A Gravel Road" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lucinda Williams" T="Car Wheels On A Gravel Road" type="ALBUM" uuid="16a6e392d3da4c1c943a7c618c227555" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="15" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Metallica" T="Metallica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="Metallica" type="ALBUM" uuid="c46bc28458384d3ebb1a686e3c12c23f" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="16" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Jay-Z" T="Reasonable Doubt" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="Reasonable Doubt" type="ALBUM" uuid="27db57893c2248b6a6907656893d64bd" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="17" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="bbb47ae30dae4d95bb06b21d126d32f1" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="18" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Red Hot Chilli Peppers" T="Blood Sugar Sex Magik" type="ALBUM" mergeable="true" del="true">
+  <compo A="Red Hot Chilli Peppers" T="Blood Sugar Sex Magik" type="ALBUM" uuid="5f4353b4c34b4212b65a019b10be174b" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="19" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Liz Phair" T="Exile In Guyville" type="ALBUM" mergeable="true" del="false">
+  <compo A="Liz Phair" T="Exile In Guyville" type="ALBUM" uuid="46fb7eccd53f418da0875e782b0b8782" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="20" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="The Bends" type="ALBUM" uuid="ee0f10e358ce43918b73f039e41813b4" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="21" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jeff Buckley" T="Grace" type="ALBUM" uuid="0e3e7a3e022c4a6c86c206a720162d88" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="22" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Smashing Pumpkins" T="Siamese Dream" type="ALBUM" uuid="b4c50a8bbe414acdb0dfb4777d4b6820" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="23" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" uuid="6ee6fd7ce64044b3b3e832048af42635" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="24" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Sublime" T="Sublime" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sublime" T="Sublime" type="ALBUM" uuid="4b0d82e04e5542f8bc8a1f409859416f" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="25" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Nas" T="Illmatic" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nas" T="Illmatic" type="ALBUM" uuid="75141f65abab4e9ca0fbaa6929b99cb9" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="26" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" mergeable="true" del="true">
+  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" uuid="f5f760ebc30041febf8797c15b7e1b96" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="27" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Madonna" T="Ray Of Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Madonna" T="Ray Of Light" type="ALBUM" uuid="b96a7afe233d40a5b4cd33527346485d" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="28" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" uuid="ff3d041f211b4e468b282b0e53553a71" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="29" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" mergeable="true" del="true">
+  <compo A="Green Day" T="Dookie" type="ALBUM" uuid="5426595e4aad418c91b8527c8ef95fd9" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="30" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Time Out Of Mind" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Time Out Of Mind" type="ALBUM" uuid="2325e6f3c9f8470e83e8f224bd1bc415" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="31" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Nine Inch Nails" T="The Downward Spiral" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nine Inch Nails" T="The Downward Spiral" type="ALBUM" uuid="4d0949720b854147828dea370d9cbced" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="32" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Eminem" T="The Slim Shady LP" type="ALBUM" mergeable="true" del="false">
+  <compo A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="b87c4aadc81b4cca9fc8750c1c3484c0" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="33" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" mergeable="true" del="true">
+  <compo A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" uuid="c6c0a3d9c25a4aa6a1e4b6142cc06721" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="34" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Wilco" T="Being There" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wilco" T="Being There" type="ALBUM" uuid="e978f0da5f194f60bc80d746485c3a3f" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="35" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="A Tribe Called Quest" T="The Low End Theory" type="ALBUM" mergeable="true" del="false">
+  <compo A="A Tribe Called Quest" T="The Low End Theory" type="ALBUM" uuid="53f7088eafb341f6bc337b8e4a5009d0" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="36" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Johnny Cash" T="American Recordings" type="ALBUM" mergeable="true" del="false">
+  <compo A="Johnny Cash" T="American Recordings" type="ALBUM" uuid="3a7c421b47eb481ea703dd2897b3e4c1" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="37" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Soundgarden" T="Superunknown" type="ALBUM" mergeable="true" del="false">
+  <compo A="Soundgarden" T="Superunknown" type="ALBUM" uuid="8c9850ef5ced4a8fad0cb4b7aa011165" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="38" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" uuid="ee85b53a62fe404f838c36514215144d" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="39" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Neil Young" T="Harvest Moon" type="ALBUM" mergeable="true" del="true">
+  <compo A="Neil Young" T="Harvest Moon" type="ALBUM" uuid="d24811c1581a408385bb94a913ee8c9f" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="40" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Guns N' Roses" T="Use Your Illusion I And II" type="ALBUM" mergeable="true" del="false">
+  <compo A="Guns N' Roses" T="Use Your Illusion I And II" type="ALBUM" uuid="dd0f81ac85074e0b8b43f3042f9020a4" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="41" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="PJ Harvey" T="Rid Of Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Rid Of Me" type="ALBUM" uuid="705de24a846649c8b82ea2cecee6ae9e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="42" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="TLC" T="CrazySexyCool" type="ALBUM" mergeable="true" del="false">
+  <compo A="TLC" T="CrazySexyCool" type="ALBUM" uuid="7d8b69a0e15f4d299d7f4f274d3e6ceb" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="43" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Fugees" T="The Score" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fugees" T="The Score" type="ALBUM" uuid="2a85f1e5279a4640a90971fe262d07fd" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="44" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Alanis Morissette" T="Jagged Little Piull" type="ALBUM" mergeable="true" del="false">
+  <compo A="Alanis Morissette" T="Jagged Little Piull" type="ALBUM" uuid="340c85a388b3429da517565f485c14fd" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="45" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Jay-Z" T="Vol. 2...Hard Knock Life" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jay-Z" T="Vol. 2...Hard Knock Life" type="ALBUM" uuid="5f47896f619a44608cfcc1b9a86a6b55" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="46" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Portishead" T="Dummy" type="ALBUM" mergeable="true" del="true">
+  <compo A="Portishead" T="Dummy" type="ALBUM" uuid="0a39dd92b77e41a7bd83313ed884a621" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="47" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Weezer" T="Pinkerton" type="ALBUM" mergeable="true" del="false">
+  <compo A="Weezer" T="Pinkerton" type="ALBUM" uuid="0b7ebdc14a1842978298d7e83e5783e6" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="48" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Sleater-Kinney" T="Call The Doctor" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sleater-Kinney" T="Call The Doctor" type="ALBUM" uuid="3815f92ae0fa4e328f456aa094035b6e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="49" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="2Pac" T="All Eyez On Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="2Pac" T="All Eyez On Me" type="ALBUM" uuid="0d9176ea07c440858efb11aef4f849d7" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="50" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Massive Attack" T="Protection" type="ALBUM" mergeable="true" del="false">
+  <compo A="Massive Attack" T="Protection" type="ALBUM" uuid="c1c182caf8b549d399289ddafcaa7db5" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="51" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Pearl Jam" T="Vitalogy" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pearl Jam" T="Vitalogy" type="ALBUM" uuid="2f33839e74374a36a2d13786e7d80f96" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="52" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Tom Waits" T="Born Machine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tom Waits" T="Born Machine" type="ALBUM" uuid="900c1b36d0b6486782821eb051116bc7" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="53" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="The Ghost Of Tom Joad" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="The Ghost Of Tom Joad" type="ALBUM" uuid="01aaeb15571c42f698a6542f61adbe61" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="54" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Jane's Addiction" T="Ritual De Lo Habitual" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jane's Addiction" T="Ritual De Lo Habitual" type="ALBUM" uuid="595c8e68013644b9a4a518b0d4930d41" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="55" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="LL Cool J" T="Mama Said Knock You Out" type="ALBUM" mergeable="true" del="false">
+  <compo A="LL Cool J" T="Mama Said Knock You Out" type="ALBUM" uuid="e5343436d01447249d166114198c41bc" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="56" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Depeche Mode" T="Violator" type="ALBUM" mergeable="true" del="false">
+  <compo A="Depeche Mode" T="Violator" type="ALBUM" uuid="084b930d51a948ddbbc968a90e4a821a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="57" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Janet Jackson" T="Janet." type="ALBUM" mergeable="true" del="false">
+  <compo A="Janet Jackson" T="Janet." type="ALBUM" uuid="b122e1287ab6424f8ed9e480fed58651" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="58" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Cypress Hill" T="Cypress Hill" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cypress Hill" T="Cypress Hill" type="ALBUM" uuid="8cb3f71cb667429bacc33a2c5b395f63" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="59" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="En Vogue" T="Funky Divas" type="ALBUM" mergeable="true" del="false">
+  <compo A="En Vogue" T="Funky Divas" type="ALBUM" uuid="db06c592e9a846e5855b68d16894e7e3" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="60" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="U2" T="Zooropa" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="Zooropa" type="ALBUM" uuid="48efc51786964c79873ea925a4e288aa" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="61" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Raekwon" T="Only Built 4 Cuban Linx" type="ALBUM" mergeable="true" del="false">
+  <compo A="Raekwon" T="Only Built 4 Cuban Linx" type="ALBUM" uuid="2a2897b160b04e2ea17330e76461aff4" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="62" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Mary J. Blige" T="My Life" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mary J. Blige" T="My Life" type="ALBUM" uuid="7fa0eb42ace24f13a39a81a36b393d32" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="63" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Sinead O'Connor" T="I Do Not Want What I Haven't Got" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sinead O'Connor" T="I Do Not Want What I Haven't Got" type="ALBUM" uuid="29bc8f634e6e4c7bacee303264159326" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="64" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Erykah Badu" T="Baduizm" type="ALBUM" mergeable="true" del="false">
+  <compo A="Erykah Badu" T="Baduizm" type="ALBUM" uuid="7d8b08a8454e4b37a3cc18ad680f6524" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="65" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Notorious B.I.G." T="Life After Death" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Notorious B.I.G." T="Life After Death" type="ALBUM" uuid="22089d9533094824a14388e7772b304b" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="66" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Counting Crows" T="August And Everything After" type="ALBUM" mergeable="true" del="false">
+  <compo A="Counting Crows" T="August And Everything After" type="ALBUM" uuid="12a90d17f857476aa35f8d847e94db20" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="67" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Out Of Time" type="ALBUM" mergeable="true" del="false">
+  <compo A="R.E.M." T="Out Of Time" type="ALBUM" uuid="b4d877c0ba7148e89f8ced9580db4f73" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="68" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Wyclef Jean" T="The Carnival" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wyclef Jean" T="The Carnival" type="ALBUM" uuid="2cef2a894e0a43d687cfef1e8bdd2e9c" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="69" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Tricky" T="Maxinquaye" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tricky" T="Maxinquaye" type="ALBUM" uuid="ccca141b7312403891a3247e5e990f5a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="70" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="DJ Shadow" T="Entroducing" type="ALBUM" mergeable="true" del="false">
+  <compo A="DJ Shadow" T="Entroducing" type="ALBUM" uuid="f26d625f513b4e66b6a369ce82de9b32" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="71" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Chemical Brothers" T="Dig Your Own Hole" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Chemical Brothers" T="Dig Your Own Hole" type="ALBUM" uuid="bf4ede5de4384e8390220ca6b3ff3012" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="72" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Missy &quot;Misdemeanor&quot; Elliott" T="Supa Dupa Fly" type="ALBUM" mergeable="true" del="false">
+  <compo A="Missy &quot;Misdemeanor&quot; Elliott" T="Supa Dupa Fly" type="ALBUM" uuid="0e471c4f2bf542038a3a304810bfadba" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="73" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Rage Against The Machine" T="The Battle Of Los Angeles" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rage Against The Machine" T="The Battle Of Los Angeles" type="ALBUM" uuid="827a99afe22e44f784c19be89bf5521e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="74" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" mergeable="true" del="false">
+  <compo A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" uuid="5412d76a350b42f48fd678dd8e2767d5" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="75" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Bridges To Babylon" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Bridges To Babylon" type="ALBUM" uuid="e506f0da0e6840fab9b10dd4754d495a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="76" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Neil Young" T="Ragged Glory" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Ragged Glory" type="ALBUM" uuid="2e2f99c0414b41cbb5fdf77c50406312" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="77" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" uuid="6c492a0ce2624f11b962211af6bfc511" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="78" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Guided By Voices" T="Bee Thousand" type="ALBUM" mergeable="true" del="false">
+  <compo A="Guided By Voices" T="Bee Thousand" type="ALBUM" uuid="dc62985e3af548318c308d8c740a358c" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="79" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Breeders" T="Last Splash" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Breeders" T="Last Splash" type="ALBUM" uuid="cd5139a63f82452e8c9a6b448afe273e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="80" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" mergeable="true" del="true">
+  <compo A="Bjork" T="Post" type="ALBUM" uuid="a89c63edd5cd4108aa13fd5402c8d9ab" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="81" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Smashing Pumpkins" T="Mellon Collie And The Infinite Sadness" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Smashing Pumpkins" T="Mellon Collie And The Infinite Sadness" type="ALBUM" uuid="63aed80ab61d44a496e9a97dac3efcdb" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="82" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Fiona Apple" T="Tidal" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fiona Apple" T="Tidal" type="ALBUM" uuid="57781cc2b594405ea74e5a2af42dcfa4" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="83" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Marilyn Manson" T="Antichrist Superstar" type="ALBUM" mergeable="true" del="false">
+  <compo A="Marilyn Manson" T="Antichrist Superstar" type="ALBUM" uuid="ad2e000e95df49578152283433c4950e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="84" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pulp" T="Different Class" type="ALBUM" uuid="e5bac0749ec44735b5d90b26fc5d6223" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="85" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Yo La Tengo" T="I Can Hear The Heart Beating As One" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yo La Tengo" T="I Can Hear The Heart Beating As One" type="ALBUM" uuid="6829284ad4a646c881207b468fbbde3c" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="86" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="De La Soul" T="De La Soul Is Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="De La Soul" T="De La Soul Is Dead" type="ALBUM" uuid="d1a3abd2bc7c410992e35bc947d5bf14" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="87" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="R. Kelly" T="R. Kelly" type="ALBUM" mergeable="true" del="false">
+  <compo A="R. Kelly" T="R. Kelly" type="ALBUM" uuid="4f3591368d2942d490abb670c819d018" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="88" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Tom Petty" T="Into The Great Wide Open" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tom Petty" T="Into The Great Wide Open" type="ALBUM" uuid="1c6bda6d5315470a8596b95f1d6c4076" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="89" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Aaliyah" T="One In A Million" type="ALBUM" mergeable="true" del="false">
+  <compo A="Aaliyah" T="One In A Million" type="ALBUM" uuid="69d5a06fcae846aca9336195feb85a21" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="90" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Pixies" T="Bossanova" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Pixies" T="Bossanova" type="ALBUM" uuid="df9484779c794f7da4493271ea51464d" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="91" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" uuid="0bded81e69ec4091a5edcaf25fd65b06" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="92" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Air" T="Moon Safari" type="ALBUM" mergeable="true" del="false">
+  <compo A="Air" T="Moon Safari" type="ALBUM" uuid="0784d49b34a54a779b59f0722bb037df" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="93" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Billy Bragg And Wilco" T="Mermaid Avenue" type="ALBUM" mergeable="true" del="false">
+  <compo A="Billy Bragg And Wilco" T="Mermaid Avenue" type="ALBUM" uuid="e91a0c5f450e4bba92094aa72ce3a215" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="94" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Nirvana" T="MTV Unplugged In New York" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nirvana" T="MTV Unplugged In New York" type="ALBUM" uuid="c6afab528ac149e382222fa062fbe369" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="95" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Aphex Twin" T="Selected Ambient Works, Volume II" type="ALBUM" mergeable="true" del="false">
+  <compo A="Aphex Twin" T="Selected Ambient Works, Volume II" type="ALBUM" uuid="e2fcc7cb68d44d8598a7c58a02afaca7" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="96" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="The Magnetic Fields" T="69 Love Songs" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Magnetic Fields" T="69 Love Songs" type="ALBUM" uuid="4dbe530e4c294a39b82bdd2b4063b866" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="97" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Buena Vista Social Club" T="Buena Vista Social Club" type="ALBUM" mergeable="true" del="false">
+  <compo A="Buena Vista Social Club" T="Buena Vista Social Club" type="ALBUM" uuid="39315944aceb43108406a22f401f18c1" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="98" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Luna" T="Penthouse" type="ALBUM" mergeable="true" del="false">
+  <compo A="Luna" T="Penthouse" type="ALBUM" uuid="f05b6636a05141ac93144d63fe76dc55" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="99" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
-  <compo A="Moby" T="Everything Is Wrong" type="ALBUM" mergeable="true" del="false">
+  <compo A="Moby" T="Everything Is Wrong" type="ALBUM" uuid="333c06dee6e9466da786e31aa5c2ffca" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="100" creation="07/09/2018 14:01:48" size="100"/>
   </compo>
 </ListCompositions>

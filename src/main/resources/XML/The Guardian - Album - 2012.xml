@@ -1,124 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Frank Ocean" T="Channel Orange" type="ALBUM" mergeable="true" del="false">
+  <compo A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="2beb33a0f9ec49fb95b78268160afd83" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" mergeable="true" del="true">
+  <compo A="Grimes" T="Visions" type="ALBUM" uuid="091144a7680d4f36b98c0e6ca03f1ab0" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Jessie Ware" T="Devotion" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jessie Ware" T="Devotion" type="ALBUM" uuid="ad55bbe909474cf3ac585d988ca90e3a" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Dirty Projectors" T="Swing Lo Magellan" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dirty Projectors" T="Swing Lo Magellan" type="ALBUM" uuid="e1ec557666f74a698ea19192bb92ae30" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Kendrick Lamar" T="Good Kid, MAAD City" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kendrick Lamar" T="Good Kid, MAAD City" type="ALBUM" uuid="27aaf675a1414a1fa6c46511d1e545c4" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Tame Impala" T="Lonerism" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tame Impala" T="Lonerism" type="ALBUM" uuid="872ffc378ae544a498378db7a9230343" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Alt-J" T="An Awesome Wave" type="ALBUM" mergeable="true" del="false">
+  <compo A="Alt-J" T="An Awesome Wave" type="ALBUM" uuid="86c2c914460d4751a2b565c0b63cbd0d" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="The Xx" T="Coexist" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Xx" T="Coexist" type="ALBUM" uuid="401b7f6b9bfe4f3da6ac2af7c6a561b5" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" mergeable="true" del="true">
+  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" uuid="20b6049b64b74e8c999454cbb27a3843" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Bobby Womack" T="The Bravest Man In The Universe" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bobby Womack" T="The Bravest Man In The Universe" type="ALBUM" uuid="6137c434ec01492095a1646e9b81ac28" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Miguel" T="Kaleidoscope Dream" type="ALBUM" mergeable="true" del="false">
+  <compo A="Miguel" T="Kaleidoscope Dream" type="ALBUM" uuid="37fbd0e0068f466caf182f84c8446896" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Django Django" T="Django Django" type="ALBUM" mergeable="true" del="false">
+  <compo A="Django Django" T="Django Django" type="ALBUM" uuid="6faec1aeac344d588accfdc15568f680" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Chromatics" T="Kill For Love" type="ALBUM" mergeable="true" del="false">
+  <compo A="Chromatics" T="Kill For Love" type="ALBUM" uuid="220017c03428488aa005646886c718e5" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Grizzly Bear" T="Shields" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grizzly Bear" T="Shields" type="ALBUM" uuid="b70b0d0c8789424283fb1baaf4821428" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="14" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Cooly G" T="Playin' Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cooly G" T="Playin' Me" type="ALBUM" uuid="dca393a979ff4a818d6e0182ca060c4a" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="15" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Taylor Swift" T="Red" type="ALBUM" mergeable="true" del="false">
+  <compo A="Taylor Swift" T="Red" type="ALBUM" uuid="ae98768291da40b790259ae2f333745e" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Lana Del Rey" T="Born To Die" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lana Del Rey" T="Born To Die" type="ALBUM" uuid="8a0bc2b1d4934f448dd5bd69a57a2c44" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="17" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Saint Etienne" T="Words And Music By Saint Etienne" type="ALBUM" mergeable="true" del="false">
+  <compo A="Saint Etienne" T="Words And Music By Saint Etienne" type="ALBUM" uuid="1992663524114d87b82a105c30659e3a" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="18" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Flying Lotus" T="Until The Quiet Comes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Flying Lotus" T="Until The Quiet Comes" type="ALBUM" uuid="08aa1daf80fc41838898b8fd66f1f683" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="19" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Plan B" T="Ill Manors" type="ALBUM" mergeable="true" del="false">
+  <compo A="Plan B" T="Ill Manors" type="ALBUM" uuid="83767707ac9f49978dd525291e44d8b3" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Bat For Lashes" T="The Haunted Man" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bat For Lashes" T="The Haunted Man" type="ALBUM" uuid="75b96d5e320c49a6819053c79d12cabf" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="21" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="The Cribs" T="In The Belly Of The Brazen Bull" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Cribs" T="In The Belly Of The Brazen Bull" type="ALBUM" uuid="c17ff4900cf64dc4a7bbc35a60de1514" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="22" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Jam City" T="Classical Curves" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jam City" T="Classical Curves" type="ALBUM" uuid="ba1d0a381d8349b2955c5a792d84576f" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="23" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Dawn Richard" T="Armor On" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dawn Richard" T="Armor On" type="ALBUM" uuid="42b5f6ca90324c2bb7b78eeb3d2f6a3e" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="24" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Actress" T="RIP" type="ALBUM" mergeable="true" del="false">
+  <compo A="Actress" T="RIP" type="ALBUM" uuid="67974dfca29a4a52aa9881f3e40b113c" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="25" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Bright Light, Bright Light" T="Make Me Believe In Hope" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bright Light, Bright Light" T="Make Me Believe In Hope" type="ALBUM" uuid="9ec45d64674b4762956749062bc8cd5e" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="26" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Polica" T="Give You The Ghost" type="ALBUM" mergeable="true" del="false">
+  <compo A="Polica" T="Give You The Ghost" type="ALBUM" uuid="91aa065b8236483993957bf087098915" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="27" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Tribes" T="Baby" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tribes" T="Baby" type="ALBUM" uuid="45910b67597740e7ba72d406882f036c" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="28" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jack White" T="Blunderbuss" type="ALBUM" uuid="59ef49eb849c4da28c6453675c0810b0" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="29" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Angel Haze" T="Reservation" type="ALBUM" mergeable="true" del="false">
+  <compo A="Angel Haze" T="Reservation" type="ALBUM" uuid="7698b2e403ea487bbbf1f5e6dfffd510" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="30" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Marina And The Diamonds" T="Electra Heart" type="ALBUM" mergeable="true" del="false">
+  <compo A="Marina And The Diamonds" T="Electra Heart" type="ALBUM" uuid="74c2038de9c84652a4c152b9afce5316" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="31" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Farrah Abraham" T="My Teenage Dream Ended" type="ALBUM" mergeable="true" del="false">
+  <compo A="Farrah Abraham" T="My Teenage Dream Ended" type="ALBUM" uuid="f098b29fa65e470884747d0bc57e6d73" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="32" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Mala" T="Mala In Cuba" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mala" T="Mala In Cuba" type="ALBUM" uuid="9b0d4561123c4f0999d90491bc75d9d8" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="33" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Dexys" T="One Day I'm Going To Soar" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dexys" T="One Day I'm Going To Soar" type="ALBUM" uuid="1d96cdd22c624758b638f4d55e4f6d52" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="34" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Nite Jewel" T="One Second Of Love" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nite Jewel" T="One Second Of Love" type="ALBUM" uuid="a201238379cb4b96ba5108a2a6d5ad7c" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="35" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" mergeable="true" del="true">
+  <compo A="Beach House" T="Bloom" type="ALBUM" uuid="b41c5d743ea144498871c17aab6d1a8f" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="36" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Orbital" T="Wonky" type="ALBUM" mergeable="true" del="false">
+  <compo A="Orbital" T="Wonky" type="ALBUM" uuid="bd1246cb6a3e4c64be8593d935ec3240" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="37" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Fiona Apple" T="The Idler Wheel" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fiona Apple" T="The Idler Wheel" type="ALBUM" uuid="7af48ee959774842a0f9da56a4c1359a" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="38" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Killer Mike" T="RAP Music" type="ALBUM" mergeable="true" del="false">
+  <compo A="Killer Mike" T="RAP Music" type="ALBUM" uuid="bc107c82fc9c4c77bfb9936cfc491fd5" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="39" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
-  <compo A="Godspeed You! Black Emperor" T="Allelujah! Don't Bend! Ascend!" type="ALBUM" mergeable="true" del="false">
+  <compo A="Godspeed You! Black Emperor" T="Allelujah! Don't Bend! Ascend!" type="ALBUM" uuid="3065ad95424244c8bbe51940ff48f6ba" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="40" creation="27/08/2018 10:37:17" size="40"/>
   </compo>
 </ListCompositions>

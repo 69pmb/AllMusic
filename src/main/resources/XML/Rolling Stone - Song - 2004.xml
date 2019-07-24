@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Jay-Z" T="99 Problems" type="SONG" mergeable="true" del="true">
+  <compo A="Jay-Z" T="99 Problems" type="SONG" uuid="095e82b191994065a6fc9e9d5d4edd47" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Usher" T="Yeah" type="SONG" mergeable="true" del="false">
+  <compo A="Usher" T="Yeah" type="SONG" uuid="690d7fbb409040819d0f6a8c4e84ed2d" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" mergeable="true" del="true">
+  <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" uuid="14260316872143898ce00770f832d77a" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="true">
+  <compo A="Kanye West" T="Jesus Walks" type="SONG" uuid="aacfa2e6e084430cb77130c095a3c90c" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Eminem" T="Mosh" type="SONG" mergeable="true" del="false">
+  <compo A="Eminem" T="Mosh" type="SONG" uuid="15022861b64c48f0aaf1ddc4e25d8c2a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Britney Spears" T="Toxic" type="SONG" mergeable="true" del="false">
+  <compo A="Britney Spears" T="Toxic" type="SONG" uuid="24d1e3eeec1b4cdb87bd480467d3434e" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="Modest Mouse" T="Float On" type="SONG" mergeable="true" del="true">
+  <compo A="Modest Mouse" T="Float On" type="SONG" uuid="fbc190b3031a4fd7a8daab2fb233fbd4" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="U2" T="Vertigo" type="SONG" mergeable="true" del="true">
+  <compo A="U2" T="Vertigo" type="SONG" uuid="b3068501587e4ee287a62b95763585fd" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="The Killers" T="Somebody Told Me" type="SONG" mergeable="true" del="true">
+  <compo A="The Killers" T="Somebody Told Me" type="SONG" uuid="d8ed4e3b0d1a40c4881f000bc2c588af" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
-  <compo A="M.I.A." T="Galang" type="SONG" mergeable="true" del="false">
+  <compo A="M.I.A." T="Galang" type="SONG" uuid="b7dffff63ed94fc19bc8c56fac84c1c2" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 2004" publish="2004" cat="YEAR" rangeB="2004" rangeE="2004" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
   </compo>
 </ListCompositions>

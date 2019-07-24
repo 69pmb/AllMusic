@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Rolling Stones" T="Tatoo You" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rolling Stones" T="Tatoo You" type="ALBUM" uuid="900b5a05545c4d7db91869f19b6dc922" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="X" T="Wild Gift" type="ALBUM" mergeable="true" del="false">
+  <compo A="X" T="Wild Gift" type="ALBUM" uuid="632b3260c0a647c0abec0d104bdf0f86" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="Squeeze" T="East Side Story" type="ALBUM" mergeable="true" del="false">
+  <compo A="Squeeze" T="East Side Story" type="ALBUM" uuid="092124e16c1a4005b0ff12c4e2e3ec35" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="Clash" T="Sandinista" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clash" T="Sandinista" type="ALBUM" uuid="f69360908dd7435fae220a4210eb595a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="Neville Brothers" T="Fiyo On The Bayou" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neville Brothers" T="Fiyo On The Bayou" type="ALBUM" uuid="79c08fc042ce44f587353f50b9d7edc8" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="Ricky Lee Jones" T="Pirates" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ricky Lee Jones" T="Pirates" type="ALBUM" uuid="31401e705d644194bda592a65b3f05ff" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="David Byrne" T="Catherine Wheel" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Byrne" T="Catherine Wheel" type="ALBUM" uuid="b8511681f0f7466da8936d6b4816691f" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="Police" T="Ghost In The Machine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Police" T="Ghost In The Machine" type="ALBUM" uuid="a86acf60f2a9484a89d06d9a01aa8fec" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="Various Artist" T="Strenght Through Oi!" type="ALBUM" mergeable="true" del="false">
+  <compo A="Various Artist" T="Strenght Through Oi!" type="ALBUM" uuid="eb2b61e462d242f89a819ab0a2633038" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="9" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="J.Geils Band" T="Freeze-Frame" type="ALBUM" mergeable="true" del="false">
+  <compo A="J.Geils Band" T="Freeze-Frame" type="ALBUM" uuid="a839582e45b5434caf99c61ab2cac133" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="10" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
-  <compo A="Tom Verlaine" T="Dreamtime" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tom Verlaine" T="Dreamtime" type="ALBUM" uuid="831e8309379f406597157a1041f7bd3d" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1981" publish="1981" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="11" creation="05/01/2018 13:17:17" size="11"/>
   </compo>
 </ListCompositions>

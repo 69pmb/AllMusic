@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Justice" T="D.A.N.C.E" type="SONG" mergeable="true" del="false">
+  <compo A="Justice" T="D.A.N.C.E" type="SONG" uuid="12ffd2bf60864a1887a0305be0f611be" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="1" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
-  <compo A="Santogold" T="Creator" type="SONG" mergeable="true" del="false">
+  <compo A="Santogold" T="Creator" type="SONG" uuid="89c343d1be6a43b9bb8e7e7dfb51c6f6" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="2" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
-  <compo A="Dan Le Sac VS Scroobius Pip" T="Thou Shalt Always Kill" type="SONG" mergeable="true" del="false">
+  <compo A="Dan Le Sac VS Scroobius Pip" T="Thou Shalt Always Kill" type="SONG" uuid="394a6188135047c999bb242aa997825f" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="3" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
-  <compo A="Mika" T="Relax, Take It Easy" type="SONG" mergeable="true" del="false">
+  <compo A="Mika" T="Relax, Take It Easy" type="SONG" uuid="fde06311f657478ba4094adb7c932e85" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="4" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
-  <compo A="Gossip" T="Standing In The Way Of Control" type="SONG" mergeable="true" del="true">
+  <compo A="Gossip" T="Standing In The Way Of Control" type="SONG" uuid="30b8d8313891488e990ac2cb2188abad" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="5" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
-  <compo A="Gym Class Heroes" T="New Friends Request" type="SONG" mergeable="true" del="false">
+  <compo A="Gym Class Heroes" T="New Friends Request" type="SONG" uuid="4d065b393b4f465eb6b26e07de6b0bb7" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
-  <compo A="Dragonette" T="I Get Around (Midnight Juggernaut Remix)" type="SONG" mergeable="true" del="false">
+  <compo A="Dragonette" T="I Get Around (Midnight Juggernaut Remix)" type="SONG" uuid="49a184b5e5264b1ea325ad3f94fe1dc0" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="7" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
-  <compo A="50 Cent" T="I Get Money" type="SONG" mergeable="true" del="false">
+  <compo A="50 Cent" T="I Get Money" type="SONG" uuid="594119bbdb164b629e67ad57dcc7f322" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="8" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
-  <compo A="Hadouken !" T="Tuning It (Hi Re-hub)" type="SONG" mergeable="true" del="false">
+  <compo A="Hadouken !" T="Tuning It (Hi Re-hub)" type="SONG" uuid="117b7e50e9dd46fe9fdf127de98658b6" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="9" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
-  <compo A="Amy Winehouse" T="Rehab" type="SONG" mergeable="true" del="true">
+  <compo A="Amy Winehouse" T="Rehab" type="SONG" uuid="2ce72ffb9fd14d34ad3f06182f2b6a44" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Song - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="10" creation="11/09/2018 15:55:50" size="10"/>
   </compo>
 </ListCompositions>

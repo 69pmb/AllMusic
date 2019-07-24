@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" mergeable="true" del="true">
+  <compo A="TV On The Radio" T="Dear Science" type="ALBUM" uuid="5d9605d738dc4e4197a6af8132bc9288" mergeable="true" del="true">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="1" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="Beck" T="Modern Guilt" type="ALBUM" mergeable="true" del="false">
+  <compo A="Beck" T="Modern Guilt" type="ALBUM" uuid="60bf6a06c8bc42e5939c256368ae06d9" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="2" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="Blues Explosion" T="Acme" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blues Explosion" T="Acme" type="ALBUM" uuid="01667265f8d346f9bc381e2bf37a2d10" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="3" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="White Stripes" T="White Blood Cells" type="ALBUM" mergeable="true" del="true">
+  <compo A="White Stripes" T="White Blood Cells" type="ALBUM" uuid="70020b92eca8483cbd23f9292395e877" mergeable="true" del="true">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="4" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" mergeable="true" del="true">
+  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" uuid="4ddd0f55097a447ba20b2aa0ed768234" mergeable="true" del="true">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="5" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" mergeable="true" del="true">
+  <compo A="Elvis Presley" T="Suspicious Minds" type="SONG" uuid="e2732f19a9fc46acabd09ef07acdb8b1" mergeable="true" del="true">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="6" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="Elvis Presley" T="In The Ghetto" type="SONG" mergeable="true" del="true">
+  <compo A="Elvis Presley" T="In The Ghetto" type="SONG" uuid="53e2103f22084a2a86216a16c194cf6e" mergeable="true" del="true">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="7" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="My Beloved Monster" T="Eels" type="SONG" mergeable="true" del="false">
+  <compo A="My Beloved Monster" T="Eels" type="SONG" uuid="5aeca51d65ce4af2b11ced9bbb9e402a" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="8" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="Echo And the Bunnymen" T="The Killing Moon" type="SONG" mergeable="true" del="false">
+  <compo A="Echo And the Bunnymen" T="The Killing Moon" type="SONG" uuid="956e740f42b646bc9b26c81aedfb7ab8" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="9" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="velvet underground" T="lisa says" type="SONG" mergeable="true" del="false">
+  <compo A="velvet underground" T="lisa says" type="SONG" uuid="8ed80e9e0b0346c880f11aaf0f145652" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="10" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="wolf parade" T="grounds for divorce" type="SONG" mergeable="true" del="false">
+  <compo A="wolf parade" T="grounds for divorce" type="SONG" uuid="92a3795ed756410b8f717205f9425dbb" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="11" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="wolf parade" T="this heart's on fire" type="SONG" mergeable="true" del="false">
+  <compo A="wolf parade" T="this heart's on fire" type="SONG" uuid="1bd71d659d4f414fae818b11e4f2c1f6" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="12" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="soundgarden" T="my wave" type="SONG" mergeable="true" del="false">
+  <compo A="soundgarden" T="my wave" type="SONG" uuid="6940c6364fbb41dc841b9c55d42cce91" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="13" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="elliot smith" T="rose parade" type="SONG" mergeable="true" del="false">
+  <compo A="elliot smith" T="rose parade" type="SONG" uuid="43cb5a47569848b58ef7efd95bba2031" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="14" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="elliot smith" T="i didn't understand" type="SONG" mergeable="true" del="false">
+  <compo A="elliot smith" T="i didn't understand" type="SONG" uuid="edcc36f7cd4741239f6326d0f6cb2960" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="15" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="shins" T="gone for good" type="SONG" mergeable="true" del="false">
+  <compo A="shins" T="gone for good" type="SONG" uuid="9ea83c353d134cbeb1907587845ef963" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="16" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="stevie wonder" T="You and I (We Can Conquer The World)" type="SONG" mergeable="true" del="false">
+  <compo A="stevie wonder" T="You and I (We Can Conquer The World)" type="SONG" uuid="61bf4930cef347a0a9747e17c6e4dfea" mergeable="true" del="false">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="17" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="stevie wonder" T="You Are The Sunshine Of My Life" type="SONG" mergeable="true" del="true">
+  <compo A="stevie wonder" T="You Are The Sunshine Of My Life" type="SONG" uuid="e02274426f1a40109d0cf88ea6ab71af" mergeable="true" del="true">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="18" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
-  <compo A="stevie wonder" T="Superstition" type="SONG" mergeable="true" del="true">
+  <compo A="stevie wonder" T="Superstition" type="SONG" uuid="f1a961795a0e46e29e0e6766147dfebf" mergeable="true" del="true">
     <file author="Divers" name="2008 + Divers" publish="2008" cat="MISCELLANEOUS" rangeB="0" rangeE="2008" sorted="false" rank="19" creation="27/08/2017 13:52:32" size="19"/>
   </compo>
 </ListCompositions>

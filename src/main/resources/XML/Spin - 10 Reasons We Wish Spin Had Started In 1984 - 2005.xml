@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" uuid="f66d3316470d4b1aadf48690496b9821" mergeable="true" del="true">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="1" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
-  <compo A="Minuteman" T="Double Nickels On The Dime" type="ALBUM" mergeable="true" del="false">
+  <compo A="Minuteman" T="Double Nickels On The Dime" type="ALBUM" uuid="5a869ef3894d49deb79b810d27f5b03d" mergeable="true" del="false">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="2" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
-  <compo A="The Replacements" T="Let It Be" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Replacements" T="Let It Be" type="ALBUM" uuid="11646baa6fbd4dee9958584de5e492f4" mergeable="true" del="false">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="3" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
-  <compo A="Husker Du" T="Zen Arcade" type="ALBUM" mergeable="true" del="false">
+  <compo A="Husker Du" T="Zen Arcade" type="ALBUM" uuid="16eb39e7a4a64d1581993ceecc5e3ef8" mergeable="true" del="false">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="4" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" uuid="7d22d122e1e24bb89a4259c0f207cb2c" mergeable="true" del="true">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="5" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
-  <compo A="Meat Puppets" T="Meat Puppets Ii" type="ALBUM" mergeable="true" del="false">
+  <compo A="Meat Puppets" T="Meat Puppets Ii" type="ALBUM" uuid="38b502a4072e4fecac2d0e9e0675f24a" mergeable="true" del="false">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="6" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
-  <compo A="Run-D.M.C." T="Run-D.M.C." type="ALBUM" mergeable="true" del="false">
+  <compo A="Run-D.M.C." T="Run-D.M.C." type="ALBUM" uuid="1816dda7169a4c298c4e56bec9f09415" mergeable="true" del="false">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="7" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
-  <compo A="R.E.M." T="Reckoning" type="ALBUM" mergeable="true" del="true">
+  <compo A="R.E.M." T="Reckoning" type="ALBUM" uuid="f87eb196479f461cb018c3a6b84b0c55" mergeable="true" del="true">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="8" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
-  <compo A="Minor Threat" T="Out Of Step" type="ALBUM" mergeable="true" del="false">
+  <compo A="Minor Threat" T="Out Of Step" type="ALBUM" uuid="3d47efd3c01141b4b4af0adafc09fe16" mergeable="true" del="false">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="9" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
-  <compo A="Madonna" T="Like A Virgin" type="ALBUM" mergeable="true" del="false">
+  <compo A="Madonna" T="Like A Virgin" type="ALBUM" uuid="add5861345a74a59b9c36879a2f39f1d" mergeable="true" del="false">
     <file author="Spin" name="Spin - 10 Reasons We Wish Spin Had Started In 1984 - 2005" publish="2005" cat="THEME" rangeB="1984" rangeE="1984" sorted="true" rank="10" creation="24/10/2018 14:46:19" size="10"/>
   </compo>
 </ListCompositions>

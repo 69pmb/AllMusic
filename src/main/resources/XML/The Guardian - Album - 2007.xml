@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="LCD Soundsystem" T="Sound Of Silver" type="ALBUM" mergeable="true" del="false">
+  <compo A="LCD Soundsystem" T="Sound Of Silver" type="ALBUM" uuid="99fd6ecd44774717bb2a78bb9f8b26a0" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="1" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="In Rainbows" type="ALBUM" uuid="fe330bd199a8401592bd2de52d89f1bc" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="2" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="The Hold Steady" T="Boys And Girls In America" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Hold Steady" T="Boys And Girls In America" type="ALBUM" uuid="891139e3a15b44beaada5dd2bd696947" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="3" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="M.I.A." T="Kala" type="ALBUM" mergeable="true" del="true">
+  <compo A="M.I.A." T="Kala" type="ALBUM" uuid="fc408688ed4449e6a8760922170a14a4" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="4" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Klaxons" T="Myths Of The Near Future" type="ALBUM" mergeable="true" del="false">
+  <compo A="Klaxons" T="Myths Of The Near Future" type="ALBUM" uuid="b2020b11349b4f249efd1876ef625724" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="5" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Kings Of Leon" T="Because Of The Times" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kings Of Leon" T="Because Of The Times" type="ALBUM" uuid="f06938ff54fe441f95a2254ebcfb4b79" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Grinderman" T="Grinderman" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grinderman" T="Grinderman" type="ALBUM" uuid="c71092c4d87a417c8db13af2f70d993d" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="7" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Battles" T="Mirrored" type="ALBUM" mergeable="true" del="false">
+  <compo A="Battles" T="Mirrored" type="ALBUM" uuid="42986b69d8104d098ac8d8dd845bc82c" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="8" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="PJ Harvey" T="White Chalk" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="White Chalk" type="ALBUM" uuid="37b2cefddf3240e29d24f7452bbf25a0" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="9" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Feist" T="The Reminder" type="ALBUM" mergeable="true" del="false">
+  <compo A="Feist" T="The Reminder" type="ALBUM" uuid="e8975f0242e143f5851b10983834c461" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="10" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="The Arctic Monkeys" T="Favourite Worst Nightmare" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Arctic Monkeys" T="Favourite Worst Nightmare" type="ALBUM" uuid="eaf2b950c4784a39b0d1780f48aa14ce" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="11" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Robert And Alison Krauss Plant" T="Raising Sand" type="ALBUM" mergeable="true" del="false">
+  <compo A="Robert And Alison Krauss Plant" T="Raising Sand" type="ALBUM" uuid="ff07287ea14e4e4b8e7cf1c5f70645fa" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="12" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="The Felice Brothers" T="Tonight At The Arizona" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Felice Brothers" T="Tonight At The Arizona" type="ALBUM" uuid="1eb370d2bd054936a4d6d48a305b7a9d" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="13" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="The Arcade Fire" T="Neon Bible" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Arcade Fire" T="Neon Bible" type="ALBUM" uuid="49b095bf52a24184b461067db3ce1c09" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="14" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Les Savy Fav" T="Let's Stay Friends" type="ALBUM" mergeable="true" del="false">
+  <compo A="Les Savy Fav" T="Let's Stay Friends" type="ALBUM" uuid="641798eceb8b444b9918b741dbb0964f" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="15" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Good, The Bad And The Queen, The" T="The Good, The Bad And The Queen" type="ALBUM" mergeable="true" del="false">
+  <compo A="Good, The Bad And The Queen, The" T="The Good, The Bad And The Queen" type="ALBUM" uuid="2411bcc98a7f4d0aab69a65b163c782d" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="16" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Britney Spears" T="Blackout" type="ALBUM" mergeable="true" del="false">
+  <compo A="Britney Spears" T="Blackout" type="ALBUM" uuid="6415ca32e5824ce3a81ced7facdcd76e" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="17" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Magic" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Magic" type="ALBUM" uuid="0ec596510f8848809e45553bf93566e5" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="18" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="Josh Ritter" T="The Historical Conquests Of Josh Ritter" type="ALBUM" mergeable="true" del="false">
+  <compo A="Josh Ritter" T="The Historical Conquests Of Josh Ritter" type="ALBUM" uuid="f7becc2bb77f4eba8a4feb3493c06bd9" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="19" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
-  <compo A="El-P" T="I'll Sleep When You're Dead" type="ALBUM" mergeable="true" del="false">
+  <compo A="El-P" T="I'll Sleep When You're Dead" type="ALBUM" uuid="bc827188ec494a568ba3e80d5d40a039" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="20" creation="27/08/2018 11:24:16" size="20"/>
   </compo>
 </ListCompositions>
