@@ -670,7 +670,7 @@
   <compo A="THE VELVET UNDERGROUND" T="White Light/White Heat" type="ALBUM" uuid="6d953a37ad8943d5a4b41c2ab0d094fe" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="223" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="2da2a8e7fa4449d08c2f37657a4d0414" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="2da2a8e7fa4449d08c2f37657a4d0414" mergeable="false" del="true">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="224" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
   <compo A="THE VELVET UNDERGROUND" T="Loaded" type="ALBUM" uuid="e210c13d575e4f119c92e551050bf7bf" mergeable="true" del="true">
@@ -745,7 +745,7 @@
   <compo A="ORANGE JUICE" T="You Can't Hide Your Love Forever" type="ALBUM" uuid="633c64586ea74023ae3e9e1be762eaa1" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="248" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
-  <compo A="PRIMAL SCREAM" T="Screamadelica" type="ALBUM" uuid="9e00ea85217842d9819733773c4248d9" mergeable="true" del="false">
+  <compo A="PRIMAL SCREAM" T="Screamadelica" type="ALBUM" uuid="9e00ea85217842d9819733773c4248d9" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="249" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
   <compo A="THE PASTELS" T="Up For A Bit With The Pastels" type="ALBUM" uuid="69fefa7893ff47f489c4f699960f70f6" mergeable="true" del="false">
@@ -1327,7 +1327,7 @@
   <compo A="THE DOORS" T="The Doors" type="ALBUM" uuid="d4270c02b9ba414e89349d203c6a8194" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="442" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
-  <compo A="JIMI HENDRIX" T="Electric Ladyland" type="ALBUM" uuid="eece7599afcc4879afc04297a1d21faf" mergeable="true" del="false">
+  <compo A="JIMI HENDRIX" T="Electric Ladyland" type="ALBUM" uuid="eece7599afcc4879afc04297a1d21faf" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="443" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
   <compo A="BOB DYLAN" T="Blonde On Blonde" type="ALBUM" uuid="ed9c0f2e66ff4e6aa189f55e9a1d2f3d" mergeable="true" del="true">
@@ -1555,7 +1555,7 @@
   <compo A="THE YARDBIRDS" T="Roger The Engineer" type="ALBUM" uuid="9d2f3cf7b5c5437ab3051bdeac851170" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="517" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
-  <compo A="THE ZOMBIES" T="Odessey And Oracle" type="ALBUM" uuid="02fcbf658e514ee8a2d5c4f38e873e99" mergeable="true" del="false">
+  <compo A="THE ZOMBIES" T="Odessey And Oracle" type="ALBUM" uuid="02fcbf658e514ee8a2d5c4f38e873e99" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="518" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
 </ListCompositions>
