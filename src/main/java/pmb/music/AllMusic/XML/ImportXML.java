@@ -135,6 +135,7 @@ public final class ImportXML {
 			} else {
 				compoExist.getFiles().addAll(compo.getFiles());
 				compoExist.setDeleted(compoExist.isDeleted() || compo.isDeleted());
+				compoExist.getUuids().addAll(compo.getUuids());
 			}
 			if (count.incrementAndGet() % modulo == 0) {
 				// Affiche dans l'ihm le pourcentage du calcul de fusion

@@ -11,6 +11,7 @@ import java.nio.file.Files;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Map.Entry;
+import java.util.Optional;
 import java.util.Set;
 
 import org.apache.commons.lang3.StringUtils;
@@ -62,14 +63,16 @@ public final class NgExportXml extends ExportXML {
 		for (int i = 0; i < compList.size(); i++) {
 			// Ajout element <Order/>
 			Element comp = listComp.addElement(CompoHandler.TAG_COMPOSITION);
-			comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(compList.get(i).getArtist()));
-			comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(compList.get(i).getTitre()));
+			Composition composition = compList.get(i);
+			comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(composition.getArtist()));
+			comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(composition.getTitre()));
+			comp.addAttribute(CompoHandler.TAG_UUID, Optional.ofNullable(composition.getUuids()).map(uuids -> StringUtils.join(uuids, ",")).orElse(null));
 
 			// Clean artist and title
 			String stripArtist = StringUtils
 					.substringBefore(
 							SearchUtils.removeParentheses(CleanFile.removeDiactriticals(
-									MiscUtils.cleanLine(compList.get(i).getArtist().toLowerCase(), entrySet))),
+									MiscUtils.cleanLine(composition.getArtist().toLowerCase(), entrySet))),
 							" and ");
 			if (StringUtils.startsWith(stripArtist, "the ")) {
 				stripArtist = StringUtils.substringAfter(stripArtist, "the ");
@@ -77,19 +80,19 @@ public final class NgExportXml extends ExportXML {
 			comp.addAttribute("s" + CompoHandler.TAG_ARTIST, SearchUtils.removePunctuation(stripArtist));
 			comp.addAttribute("s" + CompoHandler.TAG_TITRE,
 					SearchUtils.removePunctuation(SearchUtils.removeParentheses(CleanFile.removeDiactriticals(
-							MiscUtils.cleanLine(compList.get(i).getTitre().toLowerCase(), entrySet)))));
+							MiscUtils.cleanLine(composition.getTitre().toLowerCase(), entrySet)))));
 
-			comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(compList.get(i).getRecordType()));
-			comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(compList.get(i).isDeleted()));
-			comp.addAttribute("size", String.valueOf(compList.get(i).getFiles().size()));
+			comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(composition.getRecordType()));
+			comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(composition.isDeleted()));
+			comp.addAttribute("size", String.valueOf(composition.getFiles().size()));
 			long calculatedScore = CompositionUtils.calculateCompositionScore(
-					OngletPanel.getScore().getLogMax(compList.get(i).getRecordType()),
-					OngletPanel.getScore().getDoubleMedian(compList.get(i).getRecordType()), compList.get(i));
+					OngletPanel.getScore().getLogMax(composition.getRecordType()),
+					OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition);
 			comp.addAttribute("score", String.valueOf(calculatedScore));
 			comp.addAttribute("decile",
-					String.valueOf(CompositionUtils.getDecile(compList.get(i).getRecordType(), calculatedScore)));
+					String.valueOf(CompositionUtils.getDecile(composition.getRecordType(), calculatedScore)));
 
-			exportFichier(compList.get(i), fullDTF, comp);
+			exportFichier(composition, fullDTF, comp);
 		}
 		saveFile(fileName, doc);
 		LOG.debug("End ngExportXml");

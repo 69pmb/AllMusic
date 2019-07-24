@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.Optional;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -58,13 +59,15 @@ public class ExportXML {
 
 		for (int i = 0; i < compList.size(); i++) {
 			// Ajout element <Order/>
+			Composition composition = compList.get(i);
 			Element comp = listComp.addElement(CompoHandler.TAG_COMPOSITION);
-			comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(compList.get(i).getArtist()));
-			comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(compList.get(i).getTitre()));
-			comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(compList.get(i).getRecordType()));
-			comp.addAttribute(CompoHandler.TAG_CAN_BE_MERGED, String.valueOf(compList.get(i).isCanBeMerged()));
-			comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(compList.get(i).isDeleted()));
-			exportFichier(compList.get(i), fullDTF, comp);
+			comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(composition.getArtist()));
+			comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(composition.getTitre()));
+			comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(composition.getRecordType()));
+			comp.addAttribute(CompoHandler.TAG_UUID, Optional.ofNullable(composition.getUuids()).map(uuids -> StringUtils.join(uuids, ",")).orElse(null));
+			comp.addAttribute(CompoHandler.TAG_CAN_BE_MERGED, String.valueOf(composition.isCanBeMerged()));
+			comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(composition.isDeleted()));
+			exportFichier(composition, fullDTF, comp);
 		}
 		saveFile(fileName, doc);
 		LOG.debug("End exportXML");
@@ -81,23 +84,24 @@ public class ExportXML {
 		for (int j = 0; j < composition.getFiles().size(); j++) {
 			Element file = comp.addElement(CompoHandler.TAG_FILE);
 			try {
-				file.addAttribute(CompoHandler.TAG_AUTHOR, String.valueOf(composition.getFiles().get(j).getAuthor()));
+				Fichier fichier = composition.getFiles().get(j);
+				file.addAttribute(CompoHandler.TAG_AUTHOR, String.valueOf(fichier.getAuthor()));
 				file.addAttribute(CompoHandler.TAG_FILENAME,
-						String.valueOf(composition.getFiles().get(j).getFileName()));
+						String.valueOf(fichier.getFileName()));
 				file.addAttribute(CompoHandler.TAG_PUBLISH_YEAR,
-						String.valueOf(composition.getFiles().get(j).getPublishYear()));
+						String.valueOf(fichier.getPublishYear()));
 				file.addAttribute(CompoHandler.TAG_CATEGORIE,
-						String.valueOf(composition.getFiles().get(j).getCategorie()));
+						String.valueOf(fichier.getCategorie()));
 				file.addAttribute(CompoHandler.TAG_RANGE_DATE_BEGIN,
-						String.valueOf(composition.getFiles().get(j).getRangeDateBegin()));
+						String.valueOf(fichier.getRangeDateBegin()));
 				file.addAttribute(CompoHandler.TAG_RANGE_DATE_END,
-						String.valueOf(composition.getFiles().get(j).getRangeDateEnd()));
-				file.addAttribute(CompoHandler.TAG_SORTED, String.valueOf(composition.getFiles().get(j).getSorted()));
+						String.valueOf(fichier.getRangeDateEnd()));
+				file.addAttribute(CompoHandler.TAG_SORTED, String.valueOf(fichier.getSorted()));
 				file.addAttribute(CompoHandler.TAG_CLASSEMENT,
-						String.valueOf(composition.getFiles().get(j).getClassement()));
+						String.valueOf(fichier.getClassement()));
 				file.addAttribute(CompoHandler.TAG_CREATION_DATE,
-						fullDTF.format(composition.getFiles().get(j).getCreationDate()));
-				file.addAttribute(CompoHandler.TAG_SIZE, String.valueOf(composition.getFiles().get(j).getSize()));
+						fullDTF.format(fichier.getCreationDate()));
+				file.addAttribute(CompoHandler.TAG_SIZE, String.valueOf(fichier.getSize()));
 			} catch (NullPointerException e) {
 				LOG.error("comp: " + comp, e);
 				LOG.error("file: " + file);

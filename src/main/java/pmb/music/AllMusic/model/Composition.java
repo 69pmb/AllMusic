@@ -17,30 +17,10 @@ public class Composition implements Serializable {
 	private String artist;
 	private List<Fichier> files;
 	private String titre;
+	private List<String> uuids;
 	private RecordType recordType;
 	private boolean canBeMerged;
 	private boolean deleted;
-
-	/**
-	 * Constructeur.
-	 * 
-	 * @param artist un artiste (ou un groupe de musique)
-	 * @param files les fichier contenant la composition
-	 * @param titre le titre
-	 * @param recordType si chanson ou album
-	 * @param deleted si supprimé
-	 * @param canBeMerged si peut etre mergé pendant le batch duplicate composition
-	 */
-	public Composition(String artist, List<Fichier> files, String titre, RecordType recordType, boolean deleted,
-			boolean canBeMerged) {
-		super();
-		this.artist = artist;
-		this.files = files;
-		this.titre = titre;
-		this.recordType = recordType;
-		this.canBeMerged = canBeMerged;
-		this.deleted = deleted;
-	}
 
 	/**
 	 * Constructor with a given composition.
@@ -55,6 +35,7 @@ public class Composition implements Serializable {
 		this.recordType = compo.getRecordType();
 		this.canBeMerged = compo.isCanBeMerged();
 		this.deleted = compo.isDeleted();
+		this.uuids = compo.getUuids().stream().map(String::new).collect(Collectors.toList());
 	}
 
 	public Composition() {
@@ -137,5 +118,13 @@ public class Composition implements Serializable {
 	public String toString() {
 		return "Composition [artist=" + artist + ", files=" + files + ", titre=" + titre + ", recordType=" + recordType
 				+ ", canBeMerged=" + canBeMerged + ", deleted=" + deleted + "]";
+	}
+
+	public List<String> getUuids() {
+		return uuids;
+	}
+
+	public void setUuids(List<String> uuids) {
+		this.uuids = uuids;
 	}
 }

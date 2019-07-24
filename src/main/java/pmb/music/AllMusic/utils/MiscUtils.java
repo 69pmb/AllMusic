@@ -20,6 +20,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Set;
+import java.util.UUID;
 import java.util.Vector;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -271,5 +272,9 @@ public final class MiscUtils {
 		}
 
 		return Math.sqrt(standardDeviation / count);
+	}
+
+	public static String getUuid() {
+		return UUID.randomUUID().toString().replace("-", "");
 	}
 }
