@@ -66,7 +66,6 @@ public final class NgExportXml extends ExportXML {
 			Composition composition = compList.get(i);
 			comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(composition.getArtist()));
 			comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(composition.getTitre()));
-			comp.addAttribute(CompoHandler.TAG_UUID, Optional.ofNullable(composition.getUuids()).map(uuids -> StringUtils.join(uuids, ",")).orElse(null));
 
 			// Clean artist and title
 			String stripArtist = StringUtils

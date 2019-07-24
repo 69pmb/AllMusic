@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.LinkedList;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.regex.Matcher;
 
@@ -25,6 +26,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 
 /**
@@ -163,7 +165,7 @@ public final class ImportFile {
 		if (StringUtils.isBlank(composition.getTitre())) {
 			result.add("### Error Title empty for: " + line + LOG_NUMBER + (lineNb - 1));
 		}
-
+		composition.setUuids(new LinkedList<>(Arrays.asList(MiscUtils.getUuid())));
 		compoList.add(composition);
 	}
 
@@ -487,8 +489,8 @@ public final class ImportFile {
 				}
 			}
 		} else {
-			for (int i = 0; i < split.length; i++) {
-				String str = split[i].trim();
+			for (String element : split) {
+				String str = element.trim();
 				if (str.matches(regex)) {
 					res.add(str);
 				}
