@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bobby Womack" T="Poet 2" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bobby Womack" T="Poet 2" type="ALBUM" uuid="32fa717df9644d49b3476f7edba51c4a" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="1" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born In The Usa" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bruce Springsteen" T="Born In The Usa" type="ALBUM" uuid="3f18fe6d427d479a9401076a70105efa" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="2" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Special Aka" T="In The Studio" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Special Aka" T="In The Studio" type="ALBUM" uuid="dfdc97c0974d4042813dcf5533b49ed3" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="3" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Womack And Womack" T="Love Wars" type="ALBUM" mergeable="true" del="false">
+  <compo A="Womack And Womack" T="Love Wars" type="ALBUM" uuid="6e96cea133e6445d961972d5562ed86e" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="4" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Scott Walker" T="Climate Of The Hunter" type="ALBUM" mergeable="true" del="false">
+  <compo A="Scott Walker" T="Climate Of The Hunter" type="ALBUM" uuid="7073f2e05bd34d2eb77b480eca8bdf9a" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="5" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Billy Bragg" T="Brewing Up With.." type="ALBUM" mergeable="true" del="false">
+  <compo A="Billy Bragg" T="Brewing Up With.." type="ALBUM" uuid="c6299ff6d7db400b92b05d20441285b1" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="6" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Rem" T="Reckoning" type="ALBUM" mergeable="true" del="true">
+  <compo A="Rem" T="Reckoning" type="ALBUM" uuid="226e527b759b412fa08e43847003e5ca" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="7" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" mergeable="true" del="true">
+  <compo A="Prince" T="Purple Rain" type="ALBUM" uuid="b704b811cb86493c8e14b9d2bb67e2fd" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="8" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Smiths" T="The Smiths" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Smiths" T="The Smiths" type="ALBUM" uuid="2c01136fd1a94f9d8e4965865caf4197" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="9" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Rickie Lee Jones" T="The Magazine" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rickie Lee Jones" T="The Magazine" type="ALBUM" uuid="79cd661d79604b4f85e225cd5f41662c" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="10" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Go Betweens" T="Spring Hill Fair" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Go Betweens" T="Spring Hill Fair" type="ALBUM" uuid="db5f3ae7548c483b9db08308447a3177" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="11" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Elvis Costello" T="Goodbye Cruel World" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elvis Costello" T="Goodbye Cruel World" type="ALBUM" uuid="d666a77caddc416fa28b42fa3053808f" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="12" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Madness" T="Keep Moving" type="ALBUM" mergeable="true" del="false">
+  <compo A="Madness" T="Keep Moving" type="ALBUM" uuid="44455114845c4f7bb85551e88259cf0c" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="13" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Fall" T="The Wonderful And Frightening World Of.." type="ALBUM" mergeable="true" del="false">
+  <compo A="The Fall" T="The Wonderful And Frightening World Of.." type="ALBUM" uuid="f9ef03ea4c974b35a553e826e8f76d85" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="14" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Style Council" T="Cafe Bleu" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Style Council" T="Cafe Bleu" type="ALBUM" uuid="7b75b911376047dcb4112a181b8c0743" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="15" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Linton Kwesi Johnson" T="Making History" type="ALBUM" mergeable="true" del="false">
+  <compo A="Linton Kwesi Johnson" T="Making History" type="ALBUM" uuid="d77aa73cde8e443bb17ab537c345a128" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="16" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Youssou Ndour" T="Immigres" type="ALBUM" mergeable="true" del="false">
+  <compo A="Youssou Ndour" T="Immigres" type="ALBUM" uuid="402208f58dcd4ab5ba0de50cd686372d" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="17" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Tom Verlane" T="Cover" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tom Verlane" T="Cover" type="ALBUM" uuid="2ff0aa308d5c4c649d6763314cad1de1" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="18" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Modern Lovers" T="Jonathan Sings" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Modern Lovers" T="Jonathan Sings" type="ALBUM" uuid="0c63a00668314d379bd75e4f84f9e31a" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="19" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Everything But The Girl" T="Eden" type="ALBUM" mergeable="true" del="false">
+  <compo A="Everything But The Girl" T="Eden" type="ALBUM" uuid="f4dc5f64ffd5418a9b568a4fb829d28a" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="20" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Lloyd Cole And The Commotions" T="Rattlesnakes" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lloyd Cole And The Commotions" T="Rattlesnakes" type="ALBUM" uuid="60981927e79a46249c883b11bd826f87" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="21" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Holger Hiller" T="A Bunch Of Foulness In The Pit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Holger Hiller" T="A Bunch Of Foulness In The Pit" type="ALBUM" uuid="8603e63e0adc48b1af54bf13ce6f1c20" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="22" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Smiths" T="Hatful Of Hollow" type="ALBUM" uuid="c90a96f781f84aa9ba8b391a913954dc" mergeable="true" del="true">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="23" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Orange Juice" T="Texas Fever" type="ALBUM" mergeable="true" del="false">
+  <compo A="Orange Juice" T="Texas Fever" type="ALBUM" uuid="b1795235cbe7434eb74fe123dab1a4b8" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="24" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Prefab Sprout" T="Swoon" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prefab Sprout" T="Swoon" type="ALBUM" uuid="8ae1557a9dc84865b793886010edb2c7" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="25" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Change" T="Change Of Heart" type="ALBUM" mergeable="true" del="false">
+  <compo A="Change" T="Change Of Heart" type="ALBUM" uuid="8b8b3680f8354933b2c38b006677666a" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="26" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Pogues" T="Red Roses For Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pogues" T="Red Roses For Me" type="ALBUM" uuid="01910a456f4142e99cf9d1110a232a36" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="27" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Blue Nile" T="A Walk Across The Rooftops" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Blue Nile" T="A Walk Across The Rooftops" type="ALBUM" uuid="f06141b9337d4e15ac75a1994f902b4e" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="28" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Nick Cave" T="From Her To Eternity" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nick Cave" T="From Her To Eternity" type="ALBUM" uuid="2147cbfade984be9914c82589dd624a4" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="29" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Scraping Foetus Off The Wheel" T="Hole" type="ALBUM" mergeable="true" del="false">
+  <compo A="Scraping Foetus Off The Wheel" T="Hole" type="ALBUM" uuid="eb33da578917444ba734929987356553" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="30" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Neville Brothers" T="Neville-Ization" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neville Brothers" T="Neville-Ization" type="ALBUM" uuid="d556f3d2775140ddb584ca8f546d8555" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="31" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Echo And The Bunnymen" T="Ocean Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Echo And The Bunnymen" T="Ocean Rain" type="ALBUM" uuid="a65f9afedc8b4d4680bf4a43ebf376a0" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="32" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Laurie Anderson" T="Mister Heartbreak" type="ALBUM" mergeable="true" del="false">
+  <compo A="Laurie Anderson" T="Mister Heartbreak" type="ALBUM" uuid="fea43df3763345f6ba60e130dc2c9610" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="33" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Three Johns" T="Atom Drum Bop" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Three Johns" T="Atom Drum Bop" type="ALBUM" uuid="f8fec2fa795f459cb4949601991210b2" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="34" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="U2" T="The Unforgettable Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="U2" T="The Unforgettable Fire" type="ALBUM" uuid="808bcefbf2a044418d59adfea2d51179" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="35" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Holger Czukay" T="Der Orten Is Rot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Holger Czukay" T="Der Orten Is Rot" type="ALBUM" uuid="f7d5ebab559e4df5932e31a497a4ed4a" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="36" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Cocteau Twins" T="Treasure" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cocteau Twins" T="Treasure" type="ALBUM" uuid="e3381b6e06e74125b44f93de2da46eae" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="37" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Bronski Beat" T="Age Of Consent" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bronski Beat" T="Age Of Consent" type="ALBUM" uuid="527abe4eee3a4bbb9c45a76cf9ec821f" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="38" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Aztec Camera" T="Knife" type="ALBUM" mergeable="true" del="false">
+  <compo A="Aztec Camera" T="Knife" type="ALBUM" uuid="866fccf3cd59470fb7a0a3c4789afc4d" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="39" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Sade" T="Diamond Life" type="ALBUM" mergeable="true" del="false">
+  <compo A="Sade" T="Diamond Life" type="ALBUM" uuid="5eb72507651c4348904c1fe42df213f7" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="40" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="David Sylvian" T="Brilliant Trees" type="ALBUM" mergeable="true" del="false">
+  <compo A="David Sylvian" T="Brilliant Trees" type="ALBUM" uuid="59d41c1a642b45cb939044a51b9e8ca7" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="41" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Cyndi Lauper" T="She's So Unusual" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cyndi Lauper" T="She's So Unusual" type="ALBUM" uuid="1b35183325a74a86857b2b40adee6963" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="42" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Waterboys" T="A Pagan Place" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Waterboys" T="A Pagan Place" type="ALBUM" uuid="db29dcc5e2a749a3a229469b7c3e48f0" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="43" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Persuasions" T="No Frills" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Persuasions" T="No Frills" type="ALBUM" uuid="d7440f518bce49008b01f334f9d4b208" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="44" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Smoky Robinson" T="Essar" type="ALBUM" mergeable="true" del="false">
+  <compo A="Smoky Robinson" T="Essar" type="ALBUM" uuid="f6a135bd0c164e8c9f065a7398bcfb40" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="45" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Frankie Paul And Sugar Minot" T="Showdown Vol 2" type="ALBUM" mergeable="true" del="false">
+  <compo A="Frankie Paul And Sugar Minot" T="Showdown Vol 2" type="ALBUM" uuid="297b121cf21a476cad84b6fca3969eb3" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="46" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Cecil Taylor/Max Roach" T="Historic Concerts" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cecil Taylor/Max Roach" T="Historic Concerts" type="ALBUM" uuid="034d18f1acd249f9b1145e5842ef2c6e" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="47" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Shannon" T="Let The Music Play" type="ALBUM" mergeable="true" del="false">
+  <compo A="Shannon" T="Let The Music Play" type="ALBUM" uuid="8af23cb08a5d4e90babc8c2a9e49ab85" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="48" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="Psychedelic Furs" T="Mirror Moves" type="ALBUM" mergeable="true" del="false">
+  <compo A="Psychedelic Furs" T="Mirror Moves" type="ALBUM" uuid="ccd60ec4eff645879dd12192726aa427" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="49" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
-  <compo A="The Bluebells" T="Sisters" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Bluebells" T="Sisters" type="ALBUM" uuid="7d30444a7a4844e79c136fe414badcc9" mergeable="true" del="false">
     <file author="NME" name="NME - Album - 1984" publish="1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="50" creation="04/09/2018 10:50:29" size="50"/>
   </compo>
 </ListCompositions>

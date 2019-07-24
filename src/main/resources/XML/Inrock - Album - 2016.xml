@@ -1,304 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="David Bowie" T="Blackstar" type="ALBUM" mergeable="true" del="true">
+  <compo A="David Bowie" T="Blackstar" type="ALBUM" uuid="fcf07c6f88904c63b5c0ad041ee87dd2" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="1" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="La Femme" T="Mystere" type="ALBUM" mergeable="true" del="false">
+  <compo A="La Femme" T="Mystere" type="ALBUM" uuid="80560edb11854afea37c7ee1d6340bf8" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="2" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Frank Ocean" T="Blonde" type="ALBUM" mergeable="true" del="true">
+  <compo A="Frank Ocean" T="Blonde" type="ALBUM" uuid="e5d8afc4675e438eb9975a8f774c9d7e" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="3" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="The Lemon Twigs" T="Do Hollywood" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Lemon Twigs" T="Do Hollywood" type="ALBUM" uuid="9fa4c67e042945fda85f0e7dfc08c94f" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="4" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="PNL" T="Dans la legende" type="ALBUM" mergeable="true" del="false">
+  <compo A="PNL" T="Dans la legende" type="ALBUM" uuid="e666e657ec634297a2a190995f17b526" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="5" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Kanye West" T="The Life of Pablo" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="The Life of Pablo" type="ALBUM" uuid="d2f3045e61144a2088e42915adca7a6c" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="6" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Leonard Cohen" T="You Want It Darker" type="ALBUM" mergeable="true" del="false">
+  <compo A="Leonard Cohen" T="You Want It Darker" type="ALBUM" uuid="dfd82df8c08c47d590c98fdf96182abf" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="7" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Drake" T="Views" type="ALBUM" mergeable="true" del="false">
+  <compo A="Drake" T="Views" type="ALBUM" uuid="78dd81fbd20448e78e1e7da772ddff92" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="8" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Alex Cameron" T="Jumping the Shark" type="ALBUM" mergeable="true" del="false">
+  <compo A="Alex Cameron" T="Jumping the Shark" type="ALBUM" uuid="8c6050ba555041fc8a509ab236bf27b8" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="9" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Nick Cave And The Bad Seeds" T="Skeleton Tree" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nick Cave And The Bad Seeds" T="Skeleton Tree" type="ALBUM" uuid="1b3b725b675249618bb01ec687efc6ce" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="10" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="PJ Harvey" T="The Hope Six Demolition Project" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="The Hope Six Demolition Project" type="ALBUM" uuid="941a1c56222e4b9aa306c3a57a706870" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="11" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Bon Iver" T="22, a Million" type="ALBUM" mergeable="true" del="true">
+  <compo A="Bon Iver" T="22, a Million" type="ALBUM" uuid="fdeb2d394cad496c988159c51a8fc538" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="12" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Parquet Courts" T="Human Performance" type="ALBUM" mergeable="true" del="false">
+  <compo A="Parquet Courts" T="Human Performance" type="ALBUM" uuid="901119af9a5342b293898bc804afb55d" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="13" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Ala.ni" T="You And I" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ala.ni" T="You And I" type="ALBUM" uuid="54e11e4e086b4921a2c73e00be337e47" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="14" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Angel Olsen" T="My Woman" type="ALBUM" mergeable="true" del="false">
+  <compo A="Angel Olsen" T="My Woman" type="ALBUM" uuid="c950b662d2ba4c37b7ee15ad029343b6" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="15" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Michael Kiwanuka" T="Love And Hate" type="ALBUM" mergeable="true" del="false">
+  <compo A="Michael Kiwanuka" T="Love And Hate" type="ALBUM" uuid="93fff96ed6d748259f6f24206e115e5a" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="16" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="The Weeknd" T="Starboy" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Weeknd" T="Starboy" type="ALBUM" uuid="48df206d237a49b587b224a8b004b061" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="17" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Grand Blanc" T="Memoires vives" type="ALBUM" mergeable="true" del="false">
+  <compo A="Grand Blanc" T="Memoires vives" type="ALBUM" uuid="996ca6b2f25e494daad1e6ff7ac17a6b" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="18" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Weyes Blood" T="Front Row Seat to Earth" type="ALBUM" mergeable="true" del="false">
+  <compo A="Weyes Blood" T="Front Row Seat to Earth" type="ALBUM" uuid="9347eea9d0b94a31ab4a1967ad87bfb8" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="19" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Soft Hair" T="Soft Hair" type="ALBUM" mergeable="true" del="false">
+  <compo A="Soft Hair" T="Soft Hair" type="ALBUM" uuid="34ceac22ae984b179819ec6a1166c0a1" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="20" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Blood Orange" T="Freetown Sound" type="ALBUM" mergeable="true" del="false">
+  <compo A="Blood Orange" T="Freetown Sound" type="ALBUM" uuid="5bb72c3bc43844a7ae046716e7731a8b" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="21" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="James Blake" T="The Colour in Anything" type="ALBUM" mergeable="true" del="false">
+  <compo A="James Blake" T="The Colour in Anything" type="ALBUM" uuid="8ff4d30f04e046a989da1e16843642b8" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="22" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="The Pirouettes" T="Carrement carrement" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pirouettes" T="Carrement carrement" type="ALBUM" uuid="0a7c6dc0b92241d3b4a527de6985da6a" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="23" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Benjamin Biolay" T="Palermo Hollywood" type="ALBUM" mergeable="true" del="false">
+  <compo A="Benjamin Biolay" T="Palermo Hollywood" type="ALBUM" uuid="3b42ed48b5ec4889b02195703509063c" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="24" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Young Thug" T="JEFFERY" type="ALBUM" mergeable="true" del="false">
+  <compo A="Young Thug" T="JEFFERY" type="ALBUM" uuid="0cee2173d9574ed1827b60ca2b7456d0" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="25" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Anohni" T="Hopelessness" type="ALBUM" mergeable="true" del="false">
+  <compo A="Anohni" T="Hopelessness" type="ALBUM" uuid="47a83d2ddc2c4bddb6b2272b9193014d" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="26" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Bayonne" T="Primitives" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bayonne" T="Primitives" type="ALBUM" uuid="c0e5b0f536cd483b902dbd234dc9a505" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="27" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Johan Johansson" T="Orphee" type="ALBUM" mergeable="true" del="false">
+  <compo A="Johan Johansson" T="Orphee" type="ALBUM" uuid="c8be4c06c65c40708b9c02330fe0dce4" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="28" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Justice" T="Woman" type="ALBUM" mergeable="true" del="false">
+  <compo A="Justice" T="Woman" type="ALBUM" uuid="973e68dff1754addb3f903229be24a95" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="29" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Lescop" T="Derange" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lescop" T="Derange" type="ALBUM" uuid="e37598b1dd1a431c9789ae4bb45a774d" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="30" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Radiohead" T="A Moon Shaped Pool" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="A Moon Shaped Pool" type="ALBUM" uuid="90d4b097b52f4a3bad107950620f3990" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="31" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Cullen Omori" T="New Misery" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cullen Omori" T="New Misery" type="ALBUM" uuid="81adb569278c47769e1e2b4a493c5171" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="32" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Noura Mint Seymali" T="Arbina" type="ALBUM" mergeable="true" del="false">
+  <compo A="Noura Mint Seymali" T="Arbina" type="ALBUM" uuid="86aefaf87b2d45b5a1cf37cfe704f811" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="33" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Solange" T="A Seat At The Table" type="ALBUM" mergeable="true" del="true">
+  <compo A="Solange" T="A Seat At The Table" type="ALBUM" uuid="dc2564b3d3c3473a9e414213750ead2b" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="34" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="El'Blaszczyk" T="The Quirky Lost Tapes, 1993-95" type="ALBUM" mergeable="true" del="false">
+  <compo A="El'Blaszczyk" T="The Quirky Lost Tapes, 1993-95" type="ALBUM" uuid="2cbe5292821341e1be4a5730874a4535" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="35" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Field Music" T="Commontime" type="ALBUM" mergeable="true" del="false">
+  <compo A="Field Music" T="Commontime" type="ALBUM" uuid="9b5efa0647c7401ba086502892c8cb97" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="36" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Schoolboy Q" T="Blank Face LP" type="ALBUM" mergeable="true" del="false">
+  <compo A="Schoolboy Q" T="Blank Face LP" type="ALBUM" uuid="0c01e372ab70434cbd4d24f067a02b72" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="37" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Rihanna" T="Anti" type="ALBUM" mergeable="true" del="false">
+  <compo A="Rihanna" T="Anti" type="ALBUM" uuid="cd44eeeb27ee444abfd412176556df55" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="38" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Julien Dore" T="&amp;" type="ALBUM" mergeable="true" del="false">
+  <compo A="Julien Dore" T="&amp;" type="ALBUM" uuid="865f6f452ce045ffbd85655412d1b5f9" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="39" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Fat White Family" T="Songs for Our Mothers" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fat White Family" T="Songs for Our Mothers" type="ALBUM" uuid="c3875b7b66e24b9ca87fdac55c5ef4a2" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="40" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Wati Watia Zorey Band" T="Zanz in Lanfer" type="ALBUM" mergeable="true" del="false">
+  <compo A="Wati Watia Zorey Band" T="Zanz in Lanfer" type="ALBUM" uuid="568f11b511e64f8898bcdcf1db0c4c9f" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="41" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Karl Blau" T="Introducing Karl Blau" type="ALBUM" mergeable="true" del="false">
+  <compo A="Karl Blau" T="Introducing Karl Blau" type="ALBUM" uuid="6284d8604ad54ba1bcb95b86341cb3cf" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="42" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Nicolas Jaar" T="Sirens" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nicolas Jaar" T="Sirens" type="ALBUM" uuid="182d9fc92b4347dc96190cc99a370273" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="43" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="M.I.A." T="AIM" type="ALBUM" mergeable="true" del="false">
+  <compo A="M.I.A." T="AIM" type="ALBUM" uuid="d01cca16c892439e835d5c9f5a9f9416" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="44" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="DIIV" T="Is the Is Are" type="ALBUM" mergeable="true" del="false">
+  <compo A="DIIV" T="Is the Is Are" type="ALBUM" uuid="9f942ec696d34892b41160b5ac191fe3" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="45" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Paradis" T="Recto verso" type="ALBUM" mergeable="true" del="false">
+  <compo A="Paradis" T="Recto verso" type="ALBUM" uuid="0728a5f3bee245babf688e5868374304" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="46" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Ceu" T="Tropix" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ceu" T="Tropix" type="ALBUM" uuid="2dcac18c20a648338cfc965c05088506" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="47" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Fatou Seidi Ghali And Alamnou Akrouni" T="Les Filles de Illighadad" type="ALBUM" mergeable="true" del="false">
+  <compo A="Fatou Seidi Ghali And Alamnou Akrouni" T="Les Filles de Illighadad" type="ALBUM" uuid="309e7d50aa2543b9b560d407717c384d" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="48" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="LUH" T="Spiritual Songs for Lovers to Sing" type="ALBUM" mergeable="true" del="false">
+  <compo A="LUH" T="Spiritual Songs for Lovers to Sing" type="ALBUM" uuid="a02cdf3c358a419689f20ee6c135ed90" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="49" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Pone" T="Radiant" type="ALBUM" mergeable="true" del="false">
+  <compo A="Pone" T="Radiant" type="ALBUM" uuid="fc9fb1f506424a9599c4c09fd3ae6925" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="50" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Batuk" T="Musica da Terra" type="ALBUM" mergeable="true" del="false">
+  <compo A="Batuk" T="Musica da Terra" type="ALBUM" uuid="6fb05e9156fe411f98bbfbf7ea2131dd" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="51" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Mocke" T="St-Homard" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mocke" T="St-Homard" type="ALBUM" uuid="4f858f0778dc4e7daed499c96c9c6e9a" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="52" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Majid Jordan" T="Majid Jordan" type="ALBUM" mergeable="true" del="false">
+  <compo A="Majid Jordan" T="Majid Jordan" type="ALBUM" uuid="a4be062846884a8b801c03e107b8cd22" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="53" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Daniel Romano" T="Mosey" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daniel Romano" T="Mosey" type="ALBUM" uuid="28e964c9fd194d4a9b4927a078974649" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="54" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Vincent Delerm" T="A present" type="ALBUM" mergeable="true" del="false">
+  <compo A="Vincent Delerm" T="A present" type="ALBUM" uuid="8f6de96dabc14df59d4d83fc9d6ffaa4" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="55" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Kate Tempest" T="Let Them Eat Chaos" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kate Tempest" T="Let Them Eat Chaos" type="ALBUM" uuid="83565578a88c4fb392990512bf2273ac" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="56" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Andre Minvielle" T="1 Time" type="ALBUM" mergeable="true" del="false">
+  <compo A="Andre Minvielle" T="1 Time" type="ALBUM" uuid="feb20cb6e4ab488abf028c1a9020a2ac" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="57" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Mathieu Boogaerts" T="Promeneur" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mathieu Boogaerts" T="Promeneur" type="ALBUM" uuid="32a78c9e2ffc4f03a8b120a12ea69e7c" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="58" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Ty Segall" T="Emotional Mugger" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ty Segall" T="Emotional Mugger" type="ALBUM" uuid="c7ae922709de4b5aa84ecdc1c8555ac0" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="59" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Imarhan" T="Imarhan" type="ALBUM" mergeable="true" del="false">
+  <compo A="Imarhan" T="Imarhan" type="ALBUM" uuid="6a7dbf1189fb42f78b7a8d34e08f7a76" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="60" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Beyonce" T="Lemonade" type="ALBUM" mergeable="true" del="true">
+  <compo A="Beyonce" T="Lemonade" type="ALBUM" uuid="996d23fe40f54c06b1582b2b5ded9a8d" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="61" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Cat's Eyes" T="Treasure House" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cat's Eyes" T="Treasure House" type="ALBUM" uuid="fe9efc9d4c1e478e9e7e629f6430e503" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="62" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Kamaiyah" T="A Good Night in the Ghetto" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kamaiyah" T="A Good Night in the Ghetto" type="ALBUM" uuid="f24083aab1e24c86bda07f357da0a07d" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="63" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Chance the Rapper" T="Coloring Book" type="ALBUM" mergeable="true" del="true">
+  <compo A="Chance the Rapper" T="Coloring Book" type="ALBUM" uuid="8f9e14cc239a44fbbd81afa2dcff198c" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="64" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Damso" T="Batterie faible" type="ALBUM" mergeable="true" del="false">
+  <compo A="Damso" T="Batterie faible" type="ALBUM" uuid="f8a85d5010d24a9195cb937ae14a29ae" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="65" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Brian Eno" T="The Ship" type="ALBUM" mergeable="true" del="false">
+  <compo A="Brian Eno" T="The Ship" type="ALBUM" uuid="b9653b7fdd634b3e82308d5c1f0892b9" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="66" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Kaytranada" T="99.9%" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kaytranada" T="99.9%" type="ALBUM" uuid="16b73ccf3aa84435b853c69c66f26d19" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="67" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Metronomy" T="Summer 08" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metronomy" T="Summer 08" type="ALBUM" uuid="ce8c27dc01ea4fbc87e7e7a483d98cfd" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="68" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Use" T="Chien d'la casse" type="ALBUM" mergeable="true" del="false">
+  <compo A="Use" T="Chien d'la casse" type="ALBUM" uuid="a48feae8b1fb4d7aa60704df33923569" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="69" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="case/lang/veirs" T="case/lang/veirs" type="ALBUM" mergeable="true" del="false">
+  <compo A="case/lang/veirs" T="case/lang/veirs" type="ALBUM" uuid="8da1b14c97bf4088a887ced35de9fe1c" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="70" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Money" T="Suicide Songs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Money" T="Suicide Songs" type="ALBUM" uuid="05b2c78b4d99451f9120bd68543b315b" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="71" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Agnes Obel" T="Citizen of Glass" type="ALBUM" mergeable="true" del="false">
+  <compo A="Agnes Obel" T="Citizen of Glass" type="ALBUM" uuid="63f38bf4a5ce406aaf36c9f11055bfbe" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="72" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Oscar" T="Cut and Paste" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oscar" T="Cut and Paste" type="ALBUM" uuid="3fc3135b73d449979d26fb8114d643ec" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="73" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Clea Vincent" T="Retiens mon desir" type="ALBUM" mergeable="true" del="false">
+  <compo A="Clea Vincent" T="Retiens mon desir" type="ALBUM" uuid="0d87f7e535a549fa94c7a6b04353329f" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="74" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Mr. Oizo" T="All Wet" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mr. Oizo" T="All Wet" type="ALBUM" uuid="7584f9ab543548dbb4714f67f157a833" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="75" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Marvin Jouno" T="Interieur nuit" type="ALBUM" mergeable="true" del="false">
+  <compo A="Marvin Jouno" T="Interieur nuit" type="ALBUM" uuid="94b22d326f4244cf9c98fddf04fbc027" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="76" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Weezer" T="The White Album" type="ALBUM" mergeable="true" del="false">
+  <compo A="Weezer" T="The White Album" type="ALBUM" uuid="ae086960a82d41d89b5a06993e7ac424" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="77" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Margaret Glaspy" T="Emotions and Math" type="ALBUM" mergeable="true" del="false">
+  <compo A="Margaret Glaspy" T="Emotions and Math" type="ALBUM" uuid="4a0f9c81cf0a4abbb12c7198412876c5" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="78" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Get Well Soon" T="Love" type="ALBUM" mergeable="true" del="false">
+  <compo A="Get Well Soon" T="Love" type="ALBUM" uuid="b5d70fb140484be5980de943efd59ba6" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="79" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Acid Arab" T="Musique de France" type="ALBUM" mergeable="true" del="false">
+  <compo A="Acid Arab" T="Musique de France" type="ALBUM" uuid="d3a453d81de746568728e9256936bdfe" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="80" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Kristin Kontrol" T="X-Communicate" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kristin Kontrol" T="X-Communicate" type="ALBUM" uuid="cd12a01d12384fce86bc882b160468d2" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="81" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Leyla McCalla" T="A Day for the Hunter, a Day for the Prey" type="ALBUM" mergeable="true" del="false">
+  <compo A="Leyla McCalla" T="A Day for the Hunter, a Day for the Prey" type="ALBUM" uuid="bd26d3f3861947dc8c9858e95f8890fc" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="82" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Bitchin Bajas And Bonnie 'Prince' Billy" T="Epic Jammers and Fortunate Little Ditties" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bitchin Bajas And Bonnie 'Prince' Billy" T="Epic Jammers and Fortunate Little Ditties" type="ALBUM" uuid="8bfcaeade74341ba9e32776a26424ec4" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="83" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Kikagaku Moyo" T="House in the Tall Grass" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kikagaku Moyo" T="House in the Tall Grass" type="ALBUM" uuid="5f03ecab70ed4e15861f5c95f25b3b7e" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="84" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Chris Cohen" T="As If Apart" type="ALBUM" mergeable="true" del="false">
+  <compo A="Chris Cohen" T="As If Apart" type="ALBUM" uuid="992853f54c344e19b1c61406aab8b1d5" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="85" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Bleached" T="Welcome the Worms" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bleached" T="Welcome the Worms" type="ALBUM" uuid="9f115175905345898464a4a389919ab1" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="86" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Jagwar Ma" T="Every Now and Then" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jagwar Ma" T="Every Now and Then" type="ALBUM" uuid="7817489eff164d5ebe6c2c1d5e4caf19" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="87" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="The Liminanas" T="Malamore" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Liminanas" T="Malamore" type="ALBUM" uuid="5160f8953a434699aff69aadd43fa8ee" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="88" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Damien Jurado" T="Visions of Us on the Land" type="ALBUM" mergeable="true" del="false">
+  <compo A="Damien Jurado" T="Visions of Us on the Land" type="ALBUM" uuid="81e5e42b5c3b4910a99f0b4ac01a73a6" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="89" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="O" T="Un torrent, la boue" type="ALBUM" mergeable="true" del="false">
+  <compo A="O" T="Un torrent, la boue" type="ALBUM" uuid="79b8abb0ccbd4f239452b661bd20c493" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="90" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Dave East" T="Kairi Chanel" type="ALBUM" mergeable="true" del="false">
+  <compo A="Dave East" T="Kairi Chanel" type="ALBUM" uuid="ff36d4a025434a4b804c4b29d98a35da" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="91" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Kaviar Special" T="#2" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kaviar Special" T="#2" type="ALBUM" uuid="196776a3ee3348b094130d1e93ef15de" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="92" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Isaiah Rashad" T="The Sun's Tirade" type="ALBUM" mergeable="true" del="false">
+  <compo A="Isaiah Rashad" T="The Sun's Tirade" type="ALBUM" uuid="251e3394bf5947ba81e45bf1faad9366" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="93" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Goat" T="Requiem" type="ALBUM" mergeable="true" del="false">
+  <compo A="Goat" T="Requiem" type="ALBUM" uuid="354f4e629cec468eb0d38b361b44ee6b" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="94" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Yak" T="Alas Salvation" type="ALBUM" mergeable="true" del="false">
+  <compo A="Yak" T="Alas Salvation" type="ALBUM" uuid="f270b144b856489ca3005ca486085f8e" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="95" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Christine Ott" T="Only Silence Remains" type="ALBUM" mergeable="true" del="false">
+  <compo A="Christine Ott" T="Only Silence Remains" type="ALBUM" uuid="d3594b1ea18443369a9bfc305638a236" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="96" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Woods" T="City Sun Eater in the River of Light" type="ALBUM" mergeable="true" del="false">
+  <compo A="Woods" T="City Sun Eater in the River of Light" type="ALBUM" uuid="9df00048ddec49e18306d76a708a16b5" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="97" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Travis Scott" T="Birds in the Trap Sing McKnight" type="ALBUM" mergeable="true" del="false">
+  <compo A="Travis Scott" T="Birds in the Trap Sing McKnight" type="ALBUM" uuid="99b6df2344224d558a94edf405dbe118" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="98" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="The Last Shadow Puppets" T="Everything You've Come to Expect" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Last Shadow Puppets" T="Everything You've Come to Expect" type="ALBUM" uuid="505537e92b854da3849e4777fd1917c4" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="99" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
-  <compo A="Mykki Blanco" T="Mykki" type="ALBUM" mergeable="true" del="false">
+  <compo A="Mykki Blanco" T="Mykki" type="ALBUM" uuid="671f5ebd90894308a3ca7c851793638e" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - Album - 2016" publish="2016" cat="YEAR" rangeB="2016" rangeE="2016" sorted="true" rank="100" creation="02/09/2017 08:04:16" size="100"/>
   </compo>
 </ListCompositions>

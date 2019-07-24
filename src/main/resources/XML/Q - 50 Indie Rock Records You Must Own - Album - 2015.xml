@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" mergeable="true" del="false">
+  <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" uuid="904e161d6d96452bb459a0d809c231eb" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="1" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Stone Roses" T="The Stone Roses" type="ALBUM" uuid="2e4d27ca2a9b45b5a02a82cc75a93e3f" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="2" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" mergeable="true" del="true">
+  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" uuid="6f6fe22e8b75414eb8fea95c7e9d0f6d" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="3" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" mergeable="true" del="true">
+  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" uuid="2accb7c2fd8a4e91ba2393ab2a82e13a" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="4" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" uuid="35f91c2b390244b792732a14583fa296" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="5" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Happy Mondays" T="Bummed" type="ALBUM" mergeable="true" del="false">
+  <compo A="Happy Mondays" T="Bummed" type="ALBUM" uuid="859cf7aba1d3440d965c3f2b2a16799c" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="6" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="The La's" T="The La's" type="ALBUM" mergeable="true" del="false">
+  <compo A="The La's" T="The La's" type="ALBUM" uuid="b9399509a77240839880bb94f2a67699" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="7" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="New Order" T="Power Corruption And Lies" type="ALBUM" mergeable="true" del="false">
+  <compo A="New Order" T="Power Corruption And Lies" type="ALBUM" uuid="aac776784ad24ce1a296e4709a7fa83d" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="8" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" uuid="561dbbfdc3384e40bc218d8c053e0414" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="9" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Spacemen 3" T="Playing With Fire" type="ALBUM" mergeable="true" del="false">
+  <compo A="Spacemen 3" T="Playing With Fire" type="ALBUM" uuid="c01d2e728f754472b61214707244abe1" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="10" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" mergeable="true" del="true">
+  <compo A="My Bloody Valentine" T="Loveless" type="ALBUM" uuid="8eddd1a23e164529863be1e848259793" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="11" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="PJ Harvey" T="Dry" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Dry" type="ALBUM" uuid="c550b0c67f604463856bec9f819ff603" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="12" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Super Furry Animals" T="Radiator" type="ALBUM" mergeable="true" del="false">
+  <compo A="Super Furry Animals" T="Radiator" type="ALBUM" uuid="ee81b0a98a984727b2b023588a15fd80" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="13" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Cocteau Twins" T="Heaven Or Las Vegas" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cocteau Twins" T="Heaven Or Las Vegas" type="ALBUM" uuid="7fd09d4bde8540babf072e77a0994977" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="14" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Shack" T="Waterpistol" type="ALBUM" mergeable="true" del="false">
+  <compo A="Shack" T="Waterpistol" type="ALBUM" uuid="d097986f3dbf40f5b4159ad6fa379a60" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="15" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Doves" T="Lost Souls" type="ALBUM" mergeable="true" del="false">
+  <compo A="Doves" T="Lost Souls" type="ALBUM" uuid="625bd3fbd77042b4b181b10a65c1212b" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="16" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Aztec Camera" T="High Land, Hard Rain" type="ALBUM" mergeable="true" del="false">
+  <compo A="Aztec Camera" T="High Land, Hard Rain" type="ALBUM" uuid="f449131d1db74b7ab150cc620e029c69" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="17" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="The Charlatans" T="Tellin' Stories" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Charlatans" T="Tellin' Stories" type="ALBUM" uuid="807649a3dca14640bc0157be6cb9c02f" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="18" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Felt" T="Forever Breathes The Lonely Word" type="ALBUM" mergeable="true" del="false">
+  <compo A="Felt" T="Forever Breathes The Lonely Word" type="ALBUM" uuid="4a443c2a13b542ad9914ba475123aef4" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="19" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Suede" T="Suede" type="ALBUM" mergeable="true" del="false">
+  <compo A="Suede" T="Suede" type="ALBUM" uuid="974b5b358f2f4793878649026ee0da68" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="20" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="The Fall" T="Grotesque" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Fall" T="Grotesque" type="ALBUM" uuid="49cb59cae8944b0893e59c7db3c0d749" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="21" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Scritti Politti" T="Songs To Remember" type="ALBUM" mergeable="true" del="false">
+  <compo A="Scritti Politti" T="Songs To Remember" type="ALBUM" uuid="25549efc74f34997b6083a4755814ee1" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="22" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" mergeable="true" del="false">
+  <compo A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" uuid="85997f571bf1453080cfbbeb067860a8" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="23" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Elastica" T="Elastica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Elastica" T="Elastica" type="ALBUM" uuid="e8a17b8bbfb6472c8e1322b86321006b" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="24" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" uuid="bf66029ab937431bb16e13559909d75f" mergeable="true" del="true">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="25" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Teenage Fanclub" T="Grand Prix" type="ALBUM" mergeable="true" del="false">
+  <compo A="Teenage Fanclub" T="Grand Prix" type="ALBUM" uuid="239a53b615324330ae314acff7d3480d" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="26" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="The Pop Group" T="For How Much Longer Do We Tolerate Mass Murder?" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Pop Group" T="For How Much Longer Do We Tolerate Mass Murder?" type="ALBUM" uuid="0295dc9e51a1448cb825c28be70bf903" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="27" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="The Horrors" T="Primary Colours" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Horrors" T="Primary Colours" type="ALBUM" uuid="d00e38b0f68e46bcaaadfb9c8cc8df98" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="28" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Ride" T="Nowhere" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ride" T="Nowhere" type="ALBUM" uuid="55a0fc2242d945ad8203586d33b794a5" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="29" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
-  <compo A="Associates" T="Forth Drawer Down" type="ALBUM" mergeable="true" del="false">
+  <compo A="Associates" T="Forth Drawer Down" type="ALBUM" uuid="2a6e07545eda485bad6850b11ac9e4df" mergeable="true" del="false">
     <file author="Q" name="Q - 50 Indie Rock Records You Must Own - Album - 2015" publish="2015" cat="GENRE" rangeB="0" rangeE="2015" sorted="true" rank="30" creation="28/08/2017 14:29:58" size="30"/>
   </compo>
 </ListCompositions>

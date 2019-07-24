@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" mergeable="true" del="true">
+  <compo A="Bob Dylan" T="Blond On Blond" type="ALBUM" uuid="63e69996a21e41709b71957edaf5acde" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="1" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Beatles" T="The Beatles" type="ALBUM" uuid="008fd9f5260a43bea54676211a20fe08" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="2" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" mergeable="true" del="false">
+  <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" uuid="43ac36b0ee6f400c902b587469cb5709" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="3" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="The Clash" T="London Calling" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Clash" T="London Calling" type="ALBUM" uuid="f1492bc6dc794bbfb22be0d197504221" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="4" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Miles Davis" T="Live Evil" type="ALBUM" mergeable="true" del="false">
+  <compo A="Miles Davis" T="Live Evil" type="ALBUM" uuid="01ac6a77d5fd4be198989c1e18fd6ade" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="5" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Electric Light Orchestra" T="Out Of The Blue" type="ALBUM" mergeable="true" del="false">
+  <compo A="Electric Light Orchestra" T="Out Of The Blue" type="ALBUM" uuid="a92422eb8eb5433d870792f68eae3750" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="6" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" mergeable="true" del="true">
+  <compo A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" uuid="59e62e4c09424705ad70f3ad4e39bd01" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="7" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Frankie Goes To Hollywood" T="Welcome To The Pleasuredome" type="ALBUM" mergeable="true" del="false">
+  <compo A="Frankie Goes To Hollywood" T="Welcome To The Pleasuredome" type="ALBUM" uuid="377d2f401f384affa4f044167d8051e9" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="8" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" uuid="482c305bef234c42b6671cb15e50fafc" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="9" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Curtis Mayfield" T="Live" type="ALBUM" mergeable="true" del="false">
+  <compo A="Curtis Mayfield" T="Live" type="ALBUM" uuid="d27f8033a9a1423d8ae57935d35fc8e9" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="10" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Metallica" T="...And Justice For All" type="ALBUM" mergeable="true" del="false">
+  <compo A="Metallica" T="...And Justice For All" type="ALBUM" uuid="5838c8a419b8457d8682b32face55234" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="11" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" mergeable="true" del="true">
+  <compo A="Primal Scream" T="Screamadelica" type="ALBUM" uuid="b70286ce92864d11bc6d6a8558d2dda2" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="12" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Prince" T="Sign 'O' The Times" type="ALBUM" mergeable="true" del="true">
+  <compo A="Prince" T="Sign 'O' The Times" type="ALBUM" uuid="2adc855baaf44cb9b866d97857fc4d91" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="13" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Public Image Limited" T="Second Edition" type="ALBUM" mergeable="true" del="false">
+  <compo A="Public Image Limited" T="Second Edition" type="ALBUM" uuid="c1d7597fe054463fae59b0ba56d73fc8" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="14" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Rolling Stones" T="Exile On Main Street" type="ALBUM" uuid="a12c6bb3dc734455a92ad1ecc6f01c1d" mergeable="true" del="true">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="15" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Various" T="Apocalypse Now Soundtrack" type="ALBUM" mergeable="true" del="false">
+  <compo A="Various" T="Apocalypse Now Soundtrack" type="ALBUM" uuid="ab9221858c42468db7f76c639d3f8427" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="16" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Various Artists" T="Saturday Night Fever" type="ALBUM" mergeable="true" del="false">
+  <compo A="Various Artists" T="Saturday Night Fever" type="ALBUM" uuid="cafcbecf7e4b4bb592ff9e70414f92aa" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="17" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="The Velvet Underground" T="1969" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="1969" type="ALBUM" uuid="d2f27ed751654c71a9af954e8bc21536" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="18" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" mergeable="true" del="false">
+  <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" uuid="49d0692f4f0a4d76b41ae5b097b32dc4" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="19" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
-  <compo A="Neil Young" T="Weld" type="ALBUM" mergeable="true" del="false">
+  <compo A="Neil Young" T="Weld" type="ALBUM" uuid="15a65d80176a42099444c692c685a8b2" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Double Albums - 1991" publish="1991" cat="THEME" rangeB="0" rangeE="1991" sorted="true" rank="20" creation="04/09/2018 14:06:04" size="20"/>
   </compo>
 </ListCompositions>

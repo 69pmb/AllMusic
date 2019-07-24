@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Bob Dylan" T="Time Out Of Mind" type="ALBUM" mergeable="true" del="false">
+  <compo A="Bob Dylan" T="Time Out Of Mind" type="ALBUM" uuid="96ad88695c52408290ab8dc8f5a94182" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="1" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="OK Computer" type="ALBUM" uuid="704dbe3d11c944f2b2b57ae23b5fda4d" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="2" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="The Chemical Brothers" T="Dig Your Own Hole" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Chemical Brothers" T="Dig Your Own Hole" type="ALBUM" uuid="d2cab498b08f4f279a46f3dd642e283b" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="3" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Cornershop" T="When I Was Born For The Seventh Time" type="ALBUM" mergeable="true" del="false">
+  <compo A="Cornershop" T="When I Was Born For The Seventh Time" type="ALBUM" uuid="dd28a7b9abf8494abf9f0772a14faf63" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="4" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Billy Mackenzie" T="Beyond The Sun" type="ALBUM" mergeable="true" del="false">
+  <compo A="Billy Mackenzie" T="Beyond The Sun" type="ALBUM" uuid="d82b8b6b98034fc9969a5f6ca186839b" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="5" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Daft Punk" T="Homework" type="ALBUM" mergeable="true" del="false">
+  <compo A="Daft Punk" T="Homework" type="ALBUM" uuid="8191691c6d7e4d899a8b5dd491b47751" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="6" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="The Jayhawks" T="Sounds Of Lies" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Jayhawks" T="Sounds Of Lies" type="ALBUM" uuid="35471418c88c417c975792ffe14af538" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="7" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Roni Size And Reprazent" T="New Forms" type="ALBUM" mergeable="true" del="false">
+  <compo A="Roni Size And Reprazent" T="New Forms" type="ALBUM" uuid="3144d208bb014c399e2cbb1d52bf574e" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="8" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Lambchop" T="Thriller" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lambchop" T="Thriller" type="ALBUM" uuid="3bde6b64a7344206ac2bd1e70dce016b" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="9" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Robert Wyatt" T="Shleep" type="ALBUM" mergeable="true" del="false">
+  <compo A="Robert Wyatt" T="Shleep" type="ALBUM" uuid="ba2f821dd50a42f6990dab5e40fd33b7" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="10" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="The Verve" T="Urban Hymns" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Verve" T="Urban Hymns" type="ALBUM" uuid="b08435abf92c4b878a04dea1ef1c6f67" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="11" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Jim White" T="Wrong-Eyed Jesus" type="ALBUM" mergeable="true" del="false">
+  <compo A="Jim White" T="Wrong-Eyed Jesus" type="ALBUM" uuid="74c1d2723287447fa9038fd9c87e49bd" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="12" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Spiritualized" T="Ladies And Gentlemen, We Are Floating In Space" type="ALBUM" mergeable="true" del="false">
+  <compo A="Spiritualized" T="Ladies And Gentlemen, We Are Floating In Space" type="ALBUM" uuid="8f56171d76514719b2f0910222812c69" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="13" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="The Prodigy" T="The Fat Of The Land" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Prodigy" T="The Fat Of The Land" type="ALBUM" uuid="952c37d8aeb4482c9270e08d8488c9f8" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="14" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Oasis" T="Be Here Now" type="ALBUM" mergeable="true" del="false">
+  <compo A="Oasis" T="Be Here Now" type="ALBUM" uuid="51bfaf7f90a84cb09a3cfbe75eb37a04" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="15" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Ron Sexsmith" T="Other Songs" type="ALBUM" mergeable="true" del="false">
+  <compo A="Ron Sexsmith" T="Other Songs" type="ALBUM" uuid="d34947bf283f43c9b1a25b98c762ad47" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="16" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Prefab Sprout" T="Andromeda Heights" type="ALBUM" mergeable="true" del="false">
+  <compo A="Prefab Sprout" T="Andromeda Heights" type="ALBUM" uuid="7421d88d7be24341aa2e8fa4101c123b" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="17" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Tindersticks" T="Curtains" type="ALBUM" mergeable="true" del="false">
+  <compo A="Tindersticks" T="Curtains" type="ALBUM" uuid="0ee847c06e8547cb8c03bd3efd2f8eb0" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="18" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Portishead" T="Portishead" type="ALBUM" mergeable="true" del="false">
+  <compo A="Portishead" T="Portishead" type="ALBUM" uuid="558176bc7a174e9784cc195b0bbcd64a" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="19" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="The Charlatans" T="Tellin' Stories" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Charlatans" T="Tellin' Stories" type="ALBUM" uuid="11cd483abef84dd99bf558b160be0cc0" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="20" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Patti Smith" T="Peace And Noise" type="ALBUM" mergeable="true" del="false">
+  <compo A="Patti Smith" T="Peace And Noise" type="ALBUM" uuid="a732ef548f3f49d395c459adf1ba46e1" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="21" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Black Grape" T="Stupid, Stupid, Stupid" type="ALBUM" mergeable="true" del="false">
+  <compo A="Black Grape" T="Stupid, Stupid, Stupid" type="ALBUM" uuid="36aba81d86064b7aba61b2b6ce4855bc" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="22" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Primal Scream" T="Vanishing Point" type="ALBUM" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Vanishing Point" type="ALBUM" uuid="a69140360a5440699b534413b8dbe27f" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="23" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Todd Rundgren" T="With A Twist" type="ALBUM" mergeable="true" del="false">
+  <compo A="Todd Rundgren" T="With A Twist" type="ALBUM" uuid="8bbfcc12fc684d74b62e546cf6fffc83" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="24" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
-  <compo A="Echo And The Bunnymen" T="Evergreen" type="ALBUM" mergeable="true" del="false">
+  <compo A="Echo And The Bunnymen" T="Evergreen" type="ALBUM" uuid="d419a793c2ea4c81b1c5bf54e2f899aa" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="25" creation="03/09/2018 10:34:26" size="25"/>
   </compo>
 </ListCompositions>

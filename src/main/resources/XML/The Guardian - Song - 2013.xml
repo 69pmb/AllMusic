@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Daft Punk" T="Get Lucky" type="SONG" mergeable="true" del="true">
+  <compo A="Daft Punk" T="Get Lucky" type="SONG" uuid="8a20bc59a90c4672913d5d23f74021af" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Lorde" T="Royals" type="SONG" mergeable="true" del="true">
+  <compo A="Lorde" T="Royals" type="SONG" uuid="7f612d25c4074250bd91de8386c1904d" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="2" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Mariah Carey" T="#Beautiful" type="SONG" mergeable="true" del="false">
+  <compo A="Mariah Carey" T="#Beautiful" type="SONG" uuid="9da0daa4c650485fa2ba3f2ed88f1b61" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="3" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Pet Shop Boys" T="Love Is A Bourgeois Construct" type="SONG" mergeable="true" del="false">
+  <compo A="Pet Shop Boys" T="Love Is A Bourgeois Construct" type="SONG" uuid="56c4e20a13a44271b35e68c1708d27c9" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="4" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Vampire Weekend" T="Step" type="SONG" mergeable="true" del="true">
+  <compo A="Vampire Weekend" T="Step" type="SONG" uuid="18d319d1d0e7483792b4749097b63685" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="5" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Disclosure" T="White Noise" type="SONG" mergeable="true" del="true">
+  <compo A="Disclosure" T="White Noise" type="SONG" uuid="c39d9b75234b44808e087f1a22cc5659" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="6" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Janelle Monae" T="Q.U.E.E.N." type="SONG" mergeable="true" del="true">
+  <compo A="Janelle Monae" T="Q.U.E.E.N." type="SONG" uuid="c7ae2888d24e4a399401ffc6b614853b" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="7" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Jon Hopkins" T="Open Eye Signal" type="SONG" mergeable="true" del="false">
+  <compo A="Jon Hopkins" T="Open Eye Signal" type="SONG" uuid="dca8908cec504d28a80e62fb38787b5a" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="8" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Arctic Monkeys" T="Do I Wanna Know?" type="SONG" mergeable="true" del="true">
+  <compo A="Arctic Monkeys" T="Do I Wanna Know?" type="SONG" uuid="d85fd6556cbd47d0bc6a09f470cd00c1" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="9" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Justin Timberlake" T="Mirrors" type="SONG" mergeable="true" del="false">
+  <compo A="Justin Timberlake" T="Mirrors" type="SONG" uuid="2edb745da1d84eedaf8682c5a7423d13" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="10" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Drake" T="Hold On, We're Going Home" type="SONG" mergeable="true" del="true">
+  <compo A="Drake" T="Hold On, We're Going Home" type="SONG" uuid="80675a4be69d4d0c8f593b062f600b17" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="11" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Yeah Yeah Yeahs" T="Sacrilege" type="SONG" mergeable="true" del="true">
+  <compo A="Yeah Yeah Yeahs" T="Sacrilege" type="SONG" uuid="1a9acd829b6e45928fac443b92b154e2" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="12" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Duke Dumont" T="Need U (100%) (And A*M*E)" type="SONG" mergeable="true" del="true">
+  <compo A="Duke Dumont" T="Need U (100%) (And A*M*E)" type="SONG" uuid="a7377856389a47fe84d2217472d70f24" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="13" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Kelela" T="Bank Head" type="SONG" mergeable="true" del="false">
+  <compo A="Kelela" T="Bank Head" type="SONG" uuid="5ccac62ca18c43d187761ce4effdc3e0" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="14" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="James Blake" T="Retrograde" type="SONG" mergeable="true" del="true">
+  <compo A="James Blake" T="Retrograde" type="SONG" uuid="a5544ddfecfe4fbfa06b1bd49cd2eaa6" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="15" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="The 1975" T="Chocolate" type="SONG" mergeable="true" del="false">
+  <compo A="The 1975" T="Chocolate" type="SONG" uuid="0458c4cee3f74d169dce4a77abfd18f4" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="16" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Robin Thicke" T="Blurred Lines" type="SONG" mergeable="true" del="true">
+  <compo A="Robin Thicke" T="Blurred Lines" type="SONG" uuid="4f7dcadd5e4a4eaf934d9e1d6a14ba2b" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="17" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Sky Ferreira" T="You're Not The One" type="SONG" mergeable="true" del="false">
+  <compo A="Sky Ferreira" T="You're Not The One" type="SONG" uuid="f44d1282432047b581596396cd5db5d6" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="18" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Ciara" T="Body Party" type="SONG" mergeable="true" del="false">
+  <compo A="Ciara" T="Body Party" type="SONG" uuid="df0a4c03d0fc4ee9b1bd8336bbc10b73" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="19" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
-  <compo A="Jeffrey Lewis And The Rain" T="WWPRD" type="SONG" mergeable="true" del="false">
+  <compo A="Jeffrey Lewis And The Rain" T="WWPRD" type="SONG" uuid="88fa4768d6e5413697c575a8933bee34" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - Song - 2013" publish="2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="20" creation="25/08/2017 20:30:53" size="20"/>
   </compo>
 </ListCompositions>

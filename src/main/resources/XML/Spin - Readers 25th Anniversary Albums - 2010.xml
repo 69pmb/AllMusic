@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" mergeable="true" del="true">
+  <compo A="Beastie Boys" T="Paul's Boutique" type="ALBUM" uuid="46b04c6380d045e28bd6d5edaabca56f" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="1" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" mergeable="true" del="true">
+  <compo A="Beck" T="Odelay" type="ALBUM" uuid="69b15bb1fceb47a099b9360fd8099e44" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="2" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Bjork" T="Debut" type="ALBUM" mergeable="true" del="true">
+  <compo A="Bjork" T="Debut" type="ALBUM" uuid="f8277938a8dc47a2b4f73d23d9940e9b" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="3" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" mergeable="true" del="false">
+  <compo A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" uuid="66396fb701dd418f9265352a61d49938" mergeable="true" del="false">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="4" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Green Day" T="American Idiot" type="ALBUM" mergeable="true" del="false">
+  <compo A="Green Day" T="American Idiot" type="ALBUM" uuid="703f76d94fe840f8ba013b8f0cff074d" mergeable="true" del="false">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="5" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" mergeable="true" del="true">
+  <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" uuid="c11550bebfc948ad87bb9481cd40ac92" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="6" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="PJ Harvey" T="Rid Of Me" type="ALBUM" mergeable="true" del="false">
+  <compo A="PJ Harvey" T="Rid Of Me" type="ALBUM" uuid="ffc51b5ccc30410c82b9f4de686e066b" mergeable="true" del="false">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="7" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Lauryn Hill" T="The Miseducation Of Lauren Hill" type="ALBUM" mergeable="true" del="false">
+  <compo A="Lauryn Hill" T="The Miseducation Of Lauren Hill" type="ALBUM" uuid="f6b1898d99604a31ac35ae4967ee532d" mergeable="true" del="false">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="8" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Jay Z" T="The Blueprint" type="ALBUM" mergeable="true" del="true">
+  <compo A="Jay Z" T="The Blueprint" type="ALBUM" uuid="9754421bf31c4ad2a683ea80efb41951" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="9" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" mergeable="true" del="true">
+  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" uuid="3757f4b60b414c46a0e946db50c409a9" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="10" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="My Chemical Romance" T="Three Cheers For Sweet Revenge" type="ALBUM" mergeable="true" del="false">
+  <compo A="My Chemical Romance" T="Three Cheers For Sweet Revenge" type="ALBUM" uuid="e6705a87eef849b18a70288187b1141e" mergeable="true" del="false">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="11" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Nine Inch Nails" T="The Downward Spiral" type="ALBUM" mergeable="true" del="false">
+  <compo A="Nine Inch Nails" T="The Downward Spiral" type="ALBUM" uuid="7822b4ac47544910a0bd7dc7d26d853a" mergeable="true" del="false">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="12" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Nirvana" T="Nevermind" type="ALBUM" mergeable="true" del="true">
+  <compo A="Nirvana" T="Nevermind" type="ALBUM" uuid="1bc1e7e1d4154be89a18919dcbb64742" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="13" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pavement" T="Slanted And Enchanted" type="ALBUM" uuid="0d6eb5333948453db2e3f77f07216bdf" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="14" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pearl Jam" T="Ten" type="ALBUM" uuid="ec0f336050414da4a246b699db0eb55c" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="15" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" mergeable="true" del="true">
+  <compo A="Pixies" T="Doolittle" type="ALBUM" uuid="a6eeb388883348ad8a6aca062dfe7c29" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="16" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Prince" T="Sign &quot;O&quot; The Times" type="ALBUM" mergeable="true" del="true">
+  <compo A="Prince" T="Sign &quot;O&quot; The Times" type="ALBUM" uuid="8aa148c4b41d4c9c93330534c098af39" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="17" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" mergeable="true" del="true">
+  <compo A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" uuid="f33304075afc4c0487f3fe49c4fce49b" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="18" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Radiohead" T="OK Computer" type="ALBUM" mergeable="true" del="true">
+  <compo A="Radiohead" T="OK Computer" type="ALBUM" uuid="727c063a3d7a4f2bb30369fb346a6481" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="19" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" mergeable="true" del="true">
+  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" uuid="f427ca6db2184600ac435cc8cde4abd1" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="20" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" mergeable="true" del="true">
+  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" uuid="8f798eba7e784e8cbef8751824aabc07" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="21" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" mergeable="true" del="true">
+  <compo A="Sonic Youth" T="Daydream Nation" type="ALBUM" uuid="151b4811be78424abece3b84ca6ed09f" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="22" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" mergeable="true" del="true">
+  <compo A="U2" T="Achtung Baby" type="ALBUM" uuid="706fe74cbe6545b0a2f37930f1d61f77" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="23" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="Kanye West" T="Late Registration" type="ALBUM" mergeable="true" del="false">
+  <compo A="Kanye West" T="Late Registration" type="ALBUM" uuid="bffbc5ed7b7a466d9d5c74ea0cc21d85" mergeable="true" del="false">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="24" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" mergeable="true" del="true">
+  <compo A="The White Stripes" T="Elephant" type="ALBUM" uuid="94fa9fb688ee4d91aae1dbb0f87bf16a" mergeable="true" del="true">
     <file author="Spin" name="Spin - Readers 25th Anniversary Albums - 2010" publish="2010" cat="LONG_PERIOD" rangeB="1985" rangeE="2010" sorted="false" rank="25" creation="30/08/2018 11:18:41" size="25"/>
   </compo>
 </ListCompositions>

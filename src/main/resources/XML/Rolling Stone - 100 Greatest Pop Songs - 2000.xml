@@ -1,304 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Beatles" T="Yesterday" type="SONG" mergeable="true" del="true">
+  <compo A="The Beatles" T="Yesterday" type="SONG" uuid="963f4412e8c3420485ef913e322fe7f0" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="1" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Satisfaction" type="SONG" mergeable="true" del="true">
+  <compo A="The Rolling Stones" T="Satisfaction" type="SONG" uuid="008655d22c5344fab3feb04011dd9bbd" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="2" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Nirvana" T="Smells Like Teen Spirit" type="SONG" mergeable="true" del="true">
+  <compo A="Nirvana" T="Smells Like Teen Spirit" type="SONG" uuid="8e37ba996e684ee4b2a49c3a80442826" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="3" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Madonna" T="Like A Virgin" type="SONG" mergeable="true" del="false">
+  <compo A="Madonna" T="Like A Virgin" type="SONG" uuid="24f8c026c7c6427998e547ee7d69a778" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="4" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Michael Jackson" T="Billie Jean" type="SONG" mergeable="true" del="true">
+  <compo A="Michael Jackson" T="Billie Jean" type="SONG" uuid="864868d9da3042eea805f930edde22d8" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="5" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Beatles" T="I Want To Hold Your Hand" type="SONG" mergeable="true" del="true">
+  <compo A="The Beatles" T="I Want To Hold Your Hand" type="SONG" uuid="eae54a18389b410cbf7d1b0f6363cb40" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="6" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Aretha Franklin" T="Respect" type="SONG" mergeable="true" del="true">
+  <compo A="Aretha Franklin" T="Respect" type="SONG" uuid="57c5e9da53044c4ea31128d4c52d1cc4" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="7" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="U2" T="With Or Without You" type="SONG" mergeable="true" del="true">
+  <compo A="U2" T="With Or Without You" type="SONG" uuid="ee14a07e9be24184b6e733f5891a5fd8" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="8" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Jackson 5" T="I Want You Back" type="SONG" mergeable="true" del="false">
+  <compo A="The Jackson 5" T="I Want You Back" type="SONG" uuid="1d65f7ab1cd64de2a0800f80f0b0c240" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="9" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Backstreet Boys" T="I Want It That Way" type="SONG" mergeable="true" del="false">
+  <compo A="Backstreet Boys" T="I Want It That Way" type="SONG" uuid="a38e28009f734ce398258beacc6f5d78" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="10" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Eagles" T="Hotel California" type="SONG" mergeable="true" del="true">
+  <compo A="Eagles" T="Hotel California" type="SONG" uuid="a88a6084dfbf43169def0818aded0b8b" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="11" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Supremes" T="Where Did Our Love Go" type="SONG" mergeable="true" del="true">
+  <compo A="The Supremes" T="Where Did Our Love Go" type="SONG" uuid="ad3f1936e54a431cbeed6e530c34cb9a" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="12" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Guns N Roses" T="Sweet Child O Mine" type="SONG" mergeable="true" del="true">
+  <compo A="Guns N Roses" T="Sweet Child O Mine" type="SONG" uuid="7e9ddaba6e7241ff9cea020fb26104f9" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="13" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Brown Sugar" type="SONG" mergeable="true" del="true">
+  <compo A="The Rolling Stones" T="Brown Sugar" type="SONG" uuid="8ccbfe53e1fe43ebbd9742081613949c" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="14" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="John Lennon" T="Imagine" type="SONG" mergeable="true" del="true">
+  <compo A="John Lennon" T="Imagine" type="SONG" uuid="87928cf29cd447c9a7743684d11c5209" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="15" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Siniad O-Connor" T="Nothing Compares 2 U" type="SONG" mergeable="true" del="true">
+  <compo A="Siniad O-Connor" T="Nothing Compares 2 U" type="SONG" uuid="e9e7d383c54a4b868ad6016a9239fc1d" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="16" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Stevie Wonder" T="Superstition" type="SONG" mergeable="true" del="true">
+  <compo A="Stevie Wonder" T="Superstition" type="SONG" uuid="45072516896f4895a488e40bd7a68b08" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="17" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Losing My Religion" type="SONG" mergeable="true" del="true">
+  <compo A="R.E.M." T="Losing My Religion" type="SONG" uuid="df1ba95dd86745629e3bb921b0b3c370" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="18" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Madonna" T="Vogue" type="SONG" mergeable="true" del="false">
+  <compo A="Madonna" T="Vogue" type="SONG" uuid="a2077e622b284a3abd1c4b3098b5c349" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="19" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" mergeable="true" del="true">
+  <compo A="Bob Dylan" T="Like A Rolling Stone" type="SONG" uuid="4309dbfa412d4c8fa35d3c8d99013945" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="20" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Van Morrison" T="Brown Eyed Girl" type="SONG" mergeable="true" del="false">
+  <compo A="Van Morrison" T="Brown Eyed Girl" type="SONG" uuid="377e365129ce4a4aaa5a12028e2d0422" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="21" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Michael Jackson" T="Beat It" type="SONG" mergeable="true" del="true">
+  <compo A="Michael Jackson" T="Beat It" type="SONG" uuid="3bc781712d9846dc971d6717d2f005a5" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="22" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Roy Orbison" T="Oh, Pretty Woman" type="SONG" mergeable="true" del="true">
+  <compo A="Roy Orbison" T="Oh, Pretty Woman" type="SONG" uuid="c076ea1fde864a228627bc06dba3454a" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="23" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Marvin Gaye" T="What's Going On" type="SONG" mergeable="true" del="true">
+  <compo A="Marvin Gaye" T="What's Going On" type="SONG" uuid="8aa4160996d549ffa9fe4f1789faf2b8" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="24" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Britney Spears" T="Baby One More Time" type="SONG" mergeable="true" del="false">
+  <compo A="Britney Spears" T="Baby One More Time" type="SONG" uuid="fad2c7c551554a5b8f8a87edd64ce17f" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="25" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" mergeable="true" del="true">
+  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" uuid="8b543cce6ead40bd934ae5404553fd9f" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="26" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Prince" T="When Doves Cry" type="SONG" mergeable="true" del="true">
+  <compo A="Prince" T="When Doves Cry" type="SONG" uuid="ffe7aa7130fa440897c090ea7260cfdf" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="27" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Hanson" T="MMMBop" type="SONG" mergeable="true" del="false">
+  <compo A="Hanson" T="MMMBop" type="SONG" uuid="0678c67599854e579f571ca628de30a9" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="28" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Queen" T="Bohemian Rhapsody" type="SONG" mergeable="true" del="true">
+  <compo A="Queen" T="Bohemian Rhapsody" type="SONG" uuid="c7f9b4daefe84b72924310c2ef80ca29" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="29" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elton John" T="Your Song" type="SONG" mergeable="true" del="true">
+  <compo A="Elton John" T="Your Song" type="SONG" uuid="626219e8f648485fa21868d4351ae197" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="30" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Santana" T="Smooth" type="SONG" mergeable="true" del="false">
+  <compo A="Santana" T="Smooth" type="SONG" uuid="479c33861c984867935d6076b5a10b2d" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="31" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Otis Redding" T="(Sittin On) The Dock Of The Bay" type="SONG" mergeable="true" del="true">
+  <compo A="Otis Redding" T="(Sittin On) The Dock Of The Bay" type="SONG" uuid="5cc1b4641cd94bb18f2508efcd8d5615" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="32" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Who" T="My Generation" type="SONG" mergeable="true" del="true">
+  <compo A="The Who" T="My Generation" type="SONG" uuid="47bb0576c87447879a48899b8301a85f" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="33" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Alanis Morissette" T="Ironic" type="SONG" mergeable="true" del="false">
+  <compo A="Alanis Morissette" T="Ironic" type="SONG" uuid="8ead97a135aa44e781623c05eb74b177" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="34" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="SONG" mergeable="true" del="true">
+  <compo A="Bruce Springsteen" T="Born To Run" type="SONG" uuid="cd5b9cfa7f5a4a07a0bbb0a3fd8776db" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="35" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="TLC" T="Waterfalls" type="SONG" mergeable="true" del="false">
+  <compo A="TLC" T="Waterfalls" type="SONG" uuid="2a18a17721d44a9eaa9b385c97afc4ce" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="36" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Naughty by Nature" T="O.P.P." type="SONG" mergeable="true" del="false">
+  <compo A="Naughty by Nature" T="O.P.P." type="SONG" uuid="a69a005f722a4574b5e7e0e542e1a412" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="37" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="David Bowie" T="Changes" type="SONG" mergeable="true" del="true">
+  <compo A="David Bowie" T="Changes" type="SONG" uuid="5331d76703e34870bd64868bc5e4a3b6" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="38" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Goo Goo Dolls" T="Iris" type="SONG" mergeable="true" del="false">
+  <compo A="Goo Goo Dolls" T="Iris" type="SONG" uuid="a4aca8c5ccb44e4a9acb92f0d13f4e31" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="39" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Whitney Houston" T="I Will Always Love You" type="SONG" mergeable="true" del="false">
+  <compo A="Whitney Houston" T="I Will Always Love You" type="SONG" uuid="6bdc82fa6fa9467fae1bcdbc03cee711" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="40" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Creedence Clearwater Revival" T="Proud Mary" type="SONG" mergeable="true" del="true">
+  <compo A="Creedence Clearwater Revival" T="Proud Mary" type="SONG" uuid="d95ea59792a04d6b90252f2c442131e8" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="41" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Police" T="Every Breath You Take" type="SONG" mergeable="true" del="true">
+  <compo A="The Police" T="Every Breath You Take" type="SONG" uuid="c2f02235d81c475eb2d6dc1d8c6590cc" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="42" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Rolling Stones" T="Miss You" type="SONG" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Miss You" type="SONG" uuid="5a12f7fdfde04d4281e1f783cd75c7e8" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="43" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Abba" T="Dancing Queen" type="SONG" mergeable="true" del="true">
+  <compo A="Abba" T="Dancing Queen" type="SONG" uuid="893a89b3129b4ff19ffbdede0892e38b" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="44" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Eric Clapton" T="Tears In Heaven" type="SONG" mergeable="true" del="true">
+  <compo A="Eric Clapton" T="Tears In Heaven" type="SONG" uuid="c3b2e7297dd14e4a8597534a7a02edcc" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="45" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Miracles" T="The Tracks Of My Tears" type="SONG" mergeable="true" del="false">
+  <compo A="The Miracles" T="The Tracks Of My Tears" type="SONG" uuid="1c8e06c5196448279b39e43b06b53b5a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="46" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Van Halen" T="Jump" type="SONG" mergeable="true" del="false">
+  <compo A="Van Halen" T="Jump" type="SONG" uuid="08ebe1bc7342423da0834b871c89fc42" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="47" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Pearl Jam" T="Jeremy" type="SONG" mergeable="true" del="true">
+  <compo A="Pearl Jam" T="Jeremy" type="SONG" uuid="da6fd7f0f2fc4ebba1fae1f21a1873ca" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="48" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" mergeable="true" del="true">
+  <compo A="Bob Dylan" T="Tangled Up In Blue" type="SONG" uuid="5e1e24ff7d09462eaa4a1fb6d889985b" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="49" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Prince" T="Little Red Corvette" type="SONG" mergeable="true" del="false">
+  <compo A="Prince" T="Little Red Corvette" type="SONG" uuid="180a9de03e954d7580f82c56af1f4722" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="50" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Temptations" T="Just My Imagination (Running Away With Me)" type="SONG" mergeable="true" del="false">
+  <compo A="The Temptations" T="Just My Imagination (Running Away With Me)" type="SONG" uuid="3b7dc1d132fd49179bfa3eb9a4345632" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="51" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Paul McCartney" T="Maybe I'm Amazed" type="SONG" mergeable="true" del="true">
+  <compo A="Paul McCartney" T="Maybe I'm Amazed" type="SONG" uuid="151d02b8797b42cfb5069c0fb8a6142e" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="52" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="George Michael" T="Faith" type="SONG" mergeable="true" del="true">
+  <compo A="George Michael" T="Faith" type="SONG" uuid="6b5cc17d75254d11b9e88e6ae3c91d66" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="53" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Red Hot Chili Peppers" T="Under The Bridge" type="SONG" mergeable="true" del="true">
+  <compo A="Red Hot Chili Peppers" T="Under The Bridge" type="SONG" uuid="b63ca4ef4f1446289eef7d78de132ad5" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="54" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="-N Sync" T="Bye Bye Bye" type="SONG" mergeable="true" del="false">
+  <compo A="-N Sync" T="Bye Bye Bye" type="SONG" uuid="afd4c488bf07474f88e864da78493c7a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="55" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Gloria Gaynor" T="I Will Survive" type="SONG" mergeable="true" del="false">
+  <compo A="Gloria Gaynor" T="I Will Survive" type="SONG" uuid="b7943316942a4882a5db8503f5556784" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="56" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Go-Go-s" T="Our Lips Are Sealed" type="SONG" mergeable="true" del="false">
+  <compo A="The Go-Go-s" T="Our Lips Are Sealed" type="SONG" uuid="9e160e1c8a9a414f829659a1ed99a8b7" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="57" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Wallflowers" T="One Headlight" type="SONG" mergeable="true" del="false">
+  <compo A="The Wallflowers" T="One Headlight" type="SONG" uuid="3023850c45e34e68acdcba9870b974ad" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="58" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Stevie Wonder" T="You Are The Sunshine Of My Life" type="SONG" mergeable="true" del="true">
+  <compo A="Stevie Wonder" T="You Are The Sunshine Of My Life" type="SONG" uuid="b45905663da74168baef2d1e14941573" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="59" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Billy Joel" T="Just The Way You Are" type="SONG" mergeable="true" del="false">
+  <compo A="Billy Joel" T="Just The Way You Are" type="SONG" uuid="9c5ebab431ea4447bc04dfe285cd37f6" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="60" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="R.E.M." T="The One I Love" type="SONG" mergeable="true" del="true">
+  <compo A="R.E.M." T="The One I Love" type="SONG" uuid="c81ccedcae2e403bb50ad07a5a52460b" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="61" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Madonna" T="Papa Don-t Preach" type="SONG" mergeable="true" del="false">
+  <compo A="Madonna" T="Papa Don-t Preach" type="SONG" uuid="86cc4e38a9624fd4a05ab4bda88cb439" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="62" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Beatles" T="In My Life" type="SONG" mergeable="true" del="true">
+  <compo A="The Beatles" T="In My Life" type="SONG" uuid="daf00fba9e4046d3a72961d363c51ddf" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="63" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elton John" T="Bennie And The Jets" type="SONG" mergeable="true" del="true">
+  <compo A="Elton John" T="Bennie And The Jets" type="SONG" uuid="de577a04a42f4036b0110f360ddcc872" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="64" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Cars" T="Just What I Needed" type="SONG" mergeable="true" del="false">
+  <compo A="The Cars" T="Just What I Needed" type="SONG" uuid="99ee362341cf4a35835397141057e632" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="65" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Cyndi Lauper" T="Time After Time" type="SONG" mergeable="true" del="false">
+  <compo A="Cyndi Lauper" T="Time After Time" type="SONG" uuid="4f994ea1c47f4b3896b47bd318747472" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="66" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Eminem" T="My Name Is" type="SONG" mergeable="true" del="false">
+  <compo A="Eminem" T="My Name Is" type="SONG" uuid="5eee1221dcfb41dda4eb0de9a7c2e2e1" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="67" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Garbage" T="Only Happy When It Rains" type="SONG" mergeable="true" del="false">
+  <compo A="Garbage" T="Only Happy When It Rains" type="SONG" uuid="566b052a9738418d8804d516d56a4aea" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="68" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Depeche Mode" T="Just Can't Get Enough" type="SONG" mergeable="true" del="false">
+  <compo A="Depeche Mode" T="Just Can't Get Enough" type="SONG" uuid="6dec91e88c10464f8bfdecdec6c4c80a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="69" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Beach Boys" T="Good Vibrations" type="SONG" mergeable="true" del="true">
+  <compo A="Beach Boys" T="Good Vibrations" type="SONG" uuid="f41ef0be93a04b6c8fd0a18832961de0" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="70" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Ramones" T="I Wanna Be Sedated" type="SONG" mergeable="true" del="true">
+  <compo A="The Ramones" T="I Wanna Be Sedated" type="SONG" uuid="53ccedad9d134d70b62dff52d9d301ac" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="71" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Tom Petty" T="Free Fallin'" type="SONG" mergeable="true" del="true">
+  <compo A="Tom Petty" T="Free Fallin'" type="SONG" uuid="15f519e680f747e09770da9c3c5f155f" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="72" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Culture Club" T="Do You Really Want To Hurt Me?" type="SONG" mergeable="true" del="true">
+  <compo A="Culture Club" T="Do You Really Want To Hurt Me?" type="SONG" uuid="f6cee1de1e9b45f28a4964a242df0510" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="73" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Elton John" T="Tiny Dancer" type="SONG" mergeable="true" del="false">
+  <compo A="Elton John" T="Tiny Dancer" type="SONG" uuid="52d7f1bcd5bd4b7481d485df2bea2750" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="74" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Sly and the Family Stone" T="Hot Fun In The Summertime" type="SONG" mergeable="true" del="true">
+  <compo A="Sly and the Family Stone" T="Hot Fun In The Summertime" type="SONG" uuid="d417ef425615429caede9ae78dcb1f23" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="75" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Radiohead" T="Creep" type="SONG" mergeable="true" del="true">
+  <compo A="Radiohead" T="Creep" type="SONG" uuid="0aeb6ccd39314e7a9c97eb203a3f7068" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="76" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Al Green" T="Let's Stay Together" type="SONG" mergeable="true" del="true">
+  <compo A="Al Green" T="Let's Stay Together" type="SONG" uuid="1d4d177154814b0ebb0676f326a208ab" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="77" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Green Day" T="Longview" type="SONG" mergeable="true" del="true">
+  <compo A="Green Day" T="Longview" type="SONG" uuid="515d88d043af4ada97dc97ecab19a36a" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="78" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Janet Jackson" T="Nasty" type="SONG" mergeable="true" del="false">
+  <compo A="Janet Jackson" T="Nasty" type="SONG" uuid="2d82c3b1cb554f25aa29be9bb3ff6600" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="79" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="LL Cool J" T="I Need Love" type="SONG" mergeable="true" del="false">
+  <compo A="LL Cool J" T="I Need Love" type="SONG" uuid="c9b014f8081146c1807e3eef6cf8d06c" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="80" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="No Doubt" T="Don-t Speak" type="SONG" mergeable="true" del="false">
+  <compo A="No Doubt" T="Don-t Speak" type="SONG" uuid="627ddec1d7f141be9288e0a9fbbe3ed4" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="81" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Michael Jackson" T="Rock With You" type="SONG" mergeable="true" del="false">
+  <compo A="Michael Jackson" T="Rock With You" type="SONG" uuid="679222f0cc49477cb0c9d903fb5bfd39" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="82" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Foreigner" T="I Want To Know What Love Is" type="SONG" mergeable="true" del="false">
+  <compo A="Foreigner" T="I Want To Know What Love Is" type="SONG" uuid="1713a299d43a4e2f948e7b612d536701" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="83" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Oasis" T="Wonderwall" type="SONG" mergeable="true" del="true">
+  <compo A="Oasis" T="Wonderwall" type="SONG" uuid="c34746269f0e44de85ad6ba5e072e29d" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="84" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Cheap Trick" T="Surrender" type="SONG" mergeable="true" del="false">
+  <compo A="Cheap Trick" T="Surrender" type="SONG" uuid="0792bea3174e41ceb603b9eb827909cb" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="85" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Human League" T="Don-t You Want Me" type="SONG" mergeable="true" del="true">
+  <compo A="The Human League" T="Don-t You Want Me" type="SONG" uuid="f143d6b237fe48c0851746c61e50fa86" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="86" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Pretenders" T="Brass In Pocket (I-m Special)" type="SONG" mergeable="true" del="false">
+  <compo A="The Pretenders" T="Brass In Pocket (I-m Special)" type="SONG" uuid="41577e99cae642b58c4f69934bde538b" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="87" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Wyclef Jean" T="Gone Till November" type="SONG" mergeable="true" del="false">
+  <compo A="Wyclef Jean" T="Gone Till November" type="SONG" uuid="747d9f0097f74d4da5b1cb29d00a17b6" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="88" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Wham!" T="Careless Whisper" type="SONG" mergeable="true" del="false">
+  <compo A="Wham!" T="Careless Whisper" type="SONG" uuid="4a8fb32155f24a09ba9ca46bc41eee80" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="89" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Brandy" T="The Boy Is Mine" type="SONG" mergeable="true" del="false">
+  <compo A="Brandy" T="The Boy Is Mine" type="SONG" uuid="2d4f8c02943e4f9db757ea38c4d9c01d" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="90" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Blackstreet" T="No Diggity" type="SONG" mergeable="true" del="false">
+  <compo A="Blackstreet" T="No Diggity" type="SONG" uuid="4a7e982db38d4f4d82662564d6f486a7" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="91" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="AC/DC" T="You Shook Me All Night Long" type="SONG" mergeable="true" del="false">
+  <compo A="AC/DC" T="You Shook Me All Night Long" type="SONG" uuid="ab7a7188a2d84fd2a4f7107bddd50c3a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="92" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The Bee Gees" T="Stayin- Alive" type="SONG" mergeable="true" del="false">
+  <compo A="The Bee Gees" T="Stayin- Alive" type="SONG" uuid="919dee6c23ce482085591c76610f7dec" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="93" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Blink-182" T="All The Small Things" type="SONG" mergeable="true" del="false">
+  <compo A="Blink-182" T="All The Small Things" type="SONG" uuid="e0c9e13e3de34d9dad9a89f894a5aae6" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="94" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Chic" T="Good Times" type="SONG" mergeable="true" del="true">
+  <compo A="Chic" T="Good Times" type="SONG" uuid="d8869d34df174601b87ff4bbcb6d2f0a" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="95" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Def Leppard" T="Photograph" type="SONG" mergeable="true" del="false">
+  <compo A="Def Leppard" T="Photograph" type="SONG" uuid="854d365870c6404dbf7ebc17def44fbb" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="96" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="The B-52-s" T="Love Shack" type="SONG" mergeable="true" del="false">
+  <compo A="The B-52-s" T="Love Shack" type="SONG" uuid="0f607d762a10429cbc1ad2525d6b7576" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="97" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Fine Young Cannibals" T="She Drives Me Crazy" type="SONG" mergeable="true" del="false">
+  <compo A="Fine Young Cannibals" T="She Drives Me Crazy" type="SONG" uuid="86afad25aeca47f2a600cc0491ff1a29" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="98" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Biz Markie" T="Just A Friend" type="SONG" mergeable="true" del="false">
+  <compo A="Biz Markie" T="Just A Friend" type="SONG" uuid="265e54ec0bac4263b200d07dd7be67f1" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="99" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="Soft Cell" T="Tainted Love" type="SONG" mergeable="true" del="false">
+  <compo A="Soft Cell" T="Tainted Love" type="SONG" uuid="35edac790eb64ef28f3f1db9fe4f2a3a" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 100 Greatest Pop Songs - 2000" publish="2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="100" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
 </ListCompositions>

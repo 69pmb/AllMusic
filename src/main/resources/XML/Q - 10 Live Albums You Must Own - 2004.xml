@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Who" T="Live At Leeds" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Who" T="Live At Leeds" type="ALBUM" uuid="2767f893c69347e396e57f79dd9b7a02" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="1" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
-  <compo A="Radiohead" T="I Might Be Wrong: Live Recordings" type="ALBUM" mergeable="true" del="false">
+  <compo A="Radiohead" T="I Might Be Wrong: Live Recordings" type="ALBUM" uuid="347d4462ece941eda08b15aa3ba320db" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="2" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
-  <compo A="The Band" T="The Last Waltz" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Band" T="The Last Waltz" type="ALBUM" uuid="c990447ba6494c67bf774a95a65d27d7" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="3" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
-  <compo A="The Rolling Stones" T="Get Your Ya-Yas Out" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Rolling Stones" T="Get Your Ya-Yas Out" type="ALBUM" uuid="b5e419a1420b44d3a916bc3d598449fb" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="4" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
-  <compo A="The Roots" T="The Roots Come Alive" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Roots" T="The Roots Come Alive" type="ALBUM" uuid="3c3fc58e4d0e45049a11049c6f61821b" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="5" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
-  <compo A="Talking Heads" T="Stop Making Sense" type="ALBUM" mergeable="true" del="false">
+  <compo A="Talking Heads" T="Stop Making Sense" type="ALBUM" uuid="1d9df33b1afc44fe98cd99582a1e71b1" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="6" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
-  <compo A="Led Zeppelin" T="How The West Was Won" type="ALBUM" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="How The West Was Won" type="ALBUM" uuid="84c7d6bdf6f641ef810fe73c02faa463" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="7" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
-  <compo A="NEIL YOUNG" T="Live Rust" type="ALBUM" mergeable="true" del="false">
+  <compo A="NEIL YOUNG" T="Live Rust" type="ALBUM" uuid="075d4f3937f54861a986afa9cb41e756" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="8" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
-  <compo A="James Brown" T="Live at the Apollo" type="ALBUM" mergeable="true" del="false">
+  <compo A="James Brown" T="Live at the Apollo" type="ALBUM" uuid="8e38c70ccfff4803a73ab892dfebc25b" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="9" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
-  <compo A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" mergeable="true" del="false">
+  <compo A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" uuid="ffbd3e257c7c4a0c89e1060d702a8c51" mergeable="true" del="false">
     <file author="Q" name="Q - 10 Live Albums You Must Own - 2004" publish="2004" cat="THEME" rangeB="0" rangeE="2004" sorted="false" rank="10" creation="29/08/2017 09:37:43" size="10"/>
   </compo>
 </ListCompositions>

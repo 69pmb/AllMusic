@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Prince" T="Kiss" type="SONG" mergeable="true" del="false">
+  <compo A="Prince" T="Kiss" type="SONG" uuid="d821d364f1404163ad482b3bba9d7531" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Run-DMC And Aerosmith" T="Walk This Way" type="SONG" mergeable="true" del="false">
+  <compo A="Run-DMC And Aerosmith" T="Walk This Way" type="SONG" uuid="cd6c30d393d54992bc0b690d092fa5a8" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Madonna" T="Papa Don't Preach" type="SONG" mergeable="true" del="false">
+  <compo A="Madonna" T="Papa Don't Preach" type="SONG" uuid="d05624c9394948af85041f72704f1930" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" mergeable="true" del="true">
+  <compo A="Peter Gabriel" T="Sledgehammer" type="SONG" uuid="429f12bb79a94155af8eb22ade73b524" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
-  <compo A="Steve Winwood" T="Higher Love" type="SONG" mergeable="true" del="false">
+  <compo A="Steve Winwood" T="Higher Love" type="SONG" uuid="ef8e3c8483e943bfa18e289edd9e3e82" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Song - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
 </ListCompositions>

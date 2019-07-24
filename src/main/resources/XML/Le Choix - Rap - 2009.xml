@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="The Sugarhill Gang" T="Rapper's Delight" type="SONG" mergeable="true" del="true">
+  <compo A="The Sugarhill Gang" T="Rapper's Delight" type="SONG" uuid="25461ea77ff046808d2e60e96bf90446" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="1" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Afrika Bambaataa" T="Unity" type="SONG" mergeable="true" del="false">
+  <compo A="Afrika Bambaataa" T="Unity" type="SONG" uuid="11793a9b8c314278b2c16d56c324fc00" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="2" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Eric B. And Rakim" T="I Ain't No Joke" type="SONG" mergeable="true" del="false">
+  <compo A="Eric B. And Rakim" T="I Ain't No Joke" type="SONG" uuid="c78052f42e8a4679ae25ba3649434f49" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="3" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="The Notorious B.I.G." T="Juicy" type="SONG" mergeable="true" del="false">
+  <compo A="The Notorious B.I.G." T="Juicy" type="SONG" uuid="68b796d2d57e45f49e35e0aeadfb37de" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="4" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" mergeable="true" del="true">
+  <compo A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" uuid="a89a7e78eda14d8cb68de495f9f7e76a" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="5" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Grandmaster Flash" T="The Message" type="SONG" mergeable="true" del="true">
+  <compo A="Grandmaster Flash" T="The Message" type="SONG" uuid="923e836c83aa47cba085f9a83e31641d" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="6" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Public Enemy" T="Bring The Noise" type="SONG" mergeable="true" del="true">
+  <compo A="Public Enemy" T="Bring The Noise" type="SONG" uuid="17e4a9929f604d4e9ab0778a93fc4838" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="7" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Beastie Boys" T="No Sleep Till Brooklyn" type="SONG" mergeable="true" del="true">
+  <compo A="Beastie Boys" T="No Sleep Till Brooklyn" type="SONG" uuid="61cf8282d2834451b99a0793434eb780" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="8" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Run-DMC And Aerosmith" T="Walk This Way" type="SONG" mergeable="true" del="false">
+  <compo A="Run-DMC And Aerosmith" T="Walk This Way" type="SONG" uuid="748e2e8461d94c75b35e284dfbd90001" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="9" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Wu-Tang Clan" T="C.R.E.A.M. (Cash Rules Everything Around Me)" type="SONG" mergeable="true" del="false">
+  <compo A="Wu-Tang Clan" T="C.R.E.A.M. (Cash Rules Everything Around Me)" type="SONG" uuid="31b149202e63428dbb4f4aff41b1424b" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="10" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="N.W.A." T="Express Yourself" type="SONG" mergeable="true" del="false">
+  <compo A="N.W.A." T="Express Yourself" type="SONG" uuid="e6844152e2474cab805a32ff66eec613" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="11" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="2Pac" T="Dear Mama" type="SONG" mergeable="true" del="false">
+  <compo A="2Pac" T="Dear Mama" type="SONG" uuid="f8a50c1feb574b0c8d8813bab1843c47" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="12" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Nas" T="The World Is Yours" type="SONG" mergeable="true" del="false">
+  <compo A="Nas" T="The World Is Yours" type="SONG" uuid="9547ae905afe4e099fe87b6c03f30c9f" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="13" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Coolio" T="Gangsta's Paradise" type="SONG" mergeable="true" del="false">
+  <compo A="Coolio" T="Gangsta's Paradise" type="SONG" uuid="6e7ffec7f41348f48627f3990b153c8a" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="14" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Supreme NTM" T="Pose ton Gun" type="SONG" mergeable="true" del="false">
+  <compo A="Supreme NTM" T="Pose ton Gun" type="SONG" uuid="de5532e8f6a64f57bb3eba2b5c34694f" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="15" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Iam" T="Nes sous la meme etoile" type="SONG" mergeable="true" del="false">
+  <compo A="Iam" T="Nes sous la meme etoile" type="SONG" uuid="6ddc2508d1b04a4daadcccd4a307a367" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="16" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Fugees" T="Ready or Not" type="SONG" mergeable="true" del="false">
+  <compo A="Fugees" T="Ready or Not" type="SONG" uuid="05d844c297444319ae4a7e53592cabea" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="17" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Eminem" T="Lose Yourself" type="SONG" mergeable="true" del="true">
+  <compo A="Eminem" T="Lose Yourself" type="SONG" uuid="5c9b263abeb64f33850956fa94560210" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="18" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Cypress Hill" T="Hits from the Bong" type="SONG" mergeable="true" del="false">
+  <compo A="Cypress Hill" T="Hits from the Bong" type="SONG" uuid="4e9b1db109b04f51b48e0e5ca45c0e69" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="19" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Lil Wayne" T="Mr. Carter" type="SONG" mergeable="true" del="false">
+  <compo A="Lil Wayne" T="Mr. Carter" type="SONG" uuid="2f36055a1adb46ee8f353c7694781134" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="20" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Kanye West" T="Jesus Walks" type="SONG" mergeable="true" del="true">
+  <compo A="Kanye West" T="Jesus Walks" type="SONG" uuid="e24fc9553db543268ded803e3df336f3" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="21" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Jay-Z" T="99 Problems" type="SONG" mergeable="true" del="true">
+  <compo A="Jay-Z" T="99 Problems" type="SONG" uuid="46007a0f90864e3aa0e356d480b61425" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="22" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Talib Kweli" T="Get By" type="SONG" mergeable="true" del="false">
+  <compo A="Talib Kweli" T="Get By" type="SONG" uuid="d1e1045f360d4244b18bb2e1bf51ac2f" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="23" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Missy Elliott" T="Get Ur Freak On" type="SONG" mergeable="true" del="true">
+  <compo A="Missy Elliott" T="Get Ur Freak On" type="SONG" uuid="c5c01835eb4b4becb611096db0e59bf9" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="24" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="The Roots" T="The Seed (2.0)" type="SONG" mergeable="true" del="true">
+  <compo A="The Roots" T="The Seed (2.0)" type="SONG" uuid="c766ec10c77b4ae1a6c323b7583cf6cf" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="25" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Slum Village" T="Reunion" type="SONG" mergeable="true" del="false">
+  <compo A="Slum Village" T="Reunion" type="SONG" uuid="cc396ce086af4842b45a71f369790d3c" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="26" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="A Tribe Called Quest" T="Can I Kick It?" type="SONG" mergeable="true" del="true">
+  <compo A="A Tribe Called Quest" T="Can I Kick It?" type="SONG" uuid="ee49ab926f88403db411b01e54272749" mergeable="true" del="true">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="27" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Mobb Deep" T="Shook Ones (Part II)" type="SONG" mergeable="true" del="false">
+  <compo A="Mobb Deep" T="Shook Ones (Part II)" type="SONG" uuid="74d3410cbb3048919e7e991b8743266c" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="28" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Mos Def" T="Oh No" type="SONG" mergeable="true" del="false">
+  <compo A="Mos Def" T="Oh No" type="SONG" uuid="3024179d9cd841bbaa13ec90497e3c95" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="29" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
-  <compo A="Gang Starr" T="Full Clip" type="SONG" mergeable="true" del="false">
+  <compo A="Gang Starr" T="Full Clip" type="SONG" uuid="108e78bb37914daa980d3c27c1fb3688" mergeable="true" del="false">
     <file author="Le Choix" name="Le Choix - Rap - 2009" publish="2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="false" rank="30" creation="30/07/2018 18:33:46" size="30"/>
   </compo>
 </ListCompositions>
