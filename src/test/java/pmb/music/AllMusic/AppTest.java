@@ -70,7 +70,27 @@ public class AppTest {
 		// findImportParamsForAllFiles();
 		// duplicateRankInFiles(importXML);
 		// setDeleted();
-		testString("Van Halen First", "Van Halen Second");
+		// testString("Van Halen First", "Van Halen Second");
+	}
+
+	private static void setUuidForAllFiles() {
+		List<File> files = new ArrayList<>();
+		FichierUtils.listFilesForFolder(new File(Constant.getXmlPath()), files,
+				Constant.XML_EXTENSION, true);
+		files.stream().forEach(file -> {
+			try {
+				setUuid(file);
+			} catch (IOException e) {
+				LOG.error("Error for: " + file.getName(), e);
+			}
+		});
+	}
+
+	private static void setUuid(File file) throws IOException {
+		String absolutePath = file.getAbsolutePath();
+		List<Composition> importXML = ImportXML.importXML(absolutePath);
+		importXML.forEach(c -> c.setUuids(Arrays.asList(MiscUtils.getUuid())));
+		ExportXML.exportXML(importXML, file.getName());
 	}
 
 	// Suppression de la ponctuation
