@@ -1540,7 +1540,7 @@
   <compo A="Jeff Beck" T="Truth" type="ALBUM" uuid="3cef21c9980d495e8a186c8aecda5ca7" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="511" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
-  <compo A="Chuck Berry" T="Chuck Berry" type="ALBUM" uuid="3ed21b63c0e94fb0939b4ceaeb12fb52" mergeable="true" del="false">
+  <compo A="Chuck Berry" T="Chuck Berry" type="ALBUM" uuid="3ed21b63c0e94fb0939b4ceaeb12fb52" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - The Ultimate CD Buyers Guide - 2001" publish="2001" cat="ALL_TIME" rangeB="0" rangeE="2001" sorted="false" rank="512" creation="23/08/2018 17:42:46" size="999"/>
   </compo>
   <compo A="Chuck Berry" T="More Chuck Berry" type="ALBUM" uuid="c84d31f358ad4e10857e8afa449e5d9b" mergeable="true" del="false">

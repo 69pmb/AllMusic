@@ -244,7 +244,7 @@
   <compo A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" uuid="df1a704c88404c7f9910ca4288187542" mergeable="true" del="false">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="81" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
-  <compo A="Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="5a7106d4c1b74e84b6c8496e0ba60f35" mergeable="false" del="false">
+  <compo A="Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="5a7106d4c1b74e84b6c8496e0ba60f35" mergeable="false" del="true">
     <file author="Divers" name="The World Critic Lists Greatest Rock Albums - 1987" publish="1987" cat="ALL_TIME" rangeB="0" rangeE="1987" sorted="true" rank="81" creation="25/06/2018 16:54:08" size="100"/>
   </compo>
   <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" uuid="e8011290b09d4c918dfd85bf9084aae0" mergeable="true" del="false">

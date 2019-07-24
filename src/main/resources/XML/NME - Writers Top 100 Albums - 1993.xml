@@ -172,7 +172,7 @@
   <compo A="The Jam" T="All Mod Cons" type="ALBUM" uuid="f9f10c3c1ece4d63814ce304f65d3a61" mergeable="true" del="false">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="57" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="c18cc4d3979741dda1f712b74225b505" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="c18cc4d3979741dda1f712b74225b505" mergeable="false" del="true">
     <file author="NME" name="NME - Writers Top 100 Albums - 1993" publish="1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="58" creation="04/09/2018 15:40:27" size="100"/>
   </compo>
   <compo A="Mothers Of Invention" T="We're Only In It For The Money" type="ALBUM" uuid="2dad7132af734e8b97e4cd7b09a470e6" mergeable="true" del="false">

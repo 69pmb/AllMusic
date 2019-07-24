@@ -91,7 +91,7 @@
   <compo A="The Flying Burrito Brothers" T="The Gilded Palace Of Sin" type="ALBUM" uuid="65f7a9ff3170416d8d1a7316ecea1b64" mergeable="true" del="false">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="30" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="2acda77ca7db4142b6e1432dd58887e8" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="2acda77ca7db4142b6e1432dd58887e8" mergeable="false" del="true">
     <file author="NME" name="NME - Greatest Albums of The 60's - 1993" publish="1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="31" creation="04/09/2018 12:45:28" size="50"/>
   </compo>
   <compo A="The Byrds" T="Fifth Dimension" type="ALBUM" uuid="b679f8e4ae874b24aecaa992aec0ad14" mergeable="true" del="false">

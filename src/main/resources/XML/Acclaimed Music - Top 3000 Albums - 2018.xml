@@ -247,7 +247,7 @@
   <compo A="Miles Davis" T="Bitches Brew" type="ALBUM" uuid="5f940692270a4152b711ad0ca387446b" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="82" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin II" type="ALBUM" uuid="baf0e7347fb44567bcd6e85c1d313818" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin II" type="ALBUM" uuid="baf0e7347fb44567bcd6e85c1d313818" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="83" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Lou Reed" T="Transformer" type="ALBUM" uuid="7f03a6f2ccff4d0ea1b716f608b0e28e" mergeable="true" del="true">
@@ -394,7 +394,7 @@
   <compo A="Bruce Springsteen" T="Nebraska" type="ALBUM" uuid="9cd2748fece041a980392e0b8678dfe3" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="131" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" uuid="fe4da65e9e2a4663a7010e41dbbaf382" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" uuid="fe4da65e9e2a4663a7010e41dbbaf382" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="132" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" uuid="4ce10c389eaa4daa973d7b99fae134f1" mergeable="true" del="true">
@@ -556,7 +556,7 @@
   <compo A="The Specials" T="Specials" type="ALBUM" uuid="9d39e46eb5fd4957b103731eae6d057a" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="185" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="911044a8f68348179432083412261574" mergeable="false" del="false">
+  <compo A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="911044a8f68348179432083412261574" mergeable="false" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="186" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Nas" T="Illmatic" type="ALBUM" uuid="5225e08fb2a04266bbc6b9457d413386" mergeable="true" del="false">
@@ -1222,7 +1222,7 @@
   <compo A="The Crickets" T="The &quot;Chirping&quot; Crickets" type="ALBUM" uuid="f596a18271b94b9a8d34418c3322ce31" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="407" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Led Zeppelin" T="Led Zeppelin III" type="ALBUM" uuid="e8f904fc1a954f20822aaa61a6a5605a" mergeable="true" del="false">
+  <compo A="Led Zeppelin" T="Led Zeppelin III" type="ALBUM" uuid="e8f904fc1a954f20822aaa61a6a5605a" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="408" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Aerosmith" T="Rocks" type="ALBUM" uuid="32454cc68c504b2bb61d49b366fea9f3" mergeable="true" del="false">
@@ -4717,7 +4717,7 @@
   <compo A="Neil Young" T="Sleeps With Angels" type="ALBUM" uuid="60ea2e39af35433bb31351d89eaea695" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1572" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Neil Young" T="Harvest Moon" type="ALBUM" uuid="1fb095a732f3416dbb1db81776a0450e" mergeable="true" del="false">
+  <compo A="Neil Young" T="Harvest Moon" type="ALBUM" uuid="1fb095a732f3416dbb1db81776a0450e" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1573" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Chemical Brothers" T="Surrender" type="ALBUM" uuid="a1838d332c7144239eb9093653afe68c" mergeable="true" del="false">

@@ -1225,7 +1225,7 @@
   <compo A="Roxy Music" T="Country Life" type="ALBUM" uuid="5ca5659b7fe24444aab9c75f10e4daa4" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="387" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="The Beatles" T="A Hard Day's Night" type="ALBUM" uuid="dad97fe46f4240d6a8413fb43113c59d" mergeable="true" del="false">
+  <compo A="The Beatles" T="A Hard Day's Night" type="ALBUM" uuid="dad97fe46f4240d6a8413fb43113c59d" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="388" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Various Artists" T="The Indestructible Beat Of Soweto" type="ALBUM" uuid="c89a0baf4d9d4ec8a0c680f030750bcc" mergeable="true" del="false">
