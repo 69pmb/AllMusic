@@ -18,7 +18,8 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.FichierUtils;
@@ -37,7 +38,7 @@ import pmb.music.AllMusic.view.model.FichierDialogModel;
  * @author pmbroca
  */
 public class DeleteCompoDialog {
-	private static final Logger LOG = Logger.getLogger(DeleteCompoDialog.class);
+	private static final Logger LOG = LogManager.getLogger(DeleteCompoDialog.class);
 
 	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
 			"Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Score", "Classement", "", "Classé" };

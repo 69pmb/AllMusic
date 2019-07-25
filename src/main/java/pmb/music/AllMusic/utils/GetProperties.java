@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Gère le fichier properties.
@@ -14,7 +15,8 @@ import org.apache.log4j.Logger;
  */
 public final class GetProperties {
 
-	private static final Logger LOG = Logger.getLogger(GetProperties.class);
+	private static final Logger LOG = LogManager.getLogger(GetProperties.class);
+	private static final String LEVEL_KEY = "level";
 
 	/**
 	 * {@link Properties} contient les properties.
@@ -33,6 +35,7 @@ public final class GetProperties {
 		try (InputStream input = new FileInputStream(Constant.getConfigPath())) {
 			prop = new Properties();
 			prop.load(input);
+			MiscUtils.setLogLevel(getProperty(LEVEL_KEY));
 		} catch (IOException e) {
 			LOG.error("Erreur lors de l'import des properties: ", e);
 			java.lang.System.exit(0);

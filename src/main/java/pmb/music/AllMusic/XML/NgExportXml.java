@@ -14,7 +14,8 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
@@ -39,7 +40,7 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  */
 public final class NgExportXml extends ExportXML {
 
-	private static final Logger LOG = Logger.getLogger(NgExportXml.class);
+	private static final Logger LOG = LogManager.getLogger(NgExportXml.class);
 
 	private NgExportXml() {
 		super();

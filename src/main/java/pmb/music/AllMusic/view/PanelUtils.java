@@ -32,7 +32,8 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -55,7 +56,7 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  */
 public final class PanelUtils {
 
-	private static final Logger LOG = Logger.getLogger(PanelUtils.class);
+	private static final Logger LOG = LogManager.getLogger(PanelUtils.class);
 	public static final FocusListener selectAll = new FocusListener() {
 		@Override
 		public void focusLost(FocusEvent e) {

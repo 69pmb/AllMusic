@@ -44,7 +44,8 @@ import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import org.apache.commons.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
 import com.opencsv.bean.CsvBindByName;
@@ -73,7 +74,7 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  *
  */
 public final class BatchUtils {
-	private static final Logger LOG = Logger.getLogger(BatchUtils.class);
+	private static final Logger LOG = LogManager.getLogger(BatchUtils.class);
 
 	private static final Comparator<CsvComposition> compareByTrackNumber = (CsvComposition c1, CsvComposition c2) -> {
 		String s1 = c1.getTrackNumber();
