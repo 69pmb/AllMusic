@@ -6,10 +6,7 @@ package pmb.music.AllMusic.XML;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Optional;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -22,6 +19,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MiscUtils;
 
 /**
  * Classe décrivant comment parser un fichier XML contenant des
@@ -118,8 +116,7 @@ public class CompoHandler extends DefaultHandler {
 		try {
 			compo.setArtist(attributes.getValue(TAG_ARTIST));
 			compo.setTitre(attributes.getValue(TAG_TITRE));
-			compo.setUuids(Optional.ofNullable(attributes.getValue(TAG_UUID)).map(uuids -> new LinkedList<>(Arrays.asList(StringUtils.split(uuids, ","))))
-					.orElse(new LinkedList<String>()));
+			compo.setUuids(MiscUtils.stringToUuids(attributes.getValue(TAG_UUID)));
 			compo.setRecordType(RecordType.valueOf(attributes.getValue(TAG_TYPE)));
 			compo.setCanBeMerged(Boolean.parseBoolean(attributes.getValue(TAG_CAN_BE_MERGED)));
 			compo.setDeleted(Boolean.parseBoolean(attributes.getValue(TAG_DELETED)));

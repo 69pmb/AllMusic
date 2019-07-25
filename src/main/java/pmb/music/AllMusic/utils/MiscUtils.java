@@ -15,6 +15,7 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -276,5 +277,14 @@ public final class MiscUtils {
 
 	public static String getUuid() {
 		return UUID.randomUUID().toString().replace("-", "");
+	}
+
+	public static String uuidsToString(List<String> uuids) {
+		return Optional.ofNullable(uuids).map(list -> StringUtils.join(list, ",")).orElse("");
+	}
+
+	public static List<String> stringToUuids(String uuids) {
+		return Optional.ofNullable(uuids).map(list -> new LinkedList<>(Arrays.asList(StringUtils.split(list, ","))))
+				.orElse(new LinkedList<String>());
 	}
 }
