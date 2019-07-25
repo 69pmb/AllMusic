@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.Optional;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -24,6 +23,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.MiscUtils;
 
 /**
  * Classe pour exporter des fichiers au format XML.
@@ -65,7 +65,7 @@ public class ExportXML {
 			comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(composition.getArtist()));
 			comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(composition.getTitre()));
 			comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(composition.getRecordType()));
-			comp.addAttribute(CompoHandler.TAG_UUID, Optional.ofNullable(composition.getUuids()).map(uuids -> StringUtils.join(uuids, ",")).orElse(null));
+			comp.addAttribute(CompoHandler.TAG_UUID, MiscUtils.uuidsToString(composition.getUuids()));
 			comp.addAttribute(CompoHandler.TAG_CAN_BE_MERGED, String.valueOf(composition.isCanBeMerged()));
 			comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(composition.isDeleted()));
 			exportFichier(composition, fullDTF, comp);
