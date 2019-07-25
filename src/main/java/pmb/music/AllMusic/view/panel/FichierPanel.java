@@ -106,6 +106,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	public static final int INDEX_COMPO_DECILE = 7;
 	public static final int INDEX_COMPO_SELECTED = 8;
 	public static final int INDEX_COMPO_DELETED = 9;
+	public static final int INDEX_COMPO_UUID = 10;
 
 	// Search components
 	private MyInputText auteur;
@@ -138,7 +139,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	private static final String[] headerFiles = { "#", "Auteur", "Nom du fichier", "Type", "Publication", "Categorie",
 			"Dates", "Supprimés", "Création", "Score", "Score Supprimés", "Taille", "Classé" };
 	private static final String[] headerCompo = { "#", "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers",
-			"Score", "", "", "" };
+			"Score", "", "", "", "" };
 
 	/**
 	 * Constructeur de {@link FichierPanel}.
@@ -355,18 +356,11 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 							LOG.debug("Start left mouse");
 							// Ouvre une popup pour afficher les fichiers de la
 							// composition sélectionnée
-							try {
 								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-										new LinkedList<>(
-												Arrays.asList(CompositionUtils.findByArtistTitreAndType(compositionList,
-														selectedRow.get().get(INDEX_COMPO_ARTIST),
-														selectedRow.get().get(INDEX_COMPO_TITLE),
-														selectedRow.get().get(INDEX_COMPO_TYPE), true))),
+									CompositionUtils.findByUuid(compositionList, MiscUtils.stringToUuids(selectedRow.get().get(INDEX_COMPO_UUID)))
+											.map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
 										400, DialogFileTable.INDEX_AUTEUR);
 								pop.showDialogFileTable();
-							} catch (MyException e1) {
-								LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
-							}
 							LOG.debug("End left mouse");
 						} else if (SwingUtilities.isRightMouseButton(e)) {
 							tableCompo.getPopupMenu().show(e);
@@ -602,6 +596,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		tableCompo.getColumnModel().getColumn(INDEX_COMPO_LINE_NUMBER).setMaxWidth(30);
 		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DECILE));
 		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_DELETED - 1));
+		tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(INDEX_COMPO_UUID - 2));
 		tableCompo.getTable().repaint();
 		if (scrollTop) {
 			((JScrollPane) tableCompo.getTable().getParent().getParent()).getVerticalScrollBar().setValue(0);
