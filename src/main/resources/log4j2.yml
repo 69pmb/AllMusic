@@ -1,0 +1,33 @@
+Configuration:  
+  name: Default
+  
+  Appenders:
+    Console:      
+      target: SYSTEM_OUT
+      name: LogToConsole
+      PatternLayout:
+        pattern: "%d{HH:mm:ss.SSS} %-5p: %c - %m%n"
+    RollingFile:
+      name: LogToFile
+      fileName: error.log
+      filePattern: error.%d{yyyy-MM-dd-HH-mm}.log
+      PatternLayout:
+        pattern: "%d{HH:mm:ss} %-5p: %c - line %L - %m%n"
+      Policies:
+        OnStartupTriggeringPolicy:
+          minSize: 1 
+      DefaultRollOverStrategy:
+        max: 5
+      Filters:
+        ThresholdFilter:
+          level: warn
+
+  Loggers:
+    Root:
+      level: debug
+    logger:
+       - name: pmb.music
+         additivity: false
+         AppenderRef:
+           - ref: LogToFile
+           - ref: LogToConsole

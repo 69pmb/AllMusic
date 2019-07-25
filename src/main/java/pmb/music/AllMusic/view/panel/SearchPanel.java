@@ -31,7 +31,8 @@ import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -67,7 +68,7 @@ import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
  */
 public class SearchPanel extends JPanel implements ModificationComposition {
 
-	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
+	private static final Logger LOG = LogManager.getLogger(SearchPanel.class);
 
 	private static final long serialVersionUID = 2593372709628283573L;
 	private JLabel countLabel;
@@ -129,6 +130,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	 */
 	@SuppressWarnings("unchecked")
 	private void initButtons(JPanel header) {
+		LOG.debug("Start initButtons");
 		JPanel top = new JPanel(new FlowLayout(FlowLayout.LEFT));
 		AbstractAction searchAction = new AbstractAction() {
 
@@ -202,6 +204,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		});
 		top.add(csv);
 		header.add(top);
+		LOG.debug("End initButtons");
 	}
 
 	/**
@@ -277,6 +280,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	}
 
 	private void initTable() {
+		LOG.debug("Start initTable");
 		JPanel bottom = new JPanel();
 		bottom.setLayout(new BorderLayout());
 
@@ -318,6 +322,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
 		bottom.add(new JScrollPane(tableResult.getTable()), BorderLayout.CENTER);
 		this.add(bottom);
+		LOG.debug("Start initTable");
 	}
 
 	private void searchAction() {

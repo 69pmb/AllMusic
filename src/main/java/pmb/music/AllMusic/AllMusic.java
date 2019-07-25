@@ -3,21 +3,19 @@ package pmb.music.AllMusic;
 import java.awt.EventQueue;
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.Optional;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.XML.NgExportXml;
 import pmb.music.AllMusic.utils.Constant;
-import pmb.music.AllMusic.utils.FichierUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
@@ -26,7 +24,7 @@ import pmb.music.AllMusic.view.dialog.ExceptionDialog;
  */
 public final class AllMusic {
 
-	private static final Logger LOG = Logger.getLogger(AllMusic.class);
+	private static final Logger LOG = LogManager.getLogger(AllMusic.class);
 
 	private AllMusic() {
 		throw new AssertionError("Must not be used");
@@ -38,7 +36,7 @@ public final class AllMusic {
 	 * @param args if opens with artist panel
 	 */
 	public static void main(String[] args) {
-		LOG.debug("Lancement de AllMusic");
+		LOG.debug("Start main");
 		Arrays.asList(args).stream().forEach(LOG::debug);
 		Thread.setDefaultUncaughtExceptionHandler((Thread t, Throwable e) -> {
 			LOG.error("An uncaught exception has been thrown: ", e);
@@ -46,7 +44,7 @@ public final class AllMusic {
 			ed.setVisible(true);
 		});
 		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-			LOG.debug("Fin de AllMusic");
+			LOG.debug("Start shutdownHook");
 			if (ExportXML.isFinalFileChanged()) {
 				try {
 					NgExportXml.exportXML(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
@@ -54,14 +52,7 @@ public final class AllMusic {
 					LOG.error("Export of final file for Angular failed", e);
 				}
 			}
-			Optional<String> savedLogFile = FichierUtils.saveLogFileIfNotEmpty();
-			if (savedLogFile.isPresent()) {
-				try {
-					FichierUtils.openFileInNotepad(savedLogFile.get(), null);
-				} catch (MyException e1) {
-					LOG.error("Erreur lors l'ouverture du fichier de log historisé: " + savedLogFile, e1);
-				}
-			}
+			LOG.debug("End shutdownHook");
 		}));
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
@@ -70,6 +61,7 @@ public final class AllMusic {
 			LOG.error("Impossible d'appliquer le style demandé", e);
 		}
 		EventQueue.invokeLater(() -> {
+			LOG.debug("Start invokeLater");
 			boolean withArtist = args.length == 0 || Boolean.parseBoolean(args[0]);
 			final BasicFrame f = new BasicFrame(withArtist);
 			JFrame.setDefaultLookAndFeelDecorated(true);
@@ -83,6 +75,8 @@ public final class AllMusic {
 			f.getFrame().pack();
 			f.getFrame().setVisible(true);
 			LOG.debug("Look: " + UIManager.getLookAndFeel());
+			LOG.debug("End invokeLater");
 		});
+		LOG.debug("End main");
 	}
 }

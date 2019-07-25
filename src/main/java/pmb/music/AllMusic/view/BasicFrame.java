@@ -4,7 +4,8 @@ import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.view.panel.MenuPanel;
@@ -17,7 +18,7 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  * @author pmbroca
  */
 public class BasicFrame {
-	private static final Logger LOG = Logger.getLogger(BasicFrame.class);
+	private static final Logger LOG = LogManager.getLogger(BasicFrame.class);
 	private JFrame frame;
 	private OngletPanel tab;
 

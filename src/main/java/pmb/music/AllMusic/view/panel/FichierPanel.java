@@ -36,7 +36,8 @@ import javax.swing.table.TableRowSorter;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
 import pmb.music.AllMusic.XML.ImportXML;
@@ -76,7 +77,7 @@ import pmb.music.AllMusic.view.popup.FichierPopupMenu;
 public class FichierPanel extends JPanel implements ModificationComposition {
 	private static final long serialVersionUID = 8581952935884211032L;
 
-	private static final Logger LOG = Logger.getLogger(FichierPanel.class);
+	private static final Logger LOG = LogManager.getLogger(FichierPanel.class);
 
 	private static final int MIN_HEIGHT_TABLE = 41;
 	private static final int MAX_HEIGHT_TABLE = 82;
@@ -385,19 +386,22 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 
 	private void initData() {
 		LOG.debug("Start initData");
-		data = new ConcurrentHashMap<>();
-		ImportXML.importXML(Constant.getFinalFilePath()).parallelStream()
-				.forEach(c -> c.getFiles().parallelStream().forEach(f -> {
-					Optional<Entry<Fichier, List<Composition>>> entry = findFichierInMap(f.getFileName());
-					if (entry.isPresent()) {
-						data.get(entry.get().getKey()).add(c);
-					} else {
-						data.put(f, new LinkedList<>(Arrays.asList(c)));
-					}
-				}));
-		searchResult = new ConcurrentHashMap<>(); // the map displays in the table
-		data.entrySet().stream().forEach(e -> searchResult.put(e.getKey(),
-				e.getValue().stream().map(Composition::new).collect(Collectors.toList())));
+		new Thread(() -> {
+			data = new ConcurrentHashMap<>();
+			ImportXML.importXML(Constant.getFinalFilePath()).parallelStream()
+					.forEach(c -> c.getFiles().parallelStream().forEach(f -> {
+						Optional<Entry<Fichier, List<Composition>>> entry = findFichierInMap(f.getFileName());
+						if (entry.isPresent()) {
+							data.get(entry.get().getKey()).add(c);
+						} else {
+							data.put(f, new LinkedList<>(Arrays.asList(c)));
+						}
+					}));
+			searchResult = new ConcurrentHashMap<>(); // the map displays in the table
+			data.entrySet().stream().forEach(e -> searchResult.put(e.getKey(),
+					e.getValue().stream().map(Composition::new).collect(Collectors.toList())));
+			LOG.debug("Data calculated");
+		}).start();
 		LOG.debug("End initData");
 	}
 

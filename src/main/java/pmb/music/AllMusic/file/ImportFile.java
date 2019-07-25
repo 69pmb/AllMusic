@@ -16,7 +16,8 @@ import java.util.regex.Matcher;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
@@ -35,7 +36,7 @@ public final class ImportFile {
 
 	private static final String LOG_NUMBER = " number: ";
 
-	private static final Logger LOG = Logger.getLogger(ImportFile.class);
+	private static final Logger LOG = LogManager.getLogger(ImportFile.class);
 
 	private ImportFile() {
 		throw new AssertionError("Must not be used");
