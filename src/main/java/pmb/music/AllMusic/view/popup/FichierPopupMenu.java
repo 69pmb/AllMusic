@@ -9,6 +9,7 @@ import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
 
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
@@ -41,8 +42,12 @@ public class FichierPopupMenu extends PopupMenu {
 		// Modify file
 		ComponentBuilder.buildMenuItem(menu, "Modifier le fichier", KeyEvent.VK_E, (ActionEvent e) -> {
 			LOG.debug("Start modifFile");
-			((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, getTable()))
-					.modifyFichierAction((Vector<String>) selectedRow);
+			try {
+				((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, getTable()))
+						.modifyFichierAction((Vector<String>) selectedRow);
+			} catch (MyException e1) {
+				LOG.error("Error when editing file: " + selectedRow, e1);
+			}
 			this.setVisible(false);
 			LOG.debug("End modifFile");
 		}, null);
