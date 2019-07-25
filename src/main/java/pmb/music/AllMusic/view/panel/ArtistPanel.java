@@ -106,12 +106,14 @@ public class ArtistPanel extends JPanel {
 		super();
 		LOG.debug("Start ArtistPanel");
 		this.withArtist = withArtist;
-		this.setLayout(new BorderLayout());
-		JPanel header = initHeader();
-		initTable();
-		JButton csv = initCsvBtn();
-		header.add(csv);
-		this.add(header, BorderLayout.PAGE_START);
+		if (withArtist) {
+			this.setLayout(new BorderLayout());
+			JPanel header = initHeader();
+			initTable();
+			JButton csv = initCsvBtn();
+			header.add(csv);
+			this.add(header, BorderLayout.PAGE_START);
+		}
 		LOG.debug("End ArtistPanel");
 	}
 

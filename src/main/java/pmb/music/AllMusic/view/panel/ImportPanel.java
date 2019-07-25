@@ -200,6 +200,7 @@ public class ImportPanel extends JPanel {
 	 * Ajoute les boutons en haut de l'écran.
 	 */
 	private void insertTopPanel() {
+		LOG.debug("Start insertTopPanel");
 		JPanel top = new JPanel();
 		JButton browse = ComponentBuilder.buildJButton("Parcourir", 220, Constant.ICON_FOLDER);
 		browse.setToolTipText("Charge un fichier texte contenant des musiques.");
@@ -241,17 +242,21 @@ public class ImportPanel extends JPanel {
 
 		top.setBorder(BorderFactory.createTitledBorder(""));
 		this.add(top);
+		LOG.debug("End insertTopPanel");
 	}
 
 	private void insertInputs() {
+		LOG.debug("Start insertInputs");
 		insertFirstLine();
 		insertSecondLine();
 		insertThirdLine();
 		insertResultPanel();
+		LOG.debug("End insertInputs");
 	}
 
 	@SuppressWarnings("unchecked")
 	private void insertFirstLine() {
+		LOG.debug("Start insertFirstLine");
 		JPanel firstLine = new JPanel();
 
 		// Nom du fichier
@@ -301,9 +306,11 @@ public class ImportPanel extends JPanel {
 				.withLabelWidth(100).build();
 
 		this.add(firstLine);
+		LOG.debug("End insertFirstLine");
 	}
 
 	private void insertSecondLine() {
+		LOG.debug("Start insertSecondLine");
 		JPanel secondLine = new JPanel();
 
 		// Publi
@@ -342,9 +349,11 @@ public class ImportPanel extends JPanel {
 		secondLine.add(firstLinesPanel);
 
 		this.add(secondLine);
+		LOG.debug("End insertSecondLine");
 	}
 
 	private void insertThirdLine() {
+		LOG.debug("Start insertThirdLine");
 		JPanel thirdLine = new JPanel();
 
 		// lastLines
@@ -402,6 +411,7 @@ public class ImportPanel extends JPanel {
 
 		thirdLine.add(cleanBtnPanel);
 		this.add(thirdLine);
+		LOG.debug("End insertThirdLine");
 	}
 
 	private void insertResultPanel() {
@@ -425,6 +435,7 @@ public class ImportPanel extends JPanel {
 	 * Ajoute les boutons du bas de l'écran.
 	 */
 	private void insertBottomPanel() {
+		LOG.debug("Start insertBottomPanel");
 		JPanel bottom = new JPanel();
 
 		// Import
@@ -499,6 +510,7 @@ public class ImportPanel extends JPanel {
 
 		bottom.setBorder(BorderFactory.createTitledBorder(""));
 		this.add(bottom);
+		LOG.debug("End insertBottomPanel");
 	}
 
 	/**

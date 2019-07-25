@@ -63,8 +63,8 @@ public class OngletPanel extends JPanel {
 		dim.width = dim.width - 30;
 		getOnglets().setPreferredSize(dim);
 
-		initScore();
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+		new Thread(() -> initScore(importXML)).start();
 		setArtistList(importXML);
 		setTitleList(importXML);
 		setAuthorList(importXML);
@@ -102,7 +102,9 @@ public class OngletPanel extends JPanel {
 				PanelUtils.setColumnsWidth(getSearch().getTableResult(), e.getComponent().getWidth(), "Search");
 				PanelUtils.setColumnsWidth(getFichier().getTableFiles(), e.getComponent().getWidth(), "Fichier files");
 				PanelUtils.setColumnsWidth(getFichier().getTableCompo(), e.getComponent().getWidth(), "Fichier compo");
-				PanelUtils.setColumnsWidth(getArtist().getTable(), e.getComponent().getWidth(), "Artist");
+				if (withArtist) {
+					PanelUtils.setColumnsWidth(getArtist().getTable(), e.getComponent().getWidth(), "Artist");
+				}
 			}
 
 			@Override
@@ -131,12 +133,10 @@ public class OngletPanel extends JPanel {
 
 	/**
 	 * Calculates the constants of {@link Score}.
-	 * 
 	 */
-	private static void initScore() {
+	private static void initScore(List<Composition> importXML) {
 		LOG.debug("Start initScore");
 		OngletPanel.score = new Score();
-		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		List<Composition> songs = getByType(importXML, RecordType.SONG, true);
 		List<Composition> albums = getByType(importXML, RecordType.ALBUM, true);
 		getScore().setLogMaxAlbum(CompositionUtils.getLogMax(albums));
@@ -157,12 +157,15 @@ public class OngletPanel extends JPanel {
 	 * @return a list of composition
 	 */
 	private static List<Composition> getByType(List<Composition> importXML, RecordType type, boolean sorted) {
+		LOG.debug("Start getByType");
 		Map<String, String> criteria = new HashMap<>();
 		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
 		if (sorted) {
 			criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
 		}
-		return SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
+		List<Composition> result = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
+		LOG.debug("End getByType");
+		return result;
 	}
 
 	/**
