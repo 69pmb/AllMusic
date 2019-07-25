@@ -81,7 +81,7 @@ public final class FichierUtils {
 			Optional<Composition> optCompo = null;
 			if (getComposition) {
 				// If fetch composition details
-				optCompo = CompositionUtils.findByFile(importXML, f, c.getArtist(), c.getTitre());
+				optCompo = CompositionUtils.findByUuid(importXML, c.getUuids());
 				if (optCompo.isPresent()) {
 					Composition compo = optCompo.get();
 					// Artist
