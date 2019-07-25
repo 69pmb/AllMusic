@@ -21,7 +21,8 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import pmb.music.AllMusic.model.Composition;
@@ -40,7 +41,7 @@ import pmb.music.AllMusic.utils.MyException;
  */
 public final class ImportXML {
 
-	private static final Logger LOG = Logger.getLogger(ImportXML.class);
+	private static final Logger LOG = LogManager.getLogger(ImportXML.class);
 
 	private ImportXML() {
 	}

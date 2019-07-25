@@ -163,6 +163,14 @@ public final class MiscUtils {
 		return DateTimeFormatter.ofPattern("HH:mm:ss").format(LocalTime.now());
 	}
 
+	public static void setLogLevel(String level) {
+		// LoggerContext ctx = (LoggerContext) LogManager.getContext(false);
+		// Configuration config = ctx.getConfiguration();
+		// LoggerConfig loggerConfig = config.getLoggerConfig(LogManager.ROOT_LOGGER_NAME);
+		// loggerConfig.setLevel(level);
+		// ctx.updateLoggers();
+	}
+
 	/**
 	 * Convert Vector<Vector<Object>> to List<String[]>.
 	 * 
@@ -242,7 +250,7 @@ public final class MiscUtils {
 		if (numArray.size() % 2 == 0) {
 			median = ((double) numArray.get(numArray.size() / 2) + (double) numArray.get(numArray.size() / 2 - 1)) / 2;
 		} else {
-			median = (double) numArray.get(numArray.size() / 2);
+			median = numArray.get(numArray.size() / 2);
 		}
 		return median;
 	}

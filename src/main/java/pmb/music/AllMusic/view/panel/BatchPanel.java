@@ -28,7 +28,8 @@ import javax.swing.UIManager;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.BatchUtils;
@@ -66,7 +67,7 @@ import pmb.music.AllMusic.view.PanelUtils;
  */
 public class BatchPanel extends JPanel {
 	private static final long serialVersionUID = -7659089306956006760L;
-	private static final Logger LOG = Logger.getLogger(BatchPanel.class);
+	private static final Logger LOG = LogManager.getLogger(BatchPanel.class);
 
 	/**
 	 * Les messages.

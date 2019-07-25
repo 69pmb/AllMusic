@@ -20,7 +20,8 @@ import javax.swing.JTextField;
 import javax.swing.KeyStroke;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -33,7 +34,7 @@ import pmb.music.AllMusic.view.panel.FichierPanel;
  * @see {@link JDialog}
  */
 public class ModifyFichierDialog {
-	private static final Logger LOG = Logger.getLogger(ModifyFichierDialog.class);
+	private static final Logger LOG = LogManager.getLogger(ModifyFichierDialog.class);
 	private JDialog dialog;
 	private final Vector<String> fichier;
 	private boolean sendData;
