@@ -95,7 +95,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	private List<Composition> compoResult = new ArrayList<>();
 
 	private static final String[] title = { "#", "Artiste", "Titre", "Type", "Nombre de fichiers", "Score", "", "",
-			"" };
+			"", "" };
 
 	public static final int INDEX_LINE_NUMBER = 0;
 	public static final int INDEX_ARTIST = 1;
@@ -106,6 +106,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	public static final int INDEX_DECILE = 6;
 	public static final int INDEX_SELECTED = 7;
 	public static final int INDEX_DELETED = 8;
+	public static final int INDEX_UUID = 9;
 
 	/**
 	 * Génère le panel search.
@@ -297,17 +298,11 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 							LOG.debug("Start result mouse");
 							// Ouvre une popup pour afficher les fichiers de la
 							// composition sélectionnée
-							try {
-								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-										new LinkedList<>(
-												Arrays.asList(CompositionUtils.findByArtistTitreAndType(compoResult,
-														row.get().get(INDEX_ARTIST), row.get().get(INDEX_TITRE),
-														row.get().get(INDEX_TYPE), true))),
-										400, DialogFileTable.INDEX_AUTEUR);
-								pop.showDialogFileTable();
-							} catch (MyException e1) {
-								LOG.error("Ereur lors de l'affichage des fichier d'une compo", e1);
-							}
+							DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
+									CompositionUtils.findByUuid(compoResult, MiscUtils.stringToUuids(row.get().get(INDEX_UUID)))
+											.map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
+									400, DialogFileTable.INDEX_AUTEUR);
+							pop.showDialogFileTable();
 							LOG.debug("End result mouse");
 						} else if (SwingUtilities.isRightMouseButton(e)) {
 							tableResult.getPopupMenu().show(e);
@@ -382,6 +377,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		tableResult.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
 		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_DECILE));
 		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_DELETED - 1));
+		tableResult.removeColumn(tableResult.getColumnModel().getColumn(INDEX_UUID - 2));
 		tableResult.getModel().fireTableDataChanged();
 		tableResult.getTable().repaint();
 		LOG.debug("Start updateTable");
