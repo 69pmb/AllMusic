@@ -410,13 +410,14 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	 * Launchs a dialog to modify the selected {@link Fichier}.
 	 * 
 	 * @param selected the selected row representing a fichier
+	 * @throws MyException if file can't be found
 	 */
-	public void modifyFichierAction(Vector<String> selected) {
+	public void modifyFichierAction(Vector<String> selected) throws MyException {
 		LOG.debug("Start modifyFichierAction");
 		resultLabel.setText("");
 		String fileName = selected.get(INDEX_FILE_FILE_NAME);
 		// Index du fichier dans le tableau
-		Fichier key = findFichierInMap(fileName).get().getKey();
+		Fichier key = findFichierInMap(fileName).map(Entry::getKey).orElseThrow(() -> new MyException("Can't find Fichier in map: " + fileName));
 		// Lancement de la popup de modification
 		ModifyFichierDialog md = new ModifyFichierDialog(null, "Modifier un fichier", true, selected);
 		md.showModifyFichierDialog();
