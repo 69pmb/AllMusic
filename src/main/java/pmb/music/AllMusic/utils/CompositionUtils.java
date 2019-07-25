@@ -177,6 +177,7 @@ public final class CompositionUtils {
 				v.addElement(Boolean.valueOf(false));
 			}
 			v.addElement(Boolean.toString(composition.isDeleted()));
+			v.addElement(MiscUtils.uuidsToString(composition.getUuids()));
 			result.addElement(v);
 		}
 		LOG.debug("End convertCompositionListToVector");
@@ -231,7 +232,7 @@ public final class CompositionUtils {
 				result.put(foundArtist.get(), list);
 			} else {
 				// New entry
-				result.put(c.getArtist(), new ArrayList<Composition>(Arrays.asList(c)));
+				result.put(c.getArtist(), new ArrayList<>(Arrays.asList(c)));
 			}
 		}
 		LOG.debug("End groupCompositionByArtist");
@@ -325,6 +326,16 @@ public final class CompositionUtils {
 					result1.addAll(result2);
 					return result1;
 				}, Collector.Characteristics.CONCURRENT));
+	}
+
+	/**
+	 * Find a composition with given uuids.
+	 * @param compoList {@link List<Composition>} a composition list
+	 * @param uuids  {@link List<String>} a list of uuids
+	 * @return a composition with all the uuids
+	 */
+	public static Optional<Composition> findByUuid(List<Composition> compoList, List<String> uuids) {
+		return compoList.stream().filter(c -> c.getUuids().stream().allMatch(uuids::contains)).findFirst();
 	}
 
 	/**
