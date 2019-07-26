@@ -66,6 +66,8 @@ public class Constant {
 
 	public static final String TXT_EXTENSION = ".txt";
 
+	public static final String PACKAGE_NAME = "pmb.music";
+
 	private static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
 
 	private static final String[] NOT_SEPARATORS = { "(", ")", DOT, ",", "#", "'", "!", "*", "?", "/" };
