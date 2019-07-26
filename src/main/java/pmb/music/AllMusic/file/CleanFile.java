@@ -23,7 +23,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.utils.Constant;
@@ -37,7 +38,7 @@ import pmb.music.AllMusic.utils.FichierUtils;
  */
 public final class CleanFile {
 
-	private static final Logger LOG = Logger.getLogger(CleanFile.class);
+	private static final Logger LOG = LogManager.getLogger(CleanFile.class);
 
 	private CleanFile() {
 		throw new AssertionError("Must not be used");

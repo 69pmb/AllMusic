@@ -20,7 +20,8 @@ import javax.swing.JTable;
 import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
@@ -38,7 +39,7 @@ import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
  * @author pmbroca
  */
 public class DialogCompoTable {
-	private static final Logger LOG = Logger.getLogger(DialogCompoTable.class);
+	private static final Logger LOG = LogManager.getLogger(DialogCompoTable.class);
 
 	private static final int INDEX_ARTIST = 0;
 	private static final int INDEX_TITLE = 1;

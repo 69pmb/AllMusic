@@ -18,7 +18,8 @@ import javax.swing.JTextField;
 import javax.swing.JTextPane;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -33,7 +34,7 @@ import pmb.music.AllMusic.view.ComponentBuilder;
  * @author pmbroca
  */
 public class SlashEditDialog {
-	private static final Logger LOG = Logger.getLogger(SlashEditDialog.class);
+	private static final Logger LOG = LogManager.getLogger(SlashEditDialog.class);
 
 	private JDialog dialog;
 	// Data

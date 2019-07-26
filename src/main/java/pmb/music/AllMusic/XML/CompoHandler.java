@@ -8,7 +8,8 @@ import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -28,7 +29,7 @@ import pmb.music.AllMusic.utils.Constant;
  */
 public class CompoHandler extends DefaultHandler {
 
-	private static final Logger LOG = Logger.getLogger(CompoHandler.class);
+	private static final Logger LOG = LogManager.getLogger(CompoHandler.class);
 
 	private List<Composition> compoList;
 

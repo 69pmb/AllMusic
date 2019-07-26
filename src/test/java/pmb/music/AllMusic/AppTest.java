@@ -28,7 +28,8 @@ import javax.swing.SortOrder;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 import org.junit.Assert;
 import org.junit.Test;
@@ -56,7 +57,7 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  */
 public class AppTest {
 
-	private static final Logger LOG = Logger.getLogger(AppTest.class);
+	private static final Logger LOG = LogManager.getLogger(AppTest.class);
 	static Comparator<Composition> byRank = (c1, c2) -> c1.getFiles().get(0).getClassement()
 			.compareTo(c2.getFiles().get(0).getClassement());
 
