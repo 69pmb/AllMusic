@@ -36,7 +36,8 @@ import javax.swing.table.TableRowSorter;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
 import pmb.music.AllMusic.XML.ImportXML;
@@ -76,7 +77,7 @@ import pmb.music.AllMusic.view.popup.FichierPopupMenu;
 public class FichierPanel extends JPanel implements ModificationComposition {
 	private static final long serialVersionUID = 8581952935884211032L;
 
-	private static final Logger LOG = Logger.getLogger(FichierPanel.class);
+	private static final Logger LOG = LogManager.getLogger(FichierPanel.class);
 
 	private static final int MIN_HEIGHT_TABLE = 41;
 	private static final int MAX_HEIGHT_TABLE = 82;

@@ -16,7 +16,8 @@ import javax.swing.SortOrder;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.opencsv.CSVWriter;
 import com.opencsv.bean.CsvToBeanBuilder;
@@ -36,7 +37,7 @@ import pmb.music.AllMusic.utils.MiscUtils;
  */
 public final class CsvFile {
 
-	private static final Logger LOG = Logger.getLogger(CsvFile.class);
+	private static final Logger LOG = LogManager.getLogger(CsvFile.class);
 
 	private CsvFile() {
 		throw new AssertionError("Must not be used");

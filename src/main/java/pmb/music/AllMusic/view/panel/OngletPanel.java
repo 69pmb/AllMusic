@@ -17,7 +17,8 @@ import javax.swing.event.ChangeEvent;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.model.Composition;
@@ -39,7 +40,7 @@ import pmb.music.AllMusic.view.PanelUtils;
  */
 public class OngletPanel extends JPanel {
 	private static final long serialVersionUID = -7235352581168930316L;
-	private static final Logger LOG = Logger.getLogger(OngletPanel.class);
+	private static final Logger LOG = LogManager.getLogger(OngletPanel.class);
 	private static JTabbedPane onglets;
 	private static Score score;
 	private static String[] artistList;

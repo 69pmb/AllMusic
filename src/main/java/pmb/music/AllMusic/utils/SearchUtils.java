@@ -15,7 +15,8 @@ import java.util.stream.Collectors;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
@@ -32,7 +33,7 @@ import pmb.music.AllMusic.model.SearchRange;
  */
 public final class SearchUtils {
 
-	private static final Logger LOG = Logger.getLogger(SearchUtils.class);
+	private static final Logger LOG = LogManager.getLogger(SearchUtils.class);
 	public static final String CRITERIA_ARTIST = "artist";
 	public static final String CRITERIA_TITRE = "titre";
 	public static final String CRITERIA_RECORD_TYPE = "type";

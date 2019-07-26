@@ -29,6 +29,8 @@ import java.util.stream.Stream;
 import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.core.config.Configurator;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -163,6 +165,12 @@ public final class MiscUtils {
 		return DateTimeFormatter.ofPattern("HH:mm:ss").format(LocalTime.now());
 	}
 
+	public static void setLogLevel(String level) {
+		if (StringUtils.isNotBlank(level)) {
+			Configurator.setLevel(Constant.PACKAGE_NAME, Level.valueOf(level));
+		}
+	}
+
 	/**
 	 * Convert Vector<Vector<Object>> to List<String[]>.
 	 * 
@@ -242,7 +250,7 @@ public final class MiscUtils {
 		if (numArray.size() % 2 == 0) {
 			median = ((double) numArray.get(numArray.size() / 2) + (double) numArray.get(numArray.size() / 2 - 1)) / 2;
 		} else {
-			median = (double) numArray.get(numArray.size() / 2);
+			median = numArray.get(numArray.size() / 2);
 		}
 		return median;
 	}

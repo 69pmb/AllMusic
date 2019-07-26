@@ -7,7 +7,8 @@ import java.util.Vector;
 import javax.swing.JPopupMenu;
 import javax.swing.SwingUtilities;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -21,7 +22,7 @@ import pmb.music.AllMusic.view.dialog.ExceptionDialog;
  * @author pmbroca
  */
 public class CompositionPopupMenu extends PopupMenu {
-	private static final Logger LOG = Logger.getLogger(CompositionPopupMenu.class);
+	private static final Logger LOG = LogManager.getLogger(CompositionPopupMenu.class);
 
 	/**
 	 * Constructor of {@link CompositionPopupMenu}.

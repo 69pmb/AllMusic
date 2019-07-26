@@ -19,7 +19,8 @@ import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.UnsupportedLookAndFeelException;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.XML.NgExportXml;
@@ -36,7 +37,7 @@ import pmb.music.AllMusic.view.dialog.ExceptionDialog;
  * @author pmbroca
  */
 public final class MenuPanel {
-	private static final Logger LOG = Logger.getLogger(MenuPanel.class);
+	private static final Logger LOG = LogManager.getLogger(MenuPanel.class);
 
 	private MenuPanel() {
 		throw new AssertionError("Must not be used");

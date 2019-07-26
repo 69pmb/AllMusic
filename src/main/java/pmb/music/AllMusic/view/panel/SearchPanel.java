@@ -31,7 +31,8 @@ import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -67,7 +68,7 @@ import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
  */
 public class SearchPanel extends JPanel implements ModificationComposition {
 
-	private static final Logger LOG = Logger.getLogger(SearchPanel.class);
+	private static final Logger LOG = LogManager.getLogger(SearchPanel.class);
 
 	private static final long serialVersionUID = 2593372709628283573L;
 	private JLabel countLabel;
