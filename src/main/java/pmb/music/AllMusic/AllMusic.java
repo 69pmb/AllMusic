@@ -16,6 +16,7 @@ import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.XML.NgExportXml;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.GetProperties;
 import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
@@ -37,6 +38,7 @@ public final class AllMusic {
 	 */
 	public static void main(String[] args) {
 		LOG.debug("Start main");
+		GetProperties.reloadProperties();
 		Arrays.asList(args).stream().forEach(LOG::debug);
 		Thread.setDefaultUncaughtExceptionHandler((Thread t, Throwable e) -> {
 			LOG.error("An uncaught exception has been thrown: ", e);
