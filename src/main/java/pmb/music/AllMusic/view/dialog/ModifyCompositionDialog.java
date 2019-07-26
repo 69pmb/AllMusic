@@ -19,7 +19,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -30,7 +31,7 @@ import pmb.music.AllMusic.view.ComponentBuilder;
  * @see {@link JDialog}
  */
 public class ModifyCompositionDialog {
-	private static final Logger LOG = Logger.getLogger(ModifyCompositionDialog.class);
+	private static final Logger LOG = LogManager.getLogger(ModifyCompositionDialog.class);
 	private JDialog dialog;
 	private final Vector<String> compo;
 	private boolean sendData;

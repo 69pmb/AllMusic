@@ -44,7 +44,8 @@ import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.XML.ExportXML;
@@ -71,7 +72,7 @@ public class ImportPanel extends JPanel {
 
 	private static final long serialVersionUID = 5796304304079887263L;
 
-	private static final Logger LOG = Logger.getLogger(ImportPanel.class);
+	private static final Logger LOG = LogManager.getLogger(ImportPanel.class);
 
 	private JTextField author;
 	private JTextField publi;

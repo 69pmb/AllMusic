@@ -33,7 +33,8 @@ import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.file.CsvFile;
@@ -67,7 +68,7 @@ public class ArtistPanel extends JPanel {
 
 	private static final long serialVersionUID = 2593372709628283573L;
 
-	private static final Logger LOG = Logger.getLogger(ArtistPanel.class);
+	private static final Logger LOG = LogManager.getLogger(ArtistPanel.class);
 	public static final int INDEX_LINE_NUMBER = 0;
 	public static final int INDEX_ARTIST = 1;
 	public static final int INDEX_NB_TOTAL = 2;

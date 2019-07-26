@@ -28,8 +28,11 @@ import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -39,15 +42,13 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.view.panel.ImportPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-
 /**
  * Classe utilitaire pour la gestion des {@link Fichier}.
  * 
  */
 public final class FichierUtils {
 
-	private static final Logger LOG = Logger.getLogger(FichierUtils.class);
+	private static final Logger LOG = LogManager.getLogger(FichierUtils.class);
 
 	private FichierUtils() {
 		throw new AssertionError("Must not be used");
@@ -350,26 +351,6 @@ public final class FichierUtils {
 	}
 
 	/**
-	 * Copy source file content in destination file.
-	 * 
-	 * @param source the source file
-	 * @param destination the destination file
-	 * @throws IOException if an error occured during file manipulations
-	 */
-	public static void copyFileInAnother(String source, String destination) throws IOException {
-		String line = "";
-		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream(source), Constant.ANSI_ENCODING));
-				BufferedWriter writer = new BufferedWriter(
-						new OutputStreamWriter(new FileOutputStream(destination), Constant.ANSI_ENCODING))) {
-			while ((line = br.readLine()) != null) {
-				writer.append(line).append(Constant.NEW_LINE);
-			}
-			writer.flush();
-		}
-	}
-
-	/**
 	 * Reconstruit le chemin absolu du fichier txt (du dossier Music) donnée.
 	 * 
 	 * @param fileName le nom du fichier
@@ -487,26 +468,6 @@ public final class FichierUtils {
 			LOG.error("Error file: " + file.getName(), e);
 		}
 		LOG.debug("End writeMapInFile");
-	}
-
-	/**
-	 * Renomme le fichier de log si il n'est pas vide.
-	 * 
-	 * @return le nouveau nom du fichier de log.
-	 */
-	public static Optional<String> saveLogFileIfNotEmpty() {
-		String newFileLog = null;
-		Optional<String> line = readFirstLine(Constant.FILE_LOG_PATH);
-		if (line.isPresent() && StringUtils.isNotBlank(line.get())) {
-			newFileLog = Constant.FILE_LOG_PATH + Constant.SEPARATOR_DATE + MiscUtils.dateNow()
-					+ Constant.TXT_EXTENSION;
-			try {
-				copyFileInAnother(Constant.FILE_LOG_PATH, newFileLog);
-			} catch (IOException e) {
-				LOG.error("Erreur lors de la sauvegarde du fichier de log", e);
-			}
-		}
-		return Optional.ofNullable(newFileLog);
 	}
 
 	/**

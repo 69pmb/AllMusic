@@ -28,7 +28,8 @@ import javax.swing.SwingUtilities;
 import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
@@ -53,7 +54,7 @@ import pmb.music.AllMusic.view.popup.DialogFilePopupMenu;
  * @see {@link JDialog}
  */
 public class DialogFileTable {
-	private static final Logger LOG = Logger.getLogger(DialogFileTable.class);
+	private static final Logger LOG = LogManager.getLogger(DialogFileTable.class);
 	private JDialog dialog;
 	private List<Composition> compoList = new ArrayList<>();
 

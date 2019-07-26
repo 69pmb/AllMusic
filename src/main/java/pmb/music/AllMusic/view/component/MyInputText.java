@@ -10,7 +10,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
@@ -22,7 +23,7 @@ import pmb.music.AllMusic.view.PanelUtils;
  *
  */
 public class MyInputText extends JPanel {
-	private static final Logger LOG = Logger.getLogger(MyInputText.class);
+	private static final Logger LOG = LogManager.getLogger(MyInputText.class);
 	private static final long serialVersionUID = 3848984166701854798L;
 
 	private JComponent input;
