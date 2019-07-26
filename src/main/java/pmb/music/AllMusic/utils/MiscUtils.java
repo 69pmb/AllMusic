@@ -29,6 +29,8 @@ import java.util.stream.Stream;
 import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.core.config.Configurator;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -164,11 +166,9 @@ public final class MiscUtils {
 	}
 
 	public static void setLogLevel(String level) {
-		// LoggerContext ctx = (LoggerContext) LogManager.getContext(false);
-		// Configuration config = ctx.getConfiguration();
-		// LoggerConfig loggerConfig = config.getLoggerConfig(LogManager.ROOT_LOGGER_NAME);
-		// loggerConfig.setLevel(level);
-		// ctx.updateLoggers();
+		if (StringUtils.isNotBlank(level)) {
+			Configurator.setLevel(Constant.PACKAGE_NAME, Level.valueOf(level));
+		}
 	}
 
 	/**
