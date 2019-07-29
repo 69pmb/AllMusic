@@ -3,12 +3,14 @@ package pmb.music.AllMusic;
 import java.awt.EventQueue;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Optional;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -16,7 +18,9 @@ import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.XML.NgExportXml;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.GetProperties;
+import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
@@ -48,19 +52,30 @@ public final class AllMusic {
 		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
 			LOG.debug("Start shutdownHook");
 			if (ExportXML.isFinalFileChanged()) {
+				LOG.debug("Final File Changed");
 				try {
 					NgExportXml.exportXML(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
 				} catch (IOException e) {
-					LOG.error("Export of final file for Angular failed", e);
+					LOG.error("Export of final file to Dropbox failed", e);
 				}
 			}
+			Optional<String> firstLine = FichierUtils.readFirstLine(Constant.FILE_LOG_PATH);
+			if (firstLine.isPresent() && StringUtils.isNotBlank(firstLine.get())) {
+				LOG.debug("Log File not empty");
+				try {
+					FichierUtils.openFileInNotepad(firstLine.get(), null);
+				} catch (MyException e1) {
+					LOG.error("Error opening log file: " + firstLine, e1);
+				}
+}
 			LOG.debug("End shutdownHook");
 		}));
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+			LOG.debug("Look: " + UIManager.getLookAndFeel());
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException
 				| UnsupportedLookAndFeelException e) {
-			LOG.error("Impossible d'appliquer le style demandé", e);
+			LOG.error("Can't apply the requested look & feel", e);
 		}
 		EventQueue.invokeLater(() -> {
 			LOG.debug("Start invokeLater");
@@ -76,7 +91,6 @@ public final class AllMusic {
 			}
 			f.getFrame().pack();
 			f.getFrame().setVisible(true);
-			LOG.debug("Look: " + UIManager.getLookAndFeel());
 			LOG.debug("End invokeLater");
 		});
 		LOG.debug("End main");
