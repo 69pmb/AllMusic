@@ -217,6 +217,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		header.add(inputs);
 	}
 
+	@SuppressWarnings("unchecked")
 	private void initButtons(JPanel header) {
 		JPanel buttons = new JPanel(new GridLayout(1, 7));
 		// SEARCH
@@ -267,7 +268,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			List<Object> selected = tableCompo.getModel().getSelected();
 			try {
 				PanelUtils.deleteCompositionAction(compositionList, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(INDEX_COMPO_UUID)).get(0)).collect(Collectors.toList()));
-			updateCompoTable(compositionList, selectedFichierName, false);
+				updateCompoTable(compositionList, selectedFichierName, false);
 				resultLabel.setText(selected.size() + " élément(s) supprimé(s)");
 			} catch (MyException e1) {
 				LOG.error("Error when deleting compositions in Fichier result", e1);
@@ -299,7 +300,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		buttons.add(csv);
 		// Label pour afficher les resultats
 		resultLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(buttons).withLabel("")
-				.withLabelWidth(400).withColor(new Color(8, 187, 81)).withFontSize(20).build();
+				.withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(16).build();
 		header.add(buttons);
 	}
 

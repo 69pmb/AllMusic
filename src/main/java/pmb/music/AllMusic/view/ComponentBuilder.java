@@ -32,13 +32,13 @@ import org.apache.commons.lang3.StringUtils;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
 import org.kordamp.ikonli.swing.FontIcon;
 
+import ca.odell.glazedlists.GlazedLists;
+import ca.odell.glazedlists.matchers.TextMatcherEditor;
+import ca.odell.glazedlists.swing.AutoCompleteSupport;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
 import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
-import ca.odell.glazedlists.GlazedLists;
-import ca.odell.glazedlists.matchers.TextMatcherEditor;
-import ca.odell.glazedlists.swing.AutoCompleteSupport;
 
 /**
  * Builder for various JComponent. Created by PBR on 4 févr. 2019.
@@ -255,7 +255,7 @@ public class ComponentBuilder<T> {
 	private JLabel buildJLabel() {
 		JPanel panel = buildComponentPanel();
 		JLabel label = new JLabel(config.getLabel(), SwingConstants.CENTER);
-		PanelUtils.setSize(label, config.getLabelWidth(), COMPONENT_HEIGHT);
+		PanelUtils.setSize(label, config.getLabelWidth(), PANEL_HEIGHT);
 		label.setForeground(config.getColor());
 		if (config.getFontSize() > 0) {
 			Font labelFont = label.getFont();

@@ -162,7 +162,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			List<Object> selected = tableResult.getModel().getSelected();
 			try {
 				PanelUtils.deleteCompositionAction(compoResult, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(INDEX_UUID)).get(0)).collect(Collectors.toList()));
-			updateTable();
+				updateTable();
 				deleteLabel.setText(selected.size() + " élément(s) supprimé(s)");
 			} catch (MyException e1) {
 				LOG.error("Error when deleting compositions in Search result", e1);
@@ -280,7 +280,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 				.withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(25).build();
 		// Nombre de suppression
 		deleteLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(searchFields).withLabel("")
-				.withLabelWidth(400).withColor(new Color(8, 187, 81)).withFontSize(20).build();
+				.withFlowLayout(true).withLabelWidth(230).withColor(new Color(8, 187, 81)).withFontSize(15).build();
 
 		header.add(searchFields);
 		LOG.debug("End initSearchFields");
