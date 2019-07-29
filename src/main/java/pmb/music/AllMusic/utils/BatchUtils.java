@@ -793,7 +793,7 @@ public final class BatchUtils {
 					Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML,
 							found.getArtist(), found.getTitre(), found.getRecordType().toString(), true);
 					importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
-					CompositionUtils.removeCompositionsInFiles(found);
+					CompositionUtils.removeCompositionInFiles(found);
 					result = "OK";
 				} catch (MyException e) {
 					LOG.error("Error when deleting compostion: " + compoToDelete, e);

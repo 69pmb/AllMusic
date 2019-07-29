@@ -335,7 +335,7 @@ public final class CompositionUtils {
 	 * @return a composition with all the uuids
 	 */
 	public static Optional<Composition> findByUuid(List<Composition> compoList, List<String> uuids) {
-		return compoList.stream().filter(c -> c.getUuids().stream().allMatch(uuids::contains)).findFirst();
+		return compoList.stream().filter(c -> c.getUuids().stream().anyMatch(uuids::contains)).findFirst();
 	}
 
 	/**
@@ -430,39 +430,39 @@ public final class CompositionUtils {
 	}
 
 	/**
-	 * Supprime dans les fichiers XML, la composition donnée.
+	 * Delete in Xml files the given composition.
 	 * 
 	 * @param toRemove la {@link Composition} à supprimer des fichiers
-	 * @throws MyException if the deletion of the composition failed in the xml
-	 *             files or final file
+	 * @throws MyException if the deletion of the composition failed in the xml files or final file
 	 */
-	public static void removeCompositionsInFiles(Composition toRemove) throws MyException {
-		LOG.debug("Start removeCompositionsInFiles");
+	public static void removeCompositionInFiles(Composition toRemove) throws MyException {
+		LOG.debug("Start removeCompositionInFiles");
 		for (Fichier file : toRemove.getFiles()) {
 			// Récupération des compositions du fichier XML
-			String filename = Constant.getXmlPath() + file.getFileName() + Constant.XML_EXTENSION;
-			List<Composition> importXML = ImportXML.importXML(filename);
+			String fileName = file.getFileName();
+			List<Composition> importXML = ImportXML.importXML(FichierUtils.buildXmlFilePath(fileName)
+					.map(path -> path).orElseThrow(() -> new MyException("Can't rebuild xml file path: " + fileName)));
 			if (importXML.isEmpty()) {
-				LOG.error("Fichier vide ! " + filename);
+				LOG.error("Empty file ! " + fileName);
+				continue;
 			}
 			// Suppresion de la liste de la composition à enlever
-			Composition toRemoveFromFile = CompositionUtils.compoExist(importXML, toRemove);
-			if (toRemoveFromFile != null) {
-				toRemoveFromFile.setDeleted(true);
+			Optional<Composition> compoFromFile = CompositionUtils.findByUuid(importXML, toRemove.getUuids());
+			if (compoFromFile.isPresent()) {
+				compoFromFile.get().setDeleted(true);
 			} else {
-				LOG.error(filename + Constant.NEW_LINE);
-				throw new MyException("compoExist null: " + toRemove.getArtist() + " " + toRemove.getTitre() + " "
-						+ toRemove.getRecordType());
+				LOG.error(fileName + Constant.NEW_LINE);
+				throw new MyException("Can't find composition to remove: " + toRemove.getArtist() + " " + toRemove.getTitre() + " "
+						+ toRemove.getRecordType() + " in file: " + fileName);
 			}
 			try {
 				// Sauvegarde des modifications
-				ExportXML.exportXML(importXML, file.getFileName());
+				ExportXML.exportXML(importXML, fileName);
 			} catch (IOException e) {
-				throw new MyException(
-						"Erreur lors de la suppresion d'une composition dans le fichier: " + file.getFileName(), e);
+				throw new MyException("Error when exporting file: " + fileName, e);
 			}
 		}
-		LOG.debug("End removeCompositionsInFiles");
+		LOG.debug("End removeCompositionInFiles");
 	}
 
 	/**

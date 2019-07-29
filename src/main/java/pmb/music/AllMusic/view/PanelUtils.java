@@ -11,6 +11,7 @@ import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -288,45 +289,36 @@ public final class PanelUtils {
 	/**
 	 * Supprime les compositions sélectionnées du tableau et des fichiers XML.
 	 * 
-	 * @param compoList la liste de composition
-	 * @param selected les lignes sélectionnées
-	 * @param label le label de résultat
-	 * @param artistIndex index de l'artist
-	 * @param titleIndex index du titre
-	 * @param typeIndex index du type
+	 * @param compoList a composition list displayed
+	 * @param uuids uuids of compositions to delete
+	 * @throws MyException
 	 */
-	@SuppressWarnings("unchecked")
-	public static void deleteCompositionAction(List<Composition> compoList, List<Object> selected, JLabel label,
-			int artistIndex, int titleIndex, int typeIndex) {
+	public static void deleteCompositionAction(List<Composition> compoList, List<String> uuids) throws MyException {
 		LOG.debug("Start deleteCompositionAction");
-		if (selected.isEmpty()) {
-			label.setText("Aucune composition sélectionnée !");
-			LOG.debug("End deleteCompositionAction, no selected composition");
-			return;
+		if (uuids == null || uuids.isEmpty()) {
+			throw new MyException("Aucune composition sélectionnée !");
 		}
-		label.setText("");
 		OngletPanel.getArtist().interruptUpdateArtist(true);
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		for (Object o : selected) {
-			Vector<String> v = (Vector<String>) o;
-			Composition toRemoveToFinal;
-			try {
-				toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML, v.get(artistIndex),
-						v.get(titleIndex), v.get(typeIndex), true);
-				Composition toRemoveToTable = CompositionUtils.findByArtistTitreAndType(compoList, v.get(artistIndex),
-						v.get(titleIndex), v.get(typeIndex), true);
-				compoList.get(SearchUtils.indexOf(compoList, toRemoveToTable)).setDeleted(true);
-				importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
-				CompositionUtils.removeCompositionsInFiles(toRemoveToFinal);
-			} catch (MyException e1) {
-				LOG.error("Erreur lors de la suppression d'une composition", e1);
-				return;
+		for (String uuid : uuids) {
+			Composition toRemoveToFinal = null;
+			Optional<Composition> found = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid));
+			if (found.isPresent()) {
+				toRemoveToFinal = found.get();
+			} else {
+				throw new MyException("Can't find composition to delete in final file");
 			}
-			// Update fichier panel data
+			// Update JTable Data
+			CompositionUtils.findByUuid(compoList, Arrays.asList(uuid)).ifPresent(c -> c.setDeleted(true));
+			// Update xml files
+			CompositionUtils.removeCompositionInFiles(toRemoveToFinal);
+			// Update Final File
+			toRemoveToFinal.setDeleted(true);
 			try {
 				for (Fichier file : toRemoveToFinal.getFiles()) {
+					// Update FichierPanel Data
 					List<Composition> compoListFromData = OngletPanel.getFichier().getCompoListFromData(file);
-					compoListFromData.get(SearchUtils.indexOf(compoListFromData, toRemoveToFinal)).setDeleted(true);
+					CompositionUtils.findByUuid(compoListFromData, toRemoveToFinal.getUuids()).ifPresent(c -> c.setDeleted(true));
 				}
 			} catch (Exception e) {
 				LOG.warn("Erreur lors de la mise à jour du panel", e);
@@ -336,10 +328,8 @@ public final class PanelUtils {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
 			OngletPanel.getArtist().updateArtistPanel();
 		} catch (IOException e1) {
-			LOG.error("Erreur lors de l'export du fichier final", e1);
-			label.setText("Erreur lors de l'export du fichier final !!" + e1);
+			throw new MyException("Erreur lors de l'export du fichier final !!", e1);
 		}
-		label.setText(selected.size() + " élément(s) supprimé(s)");
 		LOG.debug("End deleteCompositionAction");
 	}
 

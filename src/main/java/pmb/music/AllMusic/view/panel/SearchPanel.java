@@ -158,9 +158,15 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 		JButton delete = ComponentBuilder.buildJButton("Supprimer les compositions sélectionnées", 300,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(compoResult, tableResult.getModel().getSelected(), deleteLabel,
-					INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE);
+			List<Object> selected = tableResult.getModel().getSelected();
+			try {
+				PanelUtils.deleteCompositionAction(compoResult, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(INDEX_UUID)).get(0)).collect(Collectors.toList()));
 			updateTable();
+				deleteLabel.setText(selected.size() + " élément(s) supprimé(s)");
+			} catch (MyException e1) {
+				LOG.error("Error when deleting compositions in Search result", e1);
+				deleteLabel.setText("<html>" + e1.getMessage() + "</html>");
+			}
 		});
 		top.add(delete);
 
