@@ -264,9 +264,15 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		JButton delete = ComponentBuilder.buildJButton("<html>Supprimer les compositions sélectionnées</html>", 200,
 				Constant.ICON_DELETE);
 		delete.addActionListener((ActionEvent e) -> {
-			PanelUtils.deleteCompositionAction(compositionList, tableCompo.getModel().getSelected(), resultLabel,
-					INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE, INDEX_COMPO_TYPE);
+			List<Object> selected = tableCompo.getModel().getSelected();
+			try {
+				PanelUtils.deleteCompositionAction(compositionList, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(INDEX_COMPO_UUID)).get(0)).collect(Collectors.toList()));
 			updateCompoTable(compositionList, selectedFichierName, false);
+				resultLabel.setText(selected.size() + " élément(s) supprimé(s)");
+			} catch (MyException e1) {
+				LOG.error("Error when deleting compositions in Fichier result", e1);
+				resultLabel.setText("<html>" + e1.getMessage() + "</html>");
+			}
 		});
 		buttons.add(delete);
 		// CSV
