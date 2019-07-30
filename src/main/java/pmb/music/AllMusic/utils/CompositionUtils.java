@@ -468,54 +468,59 @@ public final class CompositionUtils {
 	/**
 	 * Modifie dans les fichiers XML, la composition donnée.
 	 * 
-	 * @param toModif la {@link Composition} à modifier des fichiers
-	 * @param newArtist {@link String} le nouvel artiste
-	 * @param newTitre {@link String} le nouveau titre
-	 * @param newType {@link String} le nouveau type
+	 * @param edited la {@link Composition} à modifier dans les fichiers
 	 * @param isDeleted {@code boolean} si la composition est supprimée
 	 * @throws MyException if the composition can't be found in the given file
 	 */
-	public static void modifyCompositionsInFiles(Composition toModif, String newArtist, String newTitre, String newType,
-			boolean isDeleted) throws MyException {
-		LOG.debug("Start modifyCompositionsInFiles");
-		for (Fichier file : toModif.getFiles()) {
+	public static void editCompositionsInFiles(Composition edited, boolean isDeleted) throws MyException {
+		LOG.debug("Start editCompositionsInFiles");
+		for (Fichier file : edited.getFiles()) {
 			// Récupération des compositions du fichier XML
-			String filename = Constant.getXmlPath() + file.getFileName() + Constant.XML_EXTENSION;
-			List<Composition> importXML = ImportXML.importXML(filename);
+			String fileName = file.getFileName();
+			String path = FichierUtils.buildXmlFilePath(fileName).map(x -> x)
+					.orElseThrow(() -> new MyException("File: " + fileName + " doesn't exist"));
+			List<Composition> importXML = ImportXML.importXML(path);
 			if (importXML.isEmpty()) {
-				LOG.error("Fichier vide ! " + filename);
+				throw new MyException("Empty file: " + path);
 			}
 			// Modificaton de la liste de la composition à enlever
-			Composition toModifFromFile = CompositionUtils.compoExist(importXML, toModif);
-			if (toModifFromFile == null) {
-				Optional<Composition> findByFile = CompositionUtils.findByFile(importXML, file, newArtist, newTitre);
-				if (findByFile.isPresent()) {
-					toModifFromFile = findByFile.get();
-				}
-			}
-			if (toModifFromFile != null) {
-				int indexOf = SearchUtils.indexOf(importXML, toModifFromFile);
-				Composition composition = importXML.get(indexOf);
-				composition.setArtist(newArtist);
-				composition.setTitre(newTitre);
-				composition.setRecordType(RecordType.valueOf(newType));
-				composition.setDeleted(isDeleted);
-				importXML.set(indexOf, composition);
+			Optional<Composition> toEditFromFile = CompositionUtils.findByUuid(importXML, edited.getUuids());
+			if (toEditFromFile.isPresent()) {
+				toEditFromFile.get().setArtist(edited.getArtist());
+				toEditFromFile.get().setTitre(edited.getTitre());
+				toEditFromFile.get().setRecordType(edited.getRecordType());
+				toEditFromFile.get().setDeleted(isDeleted);
 				try {
 					// Sauvegarde des modifications
-					ExportXML.exportXML(importXML, file.getFileName());
+					ExportXML.exportXML(importXML, fileName);
 				} catch (IOException e) {
 					throw new MyException(
-							"Erreur lors de la modification d'une composition dans le fichier: " + file.getFileName(),
+							"Erreur lors de la modification d'une composition dans le fichier: " + fileName,
 							e);
 				}
 			} else {
-				LOG.error(filename + Constant.NEW_LINE);
-				throw new MyException("Impossible de trouver la composition à modifier: " + toModif.getArtist() + " " + file
-						+ " " + toModif.getTitre() + " " + toModif.getRecordType());
+				LOG.error(path + Constant.NEW_LINE);
+				throw new MyException("Impossible de trouver la composition à modifier: " + edited.getArtist() + " " + file
+						+ " " + edited.getTitre() + " " + edited.getRecordType());
 			}
 		}
-		LOG.debug("End modifyCompositionsInFiles");
+		LOG.debug("End editCompositionsInFiles");
+	}
+	
+	/**
+	 * Copy all infos of a composition into another.
+	 * 
+	 * @param destination where the informations will go
+	 * @param source from where the informations are
+	 */
+	public static void copy(Composition source, Composition destination) {
+		destination.setArtist(source.getArtist());
+		destination.setFiles(source.getFiles().stream().map(Fichier::new).collect(Collectors.toList()));
+		destination.setTitre(source.getTitre());
+		destination.setRecordType(source.getRecordType());
+		destination.setCanBeMerged(source.isCanBeMerged());
+		destination.setDeleted(source.isDeleted());
+		destination.setUuids(source.getUuids().stream().map(String::new).collect(Collectors.toList()));
 	}
 
 	/**

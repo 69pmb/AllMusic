@@ -5,7 +5,8 @@ package pmb.music.AllMusic.model;
 
 import java.io.Serializable;
 import java.util.List;
-import java.util.stream.Collectors;
+
+import pmb.music.AllMusic.utils.CompositionUtils;
 
 /**
  * Une composition est ensemble composé d'un artiste et d'une oeuvre musicale
@@ -29,13 +30,7 @@ public class Composition implements Serializable {
 	 */
 	public Composition(Composition compo) {
 		super();
-		this.artist = compo.getArtist();
-		this.files = compo.getFiles().stream().map(Fichier::new).collect(Collectors.toList());
-		this.titre = compo.getTitre();
-		this.recordType = compo.getRecordType();
-		this.canBeMerged = compo.isCanBeMerged();
-		this.deleted = compo.isDeleted();
-		this.uuids = compo.getUuids().stream().map(String::new).collect(Collectors.toList());
+		CompositionUtils.copy(compo, this);
 	}
 
 	public Composition() {

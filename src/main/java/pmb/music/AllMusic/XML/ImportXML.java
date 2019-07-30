@@ -129,14 +129,7 @@ public final class ImportXML {
 			int init, int modulo, BigDecimal sizeBG) {
 		final AtomicInteger count = new AtomicInteger(init);
 		compoFusion.parallelStream().forEach(compo -> {
-			Composition compoExist = CompositionUtils.compoExist(new ArrayList<>(compoFinal), compo);
-			if (compoExist == null) {
-				compoFinal.add(compo);
-			} else {
-				compoExist.getFiles().addAll(compo.getFiles());
-				compoExist.setDeleted(compoExist.isDeleted() || compo.isDeleted());
-				compoExist.getUuids().addAll(compo.getUuids());
-			}
+			findAndMergeComposition(compoFinal, compo);
 			if (count.incrementAndGet() % modulo == 0) {
 				// Affiche dans l'ihm le pourcentage du calcul de fusion
 				updateResultLabel(Arrays
@@ -145,6 +138,25 @@ public final class ImportXML {
 						resultLabel);
 			}
 		});
+	}
+
+	/**
+	 * Search if the given composition exists in the given list. Then merge into it: simply add it if doesn't exist, merge it if already exist
+	 * 
+	 * @param list a list
+	 * @param compo a composition
+	 * @return {@code Optional.empty()} if not exist, the merged composition otherwise
+	 */
+	public static Optional<Composition> findAndMergeComposition(List<Composition> list, Composition compo) {
+		Composition compoExist = CompositionUtils.compoExist(new ArrayList<>(list), compo);
+		if (compoExist == null) {
+			list.add(compo);
+		} else {
+			compoExist.getFiles().addAll(compo.getFiles());
+			compoExist.setDeleted(compoExist.isDeleted() || compo.isDeleted());
+			compoExist.getUuids().addAll(compo.getUuids());
+		}
+		return Optional.ofNullable(compoExist);
 	}
 
 	private static void updateResultLabel(List<String> result2, final JTextArea resultLabel) {
