@@ -20,7 +20,6 @@ import java.util.stream.Collectors;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.KeyStroke;
@@ -188,9 +187,9 @@ public class DialogFileTable {
 		String titre = (String) selected.get(INDEX_TITLE);
 		List<Composition> xmlFile = ImportXML.importXML(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION);
 		Composition edited = xmlFile.stream()
-				.filter(c -> c.getFiles().get(0).getClassement().equals((Integer) selected.get(INDEX_RANK))
+				.filter(c -> c.getFiles().get(0).getClassement().equals(selected.get(INDEX_RANK))
 						&& StringUtils.equals(c.getTitre(), titre)
-						&& c.getFiles().get(0).getSize().equals((Integer) selected.get(INDEX_FILE_SIZE))
+						&& c.getFiles().get(0).getSize().equals(selected.get(INDEX_FILE_SIZE))
 						&& StringUtils.equals(c.getArtist(), artist))
 				.findFirst().orElseThrow(() -> new MyException("Can't find edited file"));
 		Fichier editedFile = edited.getFiles().get(0);
@@ -215,9 +214,9 @@ public class DialogFileTable {
 		edited.setRecordType(RecordType.valueOf(editedRow.get(INDEX_TYPE)));
 		edited.setDeleted(Boolean.valueOf(editedRow.get(INDEX_DELETED)));
 
-		Predicate<Fichier> filterFile = f -> !(f.getClassement().equals((Integer) selected.get(INDEX_RANK))
+		Predicate<Fichier> filterFile = f -> !(f.getClassement().equals(selected.get(INDEX_RANK))
 				&& StringUtils.equals(f.getFileName(), (String) selected.get(INDEX_FILE_NAME))
-				&& f.getSize().equals((Integer) selected.get(INDEX_FILE_SIZE)));
+				&& f.getSize().equals(selected.get(INDEX_FILE_SIZE)));
 
 		int indexFromFinal = importXML.indexOf(CompositionUtils.findByFile(importXML, editedFile, artist, titre)
 				.orElseThrow(() -> new MyException("Can't find composition in final file")));
@@ -267,7 +266,7 @@ public class DialogFileTable {
 		}
 
 		// Updates fichier panel data
-		PanelUtils.updateFichierPanelData(selected, INDEX_ARTIST, INDEX_TITLE, INDEX_TYPE, new JLabel(), edited);
+		PanelUtils.updateFichierPanelData(edited);
 
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());

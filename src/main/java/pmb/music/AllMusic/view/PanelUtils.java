@@ -43,8 +43,8 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
-import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
@@ -342,32 +342,27 @@ public final class PanelUtils {
 	 * @param indexTitre index of the title in the vector
 	 * @param indexType index of the record type in the vector
 	 * @param indexDeleted index of the deleted boolean in the vector
-	 * @param resultLabel result of the process
+	 * @param indexUuid result of the process
 	 * @throws MyException if something went wrong
 	 */
-	public static void modificationCompositionAction(Vector<String> selectedRow, List<Composition> compositionList,
-			int indexArtist, int indexTitre, int indexType, int indexDeleted, JLabel resultLabel) throws MyException {
-		LOG.debug("Start modificationCompositionAction");
+	public static void editCompositionAction(Vector<String> selectedRow, List<Composition> compositionList,
+			int indexArtist, int indexTitre, int indexType, int indexDeleted, int indexUuid) throws MyException {
+		LOG.debug("Start editCompositionAction");
+		if (selectedRow == null || selectedRow.isEmpty()) {
+			throw new MyException("Aucune composition sélectionnée !");
+		}
 		OngletPanel.getArtist().interruptUpdateArtist(true);
-		String label = "Élément modifié";
+		String uuid = MiscUtils.stringToUuids(selectedRow.get(indexUuid)).get(0);
 		Composition toModif;
 		List<Composition> importXML;
 		importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		try {
-			// On récupère la composition à modifier
-			toModif = CompositionUtils.findByArtistTitreAndType(compositionList, selectedRow.get(indexArtist),
-					selectedRow.get(indexTitre), selectedRow.get(indexType), true);
-		} catch (MyException e1) {
-			String log = "Erreur dans modificationCompositionAction, impossible de trouver la compo à modifier";
-			LOG.error(log, e1);
-			resultLabel.setText(log + e1.getMessage());
-			return;
+		// On récupère la composition à modifier
+		Optional<Composition> found = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid));
+		if (found.isPresent()) {
+			toModif = found.get();
+		} else {
+			throw new MyException("Can't find composition: " + selectedRow + " to edit in final file");
 		}
-		int indexOfXml = importXML.indexOf(CompositionUtils
-				.findByFile(importXML, toModif.getFiles().get(0), selectedRow.get(indexArtist),
-						selectedRow.get(indexTitre))
-				.orElseThrow(() -> new MyException("Can't find edited composition in final file")));
-		int indexOfResult = SearchUtils.indexOf(compositionList, toModif);
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, indexArtist, indexTitre, indexType,
 				indexDeleted);
@@ -388,84 +383,53 @@ public final class PanelUtils {
 		toModif.setRecordType(RecordType.valueOf(editedRow.get(indexType)));
 		toModif.setDeleted(Boolean.valueOf(editedRow.get(indexDeleted)));
 
-		// Modification du fichier final
-		importXML.remove(indexOfXml);
-		compositionList.remove(indexOfResult);
-		Composition compoExist = CompositionUtils.compoExist(importXML, toModif);
-		boolean isDeleted = false;
-		if (compoExist == null) {
+		// Edit final file and displayed list
+		importXML = importXML.stream().filter(c -> !c.getUuids().contains(uuid)).collect(Collectors.toList());
+		Optional<Composition> compoExist = ImportXML.findAndMergeComposition(importXML, toModif);
+		if (!compoExist.isPresent()) {
 			LOG.debug("Pas de regroupement");
-			importXML.add(toModif);
-			compositionList.add(toModif);
+			CompositionUtils.findByUuid(compositionList, Arrays.asList(uuid)).ifPresent(c -> {
+				c.setArtist(toModif.getArtist());
+				c.setTitre(toModif.getTitre());
+				c.setRecordType(toModif.getRecordType());
+				c.setDeleted(toModif.isDeleted());
+			});
 		} else {
 			LOG.debug("La compo existe déjà, on regroupe");
-			// regroupement avec une autre composition
-			isDeleted = compoExist.isDeleted() || toModif.isDeleted();
-			compoExist.getFiles().addAll(toModif.getFiles());
-			compoExist.setDeleted(isDeleted);
-			toModif.setDeleted(isDeleted);
-			// Liste des compositions affichées
-			Composition compoExistResult = CompositionUtils.compoExist(compositionList, toModif);
-			if (compoExistResult != null) {
-				// La compo apparait bien dans les resultats de recherche
-				compoExistResult.getFiles().addAll(toModif.getFiles());
-				compoExistResult.setDeleted(isDeleted);
-			}
+			// regroupement pour la liste des compositions affichées
+			compositionList = compositionList.stream().filter(c -> !c.getUuids().contains(uuid)).collect(Collectors.toList());
+			ImportXML.findAndMergeComposition(compositionList, toModif);
 		}
+
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
 			OngletPanel.getArtist().updateArtistPanel();
 		} catch (IOException e1) {
-			String log = "Erreur lors de l'export du fichier final !!";
-			LOG.error(log, e1);
-			label = log;
+			throw new MyException("Error when exporting final file", e1);
 		}
 
 		// On modifie les fichiers xml en conséquence
 		try {
-			CompositionUtils.modifyCompositionsInFiles(toModif, editedRow.get(indexArtist), editedRow.get(indexTitre),
-					editedRow.get(indexType), isDeleted);
+			CompositionUtils.editCompositionsInFiles(toModif, compoExist.map(Composition::isDeleted).orElse(toModif.isDeleted()));
 		} catch (MyException e1) {
-			String log = "Erreur lors de la modification d'une composition";
-			LOG.error(log, e1);
-			resultLabel.setText(log + e1);
-			return;
+			throw new MyException("Error editing a composition: " + editedRow, e1);
 		}
 
 		// Modification des données de fichier panel
-		if (compoExist == null) {
-			updateFichierPanelData(selectedRow, indexArtist, indexTitre, indexType, resultLabel, toModif);
-		}
-		resultLabel.setText(label);
-		LOG.debug("End modificationCompositionAction");
+		updateFichierPanelData(compoExist.map(c -> c).orElse(toModif));
+		LOG.debug("End editCompositionAction");
 	}
 
 	/**
 	 * Updates fichier panel data when a row has been edited.
 	 * 
-	 * @param selectedRow the row edited
-	 * @param indexArtist index of the artist in the row
-	 * @param indexTitre index of the title in the row
-	 * @param indexType index of the record type in the row
-	 * @param resultLabel jlabel holding process result
-	 * @param edited the composition edited
+	 * @param edited the edited composition
 	 */
-	public static void updateFichierPanelData(Vector<?> selectedRow, int indexArtist, int indexTitre, int indexType,
-			JLabel resultLabel, Composition edited) {
+	public static void updateFichierPanelData(Composition edited) {
 		for (Fichier file : edited.getFiles()) {
-			try {
-				List<Composition> compoListFichierPanel = OngletPanel.getFichier().getCompoListFromData(file).stream()
-						.filter(Objects::nonNull).collect(Collectors.toList());
-				Composition compoFichierPanel = CompositionUtils.findByArtistTitreAndType(compoListFichierPanel,
-						(String) selectedRow.get(indexArtist), (String) selectedRow.get(indexTitre),
-						(String) selectedRow.get(indexType), true);
-				compoListFichierPanel.set(SearchUtils.indexOf(compoListFichierPanel, compoFichierPanel), edited);
-				OngletPanel.getFichier().setCompoListFromData(file, compoListFichierPanel);
-			} catch (MyException e) {
-				String log = "Impossible de mettre à jour les données de Fichier Panel";
-				LOG.error(log, e);
-				resultLabel.setText(log + e.getMessage());
-			}
+			CompositionUtils.findByUuid(OngletPanel.getFichier().getCompoListFromData(file).stream()
+					.filter(Objects::nonNull).collect(Collectors.toList()), edited.getUuids())
+					.ifPresent(c -> CompositionUtils.copy(edited, c));
 		}
 	}
 
