@@ -89,49 +89,6 @@ public final class CompositionUtils {
 	}
 
 	/**
-	 * Checks if the given compositions are equals.
-	 * 
-	 * @param c1 first compo
-	 * @param c2 second compo
-	 * @param type type of compostions
-	 * @return true they are equals, false otherwise
-	 */
-	public static boolean isCompositionEquals(Composition c1, Composition c2, String type) {
-		if (!c1.getRecordType().toString().equals(type) || !c2.getRecordType().toString().equals(type)) {
-			return false;
-		}
-		final JaroWinklerDistance jaro = new JaroWinklerDistance();
-		String artist1 = c1.getArtist();
-		String artist2 = c2.getArtist();
-		boolean similarArtist = StringUtils.startsWithIgnoreCase(artist1, artist2)
-				|| StringUtils.startsWithIgnoreCase(artist2, artist1);
-		if (similarArtist) {
-			String titre1 = c1.getTitre().toLowerCase();
-			String titre2 = c2.getTitre().toLowerCase();
-			String remParTitre1 = SearchUtils.removeParentheses(titre1);
-			String parTitre1 = SearchUtils.removePunctuation(remParTitre1);
-			String remParTitre2 = SearchUtils.removeParentheses(titre2);
-			String parTitre2 = SearchUtils.removePunctuation(remParTitre2);
-			boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2)
-					|| StringUtils.startsWithIgnoreCase(parTitre2, parTitre1);
-			if (parTitreEqu
-					&& (StringUtils.containsIgnoreCase(remParTitre1, Constant.SEPARATOR_AND)
-							|| StringUtils.containsIgnoreCase(remParTitre2, Constant.SEPARATOR_AND))
-					&& !StringUtils.containsIgnoreCase(remParTitre1, "/")
-					&& !StringUtils.containsIgnoreCase(remParTitre2, "/")) {
-				String andTitre1 = SearchUtils
-						.removePunctuation(StringUtils.substringBefore(remParTitre1, Constant.SEPARATOR_AND));
-				String andTitre2 = SearchUtils
-						.removePunctuation(StringUtils.substringBefore(remParTitre2, Constant.SEPARATOR_AND));
-				parTitre1 = andTitre1;
-				parTitre2 = andTitre2;
-			}
-			return SearchUtils.isEqualsJaro(jaro, parTitre1, parTitre2, Constant.SCORE_LIMIT_TITLE_FUSION);
-		}
-		return false;
-	}
-
-	/**
 	 * Détermine si 2 artistes sont égaux en utilisant la distance de JaroWinkler.
 	 * 
 	 * @param artist un artist
@@ -544,10 +501,8 @@ public final class CompositionUtils {
 				}
 			} else {
 				LOG.error(filename + Constant.NEW_LINE);
-				String message = "Impossible de trouver la composition à modifier: " + toModif.getArtist() + " " + file
-						+ " " + toModif.getTitre() + " " + toModif.getRecordType();
-				LOG.error(message);
-				throw new MyException(message);
+				throw new MyException("Impossible de trouver la composition à modifier: " + toModif.getArtist() + " " + file
+						+ " " + toModif.getTitre() + " " + toModif.getRecordType());
 			}
 		}
 		LOG.debug("End modifyCompositionsInFiles");
