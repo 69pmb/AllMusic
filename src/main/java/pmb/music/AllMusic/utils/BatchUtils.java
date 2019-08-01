@@ -727,22 +727,21 @@ public final class BatchUtils {
 	private static void massDeletionForSongs(StringBuilder text, List<CsvComposition> compoCsv,
 			List<Composition> importXML) {
 		DeleteCompoDialog deleteDialog = new DeleteCompoDialog(null, compoCsv.size());
-		for (int i = 0; i < compoCsv.size(); i++) {
+		for (int i = 0 ; i < compoCsv.size() ; i++) {
 			// Search composition
 			CsvComposition compoToDelete = compoCsv.get(i);
-			if (StringUtils.isNotBlank(compoToDelete.getDeletedSong())) {
-				// Already processed
-				continue;
-			}
-			Map<String, String> criteria = fillSearchCriteriaForMassDeletion(RecordType.SONG.toString(),
-					compoToDelete.getArtist(), compoToDelete.getTitre());
+			if (!StringUtils.isNotBlank(compoToDelete.getDeletedSong())) {
+				// Not already processed
+				Map<String, String> criteria = fillSearchCriteriaForMassDeletion(RecordType.SONG.toString(),
+						compoToDelete.getArtist(), compoToDelete.getTitre());
 
-			// Search composition
-			List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
-					false);
-			if (processComposition(RecordType.SONG, importXML, deleteDialog, i, Arrays.asList(compoToDelete),
-					compoFound) == null) {
-				break;
+				// Search composition
+				List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
+						false);
+				if (processComposition(RecordType.SONG, importXML, deleteDialog, i, Arrays.asList(compoToDelete),
+						compoFound) == null) {
+					break;
+				}
 			}
 		}
 		addLine(text, "End of deleting Song", true);
@@ -789,14 +788,20 @@ public final class BatchUtils {
 				return null;
 			} else if (action) {
 				// Delete composition
-				try {
-					Composition toRemoveToFinal = CompositionUtils.findByArtistTitreAndType(importXML,
-							found.getArtist(), found.getTitre(), found.getRecordType().toString(), true);
-					importXML.get(SearchUtils.indexOf(importXML, toRemoveToFinal)).setDeleted(true);
-					CompositionUtils.removeCompositionInFiles(found);
-					result = "OK";
-				} catch (MyException e) {
-					LOG.error("Error when deleting compostion: " + compoToDelete, e);
+				Optional<Composition> toRemove = CompositionUtils.findByUuid(importXML,
+						found.getUuids());
+				if (toRemove.isPresent()) {
+					try {
+						toRemove.get().setDeleted(true);
+						toRemove.get().setDeleted(true);
+						CompositionUtils.removeCompositionInFiles(toRemove.get());
+						result = "OK";
+					} catch (MyException e) {
+						LOG.error("Error when deleting compostion: " + found, e);
+						result = "Error";
+					}
+				} else {
+					LOG.error("Can't find compostion in final: " + found);
 					result = "Error";
 				}
 			} else {
