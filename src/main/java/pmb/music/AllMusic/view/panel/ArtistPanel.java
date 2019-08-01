@@ -58,6 +58,7 @@ import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.component.MyInputText;
 import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
+import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 import pmb.music.AllMusic.view.model.ArtistModel;
 
 /**
@@ -176,7 +177,7 @@ public class ArtistPanel extends JPanel {
 							Optional<String> key = CompositionUtils.findArtistKey(searchResult,
 									new JaroWinklerDistance(), row.get().get(INDEX_ARTIST));
 							if (!key.isPresent()) {
-								LOG.error("Error when searching: " + row.get().get(INDEX_ARTIST) + " in data table");
+								new ExceptionDialog("Error when searching: " + row.get().get(INDEX_ARTIST) + " in data table", "", null).setVisible(true);
 							} else {
 								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
 										searchResult.get(key.get()), 600, DialogFileTable.INDEX_TITLE);

@@ -1051,10 +1051,10 @@ public final class BatchUtils {
 					if (StringUtils.split(split[1], "/").length > 1) {
 						List<String> titles = Arrays.asList(StringUtils.split(split[1], "/"));
 						for (String title : titles) {
-							checksOneIfDeleted(text, importXML, split, split[0].trim(), title.trim(), i, type);
+							checksOneIfDeleted(text, importXML, split[0].trim(), title.trim(), i, type);
 						}
 					} else {
-						checksOneIfDeleted(text, importXML, split, split[0].trim(), split[1].trim(), i, type);
+						checksOneIfDeleted(text, importXML, split[0].trim(), split[1].trim(), i, type);
 					}
 				} else {
 					addLine(text, line + ": Can't be splitted" + ", line " + i, false);
@@ -1069,8 +1069,8 @@ public final class BatchUtils {
 		return writeInFile(text, "ChecksIfDeleted.txt");
 	}
 
-	private static void checksOneIfDeleted(StringBuilder text, List<Composition> importXML, String[] split,
-			String artist, String title, int index, RecordType type) {
+	private static void checksOneIfDeleted(StringBuilder text, List<Composition> importXML, String artist,
+			String title, int index, RecordType type) {
 		Map<String, String> criteria = fillSearchCriteriaForMassDeletion(type.toString(), artist, title);
 		List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
 				false);

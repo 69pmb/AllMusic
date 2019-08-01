@@ -50,7 +50,9 @@ public class ExceptionDialog {
 	 */
 	public ExceptionDialog(String errorLabelText, String errorDescription, Throwable e) {
 		StringWriter errors = new StringWriter();
-		e.printStackTrace(new PrintWriter(errors));
+		if (e != null) {
+			e.printStackTrace(new PrintWriter(errors));
+		}
 		this.dialog = new JDialog();
 		dialog.setSize(dialogWidth, dialogHeight);
 		dialog.setLocationRelativeTo(null);
