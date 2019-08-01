@@ -182,20 +182,17 @@ public final class ImportXML {
 				.filter(Composition::isDeleted).collect(Collectors.toList());
 		for (Composition composition : allDeletedComposition) {
 			for (Fichier fichier : composition.getFiles()) {
-				if (composition.isDeleted()) {
-					List<Composition> xml = ImportXML
-							.importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
-					Optional<Composition> findByFile = CompositionUtils.findByFile(xml, fichier,
-							composition.getArtist(), composition.getTitre());
-					if (findByFile.isPresent() && !findByFile.get().isDeleted()) {
-						LOG.debug(
-								"Composition not deleted: " + composition.getArtist() + " - " + composition.getTitre());
-						findByFile.get().setDeleted(true);
-						try {
-							ExportXML.exportXML(xml, fichier.getFileName());
-						} catch (IOException e) {
-							throw new MyException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
-						}
+				List<Composition> xml = ImportXML
+						.importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
+				Optional<Composition> findByUuid = CompositionUtils.findByUuid(xml, composition.getUuids());
+				if (findByUuid.isPresent() && !findByUuid.get().isDeleted()) {
+					LOG.debug(
+							"Composition not deleted: " + composition.getArtist() + " - " + composition.getTitre());
+					findByUuid.get().setDeleted(true);
+					try {
+						ExportXML.exportXML(xml, fichier.getFileName());
+					} catch (IOException e) {
+						throw new MyException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
 					}
 				}
 			}
