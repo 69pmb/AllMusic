@@ -59,7 +59,7 @@ public class DialogFileTable {
 	private List<Composition> compoList = new ArrayList<>();
 
 	private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
-			"Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Score", "Classement", "", "Classé" };
+			"Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Score", "Classement", "", "", "Classé" };
 
 	public static final int INDEX_ARTIST = 0;
 	public static final int INDEX_TITLE = 1;
@@ -73,7 +73,8 @@ public class DialogFileTable {
 	public static final int INDEX_SCORE = 10;
 	public static final int INDEX_RANK = 11;
 	public static final int INDEX_DELETED = 12;
-	public static final int INDEX_SORTED = 13;
+	public static final int INDEX_UUID = 13;
+	public static final int INDEX_SORTED = 14;
 
 	private int defaultSort;
 	private MyTable fichiers;
@@ -158,6 +159,7 @@ public class DialogFileTable {
 			PanelUtils.colRenderer(fichiers.getTable(), true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null,
 					INDEX_SORTED, INDEX_RANK);
 			fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
+			fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_UUID - 1));
 
 			this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
 					KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
@@ -172,27 +174,22 @@ public class DialogFileTable {
 	}
 
 	/**
-	 * Launchs a dialog to modify the selected composition.
+	 * Launchs a dialog to edit the selected composition.
 	 * 
 	 * @param selected the selected row representing a composition
 	 * @throws MyException if something went wrong
 	 */
-	public void modifyCompositionAction(Vector<Object> selected) throws MyException {
-		LOG.debug("Start modifyCompositionAction");
+	public void editCompositionAction(Vector<Object> selected) throws MyException {
+		LOG.debug("Start editCompositionAction");
 		OngletPanel.getArtist().interruptUpdateArtist(true);
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		// On récupère la composition à modifier
 		String fileName = (String) selected.get(INDEX_FILE_NAME);
-		String artist = (String) selected.get(INDEX_ARTIST);
-		String titre = (String) selected.get(INDEX_TITLE);
-		List<Composition> xmlFile = ImportXML.importXML(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION);
-		Composition edited = xmlFile.stream()
-				.filter(c -> c.getFiles().get(0).getClassement().equals(selected.get(INDEX_RANK))
-						&& StringUtils.equals(c.getTitre(), titre)
-						&& c.getFiles().get(0).getSize().equals(selected.get(INDEX_FILE_SIZE))
-						&& StringUtils.equals(c.getArtist(), artist))
-				.findFirst().orElseThrow(() -> new MyException("Can't find edited file"));
-		Fichier editedFile = edited.getFiles().get(0);
+		List<String> uuid = MiscUtils.stringToUuids((String) selected.get(INDEX_UUID));
+		List<Composition> xmlFile = ImportXML.importXML(FichierUtils.buildXmlFilePath(fileName)
+				.orElseThrow(() -> new MyException("File doesn't exist: " + fileName)));
+		Composition edited = CompositionUtils.findByUuid(xmlFile, uuid).orElseThrow(() -> new MyException("Can't find edited composition: " + selected));
+		List<Fichier> files = CompositionUtils.findByUuid(importXML, uuid).map(Composition::getFiles).orElse(new ArrayList<Fichier>());
 		// Lancement de la popup de modification
 		ModifyCompositionDialog md = new ModifyCompositionDialog(
 				selected.stream().map(Object::toString).collect(Collectors.toCollection(Vector::new)), INDEX_ARTIST,
@@ -218,55 +215,31 @@ public class DialogFileTable {
 				&& StringUtils.equals(f.getFileName(), (String) selected.get(INDEX_FILE_NAME))
 				&& f.getSize().equals(selected.get(INDEX_FILE_SIZE)));
 
-		int indexFromFinal = importXML.indexOf(CompositionUtils.findByFile(importXML, editedFile, artist, titre)
-				.orElseThrow(() -> new MyException("Can't find composition in final file")));
-		importXML.get(indexFromFinal).setFiles(
-				importXML.get(indexFromFinal).getFiles().stream().filter(filterFile).collect(Collectors.toList()));
-		int indexCompoList = compoList.indexOf(CompositionUtils.findByFile(compoList, editedFile, artist, titre)
-				.orElseThrow(() -> new MyException("Can't find composition in dialog data")));
-		compoList.get(indexCompoList).setFiles(
-				compoList.get(indexCompoList).getFiles().stream().filter(filterFile).collect(Collectors.toList()));
-		Composition compoExist = CompositionUtils.compoExist(importXML, edited);
-		boolean isDeleted = false;
-		if (compoExist == null) {
-			LOG.debug("Pas de regroupement");
-			importXML.add(edited);
-		} else {
+		// Remove edited fichier in final file
+		removeFichierFromComposition(importXML, uuid, filterFile);
+		// Remove edited fichier in displayed list
+		removeFichierFromComposition(compoList, uuid, filterFile);
+
+		Optional<Composition> compoExist = ImportXML.findAndMergeComposition(importXML, edited, true);
+		if (compoExist.isPresent()) {
 			LOG.debug("La compo existe déjà, on regroupe");
-			// regroupement avec une autre composition
-			isDeleted = compoExist.isDeleted() || edited.isDeleted();
-			compoExist.getFiles().addAll(edited.getFiles());
-			compoExist.setDeleted(isDeleted);
-			edited.setDeleted(isDeleted);
 			// Liste des compositions affichées
-			Composition compoExistResult = CompositionUtils.compoExist(compoList, edited);
-			if (compoExistResult != null) {
-				// La compo apparait bien dans les resultats de recherche
-				compoExistResult.getFiles().addAll(edited.getFiles());
-				compoExistResult.setDeleted(isDeleted);
-			}
+			ImportXML.findAndMergeComposition(compoList, edited, false);
 		}
 
 		if (OngletPanel.getOnglets().getSelectedIndex() == 0) {
 			LOG.debug("Updates search panel data");
 			List<Composition> searchPanelCompo = OngletPanel.getSearch().getCompoResult();
-			int indexOfSearchPanel = searchPanelCompo
-					.indexOf(CompositionUtils.findByFile(searchPanelCompo, editedFile, artist, titre)
-							.orElseThrow(() -> new MyException("Can't find edited composition in search parnel data")));
-			searchPanelCompo.get(indexOfSearchPanel).setFiles(searchPanelCompo.get(indexOfSearchPanel).getFiles()
-					.stream().filter(filterFile).collect(Collectors.toList()));
-			compoExist = CompositionUtils.compoExist(searchPanelCompo, edited);
-			if (compoExist == null) {
-				searchPanelCompo.add(indexOfSearchPanel, edited);
-			} else {
-				compoExist.getFiles().addAll(edited.getFiles());
-				compoExist.setDeleted(isDeleted);
+			if (CompositionUtils.findByUuid(searchPanelCompo, uuid).isPresent()) {
+				removeFichierFromComposition(searchPanelCompo, uuid, filterFile);
 			}
+			ImportXML.findAndMergeComposition(searchPanelCompo, edited, true);
 			OngletPanel.getSearch().updateTable();
 		}
 
 		// Updates fichier panel data
-		PanelUtils.updateFichierPanelData(edited);
+		compoExist.ifPresent(c -> files.addAll(c.getFiles()));
+		OngletPanel.getFichier().reprocessSpecificFichier(importXML, files);
 
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
@@ -288,6 +261,22 @@ public class DialogFileTable {
 		PanelUtils.colRenderer(fichiers.getTable(), true, INDEX_DELETED, INDEX_TYPE, INDEX_CAT, null, null,
 				INDEX_SORTED, INDEX_RANK);
 		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_DELETED));
-		LOG.debug("End modifyCompositionAction");
+		fichiers.removeColumn(fichiers.getColumnModel().getColumn(INDEX_UUID - 1));
+		LOG.debug("End editCompositionAction");
+	}
+
+	/**
+	 * Find a composition by its uuid and then remove the given fichier from it.
+	 * 
+	 * @param list a list of composition
+	 * @param uuids uuid of the fichier to remove
+	 * @param filterFile filter of fichier
+	 * @throws MyException if can't find the composition
+	 */
+	private void removeFichierFromComposition(List<Composition> list, List<String> uuids, Predicate<Fichier> filterFile) throws MyException {
+		Composition finalCompo = CompositionUtils.findByUuid(list, uuids)
+				.orElseThrow(() -> new MyException("Can't find composition in given list"));
+		finalCompo.setFiles(finalCompo.getFiles().stream().filter(filterFile).collect(Collectors.toList()));
+		finalCompo.setUuids(finalCompo.getUuids().stream().filter(ids -> !uuids.contains(ids)).collect(Collectors.toList()));
 	}
 }

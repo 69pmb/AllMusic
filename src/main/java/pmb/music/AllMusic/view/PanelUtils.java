@@ -385,7 +385,7 @@ public final class PanelUtils {
 
 		// Edit final file and displayed list
 		importXML = importXML.stream().filter(c -> !c.getUuids().contains(uuid)).collect(Collectors.toList());
-		Optional<Composition> compoExist = ImportXML.findAndMergeComposition(importXML, toModif);
+		Optional<Composition> compoExist = ImportXML.findAndMergeComposition(importXML, toModif, true);
 		if (!compoExist.isPresent()) {
 			LOG.debug("Pas de regroupement");
 			CompositionUtils.findByUuid(compositionList, Arrays.asList(uuid)).ifPresent(c -> {
@@ -398,7 +398,7 @@ public final class PanelUtils {
 			LOG.debug("La compo existe déjà, on regroupe");
 			// regroupement pour la liste des compositions affichées
 			compositionList = compositionList.stream().filter(c -> !c.getUuids().contains(uuid)).collect(Collectors.toList());
-			ImportXML.findAndMergeComposition(compositionList, toModif);
+			ImportXML.findAndMergeComposition(compositionList, toModif, true);
 		}
 
 		try {
@@ -422,6 +422,9 @@ public final class PanelUtils {
 
 	/**
 	 * Updates fichier panel data when a row has been edited.
+	 * <p>
+	 * Recover composition's files by name and find composition edited by uuid. And then replace it by the given composition.
+	 * </p>
 	 * 
 	 * @param edited the edited composition
 	 */

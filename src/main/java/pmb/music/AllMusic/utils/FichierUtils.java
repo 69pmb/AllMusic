@@ -131,6 +131,8 @@ public final class FichierUtils {
 				v.addElement(f.getClassement());
 				// Deleted
 				v.addElement(Boolean.toString(compo.isDeleted()));
+				// Uuid
+				v.addElement(MiscUtils.uuidsToString(compo.getUuids()));
 			}
 			v.addElement(f.getSorted() ? "Oui" : "Non");
 			result.add(v);

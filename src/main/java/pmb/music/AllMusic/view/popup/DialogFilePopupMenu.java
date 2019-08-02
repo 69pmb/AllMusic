@@ -53,12 +53,11 @@ public class DialogFilePopupMenu extends PopupMenu {
 		ComponentBuilder.buildMenuItem(menu, "Modifier cette composition", KeyEvent.VK_E, (ActionEvent e) -> {
 			try {
 				this.setVisible(false);
-				dialogFileTable.modifyCompositionAction((Vector<Object>) selectedRow);
+				dialogFileTable.editCompositionAction((Vector<Object>) selectedRow);
 			} catch (MyException e1) {
 				LOG.error("An exception has been thrown when editing composition: ", e1);
-				ExceptionDialog ed = new ExceptionDialog("An exception has been thrown when editing composition",
-						e1.getMessage(), e1);
-				ed.setVisible(true);
+				new ExceptionDialog("An exception has been thrown when editing composition",
+						e1.getMessage(), e1).setVisible(true);
 			}
 			LOG.debug("End edit");
 		}, null);

@@ -392,23 +392,43 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			ImportXML.importXML(Constant.getFinalFilePath()).parallelStream()
 					.forEach(c -> c.getFiles().parallelStream().forEach(f -> {
 						Optional<Entry<Fichier, List<Composition>>> entry = findFichierInMap(f.getFileName());
+						Composition copy = new Composition();
+						CompositionUtils.copy(c, copy);
 						if (entry.isPresent()) {
-							data.get(entry.get().getKey()).add(c);
+							data.get(entry.get().getKey()).add(copy);
 						} else {
-							data.put(f, new LinkedList<>(Arrays.asList(c)));
+							data.put(f, new LinkedList<>(Arrays.asList(copy)));
 						}
 					}));
-			searchResult = new ConcurrentHashMap<>(); // the map displays in the table
-			data.entrySet().stream().forEach(e -> searchResult.put(e.getKey(),
-					e.getValue().stream().map(Composition::new).collect(Collectors.toList())));
+			copyDataInSearchResult();
 			LOG.debug("Data calculated");
 		}).start();
 		LOG.debug("End initData");
 	}
 
+	private void copyDataInSearchResult() {
+			searchResult = new ConcurrentHashMap<>(); // the map displays in the table
+			data.entrySet().stream().forEach(e -> searchResult.put(e.getKey(),
+					e.getValue().stream().map(Composition::new).collect(Collectors.toList())));
+	}
+
 	private Optional<Entry<Fichier, List<Composition>>> findFichierInMap(String fileName) {
 		return data.entrySet().stream()
 				.filter(entry -> StringUtils.equalsIgnoreCase(entry.getKey().getFileName(), fileName)).findFirst();
+	}
+
+	/**
+	 * Recalculates data for given files from given list.
+	 * 
+	 * @param list new data
+	 * @param files the files to reprocess
+	 */
+	public void reprocessSpecificFichier(List<Composition> list, List<Fichier> files) {
+		files.parallelStream().forEach(f -> 
+			setCompoListFromData(f, list.parallelStream()
+					.filter(c -> c.getFiles().stream().map(Fichier::getFileName).anyMatch(name -> StringUtils.equalsIgnoreCase(name, f.getFileName())))
+				.collect(Collectors.toList()))
+		);
 	}
 
 	/**
