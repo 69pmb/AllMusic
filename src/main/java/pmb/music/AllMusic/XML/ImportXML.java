@@ -129,7 +129,7 @@ public final class ImportXML {
 			int init, int modulo, BigDecimal sizeBG) {
 		final AtomicInteger count = new AtomicInteger(init);
 		compoFusion.parallelStream().forEach(compo -> {
-			findAndMergeComposition(compoFinal, compo);
+			findAndMergeComposition(compoFinal, compo, true);
 			if (count.incrementAndGet() % modulo == 0) {
 				// Affiche dans l'ihm le pourcentage du calcul de fusion
 				updateResultLabel(Arrays
@@ -145,13 +145,14 @@ public final class ImportXML {
 	 * 
 	 * @param list a list
 	 * @param compo a composition
+	 * @param addIfNotExist if true, add given composition to list if not found
 	 * @return {@code Optional.empty()} if not exist, the merged composition otherwise
 	 */
-	public static Optional<Composition> findAndMergeComposition(List<Composition> list, Composition compo) {
+	public static Optional<Composition> findAndMergeComposition(List<Composition> list, Composition compo, boolean addIfNotExist) {
 		Composition compoExist = CompositionUtils.compoExist(new ArrayList<>(list), compo);
-		if (compoExist == null) {
+		if (compoExist == null && addIfNotExist) {
 			list.add(compo);
-		} else {
+		} else if (compoExist != null) {
 			compoExist.getFiles().addAll(compo.getFiles());
 			compoExist.setDeleted(compoExist.isDeleted() || compo.isDeleted());
 			compoExist.getUuids().addAll(compo.getUuids());
