@@ -206,13 +206,13 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 				.withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
 				.withFlowLayout(true).withLabel("Type : ").withPanelWidth(200).withComponentWidth(150)
 				.withLabelWidth(150).build();
-		// Sorted
-		sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs).withLabel("Classé : ")
-				.withFlowLayout(true).withPanelWidth(100).withComponentWidth(80).withLabelWidth(150).build();
 		// Deleted
 		deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs)
 				.withLabel("Supprimés : ").withFlowLayout(true).withInitialValue(true).withPanelWidth(100)
 				.withComponentWidth(80).withLabelWidth(150).build();
+		// Sorted
+		sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs).withLabel("Classé : ")
+				.withFlowLayout(true).withPanelWidth(100).withComponentWidth(80).withLabelWidth(150).build();
 		header.add(inputs);
 	}
 
