@@ -1237,6 +1237,16 @@ public final class BatchUtils {
 		LOG.debug("End detectsDuplicateFinal");
 	}
 
+	/**
+	 * Goes through final file and stops when detect 2 similar compositions but not merged.
+	 * 
+	 * @param type record type
+	 * @param jaro a jaro instance
+	 * @param ignoreUnmergeableFiles if ignore composition with <i>mergeable</i> at true
+	 * @param result result holder
+	 * @param batchPanel for result purpose
+	 * @return true if found mergeable compositions, false if nothing found
+	 */
 	private static boolean findFirstDuplicate(String type, final JaroWinklerDistance jaro,
 			boolean ignoreUnmergeableFiles, StringBuilder result, BatchPanel batchPanel) {
 		LOG.debug("Start findFirstDuplicate");
@@ -1357,11 +1367,18 @@ public final class BatchUtils {
 		return false;
 	}
 
+	/**
+	 * Merges 2 compositions.
+	 * 
+	 * @param importXML the list holding the compositions to merge
+	 * @param index1 index of the 1st
+	 * @param index2 index of the 2nd
+	 * @param result for logging
+	 */
 	private static void mergeTwoCompositions(List<Composition> importXML, int index1, int index2,
 			StringBuilder result) {
 		LOG.debug("Start mergeTwoCompositions");
 		Composition c1 = importXML.get(index1);
-		List<Fichier> files1 = c1.getFiles();
 		Composition c2 = importXML.get(index2);
 
 		boolean isDeleted = c1.isDeleted() || c2.isDeleted();
@@ -1372,28 +1389,30 @@ public final class BatchUtils {
 		addLine(result, "j: " + index2, true);
 		addLine(result, "c1: " + c1, true);
 		addLine(result, "c2: " + c2, true);
-		Composition tempC2 = new Composition(c2);
-		c2.getFiles().addAll(files1);
 		if (((c1.getFiles().size() >= c2.getFiles().size()
 				&& !StringUtils.containsIgnoreCase(c1.getArtist(), Constant.SEPARATOR_AND))
 				|| StringUtils.containsIgnoreCase(c2.getArtist(), Constant.SEPARATOR_AND))) {
 			c2.setArtist(c1.getArtist());
 			c2.setTitre(c1.getTitre());
 			try {
-				CompositionUtils.editCompositionsInFiles(tempC2, isDeleted);
+				CompositionUtils.editCompositionsInFiles(c2, isDeleted);
 			} catch (MyException e) {
 				addLine(result, "Erreur modif compo" + e.getMessage(), true);
 				LOG.error("Erreur modif compo", e);
 			}
 		} else {
 			try {
+				c1.setArtist(c2.getArtist());
+				c1.setTitre(c2.getTitre());
 				CompositionUtils.editCompositionsInFiles(c1, isDeleted);
 			} catch (MyException e) {
 				addLine(result, "Erreur modif compo" + e.getMessage(), true);
 				LOG.error("Erreur modif compo", e);
 			}
 		}
-		importXML.remove(c1);
+		c2.getFiles().addAll(c1.getFiles());
+		c2.getUuids().addAll(c1.getUuids());
+		importXML.remove(index1);
 		try {
 			ExportXML.exportXML(importXML, Constant.getFinalFile());
 		} catch (IOException e) {
