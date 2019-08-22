@@ -495,7 +495,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	@Override
 	public void modifyCompositionAction(Vector<String> selected) throws MyException {
 		LOG.debug("Start modifyCompositionAction");
-		PanelUtils.editCompositionAction(selected, compositionList, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE,
+		compositionList = PanelUtils.editCompositionAction(selected, compositionList, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE,
 				INDEX_COMPO_TYPE, INDEX_COMPO_DELETED, INDEX_COMPO_UUID);
 		updateCompoTable(compositionList, selectedFichierName, false);
 		LOG.debug("End modifyCompositionAction");
