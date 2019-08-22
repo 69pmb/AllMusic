@@ -415,7 +415,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 			deleteLabel.setText(msg);
 			LOG.debug(msg);
 		} else {
-			PanelUtils.editCompositionAction(selectedRow, compoResult, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE,
+			compoResult = PanelUtils.editCompositionAction(selectedRow, compoResult, INDEX_ARTIST, INDEX_TITRE, INDEX_TYPE,
 					INDEX_DELETED, INDEX_UUID);
 			updateTable();
 		}
