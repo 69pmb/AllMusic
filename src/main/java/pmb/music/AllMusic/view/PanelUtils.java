@@ -343,9 +343,10 @@ public final class PanelUtils {
 	 * @param indexType index of the record type in the vector
 	 * @param indexDeleted index of the deleted boolean in the vector
 	 * @param indexUuid result of the process
+	 * @return
 	 * @throws MyException if something went wrong
 	 */
-	public static void editCompositionAction(Vector<String> selectedRow, List<Composition> compositionList,
+	public static List<Composition> editCompositionAction(Vector<String> selectedRow, List<Composition> compositionList,
 			int indexArtist, int indexTitre, int indexType, int indexDeleted, int indexUuid) throws MyException {
 		LOG.debug("Start editCompositionAction");
 		if (selectedRow == null || selectedRow.isEmpty()) {
@@ -374,7 +375,7 @@ public final class PanelUtils {
 			editedRow = md.getCompo();
 		} else {
 			LOG.debug("Aucune modification");
-			return;
+			return compositionList;
 		}
 
 		// On modifie la composition
@@ -418,6 +419,7 @@ public final class PanelUtils {
 		// Modification des données de fichier panel
 		updateFichierPanelData(compoExist.map(c -> c).orElse(toModif));
 		LOG.debug("End editCompositionAction");
+		return compositionList;
 	}
 
 	/**
