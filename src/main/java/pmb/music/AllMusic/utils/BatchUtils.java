@@ -612,22 +612,24 @@ public final class BatchUtils {
 			} else if (action) {
 				// Edit composition
 				Fichier file = c.getFiles().get(0);
+				String uuid = MiscUtils.getUuid();
 
 				List<Composition> finalFile = ImportXML.importXML(Constant.getFinalFilePath());
-				splitComposition(finalFile, dialog, c, file, true);
+				finalFile = splitComposition(finalFile, dialog, c.getUuids(), uuid, true);
 
 				List<Composition> xmlFile = ImportXML
 						.importXML(FichierUtils.buildXmlFilePath(file.getFileName()).orElse(null));
-				splitComposition(xmlFile, dialog, c, file, false);
+				xmlFile = splitComposition(xmlFile, dialog, c.getUuids(), uuid, false);
 
 				try {
 					ExportXML.exportXML(finalFile, Constant.getFinalFile());
-					ExportXML.exportXML(xmlFile, file.getFileName());
+					ExportXML.exportXML(CompositionUtils.sortByRank(xmlFile), file.getFileName());
 				} catch (IOException e) {
 					LOG.error("Error when exporting a file", e);
 				}
 			} else {
 				// Skip composition
+				LOG.debug("Skip");
 			}
 		}
 
@@ -635,39 +637,35 @@ public final class BatchUtils {
 		return writeInFile(result, Constant.BATCH_FILE);
 	}
 
-	private static void splitComposition(List<Composition> list, SlashEditDialog dialog, Composition c, Fichier file,
-			boolean fusion) {
-		Composition compoInList = CompositionUtils.findByFile(list, file, c.getArtist(), c.getTitre()).orElse(null);
-		if (compoInList != null) {
-			int indexOf = SearchUtils.indexOf(list, compoInList);
+	/**
+	 * Splits the given composition into 2 and merge it in given list.
+	 * 
+	 * @param list where to merge
+	 * @param dialog holding new titles
+	 * @param uuids uuid of edited composition
+	 * @param newUuid new generated uuid
+	 * @param fusion if find if existing in list
+	 */
+	private static List<Composition> splitComposition(List<Composition> list, SlashEditDialog dialog, List<String> uuids, String newUuid, boolean fusion) {
+		Optional<Composition> found = CompositionUtils.findByUuid(list, uuids);
+		if (found.isPresent()) {
+			Composition compoInList = found.get();
 			Composition c2 = new Composition(compoInList);
 			compoInList.setTitre(StringUtils.trim(dialog.getTitle1()));
 			c2.setTitre(StringUtils.trim(dialog.getTitle2()));
-			list.add(indexOf + 1, c2);
+			c2.setUuids(new LinkedList<>(Arrays.asList(newUuid)));
 
 			if (fusion) {
-				boolean merged = fusion(list, compoInList, indexOf);
-				fusion(list, c2, merged ? indexOf : indexOf + 1);
+				list = list.stream().filter(c -> !c.getUuids().contains(uuids.get(0))).collect(Collectors.toList());
+				ImportXML.findAndMergeComposition(list, compoInList, true);
+				ImportXML.findAndMergeComposition(list, c2, true);
+			} else {
+				list.add(c2);
 			}
-
 		} else {
 			LOG.warn("Warning could not find composition in list");
 		}
-	}
-
-	private static boolean fusion(List<Composition> list, Composition c, int indexOf) {
-		boolean isDeleted = false;
-		list.remove(indexOf);
-		Composition compoExist = CompositionUtils.compoExist(list, c);
-		if (compoExist != null) {
-			LOG.debug("Composition exists -> fusion");
-			isDeleted = compoExist.isDeleted() || c.isDeleted();
-			compoExist.getFiles().addAll(c.getFiles());
-			compoExist.setDeleted(isDeleted);
-		} else {
-			list.add(indexOf, c);
-		}
-		return compoExist != null;
+		return list;
 	}
 
 	/**
