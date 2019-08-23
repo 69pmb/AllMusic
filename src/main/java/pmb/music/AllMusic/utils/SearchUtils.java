@@ -354,41 +354,4 @@ public final class SearchUtils {
 				.replaceAll("\\{", "").replaceAll("\\}", "").replaceAll("\\[", "").replaceAll("\\]", "")
 				.replaceAll("\\+", "").toLowerCase();
 	}
-
-	/**
-	 * Returne l'index de la 1ère occurence de l'élement donné dans la liste ou -1
-	 * si la liste ne le contient pas.
-	 * 
-	 * @param list {@code List<Composition>} la liste
-	 * @param o {@link Composition} l'élement à rechercher
-	 * @return le numéro d'index dans la liste ou -1 si non trouvé
-	 */
-	public static int indexOf(List<Composition> list, Composition o) {
-		int result;
-		if (list == null || list.isEmpty() || o == null) {
-			LOG.error("List or Composition empty: " + o);
-			result = -1;
-		} else {
-			result = list.indexOf(new Composition(o));
-			if (result == -1) {
-				int i = -1;
-				Composition composition;
-				do {
-					i++;
-					composition = list.get(i);
-				} while (i < list.size() - 1 && !(StringUtils.equals(composition.getArtist(), o.getArtist())
-						&& StringUtils.equals(composition.getTitre(), o.getTitre())
-						&& StringUtils.equals(composition.getRecordType().toString(), o.getRecordType().toString())
-						&& composition.getFiles().size() == o.getFiles().size()));
-				if (i == list.size()) {
-					LOG.error("Error in indexOf: " + o);
-				} else {
-					LOG.debug("indexOf found: " + o.getArtist() + " - " + o.getTitre() + " - " + i);
-					result = i;
-				}
-			}
-		}
-		return result;
-	}
-
 }

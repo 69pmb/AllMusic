@@ -32,25 +32,4 @@ public class MyException extends Exception {
 	public MyException() {
 		super();
 	}
-
-	/**
-	 * Constructeur.
-	 * 
-	 * @param message le message d'erreur
-	 * @param cause la cause de l'erreur
-	 * @param enableSuppression whether or not suppression is enabled or disabled
-	 * @param writableStackTrace whether or not the stack trace should be writable
-	 */
-	public MyException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-		super(message, cause, enableSuppression, writableStackTrace);
-	}
-
-	/**
-	 * Constructeur avec le throwable.
-	 * 
-	 * @param cause la cause de l'erreur
-	 */
-	public MyException(Throwable cause) {
-		super(cause);
-	}
 }
