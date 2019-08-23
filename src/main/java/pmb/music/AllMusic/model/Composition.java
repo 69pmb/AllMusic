@@ -111,7 +111,7 @@ public class Composition implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Composition [artist=" + artist + ", files=" + files + ", titre=" + titre + ", recordType=" + recordType
+		return "Composition [artist=" + artist + ", files=" + files + ", titre=" + titre + ", uuids=" + uuids + ", recordType=" + recordType
 				+ ", canBeMerged=" + canBeMerged + ", deleted=" + deleted + "]";
 	}
 
