@@ -256,11 +256,11 @@ public class OngletPanel extends JPanel {
 		return artist;
 	}
 
-	public static void setFichier(FichierPanel fichier) {
+	private static void setFichier(FichierPanel fichier) {
 		OngletPanel.fichier = fichier;
 	}
 
-	public static void setArtist(ArtistPanel artist) {
+	private static void setArtist(ArtistPanel artist) {
 		OngletPanel.artist = artist;
 	}
 
@@ -268,7 +268,7 @@ public class OngletPanel extends JPanel {
 		return search;
 	}
 
-	public static void setSearch(SearchPanel search) {
+	private static void setSearch(SearchPanel search) {
 		OngletPanel.search = search;
 	}
 
@@ -276,7 +276,7 @@ public class OngletPanel extends JPanel {
 		return onglets;
 	}
 
-	public static void setOnglets(JTabbedPane onglets) {
+	private static void setOnglets(JTabbedPane onglets) {
 		OngletPanel.onglets = onglets;
 	}
 }

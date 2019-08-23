@@ -267,7 +267,7 @@ public final class FichierUtils {
 	 * @param destination new name
 	 * @return true if and only if the renaming succeeded; false otherwise
 	 */
-	public static boolean renameFile(String source, String destination) {
+	private static boolean renameFile(String source, String destination) {
 		return new File(source).renameTo(new File(destination));
 	}
 
