@@ -46,12 +46,6 @@ public class Constant {
 
 	public static final String ANSI_ENCODING = "Cp1252";
 
-	public static final String UTF8_ENCODING = "UTF-8";
-
-	public static final String SEPARATOR_DATE = " ; ";
-
-	public static final String REGULAR_DASH = "-";
-
 	public static final String DOT = ".";
 
 	public static final String QUOTE = "\"";
@@ -67,8 +61,6 @@ public class Constant {
 	public static final String TXT_EXTENSION = ".txt";
 
 	public static final String PACKAGE_NAME = "pmb.music";
-
-	private static final String[] SEPARATORS = { "-", "-", "‒", "–", "—", "―", "-", " - ", " - ", " – ", " — ", " - " };
 
 	private static final String[] NOT_SEPARATORS = { "(", ")", DOT, ",", "#", "'", "!", "*", "?", "/" };
 
@@ -265,10 +257,6 @@ public class Constant {
 	 */
 	public DateTimeFormatter getDateDTF() {
 		return dateDTF;
-	}
-
-	public static String[] getSeparators() {
-		return SEPARATORS;
 	}
 
 	public static String[] getNotSeparators() {
