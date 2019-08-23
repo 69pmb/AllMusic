@@ -35,7 +35,7 @@ public final class DropBoxUtils {
 		LOG.debug("End initClient");
 	}
 
-	public static DbxClientV2 getClientDropBox() {
+	private static DbxClientV2 getClientDropBox() {
 		if (client == null) {
 			initClient();
 		}

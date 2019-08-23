@@ -30,7 +30,7 @@ public class PopupMenu {
 	private static final Logger LOG = LogManager.getLogger(PopupMenu.class);
 	protected Vector<?> selectedRow;
 	protected JPopupMenu menu;
-	protected Point point;
+	private Point point;
 	private JTable table;
 
 	/**

@@ -120,7 +120,7 @@ public class ExportXML {
 	 * @throws UnsupportedEncodingException
 	 * @throws IOException
 	 */
-	protected static void saveFile(String fileName, Document doc) throws IOException {
+	private static void saveFile(String fileName, Document doc) throws IOException {
 		LOG.debug("Start saveFile");
 		// Création du dossier resources
 		FichierUtils.createFolderIfNotExists(Constant.getResourcesDir());

@@ -66,6 +66,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 		setLabel();
 		insertItemAt(selectedItem, 0);
 		this.addPopupMenuListener(new PopupMenuListener() {
+			@Override
 			public void popupMenuWillBecomeVisible(PopupMenuEvent e) {
 				if (getModel().getElementAt(0).equals(selectedItem)) {
 					removeItemAt(0);
@@ -74,12 +75,14 @@ public class JComboCheckBox extends JComboBox<Object> {
 				show = true;
 			}
 
+			@Override
 			public void popupMenuWillBecomeInvisible(PopupMenuEvent e) {
 				show = false;
 				insertSelectedItem();
 				((JComponent) getItemAt(1)).setOpaque(false);
 			}
 
+			@Override
 			public void popupMenuCanceled(PopupMenuEvent e) {
 				// Nothing to do
 			}
@@ -208,13 +211,14 @@ public class JComboCheckBox extends JComboBox<Object> {
 		}
 	}
 
-	class ComboBoxRenderer implements ListCellRenderer<Object> {
+	private class ComboBoxRenderer implements ListCellRenderer<Object> {
 		private JLabel defaultLabel;
 
 		public ComboBoxRenderer() {
 			setOpaque(true);
 		}
 
+		@Override
 		public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected,
 				boolean cellHasFocus) {
 			if (value instanceof Component) {
