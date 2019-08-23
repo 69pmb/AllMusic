@@ -56,6 +56,7 @@ import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
+import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
@@ -539,6 +540,7 @@ public class ImportPanel extends JPanel {
 						(RecordType) type.getSelectedItem(), separator.getText(), result, order.isSelected(),
 						reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
 						removeAfter.isSelected());
+				compoList = CompositionUtils.sortByRank(compoList);
 				// Export Compositions to XML file
 				ExportXML.exportXML(compoList, xmlFileName);
 				// Change xml file path
