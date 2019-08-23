@@ -5,10 +5,13 @@ import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FontMetrics;
 import java.awt.Point;
+import java.awt.Toolkit;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -58,6 +61,9 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
 public final class PanelUtils {
 
 	private static final Logger LOG = LogManager.getLogger(PanelUtils.class);
+	private static final BigDecimal widthBG = new BigDecimal(Toolkit.getDefaultToolkit().getScreenSize().width);
+	private static final BigDecimal heightBG = new BigDecimal(Toolkit.getDefaultToolkit().getScreenSize().height);
+	
 	public static final FocusListener selectAll = new FocusListener() {
 		@Override
 		public void focusLost(FocusEvent e) {
@@ -430,7 +436,7 @@ public final class PanelUtils {
 	 * 
 	 * @param edited the edited composition
 	 */
-	public static void updateFichierPanelData(Composition edited) {
+	private static void updateFichierPanelData(Composition edited) {
 		for (Fichier file : edited.getFiles()) {
 			CompositionUtils.findByUuid(OngletPanel.getFichier().getCompoListFromData(file).stream()
 					.filter(Objects::nonNull).collect(Collectors.toList()), edited.getUuids())
@@ -459,9 +465,11 @@ public final class PanelUtils {
 	 * @param width la nouvelle largeur
 	 * @param height la nouvelle hauteur
 	 */
-	public static void setSize(JComponent comp, int width, int height) {
-		comp.setMinimumSize(new Dimension(width, height));
-		comp.setPreferredSize(new Dimension(width, height));
+	public static void setSize(Component comp, double width, double height) {
+		Dimension dimension = new Dimension();
+		dimension.setSize(width, height);
+		comp.setMinimumSize(dimension);
+		comp.setPreferredSize(dimension);
 		comp.setMaximumSize(comp.getPreferredSize());
 	}
 
@@ -488,5 +496,22 @@ public final class PanelUtils {
 	 */
 	public static void setBorder(JComponent comp, Color c) {
 		comp.setBorder(BorderFactory.createLineBorder(c, 2));
+	}
+	
+	/**
+	 * Sets the size of given component with percentage of screen size dimension.
+	 * 
+	 * @param comp component to resize
+	 * @param percentWidth percent of screen width
+	 * @param percentHeight percent of screen height
+	 */
+	public static void setSizeByScreenSize(Component comp, double percentWidth, double percentHeight) {
+		double width = getPercent(widthBG, percentWidth);
+		double height = getPercent(heightBG, percentHeight);
+		setSize(comp, width, height);
+	}
+
+	private static double getPercent(final BigDecimal bg, double percent) {
+		return bg.divide(BigDecimal.valueOf(100D), RoundingMode.HALF_UP).multiply(BigDecimal.valueOf(percent)).doubleValue();
 	}
 }
