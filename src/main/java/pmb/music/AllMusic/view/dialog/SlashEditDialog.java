@@ -2,8 +2,6 @@ package pmb.music.AllMusic.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -25,6 +23,7 @@ import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.view.ComponentBuilder;
+import pmb.music.AllMusic.view.PanelUtils;
 
 /**
  * Dialog editing composition with a slash in title to split them into 2
@@ -53,7 +52,7 @@ public class SlashEditDialog {
 	public SlashEditDialog(int size) {
 		LOG.debug("Start SlashEditDialog");
 		this.dialog = new JDialog((JFrame) null, "", true);
-		this.dialog.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 300, 500));
+		PanelUtils.setSizeByScreenSize(dialog, 80, 60);
 		this.dialog.setLocationRelativeTo(null);
 		this.size = size;
 		this.dialog.setResizable(true);
@@ -63,19 +62,21 @@ public class SlashEditDialog {
 
 	private void initComponent() {
 		LOG.debug("Start initComponent");
-		JPanel panel = new JPanel();
-		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+		JPanel panel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
+		PanelUtils.setSizeByScreenSize(panel, 78, 58);
+		PanelUtils.setBorder(panel, Color.blue);
 
 		// Compo
-		JPanel compoPanel = new JPanel();
-		compoPanel.setLayout(new BoxLayout(compoPanel, BoxLayout.Y_AXIS));
+		JPanel compoPanel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
+		PanelUtils.setSizeByScreenSize(compoPanel, 60, 50);
+		PanelUtils.setBorder(compoPanel, Color.RED);
 		compoFound = ComponentBuilder.initJTextPaneComponent(new Color(21, 77, 153), 20);
 		compoPanel.add(compoFound);
 
 		// Text Fields
-		title1 = (JTextField) new ComponentBuilder<JTextField>(JTextField.class).withComponentWidth(200)
+		title1 = (JTextField) new ComponentBuilder<JTextField>(JTextField.class).withComponentWidth(500).withPanelWidth(500)
 				.withLabel("Titre 1").withParent(compoPanel).build();
-		title2 = (JTextField) new ComponentBuilder<JTextField>(JTextField.class).withComponentWidth(200)
+		title2 = (JTextField) new ComponentBuilder<JTextField>(JTextField.class).withComponentWidth(500).withPanelWidth(500)
 				.withLabel("Titre 2").withParent(compoPanel).build();
 		panel.add(compoPanel);
 
@@ -119,7 +120,7 @@ public class SlashEditDialog {
 				index + "/" + size + " - " + BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(index))
 						.divide(new BigDecimal(size), RoundingMode.HALF_UP).doubleValue() + "%");
 
-		StringJoiner compoJoin = new StringJoiner(Constant.NEW_LINE).add(found.getArtist() + " " + found.getTitre())
+		StringJoiner compoJoin = new StringJoiner(Constant.NEW_LINE).add(found.getArtist()).add(found.getTitre())
 				.add(found.getRecordType().toString()).add("Deleted: " + Boolean.toString(found.isDeleted()))
 				.add("CanBeMerged: " + Boolean.toString(found.isCanBeMerged()));
 		Fichier fichier = found.getFiles().get(0);
