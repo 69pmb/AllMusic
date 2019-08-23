@@ -514,7 +514,7 @@ public final class CompositionUtils {
 	 * @param fichier the file
 	 * @return {@link BigDecimal} the score
 	 */
-	public static BigDecimal calculateFileScore(BigDecimal logMax, BigDecimal doubleMedian, Fichier fichier) {
+	private static BigDecimal calculateFileScore(BigDecimal logMax, BigDecimal doubleMedian, Fichier fichier) {
 		BigDecimal points;
 		if (fichier.getSorted() && fichier.getClassement() != 0) {
 			// Log10(doubleMedian/rank + 3) * logMax
@@ -547,7 +547,7 @@ public final class CompositionUtils {
 	 * 
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getMedian(List<Composition> list) {
+	private static BigDecimal getMedian(List<Composition> list) {
 		List<Integer> rankList = list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return BigDecimal.valueOf(MiscUtils.median(rankList));
@@ -560,7 +560,7 @@ public final class CompositionUtils {
 	 * 
 	 * @return {@link BigDecimal}
 	 */
-	public static BigDecimal getMax(List<Composition> list) {
+	private static BigDecimal getMax(List<Composition> list) {
 		List<Integer> rankList = list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getClassement).collect(Collectors.toList());
 		return new BigDecimal(rankList.parallelStream().mapToInt(Integer::intValue).max().orElse(1));

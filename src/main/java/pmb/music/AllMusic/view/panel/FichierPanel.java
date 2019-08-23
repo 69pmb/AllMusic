@@ -676,7 +676,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	 * @param file the file to edit the compositions
 	 * @param list the compositions to set
 	 */
-	public void setCompoListFromData(Fichier file, List<Composition> list) {
+	private void setCompoListFromData(Fichier file, List<Composition> list) {
 		getCompoList(file).setValue(list);
 	}
 

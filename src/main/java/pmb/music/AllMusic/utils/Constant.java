@@ -20,12 +20,12 @@ import org.kordamp.ikonli.fontawesome.FontAwesome;
  */
 public class Constant {
 
-	public static final String USER_DIRECTORY = System.getProperty("user.dir") + FileUtils.FS;
+	private static final String USER_DIRECTORY = System.getProperty("user.dir") + FileUtils.FS;
 
 	/**
 	 * Chemin des resources de l'application.
 	 */
-	public static final String RESOURCES_DIRECTORY = USER_DIRECTORY + "src" + FileUtils.FS + "main" + FileUtils.FS
+	private static final String RESOURCES_DIRECTORY = USER_DIRECTORY + "src" + FileUtils.FS + "main" + FileUtils.FS
 			+ "resources" + FileUtils.FS;
 
 	/**
@@ -98,51 +98,31 @@ public class Constant {
 
 	public static final String TRACK_NUMBER_SEPARATOR = " sur ";
 
-	public static final String ALPHA_NUM = "^[a-zA-Z0-9]*";
-
 	public static final String TWO_DIGITS = "[0-9]{2,2}";
-
-	public static final String SIZE = "[0-9]{1,3}";
-
-	public static final String CHART = "^[0-9]{1,2}\\.?";
 
 	public static final String YEAR = "((19)" + TWO_DIGITS + "|(20)" + TWO_DIGITS + ")";
 
-	public static final String DECADE = "((?i)decade)|(" + TWO_DIGITS + "'s)|(" + TWO_DIGITS + "s)";
-
-	public static final String ALL_TIME = "((?i)greatest)|((?i)epic)|((?i)all time)|((?i)ever)|((?i)ultimate)|((?i)before you)|((?i)changed)";
-
-	public static final String SONGS = "((?i)single)|((?i)track)|((?i)tune)|((?i)song)";
-
-	public static final String ALBUMS = "((?i)album)";
-
-	public static final String GENRE = "((?i)punk)|((?i)reggae)|((?i)motown)|((?i)soul)|((?i)indie)|((?i)electro)|((?i)hop)|((?i)folk)|((?i)\brock)|((?i)wave)|((?i)britpop)|((?i)psych)|((?i)pop)";
-
-	public static final String THEME = "((?i)american)|((?i)british)|((?i)reader)|((?i)guitar)|((?i)love)";
-
 	public static final String YEAR_AT_THE_END = YEAR + ".txt$";
 
-	public static final Pattern PATTERN_DECADE = Pattern.compile(DECADE);
+	public static final Pattern PATTERN_DECADE = Pattern.compile("((?i)decade)|(" + TWO_DIGITS + "'s)|(" + TWO_DIGITS + "s)");
 
-	public static final Pattern PATTERN_ALBUM = Pattern.compile(ALBUMS);
+	public static final Pattern PATTERN_ALBUM = Pattern.compile("((?i)album)");
 
-	public static final Pattern PATTERN_SONG = Pattern.compile(SONGS);
+	public static final Pattern PATTERN_SONG = Pattern.compile("((?i)single)|((?i)track)|((?i)tune)|((?i)song)");
 
-	public static final Pattern PATTERN_ALL_TIME = Pattern.compile(ALL_TIME);
+	public static final Pattern PATTERN_ALL_TIME = Pattern.compile("((?i)greatest)|((?i)epic)|((?i)all time)|((?i)ever)|((?i)ultimate)|((?i)before you)|((?i)changed)");
 
-	public static final Pattern PATTERN_GENRE = Pattern.compile(GENRE);
+	public static final Pattern PATTERN_GENRE = Pattern.compile("((?i)punk)|((?i)reggae)|((?i)motown)|((?i)soul)|((?i)indie)|((?i)electro)|((?i)hop)|((?i)folk)|((?i)\brock)|((?i)wave)|((?i)britpop)|((?i)psych)|((?i)pop)");
 
-	public static final Pattern PATTERN_THEME = Pattern.compile(THEME);
+	public static final Pattern PATTERN_THEME = Pattern.compile("((?i)american)|((?i)british)|((?i)reader)|((?i)guitar)|((?i)love)");
 
 	public static final Pattern PATTERN_YEAR = Pattern.compile(YEAR);
 
 	public static final Pattern PATTERN_YEAR_AT_THE_END = Pattern.compile(YEAR_AT_THE_END);
 
-	public static final Pattern PATTERN_CHART = Pattern.compile(CHART);
+	public static final Pattern PATTERN_CHART = Pattern.compile("^[0-9]{1,2}\\.?");
 
-	public static final Pattern PATTERN_ALPHA_NUM = Pattern.compile(ALPHA_NUM);
-
-	public static final Pattern PATTERN_SIZE = Pattern.compile(SIZE);
+	public static final Pattern PATTERN_SIZE = Pattern.compile("[0-9]{1,3}");
 
 	public static final Pattern PATTERN_PUNCTUATION = Pattern.compile("\\p{Punct}|\\s");
 
