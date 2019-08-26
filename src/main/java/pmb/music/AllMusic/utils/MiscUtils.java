@@ -11,7 +11,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -116,14 +115,14 @@ public final class MiscUtils {
 	 * @throws IOException if parser fails
 	 */
 	public static Map<String, List<Composition>> readValueAsMapOfList(String content) throws IOException {
-		return getObjectMapper().readValue(content, new TypeReference<Map<String, Collection<Composition>>>() {
+		return getObjectMapper().readValue(content, new TypeReference<Map<String, List<Composition>>>() {
 		});
 	}
 
 	/**
 	 * Copy in the clipboard the given text.
 	 * 
-	 * @param text the text to put in the cipboard
+	 * @param text the text to put in the clipboard
 	 */
 	public static void clipBoardAction(String text) {
 		StringSelection selection = new StringSelection(text);
