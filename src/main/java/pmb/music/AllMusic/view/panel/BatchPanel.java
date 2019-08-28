@@ -75,6 +75,8 @@ public class BatchPanel extends JPanel {
 	private JTextArea resultLabel;
 	private List<String> resultLabelData;
 	private String fileResult = Constant.BATCH_FILE;
+	private JPanel root;
+
 	/**
 	 * Open the result file in notepad.
 	 */
@@ -86,7 +88,10 @@ public class BatchPanel extends JPanel {
 	public BatchPanel() {
 		super();
 		LOG.debug("Start BatchPanel");
-		this.setLayout(new GridLayout(15, 1));
+		this.setLayout(new BorderLayout());
+		root = new JPanel();
+		this.add(new JScrollPane(root), BorderLayout.CENTER);
+		root.setLayout(new GridLayout(15, 1));
 
 		findDuplicateComposition();
 		massDeletion();
@@ -161,7 +166,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(fdc, fdcBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(fdc);
+		root.add(fdc);
 	}
 
 	/**
@@ -200,7 +205,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(massDeletion, massDeletionBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(massDeletion);
+		root.add(massDeletion);
 	}
 
 	private JComboBox<RecordType> buildTypeComboBox(JPanel parent) {
@@ -236,7 +241,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(fdf, fdfBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(fdf);
+		root.add(fdf);
 	}
 
 	/**
@@ -261,7 +266,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(mxf, mxfBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(mxf);
+		root.add(mxf);
 	}
 
 	/**
@@ -317,7 +322,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(top, topBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(top);
+		root.add(top);
 	}
 
 	private void suspicious() {
@@ -339,7 +344,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(suspicious);
+		root.add(suspicious);
 	}
 
 	private void slashEdit() {
@@ -361,7 +366,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(slash, slashBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(slash);
+		root.add(slash);
 	}
 
 	private void duplicateTitle() {
@@ -383,7 +388,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(duplicateTitle, duplicateTitleBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(duplicateTitle);
+		root.add(duplicateTitle);
 	}
 
 	private void validateFileName() {
@@ -405,7 +410,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(validate, validateBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(validate);
+		root.add(validate);
 	}
 
 	private void weirdFileSize() {
@@ -427,7 +432,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(weird, weirdBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(weird);
+		root.add(weird);
 	}
 
 	private void averageOfFilesByFiles() {
@@ -449,7 +454,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(average, averageBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(average);
+		root.add(average);
 	}
 
 	private void stats() {
@@ -471,7 +476,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(stat);
+		root.add(stat);
 	}
 
 	private void checksIfDeleted() {
@@ -506,7 +511,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(checks, checksBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(checks);
+		root.add(checks);
 	}
 
 	private JLabel buildFileChooser(JPanel checks, String extention, String label) {
@@ -549,7 +554,7 @@ public class BatchPanel extends JPanel {
 		});
 		PanelUtils.addComponent(unknown, unknownsBtn, Component.RIGHT_ALIGNMENT, 100);
 
-		this.add(unknown);
+		root.add(unknown);
 	}
 
 	/**
@@ -586,7 +591,7 @@ public class BatchPanel extends JPanel {
 		btnPanel.add(batchFileBtn);
 
 		lastLine.add(btnPanel);
-		this.add(lastLine);
+		root.add(lastLine);
 	}
 
 	/**
