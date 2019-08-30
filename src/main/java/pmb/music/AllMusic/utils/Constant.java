@@ -123,7 +123,9 @@ public class Constant {
 
 	public static final Pattern PATTERN_SIZE = Pattern.compile("[0-9]{1,3}");
 
-	public static final Pattern PATTERN_PUNCTUATION = Pattern.compile("\\p{Punct}|\\s");
+	public static final String REGEX_PUNCTUATION = "\\p{Punct}|\\s";
+
+	public static final Pattern PATTERN_PUNCTUATION = Pattern.compile(REGEX_PUNCTUATION);
 
 	public static final Pattern PATTERN_PARENTHESES = Pattern.compile("\\(.*\\)|\\[.*\\]");
 
