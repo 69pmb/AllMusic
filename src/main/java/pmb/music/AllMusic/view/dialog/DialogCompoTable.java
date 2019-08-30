@@ -6,6 +6,7 @@ package pmb.music.AllMusic.view.dialog;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
+import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +31,7 @@ import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.TableBuilder;
 import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.CompoDialogModel;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 
 /**
@@ -40,34 +42,38 @@ import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 public class DialogCompoTable {
 	private static final Logger LOG = LogManager.getLogger(DialogCompoTable.class);
 
-	private static final int INDEX_ARTIST = 0;
-	private static final int INDEX_TITLE = 1;
-	private static final int INDEX_TYPE = 2;
-	private static final int INDEX_RANK = 3;
-	private static final int INDEX_DELETED = 4;
+	public static final int INDEX_ARTIST = 0;
+	public static final int INDEX_TITLE = 1;
+	public static final int INDEX_TYPE = 2;
+	public static final int INDEX_RANK = 3;
+	public static final int INDEX_FILE_SIZE = 4;
+	public static final int INDEX_SCORE = 5;
+	public static final int INDEX_DECILE = 6;
+	public static final int INDEX_DELETED = 7;
 
 	private JDialog dialog;
 	private List<Composition> compo = new ArrayList<>();
+	private String fileName;
 	private MyTable table;
 
-	private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "" };
+	private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers", "Score", "", "" };
 
 	/**
 	 * Constructeur.
 	 * 
-	 * @param parent {@link JFrame} la fenetre parente
 	 * @param header {@link String} les entetes de la popup
-	 * @param modal {@code boolean} si la popup bloque l'utilisateur
 	 * @param compo {@code List<Composition>} la liste des fichier à afficher
+	 * @param fileName {@link String} file's name displayed in the dialog
 	 * @param height la hauteur de la popup
 	 */
-	public DialogCompoTable(JFrame parent, String header, boolean modal, List<Composition> compo, int height) {
+	public DialogCompoTable(String header, List<Composition> compo, String fileName, int height) {
 		LOG.debug("Start DialogFileTable");
-		this.dialog = new JDialog(parent, header, modal);
+		this.dialog = new JDialog((JFrame) null, header, true);
 		this.dialog.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
 		this.dialog.setLocationRelativeTo(null);
 		this.dialog.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.compo = compo;
+		this.fileName = fileName;
 		this.dialog.setResizable(true);
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
@@ -85,8 +91,8 @@ public class DialogCompoTable {
 
 		try {
 			table = new TableBuilder()
-					.withModelAndData(CompositionUtils.convertCompositionListToVector(compo, null, true, false, false,
-							false, false), header, CompoDialogModel.class)
+					.withModelAndData(CompositionUtils.convertCompositionListToVector(compo, fileName, true, true, false,
+							true, false), header, CompoDialogModel.class)
 					.withDefaultRowSorterListener(null).withMouseClickAction(e -> {
 						if (SwingUtilities.isRightMouseButton(e)) {
 							LOG.debug("Start right mouse");
@@ -109,8 +115,9 @@ public class DialogCompoTable {
 		this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
 				KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
-		PanelUtils.colRenderer(table.getTable(), true, INDEX_DELETED, INDEX_TYPE, null, null, null, null, null);
-		table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
+		PanelUtils.colRenderer(table.getTable(), true, INDEX_DELETED, INDEX_TYPE, null, INDEX_DECILE, INDEX_SCORE, null, null);
+		table.removeColumn(table.getColumnModel().getColumn(INDEX_DECILE));
+		table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED - 1));
 
 		this.dialog.setLayout(new BorderLayout());
 		this.dialog.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
