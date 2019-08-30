@@ -26,6 +26,8 @@ import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
+import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.TableBuilder;
@@ -51,23 +53,25 @@ public class DialogCompoTable {
 	public static final int INDEX_SCORE = 5;
 	public static final int INDEX_DECILE = 6;
 	public static final int INDEX_DELETED = 7;
+	public static final int INDEX_UUID = 8;
 
 	private JDialog dialog;
 	private List<Composition> compo = new ArrayList<>();
 	private String fileName;
 	private MyTable table;
+	private JDialog parent;
 
-	private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers", "Score", "", "" };
+	private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers", "Score", "", "", "" };
 
 	/**
 	 * Constructeur.
-	 * 
+	 * @param parent {@link JDialog} parent dialog
 	 * @param header {@link String} les entetes de la popup
 	 * @param compo {@code List<Composition>} la liste des fichier à afficher
 	 * @param fileName {@link String} file's name displayed in the dialog
 	 * @param height la hauteur de la popup
 	 */
-	public DialogCompoTable(String header, List<Composition> compo, String fileName, int height) {
+	public DialogCompoTable(JDialog parent, String header, List<Composition> compo, String fileName, int height) {
 		LOG.debug("Start DialogFileTable");
 		this.dialog = new JDialog((JFrame) null, header, true);
 		this.dialog.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
@@ -75,6 +79,7 @@ public class DialogCompoTable {
 		this.dialog.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.compo = compo;
 		this.fileName = fileName;
+		this.parent = parent;
 		this.dialog.setResizable(true);
 		this.initComponent();
 		LOG.debug("End DialogFileTable");
@@ -95,15 +100,20 @@ public class DialogCompoTable {
 					.withModelAndData(CompositionUtils.convertCompositionListToVector(compo, fileName, true, true, false,
 							true, false), header, CompoDialogModel.class)
 					.withDefaultRowSorterListener(null).withMouseClickAction(e -> {
+						Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(),
+								e.getPoint());
 						if (SwingUtilities.isRightMouseButton(e)) {
 							LOG.debug("Start right mouse");
-							Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(),
-									e.getPoint());
 							if (row.isPresent()) {
-								table.getPopupMenu().initDataAndPosition(e, row.orElse(null));
+								table.getPopupMenu().initDataAndPosition(e, row.get());
 								table.getPopupMenu().show(e);
 							}
 							LOG.debug("End right mouse");
+						} else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+							OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_FICHIER));
+							dialog.dispose();
+							parent.dispose();
+							OngletPanel.getFichier().searchProgrammatically(fileName, MiscUtils.stringToUuids(row.map(selected -> selected.get(INDEX_UUID)).orElse("")));
 						}
 					}).withPopupMenu(new CompositionPopupMenu(null, INDEX_ARTIST, INDEX_TITLE)).withKeyListener()
 					.build();
@@ -119,6 +129,7 @@ public class DialogCompoTable {
 		PanelUtils.colRenderer(table.getTable(), true, INDEX_DELETED, INDEX_TYPE, null, INDEX_DECILE, INDEX_SCORE, null, null);
 		table.removeColumn(table.getColumnModel().getColumn(INDEX_DECILE));
 		table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED - 1));
+		table.removeColumn(table.getColumnModel().getColumn(INDEX_UUID - 2));
 
 		this.dialog.setLayout(new BorderLayout());
 		this.dialog.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);

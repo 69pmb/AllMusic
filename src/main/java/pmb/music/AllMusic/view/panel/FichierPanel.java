@@ -268,7 +268,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			List<Object> selected = tableCompo.getModel().getSelected();
 			try {
 				PanelUtils.deleteCompositionAction(compositionList, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(INDEX_COMPO_UUID)).get(0)).collect(Collectors.toList()));
-				updateCompoTable(compositionList, selectedFichierName, false);
+				updateCompoTable(selectedFichierName, false);
 				resultLabel.setText(selected.size() + " élément(s) supprimé(s)");
 			} catch (MyException e1) {
 				LOG.error("Error when deleting compositions in Fichier result", e1);
@@ -327,7 +327,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 								compositionList = compositionList.stream().filter(c -> !c.isDeleted())
 										.collect(Collectors.toList());
 							}
-							updateCompoTable(compositionList, selectedFichierName, true);
+							updateCompoTable(selectedFichierName, true);
 							LOG.debug("End left mouse, open");
 						} else if (SwingUtilities.isRightMouseButton(e)) {
 							tableFiles.getPopupMenu().show(e);
@@ -497,7 +497,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		LOG.debug("Start modifyCompositionAction");
 		compositionList = PanelUtils.editCompositionAction(selected, compositionList, INDEX_COMPO_ARTIST, INDEX_COMPO_TITLE,
 				INDEX_COMPO_TYPE, INDEX_COMPO_DELETED, INDEX_COMPO_UUID);
-		updateCompoTable(compositionList, selectedFichierName, false);
+		updateCompoTable(selectedFichierName, false);
 		LOG.debug("End modifyCompositionAction");
 	}
 
@@ -526,6 +526,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, range.getFirst().getText());
 			criteria.put(SearchUtils.CRITERIA_DATE_END, range.getSecond().getText());
 			criteria.put(SearchUtils.CRITERIA_SORTED, sorted.isSelected() ? Boolean.TRUE.toString() : "");
+			LOG.debug("Criteria: " + criteria.entrySet().stream().filter(e -> StringUtils.isNotBlank(e.getValue())).map(e -> e.getKey() + ": " + e.getValue()).collect(Collectors.joining(", ")));
 			searchResult = searchResult.entrySet().parallelStream()
 					.filter(e -> SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, criteria, e.getKey()))
 					.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
@@ -588,23 +589,23 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		tableFiles.setSelectedRow(-1);
 		tableFiles.getModel().fireTableDataChanged();
 		tableFiles.getTable().repaint();
-		updateCompoTable(new ArrayList<>(), null, true);
+		compositionList = new ArrayList<>();
+		updateCompoTable(null, true);
 		LOG.debug("Start updateFileTable");
 	}
 
 	/**
 	 * Met à jour le tableau des compositions.
+	 * @param scrollTop {@code boolean} true scroll to the top of the table
 	 * 
-	 * @param compo la liste des compositions à afficher
-	 * @param selectedFile le fichier selectionné
-	 * @param scrollTop true scroll to the top of the table
+	 * @param {@link String} selectedFile le fichier selectionné
 	 */
-	private void updateCompoTable(List<Composition> compo, String selectedFile, boolean scrollTop) {
+	private void updateCompoTable(String selectedFile, boolean scrollTop) {
 		LOG.debug("Start updateCompoTable");
 		tableCompo.getModel().setRowCount(0);
-		if (selectedFile != null && !compo.isEmpty()) {
+		if (selectedFile != null && !compositionList.isEmpty()) {
 			tableCompo.getModel().setDataVector(
-					CompositionUtils.convertCompositionListToVector(compo, selectedFile, true, true, true, true, true),
+					CompositionUtils.convertCompositionListToVector(compositionList, selectedFile, true, true, true, true, true),
 					new Vector<>(Arrays.asList(headerCompo)));
 		} else {
 			tableCompo.getModel().setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
@@ -691,6 +692,30 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 						&& e.getKey().getCategorie() == file.getCategorie()
 						&& e.getKey().getSorted().equals(file.getSorted()))
 				.findFirst().get();
+	}
+
+	/**
+	 * Pretends to make a search by filename and opens to a specific composition.
+	 * 
+	 * @param fileName name of file
+	 * @param uuids uuids of the composition
+	 */
+	public void searchProgrammatically(String fileName, List<String> uuids) {
+		LOG.debug("Start searchProgrammatically");
+		this.filename.setText(fileName);
+		searchAction();
+		compositionList = findFichierInMap(fileName).map(Entry::getValue).orElse(new ArrayList<Composition>());
+		updateCompoTable(fileName, false);
+		setSelectedRow(uuids);
+		LOG.debug("End searchProgrammatically");
+	}
+
+	@SuppressWarnings("unchecked")
+	private void setSelectedRow(List<String> uuids) {
+		int indexOf = tableCompo.getTable().getRowSorter().convertRowIndexToView(((Vector<Vector<String>>) tableCompo.getModel().getDataVector())
+				.stream().map(v -> MiscUtils.stringToUuids(v.get(INDEX_COMPO_UUID)))
+				.collect(Collectors.toList()).indexOf(uuids));
+		tableCompo.getTable().setRowSelectionInterval(indexOf, indexOf);
 	}
 
 	public JTable getTableFiles() {
