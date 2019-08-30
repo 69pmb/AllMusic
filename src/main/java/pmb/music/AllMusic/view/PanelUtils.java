@@ -170,18 +170,18 @@ public final class PanelUtils {
 			}
 		}
 		if (isTableWiderThanScreen) {
-			LOG.debug("Table is wider than Screen");
+			LOG.trace("Table is wider than Screen");
 			// Sum of the calculates columns width
 			Integer sum = colWidth.values().stream().mapToInt(Integer::intValue).sum();
 			Double sumDouble = Double.valueOf(sum);
 			Double columnCountDouble = Double.valueOf(columnCount);
 			if (sum.compareTo(width) > 0) {
-				LOG.debug("Too large");
+				LOG.trace("Too large");
 				// If the calculates column are too large
 				Double offset = (sumDouble - widthDouble) / columnCountDouble;
 				colWidth.entrySet().stream().forEach(e -> e.setValue(e.getValue() - (int) Math.round(offset)));
 			} else {
-				LOG.debug("Too thin");
+				LOG.trace("Too thin");
 				// If the calculates column are too thin
 				Double offset = (widthDouble - sumDouble) / columnCountDouble;
 				colWidth.entrySet().stream().forEach(e -> e.setValue(e.getValue() + (int) Math.round(offset)));
