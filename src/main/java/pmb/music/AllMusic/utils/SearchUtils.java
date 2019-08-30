@@ -243,7 +243,7 @@ public final class SearchUtils {
 		}
 		if (result && StringUtils.isNotBlank(fileName)) {
 			if (SearchMethod.CONTAINS == searchMethod) {
-				result = Arrays.asList(fileName.split(" ")).stream()
+				result = Arrays.asList(fileName.split(Constant.REGEX_PUNCTUATION)).stream().filter(StringUtils::isNotBlank)
 						.allMatch(name -> compareString(name, fi.getFileName(), searchMethod, jaro));
 			} else {
 				result = compareString(fileName, fi.getFileName(), searchMethod, jaro);
