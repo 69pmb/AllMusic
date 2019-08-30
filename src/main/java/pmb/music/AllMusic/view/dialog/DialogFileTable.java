@@ -146,8 +146,8 @@ public class DialogFileTable {
 							} else {
 								LOG.warn(fileName + " empty !");
 							}
-							DialogCompoTable pop = new DialogCompoTable(StringUtils.join(title, " / "), compo, fileName,
-									800);
+							DialogCompoTable pop = new DialogCompoTable(dialog, StringUtils.join(title, " / "), compo,
+									fileName, 800);
 							pop.showDialogFileTable();
 							LOG.debug("End double right mouse");
 						}
