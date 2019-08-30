@@ -49,6 +49,7 @@ public class OngletPanel extends JPanel {
 	private static FichierPanel fichier;
 	private static ArtistPanel artist;
 	private static SearchPanel search;
+	private static boolean withArtist;
 
 	/**
 	 * Génère les onglets.
@@ -64,6 +65,7 @@ public class OngletPanel extends JPanel {
 		dim.height = 92 * dim.height / 100;
 		dim.width = dim.width - 30;
 		getOnglets().setPreferredSize(dim);
+		setWithArtist(withArtist);
 
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		new Thread(() -> initScore(importXML)).start();
@@ -127,7 +129,7 @@ public class OngletPanel extends JPanel {
 		getOnglets().addChangeListener((ChangeEvent e) -> {
 			if (e.getSource() instanceof JTabbedPane) {
 				// Modifies default button when changing current tab
-				getSelectedDefaultButtonByTab(getSearch(), getFichier(), getArtist(), importFile, batch, withArtist);
+				getSelectedDefaultButtonByTab(getSearch(), getFichier(), getArtist(), importFile, batch);
 			}
 		});
 		LOG.debug("End Onglet");
@@ -200,9 +202,9 @@ public class OngletPanel extends JPanel {
 	}
 
 	private static String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
-			ImportPanel importP, BatchPanel batch, boolean withArtist) {
+			ImportPanel importP, BatchPanel batch) {
 		int index = getOnglets().getSelectedIndex();
-		index = !withArtist && index != 0 ? index + 1 : index;
+		index = !isWithArtist() && index != 0 ? index + 1 : index;
 		String tab = "";
 		switch (index) {
 		case 0:
@@ -230,6 +232,36 @@ public class OngletPanel extends JPanel {
 		}
 		LOG.debug(tab);
 		return tab;
+	}
+
+	/**
+	 * For given tab name give its index.
+	 * 
+	 * @param tab wanted tab
+	 * @return index
+	 */
+	public static int getTabIndex(String tab) {
+		int result;
+		switch (tab) {
+		case Constant.ONGLET_SEARCH:
+			result = 0;
+			break;
+		case Constant.ONGLET_ARTIST:
+			result = 1;
+			break;
+		case Constant.ONGLET_FICHIER:
+			result = isWithArtist() ? 2 : 1;
+			break;
+		case Constant.ONGLET_IMPORT:
+			result = isWithArtist() ? 3 : 2;
+			break;
+		case Constant.ONGLET_BATCH:
+			result = isWithArtist() ? 4 : 5;
+			break;
+		default:
+			throw new IllegalArgumentException("Given tab doesn't exist: " + tab);
+		}
+		return result;
 	}
 
 	public static Score getScore() {
@@ -278,5 +310,13 @@ public class OngletPanel extends JPanel {
 
 	private static void setOnglets(JTabbedPane onglets) {
 		OngletPanel.onglets = onglets;
+	}
+
+	public static boolean isWithArtist() {
+		return withArtist;
+	}
+
+	private static void setWithArtist(boolean withArtist) {
+		OngletPanel.withArtist = withArtist;
 	}
 }
