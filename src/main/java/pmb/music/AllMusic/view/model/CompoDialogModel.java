@@ -4,12 +4,14 @@
 package pmb.music.AllMusic.view.model;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
 
+import pmb.music.AllMusic.view.dialog.DialogCompoTable;
+
 /**
- * Décrit la façon dont les popup contenant des {@code Composition} seront
- * affichées.
+ * Décrit la façon dont les popup contenant des {@code Composition} seront affichées.
  * 
  * @see {@link AbstractModel}
  * @author pmbroca
@@ -30,11 +32,15 @@ public class CompoDialogModel extends AbstractModel {
 
 	@Override
 	public Class<?> getColumnClass(int col) {
-		if (col == 3) {
-			return Integer.class;
+		Class<?> result;
+		if (Arrays.asList(DialogCompoTable.INDEX_RANK, DialogCompoTable.INDEX_FILE_SIZE, DialogCompoTable.INDEX_DECILE).contains(col)) {
+			result = Integer.class;
+		} else if (col == DialogCompoTable.INDEX_SCORE) {
+			result = Long.class;
 		} else {
-			return String.class;
+			result = String.class;
 		}
+		return result;
 	}
 
 	@Override

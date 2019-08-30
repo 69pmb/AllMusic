@@ -131,8 +131,10 @@ public class DialogFileTable {
 							LOG.debug("Start double right mouse");
 							// Double click gauche -> Ouvre une popup pour afficher les compositions du
 							// fichier sélectionné
-							List<Composition> compo = ImportXML.importXML(Constant.getXmlPath()
-									+ selectedRow.get().get(INDEX_FILE_NAME) + Constant.XML_EXTENSION);
+							String fileName = selectedRow.get().get(INDEX_FILE_NAME);
+							List<Composition> compo = ImportXML.importXML(Constant.getFinalFilePath()).stream()
+									.filter(c -> c.getFiles().stream().map(Fichier::getFileName).anyMatch(f -> StringUtils.contains(f, fileName)))
+									.collect(Collectors.toList());
 							List<String> title = new ArrayList<>();
 							if (!compo.isEmpty()) {
 								Fichier file = compo.get(0).getFiles().get(0);
@@ -143,10 +145,10 @@ public class DialogFileTable {
 										String.valueOf(file.getRangeDateEnd()), "Sorted:",
 										String.valueOf(file.getSorted()), "Size:", String.valueOf(file.getSize()));
 							} else {
-								LOG.warn(selectedRow.get().get(INDEX_FILE_NAME) + " empty !");
+								LOG.warn(fileName + " empty !");
 							}
-							DialogCompoTable pop = new DialogCompoTable(null, StringUtils.join(title, " / "), true,
-									compo, 800);
+							DialogCompoTable pop = new DialogCompoTable(StringUtils.join(title, " / "), compo, fileName,
+									800);
 							pop.showDialogFileTable();
 							LOG.debug("End double right mouse");
 						}
