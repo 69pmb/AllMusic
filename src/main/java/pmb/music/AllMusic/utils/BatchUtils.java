@@ -513,7 +513,7 @@ public final class BatchUtils {
 		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
 		List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
 				.map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
-		String[] header = { "Fichier", "Type", "Cat", "Average" };
+		String[] header = { "Fichier", "Author", "Type", "Cat", "Average" };
 		List<List<String>> result = new ArrayList<>();
 		final AtomicInteger count = new AtomicInteger(0);
 		final BigDecimal total = new BigDecimal(nomFichier.size());
@@ -524,10 +524,12 @@ public final class BatchUtils {
 			criteria.put(SearchUtils.CRITERIA_FILENAME, name);
 			List<Composition> xml = SearchUtils.search(importXML, criteria, false, SearchMethod.WHOLE_WORD, true,
 					false);
+			Fichier fichier = xml.get(0).getFiles().stream().filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), name))
+					.findFirst().get();
 			row.add(name);
+			row.add(fichier.getAuthor());
 			row.add(xml.get(0).getRecordType().toString());
-			row.add(xml.get(0).getFiles().stream().filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), name))
-					.findFirst().get().getCategorie().getCat());
+			row.add(fichier.getCategorie().getCat());
 			row.add(decimalFormat
 					.format(xml.stream().map(c -> c.getFiles().size()).mapToInt(x -> x).average().getAsDouble()));
 			result.add(row);
@@ -537,10 +539,15 @@ public final class BatchUtils {
 			}
 		});
 		CsvFile.exportCsv("Average", result,
-				Arrays.asList(new SortKey(3, SortOrder.ASCENDING), new SortKey(0, SortOrder.ASCENDING)), header);
+				Arrays.asList(new SortKey(4, SortOrder.ASCENDING), new SortKey(0, SortOrder.ASCENDING)), header);
+		statsByPublisherAndCat(result);
 		LOG.debug("End averageOfFilesByFiles");
 		addLine(text, "End AverageOfFilesByFiles", true);
 		return writeInFile(text, Constant.BATCH_FILE);
+	}
+
+	private static void statsByPublisherAndCat(List<List<String>> data) {
+
 	}
 
 	/**
