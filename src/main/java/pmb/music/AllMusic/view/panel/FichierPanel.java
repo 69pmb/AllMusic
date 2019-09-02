@@ -710,13 +710,14 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		LOG.debug("End searchProgrammatically");
 	}
 
-	@SuppressWarnings("unchecked")
-	private void setSelectedRow(List<String> uuids) {
-		int indexOf = tableCompo.getTable().getRowSorter().convertRowIndexToView(((Vector<Vector<String>>) tableCompo.getModel().getDataVector())
-				.stream().map(v -> MiscUtils.stringToUuids(v.get(INDEX_COMPO_UUID)))
-				.collect(Collectors.toList()).indexOf(uuids));
-		tableCompo.getTable().setRowSelectionInterval(indexOf, indexOf);
-	}
+    @SuppressWarnings("unchecked")
+    private void setSelectedRow(List<String> uuids) {
+        int indexOf = tableCompo.getTable().getRowSorter()
+                .convertRowIndexToView(((Vector<Vector<String>>) tableCompo.getModel().getDataVector()).stream()
+                        .map(v -> MiscUtils.stringToUuids((String) v.get(INDEX_COMPO_UUID)))
+                        .collect(Collectors.toList()).indexOf(uuids));
+        tableCompo.getTable().setRowSelectionInterval(indexOf, indexOf);
+    }
 
 	public JTable getTableFiles() {
 		return tableFiles.getTable();
