@@ -53,7 +53,7 @@ public final class CsvFile {
 	 * @return le full name of the saved file
 	 */
 	public static String exportCsv(String filename, List<List<String>> csv, List<SortKey> sortKeys, String[] header) {
-		LOG.debug("Start exportCsv");
+		LOG.debug("Start exportCsv: " + filename);
 		if (sortKeys != null) {
 			sortCsvList(csv, sortKeys);
 		}

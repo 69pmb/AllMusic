@@ -4,6 +4,7 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -11,6 +12,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -242,16 +244,17 @@ public final class MiscUtils {
 	 * @param numArray a list of number
 	 * @return the median calculated
 	 */
-	public static double median(List<Integer> numArray) {
+	public static Double median(List<BigDecimal> numArray) {
 		if (numArray.isEmpty()) {
-			return 0;
+			return 0D;
 		}
-		numArray.sort(Integer::compareTo);
+		Collections.sort(numArray);
 		double median;
+		int halfSize = numArray.size() / 2;
 		if (numArray.size() % 2 == 0) {
-			median = ((double) numArray.get(numArray.size() / 2) + (double) numArray.get(numArray.size() / 2 - 1)) / 2;
+			median = numArray.get(halfSize).add(numArray.get(halfSize - 1)).divide(BigDecimal.valueOf(2D)).doubleValue();
 		} else {
-			median = numArray.get(numArray.size() / 2);
+			median = numArray.get(halfSize).doubleValue();
 		}
 		return median;
 	}
@@ -264,10 +267,9 @@ public final class MiscUtils {
 	 * @param count size of the list
 	 * @return the standard deviation calculated
 	 */
-	public static double calculateSD(List<Integer> numArray, double average, long count) {
+	public static Double calculateSD(List<Double> numArray, Double average, long count) {
 		double standardDeviation = 0.0;
-
-		for (double num : numArray) {
+		for (Double num : numArray) {
 			standardDeviation += Math.pow(num - average, 2);
 		}
 
