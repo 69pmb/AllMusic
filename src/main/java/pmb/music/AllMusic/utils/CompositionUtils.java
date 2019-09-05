@@ -548,9 +548,8 @@ public final class CompositionUtils {
 	 * @return {@link BigDecimal}
 	 */
 	private static BigDecimal getMedian(List<Composition> list) {
-		List<Integer> rankList = list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
-				.map(Fichier::getClassement).collect(Collectors.toList());
-		return BigDecimal.valueOf(MiscUtils.median(rankList));
+		return BigDecimal.valueOf(MiscUtils.median(list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
+				.map(f -> BigDecimal.valueOf(f.getClassement())).collect(Collectors.toList())));
 	}
 
 	/**
