@@ -15,12 +15,14 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.text.DecimalFormat;
+import java.text.ParseException;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.DoubleSummaryStatistics;
 import java.util.HashMap;
 import java.util.IntSummaryStatistics;
 import java.util.LinkedList;
@@ -39,6 +41,7 @@ import java.util.stream.Stream;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
+import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.lang3.reflect.FieldUtils;
@@ -217,10 +220,10 @@ public final class BatchUtils {
 		addLine(result, "Min: " + summaryStatistics.getMin(), false);
 		addLine(result, "Max: " + summaryStatistics.getMax(), false);
 		addLine(result, "Moyenne: " + summaryStatistics.getAverage(), false);
-		addLine(result, "Mediane: " + MiscUtils.median(size), false);
+		addLine(result, "Mediane: " + MiscUtils.median(size.stream().map(BigDecimal::valueOf).collect(Collectors.toList())), false);
 		addLine(result,
 				"Ecart-Type: "
-						+ MiscUtils.calculateSD(size, summaryStatistics.getAverage(), summaryStatistics.getCount()),
+						+ MiscUtils.calculateSD(size.stream().map(Double::valueOf).collect(Collectors.toList()), summaryStatistics.getAverage(), summaryStatistics.getCount()),
 				false);
 		addLine(result, "Summary: " + summaryStatistics, false);
 		addLine(result, "", false);
@@ -524,8 +527,8 @@ public final class BatchUtils {
 			criteria.put(SearchUtils.CRITERIA_FILENAME, name);
 			List<Composition> xml = SearchUtils.search(importXML, criteria, false, SearchMethod.WHOLE_WORD, true,
 					false);
-			Fichier fichier = xml.get(0).getFiles().stream().filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), name))
-					.findFirst().get();
+            Fichier fichier = xml.get(0).getFiles().stream()
+                    .filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), name)).findFirst().get();
 			row.add(name);
 			row.add(fichier.getAuthor());
 			row.add(xml.get(0).getRecordType().toString());
@@ -540,15 +543,58 @@ public final class BatchUtils {
 		});
 		CsvFile.exportCsv("Average", result,
 				Arrays.asList(new SortKey(4, SortOrder.ASCENDING), new SortKey(0, SortOrder.ASCENDING)), header);
-		statsByPublisherAndCat(result);
+		statsByAuthorTypeAndCat(result);
 		LOG.debug("End averageOfFilesByFiles");
 		addLine(text, "End AverageOfFilesByFiles", true);
 		return writeInFile(text, Constant.BATCH_FILE);
 	}
 
-	private static void statsByPublisherAndCat(List<List<String>> data) {
-
+	private static void statsByAuthorTypeAndCat(List<List<String>> data) {
+        LOG.debug("Start statsByAuthorTypeAndCat");
+        Map<String, List<List<String>>> groupBy = data.stream()
+                .collect(Collectors.groupingBy(list -> list.get(1) + ";" + list.get(2) + ";" + list.get(3)));
+		DecimalFormat decimalFormat = new Constant().getDecimalFormat();
+		List<List<String>> collect = groupBy.entrySet().stream().map(by -> {
+			StringBuilder sb = new StringBuilder(by.getKey()).append(";");
+			List<Double> average = new ArrayList<>();
+            average = by.getValue().stream().map(t -> parseDouble(decimalFormat, t.get(4)))
+                    .filter(ObjectUtils::allNotNull).collect(Collectors.toList());
+			DoubleSummaryStatistics stats = average.stream().mapToDouble(Double::doubleValue).summaryStatistics();
+            if (stats.getCount() >= 5) {
+                sb.append(decimalFormat.format(stats.getMin())).append(";");
+                sb.append(decimalFormat.format(stats.getMax())).append(";");
+                double statsAverage = stats.getAverage();
+                sb.append(decimalFormat.format(statsAverage)).append(";");
+                sb.append(decimalFormat.format(
+                        MiscUtils.median(average.stream().map(BigDecimal::valueOf).collect(Collectors.toList()))))
+                        .append(";");
+                Double statSd = MiscUtils.calculateSD(average, statsAverage, stats.getCount());
+                sb.append(decimalFormat.format(statSd)).append(";");
+			sb.append(stats.getCount()).append(";");
+                sb.append(by.getValue().stream().filter(v -> {
+                    Double avgFile = parseDouble(decimalFormat, v.get(4));
+                    return avgFile < (statsAverage - statSd * 1.5);
+                }).map(v -> v.get(0) + " (" + v.get(4) + ")").collect(Collectors.joining(","))).append(";");
+			return Arrays.asList(sb.toString().split(";"));
+            } else {
+                return null;
+            }
+		}).collect(Collectors.toList());
+        CsvFile.exportCsv("GroupBy", collect.stream().filter(ObjectUtils::allNotNull).collect(Collectors.toList()),
+                Arrays.asList(new SortKey(0, SortOrder.ASCENDING), new SortKey(1, SortOrder.ASCENDING),
+                        new SortKey(2, SortOrder.ASCENDING)),
+                new String[] { "Author", "Type", "Cat", "Min", "Max", "Average", "Median", "SD", "Size", "Files" });
+        LOG.debug("End statsByAuthorTypeAndCat");
 	}
+
+    private static Double parseDouble(DecimalFormat decimalFormat, String strDouble) {
+        try {
+            return decimalFormat.parse(strDouble).doubleValue();
+        } catch (ParseException e) {
+            LOG.error("Parsing error: " + strDouble);
+        }
+        return null;
+    }
 
 	/**
 	 * Creates a csv file with for every file looks its calculated size, its real
