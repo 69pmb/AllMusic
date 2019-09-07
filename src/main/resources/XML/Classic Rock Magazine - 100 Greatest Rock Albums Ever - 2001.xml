@@ -73,7 +73,7 @@
   <compo A="Pink Floyd" T="The Wall" type="ALBUM" uuid="c6df7b76e0a34e63990115dc638c6925" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="24" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="29cb9e7cefcf4ac18a5dfd6d870c8479" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="29cb9e7cefcf4ac18a5dfd6d870c8479" mergeable="true" del="true">
     <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="25" creation="26/06/2018 14:09:00" size="100"/>
   </compo>
   <compo A="Prince" T="Purple Rain" type="ALBUM" uuid="63fc969e18014d448eb4ed237acbd188" mergeable="true" del="true">

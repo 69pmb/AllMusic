@@ -196,7 +196,7 @@
   <compo A="Bob Marley" T="Buffalo Soldier" type="SONG" uuid="37d9a7570f934a62aecb5ecd1418d23e" mergeable="true" del="false">
     <file author="NME" name="NME - Songs - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="true" rank="65" creation="13/08/2017 04:25:08" size="70"/>
   </compo>
-  <compo A="Orange Juice" T="Rip It Up" type="SONG" uuid="46a4e49a699e4f04a9a1a8dd7ed57a7c" mergeable="true" del="false">
+  <compo A="Orange Juice" T="Rip It Up" type="SONG" uuid="46a4e49a699e4f04a9a1a8dd7ed57a7c" mergeable="true" del="true">
     <file author="NME" name="NME - Songs - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="true" rank="66" creation="13/08/2017 04:25:08" size="70"/>
   </compo>
   <compo A="Prefab Sprout" T="Lions In My Garden" type="SONG" uuid="452430952b674fffa2cce1f9009c936a" mergeable="true" del="false">

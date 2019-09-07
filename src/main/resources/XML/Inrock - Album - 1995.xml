@@ -10,7 +10,7 @@
   <compo A="Bjork" T="Post" type="ALBUM" uuid="70141b00324046df8f17feafd29bc03c" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="3" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
-  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="286b56806852480bad1ce4afec6e9300" mergeable="true" del="false">
+  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="286b56806852480bad1ce4afec6e9300" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="4" creation="10/09/2018 13:31:05" size="25"/>
   </compo>
   <compo A="Boo Radleys" T="Wake Up" type="ALBUM" uuid="ff4b171a8bb349b082069af2916840ee" mergeable="true" del="false">

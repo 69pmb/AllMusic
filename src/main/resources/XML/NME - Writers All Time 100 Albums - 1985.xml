@@ -253,7 +253,7 @@
   <compo A="Joni Mitchell" T="Court And Spark" type="ALBUM" uuid="598e5639f1ca483c82acccb56891dc87" mergeable="true" del="false">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="84" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
-  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="84e5665792eb476cb64d79b1d1da3f87" mergeable="true" del="false">
+  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="84e5665792eb476cb64d79b1d1da3f87" mergeable="true" del="true">
     <file author="NME" name="NME - Writers All Time 100 Albums - 1985" publish="1985" cat="ALL_TIME" rangeB="0" rangeE="1985" sorted="true" rank="85" creation="04/09/2018 15:35:34" size="100"/>
   </compo>
   <compo A="Talking Heads" T="More Songs About Buildings And Food" type="ALBUM" uuid="8b7ee516d7324c16a6cf02fbd01e686d" mergeable="true" del="false">

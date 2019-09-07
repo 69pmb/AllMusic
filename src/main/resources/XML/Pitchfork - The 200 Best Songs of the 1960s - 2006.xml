@@ -79,7 +79,7 @@
   <compo A="Loretta Lynn" T="Don't Come Home A Drinkin' (With Lovin' On Your Mind)" type="SONG" uuid="69d662389acb42f0bd5b4768548fb7c9" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="175" creation="05/01/2018 13:17:17" size="200"/>
   </compo>
-  <compo A="Darlene Love" T="Christmas (Baby Please Come Home)" type="SONG" uuid="33b74980052d4309821bd893563c49c6" mergeable="true" del="false">
+  <compo A="Darlene Love" T="Christmas (Baby Please Come Home)" type="SONG" uuid="33b74980052d4309821bd893563c49c6" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="174" creation="05/01/2018 13:17:17" size="200"/>
   </compo>
   <compo A="Phil Ochs" T="I Ain't Marching Anymore" type="SONG" uuid="b78d512c4dfc4bf4a3d5958abc7194fc" mergeable="true" del="false">
@@ -394,7 +394,7 @@
   <compo A="Patsy Cline" T="Crazy" type="SONG" uuid="0d9304f469e04cc8b0b72aaa61a9285f" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="70" creation="05/01/2018 13:17:17" size="200"/>
   </compo>
-  <compo A="Dick Dale" T="Miserlou" type="SONG" uuid="650aa3aa25d54e4d845cc16a465be996" mergeable="true" del="false">
+  <compo A="Dick Dale" T="Miserlou" type="SONG" uuid="650aa3aa25d54e4d845cc16a465be996" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1960s - 2006" publish="2006" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="69" creation="05/01/2018 13:17:17" size="200"/>
   </compo>
   <compo A="The Shirelles" T="Will You Love Me Tomorrow" type="SONG" uuid="16b48a498f8b4678b7064a203f302320" mergeable="true" del="false">

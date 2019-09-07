@@ -28,7 +28,7 @@
   <compo A="New Order" T="Bizarre Love Triangle" type="SONG" uuid="ca14e8659462497e9e381eef1e932de9" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="e6588910b81349aa99b0d0fa55f51458" mergeable="true" del="false">
+  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="e6588910b81349aa99b0d0fa55f51458" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="The Human League" T="Love Action" type="SONG" uuid="1d04a83d13914671885f84150f569d5f" mergeable="true" del="true">
@@ -115,7 +115,7 @@
   <compo A="Run-DMC And Aerosmith" T="Walk This Way" type="SONG" uuid="9fcb6e039e044c589488d4489dd41978" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="38" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Echo And The Bunnymen" T="The Killing Moon" type="SONG" uuid="35895a83215a412f9c687a55128fe984" mergeable="true" del="false">
+  <compo A="Echo And The Bunnymen" T="The Killing Moon" type="SONG" uuid="35895a83215a412f9c687a55128fe984" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="39" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Happy Mondays" T="Hallelujah" type="SONG" uuid="49206cf2d1564f32b8b602d5e1ca050f" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <compo A="The Fall" T="Hit The North" type="SONG" uuid="97ae420bbccb40998518388e8237291f" mergeable="true" del="false">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="73" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
-  <compo A="Orange Juice" T="Rip It Up" type="SONG" uuid="d04c17234b4b4fbf9919a9ace40edb3d" mergeable="true" del="false">
+  <compo A="Orange Juice" T="Rip It Up" type="SONG" uuid="d04c17234b4b4fbf9919a9ace40edb3d" mergeable="true" del="true">
     <file author="NME" name="NME - The 80's - 2012" publish="2012" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="74" creation="05/01/2018 13:17:17" size="100"/>
   </compo>
   <compo A="Dead Kennedys" T="Too Drunk To Fuck" type="SONG" uuid="961eabf079d34e59842a9216dbde2adb" mergeable="true" del="false">

@@ -4,7 +4,7 @@
   <compo A="Nirvana" T="Nevermind" type="ALBUM" uuid="0e90fce455994fb9bdac1257ecd9dc25" mergeable="true" del="true">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="1" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
-  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="00b632576670472da5a945d290b3a5d0" mergeable="true" del="false">
+  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="00b632576670472da5a945d290b3a5d0" mergeable="true" del="true">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="2" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
   <compo A="Radiohead" T="OK Computer" type="ALBUM" uuid="4d120bea0aee47cc9d411e6065f567f5" mergeable="true" del="true">
@@ -562,7 +562,7 @@
   <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" uuid="c46d822d4fa34667b4fcadc15b5a1536" mergeable="true" del="true">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="187" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
-  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="1fe91963b9004ab0bc7c325847eae6f2" mergeable="true" del="false">
+  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="1fe91963b9004ab0bc7c325847eae6f2" mergeable="true" del="true">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="188" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
   <compo A="Tracy Chapman" T="Tracy Chapman" type="ALBUM" uuid="cf81ae5a768746a9a2c697d6b15cf602" mergeable="true" del="false">
@@ -592,7 +592,7 @@
   <compo A="Eron" T="Artificial Animals Riding On Neverland" type="ALBUM" uuid="ddedff599801445ea2568f1309f15d8a" mergeable="true" del="false">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="197" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="4a230e77c10646f88d61fa5d76ae7fb5" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="4a230e77c10646f88d61fa5d76ae7fb5" mergeable="true" del="true">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="198" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
   <compo A="Morcheeba" T="Big Calm" type="ALBUM" uuid="131a40006bd641d785fcc3a55c812a0d" mergeable="true" del="false">
@@ -841,7 +841,7 @@
   <compo A="Telephone" T="Au Coeur De La Nuit" type="ALBUM" uuid="0d7bc3a2a8a744bca1a1bed081f240ea" mergeable="true" del="false">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="280" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="94547e3e90f94dcb88ed12990deaafa5" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="94547e3e90f94dcb88ed12990deaafa5" mergeable="true" del="true">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="281" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
   <compo A="Aphex Twin" T="Come To Daddy" type="ALBUM" uuid="6272fc5823614427bf7f918031a32276" mergeable="true" del="false">
@@ -2734,7 +2734,7 @@
   <compo A="The Cardigans" T="Gran Turismo" type="ALBUM" uuid="89187befcce948be820b5bfa4bbdf321" mergeable="true" del="false">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="911" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
-  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="7a8a015b22c14d5f93c3cd3fa2486ad3" mergeable="true" del="false">
+  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="7a8a015b22c14d5f93c3cd3fa2486ad3" mergeable="true" del="true">
     <file author="Divers" name="Fnac - The 1000 Best Albums of All Time - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="912" creation="25/08/2019 14:53:12" size="1000"/>
   </compo>
   <compo A="U2" T="How To Dismantle A Nuclear Bomb" type="ALBUM" uuid="9025e0dc727a45898fc089ec22fe8ffb" mergeable="true" del="false">

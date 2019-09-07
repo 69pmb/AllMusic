@@ -52,7 +52,7 @@
   <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" uuid="ee4d9e4c76434fde87fd7ff35028babe" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="17" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="e58385ca9b3746ce972eefd30992a59a" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="e58385ca9b3746ce972eefd30992a59a" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="18" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="U2" T="The Joshua Tree" type="ALBUM" uuid="d49320a6a4804506ae7e264968c5726d" mergeable="true" del="true">
@@ -205,7 +205,7 @@
   <compo A="Neil Young" T="After The Gold Rush" type="ALBUM" uuid="8f230de43d5e4143bc4535ac3f2115f5" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="68" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="2ae6228d0f1e4d6d90637d8567c86a40" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="2ae6228d0f1e4d6d90637d8567c86a40" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - Album Of The Millennium - 1997" publish="1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="69" creation="27/08/2018 11:44:50" size="100"/>
   </compo>
   <compo A="The Doors" T="The Doors" type="ALBUM" uuid="d001363e583f4d3fb0a513a48f52946c" mergeable="true" del="true">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="cd353c83a37b41db84f86e296f141577" mergeable="true" del="false">
+  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="cd353c83a37b41db84f86e296f141577" mergeable="true" del="true">
     <file author="Q" name="Q - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="1" creation="28/08/2018 11:36:11" size="50"/>
   </compo>
   <compo A="Bon Jovi" T="These Days" type="ALBUM" uuid="89440e83c00f4cc4b63b05823612ffd6" mergeable="true" del="false">

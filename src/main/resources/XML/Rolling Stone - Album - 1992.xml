@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListCompositions>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="2e7ec693c3d046979915edca1bf19c1b" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="2e7ec693c3d046979915edca1bf19c1b" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Album - 1992" publish="1992" cat="YEAR" rangeB="1992" rangeE="1992" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </compo>
   <compo A="Arrested Development" T="3 Years, 5 Months And 2 Days In The Life Of..." type="ALBUM" uuid="5d84ddd394c245bbb7ec967b880ae86c" mergeable="true" del="false">

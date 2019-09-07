@@ -124,7 +124,7 @@
   <compo A="The Rolling Stones" T="Let It Bleed" type="ALBUM" uuid="15fb95e0bcbf45ddafe7da292365858b" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="41" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="bc7d7432330d424784f29fd5441372d8" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="bc7d7432330d424784f29fd5441372d8" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="42" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Stevie Wonder" T="Songs In The Key Of Life" type="ALBUM" uuid="9cf7cd4eacc04166856f54d019e86347" mergeable="true" del="false">
@@ -400,7 +400,7 @@
   <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" uuid="4ce10c389eaa4daa973d7b99fae134f1" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="133" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="a2f5d17001604599975fe641a3155173" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="a2f5d17001604599975fe641a3155173" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="134" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Bjork" T="Debut" type="ALBUM" uuid="2f98647eaf3f46b4aac473ed4bb8556d" mergeable="true" del="true">
@@ -952,7 +952,7 @@
   <compo A="James Blake" T="James Blake" type="ALBUM" uuid="56c8b515ee0c4036a59d2396f0ea746f" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="317" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="34fb1545b19e4e5b8c55eeea9fec2bea" mergeable="true" del="false">
+  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="34fb1545b19e4e5b8c55eeea9fec2bea" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="318" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Who" T="The Who Sell Out" type="ALBUM" uuid="b397a30f871f4e188c166bfb53a884de" mergeable="true" del="true">
@@ -2029,7 +2029,7 @@
   <compo A="Augustus Pablo" T="King Tubbys Meets Rockers Uptown" type="ALBUM" uuid="3b8078247ec3488da4376e16d591b650" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="676" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="af0f59e3ba25483a845578b080b7c88a" mergeable="true" del="false">
+  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="af0f59e3ba25483a845578b080b7c88a" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="677" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="The Afghan Whigs" T="Gentlemen" type="ALBUM" uuid="90bacf2286bb4bd3ae8a86cdf12223bb" mergeable="true" del="false">
@@ -5485,7 +5485,7 @@
   <compo A="Inner City" T="Paradise/Big Fun" type="ALBUM" uuid="7134c683300943c29cba62f50999feca" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1828" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="e4fdc4e6bbb04508a6f1b47766ae6bd5" mergeable="true" del="false">
+  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="e4fdc4e6bbb04508a6f1b47766ae6bd5" mergeable="true" del="true">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1829" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="2 Many DJs" T="As Heard On Radio Soulwax Pt. 2" type="ALBUM" uuid="51d231f760c6442e84199188c3c76903" mergeable="true" del="false">
