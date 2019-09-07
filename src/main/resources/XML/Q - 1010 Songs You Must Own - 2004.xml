@@ -49,7 +49,7 @@
   <compo A="The Floaters" T="Float On" type="SONG" uuid="4859eca39acb456e88bc6613f448ebb8" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="16" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Adverts" T="Gary Gilmore's Eyes" type="SONG" uuid="ea00890ccebe4974a25fb71114d16798" mergeable="true" del="false">
+  <compo A="Adverts" T="Gary Gilmore's Eyes" type="SONG" uuid="ea00890ccebe4974a25fb71114d16798" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="17" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Deee Lite" T="Groove Is In The Heart" type="SONG" uuid="140413e1fc7b4ec897f3b5aaa79f8592" mergeable="true" del="true">
@@ -103,7 +103,7 @@
   <compo A="Smart Es" T="Sesame's Treat" type="SONG" uuid="6909f4d7f5eb4ea69f63faed8549ae53" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="34" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Strawberry Switchblade" T="Since Yesterday" type="SONG" uuid="9061efc0b1a841228f6fea69e2f0a066" mergeable="true" del="false">
+  <compo A="Strawberry Switchblade" T="Since Yesterday" type="SONG" uuid="9061efc0b1a841228f6fea69e2f0a066" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="35" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Mink DeVille" T="Spanish Stroll" type="SONG" uuid="cfac3ef2b99b4966a30ce435d9ea47b4" mergeable="true" del="false">
@@ -1147,7 +1147,7 @@
   <compo A="Pixies" T="Monkey Gone THeaven" type="SONG" uuid="f5f9dab72b4d481eb2179f536fe2adce" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="382" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Roy Orbison" T="Only The Lonely (Know The Way I Feel)" type="SONG" uuid="8f03285fc48841c3bcc0f34da8d9b13b" mergeable="true" del="false">
+  <compo A="Roy Orbison" T="Only The Lonely (Know The Way I Feel)" type="SONG" uuid="8f03285fc48841c3bcc0f34da8d9b13b" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="383" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Velvet Underground" T="Pale Blue Eyes" type="SONG" uuid="844d59b9f98945ac81278a2f4a52b5d6" mergeable="true" del="true">
@@ -1279,7 +1279,7 @@
   <compo A="Queens Of The Stone Age" T="No One Knows" type="SONG" uuid="fcd0a8d7a45c440e90f12e512625888f" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="426" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="7a139d3fd5f44d8282661e6ed0f719dc" mergeable="true" del="false">
+  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="7a139d3fd5f44d8282661e6ed0f719dc" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="427" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Bjork" T="Possibly Maybe (LFLucy Mix)" type="SONG" uuid="2d0dd14a76e2449c96ff0e9f0c923efc" mergeable="true" del="true">
@@ -1456,7 +1456,7 @@
   <compo A="Radiohead" T="Pyramid Song" type="SONG" uuid="9f4a03c66f23415597d6c9a1d66a175e" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="485" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Justin Timberlake" T="Rock Your Body" type="SONG" uuid="f1323e6949364fc7a744aa16a20fae66" mergeable="true" del="false">
+  <compo A="Justin Timberlake" T="Rock Your Body" type="SONG" uuid="f1323e6949364fc7a744aa16a20fae66" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="486" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Coldplay" T="Scientist" type="SONG" uuid="c832da53901445cba888e6470ba4b1e9" mergeable="true" del="false">
@@ -2056,7 +2056,7 @@
   <compo A="Weather Prophets" T="Almost Prayed" type="SONG" uuid="8ad706ac82e4475cbc5ab232512f58fd" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="685" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Meat Loaf" T="Bat Out Of Hell" type="SONG" uuid="9f27120f2b6149729aa991be6dde6768" mergeable="true" del="false">
+  <compo A="Meat Loaf" T="Bat Out Of Hell" type="SONG" uuid="9f27120f2b6149729aa991be6dde6768" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="686" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Dandy Warhols" T="Bohemian Like You" type="SONG" uuid="861cf880dffb401e919efe18582abc65" mergeable="true" del="true">
@@ -2143,7 +2143,7 @@
   <compo A="Public Enemy" T="Night Of The Living Bassheads" type="SONG" uuid="d428cbefbb8b44b29933ebbdcd1ce2c5" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="714" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Chuck Berry" T="NParticular Place TG" type="SONG" uuid="c02591f33cdd4b37935f913c4a81d023" mergeable="true" del="false">
+  <compo A="Chuck Berry" T="NParticular Place TG" type="SONG" uuid="c02591f33cdd4b37935f913c4a81d023" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="715" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Rocket From The Crypt" T="On A Rope" type="SONG" uuid="7cd1f043ea014d09a5427795d15e0830" mergeable="true" del="false">
@@ -2212,7 +2212,7 @@
   <compo A="Razorlight" T="To the Sea" type="SONG" uuid="fb131e5a1ba94f9381ff68b7089b21ac" mergeable="true" del="false">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="737" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
-  <compo A="Creedence Clearwater Revival" T="Up Around The Bend" type="SONG" uuid="36cd76e5bcb0414ab326a9a9dfcfcfef" mergeable="true" del="false">
+  <compo A="Creedence Clearwater Revival" T="Up Around The Bend" type="SONG" uuid="36cd76e5bcb0414ab326a9a9dfcfcfef" mergeable="true" del="true">
     <file author="Q" name="Q - 1010 Songs You Must Own - 2004" publish="2004" cat="ALL_TIME" rangeB="0" rangeE="2004" sorted="false" rank="738" creation="28/08/2018 10:59:18" size="1010"/>
   </compo>
   <compo A="Michael Jackson" T="Wanna Be Startin' Somethin'" type="SONG" uuid="cf198a58a2a64216bc2d8f46ac9b4268" mergeable="true" del="true">

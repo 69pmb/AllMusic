@@ -676,7 +676,7 @@
   <compo A="Led Zeppelin" T="IV" type="ALBUM" uuid="5fb207b344404ca78f1098087fe8c82f" mergeable="false" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="225" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Serge Gainsbourg" T="Histoire de Melody Nelson" type="ALBUM" uuid="1423b50342ad422cb0748c2506b22a33" mergeable="true" del="false">
+  <compo A="Serge Gainsbourg" T="Histoire de Melody Nelson" type="ALBUM" uuid="1423b50342ad422cb0748c2506b22a33" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="226" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Rod Stewart" T="Every Picture Tells a Story" type="ALBUM" uuid="3a766667ed674af49f7884eaf5b1632a" mergeable="true" del="false">
@@ -1033,7 +1033,7 @@
   <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" uuid="921b0eb68d564e2794418cff350c1fdb" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="344" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="095f871b7c1440b6b008187c73126336" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="095f871b7c1440b6b008187c73126336" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="345" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Willie Nelson" T="Red Headed Stranger" type="ALBUM" uuid="208c6aa0b21843a98548131feb7dfb61" mergeable="true" del="false">
@@ -2155,7 +2155,7 @@
   <compo A="Dr. Dre" T="The Chronic" type="ALBUM" uuid="f3b7efee74744215827eefd2e3f31de5" mergeable="true" del="false">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="718" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
-  <compo A="REM" T="Automatic for the People" type="ALBUM" uuid="799ad4d4f1844c429f4f2e597ddf7092" mergeable="true" del="false">
+  <compo A="REM" T="Automatic for the People" type="ALBUM" uuid="799ad4d4f1844c429f4f2e597ddf7092" mergeable="true" del="true">
     <file author="Divers" name="1001 Albums You Must Hear - 2008" publish="2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="719" creation="25/06/2018 16:35:39" size="1001"/>
   </compo>
   <compo A="Pharcyde" T="Bizarre Ride II the..." type="ALBUM" uuid="4ad903bf3e97478994f4e3914763d930" mergeable="true" del="false">

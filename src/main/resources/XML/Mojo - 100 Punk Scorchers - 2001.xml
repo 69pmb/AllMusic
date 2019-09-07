@@ -16,7 +16,7 @@
   <compo A="The Jam" T="In The City" type="SONG" uuid="4690645c88874551aafbb7895538249b" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="5" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Richard Hell" T="Blank Generation" type="SONG" uuid="d764adbca4e14198832c8942b15098d2" mergeable="true" del="false">
+  <compo A="Richard Hell" T="Blank Generation" type="SONG" uuid="d764adbca4e14198832c8942b15098d2" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="6" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Saints" T="(I'm) Stranded" type="SONG" uuid="63d0bb462ab34afe9e02cc099dff1071" mergeable="true" del="true">
@@ -34,7 +34,7 @@
   <compo A="Buzzcocks" T="Boredom" type="SONG" uuid="c31c55a312de44e6b3eea777e953293e" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="11" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="The Adverts" T="Gary Gilmore's Eyes" type="SONG" uuid="6fff4034a76940658dbe80ae96242753" mergeable="true" del="false">
+  <compo A="The Adverts" T="Gary Gilmore's Eyes" type="SONG" uuid="6fff4034a76940658dbe80ae96242753" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="12" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="Sex Pistols" T="Holidays In The Sun" type="SONG" uuid="f64dd48f5ee5462f8101c5d61dcb87bb" mergeable="true" del="true">
@@ -193,7 +193,7 @@
   <compo A="The Cortinas" T="Fascist Dictator" type="SONG" uuid="1ea9bebc57164703b5bd9d73116334bc" mergeable="true" del="false">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="64" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
-  <compo A="Plastic Bertrand" T="Ca Plane Pour Moi" type="SONG" uuid="b816b488986e49e68127fa8d304f6c69" mergeable="true" del="false">
+  <compo A="Plastic Bertrand" T="Ca Plane Pour Moi" type="SONG" uuid="b816b488986e49e68127fa8d304f6c69" mergeable="true" del="true">
     <file author="Mojo" name="Mojo - 100 Punk Scorchers - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="65" creation="02/07/2017 07:08:56" size="100"/>
   </compo>
   <compo A="The Germs" T="Forming" type="SONG" uuid="c5d9537b46254f7eaf6758b1c5231665" mergeable="true" del="false">

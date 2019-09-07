@@ -193,7 +193,7 @@
   <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" uuid="09c92a6241f54a238f485370b1cbcdca" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="64" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="cedb34fb8d414a3cbb5ffd258ea1354c" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="cedb34fb8d414a3cbb5ffd258ea1354c" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="65" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Radiohead" T="The Bends" type="ALBUM" uuid="b2306b8a2a02451fa02c7f924e7d2762" mergeable="true" del="true">
@@ -424,7 +424,7 @@
   <compo A="Bob Marley" T="Natty Dread" type="ALBUM" uuid="568171e4dd56443dbc0baecd352cb2ea" mergeable="true" del="false">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="141" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="04957266e8834ed1b053095f21522fb2" mergeable="true" del="false">
+  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="04957266e8834ed1b053095f21522fb2" mergeable="true" del="true">
     <file author="NME" name="NME - The 500 Greatest Albums Of All Time October - 2013" publish="2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="142" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Desire" type="ALBUM" uuid="dc242bf84ef84fc5a0f56e4995d90fdf" mergeable="true" del="false">

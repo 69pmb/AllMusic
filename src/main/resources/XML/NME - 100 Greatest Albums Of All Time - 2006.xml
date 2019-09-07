@@ -55,7 +55,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" uuid="878df3429ad3404d940be7d21f879b51" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="18" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="1abf69a0c4394ab18e8000e3e6613d79" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="1abf69a0c4394ab18e8000e3e6613d79" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="19" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="The Strokes" T="Is This It" type="ALBUM" uuid="06e00672d57443b5a2e550ae014ebd41" mergeable="true" del="true">
@@ -109,7 +109,7 @@
   <compo A="Pink Floyd" T="The Wall" type="ALBUM" uuid="bd377e616f454740b6cd1d7ff2684aa7" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="36" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
-  <compo A="Rem" T="Automatic For The People" type="ALBUM" uuid="946b8653061d4a3089f71d62d1875177" mergeable="true" del="false">
+  <compo A="Rem" T="Automatic For The People" type="ALBUM" uuid="946b8653061d4a3089f71d62d1875177" mergeable="true" del="true">
     <file author="NME" name="NME - 100 Greatest Albums Of All Time - 2006" publish="2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="37" creation="04/09/2018 15:03:58" size="100"/>
   </compo>
   <compo A="Franz Ferdinand" T="Franz Ferdinand" type="ALBUM" uuid="2b7bf44ca15c41d9b6a32cda4fda296a" mergeable="true" del="false">

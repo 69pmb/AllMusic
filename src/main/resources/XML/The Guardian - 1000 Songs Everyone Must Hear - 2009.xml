@@ -280,7 +280,7 @@
   <compo A="Elvis Presley" T="Can't Help Falling In Love" type="SONG" uuid="6cb23703655f496f84026c7069a024d2" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="93" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Elvis Presley" T="Love Me Tender" type="SONG" uuid="454a4d71ea0b4c5b937b3bd1f5439063" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Love Me Tender" type="SONG" uuid="454a4d71ea0b4c5b937b3bd1f5439063" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="94" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Pretenders" T="I'll Stand By You" type="SONG" uuid="0d79772a70774b47b31704e73595a983" mergeable="true" del="false">
@@ -292,7 +292,7 @@
   <compo A="Proclaimers" T="Let's Get Married" type="SONG" uuid="e795da17290a4b80982edea6d031ef17" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="97" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Queen" T="You're My Best Friend" type="SONG" uuid="a52b89c0f8c44e81800d609e632766b8" mergeable="true" del="false">
+  <compo A="Queen" T="You're My Best Friend" type="SONG" uuid="a52b89c0f8c44e81800d609e632766b8" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="98" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="AR Rahman" T="Kehna Hi Kya" type="SONG" uuid="06f90304d1344d28ad39ed458138c4fc" mergeable="true" del="false">
@@ -481,7 +481,7 @@
   <compo A="Vic Chesnutt" T="Where Were You" type="SONG" uuid="6ea46c2965f64d80a831b72a98462fa7" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="160" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Kelly Clarkson" T="Since U Been Gone" type="SONG" uuid="bacfa0b48ef94892b9f2802a79ee5b18" mergeable="true" del="false">
+  <compo A="Kelly Clarkson" T="Since U Been Gone" type="SONG" uuid="bacfa0b48ef94892b9f2802a79ee5b18" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="161" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Clash" T="Should I Stay Or Should I Go" type="SONG" uuid="a86e99d27cd249c1b6bf49b2f69a812b" mergeable="true" del="true">
@@ -550,7 +550,7 @@
   <compo A="Steve Earle" T="Goodbye" type="SONG" uuid="a0e0d0dad51e4b398a35597a28293d5c" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="183" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Echo And The Bunnymen" T="Killing Moon" type="SONG" uuid="07ad4298ecfc4777b3db61b15b553888" mergeable="true" del="false">
+  <compo A="Echo And The Bunnymen" T="The Killing Moon" type="SONG" uuid="07ad4298ecfc4777b3db61b15b553888" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="184" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Elbow" T="My Very Best" type="SONG" uuid="6b2bb7912c1d4777be6525400ba989fd" mergeable="true" del="false">
@@ -901,7 +901,7 @@
   <compo A="Chuck Berry" T="Memphis, Tennessee" type="SONG" uuid="780c7a0ed4d745f994c5ecdf02b8f2a4" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="300" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Chuck Berry" T="No Particular Place To Go" type="SONG" uuid="39891b58d5364fc686d41f2b3dc084c4" mergeable="true" del="false">
+  <compo A="Chuck Berry" T="No Particular Place To Go" type="SONG" uuid="39891b58d5364fc686d41f2b3dc084c4" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="301" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Mike Berry And The Outlaws" T="A Tribute To Buddy Holly" type="SONG" uuid="08cab6b57a484de2b245c9ba8d05d9f2" mergeable="true" del="false">
@@ -2239,7 +2239,7 @@
   <compo A="Bobbie Gentry" T="Glory Hallelujah, How They'll Sing" type="SONG" uuid="27f87793f22141538b6f7066f027def9" mergeable="true" del="false">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="746" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
-  <compo A="Geto Boys" T="Mind Playing Tricks On Me" type="SONG" uuid="25f6fa0d29a84ed3a6070417c6382ad7" mergeable="true" del="false">
+  <compo A="Geto Boys" T="Mind Playing Tricks On Me" type="SONG" uuid="25f6fa0d29a84ed3a6070417c6382ad7" mergeable="true" del="true">
     <file author="The Guardian" name="The Guardian - 1000 Songs Everyone Must Hear - 2009" publish="2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="747" creation="08/08/2017 23:13:02" size="994"/>
   </compo>
   <compo A="Astrud Gilberto And Walter Wanderley" T="So Nice (Summer Samba)" type="SONG" uuid="b9a8d056907a40df8cae9f3babf32b3c" mergeable="true" del="false">

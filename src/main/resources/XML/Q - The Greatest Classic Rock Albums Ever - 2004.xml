@@ -88,7 +88,7 @@
   <compo A="Guns 'N' Roses" T="Appetite For Destruction" type="ALBUM" uuid="09338acd6d044a97906884a42c95697c" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Classic Rock Albums Ever - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="29" creation="28/08/2018 10:22:07" size="30"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="1740d4a535a94e2cb475a7a64d2c2950" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="1740d4a535a94e2cb475a7a64d2c2950" mergeable="true" del="true">
     <file author="Q" name="Q - The Greatest Classic Rock Albums Ever - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="30" creation="28/08/2018 10:22:07" size="30"/>
   </compo>
 </ListCompositions>

@@ -55,7 +55,7 @@
   <compo A="Marvin Gaye" T="Sexual Healing" type="SONG" uuid="0724b2955da24842ab277e01054ceaeb" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="18" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="d8ea4cc3afaa4950b5d9c4dd6562f003" mergeable="true" del="false">
+  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="d8ea4cc3afaa4950b5d9c4dd6562f003" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="19" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="Whitney Houston" T="I Wanna Dance With Somebody (Who Loves Me)" type="SONG" uuid="5b5543c8b7b2486da4f534483db116a4" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <compo A="David Bowie" T="Let's Dance" type="SONG" uuid="96cf3a7e6b824fa182ee07609fe134e1" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="64" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Echo And the Bunnymen" T="The Killing Moon" type="SONG" uuid="a966bf2ec9a74e12824f212e20eb6f72" mergeable="true" del="false">
+  <compo A="Echo And the Bunnymen" T="The Killing Moon" type="SONG" uuid="a966bf2ec9a74e12824f212e20eb6f72" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="65" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="The Replacements" T="Alex Chilton" type="SONG" uuid="9459d31e349e496aae8008dc63554e85" mergeable="true" del="false">
@@ -469,7 +469,7 @@
   <compo A="Siouxsie and the Banshees" T="Cities in Dust" type="SONG" uuid="db1f876521a84f169a35e4c764307285" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="156" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
-  <compo A="Orange Juice" T="Rip It Up" type="SONG" uuid="471e5ab621ca4d85b57d46788233ab84" mergeable="true" del="false">
+  <compo A="Orange Juice" T="Rip It Up" type="SONG" uuid="471e5ab621ca4d85b57d46788233ab84" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The 200 Best Songs of the 1980s - 2005" publish="2005" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="157" creation="04/07/2018 15:10:45" size="200"/>
   </compo>
   <compo A="808 State" T="Pacific State" type="SONG" uuid="cf44f595b8a944328ba3d9506651211c" mergeable="true" del="false">

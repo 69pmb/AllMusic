@@ -184,7 +184,7 @@
   <compo A="Bob Dylan" T="Dirge" type="SONG" uuid="1edd0c28dbb449a4a9f0521e18a0a51e" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="76" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Helen Reddy" T="I Am Woman" type="SONG" uuid="70c60db3bfb64a00be792b61c4578cad" mergeable="true" del="false">
+  <compo A="Helen Reddy" T="I Am Woman" type="SONG" uuid="70c60db3bfb64a00be792b61c4578cad" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="77" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Radio Birdman" T="I-94" type="SONG" uuid="a206be2679054b9bb4cb76fa94fca64e" mergeable="true" del="false">
@@ -997,7 +997,7 @@
   <compo A="Gladys And The Pips Knight" T="Midnight Train To Georgia" type="SONG" uuid="7316de5319d14a11a2ec54c9b073d82b" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="442" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Creedence Clearwater Revival" T="Up Around The Bend" type="SONG" uuid="9588305bd9ea4900a5eb626a0dd58cb6" mergeable="true" del="false">
+  <compo A="Creedence Clearwater Revival" T="Up Around The Bend" type="SONG" uuid="9588305bd9ea4900a5eb626a0dd58cb6" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="443" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Max Q" T="Way Of The World" type="SONG" uuid="4d760041d51e478584d4a986d558ca4e" mergeable="true" del="false">
@@ -1201,7 +1201,7 @@
   <compo A="Lou Reed" T="Rock And Roll" type="SONG" uuid="86be45d0ed0c4b81b8918a3723835842" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="518" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="The Replacements" T="I Will Dare" type="SONG" uuid="ff87828df17149e29ec957748d8f9f68" mergeable="true" del="false">
+  <compo A="The Replacements" T="I Will Dare" type="SONG" uuid="ff87828df17149e29ec957748d8f9f68" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="520" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Elvis Presley" T="In The Ghetto" type="SONG" uuid="2e64ba972fa14d4c803ed28be53daeb1" mergeable="true" del="true">
@@ -1765,7 +1765,7 @@
   <compo A="Emmy Lou Harris" T="Wrecking Ball" type="SONG" uuid="70ead9a5a9414c0f815e3f079b5e64fe" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="757" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Tommy James and the Shondells" T="Hanky Panky" type="SONG" uuid="dab159c0d0d44c56875678c42ae945d7" mergeable="true" del="false">
+  <compo A="Tommy James and the Shondells" T="Hanky Panky" type="SONG" uuid="dab159c0d0d44c56875678c42ae945d7" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="758" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Deee-Lite" T="Groove Is In The Heart" type="SONG" uuid="6ea5f06a90f147b2925e79cc1e17e517" mergeable="true" del="true">
@@ -1819,7 +1819,7 @@
   <compo A="Patti Smith" T="Land:" type="SONG" uuid="f9f434715064486aa23f0275bcc0c5a3" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="780" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Roy Orbison" T="Only The Lonely (Know The Way I Feel)" type="SONG" uuid="1931fdbacd3f49f698220751685d35b0" mergeable="true" del="false">
+  <compo A="Roy Orbison" T="Only The Lonely (Know The Way I Feel)" type="SONG" uuid="1931fdbacd3f49f698220751685d35b0" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="782" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Sam Cooke" T="Bring It On Home To Me" type="SONG" uuid="1493d5289fc047c49b179675099de56d" mergeable="true" del="false">
@@ -2038,7 +2038,7 @@
   <compo A="Joni Mitchell" T="The Hissing Of Summer Lawns" type="SONG" uuid="1f48ce6d1a9743bd9c175b2e4078abfb" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="874" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="Plastic Bertrand" T="Ca Plane Pour Moi" type="SONG" uuid="4e4b49ad1840412faaad80952c0c2add" mergeable="true" del="false">
+  <compo A="Plastic Bertrand" T="Ca Plane Pour Moi" type="SONG" uuid="4e4b49ad1840412faaad80952c0c2add" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="875" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Bob Dylan" T="Ballad Of A Thin Man" type="SONG" uuid="702931d25bbb407b8f93817302ae406f" mergeable="true" del="true">
@@ -2242,7 +2242,7 @@
   <compo A="Pentangle" T="Light Flight" type="SONG" uuid="f52948074bf9474a9d50e4bcc1b4b7d1" mergeable="true" del="false">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="972" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
-  <compo A="10CC" T="I'm Not In Love" type="SONG" uuid="9ce1711c704e4c15b53b7593d1c3bb8d" mergeable="true" del="false">
+  <compo A="10CC" T="I'm Not In Love" type="SONG" uuid="9ce1711c704e4c15b53b7593d1c3bb8d" mergeable="true" del="true">
     <file author="Divers" name="1001 Greatest Songs by Toby Creswell" publish="2005" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="973" creation="25/01/2017 10:01:31" size="1001"/>
   </compo>
   <compo A="Captain Beefheart" T="Moonlight On Vermont" type="SONG" uuid="d51ca6546c954a4dab743e511880527c" mergeable="true" del="false">

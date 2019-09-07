@@ -37,7 +37,7 @@
   <compo A="Los Lobos" T="Kiko" type="ALBUM" uuid="a840ae0ce289408d80d285ddb4a53103" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="12" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="9b5320658d4e48878934d6cdf2253c42" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="9b5320658d4e48878934d6cdf2253c42" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Essential Recordings Of The 90s - 1999" publish="1999" cat="DECADE" rangeB="1990" rangeE="1999" sorted="false" rank="13" creation="13/08/2017 04:25:08" size="160"/>
   </compo>
   <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" uuid="5da44d57a9454bb1b6815f4419460330" mergeable="true" del="true">

@@ -97,10 +97,10 @@
   <compo A="Carpenters" T="Superstar" type="SONG" uuid="658a132172ff40758a7542b8ff44e2eb" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="32" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Cassius" T="Cassius 1999" type="SONG" uuid="f39a50c750784f09bfb5364e80ecfe2e" mergeable="true" del="false">
+  <compo A="Cassius" T="Cassius 1999" type="SONG" uuid="f39a50c750784f09bfb5364e80ecfe2e" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="33" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Chet Baker" T="My Funny Valentine" type="SONG" uuid="3fd6511aaf9c49e8ae41142a2fd7a34a" mergeable="true" del="false">
+  <compo A="Chet Baker" T="My Funny Valentine" type="SONG" uuid="3fd6511aaf9c49e8ae41142a2fd7a34a" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="34" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Chicago" T="If You Leave Me Now" type="SONG" uuid="2d90e4bb66294cc286fab981b15eec3c" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <compo A="Eagles" T="Hotel California" type="SONG" uuid="794c56a386b24c91a7039dce756537bf" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="56" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Echo and the Bunnymen" T="The Killing Moon" type="SONG" uuid="c319bc39be2949bead5ba4a4bab99bf2" mergeable="true" del="false">
+  <compo A="Echo and the Bunnymen" T="The Killing Moon" type="SONG" uuid="c319bc39be2949bead5ba4a4bab99bf2" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="57" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Elastica" T="Connection" type="SONG" uuid="f6fbfd19a7104d71bba590583e5eacaa" mergeable="true" del="false">
@@ -349,7 +349,7 @@
   <compo A="King Crimson" T="I Talk to the Wind" type="SONG" uuid="f4e0781c09624e2bbe31bb6b3e498948" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="116" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Kiss" T="Detroit Rock City" type="SONG" uuid="b6ca3264f2144362a748a3642df44b5e" mergeable="true" del="false">
+  <compo A="Kiss" T="Detroit Rock City" type="SONG" uuid="b6ca3264f2144362a748a3642df44b5e" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="117" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Kris Kross" T="Jump" type="SONG" uuid="6a1870889ae8462085f9ac8338ef1bd8" mergeable="true" del="false">
@@ -493,7 +493,7 @@
   <compo A="Pierre Henry And Michel Colombier" T="Psyche Rock" type="SONG" uuid="39405ccee0ed4eb5b773899d469f1d72" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="164" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Plastic Bertrand" T="Ca plane pour moi" type="SONG" uuid="78bcbed08f7b4ff4b2c10ba9f579ac35" mergeable="true" del="false">
+  <compo A="Plastic Bertrand" T="Ca plane pour moi" type="SONG" uuid="78bcbed08f7b4ff4b2c10ba9f579ac35" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="165" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Queen" T="Under Pressure" type="SONG" uuid="42ce68fb69ce41dda548b9b28bdac7cd" mergeable="true" del="true">
@@ -586,7 +586,7 @@
   <compo A="Sparks" T="When I'm with You" type="SONG" uuid="ed56abff974c40d8afb531b136675187" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="195" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Stardust" T="Music Sounds Better with You" type="SONG" uuid="dee06ecc56db465d9db44f89f30bef29" mergeable="true" del="false">
+  <compo A="Stardust" T="Music Sounds Better with You" type="SONG" uuid="dee06ecc56db465d9db44f89f30bef29" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="196" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Steely Dan" T="Aja" type="SONG" uuid="872445a83ce44724b1eefefce9356f7c" mergeable="true" del="false">
@@ -802,7 +802,7 @@
   <compo A="ZZ Top" T="Gimme All Your Lovin'" type="SONG" uuid="6204ce4ffdfa4fd59c4150085aeaef4a" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="267" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="10CC" T="I'm Not in Love" type="SONG" uuid="99174c96565e4d65af739e27ecc34d7d" mergeable="true" del="false">
+  <compo A="10CC" T="I'm Not in Love" type="SONG" uuid="99174c96565e4d65af739e27ecc34d7d" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="268" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Agnes Obel" T="Riverside" type="SONG" uuid="55918c0c99d944db8a25f21f29652160" mergeable="true" del="false">
@@ -2407,7 +2407,7 @@
   <compo A="Reese And Santonio" T="The Sound" type="SONG" uuid="c2ec74a2f7e14e328bacb878e4b53688" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="802" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
-  <compo A="Richard Hell" T="Blank Generation" type="SONG" uuid="38d400a4e0134c8489a32d920ff5d3e2" mergeable="true" del="false">
+  <compo A="Richard Hell" T="Blank Generation" type="SONG" uuid="38d400a4e0134c8489a32d920ff5d3e2" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 1000 morceaux indispensables - 2015" publish="2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="803" creation="08/08/2017 23:13:02" size="1000"/>
   </compo>
   <compo A="Rock Steady Crew" T="(Hey You) The Rock Steady Crew" type="SONG" uuid="37a585a535a84568889155ac4aefef7f" mergeable="true" del="false">

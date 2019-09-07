@@ -175,7 +175,7 @@
   <compo A="The Who" T="Who's Next?" type="ALBUM" uuid="549f39e3c26145fd8c5388d583685a85" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="58" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="29a4b27c4dcc43868a428d05a5931f1f" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="29a4b27c4dcc43868a428d05a5931f1f" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Top 100 Albums Compiled - 1997" publish="1997" cat="ALL_TIME" rangeB="0" rangeE="1997" sorted="true" rank="59" creation="19/07/2017 07:11:54" size="100"/>
   </compo>
   <compo A="Byrds" T="Younger Than Yesterday" type="ALBUM" uuid="59ff571fa328432e8ecb9a193e65e5de" mergeable="true" del="false">

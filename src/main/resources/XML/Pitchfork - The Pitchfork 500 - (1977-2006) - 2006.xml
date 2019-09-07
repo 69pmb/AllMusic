@@ -187,7 +187,7 @@
   <compo A="Heavenly" T="C Is The Heavenly Option" type="SONG" uuid="759ec0c1f2d049d9969a7cb16fbc9233" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="62" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Plastic Bertrand" T="Ca Plane Pour Moi" type="SONG" uuid="ce6a0cb1ba53447ea35a548eb6c7c056" mergeable="true" del="false">
+  <compo A="Plastic Bertrand" T="Ca Plane Pour Moi" type="SONG" uuid="ce6a0cb1ba53447ea35a548eb6c7c056" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="63" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Mr Fingers" T="Can You Feel It?" type="SONG" uuid="283a22eef25240568dff79e8b86df115" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <compo A="Siouxsie And The Banshees" T="Cities In Dust" type="SONG" uuid="c2659c7f0eba422bb36f8008f11cace3" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="73" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Tindersticks" T="City Sickness" type="SONG" uuid="2327e850f06841b49be13947d79c4859" mergeable="true" del="false">
+  <compo A="Tindersticks" T="City Sickness" type="SONG" uuid="2327e850f06841b49be13947d79c4859" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="74" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Saint Vitus" T="Clear Windowpane" type="SONG" uuid="62a2d8602a274705b89665e76f5104db" mergeable="true" del="false">
@@ -583,7 +583,7 @@
   <compo A="Common" T="I Used To Love H.E.R." type="SONG" uuid="dd23cc4ac75d46718c0547c2fbfa9366" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="194" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="The Replacements" T="I Will Dare" type="SONG" uuid="f1e67b6cfb924d36b8e0ebf60fd1bce5" mergeable="true" del="false">
+  <compo A="The Replacements" T="I Will Dare" type="SONG" uuid="f1e67b6cfb924d36b8e0ebf60fd1bce5" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="195" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Gloria Gaynor" T="I Will Survive" type="SONG" uuid="32a652d8935344ad81bc06a455bbc91c" mergeable="true" del="false">
@@ -775,7 +775,7 @@
   <compo A="DJ Shadow" T="Midnight In A Perfect World" type="SONG" uuid="a4106a1650414e2f8c6c6afa12d7e1b1" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="258" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Geto Boys" T="Mind Playing Tricks On Me" type="SONG" uuid="367c80a748df4181b6ff1509546d1c52" mergeable="true" del="false">
+  <compo A="Geto Boys" T="Mind Playing Tricks On Me" type="SONG" uuid="367c80a748df4181b6ff1509546d1c52" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="259" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Minor Threat" T="Minor Threat" type="SONG" uuid="b21d18d66f4341c3912d131236cf1452" mergeable="true" del="false">
@@ -808,7 +808,7 @@
   <compo A="Feist" T="Mushaboom" type="SONG" uuid="d36c46850c3a491e81c3f5f0f4421ad2" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="269" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Stardust" T="Music Sounds Better With You" type="SONG" uuid="f3b76d1a228644ce9f0bafadab363c2a" mergeable="true" del="false">
+  <compo A="Stardust" T="Music Sounds Better With You" type="SONG" uuid="f3b76d1a228644ce9f0bafadab363c2a" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="270" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="The Wedding Present" T="My Favourite Dress" type="SONG" uuid="8b4812e6ede747f1b5669a8035f1a305" mergeable="true" del="false">
@@ -949,7 +949,7 @@
   <compo A="Wilco" T="Poor Places" type="SONG" uuid="040d09506a4d4b508a67f3cc4a2dc328" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="316" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Beirut" T="Postcards From Italy" type="SONG" uuid="c5bf6b0504584826b8604b20bb066447" mergeable="true" del="false">
+  <compo A="Beirut" T="Postcards From Italy" type="SONG" uuid="c5bf6b0504584826b8604b20bb066447" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="317" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Go! Team" T="Power Is On" type="SONG" uuid="2357bf37173842d6a4d31b9a6b88fff7" mergeable="true" del="false">
@@ -1099,7 +1099,7 @@
   <compo A="The Avalanches" T="Since I Left You" type="SONG" uuid="3e812932fa414362a5aeb100f009269e" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="366" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Kelly Clarkson" T="Since U Been Gone" type="SONG" uuid="d691d69ff5bc48b0acc904b085e37a36" mergeable="true" del="false">
+  <compo A="Kelly Clarkson" T="Since U Been Gone" type="SONG" uuid="d691d69ff5bc48b0acc904b085e37a36" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="367" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Superchunk" T="Slack Motherfucker" type="SONG" uuid="36340f6c9ce0431996f839433e09a1bc" mergeable="true" del="false">
@@ -1291,7 +1291,7 @@
   <compo A="Scratch Acid" T="The Greatest Gift" type="SONG" uuid="8725868614884e88a504e0ca58944dfa" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="430" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
-  <compo A="Echo And The Bunnymen" T="The Killing Moon" type="SONG" uuid="eecf8dfca51d4430b827ed1190da1783" mergeable="true" del="false">
+  <compo A="Echo And The Bunnymen" T="The Killing Moon" type="SONG" uuid="eecf8dfca51d4430b827ed1190da1783" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Pitchfork 500 - (1977-2006) - 2006" publish="2006" cat="LONG_PERIOD" rangeB="1977" rangeE="2006" sorted="false" rank="431" creation="16/10/2018 13:18:34" size="500"/>
   </compo>
   <compo A="Disco Inferno" T="The Last Dance" type="SONG" uuid="f5b8dd722c65430c9767668024a43ff8" mergeable="true" del="false">
