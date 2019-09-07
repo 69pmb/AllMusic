@@ -424,7 +424,7 @@
   <compo A="Jethro Tull" T="Aqualung" type="ALBUM" uuid="ea082cddee3240098f6fde2c06f00bb6" mergeable="true" del="false">
     <file author="Divers" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="141" creation="25/08/2019 14:53:12" size="555"/>
   </compo>
-  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="e2404d1b39b543c48dd22cd92fcb1a49" mergeable="true" del="false">
+  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="e2404d1b39b543c48dd22cd92fcb1a49" mergeable="true" del="true">
     <file author="Divers" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="142" creation="25/08/2019 14:53:12" size="555"/>
   </compo>
   <compo A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" uuid="f36d4bed1f7549de8eccd6a5a23f8995" mergeable="true" del="true">
@@ -664,7 +664,7 @@
   <compo A="Kiss" T="Alive!" type="ALBUM" uuid="4f80146036bd413eb7794888ebd6e0c5" mergeable="true" del="false">
     <file author="Divers" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="221" creation="25/08/2019 14:53:12" size="555"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="da3996376e1f4ec29fe1654ad665646f" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="da3996376e1f4ec29fe1654ad665646f" mergeable="true" del="true">
     <file author="Divers" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="222" creation="25/08/2019 14:53:12" size="555"/>
   </compo>
   <compo A="Patti Smith" T="Horses" type="ALBUM" uuid="dfbb7f308bf241b7be5b2bd437e5eb22" mergeable="true" del="true">
@@ -1201,7 +1201,7 @@
   <compo A="Alice In Chains" T="Dirt" type="ALBUM" uuid="0af61275f8544f39a55b5564d3fb7f47" mergeable="true" del="false">
     <file author="Divers" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="400" creation="25/08/2019 14:53:12" size="555"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="d27e77d20472456fa96b46a497f93532" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="d27e77d20472456fa96b46a497f93532" mergeable="true" del="true">
     <file author="Divers" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" publish="2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="401" creation="25/08/2019 14:53:12" size="555"/>
   </compo>
   <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" uuid="f802379feb254e7682f945c2b6231427" mergeable="true" del="true">

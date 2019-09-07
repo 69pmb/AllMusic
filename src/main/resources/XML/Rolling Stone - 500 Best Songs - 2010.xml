@@ -697,7 +697,7 @@
   <compo A="Marvin Gaye" T="Sexual Healing" type="SONG" uuid="e1889bbd3ecb44e78d7865aa7c97a589" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="233" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Roy Orbison" T="Only The Lonely (Know The Way I Feel)" type="SONG" uuid="eb56fa81fb9b49a9adfa25d56e7ba099" mergeable="true" del="false">
+  <compo A="Roy Orbison" T="Only The Lonely (Know The Way I Feel)" type="SONG" uuid="eb56fa81fb9b49a9adfa25d56e7ba099" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="234" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Animals" T="We Gotta Get Out of This Place" type="SONG" uuid="655610a0103947c39389258840b85647" mergeable="true" del="false">
@@ -1327,7 +1327,7 @@
   <compo A="The Rolling Stones" T="Beast of Burden" type="SONG" uuid="b5748b4908554d16b23868a4d597980c" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="443" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Elvis Presley" T="Love Me Tender" type="SONG" uuid="5f7aebad554246b194d0aaa7fa4cac1a" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Love Me Tender" type="SONG" uuid="5f7aebad554246b194d0aaa7fa4cac1a" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="444" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="The Stooges" T="I Wanna Be Your Dog" type="SONG" uuid="57532b0dc7a240baae6ee21fcb13498b" mergeable="true" del="true">
@@ -1438,7 +1438,7 @@
   <compo A="Rick James" T="Super Freak" type="SONG" uuid="87a217af132949f68f4e6f639b857576" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="481" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
-  <compo A="Kelly Clarkeson" T="Since U Been Gone" type="SONG" uuid="69d6612855974486afc6276270690c09" mergeable="true" del="false">
+  <compo A="Kelly Clarkeson" T="Since U Been Gone" type="SONG" uuid="69d6612855974486afc6276270690c09" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Best Songs - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="482" creation="03/08/2017 11:15:33" size="500"/>
   </compo>
   <compo A="Jefferson Airplane" T="White Rabbit" type="SONG" uuid="fcb4aa67a39340a8afb0ceb5a504fd09" mergeable="true" del="true">

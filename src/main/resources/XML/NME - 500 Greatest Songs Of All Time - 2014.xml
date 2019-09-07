@@ -124,7 +124,7 @@
   <compo A="Amy Winehouse" T="Back To Black" type="SONG" uuid="9f250cc6d4cc4d8395631294f043dc8a" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="41" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Blur" T="The Universal" type="SONG" uuid="a67bb1b3edad4725ab18abe0ba6ab69e" mergeable="true" del="false">
+  <compo A="Blur" T="The Universal" type="SONG" uuid="a67bb1b3edad4725ab18abe0ba6ab69e" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="42" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Manic Street Preachers" T="A Design For Life" type="SONG" uuid="23500c6c16664606b5b8cf49115e1cd9" mergeable="true" del="true">
@@ -646,7 +646,7 @@
   <compo A="Nirvana" T="Lithium" type="SONG" uuid="7e5e246a4cf449979d8b5e9c4ec37afe" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="215" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Orange Juice" T="Rip It Up" type="SONG" uuid="e564424447e948d78ccf3dcb547ec30a" mergeable="true" del="false">
+  <compo A="Orange Juice" T="Rip It Up" type="SONG" uuid="e564424447e948d78ccf3dcb547ec30a" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="216" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Manic Street Preachers" T="Faster" type="SONG" uuid="5c8ad4fd5cd44fc2bb3699c586427a86" mergeable="true" del="false">
@@ -784,7 +784,7 @@
   <compo A="Underworld" T="Born Slippy" type="SONG" uuid="aff18c77d23d4ba5aa068cbafaf4523f" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="261" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Stardust" T="Music Sound Better With You" type="SONG" uuid="ce19660d00c64a07bd36aeb5df6aad3d" mergeable="true" del="false">
+  <compo A="Stardust" T="Music Sound Better With You" type="SONG" uuid="ce19660d00c64a07bd36aeb5df6aad3d" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="262" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Elvis Presley" T="Hound Dog" type="SONG" uuid="c50889bd76e34edbb2286e01d4aee010" mergeable="true" del="true">
@@ -1081,7 +1081,7 @@
   <compo A="The Cure" T="Pictures Of You" type="SONG" uuid="d91125f0fc8a438799ff12564e999148" mergeable="true" del="false">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="360" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="e13b5f3d792f49ba9144b226b4478d46" mergeable="true" del="false">
+  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="e13b5f3d792f49ba9144b226b4478d46" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="361" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Metallica" T="Enter Sandman" type="SONG" uuid="683e2d9d883b4f7aac9bfeb4c27775ca" mergeable="true" del="false">
@@ -1393,7 +1393,7 @@
   <compo A="Nirvana" T="About A Girl" type="SONG" uuid="8becd291e98c49d7be3186df68a32967" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="464" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Mercury Rev" T="Goddess On A Hiway" type="SONG" uuid="3a357a07e0f942d1823dbf9a65684ea7" mergeable="true" del="false">
+  <compo A="Mercury Rev" T="Goddess On A Hiway" type="SONG" uuid="3a357a07e0f942d1823dbf9a65684ea7" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="465" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Salt 'n'Peppa" T="Push It" type="SONG" uuid="2f3bd38df9554d9891ce898619799496" mergeable="true" del="true">
@@ -1441,7 +1441,7 @@
   <compo A="David Bowie" T="Ziggy Stardust" type="SONG" uuid="0b34f5b38ea74af789c8d985c85282c9" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="480" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Echo And The Bunnymen" T="The Killing Moon" type="SONG" uuid="103e5e41a7124858bdb0991f22a65fe7" mergeable="true" del="false">
+  <compo A="Echo And The Bunnymen" T="The Killing Moon" type="SONG" uuid="103e5e41a7124858bdb0991f22a65fe7" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="481" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Franz Ferdinand" T="Darts Of Pleasure" type="SONG" uuid="580ae037205d4b07a5a23345100b73c2" mergeable="true" del="true">
@@ -1489,7 +1489,7 @@
   <compo A="Jimi Hendrix" T="Hey Joe" type="SONG" uuid="b4b59d110cb1451e97bad429459130ed" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="496" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
-  <compo A="Primal Scream" T="Kill All Hippies" type="SONG" uuid="f641f857bc5143789f2bf8c648da4978" mergeable="true" del="false">
+  <compo A="Primal Scream" T="Kill All Hippies" type="SONG" uuid="f641f857bc5143789f2bf8c648da4978" mergeable="true" del="true">
     <file author="NME" name="NME - 500 Greatest Songs Of All Time - 2014" publish="2014" cat="ALL_TIME" rangeB="0" rangeE="2014" sorted="true" rank="497" creation="02/07/2017 07:08:56" size="500"/>
   </compo>
   <compo A="Ash" T="Girl From Mars" type="SONG" uuid="41bcd35d60b04a2b96b63a29dae9a72f" mergeable="true" del="false">

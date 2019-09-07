@@ -700,7 +700,7 @@
   <compo A="Blur" T="Out Of Time" type="SONG" uuid="e97571ac638241a78e74692427f662b1" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="233" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Dick Dale" T="Miserlou" type="SONG" uuid="49664e9231264e3aa1de4d763014fbfe" mergeable="true" del="false">
+  <compo A="Dick Dale" T="Miserlou" type="SONG" uuid="49664e9231264e3aa1de4d763014fbfe" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="234" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Elton John" T="Benny And The Jets" type="SONG" uuid="9984860afb714fd986360044b1330b63" mergeable="true" del="false">
@@ -1066,7 +1066,7 @@
   <compo A="The White Stripes" T="You're Pretty Good Looking (For A Girl)" type="SONG" uuid="f210c48455764a04a996069d97212619" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="355" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Blur" T="The Universal" type="SONG" uuid="b10d2b8467c14e6f92761b0d36b06780" mergeable="true" del="false">
+  <compo A="Blur" T="The Universal" type="SONG" uuid="b10d2b8467c14e6f92761b0d36b06780" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="356" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Afi" T="Girl's Not Grey" type="SONG" uuid="60d893d2936d41b2bf48e5d41bd2ba00" mergeable="true" del="false">
@@ -1561,7 +1561,7 @@
   <compo A="The Kinks" T="You Really Got Me" type="SONG" uuid="f80f7d8191e8405a8b1cf00101dc7def" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="520" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Stardust" T="Music Sound Better With You" type="SONG" uuid="78f839e6361c4da3af0bd9ef73a1691c" mergeable="true" del="false">
+  <compo A="Stardust" T="Music Sound Better With You" type="SONG" uuid="78f839e6361c4da3af0bd9ef73a1691c" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="521" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Desmond Dekker" T="The Israelites" type="SONG" uuid="835e6cdc740f4d5283f756dc4cc63dd9" mergeable="true" del="false">
@@ -1867,7 +1867,7 @@
   <compo A="Curtis Mayfield" T="Move On Up" type="SONG" uuid="2d131505364d41a9b9f0a6bc17ed9b2b" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="622" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="10cc" T="I'm Not In Love" type="SONG" uuid="99f82b6081ea47e3bb8a34b27e705e2e" mergeable="true" del="false">
+  <compo A="10cc" T="I'm Not In Love" type="SONG" uuid="99f82b6081ea47e3bb8a34b27e705e2e" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="623" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Glen Campbell" T="Wichita Lineman" type="SONG" uuid="5335d09bed2e4705abd1922d88281ce5" mergeable="true" del="true">
@@ -1996,7 +1996,7 @@
   <compo A="Pil" T="Public Image" type="SONG" uuid="cd21fdde3d424cb4bf4b55d5fc8f1e90" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="665" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Meatloaf" T="Bat Out Of Hell" type="SONG" uuid="bfd166670a4a46e184e71ff6b65934c5" mergeable="true" del="false">
+  <compo A="Meatloaf" T="Bat Out Of Hell" type="SONG" uuid="bfd166670a4a46e184e71ff6b65934c5" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="666" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Dj Zink" T="Super Sharp Shooter" type="SONG" uuid="4a27ffa7df7048398a280e81d8cfbb0a" mergeable="true" del="false">
@@ -2752,7 +2752,7 @@
   <compo A="Nickleback" T="How You Remind Me" type="SONG" uuid="0982e78659ff46fd885ffaf0f7ade63d" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="917" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="aae286dbe9084430963ce2ffdaf78123" mergeable="true" del="false">
+  <compo A="Eric B And Rakim" T="Paid In Full" type="SONG" uuid="aae286dbe9084430963ce2ffdaf78123" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="918" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Muse" T="Plug In Baby" type="SONG" uuid="fa87be51491f4e0a970151feb6dca845" mergeable="true" del="false">
@@ -2926,7 +2926,7 @@
   <compo A="The Slits" T="I Herd It Through The Grapevine" type="SONG" uuid="7bed899624594f75a8aacf3b426b2830" mergeable="true" del="false">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="10" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
-  <compo A="Justin Timberlake" T="Rock Your Body" type="SONG" uuid="c585be70686642b7b5f31ce628514cb4" mergeable="true" del="false">
+  <compo A="Justin Timberlake" T="Rock Your Body" type="SONG" uuid="c585be70686642b7b5f31ce628514cb4" mergeable="true" del="true">
     <file author="Q" name="Q - 1001 Best Songs Ever - 2003" publish="2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="976" creation="25/01/2017 10:01:40" size="1001"/>
   </compo>
   <compo A="Otis Redding" T="I've Been Loving You Too Long (To Stop Now)" type="SONG" uuid="f33e77c4b331442ea3e0e5169974ca6e" mergeable="true" del="false">

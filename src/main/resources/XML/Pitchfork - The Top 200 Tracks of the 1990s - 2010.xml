@@ -13,7 +13,7 @@
   <compo A="Danzig" T="Mother '93" type="SONG" uuid="d96f00d5f1a0433d9e2e93e75f37ad96" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="197" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="Tindersticks" T="City Sickness" type="SONG" uuid="7da25694bdca4838add460416a6cc680" mergeable="true" del="false">
+  <compo A="Tindersticks" T="City Sickness" type="SONG" uuid="7da25694bdca4838add460416a6cc680" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="196" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="Cutty Ranks" T="Limb By Limb" type="SONG" uuid="187ee5947df345aba66d5e87f8c445b7" mergeable="true" del="false">
@@ -352,7 +352,7 @@
   <compo A="Bone Thugs-N-Harmony" T="Tha Crossroads" type="SONG" uuid="8e71b5a1bd47401aaec1522b9709881e" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="84" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="Sleater-Kinney" T="Dig Me Out" type="SONG" uuid="061bf9fb04d04bffbd27033286afe5ad" mergeable="true" del="false">
+  <compo A="Sleater-Kinney" T="Dig Me Out" type="SONG" uuid="061bf9fb04d04bffbd27033286afe5ad" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="83" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="Blackstreet" T="No Diggity" type="SONG" uuid="babac4ae0a5c403e977eb82c40e688d0" mergeable="true" del="false">
@@ -385,7 +385,7 @@
   <compo A="Disco Inferno" T="Love Stepping Out" type="SONG" uuid="a16449670f89495d85e8fd970b3dbad4" mergeable="true" del="false">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="73" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="R.E.M." T="Nightswimming" type="SONG" uuid="6e723b2abee24a26be7fd2ad8ea502ed" mergeable="true" del="false">
+  <compo A="R.E.M." T="Nightswimming" type="SONG" uuid="6e723b2abee24a26be7fd2ad8ea502ed" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="72" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="Arthur Russell" T="This Is How We Walk on the Moon" type="SONG" uuid="28c5291a887c427da899a0ee7c0d5d35" mergeable="true" del="false">
@@ -463,10 +463,10 @@
   <compo A="PJ Harvey" T="Rid of Me" type="SONG" uuid="57a0af1838df455fbdc4237664fcea6b" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="47" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="Stardust" T="Music Sounds Better With You" type="SONG" uuid="3e372ebb7f1f4cecb87f9ce71609ecc3" mergeable="true" del="false">
+  <compo A="Stardust" T="Music Sounds Better With You" type="SONG" uuid="3e372ebb7f1f4cecb87f9ce71609ecc3" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="46" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
-  <compo A="Geto Boys" T="Mind Playing Tricks on Me" type="SONG" uuid="ee4304d574e0406e86b426027866af20" mergeable="true" del="false">
+  <compo A="Geto Boys" T="Mind Playing Tricks on Me" type="SONG" uuid="ee4304d574e0406e86b426027866af20" mergeable="true" del="true">
     <file author="Pitchfork" name="Pitchfork - The Top 200 Tracks of the 1990s - 2010" publish="2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="45" creation="04/07/2018 14:49:00" size="200"/>
   </compo>
   <compo A="Massive Attack" T="Unfinished Sympathy" type="SONG" uuid="fb58234434a44e80a432be6c4604285b" mergeable="true" del="true">

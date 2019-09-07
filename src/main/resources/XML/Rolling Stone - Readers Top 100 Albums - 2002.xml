@@ -73,7 +73,7 @@
   <compo A="Eminem" T="The Eminem Show" type="ALBUM" uuid="e4099137aa9a4ae4a4ba4f5546cfa056" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="24" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="c421834b917f4ecb8b786111afac49fc" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="c421834b917f4ecb8b786111afac49fc" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="25" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Radiohead" T="Kid A" type="ALBUM" uuid="9420a3a14a7948b78c4643d6c5858487" mergeable="true" del="true">
@@ -247,7 +247,7 @@
   <compo A="Pearl Jam" T="Vitalogy" type="ALBUM" uuid="2e3199d581a340e3b862ebbbfc2b070b" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="82" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="62ed10b7a89b4f9bbdacd858057de6a5" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="62ed10b7a89b4f9bbdacd858057de6a5" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="83" creation="25/01/2017 10:01:41" size="100"/>
   </compo>
   <compo A="Led Zeppelin" T="Houses Of The Holy" type="ALBUM" uuid="39126a9a690b4280a2aa0ba05fb735ff" mergeable="true" del="true">

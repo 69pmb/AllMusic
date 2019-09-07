@@ -715,7 +715,7 @@
   <compo A="Bonnie Raitt" T="Nick Of Time" type="ALBUM" uuid="42b26abde3e9480da7518487fc569632" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="229" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="4d5d3e834fe8421caf60152c0e2d4455" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="4d5d3e834fe8421caf60152c0e2d4455" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="230" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="The Kinks" T="The Kink Kronikles" type="ALBUM" uuid="7707208dc5d74af193f385bf63d28056" mergeable="true" del="false">
@@ -766,7 +766,7 @@
   <compo A="Ornette Coleman" T="The Shape Of Jazz To Come" type="ALBUM" uuid="4eb276e7ae4c49c39ca7adc732148ee5" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="246" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="30d757ae1bd24473b2425bdc440ee049" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="30d757ae1bd24473b2425bdc440ee049" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="247" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Jay-Z" T="Reasonable Doubt" type="ALBUM" uuid="8c82f8f6d7b243b1b180dc47834b24ce" mergeable="true" del="false">
@@ -1291,7 +1291,7 @@
   <compo A="Pj Harvey" T="Rid Of Me" type="ALBUM" uuid="e82d842014c7405f95a110e6b22e7da4" mergeable="true" del="false">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="406" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
-  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="cc0ddb6807d343a486d49fcd9c7d16dd" mergeable="true" del="false">
+  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="cc0ddb6807d343a486d49fcd9c7d16dd" mergeable="true" del="true">
     <file author="Rolling Stone" name="Rolling Stone - 500 Albums - 2010" publish="2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="407" creation="28/08/2017 14:29:58" size="500"/>
   </compo>
   <compo A="Bob Dylan" T="Time Out Of Mind" type="ALBUM" uuid="28eac06172b14b399035ed1333acefe8" mergeable="true" del="false">

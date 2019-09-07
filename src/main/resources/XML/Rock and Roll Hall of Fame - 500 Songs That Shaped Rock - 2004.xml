@@ -571,7 +571,7 @@
   <compo A="Screamin' Jay Hawkins" T="I Put a Spell on You" type="SONG" uuid="49b9b39286444caba82dfdf404b246da" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="190" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Richard Hell" T="Blank Generation" type="SONG" uuid="87969ee30c35464c9e4788ee04e9e681" mergeable="true" del="false">
+  <compo A="Richard Hell" T="Blank Generation" type="SONG" uuid="87969ee30c35464c9e4788ee04e9e681" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="191" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Jimi Hendrix" T="All Along The Watchtower" type="SONG" uuid="d1d81766544c48b1bc514850c8cb02d9" mergeable="true" del="true">
@@ -658,7 +658,7 @@
   <compo A="Rick James" T="Super Freak" type="SONG" uuid="2344b20c0dce4f4aba4f83928f2037d6" mergeable="true" del="false">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="219" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Tommy James and the Shondells" T="Hanky Panky" type="SONG" uuid="a65c59ce5020458383d6d6a8d5aed887" mergeable="true" del="false">
+  <compo A="Tommy James and the Shondells" T="Hanky Panky" type="SONG" uuid="a65c59ce5020458383d6d6a8d5aed887" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="220" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Jan And Dean" T="Surf City" type="SONG" uuid="951aff9228d7445993e8778bc8df2d69" mergeable="true" del="false">
@@ -1012,7 +1012,7 @@
   <compo A="Elvis Presley" T="Jailhouse Rock" type="SONG" uuid="b4180f178c6149b4a7636e475610cd45" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="337" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="Elvis Presley" T="Love Me Tender" type="SONG" uuid="dbb0797f16444ab9bead7aab0452861e" mergeable="true" del="false">
+  <compo A="Elvis Presley" T="Love Me Tender" type="SONG" uuid="dbb0797f16444ab9bead7aab0452861e" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="338" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Elvis Presley" T="Mystery Train" type="SONG" uuid="570545ff116446fb8f583605097a3b02" mergeable="true" del="true">
@@ -1096,7 +1096,7 @@
   <compo A="Lou Reed" T="Walk on the Wild Side" type="SONG" uuid="94cabe6079744e76accbe2d7ca5236e4" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="365" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
-  <compo A="The Replacements" T="I Will Dare" type="SONG" uuid="008b4470f3e64455a70f198bea3d9274" mergeable="true" del="false">
+  <compo A="The Replacements" T="I Will Dare" type="SONG" uuid="008b4470f3e64455a70f198bea3d9274" mergeable="true" del="true">
     <file author="Divers" name="Rock and Roll Hall of Fame - 500 Songs That Shaped Rock - 2004" publish="2004" cat="GENRE" rangeB="0" rangeE="2004" sorted="false" rank="366" creation="25/06/2018 16:01:25" size="500"/>
   </compo>
   <compo A="Paul Revere and The Raiders" T="Just Like Me" type="SONG" uuid="cdcce6afe4294b3b8875de24fc309e4d" mergeable="true" del="false">

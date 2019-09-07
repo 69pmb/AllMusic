@@ -160,7 +160,7 @@
   <compo A="PULP" T="Different Class" type="ALBUM" uuid="b30dfac7e8c143bc9d8a3b2164eaa08d" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="53" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="d89372cf6ccb4f41b446dbb64aee90d5" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="d89372cf6ccb4f41b446dbb64aee90d5" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="54" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
   <compo A="RED HOT CHILI PEPPERS" T="Blood Sugar Sex Magik" type="ALBUM" uuid="be1818fec2f44ad1a253509e6e0c93dd" mergeable="true" del="true">
@@ -1198,7 +1198,7 @@
   <compo A="BRIGITTE FONTAINE" T="Comme A La Radio" type="ALBUM" uuid="c900d8bc1d1c4f388a175adaafe86b31" mergeable="true" del="false">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="399" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
-  <compo A="SERGE GAINSBOURG" T="L'Histoire De Melody Nelson" type="ALBUM" uuid="ccec2fac430b4e31bf4732736914f8cd" mergeable="true" del="false">
+  <compo A="SERGE GAINSBOURG" T="L'Histoire De Melody Nelson" type="ALBUM" uuid="ccec2fac430b4e31bf4732736914f8cd" mergeable="true" del="true">
     <file author="Inrock" name="Inrock - 50 Ans De Rock - 2004" publish="2004" cat="GENRE" rangeB="1954" rangeE="2004" sorted="false" rank="400" creation="27/08/2018 09:58:37" size="518"/>
   </compo>
   <compo A="DONNY HATHAWAY" T="Extension Of A Man" type="ALBUM" uuid="bd0b1d85e1754733adf167325f1db9c8" mergeable="true" del="false">

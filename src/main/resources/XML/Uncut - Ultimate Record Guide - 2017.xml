@@ -412,7 +412,7 @@
   <compo A="Blur" T="Parklife" type="ALBUM" uuid="e01ec94ae31e4df39342d8a4ff990f44" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="137" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="0df561e8810243a3b0d68e8831e67dfb" mergeable="true" del="false">
+  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="0df561e8810243a3b0d68e8831e67dfb" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="138" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Blur" T="Think Tank" type="ALBUM" uuid="02aaf1bbd86b416b8e75e2e613eb397d" mergeable="true" del="false">
@@ -3193,7 +3193,7 @@
   <compo A="Pulp" T="This Is Hardcore" type="ALBUM" uuid="b235fb513d4b44f7a79848f02a4732c0" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1064" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="cd330783cc224ebdb15a8c121724fa96" mergeable="true" del="false">
+  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="cd330783cc224ebdb15a8c121724fa96" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1065" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="a31e7f64801c48c0a44f4881f1def668" mergeable="true" del="false">
@@ -3208,7 +3208,7 @@
   <compo A="Quicksilver Messenger Service" T="Quicksilver Messenger Service" type="ALBUM" uuid="a27c39cd88bd44d481b8bcd14ccbacec" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1069" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="cb23ceb352dd43a496eeebddd4e9cdef" mergeable="true" del="false">
+  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="cb23ceb352dd43a496eeebddd4e9cdef" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1070" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="R.E.M." T="Document" type="ALBUM" uuid="da9ab9d09bab406b9b4c1a5b43af4e2b" mergeable="true" del="false">
@@ -3493,7 +3493,7 @@
   <compo A="Selda" T="Selda" type="ALBUM" uuid="5944abcbe17a4671b344fb994b728d7c" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1164" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="89d813e6e9f24693a1ad37635e521e16" mergeable="true" del="false">
+  <compo A="Serge Gainsbourg" T="Histoire De Melody Nelson" type="ALBUM" uuid="89d813e6e9f24693a1ad37635e521e16" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1165" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="Serge Gainsbourg" T="Initials BD" type="ALBUM" uuid="71a10bf0f795470ea8059f40d81bae18" mergeable="true" del="false">
@@ -4138,7 +4138,7 @@
   <compo A="The Doors" T="Morrison Hotel" type="ALBUM" uuid="492b0d36216944468f1e80f67f85b1e1" mergeable="true" del="false">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1379" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
-  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="9d20e99f7d8045bf80f63f509144ccdb" mergeable="true" del="false">
+  <compo A="The Doors" T="Strange Days" type="ALBUM" uuid="9d20e99f7d8045bf80f63f509144ccdb" mergeable="true" del="true">
     <file author="Uncut" name="Uncut - Ultimate Record Guide - 2017" publish="2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="1380" creation="26/06/2018 13:34:27" size="1721"/>
   </compo>
   <compo A="The Doors" T="The Doors" type="ALBUM" uuid="e81f886790c447d7aaa603640c07292d" mergeable="true" del="true">
