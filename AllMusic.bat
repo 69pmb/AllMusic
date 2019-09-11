@@ -6,7 +6,8 @@ set "result=nothing"
 IF /i "%answer%"=="1" (
 	cmd.exe /K "cd ."
 ) else IF /i "%answer%"=="2" (
-	call code .
+	START /MIN code .
+	goto debut
 ) else IF /i "%answer%"=="3" (
 	call "AllMusic - Update.bat"
  goto debut
