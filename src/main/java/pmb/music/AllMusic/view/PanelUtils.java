@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -36,6 +37,7 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -426,6 +428,38 @@ public final class PanelUtils {
                     .filter(Objects::nonNull).collect(Collectors.toList()), edited.getUuids())
             .ifPresent(c -> CompositionUtils.copy(edited, c));
         }
+    }
+
+    /**
+     * Splits the given composition into 2 and merge it in given list.
+     *
+     * @param list where to merge
+     * @param title1 first new title
+     * @param title2 second new title
+     * @param uuids uuid of edited composition
+     * @param newUuid new generated uuid
+     * @param fusion if find if existing in list
+     */
+    public static List<Composition> splitComposition(List<Composition> list, String title1, String title2, List<String> uuids, String newUuid, boolean fusion) {
+        Optional<Composition> found = CompositionUtils.findByUuid(list, uuids);
+        if (found.isPresent()) {
+            Composition compoInList = found.get();
+            Composition c2 = new Composition(compoInList);
+            compoInList.setTitre(StringUtils.trim(title1));
+            c2.setTitre(StringUtils.trim(title2));
+            c2.setUuids(new LinkedList<>(Arrays.asList(newUuid)));
+
+            if (fusion) {
+                list = list.stream().filter(c -> !c.getUuids().contains(uuids.get(0))).collect(Collectors.toList());
+                ImportXML.findAndMergeComposition(list, compoInList, true);
+                ImportXML.findAndMergeComposition(list, c2, true);
+            } else {
+                list.add(c2);
+            }
+        } else {
+            LOG.warn("Warning could not find composition in list");
+        }
+        return list;
     }
 
     /**
