@@ -52,11 +52,23 @@ public class CompositionPopupMenu extends PopupMenu {
                     .modifyCompositionAction((Vector<String>) selectedRow);
                 } catch (MyException e1) {
                     LOG.error("An exception has been thrown when editing composition: ", e1);
-                    ExceptionDialog ed = new ExceptionDialog("An exception has been thrown when editing composition",
-                            e1.getMessage(), e1);
-                    ed.setVisible(true);
+                    new ExceptionDialog("An exception has been thrown when editing composition",
+                            e1.getMessage(), e1).setVisible(true);
                 }
                 LOG.debug("End modifComposition");
+            }, null);
+            // Split selected composition
+            ComponentBuilder.buildMenuItem(menu, "Diviser cette composition", KeyEvent.VK_D, (ActionEvent e) -> {
+                LOG.debug("Start split");
+                try {
+                    this.setVisible(false);
+                    type.cast(SwingUtilities.getAncestorOfClass(type, getTable())).splitCompositionAction((Vector<Object>) selectedRow);
+                } catch (MyException e1) {
+                    LOG.error("An exception has been thrown when splitting composition: ", e1);
+                    new ExceptionDialog("An exception has been thrown when splitting composition",
+                            e1.getMessage(), e1).setVisible(true);
+                }
+                LOG.debug("End split");
             }, null);
         }
 

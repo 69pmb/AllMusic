@@ -421,6 +421,18 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             updateTable();
         }
     }
+    
+    @Override
+    public void splitCompositionAction(Vector<Object> selected) throws MyException {
+        LOG.debug("Start splitCompositionAction");
+        if (tableResult.getModel().getSelected().size() > 1) {
+            String msg = "Trop d'éléments sélectionnés";
+            deleteLabel.setText(msg);
+            LOG.debug(msg);
+        } else {
+        }
+        LOG.debug("End splitCompositionAction");
+    }
 
     public JButton getSearch() {
         return search;
