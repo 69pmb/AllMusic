@@ -5977,7 +5977,7 @@
   <compo A="Megadeth" T="Peace Sells... But Who's Buying?" type="ALBUM" uuid="9a799b1c422746978eb2d8f7bc89b1bb" mergeable="true" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1992" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
-  <compo A="Curtis Mayfield" T="Curtis Live! (At The Bitter End Ny)" type="ALBUM" uuid="43ebfdef644342088051869f0fd187f8" mergeable="true" del="false">
+  <compo A="Curtis Mayfield" T="Curtis Live! (At The Bitter End Ny)" type="ALBUM" uuid="43ebfdef644342088051869f0fd187f8" mergeable="false" del="false">
     <file author="Divers" name="Acclaimed Music - Top 3000 Albums - 2018" publish="2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="1993" creation="03/12/2018 12:13:09" size="3000"/>
   </compo>
   <compo A="Big Thief" T="Capacity" type="ALBUM" uuid="47fd3126f1fd47178843325b7ce2febb" mergeable="true" del="false">
