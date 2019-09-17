@@ -214,14 +214,10 @@ public class DialogFileTable {
         edited.setRecordType(RecordType.valueOf(editedRow.get(DialogFileTable.getIndex().get(Index.TYPE))));
         edited.setDeleted(Boolean.valueOf(editedRow.get(DialogFileTable.getIndex().get(Index.DELETED))));
 
-        Predicate<Fichier> filterFile = f -> !(f.getClassement().equals(selected.get(DialogFileTable.getIndex().get(Index.RANK)))
-                && StringUtils.equals(f.getFileName(), (String) selected.get(DialogFileTable.getIndex().get(Index.FILE_NAME)))
-                && f.getSize().equals(selected.get(DialogFileTable.getIndex().get(Index.FILE_SIZE))));
-
-        // Remove edited fichier in final file
-        removeFichierFromComposition(importXML, uuid, filterFile);
-        // Remove edited fichier in displayed list
-        removeFichierFromComposition(compoList, uuid, filterFile);
+		// Remove edited fichier in final file
+        removeFichierFromComposition(importXML, uuid, FichierUtils.filterFile(selected, DialogFileTable.getIndex()));
+		// Remove edited fichier in displayed list
+        removeFichierFromComposition(compoList, uuid, FichierUtils.filterFile(selected, DialogFileTable.getIndex()));
 
         Optional<Composition> compoExist = ImportXML.findAndMergeComposition(importXML, edited, true);
         if (compoExist.isPresent()) {
@@ -230,15 +226,15 @@ public class DialogFileTable {
             ImportXML.findAndMergeComposition(compoList, edited, false);
         }
 
-        if (OngletPanel.getOnglets().getSelectedIndex() == 0) {
-            LOG.debug("Updates search panel data");
-            List<Composition> searchPanelCompo = OngletPanel.getSearch().getCompoResult();
-            if (CompositionUtils.findByUuid(searchPanelCompo, uuid).isPresent()) {
-                removeFichierFromComposition(searchPanelCompo, uuid, filterFile);
-            }
-            ImportXML.findAndMergeComposition(searchPanelCompo, edited, true);
-            OngletPanel.getSearch().updateTable();
-        }
+		if (OngletPanel.getOnglets().getSelectedIndex() == 0) {
+			LOG.debug("Updates search panel data");
+			List<Composition> searchPanelCompo = OngletPanel.getSearch().getCompoResult();
+			if (CompositionUtils.findByUuid(searchPanelCompo, uuid).isPresent()) {
+                removeFichierFromComposition(searchPanelCompo, uuid, FichierUtils.filterFile(selected, DialogFileTable.getIndex()));
+			}
+			ImportXML.findAndMergeComposition(searchPanelCompo, edited, true);
+			OngletPanel.getSearch().updateTable();
+		}
 
         // Updates fichier panel data
         compoExist.ifPresent(c -> files.addAll(c.getFiles()));
