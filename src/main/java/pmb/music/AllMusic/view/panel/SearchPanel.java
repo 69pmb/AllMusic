@@ -377,7 +377,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
         tableResult.getRowSorter().setSortKeys(Collections
                 .singletonList(new RowSorter.SortKey(tableResult.getSortedColumn(), tableResult.getSortOrder())));
         PanelUtils.colRenderer(tableResult.getTable(), false, SearchPanel.getIndex());
-        for (int i = 0; i < tableResult.getRowCount(); i++) {
+        for (int i = 0 ; i < tableResult.getRowCount() ; i++) {
             tableResult.setValueAt(i + 1, i, SearchPanel.getIndex().get(Index.LINE_NUMBER));
         }
         tableResult.setSelectedRow(-1);
@@ -422,7 +422,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             updateTable();
         }
     }
-    
+
     @Override
     public void splitCompositionAction(Vector<Object> selected) throws MyException {
         LOG.debug("Start splitCompositionAction");
@@ -431,6 +431,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             deleteLabel.setText(msg);
             LOG.debug(msg);
         } else {
+            compoResult = PanelUtils.splitCompositionAction(selected, compoResult, SearchPanel.getIndex());
+            updateTable();
         }
         LOG.debug("End splitCompositionAction");
     }

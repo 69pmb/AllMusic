@@ -669,11 +669,11 @@ public final class BatchUtils {
                 String newUuid = MiscUtils.getUuid();
 
                 List<Composition> finalFile = ImportXML.importXML(Constant.getFinalFilePath());
-                finalFile = PanelUtils.splitComposition(finalFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), newUuid, true);
+                finalFile = PanelUtils.splitComposition(finalFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), Arrays.asList(newUuid), true);
 
                 List<Composition> xmlFile = ImportXML
                         .importXML(FichierUtils.buildXmlFilePath(file.getFileName()).orElse(null));
-                xmlFile = PanelUtils.splitComposition(xmlFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), newUuid, false);
+                xmlFile = PanelUtils.splitComposition(xmlFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), Arrays.asList(newUuid), false);
 
                 try {
                     ExportXML.exportXML(finalFile, Constant.getFinalFile());
