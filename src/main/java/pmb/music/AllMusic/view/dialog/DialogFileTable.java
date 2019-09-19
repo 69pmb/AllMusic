@@ -161,8 +161,7 @@ public class DialogFileTable {
             fichiers.getRowSorter().toggleSortOrder(defaultSort);
             ((TableRowSorter<?>) fichiers.getRowSorter()).setComparator(DialogFileTable.getIndex().get(Index.PERCENT_DELETED),
                     MiscUtils.comparePercentage);
-            PanelUtils.colRenderer(fichiers.getTable(), true, DialogFileTable.getIndex().get(Index.DELETED), DialogFileTable.getIndex().get(Index.TYPE), DialogFileTable.getIndex().get(Index.CAT), null, null,
-                    DialogFileTable.getIndex().get(Index.SORTED), DialogFileTable.getIndex().get(Index.RANK));
+            PanelUtils.colRenderer(fichiers.getTable(), true, DialogFileTable.getIndex());
             fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.DELETED)));
             fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.UUID) - 1));
 
@@ -262,8 +261,7 @@ public class DialogFileTable {
         fichiers.getModel().setRowCount(0);
         fichiers.getModel().setDataVector(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
                 new Vector<>(Arrays.asList(header)));
-        PanelUtils.colRenderer(fichiers.getTable(), true, DialogFileTable.getIndex().get(Index.DELETED), DialogFileTable.getIndex().get(Index.TYPE), DialogFileTable.getIndex().get(Index.CAT), null, null,
-                DialogFileTable.getIndex().get(Index.SORTED), DialogFileTable.getIndex().get(Index.RANK));
+        PanelUtils.colRenderer(fichiers.getTable(), true, DialogFileTable.getIndex());
         fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.DELETED)));
         fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.UUID) - 1));
         LOG.debug("End editCompositionAction");
