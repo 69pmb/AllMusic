@@ -373,7 +373,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                         } else if (SwingUtilities.isRightMouseButton(e)) {
                             tableCompo.getPopupMenu().show(e);
                         }
-                    }).withPopupMenu(new CompositionPopupMenu(this.getClass(), compositionIndex.get(Index.ARTIST), compositionIndex.get(Index.TITLE)))
+                    }).withPopupMenu(new CompositionPopupMenu(this.getClass(), compositionIndex))
                     .withKeyListener().build();
         } catch (MyException e1) {
             LOG.error("An error occured when init composition table", e1);
