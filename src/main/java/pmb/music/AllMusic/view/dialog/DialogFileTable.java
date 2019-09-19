@@ -196,8 +196,7 @@ public class DialogFileTable {
         List<Fichier> files = CompositionUtils.findByUuid(importXML, uuid).map(Composition::getFiles).orElse(new ArrayList<Fichier>());
         // Lancement de la popup de modification
         ModifyCompositionDialog md = new ModifyCompositionDialog(
-                selected.stream().map(Object::toString).collect(Collectors.toCollection(Vector::new)), DialogFileTable.getIndex().get(Index.ARTIST),
-                DialogFileTable.getIndex().get(Index.TITLE), DialogFileTable.getIndex().get(Index.TYPE), DialogFileTable.getIndex().get(Index.DELETED));
+                selected.stream().map(Object::toString).collect(Collectors.toCollection(Vector::new)), DialogFileTable.getIndex());
         md.showModifyCompositionDialog();
         Vector<String> editedRow;
         if (md.isSendData()) {

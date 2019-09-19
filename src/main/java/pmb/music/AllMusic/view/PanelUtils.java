@@ -368,8 +368,7 @@ public final class PanelUtils {
             throw new MyException("Can't find composition: " + selectedRow + " to edit in final file");
         }
         // Lancement de la popup de modification
-        ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, index.get(Index.ARTIST), index.get(Index.TITLE), index.get(Index.TYPE),
-                index.get(Index.DELETED));
+        ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, index);
         md.showModifyCompositionDialog();
         Vector<String> editedRow;
         if (md.isSendData()) {
