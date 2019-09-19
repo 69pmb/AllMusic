@@ -88,30 +88,18 @@ public final class PanelUtils {
      * @see {@link EvenOddRenderer}
      * @param table le tableau
      * @param lastColumn si la dernière colonne doit être colorisée ou non
-     * @param deletedIndex index of the deleted column, use it to draw deleted row
-     *            with specific color
-     * @param typeIndex index of the record type column, use it to draw type cell
-     *            with a specific color
-     * @param catIndex index of the category column, use it to draw type cell with a
-     *            specific color
-     * @param decileIndex index of the decile column, used to add tooltip
-     * @param scoreIndex index of the score column, used to add color scale of
-     *            purple
-     * @param sortedIndex index of the sorted column, used to add color if sorted
-     * @param rankIndex index of the rank column, used to add color if sorted
+     * @param index column index of rows
      */
-    public static void colRenderer(JTable table, boolean lastColumn, Integer deletedIndex, Integer typeIndex,
-            Integer catIndex, Integer decileIndex, Integer scoreIndex, Integer sortedIndex, Integer rankIndex) {
+    public static void colRenderer(JTable table, boolean lastColumn, ColumnIndex index) {
         LOG.debug("Start colRenderer");
         Component topComponent = SwingUtilities.getWindowAncestor(table);
         setColumnsWidth(table, topComponent != null ? topComponent.getWidth() : table.getWidth(), "Init");
 
-        DefaultTableCellRenderer renderer = new EvenOddRenderer(deletedIndex, typeIndex, catIndex, decileIndex,
-                scoreIndex, sortedIndex, rankIndex);
+        DefaultTableCellRenderer renderer = new EvenOddRenderer(index);
         int columnCount = table.getColumnCount();
         if (!lastColumn) {
             columnCount--;
-            if (deletedIndex != null) {
+            if (index.get(Index.DELETED) != null) {
                 columnCount--;
             }
         }
