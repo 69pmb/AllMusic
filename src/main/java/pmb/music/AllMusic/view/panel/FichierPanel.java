@@ -567,8 +567,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
             }
         }
         tableFiles.getModel().setDataVector(dataVector, new Vector<>(Arrays.asList(headerFiles)));
-        PanelUtils.colRenderer(tableFiles.getTable(), true, null, fichierIndex.get(Index.TYPE), fichierIndex.get(Index.CAT), null, null,
-                fichierIndex.get(Index.SORTED), null);
+        PanelUtils.colRenderer(tableFiles.getTable(), true, fichierIndex);
         if (tableFiles.getSortedColumn() == null) {
             tableFiles.setSortedColumn(fichierIndex.get(Index.FILE_NAME));
             tableFiles.setSortOrder(SortOrder.ASCENDING);
@@ -609,8 +608,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         } else {
             tableCompo.getModel().setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
         }
-        PanelUtils.colRenderer(tableCompo.getTable(), false, compositionIndex.get(Index.DELETED), compositionIndex.get(Index.TYPE), null,
-                compositionIndex.get(Index.DECILE), compositionIndex.get(Index.SCORE), null, null);
+        PanelUtils.colRenderer(tableCompo.getTable(), false, compositionIndex);
         tableCompo.getModel().fireTableDataChanged();
         if (tableCompo.getSortedColumn() == null) {
             tableCompo.setSortedColumn(compositionIndex.get(Index.RANK));
