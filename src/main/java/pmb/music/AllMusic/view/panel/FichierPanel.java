@@ -334,7 +334,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                             tableFiles.getPopupMenu().show(e);
                         }
                         LOG.debug("End mouseActionForFileTable");
-                    }).withPopupMenu(new FichierPopupMenu(fichierIndex.get(Index.FILE_NAME), fichierIndex.get(Index.AUTHOR))).withKeyListener()
+                    }).withPopupMenu(new FichierPopupMenu(fichierIndex)).withKeyListener()
                     .build();
         } catch (MyException e1) {
             LOG.error("An error occured when init fichier table", e1);
@@ -367,7 +367,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                             DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
                                     CompositionUtils.findByUuid(compositionList, MiscUtils.stringToUuids(selectedRow.get().get(compositionIndex.get(Index.UUID))))
                                     .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
-                                    400, DialogFileTable.INDEX_AUTEUR);
+                                    400, DialogFileTable.getIndex().get(Index.AUTHOR));
                             pop.showDialogFileTable();
                             LOG.debug("End left mouse");
                         } else if (SwingUtilities.isRightMouseButton(e)) {
