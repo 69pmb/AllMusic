@@ -352,7 +352,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 
         try {
             tableCompo = new TableBuilder().withModelAndData(null, headerCompo, CompoFichierPanelModel.class)
-                    .withRowSorterListenerDelete(compositionIndex.get(Index.LINE_NUMBER), compositionIndex.get(Index.DELETED), compositionIndex.get(Index.SELECTED))
+                    .withRowSorterListenerDelete(compositionIndex)
                     .withMouseClickAction(e -> {
                         Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(),
                                 e.getPoint());
