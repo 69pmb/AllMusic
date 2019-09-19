@@ -49,6 +49,7 @@ import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
@@ -71,14 +72,16 @@ public class ArtistPanel extends JPanel {
     private static final long serialVersionUID = 2593372709628283573L;
 
     private static final Logger LOG = LogManager.getLogger(ArtistPanel.class);
-    public static final int INDEX_LINE_NUMBER = 0;
-    public static final int INDEX_ARTIST = 1;
-    public static final int INDEX_NB_TOTAL = 2;
-    public static final int INDEX_DELETED = 5;
-    public static final int INDEX_SCORE_TOTAL = 6;
-    public static final int INDEX_SCORE_SONG = 7;
-    public static final int INDEX_SCORE_ALBUM = 8;
-    public static final int INDEX_SCORE_DELETED = 9;
+
+    private static final ColumnIndex index = new ColumnIndex()
+            .put(Index.LINE_NUMBER, 0)
+            .put(Index.ARTIST, 1)
+            .put(Index.NB_TOTAL, 2)
+            .put(Index.DELETED, 5)
+            .put(Index.SCORE_TOTAL, 6)
+            .put(Index.SCORE_SONG, 7)
+            .put(Index.SCORE_ALBUM, 8)
+            .put(Index.SCORE_DELETED, 9);
 
     // Search components
     private MyInputText artist;
@@ -102,8 +105,7 @@ public class ArtistPanel extends JPanel {
     /**
      * Génère le panel artiste.
      *
-     * @param withArtist if true the artist panel is displayed and the data is
-     *            calculated
+     * @param withArtist if true the artist panel is displayed and the data is calculated
      */
     public ArtistPanel(boolean withArtist) {
         super();
@@ -165,7 +167,7 @@ public class ArtistPanel extends JPanel {
 
         try {
             table = new TableBuilder().withModelAndData(null, title, ArtistModel.class)
-                    .withDefaultRowSorterListener(INDEX_LINE_NUMBER).withMouseClickAction(e -> {
+                    .withDefaultRowSorterListener(ArtistPanel.getIndex().get(Index.LINE_NUMBER)).withMouseClickAction(e -> {
                         Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());
                         if (!row.isPresent()) {
                             return;
@@ -175,9 +177,9 @@ public class ArtistPanel extends JPanel {
                             LOG.debug("Start artist mouse");
                             // Affiche tous les fichiers de l'artiste double cliqué
                             Optional<String> key = CompositionUtils.findArtistKey(searchResult,
-                                    new JaroWinklerDistance(), row.get().get(INDEX_ARTIST));
+                                    new JaroWinklerDistance(), row.get().get(ArtistPanel.getIndex().get(Index.ARTIST)));
                             if (!key.isPresent()) {
-                                new ExceptionDialog("Error when searching: " + row.get().get(INDEX_ARTIST) + " in data table", "", null).setVisible(true);
+                                new ExceptionDialog("Error when searching: " + row.get().get(ArtistPanel.getIndex().get(Index.ARTIST)) + " in data table", "", null).setVisible(true);
                             } else {
                                 DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
                                         searchResult.get(key.get()), 600, DialogFileTable.getIndex().get(Index.TITLE));
@@ -187,11 +189,11 @@ public class ArtistPanel extends JPanel {
                         } else if (SwingUtilities.isRightMouseButton(e)) {
                             LOG.debug("Start artist right mouse");
                             // Copie dans le presse papier le nom de l'artiste
-                            MiscUtils.clipBoardAction(row.get().get(INDEX_ARTIST));
+                            MiscUtils.clipBoardAction(row.get().get(ArtistPanel.getIndex().get(Index.ARTIST)));
                             LOG.debug("End artist right mouse");
                         }
                     }).withKeyListener().build();
-            PanelUtils.colRenderer(table.getTable(), false, null, null, null, null, null, null, null);
+            PanelUtils.colRenderer(table.getTable(), false, index);
             updateArtistPanel();
             this.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
         } catch (MyException e1) {
@@ -298,8 +300,7 @@ public class ArtistPanel extends JPanel {
     }
 
     /**
-     * Fills search result (the displayed data) with imported or calculated data.
-     * Filters on whether show deleted compositions or not.
+     * Fills search result (the displayed data) with imported or calculated data. Filters on whether show deleted compositions or not.
      */
     private void fillSearchResultAndFilterDeleted() {
         searchResult = new HashMap<>(); // the data displays in the table
@@ -326,24 +327,24 @@ public class ArtistPanel extends JPanel {
                 new Vector<>(Arrays.asList(title)));
         // Applies stored sorting
         if (table.getSortedColumn() == null) {
-            table.setSortedColumn(INDEX_NB_TOTAL);
+            table.setSortedColumn(ArtistPanel.getIndex().get(Index.NB_TOTAL));
             table.setSortOrder(SortOrder.DESCENDING);
         }
         table.getRowSorter().setSortKeys(
                 Collections.singletonList(new RowSorter.SortKey(table.getSortedColumn(), table.getSortOrder())));
-        ((TableRowSorter<?>) table.getRowSorter()).setComparator(INDEX_DELETED, MiscUtils.comparePercentage);
-        ((TableRowSorter<?>) table.getRowSorter()).setComparator(INDEX_SCORE_DELETED, MiscUtils.comparePercentage);
+        ((TableRowSorter<?>) table.getRowSorter()).setComparator(ArtistPanel.getIndex().get(Index.DELETED), MiscUtils.comparePercentage);
+        ((TableRowSorter<?>) table.getRowSorter()).setComparator(ArtistPanel.getIndex().get(Index.SCORE_DELETED), MiscUtils.comparePercentage);
         // Fills column "line number"
-        for (int i = 0; i < table.getRowCount(); i++) {
-            table.setValueAt(i + 1, i, INDEX_LINE_NUMBER);
+        for (int i = 0 ; i < table.getRowCount() ; i++) {
+            table.setValueAt(i + 1, i, ArtistPanel.getIndex().get(Index.LINE_NUMBER));
         }
         if (!deleted.isSelected()) {
-            table.removeColumn(table.getColumnModel().getColumn(INDEX_DELETED));
-            table.removeColumn(table.getColumnModel().getColumn(INDEX_SCORE_DELETED - 1));
+            table.removeColumn(table.getColumnModel().getColumn(ArtistPanel.getIndex().get(Index.DELETED)));
+            table.removeColumn(table.getColumnModel().getColumn(ArtistPanel.getIndex().get(Index.SCORE_DELETED) - 1));
         }
-        PanelUtils.colRenderer(table.getTable(), true, null, null, null, null, null, null, null);
-        table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMinWidth(40);
-        table.getColumnModel().getColumn(INDEX_LINE_NUMBER).setMaxWidth(40);
+        PanelUtils.colRenderer(table.getTable(), true, index);
+        table.getColumnModel().getColumn(ArtistPanel.getIndex().get(Index.LINE_NUMBER)).setMinWidth(40);
+        table.getColumnModel().getColumn(ArtistPanel.getIndex().get(Index.LINE_NUMBER)).setMaxWidth(40);
         // Update GUI
         table.getModel().fireTableDataChanged();
         table.getTable().repaint();
@@ -410,6 +411,10 @@ public class ArtistPanel extends JPanel {
 
     public JButton getSearch() {
         return search;
+    }
+
+    public static ColumnIndex getIndex() {
+        return index;
     }
 
 }
