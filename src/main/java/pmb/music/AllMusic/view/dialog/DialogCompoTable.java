@@ -128,7 +128,7 @@ public class DialogCompoTable {
         this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
                 KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
 
-        PanelUtils.colRenderer(table.getTable(), true, DialogCompoTable.getIndex().get(Index.DELETED), DialogCompoTable.getIndex().get(Index.TYPE), null, DialogCompoTable.getIndex().get(Index.DECILE), DialogCompoTable.getIndex().get(Index.SCORE), null, null);
+        PanelUtils.colRenderer(table.getTable(), true, DialogCompoTable.getIndex());
         table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.DECILE)));
         table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.DELETED) - 1));
         table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.UUID) - 2));
