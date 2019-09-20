@@ -294,7 +294,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
         bottom.setLayout(new BorderLayout());
 
         try {
-            tableResult = new TableBuilder().withModelAndData(null, title, CompoSearchPanelModel.class)
+            tableResult = new TableBuilder().withModelAndData(null, title, SearchPanelModel.class)
                     .withRowSorterListenerDelete(SearchPanel.getIndex())
                     .withMouseClickAction(e -> {
                         Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(), e.getPoint());

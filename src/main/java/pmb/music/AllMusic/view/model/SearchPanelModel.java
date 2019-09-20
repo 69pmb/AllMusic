@@ -16,27 +16,27 @@ import pmb.music.AllMusic.view.panel.SearchPanel;
  *
  * @see {@link AbstractModel}
  */
-public class CompoSearchPanelModel extends AbstractModel {
+public class SearchPanelModel extends AbstractModel {
 
     private static final long serialVersionUID = 1L;
 
     /**
-     * Constructeur de {@link CompoSearchPanelModel}.
+     * Constructeur de {@link SearchPanelModel}.
      *
      * @param data {@code Object[][]} les données
      * @param title {@code String[]} les entetes du tableau
      */
-    public CompoSearchPanelModel(Object[][] data, String[] title) {
+    public SearchPanelModel(Object[][] data, String[] title) {
         super(data, title);
     }
 
     /**
-     * Constructeur de {@link CompoSearchPanelModel}.
+     * Constructeur de {@link SearchPanelModel}.
      *
      * @param data {@link Vector} les données
      * @param title {@link Vector} les entetes du tableau
      */
-    public CompoSearchPanelModel(Vector<? extends Vector<?>> data, Vector<?> title) {
+    public SearchPanelModel(Vector<? extends Vector<?>> data, Vector<?> title) {
         super(data, title);
     }
 
