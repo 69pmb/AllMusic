@@ -707,11 +707,10 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         LOG.debug("End searchProgrammatically");
     }
 
-    @SuppressWarnings("unchecked")
     private void setSelectedRow(List<String> uuids) {
         int indexOf = tableCompo.getTable().getRowSorter()
-                .convertRowIndexToView(((Vector<Vector<String>>) tableCompo.getModel().getDataVector()).stream()
-                        .map(v -> MiscUtils.stringToUuids(v.get(compositionIndex.get(Index.UUID))))
+                .convertRowIndexToView((tableCompo.getModel().getDataVector()).stream()
+                        .map(v -> (Vector<String>)MiscUtils.stringToUuids((String) v.get(compositionIndex.get(Index.UUID))))
                         .collect(Collectors.toList()).indexOf(uuids));
         tableCompo.getTable().setRowSelectionInterval(indexOf, indexOf);
     }
