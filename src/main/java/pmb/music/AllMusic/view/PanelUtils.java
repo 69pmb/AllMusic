@@ -298,13 +298,7 @@ public final class PanelUtils {
         OngletPanel.getArtist().interruptUpdateArtist(true);
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         for (String uuid : uuids) {
-            Composition toRemoveToFinal = null;
-            Optional<Composition> found = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid));
-            if (found.isPresent()) {
-                toRemoveToFinal = found.get();
-            } else {
-                throw new MyException("Can't find composition to delete in final file");
-            }
+            Composition toRemoveToFinal = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid)).orElseThrow(() -> new MyException("Can't find composition to delete in final file"));
             // Update JTable Data
             CompositionUtils.findByUuid(compoList, Arrays.asList(uuid)).ifPresent(c -> c.setDeleted(true));
             // Update xml files
@@ -347,16 +341,10 @@ public final class PanelUtils {
         }
         OngletPanel.getArtist().interruptUpdateArtist(true);
         String uuid = MiscUtils.stringToUuids(selectedRow.get(index.get(Index.UUID))).get(0);
-        Composition toModif;
         List<Composition> importXML;
         importXML = ImportXML.importXML(Constant.getFinalFilePath());
         // On récupère la composition à modifier
-        Optional<Composition> found = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid));
-        if (found.isPresent()) {
-            toModif = found.get();
-        } else {
-            throw new MyException("Can't find composition: " + selectedRow + " to edit in final file");
-        }
+        Composition toModif = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid)).orElseThrow(() -> new MyException("Can't find composition: " + selectedRow + " to edit in final file"));
         // Lancement de la popup de modification
         ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, index);
         md.showModifyCompositionDialog();
@@ -409,7 +397,7 @@ public final class PanelUtils {
         }
 
         // Modification des données de fichier panel
-        updateFichierPanelData(compoExist.map(c -> c).orElse(toModif));
+        updateFichierPanelData(compoExist.orElse(toModif));
         LOG.debug("End editCompositionAction");
         return compositionList;
     }
