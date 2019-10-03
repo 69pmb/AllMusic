@@ -14,7 +14,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import javax.swing.JComponent;
@@ -213,14 +212,10 @@ public class DialogFileTable {
         edited.setRecordType(RecordType.valueOf(editedRow.get(DialogFileTable.getIndex().get(Index.TYPE))));
         edited.setDeleted(Boolean.valueOf(editedRow.get(DialogFileTable.getIndex().get(Index.DELETED))));
 
-        Predicate<Fichier> filterFile = f -> !(f.getClassement().equals(selected.get(DialogFileTable.getIndex().get(Index.RANK)))
-                && StringUtils.equals(f.getFileName(), (String) selected.get(DialogFileTable.getIndex().get(Index.FILE_NAME)))
-                && f.getSize().equals(selected.get(DialogFileTable.getIndex().get(Index.FILE_SIZE))));
-
         // Remove edited fichier in final file
-        removeFichierFromComposition(importXML, uuid, filterFile);
+        PanelUtils.removeFichierFromComposition(importXML, uuid, FichierUtils.filterFile(selected, DialogFileTable.getIndex()));
         // Remove edited fichier in displayed list
-        removeFichierFromComposition(compoList, uuid, filterFile);
+        PanelUtils.removeFichierFromComposition(compoList, uuid, FichierUtils.filterFile(selected, DialogFileTable.getIndex()));
 
         Optional<Composition> compoExist = ImportXML.findAndMergeComposition(importXML, edited, true);
         if (compoExist.isPresent()) {
@@ -233,7 +228,7 @@ public class DialogFileTable {
             LOG.debug("Updates search panel data");
             List<Composition> searchPanelCompo = OngletPanel.getSearch().getCompoResult();
             if (CompositionUtils.findByUuid(searchPanelCompo, uuid).isPresent()) {
-                removeFichierFromComposition(searchPanelCompo, uuid, filterFile);
+                PanelUtils.removeFichierFromComposition(searchPanelCompo, uuid, FichierUtils.filterFile(selected, DialogFileTable.getIndex()));
             }
             ImportXML.findAndMergeComposition(searchPanelCompo, edited, true);
             OngletPanel.getSearch().updateTable();
@@ -264,21 +259,6 @@ public class DialogFileTable {
         fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.DELETED)));
         fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.UUID) - 1));
         LOG.debug("End editCompositionAction");
-    }
-
-    /**
-     * Find a composition by its uuid and then remove the given fichier from it.
-     *
-     * @param list a list of composition
-     * @param uuids uuid of the fichier to remove
-     * @param filterFile filter of fichier
-     * @throws MyException if can't find the composition
-     */
-    private void removeFichierFromComposition(List<Composition> list, List<String> uuids, Predicate<Fichier> filterFile) throws MyException {
-        Composition finalCompo = CompositionUtils.findByUuid(list, uuids)
-                .orElseThrow(() -> new MyException("Can't find composition in given list"));
-        finalCompo.setFiles(finalCompo.getFiles().stream().filter(filterFile).collect(Collectors.toList()));
-        finalCompo.setUuids(finalCompo.getUuids().stream().filter(ids -> !uuids.contains(ids)).collect(Collectors.toList()));
     }
 
     public static ColumnIndex getIndex() {

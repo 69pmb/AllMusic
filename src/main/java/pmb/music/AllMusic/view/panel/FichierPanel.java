@@ -498,6 +498,14 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         updateCompoTable(selectedFichierName, false);
         LOG.debug("End modifyCompositionAction");
     }
+    
+    @Override
+    public void splitCompositionAction(Vector<Object> selected) throws MyException {
+        LOG.debug("Start splitCompositionAction");
+        compositionList = PanelUtils.splitCompositionAction(selected, compositionList, FichierPanel.getCompositionindex());
+        updateCompoTable(selectedFichierName, false);
+        LOG.debug("End splitCompositionAction");
+    }
 
     private void searchAction() {
         LOG.debug("Start searchAction");
