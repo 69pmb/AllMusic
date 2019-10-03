@@ -21,6 +21,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import javax.swing.BorderFactory;
@@ -36,6 +37,8 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 
+import org.apache.commons.collections4.ListUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -46,10 +49,12 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
+import pmb.music.AllMusic.view.dialog.SplitCompositionDialog;
 import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
@@ -103,7 +108,7 @@ public final class PanelUtils {
                 columnCount--;
             }
         }
-        for (int i = 0; i < columnCount; i++) {
+        for (int i = 0 ; i < columnCount ; i++) {
             renderer.setHorizontalAlignment(JLabel.CENTER);
             table.getColumnModel().getColumn(i).setCellRenderer(renderer);
         }
@@ -111,8 +116,7 @@ public final class PanelUtils {
     }
 
     /**
-     * Fixe la largeur de chaques colonnes à la longueur maximum pour de chaques
-     * colonnes.
+     * Fixe la largeur de chaques colonnes à la longueur maximum pour de chaques colonnes.
      *
      * @param table le tableau
      * @param width la largeur du composant parent quand il est redimensionné
@@ -125,10 +129,10 @@ public final class PanelUtils {
         Map<Integer, Integer> colWidth = new HashMap<>();
         Double widthDouble = Double.valueOf(width);
         int columnCount = columnModel.getColumnCount();
-        for (int i = 0; i < columnCount; i++) {
+        for (int i = 0 ; i < columnCount ; i++) {
             int maximum = 0;
             Object currentValue = null;
-            for (int j = 0; j < table.getRowCount(); j++) {
+            for (int j = 0 ; j < table.getRowCount() ; j++) {
                 currentValue = table.getValueAt(j, i);
                 if (currentValue == null) {
                     continue;
@@ -198,7 +202,7 @@ public final class PanelUtils {
         if (rowAtPoint > -1) {
             LOG.debug("Found selectedRow");
             target.setRowSelectionInterval(rowAtPoint, rowAtPoint);
-            selectedRow = (Vector<String>) ((T) target.getModel()).getDataVector()
+            selectedRow = ((T) target.getModel()).getDataVector()
                     .get(target.getRowSorter().convertRowIndexToModel(rowAtPoint));
         }
         LOG.debug("End getSelectedRow");
@@ -215,11 +219,11 @@ public final class PanelUtils {
     public static <T extends AbstractModel> List<List<String>> convertDataVectorToList(JTable table) {
         List<List<String>> result = new ArrayList<>();
         TableModel model = table.getModel();
-        for (int i = 0; i < model.getRowCount(); i++) {
-            Vector<Object> selectedRow = (Vector<Object>) ((T) model).getDataVector()
+        for (int i = 0 ; i < model.getRowCount() ; i++) {
+            Vector<Object> selectedRow = ((T) model).getDataVector()
                     .get(table.getRowSorter().convertRowIndexToModel(i));
             List<String> row = new ArrayList<>();
-            for (int j = 0; j < model.getColumnCount(); j++) {
+            for (int j = 0 ; j < model.getColumnCount() ; j++) {
                 if (model.getColumnClass(j) == Boolean.class) {
                     row.add(String.valueOf(selectedRow.get(j)));
                 } else if (model.getColumnClass(j) == Integer.class || model.getColumnClass(j) == Double.class
@@ -237,13 +241,11 @@ public final class PanelUtils {
     }
 
     /**
-     * Adds a key listener for table to select first row that match a letter
-     * pressed.
+     * Adds a key listener for table to select first row that match a letter pressed.
      *
      * @param e the key event, ie key pressed
      * @param selectedRow the selected row
-     * @param sortedColumn the sorted column (if artist go to first artist starting
-     *            to the letter pressed)
+     * @param sortedColumn the sorted column (if artist go to first artist starting to the letter pressed)
      * @return the selected row, -1 if no result
      */
     @SuppressWarnings("unchecked")
@@ -261,8 +263,8 @@ public final class PanelUtils {
         }
         // Check each cell to see if it starts with typed char.
         // if so set corresponding row selected and return.
-        for (int row = startRow + 1; row < tableModel.getRowCount(); row++) {
-            Vector<String> vector = (Vector<String>) ((AbstractModel) target.getModel()).getDataVector()
+        for (int row = startRow + 1 ; row < tableModel.getRowCount() ; row++) {
+            Vector<String> vector = ((AbstractModel) target.getModel()).getDataVector()
                     .get(target.getRowSorter().convertRowIndexToModel(row));
             Object value = vector.get(sortedColumn != null ? sortedColumn : 0);
             if (value != null
@@ -296,13 +298,7 @@ public final class PanelUtils {
         OngletPanel.getArtist().interruptUpdateArtist(true);
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         for (String uuid : uuids) {
-            Composition toRemoveToFinal = null;
-            Optional<Composition> found = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid));
-            if (found.isPresent()) {
-                toRemoveToFinal = found.get();
-            } else {
-                throw new MyException("Can't find composition to delete in final file");
-            }
+            Composition toRemoveToFinal = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid)).orElseThrow(() -> new MyException("Can't find composition to delete in final file"));
             // Update JTable Data
             CompositionUtils.findByUuid(compoList, Arrays.asList(uuid)).ifPresent(c -> c.setDeleted(true));
             // Update xml files
@@ -345,16 +341,10 @@ public final class PanelUtils {
         }
         OngletPanel.getArtist().interruptUpdateArtist(true);
         String uuid = MiscUtils.stringToUuids(selectedRow.get(index.get(Index.UUID))).get(0);
-        Composition toModif;
         List<Composition> importXML;
         importXML = ImportXML.importXML(Constant.getFinalFilePath());
         // On récupère la composition à modifier
-        Optional<Composition> found = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid));
-        if (found.isPresent()) {
-            toModif = found.get();
-        } else {
-            throw new MyException("Can't find composition: " + selectedRow + " to edit in final file");
-        }
+        Composition toModif = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid)).orElseThrow(() -> new MyException("Can't find composition: " + selectedRow + " to edit in final file"));
         // Lancement de la popup de modification
         ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, index);
         md.showModifyCompositionDialog();
@@ -407,7 +397,7 @@ public final class PanelUtils {
         }
 
         // Modification des données de fichier panel
-        updateFichierPanelData(compoExist.map(c -> c).orElse(toModif));
+        updateFichierPanelData(compoExist.orElse(toModif));
         LOG.debug("End editCompositionAction");
         return compositionList;
     }
@@ -426,6 +416,113 @@ public final class PanelUtils {
                     .filter(Objects::nonNull).collect(Collectors.toList()), edited.getUuids())
             .ifPresent(c -> CompositionUtils.copy(edited, c));
         }
+    }
+
+    public static List<Composition> splitCompositionAction(Vector<Object> selected, List<Composition> compositionList,
+            ColumnIndex index) throws MyException {
+        LOG.debug("Start splitCompositionAction");
+        OngletPanel.getArtist().interruptUpdateArtist(true);
+        // Lancement de la popup de modification
+        SplitCompositionDialog sd = new SplitCompositionDialog(
+                (String) selected.get(index.get(Index.TITLE)), selected.get(index.get(Index.ARTIST)) + " - " + selected.get(index.get(Index.TYPE)));
+        sd.showModifyCompositionDialog();
+        String t1;
+        String t2;
+        if (sd.isSendData()) {
+            // On recupère la compo si elle a bien été modifiée
+            LOG.debug("Composition modifiée");
+            t1 = sd.getTitle1();
+            t2 = sd.getTitle2();
+        } else {
+            LOG.debug("Aucune modification");
+            return compositionList;
+        }
+
+        List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+        List<String> uuid = MiscUtils.stringToUuids((String) selected.get(index.get(Index.UUID)));
+        List<String> newUuids = new ArrayList<>();
+        Composition edited = CompositionUtils.findByUuid(importXML, uuid)
+                .orElseThrow(() -> new MyException("Can't find edited composition: " + selected));
+
+        // Update Fichiers
+        List<Fichier> files = new ArrayList<>();
+        edited.getFiles().stream().forEach(file -> {
+            String newUuid = MiscUtils.getUuid();
+            newUuids.add(newUuid);
+            List<Composition> xmlFile = ImportXML.importXML(FichierUtils.buildXmlFilePath(file.getFileName()).orElse(""));
+            xmlFile = PanelUtils.splitComposition(xmlFile, t1, t2, edited.getUuids(), Arrays.asList(newUuid), false);
+            try {
+                ExportXML.exportXML(CompositionUtils.sortByRank(xmlFile), file.getFileName());
+                files.add(file);
+            } catch (IOException e) {
+                LOG.error("Error when exporting a file", e);
+            }
+        });
+        // Update Final File
+        importXML = PanelUtils.splitComposition(importXML, t1, t2, edited.getUuids(), newUuids, true);
+        try {
+            ExportXML.exportXML(importXML, Constant.getFinalFile());
+        } catch (IOException e) {
+            LOG.error("Error when exporting a file", e);
+        }
+        // Update given list
+        compositionList = PanelUtils.splitComposition(compositionList, t1, t2, edited.getUuids(), newUuids, true);
+        // Update fichier panel
+        List<String> ids = ListUtils.union(newUuids, edited.getUuids());
+        List<Fichier> filesToUpdate = new ArrayList<>();
+        importXML.stream().filter(c -> c.getUuids().stream().anyMatch(id -> ids.contains(id))).forEach(c -> filesToUpdate.addAll(c.getFiles()));
+        OngletPanel.getFichier().reprocessSpecificFichier(importXML, filesToUpdate);
+        LOG.debug("Start splitCompositionAction");
+        return compositionList;
+    }
+
+    /**
+     * Splits the given composition into 2 and merge it in given list.
+     *
+     * @param list where to merge
+     * @param title1 first new title
+     * @param title2 second new title
+     * @param uuids uuid of edited composition
+     * @param newUuids new generated uuid
+     * @param fusion if find if existing in list
+     */
+    public static List<Composition> splitComposition(List<Composition> list, String title1, String title2, List<String> uuids, List<String> newUuids, boolean fusion) {
+        Optional<Composition> found = CompositionUtils.findByUuid(list, uuids);
+        if (found.isPresent()) {
+            Composition compoInList = found.get();
+            Composition c2 = new Composition(compoInList);
+            compoInList.setTitre(StringUtils.trim(title1));
+            c2.setTitre(StringUtils.trim(title2));
+            c2.setUuids(newUuids);
+
+            if (fusion) {
+                list = list.stream().filter(c -> !c.getUuids().contains(uuids.get(0))).collect(Collectors.toList());
+                ImportXML.findAndMergeComposition(list, compoInList, true);
+                ImportXML.findAndMergeComposition(list, c2, true);
+            } else {
+                list.add(c2);
+            }
+        } else {
+            LOG.warn("Warning could not find composition in list");
+        }
+        return list;
+    }
+
+    /**
+     * Find a composition by its uuid and then remove the given fichier from it.
+     *
+     * @param list a list of composition
+     * @param uuids uuid of the fichier to remove
+     * @param filterFile filter of fichier, nullable
+     * @throws MyException if can't find the composition
+     */
+    public static void removeFichierFromComposition(List<Composition> list, List<String> uuids, Predicate<Fichier> filterFile) throws MyException {
+        Composition finalCompo = CompositionUtils.findByUuid(list, uuids)
+                .orElseThrow(() -> new MyException("Can't find composition in given list"));
+        if (filterFile != null) {
+            finalCompo.setFiles(finalCompo.getFiles().stream().filter(filterFile).collect(Collectors.toList()));
+        }
+        finalCompo.setUuids(finalCompo.getUuids().stream().filter(ids -> !uuids.contains(ids)).collect(Collectors.toList()));
     }
 
     /**

@@ -23,8 +23,7 @@ import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.model.AbstractModel;
 
 /**
- * Classe decrivant le style des tableaux de l'application. Colorise une ligne
- * sur deux.
+ * Classe decrivant le style des tableaux de l'application. Colorise une ligne sur deux.
  *
  * @author pmbroca
  * @see DefaultTableCellRenderer
@@ -75,14 +74,11 @@ public class EvenOddRenderer extends DefaultTableCellRenderer {
     /**
      * Constructor for {@link EvenOddRenderer}.
      *
-     * @param index.get(Index.DELETED) index of the deleted column, used to draw deleted row
-     *            with specific color
-     * @param index.get(Index.TYPE) index of the record type column, used to color record type
-     *            cell depending on the type
+     * @param index.get(Index.DELETED) index of the deleted column, used to draw deleted row with specific color
+     * @param index.get(Index.TYPE) index of the record type column, used to color record type cell depending on the type
      * @param index.get(Index.CAT) index of the category column, used to color category cell
      * @param index.get(Index.DECILE) index of the decile column, used to add tooltip
-     * @param index.get(Index.SCORE) index of the score column, used to add color scale of
-     *            purple
+     * @param index.get(Index.SCORE) index of the score column, used to add color scale of purple
      * @param index.get(Index.SORTED) index of the sorted column, used to add color if sorted
      * @param index.get(Index.RANK) index of the rank column, used to add color if sorted
      */
@@ -103,23 +99,23 @@ public class EvenOddRenderer extends DefaultTableCellRenderer {
         }
         Font font = renderer.getFont();
         Boolean rowDeleted = false;
-        if (index.get(Index.DELETED) != null) {
+        if (index.has(Index.DELETED)) {
             // If displayed row is a deleted row
             rowDeleted = Boolean.valueOf((String) getValueByColumnIndex(table, row, index.get(Index.DELETED)));
         }
 
         Color foreground;
         Color background;
-        if (index.get(Index.TYPE) != null && column == index.get(Index.TYPE)) {
+        if (index.has(Index.TYPE) && column == index.get(Index.TYPE)) {
             foreground = getTypeRenderer(table, value, isSelected, row, renderer, font, rowDeleted);
             background = getDefaultBackground(isSelected, row, rowDeleted);
-        } else if (index.get(Index.CAT) != null && column == index.get(Index.CAT)) {
+        } else if (index.has(Index.CAT) && column == index.get(Index.CAT)) {
             foreground = getCatRenderer(table, value, isSelected, row, renderer, rowDeleted, font);
             background = getDefaultBackground(isSelected, row, rowDeleted);
-        } else if (index.get(Index.SCORE) != null && index.get(Index.DECILE) != null && column == index.get(Index.SCORE)) {
+        } else if (index.has(Index.SCORE) && index.has(Index.DECILE) && column == index.get(Index.SCORE)) {
             return getScoreRenderer(table, isSelected, row, renderer, font);
-        } else if (index.get(Index.SORTED) != null
-                && (column == index.get(Index.SORTED) - 1 || column == index.get(Index.SORTED) || (index.get(Index.RANK) != null && column == index.get(Index.RANK)))) {
+        } else if (index.has(Index.SORTED)
+                && (column == index.get(Index.SORTED) - 1 || column == index.get(Index.SORTED) || (index.has(Index.RANK) && column == index.get(Index.RANK)))) {
             return getSortRenderer(table, row, renderer);
         } else {
             foreground = getDefaultForeground(isSelected, row, rowDeleted);
@@ -259,7 +255,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer {
         if (value instanceof String && ((String) value).length() > 30) {
             // If value is a long string
             setToolTipText((String) value);
-        } else if (index.get(Index.DECILE) != null && index.get(Index.SCORE) != null && column == index.get(Index.SCORE)) {
+        } else if (index.has(Index.DECILE) && index.has(Index.SCORE) && column == index.get(Index.SCORE)) {
             // if decile
             setToolTipText(String.valueOf(getValueByColumnIndex(table, row, index.get(Index.DECILE))) + " / 10");
         } else {
