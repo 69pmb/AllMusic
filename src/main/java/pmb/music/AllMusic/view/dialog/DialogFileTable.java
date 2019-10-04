@@ -11,6 +11,7 @@ import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
@@ -22,6 +23,7 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.KeyStroke;
+import javax.swing.RowSorter.SortKey;
 import javax.swing.SwingUtilities;
 import javax.swing.table.TableRowSorter;
 
@@ -79,7 +81,7 @@ public class DialogFileTable {
             .put(Index.UUID, 13)
             .put(Index.SORTED, 14);
 
-    private int defaultSort;
+    private SortKey defaultSort;
     private MyTable fichiers;
 
     /**
@@ -91,10 +93,10 @@ public class DialogFileTable {
      * @param compoList {@code List<Composition>} la liste des compositions dont les
      *            fichiers seront affichés
      * @param height la hauteur de la popup
-     * @param defaultSort the index of the sorted column at start
+     * @param defaultSort sorted column at start
      */
     public DialogFileTable(JFrame parent, String header, boolean modal, List<Composition> compoList, int height,
-            int defaultSort) {
+            SortKey defaultSort) {
         LOG.debug("Start DialogFileTable");
         this.dialog = new JDialog(parent, header, modal);
         this.dialog.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
@@ -157,7 +159,7 @@ public class DialogFileTable {
                         }
                     }).withPopupMenu(new DialogFilePopupMenu(this, DialogFileTable.getIndex()))
                     .withKeyListener().build();
-            fichiers.getRowSorter().toggleSortOrder(defaultSort);
+            fichiers.getRowSorter().setSortKeys(Collections.singletonList(defaultSort));
             ((TableRowSorter<?>) fichiers.getRowSorter()).setComparator(DialogFileTable.getIndex().get(Index.PERCENT_DELETED),
                     MiscUtils.comparePercentage);
             PanelUtils.colRenderer(fichiers.getTable(), true, DialogFileTable.getIndex());

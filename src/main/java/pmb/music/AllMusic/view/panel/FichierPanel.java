@@ -367,7 +367,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                             DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
                                     CompositionUtils.findByUuid(compositionList, MiscUtils.stringToUuids(selectedRow.get().get(compositionIndex.get(Index.UUID))))
                                     .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
-                                    400, DialogFileTable.getIndex().get(Index.AUTHOR));
+                                    400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.DESCENDING));
                             pop.showDialogFileTable();
                             LOG.debug("End left mouse");
                         } else if (SwingUtilities.isRightMouseButton(e)) {
@@ -498,7 +498,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         updateCompoTable(selectedFichierName, false);
         LOG.debug("End modifyCompositionAction");
     }
-    
+
     @Override
     public void splitCompositionAction(Vector<Object> selected) throws MyException {
         LOG.debug("Start splitCompositionAction");
