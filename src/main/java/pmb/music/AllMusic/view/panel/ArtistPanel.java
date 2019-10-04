@@ -182,7 +182,7 @@ public class ArtistPanel extends JPanel {
                                 new ExceptionDialog("Error when searching: " + row.get().get(ArtistPanel.getIndex().get(Index.ARTIST)) + " in data table", "", null).setVisible(true);
                             } else {
                                 DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-                                        searchResult.get(key.get()), 600, DialogFileTable.getIndex().get(Index.TITLE));
+                                        searchResult.get(key.get()), 600, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.ASCENDING));
                                 pop.showDialogFileTable();
                             }
                             LOG.debug("End artist mouse");
