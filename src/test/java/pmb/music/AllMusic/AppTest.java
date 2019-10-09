@@ -99,13 +99,13 @@ public class AppTest {
     private static void testString(String s1, String s2) {
         JaroWinklerDistance jaro = new JaroWinklerDistance();
         // Suppression de la ponctuation
-        String compoTitre = SearchUtils.removePunctuation(s1);
+        String compoTitre = MiscUtils.removePunctuation(s1);
         if (StringUtils.isBlank(compoTitre)) {
             // Si le titre n'est constitué que de ponctuation
             compoTitre = s1.toLowerCase();
         }
         // Suppression de la ponctuation
-        String cTitre = SearchUtils.removePunctuation(s2);
+        String cTitre = MiscUtils.removePunctuation(s2);
         if (StringUtils.isBlank(cTitre)) {
             // Si le titre n'est constitué que de ponctuation
             cTitre = s2;
@@ -631,14 +631,14 @@ public class AppTest {
         String test7 = "hello, bonjour [and thed]";
         String test8 = "[and thed] hello, bonjour";
 
-        Assert.assertEquals("hello ", SearchUtils.removeParentheses(test1));
-        Assert.assertEquals(" hello", SearchUtils.removeParentheses(test2));
-        Assert.assertEquals("hello, bonjour ", SearchUtils.removeParentheses(test3));
-        Assert.assertEquals(" hello, bonjour", SearchUtils.removeParentheses(test4));
-        Assert.assertEquals("hello, bonjour", SearchUtils.removeParentheses(test5));
-        Assert.assertEquals("hello, bonjour", SearchUtils.removeParentheses(test6));
-        Assert.assertEquals("hello, bonjour ", SearchUtils.removeParentheses(test7));
-        Assert.assertEquals(" hello, bonjour", SearchUtils.removeParentheses(test8));
+        Assert.assertEquals("hello ", MiscUtils.removeParentheses(test1));
+        Assert.assertEquals(" hello", MiscUtils.removeParentheses(test2));
+        Assert.assertEquals("hello, bonjour ", MiscUtils.removeParentheses(test3));
+        Assert.assertEquals(" hello, bonjour", MiscUtils.removeParentheses(test4));
+        Assert.assertEquals("hello, bonjour", MiscUtils.removeParentheses(test5));
+        Assert.assertEquals("hello, bonjour", MiscUtils.removeParentheses(test6));
+        Assert.assertEquals("hello, bonjour ", MiscUtils.removeParentheses(test7));
+        Assert.assertEquals(" hello, bonjour", MiscUtils.removeParentheses(test8));
     }
 
     @Test
@@ -652,14 +652,14 @@ public class AppTest {
         String test7 = "hello, bonjour [and thed]";
         String test8 = "[and thed] hello, bonjour";
 
-        Assert.assertEquals("hello", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test1)));
-        Assert.assertEquals("hello", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test2)));
-        Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test3)));
-        Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test4)));
-        Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test5)));
-        Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test6)));
-        Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test7)));
-        Assert.assertEquals("hellobonjour", SearchUtils.removePunctuation(SearchUtils.removeParentheses(test8)));
+        Assert.assertEquals("hello", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test1)));
+        Assert.assertEquals("hello", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test2)));
+        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test3)));
+        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test4)));
+        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test5)));
+        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test6)));
+        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test7)));
+        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test8)));
     }
 
     public static void setDeleted() {
@@ -770,7 +770,7 @@ public class AppTest {
         Map<Double, String> jaroRes = new TreeMap<>();
         JaroWinklerDistance jaro = new JaroWinklerDistance();
         for (Composition composition : guardian) {
-            String titre = SearchUtils.removePunctuation(composition.getArtist());
+            String titre = MiscUtils.removePunctuation(composition.getArtist());
             Double apply = jaro.apply(titre, test);
             jaroRes.put(apply, titre);
         }

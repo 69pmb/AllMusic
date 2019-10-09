@@ -29,7 +29,6 @@ import pmb.music.AllMusic.utils.DropBoxUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.ScoreUtils;
-import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
@@ -70,15 +69,15 @@ public final class NgExportXml extends ExportXML {
             // Clean artist and title
             String stripArtist = StringUtils
                     .substringBefore(
-                            SearchUtils.removeParentheses(CleanFile.removeDiactriticals(
+                            MiscUtils.removeParentheses(CleanFile.removeDiactriticals(
                                     MiscUtils.cleanLine(composition.getArtist().toLowerCase(), entrySet))),
                             " and ");
             if (StringUtils.startsWith(stripArtist, "the ")) {
                 stripArtist = StringUtils.substringAfter(stripArtist, "the ");
             }
-            comp.addAttribute("s" + CompoHandler.TAG_ARTIST, SearchUtils.removePunctuation(stripArtist));
+            comp.addAttribute("s" + CompoHandler.TAG_ARTIST, MiscUtils.removePunctuation(stripArtist));
             comp.addAttribute("s" + CompoHandler.TAG_TITRE,
-                    SearchUtils.removePunctuation(SearchUtils.removeParentheses(CleanFile.removeDiactriticals(
+                    MiscUtils.removePunctuation(MiscUtils.removeParentheses(CleanFile.removeDiactriticals(
                             MiscUtils.cleanLine(composition.getTitre().toLowerCase(), entrySet)))));
 
             comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(composition.getRecordType()));

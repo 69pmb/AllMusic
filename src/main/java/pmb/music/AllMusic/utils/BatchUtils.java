@@ -418,8 +418,8 @@ public final class BatchUtils {
                 if (i < j) {
                     Composition c1 = importXML.get(i);
                     Composition c2 = importXML.get(j);
-                    String c1Titre = SearchUtils.removePunctuation(c1.getTitre());
-                    String c2Titre = SearchUtils.removePunctuation(c2.getTitre());
+                    String c1Titre = MiscUtils.removePunctuation(c1.getTitre());
+                    String c2Titre = MiscUtils.removePunctuation(c2.getTitre());
                     if (c1Titre.length() >= 11 && c2Titre.length() >= 11
                             && SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.985D))
                             && CompositionUtils.artistJaroEquals(c1.getArtist(), c2.getArtist(), jaro,
@@ -1042,14 +1042,14 @@ public final class BatchUtils {
         // Clean artist and title
         Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
         String stripArtist = StringUtils.substringBefore(
-                SearchUtils.removeParentheses(
+                MiscUtils.removeParentheses(
                         CleanFile.removeDiactriticals(MiscUtils.cleanLine(artist.toLowerCase(), entrySet))),
                 Constant.SEPARATOR_AND);
         if (StringUtils.startsWith(stripArtist, "the ")) {
             stripArtist = StringUtils.substringAfter(stripArtist, "the ");
         }
-        criteria.put(SearchUtils.CRITERIA_ARTIST, SearchUtils.removePunctuation(stripArtist));
-        criteria.put(SearchUtils.CRITERIA_TITRE, SearchUtils.removePunctuation(SearchUtils
+        criteria.put(SearchUtils.CRITERIA_ARTIST, MiscUtils.removePunctuation(stripArtist));
+        criteria.put(SearchUtils.CRITERIA_TITRE, MiscUtils.removePunctuation(MiscUtils
                 .removeParentheses(CleanFile.removeDiactriticals(MiscUtils.cleanLine(titre.toLowerCase(), entrySet)))));
         return criteria;
     }
@@ -1290,11 +1290,11 @@ public final class BatchUtils {
                         boolean similarArtist = isArtistSimilar(composition1, composition2);
                         if (similarArtist) {
                             String titre1 = composition1.getTitre().toLowerCase();
-                            String remParTitre1 = SearchUtils.removeParentheses(titre1);
-                            String parTitre1 = SearchUtils.removePunctuation(remParTitre1);
+                            String remParTitre1 = MiscUtils.removeParentheses(titre1);
+                            String parTitre1 = MiscUtils.removePunctuation(remParTitre1);
                             String titre2 = composition2.getTitre().toLowerCase();
-                            String remParTitre2 = SearchUtils.removeParentheses(titre2);
-                            String parTitre2 = SearchUtils.removePunctuation(remParTitre2);
+                            String remParTitre2 = MiscUtils.removeParentheses(titre2);
+                            String parTitre2 = MiscUtils.removePunctuation(remParTitre2);
                             boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2)
                                     || StringUtils.startsWithIgnoreCase(parTitre2, parTitre1);
                             if (parTitreEqu
@@ -1302,9 +1302,9 @@ public final class BatchUtils {
                                             || StringUtils.containsIgnoreCase(remParTitre2, Constant.SEPARATOR_AND))
                                     && !StringUtils.containsIgnoreCase(remParTitre1, "/")
                                     && !StringUtils.containsIgnoreCase(remParTitre2, "/")) {
-                                String andTitre1 = SearchUtils.removePunctuation(
+                                String andTitre1 = MiscUtils.removePunctuation(
                                         StringUtils.substringBefore(remParTitre1, Constant.SEPARATOR_AND));
-                                String andTitre2 = SearchUtils.removePunctuation(
+                                String andTitre2 = MiscUtils.removePunctuation(
                                         StringUtils.substringBefore(remParTitre2, Constant.SEPARATOR_AND));
                                 parTitre1 = andTitre1;
                                 parTitre2 = andTitre2;
@@ -1363,8 +1363,8 @@ public final class BatchUtils {
                         Composition composition2 = yearList.get(j);
                         String titre1 = composition1.getTitre();
                         String titre2 = composition2.getTitre();
-                        String newTitre1 = SearchUtils.removePunctuation(titre1);
-                        String newTitre2 = SearchUtils.removePunctuation(titre2);
+                        String newTitre1 = MiscUtils.removePunctuation(titre1);
+                        String newTitre2 = MiscUtils.removePunctuation(titre2);
                         String artist1 = composition1.getArtist();
                         String artist2 = composition2.getArtist();
                         Integer publishYear1 = composition1.getFiles().get(0).getPublishYear();
