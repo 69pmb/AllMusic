@@ -56,13 +56,13 @@ public final class CompositionUtils {
                 LOG.error("null: " + composition);
             } else if (c.getRecordType() == composition.getRecordType()) {
                 // Suppression de la ponctuation
-                String compoTitre = SearchUtils.removePunctuation(composition.getTitre());
+                String compoTitre = MiscUtils.removePunctuation(composition.getTitre());
                 if (StringUtils.isBlank(compoTitre)) {
                     // Si le titre n'est constitué que de ponctuation
                     compoTitre = composition.getTitre().toLowerCase();
                 }
                 // Suppression de la ponctuation
-                String cTitre = SearchUtils.removePunctuation(c.getTitre());
+                String cTitre = MiscUtils.removePunctuation(c.getTitre());
                 if (StringUtils.isBlank(cTitre)) {
                     // Si le titre n'est constitué que de ponctuation
                     cTitre = c.getTitre().toLowerCase();
@@ -90,7 +90,7 @@ public final class CompositionUtils {
      */
     public static String artistJaroEquals(String artist, String a, JaroWinklerDistance jaro, BigDecimal scoreLimit) {
         // Suppression de la ponctuation
-        String compoArtist = SearchUtils.removePunctuation(artist);
+        String compoArtist = MiscUtils.removePunctuation(artist);
         if (StringUtils.startsWith(compoArtist, "the")) {
             // Si l'artist commence par The, on supprime le The
             compoArtist = StringUtils.substringAfter(compoArtist, "the");
@@ -100,7 +100,7 @@ public final class CompositionUtils {
             compoArtist = artist.toLowerCase();
         }
         // Suppression de la ponctuation
-        String cArtist = SearchUtils.removePunctuation(a);
+        String cArtist = MiscUtils.removePunctuation(a);
         if (StringUtils.startsWith(cArtist, "the")) {
             // Si l'artist commence par The, on supprime le The
             cArtist = StringUtils.substringAfter(cArtist, "the");
