@@ -26,297 +26,297 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
-import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
+import pmb.music.AllMusic.utils.ScoreUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.PanelUtils;
 
 /**
  * Classe gérant les onglet de l'appli.
- * 
+ *
  * @author pmbroca
  */
 public class OngletPanel extends JPanel {
-	private static final long serialVersionUID = -7235352581168930316L;
-	private static final Logger LOG = LogManager.getLogger(OngletPanel.class);
-	private static JTabbedPane onglets;
-	private static Score score;
-	private static String[] artistList;
-	private static String[] titleList;
-	private static String[] authorList;
-	private static FichierPanel fichier;
-	private static ArtistPanel artist;
-	private static SearchPanel search;
-	private static boolean withArtist;
+    private static final long serialVersionUID = -7235352581168930316L;
+    private static final Logger LOG = LogManager.getLogger(OngletPanel.class);
+    private static JTabbedPane onglets;
+    private static Score score;
+    private static String[] artistList;
+    private static String[] titleList;
+    private static String[] authorList;
+    private static FichierPanel fichier;
+    private static ArtistPanel artist;
+    private static SearchPanel search;
+    private static boolean withArtist;
 
-	/**
-	 * Génère les onglets.
-	 * 
-	 * @param myFrame la fenetre principale
-	 * @param withArtist if true the artist panel is displayed
-	 */
-	public OngletPanel(final BasicFrame myFrame, boolean withArtist) {
-		LOG.debug("Start Onglet");
-		setOnglets(new JTabbedPane(SwingConstants.TOP));
-		final JPanel panel = new JPanel();
-		final Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-		dim.height = 92 * dim.height / 100;
-		dim.width = dim.width - 30;
-		getOnglets().setPreferredSize(dim);
-		setWithArtist(withArtist);
+    /**
+     * Génère les onglets.
+     *
+     * @param myFrame la fenetre principale
+     * @param withArtist if true the artist panel is displayed
+     */
+    public OngletPanel(final BasicFrame myFrame, boolean withArtist) {
+        LOG.debug("Start Onglet");
+        setOnglets(new JTabbedPane(SwingConstants.TOP));
+        final JPanel panel = new JPanel();
+        final Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        dim.height = 92 * dim.height / 100;
+        dim.width = dim.width - 30;
+        getOnglets().setPreferredSize(dim);
+        setWithArtist(withArtist);
 
-		List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-		new Thread(() -> initScore(importXML)).start();
-		setArtistList(importXML);
-		setTitleList(importXML);
-		setAuthorList(importXML);
+        List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+        new Thread(() -> initScore(importXML)).start();
+        setArtistList(importXML);
+        setTitleList(importXML);
+        setAuthorList(importXML);
 
-		setArtist(new ArtistPanel(withArtist));
-		setFichier(new FichierPanel());
-		ImportPanel importFile = new ImportPanel();
-		setSearch(new SearchPanel());
-		BatchPanel batch = new BatchPanel();
+        setArtist(new ArtistPanel(withArtist));
+        setFichier(new FichierPanel());
+        ImportPanel importFile = new ImportPanel();
+        setSearch(new SearchPanel());
+        BatchPanel batch = new BatchPanel();
 
-		getOnglets().addTab(Constant.ONGLET_SEARCH, getSearch());
-		if (withArtist) {
-			getOnglets().addTab(Constant.ONGLET_ARTIST, getArtist());
-		}
-		getOnglets().addTab(Constant.ONGLET_FICHIER, getFichier());
-		getOnglets().addTab(Constant.ONGLET_IMPORT, importFile);
-		getOnglets().addTab(Constant.ONGLET_BATCH, batch);
-		getFichier().initPanel();
+        getOnglets().addTab(Constant.ONGLET_SEARCH, getSearch());
+        if (withArtist) {
+            getOnglets().addTab(Constant.ONGLET_ARTIST, getArtist());
+        }
+        getOnglets().addTab(Constant.ONGLET_FICHIER, getFichier());
+        getOnglets().addTab(Constant.ONGLET_IMPORT, importFile);
+        getOnglets().addTab(Constant.ONGLET_BATCH, batch);
+        getFichier().initPanel();
 
-		getOnglets().setOpaque(true);
-		panel.add(getOnglets());
-		panel.validate();
+        getOnglets().setOpaque(true);
+        panel.add(getOnglets());
+        panel.validate();
 
-		JScrollPane scrollPane = new JScrollPane(panel);
-		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_NEVER);
-		scrollPane.addComponentListener(new ComponentListener() {
-			@Override
-			public void componentShown(ComponentEvent e) {
-				// Nothing to do
-			}
+        JScrollPane scrollPane = new JScrollPane(panel);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_NEVER);
+        scrollPane.addComponentListener(new ComponentListener() {
+            @Override
+            public void componentShown(ComponentEvent e) {
+                // Nothing to do
+            }
 
-			@Override
-			public void componentResized(ComponentEvent e) {
-				PanelUtils.setColumnsWidth(getSearch().getTableResult(), e.getComponent().getWidth(), "Search");
-				PanelUtils.setColumnsWidth(getFichier().getTableFiles(), e.getComponent().getWidth(), "Fichier files");
-				PanelUtils.setColumnsWidth(getFichier().getTableCompo(), e.getComponent().getWidth(), "Fichier compo");
-				if (withArtist) {
-					PanelUtils.setColumnsWidth(getArtist().getTable(), e.getComponent().getWidth(), "Artist");
-				}
-			}
+            @Override
+            public void componentResized(ComponentEvent e) {
+                PanelUtils.setColumnsWidth(getSearch().getTableResult(), e.getComponent().getWidth(), "Search");
+                PanelUtils.setColumnsWidth(getFichier().getTableFiles(), e.getComponent().getWidth(), "Fichier files");
+                PanelUtils.setColumnsWidth(getFichier().getTableCompo(), e.getComponent().getWidth(), "Fichier compo");
+                if (withArtist) {
+                    PanelUtils.setColumnsWidth(getArtist().getTable(), e.getComponent().getWidth(), "Artist");
+                }
+            }
 
-			@Override
-			public void componentMoved(ComponentEvent e) {
-				// Nothing to do
-			}
+            @Override
+            public void componentMoved(ComponentEvent e) {
+                // Nothing to do
+            }
 
-			@Override
-			public void componentHidden(ComponentEvent e) {
-				// Nothing to do
-			}
-		});
-		myFrame.getFrame().getContentPane().add(scrollPane, BorderLayout.CENTER);
-		myFrame.getFrame().pack();
+            @Override
+            public void componentHidden(ComponentEvent e) {
+                // Nothing to do
+            }
+        });
+        myFrame.getFrame().getContentPane().add(scrollPane, BorderLayout.CENTER);
+        myFrame.getFrame().pack();
 
-		// Default button handling
-		getSearch().getRootPane().setDefaultButton(getSearch().getSearch());
-		getOnglets().addChangeListener((ChangeEvent e) -> {
-			if (e.getSource() instanceof JTabbedPane) {
-				// Modifies default button when changing current tab
-				getSelectedDefaultButtonByTab(getSearch(), getFichier(), getArtist(), importFile, batch);
-			}
-		});
-		LOG.debug("End Onglet");
-	}
+        // Default button handling
+        getSearch().getRootPane().setDefaultButton(getSearch().getSearch());
+        getOnglets().addChangeListener((ChangeEvent e) -> {
+            if (e.getSource() instanceof JTabbedPane) {
+                // Modifies default button when changing current tab
+                getSelectedDefaultButtonByTab(getSearch(), getFichier(), getArtist(), importFile, batch);
+            }
+        });
+        LOG.debug("End Onglet");
+    }
 
-	/**
-	 * Calculates the constants of {@link Score}.
-	 */
-	private static void initScore(List<Composition> importXML) {
-		LOG.debug("Start initScore");
-		OngletPanel.score = new Score();
-		List<Composition> songs = getByType(importXML, RecordType.SONG, true);
-		List<Composition> albums = getByType(importXML, RecordType.ALBUM, true);
-		getScore().setLogMaxAlbum(CompositionUtils.getLogMax(albums));
-		getScore().setLogMaxSong(CompositionUtils.getLogMax(songs));
-		getScore().setDoubleMedianAlbum(CompositionUtils.getDoubleMedian(albums));
-		getScore().setDoubleMedianSong(CompositionUtils.getDoubleMedian(songs));
-		getScore().setDecileLimitSong(CompositionUtils.getDecileLimit(getByType(importXML, RecordType.SONG, false)));
-		getScore().setDecileLimitAlbum(CompositionUtils.getDecileLimit(getByType(importXML, RecordType.ALBUM, false)));
-		LOG.debug("End initScore");
-	}
+    /**
+     * Calculates the constants of {@link Score}.
+     */
+    private static void initScore(List<Composition> importXML) {
+        LOG.debug("Start initScore");
+        OngletPanel.score = new Score();
+        List<Composition> songs = getByType(importXML, RecordType.SONG, true);
+        List<Composition> albums = getByType(importXML, RecordType.ALBUM, true);
+        getScore().setLogMaxAlbum(ScoreUtils.getLogMax(albums));
+        getScore().setLogMaxSong(ScoreUtils.getLogMax(songs));
+        getScore().setDoubleMedianAlbum(ScoreUtils.getDoubleMedianRanking(albums));
+        getScore().setDoubleMedianSong(ScoreUtils.getDoubleMedianRanking(songs));
+        getScore().setDecileLimitSong(ScoreUtils.getDecileLimit(getByType(importXML, RecordType.SONG, false)));
+        getScore().setDecileLimitAlbum(ScoreUtils.getDecileLimit(getByType(importXML, RecordType.ALBUM, false)));
+        LOG.debug("End initScore");
+    }
 
-	/**
-	 * Filters given compositions list by type and sorting.
-	 * 
-	 * @param importXML the list to filter
-	 * @param type the record type
-	 * @param sorted if true only sorted will be returned
-	 * @return a list of composition
-	 */
-	private static List<Composition> getByType(List<Composition> importXML, RecordType type, boolean sorted) {
-		LOG.debug("Start getByType");
-		Map<String, String> criteria = new HashMap<>();
-		criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-		if (sorted) {
-			criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
-		}
-		List<Composition> result = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
-		LOG.debug("End getByType");
-		return result;
-	}
+    /**
+     * Filters given compositions list by type and sorting.
+     *
+     * @param importXML the list to filter
+     * @param type the record type
+     * @param sorted if true only sorted will be returned
+     * @return a list of composition
+     */
+    private static List<Composition> getByType(List<Composition> importXML, RecordType type, boolean sorted) {
+        LOG.debug("Start getByType");
+        Map<String, String> criteria = new HashMap<>();
+        criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
+        if (sorted) {
+            criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
+        }
+        List<Composition> result = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
+        LOG.debug("End getByType");
+        return result;
+    }
 
-	/**
-	 * Extracts the artist from a list of compositions, (unique and sorted) and set to artistList.
-	 * 
-	 * @param importXML the list
-	 */
-	private static void setArtistList(List<Composition> importXML) {
-		OngletPanel.artistList = MiscUtils.distinctSortToArray(MiscUtils.projectAndCapitalize(importXML,
-				Composition::getArtist, artist -> StringUtils.startsWithIgnoreCase(artist, "the") ? StringUtils.substringAfter(artist, "the") : artist));
-	}
+    /**
+     * Extracts the artist from a list of compositions, (unique and sorted) and set to artistList.
+     *
+     * @param importXML the list
+     */
+    private static void setArtistList(List<Composition> importXML) {
+        OngletPanel.artistList = MiscUtils.distinctSortToArray(MiscUtils.projectAndCapitalize(importXML,
+                Composition::getArtist, artist -> StringUtils.startsWithIgnoreCase(artist, "the") ? StringUtils.substringAfter(artist, "the") : artist));
+    }
 
-	/**
-	 * Extracts the title from a list of compositions, (unique and sorted) and set to titleList.
-	 * 
-	 * @param importXML the list
-	 */
-	private static void setTitleList(List<Composition> importXML) {
-		OngletPanel.titleList = MiscUtils.distinctSortToArray(MiscUtils.projectAndCapitalize(importXML, Composition::getTitre, null));
-	}
+    /**
+     * Extracts the title from a list of compositions, (unique and sorted) and set to titleList.
+     *
+     * @param importXML the list
+     */
+    private static void setTitleList(List<Composition> importXML) {
+        OngletPanel.titleList = MiscUtils.distinctSortToArray(MiscUtils.projectAndCapitalize(importXML, Composition::getTitre, null));
+    }
 
-	/**
-	 * Extracts the author from a list of compositions, (unique and sorted) and set to authorList.
-	 * 
-	 * @param importXML the list
-	 */
-	private static void setAuthorList(List<Composition> importXML) {
-		OngletPanel.authorList = MiscUtils.distinctSortToArray(() -> importXML.parallelStream().map(Composition::getFiles).flatMap(List::stream)
-				.map(Fichier::getAuthor).map(WordUtils::capitalize));
-	}
+    /**
+     * Extracts the author from a list of compositions, (unique and sorted) and set to authorList.
+     *
+     * @param importXML the list
+     */
+    private static void setAuthorList(List<Composition> importXML) {
+        OngletPanel.authorList = MiscUtils.distinctSortToArray(() -> importXML.parallelStream().map(Composition::getFiles).flatMap(List::stream)
+                .map(Fichier::getAuthor).map(WordUtils::capitalize));
+    }
 
-	private static String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
-			ImportPanel importP, BatchPanel batch) {
-		int index = getOnglets().getSelectedIndex();
-		index = !isWithArtist() && index != 0 ? index + 1 : index;
-		String tab = "";
-		switch (index) {
-		case 0:
-			search.getRootPane().setDefaultButton(search.getSearch());
-			tab = Constant.ONGLET_SEARCH;
-			break;
-		case 1:
-			artist.getRootPane().setDefaultButton(artist.getSearch());
-			tab = Constant.ONGLET_ARTIST;
-			break;
-		case 2:
-			fichier.getRootPane().setDefaultButton(fichier.getSearch());
-			tab = Constant.ONGLET_FICHIER;
-			break;
-		case 3:
-			importP.getRootPane().setDefaultButton(importP.getImportFile());
-			tab = Constant.ONGLET_IMPORT;
-			break;
-		case 4:
-			batch.getRootPane().setDefaultButton(batch.getBatchFileBtn());
-			tab = Constant.ONGLET_BATCH;
-			break;
-		default:
-			break;
-		}
-		LOG.debug(tab);
-		return tab;
-	}
+    private static String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
+            ImportPanel importP, BatchPanel batch) {
+        int index = getOnglets().getSelectedIndex();
+        index = !isWithArtist() && index != 0 ? index + 1 : index;
+        String tab = "";
+        switch (index) {
+        case 0:
+            search.getRootPane().setDefaultButton(search.getSearch());
+            tab = Constant.ONGLET_SEARCH;
+            break;
+        case 1:
+            artist.getRootPane().setDefaultButton(artist.getSearch());
+            tab = Constant.ONGLET_ARTIST;
+            break;
+        case 2:
+            fichier.getRootPane().setDefaultButton(fichier.getSearch());
+            tab = Constant.ONGLET_FICHIER;
+            break;
+        case 3:
+            importP.getRootPane().setDefaultButton(importP.getImportFile());
+            tab = Constant.ONGLET_IMPORT;
+            break;
+        case 4:
+            batch.getRootPane().setDefaultButton(batch.getBatchFileBtn());
+            tab = Constant.ONGLET_BATCH;
+            break;
+        default:
+            break;
+        }
+        LOG.debug(tab);
+        return tab;
+    }
 
-	/**
-	 * For given tab name give its index.
-	 * 
-	 * @param tab wanted tab
-	 * @return index
-	 */
-	public static int getTabIndex(String tab) {
-		int result;
-		switch (tab) {
-		case Constant.ONGLET_SEARCH:
-			result = 0;
-			break;
-		case Constant.ONGLET_ARTIST:
-			result = 1;
-			break;
-		case Constant.ONGLET_FICHIER:
-			result = isWithArtist() ? 2 : 1;
-			break;
-		case Constant.ONGLET_IMPORT:
-			result = isWithArtist() ? 3 : 2;
-			break;
-		case Constant.ONGLET_BATCH:
-			result = isWithArtist() ? 4 : 5;
-			break;
-		default:
-			throw new IllegalArgumentException("Given tab doesn't exist: " + tab);
-		}
-		return result;
-	}
+    /**
+     * For given tab name give its index.
+     *
+     * @param tab wanted tab
+     * @return index
+     */
+    public static int getTabIndex(String tab) {
+        int result;
+        switch (tab) {
+        case Constant.ONGLET_SEARCH:
+            result = 0;
+            break;
+        case Constant.ONGLET_ARTIST:
+            result = 1;
+            break;
+        case Constant.ONGLET_FICHIER:
+            result = isWithArtist() ? 2 : 1;
+            break;
+        case Constant.ONGLET_IMPORT:
+            result = isWithArtist() ? 3 : 2;
+            break;
+        case Constant.ONGLET_BATCH:
+            result = isWithArtist() ? 4 : 5;
+            break;
+        default:
+            throw new IllegalArgumentException("Given tab doesn't exist: " + tab);
+        }
+        return result;
+    }
 
-	public static Score getScore() {
-		return score;
-	}
+    public static Score getScore() {
+        return score;
+    }
 
-	public static String[] getArtistList() {
-		return artistList;
-	}
+    public static String[] getArtistList() {
+        return artistList;
+    }
 
-	public static String[] getTitleList() {
-		return titleList;
-	}
+    public static String[] getTitleList() {
+        return titleList;
+    }
 
-	public static String[] getAuthorList() {
-		return authorList;
-	}
+    public static String[] getAuthorList() {
+        return authorList;
+    }
 
-	public static FichierPanel getFichier() {
-		return fichier;
-	}
+    public static FichierPanel getFichier() {
+        return fichier;
+    }
 
-	public static ArtistPanel getArtist() {
-		return artist;
-	}
+    public static ArtistPanel getArtist() {
+        return artist;
+    }
 
-	private static void setFichier(FichierPanel fichier) {
-		OngletPanel.fichier = fichier;
-	}
+    private static void setFichier(FichierPanel fichier) {
+        OngletPanel.fichier = fichier;
+    }
 
-	private static void setArtist(ArtistPanel artist) {
-		OngletPanel.artist = artist;
-	}
+    private static void setArtist(ArtistPanel artist) {
+        OngletPanel.artist = artist;
+    }
 
-	public static SearchPanel getSearch() {
-		return search;
-	}
+    public static SearchPanel getSearch() {
+        return search;
+    }
 
-	private static void setSearch(SearchPanel search) {
-		OngletPanel.search = search;
-	}
+    private static void setSearch(SearchPanel search) {
+        OngletPanel.search = search;
+    }
 
-	public static JTabbedPane getOnglets() {
-		return onglets;
-	}
+    public static JTabbedPane getOnglets() {
+        return onglets;
+    }
 
-	private static void setOnglets(JTabbedPane onglets) {
-		OngletPanel.onglets = onglets;
-	}
+    private static void setOnglets(JTabbedPane onglets) {
+        OngletPanel.onglets = onglets;
+    }
 
-	public static boolean isWithArtist() {
-		return withArtist;
-	}
+    public static boolean isWithArtist() {
+        return withArtist;
+    }
 
-	private static void setWithArtist(boolean withArtist) {
-		OngletPanel.withArtist = withArtist;
-	}
+    private static void setWithArtist(boolean withArtist) {
+        OngletPanel.withArtist = withArtist;
+    }
 }
