@@ -25,6 +25,7 @@ import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -143,10 +144,10 @@ public final class FichierUtils {
      * @param newSize la nouvelle taille
      * @param newSorted le nouveau sort
      * @return le nouveau fichier
-     * @throws MyException si une erreur surviens pendant les exports xml
+     * @throws MajorException si une erreur surviens pendant les exports xml
      */
     public static Fichier modifyFichier(String fileName, String newFileName, String newPublish, String newRange,
-            String newCat, String newSize, String newSorted) throws MyException {
+            String newCat, String newSize, String newSorted) throws MajorException {
         // Modification du fichier xml
         List<Composition> compoList = ImportXML.importXML(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION);
         compoList.stream()
@@ -156,7 +157,7 @@ public final class FichierUtils {
             // Sauvegarde des modifications sous le nouveau nom de fichier
             ExportXML.exportXML(compoList, newFileName);
         } catch (IOException e) {
-            throw new MyException("Erreur lors de la modification d'une composition dans le fichier: " + fileName, e);
+            throw new MajorException("Erreur lors de la modification d'une composition dans le fichier: " + fileName, e);
         }
         // Supprime l'ancien fichier
         if (!StringUtils.equals(fileName, newFileName)) {
@@ -175,10 +176,10 @@ public final class FichierUtils {
             // Sauvegarde des modifications
             ExportXML.exportXML(finalList, Constant.getFinalFile());
         } catch (IOException e) {
-            throw new MyException("Erreur lors de la modification d'une composition dans le fichier final", e);
+            throw new MajorException("Erreur lors de la modification d'une composition dans le fichier final", e);
         }
         // Renomme le fichier txt
-        String txtPath = FilesUtils.buildTxtFilePath(fileName, result.getAuthor()).orElseThrow(() -> new MyException(
+        String txtPath = FilesUtils.buildTxtFilePath(fileName, result.getAuthor()).orElseThrow(() -> new MajorException(
                 "Can't build txt file path of: " + fileName + " with author: " + result.getAuthor()));
         String newTxt = StringUtils
                 .substringBeforeLast(StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), FileUtils.FS)

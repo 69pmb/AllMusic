@@ -33,6 +33,7 @@ import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
@@ -41,7 +42,6 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.PanelUtils;
@@ -170,7 +170,7 @@ public class DialogFileTable {
                     KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
             this.dialog.setLayout(new BorderLayout());
             this.dialog.add(new JScrollPane(fichiers.getTable()), BorderLayout.CENTER);
-        } catch (MyException e1) {
+        } catch (MajorException e1) {
             LOG.error("An error occured when init Dialog File table", e1);
             return;
         }
@@ -182,9 +182,9 @@ public class DialogFileTable {
      * Launchs a dialog to edit the selected composition.
      *
      * @param selected the selected row representing a composition
-     * @throws MyException if something went wrong
+     * @throws MajorException if something went wrong
      */
-    public void editCompositionAction(Vector<Object> selected) throws MyException {
+    public void editCompositionAction(Vector<Object> selected) throws MajorException {
         LOG.debug("Start editCompositionAction");
         OngletPanel.getArtist().interruptUpdateArtist(true);
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
@@ -192,8 +192,8 @@ public class DialogFileTable {
         String fileName = (String) selected.get(DialogFileTable.getIndex().get(Index.FILE_NAME));
         List<String> uuid = MiscUtils.stringToUuids((String) selected.get(DialogFileTable.getIndex().get(Index.UUID)));
         List<Composition> xmlFile = ImportXML.importXML(FilesUtils.buildXmlFilePath(fileName)
-                .orElseThrow(() -> new MyException("File doesn't exist: " + fileName)));
-        Composition edited = CompositionUtils.findByUuid(xmlFile, uuid).orElseThrow(() -> new MyException("Can't find edited composition: " + selected));
+                .orElseThrow(() -> new MajorException("File doesn't exist: " + fileName)));
+        Composition edited = CompositionUtils.findByUuid(xmlFile, uuid).orElseThrow(() -> new MajorException("Can't find edited composition: " + selected));
         List<Fichier> files = CompositionUtils.findByUuid(importXML, uuid).map(Composition::getFiles).orElse(new ArrayList<Fichier>());
         // Lancement de la popup de modification
         ModifyCompositionDialog md = new ModifyCompositionDialog(

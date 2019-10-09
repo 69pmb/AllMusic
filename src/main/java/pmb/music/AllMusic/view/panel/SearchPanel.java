@@ -35,6 +35,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
@@ -45,7 +46,6 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
@@ -166,7 +166,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
                 PanelUtils.deleteCompositionAction(compoResult, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(SearchPanel.getIndex().get(Index.UUID))).get(0)).collect(Collectors.toList()));
                 updateTable();
                 deleteLabel.setText(selected.size() + " élément(s) supprimé(s)");
-            } catch (MyException e1) {
+            } catch (MajorException e1) {
                 LOG.error("Error when deleting compositions in Search result", e1);
                 deleteLabel.setText("<html>" + e1.getMessage() + "</html>");
             }
@@ -178,7 +178,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
         modif.addActionListener((ActionEvent e) -> {
             try {
                 modifyCompositionAction((Vector<String>) tableResult.getModel().getSelected().get(0));
-            } catch (MyException e2) {
+            } catch (MajorException e2) {
                 LOG.error("An exception has been thrown when editing composition: ", e2);
                 ExceptionDialog ed = new ExceptionDialog("An exception has been thrown when editing composition",
                         e2.getMessage(), e2);
@@ -207,7 +207,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
                     csvHeader.toArray(new String[title.length + 1]));
             try {
                 FilesUtils.openFileInExcel(name);
-            } catch (MyException e1) {
+            } catch (MajorException e1) {
                 LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
             }
         });
@@ -317,7 +317,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
                         }
                     }).withPopupMenu(new CompositionPopupMenu(this.getClass(), SearchPanel.getIndex()))
                     .withKeyListener().build();
-        } catch (MyException e1) {
+        } catch (MajorException e1) {
             LOG.error("An error occured when init search table", e1);
             countLabel.setText(e1.getMessage());
             return;
@@ -411,7 +411,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
     }
 
     @Override
-    public void modifyCompositionAction(Vector<String> selectedRow) throws MyException {
+    public void modifyCompositionAction(Vector<String> selectedRow) throws MajorException {
         if (tableResult.getModel().getSelected().size() > 1) {
             String msg = "Trop d'éléments sélectionnés";
             deleteLabel.setText(msg);
@@ -423,7 +423,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
     }
 
     @Override
-    public void splitCompositionAction(Vector<Object> selected) throws MyException {
+    public void splitCompositionAction(Vector<Object> selected) throws MajorException {
         LOG.debug("Start splitCompositionAction");
         if (tableResult.getModel().getSelected().size() > 1) {
             String msg = "Trop d'éléments sélectionnés";

@@ -20,6 +20,7 @@ import org.apache.commons.text.WordUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -27,7 +28,6 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 
 /**
  * Classe permettant l'import de fichiers.
@@ -86,11 +86,11 @@ public final class ImportFile {
      *            majuscule et pas le titre
      * @param removeAfter si plusieurs séparateurs, supprimer après le dernier
      * @return {@code List<Composition>} la liste de compos extraite du fichier
-     * @throws MyException if a line can't be parsed
+     * @throws MajorException if a line can't be parsed
      */
     public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type,
             String separator, List<String> result, boolean artistFirst, boolean reverseArtist, boolean parenthese,
-            boolean upper, boolean removeAfter) throws MyException {
+            boolean upper, boolean removeAfter) throws MajorException {
         LOG.debug("Start getCompositionsFromFile");
         List<Composition> compoList = new ArrayList<>();
         String line = "";
@@ -108,7 +108,7 @@ public final class ImportFile {
                 i++;
             }
         } catch (NumberFormatException | IOException e1) {
-            throw new MyException(e1.toString(), e1);
+            throw new MajorException(e1.toString(), e1);
         }
         LOG.debug(result);
         LOG.debug("End getCompositionsFromFile");
@@ -117,7 +117,7 @@ public final class ImportFile {
 
     private static void getCompositionFromOneLine(List<Composition> compoList, Fichier fichier, String entryLine,
             String separator, List<String> result, RecordType type, boolean artistFirst, boolean removeAfter,
-            boolean upper, boolean reverseArtist, boolean parenthese, Integer lineNb, Integer i) throws MyException {
+            boolean upper, boolean reverseArtist, boolean parenthese, Integer lineNb, Integer i) throws MajorException {
         String line = entryLine;
         if (removeAfter) {
             line = StringUtils.substringBeforeLast(line, separator);
@@ -218,10 +218,10 @@ public final class ImportFile {
      *            l'utilisateur
      * @param lineNb le numéro de la ligne dans le fichier
      * @return {@code String[]} la ligne coupée
-     * @throws MyException si la ligne est coupée en plus de 2 morceaux
+     * @throws MajorException si la ligne est coupée en plus de 2 morceaux
      */
     private static String[] splitLineWithSeparator(String line, String separator, List<String> result, Integer lineNb)
-            throws MyException {
+            throws MajorException {
         String[] split = line.split(separator);
         if (split.length < 2) {
             // Le séparateur ne convient pas, on essaye avec un tiret classique
@@ -229,7 +229,7 @@ public final class ImportFile {
         }
         if (split.length < 2) {
             // ça ne marche toujours pas, on arrete tout
-            throw new MyException(
+            throw new MajorException(
                     "Separator " + separator + " is not suitable for line " + (lineNb - 1) + " : " + line);
         }
         if (split.length > 2) {

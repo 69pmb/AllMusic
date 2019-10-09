@@ -41,6 +41,7 @@ import org.apache.logging.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
@@ -53,7 +54,6 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.ScoreUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ColumnIndex;
@@ -273,7 +273,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                 PanelUtils.deleteCompositionAction(compositionList, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(compositionIndex.get(Index.UUID))).get(0)).collect(Collectors.toList()));
                 updateCompoTable(selectedFichierName, false);
                 resultLabel.setText(selected.size() + " élément(s) supprimé(s)");
-            } catch (MyException e1) {
+            } catch (MajorException e1) {
                 LOG.error("Error when deleting compositions in Fichier result", e1);
                 resultLabel.setText("<html>" + e1.getMessage() + "</html>");
             }
@@ -296,7 +296,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                     csvHeader.toArray(new String[headerFiles.length + 1]));
             try {
                 FilesUtils.openFileInExcel(name);
-            } catch (MyException e1) {
+            } catch (MajorException e1) {
                 LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
             }
         });
@@ -338,7 +338,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                         LOG.debug("End mouseActionForFileTable");
                     }).withPopupMenu(new FichierPopupMenu(fichierIndex)).withKeyListener()
                     .build();
-        } catch (MyException e1) {
+        } catch (MajorException e1) {
             LOG.error("An error occured when init fichier table", e1);
             resultLabel.setText(e1.getMessage());
             return;
@@ -377,7 +377,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                         }
                     }).withPopupMenu(new CompositionPopupMenu(this.getClass(), compositionIndex))
                     .withKeyListener().build();
-        } catch (MyException e1) {
+        } catch (MajorException e1) {
             LOG.error("An error occured when init composition table", e1);
             resultLabel.setText(e1.getMessage());
             return;
@@ -436,14 +436,14 @@ public class FichierPanel extends JPanel implements ModificationComposition {
      * Launchs a dialog to modify the selected {@link Fichier}.
      *
      * @param selected the selected row representing a fichier
-     * @throws MyException if file can't be found
+     * @throws MajorException if file can't be found
      */
-    public void modifyFichierAction(Vector<String> selected) throws MyException {
+    public void modifyFichierAction(Vector<String> selected) throws MajorException {
         LOG.debug("Start modifyFichierAction");
         resultLabel.setText("");
         String fileName = selected.get(fichierIndex.get(Index.FILE_NAME));
         // Index du fichier dans le tableau
-        Fichier key = findFichierInMap(fileName).map(Entry::getKey).orElseThrow(() -> new MyException("Can't find Fichier in map: " + fileName));
+        Fichier key = findFichierInMap(fileName).map(Entry::getKey).orElseThrow(() -> new MajorException("Can't find Fichier in map: " + fileName));
         // Lancement de la popup de modification
         ModifyFichierDialog md = new ModifyFichierDialog(null, "Modifier un fichier", true, selected);
         md.showModifyFichierDialog();
@@ -468,7 +468,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
             modifiedFichier = FichierUtils.modifyFichier(fileName, newFichier.get(fichierIndex.get(Index.FILE_NAME)),
                     newFichier.get(fichierIndex.get(Index.PUBLISH)), newFichier.get(fichierIndex.get(Index.RANGE)),
                     newFichier.get(fichierIndex.get(Index.CAT)), newFichier.get(fichierIndex.get(Index.FILE_SIZE)), newFichier.get(fichierIndex.get(Index.SORTED)));
-        } catch (MyException e) {
+        } catch (MajorException e) {
             String log = "Erreur pendant FichierUtils.modifyFichier";
             LOG.error(log, e);
             resultLabel.setText(log + e);
@@ -491,10 +491,10 @@ public class FichierPanel extends JPanel implements ModificationComposition {
      * Launchs a dialog to modify the selected composition.
      *
      * @param selected the selected row representing a composition
-     * @throws MyException if edition fails
+     * @throws MajorException if edition fails
      */
     @Override
-    public void modifyCompositionAction(Vector<String> selected) throws MyException {
+    public void modifyCompositionAction(Vector<String> selected) throws MajorException {
         LOG.debug("Start modifyCompositionAction");
         compositionList = PanelUtils.editCompositionAction(selected, compositionList, compositionIndex);
         updateCompoTable(selectedFichierName, false);
@@ -502,7 +502,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
     }
 
     @Override
-    public void splitCompositionAction(Vector<Object> selected) throws MyException {
+    public void splitCompositionAction(Vector<Object> selected) throws MajorException {
         LOG.debug("Start splitCompositionAction");
         compositionList = PanelUtils.splitCompositionAction(selected, compositionList, FichierPanel.getCompositionindex());
         updateCompoTable(selectedFichierName, false);

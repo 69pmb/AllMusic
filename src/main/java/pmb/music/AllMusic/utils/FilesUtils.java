@@ -24,6 +24,8 @@ import org.codehaus.plexus.util.FileUtils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 
+import pmb.music.AllMusic.exception.MajorException;
+
 /**
  * Utility class for handling files.
  */
@@ -73,9 +75,9 @@ public final class FilesUtils {
      *
      * @param filePath le chemin absolu du fichier
      * @param lineNumber open the file to this specific line
-     * @throws MyException something went wrong
+     * @throws MajorException something went wrong
      */
-    public static void openFileInNotepad(String filePath, Integer lineNumber) throws MyException {
+    public static void openFileInNotepad(String filePath, Integer lineNumber) throws MajorException {
         LOG.debug("Start openFileInNotepad");
         if (filePath != null) {
             if (FileUtils.fileExists(filePath)) {
@@ -92,13 +94,13 @@ public final class FilesUtils {
                     Runtime.getRuntime()
                     .exec(Constant.getNotepadPath() + lineNb + Constant.QUOTE + filePath + Constant.QUOTE);
                 } catch (IOException e) {
-                    throw new MyException("Le chemin de Notepad++ dans le fichier de config est incorrect.", e);
+                    throw new MajorException("Le chemin de Notepad++ dans le fichier de config est incorrect.", e);
                 }
             } else {
-                throw new MyException("Le fichier: " + filePath + " n'existe pas.");
+                throw new MajorException("Le fichier: " + filePath + " n'existe pas.");
             }
         } else {
-            throw new MyException("Aucun fichier donné.");
+            throw new MajorException("Aucun fichier donné.");
         }
         LOG.debug("End openFileInNotepad");
     }
@@ -107,9 +109,9 @@ public final class FilesUtils {
      * Ouvre le fichier donnée avec Excel si existe.
      *
      * @param filePath le chemin absolu du fichier
-     * @throws MyException something went wrong
+     * @throws MajorException something went wrong
      */
-    public static void openFileInExcel(String filePath) throws MyException {
+    public static void openFileInExcel(String filePath) throws MajorException {
         LOG.debug("Start openFileInExcel");
         if (filePath != null) {
             if (FileUtils.fileExists(filePath)) {
@@ -117,13 +119,13 @@ public final class FilesUtils {
                     String[] commands = new String[] { Constant.getExcelPath(), filePath };
                     Runtime.getRuntime().exec(commands);
                 } catch (IOException e) {
-                    throw new MyException("Le chemin d'Excel dans le fichier de config est incorrect.", e);
+                    throw new MajorException("Le chemin d'Excel dans le fichier de config est incorrect.", e);
                 }
             } else {
-                throw new MyException("Le fichier: " + filePath + " n'existe pas.");
+                throw new MajorException("Le fichier: " + filePath + " n'existe pas.");
             }
         } else {
-            throw new MyException("Aucun fichier donné.");
+            throw new MajorException("Aucun fichier donné.");
         }
         LOG.debug("End openFileInExcel");
     }

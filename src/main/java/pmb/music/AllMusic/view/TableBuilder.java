@@ -18,7 +18,7 @@ import javax.swing.event.RowSorterEvent;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.AbstractModel;
@@ -56,11 +56,11 @@ public class TableBuilder {
      * @param header column header names
      * @param modelType the class of the model
      * @return the table builder
-     * @throws MyException if something went wrong when instantiating the model
+     * @throws MajorException if something went wrong when instantiating the model
      */
     @SuppressWarnings({ "unchecked", "rawtypes" })
     public TableBuilder withModelAndData(Vector<Vector<Object>> data, String[] header,
-            Class<? extends AbstractModel> modelType) throws MyException {
+            Class<? extends AbstractModel> modelType) throws MajorException {
         table.setHeader(header);
         AbstractModel model = null;
         try {
@@ -72,7 +72,7 @@ public class TableBuilder {
                         new Vector(Arrays.asList(header)));
             }
         } catch (ReflectiveOperationException e) {
-            throw new MyException("Error when instantiate model of a table", e);
+            throw new MajorException("Error when instantiate model of a table", e);
         }
         table.setModel(model);
         table.getTable().setModel(model);

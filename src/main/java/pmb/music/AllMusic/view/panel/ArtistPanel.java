@@ -37,6 +37,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
@@ -47,7 +48,6 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
@@ -196,7 +196,7 @@ public class ArtistPanel extends JPanel {
             PanelUtils.colRenderer(table.getTable(), false, index);
             updateArtistPanel();
             this.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
-        } catch (MyException e1) {
+        } catch (MajorException e1) {
             LOG.error("An error occured when init artist table", e1);
             return;
         }
@@ -221,7 +221,7 @@ public class ArtistPanel extends JPanel {
                     csvHeader.toArray(new String[title.length + 1]));
             try {
                 FilesUtils.openFileInExcel(name);
-            } catch (MyException e1) {
+            } catch (MajorException e1) {
                 LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
             }
             LOG.debug("End Csv");

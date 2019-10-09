@@ -44,6 +44,7 @@ import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
@@ -51,7 +52,6 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
 import pmb.music.AllMusic.view.dialog.SplitCompositionDialog;
@@ -288,17 +288,17 @@ public final class PanelUtils {
      *
      * @param compoList a composition list displayed
      * @param uuids uuids of compositions to delete
-     * @throws MyException
+     * @throws MajorException
      */
-    public static void deleteCompositionAction(List<Composition> compoList, List<String> uuids) throws MyException {
+    public static void deleteCompositionAction(List<Composition> compoList, List<String> uuids) throws MajorException {
         LOG.debug("Start deleteCompositionAction");
         if (uuids == null || uuids.isEmpty()) {
-            throw new MyException("Aucune composition sélectionnée !");
+            throw new MajorException("Aucune composition sélectionnée !");
         }
         OngletPanel.getArtist().interruptUpdateArtist(true);
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         for (String uuid : uuids) {
-            Composition toRemoveToFinal = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid)).orElseThrow(() -> new MyException("Can't find composition to delete in final file"));
+            Composition toRemoveToFinal = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid)).orElseThrow(() -> new MajorException("Can't find composition to delete in final file"));
             // Update JTable Data
             CompositionUtils.findByUuid(compoList, Arrays.asList(uuid)).ifPresent(c -> c.setDeleted(true));
             // Update xml files
@@ -319,7 +319,7 @@ public final class PanelUtils {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
             OngletPanel.getArtist().updateArtistPanel();
         } catch (IOException e1) {
-            throw new MyException("Erreur lors de l'export du fichier final !!", e1);
+            throw new MajorException("Erreur lors de l'export du fichier final !!", e1);
         }
         LOG.debug("End deleteCompositionAction");
     }
@@ -331,20 +331,20 @@ public final class PanelUtils {
      * @param compositionList the composition list displayed
      * @param index column index of selected row
      * @return
-     * @throws MyException if something went wrong
+     * @throws MajorException if something went wrong
      */
     public static List<Composition> editCompositionAction(Vector<String> selectedRow, List<Composition> compositionList,
-            ColumnIndex index) throws MyException {
+            ColumnIndex index) throws MajorException {
         LOG.debug("Start editCompositionAction");
         if (selectedRow == null || selectedRow.isEmpty()) {
-            throw new MyException("Aucune composition sélectionnée !");
+            throw new MajorException("Aucune composition sélectionnée !");
         }
         OngletPanel.getArtist().interruptUpdateArtist(true);
         String uuid = MiscUtils.stringToUuids(selectedRow.get(index.get(Index.UUID))).get(0);
         List<Composition> importXML;
         importXML = ImportXML.importXML(Constant.getFinalFilePath());
         // On récupère la composition à modifier
-        Composition toModif = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid)).orElseThrow(() -> new MyException("Can't find composition: " + selectedRow + " to edit in final file"));
+        Composition toModif = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid)).orElseThrow(() -> new MajorException("Can't find composition: " + selectedRow + " to edit in final file"));
         // Lancement de la popup de modification
         ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, index);
         md.showModifyCompositionDialog();
@@ -386,14 +386,14 @@ public final class PanelUtils {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
             OngletPanel.getArtist().updateArtistPanel();
         } catch (IOException e1) {
-            throw new MyException("Error when exporting final file", e1);
+            throw new MajorException("Error when exporting final file", e1);
         }
 
         // On modifie les fichiers xml en conséquence
         try {
             CompositionUtils.editCompositionsInFiles(toModif, compoExist.map(Composition::isDeleted).orElse(toModif.isDeleted()));
-        } catch (MyException e1) {
-            throw new MyException("Error editing a composition: " + editedRow, e1);
+        } catch (MajorException e1) {
+            throw new MajorException("Error editing a composition: " + editedRow, e1);
         }
 
         // Modification des données de fichier panel
@@ -419,7 +419,7 @@ public final class PanelUtils {
     }
 
     public static List<Composition> splitCompositionAction(Vector<Object> selected, List<Composition> compositionList,
-            ColumnIndex index) throws MyException {
+            ColumnIndex index) throws MajorException {
         LOG.debug("Start splitCompositionAction");
         OngletPanel.getArtist().interruptUpdateArtist(true);
         // Lancement de la popup de modification
@@ -442,7 +442,7 @@ public final class PanelUtils {
         List<String> uuid = MiscUtils.stringToUuids((String) selected.get(index.get(Index.UUID)));
         List<String> newUuids = new ArrayList<>();
         Composition edited = CompositionUtils.findByUuid(importXML, uuid)
-                .orElseThrow(() -> new MyException("Can't find edited composition: " + selected));
+                .orElseThrow(() -> new MajorException("Can't find edited composition: " + selected));
 
         // Update Fichiers
         List<Fichier> files = new ArrayList<>();
@@ -514,11 +514,11 @@ public final class PanelUtils {
      * @param list a list of composition
      * @param uuids uuid of the fichier to remove
      * @param filterFile filter of fichier, nullable
-     * @throws MyException if can't find the composition
+     * @throws MajorException if can't find the composition
      */
-    public static void removeFichierFromComposition(List<Composition> list, List<String> uuids, Predicate<Fichier> filterFile) throws MyException {
+    public static void removeFichierFromComposition(List<Composition> list, List<String> uuids, Predicate<Fichier> filterFile) throws MajorException {
         Composition finalCompo = CompositionUtils.findByUuid(list, uuids)
-                .orElseThrow(() -> new MyException("Can't find composition in given list"));
+                .orElseThrow(() -> new MajorException("Can't find composition in given list"));
         if (filterFile != null) {
             finalCompo.setFiles(finalCompo.getFiles().stream().filter(filterFile).collect(Collectors.toList()));
         }

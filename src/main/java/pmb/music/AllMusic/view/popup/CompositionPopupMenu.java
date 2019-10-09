@@ -10,7 +10,7 @@ import javax.swing.SwingUtilities;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -50,7 +50,7 @@ public class CompositionPopupMenu extends PopupMenu {
                     this.setVisible(false);
                     type.cast(SwingUtilities.getAncestorOfClass(type, getTable()))
                     .modifyCompositionAction((Vector<String>) selectedRow);
-                } catch (MyException e1) {
+                } catch (MajorException e1) {
                     LOG.error("An exception has been thrown when editing composition: ", e1);
                     new ExceptionDialog("An exception has been thrown when editing composition",
                             e1.getMessage(), e1).setVisible(true);
@@ -63,7 +63,7 @@ public class CompositionPopupMenu extends PopupMenu {
                 try {
                     this.setVisible(false);
                     type.cast(SwingUtilities.getAncestorOfClass(type, getTable())).splitCompositionAction((Vector<Object>) selectedRow);
-                } catch (MyException e1) {
+                } catch (MajorException e1) {
                     LOG.error("An exception has been thrown when splitting composition: ", e1);
                     new ExceptionDialog("An exception has been thrown when splitting composition",
                             e1.getMessage(), e1).setVisible(true);
