@@ -13,9 +13,9 @@ import javax.swing.JTable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -115,7 +115,7 @@ public class PopupMenu {
                         FilesUtils.buildXmlFilePath((String) selectedRow.get(fileNameIndex)).orElse(null),
                         rankIndex == null ? null : (Integer) selectedRow.get(rankIndex));
                 this.setVisible(false);
-            } catch (MyException e1) {
+            } catch (MajorException e1) {
                 LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
             }
             LOG.debug("End openXml");
@@ -137,7 +137,7 @@ public class PopupMenu {
                                 (String) selectedRow.get(index.get(Index.AUTHOR))).orElse(null),
                         index.get(Index.RANK));
                 this.setVisible(false);
-            } catch (MyException e1) {
+            } catch (MajorException e1) {
                 LOG.error("Error when opening with notepad file : " + selectedRow.get(index.get(Index.FILE_NAME)), e1);
             }
             LOG.debug("End openTxt");

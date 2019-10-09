@@ -31,12 +31,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.BatchUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 
@@ -601,7 +601,7 @@ public class BatchPanel extends JPanel {
         LOG.debug("Start openResultFileInNotepad");
         try {
             FilesUtils.openFileInNotepad(Optional.ofNullable(fileResult).orElse(null), null);
-        } catch (MyException e) {
+        } catch (MajorException e) {
             displayText(e.toString(), false);
             LOG.error("Erreur lors de l'ouverture du fichier: " + fileResult, e);
         }

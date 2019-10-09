@@ -37,6 +37,7 @@ import org.junit.Test;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.file.ImportFile;
 import pmb.music.AllMusic.model.Cat;
@@ -48,7 +49,6 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.ScoreUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.panel.ImportPanel;
@@ -176,7 +176,7 @@ public class AppTest {
                             result.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(fichier.getSize()));
                             FilesUtils.writeMapInTxtFile(file, result);
                         }
-                    } catch (MyException e) {
+                    } catch (MajorException e) {
                         LOG.error("Error file: " + filename, e);
                         continue;
                     }

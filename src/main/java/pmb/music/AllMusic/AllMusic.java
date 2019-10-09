@@ -17,10 +17,10 @@ import org.apache.logging.log4j.Logger;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.XML.NgExportXml;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.GetProperties;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
@@ -64,7 +64,7 @@ public final class AllMusic {
                 LOG.debug("Log File not empty");
                 try {
                     FilesUtils.openFileInNotepad(firstLine.get(), null);
-                } catch (MyException e1) {
+                } catch (MajorException e1) {
                     LOG.error("Error opening log file: " + firstLine, e1);
                 }
             }

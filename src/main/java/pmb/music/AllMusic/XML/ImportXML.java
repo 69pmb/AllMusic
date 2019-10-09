@@ -25,13 +25,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
 
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
-import pmb.music.AllMusic.utils.MyException;
 
 /**
  * Classe pour manipuler les fichiers XML.
@@ -176,9 +176,9 @@ public final class ImportXML {
      * Verifies that all deleted compositions from final file are also deleted in
      * xml files.
      *
-     * @throws MyException if an export of a xml file goes wrong
+     * @throws MajorException if an export of a xml file goes wrong
      */
-    public static void synchroDeletedWithFinal() throws MyException {
+    public static void synchroDeletedWithFinal() throws MajorException {
         LOG.debug("Start synchroDeletedWithFinal");
         List<Composition> allDeletedComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
                 .filter(Composition::isDeleted).collect(Collectors.toList());
@@ -194,7 +194,7 @@ public final class ImportXML {
                     try {
                         ExportXML.exportXML(xml, fichier.getFileName());
                     } catch (IOException e) {
-                        throw new MyException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
+                        throw new MajorException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
                     }
                 }
             }

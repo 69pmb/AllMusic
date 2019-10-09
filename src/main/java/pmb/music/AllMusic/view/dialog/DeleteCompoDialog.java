@@ -21,9 +21,9 @@ import javax.swing.JTextPane;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.FichierUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -110,7 +110,7 @@ public class DeleteCompoDialog {
                     .withDefaultRowSorterListener(null).withKeyListener().build();
             PanelUtils.colRenderer(filesFound.getTable(), true, DeleteCompoDialog.getIndex());
             panel.add(new JScrollPane(filesFound.getTable()), BorderLayout.CENTER);
-        } catch (MyException e1) {
+        } catch (MajorException e1) {
             LOG.error("An error occured when init Delete Compo Dialog table", e1);
             warning.setText(e1.getMessage());
             return;

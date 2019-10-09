@@ -10,7 +10,7 @@ import javax.swing.SwingUtilities;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -48,7 +48,7 @@ public class FichierPopupMenu extends PopupMenu {
             try {
                 ((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, getTable()))
                 .modifyFichierAction((Vector<String>) selectedRow);
-            } catch (MyException e1) {
+            } catch (MajorException e1) {
                 LOG.error("Error when editing file: " + selectedRow, e1);
             }
             this.setVisible(false);

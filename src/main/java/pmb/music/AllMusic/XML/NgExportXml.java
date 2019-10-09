@@ -22,12 +22,12 @@ import org.dom4j.Element;
 
 import com.dropbox.core.v2.files.WriteMode;
 
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.file.CleanFile;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.DropBoxUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.ScoreUtils;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 
@@ -119,7 +119,7 @@ public final class NgExportXml extends ExportXML {
         File pathFile = new File(Constant.getXmlPath() + fullFileName);
         try {
             DropBoxUtils.uploadFile(pathFile, "XML/" + fullFileName, WriteMode.OVERWRITE);
-        } catch (MyException e) {
+        } catch (MajorException e) {
             LOG.error("Impossible d'enregistrer le fichier: " + fullFileName + " dans la dropbox", e);
         }
         try {

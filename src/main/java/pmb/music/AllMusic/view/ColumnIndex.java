@@ -3,7 +3,7 @@ package pmb.music.AllMusic.view;
 import java.util.HashMap;
 import java.util.Map;
 
-import pmb.music.AllMusic.utils.MinorException;
+import pmb.music.AllMusic.exception.MinorException;
 
 public class ColumnIndex {
     private Map<Index, Integer> mapper;

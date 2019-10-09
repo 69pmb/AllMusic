@@ -20,6 +20,7 @@ import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
@@ -325,15 +326,15 @@ public final class CompositionUtils {
      * Delete in Xml files the given composition.
      *
      * @param toRemove la {@link Composition} à supprimer des fichiers
-     * @throws MyException if the deletion of the composition failed in the xml files or final file
+     * @throws MajorException if the deletion of the composition failed in the xml files or final file
      */
-    public static void removeCompositionInFiles(Composition toRemove) throws MyException {
+    public static void removeCompositionInFiles(Composition toRemove) throws MajorException {
         LOG.debug("Start removeCompositionInFiles");
         for (Fichier file : toRemove.getFiles()) {
             // Récupération des compositions du fichier XML
             String fileName = file.getFileName();
             List<Composition> importXML = ImportXML.importXML(FilesUtils.buildXmlFilePath(fileName)
-                    .orElseThrow(() -> new MyException("Can't rebuild xml file path: " + fileName)));
+                    .orElseThrow(() -> new MajorException("Can't rebuild xml file path: " + fileName)));
             if (importXML.isEmpty()) {
                 LOG.error("Empty file ! " + fileName);
                 continue;
@@ -344,14 +345,14 @@ public final class CompositionUtils {
                 compoFromFile.get().setDeleted(true);
             } else {
                 LOG.error(fileName + Constant.NEW_LINE);
-                throw new MyException("Can't find composition to remove: " + toRemove.getArtist() + " " + toRemove.getTitre() + " "
+                throw new MajorException("Can't find composition to remove: " + toRemove.getArtist() + " " + toRemove.getTitre() + " "
                         + toRemove.getRecordType() + " in file: " + fileName);
             }
             try {
                 // Sauvegarde des modifications
                 ExportXML.exportXML(importXML, fileName);
             } catch (IOException e) {
-                throw new MyException("Error when exporting file: " + fileName, e);
+                throw new MajorException("Error when exporting file: " + fileName, e);
             }
         }
         LOG.debug("End removeCompositionInFiles");
@@ -362,18 +363,18 @@ public final class CompositionUtils {
      *
      * @param edited la {@link Composition} à modifier dans les fichiers
      * @param isDeleted {@code boolean} si la composition est supprimée
-     * @throws MyException if the composition can't be found in the given file
+     * @throws MajorException if the composition can't be found in the given file
      */
-    public static void editCompositionsInFiles(Composition edited, boolean isDeleted) throws MyException {
+    public static void editCompositionsInFiles(Composition edited, boolean isDeleted) throws MajorException {
         LOG.debug("Start editCompositionsInFiles");
         for (Fichier file : edited.getFiles()) {
             // Récupération des compositions du fichier XML
             String fileName = file.getFileName();
             String path = FilesUtils.buildXmlFilePath(fileName)
-                    .orElseThrow(() -> new MyException("File: " + fileName + " doesn't exist"));
+                    .orElseThrow(() -> new MajorException("File: " + fileName + " doesn't exist"));
             List<Composition> importXML = ImportXML.importXML(path);
             if (importXML.isEmpty()) {
-                throw new MyException("Empty file: " + path);
+                throw new MajorException("Empty file: " + path);
             }
             // Modificaton de la liste de la composition à enlever
             Optional<Composition> toEditFromFile = CompositionUtils.findByUuid(importXML, edited.getUuids());
@@ -386,13 +387,13 @@ public final class CompositionUtils {
                     // Sauvegarde des modifications
                     ExportXML.exportXML(importXML, fileName);
                 } catch (IOException e) {
-                    throw new MyException(
+                    throw new MajorException(
                             "Erreur lors de la modification d'une composition dans le fichier: " + fileName,
                             e);
                 }
             } else {
                 LOG.error(path + Constant.NEW_LINE);
-                throw new MyException("Impossible de trouver la composition à modifier: " + edited.getArtist() + " " + file
+                throw new MajorException("Impossible de trouver la composition à modifier: " + edited.getArtist() + " " + file
                         + " " + edited.getTitre() + " " + edited.getRecordType());
             }
         }

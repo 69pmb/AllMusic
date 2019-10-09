@@ -55,6 +55,7 @@ import com.opencsv.bean.CsvBindByName;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.file.CleanFile;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.file.CustomColumnPositionMappingStrategy;
@@ -150,7 +151,7 @@ public final class BatchUtils {
         }
         try {
             ImportXML.synchroDeletedWithFinal();
-        } catch (MyException e) {
+        } catch (MajorException e) {
             LOG.error("Erreur lors de la détection de composition supprimées", e);
             addLine(result, e.toString(), true);
         }
@@ -817,7 +818,7 @@ public final class BatchUtils {
                         toRemove.get().setDeleted(true);
                         CompositionUtils.removeCompositionInFiles(toRemove.get());
                         result = "OK";
-                    } catch (MyException e) {
+                    } catch (MajorException e) {
                         LOG.error("Error when deleting compostion: " + found, e);
                         result = "Error";
                     }
@@ -1417,7 +1418,7 @@ public final class BatchUtils {
             c2.setTitre(c1.getTitre());
             try {
                 CompositionUtils.editCompositionsInFiles(c2, isDeleted);
-            } catch (MyException e) {
+            } catch (MajorException e) {
                 addLine(result, "Erreur modif compo" + e.getMessage(), true);
                 LOG.error("Erreur modif compo", e);
             }
@@ -1426,7 +1427,7 @@ public final class BatchUtils {
                 c1.setArtist(c2.getArtist());
                 c1.setTitre(c2.getTitre());
                 CompositionUtils.editCompositionsInFiles(c1, isDeleted);
-            } catch (MyException e) {
+            } catch (MajorException e) {
                 addLine(result, "Erreur modif compo" + e.getMessage(), true);
                 LOG.error("Erreur modif compo", e);
             }

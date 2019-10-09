@@ -1,11 +1,11 @@
-package pmb.music.AllMusic.utils;
+package pmb.music.AllMusic.exception;
 
 /**
- * Runtime exception of the application.
+ * Checked exception of the application, for usual or big exceptions.
  *
  * @author pmbroca
  */
-public class MinorException extends RuntimeException {
+public class MajorException extends Exception {
     private static final long serialVersionUID = 1L;
 
     /**
@@ -13,7 +13,7 @@ public class MinorException extends RuntimeException {
      *
      * @param message le message d'erreur
      */
-    public MinorException(String message) {
+    public MajorException(String message) {
         super(message);
     }
 
@@ -23,14 +23,14 @@ public class MinorException extends RuntimeException {
      * @param message le message d'erreur
      * @param throwable la cause de l'erreur
      */
-    public MinorException(String message, Throwable throwable) {
+    public MajorException(String message, Throwable throwable) {
         super(message, throwable);
     }
 
     /**
      * Constructeur parent vide.
      */
-    public MinorException() {
+    public MajorException() {
         super();
     }
 }

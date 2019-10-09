@@ -24,10 +24,10 @@ import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.XML.NgExportXml;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.GetProperties;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
@@ -81,7 +81,7 @@ public final class MenuPanel {
         ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de Log", KeyEvent.VK_L, (ActionEvent ae) -> {
             try {
                 FilesUtils.openFileInNotepad(Optional.of(Constant.FILE_LOG_PATH).orElse(null), null);
-            } catch (MyException e) {
+            } catch (MajorException e) {
                 LOG.error("Error when opening log file", e);
             }
         }, null);
@@ -90,7 +90,7 @@ public final class MenuPanel {
                 (ActionEvent ae) -> {
                     try {
                         FilesUtils.openFileInNotepad(Optional.of(Constant.getConfigPath()).orElse(null), null);
-                    } catch (MyException e) {
+                    } catch (MajorException e) {
                         LOG.warn("Error when opening configuration file", e);
                         try {
                             Desktop.getDesktop().open(new File(Constant.getConfigPath()).getParentFile());
@@ -104,7 +104,7 @@ public final class MenuPanel {
                 (ActionEvent ae) -> {
                     try {
                         FilesUtils.openFileInNotepad(Optional.of(Constant.MODIF_FILE_PATH).orElse(null), null);
-                    } catch (MyException e) {
+                    } catch (MajorException e) {
                         LOG.error("Error when opening modif file", e);
                     }
                 }, null);

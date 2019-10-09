@@ -50,6 +50,7 @@ import org.codehaus.plexus.util.FileUtils;
 
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.file.CleanFile;
 import pmb.music.AllMusic.file.ImportFile;
 import pmb.music.AllMusic.model.Cat;
@@ -60,7 +61,6 @@ import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.MyInputRange;
@@ -549,7 +549,7 @@ public class ImportPanel extends JPanel {
                 FilesUtils.writeMapInTxtFile(new File(absolutePathFileTxt),
                         convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
                                 removeParenthese.isSelected(), upper.isSelected(), removeAfter.isSelected()));
-            } catch (IOException | MyException e) {
+            } catch (IOException | MajorException e) {
                 LOG.error("Erreur lors de l'import du fichier: " + absolutePathFileTxt, e);
                 result = new LinkedList<>(Arrays.asList(e.toString()));
             }
@@ -811,7 +811,7 @@ public class ImportPanel extends JPanel {
             }
             try {
                 ImportXML.synchroDeletedWithFinal();
-            } catch (MyException e) {
+            } catch (MajorException e) {
                 LOG.error("Erreur lors de la détection de composition supprimées", e);
                 result = new LinkedList<>(Arrays.asList(e.toString()));
             }
@@ -831,7 +831,7 @@ public class ImportPanel extends JPanel {
         LOG.debug("Start openFileNotepad");
         try {
             FilesUtils.openFileInNotepad(Optional.ofNullable(path).orElse(null), null);
-        } catch (MyException e) {
+        } catch (MajorException e) {
             result = new LinkedList<>(Arrays.asList(e.toString()));
             miseEnFormeResultLabel(result);
             LOG.error("Erreur lors de l'ouverture du fichier: " + path, e);

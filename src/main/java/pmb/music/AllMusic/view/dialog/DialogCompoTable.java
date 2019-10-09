@@ -24,11 +24,11 @@ import javax.swing.SwingUtilities;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
-import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.PanelUtils;
@@ -121,7 +121,7 @@ public class DialogCompoTable {
                     }).withPopupMenu(new CompositionPopupMenu(null, DialogCompoTable.getIndex())).withKeyListener()
                     .build();
             table.getRowSorter().toggleSortOrder(DialogCompoTable.getIndex().get(Index.RANK));
-        } catch (MyException e1) {
+        } catch (MajorException e1) {
             LOG.error("An error occured when init Dialog Compo table", e1);
             return;
         }
