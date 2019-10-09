@@ -672,7 +672,7 @@ public final class BatchUtils {
                 finalFile = PanelUtils.splitComposition(finalFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), Arrays.asList(newUuid), true);
 
                 List<Composition> xmlFile = ImportXML
-                        .importXML(FichierUtils.buildXmlFilePath(file.getFileName()).orElse(null));
+                        .importXML(FilesUtils.buildXmlFilePath(file.getFileName()).orElse(null));
                 xmlFile = PanelUtils.splitComposition(xmlFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), Arrays.asList(newUuid), false);
 
                 try {
@@ -1169,13 +1169,13 @@ public final class BatchUtils {
 
         // Recupère tous les nom des fichiers txt
         List<File> music = new ArrayList<>();
-        FichierUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory()), music, Constant.TXT_EXTENSION, true);
+        FilesUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory()), music, Constant.TXT_EXTENSION, true);
         List<String> collectMusic = music.stream().map(File::getName)
                 .map(s -> StringUtils.substringBeforeLast(s, Constant.TXT_EXTENSION)).collect(Collectors.toList());
 
         // Recupère tous les nom des fichiers xml
         List<File> xml = new ArrayList<>();
-        FichierUtils.listFilesForFolder(new File(Constant.getXmlPath()), xml, Constant.XML_EXTENSION, true);
+        FilesUtils.listFilesForFolder(new File(Constant.getXmlPath()), xml, Constant.XML_EXTENSION, true);
         List<String> collectXml = xml.stream().map(File::getName)
                 .map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
 
@@ -1466,7 +1466,7 @@ public final class BatchUtils {
     }
 
     private static void moveFilesInFolder(List<String> files, File folder, StringBuilder result) {
-        FichierUtils.createFolderIfNotExists(folder.getAbsolutePath());
+        FilesUtils.createFolderIfNotExists(folder.getAbsolutePath());
         Path pathFolder = folder.toPath();
         files.stream().forEach(f -> {
             Path pathFile = new File(f).toPath();

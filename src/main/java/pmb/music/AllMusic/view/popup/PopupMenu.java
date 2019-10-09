@@ -13,7 +13,7 @@ import javax.swing.JTable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ColumnIndex;
@@ -111,8 +111,8 @@ public class PopupMenu {
         ComponentBuilder.buildMenuItem(menu, "Ouvrir le fichier XML", shortcut, (ActionEvent e) -> {
             LOG.debug("Start openXml");
             try {
-                FichierUtils.openFileInNotepad(
-                        FichierUtils.buildXmlFilePath((String) selectedRow.get(fileNameIndex)).orElse(null),
+                FilesUtils.openFileInNotepad(
+                        FilesUtils.buildXmlFilePath((String) selectedRow.get(fileNameIndex)).orElse(null),
                         rankIndex == null ? null : (Integer) selectedRow.get(rankIndex));
                 this.setVisible(false);
             } catch (MyException e1) {
@@ -132,8 +132,8 @@ public class PopupMenu {
         ComponentBuilder.buildMenuItem(menu, "Ouvrir le fichier TXT", shortcut, (ActionEvent e) -> {
             LOG.debug("Start openTxt");
             try {
-                FichierUtils.openFileInNotepad(
-                        FichierUtils.buildTxtFilePath((String) selectedRow.get(index.get(Index.FILE_NAME)),
+                FilesUtils.openFileInNotepad(
+                        FilesUtils.buildTxtFilePath((String) selectedRow.get(index.get(Index.FILE_NAME)),
                                 (String) selectedRow.get(index.get(Index.AUTHOR))).orElse(null),
                         index.get(Index.RANK));
                 this.setVisible(false);

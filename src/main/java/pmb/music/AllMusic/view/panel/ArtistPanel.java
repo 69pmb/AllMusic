@@ -45,7 +45,7 @@ import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
-import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
@@ -220,7 +220,7 @@ public class ArtistPanel extends JPanel {
             String name = CsvFile.exportCsv("artist", PanelUtils.convertDataVectorToList(table.getTable()), null,
                     csvHeader.toArray(new String[title.length + 1]));
             try {
-                FichierUtils.openFileInExcel(name);
+                FilesUtils.openFileInExcel(name);
             } catch (MyException e1) {
                 LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
             }
@@ -277,11 +277,11 @@ public class ArtistPanel extends JPanel {
             LOG.debug("Start ThreadUpdateArtist");
             if (!new File(Constant.ARTIST_PANEL_RESULT_FILE).exists()) {
                 data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.getFinalFilePath()));
-                FichierUtils.exportJsonInFile(data, Constant.ARTIST_PANEL_RESULT_FILE);
+                FilesUtils.exportJsonInFile(data, Constant.ARTIST_PANEL_RESULT_FILE);
             } else {
                 try {
                     data = MiscUtils
-                            .readValueAsMapOfList(FichierUtils.readFirstLine(Constant.ARTIST_PANEL_RESULT_FILE).get());
+                            .readValueAsMapOfList(FilesUtils.readFirstLine(Constant.ARTIST_PANEL_RESULT_FILE).get());
                 } catch (IOException e1) {
                     LOG.error("Error when reading artist json file", e1);
                 }

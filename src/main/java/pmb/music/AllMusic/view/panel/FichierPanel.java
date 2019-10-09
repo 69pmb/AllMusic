@@ -51,6 +51,7 @@ import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.ScoreUtils;
@@ -294,7 +295,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
             String name = CsvFile.exportCsv("files", PanelUtils.convertDataVectorToList(tableFiles.getTable()), null,
                     csvHeader.toArray(new String[headerFiles.length + 1]));
             try {
-                FichierUtils.openFileInExcel(name);
+                FilesUtils.openFileInExcel(name);
             } catch (MyException e1) {
                 LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
             }
@@ -475,7 +476,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         }
         // Mise à jour du JTable
         List<Composition> list = data.get(key);
-        list.stream().forEach(FichierUtils.modifyOneFile(fileName, newFichier.get(fichierIndex.get(Index.FILE_NAME)),
+        list.stream().forEach(FichierUtils.modifyOneFichier(fileName, newFichier.get(fichierIndex.get(Index.FILE_NAME)),
                 newFichier.get(fichierIndex.get(Index.PUBLISH)), newFichier.get(fichierIndex.get(Index.RANGE)), newFichier.get(fichierIndex.get(Index.CAT)),
                 newFichier.get(fichierIndex.get(Index.FILE_SIZE)), newFichier.get(fichierIndex.get(Index.SORTED))));
         data.remove(key);

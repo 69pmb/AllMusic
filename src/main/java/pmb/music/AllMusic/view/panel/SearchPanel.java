@@ -43,7 +43,7 @@ import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
-import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.SearchUtils;
@@ -206,7 +206,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             String name = CsvFile.exportCsv("search", PanelUtils.convertDataVectorToList(tableResult.getTable()), null,
                     csvHeader.toArray(new String[title.length + 1]));
             try {
-                FichierUtils.openFileInExcel(name);
+                FilesUtils.openFileInExcel(name);
             } catch (MyException e1) {
                 LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
             }

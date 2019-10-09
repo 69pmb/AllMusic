@@ -331,7 +331,7 @@ public final class CompositionUtils {
         for (Fichier file : toRemove.getFiles()) {
             // Récupération des compositions du fichier XML
             String fileName = file.getFileName();
-            List<Composition> importXML = ImportXML.importXML(FichierUtils.buildXmlFilePath(fileName)
+            List<Composition> importXML = ImportXML.importXML(FilesUtils.buildXmlFilePath(fileName)
                     .orElseThrow(() -> new MyException("Can't rebuild xml file path: " + fileName)));
             if (importXML.isEmpty()) {
                 LOG.error("Empty file ! " + fileName);
@@ -368,7 +368,7 @@ public final class CompositionUtils {
         for (Fichier file : edited.getFiles()) {
             // Récupération des compositions du fichier XML
             String fileName = file.getFileName();
-            String path = FichierUtils.buildXmlFilePath(fileName)
+            String path = FilesUtils.buildXmlFilePath(fileName)
                     .orElseThrow(() -> new MyException("File: " + fileName + " doesn't exist"));
             List<Composition> importXML = ImportXML.importXML(path);
             if (importXML.isEmpty()) {
