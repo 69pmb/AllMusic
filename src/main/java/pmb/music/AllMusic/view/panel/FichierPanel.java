@@ -200,15 +200,15 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(inputs)
                 .withLabel("Année(s) du classement : ").withPanelWidth(270).withComponentWidth(140).withLabelWidth(180)
                 .withFlowLayout(true).build();
-        // Categorie
-        cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getCat))
-                .withFlowLayout(true).withLabel("Catégorie : ").withPanelWidth(200).withComponentWidth(120)
-                .withLabelWidth(150).build();
         // Type
         type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
                 .withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
                 .withFlowLayout(true).withLabel("Type : ").withPanelWidth(200).withComponentWidth(150)
+                .withLabelWidth(150).build();
+        // Categorie
+        cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
+                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getCat))
+                .withFlowLayout(true).withLabel("Catégorie : ").withPanelWidth(200).withComponentWidth(120)
                 .withLabelWidth(150).build();
         // Deleted
         deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs)
