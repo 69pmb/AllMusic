@@ -53,6 +53,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.utils.ScoreUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
@@ -558,13 +559,13 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                     (String) vector.get(fichierIndex.get(Index.FILE_NAME)));
             if (entry.isPresent()) {
                 LongSummaryStatistics score = entry.get().getValue().parallelStream()
-                        .map(compo -> CompositionUtils.calculateCompositionScore(
+                        .map(compo -> ScoreUtils.getCompositionScore(
                                 OngletPanel.getScore().getLogMax(compo.getRecordType()),
                                 OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
                         .mapToLong(x -> x).summaryStatistics();
                 vector.add(fichierIndex.get(Index.SCORE), Math.round(score.getAverage()));
                 long scoreDeleted = entry.get().getValue().parallelStream().filter(Composition::isDeleted)
-                        .map(compo -> CompositionUtils.calculateCompositionScore(
+                        .map(compo -> ScoreUtils.getCompositionScore(
                                 OngletPanel.getScore().getLogMax(compo.getRecordType()),
                                 OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
                         .mapToLong(x -> x).sum();

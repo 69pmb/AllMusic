@@ -49,6 +49,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
+import pmb.music.AllMusic.utils.ScoreUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.panel.ImportPanel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
@@ -511,8 +512,8 @@ public class AppTest {
     }
 
     public static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName) {
-        BigDecimal doubleMedian = CompositionUtils.getDoubleMedian(importXML);
-        BigDecimal logMax = CompositionUtils.getLogMax(importXML);
+        BigDecimal doubleMedian = ScoreUtils.getDoubleMedianRanking(importXML);
+        BigDecimal logMax = ScoreUtils.getLogMax(importXML);
 
         Map<String, String> criteria = new HashMap<>();
         criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
@@ -526,7 +527,7 @@ public class AppTest {
             vector.add(type.toString());
             vector.add(String.valueOf(composition.getFiles().stream().filter(f -> f.getCategorie() != Cat.YEAR)
                     .findFirst().orElse(composition.getFiles().get(0)).getPublishYear()));
-            long sumPts = CompositionUtils.calculateCompositionScore(logMax, doubleMedian, composition);
+            long sumPts = ScoreUtils.getCompositionScore(logMax, doubleMedian, composition);
             if (sumPts > 0) {
                 vector.add(sumPts);
                 result.add(vector);

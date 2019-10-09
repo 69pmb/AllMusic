@@ -126,7 +126,7 @@ public final class FichierUtils {
             if (getComposition) {
                 Composition compo = optCompo.get();
                 // Score
-                v.addElement(CompositionUtils.calculateCompositionScore(
+                v.addElement(ScoreUtils.getCompositionScore(
                         OngletPanel.getScore().getLogMax(compo.getRecordType()),
                         OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo));
                 // Rank
