@@ -49,7 +49,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
-import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
@@ -449,7 +449,7 @@ public final class PanelUtils {
         edited.getFiles().stream().forEach(file -> {
             String newUuid = MiscUtils.getUuid();
             newUuids.add(newUuid);
-            List<Composition> xmlFile = ImportXML.importXML(FichierUtils.buildXmlFilePath(file.getFileName()).orElse(""));
+            List<Composition> xmlFile = ImportXML.importXML(FilesUtils.buildXmlFilePath(file.getFileName()).orElse(""));
             xmlFile = PanelUtils.splitComposition(xmlFile, t1, t2, edited.getUuids(), Arrays.asList(newUuid), false);
             try {
                 ExportXML.exportXML(CompositionUtils.sortByRank(xmlFile), file.getFileName());

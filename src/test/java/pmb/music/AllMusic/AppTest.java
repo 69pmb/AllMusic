@@ -46,7 +46,7 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
-import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.utils.ScoreUtils;
@@ -77,7 +77,7 @@ public class AppTest {
 
     private static void setUuidForAllFiles() {
         List<File> files = new ArrayList<>();
-        FichierUtils.listFilesForFolder(new File(Constant.getXmlPath()), files,
+        FilesUtils.listFilesForFolder(new File(Constant.getXmlPath()), files,
                 Constant.XML_EXTENSION, true);
         files.stream().forEach(file -> {
             try {
@@ -133,12 +133,12 @@ public class AppTest {
         List<String> authorList = Arrays.asList(OngletPanel.getAuthorList());
         for (String author : authorList) {
             List<File> files = new ArrayList<>();
-            FichierUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory() + FileUtils.FS + author), files,
+            FilesUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory() + FileUtils.FS + author), files,
                     Constant.TXT_EXTENSION, true);
             for (File file : files) {
                 String filename = StringUtils.substringBeforeLast(file.getName(), Constant.TXT_EXTENSION);
                 if (StringUtils.startsWith(
-                        FichierUtils.readFirstLine(FichierUtils.buildTxtFilePath(filename, author).get()).get(),
+                        FilesUtils.readFirstLine(FilesUtils.buildTxtFilePath(filename, author).get()).get(),
                         Constant.IMPORT_PARAMS_PREFIX)) {
                     continue;
                 }
@@ -174,7 +174,7 @@ public class AppTest {
                             result.put(ImportPanel.IMPORT_PARAM_SORTED, String.valueOf(fichier.getSorted()));
                             result.put(ImportPanel.IMPORT_PARAM_PUBLISH_YEAR, String.valueOf(fichier.getPublishYear()));
                             result.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(fichier.getSize()));
-                            FichierUtils.writeMapInTxtFile(file, result);
+                            FilesUtils.writeMapInTxtFile(file, result);
                         }
                     } catch (MyException e) {
                         LOG.error("Error file: " + filename, e);
@@ -206,13 +206,13 @@ public class AppTest {
     private static List<Map<String, String>> findImportParamsForOneFile(String filename, String auteur,
             List<Composition> xml, StringBuilder log) {
         log.append("File: " + filename + Constant.NEW_LINE);
-        File file = new File(FichierUtils.buildTxtFilePath(filename, auteur).get());
+        File file = new File(FilesUtils.buildTxtFilePath(filename, auteur).get());
         boolean guessIfRevertArtist = guessIfRevertArtist(file);
         List<Map<String, String>> list = new ArrayList<>();
         List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
         if (randomLineAndLastLines.size() < 6) {
             log.append("Too small: " + filename + Constant.NEW_LINE);
-            String first = FichierUtils.readFirstLine(file.getAbsolutePath()).get();
+            String first = FilesUtils.readFirstLine(file.getAbsolutePath()).get();
             Map<String, String> findParams = findParams(filename, xml, Arrays.asList(first),
                     ImportFile.getSeparator(first), 0, 0, log);
             if (!findParams.isEmpty()) {
@@ -561,7 +561,7 @@ public class AppTest {
      */
     public static void randomLineTest() {
         List<File> files = new ArrayList<>();
-        FichierUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory()), files, Constant.TXT_EXTENSION, true);
+        FilesUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory()), files, Constant.TXT_EXTENSION, true);
         for (File file : files) {
             LOG.error(file.getName());
             Fichier fichier = ImportFile.convertOneFile(file);

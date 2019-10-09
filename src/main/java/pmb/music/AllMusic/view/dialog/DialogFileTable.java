@@ -39,6 +39,7 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FichierUtils;
+import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.MyException;
 import pmb.music.AllMusic.view.ColumnIndex;
@@ -191,7 +192,7 @@ public class DialogFileTable {
         // On récupère la composition à modifier
         String fileName = (String) selected.get(DialogFileTable.getIndex().get(Index.FILE_NAME));
         List<String> uuid = MiscUtils.stringToUuids((String) selected.get(DialogFileTable.getIndex().get(Index.UUID)));
-        List<Composition> xmlFile = ImportXML.importXML(FichierUtils.buildXmlFilePath(fileName)
+        List<Composition> xmlFile = ImportXML.importXML(FilesUtils.buildXmlFilePath(fileName)
                 .orElseThrow(() -> new MyException("File doesn't exist: " + fileName)));
         Composition edited = CompositionUtils.findByUuid(xmlFile, uuid).orElseThrow(() -> new MyException("Can't find edited composition: " + selected));
         List<Fichier> files = CompositionUtils.findByUuid(importXML, uuid).map(Composition::getFiles).orElse(new ArrayList<Fichier>());
@@ -216,9 +217,9 @@ public class DialogFileTable {
         edited.setDeleted(Boolean.valueOf(editedRow.get(DialogFileTable.getIndex().get(Index.DELETED))));
 
         // Remove edited fichier in final file
-        PanelUtils.removeFichierFromComposition(importXML, uuid, FichierUtils.filterFile(selected, DialogFileTable.getIndex()));
+        PanelUtils.removeFichierFromComposition(importXML, uuid, FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
         // Remove edited fichier in displayed list
-        PanelUtils.removeFichierFromComposition(compoList, uuid, FichierUtils.filterFile(selected, DialogFileTable.getIndex()));
+        PanelUtils.removeFichierFromComposition(compoList, uuid, FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
 
         Optional<Composition> compoExist = ImportXML.findAndMergeComposition(importXML, edited, true);
         if (compoExist.isPresent()) {
@@ -231,7 +232,7 @@ public class DialogFileTable {
             LOG.debug("Updates search panel data");
             List<Composition> searchPanelCompo = OngletPanel.getSearch().getCompoResult();
             if (CompositionUtils.findByUuid(searchPanelCompo, uuid).isPresent()) {
-                PanelUtils.removeFichierFromComposition(searchPanelCompo, uuid, FichierUtils.filterFile(selected, DialogFileTable.getIndex()));
+                PanelUtils.removeFichierFromComposition(searchPanelCompo, uuid, FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
             }
             ImportXML.findAndMergeComposition(searchPanelCompo, edited, true);
             OngletPanel.getSearch().updateTable();
