@@ -77,14 +77,11 @@ public final class ImportFile {
      * @param fichier {@link Fichier} contenant des infos récupérées précédemment
      * @param type {@link RecordType} chanson ou album
      * @param separator {@link String} le séparateur entre l'artiste et le titre
-     * @param result {@code List<String>} le message qui sera affiché à la fin du
-     *            traitement
+     * @param result {@code List<String>} le message qui sera affiché à la fin du traitement
      * @param artistFirst si l'artiste est en 1er
-     * @param reverseArtist si l'artiste est par exemple: {@literal Beatles, The} et
-     *            doit etre retourné
+     * @param reverseArtist si l'artiste est par exemple: {@literal Beatles, The} et doit etre retourné
      * @param parenthese si des parenthèse sont à supprimer à la fin de chaque ligne
-     * @param upper si il n'y a pas de séparateur mais que l'artiste est en
-     *            majuscule et pas le titre
+     * @param upper si il n'y a pas de séparateur mais que l'artiste est en majuscule et pas le titre
      * @param removeAfter si plusieurs séparateurs, supprimer après le dernier
      * @return {@code List<Composition>} la liste de compos extraite du fichier
      * @throws MajorException if a line can't be parsed
@@ -110,6 +107,11 @@ public final class ImportFile {
             }
         } catch (NumberFormatException | IOException e1) {
             throw new MajorException(e1.toString(), e1);
+        }
+        if (!StringUtils.equalsIgnoreCase(fichier.getAuthor(), Constant.VARIOUS_AUTHOR)
+                && (!StringUtils.startsWithIgnoreCase(fichier.getFileName(), fichier.getAuthor() + Constant.FILE_NAME_SEPARATOR)
+                        || !StringUtils.endsWithIgnoreCase(fichier.getFileName(), Constant.FILE_NAME_SEPARATOR + String.valueOf(fichier.getPublishYear())))) {
+            result.add("### Incorrect file name: " + fichier.getFileName() + ", it must start with author and end with publish year");
         }
         LOG.debug(result);
         LOG.debug("End getCompositionsFromFile");
@@ -181,7 +183,7 @@ public final class ImportFile {
         } else {
             char[] array = line.toCharArray();
             int cut = 0;
-            for (int k = 0; k < array.length; k++) {
+            for (int k = 0 ; k < array.length ; k++) {
                 if (!Character.isUpperCase(array[k]) && Character.isAlphabetic(array[k])) {
                     cut = k - 1;
                     break;
@@ -215,8 +217,7 @@ public final class ImportFile {
      *
      * @param line {@link String} laligne à couper
      * @param separator {@link String} le séparateur
-     * @param result {@code List<String>} la liste des messages à afficher à
-     *            l'utilisateur
+     * @param result {@code List<String>} la liste des messages à afficher à l'utilisateur
      * @param lineNb le numéro de la ligne dans le fichier
      * @return {@code String[]} la ligne coupée
      * @throws MajorException si la ligne est coupée en plus de 2 morceaux
@@ -483,7 +484,7 @@ public final class ImportFile {
     private static List<String> matchPart(String[] split, String regex) {
         List<String> res = new ArrayList<>();
         if (regex.equals(Constant.TWO_DIGITS)) {
-            for (int i = 0; i < split.length; i++) {
+            for (int i = 0 ; i < split.length ; i++) {
                 String str = split[i].trim();
                 if (str.matches(regex) && (split[i + 1].startsWith("s") || split[i + 1].startsWith("'"))) {
                     res.add(str);
@@ -501,8 +502,7 @@ public final class ImportFile {
     }
 
     /**
-     * Détermine si les enregistrements sont triés (ou numérotés) ou non dans le
-     * fichier.
+     * Détermine si les enregistrements sont triés (ou numérotés) ou non dans le fichier.
      *
      * @param line une ligne au hasard.
      * @return {@code true} si oui, {@code false} sinon
@@ -550,8 +550,7 @@ public final class ImportFile {
     }
 
     /**
-     * Retourne dans l'ordre les 3 premières lignes, une ligne au hasard et les 2
-     * dernières lignes du fichier donné et la derniere ligne non vide.
+     * Retourne dans l'ordre les 3 premières lignes, une ligne au hasard et les 2 dernières lignes du fichier donné et la derniere ligne non vide.
      *
      * @param file le fichier
      * @return une liste de 6 String
@@ -584,7 +583,7 @@ public final class ImportFile {
             lines.add(StringUtils.trim(br.readLine()));
             // Random line
             int rand = ThreadLocalRandom.current().nextInt(startingRandom + 1, countLines - 1);
-            for (int i = startingRandom; i < rand; i++) {
+            for (int i = startingRandom ; i < rand ; i++) {
                 line = StringUtils.trim(br.readLine());
             }
             int count = rand;
@@ -637,8 +636,7 @@ public final class ImportFile {
      * Checks if the given line is valid, ie might contains a composition.
      *
      * @param line the line to check
-     * @return false if the line is too short, a comment, import params or empty,
-     *         true otherwise
+     * @return false if the line is too short, a comment, import params or empty, true otherwise
      */
     public static boolean isValidLine(String line) {
         return StringUtils.isNotBlank(line) && !StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX)
@@ -649,8 +647,8 @@ public final class ImportFile {
      * Compte le nombre de ligne dans le fichier.
      *
      * @param filename le nom du fichier
-     * @param validLine true on compte seulement les lignes valides, plus longue que
-     *            5 caractères et non commentées, false on compte toutes les lignes.
+     * @param validLine true on compte seulement les lignes valides, plus longue que 5 caractères et non commentées, false on compte toutes les
+     *            lignes.
      * @return un nombre
      * @throws IOException if error when readind file
      */

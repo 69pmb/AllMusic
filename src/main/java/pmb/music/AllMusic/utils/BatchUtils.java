@@ -374,16 +374,16 @@ public final class BatchUtils {
         List<String> res = new ArrayList<>();
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         Arrays.asList(OngletPanel.getAuthorList()).parallelStream().forEach(author -> {
-            if (StringUtils.equalsIgnoreCase(author, "Divers")) {
+            if (StringUtils.equalsIgnoreCase(author, Constant.VARIOUS_AUTHOR)) {
                 return;
             }
             Map<String, String> criteria = new HashMap<>();
             criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
             res.addAll(SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, false)
                     .parallelStream().map(Composition::getFiles).flatMap(List::stream)
-                    .filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + " - ")
+                    .filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + Constant.FILE_NAME_SEPARATOR)
                             || !StringUtils.endsWithIgnoreCase(f.getFileName(),
-                                    " - " + String.valueOf(f.getPublishYear()))))
+                                    Constant.FILE_NAME_SEPARATOR + String.valueOf(f.getPublishYear()))))
                     .map(f -> f.getFileName() + " # " + String.valueOf(f.getPublishYear())).distinct().sorted()
                     .collect(Collectors.toList()));
         });
